@@ -12,7 +12,7 @@ World's Most Loved Python & AI Program for Kids & Teens
 
 Python for kids is the best way to transition from visual block coding like Scratch to real text-based programming. Our Python course for kids teaches through hands-on projects your child will love, from building games and chatbots to creating web apps and AI models. Students from 25+ countries learn with us in live 1-on-1 sessions.
 
-Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in Python and AI classes for my child)1500+ Students EnrolledRated 4.9/5 by Parents100% Live Online ClassesBatches: 5-8 Students OnlyFree Demo Class
+Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in Python and AI classes for my child)1500+ Students EnrolledRated 4.9/5 by Parents100% Live Online ClassesBatches: 15-20 Students OnlyFree Demo Class
 
 Why This Language? Why Now?
 
@@ -278,7 +278,7 @@ Group Class
 per month · 2 classes/week
 
 - Live online classes (60 min)
-- Batch of up to 10 students
+- Batch of up to 20 students
 - Recorded sessions access
 - Doubt-solving sessions
 - Certificate on completion
@@ -286,13 +286,13 @@ per month · 2 classes/week
 
 Book Free Demo →Most Popular
 
-Mini Batch · 3-4 Kids
+Mini Batch · up to 6 Kids
 
 ₹2,499
 
 per month · 2 classes/week
 
-- **Micro batch of just 3-4 students**
+- **Micro batch of up to 6 students**
 - Near 1-on-1 teacher attention
 - Live doubt-clearing every class
 - Recorded sessions access
@@ -325,7 +325,7 @@ Frequently Asked Questions
 
 Real answers, no marketing fluff.
 
-What age can my child start learning Python?+We recommend starting Python from age 8. We begin with block coding (Scratch) for ages 6-8 to build logic, then transition to Python. By age 10, most kids are writing working Python programs. There's no "too early". We adapt the curriculum to each child's pace.Is AI too complex for kids and teens?+Not with our approach. Our AI curriculum for kids (6-12) uses visual tools, no-code AI platforms, and fun experiments, like training a camera to recognise hand gestures. For teens, we gradually introduce Python libraries and mathematical concepts in context of real projects, making AI feel exciting, not intimidating.How long does it take to learn Python well?+With our structured roadmap, most kids achieve solid Python fundamentals in 3-4 months (2 classes/week). Teens reach a project-ready, portfolio-grade level in 4-6 months. The AI and ML specialisation adds another 4-6 months. We never rush, quality over speed.My child has no coding experience. Is that okay?+Absolutely. Most of our students start from zero. Our beginner courses assume no prior knowledge. The first class involves writing a working Python program, by the end of the session, every student leaves with something they built themselves.What if my child misses a class?+Every class is recorded and the recording is provided in your child's dashboard. We also schedule make-up sessions for students who miss multiple classes. No one gets left behind.How are your classes different from YouTube tutorials?+YouTube is passive. Our classes are live, interactive, and taught in small groups of 5-8 students. Your child can ask questions in real time, get code reviewed, and get personalised feedback. We also assign projects, track progress, and provide structured doubt-solving sessions. The accountability and community make all the difference.Do you offer a free trial?+Yes! We offer a completely free demo class with a live instructor. No payment required, no commitment. You see the teaching style, your child experiences the class, and then you decide. Book it below, slots fill up fast.
+What age can my child start learning Python?+We recommend starting Python from age 8. We begin with block coding (Scratch) for ages 6-8 to build logic, then transition to Python. By age 10, most kids are writing working Python programs. There's no "too early". We adapt the curriculum to each child's pace.Is AI too complex for kids and teens?+Not with our approach. Our AI curriculum for kids (6-12) uses visual tools, no-code AI platforms, and fun experiments, like training a camera to recognise hand gestures. For teens, we gradually introduce Python libraries and mathematical concepts in context of real projects, making AI feel exciting, not intimidating.How long does it take to learn Python well?+With our structured roadmap, most kids achieve solid Python fundamentals in 3-4 months (2 classes/week). Teens reach a project-ready, portfolio-grade level in 4-6 months. The AI and ML specialisation adds another 4-6 months. We never rush, quality over speed.My child has no coding experience. Is that okay?+Absolutely. Most of our students start from zero. Our beginner courses assume no prior knowledge. The first class involves writing a working Python program, by the end of the session, every student leaves with something they built themselves.What if my child misses a class?+Every class is recorded and the recording is provided in your child's dashboard. We also schedule make-up sessions for students who miss multiple classes. No one gets left behind.How are your classes different from YouTube tutorials?+YouTube is passive. Our classes are live, interactive, and taught in groups of 15-20 students. Your child can ask questions in real time, get code reviewed, and get personalised feedback. We also assign projects, track progress, and provide structured doubt-solving sessions. The accountability and community make all the difference.Do you offer a free trial?+Yes! We offer a completely free demo class with a live instructor. No payment required, no commitment. You see the teaching style, your child experiences the class, and then you decide. Book it below, slots fill up fast.
 
 Book Your Free Demo
 

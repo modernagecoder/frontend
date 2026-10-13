@@ -228,7 +228,7 @@ module.exports = {
       { h3: 'Working first', p: 'Every build starts with a path that runs end to end.' },
       { h3: 'Real data', p: 'Practice with public data sources and APIs.' },
       { h3: 'Team habits', p: 'Splitting and joining work without breaking it.' },
-      { h3: 'Groups of five to ten', p: 'Peers to build and pitch alongside.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Peers to build and pitch alongside.' },
       { h3: 'One-to-one option', p: 'For a student preparing for a specific event.' },
       { h3: 'No prize promised', p: 'Judges decide; we teach students to ship.' }
     ]
@@ -242,7 +242,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Lessons are billed monthly in US dollars at our international rate, with no joining fee and no lock-in. Hackathon registration is handled by each event\'s organiser, separately from us.',
     free: ['A first practice build with a teacher, free', 'An honest view of readiness for a first event', 'No card needed'],
-    group: ['Five to ten students at a similar level', 'One teacher for the term', 'Timed builds reviewed together', 'A certificate when finished'],
+    group: ['Fifteen to twenty students at a similar level', 'One teacher for the term', 'Timed builds reviewed together', 'A certificate when finished'],
     one: ['A teacher for one student', 'Preparation aimed at a chosen event', 'Weekly times that fit study']
   },
 

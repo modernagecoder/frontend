@@ -225,7 +225,7 @@ module.exports = {
     cells: [
       { h3: 'Grids on paper', p: 'Children draw and fill logic grids as they reason.' },
       { h3: 'Explain the deduction', p: 'Every placed answer comes with its reason.' },
-      { h3: 'Five to ten per group', p: 'Children at similar levels learn together.' },
+      { h3: 'Fifteen to twenty per group', p: 'Children at similar levels learn together.' },
       { h3: 'One-to-one lessons', p: 'Available when focused help suits better.' },
       { h3: 'Not test coaching', p: 'We teach reasoning and maths, not test drills.' },
       { h3: 'No admissions claims', p: 'Selection is the academies\' decision alone.' }
@@ -240,7 +240,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Queensland families pay each month in US dollars, our rate in every country except India. No deposit, and you can stop at any month end.',
     free: ['A real lesson with a teacher', 'Honest advice about next steps', 'No card required'],
-    group: ['Five to ten children at one level', 'One regular teacher', 'Feedback on every puzzle', 'Certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'One regular teacher', 'Feedback on every puzzle', 'Certificate at the end'],
     one: ['One teacher, one child', 'Focus on chosen skills', 'Times that suit you']
   },
 

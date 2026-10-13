@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Ealing famili
 canonical: https://learn.modernagecoders.com/coding-classes-in-ealing-london
 source: src/pages/coding-classes-in-ealing-london.html
 ---
-> Ealing is the west London borough of Ealing Broadway, Acton, Southall, Greenford, Hanwell, Northolt and Perivale, and the 2021 Census counted 367,115 residents. The council lists thirteen libraries, and Ealing Broadway alone is served by the Central, District and Elizabeth lines and Great Western Railway. A class that suits a learner here should teach them to work out how a published number was made, and the project on this page does that with the River Brent at Greenford. Our teachers teach live on video from India, in groups of five to ten at one level or one to one, for ages 6 to 67. The first lesson costs nothing; after that a group place is USD 100 a month and one-to-one teaching USD 150.
+> Ealing is the west London borough of Ealing Broadway, Acton, Southall, Greenford, Hanwell, Northolt and Perivale, and the 2021 Census counted 367,115 residents. The council lists thirteen libraries, and Ealing Broadway alone is served by the Central, District and Elizabeth lines and Great Western Railway. A class that suits a learner here should teach them to work out how a published number was made, and the project on this page does that with the River Brent at Greenford. Our teachers teach live on video from India, in groups of fifteen to twenty at one level or one to one, for ages 6 to 67. The first lesson costs nothing; after that a group place is USD 100 a month and one-to-one teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Ealing
 
@@ -12,11 +12,11 @@ London Borough of Ealing / Live online
 
 # Coding classes in Ealing
 
-**What are the best coding classes in Ealing?** Ealing is the west London borough of Ealing Broadway, Acton, Southall, Greenford, Hanwell, Northolt and Perivale, and the 2021 Census counted 367,115 residents. The council lists thirteen libraries, and Ealing Broadway alone is served by the Central, District and Elizabeth lines and Great Western Railway. A class that suits a learner here should teach them to work out how a published number was made, and the project on this page does that with the River Brent at Greenford. Our teachers teach live on video from India, in groups of five to ten at one level or one to one, for ages 6 to 67. The first lesson costs nothing; after that a group place is USD 100 a month and one-to-one teaching USD 150.
+**What are the best coding classes in Ealing?** Ealing is the west London borough of Ealing Broadway, Acton, Southall, Greenford, Hanwell, Northolt and Perivale, and the 2021 Census counted 367,115 residents. The council lists thirteen libraries, and Ealing Broadway alone is served by the Central, District and Elizabeth lines and Great Western Railway. A class that suits a learner here should teach them to work out how a published number was made, and the project on this page does that with the River Brent at Greenford. Our teachers teach live on video from India, in groups of fifteen to twenty at one level or one to one, for ages 6 to 67. The first lesson costs nothing; after that a group place is USD 100 a month and one-to-one teaching USD 150.
 
 Every fifteen minutes the Environment Agency publishes how much water is flowing down the River Brent at Greenford, in cubic metres a second. Nobody is out there measuring it. What the gauge records is the height of the water; the flow is worked out from that height with a formula called a rating, fixed by occasional field measurements. The formula itself is not printed alongside the data. But ten years of heights and flows, side by side, are enough to find it. Our learners try one smooth power curve first and land within two per cent most of the time, which sounds like success until they look at the floods, where the same curve overstates the river by about a third. Split the formula into two pieces at a water level of 0.32 m and the error falls below a tenth of a per cent almost everywhere. The published number was two formulas all along.
 
-Facts last verified 25 September 2026. Teaching is online; no Ealing branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Ealing branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for Ealing learners
 
@@ -174,7 +174,7 @@ No part of the borough is nearer an online lesson than any other.
 - **Home or library** Most learners join from home; a library table and a headset work when home is busy.
 - **English stages and exams** Key Stages, Year 9 options, GCSEs, A levels, T Levels and the EPQ are named as English schools name them. Every lesson is in English.
 - **Start with a free lesson** The first lesson is real work with a teacher and ends with a suggested level and course. No payment details are asked for.
-- **Groups by level** Five to ten learners at the same stage, from Ealing and much further afield, so there is a group at a workable hour.
+- **Groups by level** Fifteen to twenty learners at the same stage, from Ealing and much further afield, so there is a group at a workable hour.
 - **Twice a week, term aware** Most groups meet twice weekly and pause for half terms, holidays and exam weeks by agreement.
 - **Your clock, your times** The teacher is in India, but every invitation and reminder we send shows the time as it reads in Ealing.
 
@@ -185,7 +185,7 @@ No part of the borough is nearer an online lesson than any other.
 One free lesson, then a single monthly fee, the same across the borough.
 
 - First class: USD 0. A full lesson with a teacher at no charge, finishing with a suggested level, course and weekly slot.
-- Group tuition: USD 100 a month. Roughly eight live lessons each month with five to ten learners at one stage.
+- Group tuition: USD 100 a month. Roughly eight live lessons each month with fifteen to twenty learners at one stage.
 - Private tuition: USD 150 a month. Roughly eight live lessons each month with a teacher for one learner.
 
 Ealing families are billed in US dollars, as is everyone outside India, and our site shows no pound prices. You pay nothing until the free lesson is behind you and a course and regular time are agreed; the pricing page covers pauses, missed lessons and switching between group and one-to-one.
@@ -226,11 +226,11 @@ No. There is no Ealing centre and no premises anywhere in the UK, because all te
 
 ### What do coding classes in Ealing cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How big are the groups?
 
-Five to ten learners, grouped by level, pace and goals rather than age or neighbourhood. If no group fits the learner's week, one-to-one lessons are the alternative.
+Fifteen to twenty learners, grouped by level, pace and goals rather than age or neighbourhood. If no group fits the learner's week, one-to-one lessons are the alternative.
 
 ## More boroughs, and the rest of the UK
 

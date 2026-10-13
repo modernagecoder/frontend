@@ -4,7 +4,7 @@ description: "Live online vibe coding, AI agents, Python and coding classes for 
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-west-bromwich
 source: src/pages/vibe-coding-and-ai-agents-classes-in-west-bromwich.html
 ---
-> Sandwell, the borough that includes West Bromwich, counted 341,832 people at the 2021 census, and the ONS gives 103,110 for the West Bromwich built-up area, with Smethwick, Tipton and Oldbury next in size. Children and teenagers make up a clearly bigger share than across England. From Tipton to Cradley Heath, anyone aged 6 to 67 can learn vibe coding, AI agents, Python, coding and maths in live video lessons with our India-based tutors, taught solo or alongside five to ten classmates of similar ability. Vibe coding means describing what you want to an AI and letting it write the code; we teach it the careful way, so the learner plans first and checks every line. The first lesson is free. Carrying on after that is USD 100 monthly for a shared class, or USD 150 monthly for private tuition.
+> Sandwell, the borough that includes West Bromwich, counted 341,832 people at the 2021 census, and the ONS gives 103,110 for the West Bromwich built-up area, with Smethwick, Tipton and Oldbury next in size. Children and teenagers make up a clearly bigger share than across England. From Tipton to Cradley Heath, anyone aged 6 to 67 can learn vibe coding, AI agents, Python, coding and maths in live video lessons with our India-based tutors, taught solo or alongside fifteen to twenty classmates of similar ability. Vibe coding means describing what you want to an AI and letting it write the code; we teach it the careful way, so the learner plans first and checks every line. The first lesson is free. Carrying on after that is USD 100 monthly for a shared class, or USD 150 monthly for private tuition.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / West Bromwich
 
@@ -12,11 +12,11 @@ West Bromwich, Sandwell, West Midlands, England / Live online
 
 # Vibe coding and AI agents classes in West Bromwich
 
-**Where can West Bromwich learners find the best vibe coding and AI agents classes?** Sandwell, the borough that includes West Bromwich, counted 341,832 people at the 2021 census, and the ONS gives 103,110 for the West Bromwich built-up area, with Smethwick, Tipton and Oldbury next in size. Children and teenagers make up a clearly bigger share than across England. From Tipton to Cradley Heath, anyone aged 6 to 67 can learn vibe coding, AI agents, Python, coding and maths in live video lessons with our India-based tutors, taught solo or alongside five to ten classmates of similar ability. Vibe coding means describing what you want to an AI and letting it write the code; we teach it the careful way, so the learner plans first and checks every line. The first lesson is free. Carrying on after that is USD 100 monthly for a shared class, or USD 150 monthly for private tuition.
+**Where can West Bromwich learners find the best vibe coding and AI agents classes?** Sandwell, the borough that includes West Bromwich, counted 341,832 people at the 2021 census, and the ONS gives 103,110 for the West Bromwich built-up area, with Smethwick, Tipton and Oldbury next in size. Children and teenagers make up a clearly bigger share than across England. From Tipton to Cradley Heath, anyone aged 6 to 67 can learn vibe coding, AI agents, Python, coding and maths in live video lessons with our India-based tutors, taught solo or alongside fifteen to twenty classmates of similar ability. Vibe coding means describing what you want to an AI and letting it write the code; we teach it the careful way, so the learner plans first and checks every line. The first lesson is free. Carrying on after that is USD 100 monthly for a shared class, or USD 150 monthly for private tuition.
 
 Vibe coding is the name people now use for building software by describing it to an AI in plain English and accepting the code that comes back. It is fast, it is fun, and it is exactly how many young people meet programming today. An AI agent goes one step further: instead of only writing text, it decides which tools to use, calls them and acts on the results. Our West Bromwich project puts both ideas to work on real local data, the census counts for Sandwell. A learner vibe codes a small agent that answers questions about the borough. Its first answer is more than four and a half times too big, and finding out why teaches more about AI than any tutorial.
 
-Facts last verified 28 September 2026. Teaching is online; no West Bromwich branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 28 September 2026. Teaching is online; no West Bromwich branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Vibe coding, AI agents and thinking courses
 
@@ -139,7 +139,7 @@ Any home in Sandwell with a computer and a reliable connection can join.
 - **The learner drives** Students write, prompt and test the code themselves; the tutor follows the shared screen and asks questions.
 - **Level before year group** Our free trial, more than the school year, sets the first topic for anyone from Year 4 to Year 12, keeping their exam board in view.
 - **A free first lesson** A full lesson at no cost, ending with a clear course suggestion.
-- **Classes at one level** Groups of five to ten UK learners at the same stage.
+- **Classes at one level** Groups of fifteen to twenty UK learners at the same stage.
 - **Twice a week** School holidays stay free of lessons.
 - **A fixed UK time** Our tutors follow the British clock changes, so your slot holds.
 

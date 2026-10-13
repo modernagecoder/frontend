@@ -16,7 +16,7 @@ Castleknock, Dublin 15 / Live online
 
 The Phoenix Park, which Fingal County Council places on Castleknock's doorstep, has a temperature record that begins in 1831. Met Éireann has rescued the daily maximum and minimum readings, taken first at a second-floor window of the Ordnance Survey Office and, from March 1842, in an observatory built in the grounds. For almost six years after the move the thermometers were read both inside that observatory and outside it on the same days, and that overlap is worth more than the decades on either side, because it shows how much the move alone changed the numbers. No comparison of one decade with another can do that. This page teaches the difference between a paired comparison and an unpaired one, using the park next door.
 
-Facts last verified 19 September 2026. Teaching is online; no Castleknock branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Castleknock branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Castleknock learners start
 
@@ -150,7 +150,7 @@ Subtracting two averages is easy. Knowing which two averages may fairly be subtr
 The essentials.
 
 - **Teacher on the call** A teacher leads the lesson in real time and watches each learner's code as it is written.
-- **Grouped by ability** Five to ten learners working at the same level, from Castleknock, other parts of Ireland or abroad.
+- **Grouped by ability** Fifteen to twenty learners working at the same level, from Castleknock, other parts of Ireland or abroad.
 - **A steady schedule** About eight lessons a month, on two regular days set when the course starts.
 - **Breaks planned in** Mid-term breaks, holidays and exam periods are part of the plan from the outset.
 - **The setup** A laptop or desktop, sound and a microphone, and broadband steady enough for video.
@@ -163,7 +163,7 @@ The essentials.
 Three prices.
 
 - First class: USD 0. Lesson one, including a level check: free.
-- Group tuition: USD 100 a month. A month of group lessons, five to ten learners at one level, about eight sessions.
+- Group tuition: USD 100 a month. A month of group lessons, fifteen to twenty learners at one level, about eight sessions.
 - Private tuition: USD 150 a month. A month of private lessons at the same pace.
 
 Outside India every family pays the same US dollar amount per month. The free lesson is exactly that, the first payment falls due when the course starts, and holidays, missed lessons and a switch between group and private teaching are all explained on the pricing page.
@@ -200,7 +200,7 @@ Learners at the same level, who might live in Castleknock, elsewhere in Ireland 
 
 ### What do coding classes in Castleknock cost?
 
-The first lesson is free. A group place is then USD 100 a month for around eight live lessons, two a week, with five to ten learners; one-to-one lessons on the same pattern are USD 150 a month. Terms are agreed before any payment.
+The first lesson is free. A group place is then USD 100 a month for around eight live lessons, two a week, with fifteen to twenty learners; one-to-one lessons on the same pattern are USD 150 a month. Terms are agreed before any payment.
 
 ### How many learners are in each group?
 

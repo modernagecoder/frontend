@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Penarth',
   capsuleQ: 'Where can Penarth families find the best coding and AI classes?',
-  capsule: 'The ONS gives the Penarth built-up area 28,395 usual residents in the 2021 census; the Vale of Glamorgan as a whole had 131,939. Cogan, Lower Penarth and Cosmeston fall inside the built-up area, and its postcodes sit in the St Augustine\'s, Plymouth, Cornerswell, Stanwell and Llandough wards. Penarth learners between six and 67 study coding, AI, Python, vibe coding and maths with us over live video; tutors in India take them one at a time or in level-matched groups of five to ten. A free trial lesson comes first, then a course suggestion. The Penarth project takes 48 years of temperature records from the Met Office station in Bute Park, Cardiff, and asks for the longest chain of years in which each was warmer than the one before, a question whose obvious solution would take years to run. After the free lesson, joining a group costs USD 100 per month; a personal tutor costs USD 150 per month.',
+  capsule: 'The ONS gives the Penarth built-up area 28,395 usual residents in the 2021 census; the Vale of Glamorgan as a whole had 131,939. Cogan, Lower Penarth and Cosmeston fall inside the built-up area, and its postcodes sit in the St Augustine\'s, Plymouth, Cornerswell, Stanwell and Llandough wards. Penarth learners between six and 67 study coding, AI, Python, vibe coding and maths with us over live video; tutors in India take them one at a time or in level-matched groups of fifteen to twenty. A free trial lesson comes first, then a course suggestion. The Penarth project takes 48 years of temperature records from the Met Office station in Bute Park, Cardiff, and asks for the longest chain of years in which each was warmer than the one before, a question whose obvious solution would take years to run. After the free lesson, joining a group costs USD 100 per month; a personal tutor costs USD 150 per month.',
   lead: 'Some questions sound tiny and hide an enormous search. Here is one: in a list of 48 yearly temperatures, which years can you pick, keeping them in order, so that each is warmer than the last, and how long can that chain get? Checking every possible selection means looking at more than 281 trillion of them. A cleverer method needs 1,128 comparisons, and a cleverer one still, borrowed from a card game called patience, needs 141. Penarth learners write all three and time them.',
   wa: 'Hello Modern Age Coders, we would like to book a free coding or AI trial lesson. We are in Penarth.',
 
@@ -158,11 +158,11 @@ module.exports = {
       { h3: 'Learner at the keyboard', p: 'Each line is typed and run by the learner, with the tutor asking for reasons.' },
       { h3: 'We place before we suggest', p: 'The trial lesson shows a learner\'s level before we name a course.' },
       { h3: 'First lesson free', p: 'There is no charge and no card for the trial.' },
-      { h3: 'Five to ten per class', p: 'Learners at one level, joining from around the UK.' },
+      { h3: 'Fifteen to twenty per class', p: 'Learners at one level, joining from around the UK.' },
       { h3: 'Weekly rhythm', p: 'About eight lessons a month in term, with Vale of Glamorgan holidays kept free on request.' },
       { h3: 'Same UK hour', p: 'Clock changes do not move your lesson.' }
     ],
-    spec: { title: 'Why we teach online', p: 'Finding five to ten learners at exactly one level is far easier across the UK than in one town by the sea, and video means no travelling.' }
+    spec: { title: 'Why we teach online', p: 'Finding fifteen to twenty learners at exactly one level is far easier across the UK than in one town by the sea, and video means no travelling.' }
   },
 
   fees: {

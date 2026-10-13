@@ -4,17 +4,17 @@ description: "Maths tuition in London for ages 6 to 67: an online maths tutor fo
 canonical: https://learn.modernagecoders.com/maths-tuition-in-london
 source: src/pages/maths-tuition-in-london.html
 ---
-> We are an online maths tutor for London learners aged 6 to 67. Lessons are live on video with a real teacher, in groups of five to ten learners at one level or one to one. We cover KS2 maths and Year 6 SATs preparation, the Year 4 multiplication tables check, KS3 maths, GCSE maths at foundation or higher tier on the AQA, Edexcel or OCR specification, IGCSE, A level Maths and Further Maths, and adult maths including Functional Skills and GCSE maths resits. Every course mixes exam practice with real data; our London example asks whether 40 Santander Cycles docking stations can tell you the average size of all of them. The first lesson is free. After that a group place is USD 100 a month and one-to-one lessons are USD 150 a month.
+> We are an online maths tutor for London learners aged 6 to 67. Lessons are live on video with a real teacher, in groups of fifteen to twenty learners at one level or one to one. We cover KS2 maths and Year 6 SATs preparation, the Year 4 multiplication tables check, KS3 maths, GCSE maths at foundation or higher tier on the AQA, Edexcel or OCR specification, IGCSE, A level Maths and Further Maths, and adult maths including Functional Skills and GCSE maths resits. Every course mixes exam practice with real data; our London example asks whether 40 Santander Cycles docking stations can tell you the average size of all of them. The first lesson is free. After that a group place is USD 100 a month and one-to-one lessons are USD 150 a month.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in London
 
-London · Online maths tutor for ages 6 to 67 · Groups of five to ten or one to one
+London · Online maths tutor for ages 6 to 67 · Groups of fifteen to twenty or one to one
 
 # Maths tuition in London
 
 Nobody in London has time to measure everything, so mathematicians sample. We put that idea to work on the Santander Cycles network. TfL lists every docking station with its number of docks, so we know the true average: 26.29 docks per station. Then we asked what a learner would conclude from just 40 stations, chosen four different ways, ten thousand times over. A careless sample drawn only from central London lands within one dock of the truth just 39.0% of the time. A well-planned one manages 80.0%. That gap is the heart of GCSE statistics, and this page uses it to show how our online maths tutors teach London learners, from the Year 4 times tables check to Further Maths and adult maths.
 
-At a glance: Learners: Ages 6 to 67, anywhere in London; Primary: KS2 maths, times tables, Year 6 SATs; Secondary: KS3 maths and GCSE, foundation or higher tier; Boards: AQA, Edexcel and OCR, plus IGCSE; Sixth form: A level Maths and Further Maths; Adults: Functional Skills, GCSE resits, refreshers; Format: Live video, groups of 5 to 10 or one to one; London project: Sampling 40 cycle docks out of hundreds. Rated 4.9 across 547 Google reviews.
+At a glance: Learners: Ages 6 to 67, anywhere in London; Primary: KS2 maths, times tables, Year 6 SATs; Secondary: KS3 maths and GCSE, foundation or higher tier; Boards: AQA, Edexcel and OCR, plus IGCSE; Sixth form: A level Maths and Further Maths; Adults: Functional Skills, GCSE resits, refreshers; Format: Live video, groups of 15 to 20 or one to one; London project: Sampling 40 cycle docks out of hundreds. Rated 4.9 across 547 Google reviews.
 
 ## The three maths courses London learners ask for most
 
@@ -237,14 +237,14 @@ Our teachers work from India on Indian Standard Time, which does not change duri
 Charged monthly in US dollars, the same for every country outside India. No registration fee and no contract.
 
 - Free first class: USD 0. A full lesson at the right level. An honest assessment afterwards. No payment details needed.
-- Group batch: USD 100 a month. Five to ten learners of one level. The same teacher each week. Homework marked and discussed. Certificate on completion.
+- Group batch: USD 100 a month. Fifteen to twenty learners of one level. The same teacher each week. Homework marked and discussed. Certificate on completion.
 - One to one: USD 150 a month. A teacher for a single learner. Lessons aimed at specific gaps. Flexible around exam dates.
 
 ## What London families and adult learners ask before booking
 
 ### How much does a maths tutor cost in London?
 
-With us the first lesson is free. After that, a place in a group of five to ten costs USD 100 a month and one-to-one tuition costs USD 150 a month, with no joining fee and no fixed term.
+With us the first lesson is free. After that, a place in a group of fifteen to twenty costs USD 100 a month and one-to-one tuition costs USD 150 a month, with no joining fee and no fixed term.
 
 ### Is online maths tuition as good as face to face?
 

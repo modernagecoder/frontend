@@ -189,7 +189,7 @@ module.exports = {
         ] },
         { kind: 'two', mt: true,
           left: [
-            'Lessons are live on video, so a child in Christchurch, Boscombe, Broadstone or Ferndown is taught the same way, in groups of five to ten matched by level.',
+            'Lessons are live on video, so a child in Christchurch, Boscombe, Broadstone or Ferndown is taught the same way, in groups of fifteen to twenty matched by level.',
             'Our <a class="ag-inline-link" href="/coding-classes-in-united-kingdom">UK page</a> lists every city and county where we write about coding and maths.'
           ],
           right: [
@@ -260,7 +260,7 @@ module.exports = {
     cells: [
       { h3: 'A teacher for the year', p: 'Who learns how your child thinks.' },
       { h3: 'Straight talk', p: 'Brief notes on what is secure and what is not.' },
-      { h3: 'Five to ten per class', p: 'Matched on level.' },
+      { h3: 'Fifteen to twenty per class', p: 'Matched on level.' },
       { h3: 'Written by us', p: 'No Quest or GL material copied.' },
       { h3: 'One to one', p: 'For a stubborn topic.' },
       { h3: 'Maths, nothing else', p: 'No English or reasoning coaching; no admissions advice.' }
@@ -275,7 +275,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'The same monthly US dollar price for every family outside India. No joining fee and no fixed term.',
     free: ['A taught lesson', 'An honest verdict', 'No card needed'],
-    group: ['Five to ten children at one level', 'A regular teacher', 'Work reviewed together', 'Certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'A regular teacher', 'Work reviewed together', 'Certificate at the end'],
     one: ['One child, one teacher', 'Paper One practice', 'Flexible timing']
   },
 

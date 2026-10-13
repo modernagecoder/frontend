@@ -199,7 +199,7 @@ Our teachers are based in India, which does not change its clocks, so the UK is 
 - **Weekend** Longer sessions for project work.
 
 - **A free first class** We check what you know, in any language, and where Java fits for you.
-- **Small groups** Five to ten learners at the same level and age band.
+- **Small groups** Fifteen to twenty learners at the same level and age band.
 - **One to one** For exam timetables or a faster pace.
 - **Console first** Plain console programs before any graphical framework.
 - **Code read closely** A teacher reads your Java and explains what to change and why.
@@ -210,7 +210,7 @@ Our teachers are based in India, which does not change its clocks, so the UK is 
 A single monthly fee in US dollars, identical outside India, with no enrolment fee and no commitment beyond the month you are in.
 
 - Free first class: USD 0. Your current level, in any language. A route into Java that fits your goal. No payment details needed.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher each week. Console practice and projects. Stop at the end of any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. Console practice and projects. Stop at the end of any month.
 - One to one: USD 150 a month. A teacher for you alone. Paced around your exams or work. Suits a board-specific focus.
 
 ## What UK students and adults ask about Java

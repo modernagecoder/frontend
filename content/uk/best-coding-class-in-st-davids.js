@@ -69,7 +69,7 @@ module.exports = {
 
   h1: 'Coding classes in St Davids',
   capsuleQ: 'What are the best coding classes in St Davids?',
-  capsule: 'St Davids and Letterston, the middle-layer area that contains the city, had 7,238 usual residents at the 2021 census and only 34.9 people per square kilometre. Cadw\'s listing dates most of St Davids Cathedral to between 1180 and 1220. Anyone from six to sixty-seven in and around St Davids can join: a teacher in India runs each lesson over a video call, one to one or with five to ten learners at a single level, fitted around the Welsh school day and working hours. The first lesson is free; after it, a class place is USD 100 a month and a teacher to themselves USD 150 a month.',
+  capsule: 'St Davids and Letterston, the middle-layer area that contains the city, had 7,238 usual residents at the 2021 census and only 34.9 people per square kilometre. Cadw\'s listing dates most of St Davids Cathedral to between 1180 and 1220. Anyone from six to sixty-seven in and around St Davids can join: a teacher in India runs each lesson over a video call, one to one or with fifteen to twenty learners at a single level, fitted around the Welsh school day and working hours. The first lesson is free; after it, a class place is USD 100 a month and a teacher to themselves USD 150 a month.',
   lead: 'Ordnance Survey\'s gazetteer calls the city Tyddewi and St Davids, and gives its position on the National Grid. A phone\'s GPS gives a latitude and longitude. Put the grid position through the wrong conversion and St Davids Cathedral lands 83.2 metres away, 44.3 metres north and 70.5 metres west of where GPS would place it. Our St Davids project builds the right conversion from Ordnance Survey\'s own guide: grid to latitude and longitude on the Airy ellipsoid, then a seven-number Helmert transformation to the system GPS uses. Tested against 9,536 Environment Agency gauging stations, it agrees with their published coordinates to within 2.21 metres everywhere.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in St Davids.',
 
@@ -189,7 +189,7 @@ module.exports = {
       { h3: 'City and peninsula', p: 'A learner in Rhodiad-y-Brenin and another in Upper Solva can share one class without anyone making the drive.' },
       { h3: 'Welsh schooling', p: 'Families will recognise our stages: they are matched to Welsh school years and the Curriculum for Wales, with WJEC GCSE and A level course names, though every lesson is taught in English.' },
       { h3: 'How the free lesson works', p: 'The learner builds something real in the first session, and the teacher then suggests a level, a course and a weekly time. We do not ask for a card.' },
-      { h3: 'A class at every stage', p: 'Five to ten learners at one level, drawn from St Davids, the rest of the UK and abroad, so each stage has good times to choose from.' },
+      { h3: 'A class at every stage', p: 'Fifteen to twenty learners at one level, drawn from St Davids, the rest of the UK and abroad, so each stage has good times to choose from.' },
       { h3: 'Two lessons weekly', p: 'Two fixed lessons each week, about eight a month, with holidays and exam weeks planned with the teacher well ahead.' },
       { h3: 'Teachers on Indian time', p: 'A class that starts at five in the afternoon in Pembrokeshire is a late-evening lesson in India, at 21:30 there during British Summer Time and 22:30 in the winter months.' }
     ],
@@ -200,7 +200,7 @@ module.exports = {
     h2: 'St Davids lesson fees',
     intro: 'The first lesson is free, and then one fee is paid each month.',
     first: 'A complete lesson without charge, ending with a suggested level, course and weekly time.',
-    group: 'About eight live lessons a month, in a class of five to ten learners at one stage.',
+    group: 'About eight live lessons a month, in a class of fifteen to twenty learners at one stage.',
     private: 'About eight live lessons a month, with a teacher for your learner alone.',
     closer: 'Families in Whitchurch or Treleddyd-fawr pay in US dollars, like every family outside India, and our site shows no pound prices anywhere. Payment starts only after the free lesson, once you have settled on a course and a weekly time with us; the pricing page explains pauses, missed lessons and moving between a class and one-to-one teaching.'
   },
@@ -225,8 +225,8 @@ module.exports = {
       { q: 'How old is St Davids Cathedral?', a: 'Cadw\'s listing report describes the present building as substantially of 1180 to 1220, built by Bishop Peter de Leia, with the central tower falling in 1220 and the choir rebuilt by 1250. It is listed at Grade I.' },
       { q: 'When do St Davids lessons run?', a: 'Families here usually book a slot after school, on a weekday evening or on a weekend morning, and we fix it in the free lesson. With teachers based in India, an early evening on the peninsula is late at night for them: the gap is four and a half hours while the clocks are on summer time and five and a half hours from late October to late March.' },
       { q: 'Is there a St Davids centre?', a: 'No. We have no centre in St Davids or anywhere else in the UK, because all lessons are live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do St Davids lessons cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than age or location, with five to ten learners at the same stage. Where no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'What do St Davids lessons cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than age or location, with fifteen to twenty learners at the same stage. Where no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

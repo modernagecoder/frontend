@@ -16,7 +16,7 @@ Northern Beaches Council area, Sydney, New South Wales / Live online
 
 Median age changes a lot along the peninsula: 49 around Bayview and Elanora Heights, 36 in the northern part of Dee Why. A simple model can guess an area's median age from the areas next to it. The interesting question is how to test that guess honestly, because nearby areas share so much that a careless test lets the answer leak in.
 
-Facts last verified 10 October 2026. Teaching is online; no Northern Beaches branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Northern Beaches branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses where models get tested, not just trained
 
@@ -199,7 +199,7 @@ Lessons are live online, so the length of the peninsula and the traffic on its m
 - **No commute** Learners join from home on a laptop, with no trip to a centre before or after school.
 - **Follows NSW terms** Plans follow NSW syllabus stages and pause in the NSW school holidays.
 - **Free full trial** The trial is a real lesson that ends with a recommended course, level and time.
-- **Groups of five to ten** Learners are grouped by level and goals, alongside students from other places.
+- **Groups of fifteen to twenty** Learners are grouped by level and goals, alongside students from other places.
 - **Twice weekly** Two fixed lessons each week, about eight a month; agreed breaks are planned ahead.
 - **India-based teachers** A 4:30pm Northern Beaches lesson during daylight saving is 11am in India, and 12 noon there once the clocks go back.
 
@@ -210,7 +210,7 @@ Lessons are live online, so the length of the peninsula and the traffic on its m
 Three figures, and nothing hidden.
 
 - First class: USD 0. The first class is free and finishes with an honest course suggestion.
-- Group tuition: USD 100 a month. One month of group classes, normally eight, with five to ten learners of a similar level.
+- Group tuition: USD 100 a month. One month of group classes, normally eight, with fifteen to twenty learners of a similar level.
 - Private tuition: USD 150 a month. About eight one-to-one lessons a month with the same teacher.
 
 Families outside India pay in US dollars, so every Northern Beaches family sees the same price. Payment starts only after the trial, once the course and time are settled; holiday, absence and format rules sit on the pricing page.
@@ -247,11 +247,11 @@ No. All lessons are live online, we have no premises in Australia, and the phone
 
 ### How much do classes cost for Northern Beaches learners?
 
-The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before payment.
+The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before payment.
 
 ### How big are the groups?
 
-Five to ten learners, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner's time.
+Fifteen to twenty learners, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner's time.
 
 ### Can adults join?
 

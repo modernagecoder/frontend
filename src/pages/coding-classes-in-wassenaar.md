@@ -16,7 +16,7 @@ Wassenaar, Zuid-Holland / Live online
 
 Picture a single ride that takes one minute to load each group of guests. If groups arrive, on average, one every two minutes, the ride is busy half the time and the wait is short. If they arrive a little faster, so that the ride is busy four fifths of the time, the average wait is not a little longer but four times as long. At nine tenths busy it is nine times as long, and at ninety-nine hundredths almost a hundred times. The same arithmetic governs a web server, a database, a checkout, a help desk and the servers that answer AI requests, which is why systems that seem fine at seventy percent load fall apart at ninety-five. Wassenaar, with a theme park inside its borders, is a good place to learn the curve, because a learner who has stood in the queue already has the intuition, and a little mathematics turns it into a rule for building systems.
 
-Facts last verified 11 September 2026. Teaching is online; no Wassenaar branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Wassenaar branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the village of estates and dunes
 
@@ -183,7 +183,7 @@ Wassenaar spreads through woods and dunes from the village to Maaldrift and De K
 - **Among the trees, online** A learner in Rijksdorp and a learner near De Paauw join the lesson at the same moment from home. The woods and dunes between them make no difference to a class that runs on a laptop.
 - **Both school systems welcome** Dutch school words such as groep, brugklas, havo and vwo stay Dutch, and learners from international schools join the same English-language lessons at their own level.
 - **A free first hour** The first session is a full lesson on a real task. The teacher then suggests a level, a course and a regular time, and no payment details are requested.
-- **Groups across countries** Five to ten learners who have reached the same point. Wassenaar has 4,139 residents under fifteen, and five who match on subject, level and hour are rare in a municipality this size, so groups bring in learners from elsewhere.
+- **Groups across countries** Fifteen to twenty learners who have reached the same point. Wassenaar has 4,139 residents under fifteen, and five who match on subject, level and hour are rare in a municipality this size, so groups bring in learners from elsewhere.
 - **Regio Midden holidays** Two lessons a week, about eight a month, at one fixed hour, pausing during the regio Midden holidays that Zuid-Holland schools follow.
 - **Teachers in India** The teachers work three and a half hours ahead of Wassenaar in summer and four and a half in winter, so late afternoons, evenings and weekend mornings all fit.
 
@@ -194,7 +194,7 @@ Wassenaar spreads through woods and dunes from the village to Maaldrift and De K
 The full price, set out in three lines.
 
 - First class: USD 0. A real lesson on a real task, ending with a level and a course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 The fee is a single dollar price for every country, with no euro list, so a family in Kerkehout pays what a family in Oud Wassenaar pays. Nothing is charged until the free lesson has settled a course and a time, and payment is then arranged over WhatsApp. The pricing page explains pauses, changes of format and missed lessons.
@@ -235,7 +235,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Wassenaar coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

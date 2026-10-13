@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Glasgow learn
 canonical: https://learn.modernagecoders.com/best-coding-class-in-glasgow
 source: src/pages/best-coding-class-in-glasgow.html
 ---
-> About 620,700 people lived in Glasgow City at Scotland's 2022 census, up from 593,245 in 2011, with 71.5% aged 15 to 64 compared with 64.6% nationally. The University of Glasgow, established in 1451, is the fourth oldest university in the UK, and in 1881 William Thomson, later Lord Kelvin, lit one of the world's first fully electric houses on its campus. Glaswegians from six to sixty-seven learn with Modern Age Coders live online, privately or in small groups of five to ten matched by level, taught by teachers in India on a UK timetable. There is no fee for the first lesson; after it, groups are USD 100 a month and private lessons USD 150 a month.
+> About 620,700 people lived in Glasgow City at Scotland's 2022 census, up from 593,245 in 2011, with 71.5% aged 15 to 64 compared with 64.6% nationally. The University of Glasgow, established in 1451, is the fourth oldest university in the UK, and in 1881 William Thomson, later Lord Kelvin, lit one of the world's first fully electric houses on its campus. Glaswegians from six to sixty-seven learn with Modern Age Coders live online, privately or in groups of fifteen to twenty matched by level, taught by teachers in India on a UK timetable. There is no fee for the first lesson; after it, groups are USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Glasgow
 
@@ -12,11 +12,11 @@ Glasgow, Scotland / Live online
 
 # Coding classes in Glasgow
 
-**What are the best coding classes in Glasgow?** About 620,700 people lived in Glasgow City at Scotland's 2022 census, up from 593,245 in 2011, with 71.5% aged 15 to 64 compared with 64.6% nationally. The University of Glasgow, established in 1451, is the fourth oldest university in the UK, and in 1881 William Thomson, later Lord Kelvin, lit one of the world's first fully electric houses on its campus. Glaswegians from six to sixty-seven learn with Modern Age Coders live online, privately or in small groups of five to ten matched by level, taught by teachers in India on a UK timetable. There is no fee for the first lesson; after it, groups are USD 100 a month and private lessons USD 150 a month.
+**What are the best coding classes in Glasgow?** About 620,700 people lived in Glasgow City at Scotland's 2022 census, up from 593,245 in 2011, with 71.5% aged 15 to 64 compared with 64.6% nationally. The University of Glasgow, established in 1451, is the fourth oldest university in the UK, and in 1881 William Thomson, later Lord Kelvin, lit one of the world's first fully electric houses on its campus. Glaswegians from six to sixty-seven learn with Modern Age Coders live online, privately or in groups of fifteen to twenty matched by level, taught by teachers in India on a UK timetable. There is no fee for the first lesson; after it, groups are USD 100 a month and private lessons USD 150 a month.
 
 How long is Glasgow's boundary? It sounds like a question with one answer, but measure the official ONS outline with a 3.2-kilometre ruler, walking it stride by stride, and you get 62.49 kilometres. Shrink the ruler to 400 metres and it grows to 88.96. At 25 metres it reaches 106.38, and it would keep growing with a finer map. Every bend in a burn or a road hides smaller bends, so a shorter ruler always finds more length. This is the coastline paradox, and it is the doorway to fractal geometry: plot length against ruler size on logarithmic scales and the points fall close to a straight line, whose slope gives the boundary a fractal dimension of about 1.1, a little more than a smooth line's 1. Measuring it two independent ways, and understanding why the number of kilometres is the wrong question, is the lesson Glasgow's map teaches our teenage learners.
 
-Facts last verified 21 September 2026. Teaching is online; no Glasgow branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 21 September 2026. Teaching is online; no Glasgow branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for Kelvin's city
 
@@ -179,7 +179,7 @@ Glasgow's Subway is quick, but a live online lesson needs no journey at all.
 - **North or south of the Clyde** A learner in Maryhill and another in Pollokshields can share one lesson without either crossing the river.
 - **Primary, secondary and national levels** Primary 1 to 7, the secondary years S1 to S6, then National 5, Higher and Advanced Higher: lessons follow the names Glasgow schools use, taught in English.
 - **A free lesson with a plan** The first lesson teaches something real and closes with a recommended level, course and regular time. No card is requested.
-- **Placed by level** Five to ten learners at one stage, from Glasgow, the rest of the UK and abroad, which keeps a sensible slot open for every level.
+- **Placed by level** Fifteen to twenty learners at one stage, from Glasgow, the rest of the UK and abroad, which keeps a sensible slot open for every level.
 - **Two lessons every week** Two fixed lessons a week, about eight a month, with breaks for holidays and exams arranged with the teacher ahead of time.
 - **Teachers on India time** India Standard Time stays the same all year. Glasgow is four and a half hours behind it during British Summer Time and five and a half behind in winter, which puts after-school and evening slots comfortably inside the teaching day.
 
@@ -190,7 +190,7 @@ Glasgow's Subway is quick, but a live online lesson needs no journey at all.
 A free first lesson, then one of two monthly prices.
 
 - First class: USD 0. A complete lesson with nothing to pay, ending with a level, a suggested course and a weekly slot.
-- Group tuition: USD 100 a month. About eight live lessons each month in a group of five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight live lessons each month in a group of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight live lessons each month with the teacher focused on one learner.
 
 Everyone outside India pays one US dollar fee, so Hyndland and Parkhead pay exactly the same, and we list no prices in pounds. We only bill once the free lesson has settled a course and a weekly slot, and our pricing page explains how pausing, missed lessons and a move between group and private teaching work.
@@ -231,11 +231,11 @@ No. There is no Glasgow centre and no premises anywhere in the UK; all teaching 
 
 ### How much do Glasgow lessons cost?
 
-The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Course, format and time are agreed before any charge.
+The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Course, format and time are agreed before any charge.
 
 ### How are Glasgow groups formed?
 
-By level, pace and aims rather than age or postcode, with five to ten learners at one stage. If no group meets at a good time, we propose one-to-one lessons.
+By level, pace and aims rather than age or postcode, with fifteen to twenty learners at one stage. If no group meets at a good time, we propose one-to-one lessons.
 
 ## Scottish pages and other cities
 

@@ -307,7 +307,7 @@ module.exports = {
     h2: 'City of Manningham class fees',
     intro: 'Three prices, given plainly.',
     first: 'The first lesson is free and closes with a direct recommendation.',
-    group: 'A month of group lessons, normally eight, with five to ten learners at one level.',
+    group: 'A month of group lessons, normally eight, with fifteen to twenty learners at one level.',
     private: 'Close to eight private lessons each month.',
     closer: 'Families outside India are charged in US dollars, so Manningham pays the same as any other family abroad. Charges begin only after the trial has decided the course and time; holidays, absences and format changes are on the pricing page.'
   },
@@ -352,7 +352,7 @@ module.exports = {
       },
       {
         q: 'How much are AI classes for City of Manningham learners?',
-        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before any payment.',
+        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before any payment.',
         boiler: true
       },
       { q: 'How many learners in a group?', a: 'Five to ten, grouped by level, pace and goals, with private lessons when no group time suits.', boiler: true },

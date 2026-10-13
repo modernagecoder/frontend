@@ -51,7 +51,7 @@ module.exports = {
 
   h1: 'Coding classes in Haringey',
   capsuleQ: 'What are the best coding classes in Haringey?',
-  capsule: 'Haringey is the north London borough of Tottenham, Wood Green, Hornsey, Muswell Hill, Crouch End, Highgate and Stroud Green, with 264,238 residents at the 2021 Census and Alexandra Palace on its hill, where Historic England records the world\'s first high-definition television programme was transmitted in 1936. A worthwhile coding class teaches a learner how the security behind every website actually works, and this page does that with cryptography: two people agree a secret number while everyone listens, then learners time how long an eavesdropper would need to work it out. Teachers based in India teach live on video, for learners aged 6 to 67, one to one or in classes of five to ten at the same level. The opening lesson is free; afterwards it is USD 100 a month for a class place or USD 150 a month for private teaching.',
+  capsule: 'Haringey is the north London borough of Tottenham, Wood Green, Hornsey, Muswell Hill, Crouch End, Highgate and Stroud Green, with 264,238 residents at the 2021 Census and Alexandra Palace on its hill, where Historic England records the world\'s first high-definition television programme was transmitted in 1936. A worthwhile coding class teaches a learner how the security behind every website actually works, and this page does that with cryptography: two people agree a secret number while everyone listens, then learners time how long an eavesdropper would need to work it out. Teachers based in India teach live on video, for learners aged 6 to 67, one to one or in classes of fifteen to twenty at the same level. The opening lesson is free; afterwards it is USD 100 a month for a class place or USD 150 a month for private teaching.',
   lead: 'Historic England lists Alexandra Palace partly for the BBC studios where, in 1936, the world\'s first high-definition television programme was transmitted, from a lattice mast that put the aerial 460 feet above sea level. Broadcasting is public by design: anyone with a set could watch. Our learners take on a puzzle that sounds impossible in that setting. Can two people agree a secret number when everything they say is broadcast to the world? The Diffie-Hellman key exchange says yes, using a little modular arithmetic that a Year 9 pupil can follow. Then learners switch sides, become the eavesdropper, and time their own attacks. Each extra bit of key doubles the brute-force work; a cleverer attack called baby-step giant-step square-roots it.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Haringey.',
 
@@ -144,7 +144,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'Wood Green', p: 'TfL\'s open data lists the Piccadilly line at Wood Green.' },
           { h3: 'Highgate to Tottenham Hale', p: 'Learners at the western and eastern edges of the borough can share one class from home.' },
-          { h3: 'A shared secret', p: 'Every class is a small group of five to ten at one stage, where learners get to know the teacher and each other.' }
+          { h3: 'A shared secret', p: 'Every class is a group of fifteen to twenty at one stage, where learners get to know the teacher and each other.' }
         ] },
         { kind: 'spec', title: 'Haringey in London', p: 'Haringey is one of London\'s 32 boroughs. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> lists all of them and the City, linking each as its page is published, including <a class="cg-inline-link" href="/coding-classes-in-enfield-london">Enfield</a> to the north and <a class="cg-inline-link" href="/coding-classes-in-hackney-london">Hackney</a> to the south east.' }
       ]
@@ -181,7 +181,7 @@ module.exports = {
       { h3: 'From home', p: 'A laptop or desktop with headphones and a broadband connection that can handle video is all that is required.' },
       { h3: 'Key Stages we use', p: 'We describe progress in English Key Stages, from the first years of primary school to sixth form, and name GCSE or A level where they apply. All lessons are in English.' },
       { h3: 'A free start', p: 'The first lesson is real teaching, finishing with a suggested level and course; we do not ask for any card details.' },
-      { h3: 'Grouped by stage', p: 'Five to ten learners at one stage share each class, drawn from across the UK and abroad, so a convenient hour is usually on offer.' },
+      { h3: 'Grouped by stage', p: 'Fifteen to twenty learners at one stage share each class, drawn from across the UK and abroad, so a convenient hour is usually on offer.' },
       { h3: 'Twice a week', p: 'Classes usually run on two evenings a week, with breaks for holidays and exams agreed in advance.' },
       { h3: 'UK time', p: 'Teachers work from India; every time in our messages is UK time.' }
     ],
@@ -192,7 +192,7 @@ module.exports = {
     h2: 'Fees for Haringey families',
     intro: 'The first lesson is free; then one monthly fee applies in every part of the borough.',
     first: 'A complete first lesson with a teacher, free, ending with a recommended level, course and time.',
-    group: 'About eight live lessons a month in a class of five to ten at one stage.',
+    group: 'About eight live lessons a month in a class of fifteen to twenty at one stage.',
     private: 'About eight live lessons a month, one to one.',
     closer: 'Haringey families pay in US dollars, like every family outside India, and no sterling prices appear on the site. No payment is taken before the free lesson, or before a course and regular time are chosen. The pricing page explains pauses, missed lessons and switching between group and private lessons.'
   },
@@ -217,8 +217,8 @@ module.exports = {
       { q: 'When would lessons happen?', a: 'After the free lesson we suggest a weekly time in a class at the right level with a place available. Teachers are in India; the time is quoted in UK time.' },
       { q: 'What does a learner need?', a: 'A computer with sound and a steady connection. The cryptography project needs only Python; no data downloads.' },
       { q: 'Is there a Modern Age Coders centre in Haringey?', a: 'No. There is no Haringey centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Haringey cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Haringey cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

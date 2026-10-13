@@ -195,7 +195,7 @@ module.exports = {
         { kind: 'two', mt: true,
           left: [
             'Pate\'s 2027 FAQ says the test is the same on the same day at all seven schools, and that families register once. We expect the same under FSCE, but the schools will confirm the 2028 arrangements.',
-            'Lessons are live on video, so a child in Tewkesbury, the Forest of Dean or the Cotswolds is taught the same way, in groups of five to ten matched by level.'
+            'Lessons are live on video, so a child in Tewkesbury, the Forest of Dean or the Cotswolds is taught the same way, in groups of fifteen to twenty matched by level.'
           ],
           right: [
             'For coding in the county city, see our <a class="ag-inline-link" href="/best-coding-class-in-gloucester">Gloucester coding page</a>.',
@@ -266,7 +266,7 @@ module.exports = {
     cells: [
       { h3: 'One teacher', p: 'The same teacher all year.' },
       { h3: 'Frank updates', p: 'Short, honest notes after lessons.' },
-      { h3: 'Five to ten children', p: 'Matched by level.' },
+      { h3: 'Fifteen to twenty children', p: 'Matched by level.' },
       { h3: 'Our own questions', p: 'No FSCE or GL material copied.' },
       { h3: 'One to one', p: 'When time before July is short.' },
       { h3: 'Maths only', p: 'No English or Compass coaching; no admissions advice.' }
@@ -281,7 +281,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Families outside India all pay the same monthly US dollar fee. There is no joining charge and no minimum term.',
     free: ['A real lesson', 'Honest feedback', 'No card needed'],
-    group: ['Five to ten children, one level', 'The same teacher weekly', 'Work checked together', 'A certificate at the end'],
+    group: ['Fifteen to twenty children, one level', 'The same teacher weekly', 'Work checked together', 'A certificate at the end'],
     one: ['One child, one teacher', 'Paced for a July test', 'Focused on weak areas']
   },
 

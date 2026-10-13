@@ -276,7 +276,7 @@
       },
       {
         "type": "paragraph",
-        "text": "One principle on our <a href='/how-we-teach'>how we teach</a> page is to trace code line by line until the student can predict every step, and recursion is where that pays off most. It is part of our <a href='/python-from-the-ground-up'>Python from the ground up</a> course and our <a href='/data-structures-and-algorithms-course'>data structures and algorithms course</a>, taught live, one to one or in small groups of 5 to 10."
+        "text": "One principle on our <a href='/how-we-teach'>how we teach</a> page is to trace code line by line until the student can predict every step, and recursion is where that pays off most. It is part of our <a href='/python-from-the-ground-up'>Python from the ground up</a> course and our <a href='/data-structures-and-algorithms-course'>data structures and algorithms course</a>, taught live, one to one or in groups of 15 to 20."
       },
       {
         "type": "embed",

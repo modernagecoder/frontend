@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Alkmaar for ages 6 to
 canonical: https://learn.modernagecoders.com/coding-classes-in-alkmaar
 source: src/pages/coding-classes-in-alkmaar.html
 ---
-> Coding classes in Alkmaar serve 113,196 people (Statistics Netherlands, 1 January 2026) across seventeen places, from the city at 92,675 to a hamlet of 85. The published growth since 1995 is 9,187 people. In 2015 the municipality absorbed Graft-De Rijp and Schermer, whose villages held roughly 12,430 people in 2023, which is more than the whole rise. The chart went up because the boundary moved outward. Modern Age Coders teaches live online in English to all seventeen places, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Alkmaar serve 113,196 people (Statistics Netherlands, 1 January 2026) across seventeen places, from the city at 92,675 to a hamlet of 85. The published growth since 1995 is 9,187 people. In 2015 the municipality absorbed Graft-De Rijp and Schermer, whose villages held roughly 12,430 people in 2023, which is more than the whole rise. The chart went up because the boundary moved outward. Modern Age Coders teaches live online in English to all seventeen places, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Alkmaar
 
@@ -12,11 +12,11 @@ Alkmaar, Noord-Holland / Live online
 
 # Coding classes in Alkmaar, where a rising population chart records a boundary rather than a birth rate
 
-**What are the best coding classes in Alkmaar?** Coding classes in Alkmaar serve 113,196 people (Statistics Netherlands, 1 January 2026) across seventeen places, from the city at 92,675 to a hamlet of 85. The published growth since 1995 is 9,187 people. In 2015 the municipality absorbed Graft-De Rijp and Schermer, whose villages held roughly 12,430 people in 2023, which is more than the whole rise. The chart went up because the boundary moved outward. Modern Age Coders teaches live online in English to all seventeen places, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Alkmaar?** Coding classes in Alkmaar serve 113,196 people (Statistics Netherlands, 1 January 2026) across seventeen places, from the city at 92,675 to a hamlet of 85. The published growth since 1995 is 9,187 people. In 2015 the municipality absorbed Graft-De Rijp and Schermer, whose villages held roughly 12,430 people in 2023, which is more than the whole rise. The chart went up because the boundary moved outward. Modern Age Coders teaches live online in English to all seventeen places, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Alkmaar had 104,009 residents in 1995 and 113,196 in 2026, a rise of 9,187. That looks like a growing city. Then read the merger: in 2015 two rural municipalities joined, bringing villages that held about 12,430 people eight years later. Subtract them and the ground that was Alkmaar in 1995 appears to have lost people rather than gained them. Nothing in the published series marks the moment the boundary moved, and a chart that does not mark it is telling you about paperwork while you read it as demography.
 
-Facts last verified 8 September 2026. Teaching is online; no Alkmaar branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 8 September 2026. Teaching is online; no Alkmaar branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city and sixteen villages in the polders
 
@@ -209,7 +209,7 @@ Noordeinde has about 85 residents. Driehuizen has 240. Nothing that needs a room
 Set out here so that nobody has to ask.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 Noordeinde and the city centre are quoted the same number, because one international rate exists, it is in dollars and there is no euro version. Payment comes last: free lesson, then a course and an hour, then a transfer over WhatsApp. Pauses, plan changes and missed weeks are covered on the pricing page.
@@ -250,7 +250,7 @@ No, and none is claimed at the Waag, in De Rijp or anywhere in the Netherlands. 
 
 ### What do Alkmaar coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in an Alkmaar group?
 

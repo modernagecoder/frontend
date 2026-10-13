@@ -16,7 +16,7 @@ Cavan town, County Cavan / Live online
 
 Look at the first digit of every count the census publishes for Irish towns, a quarter of a million of them, and something odd appears: 1 comes first 31.4 percent of the time, 9 only 4.2 percent. That is not a quirk of the census. Real counts that range across many sizes tend to follow a pattern called Benford's law, and invented numbers usually do not. This page builds a checker for it and tests it on four sets of numbers: the census counts, which pass; a batch of made-up numbers, which fail; broadband percentages, where the law was never going to apply; and Cavan town's own 310 published counts, which turn out to be too few to judge either way. The last result is the most important one.
 
-Facts last verified 19 September 2026. Teaching is online; no Cavan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Cavan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Cavan town learners often start
 
@@ -159,7 +159,7 @@ Automated checks are fast and useful. Deciding what a check can prove is still t
 The practicalities.
 
 - **Live throughout** The teacher leads each lesson in real time and works from the learner's own code.
-- **Level-matched** Five to ten learners at the same stage, from Cavan, the rest of Ireland and abroad.
+- **Level-matched** Fifteen to twenty learners at the same stage, from Cavan, the rest of Ireland and abroad.
 - **Most weeks, twice** About eight lessons a month, at times agreed before the course begins.
 - **Around school** Holidays, mid-term breaks and exam weeks are planned in from the start.
 - **At home** A laptop or desktop, since code is hard to type on a phone; a microphone and speakers or a headset; and broadband that keeps a video call steady.
@@ -172,7 +172,7 @@ The practicalities.
 All prices.
 
 - First class: USD 0. A full first lesson with a level check, free.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons at the same weekly frequency.
 
 One price in US dollars each month for every family outside India, and nothing to pay for the first lesson. Charging starts once a course is running, and the pricing page spells out holidays, missed lessons and changes between group and private teaching.
@@ -213,7 +213,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Cavan town cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

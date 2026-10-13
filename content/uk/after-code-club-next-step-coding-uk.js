@@ -145,7 +145,7 @@ module.exports = {
         { kind: 'two', mt: true,
           leftH3: 'What we offer',
           left: [
-            'Small live groups of five to ten children at the same level, with a teacher who reads every child\'s code and gives specific feedback.',
+            'Small live groups of fifteen to twenty children at the same level, with a teacher who reads every child\'s code and gives specific feedback.',
             'Projects the children choose, with the skills taught in order so each week builds on the last.'
           ],
           rightH3: 'What we are not',
@@ -230,7 +230,7 @@ module.exports = {
       { h3: 'Skills in order', p: 'Variables, loops, lists and functions taught so each lesson builds on the last.' },
       { h3: 'Stuck is normal', p: 'Getting stuck treated as the lesson, not a failure, with a question rather than an answer.' },
       { h3: 'Show and tell', p: 'Children share what they made, as they did at club.' },
-      { h3: 'Small groups', p: 'Five to ten children at one level, so everyone is seen.' }
+      { h3: 'Small groups', p: 'Fifteen to twenty children at one level, so everyone is seen.' }
     ]
   },
 
@@ -242,7 +242,7 @@ module.exports = {
     h2: 'Fees for next-step coding lessons',
     lede: 'Unlike Code Club, this is a paid service. We charge monthly in US dollars, at a single rate for families outside India; a first lesson costs nothing, and invoices start only after you choose a course and a weekly slot.',
     free: ['A lesson built around what your child made at club', 'An honest view of the right next step', 'A phone number is all we need'],
-    group: ['Five to ten children at one level', 'The same teacher each week', 'Code reviewed in every lesson', 'Projects the children choose'],
+    group: ['Fifteen to twenty children at one level', 'The same teacher each week', 'Code reviewed in every lesson', 'Projects the children choose'],
     one: ['A teacher for one child', 'Paced to a child who races ahead', 'Suits a child with a big project in mind']
   },
 

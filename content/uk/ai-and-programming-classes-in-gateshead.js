@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'AI and programming classes in Gateshead',
   capsuleQ: 'Which are the best AI and programming classes in Gateshead?',
-  capsule: 'The 2021 census found 196,151 residents in Gateshead borough; the ONS built-up area of Gateshead held 115,280, Blaydon 14,240 and Birtley 13,835. Adults in their late fifties and early sixties are above the England share, while teenagers and young adults are below it. From Ryton to Birtley, anyone between 6 and 67 can join our India-based tutors for live AI, programming, Python and maths, solo or in a same-level class of five to ten. A free first lesson points to the right course. The Gateshead project starts from a Victorian telescope set up in the town. Staying on means USD 100 per month in a shared class or USD 150 per month on your own.',
+  capsule: 'The 2021 census found 196,151 residents in Gateshead borough; the ONS built-up area of Gateshead held 115,280, Blaydon 14,240 and Birtley 13,835. Adults in their late fifties and early sixties are above the England share, while teenagers and young adults are below it. From Ryton to Birtley, anyone between 6 and 67 can join our India-based tutors for live AI, programming, Python and maths, solo or in a same-level class of fifteen to twenty. A free first lesson points to the right course. The Gateshead project starts from a Victorian telescope set up in the town. Staying on means USD 100 per month in a shared class or USD 150 per month on your own.',
   lead: 'Edward W. Byrn\'s 1900 survey of nineteenth-century invention lists the great telescopes of the age, and one of them was in Gateshead: "Mr. R. S. Newall\'s telescope, set up at Gateshead by Cookes, of York, in 1870; object glass, 25 inches, tube, 30 feet". Beside it he lists giants at Parsonstown, Paris, Ealing and Washington, each with its width and its length. A table of five telescopes looks like dry reading, until a learner computes one extra number for each, the focal ratio. Suddenly the five split into two clear families, for a reason every astronomer knows. Getting there takes some care: the units change mid-sentence, and Byrn does not measure every telescope the same way.',
   wa: 'Hello Modern Age Coders, I would like a free AI or programming lesson for a Gateshead learner.',
 
@@ -164,7 +164,7 @@ module.exports = {
       { h3: 'Their code, their keys', p: 'Tutors never type for the learner; they watch the shared screen and help with well-timed questions.' },
       { h3: 'A sensible first rung', p: 'Where a Year 3 or a Year 13 begins depends on what the trial shows as much as on the year, and the exam board is kept in mind.' },
       { h3: 'Opening lesson free', p: 'The trial costs nothing and ends with a clear recommendation.' },
-      { h3: 'Same-stage classmates', p: 'Groups of five to ten UK learners at one level.' },
+      { h3: 'Same-stage classmates', p: 'Groups of fifteen to twenty UK learners at one level.' },
       { h3: 'Twice a week in term', p: 'School holidays stay free.' },
       { h3: 'Steady lesson hour', p: 'UK clock changes are absorbed by our tutors.' }
     ],

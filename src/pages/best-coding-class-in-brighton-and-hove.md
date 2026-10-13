@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Brighton and 
 canonical: https://learn.modernagecoders.com/best-coding-class-in-brighton-and-hove
 source: src/pages/best-coding-class-in-brighton-and-hove.html
 ---
-> The 2021 census counted 277,103 usual residents in Brighton and Hove, and 10.1% of them were aged 20 to 24, against 6.0% across England. In 1883 the Brighton-born inventor Magnus Volk opened an electric railway on the seafront that still runs today. We teach Brighton and Hove learners from six to sixty-seven over live video, in a group of five to ten matched by level or one to one, with teachers in India and lessons set in UK hours. Nothing is charged for the first lesson; from then on a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
+> The 2021 census counted 277,103 usual residents in Brighton and Hove, and 10.1% of them were aged 20 to 24, against 6.0% across England. In 1883 the Brighton-born inventor Magnus Volk opened an electric railway on the seafront that still runs today. We teach Brighton and Hove learners from six to sixty-seven over live video, in a group of fifteen to twenty matched by level or one to one, with teachers in India and lessons set in UK hours. Nothing is charged for the first lesson; from then on a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Brighton and Hove
 
@@ -12,11 +12,11 @@ Brighton and Hove, East Sussex / Live online
 
 # Coding classes in Brighton and Hove
 
-**What are the best coding classes in Brighton and Hove?** The 2021 census counted 277,103 usual residents in Brighton and Hove, and 10.1% of them were aged 20 to 24, against 6.0% across England. In 1883 the Brighton-born inventor Magnus Volk opened an electric railway on the seafront that still runs today. We teach Brighton and Hove learners from six to sixty-seven over live video, in a group of five to ten matched by level or one to one, with teachers in India and lessons set in UK hours. Nothing is charged for the first lesson; from then on a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
+**What are the best coding classes in Brighton and Hove?** The 2021 census counted 277,103 usual residents in Brighton and Hove, and 10.1% of them were aged 20 to 24, against 6.0% across England. In 1883 the Brighton-born inventor Magnus Volk opened an electric railway on the seafront that still runs today. We teach Brighton and Hove learners from six to sixty-seven over live video, in a group of fifteen to twenty matched by level or one to one, with teachers in India and lessons set in UK hours. Nothing is charged for the first lesson; from then on a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
 
 A monitor on the roof of the pavilion in Preston Park has measured ozone every hour for years. DEFRA's objective for ozone is written as an eight-hour mean: 100 micrograms per cubic metre, not to be exceeded more than ten times a year. So which eight hours? Cut each day into three fixed blocks and the Preston Park record for 2019 to 2025 shows 65 days above 100. Slide an eight-hour window forward one hour at a time, as the standard intends, and the count rises to 94. The 29 missing days had their worst eight hours straddling a block boundary, such as 13:00 to 21:00, and the fixed blocks cut each one in two. Our teenagers build that window, with its rule for missing hours and its single rounding step, from 58,022 real readings.
 
-Facts last verified 22 September 2026. Teaching is online; no Brighton and Hove branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 22 September 2026. Teaching is online; no Brighton and Hove branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a seaside city
 
@@ -65,7 +65,7 @@ Of 265,352 residents aged five and over, 62,694 were schoolchildren or full-time
 
 At 3,345.3 usual residents per square kilometre, the city is packed between the Downs and the Channel, far above England's 433.5.
 
-Those students span every stage. A Year 5 pupil in Patcham might be animating a first Scratch sprite, a Year 11 student in Hove revising for GCSE Computer Science, and a graduate in Kemptown learning Python for a data job, each placed in a group of five to ten learners working at the same level.
+Those students span every stage. A Year 5 pupil in Patcham might be animating a first Scratch sprite, a Year 11 student in Hove revising for GCSE Computer Science, and a graduate in Kemptown learning Python for a data job, each placed in a group of fifteen to twenty learners working at the same level.
 
 ## Magnus Volk and a railway on the shingle
 
@@ -179,7 +179,7 @@ Getting across Brighton and Hove after school can take longer than the lesson it
 - **Portslade to Saltdean** A learner at the western edge of Hove and another near the cliffs at Saltdean can sit in the same class without either catching a bus.
 - **Key Stages to A level** Reception and the four Key Stages, Year 9 options, then GCSE and A level: we use the stage names Brighton and Hove schools use, and every lesson is taught in English.
 - **A real first lesson** The free session works through a genuine task and finishes with a recommended level, course and weekly time. We never ask for card details to book it.
-- **Classmates at your level** Groups of five to ten learners who are working at the same stage, from Brighton and Hove, the rest of the UK and overseas, which keeps a sensible time available for each level.
+- **Classmates at your level** Groups of fifteen to twenty learners who are working at the same stage, from Brighton and Hove, the rest of the UK and overseas, which keeps a sensible time available for each level.
 - **Two set lessons a week** Two fixed weekly lessons, about eight in a month, with school holidays and exam weeks planned with the teacher well ahead.
 - **One clock in India** India does not change its clocks, so it is four and a half hours ahead of Brighton in British Summer Time and five and a half in winter, which lets after-school and evening UK lessons fall within the teaching day.
 
@@ -190,7 +190,7 @@ Getting across Brighton and Hove after school can take longer than the lesson it
 One free lesson first, then a single monthly fee.
 
 - First class: USD 0. A full lesson free of charge, finishing with a level, a suggested course and a weekly slot to consider.
-- Group tuition: USD 100 a month. Around eight live lessons each month in a group of five to ten learners at the same stage.
+- Group tuition: USD 100 a month. Around eight live lessons each month in a group of fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. Around eight live lessons each month with a teacher who works with your learner alone.
 
 Families outside India all pay the same fee in US dollars, whether they live in Withdean or Whitehawk, and we do not publish prices in pounds. No charge is made until the free lesson has agreed a course and a time; the pricing page explains pausing, missed lessons and switching between group and private teaching.
@@ -231,11 +231,11 @@ No. We have no centre in Brighton and Hove and no premises anywhere in the UK, b
 
 ### How much do Brighton and Hove lessons cost?
 
-The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern cost USD 150 a month. We agree course, format and time before any payment.
+The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern cost USD 150 a month. We agree course, format and time before any payment.
 
 ### How are Brighton and Hove groups put together?
 
-By level, pace and goals rather than age or address, with five to ten learners at one stage in each group. Where no group suits the learner's timetable, we offer one-to-one lessons instead.
+By level, pace and goals rather than age or address, with fifteen to twenty learners at one stage in each group. Where no group suits the learner's timetable, we offer one-to-one lessons instead.
 
 ## More of the south coast and beyond
 

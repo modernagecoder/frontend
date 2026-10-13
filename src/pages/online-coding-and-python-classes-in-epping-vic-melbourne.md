@@ -16,7 +16,7 @@ Epping, City of Whittlesea, Melbourne, Victoria / Live online
 
 The state's station patronage file gives each station one row per year, with the time of day spread across five columns: before the morning peak, the morning peak, the middle of the day, the afternoon peak and late. That layout is easy to read and awkward to analyse. One pandas function, melt, turns those five columns into rows, and Epping's changing day comes out of it.
 
-Facts last verified 11 October 2026. Teaching is online; no Epping branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 October 2026. Teaching is online; no Epping branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that make data tidy
 
@@ -177,7 +177,7 @@ Lessons are live over video, so learners take part from home.
 - **Real code, real time** Learners code on their own computers and share the screen, and the teacher responds to what they write.
 - **In step with school** Courses follow the Victorian terms and stop for each holiday.
 - **A full first lesson** The free trial is a complete class; then the teacher recommends a course and a weekly slot.
-- **Groups by level** Groups contain five to ten learners at a similar stage.
+- **Groups by level** Groups contain fifteen to twenty learners at a similar stage.
 - **A weekly habit** Two lessons each week on fixed days, about eight a month, with holidays set out early.
 - **Teachers in India** Teachers work in India, so a 3:30pm Epping class in daylight saving is 10am India time, and 11am in Melbourne winter.
 
@@ -188,7 +188,7 @@ Lessons are live over video, so learners take part from home.
 Three numbers explain the cost.
 
 - First class: USD 0. One free lesson that ends with an honest next step.
-- Group tuition: USD 100 a month. Four weeks of group lessons, normally eight, in a group of five to ten.
+- Group tuition: USD 100 a month. Four weeks of group lessons, normally eight, in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. Roughly eight one-to-one lessons in a month.
 
 Outside India we bill in US dollars, so Epping families pay the same as families anywhere else abroad. Nothing is due until the trial has agreed the course and time; the pricing page covers holidays, missed lessons and changing between group and private.
@@ -225,7 +225,7 @@ Online, live. We have no premises in Australia, and the phone number on our site
 
 ### How much do coding classes cost for Epping learners?
 
-The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, roughly eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. The course, format and time are agreed before you pay.
+The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, roughly eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. The course, format and time are agreed before you pay.
 
 ### How many learners in each group?
 

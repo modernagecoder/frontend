@@ -257,7 +257,7 @@ The learner discusses a goal and completes a short placement task before tuition
 
 ### Small live groups
 
-Five to eight compatible learners join one teacher. Compatibility includes level, pace and objective.
+Fifteen to twenty compatible learners join one teacher. Compatibility includes level, pace and objective.
 
 ### One-to-one tuition
 
@@ -291,7 +291,7 @@ Goal discussion, observed task and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight live lessons, five to eight learners.
+Per month, normally eight live lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -391,7 +391,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the group size and schedule for Ibra learners?
 
-A group normally has five to eight compatible learners, while private tuition is one learner with one teacher. Classes usually meet twice each week, normally eight times monthly. Oman is one and a half hours behind India. The recurring time is agreed before payment, with Friday and Saturday options subject to availability.
+A group normally has fifteen to twenty compatible learners, while private tuition is one learner with one teacher. Classes usually meet twice each week, normally eight times monthly. Oman is one and a half hours behind India. The recurring time is agreed before payment, with Friday and Saturday options subject to availability.
 
 ### What happens in the free Ibra coding class?
 

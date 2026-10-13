@@ -307,7 +307,7 @@ module.exports = {
       { h3: 'Code together', p: 'The learner writes the queries and code while the teacher follows on the shared screen.' },
       { h3: 'Term planning', p: 'Lessons fit Queensland school terms and stop for the holidays.' },
       { h3: 'No-cost trial', p: 'One full lesson free, with a written recommendation afterwards.' },
-      { h3: 'Five to ten per group', p: 'Learners grouped by level and pace; one to one also available.' },
+      { h3: 'Fifteen to twenty per group', p: 'Learners grouped by level and pace; one to one also available.' },
       { h3: 'Two a week', p: 'Regular weekly slots, about eight lessons a month.' },
       { h3: 'India time', p: 'With teachers in India, a 5:30pm Mansfield class starts at 1pm India time, the whole year round.' }
     ],
@@ -320,7 +320,7 @@ module.exports = {
     h2: 'Mansfield class fees',
     intro: 'Three prices for every learner.',
     first: 'Lesson one is free and ends with a clear course suggestion.',
-    group: 'Group classes: close to eight lessons a month with five to ten learners at one level.',
+    group: 'Group classes: close to eight lessons a month with fifteen to twenty learners at one level.',
     private: 'Private classes: close to eight lessons a month with one dedicated teacher.',
     closer: 'Mansfield families pay in US dollars, and only after the trial, once a course and time are fixed. The pricing page sets out holidays, absences and changes of format.'
   },
@@ -359,12 +359,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Mansfield learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Is Copilot Studio taught in group classes?', a: 'No. Copilot Studio is one to one only; group learners build agents in Python.' }

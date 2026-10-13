@@ -303,7 +303,7 @@ module.exports = {
       { h3: 'At home', p: 'Join from a laptop, share the screen and code alongside the teacher.' },
       { h3: 'Victorian calendar', p: 'Lessons follow Victorian school terms and pause during state school holidays.' },
       { h3: 'Trial lesson', p: 'A real, complete lesson first, followed by our advice on course, level and a weekly time.' },
-      { h3: 'Level-matched groups', p: 'Five to ten learners per group, matched by level and pace across many suburbs.' },
+      { h3: 'Level-matched groups', p: 'Fifteen to twenty learners per group, matched by level and pace across many suburbs.' },
       { h3: 'Steady schedule', p: 'Two lessons each week at fixed times, about eight a month, with breaks planned in advance.' },
       {
         h3: 'Time difference',
@@ -319,7 +319,7 @@ module.exports = {
     h2: 'Doncaster class fees',
     intro: 'The whole price list fits in three lines.',
     first: 'A free first lesson, ending with clear advice about what comes next.',
-    group: 'One month of group classes, usually eight, five to ten learners at the same level.',
+    group: 'One month of group classes, usually eight, fifteen to twenty learners at the same level.',
     private: 'Roughly eight one-to-one lessons a month with a single teacher.',
     closer: 'Doncaster families pay in US dollars, as do all families outside India, so the rate is the same for everyone. Nothing is charged before the trial settles a course and time; holidays, absences and format changes are covered on the pricing page.'
   },
@@ -364,7 +364,7 @@ module.exports = {
       },
       {
         q: 'What do coding classes cost for Doncaster learners?',
-        a: 'The first lesson is free. Then group lessons are USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. We agree the course, format and time before any payment.',
+        a: 'The first lesson is free. Then group lessons are USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. We agree the course, format and time before any payment.',
         boiler: true
       },
       {

@@ -202,7 +202,7 @@ module.exports = {
     cells: [
       { h3: 'Code read aloud', p: 'Students explain each line before changing it.' },
       { h3: 'Tests first', p: 'Boundaries and bad input are tried on every program.' },
-      { h3: 'Five to ten per group', p: 'Placed by skill so everyone works at the right pace.' },
+      { h3: 'Fifteen to twenty per group', p: 'Placed by skill so everyone works at the right pace.' },
       { h3: 'Private lessons', p: 'Chosen for a specific gap or a student moving fast.' },
       { h3: 'Notes for parents', p: 'A line on what was covered and what to ask about.' },
       { h3: 'Honest about school work', p: 'We teach technique; assessed projects stay the student\'s own.' }
@@ -217,7 +217,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Australian families are billed each month in US dollars at our standard rate outside India. There is no deposit, and you can stop at the end of any month.',
     free: ['A real lesson with a teacher', 'An honest read on your child\'s level', 'No card required'],
-    group: ['Five to ten students at one level', 'One teacher, every week', 'Code reviewed with comments', 'A certificate on completion'],
+    group: ['Fifteen to twenty students at one level', 'One teacher, every week', 'Code reviewed with comments', 'A certificate on completion'],
     one: ['A teacher for one student', 'Aimed at a particular goal', 'A weekly time that suits you']
   },
 

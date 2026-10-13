@@ -311,7 +311,7 @@ module.exports = {
       { h3: 'Code on screen', p: 'Learners share their screen and the teacher works through their own project with them.' },
       { h3: 'School-term calendar', p: 'Classes follow the Victorian term pattern and rest in the school holidays.' },
       { h3: 'Trial lesson free', p: 'One complete lesson free of charge, then a course recommendation.' },
-      { h3: 'Five to ten per group', p: 'Groups match level and goals, and bring together learners from many places.' },
+      { h3: 'Fifteen to twenty per group', p: 'Groups match level and goals, and bring together learners from many places.' },
       { h3: 'Two sessions a week', p: 'Lessons happen twice weekly, about eight in a month.' },
       { h3: 'Teachers in India', p: 'A 5:30pm Knox class is noon India time during Melbourne daylight saving and 1pm once it finishes.' }
     ],
@@ -324,7 +324,7 @@ module.exports = {
     h2: 'Knox class fees',
     intro: 'Plain fees that apply to every family.',
     first: 'The first lesson is on us, and it ends with a clear plan.',
-    group: 'Groups: a month of about eight lessons, five to ten learners per group.',
+    group: 'Groups: a month of about eight lessons, fifteen to twenty learners per group.',
     private: 'One to one: a month of about eight lessons, alone with a teacher.',
     closer: 'Knox families are charged in US dollars. Payment starts only after the trial has set a course and a time; holiday and missed-lesson rules are on the pricing page.'
   },
@@ -363,12 +363,12 @@ module.exports = {
       },
       {
         q: 'What do Knox classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'How many government schools does Knox have?', a: 'The 2025 Victorian school locations file lists 33 government schools in Knox City Council.' }

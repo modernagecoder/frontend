@@ -16,7 +16,7 @@ Velsen, Noord-Holland / Live online
 
 A port can have deep water, long quays and fast cranes, and still take no ship wider than its lock. For Amsterdam that lock is at IJmuiden, and its history is a history of the narrowest point moving: a lock in 1876, a bigger one in 1896, a bigger one again in 1929 and, opened by the King on 26 January 2022, a sea lock 500 metres long, 70 wide and 18 deep. Each time, the encyclopaedia explains, the ships had grown until the lock became the limit. Programmers call this the bottleneck. In any chain of steps, the whole can go no faster than its slowest part, and effort spent anywhere else is wasted. The trap is that people naturally improve the step they can see or the step they know best, not the one that is actually slowest. The cure is simple and constantly skipped: measure every step first, then work on the narrowest one, and measure again, because once it is widened the bottleneck moves somewhere else.
 
-Facts last verified 11 September 2026. Teaching is online; no Velsen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Velsen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the town at the mouth of the canal
 
@@ -190,7 +190,7 @@ Velsen is split by the canal into north and south, with IJmuiden by the sea and 
 - **No crossing the canal** A learner in Velsen-Noord and a learner in Santpoort-Zuid open the same class at the same time from home, with no tunnel or ferry on a school night.
 - **Dutch terms as written** Brugklas, groep, vmbo, havo, vwo and the profielkeuze keep their Dutch names, as an IJmond school writes them, while the teaching is in English.
 - **A free lesson that teaches** The opening session is a real lesson on a real task. At the end the teacher proposes a level, a course and a weekly time, and asks for no card.
-- **Groups at one level** Five to ten learners at the same stage. Velsen has 10,509 residents under fifteen, and five who match on subject, level and hour are unusual in one municipality, so groups can include learners from other countries.
+- **Groups at one level** Fifteen to twenty learners at the same stage. Velsen has 10,509 residents under fifteen, and five who match on subject, level and hour are unusual in one municipality, so groups can include learners from other countries.
 - **Regio Noord holidays** Two lessons a week, about eight a month, at one fixed time, with breaks for the regio Noord holidays that Noord-Holland schools keep.
 - **Teachers a few hours ahead** The teachers are in India, three and a half hours ahead of Velsen in summer and four and a half in winter, so late afternoons, evenings and weekend mornings all work.
 
@@ -201,7 +201,7 @@ Velsen is split by the canal into north and south, with IJmuiden by the sea and 
 Three prices, and that is all of them.
 
 - First class: USD 0. A real lesson on a real task, ending with a level and a course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 The fee is a single dollar price for every country, with no euro list, so a family in Velserbroek pays what a family in IJmuiden pays. Nothing is charged until the free lesson has fixed a course and a time, and payment is then arranged over WhatsApp. The pricing page covers pauses, format changes and missed lessons.
@@ -242,7 +242,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Velsen coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

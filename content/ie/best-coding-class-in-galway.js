@@ -60,7 +60,7 @@ module.exports = {
 
   h1: 'Coding classes in Galway',
   capsuleQ: 'What are the best coding classes in Galway?',
-  capsule: 'Galway City Council covers 84,414 people, while the built-up city and suburbs reaches 85,910, spilling 1,496 past the council boundary. It is the most walkable city in the country after one other: 16% of city commuters walk to work, students walk to college at a rate of 45%, and the average city journey takes 23 minutes. More than half its adults, 53%, hold a third-level qualification against a national 45%, and 17,496 people live in the Galway City Gaeltacht. A live online class fits a place like this: no parking, no journey, and a teacher at the same hour every week for ages 6 to 67, in groups of five to ten or one to one. The first lesson is free, and a place afterwards is USD 100 a month in a group or USD 150 with a teacher to yourself.',
+  capsule: 'Galway City Council covers 84,414 people, while the built-up city and suburbs reaches 85,910, spilling 1,496 past the council boundary. It is the most walkable city in the country after one other: 16% of city commuters walk to work, students walk to college at a rate of 45%, and the average city journey takes 23 minutes. More than half its adults, 53%, hold a third-level qualification against a national 45%, and 17,496 people live in the Galway City Gaeltacht. A live online class fits a place like this: no parking, no journey, and a teacher at the same hour every week for ages 6 to 67, in groups of fifteen to twenty or one to one. The first lesson is free, and a place afterwards is USD 100 a month in a group or USD 150 with a teacher to yourself.',
   lead: 'Galway City Council publishes a file listing the city\'s car parks. It has seventeen rows. You could read the whole thing on a phone screen. And it can still be got wrong four separate ways, each of them the kind of mistake that quietly survives into a report. Three of the rows record their number of spaces as a single space character rather than a number, so a straightforward conversion crashes, and a popular data library, asked to add the column up, silently glues the values together into a piece of nonsense instead of refusing. One car park name appears twice for two genuinely different locations, so tidying the duplicates away removes hundreds of real spaces. And a column called X holds longitude in this file and metres in a sibling file on the same portal, which will place your map several hundred kilometres out to sea. A learner who meets all four in one afternoon, on a file small enough to check by hand, learns something they will use for the rest of their working life.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Galway.',
 
@@ -198,7 +198,7 @@ module.exports = {
       { h3: 'The commute is a chair', p: 'A learner in Salthill and one in Oranmore join the same group at the same second, and neither looks for a parking space to do it.' },
       { h3: 'Irish school stages by name', p: 'Teachers speak in First Year, Junior Cycle, Transition Year and sixth year, which keeps conversations with parents straightforward.' },
       { h3: 'The trial lesson is real', p: 'It is a proper lesson on a real task, and it ends in a recommendation about level, course and hour. No card details are requested.' },
-      { h3: 'Grouped by ability', p: 'Five to ten learners who can move at one pace, drawn from Galway and several other countries, which is what allows a workable hour at every level.' },
+      { h3: 'Grouped by ability', p: 'Fifteen to twenty learners who can move at one pace, drawn from Galway and several other countries, which is what allows a workable hour at every level.' },
       { h3: 'A fixed weekly hour', p: 'Usually two lessons a week, about eight a month, with pauses for mid-terms, exams and holidays agreed with the family in advance.' },
       { h3: 'Teachers in India', p: 'Their clock stays put while Ireland\'s moves, leaving them four and a half hours ahead in summer and five and a half in winter; Galway afternoons and evenings both sit comfortably inside their day.' }
     ],
@@ -209,7 +209,7 @@ module.exports = {
     h2: 'What classes cost in Galway',
     intro: 'Three figures, stated once, with nothing added afterwards.',
     first: 'A full lesson, free, ending with an honest placement and a recommended course.',
-    group: 'A month of teaching, usually eight lessons, shared with five to ten learners of similar ability.',
+    group: 'A month of teaching, usually eight lessons, shared with fifteen to twenty learners of similar ability.',
     private: 'The same month and the same number of lessons, with the teacher working with one learner only.',
     closer: 'Fees are charged in US dollars on the one rate used outside India, so there is no euro price list and Knocknacarra pays what Renmore pays. Nothing is charged until the free lesson has settled a course and a weekly hour, and the pricing page sets out pauses, missed lessons and changes of format.'
   },
@@ -234,8 +234,8 @@ module.exports = {
       { q: 'Are lessons available through Irish?', a: 'Teaching is in English. Many of our Galway learners come from Irish-speaking households or Gaeltacht schools, and programming keywords are in English regardless of the language a learner is taught in at school.' },
       { q: 'What hours suit Galway learners?', a: 'Afternoons, evenings and weekend mornings. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter, and the weekly hour is agreed during the free lesson.' },
       { q: 'Is there a Modern Age Coders classroom in Galway?', a: 'No. Teaching is live and online only and we hold no premises in Ireland, which we never suggest otherwise. A learner needs a laptop or desktop, sound that works and a reliable connection. The number on this page is an Indian one.', boiler: true },
-      { q: 'What do Galway coding classes cost?', a: 'Nothing for the first lesson. After that a shared place is USD 100 a month, covering two live lessons a week and about eight a month with five to ten learners, and private tuition is USD 150 a month on the same schedule. Course, format and hour are agreed before any payment.', boiler: true },
-      { q: 'How big is a group?', a: 'Five to ten learners, matched on ability, pace and ambition rather than on age or address. If nothing suitable runs at a workable hour, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Galway coding classes cost?', a: 'Nothing for the first lesson. After that a shared place is USD 100 a month, covering two live lessons a week and about eight a month with fifteen to twenty learners, and private tuition is USD 150 a month on the same schedule. Course, format and hour are agreed before any payment.', boiler: true },
+      { q: 'How big is a group?', a: 'Fifteen to twenty learners, matched on ability, pace and ambition rather than on age or address. If nothing suitable runs at a workable hour, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

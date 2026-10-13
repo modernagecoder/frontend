@@ -179,7 +179,7 @@ Sitting on the road between the capital and the south makes Haima reachable and 
 
 A real lesson with a genuine task, closing with a clear recommendation. No card details are collected to arrange it and nothing is agreed before a teacher has been seen working.
 
-### Five to eight in a group, chosen by level
+### Fifteen to twenty in a group, chosen by level
 
 Cohorts form on what a learner can already do and what they want next. Which settlement in the governorate they live in plays no part.
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Haima learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Haima class times arranged?
 

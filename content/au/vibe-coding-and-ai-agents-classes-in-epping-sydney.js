@@ -338,7 +338,7 @@ module.exports = {
       { h3: 'A free trial lesson', p: 'The first class is complete and free, and closes with a recommended course, level and time slot.' },
       {
         h3: 'Small, level-matched groups',
-        p: 'Five to ten classmates who are all working on similar material, or a private teacher if the timetable or pace needs it.'
+        p: 'Fifteen to twenty classmates who are all working on similar material, or a private teacher if the timetable or pace needs it.'
       },
       { h3: 'Two sessions a week', p: 'A fixed weekly pair of lessons, about eight a month, with breaks agreed in advance.' },
       {
@@ -355,7 +355,7 @@ module.exports = {
     h2: 'Epping lesson fees',
     intro: 'One set of prices, the same for every course.',
     first: 'A full first lesson at no cost, with a recommended course and time afterwards.',
-    group: 'About eight lessons a month in a group of five to ten learners at the same level.',
+    group: 'About eight lessons a month in a group of fifteen to twenty learners at the same level.',
     private: 'About eight one-to-one lessons a month at a fixed time.',
     closer: 'Every invoice outside India is raised in US dollars, which keeps an Epping household on exactly the price a family in Penrith or Manly would see. Nothing is charged before the trial has settled a course and time; breaks, missed lessons and format changes are covered on the pricing page.'
   },
@@ -404,7 +404,7 @@ module.exports = {
       },
       {
         q: 'What do Epping coding lessons cost?',
-        a: 'The first lesson is free. A group place is USD 100 a month for two live lessons a week, roughly eight a month, with five to ten learners, and one-to-one is USD 150 a month on the same pattern. You pay only after the course and time are agreed.',
+        a: 'The first lesson is free. A group place is USD 100 a month for two live lessons a week, roughly eight a month, with fifteen to twenty learners, and one-to-one is USD 150 a month on the same pattern. You pay only after the course and time are agreed.',
         boiler: true
       },
       {

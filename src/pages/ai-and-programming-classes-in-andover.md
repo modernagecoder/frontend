@@ -4,7 +4,7 @@ description: "AI, programming, Python and vibe coding classes taught live online
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-andover
 source: src/pages/ai-and-programming-classes-in-andover.html
 ---
-> In the ONS figures for the 2021 census the Andover built-up area has 48,480 residents and Test Valley borough 130,492. Charlton, Picket Piece, Anna Valley, Upper Clatford, Abbotts Ann and Weyhill are recorded around it as villages. We teach AI, programming, Python, vibe coding and maths on live video to learners from six years old to 67. Tutors are based in India. A lesson is either private or shared by five to ten learners at one level. We start from reasoning, so that a student can test a model's output instead of taking it on trust. The Andover project counts postcodes in 224 map squares and asks a model to predict the count from the length of road in each square, which a straight line does badly in an instructive way. There is no charge for lesson one, which closes with a course recommendation. After that a group place costs USD 100 a month and a private tutor USD 150 a month.
+> In the ONS figures for the 2021 census the Andover built-up area has 48,480 residents and Test Valley borough 130,492. Charlton, Picket Piece, Anna Valley, Upper Clatford, Abbotts Ann and Weyhill are recorded around it as villages. We teach AI, programming, Python, vibe coding and maths on live video to learners from six years old to 67. Tutors are based in India. A lesson is either private or shared by fifteen to twenty learners at one level. We start from reasoning, so that a student can test a model's output instead of taking it on trust. The Andover project counts postcodes in 224 map squares and asks a model to predict the count from the length of road in each square, which a straight line does badly in an instructive way. There is no charge for lesson one, which closes with a course recommendation. After that a group place costs USD 100 a month and a private tutor USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Andover
 
@@ -12,11 +12,11 @@ Andover, Test Valley, Hampshire / Live online
 
 # AI and programming classes in Andover, Hampshire
 
-**Where will an Andover learner find the best AI and programming classes?** In the ONS figures for the 2021 census the Andover built-up area has 48,480 residents and Test Valley borough 130,492. Charlton, Picket Piece, Anna Valley, Upper Clatford, Abbotts Ann and Weyhill are recorded around it as villages. We teach AI, programming, Python, vibe coding and maths on live video to learners from six years old to 67. Tutors are based in India. A lesson is either private or shared by five to ten learners at one level. We start from reasoning, so that a student can test a model's output instead of taking it on trust. The Andover project counts postcodes in 224 map squares and asks a model to predict the count from the length of road in each square, which a straight line does badly in an instructive way. There is no charge for lesson one, which closes with a course recommendation. After that a group place costs USD 100 a month and a private tutor USD 150 a month.
+**Where will an Andover learner find the best AI and programming classes?** In the ONS figures for the 2021 census the Andover built-up area has 48,480 residents and Test Valley borough 130,492. Charlton, Picket Piece, Anna Valley, Upper Clatford, Abbotts Ann and Weyhill are recorded around it as villages. We teach AI, programming, Python, vibe coding and maths on live video to learners from six years old to 67. Tutors are based in India. A lesson is either private or shared by fifteen to twenty learners at one level. We start from reasoning, so that a student can test a model's output instead of taking it on trust. The Andover project counts postcodes in 224 map squares and asks a model to predict the count from the length of road in each square, which a straight line does badly in an instructive way. There is no charge for lesson one, which closes with a course recommendation. After that a group place costs USD 100 a month and a private tutor USD 150 a month.
 
 Draw a straight line through some data and sooner or later it predicts something that cannot happen. Ask it how many postcodes lie in a field with no road and it may answer minus one. Nobody has ever found minus one postcodes. Counts start at zero and go up in whole steps, and a model built for counts should know that. Poisson regression is the standard one. It is taught on university statistics courses, but the idea is within reach of a teenager who can plot a graph, and a grid laid over Andover and its villages supplies the ideal data: some squares packed with addresses, many with none at all.
 
-Facts last verified 30 September 2026. Teaching is online; no Andover branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Andover branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI, programming and thinking courses for Andover
 
@@ -132,7 +132,7 @@ The only equipment is a computer with a webcam and a connection good enough for 
 - **Student at the controls** The tutor sees the learner's screen and asks questions. The learner writes every line and runs it.
 - **Placed by what we see** In the free lesson we find out what a learner can already do, and which exam board applies.
 - **A free first class** It runs the full time, needs no card, and ends with the course we would choose.
-- **Level-matched classes** Groups of five to ten, all at one stage, drawn from the whole UK.
+- **Level-matched classes** Groups of fifteen to twenty, all at one stage, drawn from the whole UK.
 - **Two a week** We skip any holiday weeks you tell us about.
 - **Same hour all year** British Summer Time is our tutors' problem; your lesson time does not move.
 

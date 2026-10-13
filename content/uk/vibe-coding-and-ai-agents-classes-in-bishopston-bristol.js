@@ -151,7 +151,7 @@ module.exports = {
       { h3: 'Learner writes, tutor probes', p: 'The screen being shared is the learner\'s. They code, and the tutor interrupts with "what will this print?"' },
       { h3: 'A level chosen in the trial', p: 'We watch how the learner works in lesson one, place them, and log the exam board where relevant.' },
       { h3: 'Lesson one is free', p: 'It costs nothing, and you come away with a suggested course.' },
-      { h3: 'Five to ten in a group', p: 'Everyone in it is at the same stage, and they join from across Britain.' },
+      { h3: 'Fifteen to twenty in a group', p: 'Everyone in it is at the same stage, and they join from across Britain.' },
       { h3: 'Twice every week', p: 'School holidays are left free.' },
       { h3: 'One UK time, kept', p: 'Clock changes are handled at the tutor\'s end.' }
     ],

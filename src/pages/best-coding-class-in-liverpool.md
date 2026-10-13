@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Liverpool lea
 canonical: https://learn.modernagecoders.com/best-coding-class-in-liverpool
 source: src/pages/best-coding-class-in-liverpool.html
 ---
-> Liverpool had 486,088 usual residents at the 2021 Census, and 10.1% of them were aged 20 to 24 against 6.0% in England. The Mersey has the second-highest tidal range in the UK, according to the National Tidal and Sea Level Facility, and tide prediction at the University of Liverpool Tidal Institute began in 1924. Modern Age Coders teaches Liverpool learners aged six to sixty-seven live online, one to one or in groups of five to ten at a single level, with teachers in India and lessons timed in UK hours. We charge nothing for the first lesson. From then on a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
+> Liverpool had 486,088 usual residents at the 2021 Census, and 10.1% of them were aged 20 to 24 against 6.0% in England. The Mersey has the second-highest tidal range in the UK, according to the National Tidal and Sea Level Facility, and tide prediction at the University of Liverpool Tidal Institute began in 1924. Modern Age Coders teaches Liverpool learners aged six to sixty-seven live online, one to one or in groups of fifteen to twenty at a single level, with teachers in India and lessons timed in UK hours. We charge nothing for the first lesson. From then on a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Liverpool
 
@@ -12,11 +12,11 @@ Liverpool, Merseyside, England / Live online
 
 # Coding classes in Liverpool
 
-**What are the best coding classes in Liverpool?** Liverpool had 486,088 usual residents at the 2021 Census, and 10.1% of them were aged 20 to 24 against 6.0% in England. The Mersey has the second-highest tidal range in the UK, according to the National Tidal and Sea Level Facility, and tide prediction at the University of Liverpool Tidal Institute began in 1924. Modern Age Coders teaches Liverpool learners aged six to sixty-seven live online, one to one or in groups of five to ten at a single level, with teachers in India and lessons timed in UK hours. We charge nothing for the first lesson. From then on a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
+**What are the best coding classes in Liverpool?** Liverpool had 486,088 usual residents at the 2021 Census, and 10.1% of them were aged 20 to 24 against 6.0% in England. The Mersey has the second-highest tidal range in the UK, according to the National Tidal and Sea Level Facility, and tide prediction at the University of Liverpool Tidal Institute began in 1924. Modern Age Coders teaches Liverpool learners aged six to sixty-seven live online, one to one or in groups of fifteen to twenty at a single level, with teachers in India and lessons timed in UK hours. We charge nothing for the first lesson. From then on a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
 
 Twice a day the Mersey rises and falls by several metres, and the rhythm is set by the moon. You can hear it in the numbers. The Environment Agency publishes a reading from its Liverpool tide gauge every 15 minutes, and a month of them, 2,828 readings from 23 August to 21 September 2026, is enough to ask a precise question: for every possible period, how strongly does the water swing at that rhythm? The answer, called a periodogram, has one towering peak at 12.42 hours, the moon's tide, and a second at about 12 hours, the sun's. Where the two waves fall into step the tides are big; where they fall out of step they are small. That beat repeats every 14.77 days, and it is the whole story of spring and neap tides. It is also how tide tables are made, and that is the lesson Liverpool's river teaches our teenage learners.
 
-Facts last verified 21 September 2026. Teaching is online; no Liverpool branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 21 September 2026. Teaching is online; no Liverpool branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city on the tide
 
@@ -172,7 +172,7 @@ From Speke to Croxteth, a live online lesson needs no journey at all.
 - **North end or south end** A learner in Walton and another in Garston can share the same lesson without either crossing the city.
 - **Stages from Reception to A level** Reception, Key Stages 1 to 4, Year 9 options, GCSEs and A levels, as Liverpool schools name them, with teaching in English throughout.
 - **A first lesson worth having** The free lesson teaches something real and ends with a suggested level, course and weekly time. No card is needed to book.
-- **Level before age** Five to ten learners at one stage, from Liverpool, elsewhere in the UK and abroad, so every level can meet at a workable hour.
+- **Level before age** Fifteen to twenty learners at one stage, from Liverpool, elsewhere in the UK and abroad, so every level can meet at a workable hour.
 - **Twice weekly, same time** Two lessons each week at fixed times, around eight a month, with breaks for holidays and exams agreed with the teacher ahead of time.
 - **Teaching from India** Our teachers use India Standard Time, which has no daylight saving: four and a half hours ahead of Liverpool in summer and five and a half in winter, so after-school and evening lessons fall in their working day.
 
@@ -183,7 +183,7 @@ From Speke to Croxteth, a live online lesson needs no journey at all.
 One free lesson, then a single monthly price.
 
 - First class: USD 0. A full lesson with nothing to pay, finishing with a level, a recommended course and a weekly time.
-- Group tuition: USD 100 a month. Around eight live lessons a month, in a group of five to ten learners working at one level.
+- Group tuition: USD 100 a month. Around eight live lessons a month, in a group of fifteen to twenty learners working at one level.
 - Private tuition: USD 150 a month. Around eight live lessons a month, taught to your learner alone.
 
 Everyone outside India pays one US dollar fee, so a family in Allerton pays the same as a family in Mossley Hill, and we keep no pound price list. Nothing is billed until the free lesson has agreed a course and a slot; the pricing page covers pauses, missed lessons and switching between group and private teaching.
@@ -224,11 +224,11 @@ No. There is no centre in Liverpool and no premises anywhere in the UK; every le
 
 ### How much do Liverpool lessons cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same timetable are USD 150 a month. Course, format and time are agreed before any charge.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same timetable are USD 150 a month. Course, format and time are agreed before any charge.
 
 ### How are Liverpool groups formed?
 
-By level, pace and aims rather than age or postcode, with five to ten learners at one stage. If no group fits the learner's times, we offer one-to-one lessons.
+By level, pace and aims rather than age or postcode, with fifteen to twenty learners at one stage. If no group fits the learner's times, we offer one-to-one lessons.
 
 ## The North West and beyond
 

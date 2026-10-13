@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for London famili
 canonical: https://learn.modernagecoders.com/best-coding-class-in-london
 source: src/pages/best-coding-class-in-london.html
 ---
-> A good class for a London family has to work in a city of 8,799,728 people at the 2021 Census, run by 33 local authorities: 32 boroughs and the City of London Corporation. London also publishes itself. The Greater London Authority created the London Datastore, which listed 1,302 datasets when we counted through its API on 19 September 2026, and that API is the project on this page. Teaching is live, online and from India: a learner in Harrow, Hackney or Croydon logs in from home to a class at their own level, with learners aged anywhere from 6 to 67, in a group of five to ten or alone with a teacher. Nothing is charged for the first lesson; from then on a group place is USD 100 a month and private teaching USD 150.
+> A good class for a London family has to work in a city of 8,799,728 people at the 2021 Census, run by 33 local authorities: 32 boroughs and the City of London Corporation. London also publishes itself. The Greater London Authority created the London Datastore, which listed 1,302 datasets when we counted through its API on 19 September 2026, and that API is the project on this page. Teaching is live, online and from India: a learner in Harrow, Hackney or Croydon logs in from home to a class at their own level, with learners aged anywhere from 6 to 67, in a group of fifteen to twenty or alone with a teacher. Nothing is charged for the first lesson; from then on a group place is USD 100 a month and private teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / London
 
@@ -12,11 +12,11 @@ Greater London, England / Live online
 
 # Coding classes in London
 
-**What are the best coding classes in London?** A good class for a London family has to work in a city of 8,799,728 people at the 2021 Census, run by 33 local authorities: 32 boroughs and the City of London Corporation. London also publishes itself. The Greater London Authority created the London Datastore, which listed 1,302 datasets when we counted through its API on 19 September 2026, and that API is the project on this page. Teaching is live, online and from India: a learner in Harrow, Hackney or Croydon logs in from home to a class at their own level, with learners aged anywhere from 6 to 67, in a group of five to ten or alone with a teacher. Nothing is charged for the first lesson; from then on a group place is USD 100 a month and private teaching USD 150.
+**What are the best coding classes in London?** A good class for a London family has to work in a city of 8,799,728 people at the 2021 Census, run by 33 local authorities: 32 boroughs and the City of London Corporation. London also publishes itself. The Greater London Authority created the London Datastore, which listed 1,302 datasets when we counted through its API on 19 September 2026, and that API is the project on this page. Teaching is live, online and from India: a learner in Harrow, Hackney or Croydon logs in from home to a class at their own level, with learners aged anywhere from 6 to 67, in a group of fifteen to twenty or alone with a teacher. Nothing is charged for the first lesson; from then on a group place is USD 100 a month and private teaching USD 150.
 
 Every programmer eventually writes a loop that asks a server for results one page at a time: give me the first hundred, then the next hundred, and stop when a page comes back empty. It is the standard way to download a catalogue, and it rests on one assumption nobody writes down: that the server does what the request asks. We pointed that loop at the London Datastore, the city's open-data catalogue. It reported 1,302 datasets. Then it sent all 1,302 back on every call, whatever page size and starting point we asked for. A page never came back empty, so the loop never stopped. We had put a cap of 51 calls on it; by then it had collected 66,402 records, and only 1,302 of them were different. Nothing crashed and nothing warned. The program simply kept working, confidently, on a false assumption. That is the thread of this page, and of a great deal of real software.
 
-Facts last verified 20 September 2026. Teaching is online; no London branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no London branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city of 33 councils
 
@@ -163,7 +163,7 @@ Greater London stretches a long way east to west, and an online lesson reaches e
 - **Home, wherever that is** A learner in Bexley and one in Barnet share a lesson from their own rooms, and nobody travels across the city.
 - **English school words kept** Reception, Key Stages, Year 9 options, GCSEs and A levels keep their names, and every lesson is taught in English.
 - **The first lesson is free** A proper lesson on a real problem, followed by a suggested level, course and weekly slot. We never ask for card details.
-- **Mixed from many places** A group is five to ten learners at the same level, from all over London and from other countries, which is how every stage finds a slot that suits it.
+- **Mixed from many places** A group is fifteen to twenty learners at the same level, from all over London and from other countries, which is how every stage finds a slot that suits it.
 - **Around the school year** Twice a week, roughly eight lessons a month, and the family decides with the teacher when to stop for holidays, half term or revision.
 - **Teaching from India** Our teachers work on India time, which runs five and a half hours ahead of London from late October to late March and four and a half hours ahead in summer. Your slot is always written down in UK time.
 
@@ -174,7 +174,7 @@ Greater London stretches a long way east to west, and an online lesson reaches e
 Three prices, and no small print behind them.
 
 - First class: USD 0. One lesson on a real problem, ending in a placement and a course suggestion.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, with five to ten learners at the same level.
+- Group tuition: USD 100 a month. A month of lessons, usually eight, with fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. A month of lessons, usually eight, with one teacher for one learner.
 
 The price is set in US dollars, as it is for every family outside India, and it is the same in Zone 1 as in Zone 6; there is no pound price list. Nothing is paid until the free lesson has fixed a course and a regular slot, and the pricing page covers pauses, missed lessons and a change of format.
@@ -215,7 +215,7 @@ No. All teaching is live and online, and no London premises or UK office is clai
 
 ### What do coding classes in London cost?
 
-Nothing for the first lesson. After that, a group place costs USD 100 a month for two live lessons a week, around eight in a month, in a group of five to ten, and one-to-one teaching costs USD 150 a month on the same rhythm. Course, format and weekly hour are settled before any payment.
+Nothing for the first lesson. After that, a group place costs USD 100 a month for two live lessons a week, around eight in a month, in a group of fifteen to twenty, and one-to-one teaching costs USD 150 a month on the same rhythm. Course, format and weekly hour are settled before any payment.
 
 ### How many learners are in a group?
 

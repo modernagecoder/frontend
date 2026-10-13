@@ -207,7 +207,7 @@ module.exports = {
     h2: 'What private lessons cost',
     lede: 'Monthly, in US dollars, at the same rates as every country outside India. One-to-one lessons are USD 150 a month and a small-group place USD 100. No enrolment fee and no annual contract.',
     free: ['A real private lesson', 'A plan built around your goal', 'No card or bank details'],
-    group: ['Five to ten learners at one level', 'Peers and steady pace', 'Work reviewed every week', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'Peers and steady pace', 'Work reviewed every week', 'A certificate at the end'],
     one: ['One teacher, one learner', 'Syllabus shaped to the goal', 'The only format for Copilot Studio']
   },
 

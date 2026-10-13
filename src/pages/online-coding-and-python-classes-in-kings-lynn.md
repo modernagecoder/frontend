@@ -4,7 +4,7 @@ description: "Live online coding and Python lessons for King's Lynn, Gaywood, So
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-kings-lynn
 source: src/pages/online-coding-and-python-classes-in-kings-lynn.html
 ---
-> The ONS counts 47,615 usual residents in the King's Lynn built-up area at the 2021 census, and 154,325 in the borough of King's Lynn and West Norfolk. Gaywood, South Lynn, North Lynn, Fairstead, Hardwick and North and South Wootton are gazetteer suburbs inside that built-up area. Modern Age Coders teaches Python, coding, vibe coding, AI and maths to people there aged six to 67, live over video from India, either privately or in a group of five to ten learners at one level. We start from real data rather than tidy exercises. After a free trial lesson we suggest a course. The King's Lynn project takes a month of Environment Agency readings from two tide gauges on the Great Ouse, one reporting every five minutes and one every fifteen, and teaches the learner to line them up honestly in Python. Monthly fees after the trial are USD 100 for group lessons and USD 150 for one-to-one.
+> The ONS counts 47,615 usual residents in the King's Lynn built-up area at the 2021 census, and 154,325 in the borough of King's Lynn and West Norfolk. Gaywood, South Lynn, North Lynn, Fairstead, Hardwick and North and South Wootton are gazetteer suburbs inside that built-up area. Modern Age Coders teaches Python, coding, vibe coding, AI and maths to people there aged six to 67, live over video from India, either privately or in a group of fifteen to twenty learners at one level. We start from real data rather than tidy exercises. After a free trial lesson we suggest a course. The King's Lynn project takes a month of Environment Agency readings from two tide gauges on the Great Ouse, one reporting every five minutes and one every fifteen, and teaches the learner to line them up honestly in Python. Monthly fees after the trial are USD 100 for group lessons and USD 150 for one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East of England](/coding-and-ai-classes-in-east-of-england) / King’s Lynn
 
@@ -12,11 +12,11 @@ King's Lynn, West Norfolk, England / Live online
 
 # Online coding and Python classes in King's Lynn
 
-**What are the best online coding and Python classes for King's Lynn?** The ONS counts 47,615 usual residents in the King's Lynn built-up area at the 2021 census, and 154,325 in the borough of King's Lynn and West Norfolk. Gaywood, South Lynn, North Lynn, Fairstead, Hardwick and North and South Wootton are gazetteer suburbs inside that built-up area. Modern Age Coders teaches Python, coding, vibe coding, AI and maths to people there aged six to 67, live over video from India, either privately or in a group of five to ten learners at one level. We start from real data rather than tidy exercises. After a free trial lesson we suggest a course. The King's Lynn project takes a month of Environment Agency readings from two tide gauges on the Great Ouse, one reporting every five minutes and one every fifteen, and teaches the learner to line them up honestly in Python. Monthly fees after the trial are USD 100 for group lessons and USD 150 for one-to-one.
+**What are the best online coding and Python classes for King's Lynn?** The ONS counts 47,615 usual residents in the King's Lynn built-up area at the 2021 census, and 154,325 in the borough of King's Lynn and West Norfolk. Gaywood, South Lynn, North Lynn, Fairstead, Hardwick and North and South Wootton are gazetteer suburbs inside that built-up area. Modern Age Coders teaches Python, coding, vibe coding, AI and maths to people there aged six to 67, live over video from India, either privately or in a group of fifteen to twenty learners at one level. We start from real data rather than tidy exercises. After a free trial lesson we suggest a course. The King's Lynn project takes a month of Environment Agency readings from two tide gauges on the Great Ouse, one reporting every five minutes and one every fifteen, and teaches the learner to line them up honestly in Python. Monthly fees after the trial are USD 100 for group lessons and USD 150 for one-to-one.
 
 Two gauges watch the tidal Great Ouse at King's Lynn. One reports every five minutes, the other every fifteen, and neither waits for the other. Put their readings side by side and most rows have nothing to pair with. The obvious fixes each carry a quiet risk. Borrow the last reading and it may be ten minutes old, which on this river can mean most of a metre. Borrow the closest reading and it may come from the future. Fill the gap with a straight line and you have written numbers nobody measured. Choosing between them is a real programming decision, and the river makes the cost of each choice easy to see.
 
-Facts last verified 30 September 2026. Teaching is online; no King’s Lynn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no King’s Lynn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python and coding courses for King's Lynn learners
 
@@ -141,7 +141,7 @@ Every lesson is a live video call. A laptop or desktop with a keyboard is needed
 - **Hands on the keyboard** The learner types and runs the code while the tutor asks what each line is for.
 - **Placed after the trial** We see what the learner can already do before suggesting a course.
 - **Free first session** No payment and no card details are needed to try a lesson.
-- **Groups of five to ten** Everyone in a group works at the same stage, joining from across the UK.
+- **Groups of fifteen to twenty** Everyone in a group works at the same stage, joining from across the UK.
 - **Around eight a month** Usually two lessons a week in term time, with Norfolk holidays kept free if you ask.
 - **Fixed UK time** When the clocks change, the tutor adjusts and your slot stays put.
 

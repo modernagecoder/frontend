@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Widnes',
   capsuleQ: 'Where can Widnes learners find the best coding and AI classes?',
-  capsule: 'Widnes is one of the two large towns in the borough of Halton, and the ONS counted 59,935 residents in its built-up area at the 2021 census. Ditton, Hough Green, Farnworth, Appleton, Upton Rocks and Halton View are recorded suburbs inside it. Anyone aged six to 67 can learn coding, AI, Python, vibe coding and maths here through live video lessons with a tutor in India, taught privately or in a class of five to ten learners at one level. We teach the reasoning first, so that a learner can test a claim instead of repeating it. Lesson one costs nothing and closes with a course suggestion; after it, a group place is USD 100 a month and private tuition USD 150 a month. The Widnes project takes a famous rule of thumb, that a fifth of the causes give four fifths of the results, and checks it against five Census counts for the town\'s 193 small areas.',
+  capsule: 'Widnes is one of the two large towns in the borough of Halton, and the ONS counted 59,935 residents in its built-up area at the 2021 census. Ditton, Hough Green, Farnworth, Appleton, Upton Rocks and Halton View are recorded suburbs inside it. Anyone aged six to 67 can learn coding, AI, Python, vibe coding and maths here through live video lessons with a tutor in India, taught privately or in a class of fifteen to twenty learners at one level. We teach the reasoning first, so that a learner can test a claim instead of repeating it. Lesson one costs nothing and closes with a course suggestion; after it, a group place is USD 100 a month and private tuition USD 150 a month. The Widnes project takes a famous rule of thumb, that a fifth of the causes give four fifths of the results, and checks it against five Census counts for the town\'s 193 small areas.',
   lead: 'People quote the 80/20 rule as if it were a law of nature: 20% of customers bring 80% of sales, 20% of bugs cause 80% of crashes. Its proper name is the Pareto principle, and it is a pattern seen in some data, not a promise about all data. Whether it holds depends on what you count and on the units you count it in. A learner who can write a dozen lines of Python can test it in an afternoon, and Widnes gives a neat example where one count obeys the rule quite closely and another, from the very same streets, comes nowhere close.',
   wa: 'Hello Modern Age Coders, I would like to book a free coding or AI lesson for a learner in Widnes.',
 
@@ -156,7 +156,7 @@ module.exports = {
       { h3: 'Hands on the keyboard', p: 'The learner shares a screen and does the typing. The tutor asks for a prediction before each run and a reason after it.' },
       { h3: 'Starting point found first', p: 'Lesson one shows us what is already secure, and we note the exam board if there is one.' },
       { h3: 'No charge to try', p: 'The opening lesson is a full one and it is free. We suggest a course when it ends.' },
-      { h3: 'Classes of one level', p: 'Group classes hold five to ten learners from around the UK who are at the same stage.' },
+      { h3: 'Classes of one level', p: 'Group classes hold fifteen to twenty learners from around the UK who are at the same stage.' },
       { h3: 'Twice weekly', p: 'Two lessons a week, with breaks for the school holidays you tell us about.' },
       { h3: 'Fixed UK time', p: 'When the clocks go forward or back, your lesson time in Widnes stays where it was.' }
     ],

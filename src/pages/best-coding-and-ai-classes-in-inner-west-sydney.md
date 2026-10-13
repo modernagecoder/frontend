@@ -16,7 +16,7 @@ Inner West Council area, Sydney, New South Wales / Live online
 
 Index numbers turn counts into a story: set one month to 100 and every other month becomes "up" or "down" from it. Done on the light rail stops between Lilyfield and Dulwich Hill, that story depends almost entirely on which month you pick as 100. Our students learn to pick it on purpose and to say so.
 
-Facts last verified 10 October 2026. Teaching is online; no Inner West branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Inner West branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for learners who want numbers to mean something
 
@@ -190,7 +190,7 @@ Every lesson is live online, so there is no stop to reach and no timetable to fi
 - **Learn at home** A laptop and a quiet table are enough; the teacher shares code and screen live.
 - **NSW calendar** Planning tracks NSW syllabus stages, with no lessons in the state school holidays.
 - **Trial first** The free first class is a real lesson, closing with a course, level and time suggestion.
-- **Five to ten learners** Groups are formed by level and pace, mixing Inner West learners with others.
+- **Fifteen to twenty learners** Groups are formed by level and pace, mixing Inner West learners with others.
 - **Two lessons weekly** Two set lessons a week, roughly eight a month, with planned breaks agreed early.
 - **Teachers in India** A 5:30pm Inner West lesson in daylight saving time is 12 noon in India; after the clocks go back, it is 1pm there.
 
@@ -201,7 +201,7 @@ Every lesson is live online, so there is no stop to reach and no timetable to fi
 Everything is covered by three amounts.
 
 - First class: USD 0. Your first class is free and ends with a clear recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, usually eight, with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group lessons, usually eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Roughly eight one-to-one lessons every month.
 
 Families outside India are invoiced in US dollars, the same for every Inner West household. Nothing is charged until after the trial, when course and time are set; holidays, absences and switching formats are explained on the pricing page.
@@ -238,7 +238,7 @@ No. All lessons are live online, we have no premises in Australia, and the phone
 
 ### How much are coding classes for Inner West learners?
 
-The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before payment.
+The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before payment.
 
 ### How many learners share a group?
 

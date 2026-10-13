@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Nottinghamshir
 canonical: https://learn.modernagecoders.com/coding-classes-in-nottinghamshire
 source: src/pages/coding-classes-in-nottinghamshire.html
 ---
-> Nottinghamshire here means the city of Nottingham together with the seven districts of Nottinghamshire County Council. Between them they held 1,148,455 people at the 2021 Census, a total we made by adding the eight published figures. After Nottingham come Mansfield, Carlton, Beeston and Worksop. Every lesson is live on video, taught from India, and learners join the class that fits their ability rather than the one that fits their age. Pupils range from six-year-olds to people of 67, learning coding, Python or maths in a class of five to ten or with a teacher of their own. The Nottinghamshire project comes from Newstead Abbey, Lord Byron's former home, and Byron's daughter Ada Lovelace. You pay nothing for a first lesson; after it, groups cost USD 100 a month and private lessons USD 150 a month.
+> Nottinghamshire here means the city of Nottingham together with the seven districts of Nottinghamshire County Council. Between them they held 1,148,455 people at the 2021 Census, a total we made by adding the eight published figures. After Nottingham come Mansfield, Carlton, Beeston and Worksop. Every lesson is live on video, taught from India, and learners join the class that fits their ability rather than the one that fits their age. Pupils range from six-year-olds to people of 67, learning coding, Python or maths in a class of fifteen to twenty or with a teacher of their own. The Nottinghamshire project comes from Newstead Abbey, Lord Byron's former home, and Byron's daughter Ada Lovelace. You pay nothing for a first lesson; after it, groups cost USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Nottinghamshire
 
@@ -12,11 +12,11 @@ Nottinghamshire / Live online
 
 # Coding classes in Nottinghamshire
 
-**What are the best coding classes in Nottinghamshire?** Nottinghamshire here means the city of Nottingham together with the seven districts of Nottinghamshire County Council. Between them they held 1,148,455 people at the 2021 Census, a total we made by adding the eight published figures. After Nottingham come Mansfield, Carlton, Beeston and Worksop. Every lesson is live on video, taught from India, and learners join the class that fits their ability rather than the one that fits their age. Pupils range from six-year-olds to people of 67, learning coding, Python or maths in a class of five to ten or with a teacher of their own. The Nottinghamshire project comes from Newstead Abbey, Lord Byron's former home, and Byron's daughter Ada Lovelace. You pay nothing for a first lesson; after it, groups cost USD 100 a month and private lessons USD 150 a month.
+**What are the best coding classes in Nottinghamshire?** Nottinghamshire here means the city of Nottingham together with the seven districts of Nottinghamshire County Council. Between them they held 1,148,455 people at the 2021 Census, a total we made by adding the eight published figures. After Nottingham come Mansfield, Carlton, Beeston and Worksop. Every lesson is live on video, taught from India, and learners join the class that fits their ability rather than the one that fits their age. Pupils range from six-year-olds to people of 67, learning coding, Python or maths in a class of fifteen to twenty or with a teacher of their own. The Nottinghamshire project comes from Newstead Abbey, Lord Byron's former home, and Byron's daughter Ada Lovelace. You pay nothing for a first lesson; after it, groups cost USD 100 a month and private lessons USD 150 a month.
 
 Newstead Abbey, in Nottinghamshire, keeps Lord Byron's study and his belongings. His daughter was Ada Lovelace, who in 1843 published what is often called the first computer program: a step-by-step plan for Charles Babbage's Analytical Engine to compute the Bernoulli numbers. Babbage wrote that she caught "a grave mistake" in his working along the way. This page's project turns Ada's formula into a Python loop, checks it against the numbers as mathematicians write them today, and then runs it in ordinary computer decimals to see how far it can go before the answers become nonsense.
 
-Facts last verified 26 September 2026. Teaching is online; no Nottinghamshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Nottinghamshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Nottinghamshire learners begin
 
@@ -140,7 +140,7 @@ Crossing Nottingham at rush hour for a weekly class is nobody's idea of fun. Onl
 - **At your own desk** A bedroom in Hucknall, a dining room in Southwell, a flat in Beeston. The learner codes while the teacher watches the same screen.
 - **Terms from school** When a Year 10 mentions a GCSE mock or a sixth former talks about A level options, the teacher knows exactly what they mean. Lessons are in English.
 - **A free lesson first** A genuine lesson, then a clear recommendation. No payment details are requested.
-- **Learners at your level** Groups of five to ten at one stage, drawn from Nottinghamshire and far beyond.
+- **Learners at your level** Groups of fifteen to twenty at one stage, drawn from Nottinghamshire and far beyond.
 - **Holidays by your calendar** Two lessons a week is the norm, and we pause for your school's own holidays.
 - **Always UK clock time** Slots are booked in UK time and do not move when the clocks change; the teacher keeps India time, several hours ahead, and makes the switch.
 
@@ -151,7 +151,7 @@ Crossing Nottingham at rush hour for a weekly class is nobody's idea of fun. Onl
 A family in Worksop pays exactly what a family in West Bridgford pays, and the same as families in every country we teach apart from India.
 
 - First class: USD 0. A complete lesson of real work, then our honest suggestion of level and course.
-- Group tuition: USD 100 a month. Roughly eight lessons a month with five to ten learners at one level.
+- Group tuition: USD 100 a month. Roughly eight lessons a month with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Roughly eight lessons a month, one teacher to one learner.
 
 We invoice in US dollars and publish no sterling prices. The first invoice comes only after the free lesson, once a course and a regular weekly slot are settled. Holidays, a missed class, or a change from group to private are all explained on our pricing page.

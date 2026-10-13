@@ -4,7 +4,7 @@ description: "Live online AI, programming, Python and vibe coding classes for le
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-bootle
 source: src/pages/ai-and-programming-classes-in-bootle.html
 ---
-> The Bootle built-up area had 53,720 residents at the 2021 census, inside a Sefton borough of 279,233, on ONS figures. Seaforth, Netherton, Orrell and Ford are listed as suburban areas of the borough, with Crosby and Formby as separate towns. Our tutors, based in India, teach AI, programming, Python, vibe coding and maths on live video to anyone aged six to 67, either alone or in a class of five to ten who work at one level. Lessons begin with how to reason, so that a learner can test what a model or a chatbot claims. The Bootle project trains two models on Census areas of Sefton, a few at first and then hundreds, and draws the learning curve for each to see when more data stops paying. The opening lesson costs nothing and closes with a course recommendation; afterwards a group place is USD 100 a month and private lessons USD 150 a month.
+> The Bootle built-up area had 53,720 residents at the 2021 census, inside a Sefton borough of 279,233, on ONS figures. Seaforth, Netherton, Orrell and Ford are listed as suburban areas of the borough, with Crosby and Formby as separate towns. Our tutors, based in India, teach AI, programming, Python, vibe coding and maths on live video to anyone aged six to 67, either alone or in a class of fifteen to twenty who work at one level. Lessons begin with how to reason, so that a learner can test what a model or a chatbot claims. The Bootle project trains two models on Census areas of Sefton, a few at first and then hundreds, and draws the learning curve for each to see when more data stops paying. The opening lesson costs nothing and closes with a course recommendation; afterwards a group place is USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Bootle
 
@@ -12,11 +12,11 @@ Bootle, Sefton, Merseyside / Live online
 
 # AI and programming classes in Bootle, Merseyside
 
-**Which are the best AI and programming classes in Bootle?** The Bootle built-up area had 53,720 residents at the 2021 census, inside a Sefton borough of 279,233, on ONS figures. Seaforth, Netherton, Orrell and Ford are listed as suburban areas of the borough, with Crosby and Formby as separate towns. Our tutors, based in India, teach AI, programming, Python, vibe coding and maths on live video to anyone aged six to 67, either alone or in a class of five to ten who work at one level. Lessons begin with how to reason, so that a learner can test what a model or a chatbot claims. The Bootle project trains two models on Census areas of Sefton, a few at first and then hundreds, and draws the learning curve for each to see when more data stops paying. The opening lesson costs nothing and closes with a course recommendation; afterwards a group place is USD 100 a month and private lessons USD 150 a month.
+**Which are the best AI and programming classes in Bootle?** The Bootle built-up area had 53,720 residents at the 2021 census, inside a Sefton borough of 279,233, on ONS figures. Seaforth, Netherton, Orrell and Ford are listed as suburban areas of the borough, with Crosby and Formby as separate towns. Our tutors, based in India, teach AI, programming, Python, vibe coding and maths on live video to anyone aged six to 67, either alone or in a class of fifteen to twenty who work at one level. Lessons begin with how to reason, so that a learner can test what a model or a chatbot claims. The Bootle project trains two models on Census areas of Sefton, a few at first and then hundreds, and draws the learning curve for each to see when more data stops paying. The opening lesson costs nothing and closes with a course recommendation; afterwards a group place is USD 100 a month and private lessons USD 150 a month.
 
 Everyone who builds a model eventually asks whether to collect more data. A learning curve answers with evidence: train on ten examples, then twenty, then fifty, and at every step measure the error on examples the model has never seen. If the curve is still falling, more data will help. If it has gone flat, the model has learned what it can and the effort belongs elsewhere. Sefton has 942 census output areas, enough for a learner in Bootle to draw this curve in Python for two very different models and watch them behave differently.
 
-Facts last verified 30 September 2026. Teaching is online; no Bootle branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Bootle branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI, Python and thinking courses for Bootle learners
 
@@ -139,7 +139,7 @@ A laptop or desktop and a connection that holds a video call are the whole kit l
 - **Hands on the keys** The learner types, runs and debugs. The tutor follows on a shared screen and asks why each step works.
 - **Placed by the trial** The free session shows what the learner already knows, and we note any exam board then.
 - **A free start** No fee and no card for lesson one, which finishes with a course we would suggest.
-- **Classes by level** Five to ten learners from across the UK, grouped by what they can do, not by postcode.
+- **Classes by level** Fifteen to twenty learners from across the UK, grouped by what they can do, not by postcode.
 - **Twice weekly** Two lessons most weeks, with breaks in the school holidays you tell us about.
 - **Clock changes handled** When British Summer Time begins or ends, the tutor shifts and your hour stays put.
 

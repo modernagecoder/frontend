@@ -16,7 +16,7 @@ Bishopston, Bristol, England / Live online
 
 A satellite fix is usually several metres off, and between tall buildings it can be thirty. A sat-nav still shows your car neatly on a road. The step that does this is called map matching. The naive version moves each dot to whichever road is closest, which breaks at every junction and wherever two streets run side by side. The better version treats the true road as hidden and asks a different question: which sequence of roads, taken as a whole, would most plausibly have produced this string of dots? The Viterbi algorithm answers that efficiently. We test both versions on the mapped streets around Bishopston, 754 of them inside one small rectangle, and measure the difference.
 
-Facts last verified 30 September 2026. Teaching is online; no Bishopston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Bishopston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Vibe coding, AI agents and how-to-think courses for Bishopston
 
@@ -131,7 +131,7 @@ You will want a proper computer, not a phone, with a working camera and a steady
 - **Learner writes, tutor probes** The screen being shared is the learner's. They code, and the tutor interrupts with "what will this print?"
 - **A level chosen in the trial** We watch how the learner works in lesson one, place them, and log the exam board where relevant.
 - **Lesson one is free** It costs nothing, and you come away with a suggested course.
-- **Five to ten in a group** Everyone in it is at the same stage, and they join from across Britain.
+- **Fifteen to twenty in a group** Everyone in it is at the same stage, and they join from across Britain.
 - **Twice every week** School holidays are left free.
 - **One UK time, kept** Clock changes are handled at the tutor's end.
 

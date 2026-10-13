@@ -16,7 +16,7 @@ Tullamore, County Offaly / Live online
 
 The Central Statistics Office prints a single number for how old Tullamore is: an average age of 38.1. Underneath it sits a table counting the town's people by age, one row per year up to nineteen and then five-year bands, ending in an open row for everyone aged 85 and over. This page rebuilds the one from the other, the way a careful analyst checks any figure before quoting it. The totals agree. The average only comes out right if each person is counted at the middle of their year of age, not at the birthday just gone, and that single discovery is the reason to do the exercise. Then the same program runs across all 867 census towns, and the pattern of its misses shows what grouping ages into bands throws away. Every number below came from running it.
 
-Facts last verified 19 September 2026. Teaching is online; no Tullamore branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Tullamore branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four places Tullamore learners start
 
@@ -171,7 +171,7 @@ The arithmetic is cheap now. Knowing which arithmetic produced a published numbe
 The arrangements, in brief.
 
 - **Live, not recorded** A teacher runs each lesson in real time and responds to the code in front of the learner.
-- **Matched groups** Five to ten learners at one stage, drawn from Offaly, the rest of Ireland and other countries.
+- **Matched groups** Fifteen to twenty learners at one stage, drawn from Offaly, the rest of Ireland and other countries.
 - **Twice most weeks** About eight lessons a month, on days and at an hour agreed at the start.
 - **Fitted to the school year** The plan allows for mid-terms, holidays and the weeks before exams.
 - **At home** A keyboard and a screen wide enough for code beside a video window, a headset or speakers with a microphone, and the ordinary home broadband that 4,530 households here already have.
@@ -184,7 +184,7 @@ The arrangements, in brief.
 All of it, in one place.
 
 - First class: USD 0. A complete first lesson with a level assessment, at no charge.
-- Group tuition: USD 100 a month. A month in a group of five to ten at the same stage, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at the same stage, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons on the same weekly pattern.
 
 Nothing is owed for the opening hour; the month begins when the first paid lesson does, at the one US dollar rate used for every country outside India, and the pricing page sets out what happens over holidays, after a missed lesson or on moving between group and private.
@@ -225,7 +225,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Tullamore cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

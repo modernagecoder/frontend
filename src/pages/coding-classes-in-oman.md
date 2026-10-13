@@ -211,7 +211,7 @@ The arrangement
 | Decision | What is fixed | What is agreed with the family |
 | --- | --- | --- |
 | First class | Free and used as a placement check | The learner's goal, present ability and suitable course |
-| Group | Five to eight students with live teaching | An age and level match that lets the learner participate |
+| Group | Fifteen to twenty students with live teaching | An age and level match that lets the learner participate |
 | Private | One student and one teacher | Whether individual pacing is worth the higher fee |
 | Frequency | Two classes a week and eight a month | The recurring slot, confirmed before payment |
 | Schedule | Oman is one and a half hours behind India | Weekday evening or Friday and Saturday weekend feasibility |
@@ -261,7 +261,7 @@ No enrolment charge, nothing to buy, no minimum term.
 
 Group$100per month, 8 classes
 
-This suits a learner who benefits from hearing other solutions and can work at the shared level of five to eight students.
+This suits a learner who benefits from hearing other solutions and can work at the shared level of fifteen to twenty students.
 
 Private$150per month, 8 classes
 

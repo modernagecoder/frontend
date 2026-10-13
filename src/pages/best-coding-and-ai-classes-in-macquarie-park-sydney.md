@@ -16,7 +16,7 @@ Macquarie Park, Sydney, New South Wales / Live online
 
 Every Opal tap at a station is recorded twice in the published figures, once as an entry and once as an exit somewhere. If every trip started and ended inside the same set of stations, the two totals would match. They do not, and the gap is a good first lesson in data: a conservation law tells you what should be true, and the mismatch tells you where people go that the data cannot see.
 
-Facts last verified 10 October 2026. Teaching is online; no Macquarie Park branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Macquarie Park branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that start from real records
 
@@ -185,7 +185,7 @@ With nearly nine in ten Macquarie Park homes counted as flats or apartments, mos
 - **No commute** The learner logs in and the full hour goes on coding, with no travel at either end.
 - **NSW calendar** Plans follow the NSW stages and pause for state school holidays, with senior projects that suit computing subjects.
 - **Trial first** The free lesson is a real class, finishing with a suggested course, level and time and no payment taken.
-- **Small groups** Five to ten learners at a similar level, drawn from Macquarie Park and elsewhere.
+- **Small groups** Fifteen to twenty learners at a similar level, drawn from Macquarie Park and elsewhere.
 - **A steady rhythm** Two set lessons a week, about eight a month, with breaks agreed in advance.
 - **Teachers in India** A 7pm lesson in Macquarie Park during daylight saving begins at 1:30pm India time; once Sydney returns to standard time it begins at 2:30pm there.
 
@@ -196,7 +196,7 @@ With nearly nine in ten Macquarie Park homes counted as flats or apartments, mos
 The full price list has three lines.
 
 - First class: USD 0. The first lesson is free and ends with a clear recommendation.
-- Group tuition: USD 100 a month. A month of small-group lessons, usually eight, with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of small-group lessons, usually eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight one-to-one lessons a month with a single teacher.
 
 Outside India, fees are invoiced in US dollars, so every Macquarie Park family pays the same rate. Payment starts only once the course and lesson time are settled after the trial; holidays, missed lessons and changes of format are explained on the pricing page.
@@ -233,7 +233,7 @@ No. All lessons are live online, we have no premises in Australia, and the phone
 
 ### How much are coding classes for Macquarie Park learners?
 
-The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before payment.
+The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before payment.
 
 ### How many people are in a group?
 

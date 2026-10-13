@@ -4,7 +4,7 @@ description: "Live online vibe coding, AI agents, Python and coding classes for 
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-folkestone
 source: src/pages/vibe-coding-and-ai-agents-classes-in-folkestone.html
 ---
-> The ONS counted 51,995 usual residents in the Folkestone built-up area at the 2021 census, inside a Folkestone and Hythe district of 109,758. Cheriton, Morehall, Foord, Sandgate and Coolinge are its suburban areas in the postcode gazetteer. Modern Age Coders gives lessons in vibe coding, AI agents, Python, coding and maths to anyone there aged six to 67. Every lesson is a live video call with a tutor in India, taken alone or in a class of five to ten at one level. Our method is to have learners build the part of an AI system they would otherwise take on trust, then test it. The Folkestone project is a search agent: three simple rankers each sort the passages of H. G. Wells's novel Kipps for a question about the town, they disagree, and the learner writes the rule that merges them. The opening lesson is free; after that a class place is USD 100 a month and private tuition USD 150 a month.
+> The ONS counted 51,995 usual residents in the Folkestone built-up area at the 2021 census, inside a Folkestone and Hythe district of 109,758. Cheriton, Morehall, Foord, Sandgate and Coolinge are its suburban areas in the postcode gazetteer. Modern Age Coders gives lessons in vibe coding, AI agents, Python, coding and maths to anyone there aged six to 67. Every lesson is a live video call with a tutor in India, taken alone or in a class of fifteen to twenty at one level. Our method is to have learners build the part of an AI system they would otherwise take on trust, then test it. The Folkestone project is a search agent: three simple rankers each sort the passages of H. G. Wells's novel Kipps for a question about the town, they disagree, and the learner writes the rule that merges them. The opening lesson is free; after that a class place is USD 100 a month and private tuition USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Folkestone
 
@@ -12,11 +12,11 @@ Folkestone, Folkestone and Hythe, Kent / Live online
 
 # Vibe coding and AI agents classes in Folkestone
 
-**Which vibe coding and AI agents classes are best for Folkestone learners?** The ONS counted 51,995 usual residents in the Folkestone built-up area at the 2021 census, inside a Folkestone and Hythe district of 109,758. Cheriton, Morehall, Foord, Sandgate and Coolinge are its suburban areas in the postcode gazetteer. Modern Age Coders gives lessons in vibe coding, AI agents, Python, coding and maths to anyone there aged six to 67. Every lesson is a live video call with a tutor in India, taken alone or in a class of five to ten at one level. Our method is to have learners build the part of an AI system they would otherwise take on trust, then test it. The Folkestone project is a search agent: three simple rankers each sort the passages of H. G. Wells's novel Kipps for a question about the town, they disagree, and the learner writes the rule that merges them. The opening lesson is free; after that a class place is USD 100 a month and private tuition USD 150 a month.
+**Which vibe coding and AI agents classes are best for Folkestone learners?** The ONS counted 51,995 usual residents in the Folkestone built-up area at the 2021 census, inside a Folkestone and Hythe district of 109,758. Cheriton, Morehall, Foord, Sandgate and Coolinge are its suburban areas in the postcode gazetteer. Modern Age Coders gives lessons in vibe coding, AI agents, Python, coding and maths to anyone there aged six to 67. Every lesson is a live video call with a tutor in India, taken alone or in a class of fifteen to twenty at one level. Our method is to have learners build the part of an AI system they would otherwise take on trust, then test it. The Folkestone project is a search agent: three simple rankers each sort the passages of H. G. Wells's novel Kipps for a question about the town, they disagree, and the learner writes the rule that merges them. The opening lesson is free; after that a class place is USD 100 a month and private tuition USD 150 a month.
 
 An AI agent that answers from documents has to find the right passage before it can say anything sensible. Most serious systems run more than one search at once, because each kind of search is blind in its own way, and then they face an awkward problem: three lists, three different orders, and scores that cannot be compared. In 2009 three researchers, Cormack, Clarke and Buettcher, showed that a formula a twelve-year-old can compute does the merging remarkably well. It ignores the scores and uses only positions. This project tries it on a book that spends a great deal of its time in Folkestone.
 
-Facts last verified 30 September 2026. Teaching is online; no Folkestone branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Folkestone branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four Folkestone starting points for vibe coding and agents
 
@@ -134,7 +134,7 @@ All that is needed at home is a laptop or desktop with a webcam and an internet 
 - **Hands on the keyboard** The learner shares a screen and types; the tutor watches, questions and nudges instead of lecturing.
 - **Placement by evidence** We suggest a course only after seeing the learner work in the free session.
 - **No card for the trial** Booking the first lesson costs nothing and asks for no payment details.
-- **Small, level-matched groups** Five to ten learners at the same stage, drawn from across the UK.
+- **Small, level-matched groups** Fifteen to twenty learners at the same stage, drawn from across the UK.
 - **Two lessons most weeks** Tell us the Kent term dates your school follows and we skip the holidays.
 - **Your slot stays put** When UK clocks move in spring and autumn, the tutor adjusts, not you.
 

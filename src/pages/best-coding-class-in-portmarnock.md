@@ -16,7 +16,7 @@ Portmarnock, Fingal, County Dublin / Live online
 
 Across Ireland, 36.3 percent of workers who answered the census question work from home at least one day a week. It is a tidy, often quoted figure. The CSO also publishes the same answer for more than 300 detailed occupations, and when the learner draws them as a chart, something surprising appears: almost no occupation is anywhere near 36.3. Most sit in one of two crowds, near none or near all. Only 4.9 percent of workers are in occupations within five points of the average. Portmarnock, where 59.9 percent of working residents who answered do some work at home, second only to Malahide among the larger towns, is a good place to ask what any single average is hiding.
 
-Facts last verified 19 September 2026. Teaching is online; no Portmarnock branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Portmarnock branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Portmarnock learners start with
 
@@ -174,7 +174,7 @@ Summaries are what assistants do fastest. Checking that a summary fits the shape
 How it works.
 
 - **Teacher present** Each lesson is taught live, with the teacher responding to the learner's code as they go.
-- **Level first** Groups of five to ten are formed by stage, with learners from Fingal, the rest of Ireland and abroad.
+- **Level first** Groups of fifteen to twenty are formed by stage, with learners from Fingal, the rest of Ireland and abroad.
 - **Regular slots** Usually two lessons a week, around eight a month, on fixed days.
 - **Around exams and holidays** The plan leaves room for mid-terms, holidays and exam weeks.
 - **Needed at home** A computer with a keyboard, a way to talk and listen, and a stable home connection, which 3,531 Portmarnock households already have.
@@ -187,7 +187,7 @@ How it works.
 Prices, in full.
 
 - First class: USD 0. A full first lesson with the level assessed, free.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one stage, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one stage, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons on the same weekly pattern.
 
 Families anywhere but India pay one monthly price in US dollars. The free lesson costs nothing and binds nobody; the first payment comes with the start of the course, and holidays, missed lessons or a change of format are all covered in the pricing page's rules.
@@ -228,7 +228,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Portmarnock cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

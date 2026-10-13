@@ -4,7 +4,7 @@ description: "Python, coding, AI and vibe coding lessons by live video for West 
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-west-bridgford-nottingham
 source: src/pages/online-coding-and-python-classes-in-west-bridgford-nottingham.html
 ---
-> West Bridgford is a town of 36,490 people by the ONS built-up area count for 2021. It belongs to Rushcliffe borough in Nottinghamshire, which had 119,077 residents, and not to the City of Nottingham. Lutterell, Trent Bridge, Compton Acres and Musters are among the borough's wards, and Gamston and Edwalton are recorded as villages. Python, coding, AI, vibe coding and maths are taught here by video, with a tutor in India, to anyone from six years old to 67; you choose private lessons or a group of five to ten at a shared level. Checking comes before trusting in everything we teach. A first lesson is free and ends with a course suggestion from us. For its project, West Bridgford gets a very practical Python job: matching 192 real addresses to the right street when the two sources write things differently. After the free lesson the monthly fee is USD 100 in a group, USD 150 one-to-one.
+> West Bridgford is a town of 36,490 people by the ONS built-up area count for 2021. It belongs to Rushcliffe borough in Nottinghamshire, which had 119,077 residents, and not to the City of Nottingham. Lutterell, Trent Bridge, Compton Acres and Musters are among the borough's wards, and Gamston and Edwalton are recorded as villages. Python, coding, AI, vibe coding and maths are taught here by video, with a tutor in India, to anyone from six years old to 67; you choose private lessons or a group of fifteen to twenty at a shared level. Checking comes before trusting in everything we teach. A first lesson is free and ends with a course suggestion from us. For its project, West Bridgford gets a very practical Python job: matching 192 real addresses to the right street when the two sources write things differently. After the free lesson the monthly fee is USD 100 in a group, USD 150 one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Nottingham](/best-coding-class-in-nottingham) / West Bridgford
 
@@ -12,11 +12,11 @@ West Bridgford, Rushcliffe, Nottinghamshire, England / Live online
 
 # Online coding and Python classes in West Bridgford
 
-**Which are the best online coding and Python classes in West Bridgford?** West Bridgford is a town of 36,490 people by the ONS built-up area count for 2021. It belongs to Rushcliffe borough in Nottinghamshire, which had 119,077 residents, and not to the City of Nottingham. Lutterell, Trent Bridge, Compton Acres and Musters are among the borough's wards, and Gamston and Edwalton are recorded as villages. Python, coding, AI, vibe coding and maths are taught here by video, with a tutor in India, to anyone from six years old to 67; you choose private lessons or a group of five to ten at a shared level. Checking comes before trusting in everything we teach. A first lesson is free and ends with a course suggestion from us. For its project, West Bridgford gets a very practical Python job: matching 192 real addresses to the right street when the two sources write things differently. After the free lesson the monthly fee is USD 100 in a group, USD 150 one-to-one.
+**Which are the best online coding and Python classes in West Bridgford?** West Bridgford is a town of 36,490 people by the ONS built-up area count for 2021. It belongs to Rushcliffe borough in Nottinghamshire, which had 119,077 residents, and not to the City of Nottingham. Lutterell, Trent Bridge, Compton Acres and Musters are among the borough's wards, and Gamston and Edwalton are recorded as villages. Python, coding, AI, vibe coding and maths are taught here by video, with a tutor in India, to anyone from six years old to 67; you choose private lessons or a group of fifteen to twenty at a shared level. Checking comes before trusting in everything we teach. A first lesson is free and ends with a course suggestion from us. For its project, West Bridgford gets a very practical Python job: matching 192 real addresses to the right street when the two sources write things differently. After the free lesson the monthly fee is USD 100 in a group, USD 150 one-to-one.
 
 Two datasets rarely agree on how to write the same thing. One says "14 Central Avenue", another just "Central Avenue"; one abbreviates, one misspells. Joining them, which is called record linkage, is among the most common jobs in real data work, and it is tempting to reach straight for "fuzzy matching", which scores how alike two strings are. This project does it properly, in stages, on open data: the addresses of food businesses in and around West Bridgford from the Food Standards Agency, matched to the street names on OpenStreetMap. Then it uses the map itself to check whether each match is right.
 
-Facts last verified 30 September 2026. Teaching is online; no West Bridgford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no West Bridgford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python, data and AI courses for West Bridgford
 
@@ -136,7 +136,7 @@ You will need a computer with a working camera and a reasonable internet connect
 - **Learner-written code** The tutor never takes over the keyboard. Learners type, run and explain; the tutor watches their screen and questions.
 - **A trial with a purpose** It shows us the learner's level and interests, and which exam board applies if any.
 - **Free to begin** The trial lesson carries no charge, and we end it by proposing a course.
-- **Small groups** Five to ten learners at the same level, drawn from across the UK.
+- **Small groups** Fifteen to twenty learners at the same level, drawn from across the UK.
 - **Weekly pattern** Two lessons a week, none in school holidays.
 - **One fixed time** British clock changes are handled by the tutor, so the slot stays where it was.
 

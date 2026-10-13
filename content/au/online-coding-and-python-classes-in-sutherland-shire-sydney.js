@@ -354,7 +354,7 @@ module.exports = {
         h3: 'A first lesson to judge by',
         p: 'The free opening lesson is a full class; at the end the teacher proposes a course, a level and a regular time, with nothing paid that day.'
       },
-      { h3: 'Groups by ability', p: 'Five to ten learners working at the same level, regardless of age, or individual lessons instead.' },
+      { h3: 'Groups by ability', p: 'Fifteen to twenty learners working at the same level, regardless of age, or individual lessons instead.' },
       { h3: 'Twice a week', p: 'Normally two lessons each week at a fixed time, about eight a month, with breaks arranged in advance.' },
       {
         h3: 'Teachers in India',
@@ -370,7 +370,7 @@ module.exports = {
     h2: 'Lesson fees in the Sutherland Shire',
     intro: 'Three numbers, nothing tucked away.',
     first: 'One complete lesson free, with a course, level and time suggested at the end.',
-    group: 'A month of lessons, typically eight, with five to ten learners at one level.',
+    group: 'A month of lessons, typically eight, with fifteen to twenty learners at one level.',
     private: 'Roughly eight lessons a month on the same schedule, one teacher with one learner.',
     closer: 'Invoices outside India are in US dollars, so a household in Heathcote pays the same as one in Caringbah. Nothing is charged before the trial has agreed a course and a time; holidays, missed lessons and format changes are set out on the pricing page.'
   },
@@ -419,7 +419,7 @@ module.exports = {
       },
       {
         q: 'What do coding classes cost in the Sutherland Shire?',
-        a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month one to one on the same pattern. The course, format and time are agreed before any payment.',
+        a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month one to one on the same pattern. The course, format and time are agreed before any payment.',
         boiler: true
       },
       {

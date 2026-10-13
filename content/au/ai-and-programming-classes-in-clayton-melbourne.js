@@ -303,7 +303,7 @@ module.exports = {
       { h3: 'Wherever you study', p: 'Any laptop with a stable connection works; the teacher follows your screen.' },
       { h3: 'School calendar', p: 'Children\'s and teenagers\' classes follow the Victorian terms and pause in state holidays.' },
       { h3: 'A free start', p: 'One complete free lesson, then advice on the course and a time.' },
-      { h3: 'Level groups', p: 'Five to ten learners at one level, from a range of places.' },
+      { h3: 'Level groups', p: 'Fifteen to twenty learners at one level, from a range of places.' },
       { h3: 'Weekly pattern', p: 'Two fixed lessons each week, roughly eight a month.' },
       { h3: 'Teachers in India', p: 'With Melbourne on daylight saving, a 5pm Clayton lesson is 11:30am India time; from April it is 12:30pm.' }
     ],
@@ -316,7 +316,7 @@ module.exports = {
     h2: 'Clayton class fees',
     intro: 'Only three prices to know.',
     first: 'A first lesson at no cost, followed by a recommendation.',
-    group: 'A month of group classes, roughly eight, with five to ten learners at one level.',
+    group: 'A month of group classes, roughly eight, with fifteen to twenty learners at one level.',
     private: 'A month of one-to-one classes, roughly eight, with your own teacher.',
     closer: 'Learners in Clayton pay in US dollars, as everyone outside India does, at a single rate. No payment is taken until the trial settles course and time; the pricing page covers holidays and missed classes.'
   },
@@ -358,7 +358,7 @@ module.exports = {
       },
       {
         q: 'What are the fees for Clayton learners?',
-        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before payment.',
+        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before payment.',
         boiler: true
       },
       {

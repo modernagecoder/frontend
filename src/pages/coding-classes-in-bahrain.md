@@ -14,7 +14,7 @@ Bahrain / Live online
 
 The short answer
 
-Bahrain has an independent authority, BQA, that examines students at Grade 9 and Grade 12 against the national curriculum separately from their own school, and separately reviews the schools themselves. Modern Age Coders teaches live online coding and mathematics to ages 6 to 67 in Bahrain, in groups of five to eight or one to one, at USD 100 and USD 150 a month. The first class is free.
+Bahrain has an independent authority, BQA, that examines students at Grade 9 and Grade 12 against the national curriculum separately from their own school, and separately reviews the schools themselves. Modern Age Coders teaches live online coding and mathematics to ages 6 to 67 in Bahrain, in groups of fifteen to twenty or one to one, at USD 100 and USD 150 a month. The first class is free.
 
 Most education systems ask a school to mark its own work. Bahrain does not, and that single structural choice is more useful to a parent than any brochure. It means there is an outside number to compare against the inside one, and the gap between them is where the real information lives.
 
@@ -221,7 +221,7 @@ Teaching, questions, code review and feedback all happen live. Nothing here is a
 
 A short task matched to the learner while the teacher watches the reasoning, then a recommended course and format. No fee.
 
-### Five to eight per group
+### Fifteen to twenty per group
 
 Grouped by present ability, drawn from the whole intake, so a small country never limits the group.
 
@@ -343,7 +343,7 @@ The Bahraini school week is Sunday to Thursday and the weekend falls on Friday a
 
 ### How much do coding classes in Bahrain cost?
 
-The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of five to eight compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
+The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of fifteen to twenty compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
 
 ### Is there a Modern Age Coders centre in Bahrain?
 

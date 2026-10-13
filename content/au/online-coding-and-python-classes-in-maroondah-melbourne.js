@@ -302,7 +302,7 @@ module.exports = {
       { h3: 'Working together', p: 'The learner shares their screen and the teacher guides changes in their own code.' },
       { h3: 'Victorian terms', p: 'The class calendar follows state school terms, with holiday breaks.' },
       { h3: 'Free first session', p: 'One whole lesson with no charge, ending with our course advice.' },
-      { h3: 'Small groups', p: 'Five to ten learners per group, matched on level rather than location.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners per group, matched on level rather than location.' },
       { h3: 'Twice weekly', p: 'Two regular lessons each week, near eight per month.' },
       { h3: 'Across time zones', p: 'A 3:30pm Maroondah lesson is 10am India time while Melbourne is on daylight saving, and 11am after it ends.' }
     ],
@@ -315,7 +315,7 @@ module.exports = {
     h2: 'Maroondah class fees',
     intro: 'Straightforward fees, the same for everyone.',
     first: 'Your first lesson is free and comes with honest advice.',
-    group: 'In a group: a month of lessons, normally eight, with five to ten learners.',
+    group: 'In a group: a month of lessons, normally eight, with fifteen to twenty learners.',
     private: 'On their own: a month of lessons, normally eight, with a dedicated teacher.',
     closer: 'Maroondah families pay in US dollars. Nothing is charged until the trial confirms a course and weekly time; the pricing page explains holidays and missed lessons.'
   },
@@ -351,12 +351,12 @@ module.exports = {
       },
       {
         q: 'What are the fees for Maroondah classes?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How do you choose a group?',
-        a: 'We match five to ten learners on level and pace, not age or suburb, and offer one-to-one lessons if no group time suits.',
+        a: 'We match fifteen to twenty learners on level and pace, not age or suburb, and offer one-to-one lessons if no group time suits.',
         boiler: true
       },
       {

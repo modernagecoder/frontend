@@ -219,7 +219,7 @@ Our teachers are based in India. While daylight saving runs, Sydney and Melbourn
 - **Sunday** For families with busy weekdays.
 
 - **First class free** Your child sketches and tests a tiny level with a teacher. No card is asked for.
-- **Testers included** In groups of five to ten, classmates playtest each other's games every few weeks.
+- **Testers included** In groups of fifteen to twenty, classmates playtest each other's games every few weeks.
 - **Private option** One-to-one lessons for a child with one big game to plan and build.
 - **Their ideas** Teachers question and suggest; the design decisions stay with the child.
 - **Paper welcome** Squared paper and coloured pencils are real tools in our lessons, not a break from them.

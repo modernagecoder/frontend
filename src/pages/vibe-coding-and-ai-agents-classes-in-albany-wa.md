@@ -16,7 +16,7 @@ Albany, Western Australia / Live online
 
 The WA Department of Education publishes every school in the state with the lowest and highest year level it teaches. For the 20 schools with an Albany postcode, an AI agent can answer "how many schools teach each year?" with a neat trick called a difference array: add one where a school's range starts, subtract one just after it ends, then keep a running total. Done correctly, it reports 16 schools at kindergarten, 14 through primary and 7 in Years 11 and 12. Ask for the same code in a hurry and the agent may close each range at the last year instead of the one after it. The program still runs, and now it says no Albany school teaches Year 12.
 
-Facts last verified 9 October 2026. Teaching is online; no Albany branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 October 2026. Teaching is online; no Albany branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Building with AI, from first prompt to tested agent
 
@@ -173,7 +173,7 @@ Albany wraps around the harbour, and an online class reaches every shore of it.
 - **Anywhere around the sound** A learner in Little Grove and another in Lower King can sit in the same lesson from their own desks.
 - **WA year levels** Lessons use Western Australian year levels and the senior ATAR and general pathways, taught in English.
 - **Free opening lesson** You build something with an AI and a teacher, then get a level, course and time suggested, with no card requested.
-- **Five to ten learners** Each group shares a level, drawing from Albany, the rest of Australia and overseas.
+- **Fifteen to twenty learners** Each group shares a level, drawing from Albany, the rest of Australia and overseas.
 - **Weekly rhythm** Normally two lessons a week, about eight a month, with breaks planned around WA holidays.
 - **No clock changes** With no daylight saving in WA, the gap to India time never moves, so slots stay where they are.
 
@@ -184,7 +184,7 @@ Albany wraps around the harbour, and an online class reaches every shore of it.
 All three prices are below.
 
 - First class: USD 0. An opening lesson at no cost, ending with a level, a course and a time.
-- Group tuition: USD 100 a month. One month in a group, usually eight lessons, with five to ten learners at your stage.
+- Group tuition: USD 100 a month. One month in a group, usually eight lessons, with fifteen to twenty learners at your stage.
 - Private tuition: USD 150 a month. Roughly eight one-to-one lessons a month with the same teacher.
 
 Albany learners pay the national rate in US dollars, with no Great Southern loading. Charges begin once the trial has fixed a course and slot; the pricing page sets out breaks, missed lessons and moving between group and private.
@@ -225,11 +225,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Albany coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Albany and WA learners
 

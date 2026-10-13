@@ -308,7 +308,7 @@ module.exports = {
         h3: 'A trial with substance',
         p: 'The free lesson teaches something real, then ends with a suggested course, level and time and no request for payment.'
       },
-      { h3: 'Group or private', p: 'Groups hold five to ten learners of similar level; one-to-one is available when a group time does not suit.' },
+      { h3: 'Group or private', p: 'Groups hold fifteen to twenty learners of similar level; one-to-one is available when a group time does not suit.' },
       { h3: 'Regular rhythm', p: 'Twice weekly at a fixed time, which comes to about eight lessons in a month.' },
       {
         h3: 'Teachers in India',
@@ -324,7 +324,7 @@ module.exports = {
     h2: 'Fees for Strathfield learners',
     intro: 'One free lesson, then a choice of two monthly formats.',
     first: 'A first lesson at no cost, with advice on where to start.',
-    group: 'Monthly group place: about eight lessons, five to ten learners matched by level.',
+    group: 'Monthly group place: about eight lessons, fifteen to twenty learners matched by level.',
     private: 'Monthly one-to-one: about eight lessons with a single teacher.',
     closer: 'Fees outside India are charged in US dollars, so the amount is the same for every Strathfield household. The first payment follows the trial, once course and time are chosen, and the pricing page covers holidays, missed lessons and switching format.'
   },
@@ -370,12 +370,12 @@ module.exports = {
       },
       {
         q: 'How much are Python classes for Strathfield learners?',
-        a: 'The first lesson is free. Afterwards a group place costs USD 100 a month for two live lessons a week, about eight lessons, with five to ten learners, and one-to-one costs USD 150 a month on the same schedule. Course, format and time are agreed before anything is paid.',
+        a: 'The first lesson is free. Afterwards a group place costs USD 100 a month for two live lessons a week, about eight lessons, with fifteen to twenty learners, and one-to-one costs USD 150 a month on the same schedule. Course, format and time are agreed before anything is paid.',
         boiler: true
       },
       {
         q: 'What decides which group a learner joins?',
-        a: 'Level, pace and goals decide it, not age or postcode, and groups hold five to ten learners. One-to-one lessons are an option if no group time works.',
+        a: 'Level, pace and goals decide it, not age or postcode, and groups hold fifteen to twenty learners. One-to-one lessons are an option if no group time works.',
         boiler: true
       }
     ]

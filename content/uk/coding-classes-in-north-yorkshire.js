@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding classes in North Yorkshire',
   capsuleQ: 'What are the best coding classes in North Yorkshire?',
-  capsule: 'This page covers North Yorkshire as a county: the North Yorkshire Council area, counted at the 2021 Census as seven districts, together with York, Middlesbrough and Redcar and Cleveland. Adding up the ten published counts gives our total of 1,098,768 residents. The biggest places are Middlesbrough, York, Harrogate and Scarborough. We teach live over video from India, and place each learner in a class matched to their ability, whatever their age. That runs from 6 to 67, with groups of five to ten or one-to-one lessons in coding, Python, data science and maths. The North Yorkshire project uses real census data on who commutes where. A first lesson is on us; carrying on costs USD 100 a month for a group or USD 150 a month for one-to-one.',
+  capsule: 'This page covers North Yorkshire as a county: the North Yorkshire Council area, counted at the 2021 Census as seven districts, together with York, Middlesbrough and Redcar and Cleveland. Adding up the ten published counts gives our total of 1,098,768 residents. The biggest places are Middlesbrough, York, Harrogate and Scarborough. We teach live over video from India, and place each learner in a class matched to their ability, whatever their age. That runs from 6 to 67, with groups of fifteen to twenty or one-to-one lessons in coding, Python, data science and maths. The North Yorkshire project uses real census data on who commutes where. A first lesson is on us; carrying on costs USD 100 a month for a group or USD 150 a month for one-to-one.',
   lead: 'Why do more people commute from Selby to York than from Scarborough to Richmondshire? Big places attract more journeys, and near places attract more than far ones. Geographers turned that common sense into a formula borrowed from physics, the gravity model: the flow between two places grows with their size and shrinks with the distance between them. The census recorded where people lived and where they worked, so the formula can be tested properly. This page\'s project fits it in Python to the real 2011 Census flows between ten North Yorkshire areas, measures how much it explains, and then studies the places where it gets the answer badly wrong, because that is where the interesting geography is.',
   wa: 'Hello Modern Age Coders, we are in North Yorkshire and would like a free lesson, please.',
 
@@ -163,7 +163,7 @@ module.exports = {
       { h3: 'Lessons at home', p: 'A farmhouse in Wensleydale, a terrace in Redcar, a flat in Harrogate. The teacher shares a screen and the learner does the coding.' },
       { h3: 'Words from your school', p: 'Year groups, key stages, GCSEs and A levels are named as North Yorkshire schools name them, and lessons are in English.' },
       { h3: 'A free lesson first', p: 'A proper lesson with real work, then clear advice on level and course, with no card details asked for.' },
-      { h3: 'Classmates at your level', p: 'Five to ten learners at the same stage, from across the county, the UK and further afield.' },
+      { h3: 'Classmates at your level', p: 'Fifteen to twenty learners at the same stage, from across the county, the UK and further afield.' },
       { h3: 'Breaks when school breaks', p: 'Two lessons a week is typical, and we pause for your own school\'s holidays.' },
       { h3: 'UK times, always', p: 'Your lesson time is set in UK time and does not shift with the clocks; the teacher, who keeps India time several hours ahead, adjusts instead.' }
     ],
@@ -174,7 +174,7 @@ module.exports = {
     h2: 'Fees in North Yorkshire',
     intro: 'Skipton or Saltburn, the fee is identical, and it is the fee in every country we teach apart from India.',
     first: 'A full lesson of real work, ending with a suggested level and course.',
-    group: 'Around eight lessons a month with five to ten learners at one level.',
+    group: 'Around eight lessons a month with fifteen to twenty learners at one level.',
     private: 'Around eight lessons a month with a teacher to themselves.',
     closer: 'We bill in US dollars and quote no sterling prices. Nothing is charged until the free lesson has settled a course and a weekly time, and our pricing page explains pauses, missed lessons and switching between group and private.'
   },

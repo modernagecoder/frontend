@@ -59,7 +59,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Altrincham',
   capsuleQ: 'Which are the best online coding and Python classes in Altrincham?',
-  capsule: 'Altrincham is a town in the Greater Manchester borough of Trafford. The Office for National Statistics put its built-up area at 49,680 usual residents in the 2021 census. The postcode gazetteer records Broadheath and Oldfield Brow as suburban areas in the WA14 district, Bowdon in WA14 too, and Hale and Hale Barns in WA15. Whichever of these is home, a learner between six and 67 can take our Python, coding, AI, vibe coding and maths courses. Every lesson is a live video call with a tutor based in India, taken privately or in a class of five to ten learners at one level. What we care about is that a learner can say why their program works, and the typing follows from that. The first lesson is free and ends with a course recommendation from us. In the Altrincham project, learners search a sorted list of 2,316 local postcodes and meet three versions of the search that are each wrong by a single character. One of them fails on exactly one postcode. Past the trial, the monthly fee is USD 100 in a group and USD 150 for a private tutor.',
+  capsule: 'Altrincham is a town in the Greater Manchester borough of Trafford. The Office for National Statistics put its built-up area at 49,680 usual residents in the 2021 census. The postcode gazetteer records Broadheath and Oldfield Brow as suburban areas in the WA14 district, Bowdon in WA14 too, and Hale and Hale Barns in WA15. Whichever of these is home, a learner between six and 67 can take our Python, coding, AI, vibe coding and maths courses. Every lesson is a live video call with a tutor based in India, taken privately or in a class of fifteen to twenty learners at one level. What we care about is that a learner can say why their program works, and the typing follows from that. The first lesson is free and ends with a course recommendation from us. In the Altrincham project, learners search a sorted list of 2,316 local postcodes and meet three versions of the search that are each wrong by a single character. One of them fails on exactly one postcode. Past the trial, the monthly fee is USD 100 in a group and USD 150 for a private tutor.',
   lead: 'Binary search is the first fast algorithm most programmers learn. To find a name in a sorted list, look at the middle, throw away the half that cannot contain it, and repeat. It is also well known for being easy to get slightly wrong: a plus one missing here, a less-than that should be less-than-or-equal there. Testing a few cases will not reliably catch that kind of slip. What does catch it is a loop invariant, a statement that must be true every time round the loop, which you can write down and have Python check for you. This project puts the idea to work on the postcodes of Altrincham.',
   wa: 'Hello Modern Age Coders, I would like to try a free Python or coding lesson for a learner in Altrincham.',
 
@@ -160,7 +160,7 @@ module.exports = {
       { h3: 'Learners write the code', p: 'On their own shared screen, line by line, with the tutor asking why.' },
       { h3: 'A genuine first lesson', p: 'Free, full length, and used to decide which course to recommend.' },
       { h3: 'Free to book', p: 'No card details, no deposit.' },
-      { h3: 'Level-matched groups', p: 'Five to ten learners at one stage, from towns all over the UK.' },
+      { h3: 'Level-matched groups', p: 'Fifteen to twenty learners at one stage, from towns all over the UK.' },
       { h3: 'Two lessons per week', p: 'In term time, with a pause for Trafford school holidays on request.' },
       { h3: 'Same slot year round', p: 'When UK clocks change in spring and autumn, we adjust; your lesson time is constant.' }
     ],
@@ -171,7 +171,7 @@ module.exports = {
     h2: 'Fees for Altrincham learners',
     intro: 'There is one international fee for learners outside India.',
     first: 'Free first lesson, a full session with course advice at the end.',
-    group: 'Group of five to ten, in the region of eight lessons a month.',
+    group: 'Group of fifteen to twenty, in the region of eight lessons a month.',
     private: 'One-to-one tuition, in the region of eight lessons a month.',
     closer: 'Our fees are in US dollars and we do not state them in pounds. You pay nothing until the trial is over and a course and time are chosen. Holiday pauses, missed lessons and format changes are covered on the pricing page.'
   },

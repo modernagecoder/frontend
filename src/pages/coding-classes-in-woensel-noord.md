@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Woensel-Noord, Eindho
 canonical: https://learn.modernagecoders.com/coding-classes-in-woensel-noord
 source: src/pages/coding-classes-in-woensel-noord.html
 ---
-> Coding classes in Woensel-Noord reach the largest stadsdeel of Eindhoven, four statistics office wijken, Ontginning, Achtse Molen, Aanschot and Dommelbeemd, all four read, with 66,195 residents in January 2026. In Ontginning, 9.6 percent of households live at or around the social minimum, 14 percent below 110 percent of it and 18 percent below 120 percent. Those rungs nest, so the bands are 9.6, 4.4 and 4.0 points, and adding them counts the poorest households three times. Beside Oud-Woensel, the answer to which is poorer depends on the rung: Oud-Woensel has more households under the low-income line, 5.6 percent against 4.1, and the two are level on every rung of the social-minimum ladder. Modern Age Coders teaches live online in English from Vlokhoven to Blixembosch, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Woensel-Noord reach the largest stadsdeel of Eindhoven, four statistics office wijken, Ontginning, Achtse Molen, Aanschot and Dommelbeemd, all four read, with 66,195 residents in January 2026. In Ontginning, 9.6 percent of households live at or around the social minimum, 14 percent below 110 percent of it and 18 percent below 120 percent. Those rungs nest, so the bands are 9.6, 4.4 and 4.0 points, and adding them counts the poorest households three times. Beside Oud-Woensel, the answer to which is poorer depends on the rung: Oud-Woensel has more households under the low-income line, 5.6 percent against 4.1, and the two are level on every rung of the social-minimum ladder. Modern Age Coders teaches live online in English from Vlokhoven to Blixembosch, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Eindhoven](/coding-classes-in-eindhoven) / Woensel-Noord
 
@@ -12,11 +12,11 @@ Woensel-Noord, Eindhoven / Live online
 
 # Coding classes in Woensel-Noord, where a poverty figure is a curve and not a number
 
-**What are the best coding classes in Woensel-Noord, Eindhoven?** Coding classes in Woensel-Noord reach the largest stadsdeel of Eindhoven, four statistics office wijken, Ontginning, Achtse Molen, Aanschot and Dommelbeemd, all four read, with 66,195 residents in January 2026. In Ontginning, 9.6 percent of households live at or around the social minimum, 14 percent below 110 percent of it and 18 percent below 120 percent. Those rungs nest, so the bands are 9.6, 4.4 and 4.0 points, and adding them counts the poorest households three times. Beside Oud-Woensel, the answer to which is poorer depends on the rung: Oud-Woensel has more households under the low-income line, 5.6 percent against 4.1, and the two are level on every rung of the social-minimum ladder. Modern Age Coders teaches live online in English from Vlokhoven to Blixembosch, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Woensel-Noord, Eindhoven?** Coding classes in Woensel-Noord reach the largest stadsdeel of Eindhoven, four statistics office wijken, Ontginning, Achtse Molen, Aanschot and Dommelbeemd, all four read, with 66,195 residents in January 2026. In Ontginning, 9.6 percent of households live at or around the social minimum, 14 percent below 110 percent of it and 18 percent below 120 percent. Those rungs nest, so the bands are 9.6, 4.4 and 4.0 points, and adding them counts the poorest households three times. Beside Oud-Woensel, the answer to which is poorer depends on the rung: Oud-Woensel has more households under the low-income line, 5.6 percent against 4.1, and the two are level on every rung of the social-minimum ladder. Modern Age Coders teaches live online in English from Vlokhoven to Blixembosch, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Every wijk row published for Eindhoven carries a small ladder of poverty figures: the share of households under the low-income line, the share at or around the social minimum, and the shares below 110 and 120 percent of it. They look like four separate facts. Three of them are one fact read at three heights, since every household below 110 percent is also below 120, which means the figures can be subtracted to find the bands between the rungs and must never be added. And when two places are compared, the comparison belongs to the whole ladder rather than to one rung, because two neighbourhoods can sit far apart on the bottom rung and level on the next. Woensel-Noord shows both, and the same habit decides whether a server is reported fast because of its median or slow because of its slowest one percent.
 
-Facts last verified 11 September 2026. Teaching is online; no Woensel-Noord branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Woensel-Noord branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the north of Eindhoven
 
@@ -184,7 +184,7 @@ Woensel-Noord reaches from the ring road to the northern edge of the city at Ach
 - **From Acht, the centre is far** A family in Kerkdorp Acht or Blixembosch faces a real journey to any classroom in the middle of Eindhoven, and twice a week that journey quietly ends good intentions. The lesson opens on a laptop at home at the agreed hour instead.
 - **Groep and vwo, kept in Dutch** The words a child sees on every school report, groep, havo, vwo and profielkeuze, stay in Dutch during lessons. Translating them would only put distance between the class and the school the learner actually goes to.
 - **A lesson first, no pitch** The free hour is taught in full: a real problem, a teacher watching how the learner approaches it, and at the end a level, a course and a weekly time. There is no payment form and no sales call booked afterwards.
-- **Grouped by stage, from everywhere** Five to ten learners at the same point in the same subject. Woensel-Noord has 10,220 residents under fifteen, and still five at one exact stage wanting one exact hour is a rare thing, so groups are formed from a worldwide pool.
+- **Grouped by stage, from everywhere** Fifteen to twenty learners at the same point in the same subject. Woensel-Noord has 10,220 residents under fifteen, and still five at one exact stage wanting one exact hour is a rare thing, so groups are formed from a worldwide pool.
 - **Holidays by regio Zuid** Two lessons a week, around eight a month, at one hour that does not move. Brabant schools follow regio Zuid holidays, which fall on different dates from the west of the country, and lessons are planned around them.
 - **Summer and winter hours** India is three and a half hours ahead in summer and four and a half in winter; only the Dutch clock changes. The late afternoon, early evening and weekend mornings are all available throughout the year.
 
@@ -195,7 +195,7 @@ Woensel-Noord reaches from the ring road to the northern edge of the city at Ach
 All of it written down here, with nothing to discover later.
 
 - First class: USD 0. A full lesson on a real task, ending in a level and a named course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 A single dollar price for every country, with no separate euro price, so a household in Vlokhoven and one in Blixembosch pay the same. Nothing is charged until the free lesson has settled a course and a weekly time, and payment is then arranged over WhatsApp. What happens with a pause, a change of format or a missed lesson is explained on the pricing page.
@@ -236,7 +236,7 @@ No, and none is claimed here, elsewhere in Eindhoven or anywhere in the Netherla
 
 ### What do Woensel-Noord coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

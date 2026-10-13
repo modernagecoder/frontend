@@ -21,7 +21,7 @@ Collaborative learning with peers worldwide
 ₹4,999for 8 one-to-one classes
 
 - 16 Live Interactive Sessions
-- Small Batch (Max 8 Kids)
+- Batch (Max 20 Kids)
 - 5+ Fun Coding Projects
 - Industry Certificate
 - 24/7 Doubt Support

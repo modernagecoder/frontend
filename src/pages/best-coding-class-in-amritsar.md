@@ -12,7 +12,7 @@ Live online · serving Amritsar
 
 Real programming for kids, teens and college students in Amritsar, from **Lawrence Road to Mall Road, Ranjit Avenue to Court Road**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Amritsar)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**AmritsarEnrollingAreasLawrence Road, Mall Road, Ranjit Avenue, Court Road, Green Avenue & all of AmritsarBoardsPSEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across AmritsarFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Amritsar)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**AmritsarEnrollingAreasLawrence Road, Mall Road, Ranjit Avenue, Court Road, Green Avenue & all of AmritsarBoardsPSEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across AmritsarFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -140,7 +140,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -162,7 +162,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -171,7 +171,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -180,7 +180,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -255,7 +255,7 @@ Takes under a minute.
 
 ## Coding classes in Amritsar: FAQs
 
-What is the best coding class in Amritsar for kids?Modern Age Coders offers the best coding classes in Amritsar for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Amritsar areas including Ranjit Avenue, Lawrence Road, Model Town, and Green Avenue, and Manjalpur.Do you offer online coding classes in Amritsar?Yes, we offer live online coding classes for students across Amritsar including Ranjit Avenue, Lawrence Road, Model Town, and Green Avenue, GT Road, Sultanwind Road, and all other areas. Our online classes are interactive with small batch sizes of 5-8 students.Do you offer coding classes for Punjab Board (PSEB) (Punjab Board) students in Amritsar?Yes, our curriculum supports both Punjab Board (Punjab Board (PSEB)) and CBSE students in Amritsar. We align our coding and maths courses with Punjab Board (PSEB) requirements to complement school education.How much do coding classes cost in Amritsar?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (3-4 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Can Guru Nanak Dev University students join your programming courses?Absolutely! We offer college-level courses in Data Structures & Algorithms, Full Stack Web Development, and AI/Data Science perfect for Guru Nanak Dev University and Khalsa College students preparing for placements.Is the medium of instruction English for Amritsar students?Our instructors are comfortable teaching in Hindi and English. Yes! All classes are in English with Hindi support. Amritsar students feel comfortable in our friendly, bilingual learning environment.What areas in Amritsar do you serve?We serve all areas of Amritsar through our online classes including Ranjit Avenue, Lawrence Road, Model Town, and Green Avenue, Batala Road, Majitha Road, Queens Road, Putlighar, Hall Gate, Chheharta, Beas Road, and more.How are your coding classes different from other institutes in Amritsar?We focus on project-based learning where students build real games, websites, and apps. Our small batch sizes (5-8 students), recorded sessions, expert instructors, and affordable pricing set us apart. We also support Punjab Board, CBSE, and Punjab Board (PSEB) preparation.Do you teach coding to PSEB students in Amritsar?Yes. Amritsar schools run the Punjab board, PSEB, along with CBSE and ICSE, and our classes fit around any of them. The board is headquartered at Mohali, not Amritsar. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Guru Nanak Dev University or Khalsa College students join your programming courses?Yes. GNDU has taught here since 1969 and Khalsa College since 1892, so the fundamentals are covered. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter.
+What is the best coding class in Amritsar for kids?Modern Age Coders offers the best coding classes in Amritsar for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Amritsar areas including Ranjit Avenue, Lawrence Road, Model Town, and Green Avenue, and Manjalpur.Do you offer online coding classes in Amritsar?Yes, we offer live online coding classes for students across Amritsar including Ranjit Avenue, Lawrence Road, Model Town, and Green Avenue, GT Road, Sultanwind Road, and all other areas. Our online classes are interactive with batch sizes of 15-20 students.Do you offer coding classes for Punjab Board (PSEB) (Punjab Board) students in Amritsar?Yes, our curriculum supports both Punjab Board (Punjab Board (PSEB)) and CBSE students in Amritsar. We align our coding and maths courses with Punjab Board (PSEB) requirements to complement school education.How much do coding classes cost in Amritsar?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (up to 6 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Can Guru Nanak Dev University students join your programming courses?Absolutely! We offer college-level courses in Data Structures & Algorithms, Full Stack Web Development, and AI/Data Science perfect for Guru Nanak Dev University and Khalsa College students preparing for placements.Is the medium of instruction English for Amritsar students?Our instructors are comfortable teaching in Hindi and English. Yes! All classes are in English with Hindi support. Amritsar students feel comfortable in our friendly, bilingual learning environment.What areas in Amritsar do you serve?We serve all areas of Amritsar through our online classes including Ranjit Avenue, Lawrence Road, Model Town, and Green Avenue, Batala Road, Majitha Road, Queens Road, Putlighar, Hall Gate, Chheharta, Beas Road, and more.How are your coding classes different from other institutes in Amritsar?We focus on project-based learning where students build real games, websites, and apps. Our batch sizes (15-20 students), recorded sessions, expert instructors, and affordable pricing set us apart. We also support Punjab Board, CBSE, and Punjab Board (PSEB) preparation.Do you teach coding to PSEB students in Amritsar?Yes. Amritsar schools run the Punjab board, PSEB, along with CBSE and ICSE, and our classes fit around any of them. The board is headquartered at Mohali, not Amritsar. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Guru Nanak Dev University or Khalsa College students join your programming courses?Yes. GNDU has taught here since 1969 and Khalsa College since 1892, so the fundamentals are covered. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter.
 
 ## Ready to start your child's coding journey in Amritsar?
 

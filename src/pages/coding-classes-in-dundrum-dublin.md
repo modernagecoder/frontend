@@ -16,7 +16,7 @@ Dundrum, Dublin 14 / Live online
 
 Met Éireann ran a rain gauge in Dundrum from December 1975 to November 1995, and on 25 August 1986 it caught 86.3 millimetres in a single day, the day an offshoot of Hurricane Charley reached Ireland. People ask of storms like that how often they come: once in 50 years, once in 100? The honest answer depends on the data, and here it depends on the storm itself. Fit the standard curve for yearly maximum rainfall to the gauge's 19 complete years and Charley looks like a 1-in-82-year day. Leave 1986 out and the same method calls it 1-in-509. This page shows a learner how return periods are estimated, and why twenty years of records cannot settle a hundred-year question.
 
-Facts last verified 20 September 2026. Teaching is online; no Dundrum branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Dundrum branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Starting courses for Dundrum learners
 
@@ -148,7 +148,7 @@ Fitting a curve takes a few lines. Knowing how far to trust its tail is the skil
 What to expect.
 
 - **Live, not recorded** Every lesson has a teacher present, following and correcting each learner's code in real time.
-- **Level first** Groups of five to ten learners at one level, from Dundrum, other parts of Ireland and abroad.
+- **Level first** Groups of fifteen to twenty learners at one level, from Dundrum, other parts of Ireland and abroad.
 - **Twice weekly** About eight lessons a month, on two set days chosen at the start of the course.
 - **Term breaks** The plan allows for school holidays, mid-term breaks and the weeks of exams.
 - **Home setup** A laptop or desktop, headphones or speakers with a microphone, and a connection steady enough for video.
@@ -161,7 +161,7 @@ What to expect.
 Plainly set out.
 
 - First class: USD 0. An opening lesson with a check of the learner's level, free.
-- Group tuition: USD 100 a month. A month in a group of five to ten learners at one level, around eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty learners at one level, around eight live lessons.
 - Private tuition: USD 150 a month. A month of private lessons on the same weekly rhythm.
 
 Outside India, every family pays the same monthly fee in US dollars. The free lesson commits no one, the first payment comes when the course begins, and the pricing page covers holidays, missed lessons and switching between group and private teaching.
@@ -198,11 +198,11 @@ Possibly, but grouping is by level only, so others in the class may be from Dubl
 
 ### What do coding classes in Dundrum cost?
 
-The first lesson is free. Afterwards a group place is USD 100 a month for around eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.
+The first lesson is free. Afterwards a group place is USD 100 a month for around eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.
 
 ### How big is a group?
 
-Five to ten learners, grouped by level, pace and goal rather than by age or address. If no group suits at a workable time, lessons are one to one.
+Fifteen to twenty learners, grouped by level, pace and goal rather than by age or address. If no group suits at a workable time, lessons are one to one.
 
 ## Around Dundrum and the Green Line
 

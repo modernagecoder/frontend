@@ -294,7 +294,7 @@ module.exports = {
     h2: 'Coomera fees',
     intro: 'All learners pay the same fees.',
     first: 'The first class is free, followed by a plan.',
-    group: 'Group: roughly eight classes monthly, five to ten learners.',
+    group: 'Group: roughly eight classes monthly, fifteen to twenty learners.',
     private: 'Private: roughly eight classes monthly with one teacher.',
     closer: 'Fees are charged in US dollars, starting only after the trial has fixed a course and weekly time. The pricing page explains holidays and missed classes.'
   },
@@ -327,12 +327,12 @@ module.exports = {
       },
       {
         q: 'What do Coomera classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How do groups work?',
-        a: 'Five to ten learners at one level and pace, not grouped by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at one level and pace, not grouped by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Can adults learn AI here?', a: 'Yes. Adults join adult groups or private classes, often to forecast numbers at work.' }

@@ -16,7 +16,7 @@ Tasmania, Australia / Live online
 
 Tasmania's education department lists the 2027 school terms as bare dates: Term 1 from 4 February to 9 April, Term 4 from 11 October to 16 December. Which days of the week are those? You could open a calendar. Or you could do what the mathematician John Conway did and work it out in your head in a few seconds. His Doomsday rule says that certain easy dates, 4 April, 6 June, 8 August, 10 October, 12 December, always share a weekday within any year. Find that weekday once and every other date follows by counting. Our learners turn the rule into code, check every 2027 Tasmanian school date and test it against the eight weekdays the department does print.
 
-Facts last verified 7 October 2026. Teaching is online; no Tasmania branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Tasmania branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four ways in for a Tasmanian learner
 
@@ -192,7 +192,7 @@ Tasmania's towns are spread across mountains and coastline. An online lesson nee
 - **North and South calendars** Professional learning days differ between the North and South. Tell the teacher which region your school follows and lessons fit around it.
 - **College students too** Colleges set their own finishing dates. Senior students can plan lessons right up to their exams and pause afterwards.
 - **Trial lesson first** The first session is a full lesson with a finished task, then a suggested level, course and weekly time, with no card requested.
-- **Groups of equals** Five to ten learners per group, matched by standard and drawn from Tasmania, other states and abroad, so most levels have a good hour.
+- **Groups of equals** Fifteen to twenty learners per group, matched by standard and drawn from Tasmania, other states and abroad, so most levels have a good hour.
 - **Regular rhythm** Two lessons a week, around eight a month, at a fixed time, with school holidays paused by arrangement.
 - **India time behind us** Our teachers keep India time, so a Tasmanian afternoon lesson lands in the middle of their working day.
 
@@ -203,7 +203,7 @@ Tasmania's towns are spread across mountains and coastline. An online lesson nee
 One price list for the whole island.
 
 - First class: USD 0. A full first lesson with no charge, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. A month of lessons, generally eight, with five to ten learners at a similar level.
+- Group tuition: USD 100 a month. A month of lessons, generally eight, with fifteen to twenty learners at a similar level.
 - Private tuition: USD 150 a month. About eight lessons a month in the same pattern, one teacher with one learner.
 
 Outside India, every family pays in US dollars at a single rate, so Burnie and Battery Point receive identical invoices. Nothing is charged before the trial has agreed a course and a lesson time; the pricing page covers holidays, missed lessons and changing between group and private teaching.
@@ -244,7 +244,7 @@ No, and none is claimed. All teaching is live and online, with no premises in Au
 
 ### How much do coding classes cost in Tasmania?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. The course, format and time are settled before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. The course, format and time are settled before anything is paid.
 
 ### How many learners share a group?
 

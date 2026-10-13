@@ -182,7 +182,7 @@ module.exports = {
       { h3: 'Eastern time, written down', p: 'Lessons are fixed in Queanbeyan time, which matches Canberra and Sydney all year round.' },
       { h3: 'Built for NSW students', p: 'Teachers plan around NSW stages and the HSC, and every lesson is in English.' },
       { h3: 'A coding lesson, not a pitch', p: 'The free first session is real Python with a teacher; you then get a suggested course and time, and we never take payment details.' },
-      { h3: 'Small groups by level', p: 'Five to ten learners at the same stage, drawn from many places so each level has a workable hour.' },
+      { h3: 'Small groups by level', p: 'Fifteen to twenty learners at the same stage, drawn from many places so each level has a workable hour.' },
       { h3: 'Two sessions a week', p: 'About eight a month; school holidays and exam periods are agreed beforehand.' },
       { h3: 'Public servants welcome', p: 'Adults working office hours can take evening groups or book one-to-one lessons.' }
     ],
@@ -193,7 +193,7 @@ module.exports = {
     h2: 'Online Python fees in Queanbeyan',
     intro: 'Three options, nothing hidden.',
     first: 'A free lesson that finishes with our suggestion of level, course and time.',
-    group: 'Around eight group lessons a month, with five to ten learners at one level.',
+    group: 'Around eight group lessons a month, with fifteen to twenty learners at one level.',
     private: 'Around eight one-to-one lessons a month with a single teacher.',
     closer: 'Queanbeyan families pay the same US dollar fee as families anywhere else in Australia. No charge applies until the trial settles a course and a time, and the pricing page explains holidays, missed lessons and switching formats.'
   },
@@ -218,7 +218,7 @@ module.exports = {
       { q: 'When do lessons run for Queanbeyan?', a: 'After school, in the evenings or at weekends, agreed in the trial and written in Queanbeyan time. India time is four and a half hours behind in winter and five and a half in summer.' },
       { q: 'Can younger children learn with you?', a: 'Yes, from age 6 with visual tools like Scratch. The records project on this page is pitched at teenagers and adults.' },
       { q: 'Is there a Modern Age Coders office in Queanbeyan?', a: 'No, and we do not claim one. Teaching is live and online only, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a steady connection, and the contact number on this page is an Indian number.', boiler: true },
-      { q: 'What do online Python classes in Queanbeyan cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
+      { q: 'What do online Python classes in Queanbeyan cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
       { q: 'How large are the groups?', a: 'Between five and ten learners, matched on level, pace and goals rather than on age or postcode. When no group fits a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },

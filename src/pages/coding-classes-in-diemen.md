@@ -16,7 +16,7 @@ Diemen, Noord-Holland / Live online
 
 Look at a travel map around Diemen and it is a web of dots and lines: the station on the Gooilijn, the metro and the railway meeting at Diemen-Zuid, the roads to Amsterdam, Weesp and beyond. Computer scientists call such a web a graph, with the dots as nodes and the lines as edges, and each edge carries a cost, such as minutes, kilometres or money. The question a route planner answers, what is the cheapest way from here to there, was solved in general by Edsger Dijkstra, whose method, published in 1959, still sits inside navigation apps, internet routing and many AI planning systems. It works by always extending the cheapest route found so far, and it guarantees the best answer. Its lessons are useful far beyond travel: the obvious route is not always the best, the best route depends on what you choose to count as cost, and a network full of shortcuts can make a route with more stops the fastest of all.
 
-Facts last verified 11 September 2026. Teaching is online; no Diemen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Diemen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the town between Amsterdam and the Gooi
 
@@ -192,7 +192,7 @@ From Diemen-Noord across the railway to Diemen-Zuid and the Sniep, the town is c
 - **No connection to catch** A learner in Oud-Diemen and a learner in Holland Park start the same lesson at the same moment, each from home, with no metro or train in between.
 - **School words in Dutch** Groep, brugklas, vmbo, havo, vwo and profielkeuze stay in Dutch, as Diemen families use them, while the teaching is in English.
 - **The first hour is free** It is a real lesson on a real task. The teacher then recommends a level, a course and a regular time, and asks for no payment details.
-- **Groups from further afield** Five to ten learners at the same stage. Diemen has 4,794 residents under fifteen, too few to fill every level and hour locally, so groups include learners from other places and countries.
+- **Groups from further afield** Fifteen to twenty learners at the same stage. Diemen has 4,794 residents under fifteen, too few to fill every level and hour locally, so groups include learners from other places and countries.
 - **Regio Noord holidays** Twice a week, about eight lessons a month, at a fixed hour, pausing for the regio Noord holidays that Noord-Holland schools keep.
 - **Teachers a few hours ahead** The teachers are in India, three and a half hours ahead of Diemen in summer and four and a half in winter, so late afternoons, evenings and weekend mornings all work.
 
@@ -203,7 +203,7 @@ From Diemen-Noord across the railway to Diemen-Zuid and the Sniep, the town is c
 The whole price list, set out here.
 
 - First class: USD 0. A real lesson on a real task, ending with a level and a course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner and one teacher.
 
 The fee is one dollar price for every country, with no euro list, so a household in Diemen-Noord pays what a household in Diemen-Zuid pays. Nothing is charged until the free lesson has settled a course and a time, and payment is then arranged on WhatsApp. The pricing page covers pauses, format changes and missed lessons.
@@ -244,7 +244,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Diemen coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

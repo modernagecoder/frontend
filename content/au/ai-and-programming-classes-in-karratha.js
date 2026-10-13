@@ -180,7 +180,7 @@ module.exports = {
       { h3: 'Set in WA time', p: 'Lessons are scheduled on Western Australian time, which never shifts, so the slot is the same all year.' },
       { h3: 'Matched to WA year levels', p: 'Teachers follow the WA curriculum years, including ATAR students, and teach in English.' },
       { h3: 'A real first lesson', p: 'The free session is spent programming with a teacher; you then get a suggested course and time, and nobody asks for payment details.' },
-      { h3: 'Groups of five to ten', p: 'Learners at one stage, gathered from several states and countries so a sensible hour exists.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners at one stage, gathered from several states and countries so a sensible hour exists.' },
       { h3: 'Two classes weekly', p: 'Roughly eight a month, with school holidays and exams planned around in advance.' },
       { h3: 'Swing shifts allowed for', p: 'Adults on rotating rosters can move between group times or choose one-to-one lessons.' }
     ],
@@ -191,7 +191,7 @@ module.exports = {
     h2: 'Fees for AI and programming classes in Karratha',
     intro: 'Three options, plainly.',
     first: 'A free lesson that ends with a level, a course and a time we suggest.',
-    group: 'About eight group lessons a month with five to ten learners at your stage.',
+    group: 'About eight group lessons a month with fifteen to twenty learners at your stage.',
     private: 'About eight one-to-one lessons a month with a dedicated teacher.',
     closer: 'Remote postcodes pay nothing extra: Karratha is charged the same US dollar fee as every other Australian town. No payment is taken until the trial has settled a course and slot; the pricing page covers breaks, missed lessons and changes of format.'
   },
@@ -216,7 +216,7 @@ module.exports = {
       { q: 'What times suit Karratha?', a: 'After school, evenings or weekends, agreed in the trial and written in Western Australian time. India time is two and a half hours behind Karratha all year.' },
       { q: 'Are there classes for primary-aged children?', a: 'There are, from age 6, using visual coding tools; the sun project here is designed for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders office in Karratha?', a: 'No, and we do not claim one. Teaching is live and online only, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a steady connection, and the contact number on this page is an Indian number.', boiler: true },
-      { q: 'What do AI and programming classes in Karratha cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
+      { q: 'What do AI and programming classes in Karratha cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
       { q: 'How large are the groups?', a: 'Between five and ten learners, matched on level, pace and goals rather than on age or postcode. When no group fits a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },

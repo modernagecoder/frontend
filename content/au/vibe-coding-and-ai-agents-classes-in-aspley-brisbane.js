@@ -313,7 +313,7 @@ module.exports = {
       { h3: 'Learner types, teacher reads', p: 'Every prompt and every generated line is visible on the shared screen.' },
       { h3: 'Term structure', p: 'Plans follow Queensland school terms, with holidays off.' },
       { h3: 'Trial lesson', p: 'A full first class at no cost, followed by a straight recommendation.' },
-      { h3: 'Small, level groups', p: 'Five to ten learners at the same stage, or one to one.' },
+      { h3: 'Small, level groups', p: 'Fifteen to twenty learners at the same stage, or one to one.' },
       { h3: 'Twice weekly', p: 'Two fixed lessons a week, around eight each month.' },
       { h3: 'Teachers in India', p: 'A 7:30pm Aspley lesson starts at 3pm India time, every week of the year.' }
     ],
@@ -326,7 +326,7 @@ module.exports = {
     h2: 'Aspley class fees',
     intro: 'One set of three prices.',
     first: 'The first class is free and leaves you with a written next step.',
-    group: 'About eight live group lessons a month, five to ten learners per class.',
+    group: 'About eight live group lessons a month, fifteen to twenty learners per class.',
     private: 'About eight live private lessons a month with one teacher.',
     closer: 'Aspley learners pay in US dollars, after the trial, once course and timing are settled. See the pricing page for holiday, absence and format-change rules.'
   },
@@ -371,12 +371,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Aspley learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Is Copilot Studio available in Aspley groups?', a: 'No. Copilot Studio is taught one to one only; group learners build agents in Python.' }

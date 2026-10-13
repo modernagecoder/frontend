@@ -332,7 +332,7 @@ module.exports = {
       { h3: 'No commute', p: 'Learners join from home on a laptop, with no trip to a centre before or after school.' },
       { h3: 'Follows NSW terms', p: 'Plans follow NSW syllabus stages and pause in the NSW school holidays.' },
       { h3: 'Free full trial', p: 'The trial is a real lesson that ends with a recommended course, level and time.' },
-      { h3: 'Groups of five to ten', p: 'Learners are grouped by level and goals, alongside students from other places.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners are grouped by level and goals, alongside students from other places.' },
       { h3: 'Twice weekly', p: 'Two fixed lessons each week, about eight a month; agreed breaks are planned ahead.' },
       { h3: 'India-based teachers', p: 'A 4:30pm Northern Beaches lesson during daylight saving is 11am in India, and 12 noon there once the clocks go back.' }
     ],
@@ -345,7 +345,7 @@ module.exports = {
     h2: 'Fees for Northern Beaches learners',
     intro: 'Three figures, and nothing hidden.',
     first: 'The first class is free and finishes with an honest course suggestion.',
-    group: 'One month of group classes, normally eight, with five to ten learners of a similar level.',
+    group: 'One month of group classes, normally eight, with fifteen to twenty learners of a similar level.',
     private: 'About eight one-to-one lessons a month with the same teacher.',
     closer: 'Families outside India pay in US dollars, so every Northern Beaches family sees the same price. Payment starts only after the trial, once the course and time are settled; holiday, absence and format rules sit on the pricing page.'
   },
@@ -387,12 +387,12 @@ module.exports = {
       },
       {
         q: 'How much do classes cost for Northern Beaches learners?',
-        a: 'The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before payment.',
+        a: 'The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before payment.',
         boiler: true
       },
       {
         q: 'How big are the groups?',
-        a: 'Five to ten learners, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner\'s time.',
+        a: 'Fifteen to twenty learners, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner\'s time.',
         boiler: true
       },
       { q: 'Can adults join?', a: 'Yes. Adults study in adult groups or one to one, often aiming at data or AI tasks in their current job.' }

@@ -16,7 +16,7 @@ Gympie, Queensland, Australia / Live online
 
 Forecasting is where many people first meet AI, and the simplest lesson in forecasting is also the most surprising: when you are not sure which method is right, average several. We tested that on the bureau's population estimates for more than five hundred Queensland areas, including the two that cover Gympie. Three plain forecasters looked back ten years and predicted five years ahead: keep the last value, extend the straight-line trend, or extend the compound growth rate. Their average was the most accurate of the four for forecasts made in 2011 and 2015, and close behind the straight-line trend for 2020. It also failed in exactly the place where every method failed, Gympie South after 2020, which is the second lesson the project teaches.
 
-Facts last verified 10 October 2026. Teaching is online; no Gympie branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Gympie branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI learning paths for the Mary Valley
 
@@ -176,7 +176,7 @@ Lessons are live video classes, so learners across the Mary Valley join from hom
 - **Learning from home** A computer with a microphone and a reliable connection is all a Gympie learner needs.
 - **Queensland levels** Teachers plan around Queensland year levels and school terms, and everything is taught in English.
 - **Free trial first** The first lesson is a full class that ends with a course and weekly time recommended for the learner.
-- **Level-matched groups** Groups of five to ten learners share a level and pace, gathered from Gympie and other places.
+- **Level-matched groups** Groups of fifteen to twenty learners share a level and pace, gathered from Gympie and other places.
 - **Twice weekly** Group learners meet on two set days each week, roughly eight lessons a month.
 - **Teachers in India** Our teachers work in India, four and a half hours behind Gympie in every season.
 
@@ -187,7 +187,7 @@ Lessons are live video classes, so learners across the Mary Valley join from hom
 Prices are brief and the same across Australia.
 
 - First class: USD 0. Your first lesson is free and closes with a recommended level, course and time.
-- Group tuition: USD 100 a month. A month of group classes, about eight lessons, with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group classes, about eight lessons, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Roughly eight private lessons each month with your own teacher.
 
 We charge in US dollars outside India, and Gympie pays the same as any other Australian town. Billing starts after the trial has agreed the course and schedule, and the pricing page explains holidays, missed lessons and switching between group and private.
@@ -228,7 +228,7 @@ No. We hold no premises in Australia and claim none. All classes are live online
 
 ### What do Gympie AI classes cost?
 
-The first lesson is free. Afterwards a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month one-to-one. Everything is agreed before payment.
+The first lesson is free. Afterwards a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month one-to-one. Everything is agreed before payment.
 
 ### How many learners share a group?
 

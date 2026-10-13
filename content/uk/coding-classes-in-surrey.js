@@ -63,7 +63,7 @@ module.exports = {
 
   h1: 'Coding classes in Surrey',
   capsuleQ: 'What are the best coding classes in Surrey?',
-  capsule: 'Surrey is eleven boroughs and districts holding 1,203,113 people at the 2021 Census, and no single town anybody means when they say Surrey: Guildford and Woking are the largest at about 77,880 and 75,660, and after them it is Camberley, Epsom, Redhill, Egham and a long tail of towns after that. A class that works here cannot depend on a building, because Farnham to Caterham is an hour by road at the wrong time of day. Ours are taught live over video from India, placed by what a learner can already do rather than by school year, for ages 6 to 67, in groups of five to ten or one to one. This page also carries a project with a Guildford accent: the county has built small satellites since 1985, and the clock those satellites broadcast once ran out of digits. The first lesson is free; after that a group place is USD 100 a month and one-to-one teaching USD 150.',
+  capsule: 'Surrey is eleven boroughs and districts holding 1,203,113 people at the 2021 Census, and no single town anybody means when they say Surrey: Guildford and Woking are the largest at about 77,880 and 75,660, and after them it is Camberley, Epsom, Redhill, Egham and a long tail of towns after that. A class that works here cannot depend on a building, because Farnham to Caterham is an hour by road at the wrong time of day. Ours are taught live over video from India, placed by what a learner can already do rather than by school year, for ages 6 to 67, in groups of fifteen to twenty or one to one. This page also carries a project with a Guildford accent: the county has built small satellites since 1985, and the clock those satellites broadcast once ran out of digits. The first lesson is free; after that a group place is USD 100 a month and one-to-one teaching USD 150.',
   lead: 'A field that counts weeks in ten bits can count to 1,023, and then it counts to zero. That is not a hypothetical: it is how the civil GPS signal has always carried the week number, and it is why receivers all over the world woke up in 1999 and again in 2019 believing it was nineteen years earlier. Guildford has a particular stake in this. Surrey Satellite Technology, spun out of the University of Surrey in 1985, has built around seventy satellites for twenty-two countries from the Surrey Research Park, and the Surrey Space Centre up the hill has worked on small spacecraft since 1979. So this page\'s project is a Surrey one: compute the rollover dates from first principles, check them against what the US government publishes, and then go looking for the same fault in the clock on your own laptop.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Surrey.',
 
@@ -193,7 +193,7 @@ module.exports = {
       { h3: 'Taught where the learner sits', p: 'A bedroom in Camberley, a kitchen table in Oxted, a library desk in Woking. The lesson goes to the learner rather than the other way about.' },
       { h3: 'English school language', p: 'Key Stage 2 and 3, Year 9 options, GCSE and A level are used as the names they are, and teaching is in English throughout.' },
       { h3: 'A free lesson before any money', p: 'A genuine piece of work with a teacher, ending in a plain recommendation about level and course. No card is asked for.' },
-      { h3: 'Groups matched by level', p: 'Five to ten learners at the same stage, drawn from Surrey and beyond, which is the only way a group of the right level exists at the right hour.' },
+      { h3: 'Groups matched by level', p: 'Fifteen to twenty learners at the same stage, drawn from Surrey and beyond, which is the only way a group of the right level exists at the right hour.' },
       { h3: 'Fitted to the Surrey calendar', p: 'Two lessons a week is usual, and breaks are agreed with each family, including that two-week October half term that Surrey alone among its neighbours now takes.' },
       { h3: 'One clock, stated clearly', p: 'Teachers work from India, five and a half hours ahead of the UK in winter and four and a half in summer. Every lesson is agreed and shown in UK time.' }
     ],
@@ -204,7 +204,7 @@ module.exports = {
     h2: 'What classes cost in Surrey',
     intro: 'One price list for the whole county, and for every country outside India.',
     first: 'A complete lesson on real work, ending with a suggested level and course.',
-    group: 'Around eight lessons a month, five to ten learners at a single level.',
+    group: 'Around eight lessons a month, fifteen to twenty learners at a single level.',
     private: 'Around eight lessons a month with a teacher working with one learner.',
     closer: 'Prices are set in US dollars, the rate everywhere outside India, and we do not keep a pound list. Nothing is paid until the free lesson has settled a course and a weekly slot; pauses, missed lessons and moving between group and private teaching are all explained on the pricing page.'
   },

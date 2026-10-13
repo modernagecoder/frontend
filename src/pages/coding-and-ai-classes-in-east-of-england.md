@@ -4,7 +4,7 @@ description: "Live online coding, AI, Python and maths classes across the East o
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-east-of-england
 source: src/pages/coding-and-ai-classes-in-east-of-england.html
 ---
-> At the 2021 census the East of England region had 6,335,074 residents in 45 local authorities. Luton and Norwich are its largest built-up areas, followed by Peterborough, Southend-on-Sea, Cambridge, Ipswich and Colchester, with Basildon, Chelmsford, Bedford, Stevenage and Harlow close behind. All our teaching is live by video from India. Coding, AI, Python and maths are open to learners between 6 and 67, taught solo or in classes of five to ten grouped by level. The first lesson is free and settles the starting course. This page indexes our East of England pages and runs a rainfall project. Stay on and you pay USD 100 monthly for a class place or USD 150 monthly for solo lessons.
+> At the 2021 census the East of England region had 6,335,074 residents in 45 local authorities. Luton and Norwich are its largest built-up areas, followed by Peterborough, Southend-on-Sea, Cambridge, Ipswich and Colchester, with Basildon, Chelmsford, Bedford, Stevenage and Harlow close behind. All our teaching is live by video from India. Coding, AI, Python and maths are open to learners between 6 and 67, taught solo or in classes of fifteen to twenty grouped by level. The first lesson is free and settles the starting course. This page indexes our East of England pages and runs a rainfall project. Stay on and you pay USD 100 monthly for a class place or USD 150 monthly for solo lessons.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [England](/coding-and-ai-classes-in-england) / East of England
 
@@ -12,11 +12,11 @@ East of England / Live online
 
 # Coding and AI classes in the East of England
 
-**What are the best coding and AI classes in the East of England?** At the 2021 census the East of England region had 6,335,074 residents in 45 local authorities. Luton and Norwich are its largest built-up areas, followed by Peterborough, Southend-on-Sea, Cambridge, Ipswich and Colchester, with Basildon, Chelmsford, Bedford, Stevenage and Harlow close behind. All our teaching is live by video from India. Coding, AI, Python and maths are open to learners between 6 and 67, taught solo or in classes of five to ten grouped by level. The first lesson is free and settles the starting course. This page indexes our East of England pages and runs a rainfall project. Stay on and you pay USD 100 monthly for a class place or USD 150 monthly for solo lessons.
+**What are the best coding and AI classes in the East of England?** At the 2021 census the East of England region had 6,335,074 residents in 45 local authorities. Luton and Norwich are its largest built-up areas, followed by Peterborough, Southend-on-Sea, Cambridge, Ipswich and Colchester, with Basildon, Chelmsford, Bedford, Stevenage and Harlow close behind. All our teaching is live by video from India. Coding, AI, Python and maths are open to learners between 6 and 67, taught solo or in classes of fifteen to twenty grouped by level. The first lesson is free and settles the starting course. This page indexes our East of England pages and runs a rainfall project. Stay on and you pay USD 100 monthly for a class place or USD 150 monthly for solo lessons.
 
 The Met Office keeps long monthly records for two stations in the East of England: Lowestoft in Suffolk and Cambridge. Over 1991 to 2020 our averages give Cambridge about 563 millimetres of rain a year and Lowestoft about 636, both far less than Camborne in Cornwall, at about 1,076. Being dry is only half the story, though. A farmer, a reservoir engineer or a gardener also wants to know whether the rain comes evenly through the year or in a wet season. Geographers measure that with a seasonality index: add up how far each month strays from an even twelfth of the year, and divide by the year's total. This page's project computes it in Python for three stations.
 
-Facts last verified 26 September 2026. Teaching is online; no East of England branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no East of England branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Starting points in the East of England
 
@@ -137,7 +137,7 @@ Towns, villages and fen, all join the same way.
 - **Learners type** Students write their own code, while the tutor reads the shared screen and nudges with questions.
 - **By school year** A Year 4 in Basildon or a Year 12 in Hemel Hempstead is placed by year and key stage, using each exam board's own names.
 - **Free first lesson** A full trial lesson without charge, then straight advice.
-- **Classes by level** Each class holds five to ten learners working at one stage, drawn from all over Britain.
+- **Classes by level** Each class holds fifteen to twenty learners working at one stage, drawn from all over Britain.
 - **Term time only** Two lessons a week in term; holidays left free.
 - **On UK time** Lessons keep their UK hour when the clocks change; our teachers move.
 
@@ -148,7 +148,7 @@ Towns, villages and fen, all join the same way.
 Every town in the region pays the same fee, as does every country we teach outside India.
 
 - First class: USD 0. One complete lesson free, then a recommendation.
-- Group tuition: USD 100 a month. Roughly eight lessons a month with five to ten classmates.
+- Group tuition: USD 100 a month. Roughly eight lessons a month with fifteen to twenty classmates.
 - Private tuition: USD 150 a month. Roughly eight lessons a month with one tutor.
 
 We bill in US dollars, never sterling, and nothing is charged before the trial has agreed a course and a regular time; the pricing page explains breaks, absences and swaps between group and private.

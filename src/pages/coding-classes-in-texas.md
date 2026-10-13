@@ -14,7 +14,7 @@ Texas / Live online
 
 The short answer
 
-Texas permits two computer science credits to satisfy the Languages Other Than English graduation requirement, under 19 TAC 74.12, as a listed alternative rather than an exemption. Modern Age Coders teaches the qualifying courses live online to Texas learners aged 6 to 67, in batches of five to eight or privately. Fees run USD 100 and USD 150 a month. The first class costs nothing.
+Texas permits two computer science credits to satisfy the Languages Other Than English graduation requirement, under 19 TAC 74.12, as a listed alternative rather than an exemption. Modern Age Coders teaches the qualifying courses live online to Texas learners aged 6 to 67, in batches of fifteen to twenty or privately. Fees run USD 100 and USD 150 a month. The first class costs nothing.
 
 Texas made a decision most states never did. Under the Foundation High School Program a student can meet the two-credit foreign language requirement with two credits of computer programming instead. Not as a hardship exemption, as a listed alternative sitting directly beside Spanish and French in the rule. Thousands of Texas families have never been told this, and of those who have, many have been told a garbled version of it.
 
@@ -250,7 +250,7 @@ Monthly, in US dollars, with no enrolment fee and no annual contract.
 
 Small group$100per month, 8 classes
 
-Five to eight students, one consistent teacher. The default, and where most Texas families stay.
+Fifteen to twenty students, one consistent teacher. The default, and where most Texas families stay.
 
 One to one$150per month, 8 classes
 

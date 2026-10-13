@@ -239,12 +239,12 @@ So that everyone can code and learn real maths.
 
 ### Group Classes
 
-Up to 10 students · learn with peers
+Up to 20 students · learn with peers
 
 ₹1499/month
 
 - Weekly Two Classes (1 hr each)
-- Batch of up to 10 students
+- Batch of up to 20 students
 - Collaborative Projects
 - Interactive Sessions
 - Recorded Session Access
@@ -255,11 +255,11 @@ Up to 10 students · learn with peers
 
 ### Mini Batch
 
-3-4 students · near 1-on-1 attention
+up to 6 students · near 1-on-1 attention
 
 ₹2999/month
 
-- **Micro batch of just 3-4 students**
+- **Micro batch of up to 6 students**
 - Weekly Two Classes (1 hr each)
 - Near 1-on-1 teacher attention
 - Live doubt-clearing every class
@@ -289,12 +289,12 @@ Private mentor · your pace, your goals
 
 ### Group Classes
 
-Up to 10 students · solve problems together
+Up to 20 students · solve problems together
 
 ₹1499/month
 
 - Weekly Two Classes (1 hr each)
-- Batch of up to 10 students
+- Batch of up to 20 students
 - Concept Clarity Focus
 - Practice Worksheets
 - Doubt Resolution Support
@@ -305,11 +305,11 @@ Up to 10 students · solve problems together
 
 ### Mini Batch
 
-3-4 students · near 1-on-1 attention
+up to 6 students · near 1-on-1 attention
 
 ₹2999/month
 
-- **Micro batch of just 3-4 students**
+- **Micro batch of up to 6 students**
 - Weekly Two Classes (1 hr each)
 - Near 1-on-1 teacher attention
 - Targeted Topic Mastery
@@ -347,7 +347,7 @@ Custom Pricing
 - Define Your Learning Goals
 - Flexible Class Schedule
 - Customized Curriculum
-- Group Size: 3-8 Students
+- Group Size: 15-20 Students
 - Course Completion Certificate
 - Project-Based Learning
 - Industry-Relevant Skills
@@ -400,7 +400,7 @@ See how we stand out from traditional coding institutes and online platforms
 | Features | Modern Age Coders | Others |
 | --- | --- | --- |
 | 100% Live Interactive Classes |   |   |
-| Small Batch Size (Max 6-8 Students) |   |   |
+| Batch Size (Max 20 Students) |   |   |
 | Big Batch (10-15 Top Performers) |   |   |
 | Personalized Learning Path |   | ~ |
 | Real-World Project Experience |   | ~ |

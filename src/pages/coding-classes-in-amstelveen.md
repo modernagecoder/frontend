@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes for Amstelveen learners 
 canonical: https://learn.modernagecoders.com/coding-classes-in-amstelveen
 source: src/pages/coding-classes-in-amstelveen.html
 ---
-> Coding classes in Amstelveen mostly serve families who came to the Netherlands to work in IT: the municipality has 68.3 residents of Indian origin for every thousand, the highest share of any Dutch municipality on 1 January 2024 according to Statistics Netherlands. Modern Age Coders teaches coding, Python, AI and mathematics live online, in English, to learners aged 6 to 67 here. The first class is free; after that a group of five to ten costs USD 100 a month and one-to-one tuition USD 150.
+> Coding classes in Amstelveen mostly serve families who came to the Netherlands to work in IT: the municipality has 68.3 residents of Indian origin for every thousand, the highest share of any Dutch municipality on 1 January 2024 according to Statistics Netherlands. Modern Age Coders teaches coding, Python, AI and mathematics live online, in English, to learners aged 6 to 67 here. The first class is free; after that a group of fifteen to twenty costs USD 100 a month and one-to-one tuition USD 150.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Amstelveen
 
@@ -12,11 +12,11 @@ Amstelveen, Noord-Holland / Live online
 
 # Coding classes in Amstelveen, where the community grows even as the arrivals fall
 
-**What are the best coding classes in Amstelveen?** Coding classes in Amstelveen mostly serve families who came to the Netherlands to work in IT: the municipality has 68.3 residents of Indian origin for every thousand, the highest share of any Dutch municipality on 1 January 2024 according to Statistics Netherlands. Modern Age Coders teaches coding, Python, AI and mathematics live online, in English, to learners aged 6 to 67 here. The first class is free; after that a group of five to ten costs USD 100 a month and one-to-one tuition USD 150.
+**What are the best coding classes in Amstelveen?** Coding classes in Amstelveen mostly serve families who came to the Netherlands to work in IT: the municipality has 68.3 residents of Indian origin for every thousand, the highest share of any Dutch municipality on 1 January 2024 according to Statistics Netherlands. Modern Age Coders teaches coding, Python, AI and mathematics live online, in English, to learners aged 6 to 67 here. The first class is free; after that a group of fifteen to twenty costs USD 100 a month and one-to-one tuition USD 150.
 
 The headline in 2026 says Indian knowledge migration to the Netherlands has fallen by nearly half since 2022. The school gates on the Sportlaan and the Amsterdamseweg say the community is bigger than it has ever been. Both are right at once, and a child who can explain why has learned the most useful thing on this page.
 
-Facts last verified 7 September 2026. Teaching is online; no Amstelveen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Amstelveen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four starting points, chosen for the families who actually live here
 
@@ -183,7 +183,7 @@ Amstelveen families do the Sportlaan run, the Stadshart run and the Amsterdam Zu
 - **No fourth journey** The tram stops at Sportlaan for one school and Oranjebaan for the Stadshart, and parents already spend enough of the week between them. A class at the kitchen table in Westwijk or Elsrijk takes nothing off the timetable but the lesson itself.
 - **In English, with the Dutch words kept** Teaching is in English. Groep, havo, TTO and profielkeuze are used as the family uses them, because a course that translates a child's school vocabulary back at them has not been listening.
 - **The first class costs nothing, and decides something** A full lesson with a real task, ending in a named course, a level and a slot. No card details are taken to arrange it and nobody is asked to decide before they have watched a lesson.
-- **Groups of five to ten, set by level** Who joins a group depends on what a learner can do and what they want next. Whether they arrived in 2019 or were born in the Ziekenhuis Amstelland is not a variable.
+- **Groups of fifteen to twenty, set by level** Who joins a group depends on what a learner can do and what they want next. Whether they arrived in 2019 or were born in the Ziekenhuis Amstelland is not a variable.
 - **Two lessons a week, one recurring time** Roughly eight sessions a month at a time fixed once at enrolment. Term dates in regio Noord, the Diwali week and the summer trip to India are all mentioned before the slot is set, not after.
 - **Amstelveen evenings are Indian nights** Seven in the evening in Westwijk is half past ten in Kolkata in summer and half past eleven in winter, because the Dutch clock moves and the Indian one does not. Late afternoon, early evening and weekend slots are the natural ones, confirmed on the call.
 
@@ -194,7 +194,7 @@ Amstelveen families do the Sportlaan run, the Stadshart run and the Amsterdam Zu
 The fee is published here, in full, before anybody asks for a phone number.
 
 - First class: USD 0. A real lesson with a task pitched at the learner, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner and one teacher.
 
 The figure is in US dollars because there is a single published international rate and no separate euro list; there is no Amstelveen surcharge and no enrolment fee. The free class settles the course and the slot first, and payment is arranged afterwards over WhatsApp, not before. Pauses, plan changes and missed classes are on the pricing page.
@@ -235,11 +235,11 @@ No, and the page does not pretend otherwise. There are no premises in Amstelveen
 
 ### How much do Amstelveen coding classes cost?
 
-Nothing for the first class. Group tuition is USD 100 a month for two live lessons a week, normally eight a month, in a group of five to ten. Private tuition is USD 150 a month for one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before any payment.
+Nothing for the first class. Group tuition is USD 100 a month for two live lessons a week, normally eight a month, in a group of fifteen to twenty. Private tuition is USD 150 a month for one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before any payment.
 
 ### What is the class size for Amstelveen learners?
 
-A group holds five to ten learners matched on level, pace and goal rather than on age or school. Private tuition is one learner with one teacher. When no suitable group is running, the family can choose private tuition or wait for the next cohort to form.
+A group holds fifteen to twenty learners matched on level, pace and goal rather than on age or school. Private tuition is one learner with one teacher. When no suitable group is running, the family can choose private tuition or wait for the next cohort to form.
 
 ## The rest of the country, and the page for building AI
 

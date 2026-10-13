@@ -303,7 +303,7 @@ module.exports = {
       { h3: 'Run it twice', p: 'Learners test agent code from more than one folder while the teacher watches.' },
       { h3: 'Term-time classes', p: 'Lessons follow the Tasmanian school year and pause in holidays.' },
       { h3: 'A free start', p: 'One complete lesson without charge, then a written suggestion.' },
-      { h3: 'Groups of five to ten', p: 'Learners matched by level, or private sessions.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners matched by level, or private sessions.' },
       { h3: 'Twice weekly', p: 'Two fixed lessons a week, about eight each month.' },
       { h3: 'India time', p: 'Teaching comes from India: a 7pm Clarence class is 1:30pm India time in summer and 2:30pm after April.' }
     ],
@@ -316,7 +316,7 @@ module.exports = {
     h2: 'Clarence class fees',
     intro: 'Three fixed prices, whichever suburb a learner lives in.',
     first: 'The first lesson is free and comes with written advice.',
-    group: 'About eight group lessons a month with five to ten learners.',
+    group: 'About eight group lessons a month with fifteen to twenty learners.',
     private: 'About eight private lessons a month.',
     closer: 'Clarence families pay in US dollars once the trial has fixed a course and time. The pricing page sets out holidays and missed lessons.'
   },
@@ -358,12 +358,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Clarence learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       {

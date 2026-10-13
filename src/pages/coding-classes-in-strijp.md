@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Strijp, Eindhoven for
 canonical: https://learn.modernagecoders.com/coding-classes-in-strijp
 source: src/pages/coding-classes-in-strijp.html
 ---
-> Coding classes in Strijp reach a stadsdeel of three statistics office wijken, Oud-Strijp, Halve Maan and Meerhoven, all three read, with 41,573 residents in January 2026. In Oud-Strijp in 2025, 8,645 of 15,840 residents were men, 6,195 lived alone and 1,950 were enrolled as students. How many were male students living alone? The published figures cannot say. They allow any number from none to 1,950, and every extra detail added to that picture can only lower the ceiling further. Modern Age Coders teaches live online in English from Philipsdorp to Meerhoven, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Strijp reach a stadsdeel of three statistics office wijken, Oud-Strijp, Halve Maan and Meerhoven, all three read, with 41,573 residents in January 2026. In Oud-Strijp in 2025, 8,645 of 15,840 residents were men, 6,195 lived alone and 1,950 were enrolled as students. How many were male students living alone? The published figures cannot say. They allow any number from none to 1,950, and every extra detail added to that picture can only lower the ceiling further. Modern Age Coders teaches live online in English from Philipsdorp to Meerhoven, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Eindhoven](/coding-classes-in-eindhoven) / Strijp
 
@@ -12,11 +12,11 @@ Strijp, Eindhoven / Live online
 
 # Coding classes in Strijp, where every detail added to a picture makes it fit fewer people
 
-**What are the best coding classes in Strijp, Eindhoven?** Coding classes in Strijp reach a stadsdeel of three statistics office wijken, Oud-Strijp, Halve Maan and Meerhoven, all three read, with 41,573 residents in January 2026. In Oud-Strijp in 2025, 8,645 of 15,840 residents were men, 6,195 lived alone and 1,950 were enrolled as students. How many were male students living alone? The published figures cannot say. They allow any number from none to 1,950, and every extra detail added to that picture can only lower the ceiling further. Modern Age Coders teaches live online in English from Philipsdorp to Meerhoven, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Strijp, Eindhoven?** Coding classes in Strijp reach a stadsdeel of three statistics office wijken, Oud-Strijp, Halve Maan and Meerhoven, all three read, with 41,573 residents in January 2026. In Oud-Strijp in 2025, 8,645 of 15,840 residents were men, 6,195 lived alone and 1,950 were enrolled as students. How many were male students living alone? The published figures cannot say. They allow any number from none to 1,950, and every extra detail added to that picture can only lower the ceiling further. Modern Age Coders teaches live online in English from Philipsdorp to Meerhoven, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Ask someone to picture a resident of the old Philips quarter of Eindhoven and the picture arrives fully formed: young, male, living alone in a converted factory flat, studying or working somewhere in technology. Each detail makes the picture more convincing, and each one makes it true of fewer people, because a person who fits four descriptions fits each of the four and nobody else. The published figures for Oud-Strijp show exactly how far that goes. They give the number of men, of people living alone and of students separately, and from separate totals the most anyone can say is that the overlap lies between two limits. Treating the vivid picture as the typical resident is one of the oldest mistakes in reasoning, and it is also a bug in any query that forgets what AND does.
 
-Facts last verified 10 September 2026. Teaching is online; no Strijp branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 September 2026. Teaching is online; no Strijp branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the west of Eindhoven
 
@@ -184,7 +184,7 @@ Strijp stretches from flats a short walk from the station to family streets by t
 - **From Grasrijk to the Schoot, no travel** A family in the far west of Meerhoven is a long ride from anything in the middle of the city, and twice a week that ride is where good intentions go to die. The lesson arrives on the laptop at the agreed time, and the ride simply does not happen.
 - **Groep and havo, as the school says them** Dutch school words stay Dutch in class: groep, havo, vwo, profielkeuze. They are the terms on every report and in every parents evening in Strijp, so the teacher uses the same ones rather than an English version no school here prints.
 - **A free lesson with real work in it** The learner spends the first hour on a genuine problem while the teacher watches the approach. It closes with a level, a matching course and a regular time, and nobody is asked for card details or booked into a sales call.
-- **Groups made by stage alone** Five to ten learners at the same point in the same subject. Strijp has 5,815 residents under fifteen, and still five at one exact stage wanting one exact hour is a rare combination, which is the point of this page, so groups come from a worldwide pool.
+- **Groups made by stage alone** Fifteen to twenty learners at the same point in the same subject. Strijp has 5,815 residents under fifteen, and still five at one exact stage wanting one exact hour is a rare combination, which is the point of this page, so groups come from a worldwide pool.
 - **Regio Zuid dates, planned in** Two lessons a week, about eight a month, at a time that stays fixed. Brabant schools take regio Zuid holidays, on dates that differ from the western provinces, and lessons are planned around them from the first month.
 - **India ahead by three and a half or four and a half** The gap depends on the season because only the Dutch clock changes. Straight after school, early evening and weekend mornings all work throughout the year, and the slot agreed at the free lesson keeps its place.
 
@@ -195,7 +195,7 @@ Strijp stretches from flats a short walk from the station to family streets by t
 Here in full, before anybody has to ask.
 
 - First class: USD 0. One complete lesson, ending in a placement and a course recommendation.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 A single dollar rate for every country, with no euro list, so a rented flat in Philipsdorp and a family house in Waterrijk pay the same. Nothing changes hands until the free lesson has decided a course and an hour, and payment is then settled over WhatsApp. Breaks, changes of plan and missed lessons are covered in writing on the pricing page.
@@ -236,7 +236,7 @@ No, and none is claimed here, elsewhere in Eindhoven or anywhere in the Netherla
 
 ### What do Strijp coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across County Donegal, f
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-donegal
 source: src/pages/coding-classes-in-county-donegal.html
 ---
-> Donegal is a county of 167,084 people with 34,092 children aged 15 and under, a Gaeltacht of 24,220 people, and in Letterkenny a town with an average age of just 36.5 years. It has two schools on the original national computer science list. We teach live, one fixed hour a week, in ability groups of five to ten or one to one, to anyone aged six to sixty-seven. The first lesson costs nothing. After that it is USD 100 a month for a group place and USD 150 one to one.
+> Donegal is a county of 167,084 people with 34,092 children aged 15 and under, a Gaeltacht of 24,220 people, and in Letterkenny a town with an average age of just 36.5 years. It has two schools on the original national computer science list. We teach live, one fixed hour a week, in ability groups of fifteen to twenty or one to one, to anyone aged six to sixty-seven. The first lesson costs nothing. After that it is USD 100 a month for a group place and USD 150 one to one.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Mayo](/coding-classes-in-county-mayo) / County Donegal
 
@@ -12,11 +12,11 @@ County Donegal, Ulster / Live online
 
 # Coding classes in County Donegal
 
-**What are the best coding classes in County Donegal?** Donegal is a county of 167,084 people with 34,092 children aged 15 and under, a Gaeltacht of 24,220 people, and in Letterkenny a town with an average age of just 36.5 years. It has two schools on the original national computer science list. We teach live, one fixed hour a week, in ability groups of five to ten or one to one, to anyone aged six to sixty-seven. The first lesson costs nothing. After that it is USD 100 a month for a group place and USD 150 one to one.
+**What are the best coding classes in County Donegal?** Donegal is a county of 167,084 people with 34,092 children aged 15 and under, a Gaeltacht of 24,220 people, and in Letterkenny a town with an average age of just 36.5 years. It has two schools on the original national computer science list. We teach live, one fixed hour a week, in ability groups of fifteen to twenty or one to one, to anyone aged six to sixty-seven. The first lesson costs nothing. After that it is USD 100 a month for a group place and USD 150 one to one.
 
 Donegal County Council publishes exactly one dataset, and it is the only council file in this whole run of pages that actually downloaded. It is 397 bytes. Five rows, nine columns, and not a single empty cell anywhere in it. By every quick measure it is a clean file. It is also wrong in four separate ways for anyone who uses it without looking, starting with the fact that one of its five rows is called Donegal, which is not the county but a district inside it. Ask that file for Donegal and it will hand you a fifth of Donegal, with no error and no warning. Small, tidy and complete are not the same thing as safe, and that is the most useful sentence on this page.
 
-Facts last verified 16 September 2026. Teaching is online; no County Donegal branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no County Donegal branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four routes in
 
@@ -179,7 +179,7 @@ Six plain facts about the format.
 
 - **Live, with a teacher present** One hour a week with a person who asks questions and waits for answers, not a recorded course to work through alone.
 - **No travel in either direction** Dungloe to Letterkenny is over an hour each way on winter roads. The class that needs no car is the one that is still running in March.
-- **Ability groups of five to ten** Learners at one level, gathered from Donegal and several other countries, so a genuine peer group exists at a workable hour.
+- **Ability groups of fifteen to twenty** Learners at one level, gathered from Donegal and several other countries, so a genuine peer group exists at a workable hour.
 - **What a household needs** A laptop or desktop, sound that works and a line steady enough for video. The free lesson is the test.
 - **Irish school stages** Junior Cycle, Transition Year and senior cycle, with mid-terms and exam weeks planned around.
 - **Our hours** Afternoons, evenings and weekend mornings, taught by a team working several hours ahead of Irish time.
@@ -191,7 +191,7 @@ Six plain facts about the format.
 Three figures with the terms stated, not implied.
 
 - First class: USD 0. A full opening lesson at no charge, which also settles whether the connection is good enough.
-- Group tuition: USD 100 a month. A month of group classes, around eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group classes, around eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. A month of one to one teaching on the same weekly pattern.
 
 Billing is monthly in US dollars at the single rate we use outside India, so Carndonagh pays what Letterkenny pays and there is no euro list to set against it. Nothing is charged until a course and an hour are agreed, and pauses, missed lessons and moving between group and one to one are all written out on the pricing page.
@@ -232,7 +232,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do County Donegal coding classes cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

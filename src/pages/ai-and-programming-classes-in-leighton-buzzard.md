@@ -4,7 +4,7 @@ description: "AI and programming classes for Leighton Buzzard and Linslade, taug
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-leighton-buzzard
 source: src/pages/ai-and-programming-classes-in-leighton-buzzard.html
 ---
-> Leighton Buzzard, with Linslade across the river, had 42,735 usual residents at the 2021 census by the ONS count for its built-up area, inside Central Bedfordshire's 294,252. Our tutors, who work from India, run live video lessons in programming, AI, Python, vibe coding and maths for anyone aged six to 67 in the town, either privately or in a class of five to ten learners matched by level. No course is recommended until a free trial lesson has happened. The Leighton Buzzard project takes the town's road map and asks a question every navigation service faces: search the whole map for each journey, or prepare it once so that each later search touches only a few dozen junctions. After the trial, group lessons are USD 100 a month and private lessons USD 150 a month.
+> Leighton Buzzard, with Linslade across the river, had 42,735 usual residents at the 2021 census by the ONS count for its built-up area, inside Central Bedfordshire's 294,252. Our tutors, who work from India, run live video lessons in programming, AI, Python, vibe coding and maths for anyone aged six to 67 in the town, either privately or in a class of fifteen to twenty learners matched by level. No course is recommended until a free trial lesson has happened. The Leighton Buzzard project takes the town's road map and asks a question every navigation service faces: search the whole map for each journey, or prepare it once so that each later search touches only a few dozen junctions. After the trial, group lessons are USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East of England](/coding-and-ai-classes-in-east-of-england) / Leighton Buzzard
 
@@ -12,11 +12,11 @@ Leighton Buzzard and Linslade, Central Bedfordshire / Live online
 
 # AI and programming classes in Leighton Buzzard
 
-**Which are the best AI and programming classes for Leighton Buzzard?** Leighton Buzzard, with Linslade across the river, had 42,735 usual residents at the 2021 census by the ONS count for its built-up area, inside Central Bedfordshire's 294,252. Our tutors, who work from India, run live video lessons in programming, AI, Python, vibe coding and maths for anyone aged six to 67 in the town, either privately or in a class of five to ten learners matched by level. No course is recommended until a free trial lesson has happened. The Leighton Buzzard project takes the town's road map and asks a question every navigation service faces: search the whole map for each journey, or prepare it once so that each later search touches only a few dozen junctions. After the trial, group lessons are USD 100 a month and private lessons USD 150 a month.
+**Which are the best AI and programming classes for Leighton Buzzard?** Leighton Buzzard, with Linslade across the river, had 42,735 usual residents at the 2021 census by the ONS count for its built-up area, inside Central Bedfordshire's 294,252. Our tutors, who work from India, run live video lessons in programming, AI, Python, vibe coding and maths for anyone aged six to 67 in the town, either privately or in a class of fifteen to twenty learners matched by level. No course is recommended until a free trial lesson has happened. The Leighton Buzzard project takes the town's road map and asks a question every navigation service faces: search the whole map for each journey, or prepare it once so that each later search touches only a few dozen junctions. After the trial, group lessons are USD 100 a month and private lessons USD 150 a month.
 
 A sat nav does not think very hard about your journey. The heavy thinking happened earlier, when the map was prepared, and your question is answered by a search so small it barely notices the rest of the country. Learners rarely meet that idea, because textbooks teach the search and skip the preparation. Leighton Buzzard's own streets make a good place to try both and count the difference.
 
-Facts last verified 1 October 2026. Teaching is online; no Leighton Buzzard branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 1 October 2026. Teaching is online; no Leighton Buzzard branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI and programming courses for Leighton Buzzard learners
 
@@ -131,7 +131,7 @@ Every lesson is live on video. Bring a laptop or desktop with a proper keyboard;
 - **Hands on the keys** The learner types and runs the code; the tutor asks why at each step.
 - **Placement by trial** The trial shows the level, and only then do we propose a course.
 - **Free first lesson** Trying costs nothing and we never ask for card numbers first.
-- **Groups of five to ten** Classmates share a level and log in from all over Britain.
+- **Groups of fifteen to twenty** Classmates share a level and log in from all over Britain.
 - **About eight a month** Two a week is typical in term; holiday weeks are simply left out.
 - **Fixed UK time** Clock changes are our problem, so your lesson hour stays put.
 

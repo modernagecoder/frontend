@@ -38,7 +38,7 @@ Published UK rates and memberships, read in October 2026 and converted to US dol
 | Tuition centre, SATs or maths group sessions | from about $164 a month for one session a week, or about $210 a month for two | Explore Learning, published pricing page (read 7 October 2026) |
 | Tuition centre, 11 plus | group: from about $251 a month for two sessions a week; one-to-one: from about $238 a month for one session a week | Explore Learning, same page |
 | Worksheet programme at a study centre | about $93 to $104 a month per subject, plus a one-off fee of about $59 to $65 | Kumon centre pages for Ilford Lane and Ashford South (read 7 October 2026) |
-| Modern Age Coders, live primary maths | $100 a month in a group of 5 to 10, or $150 a month one-to-one, eight one-hour lessons | Our own price, no enrolment fee |
+| Modern Age Coders, live primary maths | $100 a month in a group of 15 to 20, or $150 a month one-to-one, eight one-hour lessons | Our own price, no enrolment fee |
 
 Conversion: UK figures were converted at 1.3221 US dollars per pound, the Bank of England spot rate for 5 October 2026 (series XUDLUSS), and rounded to the nearest dollar. Explore Learning and Kumon figures are the "from" prices and fee panels on their own pages; individual centres can differ.
 
@@ -111,7 +111,7 @@ Choosing
 - needs regular practice more than rescue
 - is preparing for SATs rather than a selective test
 
-Groups hold 5 to 10 children at a similar level.
+Groups hold 15 to 20 children at a similar level.
 
 ### One-to-one suits a child who
 
@@ -143,7 +143,7 @@ $150 / month
 $100 / month
 
 - 8 live group lessons a month (2 a week, 1 hour each)
-- 5 to 10 children at a similar level
+- 15 to 20 children at a similar level
 - The same teaching at a lower monthly price
 - No enrolment fee, stop at any month end
 

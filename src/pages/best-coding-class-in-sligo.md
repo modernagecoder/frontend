@@ -16,7 +16,7 @@ Sligo town, County Sligo / Live online
 
 Here is a result that sounds impossible. On the census row for people whose main answer is that they work or study at home, Balbriggan is level with Sligo among working residents and ahead of Sligo among students and children, yet behind Sligo when the two groups are added together. We did not construct it. We searched the census travel table for every town large enough to compare and found exactly this one reversal against Sligo. The explanation is not in either rate but in the mix: Balbriggan has more of its travellers in the education group, where home is almost never the answer, and that group drags its combined figure down. It is called Simpson's paradox, it catches professionals, and this page shows it with real numbers from two Irish towns.
 
-Facts last verified 19 September 2026. Teaching is online; no Sligo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Sligo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Sligo learners begin
 
@@ -164,7 +164,7 @@ Tools will hand you whichever total you ask for. Knowing which total answers you
 What happens in practice.
 
 - **A teacher, live** Every lesson is taught in real time, with the teacher following the learner's own work.
-- **Grouped by ability** Five to ten learners at one stage, from Sligo, the rest of Ireland and further away.
+- **Grouped by ability** Fifteen to twenty learners at one stage, from Sligo, the rest of Ireland and further away.
 - **Two lessons most weeks** Around eight a month, at an hour chosen when the course begins.
 - **Term dates** Holidays and exam weeks are planned into the schedule from the outset.
 - **What to have** The learner needs their own screen and keyboard for the hour, working audio, and a connection that does not drop a video call.
@@ -177,7 +177,7 @@ What happens in practice.
 Three lines, nothing more.
 
 - First class: USD 0. The opening lesson, taught in full and assessed, free.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one to one lessons on the same weekly pattern.
 
 Families outside India all pay the same monthly fee in US dollars, so Sligo sees the figure Galway sees, with no euro version shown. There is no charge until the free lesson has produced a course and a weekly time, and the pricing page explains what happens over holidays, after a missed lesson, and when a learner changes format.
@@ -218,7 +218,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Sligo cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

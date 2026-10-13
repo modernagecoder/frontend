@@ -4,7 +4,7 @@ description: "Full stack software development for learners in the Netherlands: f
 canonical: https://learn.modernagecoders.com/full-stack-software-development-course-netherlands
 source: src/pages/full-stack-software-development-course-netherlands.html
 ---
-> Modern Age Coders teaches full stack software development live online to learners in the Netherlands: the front end in HTML, CSS, JavaScript and React; a back end in Node.js, Python or Java; SQL databases; and the working practices of version control, testing and deployment. Teenagers start with websites and move up; students and adults can take the full route towards a first developer role. Each learner joins at the rung their skills justify, in a class of five to ten or alone with a teacher, always live and in English. A trial lesson is free, and a month of group study then costs USD 100, or USD 150 with a private teacher.
+> Modern Age Coders teaches full stack software development live online to learners in the Netherlands: the front end in HTML, CSS, JavaScript and React; a back end in Node.js, Python or Java; SQL databases; and the working practices of version control, testing and deployment. Teenagers start with websites and move up; students and adults can take the full route towards a first developer role. Each learner joins at the rung their skills justify, in a class of fifteen to twenty or alone with a teacher, always live and in English. A trial lesson is free, and a month of group study then costs USD 100, or USD 150 with a private teacher.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the Netherlands](/coding-classes-in-netherlands) / Full stack
 
@@ -160,7 +160,7 @@ Our developers teach from India. India does not change its clocks, so the gap to
 - **Weekend** Saturday or Sunday, good for longer building sessions.
 
 - **A free first lesson** You build something small but real with a teacher, who sees your level and proposes a route through the stack.
-- **Groups of five to ten** Classmates at the same stage, joining from several countries, each building an application of their own.
+- **Groups of fifteen to twenty** Classmates at the same stage, joining from several countries, each building an application of their own.
 - **One to one for career changers** For adults with a timetable to hit, a specific project, or a portfolio to finish before applying.
 - **Code reviewed like at work** Teachers review learners' code as a senior developer would, so habits form early.
 - **In English** The language of the tools, the documentation and most Dutch development teams.
@@ -171,7 +171,7 @@ Our developers teach from India. India does not change its clocks, so the gap to
 Billed monthly in US dollars at one rate for every country outside India. The career route costs the same as any other course, with no joining fee and no contract for the year.
 
 - Free first class: USD 0. A real building lesson. A route through the stack. No card needed.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same live teacher each week. Code reviewed every week. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same live teacher each week. Code reviewed every week. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one learner. Paced to a career goal. Good for finishing a portfolio.
 
 ## What learners in the Netherlands ask about full stack development

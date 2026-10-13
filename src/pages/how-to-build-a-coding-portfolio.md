@@ -306,13 +306,13 @@ Portfolio work is taught in normal classes at normal fees. There is no separate 
 
 ### Group class
 
-Batches of 5–8. Good for building the fundamentals.
+Batches of 15–20. Good for building the fundamentals.
 
 ₹1,499per month
 
 ### Mini batch
 
-3–4 students. More airtime per student.
+up to 6 students. More airtime per student.
 
 ₹2,999per month
 

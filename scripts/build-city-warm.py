@@ -71,27 +71,27 @@ STATE_BOARD={
 CONTEXT={
  "mumbai":[
   "Mumbai runs on ambition, and code is where a lot of it starts now. From the offices in BKC and the tech floors of Powai to the startups spread across Andheri and Lower Parel, the people your child will one day work with are already here. We build for that — not for a certificate to frame, but for skills that hold up in an interview or a first internship.",
-  "What that looks like week to week: a live one-hour class with a real mentor, a batch of five to eight so nobody hides at the back, and a project on the screen at the end of most modules — a game, a website, a working script. Parents get recorded sessions and honest progress notes.",
+  "What that looks like week to week: a live one-hour class with a real mentor, a batch of fifteen to twenty so nobody hides at the back, and a project on the screen at the end of most modules — a game, a website, a working script. Parents get recorded sessions and honest progress notes.",
   "Whether your child is in a Maharashtra State Board, CBSE, ICSE or IGCSE school — the same schools that feed IIT Bombay, VJTI and ICT — the plan is the same: start at the right level, build something real, and keep the momentum going."],
  "bengaluru":[
   "Bengaluru is India's coding city before your child writes a line of code. Electronic City, Whitefield, the startup lanes of Koramangala and HSR — the industry your child will grow into is on their doorstep. We build for that: real skills that hold up in an interview or a first internship, not just a certificate to frame.",
-  "What that looks like week to week: a live one-hour class with a real mentor, a batch of five to eight so nobody drifts to the back, and a project on the screen at the end of most modules. Parents get recorded sessions and honest progress notes.",
+  "What that looks like week to week: a live one-hour class with a real mentor, a batch of fifteen to twenty so nobody drifts to the back, and a project on the screen at the end of most modules. Parents get recorded sessions and honest progress notes.",
   "Whether your child is in a Karnataka State, CBSE, ICSE or IGCSE school — the kind that send students to IISc, RVCE, PES and BMS — the plan is the same: start at the right level, build something real, and keep the momentum going."],
  "hyderabad":[
   "Hyderabad's HITEC City and Financial District have made it one of India's fastest-growing tech hubs, and that world starts closer to home than most parents think. From Gachibowli to Kondapur, the companies your child will one day join are already here. We build for that — real skills over a certificate to frame.",
-  "What that looks like week to week: a live one-hour class with a real mentor, a batch of five to eight so nobody hides at the back, and a project on the screen at the end of most modules. Parents get recorded sessions and honest progress notes.",
+  "What that looks like week to week: a live one-hour class with a real mentor, a batch of fifteen to twenty so nobody hides at the back, and a project on the screen at the end of most modules. Parents get recorded sessions and honest progress notes.",
   "Whether your child is in a Telangana State, CBSE, ICSE or IGCSE school — the ones that feed IIIT-Hyderabad, BITS and Osmania — the plan is the same: start at the right level, build something real, and keep the momentum going."],
  "chennai":[
   "Chennai's OMR IT corridor and the campuses around TIDEL Park have quietly made the city a serious engineering town. From Velachery to Sholinganallur, the industry your child will grow into is right here. We build for that: real skills that survive an interview or a first internship, not just a certificate to frame.",
-  "What that looks like week to week: a live one-hour class with a real mentor, a batch of five to eight so nobody drifts to the back, and a project on the screen at the end of most modules. Parents get recorded sessions and honest progress notes.",
+  "What that looks like week to week: a live one-hour class with a real mentor, a batch of fifteen to twenty so nobody drifts to the back, and a project on the screen at the end of most modules. Parents get recorded sessions and honest progress notes.",
   "Whether your child is in a Tamil Nadu State Board, CBSE, ICSE or IGCSE school — the kind that feed IIT Madras, Anna University and SRM — the plan is the same: start at the right level, build something real, and keep the momentum going."],
  "delhi":[
   "Delhi NCR is one big engineering ecosystem — the product teams in Gurgaon, the startups in Noida, the campuses across the capital. The world your child will one day work in is right next door. We build for that: real skills that hold up in an interview or a first internship, not just a certificate to frame.",
-  "What that looks like week to week: a live one-hour class with a real mentor, a batch of five to eight so nobody hides at the back, and a project on the screen at the end of most modules. Parents get recorded sessions and honest progress notes.",
+  "What that looks like week to week: a live one-hour class with a real mentor, a batch of fifteen to twenty so nobody hides at the back, and a project on the screen at the end of most modules. Parents get recorded sessions and honest progress notes.",
   "Whether your child is in a CBSE, ICSE or IGCSE school — the kind that send students to IIT Delhi, DTU, NSUT and IIIT-Delhi — the plan is the same: start at the right level, build something real, and keep the momentum going."],
  "kolkata":[
   "Kolkata's Sector V in Salt Lake and the newer offices in New Town have built a real tech corridor, and that world is closer to your child than it looks. We build for it — real skills that hold up in an interview or a first internship, not just a certificate to frame.",
-  "What that looks like week to week: a live one-hour class with a real mentor, a batch of five to eight so nobody drifts to the back, and a project on the screen at the end of most modules. Parents get recorded sessions and honest progress notes.",
+  "What that looks like week to week: a live one-hour class with a real mentor, a batch of fifteen to twenty so nobody drifts to the back, and a project on the screen at the end of most modules. Parents get recorded sessions and honest progress notes.",
   "Whether your child is in a West Bengal Board, CBSE, ICSE or IGCSE school — the kind that feed Jadavpur, IIEST Shibpur and IIT Kharagpur — the plan is the same: start at the right level, build something real, and keep the momentum going."],
 }
 # Delhi special-case data (UT, no state row in breadcrumb)
@@ -228,7 +228,7 @@ def render(slug):
         paras=[
          f"From {l[0]} and {l[1]} to {l[2]} and {l[3]}, families across {cityq} are choosing live online coding classes that go beyond a certificate. We build for real skills — the kind that hold up in an interview or a first internship." if len(locs)>=4 else
          f"Across {cityq}, families are choosing live online coding classes that go beyond a certificate. We build for real skills — the kind that hold up in an interview or a first internship.",
-         "What that looks like week to week: a live one-hour class with a real mentor, a batch of five to eight so nobody hides at the back, and a project on the screen at the end of most modules. Parents get recorded sessions and honest progress notes.",
+         "What that looks like week to week: a live one-hour class with a real mentor, a batch of fifteen to twenty so nobody hides at the back, and a project on the screen at the end of most modules. Parents get recorded sessions and honest progress notes.",
          f"Whether your child is in {board_clause} school, the plan is the same: start at the right level, build something real, and keep the momentum going."]
     context_html="\n".join(f"<p>{p}</p>" for p in paras)
     # locality tags + nearby
@@ -293,7 +293,7 @@ TEMPLATE=r'''    <main id="main">
                     <div class="city-microtrust">
                         <span class="star">&#9733;&#9733;&#9733;&#9733;&#9733; <b>4.9/5</b></span>
                         <span><b>@@students@@</b> students across India</span>
-                        <span><b>5&ndash;8</b> students per batch</span>
+                        <span><b>15&ndash;20</b> students per batch</span>
                         <span>First class is <b>free</b></span>
                     </div>
                 </div>
@@ -303,7 +303,7 @@ TEMPLATE=r'''    <main id="main">
                         <div class="register-row"><span class="rk">Areas</span><span class="rv">@@areas_val@@</span></div>
                         <div class="register-row"><span class="rk">Boards</span><span class="rv">@@boards@@</span></div>
                         <div class="register-row"><span class="rk">Ages</span><span class="rv"><b>8&ndash;12</b> kids &middot; <b>13&ndash;18</b> teens &middot; college &amp; adults</span></div>
-                        <div class="register-row"><span class="rk">Format</span><span class="rv">Live online &middot; 1-hour classes &middot; 5&ndash;8 per batch</span></div>
+                        <div class="register-row"><span class="rk">Format</span><span class="rv">Live online &middot; 1-hour classes &middot; 15&ndash;20 per batch</span></div>
                         <div class="register-row"><span class="rk">Timing</span><span class="rv">After-school &amp; weekend slots &middot; IST</span></div>
                         <div class="register-row"><span class="rk">Proof</span><span class="rv">Recorded sessions &middot; completion certificate &middot; real projects</span></div>
                     </div>
@@ -342,7 +342,7 @@ TEMPLATE=r'''    <main id="main">
                 </div>
                 <div class="method-grid">
                     <div class="method-card"><span class="mnum">Live</span><h3>A real mentor, live</h3><p>Every class is taught live by an instructor with industry experience &mdash; questions get answered the moment they come up.</p></div>
-                    <div class="method-card"><span class="mnum">Small</span><h3>5&ndash;8 per batch</h3><p>Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.</p></div>
+                    <div class="method-card"><span class="mnum">Choose</span><h3>Your batch size</h3><p>A group of 15 to 20, a mini batch of up to 6, or 1-on-1 classes on a fully flexible schedule.</p></div>
                     <div class="method-card"><span class="mnum">Build</span><h3>Project every module</h3><p>Kids don't just watch &mdash; they build games, websites and apps they can open, use and show you.</p></div>
                     <div class="method-card"><span class="mnum">Track</span><h3>Recordings &amp; reports</h3><p>Missed a class? Watch the recording. Every learner earns a completion certificate and honest progress notes.</p></div>
                 </div>
@@ -354,12 +354,12 @@ TEMPLATE=r'''    <main id="main">
             <p class="section-subtitle">1-hour live classes, twice a week. Start with a free demo &mdash; pay only when you're sure it's right for your child.</p>
             <div class="price-grid">
                 <div class="price-card">
-                    <span class="pt">Group</span><div class="pv">&#8377;1,499<small> /month</small></div><p class="pn">2 live classes a week &middot; 5&ndash;8 students</p>
+                    <span class="pt">Group</span><div class="pv">&#8377;1,499<small> /month</small></div><p class="pn">2 live classes a week &middot; 15&ndash;20 students</p>
                     <ul><li>Live, interactive classes</li><li>Recorded session access</li><li>Doubt-clearing support</li><li>Completion certificate</li></ul>
                     <a href="#book-demo" class="btn-ghost" style="justify-content:center">Start free</a>
                 </div>
                 <div class="price-card feat">
-                    <span class="pt">Mini Batch</span><div class="pv">&#8377;2,499<small> /month</small></div><p class="pn">2 live classes a week &middot; just 3&ndash;4 students</p>
+                    <span class="pt">Mini Batch</span><div class="pv">&#8377;2,499<small> /month</small></div><p class="pn">2 live classes a week &middot; up to 6 students</p>
                     <ul><li>Everything in Group</li><li>Smaller batch, more attention</li><li>Faster doubt resolution</li><li>Closer progress tracking</li></ul>
                     <a href="#book-demo" class="btn-amber" style="justify-content:center">Book a free demo</a>
                 </div>
@@ -466,7 +466,7 @@ TEMPLATE=r'''    <main id="main">
     <section aria-label="Related pages" class="section related-strip">
         <nav aria-label="Breadcrumb" class="rs-crumb"><a href="/">Home</a> / <a href="/coding-classes-in-india">Coding Classes in India</a> / @@crumb_state@@<strong>Best Coding Class in @@city@@</strong></nav>
         <h2>Coding &amp; maths classes near @@city@@</h2>
-        <p style="color:var(--muted);font-size:.95rem;margin:0 0 1.2rem;max-width:760px">Live online classes for kids, teens and adults &mdash; Scratch, Python, web development, AI/ML and DSA in small 4&ndash;8 student batches. Explore nearby cities or book a free demo.</p>
+        <p style="color:var(--muted);font-size:.95rem;margin:0 0 1.2rem;max-width:760px">Live online classes for kids, teens and adults &mdash; Scratch, Python, web development, AI/ML and DSA in small 15&ndash;20 student batches. Explore nearby cities or book a free demo.</p>
         <div class="related-links">
 @@nb_rel@@
 @@state_links@@

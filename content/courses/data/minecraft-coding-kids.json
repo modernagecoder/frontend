@@ -378,7 +378,7 @@
   ],
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
-    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "small_batches": "Small batches only: group classes are capped at 20 students, with mini-batch (up to 6 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
     "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
@@ -416,7 +416,7 @@
     },
     {
       "question": "What does the course cost?",
-      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency. The Minecraft Education licence, if your family needs to buy one, is separate and paid to Microsoft directly."
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 20 students per batch. Mini batches of up to 6 students are ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency. The Minecraft Education licence, if your family needs to buy one, is separate and paid to Microsoft directly."
     },
     {
       "question": "Can we try a class before enrolling?",

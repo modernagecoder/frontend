@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Charlois, Rotterdam, 
 canonical: https://learn.modernagecoders.com/coding-classes-in-charlois
 source: src/pages/coding-classes-in-charlois.html
 ---
-> Coding classes in Charlois reach 70,932 residents (1 January 2026) on 1,119 hectares of land at 6,302 people to the square kilometre, in 35,855 households of which 18,440 hold one person. That is 51 percent of the households. It is also 26 percent of the residents, because those 18,440 households hold 18,440 people out of 70,932. One fact, two bases, and a figure that halves depending on which one nobody stated. Modern Age Coders teaches live online in English from Heijplaat to Pendrecht, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Charlois reach 70,932 residents (1 January 2026) on 1,119 hectares of land at 6,302 people to the square kilometre, in 35,855 households of which 18,440 hold one person. That is 51 percent of the households. It is also 26 percent of the residents, because those 18,440 households hold 18,440 people out of 70,932. One fact, two bases, and a figure that halves depending on which one nobody stated. Modern Age Coders teaches live online in English from Heijplaat to Pendrecht, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Rotterdam](/coding-classes-in-rotterdam) / Charlois
 
@@ -12,11 +12,11 @@ Charlois, Rotterdam / Live online
 
 # Coding classes in Charlois, where the same fact is 51 percent or 26 percent depending on what you divide by
 
-**What are the best coding classes in Charlois?** Coding classes in Charlois reach 70,932 residents (1 January 2026) on 1,119 hectares of land at 6,302 people to the square kilometre, in 35,855 households of which 18,440 hold one person. That is 51 percent of the households. It is also 26 percent of the residents, because those 18,440 households hold 18,440 people out of 70,932. One fact, two bases, and a figure that halves depending on which one nobody stated. Modern Age Coders teaches live online in English from Heijplaat to Pendrecht, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Charlois?** Coding classes in Charlois reach 70,932 residents (1 January 2026) on 1,119 hectares of land at 6,302 people to the square kilometre, in 35,855 households of which 18,440 hold one person. That is 51 percent of the households. It is also 26 percent of the residents, because those 18,440 households hold 18,440 people out of 70,932. One fact, two bases, and a figure that halves depending on which one nobody stated. Modern Age Coders teaches live online in English from Heijplaat to Pendrecht, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Charlois has 18,440 single-person households out of 35,855, which is 51 percent. Those households contain 18,440 people out of 70,932 residents, which is 26 percent. Both sentences describe the identical set of people and the identical set of homes. The number halves because the first divides by households and the second by residents, and there are about two residents per household. Nothing in the phrase fifty-one percent tells you which of the two it was.
 
-Facts last verified 9 September 2026. Teaching is online; no Charlois branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 September 2026. Teaching is online; no Charlois branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for ten buurten from a port village to a post-war estate
 
@@ -191,7 +191,7 @@ Charlois is wide. Heijplaat sits inside the port and Pendrecht and Zuidwijk are 
 Set out here rather than kept for a call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate, quoted in dollars, with no euro edition, so an address on Heijplaat is charged exactly what one in Oud Charlois is. Nothing is paid until the free lesson has settled a course and an hour, and payment goes over WhatsApp afterwards. Pausing, switching plan and missing a week are all on the pricing page.
@@ -232,7 +232,7 @@ No, and none is claimed in Charlois, elsewhere in Rotterdam or anywhere in the N
 
 ### What do Charlois coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

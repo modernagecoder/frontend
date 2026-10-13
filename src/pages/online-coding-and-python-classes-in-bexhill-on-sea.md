@@ -16,7 +16,7 @@ Bexhill-on-Sea, Rother, East Sussex / Live online
 
 Rank the neighbourhoods of any town by almost anything and the top and bottom of the list fill up with the smallest places. That is not because small places are special. With fewer people in them, chance alone pushes their percentages further from the middle. A funnel plot is the tool statisticians use to stop being fooled. It plots each area's rate against its size and draws limits that are wide for small areas and narrow for large ones, so only the points outside the funnel deserve a second look. Bexhill-on-Sea, with 154 census output areas holding from 6 to 287 working residents each, is an ideal place to draw one in Python.
 
-Facts last verified 30 September 2026. Teaching is online; no Bexhill-on-Sea branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Bexhill-on-Sea branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python, thinking and coding courses for Bexhill-on-Sea
 
@@ -132,7 +132,7 @@ A computer with a camera and a normal home connection covers everything.
 - **Typing, not watching** The learner writes the code on a shared screen, and the tutor asks what should happen before anything runs.
 - **The first lesson sets the level** We see where a learner is in the free session and note any exam board.
 - **Free to try** The trial costs nothing, takes no card, and ends with our course advice.
-- **Classes by level** Five to ten learners in a group, all at one stage, from anywhere in the UK.
+- **Classes by level** Fifteen to twenty learners in a group, all at one stage, from anywhere in the UK.
 - **Two lessons a week** Holiday weeks you send us stay empty.
 - **Same slot all year** British Summer Time starts and ends on our side of the call, not yours.
 

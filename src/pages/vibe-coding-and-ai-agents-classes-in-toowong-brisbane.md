@@ -16,7 +16,7 @@ Toowong, City of Brisbane, Queensland / Live online
 
 Four platforms, two directions and a timetable file listing every trip for two months. Ask an agent how many trains leave Toowong for the city on a weekday morning and you might get 202, or 29, or 21. Only one is right, and only an agent that shows its working lets you see which.
 
-Facts last verified 12 October 2026. Teaching is online; no Toowong branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Toowong branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for building agents you can audit
 
@@ -185,7 +185,7 @@ All lessons are live on video, so learners join from a flat, a college room or a
 - **Screens shared** Learners drive the keyboard while the teacher reads every prompt and output with them.
 - **Term-time plans** Lessons follow the Queensland school year and pause in its holidays.
 - **Trial at no cost** A full first class, with an honest suggestion at the end.
-- **Five to ten learners** Grouped by level and goal, with one-to-one lessons as the alternative.
+- **Fifteen to twenty learners** Grouped by level and goal, with one-to-one lessons as the alternative.
 - **Twice each week** Fixed weekly times, roughly eight lessons a month.
 - **India time** Our teachers are in India: a 6pm Toowong class begins at 1:30pm India time, every week of the year.
 
@@ -196,7 +196,7 @@ All lessons are live on video, so learners join from a flat, a college room or a
 Three prices apply to everyone.
 
 - First class: USD 0. The opening lesson costs nothing and ends with a written next step.
-- Group tuition: USD 100 a month. Group month: about eight live lessons with five to ten learners at one level.
+- Group tuition: USD 100 a month. Group month: about eight live lessons with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Private month: about eight lessons, one learner and one teacher.
 
 Toowong learners pay in US dollars, never before the trial, and only once course and time are agreed. Holiday, absence and format-change rules are on the pricing page.
@@ -233,11 +233,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Toowong learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Is Copilot Studio part of the group course?
 

@@ -311,7 +311,7 @@ module.exports = {
       { h3: 'Screens shared', p: 'Learners drive the keyboard while the teacher reads every prompt and output with them.' },
       { h3: 'Term-time plans', p: 'Lessons follow the Queensland school year and pause in its holidays.' },
       { h3: 'Trial at no cost', p: 'A full first class, with an honest suggestion at the end.' },
-      { h3: 'Five to ten learners', p: 'Grouped by level and goal, with one-to-one lessons as the alternative.' },
+      { h3: 'Fifteen to twenty learners', p: 'Grouped by level and goal, with one-to-one lessons as the alternative.' },
       { h3: 'Twice each week', p: 'Fixed weekly times, roughly eight lessons a month.' },
       { h3: 'India time', p: 'Our teachers are in India: a 6pm Toowong class begins at 1:30pm India time, every week of the year.' }
     ],
@@ -324,7 +324,7 @@ module.exports = {
     h2: 'Toowong lesson fees',
     intro: 'Three prices apply to everyone.',
     first: 'The opening lesson costs nothing and ends with a written next step.',
-    group: 'Group month: about eight live lessons with five to ten learners at one level.',
+    group: 'Group month: about eight live lessons with fifteen to twenty learners at one level.',
     private: 'Private month: about eight lessons, one learner and one teacher.',
     closer: 'Toowong learners pay in US dollars, never before the trial, and only once course and time are agreed. Holiday, absence and format-change rules are on the pricing page.'
   },
@@ -366,12 +366,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Toowong learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Is Copilot Studio part of the group course?', a: 'No. Copilot Studio is taught one to one only; Toowong group learners build agents in Python.' }

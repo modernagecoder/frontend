@@ -54,7 +54,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'This is the route Modern Age Coders teaches from a child\'s first typed Python to real AI, set out against the Dutch school years: first programs around groep 6 to 8, the full language and first data in the onderbouw, models and a first public project in the upper years, and agents and a portfolio by the end of havo or vwo. At each stage the page says what a parent should see at home. Classes are live online in English, in groups of five to ten at one level or one to one, and pupils are placed by ability rather than school year. Trying a lesson is free; staying on costs USD 100 a month in a small group or USD 150 a month with a private teacher.',
+  capsule: 'This is the route Modern Age Coders teaches from a child\'s first typed Python to real AI, set out against the Dutch school years: first programs around groep 6 to 8, the full language and first data in the onderbouw, models and a first public project in the upper years, and agents and a portfolio by the end of havo or vwo. At each stage the page says what a parent should see at home. Classes are live online in English, in groups of fifteen to twenty at one level or one to one, and pupils are placed by ability rather than school year. Trying a lesson is free; staying on costs USD 100 a month in a small group or USD 150 a month with a private teacher.',
 
   picks: {
     eyebrow: 'Start here',
@@ -188,7 +188,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first lesson', p: 'The teacher sees what the pupil can already do and says honestly where on the roadmap they start.' },
-      { h3: 'Groups by level', p: 'Five to ten pupils from several countries at the same stage, whatever their school year.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty pupils from several countries at the same stage, whatever their school year.' },
       { h3: 'One to one when it helps', p: 'For a profielwerkstuk, an exam year or a pupil far ahead of their age.' },
       { h3: 'Parents kept informed', p: 'Families hear what their child has built and what comes next, so the right-hand column of the roadmap stays visible.' },
       { h3: 'In English, with Dutch school terms', p: 'Lessons are in English; groep, brugklas, havo, vwo and profielwerkstuk keep their Dutch names.' },
@@ -204,7 +204,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Paid monthly in US dollars, at one rate for every country outside India and every stage of the roadmap, with nothing to pay on joining and no yearly tie-in.',
     free: ['A real lesson and an honest placement', 'A roadmap stage agreed', 'No card needed'],
-    group: ['Five to ten pupils at one stage', 'The same live teacher each week', 'Work reviewed every week', 'A certificate at the end'],
+    group: ['Fifteen to twenty pupils at one stage', 'The same live teacher each week', 'Work reviewed every week', 'A certificate at the end'],
     one: ['A teacher for one pupil', 'Paced to the school year', 'Good for the profielwerkstuk']
   },
 
@@ -219,7 +219,7 @@ module.exports = {
       { q: 'Can the roadmap support a profielwerkstuk?', a: 'Yes. A model, app or analysis makes a strong profielwerkstuk, as long as the work is the pupil\'s own and the school\'s rules are followed.' },
       { q: 'What if my child is ahead of their year?', a: 'They are placed by ability, not school year, so a quick learner moves on as soon as a stage is secure.' },
       { q: 'Are the lessons in English?', a: 'Yes, with Dutch school terms kept. Programming languages are written in English anyway.' },
-      { q: 'What does it cost?', a: 'The first lesson costs nothing. From then on it is USD 100 a month for a seat in a group of five to ten, or USD 150 a month for private lessons, paid in US dollars, with no sign-up fee and no annual tie-in.' },
+      { q: 'What does it cost?', a: 'The first lesson costs nothing. From then on it is USD 100 a month for a seat in a group of fifteen to twenty, or USD 150 a month for private lessons, paid in US dollars, with no sign-up fee and no annual tie-in.' },
       { q: 'When are lessons held?', a: 'After school or at the weekend, Dutch time. Teachers are three and a half hours ahead in summer and four and a half in winter.' },
       { q: 'What happens after we send the form?', a: 'Someone from our team phones a parent back, at a time that suits a Dutch family, to book the free lesson, where the starting stage is agreed. There is no charge unless your child continues.' }
     ]

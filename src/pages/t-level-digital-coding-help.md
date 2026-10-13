@@ -193,7 +193,7 @@ Our teachers work from India on a clock that never shifts, so the UK is five and
 - **Version control from the start** Every project lives in a repository, because that is how software is changed and maintained at work.
 - **Requirements before code** A user need turned into acceptance criteria first, then tests, then the program.
 - **Nothing assessed** We never work on the employer-set project, specialism assessment or anything a provider will verify.
-- **Groups by level** Five to ten students at one stage, reviewing each other's changes as a team would.
+- **Groups by level** Fifteen to twenty students at one stage, reviewing each other's changes as a team would.
 - **Or one to one** For a student with a specific gap before a placement starts.
 
 ## What support costs

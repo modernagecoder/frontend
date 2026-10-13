@@ -187,7 +187,7 @@ module.exports = {
       { h3: 'Both banks of the Tay', p: 'A learner in Muirton and another in Kinfauns can sit in the same class without either crossing the river.' },
       { h3: 'In step with Scottish schools', p: 'Placement follows the Scottish stages, primary to S6 with National 5, Higher and Advanced Higher along the way; lessons themselves are in English.' },
       { h3: 'The opening lesson', p: 'No slides and no sales pitch: the learner writes real code, and the teacher then proposes a level, a course and a regular weekly time. We never take card details.' },
-      { h3: 'Level, not age', p: 'Five to ten learners at one level, drawn from Perth, the rest of the UK and further afield, keeping good times open at each stage.' },
+      { h3: 'Level, not age', p: 'Fifteen to twenty learners at one level, drawn from Perth, the rest of the UK and further afield, keeping good times open at each stage.' },
       { h3: 'A twice-weekly rhythm', p: 'Two set lessons every week, about eight a month, with holidays and exam study worked out with the teacher ahead of time.' },
       { h3: 'Late evenings in India', p: 'India stays on one time zone all year, so a class at five in the afternoon in Perth begins at half past nine at night for our teachers in summer, and half past ten in winter.' }
     ],
@@ -198,7 +198,7 @@ module.exports = {
     h2: 'Perth lesson fees',
     intro: 'No charge for the first lesson, and a single monthly fee after that.',
     first: 'A full lesson free of charge, closing with a recommended level, course and weekly time.',
-    group: 'Roughly eight live lessons a month, in a class of five to ten learners at the same stage.',
+    group: 'Roughly eight live lessons a month, in a class of fifteen to twenty learners at the same stage.',
     private: 'Roughly eight live lessons a month, the teacher working with your learner alone.',
     closer: 'Families in Gannochy or Moncreiffe are billed in US dollars, like everyone outside India, and our site never quotes pound prices. Billing starts only after the free lesson, when a course and a weekly time have been agreed with us; the pricing page explains pausing, missed lessons and changing between group and private teaching.'
   },
@@ -223,8 +223,8 @@ module.exports = {
       { q: 'Who built Perth Bridge?', a: 'Historic Environment Scotland records that John Smeaton built it between 1766 and 1771, in pink Perth sandstone, and that it was widened in 1869. It is listed at Category A.' },
       { q: 'When are Perth lessons?', a: 'Families in Perth usually pick a time after school, on a weekday evening or at the weekend, agreed in the free lesson. For our teachers in India the lesson falls late in the evening: they are four and a half hours ahead of Scotland in summer and five and a half in winter.' },
       { q: 'Is there a centre in Perth?', a: 'No. We have no Perth centre and no premises anywhere in the UK, since every lesson is live online. Learners need a computer with sound and a reliable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do Perth lessons cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than by age or where they live, with five to ten learners at the same stage. When no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'What do Perth lessons cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than by age or where they live, with fifteen to twenty learners at the same stage. When no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

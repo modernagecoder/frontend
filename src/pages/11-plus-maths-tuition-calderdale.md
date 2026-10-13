@@ -126,7 +126,7 @@ The two schools run the test jointly. We list them only to show which test this 
 | North Halifax Grammar School | Registration and main testing |
 | The Crossley Heath School | Registration, main testing and the supplementary sitting |
 
-Lessons are live on video, so a child in Brighouse, Sowerby Bridge, Hebden Bridge or Elland is taught the same way, in groups of five to ten matched by level.
+Lessons are live on video, so a child in Brighouse, Sowerby Bridge, Hebden Bridge or Elland is taught the same way, in groups of fifteen to twenty matched by level.
 
 For coding lessons in West Yorkshire and beyond, our [Leeds coding page](/best-coding-class-in-leeds) and [UK page](/coding-classes-in-united-kingdom) cover more.
 
@@ -213,7 +213,7 @@ Lessons come live from India. Calderdale primary pupils have early-evening or we
 One monthly US dollar fee for families outside India. No joining fee; you may stop at any time.
 
 - Free first class: USD 0. A taught lesson. A frank verdict. No card needed.
-- Group batch: USD 100 a month. Five to ten pupils at one level. A regular teacher. Work checked together. Certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty pupils at one level. A regular teacher. Work checked together. Certificate at the end.
 - One to one: USD 150 a month. One child, one teacher. Aimed at weak spots. Flexible timing.
 
 ## What Calderdale families ask us
@@ -256,7 +256,7 @@ North Halifax Grammar School and The Crossley Heath School, jointly.
 
 ### What do lessons cost?
 
-A trial lesson is on us. Families who stay pay monthly: USD 100 for a class of five to ten, USD 150 for lessons with a teacher to themselves.
+A trial lesson is on us. Families who stay pay monthly: USD 100 for a class of fifteen to twenty, USD 150 for lessons with a teacher to themselves.
 
 ## More for West Yorkshire families
 

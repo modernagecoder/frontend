@@ -62,7 +62,7 @@ module.exports = {
 
   h1: 'Coding classes in Lincoln',
   capsuleQ: 'What are the best coding classes in Lincoln?',
-  capsule: 'Census 2021 counted 103,813 usual residents in Lincoln, and 13.1% of them were aged 20 to 24, against 6.0% in England. Lincoln Castle says it is the only place in the world where an original 1215 Magna Carta and the 1217 Charter of the Forest can be seen side by side. Lincoln learners from six to sixty-seven meet their teacher on live video, in a group of five to ten who share their level or on their own, with our teaching team in India keeping to British hours. No fee applies to the first lesson; after that, a group place is USD 100 a month and private teaching USD 150.',
+  capsule: 'Census 2021 counted 103,813 usual residents in Lincoln, and 13.1% of them were aged 20 to 24, against 6.0% in England. Lincoln Castle says it is the only place in the world where an original 1215 Magna Carta and the 1217 Charter of the Forest can be seen side by side. Lincoln learners from six to sixty-seven meet their teacher on live video, in a group of fifteen to twenty who share their level or on their own, with our teaching team in India keeping to British hours. No fee applies to the first lesson; after that, a group place is USD 100 a month and private teaching USD 150.',
   lead: 'The Met Office station at Waddington, six kilometres south of Lincoln, has counted days of air frost every month since 1947. Counts of events like these often follow the Poisson distribution, the textbook model for things that happen independently at a steady rate, and it makes one sharp prediction: the variance should equal the mean. For January the mean is 11.04 days and the variance is 31.30. Poisson expects about one mild January with four frosty days or fewer in 77 years; there were ten. It expects less than one with twenty or more; there were four, led by 27 in 1963. Frosty days arrive in cold spells, not one by one. Our teenagers test the model, watch it fail, and fit a better one.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Lincoln.',
 
@@ -201,7 +201,7 @@ module.exports = {
     h2: 'Lincoln lesson fees',
     intro: 'Start free, then pay one monthly fee.',
     first: 'A full lesson with nothing to pay, finishing with a recommended level, course and weekly time.',
-    group: 'About eight live lessons a month, in a class of five to ten learners at one stage.',
+    group: 'About eight live lessons a month, in a class of fifteen to twenty learners at one stage.',
     private: 'About eight live lessons a month, just your learner and the teacher.',
     closer: 'Families in Ermine and in Bracebridge, and everywhere else outside India, pay one fee in US dollars; there are no pound prices on our pages. The free lesson always comes first, and only when you have chosen a course and a lesson time does billing begin. The pricing page explains pauses, missed lessons and moving between group and one-to-one teaching.'
   },
@@ -226,8 +226,8 @@ module.exports = {
       { q: 'Can I see Magna Carta in Lincoln?', a: 'Lincoln Castle says it displays an original 1215 Magna Carta alongside the 1217 Charter of the Forest, on permanent loan from Lincoln Cathedral. We are not connected with the Castle or the Cathedral.' },
       { q: 'When are Lincoln lessons held?', a: 'On weekday afternoons or evenings, or at weekends; the exact time is agreed in the free lesson. India is four and a half hours ahead of Lincoln in the summer and five and a half in winter.' },
       { q: 'Is there a Modern Age Coders centre in Lincoln?', a: 'No. There is no centre in Lincoln and no premises anywhere in the UK, because we teach every lesson live online. Learners need a computer with sound and a reliable connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do Lincoln lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
-      { q: 'How are Lincoln groups made up?', a: 'By level, pace and aims rather than age or address, with five to ten learners at one stage. If no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do Lincoln lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
+      { q: 'How are Lincoln groups made up?', a: 'By level, pace and aims rather than age or address, with fifteen to twenty learners at one stage. If no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

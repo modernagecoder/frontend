@@ -226,7 +226,7 @@ module.exports = {
     cells: [
       { h3: 'Reasoning out loud', p: 'Students say what they have ruled out and why, which is the habit a team round needs.' },
       { h3: 'Girls-only groups where wanted', p: 'We run mixed groups by default and girls-only groups where a family prefers one.' },
-      { h3: 'Five to ten students', p: 'Enough for a better method to surface, small enough that nobody stays quiet.' },
+      { h3: 'Fifteen to twenty students', p: 'Enough for a better method to surface, small enough that nobody stays quiet.' },
       { h3: 'Our own puzzles', p: 'Written by us. We do not reproduce competition material.' },
       { h3: 'One to one on request', p: 'For a student who would rather think aloud without an audience.' },
       { h3: 'No part in the competition', p: 'A teacher registers a team. We have no role in the competition and promise nothing about it.' }
@@ -241,7 +241,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'The same monthly price in US dollars wherever a family lives outside India. Nothing to join, and you can stop at the end of any month.',
     free: ['A full lesson on a real puzzle', 'A straight read on the level', 'No card details taken'],
-    group: ['Five to ten students at one level', 'The same teacher every week', 'Work talked through together', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher every week', 'Work talked through together', 'A certificate at the end'],
     one: ['A teacher working with one student', 'Shaped around what she finds hard', 'Useful when a group hour will not fit']
   },
 

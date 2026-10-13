@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for St Albans lea
 canonical: https://learn.modernagecoders.com/best-coding-class-in-st-albans
 source: src/pages/best-coding-class-in-st-albans.html
 ---
-> The St Albans district had 148,167 usual residents at the 2021 census, and 7.5% of them were aged 10 to 14, against 6.0% across England. Rothamsted Research, in Harpenden within the district, says it is home to the oldest continuing agricultural field experiments in the world, begun by Sir John Lawes and Sir Henry Gilbert from 1843. We teach St Albans learners aged six to sixty-seven from India in live video lessons, in a group of five to ten at the same level or one to one, at times planned around UK school and work. Lesson one is free; after it, a group place is USD 100 a month and one-to-one teaching USD 150.
+> The St Albans district had 148,167 usual residents at the 2021 census, and 7.5% of them were aged 10 to 14, against 6.0% across England. Rothamsted Research, in Harpenden within the district, says it is home to the oldest continuing agricultural field experiments in the world, begun by Sir John Lawes and Sir Henry Gilbert from 1843. We teach St Albans learners aged six to sixty-seven from India in live video lessons, in a group of fifteen to twenty at the same level or one to one, at times planned around UK school and work. Lesson one is free; after it, a group place is USD 100 a month and one-to-one teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / St Albans
 
@@ -12,11 +12,11 @@ St Albans, Hertfordshire / Live online
 
 # Coding classes in St Albans
 
-**What are the best coding classes in St Albans?** The St Albans district had 148,167 usual residents at the 2021 census, and 7.5% of them were aged 10 to 14, against 6.0% across England. Rothamsted Research, in Harpenden within the district, says it is home to the oldest continuing agricultural field experiments in the world, begun by Sir John Lawes and Sir Henry Gilbert from 1843. We teach St Albans learners aged six to sixty-seven from India in live video lessons, in a group of five to ten at the same level or one to one, at times planned around UK school and work. Lesson one is free; after it, a group place is USD 100 a month and one-to-one teaching USD 150.
+**What are the best coding classes in St Albans?** The St Albans district had 148,167 usual residents at the 2021 census, and 7.5% of them were aged 10 to 14, against 6.0% across England. Rothamsted Research, in Harpenden within the district, says it is home to the oldest continuing agricultural field experiments in the world, begun by Sir John Lawes and Sir Henry Gilbert from 1843. We teach St Albans learners aged six to sixty-seven from India in live video lessons, in a group of fifteen to twenty at the same level or one to one, at times planned around UK school and work. Lesson one is free; after it, a group place is USD 100 a month and one-to-one teaching USD 150.
 
 Rothamsted still grows wheat on Broadbalk, the field its founders laid out in 1843, and publishes yields for schools. In 2016, 2017 and 2018, the published table compares eight treatments, from no fertiliser at all to the heaviest dose of nitrogen. Some years were good, some poor. How much of the difference in yield came from the fertiliser, how much from the year, and how much is left over? Analysis of variance, the method linked with R.A. Fisher, who analysed Broadbalk's records in his 1921 paper Studies in crop variation, answers exactly that. For wheat grown every year, the treatment explains 74.0% of the variation; for wheat grown in rotation, 87.9%. And the leftover points straight at one strange year.
 
-Facts last verified 23 September 2026. Teaching is online; no St Albans branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no St Albans branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the Rothamsted district
 
@@ -176,7 +176,7 @@ The district runs from the city to Harpenden, Redbourn and the villages around L
 - **City, town and village** A learner in Jersey Farm and another in Park Street can share one class, with no journey into the city centre.
 - **Levels schools use** Our levels track the English curriculum Hertfordshire pupils follow, from Reception through each Key Stage to GCSE and A level, all taught in English.
 - **A lesson from the start** The free session teaches a genuine task and closes with our advice on level, course and a weekly time. No card is asked for.
-- **Grouped by stage** Five to ten learners at one level, from St Albans, around the UK and overseas, so each stage has workable times.
+- **Grouped by stage** Fifteen to twenty learners at one level, from St Albans, around the UK and overseas, so each stage has workable times.
 - **Twice a week** Two regular lessons weekly, about eight a month, with half terms and exams arranged with the teacher in good time.
 - **Across the time difference** A 4 pm lesson in St Albans is 8.30 pm for our teachers in India in summer and 9.30 pm in winter, as India keeps the same clock all year; they arrange their evenings for UK families.
 
@@ -187,7 +187,7 @@ The district runs from the city to Harpenden, Redbourn and the villages around L
 A free first lesson, then a single monthly fee.
 
 - First class: USD 0. A full lesson at no charge, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. Around eight live lessons a month in a group of five to ten learners at the same stage.
+- Group tuition: USD 100 a month. Around eight live lessons a month in a group of fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. Around eight live lessons a month, with the teacher focused on your learner alone.
 
 Families in Sandridge or How Wood pay in US dollars, just like every family outside India, and our pages show no pound prices. Billing begins only after the free lesson, once a course and a weekly slot are agreed; pauses, missed lessons and switching between group and one-to-one teaching are explained on the pricing page.
@@ -228,11 +228,11 @@ No. We have no St Albans centre and no premises anywhere in the UK, because all 
 
 ### How much are lessons for a St Albans learner?
 
-The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one teaching on the same timetable is USD 150 a month. The course, format and time are agreed before anything is charged.
+The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one teaching on the same timetable is USD 150 a month. The course, format and time are agreed before anything is charged.
 
 ### How are the groups organised?
 
-By level, pace and goals rather than age or where a learner lives, with five to ten learners at one stage. If no group suits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than age or where a learner lives, with fifteen to twenty learners at one stage. If no group suits the learner's week, we offer one-to-one lessons.
 
 ## The South East and beyond
 

@@ -1,10 +1,10 @@
 ---
 title: "Coding Classes for 11 Year Olds: Python, Web and AI Projects | Modern Age Coders"
-description: "Live online coding classes for 11 year olds: Python, HTML and CSS pages, games and beginner AI tools, matched to Class 6. 1 hour, batch of 5 to 10 or 1-on-1."
+description: "Live online coding classes for 11 year olds: Python, HTML and CSS pages, games and beginner AI tools, matched to Class 6. 1 hour, batch of 15 to 20 or 1-on-1."
 canonical: https://learn.modernagecoders.com/coding-for-11-year-olds
 source: src/pages/coding-for-11-year-olds.html
 ---
-> Live online coding classes for 11 year olds: Python, HTML and CSS pages, games and beginner AI tools, matched to Class 6. 1 hour, batch of 5 to 10 or 1-on-1.
+> Live online coding classes for 11 year olds: Python, HTML and CSS pages, games and beginner AI tools, matched to Class 6. 1 hour, batch of 15 to 20 or 1-on-1.
 
 For parents of 11 year olds · Class 6
 
@@ -14,7 +14,7 @@ At 11, your child meets coding formally at school for the first time (CBSE Class
 
 [Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Per class, 1:1 or small group**8 weeks**To their first Python + HTML project combo11Age cohortPython projectsWeb basicsAI explorerIn short
 
-Coding classes for 11 year olds at Modern Age Coders are live, one hour long, in a batch of 5 to 10 children of the same age or 1-on-1. Eleven is the year Python stops being a puzzle: functions, lists and loops land because the child now reasons in steps. The year pairs Python with a first HTML and CSS website and a guided AI project, and it lines up with the Class 6 school computer syllabus without repeating it. Start on [Python for 11 year olds](/python-for-11-year-olds) if your child has done Scratch, or here if they are new.
+Coding classes for 11 year olds at Modern Age Coders are live, one hour long, in a batch of 15 to 20 children of the same age or 1-on-1. Eleven is the year Python stops being a puzzle: functions, lists and loops land because the child now reasons in steps. The year pairs Python with a first HTML and CSS website and a guided AI project, and it lines up with the Class 6 school computer syllabus without repeating it. Start on [Python for 11 year olds](/python-for-11-year-olds) if your child has done Scratch, or here if they are new.
 
 Courses matched for this level
 

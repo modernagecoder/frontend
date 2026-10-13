@@ -233,7 +233,7 @@ Our teachers are in India, which sits behind every Australian state: by two and 
 - **Weekend** Longer project sessions for keen coders.
 
 - **A free first class** The teacher tries blocks and text with your child and recommends a language from what they see.
-- **Small groups** Five to ten children at a similar level and learning the same language.
+- **Small groups** Fifteen to twenty children at a similar level and learning the same language.
 - **One to one** Useful when a child already knows one language and wants to move quickly to a second.
 - **Code they type** Teachers explain and question. The child types or snaps in every line.
 - **Watch a lesson** Every class happens live, so a parent can pull up a chair whenever they like.
@@ -244,7 +244,7 @@ Our teachers are in India, which sits behind every Australian state: by two and 
 Families outside India pay one monthly price in US dollars, whichever language their child learns. There is no enrolment charge and no term contract.
 
 - Free first class: USD 0. A short task in blocks and in text. A recommended first language. No card or bank details.
-- Group batch: USD 100 a month. Five to ten children per class. One teacher across the months. Classmates learning the same language. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty children per class. One teacher across the months. Classmates learning the same language. Stop after any month.
 - One to one: USD 150 a month. All the attention on your child. Pace set by the child. Easy to switch language when ready.
 
 ## What Australian parents ask about coding languages

@@ -16,7 +16,7 @@ Book a Free Python DemoSee the Roadmap**pandas**The data workhorse**5–8**Stude
 
 ## Quick answer
 
-**Modern Age Coders' Python for Data Science course teaches the Python coding foundation used for data science, ML and AI.** You start from Python fundamentals with a data focus, then master the core libraries: NumPy for numerical arrays, pandas for loading, cleaning and transforming data, and Matplotlib/Seaborn for visualisation, all hands-on in Jupyter and Google Colab with real datasets. No prior coding is needed. Classes are live in small batches of 5–8 with a mentor, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
+**Modern Age Coders' Python for Data Science course teaches the Python coding foundation used for data science, ML and AI.** You start from Python fundamentals with a data focus, then master the core libraries: NumPy for numerical arrays, pandas for loading, cleaning and transforming data, and Matplotlib/Seaborn for visualisation, all hands-on in Jupyter and Google Colab with real datasets. No prior coding is needed. Classes are live in batches of 15–20 with a mentor, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
 
 Start Today
 
@@ -108,7 +108,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo.
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 learners per batch
+- 15–20 learners per batch
 - Live notebooks & data
 - Recorded class access
 - Completion certificate
@@ -119,7 +119,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 learners per batch
+- Up to 6 learners per batch
 - More personal mentoring
 - Recorded class access
 - Project guidance & certificate
@@ -183,7 +183,7 @@ Python's data-science stack: NumPy for numerical arrays, pandas for DataFrames a
 
 How much does the Python for data science course cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
 
 Are the classes live and hands-on?+
 

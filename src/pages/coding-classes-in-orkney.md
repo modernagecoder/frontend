@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across the Orkney Isl
 canonical: https://learn.modernagecoders.com/coding-classes-in-orkney
 source: src/pages/coding-classes-in-orkney.html
 ---
-> The Orkney Islands council area had about 22,000 residents in roughly 10,600 households at Scotland's 2022 census, at 22.2 people per square kilometre. Kirkwall is the main town, with Stromness second and Finstown the only other settlement NRS counts as a locality; many islanders live on farms and in smaller isles. Because every lesson is live online from India, an island address makes no difference, and a free first lesson decides where each learner starts, P1 to S6 or adult. Ages 6 to 67 learn coding, Python and maths, either one-to-one or in groups of five to ten. The Orkney project comes from North Ronaldsay's sheep dyke. After the free lesson, fees are USD 100 a month for a group or USD 150 a month one-to-one.
+> The Orkney Islands council area had about 22,000 residents in roughly 10,600 households at Scotland's 2022 census, at 22.2 people per square kilometre. Kirkwall is the main town, with Stromness second and Finstown the only other settlement NRS counts as a locality; many islanders live on farms and in smaller isles. Because every lesson is live online from India, an island address makes no difference, and a free first lesson decides where each learner starts, P1 to S6 or adult. Ages 6 to 67 learn coding, Python and maths, either one-to-one or in groups of fifteen to twenty. The Orkney project comes from North Ronaldsay's sheep dyke. After the free lesson, fees are USD 100 a month for a group or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Orkney Islands
 
@@ -12,11 +12,11 @@ Orkney Islands / Live online
 
 # Coding classes in the Orkney Islands
 
-**What are the best coding classes in Orkney?** The Orkney Islands council area had about 22,000 residents in roughly 10,600 households at Scotland's 2022 census, at 22.2 people per square kilometre. Kirkwall is the main town, with Stromness second and Finstown the only other settlement NRS counts as a locality; many islanders live on farms and in smaller isles. Because every lesson is live online from India, an island address makes no difference, and a free first lesson decides where each learner starts, P1 to S6 or adult. Ages 6 to 67 learn coding, Python and maths, either one-to-one or in groups of five to ten. The Orkney project comes from North Ronaldsay's sheep dyke. After the free lesson, fees are USD 100 a month for a group or USD 150 a month one-to-one.
+**What are the best coding classes in Orkney?** The Orkney Islands council area had about 22,000 residents in roughly 10,600 households at Scotland's 2022 census, at 22.2 people per square kilometre. Kirkwall is the main town, with Stromness second and Finstown the only other settlement NRS counts as a locality; many islanders live on farms and in smaller isles. Because every lesson is live online from India, an island address makes no difference, and a free first lesson decides where each learner starts, P1 to S6 or adult. Ages 6 to 67 learn coding, Python and maths, either one-to-one or in groups of fifteen to twenty. The Orkney project comes from North Ronaldsay's sheep dyke. After the free lesson, fees are USD 100 a month for a group or USD 150 a month one-to-one.
 
 Around the edge of North Ronaldsay runs a drystone wall 12 to 13 miles long and roughly six feet high, built around 1832. Historic Environment Scotland lists it at Category A and calls it probably the largest drystone construction conceived as a single entity in the world. It keeps the island's sheep on the shore, where they eat seaweed, and a sheep court oversaw its upkeep, with every farmer taking a hand in the repairs. Sharing out jobs among people with different wishes is a real computing problem. Give everyone their first choice and some sections go unrepaired; assign them carelessly and people quietly swap. This page's project solves it in Python with a famous algorithm that guarantees nobody has a reason to break the deal.
 
-Facts last verified 26 September 2026. Teaching is online; no Orkney Islands branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Orkney Islands branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Island starting points
 
@@ -133,7 +133,7 @@ For learners on Mainland and on the smaller isles alike, lessons arrive by video
 - **A connection is the only commute** Any island home with a laptop and steady internet works; the teacher follows the learner's screen live.
 - **Scottish stages in use** We talk in P and S stages and National 5, Higher and Advanced Higher, like Orkney schools, and teach in English.
 - **No-cost first lesson** A real lesson, free, followed by honest advice.
-- **Groups by stage** Five to ten learners at the same stage, from many different places.
+- **Groups by stage** Fifteen to twenty learners at the same stage, from many different places.
 - **Lessons in term time** Two lessons a week during term, with breaks for the holidays.
 - **Same UK time year-round** Your lesson keeps its UK time through the clock changes; our teachers on India time adapt.
 
@@ -144,7 +144,7 @@ For learners on Mainland and on the smaller isles alike, lessons arrive by video
 Kirkwall or Westray, the fee is the same, matching every country we teach outside India.
 
 - First class: USD 0. A whole lesson at no charge, then a clear suggestion.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month, one-to-one.
 
 Prices are in US dollars and we have no sterling list. We bill only once a course and a weekly time are agreed after the free lesson; holidays, missed lessons and format changes are explained on the pricing page.

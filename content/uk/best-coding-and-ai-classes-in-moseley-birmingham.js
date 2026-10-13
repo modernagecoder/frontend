@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Moseley, Birmingham',
   capsuleQ: 'Where can Moseley learners find the best coding and AI classes?',
-  capsule: 'Moseley ward, in the city of Birmingham, had 21,839 usual residents at the 2021 census. Wake Green, Moor Green and Billesley are recorded suburban areas in the same B13 postcode district, with Balsall Heath in B12. Lessons in coding, AI, Python, vibe coding and maths run on live video with a tutor based in India, open to ages six through 67, either privately or in a class of five to ten at one stage. We teach judgement alongside method, so a learner knows when a number has answered the question and when it has dodged it. The first lesson is free, and it ends with a course suggestion. The Moseley project clusters the ward\'s 114 mapped shops and eating places and asks a popular score how many clusters there are; the score\'s favourite answer turns out to be the least interesting. Ongoing tuition is USD 100 a month in a class or USD 150 a month privately.',
+  capsule: 'Moseley ward, in the city of Birmingham, had 21,839 usual residents at the 2021 census. Wake Green, Moor Green and Billesley are recorded suburban areas in the same B13 postcode district, with Balsall Heath in B12. Lessons in coding, AI, Python, vibe coding and maths run on live video with a tutor based in India, open to ages six through 67, either privately or in a class of fifteen to twenty at one stage. We teach judgement alongside method, so a learner knows when a number has answered the question and when it has dodged it. The first lesson is free, and it ends with a course suggestion. The Moseley project clusters the ward\'s 114 mapped shops and eating places and asks a popular score how many clusters there are; the score\'s favourite answer turns out to be the least interesting. Ongoing tuition is USD 100 a month in a class or USD 150 a month privately.',
   lead: 'Clustering algorithms such as k-means have an awkward requirement: you must tell them how many clusters to find. Ask for two and you get two; ask for nine and you get nine. So analysts reach for a score to choose the number for them. The most popular is the silhouette score, which checks, for every point, whether it is closer to its own cluster than to the next one, and averages the result between minus one and one. Higher is supposed to be better. This project puts that to the test on something a local person can judge by eye: where the shops, cafés and pubs of Moseley ward sit on the map.',
   wa: 'Hello Modern Age Coders, could we book a free coding or AI lesson for a learner in Moseley?',
 
@@ -155,7 +155,7 @@ module.exports = {
       { h3: 'Made by the learner', p: 'Pupils type every line and prompt; the tutor watches over screen share and keeps asking why that choice.' },
       { h3: 'Level from the first session', p: 'The free lesson shows where to begin, with any exam board noted.' },
       { h3: 'Free trial lesson', p: 'It costs nothing and finishes with a suggested course.' },
-      { h3: 'Classes matched by stage', p: 'Five to ten learners, drawn from the whole UK, at one level.' },
+      { h3: 'Classes matched by stage', p: 'Fifteen to twenty learners, drawn from the whole UK, at one level.' },
       { h3: 'Twice weekly', p: 'Holidays are left free.' },
       { h3: 'One regular time', p: 'Tutors shift for UK clock changes; you do not.' }
     ],

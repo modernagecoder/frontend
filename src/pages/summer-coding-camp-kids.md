@@ -21,7 +21,7 @@ Learn one-to-one with a dedicated mentor
 ₹4,999for 8 one-to-one classes
 
 - 16 Live Interactive Sessions
-- Small Batch (Max 8 Students)
+- Batch (Max 20 Students)
 - 5+ Hands-on Projects
 - Completion Certificate
 - Doubt Support via WhatsApp

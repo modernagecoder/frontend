@@ -16,7 +16,7 @@ Auburn, Cumberland Council, Sydney / Live online
 
 An agent that is never allowed to say "I am not sure" will be wrong in silence. In this project an agent answers a simple question, which public primary school is nearest to this railway station, from a location that may be a few hundred metres off. Learners give it a rule: if the two closest schools are nearly tied, hand the question to a person. Then they measure the trade. At Auburn Station, with 250 metres of noise and no rule, the agent named the wrong school 333 times in 2,000 tries. With a 400 metre rule it asked for help 823 times and was wrong 64 times.
 
-Facts last verified 10 October 2026. Teaching is online; no Auburn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Auburn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for building agents that know their limits
 
@@ -183,7 +183,7 @@ Every lesson runs online with a live teacher, so nobody travels.
 - **At home** A computer, a stable connection and headphones are all a learner needs.
 - **NSW terms** Lessons pause for the NSW school holidays when families ask.
 - **Free first lesson** A complete trial lesson, then a suggested course and timetable.
-- **Small groups** Five to ten learners matched by level, or a private teacher.
+- **Small groups** Fifteen to twenty learners matched by level, or a private teacher.
 - **Two a week** Two fixed lessons weekly, about eight a month, with agreed breaks.
 - **India time** A 6pm Auburn lesson starts at 12:30pm India time during daylight saving and 1:30pm after it ends.
 
@@ -194,7 +194,7 @@ Every lesson runs online with a live teacher, so nobody travels.
 The fees come down to three numbers.
 
 - First class: USD 0. The first lesson costs nothing and ends with honest advice on level.
-- Group tuition: USD 100 a month. A month in a small group, usually eight lessons, with five to ten learners.
+- Group tuition: USD 100 a month. A month in a small group, usually eight lessons, with fifteen to twenty learners.
 - Private tuition: USD 150 a month. About eight private lessons a month with one teacher.
 
 Families outside India are invoiced in US dollars. Nothing is paid until after the trial and an agreed timetable; the pricing page explains holidays and missed lessons.
@@ -235,7 +235,7 @@ No. All lessons are live online and we have no premises in Australia. The phone 
 
 ### What do classes cost in Auburn?
 
-The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one.
+The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one.
 
 ### How many learners are in a group?
 

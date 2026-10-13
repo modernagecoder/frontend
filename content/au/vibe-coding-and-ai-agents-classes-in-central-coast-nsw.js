@@ -190,7 +190,7 @@ module.exports = {
       { h3: 'Every suburb included', p: 'A learner in Gosford and another near Tuggerah Lake join the same class at the same moment, each from home.' },
       { h3: 'Year levels as NSW uses them', p: 'Teachers talk about Year 7 to Year 12 and the NSW stages as local schools do; all lessons are in English.' },
       { h3: 'A trial with a real build', p: 'The first lesson is an actual vibe coding or agent task with a teacher, finishing with a suggested level, course and time. No payment details are taken.' },
-      { h3: 'Five to ten in a group', p: 'Learners at the same stage from the coast, the rest of Australia and overseas, so every level has a workable slot.' },
+      { h3: 'Fifteen to twenty in a group', p: 'Learners at the same stage from the coast, the rest of Australia and overseas, so every level has a workable slot.' },
       { h3: 'A regular rhythm', p: 'Usually two lessons a week, around eight a month, with school holidays and exam periods planned with the teacher.' },
       { h3: 'One hour shifts twice a year', p: 'A 5pm lesson on the coast lands at 12:30pm in India in winter and at 11:30am once daylight saving starts in October.' }
     ],
@@ -201,7 +201,7 @@ module.exports = {
     h2: 'What agent and vibe coding classes cost on the Central Coast',
     intro: 'Three figures and that is all.',
     first: 'A full first lesson free of charge, ending with a level, a course and a time.',
-    group: 'A month of lessons, normally eight, with five to ten learners at your stage.',
+    group: 'A month of lessons, normally eight, with fifteen to twenty learners at your stage.',
     private: 'Roughly eight lessons a month, one teacher and one learner.',
     closer: 'Outside India every family is billed in US dollars at one rate, from the peninsula to the northern lakes, with no separate coastal price. Payments begin only after the trial confirms a course and slot; breaks, missed lessons and switching format are on the pricing page.'
   },
@@ -226,8 +226,8 @@ module.exports = {
       { q: 'When do Central Coast lessons happen?', a: 'After school, in the evening or at weekends, settled during the free lesson and always quoted in coast time. From April to October our teachers in India are four and a half hours behind; through the summer months the gap grows to five and a half.' },
       { q: 'Do you teach younger children on the Central Coast?', a: 'Yes, from age 6, starting with Scratch and simple AI experiments. Here we concentrate on teenagers and grown-ups.' },
       { q: 'Is there a Modern Age Coders centre on the Central Coast?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Central Coast coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Central Coast coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

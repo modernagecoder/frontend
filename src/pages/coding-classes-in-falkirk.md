@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across the Falkirk co
 canonical: https://learn.modernagecoders.com/coding-classes-in-falkirk
 source: src/pages/coding-classes-in-falkirk.html
 ---
-> The Falkirk council area had about 158,400 residents in roughly 72,500 households at Scotland's 2022 census, living at 533.1 people per square kilometre. Falkirk town is the largest place, with Grangemouth, Bo'ness, Larbert, Stenhousemuir and Denny next. Lessons happen live on video with teachers in India, and a free opening lesson fixes each learner's level, whether they are in P2, S5 or working. Coding, Python and maths are taught to people aged 6 to 67 in small groups of five to ten or one-to-one. The Falkirk project starts at the Dunmore Pineapple, a stone pineapple on a garden folly near Airth. Beyond the free lesson, fees are USD 100 a month for a group and USD 150 a month for one-to-one.
+> The Falkirk council area had about 158,400 residents in roughly 72,500 households at Scotland's 2022 census, living at 533.1 people per square kilometre. Falkirk town is the largest place, with Grangemouth, Bo'ness, Larbert, Stenhousemuir and Denny next. Lessons happen live on video with teachers in India, and a free opening lesson fixes each learner's level, whether they are in P2, S5 or working. Coding, Python and maths are taught to people aged 6 to 67 in groups of fifteen to twenty or one-to-one. The Falkirk project starts at the Dunmore Pineapple, a stone pineapple on a garden folly near Airth. Beyond the free lesson, fees are USD 100 a month for a group and USD 150 a month for one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Falkirk
 
@@ -12,11 +12,11 @@ Falkirk council area / Live online
 
 # Coding classes in Falkirk
 
-**What are the best coding classes in Falkirk?** The Falkirk council area had about 158,400 residents in roughly 72,500 households at Scotland's 2022 census, living at 533.1 people per square kilometre. Falkirk town is the largest place, with Grangemouth, Bo'ness, Larbert, Stenhousemuir and Denny next. Lessons happen live on video with teachers in India, and a free opening lesson fixes each learner's level, whether they are in P2, S5 or working. Coding, Python and maths are taught to people aged 6 to 67 in small groups of five to ten or one-to-one. The Falkirk project starts at the Dunmore Pineapple, a stone pineapple on a garden folly near Airth. Beyond the free lesson, fees are USD 100 a month for a group and USD 150 a month for one-to-one.
+**What are the best coding classes in Falkirk?** The Falkirk council area had about 158,400 residents in roughly 72,500 households at Scotland's 2022 census, living at 533.1 people per square kilometre. Falkirk town is the largest place, with Grangemouth, Bo'ness, Larbert, Stenhousemuir and Denny next. Lessons happen live on video with teachers in India, and a free opening lesson fixes each learner's level, whether they are in P2, S5 or working. Coding, Python and maths are taught to people aged 6 to 67 in groups of fifteen to twenty or one-to-one. The Falkirk project starts at the Dunmore Pineapple, a stone pineapple on a garden folly near Airth. Beyond the free lesson, fees are USD 100 a month for a group and USD 150 a month for one-to-one.
 
 Near Airth, at the head of a walled garden, sits one of Scotland's most surprising follies: a folly crowned by a giant pineapple carved in stone. Historic Environment Scotland lists the Dunmore Pineapple at Category A, dates the crown to about 1771 and credits it to the Earl of Dunmore. A pineapple is a fruit built from many small units packed around a core, and plants that pack units like that, from seeds in a flower head to scales on a cone, face a geometry puzzle: at what angle should each new unit sit from the last so they fit together without gaps? This page's project answers it in Python, and the answer involves an angle of 137.5 degrees and the Fibonacci numbers.
 
-Facts last verified 26 September 2026. Teaching is online; no Falkirk branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Falkirk branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four starting courses around Falkirk
 
@@ -137,7 +137,7 @@ Towns and villages across the council area join the same way, from home.
 - **Screen shared, teacher present** Learners type the code themselves while the teacher sees every line and helps at the moment it goes wrong.
 - **P and S stages, not years** We use the Scottish words: P5, S2, National 5, Higher and Advanced Higher. Teaching is in English.
 - **A free, real first lesson** Nothing to pay and nothing to promise. At the end we suggest a starting stage and a course.
-- **Level-matched classes** Groups of five to ten, all at one stage, with classmates from different countries.
+- **Level-matched classes** Groups of fifteen to twenty, all at one stage, with classmates from different countries.
 - **Two lessons a week** Lessons run in term and pause for the holidays your school sets.
 - **Booked in UK time** The time you book stays the same UK time all year; teachers in India time handle the clock changes.
 
@@ -148,7 +148,7 @@ Towns and villages across the council area join the same way, from home.
 Bo'ness or Bonnybridge, the monthly fee is identical, and matches the one we charge outside India everywhere.
 
 - First class: USD 0. A complete lesson, free, with an honest placement at the end.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten matched by stage.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty matched by stage.
 - Private tuition: USD 150 a month. About eight lessons a month, just learner and teacher.
 
 Fees are in US dollars and we publish no sterling prices. Billing begins only after the free lesson, once a course and a weekly time are agreed; the pricing page explains holidays, missed lessons and switching formats.

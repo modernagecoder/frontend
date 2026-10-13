@@ -63,7 +63,7 @@ module.exports = {
 
   h1: 'Coding classes in Oxford',
   capsuleQ: 'What are the best coding classes in Oxford?',
-  capsule: 'Oxford counted 162,040 usual residents in the 2021 Census, and 35.1% of those aged five and over were at school or in full-time study, against 20.4% across England. The city\'s Radcliffe Meteorological Station holds the longest single-site weather records in the United Kingdom, and the University set up its Computing Laboratory in 1957. Modern Age Coders runs live online lessons for Oxford learners aged six to sixty-seven, in a class of five to ten matched by level or with a teacher for one, at times fixed in UK hours by teachers working from India. Your first lesson costs nothing. After that, USD 100 a month pays for a group place and USD 150 a month for private teaching.',
+  capsule: 'Oxford counted 162,040 usual residents in the 2021 Census, and 35.1% of those aged five and over were at school or in full-time study, against 20.4% across England. The city\'s Radcliffe Meteorological Station holds the longest single-site weather records in the United Kingdom, and the University set up its Computing Laboratory in 1957. Modern Age Coders runs live online lessons for Oxford learners aged six to sixty-seven, in a class of fifteen to twenty matched by level or with a teacher for one, at times fixed in UK hours by teachers working from India. Your first lesson costs nothing. After that, USD 100 a month pays for a group place and USD 150 a month for private teaching.',
   lead: 'Does rain remember yesterday? Few places can answer that as well as Oxford, because the Radcliffe Meteorological Station, in the garden of Green Templeton College off Woodstock Road, has recorded daily rainfall since January 1827. From 1853, before which the University\'s geographers warn that some daily values may be totals for several days, to the end of 2025 there are 63,187 days, and on 19,763 of them at least a millimetre of rain fell. That is 31.3% of days. Yet after a wet day the next was wet 49.4% of the time, and after a dry day only 23.0%. Rain roughly doubles the chance of more rain tomorrow. A model built from those two numbers alone, called a Markov chain, reproduces the long-run share of wet days. Then it gets two things wrong, and finding them is the most valuable part of the lesson for our Oxford teenagers.',
   wa: 'Hello Modern Age Coders, I would like to book a free coding lesson for a learner in Oxford.',
 
@@ -187,7 +187,7 @@ module.exports = {
       { h3: 'No trip across the city', p: 'A learner in Wolvercote and another in Littlemore can sit the same lesson from their own rooms, with no bus through the centre at rush hour.' },
       { h3: 'School stages as England names them', p: 'We use Reception, Key Stages 1 to 4, Year 9 options, GCSEs and A levels, as Oxford schools do, and every lesson is taught in English.' },
       { h3: 'A first lesson that counts', p: 'The free session is real teaching on a real task. It ends with an honest view of level, a suggested course and a proposed weekly time, and no card details are asked for.' },
-      { h3: 'Matched on ability', p: 'Groups of five to ten learners at one level, gathered from Oxford, the rest of the UK and other countries, which is how every level finds a time that works.' },
+      { h3: 'Matched on ability', p: 'Groups of fifteen to twenty learners at one level, gathered from Oxford, the rest of the UK and other countries, which is how every level finds a time that works.' },
       { h3: 'Twice a week, same slot', p: 'Lessons run twice weekly at a fixed time, around eight a month, with breaks for holidays and exams arranged with the teacher.' },
       { h3: 'Teachers in India', p: 'India Standard Time never moves, so Oxford sits four and a half hours behind our teachers in British Summer Time and five and a half behind in winter, which puts after-school and evening lessons inside their working day.' }
     ],
@@ -198,7 +198,7 @@ module.exports = {
     h2: 'Oxford class fees',
     intro: 'Three prices, and nothing to add to them.',
     first: 'One complete lesson, free, after which you receive a level, a course suggestion and a weekly time.',
-    group: 'A month of live teaching, normally eight lessons, with five to ten learners working at one level.',
+    group: 'A month of live teaching, normally eight lessons, with fifteen to twenty learners working at one level.',
     private: 'The same eight or so lessons a month, taught to one learner alone.',
     closer: 'Everyone outside India pays one US dollar rate, so a family in Marston and a family in Wolvercote pay exactly the same, and we publish no prices in pounds. Billing begins only after the free lesson has fixed a course and a slot; the pricing page sets out how pauses, missed lessons and switches between group and private teaching work.'
   },
@@ -223,8 +223,8 @@ module.exports = {
       { q: 'When did computing start at the University of Oxford?', a: 'The Department of Computer Science dates itself to the Oxford University Computing Laboratory, set up in 1957 under Leslie Fox. The Programming Research Group followed in 1965 under Christopher Strachey, and the laboratory became the Department of Computer Science in 2011.' },
       { q: 'What time are lessons for Oxford learners?', a: 'Slots run after school, in the evening and at weekends, fixed in UK time at the free lesson. Our teachers work four and a half hours ahead of Oxford in summer and five and a half in winter, which suits those hours well.' },
       { q: 'Does Modern Age Coders have a centre in Oxford?', a: 'No. There is no Oxford centre and no UK premises; every lesson is taught live online. A learner needs a computer with audio and a steady internet connection. Our phone number is Indian.', boiler: true },
-      { q: 'What do Oxford lessons cost?', a: 'Nothing for the first lesson. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same pattern costs USD 150 a month. We agree the course, format and time before any payment.', boiler: true },
-      { q: 'How do you put Oxford learners into groups?', a: 'By ability, pace and goals rather than age or postcode, with five to ten learners at one level in each group. If no group meets at a suitable time, we suggest one-to-one lessons instead.', boiler: true }
+      { q: 'What do Oxford lessons cost?', a: 'Nothing for the first lesson. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same pattern costs USD 150 a month. We agree the course, format and time before any payment.', boiler: true },
+      { q: 'How do you put Oxford learners into groups?', a: 'By ability, pace and goals rather than age or postcode, with fifteen to twenty learners at one level in each group. If no group meets at a suitable time, we suggest one-to-one lessons instead.', boiler: true }
     ]
   },
 

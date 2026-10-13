@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in County Sligo',
   capsuleQ: 'What are the best coding classes in County Sligo?',
-  capsule: 'County Sligo holds 70,198 people, 4,663 more than in 2016. Sligo town accounts for 20,608 of them and the rest are spread thinly, from Tubbercurry at 2,307 down to villages of a few hundred. The county has an older profile than most, with 12,903 people aged 65 or over, and no Gaeltacht. Our teaching runs live, one hour a week at a fixed time, in ability groups of five to ten or one to one, from age six through to sixty-seven. The first lesson is free, then USD 100 a month in a group or USD 150 privately.',
+  capsule: 'County Sligo holds 70,198 people, 4,663 more than in 2016. Sligo town accounts for 20,608 of them and the rest are spread thinly, from Tubbercurry at 2,307 down to villages of a few hundred. The county has an older profile than most, with 12,903 people aged 65 or over, and no Gaeltacht. Our teaching runs live, one hour a week at a fixed time, in ability groups of fifteen to twenty or one to one, from age six through to sixty-seven. The first lesson is free, then USD 100 a month in a group or USD 150 privately.',
   lead: 'The average age in County Sligo is 40.7 years. Now look at its towns. Coolaney averages 31.8. Rosses Point and Enniscrone both average 45.3. That is a spread of thirteen and a half years inside one small county, and the county figure sits in the middle describing none of them. Push a little further and it gets stranger. Sligo town is the biggest place here by a wide margin, and only 16.4 per cent of its residents are under 15. In Coolaney, a village of 1,155 people, the figure is 30.6 per cent, nearly double. The children of this county are not, proportionally, where the county keeps its population. An average told you none of that, and an average is usually all anybody quotes.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in County Sligo.',
 
@@ -180,7 +180,7 @@ module.exports = {
     cells: [
       { h3: 'One live hour a week', p: 'A teacher is present throughout and the learner is expected to talk, not to watch.' },
       { h3: 'Reaching the small places', p: 'Coolaney, Ballymote and Tubbercurry have proportionally more children and fewer options than Sligo town. Online removes that difference entirely.' },
-      { h3: 'Ability groups of five to ten', p: 'Learners placed at one level, gathered across Sligo and several other countries, so a proper peer group exists at a workable hour.' },
+      { h3: 'Ability groups of fifteen to twenty', p: 'Learners placed at one level, gathered across Sligo and several other countries, so a proper peer group exists at a workable hour.' },
       { h3: 'What is needed', p: 'A laptop or desktop, working sound and a connection good enough for video, which the free lesson tests directly.' },
       { h3: 'Irish school stages', p: 'Junior Cycle, Transition Year and senior cycle, with exam weeks and mid-terms planned around.' },
       { h3: 'Our hours', p: 'Afternoons, evenings and weekend mornings, taught by a team working several hours ahead of Irish time.' }
@@ -192,7 +192,7 @@ module.exports = {
     h2: 'What Sligo families pay',
     intro: 'Three figures, with the terms in plain sight.',
     first: 'A complete first lesson at no cost, which ends with a level and a recommendation.',
-    group: 'A month of group classes, about eight lessons, five to ten learners at one level.',
+    group: 'A month of group classes, about eight lessons, fifteen to twenty learners at one level.',
     private: 'A month of one to one teaching on the same weekly pattern.',
     closer: 'We bill monthly in US dollars at the single rate charged outside India, so Enniscrone pays what Sligo town pays and no second price list exists. Nothing is charged until a course and an hour have been agreed in the free lesson, and the pricing page sets out pauses, missed lessons and changes of format.'
   },
@@ -217,7 +217,7 @@ module.exports = {
       { q: 'Do you teach children outside Sligo town?', a: 'Yes, and it is where this format earns its place. Tubbercurry, Ballymote, Coolaney, Collooney and Enniscrone all get the same teacher at the same hour as anyone in town.' },
       { q: 'When do classes run?', a: 'Afternoons, evenings and weekend mornings, at an hour fixed in the free lesson. Our teaching team works several hours ahead of Irish time.' },
       { q: 'Is there a Modern Age Coders classroom in County Sligo?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do County Sligo coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do County Sligo coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

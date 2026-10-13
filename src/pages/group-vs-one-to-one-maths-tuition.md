@@ -22,7 +22,7 @@ The syllabus, the tutor quality and the progress reports are the same; only the 
 
 [![GCSE Maths course thumbnail](/images/gcse-maths.webp)Most asked  GCSE Maths: Foundation & Higher AQA, Edexcel and OCR. Groups are matched by tier and board. Years 10 and 11Group or 1-on-1 **$100**/mo group · **$150**/mo 1-on-1 View course & enrol](/courses/gcse-mathematics-mastery)[![KS2 SATs Maths - Modern Age Coders course](/images/ks2-sats-maths.webp)  KS2 SATs Maths Times tables, arithmetic and reasoning for Years 4 to 6, in a group or one-to-one. Years 4 to 6Group or 1-on-1 **$100**/mo group · **$150**/mo 1-on-1 View course & enrol](/courses/ks2-sats-maths-course)[![GCSE Maths Resit - Modern Age Coders course](/images/gcse-maths-resit.webp)  GCSE Maths Resit For learners aged 16 and over and adults: find the topics costing marks, repair them, then full papers. 16 and overGroup or 1-on-1 **$100**/mo group · **$150**/mo 1-on-1 View course & enrol](/courses/gcse-maths-resit-course)
 
-Groups hold 5 to 10 learners at a similar level. One-to-one is one learner and one tutor.
+Groups hold 15 to 20 learners at a similar level. One-to-one is one learner and one tutor.
 
 The market, by format
 
@@ -90,7 +90,7 @@ Choosing
 - learns from hearing other students' questions
 - wants the lowest monthly cost over a long course
 
-Our groups hold 5 to 10 learners at a similar level and board.
+Our groups hold 15 to 20 learners at a similar level and board.
 
 ### Choose one-to-one if the learner
 
@@ -122,7 +122,7 @@ $150 / month
 $100 / month
 
 - 8 live group lessons a month (2 a week, 1 hour each)
-- 5 to 10 learners matched by level and board
+- 15 to 20 learners matched by level and board
 - Structure and practice at a lower monthly price
 - No enrolment fee, stop or switch at any month end
 
@@ -166,7 +166,7 @@ Usually noticeably more per lesson. The cost table shows published centre prices
 
 How big should a maths tuition group be?
 
-Small enough that the tutor sees each learner's working. Our groups hold 5 to 10 learners matched by level and exam board.
+Small enough that the tutor sees each learner's working. Our groups hold 15 to 20 learners matched by level and exam board.
 
 What does the Education Endowment Foundation say about tuition?
 

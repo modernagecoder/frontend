@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Stirling lear
 canonical: https://learn.modernagecoders.com/best-coding-class-in-stirling
 source: src/pages/best-coding-class-in-stirling.html
 ---
-> Stirling council area had about 92,600 usual residents at Scotland's 2022 census, rounded to the nearest hundred by National Records of Scotland, and 42.4 people per square kilometre. The MacTutor history of mathematics records that the mathematician James Stirling was born in 1692 at Garden, about 20 kilometres west of the town. Stirling learners aged six to sixty-seven have live video lessons with our teachers in India, one to one or in a small class of five to ten at one level, arranged around the Scottish school day and working hours. The first lesson costs nothing; after that it is USD 100 a month for a class place or USD 150 a month for one-to-one teaching.
+> Stirling council area had about 92,600 usual residents at Scotland's 2022 census, rounded to the nearest hundred by National Records of Scotland, and 42.4 people per square kilometre. The MacTutor history of mathematics records that the mathematician James Stirling was born in 1692 at Garden, about 20 kilometres west of the town. Stirling learners aged six to sixty-seven have live video lessons with our teachers in India, one to one or in a class of fifteen to twenty at one level, arranged around the Scottish school day and working hours. The first lesson costs nothing; after that it is USD 100 a month for a class place or USD 150 a month for one-to-one teaching.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Stirling
 
@@ -12,11 +12,11 @@ Stirling, Scotland / Live online
 
 # Coding classes in Stirling
 
-**What are the best coding classes in Stirling?** Stirling council area had about 92,600 usual residents at Scotland's 2022 census, rounded to the nearest hundred by National Records of Scotland, and 42.4 people per square kilometre. The MacTutor history of mathematics records that the mathematician James Stirling was born in 1692 at Garden, about 20 kilometres west of the town. Stirling learners aged six to sixty-seven have live video lessons with our teachers in India, one to one or in a small class of five to ten at one level, arranged around the Scottish school day and working hours. The first lesson costs nothing; after that it is USD 100 a month for a class place or USD 150 a month for one-to-one teaching.
+**What are the best coding classes in Stirling?** Stirling council area had about 92,600 usual residents at Scotland's 2022 census, rounded to the nearest hundred by National Records of Scotland, and 42.4 people per square kilometre. The MacTutor history of mathematics records that the mathematician James Stirling was born in 1692 at Garden, about 20 kilometres west of the town. Stirling learners aged six to sixty-seven have live video lessons with our teachers in India, one to one or in a class of fifteen to twenty at one level, arranged around the Scottish school day and working hours. The first lesson costs nothing; after that it is USD 100 a month for a class place or USD 150 a month for one-to-one teaching.
 
 A factorial multiplies every whole number up to n: 5! is 120, and 20! is already 2,432,902,008,176,640,000. The formula named after James Stirling, born near the town in 1692, estimates n! without multiplying at all. Our Stirling project asks how good that estimate is. Teenagers compute factorials exactly in Python, including 92,600!, one for every resident of Stirling council area in the 2022 census, a number with 419,696 digits, and compare each with Stirling's formula. At n = 10 the formula is 0.83% too low. At n = 92,600 it is out by less than one part in a million, and it predicts the digit count exactly.
 
-Facts last verified 23 September 2026. Teaching is online; no Stirling branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Stirling branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the city of the formula
 
@@ -169,7 +169,7 @@ Stirling learners live on both sides of the River Forth and out towards Bannockb
 - **Both sides of the Forth** A learner in Cornton and another in Cambusbarron can take the same class without either of them making the trip into town.
 - **Scottish school stages** Classes follow the stages Scottish families know, from the P years through S1 to S6, with National 5, Higher and Advanced Higher courses named as schools name them; teaching is in English.
 - **First lesson, real work** The free session is spent coding, not listening to a pitch, and ends with the teacher suggesting a level, a course and a weekly time. No card details are taken.
-- **Classes by stage** Five to ten learners at a single level, from Stirling, elsewhere in the UK and overseas, which keeps sensible times open for every stage.
+- **Classes by stage** Fifteen to twenty learners at a single level, from Stirling, elsewhere in the UK and overseas, which keeps sensible times open for every stage.
 - **Two a week** Two fixed lessons weekly, around eight a month, with holidays and exam study planned together with the teacher.
 - **Teachers in India** India keeps one clock all year, so a Stirling lesson at five in the afternoon starts at 21:30 for our teachers during British Summer Time and 22:30 once the clocks go back.
 
@@ -180,7 +180,7 @@ Stirling learners live on both sides of the River Forth and out towards Bannockb
 The opening lesson is free, and a single monthly fee follows.
 
 - First class: USD 0. A whole lesson at no charge, finishing with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month, in a class of five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight live lessons a month, in a class of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight live lessons a month, with a teacher giving your learner their full attention.
 
 Families in Borestone or Causewayhead pay in US dollars, as every family outside India does, and our site never shows pound prices. Payment starts only after the free lesson, once you have settled a course and a weekly time with us; pauses, missed lessons and changes between group and private teaching are explained on the pricing page.
@@ -221,11 +221,11 @@ No. We have no Stirling centre and no premises anywhere in the UK, because every
 
 ### What do Stirling lessons cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are learners grouped?
 
-By level, pace and goals rather than by age or address, with five to ten learners at the same stage. If no group fits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than by age or address, with fifteen to twenty learners at the same stage. If no group fits the learner's week, we offer one-to-one lessons.
 
 ## Scotland and beyond
 

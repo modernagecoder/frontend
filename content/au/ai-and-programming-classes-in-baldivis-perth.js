@@ -299,7 +299,7 @@ module.exports = {
       { h3: 'Taught live', p: 'Teachers lead each lesson and look at learners\' code as they write it.' },
       { h3: 'WA calendar', p: 'Lessons follow WA school terms and stop for holidays.' },
       { h3: 'Free trial', p: 'The first lesson costs nothing and ends with a plan.' },
-      { h3: 'Group sizes', p: 'Five to ten learners per group, or private lessons.' },
+      { h3: 'Group sizes', p: 'Fifteen to twenty learners per group, or private lessons.' },
       { h3: 'Rhythm', p: 'Two lessons each week, about eight a month.' },
       { h3: 'India time', p: 'A 4:30pm Baldivis lesson begins at 2pm in India.' }
     ],
@@ -312,7 +312,7 @@ module.exports = {
     h2: 'Baldivis fees',
     intro: 'Every learner pays the same published fees.',
     first: 'The opening lesson is free, with a course plan.',
-    group: 'Group lessons: about eight a month, five to ten learners each.',
+    group: 'Group lessons: about eight a month, fifteen to twenty learners each.',
     private: 'Private lessons: about eight a month with a single teacher.',
     closer: 'Fees are in US dollars and only start after the trial has agreed a course and a weekly time. The pricing page lists holiday and missed-lesson terms.'
   },
@@ -351,12 +351,12 @@ module.exports = {
       },
       {
         q: 'What do Baldivis classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How are groups put together?',
-        a: 'By level and pace, five to ten learners each, not by age or suburb. One-to-one lessons cover anyone no group time fits.',
+        a: 'By level and pace, fifteen to twenty learners each, not by age or suburb. One-to-one lessons cover anyone no group time fits.',
         boiler: true
       },
       { q: 'Can adults take AI classes?', a: 'Yes. Adults study in adult groups or one to one, often using datasets from their own jobs.' }

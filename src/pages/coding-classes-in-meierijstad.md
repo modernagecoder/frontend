@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and app classes in Meierijstad for 
 canonical: https://learn.modernagecoders.com/coding-classes-in-meierijstad
 source: src/pages/coding-classes-in-meierijstad.html
 ---
-> Coding classes in Meierijstad serve 85,236 people (statistics office, 1 January 2026) in a municipality formed on 1 January 2017 from Schijndel, Sint-Oedenrode and Veghel. Its name was chosen in a vote open to every resident aged twelve and over, and the councils had said in advance that they would accept the winner. Meierijstad received 2,172 of the 5,216 votes, 42 percent; Land van Rode received 31 percent and Koevering 27. The name won fairly under the rules, and still 58 percent of the voters had chosen something else. The option with the most votes is not always the option most voters wanted, and every AI classifier that returns its top label faces the same gap. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Meierijstad serve 85,236 people (statistics office, 1 January 2026) in a municipality formed on 1 January 2017 from Schijndel, Sint-Oedenrode and Veghel. Its name was chosen in a vote open to every resident aged twelve and over, and the councils had said in advance that they would accept the winner. Meierijstad received 2,172 of the 5,216 votes, 42 percent; Land van Rode received 31 percent and Koevering 27. The name won fairly under the rules, and still 58 percent of the voters had chosen something else. The option with the most votes is not always the option most voters wanted, and every AI classifier that returns its top label faces the same gap. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Meierijstad
 
@@ -12,11 +12,11 @@ Meierijstad, Noord-Brabant / Live online
 
 # Coding classes in Meierijstad, a name chosen by 42 percent of the people who voted
 
-**What are the best coding classes in Meierijstad?** Coding classes in Meierijstad serve 85,236 people (statistics office, 1 January 2026) in a municipality formed on 1 January 2017 from Schijndel, Sint-Oedenrode and Veghel. Its name was chosen in a vote open to every resident aged twelve and over, and the councils had said in advance that they would accept the winner. Meierijstad received 2,172 of the 5,216 votes, 42 percent; Land van Rode received 31 percent and Koevering 27. The name won fairly under the rules, and still 58 percent of the voters had chosen something else. The option with the most votes is not always the option most voters wanted, and every AI classifier that returns its top label faces the same gap. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Meierijstad?** Coding classes in Meierijstad serve 85,236 people (statistics office, 1 January 2026) in a municipality formed on 1 January 2017 from Schijndel, Sint-Oedenrode and Veghel. Its name was chosen in a vote open to every resident aged twelve and over, and the councils had said in advance that they would accept the winner. Meierijstad received 2,172 of the 5,216 votes, 42 percent; Land van Rode received 31 percent and Koevering 27. The name won fairly under the rules, and still 58 percent of the voters had chosen something else. The option with the most votes is not always the option most voters wanted, and every AI classifier that returns its top label faces the same gap. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 When three names are on a ballot, the winner needs only more votes than each of the others, not more than half. In Meierijstad the winning name took 42 percent, which was a clear first place and a minority at the same time. That is not a flaw in the vote. The rules were published, the councils agreed beforehand to accept the result, and the name has served the municipality ever since. It is simply a fact about counting that most people never notice: a plurality, the largest share, can be well short of a majority. And because each voter marked only one name, the count cannot say how the 3,044 people who chose another name felt about the winner, whether it was their second choice or their last. Machine learning systems make the same kind of decision millions of times a day, and the same two questions apply to every one of them.
 
-Facts last verified 11 September 2026. Teaching is online; no Meierijstad branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Meierijstad branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for four towns under one name
 
@@ -190,7 +190,7 @@ Four towns share a municipality of more than 18,000 hectares, and a lesson that 
 - **Four towns, no journeys** A learner in Erp joins at the same moment as one in Schijndel, each from their own home. Nobody drives between the towns on a weekday evening for a class.
 - **The school system, in Dutch** Groep, brugklas, vmbo, havo, vwo and the profielkeuze keep their Dutch names in lessons, as a Brabant school uses them, while the teaching is in English.
 - **The first hour, taught properly** The free lesson is a real one on a real task. Afterwards the teacher suggests a level, a named course and a weekly time, and no card details are asked for.
-- **Groups beyond the Meierij** Five to ten learners at the same stage. Meierijstad has 12,552 residents under fifteen across four towns, and five who match on subject, level and hour are unlikely in any one of them, so groups may include learners from several countries.
+- **Groups beyond the Meierij** Fifteen to twenty learners at the same stage. Meierijstad has 12,552 residents under fifteen across four towns, and five who match on subject, level and hour are unlikely in any one of them, so groups may include learners from several countries.
 - **Regio Zuid holidays** Two lessons a week, about eight a month, at the same time each week, pausing for the regio Zuid holidays that Brabant schools follow.
 - **Hours that fit** India is three and a half hours ahead in summer and four and a half in winter, so after-school, early-evening and weekend-morning slots all stay available through the year.
 
@@ -201,7 +201,7 @@ Four towns share a municipality of more than 18,000 hectares, and a lesson that 
 These three prices are the whole of it.
 
 - First class: USD 0. A proper lesson on a proper task, finishing with a level and a named course.
-- Group tuition: USD 100 a month. Per month, usually eight lessons, five to ten learners matched by ability.
+- Group tuition: USD 100 a month. Per month, usually eight lessons, fifteen to twenty learners matched by ability.
 - Private tuition: USD 150 a month. Per month, usually eight lessons, one teacher and one learner.
 
 The fee is a single dollar price for every country, with no euro version beside it, so a family in Erp pays what a family in Veghel pays. Nothing is charged until the free lesson has settled a course and a time, and payment is then arranged through WhatsApp. The pricing page explains breaks, a change of format and missed lessons.
@@ -242,7 +242,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Meierijstad coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

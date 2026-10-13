@@ -16,7 +16,7 @@ Tuggeranong district, south Canberra, ACT / Live online
 
 Tuggeranong is Canberra's southern valley of 18 suburbs around Lake Tuggeranong, from Wanniassa and Isabella Plains down to Banks and Conder. Its parks are well equipped, with 61 shelters and 33 barbecues in the ACT asset lists, and their names follow a tidy pattern that invites a quick clean-up in Python.
 
-Facts last verified 13 October 2026. Teaching is online; no Tuggeranong branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Tuggeranong branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python, step by step
 
@@ -177,7 +177,7 @@ Lessons are live over video, so nobody has to drive into town after school.
 - **Live lessons** A teacher leads every class and checks code as it is typed.
 - **School terms** Classes follow ACT terms and pause during holidays.
 - **Free trial** One free lesson, then a written course plan.
-- **Small groups** Five to ten learners at one level, or one to one.
+- **Small groups** Fifteen to twenty learners at one level, or one to one.
 - **Rhythm** Two lessons a week, roughly eight a month.
 - **India timing** In winter a 5pm Tuggeranong lesson is 12:30pm in India; in summer it is 11:30am.
 
@@ -188,7 +188,7 @@ Lessons are live over video, so nobody has to drive into town after school.
 Fees are the same for all learners.
 
 - First class: USD 0. No charge for the first lesson, which includes a plan.
-- Group tuition: USD 100 a month. Groups: about eight lessons a month, five to ten learners.
+- Group tuition: USD 100 a month. Groups: about eight lessons a month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. One-to-one: about eight lessons a month with a single teacher.
 
 Fees are billed in US dollars and only start when the trial has fixed the course and a weekly time. Holidays and missed lessons are covered on the pricing page.
@@ -225,11 +225,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Tuggeranong classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How do you group learners?
 
-By level and pace in groups of five to ten, not by age or suburb. One-to-one lessons suit anyone no group time fits.
+By level and pace in groups of fifteen to twenty, not by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Can adults take Python lessons?
 

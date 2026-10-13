@@ -42,7 +42,7 @@ module.exports = {
   twitterDescription: 'Liverpool maths, taught live online: can a single cosine curve forecast the Mersey tide? A month of gauge readings puts it to the test.',
   pageName: 'Maths Tuition in Liverpool',
   webPageDescription: 'Live online maths tuition for Liverpool learners aged 6 to 67, from primary maths and Key Stage 3 to GCSE, A level, Further Maths and adult study, with a trigonometric modelling project built on Environment Agency tide readings.',
-  courseDescription: 'Live online maths lessons for Liverpool learners at every stage, in level-matched groups of five to ten or one to one, following the national curriculum and the learner\'s GCSE or A level board.',
+  courseDescription: 'Live online maths lessons for Liverpool learners at every stage, in level-matched groups of fifteen to twenty or one to one, following the national curriculum and the learner\'s GCSE or A level board.',
   crumbs: [{ name: 'Courses', href: '/courses' }, { name: 'Coding classes in the UK', href: '/coding-classes-in-united-kingdom' }],
   crumbLabel: 'Maths tuition in Liverpool',
   navLinks: [
@@ -64,12 +64,12 @@ module.exports = {
     ['Secondary', 'KS3 and GCSE, Foundation or Higher'],
     ['Sixth form', 'A level Maths and Further Maths'],
     ['Adults', 'Refreshers, resits, everyday maths'],
-    ['Format', 'Live video, groups of 5 to 10 or private'],
+    ['Format', 'Live video, groups of 15 to 20 or private'],
     ['Teachers', 'Teaching from India on UK time'],
     ['Local project', 'Mersey tide readings and a cosine model']
   ],
   capsuleQ: 'In short',
-  capsule: 'Liverpool learners aged 6 to 67 can take live online maths with us, at every level: KS2 maths and the Year 6 papers, KS3, GCSE at Foundation or Higher tier on AQA, Edexcel or OCR, A level Maths with Further Maths, and adult maths from refreshers to GCSE resits. Classes run with five to ten learners matched by level, or privately for one learner. Our Liverpool example is the tide: from 2,766 Environment Agency readings in September 2026, the average time from one high water to the next was 12 hours 25.6 minutes, and a single cosine curve tracked a spring tide to within 0.948 metres but missed a neap tide by up to 6.44 metres. Lesson one is on us. From then on, a group seat runs to USD 100 monthly and individual tuition to USD 150 monthly.',
+  capsule: 'Liverpool learners aged 6 to 67 can take live online maths with us, at every level: KS2 maths and the Year 6 papers, KS3, GCSE at Foundation or Higher tier on AQA, Edexcel or OCR, A level Maths with Further Maths, and adult maths from refreshers to GCSE resits. Classes run with fifteen to twenty learners matched by level, or privately for one learner. Our Liverpool example is the tide: from 2,766 Environment Agency readings in September 2026, the average time from one high water to the next was 12 hours 25.6 minutes, and a single cosine curve tracked a spring tide to within 0.948 metres but missed a neap tide by up to 6.44 metres. Lesson one is on us. From then on, a group seat runs to USD 100 monthly and individual tuition to USD 150 monthly.',
 
   picks: {
     eyebrow: 'A good first course for most Liverpool learners',
@@ -267,7 +267,7 @@ module.exports = {
     cells: [
       { h3: 'Continuity', p: 'The same teacher takes a group each week and knows every learner\'s slips.' },
       { h3: 'Brief reports', p: 'A short note home after lessons on progress and next steps.' },
-      { h3: 'Level, not age', p: 'Five to ten learners in a group, all at one level.' },
+      { h3: 'Level, not age', p: 'Fifteen to twenty learners in a group, all at one level.' },
       { h3: 'Measured data', p: 'Tide readings, maps and census tables next to exam practice.' },
       { h3: 'One to one', p: 'For a stubborn topic, a near exam, or by choice.' },
       { h3: 'Say why', p: 'Learners explain a method in words before drilling it.' }
@@ -282,7 +282,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Monthly, in US dollars, at one rate for every country outside India. No joining fee, no minimum term.',
     free: ['A real lesson at the learner\'s level', 'A candid account afterwards', 'No card required'],
-    group: ['Five to ten learners at one level', 'A familiar teacher', 'Work marked and talked through', 'A certificate when finished'],
+    group: ['Fifteen to twenty learners at one level', 'A familiar teacher', 'Work marked and talked through', 'A certificate when finished'],
     one: ['Individual teaching', 'Aimed at the specific gap', 'Ideal close to exams']
   },
 

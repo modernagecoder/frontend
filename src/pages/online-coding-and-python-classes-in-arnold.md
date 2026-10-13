@@ -4,7 +4,7 @@ description: "Live online coding and Python classes for Arnold, Redhill, Daybroo
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-arnold
 source: src/pages/online-coding-and-python-classes-in-arnold.html
 ---
-> The ONS 2021 census put the Arnold built-up area at 40,010 usual residents, and Gedling borough, which contains most of it, at 117,264. Its postcodes sit in the Ernehale, Redhill, Daybrook, Plains, Coppice and Woodthorpe wards. Modern Age Coders teaches coding, Python, AI and maths to Arnold learners aged six to 67 in live video lessons with tutors in India, privately or in groups of five to ten who share a level. A free trial lesson comes first and ends with a course recommendation. In the Arnold project a learner loads a census table of household sizes for 128 local output areas, copies it in four different ways, and finds that three of them are not really copies at all. Group places then cost USD 100 a month and one-to-one tuition USD 150 a month.
+> The ONS 2021 census put the Arnold built-up area at 40,010 usual residents, and Gedling borough, which contains most of it, at 117,264. Its postcodes sit in the Ernehale, Redhill, Daybrook, Plains, Coppice and Woodthorpe wards. Modern Age Coders teaches coding, Python, AI and maths to Arnold learners aged six to 67 in live video lessons with tutors in India, privately or in groups of fifteen to twenty who share a level. A free trial lesson comes first and ends with a course recommendation. In the Arnold project a learner loads a census table of household sizes for 128 local output areas, copies it in four different ways, and finds that three of them are not really copies at all. Group places then cost USD 100 a month and one-to-one tuition USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Nottinghamshire](/coding-classes-in-nottinghamshire) / Arnold
 
@@ -12,11 +12,11 @@ Arnold, Gedling, Nottinghamshire / Live online
 
 # Online coding and Python classes in Arnold
 
-**What are the best online coding and Python classes in Arnold?** The ONS 2021 census put the Arnold built-up area at 40,010 usual residents, and Gedling borough, which contains most of it, at 117,264. Its postcodes sit in the Ernehale, Redhill, Daybrook, Plains, Coppice and Woodthorpe wards. Modern Age Coders teaches coding, Python, AI and maths to Arnold learners aged six to 67 in live video lessons with tutors in India, privately or in groups of five to ten who share a level. A free trial lesson comes first and ends with a course recommendation. In the Arnold project a learner loads a census table of household sizes for 128 local output areas, copies it in four different ways, and finds that three of them are not really copies at all. Group places then cost USD 100 a month and one-to-one tuition USD 150 a month.
+**What are the best online coding and Python classes in Arnold?** The ONS 2021 census put the Arnold built-up area at 40,010 usual residents, and Gedling borough, which contains most of it, at 117,264. Its postcodes sit in the Ernehale, Redhill, Daybrook, Plains, Coppice and Woodthorpe wards. Modern Age Coders teaches coding, Python, AI and maths to Arnold learners aged six to 67 in live video lessons with tutors in India, privately or in groups of fifteen to twenty who share a level. A free trial lesson comes first and ends with a course recommendation. In the Arnold project a learner loads a census table of household sizes for 128 local output areas, copies it in four different ways, and finds that three of them are not really copies at all. Group places then cost USD 100 a month and one-to-one tuition USD 150 a month.
 
 Here is a line of Python that looks perfectly sensible: make a grid of zeros with one row per neighbourhood, then fill it in. Run it on a table of Arnold households and nearly four cells in five come out wrong, with no error and no warning. The reason is one of the ideas that separates people who write Python from people who understand it: a name in Python is a label stuck on an object, not a box with a value inside. Copying the label does not copy the thing.
 
-Facts last verified 1 October 2026. Teaching is online; no Arnold branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 1 October 2026. Teaching is online; no Arnold branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python and coding courses for Arnold learners
 
@@ -134,11 +134,11 @@ Each class is a live video lesson. Python needs a computer with a keyboard; a ta
 - **Typing, not watching** The learner writes the code; the tutor keeps asking why it works.
 - **We place, then suggest** A trial lesson tells us the level before any course is proposed.
 - **Free first session** No charge and no card for the trial lesson.
-- **Same-level classmates** Groups of five to ten, drawn from across the UK.
+- **Same-level classmates** Groups of fifteen to twenty, drawn from across the UK.
 - **Regular rhythm** Roughly eight lessons a month, with Nottinghamshire school holidays skipped if you ask.
 - **UK time held** The lesson stays at its UK hour when the clocks change.
 
-**Why we teach online** Finding five to ten learners at precisely the same stage is far easier across the UK than in one town, and on video nobody has to travel.
+**Why we teach online** Finding fifteen to twenty learners at precisely the same stage is far easier across the UK than in one town, and on video nobody has to travel.
 
 ## Prices for Arnold families
 

@@ -16,7 +16,7 @@ Solihull, West Midlands, England / Live online
 
 Between 1946 and 1950 the Rover Company in Solihull built JET 1, which the Science Museum Group describes as the world's first gas-turbine-powered car. In 1952, with an uprated engine, it reached 152 miles per hour, a record for gas turbine cars. Yet the museum's record says test driving showed two problems that kept it off the roads: poor fuel consumption, and slowness to respond to the throttle. A driver pressed the pedal and waited while the turbine spun up. That waiting has a precise mathematical shape, the same one that describes a cooling cup of tea or a charging capacitor. How long does a slow engine take to reach 90 per cent of its power, and what goes wrong if a program steps through time carelessly? This page's project answers in Python.
 
-Facts last verified 27 September 2026. Teaching is online; no Solihull branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Solihull branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Solihull learners often begin
 
@@ -137,7 +137,7 @@ Every part of the borough can join by video.
 - **Hands-on coding** The learner types every program; the tutor follows on the shared screen and helps with questions.
 - **Level first, age second** We match a Solihull Year 4 or Year 13 to a course using the trial lesson, then name exams exactly as their board does.
 - **A free start** The first lesson carries no charge and ends with a clear plan.
-- **Classmates who match** Groups of five to ten are formed by ability, so Solihull learners study alongside peers at their exact stage.
+- **Classmates who match** Groups of fifteen to twenty are formed by ability, so Solihull learners study alongside peers at their exact stage.
 - **School terms** Two lessons weekly during term, none in the holidays.
 - **No clock-change confusion** Lessons stay at the same Solihull time in March and October; the teachers adapt.
 
@@ -148,7 +148,7 @@ Every part of the borough can join by video.
 The price is identical across Solihull, and matches what we charge in every country outside India.
 
 - First class: USD 0. One whole lesson free, then honest advice.
-- Group tuition: USD 100 a month. Around eight live lessons a month with five to ten classmates.
+- Group tuition: USD 100 a month. Around eight live lessons a month with fifteen to twenty classmates.
 - Private tuition: USD 150 a month. Around eight live lessons a month with your own tutor.
 
 Prices are in US dollars only; there is no sterling price. The first invoice follows only after the trial agrees a course and a regular slot; see the pricing page for breaks, missed sessions and moving between group and private.

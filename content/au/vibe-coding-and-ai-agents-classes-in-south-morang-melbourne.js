@@ -301,7 +301,7 @@ module.exports = {
       { h3: 'Code on screen', p: 'The learner writes the code and shares the screen; the teacher reads along and asks why each line is there.' },
       { h3: 'Victorian calendar', p: 'Courses run with the state school terms and break for holidays.' },
       { h3: 'Free trial lesson', p: 'The first lesson is free and complete, and ends with a suggested course and weekly time.' },
-      { h3: 'Matched groups', p: 'Five to ten learners at a similar level make up each group.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners at a similar level make up each group.' },
       { h3: 'Two sessions weekly', p: 'Two lessons a week on fixed days, about eight a month, with holidays planned in.' },
       {
         h3: 'Teachers in India',
@@ -317,7 +317,7 @@ module.exports = {
     h2: 'South Morang class fees',
     intro: 'Free to try, then a monthly fee.',
     first: 'A free first lesson that finishes with a clear recommendation.',
-    group: 'A month of group lessons, usually eight, with five to ten learners at the same stage.',
+    group: 'A month of group lessons, usually eight, with fifteen to twenty learners at the same stage.',
     private: 'Around eight one-to-one lessons each month with one teacher.',
     closer: 'We charge families outside India in US dollars, so South Morang pays the same rate as other families abroad. Payment waits until the trial has settled course and time; the pricing page covers holidays, missed lessons and format changes.'
   },
@@ -362,7 +362,7 @@ module.exports = {
       },
       {
         q: 'What do classes cost for South Morang learners?',
-        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. You confirm course, format and time before paying.',
+        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. You confirm course, format and time before paying.',
         boiler: true
       },
       {

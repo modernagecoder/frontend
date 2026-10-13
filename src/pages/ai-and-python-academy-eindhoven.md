@@ -4,7 +4,7 @@ description: "Eindhoven builds AI that has to move: soccer robots, drones and ca
 canonical: https://learn.modernagecoders.com/ai-and-python-academy-eindhoven
 source: src/pages/ai-and-python-academy-eindhoven.html
 ---
-> Modern Age Coders runs a live online AI and Python track for learners in Eindhoven aged six to sixty-seven: Python typed by hand, then data, then models with a measured error, then agents. Because Eindhoven's AI is so often AI in machines, the track keeps three real-world problems in view throughout: training data that has to be made, systems that drift and must recalibrate, and the gap between a simulation and reality. Teaching is in English, in groups of five to ten or one to one. The first lesson is free; after that a group place is USD 100 a month and one-to-one tuition USD 150.
+> Modern Age Coders runs a live online AI and Python track for learners in Eindhoven aged six to sixty-seven: Python typed by hand, then data, then models with a measured error, then agents. Because Eindhoven's AI is so often AI in machines, the track keeps three real-world problems in view throughout: training data that has to be made, systems that drift and must recalibrate, and the gap between a simulation and reality. Teaching is in English, in groups of fifteen to twenty or one to one. The first lesson is free; after that a group place is USD 100 a month and one-to-one tuition USD 150.
 
 [Home](/) / [Courses](/courses) / [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands) / Eindhoven
 
@@ -155,7 +155,7 @@ The Netherlands switches between CET and CEST and India does not, so the teacher
 - **Weekend** Saturday or Sunday, Eindhoven time. The easiest slot for adults and for families with busy weeks.
 
 - **A free lesson with real work** The learner tackles an actual problem while the teacher watches. That shows the right starting rung better than any placement test.
-- **Five to ten in a group** Learners from many countries grouped by ability, so a strong Eindhoven pupil is challenged and a newcomer is not rushed.
+- **Fifteen to twenty in a group** Learners from many countries grouped by ability, so a strong Eindhoven pupil is challenged and a newcomer is not rushed.
 - **One to one for engineers** For irregular project hours, a specific technical goal, or anyone who prefers the pace set around them.
 - **Code visible as it is written** Screens are shared both ways, so the teacher catches a misunderstanding while it is still small.
 - **English, as in the lab** Lessons, documentation and error messages are in English. Dutch school terms are used as families use them.
@@ -166,7 +166,7 @@ The Netherlands switches between CET and CEST and India does not, so the teacher
 Monthly, in US dollars, at the same two rates as every country outside India. Nothing extra for Eindhoven or the Netherlands, no sign-up fee, no annual contract. Copilot Studio courses are private tuition only and use the one-to-one rate.
 
 - Free first class: USD 0. A real lesson, not a sales call. Finds the right rung. No payment details needed.
-- Group batch: USD 100 a month. Five to ten learners at one level. One live teacher throughout. Projects reviewed every week. Certificate at completion.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. One live teacher throughout. Projects reviewed every week. Certificate at completion.
 - One to one: USD 150 a month. A teacher for one learner. Pace and focus set by the goal. The format for Copilot Studio courses.
 
 ## What Eindhoven families, students and engineers ask first

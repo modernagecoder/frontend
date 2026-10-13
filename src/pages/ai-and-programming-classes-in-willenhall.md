@@ -16,7 +16,7 @@ Willenhall, Walsall, West Midlands / Live online
 
 Old road atlases printed a triangle of numbers at the back: the mileage from every town to every other. Suppose the maps were torn out and only the triangle survived. Could the map be drawn again from the numbers? A method called multidimensional scaling says yes, and machine learning uses it constantly, to turn a table of how far apart things are into a picture of where they sit. It works perfectly when the distances were measured with a ruler. Roads are not rulers. For Willenhall, a learner builds both tables from open map data and sees exactly how much a flat picture can and cannot hold.
 
-Facts last verified 30 September 2026. Teaching is online; no Willenhall branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Willenhall branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Thinking, AI and programming courses for Willenhall learners
 
@@ -146,7 +146,7 @@ A laptop or desktop with a camera and a normal home connection is all the kit re
 - **The learner drives** Students type and share their screen while the tutor watches, prompts and asks for the reasoning out loud.
 - **Level found first** We use the trial to see what a learner can already do, and note any exam board.
 - **No-cost trial** A whole lesson without payment or card, finishing with a recommended course.
-- **Same-stage groups** Five to ten learners from around the UK who are at one level together.
+- **Same-stage groups** Fifteen to twenty learners from around the UK who are at one level together.
 - **Twice weekly** Two lessons a week, paused for any holiday dates you give us.
 - **Clock changes handled** When British clocks move, our tutors adjust so your slot stays put.
 

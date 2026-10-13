@@ -53,7 +53,7 @@ module.exports = {
 
   h1: 'Coding classes in County Wicklow',
   capsuleQ: 'What are the best coding classes in County Wicklow?',
-  capsule: 'Wicklow works from home more than almost anywhere: 25,839 people, 37% of the workforce, did at least one day a week at home in 2022, against 32% nationally. It is also well educated, with 48% of adults holding a third-level qualification against 45% across the country, and it is the one county in this part of Ireland where more commuters take a train than a bus. A household already used to working over video takes to a live online class easily. We teach ages 6 to 67 at a fixed weekly hour, in groups of five to ten matched by ability, or one to one. The opening lesson is free; continuing costs USD 100 a month in a group and USD 150 with a teacher to yourself.',
+  capsule: 'Wicklow works from home more than almost anywhere: 25,839 people, 37% of the workforce, did at least one day a week at home in 2022, against 32% nationally. It is also well educated, with 48% of adults holding a third-level qualification against 45% across the country, and it is the one county in this part of Ireland where more commuters take a train than a bus. A household already used to working over video takes to a live online class easily. We teach ages 6 to 67 at a fixed weekly hour, in groups of fifteen to twenty matched by ability, or one to one. The opening lesson is free; continuing costs USD 100 a month in a group and USD 150 with a teacher to yourself.',
   lead: 'Ask how many people live in Bray and the honest answer begins with a question of your own: which Bray? The town\'s built-up area is published as "Bray, Counties Wicklow and Dublin", 33,512 people, because it spills north across the county line into Dún Laoghaire-Rathdown. So that figure belongs to neither council on its own. If you want a number that is properly Wicklow\'s, you have to change the unit entirely and add the two Bray electoral areas, West and East, which lie wholly inside the county: 36,872 people. Bigger than the town figure, and measuring something different. Both numbers are correct and they are not comparable, and knowing which one answers your question is the entire skill. This page teaches that on a county where it matters, and where even the statistics office prints one of its own percentages two different ways.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in County Wicklow.',
 
@@ -191,7 +191,7 @@ module.exports = {
       { h3: 'Distance stops mattering', p: 'Baltinglass and Bray are more than an hour apart by road and nought seconds apart in a live online group.' },
       { h3: 'The school year, named locally', p: 'Junior Cycle, Transition Year, fifth and sixth year: our teachers use the words your school uses, which keeps everything simple.' },
       { h3: 'A real free lesson', p: 'Proper teaching on a proper task, closing with a level, a course and an hour, and no request for payment details.' },
-      { h3: 'Grouped by what they can do', p: 'Five to ten learners at one level, gathered from Wicklow and several other countries, which is how the right class exists at a sensible hour.' },
+      { h3: 'Grouped by what they can do', p: 'Fifteen to twenty learners at one level, gathered from Wicklow and several other countries, which is how the right class exists at a sensible hour.' },
       { h3: 'Weekly and steady', p: 'Two sessions in most weeks, about eight a month, at one fixed time, pausing for mid-terms, exams and holidays by agreement.' },
       { h3: 'How the clocks sit', p: 'Indian time never shifts while Irish time does, so our teachers run four and a half hours ahead in summer and five and a half in winter.' }
     ],
@@ -202,7 +202,7 @@ module.exports = {
     h2: 'What classes cost in County Wicklow',
     intro: 'The entire price list, in three lines.',
     first: 'A complete lesson at no cost, finishing with a level named and a course suggested.',
-    group: 'A month of classes, normally eight, shared with five to ten learners working at one speed.',
+    group: 'A month of classes, normally eight, shared with fifteen to twenty learners working at one speed.',
     private: 'The same month, the same eight or so classes, with the teacher attending to one learner.',
     closer: 'Everything is charged monthly in US dollars on the one rate used outside India, which is why Arklow and Enniskerry pay the same and why there is no euro list. Nothing is billed until the free lesson has produced a course and a weekly hour, and the pricing page covers pauses, missed weeks and moving between group and private.'
   },

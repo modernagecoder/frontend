@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Vibe coding and AI agents classes in Crewe',
   capsuleQ: 'Where can Crewe learners find the best vibe coding and AI agents classes?',
-  capsule: 'The ONS counted 74,120 people in the Crewe built-up area at the 2021 census, in a Cheshire East of 398,772 that also includes Nantwich, Alsager, Sandbach and Haslington. From six-year-olds to adults of 67, anyone here can join India-based tutors on a video call for vibe coding, AI agents, Python, coding and maths, taught privately or in classes of five to ten grouped by level. Reasoning is taught ahead of any tool, which means an agent\'s behaviour makes sense to the person running it. We waive the fee for lesson one and close it with a recommendation. The Crewe project sets an AI agent loose on the town centre\'s real street map and asks what learning by trial and error really costs. To keep going, budget USD 100 monthly for a class place or USD 150 monthly for private tuition.',
+  capsule: 'The ONS counted 74,120 people in the Crewe built-up area at the 2021 census, in a Cheshire East of 398,772 that also includes Nantwich, Alsager, Sandbach and Haslington. From six-year-olds to adults of 67, anyone here can join India-based tutors on a video call for vibe coding, AI agents, Python, coding and maths, taught privately or in classes of fifteen to twenty grouped by level. Reasoning is taught ahead of any tool, which means an agent\'s behaviour makes sense to the person running it. We waive the fee for lesson one and close it with a recommendation. The Crewe project sets an AI agent loose on the town centre\'s real street map and asks what learning by trial and error really costs. To keep going, budget USD 100 monthly for a class place or USD 150 monthly for private tuition.',
   lead: 'Some AI agents are not told how to do a job; they are rewarded for doing it well and left to work out the rest. This approach, reinforcement learning, is used to train game-playing programs, and a simple version called Q-learning fits in a page of Python. This project gives a Q-learning agent the real street map of central Crewe from OpenStreetMap and one goal: walk from the Crewe Heritage Centre to Crewe Library by the shortest route. The agent is never shown the answer. It wanders, remembers what each move cost, and slowly improves. Then the learner compares it with a planner that simply reads the map.',
   wa: 'Hello Modern Age Coders, we would like a free vibe coding or AI agents lesson for a learner in Crewe.',
 
@@ -159,7 +159,7 @@ module.exports = {
       { h3: 'The student builds', p: 'Learners type, prompt and test the code themselves while the tutor watches their screen and asks the next question.' },
       { h3: 'The trial decides the start', p: 'A Year 4 or a Year 13 begins where the free lesson places them, with exam boards recorded.' },
       { h3: 'Free opening lesson', p: 'Lesson one costs nothing and ends with a recommended course.' },
-      { h3: 'Classes at one level', p: 'Every group mixes five to ten learners from around the UK who are equally far along.' },
+      { h3: 'Classes at one level', p: 'Every group mixes fifteen to twenty learners from around the UK who are equally far along.' },
       { h3: 'Twice a week', p: 'Paused during the school holidays.' },
       { h3: 'Constant lesson times', p: 'Tutors adapt to UK clock changes, so the slot never moves.' }
     ],

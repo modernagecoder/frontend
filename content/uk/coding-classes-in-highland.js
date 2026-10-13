@@ -52,7 +52,7 @@ module.exports = {
 
   h1: 'Coding classes in the Highlands',
   capsuleQ: 'What are the best coding classes in the Highlands?',
-  capsule: 'Dividing the census population by its density, we estimate Highland covers roughly a third of Scotland\'s land, yet the 2022 census counted about 235,400 residents in roughly 111,700 households. Inverness is by far the biggest place, with Nairn, Thurso, Wick, Alness and Fort William some way behind, and a long list of villages from Mallaig to Grantown-on-Spey. Distance is exactly why live online lessons suit the Highlands; our teachers work from India, and a free first lesson decides each learner\'s starting stage, P1 to S6 or adult. Anyone from 6 to 67 can learn coding, Python or maths in a group of five to ten or one-to-one. The Highland project comes from the Glenfinnan Viaduct. After the free lesson it costs USD 100 a month in a group, or USD 150 a month one-to-one.',
+  capsule: 'Dividing the census population by its density, we estimate Highland covers roughly a third of Scotland\'s land, yet the 2022 census counted about 235,400 residents in roughly 111,700 households. Inverness is by far the biggest place, with Nairn, Thurso, Wick, Alness and Fort William some way behind, and a long list of villages from Mallaig to Grantown-on-Spey. Distance is exactly why live online lessons suit the Highlands; our teachers work from India, and a free first lesson decides each learner\'s starting stage, P1 to S6 or adult. Anyone from 6 to 67 can learn coding, Python or maths in a group of fifteen to twenty or one-to-one. The Highland project comes from the Glenfinnan Viaduct. After the free lesson it costs USD 100 a month in a group, or USD 150 a month one-to-one.',
   lead: 'Historic Environment Scotland lists the Glenfinnan Viaduct at Category A. Opened in 1901 on the railway from Fort William to Mallaig, it is described in the listing as a 21-arch concrete viaduct built on a curve, 380 metres long, with continuous semicircular arch rings, and as the longest concrete viaduct in Scotland. Semicircles look simple, but the curves inside every drawing program, font and web page cannot make an exact circle. They make Bezier curves, and a circle is only ever an approximation. How close can the approximation get, and how would you measure it? This page\'s project draws an arch in Python and finds out.',
   wa: 'Hello Modern Age Coders, we are in the Highlands and would like to book a free lesson, please.',
 
@@ -160,7 +160,7 @@ module.exports = {
       { h3: 'Home, croft or flat', p: 'Any quiet corner with a laptop and a connection works; the teacher follows the learner\'s shared screen.' },
       { h3: 'Scottish stages, always', p: 'We say P5, S2, National 5, Higher and Advanced Higher, as Highland schools do, and teach in English.' },
       { h3: 'First lesson on us', p: 'The first lesson is free and complete. We then give an honest view of level and course.' },
-      { h3: 'Classmates at the same stage', p: 'Groups of five to ten learners at one level, joining from several countries.' },
+      { h3: 'Classmates at the same stage', p: 'Groups of fifteen to twenty learners at one level, joining from several countries.' },
       { h3: 'Lessons follow the term', p: 'Twice a week during term; school holidays are breaks.' },
       { h3: 'UK time that stays put', p: 'Your booked UK time holds through the clock changes; our India time teachers do the adjusting.' }
     ],
@@ -171,7 +171,7 @@ module.exports = {
     h2: 'Fees in the Highlands',
     intro: 'Wick or Fort William, the fee does not change, and it is the fee we charge everywhere outside India.',
     first: 'A complete lesson at no cost, then a recommendation.',
-    group: 'About eight lessons a month in a group of five to ten at one stage.',
+    group: 'About eight lessons a month in a group of fifteen to twenty at one stage.',
     private: 'About eight lessons a month, learner and teacher only.',
     closer: 'We price in US dollars and keep no sterling price list. No payment is taken until after the free lesson, when a course and weekly slot are agreed; holidays, missed lessons and switching formats are covered on the pricing page.'
   },

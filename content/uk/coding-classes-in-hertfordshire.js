@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding classes in Hertfordshire',
   capsuleQ: 'What are the best coding classes in Hertfordshire?',
-  capsule: 'Hertfordshire is ten districts and boroughs with 1,198,800 residents at the 2021 Census, and like its neighbours it has no single dominant town: Watford, Hemel Hempstead and Stevenage are the three largest, followed by St Albans, Welwyn Garden City and more than two dozen others. Our lessons come to every one of them in the same way. They are live on video with teachers based in India, and learners join at the level they have reached, whatever their age, from 6 to 67. Pick a small group of five to ten or have a teacher to yourself. Subjects run from first programs through Python and AI to maths. The county project follows a Mars rover built in Stevenage. There is no charge for lesson one; afterwards it is USD 100 monthly for a group seat and USD 150 for private lessons.',
+  capsule: 'Hertfordshire is ten districts and boroughs with 1,198,800 residents at the 2021 Census, and like its neighbours it has no single dominant town: Watford, Hemel Hempstead and Stevenage are the three largest, followed by St Albans, Welwyn Garden City and more than two dozen others. Our lessons come to every one of them in the same way. They are live on video with teachers based in India, and learners join at the level they have reached, whatever their age, from 6 to 67. Pick a group of fifteen to twenty or have a teacher to yourself. Subjects run from first programs through Python and AI to maths. The county project follows a Mars rover built in Stevenage. There is no charge for lesson one; afterwards it is USD 100 monthly for a group seat and USD 150 for private lessons.',
   lead: 'Imagine steering a car where every turn of the wheel takes twenty minutes to reach the tyres, and every picture from the windscreen takes another twenty to reach you. That is roughly what driving on Mars would be like on a bad day, and it is why the rover being built for Europe\'s ExoMars mission has to make many of its own decisions. The UK Space Agency says the Rosalind Franklin rover was built entirely in Stevenage by Airbus engineers, and that it is due to launch in 2028 and land in 2030. So Hertfordshire\'s project asks a question that sounds simple and is not: how far away will that rover be, day by day, once it arrives, and what does that distance do to anyone trying to control it from Earth?',
   wa: 'Hello Modern Age Coders, please could we have a free lesson for a learner in Hertfordshire?',
 
@@ -186,7 +186,7 @@ module.exports = {
       { h3: 'Taught at home', p: 'A bedroom in Ware, a kitchen in Berkhamsted, a desk in Borehamwood. The teacher shares a screen and the learner does the typing.' },
       { h3: 'School words families know', p: 'Key Stages, GCSE options and A levels are named as Hertfordshire schools name them, and everything is in English.' },
       { h3: 'First lesson on us', p: 'A complete lesson with a teacher, ending with an honest recommendation of level and course. Nobody asks for card details.' },
-      { h3: 'Matched by stage', p: 'Groups of five to ten learners who are at the same point, gathered from many places, so the level is right and the time is sensible.' },
+      { h3: 'Matched by stage', p: 'Groups of fifteen to twenty learners who are at the same point, gathered from many places, so the level is right and the time is sensible.' },
       { h3: 'Holidays by agreement', p: 'Most learners take two lessons a week, with breaks settled around their own school\'s dates, which in Hertfordshire can differ by school type.' },
       { h3: 'Every time in UK time', p: 'Teachers work from India, which is four and a half hours ahead of British Summer Time and five and a half hours ahead in winter. Bookings always show the UK time.' }
     ],
@@ -197,7 +197,7 @@ module.exports = {
     h2: 'What classes cost in Hertfordshire',
     intro: 'One set of prices covers the whole county, and every country except India.',
     first: 'A full lesson of genuine work, ending in a suggested level and course.',
-    group: 'About eight lessons each month, in a group of five to ten learners at one level.',
+    group: 'About eight lessons each month, in a group of fifteen to twenty learners at one level.',
     private: 'About eight lessons each month with a teacher and one learner.',
     closer: 'All fees are in US dollars, the rate we charge outside India, and there is no pound price list. Payment only begins after the free lesson has agreed a course and a weekly time; the pricing page covers pauses, missed lessons and switching between group and private teaching.'
   },

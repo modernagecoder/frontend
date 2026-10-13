@@ -16,7 +16,7 @@ Willetton, City of Canning, Western Australia / Live online
 
 Willetton has 90 public transport stop records, each with a five-digit stop number. Write a lookup that compares the number a person types with the stored one using Python's is, and it finds none of them. Change two characters to == and it finds all 90.
 
-Facts last verified 13 October 2026. Teaching is online; no Willetton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Willetton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that explain how Python really works
 
@@ -182,7 +182,7 @@ Each lesson is a live video class joined from home.
 - **Watch every keystroke** The teacher follows the learner's screen and stops to ask what each line does.
 - **In step with terms** Lessons fit Western Australian school terms and holidays.
 - **An opening class free** A genuine lesson first, then a straight recommendation.
-- **Small level groups** Five to ten learners at one level, or one to one.
+- **Small level groups** Fifteen to twenty learners at one level, or one to one.
 - **Two sessions each week** Fixed weekly times, about eight lessons a month.
 - **India time** Our teachers are in India: a 5:30pm Willetton lesson begins at 3pm India time.
 
@@ -193,7 +193,7 @@ Each lesson is a live video class joined from home.
 Three prices, no extras.
 
 - First class: USD 0. The opening lesson is free, with written feedback afterwards.
-- Group tuition: USD 100 a month. Group classes: roughly eight lessons a month, five to ten learners.
+- Group tuition: USD 100 a month. Group classes: roughly eight lessons a month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private classes: roughly eight lessons a month, one teacher.
 
 Willetton families pay in US dollars and only after the trial has settled a course and a time. Holiday and absence arrangements are on the pricing page.
@@ -230,11 +230,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Willetton learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Is Copilot Studio offered to Willetton groups?
 

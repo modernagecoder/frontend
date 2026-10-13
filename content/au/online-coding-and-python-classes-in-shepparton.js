@@ -194,7 +194,7 @@ module.exports = {
       { h3: 'Both sides of the river', p: 'A learner in Mooroopna and one in Shepparton East can share a class without crossing the bridge.' },
       { h3: 'Victorian schooling', p: 'Teachers plan around Victorian year levels and terms, and senior students can connect projects to VCE computing. Lessons are given in English.' },
       { h3: 'A genuine trial', p: 'The first class is a real lesson that ends with a level, a course and a regular time; no payment details are requested.' },
-      { h3: 'Right-sized groups', p: 'Five to ten learners at the same point, from the Goulburn Valley and further afield, so each class runs well.' },
+      { h3: 'Right-sized groups', p: 'Fifteen to twenty learners at the same point, from the Goulburn Valley and further afield, so each class runs well.' },
       { h3: 'A twice-weekly routine', p: 'Two lessons a week in fixed slots, near eight a month, with school holidays and exams planned around.' },
       { h3: 'Teachers in India', p: 'A 5:30pm Shepparton lesson in June starts at 1pm in India, and at noon once Victorian daylight saving begins.' }
     ],
@@ -205,7 +205,7 @@ module.exports = {
     h2: 'Fees for Shepparton learners',
     intro: 'Three amounts, laid out plainly.',
     first: 'A full first lesson free of charge, with a suggested level, course and time at the end.',
-    group: 'A month of lessons, normally eight, in a group of five to ten learners at your stage.',
+    group: 'A month of lessons, normally eight, in a group of fifteen to twenty learners at your stage.',
     private: 'Around eight lessons a month on the same pattern, one learner with one teacher.',
     closer: 'Outside India every family pays in US dollars, so Kialla and Mooroopna households receive identical invoices and there is no local price list. Billing waits until the free class has settled which course you take and when; holiday pauses, missed classes and switching to private lessons are covered on the pricing page.'
   },
@@ -230,8 +230,8 @@ module.exports = {
       { q: 'When are lessons for Shepparton learners?', a: 'Usually after school or on a weekend morning, set at the trial in Victorian time. For our teachers in India it is 4.5 hours earlier than Shepparton in winter, 5.5 hours earlier in summer.' },
       { q: 'Do you teach younger children?', a: 'Yes, from six, starting with Scratch and visual projects and moving to Python when ready; the grid project here is for older learners.' },
       { q: 'Is there a Modern Age Coders centre in Shepparton?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Shepparton Python classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Shepparton Python classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

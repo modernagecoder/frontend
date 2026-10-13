@@ -54,7 +54,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Modern Age Coders teaches machine learning live online to school pupils in the Netherlands aged ten to eighteen. Younger pupils write a first program that learns from examples; older pupils train models in Python on real data, test them against a simple baseline, count what the model gets right and wrong in each group, and write up what it can and cannot do. Pupils are placed by ability, in groups of five to ten or one to one, alongside a Dutch or international school. The first lesson is free; after that a group place is USD 100 a month and one-to-one lessons USD 150.',
+  capsule: 'Modern Age Coders teaches machine learning live online to school pupils in the Netherlands aged ten to eighteen. Younger pupils write a first program that learns from examples; older pupils train models in Python on real data, test them against a simple baseline, count what the model gets right and wrong in each group, and write up what it can and cannot do. Pupils are placed by ability, in groups of fifteen to twenty or one to one, alongside a Dutch or international school. The first lesson is free; after that a group place is USD 100 a month and one-to-one lessons USD 150.',
 
   picks: {
     eyebrow: 'Start here',
@@ -192,7 +192,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A first lesson with a real model', p: 'Even in the free lesson a pupil makes something that learns. The teacher watches how they reason and chooses the right starting rung.' },
-      { h3: 'Groups by level', p: 'Five to ten pupils from several countries who can already do the same things, so nobody is rushed or held back.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty pupils from several countries who can already do the same things, so nobody is rushed or held back.' },
       { h3: 'One to one for projects', p: 'For a profile project, a competition entry or a pupil who prefers a teacher to themselves.' },
       { h3: 'Parents informed', p: 'We speak with a parent before anything is booked and keep them in the loop, as Dutch rules on consent for under-sixteens expect.' },
       { h3: 'English, with Dutch school words', p: 'Lessons are in English; brugklas, havo, vwo and profielkeuze are used as families use them.' },
@@ -208,7 +208,7 @@ module.exports = {
     h2: 'Fees for school pupils',
     lede: 'Monthly, in US dollars, the same as for every country outside India. No separate Dutch rate, no joining fee, no annual contract.',
     free: ['A real lesson with a real model', 'Places the pupil at the right rung', 'No card or bank details'],
-    group: ['Five to ten pupils at one level', 'The same live teacher every week', 'Models reviewed every week', 'A certificate at the end'],
+    group: ['Fifteen to twenty pupils at one level', 'The same live teacher every week', 'Models reviewed every week', 'A certificate at the end'],
     one: ['A teacher for one pupil', 'Pace set by the pupil and the project', 'Ideal for profile projects']
   },
 

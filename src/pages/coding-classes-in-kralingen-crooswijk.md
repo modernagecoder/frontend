@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Kralingen-Crooswijk, 
 canonical: https://learn.modernagecoders.com/coding-classes-in-kralingen-crooswijk
 source: src/pages/coding-classes-in-kralingen-crooswijk.html
 ---
-> Coding classes in Kralingen-Crooswijk reach 54,856 residents (1 January 2026) on 1,042 hectares of land, in 32,675 households of which 19,895 hold one person. 4,850 residents are enrolled at university and 1,980 in applied higher education, 12.5 percent of everybody, the highest student share of the six Rotterdam districts in this series. It also has the highest average income of the six, 35,000 euro. Whatever explains that, it is not the students, and noticing why is worth more than the number. Modern Age Coders teaches live online in English from Rubroek to De Esch, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Kralingen-Crooswijk reach 54,856 residents (1 January 2026) on 1,042 hectares of land, in 32,675 households of which 19,895 hold one person. 4,850 residents are enrolled at university and 1,980 in applied higher education, 12.5 percent of everybody, the highest student share of the six Rotterdam districts in this series. It also has the highest average income of the six, 35,000 euro. Whatever explains that, it is not the students, and noticing why is worth more than the number. Modern Age Coders teaches live online in English from Rubroek to De Esch, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Rotterdam](/coding-classes-in-rotterdam) / Kralingen-Crooswijk
 
@@ -12,11 +12,11 @@ Kralingen-Crooswijk, Rotterdam / Live online
 
 # Coding classes in Kralingen-Crooswijk, the district with the most students and, awkwardly, the highest incomes
 
-**What are the best coding classes in Kralingen-Crooswijk?** Coding classes in Kralingen-Crooswijk reach 54,856 residents (1 January 2026) on 1,042 hectares of land, in 32,675 households of which 19,895 hold one person. 4,850 residents are enrolled at university and 1,980 in applied higher education, 12.5 percent of everybody, the highest student share of the six Rotterdam districts in this series. It also has the highest average income of the six, 35,000 euro. Whatever explains that, it is not the students, and noticing why is worth more than the number. Modern Age Coders teaches live online in English from Rubroek to De Esch, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Kralingen-Crooswijk?** Coding classes in Kralingen-Crooswijk reach 54,856 residents (1 January 2026) on 1,042 hectares of land, in 32,675 households of which 19,895 hold one person. 4,850 residents are enrolled at university and 1,980 in applied higher education, 12.5 percent of everybody, the highest student share of the six Rotterdam districts in this series. It also has the highest average income of the six, 35,000 euro. Whatever explains that, it is not the students, and noticing why is worth more than the number. Modern Age Coders teaches live online in English from Rubroek to De Esch, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Kralingen-Crooswijk has more students than any other Rotterdam district measured here, 6,830 of them, and the highest average income, 35,000 euro. Point at the students to explain the district and you have pointed at the one group that, on any ordinary view of what a student earns, pulls that average downwards. The most visible thing about a place is almost never what its statistics are made of, and it is almost always the first thing anybody reaches for.
 
-Facts last verified 9 September 2026. Teaching is online; no Kralingen-Crooswijk branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 September 2026. Teaching is online; no Kralingen-Crooswijk branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a district where one in eight residents is a student
 
@@ -181,18 +181,18 @@ This district runs from dense nineteenth-century streets to a wood, a lake and a
 - **A weekly hour that does not need a room** The lesson runs at the table in Rubroek, Kralingen West or De Esch at the same time each week, which is the only version that fits around a small flat and a full week.
 - **Taught in English, with the Dutch that matters kept** Groep, havo, vwo and profielkeuze stay as the school writes them; everything else is English. A child should recognise the words for their own year and their own track without translating.
 - **The first hour, and what comes out of it** Something real to do, watched rather than marked, which fixes a level. From the level comes a course and from the course a weekly time. Nothing about payment is raised while it happens.
-- **The group is a level** Five to ten learners working at one stage, assembled from wherever people at that stage happen to live. It is why a narrow level fills at all, and why the group is rarely local.
+- **The group is a level** Fifteen to twenty learners working at one stage, assembled from wherever people at that stage happen to live. It is why a narrow level fills at all, and why the group is rarely local.
 - **Twice a week, on published holiday dates** About eight lessons a month. The regio Midden calendar covers Zuid-Holland and is issued well ahead, so the breaks are part of the plan rather than an interruption to it.
 - **A gap that changes with the Dutch clock** Three and a half hours to the teacher for part of the year and four and a half for the rest, entirely because the Netherlands changes its time and India does not. The workable hours are the same at both settings.
 
-**Twice as many people aged fifteen to twenty-five as under fifteen** 11,355 residents are between fifteen and twenty-five and 6,730 are under fifteen, which is an unusual shape for a district and reflects the 6,830 residents in higher education. For a family with a young child it means the local pool of eleven-year-olds at any particular stage is thin, whatever the schools are doing. A group of five to ten built on ability from across the world does not depend on that pool, and the same class runs up to the age of sixty-seven for the students and adults who make up so much of this district.
+**Twice as many people aged fifteen to twenty-five as under fifteen** 11,355 residents are between fifteen and twenty-five and 6,730 are under fifteen, which is an unusual shape for a district and reflects the 6,830 residents in higher education. For a family with a young child it means the local pool of eleven-year-olds at any particular stage is thin, whatever the schools are doing. A group of fifteen to twenty built on ability from across the world does not depend on that pool, and the same class runs up to the age of sixty-seven for the students and adults who make up so much of this district.
 
 ## The fee, in dollars, in all eight buurten
 
 On the page rather than saved for a call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate, in dollars, with no euro edition, so an address in Oud Crooswijk is charged what one in Kralingen Oost is. Nothing is paid until the free lesson has settled a course and an hour, and payment follows over WhatsApp. Pausing, switching plan and missing a week are all on the pricing page.
@@ -233,7 +233,7 @@ No, and none is claimed here, elsewhere in Rotterdam or anywhere in the Netherla
 
 ### What do Kralingen-Crooswijk coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

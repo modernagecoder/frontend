@@ -185,7 +185,7 @@ Our tutors work from India. India time trails Sydney by four and a half hours in
 Each month is charged in US dollars at one rate for every family outside India. There is nothing to pay to join, and no charge past the month you are in.
 
 - Free first class: USD 0. A full lesson on a real skill. Clear advice on next steps. No payment card needed.
-- Group batch: USD 100 a month. Five to ten students together. The same tutor each week. Exercises reviewed in class. A certificate at the finish.
+- Group batch: USD 100 a month. Fifteen to twenty students together. The same tutor each week. Exercises reviewed in class. A certificate at the finish.
 - One to one: USD 150 a month. A tutor just for you. Aimed at your weakest area. Handy before trial exams.
 
 ## What Enterprise Computing students ask

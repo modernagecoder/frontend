@@ -186,7 +186,7 @@ module.exports = {
       { h3: 'Just a computer', p: 'A laptop or desktop, sound that works and a calm spot. Tablets are fine for the youngest children for a short while, but a keyboard helps soon after.' },
       { h3: 'Queensland words', p: 'Teachers use the year levels Brisbane children use at school, from Prep onwards, so lessons feel familiar.' },
       { h3: 'First lesson free', p: 'Your child finishes a small project in session one. Afterwards we recommend where to start and which weekday suits, and we never ask for card details.' },
-      { h3: 'Matched groups', p: 'Five to ten children at the same stage, or one to one if that suits your child better.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty children at the same stage, or one to one if that suits your child better.' },
       { h3: 'A steady rhythm', p: 'About eight lessons a month, usually two a week in a fixed slot that fits around sport and homework.' },
       { h3: 'Teachers on India time', p: 'Brisbane is four and a half hours ahead of India time all year, so a 4pm Brisbane lesson falls at 11:30am in India, in the middle of our teachers\' day.' }
     ],
@@ -197,7 +197,7 @@ module.exports = {
     h2: 'What coding classes cost for Brisbane kids',
     intro: 'Three prices and nothing tucked away.',
     first: 'A complete first lesson at no charge, finishing with a level, a course and a weekly time.',
-    group: 'A month of teaching, usually eight lessons, with five to ten children at the same level.',
+    group: 'A month of teaching, usually eight lessons, with fifteen to twenty children at the same level.',
     private: 'Around eight lessons a month with one teacher and your child alone.',
     closer: 'Families outside India pay in US dollars at a single rate, so it makes no difference whether you live in the inner north or out past Ipswich. Nothing is charged until you have seen the trial and picked a slot. Holidays, absences and a change from group to private are all covered on the pricing page.'
   },
@@ -222,8 +222,8 @@ module.exports = {
       { q: 'What time are lessons for Brisbane children?', a: 'After school on weekdays or on weekends, agreed during the free lesson and stated in Brisbane time. Brisbane has no daylight saving, so the time stays the same all year.' },
       { q: 'How do you keep young children safe online?', a: 'Every session is live with a teacher watching the whole group, no child is asked to open an account on a grown-up AI service, and a parent can stay in the room for as long as they like.' },
       { q: 'Is there a Modern Age Coders centre in Brisbane?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do coding classes for Brisbane kids cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do coding classes for Brisbane kids cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

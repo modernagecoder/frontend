@@ -8,7 +8,7 @@ updated: 2026-09-03
 
 # Programming languages, frameworks and tools to learn in 2026
 
-> 93 technologies in 14 groups, updated September 2026. For each one: what it is for, who it suits, the current version, and the live Modern Age Coders course that teaches it. Modern Age Coders teaches coding and maths live online to learners aged 6 to 67, 1-on-1, in mini batches of 3 to 4, or in groups of 5 to 10.
+> 93 technologies in 14 groups, updated September 2026. For each one: what it is for, who it suits, the current version, and the live Modern Age Coders course that teaches it. Modern Age Coders teaches coding and maths live online to learners aged 6 to 67, 1-on-1, in mini batches of up to 6, or in groups of 15 to 20.
 
 ## Start with a course
 
@@ -1126,7 +1126,7 @@ Courses: [Data Structures and Algorithms Course](https://learn.modernagecoders.c
 
 ## How we teach every language on this page
 
-- Live classes with a mentor, never recordings. Choose 1-on-1, a mini batch of 3 to 4, or a group of 5 to 10.
+- Live classes with a mentor, never recordings. Choose 1-on-1, a mini batch of up to 6, or a group of 15 to 20.
 - Project-based from the first week: every language above is learned by building something that runs.
 - A certificate from Modern Age Coders on passing the final exam.
 - Book a free demo class: https://learn.modernagecoders.com/book-demo
@@ -1159,7 +1159,7 @@ Most learners build a first working project within four to eight weeks of steady
 
 ### Are Modern Age Coders classes live or recorded, and how big are the batches?
 
-Every class is live and online with a mentor, never a pre-recorded video. You can choose 1-on-1 classes, a mini batch of three to four learners, or a group of five to ten. Every course is project-based and awards a certificate on passing the final exam. Book a free demo class to see the format before enrolling.
+Every class is live and online with a mentor, never a pre-recorded video. You can choose 1-on-1 classes, a mini batch of up to six learners, or a group of fifteen to twenty. Every course is project-based and awards a certificate on passing the final exam. Book a free demo class to see the format before enrolling.
 
 ### Do you teach every technology listed on this page?
 

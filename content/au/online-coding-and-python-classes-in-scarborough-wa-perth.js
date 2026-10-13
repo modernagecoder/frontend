@@ -295,7 +295,7 @@ module.exports = {
       { h3: 'Debugging together', p: 'When code breaks, teacher and learner read the traceback side by side.' },
       { h3: 'Term planning', p: 'Classes follow the WA school calendar, with holidays off.' },
       { h3: 'Free first lesson', p: 'An opening class at no charge, with a written suggestion afterwards.' },
-      { h3: 'Matched groups', p: 'Five to ten learners of similar level, or private lessons.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners of similar level, or private lessons.' },
       { h3: 'Twice a week', p: 'Consistent weekly times, near eight lessons a month.' },
       { h3: 'India time', p: 'Our teachers are in India, so a 7:30pm Scarborough lesson starts at 5pm India time.' }
     ],
@@ -308,7 +308,7 @@ module.exports = {
     h2: 'Scarborough class fees',
     intro: 'Three straightforward prices.',
     first: 'The first lesson costs nothing and finishes with advice in writing.',
-    group: 'Close to eight group lessons a month with five to ten learners.',
+    group: 'Close to eight group lessons a month with fifteen to twenty learners.',
     private: 'Close to eight one-to-one lessons a month.',
     closer: 'Scarborough families pay in US dollars, after the trial and only when course and time are agreed. Holidays, missed lessons and format changes are on the pricing page.'
   },
@@ -347,12 +347,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Scarborough learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Do Scarborough groups learn Copilot Studio?', a: 'No. Copilot Studio is taught privately only; group learners create agents in Python.' }

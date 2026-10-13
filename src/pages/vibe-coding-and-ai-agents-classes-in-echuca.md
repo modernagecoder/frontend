@@ -16,7 +16,7 @@ Echuca, Victoria, Australia / Live online
 
 Echuca is one of the few Australian towns where a single local bus crosses a state border. Route 3 runs from Echuca over the bridge to Moama, and when we placed every stop on the five town routes inside the bureau's locality boundaries, 31 of the 93 stops were in New South Wales. That matters to an AI agent. Give an assistant two tools, a Victorian school calendar and a New South Wales one, and ask whether a student has school on a given day: if it picks the wrong tool, it gives a confident wrong answer. Across the last three terms of 2027 the two calendars disagree on 32 of 181 weekdays. Teaching an agent to route each question to the right tool, and on the right fact, is the project at the heart of this page.
 
-Facts last verified 10 October 2026. Teaching is online; no Echuca branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Echuca branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for agents that use the right tool
 
@@ -180,7 +180,7 @@ Classes are live on video, so learners on either side of the river join the same
 - **Home set-up** A computer, a microphone and a steady internet connection are enough to join.
 - **Either state** Teachers know both the Victorian and New South Wales school years, and plan around the learner's own school.
 - **Trial class** The free first class teaches real material and ends with a suggested course and weekly time.
-- **Small groups** Groups hold five to ten learners at one level, drawn from many towns.
+- **Small groups** Groups hold fifteen to twenty learners at one level, drawn from many towns.
 - **Weekly rhythm** Two group lessons a week on fixed days, close to eight each month.
 - **Teaching team** Teachers are based in India and confirm every time in Echuca time.
 
@@ -191,7 +191,7 @@ Classes are live on video, so learners on either side of the river join the same
 Fees are simple and the same for every Australian learner.
 
 - First class: USD 0. The first class is free and finishes with a recommended level, course and lesson time.
-- Group tuition: USD 100 a month. One month of group lessons, close to eight, with five to ten learners at the same level.
+- Group tuition: USD 100 a month. One month of group lessons, close to eight, with fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. Close to eight one-to-one lessons a month with a dedicated teacher.
 
 Fees outside India are charged in US dollars, and Echuca and Moama pay the same as the rest of Australia. Nothing is billed until the trial has settled the course and time, and the pricing page covers holidays, missed classes and changing between group and private lessons.
@@ -232,11 +232,11 @@ No. We have no premises in Australia and claim none. Every class is live online;
 
 ### What do Echuca classes cost?
 
-The first class is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one-to-one. Nothing is charged before the plan is agreed.
+The first class is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one-to-one. Nothing is charged before the plan is agreed.
 
 ### How big are the groups?
 
-Five to ten learners, grouped by level and goals rather than age or town. When no group time suits, one-to-one lessons are offered.
+Fifteen to twenty learners, grouped by level and goals rather than age or town. When no group time suits, one-to-one lessons are offered.
 
 ## More for northern Victoria
 

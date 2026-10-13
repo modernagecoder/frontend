@@ -317,7 +317,7 @@ module.exports = {
       { h3: 'Home setup', p: 'A computer with sound and a steady connection is all a lesson needs.' },
       { h3: 'Follows NSW terms', p: 'Lesson plans line up with NSW stages and break for the state school holidays.' },
       { h3: 'Free trial lesson', p: 'A full class at no cost, ending with a recommended course and time.' },
-      { h3: 'Group or private', p: 'Groups of five to ten at a matched level, or one to one.' },
+      { h3: 'Group or private', p: 'Groups of fifteen to twenty at a matched level, or one to one.' },
       { h3: 'Two a week', p: 'Two set lessons weekly, about eight a month, with breaks agreed early.' },
       { h3: 'Teachers in India', p: 'A 4pm Hurstville lesson in summer is 10:30am India time; after daylight saving ends it is 11:30am there.' }
     ],
@@ -330,7 +330,7 @@ module.exports = {
     h2: 'Hurstville class fees',
     intro: 'Three figures make up the full price list.',
     first: 'The first lesson costs nothing and comes with a recommendation.',
-    group: 'A month of small-group lessons, usually eight, with five to ten learners.',
+    group: 'A month of small-group lessons, usually eight, with fifteen to twenty learners.',
     private: 'Roughly eight one-to-one lessons each month.',
     closer: 'Outside India we bill in US dollars, so every suburb pays the same. Payment begins only after the trial, once the course and times are chosen; the pricing page explains holidays and missed lessons.'
   },
@@ -373,7 +373,7 @@ module.exports = {
       },
       {
         q: 'How much do Hurstville Python classes cost?',
-        a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one.',
+        a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one.',
         boiler: true
       },
       {

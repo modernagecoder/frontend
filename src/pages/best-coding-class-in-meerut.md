@@ -12,7 +12,7 @@ Live online · serving Meerut
 
 Real programming for kids, teens and college students in Meerut, from **Sadar Bazaar to Shastri Nagar, Pallavpuram to Begumpul**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Meerut)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**MeerutEnrollingAreasSadar Bazaar, Shastri Nagar, Pallavpuram, Begumpul, Modipuram & all of MeerutBoardsUP Board · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across MeerutFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Meerut)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**MeerutEnrollingAreasSadar Bazaar, Shastri Nagar, Pallavpuram, Begumpul, Modipuram & all of MeerutBoardsUP Board · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across MeerutFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -140,7 +140,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -162,7 +162,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -171,7 +171,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -180,7 +180,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -255,7 +255,7 @@ Takes under a minute.
 
 ## Coding classes in Meerut: FAQs
 
-What is the best coding class in Meerut for kids?Modern Age Coders offers the best coding classes in Meerut for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Meerut areas including Sadar Bazaar, Shastri Nagar, Pallavpuram, and Cantt, and Manjalpur.Do you offer online coding classes in Meerut?Yes, we offer live online coding classes for students across Meerut including Sadar Bazaar, Shastri Nagar, Pallavpuram, and Cantt, Garh Road, Hapur Road, and all other areas. Our online classes are interactive with small batch sizes of 5-8 students.Do you offer coding classes for UP Board (UPMSP) students in Meerut?Yes, our curriculum supports both UP Board (UP Board) and CBSE students in Meerut. We align our coding and maths courses with UP Board requirements to complement school education.How much do coding classes cost in Meerut?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (3-4 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Can IIT Delhi (nearby) students join your programming courses?Absolutely! We offer college-level courses in Data Structures & Algorithms, Full Stack Web Development, and AI/Data Science perfect for IIT Delhi (nearby) and Meerut University students preparing for placements.Is the medium of instruction English for Meerut students?Our instructors are comfortable teaching in Hindi and English. Yes! All classes are in English with Hindi support. Meerut students feel comfortable in our friendly, bilingual learning environment.What areas in Meerut do you serve?We serve all areas of Meerut through our online classes including Sadar Bazaar, Shastri Nagar, Pallavpuram, and Cantt, Modipuram, Garh Road, Hapur Road, Delhi Road, Cantt, Abu Lane, Ganga Nagar, Brahmpuri, and more.How are your coding classes different from other institutes in Meerut?We focus on project-based learning where students build real games, websites, and apps. Our small batch sizes (5-8 students), recorded sessions, expert instructors, and affordable pricing set us apart. We also support UP Board, CBSE, and JEE preparation.Do you teach coding to UP Board students in Meerut?Yes. Meerut schools run the UP Board, UPMSP, along with CBSE and ICSE, and our classes fit around any of them. The board is seated in Prayagraj. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Chaudhary Charan Singh University students join your programming courses?Yes. Chaudhary Charan Singh University is headquartered in Meerut and anchors the city's role as an education hub of western UP. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter.
+What is the best coding class in Meerut for kids?Modern Age Coders offers the best coding classes in Meerut for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Meerut areas including Sadar Bazaar, Shastri Nagar, Pallavpuram, and Cantt, and Manjalpur.Do you offer online coding classes in Meerut?Yes, we offer live online coding classes for students across Meerut including Sadar Bazaar, Shastri Nagar, Pallavpuram, and Cantt, Garh Road, Hapur Road, and all other areas. Our online classes are interactive with batch sizes of 15-20 students.Do you offer coding classes for UP Board (UPMSP) students in Meerut?Yes, our curriculum supports both UP Board (UP Board) and CBSE students in Meerut. We align our coding and maths courses with UP Board requirements to complement school education.How much do coding classes cost in Meerut?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (up to 6 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Can IIT Delhi (nearby) students join your programming courses?Absolutely! We offer college-level courses in Data Structures & Algorithms, Full Stack Web Development, and AI/Data Science perfect for IIT Delhi (nearby) and Meerut University students preparing for placements.Is the medium of instruction English for Meerut students?Our instructors are comfortable teaching in Hindi and English. Yes! All classes are in English with Hindi support. Meerut students feel comfortable in our friendly, bilingual learning environment.What areas in Meerut do you serve?We serve all areas of Meerut through our online classes including Sadar Bazaar, Shastri Nagar, Pallavpuram, and Cantt, Modipuram, Garh Road, Hapur Road, Delhi Road, Cantt, Abu Lane, Ganga Nagar, Brahmpuri, and more.How are your coding classes different from other institutes in Meerut?We focus on project-based learning where students build real games, websites, and apps. Our batch sizes (15-20 students), recorded sessions, expert instructors, and affordable pricing set us apart. We also support UP Board, CBSE, and JEE preparation.Do you teach coding to UP Board students in Meerut?Yes. Meerut schools run the UP Board, UPMSP, along with CBSE and ICSE, and our classes fit around any of them. The board is seated in Prayagraj. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Chaudhary Charan Singh University students join your programming courses?Yes. Chaudhary Charan Singh University is headquartered in Meerut and anchors the city's role as an education hub of western UP. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter.
 
 ## Ready to start your child's coding journey in Meerut?
 

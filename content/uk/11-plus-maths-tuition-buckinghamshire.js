@@ -293,7 +293,7 @@ module.exports = {
     cells: [
       { h3: 'The same teacher', p: 'Week after week, so the particular slips a child makes are noticed and fixed.' },
       { h3: 'A note home', p: 'What went well, what did not, and what to practise, in two or three honest sentences.' },
-      { h3: 'Groups of five to ten', p: 'Matched by level, so every child is stretched and nobody is lost.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Matched by level, so every child is stretched and nobody is lost.' },
       { h3: 'Questions we write', p: 'All practice is our own. No Transfer Test or familiarisation material is copied.' },
       { h3: 'One to one if needed', p: 'For a stubborn gap, or a child who works better alone.' },
       { h3: 'Maths only', p: 'We do not teach verbal or non-verbal reasoning, and admissions questions go to the schools and the council.' }
@@ -308,7 +308,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Monthly, in US dollars, as for every family outside India. No joining fee and no term contract.',
     free: ['A real lesson, not a sales call', 'An honest view of the maths so far', 'No card needed'],
-    group: ['Five to ten children, one level', 'One regular teacher', 'Work checked and discussed', 'Certificate on completion'],
+    group: ['Fifteen to twenty children, one level', 'One regular teacher', 'Work checked and discussed', 'Certificate on completion'],
     one: ['One child and one teacher', 'Planned around the child\'s gaps', 'Useful in the summer of Year 5']
   },
 

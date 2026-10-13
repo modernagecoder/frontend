@@ -53,7 +53,7 @@ module.exports = {
 
   h1: 'Coding classes in Dundalk',
   capsuleQ: 'What is the best coding class in Dundalk?',
-  capsule: 'Dundalk holds 42,735 usual residents in the census town tables, spread across 15,923 households. Lessons are taught into the house: a teacher live on video, twice in most weeks, with either an ability group of five to ten learners or one learner on their own, anywhere between the ages of six and sixty-seven. The opening lesson is not charged for. A shared place then runs at USD 100 a month, and private teaching at USD 150.',
+  capsule: 'Dundalk holds 42,735 usual residents in the census town tables, spread across 15,923 households. Lessons are taught into the house: a teacher live on video, twice in most weeks, with either an ability group of fifteen to twenty learners or one learner on their own, anywhere between the ages of six and sixty-seven. The opening lesson is not charged for. A shared place then runs at USD 100 a month, and private teaching at USD 150.',
   lead: 'Our own lessons need a connection that carries live video, so the census figure looks like exactly the right one to quote: 12,686 of Dundalk\'s 15,923 households report broadband. It answers a different question than it appears to. The census asked each household which kind of internet access it has and offered four answers, and the count that comes back is a count of reported categories. It contains no speed, no reliability, no measure of what happens at seven in the evening when several people are online at once, and no information about the rooms a signal reaches. A household with a slow line and a household with a fast one are the same row. We use the figure for what it is, and we test the actual connection in the free lesson, because a category is not a measurement.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Dundalk.',
 
@@ -177,7 +177,7 @@ module.exports = {
     intro: 'Six practical points.',
     cells: [
       { h3: 'A live teacher', p: 'Present for the whole lesson, working from what appears on the learner\'s screen.' },
-      { h3: 'Ability grouping', p: 'Five to ten learners at one level, joining from Dundalk, the rest of Ireland and other countries.' },
+      { h3: 'Ability grouping', p: 'Fifteen to twenty learners at one level, joining from Dundalk, the rest of Ireland and other countries.' },
       { h3: 'Two lessons a week', p: 'About eight in a month, at an hour agreed once and then kept.' },
       { h3: 'Term dates', p: 'Mid-terms, holidays and exam weeks are planned into the schedule before it starts.' },
       { h3: 'Tested, not assumed', p: 'Machine, sound and connection are all tried in the free lesson rather than taken on trust.' },
@@ -190,7 +190,7 @@ module.exports = {
     h2: 'Dundalk class fees',
     intro: 'Three lines, complete.',
     first: 'A full opening lesson, taught and assessed, with no charge and no obligation.',
-    group: 'One month in an ability group of five to ten, about eight live lessons.',
+    group: 'One month in an ability group of fifteen to twenty, about eight live lessons.',
     private: 'One month of private teaching on the same weekly pattern.',
     closer: 'Charges are monthly and in US dollars, at the single rate for families outside India, so Dundalk sees the same figure as Drogheda and no euro list appears beside it. Nothing is billed until the opening lesson has settled a course, an hour and a working connection, and the pricing page covers breaks, missed weeks and moves between group and private teaching.'
   },
@@ -215,7 +215,7 @@ module.exports = {
       { q: 'Do you teach adults in Dundalk?', a: 'Yes, up to sixty-seven and from no experience whatever. The free lesson decides whether an adult joins a group at the same level or is taught one to one.' },
       { q: 'What if the household has no broadband?', a: 'Then we talk about what is possible rather than pretending. Some households manage on a mobile connection and some cannot, and the free lesson is where that gets established rather than guessed.' },
       { q: 'Is there a Modern Age Coders classroom in Dundalk?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Dundalk cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Dundalk cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

@@ -205,14 +205,14 @@ Our teachers work from India on a clock that never changes, so Northern Ireland 
 - **Precise words** Extended answers rewritten until generic words like faster are replaced with the correct terms.
 - **Extreme test data** Every practice test table includes extreme data, the gap the moderators flagged.
 - **Our own scenarios** Unit 5 skills practised on briefs we write, never on the live task.
-- **Five to ten per group** Students at one rung, swapping and marking each other's handwritten answers.
+- **Fifteen to twenty per group** Students at one rung, swapping and marking each other's handwritten answers.
 
 ## Fees for CCEA lessons
 
 One monthly charge in US dollars, applied to every family outside India. The first lesson costs nothing, and nothing is billed until a course and a weekly slot are fixed.
 
 - Free first class: USD 0. A lesson on real CCEA-style questions. A clear view of the right rung. Just a phone number to book.
-- Group batch: USD 100 a month. Five to ten students on one rung. The same teacher across Years 11 and 12. Handwritten algorithms marked weekly. Quieter weeks around controlled assessment.
+- Group batch: USD 100 a month. Fifteen to twenty students on one rung. The same teacher across Years 11 and 12. Handwritten algorithms marked weekly. Quieter weeks around controlled assessment.
 - One to one: USD 150 a month. A teacher for one student. A plan built back from the exam dates. Suits a C# school or a late start.
 
 ## What families in Northern Ireland ask

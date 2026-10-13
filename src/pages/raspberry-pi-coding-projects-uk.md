@@ -204,14 +204,14 @@ Our teachers work from India, whose clocks stay fixed, so the UK is four and a h
 - **Code reviewed** A teacher reads each program and suggests the next improvement.
 - **Loops to events** From checking in a loop to responding to events, as the official examples show.
 - **Safety habits** The documentation's three rules repeated until they are automatic.
-- **Small groups** Five to ten learners at one level.
+- **Small groups** Fifteen to twenty learners at one level.
 
 ## Fees for Python lessons
 
 We bill monthly in US dollars, one price for all families outside India. The first lesson has no charge, and billing waits until you have chosen a course and a weekly time. Hardware is not included.
 
 - Free first class: USD 0. A lesson built around your child's Raspberry Pi plans. An honest view of the Python they need first. A phone number is all we need.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher every week. Code reviewed in each lesson. Projects the learners choose.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher every week. Code reviewed in each lesson. Projects the learners choose.
 - One to one: USD 150 a month. A teacher for one learner. Paced around a specific build. Suits a teenager with an ambitious project.
 
 ## What families ask

@@ -63,7 +63,7 @@ module.exports = {
 
   h1: 'Coding classes in Fermanagh and Omagh',
   capsuleQ: 'What are the best coding classes in Fermanagh and Omagh?',
-  capsule: 'The 2021 census found 116,812 usual residents in Fermanagh and Omagh, according to NISRA. Omagh and Enniskillen are the two main towns, and smaller places include Lisnaskea, Irvinestown, Ballinamallard, Fintona and Newtownbutler. We run every lesson live on video, with teachers working from India. Anyone aged 6 to 67 can study coding, Python and maths, alone with a tutor or in a group of five to ten matched by level. A first lesson at no cost settles where to begin. The district project starts at a small bridge over a closed canal. Carrying on costs USD 100 a month for group classes or USD 150 a month for private tuition.',
+  capsule: 'The 2021 census found 116,812 usual residents in Fermanagh and Omagh, according to NISRA. Omagh and Enniskillen are the two main towns, and smaller places include Lisnaskea, Irvinestown, Ballinamallard, Fintona and Newtownbutler. We run every lesson live on video, with teachers working from India. Anyone aged 6 to 67 can study coding, Python and maths, alone with a tutor or in a group of fifteen to twenty matched by level. A first lesson at no cost settles where to begin. The district project starts at a small bridge over a closed canal. Carrying on costs USD 100 a month for group classes or USD 150 a month for private tuition.',
   lead: 'Near Newtownbutler a single stone arch carries a humpbacked road over the old Ulster Canal, with a towpath running through beneath it. Nobody carved a date on it. The Historic Environment Division\'s record dates it the way a detective would. The canal was built between 1825 and 1842, with William Cubitt as consulting engineer. The bridge is missing from the Ordnance Survey map of 1834, so it must be later than that. Each clue rules some years in and others out, and together they squeeze the answer into a narrow window. That is a job a computer can do perfectly, and a job where a single bad clue can quietly wreck the answer. This page\'s project turns clues into date ranges in Python and finds out what they really prove.',
   wa: 'Hello Modern Age Coders, we are in Fermanagh and Omagh and would like to book a free lesson, please.',
 
@@ -166,7 +166,7 @@ module.exports = {
       { h3: 'Learner at the controls', p: 'Each student types their own code, and the tutor reads along on the shared screen, asking questions that point the way.' },
       { h3: 'Northern Ireland placement', p: 'A Fintona P7 or an Enniskillen Year 11 is placed by key stage and school year, and CCEA names are used for exams. We teach in English.' },
       { h3: 'First lesson free', p: 'A full lesson without charge, ending with our straight advice.' },
-      { h3: 'Classes by level', p: 'Groups of five to ten at one stage, drawn from across the UK.' },
+      { h3: 'Classes by level', p: 'Groups of fifteen to twenty at one stage, drawn from across the UK.' },
       { h3: 'During term', p: 'Two lessons a week in term, with the holidays left free.' },
       { h3: 'Clock changes handled', p: 'Your lesson hour on the local clock stays put when the clocks change; our teachers move instead.' }
     ],
@@ -177,7 +177,7 @@ module.exports = {
     h2: 'What lessons cost in Fermanagh and Omagh',
     intro: 'Enniskillen and Omagh pay the same, and so does every country we teach outside India.',
     first: 'A full lesson free, with advice on where to go next.',
-    group: 'Approximately eight lessons a month in a group of five to ten.',
+    group: 'Approximately eight lessons a month in a group of fifteen to twenty.',
     private: 'Approximately eight lessons a month with a personal tutor.',
     closer: 'All fees are in US dollars; we publish no sterling price. Billing starts only once the trial has fixed a course and a weekly slot, and the pricing page explains holidays, missed lessons and changing formats.'
   },

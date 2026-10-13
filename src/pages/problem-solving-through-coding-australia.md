@@ -211,7 +211,7 @@ Teachers bring a problem; students do the thinking. The teacher's job is to ask 
 - **Small parts** Every solution is built and tested in pieces.
 - **Mistakes welcome** A wrong guess is the start of the next idea.
 - **Explain it** Students describe their solution and its limits.
-- **Small groups** Five to ten learners, or one to one.
+- **Small groups** Fifteen to twenty learners, or one to one.
 - **Same teacher** One teacher who knows how each student thinks.
 
 ## Fees
@@ -219,7 +219,7 @@ Teachers bring a problem; students do the thinking. The teacher's job is to ask 
 Outside India the fee is monthly, in US dollars, and the same wherever you live. There is no enrolment charge and no requirement to stay for a term, so you can end after any month.
 
 - Free first class: USD 0. A first lesson that is free. An honest view of where to begin. No card needed.
-- Group batch: USD 100 a month. Five to ten learners. A consistent teacher. Similar age and level. Monthly, cancel any time.
+- Group batch: USD 100 a month. Fifteen to twenty learners. A consistent teacher. Similar age and level. Monthly, cancel any time.
 - One to one: USD 150 a month. One teacher, one learner. A time that suits you. Pace set by the learner.
 
 ## Common questions about problem solving through coding
@@ -258,7 +258,7 @@ It reinforces the computational thinking described in the Digital Technologies c
 
 ### Are lessons live?
 
-Yes. Every lesson is live online with a teacher, in small groups of five to ten or one to one, at times set for your state.
+Yes. Every lesson is live online with a teacher, in groups of fifteen to twenty or one to one, at times set for your state.
 
 ### How much does it cost?
 

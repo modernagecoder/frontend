@@ -293,7 +293,7 @@ module.exports = {
       { h3: 'Live teacher', p: 'Lessons are taught in real time with code checked as it is written.' },
       { h3: 'School terms', p: 'Classes match WA terms and pause during holidays.' },
       { h3: 'Free trial', p: 'Start with a free lesson and a short written plan.' },
-      { h3: 'Group sizes', p: 'Groups of five to ten at one level, or private lessons.' },
+      { h3: 'Group sizes', p: 'Groups of fifteen to twenty at one level, or private lessons.' },
       { h3: 'Schedule', p: 'Two lessons a week, about eight a month.' },
       { h3: 'India timing', p: 'A 6:30pm Melville lesson begins at 4pm in India.' }
     ],
@@ -306,7 +306,7 @@ module.exports = {
     h2: 'Melville class fees',
     intro: 'Fees are the same for all learners.',
     first: 'Lesson one is free, with a plan afterwards.',
-    group: 'Group classes: about eight lessons monthly with five to ten learners.',
+    group: 'Group classes: about eight lessons monthly with fifteen to twenty learners.',
     private: 'Private classes: about eight lessons monthly with one teacher.',
     closer: 'Fees are in US dollars and start only after the trial has agreed the course and a weekly time. Holiday and missed-lesson rules are on the pricing page.'
   },
@@ -348,12 +348,12 @@ module.exports = {
       },
       {
         q: 'What do Melville classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'What are the groups like?',
-        a: 'Five to ten learners matched by level and pace, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners matched by level and pace, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Can adults study AI with you?', a: 'Yes. Adults learn in adult groups or privately, often applying models to problems at work.' }

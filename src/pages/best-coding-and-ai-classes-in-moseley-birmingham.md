@@ -4,7 +4,7 @@ description: "Online coding, AI, Python and vibe coding lessons for Moseley, Wak
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-moseley-birmingham
 source: src/pages/best-coding-and-ai-classes-in-moseley-birmingham.html
 ---
-> Moseley ward, in the city of Birmingham, had 21,839 usual residents at the 2021 census. Wake Green, Moor Green and Billesley are recorded suburban areas in the same B13 postcode district, with Balsall Heath in B12. Lessons in coding, AI, Python, vibe coding and maths run on live video with a tutor based in India, open to ages six through 67, either privately or in a class of five to ten at one stage. We teach judgement alongside method, so a learner knows when a number has answered the question and when it has dodged it. The first lesson is free, and it ends with a course suggestion. The Moseley project clusters the ward's 114 mapped shops and eating places and asks a popular score how many clusters there are; the score's favourite answer turns out to be the least interesting. Ongoing tuition is USD 100 a month in a class or USD 150 a month privately.
+> Moseley ward, in the city of Birmingham, had 21,839 usual residents at the 2021 census. Wake Green, Moor Green and Billesley are recorded suburban areas in the same B13 postcode district, with Balsall Heath in B12. Lessons in coding, AI, Python, vibe coding and maths run on live video with a tutor based in India, open to ages six through 67, either privately or in a class of fifteen to twenty at one stage. We teach judgement alongside method, so a learner knows when a number has answered the question and when it has dodged it. The first lesson is free, and it ends with a course suggestion. The Moseley project clusters the ward's 114 mapped shops and eating places and asks a popular score how many clusters there are; the score's favourite answer turns out to be the least interesting. Ongoing tuition is USD 100 a month in a class or USD 150 a month privately.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Moseley
 
@@ -12,11 +12,11 @@ Moseley, Birmingham, England / Live online
 
 # Coding and AI classes in Moseley, Birmingham
 
-**Where can Moseley learners find the best coding and AI classes?** Moseley ward, in the city of Birmingham, had 21,839 usual residents at the 2021 census. Wake Green, Moor Green and Billesley are recorded suburban areas in the same B13 postcode district, with Balsall Heath in B12. Lessons in coding, AI, Python, vibe coding and maths run on live video with a tutor based in India, open to ages six through 67, either privately or in a class of five to ten at one stage. We teach judgement alongside method, so a learner knows when a number has answered the question and when it has dodged it. The first lesson is free, and it ends with a course suggestion. The Moseley project clusters the ward's 114 mapped shops and eating places and asks a popular score how many clusters there are; the score's favourite answer turns out to be the least interesting. Ongoing tuition is USD 100 a month in a class or USD 150 a month privately.
+**Where can Moseley learners find the best coding and AI classes?** Moseley ward, in the city of Birmingham, had 21,839 usual residents at the 2021 census. Wake Green, Moor Green and Billesley are recorded suburban areas in the same B13 postcode district, with Balsall Heath in B12. Lessons in coding, AI, Python, vibe coding and maths run on live video with a tutor based in India, open to ages six through 67, either privately or in a class of fifteen to twenty at one stage. We teach judgement alongside method, so a learner knows when a number has answered the question and when it has dodged it. The first lesson is free, and it ends with a course suggestion. The Moseley project clusters the ward's 114 mapped shops and eating places and asks a popular score how many clusters there are; the score's favourite answer turns out to be the least interesting. Ongoing tuition is USD 100 a month in a class or USD 150 a month privately.
 
 Clustering algorithms such as k-means have an awkward requirement: you must tell them how many clusters to find. Ask for two and you get two; ask for nine and you get nine. So analysts reach for a score to choose the number for them. The most popular is the silhouette score, which checks, for every point, whether it is closer to its own cluster than to the next one, and averages the result between minus one and one. Higher is supposed to be better. This project puts that to the test on something a local person can judge by eye: where the shops, cafés and pubs of Moseley ward sit on the map.
 
-Facts last verified 30 September 2026. Teaching is online; no Moseley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Moseley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Moseley courses in thinking, Python and AI
 
@@ -132,7 +132,7 @@ The essentials are a computer, a camera and internet that holds up on a video ca
 - **Made by the learner** Pupils type every line and prompt; the tutor watches over screen share and keeps asking why that choice.
 - **Level from the first session** The free lesson shows where to begin, with any exam board noted.
 - **Free trial lesson** It costs nothing and finishes with a suggested course.
-- **Classes matched by stage** Five to ten learners, drawn from the whole UK, at one level.
+- **Classes matched by stage** Fifteen to twenty learners, drawn from the whole UK, at one level.
 - **Twice weekly** Holidays are left free.
 - **One regular time** Tutors shift for UK clock changes; you do not.
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes across Hampshire,
 canonical: https://learn.modernagecoders.com/coding-classes-in-hampshire
 source: src/pages/coding-classes-in-hampshire.html
 ---
-> Hampshire is thirteen councils, Portsmouth, Southampton and eleven districts, and 1,857,822 people at the 2021 Census, not counting the Isle of Wight. Southampton and Portsmouth are the two cities; then come Basingstoke, Gosport, Farnborough, Winchester, Andover and Eastleigh, with the New Forest, the South Downs and dozens of towns in between. Our classes cover the whole county identically: live video lessons with teachers in India, learners placed by skill rather than by age, a welcome for anyone from 6 to 67, and a choice between groups of five to ten and one-to-one teaching. We teach programming, Python, AI, data and maths. The Hampshire project comes from the New Forest. You pay nothing for lesson one; after that, USD 100 a month in a group or USD 150 a month privately.
+> Hampshire is thirteen councils, Portsmouth, Southampton and eleven districts, and 1,857,822 people at the 2021 Census, not counting the Isle of Wight. Southampton and Portsmouth are the two cities; then come Basingstoke, Gosport, Farnborough, Winchester, Andover and Eastleigh, with the New Forest, the South Downs and dozens of towns in between. Our classes cover the whole county identically: live video lessons with teachers in India, learners placed by skill rather than by age, a welcome for anyone from 6 to 67, and a choice between groups of fifteen to twenty and one-to-one teaching. We teach programming, Python, AI, data and maths. The Hampshire project comes from the New Forest. You pay nothing for lesson one; after that, USD 100 a month in a group or USD 150 a month privately.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Hampshire
 
@@ -12,11 +12,11 @@ County of Hampshire / Live online
 
 # Coding classes in Hampshire
 
-**What are the best coding classes in Hampshire?** Hampshire is thirteen councils, Portsmouth, Southampton and eleven districts, and 1,857,822 people at the 2021 Census, not counting the Isle of Wight. Southampton and Portsmouth are the two cities; then come Basingstoke, Gosport, Farnborough, Winchester, Andover and Eastleigh, with the New Forest, the South Downs and dozens of towns in between. Our classes cover the whole county identically: live video lessons with teachers in India, learners placed by skill rather than by age, a welcome for anyone from 6 to 67, and a choice between groups of five to ten and one-to-one teaching. We teach programming, Python, AI, data and maths. The Hampshire project comes from the New Forest. You pay nothing for lesson one; after that, USD 100 a month in a group or USD 150 a month privately.
+**What are the best coding classes in Hampshire?** Hampshire is thirteen councils, Portsmouth, Southampton and eleven districts, and 1,857,822 people at the 2021 Census, not counting the Isle of Wight. Southampton and Portsmouth are the two cities; then come Basingstoke, Gosport, Farnborough, Winchester, Andover and Eastleigh, with the New Forest, the South Downs and dozens of towns in between. Our classes cover the whole county identically: live video lessons with teachers in India, learners placed by skill rather than by age, a welcome for anyone from 6 to 67, and a choice between groups of fifteen to twenty and one-to-one teaching. We teach programming, Python, AI, data and maths. The Hampshire project comes from the New Forest. You pay nothing for lesson one; after that, USD 100 a month in a group or USD 150 a month privately.
 
 The New Forest National Park Authority says the Forest's landscape is shaped by ponies, cattle and pigs that roam freely, and the Verderers have regulated that commoning since the New Forest Act of 1877. Animals that roam freely pose a problem every ecologist knows: how do you count a population you can never see all at once? One classic answer is almost magical. Mark some animals one day, look again another day, and count how many of the second group carry a mark. From that single number you can estimate the whole population. This page's project builds the method in Python, tests it on a model herd thousands of times, and then shows how one broken assumption can throw the answer out by three-quarters.
 
-Facts last verified 26 September 2026. Teaching is online; no Hampshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Hampshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## How Hampshire learners get started
 
@@ -164,7 +164,7 @@ Hampshire is large and its roads are busy at school pick-up time. Online lessons
 - **From home** A bedroom in Alton, a kitchen in Hedge End, a desk in Yateley. The teacher shares a screen and the learner writes the code.
 - **English and school terms** Year groups, GCSE options and A levels are named as Hampshire schools name them, and every lesson is in English.
 - **Free first lesson** A proper lesson of real work, then an honest suggestion of level and course. There are no card details to give.
-- **Classmates at your stage** Groups of five to ten learners who have reached the same point, gathered widely, so the lesson suits each of them.
+- **Classmates at your stage** Groups of fifteen to twenty learners who have reached the same point, gathered widely, so the lesson suits each of them.
 - **Breaks with your school** Two lessons a week for most learners, stopping when their own school stops.
 - **All times in UK time** Our teachers keep India time, four and a half hours ahead in UK summer and five and a half in UK winter; every booking is written in UK time.
 
@@ -175,7 +175,7 @@ Hampshire is large and its roads are busy at school pick-up time. Online lessons
 The same prices across the whole county, and in every country apart from India.
 
 - First class: USD 0. A full lesson of genuine work, ending with a recommended level and course.
-- Group tuition: USD 100 a month. Roughly eight lessons a month, in a group of five to ten at one level.
+- Group tuition: USD 100 a month. Roughly eight lessons a month, in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. Roughly eight lessons a month with one teacher and one learner.
 
 All fees are in US dollars for families outside India, with no pound list. You are charged only after the free lesson has settled a course and a weekly slot; the pricing page explains pausing, missed lessons and changing between group and private teaching.

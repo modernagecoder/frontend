@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Hounslow, Chi
 canonical: https://learn.modernagecoders.com/coding-classes-in-hounslow-london
 source: src/pages/coding-classes-in-hounslow-london.html
 ---
-> Hounslow runs from Chiswick and Brentford by the Thames out to Feltham, Bedfont and Cranford by Heathrow, and the 2021 Census found 288,181 people living there. The council runs eleven Community Hub and Library sites, and Hounslow Central sits on the Piccadilly line. A class for your family should leave a learner able to judge which parts of a calculation matter, and this page's project does exactly that with a measurement made across Hounslow Heath in 1784. Lessons are live on video from India, in groups of five to ten at one level or one to one, for learners aged 6 to 67. The first lesson is free; afterwards a group place is USD 100 a month and private teaching USD 150 a month.
+> Hounslow runs from Chiswick and Brentford by the Thames out to Feltham, Bedfont and Cranford by Heathrow, and the 2021 Census found 288,181 people living there. The council runs eleven Community Hub and Library sites, and Hounslow Central sits on the Piccadilly line. A class for your family should leave a learner able to judge which parts of a calculation matter, and this page's project does exactly that with a measurement made across Hounslow Heath in 1784. Lessons are live on video from India, in groups of fifteen to twenty at one level or one to one, for learners aged 6 to 67. The first lesson is free; afterwards a group place is USD 100 a month and private teaching USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Hounslow
 
@@ -12,11 +12,11 @@ London Borough of Hounslow / Live online
 
 # Coding classes in Hounslow
 
-**What are the best coding classes in Hounslow?** Hounslow runs from Chiswick and Brentford by the Thames out to Feltham, Bedfont and Cranford by Heathrow, and the 2021 Census found 288,181 people living there. The council runs eleven Community Hub and Library sites, and Hounslow Central sits on the Piccadilly line. A class for your family should leave a learner able to judge which parts of a calculation matter, and this page's project does exactly that with a measurement made across Hounslow Heath in 1784. Lessons are live on video from India, in groups of five to ten at one level or one to one, for learners aged 6 to 67. The first lesson is free; afterwards a group place is USD 100 a month and private teaching USD 150 a month.
+**What are the best coding classes in Hounslow?** Hounslow runs from Chiswick and Brentford by the Thames out to Feltham, Bedfont and Cranford by Heathrow, and the 2021 Census found 288,181 people living there. The council runs eleven Community Hub and Library sites, and Hounslow Central sits on the Piccadilly line. A class for your family should leave a learner able to judge which parts of a calculation matter, and this page's project does exactly that with a measurement made across Hounslow Heath in 1784. Lessons are live on video from India, in groups of fifteen to twenty at one level or one to one, for learners aged 6 to 67. The first lesson is free; afterwards a group place is USD 100 a month and private teaching USD 150 a month.
 
 In the spring of 1784 a narrow strip of Hounslow Heath was cleared of furze bushes and ant-hills, a party of soldiers from the 12th Regiment of Foot camped beside it, and William Roy laid glass rods, twenty feet at a time, along more than five miles of it. Ordnance Survey's own history tells how that base began the triangulation that joined London to Paris, a line that now crosses Heathrow airport. Roy did not stop at counting rods. He corrected his total for the slope of the ground, for the rods growing in the heat, for the temperature of the brass scale he had checked them against, and for the height of the heath above the sea, and he published every correction. Our learners rebuild his sums and put them in order of size. The largest turns out to be more than twenty times the size of the two smallest. Knowing which corrections matter, and which you could safely ignore, is called an error budget, and it is the thread of this page.
 
-Facts last verified 25 September 2026. Teaching is online; no Hounslow branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Hounslow branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for Hounslow learners
 
@@ -190,7 +190,7 @@ Every street in the borough is the same distance from an online class.
 The same fees in every corner of the borough: a free first lesson, then one monthly fee.
 
 - First class: USD 0. A complete lesson with a teacher, free, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a group of five to ten learners at the same stage.
+- Group tuition: USD 100 a month. About eight live lessons a month in a group of fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. About eight live lessons a month with a teacher for your learner alone.
 
 From Brentford to Bedfont, families are billed in US dollars, like every family outside India, and no pound prices appear on this site. Nothing is due until after the free lesson, once a course and a regular slot are chosen; our pricing page explains pauses, missed lessons and switching between group and private teaching.
@@ -231,11 +231,11 @@ No. There is no Hounslow centre and no premises anywhere in the UK, because ever
 
 ### What do coding classes in Hounslow cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are groups formed?
 
-By level, pace and goals rather than age or area, with five to ten learners at the same stage. When no group at the right level meets at a workable time, one-to-one lessons are offered instead.
+By level, pace and goals rather than age or area, with fifteen to twenty learners at the same stage. When no group at the right level meets at a workable time, one-to-one lessons are offered instead.
 
 ## Other boroughs, other nations
 

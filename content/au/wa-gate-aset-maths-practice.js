@@ -231,7 +231,7 @@ module.exports = {
     cells: [
       { h3: 'Draw, count, rule', p: 'Students build patterns before writing rules.' },
       { h3: 'Explain the plus one', p: 'Every rule must be explained, not just found.' },
-      { h3: 'Five to ten per group', p: 'Small groups at a shared level.' },
+      { h3: 'Fifteen to twenty per group', p: 'Small groups at a shared level.' },
       { h3: 'One-to-one', p: 'For focused individual work.' },
       { h3: 'Not ASET coaching', p: 'We teach maths and reasoning, consistent with the department\'s advice.' },
       { h3: 'No offer promises', p: 'Offers are the department\'s decision.' }
@@ -246,7 +246,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'WA families pay monthly in US dollars, our rate outside India. No deposit, and you can stop at the end of any month.',
     free: ['A real trial lesson', 'Honest advice, including when no classes are needed', 'No card details'],
-    group: ['Five to ten students at one level', 'A regular teacher', 'Explained feedback', 'Certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'A regular teacher', 'Explained feedback', 'Certificate at the end'],
     one: ['A teacher for one child', 'Chosen focus areas', 'Times to suit you']
   },
 

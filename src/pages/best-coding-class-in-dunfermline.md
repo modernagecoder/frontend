@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Dunfermline l
 canonical: https://learn.modernagecoders.com/best-coding-class-in-dunfermline
 source: src/pages/best-coding-class-in-dunfermline.html
 ---
-> Fife, the council area that includes Dunfermline, had about 370,400 usual residents at Scotland's 2022 census, rounded to the nearest hundred by National Records of Scotland. Andrew Carnegie wrote that he was born in Dunfermline on 25 November 1835, in a house at the corner of Moodie Street and Priory Lane. Dunfermline learners aged six to sixty-seven meet our teachers in India in live video lessons, one to one or in a class of five to ten at the same stage, at times fitted around Scottish school days and working hours. The first lesson is free; after that a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
+> Fife, the council area that includes Dunfermline, had about 370,400 usual residents at Scotland's 2022 census, rounded to the nearest hundred by National Records of Scotland. Andrew Carnegie wrote that he was born in Dunfermline on 25 November 1835, in a house at the corner of Moodie Street and Priory Lane. Dunfermline learners aged six to sixty-seven meet our teachers in India in live video lessons, one to one or in a class of fifteen to twenty at the same stage, at times fitted around Scottish school days and working hours. The first lesson is free; after that a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Dunfermline
 
@@ -12,11 +12,11 @@ Dunfermline, Fife / Live online
 
 # Coding classes in Dunfermline
 
-**What are the best coding classes in Dunfermline?** Fife, the council area that includes Dunfermline, had about 370,400 usual residents at Scotland's 2022 census, rounded to the nearest hundred by National Records of Scotland. Andrew Carnegie wrote that he was born in Dunfermline on 25 November 1835, in a house at the corner of Moodie Street and Priory Lane. Dunfermline learners aged six to sixty-seven meet our teachers in India in live video lessons, one to one or in a class of five to ten at the same stage, at times fitted around Scottish school days and working hours. The first lesson is free; after that a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
+**What are the best coding classes in Dunfermline?** Fife, the council area that includes Dunfermline, had about 370,400 usual residents at Scotland's 2022 census, rounded to the nearest hundred by National Records of Scotland. Andrew Carnegie wrote that he was born in Dunfermline on 25 November 1835, in a house at the corner of Moodie Street and Priory Lane. Dunfermline learners aged six to sixty-seven meet our teachers in India in live video lessons, one to one or in a class of fifteen to twenty at the same stage, at times fitted around Scottish school days and working hours. The first lesson is free; after that a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
 
 Before his fortune, Andrew Carnegie was a telegraph messenger, and in his autobiography he describes learning to take a message by ear. A telegraph line could garble a message; so can any cable or radio link today. Our Dunfermline project sends Carnegie's entire autobiography, 669,829 characters, through a simulated line that flips one bit in every hundred at random. Sent plainly, 51,518 characters arrive wrong. Wrapped in a Hamming code, which adds three check bits to every four and can find and fix any single flipped bit, only 2,682 do. Teenagers build the code, run the line and check every result against the formula that predicts it.
 
-Facts last verified 23 September 2026. Teaching is online; no Dunfermline branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Dunfermline branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for Carnegie's birthplace
 
@@ -167,7 +167,7 @@ Dunfermline's learners live across the city and in the Fife villages around it. 
 - **City and villages** A learner in Garvock Hill and another in Cairneyhill can share a class without anyone taking a bus.
 - **Scottish stages** P1 to P7, S1 to S6, then National 5, Higher and Advanced Higher: our levels use the names Scottish schools use, and every lesson is taught in English.
 - **The free lesson** The learner builds something real in the first session, and the teacher then suggests a level, a course and a weekly time. No card is ever needed.
-- **Classes by level** Five to ten learners at one stage, from Dunfermline, the rest of the UK and abroad, so every level has good times to choose from.
+- **Classes by level** Fifteen to twenty learners at one stage, from Dunfermline, the rest of the UK and abroad, so every level has good times to choose from.
 - **Two lessons a week** Two fixed lessons weekly, around eight a month, with school holidays and exam leave agreed with the teacher well ahead.
 - **Evening in India** India keeps one time all year, so a 5 pm class in Fife starts at 21:30 for our teachers during British Summer Time and 22:30 in winter.
 
@@ -178,7 +178,7 @@ Dunfermline's learners live across the city and in the Fife villages around it. 
 A free first lesson, then one fee each month.
 
 - First class: USD 0. A complete lesson without charge, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a class of five to ten learners at one stage.
+- Group tuition: USD 100 a month. About eight live lessons a month in a class of fifteen to twenty learners at one stage.
 - Private tuition: USD 150 a month. About eight live lessons a month, with a teacher for your learner alone.
 
 Families in Bellyeoman or Townhill pay in US dollars, like every family outside India, and our site shows no pound prices. No charge is made until after the free lesson, once a course and weekly time are agreed with us; the pricing page explains pauses, missed lessons and changes between group and one-to-one teaching.
@@ -219,11 +219,11 @@ No. We have no centre in Dunfermline or anywhere else in the UK, as every lesson
 
 ### What do Dunfermline lessons cost?
 
-The first lesson is free. After it, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After it, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are learners grouped?
 
-By level, pace and goals rather than age or where they live, with five to ten learners at the same stage. If no group fits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than age or where they live, with fifteen to twenty learners at the same stage. If no group fits the learner's week, we offer one-to-one lessons.
 
 ## Scotland and beyond
 

@@ -271,7 +271,7 @@ module.exports = {
       { h3: 'Live and guided', p: 'A teacher leads each class in real time and checks the code.' },
       { h3: 'Term-time', p: 'Classes follow Queensland school terms and stop in holidays.' },
       { h3: 'Trial first', p: 'One free class, then a short course recommendation.' },
-      { h3: 'Groups', p: 'Five to ten learners at a level, or one-to-one.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners at a level, or one-to-one.' },
       { h3: 'Regular', p: 'Two classes each week, roughly eight a month.' },
       { h3: 'Indian time', p: 'A 5:30pm Burleigh Heads class starts at 1pm in India.' }
     ],
@@ -284,7 +284,7 @@ module.exports = {
     h2: 'Burleigh Heads class fees',
     intro: 'One fee table for all learners.',
     first: 'Class one is free and comes with a plan.',
-    group: 'Groups: about eight classes a month, five to ten learners.',
+    group: 'Groups: about eight classes a month, fifteen to twenty learners.',
     private: 'Private: about eight classes a month with a single teacher.',
     closer: 'Fees are in US dollars, starting once the trial has set a course and a weekly time. The pricing page explains holiday and missed-class rules.'
   },
@@ -317,12 +317,12 @@ module.exports = {
       },
       {
         q: 'What do Burleigh Heads classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How are classes grouped?',
-        a: 'By level and pace, five to ten learners, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'By level and pace, fifteen to twenty learners, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Do you teach adults?', a: 'Yes. Adults study in their own groups or privately, often working with location data.' }

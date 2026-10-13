@@ -4,7 +4,7 @@ description: "The UK government names six ways to check an AI system you built. 
 canonical: https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-uk
 source: src/pages/learn-to-train-ai-not-just-prompt-it-uk.html
 ---
-> There is a line running through everything people call AI work, and it falls between using a system and building one. The UK government's introduction to AI assurance names six techniques for checking an AI system: risk assessment, algorithmic impact assessment, bias audit, compliance audit, conformity assessment and formal verification. All six assume a system with inputs you selected and outputs you can measure against a benchmark, which is exactly what a person who only prompts does not have. Learning to train models puts a learner on the side of the line where work can be inspected, measured and defended. We teach it with real data and small models, to learners from about twelve upwards and to adults, in groups of five to ten at one level or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+> There is a line running through everything people call AI work, and it falls between using a system and building one. The UK government's introduction to AI assurance names six techniques for checking an AI system: risk assessment, algorithmic impact assessment, bias audit, compliance audit, conformity assessment and formal verification. All six assume a system with inputs you selected and outputs you can measure against a benchmark, which is exactly what a person who only prompts does not have. Learning to train models puts a learner on the side of the line where work can be inspected, measured and defended. We teach it with real data and small models, to learners from about twelve upwards and to adults, in groups of fifteen to twenty at one level or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Train AI, do not just prompt it
 
@@ -181,14 +181,14 @@ India keeps one clock all year, which leaves the UK five and a half hours behind
 - **A held-out set every time** Judged only on examples it has never seen. Without this, a memorised model is indistinguishable from a good one.
 - **Deliberate failure** Every project ends with the learner hunting for the input that defeats their own model.
 - **Written limits** Each finished model comes with a short note on what it cannot do, which is the habit the assurance guidance is built on.
-- **Groups by level** Five to ten learners at one stage, comparing results and arguing about whose benchmark was fairer.
+- **Groups by level** Fifteen to twenty learners at one stage, comparing results and arguing about whose benchmark was fairer.
 
 ## What it costs
 
 One charge a month, set in US dollars for every country but India. Try the free lesson first; billing begins only when a course and a weekly time are fixed.
 
 - Free first class: USD 0. A genuine lesson, not a sales call. A straight view of the right rung. Only a phone number needed.
-- Group batch: USD 100 a month. Five to ten learners at one rung. The same teacher for the course. Weekly written feedback on real work. A certificate at the end of a syllabus.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one rung. The same teacher for the course. Weekly written feedback on real work. A certificate at the end of a syllabus.
 - One to one: USD 150 a month. One learner and one teacher. Built around a specific target or dataset. Suits adults bringing work from their own job.
 
 ## What learners and parents ask

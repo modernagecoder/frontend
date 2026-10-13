@@ -179,7 +179,7 @@ A wilayat split between two kinds of terrain is a wilayat with two kinds of jour
 
 It runs as a proper class with a real task and ends with a straight recommendation. We take no card details to book it and ask for no commitment until somebody has watched a teacher teach.
 
-### Five to eight in a group, chosen by level
+### Fifteen to twenty in a group, chosen by level
 
 Membership follows what a learner can already do and what they are aiming at. It does not follow where they live, and that is the promise a local class cannot make.
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Al Qabil learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Al Qabil class times arranged?
 

@@ -16,7 +16,7 @@ City of Banyule, Melbourne, Victoria / Live online
 
 Modern AI agents can send several tool calls at once, such as nine lookups for nine stations, and wait for the replies. The replies come back whenever each tool finishes. If the code assumes they return in the order they were sent, a station can quietly inherit another station's number. We simulated how often that happens.
 
-Facts last verified 11 October 2026. Teaching is online; no Banyule branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 October 2026. Teaching is online; no Banyule branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for agents that keep their answers straight
 
@@ -177,7 +177,7 @@ Lessons are on screen, so Ivanhoe, Macleod and Greensborough learners all join t
 - **Building side by side** Teacher and learner share code and run each experiment together.
 - **Term-time plans** Lessons follow the Victorian school terms with holiday breaks.
 - **A real first lesson** The free trial covers proper content and ends with a clear suggestion.
-- **Five to ten per group** Groups matched by level and pace, sometimes across several states.
+- **Fifteen to twenty per group** Groups matched by level and pace, sometimes across several states.
 - **Twice weekly** Two fixed lessons a week, about eight each month, with planned breaks.
 - **Teachers in India** In daylight saving a 7pm Banyule lesson begins at 1:30pm India time, and at 2:30pm there after April.
 
@@ -188,7 +188,7 @@ Lessons are on screen, so Ivanhoe, Macleod and Greensborough learners all join t
 Three clear prices.
 
 - First class: USD 0. The first lesson costs nothing and ends with an honest suggestion.
-- Group tuition: USD 100 a month. One month of group lessons, generally eight, with five to ten learners at a matched level.
+- Group tuition: USD 100 a month. One month of group lessons, generally eight, with fifteen to twenty learners at a matched level.
 - Private tuition: USD 150 a month. Close to eight lessons a month with one teacher and one learner.
 
 Anyone paying from outside India pays in US dollars. The bill only starts once the trial is over and both course and timeslot are agreed, with term breaks, missed sessions and format changes described on the pricing page.
@@ -225,11 +225,11 @@ No. All lessons are live online, there is no office in Australia, and our listed
 
 ### What do classes cost for Banyule learners?
 
-The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.
+The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.
 
 ### How large are the groups?
 
-Five to ten learners, matched by level, pace and goal. If no group fits the learner's time, one-to-one lessons are offered.
+Fifteen to twenty learners, matched by level, pace and goal. If no group fits the learner's time, one-to-one lessons are offered.
 
 ### Are Copilot Studio agents part of group classes?
 

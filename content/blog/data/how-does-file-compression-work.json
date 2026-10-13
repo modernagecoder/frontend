@@ -231,7 +231,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Compression is a good fit for two principles on our <a href='/how-we-teach'>how we teach</a> page. Learning by building: a working Huffman coder teaches dictionaries and priority queues better than any definition. And tracing code line by line until every step can be predicted, which is how the merge-the-two-rarest step becomes clear. Our <a href='/courses/python-complete-masterclass-teens'>Python course for teens</a> runs one to one or in small groups of 5 to 10."
+        "text": "Compression is a good fit for two principles on our <a href='/how-we-teach'>how we teach</a> page. Learning by building: a working Huffman coder teaches dictionaries and priority queues better than any definition. And tracing code line by line until every step can be predicted, which is how the merge-the-two-rarest step becomes clear. Our <a href='/courses/python-complete-masterclass-teens'>Python course for teens</a> runs one to one or in groups of 15 to 20."
       },
       {
         "type": "embed",

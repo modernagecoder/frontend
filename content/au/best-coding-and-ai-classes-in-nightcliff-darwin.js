@@ -304,7 +304,7 @@ module.exports = {
       { h3: 'Watch it run', p: 'Learners print the first rows of their data before they trust a count.' },
       { h3: 'School terms', p: 'Classes follow the Territory school year and pause for holidays.' },
       { h3: 'Free first lesson', p: 'A full lesson at no cost, followed by a written suggestion.' },
-      { h3: 'Five to ten per group', p: 'Grouped by level, or taught privately.' },
+      { h3: 'Fifteen to twenty per group', p: 'Grouped by level, or taught privately.' },
       { h3: 'Two a week', p: 'Fixed times twice a week, about eight lessons a month.' },
       { h3: 'Teachers in India', p: 'Darwin has no daylight saving, so a 7pm Nightcliff class is 3pm India time all year round.' }
     ],
@@ -317,7 +317,7 @@ module.exports = {
     h2: 'Fees for Nightcliff learners',
     intro: 'One price list for everyone.',
     first: 'The first lesson is free, with advice in writing afterwards.',
-    group: 'About eight group lessons each month, five to ten learners per group.',
+    group: 'About eight group lessons each month, fifteen to twenty learners per group.',
     private: 'About eight one-to-one lessons each month.',
     closer: 'Nightcliff families are billed in US dollars after the trial has settled the course and the times. Holidays and missed lessons are covered on the pricing page.'
   },
@@ -359,12 +359,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Nightcliff learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Is Copilot Studio taught to groups?', a: 'No. Copilot Studio is one-to-one only; groups build their AI projects in Python.' }

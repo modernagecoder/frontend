@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Sutton: Cheam
 canonical: https://learn.modernagecoders.com/coding-classes-in-sutton-london
 source: src/pages/coding-classes-in-sutton-london.html
 ---
-> Sutton is the south London borough of Cheam, Carshalton, Wallington, Beddington, Hackbridge, Worcester Park and Belmont, home to 209,639 people at the 2021 Census, with a branch of the River Wandle running through Carshalton. The classes worth choosing teach a learner to handle real data as it actually arrives, with gaps, missing years and values too small to measure. This page does exactly that with 26 years of Environment Agency river samples from Carshalton. Teaching is live on video from India for anyone aged 6 to 67, either one learner with one teacher or a group of five to ten at a single level. The first lesson costs nothing. After that, group classes are USD 100 a month and private lessons USD 150 a month.
+> Sutton is the south London borough of Cheam, Carshalton, Wallington, Beddington, Hackbridge, Worcester Park and Belmont, home to 209,639 people at the 2021 Census, with a branch of the River Wandle running through Carshalton. The classes worth choosing teach a learner to handle real data as it actually arrives, with gaps, missing years and values too small to measure. This page does exactly that with 26 years of Environment Agency river samples from Carshalton. Teaching is live on video from India for anyone aged 6 to 67, either one learner with one teacher or a group of fifteen to twenty at a single level. The first lesson costs nothing. After that, group classes are USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Sutton
 
@@ -12,11 +12,11 @@ London Borough of Sutton / Live online
 
 # Coding classes in Sutton
 
-**What are the best coding classes in Sutton?** Sutton is the south London borough of Cheam, Carshalton, Wallington, Beddington, Hackbridge, Worcester Park and Belmont, home to 209,639 people at the 2021 Census, with a branch of the River Wandle running through Carshalton. The classes worth choosing teach a learner to handle real data as it actually arrives, with gaps, missing years and values too small to measure. This page does exactly that with 26 years of Environment Agency river samples from Carshalton. Teaching is live on video from India for anyone aged 6 to 67, either one learner with one teacher or a group of five to ten at a single level. The first lesson costs nothing. After that, group classes are USD 100 a month and private lessons USD 150 a month.
+**What are the best coding classes in Sutton?** Sutton is the south London borough of Cheam, Carshalton, Wallington, Beddington, Hackbridge, Worcester Park and Belmont, home to 209,639 people at the 2021 Census, with a branch of the River Wandle running through Carshalton. The classes worth choosing teach a learner to handle real data as it actually arrives, with gaps, missing years and values too small to measure. This page does exactly that with 26 years of Environment Agency river samples from Carshalton. Teaching is live on video from India for anyone aged 6 to 67, either one learner with one teacher or a group of fifteen to twenty at a single level. The first lesson costs nothing. After that, group classes are USD 100 a month and private lessons USD 150 a month.
 
 Since January 2000 the Environment Agency has been taking water samples from the Carshalton branch of the River Wandle at Butter Hill Bridge, and it publishes every result. Water temperature has been measured 232 times. You would expect a clear yearly rhythm: cold in January, warm in July. The difficulty is the timing of the samples. For ten years they came about monthly; then for several years only four a year; then none at all for 991 days; then monthly again. Our learners first try the textbook tool, a Fourier transform, which assumes evenly spaced samples, and it confidently reports a cycle of 489 days. Then they use a method built for uneven data, the Lomb-Scargle periodogram, and the true year appears at 366 days.
 
-Facts last verified 25 September 2026. Teaching is online; no Sutton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Sutton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Sutton learners often choose first
 
@@ -137,7 +137,7 @@ Learners from the western edge of the borough and from the east can share one cl
 
 ### No sampling gaps
 
-Unlike the river record, classes run to a regular pattern: five to ten learners at one level, meeting at a set UK time.
+Unlike the river record, classes run to a regular pattern: fifteen to twenty learners at one level, meeting at a set UK time.
 
 **Sutton and its neighbours** Sutton is one of 32 London boroughs. The [London page](/best-coding-class-in-london) lists every borough and the City, linking each page when it is ready, among them [Croydon](/coding-classes-in-croydon-london) to the east.
 
@@ -178,7 +178,7 @@ In any corner of Sutton, the class begins as soon as the call connects.
 The first lesson is free; after that there is one monthly fee, the same across Sutton.
 
 - First class: USD 0. A full first lesson with a teacher, free of charge, closing with our suggestion of level, course and time.
-- Group tuition: USD 100 a month. Around eight live lessons a month in a class of five to ten at one level.
+- Group tuition: USD 100 a month. Around eight live lessons a month in a class of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. Around eight live lessons a month, one learner and one teacher.
 
 Sutton families pay in US dollars, like every family outside India; no sterling prices appear anywhere on the site. There is nothing to pay until the free lesson is done and a course and regular time are agreed. The pricing page covers pausing, missed lessons and changing between a class and private teaching.
@@ -219,11 +219,11 @@ No. There is no Sutton centre and no premises anywhere in the UK, because every 
 
 ### What do coding classes in Sutton cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## Further across London and the UK
 

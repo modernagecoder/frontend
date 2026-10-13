@@ -1,10 +1,10 @@
 ---
 title: "MATHCOUNTS Preparation Online: Sprint, Target, Team, Countdown"
-description: "MATHCOUNTS prep online, grades 6 to 8: Sprint, Target, Team and Countdown, Chapter in February and State in March 2027, both entry routes, batches of 5 to 10."
+description: "MATHCOUNTS prep online, grades 6 to 8: Sprint, Target, Team and Countdown, Chapter in February and State in March 2027, both entry routes, batches of 15 to 20."
 canonical: https://learn.modernagecoders.com/mathcounts-preparation
 source: src/pages/mathcounts-preparation.html
 ---
-> MATHCOUNTS prep online, grades 6 to 8: Sprint, Target, Team and Countdown, Chapter in February and State in March 2027, both entry routes, batches of 5 to 10.
+> MATHCOUNTS prep online, grades 6 to 8: Sprint, Target, Team and Countdown, Chapter in February and State in March 2027, both entry routes, batches of 15 to 20.
 
 Start here
 
@@ -16,7 +16,7 @@ MATHCOUNTS is middle-school mathematics at speed and under pressure, so the base
 
 Ans. The short version
 
-The MATHCOUNTS Competition Series is a United States contest for students in grades 6 to 8, run by the MATHCOUNTS Foundation in all fifty states, the District of Columbia, Puerto Rico, the US Virgin Islands, Guam and in schools abroad affiliated with the Departments of Defense and State. A school registers up to fourteen competitors; where a student's school will not register, the parent can register the student as a non-school competitor online. The competition has four rounds: Sprint, thirty problems in forty minutes with no calculator; Target, four pairs of problems with six minutes a pair and a calculator; Team, ten problems in twenty minutes for the four official team members; and the optional Countdown, head to head at up to forty-five seconds a problem. For 2026-27 the early-bird deadline is 3 November 2026, non-school registration opens 5 November, the regular deadline is 15 December, Chapter competitions run 1 to 28 February 2027, State 1 to 31 March 2027 and the national final is 9 to 10 May 2027 in Washington DC. Modern Age Coders prepares students live online in batches of five to ten: one class a week on the mathematics and the reasoning, one on timed practice in the shape of each round. The first class is a free demo, and the group batch fee is shown on this page in your own currency.
+The MATHCOUNTS Competition Series is a United States contest for students in grades 6 to 8, run by the MATHCOUNTS Foundation in all fifty states, the District of Columbia, Puerto Rico, the US Virgin Islands, Guam and in schools abroad affiliated with the Departments of Defense and State. A school registers up to fourteen competitors; where a student's school will not register, the parent can register the student as a non-school competitor online. The competition has four rounds: Sprint, thirty problems in forty minutes with no calculator; Target, four pairs of problems with six minutes a pair and a calculator; Team, ten problems in twenty minutes for the four official team members; and the optional Countdown, head to head at up to forty-five seconds a problem. For 2026-27 the early-bird deadline is 3 November 2026, non-school registration opens 5 November, the regular deadline is 15 December, Chapter competitions run 1 to 28 February 2027, State 1 to 31 March 2027 and the national final is 9 to 10 May 2027 in Washington DC. Modern Age Coders prepares students live online in batches of fifteen to twenty: one class a week on the mathematics and the reasoning, one on timed practice in the shape of each round. The first class is a free demo, and the group batch fee is shown on this page in your own currency.
 
 Q1. What are the rounds, and how do we enter?
 
@@ -168,7 +168,7 @@ Group batch · grades 6 to 8
 
 per month
 
-- Five to ten students, in grades 6 to 8
+- Fifteen to twenty students, in grades 6 to 8
 - Two live classes a week, mathematics and timed round practice
 - Placement, weekly timed Sprint sets, Team and Countdown rehearsed
 - Certificate on completion
@@ -181,7 +181,7 @@ Mini batch
 
 per month
 
-- Three to four students
+- Up to six students
 - Timings agreed around the family
 - More Target-round review per student
 

@@ -59,7 +59,7 @@ module.exports = {
 
   h1: 'Coding classes in Wolverhampton',
   capsuleQ: 'What are the best coding classes in Wolverhampton?',
-  capsule: 'Wolverhampton counted 263,727 residents at the 2021 Census, and more school-age children than England as a whole: children aged 5 to 9 were 6.7% of the city and those aged 10 to 14 were 6.8%, where England\'s figures were 5.9% and 6.0%. The University of Wolverhampton teaches over 30,200 students, with computing on its Springfield site. Modern Age Coders runs live online lessons for Wolverhampton learners aged six to sixty-seven: small groups of five to ten sorted by ability, or one-to-one teaching, from teachers in India at a weekly time fixed on the UK clock. The first lesson is on us; after it, USD 100 a month covers a group place and USD 150 a month a private one.',
+  capsule: 'Wolverhampton counted 263,727 residents at the 2021 Census, and more school-age children than England as a whole: children aged 5 to 9 were 6.7% of the city and those aged 10 to 14 were 6.8%, where England\'s figures were 5.9% and 6.0%. The University of Wolverhampton teaches over 30,200 students, with computing on its Springfield site. Modern Age Coders runs live online lessons for Wolverhampton learners aged six to sixty-seven: groups of fifteen to twenty sorted by ability, or one-to-one teaching, from teachers in India at a weekly time fixed on the UK clock. The first lesson is on us; after it, USD 100 a month covers a group place and USD 150 a month a private one.',
   lead: 'Start typing a bus stop name into a journey planner and it offers suggestions after a letter or two. How many letters do you actually need before only one stop matches? For Wolverhampton\'s 655 distinct stop names, the answer comes from a trie, a tree where every name is spelled out one letter per branch and names that begin alike share their first branches. Build it and the average comes out at just over five letters. But the names that need the most typing are not the long, obscure ones. They are the stops that start with the word Wolverhampton: Wolverhampton Science Park, Wolverhampton Road, Wolverhampton Grammar School and Wolverhampton Bus Station all need fifteen letters, because the city\'s name, plus the space after it, tells you nothing until the next word begins. Six stops can never be picked out by typing at all. Finding them, and understanding why, is the lesson Wolverhampton\'s own bus network teaches our teenage learners here.',
   wa: 'Hello Modern Age Coders, I would like a free coding class for a learner in Wolverhampton.',
 
@@ -187,7 +187,7 @@ module.exports = {
       { h3: 'Straight from home', p: 'A learner in Penn and another in Whitmore Reans can join the same class from their own homes, with nobody crossing the ring road.' },
       { h3: 'English school stages', p: 'Reception, Key Stages 1 to 4, Year 9 options, GCSEs and A levels are named as Wolverhampton schools name them, and lessons are taught in English.' },
       { h3: 'Try it properly first', p: 'The first session is a real lesson with a real task, then honest advice on level, course and weekly time, and no request for card details.' },
-      { h3: 'Classes by level', p: 'Five to ten learners at the same stage, from Wolverhampton, other parts of the UK and other countries, so every level has a practical time.' },
+      { h3: 'Classes by level', p: 'Fifteen to twenty learners at the same stage, from Wolverhampton, other parts of the UK and other countries, so every level has a practical time.' },
       { h3: 'A regular slot', p: 'Two lessons a week at the same time, about eight a month, with breaks around school holidays and revision decided with the teacher.' },
       { h3: 'Teaching from India', p: 'Our teachers keep Indian time all year, which runs four and a half hours ahead of Wolverhampton in summer and five and a half in winter, so after-school and evening slots fall inside their working hours.' }
     ],
@@ -198,7 +198,7 @@ module.exports = {
     h2: 'What classes cost in Wolverhampton',
     intro: 'Three prices, stated in full.',
     first: 'A complete first lesson at no charge, ending with a level, a suggested course and a proposed time.',
-    group: 'Monthly teaching, usually eight lessons, in a group of five to ten learners of similar ability.',
+    group: 'Monthly teaching, usually eight lessons, in a group of fifteen to twenty learners of similar ability.',
     private: 'About eight lessons a month on the same pattern, with one teacher for one learner.',
     closer: 'The fees are in US dollars at the single rate we charge outside India, so families in Tettenhall and Bilston pay precisely the same, and we publish no pound prices. Charges begin only once the trial lesson has fixed the course and the weekly slot, and the pricing page covers breaks, missed lessons and switching between group and private teaching.'
   },
@@ -223,8 +223,8 @@ module.exports = {
       { q: 'What times are Wolverhampton lessons?', a: 'After school, in the evening or at weekends, with the time agreed in UK terms at the trial lesson. India runs four and a half hours ahead of Wolverhampton in summer and five and a half in winter.' },
       { q: 'Can lessons stop for exams or holidays?', a: 'Yes. Families regularly pause for GCSE and A level revision, the exam weeks and school holidays, arranging the dates with the teacher in advance.' },
       { q: 'Do you have a centre in Wolverhampton?', a: 'No. We run no premises in Wolverhampton or elsewhere in the UK, and teach entirely live online. A learner needs a computer with sound and a steady connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much are Wolverhampton lessons?', a: 'The first is free. Then USD 100 a month for a place in a group of five to ten, with two live lessons a week or around eight a month, or USD 150 a month for private lessons on the same schedule. The course, format and slot are agreed first.', boiler: true },
-      { q: 'How are learners grouped?', a: 'By ability and pace: five to ten learners working towards similar goals, regardless of age or where they live. If no group at the right level suits your time, we recommend one-to-one lessons.', boiler: true }
+      { q: 'How much are Wolverhampton lessons?', a: 'The first is free. Then USD 100 a month for a place in a group of fifteen to twenty, with two live lessons a week or around eight a month, or USD 150 a month for private lessons on the same schedule. The course, format and slot are agreed first.', boiler: true },
+      { q: 'How are learners grouped?', a: 'By ability and pace: fifteen to twenty learners working towards similar goals, regardless of age or where they live. If no group at the right level suits your time, we recommend one-to-one lessons.', boiler: true }
     ]
   },
 

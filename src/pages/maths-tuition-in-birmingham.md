@@ -4,7 +4,7 @@ description: "Online maths tutor in Birmingham, ages 6 to 67: KS2 and SATs, 11 p
 canonical: https://learn.modernagecoders.com/maths-tuition-in-birmingham
 source: src/pages/maths-tuition-in-birmingham.html
 ---
-> Modern Age Coders is an online maths tutor for Birmingham learners aged 6 to 67: KS2 number, times tables and the Year 6 SATs, 11 plus maths, Key Stage 3, GCSE maths at either tier for AQA, Edexcel or OCR, IGCSE, A level Maths and Further Maths, and adults sitting a GCSE maths resit, brushing up for work or helping their children. Classes are matched by level and hold five to ten learners, or a learner can have a teacher to themselves. We follow the national curriculum and the exam specifications, and we build lessons on real measurements. Our Birmingham example: canal lines inside the city boundary measure 64.20 km on OpenStreetMap, against 49.62 km for the named canals of central Venice, yet Venice has far more separate canals. The first lesson is on us; afterwards a seat in a class is USD 100 per month and a private teacher USD 150 per month.
+> Modern Age Coders is an online maths tutor for Birmingham learners aged 6 to 67: KS2 number, times tables and the Year 6 SATs, 11 plus maths, Key Stage 3, GCSE maths at either tier for AQA, Edexcel or OCR, IGCSE, A level Maths and Further Maths, and adults sitting a GCSE maths resit, brushing up for work or helping their children. Classes are matched by level and hold fifteen to twenty learners, or a learner can have a teacher to themselves. We follow the national curriculum and the exam specifications, and we build lessons on real measurements. Our Birmingham example: canal lines inside the city boundary measure 64.20 km on OpenStreetMap, against 49.62 km for the named canals of central Venice, yet Venice has far more separate canals. The first lesson is on us; afterwards a seat in a class is USD 100 per month and a private teacher USD 150 per month.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Birmingham
 
@@ -14,7 +14,7 @@ Birmingham · Maths for ages 6 to 67 · Taught live online
 
 Every Birmingham child hears it sooner or later: the city has more canals than Venice. The Canal & River Trust repeats it too. So we got out a map and measured. Inside the city boundary, the canal lines on OpenStreetMap add up to 64.20 kilometres, which is 39.89 miles. The canals of central Venice, measured the same way inside a rectangle we drew round the historic city, come to 49.62 kilometres. So Birmingham wins? Only if you count length. Count names instead, and that rectangle holds 165 differently named Venetian canals against 11 canal names inside Birmingham. Whether the saying is true depends entirely on what you decide to measure, and deciding what to measure is where real maths starts. That is how we teach maths in Birmingham, from first number bonds to A level calculus.
 
-At a glance: Ages: 6 to 67; Early years and primary: Number bonds to the Year 6 tests; Lower secondary: Key Stage 3 algebra, ratio and geometry; GCSE: Foundation or Higher, AQA, Edexcel or OCR; Grown-ups: GCSE resits, brush-ups, workplace maths; How: Live video, 5 to 10 in a class, or private; Sixth form: A level Maths and Further Maths; City project: Canal length, Birmingham against Venice. Rated 4.9 across 547 Google reviews.
+At a glance: Ages: 6 to 67; Early years and primary: Number bonds to the Year 6 tests; Lower secondary: Key Stage 3 algebra, ratio and geometry; GCSE: Foundation or Higher, AQA, Edexcel or OCR; Grown-ups: GCSE resits, brush-ups, workplace maths; How: Live video, 15 to 20 in a class, or private; Sixth form: A level Maths and Further Maths; City project: Canal length, Birmingham against Venice. Rated 4.9 across 547 Google reviews.
 
 ## GCSE, A level and 11 plus maths
 
@@ -234,7 +234,7 @@ The teachers are in India, which keeps one time all year. Birmingham is five and
 
 - **A teacher who stays** One person follows the learner from week to week and remembers what went wrong.
 - **News after lessons** Parents get a brief, honest note on progress.
-- **Classes of five to ten** Matched by level so nobody is left behind or held back.
+- **Classes of fifteen to twenty** Matched by level so nobody is left behind or held back.
 - **Measurement and data** Canals, maps and timetables alongside the usual exercises.
 - **Private option** One teacher, one learner, for a gap or a deadline.
 - **Reasons, not rules** Learners explain a method before they practise it.
@@ -244,14 +244,14 @@ The teachers are in India, which keeps one time all year. Birmingham is five and
 A flat monthly fee in US dollars for every family outside India. There is no sign-up charge and no fixed term to commit to.
 
 - Free first class: USD 0. A full lesson at the learner's level. An honest summary for you. No payment card.
-- Group batch: USD 100 a month. A class of five to ten at one level. The same teacher each week. Work marked and discussed. Certificate on completion.
+- Group batch: USD 100 a month. A class of fifteen to twenty at one level. The same teacher each week. Work marked and discussed. Certificate on completion.
 - One to one: USD 150 a month. Private teaching. Built around one gap or goal. Good for the run-up to an exam.
 
 ## Questions Birmingham families ask about maths
 
 ### What does maths tuition in Birmingham involve?
 
-Regular live lessons with one teacher, either in a level-matched class of five to ten or privately. The teacher finds what a learner has missed, teaches it properly and checks it has stuck, from KS2 number work and the SATs to GCSE for AQA, Edexcel or OCR and A level.
+Regular live lessons with one teacher, either in a level-matched class of fifteen to twenty or privately. The teacher finds what a learner has missed, teaches it properly and checks it has stuck, from KS2 number work and the SATs to GCSE for AQA, Edexcel or OCR and A level.
 
 ### What is an error interval?
 

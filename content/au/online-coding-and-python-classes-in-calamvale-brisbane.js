@@ -301,7 +301,7 @@ module.exports = {
       { h3: 'Learner at the keyboard', p: 'The teacher watches the shared screen and asks the learner to explain each line.' },
       { h3: 'Follows school terms', p: 'Plans fit the Queensland school year and stop for holidays.' },
       { h3: 'Free first lesson', p: 'A complete trial class that ends with a written suggestion.' },
-      { h3: 'Groups by level', p: 'Five to ten learners at a similar pace, or one to one.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at a similar pace, or one to one.' },
       { h3: 'Two sessions weekly', p: 'Regular times each week, around eight lessons a month.' },
       { h3: 'Brisbane and India', p: 'Teachers work from India: a 5pm Calamvale lesson is 12:30pm India time, all year.' }
     ],
@@ -314,7 +314,7 @@ module.exports = {
     h2: 'What Calamvale classes cost',
     intro: 'Three prices, the same for everyone.',
     first: 'Lesson one is free and finishes with a recommended course.',
-    group: 'Groups: around eight lessons a month with five to ten learners at one level.',
+    group: 'Groups: around eight lessons a month with fifteen to twenty learners at one level.',
     private: 'One to one: around eight lessons a month with a single teacher.',
     closer: 'Calamvale families pay in US dollars after the trial, once the course and weekly time suit them. The pricing page explains holidays, absences and changing format.'
   },
@@ -359,12 +359,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Calamvale learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Is Copilot Studio offered in Calamvale groups?', a: 'No. Copilot Studio is one-to-one only; group learners build agents in Python.' }

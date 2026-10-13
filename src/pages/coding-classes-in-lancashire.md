@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Lancashire, fr
 canonical: https://learn.modernagecoders.com/coding-classes-in-lancashire
 source: src/pages/coding-classes-in-lancashire.html
 ---
-> Lancashire is fourteen councils: the twelve districts of Lancashire County Council plus Blackpool and Blackburn with Darwen. At the 2021 Census they held 1,531,128 people between them, by our own addition of the fourteen published counts. Blackpool and Blackburn are the two largest towns, then Preston, Burnley and Lancaster. Our teachers work live over video from India, and we put each learner in a class by what they can already do, not by the year on their birth certificate. Anyone aged 6 to 67 is welcome, in groups of five to ten or one-to-one, for coding, Python, game making, AI and maths. The Lancashire project comes from the Blackpool Illuminations. The first lesson costs nothing; after that a group place is USD 100 a month and private teaching USD 150 a month.
+> Lancashire is fourteen councils: the twelve districts of Lancashire County Council plus Blackpool and Blackburn with Darwen. At the 2021 Census they held 1,531,128 people between them, by our own addition of the fourteen published counts. Blackpool and Blackburn are the two largest towns, then Preston, Burnley and Lancaster. Our teachers work live over video from India, and we put each learner in a class by what they can already do, not by the year on their birth certificate. Anyone aged 6 to 67 is welcome, in groups of fifteen to twenty or one-to-one, for coding, Python, game making, AI and maths. The Lancashire project comes from the Blackpool Illuminations. The first lesson costs nothing; after that a group place is USD 100 a month and private teaching USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Lancashire
 
@@ -12,11 +12,11 @@ Lancashire / Live online
 
 # Coding classes in Lancashire
 
-**What are the best coding classes in Lancashire?** Lancashire is fourteen councils: the twelve districts of Lancashire County Council plus Blackpool and Blackburn with Darwen. At the 2021 Census they held 1,531,128 people between them, by our own addition of the fourteen published counts. Blackpool and Blackburn are the two largest towns, then Preston, Burnley and Lancaster. Our teachers work live over video from India, and we put each learner in a class by what they can already do, not by the year on their birth certificate. Anyone aged 6 to 67 is welcome, in groups of five to ten or one-to-one, for coding, Python, game making, AI and maths. The Lancashire project comes from the Blackpool Illuminations. The first lesson costs nothing; after that a group place is USD 100 a month and private teaching USD 150 a month.
+**What are the best coding classes in Lancashire?** Lancashire is fourteen councils: the twelve districts of Lancashire County Council plus Blackpool and Blackburn with Darwen. At the 2021 Census they held 1,531,128 people between them, by our own addition of the fourteen published counts. Blackpool and Blackburn are the two largest towns, then Preston, Burnley and Lancaster. Our teachers work live over video from India, and we put each learner in a class by what they can already do, not by the year on their birth certificate. Anyone aged 6 to 67 is welcome, in groups of fifteen to twenty or one-to-one, for coding, Python, game making, AI and maths. The Lancashire project comes from the Blackpool Illuminations. The first lesson costs nothing; after that a group place is USD 100 a month and private teaching USD 150 a month.
 
 Visit Blackpool says the Illuminations began in 1879 with "just eight arc lamps" on the Promenade, and that today the display uses "one million lamps of various types and styles". Every picture in a tableau is built from lamps, and a lamp that can only be on or off cannot show a gentle sunset directly. Something has to decide which lamps to light. This page's project hands that decision to Python, tries three ways of making it, and measures the results two ways. The method that is most accurate lamp by lamp turns out to be the one that looks worst from the Promenade, which is a lesson about measuring the right thing that reaches far beyond lights.
 
-Facts last verified 26 September 2026. Teaching is online; no Lancashire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Lancashire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Lancashire learners usually start
 
@@ -138,7 +138,7 @@ A county this wide has long evening journeys between towns. Online lessons skip 
 - **From any Lancashire home** A back bedroom in Accrington, a dining table in Ormskirk, a study in Clitheroe. The teacher shares a screen and the learner writes the code.
 - **The English school words** Key stages, year groups, GCSEs and A levels are used exactly as Lancashire schools use them, and every lesson is in English.
 - **First lesson on us** A real lesson with real work, followed by a straight answer about level and course. We never ask for card details at this point.
-- **Peers at your stage** Groups of five to ten who are at the same point, drawn from Lancashire, the rest of the UK and further away.
+- **Peers at your stage** Groups of fifteen to twenty who are at the same point, drawn from Lancashire, the rest of the UK and further away.
 - **Your breaks, your calendar** Most learners take two lessons a week, and we pause for whatever holidays your school sets.
 - **Times set in UK time** Lesson times are fixed in UK time all year, and the teacher in India time, several hours ahead, adjusts when the UK clocks change.
 
@@ -149,7 +149,7 @@ A county this wide has long evening journeys between towns. Online lessons skip 
 Skelmersdale or Colne, the price does not change, and it is the same outside India wherever you live.
 
 - First class: USD 0. One complete lesson with real work, then our honest view of the right level and course.
-- Group tuition: USD 100 a month. Roughly eight lessons each month, in a group of five to ten at one level.
+- Group tuition: USD 100 a month. Roughly eight lessons each month, in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. Roughly eight lessons each month, with a teacher to themselves.
 
 We quote and bill in US dollars and do not publish prices in pounds. Billing only starts once the free lesson has settled a course and a weekly slot; the pricing page covers pauses, missed lessons and moving between group and private classes.

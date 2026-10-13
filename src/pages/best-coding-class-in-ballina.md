@@ -16,7 +16,7 @@ Ballina, County Mayo / Live online
 
 In Ballina, 3,347 of the 3,987 households that answered the census question have broadband: 84.0 percent. Across all 867 census towns together the figure is 90.0 percent. Draw those two numbers as bars starting from zero and Ballina's bar is a little shorter, which is the truth: 6.8 percent lower. Start the axis at 80 instead, a choice many chart tools make without asking, and Ballina's bar looks less than half the height of the other. The data has not changed; the picture now exaggerates the gap nine times over. This page draws the same comparison both ways, measures the exaggeration, and shows a second trick that needs no axis at all.
 
-Facts last verified 19 September 2026. Teaching is online; no Ballina branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Ballina branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses for Ballina learners
 
@@ -164,7 +164,7 @@ Charts are cheap to make now. Making them truthful is the part that still needs 
 How it is arranged.
 
 - **In real time** Lessons are live, and the teacher responds to what the learner is building.
-- **Level-based groups** Five to ten learners who share a level, from Mayo, other parts of Ireland and abroad.
+- **Level-based groups** Fifteen to twenty learners who share a level, from Mayo, other parts of Ireland and abroad.
 - **Weekly rhythm** Two lessons in most weeks, about eight in a month, at times set at the start.
 - **School-year planning** Holidays, mid-terms and exams are built into the plan.
 - **At home** A laptop or desktop, a microphone and speakers or a headset, and an internet connection steady enough for live video.
@@ -177,7 +177,7 @@ How it is arranged.
 The full prices.
 
 - First class: USD 0. A full first lesson with the level assessed, at no charge.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons at the same weekly frequency.
 
 Families outside India all pay the same monthly fee in US dollars. Nothing is charged for the first lesson, the first month is charged as the course begins, and holidays, missed lessons and a switch between group and private are explained on the pricing page.
@@ -218,7 +218,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Ballina cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

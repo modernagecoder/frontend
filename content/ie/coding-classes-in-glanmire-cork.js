@@ -161,7 +161,7 @@ module.exports = {
     intro: 'The essentials.',
     cells: [
       { h3: 'Teacher-led', p: 'Every lesson is live, and the teacher follows and helps with each learner\'s code as it grows.' },
-      { h3: 'By level', p: 'Groups of five to ten at the same level, from Glanmire, the rest of Ireland or abroad.' },
+      { h3: 'By level', p: 'Groups of fifteen to twenty at the same level, from Glanmire, the rest of Ireland or abroad.' },
       { h3: 'Two set days', p: 'The same two days every week, about eight lessons in a month.' },
       { h3: 'Built around school', p: 'The plan steps around Christmas, Easter, summer, mid-terms and exam season.' },
       { h3: 'Set-up at home', p: 'A computer with a keyboard, a microphone, headphones or speakers, and internet that can carry a video call without stalling.' },
@@ -174,7 +174,7 @@ module.exports = {
     h2: 'Fees for Glanmire',
     intro: 'In a nutshell.',
     first: 'A free first lesson, level check included.',
-    group: 'A month in a group of five to ten at one level, roughly eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, roughly eight live lessons.',
     private: 'A month of one-to-one lessons at the same frequency.',
     closer: 'Every family outside India pays one fee in US dollars, charged monthly. The trial lesson carries no strings; the monthly charge begins on the course start date, and our pricing page deals with holiday weeks, sessions a learner misses, and moving between shared and private classes.'
   },
@@ -198,8 +198,8 @@ module.exports = {
       { q: 'When do lessons take place?', a: 'After school on weekdays into the evening, and in the daytime at weekends. Every slot is in Irish time. Teachers work from India, where clocks run five and a half hours ahead of Glanmire from late October to late March and four and a half ahead the rest of the year; slots are picked to be sensible in both.' },
       { q: 'Can adults learn too?', a: 'Absolutely: learners up to sixty-seven join us, many of them complete beginners, and after the free lesson they choose a same-level group or one-to-one teaching.' },
       { q: 'Will my child be in a group with other Glanmire children?', a: 'It can happen, but level decides the grouping, so the rest of the class may just as easily be in Galway, Dublin or another country.' },
-      { q: 'What do coding classes in Glanmire cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched by level, pace and goals rather than age or address. When no group fits a workable time, lessons are one to one.', boiler: true }
+      { q: 'What do coding classes in Glanmire cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched by level, pace and goals rather than age or address. When no group fits a workable time, lessons are one to one.', boiler: true }
     ]
   },
 

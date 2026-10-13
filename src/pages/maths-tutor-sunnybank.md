@@ -4,7 +4,7 @@ description: "Online maths tutor for Sunnybank, Brisbane: Prep to Year 12 and ad
 canonical: https://learn.modernagecoders.com/maths-tutor-sunnybank
 source: src/pages/maths-tutor-sunnybank.html
 ---
-> Modern Age Coders is an online maths tutor for Sunnybank learners aged 6 to 67, teaching Australian Curriculum maths from Prep to Year 10, Queensland senior mathematics including Mathematical Methods, and adult maths. Lessons are live video in Brisbane time, one to one or in groups of five to ten at the same level. Our Sunnybank example compares probabilities with and without replacement using Census counts: 0.37146 against 0.37124. Your first lesson is free.
+> Modern Age Coders is an online maths tutor for Sunnybank learners aged 6 to 67, teaching Australian Curriculum maths from Prep to Year 10, Queensland senior mathematics including Mathematical Methods, and adult maths. Lessons are live video in Brisbane time, one to one or in groups of fifteen to twenty at the same level. Our Sunnybank example compares probabilities with and without replacement using Census counts: 0.37146 against 0.37124. Your first lesson is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Maths tutor in Sunnybank
 
@@ -154,7 +154,7 @@ Families in New South Wales see the gap move twice a year; Sunnybank families do
 
 ### One to one or in a group
 
-Private lessons suit a specific gap or an exam. Groups of five to ten at one level suit steady progress, and the shared board shows the teacher every step.
+Private lessons suit a specific gap or an exam. Groups of fifteen to twenty at one level suit steady progress, and the shared board shows the teacher every step.
 
 Holiday revision is available on request.
 
@@ -249,7 +249,7 @@ Fixed weekly times on Brisbane time, which never shifts for daylight saving.
 Families outside India pay a set monthly fee in US dollars, with no joining fee and no contract.
 
 - Free first class: USD 0. A full lesson at the right level. An honest summary. No card required.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher all term. Practice checked. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher all term. Practice checked. Stop after any month.
 - One to one: USD 150 a month. Private teaching. One goal at a time. Helpful before senior exams.
 
 ## Questions about a maths tutor in Sunnybank

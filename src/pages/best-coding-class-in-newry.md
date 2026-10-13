@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Newry learner
 canonical: https://learn.modernagecoders.com/best-coding-class-in-newry
 source: src/pages/best-coding-class-in-newry.html
 ---
-> The Newry settlement had 28,530 usual residents at the 2021 census, NISRA records, in the council area of Newry, Mourne and Down. The Historic Environment Division lists the Cathedral of St Patrick and St Colman on Hill Street at Grade A. Newry learners from six to sixty-seven study with teachers in India on live video, either one to one or with a class of five to ten at the same level, at times that suit school and work in Northern Ireland. The opening lesson carries no charge; afterwards it is USD 100 a month for a class place and USD 150 a month for private lessons.
+> The Newry settlement had 28,530 usual residents at the 2021 census, NISRA records, in the council area of Newry, Mourne and Down. The Historic Environment Division lists the Cathedral of St Patrick and St Colman on Hill Street at Grade A. Newry learners from six to sixty-seven study with teachers in India on live video, either one to one or with a class of fifteen to twenty at the same level, at times that suit school and work in Northern Ireland. The opening lesson carries no charge; afterwards it is USD 100 a month for a class place and USD 150 a month for private lessons.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Newry
 
@@ -12,11 +12,11 @@ Newry, Northern Ireland / Live online
 
 # Coding classes in Newry
 
-**What are the best coding classes in Newry?** The Newry settlement had 28,530 usual residents at the 2021 census, NISRA records, in the council area of Newry, Mourne and Down. The Historic Environment Division lists the Cathedral of St Patrick and St Colman on Hill Street at Grade A. Newry learners from six to sixty-seven study with teachers in India on live video, either one to one or with a class of five to ten at the same level, at times that suit school and work in Northern Ireland. The opening lesson carries no charge; afterwards it is USD 100 a month for a class place and USD 150 a month for private lessons.
+**What are the best coding classes in Newry?** The Newry settlement had 28,530 usual residents at the 2021 census, NISRA records, in the council area of Newry, Mourne and Down. The Historic Environment Division lists the Cathedral of St Patrick and St Colman on Hill Street at Grade A. Newry learners from six to sixty-seven study with teachers in India on live video, either one to one or with a class of fifteen to twenty at the same level, at times that suit school and work in Northern Ireland. The opening lesson carries no charge; afterwards it is USD 100 a month for a class place and USD 150 a month for private lessons.
 
 Northern Ireland keeps a register of its industrial past: 14,778 mills, bridges, dams, locks and other sites with a location, in the Historic Environment Division's Industrial Heritage Record. Our Newry project asks what is unusual about the 281 within 5 kilometres of the city's railway station. Canal features stand out, as you might guess: 33 locks, lock houses, quays and canal bridges, where an average stretch of the country would have fewer than 5. The surprise is tanneries: 11 near Newry against 27 in the whole of the rest of Northern Ireland. Teenagers test both with Fisher's exact test, and learn why the usual shortcut gives absurd answers here.
 
-Facts last verified 23 September 2026. Teaching is online; no Newry branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Newry branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the canal city
 
@@ -175,7 +175,7 @@ Newry learners live in the city and in the towns and villages across a large cou
 - **City and villages** A learner in Camlough and another in Goraghwood can join the same class without a long drive in the dark.
 - **Northern Ireland stages** Learners are placed from primary through the transfer test years and CCEA GCSEs to A level in Year 14, with every lesson given in English.
 - **What the free lesson is** A real coding session with a teacher, after which you get a recommended level, course and weekly time. We take no card details.
-- **Classes of one level** Five to ten learners at a single stage, from Newry, the rest of the UK and abroad, keeping good times available for everyone.
+- **Classes of one level** Fifteen to twenty learners at a single stage, from Newry, the rest of the UK and abroad, keeping good times available for everyone.
 - **Two a week** Two lessons on fixed days each week, around eight a month, with holidays and exams arranged with the teacher.
 - **The time difference** Our teachers keep Indian time all year, so a class starting at five in the afternoon in Newry is at half past nine in the evening for them in summer and half past ten in winter.
 
@@ -186,7 +186,7 @@ Newry learners live in the city and in the towns and villages across a large cou
 Your first lesson is free; after that there is one monthly fee.
 
 - First class: USD 0. A full lesson without charge, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. Roughly eight live lessons a month, in a class of five to ten learners at the same stage.
+- Group tuition: USD 100 a month. Roughly eight live lessons a month, in a class of fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. Roughly eight live lessons a month, with the teacher's full attention on your learner.
 
 Families in Derrymore or Craigmore are billed in US dollars, as are all families outside India, and the site never displays pound prices. You pay nothing until the free lesson is done and a course and weekly slot are fixed; the pricing page sets out how pauses, missed lessons and changes between group and private teaching are handled.
@@ -227,11 +227,11 @@ No. We have no Newry centre and no premises anywhere in the UK, because every le
 
 ### What do Newry lessons cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are learners grouped?
 
-By level, pace and goals rather than age or where they live, with five to ten learners at the same stage. If no group fits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than age or where they live, with fifteen to twenty learners at the same stage. If no group fits the learner's week, we offer one-to-one lessons.
 
 ## Northern Ireland and beyond
 

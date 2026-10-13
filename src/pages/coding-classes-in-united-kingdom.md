@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for children, tee
 canonical: https://learn.modernagecoders.com/coding-classes-in-united-kingdom
 source: src/pages/coding-classes-in-united-kingdom.html
 ---
-> The right class for a UK learner starts from which of the four school systems they are in. England teaches computing through key stages and GCSEs set by several exam boards. In Scotland, National 5, Higher and Advanced Higher now come from Qualifications Scotland, which replaced SQA on 1 February 2026. Wales began teaching a Made-for-Wales GCSE in Computer Science in September 2025, and Northern Ireland sets its own qualifications through CCEA. Even the year a child starts school differs: a child born on 1 March 2022 usually starts in September 2026 in England and in August 2027 in Scotland. Modern Age Coders teaches live online from India, for ages 6 to 67, in groups of five to ten or one to one. The first lesson costs nothing; after that a group place is USD 100 a month and one-to-one teaching USD 150.
+> The right class for a UK learner starts from which of the four school systems they are in. England teaches computing through key stages and GCSEs set by several exam boards. In Scotland, National 5, Higher and Advanced Higher now come from Qualifications Scotland, which replaced SQA on 1 February 2026. Wales began teaching a Made-for-Wales GCSE in Computer Science in September 2025, and Northern Ireland sets its own qualifications through CCEA. Even the year a child starts school differs: a child born on 1 March 2022 usually starts in September 2026 in England and in August 2027 in Scotland. Modern Age Coders teaches live online from India, for ages 6 to 67, in groups of fifteen to twenty or one to one. The first lesson costs nothing; after that a group place is USD 100 a month and one-to-one teaching USD 150.
 
 [Home](/) / United Kingdom
 
@@ -12,11 +12,11 @@ England, Scotland, Wales and Northern Ireland / Live online
 
 # Coding classes in the UK
 
-**What are the best coding classes in the UK?** The right class for a UK learner starts from which of the four school systems they are in. England teaches computing through key stages and GCSEs set by several exam boards. In Scotland, National 5, Higher and Advanced Higher now come from Qualifications Scotland, which replaced SQA on 1 February 2026. Wales began teaching a Made-for-Wales GCSE in Computer Science in September 2025, and Northern Ireland sets its own qualifications through CCEA. Even the year a child starts school differs: a child born on 1 March 2022 usually starts in September 2026 in England and in August 2027 in Scotland. Modern Age Coders teaches live online from India, for ages 6 to 67, in groups of five to ten or one to one. The first lesson costs nothing; after that a group place is USD 100 a month and one-to-one teaching USD 150.
+**What are the best coding classes in the UK?** The right class for a UK learner starts from which of the four school systems they are in. England teaches computing through key stages and GCSEs set by several exam boards. In Scotland, National 5, Higher and Advanced Higher now come from Qualifications Scotland, which replaced SQA on 1 February 2026. Wales began teaching a Made-for-Wales GCSE in Computer Science in September 2025, and Northern Ireland sets its own qualifications through CCEA. Even the year a child starts school differs: a child born on 1 March 2022 usually starts in September 2026 in England and in August 2027 in Scotland. Modern Age Coders teaches live online from India, for ages 6 to 67, in groups of fifteen to twenty or one to one. The first lesson costs nothing; after that a group place is USD 100 a month and one-to-one teaching USD 150.
 
 Type "what school year is a child born on 1 March 2022 in" into a search box or an AI assistant and you may well get one confident answer. In the UK there are at least three. England, Scotland and Northern Ireland each publish their own rule for when a child starts school, and the rules cut the year in different places: 1 September in England, 1 March in Scotland, 2 July in Northern Ireland. A child born on the wrong side of one of those days starts school a year earlier or later than a child born the day before. Wales follows the English year, but one Welsh council has just changed the term in which children start full time. This page turns those published rules into a small program, then tries to break it, because the gap between a rule written in English and a rule written in code is where most real software goes wrong.
 
-Facts last verified 19 September 2026. Teaching is online; no United Kingdom branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no United Kingdom branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses across four school systems
 
@@ -188,7 +188,7 @@ An online class reaches all four nations at once, with no journey and no centre 
 - **At home** A learner in Truro and a learner in Lerwick join the same group from home, and neither travels anywhere.
 - **Your school words kept** Reception and Year 9, P7 and S4, Year 8 and the transfer test: teachers use the stages of the learner's own nation, and all teaching is in English.
 - **A free first lesson** A real task, then a suggested level, course and weekly hour. No card details are asked for.
-- **Groups across borders** Five to ten learners at one level, drawn from all four nations and other countries, so every stage has a group at a workable hour.
+- **Groups across borders** Fifteen to twenty learners at one level, drawn from all four nations and other countries, so every stage has a group at a workable hour.
 - **Around school holidays** Two lessons a week, around eight a month, with pauses for holidays and exam weeks agreed with the family. Each council publishes its own term dates, and the plan follows the learner's.
 - **Teaching from India** UK time runs five and a half hours behind India time in winter and four and a half in summer. The clocks go back on 25 October 2026 and forward on 28 March 2027, and lesson times are always confirmed in UK time.
 
@@ -199,7 +199,7 @@ An online class reaches all four nations at once, with no journey and no centre 
 Three prices, stated once.
 
 - First class: USD 0. One lesson on a real problem, ending in a placement and a course suggestion.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, with five to ten learners at the same level.
+- Group tuition: USD 100 a month. A month of lessons, usually eight, with fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. A month of lessons, usually eight, with one teacher for one learner.
 
 UK families pay in US dollars, the rate used for every country outside India, with no separate price list in pounds and no difference between the four nations. Payment starts only after the free lesson has settled a course and a weekly hour. The pricing page covers pauses, format changes and missed lessons.
@@ -240,7 +240,7 @@ No. All teaching is live and online, and no UK premises or office is claimed any
 
 ### What do coding classes in the UK cost?
 
-Nothing for the first lesson. After that, a group place costs USD 100 a month for two live lessons a week, around eight in a month, in a group of five to ten, and one-to-one teaching costs USD 150 a month on the same rhythm. Course, format and weekly hour are settled before any payment.
+Nothing for the first lesson. After that, a group place costs USD 100 a month for two live lessons a week, around eight in a month, in a group of fifteen to twenty, and one-to-one teaching costs USD 150 a month on the same rhythm. Course, format and weekly hour are settled before any payment.
 
 ### How many learners are in a group?
 

@@ -189,7 +189,7 @@ module.exports = {
       { h3: 'Coast and valley', p: 'A learner in Bucasia and another in Marian can work together in one class, each from their own home.' },
       { h3: 'Queensland school terms', p: 'Lessons are planned around Queensland year levels and terms, and senior students can relate projects to the subjects they study. Teaching is in English.' },
       { h3: 'A trial that counts', p: 'The free session is a real lesson that ends with a recommended level, course and regular time. You are never asked for card details.' },
-      { h3: 'Same-level classmates', p: 'Five to ten learners at one stage, from Mackay and elsewhere, so regional students learn alongside peers at their level.' },
+      { h3: 'Same-level classmates', p: 'Fifteen to twenty learners at one stage, from Mackay and elsewhere, so regional students learn alongside peers at their level.' },
       { h3: 'Regular schedule', p: 'Two lessons a week, about eight a month, at a fixed time, with school holidays and exam weeks agreed in advance.' },
       { h3: 'Teachers in India', p: 'Mackay never changes its clocks, so a 5pm lesson always begins at 12:30pm where our teachers are.' }
     ],
@@ -200,7 +200,7 @@ module.exports = {
     h2: 'What classes cost in Mackay',
     intro: 'Three prices, plainly stated.',
     first: 'A full first lesson that costs nothing and ends with a level, a course and a time.',
-    group: 'A month of classes, typically eight, alongside five to ten learners at your stage.',
+    group: 'A month of classes, typically eight, alongside fifteen to twenty learners at your stage.',
     private: 'About eight classes a month on the same pattern, one teacher with one learner.',
     closer: 'Fees are in US dollars wherever you live, India apart, so families in Slade Point and Beaconsfield get the same invoice and there is no regional rate. We invoice only after the trial agrees a course and a time; the pricing page covers holidays, absences and moving between group and private lessons.'
   },
@@ -225,8 +225,8 @@ module.exports = {
       { q: 'When are lessons for Mackay learners?', a: 'Commonly after school or on Saturday morning, chosen at the trial and quoted in Mackay time. Queensland has no daylight saving, so the gap to our India-based teachers stays the same all year.' },
       { q: 'Can younger children start coding?', a: 'Yes. From age six children work in Scratch and with picture-based tasks, and typed Python follows when they are ready. This page is aimed at teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Mackay?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Mackay Python classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Mackay Python classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

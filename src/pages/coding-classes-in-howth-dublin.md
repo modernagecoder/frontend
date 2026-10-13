@@ -16,7 +16,7 @@ Howth, County Dublin / Live online
 
 Fingal County Council counts walkers on the paths over Howth Head and publishes monthly totals for four counters: Summit, Balscadden, Baily and Red Rock. Read them closely and some numbers turn up twice. On the Baily path the count for May 2020 was 11,600, and so was June, and every month after it to November. In a real count of thousands of walkers, two months landing on exactly the same figure is rare, and seven in a row is not chance. This page teaches a learner to find repeats like these, measure how unlikely they are, and decide what they mean for any total built on them.
 
-Facts last verified 20 September 2026. Teaching is online; no Howth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Howth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four first courses for Howth
 
@@ -149,7 +149,7 @@ Adding up a column is easy. Knowing which cells deserve to be added is the skill
 At a glance.
 
 - **Live teaching** The teacher leads every lesson in real time and checks each learner's code while it is being written.
-- **Groups by level** Five to ten learners at one level, joining from Howth, other parts of Ireland or abroad.
+- **Groups by level** Fifteen to twenty learners at one level, joining from Howth, other parts of Ireland or abroad.
 - **Two fixed days** The same two days each week, about eight lessons over a month.
 - **Term breaks** Holidays, mid-term weeks and exam time are built into the plan.
 - **At the desk** A laptop or desktop, a microphone, headphones or speakers, and broadband steady enough for a video call.
@@ -162,7 +162,7 @@ At a glance.
 Without fuss.
 
 - First class: USD 0. A free opening lesson with a check of the learner's level.
-- Group tuition: USD 100 a month. One month in a same-level group of five to ten, about eight live lessons.
+- Group tuition: USD 100 a month. One month in a same-level group of fifteen to twenty, about eight live lessons.
 - Private tuition: USD 150 a month. One month of private lessons on the same schedule.
 
 The US dollar fee is the same for every family outside India and is paid monthly. Nothing is owed for the free lesson, the monthly charge starts with the course, and the pricing page explains how holidays, missed lessons and a switch between group and private lessons work.
@@ -199,11 +199,11 @@ Not necessarily; we group by level, so the others may be anywhere in Ireland or 
 
 ### What do coding classes in Howth cost?
 
-The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.
+The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and goals rather than age or address. When no group fits a workable time, lessons are one to one.
+Fifteen to twenty learners, matched on level, pace and goals rather than age or address. When no group fits a workable time, lessons are one to one.
 
 ## Around Dublin Bay from Howth
 

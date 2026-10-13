@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Haagse Hout, The Hagu
 canonical: https://learn.modernagecoders.com/coding-classes-in-haagse-hout
 source: src/pages/coding-classes-in-haagse-hout.html
 ---
-> Coding classes in Haagse Hout reach the wooded north-east of The Hague: four wijken, all four read for this page. Wijk 24 Haagse Bos holds 486 people, 15 of them under fifteen, and that share is published as 3.09 percent. Two wijken away, a band of 1,465 people is published as 9.5 percent and a band of 2,560 as 17. The count with the fewest people behind it carries the most decimal places, which is a fact about formatting rather than about the world. Modern Age Coders teaches live online in English from Bezuidenhout to Waalsdorp, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Haagse Hout reach the wooded north-east of The Hague: four wijken, all four read for this page. Wijk 24 Haagse Bos holds 486 people, 15 of them under fifteen, and that share is published as 3.09 percent. Two wijken away, a band of 1,465 people is published as 9.5 percent and a band of 2,560 as 17. The count with the fewest people behind it carries the most decimal places, which is a fact about formatting rather than about the world. Modern Age Coders teaches live online in English from Bezuidenhout to Waalsdorp, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [The Hague](/coding-classes-in-the-hague) / Haagse Hout
 
@@ -12,11 +12,11 @@ Haagse Hout, Den Haag / Live online
 
 # Coding classes in Haagse Hout, where the smallest number on the page is printed with the most digits
 
-**What are the best coding classes in Haagse Hout?** Coding classes in Haagse Hout reach the wooded north-east of The Hague: four wijken, all four read for this page. Wijk 24 Haagse Bos holds 486 people, 15 of them under fifteen, and that share is published as 3.09 percent. Two wijken away, a band of 1,465 people is published as 9.5 percent and a band of 2,560 as 17. The count with the fewest people behind it carries the most decimal places, which is a fact about formatting rather than about the world. Modern Age Coders teaches live online in English from Bezuidenhout to Waalsdorp, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Haagse Hout?** Coding classes in Haagse Hout reach the wooded north-east of The Hague: four wijken, all four read for this page. Wijk 24 Haagse Bos holds 486 people, 15 of them under fifteen, and that share is published as 3.09 percent. Two wijken away, a band of 1,465 people is published as 9.5 percent and a band of 2,560 as 17. The count with the fewest people behind it carries the most decimal places, which is a fact about formatting rather than about the world. Modern Age Coders teaches live online in English from Bezuidenhout to Waalsdorp, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Three point zero nine percent. It is fifteen children. Fifteen is a number you could count twice in an afternoon and get a different answer, because a family moved in August; the third digit of that percentage moves if a single one of them does. Meanwhile 2,560 children in the Benoordenhout get a flat 17 percent, and a stadsdeel total for 2022 exists in two published versions that differ by more than five hundred people. None of that is anybody being careless. It is that the way a number is printed carries no information at all about how much weight it will bear, and reading it as though it does is one of the easiest expensive mistakes available.
 
-Facts last verified 10 September 2026. Teaching is online; no Haagse Hout branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 September 2026. Teaching is online; no Haagse Hout branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the wooded side of the city
 
@@ -184,18 +184,18 @@ The Haagse Bos runs through the middle of this stadsdeel and separates Bezuidenh
 - **The forest is not a shortcut after dark** A route that looks short on a map goes around or through a long stretch of trees. For a weekly evening commitment that is the difference between something a family sustains and something that lapses quietly in the second month.
 - **Dutch stays for the school words** Groep, havo, vwo and profielkeuze keep their Dutch inside an English lesson. Those are the words printed on the paperwork a child brings home, and translating them would only mean translating them back.
 - **A first hour that is taught, not sold** The learner is given something to do while a teacher watches how they go about it. Out of that come three things: the level, the course that starts there, and the weekly slot. Nothing is charged and no card details are taken.
-- **Grouped by stage, drawn from everywhere** Five to ten learners at one level. No single wijk holds five people at a specific narrow stage in a specific month, which is why the pool is not local and why there is a class to join rather than a queue.
+- **Grouped by stage, drawn from everywhere** Fifteen to twenty learners at one level. No single wijk holds five people at a specific narrow stage in a specific month, which is why the pool is not local and why there is a class to join rather than a queue.
 - **Two lessons a week, holidays already known** About eight in a month, at one hour that does not move. Zuid-Holland takes regio Midden dates, published a long way ahead, so the breaks go into the plan at the beginning instead of arriving as a problem.
 - **The offset moves twice a year, from this end** Three and a half hours ahead under Dutch summer time and four and a half outside it. India has held one time for decades, so every bit of that change is made here, and neither value costs a family an hour it wanted.
 
-**Four wijken, four very different populations of children** The Benoordenhout has 2,560 residents under fifteen, Mariahoeve en Marlot 2,320, Bezuidenhout 2,290 and the Haagse Bos 15. Three of those are close together in count while their shares run from 12 to 17 percent, and the fourth is a rounding error in a forest. What none of the four supplies is five to ten learners at one particular stage of one particular subject in one particular month, because a stage is narrow no matter how many children stand near it. So the pool is worldwide and the ages run from 6 to 67.
+**Four wijken, four very different populations of children** The Benoordenhout has 2,560 residents under fifteen, Mariahoeve en Marlot 2,320, Bezuidenhout 2,290 and the Haagse Bos 15. Three of those are close together in count while their shares run from 12 to 17 percent, and the fourth is a rounding error in a forest. What none of the four supplies is fifteen to twenty learners at one particular stage of one particular subject in one particular month, because a stage is narrow no matter how many children stand near it. So the pool is worldwide and the ages run from 6 to 67.
 
 ## The fee, in dollars, on both sides of the Bos
 
 Printed here rather than kept for a phone call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate, quoted in dollars, with no euro edition, so an address in the Nassaubuurt is quoted exactly what one in Kampen is. Nothing is paid until the free lesson has produced a course and an hour, and payment is arranged over WhatsApp afterwards. Pausing, switching plan and missing a week are all written out on the pricing page.
@@ -236,7 +236,7 @@ No, and none is claimed here, elsewhere in The Hague or anywhere in the Netherla
 
 ### What do Haagse Hout coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

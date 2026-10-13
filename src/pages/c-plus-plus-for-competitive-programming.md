@@ -16,7 +16,7 @@ Book a Free CP Demo ClassSee the Roadmap**CF/CC**Codeforces & CodeChef**5–8**S
 
 ## Quick answer
 
-**Modern Age Coders' competitive-programming course teaches CP in C++ for Codeforces, CodeChef, AtCoder and the ICPC.** You learn fast input/output, the STL, time- and space-complexity analysis, and the problem-solving patterns that win contests, binary search, two pointers, greedy, dynamic programming and graphs, with regular contest practice, virtual contests and upsolving. Classes are live in small batches of 5–8 with a mentor who analyses your solutions. Group plans start at ₹1,499/month, and every learner gets a free demo class first.
+**Modern Age Coders' competitive-programming course teaches CP in C++ for Codeforces, CodeChef, AtCoder and the ICPC.** You learn fast input/output, the STL, time- and space-complexity analysis, and the problem-solving patterns that win contests, binary search, two pointers, greedy, dynamic programming and graphs, with regular contest practice, virtual contests and upsolving. Classes are live in batches of 15–20 with a mentor who analyses your solutions. Group plans start at ₹1,499/month, and every learner gets a free demo class first.
 
 Start Today
 
@@ -108,7 +108,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo.
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 learners per batch
+- 15–20 learners per batch
 - Live CP + contest review
 - Recorded class access
 - Completion certificate
@@ -119,7 +119,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 learners per batch
+- Up to 6 learners per batch
 - More personal mentoring
 - Recorded class access
 - Upsolving & certificate
@@ -183,7 +183,7 @@ Yes, significantly. Competitive programming sharpens exactly the problem-solving
 
 How much does the competitive programming course cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
 
 Are the CP classes live with contest practice?+
 

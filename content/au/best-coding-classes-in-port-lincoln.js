@@ -190,7 +190,7 @@ module.exports = {
     h2: 'What coding classes cost in Port Lincoln',
     intro: 'The full price list in three lines.',
     first: 'A free first lesson that ends with a suggested stage, course and time.',
-    group: 'A month of lessons, normally eight, with five to ten learners at your level.',
+    group: 'A month of lessons, normally eight, with fifteen to twenty learners at your level.',
     private: 'Roughly eight one-to-one lessons a month with a single teacher.',
     closer: 'There is no regional surcharge for Port Lincoln: the US dollar rate matches what families in every other state are charged. Nothing is charged until the trial has fixed a course and a time; the pricing page explains holidays, missed lessons and changing format.'
   },
@@ -215,7 +215,7 @@ module.exports = {
       { q: 'What time do lessons run for Port Lincoln?', a: 'After school, in the evening or at weekends, agreed during the trial and written in South Australian time. India time is four hours behind Port Lincoln in winter and five in summer.' },
       { q: 'Do you teach primary school children too?', a: 'We do, starting at age 6 with Scratch and other visual tools, but the project on this page is aimed at teenagers and adults.' },
       { q: 'Is there a Modern Age Coders office in Port Lincoln?', a: 'No, and we do not claim one. Teaching is live and online only, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a steady connection, and the contact number on this page is an Indian number.', boiler: true },
-      { q: 'What do Port Lincoln coding classes cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
+      { q: 'What do Port Lincoln coding classes cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
       { q: 'How large are the groups?', a: 'Between five and ten learners, matched on level, pace and goals rather than on age or postcode. When no group fits a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },

@@ -4,7 +4,7 @@ description: "Live online coding, Python, data and maths classes across the East
 canonical: https://learn.modernagecoders.com/coding-classes-in-east-riding-of-yorkshire
 source: src/pages/coding-classes-in-east-riding-of-yorkshire.html
 ---
-> The East Riding of Yorkshire, with Hull, held 609,229 people at the 2021 Census: 342,215 in the East Riding council area and 267,014 in the city. Hull's built-up area is by far the largest place, spilling out into Hessle, Cottingham and Willerby, and beyond it lie Bridlington on the coast, Beverley, Goole, Driffield and a wide farming landscape of small towns and villages. Our lessons reach all of it the same way: a teacher in India teaches live over video; learners are grouped by what they can do, not by age; anyone from 6 to 67 can join; and there is a choice of a group of five to ten or one-to-one teaching. We teach programming, Python, data, statistics and maths. The East Riding project begins at Bempton Cliffs. The first lesson is free; then it is USD 100 a month for a group or USD 150 for private lessons.
+> The East Riding of Yorkshire, with Hull, held 609,229 people at the 2021 Census: 342,215 in the East Riding council area and 267,014 in the city. Hull's built-up area is by far the largest place, spilling out into Hessle, Cottingham and Willerby, and beyond it lie Bridlington on the coast, Beverley, Goole, Driffield and a wide farming landscape of small towns and villages. Our lessons reach all of it the same way: a teacher in India teaches live over video; learners are grouped by what they can do, not by age; anyone from 6 to 67 can join; and there is a choice of a group of fifteen to twenty or one-to-one teaching. We teach programming, Python, data, statistics and maths. The East Riding project begins at Bempton Cliffs. The first lesson is free; then it is USD 100 a month for a group or USD 150 for private lessons.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / East Riding of Yorkshire
 
@@ -12,11 +12,11 @@ East Riding of Yorkshire and Hull / Live online
 
 # Coding classes in the East Riding of Yorkshire
 
-**What are the best coding classes in the East Riding of Yorkshire?** The East Riding of Yorkshire, with Hull, held 609,229 people at the 2021 Census: 342,215 in the East Riding council area and 267,014 in the city. Hull's built-up area is by far the largest place, spilling out into Hessle, Cottingham and Willerby, and beyond it lie Bridlington on the coast, Beverley, Goole, Driffield and a wide farming landscape of small towns and villages. Our lessons reach all of it the same way: a teacher in India teaches live over video; learners are grouped by what they can do, not by age; anyone from 6 to 67 can join; and there is a choice of a group of five to ten or one-to-one teaching. We teach programming, Python, data, statistics and maths. The East Riding project begins at Bempton Cliffs. The first lesson is free; then it is USD 100 a month for a group or USD 150 for private lessons.
+**What are the best coding classes in the East Riding of Yorkshire?** The East Riding of Yorkshire, with Hull, held 609,229 people at the 2021 Census: 342,215 in the East Riding council area and 267,014 in the city. Hull's built-up area is by far the largest place, spilling out into Hessle, Cottingham and Willerby, and beyond it lie Bridlington on the coast, Beverley, Goole, Driffield and a wide farming landscape of small towns and villages. Our lessons reach all of it the same way: a teacher in India teaches live over video; learners are grouped by what they can do, not by age; anyone from 6 to 67 can join; and there is a choice of a group of fifteen to twenty or one-to-one teaching. We teach programming, Python, data, statistics and maths. The East Riding project begins at Bempton Cliffs. The first lesson is free; then it is USD 100 a month for a group or USD 150 for private lessons.
 
 The RSPB says that around half a million seabirds gather on the chalk cliffs at Bempton between March and August to raise their young. Nobody counts half a million birds one by one. The practical question, for a scientist or a curious teenager, is how few parts of the cliff you can count and still get a trustworthy total. This page's project builds a model cliff in Python, with dense ledges, middling stretches and sparse faces, and compares two ways of choosing which sections to count. The difference is dramatic: the same twenty counts can give an estimate that is often badly wrong, or one that is almost always close, depending only on how the sections were chosen.
 
-Facts last verified 26 September 2026. Teaching is online; no East Riding of Yorkshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no East Riding of Yorkshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where East Riding learners begin
 
@@ -142,7 +142,7 @@ The East Riding is wide and thinly settled. Online lessons make every town as cl
 - **Right where you are** A kitchen in Hedon, a bedroom in Brough, a desk in Market Weighton. The learner types while the teacher watches the same screen.
 - **Your school's vocabulary** Year groups, GCSE options and A levels are named as East Riding and Hull schools name them, in English.
 - **Free first session** A complete lesson of real work, then a clear recommendation. No payment details are needed.
-- **Classmates at your level** Five to ten learners at the same stage, gathered widely, so no one is left behind or held back.
+- **Classmates at your level** Fifteen to twenty learners at the same stage, gathered widely, so no one is left behind or held back.
 - **Breaks with your school** Most learners have two lessons a week and stop when their own school stops.
 - **UK time on everything** Our teachers keep India time, 5.5 hours ahead of UK winter time and 4.5 ahead of UK summer time; every time we send you is UK time.
 
@@ -153,7 +153,7 @@ The East Riding is wide and thinly settled. Online lessons make every town as cl
 The same price in every East Riding town and in Hull, and in every country except India.
 
 - First class: USD 0. A full lesson with real work, ending in a recommended level and course.
-- Group tuition: USD 100 a month. About eight lessons each month in a group of five to ten at one level.
+- Group tuition: USD 100 a month. About eight lessons each month in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. About eight lessons each month with one teacher and one learner.
 
 Fees are charged in US dollars to every family outside India; we have no pound list. The first charge comes after the free lesson, when the course and weekly time are fixed, and the pricing page explains pausing, missed lessons and moving between group and private.

@@ -180,7 +180,7 @@ module.exports = {
       { h3: 'Booked in Queensland time', p: 'With no daylight saving in Queensland, a lesson slot stays at the same Mount Isa hour all year.' },
       { h3: 'Fitted to Queensland years', p: 'Teachers know the Queensland year levels, including senior students working towards the QCE, and teach in English.' },
       { h3: 'Programming first, paperwork never', p: 'The free session is hands-on coding. You then receive our suggestion for a course and time, and we never ask for payment details.' },
-      { h3: 'Level-matched groups', p: 'Five to ten learners at one stage, gathered from across Australia and beyond so every level has a usable time.' },
+      { h3: 'Level-matched groups', p: 'Fifteen to twenty learners at one stage, gathered from across Australia and beyond so every level has a usable time.' },
       { h3: 'Twice a week', p: 'Close to eight lessons a month, with holidays and exam weeks planned well ahead.' },
       { h3: 'Rosters welcome', p: 'Adults on rotating shifts can switch group slots or choose private lessons instead.' }
     ],
@@ -191,7 +191,7 @@ module.exports = {
     h2: 'Prices for coding classes in Mount Isa',
     intro: 'All three options at a glance.',
     first: 'A free lesson, after which we suggest a level, a course and a time.',
-    group: 'Roughly eight group lessons a month, five to ten learners at one level.',
+    group: 'Roughly eight group lessons a month, fifteen to twenty learners at one level.',
     private: 'Roughly eight one-to-one lessons a month with the same teacher.',
     closer: 'Distance adds no surcharge: Mount Isa families pay the US dollar rate charged everywhere else in Australia. No money is taken until the trial has agreed a course and time; holidays, missed lessons and format changes are covered on the pricing page.'
   },
@@ -216,7 +216,7 @@ module.exports = {
       { q: 'When do lessons run for Mount Isa?', a: 'After school, in the evening or at weekends, agreed during the trial and written in Queensland time. India time is four and a half hours behind Mount Isa all year.' },
       { q: 'Do you teach children under 12?', a: 'Yes, from age 6 with visual tools such as Scratch, while the sky view project here suits teenagers and adults.' },
       { q: 'Is there a Modern Age Coders office in Mount Isa?', a: 'No, and we do not claim one. Teaching is live and online only, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a steady connection, and the contact number on this page is an Indian number.', boiler: true },
-      { q: 'What do Mount Isa coding classes cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
+      { q: 'What do Mount Isa coding classes cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
       { q: 'How large are the groups?', a: 'Between five and ten learners, matched on level, pace and goals rather than on age or postcode. When no group fits a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },

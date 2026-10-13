@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'AI and programming classes in Harborne, Birmingham',
   capsuleQ: 'Which are the best AI and programming classes in Harborne?',
-  capsule: 'The 2021 census recorded 23,002 usual residents in Birmingham\'s Harborne ward. Postcodes.io records Harborne in the B17 postcode district, with Edgbaston in B15 and Weoley Castle in B29. From age six right up to 67, AI, programming, Python, vibe coding and maths are taught here on video calls by tutors working in India, to a single learner or to a class of five to ten at matching level. We teach the reasoning behind a method before the tool that runs it, so learners can tell what a model has actually found. The opening lesson is free and ends with a recommended course. The Harborne project hands a mixture model the floor areas of 4,422 mapped buildings and asks it to discover the groups hidden inside them, with a result nobody predicted. Tuition after that runs to USD 100 each month in a class, or USD 150 each month for a tutor of your own.',
+  capsule: 'The 2021 census recorded 23,002 usual residents in Birmingham\'s Harborne ward. Postcodes.io records Harborne in the B17 postcode district, with Edgbaston in B15 and Weoley Castle in B29. From age six right up to 67, AI, programming, Python, vibe coding and maths are taught here on video calls by tutors working in India, to a single learner or to a class of fifteen to twenty at matching level. We teach the reasoning behind a method before the tool that runs it, so learners can tell what a model has actually found. The opening lesson is free and ends with a recommended course. The Harborne project hands a mixture model the floor areas of 4,422 mapped buildings and asks it to discover the groups hidden inside them, with a result nobody predicted. Tuition after that runs to USD 100 each month in a class, or USD 150 each month for a tutor of your own.',
   lead: 'Measure the floor area of every building in a neighbourhood and you get one long, lumpy list. You might guess it is really several lists mixed together: houses, garages, shops, big blocks. A Gaussian mixture model turns that guess into a calculation. It assumes the data is a blend of a few bell curves and works out where each curve sits, how wide it is and how much of the data belongs to it. The fitting method, called expectation-maximisation, alternates between two steps: guess which curve each building belongs to, then move the curves to fit their buildings better. This project runs it on Harborne\'s buildings as drawn on OpenStreetMap.',
   wa: 'Hello Modern Age Coders, could we book a free AI or programming lesson for a learner in Harborne?',
 
@@ -158,7 +158,7 @@ module.exports = {
       { h3: 'Hands stay on the keyboard', p: 'Pupils produce every line themselves. Our tutor sees it live and keeps asking what the numbers mean.' },
       { h3: 'Pitched from lesson one', p: 'The free trial reveals the level, and exam boards are noted if one applies.' },
       { h3: 'Free to try', p: 'The first lesson carries no fee and finishes with a course suggestion.' },
-      { h3: 'Level-matched classes', p: 'Groups of five to ten from across the UK, all at one stage.' },
+      { h3: 'Level-matched classes', p: 'Groups of fifteen to twenty from across the UK, all at one stage.' },
       { h3: 'Two sessions weekly', p: 'None during school holidays.' },
       { h3: 'Fixed time', p: 'We absorb the UK clock changes so your slot holds.' }
     ],

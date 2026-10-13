@@ -1,10 +1,10 @@
 ---
 title: "Coding Classes for 12 Year Olds: Python, Web, Apps and AI | Modern Age Coders"
-description: "Live online coding classes for 12 year olds: Python projects, HTML, CSS and JavaScript sites, first apps and AI projects. 1 hour, batch of 5 to 10 or 1-on-1."
+description: "Live online coding classes for 12 year olds: Python projects, HTML, CSS and JavaScript sites, first apps and AI projects. 1 hour, batch of 15 to 20 or 1-on-1."
 canonical: https://learn.modernagecoders.com/coding-for-12-year-olds
 source: src/pages/coding-for-12-year-olds.html
 ---
-> Live online coding classes for 12 year olds: Python projects, HTML, CSS and JavaScript sites, first apps and AI projects. 1 hour, batch of 5 to 10 or 1-on-1.
+> Live online coding classes for 12 year olds: Python projects, HTML, CSS and JavaScript sites, first apps and AI projects. 1 hour, batch of 15 to 20 or 1-on-1.
 
 For parents of 12 year olds · Class 7
 
@@ -14,7 +14,7 @@ Twelve is the bridge. Still a kid, but ready for real tools: Python with files a
 
 [Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Per live class, 1:1 or group**10 weeks**To a deployed webpage + Python project12Age cohortPython fluentJavaScript introFirst AI datasetIn short
 
-Coding classes for 12 year olds at Modern Age Coders are live, one hour long, in a batch of 5 to 10 children of the same age or 1-on-1. Twelve is the bridge year: a child who came from Scratch finishes the move to Python, builds a website with JavaScript and ships a first mobile app, and one who is new to coding starts in Python straight away. Game projects stay in the plan because they are still the fastest way to teach logic at this age. See [Python for 12 year olds](/python-for-12-year-olds) and [coding for Class 7](/coding-for-class-7) for the two most common starting points.
+Coding classes for 12 year olds at Modern Age Coders are live, one hour long, in a batch of 15 to 20 children of the same age or 1-on-1. Twelve is the bridge year: a child who came from Scratch finishes the move to Python, builds a website with JavaScript and ships a first mobile app, and one who is new to coding starts in Python straight away. Game projects stay in the plan because they are still the fastest way to teach logic at this age. See [Python for 12 year olds](/python-for-12-year-olds) and [coding for Class 7](/coding-for-class-7) for the two most common starting points.
 
 Courses matched for this level
 

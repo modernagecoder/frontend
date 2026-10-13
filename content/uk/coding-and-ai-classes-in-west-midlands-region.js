@@ -65,7 +65,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in the West Midlands region',
   capsuleQ: 'What are the best coding and AI classes in the West Midlands region?',
-  capsule: 'The West Midlands region counted 5,950,757 residents at the 2021 census, in 30 local authorities. Birmingham, at 1,121,375, is the largest built-up area in England outside London, and Coventry, Stoke-on-Trent and Wolverhampton follow, with Telford, Solihull, Worcester, West Bromwich, Tamworth and Shrewsbury among the big towns. We teach every lesson live by video from India. Learners from 6 to 67 take coding, AI, Python and maths, individually or in a same-level group of five to ten. The first lesson is on us and settles the starting point. This page links our pages across the region and runs a project on a Shropshire weather record. Continuing is USD 100 a month in a group or USD 150 a month one-to-one.',
+  capsule: 'The West Midlands region counted 5,950,757 residents at the 2021 census, in 30 local authorities. Birmingham, at 1,121,375, is the largest built-up area in England outside London, and Coventry, Stoke-on-Trent and Wolverhampton follow, with Telford, Solihull, Worcester, West Bromwich, Tamworth and Shrewsbury among the big towns. We teach every lesson live by video from India. Learners from 6 to 67 take coding, AI, Python and maths, individually or in a same-level group of fifteen to twenty. The first lesson is on us and settles the starting point. This page links our pages across the region and runs a project on a Shropshire weather record. Continuing is USD 100 a month in a group or USD 150 a month one-to-one.',
   lead: 'At Shawbury in Shropshire the Met Office has kept monthly temperature records since 1946. Gardeners and farmers care about one number above most others: how many days of the year are warm enough for grass and crops to grow. A common rule of thumb puts the line at an average of about 5.5 or 6 degrees. Temperatures are published month by month, though, so the exact days when the average climbs past the line in spring and falls back below it in autumn have to be estimated. Has that growing season changed between the thirty years from 1961 to 1990 and the thirty from 1991 to 2020? This page\'s project estimates both in Python, and shows why a lazy method would get it badly wrong.',
   wa: 'Hello Modern Age Coders, we are in the West Midlands region and would like to book a free lesson, please.',
 
@@ -169,7 +169,7 @@ module.exports = {
       { h3: 'Learner-typed code', p: 'The student writes the program; the tutor follows the shared screen and steps in with a question when progress stalls.' },
       { h3: 'By year group', p: 'A Year 3 in West Bromwich or a Year 12 in Newcastle-under-Lyme is placed by year and key stage, with exam names from their board.' },
       { h3: 'Free starting lesson', p: 'A full first lesson at no cost, then a clear next step.' },
-      { h3: 'Matched classes', p: 'Five to ten learners on one level in each class, from anywhere in the UK.' },
+      { h3: 'Matched classes', p: 'Fifteen to twenty learners on one level in each class, from anywhere in the UK.' },
       { h3: 'Term weeks', p: 'Twice a week during term, with holidays off.' },
       { h3: 'UK time held', p: 'Your lesson stays at its UK time through the clock changes; our teachers adapt.' }
     ],
@@ -180,7 +180,7 @@ module.exports = {
     h2: 'Fees across the West Midlands region',
     intro: 'Coventry and Shrewsbury pay the same, as does every country we teach outside India.',
     first: 'A full free lesson with honest advice.',
-    group: 'About eight lessons monthly in a group of five to ten.',
+    group: 'About eight lessons monthly in a group of fifteen to twenty.',
     private: 'About eight lessons monthly with your own tutor.',
     closer: 'Our fees are in US dollars; we never price in sterling. Nothing is billed before the trial has agreed a course and weekly time, and the pricing page covers holidays, missed sessions and changing between group and private.'
   },

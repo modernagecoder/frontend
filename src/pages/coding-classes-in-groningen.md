@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Groningen for ages 6 
 canonical: https://learn.modernagecoders.com/coding-classes-in-groningen
 source: src/pages/coding-classes-in-groningen.html
 ---
-> Coding classes in Groningen serve a municipality of 244,427 people (Statistics Netherlands, 1 January 2026), the sixth largest in the country and the youngest by age structure: one resident in five is between fifteen and twenty-five, against about one in sixteen nationally. Its 145,521 households average 1.7 people, and 61 percent of them contain exactly one person, so the average describes neither the majority nor the minority. Modern Age Coders teaches live online in English, from the Binnenstad to Haren and Ten Boer, for learners from 6 to 67; the first lesson is free and after it a group of five to ten costs USD 100 a month and one-to-one USD 150.
+> Coding classes in Groningen serve a municipality of 244,427 people (Statistics Netherlands, 1 January 2026), the sixth largest in the country and the youngest by age structure: one resident in five is between fifteen and twenty-five, against about one in sixteen nationally. Its 145,521 households average 1.7 people, and 61 percent of them contain exactly one person, so the average describes neither the majority nor the minority. Modern Age Coders teaches live online in English, from the Binnenstad to Haren and Ten Boer, for learners from 6 to 67; the first lesson is free and after it a group of fifteen to twenty costs USD 100 a month and one-to-one USD 150.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Groningen
 
@@ -12,11 +12,11 @@ Groningen, province of Groningen / Live online
 
 # Coding classes in Groningen, where the average household has 1.7 people and no household does
 
-**What are the best coding classes in Groningen?** Coding classes in Groningen serve a municipality of 244,427 people (Statistics Netherlands, 1 January 2026), the sixth largest in the country and the youngest by age structure: one resident in five is between fifteen and twenty-five, against about one in sixteen nationally. Its 145,521 households average 1.7 people, and 61 percent of them contain exactly one person, so the average describes neither the majority nor the minority. Modern Age Coders teaches live online in English, from the Binnenstad to Haren and Ten Boer, for learners from 6 to 67; the first lesson is free and after it a group of five to ten costs USD 100 a month and one-to-one USD 150.
+**What are the best coding classes in Groningen?** Coding classes in Groningen serve a municipality of 244,427 people (Statistics Netherlands, 1 January 2026), the sixth largest in the country and the youngest by age structure: one resident in five is between fifteen and twenty-five, against about one in sixteen nationally. Its 145,521 households average 1.7 people, and 61 percent of them contain exactly one person, so the average describes neither the majority nor the minority. Modern Age Coders teaches live online in English, from the Binnenstad to Haren and Ten Boer, for learners from 6 to 67; the first lesson is free and after it a group of fifteen to twenty costs USD 100 a month and one-to-one USD 150.
 
 Divide 244,427 residents by 145,521 households and Groningen has 1.7 people per household. Then read the next line: 61 percent of those households hold exactly one person. Those 88,768 people account for 88,768 of the residents, which leaves 155,659 people in the other 56,753 households, or 2.74 each. The city has households of one and households of nearly three, and 1.7 is the number no front door in it has ever answered to. A child who can compute that gap has learned what an average is for and what it is not.
 
-Facts last verified 7 September 2026. Teaching is online; no Groningen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Groningen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city where a fifth of the population is a student
 
@@ -208,7 +208,7 @@ The city is famously cyclable end to end, but the municipality now runs from Ten
 Printed here before anything of yours is asked for.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 Everyone outside India sees one figure in US dollars and never a euro one, so Ten Boer is charged what the Binnenstad is. Nothing is paid until the free lesson has fixed the course and the hour, and then it is paid over WhatsApp. Pausing, switching plan and missing a lesson are explained on the pricing page.
@@ -249,7 +249,7 @@ No, and none is claimed at Zernike, in the Binnenstad or anywhere in the Netherl
 
 ### What do Groningen coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Groningen group?
 

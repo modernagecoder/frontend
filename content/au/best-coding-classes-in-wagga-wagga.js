@@ -196,7 +196,7 @@ module.exports = {
       { h3: 'City and villages', p: 'A learner in Lake Albert and one in Uranquinty share the same lesson, with no drive into town needed.' },
       { h3: 'Built around NSW', p: 'Lessons use the NSW stages and pause with the state\'s terms; older students can tie a data project to senior computing or maths. Classes are taught in English.' },
       { h3: 'Start with a proper class', p: 'The trial is a normal lesson that ends with a suggested level, course and weekly time; we never take card details at that point.' },
-      { h3: 'Level-matched groups', p: 'Five to ten learners at the same stage, from Wagga Wagga and other towns, so groups run at a workable size.' },
+      { h3: 'Level-matched groups', p: 'Fifteen to twenty learners at the same stage, from Wagga Wagga and other towns, so groups run at a workable size.' },
       { h3: 'Same slots each week', p: 'Two lessons a week at fixed times, about eight a month, with holiday and exam gaps agreed together.' },
       { h3: 'Teachers in India', p: 'A 6:30pm Wagga Wagga lesson in July begins at 2pm in India, and at 1pm once daylight saving starts in October.' }
     ],
@@ -207,7 +207,7 @@ module.exports = {
     h2: 'Wagga Wagga class fees',
     intro: 'Three prices, plainly put.',
     first: 'A free first lesson, ending with a suggested level, course and time.',
-    group: 'A month of lessons, typically eight, with five to ten learners at your level.',
+    group: 'A month of lessons, typically eight, with fifteen to twenty learners at your level.',
     private: 'About eight lessons a month on the same schedule, one to one with a teacher.',
     closer: 'Fees outside India are charged in US dollars, so a household in Bourkelands pays what one in Estella pays and there is no regional price. The first invoice follows the trial, once a course and time are agreed, and the pricing page answers questions about breaks, absences and format changes.'
   },
@@ -232,8 +232,8 @@ module.exports = {
       { q: 'What time are lessons for Wagga Wagga learners?', a: 'Families usually pick a weekday evening or weekend morning at the trial, in NSW time. Our teachers\' clocks run four and a half hours behind Wagga Wagga in winter, and five and a half once NSW starts daylight saving.' },
       { q: 'Can younger children learn to code?', a: 'Yes. From age six children work with Scratch and visual projects before moving to typed code; the histogram project suits older learners.' },
       { q: 'Is there a Modern Age Coders centre in Wagga Wagga?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Wagga Wagga coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Wagga Wagga coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

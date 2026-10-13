@@ -197,7 +197,7 @@ Every plan is live with a specialist mentor, and each class runs about one hour.
 ₹1,499/ month
 
 - 2 live classes a week
-- Up to 10 students
+- Up to 20 students
 - Board-aligned lessons and checked practice
 
 Most popular
@@ -207,7 +207,7 @@ Most popular
 ₹2,999/ month
 
 - 2 live classes a week
-- Just 3 to 4 students
+- Up to 6 students
 - Near one-to-one attention
 
 ### 1-on-1
@@ -346,7 +346,7 @@ That is where live teaching helps most. The mentor finds the earliest gap, often
 
 Can I choose group maths classes or one to one?
 
-Yes. All three are live and taught by a specialist mentor. A group batch (up to 10 students) adds peer learning, a mini batch (3 to 4 students, India only) gives near one-to-one attention, and one to one gives a fully personal pace. You can change plan later.
+Yes. All three are live and taught by a specialist mentor. A group batch (up to 20 students) adds peer learning, a mini batch (up to 6 students, India only) gives near one-to-one attention, and one to one gives a fully personal pace. You can change plan later.
 
 How do you report progress to parents?
 

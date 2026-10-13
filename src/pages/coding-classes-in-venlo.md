@@ -4,7 +4,7 @@ description: "Live online coding, Python, Java and AI classes in Venlo for ages 
 canonical: https://learn.modernagecoders.com/coding-classes-in-venlo
 source: src/pages/coding-classes-in-venlo.html
 ---
-> Coding classes in Venlo reach 104,195 people (Statistics Netherlands, 1 January 2026) on 128.99 square kilometres against the German border, at 838 residents to the square kilometre, in 49,770 households of which 19,864 hold one person. The municipal entry says the city centre has benefited from visitors out of the German hinterland since the 1960s, and puts the yearly total at circa 5 miljoen bezoekers, mainly from the neighbouring Ruhrgebied. Divide that by the register and you get 48 visits a year for every resident, a figure describing nobody. Modern Age Coders teaches live online in English from Boekend to Steyl, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Venlo reach 104,195 people (Statistics Netherlands, 1 January 2026) on 128.99 square kilometres against the German border, at 838 residents to the square kilometre, in 49,770 households of which 19,864 hold one person. The municipal entry says the city centre has benefited from visitors out of the German hinterland since the 1960s, and puts the yearly total at circa 5 miljoen bezoekers, mainly from the neighbouring Ruhrgebied. Divide that by the register and you get 48 visits a year for every resident, a figure describing nobody. Modern Age Coders teaches live online in English from Boekend to Steyl, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Venlo
 
@@ -12,11 +12,11 @@ Venlo, Limburg / Live online
 
 # Coding classes in Venlo, a city of 104,195 residents that about five million visitors a year are not counted in
 
-**What are the best coding classes in Venlo?** Coding classes in Venlo reach 104,195 people (Statistics Netherlands, 1 January 2026) on 128.99 square kilometres against the German border, at 838 residents to the square kilometre, in 49,770 households of which 19,864 hold one person. The municipal entry says the city centre has benefited from visitors out of the German hinterland since the 1960s, and puts the yearly total at circa 5 miljoen bezoekers, mainly from the neighbouring Ruhrgebied. Divide that by the register and you get 48 visits a year for every resident, a figure describing nobody. Modern Age Coders teaches live online in English from Boekend to Steyl, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Venlo?** Coding classes in Venlo reach 104,195 people (Statistics Netherlands, 1 January 2026) on 128.99 square kilometres against the German border, at 838 residents to the square kilometre, in 49,770 households of which 19,864 hold one person. The municipal entry says the city centre has benefited from visitors out of the German hinterland since the 1960s, and puts the yearly total at circa 5 miljoen bezoekers, mainly from the neighbouring Ruhrgebied. Divide that by the register and you get 48 visits a year for every resident, a figure describing nobody. Modern Age Coders teaches live online in English from Boekend to Steyl, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Venlo has 104,195 residents and receives about five million visitors a year, most of them from just over the German border. Work out the ratio and you get roughly forty-eight visits per resident per year, which is arithmetically flawless and describes no human being in the city. No resident makes those visits. The people who do are not in the register that supplied the denominator. Every phrase of the form per capita, per head or per resident carries a hidden claim about who the number is about, and in a border city that claim is simply false.
 
-Facts last verified 8 September 2026. Teaching is online; no Venlo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 8 September 2026. Teaching is online; no Venlo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city that works in two countries
 
@@ -208,7 +208,7 @@ Venlo is compact enough that distance is rarely the problem, but it is a working
 Written down here rather than saved for a telephone call.
 
 - First class: USD 0. A full lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 There is a single international rate and it is quoted in dollars. No euro price exists, so Arcen pays exactly what the middle of Venlo pays. Nothing is charged until the free lesson has settled the course and the hour, and payment is then arranged over WhatsApp. Pausing, changing plan and missing a week are all explained on the pricing page.
@@ -249,7 +249,7 @@ No, and none is claimed in Venlo, in Blerick or anywhere else in the Netherlands
 
 ### What do Venlo coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across a month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. The course, the format, the recurring hour and availability are all confirmed before any payment happens.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across a month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. The course, the format, the recurring hour and availability are all confirmed before any payment happens.
 
 ### How many learners are in a group?
 

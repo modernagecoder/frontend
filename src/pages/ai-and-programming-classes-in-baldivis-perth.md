@@ -16,7 +16,7 @@ Baldivis, City of Rockingham, Western Australia / Live online
 
 Baldivis is one of Perth's youngest suburbs. Its median age at the 2021 Census was 31, and children aged 5 to 9 made up 9.4% of residents, well above the state share. Ten government schools sit inside its outline, so a dataset about schools is something many Baldivis families already know from the inside.
 
-Facts last verified 12 October 2026. Teaching is online; no Baldivis branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Baldivis branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI, data and Python courses
 
@@ -178,7 +178,7 @@ Every class is live online, so learners join from home with no trip up the freew
 - **Taught live** Teachers lead each lesson and look at learners' code as they write it.
 - **WA calendar** Lessons follow WA school terms and stop for holidays.
 - **Free trial** The first lesson costs nothing and ends with a plan.
-- **Group sizes** Five to ten learners per group, or private lessons.
+- **Group sizes** Fifteen to twenty learners per group, or private lessons.
 - **Rhythm** Two lessons each week, about eight a month.
 - **India time** A 4:30pm Baldivis lesson begins at 2pm in India.
 
@@ -189,7 +189,7 @@ Every class is live online, so learners join from home with no trip up the freew
 Every learner pays the same published fees.
 
 - First class: USD 0. The opening lesson is free, with a course plan.
-- Group tuition: USD 100 a month. Group lessons: about eight a month, five to ten learners each.
+- Group tuition: USD 100 a month. Group lessons: about eight a month, fifteen to twenty learners each.
 - Private tuition: USD 150 a month. Private lessons: about eight a month with a single teacher.
 
 Fees are in US dollars and only start after the trial has agreed a course and a weekly time. The pricing page lists holiday and missed-lesson terms.
@@ -226,11 +226,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Baldivis classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How are groups put together?
 
-By level and pace, five to ten learners each, not by age or suburb. One-to-one lessons cover anyone no group time fits.
+By level and pace, fifteen to twenty learners each, not by age or suburb. One-to-one lessons cover anyone no group time fits.
 
 ### Can adults take AI classes?
 

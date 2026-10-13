@@ -178,7 +178,7 @@ A wilayat this far from the capital cannot rely on anybody driving to a centre t
 
 The placement lesson carries a real task and a real recommendation, and no card is requested. If a different course is the honest answer, that is what gets said.
 
-### Groups of five to eight
+### Groups of fifteen to twenty
 
 Matched on level and objective rather than age. A records clerk and a sixteen year old wanting the same skill belong together.
 
@@ -210,7 +210,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -320,7 +320,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Jalan Bani Bu Hassan learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Jalan Bani Bu Hassan class times arranged?
 

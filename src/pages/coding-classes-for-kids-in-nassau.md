@@ -18,7 +18,7 @@ Older siblings and later years run through [Python and AI for Kids](/courses/pyt
 
 In short
 
-Modern Age Coders teaches children in Nassau aged six to twelve in live online weekly classes, in batches of five to eight or one to one. Younger children start with block-based work and small amounts of typed Python alongside it; by about ten the emphasis moves to typed code, reading error messages and building something that runs. Placement is decided by a task in the free first class rather than by age. Sessions are ninety minutes on weekend mornings in Bahamian time. Group teaching is USD 100 a month, private USD 150, and the first class is free.
+Modern Age Coders teaches children in Nassau aged six to twelve in live online weekly classes, in batches of fifteen to twenty or one to one. Younger children start with block-based work and small amounts of typed Python alongside it; by about ten the emphasis moves to typed code, reading error messages and building something that runs. Placement is decided by a task in the free first class rather than by age. Sessions are ninety minutes on weekend mornings in Bahamian time. Group teaching is USD 100 a month, private USD 150, and the first class is free.
 
 The question behind the search
 
@@ -64,7 +64,7 @@ Shorter than that and a child spends the session getting started; longer and the
 
 ### The group matters more than you would think
 
-Five to eight children at a similar level, hearing each other get the same thing wrong in different ways, learn faster than one child alone. That is why one to one is not automatically the premium option at this age.
+Fifteen to twenty children at a similar level, hearing each other get the same thing wrong in different ways, learn faster than one child alone. That is why one to one is not automatically the premium option at this age.
 
 ### Nothing gets published without you
 
@@ -228,7 +228,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Weekly build work reviewed by the teacher
 - Certificate on completion
@@ -265,7 +265,7 @@ No, and the reason is arithmetic rather than preference. Our teachers are in Ind
 
 ### How much does it cost?
 
-A group batch of five to eight students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same flat figures everywhere outside India. There is no enrolment fee, no annual contract, and the first class is free without a card.
+A group batch of fifteen to twenty students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same flat figures everywhere outside India. There is no enrolment fee, no annual contract, and the first class is free without a card.
 
 ### Would one to one be better for a young child?
 

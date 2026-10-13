@@ -171,7 +171,7 @@ module.exports = {
       { h3: 'No platform, no transfer', p: 'The class is at home in Terwijde, Lombok or Tuindorp at a fixed hour, and it is indifferent to whether the 17:38 from Amsterdam is on time.' },
       { h3: 'English first, Dutch words intact', p: 'Teaching is in English. Groep, havo, vwo, gymnasium, profielkeuze and MYP stay in Dutch or in IB-speak, exactly as the school uses them, because that is the vocabulary the family lives in.' },
       { h3: 'The opening lesson is the whole product, once, for free', p: 'A task pitched at the learner, a level, a named course and a weekly time by the end of the hour. No card details are taken to arrange it.' },
-      { h3: 'Five to ten learners, grouped by level', p: 'Groups are assembled from what learners can do and want next. Wijk, school and whether the family arrived last month or in 1636 do not enter into it.' },
+      { h3: 'Fifteen to twenty learners, grouped by level', p: 'Groups are assembled from what learners can do and want next. Wijk, school and whether the family arrived last month or in 1636 do not enter into it.' },
       { h3: 'Two lessons a week, on regio Midden\'s calendar', p: 'Roughly eight a month at one recurring time. The province of Utrecht takes its school holidays with regio Midden, and those weeks are agreed before the slot is.' },
       { h3: 'Four and a half hours, or three and a half', p: 'That is the gap between a Utrecht afternoon and the teacher\'s evening in India, wider in winter because only the Dutch clock moves. After-school, early-evening and weekend slots suit both ends and the family fixes one during the free lesson.' }
     ],
@@ -182,7 +182,7 @@ module.exports = {
     h2: 'Nothing for the first lesson, then USD 100 or USD 150 a month',
     intro: 'The whole tariff, printed before anyone asks for a phone number.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'One international rate exists and it is in US dollars; there is no euro list, no Utrecht supplement and no enrolment charge. The free lesson settles the course and the slot, and payment is arranged afterwards over WhatsApp rather than before. Pauses, plan changes and missed lessons are set out on the pricing page.'
   },
@@ -207,7 +207,7 @@ module.exports = {
       { q: 'What time are classes for a family in Utrecht?', a: 'The teacher is in India, where the clock never changes, so a Utrecht afternoon is four and a half hours behind in winter and three and a half in summer. After-school, early-evening and weekend slots work at both ends. The recurring time is fixed during the free lesson, before any payment.' },
       { q: 'What happens in the free Utrecht lesson?', a: 'We find what the learner can do and set one task there. A child watches two toy classrooms swap children behind a closed door. A teenager writes in minus out in Python and prints the solution line. An adult brings a net figure from work. The lesson ends with a course, a level, a weekly slot and the price in dollars, and nothing has been paid.' },
       { q: 'Is there a Modern Age Coders classroom in Utrecht?', a: 'No, and none is claimed in Utrecht, on the Science Park or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Utrecht coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Utrecht coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in a Utrecht group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or wijk. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

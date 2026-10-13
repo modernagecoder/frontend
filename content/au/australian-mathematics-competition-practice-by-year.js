@@ -221,7 +221,7 @@ module.exports = {
     cells: [
       { h3: 'Read, then plan', p: 'Students decide how to approach a question before calculating.' },
       { h3: 'Eliminate first', p: 'Impossible answers are ruled out with reasons.' },
-      { h3: 'Groups by division', p: 'Five to ten students sitting the same paper.' },
+      { h3: 'Groups by division', p: 'Fifteen to twenty students sitting the same paper.' },
       { h3: 'One-to-one option', p: 'For students aiming at the hardest questions.' },
       { h3: 'Short parent notes', p: 'One strategy learned and one problem to try at home.' },
       { h3: 'No award promises', p: 'We teach maths; the result belongs to the student.' }
@@ -236,7 +236,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Australian families are billed monthly in US dollars, our standard rate outside India, with no deposit and the option to stop at any month end. AMC entry is arranged and paid through schools.',
     free: ['A real lesson with a teacher', 'An honest view of competition readiness', 'No card details'],
-    group: ['Five to ten students in one division', 'The same teacher every week', 'Problems reviewed and discussed', 'A certificate at the end'],
+    group: ['Fifteen to twenty students in one division', 'The same teacher every week', 'Problems reviewed and discussed', 'A certificate at the end'],
     one: ['A teacher for one student', 'Focused on chosen topics', 'A weekly time that suits you']
   },
 

@@ -53,7 +53,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Headingley',
   capsuleQ: 'Which are the best online coding and Python classes in Headingley?',
-  capsule: 'Headingley and Hyde Park ward in Leeds had 31,175 usual residents at the 2021 census. Headingley, Far Headingley, Headingley Hill and Hyde Park are the suburban areas recorded there, all in the LS6 postcode district. From six-year-olds to adults of 67, learners join our India-based tutors on live video for coding, Python, AI, vibe coding and maths, taught one-to-one or in a class of five to ten at the same stage. We teach how to reason about a program before how to prompt for one, so learners can tell when code works by luck. Lesson one is free and ends with a suggested course. The Headingley project opens the Ordnance Survey\'s national postcode file, 1,749,109 rows, and finds the LS6 postcodes two ways: one needs over a gigabyte of memory, the other almost none. Ongoing lessons are USD 100 a month in a group or USD 150 a month one-to-one.',
+  capsule: 'Headingley and Hyde Park ward in Leeds had 31,175 usual residents at the 2021 census. Headingley, Far Headingley, Headingley Hill and Hyde Park are the suburban areas recorded there, all in the LS6 postcode district. From six-year-olds to adults of 67, learners join our India-based tutors on live video for coding, Python, AI, vibe coding and maths, taught one-to-one or in a class of fifteen to twenty at the same stage. We teach how to reason about a program before how to prompt for one, so learners can tell when code works by luck. Lesson one is free and ends with a suggested course. The Headingley project opens the Ordnance Survey\'s national postcode file, 1,749,109 rows, and finds the LS6 postcodes two ways: one needs over a gigabyte of memory, the other almost none. Ongoing lessons are USD 100 a month in a group or USD 150 a month one-to-one.',
   lead: 'The first version of most data programs reads the whole file into a list and then works on the list. It is simple, and it works until the file is bigger than the computer\'s memory. Python has a quieter tool for that day: the generator, a function that hands over one item at a time and remembers where it stopped. Chain a few together and data flows through like water through pipes, never all in the building at once. This project measures the difference on a real file. Ordnance Survey\'s Code-Point Open lists every postcode in Great Britain, and the task is to pull out the ones for Headingley.',
   wa: 'Hello Modern Age Coders, could we book a free coding or Python lesson for a learner in Headingley, Leeds?',
 
@@ -150,7 +150,7 @@ module.exports = {
       { h3: 'The learner types', p: 'Every line is written and run by the student, with the tutor watching the shared screen and asking what they expect to see.' },
       { h3: 'Trial first', p: 'The free session shows us the level, and we note the exam board if there is one.' },
       { h3: 'No charge to start', p: 'Lesson one is free and ends with the course we would pick.' },
-      { h3: 'Classes by level', p: 'Groups hold five to ten learners at one stage, from anywhere in the UK.' },
+      { h3: 'Classes by level', p: 'Groups hold fifteen to twenty learners at one stage, from anywhere in the UK.' },
       { h3: 'Twice a week', p: 'Term time only.' },
       { h3: 'Fixed slot', p: 'Our tutors move with the UK clock changes, so your lesson stays at the same local time.' }
     ],

@@ -267,7 +267,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Coding and maths lessons outside India are billed monthly in US dollars at one rate for every country. You can switch between subjects as needs change, with no joining fee and no term contract.',
     free: ['A free first lesson', 'Advice on which to start with', 'No card details'],
-    group: ['Five to ten learners', 'One regular teacher', 'Coding or maths', 'Monthly'],
+    group: ['Fifteen to twenty learners', 'One regular teacher', 'Coding or maths', 'Monthly'],
     one: ['A teacher to yourself', 'Coding, maths or both', 'Your own pace']
   },
 

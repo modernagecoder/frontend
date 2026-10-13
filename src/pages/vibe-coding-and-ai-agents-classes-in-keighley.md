@@ -16,7 +16,7 @@ Keighley, Bradford district, West Yorkshire / Live online
 
 Put one AI agent on a job and it simply gets on with it. Put ten on the same job and a new problem appears before any work starts: who decides? If two agents both think they are coordinating, tasks get done twice or undone. If none does, nothing happens. Computer scientists call the fix leader election, and it has to work with no referee, because a referee would just be a leader chosen some other way. Keighley's street network, taken from open map data, makes a good test bed. It takes up to 115 hops to cross, ends in 801 dead ends, and contains links whose loss cuts the network in two.
 
-Facts last verified 30 September 2026. Teaching is online; no Keighley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Keighley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Keighley courses for vibe coding, thinking and agents
 
@@ -142,7 +142,7 @@ Learners need a computer, a camera and a connection that holds a video call.
 - **Active from minute one** The learner's screen is the one on show. They build, and the tutor questions each step.
 - **A trial that places** We watch how a learner tackles a problem before suggesting any course.
 - **First lesson free** It lasts as long as a normal lesson and asks for no card.
-- **Five to ten in a class** Groups are formed by stage, with classmates from across the UK.
+- **Fifteen to twenty in a class** Groups are formed by stage, with classmates from across the UK.
 - **Two lessons each week** Bradford district school holidays are skipped once we have the dates.
 - **Your time stays fixed** Tutors absorb the spring and autumn clock changes.
 

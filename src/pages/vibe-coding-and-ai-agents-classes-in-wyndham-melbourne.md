@@ -16,7 +16,7 @@ City of Wyndham, Melbourne, Victoria / Live online
 
 Ask an agent to do 49 small jobs and some will fail. A loose agent shrugs, skips the failures and announces that it is finished. A careful one parks each failure in a dead-letter queue, retries what might work next time, and hands back a list of what never could. We built both on Wyndham's government schools.
 
-Facts last verified 10 October 2026. Teaching is online; no Wyndham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Wyndham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that lead to agents you can trust
 
@@ -183,7 +183,7 @@ Learners join from home anywhere in the council, from Werribee to Truganina, wit
 - **A real teacher** Every lesson is live, with the learner sharing their screen and running their own code.
 - **Term by term** Lessons follow the Victorian school terms and break for the state holidays.
 - **Free first class** One complete lesson at no charge, then advice on course and timing.
-- **Matched groups** Five to ten learners grouped by level and goals, from many places at once.
+- **Matched groups** Fifteen to twenty learners grouped by level and goals, from many places at once.
 - **Steady rhythm** Two lessons a week, roughly eight a month, so projects keep moving.
 - **Teachers in India** A 5pm Wyndham lesson is 11:30am India time during Melbourne daylight saving and 12:30pm from April.
 
@@ -194,7 +194,7 @@ Learners join from home anywhere in the council, from Werribee to Truganina, wit
 Three plain options.
 
 - First class: USD 0. Lesson one is free and finishes with a recommendation.
-- Group tuition: USD 100 a month. A month of small-group lessons, typically eight, with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of small-group lessons, typically eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. A month of one-to-one lessons, typically eight, with a dedicated teacher.
 
 Wyndham families, like every family outside India, pay in US dollars. We take no payment until the trial has settled the course and the time, and the pricing page sets out holidays and missed lessons.
@@ -231,11 +231,11 @@ No. Teaching is live online only, there is no Australian office, and the phone n
 
 ### How much are classes for Wyndham learners?
 
-The first lesson is free. Group classes are USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten; one-to-one classes are USD 150 a month. Nothing is paid until course and time are agreed.
+The first lesson is free. Group classes are USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty; one-to-one classes are USD 150 a month. Nothing is paid until course and time are agreed.
 
 ### How big are the groups?
 
-Five to ten learners, matched by level, pace and goals rather than age or suburb, with private lessons if no group time fits.
+Fifteen to twenty learners, matched by level, pace and goals rather than age or suburb, with private lessons if no group time fits.
 
 ### Do adults take these classes?
 

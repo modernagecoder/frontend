@@ -166,7 +166,7 @@ module.exports = {
       { h3: 'The learner drives', p: 'Students type and share their screen while the tutor watches, prompts and asks for the reasoning out loud.' },
       { h3: 'Level found first', p: 'We use the trial to see what a learner can already do, and note any exam board.' },
       { h3: 'No-cost trial', p: 'A whole lesson without payment or card, finishing with a recommended course.' },
-      { h3: 'Same-stage groups', p: 'Five to ten learners from around the UK who are at one level together.' },
+      { h3: 'Same-stage groups', p: 'Fifteen to twenty learners from around the UK who are at one level together.' },
       { h3: 'Twice weekly', p: 'Two lessons a week, paused for any holiday dates you give us.' },
       { h3: 'Clock changes handled', p: 'When British clocks move, our tutors adjust so your slot stays put.' }
     ],

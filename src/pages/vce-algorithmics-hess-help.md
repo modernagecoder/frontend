@@ -193,7 +193,7 @@ Our teachers work from India, and Victoria runs ahead of them: four and a half h
 - **Our own problems** Every example is written by us, never taken from a student's assessed task.
 - **Hand execution drilled** Pseudocode traced on paper until reading it is as quick as reading prose.
 - **Exam-length answers** Short written arguments that name a pattern, justify it and state a bound.
-- **Senior groups of five to ten** Students at a matching level, each one explaining a solution aloud every week.
+- **Senior groups of fifteen to twenty** Students at a matching level, each one explaining a solution aloud every week.
 - **Solo sessions** For one area of study that needs repair before the exam.
 - **Nothing guaranteed** No study score, ATAR or university offer is promised; the thinking and the outcome are the student's.
 
@@ -202,7 +202,7 @@ Our teachers work from India, and Victoria runs ahead of them: four and a half h
 A single monthly fee in US dollars, the same for every family outside India. There is no joining charge and nothing continues past the month you are in.
 
 - Free first class: USD 0. A full lesson with a teacher. A frank view of what needs work. No card details asked.
-- Group batch: USD 100 a month. Five to ten students at one level. One teacher all term. Practice marked and talked through. A certificate when the course ends.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. One teacher all term. Practice marked and talked through. A certificate when the course ends.
 - One to one: USD 150 a month. One teacher, one student. Aimed at the weakest area of study. Useful in the weeks before November.
 
 ## Questions Algorithmics students ask

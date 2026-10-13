@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Haarlem for ages 6 to
 canonical: https://learn.modernagecoders.com/coding-classes-in-haarlem
 source: src/pages/coding-classes-in-haarlem.html
 ---
-> Coding classes in Haarlem serve 168,898 people (Statistics Netherlands, 1 January 2026) on 29.21 square kilometres of land, which makes it the most tightly packed municipality in this series at about 5,780 residents to the square kilometre. One widely read source gives the population as 168,946 and the density as 5,036 on the same page, and those two numbers cannot both describe the same place: the division comes out at 5,265 against the total area and 5,792 against the land. Modern Age Coders teaches live online in English across every wijk, for ages 6 to 67, first lesson free, then USD 100 a month in a group of five to ten or USD 150 one-to-one.
+> Coding classes in Haarlem serve 168,898 people (Statistics Netherlands, 1 January 2026) on 29.21 square kilometres of land, which makes it the most tightly packed municipality in this series at about 5,780 residents to the square kilometre. One widely read source gives the population as 168,946 and the density as 5,036 on the same page, and those two numbers cannot both describe the same place: the division comes out at 5,265 against the total area and 5,792 against the land. Modern Age Coders teaches live online in English across every wijk, for ages 6 to 67, first lesson free, then USD 100 a month in a group of fifteen to twenty or USD 150 one-to-one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Haarlem
 
@@ -12,11 +12,11 @@ Haarlem, Noord-Holland / Live online
 
 # Coding classes in Haarlem, where one page publishes a population and a density that cannot both be true
 
-**What are the best coding classes in Haarlem?** Coding classes in Haarlem serve 168,898 people (Statistics Netherlands, 1 January 2026) on 29.21 square kilometres of land, which makes it the most tightly packed municipality in this series at about 5,780 residents to the square kilometre. One widely read source gives the population as 168,946 and the density as 5,036 on the same page, and those two numbers cannot both describe the same place: the division comes out at 5,265 against the total area and 5,792 against the land. Modern Age Coders teaches live online in English across every wijk, for ages 6 to 67, first lesson free, then USD 100 a month in a group of five to ten or USD 150 one-to-one.
+**What are the best coding classes in Haarlem?** Coding classes in Haarlem serve 168,898 people (Statistics Netherlands, 1 January 2026) on 29.21 square kilometres of land, which makes it the most tightly packed municipality in this series at about 5,780 residents to the square kilometre. One widely read source gives the population as 168,946 and the density as 5,036 on the same page, and those two numbers cannot both describe the same place: the division comes out at 5,265 against the total area and 5,792 against the land. Modern Age Coders teaches live online in English across every wijk, for ages 6 to 67, first lesson free, then USD 100 a month in a group of fifteen to twenty or USD 150 one-to-one.
 
 Divide 168,946 residents by 32.09 square kilometres and you get 5,265 to the square kilometre. Divide by the 29.17 of land and you get 5,792. The page that publishes all three of those numbers also publishes a density of 5,036, which is neither. Work backwards and 5,036 implies a population of about 161,605, which is Haarlem a few years ago. Nobody has lied. Somebody stored a calculated number, updated the population above it, and never recomputed the line below. A child who has caught that once will check derived figures for the rest of their life.
 
-Facts last verified 7 September 2026. Teaching is online; no Haarlem branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Haarlem branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city that is mostly within cycling distance of itself
 
@@ -208,7 +208,7 @@ Haarlem is small enough to cross by bicycle in half an hour, so distance is not 
 Put on the page rather than kept for a phone call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate applies, quoted in dollars and never in euros, so a family in Spaarndam sees exactly what a family in the centre sees. Payment comes after the free lesson has produced a course and a time, and it goes over WhatsApp. Pausing, changing plan and missing a week are described on the pricing page.
@@ -249,7 +249,7 @@ No, and none is claimed near the Grote Markt, in Schalkwijk or anywhere in the N
 
 ### What do Haarlem coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Haarlem group?
 

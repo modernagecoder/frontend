@@ -420,7 +420,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Free first class', p: 'One screen designed and built together, then advice on the right route.' },
-      { h3: 'Small groups', p: 'Five to ten learners testing each other\'s apps.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners testing each other\'s apps.' },
       { h3: 'One to one', p: 'For a specific app idea, a unit or a deadline.' },
       { h3: 'Phones in the loop', p: 'Students test on real devices whenever they can.' },
       { h3: 'Accessibility checked', p: 'Every app gets a target and label audit.' },
@@ -434,7 +434,7 @@ module.exports = {
     h2: 'Fees for the app development course',
     lede: 'Learners in Australia are charged a flat monthly amount in US dollars. Nothing is due when enrolling, and lessons can stop at any month\'s end.',
     free: ['One screen designed and built together', 'A route recommendation for this learner', 'No payment details needed'],
-    group: ['Five to ten learners per group', 'Peer testing on real phones', 'The same teacher each week', 'Cancel at any month\'s end'],
+    group: ['Fifteen to twenty learners per group', 'Peer testing on real phones', 'The same teacher each week', 'Cancel at any month\'s end'],
     one: ['Built around one learner\'s app idea', 'Pace set by the learner', 'Lesson times that suit the household']
   },
   faq: {

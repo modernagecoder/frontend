@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI lessons for Maidstone, Bearsted,
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-maidstone
 source: src/pages/online-coding-and-python-classes-in-maidstone.html
 ---
-> The 2021 census put Maidstone borough at 175,782 people, and the ONS gives 109,490 for the Maidstone built-up area, which runs slightly past the borough line, with Coxheath and Bearsted the next largest places. Young children are a bit above the England share and people aged 15 to 24 a little below it. From the town centre to Staplehurst and Headcorn, anyone aged 6 to 67 can learn coding, Python, AI and maths in live video lessons led by our India-based tutors, taught solo or with five to ten classmates of similar level. The first lesson is free and points to a course. Maidstone's project begins with a writer born in the town. Once the trial is done, group lessons are USD 100 a month and private lessons USD 150 a month.
+> The 2021 census put Maidstone borough at 175,782 people, and the ONS gives 109,490 for the Maidstone built-up area, which runs slightly past the borough line, with Coxheath and Bearsted the next largest places. Young children are a bit above the England share and people aged 15 to 24 a little below it. From the town centre to Staplehurst and Headcorn, anyone aged 6 to 67 can learn coding, Python, AI and maths in live video lessons led by our India-based tutors, taught solo or with fifteen to twenty classmates of similar level. The first lesson is free and points to a course. Maidstone's project begins with a writer born in the town. Once the trial is done, group lessons are USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Maidstone
 
@@ -12,11 +12,11 @@ Maidstone, Kent, England / Live online
 
 # Online coding and Python classes in Maidstone
 
-**Which are the best online coding and Python classes in Maidstone?** The 2021 census put Maidstone borough at 175,782 people, and the ONS gives 109,490 for the Maidstone built-up area, which runs slightly past the borough line, with Coxheath and Bearsted the next largest places. Young children are a bit above the England share and people aged 15 to 24 a little below it. From the town centre to Staplehurst and Headcorn, anyone aged 6 to 67 can learn coding, Python, AI and maths in live video lessons led by our India-based tutors, taught solo or with five to ten classmates of similar level. The first lesson is free and points to a course. Maidstone's project begins with a writer born in the town. Once the trial is done, group lessons are USD 100 a month and private lessons USD 150 a month.
+**Which are the best online coding and Python classes in Maidstone?** The 2021 census put Maidstone borough at 175,782 people, and the ONS gives 109,490 for the Maidstone built-up area, which runs slightly past the borough line, with Coxheath and Bearsted the next largest places. Young children are a bit above the England share and people aged 15 to 24 a little below it. From the town centre to Staplehurst and Headcorn, anyone aged 6 to 67 can learn coding, Python, AI and maths in live video lessons led by our India-based tutors, taught solo or with fifteen to twenty classmates of similar level. The first lesson is free and points to a course. Maidstone's project begins with a writer born in the town. Once the trial is done, group lessons are USD 100 a month and private lessons USD 150 a month.
 
 William Hazlitt, one of the sharpest essayists in English, was born "at Mitre Lane, Maidstone, Kent, on the 10th of April, in the year 1778", according to Louise Imogen Guiney's portrait of him. She also makes a claim that can be tested: "He cites, twice and thrice, the same passages from the Elizabethans." Hazlitt's collection Table Talk is free on Project Gutenberg, 33 essays and about 160,000 words. No person could hold all of it in mind at once, but a Python program can index every short run of words and report any run that turns up in more than one essay. What it finds is smaller, and more surprising, than the claim suggests.
 
-Facts last verified 28 September 2026. Teaching is online; no Maidstone branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 28 September 2026. Teaching is online; no Maidstone branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## A good first course in Maidstone
 
@@ -137,7 +137,7 @@ Any home in the borough with a computer and a dependable connection can take par
 - **The learner codes** Students type everything themselves; the tutor watches through screen share and guides by asking.
 - **Pitched by the trial** Year 4 or Year 12, the free lesson sets the first step, and the exam board is taken into account.
 - **Trial costs nothing** A full lesson free of charge, closing with a course suggestion.
-- **Same-stage classmates** Groups of five to ten UK learners working at one level.
+- **Same-stage classmates** Groups of fifteen to twenty UK learners working at one level.
 - **Twice each week** No lessons in school holidays.
 - **Fixed local time** Our tutors adjust for British Summer Time, so your slot holds.
 

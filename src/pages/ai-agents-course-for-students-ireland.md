@@ -4,7 +4,7 @@ description: "Build AI agents as a student in Ireland, inside your college's aca
 canonical: https://learn.modernagecoders.com/ai-agents-course-for-students-ireland
 source: src/pages/ai-agents-course-for-students-ireland.html
 ---
-> An AI agent is a program in which a language model directs its own steps and tool use to reach a goal. The best way for a student to learn about agents is to build one as their own work, test it against questions with known answers, and disclose what the model produced, which is also what Irish academic integrity guidance expects. Modern Age Coders teaches students in Ireland to build agents in Python, live online, in groups of five to ten or one to one. A first class is free. Then a group place costs USD 100 a month and one-to-one tuition USD 150 a month; the Copilot Studio course is taught one to one only.
+> An AI agent is a program in which a language model directs its own steps and tool use to reach a goal. The best way for a student to learn about agents is to build one as their own work, test it against questions with known answers, and disclose what the model produced, which is also what Irish academic integrity guidance expects. Modern Age Coders teaches students in Ireland to build agents in Python, live online, in groups of fifteen to twenty or one to one. A first class is free. Then a group place costs USD 100 a month and one-to-one tuition USD 150 a month; the Copilot Studio course is taught one to one only.
 
 [Home](/) / [Courses](/courses) / [AI and machine learning classes in Ireland](/ai-and-machine-learning-classes-in-ireland) / AI agents for students, Ireland
 
@@ -175,7 +175,7 @@ All lessons are live, with teachers who work from India. India has one clock all
 - **Free afternoons** Where a timetable has gaps, usually one to one.
 
 - **Build an agent in the free class** A tiny agent with one tool, built with the teacher, who then suggests where to start.
-- **Groups of five to ten** Students at one level, comparing how their agents fail on the same test questions.
+- **Groups of fifteen to twenty** Students at one level, comparing how their agents fail on the same test questions.
 - **One to one** For a final-year project with an agent in it, and for the Copilot Studio course.
 - **A log from the first run** Every agent records each step it takes, so testing and disclosure are built in from day one.
 - **Never assessed work** Teachers do not write, edit or check anything that will be submitted for credit.
@@ -186,7 +186,7 @@ All lessons are live, with teachers who work from India. India has one clock all
 Monthly in US dollars, at the rate we charge in every country outside India, with no enrolment fee and nothing to sign for the year. The Copilot Studio course is private only and uses the one-to-one rate; the coding agents course needs your own paid accounts for the tools.
 
 - Free first class: USD 0. A small agent built with a teacher. A suggested route before you pay anything. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. One live teacher throughout. Agents and tests reviewed each week. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. One live teacher throughout. Agents and tests reviewed each week. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one student. Shaped around your own project. The only format for Copilot Studio.
 
 ## What students in Ireland ask about learning to build agents

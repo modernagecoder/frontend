@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding classes in Swords',
   capsuleQ: 'What is the best coding class in Swords?',
-  capsule: 'Swords is the county town of Fingal, with 40,458 usual residents in the census town tables, 13,643 households and 3,169 students aged fifteen and over. Two of its secondary schools, Loreto College and St Finian\'s Community College, were among the forty that began Leaving Certificate Computer Science in 2018. For families here, Modern Age Coders is a live alternative that needs no drive into the city: two video lessons in a normal week with a real teacher, a group of five to ten at the learner\'s level or a private place, for any age from six to sixty-seven. The first lesson is free of charge; after that it is USD 100 monthly in a group and USD 150 for one to one.',
+  capsule: 'Swords is the county town of Fingal, with 40,458 usual residents in the census town tables, 13,643 households and 3,169 students aged fifteen and over. Two of its secondary schools, Loreto College and St Finian\'s Community College, were among the forty that began Leaving Certificate Computer Science in 2018. For families here, Modern Age Coders is a live alternative that needs no drive into the city: two video lessons in a normal week with a real teacher, a group of fifteen to twenty at the learner\'s level or a private place, for any age from six to sixty-seven. The first lesson is free of charge; after that it is USD 100 monthly in a group and USD 150 for one to one.',
   lead: 'Open any of the census tables published for Irish towns and you will find Swords, and at the bottom of the list a row called State. It is tempting to compare the two, and most people would. But that row is not the State. Add up all 867 towns in the table and you get exactly the number in it: 3,582,870 usual residents, about 70.5% of the 5,084,879 people who live in Ireland. The other million and a half live outside any town and are not in it at all. So Swords compared with that row is Swords compared with all towns combined, and the gap looks smaller than the gap between Swords and the country. On broadband it is 7.4 points against 10.3. A label saved somebody a few characters and quietly changed every comparison built on it.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Swords.',
 
@@ -178,7 +178,7 @@ module.exports = {
     intro: 'No drive into the city and no bus timetable to plan around.',
     cells: [
       { h3: 'Live teaching', p: 'Each lesson has a teacher present throughout, asking and answering, with the learner expected to take part.' },
-      { h3: 'Level, not postcode', p: 'Groups of five to ten are formed by ability, drawing on Swords, the rest of Ireland and other countries.' },
+      { h3: 'Level, not postcode', p: 'Groups of fifteen to twenty are formed by ability, drawing on Swords, the rest of Ireland and other countries.' },
       { h3: 'Two a week, usually', p: 'About eight lessons a month at an hour agreed once, around school and exams.' },
       { h3: 'Irish school stages', p: 'From primary through Junior Cycle, Transition Year and the Leaving Certificate years.' },
       { h3: 'What the learner needs', p: 'A laptop or desktop, working sound and a connection that carries video, which almost nine in ten Swords households have on broadband.' },
@@ -191,7 +191,7 @@ module.exports = {
     h2: 'Fees in Swords',
     intro: 'Three prices, no extras.',
     first: 'The first lesson, free, finishing with a level and a course suggestion.',
-    group: 'A month in a group of five to ten at one level, around eight lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, around eight lessons.',
     private: 'A month of one to one lessons at the same weekly pace.',
     closer: 'Invoices are monthly and in US dollars, at the single rate we use outside India, and they are the same in Swords as anywhere else in Ireland. Nothing is charged before the free lesson has settled a course and an hour; pauses, missed lessons and a change between group and private are explained on the pricing page.'
   },
@@ -216,7 +216,7 @@ module.exports = {
       { q: 'Does my child need to be good at maths first?', a: 'No. The first lesson finds each learner\'s real starting level, and the course begins from there.' },
       { q: 'Can adults in Swords join?', a: 'Yes. Learners run from six to sixty-seven, and the free lesson places an adult with a group that matches their level and goals, or with a private teacher.' },
       { q: 'Is there a Modern Age Coders classroom in Swords?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Swords cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Swords cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

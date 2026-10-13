@@ -164,7 +164,7 @@ module.exports = {
     intro: 'The working details.',
     cells: [
       { h3: 'Real-time teaching', p: 'A teacher runs the whole lesson live and checks each learner\'s code while they write it.' },
-      { h3: 'Stage-matched', p: 'Five to ten learners at the same stage, whether they are in Dublin 18, another part of Ireland or overseas.' },
+      { h3: 'Stage-matched', p: 'Fifteen to twenty learners at the same stage, whether they are in Dublin 18, another part of Ireland or overseas.' },
       { h3: 'Fixed weekly slots', p: 'About eight lessons a month on two days each week, agreed when the course begins.' },
       { h3: 'Holidays included', p: 'School holidays, mid-terms and exam weeks are built into the course plan.' },
       { h3: 'Equipment list', p: 'A laptop or desktop, a microphone with headphones or speakers, and a connection able to carry video.' },
@@ -177,7 +177,7 @@ module.exports = {
     h2: 'Fees for Sandyford',
     intro: 'Every charge, listed.',
     first: 'A first lesson with a level check, at no cost.',
-    group: 'A month in a group of five to ten at one stage, around eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one stage, around eight live lessons.',
     private: 'A month of one-to-one lessons, same weekly pattern.',
     closer: 'All families outside India pay one monthly US dollar fee. The free lesson carries no commitment, payments start with the course and not before, and the pricing page explains how holidays, missed lessons and changes between group and private lessons are handled.'
   },
@@ -201,7 +201,7 @@ module.exports = {
       { q: 'When do lessons run?', a: 'Weekdays after school and into the evening, and daytimes at weekends. Lessons are timed in Irish time, and because our teachers are in India, four and a half hours ahead in the Irish summer and five and a half in winter, we offer only hours that fit both.' },
       { q: 'Are adults welcome?', a: 'Yes, of any ability up to the age of sixty-seven. An adult can choose a same-level group or private lessons once the first lesson is done.' },
       { q: 'Will my child be in a class with other Sandyford children?', a: 'Not necessarily. Classes are formed by level, so classmates might be from Dublin 18, elsewhere in Ireland or abroad.' },
-      { q: 'What do coding classes in Sandyford cost?', a: 'The first lesson is free. A group place is then USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Nothing is paid until the plan is agreed.', boiler: true },
+      { q: 'What do coding classes in Sandyford cost?', a: 'The first lesson is free. A group place is then USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Nothing is paid until the plan is agreed.', boiler: true },
       { q: 'How many learners share a class?', a: 'Five to ten, placed by level, pace and aim rather than by age or address. When no group fits a workable time, lessons are one to one.', boiler: true }
     ]
   },

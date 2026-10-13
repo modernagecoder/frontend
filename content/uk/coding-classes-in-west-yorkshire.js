@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in West Yorkshire',
   capsuleQ: 'What are the best coding classes in West Yorkshire?',
-  capsule: 'West Yorkshire is five boroughs, Leeds, Bradford, Kirklees, Wakefield and Calderdale, with 2,351,583 residents at the 2021 Census by our addition of the five totals. Leeds and Bradford are the two big cities, followed by Huddersfield, Wakefield and Halifax. We teach every lesson live over video from India, and learners are grouped by ability, never simply by the year they were born. Anyone aged 6 to 67 can study coding, Python, AI, data science or maths with us, one-to-one or in a group of five to ten. The West Yorkshire project goes to Haworth and the Brontës. You can try one lesson free. Staying on means USD 100 per month for a group place or USD 150 per month for private teaching.',
+  capsule: 'West Yorkshire is five boroughs, Leeds, Bradford, Kirklees, Wakefield and Calderdale, with 2,351,583 residents at the 2021 Census by our addition of the five totals. Leeds and Bradford are the two big cities, followed by Huddersfield, Wakefield and Halifax. We teach every lesson live over video from India, and learners are grouped by ability, never simply by the year they were born. Anyone aged 6 to 67 can study coding, Python, AI, data science or maths with us, one-to-one or in a group of fifteen to twenty. The West Yorkshire project goes to Haworth and the Brontës. You can try one lesson free. Staying on means USD 100 per month for a group place or USD 150 per month for private teaching.',
   lead: 'The Brontë Parsonage Museum says the Brontë family arrived in the West Yorkshire village of Haworth in 1820, and that Charlotte, Emily and Anne wrote their novels there, including Jane Eyre, Wuthering Heights and The Tenant of Wildfell Hall. Two centuries later, computers are asked to read the mood of text all the time, from product reviews to social media. The simplest method is a word list that scores each word as positive or negative. This page\'s project runs one of those lists over four Brontë novels in Python, finds that it does spot the darkest book, and then hunts down the mistakes, the most striking of which is hiding in the word "Miss".',
   wa: 'Hello Modern Age Coders, we are in West Yorkshire and would like to book a free lesson, please.',
 
@@ -160,7 +160,7 @@ module.exports = {
       { h3: 'At your own table', p: 'A terrace in Keighley, a semi in Batley, a flat in Leeds. The screen is shared; the learner writes the code while the teacher watches and guides.' },
       { h3: 'The same school words', p: 'Teachers know what a Year 11 mock or an A level set text means to a pupil in Halifax or Wakefield, and they teach in English.' },
       { h3: 'Start free', p: 'A proper first lesson, then plain advice on level and course, without card details.' },
-      { h3: 'A class that fits', p: 'Five to ten learners at one stage, whether they are in Yorkshire or far away.' },
+      { h3: 'A class that fits', p: 'Fifteen to twenty learners at one stage, whether they are in Yorkshire or far away.' },
       { h3: 'Holiday breaks', p: 'Most learners take two lessons a week and pause for their school\'s own holidays.' },
       { h3: 'UK time throughout', p: 'The slot we give you stays fixed in UK time through the clock changes; the teacher, working on India time several hours ahead, adjusts.' }
     ],
@@ -171,7 +171,7 @@ module.exports = {
     h2: 'Fees in West Yorkshire',
     intro: 'Families in Dewsbury and Shipley pay exactly the same, as do families everywhere we teach except India.',
     first: 'A full lesson of genuine work, followed by a recommendation for level and course.',
-    group: 'About eight lessons a month with five to ten learners at one level.',
+    group: 'About eight lessons a month with fifteen to twenty learners at one level.',
     private: 'About eight lessons a month, one-to-one with a teacher.',
     closer: 'We bill in US dollars and quote no prices in pounds. Payment starts only once the free lesson has settled a course and a weekly slot. For pauses, missed lessons or a change between group and private, see the pricing page.'
   },

@@ -227,7 +227,7 @@ module.exports = {
       { h3: 'Proof as a sentence', p: 'Students say what they are assuming and why it helps, before writing a symbol.' },
       { h3: 'Cases before claims', p: 'Quick tables or short programs check a statement before any proof is attempted.' },
       { h3: 'Both papers practised', p: 'Advanced items keep their place in revision, where careless marks hide.' },
-      { h3: 'Classes of five to ten', p: 'Extension 1 students at one level, each explaining a step aloud every week.' },
+      { h3: 'Classes of fifteen to twenty', p: 'Extension 1 students at one level, each explaining a step aloud every week.' },
       { h3: 'Individual help', p: 'A single tutor for a single focus area that will not click.' },
       { h3: 'No rank promises', p: 'We never forecast an ATAR or a band. The effort and the result are the student\'s.' }
     ]
@@ -241,7 +241,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'One monthly charge in US dollars, identical for every family outside India, with no joining fee and nothing payable beyond the current month.',
     free: ['A full lesson with a tutor', 'A straight answer on readiness', 'No payment details'],
-    group: ['Five to ten students at one level', 'One tutor all term', 'Proofs marked and discussed', 'A certificate on completion'],
+    group: ['Fifteen to twenty students at one level', 'One tutor all term', 'Proofs marked and discussed', 'A certificate on completion'],
     one: ['A tutor for one student', 'Focused on chosen topics', 'Good for the weeks before trials']
   },
 

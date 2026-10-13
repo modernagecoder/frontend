@@ -1,10 +1,10 @@
 ---
 title: "Python for Kids in Dubai | Fun Live Classes, Ages 8-14"
-description: "Python classes for kids in Dubai, ages 8 to 14. Live online lessons in batches of 5 to 8, from turtle drawings to first games. Free demo class for parents."
+description: "Python classes for kids in Dubai, ages 8 to 14. Live online lessons in batches of 15 to 20, from turtle drawings to first games. Free demo class for parents."
 canonical: https://learn.modernagecoders.com/python-for-kids-in-dubai
 source: src/pages/python-for-kids-in-dubai.html
 ---
-> Python classes for kids in Dubai, ages 8 to 14. Live online lessons in batches of 5 to 8, from turtle drawings to first games. Free demo class for parents.
+> Python classes for kids in Dubai, ages 8 to 14. Live online lessons in batches of 15 to 20, from turtle drawings to first games. Free demo class for parents.
 
 01 · The courses
 
@@ -78,7 +78,7 @@ A fixed weekly video class with a teacher who knows your child by name and by co
 
 B
 
-### Five to eight children
+### Fifteen to twenty children
 
 Every child types in every class, and the teacher watches each screen. Shy children get drawn in gently; racing children get harder problems instead of a longer wait.
 
@@ -134,7 +134,7 @@ It sounds obvious. It is not universal. Our instructors teach kids for a living 
 
 ### Small enough to matter
 
-Five to eight children per batch, permanently. Your child is a person in this class, not a tile in a grid.
+Fifteen to twenty children per batch, permanently. Your child is a person in this class, not a tile in a grid.
 
 ### Real Python, really typed
 
@@ -186,7 +186,7 @@ Group classes
 
 $100 per month
 
-- Weekly live hour, 5 to 8 children
+- Weekly live hour, 15 to 20 children
 - After-school and weekend GST slots
 - Projects your child keeps for good
 - Free demo before you commit

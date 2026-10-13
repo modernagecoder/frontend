@@ -50,7 +50,7 @@ module.exports = {
 
   h1: 'Coding classes in Merton',
   capsuleQ: 'What are the best coding classes in Merton?',
-  capsule: 'Merton is the south west London borough of Wimbledon, Mitcham, Morden, Raynes Park, Colliers Wood and South Wimbledon, with 215,186 residents at the 2021 Census, Eagle House and the old Liberty print works by the River Wandle. A good coding class turns a question anyone can ask into a search a computer can finish, and this page does it with patterns: which regular shapes can meet at a point and fit together with no gaps, the question behind every tiled floor and printed fabric. Our teachers, working from India, teach live over video to learners aged 6 to 67, privately or in small classes of five to ten matched by stage. We charge nothing for the first lesson; after it, group places are USD 100 a month and private teaching USD 150 a month.',
+  capsule: 'Merton is the south west London borough of Wimbledon, Mitcham, Morden, Raynes Park, Colliers Wood and South Wimbledon, with 215,186 residents at the 2021 Census, Eagle House and the old Liberty print works by the River Wandle. A good coding class turns a question anyone can ask into a search a computer can finish, and this page does it with patterns: which regular shapes can meet at a point and fit together with no gaps, the question behind every tiled floor and printed fabric. Our teachers, working from India, teach live over video to learners aged 6 to 67, privately or in classes of fifteen to twenty matched by stage. We charge nothing for the first lesson; after it, group places are USD 100 a month and private teaching USD 150 a month.',
   lead: 'Beside the River Wandle at Merton stand two small listed buildings from a textile printing works: a colour house dated 1742 and a wheel house whose list entry says the site has been used for printing textiles for two centuries. Printed cloth is maths you can wear. A pattern is cut into a block, and the block is stamped again and again until the design covers the fabric with no gaps and no overlaps. Our learners ask the question underneath every repeating pattern: which regular shapes can fit together around a point? They write a program that tries every combination of regular polygons, from triangles up to 42-sided shapes, and keeps the ones whose corner angles add up to exactly 360 degrees. It finds 17 combinations, 21 ways to arrange them, and only 3 that use a single shape.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Merton.',
 
@@ -140,7 +140,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'Wimbledon', p: 'TfL\'s open data lists the District line, the tram, South Western Railway and Thameslink at Wimbledon.' },
           { h3: 'Raynes Park to Mitcham', p: 'A learner in the west of the borough and one in Mitcham can meet in the same online class.' },
-          { h3: 'Fitting together', p: 'Each class is five to ten learners at the same stage, chosen so everyone fits the pace without gaps.' }
+          { h3: 'Fitting together', p: 'Each class is fifteen to twenty learners at the same stage, chosen so everyone fits the pace without gaps.' }
         ] },
         { kind: 'spec', title: 'Merton in London', p: 'Merton is one of London\'s 32 boroughs. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> covers all of them and the City, adding each page as it is published, including <a class="cg-inline-link" href="/coding-classes-in-sutton-london">Sutton</a>, upstream on the Wandle.' }
       ]
@@ -177,7 +177,7 @@ module.exports = {
       { h3: 'A place at home', p: 'Any quiet corner works, with a laptop or desktop, a headset and a broadband line strong enough for video.' },
       { h3: 'English Key Stages', p: 'Progress reports use the language of schools in England: the Key Stage the learner is in, and GCSE or A level where that applies. Lessons are in English.' },
       { h3: 'Start without paying', p: 'Lesson one is genuine teaching, ending with the teacher\'s recommendation on level and course. No card is needed.' },
-      { h3: 'Stage-matched groups', p: 'We fill each class with five to ten learners at one stage, drawn from around the UK and further away, so an evening slot usually fits.' },
+      { h3: 'Stage-matched groups', p: 'We fill each class with fifteen to twenty learners at one stage, drawn from around the UK and further away, so an evening slot usually fits.' },
       { h3: 'A two-evening rhythm', p: 'The standard week has two evening lessons; holidays and exam periods bring agreed breaks.' },
       { h3: 'London times', p: 'The teacher is in India; every lesson time we send is already converted to UK time.' }
     ],
@@ -188,7 +188,7 @@ module.exports = {
     h2: 'Fees for Merton families',
     intro: 'The same arrangement from Wimbledon to Mitcham: a free first lesson, then one monthly fee.',
     first: 'A full first lesson with a teacher, free, finishing with a recommended level, course and weekly time.',
-    group: 'Roughly eight live lessons a month, in a class of five to ten at one stage.',
+    group: 'Roughly eight live lessons a month, in a class of fifteen to twenty at one stage.',
     private: 'Roughly eight live lessons a month, taught one to one.',
     closer: 'Merton families are charged in US dollars, as everyone outside India is, and no prices in pounds appear on the site. The first charge comes only after the free lesson, once a course and regular slot are chosen. How pausing, missed lessons and swapping between group and private teaching work is set out on the pricing page.'
   },
@@ -213,8 +213,8 @@ module.exports = {
       { q: 'When would lessons take place?', a: 'After the free lesson, we suggest a class at the right level with room and its fixed weekly evening, given in UK time; the teacher is in India.' },
       { q: 'What does a learner need?', a: 'A computer that plays sound and a connection that holds up for video. The tiling project needs nothing but Python.' },
       { q: 'Is there a Modern Age Coders centre in Merton?', a: 'No. There is no Merton centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Merton cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Merton cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

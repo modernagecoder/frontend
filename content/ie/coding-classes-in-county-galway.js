@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding classes in County Galway',
   capsuleQ: 'What are the best coding classes in County Galway?',
-  capsule: 'County Galway, meaning the council area outside the city, holds 193,323 people. Tuam is its largest town at 9,647, followed by Ballinasloe at 6,597, Loughrea at 6,322 and Athenry at 4,603, and the rest of the population sits in villages and townlands from Ballinasloe west to the Conamara coast. Almost 86,000 people work in the county and 46% of adults hold a third level qualification, just above the national 45%. We teach ages 6 to 67 live online at a fixed weekly hour, in ability groups of five to ten or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.',
+  capsule: 'County Galway, meaning the council area outside the city, holds 193,323 people. Tuam is its largest town at 9,647, followed by Ballinasloe at 6,597, Loughrea at 6,322 and Athenry at 4,603, and the rest of the population sits in villages and townlands from Ballinasloe west to the Conamara coast. Almost 86,000 people work in the county and 46% of adults hold a third level qualification, just above the national 45%. We teach ages 6 to 67 live online at a fixed weekly hour, in ability groups of fifteen to twenty or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.',
   lead: 'Ask the internet how many people live in Galway and you will be told 277,737. That number is real, and it is the wrong answer for this page, because it counts the city and the county together. The county on its own is 193,323, and we can show that rather than assert it: the statistics office publishes seven local electoral areas tagged Galway County, and Tuam, Athenry-Oranmore, Ballinasloe, Gort-Kinvara, Loughrea, Conamara South and Conamara North add up to 193,323 exactly, from a different table than the one the total came from. When two independent routes land on the same figure, you have something worth publishing. That habit, adding up the parts and checking them against the whole, is the single most useful thing a young programmer can learn to do with data, and it is what this page is built around.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in County Galway.',
 
@@ -199,7 +199,7 @@ module.exports = {
       { h3: 'No travel at all', p: 'The lesson happens where the learner is, which in this county can be 90 minutes from the nearest town of any size.' },
       { h3: 'Irish school stages', p: 'We plan around Junior Cycle, Transition Year, fifth year and sixth year, using the names the school uses.' },
       { h3: 'The free lesson', p: 'A real class with real work, ending with a level, a recommended course and a proposed weekly hour. No card details.' },
-      { h3: 'Small ability groups', p: 'Five to ten learners at the same level, gathered from County Galway and other countries so the right group exists at a sensible hour.' },
+      { h3: 'Small ability groups', p: 'Fifteen to twenty learners at the same level, gathered from County Galway and other countries so the right group exists at a sensible hour.' },
       { h3: 'A fixed weekly slot', p: 'Usually two lessons a week, about eight a month, agreed once and kept, with exam weeks planned around.' },
       { h3: 'Ahead of Irish time', p: 'Our teachers are in India, four and a half hours ahead of Ireland in summer and five and a half in winter, which is why afternoons and evenings work well.' }
     ],
@@ -210,7 +210,7 @@ module.exports = {
     h2: 'County Galway class fees',
     intro: 'The whole price list is three lines long.',
     first: 'The first lesson costs nothing and ends with a level and a recommendation.',
-    group: 'A month of group classes, normally eight lessons, five to ten learners at one level.',
+    group: 'A month of group classes, normally eight lessons, fifteen to twenty learners at one level.',
     private: 'A month of one to one classes on the same weekly schedule.',
     closer: 'We bill monthly in US dollars, at the single rate we charge everywhere outside India, so a family in Clifden pays the same as a family in Athenry and there is no separate euro list. Nothing is charged before the free lesson has agreed a course and an hour. Pauses, missed lessons and switching between group and private are all set out on the pricing page.'
   },
@@ -235,7 +235,7 @@ module.exports = {
       { q: 'Do you teach learners in Conamara?', a: 'Yes. Conamara South and Conamara North hold 41,398 people between them, and distance from a town makes no difference to a live online class.' },
       { q: 'What hours do classes run?', a: 'Afternoons, evenings and weekend mornings. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter, and the exact hour is agreed during the free lesson.' },
       { q: 'Is there a Modern Age Coders classroom in County Galway?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do County Galway coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do County Galway coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

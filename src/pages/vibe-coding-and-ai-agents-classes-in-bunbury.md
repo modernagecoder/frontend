@@ -16,7 +16,7 @@ Bunbury, Western Australia, Australia / Live online
 
 People type place names badly. An AI agent that answers "which schools are near Austrlind?" needs a lookup tool that forgives the missing letter and still refuses to invent a match for a town it has never heard of. Our Bunbury project builds that tool from the Western Australian Department of Education's open list of schools: 44 schools within 25 kilometres of central Bunbury, in 16 suburbs. We wrote the Jaro-Winkler similarity score from its definition, generated 192 deliberate typos and tested. Every typo found its right suburb. The hard part turned out to be elsewhere: the weakest genuine typo scored 0.8905, and an unrelated suburb from elsewhere in the state scored 0.89.
 
-Facts last verified 7 October 2026. Teaching is online; no Bunbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Bunbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for Bunbury's agent builders
 
@@ -179,7 +179,7 @@ Greater Bunbury spreads around Koombana Bay and the estuary, and a video lesson 
 - **Around the bay** A learner in Carey Park and another in Gelorup can work in the same class without either travelling.
 - **Western Australian schooling** Teachers follow WA year levels and the state's four terms, and senior students can relate projects to their own courses. Teaching is in English.
 - **The trial is real teaching** Your free first session is a proper lesson that ends with a level, a course suggestion and a time. No card is ever requested.
-- **Groups at one level** Five to ten learners at the same stage, from Bunbury and elsewhere, so regional learners always find classmates.
+- **Groups at one level** Fifteen to twenty learners at the same stage, from Bunbury and elsewhere, so regional learners always find classmates.
 - **Two lessons a week** Around eight a month in a fixed slot, with school holidays and exam periods planned with the teacher.
 - **Teachers two and a half hours behind** Western Australia and India both skip daylight saving, so a 6pm lesson in Bunbury is 3:30pm for our teachers all year round.
 
@@ -190,7 +190,7 @@ Greater Bunbury spreads around Koombana Bay and the estuary, and a video lesson 
 Three straightforward prices.
 
 - First class: USD 0. A full first lesson for free, after which you get a level, a suggested course and a time.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, in a group of five to ten learners at your level.
+- Group tuition: USD 100 a month. A month of lessons, usually eight, in a group of fifteen to twenty learners at your level.
 - Private tuition: USD 150 a month. About eight lessons a month with your own teacher, one to one.
 
 Outside India all our fees are set in US dollars, which means Withers and College Grove households receive matching invoices and WA has no price list of its own. Payment begins once the trial has pinned down a course and a lesson slot, and our pricing page answers questions about breaks, absences and changing format.
@@ -231,11 +231,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Bunbury classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## Where Bunbury learners can go next
 

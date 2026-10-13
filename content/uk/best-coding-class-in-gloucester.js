@@ -64,7 +64,7 @@ module.exports = {
 
   h1: 'Coding classes in Gloucester',
   capsuleQ: 'What are the best coding classes in Gloucester?',
-  capsule: 'The 2021 census counted 132,416 usual residents in Gloucester, and children aged five to nine made up 6.3% of them, against 5.9% in England. Gloucester Cathedral says its site has seen continuous Christian worship since 678 to 679 AD, and that its Great Cloister holds the earliest known fan vaulting in the world. Anyone in Gloucester aged between six and sixty-seven can have a live video lesson with one of our India-based teachers, either alone or with five to ten classmates at the same stage, timed for UK after-school and evening hours. The first lesson is free, and after that a group place is USD 100 a month and private teaching USD 150.',
+  capsule: 'The 2021 census counted 132,416 usual residents in Gloucester, and children aged five to nine made up 6.3% of them, against 5.9% in England. Gloucester Cathedral says its site has seen continuous Christian worship since 678 to 679 AD, and that its Great Cloister holds the earliest known fan vaulting in the world. Anyone in Gloucester aged between six and sixty-seven can have a live video lesson with one of our India-based teachers, either alone or with fifteen to twenty classmates at the same stage, timed for UK after-school and evening hours. The first lesson is free, and after that a group place is USD 100 a month and private teaching USD 150.',
   lead: 'Environment Agency gauges measure the River Severn every few minutes at Sharpness, Epney, Minsterworth and Gloucester. At Sharpness the tide rises and falls by several metres twice a day. Does each tide reach Gloucester, and when? Line the two records up with one fixed delay and even the closest choice, 150 minutes, still leaves them badly out of step. Dynamic time warping lets the delay stretch and shrink, and the match improves sharply. Look closer, though, and in four weeks only 16 of 54 tides lifted Gloucester by 30 centimetres or more; the rest barely register. The flexible method was also bending itself to match river wiggles that were not the tide at all. Our teenagers learn both lessons.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Gloucester.',
 
@@ -192,7 +192,7 @@ module.exports = {
       { h3: 'North to south of the city', p: 'A learner in Longlevens and another in Abbeymead can join the same lesson without anyone driving across town.' },
       { h3: 'Stages from Reception on', p: 'We use the stages Gloucester schools use, Reception and Key Stages 1 to 4 through to GCSE and A level, and we teach in English.' },
       { h3: 'A free lesson worth the time', p: 'The first session is real teaching and ends with a suggested level, course and weekly time. Nobody asks for card details.' },
-      { h3: 'Groups of five to ten', p: 'Everyone in a group is at the same stage, drawn from Gloucester, the rest of the UK and abroad, so each level has a workable hour.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Everyone in a group is at the same stage, drawn from Gloucester, the rest of the UK and abroad, so each level has a workable hour.' },
       { h3: 'A twice-weekly habit', p: 'Two fixed lessons each week, about eight a month, with school holidays and exams planned with the teacher in advance.' },
       { h3: 'Teachers on Indian time', p: 'A 4 pm class in Gloucester begins at 8.30 pm in India in British Summer Time and 9.30 pm in winter, because India never changes its clocks; our teachers work those evenings for UK learners.' }
     ],
@@ -203,7 +203,7 @@ module.exports = {
     h2: 'Gloucester lesson fees',
     intro: 'One free lesson, then a single monthly fee.',
     first: 'A full lesson at no charge, finishing with a recommended level, course and weekly slot.',
-    group: 'About eight live lessons a month in a group of five to ten learners at one stage.',
+    group: 'About eight live lessons a month in a group of fifteen to twenty learners at one stage.',
     private: 'About eight live lessons a month, just the teacher and your learner.',
     closer: 'Matson and Hempsted pay the same as any other family outside India, one fee in US dollars, and you will find no pound prices on our site. You are billed only after the free lesson, once a course and a time are agreed; pausing, missed lessons and switching between group and one-to-one lessons are explained on the pricing page.'
   },
@@ -228,8 +228,8 @@ module.exports = {
       { q: 'What is special about Gloucester Cathedral?', a: 'The Cathedral says its Great Cloister, built in the late fourteenth century, contains the earliest known example of fan vaulting in the world, and that worship on the site goes back to 678 to 679 AD. We are not connected with the Cathedral.' },
       { q: 'When do Gloucester lessons take place?', a: 'Most Gloucester families pick a weekday slot straight after school or later in the evening, and some prefer Saturdays; we fix the time together during the free lesson. Our teachers are four and a half hours ahead in summer and five and a half in winter.' },
       { q: 'Is there a Modern Age Coders centre in Gloucester?', a: 'No. There is no Gloucester centre and no premises anywhere in the UK; every lesson is taught live online. Learners need a computer with sound and a steady connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do Gloucester lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
-      { q: 'How are Gloucester groups formed?', a: 'By level, pace and goals rather than age or address, with five to ten learners at one stage. If no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do Gloucester lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
+      { q: 'How are Gloucester groups formed?', a: 'By level, pace and goals rather than age or address, with fifteen to twenty learners at one stage. If no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

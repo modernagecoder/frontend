@@ -16,7 +16,7 @@ City of Kingston, Melbourne, Victoria / Live online
 
 Southland station is unusual. In FY24-25 it averaged more entries on a Saturday than on a normal weekday, something only four of the 197 stations with at least 500 weekday entries managed. Teaching a model to recognise that pattern from weekday travel times is a perfect lesson in imbalanced data, because the easy answer, "never Saturday-busy", is already right 92.4% of the time.
 
-Facts last verified 10 October 2026. Teaching is online; no Kingston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Kingston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Machine learning and programming courses
 
@@ -189,7 +189,7 @@ Every class runs on video, for learners in Mentone, Chelsea, Dingley Village or 
 - **Live and hands-on** The learner shares their screen and builds while the teacher explains.
 - **Term-based plan** Teaching tracks the Victorian term dates and breaks for holidays.
 - **No-fee first lesson** A complete lesson free of charge, with a course suggestion afterwards.
-- **Level groups** Five to ten learners at the same level, drawn from many suburbs.
+- **Level groups** Fifteen to twenty learners at the same level, drawn from many suburbs.
 - **Two lessons a week** Two fixed sessions weekly, about eight each month.
 - **India-based teachers** A 4:45pm Kingston class is 11:15am India time under Melbourne daylight saving and 12:15pm once it ends.
 
@@ -200,7 +200,7 @@ Every class runs on video, for learners in Mentone, Chelsea, Dingley Village or 
 Fees are simple and identical for every family.
 
 - First class: USD 0. Lesson one is free, with clear advice at the end.
-- Group tuition: USD 100 a month. Group option: a month of lessons, usually eight, five to ten learners together.
+- Group tuition: USD 100 a month. Group option: a month of lessons, usually eight, fifteen to twenty learners together.
 - Private tuition: USD 150 a month. Private option: a month of lessons, usually eight, one learner with one teacher.
 
 Kingston families pay in US dollars. You pay nothing until the trial agrees a course and a weekly slot; holiday and missed-lesson rules sit on the pricing page.
@@ -237,11 +237,11 @@ No. Every class is live online; we have no office in Australia, and the phone nu
 
 ### How much do Kingston classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How are learners grouped?
 
-Into groups of five to ten by level and pace, not by age or suburb, with one-to-one lessons for anyone whose timing no group fits.
+Into groups of fifteen to twenty by level and pace, not by age or suburb, with one-to-one lessons for anyone whose timing no group fits.
 
 ### Which Kingston station had the most entries in FY24-25?
 

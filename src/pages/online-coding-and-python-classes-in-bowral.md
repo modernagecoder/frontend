@@ -16,7 +16,7 @@ Bowral, New South Wales, Australia / Live online
 
 Mount Gibraltar rises between Bowral and Mittagong, and the NSW contour map draws it as a set of closed rings, one inside the next, up to 862 metres. Each ring encloses an area. Stack those areas like slices of bread and you can estimate how much rock and soil makes up the hill. There is more than one way to turn a stack of slices into a volume, though, and they disagree by over 16 million cubic metres. Working out which to trust, and why thinner slices settle the argument, is a tidy first project in Python.
 
-Facts last verified 8 October 2026. Teaching is online; no Bowral branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 8 October 2026. Teaching is online; no Bowral branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where a Southern Highlands learner starts
 
@@ -179,7 +179,7 @@ Whether you are in Bowral, Mittagong or Moss Vale, the class is the same video c
 - **No commute** Lessons are joined from home, so there is no trip up the highway to Sydney for a coding class.
 - **NSW school structure** Lessons line up with the NSW syllabus stage a learner is in, and shift around the state's four terms. Teaching is in English.
 - **A free first class** The trial lesson teaches real material and finishes with a recommendation for course and weekly time.
-- **Small classes** Groups have five to ten learners at a similar level, from the Highlands and beyond, so each group stays full.
+- **Small classes** Groups have fifteen to twenty learners at a similar level, from the Highlands and beyond, so each group stays full.
 - **Two a week** Two live lessons each week, roughly eight per month, at a regular time agreed after the trial.
 - **Teachers in India** Our teaching team works from India. The Highlands clock leads theirs by 4.5 hours in the cooler months and by 5.5 hours once NSW daylight saving starts.
 
@@ -190,7 +190,7 @@ Whether you are in Bowral, Mittagong or Moss Vale, the class is the same video c
 Fees are simple and identical across Australia.
 
 - First class: USD 0. First lesson free, then a recommended level, course and lesson time.
-- Group tuition: USD 100 a month. A month of group lessons, about eight, with five to ten learners at the same level.
+- Group tuition: USD 100 a month. A month of group lessons, about eight, with fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. Roughly eight one-to-one lessons a month with a teacher of your own.
 
 Families and adults outside India pay in US dollars, so Bowral pays what every Australian town pays. Nothing is due until the trial has settled a course and a weekly slot, and the pricing page explains holidays, missed lessons and switching between group and private.
@@ -231,7 +231,7 @@ No. We do not have any premises in Australia and claim none. Classes are live on
 
 ### How much do Bowral Python classes cost?
 
-The first lesson is free. Then a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for one to one. All of it is agreed before any payment.
+The first lesson is free. Then a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for one to one. All of it is agreed before any payment.
 
 ### How many learners are in a group?
 

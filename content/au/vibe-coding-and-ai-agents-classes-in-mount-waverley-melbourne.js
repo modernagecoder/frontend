@@ -300,7 +300,7 @@ module.exports = {
       { h3: 'Coding together', p: 'Learners write on their own machine with the screen shared, and the teacher steps in as the code grows.' },
       { h3: 'Term rhythm', p: 'Courses run in Victorian school terms and pause for the holidays.' },
       { h3: 'A real trial', p: 'The first class is free and complete. At the end the teacher recommends a course and a weekly time.' },
-      { h3: 'Matched groups', p: 'Groups hold five to ten learners who are at a similar point.' },
+      { h3: 'Matched groups', p: 'Groups hold fifteen to twenty learners who are at a similar point.' },
       { h3: 'Regular slots', p: 'Two lessons on fixed days each week, around eight a month, with holidays known ahead.' },
       {
         h3: 'Teachers in India',
@@ -316,7 +316,7 @@ module.exports = {
     h2: 'Mount Waverley class fees',
     intro: 'Three prices cover every course.',
     first: 'A free opening lesson that ends with a clear next step.',
-    group: 'A month of group lessons, generally eight, in a group of five to ten at one level.',
+    group: 'A month of group lessons, generally eight, in a group of fifteen to twenty at one level.',
     private: 'Roughly eight one-to-one lessons a month with the same teacher.',
     closer: 'We bill families outside India in US dollars, so Mount Waverley pays exactly what other overseas families pay. No payment is taken until the trial has fixed the course and the time; the pricing page sets out holidays, missed lessons and changes of format.'
   },
@@ -358,10 +358,10 @@ module.exports = {
       },
       {
         q: 'What do classes cost for Mount Waverley learners?',
-        a: 'The first lesson is free. After it, group classes cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before any payment.',
+        a: 'The first lesson is free. After it, group classes cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before any payment.',
         boiler: true
       },
-      { q: 'How large are the groups?', a: 'Five to ten learners grouped on level, pace and goals, or one to one if no group time fits.', boiler: true },
+      { q: 'How large are the groups?', a: 'Fifteen to twenty learners grouped on level, pace and goals, or one to one if no group time fits.', boiler: true },
       {
         q: 'Do adults take AI agents classes?',
         a: 'Many do. Working adults join their own groups or learn one to one, often to automate a slow task at work with an agent they can actually rely on.'

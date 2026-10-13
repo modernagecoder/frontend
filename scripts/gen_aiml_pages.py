@@ -515,14 +515,14 @@ def main_content(c):
                 <div class="{p}-plan">
                     <h3>Group Batch</h3>
                     <div class="{p}-price">₹1,499<small>per month · 2 classes/week</small></div>
-                    <ul><li>5–8 learners per batch</li><li>{plans[0]}</li><li>Recorded class access</li><li>Completion certificate</li></ul>
+                    <ul><li>15–20 learners per batch</li><li>{plans[0]}</li><li>Recorded class access</li><li>Completion certificate</li></ul>
                     <a href="#book-demo" class="{p}-btn {p}-btn-ghost" style="width:100%;justify-content:center;">Start Free Demo</a>
                 </div>
                 <div class="{p}-plan {p}-pop">
                     <span class="{p}-badge">Most Popular</span>
                     <h3>Mini Batch</h3>
                     <div class="{p}-price">₹2,499<small>per month · 2 classes/week</small></div>
-                    <ul><li>Only 3–4 learners per batch</li><li>More personal mentoring</li><li>Recorded class access</li><li>{plans[1]}</li></ul>
+                    <ul><li>Up to 6 learners per batch</li><li>More personal mentoring</li><li>Recorded class access</li><li>{plans[1]}</li></ul>
                     <a href="#book-demo" class="{p}-btn {p}-btn-primary" style="width:100%;justify-content:center;">Start Free Demo</a>
                 </div>
                 <div class="{p}-plan">
@@ -954,8 +954,8 @@ def build_md(c):
     lines.append("")
     lines.append("## Course Fees")
     lines.append("")
-    lines.append("- **Group Batch** — ₹1,499/month, 2 classes/week, 5–8 learners, completion certificate.")
-    lines.append("- **Mini Batch** — ₹2,499/month, only 3–4 learners, more personal mentoring.")
+    lines.append("- **Group Batch** — ₹1,499/month, 2 classes/week, 15–20 learners, completion certificate.")
+    lines.append("- **Mini Batch** — ₹2,499/month, up to 6 learners, more personal mentoring.")
     lines.append("- **1-on-1 Personal** — ₹4,999/month, dedicated mentor, custom pace.")
     lines.append("")
     lines.append("A free demo class is available first.")

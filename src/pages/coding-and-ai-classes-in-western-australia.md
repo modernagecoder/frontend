@@ -16,7 +16,7 @@ Western Australia / Live online
 
 Western Australia is so wide that no single flat map grid can cover it without bending distances. Surveyors solve this in two ways. The national grid cuts the world into strips six degrees of longitude wide, and Western Australia straddles four of them. Then, for towns where engineers need plans that match the ground, Landgate keeps nineteen local project grids, each centred on its own meridian. Our learners work out which strip every grid belongs to, find the two towns less than half a degree apart that land in different zones, and learn why a coordinate can jump by hundreds of kilometres at an invisible line in the desert.
 
-Facts last verified 7 October 2026. Teaching is online; no Western Australia branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Western Australia branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four places to start in Western Australia
 
@@ -200,7 +200,7 @@ Travelling to a weekly class is unrealistic for much of WA. A live online lesson
 A single price list from the Kimberley to the Great Southern.
 
 - First class: USD 0. A complete first lesson at no cost, ending with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. A month of lessons, typically eight, with five to ten learners at a similar level.
+- Group tuition: USD 100 a month. A month of lessons, typically eight, with fifteen to twenty learners at a similar level.
 - Private tuition: USD 150 a month. The same rhythm of about eight lessons a month, taught one to one.
 
 Outside India every family is invoiced in US dollars at one rate, so Port Hedland and Fremantle pay exactly the same. Nothing is billed until the trial has settled what and when the learner will study; holiday pauses, make-up lessons and swapping between group and private teaching are all covered on the pricing page.
@@ -241,7 +241,7 @@ No, and we do not claim one. Teaching is entirely live online with no premises a
 
 ### How much are coding lessons in WA?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Nothing is paid until course, format and time are agreed.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Nothing is paid until course, format and time are agreed.
 
 ### How many students share a group?
 

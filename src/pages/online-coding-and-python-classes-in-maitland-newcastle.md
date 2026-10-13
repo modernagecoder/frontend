@@ -16,7 +16,7 @@ Maitland City Council, Hunter, New South Wales / Live online
 
 Two data sets should agree on Maitland's nine railway stations. A regular expression meant to pull station names from Transport for NSW's usage file matched none of them. The same pattern with one extra question mark matched all nine. The difference was two spaces in the source text.
 
-Facts last verified 14 October 2026. Teaching is online; no Maitland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 14 October 2026. Teaching is online; no Maitland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python courses that handle messy text
 
@@ -187,7 +187,7 @@ Lessons are live on video, so the learner stays at home.
 - **Real files** Learners work with public data from their own region, not toy examples.
 - **NSW terms** Classes follow the New South Wales school calendar and stop for holidays.
 - **Free trial** One full lesson costs nothing and ends with a written recommendation.
-- **Level-matched groups** Five to ten learners at a similar stage, or one to one.
+- **Level-matched groups** Fifteen to twenty learners at a similar stage, or one to one.
 - **Twice weekly** Two set lessons a week, around eight in a month.
 - **India time** Our teachers are in India: a 7pm Maitland class is 1:30pm India time during daylight saving and 2:30pm from April.
 
@@ -198,7 +198,7 @@ Lessons are live on video, so the learner stays at home.
 The same price list in every council area.
 
 - First class: USD 0. Your first lesson is free, with written advice to follow.
-- Group tuition: USD 100 a month. Around eight group lessons a month, five to ten learners each.
+- Group tuition: USD 100 a month. Around eight group lessons a month, fifteen to twenty learners each.
 - Private tuition: USD 150 a month. Around eight private lessons a month.
 
 Maitland families pay in US dollars once the trial lesson has fixed the course and the class times. The pricing page explains holidays and missed lessons.
@@ -235,11 +235,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Maitland learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Do Maitland group classes cover Copilot Studio?
 

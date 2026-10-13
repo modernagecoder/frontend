@@ -195,7 +195,7 @@ module.exports = {
       { h3: 'From the coast or the city', p: 'A student in Bargara and one in Avenell Heights join the same video lesson without a bus timetable to consult.' },
       { h3: 'Queensland year levels', p: 'Teachers plan with Queensland year levels and the state\'s four terms, and senior students can link projects to their Digital Solutions or maths subjects. Teaching is in English.' },
       { h3: 'Trial first', p: 'Your opening lesson is a genuine class. Afterwards you are offered a level, a course and a regular time, and no card is ever requested at this stage.' },
-      { h3: 'Small, level-matched groups', p: 'Five to ten learners working at the same point, drawn from Bundaberg and other places, so every group runs at a sensible size.' },
+      { h3: 'Small, level-matched groups', p: 'Fifteen to twenty learners working at the same point, drawn from Bundaberg and other places, so every group runs at a sensible size.' },
       { h3: 'A steady weekly habit', p: 'Two fixed lessons a week, about eight in a month, with breaks for holidays and exams decided with the teacher.' },
       { h3: 'A constant time difference', p: 'Because neither Queensland nor India uses daylight saving, a 6pm Bundaberg lesson always begins at 1:30pm for the teacher.' }
     ],
@@ -206,7 +206,7 @@ module.exports = {
     h2: 'Bundaberg class fees',
     intro: 'Three prices, stated plainly.',
     first: 'A full lesson without charge, ending with a recommended level, course and lesson time.',
-    group: 'One month of lessons, usually eight, in a group of five to ten learners at your level.',
+    group: 'One month of lessons, usually eight, in a group of fifteen to twenty learners at your level.',
     private: 'The same rhythm of roughly eight lessons a month with a teacher to yourself.',
     closer: 'All countries except India are billed in US dollars, so there is a single price whether a family lives in Millbank or at Burnett Heads. The first invoice comes only after the trial has set a course and a time; the pricing page explains holidays, missed lessons and changing formats.'
   },
@@ -231,8 +231,8 @@ module.exports = {
       { q: 'What time are lessons for Bundaberg learners?', a: 'Usually between school finishing and dinner, or on a weekend morning, fixed at the trial in Queensland time. India is four and a half hours behind Bundaberg all year.' },
       { q: 'Can primary school children join?', a: 'Yes, from age six. They begin with Scratch and visual projects before moving to typed Python, and this page simply concentrates on older learners.' },
       { q: 'Is there a Modern Age Coders centre in Bundaberg?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Bundaberg Python classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Bundaberg Python classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

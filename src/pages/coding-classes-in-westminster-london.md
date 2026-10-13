@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Westminster: 
 canonical: https://learn.modernagecoders.com/coding-classes-in-westminster-london
 source: src/pages/coding-classes-in-westminster-london.html
 ---
-> Westminster is the central London borough of Marylebone, Pimlico, Paddington, Maida Vale, Soho, Mayfair, St John's Wood and Victoria, with 204,236 residents at the 2021 Census and more listed buildings than any page in this series has yet counted, the Palace of Westminster and Westminster Abbey among them. Good coding classes connect a formula to something real enough to hear ticking, and this page does that with the Great Clock's pendulum: Parliament's own figures, a physics formula, and the question of how a single old penny speeds the clock by two-fifths of a second a day. A teacher in India works with each learner live on video: one to one, or in a small class of five to ten at the same stage, for anyone aged 6 to 67. The first lesson is free. After that it costs USD 100 a month in a group, or USD 150 a month privately.
+> Westminster is the central London borough of Marylebone, Pimlico, Paddington, Maida Vale, Soho, Mayfair, St John's Wood and Victoria, with 204,236 residents at the 2021 Census and more listed buildings than any page in this series has yet counted, the Palace of Westminster and Westminster Abbey among them. Good coding classes connect a formula to something real enough to hear ticking, and this page does that with the Great Clock's pendulum: Parliament's own figures, a physics formula, and the question of how a single old penny speeds the clock by two-fifths of a second a day. A teacher in India works with each learner live on video: one to one, or in a class of fifteen to twenty at the same stage, for anyone aged 6 to 67. The first lesson is free. After that it costs USD 100 a month in a group, or USD 150 a month privately.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Westminster
 
@@ -12,11 +12,11 @@ City of Westminster / Live online
 
 # Coding classes in Westminster
 
-**What are the best coding classes in Westminster?** Westminster is the central London borough of Marylebone, Pimlico, Paddington, Maida Vale, Soho, Mayfair, St John's Wood and Victoria, with 204,236 residents at the 2021 Census and more listed buildings than any page in this series has yet counted, the Palace of Westminster and Westminster Abbey among them. Good coding classes connect a formula to something real enough to hear ticking, and this page does that with the Great Clock's pendulum: Parliament's own figures, a physics formula, and the question of how a single old penny speeds the clock by two-fifths of a second a day. A teacher in India works with each learner live on video: one to one, or in a small class of five to ten at the same stage, for anyone aged 6 to 67. The first lesson is free. After that it costs USD 100 a month in a group, or USD 150 a month privately.
+**What are the best coding classes in Westminster?** Westminster is the central London borough of Marylebone, Pimlico, Paddington, Maida Vale, Soho, Mayfair, St John's Wood and Victoria, with 204,236 residents at the 2021 Census and more listed buildings than any page in this series has yet counted, the Palace of Westminster and Westminster Abbey among them. Good coding classes connect a formula to something real enough to hear ticking, and this page does that with the Great Clock's pendulum: Parliament's own figures, a physics formula, and the question of how a single old penny speeds the clock by two-fifths of a second a day. A teacher in India works with each learner live on video: one to one, or in a class of fifteen to twenty at the same stage, for anyone aged 6 to 67. The first lesson is free. After that it costs USD 100 a month in a group, or USD 150 a month privately.
 
 UK Parliament publishes the vital statistics of the Great Clock in the Elizabeth Tower. Its pendulum is 4.4 metres long and weighs 310 kilograms. Each swing, or beat, takes exactly two seconds. And it is fine-tuned with pre-decimal pennies: adding one penny makes the clock gain two-fifths of a second over a day. Our learners take those numbers and a formula from school physics, the period of a pendulum, and ask what they imply. A perfect textbook pendulum that beats every two seconds would be just under four metres long, not 4.4, which tells us something about real pendulums. And a gain of two-fifths of a second a day turns out to mean shortening the pendulum's effective length by about 37 thousandths of a millimetre. A penny, it turns out, is a very precise tool.
 
-Facts last verified 25 September 2026. Teaching is online; no Westminster branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Westminster branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Westminster learners start with
 
@@ -142,7 +142,7 @@ Maida Vale in the north and Pimlico by the river in the south are far apart, yet
 
 ### Regular as clockwork
 
-Classes keep a steady beat of their own: two evenings a week, five to ten learners at one stage.
+Classes keep a steady beat of their own: two evenings a week, fifteen to twenty learners at one stage.
 
 **Westminster in London** The City of Westminster is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers all of them and the City of London, linking each page as it goes live, including [Camden](/coding-classes-in-camden-london) to the north and [Kensington and Chelsea](/coding-classes-in-kensington-and-chelsea-london) to the west.
 
@@ -172,7 +172,7 @@ Anywhere in Westminster, class begins as soon as the call connects.
 - **At home** Learners need their own screen, a set of headphones and a broadband line good enough for an hour of video, nothing more.
 - **School stages in England** We describe progress in English Key Stages, from Key Stage 1 to sixth form, and name GCSE and A level where relevant. Every lesson is taught in English.
 - **Free to try** The first lesson is real teaching and ends with a suggested level and course; no card is requested.
-- **Stage-based classes** Five to ten learners at one stage make up each class, from across the UK and abroad, so there is usually a sensible time.
+- **Stage-based classes** Fifteen to twenty learners at one stage make up each class, from across the UK and abroad, so there is usually a sensible time.
 - **Two evenings weekly** Most classes run two evenings a week, pausing for holidays and exams by arrangement.
 - **Always UK time** Teachers work from India, and the times we send are always UK times.
 
@@ -183,7 +183,7 @@ Anywhere in Westminster, class begins as soon as the call connects.
 A free first lesson, then one monthly fee, the same in Mayfair as in Church Street.
 
 - First class: USD 0. A full lesson with a teacher, free, ending with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a class of five to ten at one stage.
+- Group tuition: USD 100 a month. About eight live lessons a month in a class of fifteen to twenty at one stage.
 - Private tuition: USD 150 a month. About eight live lessons a month, one to one.
 
 Fees are charged in US dollars for every family outside India, Westminster included, so you will find no sterling figures on the site. The first payment falls due only after the free lesson, once a course and a weekly evening have been chosen. The pricing page covers pauses, missed lessons and moving between class and private teaching.
@@ -224,11 +224,11 @@ No. There is no Westminster centre and no premises anywhere in the UK, because e
 
 ### What do coding classes in Westminster cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## Across the capital
 

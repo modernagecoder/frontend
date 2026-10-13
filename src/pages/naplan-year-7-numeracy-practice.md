@@ -176,7 +176,7 @@ Our teachers are based in India, which runs behind every Australian state. In Sy
 
 - **Draw it first** Students sketch a double number line before reaching for a calculator.
 - **Benchmarks daily** Ten per cent and five per cent become second nature.
-- **Five to ten students** Grouped by what they can do now, not by age alone.
+- **Fifteen to twenty students** Grouped by what they can do now, not by age alone.
 - **One-to-one lessons** For specific gaps from primary school or a fresh start.
 - **Parents kept in the loop** A short summary after each block of lessons.
 - **No NAPLAN promise** We teach mathematics; the result is the student's own.
@@ -186,7 +186,7 @@ Our teachers are based in India, which runs behind every Australian state. In Sy
 We bill Australian families monthly in US dollars, our standard rate outside India. No deposit is needed, and you may stop at the end of any month.
 
 - Free first class: USD 0. A complete lesson with a teacher. An honest assessment of where things stand. No card needed.
-- Group batch: USD 100 a month. Five to ten students working at one level. A consistent teacher. Marked work with explanations. Certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students working at one level. A consistent teacher. Marked work with explanations. Certificate at the end.
 - One to one: USD 150 a month. One teacher, one student. Work aimed at particular gaps. Flexible weekly time.
 
 ## Year 7 families often ask

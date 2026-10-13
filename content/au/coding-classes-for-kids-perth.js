@@ -184,7 +184,7 @@ module.exports = {
       { h3: 'What you need', p: 'A laptop or desktop with working sound. A parent nearby for the first lesson helps young children settle in.' },
       { h3: 'Western Australian terms', p: 'Teachers use the year names Perth children use, from Pre-primary onwards, so nothing sounds unfamiliar.' },
       { h3: 'A proper trial', p: 'One complete lesson to see how your child learns, followed by a course and time recommendation, with no card required.' },
-      { h3: 'Small groups', p: 'Five to ten children at the same stage, or one to one when that suits better.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty children at the same stage, or one to one when that suits better.' },
       { h3: 'Regular rhythm', p: 'About eight lessons a month, normally two a week in the same slot.' },
       { h3: 'Teachers on India time', p: 'Perth is two and a half hours ahead of India time all year round, so after-school Perth lessons fall in the early afternoon of our teachers\' working day.' }
     ],
@@ -195,7 +195,7 @@ module.exports = {
     h2: 'What coding classes cost for Perth kids',
     intro: 'Three prices and no fine print.',
     first: 'A full first lesson, free, finishing with a level, a course and a regular time.',
-    group: 'Roughly eight lessons a month shared with five to ten children at the same level.',
+    group: 'Roughly eight lessons a month shared with fifteen to twenty children at the same level.',
     private: 'Roughly eight lessons a month with your child working one to one with the teacher.',
     closer: 'Outside India we charge everyone in US dollars at one rate, so it does not matter whether you are in the northern suburbs or down the coast towards Rockingham. The first invoice only follows the trial, once you are happy with the course and slot; the pricing page covers holidays, missed lessons and switching formats.'
   },
@@ -220,8 +220,8 @@ module.exports = {
       { q: 'What time are lessons for Perth children?', a: 'After school on weekdays or at weekends, chosen in the free lesson and given in Perth time. With no daylight saving in Western Australia, the time never shifts.' },
       { q: 'Are online lessons safe for young children?', a: 'Lessons are live, small and supervised by the teacher throughout. We never ask children to make accounts on adult AI services, and parents can join any session.' },
       { q: 'Is there a Modern Age Coders centre in Perth?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do coding classes for Perth kids cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do coding classes for Perth kids cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

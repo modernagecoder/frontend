@@ -326,7 +326,7 @@ module.exports = {
       { h3: 'Code together', p: 'Learner and teacher work in the same notebook, so every line of a model is written and explained live.' },
       { h3: 'Fits the NSW year', p: 'Topics match the NSW stages, and lessons break when the state school holidays begin.' },
       { h3: 'A free lesson first', p: 'The trial is a full lesson, finishing with a recommended course, level and time and no charge.' },
-      { h3: 'Small groups', p: 'Five to ten learners at one level per group, or one to one if preferred.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners at one level per group, or one to one if preferred.' },
       { h3: 'Steady schedule', p: 'Two set lessons each week, around eight per month.' },
       { h3: 'Teachers in India', p: 'A 7pm Burwood lesson in daylight saving time begins at 1:30pm India time; in winter, at 2:30pm there.' }
     ],
@@ -339,7 +339,7 @@ module.exports = {
     h2: 'What Burwood learners pay',
     intro: 'A free start and two monthly options.',
     first: 'The opening lesson is free and ends with a plan.',
-    group: 'Group format: around eight lessons a month among five to ten learners.',
+    group: 'Group format: around eight lessons a month among fifteen to twenty learners.',
     private: 'One-to-one format: around eight lessons a month with your own teacher.',
     closer: 'Learners outside India pay in US dollars, so Burwood fees match everywhere else and there is no area-specific list. You pay only after the trial, once the course and time are decided; holidays, missed lessons and changes of format are set out on the pricing page.'
   },
@@ -385,12 +385,12 @@ module.exports = {
       },
       {
         q: 'What do AI classes cost for Burwood learners?',
-        a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, roughly eight lessons, with five to ten learners, or USD 150 a month one to one on the same timetable. Course, format and time are fixed before any payment.',
+        a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, roughly eight lessons, with fifteen to twenty learners, or USD 150 a month one to one on the same timetable. Course, format and time are fixed before any payment.',
         boiler: true
       },
       {
         q: 'How are learners grouped?',
-        a: 'By level, pace and goals, in groups of five to ten, regardless of age or location. One-to-one lessons are available when no group time works.',
+        a: 'By level, pace and goals, in groups of fifteen to twenty, regardless of age or location. One-to-one lessons are available when no group time works.',
         boiler: true
       }
     ]

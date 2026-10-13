@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Amsterdam Nieuw-West 
 canonical: https://learn.modernagecoders.com/coding-classes-in-amsterdam-nieuw-west
 source: src/pages/coding-classes-in-amsterdam-nieuw-west.html
 ---
-> Coding classes in Amsterdam Nieuw-West reach the Westelijke Tuinsteden, built in the 1950s and 1960s to a plan drawn in 1935, around a lake that was dug to get the sand that raised the ground under the houses. Slotermeer-Noordoost and Osdorp-Midden are published at exactly the same tenure split, 73 percent rented and 27 percent owned, while their densities differ by more than half. The matching figure was specified by a building programme and the differing one was not. Modern Age Coders teaches live online in English from Geuzenveld to the Sloterplas, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Amsterdam Nieuw-West reach the Westelijke Tuinsteden, built in the 1950s and 1960s to a plan drawn in 1935, around a lake that was dug to get the sand that raised the ground under the houses. Slotermeer-Noordoost and Osdorp-Midden are published at exactly the same tenure split, 73 percent rented and 27 percent owned, while their densities differ by more than half. The matching figure was specified by a building programme and the differing one was not. Modern Age Coders teaches live online in English from Geuzenveld to the Sloterplas, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Amsterdam](/coding-classes-in-amsterdam) / Amsterdam Nieuw-West
 
@@ -12,11 +12,11 @@ Nieuw-West, Amsterdam / Live online
 
 # Coding classes in Amsterdam Nieuw-West, where two neighbourhoods have identical tenure and nobody in either of them chose it
 
-**What are the best coding classes in Amsterdam Nieuw-West?** Coding classes in Amsterdam Nieuw-West reach the Westelijke Tuinsteden, built in the 1950s and 1960s to a plan drawn in 1935, around a lake that was dug to get the sand that raised the ground under the houses. Slotermeer-Noordoost and Osdorp-Midden are published at exactly the same tenure split, 73 percent rented and 27 percent owned, while their densities differ by more than half. The matching figure was specified by a building programme and the differing one was not. Modern Age Coders teaches live online in English from Geuzenveld to the Sloterplas, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Amsterdam Nieuw-West?** Coding classes in Amsterdam Nieuw-West reach the Westelijke Tuinsteden, built in the 1950s and 1960s to a plan drawn in 1935, around a lake that was dug to get the sand that raised the ground under the houses. Slotermeer-Noordoost and Osdorp-Midden are published at exactly the same tenure split, 73 percent rented and 27 percent owned, while their densities differ by more than half. The matching figure was specified by a building programme and the differing one was not. Modern Age Coders teaches live online in English from Geuzenveld to the Sloterplas, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Slotermeer-Noordoost has 4,192 homes, of which 3,060 are rented. Osdorp-Midden has 6,713, of which 4,900 are rented. Work both out and you get 72.99 percent in one and 72.99 percent in the other. Two separate neighbourhoods, sixty percent apart in size, agreeing to a hundredth of a percentage point. Numbers do not do that by accident. That figure was not discovered about the people who live there; it was decided by whoever commissioned the buildings, and the useful habit is knowing which kind of number you are looking at before you try to explain it.
 
-Facts last verified 9 September 2026. Teaching is online; no Amsterdam Nieuw-West branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 September 2026. Teaching is online; no Amsterdam Nieuw-West branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the part of Amsterdam with the most children in it
 
@@ -204,7 +204,7 @@ Nieuw-West is spread out by design, with green between the blocks and real dista
 Written on the page rather than kept for a call.
 
 - First class: USD 0. A whole lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate applies and it is quoted in dollars, with no euro edition, so an address in Geuzenveld is charged exactly what an address in Slotervaart is. Nothing is paid until the free lesson has settled a course and an hour, and payment is then arranged over WhatsApp. Pausing, switching plan and missing a week are all set out on the pricing page.
@@ -245,7 +245,7 @@ No, and none is claimed in Osdorp, elsewhere in Amsterdam or anywhere in the Net
 
 ### What do Amsterdam Nieuw-West coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

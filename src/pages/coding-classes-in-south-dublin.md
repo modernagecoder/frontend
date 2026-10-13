@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across South Dublin, fro
 canonical: https://learn.modernagecoders.com/coding-classes-in-south-dublin
 source: src/pages/coding-classes-in-south-dublin.html
 ---
-> South Dublin County Council has existed since 1 January 1994 and covers 222.74 square kilometres, with 301,075 people living in 100,364 homes at the 2022 census, an 8% rise on 2016. Its average age of 37.2 is lower than Leinster, Dublin City and the State, and two thirds of households own their home. It is a young, working area with 137,100 people at work, and an average commute of 30.6 minutes. Our classes are live online at a fixed weekly hour for ages 6 to 67, in ability groups of five to ten or one to one. The first lesson costs nothing, then a group place is USD 100 a month and private tuition USD 150.
+> South Dublin County Council has existed since 1 January 1994 and covers 222.74 square kilometres, with 301,075 people living in 100,364 homes at the 2022 census, an 8% rise on 2016. Its average age of 37.2 is lower than Leinster, Dublin City and the State, and two thirds of households own their home. It is a young, working area with 137,100 people at work, and an average commute of 30.6 minutes. Our classes are live online at a fixed weekly hour for ages 6 to 67, in ability groups of fifteen to twenty or one to one. The first lesson costs nothing, then a group place is USD 100 a month and private tuition USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [Dublin](/best-coding-class-in-dublin) / South Dublin
 
@@ -12,11 +12,11 @@ South Dublin, County Dublin / Live online
 
 # Coding classes in South Dublin
 
-**What are the best coding classes in South Dublin?** South Dublin County Council has existed since 1 January 1994 and covers 222.74 square kilometres, with 301,075 people living in 100,364 homes at the 2022 census, an 8% rise on 2016. Its average age of 37.2 is lower than Leinster, Dublin City and the State, and two thirds of households own their home. It is a young, working area with 137,100 people at work, and an average commute of 30.6 minutes. Our classes are live online at a fixed weekly hour for ages 6 to 67, in ability groups of five to ten or one to one. The first lesson costs nothing, then a group place is USD 100 a month and private tuition USD 150.
+**What are the best coding classes in South Dublin?** South Dublin County Council has existed since 1 January 1994 and covers 222.74 square kilometres, with 301,075 people living in 100,364 homes at the 2022 census, an 8% rise on 2016. Its average age of 37.2 is lower than Leinster, Dublin City and the State, and two thirds of households own their home. It is a young, working area with 137,100 people at work, and an average commute of 30.6 minutes. Our classes are live online at a fixed weekly hour for ages 6 to 67, in ability groups of fifteen to twenty or one to one. The first lesson costs nothing, then a group place is USD 100 a month and private tuition USD 150.
 
 Here is a small thing that matters more than it sounds. South Dublin County Council publishes a dataset of parking fines. Look it up on the national open data portal and it says the licence is Creative Commons Attribution. Open the council's own data hub, where the same file actually lives, and the metadata says Attribution ShareAlike, which is a different licence with a different obligation attached. One council, one file, two answers about what you are allowed to do with it. Nothing is hidden and nobody is at fault; publishing surfaces drift apart. But a student who builds something on that file has to know which licence governs it, and the only way to find out is to look in both places and notice they disagree. That habit, checking the same fact in two sources before relying on it, is what this page teaches, and it turns out South Dublin offers several chances to practise.
 
-Facts last verified 16 September 2026. Teaching is online; no South Dublin branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no South Dublin branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for Tallaght to Lucan
 
@@ -188,7 +188,7 @@ This is a densely built, well connected place where an evening class still means
 - **No bus, no wait** A learner in Firhouse and one in Palmerstown are in the same class at the same moment, and neither stands at a stop to get there.
 - **The school year as spoken** Junior Cycle, Transition Year, fifth and sixth year: the words your school uses are the words the teacher uses.
 - **A free lesson that teaches** A real task with a real teacher, ending in a clear recommendation, and no request for payment details.
-- **Levels, not ages** Five to ten learners who work at one pace, drawn from South Dublin and further afield so every level has a workable hour.
+- **Levels, not ages** Fifteen to twenty learners who work at one pace, drawn from South Dublin and further afield so every level has a workable hour.
 - **Weekly and reliable** Two lessons in most weeks, about eight a month, at one fixed time, with breaks planned around exams and holidays.
 - **The clock difference** Our teachers work from India, four and a half hours ahead of Ireland in summer and five and a half in winter.
 
@@ -199,7 +199,7 @@ This is a densely built, well connected place where an evening class still means
 Three numbers, stated once and not added to.
 
 - First class: USD 0. One complete lesson at no charge, ending with a level and a course named.
-- Group tuition: USD 100 a month. A month of classes, normally eight, shared with five to ten learners of similar ability.
+- Group tuition: USD 100 a month. A month of classes, normally eight, shared with fifteen to twenty learners of similar ability.
 - Private tuition: USD 150 a month. The same month of classes with the teacher working with one learner only.
 
 Charging is monthly in US dollars at the one rate used outside India, so Rathfarnham pays what Brittas pays and there is no euro list. Nothing is billed until the free lesson has produced a course and an hour, and the pricing page explains pauses, missed lessons and moving between group and private teaching.
@@ -240,7 +240,7 @@ No, and we are careful never to imply one. Teaching happens live over video, wit
 
 ### What do South Dublin coding classes cost?
 
-The opening lesson is free. After that, a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The opening lesson is free. After that, a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

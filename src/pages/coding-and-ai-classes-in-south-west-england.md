@@ -4,7 +4,7 @@ description: "Live online coding, AI, Python and maths classes across South West
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-south-west-england
 source: src/pages/coding-and-ai-classes-in-south-west-england.html
 ---
-> South West England had 5,701,186 usual residents at the 2021 census, spread over 30 local authorities. Bristol is by far its biggest built-up area at 425,215, then Plymouth, Bournemouth, Swindon and Poole, with Exeter, Gloucester, Cheltenham, Bath, Taunton and Torquay among the other large towns. Every lesson we run is live, on video, with teachers in India. Children, teenagers and adults from 6 to 67 learn coding, AI, Python and maths, alone with a tutor or in a small class of five to ten at matching level. Nothing is charged for the first lesson, which picks the course. Below you will find our South West pages and a weather project. Afterwards it costs USD 100 a month for a class or USD 150 a month for private tuition.
+> South West England had 5,701,186 usual residents at the 2021 census, spread over 30 local authorities. Bristol is by far its biggest built-up area at 425,215, then Plymouth, Bournemouth, Swindon and Poole, with Exeter, Gloucester, Cheltenham, Bath, Taunton and Torquay among the other large towns. Every lesson we run is live, on video, with teachers in India. Children, teenagers and adults from 6 to 67 learn coding, AI, Python and maths, alone with a tutor or in a class of fifteen to twenty at matching level. Nothing is charged for the first lesson, which picks the course. Below you will find our South West pages and a weather project. Afterwards it costs USD 100 a month for a class or USD 150 a month for private tuition.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [England](/coding-and-ai-classes-in-england) / South West England
 
@@ -12,11 +12,11 @@ South West England / Live online
 
 # Coding and AI classes in South West England
 
-**What are the best coding and AI classes in South West England?** South West England had 5,701,186 usual residents at the 2021 census, spread over 30 local authorities. Bristol is by far its biggest built-up area at 425,215, then Plymouth, Bournemouth, Swindon and Poole, with Exeter, Gloucester, Cheltenham, Bath, Taunton and Torquay among the other large towns. Every lesson we run is live, on video, with teachers in India. Children, teenagers and adults from 6 to 67 learn coding, AI, Python and maths, alone with a tutor or in a small class of five to ten at matching level. Nothing is charged for the first lesson, which picks the course. Below you will find our South West pages and a weather project. Afterwards it costs USD 100 a month for a class or USD 150 a month for private tuition.
+**What are the best coding and AI classes in South West England?** South West England had 5,701,186 usual residents at the 2021 census, spread over 30 local authorities. Bristol is by far its biggest built-up area at 425,215, then Plymouth, Bournemouth, Swindon and Poole, with Exeter, Gloucester, Cheltenham, Bath, Taunton and Torquay among the other large towns. Every lesson we run is live, on video, with teachers in India. Children, teenagers and adults from 6 to 67 learn coding, AI, Python and maths, alone with a tutor or in a class of fifteen to twenty at matching level. Nothing is charged for the first lesson, which picks the course. Below you will find our South West pages and a weather project. Afterwards it costs USD 100 a month for a class or USD 150 a month for private tuition.
 
 Stand outside in Cornwall on a summer afternoon and again before dawn, and the temperature has not moved as much as you might expect. Meteorologists call the gap between the day's highest and lowest temperature the diurnal range, and it tells you a lot about a place. The Met Office publishes long monthly records for Camborne, in Cornwall, and for Yeovilton, in Somerset, and averaged over 1991 to 2020 our sums put Camborne's typical daily swing at about 5 degrees and Yeovilton's at more than 8. Why so different, when the two yearly averages sit within half a degree of each other? And why is the swing biggest in May, not midsummer? This page's project works it out from the raw files in Python.
 
-Facts last verified 26 September 2026. Teaching is online; no South West England branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no South West England branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where South West learners start
 
@@ -139,7 +139,7 @@ Coast, moor or city, one video link reaches every home.
 - **Code by the learner** Students do all the typing themselves; the tutor follows their screen and asks the question that moves them on.
 - **School years in England** A Year 6 in Poole or a Year 11 in Bath is placed by year group and key stage, and we use each board's own exam names.
 - **A free first session** Your first full lesson carries no charge and ends with a clear suggestion.
-- **Classes at one level** Every class has five to ten learners at the same stage, gathered nationwide.
+- **Classes at one level** Every class has fifteen to twenty learners at the same stage, gathered nationwide.
 - **Weeks in term** Lessons run twice weekly through term and stop for the holidays.
 - **British time, all year** Clock changes in March and October leave your lesson time unchanged; our teachers move theirs.
 
@@ -150,7 +150,7 @@ Coast, moor or city, one video link reaches every home.
 Bristol and Truro pay one and the same fee, matching every country we teach outside India.
 
 - First class: USD 0. A full lesson for free, then our honest view.
-- Group tuition: USD 100 a month. Near eight lessons a month in a class of five to ten.
+- Group tuition: USD 100 a month. Near eight lessons a month in a class of fifteen to twenty.
 - Private tuition: USD 150 a month. Near eight lessons a month with a dedicated tutor.
 
 Billing is in US dollars, never pounds, and begins only after the trial has fixed a course and a weekly time. Holidays, missed lessons and switching between group and private are all set out on the pricing page.

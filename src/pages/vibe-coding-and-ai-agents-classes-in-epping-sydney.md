@@ -16,7 +16,7 @@ Epping, City of Parramatta, Sydney / Live online
 
 Ask an AI agent to find the busiest rail station in the Transport for NSW file and it may decide to keep rows where the station type is "Train". It answers Town Hall, 1,832,430 entries in August 2026, and looks right. It is not: Central logged 2,358,027 that month but is listed as "Metro Shared", along with Chatswood, Martin Place, Sydenham and Epping itself. Five stations vanish without a warning, and finding out why is a lesson every agent builder needs.
 
-Facts last verified 10 October 2026. Teaching is online; no Epping branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Epping branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Build with AI, then prove it right
 
@@ -185,7 +185,7 @@ There is no class to travel to; the teacher and learner meet on video at a set t
 - **Live, not recorded** The teacher watches the learner build and prompt in real time and steps in the moment an AI suggestion goes astray.
 - **NSW-aware** Teachers know NSW stages and syllabus terms, and lessons pause for the state school holidays.
 - **A free trial lesson** The first class is complete and free, and closes with a recommended course, level and time slot.
-- **Small, level-matched groups** Five to ten classmates who are all working on similar material, or a private teacher if the timetable or pace needs it.
+- **Small, level-matched groups** Fifteen to twenty classmates who are all working on similar material, or a private teacher if the timetable or pace needs it.
 - **Two sessions a week** A fixed weekly pair of lessons, about eight a month, with breaks agreed in advance.
 - **Teachers in India** A 5:30pm Epping lesson in summer begins at noon India time; after daylight saving ends in Sydney it begins at 1pm there.
 
@@ -196,7 +196,7 @@ There is no class to travel to; the teacher and learner meet on video at a set t
 One set of prices, the same for every course.
 
 - First class: USD 0. A full first lesson at no cost, with a recommended course and time afterwards.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten learners at the same level.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. About eight one-to-one lessons a month at a fixed time.
 
 Every invoice outside India is raised in US dollars, which keeps an Epping household on exactly the price a family in Penrith or Manly would see. Nothing is charged before the trial has settled a course and time; breaks, missed lessons and format changes are covered on the pricing page.
@@ -237,7 +237,7 @@ No. We teach only online and have no premises in Australia. A laptop or desktop 
 
 ### What do Epping coding lessons cost?
 
-The first lesson is free. A group place is USD 100 a month for two live lessons a week, roughly eight a month, with five to ten learners, and one-to-one is USD 150 a month on the same pattern. You pay only after the course and time are agreed.
+The first lesson is free. A group place is USD 100 a month for two live lessons a week, roughly eight a month, with fifteen to twenty learners, and one-to-one is USD 150 a month on the same pattern. You pay only after the course and time are agreed.
 
 ### How many learners are in each group?
 

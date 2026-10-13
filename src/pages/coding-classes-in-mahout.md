@@ -179,7 +179,7 @@ When neighbours are an hour apart by road, the number of subjects any one place 
 
 A full lesson with a real task, closing with a specific recommendation. We take no card details to arrange it and ask for no decision until somebody has watched a teacher work.
 
-### Five to eight in a group, matched on level
+### Fifteen to twenty in a group, matched on level
 
 Cohorts come together on current ability and destination. Which settlement a learner is in plays no part, which is exactly the thing distance would otherwise decide.
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Mahout learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Mahout class times arranged?
 

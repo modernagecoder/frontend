@@ -16,7 +16,7 @@ Glenorchy City Council, Hobart, Tasmania / Live online
 
 Which roads in Glenorchy are split into the most segments? Python's Counter answers in one line with most_common(6). It returns six names, cleanly. What it does not say is that the sixth place was a tie, and one of the two tied streets has simply vanished from the list.
 
-Facts last verified 14 October 2026. Teaching is online; no Glenorchy branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 14 October 2026. Teaching is online; no Glenorchy branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that read results carefully
 
@@ -196,7 +196,7 @@ Lessons are given over live video, so nobody travels.
 Three simple prices.
 
 - First class: USD 0. The opening lesson is free and finishes with written advice.
-- Group tuition: USD 100 a month. Roughly eight group lessons a month, five to ten learners.
+- Group tuition: USD 100 a month. Roughly eight group lessons a month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. Roughly eight private lessons a month with one tutor.
 
 Billing is in US dollars and begins after the trial, when a course and weekly slot are agreed. Holidays and missed classes are covered on the pricing page.
@@ -233,11 +233,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Glenorchy learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Is Copilot Studio part of the Glenorchy group course?
 

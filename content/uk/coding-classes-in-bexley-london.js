@@ -142,7 +142,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'Bexleyheath', p: 'Southeastern and Thameslink both call at Bexleyheath, according to the station record in TfL\'s open data.' },
           { h3: 'Thamesmead to Sidcup', p: 'A learner by the river in the north and one in Sidcup in the south can share one class from home.' },
-          { h3: 'Fairly shared', p: 'A class is kept small and matched, five to ten learners at one stage, so no one learner takes up most of the lesson.' }
+          { h3: 'Fairly shared', p: 'A class is kept small and matched, fifteen to twenty learners at one stage, so no one learner takes up most of the lesson.' }
         ] },
         { kind: 'spec', title: 'Bexley in London', p: 'Bexley is one of London\'s 32 boroughs. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> lists every borough and the City, linking each page as it is published, including <a class="cg-inline-link" href="/coding-classes-in-bromley-london">Bromley</a> to the south west.' }
       ]
@@ -179,7 +179,7 @@ module.exports = {
       { h3: 'Learn at home', p: 'Bexley learners log in from their own homes; all that matters is a working computer, sound, and broadband good enough for video.' },
       { h3: 'Stages in England', p: 'Reports to parents use the same language as a Bexley school: Key Stage 1, 2, 3, 4, then sixth form, with GCSE or A level named when relevant. Teaching is always in English.' },
       { h3: 'Free lesson first', p: 'Proper teaching, not a sales pitch, which ends with a suggested level and course. No payment information is requested.' },
-      { h3: 'Classes by level', p: 'Classmates are matched on stage, not postcode, which is how we can usually offer a sensible hour for a group of five to ten.' },
+      { h3: 'Classes by level', p: 'Classmates are matched on stage, not postcode, which is how we can usually offer a sensible hour for a group of fifteen to twenty.' },
       { h3: 'Twice a week', p: 'Two evening sessions make up a normal week, with the class stopping for school holidays and exam fortnights when the teacher and families agree.' },
       { h3: 'Local time', p: 'Our teachers are in India; every lesson time we give is already in UK time.' }
     ],
@@ -190,7 +190,7 @@ module.exports = {
     h2: 'Fees for Bexley families',
     intro: 'One free lesson, then a single monthly fee that is the same in Erith as in Sidcup.',
     first: 'A full lesson with a teacher, free of charge, ending with our recommended level, course and time.',
-    group: 'About eight live lessons a month in a class of five to ten at the same stage.',
+    group: 'About eight live lessons a month in a class of fifteen to twenty at the same stage.',
     private: 'About eight live lessons a month, one to one.',
     closer: 'Bexley families pay in US dollars, as every family outside India does, and there are no pound prices on the site. You pay nothing until the free lesson is done and you have agreed a course and regular slot. The pricing page explains pausing, missed lessons and changing between class and private teaching.'
   },
@@ -215,8 +215,8 @@ module.exports = {
       { q: 'When would a Bexley learner have lessons?', a: 'We pick the slot together once the free lesson has shown us the right level, choosing a class with a place free. Every time in our messages is written in UK time, although the teacher is in India.' },
       { q: 'What kit is required?', a: 'Any computer that plays sound, and broadband that does not keep dropping. The overflow project needs Python and one free download from the Environment Agency.' },
       { q: 'Is there a Modern Age Coders centre in Bexley?', a: 'No. There is no Bexley centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Bexley cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Bexley cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

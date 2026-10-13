@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-bahrain.html
 
 In short
 
-Modern Age Coders runs live online AI and machine learning classes for students in Bahrain, ages 6 to 67, in batches of five to eight or one to one. Students learn Python and the mathematics underneath machine learning, then train and evaluate their own models rather than only prompting AI tools. Classes run Sunday to Thursday on Bahrain time. Fees start at USD 100 a month, billed in US dollars, and the first class is free.
+Modern Age Coders runs live online AI and machine learning classes for students in Bahrain, ages 6 to 67, in batches of fifteen to twenty or one to one. Students learn Python and the mathematics underneath machine learning, then train and evaluate their own models rather than only prompting AI tools. Classes run Sunday to Thursday on Bahrain time. Fees start at USD 100 a month, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -294,7 +294,7 @@ Bahrain time, which is 12:30 to 14:00 in India. Saturday is the Bahraini weekend
 
 ### What a session is
 
-Ninety minutes of live teaching from a teacher who carries last week's sticking point into this one. Screens are shared both ways, so the teacher interrupts at the moment the mistake happens rather than marking it three days later. Batches are five to eight students, or one to one.
+Ninety minutes of live teaching from a teacher who carries last week's sticking point into this one. Screens are shared both ways, so the teacher interrupts at the moment the mistake happens rather than marking it three days later. Batches are fifteen to twenty students, or one to one.
 
 Between one session and the next there is something to build rather than something to fill in. Questions go to the same teacher, not into a queue. We place no class on a Friday before roughly 2:00pm, so Jumu'ah is never in competition with a lesson.
 
@@ -374,7 +374,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, same teacher every week
+- Fifteen to twenty students, same teacher every week
 - Live video, never a recording
 - Weekly build tasks and teacher review
 - Certificate on completion

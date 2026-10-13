@@ -61,7 +61,7 @@ module.exports = {
 
   h1: 'AI and programming classes in Telford',
   capsuleQ: 'What are the best AI and programming classes in Telford?',
-  capsule: 'The 2021 census recorded 185,542 people in Telford and Wrekin, with the ONS placing 156,910 in the Telford built-up area and 14,190 in Newport. Children are well represented, with every band from birth to 14 above the England share, while the over-80s are fewer. Learners from 6 up to 67 study AI, programming, Python and maths with our tutors in India, live over video, alone or in same-stage classes of five to ten. The first lesson is free and picks the course. The Telford project turns a Victorian writer\'s claims about the Iron Bridge into tests a computer can run. Those who continue pay USD 100 monthly for a class or USD 150 monthly for one-to-one.',
+  capsule: 'The 2021 census recorded 185,542 people in Telford and Wrekin, with the ONS placing 156,910 in the Telford built-up area and 14,190 in Newport. Children are well represented, with every band from birth to 14 above the England share, while the over-80s are fewer. Learners from 6 up to 67 study AI, programming, Python and maths with our tutors in India, live over video, alone or in same-stage classes of fifteen to twenty. The first lesson is free and picks the course. The Telford project turns a Victorian writer\'s claims about the Iron Bridge into tests a computer can run. Those who continue pay USD 100 monthly for a class or USD 150 monthly for one-to-one.',
   lead: 'Ironbridge, Coalbrookdale and Madeley all lie within Telford and Wrekin, and it was at Coalbrookdale, Samuel Smiles writes, that the castings for the first iron bridge were made. Smiles tells the story twice, in two different books, and adds a comparison with Thomas Telford\'s later bridge over the Severn at Buildwas, in Shropshire: 30 feet wider, yet with less than half the iron, 173 tons against 378. Claims like these usually get read and believed. A programmer can do something better: write each one as a small test, run them all, and see which pass. On this page two claims pass cleanly and two fail, and the failures turn out to be the most interesting part, because they show that the books were using words in different ways.',
   wa: 'Hello Modern Age Coders, I would like a free AI or programming lesson for a learner in Telford.',
 
@@ -166,7 +166,7 @@ module.exports = {
       { h3: 'The student builds it', p: 'Learners type every line; the tutor watches the shared screen and asks questions instead of taking over.' },
       { h3: 'Placed with care', p: 'From Year 5 to Year 12, the trial and the school year together decide the first topic, with the exam board kept in view.' },
       { h3: 'Try it free', p: 'You pay nothing for a full first lesson, and you leave it with a named course and the reason for it.' },
-      { h3: 'Peers who match', p: 'A group means five to ten learners from around the UK, all working at the same stage.' },
+      { h3: 'Peers who match', p: 'A group means fifteen to twenty learners from around the UK, all working at the same stage.' },
       { h3: 'Twice a week', p: 'Two lessons weekly in term; holidays kept free.' },
       { h3: 'Fixed local time', p: 'UK clock changes are handled by our tutors, not your timetable.' }
     ],

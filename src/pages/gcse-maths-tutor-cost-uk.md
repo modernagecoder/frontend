@@ -37,7 +37,7 @@ Published UK rates, read in October 2026 and converted to US dollars so the page
 | Face-to-face maths tutor, by town | town averages from about $39 an hour (Liverpool) to about $93 an hour (Staines) | Tutorful, same guide, in-person rates by location |
 | A level maths tutor, for comparison | about $55 an hour on average | Tutorful, same guide |
 | Worksheet programme at a study centre | $93 to $104 a month per subject, plus a one-off registration of $53 to $65 | Kumon centre pages for Ilford Lane, Ashford South and Edinburgh Corstorphine (read 7 October 2026) |
-| Modern Age Coders, live GCSE maths | $100 a month in a group of 5 to 10, or $150 a month one-to-one, eight one-hour lessons | Our own price, no enrolment fee |
+| Modern Age Coders, live GCSE maths | $100 a month in a group of 15 to 20, or $150 a month one-to-one, eight one-hour lessons | Our own price, no enrolment fee |
 
 Conversion: the UK figures were converted at 1.3221 US dollars per pound, the Bank of England spot rate for 5 October 2026 (series XUDLUSS), and rounded to the nearest dollar. The Kumon figures are three centres' own fee panels; other centres set their own fees.
 
@@ -125,7 +125,7 @@ Choosing
 - they learn well hearing other students' questions
 - you want the lowest monthly cost for the whole year
 
-Groups hold 5 to 10 learners at a similar level and board.
+Groups hold 15 to 20 learners at a similar level and board.
 
 ### Choose one-to-one if
 
@@ -157,7 +157,7 @@ $150 / month
 $100 / month
 
 - 8 live group lessons a month (2 a week, 1 hour each)
-- 5 to 10 students at a similar level and board
+- 15 to 20 students at a similar level and board
 - The same teaching approach at a lower price
 - No enrolment fee, stop at any month end
 
@@ -205,7 +205,7 @@ Our planning guide: six to eight hours to fix one or two weak topics before mock
 
 Is a group class worth it for GCSE maths?
 
-Yes, when the student already has a working base and the group is matched by level. Our groups hold 5 to 10 learners at a similar level and board. A student with specific gaps, or one aiming at grades 7 to 9 with little time left, usually gets more from one-to-one.
+Yes, when the student already has a working base and the group is matched by level. Our groups hold 15 to 20 learners at a similar level and board. A student with specific gaps, or one aiming at grades 7 to 9 with little time left, usually gets more from one-to-one.
 
 Are there extra fees on top of the monthly price?
 

@@ -173,7 +173,7 @@ module.exports = {
     intro: 'How it is arranged.',
     cells: [
       { h3: 'In real time', p: 'Lessons are live, and the teacher responds to what the learner is building.' },
-      { h3: 'Level-based groups', p: 'Five to ten learners who share a level, from Mayo, other parts of Ireland and abroad.' },
+      { h3: 'Level-based groups', p: 'Fifteen to twenty learners who share a level, from Mayo, other parts of Ireland and abroad.' },
       { h3: 'Weekly rhythm', p: 'Two lessons in most weeks, about eight in a month, at times set at the start.' },
       { h3: 'School-year planning', p: 'Holidays, mid-terms and exams are built into the plan.' },
       { h3: 'At home', p: 'A laptop or desktop, a microphone and speakers or a headset, and an internet connection steady enough for live video.' },
@@ -186,7 +186,7 @@ module.exports = {
     h2: 'Fees for Ballina',
     intro: 'The full prices.',
     first: 'A full first lesson with the level assessed, at no charge.',
-    group: 'A month in a group of five to ten at one level, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, about eight live lessons.',
     private: 'A month of one-to-one lessons at the same weekly frequency.',
     closer: 'Families outside India all pay the same monthly fee in US dollars. Nothing is charged for the first lesson, the first month is charged as the course begins, and holidays, missed lessons and a switch between group and private are explained on the pricing page.'
   },
@@ -211,7 +211,7 @@ module.exports = {
       { q: 'Do you teach adults?', a: 'Yes, to sixty-seven, whether or not they have coded before. The first lesson is also where an adult chooses, with the teacher, between learning in a small group and learning alone.' },
       { q: 'Will a Ballina learner be in a group with local learners?', a: 'Groups are formed by level, so classmates may be in Mayo, elsewhere in Ireland or abroad.' },
       { q: 'Is there a Modern Age Coders classroom in Ballina?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Ballina cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Ballina cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

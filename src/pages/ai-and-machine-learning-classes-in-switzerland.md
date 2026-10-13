@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-switzerland.html
 
 In short
 
-Modern Age Coders teaches live online AI and machine learning in Switzerland, ages 6 to 67, in groups of five to eight or one to one. The subject is model building: Python, then the statistics and linear algebra underneath, then training and evaluating models on real published data. Teaching is in English and the timetable follows your cantonal calendar. A group place is USD 100 a month, and the first class is free.
+Modern Age Coders teaches live online AI and machine learning in Switzerland, ages 6 to 67, in groups of fifteen to twenty or one to one. The subject is model building: Python, then the statistics and linear algebra underneath, then training and evaluating models on real published data. Teaching is in English and the timetable follows your cantonal calendar. A group place is USD 100 a month, and the first class is free.
 
 The catalogue
 
@@ -292,7 +292,7 @@ Swiss time, our default cohort slot, so 13:00 to 15:00 in India in summer, 14:00
 
 ### What a session is
 
-Ninety minutes on live video with a teacher who remembers where the student stopped last week. Screens are shared both ways, so a mistake is caught in the second it is typed rather than found in a marked file three days later. Batches are five to eight, or one to one, and between sessions there is something to build, break and bring back.
+Ninety minutes on live video with a teacher who remembers where the student stopped last week. Screens are shared both ways, so a mistake is caught in the second it is typed rather than found in a marked file three days later. Batches are fifteen to twenty, or one to one, and between sessions there is something to build, break and bring back.
 
 Two Swiss specifics sit on top. The timetable is written against the canton the family lives in, because there is no national calendar to write it against. And every recurring booking is re-cut at the end of October, when the Indian side of the call moves an hour.
 
@@ -372,7 +372,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher
+- Fifteen to twenty students, one teacher
 - Live video, never a recording
 - Weekly build tasks and teacher review
 - Certificate on completion
@@ -473,7 +473,7 @@ Not directly, and we will not claim otherwise. For a non-Swiss certificate ETH Z
 
 ### What does it cost, and is that per month or per class?
 
-Per month, not per class. A group batch of five to eight students is USD 100 a month, and one to one teaching is USD 150 a month. Pricing is flat and billed in US dollars everywhere outside India. The first class is free.
+Per month, not per class. A group batch of fifteen to twenty students is USD 100 a month, and one to one teaching is USD 150 a month. Pricing is flat and billed in US dollars everywhere outside India. The first class is free.
 
 ### Why teach building AI rather than using AI tools?
 

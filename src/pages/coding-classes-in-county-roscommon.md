@@ -16,7 +16,7 @@ County Roscommon, Connacht / Live online
 
 Open the county council's list of protected buildings in any ordinary data tool and ask it which towns hold the most. Boyle comes first with 109. Second, with 93 structures, is a town called na. There is no such town. Somebody typing into a form wrote na when a building had no town, and a colleague wrote n/a, and another left it blank, and others wrote NA and Na. Five spellings of nothing, and pandas, a very widely used analysis library, left on its defaults, recognises three of them and treats the other ninety-five rows as a real place. The file is honest, public and licensed for reuse. It just records absence in a way software was never told about, which happens in almost every spreadsheet anybody inherits.
 
-Facts last verified 16 September 2026. Teaching is online; no County Roscommon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no County Roscommon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where a Roscommon learner begins
 
@@ -169,7 +169,7 @@ Knowing what a blank really is remains a human judgement in 2026, and it is one 
 What happens each week for a learner anywhere between Boyle and Athlone.
 
 - **Taught, not recorded** A real teacher runs every lesson live and the learner is expected to answer, ask and try things out loud.
-- **Placed with equals** Five to ten learners working at the same level, drawn from Roscommon and a number of other countries so the match is genuine.
+- **Placed with equals** Fifteen to twenty learners working at the same level, drawn from Roscommon and a number of other countries so the match is genuine.
 - **The same slot each week** Normally two lessons weekly, about eight a month, at a day and time fixed at the start.
 - **Irish school rhythm** Junior Cycle, Transition Year and the Leaving Certificate years, with holidays and exam weeks planned around.
 - **A home setup** A computer rather than a phone, sound that works and a connection steady enough for video. The trial lesson confirms it.
@@ -182,7 +182,7 @@ What happens each week for a learner anywhere between Boyle and Athlone.
 Three prices, stated once.
 
 - First class: USD 0. The trial lesson: complete, free, and ending with a level and a suggested course.
-- Group tuition: USD 100 a month. Monthly group place, around eight lessons, with five to ten learners at one level.
+- Group tuition: USD 100 a month. Monthly group place, around eight lessons, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Monthly one to one teaching on the same weekly pattern.
 
 Invoices are monthly and in US dollars, the one rate we use for families outside India, so Strokestown and Roscommon town pay the same and no second currency is involved. You pay nothing until the trial lesson has settled a course and a time. The pricing page covers pauses, missed lessons and switching format.
@@ -223,7 +223,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do County Roscommon coding classes cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

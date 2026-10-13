@@ -257,7 +257,7 @@ module.exports = {
     cells: [
       { h3: 'One teacher throughout', p: 'The same person weekly, who learns how your child thinks.' },
       { h3: 'Candid notes home', p: 'Brief reports that include what is not working yet.' },
-      { h3: 'Groups of five to ten', p: 'Matched by level for the right pace.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Matched by level for the right pace.' },
       { h3: 'Our own questions', p: 'Nothing from GL or FSCE is reproduced.' },
       { h3: 'One to one if helpful', p: 'For a child racing a July deadline.' },
       { h3: 'Maths only', p: 'No English, reasoning or creativity coaching; no admissions advice.' }
@@ -272,7 +272,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Families outside India all pay the same US dollar rate, month by month. There is nothing to join and nothing to sign.',
     free: ['A proper lesson with a teacher', 'An honest view afterwards', 'No card required'],
-    group: ['Five to ten children at one level', 'A regular teacher', 'Marked work, explained', 'A certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'A regular teacher', 'Marked work, explained', 'A certificate at the end'],
     one: ['One child, one teacher', 'Paced to a July or September test', 'Focused on weaker topics']
   },
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and vibe coding lessons for Corby, 
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-corby
 source: src/pages/online-coding-and-python-classes-in-corby.html
 ---
-> At the 2021 census the ONS counted 68,160 people in the Corby built-up area, within North Northamptonshire, a council area of 359,525. Great Oakley is recorded as a suburban area in the council area, and Weldon, Stanion and Gretton are villages inside the NN17 and NN18 postcode districts. Coding, Python, AI, vibe coding and maths are open to anyone there from age six to 67, taught live over video by tutors in India, one-to-one or in a small class of five to ten at a shared level. We teach how to reason before how to prompt, so learners can check what an AI assistant writes. Lesson one is free and ends with our course advice. The Corby project sorts all 1,567 postcodes in those two districts and counts every step Python takes. Group lessons then cost USD 100 per month and private lessons USD 150 per month.
+> At the 2021 census the ONS counted 68,160 people in the Corby built-up area, within North Northamptonshire, a council area of 359,525. Great Oakley is recorded as a suburban area in the council area, and Weldon, Stanion and Gretton are villages inside the NN17 and NN18 postcode districts. Coding, Python, AI, vibe coding and maths are open to anyone there from age six to 67, taught live over video by tutors in India, one-to-one or in a class of fifteen to twenty at a shared level. We teach how to reason before how to prompt, so learners can check what an AI assistant writes. Lesson one is free and ends with our course advice. The Corby project sorts all 1,567 postcodes in those two districts and counts every step Python takes. Group lessons then cost USD 100 per month and private lessons USD 150 per month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East Midlands](/coding-and-ai-classes-in-east-midlands) / Corby
 
@@ -12,11 +12,11 @@ Corby, North Northamptonshire, England / Live online
 
 # Online coding and Python classes in Corby
 
-**Which are the best online coding and Python classes in Corby?** At the 2021 census the ONS counted 68,160 people in the Corby built-up area, within North Northamptonshire, a council area of 359,525. Great Oakley is recorded as a suburban area in the council area, and Weldon, Stanion and Gretton are villages inside the NN17 and NN18 postcode districts. Coding, Python, AI, vibe coding and maths are open to anyone there from age six to 67, taught live over video by tutors in India, one-to-one or in a small class of five to ten at a shared level. We teach how to reason before how to prompt, so learners can check what an AI assistant writes. Lesson one is free and ends with our course advice. The Corby project sorts all 1,567 postcodes in those two districts and counts every step Python takes. Group lessons then cost USD 100 per month and private lessons USD 150 per month.
+**Which are the best online coding and Python classes in Corby?** At the 2021 census the ONS counted 68,160 people in the Corby built-up area, within North Northamptonshire, a council area of 359,525. Great Oakley is recorded as a suburban area in the council area, and Weldon, Stanion and Gretton are villages inside the NN17 and NN18 postcode districts. Coding, Python, AI, vibe coding and maths are open to anyone there from age six to 67, taught live over video by tutors in India, one-to-one or in a class of fifteen to twenty at a shared level. We teach how to reason before how to prompt, so learners can check what an AI assistant writes. Lesson one is free and ends with our course advice. The Corby project sorts all 1,567 postcodes in those two districts and counts every step Python takes. Group lessons then cost USD 100 per month and private lessons USD 150 per month.
 
 Sorting sounds solved: call sorted() and move on. But how many steps it takes depends on the data you hand it, and Python's built-in sort is cleverer than most people realise. It looks for stretches that are already in order, called runs, and merges them, so a list that is nearly sorted costs far less than a shuffled one. A completely different idea, radix sort, never compares two items at all; it deals them into buckets one character at a time. Corby's 1,567 postcodes, from the Ordnance Survey's open postcode file, make an ideal test, because every one has exactly the same shape.
 
-Facts last verified 29 September 2026. Teaching is online; no Corby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Corby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Corby courses in reasoning, Python and AI
 
@@ -133,7 +133,7 @@ A computer, a webcam and an internet connection able to carry a video call are a
 - **Hands-on from minute one** The student types, prompts and runs each piece of code; the tutor watches the shared screen and keeps asking why.
 - **Pitched by the trial** What the free lesson shows decides topic one, and exam boards are recorded where they apply.
 - **Opening lesson free** Lesson one has no charge and ends with a suggested course.
-- **Classes by stage** Five to ten learners from across the UK at the same level form each class.
+- **Classes by stage** Fifteen to twenty learners from across the UK at the same level form each class.
 - **Twice a week** Lessons break for school holidays.
 - **Consistent hours** UK clock changes are handled by our tutors, so your time stays the same.
 

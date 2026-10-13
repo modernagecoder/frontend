@@ -284,7 +284,7 @@ module.exports = {
       { h3: 'Teacher present', p: 'Every lesson is taught live, with the learner\'s screen shared.' },
       { h3: 'School holidays', p: 'Classes follow Queensland terms and stop over the holidays.' },
       { h3: 'Free trial', p: 'One full lesson without charge, then a written course suggestion.' },
-      { h3: 'Group or private', p: 'Groups of five to ten at one level, or one to one.' },
+      { h3: 'Group or private', p: 'Groups of fifteen to twenty at one level, or one to one.' },
       { h3: 'Two per week', p: 'About eight lessons each month.' },
       { h3: 'India hours', p: 'A 6:30pm Redlands lesson is 2pm in India.' }
     ],
@@ -297,7 +297,7 @@ module.exports = {
     h2: 'Redlands class fees',
     intro: 'Fees are identical for every learner.',
     first: 'The first lesson is free and ends with a recommended plan.',
-    group: 'Group study: about eight lessons a month, five to ten learners.',
+    group: 'Group study: about eight lessons a month, fifteen to twenty learners.',
     private: 'Private study: about eight lessons a month, one to one.',
     closer: 'Redlands fees are billed in US dollars, after the trial has fixed a course and a weekly time. The pricing page explains holidays and missed lessons.'
   },
@@ -333,12 +333,12 @@ module.exports = {
       },
       {
         q: 'What do Redlands classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       {

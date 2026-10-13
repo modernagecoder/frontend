@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Zwolle for ages 6 to 
 canonical: https://learn.modernagecoders.com/coding-classes-in-zwolle
 source: src/pages/coding-classes-in-zwolle.html
 ---
-> Coding classes in Zwolle serve 134,147 people (Statistics Netherlands, 1 January 2026), the capital of Overijssel and the nineteenth municipality of the country. Its own entry calls the station one of the largest railway junctions in the Netherlands and says eight directions leave it. Only one of those two statements can be tested, and it is not the first. Across the whole municipality the teaching is done by Modern Age Coders on a live connection, in English, at any age between 6 and 67. Nothing is charged for the opening hour. From there it is USD 100 monthly in a group of five to ten, or USD 150 with a teacher to yourself.
+> Coding classes in Zwolle serve 134,147 people (Statistics Netherlands, 1 January 2026), the capital of Overijssel and the nineteenth municipality of the country. Its own entry calls the station one of the largest railway junctions in the Netherlands and says eight directions leave it. Only one of those two statements can be tested, and it is not the first. Across the whole municipality the teaching is done by Modern Age Coders on a live connection, in English, at any age between 6 and 67. Nothing is charged for the opening hour. From there it is USD 100 monthly in a group of fifteen to twenty, or USD 150 with a teacher to yourself.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Zwolle
 
@@ -12,11 +12,11 @@ Zwolle, Overijssel / Live online
 
 # Coding classes in Zwolle, where one of the biggest is not a claim you can check
 
-**What are the best coding classes in Zwolle?** Coding classes in Zwolle serve 134,147 people (Statistics Netherlands, 1 January 2026), the capital of Overijssel and the nineteenth municipality of the country. Its own entry calls the station one of the largest railway junctions in the Netherlands and says eight directions leave it. Only one of those two statements can be tested, and it is not the first. Across the whole municipality the teaching is done by Modern Age Coders on a live connection, in English, at any age between 6 and 67. Nothing is charged for the opening hour. From there it is USD 100 monthly in a group of five to ten, or USD 150 with a teacher to yourself.
+**What are the best coding classes in Zwolle?** Coding classes in Zwolle serve 134,147 people (Statistics Netherlands, 1 January 2026), the capital of Overijssel and the nineteenth municipality of the country. Its own entry calls the station one of the largest railway junctions in the Netherlands and says eight directions leave it. Only one of those two statements can be tested, and it is not the first. Across the whole municipality the teaching is done by Modern Age Coders on a live connection, in English, at any age between 6 and 67. Nothing is charged for the opening hour. From there it is USD 100 monthly in a group of fifteen to twenty, or USD 150 with a teacher to yourself.
 
 Two sentences about this city's station sit next to each other in the same source. Zwolle is one of the largest railway junctions in the Netherlands. From Zwolle you can travel in eight directions by train. The second can be checked by anyone with a map and ten minutes. The first cannot be checked by anyone at all, because nobody has said which junctions are in the running, what is being measured, or where the cutoff falls. A child who can tell those two sentences apart is already harder to sell to than most adults.
 
-Facts last verified 7 September 2026. Teaching is online; no Zwolle branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Zwolle branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city that half the north travels into
 
@@ -209,7 +209,7 @@ Zwolle is where the north changes trains, and a great many of its secondary pupi
 Stated on the page rather than kept for a phone call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate applies and it is quoted in dollars, never in euros, so every address in the municipality sees the same figure. Payment follows the free lesson rather than preceding it, and it goes over WhatsApp once a course and a time are settled. Pausing, changing plan and missing a week are described on the pricing page.
@@ -250,7 +250,7 @@ No, and none is claimed near the station, in Stadshagen or anywhere in the Nethe
 
 ### What do Zwolle coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Zwolle group?
 

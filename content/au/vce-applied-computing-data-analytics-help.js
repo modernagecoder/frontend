@@ -217,7 +217,7 @@ module.exports = {
       { h3: 'Our datasets only', p: 'Public data and questions we choose; assessed work never enters the lesson.' },
       { h3: 'Every change logged', p: 'Cleansing taught as a documented process, not silent deletion.' },
       { h3: 'Interpretation drilled', p: 'What a statistic shows, what it hides, and how to say so briefly.' },
-      { h3: 'Small senior groups', p: 'Five to ten students at one level, each defending an analysis aloud.' },
+      { h3: 'Small senior groups', p: 'Fifteen to twenty students at one level, each defending an analysis aloud.' },
       { h3: 'One-to-one option', p: 'For SQL or statistics gaps that need fast repair.' },
       { h3: 'Straight about results', p: 'We will not promise a study score or ATAR; the analysis and the mark are the student\'s.' }
     ]
@@ -231,7 +231,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Data Analytics lessons are priced per month in US dollars, one rate for every family outside India, with nothing up front and no contract.',
     free: ['A real lesson with a teacher', 'A clear read on what to work on', 'No card required'],
-    group: ['Five to ten students at one level', 'A steady teacher all term', 'Analyses reviewed together', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'A steady teacher all term', 'Analyses reviewed together', 'A certificate at the end'],
     one: ['A teacher for one student', 'Concentrated on one weak skill', 'Good for the weeks before the exam']
   },
 

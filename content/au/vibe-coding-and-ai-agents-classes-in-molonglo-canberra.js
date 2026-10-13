@@ -289,7 +289,7 @@ module.exports = {
       { h3: 'Live teaching', p: 'A teacher leads and checks each learner\'s work in real time.' },
       { h3: 'ACT calendar', p: 'Lessons pause in ACT school holidays.' },
       { h3: 'Free trial', p: 'Start with one free lesson and a plan.' },
-      { h3: 'Group or solo', p: 'Level groups of five to ten, or private lessons.' },
+      { h3: 'Group or solo', p: 'Level groups of fifteen to twenty, or private lessons.' },
       { h3: 'Rhythm', p: 'Two lessons a week, about eight a month.' },
       { h3: 'India time', p: 'From April to October a 6pm Molonglo lesson is 1:30pm in India.' }
     ],
@@ -302,7 +302,7 @@ module.exports = {
     h2: 'Molonglo fees',
     intro: 'The same fees apply to every learner.',
     first: 'The opening lesson is free and ends with a plan.',
-    group: 'Group classes: around eight a month, five to ten learners.',
+    group: 'Group classes: around eight a month, fifteen to twenty learners.',
     private: 'One-to-one: around eight a month with a single teacher.',
     closer: 'Fees are charged in US dollars once the trial has fixed a course and weekly time. The pricing page sets out holiday and missed-lesson rules.'
   },
@@ -338,12 +338,12 @@ module.exports = {
       },
       {
         q: 'What do Molonglo classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How are groups organised?',
-        a: 'By level and pace, five to ten learners each, not by age or suburb. One-to-one lessons are available when no group time fits.',
+        a: 'By level and pace, fifteen to twenty learners each, not by age or suburb. One-to-one lessons are available when no group time fits.',
         boiler: true
       },
       { q: 'Can adults build agents with you?', a: 'Yes. Adults learn in adult groups or one to one, often wiring agents to their own systems.' }

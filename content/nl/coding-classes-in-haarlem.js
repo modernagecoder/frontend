@@ -39,7 +39,7 @@ module.exports = {
 
   h1: 'Coding classes in Haarlem, where one page publishes a population and a density that cannot both be true',
   capsuleQ: 'What are the best coding classes in Haarlem?',
-  capsule: 'Coding classes in Haarlem serve 168,898 people (Statistics Netherlands, 1 January 2026) on 29.21 square kilometres of land, which makes it the most tightly packed municipality in this series at about 5,780 residents to the square kilometre. One widely read source gives the population as 168,946 and the density as 5,036 on the same page, and those two numbers cannot both describe the same place: the division comes out at 5,265 against the total area and 5,792 against the land. Modern Age Coders teaches live online in English across every wijk, for ages 6 to 67, first lesson free, then USD 100 a month in a group of five to ten or USD 150 one-to-one.',
+  capsule: 'Coding classes in Haarlem serve 168,898 people (Statistics Netherlands, 1 January 2026) on 29.21 square kilometres of land, which makes it the most tightly packed municipality in this series at about 5,780 residents to the square kilometre. One widely read source gives the population as 168,946 and the density as 5,036 on the same page, and those two numbers cannot both describe the same place: the division comes out at 5,265 against the total area and 5,792 against the land. Modern Age Coders teaches live online in English across every wijk, for ages 6 to 67, first lesson free, then USD 100 a month in a group of fifteen to twenty or USD 150 one-to-one.',
   lead: 'Divide 168,946 residents by 32.09 square kilometres and you get 5,265 to the square kilometre. Divide by the 29.17 of land and you get 5,792. The page that publishes all three of those numbers also publishes a density of 5,036, which is neither. Work backwards and 5,036 implies a population of about 161,605, which is Haarlem a few years ago. Nobody has lied. Somebody stored a calculated number, updated the population above it, and never recomputed the line below. A child who has caught that once will check derived figures for the rest of their life.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Haarlem.',
 
@@ -183,7 +183,7 @@ module.exports = {
     h2: 'What it costs, in dollars, in every wijk',
     intro: 'Put on the page rather than kept for a phone call.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'One international rate applies, quoted in dollars and never in euros, so a family in Spaarndam sees exactly what a family in the centre sees. Payment comes after the free lesson has produced a course and a time, and it goes over WhatsApp. Pausing, changing plan and missing a week are described on the pricing page.'
   },
@@ -208,7 +208,7 @@ module.exports = {
       { q: 'We are in Spaarndam rather than the city. Does that change anything?', a: 'Only the journey that no longer has to happen. A learner in Spaarndam joins the same group at the same hour as one in the centre, at the same fee, and the ride into town on a February evening never comes into it.' },
       { q: 'What is in the free lesson?', a: 'The teacher finds the edge of what the learner already manages and puts one piece of work just past it. For a child that might be a jar whose label nobody updated. For a teenager, a density written as a function of its inputs and inverted to date a published figure. For an adult, a reporting pack with a hard-coded cell. It closes with a course, a rung, a weekly time and a price in dollars, and nothing has been charged.' },
       { q: 'Is there a Modern Age Coders classroom in Haarlem?', a: 'No, and none is claimed near the Grote Markt, in Schalkwijk or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Haarlem coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Haarlem coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in a Haarlem group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or wijk. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

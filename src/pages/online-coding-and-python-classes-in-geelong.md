@@ -16,7 +16,7 @@ Geelong, Victoria, Australia / Live online
 
 The Victorian Department of Education publishes the location of every school in the state as one open CSV file. Ask Python for the column called Education_Sector in that file and, on the first try, you get an error saying it does not exist. It does exist. The file begins with three invisible bytes, EF BB BF, a byte order mark that some programs write at the start of UTF-8 text, and Python has quietly glued them to the front of the first column name. Our Geelong learners find those bytes, fix the problem with one word, and then discover the file's second surprise: the 85 Geelong schools list their towns in 54 spellings, because the same town is sometimes written in capitals and sometimes not.
 
-Facts last verified 7 October 2026. Teaching is online; no Geelong branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Geelong branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four Python routes for Geelong teens and adults
 
@@ -174,7 +174,7 @@ Geelong spreads around the bay and onto the Bellarine, and an online lesson join
 - **Every suburb at once** A learner in Belmont and one in Ocean Grove can share a lesson in real time without either leaving home.
 - **Victorian year levels** Teachers refer to Year 7 through Year 12 and to the VCE years as Victorian schools do; lessons are in English.
 - **Free, and properly useful** In the trial you write actual Python while a teacher watches, then hear which stage, course and weekly slot would suit; card details are never requested.
-- **Small groups of five to ten** Learners at one stage from Geelong, elsewhere in Australia and overseas, so each level finds a workable time.
+- **Groups of fifteen to twenty** Learners at one stage from Geelong, elsewhere in Australia and overseas, so each level finds a workable time.
 - **Twice a week** Usually two lessons a week, about eight a month, with holidays and exams planned ahead with the teacher.
 - **The October shift** When Victoria moves its clocks forward, a 5pm Geelong lesson moves from 12:30pm to 11:30am for our teachers, who stay on India time all year.
 
@@ -185,7 +185,7 @@ Geelong spreads around the bay and onto the Bellarine, and an online lesson join
 Three figures only.
 
 - First class: USD 0. A free first lesson that ends with a level, a course and a time.
-- Group tuition: USD 100 a month. A month of classes, usually eight, with five to ten learners at your stage.
+- Group tuition: USD 100 a month. A month of classes, usually eight, with fifteen to twenty learners at your stage.
 - Private tuition: USD 150 a month. Around eight private lessons each month with one teacher.
 
 Geelong families are charged in US dollars at one rate, the same on the Bellarine as in Corio, with no local price list. Nothing is billed until the trial has settled a course and time; the pricing page explains holidays, missed classes and changing format.
@@ -226,11 +226,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Geelong coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Geelong and Victorian learners
 

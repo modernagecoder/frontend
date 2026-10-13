@@ -16,7 +16,7 @@ Kilkenny, County Kilkenny / Live online
 
 A census is not a survey. Nobody was sampled, so no margin of error applies and a confidence interval would be meaningless: 2,003 of Kilkenny's 11,832 working residents gave walking as their main means of travel, and that is the count, full stop. The share, though, is still not a single number. 738 residents did not state a mode at all. If none of them walks, walking is 16.93% of the town's working residents. If all of them do, it is 23.17%. Everything between is consistent with what was collected. That range is a bound, not an error bar, and knowing the difference is a genuinely useful thing to carry out of a data lesson.
 
-Facts last verified 18 September 2026. Teaching is online; no Kilkenny branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 18 September 2026. Teaching is online; no Kilkenny branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Kilkenny learners start
 
@@ -166,7 +166,7 @@ Borrowing statistical language is easy. Knowing which uncertainty you actually f
 Six lines.
 
 - **Live teaching** A teacher present for the whole hour, working from the learner's own screen.
-- **Grouped by level** Five to ten learners at one stage, from Kilkenny, the rest of Ireland and abroad.
+- **Grouped by level** Fifteen to twenty learners at one stage, from Kilkenny, the rest of Ireland and abroad.
 - **Two lessons a week** Roughly eight a month, in an hour agreed at the start and then kept.
 - **Around the term** Mid-terms, holidays and exam weeks are built into the plan in advance.
 - **What is needed** Something with a proper keyboard, a microphone the teacher can hear, and enough bandwidth to hold a video call.
@@ -179,7 +179,7 @@ Six lines.
 Three lines and no extras.
 
 - First class: USD 0. A complete opening lesson, taught and assessed, at no charge.
-- Group tuition: USD 100 a month. A month in an ability group of five to ten, about eight live lessons.
+- Group tuition: USD 100 a month. A month in an ability group of fifteen to twenty, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one to one teaching on the same weekly pattern.
 
 Fees are monthly, in US dollars, at the one rate for families outside India, so Kilkenny sees the same figure as Carlow or Waterford and there is no euro column anywhere on the page. No money changes hands until a level, a course and a time are settled, which is what the free hour is for, and the pricing page carries the rules on holidays, a lesson missed and a change of format.
@@ -220,7 +220,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Kilkenny cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

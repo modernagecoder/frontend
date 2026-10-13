@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across Drenthe, ages 6 t
 canonical: https://learn.modernagecoders.com/coding-classes-in-drenthe
 source: src/pages/coding-classes-in-drenthe.html
 ---
-> Coding classes in Drenthe serve 508,109 people in twelve municipalities (Statistics Netherlands, 1 January 2026), on the emptiest land in the country at 192 to the square kilometre, with a quarter of the population over sixty-five. Fifty-two of the 54 hunebedden still visible in the Netherlands stand here, built between 3350 and 3050 BC, which makes them somewhere between 5,075 and 5,375 years old and not the single number every sign gives them. Modern Age Coders runs one live online class in English across all twelve, for learners from 6 to 67. The first lesson costs nothing; after it, a group of five to ten is USD 100 a month and one-to-one is USD 150.
+> Coding classes in Drenthe serve 508,109 people in twelve municipalities (Statistics Netherlands, 1 January 2026), on the emptiest land in the country at 192 to the square kilometre, with a quarter of the population over sixty-five. Fifty-two of the 54 hunebedden still visible in the Netherlands stand here, built between 3350 and 3050 BC, which makes them somewhere between 5,075 and 5,375 years old and not the single number every sign gives them. Modern Age Coders runs one live online class in English across all twelve, for learners from 6 to 67. The first lesson costs nothing; after it, a group of fifteen to twenty is USD 100 a month and one-to-one is USD 150.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Drenthe
 
@@ -12,11 +12,11 @@ Province of Drenthe / Live online
 
 # Coding classes in Drenthe, where five thousand years old is a range three centuries wide
 
-**What are the best coding classes in Drenthe?** Coding classes in Drenthe serve 508,109 people in twelve municipalities (Statistics Netherlands, 1 January 2026), on the emptiest land in the country at 192 to the square kilometre, with a quarter of the population over sixty-five. Fifty-two of the 54 hunebedden still visible in the Netherlands stand here, built between 3350 and 3050 BC, which makes them somewhere between 5,075 and 5,375 years old and not the single number every sign gives them. Modern Age Coders runs one live online class in English across all twelve, for learners from 6 to 67. The first lesson costs nothing; after it, a group of five to ten is USD 100 a month and one-to-one is USD 150.
+**What are the best coding classes in Drenthe?** Coding classes in Drenthe serve 508,109 people in twelve municipalities (Statistics Netherlands, 1 January 2026), on the emptiest land in the country at 192 to the square kilometre, with a quarter of the population over sixty-five. Fifty-two of the 54 hunebedden still visible in the Netherlands stand here, built between 3350 and 3050 BC, which makes them somewhere between 5,075 and 5,375 years old and not the single number every sign gives them. Modern Age Coders runs one live online class in English across all twelve, for learners from 6 to 67. The first lesson costs nothing; after it, a group of fifteen to twenty is USD 100 a month and one-to-one is USD 150.
 
 A sign at Borger says the stones are five thousand years old. The archaeology says they were raised between 3350 and 3050 BC, and a child who does the subtraction gets 5,376 for the older date, which is wrong by one, because the calendar goes from 1 BC to AD 1 with nothing in between. The child who writes the program that gets 5,375 and keeps the other end of the range at 5,075 has learned two things every date column in the world needs: that a range stays a range, and that there is no year zero.
 
-Facts last verified 7 September 2026. Teaching is online; no Drenthe branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Drenthe branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a province of villages and two towns
 
@@ -209,7 +209,7 @@ Assen and Emmen are an hour apart, Meppel looks to Zwolle and Roden looks to Gro
 Set out here before anything about you is asked.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 There is one price outside India and it is in dollars; there is no euro price, and Westerveld is charged exactly what Emmen is. Nothing is paid until the free lesson has fixed the course and the hour, and then it is paid over WhatsApp. Pausing, switching plan and missing a lesson are all explained on the pricing page.
@@ -250,7 +250,7 @@ No, and none is claimed in Assen, in Emmen or anywhere in the Netherlands. Lesso
 
 ### What do Drenthe coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Drenthe group?
 

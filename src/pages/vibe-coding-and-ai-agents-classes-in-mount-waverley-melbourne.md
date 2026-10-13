@@ -16,7 +16,7 @@ Mount Waverley, City of Monash, Melbourne, Victoria / Live online
 
 An AI agent asked to work through every row of a big file will, sooner or later, be stopped halfway: a laptop lid closes, a network drops, a usage limit is hit. What happens next depends on one design choice made at the start. Either the job remembers how far it got, or it starts again from row one and quietly writes some results twice.
 
-Facts last verified 11 October 2026. Teaching is online; no Mount Waverley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 October 2026. Teaching is online; no Mount Waverley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for agents that finish the job
 
@@ -175,7 +175,7 @@ Classes take place over video, so learners join from home with nothing to travel
 - **Coding together** Learners write on their own machine with the screen shared, and the teacher steps in as the code grows.
 - **Term rhythm** Courses run in Victorian school terms and pause for the holidays.
 - **A real trial** The first class is free and complete. At the end the teacher recommends a course and a weekly time.
-- **Matched groups** Groups hold five to ten learners who are at a similar point.
+- **Matched groups** Groups hold fifteen to twenty learners who are at a similar point.
 - **Regular slots** Two lessons on fixed days each week, around eight a month, with holidays known ahead.
 - **Teachers in India** Teachers are based in India, so a 4:15pm Mount Waverley lesson in daylight saving is 10:45am India time, or 11:45am in Melbourne winter.
 
@@ -186,7 +186,7 @@ Classes take place over video, so learners join from home with nothing to travel
 Three prices cover every course.
 
 - First class: USD 0. A free opening lesson that ends with a clear next step.
-- Group tuition: USD 100 a month. A month of group lessons, generally eight, in a group of five to ten at one level.
+- Group tuition: USD 100 a month. A month of group lessons, generally eight, in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. Roughly eight one-to-one lessons a month with the same teacher.
 
 We bill families outside India in US dollars, so Mount Waverley pays exactly what other overseas families pay. No payment is taken until the trial has fixed the course and the time; the pricing page sets out holidays, missed lessons and changes of format.
@@ -223,11 +223,11 @@ Online only. We have no Australian premises, and the phone number on our site is
 
 ### What do classes cost for Mount Waverley learners?
 
-The first lesson is free. After it, group classes cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before any payment.
+The first lesson is free. After it, group classes cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before any payment.
 
 ### How large are the groups?
 
-Five to ten learners grouped on level, pace and goals, or one to one if no group time fits.
+Fifteen to twenty learners grouped on level, pace and goals, or one to one if no group time fits.
 
 ### Do adults take AI agents classes?
 

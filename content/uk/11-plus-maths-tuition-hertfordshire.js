@@ -191,7 +191,7 @@ module.exports = {
         { kind: 'two', mt: true,
           left: [
             'Croxley Danes School belongs to the consortium but tests for music only, so it does not use the academic test. The council lists other Hertfordshire schools that test for aptitude or ability, and families should check each school\'s own arrangements.',
-            'Whether home is Bushey, Abbots Langley, Chorleywood or Hatfield, the lesson arrives the same way: on a screen, live, in a class of up to ten children working at the same stage.'
+            'Whether home is Bushey, Abbots Langley, Chorleywood or Hatfield, the lesson arrives the same way: on a screen, live, in a class of up to twenty children working at the same stage.'
           ],
           right: [
             'For families just over the London border, see our pages for <a class="ag-inline-link" href="/11-plus-maths-tuition-barnet">Barnet</a> and <a class="ag-inline-link" href="/11-plus-maths-tuition-enfield">Enfield</a>.',
@@ -261,7 +261,7 @@ module.exports = {
     cells: [
       { h3: 'One teacher all year', p: 'Who knows your child\'s habits.' },
       { h3: 'Honest notes', p: 'A few frank lines after lessons.' },
-      { h3: 'Classes of five to ten', p: 'Grouped by level.' },
+      { h3: 'Classes of fifteen to twenty', p: 'Grouped by level.' },
       { h3: 'Our own questions', p: 'No GL or school material copied.' },
       { h3: 'One to one', p: 'For specific gaps.' },
       { h3: 'Maths only', p: 'No verbal reasoning or English coaching; no admissions advice.' }
@@ -276,7 +276,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Families outside India pay one monthly US dollar price. No joining fee; stop any month.',
     free: ['A taught lesson', 'A frank view', 'No card needed'],
-    group: ['Five to ten children, one level', 'A regular teacher', 'Work reviewed together', 'Certificate at the end'],
+    group: ['Fifteen to twenty children, one level', 'A regular teacher', 'Work reviewed together', 'Certificate at the end'],
     one: ['A teacher for one child', 'Aimed at gaps', 'Flexible timing']
   },
 

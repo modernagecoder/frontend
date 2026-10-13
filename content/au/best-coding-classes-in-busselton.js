@@ -53,7 +53,7 @@ module.exports = {
 
   h1: 'Coding classes in Busselton',
   capsuleQ: 'What are the best coding classes in Busselton?',
-  capsule: 'For Busselton teenagers and adults, look for live lessons where a teacher explains each idea and real projects make it stick: Python first, then algorithms and geometry applied to genuine South West data. The 2021 Census counted 40,544 people in the Busselton urban area. We teach online in groups of five to ten or one to one, with a free first lesson.',
+  capsule: 'For Busselton teenagers and adults, look for live lessons where a teacher explains each idea and real projects make it stick: Python first, then algorithms and geometry applied to genuine South West data. The 2021 Census counted 40,544 people in the Busselton urban area. We teach online in groups of fifteen to twenty or one to one, with a free first lesson.',
   lead: 'Western Australia\'s conservation department maps where western ringtail possums could live across the coastal plain from Binningup to Dunsborough, sorting the bush into classes from very high suitability to unsuitable. Draw a rectangle around central Busselton and ask a simple question: how many hectares of mapped habitat are inside it? Count every patch the box touches and you get one answer. Count only patches whose centre falls inside and you get another. Cut each patch exactly at the box edge and you get the right one. The gap between the three is almost 150 hectares, and the algorithm that closes it fits on one screen.',
   wa: 'Hello Modern Age Coders, I would like a free coding class for a learner in Busselton.',
 
@@ -189,7 +189,7 @@ module.exports = {
       { h3: 'Learn from home', p: 'Join from a home computer; there is no drive up to Bunbury or Perth for a class.' },
       { h3: 'WA school years', p: 'Teachers work with WA year levels and plan around the four WA terms. All teaching is in English.' },
       { h3: 'A proper trial', p: 'The first lesson is free and real, and ends with a recommended course and a weekly time.' },
-      { h3: 'Right-sized groups', p: 'Groups hold five to ten learners at a similar level, drawn from Busselton and further afield.' },
+      { h3: 'Right-sized groups', p: 'Groups hold fifteen to twenty learners at a similar level, drawn from Busselton and further afield.' },
       { h3: 'Twice a week', p: 'Two live lessons each week, about eight a month, at a fixed time set after the trial.' },
       { h3: 'Teachers in India', p: 'Our teachers are two and a half hours behind Busselton all year, because neither place changes its clocks.' }
     ],
@@ -200,7 +200,7 @@ module.exports = {
     h2: 'Busselton coding class fees',
     intro: 'Three lines cover the whole price list.',
     first: 'The first lesson is free and ends with a course, level and weekly time recommended.',
-    group: 'A month of group lessons, typically eight, alongside five to ten learners at your stage.',
+    group: 'A month of group lessons, typically eight, alongside fifteen to twenty learners at your stage.',
     private: 'Around eight one-to-one lessons a month with a dedicated teacher.',
     closer: 'Outside India fees are in US dollars, the same for Busselton as for any Australian town. There is no charge until after the trial, when a course and a slot are fixed; the pricing page sets out holidays, missed classes and changing between group and private.'
   },
@@ -225,7 +225,7 @@ module.exports = {
       { q: 'When can Busselton learners have lessons?', a: 'After-school weekday slots and Saturday mornings are usual. The time is agreed at the trial and always given in WA time.' },
       { q: 'Do you teach young children?', a: 'Yes. Live classes start at age six with Scratch; the habitat clipping project is aimed at teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Busselton?', a: 'No. We have no premises anywhere in Australia and claim none. All lessons are live online; learners need a computer with sound and good internet, and our listed phone number is Indian.', boiler: true },
-      { q: 'What do Busselton coding classes cost?', a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Nothing is charged before the plan is agreed.', boiler: true },
+      { q: 'What do Busselton coding classes cost?', a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Nothing is charged before the plan is agreed.', boiler: true },
       { q: 'How big are your groups?', a: 'Between five and ten learners, grouped by level and goals rather than by age or town. When no group time suits, one-to-one lessons are available.', boiler: true }
     ]
   },

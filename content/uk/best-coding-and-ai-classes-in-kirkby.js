@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Kirkby',
   capsuleQ: 'Which coding and AI classes are best for Kirkby?',
-  capsule: 'The ONS gives the Kirkby built-up area 45,560 usual residents at the 2021 census, and the borough of Knowsley 154,519; a small part of that built-up area lies outside Knowsley. Northwood, Southdene, Tower Hill and Westvale are gazetteer suburbs whose nearest postcodes are inside it. People in Kirkby aged six to 67 learn coding, AI, Python, vibe coding and maths with Modern Age Coders in live online classes. Tutors in India take each class, either privately or with five to ten learners at a matching level, and every project involves calculating something real. Our course advice follows a free first lesson. In the Kirkby project the learner downloads the boundaries of 137 census neighbourhoods, writes two shape scores in Python, and finds that the question "which is the oddest shape?" has more than one honest answer. From then on it is USD 100 each month in a group, or USD 150 each month for one-to-one.',
+  capsule: 'The ONS gives the Kirkby built-up area 45,560 usual residents at the 2021 census, and the borough of Knowsley 154,519; a small part of that built-up area lies outside Knowsley. Northwood, Southdene, Tower Hill and Westvale are gazetteer suburbs whose nearest postcodes are inside it. People in Kirkby aged six to 67 learn coding, AI, Python, vibe coding and maths with Modern Age Coders in live online classes. Tutors in India take each class, either privately or with fifteen to twenty learners at a matching level, and every project involves calculating something real. Our course advice follows a free first lesson. In the Kirkby project the learner downloads the boundaries of 137 census neighbourhoods, writes two shape scores in Python, and finds that the question "which is the oddest shape?" has more than one honest answer. From then on it is USD 100 each month in a group, or USD 150 each month for one-to-one.',
   lead: 'A circle is as compact as a shape can be. A long thin strip is not. Between those two, deciding which shape is "odder" sounds like a matter of taste, but there are formulas for it, and people use them to judge everything from census areas to land parcels. The trouble is that the standard formulas disagree, and one of them changes its answer depending on how finely the boundary was drawn. Kirkby\'s census neighbourhoods, whose edges follow streets and property lines rather than any geometry, make an ideal test.',
   wa: 'Hello Modern Age Coders, we would love a free coding or AI trial lesson. We are in Kirkby.',
 
@@ -156,11 +156,11 @@ module.exports = {
       { h3: 'Learner does the typing', p: 'Code is written and run by the learner, with the tutor asking why.' },
       { h3: 'Level set by the trial', p: 'We see the learner\'s skills in the free lesson before naming a course.' },
       { h3: 'No payment to try', p: 'The first lesson is free and needs no card.' },
-      { h3: 'Classes of five to ten', p: 'Groups share a level, with classmates from across the UK.' },
+      { h3: 'Classes of fifteen to twenty', p: 'Groups share a level, with classmates from across the UK.' },
       { h3: 'About eight a month', p: 'Two lessons a week in term, with Knowsley holidays left free on request.' },
       { h3: 'No clock-change confusion', p: 'Your UK lesson time holds steady all year.' }
     ],
-    spec: { title: 'Why lessons are online', p: 'Finding five to ten learners at exactly the same stage is easier across the country than in one town. Video brings them together without travel.' }
+    spec: { title: 'Why lessons are online', p: 'Finding fifteen to twenty learners at exactly the same stage is easier across the country than in one town. Video brings them together without travel.' }
   },
 
   fees: {

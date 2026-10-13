@@ -82,7 +82,7 @@ module.exports = {
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Prompting is a skill with a short shelf life. Understanding is not. A rapid evidence review published for the Department for Science, Innovation and Technology sets out why: AI systems are adaptive and context aware, and so break the assumptions people hold about digital tools, including the assumption that you can verify how an answer was produced and the assumption that you always know when AI is involved. The most cited definition of AI literacy in that review puts critical evaluation first, and of its seventeen competencies, nine sit under the heading of how AI works. That is the part a class can actually teach, and the part that survives the next model release. We teach it alongside the programming and data work that makes it concrete, to learners from about ten to sixty-seven, in groups of five to ten or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.',
+  capsule: 'Prompting is a skill with a short shelf life. Understanding is not. A rapid evidence review published for the Department for Science, Innovation and Technology sets out why: AI systems are adaptive and context aware, and so break the assumptions people hold about digital tools, including the assumption that you can verify how an answer was produced and the assumption that you always know when AI is involved. The most cited definition of AI literacy in that review puts critical evaluation first, and of its seventeen competencies, nine sit under the heading of how AI works. That is the part a class can actually teach, and the part that survives the next model release. We teach it alongside the programming and data work that makes it concrete, to learners from about ten to sixty-seven, in groups of fifteen to twenty or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.',
 
   picks: {
     eyebrow: 'Start here',
@@ -233,7 +233,7 @@ module.exports = {
       { h3: 'Build the small version', p: 'Nothing explains training like training something. Every learner ends up with a model they made and then broke.' },
       { h3: 'Evaluate out loud', p: 'A learner says why an answer is right or wrong and what would change their mind. That is the competency the frameworks put first.' },
       { h3: 'A record of tool use', p: 'What was suggested, what was kept and why. A minute a week, and it becomes automatic long before it matters.' },
-      { h3: 'Groups by level', p: 'Five to ten learners at one stage, which is where disagreeing about an answer becomes possible.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at one stage, which is where disagreeing about an answer becomes possible.' },
       { h3: 'No product tours', p: 'We do not teach a named interface as a syllabus. Interfaces change faster than a term.' }
     ]
   },
@@ -246,7 +246,7 @@ module.exports = {
     h2: 'What it costs',
     lede: 'One monthly fee, quoted in US dollars for everyone outside India. The free lesson comes first, and nothing is charged until a course and a slot are settled.',
     free: ['A proper lesson, not a sales call', 'A frank view of the right stage', 'Nothing needed but a phone number'],
-    group: ['Five to ten learners at one stage', 'One teacher, kept across the course', 'Weekly written feedback on real work', 'A certificate at the end of a syllabus'],
+    group: ['Fifteen to twenty learners at one stage', 'One teacher, kept across the course', 'Weekly written feedback on real work', 'A certificate at the end of a syllabus'],
     one: ['Just the learner and the teacher', 'Shaped around a specific target', 'Suits learners far from the middle of a group']
   },
 

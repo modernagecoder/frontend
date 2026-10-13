@@ -1,16 +1,16 @@
 ---
 title: "Bhanzu Alternative for 2026: Live Maths and Coding, Ages 6 to 67"
-description: "Looking for a Bhanzu alternative? Modern Age Coders teaches live maths, coding and AI for ages 6 to 67 in batches of 5 to 10, flat monthly fee, free demo first."
+description: "Looking for a Bhanzu alternative? Modern Age Coders teaches live maths, coding and AI for ages 6 to 67 in batches of 15 to 20, flat monthly fee, free demo first."
 canonical: https://learn.modernagecoders.com/bhanzu-alternative
 source: src/pages/bhanzu-alternative.html
 ---
-> Looking for a Bhanzu alternative? Modern Age Coders teaches live maths, coding and AI for ages 6 to 67 in batches of 5 to 10, flat monthly fee, free demo first.
+> Looking for a Bhanzu alternative? Modern Age Coders teaches live maths, coding and AI for ages 6 to 67 in batches of 15 to 20, flat monthly fee, free demo first.
 
 Honest alternative · facts checked September 2026
 
 # Bhanzu Alternative for 2026: Live Maths and Coding, Ages 6 to 67
 
-Looking for a Bhanzu alternative? Modern Age Coders teaches live online maths for understanding, and coding and AI alongside it in the same school, for ages 6 to 67, in batches of 5 to 10 with one mentor. The group fee is a flat monthly amount, shown on this page in your own currency, with no enrolment fee, no pack to prepay, and a free demo before you decide.
+Looking for a Bhanzu alternative? Modern Age Coders teaches live online maths for understanding, and coding and AI alongside it in the same school, for ages 6 to 67, in batches of 15 to 20 with one mentor. The group fee is a flat monthly amount, shown on this page in your own currency, with no enrolment fee, no pack to prepay, and a free demo before you decide.
 
 Rated 4.9 across 547 Google reviews Group batch ₹1,499 a month
 
@@ -33,7 +33,7 @@ Quotes from bhanzu.com and bhanzu.com/about-us, read 23 September 2026; page cou
 
 ## Why Modern Age Coders
 
-Modern Age Coders teaches maths for understanding, not speed for its own sake: a placement check, a mentor who asks why, and word problems before formulas, from Grade 1 to college level. The same school teaches coding, AI and maths through coding, so a child who finds the logic of code easier than the logic of arithmetic gets both from one teacher who knows them. Live batches of 5 to 10, two one-hour classes a week, and a fee you can stop at the end of any month.
+Modern Age Coders teaches maths for understanding, not speed for its own sake: a placement check, a mentor who asks why, and word problems before formulas, from Grade 1 to college level. The same school teaches coding, AI and maths through coding, so a child who finds the logic of code easier than the logic of arithmetic gets both from one teacher who knows them. Live batches of 15 to 20, two one-hour classes a week, and a fee you can stop at the end of any month.
 
 Side by side
 
@@ -47,7 +47,7 @@ Swipe to see the whole table
 | --- | --- | --- |
 | Subjects | Maths only (abacus as one page) | Maths, coding, AI and machine learning, maths through coding |
 | Ages | School children | Ages 6 to 67: kids, teens, college students, adults |
-| Format | "Personalized Guidance", live online | Live online, batch of 5 to 10, mini batch of 3 to 4, or one to one |
+| Format | "Personalized Guidance", live online | Live online, batch of 15 to 20, mini batch of up to 6, or one to one |
 | Where | US city pages, a Canada edition; no India, UK or Gulf pages found | India and worldwide, fee shown in your own currency |
 | Fees | Not published on the pages we read | Flat monthly fee, shown on this page; no enrolment fee; stop any month |
 | Before you pay | A demo class | A free demo, or a Priority Live Demo: a full 45-60 minute class, fee adjusted against your first month if you enrol |
@@ -61,7 +61,7 @@ Honest answers
 
 Is Modern Age Coders a good Bhanzu alternative?
 
-Yes, especially if you want more than maths alone or you are outside the US. Modern Age Coders teaches live online maths for understanding, plus coding and AI in the same school, for ages 6 to 67, in batches of 5 to 10 with a flat monthly fee shown before you talk to anyone, and a free demo first.
+Yes, especially if you want more than maths alone or you are outside the US. Modern Age Coders teaches live online maths for understanding, plus coding and AI in the same school, for ages 6 to 67, in batches of 15 to 20 with a flat monthly fee shown before you talk to anyone, and a free demo first.
 
 How is Modern Age Coders different from Bhanzu?
 

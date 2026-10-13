@@ -213,7 +213,7 @@ Our teachers are in India, where clocks stay the same all year; UK time is four 
 - **Weekend afternoon** A longer block for project work.
 
 - **A free first class** We look at where you are, what you want and which route fits.
-- **Groups of five to ten** University students at the same level, from the UK and elsewhere.
+- **Groups of fifteen to twenty** University students at the same level, from the UK and elsewhere.
 - **One to one** For a faster pace or a specific interview deadline.
 - **Projects you choose** The portfolio is built from your interests, not a fixed template.
 - **Code read closely** A teacher reads your program and explains exactly what to improve.
@@ -224,7 +224,7 @@ Our teachers are in India, where clocks stay the same all year; UK time is four 
 One monthly fee in US dollars, identical in every country outside India, with no enrolment fee and no commitment beyond the month, so a heavy term or exam season never locks you in.
 
 - Free first class: USD 0. A look at your level and goals. A route suggested for your year and subject. No payment details needed.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher each week. Project and interview practice. Stop at the end of any month.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher each week. Project and interview practice. Stop at the end of any month.
 - One to one: USD 150 a month. A teacher for you alone. Paced around your deadlines. Suits a specific interview date.
 
 ## What UK university students ask

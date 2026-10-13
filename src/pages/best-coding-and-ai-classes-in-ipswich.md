@@ -4,7 +4,7 @@ description: "Online coding, AI and Python classes for Ipswich children, teenage
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-ipswich
 source: src/pages/best-coding-and-ai-classes-in-ipswich.html
 ---
-> At the 2021 census 139,642 people lived in Ipswich borough; the ONS built-up area of Ipswich, larger than the borough itself, held 151,565. Adults aged 25 to 39 and children under ten are above the England share, while people over 55 are fewer. Anyone between 6 and 67 can learn coding, AI, Python or maths with us: our tutors in India teach over live video, one learner at a time or in level-matched classes of five to ten. The first lesson is free and settles the course. The Ipswich project searches a famous novel for every mention of the town. Staying on after the trial means USD 100 monthly for a class seat, or USD 150 monthly for solo tuition.
+> At the 2021 census 139,642 people lived in Ipswich borough; the ONS built-up area of Ipswich, larger than the borough itself, held 151,565. Adults aged 25 to 39 and children under ten are above the England share, while people over 55 are fewer. Anyone between 6 and 67 can learn coding, AI, Python or maths with us: our tutors in India teach over live video, one learner at a time or in level-matched classes of fifteen to twenty. The first lesson is free and settles the course. The Ipswich project searches a famous novel for every mention of the town. Staying on after the trial means USD 100 monthly for a class seat, or USD 150 monthly for solo tuition.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East of England](/coding-and-ai-classes-in-east-of-england) / Ipswich
 
@@ -12,11 +12,11 @@ Ipswich, Suffolk, England / Live online
 
 # Coding and AI classes in Ipswich
 
-**Where can Ipswich learners find the best coding and AI classes?** At the 2021 census 139,642 people lived in Ipswich borough; the ONS built-up area of Ipswich, larger than the borough itself, held 151,565. Adults aged 25 to 39 and children under ten are above the England share, while people over 55 are fewer. Anyone between 6 and 67 can learn coding, AI, Python or maths with us: our tutors in India teach over live video, one learner at a time or in level-matched classes of five to ten. The first lesson is free and settles the course. The Ipswich project searches a famous novel for every mention of the town. Staying on after the trial means USD 100 monthly for a class seat, or USD 150 monthly for solo tuition.
+**Where can Ipswich learners find the best coding and AI classes?** At the 2021 census 139,642 people lived in Ipswich borough; the ONS built-up area of Ipswich, larger than the borough itself, held 151,565. Adults aged 25 to 39 and children under ten are above the England share, while people over 55 are fewer. Anyone between 6 and 67 can learn coding, AI, Python or maths with us: our tutors in India teach over live video, one learner at a time or in level-matched classes of fifteen to twenty. The first lesson is free and settles the course. The Ipswich project searches a famous novel for every mention of the town. Staying on after the trial means USD 100 monthly for a class seat, or USD 150 monthly for solo tuition.
 
 In The Pickwick Papers, Charles Dickens sends Mr. Pickwick to Ipswich, to "the Great White Horse at Ipswich", which stands "in the main street of Ipswich, on the left-hand side of the way". Several chapters follow him around the town and its magistrate, Mr. Nupkins. But which chapters, exactly, and how often does the town come up? Scholars once answered questions like this with a concordance, a book listing every occurrence of a word with a little of the text either side. Building one took years by hand. A learner in Ipswich can build one in an afternoon in Python, for all 311,671 words of the novel, and discover two small traps that make a simple search give the wrong count.
 
-Facts last verified 27 September 2026. Teaching is online; no Ipswich branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Ipswich branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Ipswich learners start with
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and app classes in Sittard-Geleen f
 canonical: https://learn.modernagecoders.com/coding-classes-in-sittard-geleen
 source: src/pages/coding-classes-in-sittard-geleen.html
 ---
-> Coding classes in Sittard-Geleen serve 92,461 people (statistics office, 1 January 2026) in a municipality formed in 2001 from Sittard, Geleen and Born. Sittard received its town rights in 1243; Geleen grew from a village of about 3,000 into a mining and chemical town around the Staatsmijn Maurits. The encyclopaedia places Sittard in the flessenhals of Limburg, where Dutch territory is less than ten kilometres wide, with Belgium across the Maas to the west and Germany to the east. Any count of what lies within ten kilometres of the Markt, made from Dutch data alone, therefore stops at a border that neither people nor shops observe. Programmers call that the edge effect. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Sittard-Geleen serve 92,461 people (statistics office, 1 January 2026) in a municipality formed in 2001 from Sittard, Geleen and Born. Sittard received its town rights in 1243; Geleen grew from a village of about 3,000 into a mining and chemical town around the Staatsmijn Maurits. The encyclopaedia places Sittard in the flessenhals of Limburg, where Dutch territory is less than ten kilometres wide, with Belgium across the Maas to the west and Germany to the east. Any count of what lies within ten kilometres of the Markt, made from Dutch data alone, therefore stops at a border that neither people nor shops observe. Programmers call that the edge effect. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Sittard-Geleen
 
@@ -12,11 +12,11 @@ Sittard-Geleen, Limburg / Live online
 
 # Coding classes in Sittard-Geleen, where the country is less than ten kilometres wide
 
-**What are the best coding classes in Sittard-Geleen?** Coding classes in Sittard-Geleen serve 92,461 people (statistics office, 1 January 2026) in a municipality formed in 2001 from Sittard, Geleen and Born. Sittard received its town rights in 1243; Geleen grew from a village of about 3,000 into a mining and chemical town around the Staatsmijn Maurits. The encyclopaedia places Sittard in the flessenhals of Limburg, where Dutch territory is less than ten kilometres wide, with Belgium across the Maas to the west and Germany to the east. Any count of what lies within ten kilometres of the Markt, made from Dutch data alone, therefore stops at a border that neither people nor shops observe. Programmers call that the edge effect. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Sittard-Geleen?** Coding classes in Sittard-Geleen serve 92,461 people (statistics office, 1 January 2026) in a municipality formed in 2001 from Sittard, Geleen and Born. Sittard received its town rights in 1243; Geleen grew from a village of about 3,000 into a mining and chemical town around the Staatsmijn Maurits. The encyclopaedia places Sittard in the flessenhals of Limburg, where Dutch territory is less than ten kilometres wide, with Belgium across the Maas to the west and Germany to the east. Any count of what lies within ten kilometres of the Markt, made from Dutch data alone, therefore stops at a border that neither people nor shops observe. Programmers call that the edge effect. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 From anywhere in Sittard, both national borders lie within ten kilometres, because at this point the Netherlands is narrower than that. Ask a Dutch dataset how many people, schools or shops lie within ten kilometres of the Markt and it answers truthfully about the Dutch part and says nothing about the rest, because the rest is in another country's statistics. The answer is not wrong, but it is cut off, and a map drawn from it makes the border look emptier than it is. The same thing happens at the edge of every image a computer filters, at the two ends of every moving average, and to every point near the rim of a dataset when a program looks for its nearest neighbours. Sittard-Geleen is a good place to learn to look for the edge before trusting the middle.
 
-Facts last verified 11 September 2026. Teaching is online; no Sittard-Geleen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Sittard-Geleen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a town between two borders
 
@@ -191,7 +191,7 @@ Thirteen woonplaatsen share one municipality here, some of them villages by the 
 - **No bus to catch** A pupil in Guttecoven, Holtum or Papenhoven logs in from the kitchen table at the agreed time. The teacher is on screen a minute before the start, and nobody waits in the dark for a lift home.
 - **Brugklas stays brugklas** The Dutch names for school years and streams, from groep to vwo and the profielkeuze, are used exactly as a Limburg school report uses them. Lessons are in English; the school system is not translated away.
 - **Try it before deciding** The opening session costs nothing and is taught as a lesson, not a demonstration. By its end the teacher can name a starting level and the course that fits and can propose a weekly slot, and there is nothing to sign.
-- **Classmates from elsewhere** Groups hold five to ten learners who have reached the same point. With 11,220 residents under fifteen spread across thirteen woonplaatsen, five matched learners free at one hour would be luck, so classmates may log in from other countries.
+- **Classmates from elsewhere** Groups hold fifteen to twenty learners who have reached the same point. With 11,220 residents under fifteen spread across thirteen woonplaatsen, five matched learners free at one hour would be luck, so classmates may log in from other countries.
 - **The regio Zuid calendar** Lessons run twice weekly, eight or so in a month, at the same time each week, and pause for the regio Zuid school holidays that Limburg shares with Noord-Brabant and Zeeland.
 - **Evenings left free** The teachers work on Indian time, three and a half hours ahead of Limburg in summer and four and a half in winter, which puts late afternoons, early evenings and Saturday or Sunday mornings within reach all year.
 
@@ -202,7 +202,7 @@ Thirteen woonplaatsen share one municipality here, some of them villages by the 
 Three numbers, set out below, with nothing held back for a sales call.
 
 - First class: USD 0. One complete lesson on a genuine task; the learner leaves with a level and the course it points to.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, in a group of five to ten matched by ability.
+- Group tuition: USD 100 a month. A month of lessons, usually eight, in a group of fifteen to twenty matched by ability.
 - Private tuition: USD 150 a month. A month of lessons, usually eight, taught to one learner alone.
 
 One price in dollars covers every country, so there is no euro version to compare, and a household in Overhoven pays what a household in Obbicht pays. The first charge comes only after the free session has fixed the course and the time, and it is arranged through WhatsApp. Pausing, switching format and missed lessons are explained on the pricing page.
@@ -243,7 +243,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Sittard-Geleen coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

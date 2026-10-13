@@ -196,7 +196,7 @@ module.exports = {
       { h3: 'Anywhere along the coast', p: 'A learner in an apartment near the beach and one in a house out west can share the same lesson, each at their own desk.' },
       { h3: 'School words you know', p: 'Lessons refer to Year 7, Year 10 or Year 12 the way coast schools do, and every class runs in English.' },
       { h3: 'A trial with real work', p: 'The free session is an actual coding task with a teacher watching, and it ends with a recommended level, course and time. No payment details are taken.' },
-      { h3: 'Small matched groups', p: 'Five to ten learners at the same stage, drawn from the Gold Coast, the rest of Australia and further away, so each level finds a workable time.' },
+      { h3: 'Small matched groups', p: 'Fifteen to twenty learners at the same stage, drawn from the Gold Coast, the rest of Australia and further away, so each level finds a workable time.' },
       { h3: 'A steady weekly rhythm', p: 'Usually two lessons a week, about eight a month, at a fixed time. Breaks for school holidays and exams are agreed with the teacher ahead of time.' },
       { h3: 'India time, all year', p: 'Neither Queensland nor India changes its clocks, so the coast stays 4 hours 30 minutes in front of our teachers; a 5pm lesson on the coast begins at 12:30pm in India.' }
     ],
@@ -207,7 +207,7 @@ module.exports = {
     h2: 'What classes cost on the Gold Coast',
     intro: 'Three figures and nothing hidden.',
     first: 'One complete lesson at no charge, ending with a level, a course suggestion and a weekly time.',
-    group: 'A month of teaching, normally eight lessons, with five to ten learners at your level.',
+    group: 'A month of teaching, normally eight lessons, with fifteen to twenty learners at your level.',
     private: 'The same monthly pattern of about eight lessons, with one teacher and one learner.',
     closer: 'Outside India every family pays in US dollars at the same rate; Helensvale and Coolangatta receive identical invoices and no coastal surcharge exists. Nothing is charged until the trial has settled a course and a weekly time; holidays, missed lessons and moving between group and private classes are covered on the pricing page.'
   },
@@ -232,8 +232,8 @@ module.exports = {
       { q: 'What time are lessons for Gold Coast learners?', a: 'Late afternoon, evening or weekend, agreed during the trial and always stated in Gold Coast time. Queensland stays 4 hours 30 minutes ahead of India time all year.' },
       { q: 'Is this page for younger children too?', a: 'It is aimed at secondary students and grown-ups. We teach from age 6, and primary-age children have their own page, coding classes for kids on the Gold Coast, with Scratch and picture-based projects.' },
       { q: 'Is there a Modern Age Coders centre on the Gold Coast?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Gold Coast coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Gold Coast coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

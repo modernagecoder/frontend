@@ -301,7 +301,7 @@ module.exports = {
       { h3: 'Hands on the keyboard', p: 'The learner types and runs the code; the teacher watches the shared screen and questions each step.' },
       { h3: 'Term by term', p: 'Courses track Victorian school terms and rest during the holidays.' },
       { h3: 'Trial lesson', p: 'The free class is a proper lesson. When it finishes, the teacher proposes a course and a weekly time.' },
-      { h3: 'Groups by stage', p: 'Five to ten learners at a similar level form each group.' },
+      { h3: 'Groups by stage', p: 'Fifteen to twenty learners at a similar level form each group.' },
       { h3: 'Two a week', p: 'Two lessons on set days each week, about eight a month, with breaks agreed early.' },
       {
         h3: 'Teachers in India',
@@ -317,7 +317,7 @@ module.exports = {
     h2: 'Caroline Springs class fees',
     intro: 'Simple pricing with a free start.',
     first: 'A first lesson at no cost, ending with a plain suggestion of what next.',
-    group: 'A month of group classes, typically eight, with five to ten learners at one level.',
+    group: 'A month of group classes, typically eight, with fifteen to twenty learners at one level.',
     private: 'About eight individual lessons a month with one teacher.',
     closer: 'Families outside India pay in US dollars, so Caroline Springs pays the same as every other family overseas. There is nothing to pay before the trial sets the course and time; holidays, missed classes and switching format are covered on the pricing page.'
   },
@@ -362,12 +362,12 @@ module.exports = {
       },
       {
         q: 'How much do AI classes cost for Caroline Springs learners?',
-        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, roughly eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before payment.',
+        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, roughly eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before payment.',
         boiler: true
       },
       {
         q: 'How many are in a group?',
-        a: 'Five to ten learners grouped on level, pace and goals, with one-to-one lessons when no group time suits.',
+        a: 'Fifteen to twenty learners grouped on level, pace and goals, with one-to-one lessons when no group time suits.',
         boiler: true
       },
       {

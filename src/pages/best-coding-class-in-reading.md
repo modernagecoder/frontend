@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for learners in R
 canonical: https://learn.modernagecoders.com/best-coding-class-in-reading
 source: src/pages/best-coding-class-in-reading.html
 ---
-> Reading had 174,224 residents at the 2021 census and is a town of young adults: people aged 20 to 24 made up 8.4 per cent of residents and those aged 30 to 34 made up 9.0, against 6.0 and 7.0 per cent across England. Caversham, inside the borough, is a built-up area of 33,040 on its own. Reading Museum also holds Britain's Bayeux Tapestry, a full-size Victorian copy. Our teachers work from India and teach every lesson live by video, in coding, Python, AI and maths, for anyone from 6 to 67, one-to-one or in a small class of five to ten at one level. A free first lesson finds the right course. The Reading project asks whose mistake is whose when copies are made from copies. Continuing costs USD 100 a month for a class or USD 150 a month with a private tutor.
+> Reading had 174,224 residents at the 2021 census and is a town of young adults: people aged 20 to 24 made up 8.4 per cent of residents and those aged 30 to 34 made up 9.0, against 6.0 and 7.0 per cent across England. Caversham, inside the borough, is a built-up area of 33,040 on its own. Reading Museum also holds Britain's Bayeux Tapestry, a full-size Victorian copy. Our teachers work from India and teach every lesson live by video, in coding, Python, AI and maths, for anyone from 6 to 67, one-to-one or in a class of fifteen to twenty at one level. A free first lesson finds the right course. The Reading project asks whose mistake is whose when copies are made from copies. Continuing costs USD 100 a month for a class or USD 150 a month with a private tutor.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Reading
 
@@ -12,11 +12,11 @@ Reading, Berkshire, England / Live online
 
 # Coding classes in Reading
 
-**What are the best coding classes in Reading?** Reading had 174,224 residents at the 2021 census and is a town of young adults: people aged 20 to 24 made up 8.4 per cent of residents and those aged 30 to 34 made up 9.0, against 6.0 and 7.0 per cent across England. Caversham, inside the borough, is a built-up area of 33,040 on its own. Reading Museum also holds Britain's Bayeux Tapestry, a full-size Victorian copy. Our teachers work from India and teach every lesson live by video, in coding, Python, AI and maths, for anyone from 6 to 67, one-to-one or in a small class of five to ten at one level. A free first lesson finds the right course. The Reading project asks whose mistake is whose when copies are made from copies. Continuing costs USD 100 a month for a class or USD 150 a month with a private tutor.
+**What are the best coding classes in Reading?** Reading had 174,224 residents at the 2021 census and is a town of young adults: people aged 20 to 24 made up 8.4 per cent of residents and those aged 30 to 34 made up 9.0, against 6.0 and 7.0 per cent across England. Caversham, inside the borough, is a built-up area of 33,040 on its own. Reading Museum also holds Britain's Bayeux Tapestry, a full-size Victorian copy. Our teachers work from India and teach every lesson live by video, in coding, Python, AI and maths, for anyone from 6 to 67, one-to-one or in a class of fifteen to twenty at one level. A free first lesson finds the right course. The Reading project asks whose mistake is whose when copies are made from copies. Continuing costs USD 100 a month for a class or USD 150 a month with a private tutor.
 
 In 1885 Elizabeth Wardle of the Leek Embroidery Society visited Bayeux, and soon thirty-five women were stitching a full-size copy of its famous embroidery, over 70 metres long, finished at Whitsuntide 1886. Reading Museum has displayed it since the town was given it. The museum's history page tells a lovely story about mistakes. In the Reading copy one naked figure in the border wears pants. The embroiderers are often blamed for adding them, but the museum explains they simply copied hand-coloured photographs whose images had already been "cleaned up" by staff at the South Kensington Museum. The copy was faithful to its source; the source had changed. How do errors build up when every copy is made from the last, and how do you tell who made them? This page's project works it out in Python.
 
-Facts last verified 27 September 2026. Teaching is online; no Reading branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Reading branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for Reading learners
 
@@ -136,7 +136,7 @@ Every part of Reading joins by video.
 - **Learners at the keyboard** Students type their own code; the teacher watches the shared screen and nudges with questions.
 - **By year group** A Year 3 or a Year 11 in Reading starts at a level fitting their school year, using exam board names.
 - **Trial first** The opening lesson is free and ends with a straight recommendation.
-- **Classes at one stage** Five to ten learners working at one level, from all over the UK.
+- **Classes at one stage** Fifteen to twenty learners working at one level, from all over the UK.
 - **School terms** Two lessons each week in term; the holidays are left free.
 - **On UK time** Your lesson stays at its UK hour through the clock changes; teachers move instead.
 
@@ -147,7 +147,7 @@ Every part of Reading joins by video.
 Reading pays the same fee as every country we teach outside India.
 
 - First class: USD 0. A complete free lesson and honest advice.
-- Group tuition: USD 100 a month. Roughly eight lessons a month with five to ten classmates.
+- Group tuition: USD 100 a month. Roughly eight lessons a month with fifteen to twenty classmates.
 - Private tuition: USD 150 a month. Roughly eight lessons a month with one tutor.
 
 All fees are in US dollars and never in sterling. You pay only after the trial has settled a course and a weekly slot; holidays, missed lessons and format changes are set out on the pricing page.

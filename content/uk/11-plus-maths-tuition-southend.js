@@ -258,7 +258,7 @@ module.exports = {
     cells: [
       { h3: 'Same teacher weekly', p: 'Continuity that catches recurring slips.' },
       { h3: 'Direct feedback', p: 'Short, honest notes to parents.' },
-      { h3: 'Groups of five to ten', p: 'Children matched by level.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Children matched by level.' },
       { h3: 'No copied papers', p: 'CSSE material is never reproduced.' },
       { h3: 'One to one on offer', p: 'For filling particular gaps quickly.' },
       { h3: 'Maths, not English', p: 'No English coaching and no admissions advice.' }
@@ -273,7 +273,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Families outside India pay one monthly US dollar price. Nothing to join, and you can stop at any point.',
     free: ['A taught lesson, not a pitch', 'Our honest findings', 'No card needed'],
-    group: ['Five to ten pupils, one level', 'A familiar teacher', 'Work marked in the lesson', 'A certificate on completion'],
+    group: ['Fifteen to twenty pupils, one level', 'A familiar teacher', 'Work marked in the lesson', 'A certificate on completion'],
     one: ['Individual teaching', 'Focused on the gaps', 'Useful for building stamina']
   },
 

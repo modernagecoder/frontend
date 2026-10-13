@@ -4,7 +4,7 @@ description: "Vibe coding and AI agents classes for Warrnambool teens and adults
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-warrnambool
 source: src/pages/vibe-coding-and-ai-agents-classes-in-warrnambool.html
 ---
-> For Warrnambool teenagers and adults, classes where you build apps by talking to AI coding tools and agents, and learn just enough Python and maths to catch them when they are wrong. Warrnambool had 35,743 residents at the 2021 Census. A teacher runs every lesson live on video, in a group of five to ten or one to one, and the first lesson is free.
+> For Warrnambool teenagers and adults, classes where you build apps by talking to AI coding tools and agents, and learn just enough Python and maths to catch them when they are wrong. Warrnambool had 35,743 residents at the 2021 Census. A teacher runs every lesson live on video, in a group of fifteen to twenty or one to one, and the first lesson is free.
 
 [Home](/) / [Victoria](/coding-and-ai-classes-in-victoria) / [Australia](/coding-classes-in-australia) / Warrnambool
 
@@ -12,11 +12,11 @@ Warrnambool, Victoria, Australia / Live online
 
 # Vibe coding and AI agents classes in Warrnambool
 
-**What are the best vibe coding and AI agents classes in Warrnambool?** For Warrnambool teenagers and adults, classes where you build apps by talking to AI coding tools and agents, and learn just enough Python and maths to catch them when they are wrong. Warrnambool had 35,743 residents at the 2021 Census. A teacher runs every lesson live on video, in a group of five to ten or one to one, and the first lesson is free.
+**What are the best vibe coding and AI agents classes in Warrnambool?** For Warrnambool teenagers and adults, classes where you build apps by talking to AI coding tools and agents, and learn just enough Python and maths to catch them when they are wrong. Warrnambool had 35,743 residents at the 2021 Census. A teacher runs every lesson live on video, in a group of fifteen to twenty or one to one, and the first lesson is free.
 
 Here is a question an AI travel agent might be asked in Warrnambool: how often does the Merrivale bus run? To answer from raw timetable data, a tempting trick borrowed from audio engineering is to treat departures like a sound and listen for the strongest beat. The Goertzel algorithm does exactly that, testing one period at a time. We ran it over every town route on a Wednesday in October. For route 1 it heard a 15-minute beat just as loudly as a 30-minute one, although no bus on that route ever runs 15 minutes apart. Working out why is the whole lesson.
 
-Facts last verified 8 October 2026. Teaching is online; no Warrnambool branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 8 October 2026. Teaching is online; no Warrnambool branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four ways into building with AI
 
@@ -180,7 +180,7 @@ Every class happens on video, so the distance to Melbourne or Geelong changes no
 - **From home** Learners log in from their own computer, with no trip to a city campus for a class.
 - **Victorian levels** Lessons are pitched at Victorian year levels and paced around the state's four terms. Teaching is in English.
 - **Free trial** The first lesson teaches something real and ends with a suggested course and weekly time.
-- **Five to ten** Group classes hold five to ten learners at the same level, combined from Warrnambool and other places.
+- **Five to ten** Group classes hold fifteen to twenty learners at the same level, combined from Warrnambool and other places.
 - **Every week** Two live sessions each week, close to eight a month, on days agreed after the trial.
 - **Teachers in India** In summer Warrnambool runs five and a half hours ahead of India time; from April to October the difference is four and a half hours.
 
@@ -191,7 +191,7 @@ Every class happens on video, so the distance to Melbourne or Geelong changes no
 Pricing is brief and uniform across Australia.
 
 - First class: USD 0. A free first lesson that finishes with a recommended level, course and weekly slot.
-- Group tuition: USD 100 a month. A month of group sessions, normally eight, with five to ten learners at your level.
+- Group tuition: USD 100 a month. A month of group sessions, normally eight, with fifteen to twenty learners at your level.
 - Private tuition: USD 150 a month. Close to eight one-to-one sessions a month with your own teacher.
 
 Fees outside India are in US dollars, so Warrnambool learners pay the national rate. No payment is taken until the trial has fixed what and when you will study; the pricing page explains holidays, missed sessions and switching formats.
@@ -232,7 +232,7 @@ No. We have no premises in Australia and do not claim any. Classes are live onli
 
 ### How much are Warrnambool classes?
 
-The first lesson is free. Afterwards a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Everything is agreed before you pay.
+The first lesson is free. Afterwards a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Everything is agreed before you pay.
 
 ### How many learners are in each group?
 

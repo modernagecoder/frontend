@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in West Molesey',
   capsuleQ: 'Which coding and AI classes are best for West Molesey?',
-  capsule: 'The 2021 census counted 47,150 usual residents in the ONS built-up area named West Molesey, and 138,754 in the borough of Elmbridge. By the postcode gazetteer that built-up area also takes in East Molesey, Thames Ditton, Weston Green, Long Ditton, Hinchley Wood and Claygate. Learners aged six to 67 there study coding, AI, Python, vibe coding and maths with Modern Age Coders over live video; tutors based in India teach them privately or in level-matched groups of five to ten. Our lessons ask learners to test ideas, not just type them. We recommend a course only after a free first lesson. The West Molesey project starts from a rule for escaping a maze that Harris gives in Three Men in a Boat, told as the boat passes through Moulsey Lock, and tests it on 1,000 computer-made mazes against breadth-first search. Past the trial, a group place costs USD 100 monthly and private tuition USD 150 monthly.',
+  capsule: 'The 2021 census counted 47,150 usual residents in the ONS built-up area named West Molesey, and 138,754 in the borough of Elmbridge. By the postcode gazetteer that built-up area also takes in East Molesey, Thames Ditton, Weston Green, Long Ditton, Hinchley Wood and Claygate. Learners aged six to 67 there study coding, AI, Python, vibe coding and maths with Modern Age Coders over live video; tutors based in India teach them privately or in level-matched groups of fifteen to twenty. Our lessons ask learners to test ideas, not just type them. We recommend a course only after a free first lesson. The West Molesey project starts from a rule for escaping a maze that Harris gives in Three Men in a Boat, told as the boat passes through Moulsey Lock, and tests it on 1,000 computer-made mazes against breadth-first search. Past the trial, a group place costs USD 100 monthly and private tuition USD 150 monthly.',
   lead: 'In Three Men in a Boat, Harris leads a country cousin into the Hampton Court maze, confident that it is simple. Jerome gives his method in one line: "You keep on taking the first turning to the right." Soon a whole crowd is following him round and round, and a keeper has to let them out. Jerome\'s narrator hears the story as their boat passes through Moulsey Lock. Harris\'s rule has a name in computing, the wall follower, and it is not foolish. In some mazes it can never fail. In others it can walk in circles for ever. Finding out which is which takes about forty lines of Python.',
   wa: 'Hello Modern Age Coders, we would like a free coding or AI trial lesson, please. We are in West Molesey.',
 
@@ -157,7 +157,7 @@ module.exports = {
       { h3: 'Learner in control', p: 'The learner types, runs and fixes the code while the tutor asks why.' },
       { h3: 'Placed by the trial', p: 'We watch what the learner can do in the first lesson before recommending anything.' },
       { h3: 'Trial without payment', p: 'No fee and no card details are taken for the first lesson.' },
-      { h3: 'Five to ten learners', p: 'Each group shares one level, with classmates from across the UK.' },
+      { h3: 'Fifteen to twenty learners', p: 'Each group shares one level, with classmates from across the UK.' },
       { h3: 'About eight a month', p: 'Typically two a week in term, with Surrey holidays left free if you ask.' },
       { h3: 'Stable UK time', p: 'Clock changes are handled by the tutor; your lesson time stays the same.' }
     ],

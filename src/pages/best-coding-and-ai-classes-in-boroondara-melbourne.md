@@ -16,7 +16,7 @@ City of Boroondara, Melbourne, Victoria / Live online
 
 Fifteen railway stations sit inside the City of Boroondara, from Glenferrie to Alamein, and the state publishes how many people entered each one every financial year. Put those numbers into a pandas pivot table and you get a neat grid, plus a margin row that looks like a council total. Reading that margin honestly is the lesson.
 
-Facts last verified 10 October 2026. Teaching is online; no Boroondara branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Boroondara branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that reach real data work
 
@@ -188,7 +188,7 @@ Lessons happen on a video call with a shared screen, so the learner stays at hom
 - **Live with a teacher** The teacher watches the learner's own code run and fixes misunderstandings on the spot.
 - **Victorian terms** The timetable follows the four state school terms and pauses for the holidays.
 - **Trial lesson** The first full lesson is free and ends with a course and time recommendation.
-- **Groups by level** Five to ten learners at the same level, drawn from many places, never sorted by postcode.
+- **Groups by level** Fifteen to twenty learners at the same level, drawn from many places, never sorted by postcode.
 - **Twice weekly** Two fixed lessons each week, around eight a month, keep skills from fading.
 - **Teachers in India** A 6pm Boroondara lesson is 12:30pm India time while Melbourne is on daylight saving, and 1:30pm after it ends.
 
@@ -199,7 +199,7 @@ Lessons happen on a video call with a shared screen, so the learner stays at hom
 The same three choices for every family.
 
 - First class: USD 0. Your first lesson is free and comes with an honest recommendation.
-- Group tuition: USD 100 a month. One month of group lessons, usually eight, with five to ten learners at a matched level.
+- Group tuition: USD 100 a month. One month of group lessons, usually eight, with fifteen to twenty learners at a matched level.
 - Private tuition: USD 150 a month. One month of private lessons, usually eight, with a single teacher.
 
 Boroondara families pay in US dollars, as everyone outside India does. Nothing is charged until the trial has fixed the course and lesson time, and the pricing page explains holidays and missed lessons.
@@ -236,7 +236,7 @@ No. All teaching is live online, we have no Australian office, and the phone num
 
 ### What do classes cost in Boroondara?
 
-The first lesson is free. Group classes are USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten; one-to-one classes are USD 150 a month. Course and time are agreed before any payment.
+The first lesson is free. Group classes are USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty; one-to-one classes are USD 150 a month. Course and time are agreed before any payment.
 
 ### How many learners are in a group?
 

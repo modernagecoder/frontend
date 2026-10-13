@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI lessons for Malahide learners ag
 canonical: https://learn.modernagecoders.com/best-coding-class-in-malahide
 source: src/pages/best-coding-class-in-malahide.html
 ---
-> The census town tables record 18,305 usual residents in Malahide, living in 6,521 households, of which 6,018 have a broadband connection. Learning here needs no journey: a teacher takes the lesson live on video twice in most weeks, either with a group of five to ten placed at one level or with a single learner, and ages run from six to sixty-seven. The first lesson costs nothing. After it, a group place is USD 100 a month and one to one is USD 150.
+> The census town tables record 18,305 usual residents in Malahide, living in 6,521 households, of which 6,018 have a broadband connection. Learning here needs no journey: a teacher takes the lesson live on video twice in most weeks, either with a group of fifteen to twenty placed at one level or with a single learner, and ages run from six to sixty-seven. The first lesson costs nothing. After it, a group place is USD 100 a month and one to one is USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [Fingal](/coding-classes-in-fingal) / Malahide
 
@@ -12,11 +12,11 @@ Malahide, Fingal, County Dublin / Live online
 
 # Coding classes in Malahide
 
-**What is the best coding class in Malahide?** The census town tables record 18,305 usual residents in Malahide, living in 6,521 households, of which 6,018 have a broadband connection. Learning here needs no journey: a teacher takes the lesson live on video twice in most weeks, either with a group of five to ten placed at one level or with a single learner, and ages run from six to sixty-seven. The first lesson costs nothing. After it, a group place is USD 100 a month and one to one is USD 150.
+**What is the best coding class in Malahide?** The census town tables record 18,305 usual residents in Malahide, living in 6,521 households, of which 6,018 have a broadband connection. Learning here needs no journey: a teacher takes the lesson live on video twice in most weeks, either with a group of fifteen to twenty placed at one level or with a single learner, and ages run from six to sixty-seven. The first lesson costs nothing. After it, a group place is USD 100 a month and one to one is USD 150.
 
 Chart the Malahide journey-time figures and the bars fall away neatly until the second last one, which climbs again: 1,208 residents spend three quarters of an hour to an hour getting to work, school or college, and 1,348 spend an hour to an hour and a half. Read the labels rather than the bars and the climb disappears. Every earlier band covers fifteen minutes; that one covers thirty, so it has twice as long a stretch of the day to gather people from. Share it out evenly and it is 674 per quarter hour, roughly half the bar beside it. Nothing about Malahide caused the bump. The chart did, and a reader who checks band widths before believing a shape has learned something that applies to every histogram they will ever meet.
 
-Facts last verified 18 September 2026. Teaching is online; no Malahide branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 18 September 2026. Teaching is online; no Malahide branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Malahide learners usually begin
 
@@ -173,7 +173,7 @@ That is the part worth building in a learner in 2026: not typing the plot, but k
 The practical details, kept short.
 
 - **A real teacher, live** Nothing is pre-recorded. The teacher sees the learner's work as it happens and responds to it.
-- **Placed by ability** Groups hold five to ten learners working at the same level, wherever in Ireland or beyond they log in from.
+- **Placed by ability** Groups hold fifteen to twenty learners working at the same level, wherever in Ireland or beyond they log in from.
 - **The same hour each week** Two lessons in most weeks, around eight a month, at a slot fixed once and then protected.
 - **Around the school term** Mid-terms, holidays and exam weeks are agreed in advance rather than patched over later.
 - **What is needed at home** A laptop or desktop, sound that works and a connection that holds video, all tested in the free lesson.
@@ -186,7 +186,7 @@ The practical details, kept short.
 Three lines, and that is the whole list.
 
 - First class: USD 0. A full first lesson, taught properly and charged for at nothing, ending with a level and a recommended course.
-- Group tuition: USD 100 a month. One month in an ability group of five to ten, about eight live lessons.
+- Group tuition: USD 100 a month. One month in an ability group of fifteen to twenty, about eight live lessons.
 - Private tuition: USD 150 a month. One month of one to one lessons on the same weekly rhythm.
 
 We bill monthly in US dollars, at the one rate that applies to every family outside India, so Malahide pays what Cork or Sligo pays and there is no second list in another currency. Nothing is charged before the free lesson has settled a course and a time, and the pricing page sets out pauses, missed lessons and moving between group and private.
@@ -227,7 +227,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Malahide cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

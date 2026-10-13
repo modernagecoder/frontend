@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Inverclyde, fr
 canonical: https://learn.modernagecoders.com/coding-classes-in-inverclyde
 source: src/pages/coding-classes-in-inverclyde.html
 ---
-> Inverclyde is a compact council area on the Firth of Clyde with about 78,400 residents in roughly 37,400 households, according to the 2022 census. Greenock is by far the largest town, and Port Glasgow and Gourock are the other large towns, with Kilmacolm, Inverkip and Wemyss Bay smaller. Every class is taught live by video from India; a free first lesson finds the right starting stage, anything from P1 to S6 or adult. Learners aged 6 to 67 take coding, Python and maths in a group of five to ten or individually. The Inverclyde project starts at an old Greenock dry dock. After the free lesson, a group costs USD 100 a month and one-to-one USD 150 a month.
+> Inverclyde is a compact council area on the Firth of Clyde with about 78,400 residents in roughly 37,400 households, according to the 2022 census. Greenock is by far the largest town, and Port Glasgow and Gourock are the other large towns, with Kilmacolm, Inverkip and Wemyss Bay smaller. Every class is taught live by video from India; a free first lesson finds the right starting stage, anything from P1 to S6 or adult. Learners aged 6 to 67 take coding, Python and maths in a group of fifteen to twenty or individually. The Inverclyde project starts at an old Greenock dry dock. After the free lesson, a group costs USD 100 a month and one-to-one USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Inverclyde
 
@@ -12,11 +12,11 @@ Inverclyde / Live online
 
 # Coding classes in Inverclyde
 
-**What are the best coding classes in Inverclyde?** Inverclyde is a compact council area on the Firth of Clyde with about 78,400 residents in roughly 37,400 households, according to the 2022 census. Greenock is by far the largest town, and Port Glasgow and Gourock are the other large towns, with Kilmacolm, Inverkip and Wemyss Bay smaller. Every class is taught live by video from India; a free first lesson finds the right starting stage, anything from P1 to S6 or adult. Learners aged 6 to 67 take coding, Python and maths in a group of five to ten or individually. The Inverclyde project starts at an old Greenock dry dock. After the free lesson, a group costs USD 100 a month and one-to-one USD 150 a month.
+**What are the best coding classes in Inverclyde?** Inverclyde is a compact council area on the Firth of Clyde with about 78,400 residents in roughly 37,400 households, according to the 2022 census. Greenock is by far the largest town, and Port Glasgow and Gourock are the other large towns, with Kilmacolm, Inverkip and Wemyss Bay smaller. Every class is taught live by video from India; a free first lesson finds the right starting stage, anything from P1 to S6 or adult. Learners aged 6 to 67 take coding, Python and maths in a group of fifteen to twenty or individually. The Inverclyde project starts at an old Greenock dry dock. After the free lesson, a group costs USD 100 a month and one-to-one USD 150 a month.
 
 In Cartsdyke, Greenock, Historic Environment Scotland lists Scott's Dry Dock at Category A and says it is believed to be the oldest surviving dry, or graving, dock in Scotland. Roughly 110 metres long and 20 metres wide, it was built for Steele's shipyard and already appears on a town plan of 1825. A dry dock works by letting the river in and pumping it out: gates open, water floods the basin, a ship floats in, and the water is removed so workers can reach the hull. How long does the flooding take? The obvious calculation is wrong by a factor of two, and the last metre of water behaves in a way that surprises almost everyone. This page's project finds out in Python.
 
-Facts last verified 26 September 2026. Teaching is online; no Inverclyde branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Inverclyde branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses that suit Inverclyde learners
 
@@ -139,7 +139,7 @@ Online classes remove the journey to an evening club.
 - **Learner at the keyboard** The learner writes the code; the teacher watches the shared screen and helps at the right moment.
 - **Our words match school** We use P3, S4, National 5, Higher and Advanced Higher, like Inverclyde schools, and teach in English.
 - **First lesson free** A real lesson, at no cost, and then plain advice on which course comes next.
-- **Groups by stage** Five to ten learners at the same stage in each class, often from several countries.
+- **Groups by stage** Fifteen to twenty learners at the same stage in each class, often from several countries.
 - **Term-time rhythm** Two lessons a week in term, with the school holidays off.
 - **Booked in UK time** Once set, your lesson keeps its UK time through the clock changes; teachers in India time adapt.
 
@@ -150,7 +150,7 @@ Online classes remove the journey to an evening club.
 Gourock or Port Glasgow, the fee is the same, and so it is in every country outside India where we teach.
 
 - First class: USD 0. A full lesson at no charge, with a recommendation at the end.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month, one teacher and one learner.
 
 All fees are in US dollars; there is no sterling price. Payment starts only after the free lesson, when a course and weekly time have been agreed, and the pricing page explains holidays, missed lessons and changing between group and individual lessons.

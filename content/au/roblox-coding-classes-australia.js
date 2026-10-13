@@ -64,7 +64,7 @@ module.exports = {
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
-  capsule: 'Roblox coding is writing scripts in Luau, a programming language based on Lua, inside Roblox Studio, the free tool used to build every Roblox experience. Children learn variables, functions, events and loops by making parts move, doors open and scores change, then move on to the split between client and server code that every online game depends on. Modern Age Coders teaches it live online to Australian children and teens, either in a class of five to ten or privately, starting with a free class.',
+  capsule: 'Roblox coding is writing scripts in Luau, a programming language based on Lua, inside Roblox Studio, the free tool used to build every Roblox experience. Children learn variables, functions, events and loops by making parts move, doors open and scores change, then move on to the split between client and server code that every online game depends on. Modern Age Coders teaches it live online to Australian children and teens, either in a class of fifteen to twenty or privately, starting with a free class.',
 
   picks: {
     eyebrow: 'Start here',
@@ -262,7 +262,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Free first class', p: 'Your child scripts a small part in Roblox Studio with a teacher. No card needed.' },
-      { h3: 'Groups of five to ten', p: 'Classmates test each other\'s experiences in supervised lessons.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Classmates test each other\'s experiences in supervised lessons.' },
       { h3: 'One to one', p: 'For a child with one ambitious experience to build.' },
       { h3: 'Typed by the child', p: 'Teachers explain and question; children write every script themselves.' },
       { h3: 'Security from the start', p: 'Server checks are taught before the first shop or economy.' },
@@ -278,7 +278,7 @@ module.exports = {
     h2: 'Fees for Roblox coding classes',
     lede: 'Families outside India pay one monthly price in US dollars. There is no enrolment fee and nothing to buy inside Roblox; you can stop after any month.',
     free: ['A first Luau script with a teacher', 'Advice on the right starting course', 'No card or bank details'],
-    group: ['Five to ten children per class', 'Supervised testing with classmates', 'A regular teacher', 'Stop after any month'],
+    group: ['Fifteen to twenty children per class', 'Supervised testing with classmates', 'A regular teacher', 'Stop after any month'],
     one: ['Lessons built around your child\'s own experience', 'Flexible pace', 'Times around school and sport']
   },
 

@@ -16,7 +16,7 @@ Knox City Council, Melbourne, Victoria / Live online
 
 Picture an agent that writes a one-line description of each of the 33 government schools Knox has in the 2025 state list. It fills a prompt template with each school's name, type, suburb and closest station. Thirty-two rows have every value. One does not, and how the code reacts to that single gap is the whole lesson.
 
-Facts last verified 10 October 2026. Teaching is online; no Knox branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Knox branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Vibe coding and agents courses
 
@@ -187,7 +187,7 @@ All lessons run live on video, for learners in Rowville, Wantirna or anywhere el
 - **Code on screen** Learners share their screen and the teacher works through their own project with them.
 - **School-term calendar** Classes follow the Victorian term pattern and rest in the school holidays.
 - **Trial lesson free** One complete lesson free of charge, then a course recommendation.
-- **Five to ten per group** Groups match level and goals, and bring together learners from many places.
+- **Fifteen to twenty per group** Groups match level and goals, and bring together learners from many places.
 - **Two sessions a week** Lessons happen twice weekly, about eight in a month.
 - **Teachers in India** A 5:30pm Knox class is noon India time during Melbourne daylight saving and 1pm once it finishes.
 
@@ -198,7 +198,7 @@ All lessons run live on video, for learners in Rowville, Wantirna or anywhere el
 Plain fees that apply to every family.
 
 - First class: USD 0. The first lesson is on us, and it ends with a clear plan.
-- Group tuition: USD 100 a month. Groups: a month of about eight lessons, five to ten learners per group.
+- Group tuition: USD 100 a month. Groups: a month of about eight lessons, fifteen to twenty learners per group.
 - Private tuition: USD 150 a month. One to one: a month of about eight lessons, alone with a teacher.
 
 Knox families are charged in US dollars. Payment starts only after the trial has set a course and a time; holiday and missed-lesson rules are on the pricing page.
@@ -235,11 +235,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Knox classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### How many government schools does Knox have?
 

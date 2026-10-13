@@ -16,7 +16,7 @@ Book a Free DSA Demo ClassSee the Syllabus**STL**Vectors, maps, sets & more**5�
 
 ## Quick answer
 
-**Modern Age Coders' C++ DSA course teaches the full Data Structures & Algorithms syllabus in C++ using the STL.** You cover arrays, strings, linked lists, stacks, queues, hashing, recursion, trees, graphs, sorting and searching, greedy techniques and dynamic programming, every topic paired with interview-style problems. Classes are live in small batches of 5–8 with a mentor who reviews your code, built for placement coding rounds and competitive programming. Group plans start at ₹1,499/month, and every learner gets a free demo class first.
+**Modern Age Coders' C++ DSA course teaches the full Data Structures & Algorithms syllabus in C++ using the STL.** You cover arrays, strings, linked lists, stacks, queues, hashing, recursion, trees, graphs, sorting and searching, greedy techniques and dynamic programming, every topic paired with interview-style problems. Classes are live in batches of 15–20 with a mentor who reviews your code, built for placement coding rounds and competitive programming. Group plans start at ₹1,499/month, and every learner gets a free demo class first.
 
 Start Today
 
@@ -108,7 +108,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo.
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 learners per batch
+- 15–20 learners per batch
 - Live DSA + problem sets
 - Recorded class access
 - Completion certificate
@@ -119,7 +119,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 learners per batch
+- Up to 6 learners per batch
 - More personal mentoring
 - Recorded class access
 - Mock interviews & certificate
@@ -183,7 +183,7 @@ Yes. It is built for it. The syllabus mirrors what interviewers ask in coding ro
 
 How much does the C++ DSA course cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
 
 Are the DSA classes live with practice problems?+
 

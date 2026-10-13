@@ -16,7 +16,7 @@ Devonport, Tasmania / Live online
 
 Land Tasmania maps small structures across the state as points, each tagged with a type. In a rectangle over Devonport there are 5,265 of them, and 4,242 are tagged Shed. Train the simplest decision tree to separate sheds from everything else, using how close each point sits to its neighbour, and something odd happens. Score the split by Gini impurity and the strongest cut, at 10.77 m, is a measurable improvement. Score it by the share of wrong guesses and no cut anywhere improves anything, because both sides are still mostly sheds. Understanding why the textbooks prefer Gini is the start of understanding how machine learning chooses.
 
-Facts last verified 9 October 2026. Teaching is online; no Devonport branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 October 2026. Teaching is online; no Devonport branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for Devonport teens and adults
 
@@ -169,7 +169,7 @@ An online class reaches every Devonport suburb equally, with no travel for anyon
 - **Suburb makes no difference** A learner in Miandetta and another in Quoiba join the same lesson from home.
 - **Tasmanian year levels** Teaching follows Tasmanian year levels, including Years 11 and 12, in English.
 - **Free opening lesson** You build something real with a teacher, then hear a suggested level, course and time; no card details needed.
-- **Five to ten learners** Groups at one level drawn from Tasmania, the mainland and overseas.
+- **Fifteen to twenty learners** Groups at one level drawn from Tasmania, the mainland and overseas.
 - **Two a week** Around eight lessons a month, with Tasmanian holidays planned in advance.
 - **Clock changes covered** When summer time starts or ends, the lesson keeps its Devonport time.
 
@@ -180,7 +180,7 @@ An online class reaches every Devonport suburb equally, with no travel for anyon
 Three lines cover every price.
 
 - First class: USD 0. An opening lesson at no cost, ending with a level, course and time.
-- Group tuition: USD 100 a month. A month in a group of five to ten, normally eight lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty, normally eight lessons.
 - Private tuition: USD 150 a month. Normally eight private lessons a month with a single teacher.
 
 Devonport learners pay the same US dollar rate as the rest of Australia, with no island loading. Payment only begins after the trial has agreed a course and slot; the pricing page covers holidays, missed lessons and switching between formats.
@@ -221,11 +221,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Devonport coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Devonport and Tasmanian learners
 

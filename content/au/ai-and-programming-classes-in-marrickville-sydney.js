@@ -313,7 +313,7 @@ module.exports = {
       { h3: 'From the kitchen table', p: 'A laptop at home is the classroom; no trip to a centre is needed.' },
       { h3: 'NSW school year', p: 'Lessons follow NSW syllabus stages and pause through the NSW school holidays.' },
       { h3: 'A full free lesson', p: 'The first class is a proper lesson and ends with a suggested course, level and time.' },
-      { h3: 'Groups of five to ten', p: 'Learners are matched by level and pace, Marrickville students alongside others.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners are matched by level and pace, Marrickville students alongside others.' },
       { h3: 'Two fixed slots', p: 'Two lessons a week, about eight a month, with breaks agreed ahead of time.' },
       {
         h3: 'Teachers in India',
@@ -329,7 +329,7 @@ module.exports = {
     h2: 'Marrickville class fees',
     intro: 'Three amounts, no extras.',
     first: 'Your first class is free and ends with a frank recommendation.',
-    group: 'A month of group lessons, generally eight, with five to ten learners at the same level.',
+    group: 'A month of group lessons, generally eight, with fifteen to twenty learners at the same level.',
     private: 'Around eight private lessons a month with one teacher.',
     closer: 'Families outside India pay in US dollars, so every Marrickville family pays the same. Nothing is charged before the trial; once course and time are settled, the pricing page covers holidays, absences and switching formats.'
   },
@@ -371,7 +371,7 @@ module.exports = {
       },
       {
         q: 'How much do classes cost for Marrickville learners?',
-        a: 'The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before payment.',
+        a: 'The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before payment.',
         boiler: true
       },
       {

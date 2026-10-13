@@ -16,7 +16,7 @@ London Borough of Tower Hamlets / Live online
 
 The Tower of London's White Tower, its curtain walls and its chapel are all Grade I entries on Historic England's list, and all stand inside Tower Hamlets. Our learners borrow the name for a very different tower. The Tower of Hanoi is a stack of discs on one of three pegs, largest at the bottom. Move the whole stack to another peg, one disc at a time, never putting a bigger disc on a smaller one. With three discs it takes seven moves; with ten, 1,023. The solution is the classic example of recursion: to move ten discs, move nine out of the way, move the biggest, then move the nine back on top. Learners write that in a few lines, count the moves, time their computer, and discover a hidden pattern shared with the binary counting used in digital sensors.
 
-Facts last verified 25 September 2026. Teaching is online; no Tower Hamlets branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Tower Hamlets branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses in Tower Hamlets
 
@@ -140,7 +140,7 @@ A learner at the southern tip of the Isle of Dogs and one in Bow can be in the s
 
 ### One step at a time
 
-Like the discs, learners move up one stage at a time, in groups of five to ten at the same level.
+Like the discs, learners move up one stage at a time, in groups of fifteen to twenty at the same level.
 
 **Tower Hamlets in London** Tower Hamlets is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers them all and the City, linking each page when it is published, including [Hackney](/coding-classes-in-hackney-london) to the north and [Newham](/coding-classes-in-newham-london) across the River Lea.
 
@@ -170,7 +170,7 @@ Across Tower Hamlets, the class starts as soon as the video connects.
 - **From any room** A laptop or desktop with headphones and a steady internet connection is all the equipment needed.
 - **Stages used in England** Progress is described in English Key Stages, from the first years of school to sixth form, with GCSE and A level named where they apply. We teach in English.
 - **A real first lesson** The free lesson is actual teaching and ends with a recommended level and course. No payment details are requested.
-- **Classes of five to ten** Each class brings together learners at one stage from across the UK and further away, which keeps a convenient evening time available.
+- **Classes of fifteen to twenty** Each class brings together learners at one stage from across the UK and further away, which keeps a convenient evening time available.
 - **Two evenings a week** The usual rhythm is two evening lessons a week, with breaks for holidays and exams agreed in advance.
 - **UK clock times** Our teachers work from India; the times you receive are already in UK time.
 
@@ -181,7 +181,7 @@ Across Tower Hamlets, the class starts as soon as the video connects.
 A free first lesson, then one monthly fee, the same in Stepney as on the Isle of Dogs.
 
 - First class: USD 0. A full first lesson with a teacher, free, ending with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. Close to eight live lessons each month, in a class of five to ten at one stage.
+- Group tuition: USD 100 a month. Close to eight live lessons each month, in a class of fifteen to twenty at one stage.
 - Private tuition: USD 150 a month. Close to eight live lessons each month, one to one.
 
 Tower Hamlets families pay in US dollars, as do all families outside India, and there are no sterling prices on the site. Payment starts only after the free lesson, once you have chosen a course and a regular time. The pricing page describes pausing, missed lessons and moving between group and private teaching.
@@ -222,11 +222,11 @@ No. There is no Tower Hamlets centre and no premises anywhere in the UK, because
 
 ### What do coding classes in Tower Hamlets cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## On from Tower Hamlets
 

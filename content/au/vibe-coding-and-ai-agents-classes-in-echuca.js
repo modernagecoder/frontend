@@ -190,7 +190,7 @@ module.exports = {
       { h3: 'Home set-up', p: 'A computer, a microphone and a steady internet connection are enough to join.' },
       { h3: 'Either state', p: 'Teachers know both the Victorian and New South Wales school years, and plan around the learner\'s own school.' },
       { h3: 'Trial class', p: 'The free first class teaches real material and ends with a suggested course and weekly time.' },
-      { h3: 'Small groups', p: 'Groups hold five to ten learners at one level, drawn from many towns.' },
+      { h3: 'Small groups', p: 'Groups hold fifteen to twenty learners at one level, drawn from many towns.' },
       { h3: 'Weekly rhythm', p: 'Two group lessons a week on fixed days, close to eight each month.' },
       { h3: 'Teaching team', p: 'Teachers are based in India and confirm every time in Echuca time.' }
     ],
@@ -201,7 +201,7 @@ module.exports = {
     h2: 'Echuca class fees',
     intro: 'Fees are simple and the same for every Australian learner.',
     first: 'The first class is free and finishes with a recommended level, course and lesson time.',
-    group: 'One month of group lessons, close to eight, with five to ten learners at the same level.',
+    group: 'One month of group lessons, close to eight, with fifteen to twenty learners at the same level.',
     private: 'Close to eight one-to-one lessons a month with a dedicated teacher.',
     closer: 'Fees outside India are charged in US dollars, and Echuca and Moama pay the same as the rest of Australia. Nothing is billed until the trial has settled the course and time, and the pricing page covers holidays, missed classes and changing between group and private lessons.'
   },
@@ -226,8 +226,8 @@ module.exports = {
       { q: 'What is vibe coding?', a: 'Vibe coding is building software by describing it to an AI in plain words. We pair it with reading and testing the code, so the learner always understands what was built.' },
       { q: 'Can primary school children start?', a: 'Yes. Children from six begin with Scratch and block coding; the agent project is for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Echuca?', a: 'No. We have no premises in Australia and claim none. Every class is live online; learners need a computer and a steady connection, and our listed phone number is in India.', boiler: true },
-      { q: 'What do Echuca classes cost?', a: 'The first class is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one-to-one. Nothing is charged before the plan is agreed.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, grouped by level and goals rather than age or town. When no group time suits, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do Echuca classes cost?', a: 'The first class is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one-to-one. Nothing is charged before the plan is agreed.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, grouped by level and goals rather than age or town. When no group time suits, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

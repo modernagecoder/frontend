@@ -175,7 +175,7 @@ module.exports = {
     intro: 'What happens in practice.',
     cells: [
       { h3: 'A teacher, live', p: 'Every lesson is taught in real time, with the teacher following the learner\'s own work.' },
-      { h3: 'Grouped by ability', p: 'Five to ten learners at one stage, from Sligo, the rest of Ireland and further away.' },
+      { h3: 'Grouped by ability', p: 'Fifteen to twenty learners at one stage, from Sligo, the rest of Ireland and further away.' },
       { h3: 'Two lessons most weeks', p: 'Around eight a month, at an hour chosen when the course begins.' },
       { h3: 'Term dates', p: 'Holidays and exam weeks are planned into the schedule from the outset.' },
       { h3: 'What to have', p: 'The learner needs their own screen and keyboard for the hour, working audio, and a connection that does not drop a video call.' },
@@ -188,7 +188,7 @@ module.exports = {
     h2: 'Sligo class fees',
     intro: 'Three lines, nothing more.',
     first: 'The opening lesson, taught in full and assessed, free.',
-    group: 'A month in a group of five to ten at one level, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, about eight live lessons.',
     private: 'A month of one to one lessons on the same weekly pattern.',
     closer: 'Families outside India all pay the same monthly fee in US dollars, so Sligo sees the figure Galway sees, with no euro version shown. There is no charge until the free lesson has produced a course and a weekly time, and the pricing page explains what happens over holidays, after a missed lesson, and when a learner changes format.'
   },
@@ -213,7 +213,7 @@ module.exports = {
       { q: 'Can adults learn with you in Sligo?', a: 'Yes. Our learners go up to sixty-seven, many adults start with no experience at all, and the free lesson decides whether that happens in a matched group or one to one.' },
       { q: 'Is the paradox a trick of rounding?', a: 'No. The counts are exact and the reversal holds at three decimal places. What is small is the working-resident gap, which we state openly; the education-group gap and the combined gap are clear.' },
       { q: 'Is there a Modern Age Coders classroom in Sligo?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Sligo cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Sligo cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

@@ -120,7 +120,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo.
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 learners per batch
+- 15–20 learners per batch
 - Live, hands-on OOP
 - Recorded class access
 - Completion certificate
@@ -131,7 +131,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 learners per batch
+- Up to 6 learners per batch
 - More personal mentoring
 - Recorded class access
 - Project guidance & certificate
@@ -195,7 +195,7 @@ Yes. Every concept is taught through real, runnable Java, a bank account for enc
 
 How much does the Java OOP course cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 learners is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available before you enrol.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 learners is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available before you enrol.
 
 Do I need prior Java knowledge for the OOP course?+
 

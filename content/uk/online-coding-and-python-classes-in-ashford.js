@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Ashford, Kent',
   capsuleQ: 'Which are the best online coding and Python classes in Ashford, Kent?',
-  capsule: 'Ashford borough counted 132,747 usual residents at the 2021 census. Its largest built-up area, Ashford itself, had 82,140, and Tenterden 7,775, per the ONS. Kennington, Willesborough, Singleton and Kingsnorth are among the places recorded around the town. Children from six and adults up to 67 across the borough join our India-based tutors on live video for Python, coding, AI, vibe coding and maths, taught solo or in a small class of five to ten learners of one level. We start with reasoning, so every learner can judge what a program or a chatbot hands back. Session one is free and finishes with a recommended course. The Ashford project runs a chi-square test in Python on Census household sizes and meets a p-value with 105 zeros after the decimal point, attached to a difference that turns out to be modest. Ongoing lessons cost USD 100 a month in a group or USD 150 a month one-to-one.',
+  capsule: 'Ashford borough counted 132,747 usual residents at the 2021 census. Its largest built-up area, Ashford itself, had 82,140, and Tenterden 7,775, per the ONS. Kennington, Willesborough, Singleton and Kingsnorth are among the places recorded around the town. Children from six and adults up to 67 across the borough join our India-based tutors on live video for Python, coding, AI, vibe coding and maths, taught solo or in a class of fifteen to twenty learners of one level. We start with reasoning, so every learner can judge what a program or a chatbot hands back. Session one is free and finishes with a recommended course. The Ashford project runs a chi-square test in Python on Census household sizes and meets a p-value with 105 zeros after the decimal point, attached to a difference that turns out to be modest. Ongoing lessons cost USD 100 a month in a group or USD 150 a month one-to-one.',
   lead: 'A p-value answers one narrow question: if there were really no difference, how surprising would data like ours be? It does not say how big the difference is, and with enough data even a trivial gap produces a p-value that looks spectacular. Ashford is a good place to see this for yourself. Census 2021 gives the size of all 53,582 households in the borough, and in Python a learner can test whether that mix differs from the rest of England, measure how large the difference really is, and then discover how the verdict changes when only a few hundred households are sampled.',
   wa: 'Hello Modern Age Coders, could we arrange a free Python or coding lesson for a learner in Ashford, Kent?',
 
@@ -165,7 +165,7 @@ module.exports = {
       { h3: 'Learner at the keyboard', p: 'Students write, prompt and run the code themselves; the tutor watches the shared screen and keeps asking for reasons.' },
       { h3: 'Pitched from the trial', p: 'What the free session reveals decides the first topic, and any exam board is recorded.' },
       { h3: 'Nothing to pay first', p: 'The trial lesson is free of charge and ends with our course suggestion.' },
-      { h3: 'Level-matched groups', p: 'A group has five to ten learners from around the UK at the same stage.' },
+      { h3: 'Level-matched groups', p: 'A group has fifteen to twenty learners from around the UK at the same stage.' },
       { h3: 'Two a week', p: 'Lessons stop for school holidays.' },
       { h3: 'Same time all year', p: 'Our tutors adjust for British Summer Time, so your slot does not move.' }
     ],

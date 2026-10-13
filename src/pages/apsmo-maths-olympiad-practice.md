@@ -170,7 +170,7 @@ Our teachers work from India, behind every Australian time zone. A 4 pm lesson i
 
 - **Strategy named** Students say which strategy they chose and why.
 - **Always checked** Every answer is checked against the question.
-- **Groups of five to ten** Children at a similar problem-solving stage.
+- **Groups of fifteen to twenty** Children at a similar problem-solving stage.
 - **One-to-one option** For students who want a faster pace.
 - **Short parent notes** The strategy of the week and a problem to try.
 - **Fair play** We never use or imitate contest papers.
@@ -180,7 +180,7 @@ Our teachers work from India, behind every Australian time zone. A 4 pm lesson i
 Australian families are charged monthly in US dollars, the same rate we use everywhere outside India, with nothing to pay up front and freedom to stop at any month end. APSMO entry is arranged and paid by schools.
 
 - Free first class: USD 0. A real lesson with a teacher. An honest view of problem-solving level. No payment details.
-- Group batch: USD 100 a month. Five to ten students at one stage. The same teacher each week. Solutions discussed in depth. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one stage. The same teacher each week. Solutions discussed in depth. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one student. Paced to suit them. A weekly time you choose.
 
 ## What Australian families ask

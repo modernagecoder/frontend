@@ -414,7 +414,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Free first class', p: 'A baseline scored on real data, in one lesson.' },
-      { h3: 'Small groups', p: 'Five to ten learners reviewing each other\'s reports.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners reviewing each other\'s reports.' },
       { h3: 'One to one', p: 'For one project, at your depth.' },
       { h3: 'Licensed data', p: 'Every dataset\'s licence noted.' },
       { h3: 'Baselines first', p: 'No model without something to beat.' },
@@ -428,7 +428,7 @@ module.exports = {
     h2: 'Fees for AI project lessons',
     lede: 'Learners in Australia pay a monthly fee in US dollars. Joining costs nothing, and lessons may stop at the close of any month.',
     free: ['A baseline on real data', 'A project idea matched to age', 'No payment details'],
-    group: ['Five to ten learners per group', 'Report reviews between learners', 'A regular teacher', 'Stop at any month\'s close'],
+    group: ['Fifteen to twenty learners per group', 'Report reviews between learners', 'A regular teacher', 'Stop at any month\'s close'],
     one: ['One learner\'s own project', 'Depth set by the learner', 'Times around school or work']
   },
   faq: {

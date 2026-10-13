@@ -4,7 +4,7 @@ description: "Coding, AI, Python and vibe coding for learners aged 6 to 67 in Ye
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-yeovil
 source: src/pages/best-coding-and-ai-classes-in-yeovil.html
 ---
-> Yeovil's built-up area had 50,170 usual residents when the 2021 census was taken, on the Office for National Statistics figures. The postcode gazetteer records Preston Plucknett as a suburban area in the BA20 district and Yeovil Marsh and Mudford as villages in BA21, all in Somerset. We offer coding, AI, Python, vibe coding and maths to learners there from age six to 67. Teaching is live, by video, from tutors in India, either privately or in a group of five to ten learners at one level. The aim of every course is that the learner can explain the idea before the machine runs it. There is a free first lesson, and at the end of it we say which course we would pick. Yeovil's project looks at the ground itself: using the heights of 1,204 postcode points, learners measure how fast two places stop being alike as the distance between them grows, and what that does to an AI model's test score. If you carry on, a group seat is USD 100 per month and private tuition USD 150 per month.
+> Yeovil's built-up area had 50,170 usual residents when the 2021 census was taken, on the Office for National Statistics figures. The postcode gazetteer records Preston Plucknett as a suburban area in the BA20 district and Yeovil Marsh and Mudford as villages in BA21, all in Somerset. We offer coding, AI, Python, vibe coding and maths to learners there from age six to 67. Teaching is live, by video, from tutors in India, either privately or in a group of fifteen to twenty learners at one level. The aim of every course is that the learner can explain the idea before the machine runs it. There is a free first lesson, and at the end of it we say which course we would pick. Yeovil's project looks at the ground itself: using the heights of 1,204 postcode points, learners measure how fast two places stop being alike as the distance between them grows, and what that does to an AI model's test score. If you carry on, a group seat is USD 100 per month and private tuition USD 150 per month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South West England](/coding-and-ai-classes-in-south-west-england) / Yeovil
 
@@ -12,11 +12,11 @@ Yeovil, Somerset, South West England / Live online
 
 # Coding and AI classes in Yeovil
 
-**Which are the best coding and AI classes in Yeovil?** Yeovil's built-up area had 50,170 usual residents when the 2021 census was taken, on the Office for National Statistics figures. The postcode gazetteer records Preston Plucknett as a suburban area in the BA20 district and Yeovil Marsh and Mudford as villages in BA21, all in Somerset. We offer coding, AI, Python, vibe coding and maths to learners there from age six to 67. Teaching is live, by video, from tutors in India, either privately or in a group of five to ten learners at one level. The aim of every course is that the learner can explain the idea before the machine runs it. There is a free first lesson, and at the end of it we say which course we would pick. Yeovil's project looks at the ground itself: using the heights of 1,204 postcode points, learners measure how fast two places stop being alike as the distance between them grows, and what that does to an AI model's test score. If you carry on, a group seat is USD 100 per month and private tuition USD 150 per month.
+**Which are the best coding and AI classes in Yeovil?** Yeovil's built-up area had 50,170 usual residents when the 2021 census was taken, on the Office for National Statistics figures. The postcode gazetteer records Preston Plucknett as a suburban area in the BA20 district and Yeovil Marsh and Mudford as villages in BA21, all in Somerset. We offer coding, AI, Python, vibe coding and maths to learners there from age six to 67. Teaching is live, by video, from tutors in India, either privately or in a group of fifteen to twenty learners at one level. The aim of every course is that the learner can explain the idea before the machine runs it. There is a free first lesson, and at the end of it we say which course we would pick. Yeovil's project looks at the ground itself: using the heights of 1,204 postcode points, learners measure how fast two places stop being alike as the distance between them grows, and what that does to an AI model's test score. If you carry on, a group seat is USD 100 per month and private tuition USD 150 per month.
 
 Houses on the same street sit at almost the same height. Houses across town may not. This ordinary fact, that near things are more alike than far things, is the first law of geography, and it causes real trouble in data science. Most statistical tests and most machine learning recipes assume each data point is a fresh, independent piece of evidence. Points on a map are not. A variogram is the tool that measures the problem: it shows how the typical difference between two measurements grows with the distance between them, and where it stops growing. Yeovil, where the postcode heights span almost 90 m, is a good place to draw one.
 
-Facts last verified 30 September 2026. Teaching is online; no Yeovil branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Yeovil branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Yeovil learners begin with
 
@@ -136,7 +136,7 @@ All lessons are video calls. A learner needs a computer, a camera and a reasonab
 - **Learner-led typing** The learner shares a screen and writes the code. The tutor steers by asking questions.
 - **Free first session** It is a real lesson, and we use it to work out which course fits.
 - **Book without paying** No card or deposit is needed for the trial.
-- **Small matched groups** Five to ten learners at one level, joining from across the country.
+- **Small matched groups** Fifteen to twenty learners at one level, joining from across the country.
 - **Twice each week** In school terms, with Somerset holiday weeks skipped when you send the dates.
 - **Your time stays fixed** Tutors move their own schedule at the clock change so yours is untouched.
 
@@ -147,7 +147,7 @@ All lessons are video calls. A learner needs a computer, a camera and a reasonab
 The international fee below is what all learners outside India pay.
 
 - First class: USD 0. Free first lesson, full length, ending in a course suggestion.
-- Group tuition: USD 100 a month. Small group, five to ten learners, close to eight lessons monthly.
+- Group tuition: USD 100 a month. Small group, fifteen to twenty learners, close to eight lessons monthly.
 - Private tuition: USD 150 a month. Your own tutor, close to eight lessons monthly.
 
 We price in US dollars and publish no figure in sterling. Charging starts after the trial, when you have picked a course and a regular time. The pricing page explains holiday breaks, missed lessons and changing between formats.

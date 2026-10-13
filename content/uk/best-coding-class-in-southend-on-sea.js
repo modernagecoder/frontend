@@ -67,7 +67,7 @@ module.exports = {
 
   h1: 'Coding classes in Southend-on-Sea',
   capsuleQ: 'What are the best coding classes in Southend-on-Sea?',
-  capsule: 'At the 2021 census, 180,686 people lived in Southend-on-Sea, at 4,335.6 residents per square kilometre against 433.5 for England as a whole. The council\'s pier website says Southend Pier stretches 1.33 miles into the Thames Estuary, the longest pleasure pier in the world. Learners in Southend-on-Sea aged six to sixty-seven join our teachers in India on live video, either one to one or in a group of five to ten at a matching level, at times that suit British school and working days. The first lesson is free; after it, a group place costs USD 100 a month and private lessons USD 150.',
+  capsule: 'At the 2021 census, 180,686 people lived in Southend-on-Sea, at 4,335.6 residents per square kilometre against 433.5 for England as a whole. The council\'s pier website says Southend Pier stretches 1.33 miles into the Thames Estuary, the longest pleasure pier in the world. Learners in Southend-on-Sea aged six to sixty-seven join our teachers in India on live video, either one to one or in a group of fifteen to twenty at a matching level, at times that suit British school and working days. The first lesson is free; after it, a group place costs USD 100 a month and private lessons USD 150.',
   lead: 'Southend\'s tide gauge reports the water level every fifteen minutes, but high water does not wait for the next reading. Over four weeks of 2026 our teenagers found 56 high tides and asked when each one really peaked. Taking the highest reading is the obvious answer, and a poor one: thin the data to hourly readings and it misses the time found from the full record by a median of 15.2 minutes. Fit a parabola through the top three readings and use its vertex instead, and the median miss falls to 1.0 minute. Then they compare two ways of finding where a curve levels off: Newton\'s method gets there in two steps, bisection in thirteen.',
   wa: 'Hello Modern Age Coders, I would like to arrange a free coding lesson for a learner in Southend-on-Sea.',
 
@@ -193,7 +193,7 @@ module.exports = {
       { h3: 'One class along the shore', p: 'A learner in Eastwood and another in Thorpe Bay can join the same lesson without a trip along the seafront.' },
       { h3: 'English school stages', p: 'Teaching follows the stages used in Southend-on-Sea schools, from Reception and Key Stages 1 to 4 through GCSE and A level, all in English.' },
       { h3: 'A lesson, start to finish', p: 'The free session teaches a real task and ends with our suggested level, course and weekly time. We never ask for card details.' },
-      { h3: 'Levels, not postcodes', p: 'Five to ten learners at the same stage, from Southend-on-Sea, across the UK and abroad, so there are workable times at every level.' },
+      { h3: 'Levels, not postcodes', p: 'Fifteen to twenty learners at the same stage, from Southend-on-Sea, across the UK and abroad, so there are workable times at every level.' },
       { h3: 'Two lessons each week', p: 'Two set lessons weekly, about eight a month, with holidays and exam weeks planned with the teacher in good time.' },
       { h3: 'Late evenings in India', p: 'A 4 pm lesson in Southend-on-Sea starts at 8.30 pm in India during British Summer Time and 9.30 pm in winter, because India stays on one time all year; our teachers arrange their evenings for UK learners.' }
     ],
@@ -204,7 +204,7 @@ module.exports = {
     h2: 'Southend-on-Sea lesson fees',
     intro: 'A free lesson first, then one fee each month.',
     first: 'A full lesson free of charge, ending with advice on level, course and a weekly slot.',
-    group: 'About eight live lessons a month in a class of five to ten learners at the same stage.',
+    group: 'About eight live lessons a month in a class of fifteen to twenty learners at the same stage.',
     private: 'About eight live lessons a month, with the teacher concentrating on your learner alone.',
     closer: 'Prittlewell families are charged in US dollars just like every family outside India, and our site shows no pound prices at all. The free lesson always comes before any bill, and charging begins only when a course and weekly time are settled; the pricing page explains pausing, missed lessons and moving between group and private teaching.'
   },
@@ -229,8 +229,8 @@ module.exports = {
       { q: 'Why is Southend Pier so long?', a: 'Its history page says the pier was first built so boats could reach Southend at all tides, and that the 1830 pier was still too short to use at low tide. It was extended again and again, and now stretches 1.33 miles. We are not connected with the pier.' },
       { q: 'When do Southend-on-Sea lessons run?', a: 'After school, on weekday evenings or at weekends, at a UK time we settle together in the free lesson. India is four and a half hours ahead of Southend-on-Sea in summer and five and a half hours ahead in winter.' },
       { q: 'Can we visit you in Southend-on-Sea?', a: 'No. There is no Southend-on-Sea centre and we have no premises anywhere in the UK, as every lesson is live online. A learner needs a computer with sound and a reliable internet connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do lessons cost for a Southend-on-Sea learner?', a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one lessons on the same timetable cost USD 150 a month. We agree the course, format and time before charging anything.', boiler: true },
-      { q: 'How is a learner\'s group chosen?', a: 'By level, pace and goals rather than age or address, with five to ten learners working at one stage. Where no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'What do lessons cost for a Southend-on-Sea learner?', a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one lessons on the same timetable cost USD 150 a month. We agree the course, format and time before charging anything.', boiler: true },
+      { q: 'How is a learner\'s group chosen?', a: 'By level, pace and goals rather than age or address, with fifteen to twenty learners working at one stage. Where no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

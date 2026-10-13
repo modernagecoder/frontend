@@ -73,7 +73,7 @@ module.exports = {
 
   h1: 'Coding classes in Lichfield',
   capsuleQ: 'What are the best coding classes in Lichfield?',
-  capsule: 'Lichfield district counted 106,436 usual residents at the 2021 census, and Lichfield Central, one of three middle-layer areas named after the city, held 3,097.1 people per square kilometre. The cathedral describes itself as the only English medieval cathedral with three spires. From Lichfield, learners aged six to sixty-seven join our teachers in India on live video, one to one or in a class of five to ten at the same level, at times fitted around the English school and working week. The first lesson is free, and after it a group place is USD 100 a month and one-to-one teaching USD 150.',
+  capsule: 'Lichfield district counted 106,436 usual residents at the 2021 census, and Lichfield Central, one of three middle-layer areas named after the city, held 3,097.1 people per square kilometre. The cathedral describes itself as the only English medieval cathedral with three spires. From Lichfield, learners aged six to sixty-seven join our teachers in India on live video, one to one or in a class of fifteen to twenty at the same level, at times fitted around the English school and working week. The first lesson is free, and after it a group place is USD 100 a month and one-to-one teaching USD 150.',
   lead: 'Two Roman roads met near Lichfield. The Victoria County History records that Ryknild Street ran through what is now the south-east of the city and crossed Watling Street near Wall, where the road was built in the 70s. Ordnance Survey still names stretches of the A38 Rykneld Street and of the A5 Watling Street. Our Lichfield project asks how straight those roads really are, using the Douglas-Peucker algorithm, which throws away every point of a line that it can drop without moving the shape more than a set distance. At 10 metres, it keeps 20 of the 186 points Ordnance Survey uses to draw the A38 here, and 39 of the 292 on the winding A51.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Lichfield.',
 
@@ -196,7 +196,7 @@ module.exports = {
       { h3: 'Town, Close and villages', p: 'A learner in Sandfields and another in Fradley can join the same class without a drive along the A38.' },
       { h3: 'English school stages', p: 'Our levels follow English school years and key stages, and we use GCSE and A level course names; lessons are always in English.' },
       { h3: 'What the free lesson does', p: 'The first session works through a real task and ends with our view of level, course and a regular weekly time. We never ask for a card.' },
-      { h3: 'Classes of one level', p: 'Five to ten learners at the same stage, from Lichfield, the rest of the UK and abroad, which keeps sensible times open for every level.' },
+      { h3: 'Classes of one level', p: 'Fifteen to twenty learners at the same stage, from Lichfield, the rest of the UK and abroad, which keeps sensible times open for every level.' },
       { h3: 'Two lessons every week', p: 'Two fixed lessons a week, around eight a month, with holidays and exam weeks agreed with the teacher beforehand.' },
       { h3: 'Teachers on India time', p: 'A 5 pm lesson in Lichfield begins at 9.30 pm for our teachers in India during British Summer Time and 10.30 pm in winter, as India keeps one time all year; they build their evenings around it.' }
     ],
@@ -207,7 +207,7 @@ module.exports = {
     h2: 'Lichfield lesson fees',
     intro: 'One free lesson first, then a single monthly fee.',
     first: 'A full lesson at no charge, closing with our recommendation of level, course and weekly time.',
-    group: 'About eight live lessons a month, in a class of five to ten learners at one level.',
+    group: 'About eight live lessons a month, in a class of fifteen to twenty learners at one level.',
     private: 'About eight live lessons a month, with the teacher giving your learner their full attention.',
     closer: 'Families in Shenstone or Hammerwich pay in US dollars, like every family outside India, and our site never shows pound prices. Nothing is billed until the free lesson has finished and you have settled on a course and weekly time with us; pausing, missed lessons and switching between a class and one-to-one teaching are all explained on the pricing page.'
   },
@@ -232,8 +232,8 @@ module.exports = {
       { q: 'Why does Lichfield Cathedral have three spires?', a: 'The Victoria County History records that the two west spires and the central spire were probably finished by 1323, and that the central spire fell in the siege of 1646 and was rebuilt by April 1666. The cathedral calls itself the only English medieval cathedral with three spires.' },
       { q: 'When do Lichfield lessons run?', a: 'Lichfield families tend to choose an after-school slot, a weekday evening or a weekend morning, and we fix it during the free lesson. India is four and a half hours ahead of Staffordshire in British Summer Time and five and a half hours ahead in winter, and our teachers plan around it.' },
       { q: 'Is there a centre in Lichfield?', a: 'No. We have no centre in Lichfield or anywhere else in the UK, because all our lessons are live online. Learners need a computer with sound and a dependable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do Lichfield lessons cost?', a: 'The first lesson is free. Then a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same schedule costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are learners placed in classes?', a: 'By level, pace and goals rather than age or address, with five to ten learners at the same stage. If no class fits the learner\'s week, we offer one-to-one lessons instead.', boiler: true }
+      { q: 'What do Lichfield lessons cost?', a: 'The first lesson is free. Then a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same schedule costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are learners placed in classes?', a: 'By level, pace and goals rather than age or address, with fifteen to twenty learners at the same stage. If no class fits the learner\'s week, we offer one-to-one lessons instead.', boiler: true }
     ]
   },
 

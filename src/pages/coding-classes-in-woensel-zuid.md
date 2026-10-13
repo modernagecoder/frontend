@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Woensel-Zuid, Eindhov
 canonical: https://learn.modernagecoders.com/coding-classes-in-woensel-zuid
 source: src/pages/coding-classes-in-woensel-zuid.html
 ---
-> Coding classes in Woensel-Zuid reach a stadsdeel of three statistics office wijken, Oud-Woensel, Erp and Begijnenbroek, all three read, with 42,682 residents in January 2026 on 824 hectares. The encyclopaedia box printed under Woensel-Zuid says 64,790 residents on 18.64 square kilometres, and the box under Woensel-Noord says 42,165 on 8.24. Each box is internally consistent and the two add up exactly to Woensel as a whole, yet 8.24 square kilometres is the area of the three Woensel-Zuid wijken to the hectare. The boxes sit under the wrong headings, and no check that looks only at them can tell. Modern Age Coders teaches live online in English from Limbeek to Hondsheuvels, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Woensel-Zuid reach a stadsdeel of three statistics office wijken, Oud-Woensel, Erp and Begijnenbroek, all three read, with 42,682 residents in January 2026 on 824 hectares. The encyclopaedia box printed under Woensel-Zuid says 64,790 residents on 18.64 square kilometres, and the box under Woensel-Noord says 42,165 on 8.24. Each box is internally consistent and the two add up exactly to Woensel as a whole, yet 8.24 square kilometres is the area of the three Woensel-Zuid wijken to the hectare. The boxes sit under the wrong headings, and no check that looks only at them can tell. Modern Age Coders teaches live online in English from Limbeek to Hondsheuvels, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Eindhoven](/coding-classes-in-eindhoven) / Woensel-Zuid
 
@@ -12,11 +12,11 @@ Woensel-Zuid, Eindhoven / Live online
 
 # Coding classes in Woensel-Zuid, where a record can pass every check and still belong to the neighbours
 
-**What are the best coding classes in Woensel-Zuid, Eindhoven?** Coding classes in Woensel-Zuid reach a stadsdeel of three statistics office wijken, Oud-Woensel, Erp and Begijnenbroek, all three read, with 42,682 residents in January 2026 on 824 hectares. The encyclopaedia box printed under Woensel-Zuid says 64,790 residents on 18.64 square kilometres, and the box under Woensel-Noord says 42,165 on 8.24. Each box is internally consistent and the two add up exactly to Woensel as a whole, yet 8.24 square kilometres is the area of the three Woensel-Zuid wijken to the hectare. The boxes sit under the wrong headings, and no check that looks only at them can tell. Modern Age Coders teaches live online in English from Limbeek to Hondsheuvels, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Woensel-Zuid, Eindhoven?** Coding classes in Woensel-Zuid reach a stadsdeel of three statistics office wijken, Oud-Woensel, Erp and Begijnenbroek, all three read, with 42,682 residents in January 2026 on 824 hectares. The encyclopaedia box printed under Woensel-Zuid says 64,790 residents on 18.64 square kilometres, and the box under Woensel-Noord says 42,165 on 8.24. Each box is internally consistent and the two add up exactly to Woensel as a whole, yet 8.24 square kilometres is the area of the three Woensel-Zuid wijken to the hectare. The boxes sit under the wrong headings, and no check that looks only at them can tell. Modern Age Coders teaches live online in English from Limbeek to Hondsheuvels, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Two small tables of figures sit in the encyclopaedia entry for Woensel, one under the heading Woensel-Zuid and one under Woensel-Noord. Test either of them and it passes: its density is its population divided by its area, its land and water add to its area, and the two tables together add up exactly to the table for Woensel as a whole. They even cite the same source. And they are the wrong way round. The area printed under Woensel-Noord is the area of the three Woensel-Zuid wijken, to the hectare, and the reverse holds too. Every one of the checks above would give exactly the same result if the error were fixed, which is why none of them could ever find it. It is the same reason a plain sum of digits cannot catch two digits swapped in a bank account number, and why the Dutch banks used a test that could.
 
-Facts last verified 11 September 2026. Teaching is online; no Woensel-Zuid branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Woensel-Zuid branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the north side of the centre
 
@@ -184,7 +184,7 @@ Woensel-Zuid starts a few streets from the station and runs north through some o
 - **Nothing to cross, nothing to wait for** Even this close to the centre, a weekly class elsewhere means a bike ride, a wait and a ride home, twice a week. The online lesson begins when the laptop opens at the agreed hour, and that is the only preparation it needs.
 - **The school vocabulary stays Dutch** Groep, havo, vwo and profielkeuze are used exactly as the schools of Woensel use them. A learner hears the words that appear on their own reports, and the teacher adapts to the school rather than the other way round.
 - **An hour of teaching, not selling** The free lesson is a lesson: a real task, worked through with a teacher who is watching how the learner thinks. It finishes with a level, a course and a regular time, and it asks for no payment details at any point.
-- **Classmates matched on stage** Five to ten learners at the same point in the same subject. Woensel-Zuid has 4,905 residents under fifteen, and still the chance of five at one exact stage wanting one exact hour is small, so groups are drawn from a worldwide pool.
+- **Classmates matched on stage** Fifteen to twenty learners at the same point in the same subject. Woensel-Zuid has 4,905 residents under fifteen, and still the chance of five at one exact stage wanting one exact hour is small, so groups are drawn from a worldwide pool.
 - **Brabant holidays, regio Zuid** Two lessons a week, around eight a month, at one fixed time. Noord-Brabant takes regio Zuid school holidays, on dates that differ from the west of the country, and the plan follows them from the first month.
 - **The time gap, both seasons** India is three and a half hours ahead of Eindhoven in summer and four and a half in winter, and only the Dutch clock ever moves. After school, the early evening and weekend mornings stay available all year round.
 
@@ -195,7 +195,7 @@ Woensel-Zuid starts a few streets from the station and runs north through some o
 Stated in full, so nothing depends on a conversation first.
 
 - First class: USD 0. A complete lesson with a real task, a placement and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One dollar price for every country and no euro version, so a rented flat in Limbeek and an owned house in Eckartdal see the same number. Nothing is paid until the free lesson has fixed a course and a weekly hour, and payment is then arranged over WhatsApp. Pausing, switching format and missed lessons are each explained on the pricing page.
@@ -236,7 +236,7 @@ No, and none is claimed here, elsewhere in Eindhoven or anywhere in the Netherla
 
 ### What do Woensel-Zuid coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

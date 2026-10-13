@@ -317,7 +317,7 @@ module.exports = {
       { h3: 'Simple setup', p: 'A computer with a microphone and a steady internet connection.' },
       { h3: 'NSW school year', p: 'Plans match NSW stages and take breaks during the state school holidays.' },
       { h3: 'Trial lesson', p: 'The first class is free and ends with a recommended course and timetable.' },
-      { h3: 'Groups or private', p: 'Level-matched groups of five to ten, or one-to-one lessons.' },
+      { h3: 'Groups or private', p: 'Level-matched groups of fifteen to twenty, or one-to-one lessons.' },
       { h3: 'Twice a week', p: 'Two fixed lessons a week, about eight a month, with breaks agreed in advance.' },
       { h3: 'Teachers in India', p: 'A 7pm Bankstown lesson in summer starts at 1:30pm India time; once daylight saving ends it starts at 2:30pm there.' }
     ],
@@ -330,7 +330,7 @@ module.exports = {
     h2: 'Bankstown class fees',
     intro: 'The full price fits in three lines.',
     first: 'The first lesson is free and includes advice on the right course.',
-    group: 'A month of group lessons, normally eight, with five to ten learners.',
+    group: 'A month of group lessons, normally eight, with fifteen to twenty learners.',
     private: 'About eight lessons a month with a teacher to yourself.',
     closer: 'Families outside India pay in US dollars, the same for every suburb. Nothing is charged until the course and times are settled after the trial; the pricing page covers holidays and absences.'
   },
@@ -373,10 +373,10 @@ module.exports = {
       },
       {
         q: 'How much are AI classes in Bankstown?',
-        a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one.',
+        a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one.',
         boiler: true
       },
-      { q: 'What is the group size?', a: 'Five to ten learners, matched by level and pace. One-to-one lessons are offered if no group suits.', boiler: true }
+      { q: 'What is the group size?', a: 'Fifteen to twenty learners, matched by level and pace. One-to-one lessons are offered if no group suits.', boiler: true }
     ]
   },
   next: {

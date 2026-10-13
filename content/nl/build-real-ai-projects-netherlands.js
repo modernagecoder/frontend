@@ -54,7 +54,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Modern Age Coders teaches learners in the Netherlands to build AI and data projects on real Dutch open data, live online. Learners fetch data from CBS StatLine, the KNMI Data Platform and the government data register, clean it, model it and publish the result with its licence, its limits and its sources written down. Teenagers usually start once they can write Python; students and adults can start at any rung. Groups hold five to ten learners at one level, or lessons are one to one. The opening lesson is free; after it a group place is USD 100 a month and one-to-one lessons USD 150.',
+  capsule: 'Modern Age Coders teaches learners in the Netherlands to build AI and data projects on real Dutch open data, live online. Learners fetch data from CBS StatLine, the KNMI Data Platform and the government data register, clean it, model it and publish the result with its licence, its limits and its sources written down. Teenagers usually start once they can write Python; students and adults can start at any rung. Groups hold fifteen to twenty learners at one level, or lessons are one to one. The opening lesson is free; after it a group place is USD 100 a month and one-to-one lessons USD 150.',
 
   picks: {
     eyebrow: 'Start here',
@@ -183,7 +183,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free project lesson', p: 'The first lesson starts a small project on real data, so both learner and teacher see how the learner works before anything is decided.' },
-      { h3: 'Groups of five to ten', p: 'Learners at the same level, often working on different projects with the same data sources, which makes for useful comparison.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners at the same level, often working on different projects with the same data sources, which makes for useful comparison.' },
       { h3: 'One to one for big projects', p: 'For a school profile project, a thesis, a portfolio piece for an application, or an adult\'s work-related project.' },
       { h3: 'Code seen as it is written', p: 'Shared screens mean the teacher catches a wrong join or a missed licence line while it is still easy to fix.' },
       { h3: 'English, with Dutch data', p: 'Lessons are in English, while the data itself often has Dutch column names; learners get used to working across both.' },
@@ -199,7 +199,7 @@ module.exports = {
     h2: 'Fees for project learners',
     lede: 'Charged monthly in US dollars, the same in every country outside India. There is no separate project fee, no enrolment charge and no annual contract. Copilot Studio courses, which are taught one to one only, use the one-to-one rate.',
     free: ['A real project lesson', 'Places you at the right rung', 'No card needed'],
-    group: ['Five to ten learners at one level', 'The same live teacher throughout', 'Project work reviewed weekly', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same live teacher throughout', 'Project work reviewed weekly', 'A certificate at the end'],
     one: ['A teacher for your project alone', 'Pace set by your deadline', 'Right for theses and portfolios']
   },
 

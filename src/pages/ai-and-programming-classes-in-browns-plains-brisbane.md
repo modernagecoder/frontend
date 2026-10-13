@@ -16,7 +16,7 @@ Browns Plains, City of Logan, Greater Brisbane, Queensland / Live online
 
 A model cannot read the words "Browns Plains station, stop 1A". It needs numbers. One fast trick, feature hashing, turns any code into a slot number with no lookup table at all. The price is that two codes can land in the same slot. Using the stop and route codes of Browns Plains, we counted exactly how often.
 
-Facts last verified 12 October 2026. Teaching is online; no Browns Plains branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Browns Plains branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that explain what models eat
 
@@ -184,7 +184,7 @@ Lessons are live on video, so learners join from home anywhere in the suburb.
 - **Code side by side** The learner runs the code; the teacher reads the output with them and questions it.
 - **Queensland calendar** Plans match state school terms, with holidays left free.
 - **Trial first** A full free lesson, finished with a frank recommendation.
-- **Five to ten learners** Groups formed by level and pace, or private lessons instead.
+- **Fifteen to twenty learners** Groups formed by level and pace, or private lessons instead.
 - **Two lessons each week** Fixed weekly times, around eight lessons a month.
 - **India time** With our teachers in India, a 6:30pm Browns Plains lesson starts at 2pm India time, all year.
 
@@ -195,7 +195,7 @@ Lessons are live on video, so learners join from home anywhere in the suburb.
 A single list of three prices.
 
 - First class: USD 0. Lesson one is free, with a written next step at the end.
-- Group tuition: USD 100 a month. Group lessons: about eight a month with five to ten learners of matching level.
+- Group tuition: USD 100 a month. Group lessons: about eight a month with fifteen to twenty learners of matching level.
 - Private tuition: USD 150 a month. Private lessons: about eight a month with one teacher.
 
 Families in Browns Plains pay in US dollars after the trial, when a course and time have been agreed. The pricing page covers holidays, absences and format changes.
@@ -232,11 +232,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Browns Plains learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Do group classes cover Copilot Studio?
 

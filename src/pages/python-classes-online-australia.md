@@ -218,7 +218,7 @@ Our India-based teachers cover Australian after-school hours, evenings and weeke
 - **Weekend** Longer project sessions.
 
 - **Free first class** A first Python program, whatever your age.
-- **Age-matched groups** Five to ten learners of a similar age and stage.
+- **Age-matched groups** Fifteen to twenty learners of a similar age and stage.
 - **One to one** For a goal, an exam or a project.
 - **Real data** Public Australian data in projects from the teens up.
 - **Tests early** Edge cases checked before code is called done.
@@ -229,7 +229,7 @@ Our India-based teachers cover Australian after-school hours, evenings and weeke
 Python learners in Australia are charged monthly in US dollars, with no enrolment fee and freedom to stop at the end of any month.
 
 - Free first class: USD 0. A first Python program. A recommended course and level. No card details.
-- Group batch: USD 100 a month. Five to ten learners, matched by age. Shared code reviews. A regular teacher. Stop at the end of any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners, matched by age. Shared code reviews. A regular teacher. Stop at the end of any month.
 - One to one: USD 150 a month. Python around one learner's goal. Pace and depth to suit. Times around school or work.
 
 ## Questions about Python classes online in Australia

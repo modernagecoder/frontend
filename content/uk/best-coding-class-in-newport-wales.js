@@ -191,7 +191,7 @@ module.exports = {
       { h3: 'East and west of the Usk', p: 'A learner in St Julians and another in Rogerstone can share the same class without either crossing a bridge.' },
       { h3: 'Years 1 to 13 in Wales', p: 'We follow Welsh school years, the Curriculum for Wales and WJEC GCSE and A level course names, and every lesson is taught in English.' },
       { h3: 'A lesson that shows the way', p: 'The free session teaches a real task and finishes with a proposed level, course and weekly time, with no card details needed.' },
-      { h3: 'Right-sized groups', p: 'Five to ten learners at one stage, drawn from Newport, the rest of Britain and overseas, so every level has a time that works.' },
+      { h3: 'Right-sized groups', p: 'Fifteen to twenty learners at one stage, drawn from Newport, the rest of Britain and overseas, so every level has a time that works.' },
       { h3: 'Two sessions a week', p: 'A regular pair of weekly lessons, around eight a month, with holidays and exam periods arranged with the teacher ahead of time.' },
       { h3: 'Newport afternoon, India evening', p: 'A 4.30 pm class in Newport begins at 9 pm in India in summer and 10 pm in winter, since India never changes its clocks, and our teachers keep those evening hours for UK learners.' }
     ],
@@ -202,7 +202,7 @@ module.exports = {
     h2: 'Newport lesson fees',
     intro: 'A free first lesson, followed by a single monthly fee.',
     first: 'A full lesson at no charge, closing with a suggested level, course and weekly slot.',
-    group: 'Roughly eight live lessons a month in a group of five to ten learners at one stage.',
+    group: 'Roughly eight live lessons a month in a group of fifteen to twenty learners at one stage.',
     private: 'Roughly eight live lessons a month, taught to your learner alone.',
     closer: 'Whether you live in Allt-yr-yn or Alway, the fee is the same US dollar amount charged to every family outside India, and no price on our site is in pounds. We send no bill until the free lesson has agreed a course and a lesson time; the pricing page deals with pausing, missed lessons and changes between group and private teaching.'
   },
@@ -227,8 +227,8 @@ module.exports = {
       { q: 'What is the Newport Ship?', a: 'A fifteenth-century merchant vessel found in 2002 during building work on the Riverfront arts centre, according to the Friends of the Newport Ship, preserved in river sediment for around 532 years. We are not connected with the Friends.' },
       { q: 'When are Newport lessons timetabled?', a: 'After school, in the evening or at weekends, at a UK time we fix together in the free lesson. India is four and a half hours ahead of Newport in summer and five and a half in winter.' },
       { q: 'Is there a Modern Age Coders centre in Newport?', a: 'No. We have no centre in Newport and no premises anywhere in the UK; all our teaching is live online. A learner needs a computer with sound and a steady connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do Newport lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
-      { q: 'How are Newport groups formed?', a: 'By level, pace and goals rather than age or postcode, with five to ten learners at one stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do Newport lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
+      { q: 'How are Newport groups formed?', a: 'By level, pace and goals rather than age or postcode, with fifteen to twenty learners at one stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

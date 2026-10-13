@@ -245,7 +245,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'We look at where you are, what you want and which route fits.' },
-      { h3: 'Groups of five to ten', p: 'University students at the same level, from the UK and elsewhere.' },
+      { h3: 'Groups of fifteen to twenty', p: 'University students at the same level, from the UK and elsewhere.' },
       { h3: 'One to one', p: 'For a faster pace or a specific interview deadline.' },
       { h3: 'Projects you choose', p: 'The portfolio is built from your interests, not a fixed template.' },
       { h3: 'Code read closely', p: 'A teacher reads your program and explains exactly what to improve.' },
@@ -261,7 +261,7 @@ module.exports = {
     h2: 'Fees for university students',
     lede: 'One monthly fee in US dollars, identical in every country outside India, with no enrolment fee and no commitment beyond the month, so a heavy term or exam season never locks you in.',
     free: ['A look at your level and goals', 'A route suggested for your year and subject', 'No payment details needed'],
-    group: ['Five to ten students at one level', 'The same teacher each week', 'Project and interview practice', 'Stop at the end of any month'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher each week', 'Project and interview practice', 'Stop at the end of any month'],
     one: ['A teacher for you alone', 'Paced around your deadlines', 'Suits a specific interview date']
   },
 

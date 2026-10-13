@@ -181,7 +181,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, same teacher every week
+- Fifteen to twenty students, same teacher every week
 - Live video, never a recording
 - Build work between sessions, reviewed by the teacher
 - Certificate on completion
@@ -300,7 +300,7 @@ A fair worry with an unusually clean answer: much of AI literacy is discussion, 
 
 ### What do AI literacy classes cost?
 
-The same as every live course we run: USD 100 a month for a group batch of five to eight students, USD 150 a month one to one, flat across every country we serve outside India, monthly, with no joining fee. The first class is free without a card, and for this track it includes the fooled-then-taught moment described on this page, which tends to settle the decision either way.
+The same as every live course we run: USD 100 a month for a group batch of fifteen to twenty students, USD 150 a month one to one, flat across every country we serve outside India, monthly, with no joining fee. The first class is free without a card, and for this track it includes the fooled-then-taught moment described on this page, which tends to settle the decision either way.
 
 ### How do we begin?
 

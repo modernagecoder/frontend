@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Hereford lear
 canonical: https://learn.modernagecoders.com/best-coding-class-in-hereford
 source: src/pages/best-coding-class-in-hereford.html
 ---
-> Herefordshire had 187,034 usual residents at the 2021 census, spread at just 85.8 people per square kilometre against 433.5 for England. Hereford Cathedral says its Mappa Mundi, made around 1300 on a single sheet of calf-skin vellum, places Jerusalem at the centre of the world. With us, a Hereford learner of any age from six to sixty-seven has live video lessons with a teacher in India, alone or in a group of five to ten at the same level, at times fitted around the UK day. The first lesson costs nothing; then a group place is USD 100 a month and one-to-one teaching USD 150.
+> Herefordshire had 187,034 usual residents at the 2021 census, spread at just 85.8 people per square kilometre against 433.5 for England. Hereford Cathedral says its Mappa Mundi, made around 1300 on a single sheet of calf-skin vellum, places Jerusalem at the centre of the world. With us, a Hereford learner of any age from six to sixty-seven has live video lessons with a teacher in India, alone or in a group of fifteen to twenty at the same level, at times fitted around the UK day. The first lesson costs nothing; then a group place is USD 100 a month and one-to-one teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Hereford
 
@@ -12,11 +12,11 @@ Hereford, Herefordshire / Live online
 
 # Coding classes in Hereford
 
-**What are the best coding classes in Hereford?** Herefordshire had 187,034 usual residents at the 2021 census, spread at just 85.8 people per square kilometre against 433.5 for England. Hereford Cathedral says its Mappa Mundi, made around 1300 on a single sheet of calf-skin vellum, places Jerusalem at the centre of the world. With us, a Hereford learner of any age from six to sixty-seven has live video lessons with a teacher in India, alone or in a group of five to ten at the same level, at times fitted around the UK day. The first lesson costs nothing; then a group place is USD 100 a month and one-to-one teaching USD 150.
+**What are the best coding classes in Hereford?** Herefordshire had 187,034 usual residents at the 2021 census, spread at just 85.8 people per square kilometre against 433.5 for England. Hereford Cathedral says its Mappa Mundi, made around 1300 on a single sheet of calf-skin vellum, places Jerusalem at the centre of the world. With us, a Hereford learner of any age from six to sixty-seven has live video lessons with a teacher in India, alone or in a group of fifteen to twenty at the same level, at times fitted around the UK day. The first lesson costs nothing; then a group place is USD 100 a month and one-to-one teaching USD 150.
 
 The Met Office has recorded temperatures at Ross-on-Wye, in Herefordshire, every month since December 1930. Any single month can be two degrees warmer or colder than usual for no lasting reason. So how warm is Herefordshire really, underneath that noise? Our teenagers build a Kalman filter, the method that guides spacecraft and phones, which keeps a running estimate and nudges it by just the right amount each month. Tuned on the data itself, it trusts each new month only 6% of the way. Its answer: in December 2025 the underlying temperature stood 1.87 degrees above the station's 1961 to 1990 average, give or take 0.67, against 0.79 below it around January 1963.
 
-Facts last verified 23 September 2026. Teaching is online; no Hereford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Hereford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the Wye city
 
@@ -172,7 +172,7 @@ Herefordshire is large and rural, with a city at its centre and market towns spr
 - **City and market towns** A learner in Hereford and another near Kington can share a class, with no long journey on country roads.
 - **Matched to school years** Herefordshire pupils will recognise our levels, which follow the English curriculum from the early years right up to GCSE and A level, taught entirely in English.
 - **Teaching from lesson one** Nothing about the free session is a sales pitch: the learner tackles a proper task, then we recommend a level, a course and a regular time, all without card details.
-- **Classmates at your stage** Each class brings together five to ten learners at the same point, from Herefordshire, the rest of Britain and further afield, which keeps sensible times open at every level.
+- **Classmates at your stage** Each class brings together fifteen to twenty learners at the same point, from Herefordshire, the rest of Britain and further afield, which keeps sensible times open at every level.
 - **Same days, every week** Learners keep two fixed lesson days a week, close to eight lessons a month, and families and teachers agree early how to handle half terms and exam weeks.
 - **Evening across two clocks** When a lesson starts at 5 pm in Hereford it is 9.30 pm for our teachers in summer and 10.30 pm in winter, as India keeps one time all year; they plan their evenings for UK learners.
 
@@ -183,7 +183,7 @@ Herefordshire is large and rural, with a city at its centre and market towns spr
 The first lesson is free; after that there is one monthly fee.
 
 - First class: USD 0. A whole lesson at no charge, ending with our suggestion for level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month, in a group of five to ten learners at the same stage.
+- Group tuition: USD 100 a month. About eight live lessons a month, in a group of fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. About eight live lessons a month, with the teacher working with your learner alone.
 
 Families in Ross-on-Wye or the Golden Valley pay in US dollars, like every family outside India, and there is no pound price anywhere on our site. There is no bill until after the free lesson and the choice of a course and weekly time; how pauses, missed lessons and switches between group and one-to-one teaching work is set out on the pricing page.
@@ -224,11 +224,11 @@ No. We have no Hereford centre and no UK premises, because every lesson is live 
 
 ### What do lessons cost for a Hereford learner?
 
-The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one teaching on the same timetable is USD 150 a month. Nothing is charged before the course, format and time are agreed.
+The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one teaching on the same timetable is USD 150 a month. Nothing is charged before the course, format and time are agreed.
 
 ### How are learners placed in groups?
 
-By level, pace and goals rather than age or address, with five to ten learners at one stage. If no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than age or address, with fifteen to twenty learners at one stage. If no group fits the learner's week, one-to-one lessons are offered.
 
 ## The Marches and beyond
 

@@ -16,7 +16,7 @@ City of Wanneroo, outer north of Perth, Western Australia / Live online
 
 The City of Wanneroo covers about 683 square kilometres of Perth's outer north, from Girrawheen and Koondoola in the south to Yanchep and Two Rocks in the north. It is growing fast, with a median age of 35 at the 2021 Census, and its main roads carry heavy commuter traffic toward the city. Their published counts are real, and so are their gaps.
 
-Facts last verified 12 October 2026. Teaching is online; no Wanneroo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Wanneroo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python, from first programs to robust scripts
 
@@ -176,7 +176,7 @@ Classes are taught live over video, which spares families the long drives of the
 - **Teacher present** Each lesson is live, with code checked while learners type.
 - **Term-based** Lessons line up with WA school terms and stop for holidays.
 - **Try it first** A free trial lesson leads to a written plan.
-- **Group options** Five to ten learners per level, or private sessions.
+- **Group options** Fifteen to twenty learners per level, or private sessions.
 - **Regular schedule** Two sessions every week, around eight a month.
 - **India hours** A 5pm Wanneroo session starts at 2:30pm Indian time.
 
@@ -187,7 +187,7 @@ Classes are taught live over video, which spares families the long drives of the
 All learners pay the same fees.
 
 - First class: USD 0. No fee for the first lesson, which comes with a plan.
-- Group tuition: USD 100 a month. Groups: roughly eight lessons a month, five to ten learners.
+- Group tuition: USD 100 a month. Groups: roughly eight lessons a month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private: roughly eight lessons a month with one teacher.
 
 Fees are billed in US dollars and start only when the trial has set the course and a regular weekly time. Holiday and missed-lesson details are on the pricing page.
@@ -224,11 +224,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Wanneroo classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How are groups arranged?
 
-By level and pace, five to ten learners, not by age or suburb. One-to-one lessons are available when no group time fits.
+By level and pace, fifteen to twenty learners, not by age or suburb. One-to-one lessons are available when no group time fits.
 
 ### Can adults learn Python here?
 

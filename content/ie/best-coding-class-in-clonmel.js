@@ -177,7 +177,7 @@ module.exports = {
     intro: 'The practical side, in six lines.',
     cells: [
       { h3: 'Live lessons', p: 'A teacher on the call for the full hour, responding to what the learner does.' },
-      { h3: 'Level-matched groups', p: 'Five to ten learners at the same stage, joining from Clonmel, around Ireland and abroad.' },
+      { h3: 'Level-matched groups', p: 'Fifteen to twenty learners at the same stage, joining from Clonmel, around Ireland and abroad.' },
       { h3: 'Two a week, most weeks', p: 'About eight lessons a month, at an hour agreed when the course begins.' },
       { h3: 'School year', p: 'Holidays and exam weeks are planned into the timetable before it starts.' },
       { h3: 'What to bring', p: 'A computer that can run a video call for an hour, sound you can hear, and a microphone that works.' },
@@ -190,7 +190,7 @@ module.exports = {
     h2: 'Clonmel class fees',
     intro: 'What it costs.',
     first: 'The first lesson, taught in full and assessed, at no charge.',
-    group: 'A month in a group of five to ten at one level, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, about eight live lessons.',
     private: 'A month of private lessons on the same weekly pattern.',
     closer: 'One monthly price, in US dollars, for every household outside India, with no euro version shown beside it. Billing begins with the first paid month, once the free lesson has fixed what will be taught and when, and the pricing page covers the exceptions: holidays, absences and a change from group to private teaching or back.'
   },
@@ -215,7 +215,7 @@ module.exports = {
       { q: 'Do you teach adults in Clonmel?', a: 'Yes, up to sixty-seven. Plenty of adults start from nothing, and the free lesson settles whether they join a group or learn one to one.' },
       { q: 'Which hospital is 2.3 km from Clonmel residents?', a: 'The table does not say. It publishes distances to the nearest facility of each type without naming the facility, so this page does not attribute the figure to any particular hospital.' },
       { q: 'Is there a Modern Age Coders classroom in Clonmel?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Clonmel cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Clonmel cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

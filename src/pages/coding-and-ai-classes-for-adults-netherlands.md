@@ -8,7 +8,7 @@ source: src/pages/coding-and-ai-classes-for-adults-netherlands.html
 
 In short
 
-Modern Age Coders teaches coding, data and AI live online to adults in the Netherlands. Most start with one of three goals: using AI tools and data confidently at work, automating repetitive tasks with Python, or moving into a technical career. Each learner is placed by what they can already do, in a group of five to ten at the same level or one to one, and every lesson is taught in English by a live teacher, in the evening or at the weekend. The first lesson is free; after that a group place is USD 100 a month and one-to-one lessons USD 150.
+Modern Age Coders teaches coding, data and AI live online to adults in the Netherlands. Most start with one of three goals: using AI tools and data confidently at work, automating repetitive tasks with Python, or moving into a technical career. Each learner is placed by what they can already do, in a group of fifteen to twenty at the same level or one to one, and every lesson is taught in English by a live teacher, in the evening or at the weekend. The first lesson is free; after that a group place is USD 100 a month and one-to-one lessons USD 150.
 
 Start here
 
@@ -229,7 +229,7 @@ For adults between jobs, on parental leave or working shifts, where a teacher is
 
 You work on a real task while the teacher sees how you approach it. By the end you both know the right starting point and path.
 
-### Groups of five to ten
+### Groups of fifteen to twenty
 
 Adults from several countries at the same level, often at similar points in their careers, which makes for good discussion.
 

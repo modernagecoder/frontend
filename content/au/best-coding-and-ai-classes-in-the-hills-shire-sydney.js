@@ -342,7 +342,7 @@ module.exports = {
       },
       { h3: 'NSW-aligned', p: 'Plans follow the NSW stages and terms, stop for state school holidays and can support senior computing and maths subjects.' },
       { h3: 'A free real lesson', p: 'The trial teaches genuine content. At the end the teacher proposes a course, level and time, and no payment is taken.' },
-      { h3: 'Five to ten per group', p: 'Groups are formed by level and pace, combining Hills learners with others, so nobody is held back or rushed.' },
+      { h3: 'Fifteen to twenty per group', p: 'Groups are formed by level and pace, combining Hills learners with others, so nobody is held back or rushed.' },
       { h3: 'Regular lessons', p: 'Two lessons a week at a set time, about eight a month, with breaks for holidays arranged in advance.' },
       { h3: 'Teachers in India', p: 'A 4:30pm lesson in The Hills during daylight saving starts at 11am India time; in winter it starts at noon there.' }
     ],
@@ -355,7 +355,7 @@ module.exports = {
     h2: 'What The Hills Shire learners pay',
     intro: 'No hidden extras, just three figures.',
     first: 'A first lesson free of charge, with a suggested course and time to follow.',
-    group: 'A month of group lessons, generally eight, alongside five to ten learners at one level.',
+    group: 'A month of group lessons, generally eight, alongside fifteen to twenty learners at one level.',
     private: 'About eight one-to-one lessons a month.',
     closer: 'We bill in US dollars outside India, so the price is identical across the shire and there is no Hills price list. Charges begin after the trial has agreed a course and a time; the pricing page explains holidays, missed lessons and changing between group and private lessons.'
   },
@@ -401,12 +401,12 @@ module.exports = {
       },
       {
         q: 'How much do coding classes cost in The Hills?',
-        a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for one-to-one lessons on the same schedule. Course, format and time are settled before any payment.',
+        a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for one-to-one lessons on the same schedule. Course, format and time are settled before any payment.',
         boiler: true
       },
       {
         q: 'How are groups formed?',
-        a: 'Groups have five to ten learners matched by level, pace and goals rather than age or location. If no group fits, one-to-one lessons are available.',
+        a: 'Groups have fifteen to twenty learners matched by level, pace and goals rather than age or location. If no group fits, one-to-one lessons are available.',
         boiler: true
       }
     ]

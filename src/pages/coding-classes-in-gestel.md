@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Gestel, Eindhoven for
 canonical: https://learn.modernagecoders.com/coding-classes-in-gestel
 source: src/pages/coding-classes-in-gestel.html
 ---
-> Coding classes in Gestel reach a stadsdeel of three statistics office wijken, Rozenknopje, Oud-Gestel and Gestelse Ontginning, all three read, with 28,334 residents in January 2026. Oud-Gestel has 2,296 owner-occupied dwellings and Gestelse Ontginning 2,290, six apart. As shares they are 33 percent of 6,958 dwellings and 62 percent of 3,694: a gap of 29 percentage points, which is also 88 percent more, 47 percent fewer, or odds of owning 3.3 times as high. Every one of those is true, and only the first is the same in both directions. Modern Age Coders teaches live online in English from Hanevoet to the Schrijversbuurt, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Gestel reach a stadsdeel of three statistics office wijken, Rozenknopje, Oud-Gestel and Gestelse Ontginning, all three read, with 28,334 residents in January 2026. Oud-Gestel has 2,296 owner-occupied dwellings and Gestelse Ontginning 2,290, six apart. As shares they are 33 percent of 6,958 dwellings and 62 percent of 3,694: a gap of 29 percentage points, which is also 88 percent more, 47 percent fewer, or odds of owning 3.3 times as high. Every one of those is true, and only the first is the same in both directions. Modern Age Coders teaches live online in English from Hanevoet to the Schrijversbuurt, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Eindhoven](/coding-classes-in-eindhoven) / Gestel
 
@@ -12,11 +12,11 @@ Gestel, Eindhoven / Live online
 
 # Coding classes in Gestel, where the same gap is six homes, 29 points or 88 percent
 
-**What are the best coding classes in Gestel, Eindhoven?** Coding classes in Gestel reach a stadsdeel of three statistics office wijken, Rozenknopje, Oud-Gestel and Gestelse Ontginning, all three read, with 28,334 residents in January 2026. Oud-Gestel has 2,296 owner-occupied dwellings and Gestelse Ontginning 2,290, six apart. As shares they are 33 percent of 6,958 dwellings and 62 percent of 3,694: a gap of 29 percentage points, which is also 88 percent more, 47 percent fewer, or odds of owning 3.3 times as high. Every one of those is true, and only the first is the same in both directions. Modern Age Coders teaches live online in English from Hanevoet to the Schrijversbuurt, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Gestel, Eindhoven?** Coding classes in Gestel reach a stadsdeel of three statistics office wijken, Rozenknopje, Oud-Gestel and Gestelse Ontginning, all three read, with 28,334 residents in January 2026. Oud-Gestel has 2,296 owner-occupied dwellings and Gestelse Ontginning 2,290, six apart. As shares they are 33 percent of 6,958 dwellings and 62 percent of 3,694: a gap of 29 percentage points, which is also 88 percent more, 47 percent fewer, or odds of owning 3.3 times as high. Every one of those is true, and only the first is the same in both directions. Modern Age Coders teaches live online in English from Hanevoet to the Schrijversbuurt, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Two wijken of Gestel sit side by side along the Gender and the Dommel, and they differ sharply in who owns their homes. Ask how sharply and there is no single answer. They hold almost exactly the same number of owner-occupied dwellings. As a share, one has 29 percentage points more. As a ratio, one has 88 percent more owners, which is the same fact as the other having 47 percent fewer, and on the renting side the same gap becomes 76 percent more renters. Put as odds, the kind of figure a statistical model prints, it is 3.3 times. None of these is a mistake. The mistake is to report one of them without saying which, because a reader cannot convert between them in their head, and whoever chose the framing chose the impression.
 
-Facts last verified 10 September 2026. Teaching is online; no Gestel branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 September 2026. Teaching is online; no Gestel branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the south-west of Eindhoven
 
@@ -185,7 +185,7 @@ Gestel runs from streets a few minutes from the station out to the Genneper Park
 - **The lesson comes to the table** From Hanevoet or Blaarthem any classroom is a trip across the city, and twice a week that trip is what quietly ends a habit. Online, the learner opens a laptop at the agreed hour and the travel time becomes part of the evening again.
 - **Dutch school terms, left as they are** Groep, havo, vwo and profielkeuze are used untranslated in class. They are the words on every school report a child in Gestel brings home, so the teacher uses them too and nothing is lost in a translation that was never needed.
 - **The first hour teaches, and only teaches** A learner in the free lesson works on a genuine task while the teacher watches how they approach it. By the end there is a level, a course that fits it and a weekly slot, and no payment details have been asked for.
-- **Groups set by stage, from anywhere** Five to ten learners who are at the same point in the same subject. Gestel holds 3,435 children under fifteen, yet the chance of five of them sitting at one precise stage and free at one precise hour is small, so groups are drawn from a worldwide pool.
+- **Groups set by stage, from anywhere** Fifteen to twenty learners who are at the same point in the same subject. Gestel holds 3,435 children under fifteen, yet the chance of five of them sitting at one precise stage and free at one precise hour is small, so groups are drawn from a worldwide pool.
 - **The calendar follows regio Zuid** Two lessons a week, around eight a month, at a fixed hour. Brabant schools take regio Zuid holidays, which do not line up with the west of the country, and the teaching calendar is built around them from the start.
 - **Summer and winter, one clock moves** The teachers in India are three and a half hours ahead of Gestel in summer and four and a half in winter, since only the Dutch clock changes. Late afternoon, early evening and weekend mornings are available all year.
 
@@ -196,7 +196,7 @@ Gestel runs from streets a few minutes from the station out to the Genneper Park
 The whole fee is on the page, with nothing held back for later.
 
 - First class: USD 0. A full taught lesson that ends with a placement and a named course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 Every country pays the same dollar amount and there is no separate euro price, so a rented flat in Oud-Gestel and an owned house in Gestelse Ontginning see the same number. Nothing is paid until the free lesson has settled a course and a weekly hour, and payment is then made over WhatsApp. Pausing, switching format and missed lessons are all explained on the pricing page.
@@ -237,7 +237,7 @@ No, and none is claimed here, elsewhere in Eindhoven or anywhere in the Netherla
 
 ### What do Gestel coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

@@ -193,7 +193,7 @@ Our tutors work from India. From early October to early April, while NSW runs on
 - **Ideas before rules** Each new technique starts with why it works, so it survives a question worded in an unfamiliar way.
 - **Working shown in full** Students practise setting out solutions the way markers read them, line by line.
 - **Timed practice** Past-style items done against a minutes-per-mark budget, then reviewed together.
-- **Groups of five to ten** Advanced students at a matching level, each one asked to explain their reasoning aloud.
+- **Groups of fifteen to twenty** Advanced students at a matching level, each one asked to explain their reasoning aloud.
 - **Private sessions** One student, one tutor, for a focus area that needs repair.
 - **Honest about outcomes** We never promise a band. The marks are earned by the student.
 
@@ -202,7 +202,7 @@ Our tutors work from India. From early October to early April, while NSW runs on
 A single monthly fee in US dollars, the same for every family outside India. Nothing to join and nothing owed beyond the month in progress.
 
 - Free first class: USD 0. A real lesson on a real topic. A frank view of the gaps. No card needed.
-- Group batch: USD 100 a month. Five to ten students at one level. The same tutor each week. Practice marked and discussed. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same tutor each week. Practice marked and discussed. A certificate at the end.
 - One to one: USD 150 a month. One tutor, one student. Aimed at named weak spots. Useful in the run-up to trials.
 
 ## What NSW students and parents ask

@@ -253,7 +253,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'First class free', p: 'Your child sketches and tests a tiny level with a teacher. No card is asked for.' },
-      { h3: 'Testers included', p: 'In groups of five to ten, classmates playtest each other\'s games every few weeks.' },
+      { h3: 'Testers included', p: 'In groups of fifteen to twenty, classmates playtest each other\'s games every few weeks.' },
       { h3: 'Private option', p: 'One-to-one lessons for a child with one big game to plan and build.' },
       { h3: 'Their ideas', p: 'Teachers question and suggest; the design decisions stay with the child.' },
       { h3: 'Paper welcome', p: 'Squared paper and coloured pencils are real tools in our lessons, not a break from them.' },

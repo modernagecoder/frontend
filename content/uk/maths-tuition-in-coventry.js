@@ -40,7 +40,7 @@ module.exports = {
   twitterDescription: 'Coventry maths, taught live online: how close is the ring road to a perfect circle?',
   pageName: 'Maths Tuition in Coventry',
   webPageDescription: 'Live online maths tuition for Coventry learners aged 6 to 67, covering KS2 and Year 6 SATs maths, KS3, GCSE and IGCSE, A level and Further Maths, and adult maths, with a geometry project on the shape of the Coventry ring road.',
-  courseDescription: 'Live online maths classes for Coventry learners at every stage, in level-matched groups of five to ten or one to one, taught to the national curriculum for England and the GCSE and A level specifications.',
+  courseDescription: 'Live online maths classes for Coventry learners at every stage, in level-matched groups of fifteen to twenty or one to one, taught to the national curriculum for England and the GCSE and A level specifications.',
   crumbs: [{ name: 'Courses', href: '/courses' }, { name: 'Coding classes in the UK', href: '/coding-classes-in-united-kingdom' }],
   crumbLabel: 'Maths tuition in Coventry',
   navLinks: [
@@ -63,7 +63,7 @@ module.exports = {
     ['Boards', 'AQA, Edexcel, OCR; IGCSE too'],
     ['Sixth form', 'A level Maths, Further Maths'],
     ['Adults', 'Functional Skills maths, GCSE resits'],
-    ['How', 'Live video, groups of 5 to 10 or private'],
+    ['How', 'Live video, groups of 15 to 20 or private'],
     ['Coventry project', 'The ring road, perimeter against area']
   ],
   capsuleQ: 'How does our maths tuition in Coventry work?',
@@ -265,7 +265,7 @@ module.exports = {
     cells: [
       { h3: 'Continuity', p: 'The same teacher each week, who knows the learner\'s habits.' },
       { h3: 'Family updates', p: 'Short notes after lessons about progress and next steps.' },
-      { h3: 'Groups of five to ten', p: 'Everyone at one level, so no one waits and no one is lost.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Everyone at one level, so no one waits and no one is lost.' },
       { h3: 'Maps and measurements', p: 'Ring roads, plans and real data alongside exam questions.' },
       { h3: 'Private lessons available', p: 'One to one for a specific gap or a close deadline.' },
       { h3: 'Understanding over speed', p: 'Learners explain a method before practising it.' }
@@ -280,7 +280,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Charged each month in US dollars, at the same rate for all countries outside India. No enrolment fee, no contract.',
     free: ['A genuine lesson at the right level', 'Straight feedback afterwards', 'No card details asked for'],
-    group: ['Five to ten learners of one level', 'A consistent teacher', 'Homework checked and explained', 'Certificate when the course ends'],
+    group: ['Fifteen to twenty learners of one level', 'A consistent teacher', 'Homework checked and explained', 'Certificate when the course ends'],
     one: ['Private lessons with one teacher', 'Planned around specific gaps', 'Good for the run-up to exams']
   },
 
@@ -288,7 +288,7 @@ module.exports = {
     eyebrow: 'Coventry maths questions',
     h2: 'What Coventry parents and learners ask us',
     items: [
-      { q: 'What does a maths tutor in Coventry cost?', a: 'Nothing for the first lesson. Then USD 100 a month for a group of five to ten learners, or USD 150 a month for one-to-one lessons. There is no enrolment fee and you can stop at any time.' },
+      { q: 'What does a maths tutor in Coventry cost?', a: 'Nothing for the first lesson. Then USD 100 a month for a group of fifteen to twenty learners, or USD 150 a month for one-to-one lessons. There is no enrolment fee and you can stop at any time.' },
       { q: 'What is the difference between perimeter and area?', a: 'Perimeter is the distance around the outside of a shape, measured in units such as metres. Area is the amount of surface inside it, measured in square units such as square metres. The Coventry ring road has a perimeter of 3,677.6 metres and encloses 974,929 square metres.' },
       { q: 'Can online lessons really replace an in-person maths tutor?', a: 'Usually, yes. What matters is that a real teacher is present in real time and can watch the working unfold; ours follow each line on a shared board, so a slip in step two is fixed before it spoils step five.' },
       { q: 'Do you help adults retake GCSE maths?', a: 'Yes. Adults of any age join our GCSE course to resit. We find out what is already secure and then concentrate on the topics that will make the most difference.' },

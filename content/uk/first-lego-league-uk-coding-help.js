@@ -222,7 +222,7 @@ module.exports = {
     cells: [
       { h3: 'Reliability taught first', p: 'We count how often a program works, not whether it worked once.' },
       { h3: 'Predict then run', p: 'Children say where the robot will end up before pressing go, which is where the learning is.' },
-      { h3: 'Five to ten learners', p: 'Enough that two approaches meet, few enough that every program is read.' },
+      { h3: 'Fifteen to twenty learners', p: 'Enough that two approaches meet, few enough that every program is read.' },
       { h3: 'Platform agnostic', p: 'We teach the programming ideas. Whatever kit the club owns, the logic is the same.' },
       { h3: 'One to one when useful', p: 'For a team member handling the hardest missions.' },
       { h3: 'We do not coach the team', p: 'We teach individuals to program. We have no role in any tournament and no relationship with the organisers.' }
@@ -237,7 +237,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A single monthly rate in US dollars outside India, no registration charge, and you can stop whenever a month ends.',
     free: ['A genuine lesson on the programming', 'A plain view of where the gaps are', 'No card, no details beyond a number'],
-    group: ['Five to ten learners at one level', 'The same teacher weekly', 'Programs read line by line', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher weekly', 'Programs read line by line', 'A certificate at the end'],
     one: ['A teacher working with one learner', 'Shaped around the missions', 'Useful before a regional tournament']
   },
 

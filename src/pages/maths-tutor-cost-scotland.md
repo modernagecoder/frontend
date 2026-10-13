@@ -38,7 +38,7 @@ Published rates, read in October 2026 and converted to US dollars so this page u
 | Face-to-face maths tutor in Edinburgh | about $55 an hour on average | Tutorful, same guide, rates by location |
 | Face-to-face maths tutor in Glasgow | about $47 an hour on average | Tutorful, same guide, rates by location |
 | Worksheet programme at a study centre | about $93 to $99 a month per subject, plus a one-off fee of about $53 to $66 | Kumon centre pages for Edinburgh Corstorphine, Aberdeen Cults and Dundee (read 7 October 2026) |
-| Modern Age Coders, live maths | $100 a month in a group of 5 to 10, or $150 a month one-to-one, eight one-hour lessons | Our own price, no enrolment fee |
+| Modern Age Coders, live maths | $100 a month in a group of 15 to 20, or $150 a month one-to-one, eight one-hour lessons | Our own price, no enrolment fee |
 
 Conversion: UK figures were converted at 1.3221 US dollars per pound, the Bank of England spot rate for 5 October 2026 (series XUDLUSS), and rounded to the nearest dollar. The Kumon figures are three centres' own fee panels; other centres set their own fees.
 
@@ -111,7 +111,7 @@ Choosing
 - likes hearing other pupils' questions
 - wants the lowest monthly cost
 
-Groups hold 5 to 10 pupils at a similar level.
+Groups hold 15 to 20 pupils at a similar level.
 
 ### One-to-one suits a pupil who
 
@@ -143,7 +143,7 @@ $150 / month
 $100 / month
 
 - 8 live group lessons a month (2 a week, 1 hour each)
-- 5 to 10 pupils at a similar level
+- 15 to 20 pupils at a similar level
 - The same teaching at a lower monthly price
 - No enrolment fee, stop at any month end
 

@@ -16,7 +16,7 @@ Liverpool council area, Sydney, New South Wales / Live online
 
 Type "how many government schools are in Liverpool?" into an AI agent that can search the education department's school list. The honest answer for the council area is 49. An agent that searches school names returns 5. One that matches the suburb field exactly returns 2. One that looks for the word Liverpool in the council column returns 59, because the separate Liverpool Plains council area matches too. Same data, same question, four answers: the difference is which tool the agent chose and how it called it.
 
-Facts last verified 10 October 2026. Teaching is online; no Liverpool branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Liverpool branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for agents that query data properly
 
@@ -187,7 +187,7 @@ The council area covers about 306 square kilometres, and an online lesson reache
 - **Learn from home** No drive across the south-west at peak hour: a learner logs in from wherever they are and the whole lesson goes on coding.
 - **In step with NSW schools** Teachers plan around NSW stages and term dates, and lessons stop for the state school holidays.
 - **A trial that teaches** The opening lesson is a proper class, finishing with a recommended course, level and weekly time. Nothing is paid on the day.
-- **Grouped by progress** Groups of five to ten learners at a similar stage, or one-to-one teaching when that suits better.
+- **Grouped by progress** Groups of fifteen to twenty learners at a similar stage, or one-to-one teaching when that suits better.
 - **Two sessions a week** Normally two lessons a week at a set time, around eight a month, with holidays agreed ahead.
 - **Teachers in India** A 6:30pm Liverpool lesson in summer begins at 1pm India time; when Sydney returns to standard time it begins at 2pm there.
 
@@ -198,7 +198,7 @@ The council area covers about 306 square kilometres, and an online lesson reache
 Three figures, all stated plainly.
 
 - First class: USD 0. A full lesson free, with a course, level and time recommended at the end.
-- Group tuition: USD 100 a month. A month of lessons, normally eight, alongside five to ten learners at the same level.
+- Group tuition: USD 100 a month. A month of lessons, normally eight, alongside fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. About eight lessons a month on the same rhythm, with one teacher and one learner.
 
 Outside India we bill in US dollars, so there is one fee for every Liverpool household. Nothing is charged until the trial has fixed a course and a time; holidays, missed lessons and changing format are explained on the pricing page.
@@ -239,7 +239,7 @@ No, and we do not claim one. Every lesson is live online and we have no premises
 
 ### How much do classes cost in Liverpool?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one on the same pattern. Course, format and time are settled before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one on the same pattern. Course, format and time are settled before anything is paid.
 
 ### How big are the groups?
 

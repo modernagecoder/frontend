@@ -52,7 +52,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Modern Age Coders teaches coding live online to teenagers across the Netherlands, aged twelve to eighteen: Python first, then data and machine learning, app and web development, Java, and AI coding tools used with care. Teenagers are placed by what they can already do, not by school year, in groups of five to ten or one to one, and every lesson is taught in English by a real teacher. Classes run after school, in the evening or at the weekend, at home on a laptop rather than on a phone in class. The first lesson is free; after it a group place is USD 100 a month and one-to-one lessons USD 150.',
+  capsule: 'Modern Age Coders teaches coding live online to teenagers across the Netherlands, aged twelve to eighteen: Python first, then data and machine learning, app and web development, Java, and AI coding tools used with care. Teenagers are placed by what they can already do, not by school year, in groups of fifteen to twenty or one to one, and every lesson is taught in English by a real teacher. Classes run after school, in the evening or at the weekend, at home on a laptop rather than on a phone in class. The first lesson is free; after it a group place is USD 100 a month and one-to-one lessons USD 150.',
 
   picks: {
     eyebrow: 'Start here',
@@ -192,7 +192,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first lesson', p: 'The teenager works on a real problem while the teacher watches how they think. That places them far better than a test or a school report.' },
-      { h3: 'Five to ten in a group', p: 'Teenagers from several countries at the same level, which means a keen twelve-year-old and a beginner of sixteen can both be in the right class.' },
+      { h3: 'Fifteen to twenty in a group', p: 'Teenagers from several countries at the same level, which means a keen twelve-year-old and a beginner of sixteen can both be in the right class.' },
       { h3: 'One to one when needed', p: 'For exam years, very specific goals, irregular timetables, or a teenager who simply works better alone with a teacher.' },
       { h3: 'Parents in the loop', p: 'We talk to the family before anything is booked, which also keeps us within the Dutch rule on consent for under-sixteens.' },
       { h3: 'In English', p: 'Lessons are in English, the language of programming. Dutch school words such as brugklas, havo and vwo are used as families use them.' },

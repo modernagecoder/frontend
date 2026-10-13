@@ -249,7 +249,7 @@ The teacher reviews the learner's goal and observes a short task before tuition 
 
 ### Group tuition
 
-Five to eight compatible learners work live with one teacher, ask questions and receive code review.
+Fifteen to twenty compatible learners work live with one teacher, ask questions and receive code review.
 
 ### Private tuition
 
@@ -313,7 +313,7 @@ Goal review, short ability task and a starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight live lessons, with five to eight learners.
+Per month, normally eight live lessons, with fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -409,7 +409,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### How many learners are in a Sur group class?
 
-A group normally contains five to eight compatible learners. Compatibility includes current skill, pace and objective. Private tuition is one learner with one teacher. If an appropriate group is not available, the learner can discuss private tuition or wait for a better-matched cohort rather than being placed only by age.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current skill, pace and objective. Private tuition is one learner with one teacher. If an appropriate group is not available, the learner can discuss private tuition or wait for a better-matched cohort rather than being placed only by age.
 
 ### How are online class times arranged for Sur?
 

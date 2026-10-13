@@ -16,7 +16,7 @@ Cairns, Queensland, Australia / Live online
 
 Ask a trip-planning agent how to get from Palm Cove to Edmonton by bus, leaving at 8am on a Wednesday. Behind the scenes it calls a tool that searches the open Cairns timetable. Built carefully, the tool answers: route 110 into the city, then two short connections, arriving at 10:12. Built carelessly, it answers 9:40, by putting the traveller on a route 150E bus that does not run that day. The timetable file contains every trip for every day of its two months, and only a filter on the service calendar separates Wednesday's buses from the rest. Our Cairns learners build the search, catch the invented bus, and learn why an agent's confidence says nothing about its tools.
 
-Facts last verified 7 October 2026. Teaching is online; no Cairns branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Cairns branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four ways into building with AI in Cairns
 
@@ -178,7 +178,7 @@ Cairns stretches along the coast between beaches and ranges, and an online lesso
 - **North or south** A learner in the northern beaches and one in Edmonton join the same class at the same time, each from home.
 - **Queensland school levels** Teachers use the Queensland year levels, Year 7 to Year 12, and every lesson is taught in English.
 - **A trial that builds something** The free first session is an actual agent or vibe coding task with a teacher, ending with a suggested level, course and time. Nothing is charged.
-- **Five to ten per group** Learners at the same stage from Far North Queensland, the rest of Australia and abroad, so each level has a sensible slot.
+- **Fifteen to twenty per group** Learners at the same stage from Far North Queensland, the rest of Australia and abroad, so each level has a sensible slot.
 - **Regular lessons** Normally two a week, about eight a month, with holidays and exam weeks planned with the teacher.
 - **Four and a half hours, all year** Cairns and India both keep one clock time year round, so our teachers are always 4 hours 30 minutes behind.
 
@@ -189,7 +189,7 @@ Cairns stretches along the coast between beaches and ranges, and an online lesso
 Just three figures.
 
 - First class: USD 0. A complimentary first lesson ending with a level, a course and a weekly time.
-- Group tuition: USD 100 a month. One month of lessons, generally eight, with five to ten learners at your level.
+- Group tuition: USD 100 a month. One month of lessons, generally eight, with fifteen to twenty learners at your level.
 - Private tuition: USD 150 a month. About eight lessons a month with a teacher to yourself.
 
 Cairns families pay in US dollars at the one rate charged everywhere outside India, with no Far North loading. Billing begins only after the trial confirms a course and time; the pricing page covers breaks, missed lessons and switching between group and private.
@@ -230,11 +230,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Cairns coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Cairns and Queensland learners
 

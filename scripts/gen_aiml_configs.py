@@ -8,7 +8,7 @@ def _strip(s):
 
 
 PRICE_ANS = ("Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of "
-             "3–4 students is ₹2,499 per month, and 1-on-1 mentoring is ₹4,999 per month. "
+             "up to 6 students is ₹2,499 per month, and 1-on-1 mentoring is ₹4,999 per month. "
              "A free demo class is available first.")
 
 
@@ -30,7 +30,7 @@ def build_default_faqs(c):
          "so you finish with practical skill and something to show."),
         ("How much does the course cost?", PRICE_ANS),
         ("Are the classes live and mentor-led?",
-         "Yes. Classes are live in small batches of 5–8 with a mentor who reviews your work, and every session is "
+         "Yes. Classes are live in batches of 15–20 with a mentor who reviews your work, and every session is "
          "recorded so you can revise anytime. It's real-time teaching, not pre-recorded videos."),
     ]
 
@@ -121,7 +121,7 @@ model.<span class="fn">fit</span>(examples, answers)   <span class="cm"># it lea
 
 guess = model.<span class="fn">predict</span>([[<span class="nu">5</span>, <span class="nu">1</span>]])
 <span class="fn">print</span>(guess)   <span class="cm"># the AI's prediction!</span>'''),
-        "quick_answer": "<strong>Modern Age Coders' AI Course for Beginners takes you from absolute zero to building your first AI model.</strong> You learn what artificial intelligence and machine learning actually are, how models learn from data, and the core ideas behind today's AI — all in plain English with no prior coding or maths required. Then you build and run a simple model yourself, hands-on. Classes are live in small batches of 5–8 with a mentor, group plans start at ₹1,499/month, and every learner gets a free demo first.",
+        "quick_answer": "<strong>Modern Age Coders' AI Course for Beginners takes you from absolute zero to building your first AI model.</strong> You learn what artificial intelligence and machine learning actually are, how models learn from data, and the core ideas behind today's AI — all in plain English with no prior coding or maths required. Then you build and run a simple model yourself, hands-on. Classes are live in batches of 15–20 with a mentor, group plans start at ₹1,499/month, and every learner gets a free demo first.",
         "form_h": "Book Your Free Beginner AI Demo",
         "form_sub": "Tell us where you're starting from and we'll arrange a free, no-obligation AI demo with a mentor. Absolute beginners welcome — no payment to try.",
         "form_placeholder": "e.g. I'm completely new to AI and want to understand it and build something simple...",
@@ -194,7 +194,7 @@ guess = model.<span class="fn">predict</span>([[<span class="nu">5</span>, <span
             (IC['gear'], "3 · Build the model", "Choose &amp; train", "model.fit()"),
             (IC['check'], "4 · Evaluate &amp; improve", "Measure, tune, ship", "0.91 ✓"),
         ]),
-        "quick_answer": "<strong>Modern Age Coders' How to Build AI Models course teaches the complete, repeatable process of building an AI model.</strong> You learn to frame a problem as a prediction task, collect and prepare data, choose and build the right model, then evaluate and improve it — the real workflow professionals use, not just copy-paste tutorials. Everything is hands-on in Python with a mentor. Classes are live in small batches of 5–8, group plans start at ₹1,499/month, and a free demo comes first.",
+        "quick_answer": "<strong>Modern Age Coders' How to Build AI Models course teaches the complete, repeatable process of building an AI model.</strong> You learn to frame a problem as a prediction task, collect and prepare data, choose and build the right model, then evaluate and improve it — the real workflow professionals use, not just copy-paste tutorials. Everything is hands-on in Python with a mentor. Classes are live in batches of 15–20, group plans start at ₹1,499/month, and a free demo comes first.",
         "form_h": "Book Your Free Model-Building Demo",
         "form_sub": "Tell us what you'd like to build and we'll arrange a free, no-obligation demo with a mentor. No payment required to try.",
         "form_placeholder": "e.g. I want to learn the full process of building an AI model from a real dataset...",
@@ -269,7 +269,7 @@ guess = model.<span class="fn">predict</span>([[<span class="nu">5</span>, <span
     optimizer.<span class="fn">step</span>()    <span class="cm"># update weights</span>
 
 <span class="fn">print</span>(val_loss)   <span class="cm"># is it generalising?</span>'''),
-        "quick_answer": "<strong>Modern Age Coders' How to Train Machine Learning Models course teaches the training process that makes models actually learn.</strong> You'll understand loss functions and gradient descent, epochs and batches, and — crucially — validation, overfitting and hyperparameter tuning, so your models perform on new data, not just the training set. It's all hands-on in Python with a mentor. Classes are live in small batches of 5–8, group plans start at ₹1,499/month, and a free demo comes first.",
+        "quick_answer": "<strong>Modern Age Coders' How to Train Machine Learning Models course teaches the training process that makes models actually learn.</strong> You'll understand loss functions and gradient descent, epochs and batches, and — crucially — validation, overfitting and hyperparameter tuning, so your models perform on new data, not just the training set. It's all hands-on in Python with a mentor. Classes are live in batches of 15–20, group plans start at ₹1,499/month, and a free demo comes first.",
         "form_h": "Book Your Free Model-Training Demo",
         "form_sub": "Tell us your goal and we'll arrange a free, no-obligation demo with a mentor. No payment required to try.",
         "form_placeholder": "e.g. I want to really understand training, validation and overfitting so my models work on new data...",
@@ -344,7 +344,7 @@ clf.<span class="fn">fit</span>(X_train, y_train)
 
 acc = clf.<span class="fn">score</span>(X_test, y_test)
 <span class="fn">print</span>(<span class="st">f"accuracy: {acc:.2f}"</span>)  <span class="cm"># 0.94</span>'''),
-        "quick_answer": "<strong>Modern Age Coders' Build Machine Learning Models in Python course is project-based: you learn ML by building real models.</strong> Using Python and scikit-learn you construct regression, classification and clustering models from raw data through training and evaluation, finishing each module with a working project for your portfolio. Classes are live in small batches of 5–8 with a mentor reviewing your code, group plans start at ₹1,499/month, and a free demo comes first.",
+        "quick_answer": "<strong>Modern Age Coders' Build Machine Learning Models in Python course is project-based: you learn ML by building real models.</strong> Using Python and scikit-learn you construct regression, classification and clustering models from raw data through training and evaluation, finishing each module with a working project for your portfolio. Classes are live in batches of 15–20 with a mentor reviewing your code, group plans start at ₹1,499/month, and a free demo comes first.",
         "form_h": "Book Your Free Build-ML Demo",
         "form_sub": "Tell us what you'd like to build and we'll arrange a free, no-obligation demo with a mentor. No payment required to try.",
         "form_placeholder": "e.g. I want hands-on practice building real ML models in Python for my portfolio...",
@@ -417,7 +417,7 @@ acc = clf.<span class="fn">score</span>(X_test, y_test)
             (IC['brain'], "Output layer", "Prediction out", "ŷ"),
             (IC['gear'], "Backpropagation", "Learns from error", "∂loss/∂w"),
         ]),
-        "quick_answer": "<strong>Modern Age Coders' Neural Networks Course teaches how neural networks work and has you build one yourself.</strong> You'll understand neurons, weights, activation functions, layers and forward propagation, then how networks learn through backpropagation and gradient descent — and you'll build, train and evaluate your own network in Python. Classes are live in small batches of 5–8 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.",
+        "quick_answer": "<strong>Modern Age Coders' Neural Networks Course teaches how neural networks work and has you build one yourself.</strong> You'll understand neurons, weights, activation functions, layers and forward propagation, then how networks learn through backpropagation and gradient descent — and you'll build, train and evaluate your own network in Python. Classes are live in batches of 15–20 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.",
         "form_h": "Book Your Free Neural Networks Demo",
         "form_sub": "Tell us your goal and we'll arrange a free, no-obligation demo with a mentor. No payment required to try.",
         "form_placeholder": "e.g. I want to truly understand neural networks and build one in Python myself...",
@@ -490,7 +490,7 @@ acc = clf.<span class="fn">score</span>(X_test, y_test)
             (IC['layers'], "Embed", "Words → vectors", "[0.2, -0.7…]"),
             (IC['check'], "Predict", "Sentiment", "positive 0.97"),
         ]),
-        "quick_answer": "<strong>Modern Age Coders' Natural Language Processing Course teaches you to build AI that understands human language in Python.</strong> You'll learn text cleaning and tokenization, word embeddings, sentiment analysis and text classification, and get an introduction to the transformer models behind modern language AI — all hands-on with real text. Classes are live in small batches of 5–8 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.",
+        "quick_answer": "<strong>Modern Age Coders' Natural Language Processing Course teaches you to build AI that understands human language in Python.</strong> You'll learn text cleaning and tokenization, word embeddings, sentiment analysis and text classification, and get an introduction to the transformer models behind modern language AI — all hands-on with real text. Classes are live in batches of 15–20 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.",
         "form_h": "Book Your Free NLP Demo",
         "form_sub": "Tell us your goal and we'll arrange a free, no-obligation NLP demo with a mentor. No payment required to try.",
         "form_placeholder": "e.g. I want to build NLP models for sentiment analysis and text classification in Python...",
@@ -563,7 +563,7 @@ acc = clf.<span class="fn">score</span>(X_test, y_test)
             (IC['cpu'], "CNN", "Learn patterns", "feature maps"),
             (IC['target'], "Detect", "Box + label", "cat 0.98"),
         ]),
-        "quick_answer": "<strong>Modern Age Coders' Computer Vision Course teaches you to build AI that sees, in Python.</strong> You'll learn how images become data, use OpenCV, build convolutional neural networks (CNNs) for image classification, and explore object detection with pretrained models — all hands-on with real images. Classes are live in small batches of 5–8 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.",
+        "quick_answer": "<strong>Modern Age Coders' Computer Vision Course teaches you to build AI that sees, in Python.</strong> You'll learn how images become data, use OpenCV, build convolutional neural networks (CNNs) for image classification, and explore object detection with pretrained models — all hands-on with real images. Classes are live in batches of 15–20 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.",
         "form_h": "Book Your Free Computer Vision Demo",
         "form_sub": "Tell us your goal and we'll arrange a free, no-obligation vision demo with a mentor. No payment required to try.",
         "form_placeholder": "e.g. I want to build image classification and object detection models in Python...",
@@ -636,7 +636,7 @@ acc = clf.<span class="fn">score</span>(X_test, y_test)
             (IC['cpu'], "LLM", "Transformer reasons", "GPT-style"),
             (IC['check'], "Answer", "Grounded response", "output"),
         ]),
-        "quick_answer": "<strong>Modern Age Coders' Large Language Models Course teaches both how LLMs like GPT work and how to build with them.</strong> You'll understand tokens, embeddings, attention and the transformer architecture, then build real applications using LLM APIs in Python — prompting, embeddings, retrieval-augmented generation (RAG) and an introduction to fine-tuning. Classes are live in small batches of 5–8 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.",
+        "quick_answer": "<strong>Modern Age Coders' Large Language Models Course teaches both how LLMs like GPT work and how to build with them.</strong> You'll understand tokens, embeddings, attention and the transformer architecture, then build real applications using LLM APIs in Python — prompting, embeddings, retrieval-augmented generation (RAG) and an introduction to fine-tuning. Classes are live in batches of 15–20 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.",
         "form_h": "Book Your Free LLM Demo",
         "form_sub": "Tell us your goal and we'll arrange a free, no-obligation LLM demo with a mentor. No payment required to try.",
         "form_placeholder": "e.g. I want to understand how LLMs work and build a RAG app with an LLM API...",
@@ -713,7 +713,7 @@ Review: {text}
 
 reply = llm.<span class="fn">generate</span>(system, prompt)
 <span class="fn">print</span>(reply)   <span class="cm"># clean, structured output</span>'''),
-        "quick_answer": "<strong>Modern Age Coders' Prompt Engineering Course teaches you to get reliable, high-quality results from LLMs and build with them.</strong> You'll master prompt structure, system prompts, few-shot examples and chain-of-thought reasoning, then turn prompting into software by calling LLM APIs in Python with patterns for dependable output. Classes are live in small batches of 5–8 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.",
+        "quick_answer": "<strong>Modern Age Coders' Prompt Engineering Course teaches you to get reliable, high-quality results from LLMs and build with them.</strong> You'll master prompt structure, system prompts, few-shot examples and chain-of-thought reasoning, then turn prompting into software by calling LLM APIs in Python with patterns for dependable output. Classes are live in batches of 15–20 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.",
         "form_h": "Book Your Free Prompt Engineering Demo",
         "form_sub": "Tell us your goal and we'll arrange a free, no-obligation demo with a mentor. No payment required to try.",
         "form_placeholder": "e.g. I want to write reliable prompts and build AI features with LLM APIs...",
@@ -786,7 +786,7 @@ reply = llm.<span class="fn">generate</span>(system, prompt)
             (IC['eye'], "Observe", "Read the result", "feedback"),
             (IC['check'], "Repeat → Done", "Until goal met", "✓ result"),
         ]),
-        "quick_answer": "<strong>Modern Age Coders' AI Agents Course teaches you to build autonomous AI agents with LLMs in Python.</strong> You'll learn the think-act-observe loop, how to give an LLM tools and memory, and how to design agents that complete multi-step tasks reliably — the architecture behind modern agentic AI. It's hands-on with real agents. Classes are live in small batches of 5–8 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.",
+        "quick_answer": "<strong>Modern Age Coders' AI Agents Course teaches you to build autonomous AI agents with LLMs in Python.</strong> You'll learn the think-act-observe loop, how to give an LLM tools and memory, and how to design agents that complete multi-step tasks reliably — the architecture behind modern agentic AI. It's hands-on with real agents. Classes are live in batches of 15–20 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.",
         "form_h": "Book Your Free AI Agents Demo",
         "form_sub": "Tell us your goal and we'll arrange a free, no-obligation demo with a mentor. No payment required to try.",
         "form_placeholder": "e.g. I want to build an autonomous AI agent that uses tools to complete tasks...",
@@ -861,7 +861,7 @@ model = nn.<span class="cl">Sequential</span>(nn.<span class="cl">Linear</span>(
 loss = <span class="fn">criterion</span>(model(X), y)
 loss.<span class="fn">backward</span>()        <span class="cm"># autograd</span>
 optimizer.<span class="fn">step</span>()      <span class="cm"># on GPU if available</span>'''),
-        "quick_answer": "<strong>Modern Age Coders' Deep Learning with TensorFlow &amp; PyTorch course teaches both leading frameworks hands-on.</strong> You'll learn tensors and autograd, build and train neural networks in PyTorch and TensorFlow, use GPUs and pretrained models, and complete real deep-learning projects in Python. Classes are live in small batches of 5–8 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.",
+        "quick_answer": "<strong>Modern Age Coders' Deep Learning with TensorFlow &amp; PyTorch course teaches both leading frameworks hands-on.</strong> You'll learn tensors and autograd, build and train neural networks in PyTorch and TensorFlow, use GPUs and pretrained models, and complete real deep-learning projects in Python. Classes are live in batches of 15–20 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.",
         "form_h": "Book Your Free Deep Learning Demo",
         "form_sub": "Tell us your goal and we'll arrange a free, no-obligation demo with a mentor. No payment required to try.",
         "form_placeholder": "e.g. I want to build and train deep learning models in PyTorch and TensorFlow...",
@@ -934,7 +934,7 @@ optimizer.<span class="fn">step</span>()      <span class="cm"># on GPU if avail
             (IC['chart'], "Visualize", "Charts &amp; trends", "↑ 23%"),
             (IC['target'], "Insight", "Drive a decision", "recommend"),
         ]),
-        "quick_answer": "<strong>Modern Age Coders' Data Analytics Course teaches you to turn data into decisions.</strong> You'll learn spreadsheets, SQL for querying data, Python with pandas for analysis, and data visualization and dashboards — plus the analytical thinking that turns numbers into business insight. Everything is hands-on on realistic datasets. Classes are live in small batches of 5–8 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.",
+        "quick_answer": "<strong>Modern Age Coders' Data Analytics Course teaches you to turn data into decisions.</strong> You'll learn spreadsheets, SQL for querying data, Python with pandas for analysis, and data visualization and dashboards — plus the analytical thinking that turns numbers into business insight. Everything is hands-on on realistic datasets. Classes are live in batches of 15–20 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.",
         "form_h": "Book Your Free Data Analytics Demo",
         "form_sub": "Tell us your goal and we'll arrange a free, no-obligation demo with a mentor. No payment required to try.",
         "form_placeholder": "e.g. I want to become a data analyst — SQL, pandas and dashboards on real data...",
@@ -1007,7 +1007,7 @@ optimizer.<span class="fn">step</span>()      <span class="cm"># on GPU if avail
             (IC['cert'], "Fundamentals", "Interview-ready", "DSA + ML"),
             (IC['rocket'], "Placement", "Internship / job", "offer ✓"),
         ]),
-        "quick_answer": "<strong>Modern Age Coders' AI &amp; ML Course for College Students is placement-focused.</strong> It takes you from Python to machine learning and deep learning, built around real projects that form a portfolio recruiters notice, and covers the fundamentals that internship and placement interviews test. Classes are live in small batches of 5–8 with a mentor, group plans start at ₹1,499/month, and every student gets a free demo first.",
+        "quick_answer": "<strong>Modern Age Coders' AI &amp; ML Course for College Students is placement-focused.</strong> It takes you from Python to machine learning and deep learning, built around real projects that form a portfolio recruiters notice, and covers the fundamentals that internship and placement interviews test. Classes are live in batches of 15–20 with a mentor, group plans start at ₹1,499/month, and every student gets a free demo first.",
         "form_h": "Book Your Free AI/ML Demo",
         "form_sub": "Tell us your year, branch and goal and we'll arrange a free, no-obligation demo with a mentor. No payment required to try.",
         "form_placeholder": "e.g. I'm a 3rd-year student and want an AI/ML portfolio and skills for placements...",
@@ -1153,7 +1153,7 @@ optimizer.<span class="fn">step</span>()      <span class="cm"># on GPU if avail
             (IC['chart'], "Price predictor", "Regression", "live demo"),
             (IC['cpu'], "Mini chatbot", "LLM-powered", "GitHub ✓"),
         ]),
-        "quick_answer": "<strong>Modern Age Coders' AI &amp; ML Projects for Students course helps you build a portfolio that gets you hired.</strong> You build guided, real-world machine-learning and deep-learning projects in Python — from data to a trained model — each fully explained and mentor-reviewed so you can confidently discuss it in interviews. Great for internships, placements and final-year projects. Classes are live in small batches of 5–8, group plans start at ₹1,499/month, and a free demo comes first.",
+        "quick_answer": "<strong>Modern Age Coders' AI &amp; ML Projects for Students course helps you build a portfolio that gets you hired.</strong> You build guided, real-world machine-learning and deep-learning projects in Python — from data to a trained model — each fully explained and mentor-reviewed so you can confidently discuss it in interviews. Great for internships, placements and final-year projects. Classes are live in batches of 15–20, group plans start at ₹1,499/month, and a free demo comes first.",
         "form_h": "Book Your Free Projects Demo",
         "form_sub": "Tell us your level and goal and we'll arrange a free, no-obligation demo with a mentor. No payment required to try.",
         "form_placeholder": "e.g. I want to build real AI/ML projects for my portfolio / final-year project...",
@@ -1226,7 +1226,7 @@ optimizer.<span class="fn">step</span>()      <span class="cm"># on GPU if avail
             (IC['rocket'], "Capstone", "Flagship project", "presented"),
             (IC['cert'], "Certificate", "On completion", "issued ✓"),
         ]),
-        "quick_answer": "<strong>Modern Age Coders' AI &amp; ML Certification Course gives you a course-completion certificate backed by a real project portfolio.</strong> The project-based program covers Python, machine learning and deep learning, and ends with a capstone and certificate. To be clear, this is a Modern Age Coders course-completion certificate (not a government or vendor exam) — its value comes from the genuine skills and portfolio behind it. Classes are live in small batches of 5–8 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.",
+        "quick_answer": "<strong>Modern Age Coders' AI &amp; ML Certification Course gives you a course-completion certificate backed by a real project portfolio.</strong> The project-based program covers Python, machine learning and deep learning, and ends with a capstone and certificate. To be clear, this is a Modern Age Coders course-completion certificate (not a government or vendor exam) — its value comes from the genuine skills and portfolio behind it. Classes are live in batches of 15–20 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.",
         "form_h": "Book Your Free Certification Demo",
         "form_sub": "Tell us your goal and we'll arrange a free, no-obligation demo with a mentor. No payment required to try.",
         "form_placeholder": "e.g. I want an AI/ML certificate backed by real projects I can show employers...",
@@ -1299,7 +1299,7 @@ optimizer.<span class="fn">step</span>()      <span class="cm"># on GPU if avail
             (IC['code'], "Code together", "Mentor reviews", "screen share"),
             (IC['layers'], "Recordings", "Revise anytime", "saved ✓"),
         ]),
-        "quick_answer": "<strong>Modern Age Coders' Online AI &amp; Machine Learning Classes are live and mentor-led — not pre-recorded videos.</strong> You learn Python, machine learning and deep learning in real time in small batches of 5–8, with hands-on projects, a mentor who reviews your code live, session recordings for revision and ongoing doubt support — from anywhere in India. Group plans start at ₹1,499/month, and every learner gets a free demo class first.",
+        "quick_answer": "<strong>Modern Age Coders' Online AI &amp; Machine Learning Classes are live and mentor-led — not pre-recorded videos.</strong> You learn Python, machine learning and deep learning in real time in batches of 15–20, with hands-on projects, a mentor who reviews your code live, session recordings for revision and ongoing doubt support — from anywhere in India. Group plans start at ₹1,499/month, and every learner gets a free demo class first.",
         "form_h": "Book Your Free Online Demo Class",
         "form_sub": "Tell us your goal and we'll arrange a free, no-obligation live online demo with a mentor. No payment required to try.",
         "form_placeholder": "e.g. I want live, mentor-led online AI/ML classes I can attend from home...",
@@ -1310,7 +1310,7 @@ optimizer.<span class="fn">step</span>()      <span class="cm"># on GPU if avail
         "learn_sub": "The structure that makes online learning genuinely work.",
         "learn_cards": [
             (IC['video'], "#06b6d4", "Live, Not Recorded", "Real-time classes with a mentor you can interact with — the engagement and accountability recorded courses can't give."),
-            (IC['chat'], "#8b5cf6", "Small Batches &amp; Doubts", "Just 5–8 learners so your questions get answered live, with ongoing doubt support between classes."),
+            (IC['chat'], "#8b5cf6", "Small Batches &amp; Doubts", "Just 15–20 learners so your questions get answered live, with ongoing doubt support between classes."),
             (IC['layers'], "#06b6d4", "Projects &amp; Recordings", "Hands-on projects reviewed by your mentor, plus every session recorded so you can revise anytime."),
         ],
         "road_h": "How Your Online Journey Works", "road_sub": "Four stages, all live and supported, from anywhere.",

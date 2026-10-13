@@ -160,7 +160,7 @@ module.exports = {
       { h3: 'Learner in the driving seat', p: 'Students type, prompt and run their own code; the tutor watches through screen share and keeps the questions coming.' },
       { h3: 'Level set by a trial', p: 'The free lesson decides where to start, whatever the school year, and we note any exam board.' },
       { h3: 'No charge for lesson one', p: 'The first session is free and ends with a course suggestion.' },
-      { h3: 'Matched classes', p: 'Groups of five to ten UK learners who are at about the same point.' },
+      { h3: 'Matched classes', p: 'Groups of fifteen to twenty UK learners who are at about the same point.' },
       { h3: 'Two sessions a week', p: 'Paused through the school holidays.' },
       { h3: 'Steady slots', p: 'Tutors adjust when the clocks change, so the lesson hour stays the same.' }
     ],

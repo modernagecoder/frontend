@@ -48,7 +48,7 @@ module.exports = {
 
   h1: 'Coding classes in Hammersmith and Fulham',
   capsuleQ: 'What are the best coding classes in Hammersmith and Fulham?',
-  capsule: 'Hammersmith and Fulham is the west London borough of Hammersmith, Fulham, Shepherd\'s Bush, White City, Parsons Green, Sands End and Brook Green, with 183,157 residents at the 2021 Census, Fulham Palace as its only Grade I building and 266 listed entries in all. A class worth joining shows learners how a clever idea beats brute force, and this page does it with a walk: visit all 266 listed buildings in the shortest possible loop, using a curve drawn by recursion, the Hilbert curve, to put them in a sensible order. Teachers in India teach live on video, for ages 6 to 67, one to one or in small classes of five to ten learners at the same stage. There is no charge for the first lesson. Carrying on costs USD 100 a month in a class or USD 150 a month one to one.',
+  capsule: 'Hammersmith and Fulham is the west London borough of Hammersmith, Fulham, Shepherd\'s Bush, White City, Parsons Green, Sands End and Brook Green, with 183,157 residents at the 2021 Census, Fulham Palace as its only Grade I building and 266 listed entries in all. A class worth joining shows learners how a clever idea beats brute force, and this page does it with a walk: visit all 266 listed buildings in the shortest possible loop, using a curve drawn by recursion, the Hilbert curve, to put them in a sensible order. Teachers in India teach live on video, for ages 6 to 67, one to one or in classes of fifteen to twenty learners at the same stage. There is no charge for the first lesson. Carrying on costs USD 100 a month in a class or USD 150 a month one to one.',
   lead: 'Imagine a walking tour of every listed building in Hammersmith and Fulham: 266 of them, from Fulham Palace to the Grand Hall at Olympia. Take them in a random order and your loop would be about 600 kilometres long, criss-crossing a borough only seven kilometres from end to end. Sort them west to east and it is still 265. Our learners try something cleverer. The Hilbert curve is a line that wriggles through every square of a grid, drawn by a simple rule applied again and again: each square splits into four, and the curve visits the four in a twisted U. Its magic is that points close together on the curve are close together on the map. Line the buildings up along it and the tour drops to about 54 kilometres.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Hammersmith and Fulham.',
 
@@ -144,7 +144,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'Hammersmith', p: 'TfL\'s open data lists the Circle, District, Hammersmith & City and Piccadilly lines at Hammersmith.' },
           { h3: 'White City to Sands End', p: 'A learner in the north of the borough and another by the river at Sands End can share one class from home.' },
-          { h3: 'The shortest route', p: 'No commute is the shortest route of all: open the laptop, join the call, and the class of five to ten is there.' }
+          { h3: 'The shortest route', p: 'No commute is the shortest route of all: open the laptop, join the call, and the class of fifteen to twenty is there.' }
         ] },
         { kind: 'spec', title: 'Hammersmith and Fulham in London', p: 'Hammersmith and Fulham is one of London\'s 32 boroughs. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> covers every borough and the City, linking each page as it goes up, including <a class="cg-inline-link" href="/coding-classes-in-ealing-london">Ealing</a> to the west and <a class="cg-inline-link" href="/coding-classes-in-wandsworth-london">Wandsworth</a> across the river.' }
       ]
@@ -181,7 +181,7 @@ module.exports = {
       { h3: 'At home', p: 'A laptop or desktop, headphones and broadband that copes with video are enough to take part.' },
       { h3: 'School stages', p: 'We use the Key Stages of schools in England to describe progress, up to sixth form, naming GCSE or A level when they apply. All teaching is in English.' },
       { h3: 'First lesson free', p: 'A proper lesson with a teacher, not a sales pitch, ending with a recommended level and course. No card details needed.' },
-      { h3: 'Matched groups', p: 'Five to ten learners at the same stage, from across the UK and further afield, so a sensible time is usually available.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners at the same stage, from across the UK and further afield, so a sensible time is usually available.' },
       { h3: 'Two sessions a week', p: 'Most classes meet on two evenings a week and pause for holidays and exams by agreement.' },
       { h3: 'UK clock', p: 'Teachers are in India, but every time we send is given in UK time.' }
     ],
@@ -192,7 +192,7 @@ module.exports = {
     h2: 'Fees for Hammersmith and Fulham families',
     intro: 'A free first lesson, then a single monthly fee, the same from White City to Fulham.',
     first: 'A full first lesson with a teacher, free, with a recommended level, course and time at the end.',
-    group: 'Roughly eight live lessons a month in a class of five to ten at one stage.',
+    group: 'Roughly eight live lessons a month in a class of fifteen to twenty at one stage.',
     private: 'Roughly eight live lessons a month, one learner with one teacher.',
     closer: 'Families here pay in US dollars, as all families outside India do, and the site shows no pound prices. Nothing is charged until after the free lesson and until a course and weekly time are agreed. The pricing page covers pausing, missed lessons and switching between group and private teaching.'
   },
@@ -217,8 +217,8 @@ module.exports = {
       { q: 'When would lessons take place?', a: 'After the free lesson we suggest a weekly slot in a class at the right level with room. Teachers are in India; slots are quoted in UK time.' },
       { q: 'What is needed at home?', a: 'A computer with sound and a steady connection. The route project needs Python and one free download of heritage list points.' },
       { q: 'Is there a Modern Age Coders centre in Hammersmith and Fulham?', a: 'No. There is no Hammersmith and Fulham centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Hammersmith and Fulham cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Hammersmith and Fulham cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

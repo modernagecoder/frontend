@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across North Lanarksh
 canonical: https://learn.modernagecoders.com/coding-classes-in-north-lanarkshire
 source: src/pages/coding-classes-in-north-lanarkshire.html
 ---
-> North Lanarkshire is one of Scotland's most populous council areas, with about 341,000 residents in roughly 151,400 households at the 2022 census, at 725.5 people per square kilometre. It has several large towns rather than one centre: Cumbernauld, Coatbridge, Airdrie, Motherwell and Wishaw each have more than 30,000 people, with Bellshill, Viewpark and Kilsyth next. All teaching is live on video from India, and a free first lesson settles each learner's starting stage, whether P1, S6 or adult. Learners aged 6 to 67 study coding, Python and maths one-to-one or in groups of five to ten. The North Lanarkshire project comes from a remarkable factory in Shotts. Carry on after that and a shared class is USD 100 per month, while a private teacher is USD 150 per month.
+> North Lanarkshire is one of Scotland's most populous council areas, with about 341,000 residents in roughly 151,400 households at the 2022 census, at 725.5 people per square kilometre. It has several large towns rather than one centre: Cumbernauld, Coatbridge, Airdrie, Motherwell and Wishaw each have more than 30,000 people, with Bellshill, Viewpark and Kilsyth next. All teaching is live on video from India, and a free first lesson settles each learner's starting stage, whether P1, S6 or adult. Learners aged 6 to 67 study coding, Python and maths one-to-one or in groups of fifteen to twenty. The North Lanarkshire project comes from a remarkable factory in Shotts. Carry on after that and a shared class is USD 100 per month, while a private teacher is USD 150 per month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / North Lanarkshire
 
@@ -12,11 +12,11 @@ North Lanarkshire / Live online
 
 # Coding classes in North Lanarkshire
 
-**What are the best coding classes in North Lanarkshire?** North Lanarkshire is one of Scotland's most populous council areas, with about 341,000 residents in roughly 151,400 households at the 2022 census, at 725.5 people per square kilometre. It has several large towns rather than one centre: Cumbernauld, Coatbridge, Airdrie, Motherwell and Wishaw each have more than 30,000 people, with Bellshill, Viewpark and Kilsyth next. All teaching is live on video from India, and a free first lesson settles each learner's starting stage, whether P1, S6 or adult. Learners aged 6 to 67 study coding, Python and maths one-to-one or in groups of five to ten. The North Lanarkshire project comes from a remarkable factory in Shotts. Carry on after that and a shared class is USD 100 per month, while a private teacher is USD 150 per month.
+**What are the best coding classes in North Lanarkshire?** North Lanarkshire is one of Scotland's most populous council areas, with about 341,000 residents in roughly 151,400 households at the 2022 census, at 725.5 people per square kilometre. It has several large towns rather than one centre: Cumbernauld, Coatbridge, Airdrie, Motherwell and Wishaw each have more than 30,000 people, with Bellshill, Viewpark and Kilsyth next. All teaching is live on video from India, and a free first lesson settles each learner's starting stage, whether P1, S6 or adult. Learners aged 6 to 67 study coding, Python and maths one-to-one or in groups of fifteen to twenty. The North Lanarkshire project comes from a remarkable factory in Shotts. Carry on after that and a shared class is USD 100 per month, while a private teacher is USD 150 per month.
 
 In Shotts, Historic Environment Scotland lists a former Cummins diesel engine factory at Category A, calling it one of the most significant large industrial buildings of later 20th century Britain. The architects, Ahrends, Burton and Koralek, laid it out as five main units along the production line, and the listing notes their distinctive use of primary colours to code individual units, with exposed services painted yellow, green or purple. Colour coding only works if every colour is easy to tell from every other. A computer stores colours as three numbers, red, green and blue, and it is tempting to measure how different two colours are by the distance between those numbers. This page's project tests that idea in Python and finds it misleads.
 
-Facts last verified 26 September 2026. Teaching is online; no North Lanarkshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no North Lanarkshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## How North Lanarkshire learners usually begin
 
@@ -138,7 +138,7 @@ Busy towns and smaller villages across North Lanarkshire join in the same way.
 - **Hands on the keyboard** Learners write and run their own code; the teacher watches the shared screen and helps at the right moment.
 - **P, S and National 5, not years** Teachers use the Curriculum for Excellence stages that Motherwell and Airdrie schools use, from P1 to Advanced Higher, and teach in English.
 - **A free first lesson** A proper lesson at no cost, then a clear suggestion for what to take next.
-- **Groups by stage** Five to ten learners at one stage in each group, with classmates from other countries.
+- **Groups by stage** Fifteen to twenty learners at one stage in each group, with classmates from other countries.
 - **Term time only** Twice weekly in term, stopping for the school holidays.
 - **UK time that does not shift** Once booked, your lesson stays at its UK time across the clock changes; our India time teachers adjust.
 
@@ -149,7 +149,7 @@ Busy towns and smaller villages across North Lanarkshire join in the same way.
 Airdrie or Kilsyth, the fee is the same, and it matches what we charge in every country outside India.
 
 - First class: USD 0. One full lesson for free, then our recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten at one stage.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty at one stage.
 - Private tuition: USD 150 a month. About eight lessons a month with your own teacher.
 
 Fees are in US dollars, and there is no sterling price list. No money changes hands until the trial lesson has fixed a course and a weekly slot. Holiday breaks, missed sessions and swaps between formats are covered on our pricing page.
@@ -190,7 +190,7 @@ Ages 6 to 67: blocks for young children, Python and exam maths in secondary, and
 
 ### What does it cost?
 
-Zero for the trial lesson; then USD 100 monthly in a group of five to ten, or USD 150 monthly on your own with a teacher.
+Zero for the trial lesson; then USD 100 monthly in a group of fifteen to twenty, or USD 150 monthly on your own with a teacher.
 
 ### What happens in the school holidays?
 

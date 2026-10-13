@@ -12,7 +12,7 @@ Live online · serving Berhampur
 
 Real programming for kids, teens and college students in Berhampur, from **Gandhi Nagar to Goilundi, Hill Patna to Ankushpur**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Berhampur)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**BerhampurEnrollingAreasGandhi Nagar, Goilundi, Hill Patna, Ankushpur, Aska Road & all of BerhampurBoardsBSE Odisha · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across BerhampurFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Berhampur)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**BerhampurEnrollingAreasGandhi Nagar, Goilundi, Hill Patna, Ankushpur, Aska Road & all of BerhampurBoardsBSE Odisha · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across BerhampurFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for Berhampur's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Berhampur: FAQs
 
-Which is the best coding class in Berhampur for kids?Modern Age Coders runs Berhampur's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python, in small batches of 5-8, taught by industry instructors. We cover all of Berhampur (Brahmapur): Gandhi Nagar, Hill Patna, Aska Road, Lanjipalli, Gosaninuagaon, Old Berhampur, the Gate Bazar core and the Berhampur University area, plus nearby Gopalpur, Chhatrapur, Aska, Hinjilicut and Chikiti.Are the classes online, and do you cover all of Berhampur and the Ganjam district?Yes. Every class is live and online, so a learner in Gandhi Nagar, Hill Patna, Engineering School Road, Bijipur, Lanjipalli or the Berhampur University area joins the same expert teacher from home, and so does a child in Gopalpur-on-Sea, Chhatrapur, Aska or Hinjilicut. No travel through Gate Bazar traffic; sessions are interactive with live coding, screen-sharing and saved recordings.How much do coding classes cost in Berhampur?Group classes (5-8 students) start at Rs.1499/month for 2 live classes per week. The Mini Batch (3-4 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student begins with a free demo class, and there are no hidden fees.Does this suit CBSE, ICSE and Odisha Board (BSE/CHSE) students in Berhampur?Yes. We teach students from CBSE, ICSE and Odisha Board (BSE/CHSE) schools across Berhampur. Coding supports school Computer Science, IT and the NEP-2020 AI modules while strengthening the maths and reasoning that help in board exams, engineering and medical entrances, and a Berhampur University college path.What is the best age to start coding in Berhampur?Age 8 is ideal for visual, block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college or working learners (18+), so the starting point always matches the child.What is the Vibe Coding & AI Agents course?Vibe coding means describing what you want, letting an AI build a first draft, then refining it, and AI coding agents like Codex and Claude Code are how engineers ship software in 2026. We teach this modern workflow alongside the fundamentals underneath, in versions for kids, teens, college students and professionals.Do you prepare Berhampur college students for placements and remote work?Yes. The college track is built end-to-end around placements: Python, a 200+ problem DSA grind, full mock-interview rounds, a complete MERN project and a real AI/Data-Science portfolio. It is designed for Berhampur University students, engineering aspirants and serious self-learners targeting product companies, GCCs and remote roles, so a young person can launch a tech career from the Silk City itself.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Do you teach coding to BSE Odisha students in Berhampur?Yes. Berhampur schools run the Odisha board, BSE Odisha for Class 10 and CHSE for Plus Two, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Berhampur University students join your programming courses?Yes. Berhampur University has served the region since 1967, so the theory is close at hand. The college track adds the applied half: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown to a recruiter.
+Which is the best coding class in Berhampur for kids?Modern Age Coders runs Berhampur's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python, in batches of 15-20, taught by industry instructors. We cover all of Berhampur (Brahmapur): Gandhi Nagar, Hill Patna, Aska Road, Lanjipalli, Gosaninuagaon, Old Berhampur, the Gate Bazar core and the Berhampur University area, plus nearby Gopalpur, Chhatrapur, Aska, Hinjilicut and Chikiti.Are the classes online, and do you cover all of Berhampur and the Ganjam district?Yes. Every class is live and online, so a learner in Gandhi Nagar, Hill Patna, Engineering School Road, Bijipur, Lanjipalli or the Berhampur University area joins the same expert teacher from home, and so does a child in Gopalpur-on-Sea, Chhatrapur, Aska or Hinjilicut. No travel through Gate Bazar traffic; sessions are interactive with live coding, screen-sharing and saved recordings.How much do coding classes cost in Berhampur?Group classes (15-20 students) start at Rs.1499/month for 2 live classes per week. The Mini Batch (up to 6 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student begins with a free demo class, and there are no hidden fees.Does this suit CBSE, ICSE and Odisha Board (BSE/CHSE) students in Berhampur?Yes. We teach students from CBSE, ICSE and Odisha Board (BSE/CHSE) schools across Berhampur. Coding supports school Computer Science, IT and the NEP-2020 AI modules while strengthening the maths and reasoning that help in board exams, engineering and medical entrances, and a Berhampur University college path.What is the best age to start coding in Berhampur?Age 8 is ideal for visual, block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college or working learners (18+), so the starting point always matches the child.What is the Vibe Coding & AI Agents course?Vibe coding means describing what you want, letting an AI build a first draft, then refining it, and AI coding agents like Codex and Claude Code are how engineers ship software in 2026. We teach this modern workflow alongside the fundamentals underneath, in versions for kids, teens, college students and professionals.Do you prepare Berhampur college students for placements and remote work?Yes. The college track is built end-to-end around placements: Python, a 200+ problem DSA grind, full mock-interview rounds, a complete MERN project and a real AI/Data-Science portfolio. It is designed for Berhampur University students, engineering aspirants and serious self-learners targeting product companies, GCCs and remote roles, so a young person can launch a tech career from the Silk City itself.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Do you teach coding to BSE Odisha students in Berhampur?Yes. Berhampur schools run the Odisha board, BSE Odisha for Class 10 and CHSE for Plus Two, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Berhampur University students join your programming courses?Yes. Berhampur University has served the region since 1967, so the theory is close at hand. The college track adds the applied half: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown to a recruiter.
 
 ## Ready to start your child's coding journey in Berhampur?
 

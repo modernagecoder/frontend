@@ -188,7 +188,7 @@ module.exports = {
         ] },
         { kind: 'two', mt: true,
           left: [
-            'Lessons are live on video, so a child in Brighouse, Sowerby Bridge, Hebden Bridge or Elland is taught the same way, in groups of five to ten matched by level.',
+            'Lessons are live on video, so a child in Brighouse, Sowerby Bridge, Hebden Bridge or Elland is taught the same way, in groups of fifteen to twenty matched by level.',
             'For coding lessons in West Yorkshire and beyond, our <a class="ag-inline-link" href="/best-coding-class-in-leeds">Leeds coding page</a> and <a class="ag-inline-link" href="/coding-classes-in-united-kingdom">UK page</a> cover more.'
           ],
           right: [
@@ -274,7 +274,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'One monthly US dollar fee for families outside India. No joining fee; you may stop at any time.',
     free: ['A taught lesson', 'A frank verdict', 'No card needed'],
-    group: ['Five to ten pupils at one level', 'A regular teacher', 'Work checked together', 'Certificate at the end'],
+    group: ['Fifteen to twenty pupils at one level', 'A regular teacher', 'Work checked together', 'Certificate at the end'],
     one: ['One child, one teacher', 'Aimed at weak spots', 'Flexible timing']
   },
 
@@ -291,7 +291,7 @@ module.exports = {
       { q: 'Does FSCE recommend a tutor?', a: 'No. FSCE says a tutor is not needed and that it does not endorse commercial practice papers. We teach Year 5 maths and make no claim to know the test.' },
       { q: 'Do you teach English or creative writing?', a: 'No. Our lessons are maths lessons; the English sections, the creative writing paper and the admissions process are outside what we do.' },
       { q: 'Which schools use the test?', a: 'North Halifax Grammar School and The Crossley Heath School, jointly.' },
-      { q: 'What do lessons cost?', a: 'A trial lesson is on us. Families who stay pay monthly: USD 100 for a class of five to ten, USD 150 for lessons with a teacher to themselves.' }
+      { q: 'What do lessons cost?', a: 'A trial lesson is on us. Families who stay pay monthly: USD 100 for a class of fifteen to twenty, USD 150 for lessons with a teacher to themselves.' }
     ]
   },
 

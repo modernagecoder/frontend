@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'Coding classes in Torfaen',
   capsuleQ: 'What are the best coding classes in Torfaen?',
-  capsule: 'The 2021 census found 92,276 people in Torfaen. About half live in Cwmbrân, a built-up area of 47,090, and Pontypool holds another 29,070, with Abersychan, Blaenavon and Ponthir making up the rest of the larger places. Our teachers, based in India, run each lesson live by video. Anyone from 6 to 67 can learn coding, Python or maths, either with a private tutor or in a class of five to ten who share a level. The first lesson is free and settles the right course. The Torfaen project starts inside a grotto lined with shells. Continuing costs USD 100 a month for a group, or USD 150 a month for one-to-one.',
+  capsule: 'The 2021 census found 92,276 people in Torfaen. About half live in Cwmbrân, a built-up area of 47,090, and Pontypool holds another 29,070, with Abersychan, Blaenavon and Ponthir making up the rest of the larger places. Our teachers, based in India, run each lesson live by video. Anyone from 6 to 67 can learn coding, Python or maths, either with a private tutor or in a class of fifteen to twenty who share a level. The first lesson is free and settles the right course. The Torfaen project starts inside a grotto lined with shells. Continuing costs USD 100 a month for a group, or USD 150 a month for one-to-one.',
   lead: 'In the 1830s, Cadw\'s record suggests, Capel Hanbury Leigh of Pontypool Park put up a small round building to give work to 85 estate workers who had none. Its outside is plain rubble stone. Inside, every wall and the vaulted ceiling are covered in shells, quartz, mica and crystals, and each roof section ends in a pink conch. The decoration is said to have been designed, and partly made, by his first wife, Molly Mackworth. Look at a conch or a snail and the spiral seems to grow as it turns, each whorl a fixed step wider than the last. Look at a coiled rope and the gap between turns stays the same. Those are two different kinds of spiral, and this page\'s project teaches Python to tell them apart.',
   wa: 'Hello Modern Age Coders, we are in Torfaen and would like to book a free lesson, please.',
 
@@ -160,7 +160,7 @@ module.exports = {
       { h3: 'Own code, own keyboard', p: 'The learner writes the program; the teacher sees the shared screen and helps by asking the next question.' },
       { h3: 'Welsh years used', p: 'An Abersychan Year 4 or a Pontypool Year 13 is placed by Welsh school year and progression step, and exams keep their WJEC names. Classes are taught in English.' },
       { h3: 'No-cost start', p: 'Your first lesson is free and ends with plain advice.' },
-      { h3: 'Grouped by level', p: 'Five to ten students at one stage, from all over the UK.' },
+      { h3: 'Grouped by level', p: 'Fifteen to twenty students at one stage, from all over the UK.' },
       { h3: 'Term-time', p: 'Two sessions a week during term, none in the holidays.' },
       { h3: 'Steady through clock changes', p: 'Your lesson keeps its British time in March and October; our teachers do the adjusting.' }
     ],

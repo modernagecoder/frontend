@@ -178,7 +178,7 @@ Teaching is live on video from India, five and a half hours ahead of the UK in w
 
 - **Predict before running** Children say what a program will do before they run it, which is how a short program gets understood rather than copied.
 - **Sensors explained** We teach what a sensor reading actually is, so the line that sets a background colour is not magic.
-- **Five to ten children** Enough for ideas to cross the room, few enough that every screen gets looked at.
+- **Fifteen to twenty children** Enough for ideas to cross the room, few enough that every screen gets looked at.
 - **Our own examples** Written by us. The organiser publishes its own guides and we do not copy them.
 - **One to one when useful** For a child far ahead of their year, or one working on Mission Space Lab.
 - **We do not submit** A mentor submits an Astro Pi entry. We teach the Python and have no role in the challenge.
@@ -188,7 +188,7 @@ Teaching is live on video from India, five and a half hours ahead of the UK in w
 US dollars, charged monthly, at one rate for every country except India. No sign-up fee and no term to commit to.
 
 - Free first class: USD 0. A whole lesson, taught not pitched. An honest answer about the right level. Nothing asked for but a phone number.
-- Group batch: USD 100 a month. Five to ten children at one level. The same teacher every week. Code looked at line by line. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. The same teacher every week. Code looked at line by line. A certificate at the end.
 - One to one: USD 150 a month. A teacher working with one child. Shaped around what they are making. Useful when a group hour will not fit.
 
 ## What parents and teachers ask

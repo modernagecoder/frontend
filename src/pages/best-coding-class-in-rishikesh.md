@@ -12,7 +12,7 @@ Live online · serving Rishikesh
 
 Real programming for kids, teens and college students in Rishikesh, from **Tapovan to Lakshman Jhula, Ram Jhula to Muni Ki Reti**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Rishikesh)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**RishikeshEnrollingAreasTapovan, Lakshman Jhula, Ram Jhula, Muni Ki Reti, Swarg Ashram & all of RishikeshBoardsUBSE · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across RishikeshFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Rishikesh)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**RishikeshEnrollingAreasTapovan, Lakshman Jhula, Ram Jhula, Muni Ki Reti, Swarg Ashram & all of RishikeshBoardsUBSE · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across RishikeshFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for Rishikesh's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Rishikesh: FAQs
 
-Which is the best coding class in Rishikesh for kids?Modern Age Coders runs Rishikesh's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and progress to Python, in small batches of 5-8 taught by industry instructors. Because every session is live and online, a child in Tapovan, Muni Ki Reti, Lakshman Jhula, Triveni Ghat or near AIIMS Rishikesh joins the very same teacher from home.Are coding classes in Rishikesh online, and do you cover the whole town and nearby areas?Yes, all classes are live and online, so geography is no barrier in the hills. Students from Tapovan, Lakshman Jhula, Ram Jhula, Muni Ki Reti, Swarg Ashram, Triveni Ghat, Dehradun Road, Veerbhadra and IDPL, plus nearby Narendra Nagar, Shivpuri, Tehri, Haridwar and Dehradun, all learn from the same expert teacher. Sessions are interactive with live coding, screen sharing and recordings.How much do coding classes cost in Rishikesh?Group classes (5-8 students) start at Rs.1499/month for 2 live classes per week. Mini Batch (3-4 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Can a child in Rishikesh build a global tech career without moving away?Yes. That is the whole point. The world already comes to Rishikesh for yoga and the Ganga; coding lets your child reach the world the other way. Software, AI and remote work are location-independent, so a student here can build for clients and companies anywhere on Earth while staying in the hills they grew up in. We teach exactly the in-demand skills that make that possible.Which boards and exams do your courses support in Rishikesh?Our kids and teen tracks align with the Computer Science and AI content in the CBSE, ICSE and Uttarakhand Board (UBSE) curricula. The logical reasoning coding builds also helps JEE, NEET and Olympiad aspirants, including students aiming for AIIMS Rishikesh and engineering colleges across Uttarakhand. We also teach school and Olympiad mathematics alongside coding.What age is best to start coding in Rishikesh?Age 8 is ideal to begin with visual, block-based coding (Scratch). For text languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college or working learners (18+), so the starting point always matches the learner.Do you teach Vibe Coding and AI agents in Rishikesh?Yes. Our flagship Vibe Coding and AI Agents track teaches students to build software by directing AI tools like Codex and Claude Code, while still mastering the fundamentals underneath. It is the same agentic workflow professional engineers use in 2026, and it puts a Rishikesh learner on the global frontier from day one.Do you provide certificates and is there a free demo or refund?Every student receives a completion certificate that strengthens school portfolios and college applications. There is a free demo class before you enrol, and if the fit isn't right after the first paid week we offer a full refund, no fine print.Do you teach coding to Uttarakhand Board students in Rishikesh?Yes. Rishikesh schools run the Uttarakhand board, UBSE, along with CBSE and ICSE, and our classes are live online and fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can college students in Rishikesh join your programming courses?Yes. Whether you study at AIIMS Rishikesh or an engineering college nearby, the college track is the same: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown to a recruiter. A transcript rarely shows built work, and that is the gap we fill.
+Which is the best coding class in Rishikesh for kids?Modern Age Coders runs Rishikesh's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and progress to Python, in batches of 15-20 taught by industry instructors. Because every session is live and online, a child in Tapovan, Muni Ki Reti, Lakshman Jhula, Triveni Ghat or near AIIMS Rishikesh joins the very same teacher from home.Are coding classes in Rishikesh online, and do you cover the whole town and nearby areas?Yes, all classes are live and online, so geography is no barrier in the hills. Students from Tapovan, Lakshman Jhula, Ram Jhula, Muni Ki Reti, Swarg Ashram, Triveni Ghat, Dehradun Road, Veerbhadra and IDPL, plus nearby Narendra Nagar, Shivpuri, Tehri, Haridwar and Dehradun, all learn from the same expert teacher. Sessions are interactive with live coding, screen sharing and recordings.How much do coding classes cost in Rishikesh?Group classes (15-20 students) start at Rs.1499/month for 2 live classes per week. Mini Batch (up to 6 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Can a child in Rishikesh build a global tech career without moving away?Yes. That is the whole point. The world already comes to Rishikesh for yoga and the Ganga; coding lets your child reach the world the other way. Software, AI and remote work are location-independent, so a student here can build for clients and companies anywhere on Earth while staying in the hills they grew up in. We teach exactly the in-demand skills that make that possible.Which boards and exams do your courses support in Rishikesh?Our kids and teen tracks align with the Computer Science and AI content in the CBSE, ICSE and Uttarakhand Board (UBSE) curricula. The logical reasoning coding builds also helps JEE, NEET and Olympiad aspirants, including students aiming for AIIMS Rishikesh and engineering colleges across Uttarakhand. We also teach school and Olympiad mathematics alongside coding.What age is best to start coding in Rishikesh?Age 8 is ideal to begin with visual, block-based coding (Scratch). For text languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college or working learners (18+), so the starting point always matches the learner.Do you teach Vibe Coding and AI agents in Rishikesh?Yes. Our flagship Vibe Coding and AI Agents track teaches students to build software by directing AI tools like Codex and Claude Code, while still mastering the fundamentals underneath. It is the same agentic workflow professional engineers use in 2026, and it puts a Rishikesh learner on the global frontier from day one.Do you provide certificates and is there a free demo or refund?Every student receives a completion certificate that strengthens school portfolios and college applications. There is a free demo class before you enrol, and if the fit isn't right after the first paid week we offer a full refund, no fine print.Do you teach coding to Uttarakhand Board students in Rishikesh?Yes. Rishikesh schools run the Uttarakhand board, UBSE, along with CBSE and ICSE, and our classes are live online and fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can college students in Rishikesh join your programming courses?Yes. Whether you study at AIIMS Rishikesh or an engineering college nearby, the college track is the same: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown to a recruiter. A transcript rarely shows built work, and that is the gap we fill.
 
 ## Ready to start your child's coding journey in Rishikesh?
 

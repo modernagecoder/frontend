@@ -172,7 +172,7 @@ A live task reveals current reasoning and is free.
 
 ### Group
 
-Five to eight learners share a level and teacher.
+Fifteen to twenty learners share a level and teacher.
 
 ### Private
 
@@ -202,7 +202,7 @@ No enrolment charge, nothing to buy, no minimum term.
 
 GroupUSD 100a month for 8 classes
 
-Five to eight learners working at a shared stage.
+Fifteen to twenty learners working at a shared stage.
 
 PrivateUSD 150a month for 8 classes
 
@@ -298,7 +298,7 @@ A suitable recurring time may fall from Sunday to Thursday or on the Friday and 
 
 ### What is the monthly fee for Qurum coding classes?
 
-Group teaching costs USD 100 a month and places five to eight learners together at a compatible level. Private teaching costs USD 150 a month and pairs one student with one teacher. Each format normally includes two live lessons a week, eight a month. The first class is free and there is no enrolment fee.
+Group teaching costs USD 100 a month and places fifteen to twenty learners together at a compatible level. Private teaching costs USD 150 a month and pairs one student with one teacher. Each format normally includes two live lessons a week, eight a month. The first class is free and there is no enrolment fee.
 
 ### Are adults in Qurum eligible for the same programme?
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Argyll and But
 canonical: https://learn.modernagecoders.com/coding-classes-in-argyll-and-bute
 source: src/pages/coding-classes-in-argyll-and-bute.html
 ---
-> Argyll and Bute is one council area of sea lochs, peninsulas and islands, where Scotland's Census 2022 found about 86,000 people in roughly 41,900 households, at just 12.5 people per square kilometre. Helensburgh is the largest town, then Oban, Dunoon, Campbeltown and Rothesay. We teach every lesson live over video from India, so an island is no barrier, and we place each learner by ability, from Primary 1 to S6 and adults. Ages 6 to 67 join groups of five to ten or have one-to-one lessons in coding, Python, statistics and maths. The Argyll and Bute project uses the Met Office record from Tiree. Trying us is free for one lesson; afterwards a group seat is USD 100 per month and private tuition USD 150 per month.
+> Argyll and Bute is one council area of sea lochs, peninsulas and islands, where Scotland's Census 2022 found about 86,000 people in roughly 41,900 households, at just 12.5 people per square kilometre. Helensburgh is the largest town, then Oban, Dunoon, Campbeltown and Rothesay. We teach every lesson live over video from India, so an island is no barrier, and we place each learner by ability, from Primary 1 to S6 and adults. Ages 6 to 67 join groups of fifteen to twenty or have one-to-one lessons in coding, Python, statistics and maths. The Argyll and Bute project uses the Met Office record from Tiree. Trying us is free for one lesson; afterwards a group seat is USD 100 per month and private tuition USD 150 per month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Argyll and Bute
 
@@ -12,11 +12,11 @@ Argyll and Bute / Live online
 
 # Coding classes in Argyll and Bute
 
-**What are the best coding classes in Argyll and Bute?** Argyll and Bute is one council area of sea lochs, peninsulas and islands, where Scotland's Census 2022 found about 86,000 people in roughly 41,900 households, at just 12.5 people per square kilometre. Helensburgh is the largest town, then Oban, Dunoon, Campbeltown and Rothesay. We teach every lesson live over video from India, so an island is no barrier, and we place each learner by ability, from Primary 1 to S6 and adults. Ages 6 to 67 join groups of five to ten or have one-to-one lessons in coding, Python, statistics and maths. The Argyll and Bute project uses the Met Office record from Tiree. Trying us is free for one lesson; afterwards a group seat is USD 100 per month and private tuition USD 150 per month.
+**What are the best coding classes in Argyll and Bute?** Argyll and Bute is one council area of sea lochs, peninsulas and islands, where Scotland's Census 2022 found about 86,000 people in roughly 41,900 households, at just 12.5 people per square kilometre. Helensburgh is the largest town, then Oban, Dunoon, Campbeltown and Rothesay. We teach every lesson live over video from India, so an island is no barrier, and we place each learner by ability, from Primary 1 to S6 and adults. Ages 6 to 67 join groups of fifteen to twenty or have one-to-one lessons in coding, Python, statistics and maths. The Argyll and Bute project uses the Met Office record from Tiree. Trying us is free for one lesson; afterwards a group seat is USD 100 per month and private tuition USD 150 per month.
 
 The Met Office keeps a long weather record from Tiree, low and flat in the Atlantic, and another from Braemar, high in the Cairngorms. Both felt the famous cold of January 1963, but Tiree dropped 3.4 degrees below its usual January while Braemar dropped 5.9. Which was the more unusual winter? Comparing degrees alone is unfair, because Braemar's Januaries always swing more than Tiree's. This page's project fixes that with one of the most useful ideas in statistics: the standard deviation, and the z-score, which measures how unusual a value is in its own place's terms. Then it checks whether the familiar bell curve really describes 65 years of Januaries.
 
-Facts last verified 26 September 2026. Teaching is online; no Argyll and Bute branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Argyll and Bute branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Argyll and Bute learners start
 
@@ -138,7 +138,7 @@ Ferries and long roads make a weekly class a real undertaking in Argyll and Bute
 - **On the island or the mainland** A croft on Tiree, a flat in Rothesay, a house in Helensburgh. The pupil codes while the teacher follows the same screen.
 - **Scottish stages** Whether a pupil is in P6, S3 or sitting Highers, teachers talk about school the way Argyll and Bute classrooms do, in English.
 - **No charge to try** A proper lesson, then honest advice on level and course. No card details are asked for.
-- **The right group** Five to ten pupils at the same stage, which a small island rarely has locally.
+- **The right group** Fifteen to twenty pupils at the same stage, which a small island rarely has locally.
 - **Term-time rhythm** Two lessons a week during term, pausing for the council's school holidays.
 - **UK time on your side** Lessons are booked and kept in UK time all year; our teachers, on India time, handle the clock changes.
 
@@ -149,7 +149,7 @@ Ferries and long roads make a weekly class a real undertaking in Argyll and Bute
 Oban or the smallest island, the fee is the same, as it is everywhere we teach except India.
 
 - First class: USD 0. A whole lesson with real work, then a suggested level and course.
-- Group tuition: USD 100 a month. Around eight lessons a month with five to ten learners at one level.
+- Group tuition: USD 100 a month. Around eight lessons a month with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Around eight lessons a month, one teacher and one learner.
 
 Everything is priced in US dollars; there are no pound prices. We charge nothing until the free lesson has agreed a course and a weekly time, and the pricing page explains holidays, missed lessons and changing format.

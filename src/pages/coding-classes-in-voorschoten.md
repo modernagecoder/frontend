@@ -16,7 +16,7 @@ Voorschoten, Zuid-Holland / Live online
 
 Every old building in Voorschoten carries a decision. Kasteel Duivenvoorde has been privately owned since 1226, adapted and repaired rather than replaced, so that what stands today still holds the choices of many earlier owners. The village church went the other way: the building completed in 1868 in the English neo-Gothic style is the fourth on its spot, each predecessor taken down to make room for the next. Software projects make the same decision under pressure. A tangled program can be improved in small steps, keeping it working throughout, a practice programmers call refactoring. Or it can be rewritten from scratch, which feels clean and fast and very often is neither, because old code is full of small fixes for problems nobody remembers, and a rewrite quietly throws them away. The skill is knowing which situation you are in, and making a rewrite safe when it really is the right call.
 
-Facts last verified 11 September 2026. Teaching is online; no Voorschoten branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Voorschoten branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the village between Leiden and The Hague
 
@@ -181,7 +181,7 @@ From the Vlietwijk by the canal to Boschgeest and the green south, the village i
 - **A short walk to nowhere** A learner in Adegeest and a learner in Dobbewijk begin the lesson together, each at home. Nobody bikes to Leiden or The Hague for it, and nobody waits to be collected.
 - **Dutch school labels kept** Groep, brugklas, vmbo, havo, vwo and the profielkeuze are used as Voorschoten families know them, while the teaching is in English.
 - **The first hour costs nothing** It is a full lesson on a real task. The teacher then recommends a level, a course and a weekly time, and no payment details are asked for.
-- **Classmates at your stage** Five to ten learners at the same point in the same subject. Voorschoten has 4,048 residents under fifteen, too few to fill every stage and hour locally, so groups include learners from other places.
+- **Classmates at your stage** Fifteen to twenty learners at the same point in the same subject. Voorschoten has 4,048 residents under fifteen, too few to fill every stage and hour locally, so groups include learners from other places.
 - **Regio Midden weeks off** Twice a week, around eight lessons a month, at one set hour, pausing for the regio Midden holidays that Zuid-Holland schools keep.
 - **Time in India, evenings here** The teachers are three and a half hours ahead of Voorschoten in summer and four and a half in winter, so late afternoons, evenings and weekend mornings are all open.
 
@@ -192,7 +192,7 @@ From the Vlietwijk by the canal to Boschgeest and the green south, the village i
 The whole price, in three lines.
 
 - First class: USD 0. A genuine lesson on a genuine task, finishing with a level and a course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one teacher for one learner.
 
 The dollar fee is the same in every country and there is no euro list, so a household in Krimwijk pays what a household in Starrenburg pays. Nothing is charged until the free lesson has fixed a course and a time, and payment is then arranged on WhatsApp. The pricing page explains pauses, changes of format and missed lessons.
@@ -233,7 +233,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Voorschoten coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

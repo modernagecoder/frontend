@@ -16,7 +16,7 @@ Homebush, Strathfield Council, Sydney / Live online
 
 A month is not 30 days. Every programmer knows that, and almost every programmer has written a loop that forgets it. In this project learners step through Homebush Station's monthly entry counts, starting at 1 October 2024, by adding 30 days each time. Only the very first step lands in the month it should. October 2024 gets read twice, August 2026 never gets read at all, and the row labelled August 2026 quietly holds July's count of 95,452 instead of the real 97,496. Then they fix it with true month arithmetic.
 
-Facts last verified 10 October 2026. Teaching is online; no Homebush branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Homebush branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python courses that handle real data
 
@@ -183,7 +183,7 @@ Every class is live with a teacher and joined from home, so there is no commute.
 - **Joined from home** A laptop or desktop and headphones are all that is needed.
 - **School holidays** Families can pause lessons for the NSW school holidays.
 - **A free start** One full lesson free, then a recommended course and lesson time.
-- **Groups or private** Join five to ten learners at the same level, or learn alone with a teacher.
+- **Groups or private** Join fifteen to twenty learners at the same level, or learn alone with a teacher.
 - **Twice weekly** Two fixed lessons a week, around eight in a month, with breaks planned ahead.
 - **India time** A 7pm Homebush lesson starts at 1:30pm India time in daylight saving and 2:30pm after it ends.
 
@@ -194,7 +194,7 @@ Every class is live with a teacher and joined from home, so there is no commute.
 Three figures cover everything.
 
 - First class: USD 0. The first lesson is free and finishes with a clear recommendation.
-- Group tuition: USD 100 a month. Group places cover two lessons every week, so about eight a month, alongside five to ten classmates of similar level.
+- Group tuition: USD 100 a month. Group places cover two lessons every week, so about eight a month, alongside fifteen to twenty classmates of similar level.
 - Private tuition: USD 150 a month. The same two lessons a week, taught to one learner only.
 
 Outside India all invoices are in US dollars. Payment begins only after the trial, once a course and times are agreed; the pricing page covers holidays and missed lessons.
@@ -235,7 +235,7 @@ No. All lessons are live online and we have no premises in Australia. The phone 
 
 ### What do classes cost in Homebush?
 
-The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one.
+The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one.
 
 ### How many learners are in a group?
 

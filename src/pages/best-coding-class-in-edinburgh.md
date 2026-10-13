@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Edinburgh lea
 canonical: https://learn.modernagecoders.com/best-coding-class-in-edinburgh
 source: src/pages/best-coding-class-in-edinburgh.html
 ---
-> Scotland's Census 2022 counted about 512,700 usual residents in the City of Edinburgh, up from 476,626 in 2011, and 70.3% of them were aged 15 to 64 against 64.6% across Scotland. The city has had a Royal Observatory since 1822, first on Calton Hill and since 1896 on Blackford Hill. Modern Age Coders teaches Edinburgh learners aged six to sixty-seven in live online lessons, one to one or in a group of five to ten at one level, with teachers based in India and lesson times fixed in UK hours. The first lesson is free. From the second month on, a group place is USD 100 and private teaching USD 150, each per month.
+> Scotland's Census 2022 counted about 512,700 usual residents in the City of Edinburgh, up from 476,626 in 2011, and 70.3% of them were aged 15 to 64 against 64.6% across Scotland. The city has had a Royal Observatory since 1822, first on Calton Hill and since 1896 on Blackford Hill. Modern Age Coders teaches Edinburgh learners aged six to sixty-seven in live online lessons, one to one or in a group of fifteen to twenty at one level, with teachers based in India and lesson times fixed in UK hours. The first lesson is free. From the second month on, a group place is USD 100 and private teaching USD 150, each per month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Edinburgh
 
@@ -12,11 +12,11 @@ Edinburgh, Scotland / Live online
 
 # Coding classes in Edinburgh
 
-**What are the best coding classes in Edinburgh?** Scotland's Census 2022 counted about 512,700 usual residents in the City of Edinburgh, up from 476,626 in 2011, and 70.3% of them were aged 15 to 64 against 64.6% across Scotland. The city has had a Royal Observatory since 1822, first on Calton Hill and since 1896 on Blackford Hill. Modern Age Coders teaches Edinburgh learners aged six to sixty-seven in live online lessons, one to one or in a group of five to ten at one level, with teachers based in India and lesson times fixed in UK hours. The first lesson is free. From the second month on, a group place is USD 100 and private teaching USD 150, each per month.
+**What are the best coding classes in Edinburgh?** Scotland's Census 2022 counted about 512,700 usual residents in the City of Edinburgh, up from 476,626 in 2011, and 70.3% of them were aged 15 to 64 against 64.6% across Scotland. The city has had a Royal Observatory since 1822, first on Calton Hill and since 1896 on Blackford Hill. Modern Age Coders teaches Edinburgh learners aged six to sixty-seven in live online lessons, one to one or in a group of fifteen to twenty at one level, with teachers based in India and lesson times fixed in UK hours. The first lesson is free. From the second month on, a group place is USD 100 and private teaching USD 150, each per month.
 
 On Edinburgh's longest day in 2026 the sun is above the horizon for 17 hours 37 minutes, about an hour longer than in London; on the shortest it manages 6 hours 57 minutes. For 96 nights, from 4 May to 7 August, the sky never becomes truly dark, because the sun never sinks the 18 degrees below the horizon that astronomers call astronomical darkness. At midsummer it dips only 10.6 degrees. All of that follows from a few lines of spherical trigonometry: the sun's position in the sky, the time of day and Edinburgh's latitude of almost 56 degrees north. We wrote a program that works out the sun's height every minute of every day of the year, then checked its sunrises and sunsets against the United States Naval Observatory. On every date tested it agreed to within a minute. Building that model, and proving it right, is the lesson Edinburgh's sky teaches our teenage learners.
 
-Facts last verified 21 September 2026. Teaching is online; no Edinburgh branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 21 September 2026. Teaching is online; no Edinburgh branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the observatory city
 
@@ -65,7 +65,7 @@ Children aged 0 to 14 were 13.7% and people aged 65 and over 16.0%, both below S
 
 With 1,946.5 residents per square kilometre, Edinburgh is far denser than Scotland's average of 69.8.
 
-National Records of Scotland also reports that 21.1% of Edinburgh households had dependent children in 2022. Learners here can be at any stage, from a P5 pupil in Portobello making a first animation to an S4 student in Corstorphine working towards National 5 Computing Science, or an adult in Leith learning Python for work, and each joins a group of five to ten at their own level.
+National Records of Scotland also reports that 21.1% of Edinburgh households had dependent children in 2022. Learners here can be at any stage, from a P5 pupil in Portobello making a first animation to an S4 student in Corstorphine working towards National 5 Computing Science, or an adult in Leith learning Python for work, and each joins a group of fifteen to twenty at their own level.
 
 ## Two observatories and a castle rock
 
@@ -177,7 +177,7 @@ Edinburgh's hills and cobbles slow down every journey; a live online lesson skip
 - **Old Town to outer estates** A learner in Stockbridge and another in Gilmerton can share a lesson without either crossing the city.
 - **Scottish stages, Scottish names** P1 to P7, S1 to S6, National 5, Higher and Advanced Higher: we use the stage names Edinburgh schools use, and every lesson is in English.
 - **A first lesson that teaches** The free lesson covers a real task and ends by recommending a level, a course and a weekly time. No card details are needed.
-- **Groups built on level** Five to ten learners at one stage, from Edinburgh, elsewhere in the UK and abroad, so every level has a slot that works.
+- **Groups built on level** Fifteen to twenty learners at one stage, from Edinburgh, elsewhere in the UK and abroad, so every level has a slot that works.
 - **Twice a week, fixed times** Two lessons a week at the same times, around eight a month, with holiday and exam breaks agreed with the teacher in advance.
 - **Taught from India** India Standard Time never shifts, so our teachers are four and a half hours ahead of Edinburgh in British Summer Time and five and a half in winter; after-school and evening lessons fall inside their day.
 
@@ -188,7 +188,7 @@ Edinburgh's hills and cobbles slow down every journey; a live online lesson skip
 A free first lesson and then one monthly price.
 
 - First class: USD 0. A full lesson at no cost, ending with a level, a recommended course and a proposed weekly time.
-- Group tuition: USD 100 a month. Around eight live lessons a month, with five to ten learners working at one level.
+- Group tuition: USD 100 a month. Around eight live lessons a month, with fifteen to twenty learners working at one level.
 - Private tuition: USD 150 a month. Around eight live lessons a month for one learner and one teacher.
 
 Families outside India all pay the same US dollar fee, so Bruntsfield and Craigmillar pay exactly the same, and we do not publish prices in pounds. Nothing is billed until the free lesson has agreed a course and a time, and the pricing page covers pauses, missed lessons and moving between group and one-to-one teaching.
@@ -229,11 +229,11 @@ No. There is no Edinburgh centre and no premises anywhere in the UK; every lesso
 
 ### How much do Edinburgh lessons cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same timetable are USD 150 a month. Course, format and time are agreed before any charge.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same timetable are USD 150 a month. Course, format and time are agreed before any charge.
 
 ### How are Edinburgh groups formed?
 
-By level, pace and aims rather than age or postcode, with five to ten learners at one stage. If no group meets at a suitable time, we offer one-to-one lessons instead.
+By level, pace and aims rather than age or postcode, with fifteen to twenty learners at one stage. If no group meets at a suitable time, we offer one-to-one lessons instead.
 
 ## Scottish guides and other cities
 

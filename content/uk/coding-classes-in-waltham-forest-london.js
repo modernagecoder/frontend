@@ -51,7 +51,7 @@ module.exports = {
 
   h1: 'Coding classes in Waltham Forest',
   capsuleQ: 'What are the best coding classes in Waltham Forest?',
-  capsule: 'Waltham Forest is the north east London borough of Walthamstow, Leyton, Leytonstone, Chingford and Highams Park, with 278,426 residents at the 2021 Census, the William Morris Gallery in Lloyd Park and more than 46,000 trees on the public list of trees looked after by councils. The coding class to choose teaches how machine learning really decides, and this page does that with those trees: a decision tree, built from scratch, that asks yes-or-no questions about height and position until it can guess whether a tree is an oak, a cherry or a plane. Lessons are taught live on video by teachers in India, for learners from 6 to 67, one to one or in small groups of five to ten at the same stage. The first lesson is free; after it, a group place is USD 100 a month and a private place USD 150 a month.',
+  capsule: 'Waltham Forest is the north east London borough of Walthamstow, Leyton, Leytonstone, Chingford and Highams Park, with 278,426 residents at the 2021 Census, the William Morris Gallery in Lloyd Park and more than 46,000 trees on the public list of trees looked after by councils. The coding class to choose teaches how machine learning really decides, and this page does that with those trees: a decision tree, built from scratch, that asks yes-or-no questions about height and position until it can guess whether a tree is an oak, a cherry or a plane. Lessons are taught live on video by teachers in India, for learners from 6 to 67, one to one or in groups of fifteen to twenty at the same stage. The first lesson is free; after it, a group place is USD 100 a month and a private place USD 150 a month.',
   lead: 'The Greater London Authority publishes a list of trees maintained by London\'s councils, and Waltham Forest\'s part of it runs to 46,396 trees, most with a height, a canopy width, a trunk girth and an age band. Our learners take the six commonest kinds, cherry, maple, birch, plane, oak and whitebeam, and ask a machine learning question: from size and position alone, can a program tell which is which? They build a decision tree, the same kind of model used inside many real AI systems, choosing each question by how much it reduces uncertainty, a measure called information gain. The first question it chooses is simple: is the tree taller than ten metres? The answers that follow reveal what the data knows, and exactly where it runs out.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Waltham Forest.',
 
@@ -145,7 +145,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'Walthamstow Central', p: 'TfL\'s open data lists the Victoria and Weaver lines at Walthamstow Central.' },
           { h3: 'Chingford to Leyton', p: 'A learner near the forest in Chingford and one in Leyton can share one class from their homes.' },
-          { h3: 'Every learner counted', p: 'Small groups of five to ten at one stage mean no learner is the whitebeam of the class, overlooked by the model.' }
+          { h3: 'Every learner counted', p: 'Groups of fifteen to twenty at one stage mean no learner is the whitebeam of the class, overlooked by the model.' }
         ] },
         { kind: 'spec', title: 'Waltham Forest in London', p: 'Waltham Forest is one of London\'s 32 boroughs. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> covers all of them and the City, adding each page as it is published, including <a class="cg-inline-link" href="/coding-classes-in-redbridge-london">Redbridge</a> to the east and <a class="cg-inline-link" href="/coding-classes-in-hackney-london">Hackney</a>, whose page studies trees in a different way.' }
       ]
@@ -182,7 +182,7 @@ module.exports = {
       { h3: 'Your own table', p: 'A laptop or desktop, a headset and a steady broadband connection are the only things a learner needs.' },
       { h3: 'English school stages', p: 'We describe progress in English Key Stages, from early primary to sixth form, naming GCSE and A level where they fit. Lessons are in English.' },
       { h3: 'A free first session', p: 'The first lesson is real teaching and closes with a recommended level and course, with no card details requested.' },
-      { h3: 'Balanced classes', p: 'Five to ten learners at one stage, drawn from across the UK and beyond, so there is usually a convenient evening.' },
+      { h3: 'Balanced classes', p: 'Fifteen to twenty learners at one stage, drawn from across the UK and beyond, so there is usually a convenient evening.' },
       { h3: 'Two evenings each week', p: 'Classes meet twice weekly in the evening in most cases, with agreed pauses for holidays and exams.' },
       { h3: 'On London time', p: 'Teachers are based in India, and every time we send is already in UK time.' }
     ],
@@ -193,7 +193,7 @@ module.exports = {
     h2: 'Fees for Waltham Forest families',
     intro: 'A free first lesson, then one monthly fee that is the same in Chingford and Leyton.',
     first: 'A full first lesson with a teacher, free, ending with a recommended level, course and weekly time.',
-    group: 'Around eight live lessons each month in a class of five to ten at one stage.',
+    group: 'Around eight live lessons each month in a class of fifteen to twenty at one stage.',
     private: 'Around eight live lessons each month, one learner, one teacher.',
     closer: 'Waltham Forest families pay in US dollars, like every family outside India, and the site shows no pound prices. Nothing is charged until after the free lesson and until a course and regular slot have been chosen. The pricing page covers pausing, missed lessons and swapping between class and private teaching.'
   },
@@ -218,8 +218,8 @@ module.exports = {
       { q: 'When would Waltham Forest lessons be?', a: 'After the free lesson we suggest a class at the right level with room and its regular evening, in UK time; the teacher is in India.' },
       { q: 'What does a learner need?', a: 'A computer with sound and a steady connection. The decision tree project needs Python and the free London tree list.' },
       { q: 'Is there a Modern Age Coders centre in Waltham Forest?', a: 'No. There is no Waltham Forest centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Waltham Forest cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Waltham Forest cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

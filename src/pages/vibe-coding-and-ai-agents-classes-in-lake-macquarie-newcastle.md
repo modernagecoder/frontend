@@ -16,7 +16,7 @@ Lake Macquarie City Council, Hunter, New South Wales / Live online
 
 We asked an agent which Lake Macquarie railway station had the most entries last month. It answered quickly and confidently, with a real figure from the Transport for NSW file. The figure was for May 2025, sixteen months out of date, because nobody had told the agent what day it was.
 
-Facts last verified 14 October 2026. Teaching is online; no Lake Macquarie branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 14 October 2026. Teaching is online; no Lake Macquarie branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for agents that know what day it is
 
@@ -199,7 +199,7 @@ Lessons happen live on video, from Morisset to Belmont.
 Three fixed prices, the same around the lake.
 
 - First class: USD 0. The first lesson is free, followed by written advice.
-- Group tuition: USD 100 a month. Roughly eight group lessons a month, five to ten learners in each.
+- Group tuition: USD 100 a month. Roughly eight group lessons a month, fifteen to twenty learners in each.
 - Private tuition: USD 150 a month. Roughly eight private lessons a month.
 
 Lake Macquarie families pay in US dollars after the trial has decided the course and lesson times. Holiday and missed-lesson rules are on the pricing page.
@@ -236,11 +236,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Lake Macquarie learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Do Lake Macquarie groups learn Copilot Studio?
 

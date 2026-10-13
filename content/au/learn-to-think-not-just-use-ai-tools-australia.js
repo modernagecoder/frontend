@@ -217,7 +217,7 @@ module.exports = {
       { h3: 'Predict, then run', p: 'Students say what they expect before any code or tool runs.' },
       { h3: 'Explain it back', p: 'An answer counts only once the student can explain it.' },
       { h3: 'Age-appropriate tools', p: 'We follow each tool\'s terms on minimum age.' },
-      { h3: 'Small groups', p: 'Five to ten students, or one to one.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty students, or one to one.' },
       { h3: 'Their own work', p: 'Teachers question and guide; they do not do the work.' },
       { h3: 'Real checks', p: 'Students write tests and samplers, not just opinions.' }
     ]
@@ -231,7 +231,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Outside India we charge a single monthly fee in US dollars, identical across countries. Joining costs nothing extra and no term contract applies, so you may stop at the close of any month.',
     free: ['A first lesson that costs nothing', 'A clear recommendation from the teacher', 'No card details asked'],
-    group: ['Five to ten students', 'One teacher all the way through', 'Grouped by age and level', 'Monthly, no lock-in'],
+    group: ['Fifteen to twenty students', 'One teacher all the way through', 'Grouped by age and level', 'Monthly, no lock-in'],
     one: ['A teacher for one student', 'Scheduled around school', 'Paced to the learner']
   },
 

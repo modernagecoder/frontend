@@ -4,7 +4,7 @@ description: "Learn to code in Ireland by understanding it, not copying it: what
 canonical: https://learn.modernagecoders.com/understand-the-code-dont-copy-paste-ireland
 source: src/pages/understand-the-code-dont-copy-paste-ireland.html
 ---
-> In Ireland, guidance now treats AI-generated material as material the student did not produce, and asks for it to be referenced; State Examinations coursework must be the candidate's own authentic and individual work. For anyone learning to code, the practical answer is to learn in a way that keeps the understanding with the learner: predict what code will do before running it, write the core by hand, bring AI tools in openly, change what they suggest and explain every line. Modern Age Coders teaches this way, live online, for ages 6 to 67 in groups of five to ten or one to one, and learners keep a simple record of what any AI tool contributed. We never write or edit graded work for a student. The first class is free; after that a group place costs USD 100 a month and one-to-one lessons USD 150.
+> In Ireland, guidance now treats AI-generated material as material the student did not produce, and asks for it to be referenced; State Examinations coursework must be the candidate's own authentic and individual work. For anyone learning to code, the practical answer is to learn in a way that keeps the understanding with the learner: predict what code will do before running it, write the core by hand, bring AI tools in openly, change what they suggest and explain every line. Modern Age Coders teaches this way, live online, for ages 6 to 67 in groups of fifteen to twenty or one to one, and learners keep a simple record of what any AI tool contributed. We never write or edit graded work for a student. The first class is free; after that a group place costs USD 100 a month and one-to-one lessons USD 150.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / Understand the code, do not copy-paste
 
@@ -176,7 +176,7 @@ Classes are live, taught from India, at a weekly hour fixed in Irish time. Irish
 - **Saturday morning** For longer project sessions.
 
 - **A free first class** The learner explains a small program to the teacher, which shows quickly where understanding stops.
-- **Groups of five to ten** Learners explain their code to one another as well as to the teacher, which is where most of the learning happens.
+- **Groups of fifteen to twenty** Learners explain their code to one another as well as to the teacher, which is where most of the learning happens.
 - **One to one when it helps** For a learner in an exam year, or anyone who wants a teacher to themselves.
 - **AI tools in the open** Assistants are part of the lesson from the fourth rung, with the AI record kept every time.
 - **Never the graded work** Teachers teach on examples; the student's assessed work is never written or edited in class.
@@ -187,7 +187,7 @@ Classes are live, taught from India, at a weekly hour fixed in Irish time. Irish
 One monthly rate in US dollars for every country outside India, Ireland included. Nothing to pay to join and no annual contract.
 
 - Free first class: USD 0. A real class with a real teacher. An honest view of the starting rung. No card details.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher each week. Code explained every week. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. Code explained every week. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one learner. Paced around school assessments. Good for exam years.
 
 ## What Irish students and parents ask about AI and their own work

@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Pontypridd',
   capsuleQ: 'Where can Pontypridd learners find the best coding and AI classes?',
-  capsule: 'In the 2021 census the Pontypridd built-up area had 31,900 usual residents, and Rhondda Cynon Taf as a whole 237,651. The built-up area takes in Treforest, Trallwn, Cilfynydd, Graig, Hopkinstown, Glyncoch, Maesycoed, Rhydyfelin, Hawthorn and Upper Boat. Modern Age Coders teaches coding, AI, Python, vibe coding and maths to Pontypridd learners aged six to 67, in live video classes led by tutors in India, on their own with a tutor or alongside five to ten classmates who are at the same point. The trial lesson is free and finishes with a course recommendation. For the Pontypridd project, a learner puts all 885 CF37 postcodes into a skip list, a structure that uses coin tosses to build express lanes, and measures how it compares with scanning and with binary search. Once the trial is done, fees run at USD 100 monthly for a shared class or USD 150 monthly for a tutor of your own.',
+  capsule: 'In the 2021 census the Pontypridd built-up area had 31,900 usual residents, and Rhondda Cynon Taf as a whole 237,651. The built-up area takes in Treforest, Trallwn, Cilfynydd, Graig, Hopkinstown, Glyncoch, Maesycoed, Rhydyfelin, Hawthorn and Upper Boat. Modern Age Coders teaches coding, AI, Python, vibe coding and maths to Pontypridd learners aged six to 67, in live video classes led by tutors in India, on their own with a tutor or alongside fifteen to twenty classmates who are at the same point. The trial lesson is free and finishes with a course recommendation. For the Pontypridd project, a learner puts all 885 CF37 postcodes into a skip list, a structure that uses coin tosses to build express lanes, and measures how it compares with scanning and with binary search. Once the trial is done, fees run at USD 100 monthly for a shared class or USD 150 monthly for a tutor of your own.',
   lead: 'Most data structures are built with care: every branch balanced, every rule enforced. A skip list is built by tossing coins. Each item goes into an ordinary sorted chain, and then a coin decides whether it also gets a place on a faster lane above, and another toss whether it goes higher still. William Pugh published the idea in 1990, and it still runs inside software used every day. It sounds too casual to work. In Pontypridd we test it on every postcode in CF37.',
   wa: 'Hello Modern Age Coders, we would like to book a free coding or AI trial lesson. We are in Pontypridd.',
 
@@ -159,7 +159,7 @@ module.exports = {
       { h3: 'About eight a month', p: 'Normally two sessions weekly during term; ask and we skip the local school holidays.' },
       { h3: 'UK clock kept', p: 'Lessons stay at the same UK time through the clock changes.' }
     ],
-    spec: { title: 'Why online', p: 'Matching five to ten learners at one exact level is much easier across the UK than in one valley town, and video means no travelling.' }
+    spec: { title: 'Why online', p: 'Matching fifteen to twenty learners at one exact level is much easier across the UK than in one valley town, and video means no travelling.' }
   },
 
   fees: {

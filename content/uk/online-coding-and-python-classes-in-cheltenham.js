@@ -60,7 +60,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Cheltenham',
   capsuleQ: 'What are the best online coding and Python classes in Cheltenham?',
-  capsule: 'Cheltenham borough held 118,833 people when the 2021 census was taken; the ONS built-up area of Cheltenham, reaching slightly past the boundary, holds 115,940. People in their twenties and those over 80 are above the England share, and young children a little below it. Cheltenham learners from 6 to 67 can study coding, Python, AI and maths with our tutors in India over live video, alone or in classes of five to ten at one level. A free opening lesson points to the right course. The Cheltenham project reads a century-old biography of a headteacher remembered across the town. Afterwards, lessons cost USD 100 monthly as part of a small class, or USD 150 monthly one-to-one.',
+  capsule: 'Cheltenham borough held 118,833 people when the 2021 census was taken; the ONS built-up area of Cheltenham, reaching slightly past the boundary, holds 115,940. People in their twenties and those over 80 are above the England share, and young children a little below it. Cheltenham learners from 6 to 67 can study coding, Python, AI and maths with our tutors in India over live video, alone or in classes of fifteen to twenty at one level. A free opening lesson points to the right course. The Cheltenham project reads a century-old biography of a headteacher remembered across the town. Afterwards, lessons cost USD 100 monthly as part of a small class, or USD 150 monthly one-to-one.',
   lead: 'Elizabeth Helen Shillito records that a new college for girls opened in Cheltenham on 13 February 1854, in Cambray House, and that in 1858 it advertised for a Principal. The woman appointed, Dorothea Beale, led it until 1906, and a fuller biography by Elizabeth Raikes, Dorothea Beale of Cheltenham, runs to 146,461 words. Which pairs of words define that book? Count every pair of neighbouring words and the winner is "of the", which says nothing. Switch to a clever score called pointwise mutual information and the winners are pairs seen exactly once, some of them publisher\'s notes. The right answer needs a third step. A Cheltenham learner can build all three in Python and see why language tools need both statistics and judgement.',
   wa: 'Hello Modern Age Coders, I would like a free online coding or Python lesson for a learner in Cheltenham.',
 
@@ -166,7 +166,7 @@ module.exports = {
       { h3: 'Student-led code', p: 'The learner types each program; the tutor follows the shared screen and prompts with questions.' },
       { h3: 'Placed with care', p: 'From Year 4 to Year 13, the starting topic comes from the school year and the trial, with the right exam board.' },
       { h3: 'A free first lesson', p: 'No charge for the trial, which ends with a named course and the reason for it.' },
-      { h3: 'Classes at one stage', p: 'Five to ten learners from around the UK, all at the same level.' },
+      { h3: 'Classes at one stage', p: 'Fifteen to twenty learners from around the UK, all at the same level.' },
       { h3: 'Two lessons weekly', p: 'In term time; school holidays kept clear.' },
       { h3: 'Fixed lesson time', p: 'Our tutors adjust when UK clocks change.' }
     ],

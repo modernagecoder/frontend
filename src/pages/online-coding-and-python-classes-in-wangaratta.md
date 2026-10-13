@@ -16,7 +16,7 @@ Wangaratta, Victoria, Australia / Live online
 
 Every Wangaratta town bus stop has a name, and the names follow a few patterns: two streets at a corner, a place on a street, or a house number. We took the 112 stops on routes 401 to 404 from the state's timetable data and asked Python to sort them by shape using its match statement, added in Python 3.10. The match version reads almost like a description of the patterns, and it found 66 corners, 44 places on a street and 2 house numbers. Then we wrote the same thing the older way, with if and elif and no cleaning step. One stop name ends with an invisible space, and that version quietly filed it as unknown. Learning to write code that copes with data like that is what this page is about.
 
-Facts last verified 10 October 2026. Teaching is online; no Wangaratta branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Wangaratta branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python courses for north-east Victoria
 
@@ -178,7 +178,7 @@ Each lesson is a live video class, so learners in Wangaratta and the surrounding
 - **Equipment** A computer, a microphone and a connection steady enough for video.
 - **Victorian year levels** Teachers plan around Victorian year levels and term dates, teaching in English.
 - **Trial lesson** The first lesson is free, fully taught, and ends with a recommended course and time.
-- **Group size** Five to ten learners at the same level form each group, from many Australian towns.
+- **Group size** Fifteen to twenty learners at the same level form each group, from many Australian towns.
 - **Schedule** Groups meet on two fixed days a week, about eight lessons each month.
 - **Teachers** Our teachers work from India and set each lesson in Wangaratta time.
 
@@ -189,7 +189,7 @@ Each lesson is a live video class, so learners in Wangaratta and the surrounding
 Fees are short and identical across Australia.
 
 - First class: USD 0. The first lesson is free and closes with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. A month of group lessons, about eight, with five to ten learners of the same level.
+- Group tuition: USD 100 a month. A month of group lessons, about eight, with fifteen to twenty learners of the same level.
 - Private tuition: USD 150 a month. About eight one-to-one lessons per month with a single teacher.
 
 We charge in US dollars outside India, and Wangaratta pays the same as everywhere else in Australia. Billing starts only after the trial has settled the course and time, and the pricing page covers holidays, missed lessons and changes between group and private.
@@ -230,7 +230,7 @@ No. We hold no premises in Australia and claim none. Every class is live online;
 
 ### What do Wangaratta classes cost?
 
-Your first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one-to-one. Nothing is charged until the plan is agreed.
+Your first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one-to-one. Nothing is charged until the plan is agreed.
 
 ### How many learners are in a group?
 

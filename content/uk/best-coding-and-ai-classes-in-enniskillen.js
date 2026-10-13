@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Enniskillen',
   capsuleQ: 'Where can Enniskillen learners find the best coding and AI classes?',
-  capsule: 'By NISRA\'s approximate settlement count, about 14,086 people lived in Enniskillen at the 2021 census; the surrounding district electoral area held 18,451. For BT74, postcodes.io lists wards including Portora, Castlecoole, Rossorry and Erne. Coding, AI, Python, vibe coding and maths are taught on camera by our India-based tutors to learners from six to 67, alone or in a group of five to ten at one level. We put reasoning before tools, so a learner can tell a curve that looks right from one that is right. The free trial lesson ends with our recommended course. The Enniskillen project takes the mapped shoreline of Rossole Lough, throws away most of its points, and rebuilds it three ways to see which smooth curve comes closest to the real edge. Beyond the trial you pay USD 100 monthly for group tuition or USD 150 monthly for a personal tutor.',
+  capsule: 'By NISRA\'s approximate settlement count, about 14,086 people lived in Enniskillen at the 2021 census; the surrounding district electoral area held 18,451. For BT74, postcodes.io lists wards including Portora, Castlecoole, Rossorry and Erne. Coding, AI, Python, vibe coding and maths are taught on camera by our India-based tutors to learners from six to 67, alone or in a group of fifteen to twenty at one level. We put reasoning before tools, so a learner can tell a curve that looks right from one that is right. The free trial lesson ends with our recommended course. The Enniskillen project takes the mapped shoreline of Rossole Lough, throws away most of its points, and rebuilds it three ways to see which smooth curve comes closest to the real edge. Beyond the trial you pay USD 100 monthly for group tuition or USD 150 monthly for a personal tutor.',
   lead: 'Maps, games, fonts and animation all need smooth curves drawn through a few stored points. There are two broad families of methods. Approximating curves, such as Chaikin\'s corner-cutting method, repeatedly shave off the corners of a shape until it looks smooth, but they do not pass through the original points. Interpolating curves, such as Catmull-Rom splines, are built to pass exactly through every point and bend smoothly between them. Which is closer to reality depends on the data. This project tests both on a real outline: Rossole Lough, a lake mapped on OpenStreetMap inside a rectangle around Enniskillen.',
   wa: 'Hello Modern Age Coders, could we book a free coding or AI lesson for a learner in Enniskillen?',
 
@@ -160,7 +160,7 @@ module.exports = {
       { h3: 'Hands on the code', p: 'The learner writes and runs every step; the tutor watches through screen share and asks how far the output is from the truth.' },
       { h3: 'Set by the trial', p: 'The free lesson shows the starting point, with any CCEA exam recorded.' },
       { h3: 'Free opening lesson', p: 'No charge for lesson one, which ends with a course suggestion.' },
-      { h3: 'Level-matched classes', p: 'Five to ten learners from across the UK, grouped by stage.' },
+      { h3: 'Level-matched classes', p: 'Fifteen to twenty learners from across the UK, grouped by stage.' },
       { h3: 'Two per week', p: 'Paused for school holidays.' },
       { h3: 'Steady time', p: 'Tutors adjust for UK clock changes so your slot stays put.' }
     ],

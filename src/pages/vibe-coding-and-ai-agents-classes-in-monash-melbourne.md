@@ -16,7 +16,7 @@ City of Monash, Melbourne, Victoria / Live online
 
 An agent asked about the City of Monash's eight train stations will answer every question confidently. Some answers will be right, some will come from last year's file, and some will be rounded so far that they stop being true. The fix is not a better agent but a second step that throws the agent's numbers away and works each one out again from the source.
 
-Facts last verified 10 October 2026. Teaching is online; no City of Monash branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no City of Monash branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for agents with a checker built in
 
@@ -191,7 +191,7 @@ Every lesson is live online, so learners anywhere in the council area join from 
 - **Shared screen** The learner opens a link, shares a screen and the teacher reads the code as it is written.
 - **Victorian terms** Plans follow the Victorian school year and break for the state school holidays.
 - **Free trial** The first lesson is a full class at no cost, followed by a suggested course and time.
-- **Group of five to ten** Learners are grouped by level and pace, from many parts of Australia.
+- **Group of fifteen to twenty** Learners are grouped by level and pace, from many parts of Australia.
 - **Routine** Two lessons every week, roughly eight a month, with planned breaks agreed early.
 - **Teachers in India** Our teachers are in India: a 4:30pm lesson in Melbourne's summer is 11am India time, and noon once daylight saving ends.
 
@@ -202,7 +202,7 @@ Every lesson is live online, so learners anywhere in the council area join from 
 Three amounts, given in full.
 
 - First class: USD 0. The opening lesson is free, followed by a candid recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, typically eight, with five to ten learners at a matched level.
+- Group tuition: USD 100 a month. A month of group lessons, typically eight, with fifteen to twenty learners at a matched level.
 - Private tuition: USD 150 a month. About eight lessons a month taught one to one.
 
 Families outside India pay in US dollars, the same rate wherever they live. Invoices start once the trial has chosen a course and a slot; holidays, absences and format changes are explained on the pricing page.
@@ -239,7 +239,7 @@ No. We teach only live online, have no Australian premises, and the phone number
 
 ### What do classes cost for City of Monash learners?
 
-The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before payment.
+The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before payment.
 
 ### How many learners per group?
 

@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'Coding classes in Caerphilly county borough',
   capsuleQ: 'What are the best coding classes in Caerphilly?',
-  capsule: 'Caerphilly county borough had 175,952 usual residents at the 2021 census, spread across many towns. Caerphilly itself is the largest built-up area, then Risca, Blackwood and Ystrad Mynach, with Pontllanfraith, Bargod, Newbridge and Bedwas next and many smaller places, from Oakdale to Rhymney. Our teachers work from India and every lesson is live on video; the first one is free and settles the right level for a Year 4 pupil, a Year 13 student or an adult alike. Coding, Python and maths are taught to learners from six to 67, alone with a teacher or among five to ten classmates. The Caerphilly project comes from a colliery engine house at New Tredegar. Continuing costs a monthly USD 100 in a class, or USD 150 with a tutor to yourself.',
+  capsule: 'Caerphilly county borough had 175,952 usual residents at the 2021 census, spread across many towns. Caerphilly itself is the largest built-up area, then Risca, Blackwood and Ystrad Mynach, with Pontllanfraith, Bargod, Newbridge and Bedwas next and many smaller places, from Oakdale to Rhymney. Our teachers work from India and every lesson is live on video; the first one is free and settles the right level for a Year 4 pupil, a Year 13 student or an adult alike. Coding, Python and maths are taught to learners from six to 67, alone with a teacher or among fifteen to twenty classmates. The Caerphilly project comes from a colliery engine house at New Tredegar. Continuing costs a monthly USD 100 in a class, or USD 150 with a tutor to yourself.',
   lead: 'At New Tredegar, Cadw lists the Elliot Colliery winding engine house at Grade II*, with its engine by Thornewill and Warham, installed in 1891. The record quotes a description full of numbers, each in old units with a modern conversion in brackets: cylinders of 42 inches, a stroke of 6 feet, a drum of 24 feet, and a daily lift of about 6,000 tons of water. Numbers written twice in two systems are a gift to a programmer, because each pair can be checked. Do the conversions agree? This page\'s project writes a short Python program that reads the record\'s text, finds every pair, converts the old figure itself and flags any that disagree. One pair stands out, and the tons raise a question of definitions.',
   wa: 'Hello Modern Age Coders, we are in Caerphilly county borough and would like to book a free lesson, please.',
 
@@ -163,7 +163,7 @@ module.exports = {
       { h3: 'Learners write the code', p: 'Each program is typed by the pupil while the teacher watches the shared screen and nudges when needed.' },
       { h3: 'Matched to Welsh schooling', p: 'Whether it is Year 5 in Oakdale or Year 12 in Bargod, we look at the year and the Curriculum for Wales, and exam work follows the WJEC specifications. Lessons are in English.' },
       { h3: 'Free trial lesson', p: 'A full lesson without charge, then an honest recommendation.' },
-      { h3: 'Small classes at one level', p: 'Five to ten learners at the same level, from many places.' },
+      { h3: 'Small classes at one level', p: 'Fifteen to twenty learners at the same level, from many places.' },
       { h3: 'Term-time timetable', p: 'Two lessons a week in term, with holidays off.' },
       { h3: 'Stays at UK time', p: 'Clock changes do not move your lesson; our teachers on India time adjust instead.' }
     ],
@@ -174,7 +174,7 @@ module.exports = {
     h2: 'Fees in Caerphilly county borough',
     intro: 'Blackwood or Caerphilly, the fee is the same, as it is in every country we teach outside India.',
     first: 'A complete trial lesson, free, followed by advice.',
-    group: 'About eight lessons a month in a group of five to ten.',
+    group: 'About eight lessons a month in a group of fifteen to twenty.',
     private: 'About eight lessons a month, one-to-one.',
     closer: 'All fees are in US dollars, with no sterling price list. We start billing only after the trial has fixed a course and a weekly time; the pricing page explains holidays, absences and switching formats.'
   },

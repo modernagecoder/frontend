@@ -231,7 +231,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Each month is charged in US dollars at one rate for every family outside India. There is nothing to pay to join, and no charge past the month you are in.',
     free: ['A full lesson on a real skill', 'Clear advice on next steps', 'No payment card needed'],
-    group: ['Five to ten students together', 'The same tutor each week', 'Exercises reviewed in class', 'A certificate at the finish'],
+    group: ['Fifteen to twenty students together', 'The same tutor each week', 'Exercises reviewed in class', 'A certificate at the finish'],
     one: ['A tutor just for you', 'Aimed at your weakest area', 'Handy before trial exams']
   },
 

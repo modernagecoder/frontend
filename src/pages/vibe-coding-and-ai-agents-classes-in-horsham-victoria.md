@@ -16,7 +16,7 @@ Horsham, Victoria / Live online
 
 Horsham Rural City Council publishes the GWM Water main layer for its area as open data: 3,899 pipe pieces, each with a diameter written as a plain number such as 100 or 450. Ask an AI agent how much water those pipes hold when full and it will happily compute circles and lengths. If it reads the 100 as metres instead of millimetres, it reports about 6.8 billion cubic metres for the mains near the town centre, a figure roughly a million times too large. Read correctly, the same pipes hold about 6,801 cubic metres. Our Horsham learners practise spotting that kind of answer before anyone repeats it.
 
-Facts last verified 10 October 2026. Teaching is online; no Horsham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Horsham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Directing AI agents, at the right level
 
@@ -168,7 +168,7 @@ A live online class reaches Horsham and the farms and towns around it equally.
 - **Classes come to you** Learners join from home anywhere around Horsham, in the same live lesson a Melbourne student would attend.
 - **Victorian year levels** Teaching follows Victorian year levels, with VCE students supported in Years 11 and 12, all in English.
 - **Start with a free session** Spend the opening lesson building something with an agent and a teacher, then receive a suggested course and time; no card is needed.
-- **Classmates at your stage** Groups hold five to ten learners at one level, drawn from across Australia and abroad so every stage has a workable hour.
+- **Classmates at your stage** Groups hold fifteen to twenty learners at one level, drawn from across Australia and abroad so every stage has a workable hour.
 - **A steady rhythm** Two sessions each week, about eight a month, with school holidays and exam periods planned ahead.
 - **Daylight saving absorbed** When Victoria changes its clocks, the lesson keeps its Horsham time and our side adjusts.
 
@@ -179,7 +179,7 @@ A live online class reaches Horsham and the farms and towns around it equally.
 The price list fits in three lines.
 
 - First class: USD 0. A free first session that finishes with a recommended stage, course and slot.
-- Group tuition: USD 100 a month. A month of group lessons, normally eight, with five to ten learners at your level.
+- Group tuition: USD 100 a month. A month of group lessons, normally eight, with fifteen to twenty learners at your level.
 - Private tuition: USD 150 a month. About eight private lessons a month with one teacher.
 
 Horsham learners are charged the same US dollar rate as every other Australian family, with no country loading. Payment only begins once the trial has settled a course and a time; holidays, missed sessions and format changes are explained on the pricing page.
@@ -220,7 +220,7 @@ No, and we do not claim one. All teaching is live and online, with no premises a
 
 ### What do Horsham classes cost?
 
-The first lesson is free. Afterwards a group place costs USD 100 a month for two live lessons a week, roughly eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. Afterwards a group place costs USD 100 a month for two live lessons a week, roughly eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How many learners are in a group?
 

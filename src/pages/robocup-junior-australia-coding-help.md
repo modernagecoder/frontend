@@ -196,7 +196,7 @@ Lessons are taught live from India. Australian clocks run ahead of India's: Bris
 - **Ideas first** Students learn why a program works, so they can fix it on the day.
 - **Their robot, their code** We explain and question; the team writes and builds.
 - **Blocks to Python** A clear path from SPIKE blocks to text code.
-- **Groups of five to ten** Students at a similar level comparing approaches.
+- **Groups of fifteen to twenty** Students at a similar level comparing approaches.
 - **One-to-one option** For a team's lead programmer who wants to go further.
 - **No placing promised** We teach programming; judges and referees decide results.
 
@@ -205,7 +205,7 @@ Lessons are taught live from India. Australian clocks run ahead of India's: Bris
 Programming lessons are charged monthly in US dollars, our international rate, without a joining fee or a lock-in. Any RoboCup entry fee or kit purchase is separate and paid to the organiser or supplier, not to us.
 
 - Free first class: USD 0. A first lesson with a teacher, free. A look at the student's current code if they have some. No card needed.
-- Group batch: USD 100 a month. Five to ten students at a similar level. The same teacher through the term. Programming ideas tested on shared exercises. A certificate on completion.
+- Group batch: USD 100 a month. Fifteen to twenty students at a similar level. The same teacher through the term. Programming ideas tested on shared exercises. A certificate on completion.
 - One to one: USD 150 a month. A teacher for one student. Time spent on that student's own robot code. Weekly times that fit team practice.
 
 ## What students and parents ask

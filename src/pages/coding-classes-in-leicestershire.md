@@ -4,7 +4,7 @@ description: "Live online coding, Python, algorithms and maths classes across Le
 canonical: https://learn.modernagecoders.com/coding-classes-in-leicestershire
 source: src/pages/coding-classes-in-leicestershire.html
 ---
-> Leicestershire is Leicester City plus seven districts, 1,080,940 people at the 2021 Census, and its shape is unusual: one very large built-up area around Leicester holding more than a third of everyone, then Loughborough, Hinckley and a spread of market towns and villages. Wherever a learner lives, our teaching is the same. Lessons are live on video, the teachers work from India, and each learner is placed by skill instead of age, from 6 all the way to 67, in groups of five to ten or on their own with a teacher. Programming, Python, algorithms, AI and maths are all taught. The county project starts in Loughborough, with bells. Lesson one is on us; after that it is USD 100 a month in a group or USD 150 for private teaching.
+> Leicestershire is Leicester City plus seven districts, 1,080,940 people at the 2021 Census, and its shape is unusual: one very large built-up area around Leicester holding more than a third of everyone, then Loughborough, Hinckley and a spread of market towns and villages. Wherever a learner lives, our teaching is the same. Lessons are live on video, the teachers work from India, and each learner is placed by skill instead of age, from 6 all the way to 67, in groups of fifteen to twenty or on their own with a teacher. Programming, Python, algorithms, AI and maths are all taught. The county project starts in Loughborough, with bells. Lesson one is on us; after that it is USD 100 a month in a group or USD 150 for private teaching.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Leicestershire
 
@@ -12,11 +12,11 @@ County of Leicestershire / Live online
 
 # Coding classes in Leicestershire
 
-**What are the best coding classes in Leicestershire?** Leicestershire is Leicester City plus seven districts, 1,080,940 people at the 2021 Census, and its shape is unusual: one very large built-up area around Leicester holding more than a third of everyone, then Loughborough, Hinckley and a spread of market towns and villages. Wherever a learner lives, our teaching is the same. Lessons are live on video, the teachers work from India, and each learner is placed by skill instead of age, from 6 all the way to 67, in groups of five to ten or on their own with a teacher. Programming, Python, algorithms, AI and maths are all taught. The county project starts in Loughborough, with bells. Lesson one is on us; after that it is USD 100 a month in a group or USD 150 for private teaching.
+**What are the best coding classes in Leicestershire?** Leicestershire is Leicester City plus seven districts, 1,080,940 people at the 2021 Census, and its shape is unusual: one very large built-up area around Leicester holding more than a third of everyone, then Loughborough, Hinckley and a spread of market towns and villages. Wherever a learner lives, our teaching is the same. Lessons are live on video, the teachers work from India, and each learner is placed by skill instead of age, from 6 all the way to 67, in groups of fifteen to twenty or on their own with a teacher. Programming, Python, algorithms, AI and maths are all taught. The county project starts in Loughborough, with bells. Lesson one is on us; after that it is USD 100 a month in a group or USD 150 for private teaching.
 
 Six church bells can ring in 720 different orders. Bell ringers in England have spent centuries working out how to ring every one of them exactly once, moving each bell at most one place at a time, and finishing back where they started. It is a puzzle a computer scientist would recognise at once: a search through every arrangement of a set, under a strict rule about which arrangement may follow which. Loughborough has cast bells since 1839 and calls its foundry Britain's last. So Leicestershire's project writes the ringers' rules as code, checks them, and then asks the computer a question it can answer completely: is it possible to ring all 720 using only the simplest kind of call? The answer is no, and the program can prove it in under a second.
 
-Facts last verified 26 September 2026. Teaching is online; no Leicestershire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Leicestershire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## The four courses Leicestershire learners start with most
 
@@ -162,7 +162,7 @@ The county's market towns are far apart and its buses are few in the evening. Le
 - **On your own laptop** A bedroom in Syston, a kitchen in Ibstock, a spare room in Melton Mowbray. The teacher shares a screen and the learner types.
 - **Taught in English, UK terms** Year groups, Key Stage 3, GCSE choices and sixth form are discussed in the words local families use, and every lesson is in English.
 - **The first lesson is free** A real lesson with real work, followed by an honest recommendation. There is no card to enter.
-- **Grouped by what you know** Five to ten learners at one stage, from many towns and countries, so the level fits and the time works.
+- **Grouped by what you know** Fifteen to twenty learners at one stage, from many towns and countries, so the level fits and the time works.
 - **Holidays you choose** Two lessons a week is usual, paused for your own school's holidays, since city, county and academies can all differ.
 - **One clock for everyone** We confirm each slot as a UK time. Our teachers keep India time, which sits 5.5 hours ahead of the UK from late October to late March and 4.5 hours ahead for the rest of the year.
 
@@ -173,7 +173,7 @@ The county's market towns are far apart and its buses are few in the evening. Le
 The same fees in every Leicestershire town and every country outside India.
 
 - First class: USD 0. One full lesson of genuine work, ending in a recommended level and course.
-- Group tuition: USD 100 a month. About eight lessons per month in a group of five to ten at one level.
+- Group tuition: USD 100 a month. About eight lessons per month in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. About eight lessons per month, teacher and learner one to one.
 
 Our prices are in US dollars for families everywhere except India, and we do not publish them in pounds. You are asked to pay only once the free lesson has agreed a course and a regular weekly time; pauses, missed lessons and moving between group and private places are all set out on the pricing page.

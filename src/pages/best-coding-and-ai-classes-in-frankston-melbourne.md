@@ -16,7 +16,7 @@ Frankston, City of Frankston, Melbourne, Victoria / Live online
 
 A Frankston line train leaves Frankston for the city on average every ten minutes or so through the day. A journey planner asked "when is the next train after 5:47pm?" has to search that list. Asked again a minute later, it can search from scratch, or it can remember where it stopped last time and look a little further on. The second approach has a name: galloping search.
 
-Facts last verified 10 October 2026. Teaching is online; no Frankston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Frankston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses where algorithms are taught by doing
 
@@ -185,7 +185,7 @@ Lessons are live on screen, so learners join from home anywhere in the suburb.
 Three figures, no surprises.
 
 - First class: USD 0. Lesson one is free and ends with a plain recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, usually eight, with five to ten learners at the same level.
+- Group tuition: USD 100 a month. A month of group lessons, usually eight, with fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. Approximately eight private lessons a month with one teacher.
 
 Outside India we bill in US dollars, so Frankston families pay what every other family abroad pays. We charge nothing before the trial settles which course and which slot; the pricing page explains holidays, missed lessons and moving between formats.
@@ -222,7 +222,7 @@ No. All classes are live online, we have no premises in Australia, and the phone
 
 ### How much do coding classes cost for Frankston learners?
 
-The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before you pay.
+The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before you pay.
 
 ### What size is each group?
 

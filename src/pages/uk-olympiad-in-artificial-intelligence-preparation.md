@@ -179,7 +179,7 @@ Teaching is live on video from India, five and a half hours ahead of the UK in w
 
 - **Models actually trained** Every idea arrives as something the student runs, not as a slide about it.
 - **Arithmetic first** We count the operations before we admire the results, because that is what an exam answer needs.
-- **Five to ten students** Enough for two designs to be compared, small enough for every notebook to be looked at.
+- **Fifteen to twenty students** Enough for two designs to be compared, small enough for every notebook to be looked at.
 - **Our own datasets** Written or chosen by us. No olympiad task is reproduced in a lesson.
 - **One to one when useful** For a student well ahead of their year or preparing for an interview stage.
 - **Nothing promised** We cannot influence selection and promise no score, invitation or place.
@@ -189,7 +189,7 @@ Teaching is live on video from India, five and a half hours ahead of the UK in w
 A monthly fee in US dollars, identical in every country but India, with no registration charge and no tie-in.
 
 - Free first class: USD 0. A proper lesson with a subject teacher. A frank view of what is missing. No payment details requested.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher weekly. Notebooks read and discussed. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher weekly. Notebooks read and discussed. A certificate at the end.
 - One to one: USD 150 a month. A teacher working with one student. Shaped around the gap in the syllabus. Useful before an interview stage.
 
 ## What students and parents ask

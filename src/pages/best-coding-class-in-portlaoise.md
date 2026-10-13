@@ -16,7 +16,7 @@ Portlaoise, County Laois / Live online
 
 Draw every census town on one bar chart, 1,000 pixels wide, with Dublin city and suburbs and its 1,243,278 residents at the far end. Portlaoise, the 18th largest town in Ireland with 23,299 residents, gets a bar 19 pixels long. The median town, Glenealy in Wicklow with 622 people, gets half a pixel. Seven hundred and eighty-seven of the 867 towns end up inside the first five pixels, which is to say invisible. Nothing is wrong with the data. The problem is the axis. Redraw the same chart on a logarithmic scale, where each step multiplies instead of adds, and Portlaoise moves to pixel 582, the median town to pixel 201, and the whole country becomes readable. Choosing that scale, and saying that you chose it, is the lesson on this page.
 
-Facts last verified 19 September 2026. Teaching is online; no Portlaoise branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Portlaoise branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Portlaoise learners start on
 
@@ -179,7 +179,7 @@ Six short answers.
 What it costs, in three lines.
 
 - First class: USD 0. The first lesson, taught in full and assessed, for nothing.
-- Group tuition: USD 100 a month. A month in a matched group of five to ten, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a matched group of fifteen to twenty, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one to one lessons at the same weekly frequency.
 
 Portlaoise pays what every family outside India pays: one monthly rate in US dollars, with no euro version shown alongside. Money is only asked for once a course and a weekly time actually exist, and the pricing page covers holidays, a lesson that has to be missed, and switching between a group and private teaching.
@@ -220,7 +220,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Portlaoise cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

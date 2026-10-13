@@ -317,7 +317,7 @@ module.exports = {
       { h3: 'Taught live', p: 'A real teacher on video reads the learner\'s code as it is typed and explains each correction.' },
       { h3: 'In step with NSW', p: 'Lessons use NSW stage and syllabus language, and the timetable breaks for state school holidays.' },
       { h3: 'Start with a free lesson', p: 'The first full lesson costs nothing; the teacher then suggests a course, level and regular time.' },
-      { h3: 'Matched groups', p: 'Five to ten learners working at one level, or one-to-one teaching if that suits better.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners working at one level, or one-to-one teaching if that suits better.' },
       { h3: 'A steady rhythm', p: 'Two lessons a week at a set time, about eight a month, with holidays planned ahead.' },
       {
         h3: 'Teachers in India',
@@ -333,7 +333,7 @@ module.exports = {
     h2: 'Fees for Willoughby learners',
     intro: 'Clear prices that do not change by course.',
     first: 'A complete first lesson free, followed by a suggested course, level and time.',
-    group: 'Group learning for a month, normally eight lessons, five to ten learners at one level.',
+    group: 'Group learning for a month, normally eight lessons, fifteen to twenty learners at one level.',
     private: 'One teacher and one learner, around eight lessons a month.',
     closer: 'Invoices for families outside India are in US dollars, so Artarmon and Northbridge households pay the same. Payment follows the trial only once a course and time are agreed, and the pricing page explains breaks, missed lessons and changes of format.'
   },
@@ -382,7 +382,7 @@ module.exports = {
       },
       {
         q: 'How much do coding classes in Willoughby cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight in total, with five to ten learners; one-to-one is USD 150 a month at the same frequency. Fees start only after the course and time are agreed.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight in total, with fifteen to twenty learners; one-to-one is USD 150 a month at the same frequency. Fees start only after the course and time are agreed.',
         boiler: true
       },
       {

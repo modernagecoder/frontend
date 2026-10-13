@@ -12,7 +12,7 @@ Live online · serving Bhavnagar
 
 Real programming for kids, teens and college students in Bhavnagar, from **Waghawadi Road to Ghogha Circle, Krishnanagar to Subhashnagar**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Bhavnagar)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**BhavnagarEnrollingAreasWaghawadi Road, Ghogha Circle, Krishnanagar, Subhashnagar, Vidyanagar & all of BhavnagarBoardsGujarat GSEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across BhavnagarFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Bhavnagar)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**BhavnagarEnrollingAreasWaghawadi Road, Ghogha Circle, Krishnanagar, Subhashnagar, Vidyanagar & all of BhavnagarBoardsGujarat GSEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across BhavnagarFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for Bhavnagar's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Bhavnagar: FAQs
 
-Which is the best coding class in Bhavnagar for kids?Modern Age Coders runs Bhavnagar's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python. Batches are small (5-8 students), project-based, and taught by experienced mentors. We cover all of Bhavnagar: Waghawadi Road, Ghogha Circle, Krishnanagar, Subhashnagar, Vidyanagar, Takhteshwar, Atabhai and Nilambag, plus nearby Sihor, Talaja and Palitana.Are the classes online, and which areas of Bhavnagar do you cover?Every class is live and online, so we cover all of Bhavnagar equally: Waghawadi Road, Ghogha Circle, Krishnanagar, Subhashnagar, Vidyanagar, Panwadi, Rupani Circle, Takhteshwar, Atabhai, Kalanala, Nilambag and MG Road, and families in Sihor, Talaja, Palitana, Ghogha and even the Alang belt join the same expert mentor from home. Lessons run live with real-time coding, screen-sharing and saved recordings.How much do coding classes cost in Bhavnagar?Group classes (5-8 students) start at Rs.1499/month for 2 live classes per week. The Mini Batch (3-4 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student begins with a free demo class, and there are no hidden fees.Does coding help with JEE, GUJCET and the GSEB, CBSE and ICSE board exams?Yes. Coding sharpens the structured reasoning, decomposition and precision that JEE and GUJCET reward, and it directly supports the Computer Science, Informatics Practices and NEP-2020 AI topics studied by Gujarat Board (GSEB), CBSE and ICSE students in Bhavnagar. Our Python and Java tracks complement the school syllabus rather than competing with it.Can a student in Bhavnagar build a real software career from home?Absolutely. Software is built and shipped remotely, so a serious learner can work for companies in Ahmedabad, Surat, Pune, Bengaluru or abroad without leaving Bhavnagar. Our college track is placement-focused: 220+ DSA problems, mock interviews, a deployed MERN project and an AI portfolio, built for engineering, BCA and MCA students from Maharaja Krishnakumarsinhji Bhavnagar University and Bhavnagar's engineering colleges.What age is best to start coding in Bhavnagar?Around age 8 is ideal to begin with visual, block-based coding (Scratch). For text-based languages like Python and Java, age 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college/working learners (18+).What programming languages and courses do you teach in Bhavnagar?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also teach school and Olympiad mathematics, and feature Vibe Coding and AI agents (Codex & Claude Code) for older students.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Do you teach coding to GSEB students in Bhavnagar?Yes. Bhavnagar schools run the Gujarat board, GSEB, along with CBSE and other boards, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about.Can Maharaja Krishnakumarsinhji Bhavnagar University students join your programming courses?Yes. MKBU serves the city and its colleges teach the fundamentals well. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown, which a degree alone rarely provides.
+Which is the best coding class in Bhavnagar for kids?Modern Age Coders runs Bhavnagar's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python. Batches are small (15-20 students), project-based, and taught by experienced mentors. We cover all of Bhavnagar: Waghawadi Road, Ghogha Circle, Krishnanagar, Subhashnagar, Vidyanagar, Takhteshwar, Atabhai and Nilambag, plus nearby Sihor, Talaja and Palitana.Are the classes online, and which areas of Bhavnagar do you cover?Every class is live and online, so we cover all of Bhavnagar equally: Waghawadi Road, Ghogha Circle, Krishnanagar, Subhashnagar, Vidyanagar, Panwadi, Rupani Circle, Takhteshwar, Atabhai, Kalanala, Nilambag and MG Road, and families in Sihor, Talaja, Palitana, Ghogha and even the Alang belt join the same expert mentor from home. Lessons run live with real-time coding, screen-sharing and saved recordings.How much do coding classes cost in Bhavnagar?Group classes (15-20 students) start at Rs.1499/month for 2 live classes per week. The Mini Batch (up to 6 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student begins with a free demo class, and there are no hidden fees.Does coding help with JEE, GUJCET and the GSEB, CBSE and ICSE board exams?Yes. Coding sharpens the structured reasoning, decomposition and precision that JEE and GUJCET reward, and it directly supports the Computer Science, Informatics Practices and NEP-2020 AI topics studied by Gujarat Board (GSEB), CBSE and ICSE students in Bhavnagar. Our Python and Java tracks complement the school syllabus rather than competing with it.Can a student in Bhavnagar build a real software career from home?Absolutely. Software is built and shipped remotely, so a serious learner can work for companies in Ahmedabad, Surat, Pune, Bengaluru or abroad without leaving Bhavnagar. Our college track is placement-focused: 220+ DSA problems, mock interviews, a deployed MERN project and an AI portfolio, built for engineering, BCA and MCA students from Maharaja Krishnakumarsinhji Bhavnagar University and Bhavnagar's engineering colleges.What age is best to start coding in Bhavnagar?Around age 8 is ideal to begin with visual, block-based coding (Scratch). For text-based languages like Python and Java, age 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college/working learners (18+).What programming languages and courses do you teach in Bhavnagar?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also teach school and Olympiad mathematics, and feature Vibe Coding and AI agents (Codex & Claude Code) for older students.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Do you teach coding to GSEB students in Bhavnagar?Yes. Bhavnagar schools run the Gujarat board, GSEB, along with CBSE and other boards, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about.Can Maharaja Krishnakumarsinhji Bhavnagar University students join your programming courses?Yes. MKBU serves the city and its colleges teach the fundamentals well. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown, which a degree alone rarely provides.
 
 ## Ready to start your child's coding journey in Bhavnagar?
 

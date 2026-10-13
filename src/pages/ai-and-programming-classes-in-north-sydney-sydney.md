@@ -16,7 +16,7 @@ North Sydney council area, Sydney, New South Wales / Live online
 
 Every forecasting model should face a fair test: does it beat a plain guess? We gave a simple autoregressive model 23 months of Opal entries at North Sydney station and asked it to predict each of the last eleven months using only the months before. It missed by 15,114 entries a month on average. Repeating last month missed by 18,496, and the running average by 16,310. At Victoria Cross the same model gained nothing, and working out why is the real lesson.
 
-Facts last verified 10 October 2026. Teaching is online; no North Sydney branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no North Sydney branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Programming first, then AI that can be tested
 
@@ -186,7 +186,7 @@ From Waverton to Cammeray, every learner joins the same live video class.
 - **A screen and a teacher** Lessons happen on video with a live teacher who watches the learner type, so mistakes are caught as they happen.
 - **NSW stages and terms** Teachers know the NSW stages and syllabus names, and the timetable pauses for state school holidays.
 - **Trial before any fee** The first lesson is a full, free class, after which the teacher recommends a course, level and fixed time.
-- **Grouped by level** Groups of five to ten learners at the same stage, or one-to-one lessons where a group does not fit.
+- **Grouped by level** Groups of fifteen to twenty learners at the same stage, or one-to-one lessons where a group does not fit.
 - **Two lessons a week** A regular pair of weekly lessons, about eight a month, with planned breaks agreed ahead of time.
 - **Teachers in India** A 5pm North Sydney lesson in summer is 11:30am India time; once Sydney returns to standard time it is 12:30pm there.
 
@@ -197,7 +197,7 @@ From Waverton to Cammeray, every learner joins the same live video class.
 The same three prices for every course and every learner.
 
 - First class: USD 0. A full first lesson at no charge, ending with a recommended course and time.
-- Group tuition: USD 100 a month. Two lessons a week for a month, roughly eight, in a group of five to ten at one level.
+- Group tuition: USD 100 a month. Two lessons a week for a month, roughly eight, in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. The same twice-weekly pattern with one teacher and one learner.
 
 Fees outside India are billed in US dollars, so a learner in Waverton pays the same as one in Neutral Bay. Payment comes only after the trial has fixed the course and time, and the pricing page covers breaks, missed lessons and switching formats.
@@ -238,7 +238,7 @@ We have none. Modern Age Coders teaches entirely online and has no premises in A
 
 ### How much are coding and AI lessons in North Sydney?
 
-The first lesson is free. Group lessons are USD 100 a month for two live classes a week, about eight a month, with five to ten learners; one-to-one is USD 150 a month on the same schedule. Nothing is paid until the course and time are agreed.
+The first lesson is free. Group lessons are USD 100 a month for two live classes a week, about eight a month, with fifteen to twenty learners; one-to-one is USD 150 a month on the same schedule. Nothing is paid until the course and time are agreed.
 
 ### How big are the groups?
 

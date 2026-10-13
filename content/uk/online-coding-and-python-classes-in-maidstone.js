@@ -65,7 +65,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Maidstone',
   capsuleQ: 'Which are the best online coding and Python classes in Maidstone?',
-  capsule: 'The 2021 census put Maidstone borough at 175,782 people, and the ONS gives 109,490 for the Maidstone built-up area, which runs slightly past the borough line, with Coxheath and Bearsted the next largest places. Young children are a bit above the England share and people aged 15 to 24 a little below it. From the town centre to Staplehurst and Headcorn, anyone aged 6 to 67 can learn coding, Python, AI and maths in live video lessons led by our India-based tutors, taught solo or with five to ten classmates of similar level. The first lesson is free and points to a course. Maidstone\'s project begins with a writer born in the town. Once the trial is done, group lessons are USD 100 a month and private lessons USD 150 a month.',
+  capsule: 'The 2021 census put Maidstone borough at 175,782 people, and the ONS gives 109,490 for the Maidstone built-up area, which runs slightly past the borough line, with Coxheath and Bearsted the next largest places. Young children are a bit above the England share and people aged 15 to 24 a little below it. From the town centre to Staplehurst and Headcorn, anyone aged 6 to 67 can learn coding, Python, AI and maths in live video lessons led by our India-based tutors, taught solo or with fifteen to twenty classmates of similar level. The first lesson is free and points to a course. Maidstone\'s project begins with a writer born in the town. Once the trial is done, group lessons are USD 100 a month and private lessons USD 150 a month.',
   lead: 'William Hazlitt, one of the sharpest essayists in English, was born "at Mitre Lane, Maidstone, Kent, on the 10th of April, in the year 1778", according to Louise Imogen Guiney\'s portrait of him. She also makes a claim that can be tested: "He cites, twice and thrice, the same passages from the Elizabethans." Hazlitt\'s collection Table Talk is free on Project Gutenberg, 33 essays and about 160,000 words. No person could hold all of it in mind at once, but a Python program can index every short run of words and report any run that turns up in more than one essay. What it finds is smaller, and more surprising, than the claim suggests.',
   wa: 'Hello Modern Age Coders, please could we have a free coding or Python lesson for a learner in Maidstone?',
 
@@ -170,7 +170,7 @@ module.exports = {
       { h3: 'The learner codes', p: 'Students type everything themselves; the tutor watches through screen share and guides by asking.' },
       { h3: 'Pitched by the trial', p: 'Year 4 or Year 12, the free lesson sets the first step, and the exam board is taken into account.' },
       { h3: 'Trial costs nothing', p: 'A full lesson free of charge, closing with a course suggestion.' },
-      { h3: 'Same-stage classmates', p: 'Groups of five to ten UK learners working at one level.' },
+      { h3: 'Same-stage classmates', p: 'Groups of fifteen to twenty UK learners working at one level.' },
       { h3: 'Twice each week', p: 'No lessons in school holidays.' },
       { h3: 'Fixed local time', p: 'Our tutors adjust for British Summer Time, so your slot holds.' }
     ],

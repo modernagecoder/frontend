@@ -161,7 +161,7 @@ module.exports = {
     intro: 'In outline.',
     cells: [
       { h3: 'Live, not recorded', p: 'Every lesson is taught as it happens, and the teacher looks at and helps with each learner\'s own code.' },
-      { h3: 'One level per group', p: 'Five to ten learners working at the same level, from Rathmines, other parts of Ireland or overseas.' },
+      { h3: 'One level per group', p: 'Fifteen to twenty learners working at the same level, from Rathmines, other parts of Ireland or overseas.' },
       { h3: 'Two regular days', p: 'The same two days each week, roughly eight lessons a month.' },
       { h3: 'Fits the school year', p: 'School holidays, mid-term breaks and exam periods are allowed for in the plan.' },
       { h3: 'Kit', p: 'Any desktop or laptop with a working microphone, something to hear through, and internet steady enough for video.' },
@@ -174,7 +174,7 @@ module.exports = {
     h2: 'Fees for Rathmines',
     intro: 'Plainly.',
     first: 'A free first lesson, which includes a level check.',
-    group: 'A month in a same-level group of five to ten, about eight live lessons.',
+    group: 'A month in a same-level group of fifteen to twenty, about eight live lessons.',
     private: 'A month of one-to-one lessons at the same rhythm.',
     closer: 'Families everywhere outside India pay one US dollar fee, month by month. The free lesson binds you to nothing, charges start with the course itself, and the pricing page sets out how holidays, missed lessons and a switch between group and private teaching are handled.'
   },
@@ -198,7 +198,7 @@ module.exports = {
       { q: 'When are lessons held?', a: 'Weekday lessons run from after school until evening; weekend lessons run in the daytime. Lessons are scheduled in Irish time. The teachers work from India, which runs ahead of Rathmines by four and a half hours from late March to late October and by five and a half through the winter, so the hours offered have to be sensible at both ends.' },
       { q: 'Are adults welcome?', a: 'Yes, up to sixty-seven, with or without any experience. After the free lesson an adult chooses between a same-level group and teaching on their own.' },
       { q: 'Will my child be grouped with other Rathmines children?', a: 'Possibly, but groups are built around level, so classmates may join from anywhere in Ireland or abroad.' },
-      { q: 'What do coding classes in Rathmines cost?', a: 'The first lesson is free. After it, a group place costs USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment is made.', boiler: true },
+      { q: 'What do coding classes in Rathmines cost?', a: 'The first lesson is free. After it, a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment is made.', boiler: true },
       { q: 'How many learners share a group?', a: 'From five to ten, matched by level, pace and goals rather than age or address. If no group runs at a workable time, lessons are one to one.', boiler: true }
     ]
   },

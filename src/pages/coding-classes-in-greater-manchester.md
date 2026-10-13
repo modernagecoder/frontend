@@ -4,7 +4,7 @@ description: "Live online coding, Python, web development and maths classes acro
 canonical: https://learn.modernagecoders.com/coding-classes-in-greater-manchester
 source: src/pages/coding-classes-in-greater-manchester.html
 ---
-> Greater Manchester is ten metropolitan boroughs and 2,867,762 people at the 2021 Census, from Wigan in the west to Tameside in the east. Manchester and Salford sit at the centre, with Bolton, Stockport, Rochdale, Oldham, Wigan and Bury as big towns in their own right and dozens of smaller places between. However large the county, our lessons reach a Farnworth kitchen exactly as they reach a flat in Ancoats: taught live on video by a teacher in India, with learners grouped by current skill, ages 6 to 67, five to ten in a group or one to one. The subjects are programming, Python, web development, AI and maths. The county project starts with the Baby, the first computer to run a stored program, here in 1948. We charge nothing for the first lesson; after that it is USD 100 monthly in a group or USD 150 for a private teacher.
+> Greater Manchester is ten metropolitan boroughs and 2,867,762 people at the 2021 Census, from Wigan in the west to Tameside in the east. Manchester and Salford sit at the centre, with Bolton, Stockport, Rochdale, Oldham, Wigan and Bury as big towns in their own right and dozens of smaller places between. However large the county, our lessons reach a Farnworth kitchen exactly as they reach a flat in Ancoats: taught live on video by a teacher in India, with learners grouped by current skill, ages 6 to 67, fifteen to twenty in a group or one to one. The subjects are programming, Python, web development, AI and maths. The county project starts with the Baby, the first computer to run a stored program, here in 1948. We charge nothing for the first lesson; after that it is USD 100 monthly in a group or USD 150 for a private teacher.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Greater Manchester
 
@@ -12,11 +12,11 @@ Metropolitan county of Greater Manchester / Live online
 
 # Coding classes in Greater Manchester
 
-**What are the best coding classes in Greater Manchester?** Greater Manchester is ten metropolitan boroughs and 2,867,762 people at the 2021 Census, from Wigan in the west to Tameside in the east. Manchester and Salford sit at the centre, with Bolton, Stockport, Rochdale, Oldham, Wigan and Bury as big towns in their own right and dozens of smaller places between. However large the county, our lessons reach a Farnworth kitchen exactly as they reach a flat in Ancoats: taught live on video by a teacher in India, with learners grouped by current skill, ages 6 to 67, five to ten in a group or one to one. The subjects are programming, Python, web development, AI and maths. The county project starts with the Baby, the first computer to run a stored program, here in 1948. We charge nothing for the first lesson; after that it is USD 100 monthly in a group or USD 150 for a private teacher.
+**What are the best coding classes in Greater Manchester?** Greater Manchester is ten metropolitan boroughs and 2,867,762 people at the 2021 Census, from Wigan in the west to Tameside in the east. Manchester and Salford sit at the centre, with Bolton, Stockport, Rochdale, Oldham, Wigan and Bury as big towns in their own right and dozens of smaller places between. However large the county, our lessons reach a Farnworth kitchen exactly as they reach a flat in Ancoats: taught live on video by a teacher in India, with learners grouped by current skill, ages 6 to 67, fifteen to twenty in a group or one to one. The subjects are programming, Python, web development, AI and maths. The county project starts with the Baby, the first computer to run a stored program, here in 1948. We charge nothing for the first lesson; after that it is USD 100 monthly in a group or USD 150 for a private teacher.
 
 On 21 June 1948, in Manchester, a machine called the Baby ran a 17-instruction program that searched for the highest factor of a number. By August it was doing so for numbers as large as two to the power eighteen, working through 3.5 million calculations in 53 minutes to arrive at 131,072. It was a brilliant test of a new kind of memory, and it is also a perfect first puzzle for a modern learner, because the same answer can be found almost instantly by asking the question a different way. This page's project writes both versions, counts how many numbers each has to try, and then hunts for the inputs that make each version work hardest.
 
-Facts last verified 26 September 2026. Teaching is online; no Greater Manchester branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Greater Manchester branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four first courses for Greater Manchester learners
 
@@ -168,7 +168,7 @@ Crossing Greater Manchester at rush hour is slow going. Online, the lesson simpl
 - **Lessons at home** A bedroom in Hindley, a kitchen table in Romiley, a desk in Whitefield. The teacher shares a screen and the learner types.
 - **Our words match school's** Year groups, GCSE options and A levels are named as Greater Manchester schools name them, and teaching is in English.
 - **A free first lesson** A proper lesson of real work, then an honest recommendation. No card details are ever requested.
-- **Classmates at your stage** Groups of five to ten learners at the same level, gathered from many towns and countries, at a sensible hour.
+- **Classmates at your stage** Groups of fifteen to twenty learners at the same level, gathered from many towns and countries, at a sensible hour.
 - **Breaks you set** Usually two lessons a week, paused for the holidays your own school keeps, which differ between boroughs and academies.
 - **UK time, always** India, where the teachers are, is five and a half hours ahead of UK winter time and four and a half ahead of UK summer time; lessons are booked in UK time.
 
@@ -179,7 +179,7 @@ Crossing Greater Manchester at rush hour is slow going. Online, the lesson simpl
 Every borough pays the same, as does every country other than India.
 
 - First class: USD 0. A full lesson of real work, finishing with a recommended level and course.
-- Group tuition: USD 100 a month. Around eight lessons a month in a group of five to ten at one level.
+- Group tuition: USD 100 a month. Around eight lessons a month in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. Around eight lessons a month with a teacher for one learner.
 
 Prices are set in US dollars, our rate for families outside India, and there is no pound price list. Payment starts only after the free lesson has agreed a course and weekly slot; pausing, missed lessons and switching between group and private teaching are explained on the pricing page.

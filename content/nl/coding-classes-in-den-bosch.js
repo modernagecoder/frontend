@@ -39,7 +39,7 @@ module.exports = {
 
   h1: 'Coding classes in Den Bosch, where the record has a painter buried the day before he died',
   capsuleQ: 'What are the best coding classes in Den Bosch?',
-  capsule: 'Coding classes in Den Bosch serve 162,295 people (Statistics Netherlands, 1 January 2026), the capital of Noord-Brabant and its fourth city, in a municipality that also holds Rosmalen, Nuland and Vinkel. The city\'s most famous son, Jheronimus Bosch, appears in one encyclopaedia with a death date of 9 August 1516 and a burial date of 8 August 1516, which is impossible, and no check on either field alone would ever notice. Modern Age Coders teaches live online in English across the municipality for anyone aged 6 to 67, giving the first lesson free and then charging USD 100 a month for a group of five to ten or USD 150 for one-to-one.',
+  capsule: 'Coding classes in Den Bosch serve 162,295 people (Statistics Netherlands, 1 January 2026), the capital of Noord-Brabant and its fourth city, in a municipality that also holds Rosmalen, Nuland and Vinkel. The city\'s most famous son, Jheronimus Bosch, appears in one encyclopaedia with a death date of 9 August 1516 and a burial date of 8 August 1516, which is impossible, and no check on either field alone would ever notice. Modern Age Coders teaches live online in English across the municipality for anyone aged 6 to 67, giving the first lesson free and then charging USD 100 a month for a group of fifteen to twenty or USD 150 for one-to-one.',
   lead: 'Two dates sit in one record about a painter from this city. He died on 9 August 1516. He was buried on 8 August 1516. Both are real dates, both are correctly formatted, and every validator that checks fields one at a time will pass them. The fault lies in the relationship, and the reason is worth more than the error: the day of his death was never written down, only the day of his funeral, so somebody put the funeral into the field marked died. A child who has seen that once will check the relationships between columns for the rest of their working life.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Den Bosch.',
 
@@ -177,14 +177,14 @@ module.exports = {
       { h3: 'Twice weekly, on the southern calendar', p: 'Two lessons a week at a fixed time, eight in most months. School holidays here follow regio Zuid with the rest of Brabant, Limburg and Zeeland, and weeks away are written in before a slot is agreed.' },
       { h3: 'A gap that grows in winter', p: 'Only the Dutch clock moves, so the teacher is three and a half hours ahead across the summer months and four and a half across the winter ones. The window runs from the end of school into mid-evening, and both weekend days are open.' }
     ],
-    spec: { title: 'Nine secondary schools, about a thousand pupils each', p: 'A teenager in this municipality is likely to be one of roughly a thousand in their building, which is the largest average of any city in this series. A group of five to ten at a fixed hour is a different proposition from a class of thirty, and for some learners that difference is the whole point.' }
+    spec: { title: 'Nine secondary schools, about a thousand pupils each', p: 'A teenager in this municipality is likely to be one of roughly a thousand in their building, which is the largest average of any city in this series. A group of fifteen to twenty at a fixed hour is a different proposition from a class of thirty, and for some learners that difference is the whole point.' }
   },
 
   fees: {
     h2: 'The fee, in dollars, for all four woonplaatsen',
     intro: 'Printed here so that nobody has to ask for it.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'A single international rate applies and it is quoted in dollars, never in euros, so a family in Vinkel is charged exactly what one in the centre is charged. Money is collected only after the free lesson has produced a course and a time, and it goes over WhatsApp. Pausing, changing plan and missing a week are set out on the pricing page.'
   },
@@ -209,7 +209,7 @@ module.exports = {
       { q: 'What time are classes for a family in Den Bosch?', a: 'The Dutch clock changes twice a year and the Indian one never does, which puts the teacher three and a half hours ahead in the summer months and four and a half in the winter ones. The usable window runs from the end of the school day to mid-evening, with both weekend days open, and one repeating slot is fixed in the free lesson.' },
       { q: 'We live in Nuland or Vinkel. Does the class reach that far?', a: 'It reaches every address in the municipality at the same hour and the same fee. Nuland and Vinkel joined in 2015 and are small enough that an after-school club would struggle to fill, which is exactly the gap a live online class closes.' },
       { q: 'Is there a Modern Age Coders classroom in Den Bosch?', a: 'No, and none is claimed near the cathedral, in Rosmalen or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Den Bosch coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Den Bosch coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in a Den Bosch group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or woonplaats. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

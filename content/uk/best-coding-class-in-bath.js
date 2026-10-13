@@ -66,7 +66,7 @@ module.exports = {
 
   h1: 'Coding classes in Bath',
   capsuleQ: 'What are the best coding classes in Bath?',
-  capsule: 'Bath and North East Somerset had 193,409 usual residents at the 2021 census, and 25.2% of those aged five and over were students, against 20.4% in England. The city\'s World Heritage office says Bath was inscribed as a World Heritage Site in 1987 and again in 2021 as one of the Great Spa Towns of Europe. We teach Bath learners aged six to sixty-seven from India over live video, in a group of five to ten at the same level or one to one, at times that suit the UK day. The first lesson is free, and after that a group place is USD 100 a month and private lessons USD 150.',
+  capsule: 'Bath and North East Somerset had 193,409 usual residents at the 2021 census, and 25.2% of those aged five and over were students, against 20.4% in England. The city\'s World Heritage office says Bath was inscribed as a World Heritage Site in 1987 and again in 2021 as one of the Great Spa Towns of Europe. We teach Bath learners aged six to sixty-seven from India over live video, in a group of fifteen to twenty at the same level or one to one, at times that suit the UK day. The first lesson is free, and after that a group place is USD 100 a month and private lessons USD 150.',
   lead: 'Jane Austen set parts of two novels in Bath: Northanger Abbey names the city 83 times and Persuasion 99. Do they sound alike? Our teenagers turn each of six Austen novels into a vector of word counts and measure the angle between them, cosine similarity. With raw counts, every pair scores above 0.97, because "the" and "and" swamp everything. With TF-IDF, which weights words by how rare they are, every pair falls below 0.05, because character names dominate. Only when names are removed do themes appear: the Bath pair rises to fourth of fifteen, joined by "pump", "concert" and "buildings", and Persuasion\'s nearest neighbour becomes Mansfield Park, through its sailors and navy.',
   wa: 'Hello Modern Age Coders, I would like to book a free coding lesson for a learner in Bath, please.',
 
@@ -189,7 +189,7 @@ module.exports = {
       { h3: 'City and valleys', p: 'A learner in Twerton and another in Radstock can share a class without a drive into the centre or a hunt for parking.' },
       { h3: 'English school stages', p: 'We teach to the stages used in Bath schools, from Reception and Key Stages 1 to 4 through GCSE and A level, entirely in English.' },
       { h3: 'A proper first lesson', p: 'The free session is a full lesson on a real task and finishes with a recommended level, course and weekly time. We never take card details.' },
-      { h3: 'Groups by stage', p: 'Five to ten learners at the same level, from Bath, the rest of the UK and abroad, which keeps sensible times available for every stage.' },
+      { h3: 'Groups by stage', p: 'Fifteen to twenty learners at the same level, from Bath, the rest of the UK and abroad, which keeps sensible times available for every stage.' },
       { h3: 'Twice every week', p: 'Two regular lessons a week, about eight a month, with holidays and exam weeks agreed with the teacher well in advance.' },
       { h3: 'Evening in Bath, night in India', p: 'A 5 pm lesson in Bath starts at 9.30 pm in India while British Summer Time runs and 10.30 pm in winter, since India has one time all year; our teachers work late for UK families.' }
     ],
@@ -200,7 +200,7 @@ module.exports = {
     h2: 'Bath lesson fees',
     intro: 'A free first lesson, then a single monthly fee.',
     first: 'A full lesson at no cost, finishing with our advice on level, course and a weekly time.',
-    group: 'About eight live lessons a month in a group of five to ten learners at one stage.',
+    group: 'About eight live lessons a month in a group of fifteen to twenty learners at one stage.',
     private: 'About eight live lessons a month, with the teacher attending to your learner alone.',
     closer: 'A Lansdown family pays in US dollars like every family outside India, and there are no pound prices anywhere on the site. The free lesson always comes first, with billing only after a course and a weekly time are agreed; the pricing page sets out pausing, missed lessons and changing between a group and private teaching.'
   },
@@ -225,8 +225,8 @@ module.exports = {
       { q: 'Why is Bath a World Heritage Site twice?', a: 'Bath\'s World Heritage office says the City of Bath was inscribed in 1987, and that Bath received a second inscription in 2021 as one of the Great Spa Towns of Europe. We are not connected with the council or its World Heritage office.' },
       { q: 'When do Bath lessons happen?', a: 'Bath families can pick an after-school slot, a weekday evening or a weekend, and we set the exact UK time in the free lesson. India is four and a half hours ahead of Bath in summer and five and a half in winter.' },
       { q: 'Is there anywhere in Bath to visit you?', a: 'No. We have no Bath centre and no premises anywhere in the UK, since every lesson is live online. A learner needs a computer with sound and a good connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do lessons cost for a Bath learner?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable is USD 150 a month. No charge is made before the course, format and time are agreed.', boiler: true },
-      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than age or where they live, with five to ten learners at one stage in each group. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do lessons cost for a Bath learner?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable is USD 150 a month. No charge is made before the course, format and time are agreed.', boiler: true },
+      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than age or where they live, with fifteen to twenty learners at one stage in each group. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

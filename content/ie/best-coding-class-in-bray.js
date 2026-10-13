@@ -52,7 +52,7 @@ module.exports = {
 
   h1: 'Coding classes in Bray',
   capsuleQ: 'What is the best coding class in Bray?',
-  capsule: 'Bray is the biggest town in County Wicklow, with 33,165 usual residents recorded in the census town tables and 11,835 households, 10,217 of which report broadband. Lessons with us happen at home: a live teacher, twice in most weeks, in an ability group of five to ten or one to one, for learners from six to sixty-seven years old. The first lesson costs nothing, and after it a group place is USD 100 a month while one to one is USD 150.',
+  capsule: 'Bray is the biggest town in County Wicklow, with 33,165 usual residents recorded in the census town tables and 11,835 households, 10,217 of which report broadband. Lessons with us happen at home: a live teacher, twice in most weeks, in an ability group of fifteen to twenty or one to one, for learners from six to sixty-seven years old. The first lesson costs nothing, and after it a group place is USD 100 a month while one to one is USD 150.',
   lead: 'Line up Bray by single years of age and something looks like news. The census counts 2,245 residents aged ten to fourteen and only 1,704 aged four or under, a quarter fewer, and the obvious headline writes itself: fewer children in Bray. The headline is not supported. One census is one day, and those two groups are two different sets of people, not the same children photographed twice. Families arrive and leave, houses change hands, and the youngest band has had less time to be added to. Look at the row for all towns combined and it slopes the same way, 211,241 against 257,812, which is a pattern in the country rather than a story about this town. To say whether anything in Bray is rising or falling you need two censuses of the same area, and this page shows what that would take.',
   wa: 'Hello Modern Age Coders, I would like to book a free coding lesson for a learner in Bray.',
 
@@ -179,7 +179,7 @@ module.exports = {
     intro: 'Six things worth knowing before booking.',
     cells: [
       { h3: 'Always live', p: 'A teacher is present for the whole lesson, watching the work and correcting it as it happens.' },
-      { h3: 'Levels, not ages', p: 'Five to ten learners who are at the same stage, whether they log in from Bray, elsewhere in Ireland or abroad.' },
+      { h3: 'Levels, not ages', p: 'Fifteen to twenty learners who are at the same stage, whether they log in from Bray, elsewhere in Ireland or abroad.' },
       { h3: 'Twice most weeks', p: 'Around eight lessons a month, in an hour the household picks once and then keeps.' },
       { h3: 'Term aware', p: 'Mid-terms, holidays and exam weeks go into the plan at the start rather than being worked around later.' },
       { h3: 'Equipment', p: 'A desktop or laptop, sound in both directions and a connection that holds video, all tried out in the free lesson.' },
@@ -192,7 +192,7 @@ module.exports = {
     h2: 'Bray class fees',
     intro: 'Three lines cover it.',
     first: 'The first lesson in full, taught and assessed, with nothing to pay.',
-    group: 'A month in an ability group of five to ten learners, about eight live lessons.',
+    group: 'A month in an ability group of fifteen to twenty learners, about eight live lessons.',
     private: 'A month of one to one teaching on the same weekly pattern.',
     closer: 'Fees are charged monthly in US dollars on the one rate that applies to families outside India, so a household in Bray sees exactly what a household in Greystones sees, with no euro list beside it. Nothing is charged before a course and an hour have been agreed in the free lesson, and the pricing page explains breaks, missed lessons and moving between group and private teaching.'
   },
@@ -217,7 +217,7 @@ module.exports = {
       { q: 'Do you teach adults in Bray?', a: 'Yes, from complete beginners up to the age of sixty-seven. The free lesson decides whether an adult joins a group at the same level or is taught privately.' },
       { q: 'Can two children in one family learn together?', a: 'They can share one lesson if they are genuinely at the same level, but usually they are not, and each learns faster in the group that matches them. The free lesson makes that clear quickly.' },
       { q: 'Is there a Modern Age Coders classroom in Bray?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Bray cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Bray cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

@@ -294,7 +294,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Our <a href='/data-structures-and-algorithms-course'>data structures and algorithms course</a> follows the principles on our <a href='/how-we-teach'>how we teach</a> page: one concept fully understood before the next, and code traced line by line until the student can predict every step. It runs live in Python, Java or C++, one to one or in small groups of 5 to 10, and there are dedicated <a href='/java-dsa-course'>Java DSA</a> and <a href='/c-plus-plus-dsa-course'>C++ DSA</a> tracks."
+        "text": "Our <a href='/data-structures-and-algorithms-course'>data structures and algorithms course</a> follows the principles on our <a href='/how-we-teach'>how we teach</a> page: one concept fully understood before the next, and code traced line by line until the student can predict every step. It runs live in Python, Java or C++, one to one or in groups of 15 to 20, and there are dedicated <a href='/java-dsa-course'>Java DSA</a> and <a href='/c-plus-plus-dsa-course'>C++ DSA</a> tracks."
       },
       {
         "type": "embed",

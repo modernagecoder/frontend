@@ -4,7 +4,7 @@ description: "Rotterdam's port forecasts its ships 24 hours ahead. Learn to buil
 canonical: https://learn.modernagecoders.com/ai-and-python-academy-rotterdam
 source: src/pages/ai-and-python-academy-rotterdam.html
 ---
-> Modern Age Coders teaches a live online AI and Python track to learners in Rotterdam aged six to sixty-seven. It starts with Python typed by hand, moves through data to forecasting and prediction models, and ends with agents, and it treats every forecast the same way: write it down before the event, then measure how wrong it was, separately for each lead time. The example throughout is local: the Port of Rotterdam Authority's AI tool that forecasts a day of ship movements, and the port's own frank account of its limits. Classes are taught in English to groups of five to ten at one level, or privately. The opening lesson is free; after it, group classes cost USD 100 a month and private tuition USD 150.
+> Modern Age Coders teaches a live online AI and Python track to learners in Rotterdam aged six to sixty-seven. It starts with Python typed by hand, moves through data to forecasting and prediction models, and ends with agents, and it treats every forecast the same way: write it down before the event, then measure how wrong it was, separately for each lead time. The example throughout is local: the Port of Rotterdam Authority's AI tool that forecasts a day of ship movements, and the port's own frank account of its limits. Classes are taught in English to groups of fifteen to twenty at one level, or privately. The opening lesson is free; after it, group classes cost USD 100 a month and private tuition USD 150.
 
 [Home](/) / [Courses](/courses) / [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands) / Rotterdam
 
@@ -166,7 +166,7 @@ Rotterdam's clocks go forward in March and back in October; India's never move. 
 Charged monthly in US dollars at the rate used for every country outside India. There is no Rotterdam supplement, no joining fee and no year-long contract. Copilot Studio courses run only as private lessons and are priced accordingly.
 
 - Free first class: USD 0. A proper lesson on a real task. Settles the starting rung. No payment details asked.
-- Group batch: USD 100 a month. Five to ten learners at the same level. One live teacher every week. Work reviewed weekly. A certificate on completion.
+- Group batch: USD 100 a month. Fifteen to twenty learners at the same level. One live teacher every week. Work reviewed weekly. A certificate on completion.
 - One to one: USD 150 a month. One learner with one teacher. Goal-led pace and content. The format for Copilot Studio.
 
 ## What Rotterdam families, students and professionals ask

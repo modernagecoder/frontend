@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Ceredigion, fr
 canonical: https://learn.modernagecoders.com/coding-classes-in-ceredigion
 source: src/pages/coding-classes-in-ceredigion.html
 ---
-> Ceredigion had 71,475 usual residents at the 2021 census. Aberystwyth is its only large town, with Cardigan, Lampeter and Llanbadarn Fawr next and a scattering of small towns and villages such as Aberaeron, New Quay, Tregaron and Borth. For a county of small towns and villages, live online teaching removes the travel: our teachers in India teach every class on video, and a free first lesson finds the right level for a Year 3 pupil, a Year 12 student or an adult. Learners from 6 to 67 take coding, Python and maths, with a teacher to themselves or in a group of five to ten. The Ceredigion project uses the Aberporth weather record. After the free lesson, it is USD 100 a month for a group place or USD 150 a month one-to-one.
+> Ceredigion had 71,475 usual residents at the 2021 census. Aberystwyth is its only large town, with Cardigan, Lampeter and Llanbadarn Fawr next and a scattering of small towns and villages such as Aberaeron, New Quay, Tregaron and Borth. For a county of small towns and villages, live online teaching removes the travel: our teachers in India teach every class on video, and a free first lesson finds the right level for a Year 3 pupil, a Year 12 student or an adult. Learners from 6 to 67 take coding, Python and maths, with a teacher to themselves or in a group of fifteen to twenty. The Ceredigion project uses the Aberporth weather record. After the free lesson, it is USD 100 a month for a group place or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Ceredigion
 
@@ -12,11 +12,11 @@ Ceredigion / Live online
 
 # Coding classes in Ceredigion
 
-**What are the best coding classes in Ceredigion?** Ceredigion had 71,475 usual residents at the 2021 census. Aberystwyth is its only large town, with Cardigan, Lampeter and Llanbadarn Fawr next and a scattering of small towns and villages such as Aberaeron, New Quay, Tregaron and Borth. For a county of small towns and villages, live online teaching removes the travel: our teachers in India teach every class on video, and a free first lesson finds the right level for a Year 3 pupil, a Year 12 student or an adult. Learners from 6 to 67 take coding, Python and maths, with a teacher to themselves or in a group of five to ten. The Ceredigion project uses the Aberporth weather record. After the free lesson, it is USD 100 a month for a group place or USD 150 a month one-to-one.
+**What are the best coding classes in Ceredigion?** Ceredigion had 71,475 usual residents at the 2021 census. Aberystwyth is its only large town, with Cardigan, Lampeter and Llanbadarn Fawr next and a scattering of small towns and villages such as Aberaeron, New Quay, Tregaron and Borth. For a county of small towns and villages, live online teaching removes the travel: our teachers in India teach every class on video, and a free first lesson finds the right level for a Year 3 pupil, a Year 12 student or an adult. Learners from 6 to 67 take coding, Python and maths, with a teacher to themselves or in a group of fifteen to twenty. The Ceredigion project uses the Aberporth weather record. After the free lesson, it is USD 100 a month for a group place or USD 150 a month one-to-one.
 
 The Met Office publishes monthly records from its station at Aberporth, 133 metres above sea level, and the air frost counts run unbroken from 1957 to 2025. In those 69 years, not one May, June, July, August or September brought a single day of air frost there. So is a summer frost at Aberporth impossible? Not quite. Never having seen something in 69 tries does not prove it cannot happen; it only limits how common it can be. Statisticians have a beautifully simple rule for exactly this situation, and an exact version to check it against. This page's project reads the record in Python and puts a number on never.
 
-Facts last verified 26 September 2026. Teaching is online; no Ceredigion branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Ceredigion branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Ceredigion learners start
 
@@ -135,7 +135,7 @@ Across a county of small towns and villages, video lessons remove the journey.
 - **Pupils write the code** Learners type every line; the teacher follows the shared screen and helps at the right moment.
 - **Placed the Welsh way** A Tregaron Year 4 or an Aberystwyth Year 12 is placed by school year and the Curriculum for Wales, with WJEC exam names. We teach in English.
 - **Free trial first** One complete lesson for free, then plain advice on what suits.
-- **Classmates at one level** Five to ten learners working at the same level, some local and many from abroad.
+- **Classmates at one level** Fifteen to twenty learners working at the same level, some local and many from abroad.
 - **Term time only** Two lessons a week in term; holidays off.
 - **UK time stays put** Your lesson keeps its UK hour through the clock changes; teachers on India time adjust.
 
@@ -146,7 +146,7 @@ Across a county of small towns and villages, video lessons remove the journey.
 Aberystwyth or Aberaeron, the fee is identical, the rate we charge everywhere except India.
 
 - First class: USD 0. A full free lesson, then a clear recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month with five to ten classmates.
+- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty classmates.
 - Private tuition: USD 150 a month. About eight lessons a month, just you and a teacher.
 
 Prices are in US dollars with no sterling alternative. We only bill after the trial, once a course and weekly slot are agreed; our pricing page explains holidays, absences and changing between group and private lessons.

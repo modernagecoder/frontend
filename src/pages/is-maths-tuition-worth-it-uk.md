@@ -44,7 +44,7 @@ Published rates, read in October 2026 and converted to US dollars so this page u
 | Weekly A level maths tutor for a school year (38 hours) | about $2,090 (our arithmetic at about $55 an hour) | Rate from Tutorful, same guide |
 | Tuition centre GCSE maths group, two sessions a week, nine months | about $2,070 (our arithmetic at about $230 a month) | Monthly price from Explore Learning's pricing page (read 7 October 2026) |
 | Worksheet programme, one subject, twelve months | about $1,116 to $1,248, plus a joining fee (our arithmetic at about $93 to $104 a month) | Monthly fees from Kumon centre pages for Ilford Lane and Ashford South (read 7 October 2026) |
-| Modern Age Coders, live maths | $100 a month in a group of 5 to 10, or $150 a month one-to-one, eight one-hour lessons | Our own price, no enrolment fee, stop at any month end |
+| Modern Age Coders, live maths | $100 a month in a group of 15 to 20, or $150 a month one-to-one, eight one-hour lessons | Our own price, no enrolment fee, stop at any month end |
 
 Conversion: UK figures were converted at 1.3221 US dollars per pound, the Bank of England spot rate for 5 October 2026 (series XUDLUSS), and rounded to the nearest dollar. Yearly totals are our arithmetic, not the providers' own figures.
 
@@ -144,7 +144,7 @@ $150 / month
 $100 / month
 
 - 8 live group lessons a month (2 a week, 1 hour each)
-- 5 to 10 learners matched by level
+- 15 to 20 learners matched by level
 - Structure and practice at a lower monthly price
 - No enrolment fee, stop at any month end
 

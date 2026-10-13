@@ -74,7 +74,7 @@ module.exports = {
       body: [
         { kind: 'table', caption: 'FIRST LEGO League divisions in Australia, 2026-2027', head: ['', 'Explore', 'Challenge', 'Future Edition'], rows: [
           ['Students', 'Ages 6 to 10 (Years 1 to 4)', 'Ages 9 to 16 (Years 4 to 10)', 'Ages 8 to 16 (Years 3 to 10)'],
-          ['Team size', 'Up to 6 students', 'Up to 10 students', 'Up to 8 students'],
+          ['Team size', 'Up to 6 students', 'Up to 10 students', 'Up to 20 students'],
           ['Coaches', 'At least 1', 'At least 2', 'At least 2'],
           ['Robot game', 'No matches; models built and shared', 'Autonomous matches of 2:30', 'Autonomous matches of 2:30'],
           ['Technology', 'LEGO Education SPIKE Essential', 'LEGO Education SPIKE Prime', 'LEGO Education Computer Science and AI kits'],
@@ -227,7 +227,7 @@ module.exports = {
       { h3: 'Measure, then code', p: 'Students use real measurements instead of guessed numbers.' },
       { h3: 'The team\'s robot', p: 'We teach and question; the team builds and programs.' },
       { h3: 'Blocks or Python', p: 'Whichever the team uses, with a path to the other.' },
-      { h3: 'Groups of five to ten', p: 'Students at a similar level sharing methods.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Students at a similar level sharing methods.' },
       { h3: 'One-to-one option', p: 'For the team member leading the programming.' },
       { h3: 'No result promised', p: 'Referees and judges decide; we build the skills.' }
     ]
@@ -241,7 +241,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Lessons are billed each month in US dollars at our international rate, with no joining fee and no contract. Team registration and kits are bought separately from FIRST Australia and its suppliers, not through us.',
     free: ['A first lesson that costs nothing', 'A look at how the student programs now', 'No card details'],
-    group: ['Five to ten students at one level', 'One teacher for the whole term', 'Movement and sensor exercises done together', 'A certificate on finishing'],
+    group: ['Fifteen to twenty students at one level', 'One teacher for the whole term', 'Movement and sensor exercises done together', 'A certificate on finishing'],
     one: ['A teacher for a single student', 'Time on that student\'s own team programs', 'Times arranged around team meetings']
   },
 

@@ -72,7 +72,7 @@ module.exports = {
 
   h1: 'Coding classes in Wells, Somerset',
   capsuleQ: 'What are the best coding classes in Wells, Somerset?',
-  capsule: 'The middle-layer area the House of Commons Library calls Wells Town had 8,317 usual residents at the 2021 census, packed at 2,146.2 people per square kilometre among thinly settled Mendip villages. Wells Cathedral dates the works of its clock, with jousting knights and a Quarter Jack, to about 1390. Learners in Wells aged six to sixty-seven meet our teachers in India on live video, one to one or in a group of five to ten at the same level, at times that fit around the English school and working week. We charge nothing for the opening lesson; after that it is USD 100 a month in a group or USD 150 a month one to one.',
+  capsule: 'The middle-layer area the House of Commons Library calls Wells Town had 8,317 usual residents at the 2021 census, packed at 2,146.2 people per square kilometre among thinly settled Mendip villages. Wells Cathedral dates the works of its clock, with jousting knights and a Quarter Jack, to about 1390. Learners in Wells aged six to sixty-seven meet our teachers in India on live video, one to one or in a group of fifteen to twenty at the same level, at times that fit around the English school and working week. We charge nothing for the opening lesson; after that it is USD 100 a month in a group or USD 150 a month one to one.',
   lead: 'In Wells Cathedral a clock made about 1390 still marks every quarter hour, the Quarter Jack banging out the quarters with his heels while jousting knights rush round above. Our Wells project builds a clock of a different kind, one that predicts full moons. Teenagers learn to count time the way astronomers do, as a single running tally of days called the Julian day number, then add NASA\'s average month of 29.53059 days again and again. Set against the full moons the US Naval Observatory lists for 2016 to 2030, the simple model lands on the right date almost three times in four. Its worst miss is 13.9 hours, and working out why it misses is the real lesson.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Wells, Somerset.',
 
@@ -194,7 +194,7 @@ module.exports = {
       { h3: 'City and villages alike', p: 'A learner in Haybridge and another in East Horrington can share a class without anyone waiting for a lift or a bus.' },
       { h3: 'English school years', p: 'We place learners by English school years and key stages and use GCSE and A level course names, with every lesson taught in English.' },
       { h3: 'A free lesson with a plan', p: 'The opening session works on a real task and finishes with our advice on level, course and a weekly time. No card is ever requested.' },
-      { h3: 'Groups set by level', p: 'Classes of five to ten learners at one stage, from Wells, elsewhere in the UK and abroad, so there are sensible times for every level.' },
+      { h3: 'Groups set by level', p: 'Classes of fifteen to twenty learners at one stage, from Wells, elsewhere in the UK and abroad, so there are sensible times for every level.' },
       { h3: 'A steady weekly rhythm', p: 'Two set lessons each week, roughly eight a month, with half terms and exams agreed with the teacher ahead of time.' },
       { h3: 'Teachers who shift their day', p: 'A 5 pm lesson in Wells is 9.30 pm for our teachers in India during British Summer Time and 10.30 pm in winter, because India does not change its clocks; they plan their evenings around families here.' }
     ],
@@ -205,7 +205,7 @@ module.exports = {
     h2: 'Wells lesson fees',
     intro: 'A free first lesson, and after that one fee each month.',
     first: 'A complete lesson at no cost, finishing with our advice on level, course and a weekly time.',
-    group: 'Roughly eight live lessons each month, in a class of five to ten learners at one level.',
+    group: 'Roughly eight live lessons each month, in a class of fifteen to twenty learners at one level.',
     private: 'Roughly eight live lessons each month, with a teacher working with your learner alone.',
     closer: 'Families in Croscombe or Westbury-sub-Mendip pay in US dollars, as every family outside India does, and our site shows no pound prices. Billing begins only once the free lesson is over and you have chosen a course and a weekly time with us; the pricing page covers pausing, missed lessons and switching between a class and one-to-one teaching.'
   },
@@ -230,8 +230,8 @@ module.exports = {
       { q: 'How old is the Wells Cathedral clock?', a: 'Wells Cathedral says the original works were made about 1390 and that it is considered the second oldest clock mechanism in Britain, and probably in the world, to survive in original condition and still in use. We are not connected with the cathedral.' },
       { q: 'When do Wells lessons happen?', a: 'Families in Wells usually pick an after-school time, a weekday evening or a weekend morning, and we settle it in the free lesson. India runs four and a half hours ahead of Somerset in British Summer Time and five and a half hours ahead in winter, and our teachers plan around that.' },
       { q: 'Do you have a centre in Wells?', a: 'No. There is no centre in Wells or anywhere else in the UK, because every lesson is live online. A learner needs a computer with sound and a reliable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do Wells lessons cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same pattern costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are classes put together?', a: 'By level, pace and goals rather than by age or address, with five to ten learners at the same stage. When no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'What do Wells lessons cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same pattern costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are classes put together?', a: 'By level, pace and goals rather than by age or address, with fifteen to twenty learners at the same stage. When no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

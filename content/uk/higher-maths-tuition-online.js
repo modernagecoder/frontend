@@ -234,7 +234,7 @@ module.exports = {
       { h3: 'Notation drills', p: 'dx, the constant, brackets and radians, until leaving them out feels wrong.' },
       { h3: 'Novel questions', p: 'Unfamiliar problems under exam timing, as the report recommends.' },
       { h3: 'Calculator sense', p: 'In paper 2 practice, the calculator used for what it does well, with working still recorded.' },
-      { h3: 'Five to ten per group', p: 'S5 and S6 students at one rung, reviewing each other\'s chains of working.' }
+      { h3: 'Fifteen to twenty per group', p: 'S5 and S6 students at one rung, reviewing each other\'s chains of working.' }
     ]
   },
 
@@ -246,7 +246,7 @@ module.exports = {
     h2: 'Fees for Higher Maths lessons',
     lede: 'We charge a monthly fee in US dollars, identical for every family outside India. There is no charge for a first lesson, and no invoice until a course and a weekly slot have been agreed.',
     free: ['A lesson on real Higher questions', 'An honest read of how secure the working is', 'We ask only for a phone number'],
-    group: ['Five to ten students on one rung', 'The same teacher across S5', 'Working marked line by line each week', 'Timed papers in spring'],
+    group: ['Fifteen to twenty students on one rung', 'The same teacher across S5', 'Working marked line by line each week', 'Timed papers in spring'],
     one: ['A teacher for one student', 'A plan built back from the diet', 'Suits a student repairing algebra habits']
   },
 

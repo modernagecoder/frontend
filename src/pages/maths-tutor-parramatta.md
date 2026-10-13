@@ -4,7 +4,7 @@ description: "Online maths tutor for Parramatta, Kindergarten to Year 12 and adu
 canonical: https://learn.modernagecoders.com/maths-tutor-parramatta
 source: src/pages/maths-tutor-parramatta.html
 ---
-> Modern Age Coders tutors maths online for Parramatta learners aged 6 to 67: the NSW syllabus from Kindergarten to Year 10, the Stage 6 courses for the HSC, Mathematics Standard, Advanced, Extension 1 and Extension 2, and adult maths. Lessons are on live video in Sydney time, privately or in classes of five to ten at one level. Our local example converts Parramatta Park, 85 hectares, into 850,000 square metres and compares it with the 523.45-hectare suburb. A first lesson costs nothing.
+> Modern Age Coders tutors maths online for Parramatta learners aged 6 to 67: the NSW syllabus from Kindergarten to Year 10, the Stage 6 courses for the HSC, Mathematics Standard, Advanced, Extension 1 and Extension 2, and adult maths. Lessons are on live video in Sydney time, privately or in classes of fifteen to twenty at one level. Our local example converts Parramatta Park, 85 hectares, into 850,000 square metres and compares it with the 523.45-hectare suburb. A first lesson costs nothing.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Maths tutor in Parramatta
 
@@ -142,7 +142,7 @@ Holiday revision is available on request.
 
 ### Private or a class
 
-A private lesson suits a deadline or a specific gap. A class of five to ten at one level suits steady progress, with other students' questions often answering your own.
+A private lesson suits a deadline or a specific gap. A class of fifteen to twenty at one level suits steady progress, with other students' questions often answering your own.
 
 Both use a shared board so the teacher sees every step.
 
@@ -247,14 +247,14 @@ Two short commitments a week, booked on the Sydney clock, with nothing for famil
 A flat monthly fee in US dollars for families outside India, with no enrolment fee and no lock-in.
 
 - Free first class: USD 0. A real lesson at the right level. A frank report afterwards. No card needed.
-- Group batch: USD 100 a month. Five to ten learners at one level. One teacher across the term. Marked practice. Leave at any month end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. One teacher across the term. Marked practice. Leave at any month end.
 - One to one: USD 150 a month. A teacher to yourself. Built around one aim. Good before HSC trials.
 
 ## Questions about a maths tutor in Parramatta
 
 ### Do you offer maths tutoring for Parramatta students?
 
-Yes, live online in Sydney time, privately or in level-matched classes of five to ten, from Kindergarten to Year 12 and for adults.
+Yes, live online in Sydney time, privately or in level-matched classes of fifteen to twenty, from Kindergarten to Year 12 and for adults.
 
 ### Which Stage 6 maths courses do you teach?
 

@@ -16,7 +16,7 @@ Book a Free Java Demo ClassSee the Curriculum**4.9/5**Learner rating**5–8**Stu
 
 ## Quick answer
 
-**Modern Age Coders runs India's top-rated live online Java classes for teens, ICSE/ISC students and adults.** The curriculum moves from Core Java (syntax, logic, methods) through Object-Oriented Programming, Data Structures & Algorithms, and into real projects you build yourself. Classes are live and interactive in small batches of 5–8 students, the syllabus is aligned to the ICSE/ISC board (where Java is the official language), and group plans start at ₹1,499/month. Every learner gets a free demo class first.
+**Modern Age Coders runs India's top-rated live online Java classes for teens, ICSE/ISC students and adults.** The curriculum moves from Core Java (syntax, logic, methods) through Object-Oriented Programming, Data Structures & Algorithms, and into real projects you build yourself. Classes are live and interactive in batches of 15–20 students, the syllabus is aligned to the ICSE/ISC board (where Java is the official language), and group plans start at ₹1,499/month. Every learner gets a free demo class first.
 
 > “Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.”
 
@@ -135,7 +135,7 @@ The Difference
 
 ## Why Learners Choose Our Java Classes
 
-### Small live batches (5–8)
+### Small live batches (15–20)
 
 Real two-way mentoring, never pre-recorded videos. Your code is reviewed live, every class.
 
@@ -169,7 +169,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo, then pick 
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 learners per batch
+- 15–20 learners per batch
 - Live interactive Java sessions
 - Recorded class access
 - Completion certificate
@@ -180,7 +180,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 learners per batch
+- Up to 6 learners per batch
 - More personal mentoring
 - Recorded class access
 - Project guidance & certificate
@@ -228,7 +228,7 @@ Good To Know
 
 What are the best online Java classes in India?+
 
-Modern Age Coders offers live online Java classes across India for teens (13–18), ICSE/ISC school students and adults. The curriculum covers Core Java, Object-Oriented Programming, Data Structures & Algorithms and real-world projects, taught in small batches of 5–8 students by expert mentors. Every new learner gets a free demo class before enrolling.
+Modern Age Coders offers live online Java classes across India for teens (13–18), ICSE/ISC school students and adults. The curriculum covers Core Java, Object-Oriented Programming, Data Structures & Algorithms and real-world projects, taught in batches of 15–20 students by expert mentors. Every new learner gets a free demo class before enrolling.
 
 Is Java a good language for teens and beginners to learn?+
 
@@ -240,7 +240,7 @@ Yes. Java (with BlueJ) is the official language of ICSE Class 9–10 Computer Ap
 
 How much do Java classes cost in India?+
 
-Group Java classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and personalised 1-on-1 Java mentoring is ₹4,999 per month. A free demo class is available before you enrol.
+Group Java classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and personalised 1-on-1 Java mentoring is ₹4,999 per month. A free demo class is available before you enrol.
 
 Can adults and working professionals learn Java with you?+
 
@@ -264,7 +264,7 @@ Yes. Java is one of the most common languages for Data Structures & Algorithms a
 
 Should I choose group Java classes or 1-on-1?+
 
-Both are live and taught by an expert mentor. Group Java classes in small batches of 5 to 8 are the most affordable and add peer learning, a mini batch of 3 to 4 gives near one-to-one attention, and 1-on-1 gives a fully personalised pace. Start with a free demo, and you can change your plan later.
+Both are live and taught by an expert mentor. Group Java classes in batches of 15 to 20 are the most affordable and add peer learning, a mini batch of up to 6 gives near one-to-one attention, and 1-on-1 gives a fully personalised pace. Start with a free demo, and you can change your plan later.
 
 Do you offer a refund if the Java course is not the right fit?+
 

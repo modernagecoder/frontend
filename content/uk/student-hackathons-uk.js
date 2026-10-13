@@ -222,7 +222,7 @@ module.exports = {
     cells: [
       { h3: 'Version control taught', p: 'Branches, merges and conflicts practised deliberately, before anyone meets one under pressure.' },
       { h3: 'Something on screen first', p: 'We teach building in slices, so there is always a demonstrable thing.' },
-      { h3: 'Five to ten learners', p: 'Enough that work has to be divided, few enough that everyone is heard.' },
+      { h3: 'Fifteen to twenty learners', p: 'Enough that work has to be divided, few enough that everyone is heard.' },
       { h3: 'Our own hackathon', p: 'We run an event for younger students alongside a twelve-week preparation course for ages 8 to 12.' },
       { h3: 'One to one when useful', p: 'For a student preparing for a specific event.' },
       { h3: 'No affiliation', p: 'We have no relationship with Hackathons UK, HackUK or Major League Hacking.' }
@@ -237,7 +237,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'One monthly price in US dollars for families outside India, nothing to pay to register, and no term you are locked into.',
     free: ['A real lesson building something', 'An honest read on the level', 'No card details taken'],
-    group: ['Five to ten learners at one level', 'The same teacher weekly', 'Code reviewed as it grows', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher weekly', 'Code reviewed as it grows', 'A certificate at the end'],
     one: ['A teacher working with one learner', 'Shaped around what they are building', 'Useful before a first event']
   },
 

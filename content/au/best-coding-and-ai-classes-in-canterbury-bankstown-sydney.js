@@ -319,7 +319,7 @@ module.exports = {
       { h3: 'From home', p: 'No travel across the council area; a computer and headphones are enough.' },
       { h3: 'NSW timing', p: 'Plans follow NSW stages and break for the state school holidays.' },
       { h3: 'Free trial', p: 'A full first lesson at no cost, followed by a suggested course and time.' },
-      { h3: 'Group or one to one', p: 'Classes of five to ten learners sorted by level, or a teacher of your own.' },
+      { h3: 'Group or one to one', p: 'Classes of fifteen to twenty learners sorted by level, or a teacher of your own.' },
       { h3: 'Steady routine', p: 'The same two weekly slots all term, roughly eight lessons a month.' },
       { h3: 'Teachers in India', p: 'A 5:30pm lesson in summer begins at noon India time, and at 1pm once Sydney leaves daylight saving.' }
     ],
@@ -332,7 +332,7 @@ module.exports = {
     h2: 'Canterbury-Bankstown class fees',
     intro: 'Three amounts are the whole story.',
     first: 'The first lesson is free and ends with a recommendation.',
-    group: 'A month of small-group lessons, normally eight, with five to ten learners.',
+    group: 'A month of small-group lessons, normally eight, with fifteen to twenty learners.',
     private: 'Roughly eight lessons a month with one teacher and one learner.',
     closer: 'Outside India every invoice is in US dollars, the same across the council area. Payment starts only after the trial, when course and times are agreed; holidays and absences are explained on the pricing page.'
   },
@@ -381,7 +381,7 @@ module.exports = {
       },
       {
         q: 'What do classes cost in Canterbury-Bankstown?',
-        a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one.',
+        a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one.',
         boiler: true
       },
       {

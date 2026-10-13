@@ -16,7 +16,7 @@ Perth, Western Australia / Live online
 
 Every Python programmer leans on the dictionary, usually without a second thought: give it a key, get the value back almost instantly. Our Perth project opens the lid on how that works. We took the Department of Education's public list of schools in the North and South Metropolitan regions, 747 different names, and stored them three ways. A chained table lets clashing names share a bucket. Linear probing walks to the next free slot. Cuckoo hashing gives every name two possible homes and evicts whoever is sitting there. Learners count the slots each method checks, push the tables until they fail, and come away knowing why a dictionary slows down long before it fills up.
 
-Facts last verified 7 October 2026. Teaching is online; no Perth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Perth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four ways into Python for a Perth learner
 
@@ -182,7 +182,7 @@ Greater Perth stretches a long way along the coast, and an online lesson reaches
 - **No drive across the city** Learners in Joondalup, Midland or Rockingham join the same live lesson from home, with nothing to book but the time.
 - **Western Australian year levels** Teachers use the same year levels as Perth schools and plan around the four WA school terms. Every lesson is in English.
 - **Trial lesson first** Bring a question or a project idea; leave with a working piece of code and a recommended course and time. No payment details are taken.
-- **Level-matched groups** Groups of five to ten at the same stage, drawn from Perth and other places in a similar time zone, so evening slots fill easily.
+- **Level-matched groups** Groups of fifteen to twenty at the same stage, drawn from Perth and other places in a similar time zone, so evening slots fill easily.
 - **Two lessons a week** Around eight a month in a regular slot, with breaks for school holidays and exams arranged with the teacher in advance.
 - **Two and a half hours to India time** Perth is 2 hours 30 minutes ahead of our teachers throughout the year, so a 4:30pm Perth lesson is at 2pm in India.
 
@@ -193,7 +193,7 @@ Greater Perth stretches a long way along the coast, and an online lesson reaches
 Three numbers, set out plainly.
 
 - First class: USD 0. One whole lesson at no cost, after which you get a level, a suggested course and a regular time.
-- Group tuition: USD 100 a month. A month of lessons, typically eight, alongside five to ten learners at your level.
+- Group tuition: USD 100 a month. A month of lessons, typically eight, alongside fifteen to twenty learners at your level.
 - Private tuition: USD 150 a month. About eight lessons each month in the same pattern, with one teacher for one learner.
 
 Every family outside India pays in US dollars at a single rate, so Fremantle and Ellenbrook see the same bill and there is no Perth price list. Nothing is charged until the trial is done and a course and time are agreed; the pricing page covers holidays, missed lessons and switching between group and private.
@@ -234,11 +234,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Perth coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Perth and Australian learners
 

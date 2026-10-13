@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes for Blackpool children, 
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-blackpool
 source: src/pages/online-coding-and-python-classes-in-blackpool.html
 ---
-> Blackpool borough had 141,036 residents in the 2021 census, and the ONS gives 149,070 for the Blackpool built-up area, which reaches past the borough. People aged 55 to 64 are well above the England share, while children and adults in their early forties are fewer. Coding, Python, AI and maths are taught live by our tutors in India to learners aged 6 to 67, one-to-one or in small classes of five to ten at a single stage. A free first lesson settles the course. The Blackpool project uses a school protractor, some trigonometry and a few lines of Python on the Tower itself. Staying on is USD 100 a month in a group or USD 150 a month privately.
+> Blackpool borough had 141,036 residents in the 2021 census, and the ONS gives 149,070 for the Blackpool built-up area, which reaches past the borough. People aged 55 to 64 are well above the England share, while children and adults in their early forties are fewer. Coding, Python, AI and maths are taught live by our tutors in India to learners aged 6 to 67, one-to-one or in classes of fifteen to twenty at a single stage. A free first lesson settles the course. The Blackpool project uses a school protractor, some trigonometry and a few lines of Python on the Tower itself. Staying on is USD 100 a month in a group or USD 150 a month privately.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Blackpool
 
@@ -12,11 +12,11 @@ Blackpool, Lancashire, England / Live online
 
 # Online coding and Python classes in Blackpool
 
-**Which are the best online coding and Python classes in Blackpool?** Blackpool borough had 141,036 residents in the 2021 census, and the ONS gives 149,070 for the Blackpool built-up area, which reaches past the borough. People aged 55 to 64 are well above the England share, while children and adults in their early forties are fewer. Coding, Python, AI and maths are taught live by our tutors in India to learners aged 6 to 67, one-to-one or in small classes of five to ten at a single stage. A free first lesson settles the course. The Blackpool project uses a school protractor, some trigonometry and a few lines of Python on the Tower itself. Staying on is USD 100 a month in a group or USD 150 a month privately.
+**Which are the best online coding and Python classes in Blackpool?** Blackpool borough had 141,036 residents in the 2021 census, and the ONS gives 149,070 for the Blackpool built-up area, which reaches past the borough. People aged 55 to 64 are well above the England share, while children and adults in their early forties are fewer. Coding, Python, AI and maths are taught live by our tutors in India to learners aged 6 to 67, one-to-one or in classes of fifteen to twenty at a single stage. A free first lesson settles the course. The Blackpool project uses a school protractor, some trigonometry and a few lines of Python on the Tower itself. Staying on is USD 100 a month in a group or USD 150 a month privately.
 
 The Blackpool Tower opened in 1894, and its own website invites visitors to take "a trip 380ft into the sky" to the Tower Top. Could you check that number from the pavement? Surveyors do it with trigonometry: stand a known distance away, measure the angle up to the top, and the tangent of that angle times the distance gives the height. But no hand-held measurement is perfect. A clinometer read by a teenager might be half a degree out. The surprising question is this: does it matter where you stand? It turns out it matters a great deal, and a short Python program can find the spot on the Promenade where a half-degree slip does the least damage.
 
-Facts last verified 27 September 2026. Teaching is online; no Blackpool branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Blackpool branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses for Blackpool learners
 

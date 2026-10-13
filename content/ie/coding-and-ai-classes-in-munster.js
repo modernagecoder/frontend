@@ -52,7 +52,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Munster',
   capsuleQ: 'What are the best coding and AI classes in Munster?',
-  capsule: 'Munster is the south of Ireland: Cork, Kerry, Limerick, Clare, Tipperary and Waterford, with 1,355,848 usually resident people at the 2022 census in 501,571 households. It holds three of the State\'s cities, and every Munster county and city has its own page with us, linked further down. Teaching is the same everywhere we work, live on video at a fixed weekly time, in ability groups of five to ten or one to one, for ages six to sixty-seven. The first lesson costs nothing; afterwards a group place is USD 100 a month and a private place USD 150.',
+  capsule: 'Munster is the south of Ireland: Cork, Kerry, Limerick, Clare, Tipperary and Waterford, with 1,355,848 usually resident people at the 2022 census in 501,571 households. It holds three of the State\'s cities, and every Munster county and city has its own page with us, linked further down. Teaching is the same everywhere we work, live on video at a fixed weekly time, in ability groups of fifteen to twenty or one to one, for ages six to sixty-seven. The first lesson costs nothing; afterwards a group place is USD 100 a month and a private place USD 150.',
   lead: 'Which province has better broadband, Munster or Ulster? The census gives a firm answer, and then a different one. Count every household and Ulster, meaning its three counties in this State, edges ahead: 76.6% against Munster\'s 76.3%. Count only the households that actually answered the question and Munster leads, 82.9% against 82.1%. Same census, same counts, opposite ranking. The difference is 39,859 Munster households that did not say whether they had internet at all, a larger share than in Ulster. Neither calculation is wrong. What would be wrong is publishing one of them without saying which, and that decision, made silently, sits under a great many league tables people take at face value.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Munster.',
 
@@ -154,7 +154,7 @@ module.exports = {
     intro: 'The same arrangement in Dingle, Ennis, Nenagh or Dungarvan.',
     cells: [
       { h3: 'Taught live', p: 'Each lesson is led in real time by a teacher who expects the learner to take part out loud.' },
-      { h3: 'Placed by level', p: 'Groups of five to ten are formed by ability, drawing on Munster and other countries so the fit is genuine.' },
+      { h3: 'Placed by level', p: 'Groups of fifteen to twenty are formed by ability, drawing on Munster and other countries so the fit is genuine.' },
       { h3: 'A steady weekly slot', p: 'Two lessons in most weeks, about eight a month, at a time fixed once and kept.' },
       { h3: 'School calendar in mind', p: 'Junior Cycle to Leaving Certificate, with mid-terms, holidays and exam weeks planned for.' },
       { h3: 'From home', p: 'A computer, sound that works and a connection good enough for video, all checked in the free lesson.' },
@@ -167,7 +167,7 @@ module.exports = {
     h2: 'Munster fees',
     intro: 'Three prices, the same in every Munster county.',
     first: 'A complete first lesson, at no charge, ending with a level and a suggested course.',
-    group: 'A month in a group of five to ten at one level, about eight lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, about eight lessons.',
     private: 'A month of one to one lessons on the same weekly pattern.',
     closer: 'Fees are charged monthly in US dollars at the single rate used outside India, so Tralee and Waterford pay the same and no euro price exists beside it. No payment is taken before the free lesson has agreed a course and a time, and the pricing page explains pauses, missed lessons and switching format.'
   },
@@ -192,7 +192,7 @@ module.exports = {
       { q: 'What time are lessons?', a: 'After school, evenings and weekend mornings. Our teachers are in India, four and a half hours ahead of Ireland in summer and five and a half in winter, and the slot is agreed in the free lesson.' },
       { q: 'Do you teach AI as well as coding?', a: 'Yes. The course list runs from Scratch for young children to Python, data and AI courses for teenagers and adults, and the free lesson is where the right one is chosen.' },
       { q: 'Is there a Modern Age Coders classroom in Munster?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do Munster coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do Munster coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

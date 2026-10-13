@@ -16,7 +16,7 @@ Brisbane, Queensland, Australia / Live online
 
 Read the names of Brisbane's ferry stops out loud and you will hear a lot of Ts. Hawthorne, Teneriffe, Riverside, Howard Smith Wharves: is T really the most common letter, or does it only feel that way? A program can settle it in a few lines. Our young Brisbane coders take the 23 stop names along the river from OpenStreetMap, count every letter with a dictionary, and discover that the answer depends on a question they never thought to ask: does a capital T count the same as a small one?
 
-Facts last verified 7 October 2026. Teaching is online; no Brisbane branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Brisbane branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Good first courses for a Brisbane child
 
@@ -178,7 +178,7 @@ Greater Brisbane covers a lot of ground, and the school pick-up rush is busy eno
 - **Just a computer** A laptop or desktop, sound that works and a calm spot. Tablets are fine for the youngest children for a short while, but a keyboard helps soon after.
 - **Queensland words** Teachers use the year levels Brisbane children use at school, from Prep onwards, so lessons feel familiar.
 - **First lesson free** Your child finishes a small project in session one. Afterwards we recommend where to start and which weekday suits, and we never ask for card details.
-- **Matched groups** Five to ten children at the same stage, or one to one if that suits your child better.
+- **Matched groups** Fifteen to twenty children at the same stage, or one to one if that suits your child better.
 - **A steady rhythm** About eight lessons a month, usually two a week in a fixed slot that fits around sport and homework.
 - **Teachers on India time** Brisbane is four and a half hours ahead of India time all year, so a 4pm Brisbane lesson falls at 11:30am in India, in the middle of our teachers' day.
 
@@ -189,7 +189,7 @@ Greater Brisbane covers a lot of ground, and the school pick-up rush is busy eno
 Three prices and nothing tucked away.
 
 - First class: USD 0. A complete first lesson at no charge, finishing with a level, a course and a weekly time.
-- Group tuition: USD 100 a month. A month of teaching, usually eight lessons, with five to ten children at the same level.
+- Group tuition: USD 100 a month. A month of teaching, usually eight lessons, with fifteen to twenty children at the same level.
 - Private tuition: USD 150 a month. Around eight lessons a month with one teacher and your child alone.
 
 Families outside India pay in US dollars at a single rate, so it makes no difference whether you live in the inner north or out past Ipswich. Nothing is charged until you have seen the trial and picked a slot. Holidays, absences and a change from group to private are all covered on the pricing page.
@@ -230,11 +230,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do coding classes for Brisbane kids cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Brisbane families
 

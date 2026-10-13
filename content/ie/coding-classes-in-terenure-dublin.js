@@ -158,7 +158,7 @@ module.exports = {
     intro: 'The main points.',
     cells: [
       { h3: 'Live lessons', p: 'A teacher leads each lesson in real time and works through each learner\'s code alongside them.' },
-      { h3: 'Grouped by level', p: 'Five to ten learners on the same level, joining from Terenure, around Ireland or abroad.' },
+      { h3: 'Grouped by level', p: 'Fifteen to twenty learners on the same level, joining from Terenure, around Ireland or abroad.' },
       { h3: 'Two days a week', p: 'The same pair of days each week, which comes to roughly eight lessons a month.' },
       { h3: 'School calendar', p: 'Breaks for holidays, mid-terms and exams are part of the plan.' },
       { h3: 'Equipment check', p: 'A proper computer rather than a phone, a working mic, a way to hear the teacher, and broadband that keeps video smooth.' },
@@ -171,7 +171,7 @@ module.exports = {
     h2: 'Fees for Terenure',
     intro: 'Clearly.',
     first: 'A free first lesson, with a check of the learner\'s level.',
-    group: 'A month in a group of five to ten at one level, around eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, around eight live lessons.',
     private: 'A month of one-to-one lessons on the same pattern.',
     closer: 'Outside India the fee is a single US dollar amount for every family, paid monthly. Taking the free lesson signs you up to nothing; the first bill arrives only when the course begins, and anything about holidays, missed sessions or changing format is set out on the pricing page.'
   },
@@ -195,8 +195,8 @@ module.exports = {
       { q: 'When are lessons held?', a: 'On weekday afternoons and evenings after school, and during the day at weekends. Times are given in Irish time. The teaching team is in India; Irish winter puts them five and a half hours ahead of Terenure and Irish summer four and a half, so the timetable only uses hours that are reasonable in both countries.' },
       { q: 'Can adults take part?', a: 'Yes, up to sixty-seven, beginners included. After the free lesson an adult chooses between a group at their level and one-to-one lessons.' },
       { q: 'Will my child be with other Terenure children?', a: 'Possibly, but groups are organised by level, so classmates may live anywhere in Ireland or overseas.' },
-      { q: 'What do coding classes in Terenure cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched by level, pace and goals rather than age or address. If no group runs at a workable time, lessons are one to one.', boiler: true }
+      { q: 'What do coding classes in Terenure cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched by level, pace and goals rather than age or address. If no group runs at a workable time, lessons are one to one.', boiler: true }
     ]
   },
 

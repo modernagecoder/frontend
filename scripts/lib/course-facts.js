@@ -124,7 +124,7 @@ function classSize(courseData) {
   }
   const b = BRAND.batchSizes || {};
   const g = String(b.group || '5 to 10').replace(/[–-]/g, ' to ');
-  const m = String(b.miniBatch || '3 to 4').replace(/[–-]/g, ' to ');
+  const m = String(b.miniBatch || 'up to 6').replace(/[–-]/g, ' to ');
   return `Group batches of ${g} students, mini batches of ${m}, or 1-on-1.`;
 }
 
@@ -242,7 +242,7 @@ function enrolSteps(courseData) {
   const pd = BRAND.priorityDemo || {};
   const b = BRAND.batchSizes || {};
   const g = String(b.group || '5 to 10').replace(/[–-]/g, ' to ');
-  const m = String(b.miniBatch || '3 to 4').replace(/[–-]/g, ' to ');
+  const m = String(b.miniBatch || 'up to 6').replace(/[–-]/g, ' to ');
   return [
     {
       title: 'See a full class first (optional)',

@@ -4,7 +4,7 @@ description: "Live online vibe coding and AI agents classes for Cwmbran, Croesyc
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-cwmbran
 source: src/pages/vibe-coding-and-ai-agents-classes-in-cwmbran.html
 ---
-> The ONS built-up area of Cwmbrân held 47,090 usual residents at the 2021 census, within a county borough of Torfaen that held 92,276. Croesyceiliog, Llantarnam, Pontnewydd, Fairwater, Greenmeadow, Coed Eva and more than a dozen other gazetteer suburbs fall inside that built-up area. Modern Age Coders teaches vibe coding, AI agents, Python, coding and maths to learners in Cwmbran aged six to 67, live on video with tutors in India, as private lessons or in groups of five to ten at one level. Learners build things and then question what they built. A free trial lesson comes first, then a course recommendation. In the Cwmbran project a learner programs 4,000 route-choosing agents, opens a shortcut on a model road network, and watches every journey get longer. Fees after the trial: USD 100 monthly in a group, USD 150 monthly one-to-one.
+> The ONS built-up area of Cwmbrân held 47,090 usual residents at the 2021 census, within a county borough of Torfaen that held 92,276. Croesyceiliog, Llantarnam, Pontnewydd, Fairwater, Greenmeadow, Coed Eva and more than a dozen other gazetteer suburbs fall inside that built-up area. Modern Age Coders teaches vibe coding, AI agents, Python, coding and maths to learners in Cwmbran aged six to 67, live on video with tutors in India, as private lessons or in groups of fifteen to twenty at one level. Learners build things and then question what they built. A free trial lesson comes first, then a course recommendation. In the Cwmbran project a learner programs 4,000 route-choosing agents, opens a shortcut on a model road network, and watches every journey get longer. Fees after the trial: USD 100 monthly in a group, USD 150 monthly one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Cwmbran
 
@@ -12,11 +12,11 @@ Cwmbrân, Torfaen, Wales / Live online
 
 # Vibe coding and AI agents classes in Cwmbran
 
-**Where are the best vibe coding and AI agents classes for Cwmbran?** The ONS built-up area of Cwmbrân held 47,090 usual residents at the 2021 census, within a county borough of Torfaen that held 92,276. Croesyceiliog, Llantarnam, Pontnewydd, Fairwater, Greenmeadow, Coed Eva and more than a dozen other gazetteer suburbs fall inside that built-up area. Modern Age Coders teaches vibe coding, AI agents, Python, coding and maths to learners in Cwmbran aged six to 67, live on video with tutors in India, as private lessons or in groups of five to ten at one level. Learners build things and then question what they built. A free trial lesson comes first, then a course recommendation. In the Cwmbran project a learner programs 4,000 route-choosing agents, opens a shortcut on a model road network, and watches every journey get longer. Fees after the trial: USD 100 monthly in a group, USD 150 monthly one-to-one.
+**Where are the best vibe coding and AI agents classes for Cwmbran?** The ONS built-up area of Cwmbrân held 47,090 usual residents at the 2021 census, within a county borough of Torfaen that held 92,276. Croesyceiliog, Llantarnam, Pontnewydd, Fairwater, Greenmeadow, Coed Eva and more than a dozen other gazetteer suburbs fall inside that built-up area. Modern Age Coders teaches vibe coding, AI agents, Python, coding and maths to learners in Cwmbran aged six to 67, live on video with tutors in India, as private lessons or in groups of fifteen to twenty at one level. Learners build things and then question what they built. A free trial lesson comes first, then a course recommendation. In the Cwmbran project a learner programs 4,000 route-choosing agents, opens a shortcut on a model road network, and watches every journey get longer. Fees after the trial: USD 100 monthly in a group, USD 150 monthly one-to-one.
 
 Picture a navigation agent in every car, each one told to get its own driver home as fast as possible. Now the council opens a new link road. Surely journeys get shorter? In 1968 the German mathematician Dietrich Braess showed a network where the opposite happens: every agent, acting sensibly for itself, takes the new link, and everyone arrives later than before. It sounds like a riddle. In Python it takes a few dozen lines to reproduce, and it is one of the clearest lessons there is about what happens when many AI agents chase the same goal at once.
 
-Facts last verified 30 September 2026. Teaching is online; no Cwmbran branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Cwmbran branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Vibe coding and AI agents courses for Cwmbran learners
 
@@ -137,11 +137,11 @@ Classes are live video sessions. A computer with a keyboard is needed; a tablet 
 - **Code typed, not watched** The learner writes and runs everything, with the tutor asking questions throughout.
 - **Placement by trial** The first lesson shows the learner's level before we suggest a course.
 - **No cost to try** The trial lesson is free, with no card required.
-- **Five to ten in a class** Classmates share a level and join from across the UK.
+- **Fifteen to twenty in a class** Classmates share a level and join from across the UK.
 - **Around eight a month** Usually two lessons a week in term, with Torfaen holidays left clear on request.
 - **Welsh time kept** Your lesson stays at the same UK time when the clocks go forward or back.
 
-**Why the lessons are online** Gathering five to ten learners at one exact stage is far easier across the whole UK than in one valley. Video lets them learn together without travelling.
+**Why the lessons are online** Gathering fifteen to twenty learners at one exact stage is far easier across the whole UK than in one valley. Video lets them learn together without travelling.
 
 ## Prices for Cwmbran families
 

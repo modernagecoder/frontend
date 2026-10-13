@@ -14,7 +14,7 @@ Australia · Ages 6 to 67 · A fair comparison
 
 Search for online coding classes in Australia and you will find recorded courses, live classes of every size, apps, camps and private tutors, all described in similar glowing words. This page does not rank anyone, including us. Instead it lists the criteria that actually separate a good class from a weak one, the contract questions the Australian Tutoring Association suggests asking, and a simple mathematical method for ruling options out before you compare the rest.
 
-At a glance: For: Ages 6 to 67; Our format: Live online lessons; Group size: Five to ten, or one to one; Teacher: The same one each week; Contract: Monthly, no term lock-in; Joining fee: None; Times: Set for your state; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 6 to 67; Our format: Live online lessons; Group size: Fifteen to twenty, or one to one; Teacher: The same one each week; Contract: Monthly, no term lock-in; Joining fee: None; Times: Set for your state; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three of our courses, open to the same scrutiny
 
@@ -216,7 +216,7 @@ Our own answers to the checklist, so you can compare like with like.
 Lessons outside India are paid monthly in US dollars, one rate in every country. There is no joining fee, no term contract and no pressure to sign: try the free lesson, think it over, then decide.
 
 - Free first class: USD 0. A free first lesson. Time to decide afterwards. No card details.
-- Group batch: USD 100 a month. Five to ten learners. One regular teacher. Live every lesson. Monthly.
+- Group batch: USD 100 a month. Fifteen to twenty learners. One regular teacher. Live every lesson. Monthly.
 - One to one: USD 150 a month. A teacher to yourself. Your own pace. Your own projects.
 
 ## Comparing online coding classes: common questions

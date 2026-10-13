@@ -4,7 +4,7 @@ description: "Python, coding, AI and vibe coding lessons online with a live tuto
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-brentwood
 source: src/pages/online-coding-and-python-classes-in-brentwood.html
 ---
-> Brentwood borough had 77,047 residents at the 2021 census, and the ONS built-up area of Brentwood held 55,340. Shenfield, Hutton, Warley and Brook Street are recorded suburbs, with Ingatestone and Great Warley as villages in the borough. Our tutors, who work from India, teach Python, coding, AI, vibe coding and maths on live video calls to anyone here from six years old to 67. You can have a tutor to yourself or share one with five to ten learners of your own standard. We want learners who test their beliefs about code instead of trusting a hunch. You try one lesson for nothing and we tell you which course we would pick. In the Brentwood project a Python program that takes three and a half seconds is put under a profiler, the guilty function is found, and two rewrites bring it down to a tenth of a second. After the trial it is USD 100 per month for group lessons and USD 150 per month for private ones.
+> Brentwood borough had 77,047 residents at the 2021 census, and the ONS built-up area of Brentwood held 55,340. Shenfield, Hutton, Warley and Brook Street are recorded suburbs, with Ingatestone and Great Warley as villages in the borough. Our tutors, who work from India, teach Python, coding, AI, vibe coding and maths on live video calls to anyone here from six years old to 67. You can have a tutor to yourself or share one with fifteen to twenty learners of your own standard. We want learners who test their beliefs about code instead of trusting a hunch. You try one lesson for nothing and we tell you which course we would pick. In the Brentwood project a Python program that takes three and a half seconds is put under a profiler, the guilty function is found, and two rewrites bring it down to a tenth of a second. After the trial it is USD 100 per month for group lessons and USD 150 per month for private ones.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East of England](/coding-and-ai-classes-in-east-of-england) / Brentwood
 
@@ -12,11 +12,11 @@ Brentwood, Essex, East of England / Live online
 
 # Online coding and Python classes in Brentwood
 
-**Which are the best online coding and Python classes in Brentwood?** Brentwood borough had 77,047 residents at the 2021 census, and the ONS built-up area of Brentwood held 55,340. Shenfield, Hutton, Warley and Brook Street are recorded suburbs, with Ingatestone and Great Warley as villages in the borough. Our tutors, who work from India, teach Python, coding, AI, vibe coding and maths on live video calls to anyone here from six years old to 67. You can have a tutor to yourself or share one with five to ten learners of your own standard. We want learners who test their beliefs about code instead of trusting a hunch. You try one lesson for nothing and we tell you which course we would pick. In the Brentwood project a Python program that takes three and a half seconds is put under a profiler, the guilty function is found, and two rewrites bring it down to a tenth of a second. After the trial it is USD 100 per month for group lessons and USD 150 per month for private ones.
+**Which are the best online coding and Python classes in Brentwood?** Brentwood borough had 77,047 residents at the 2021 census, and the ONS built-up area of Brentwood held 55,340. Shenfield, Hutton, Warley and Brook Street are recorded suburbs, with Ingatestone and Great Warley as villages in the borough. Our tutors, who work from India, teach Python, coding, AI, vibe coding and maths on live video calls to anyone here from six years old to 67. You can have a tutor to yourself or share one with fifteen to twenty learners of your own standard. We want learners who test their beliefs about code instead of trusting a hunch. You try one lesson for nothing and we tell you which course we would pick. In the Brentwood project a Python program that takes three and a half seconds is put under a profiler, the guilty function is found, and two rewrites bring it down to a tenth of a second. After the trial it is USD 100 per month for group lessons and USD 150 per month for private ones.
 
 Every programmer eventually writes something that works but crawls. The tempting response is to guess what is slow and start rewriting. The guess is usually wrong. A profiler replaces the guess with a measurement: it runs the program and reports how many times each function was called and how long each one took. Python ships with one, called cProfile. This project points it at a small, real task, finding the closest neighbour of every postcode in the Brentwood borough, and follows the evidence. AI assistants now write a great deal of code, and they are no better than people at knowing which part will be slow without measuring.
 
-Facts last verified 30 September 2026. Teaching is online; no Brentwood branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Brentwood branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python and coding courses to begin with in Brentwood
 
@@ -139,7 +139,7 @@ Lessons run over video. A laptop or desktop is strongly preferred to a tablet, b
 - **Code typed by the learner** We never hand over finished programs. The student writes, runs and debugs while the tutor coaches.
 - **One trial, then a plan** A free lesson tells us the right level, and you get a suggested course at the end of it.
 - **Nothing to pay up front** The trial has no cost and needs no card.
-- **Small, matched groups** Five to ten learners at one level, joining from anywhere in the UK.
+- **Small, matched groups** Fifteen to twenty learners at one level, joining from anywhere in the UK.
 - **Two sessions weekly** During term. Essex school holidays are skipped once we have your dates.
 - **Steady UK timing** We absorb the hour when the clocks change, so your slot holds.
 

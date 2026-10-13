@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Leeuwarden for ages 6
 canonical: https://learn.modernagecoders.com/coding-classes-in-leeuwarden
 source: src/pages/coding-classes-in-leeuwarden.html
 ---
-> Coding classes in Leeuwarden serve 130,162 people (Statistics Netherlands, 1 January 2026) across 36 named places, from the city itself at 95,890 in 2023 down to Lions with about 25. The Oldehove, its unfinished tower, is published at 40 metres and 4.2 degrees out of true, and those two rounded figures put its lean somewhere between 2.86 and 3.00 metres. The single number a calculator returns is 2.93, and claiming it would be claiming more than the sources gave. Modern Age Coders teaches live online in English to all 36 places, ages 6 to 67, with a free opening lesson and then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Leeuwarden serve 130,162 people (Statistics Netherlands, 1 January 2026) across 36 named places, from the city itself at 95,890 in 2023 down to Lions with about 25. The Oldehove, its unfinished tower, is published at 40 metres and 4.2 degrees out of true, and those two rounded figures put its lean somewhere between 2.86 and 3.00 metres. The single number a calculator returns is 2.93, and claiming it would be claiming more than the sources gave. Modern Age Coders teaches live online in English to all 36 places, ages 6 to 67, with a free opening lesson and then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Leeuwarden
 
@@ -12,11 +12,11 @@ Leeuwarden, Friesland / Live online
 
 # Coding classes in Leeuwarden, where a tower 40 metres tall leaning 4.2 degrees will not give you a lean in centimetres
 
-**What are the best coding classes in Leeuwarden?** Coding classes in Leeuwarden serve 130,162 people (Statistics Netherlands, 1 January 2026) across 36 named places, from the city itself at 95,890 in 2023 down to Lions with about 25. The Oldehove, its unfinished tower, is published at 40 metres and 4.2 degrees out of true, and those two rounded figures put its lean somewhere between 2.86 and 3.00 metres. The single number a calculator returns is 2.93, and claiming it would be claiming more than the sources gave. Modern Age Coders teaches live online in English to all 36 places, ages 6 to 67, with a free opening lesson and then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Leeuwarden?** Coding classes in Leeuwarden serve 130,162 people (Statistics Netherlands, 1 January 2026) across 36 named places, from the city itself at 95,890 in 2023 down to Lions with about 25. The Oldehove, its unfinished tower, is published at 40 metres and 4.2 degrees out of true, and those two rounded figures put its lean somewhere between 2.86 and 3.00 metres. The single number a calculator returns is 2.93, and claiming it would be claiming more than the sources gave. Modern Age Coders teaches live online in English to all 36 places, ages 6 to 67, with a free opening lesson and then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Type forty times the sine of 4.2 degrees into anything and it answers 2.93 metres. That is how far the top of the Oldehove stands out from its base, and it is a figure no source on this page publishes. The height is given to the nearest metre and the angle to one decimal place, so the honest answer is a range from 2.86 to 3.00 metres, about seven centimetres either side. The calculator gave three digits because calculators always do. Knowing how many of them to keep is a separate skill, and it is one almost nobody is taught.
 
-Facts last verified 7 September 2026. Teaching is online; no Leeuwarden branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Leeuwarden branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a capital with thirty-five villages attached
 
@@ -208,7 +208,7 @@ Grouw is twenty kilometres out, Stiens is north across the fields and Lions is a
 On the page rather than saved for a phone call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate applies, quoted in dollars and never in euros, so a family in Lions sees exactly what a family in the city sees. Payment comes after the free lesson has produced a course and a time, and it comes over WhatsApp. Pausing, changing plan and missing a week are described on the pricing page.
@@ -249,7 +249,7 @@ No, and none is claimed near the Oldehove, in Stiens or anywhere in the Netherla
 
 ### What do Leeuwarden coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Leeuwarden group?
 

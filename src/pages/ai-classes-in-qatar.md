@@ -69,7 +69,7 @@ The format
 
 AI is full of moments where a learner needs to ask why right now. A live teacher makes those moments productive; a video library lets them die quietly.
 
-### Five to eight per group
+### Fifteen to twenty per group
 
 Small enough for the teacher to inspect every student's model, notebook and reasoning. Attention is the product, and we refuse to dilute it.
 
@@ -163,7 +163,7 @@ Group classes
 
 $100 per month
 
-- Batches of five to eight students
+- Batches of fifteen to twenty students
 - Fixed weekly hour, AST evenings
 - Real models, real projects, kept
 - First lesson free, as a demo

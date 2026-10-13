@@ -16,7 +16,7 @@ Northern Territory, Australia / Live online
 
 Draw a triangle on a map between Darwin, Nhulunbuy on the Gove Peninsula and Alice Springs, and measure its three angles. At school you learn they must add up to 180 degrees. On the curved surface of the Earth they add up to 180.577. The extra bit, called the spherical excess, is not a measuring error: it is exactly proportional to the triangle's area. Our learners compute the distances and angles from map coordinates, find the excess, use it to work out the area of the triangle, and discover that treating the Territory as flat loses about 1,600 square kilometres.
 
-Facts last verified 7 October 2026. Teaching is online; no the Northern Territory branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no the Northern Territory branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four ways into coding from the Territory
 
@@ -180,7 +180,7 @@ Distances in the Territory make a weekly class in person impossible for most fam
 - **A fixed four-hour gap** Neither the Territory nor India changes its clocks, so our teachers are four hours behind the NT all year and lesson times never shift.
 - **Built for remote learners** Any laptop or desktop with sound and a reliable connection is enough. Learners far from town join the same class as learners in Darwin.
 - **Full trial lesson** The first session is a real lesson with something finished, followed by a recommended level, course and time. No card details are needed.
-- **Classmates at your level** Groups of five to ten learners at a similar standard, from the Territory, other states and overseas, so most levels have a workable hour.
+- **Classmates at your level** Groups of fifteen to twenty learners at a similar standard, from the Territory, other states and overseas, so most levels have a workable hour.
 - **Steady weekly rhythm** Two lessons a week, about eight a month, at a fixed time, with breaks for school holidays arranged with the teacher.
 - **English throughout** Every lesson is taught in English, using Australian school year names so lessons connect with what learners meet at school.
 
@@ -191,7 +191,7 @@ Distances in the Territory make a weekly class in person impossible for most fam
 One price list for the whole Territory.
 
 - First class: USD 0. A full first lesson free of charge, ending with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. A month of lessons, normally eight, with five to ten learners at a similar level.
+- Group tuition: USD 100 a month. A month of lessons, normally eight, with fifteen to twenty learners at a similar level.
 - Private tuition: USD 150 a month. Around eight lessons a month in the same pattern, one teacher with one learner.
 
 Families outside India are invoiced in US dollars at a single rate, so Tennant Creek and the Darwin waterfront receive the same bill. Nothing is billed before the trial has fixed a course and a lesson time, and our pricing page explains holiday pauses, missed lessons and moving between group and private teaching.
@@ -232,7 +232,7 @@ No, and none is claimed. All lessons are live online with no premises in Austral
 
 ### How much are coding lessons in the NT?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
 
 ### How many learners are in a group?
 

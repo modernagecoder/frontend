@@ -16,7 +16,7 @@ City of Glen Eira, Melbourne, Victoria / Live online
 
 Victoria's bus timetable data lists 516 stops inside the Glen Eira boundary, and 129 stop names appear twice. Hand an AI agent the instruction "merge the duplicate stops" and it may cheerfully delete a quarter of the list. Asking it for a dry run first, a full description of every change it would make, turned that into a decision a person could check.
 
-Facts last verified 11 October 2026. Teaching is online; no Glen Eira branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 October 2026. Teaching is online; no Glen Eira branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for building agents you can supervise
 
@@ -184,7 +184,7 @@ Classes happen on screen, so a learner near Carnegie joins exactly as one near E
 - **A shared screen** Teacher and learner open the same project and write code together from the start.
 - **Victorian school terms** Lesson plans track the state terms and pause over the school holidays.
 - **A proper first lesson** The free trial covers real material and ends with a suggested course and time.
-- **Small level-matched groups** Five to ten learners at one level, sometimes from several states.
+- **Small level-matched groups** Fifteen to twenty learners at one level, sometimes from several states.
 - **Twice weekly** Two fixed lessons a week, roughly eight a month, with breaks agreed ahead.
 - **Teachers in India** A 6pm Glen Eira lesson in daylight saving starts at 12:30pm India time; after April it starts at 1:30pm there.
 
@@ -195,7 +195,7 @@ Classes happen on screen, so a learner near Carnegie joins exactly as one near E
 Three prices, all stated up front.
 
 - First class: USD 0. The opening lesson is free and closes with an honest recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, normally eight, with five to ten learners at the same level.
+- Group tuition: USD 100 a month. A month of group lessons, normally eight, with fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. Close to eight one-to-one lessons a month with the same teacher.
 
 Families outside India are billed in US dollars at a single rate. Nothing is charged until after the trial, once the course and time are fixed; the pricing page explains holidays, missed lessons and switching formats.
@@ -232,7 +232,7 @@ No. Every lesson is live online, we have no premises in Australia, and the phone
 
 ### What do classes cost for Glen Eira learners?
 
-The first lesson is free. Group lessons then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.
+The first lesson is free. Group lessons then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.
 
 ### How many learners are in a group?
 

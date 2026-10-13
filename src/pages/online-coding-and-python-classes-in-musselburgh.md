@@ -16,7 +16,7 @@ Musselburgh, East Lothian, Scotland / Live online
 
 Old road atlases carried a triangular chart listing the distance between every pair of towns. Filling one in for a whole street network is a classic computing problem called all-pairs shortest paths. One way is to run a route-finder from every starting point in turn. Another, the Floyd-Warshall algorithm, is startlingly short: for each junction k, check whether going via k shortens the route between every pair i and j, and keep the better value. Three nested loops, and when they finish, every entry in the table is correct. This project writes it in Python, speeds it up with numpy, and runs it on Musselburgh's roads as mapped on OpenStreetMap.
 
-Facts last verified 29 September 2026. Teaching is online; no Musselburgh branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Musselburgh branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Musselburgh courses in algorithms, Python and AI
 
@@ -132,7 +132,7 @@ The whole set-up is a computer with a camera and an internet line good enough to
 - **Learner drives the code** Typing, prompting and running are the student's job; the tutor watches on screen share and questions every choice.
 - **Trial finds the start** In the free session we see the current level and note any SQA exam coming up.
 - **First session free** The opening lesson costs nothing and finishes with a course suggestion.
-- **Classes of equals** Five to ten learners from across the UK make each group, matched by stage.
+- **Classes of equals** Fifteen to twenty learners from across the UK make each group, matched by stage.
 - **Two per week** None during Scottish school holidays.
 - **Fixed evening** Clock changes are our tutors' problem; your lesson time does not move.
 

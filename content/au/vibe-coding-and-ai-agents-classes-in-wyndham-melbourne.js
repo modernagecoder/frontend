@@ -318,7 +318,7 @@ module.exports = {
       { h3: 'A real teacher', p: 'Every lesson is live, with the learner sharing their screen and running their own code.' },
       { h3: 'Term by term', p: 'Lessons follow the Victorian school terms and break for the state holidays.' },
       { h3: 'Free first class', p: 'One complete lesson at no charge, then advice on course and timing.' },
-      { h3: 'Matched groups', p: 'Five to ten learners grouped by level and goals, from many places at once.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners grouped by level and goals, from many places at once.' },
       { h3: 'Steady rhythm', p: 'Two lessons a week, roughly eight a month, so projects keep moving.' },
       { h3: 'Teachers in India', p: 'A 5pm Wyndham lesson is 11:30am India time during Melbourne daylight saving and 12:30pm from April.' }
     ],
@@ -331,7 +331,7 @@ module.exports = {
     h2: 'Wyndham class fees',
     intro: 'Three plain options.',
     first: 'Lesson one is free and finishes with a recommendation.',
-    group: 'A month of small-group lessons, typically eight, with five to ten learners at one level.',
+    group: 'A month of small-group lessons, typically eight, with fifteen to twenty learners at one level.',
     private: 'A month of one-to-one lessons, typically eight, with a dedicated teacher.',
     closer: 'Wyndham families, like every family outside India, pay in US dollars. We take no payment until the trial has settled the course and the time, and the pricing page sets out holidays and missed lessons.'
   },
@@ -370,12 +370,12 @@ module.exports = {
       },
       {
         q: 'How much are classes for Wyndham learners?',
-        a: 'The first lesson is free. Group classes are USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten; one-to-one classes are USD 150 a month. Nothing is paid until course and time are agreed.',
+        a: 'The first lesson is free. Group classes are USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty; one-to-one classes are USD 150 a month. Nothing is paid until course and time are agreed.',
         boiler: true
       },
       {
         q: 'How big are the groups?',
-        a: 'Five to ten learners, matched by level, pace and goals rather than age or suburb, with private lessons if no group time fits.',
+        a: 'Fifteen to twenty learners, matched by level, pace and goals rather than age or suburb, with private lessons if no group time fits.',
         boiler: true
       },
       {

@@ -287,7 +287,7 @@ module.exports = {
       { h3: 'Real teacher', p: 'Lessons are taught live, with work checked as it happens.' },
       { h3: 'Term-time', p: 'Classes follow ACT terms and pause in school holidays.' },
       { h3: 'Free trial', p: 'One free lesson, then a written plan.' },
-      { h3: 'Groups', p: 'Level groups of five to ten, or private lessons.' },
+      { h3: 'Groups', p: 'Level groups of fifteen to twenty, or private lessons.' },
       { h3: 'Two weekly', p: 'Around eight lessons each month.' },
       { h3: 'India time', p: 'In July a 5:30pm Inner South lesson starts at 1pm in India.' }
     ],
@@ -300,7 +300,7 @@ module.exports = {
     h2: 'Inner South fees',
     intro: 'Every learner pays the same fees.',
     first: 'The trial lesson is free and includes a plan.',
-    group: 'Groups: about eight lessons a month, five to ten learners.',
+    group: 'Groups: about eight lessons a month, fifteen to twenty learners.',
     private: 'One-to-one: about eight lessons a month with a dedicated teacher.',
     closer: 'We bill in US dollars, starting only when the trial has fixed the course and a weekly slot. Holiday and missed-lesson details live on the pricing page.'
   },
@@ -333,12 +333,12 @@ module.exports = {
       },
       {
         q: 'What do Inner South classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How are groups formed?',
-        a: 'By level and pace, five to ten per group, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'By level and pace, fifteen to twenty per group, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Can adults study AI here?', a: 'Yes. Adults learn in their own groups or privately, often applying monitoring ideas at work.' }

@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Mid Ulster: Du
 canonical: https://learn.modernagecoders.com/coding-classes-in-mid-ulster
 source: src/pages/coding-classes-in-mid-ulster.html
 ---
-> NISRA recorded 150,293 usual residents in Mid Ulster at the 2021 census. Dungannon, Cookstown and Magherafelt are its main towns, and Coalisland, Maghera, Castledawson, Moneymore, Moy and Draperstown are among the smaller ones. We teach every lesson live by video, with teachers based in India. From age 6 to 67, learners take coding, Python and maths in a private lesson or a same-level group of five to ten. Your first lesson is free and points to the right course. The district project is set in an eighteenth-century linen mill. After that, group lessons cost USD 100 a month and one-to-one lessons USD 150 a month.
+> NISRA recorded 150,293 usual residents in Mid Ulster at the 2021 census. Dungannon, Cookstown and Magherafelt are its main towns, and Coalisland, Maghera, Castledawson, Moneymore, Moy and Draperstown are among the smaller ones. We teach every lesson live by video, with teachers based in India. From age 6 to 67, learners take coding, Python and maths in a private lesson or a same-level group of fifteen to twenty. Your first lesson is free and points to the right course. The district project is set in an eighteenth-century linen mill. After that, group lessons cost USD 100 a month and one-to-one lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Northern Ireland](/coding-and-ai-classes-in-northern-ireland) / Mid Ulster
 
@@ -12,11 +12,11 @@ Mid Ulster / Live online
 
 # Coding classes in Mid Ulster
 
-**What are the best coding classes in Mid Ulster?** NISRA recorded 150,293 usual residents in Mid Ulster at the 2021 census. Dungannon, Cookstown and Magherafelt are its main towns, and Coalisland, Maghera, Castledawson, Moneymore, Moy and Draperstown are among the smaller ones. We teach every lesson live by video, with teachers based in India. From age 6 to 67, learners take coding, Python and maths in a private lesson or a same-level group of five to ten. Your first lesson is free and points to the right course. The district project is set in an eighteenth-century linen mill. After that, group lessons cost USD 100 a month and one-to-one lessons USD 150 a month.
+**What are the best coding classes in Mid Ulster?** NISRA recorded 150,293 usual residents in Mid Ulster at the 2021 census. Dungannon, Cookstown and Magherafelt are its main towns, and Coalisland, Maghera, Castledawson, Moneymore, Moy and Draperstown are among the smaller ones. We teach every lesson live by video, with teachers based in India. From age 6 to 67, learners take coding, Python and maths in a private lesson or a same-level group of fifteen to twenty. Your first lesson is free and points to the right course. The district project is set in an eighteenth-century linen mill. After that, group lessons cost USD 100 a month and one-to-one lessons USD 150 a month.
 
 In 1764 a linen draper named Hugh Faulkner found a site near Cookstown with, in his family's words, a great command of water, and began a bleach works at Wellbrook. The Historic Environment Division's record quotes the Faulkners' plan: a ten-acre green that would let them bleach seven to eight thousand pieces of linen a year, and a mill with two wash mills, four pairs of rubbing boards, two beetling engines, which pounded the cloth to give it a sheen, and a drying loft for five hundred pieces. Every piece had to pass through each stage in turn. So which stage set the pace, and was eight thousand a year realistic with that equipment? This page's project models the mill as a line of stages in Python and finds out.
 
-Facts last verified 26 September 2026. Teaching is online; no Mid Ulster branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Mid Ulster branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Mid Ulster learners begin
 
@@ -136,7 +136,7 @@ Town or country, the classroom is a video link.
 - **Their own keyboard** Every line is typed by the learner; the teacher watches the shared screen and offers a hint only when it helps.
 - **Northern Ireland years** A Coalisland P4 or a Maghera Year 12 is matched by key stage and school year, and CCEA exam titles are used. Lessons are taught in English.
 - **Trial at no cost** A full lesson free of charge, followed by an honest recommendation.
-- **Grouped by level** Classes of five to ten at one stage, from across the UK.
+- **Grouped by level** Classes of fifteen to twenty at one stage, from across the UK.
 - **Term pattern** Two lessons weekly through term, with holidays free.
 - **Local time kept** Spring and autumn clock changes leave your slot where it was; our teachers adapt.
 

@@ -171,7 +171,7 @@ module.exports = {
       { h3: 'From any of the six wijken', p: 'A learner in Zuidoost and a learner in Noordwest open the lesson at the same time, each from home, without a ride through town in the evening.' },
       { h3: 'School words left alone', p: 'Groep, brugklas, vmbo, havo, vwo and the profielkeuze are said in Dutch, as a Veenendaal school writes them, while the teaching is in English.' },
       { h3: 'A real first lesson', p: 'The free session works through a genuine task. It ends with a suggested level, a course and a weekly slot, and no payment details are asked for.' },
-      { h3: 'Matched groups', p: 'Five to ten learners at the same point. Veenendaal has 12,556 residents under fifteen, but five who match on subject, level and hour are rarely found in one town, so groups may include learners from other countries.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners at the same point. Veenendaal has 12,556 residents under fifteen, but five who match on subject, level and hour are rarely found in one town, so groups may include learners from other countries.' },
       { h3: 'Regio Midden holidays', p: 'Two lessons a week, around eight a month, at a fixed hour, pausing for the regio Midden holidays that schools in the province of Utrecht follow.' },
       { h3: 'Teaching from India', p: 'The teachers are three and a half hours ahead of Veenendaal in summer and four and a half in winter, so late afternoons, evenings and weekend mornings all work.' }
     ],
@@ -182,7 +182,7 @@ module.exports = {
     h2: 'Fees for Veenendaal',
     intro: 'Three prices, and nothing hidden behind them.',
     first: 'A real lesson on a real task, finishing with a level and a course.',
-    group: 'Monthly, normally eight lessons, five to ten learners at one level.',
+    group: 'Monthly, normally eight lessons, fifteen to twenty learners at one level.',
     private: 'Monthly, normally eight lessons, one learner and one teacher.',
     closer: 'The fee is a single dollar price for every country, with no euro version, so a household in Veenendaal-Oost pays what a household in the Centrum pays. Nothing is due until the free lesson has settled a course and a slot, after which payment is arranged on WhatsApp. Pauses, changes of format and missed lessons are covered on the pricing page.'
   },
@@ -207,7 +207,7 @@ module.exports = {
       { q: 'How many schools are there in Veenendaal?', a: 'The statistics count 25 primary establishments teaching 7,165 pupils and 4 secondary establishments teaching 5,845, with 160 MBO students at institutions in the town. This page rates no school.' },
       { q: 'What language are lessons in, and when are they held?', a: 'The lessons are in English, with Dutch school words such as brugklas, havo and vwo kept as they are. The teachers work from India, three and a half hours ahead of Veenendaal in summer and four and a half in winter, so late-afternoon, evening and weekend slots are simple to arrange. The slot is agreed in the free lesson, and regio Midden holidays are kept.' },
       { q: 'Is there a Modern Age Coders classroom in Veenendaal?', a: 'No, and none is claimed here or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Veenendaal coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Veenendaal coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

@@ -12,7 +12,7 @@ Live online · serving Ranchi
 
 Real programming for kids, teens and college students in Ranchi, from **Main Road to Kanke Road, Doranda to Harmu**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Ranchi)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**RanchiEnrollingAreasMain Road, Kanke Road, Doranda, Harmu, Bariatu & all of RanchiBoardsJAC · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across RanchiFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Ranchi)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**RanchiEnrollingAreasMain Road, Kanke Road, Doranda, Harmu, Bariatu & all of RanchiBoardsJAC · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across RanchiFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -140,7 +140,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -162,7 +162,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -171,7 +171,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -180,7 +180,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -255,7 +255,7 @@ Takes under a minute.
 
 ## Coding classes in Ranchi: FAQs
 
-What is the best coding class in Ranchi for kids?Modern Age Coders offers the best coding classes in Ranchi for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Ranchi areas including Doranda, Harmu, Kanke Road, and Bariatu, and Manjalpur.Do you offer online coding classes in Ranchi?Yes, we offer live online coding classes for students across Ranchi including Doranda, Harmu, Kanke Road, and Bariatu, Ashok Nagar, Morabadi, and all other areas. Our online classes are interactive with small batch sizes of 5-8 students.Do you offer coding classes for Jharkhand Board (JAC) (Jharkhand Board) students in Ranchi?Yes, our curriculum supports both Jharkhand Board (Jharkhand Board (JAC)) and CBSE students in Ranchi. We align our coding and maths courses with Jharkhand Board (JAC) requirements to complement school education.How much do coding classes cost in Ranchi?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (3-4 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Can BIT Mesra students join your programming courses?Absolutely! We offer college-level courses in Data Structures & Algorithms, Full Stack Web Development, and AI/Data Science perfect for BIT Mesra and IIM Ranchi students preparing for placements.Is the medium of instruction English for Ranchi students?Our instructors are comfortable teaching in Hindi and English. Yes! All classes are in English with Hindi support. Ranchi students feel comfortable in our friendly, bilingual learning environment.What areas in Ranchi do you serve?We serve all areas of Ranchi through our online classes including Doranda, Harmu, Kanke Road, and Bariatu, Lalpur, Kokar, Argora, Kadru, Dhurwa, Namkum, Hatia, and more.How are your coding classes different from other institutes in Ranchi?We focus on project-based learning where students build real games, websites, and apps. Our small batch sizes (5-8 students), recorded sessions, expert instructors, and affordable pricing set us apart. We also support Jharkhand Board, CBSE, and Jharkhand Board (JAC) preparation.Do you teach coding to Jharkhand Academic Council students in Ranchi?Yes. Ranchi schools run the Jharkhand Academic Council board, which is based here in the city at Namkum, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something to memorise.How does a Ranchi student get into engineering, and can BIT Mesra students join?For engineering, Jharkhand fills B.Tech seats on JEE Main rank, with JCECEB running the counselling, not the older JCECE exam that many families still expect. BIT Mesra and other college students are welcome on the college track: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown.
+What is the best coding class in Ranchi for kids?Modern Age Coders offers the best coding classes in Ranchi for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Ranchi areas including Doranda, Harmu, Kanke Road, and Bariatu, and Manjalpur.Do you offer online coding classes in Ranchi?Yes, we offer live online coding classes for students across Ranchi including Doranda, Harmu, Kanke Road, and Bariatu, Ashok Nagar, Morabadi, and all other areas. Our online classes are interactive with batch sizes of 15-20 students.Do you offer coding classes for Jharkhand Board (JAC) (Jharkhand Board) students in Ranchi?Yes, our curriculum supports both Jharkhand Board (Jharkhand Board (JAC)) and CBSE students in Ranchi. We align our coding and maths courses with Jharkhand Board (JAC) requirements to complement school education.How much do coding classes cost in Ranchi?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (up to 6 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Can BIT Mesra students join your programming courses?Absolutely! We offer college-level courses in Data Structures & Algorithms, Full Stack Web Development, and AI/Data Science perfect for BIT Mesra and IIM Ranchi students preparing for placements.Is the medium of instruction English for Ranchi students?Our instructors are comfortable teaching in Hindi and English. Yes! All classes are in English with Hindi support. Ranchi students feel comfortable in our friendly, bilingual learning environment.What areas in Ranchi do you serve?We serve all areas of Ranchi through our online classes including Doranda, Harmu, Kanke Road, and Bariatu, Lalpur, Kokar, Argora, Kadru, Dhurwa, Namkum, Hatia, and more.How are your coding classes different from other institutes in Ranchi?We focus on project-based learning where students build real games, websites, and apps. Our batch sizes (15-20 students), recorded sessions, expert instructors, and affordable pricing set us apart. We also support Jharkhand Board, CBSE, and Jharkhand Board (JAC) preparation.Do you teach coding to Jharkhand Academic Council students in Ranchi?Yes. Ranchi schools run the Jharkhand Academic Council board, which is based here in the city at Namkum, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something to memorise.How does a Ranchi student get into engineering, and can BIT Mesra students join?For engineering, Jharkhand fills B.Tech seats on JEE Main rank, with JCECEB running the counselling, not the older JCECE exam that many families still expect. BIT Mesra and other college students are welcome on the college track: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown.
 
 ## Ready to start your child's coding journey in Ranchi?
 

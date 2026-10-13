@@ -1,10 +1,10 @@
 ---
 title: "Coding Classes for Kids in Dubai | Ages 6-12, Live & Online"
-description: "Live online coding classes for kids in Dubai, ages 6 to 12. Batches of 5 to 8, a teacher who knows your child, and projects instead of screen time. Free demo."
+description: "Live online coding classes for kids in Dubai, ages 6 to 12. Batches of 15 to 20, a teacher who knows your child, and projects instead of screen time. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-for-kids-in-dubai
 source: src/pages/coding-classes-for-kids-in-dubai.html
 ---
-> Live online coding classes for kids in Dubai, ages 6 to 12. Batches of 5 to 8, a teacher who knows your child, and projects instead of screen time. Free demo.
+> Live online coding classes for kids in Dubai, ages 6 to 12. Batches of 15 to 20, a teacher who knows your child, and projects instead of screen time. Free demo.
 
 01 · Courses
 
@@ -36,7 +36,7 @@ Coding flips the arrangement. A child who codes sits on the other side of the gl
 
 We do not hand a six year old a blinking cursor. The youngest children build with block-based coding in the Scratch style, snapping logic together like bricks, so the thinking develops before the typing has to. Around eight to ten, when the child is ready, and readiness varies more than birthdays do, typed Python enters through turtle graphics: short programs whose output is a drawing you can point at. By eleven or twelve, a child on this ladder writes small real programs, quiz games and dice games and chatbots of their own, and has met the ideas behind AI in words that fit their age.
 
-The rungs matter because skipping them is what makes children decide coding is not for them. A child pushed into syntax too early learns frustration fluently. A child left in blocks too long gets bored of them. The teacher's job, in a class of five to eight, is knowing which rung each child is standing on this month.
+The rungs matter because skipping them is what makes children decide coding is not for them. A child pushed into syntax too early learns frustration fluently. A child left in blocks too long gets bored of them. The teacher's job, in a class of fifteen to twenty, is knowing which rung each child is standing on this month.
 
 ### It fits around Dubai school life
 
@@ -60,7 +60,7 @@ A real teacher on a video call, teaching in real time. Your child talks, shares 
 
 B
 
-### Five to eight children
+### Fifteen to twenty children
 
 Small enough that a shy child cannot hide for a month and a bored child gets stretched. The teacher sees every screen, every week.
 
@@ -124,7 +124,7 @@ The same instructor stays with the batch wherever possible. They know which chil
 
 ### A class small enough to see
 
-Five to eight children, capped. In the demo you can count them yourself, which is more verification than most academies invite.
+Fifteen to twenty children, capped. In the demo you can count them yourself, which is more verification than most academies invite.
 
 ### Evidence that runs
 
@@ -186,7 +186,7 @@ Group classes
 
 $100 per month
 
-- Weekly live hour, 5 to 8 children
+- Weekly live hour, 15 to 20 children
 - Evening and weekend GST slots
 - Projects your child keeps, plus a certificate
 - Free demo class before anything is billed

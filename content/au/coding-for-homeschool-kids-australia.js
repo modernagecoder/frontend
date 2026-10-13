@@ -231,7 +231,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'Your child tries a short project, and we discuss how coding could fit your program.' },
-      { h3: 'Small groups', p: 'Five to ten learners at a similar level, sometimes including other home-schooled children.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners at a similar level, sometimes including other home-schooled children.' },
       { h3: 'One to one', p: 'Shaped entirely around your child and your program.' },
       { h3: 'Exit tickets', p: 'A short written record after every lesson, in your child\'s words.' },
       { h3: 'Parents welcome', p: 'Sit in on any lesson; many parents learn too.' },
@@ -247,7 +247,7 @@ module.exports = {
     h2: 'Fees for home-schooling families',
     lede: 'Home-schooling families in Australia pay a monthly fee in US dollars. There is no joining fee and no commitment beyond the current month.',
     free: ['A short project with a teacher', 'A conversation about your program', 'No card or bank details'],
-    group: ['Five to ten learners per class', 'A consistent teacher', 'Daytime groups where available', 'Stop after any month'],
+    group: ['Fifteen to twenty learners per class', 'A consistent teacher', 'Daytime groups where available', 'Stop after any month'],
     one: ['Lessons built around your program', 'Daytime scheduling', 'Exit tickets after every lesson']
   },
 

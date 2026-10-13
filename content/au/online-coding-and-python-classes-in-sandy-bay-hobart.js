@@ -284,7 +284,7 @@ module.exports = {
       { h3: 'Data on screen', p: 'Learner and teacher inspect real JSON together before flattening it.' },
       { h3: 'Tasmanian terms', p: 'Lessons follow the state school year, breaking for holidays.' },
       { h3: 'Free first class', p: 'One full lesson at no cost, then a clear recommendation.' },
-      { h3: 'Five to ten per group', p: 'Level-matched groups, or private teaching.' },
+      { h3: 'Fifteen to twenty per group', p: 'Level-matched groups, or private teaching.' },
       { h3: 'Twice weekly', p: 'Two regular lessons a week, near eight a month.' },
       { h3: 'India time', p: 'Teachers are in India: a 5pm Sandy Bay lesson is 11:30am India time in summer and 12:30pm from April.' }
     ],
@@ -297,7 +297,7 @@ module.exports = {
     h2: 'Sandy Bay class fees',
     intro: 'Three straightforward prices.',
     first: 'The first lesson is free and ends with a written plan.',
-    group: 'About eight group lessons a month with five to ten learners.',
+    group: 'About eight group lessons a month with fifteen to twenty learners.',
     private: 'About eight private lessons a month.',
     closer: 'Sandy Bay learners pay in US dollars after the trial, once course and time are settled. The pricing page explains holidays and absences.'
   },
@@ -336,12 +336,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Sandy Bay learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Is Copilot Studio taught in Sandy Bay groups?', a: 'No. Copilot Studio is one to one only; groups build agents in Python.' }

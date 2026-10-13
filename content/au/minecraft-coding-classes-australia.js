@@ -250,7 +250,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Free first class', p: 'Your child writes a first building program with a teacher. No card needed.' },
-      { h3: 'Small groups', p: 'Five to ten children sharing builds and ideas.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty children sharing builds and ideas.' },
       { h3: 'One to one', p: 'For a child who wants to race ahead or go deeper.' },
       { h3: 'Their own code', p: 'Children write every program; teachers ask questions instead of giving answers.' },
       { h3: 'Own world only', p: 'No public servers and no chatting with strangers during lessons.' },
@@ -266,7 +266,7 @@ module.exports = {
     h2: 'Fees for Minecraft coding classes',
     lede: 'Families outside India pay one monthly fee in US dollars. No enrolment fee and no term contract; you can stop after any month, holidays included.',
     free: ['A first building program written together', 'Advice on the right starting point', 'No card or bank details'],
-    group: ['Five to ten children per class', 'Builds shared and tested together', 'A regular teacher', 'Stop after any month'],
+    group: ['Fifteen to twenty children per class', 'Builds shared and tested together', 'A regular teacher', 'Stop after any month'],
     one: ['Lessons around your child\'s own builds', 'Their pace, their projects', 'Times around school and sport']
   },
 

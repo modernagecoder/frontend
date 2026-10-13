@@ -1174,7 +1174,7 @@
   ],
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
-    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "small_batches": "Small batches only: group classes are capped at 20 students, with mini-batch (up to 6 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and homework after every class.",
     "real_assessment": "Mixed-review challenges after every month and a final exam that decides the certificate: real knowledge, real work, real projects.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
@@ -1212,7 +1212,7 @@
     },
     {
       "question": "How much does the Scratch course cost?",
-      "answer": "Group classes are ₹1,499 per month, which includes 2 live classes every week in a batch of at most 10 children. A mini batch of 3-4 students costs ₹2,999 per month, and personal 1-on-1 coaching with 1 private class a week (4 a month) is ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
+      "answer": "Group classes are ₹1,499 per month, which includes 2 live classes every week in a batch of at most 20 children. A mini batch of up to 6 students costs ₹2,999 per month, and personal 1-on-1 coaching with 1 private class a week (4 a month) is ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
     },
     {
       "question": "Can we try a free class before enrolling?",

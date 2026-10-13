@@ -16,7 +16,7 @@ Leidschendam-Voorburg, Zuid-Holland / Live online
 
 A computer cannot solve the motion of a pendulum the way a mathematician would on paper. It steps: it takes the angle and speed now, works out how they will change in the next hundredth of a second, updates them, and repeats. Each step is very nearly right. The trouble is the word nearly. With the simplest stepping rule, the tiny error made at each step always pushes the same way, adding a sliver of energy, and the slivers accumulate. Run such a program on a 1 metre pendulum released at 20 degrees, and after half a minute it is swinging to almost 80 degrees; before a minute is out it is going over the top. A one-line change to the order of the updates keeps it at 20 degrees for as long as anyone cares to watch. Christiaan Huygens, who worked out the theory of pendulum motion and lived at Hofwijck in Voorburg, would have recognised the problem at once: small errors that point the same way are the ones that matter.
 
-Facts last verified 11 September 2026. Teaching is online; no Leidschendam-Voorburg branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Leidschendam-Voorburg branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the town of Hofwijck and the Vliet
 
@@ -194,7 +194,7 @@ The municipality stretches along the Vliet from the Hague border to the polders 
 The complete price list is these three lines.
 
 - First class: USD 0. A real lesson built round a real task, with a level and a course at the end.
-- Group tuition: USD 100 a month. Per month, normally eight classes, in a group of five to ten learners at one level.
+- Group tuition: USD 100 a month. Per month, normally eight classes, in a group of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Per month, normally eight classes, with one teacher for one learner.
 
 The dollar price is the same in every country, with no euro table beside it, so a family in Stompwijk pays exactly what a family in Voorburg pays. Nothing is due until the free lesson has settled the course and the time, and payment is arranged over WhatsApp after that. The pricing page explains pauses, a change of format and missed classes.
@@ -235,7 +235,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Leidschendam-Voorburg coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

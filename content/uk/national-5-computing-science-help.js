@@ -220,7 +220,7 @@ module.exports = {
       { h3: 'Code by hand', p: 'Regular handwritten code, because the question paper asks for it and an editor hides weaknesses.' },
       { h3: 'Explaining in writing', p: 'Short written explanations of how code works, marked, because the paper rewards them.' },
       { h3: 'Nothing assessed', p: 'We never work on a candidate\'s assignment. We teach the skills it draws on.' },
-      { h3: 'Groups by level', p: 'Five to ten students at one stage, comparing solutions to the same problem.' }
+      { h3: 'Groups by level', p: 'Fifteen to twenty students at one stage, comparing solutions to the same problem.' }
     ]
   },
 

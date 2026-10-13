@@ -1,10 +1,10 @@
 ---
 title: "Australian Maths Trust Prep: AMC, AIO and CAT, Live Online"
-description: "Live prep for the Australian Mathematics Competition, the Australian Informatics Olympiad and CAT: formats, entry via schools or centres, batches of 5 to 10."
+description: "Live prep for the Australian Mathematics Competition, the Australian Informatics Olympiad and CAT: formats, entry via schools or centres, batches of 15 to 20."
 canonical: https://learn.modernagecoders.com/australian-maths-trust-amc-aio-cat-preparation
 source: src/pages/australian-maths-trust-amc-aio-cat-preparation.html
 ---
-> Live prep for the Australian Mathematics Competition, the Australian Informatics Olympiad and CAT: formats, entry via schools or centres, batches of 5 to 10.
+> Live prep for the Australian Mathematics Competition, the Australian Informatics Olympiad and CAT: formats, entry via schools or centres, batches of 15 to 20.
 
 Start here
 
@@ -16,7 +16,7 @@ Three papers need three bases: school mathematics for the AMC, algorithms and a 
 
 Ans. The short version
 
-The Australian Maths Trust runs three competitions this page prepares for. The Australian Mathematics Competition is 30 questions, 25 multiple choice and 5 integer answer, in 60 minutes for primary divisions and 75 for secondary, with tiered marks and no penalty for a wrong answer. The Australian Informatics Olympiad is six programming problems in three hours, answered in source code in C, C++, Java or Python 3 and marked on speed and correctness. The Computational and Algorithmic Thinking competition is a 60-minute paper of multiple-choice and integer questions that "requires no programming experience." All three are delivered by schools, home schools and tutoring centres; students cannot register individually, and the Trust's entry page lists international organisations as a registration category. The 2026 sittings were CAT on 19 to 21 May, AMC on 4 to 6 August and AIO on 27 August; 2027 dates were not yet published when this page was written. Modern Age Coders prepares students live online in batches of five to ten grouped by year level: one class a week on the mathematics or algorithms, one on timed practice in the shape of the paper. The first class is a free demo, and the group batch fee is shown on this page in your own currency.
+The Australian Maths Trust runs three competitions this page prepares for. The Australian Mathematics Competition is 30 questions, 25 multiple choice and 5 integer answer, in 60 minutes for primary divisions and 75 for secondary, with tiered marks and no penalty for a wrong answer. The Australian Informatics Olympiad is six programming problems in three hours, answered in source code in C, C++, Java or Python 3 and marked on speed and correctness. The Computational and Algorithmic Thinking competition is a 60-minute paper of multiple-choice and integer questions that "requires no programming experience." All three are delivered by schools, home schools and tutoring centres; students cannot register individually, and the Trust's entry page lists international organisations as a registration category. The 2026 sittings were CAT on 19 to 21 May, AMC on 4 to 6 August and AIO on 27 August; 2027 dates were not yet published when this page was written. Modern Age Coders prepares students live online in batches of fifteen to twenty grouped by year level: one class a week on the mathematics or algorithms, one on timed practice in the shape of the paper. The first class is a free demo, and the group batch fee is shown on this page in your own currency.
 
 Q1. What are the three papers, and who can enter?
 
@@ -164,7 +164,7 @@ Group batch · by year level
 
 per month
 
-- Five to ten students, in the same year level band
+- Fifteen to twenty students, in the same year level band
 - Two live classes a week, the base and timed past papers
 - Placement paper, weekly marked sets, two full rehearsals
 - Certificate on completion
@@ -177,7 +177,7 @@ Mini batch
 
 per month
 
-- Three to four students
+- Up to six students
 - Timings agreed around the family
 - More judged code review for AIO students
 

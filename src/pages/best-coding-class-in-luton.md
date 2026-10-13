@@ -16,7 +16,7 @@ Luton, Bedfordshire, England / Live online
 
 A Science Museum Group record of a straw splint mill explains how straw was steamed, bleached and squeezed until it was soft enough to plait, and notes that Luton in Bedfordshire was an important centre: people from the surrounding area plaited straw at home and sold it to the town's hat makers. Today the Culture Trust in Luton describes its hat collection as the most complete in the world, with over 1,900 pieces of headwear. Plaiting hides a neat piece of mathematics. Each crossing moves one strand to a new position, so a plait is a sequence of rearrangements. When does every strand come back to where it started, and does every strand take its turn at the edge? This page's project answers in Python.
 
-Facts last verified 27 September 2026. Teaching is online; no Luton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Luton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Luton learners usually start
 
@@ -137,7 +137,7 @@ Any home in the borough can join.
 - **Learners type** Each student writes their own programs while the tutor follows along on the shared screen.
 - **Year groups** A Year 2 or a Year 12 in Luton begins at the level their school year suggests, using exam board names.
 - **Free first lesson** No charge for the opening lesson, which ends with clear advice.
-- **Same-level classes** Five to ten learners at one stage, from anywhere in the UK.
+- **Same-level classes** Fifteen to twenty learners at one stage, from anywhere in the UK.
 - **Term pattern** Two lessons weekly in term, with a pause for holidays.
 - **UK hour kept** Clock changes leave your lesson time alone; our teachers adjust.
 

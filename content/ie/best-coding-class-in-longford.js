@@ -191,7 +191,7 @@ module.exports = {
     h2: 'Fees for Longford town',
     intro: 'Every price.',
     first: 'A full first lesson with the level assessed, at no charge.',
-    group: 'A month in a group of five to ten at the same level, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at the same level, about eight live lessons.',
     private: 'A month of private lessons on the same weekly pattern.',
     closer: 'Every family outside India is charged the same monthly amount in US dollars. There is nothing to pay for the free first lesson, charges begin with the course, and the pricing page describes holidays, missed lessons and changing between group and private lessons.'
   },
@@ -216,7 +216,7 @@ module.exports = {
       { q: 'Are lessons open to adults?', a: 'Yes, to sixty-seven, with or without experience. Adults usually leave the first lesson knowing whether a small same-level group or one-to-one teaching is the right fit.' },
       { q: 'Will a Longford learner be grouped with others from the town?', a: 'Groups are formed by level, so classmates may be in Longford, elsewhere in Ireland or abroad.' },
       { q: 'Is there a Modern Age Coders classroom in Longford town?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Longford town cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Longford town cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

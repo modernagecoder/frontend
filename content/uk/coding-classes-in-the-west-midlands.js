@@ -181,7 +181,7 @@ module.exports = {
       { h3: 'At your own desk', p: 'A bedroom in Pelsall, a kitchen in Cradley Heath, a spare room in Knowle. Teacher and learner share one screen, and the learner does the typing.' },
       { h3: 'School language, in English', p: 'Year groups, GCSE options and A levels are called what West Midlands schools call them, and teaching is always in English.' },
       { h3: 'First lesson on us', p: 'A real lesson of real work and a clear view of the right course afterwards. We never ask for card details.' },
-      { h3: 'Peers at your level', p: 'Five to ten learners who are at the same stage, from many towns and countries, so the lesson is pitched right.' },
+      { h3: 'Peers at your level', p: 'Fifteen to twenty learners who are at the same stage, from many towns and countries, so the lesson is pitched right.' },
       { h3: 'Your school\'s holidays', p: 'Usually two lessons a week, with breaks matched to your own school, since the seven boroughs and academies differ.' },
       { h3: 'Booked in UK time', p: 'Our teachers keep India time, four and a half hours ahead in UK summer and five and a half in UK winter; you always see UK time.' }
     ],
@@ -192,7 +192,7 @@ module.exports = {
     h2: 'West Midlands fees',
     intro: 'One set of prices for all seven boroughs, and for every country apart from India.',
     first: 'A full lesson of genuine work, ending with a suggested level and course.',
-    group: 'Around eight lessons each month in a group of five to ten at one level.',
+    group: 'Around eight lessons each month in a group of fifteen to twenty at one level.',
     private: 'Around eight lessons each month, one teacher with one learner.',
     closer: 'Outside India every family is billed in US dollars, so no pound figures appear anywhere. The first invoice follows the free lesson, once a course and a regular weekly slot are agreed, and the pricing page sets out what happens if you pause, miss a lesson or change between a group and one-to-one.'
   },

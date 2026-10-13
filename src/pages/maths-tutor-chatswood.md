@@ -4,7 +4,7 @@ description: "Online maths tutor for Chatswood, Kindergarten to Year 12 and adul
 canonical: https://learn.modernagecoders.com/maths-tutor-chatswood
 source: src/pages/maths-tutor-chatswood.html
 ---
-> For Chatswood, Modern Age Coders provides live online maths teaching to anyone from 6 to 67: Kindergarten to Year 10 under the NSW syllabus, all four HSC maths courses up to Extension 2, and adult maths. Teaching happens over video at Sydney times, either privately or with up to ten classmates at the same stage. Our Chatswood example uses lowest common multiples to show why a Year of the Goat is never a leap year. The first lesson is free.
+> For Chatswood, Modern Age Coders provides live online maths teaching to anyone from 6 to 67: Kindergarten to Year 10 under the NSW syllabus, all four HSC maths courses up to Extension 2, and adult maths. Teaching happens over video at Sydney times, either privately or with up to twenty classmates at the same stage. Our Chatswood example uses lowest common multiples to show why a Year of the Goat is never a leap year. The first lesson is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Maths tutor in Chatswood
 
@@ -176,9 +176,9 @@ Families keep the same lesson time all year.
 
 One teacher, one learner: ideal for a gap, a deadline or a learner who prefers it.
 
-### Small classes
+### Classes
 
-Five to ten learners at one level, with questions that help everyone.
+Fifteen to twenty learners at one level, with questions that help everyone.
 
 ### Working on show
 
@@ -275,7 +275,7 @@ Lessons sit at fixed Sydney times, with the October and April clock changes abso
 Outside India, lessons are billed once a month in US dollars. Joining is free and you can stop whenever a month ends.
 
 - Free first class: USD 0. A real lesson at the right level. Straight advice afterwards. No card needed.
-- Group batch: USD 100 a month. Five to ten learners at one level. One teacher across the term. Marked practice. Stop at any month end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. One teacher across the term. Marked practice. Stop at any month end.
 - One to one: USD 150 a month. Private teaching. One goal at a time. Helpful before HSC trials.
 
 ## Questions about a maths tutor in Chatswood

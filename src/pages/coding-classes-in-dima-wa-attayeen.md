@@ -179,7 +179,7 @@ Where the population is spread along wadis rather than gathered in a town, only 
 
 A complete class, a real task and a named recommendation at the end. No payment details are collected to arrange it, and nothing is agreed until a teacher has been watched teaching.
 
-### Five to eight learners, matched on ability
+### Fifteen to twenty learners, matched on ability
 
 Groups form around what a learner can do now and what they want next. Which wadi they live on is not an input, and no local arrangement here could say the same.
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for learners here?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are class times arranged for learners here?
 

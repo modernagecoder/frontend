@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-uae.html
 
 In short
 
-Modern Age Coders runs live online AI and machine learning classes across the United Arab Emirates, ages 6 to 67, in batches of five to eight or one to one. Students learn Python and the mathematics beneath machine learning, then train, evaluate and correct their own models instead of only prompting AI products. Group fees are USD 100 a month, billed in US dollars, and the first class is free.
+Modern Age Coders runs live online AI and machine learning classes across the United Arab Emirates, ages 6 to 67, in batches of fifteen to twenty or one to one. Students learn Python and the mathematics beneath machine learning, then train, evaluate and correct their own models instead of only prompting AI products. Group fees are USD 100 a month, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -290,7 +290,7 @@ Sat 10:00 to 12:00
 
 Since 1 January 2022 the UAE working and school week has run Monday to Friday with an early Friday finish, and the weekend is Friday afternoon, Saturday and Sunday. Schools in emirates following the federal directive may hold classes only until a maximum of 12:00 on Fridays. Sharjah is the exception and moved to a four day week, Monday to Thursday, so a Sharjah family is free all day Friday while a Dubai or Abu Dhabi family is not free until Friday midday. That produces a fourth slot we run on request: Friday at 2:00 PM UAE time, 3:30 PM in India.
 
-A session is ninety minutes of live video with a teacher who remembers what your child got stuck on last week. Screens are shared both ways, so a mistake gets interrupted as it happens rather than marked three days later. Batches are five to eight students, or one to one. Between sessions students get something to build, break and bring back.
+A session is ninety minutes of live video with a teacher who remembers what your child got stuck on last week. Screens are shared both ways, so a mistake gets interrupted as it happens rather than marked three days later. Batches are fifteen to twenty students, or one to one. Between sessions students get something to build, break and bring back.
 
 ### The academic calendar we plan around
 
@@ -368,7 +368,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, same teacher every week
+- Fifteen to twenty students, same teacher every week
 - Live video, never a recording
 - Weekly build tasks and teacher review
 - Certificate on completion

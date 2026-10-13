@@ -121,7 +121,7 @@ The same teacher each week, who knows the learner's projects and where they get 
 
 ### Group or individual
 
-A small group of five to ten at a similar level, or one-to-one lessons at a pace set by the learner.
+A group of fifteen to twenty at a similar level, or one-to-one lessons at a pace set by the learner.
 
 ### Equipment
 
@@ -208,7 +208,7 @@ Our teachers measure a lesson by how much the learner did, not how much the teac
 Tuition outside India is priced monthly in US dollars, one rate for all countries. No enrolment fee is charged and you are not committed to a term, so stopping at the end of a month is always possible.
 
 - Free first class: USD 0. One free trial lesson. Advice on group or individual. No card asked.
-- Group batch: USD 100 a month. Five to ten learners. The same tutor each week. Grouped by level. Month to month.
+- Group batch: USD 100 a month. Fifteen to twenty learners. The same tutor each week. Grouped by level. Month to month.
 - One to one: USD 150 a month. Individual tuition. Times around your week. Pace set by the learner.
 
 ## Common questions about online coding tutors

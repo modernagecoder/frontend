@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Vibe coding and AI agents classes in Cwmbran',
   capsuleQ: 'Where are the best vibe coding and AI agents classes for Cwmbran?',
-  capsule: 'The ONS built-up area of Cwmbrân held 47,090 usual residents at the 2021 census, within a county borough of Torfaen that held 92,276. Croesyceiliog, Llantarnam, Pontnewydd, Fairwater, Greenmeadow, Coed Eva and more than a dozen other gazetteer suburbs fall inside that built-up area. Modern Age Coders teaches vibe coding, AI agents, Python, coding and maths to learners in Cwmbran aged six to 67, live on video with tutors in India, as private lessons or in groups of five to ten at one level. Learners build things and then question what they built. A free trial lesson comes first, then a course recommendation. In the Cwmbran project a learner programs 4,000 route-choosing agents, opens a shortcut on a model road network, and watches every journey get longer. Fees after the trial: USD 100 monthly in a group, USD 150 monthly one-to-one.',
+  capsule: 'The ONS built-up area of Cwmbrân held 47,090 usual residents at the 2021 census, within a county borough of Torfaen that held 92,276. Croesyceiliog, Llantarnam, Pontnewydd, Fairwater, Greenmeadow, Coed Eva and more than a dozen other gazetteer suburbs fall inside that built-up area. Modern Age Coders teaches vibe coding, AI agents, Python, coding and maths to learners in Cwmbran aged six to 67, live on video with tutors in India, as private lessons or in groups of fifteen to twenty at one level. Learners build things and then question what they built. A free trial lesson comes first, then a course recommendation. In the Cwmbran project a learner programs 4,000 route-choosing agents, opens a shortcut on a model road network, and watches every journey get longer. Fees after the trial: USD 100 monthly in a group, USD 150 monthly one-to-one.',
   lead: 'Picture a navigation agent in every car, each one told to get its own driver home as fast as possible. Now the council opens a new link road. Surely journeys get shorter? In 1968 the German mathematician Dietrich Braess showed a network where the opposite happens: every agent, acting sensibly for itself, takes the new link, and everyone arrives later than before. It sounds like a riddle. In Python it takes a few dozen lines to reproduce, and it is one of the clearest lessons there is about what happens when many AI agents chase the same goal at once.',
   wa: 'Hello Modern Age Coders, we would like to book a free vibe coding or AI agents trial lesson. We are in Cwmbran.',
 
@@ -162,11 +162,11 @@ module.exports = {
       { h3: 'Code typed, not watched', p: 'The learner writes and runs everything, with the tutor asking questions throughout.' },
       { h3: 'Placement by trial', p: 'The first lesson shows the learner\'s level before we suggest a course.' },
       { h3: 'No cost to try', p: 'The trial lesson is free, with no card required.' },
-      { h3: 'Five to ten in a class', p: 'Classmates share a level and join from across the UK.' },
+      { h3: 'Fifteen to twenty in a class', p: 'Classmates share a level and join from across the UK.' },
       { h3: 'Around eight a month', p: 'Usually two lessons a week in term, with Torfaen holidays left clear on request.' },
       { h3: 'Welsh time kept', p: 'Your lesson stays at the same UK time when the clocks go forward or back.' }
     ],
-    spec: { title: 'Why the lessons are online', p: 'Gathering five to ten learners at one exact stage is far easier across the whole UK than in one valley. Video lets them learn together without travelling.' }
+    spec: { title: 'Why the lessons are online', p: 'Gathering fifteen to twenty learners at one exact stage is far easier across the whole UK than in one valley. Video lets them learn together without travelling.' }
   },
 
   fees: {

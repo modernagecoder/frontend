@@ -129,7 +129,7 @@ The council names the six grammar schools. We reproduce the list only to show wh
 | Rugby High School | Rugby | Girls only; not to be confused with fee-paying Rugby School |
 | Ashlawn School | Rugby | A bi-lateral school with one selective class |
 
-Lessons are live on video, in groups of five to ten matched by level, so a child in Warwick, Leamington Spa, Nuneaton or Kenilworth learns the same way as one in Stratford or Rugby.
+Lessons are live on video, in groups of fifteen to twenty matched by level, so a child in Warwick, Leamington Spa, Nuneaton or Kenilworth learns the same way as one in Stratford or Rugby.
 
 For coding in the county, see our [UK coding page](/coding-classes-in-united-kingdom), which lists every area we cover.
 
@@ -208,7 +208,7 @@ Teaching is live from India. Primary pupils have lessons after school or on week
 
 - **Same teacher** Continuity, so habits are noticed.
 - **Honest notes** Short updates after lessons.
-- **Five to ten children** Grouped by level.
+- **Fifteen to twenty children** Grouped by level.
 - **Our own questions** No GL or council material copied.
 - **One to one** For targeted help.
 - **Maths only** No reasoning or English coaching; no admissions advice.
@@ -218,7 +218,7 @@ Teaching is live from India. Primary pupils have lessons after school or on week
 Monthly, in US dollars, at one rate for all families outside India. No registration fee; leave any month.
 
 - Free first class: USD 0. A real lesson. A frank assessment. No card needed.
-- Group batch: USD 100 a month. Five to ten children at one level. A regular teacher. Work discussed in class. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. A regular teacher. Work discussed in class. A certificate at the end.
 - One to one: USD 150 a month. One child, one teacher. Focused on multi-step problems. Flexible scheduling.
 
 ## What Warwickshire families ask us

@@ -4,7 +4,7 @@ description: "Live online coding, Python, app development and maths classes acro
 canonical: https://learn.modernagecoders.com/coding-classes-in-bedfordshire
 source: src/pages/coding-classes-in-bedfordshire.html
 ---
-> Bedfordshire has three unitary councils, Central Bedfordshire, Luton and Bedford, and 704,739 residents at the 2021 Census. Luton's built-up area is the largest place, bigger than the borough because it runs over into Central Bedfordshire; Bedford is second, and then come Leighton Buzzard, Dunstable, Kempston and Biggleswade with a ring of smaller towns. We run the same classes for all of them. A teacher in India works live with each learner over video, placement depends on what the learner can already do and not on age, and we teach anyone aged 6 to 67, in a group of five to ten or individually. Programming, Python, app building, databases and maths are all covered. The Bedfordshire project starts at Luton Airport. Your first lesson is free, and afterwards a group place is USD 100 a month and a private teacher USD 150.
+> Bedfordshire has three unitary councils, Central Bedfordshire, Luton and Bedford, and 704,739 residents at the 2021 Census. Luton's built-up area is the largest place, bigger than the borough because it runs over into Central Bedfordshire; Bedford is second, and then come Leighton Buzzard, Dunstable, Kempston and Biggleswade with a ring of smaller towns. We run the same classes for all of them. A teacher in India works live with each learner over video, placement depends on what the learner can already do and not on age, and we teach anyone aged 6 to 67, in a group of fifteen to twenty or individually. Programming, Python, app building, databases and maths are all covered. The Bedfordshire project starts at Luton Airport. Your first lesson is free, and afterwards a group place is USD 100 a month and a private teacher USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Bedfordshire
 
@@ -12,11 +12,11 @@ County of Bedfordshire / Live online
 
 # Coding classes in Bedfordshire
 
-**What are the best coding classes in Bedfordshire?** Bedfordshire has three unitary councils, Central Bedfordshire, Luton and Bedford, and 704,739 residents at the 2021 Census. Luton's built-up area is the largest place, bigger than the borough because it runs over into Central Bedfordshire; Bedford is second, and then come Leighton Buzzard, Dunstable, Kempston and Biggleswade with a ring of smaller towns. We run the same classes for all of them. A teacher in India works live with each learner over video, placement depends on what the learner can already do and not on age, and we teach anyone aged 6 to 67, in a group of five to ten or individually. Programming, Python, app building, databases and maths are all covered. The Bedfordshire project starts at Luton Airport. Your first lesson is free, and afterwards a group place is USD 100 a month and a private teacher USD 150.
+**What are the best coding classes in Bedfordshire?** Bedfordshire has three unitary councils, Central Bedfordshire, Luton and Bedford, and 704,739 residents at the 2021 Census. Luton's built-up area is the largest place, bigger than the borough because it runs over into Central Bedfordshire; Bedford is second, and then come Leighton Buzzard, Dunstable, Kempston and Biggleswade with a ring of smaller towns. We run the same classes for all of them. A teacher in India works live with each learner over video, placement depends on what the learner can already do and not on age, and we teach anyone aged 6 to 67, in a group of fifteen to twenty or individually. Programming, Python, app building, databases and maths are all covered. The Bedfordshire project starts at Luton Airport. Your first lesson is free, and afterwards a group place is USD 100 a month and a private teacher USD 150.
 
 London Luton Airport says it flies to more than thirty countries and over 130 destinations. On a flat map, the line from Luton to Tbilisi runs due east. On the real, round Earth, the shortest route does leave Luton heading due east, but it curves northwards and then south again, and a plane flying the reverse trip sets off on a heading of about 304 degrees, not the 270 you would expect for "due west". That surprise is where this page's project begins. It takes the airport's own destination list, measures every route along the curve of the Earth, and compares the true shortest path with the constant-heading line a map suggests.
 
-Facts last verified 26 September 2026. Teaching is online; no Bedfordshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Bedfordshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four places Bedfordshire learners begin
 
@@ -149,7 +149,7 @@ Bedfordshire's towns are close on the map and slow on the road. Online lessons c
 - **Taught at home** A bedroom in Arlesey, a kitchen in Shefford, a desk in Marston Moretaine: the learner stays put and the lesson arrives.
 - **UK school terms throughout** We use the names Bedfordshire schools use, Year 7, GCSE choices, sixth form, and teach in English.
 - **Nothing to pay at first** A full first lesson with a teacher, then a plain recommendation of level and course. No card is requested.
-- **A group at your level** Five to ten learners who have reached the same point, gathered widely, so the pace suits each of them.
+- **A group at your level** Fifteen to twenty learners who have reached the same point, gathered widely, so the pace suits each of them.
 - **Breaks that match school** Usually two lessons a week, paused for your own school's holidays, which vary between the three councils and academies.
 - **Times given in UK time** Teaching comes from India, 4.5 hours ahead in the UK summer and 5.5 hours ahead in the UK winter; your timetable shows UK time only.
 
@@ -160,7 +160,7 @@ Bedfordshire's towns are close on the map and slow on the road. Online lessons c
 The same prices for every Bedfordshire town and every country outside India.
 
 - First class: USD 0. One complete lesson of real work, finishing with a suggested level and course.
-- Group tuition: USD 100 a month. About eight lessons per month, in a group of five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight lessons per month, in a group of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight lessons per month, one teacher with one learner.
 
 Everything is priced in US dollars, as it is for all families outside India, and there is no version in pounds. You are invoiced only once the free lesson has fixed a course and a weekly slot; see the pricing page for pausing, missed lessons and swapping between group and one-to-one.

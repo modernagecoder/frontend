@@ -40,7 +40,7 @@ module.exports = {
 
   h1: 'Coding classes in Tilburg, where the average neighbourhood has 3,911 people because someone drew 59 of them',
   capsuleQ: 'What are the best coding classes in Tilburg?',
-  capsule: 'Coding classes in Tilburg serve a municipality of 230,746 people (Statistics Netherlands, 1 January 2026), the second city of Noord-Brabant and the sixth or seventh largest in the country depending on the year you check. The statistics office divides it into 59 wijken and 254 buurten, so its average neighbourhood holds 3,911 people; it divides Groningen, a city 6 percent larger, into 20 wijken, whose average holds 12,221. Neither city is more neighbourly than the other. Modern Age Coders teaches live online in English across all of them, for ages 6 to 67, with the first lesson free and then USD 100 a month for a group of five to ten or USD 150 one-to-one.',
+  capsule: 'Coding classes in Tilburg serve a municipality of 230,746 people (Statistics Netherlands, 1 January 2026), the second city of Noord-Brabant and the sixth or seventh largest in the country depending on the year you check. The statistics office divides it into 59 wijken and 254 buurten, so its average neighbourhood holds 3,911 people; it divides Groningen, a city 6 percent larger, into 20 wijken, whose average holds 12,221. Neither city is more neighbourly than the other. Modern Age Coders teaches live online in English across all of them, for ages 6 to 67, with the first lesson free and then USD 100 a month for a group of fifteen to twenty or USD 150 one-to-one.',
   lead: 'A newspaper says the average Dutch neighbourhood has so many people, so much income, so much of something per head. Before believing it, ask who drew the neighbourhood. Tilburg is cut into 59 wijken and Groningen into 20, for populations that differ by six percent, so Tilburg\'s average wijk is a third the size of Groningen\'s before a single person moves house. A child who has computed both averages and seen the gap has learned that a per-area statistic measures the map as much as the place.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Tilburg.',
 
@@ -184,7 +184,7 @@ module.exports = {
     h2: 'What it costs, in dollars, for every address in the municipality',
     intro: 'Published on the page so nobody has to ask.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'There is a single international rate, quoted in dollars, and no separate euro list, which means an Udenhout family and a city-centre family see the same figure. Money changes hands only after the free lesson has produced a course and a timetable, and it changes hands over WhatsApp. What happens if you pause, change plan or miss a week is set out on the pricing page.'
   },
@@ -209,7 +209,7 @@ module.exports = {
       { q: 'How many students are there in Tilburg?', a: 'Two published figures answer two different questions. The municipality counts 31,774 students in higher education; Tilburg University reports 19,168 of its own for 2024. The rest are at other institutions or on other definitions, and this page quotes both rather than subtracting one from the other.' },
       { q: 'Is Tilburg an old city?', a: 'Not as Dutch cities go. It received city rights on 18 April 1809 from Louis Napoleon, which is why there is no medieval core, and it had 125 wool-cloth factories by 1871. The industry went from the 1960s and the city rebuilt around education and services.' },
       { q: 'Is there a Modern Age Coders classroom in Tilburg?', a: 'No, and none is claimed near the university, in the Reeshof or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Tilburg coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Tilburg coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in a Tilburg group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or neighbourhood. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

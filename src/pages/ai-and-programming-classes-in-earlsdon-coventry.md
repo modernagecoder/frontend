@@ -4,7 +4,7 @@ description: "AI, programming, Python and vibe coding, taught live online to Ear
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-earlsdon-coventry
 source: src/pages/ai-and-programming-classes-in-earlsdon-coventry.html
 ---
-> Earlsdon is one of Coventry's council wards; the 2021 census recorded 15,384 usual residents there, a figure the ONS publishes through Nomis. Whoberley, Canley and Canley Gardens are other suburban areas of the city on record in the CV5 and CV4 postcode districts. We teach AI, programming, Python, vibe coding and maths to learners aged six to 67 by live video from India, either individually or in classes of five to ten pitched at one level. Our lessons put judgement ahead of tools, including the judgement to ask how sure a model really is. You can try a lesson free, and we will say which course we think fits. In the Earlsdon project a Gaussian process learns the shape of the ground from as few as 25 height readings, predicts the rest, and attaches a range to every prediction that the learner then tests. Afterwards the price is USD 100 a month for group tuition and USD 150 a month for private tuition.
+> Earlsdon is one of Coventry's council wards; the 2021 census recorded 15,384 usual residents there, a figure the ONS publishes through Nomis. Whoberley, Canley and Canley Gardens are other suburban areas of the city on record in the CV5 and CV4 postcode districts. We teach AI, programming, Python, vibe coding and maths to learners aged six to 67 by live video from India, either individually or in classes of fifteen to twenty pitched at one level. Our lessons put judgement ahead of tools, including the judgement to ask how sure a model really is. You can try a lesson free, and we will say which course we think fits. In the Earlsdon project a Gaussian process learns the shape of the ground from as few as 25 height readings, predicts the rest, and attaches a range to every prediction that the learner then tests. Afterwards the price is USD 100 a month for group tuition and USD 150 a month for private tuition.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Coventry](/best-coding-class-in-coventry) / Earlsdon
 
@@ -12,11 +12,11 @@ Earlsdon, Coventry, West Midlands, England / Live online
 
 # AI and programming classes in Earlsdon, Coventry
 
-**Which are the best AI and programming classes in Earlsdon, Coventry?** Earlsdon is one of Coventry's council wards; the 2021 census recorded 15,384 usual residents there, a figure the ONS publishes through Nomis. Whoberley, Canley and Canley Gardens are other suburban areas of the city on record in the CV5 and CV4 postcode districts. We teach AI, programming, Python, vibe coding and maths to learners aged six to 67 by live video from India, either individually or in classes of five to ten pitched at one level. Our lessons put judgement ahead of tools, including the judgement to ask how sure a model really is. You can try a lesson free, and we will say which course we think fits. In the Earlsdon project a Gaussian process learns the shape of the ground from as few as 25 height readings, predicts the rest, and attaches a range to every prediction that the learner then tests. Afterwards the price is USD 100 a month for group tuition and USD 150 a month for private tuition.
+**Which are the best AI and programming classes in Earlsdon, Coventry?** Earlsdon is one of Coventry's council wards; the 2021 census recorded 15,384 usual residents there, a figure the ONS publishes through Nomis. Whoberley, Canley and Canley Gardens are other suburban areas of the city on record in the CV5 and CV4 postcode districts. We teach AI, programming, Python, vibe coding and maths to learners aged six to 67 by live video from India, either individually or in classes of fifteen to twenty pitched at one level. Our lessons put judgement ahead of tools, including the judgement to ask how sure a model really is. You can try a lesson free, and we will say which course we think fits. In the Earlsdon project a Gaussian process learns the shape of the ground from as few as 25 height readings, predicts the rest, and attaches a range to every prediction that the learner then tests. Afterwards the price is USD 100 a month for group tuition and USD 150 a month for private tuition.
 
 Most prediction methods give you a number and nothing else. A Gaussian process gives a number and a range, and the range is wide where it has little nearby evidence and narrow where it has plenty. Geologists have used the same idea for decades under the name kriging. The test bed here is the ground under Earlsdon: 1,600 height readings from a European elevation model across a box about 3.6 km wide. The model is shown a small random sample, asked to predict every other point, and then marked twice, once on how close it got and once on whether its claimed ranges were honest.
 
-Facts last verified 30 September 2026. Teaching is online; no Earlsdon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Earlsdon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI, Python and thinking courses for Earlsdon
 
@@ -129,7 +129,7 @@ Equipment list: a computer, a webcam, a broadband line.
 - **Nobody codes for the learner** They write it, run it and explain it. The tutor sees the screen and asks what the output should be first.
 - **The trial finds the level** And the interests, and the exam board where there is one.
 - **The trial is free** It closes with the course we would recommend.
-- **Groups are matched** Five to ten learners of one level, from all parts of Britain.
+- **Groups are matched** Fifteen to twenty learners of one level, from all parts of Britain.
 - **Two lessons a week** In term time only.
 - **The hour does not drift** Our tutors take care of the UK clock changes.
 

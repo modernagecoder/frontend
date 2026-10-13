@@ -242,7 +242,7 @@ Coaches are based in India, where the working day overlaps Australian afternoons
 - **Weekend** Mock contests and long reviews.
 
 - **Free first class** One problem solved together and a check of the learner's current level.
-- **Small groups** Five to ten learners at the same level, comparing solutions.
+- **Small groups** Fifteen to twenty learners at the same level, comparing solutions.
 - **One to one** For a particular contest, language or gap.
 - **Every attempt reviewed** Wrong answers are studied, not skipped.
 - **Timed on real sizes** Solutions are tested on inputs as big as the constraints allow.
@@ -253,7 +253,7 @@ Coaches are based in India, where the working day overlaps Australian afternoons
 Learners outside India pay one monthly fee in US dollars. There is nothing to pay at sign-up and no contract.
 
 - Free first class: USD 0. One problem solved together. An honest view of the learner's level. No card details.
-- Group batch: USD 100 a month. Five to ten learners at one level. Timed sets and group review. A regular coach. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. Timed sets and group review. A regular coach. Stop after any month.
 - One to one: USD 150 a month. Coaching around one learner's goals. Any of Python, C++ or Java. Times around school, uni or work.
 
 ## Questions about competitive programming in Australia

@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across County Kerry, fro
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-kerry
 source: src/pages/coding-classes-in-county-kerry.html
 ---
-> County Kerry holds 156,458 people, up by 8,751 since 2016, with 28,756 of them aged 15 and under. Tralee is the largest town at 26,079 and Killarney follows at 14,412, while the rest of the county lives in smaller towns and townlands from Listowel down to Kenmare and out along the peninsulas. One Kerry school was on the first national list for Leaving Certificate Computer Science. We teach ages 6 to 67 live online at a fixed weekly hour, in ability groups of five to ten or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.
+> County Kerry holds 156,458 people, up by 8,751 since 2016, with 28,756 of them aged 15 and under. Tralee is the largest town at 26,079 and Killarney follows at 14,412, while the rest of the county lives in smaller towns and townlands from Listowel down to Kenmare and out along the peninsulas. One Kerry school was on the first national list for Leaving Certificate Computer Science. We teach ages 6 to 67 live online at a fixed weekly hour, in ability groups of fifteen to twenty or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [Cork](/best-coding-class-in-cork) / County Kerry
 
@@ -12,11 +12,11 @@ County Kerry, Munster / Live online
 
 # Coding classes in County Kerry
 
-**What are the best coding classes in County Kerry?** County Kerry holds 156,458 people, up by 8,751 since 2016, with 28,756 of them aged 15 and under. Tralee is the largest town at 26,079 and Killarney follows at 14,412, while the rest of the county lives in smaller towns and townlands from Listowel down to Kenmare and out along the peninsulas. One Kerry school was on the first national list for Leaving Certificate Computer Science. We teach ages 6 to 67 live online at a fixed weekly hour, in ability groups of five to ten or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.
+**What are the best coding classes in County Kerry?** County Kerry holds 156,458 people, up by 8,751 since 2016, with 28,756 of them aged 15 and under. Tralee is the largest town at 26,079 and Killarney follows at 14,412, while the rest of the county lives in smaller towns and townlands from Listowel down to Kenmare and out along the peninsulas. One Kerry school was on the first national list for Leaving Certificate Computer Science. We teach ages 6 to 67 live online at a fixed weekly hour, in ability groups of fifteen to twenty or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.
 
 Here is a real problem, and a Kerry one. The Central Statistics Office published how many people in this county could speak Irish. In its summary release of 30 May 2023 the figure was 62,887. In its Profile 8 release of 19 December 2023, describing the same measure from the same census in the same county, the figure was 62,877. Ten people apart, two official documents, seven months between them. Nobody has done anything wrong, and neither number is fake. So which one do you put in your project, and what do you say about the other? That question has a right answer, it takes about four sentences to write down, and almost nobody is ever taught it. It is the centre of this page.
 
-Facts last verified 16 September 2026. Teaching is online; no County Kerry branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no County Kerry branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses, four different starting points
 
@@ -179,7 +179,7 @@ Kerry is long, mountainous and slow to cross, which decides a great deal about e
 - **No second car journey** With an average commute of 24.6 minutes already, a class that needs another drive is a class that gets dropped in November.
 - **Irish school stages** We work to the Junior Cycle, Transition Year, fifth year and sixth year, and plan around exam weeks.
 - **A free first lesson** Real teaching, a level identified, a course suggested and an hour proposed. No card details are requested.
-- **Groups of five to ten** Learners at one ability level, gathered across Kerry and several countries so the right group runs at a workable hour.
+- **Groups of fifteen to twenty** Learners at one ability level, gathered across Kerry and several countries so the right group runs at a workable hour.
 - **The same hour each week** Usually two lessons a week, around eight a month, fixed once and kept.
 - **Teachers ahead of you** Our teachers work from India, four and a half hours ahead of Irish time in summer and five and a half in winter.
 
@@ -190,7 +190,7 @@ Kerry is long, mountainous and slow to cross, which decides a great deal about e
 Three numbers, and nothing hidden behind them.
 
 - First class: USD 0. The first lesson, taught in full, at no charge.
-- Group tuition: USD 100 a month. A month of group classes, normally eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group classes, normally eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. A month of one to one classes on the same weekly pattern.
 
 We bill monthly in US dollars, at the one rate we charge outside India, so Cahersiveen and Tralee pay the same and there is no euro price list. Nothing is charged until the free lesson has agreed a course and a weekly hour, and the pricing page sets out pauses, missed lessons and moves between group and private.
@@ -231,7 +231,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do County Kerry coding classes cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

@@ -16,7 +16,7 @@ Brimbank City Council, Melbourne, Victoria / Live online
 
 Sunshine station recorded 1,577,600 entries in FY24-25, enough for 15th place among the 222 metropolitan stations in the department's file. Finding a top 15 sounds like a job for sorting. Python's heapq.nlargest does it with far fewer comparisons, and our measurements also show the point where a plain sort becomes the better choice.
 
-Facts last verified 10 October 2026. Teaching is online; no Brimbank branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Brimbank branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Coding, algorithms and AI courses
 
@@ -189,7 +189,7 @@ Classes happen over video, so learners in Deer Park, Sunshine or Taylors Lakes j
 - **Shared screens** Teacher and learner look at the same code and run it together.
 - **Term rhythm** The timetable follows Victorian school terms and stops for the holidays.
 - **Trial at no cost** The first full lesson is free, and we recommend a course afterwards.
-- **Groups by level** Five to ten learners at the same stage, gathered from many places.
+- **Groups by level** Fifteen to twenty learners at the same stage, gathered from many places.
 - **Two per week** Two fixed lessons a week, close to eight in a month.
 - **Teaching hours** A 4pm Brimbank lesson is 10:30am India time during Melbourne daylight saving and 11:30am after it.
 
@@ -200,7 +200,7 @@ Classes happen over video, so learners in Deer Park, Sunshine or Taylors Lakes j
 The same clear fees for each family.
 
 - First class: USD 0. There is no charge for the first lesson, which ends with our advice.
-- Group tuition: USD 100 a month. Group learning: one month, around eight lessons, five to ten in a group.
+- Group tuition: USD 100 a month. Group learning: one month, around eight lessons, fifteen to twenty in a group.
 - Private tuition: USD 150 a month. Private learning: one month, around eight lessons, one learner and one teacher.
 
 Brimbank families pay in US dollars. You only pay once the trial has fixed the course and a regular time; holidays and missed lessons are explained on the pricing page.
@@ -237,11 +237,11 @@ No. All teaching is live online; we have no Australian office and our listed pho
 
 ### How much do Brimbank classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How big is each group?
 
-Five to ten learners at a similar level and pace, mixed across suburbs and ages; one-to-one lessons are available if no group fits.
+Fifteen to twenty learners at a similar level and pace, mixed across suburbs and ages; one-to-one lessons are available if no group fits.
 
 ### Can adults in Brimbank learn too?
 

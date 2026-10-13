@@ -36,7 +36,7 @@ module.exports = {
 
   h1: 'Coding classes in Noord-Holland, a province whose second, third and fourth cities are closer than the size of one school',
   capsuleQ: 'What are the best coding classes in Noord-Holland?',
-  capsule: 'Coding classes in Noord-Holland have to reach 3,009,386 people in 44 municipalities (Statistics Netherlands, 1 January 2026), of whom fewer than a third live in Amsterdam. Haarlem, the provincial capital, Haarlemmermeer and Zaanstad hold places two, three and four with 168,898, 166,978 and 165,201 residents, closer to each other than a single secondary school\'s roll. Live online and in English, for ages 6 to 67, Modern Age Coders teaches coding, Python, AI and mathematics to every one of those municipalities at the same price: nothing for the first lesson, then USD 100 a month in a group of five to ten or USD 150 one to one.',
+  capsule: 'Coding classes in Noord-Holland have to reach 3,009,386 people in 44 municipalities (Statistics Netherlands, 1 January 2026), of whom fewer than a third live in Amsterdam. Haarlem, the provincial capital, Haarlemmermeer and Zaanstad hold places two, three and four with 168,898, 166,978 and 165,201 residents, closer to each other than a single secondary school\'s roll. Live online and in English, for ages 6 to 67, Modern Age Coders teaches coding, Python, AI and mathematics to every one of those municipalities at the same price: nothing for the first lesson, then USD 100 a month in a group of fifteen to twenty or USD 150 one to one.',
   lead: 'A league table of the province\'s towns says Haarlem is second and Zaanstad fourth. It does not say that 3,697 people separate them, or that 773,029 separate first from second. That is what a rank does to a number, and a child who can show it with the province\'s own list has learned something that applies to every table with a position column in it.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Noord-Holland.',
 
@@ -173,7 +173,7 @@ module.exports = {
       { h3: 'The same lesson in Bergen and in Blaricum', p: 'The group is assembled on level, not on postcode. A child on Texel and a child in the Gooi sit in the same class at the same hour and neither has travelled.' },
       { h3: 'English, with the Dutch words left in', p: 'Groep, havo, vwo, profielkeuze and MYP are used as the family hears them at school. The teaching itself is in English, which is the language most of the province\'s international families share.' },
       { h3: 'A first lesson that is a lesson', p: 'A task pitched at the learner, a level and a named course by the end of the hour, and no card taken to arrange it.' },
-      { h3: 'Five to ten learners, or one', p: 'Groups are built from what learners can do and want next. Private tuition is the option for a narrow goal or an examination year that is already full.' },
+      { h3: 'Fifteen to twenty learners, or one', p: 'Groups are built from what learners can do and want next. Private tuition is the option for a narrow goal or an examination year that is already full.' },
       { h3: 'Two lessons a week on the regio Noord calendar', p: 'Noord-Holland takes its school holidays with regio Noord, so the summer weeks fall earlier or later than Utrecht\'s and Eindhoven\'s in a given year. They are agreed before the slot is fixed.' },
       { h3: 'Four and a half hours in winter, three and a half in summer', p: 'That is the gap between a Noord-Holland afternoon and the teacher\'s evening in India, because only the Dutch clock moves. After-school, early-evening and weekend slots suit both ends, and the family fixes one during the free lesson.' }
     ],
@@ -184,7 +184,7 @@ module.exports = {
     h2: 'One free lesson, then USD 100 or USD 150 a month, in all 44 municipalities',
     intro: 'Published here in full, before anyone asks for a phone number.',
     first: 'A full lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'The rate is the one international rate, in US dollars, with no euro version and no difference between Amsterdam and Opmeer. The free lesson fixes the course and the slot; payment is arranged afterwards over WhatsApp. Pauses, changes of plan and missed lessons are described on the pricing page.'
   },
@@ -209,7 +209,7 @@ module.exports = {
       { q: 'What time are classes for a family in Noord-Holland?', a: 'The teacher is in India on a clock that never changes, so a Noord-Holland afternoon is four and a half hours behind in winter and three and a half in summer. After-school, early-evening and weekend slots work at both ends, and the recurring time is fixed during the free lesson.' },
       { q: 'What happens in the free lesson?', a: 'We find what the learner can do and set one task there. A child ranks eight block towers and then measures them. A teenager sorts the 44 municipalities in Python and adds the gap column. An adult brings a league table from work. The lesson ends with a course, a level, a weekly slot and the price in dollars, and nothing to pay.' },
       { q: 'Is there a Modern Age Coders classroom anywhere in Noord-Holland?', a: 'No, and none is claimed in Haarlem, in Amsterdam or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Noord-Holland coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Noord-Holland coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in a Noord-Holland group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or municipality. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

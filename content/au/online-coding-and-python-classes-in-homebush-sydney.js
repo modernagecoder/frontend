@@ -311,7 +311,7 @@ module.exports = {
       { h3: 'Joined from home', p: 'A laptop or desktop and headphones are all that is needed.' },
       { h3: 'School holidays', p: 'Families can pause lessons for the NSW school holidays.' },
       { h3: 'A free start', p: 'One full lesson free, then a recommended course and lesson time.' },
-      { h3: 'Groups or private', p: 'Join five to ten learners at the same level, or learn alone with a teacher.' },
+      { h3: 'Groups or private', p: 'Join fifteen to twenty learners at the same level, or learn alone with a teacher.' },
       { h3: 'Twice weekly', p: 'Two fixed lessons a week, around eight in a month, with breaks planned ahead.' },
       { h3: 'India time', p: 'A 7pm Homebush lesson starts at 1:30pm India time in daylight saving and 2:30pm after it ends.' }
     ],
@@ -324,7 +324,7 @@ module.exports = {
     h2: 'Homebush class fees',
     intro: 'Three figures cover everything.',
     first: 'The first lesson is free and finishes with a clear recommendation.',
-    group: 'Group places cover two lessons every week, so about eight a month, alongside five to ten classmates of similar level.',
+    group: 'Group places cover two lessons every week, so about eight a month, alongside fifteen to twenty classmates of similar level.',
     private: 'The same two lessons a week, taught to one learner only.',
     closer: 'Outside India all invoices are in US dollars. Payment begins only after the trial, once a course and times are agreed; the pricing page covers holidays and missed lessons.'
   },
@@ -370,7 +370,7 @@ module.exports = {
       },
       {
         q: 'What do classes cost in Homebush?',
-        a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one.',
+        a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one.',
         boiler: true
       },
       {

@@ -16,7 +16,7 @@ County Longford, Leinster / Live online
 
 Type Longford into a search over the national list of Irish towns and you get twelve places. Change one setting, the one that decides whether capital letters matter, and you get thirteen. The extra one is Ballylongford, a town of 415 people in County Kerry, 250 kilometres away, which qualifies because the letters l-o-n-g-f-o-r-d happen to sit inside its name. No warning appears. No error is raised. Your Longford total is simply wrong, by one town, forever. This is the most common bug in data work that nobody teaches, and every learner here meets it in the first hour: a name is a label for humans, and the thing you should be matching on is an identifier.
 
-Facts last verified 16 September 2026. Teaching is online; no County Longford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no County Longford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four ways to start
 
@@ -170,7 +170,7 @@ Six things worth knowing before you book.
 
 - **One hour, one teacher, live** A person teaches, asks questions and waits for answers. Recordings exist for revision, not instead of the class.
 - **Reaching the rural majority** With around 56 in every 100 people here living outside any town, a class that needs no journey reaches families that nothing else reaches.
-- **Grouped by what they can do** Five to ten learners at one level, drawn from Longford and several countries, so a real peer group exists at a sensible hour.
+- **Grouped by what they can do** Fifteen to twenty learners at one level, drawn from Longford and several countries, so a real peer group exists at a sensible hour.
 - **Equipment and connection** A laptop or desktop, working sound and a steady line. The free lesson is the honest test of whether the line is good enough.
 - **Irish school calendar** Junior Cycle, Transition Year and senior cycle, with mid-terms and exam weeks written into the plan.
 - **Hours and time zones** Afternoons, evenings and weekend mornings, taught by a team several hours ahead of Irish time.
@@ -182,7 +182,7 @@ Six things worth knowing before you book.
 Three numbers, no conditions hidden behind them.
 
 - First class: USD 0. The opening lesson, taught in full, at no cost.
-- Group tuition: USD 100 a month. A month of group classes, around eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group classes, around eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. A month of one to one classes on the same weekly rhythm.
 
 Fees are monthly and in US dollars, the one rate we use outside India, so Granard pays what Longford town pays and there is no euro list beside it. Nothing is charged until the free lesson has settled a course and an hour, and pauses, missed lessons and changes between group and private are written out on the pricing page.
@@ -223,7 +223,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do County Longford coding classes cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

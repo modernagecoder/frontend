@@ -199,7 +199,7 @@ The team teaches from India, which has no daylight saving. That gap is four and 
 - **Saturday or Sunday** Two-hour blocks for wiring front end to back end.
 
 - **A free first class** We check your level and choose a route through the stack with you.
-- **Small groups** Five to ten learners of similar age and level.
+- **Small groups** Fifteen to twenty learners of similar age and level.
 - **One to one** For a career switch deadline or a faster pace.
 - **Accessibility checked** Every project is tried with a keyboard and checked for contrast before it counts as done.
 - **Your repository** Projects live in your own GitHub account, with secrets kept out.
@@ -210,7 +210,7 @@ The team teaches from India, which has no daylight saving. That gap is four and 
 Priced per month in US dollars at a single rate for all learners outside India. Nothing is charged to join, and each month stands alone. Hosting for deployed projects can usually run on free tiers.
 
 - Free first class: USD 0. A look at what you can already build. A route through the stack. Nothing to pay on the day.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher each week. Accessibility checks on every project. Stop at the end of any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. Accessibility checks on every project. Stop at the end of any month.
 - One to one: USD 150 a month. A teacher for you alone. Built around your own project. Paced to your goal.
 
 ## What UK learners ask about full stack

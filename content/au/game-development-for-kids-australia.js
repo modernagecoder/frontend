@@ -247,7 +247,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Try before paying', p: 'The opening class costs nothing; it shows the teacher how far your child has already got.' },
-      { h3: 'Small groups', p: 'Five to ten children of a similar level, playing and testing each other\'s games.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty children of a similar level, playing and testing each other\'s games.' },
       { h3: 'Private lessons', p: 'Suited to a quick learner, a quiet child or a teenager chasing one ambitious game.' },
       { h3: 'Their own games', p: 'Every line is typed or snapped in by the child. Teachers explain and question; they do not build it for them.' },
       { h3: 'Parents can watch', p: 'Lessons are live, so you can sit in, and finished games can be played at home.' },

@@ -211,7 +211,7 @@ Our teachers work from India. Because India does not change its clocks, the gap 
 
 - **One teacher throughout** The person who saw last week's mistake is there to check it is gone.
 - **Short honest notes** Parents hear what went well and what needs work, plainly.
-- **Five to ten per group** Children at the same level, so explanations land for everyone.
+- **Fifteen to twenty per group** Children at the same level, so explanations land for everyone.
 - **Our own questions** Every practice item is written by us. Nothing is copied from the test or the guide.
 - **Private lessons too** One to one for a specific gap, or a child who prefers it.
 - **Maths, and only maths** No verbal or non-verbal reasoning teaching, and no admissions advice.
@@ -221,7 +221,7 @@ Our teachers work from India. Because India does not change its clocks, the gap 
 One monthly price in US dollars, the same for families everywhere outside India. No registration fee, no contract.
 
 - Free first class: USD 0. A lesson that teaches something. Our honest view afterwards. No card required.
-- Group batch: USD 100 a month. Five to ten children at one level. A regular teacher. Marked work, talked through. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. A regular teacher. Marked work, talked through. A certificate at the end.
 - One to one: USD 150 a month. A teacher for your child alone. Aimed at the exact gap. Handy in the last months before September.
 
 ## What Birmingham parents ask us

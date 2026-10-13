@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Delfshaven, Rotterdam
 canonical: https://learn.modernagecoders.com/coding-classes-in-delfshaven
 source: src/pages/coding-classes-in-delfshaven.html
 ---
-> Coding classes in Delfshaven reach 76,590 residents (1 January 2026) on 515 hectares of land at 14,944 people to the square kilometre, in 40,120 households of which 20,975 hold one person. Fifteen secondary establishments here teach 4,765 pupils. Nine in Prins Alexander teach 5,860. Two thirds more schools, a fifth fewer pupils, and the number everybody quotes is the one that gets it backwards. Modern Age Coders teaches live online in English from Spangen to Schiemond, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Delfshaven reach 76,590 residents (1 January 2026) on 515 hectares of land at 14,944 people to the square kilometre, in 40,120 households of which 20,975 hold one person. Fifteen secondary establishments here teach 4,765 pupils. Nine in Prins Alexander teach 5,860. Two thirds more schools, a fifth fewer pupils, and the number everybody quotes is the one that gets it backwards. Modern Age Coders teaches live online in English from Spangen to Schiemond, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Rotterdam](/coding-classes-in-rotterdam) / Delfshaven
 
@@ -12,11 +12,11 @@ Delfshaven, Rotterdam / Live online
 
 # Coding classes in Delfshaven, which has two thirds more secondary schools than the next district and a fifth fewer pupils in them
 
-**What are the best coding classes in Delfshaven?** Coding classes in Delfshaven reach 76,590 residents (1 January 2026) on 515 hectares of land at 14,944 people to the square kilometre, in 40,120 households of which 20,975 hold one person. Fifteen secondary establishments here teach 4,765 pupils. Nine in Prins Alexander teach 5,860. Two thirds more schools, a fifth fewer pupils, and the number everybody quotes is the one that gets it backwards. Modern Age Coders teaches live online in English from Spangen to Schiemond, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Delfshaven?** Coding classes in Delfshaven reach 76,590 residents (1 January 2026) on 515 hectares of land at 14,944 people to the square kilometre, in 40,120 households of which 20,975 hold one person. Fifteen secondary establishments here teach 4,765 pupils. Nine in Prins Alexander teach 5,860. Two thirds more schools, a fifth fewer pupils, and the number everybody quotes is the one that gets it backwards. Modern Age Coders teaches live online in English from Spangen to Schiemond, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Delfshaven has fifteen secondary establishments and Prins Alexander has nine. Delfshaven teaches 4,765 secondary pupils and Prins Alexander teaches 5,860. Two thirds more schools in one district, a fifth fewer pupils in them, and both figures come from the same office in the same year. Count the schools and you will conclude one thing. Count the pupils and you will conclude the opposite. Only one of those counts is measuring the amount of anything, and it is not the one that is easier to get.
 
-Facts last verified 9 September 2026. Teaching is online; no Delfshaven branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 September 2026. Teaching is online; no Delfshaven branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a district with five and a half thousand students living in it
 
@@ -215,7 +215,7 @@ Delfshaven is dense, well connected and full of small flats. Getting somewhere i
 Written here rather than saved for a call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate applies, quoted in dollars, with no euro edition, so an address in Schiemond is charged exactly what one in Spangen is. Nothing is paid until the free lesson has settled a course and an hour, and payment is arranged over WhatsApp afterwards. Pausing, switching plan and missing a week are all described on the pricing page.
@@ -256,7 +256,7 @@ No, and none is claimed in Delfshaven, elsewhere in Rotterdam or anywhere in the
 
 ### What do Delfshaven coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

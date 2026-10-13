@@ -16,7 +16,7 @@ Marion, City of Marion, South Australia / Live online
 
 What share of the scheduled stop visits in Marion are by train? Asked in one go, our scripted model answered 5.6%. Asked as four linked steps, each producing something we could check, it answered 7.3%. The one-step answer had quietly counted every day in a six-month timetable.
 
-Facts last verified 13 October 2026. Teaching is online; no Marion branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Marion branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for building with AI step by step
 
@@ -183,7 +183,7 @@ Classes are live on video, so learners join from home.
 - **Every step visible** Each prompt and each intermediate result is reviewed together.
 - **SA term rhythm** Lessons follow South Australian school terms and holidays.
 - **Free trial lesson** A full first class with no charge, then advice in writing.
-- **Level-matched classes** Five to ten learners at a similar stage, or one to one.
+- **Level-matched classes** Fifteen to twenty learners at a similar stage, or one to one.
 - **Twice each week** Two set lessons weekly, roughly eight a month.
 - **India time** Teachers are in India, so a 4pm Marion lesson is 11am India time in summer and noon after early April.
 
@@ -194,7 +194,7 @@ Classes are live on video, so learners join from home.
 One set of three prices.
 
 - First class: USD 0. The first lesson is free and ends with a recommended course.
-- Group tuition: USD 100 a month. Group lessons: about eight a month with five to ten learners.
+- Group tuition: USD 100 a month. Group lessons: about eight a month with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private lessons: about eight a month with one teacher.
 
 Marion families pay in US dollars, after the trial and once course and time are fixed. The pricing page covers holidays and missed lessons.
@@ -231,11 +231,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Marion learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Will Marion group classes include Copilot Studio?
 

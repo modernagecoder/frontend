@@ -180,7 +180,7 @@ module.exports = {
       { h3: 'Home, not a classroom', p: 'A learner in Stervoorde and a learner in Hoornwijck start the lesson together, each from home, with no journey through the evening traffic between two cities.' },
       { h3: 'Dutch school terms stay Dutch', p: 'Brugklas, groep, vmbo, havo, vwo and the profielkeuze are kept as Rijswijk schools write them, while the teaching is in English.' },
       { h3: 'A real first lesson, free', p: 'The first hour is a full lesson on a genuine task. The teacher then recommends a level, a course and a weekly time, with no payment details requested.' },
-      { h3: 'Matched groups', p: 'Five to ten learners at the same stage. Rijswijk has 10,444 residents under fifteen, but five who match on subject, level and hour are rare, so groups also draw on learners in other countries.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners at the same stage. Rijswijk has 10,444 residents under fifteen, but five who match on subject, level and hour are rare, so groups also draw on learners in other countries.' },
       { h3: 'Regio Midden breaks', p: 'Two lessons a week, about eight a month, at one fixed hour, pausing for the regio Midden holidays that Zuid-Holland schools keep.' },
       { h3: 'Teachers ahead in time', p: 'The teachers are in India, three and a half hours ahead of Rijswijk in summer and four and a half in winter, so late afternoons, evenings and weekend mornings are all available.' }
     ],
@@ -191,7 +191,7 @@ module.exports = {
     h2: 'Fees for Rijswijk families',
     intro: 'Three prices, stated in full.',
     first: 'A real lesson on a real task, ending with a level and a course.',
-    group: 'Monthly, normally eight lessons, five to ten learners at one level.',
+    group: 'Monthly, normally eight lessons, fifteen to twenty learners at one level.',
     private: 'Monthly, normally eight lessons, one teacher and one learner.',
     closer: 'The dollar fee is the same in every country, with no euro list beside it, so a family in Welgelegen pays what a family in Rijswijk Buiten pays. Nothing is charged until the free lesson has settled a course and a time; payment is then arranged over WhatsApp. The pricing page covers pauses, format changes and missed lessons.'
   },
@@ -216,7 +216,7 @@ module.exports = {
       { q: 'How many schools are there in Rijswijk?', a: 'The statistics count 18 primary establishments and 5 secondary establishments teaching 2,001 pupils, with 588 MBO, 1,220 higher professional and 1,130 university students at institutions in the municipality. No school is rated here.' },
       { q: 'Which language are the lessons in, and when are they held?', a: 'English, with Dutch school words such as brugklas, havo and vwo kept in Dutch. The teachers work from India, three and a half hours ahead of Rijswijk in summer and four and a half in winter, so late-afternoon, evening and weekend times are easy to arrange. The time is agreed in the free lesson, and regio Midden holidays are kept.' },
       { q: 'Is there a Modern Age Coders classroom in Rijswijk?', a: 'No, and none is claimed here or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Rijswijk coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Rijswijk coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

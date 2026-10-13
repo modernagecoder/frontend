@@ -60,7 +60,7 @@ module.exports = {
 
   h1: 'Coding classes in Cambridge',
   capsuleQ: 'What are the best coding classes in Cambridge?',
-  capsule: 'Cambridge is a small city dominated by learning. Its 2021 Census count was 145,674, of whom 19,292 lived in communal establishments such as colleges, and 33.2% of residents aged five and over were schoolchildren or full-time students, far above England\'s 20.4%. It is also where EDSAC, the first practical stored-program computer, ran its first program on 6 May 1949. Modern Age Coders teaches Cambridge learners from six to sixty-seven in live online lessons, either in a group of five to ten at one level or one to one, with teachers in India and a weekly time pinned to UK hours. The first lesson is free; afterwards, a group place is USD 100 and private lessons USD 150 each month.',
+  capsule: 'Cambridge is a small city dominated by learning. Its 2021 Census count was 145,674, of whom 19,292 lived in communal establishments such as colleges, and 33.2% of residents aged five and over were schoolchildren or full-time students, far above England\'s 20.4%. It is also where EDSAC, the first practical stored-program computer, ran its first program on 6 May 1949. Modern Age Coders teaches Cambridge learners from six to sixty-seven in live online lessons, either in a group of fifteen to twenty at one level or one to one, with teachers in India and a weekly time pinned to UK hours. The first lesson is free; afterwards, a group place is USD 100 and private lessons USD 150 each month.',
   lead: 'The Met Office has kept monthly weather for a station at NIAB in Cambridge since January 1959, and the record now runs to 812 months. Which ten months were the warmest? The obvious method is to sort all 812 by temperature and read off the top. A better one, used everywhere from search engines to game leaderboards, reads the record once and keeps only a small pile of the top ten so far, always knowing which of the ten is weakest. That pile is a heap, and it needs about a third of the comparisons a full sort does. Run it on Cambridge and the answer arrives with a twist: July 2006 is warmest at 28.3C, but second place goes to July 2026, and that value is still marked provisional. Six of the ten warmest months come from 2000 or later. How the heap works, and why a provisional number deserves an asterisk in any top ten, is the lesson Cambridge\'s own weather record teaches our teenage learners here.',
   wa: 'Hello Modern Age Coders, I would like a free coding class for a learner in Cambridge.',
 
@@ -188,7 +188,7 @@ module.exports = {
       { h3: 'No ride across town', p: 'A learner in Arbury and one in Newnham can take the same lesson from their own desks, and nobody has to cross Parker\'s Piece in the rain.' },
       { h3: 'English school stages', p: 'Reception, the Key Stages, Year 9 options, GCSEs and A levels keep the names Cambridge schools use, and all teaching is in English.' },
       { h3: 'A free first session', p: 'A proper lesson on a real task, followed by a clear suggestion of level, course and time, with no card requested.' },
-      { h3: 'Grouped by level', p: 'Five to ten learners at the same stage, drawn from Cambridge, across the UK and abroad, so each level finds a workable slot.' },
+      { h3: 'Grouped by level', p: 'Fifteen to twenty learners at the same stage, drawn from Cambridge, across the UK and abroad, so each level finds a workable slot.' },
       { h3: 'A fixed weekly rhythm', p: 'Two lessons a week at the same time, around eight a month, with pauses for holidays and exams agreed with the teacher.' },
       { h3: 'Taught from India', p: 'India keeps one clock all year, so our teachers run four and a half hours ahead of Cambridge in summer and five and a half in winter, which places after-school and evening slots within their day.' }
     ],
@@ -199,7 +199,7 @@ module.exports = {
     h2: 'What classes cost in Cambridge',
     intro: 'The complete price list is three lines long.',
     first: 'A full lesson at no cost, ending with a level, a recommended course and a proposed weekly slot.',
-    group: 'One month of teaching, usually eight lessons, in a group of five to ten learners at one level.',
+    group: 'One month of teaching, usually eight lessons, in a group of fifteen to twenty learners at one level.',
     private: 'About eight lessons a month on the same schedule, with a teacher for one learner alone.',
     closer: 'Fees are charged in US dollars at the one rate that applies everywhere outside India, so Chesterton and Cherry Hinton pay exactly the same and we keep no pound price list. Charges start only when the free lesson has set a course and a slot, and our pricing page explains breaks, missed lessons and changes between group and private teaching.'
   },
@@ -224,8 +224,8 @@ module.exports = {
       { q: 'When are lessons for Cambridge learners?', a: 'After school, in the evening or at weekends, with the time set in UK hours during the free lesson. Our teachers are four and a half hours ahead of Cambridge in summer and five and a half in winter.' },
       { q: 'Can we pause for exams or holidays?', a: 'Yes. Families often stop for GCSE and A level revision, the exams and school holidays, and agree the dates with the teacher beforehand.' },
       { q: 'Is there a Modern Age Coders centre in Cambridge?', a: 'No. We have no premises in Cambridge or anywhere in the UK, and every lesson is live online. Learners need a computer with sound and a reliable connection; our phone number is an Indian one.', boiler: true },
-      { q: 'How much are Cambridge lessons?', a: 'The first lesson costs nothing. A group place is then USD 100 a month for two live lessons weekly, around eight a month, with five to ten learners; one-to-one lessons on the same schedule are USD 150 a month. Course, format and time are agreed first.', boiler: true },
-      { q: 'How are Cambridge groups formed?', a: 'By ability, pace and aims: five to ten learners at one level, whatever their age or postcode. When no suitable group meets at a good time, we propose one-to-one lessons.', boiler: true }
+      { q: 'How much are Cambridge lessons?', a: 'The first lesson costs nothing. A group place is then USD 100 a month for two live lessons weekly, around eight a month, with fifteen to twenty learners; one-to-one lessons on the same schedule are USD 150 a month. Course, format and time are agreed first.', boiler: true },
+      { q: 'How are Cambridge groups formed?', a: 'By ability, pace and aims: fifteen to twenty learners at one level, whatever their age or postcode. When no suitable group meets at a good time, we propose one-to-one lessons.', boiler: true }
     ]
   },
 

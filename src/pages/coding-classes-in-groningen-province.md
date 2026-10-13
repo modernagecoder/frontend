@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across the province of G
 canonical: https://learn.modernagecoders.com/coding-classes-in-groningen-province
 source: src/pages/coding-classes-in-groningen-province.html
 ---
-> Coding classes in the province of Groningen serve 601,286 people in ten municipalities (Statistics Netherlands, 1 January 2026), the fewest municipalities of any province and the largest share held by one city: four residents in ten live in the municipality of Groningen. Under the northern half of the province lies the gas field found at Slochteren in 1959 and shut on 1 October 2023, and the earthquakes it caused are reported on a scale in which the strongest, 3.6 at Huizinge in 2012, released forty-one percent more energy than the 3.5 at Westeremden six years earlier, not three percent. Modern Age Coders teaches the same live online class in English in all ten municipalities, for anyone aged 6 to 67, the first lesson costing nothing and the months after it USD 100 in a group of five to ten or USD 150 with a teacher alone.
+> Coding classes in the province of Groningen serve 601,286 people in ten municipalities (Statistics Netherlands, 1 January 2026), the fewest municipalities of any province and the largest share held by one city: four residents in ten live in the municipality of Groningen. Under the northern half of the province lies the gas field found at Slochteren in 1959 and shut on 1 October 2023, and the earthquakes it caused are reported on a scale in which the strongest, 3.6 at Huizinge in 2012, released forty-one percent more energy than the 3.5 at Westeremden six years earlier, not three percent. Modern Age Coders teaches the same live online class in English in all ten municipalities, for anyone aged 6 to 67, the first lesson costing nothing and the months after it USD 100 in a group of fifteen to twenty or USD 150 with a teacher alone.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / the province of Groningen
 
@@ -12,11 +12,11 @@ Province of Groningen / Live online
 
 # Coding classes in the province of Groningen, where 3.6 is not three percent more than 3.5
 
-**What are the best coding classes in the province of Groningen?** Coding classes in the province of Groningen serve 601,286 people in ten municipalities (Statistics Netherlands, 1 January 2026), the fewest municipalities of any province and the largest share held by one city: four residents in ten live in the municipality of Groningen. Under the northern half of the province lies the gas field found at Slochteren in 1959 and shut on 1 October 2023, and the earthquakes it caused are reported on a scale in which the strongest, 3.6 at Huizinge in 2012, released forty-one percent more energy than the 3.5 at Westeremden six years earlier, not three percent. Modern Age Coders teaches the same live online class in English in all ten municipalities, for anyone aged 6 to 67, the first lesson costing nothing and the months after it USD 100 in a group of five to ten or USD 150 with a teacher alone.
+**What are the best coding classes in the province of Groningen?** Coding classes in the province of Groningen serve 601,286 people in ten municipalities (Statistics Netherlands, 1 January 2026), the fewest municipalities of any province and the largest share held by one city: four residents in ten live in the municipality of Groningen. Under the northern half of the province lies the gas field found at Slochteren in 1959 and shut on 1 October 2023, and the earthquakes it caused are reported on a scale in which the strongest, 3.6 at Huizinge in 2012, released forty-one percent more energy than the 3.5 at Westeremden six years earlier, not three percent. Modern Age Coders teaches the same live online class in English in all ten municipalities, for anyone aged 6 to 67, the first lesson costing nothing and the months after it USD 100 in a group of fifteen to twenty or USD 150 with a teacher alone.
 
 A headline says a 3.6 earthquake, a neighbour says the one in 2006 was 3.5, and everyone in the room agrees they were about the same. They were not. The scale is a logarithm: a tenth of a magnitude is a quarter more ground movement and two fifths more energy, and the gap between the 3.6 at Huizinge and the 2.0 quakes the region shrugged off in the 1990s is not eighty percent but a factor of 251. The program that says so is a single line with a power of ten in it, and a child in Loppersum should own it.
 
-Facts last verified 7 September 2026. Teaching is online; no the province of Groningen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no the province of Groningen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a province with a university city and nine municipalities around it
 
@@ -209,7 +209,7 @@ The rail lines, the bus routes and the ring road all meet in Groningen, and for 
 Printed in full before any number of yours is asked for.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One rate in US dollars applies everywhere outside India, with no euro version, and Pekela pays what the city pays. The free lesson settles the course and the hour; payment follows on WhatsApp. What happens on a pause, a plan change or a missed lesson is written up on the pricing page.
@@ -250,7 +250,7 @@ No, and none is claimed in the city, in Delfzijl or anywhere in the Netherlands.
 
 ### What do coding classes in the province of Groningen cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Groningen group?
 

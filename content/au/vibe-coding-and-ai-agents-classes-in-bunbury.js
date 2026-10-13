@@ -194,7 +194,7 @@ module.exports = {
       { h3: 'Around the bay', p: 'A learner in Carey Park and another in Gelorup can work in the same class without either travelling.' },
       { h3: 'Western Australian schooling', p: 'Teachers follow WA year levels and the state\'s four terms, and senior students can relate projects to their own courses. Teaching is in English.' },
       { h3: 'The trial is real teaching', p: 'Your free first session is a proper lesson that ends with a level, a course suggestion and a time. No card is ever requested.' },
-      { h3: 'Groups at one level', p: 'Five to ten learners at the same stage, from Bunbury and elsewhere, so regional learners always find classmates.' },
+      { h3: 'Groups at one level', p: 'Fifteen to twenty learners at the same stage, from Bunbury and elsewhere, so regional learners always find classmates.' },
       { h3: 'Two lessons a week', p: 'Around eight a month in a fixed slot, with school holidays and exam periods planned with the teacher.' },
       { h3: 'Teachers two and a half hours behind', p: 'Western Australia and India both skip daylight saving, so a 6pm lesson in Bunbury is 3:30pm for our teachers all year round.' }
     ],
@@ -205,7 +205,7 @@ module.exports = {
     h2: 'What classes cost in Bunbury',
     intro: 'Three straightforward prices.',
     first: 'A full first lesson for free, after which you get a level, a suggested course and a time.',
-    group: 'A month of lessons, usually eight, in a group of five to ten learners at your level.',
+    group: 'A month of lessons, usually eight, in a group of fifteen to twenty learners at your level.',
     private: 'About eight lessons a month with your own teacher, one to one.',
     closer: 'Outside India all our fees are set in US dollars, which means Withers and College Grove households receive matching invoices and WA has no price list of its own. Payment begins once the trial has pinned down a course and a lesson slot, and our pricing page answers questions about breaks, absences and changing format.'
   },
@@ -230,8 +230,8 @@ module.exports = {
       { q: 'What time are lessons for Bunbury learners?', a: 'Usually after school or at weekends, agreed at the trial and quoted in Bunbury time. Neither WA nor India changes its clocks, so the two and a half hour gap to our teachers never moves.' },
       { q: 'Can younger children learn about AI?', a: 'Yes. From age six children use Scratch and simple AI activities, moving to Python later. This page is written for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Bunbury?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Bunbury classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Bunbury classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

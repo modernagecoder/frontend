@@ -16,7 +16,7 @@ Newbridge, County Kildare / Live online
 
 Newbridge is a large town: 594 of its 11,031 working residents give a train as their main means of travel, and every figure on this page describes hundreds or thousands of people. The same column of the same table, read across all 867 towns in it, looks very different at the other end. In 260 of those towns, either the bicycle cell or the train cell holds exactly one person. The smallest town in the column has 33 working residents in total. One is not a statistic, it is somebody, and the moment a reader joins that table to anything else, or splits it by one more variable, the arithmetic stops being anonymous. That is the project on this page, and it is the part of data work most likely to matter in a learner's first job.
 
-Facts last verified 18 September 2026. Teaching is online; no Newbridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 18 September 2026. Teaching is online; no Newbridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Newbridge learners start
 
@@ -168,7 +168,7 @@ Tools will keep making analysis easier. Deciding what should not be published st
 Six lines.
 
 - **Live teaching** A teacher present for the whole hour, working from what the learner is doing.
-- **Grouped by stage** Five to ten learners at one level, from Newbridge, the rest of Ireland and beyond.
+- **Grouped by stage** Fifteen to twenty learners at one level, from Newbridge, the rest of Ireland and beyond.
 - **Two lessons weekly** About eight a month, at an hour agreed once at the start.
 - **Term dates** Mid-terms, holidays and exam weeks are planned in before lessons begin.
 - **What is needed** Something with a proper keyboard, a microphone the teacher can hear, and a connection that holds video.
@@ -181,7 +181,7 @@ Six lines.
 Three lines, all of it.
 
 - First class: USD 0. A full opening lesson, taught and assessed, at no charge.
-- Group tuition: USD 100 a month. A month in an ability group of five to ten, about eight live lessons.
+- Group tuition: USD 100 a month. A month in an ability group of fifteen to twenty, about eight live lessons.
 - Private tuition: USD 150 a month. A month of private teaching on the same weekly pattern.
 
 Fees are monthly, in US dollars, at the single rate for families outside India, so Newbridge sees the same figure as Naas or Celbridge with no euro list beside it. The first invoice waits on two decisions, which course and which hour, and both are made during the lesson that costs nothing. Term breaks, an absence and a switch from a group to private tuition are each written up on the pricing page.
@@ -222,7 +222,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Newbridge cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

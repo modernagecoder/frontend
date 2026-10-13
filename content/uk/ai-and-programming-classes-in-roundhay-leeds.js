@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'AI and programming classes in Roundhay',
   capsuleQ: 'Which are the best AI and programming classes in Roundhay?',
-  capsule: 'Roundhay ward in Leeds counted 23,809 usual residents at the 2021 census, and Roundhay, Oakwood and Gledhow are the suburban areas recorded in its LS8 postcode district. AI, programming, Python, vibe coding and maths lessons are open to anyone from six to 67 and run on live video with tutors in India, either privately or in a class of five to ten at a shared level. Sound reasoning is taught before any tool, so a learner can ask the awkward question when a model\'s score looks good. We give the first lesson free and close it with a course suggestion. The Roundhay project tunes a machine learning model on Census data for all 2,607 small areas of Leeds and asks how to spend a budget of 16 attempts: on a tidy grid, at random, or with a Latin hypercube. Continuing costs USD 100 a month in a class or USD 150 a month privately.',
+  capsule: 'Roundhay ward in Leeds counted 23,809 usual residents at the 2021 census, and Roundhay, Oakwood and Gledhow are the suburban areas recorded in its LS8 postcode district. AI, programming, Python, vibe coding and maths lessons are open to anyone from six to 67 and run on live video with tutors in India, either privately or in a class of fifteen to twenty at a shared level. Sound reasoning is taught before any tool, so a learner can ask the awkward question when a model\'s score looks good. We give the first lesson free and close it with a course suggestion. The Roundhay project tunes a machine learning model on Census data for all 2,607 small areas of Leeds and asks how to spend a budget of 16 attempts: on a tidy grid, at random, or with a Latin hypercube. Continuing costs USD 100 a month in a class or USD 150 a month privately.',
   lead: 'Machine learning models have settings that are chosen before training starts, such as how fast to learn or how much data each step sees. They are called hyperparameters, and finding good values means training the model again and again, which costs time and money. So the real question is how to search when tries are limited. The obvious plan is a grid: a few values of each setting, every combination. The less obvious plan is to pick the combinations at random. This project runs both, plus a third design called a Latin hypercube, on a model that predicts car ownership across Leeds, with exactly 16 tries each.',
   wa: 'Hello Modern Age Coders, could we book a free AI or programming lesson for a learner in Roundhay, Leeds?',
 
@@ -155,7 +155,7 @@ module.exports = {
       { h3: 'Hands on', p: 'Students do the typing and the running. The tutor follows over screen share and asks them to predict each result first.' },
       { h3: 'The trial sets the start', p: 'In the free session we see what the learner already knows and note any exam board.' },
       { h3: 'First lesson free', p: 'Nothing to pay for the opening lesson, which ends with our course advice.' },
-      { h3: 'Classes of five to ten', p: 'Grouped by stage, with classmates from all over the UK.' },
+      { h3: 'Classes of fifteen to twenty', p: 'Grouped by stage, with classmates from all over the UK.' },
       { h3: 'Two a week', p: 'In term time.' },
       { h3: 'Your time stays fixed', p: 'When British clocks change, the tutor adjusts, not you.' }
     ],

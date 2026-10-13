@@ -213,7 +213,7 @@ module.exports = {
     cells: [
       { h3: 'Strategy named', p: 'Students say which strategy they chose and why.' },
       { h3: 'Always checked', p: 'Every answer is checked against the question.' },
-      { h3: 'Groups of five to ten', p: 'Children at a similar problem-solving stage.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Children at a similar problem-solving stage.' },
       { h3: 'One-to-one option', p: 'For students who want a faster pace.' },
       { h3: 'Short parent notes', p: 'The strategy of the week and a problem to try.' },
       { h3: 'Fair play', p: 'We never use or imitate contest papers.' }
@@ -228,7 +228,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Australian families are charged monthly in US dollars, the same rate we use everywhere outside India, with nothing to pay up front and freedom to stop at any month end. APSMO entry is arranged and paid by schools.',
     free: ['A real lesson with a teacher', 'An honest view of problem-solving level', 'No payment details'],
-    group: ['Five to ten students at one stage', 'The same teacher each week', 'Solutions discussed in depth', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one stage', 'The same teacher each week', 'Solutions discussed in depth', 'A certificate at the end'],
     one: ['A teacher for one student', 'Paced to suit them', 'A weekly time you choose']
   },
 

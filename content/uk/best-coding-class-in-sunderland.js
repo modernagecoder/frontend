@@ -65,7 +65,7 @@ module.exports = {
 
   h1: 'Coding classes in Sunderland',
   capsuleQ: 'What are the best coding classes in Sunderland?',
-  capsule: 'Census 2021 counted 274,172 usual residents in Sunderland, and 5.9% of them were aged 65 to 69, against 4.9% for England. Sunderland Minster says its church was first built around 900 AD and served most of the area south of the Wear, which is why that side became Bishopwearmouth. Sunderland learners of any age from six to sixty-seven can join us live online, in a group of five to ten at their level or on their own with a teacher, with our teachers in India and lessons at UK times. The introductory lesson is free, and the monthly fee after it is USD 100 for a group place or USD 150 for private teaching.',
+  capsule: 'Census 2021 counted 274,172 usual residents in Sunderland, and 5.9% of them were aged 65 to 69, against 4.9% for England. Sunderland Minster says its church was first built around 900 AD and served most of the area south of the Wear, which is why that side became Bishopwearmouth. Sunderland learners of any age from six to sixty-seven can join us live online, in a group of fifteen to twenty at their level or on their own with a teacher, with our teachers in India and lessons at UK times. The introductory lesson is free, and the monthly fee after it is USD 100 for a group place or USD 150 for private teaching.',
   lead: 'Ordnance Survey lists 4,709 named places in Sunderland, from Roker to Washington. A map app asked what lies within 500 metres of a point has a simple way to answer: measure the distance to all 4,709 and keep the close ones. On average about 48 qualify, so almost every measurement is wasted. A quadtree splits the city into four boxes, splits any crowded box into four again, and so on, so a search can skip every box too far away to matter. With boxes of up to sixteen places, the same question needs about 90 distance checks instead of 4,709. Set the box size to one and the tree goes haywire, because three places share a single point. Our teenagers build the tree and find out why.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Sunderland.',
 
@@ -102,7 +102,7 @@ module.exports = {
           { h3: 'Fewer full-time students', p: 'Of 260,323 residents aged five and over, 48,863 were schoolchildren or full-time students, 18.8% against 20.4% across England.' },
           { h3: 'Mostly at home', p: 'Only 3,786 residents lived in communal establishments such as halls and care homes, and 270,386 in ordinary households.' }
         ] },
-        { kind: 'p', text: 'That older profile matters to us because we teach adults too. A Year 6 child in Millfield might be building a first maze game, a Year 10 student in Washington choosing GCSE Computer Science, and a retired engineer in Roker learning Python for pleasure, each in a group of five to ten learners working at the same level.' }
+        { kind: 'p', text: 'That older profile matters to us because we teach adults too. A Year 6 child in Millfield might be building a first maze game, a Year 10 student in Washington choosing GCSE Computer Science, and a retired engineer in Roker learning Python for pleasure, each in a group of fifteen to twenty learners working at the same level.' }
       ]
     },
     {
@@ -193,7 +193,7 @@ module.exports = {
       { h3: 'North and south of the Wear', p: 'A learner in Fulwell and another in Silksworth can share the same lesson without crossing a bridge.' },
       { h3: 'English stages, named properly', p: 'Reception, Key Stages 1 to 4, GCSE options and A levels, called what Sunderland schools call them, with all lessons in English.' },
       { h3: 'The first lesson counts', p: 'The free session teaches something real and closes with a recommended level, course and weekly time. There is no card to enter.' },
-      { h3: 'Matched classmates', p: 'Five to ten learners at one stage, from Sunderland, elsewhere in Britain and overseas, which gives every level a usable time.' },
+      { h3: 'Matched classmates', p: 'Fifteen to twenty learners at one stage, from Sunderland, elsewhere in Britain and overseas, which gives every level a usable time.' },
       { h3: 'Two lessons a week', p: 'A steady pair of weekly lessons, about eight a month, with holidays and exam weeks set with the teacher ahead of time.' },
       { h3: 'Teachers on a late shift', p: 'Our teachers are four and a half hours ahead of Sunderland in summer and five and a half in winter, because India keeps one time all year. They teach into their evening so that Wearside learners can join after school.' }
     ],
@@ -204,7 +204,7 @@ module.exports = {
     h2: 'Sunderland lesson fees',
     intro: 'A free lesson first, then a single fee each month.',
     first: 'A full lesson with no charge, ending with a level, a course and a weekly time we recommend.',
-    group: 'About eight live lessons per month with five to ten learners at one stage.',
+    group: 'About eight live lessons per month with fifteen to twenty learners at one stage.',
     private: 'About eight live lessons per month, taught to your learner individually.',
     closer: 'Outside India, one US dollar fee applies to every family, from Pennywell to Seaburn, and we list no prices in pounds. We take no payment until the free lesson has settled a course and a slot; pausing, missed lessons and switching between group and private teaching are covered on the pricing page.'
   },
@@ -229,8 +229,8 @@ module.exports = {
       { q: 'Why is one side of Sunderland called Bishopwearmouth?', a: 'Sunderland Minster says its church served most of the area south of the Wear and came under the Bishop of Durham, hence the name. We are not connected with the Minster.' },
       { q: 'When are Sunderland lessons scheduled?', a: 'Weekday afternoons and evenings or weekends, at a UK time agreed in the free lesson. India is four and a half hours ahead of Sunderland in summer and five and a half hours ahead in winter.' },
       { q: 'Is there a Modern Age Coders centre in Sunderland?', a: 'No. There is no Sunderland centre and we have no premises anywhere in the UK; all lessons are live online. Learners need a computer with sound and a dependable connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do Sunderland lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
-      { q: 'How are Sunderland groups formed?', a: 'By level, pace and goals rather than age or address, with five to ten learners at one stage. If no group suits the learner\'s schedule, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do Sunderland lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
+      { q: 'How are Sunderland groups formed?', a: 'By level, pace and goals rather than age or address, with fifteen to twenty learners at one stage. If no group suits the learner\'s schedule, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

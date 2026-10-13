@@ -199,7 +199,7 @@ module.exports = {
       { h3: 'Coast or hinterland', p: 'A learner in Maroochydore and another in the hinterland join the same lesson at the same moment from home.' },
       { h3: 'Queensland school terms', p: 'Lessons follow Queensland year levels, Year 7 to Year 12, and are always taught in English.' },
       { h3: 'Real work from minute one', p: 'The trial is an actual programming or AI task with a teacher, finishing with a suggested level, course and time. No payment details are taken.' },
-      { h3: 'Five to ten per group', p: 'Learners at the same stage from the coast, the rest of Australia and further away, so every level finds a workable slot.' },
+      { h3: 'Fifteen to twenty per group', p: 'Learners at the same stage from the coast, the rest of Australia and further away, so every level finds a workable slot.' },
       { h3: 'Twice a week', p: 'Around eight lessons a month in a fixed slot, with holidays and exam periods agreed ahead with the teacher.' },
       { h3: 'A constant gap to India', p: 'Queensland and India both keep one clock time all year, so the coast is always 4 hours 30 minutes ahead of our teachers.' }
     ],
@@ -210,7 +210,7 @@ module.exports = {
     h2: 'What AI and programming classes cost on the Sunshine Coast',
     intro: 'Three figures only.',
     first: 'A full first lesson without charge, ending with a level, a course and a time.',
-    group: 'A month of teaching, usually eight lessons, alongside five to ten learners at your stage.',
+    group: 'A month of teaching, usually eight lessons, alongside fifteen to twenty learners at your stage.',
     private: 'About eight lessons a month with a teacher all to yourself.',
     closer: 'Families outside India pay in US dollars at one rate, so a learner in Caloundra and one in Noosa pay exactly the same. Charges begin only after the trial, when the course and time are agreed; holidays, missed lessons and changes of format are explained on the pricing page.'
   },
@@ -235,8 +235,8 @@ module.exports = {
       { q: 'What time are lessons for Sunshine Coast learners?', a: 'Late afternoon, evening or weekend, agreed in the trial and stated in Sunshine Coast time, which stays 4 hours 30 minutes ahead of India time all year.' },
       { q: 'Do you teach younger children on the Sunshine Coast?', a: 'Yes, from age 6, beginning with Scratch and picture-based projects. This page focuses on secondary students and adults.' },
       { q: 'Is there a Modern Age Coders centre on the Sunshine Coast?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Sunshine Coast coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Sunshine Coast coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

@@ -16,7 +16,7 @@ Drumcondra, Dublin 9 / Live online
 
 Through 2015 Dublin City Council's sound monitor at Drumcondra Library logged the noise level every five minutes, 104,596 readings in all. Add them up and divide, and the year averages 53.43 decibels. The average that noise work actually uses comes out at 55.83. The gap is not rounding. Decibels sit on a logarithmic scale, where every extra 3 decibels means double the sound energy, so a loud five minutes counts for far more than its place in a list suggests. This page teaches a learner to average on the right scale and shows what the wrong one hides.
 
-Facts last verified 20 September 2026. Teaching is online; no Drumcondra branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Drumcondra branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four first courses for Drumcondra
 
@@ -149,7 +149,7 @@ Knowing the scale your numbers live on is half of data work. The code only does 
 The short version.
 
 - **Always live** A real teacher is present for every minute, reading and helping with each learner's code as they write it.
-- **Same stage together** Groups of five to ten at one stage, drawn from Drumcondra, the rest of Ireland and other countries.
+- **Same stage together** Groups of fifteen to twenty at one stage, drawn from Drumcondra, the rest of Ireland and other countries.
 - **A fixed pair of days** Lessons fall on the same two weekdays or weekend days, around eight a month.
 - **School calendar** Holiday weeks, mid-terms and exam time are part of the plan from the start.
 - **At home** A computer rather than a phone, a microphone, speakers or headphones, and broadband good enough for video.
@@ -162,7 +162,7 @@ The short version.
 Simply put.
 
 - First class: USD 0. An opening lesson at no cost, with a check of the learner's level.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, close to eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, close to eight live lessons.
 - Private tuition: USD 150 a month. A month of private lessons, same frequency.
 
 The fee is set in US dollars and is the same for every family outside India, paid a month at a time. Taking the free lesson commits you to nothing and payment only begins with the course; details on holidays, missed lessons and moving between group and private teaching are on the pricing page.
@@ -199,7 +199,7 @@ Not necessarily. We group by level, so the others may live anywhere in Ireland o
 
 ### What do coding classes in Drumcondra cost?
 
-The first lesson is free. After it, a group place costs USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are settled before any money changes hands.
+The first lesson is free. After it, a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are settled before any money changes hands.
 
 ### What size are the groups?
 

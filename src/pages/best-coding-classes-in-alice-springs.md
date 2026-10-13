@@ -16,7 +16,7 @@ Alice Springs, Northern Territory, Australia / Live online
 
 A sensor in Alice Springs has recorded the UV index every minute for years, and the national radiation agency publishes it openly: 525,021 readings for 2025 alone. Plot one day and you get a hill that rises after sunrise and falls in the afternoon. How big is that hill? Python can add up the area under it with trapezoids, one for each minute. Then comes the interesting question: how many readings could you throw away and still get the answer right? Our Alice Springs project finds out, and on the most changeable day the honest answer is far fewer than you would think.
 
-Facts last verified 9 October 2026. Teaching is online; no Alice Springs branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 October 2026. Teaching is online; no Alice Springs branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four ways into coding from Alice Springs
 
@@ -187,7 +187,7 @@ All our lessons are online, so where a learner lives in Alice Springs makes no d
 - **No travel at all** A teenager at home and an adult after work can join the same group from different parts of town, with nothing but a computer.
 - **Your year level** Lessons are planned around the learner's school year and pause for holidays. Older students can link projects to their computing and maths subjects.
 - **The first lesson** The trial is a full class with real code, after which you receive a recommended level, course and weekly time; no card is asked for.
-- **Groups by level** Five to ten learners working at the same stage, from Alice Springs and other places, so groups are always full enough to run.
+- **Groups by level** Fifteen to twenty learners working at the same stage, from Alice Springs and other places, so groups are always full enough to run.
 - **Two lessons weekly** Two set lessons each week, about eight a month, with holiday and exam breaks agreed in advance.
 - **Four hours apart** Alice Springs is four hours ahead of India all year, so a 5pm lesson in town starts at 1pm for our teachers.
 
@@ -198,7 +198,7 @@ All our lessons are online, so where a learner lives in Alice Springs makes no d
 All of it, in three items.
 
 - First class: USD 0. A complete first lesson at no cost, followed by a suggested level, course and time.
-- Group tuition: USD 100 a month. Approximately eight lessons a month, in a group of five to ten at one level.
+- Group tuition: USD 100 a month. Approximately eight lessons a month, in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. Approximately eight lessons a month with a teacher, one to one.
 
 Outside India we invoice in US dollars, so every Alice Springs family pays the same as families in any other Australian town and there is no local price list. Nothing is charged until the trial has settled a course and a time; the pricing page explains holidays, missed lessons and changing between formats.
@@ -239,11 +239,11 @@ No, and none is claimed. All lessons are live and online and we have no premises
 
 ### What do Alice Springs coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.
 
 ### How big are the groups?
 
-Five to ten learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.
+Fifteen to twenty learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.
 
 ## More for Alice Springs and Northern Territory learners
 

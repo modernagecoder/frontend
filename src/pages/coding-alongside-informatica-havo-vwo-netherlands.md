@@ -4,7 +4,7 @@ description: "Coding alongside informatica for havo and vwo pupils in the Nether
 canonical: https://learn.modernagecoders.com/coding-alongside-informatica-havo-vwo-netherlands
 source: src/pages/coding-alongside-informatica-havo-vwo-netherlands.html
 ---
-> Modern Age Coders teaches coding live online to havo and vwo pupils in the Netherlands who take informatica, or who would like to but cannot at their school. The classes run beside the school subject: Python written properly, algorithms and data structures, data and databases, and projects that can support a profielwerkstuk, taught by a specialist teacher in groups of five to ten at one level or one to one. We do not replace the school's informatica or its assessment. A trial lesson costs nothing. Continuing costs USD 100 a month in a group or USD 150 a month one to one.
+> Modern Age Coders teaches coding live online to havo and vwo pupils in the Netherlands who take informatica, or who would like to but cannot at their school. The classes run beside the school subject: Python written properly, algorithms and data structures, data and databases, and projects that can support a profielwerkstuk, taught by a specialist teacher in groups of fifteen to twenty at one level or one to one. We do not replace the school's informatica or its assessment. A trial lesson costs nothing. Continuing costs USD 100 a month in a group or USD 150 a month one to one.
 
 [Home](/) / [Courses](/courses) / [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands) / Alongside informatica
 
@@ -160,7 +160,7 @@ Teachers work from India, where the clock stays the same all year, while the Net
 - **Weekend** Saturday or Sunday, useful in the profielwerkstuk year.
 
 - **A free first lesson** The pupil writes code with a specialist teacher, who sees how far they are beyond, or behind, the school programme.
-- **Groups of five to ten** Pupils at the same level from several countries, many of them also taking a school computing subject.
+- **Groups of fifteen to twenty** Pupils at the same level from several countries, many of them also taking a school computing subject.
 - **One to one for projects** For a profielwerkstuk, an exam year or a pupil who prefers a teacher to themselves.
 - **Families in the loop** Nothing is arranged without a parent on the call, and parents hear what the pupil is building as the months go by.
 - **In English, with Dutch school terms** Lessons are in English; informatica, profielwerkstuk and toetsweek are used as pupils use them.
@@ -171,7 +171,7 @@ Teachers work from India, where the clock stays the same all year, while the Net
 Charged each month in US dollars, at one rate for every country outside India. There is nothing to pay to register and no year-long commitment.
 
 - Free first class: USD 0. A real lesson with a specialist. Places the pupil at the right rung. No card needed.
-- Group batch: USD 100 a month. Five to ten pupils at one level. The same live teacher each week. Code reviewed every week. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty pupils at one level. The same live teacher each week. Code reviewed every week. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one pupil. Paced to the school year. Best for the profielwerkstuk year.
 
 ## What informatica pupils and their parents ask

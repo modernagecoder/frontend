@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Brent, from W
 canonical: https://learn.modernagecoders.com/coding-classes-in-brent-london
 source: src/pages/coding-classes-in-brent-london.html
 ---
-> Brent is the north-west London borough of Wembley, Kingsbury, Harlesden, Willesden and Kilburn, where the 2021 Census counted 339,816 residents, Brent Council keeps six public libraries open, and Wembley Park is served by both the Jubilee and the Metropolitan line. A class worth your family's time here should leave a learner able to test a result instead of trusting it, which is the thread of this page: a program that draws Brent's contour lines from a grid of heights, and then measures how far its lines stray from the ones Ordnance Survey publishes. We teach live on video from India, one to one or in groups of five to ten at the same level, for anyone from 6 to 67. You pay nothing for the first lesson; staying on costs USD 100 each month for a group place, or USD 150 each month for teaching on your own.
+> Brent is the north-west London borough of Wembley, Kingsbury, Harlesden, Willesden and Kilburn, where the 2021 Census counted 339,816 residents, Brent Council keeps six public libraries open, and Wembley Park is served by both the Jubilee and the Metropolitan line. A class worth your family's time here should leave a learner able to test a result instead of trusting it, which is the thread of this page: a program that draws Brent's contour lines from a grid of heights, and then measures how far its lines stray from the ones Ordnance Survey publishes. We teach live on video from India, one to one or in groups of fifteen to twenty at the same level, for anyone from 6 to 67. You pay nothing for the first lesson; staying on costs USD 100 each month for a group place, or USD 150 each month for teaching on your own.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Brent
 
@@ -12,11 +12,11 @@ London Borough of Brent / Live online
 
 # Coding classes in Brent
 
-**What are the best coding classes in Brent?** Brent is the north-west London borough of Wembley, Kingsbury, Harlesden, Willesden and Kilburn, where the 2021 Census counted 339,816 residents, Brent Council keeps six public libraries open, and Wembley Park is served by both the Jubilee and the Metropolitan line. A class worth your family's time here should leave a learner able to test a result instead of trusting it, which is the thread of this page: a program that draws Brent's contour lines from a grid of heights, and then measures how far its lines stray from the ones Ordnance Survey publishes. We teach live on video from India, one to one or in groups of five to ten at the same level, for anyone from 6 to 67. You pay nothing for the first lesson; staying on costs USD 100 each month for a group place, or USD 150 each month for teaching on your own.
+**What are the best coding classes in Brent?** Brent is the north-west London borough of Wembley, Kingsbury, Harlesden, Willesden and Kilburn, where the 2021 Census counted 339,816 residents, Brent Council keeps six public libraries open, and Wembley Park is served by both the Jubilee and the Metropolitan line. A class worth your family's time here should leave a learner able to test a result instead of trusting it, which is the thread of this page: a program that draws Brent's contour lines from a grid of heights, and then measures how far its lines stray from the ones Ordnance Survey publishes. We teach live on video from India, one to one or in groups of fifteen to twenty at the same level, for anyone from 6 to 67. You pay nothing for the first lesson; staying on costs USD 100 each month for a group place, or USD 150 each month for teaching on your own.
 
 A map shows Barn Hill as a set of rings, but nobody walked those rings. Ordnance Survey publishes Brent's ground as a grid of heights, one number every 50 metres, and a contour line is what you get when a program guesses where the ground crosses 30 m, 40 m or 80 m between those numbers. We wrote that program, the one called marching squares, traced Brent's contours ourselves and laid them over the lines OS draws. On the steep slopes around Kingsbury and Barn Hill our lines sit a few metres from theirs. Down on the low, flat ground near the River Brent they wander by tens of metres, and in places by more than 80. Same method, same data, very different confidence. That difference, and knowing where to expect it, is what this page teaches.
 
-Facts last verified 25 September 2026. Teaching is online; no Brent branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Brent branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for Brent learners
 
@@ -174,7 +174,7 @@ The whole borough is exactly as close to an online lesson as your nearest desk.
 - **At home or at the library** Most learners join from home; on a busy evening a quiet library table with a headset works too.
 - **English school stages** Key Stage 1 to Key Stage 5, Year 9 options, GCSEs and A levels are used as English schools use them, and all teaching is in English.
 - **A real lesson first** The free first lesson is proper work with a teacher and ends with a clear recommendation of level and course. No card details are asked for.
-- **Groups by level** Five to ten learners at the same stage, from Brent and from further away, so a group can meet at a workable hour.
+- **Groups by level** Fifteen to twenty learners at the same stage, from Brent and from further away, so a group can meet at a workable hour.
 - **Fitted around term dates** Most groups meet twice a week, and families agree breaks for half terms, holidays and exam revision with the teacher.
 - **UK times on every booking** Teachers in India start their evenings while Brent is still at school or work, so the calendar does the converting: whatever the season, the time you book and see is UK time.
 
@@ -185,7 +185,7 @@ The whole borough is exactly as close to an online lesson as your nearest desk.
 One set of fees for the whole borough: the first lesson free, then a monthly fee.
 
 - First class: USD 0. A full working lesson at no cost, ending with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. Around eight live lessons a month in a class of five to ten learners at the same stage.
+- Group tuition: USD 100 a month. Around eight live lessons a month in a class of fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. Around eight live lessons a month with one teacher and your learner alone.
 
 Whether you are in Wembley or Willesden, you are billed in US dollars, as every family outside India is, and the site shows no pound prices. Nothing is payable until the free lesson is over and a course and regular slot are agreed; our pricing page covers pausing, missed lessons and moving between group and private teaching.
@@ -226,11 +226,11 @@ No. We have no Brent centre and no premises anywhere in the UK, because every le
 
 ### What do coding classes in Brent cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How big are the groups?
 
-Five to ten learners, matched by level, pace and aims rather than by age or neighbourhood. If no group at the right level meets at a workable time, one-to-one lessons are the alternative.
+Fifteen to twenty learners, matched by level, pace and aims rather than by age or neighbourhood. If no group at the right level meets at a workable time, one-to-one lessons are the alternative.
 
 ## Beyond Brent: other boroughs and other nations
 

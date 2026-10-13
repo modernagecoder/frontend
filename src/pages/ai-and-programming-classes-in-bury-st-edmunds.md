@@ -4,7 +4,7 @@ description: "AI, programming and Python classes live online for Bury St Edmunds
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-bury-st-edmunds
 source: src/pages/ai-and-programming-classes-in-bury-st-edmunds.html
 ---
-> The ONS counted 41,280 usual residents in the Bury St Edmunds built-up area in 2021, and 179,948 across the West Suffolk district. The town's council wards include Moreton Hall, Tollgate, Minden, Abbeygate, Westgate, St Olaves, Southgate and Eastgate. Our India-based tutors teach AI, programming, Python, vibe coding and maths over live video to anyone from six to 67 in the town, either alone or alongside five to ten classmates working at the same level. For Bury St Edmunds we built a project around a question at the heart of every recommendation engine: if some numbers in a table are missing, can a model guess them from the rest? Learners hide census cells, fit a low-rank model and find out when extra flexibility starts to hurt. A trial lesson is free; group lessons then cost USD 100 a month and one-to-one lessons USD 150 a month.
+> The ONS counted 41,280 usual residents in the Bury St Edmunds built-up area in 2021, and 179,948 across the West Suffolk district. The town's council wards include Moreton Hall, Tollgate, Minden, Abbeygate, Westgate, St Olaves, Southgate and Eastgate. Our India-based tutors teach AI, programming, Python, vibe coding and maths over live video to anyone from six to 67 in the town, either alone or alongside fifteen to twenty classmates working at the same level. For Bury St Edmunds we built a project around a question at the heart of every recommendation engine: if some numbers in a table are missing, can a model guess them from the rest? Learners hide census cells, fit a low-rank model and find out when extra flexibility starts to hurt. A trial lesson is free; group lessons then cost USD 100 a month and one-to-one lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East of England](/coding-and-ai-classes-in-east-of-england) / Bury St Edmunds
 
@@ -12,11 +12,11 @@ Bury St Edmunds, West Suffolk, Suffolk / Live online
 
 # AI and programming classes in Bury St Edmunds
 
-**Where can Bury St Edmunds learners find the best AI and programming classes?** The ONS counted 41,280 usual residents in the Bury St Edmunds built-up area in 2021, and 179,948 across the West Suffolk district. The town's council wards include Moreton Hall, Tollgate, Minden, Abbeygate, Westgate, St Olaves, Southgate and Eastgate. Our India-based tutors teach AI, programming, Python, vibe coding and maths over live video to anyone from six to 67 in the town, either alone or alongside five to ten classmates working at the same level. For Bury St Edmunds we built a project around a question at the heart of every recommendation engine: if some numbers in a table are missing, can a model guess them from the rest? Learners hide census cells, fit a low-rank model and find out when extra flexibility starts to hurt. A trial lesson is free; group lessons then cost USD 100 a month and one-to-one lessons USD 150 a month.
+**Where can Bury St Edmunds learners find the best AI and programming classes?** The ONS counted 41,280 usual residents in the Bury St Edmunds built-up area in 2021, and 179,948 across the West Suffolk district. The town's council wards include Moreton Hall, Tollgate, Minden, Abbeygate, Westgate, St Olaves, Southgate and Eastgate. Our India-based tutors teach AI, programming, Python, vibe coding and maths over live video to anyone from six to 67 in the town, either alone or alongside fifteen to twenty classmates working at the same level. For Bury St Edmunds we built a project around a question at the heart of every recommendation engine: if some numbers in a table are missing, can a model guess them from the rest? Learners hide census cells, fit a low-rank model and find out when extra flexibility starts to hurt. A trial lesson is free; group lessons then cost USD 100 a month and one-to-one lessons USD 150 a month.
 
 A streaming service knows what you have watched but not what you would think of the thousands of films you have not. Filling in those blanks is called matrix completion, and the classic trick is to assume the whole table can be rebuilt from a few hidden patterns. Bury St Edmunds learners test that assumption on something they can check: how people in each of the town's 141 census areas travel to work. They hide a fifth of the numbers, ask the model to fill them in, and then compare its guesses with the truth.
 
-Facts last verified 30 September 2026. Teaching is online; no Bury St Edmunds branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Bury St Edmunds branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI and programming courses for Bury St Edmunds
 
@@ -135,7 +135,7 @@ Learners join from home using a laptop or desktop with a webcam. Reliability of 
 - **The learner drives** Our tutors question and nudge; learners write, run and debug the code themselves.
 - **Level first, course second** We recommend a course only after the free lesson has shown what the learner can already do.
 - **A real lesson, free** The trial is a full session with no charge and no card requested.
-- **Matched groups** Five to ten learners at one level, drawn from towns across the UK.
+- **Matched groups** Fifteen to twenty learners at one level, drawn from towns across the UK.
 - **Term-time rhythm** Two lessons a week; tell us your Suffolk holiday dates and we pause for them.
 - **Clock changes absorbed** The lesson keeps its UK time through March and October; the tutor adjusts instead.
 

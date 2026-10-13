@@ -171,7 +171,7 @@ module.exports = {
     intro: 'The practical arrangements.',
     cells: [
       { h3: 'Live teacher', p: 'A teacher runs each lesson as it happens and answers the learner\'s code, not a script.' },
-      { h3: 'Grouped by stage', p: 'Five to ten learners at the same level, from North Cork, the rest of Ireland and overseas.' },
+      { h3: 'Grouped by stage', p: 'Fifteen to twenty learners at the same level, from North Cork, the rest of Ireland and overseas.' },
       { h3: 'Most weeks, twice', p: 'Around eight lessons a month, on days and at hours fixed at the start.' },
       { h3: 'School terms in mind', p: 'Holidays, mid-terms and exam weeks are part of the plan from day one.' },
       { h3: 'Hardware', p: 'A laptop or desktop with a real keyboard, a headset or working speakers and microphone, and a line that holds a video call for the length of a lesson.' },
@@ -184,7 +184,7 @@ module.exports = {
     h2: 'Fees for Mallow',
     intro: 'The whole list.',
     first: 'A full first lesson including a level assessment, at no charge.',
-    group: 'A month in a group of five to ten at one stage, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one stage, about eight live lessons.',
     private: 'A month of one-to-one teaching at the same weekly pace.',
     closer: 'The price is per month, in US dollars, and does not change with the family\'s country as long as it is not India. The free lesson carries no commitment, the first invoice comes with the first month of the course itself, and holidays, missed lessons and a switch between group and private teaching are all dealt with on the pricing page.'
   },
@@ -209,7 +209,7 @@ module.exports = {
       { q: 'Is there an upper age limit?', a: 'Sixty-seven, and learners join from complete beginners upwards. After that first lesson, an adult either joins a group working at their level or carries on with a private teacher.' },
       { q: 'Will a Mallow learner be with other Mallow learners?', a: 'Sometimes, but not by design. Groups are built by level, so the others in a lesson may be in Cork, elsewhere in Ireland or abroad.' },
       { q: 'Is there a Modern Age Coders classroom in Mallow?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Mallow cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Mallow cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

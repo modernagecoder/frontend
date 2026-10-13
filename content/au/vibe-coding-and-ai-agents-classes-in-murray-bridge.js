@@ -190,7 +190,7 @@ module.exports = {
       { h3: 'At your desk', p: 'Learners join from home with a computer, a headset and a dependable connection.' },
       { h3: 'South Australian levels', p: 'Teachers plan around South Australian year levels, and all teaching is in English.' },
       { h3: 'Trial lesson', p: 'The free first lesson is a full class that ends with a recommended course and a weekly slot.' },
-      { h3: 'Groups by level', p: 'Each group has five to ten learners at the same stage, from the Murraylands and beyond.' },
+      { h3: 'Groups by level', p: 'Each group has fifteen to twenty learners at the same stage, from the Murraylands and beyond.' },
       { h3: 'Two lessons a week', p: 'Group learners meet twice weekly on set days, about eight lessons a month.' },
       { h3: 'Where teachers are', p: 'Our teaching team is based in India, and every booking is written in Murray Bridge time.' }
     ],
@@ -201,7 +201,7 @@ module.exports = {
     h2: 'Murray Bridge class fees',
     intro: 'Pricing is short and identical across Australia.',
     first: 'The first lesson costs nothing and ends with a suggested level, course and weekly time.',
-    group: 'A month of group classes, around eight, with five to ten learners matched by level.',
+    group: 'A month of group classes, around eight, with fifteen to twenty learners matched by level.',
     private: 'About eight private lessons a month with one teacher.',
     closer: 'We bill in US dollars outside India, and Murray Bridge pays the same as any Australian town. Charges begin only once the trial has fixed what and when you study, and the pricing page explains holidays, absences and moving between group and private.'
   },
@@ -226,7 +226,7 @@ module.exports = {
       { q: 'When do Murray Bridge lessons run?', a: 'Weekday after-school times and Saturday mornings are popular, always quoted in Murray Bridge time.' },
       { q: 'Can younger children start?', a: 'Yes. Children from six begin with Scratch and simple games; the agent team project is for teenagers and adults.' },
       { q: 'Do you have a centre in Murray Bridge?', a: 'No. We run no premises in Australia and claim none. Every class is live online, learners need a computer and a reliable connection, and our listed phone number is in India.', boiler: true },
-      { q: 'What do Murray Bridge classes cost?', a: 'Your first lesson is free. Then a group place costs USD 100 a month for two live lessons a week, roughly eight a month, with five to ten learners, or USD 150 a month one-to-one. Nothing is charged until the details are agreed.', boiler: true },
+      { q: 'What do Murray Bridge classes cost?', a: 'Your first lesson is free. Then a group place costs USD 100 a month for two live lessons a week, roughly eight a month, with fifteen to twenty learners, or USD 150 a month one-to-one. Nothing is charged until the details are agreed.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Between five and ten, grouped by level and aims rather than age or suburb. If no group time works, one-to-one lessons are available.', boiler: true }
     ]
   },

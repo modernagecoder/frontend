@@ -64,7 +64,7 @@ module.exports = {
 
   h1: 'Coding classes in Salisbury',
   capsuleQ: 'What are the best coding classes in Salisbury?',
-  capsule: 'Wiltshire, the council area that includes Salisbury, had 510,333 usual residents at the 2021 census, at 156.8 people per square kilometre against 433.5 for England. Salisbury Cathedral says its Magna Carta is one of only four surviving original documents from 1215, delivered to the first cathedral at Old Sarum. We teach Salisbury learners aged six to sixty-seven from India in live video lessons, one to one or in a group of five to ten at the same level, at times that fit the UK day. The first lesson is free; after that a group place costs USD 100 a month and one-to-one teaching USD 150.',
+  capsule: 'Wiltshire, the council area that includes Salisbury, had 510,333 usual residents at the 2021 census, at 156.8 people per square kilometre against 433.5 for England. Salisbury Cathedral says its Magna Carta is one of only four surviving original documents from 1215, delivered to the first cathedral at Old Sarum. We teach Salisbury learners aged six to sixty-seven from India in live video lessons, one to one or in a group of fifteen to twenty at the same level, at times that fit the UK day. The first lesson is free; after that a group place costs USD 100 a month and one-to-one teaching USD 150.',
   lead: 'Magna Carta runs to 4,871 words in the Avalon Project\'s English translation. How does a computer find one sentence in it quickly? Our teenagers build Rabin-Karp search, which gives every stretch of text a number, a hash, and slides that number along one letter at a time instead of recalculating it. To find Clause 40, "to no one will we sell", the rolling hash does about 54,000 small steps where recalculating every window would take over two million. Then comes the twist. Salisbury Cathedral quotes the same clause as "to no one deny or delay", a different translation, and exact search finds nothing at all. Measuring overlapping three-word pieces shows the two versions share 9 of 12.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Salisbury.',
 
@@ -191,7 +191,7 @@ module.exports = {
       { h3: 'City and villages together', p: 'A learner in Churchfields and another in Wilton can take the same class with no drive into the city centre.' },
       { h3: 'English school stages', p: 'Lessons follow the stages Wiltshire schools use, from Reception and Key Stages 1 to 4 to GCSE and A level, taught in English.' },
       { h3: 'A real first lesson', p: 'The free session is a proper lesson on a real task, ending with a suggested level, course and weekly slot. No card is asked for.' },
-      { h3: 'Classes by stage', p: 'Five to ten learners at one level, from Salisbury, the rest of the UK and abroad, so every stage has workable times.' },
+      { h3: 'Classes by stage', p: 'Fifteen to twenty learners at one level, from Salisbury, the rest of the UK and abroad, so every stage has workable times.' },
       { h3: 'Twice a week', p: 'Two regular lessons each week, about eight a month, with holidays and exam weeks agreed with the teacher in advance.' },
       { h3: 'After school here, evening there', p: 'A 4 pm lesson in Salisbury begins at 8.30 pm in India in British Summer Time and 9.30 pm in winter, as India keeps a single time all year; our teachers work evenings for UK learners.' }
     ],
@@ -202,7 +202,7 @@ module.exports = {
     h2: 'Salisbury lesson fees',
     intro: 'A free lesson to begin, then one fee each month.',
     first: 'A complete lesson free of charge, ending with advice on level, course and a weekly time.',
-    group: 'About eight live lessons a month in a group of five to ten learners at one stage.',
+    group: 'About eight live lessons a month in a group of fifteen to twenty learners at one stage.',
     private: 'About eight live lessons a month, with your learner having the teacher to themselves.',
     closer: 'A family in Milford or Churchfields pays in US dollars, like every family outside India, and there are no pound prices anywhere on our site. The free lesson always comes first, and charges start only when the course and weekly time are agreed; the pricing page covers pausing, missed lessons and moving between group and private teaching.'
   },
@@ -227,8 +227,8 @@ module.exports = {
       { q: 'Why does Salisbury have a Magna Carta?', a: 'Salisbury Cathedral says its copy is one of only four surviving originals from 1215 and was delivered to the first cathedral at Old Sarum, probably by Elias Dereham. We are not connected with the cathedral.' },
       { q: 'When are Salisbury lessons held?', a: 'On weekday afternoons, weekday evenings or at weekends, at a UK time chosen together in the free lesson. India runs four and a half hours ahead of Salisbury in summer and five and a half hours ahead in winter.' },
       { q: 'Do you have premises in Salisbury?', a: 'No. There is no Salisbury centre and we have no UK premises, because every lesson is live online. A learner needs a computer with sound and a steady connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much are lessons for a Salisbury learner?', a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one teaching on the same pattern is USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are learners matched into groups?', a: 'By level, pace and goals rather than age or location, with five to ten learners at the same stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much are lessons for a Salisbury learner?', a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one teaching on the same pattern is USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are learners matched into groups?', a: 'By level, pace and goals rather than age or location, with fifteen to twenty learners at the same stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

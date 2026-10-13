@@ -16,7 +16,7 @@ One entry point and two next rungs, so the ladder does not end when the first co
 
 The short answer
 
-Vibe coding for teens works when it is structured and stalls when it is not. From 13, with parental consent, the mainstream AI tools become available to teenagers under the providers' own terms, and a teen directing them can ship a real web app in a fortnight. Modern Age Coders teaches this in live batches of five to eight on a two-track week: one session building with the model, build work between sessions strengthening the fundamentals without it, so the student can read and fix whatever the model writes. Twelve weeks takes a beginner from first prompt to a chosen project demoed to the batch. Group classes are USD 100 a month, one to one is USD 150, first class free.
+Vibe coding for teens works when it is structured and stalls when it is not. From 13, with parental consent, the mainstream AI tools become available to teenagers under the providers' own terms, and a teen directing them can ship a real web app in a fortnight. Modern Age Coders teaches this in live batches of fifteen to twenty on a two-track week: one session building with the model, build work between sessions strengthening the fundamentals without it, so the student can read and fix whatever the model writes. Twelve weeks takes a beginner from first prompt to a chosen project demoed to the batch. Group classes are USD 100 a month, one to one is USD 150, first class free.
 
 Why 13 matters
 
@@ -205,7 +205,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, same teacher every week
+- Fifteen to twenty students, same teacher every week
 - Live video, never a recording
 - Build work between sessions, reviewed by the teacher
 - Certificate on completion
@@ -316,7 +316,7 @@ Two separate things, and we keep them separate on purpose: enrolment with us, an
 
 ### Are the classes group or private, and which suits a teenager?
 
-Both exist. Groups of five to eight suit most teens because watching a peer get unstuck teaches almost as much as getting unstuck yourself, and the demo day at the end of term matters more with an audience. One to one suits a teen chasing a specific deadline, one who is far ahead, or one who goes quiet in groups. The free class usually settles which is right.
+Both exist. Groups of fifteen to twenty suit most teens because watching a peer get unstuck teaches almost as much as getting unstuck yourself, and the demo day at the end of term matters more with an audience. One to one suits a teen chasing a specific deadline, one who is far ahead, or one who goes quiet in groups. The free class usually settles which is right.
 
 ### How many hours a week does it take?
 

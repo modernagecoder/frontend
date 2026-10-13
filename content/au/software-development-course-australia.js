@@ -599,7 +599,7 @@ module.exports = {
       },
       {
         "h3": "Small groups",
-        "p": "Five to ten learners reviewing each other's code."
+        "p": "Fifteen to twenty learners reviewing each other's code."
       },
       {
         "h3": "One to one",
@@ -631,7 +631,7 @@ module.exports = {
       "No card details needed"
     ],
     "group": [
-      "Five to ten learners at a similar stage",
+      "Fifteen to twenty learners at a similar stage",
       "Peer code review every week",
       "One regular teacher",
       "Stop after any month"

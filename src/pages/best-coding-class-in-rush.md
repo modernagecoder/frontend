@@ -16,7 +16,7 @@ Rush, Fingal, County Dublin / Live online
 
 In Rush, 526 of the 7,744 residents who described their journey to work, school or college go by train. That suggests a simple rule for any town: if enough people take the train, it probably has a station. The rule is easy to write. Checking it properly is the real exercise, and it is the same check every machine-learning model has to pass. The learner scores the rule against Irish Rail's own list of 171 stations for 89 towns, counts the hits and both kinds of miss, and discovers that the usual score, accuracy, can be beaten by a rule that says every town has a station. Along the way the answer key turns out to need checking too: the station that serves Rush is called Rush and Lusk, and its address is in Lusk.
 
-Facts last verified 19 September 2026. Teaching is online; no Rush branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Rush branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses for Rush learners
 
@@ -172,7 +172,7 @@ Models are easy to build now. Scoring them honestly, labels included, is the ski
 In practice.
 
 - **Live, every lesson** A teacher runs each lesson in real time and works from the learner's own code.
-- **Groups at one level** Five to ten learners who have reached the same point in the course, from Fingal, the rest of Ireland and abroad.
+- **Groups at one level** Fifteen to twenty learners who have reached the same point in the course, from Fingal, the rest of Ireland and abroad.
 - **Twice a week, mostly** Around eight lessons a month, on days and at hours fixed before the course starts.
 - **Built round the school year** Breaks, holidays and exam weeks are planned in from the outset.
 - **Equipment** A laptop or desktop with a keyboard, sound in both directions, and a broadband line that copes with live video.
@@ -185,7 +185,7 @@ In practice.
 The complete list.
 
 - First class: USD 0. A full first lesson with the level assessed, free.
-- Group tuition: USD 100 a month. A month in a group of five to ten at the same level, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at the same level, about eight live lessons.
 - Private tuition: USD 150 a month. A month of private lessons at the same weekly frequency.
 
 One monthly price in US dollars applies to every family outside India. The free first lesson carries no charge, fees begin when the course does, and the pricing page covers holidays, missed lessons and switching between a group and private lessons.
@@ -226,7 +226,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Rush cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

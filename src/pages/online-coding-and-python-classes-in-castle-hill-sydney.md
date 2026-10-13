@@ -16,7 +16,7 @@ Castle Hill, north-west Sydney / Live online
 
 Write a Python dictionary that maps every NSW government school suburb to its council, and Castle Hill gets a single answer: The Hills. Four of its five public schools agree. Oakhill Drive Public School does not; the department lists it under Hornsby. Across the state, with suburb spellings tidied, the same shortcut mislabels 33 schools, and the program never complains. Flip the mapping round with defaultdict(set) and every suburb that belongs to two councils announces itself.
 
-Facts last verified 10 October 2026. Teaching is online; no Castle Hill branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Castle Hill branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python courses built around real data
 
@@ -186,7 +186,7 @@ The Hills Shire side or the Hornsby side, every Castle Hill learner joins the sa
 - **Real-time teaching** A teacher on video follows the learner's screen and corrects mistakes the moment they appear.
 - **Built around NSW** Lessons use NSW stage and syllabus language, and stop for state school holidays.
 - **Free trial** The opening lesson is a full class at no charge, ending with a suggested course, level and time.
-- **Same-level groups** Groups of five to ten learners of similar ability, or individual lessons where preferred.
+- **Same-level groups** Groups of fifteen to twenty learners of similar ability, or individual lessons where preferred.
 - **Regular schedule** Two lessons a week at fixed times, roughly eight a month, with breaks planned ahead.
 - **Teachers in India** A 4:15pm Castle Hill lesson in summer is 10:45am India time, and 11:45am once Sydney leaves daylight saving.
 
@@ -197,7 +197,7 @@ The Hills Shire side or the Hornsby side, every Castle Hill learner joins the sa
 Straightforward prices, identical for every course.
 
 - First class: USD 0. One whole lesson free, with a course and timetable suggested at the end.
-- Group tuition: USD 100 a month. Two weekly lessons for a month, about eight, with five to ten learners at one level.
+- Group tuition: USD 100 a month. Two weekly lessons for a month, about eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. One-to-one teaching at the same rhythm, around eight lessons a month.
 
 Outside India we invoice in US dollars, so Castle Hill households on either side of the council line pay the same. Payment starts only after the trial agrees a course and time; the pricing page sets out breaks, missed lessons and format changes.
@@ -238,11 +238,11 @@ No. We teach only online and have no premises in Australia, including Castle Hil
 
 ### What do online coding classes cost for Castle Hill learners?
 
-The first lesson is free. Group classes are USD 100 a month for two live lessons a week, about eight each month, with five to ten learners; one-to-one costs USD 150 a month on the same plan. No payment is taken until the course and time are agreed.
+The first lesson is free. Group classes are USD 100 a month for two live lessons a week, about eight each month, with fifteen to twenty learners; one-to-one costs USD 150 a month on the same plan. No payment is taken until the course and time are agreed.
 
 ### How large are the groups?
 
-Five to ten learners, grouped by level and goals rather than age. If no group fits the learner's availability, one-to-one lessons are offered.
+Fifteen to twenty learners, grouped by level and goals rather than age. If no group fits the learner's availability, one-to-one lessons are offered.
 
 ## More for Castle Hill learners
 

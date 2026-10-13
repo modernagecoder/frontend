@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Emmen for ages 6 to 6
 canonical: https://learn.modernagecoders.com/coding-classes-in-emmen
 source: src/pages/coding-classes-in-emmen.html
 ---
-> Coding classes in Emmen reach 109,881 people (Statistics Netherlands, 1 January 2026) spread across 346.26 square kilometres of former peat colony at 327 residents to the square kilometre, in 50,573 households of which 18,480 hold one person. The zoo on the edge of town drew 1.3 million visitors in its openingsjaar and 951,000 in 2024, and calling that a 27 percent collapse measures eight ordinary years against one that was never ordinary. Modern Age Coders teaches live online in English from Roswinkel down to Nieuw-Schoonebeek, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Emmen reach 109,881 people (Statistics Netherlands, 1 January 2026) spread across 346.26 square kilometres of former peat colony at 327 residents to the square kilometre, in 50,573 households of which 18,480 hold one person. The zoo on the edge of town drew 1.3 million visitors in its openingsjaar and 951,000 in 2024, and calling that a 27 percent collapse measures eight ordinary years against one that was never ordinary. Modern Age Coders teaches live online in English from Roswinkel down to Nieuw-Schoonebeek, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Emmen
 
@@ -12,11 +12,11 @@ Emmen, Drenthe / Live online
 
 # Coding classes in Emmen, where the zoo drew 1.3 million in its opening year and that is the one year nothing should be measured against
 
-**What are the best coding classes in Emmen?** Coding classes in Emmen reach 109,881 people (Statistics Netherlands, 1 January 2026) spread across 346.26 square kilometres of former peat colony at 327 residents to the square kilometre, in 50,573 households of which 18,480 hold one person. The zoo on the edge of town drew 1.3 million visitors in its openingsjaar and 951,000 in 2024, and calling that a 27 percent collapse measures eight ordinary years against one that was never ordinary. Modern Age Coders teaches live online in English from Roswinkel down to Nieuw-Schoonebeek, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Emmen?** Coding classes in Emmen reach 109,881 people (Statistics Netherlands, 1 January 2026) spread across 346.26 square kilometres of former peat colony at 327 residents to the square kilometre, in 50,573 households of which 18,480 hold one person. The zoo on the edge of town drew 1.3 million visitors in its openingsjaar and 951,000 in 2024, and calling that a 27 percent collapse measures eight ordinary years against one that was never ordinary. Modern Age Coders teaches live online in English from Roswinkel down to Nieuw-Schoonebeek, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 A zoo opened on the edge of Emmen in 2016 and 1.3 million people walked through it. In 2024, 951,000 did. Put those two figures side by side and you have a fall of 27 percent and a story about a park in trouble. Put 2024 next to 2018 instead and you have a rise of 12 percent and a story about recovery. Nothing about the zoo changed between those two readings. Only the year on the left changed. An opening year measures curiosity about something new, and the first number in any series is the one that deserves the least trust.
 
-Facts last verified 8 September 2026. Teaching is online; no Emmen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 8 September 2026. Teaching is online; no Emmen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a municipality with sixteen villages in it
 
@@ -204,14 +204,14 @@ From Roswinkel in the north to Nieuw-Schoonebeek on the border is a real journey
 - **Twice a week, on the regio Noord calendar** Two live lessons a week at a repeating slot, normally eight in a month. Drenthe takes its school holidays with regio Noord, and the weeks a family is away are built into the plan before the plan is agreed.
 - **Three and a half hours in summer, four and a half in winter** The Dutch clock moves and the Indian one does not, so the gap to the teacher depends on the month. The end of the school day, the early evening and both weekend days work at either setting.
 
-**A municipality where the pensioners and the under twenty-fives are the same size** 27,388 residents are sixty-five or over and 27,412 are under twenty-five, a difference of twenty-four people in a municipality of 109,881. Emmen is not short of children; it is short of the density that lets a school or a club fill a specialist group from one village. A group of five to ten assembled on ability from across the world solves exactly that problem, and the same class runs up to the age of sixty-seven for the other cohort.
+**A municipality where the pensioners and the under twenty-fives are the same size** 27,388 residents are sixty-five or over and 27,412 are under twenty-five, a difference of twenty-four people in a municipality of 109,881. Emmen is not short of children; it is short of the density that lets a school or a club fill a specialist group from one village. A group of fifteen to twenty assembled on ability from across the world solves exactly that problem, and the same class runs up to the age of sixty-seven for the other cohort.
 
 ## The fee, in dollars, the same in all sixteen villages
 
 Printed here rather than saved for a phone call.
 
 - First class: USD 0. A full lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate applies and it is quoted in dollars; no euro price exists, so Roswinkel and the centre of Emmen see the identical figure. Nothing is charged until the free lesson has fixed a course and an hour, and payment is then arranged over WhatsApp. Pausing, changing plan and missing a week are all set out on the pricing page.
@@ -252,11 +252,11 @@ There is not, and none is claimed in Emmen, in Klazienaveen or anywhere else in 
 
 ### What do Emmen coding classes cost?
 
-The first lesson costs nothing. After it, group tuition is USD 100 a month for two live lessons every week, normally eight across the month, in a group of five to ten. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. The course, the format, the recurring hour and availability are all confirmed before any payment is made.
+The first lesson costs nothing. After it, group tuition is USD 100 a month for two live lessons every week, normally eight across the month, in a group of fifteen to twenty. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. The course, the format, the recurring hour and availability are all confirmed before any payment is made.
 
 ### How large is a group?
 
-Five to ten learners, matched on level, pace and goal rather than on age, school or village. One-to-one means exactly that, a single learner with a single teacher. When no group at the right level happens to be running, a family can take one-to-one lessons or wait for the next group to fill.
+Fifteen to twenty learners, matched on level, pace and goal rather than on age, school or village. One-to-one means exactly that, a single learner with a single teacher. When no group at the right level happens to be running, a family can take one-to-one lessons or wait for the next group to fill.
 
 ## West across the peat, north up the Hondsrug, and up to the country
 

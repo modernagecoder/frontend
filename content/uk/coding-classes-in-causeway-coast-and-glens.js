@@ -62,7 +62,7 @@ module.exports = {
 
   h1: 'Coding classes in Causeway Coast and Glens',
   capsuleQ: 'What are the best coding classes in Causeway Coast and Glens?',
-  capsule: 'NISRA counted 141,746 usual residents in Causeway Coast and Glens at the 2021 census. Coleraine is the largest settlement, followed by Limavady and Ballymoney, with Portstewart, Portrush, Ballycastle, Dungiven, Ballykelly and Kilrea among the rest. We teach every class live by video, from India. Coding, Python and maths are open to anyone between 6 and 67, taught solo or in a same-level class of five to ten. One free lesson finds the right starting point. The district project begins on the runways at Ballykelly. After the free lesson, a group place costs USD 100 a month and one-to-one tuition USD 150 a month.',
+  capsule: 'NISRA counted 141,746 usual residents in Causeway Coast and Glens at the 2021 census. Coleraine is the largest settlement, followed by Limavady and Ballymoney, with Portstewart, Portrush, Ballycastle, Dungiven, Ballykelly and Kilrea among the rest. We teach every class live by video, from India. Coding, Python and maths are open to anyone between 6 and 67, taught solo or in a same-level class of fifteen to twenty. One free lesson finds the right starting point. The district project begins on the runways at Ballykelly. After the free lesson, a group place costs USD 100 a month and one-to-one tuition USD 150 a month.',
   lead: 'Ballykelly airfield opened in June 1941, and through the war Coastal Command flew anti-submarine patrols from it. The Historic Environment Division\'s defence record describes its layout: three concrete runways, the main one lined up with the prevailing wind and the other two set at sixty degrees to it. Why go to the trouble of three? Aircraft like to take off and land into the wind, and a wind blowing across a runway pushes them sideways. The wind cannot be told which way to blow, so an airfield gives pilots a choice of directions. How much sideways wind does each layout leave in the worst case, and how often is it too much? This page\'s project splits the wind into two parts with trigonometry and answers both in Python.',
   wa: 'Hello Modern Age Coders, we are in Causeway Coast and Glens and would like to book a free lesson, please.',
 
@@ -164,7 +164,7 @@ module.exports = {
       { h3: 'Writing their own code', p: 'Learners type every program; the tutor follows on the shared screen and prompts with questions instead of answers.' },
       { h3: 'Northern Ireland stages', p: 'A Kilrea P5 or a Portstewart Year 12 joins at the level that suits their key stage, and we refer to exams by their CCEA titles. All teaching is in English.' },
       { h3: 'Free first lesson', p: 'A complete lesson at no charge, finishing with clear advice.' },
-      { h3: 'Classes by level', p: 'Five to ten learners at one stage, from across the UK.' },
+      { h3: 'Classes by level', p: 'Fifteen to twenty learners at one stage, from across the UK.' },
       { h3: 'Term time', p: 'Two lessons each week in term, holidays kept free.' },
       { h3: 'Same hour all year', p: 'Clock changes do not move your lesson; teachers in India adjust around the local time.' }
     ],
@@ -175,7 +175,7 @@ module.exports = {
     h2: 'Causeway Coast and Glens fees',
     intro: 'Coleraine and Ballycastle pay the same, and so does every country we teach outside India.',
     first: 'One full free lesson, then an honest recommendation.',
-    group: 'Around eight lessons a month with five to ten classmates.',
+    group: 'Around eight lessons a month with fifteen to twenty classmates.',
     private: 'Around eight lessons a month with your own tutor.',
     closer: 'We charge in US dollars only; there is no sterling price. The first bill follows the trial, once a course and a weekly time are agreed, and the pricing page covers holidays, missed lessons and switching between group and private.'
   },

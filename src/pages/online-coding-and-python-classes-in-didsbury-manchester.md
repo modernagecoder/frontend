@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and vibe coding lessons for Didsbur
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-didsbury-manchester
 source: src/pages/online-coding-and-python-classes-in-didsbury-manchester.html
 ---
-> Didsbury is covered by two Manchester wards: Didsbury East, with 14,709 usual residents at the 2021 census, and Didsbury West, with 15,083. Didsbury, East Didsbury and West Didsbury are the suburban areas recorded in the M20 postcode district. Our tutors, based in India, teach coding, Python, AI, vibe coding and maths on live video to anyone aged six to 67, privately or in a group of five to ten working at one level. Lessons put reasoning ahead of tools, so a learner can judge whether a simulation deserves to be believed. The opening lesson is free and finishes with a course recommendation. The Didsbury project estimates the area of the two wards by scattering points over a map, first at random and then with a Halton sequence, and finds the second is up to ten times more accurate for the same effort. After the trial, a group place is USD 100 a month and one-to-one lessons are USD 150 a month.
+> Didsbury is covered by two Manchester wards: Didsbury East, with 14,709 usual residents at the 2021 census, and Didsbury West, with 15,083. Didsbury, East Didsbury and West Didsbury are the suburban areas recorded in the M20 postcode district. Our tutors, based in India, teach coding, Python, AI, vibe coding and maths on live video to anyone aged six to 67, privately or in a group of fifteen to twenty working at one level. Lessons put reasoning ahead of tools, so a learner can judge whether a simulation deserves to be believed. The opening lesson is free and finishes with a course recommendation. The Didsbury project estimates the area of the two wards by scattering points over a map, first at random and then with a Halton sequence, and finds the second is up to ten times more accurate for the same effort. After the trial, a group place is USD 100 a month and one-to-one lessons are USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Manchester](/best-coding-class-in-manchester) / Didsbury
 
@@ -12,11 +12,11 @@ Didsbury, Manchester, England / Live online
 
 # Online coding and Python classes in Didsbury
 
-**Which are the best online coding and Python classes in Didsbury?** Didsbury is covered by two Manchester wards: Didsbury East, with 14,709 usual residents at the 2021 census, and Didsbury West, with 15,083. Didsbury, East Didsbury and West Didsbury are the suburban areas recorded in the M20 postcode district. Our tutors, based in India, teach coding, Python, AI, vibe coding and maths on live video to anyone aged six to 67, privately or in a group of five to ten working at one level. Lessons put reasoning ahead of tools, so a learner can judge whether a simulation deserves to be believed. The opening lesson is free and finishes with a course recommendation. The Didsbury project estimates the area of the two wards by scattering points over a map, first at random and then with a Halton sequence, and finds the second is up to ten times more accurate for the same effort. After the trial, a group place is USD 100 a month and one-to-one lessons are USD 150 a month.
+**Which are the best online coding and Python classes in Didsbury?** Didsbury is covered by two Manchester wards: Didsbury East, with 14,709 usual residents at the 2021 census, and Didsbury West, with 15,083. Didsbury, East Didsbury and West Didsbury are the suburban areas recorded in the M20 postcode district. Our tutors, based in India, teach coding, Python, AI, vibe coding and maths on live video to anyone aged six to 67, privately or in a group of fifteen to twenty working at one level. Lessons put reasoning ahead of tools, so a learner can judge whether a simulation deserves to be believed. The opening lesson is free and finishes with a course recommendation. The Didsbury project estimates the area of the two wards by scattering points over a map, first at random and then with a Halton sequence, and finds the second is up to ten times more accurate for the same effort. After the trial, a group place is USD 100 a month and one-to-one lessons are USD 150 a month.
 
 A favourite first simulation is to measure an awkward shape by throwing darts: scatter points over a rectangle, count how many land inside the shape, and scale up. It is called the Monte Carlo method, and its weakness is that random points clump and leave gaps. There is a better kind of scatter. A low-discrepancy sequence, such as the Halton sequence, places each new point where the gaps are, so the rectangle is covered evenly at every stage. Using it is called quasi-Monte Carlo. This project pits the two against each other on a real shape: the outline of the two Didsbury wards, taken from the Office for National Statistics boundary files.
 
-Facts last verified 30 September 2026. Teaching is online; no Didsbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Didsbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Didsbury courses in thinking, Python and AI
 
@@ -132,7 +132,7 @@ A laptop or desktop with a webcam and a connection fit for a video call is the w
 - **Learners at the keyboard** The student writes and runs the code; our tutor watches by screen share and asks what result they expect before they press run.
 - **Level from the trial** A free first session tells us where to begin and which exam board, if any, applies.
 - **Free opener** There is no fee for lesson one, which ends with a course suggestion.
-- **Small matched groups** Five to ten learners at one stage, drawn from across the UK.
+- **Small matched groups** Fifteen to twenty learners at one stage, drawn from across the UK.
 - **Two lessons a week** Paused in the school holidays.
 - **Same time each week** UK clock changes are handled on our side, so your slot stays put.
 

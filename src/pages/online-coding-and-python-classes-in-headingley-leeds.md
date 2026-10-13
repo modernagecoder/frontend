@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and vibe coding lessons for Heading
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-headingley-leeds
 source: src/pages/online-coding-and-python-classes-in-headingley-leeds.html
 ---
-> Headingley and Hyde Park ward in Leeds had 31,175 usual residents at the 2021 census. Headingley, Far Headingley, Headingley Hill and Hyde Park are the suburban areas recorded there, all in the LS6 postcode district. From six-year-olds to adults of 67, learners join our India-based tutors on live video for coding, Python, AI, vibe coding and maths, taught one-to-one or in a class of five to ten at the same stage. We teach how to reason about a program before how to prompt for one, so learners can tell when code works by luck. Lesson one is free and ends with a suggested course. The Headingley project opens the Ordnance Survey's national postcode file, 1,749,109 rows, and finds the LS6 postcodes two ways: one needs over a gigabyte of memory, the other almost none. Ongoing lessons are USD 100 a month in a group or USD 150 a month one-to-one.
+> Headingley and Hyde Park ward in Leeds had 31,175 usual residents at the 2021 census. Headingley, Far Headingley, Headingley Hill and Hyde Park are the suburban areas recorded there, all in the LS6 postcode district. From six-year-olds to adults of 67, learners join our India-based tutors on live video for coding, Python, AI, vibe coding and maths, taught one-to-one or in a class of fifteen to twenty at the same stage. We teach how to reason about a program before how to prompt for one, so learners can tell when code works by luck. Lesson one is free and ends with a suggested course. The Headingley project opens the Ordnance Survey's national postcode file, 1,749,109 rows, and finds the LS6 postcodes two ways: one needs over a gigabyte of memory, the other almost none. Ongoing lessons are USD 100 a month in a group or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Leeds](/best-coding-class-in-leeds) / Headingley
 
@@ -12,11 +12,11 @@ Headingley, Leeds, West Yorkshire / Live online
 
 # Online coding and Python classes in Headingley
 
-**Which are the best online coding and Python classes in Headingley?** Headingley and Hyde Park ward in Leeds had 31,175 usual residents at the 2021 census. Headingley, Far Headingley, Headingley Hill and Hyde Park are the suburban areas recorded there, all in the LS6 postcode district. From six-year-olds to adults of 67, learners join our India-based tutors on live video for coding, Python, AI, vibe coding and maths, taught one-to-one or in a class of five to ten at the same stage. We teach how to reason about a program before how to prompt for one, so learners can tell when code works by luck. Lesson one is free and ends with a suggested course. The Headingley project opens the Ordnance Survey's national postcode file, 1,749,109 rows, and finds the LS6 postcodes two ways: one needs over a gigabyte of memory, the other almost none. Ongoing lessons are USD 100 a month in a group or USD 150 a month one-to-one.
+**Which are the best online coding and Python classes in Headingley?** Headingley and Hyde Park ward in Leeds had 31,175 usual residents at the 2021 census. Headingley, Far Headingley, Headingley Hill and Hyde Park are the suburban areas recorded there, all in the LS6 postcode district. From six-year-olds to adults of 67, learners join our India-based tutors on live video for coding, Python, AI, vibe coding and maths, taught one-to-one or in a class of fifteen to twenty at the same stage. We teach how to reason about a program before how to prompt for one, so learners can tell when code works by luck. Lesson one is free and ends with a suggested course. The Headingley project opens the Ordnance Survey's national postcode file, 1,749,109 rows, and finds the LS6 postcodes two ways: one needs over a gigabyte of memory, the other almost none. Ongoing lessons are USD 100 a month in a group or USD 150 a month one-to-one.
 
 The first version of most data programs reads the whole file into a list and then works on the list. It is simple, and it works until the file is bigger than the computer's memory. Python has a quieter tool for that day: the generator, a function that hands over one item at a time and remembers where it stopped. Chain a few together and data flows through like water through pipes, never all in the building at once. This project measures the difference on a real file. Ordnance Survey's Code-Point Open lists every postcode in Great Britain, and the task is to pull out the ones for Headingley.
 
-Facts last verified 30 September 2026. Teaching is online; no Headingley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Headingley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python, thinking and AI courses for Headingley
 
@@ -129,7 +129,7 @@ You need a computer with a camera, and an internet line that holds a video call.
 - **The learner types** Every line is written and run by the student, with the tutor watching the shared screen and asking what they expect to see.
 - **Trial first** The free session shows us the level, and we note the exam board if there is one.
 - **No charge to start** Lesson one is free and ends with the course we would pick.
-- **Classes by level** Groups hold five to ten learners at one stage, from anywhere in the UK.
+- **Classes by level** Groups hold fifteen to twenty learners at one stage, from anywhere in the UK.
 - **Twice a week** Term time only.
 - **Fixed slot** Our tutors move with the UK clock changes, so your lesson stays at the same local time.
 

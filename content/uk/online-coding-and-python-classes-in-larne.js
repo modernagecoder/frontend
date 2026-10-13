@@ -159,7 +159,7 @@ module.exports = {
       { h3: 'The student runs it', p: 'Learners type, prompt and run each step, and the tutor watches over screen share, asking how they would check it.' },
       { h3: 'Pitched at the trial', p: 'The free session shows where to begin, and any CCEA exam is noted.' },
       { h3: 'Nothing to pay first', p: 'Lesson one is free and finishes with a course suggestion.' },
-      { h3: 'Matched groups', p: 'Five to ten learners from across the UK, placed by level.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners from across the UK, placed by level.' },
       { h3: 'Two a week', p: 'Paused for school holidays.' },
       { h3: 'Fixed hour', p: 'Our tutors adjust to UK clock changes so your slot never moves.' }
     ],

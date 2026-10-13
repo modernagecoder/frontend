@@ -63,7 +63,7 @@ module.exports = {
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
-  capsule: 'A real AI project starts with a question and a baseline, not a model. Our project classes use open Irish data, teach cleaning and labelling first, and treat evaluation as the main event: what does the model beat, by how much, and could the result be an accident? Learners see a measured example of data leakage, where an innocent-looking feature lifts accuracy from 0.667 to 0.923 because it could only be known after the event. Classes are live, in groups of five to ten or one to one, for teenagers, students and adults. The first is free; then it is USD 100 a month in a group or USD 150 a month one to one.',
+  capsule: 'A real AI project starts with a question and a baseline, not a model. Our project classes use open Irish data, teach cleaning and labelling first, and treat evaluation as the main event: what does the model beat, by how much, and could the result be an accident? Learners see a measured example of data leakage, where an innocent-looking feature lifts accuracy from 0.667 to 0.923 because it could only be known after the event. Classes are live, in groups of fifteen to twenty or one to one, for teenagers, students and adults. The first is free; then it is USD 100 a month in a group or USD 150 a month one to one.',
 
   picks: {
     eyebrow: 'Start here',
@@ -207,7 +207,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'You look at a real dataset with a teacher and see how the first decisions are made.' },
-      { h3: 'Five to ten per group', p: 'Learners at one level, reviewing each other\'s evaluation as much as their code.' },
+      { h3: 'Fifteen to twenty per group', p: 'Learners at one level, reviewing each other\'s evaluation as much as their code.' },
       { h3: 'One to one', p: 'For a specific project, a thesis or a portfolio deadline.' },
       { h3: 'Baselines every time', p: 'No model is accepted in class without the baseline it has to beat.' },
       { h3: 'Leak hunting', p: 'Every feature is questioned before training: would you really know this in advance?' },
@@ -223,7 +223,7 @@ module.exports = {
     h2: 'Fees for project classes',
     lede: 'The same monthly price in US dollars we charge everywhere outside India, whichever course you take. Nothing to pay in advance for a term, and you can stop once a project is finished.',
     free: ['A real dataset opened with a teacher', 'An honest view of your starting point', 'No card taken'],
-    group: ['Five to ten learners at one level', 'One teacher across the project', 'Evaluation reviewed weekly', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'One teacher across the project', 'Evaluation reviewed weekly', 'A certificate at the end'],
     one: ['A teacher to yourself', 'Your own dataset and question', 'Suited to theses and deadlines']
   },
 

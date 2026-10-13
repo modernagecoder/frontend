@@ -54,7 +54,7 @@ module.exports = {
     ['To begin', 'A free lesson, no card']
   ],
   capsuleQ: 'In short',
-  capsule: 'Modern Age Coders teaches learners in The Hague, aged six to sixty-seven, a live online AI and Python track: typed Python, real data, models whose errors are measured, and agents whose decisions can be traced. Every model on the track is checked group by group, because an overall error rate can look acceptable while one group carries most of the false alarms. The reason is local and documented: the risk model in the childcare-benefits case, which the data protection authority found had used nationality unlawfully. Teaching happens in English, either in a small group of five to ten at one level or with a teacher of your own. There is no charge for the first lesson; afterwards the group rate is USD 100 a month and private tuition USD 150.',
+  capsule: 'Modern Age Coders teaches learners in The Hague, aged six to sixty-seven, a live online AI and Python track: typed Python, real data, models whose errors are measured, and agents whose decisions can be traced. Every model on the track is checked group by group, because an overall error rate can look acceptable while one group carries most of the false alarms. The reason is local and documented: the risk model in the childcare-benefits case, which the data protection authority found had used nationality unlawfully. Teaching happens in English, either in a group of fifteen to twenty at one level or with a teacher of your own. There is no charge for the first lesson; afterwards the group rate is USD 100 a month and private tuition USD 150.',
 
   picks: {
     eyebrow: 'Start here',
@@ -193,7 +193,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'The opening session', p: 'A real task, a teacher watching how the learner approaches it, and at the end a clear view of where to start. No questionnaire does that as well.' },
-      { h3: 'Groups of five to ten', p: 'Classmates come from several countries and share one level, so nobody in The Hague is held back by a local average or left behind by it.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Classmates come from several countries and share one level, so nobody in The Hague is held back by a local average or left behind by it.' },
       { h3: 'Private lessons', p: 'For diplomats, civil servants and others whose diaries move, for a narrowly defined goal, and for the Copilot Studio courses, which are never taught in groups.' },
       { h3: 'Code seen as it is typed', p: 'Teacher and learner share screens, so a misunderstanding is corrected in the minute it appears.' },
       { h3: 'English, with Dutch kept for school', p: 'Teaching is in English; groep, brugklas, havo and vwo stay in Dutch because that is how parents in the city speak of them.' },
@@ -209,7 +209,7 @@ module.exports = {
     h2: 'Fees, in two figures',
     lede: 'Monthly, in US dollars, at the rates charged in every country outside India. The Hague pays what every other city pays, with no enrolment fee and no contract for the year. The Copilot Studio courses are taught privately and so carry the private rate.',
     free: ['A real lesson on a real problem', 'Places the learner on the right rung', 'No card or bank details'],
-    group: ['Five to ten learners at one level', 'One live teacher throughout', 'Work reviewed each week', 'Certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'One live teacher throughout', 'Work reviewed each week', 'Certificate at the end'],
     one: ['One learner, one teacher', 'Pace and focus fitted to the goal', 'The only format for Copilot Studio']
   },
 

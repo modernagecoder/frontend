@@ -4,7 +4,7 @@ description: "Live online AI, programming, Python and maths classes for ages 6 t
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-dulwich-london
 source: src/pages/ai-and-programming-classes-in-dulwich-london.html
 ---
-> Three wards of the London Borough of Southwark carry the Dulwich name: Dulwich Village, which had 10,255 residents at the 2021 census, Dulwich Wood with 10,588 and Dulwich Hill with 9,591. Goose Green ward had 13,612, and East Dulwich, Herne Hill and Nunhead are recorded as places in the borough. We teach AI, programming, Python, vibe coding and maths to Dulwich learners between six and 67 by live video from India, privately or in a class of five to ten who are at one level. Every model a learner builds is judged on data it was not trained on. A first Dulwich lesson is free and closes with our suggestion of a course. The Dulwich project grows one model from 5 features to 10,000 on Census data for 959 Southwark areas and watches its error rise, explode and come back down, a pattern called double descent. From then on a class place is USD 100 a month, and private lessons are USD 150 a month.
+> Three wards of the London Borough of Southwark carry the Dulwich name: Dulwich Village, which had 10,255 residents at the 2021 census, Dulwich Wood with 10,588 and Dulwich Hill with 9,591. Goose Green ward had 13,612, and East Dulwich, Herne Hill and Nunhead are recorded as places in the borough. We teach AI, programming, Python, vibe coding and maths to Dulwich learners between six and 67 by live video from India, privately or in a class of fifteen to twenty who are at one level. Every model a learner builds is judged on data it was not trained on. A first Dulwich lesson is free and closes with our suggestion of a course. The Dulwich project grows one model from 5 features to 10,000 on Census data for 959 Southwark areas and watches its error rise, explode and come back down, a pattern called double descent. From then on a class place is USD 100 a month, and private lessons are USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Dulwich
 
@@ -12,11 +12,11 @@ Dulwich, Southwark, London / Live online
 
 # AI and programming classes in Dulwich
 
-**Where do Dulwich learners find the best AI and programming classes?** Three wards of the London Borough of Southwark carry the Dulwich name: Dulwich Village, which had 10,255 residents at the 2021 census, Dulwich Wood with 10,588 and Dulwich Hill with 9,591. Goose Green ward had 13,612, and East Dulwich, Herne Hill and Nunhead are recorded as places in the borough. We teach AI, programming, Python, vibe coding and maths to Dulwich learners between six and 67 by live video from India, privately or in a class of five to ten who are at one level. Every model a learner builds is judged on data it was not trained on. A first Dulwich lesson is free and closes with our suggestion of a course. The Dulwich project grows one model from 5 features to 10,000 on Census data for 959 Southwark areas and watches its error rise, explode and come back down, a pattern called double descent. From then on a class place is USD 100 a month, and private lessons are USD 150 a month.
+**Where do Dulwich learners find the best AI and programming classes?** Three wards of the London Borough of Southwark carry the Dulwich name: Dulwich Village, which had 10,255 residents at the 2021 census, Dulwich Wood with 10,588 and Dulwich Hill with 9,591. Goose Green ward had 13,612, and East Dulwich, Herne Hill and Nunhead are recorded as places in the borough. We teach AI, programming, Python, vibe coding and maths to Dulwich learners between six and 67 by live video from India, privately or in a class of fifteen to twenty who are at one level. Every model a learner builds is judged on data it was not trained on. A first Dulwich lesson is free and closes with our suggestion of a course. The Dulwich project grows one model from 5 features to 10,000 on Census data for 959 Southwark areas and watches its error rise, explode and come back down, a pattern called double descent. From then on a class place is USD 100 a month, and private lessons are USD 150 a month.
 
 The old advice in machine learning was simple: a model that is too small misses the pattern, a model that is too big memorises noise, so pick one in the middle. Then very large neural networks arrived, with far more adjustable numbers than training examples, and worked anyway. The explanation is a curve with two dips. Error falls, rises to a sharp peak at the point where the model is just big enough to fit the training data exactly, the interpolation threshold, and then falls a second time as the model grows past it. This project reproduces the whole curve in a few dozen lines of Python, and checks something the headlines skip: whether the second dip is actually lower than the first.
 
-Facts last verified 30 September 2026. Teaching is online; no Dulwich branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Dulwich branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI and programming courses for Dulwich learners
 
@@ -141,7 +141,7 @@ All a Dulwich learner needs is a computer with a camera and a connection steady 
 - **Code written by the learner** Nothing is typed for the Dulwich student. The tutor shares the view and asks how the result was tested.
 - **The trial finds the level** One lesson shows us what is secure, where to start and which exam board applies.
 - **First Dulwich lesson free** It runs to full length and ends with a course we would choose.
-- **One level per class** Five to ten learners, drawn from the whole UK, at a single stage.
+- **One level per class** Fifteen to twenty learners, drawn from the whole UK, at a single stage.
 - **Two sessions weekly** Holiday weeks are taken out of the calendar.
 - **Same hour all year** The tutor moves with British clock changes; you do not.
 

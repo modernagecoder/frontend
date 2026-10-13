@@ -16,7 +16,7 @@ City of Stirling, northern suburbs of Perth, Western Australia / Live online
 
 The City of Stirling counted 226,369 residents in 2021, more than Joondalup, Wanneroo or Melville, and runs from the coast at Scarborough and North Beach inland to Mirrabooka and Dianella. Its name is shared by a highway, several streets, a suburb inside the council and much else across the state, which makes it the perfect place to teach an AI agent that a word is not a place.
 
-Facts last verified 12 October 2026. Teaching is online; no Stirling branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Stirling branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Agents, vibe coding and careful search
 
@@ -186,7 +186,7 @@ Lessons run over video, so learners join from home anywhere between the coast an
 - **Real-time teaching** A teacher leads and checks code during each lesson.
 - **In step with school** Classes keep to WA term dates and rest in the holidays.
 - **No-cost trial** One free lesson, then a short course plan.
-- **Group or private** Level-matched groups of five to ten, or a private teacher.
+- **Group or private** Level-matched groups of fifteen to twenty, or a private teacher.
 - **Two per week** Around eight lessons a month.
 - **Indian clock** A 4:30pm Stirling lesson starts at 2pm in India.
 
@@ -197,7 +197,7 @@ Lessons run over video, so learners join from home anywhere between the coast an
 The same fees for every learner.
 
 - First class: USD 0. There is no charge for the opening lesson, which ends with a plan.
-- Group tuition: USD 100 a month. Group lessons: about eight a month in groups of five to ten.
+- Group tuition: USD 100 a month. Group lessons: about eight a month in groups of fifteen to twenty.
 - Private tuition: USD 150 a month. Private lessons: about eight a month with your own teacher.
 
 Fees are in US dollars and begin only after the free lesson has agreed a course and a weekly slot. The pricing page explains holidays and missed lessons.
@@ -234,11 +234,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Stirling classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How do you form groups?
 
-By level and pace, five to ten learners each, not by age or suburb. One-to-one lessons suit anyone no group time fits.
+By level and pace, fifteen to twenty learners each, not by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Can adults build agents with you?
 

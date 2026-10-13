@@ -12,7 +12,7 @@ Live online · serving Sambalpur
 
 Real programming for kids, teens and college students in Sambalpur, from **Budharaja to Ainthapali, Modipara to Dhanupali**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Sambalpur)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**SambalpurEnrollingAreasBudharaja, Ainthapali, Modipara, Dhanupali, Burla (VSSUT / VIMSAR) & all of SambalpurBoardsBSE Odisha · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across SambalpurFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Sambalpur)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**SambalpurEnrollingAreasBudharaja, Ainthapali, Modipara, Dhanupali, Burla (VSSUT / VIMSAR) & all of SambalpurBoardsBSE Odisha · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across SambalpurFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for Sambalpur's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Sambalpur: FAQs
 
-Which is the best coding class in Sambalpur for kids?Modern Age Coders runs Sambalpur's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python, in small batches of 5-8, taught by industry instructors. We cover Budharaja, Ainthapali, Modipara, Dhanupali, Burla, Hirakud, Khetrajpur, Gole Bazar and the wider district, plus nearby Bargarh, Jharsuguda and Sonepur.Are the classes online, and do you cover Burla, Hirakud and the wider Sambalpur district?Yes. Every class is live and online, so a student in Budharaja, Ainthapali, Modipara, Sakhipara, Khetrajpur, Burla (the VSSUT and VIMSAR area) or Hirakud joins the same expert teacher from home, no travelling across the Mahanadi bridges or out to the dam. Sessions are fully interactive with live coding, screen-sharing and saved recordings. We also reach Bargarh, Jharsuguda and Sonepur the same way.How much do coding classes cost in Sambalpur?Group classes (5-8 students) start at Rs.1499/month for 2 live classes per week. The Mini Batch (3-4 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Does this fit CBSE, ICSE and Odisha Board (BSE/CHSE) students in Sambalpur?Yes. We teach students from CBSE, ICSE and Odisha Board (BSE/CHSE) schools across Sambalpur. Coding strengthens the logical reasoning and problem-solving that engineering and medical entrances reward, and it supports school Computer Science, IT and the NEP-2020 AI modules. In a town shaped by VSSUT Burla and a long engineering tradition, an early start gives serious students a real edge.What age is best to start coding in Sambalpur?Age 8 is ideal to begin with visual block-based coding (Scratch). For text-based languages like Python and Java, age 12-13 onwards works best. We design separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always matches the child.What programming languages and courses do you teach in Sambalpur?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also teach school and Olympiad mathematics alongside coding.Do you prepare Sambalpur college students for placements and remote work?Yes. Our college track is depth-first and career-focused: Python, structured DSA practice, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is designed for VSSUT Burla students, engineering aspirants across western Odisha and serious self-learners, targeting product companies, GCCs and remote roles, so a young person can launch a tech career from Sambalpur itself, without leaving for Bhubaneswar or Bengaluru.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Do you teach coding to BSE Odisha students in Sambalpur?Yes. Sambalpur schools run the Odisha board, BSE Odisha for Class 10 and CHSE for Plus Two, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can VSSUT Burla or Sambalpur University students join your programming courses?Yes. VSSUT Burla grew from an engineering college set up in 1956, and Sambalpur University has run since 1967, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter.
+Which is the best coding class in Sambalpur for kids?Modern Age Coders runs Sambalpur's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python, in batches of 15-20, taught by industry instructors. We cover Budharaja, Ainthapali, Modipara, Dhanupali, Burla, Hirakud, Khetrajpur, Gole Bazar and the wider district, plus nearby Bargarh, Jharsuguda and Sonepur.Are the classes online, and do you cover Burla, Hirakud and the wider Sambalpur district?Yes. Every class is live and online, so a student in Budharaja, Ainthapali, Modipara, Sakhipara, Khetrajpur, Burla (the VSSUT and VIMSAR area) or Hirakud joins the same expert teacher from home, no travelling across the Mahanadi bridges or out to the dam. Sessions are fully interactive with live coding, screen-sharing and saved recordings. We also reach Bargarh, Jharsuguda and Sonepur the same way.How much do coding classes cost in Sambalpur?Group classes (15-20 students) start at Rs.1499/month for 2 live classes per week. The Mini Batch (up to 6 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Does this fit CBSE, ICSE and Odisha Board (BSE/CHSE) students in Sambalpur?Yes. We teach students from CBSE, ICSE and Odisha Board (BSE/CHSE) schools across Sambalpur. Coding strengthens the logical reasoning and problem-solving that engineering and medical entrances reward, and it supports school Computer Science, IT and the NEP-2020 AI modules. In a town shaped by VSSUT Burla and a long engineering tradition, an early start gives serious students a real edge.What age is best to start coding in Sambalpur?Age 8 is ideal to begin with visual block-based coding (Scratch). For text-based languages like Python and Java, age 12-13 onwards works best. We design separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always matches the child.What programming languages and courses do you teach in Sambalpur?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also teach school and Olympiad mathematics alongside coding.Do you prepare Sambalpur college students for placements and remote work?Yes. Our college track is depth-first and career-focused: Python, structured DSA practice, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is designed for VSSUT Burla students, engineering aspirants across western Odisha and serious self-learners, targeting product companies, GCCs and remote roles, so a young person can launch a tech career from Sambalpur itself, without leaving for Bhubaneswar or Bengaluru.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Do you teach coding to BSE Odisha students in Sambalpur?Yes. Sambalpur schools run the Odisha board, BSE Odisha for Class 10 and CHSE for Plus Two, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can VSSUT Burla or Sambalpur University students join your programming courses?Yes. VSSUT Burla grew from an engineering college set up in 1956, and Sambalpur University has run since 1967, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter.
 
 ## Ready to start your child's coding journey in Sambalpur?
 

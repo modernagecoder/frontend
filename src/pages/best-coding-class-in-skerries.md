@@ -16,7 +16,7 @@ Skerries, Fingal, County Dublin / Live online
 
 Lists that rank places, from top towns to live in to leading counties for families, are usually built the same way: pick a few indicators, give each a weight, add them up. This page builds one from three census shares for the 53 towns of 10,000 or more people, and Skerries does well under equal weights, coming fourth. Then the learner tries every weighting in steps of a tenth, 66 in all. Skerries lands anywhere from third to twenty-sixth, and four different towns take first place depending on the weights. Nothing about the towns changed. Only the opinion built into the weights did, and that is the lesson worth taking to every league table.
 
-Facts last verified 19 September 2026. Teaching is online; no Skerries branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Skerries branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Skerries learners usually start
 
@@ -177,7 +177,7 @@ The arrangements.
 Every charge.
 
 - First class: USD 0. A full first lesson with the level assessed, free.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one stage, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one stage, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons at the same weekly rhythm.
 
 The monthly fee is in US dollars and is the same in every country except India. There is no charge for the first lesson, the first month is billed when the course starts, and holidays, missed lessons and a switch of format follow the rules on the pricing page.
@@ -218,7 +218,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Skerries cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

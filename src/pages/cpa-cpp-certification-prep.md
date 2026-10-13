@@ -154,7 +154,7 @@ Full 40-question mocks in ~65 minutes until you score consistently above 70%. Th
 
 #### 0x01 Small live batches
 
-4–8 students per class. A mentor catches the segfault, the leak and the off-by-one in real time.
+15–20 students per class. A mentor catches the segfault, the leak and the off-by-one in real time.
 
 #### 0x02 Mapped to the 5 blocks
 

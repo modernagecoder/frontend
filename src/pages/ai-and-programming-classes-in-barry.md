@@ -16,7 +16,7 @@ Barry, Vale of Glamorgan, Wales / Live online
 
 Data used to train and test AI systems is often described as anonymous because the names have been removed. That is not enough. If a table says exactly one household of seven people lives in a certain small area, anyone who knows a family of seven there has found them, name or no name. The standard yardstick is k-anonymity: every combination of the identifying columns must be shared by at least k records, so nobody stands out from a crowd smaller than k. Meeting it means blurring the data, by merging categories or using bigger areas, and blurring costs detail. This project measures that trade-off on a real published table for the Vale of Glamorgan.
 
-Facts last verified 30 September 2026. Teaching is online; no Barry branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Barry branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Barry courses in reasoning, Python and AI
 

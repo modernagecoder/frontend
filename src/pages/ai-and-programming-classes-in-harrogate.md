@@ -16,7 +16,7 @@ Harrogate, North Yorkshire, England / Live online
 
 Ask a phone or an AI assistant whether a café is open and, behind the scenes, a program has to read a line like "Mo-Fr 08:00-17:00; Sa,Su 09:00-17:00" and work out the answer. OpenStreetMap stores opening hours for places in central Harrogate in exactly this format, and the format has an official specification. This project uses regular expressions in Python, the standard tool for matching text patterns, to teach a program to read those lines. The first attempt looks fine on tidy examples and fails on four out of five real ones, which is precisely the lesson: real data is always messier than the examples, and software, whether written by a person or an AI, has to be tested on the real thing.
 
-Facts last verified 29 September 2026. Teaching is online; no Harrogate branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Harrogate branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Harrogate courses for thinking, vibe coding and AI
 

@@ -70,7 +70,7 @@ module.exports = {
 
   h1: 'Coding classes in St Albans',
   capsuleQ: 'What are the best coding classes in St Albans?',
-  capsule: 'The St Albans district had 148,167 usual residents at the 2021 census, and 7.5% of them were aged 10 to 14, against 6.0% across England. Rothamsted Research, in Harpenden within the district, says it is home to the oldest continuing agricultural field experiments in the world, begun by Sir John Lawes and Sir Henry Gilbert from 1843. We teach St Albans learners aged six to sixty-seven from India in live video lessons, in a group of five to ten at the same level or one to one, at times planned around UK school and work. Lesson one is free; after it, a group place is USD 100 a month and one-to-one teaching USD 150.',
+  capsule: 'The St Albans district had 148,167 usual residents at the 2021 census, and 7.5% of them were aged 10 to 14, against 6.0% across England. Rothamsted Research, in Harpenden within the district, says it is home to the oldest continuing agricultural field experiments in the world, begun by Sir John Lawes and Sir Henry Gilbert from 1843. We teach St Albans learners aged six to sixty-seven from India in live video lessons, in a group of fifteen to twenty at the same level or one to one, at times planned around UK school and work. Lesson one is free; after it, a group place is USD 100 a month and one-to-one teaching USD 150.',
   lead: 'Rothamsted still grows wheat on Broadbalk, the field its founders laid out in 1843, and publishes yields for schools. In 2016, 2017 and 2018, the published table compares eight treatments, from no fertiliser at all to the heaviest dose of nitrogen. Some years were good, some poor. How much of the difference in yield came from the fertiliser, how much from the year, and how much is left over? Analysis of variance, the method linked with R.A. Fisher, who analysed Broadbalk\'s records in his 1921 paper Studies in crop variation, answers exactly that. For wheat grown every year, the treatment explains 74.0% of the variation; for wheat grown in rotation, 87.9%. And the leftover points straight at one strange year.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in St Albans, please.',
 
@@ -199,7 +199,7 @@ module.exports = {
       { h3: 'City, town and village', p: 'A learner in Jersey Farm and another in Park Street can share one class, with no journey into the city centre.' },
       { h3: 'Levels schools use', p: 'Our levels track the English curriculum Hertfordshire pupils follow, from Reception through each Key Stage to GCSE and A level, all taught in English.' },
       { h3: 'A lesson from the start', p: 'The free session teaches a genuine task and closes with our advice on level, course and a weekly time. No card is asked for.' },
-      { h3: 'Grouped by stage', p: 'Five to ten learners at one level, from St Albans, around the UK and overseas, so each stage has workable times.' },
+      { h3: 'Grouped by stage', p: 'Fifteen to twenty learners at one level, from St Albans, around the UK and overseas, so each stage has workable times.' },
       { h3: 'Twice a week', p: 'Two regular lessons weekly, about eight a month, with half terms and exams arranged with the teacher in good time.' },
       { h3: 'Across the time difference', p: 'A 4 pm lesson in St Albans is 8.30 pm for our teachers in India in summer and 9.30 pm in winter, as India keeps the same clock all year; they arrange their evenings for UK families.' }
     ],
@@ -210,7 +210,7 @@ module.exports = {
     h2: 'St Albans lesson fees',
     intro: 'A free first lesson, then a single monthly fee.',
     first: 'A full lesson at no charge, ending with a suggested level, course and weekly time.',
-    group: 'Around eight live lessons a month in a group of five to ten learners at the same stage.',
+    group: 'Around eight live lessons a month in a group of fifteen to twenty learners at the same stage.',
     private: 'Around eight live lessons a month, with the teacher focused on your learner alone.',
     closer: 'Families in Sandridge or How Wood pay in US dollars, just like every family outside India, and our pages show no pound prices. Billing begins only after the free lesson, once a course and a weekly slot are agreed; pauses, missed lessons and switching between group and one-to-one teaching are explained on the pricing page.'
   },
@@ -235,8 +235,8 @@ module.exports = {
       { q: 'What is Rothamsted?', a: 'A research institute in Harpenden, in the St Albans district, which says it is home to the oldest continuing agricultural field experiments in the world, begun by Sir John Lawes and Sir Henry Gilbert from 1843. We are not connected with Rothamsted Research.' },
       { q: 'When do St Albans lessons run?', a: 'Most St Albans families choose a time after school, on a weekday evening or at the weekend, and we agree it during the free lesson. India is four and a half hours ahead of the UK in summer and five and a half in winter.' },
       { q: 'Is there a centre in St Albans?', a: 'No. We have no St Albans centre and no premises anywhere in the UK, because all our lessons are live online. A learner needs a computer with sound and a reliable connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much are lessons for a St Albans learner?', a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one teaching on the same timetable is USD 150 a month. The course, format and time are agreed before anything is charged.', boiler: true },
-      { q: 'How are the groups organised?', a: 'By level, pace and goals rather than age or where a learner lives, with five to ten learners at one stage. If no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much are lessons for a St Albans learner?', a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one teaching on the same timetable is USD 150 a month. The course, format and time are agreed before anything is charged.', boiler: true },
+      { q: 'How are the groups organised?', a: 'By level, pace and goals rather than age or where a learner lives, with fifteen to twenty learners at one stage. If no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

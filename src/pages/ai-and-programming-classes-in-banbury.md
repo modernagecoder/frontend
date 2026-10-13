@@ -4,7 +4,7 @@ description: "AI, programming, Python and vibe coding lessons by live video for 
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-banbury
 source: src/pages/ai-and-programming-classes-in-banbury.html
 ---
-> Banbury's built-up area had 52,045 residents in the 2021 census and the Cherwell district around it 161,016, in ONS figures. Grimsbury, Neithrop, Ruscote and Calthorpe appear in postcode data as suburban areas and Bodicote as a village. Learners between six and 67 study AI, programming, Python, vibe coding and maths with us on live video; tutors work from India, teaching one learner at a time or a class of five to ten on the same level. Reasoning is taught ahead of any tool, so a student can weigh up what a model or a chatbot returns. The Banbury project turns the town's streets into a graph and uses spectral clustering, a technique from machine learning, to find the smallest set of links whose removal would split the network into two balanced halves. The first lesson is free and closes with course advice. Group lessons then cost USD 100 a month and private lessons USD 150 a month.
+> Banbury's built-up area had 52,045 residents in the 2021 census and the Cherwell district around it 161,016, in ONS figures. Grimsbury, Neithrop, Ruscote and Calthorpe appear in postcode data as suburban areas and Bodicote as a village. Learners between six and 67 study AI, programming, Python, vibe coding and maths with us on live video; tutors work from India, teaching one learner at a time or a class of fifteen to twenty on the same level. Reasoning is taught ahead of any tool, so a student can weigh up what a model or a chatbot returns. The Banbury project turns the town's streets into a graph and uses spectral clustering, a technique from machine learning, to find the smallest set of links whose removal would split the network into two balanced halves. The first lesson is free and closes with course advice. Group lessons then cost USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Banbury
 
@@ -12,11 +12,11 @@ Banbury, Cherwell, Oxfordshire / Live online
 
 # AI and programming classes in Banbury, Oxfordshire
 
-**Where can Banbury learners find the best AI and programming classes?** Banbury's built-up area had 52,045 residents in the 2021 census and the Cherwell district around it 161,016, in ONS figures. Grimsbury, Neithrop, Ruscote and Calthorpe appear in postcode data as suburban areas and Bodicote as a village. Learners between six and 67 study AI, programming, Python, vibe coding and maths with us on live video; tutors work from India, teaching one learner at a time or a class of five to ten on the same level. Reasoning is taught ahead of any tool, so a student can weigh up what a model or a chatbot returns. The Banbury project turns the town's streets into a graph and uses spectral clustering, a technique from machine learning, to find the smallest set of links whose removal would split the network into two balanced halves. The first lesson is free and closes with course advice. Group lessons then cost USD 100 a month and private lessons USD 150 a month.
+**Where can Banbury learners find the best AI and programming classes?** Banbury's built-up area had 52,045 residents in the 2021 census and the Cherwell district around it 161,016, in ONS figures. Grimsbury, Neithrop, Ruscote and Calthorpe appear in postcode data as suburban areas and Bodicote as a village. Learners between six and 67 study AI, programming, Python, vibe coding and maths with us on live video; tutors work from India, teaching one learner at a time or a class of fifteen to twenty on the same level. Reasoning is taught ahead of any tool, so a student can weigh up what a model or a chatbot returns. The Banbury project turns the town's streets into a graph and uses spectral clustering, a technique from machine learning, to find the smallest set of links whose removal would split the network into two balanced halves. The first lesson is free and closes with course advice. Group lessons then cost USD 100 a month and private lessons USD 150 a month.
 
 Suppose you had to divide a town's street network into two parts of similar size while breaking as few streets as possible. Trying every possible division is hopeless: a network of a few thousand junctions has more two-way splits than there are atoms in the universe. Spectral clustering sidesteps the search. It writes the network as a matrix, asks for one special list of numbers called the Fiedler vector, with one number per junction, and splits the junctions by whether their number is positive or negative. It sounds like a trick. On Banbury's streets, mapped by OpenStreetMap contributors, a learner can test whether the trick finds a good cut, and whether the cut is where they expected.
 
-Facts last verified 30 September 2026. Teaching is online; no Banbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Banbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI, programming and thinking courses for Banbury
 
@@ -134,7 +134,7 @@ A working computer, a webcam and ordinary home broadband cover everything.
 - **Learner-led screen** The student shares a screen and does the coding. The tutor observes and keeps asking how they know it is right.
 - **Placement in the trial** The free lesson shows us where to start, and we log the exam board when one applies.
 - **Free first session** Nothing to pay and no card to enter; it ends with a course we suggest.
-- **Grouped by ability** Classes of five to ten bring together UK learners at one stage.
+- **Grouped by ability** Classes of fifteen to twenty bring together UK learners at one stage.
 - **Two per week** Lessons skip the school holidays you let us know about.
 - **Constant UK time** Our tutors take on the British Summer Time shift so that your lesson hour never changes.
 

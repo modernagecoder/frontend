@@ -16,7 +16,7 @@ Glen Waverley, City of Monash, Melbourne, Victoria / Live online
 
 Victoria publishes how many people enter every metropolitan train station, one file per financial year. Put seven of those files in one database table and a simple question, "show Glen Waverley for every year", becomes a lesson in how databases actually work. Without an index SQLite reads every row; with one it jumps straight to the right place.
 
-Facts last verified 10 October 2026. Teaching is online; no Glen Waverley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Glen Waverley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that teach data, not just syntax
 
@@ -187,7 +187,7 @@ Lessons happen on screen at home, so a family near Syndal station joins exactly 
 - **No commute** Sign in, share a screen and start writing code with the teacher straight away.
 - **Victorian terms** Plans follow Victorian school terms and pause for the state school holidays.
 - **A full first class** The trial is a real lesson, finishing with a suggested course, level and time.
-- **Small groups** Five to ten learners grouped by level and pace, from several suburbs at once.
+- **Small groups** Fifteen to twenty learners grouped by level and pace, from several suburbs at once.
 - **Twice a week** Two fixed lessons each week, around eight a month, with breaks agreed ahead.
 - **Teachers in India** A 5pm Glen Waverley lesson during daylight saving begins at 11:30am India time; after April it begins at 12:30pm there.
 
@@ -198,7 +198,7 @@ Lessons happen on screen at home, so a family near Syndal station joins exactly 
 There are three prices and nothing hidden.
 
 - First class: USD 0. The first class is free and ends with an honest recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, usually eight, with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group lessons, usually eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Roughly eight lessons a month with one teacher and one learner.
 
 Families outside India are invoiced in US dollars, the same rate for everyone. Nothing is charged until after the trial, when a course and time are settled; the pricing page explains holidays, missed lessons and changing format.
@@ -235,11 +235,11 @@ No. Every lesson is live online, we have no premises in Australia, and the phone
 
 ### How much are coding classes for Glen Waverley learners?
 
-The first lesson is free. Group lessons then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.
+The first lesson is free. Group lessons then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.
 
 ### How big are the groups?
 
-Five to ten learners, matched by level, pace and goal. If no group fits the learner's time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched by level, pace and goal. If no group fits the learner's time, one-to-one lessons are offered instead.
 
 ### Can adults learn SQL and Python with you?
 

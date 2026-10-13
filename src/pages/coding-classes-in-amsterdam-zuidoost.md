@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Amsterdam-Zuidoost fo
 canonical: https://learn.modernagecoders.com/coding-classes-in-amsterdam-zuidoost
 source: src/pages/coding-classes-in-amsterdam-zuidoost.html
 ---
-> Coding classes in Amsterdam-Zuidoost reach 95,385 residents (1 January 2026) across 22.08 square kilometres, in a district that has been a stadsdeel since 1987. Amstel III and Bullewijk has an average dwelling value of 211,000 euro and an average income of 37,400 euro. Gein, a few minutes down the line, has 344,000 euro and 30,600 euro. Cheaper homes and better-off people, in that order, which happens because the word dwelling is doing two different jobs. Modern Age Coders teaches live online in English across the whole district, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Amsterdam-Zuidoost reach 95,385 residents (1 January 2026) across 22.08 square kilometres, in a district that has been a stadsdeel since 1987. Amstel III and Bullewijk has an average dwelling value of 211,000 euro and an average income of 37,400 euro. Gein, a few minutes down the line, has 344,000 euro and 30,600 euro. Cheaper homes and better-off people, in that order, which happens because the word dwelling is doing two different jobs. Modern Age Coders teaches live online in English across the whole district, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Amsterdam](/coding-classes-in-amsterdam) / Amsterdam-Zuidoost
 
@@ -12,11 +12,11 @@ Zuidoost, Amsterdam / Live online
 
 # Coding classes in Amsterdam-Zuidoost, where the neighbourhood with the cheaper homes has the better-off residents
 
-**What are the best coding classes in Amsterdam-Zuidoost?** Coding classes in Amsterdam-Zuidoost reach 95,385 residents (1 January 2026) across 22.08 square kilometres, in a district that has been a stadsdeel since 1987. Amstel III and Bullewijk has an average dwelling value of 211,000 euro and an average income of 37,400 euro. Gein, a few minutes down the line, has 344,000 euro and 30,600 euro. Cheaper homes and better-off people, in that order, which happens because the word dwelling is doing two different jobs. Modern Age Coders teaches live online in English across the whole district, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Amsterdam-Zuidoost?** Coding classes in Amsterdam-Zuidoost reach 95,385 residents (1 January 2026) across 22.08 square kilometres, in a district that has been a stadsdeel since 1987. Amstel III and Bullewijk has an average dwelling value of 211,000 euro and an average income of 37,400 euro. Gein, a few minutes down the line, has 344,000 euro and 30,600 euro. Cheaper homes and better-off people, in that order, which happens because the word dwelling is doing two different jobs. Modern Age Coders teaches live online in English across the whole district, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 In Amstel III and Bullewijk the average home is valued at 211,000 euro and the average resident earns 37,400. In Gein the average home is 344,000 and the average resident earns 30,600. Cheaper housing, richer people. That combination is not a puzzle about the property market. It is what happens when one column called dwellings holds rented studios averaging 1.2 occupants in one row and family houses averaging 2.0 in the next, and somebody takes the average anyway.
 
-Facts last verified 9 September 2026. Teaching is online; no Amsterdam-Zuidoost branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 September 2026. Teaching is online; no Amsterdam-Zuidoost branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a district of families and a district of twenty-somethings, side by side
 
@@ -195,7 +195,7 @@ Zuidoost is spread across twenty-two square kilometres and served by a metro tha
 On the page rather than kept back for a call.
 
 - First class: USD 0. A full lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 There is one international rate, quoted in dollars, with no euro edition, so an address in Gein is charged exactly what an address near the AMC is. Nothing is paid until the free lesson has settled a course and an hour, and payment is arranged over WhatsApp afterwards. Pausing, switching plan and missing a week are all described on the pricing page.
@@ -228,7 +228,7 @@ For part of the year the teacher is three and a half hours ahead and for the res
 
 ### Why not use a class nearer home?
 
-For most things, do. The specific difficulty is that a group of five to ten learners at one particular level in one particular subject needs a pool to draw from, and this district is two very different populations rather than one: a wijk with 235 children under fifteen sits beside one with 1,605. Groups here are formed on ability from across the world, which is the only arrangement in which a narrow level actually fills.
+For most things, do. The specific difficulty is that a group of fifteen to twenty learners at one particular level in one particular subject needs a pool to draw from, and this district is two very different populations rather than one: a wijk with 235 children under fifteen sits beside one with 1,605. Groups here are formed on ability from across the world, which is the only arrangement in which a narrow level actually fills.
 
 ### Is there a Modern Age Coders classroom in Amsterdam-Zuidoost?
 
@@ -236,7 +236,7 @@ No, and none is claimed in the Bijlmer, elsewhere in Amsterdam or anywhere in th
 
 ### What do Amsterdam-Zuidoost coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

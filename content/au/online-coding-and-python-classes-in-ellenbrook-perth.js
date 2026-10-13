@@ -288,7 +288,7 @@ module.exports = {
       { h3: 'Learner drives', p: 'The student types and runs the code; the teacher follows along and prompts.' },
       { h3: 'School-term rhythm', p: 'Lessons pause for Western Australian school holidays.' },
       { h3: 'No charge to try', p: 'The opening lesson is a proper class, finished with a recommendation.' },
-      { h3: 'Level-matched groups', p: 'Five to ten learners together, or private teaching.' },
+      { h3: 'Level-matched groups', p: 'Fifteen to twenty learners together, or private teaching.' },
       { h3: 'Twice weekly', p: 'Set weekly slots, roughly eight lessons a month.' },
       { h3: 'India time', p: 'Our teachers work from India: a 4:30pm Ellenbrook lesson is 2pm India time.' }
     ],
@@ -301,7 +301,7 @@ module.exports = {
     h2: 'Ellenbrook class fees',
     intro: 'The same three prices for all families.',
     first: 'There is no charge for lesson one, which comes with written advice.',
-    group: 'About eight group lessons a month, five to ten learners each.',
+    group: 'About eight group lessons a month, fifteen to twenty learners each.',
     private: 'About eight private lessons a month with a single teacher.',
     closer: 'Families in Ellenbrook pay in US dollars after the trial, when a course and time are agreed. Holiday and missed-lesson rules are on the pricing page.'
   },
@@ -343,12 +343,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Ellenbrook learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Can Ellenbrook group learners study Copilot Studio?', a: 'No. Copilot Studio is offered one to one; in groups, agents are coded in Python.' }

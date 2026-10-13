@@ -322,7 +322,7 @@ USD 100
 
 per month
 
-- Five to eight students, same teacher every week
+- Fifteen to twenty students, same teacher every week
 - Live video, never a recording
 - Weekly build tasks reviewed by the teacher
 - Certificate on completion
@@ -421,7 +421,7 @@ Working software at a real address, not slide decks. Students train models on pu
 
 ### How much does it cost and where do you teach?
 
-Group batches of five to eight students are USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars everywhere outside India. We teach live online to students in more than 25 countries, with class times set to local evenings rather than to our own convenience. The first class is free and does not require a card.
+Group batches of fifteen to twenty students are USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars everywhere outside India. We teach live online to students in more than 25 countries, with class times set to local evenings rather than to our own convenience. The first class is free and does not require a card.
 
 ### Are the classes live or recorded?
 

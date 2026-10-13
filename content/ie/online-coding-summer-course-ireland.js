@@ -61,7 +61,7 @@ module.exports = {
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
-  capsule: 'Irish summer holidays are set by each school, not nationally: secondary schools stop teaching by the Friday before the June bank holiday and most schools reopen in the week of 1 September. A good summer coding course uses that time for one real project, a game, an app, a website or a data investigation, taught live by the same teacher each week. Modern Age Coders runs live online coding for ages 6 to 18 across the Irish summer, with no entrance test, in groups of five to ten placed by level or one to one. The first class is free; after that the cost is USD 100 a month in a group or USD 150 a month one to one, and a family can stop when September comes.',
+  capsule: 'Irish summer holidays are set by each school, not nationally: secondary schools stop teaching by the Friday before the June bank holiday and most schools reopen in the week of 1 September. A good summer coding course uses that time for one real project, a game, an app, a website or a data investigation, taught live by the same teacher each week. Modern Age Coders runs live online coding for ages 6 to 18 across the Irish summer, with no entrance test, in groups of fifteen to twenty placed by level or one to one. The first class is free; after that the cost is USD 100 a month in a group or USD 150 a month one to one, and a family can stop when September comes.',
 
   picks: {
     eyebrow: 'Start here',
@@ -216,7 +216,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'The child starts a tiny project with a teacher, who then suggests a course and a level.' },
-      { h3: 'Groups of five to ten', p: 'Children at the same level, from Ireland and other countries, showing each other their summer builds.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Children at the same level, from Ireland and other countries, showing each other their summer builds.' },
       { h3: 'One to one', p: 'For shy children, very quick ones, or families whose holidays make a group hard.' },
       { h3: 'No entrance test', p: 'Placement is by what a child can do in the free class, nothing else.' },
       { h3: 'From anywhere', p: 'Home, a holiday house or grandparents abroad: a laptop and a steady connection are all it takes.' },
@@ -232,7 +232,7 @@ module.exports = {
     h2: 'Summer fees',
     lede: 'The same monthly price in US dollars that families pay in every country except India, with no summer surcharge, no registration fee and no commitment past the month you are in.',
     free: ['A tiny project started with a teacher', 'A suggested course and level', 'No card at all'],
-    group: ['Five to ten children at one level', 'The same teacher through the summer', 'Projects looked at each week', 'A certificate on completion'],
+    group: ['Fifteen to twenty children at one level', 'The same teacher through the summer', 'Projects looked at each week', 'A certificate on completion'],
     one: ['A teacher for one child', 'Slots that move around holidays', 'Right for shy or very quick children']
   },
 

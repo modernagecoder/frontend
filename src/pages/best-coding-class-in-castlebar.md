@@ -16,7 +16,7 @@ Castlebar, County Mayo / Live online
 
 Which towns are most like Castlebar? It sounds like a question with one answer. A program that measures similarity, the same idea behind shopping recommendations and many machine-learning systems, cannot answer it until someone decides which features to compare and how to scale them. Compare how people travel to work and Castlebar's nearest match is Ballina. Compare journey times instead and it is Westport. Compare everything at once, unscaled, and Clonmel comes first, a whisker ahead of Wexford. Across eight reasonable set-ups, the top-five lists name 15 different towns. One town appears in seven of them. This page builds the search and shows how to report an answer that depends on choices.
 
-Facts last verified 19 September 2026. Teaching is online; no Castlebar branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Castlebar branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses for Castlebar learners
 
@@ -161,7 +161,7 @@ Similarity sits at the heart of a great deal of AI. Deciding what similar should
 The practical points.
 
 - **Real time** The teacher leads every lesson live and responds to the code the learner is writing.
-- **Stage-matched** Five to ten learners at one stage of a course, from Mayo, the rest of Ireland and abroad.
+- **Stage-matched** Fifteen to twenty learners at one stage of a course, from Mayo, the rest of Ireland and abroad.
 - **Two a week, mostly** Roughly eight lessons a month, at times agreed before the course begins.
 - **School calendar** The plan allows for holidays, mid-term breaks and exam weeks from the start.
 - **For each lesson** A computer with a keyboard, a way to hear and be heard, and a broadband connection that can carry video.
@@ -174,7 +174,7 @@ The practical points.
 Every price, in one place.
 
 - First class: USD 0. A full first lesson with the level assessed, free.
-- Group tuition: USD 100 a month. A month in a group of five to ten at the same level, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at the same level, about eight live lessons.
 - Private tuition: USD 150 a month. A month of private lessons at the same weekly frequency.
 
 Fees run monthly in US dollars, one rate for every family outside India. The free lesson commits nobody, and the first charge is made when the course itself begins. For holidays, missed lessons and switching between a group and private teaching, the pricing page has the rules.
@@ -215,7 +215,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Castlebar cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

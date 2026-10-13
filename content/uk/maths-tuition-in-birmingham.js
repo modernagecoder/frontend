@@ -44,7 +44,7 @@ module.exports = {
   twitterDescription: 'Birmingham maths tuition, live online: we measured the city canals and Venice, and the answer depends on what you count.',
   pageName: 'Maths Tuition in Birmingham',
   webPageDescription: 'Live online mathematics tuition for learners in Birmingham aged 6 to 67, from primary maths and Key Stage 3 to GCSE, A level and adult maths, with a measurement project on the canals of Birmingham and Venice.',
-  courseDescription: 'Live online maths lessons for Birmingham learners at every stage, taught in level-matched groups of five to ten or one to one, following the national curriculum and the GCSE and A level specifications.',
+  courseDescription: 'Live online maths lessons for Birmingham learners at every stage, taught in level-matched groups of fifteen to twenty or one to one, following the national curriculum and the GCSE and A level specifications.',
   crumbs: [{ name: 'Courses', href: '/courses' }, { name: 'Coding classes in the UK', href: '/coding-classes-in-united-kingdom' }],
   crumbLabel: 'Maths tuition in Birmingham',
   navLinks: [
@@ -66,12 +66,12 @@ module.exports = {
     ['Lower secondary', 'Key Stage 3 algebra, ratio and geometry'],
     ['GCSE', 'Foundation or Higher, AQA, Edexcel or OCR'],
     ['Grown-ups', 'GCSE resits, brush-ups, workplace maths'],
-    ['How', 'Live video, 5 to 10 in a class, or private'],
+    ['How', 'Live video, 15 to 20 in a class, or private'],
     ['Sixth form', 'A level Maths and Further Maths'],
     ['City project', 'Canal length, Birmingham against Venice']
   ],
   capsuleQ: 'Maths tuition in Birmingham, in brief',
-  capsule: 'Modern Age Coders is an online maths tutor for Birmingham learners aged 6 to 67: KS2 number, times tables and the Year 6 SATs, 11 plus maths, Key Stage 3, GCSE maths at either tier for AQA, Edexcel or OCR, IGCSE, A level Maths and Further Maths, and adults sitting a GCSE maths resit, brushing up for work or helping their children. Classes are matched by level and hold five to ten learners, or a learner can have a teacher to themselves. We follow the national curriculum and the exam specifications, and we build lessons on real measurements. Our Birmingham example: canal lines inside the city boundary measure 64.20 km on OpenStreetMap, against 49.62 km for the named canals of central Venice, yet Venice has far more separate canals. The first lesson is on us; afterwards a seat in a class is USD 100 per month and a private teacher USD 150 per month.',
+  capsule: 'Modern Age Coders is an online maths tutor for Birmingham learners aged 6 to 67: KS2 number, times tables and the Year 6 SATs, 11 plus maths, Key Stage 3, GCSE maths at either tier for AQA, Edexcel or OCR, IGCSE, A level Maths and Further Maths, and adults sitting a GCSE maths resit, brushing up for work or helping their children. Classes are matched by level and hold fifteen to twenty learners, or a learner can have a teacher to themselves. We follow the national curriculum and the exam specifications, and we build lessons on real measurements. Our Birmingham example: canal lines inside the city boundary measure 64.20 km on OpenStreetMap, against 49.62 km for the named canals of central Venice, yet Venice has far more separate canals. The first lesson is on us; afterwards a seat in a class is USD 100 per month and a private teacher USD 150 per month.',
 
   picks: {
     eyebrow: 'Most Birmingham families start here',
@@ -272,7 +272,7 @@ module.exports = {
     cells: [
       { h3: 'A teacher who stays', p: 'One person follows the learner from week to week and remembers what went wrong.' },
       { h3: 'News after lessons', p: 'Parents get a brief, honest note on progress.' },
-      { h3: 'Classes of five to ten', p: 'Matched by level so nobody is left behind or held back.' },
+      { h3: 'Classes of fifteen to twenty', p: 'Matched by level so nobody is left behind or held back.' },
       { h3: 'Measurement and data', p: 'Canals, maps and timetables alongside the usual exercises.' },
       { h3: 'Private option', p: 'One teacher, one learner, for a gap or a deadline.' },
       { h3: 'Reasons, not rules', p: 'Learners explain a method before they practise it.' }
@@ -287,7 +287,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A flat monthly fee in US dollars for every family outside India. There is no sign-up charge and no fixed term to commit to.',
     free: ['A full lesson at the learner\'s level', 'An honest summary for you', 'No payment card'],
-    group: ['A class of five to ten at one level', 'The same teacher each week', 'Work marked and discussed', 'Certificate on completion'],
+    group: ['A class of fifteen to twenty at one level', 'The same teacher each week', 'Work marked and discussed', 'Certificate on completion'],
     one: ['Private teaching', 'Built around one gap or goal', 'Good for the run-up to an exam']
   },
 
@@ -295,7 +295,7 @@ module.exports = {
     eyebrow: 'Birmingham maths questions',
     h2: 'Questions Birmingham families ask about maths',
     items: [
-      { q: 'What does maths tuition in Birmingham involve?', a: 'Regular live lessons with one teacher, either in a level-matched class of five to ten or privately. The teacher finds what a learner has missed, teaches it properly and checks it has stuck, from KS2 number work and the SATs to GCSE for AQA, Edexcel or OCR and A level.' },
+      { q: 'What does maths tuition in Birmingham involve?', a: 'Regular live lessons with one teacher, either in a level-matched class of fifteen to twenty or privately. The teacher finds what a learner has missed, teaches it properly and checks it has stuck, from KS2 number work and the SATs to GCSE for AQA, Edexcel or OCR and A level.' },
       { q: 'What is an error interval?', a: 'An error interval is the range a measurement could really lie in, given how it was rounded. A length of 64.20 km to 2 decimal places is at least 64.195 km and less than 64.205 km. GCSE asks students to write this with inequality signs.' },
       { q: 'Does Birmingham have more canals than Venice?', a: 'By our measurement, Birmingham has more length of canal inside its boundary (64.20 km) than the named canals of central Venice (49.62 km). But Venice has many more separate canals, and widening the area changes the answer, so the saying depends on what you count.' },
       { q: 'Do you teach 11 plus maths too?', a: 'Yes, on a separate page about the Birmingham grammar schools test. This page covers maths for everyone, from Year 1 to adult.' },

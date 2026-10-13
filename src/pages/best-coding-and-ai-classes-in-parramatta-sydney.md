@@ -16,7 +16,7 @@ Parramatta, Sydney, New South Wales / Live online
 
 Pick four public schools in Parramatta at random and average the years their first teachers arrived. Do it again, and again, twenty thousand times. The single years are lopsided: two schools go back to the 1850s and 1870s, half the list opened between 1950 and 1974, and the newest high school opened in 2025. Yet the averages of four already pile up in a near-symmetric hump, and the averages of twenty-five are tighter still, spread almost exactly as a short formula predicts. Our Parramatta project shows the central limit theorem working on local data, and why it matters whenever a computer reports an average.
 
-Facts last verified 10 October 2026. Teaching is online; no Parramatta branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Parramatta branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where a Parramatta learner might begin
 
@@ -189,7 +189,7 @@ The 49 schools in our project run from Parramatta North Public School, open sinc
 - **No commute** Two learners from opposite ends of the council area share a lesson without crossing the city, so the hour goes on coding rather than travel.
 - **NSW stages, plain English** Lessons follow the NSW stages from primary through Stage 6, pause in the state school holidays, and can connect projects to school computing and maths.
 - **A genuine trial** The free first lesson is a normal class. At the end the teacher suggests a level, a course and a time, and nothing is paid on the day.
-- **Groups by ability** Classes of five to ten, sorted by how far each learner has come rather than by birthday, with classmates from Parramatta and elsewhere.
+- **Groups by ability** Classes of fifteen to twenty, sorted by how far each learner has come rather than by birthday, with classmates from Parramatta and elsewhere.
 - **Two lessons a week** Usually two lessons a week at a fixed hour, around eight a month, with holiday breaks arranged in advance.
 - **Teachers in India** A 6pm Parramatta lesson in summer begins at 12:30pm India time; in winter, when Sydney leaves daylight saving, the same lesson begins at 1:30pm there.
 
@@ -200,7 +200,7 @@ The 49 schools in our project run from Parramatta North Public School, open sinc
 Three plain figures, with nothing held back.
 
 - First class: USD 0. One full lesson free, ending with a recommended level, course and time.
-- Group tuition: USD 100 a month. A month of lessons, normally eight, shared with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of lessons, normally eight, shared with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight lessons a month on the same rhythm, one teacher and one learner.
 
 Families outside India are invoiced in US dollars, so there is one price for the whole of Parramatta and no local price list. Payment starts only once the trial has settled a course and a slot; breaks, missed lessons and changing format are explained on the pricing page.
@@ -241,11 +241,11 @@ No, and we do not claim one. Every lesson is live online and we have no premises
 
 ### How much are coding classes for Parramatta learners?
 
-The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. The course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. The course, format and time are agreed before anything is paid.
 
 ### How large are the groups?
 
-Five to ten learners, grouped by level, pace and goal rather than age or suburb. If no group suits the time a learner needs, one-to-one lessons are offered.
+Fifteen to twenty learners, grouped by level, pace and goal rather than age or suburb. If no group suits the time a learner needs, one-to-one lessons are offered.
 
 ## More for Parramatta learners
 

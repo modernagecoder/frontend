@@ -16,7 +16,7 @@ Dún Laoghaire, County Dublin / Live online
 
 Dún Laoghaire-Rathdown County Council counts cyclists every hour at three points in Dún Laoghaire, at Seapoint Beach, People's Park and York Road, and records which way each one is going. Add the two directions together and Seapoint looks steady: about a thousand cyclists on an average weekday and about a thousand on a weekend day. Split them again and a pattern appears. On weekday mornings two thirds of Seapoint's cyclists head north; in the evening nearly two thirds head south. At People's Park the morning flow runs the other way. This page teaches a learner to take a total apart and read the direction, and the hour, that the total throws away.
 
-Facts last verified 20 September 2026. Teaching is online; no Dún Laoghaire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Dún Laoghaire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four first courses for Dún Laoghaire
 
@@ -147,7 +147,7 @@ Adding two columns is easy. Knowing what the sum throws away is the skill. The l
 In short.
 
 - **Live every time** A teacher runs each lesson in real time and works directly with each learner's code.
-- **Peers at one level** Five to ten learners at the same level, from Dún Laoghaire, the rest of Ireland or overseas.
+- **Peers at one level** Fifteen to twenty learners at the same level, from Dún Laoghaire, the rest of Ireland or overseas.
 - **Two days, set** Roughly eight lessons a month, on the same two days each week.
 - **School breaks** Holidays, mid-term breaks and exam weeks are planned into the course.
 - **Bring your own device** A laptop or desktop, headphones or speakers and a microphone, and a connection fit for video.
@@ -160,7 +160,7 @@ In short.
 As simple as it gets.
 
 - First class: USD 0. A free first lesson including a level check.
-- Group tuition: USD 100 a month. A month in a same-level group of five to ten, around eight live lessons.
+- Group tuition: USD 100 a month. A month in a same-level group of fifteen to twenty, around eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons on the same schedule.
 
 The fee in US dollars is the same for every family outside India, month by month. Nothing is owed for the free lesson, billing starts when the course starts, and the pricing page explains holidays, missed lessons and a change between group and private teaching.
@@ -197,11 +197,11 @@ Perhaps, but groups are made by level, so classmates are just as likely to be el
 
 ### What do coding classes in Dún Laoghaire cost?
 
-The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.
+The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.
 
 ### How big are the groups?
 
-Five to ten learners, grouped by level, pace and goals rather than by age or address. When no group fits a workable time, lessons are one to one.
+Fifteen to twenty learners, grouped by level, pace and goals rather than by age or address. When no group fits a workable time, lessons are one to one.
 
 ## Around Dún Laoghaire and the bay
 

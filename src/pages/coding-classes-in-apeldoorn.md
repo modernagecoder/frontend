@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Apeldoorn for ages 6 
 canonical: https://learn.modernagecoders.com/coding-classes-in-apeldoorn
 source: src/pages/coding-classes-in-apeldoorn.html
 ---
-> Coding classes in Apeldoorn serve a municipality of 169,212 people (Statistics Netherlands, 1 January 2026) spread across twelve settlements on the Veluwe, from the town itself at 141,255 down to Radio Kootwijk at about 100. Add the twelve published settlement figures and you get 167,200, which is 2,012 short of the municipal total, and the reason is that the settlement figures are dated 2023 and the municipal figure is dated 2026. Modern Age Coders teaches live online in English to all twelve, for ages 6 to 67; the first lesson is free, and after it a group of five to ten is USD 100 a month and one-to-one is USD 150.
+> Coding classes in Apeldoorn serve a municipality of 169,212 people (Statistics Netherlands, 1 January 2026) spread across twelve settlements on the Veluwe, from the town itself at 141,255 down to Radio Kootwijk at about 100. Add the twelve published settlement figures and you get 167,200, which is 2,012 short of the municipal total, and the reason is that the settlement figures are dated 2023 and the municipal figure is dated 2026. Modern Age Coders teaches live online in English to all twelve, for ages 6 to 67; the first lesson is free, and after it a group of fifteen to twenty is USD 100 a month and one-to-one is USD 150.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Apeldoorn
 
@@ -12,11 +12,11 @@ Apeldoorn, Gelderland / Live online
 
 # Coding classes in Apeldoorn, where the twelve villages fall 2,012 short of the town they belong to
 
-**What are the best coding classes in Apeldoorn?** Coding classes in Apeldoorn serve a municipality of 169,212 people (Statistics Netherlands, 1 January 2026) spread across twelve settlements on the Veluwe, from the town itself at 141,255 down to Radio Kootwijk at about 100. Add the twelve published settlement figures and you get 167,200, which is 2,012 short of the municipal total, and the reason is that the settlement figures are dated 2023 and the municipal figure is dated 2026. Modern Age Coders teaches live online in English to all twelve, for ages 6 to 67; the first lesson is free, and after it a group of five to ten is USD 100 a month and one-to-one is USD 150.
+**What are the best coding classes in Apeldoorn?** Coding classes in Apeldoorn serve a municipality of 169,212 people (Statistics Netherlands, 1 January 2026) spread across twelve settlements on the Veluwe, from the town itself at 141,255 down to Radio Kootwijk at about 100. Add the twelve published settlement figures and you get 167,200, which is 2,012 short of the municipal total, and the reason is that the settlement figures are dated 2023 and the municipal figure is dated 2026. Modern Age Coders teaches live online in English to all twelve, for ages 6 to 67; the first lesson is free, and after it a group of fifteen to twenty is USD 100 a month and one-to-one is USD 150.
 
 The twelve settlements of this municipality are published with 2023 populations. The municipality is published with a 2026 one. Add the twelve and you are 2,012 people short, and the tempting move is to call that three years of growth and move on. It is a tempting move because it almost works: the municipality has been adding about 624 people a year since 1995, so three years would be roughly 1,872. Almost is the problem. A child who has met a residual that fits a story without proving it has learned something most adults never do.
 
-Facts last verified 7 September 2026. Teaching is online; no Apeldoorn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Apeldoorn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a town of 141,255 and eleven villages around it
 
@@ -209,7 +209,7 @@ From Uddel or Radio Kootwijk the town is a serious drive, and on a January eveni
 On the page, so that nobody has to ask.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate applies and it is quoted in dollars, with no euro list, so a family in Uddel is charged what a family in the town is charged. Nothing is paid until the free lesson has produced a course and a time, and payment then goes over WhatsApp. Pausing, changing plan and missing a week are all covered on the pricing page.
@@ -250,7 +250,7 @@ No, and none is claimed near Het Loo, in Ugchelen or anywhere in the Netherlands
 
 ### What do Apeldoorn coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in an Apeldoorn group?
 

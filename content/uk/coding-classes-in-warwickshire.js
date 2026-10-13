@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in Warwickshire',
   capsuleQ: 'What are the best coding classes in Warwickshire?',
-  capsule: 'Warwickshire is five districts with 596,773 residents at the 2021 Census, and Coventry, though it sits in the middle of the map, is not one of them. The county\'s largest towns are Nuneaton and Rugby, then Royal Leamington Spa, Warwick, Bedworth, Stratford-upon-Avon and Kenilworth, with market towns and villages between. Every family gets the same kind of class wherever they are. Lessons are taught live over video by teachers in India, with each learner placed by what they can already do rather than their age, from 6 up to 67, either in a group of five to ten or one to one. Coding, Python, game making, data and maths are all taught. The Warwickshire project comes from Warwick Castle\'s trebuchet. The opening lesson is free, and after that it is USD 100 per month for a group place or USD 150 for private teaching.',
+  capsule: 'Warwickshire is five districts with 596,773 residents at the 2021 Census, and Coventry, though it sits in the middle of the map, is not one of them. The county\'s largest towns are Nuneaton and Rugby, then Royal Leamington Spa, Warwick, Bedworth, Stratford-upon-Avon and Kenilworth, with market towns and villages between. Every family gets the same kind of class wherever they are. Lessons are taught live over video by teachers in India, with each learner placed by what they can already do rather than their age, from 6 up to 67, either in a group of fifteen to twenty or one to one. Coding, Python, game making, data and maths are all taught. The Warwickshire project comes from Warwick Castle\'s trebuchet. The opening lesson is free, and after that it is USD 100 per month for a group place or USD 150 for private teaching.',
   lead: 'Every physics textbook says the same thing: to throw something as far as possible, launch it at 45 degrees. Warwick Castle has a 22-tonne trebuchet, almost 60 feet tall, which it calls Britain\'s largest working siege machine, and the obvious question a curious teenager asks on seeing it is how far it throws. This page\'s project goes one step further and asks what angle it should throw at. The answer is not 45 degrees, and the reason is the lesson. The textbook rule assumes a throw from ground level with no air. Neither is true of a trebuchet, and a short simulation shows exactly how much each assumption matters.',
   wa: 'Hello Modern Age Coders, we would like a free lesson for a learner in Warwickshire.',
 
@@ -172,7 +172,7 @@ module.exports = {
       { h3: 'From your own desk', p: 'A bedroom in Southam, a kitchen in Bulkington, a study in Alcester. The teacher shares a screen and the learner codes.' },
       { h3: 'UK school terms, in English', p: 'Key Stages, GCSE options and A levels are named as Warwickshire schools name them, and all teaching is in English.' },
       { h3: 'Free first lesson', p: 'A complete lesson of real work with a plain recommendation afterwards. Nobody asks for payment details.' },
-      { h3: 'Classmates at your level', p: 'Groups of five to ten learners at the same stage, gathered from many places, so the pace suits everyone.' },
+      { h3: 'Classmates at your level', p: 'Groups of fifteen to twenty learners at the same stage, gathered from many places, so the pace suits everyone.' },
       { h3: 'Breaks you agree', p: 'Usually two lessons a week, paused for your school\'s own holidays, which can differ between schools and academies.' },
       { h3: 'Always in UK time', p: 'Teachers are in India, 4.5 hours ahead during British Summer Time and 5.5 hours ahead in winter. Each lesson time is confirmed in UK time.' }
     ],
@@ -183,7 +183,7 @@ module.exports = {
     h2: 'Fees in Warwickshire',
     intro: 'Every Warwickshire town pays the same, and so does every country outside India.',
     first: 'A full lesson of real work, ending in a suggested level and course.',
-    group: 'Around eight lessons each month in a group of five to ten at one level.',
+    group: 'Around eight lessons each month in a group of fifteen to twenty at one level.',
     private: 'Around eight lessons each month with one teacher for one learner.',
     closer: 'Fees are in US dollars, which is what we charge families everywhere except India, and there is no list in pounds. Payment starts only after the free lesson has settled a course and a weekly time; how pausing, missing a lesson and switching between group and private work is explained on the pricing page.'
   },

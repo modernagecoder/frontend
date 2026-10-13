@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Coding classes in County Louth',
   capsuleQ: 'What are the best coding classes in County Louth?',
-  capsule: 'Louth is the smallest county in Ireland by area and among the most urban by population: 139,703 people, 57% of them in towns of ten thousand or more, split between two large towns that almost match each other in size. It also carries the joint highest unemployment rate in the country at 11%, and a third-level rate of 40% against a national 45%, which is the gap a good class can help a family close. Ours are live and online, so Dundalk, Drogheda, Ardee and Carlingford all sit the same distance from the teacher. We take learners aged 6 to 67, in groups of five to ten matched by ability or one to one, at a fixed weekly hour. The first lesson costs nothing; then it is USD 100 a month in a group or USD 150 privately.',
+  capsule: 'Louth is the smallest county in Ireland by area and among the most urban by population: 139,703 people, 57% of them in towns of ten thousand or more, split between two large towns that almost match each other in size. It also carries the joint highest unemployment rate in the country at 11%, and a third-level rate of 40% against a national 45%, which is the gap a good class can help a family close. Ours are live and online, so Dundalk, Drogheda, Ardee and Carlingford all sit the same distance from the teacher. We take learners aged 6 to 67, in groups of fifteen to twenty matched by ability or one to one, at a fixed weekly hour. The first lesson costs nothing; then it is USD 100 a month in a group or USD 150 privately.',
   lead: 'Search Ireland\'s open data portal for County Louth and you will find a road schedule: every road in the county, derived from Ordnance Survey centre lines and the councils\' own records, published under a Creative Commons licence. It sounds ideal. Open the record properly and the dataset has exactly one resource attached, and that resource is a link to the council\'s homepage. There is no file. Nothing to download, nothing to analyse, and no error message either: just a registered dataset with nothing inside it. That is a real and common experience in open data, and learning to check it in thirty seconds, before planning a project around something that is not there, is a genuine skill. So this page uses a different Louth problem instead, one that does contain data and does contain a trap: a single-line filter that quietly deletes the county\'s biggest town from the answer.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in County Louth.',
 
@@ -193,7 +193,7 @@ module.exports = {
       { h3: 'One class, both ends', p: 'A learner in Carlingford and one in Termonfeckin sit in the same group, which no room in either town could manage on a Tuesday evening.' },
       { h3: 'Stages named the Irish way', p: 'First Year, the Junior Cycle, Transition Year and sixth year are used as they are used in school here, so parents never have to translate.' },
       { h3: 'A free lesson that teaches', p: 'Real work on a real task, with a recommendation on level, course and hour afterwards, and no card details asked for at any point.' },
-      { h3: 'Grouped by what they can do', p: 'Five to ten learners at one level, drawn from Louth and other countries, so every level has a group at a workable hour.' },
+      { h3: 'Grouped by what they can do', p: 'Fifteen to twenty learners at one level, drawn from Louth and other countries, so every level has a group at a workable hour.' },
       { h3: 'Around a commuting household', p: 'Two lessons a week, roughly eight a month, at a fixed time, with pauses for mid-terms, exams and holidays agreed in advance.' },
       { h3: 'Teachers on Indian time', p: 'Their clock does not shift, so they sit four and a half hours ahead of Ireland in summer and five and a half in winter; Louth evenings fall comfortably inside their working day.' }
     ],
@@ -204,7 +204,7 @@ module.exports = {
     h2: 'What classes cost in County Louth',
     intro: 'Three figures, and no additions later.',
     first: 'One full lesson at no cost, ending with an honest placement and a recommended course.',
-    group: 'A month of teaching, generally eight lessons, with five to ten learners of similar ability.',
+    group: 'A month of teaching, generally eight lessons, with fifteen to twenty learners of similar ability.',
     private: 'The same month of about eight lessons, with a teacher working with one learner only.',
     closer: 'Fees are in US dollars on the single rate charged outside India, so Dundalk pays what Ardee pays and there is no euro list. Nothing is charged until the free lesson has settled a course and a weekly hour. Pauses, missed lessons and changes of format are set out on the pricing page.'
   },
@@ -229,7 +229,7 @@ module.exports = {
       { q: 'Does the county have a third-level option?', a: 'Dundalk Institute of Technology is in the county and describes itself as the leading higher education institute in the North East and cross-border region of Ireland. We have no connection with it.' },
       { q: 'What hours do classes run?', a: 'Afternoons, evenings and weekend mornings. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter, and the weekly hour is set in the free lesson.' },
       { q: 'Is there a Modern Age Coders classroom in Louth?', a: 'No, and we never imply one. Teaching is live online only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number on this page is an Indian one.', boiler: true },
-      { q: 'What do County Louth coding classes cost?', a: 'The first lesson is free. Continuing costs USD 100 a month for a group place, which covers two live lessons a week and about eight a month with five to ten learners, or USD 150 a month taught privately on the same schedule. Everything is agreed before payment.', boiler: true },
+      { q: 'What do County Louth coding classes cost?', a: 'The first lesson is free. Continuing costs USD 100 a month for a group place, which covers two live lessons a week and about eight a month with fifteen to twenty learners, or USD 150 a month taught privately on the same schedule. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on ability, pace and goal rather than age or address. Where nothing suitable runs at a workable hour, we offer one-to-one lessons instead.', boiler: true }
     ]
   },

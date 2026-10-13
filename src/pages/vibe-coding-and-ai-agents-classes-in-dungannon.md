@@ -4,7 +4,7 @@ description: "Live online vibe coding, AI agents and Python lessons for Dunganno
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-dungannon
 source: src/pages/vibe-coding-and-ai-agents-classes-in-dungannon.html
 ---
-> Dungannon town had 16,282 people usually resident on census day 2021, NISRA reports, and the wider Dungannon electoral area of Mid Ulster held 25,640. Ballysaggart, Killymeal, Mullaghmore and Moygashel are among the census wards around the town. Our tutors in India teach vibe coding, AI agents, Python, coding and maths on camera to anyone from six to 67, privately or in a class of five to ten matched by stage. We start with reasoning, so a learner can spot an agent carrying on with a plan that no longer works. Lesson one is free, and by the end of it we suggest which course suits. In the Dungannon project an agent drives 105.0 km of mapped roads, finds a road closed partway through a trip, and the learner compares ways of recovering. Carrying on costs USD 100 a month in a small group or USD 150 a month for one-to-one teaching.
+> Dungannon town had 16,282 people usually resident on census day 2021, NISRA reports, and the wider Dungannon electoral area of Mid Ulster held 25,640. Ballysaggart, Killymeal, Mullaghmore and Moygashel are among the census wards around the town. Our tutors in India teach vibe coding, AI agents, Python, coding and maths on camera to anyone from six to 67, privately or in a class of fifteen to twenty matched by stage. We start with reasoning, so a learner can spot an agent carrying on with a plan that no longer works. Lesson one is free, and by the end of it we suggest which course suits. In the Dungannon project an agent drives 105.0 km of mapped roads, finds a road closed partway through a trip, and the learner compares ways of recovering. Carrying on costs USD 100 a month in a small group or USD 150 a month for one-to-one teaching.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Northern Ireland](/coding-and-ai-classes-in-northern-ireland) / Dungannon
 
@@ -12,11 +12,11 @@ Dungannon, County Tyrone, Northern Ireland / Live online
 
 # Vibe coding and AI agents classes in Dungannon
 
-**Where can Dungannon learners find the best vibe coding and AI agents classes?** Dungannon town had 16,282 people usually resident on census day 2021, NISRA reports, and the wider Dungannon electoral area of Mid Ulster held 25,640. Ballysaggart, Killymeal, Mullaghmore and Moygashel are among the census wards around the town. Our tutors in India teach vibe coding, AI agents, Python, coding and maths on camera to anyone from six to 67, privately or in a class of five to ten matched by stage. We start with reasoning, so a learner can spot an agent carrying on with a plan that no longer works. Lesson one is free, and by the end of it we suggest which course suits. In the Dungannon project an agent drives 105.0 km of mapped roads, finds a road closed partway through a trip, and the learner compares ways of recovering. Carrying on costs USD 100 a month in a small group or USD 150 a month for one-to-one teaching.
+**Where can Dungannon learners find the best vibe coding and AI agents classes?** Dungannon town had 16,282 people usually resident on census day 2021, NISRA reports, and the wider Dungannon electoral area of Mid Ulster held 25,640. Ballysaggart, Killymeal, Mullaghmore and Moygashel are among the census wards around the town. Our tutors in India teach vibe coding, AI agents, Python, coding and maths on camera to anyone from six to 67, privately or in a class of fifteen to twenty matched by stage. We start with reasoning, so a learner can spot an agent carrying on with a plan that no longer works. Lesson one is free, and by the end of it we suggest which course suits. In the Dungannon project an agent drives 105.0 km of mapped roads, finds a road closed partway through a trip, and the learner compares ways of recovering. Carrying on costs USD 100 a month in a small group or USD 150 a month for one-to-one teaching.
 
 An AI agent works from a plan: book this, then send that, then update the other. Real plans break. A website is down, a file is missing, a road is closed. What the agent does next matters as much as the plan it started with. It can throw the plan away and replan from scratch, which is thorough but costly. It can patch the plan locally, finding a way around the broken step and carrying on, which is cheap but not always as good. And sometimes the goal is no longer reachable at all, which a well-built agent must notice rather than loop. This project tests all three on Dungannon's road network from OpenStreetMap, with a driving agent that only discovers a closure when it gets there.
 
-Facts last verified 29 September 2026. Teaching is online; no Dungannon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Dungannon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Dungannon learners begin: thinking, vibe coding and agents
 
@@ -130,7 +130,7 @@ Kit: any laptop or desktop with a camera, plus broadband good enough for video.
 - **The learner types** Every line of code and every prompt comes from the student, while the tutor follows through screen share and asks what should happen if a step fails.
 - **Level from lesson one** Half an hour of real coding in the trial tells the tutor where to begin; upcoming CCEA exams go on the plan.
 - **First lesson on us** Session one is free and closes with a course suggestion.
-- **Classmates at your level** Groups of five to ten are formed by ability, not by postcode.
+- **Classmates at your level** Groups of fifteen to twenty are formed by ability, not by postcode.
 - **Term-time rhythm** Twice weekly, stopping for holidays.
 - **Slot that stays put** Tutors adjust to UK clock changes so your lesson time does not.
 

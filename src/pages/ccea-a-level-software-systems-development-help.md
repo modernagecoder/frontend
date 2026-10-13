@@ -213,14 +213,14 @@ Our teachers are in India, where clocks never change, so Northern Ireland runs f
 - **Classes on paper** Short object-oriented exercises handwritten, because AS 1 is a written paper.
 - **Past case studies** A2 1 theory practised against CCEA case studies from earlier years, never the live one.
 - **Robust by habit** Validation through exception handling in classes, in every practice application.
-- **Five to ten per group** Students at one rung, reviewing each other's queries and code.
+- **Fifteen to twenty per group** Students at one rung, reviewing each other's queries and code.
 
 ## Fees for A level lessons
 
 Charged monthly in US dollars, at the rate all our families outside India pay. There is no cost for a first lesson, and no bill until a course and a regular weekly slot are agreed.
 
 - Free first class: USD 0. A real lesson on A level material. An honest placement on the rungs. A phone number is all it takes.
-- Group batch: USD 100 a month. Five to ten students on one rung. The same teacher through Years 13 and 14. Hand-written SQL checked every week. Lighter near portfolio deadlines.
+- Group batch: USD 100 a month. Fifteen to twenty students on one rung. The same teacher through Years 13 and 14. Hand-written SQL checked every week. Lighter near portfolio deadlines.
 - One to one: USD 150 a month. A teacher for one student. Planned back from exam and deadline dates. Suits a student catching up on SQL.
 
 ## What A level students and parents ask

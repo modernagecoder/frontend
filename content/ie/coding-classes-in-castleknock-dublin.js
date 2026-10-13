@@ -162,7 +162,7 @@ module.exports = {
     intro: 'The essentials.',
     cells: [
       { h3: 'Teacher on the call', p: 'A teacher leads the lesson in real time and watches each learner\'s code as it is written.' },
-      { h3: 'Grouped by ability', p: 'Five to ten learners working at the same level, from Castleknock, other parts of Ireland or abroad.' },
+      { h3: 'Grouped by ability', p: 'Fifteen to twenty learners working at the same level, from Castleknock, other parts of Ireland or abroad.' },
       { h3: 'A steady schedule', p: 'About eight lessons a month, on two regular days set when the course starts.' },
       { h3: 'Breaks planned in', p: 'Mid-term breaks, holidays and exam periods are part of the plan from the outset.' },
       { h3: 'The setup', p: 'A laptop or desktop, sound and a microphone, and broadband steady enough for video.' },
@@ -175,7 +175,7 @@ module.exports = {
     h2: 'What lessons cost in Castleknock',
     intro: 'Three prices.',
     first: 'Lesson one, including a level check: free.',
-    group: 'A month of group lessons, five to ten learners at one level, about eight sessions.',
+    group: 'A month of group lessons, fifteen to twenty learners at one level, about eight sessions.',
     private: 'A month of private lessons at the same pace.',
     closer: 'Outside India every family pays the same US dollar amount per month. The free lesson is exactly that, the first payment falls due when the course starts, and holidays, missed lessons and a switch between group and private teaching are all explained on the pricing page.'
   },
@@ -199,7 +199,7 @@ module.exports = {
       { q: 'When do lessons take place?', a: 'After school on weekdays, in the evenings, and in the daytime at weekends. India, where our teachers are, runs ahead of Ireland by five and a half hours in winter and four and a half in summer, and lesson times are chosen to suit both.' },
       { q: 'Do you teach adults in Castleknock?', a: 'We do, up to sixty-seven, and beginners are welcome. Whether an adult learns in a group at their level or one to one is decided together after the first lesson.' },
       { q: 'Who will my child learn alongside?', a: 'Learners at the same level, who might live in Castleknock, elsewhere in Ireland or in another country altogether.' },
-      { q: 'What do coding classes in Castleknock cost?', a: 'The first lesson is free. A group place is then USD 100 a month for around eight live lessons, two a week, with five to ten learners; one-to-one lessons on the same pattern are USD 150 a month. Terms are agreed before any payment.', boiler: true },
+      { q: 'What do coding classes in Castleknock cost?', a: 'The first lesson is free. A group place is then USD 100 a month for around eight live lessons, two a week, with fifteen to twenty learners; one-to-one lessons on the same pattern are USD 150 a month. Terms are agreed before any payment.', boiler: true },
       { q: 'How many learners are in each group?', a: 'Between five and ten, matched on level, pace and aims rather than on age or address. Where no group suits at a workable hour, lessons are one to one.', boiler: true }
     ]
   },

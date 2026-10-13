@@ -4,7 +4,7 @@ description: "Online coding, AI, Python and vibe coding lessons for South Shield
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-south-shields
 source: src/pages/best-coding-and-ai-classes-in-south-shields.html
 ---
-> The 2021 census counted 147,776 usual residents in South Tyneside, and the ONS gives the South Shields built-up area 73,345, Jarrow 29,470 and Hebburn 21,345. Westoe, Harton, Biddick Hall, Simonside and Horsley Hill are among the suburbs on record in the borough. Anyone aged 6 to 67 there can take coding, AI, Python, vibe coding and maths in live video lessons with our tutors in India, privately or in a group of five to ten at the same stage. Thinking comes first in every course, so a learner can explain and test what an AI suggests. Your first lesson is on us and closes with our advice on a course. The South Shields project builds attention, the core idea inside the language models behind today's chatbots, from Census data on 543 small areas. From month two, lessons are USD 100 a month in a group or USD 150 a month privately.
+> The 2021 census counted 147,776 usual residents in South Tyneside, and the ONS gives the South Shields built-up area 73,345, Jarrow 29,470 and Hebburn 21,345. Westoe, Harton, Biddick Hall, Simonside and Horsley Hill are among the suburbs on record in the borough. Anyone aged 6 to 67 there can take coding, AI, Python, vibe coding and maths in live video lessons with our tutors in India, privately or in a group of fifteen to twenty at the same stage. Thinking comes first in every course, so a learner can explain and test what an AI suggests. Your first lesson is on us and closes with our advice on a course. The South Shields project builds attention, the core idea inside the language models behind today's chatbots, from Census data on 543 small areas. From month two, lessons are USD 100 a month in a group or USD 150 a month privately.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North East England](/coding-and-ai-classes-in-north-east-england) / South Shields
 
@@ -12,11 +12,11 @@ South Shields, South Tyneside, England / Live online
 
 # Coding and AI classes in South Shields
 
-**Where can South Shields learners find the best coding and AI classes?** The 2021 census counted 147,776 usual residents in South Tyneside, and the ONS gives the South Shields built-up area 73,345, Jarrow 29,470 and Hebburn 21,345. Westoe, Harton, Biddick Hall, Simonside and Horsley Hill are among the suburbs on record in the borough. Anyone aged 6 to 67 there can take coding, AI, Python, vibe coding and maths in live video lessons with our tutors in India, privately or in a group of five to ten at the same stage. Thinking comes first in every course, so a learner can explain and test what an AI suggests. Your first lesson is on us and closes with our advice on a course. The South Shields project builds attention, the core idea inside the language models behind today's chatbots, from Census data on 543 small areas. From month two, lessons are USD 100 a month in a group or USD 150 a month privately.
+**Where can South Shields learners find the best coding and AI classes?** The 2021 census counted 147,776 usual residents in South Tyneside, and the ONS gives the South Shields built-up area 73,345, Jarrow 29,470 and Hebburn 21,345. Westoe, Harton, Biddick Hall, Simonside and Horsley Hill are among the suburbs on record in the borough. Anyone aged 6 to 67 there can take coding, AI, Python, vibe coding and maths in live video lessons with our tutors in India, privately or in a group of fifteen to twenty at the same stage. Thinking comes first in every course, so a learner can explain and test what an AI suggests. Your first lesson is on us and closes with our advice on a course. The South Shields project builds attention, the core idea inside the language models behind today's chatbots, from Census data on 543 small areas. From month two, lessons are USD 100 a month in a group or USD 150 a month privately.
 
 The large language models behind today's chatbots are built around an operation called attention. Faced with a word, the model compares it with every other word in view, gives each a weight that says how relevant it seems, and blends what they carry in proportion to those weights. The jargon is queries, keys and values: the query is what you are looking for, each key is how an item advertises itself, and each value is what it hands over if chosen. The idea is simple enough to build by hand. In this project the items are South Tyneside's 543 Census output areas rather than words, and attention is used to guess a hidden area's share of households without a car by looking at areas that resemble it.
 
-Facts last verified 29 September 2026. Teaching is online; no South Shields branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no South Shields branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## South Shields courses in thinking, Python and AI
 
@@ -134,7 +134,7 @@ Lessons need only a computer with a webcam and a connection steady enough for vi
 - **The learner drives** All typing, prompting and running is done by the student; the tutor follows the shared screen and questions each step.
 - **Set by the trial** The free lesson reveals what the learner already knows, which fixes where we begin; exam boards are noted too.
 - **No-charge first class** Class one is free and wraps up with our suggested course.
-- **Stage-matched classes** Five to ten learners from around Britain share each group, all at one level.
+- **Stage-matched classes** Fifteen to twenty learners from around Britain share each group, all at one level.
 - **Two sessions a week** Holidays off, in line with school terms.
 - **Clock-proof slots** When the UK clocks change, our tutors move and your lesson time does not.
 

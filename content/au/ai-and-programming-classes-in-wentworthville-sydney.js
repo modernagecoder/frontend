@@ -303,7 +303,7 @@ module.exports = {
       { h3: 'Real-time teaching', p: 'Code and models are built during the class, with the teacher watching each step.' },
       { h3: 'Fits NSW schooling', p: 'Teachers use NSW stages and years and plan around the state calendar.' },
       { h3: 'Trial lesson free', p: 'One full lesson without charge, ending in a suggested course and time.' },
-      { h3: 'Five to ten learners', p: 'Groups share a level; individual teaching is available instead.' },
+      { h3: 'Fifteen to twenty learners', p: 'Groups share a level; individual teaching is available instead.' },
       { h3: 'Regular sessions', p: 'Two a week at fixed times, close to eight a month, with breaks shared early.' },
       { h3: 'Teachers in India', p: 'A 5:30pm Wentworthville lesson is noon India time in Sydney summer time and 1pm the rest of the year.' }
     ],
@@ -316,7 +316,7 @@ module.exports = {
     h2: 'Wentworthville lesson fees',
     intro: 'A single flat price list for all courses.',
     first: 'The opening lesson is free, and the teacher then suggests a course and a time.',
-    group: 'Two group lessons a week, about eight a month, in a class of five to ten at one level.',
+    group: 'Two group lessons a week, about eight a month, in a class of fifteen to twenty at one level.',
     private: 'Private lessons twice a week, again about eight a month.',
     closer: 'Wentworthville families pay in US dollars, and payment begins only after the trial has agreed a course and slot. See the pricing page for holidays, missed lessons and switching formats.'
   },
@@ -362,12 +362,12 @@ module.exports = {
       },
       {
         q: 'How much do Wentworthville lessons cost?',
-        a: 'The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.',
+        a: 'The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.',
         boiler: true
       },
       {
         q: 'How big are the groups?',
-        a: 'Five to ten learners, grouped by level and goals rather than age. If no group fits the learner\'s schedule, one-to-one lessons are offered instead.',
+        a: 'Fifteen to twenty learners, grouped by level and goals rather than age. If no group fits the learner\'s schedule, one-to-one lessons are offered instead.',
         boiler: true
       }
     ]

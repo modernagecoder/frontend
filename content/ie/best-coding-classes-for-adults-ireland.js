@@ -127,7 +127,7 @@ module.exports = {
           ],
           right: [
             'What those routes do not give everyone is a teacher who knows you. Self-paced online courses have famously low completion rates, and a Springboard+ course starts when its intake starts, not when you are ready.',
-            'Our classes start any week, put you in a group of five to ten at your level or with a teacher alone, and go at your pace. Many of our adult students use both: a funded course for the certificate, and weekly lessons to keep up with it.'
+            'Our classes start any week, put you in a group of fifteen to twenty at your level or with a teacher alone, and go at your pace. Many of our adult students use both: a funded course for the certificate, and weekly lessons to keep up with it.'
           ] },
         { kind: 'source', html: 'Sources: <a class="ag-inline-link" href="https://www.gov.ie/en/department-of-further-and-higher-education-research-innovation-and-science/press-releases/minister-lawless-launches-springboard-2026-courses/" rel="noopener" target="_blank">gov.ie, Springboard+ 2026 launch</a> and <a class="ag-inline-link" href="https://www.gov.ie/en/department-of-further-and-higher-education-research-innovation-and-science/services/free-online-courses-with-ecollege/" rel="noopener" target="_blank">gov.ie, free online courses with eCollege</a>, read 16 September 2026. We have no connection with either programme, and eligibility rules are theirs, not ours: check them on the official sites.' }
       ]
@@ -217,7 +217,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'You write something real with a teacher and get an honest view of where to start. No sales pitch.' },
-      { h3: 'Adults in the group', p: 'Groups of five to ten at one level; adult beginners are placed with other adult beginners.' },
+      { h3: 'Adults in the group', p: 'Groups of fifteen to twenty at one level; adult beginners are placed with other adult beginners.' },
       { h3: 'One to one', p: 'For an unpredictable shift pattern, or when you would rather not learn in front of others.' },
       { h3: 'Missed weeks happen', p: 'Work travel and family come first. Slots can move, and your teacher keeps track of where you were.' },
       { h3: 'Your own project', p: 'From early on, the work is something you actually want: a tool for your job, a site, an analysis.' },

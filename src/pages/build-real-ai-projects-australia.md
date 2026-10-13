@@ -229,7 +229,7 @@ Lessons come from our team in India, at times that fall in Australian after-scho
 - **Weekend** Longer data and modelling sessions.
 
 - **Free first class** A baseline scored on real data, in one lesson.
-- **Small groups** Five to ten learners reviewing each other's reports.
+- **Small groups** Fifteen to twenty learners reviewing each other's reports.
 - **One to one** For one project, at your depth.
 - **Licensed data** Every dataset's licence noted.
 - **Baselines first** No model without something to beat.
@@ -240,7 +240,7 @@ Lessons come from our team in India, at times that fall in Australian after-scho
 Learners in Australia pay a monthly fee in US dollars. Joining costs nothing, and lessons may stop at the close of any month.
 
 - Free first class: USD 0. A baseline on real data. A project idea matched to age. No payment details.
-- Group batch: USD 100 a month. Five to ten learners per group. Report reviews between learners. A regular teacher. Stop at any month's close.
+- Group batch: USD 100 a month. Fifteen to twenty learners per group. Report reviews between learners. A regular teacher. Stop at any month's close.
 - One to one: USD 150 a month. One learner's own project. Depth set by the learner. Times around school or work.
 
 ## Questions about building real AI projects in Australia

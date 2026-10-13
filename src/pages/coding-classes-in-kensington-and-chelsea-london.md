@@ -16,7 +16,7 @@ Royal Borough of Kensington and Chelsea / Live online
 
 Historic England's list entry for Cosmic House, listed at Grade I in 2018, describes a staircase at its heart called the Solar Stair. It has 52 steps, one for each week of the year, and each step is divided into seven, one for each day. Count them: 52 times 7 is 364. The real calendar year is 365 days, or 366 in a leap year, so the stair is always a day or two short. That gap is where our learners start. They use Python's calendar to find that 400 years of our calendar contain exactly 97 leap years and exactly 20,871 weeks, so the whole pattern of weekdays repeats every four centuries. They discover that the 13th of the month is a Friday slightly more often than any other day. And they use continued fractions to find the neatest leap-year rules possible.
 
-Facts last verified 25 September 2026. Teaching is online; no Kensington and Chelsea branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Kensington and Chelsea branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses to start with here
 
@@ -141,7 +141,7 @@ A learner at the northern edge of the borough and one by the river in Chelsea ca
 
 ### A weekly rhythm
 
-Like the Solar Stair, our classes keep a steady weekly pattern: two evenings, a group of five to ten at one stage.
+Like the Solar Stair, our classes keep a steady weekly pattern: two evenings, a group of fifteen to twenty at one stage.
 
 **Kensington and Chelsea among the boroughs** Kensington and Chelsea is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) lists them all with the City, linking each page when it goes live, including [Hammersmith and Fulham](/coding-classes-in-hammersmith-and-fulham-london) to the west.
 
@@ -182,7 +182,7 @@ Wherever a learner lives in the Royal Borough, their lesson is a video call away
 The first lesson is free; then there is one monthly fee throughout the Royal Borough.
 
 - First class: USD 0. A full first lesson with a teacher, free, ending with a recommended level, course and time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a class of five to ten at one stage.
+- Group tuition: USD 100 a month. About eight live lessons a month in a class of fifteen to twenty at one stage.
 - Private tuition: USD 150 a month. About eight live lessons a month, one to one.
 
 The monthly fee is set in US dollars for every family outside India, so this site never shows a price in pounds. There is no bill at all until the free lesson has happened and you have settled on a course and a fixed weekly slot. The pricing page explains pausing, missed lessons and changing between group and private teaching.
@@ -223,11 +223,11 @@ No. There is no Kensington and Chelsea centre and no premises anywhere in the UK
 
 ### What do coding classes in Kensington and Chelsea cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## Other London boroughs
 

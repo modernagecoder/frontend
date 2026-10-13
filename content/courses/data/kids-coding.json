@@ -956,7 +956,7 @@
   ],
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
-    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "small_batches": "Small batches only: group classes are capped at 20 students, with mini-batch (up to 6 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and homework after every class.",
     "real_assessment": "Mixed-review challenges after every month and a final exam that decides the certificate: real knowledge, real work, real projects.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
@@ -998,7 +998,7 @@
     },
     {
       "question": "How much do classes cost each month?",
-      "answer": "₹1,499 per month for group classes, which include 2 live classes a week in batches of no more than 10 kids. Smaller mini batches of 3-4 students are ₹2,999 per month, and dedicated 1-on-1 classes are ₹4,999 per month. For students outside India, prices are set per country and shown on this page in the local currency."
+      "answer": "₹1,499 per month for group classes, which include 2 live classes a week in batches of no more than 20 kids. Smaller mini batches of up to 6 students are ₹2,999 per month, and dedicated 1-on-1 classes are ₹4,999 per month. For students outside India, prices are set per country and shown on this page in the local currency."
     },
     {
       "question": "Is there a free trial class?",

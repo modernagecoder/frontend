@@ -51,7 +51,7 @@ module.exports = {
 
   h1: 'Coding classes in the City of London',
   capsuleQ: 'What are the best coding classes in the City of London?',
-  capsule: 'The City of London is the Square Mile of the Barbican, Smithfield, Aldgate, Bank, Temple, Blackfriars and Liverpool Street, home to only 8,583 residents at the 2021 Census, the fewest of any London local authority, yet to 86 Grade I buildings including St Paul\'s Cathedral and the Monument. A class worth joining lets a learner discover a law of nature with code rather than read it in a book, and this page does that with arches: hang a virtual chain, let the computer find the shape of least energy, and turn it upside down to get the ideal arch. Teaching happens live on video from India, for anyone aged 6 to 67, one to one or in a group of five to ten learners at the same stage. Lesson one is free; from then on, group places cost USD 100 a month and private lessons USD 150 a month.',
+  capsule: 'The City of London is the Square Mile of the Barbican, Smithfield, Aldgate, Bank, Temple, Blackfriars and Liverpool Street, home to only 8,583 residents at the 2021 Census, the fewest of any London local authority, yet to 86 Grade I buildings including St Paul\'s Cathedral and the Monument. A class worth joining lets a learner discover a law of nature with code rather than read it in a book, and this page does that with arches: hang a virtual chain, let the computer find the shape of least energy, and turn it upside down to get the ideal arch. Teaching happens live on video from India, for anyone aged 6 to 67, one to one or in a group of fifteen to twenty learners at the same stage. Lesson one is free; from then on, group places cost USD 100 a month and private lessons USD 150 a month.',
   lead: 'Historic England\'s list entry for St Paul\'s Cathedral records a rebuilding by Sir Christopher Wren between 1675 and 1710, in Portland stone, with a great central dome, after the medieval cathedral burnt in the Great Fire. Nearby stands Wren\'s Monument to that fire, built between 1671 and 1677. Buildings like these raise a question every engineer faces: what shape should an arch or a dome be, so that it carries its own weight without bending? There is a beautifully simple answer, and learners find it themselves. Hang a chain between two points and it settles into a curve where every link pulls purely along the chain. Flip that curve upside down and every stone would push purely along the arch. Our learners let a computer hang a chain of 60 links, compare the result with the curves they know, and see which one nature chose.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in the City of London.',
 
@@ -176,7 +176,7 @@ module.exports = {
       { h3: 'A screen at home', p: 'A laptop or desktop, a headset and broadband that handles video are all that is required.' },
       { h3: 'Key Stages in England', p: 'Progress reports use English Key Stages, from the start of primary to sixth form, with GCSE and A level where they apply. Lessons are in English.' },
       { h3: 'Nothing to pay first', p: 'The opening lesson is free and properly taught, ending with the teacher\'s advice on level and course; no card is taken.' },
-      { h3: 'Classmates from everywhere', p: 'With so few City residents, each class of five to ten at one stage is drawn from across the UK and beyond.' },
+      { h3: 'Classmates from everywhere', p: 'With so few City residents, each class of fifteen to twenty at one stage is drawn from across the UK and beyond.' },
       { h3: 'Two evening sessions', p: 'Most classes meet on two evenings a week and break for holidays and exams by agreement.' },
       { h3: 'London time', p: 'Teachers work from India; every time we send is already in UK time.' }
     ],
@@ -187,7 +187,7 @@ module.exports = {
     h2: 'Fees for City families',
     intro: 'A free first lesson, then one monthly fee, the same as everywhere else in London.',
     first: 'A complete first lesson with a teacher, free, closing with a recommended level, course and time.',
-    group: 'About eight live lessons a month, in a class of five to ten at one stage.',
+    group: 'About eight live lessons a month, in a class of fifteen to twenty at one stage.',
     private: 'About eight live lessons a month, one to one.',
     closer: 'Families in the City are billed in US dollars, as every family outside India is, and the site shows no pound prices. Billing starts only after the free lesson, once a course and a regular evening are agreed. The pricing page explains pauses, missed lessons and changes between class and private teaching.'
   },
@@ -212,8 +212,8 @@ module.exports = {
       { q: 'When would City lessons happen?', a: 'After the free lesson we suggest a class at the right level with a free place and its regular evening, given in UK time; the teacher is in India.' },
       { q: 'What does a learner need?', a: 'A computer with sound and a reliable connection. The arch project needs Python with its standard scientific libraries.' },
       { q: 'Is there a Modern Age Coders centre in the City of London?', a: 'No. There is no City of London centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in the City of London cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in the City of London cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

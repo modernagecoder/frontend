@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Vibe coding and AI agents classes in Sutton Coldfield',
   capsuleQ: 'Where can Sutton Coldfield learners find the best vibe coding and AI agents classes?',
-  capsule: 'The ONS counted 93,375 people in the Royal Sutton Coldfield built-up area at the 2021 census, inside the city of Birmingham. Four Oaks, Mere Green, Boldmere, Walmley, Wylde Green and Maney are among its recorded suburbs. Six-year-olds, teenagers and adults up to 67 can all take vibe coding, AI agents, Python, coding and maths here by live video with a tutor in India, in private sessions or a class of five to ten at one stage. We teach how systems behave before handing over tools, so learners understand why an agent gets blocked and how to stop it happening. A free first session ends with our pick of course. The Sutton Coldfield project records 20 real map downloads covering the town, then tests how different agents fare against a service that rations data with a token bucket. Afterwards a class place is USD 100 per month and a private tutor USD 150 per month.',
+  capsule: 'The ONS counted 93,375 people in the Royal Sutton Coldfield built-up area at the 2021 census, inside the city of Birmingham. Four Oaks, Mere Green, Boldmere, Walmley, Wylde Green and Maney are among its recorded suburbs. Six-year-olds, teenagers and adults up to 67 can all take vibe coding, AI agents, Python, coding and maths here by live video with a tutor in India, in private sessions or a class of fifteen to twenty at one stage. We teach how systems behave before handing over tools, so learners understand why an agent gets blocked and how to stop it happening. A free first session ends with our pick of course. The Sutton Coldfield project records 20 real map downloads covering the town, then tests how different agents fare against a service that rations data with a token bucket. Afterwards a class place is USD 100 per month and a private tutor USD 150 per month.',
   lead: 'Almost every online service an AI agent uses, from map data to language models, limits how fast a client may ask. A common way to do it is the token bucket. Picture a bucket that holds a fixed number of tokens and is topped up at a steady drip. Every request spends tokens; if there are not enough, the request is refused. A full bucket allows a short burst, and after that the drip sets the pace. An agent that does not understand this fires requests, gets refused, waits a guess, and tries again. An agent that does understand it never gets refused at all. This project compares them, using the sizes of real map downloads over Sutton Coldfield.',
   wa: 'Hello Modern Age Coders, could we book a free vibe coding or AI agents lesson for a learner in Sutton Coldfield?',
 
@@ -168,7 +168,7 @@ module.exports = {
       { h3: 'Pupils at the keyboard', p: 'The learner writes the code and the prompts; the tutor watches the shared screen and asks what will happen next.' },
       { h3: 'Trial decides the level', p: 'Half an hour of real work shows where to start, and any exam board is noted.' },
       { h3: 'First session free', p: 'No fee for the trial, which ends with a course suggestion.' },
-      { h3: 'Five to ten per class', p: 'Classmates come from across the UK and share a level.' },
+      { h3: 'Fifteen to twenty per class', p: 'Classmates come from across the UK and share a level.' },
       { h3: 'Twice a week', p: 'Term time only.' },
       { h3: 'Fixed slot', p: 'Clock changes are handled by the tutor, so your time does not move.' }
     ],

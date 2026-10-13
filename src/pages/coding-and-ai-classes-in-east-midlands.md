@@ -4,7 +4,7 @@ description: "Live online coding, AI, Python and maths classes across the East M
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-east-midlands
 source: src/pages/coding-and-ai-classes-in-east-midlands.html
 ---
-> The East Midlands region had 4,880,054 usual residents at the 2021 census, in 35 local authorities. Leicester, Nottingham, Derby and Northampton are its largest built-up areas, followed by Lincoln, with Chesterfield, Corby, Loughborough, Mansfield, Kettering and Wellingborough among the larger towns. All our lessons are live over video, taught from India. Anyone between 6 and 67 can study coding, AI, Python or maths, one-to-one or in a class of five to ten at a shared level. A free first lesson decides where to begin. Below are our East Midlands pages and a rainfall project. After the trial, a group place is USD 100 a month and private lessons are USD 150 a month.
+> The East Midlands region had 4,880,054 usual residents at the 2021 census, in 35 local authorities. Leicester, Nottingham, Derby and Northampton are its largest built-up areas, followed by Lincoln, with Chesterfield, Corby, Loughborough, Mansfield, Kettering and Wellingborough among the larger towns. All our lessons are live over video, taught from India. Anyone between 6 and 67 can study coding, AI, Python or maths, one-to-one or in a class of fifteen to twenty at a shared level. A free first lesson decides where to begin. Below are our East Midlands pages and a rainfall project. After the trial, a group place is USD 100 a month and private lessons are USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [England](/coding-and-ai-classes-in-england) / East Midlands
 
@@ -12,11 +12,11 @@ East Midlands / Live online
 
 # Coding and AI classes in the East Midlands
 
-**What are the best coding and AI classes in the East Midlands?** The East Midlands region had 4,880,054 usual residents at the 2021 census, in 35 local authorities. Leicester, Nottingham, Derby and Northampton are its largest built-up areas, followed by Lincoln, with Chesterfield, Corby, Loughborough, Mansfield, Kettering and Wellingborough among the larger towns. All our lessons are live over video, taught from India. Anyone between 6 and 67 can study coding, AI, Python or maths, one-to-one or in a class of five to ten at a shared level. A free first lesson decides where to begin. Below are our East Midlands pages and a rainfall project. After the trial, a group place is USD 100 a month and private lessons are USD 150 a month.
+**What are the best coding and AI classes in the East Midlands?** The East Midlands region had 4,880,054 usual residents at the 2021 census, in 35 local authorities. Leicester, Nottingham, Derby and Northampton are its largest built-up areas, followed by Lincoln, with Chesterfield, Corby, Loughborough, Mansfield, Kettering and Wellingborough among the larger towns. All our lessons are live over video, taught from India. Anyone between 6 and 67 can study coding, AI, Python or maths, one-to-one or in a class of fifteen to twenty at a shared level. A free first lesson decides where to begin. Below are our East Midlands pages and a rainfall project. After the trial, a group place is USD 100 a month and private lessons are USD 150 a month.
 
 The Met Office station at Sutton Bonington has recorded monthly rain since 1959. Averaged over 1991 to 2020, June is its wettest month, at about 64 millimetres. So a reasonable guess is that a typical year's wettest month brings about 64 millimetres, and that it is usually June. Both guesses are wrong, and by a lot. In those thirty years, June was the wettest month only eight times, and the wettest month of a year averaged about 104 millimetres. The gap is not a quirk of the data; it follows from the order in which you take an average and a maximum. This page's project finds it in Python and explains why it matters well beyond weather.
 
-Facts last verified 26 September 2026. Teaching is online; no East Midlands branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no East Midlands branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## East Midlands starting courses
 
@@ -138,7 +138,7 @@ City or village, a home internet connection is enough.
 - **The learner types** Every program is typed by the student, with the tutor watching the shared screen and asking rather than telling.
 - **English year groups** A Year 4 in Kettering or a Year 13 in Wellingborough is placed by year and key stage, with exam names from their board.
 - **Trial lesson free** The first full lesson is free and ends with plain advice.
-- **Classes of one level** Five to ten learners at a single stage, gathered from around the UK.
+- **Classes of one level** Fifteen to twenty learners at a single stage, gathered from around the UK.
 - **Term-time rhythm** Two sessions a week in term and a break for holidays.
 - **Local time stays** Clock changes do not shift your lesson; our teachers adjust their day.
 

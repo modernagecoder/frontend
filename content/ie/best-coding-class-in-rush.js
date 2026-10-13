@@ -184,7 +184,7 @@ module.exports = {
     intro: 'In practice.',
     cells: [
       { h3: 'Live, every lesson', p: 'A teacher runs each lesson in real time and works from the learner\'s own code.' },
-      { h3: 'Groups at one level', p: 'Five to ten learners who have reached the same point in the course, from Fingal, the rest of Ireland and abroad.' },
+      { h3: 'Groups at one level', p: 'Fifteen to twenty learners who have reached the same point in the course, from Fingal, the rest of Ireland and abroad.' },
       { h3: 'Twice a week, mostly', p: 'Around eight lessons a month, on days and at hours fixed before the course starts.' },
       { h3: 'Built round the school year', p: 'Breaks, holidays and exam weeks are planned in from the outset.' },
       { h3: 'Equipment', p: 'A laptop or desktop with a keyboard, sound in both directions, and a broadband line that copes with live video.' },
@@ -197,7 +197,7 @@ module.exports = {
     h2: 'Fees for Rush',
     intro: 'The complete list.',
     first: 'A full first lesson with the level assessed, free.',
-    group: 'A month in a group of five to ten at the same level, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at the same level, about eight live lessons.',
     private: 'A month of private lessons at the same weekly frequency.',
     closer: 'One monthly price in US dollars applies to every family outside India. The free first lesson carries no charge, fees begin when the course does, and the pricing page covers holidays, missed lessons and switching between a group and private lessons.'
   },
@@ -222,7 +222,7 @@ module.exports = {
       { q: 'Can adults sign up?', a: 'Yes, up to sixty-seven, and beginners are welcome. An adult\'s free first lesson shows which suits better, a small group at the same level or a teacher one to one.' },
       { q: 'Will a Rush learner be taught with other Rush learners?', a: 'Groups are formed by level rather than town, so classmates may be in Fingal, elsewhere in Ireland or abroad.' },
       { q: 'Is there a Modern Age Coders classroom in Rush?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Rush cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Rush cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

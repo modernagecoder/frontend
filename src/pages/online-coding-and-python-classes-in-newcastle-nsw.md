@@ -16,7 +16,7 @@ Newcastle, New South Wales, Australia / Live online
 
 Here is a bug that a handful of hand-picked tests will almost never find. Take the 137 public schools in the Newcastle, Lake Macquarie and Maitland council areas from the open NSW schools file, and write a quick function that answers "which school is nearest to this spot?" by checking only nearby squares of a grid. Try it on five or six places you know and it gives the right answer every time. Now let Python throw 10,000 random points at it and compare each answer with a slow, certain search. It is wrong 1,598 times, and on the worst point it sends you 3.4 km further than you need to go. Our Newcastle learners find that bug, shrink it to one simple failing example, and fix it properly.
 
-Facts last verified 7 October 2026. Teaching is online; no Newcastle branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Newcastle branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four Python routes for Newcastle teenagers and adults
 
@@ -175,7 +175,7 @@ The urban area spreads around the harbour, the lake and the Hunter River, and an
 - **Any suburb, same lesson** Learners in Belmont, Wallsend and East Maitland can join one class from their own desks, with no traffic to beat.
 - **NSW year levels** Teachers refer to Year 7 to Year 12 and to NSW stages as local schools do, and every lesson is delivered in English.
 - **A trial that teaches** The first session is a real Python task with a teacher, ending with a suggested level, course and weekly time. No payment details are taken.
-- **Groups of five to ten** Learners at the same stage, drawn from the Hunter, the rest of Australia and abroad, so each level finds a time that works.
+- **Groups of fifteen to twenty** Learners at the same stage, drawn from the Hunter, the rest of Australia and abroad, so each level finds a time that works.
 - **Two lessons a week** About eight lessons a month at a fixed time, with school holidays and exam weeks planned in advance with the teacher.
 - **India time changes twice a year** Our teachers are in India, 4 hours 30 minutes behind Newcastle in winter and 5 hours 30 minutes behind in daylight saving months.
 
@@ -186,7 +186,7 @@ The urban area spreads around the harbour, the lake and the Hunter River, and an
 Three figures, nothing else.
 
 - First class: USD 0. A full first lesson with no charge, ending with a level, a course and a weekly time.
-- Group tuition: USD 100 a month. One month of teaching, usually eight lessons, with five to ten learners at your stage.
+- Group tuition: USD 100 a month. One month of teaching, usually eight lessons, with fifteen to twenty learners at your stage.
 - Private tuition: USD 150 a month. The same pattern of about eight lessons a month, one teacher with one learner.
 
 Every family outside India is invoiced in US dollars at a single rate, whether they live on the harbour or out in the Hunter Valley, so there is no Newcastle surcharge. Payment starts only once the trial has fixed a course and slot; the pricing page covers holidays, missed lessons and changing format.
@@ -227,11 +227,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Newcastle coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Newcastle and New South Wales learners
 

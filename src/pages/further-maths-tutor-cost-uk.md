@@ -37,7 +37,7 @@ Published UK rates, read in October 2026 and converted to US dollars so this pag
 | IB maths tutor, another advanced course (comparison) | about $64 an hour | Tutorful, same guide |
 | University-level maths tutor (comparison) | about $63 to $70 an hour or more | Tutorful, same guide, degree level |
 | Face-to-face tuition, all maths levels | about $55 an hour on average, above $93 an hour in the most expensive areas | Tutorful, same guide, in-person rates |
-| Modern Age Coders, live Further Maths | $100 a month in a group of 5 to 10, or $150 a month one-to-one, eight one-hour lessons | Our own price, no enrolment fee |
+| Modern Age Coders, live Further Maths | $100 a month in a group of 15 to 20, or $150 a month one-to-one, eight one-hour lessons | Our own price, no enrolment fee |
 
 Conversion: UK figures were converted at 1.3221 US dollars per pound, the Bank of England spot rate for 5 October 2026 (series XUDLUSS), and rounded to the nearest dollar. The national guide gives no separate Further Maths average, so we have not invented one.
 
@@ -110,7 +110,7 @@ Choosing
 - enjoys working through hard problems with others
 - wants the lower monthly price
 
-Groups hold 5 to 10 students at a similar level.
+Groups hold 15 to 20 students at a similar level.
 
 ### One-to-one suits a student who
 
@@ -142,7 +142,7 @@ $150 / month
 $100 / month
 
 - 8 live group lessons a month (2 a week, 1 hour each)
-- 5 to 10 students at a similar level
+- 15 to 20 students at a similar level
 - The same course at a lower monthly price
 - No enrolment fee, stop at any month end
 

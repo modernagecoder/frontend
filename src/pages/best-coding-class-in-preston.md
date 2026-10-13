@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Preston learn
 canonical: https://learn.modernagecoders.com/best-coding-class-in-preston
 source: src/pages/best-coding-class-in-preston.html
 ---
-> Preston had 147,835 usual residents at the 2021 Census, with those aged 20 to 24 making up 8.5%, compared with 6.0% nationally. It is where Britain's first motorway opened on 5 December 1958: the eight-mile Preston bypass, now part of the M6. Modern Age Coders teaches Preston learners from six to sixty-seven in live online lessons, in a group of five to ten at one level or one to one, with teachers working from India and lesson times set in UK hours. The opening lesson is free. After that, USD 100 a month covers a group place and USD 150 a month covers private lessons.
+> Preston had 147,835 usual residents at the 2021 Census, with those aged 20 to 24 making up 8.5%, compared with 6.0% nationally. It is where Britain's first motorway opened on 5 December 1958: the eight-mile Preston bypass, now part of the M6. Modern Age Coders teaches Preston learners from six to sixty-seven in live online lessons, in a group of fifteen to twenty at one level or one to one, with teachers working from India and lesson times set in UK hours. The opening lesson is free. After that, USD 100 a month covers a group place and USD 150 a month covers private lessons.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Preston
 
@@ -12,11 +12,11 @@ Preston, Lancashire, England / Live online
 
 # Coding classes in Preston
 
-**What are the best coding classes in Preston?** Preston had 147,835 usual residents at the 2021 Census, with those aged 20 to 24 making up 8.5%, compared with 6.0% nationally. It is where Britain's first motorway opened on 5 December 1958: the eight-mile Preston bypass, now part of the M6. Modern Age Coders teaches Preston learners from six to sixty-seven in live online lessons, in a group of five to ten at one level or one to one, with teachers working from India and lesson times set in UK hours. The opening lesson is free. After that, USD 100 a month covers a group place and USD 150 a month covers private lessons.
+**What are the best coding classes in Preston?** Preston had 147,835 usual residents at the 2021 Census, with those aged 20 to 24 making up 8.5%, compared with 6.0% nationally. It is where Britain's first motorway opened on 5 December 1958: the eight-mile Preston bypass, now part of the M6. Modern Age Coders teaches Preston learners from six to sixty-seven in live online lessons, in a group of fifteen to twenty at one level or one to one, with teachers working from India and lesson times set in UK hours. The opening lesson is free. After that, USD 100 a month covers a group place and USD 150 a month covers private lessons.
 
 On 5 December 1958, according to Highways England, 2,300 drivers took the new Preston bypass for the first time, the first motorway in Britain. Today the Department for Transport publishes a traffic figure for the M6 between junctions 30 and 31 for every year since 2000, and it has grown from 116,874 vehicles on an average day to 171,079 in 2025. How fast is it growing? Draw the usual least-squares line and the answer is 979 more vehicles a day each year. But that line is dragged down by one extraordinary year: in 2020 the flow fell to 101,388. A different method, Theil-Sen, takes the slope between every pair of years, 325 of them, and uses the middle value: 1,054 a day each year. Enter 2020 as zero, as a broken counter might, and least squares halves to 459 while Theil-Sen does not move at all. That is robust estimation, and it is the lesson Preston's motorway gives our teenage learners.
 
-Facts last verified 21 September 2026. Teaching is online; no Preston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 21 September 2026. Teaching is online; no Preston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the motorway city
 
@@ -64,7 +64,7 @@ Children aged 5 to 9 were 6.3% of residents, a little above England's 5.9%, so t
 
 The 2021 Census put schoolchildren and full-time students at 25.0% of Preston residents aged five and over; across England the share was 20.4%.
 
-For our classes, that means Preston learners at every stage: a six-year-old in Ingol building a first block game, a Year 11 student in Fulwood getting ready for GCSE Computer Science, or someone in their twenties in Deepdale picking up data skills for work. Each joins five to ten learners at the same level.
+For our classes, that means Preston learners at every stage: a six-year-old in Ingol building a first block game, a Year 11 student in Fulwood getting ready for GCSE Computer Science, or someone in their twenties in Deepdale picking up data skills for work. Each joins fifteen to twenty learners at the same level.
 
 ## Eight miles that started the motorway age
 
@@ -175,7 +175,7 @@ Preston is well connected by road, but a live online lesson needs no journey at 
 - **Across the city in seconds** A learner in Cottam and another in Ribbleton can share the same lesson without either leaving home.
 - **School stages as named in England** Reception, the Key Stages, Year 9 options, GCSEs and A levels, in the terms Preston schools use, with every lesson in English.
 - **A genuine first lesson** The free lesson teaches a real task and closes by proposing a level, a course and a weekly time. Booking asks for no card.
-- **Level decides the group** Each group gathers five to ten learners working at the same stage, drawn from Preston, elsewhere in Britain and overseas, which keeps a sensible slot open for every level.
+- **Level decides the group** Each group gathers fifteen to twenty learners working at the same stage, drawn from Preston, elsewhere in Britain and overseas, which keeps a sensible slot open for every level.
 - **A regular timetable** Two lessons a week at fixed times, roughly eight a month, with holiday and exam pauses arranged with the teacher in advance.
 - **Teachers on Indian Standard Time** India does not change its clocks, so the gap to Preston is four and a half hours during British Summer Time and five and a half for the rest of the year, which keeps after-school and evening slots within our teachers' working day.
 
@@ -186,7 +186,7 @@ Preston is well connected by road, but a live online lesson needs no journey at 
 A free lesson first, then a single monthly fee.
 
 - First class: USD 0. A full lesson at no cost, ending with a level, a recommended course and a proposed weekly time.
-- Group tuition: USD 100 a month. Roughly eight live lessons a month in a group of five to ten learners at one level.
+- Group tuition: USD 100 a month. Roughly eight live lessons a month in a group of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Roughly eight live lessons a month taught to your learner on their own.
 
 Families outside India all pay one US dollar fee, so Broughton and Lea pay exactly the same, and there is no pound price list. We only start billing when the free lesson has settled the course and the weekly slot, and our pricing page sets out how pausing, missed lessons and moving between group and one-to-one teaching work.
@@ -227,11 +227,11 @@ No. There is no Preston centre and no premises anywhere in the UK; all teaching 
 
 ### What do Preston lessons cost?
 
-The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Course, format and time are agreed before any payment.
+The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Course, format and time are agreed before any payment.
 
 ### How are Preston groups formed?
 
-By level, pace and aims rather than age or postcode, with five to ten learners at one stage. If no group meets at a suitable time, we propose one-to-one lessons.
+By level, pace and aims rather than age or postcode, with fifteen to twenty learners at one stage. If no group meets at a suitable time, we propose one-to-one lessons.
 
 ## The North West and beyond
 

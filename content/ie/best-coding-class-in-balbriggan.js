@@ -52,7 +52,7 @@ module.exports = {
 
   h1: 'Coding classes in Balbriggan',
   capsuleQ: 'What is the best coding class in Balbriggan?',
-  capsule: 'Balbriggan holds 24,145 usual residents in the census town tables, across 8,146 households, 6,979 of them reporting broadband. The lesson comes to the house: a teacher live on video at an agreed hour, twice in most weeks, with a group of five to ten at one stage or with the learner alone, from six years old to sixty-seven. The opening lesson is free. After it, a shared place costs USD 100 a month and private teaching USD 150.',
+  capsule: 'Balbriggan holds 24,145 usual residents in the census town tables, across 8,146 households, 6,979 of them reporting broadband. The lesson comes to the house: a teacher live on video at an agreed hour, twice in most weeks, with a group of fifteen to twenty at one stage or with the learner alone, from six years old to sixty-seven. The opening lesson is free. After it, a shared place costs USD 100 a month and private teaching USD 150.',
   lead: 'The Central Statistics Office writes census day as 03 April 2022. Hand that string to a program without thinking and the trouble starts. Ask JavaScript to parse 03/04/2022 and it answers the fourth of March, because it reads the month first. Build the date by hand instead, as new Date(2022, 3, 3), and you get 3 April, because months in JavaScript start at zero while days do not. That day was a Sunday, and Irish clocks had moved an hour forward the week before, so any timestamp stored without a zone shifts by an hour on either side of it. Every one of those was run while writing this page. Dates look like text, behave like arithmetic and break more programs than numbers ever do.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Balbriggan.',
 
@@ -174,7 +174,7 @@ module.exports = {
     intro: 'Six practical points.',
     cells: [
       { h3: 'Live teaching', p: 'A teacher on the call for the full hour, working from what the learner is building.' },
-      { h3: 'Placed by stage', p: 'Five to ten learners at the same level, joining from Balbriggan, elsewhere in Ireland and abroad.' },
+      { h3: 'Placed by stage', p: 'Fifteen to twenty learners at the same level, joining from Balbriggan, elsewhere in Ireland and abroad.' },
       { h3: 'A weekly slot', p: 'Two lessons in most weeks, about eight a month, at an hour agreed at the start.' },
       { h3: 'Clock changes handled', p: 'When the clocks move, the Irish hour stays the hour you agreed, and the shift is ours to absorb.' },
       { h3: 'Equipment', p: 'A computer with a keyboard, audio in both directions, and a connection that holds a video call.' },
@@ -187,7 +187,7 @@ module.exports = {
     h2: 'Balbriggan class fees',
     intro: 'Three lines, complete.',
     first: 'The opening lesson, taught and assessed in full, at no charge.',
-    group: 'A month in an ability group of five to ten, about eight live lessons.',
+    group: 'A month in an ability group of fifteen to twenty, about eight live lessons.',
     private: 'A month of one to one teaching on the same weekly pattern.',
     closer: 'A Balbriggan household pays in US dollars, monthly, at the rate every family outside India pays, which is also what Swords and Drogheda pay, and there is no parallel price in euro. Nothing is owed for the opening hour, the month starts with the first paid lesson, and the pricing page explains what happens over school holidays, after a missed week, or on a move from a group to private lessons.'
   },
@@ -212,7 +212,7 @@ module.exports = {
       { q: 'Do you teach adults in Balbriggan?', a: 'Yes, to the age of sixty-seven and from no experience at all. Placement, in a group at the same stage or alone with a teacher, comes out of the opening hour.' },
       { q: 'Can lessons be rescheduled?', a: 'Where notice is given, yes, subject to a teacher being free at the new time. The pricing page sets out how missed lessons are treated.' },
       { q: 'Is there a Modern Age Coders classroom in Balbriggan?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Balbriggan cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Balbriggan cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

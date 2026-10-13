@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Scheveningen, The Hag
 canonical: https://learn.modernagecoders.com/coding-classes-in-scheveningen
 source: src/pages/coding-classes-in-scheveningen.html
 ---
-> Coding classes in Scheveningen reach the coastal district of The Hague. In 1680 the fishing village held 917 people in 200 buildings. Wijk 07 Scheveningen held 19,637 residents in January 2026 across 10,505 households, of which 5,495 hold one person. Those two figures are often set in one sentence as growth, and they are not measurements of the same thing: the first counted a village, the second counts a statistical polygon of 232 hectares containing five buurten, only one of which is the old village. Modern Age Coders teaches live online in English from Duindorp to the Geuzenkwartier, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Scheveningen reach the coastal district of The Hague. In 1680 the fishing village held 917 people in 200 buildings. Wijk 07 Scheveningen held 19,637 residents in January 2026 across 10,505 households, of which 5,495 hold one person. Those two figures are often set in one sentence as growth, and they are not measurements of the same thing: the first counted a village, the second counts a statistical polygon of 232 hectares containing five buurten, only one of which is the old village. Modern Age Coders teaches live online in English from Duindorp to the Geuzenkwartier, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [The Hague](/coding-classes-in-the-hague) / Scheveningen
 
@@ -12,11 +12,11 @@ Scheveningen, Den Haag / Live online
 
 # Coding classes in Scheveningen, a name that has meant at least four different things and kept all their numbers
 
-**What are the best coding classes in Scheveningen?** Coding classes in Scheveningen reach the coastal district of The Hague. In 1680 the fishing village held 917 people in 200 buildings. Wijk 07 Scheveningen held 19,637 residents in January 2026 across 10,505 households, of which 5,495 hold one person. Those two figures are often set in one sentence as growth, and they are not measurements of the same thing: the first counted a village, the second counts a statistical polygon of 232 hectares containing five buurten, only one of which is the old village. Modern Age Coders teaches live online in English from Duindorp to the Geuzenkwartier, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Scheveningen?** Coding classes in Scheveningen reach the coastal district of The Hague. In 1680 the fishing village held 917 people in 200 buildings. Wijk 07 Scheveningen held 19,637 residents in January 2026 across 10,505 households, of which 5,495 hold one person. Those two figures are often set in one sentence as growth, and they are not measurements of the same thing: the first counted a village, the second counts a statistical polygon of 232 hectares containing five buurten, only one of which is the old village. Modern Age Coders teaches live online in English from Duindorp to the Geuzenkwartier, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 The name is older than almost anything it has been attached to. A document of 1357 records terra de Sceveninghe. In 1570 the Allerheiligenvloed destroyed half the settlement, which was rebuilt. In 1680 it was 917 people in 200 buildings with about 250 of them in fishing. From 1818, when Jacob Pronk opened a wooden bathhouse with four bathing rooms, and more so from 1884 when the Kurhaus opened, it was a resort. In the twentieth century the statistics office drew a boundary and called the enclosed area Wijk 07 Scheveningen. Each of those is a real thing with a real number attached. The word connecting them is doing far less work than it appears to.
 
-Facts last verified 10 September 2026. Teaching is online; no Scheveningen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 September 2026. Teaching is online; no Scheveningen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the coast
 
@@ -185,18 +185,18 @@ Scheveningen sits apart from the rest of the city, up behind the dunes, with the
 - **The dunes stay where they are** Getting from Duindorp or the Vissershaven to anywhere inland in February, in the dark, in the wind off the sea, is the reason a weekly commitment lapses. A class that happens at home does not have that failure mode.
 - **Untranslated on purpose** Groep, havo, vwo, profielkeuze. Four Dutch words held constant inside an English lesson, because those are the words on the paperwork, and a child should not have to translate their own school year to answer a question about it.
 - **The free lesson is a lesson** A task, a teacher watching the working rather than the answer, and three things settled by the end: the level, the course that follows from it, and the hour each week. No payment, no card, no follow-up call pretending to be one.
-- **Stage, not postcode** A group is five to ten learners at one stage. Any single wijk, at any given month, has almost nobody at a specific narrow level, so groups are drawn from everywhere. It is the reason a level exists to join instead of a list to join.
+- **Stage, not postcode** A group is fifteen to twenty learners at one stage. Any single wijk, at any given month, has almost nobody at a specific narrow level, so groups are drawn from everywhere. It is the reason a level exists to join instead of a list to join.
 - **Two a week, regio Midden dates** Roughly eight lessons a month at one fixed hour. School holidays across Zuid-Holland follow regio Midden and are published years in advance, so the weeks off are written into the schedule when it is made.
 - **One clock moves, and it is not the teacher one** Three and a half hours ahead in Dutch summer time, four and a half outside it. India has kept a single time for decades; the whole change comes from here, and neither setting removes an hour a family would have used.
 
-**A wijk with 955 children and a wijk with 2,690** Duindorp has 955 residents under fifteen and Wijk 07 Scheveningen has 2,690, with Geuzen en Statenkwartier at 2,180 and Belgisch Park at 1,215. Those are four quite different sized populations of children living within a few kilometres of one another. None of them tells you whether five to ten learners at one specific stage of one specific subject will be available in one specific month, because a stage is narrow and a wijk is wide and the two have nothing to do with each other. Which is why the pool is worldwide and the ages run from 6 to 67.
+**A wijk with 955 children and a wijk with 2,690** Duindorp has 955 residents under fifteen and Wijk 07 Scheveningen has 2,690, with Geuzen en Statenkwartier at 2,180 and Belgisch Park at 1,215. Those are four quite different sized populations of children living within a few kilometres of one another. None of them tells you whether fifteen to twenty learners at one specific stage of one specific subject will be available in one specific month, because a stage is narrow and a wijk is wide and the two have nothing to do with each other. Which is why the pool is worldwide and the ages run from 6 to 67.
 
 ## The fee, in dollars, everywhere on the coast
 
 Written down here instead of saved for a conversation.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate in dollars, with no euro edition, so the Vissershaven and the Statenkwartier are quoted identically. Nothing is paid until the free lesson has produced a course and an hour, and payment is arranged afterwards over WhatsApp. Pausing, changing plan and missing a week are all written out on the pricing page.
@@ -237,7 +237,7 @@ No, and none is claimed here, elsewhere in The Hague or anywhere in the Netherla
 
 ### What do Scheveningen coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

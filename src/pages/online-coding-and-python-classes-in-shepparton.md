@@ -16,7 +16,7 @@ Shepparton, Victoria, Australia / Live online
 
 Greater Shepparton City Council publishes the location of its 127 playgrounds and 1,045 public bins as open data. Which playgrounds have a bin within 50 metres? The obvious program measures the distance from every playground to every bin: 132,715 checks. A better program drops each bin into a grid of 50-metre squares stored in a Python dictionary, then looks only in the nine squares around each playground. It makes 367 checks and gets exactly the same answer: 95 playgrounds have a bin that close, 32 do not. Our Shepparton project teaches that idea, a spatial hash, from first principles.
 
-Facts last verified 7 October 2026. Teaching is online; no Shepparton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Shepparton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python courses for a Shepparton learner
 
@@ -184,7 +184,7 @@ The urban area spans both sides of the Goulburn River, and an online class joins
 - **Both sides of the river** A learner in Mooroopna and one in Shepparton East can share a class without crossing the bridge.
 - **Victorian schooling** Teachers plan around Victorian year levels and terms, and senior students can connect projects to VCE computing. Lessons are given in English.
 - **A genuine trial** The first class is a real lesson that ends with a level, a course and a regular time; no payment details are requested.
-- **Right-sized groups** Five to ten learners at the same point, from the Goulburn Valley and further afield, so each class runs well.
+- **Right-sized groups** Fifteen to twenty learners at the same point, from the Goulburn Valley and further afield, so each class runs well.
 - **A twice-weekly routine** Two lessons a week in fixed slots, near eight a month, with school holidays and exams planned around.
 - **Teachers in India** A 5:30pm Shepparton lesson in June starts at 1pm in India, and at noon once Victorian daylight saving begins.
 
@@ -195,7 +195,7 @@ The urban area spans both sides of the Goulburn River, and an online class joins
 Three amounts, laid out plainly.
 
 - First class: USD 0. A full first lesson free of charge, with a suggested level, course and time at the end.
-- Group tuition: USD 100 a month. A month of lessons, normally eight, in a group of five to ten learners at your stage.
+- Group tuition: USD 100 a month. A month of lessons, normally eight, in a group of fifteen to twenty learners at your stage.
 - Private tuition: USD 150 a month. Around eight lessons a month on the same pattern, one learner with one teacher.
 
 Outside India every family pays in US dollars, so Kialla and Mooroopna households receive identical invoices and there is no local price list. Billing waits until the free class has settled which course you take and when; holiday pauses, missed classes and switching to private lessons are covered on the pricing page.
@@ -236,11 +236,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Shepparton Python classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Shepparton and Victorian learners
 

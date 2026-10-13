@@ -136,7 +136,7 @@ Medway Council's school directory names the six grammar schools that use the Med
 | Sir Joseph Williamson's Mathematical School | Medway Test |
 | The Rochester Grammar School | Medway Test |
 
-Lessons are live on video, so a child in Strood, Gillingham, Hoo or Walderslade is taught the same way, in groups of five to ten matched by level.
+Lessons are live on video, so a child in Strood, Gillingham, Hoo or Walderslade is taught the same way, in groups of fifteen to twenty matched by level.
 
 For coding in the area, see our [UK page](/coding-classes-in-united-kingdom), which lists every city and county we cover.
 
@@ -215,7 +215,7 @@ Lessons are taught live from India. Medway primary pupils have early-evening or 
 
 - **One teacher** The same teacher each week.
 - **Frank updates** Short, honest notes for parents.
-- **Five to ten children** Grouped by level.
+- **Fifteen to twenty children** Grouped by level.
 - **Nothing unofficial** Our own questions only; no copied GL or council material.
 - **One to one** For method gaps or pacing.
 - **Maths only** No English or reasoning coaching; no admissions advice.
@@ -225,7 +225,7 @@ Lessons are taught live from India. Medway primary pupils have early-evening or 
 A single monthly US dollar fee for every family outside India. No sign-up charge; stop whenever you like.
 
 - Free first class: USD 0. A real lesson. An honest view. No card needed.
-- Group batch: USD 100 a month. Five to ten children at one level. A regular teacher. Methods checked in class. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. A regular teacher. Methods checked in class. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one child. Focused on methods and pace. Flexible timing.
 
 ## What Medway families ask us

@@ -4,7 +4,7 @@ description: "Online maths tutor for Melbourne learners, Prep to Year 12 and adu
 canonical: https://learn.modernagecoders.com/maths-tutor-melbourne
 source: src/pages/maths-tutor-melbourne.html
 ---
-> Modern Age Coders is an online maths tutor for Melbourne learners aged 6 to 67. We teach primary and secondary maths and the four VCE mathematics studies, Foundation Mathematics, General Mathematics, Mathematical Methods and Specialist Mathematics, as well as adult maths. Lessons are live over video in Melbourne time, privately or in level-matched groups of five to ten, and the first lesson is free.
+> Modern Age Coders is an online maths tutor for Melbourne learners aged 6 to 67. We teach primary and secondary maths and the four VCE mathematics studies, Foundation Mathematics, General Mathematics, Mathematical Methods and Specialist Mathematics, as well as adult maths. Lessons are live over video in Melbourne time, privately or in level-matched groups of fifteen to twenty, and the first lesson is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Maths tutor in Melbourne
 
@@ -178,9 +178,9 @@ Melbourne runs on Australian Eastern time and changes its clocks for daylight sa
 
 One learner and one teacher, ideal before a SAC block or exam, or to rebuild a single topic.
 
-### Small group
+### Group
 
-Five to ten learners at one level, with discussion that often makes the idea click.
+Fifteen to twenty learners at one level, with discussion that often makes the idea click.
 
 ### Working on screen
 
@@ -247,7 +247,7 @@ We fix lessons in Melbourne time and handle the October and April clock changes 
 
 - **A familiar teacher** The same person each week.
 - **Brief updates** Parents hear what changed.
-- **Groups by stage** Five to ten per class.
+- **Groups by stage** Fifteen to twenty per class.
 - **Maps and data** Real measurements beside textbook work.
 - **Private lessons** For one goal or deadline.
 - **Understanding first** Methods explained, then practised.
@@ -257,7 +257,7 @@ We fix lessons in Melbourne time and handle the October and April clock changes 
 Melbourne families pay a flat monthly fee in US dollars, with no joining fee and no lock-in.
 
 - Free first class: USD 0. A full first lesson. A frank summary afterwards. No card needed.
-- Group batch: USD 100 a month. Five to ten learners per class. One regular teacher. Practice marked and discussed. Stop any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners per class. One regular teacher. Practice marked and discussed. Stop any month.
 - One to one: USD 150 a month. Private lessons. Shaped around one learner. Useful before SACs and exams.
 
 ## Questions Melbourne families ask about a maths tutor

@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Purmerend for ages 6 
 canonical: https://learn.modernagecoders.com/coding-classes-in-purmerend
 source: src/pages/coding-classes-in-purmerend.html
 ---
-> Coding classes in Purmerend serve 96,182 people (statistics office, 1 January 2026) in a market town that grew as an overspill town for Amsterdam and, on 1 January 2022, merged with the Beemster. The Beemster alone covers 72.08 of the 96.63 square kilometres of the new municipality, about three quarters of it, yet on 1 January 2021 it held 10,110 of 91,805 residents, about one in nine. The first council of the merged town was elected on 24 November 2021 on a turnout of 32.4 percent. A map, a headcount and a vote each describe a different Purmerend. Modern Age Coders teaches live online in English from Weidevenne to Middenbeemster, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Purmerend serve 96,182 people (statistics office, 1 January 2026) in a market town that grew as an overspill town for Amsterdam and, on 1 January 2022, merged with the Beemster. The Beemster alone covers 72.08 of the 96.63 square kilometres of the new municipality, about three quarters of it, yet on 1 January 2021 it held 10,110 of 91,805 residents, about one in nine. The first council of the merged town was elected on 24 November 2021 on a turnout of 32.4 percent. A map, a headcount and a vote each describe a different Purmerend. Modern Age Coders teaches live online in English from Weidevenne to Middenbeemster, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Purmerend
 
@@ -12,11 +12,11 @@ Purmerend, Noord-Holland / Live online
 
 # Coding classes in Purmerend, where three quarters of the land holds a ninth of the people
 
-**What are the best coding classes in Purmerend?** Coding classes in Purmerend serve 96,182 people (statistics office, 1 January 2026) in a market town that grew as an overspill town for Amsterdam and, on 1 January 2022, merged with the Beemster. The Beemster alone covers 72.08 of the 96.63 square kilometres of the new municipality, about three quarters of it, yet on 1 January 2021 it held 10,110 of 91,805 residents, about one in nine. The first council of the merged town was elected on 24 November 2021 on a turnout of 32.4 percent. A map, a headcount and a vote each describe a different Purmerend. Modern Age Coders teaches live online in English from Weidevenne to Middenbeemster, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Purmerend?** Coding classes in Purmerend serve 96,182 people (statistics office, 1 January 2026) in a market town that grew as an overspill town for Amsterdam and, on 1 January 2022, merged with the Beemster. The Beemster alone covers 72.08 of the 96.63 square kilometres of the new municipality, about three quarters of it, yet on 1 January 2021 it held 10,110 of 91,805 residents, about one in nine. The first council of the merged town was elected on 24 November 2021 on a turnout of 32.4 percent. A map, a headcount and a vote each describe a different Purmerend. Modern Age Coders teaches live online in English from Weidevenne to Middenbeemster, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Colour a map of Purmerend and most of it is polder: the Beemster, dry since 19 May 1612 and on the world heritage list since 1999, covers three quarters of the municipality. Count its people and most of them live in the town, where the Beemster accounts for about one resident in nine. Ask what the municipality decided when it was formed and the answer comes from roughly one person in three who were entitled to vote in November 2021. None of those figures is wrong. They are about three different groups, the land, the residents and the voters, and a statement that begins with Purmerend thinks or Purmerend is silently picks one of them. Anyone who works with surveys, app reviews or user data meets the third of these every week.
 
-Facts last verified 11 September 2026. Teaching is online; no Purmerend branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Purmerend branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a market town and its polder
 
@@ -182,7 +182,7 @@ Purmerend reaches from the town wijken to the Beemster villages across a polder 
 - **No drive across the polder** From Westbeemster or Noordbeemster a class in town is a drive each way, and a class in Amsterdam is further still. The lesson opens on a laptop at home at the agreed hour, and the long straight road stays empty for the evening.
 - **School terms in Dutch** Groep, havo, vwo and profielkeuze are kept in Dutch during lessons, just as a Purmerend school writes them on every report. The teacher works with the school vocabulary rather than around it.
 - **A lesson, not a pitch** The free hour is taught with a real task while the teacher watches how the learner works, and it ends with a level, a course and a regular time. No card details are asked for, and no sales call follows.
-- **Groups by stage, from everywhere** Five to ten learners at the same point in the same subject. Purmerend has 14,241 residents under fifteen, and five at one exact stage wanting one exact hour is still a rare thing, so groups come from a worldwide pool.
+- **Groups by stage, from everywhere** Fifteen to twenty learners at the same point in the same subject. Purmerend has 14,241 residents under fifteen, and five at one exact stage wanting one exact hour is still a rare thing, so groups come from a worldwide pool.
 - **Regio Noord holidays** Two lessons a week, about eight a month, at one fixed hour. Noord-Holland schools take regio Noord holidays, which differ from the south of the country, and the teaching calendar keeps to them.
 - **After the commute** India is three and a half hours ahead in summer and four and a half in winter, and only the Dutch clock moves. The early evening, after the train or the bus from Amsterdam, and weekend mornings both stay available all year.
 
@@ -193,7 +193,7 @@ Purmerend reaches from the town wijken to the Beemster villages across a polder 
 The whole price is printed here, so nobody has to ask.
 
 - First class: USD 0. A full lesson on a real task, ending with a level and a named course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One dollar price for every country, with no euro list, so a flat in Weidevenne and a farmhouse in the Beemster pay the same. Nothing is charged until the free lesson has fixed a course and an hour, and payment is then arranged over WhatsApp. Pauses, changes of format and missed lessons are all explained on the pricing page.
@@ -234,7 +234,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Purmerend coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

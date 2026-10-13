@@ -16,7 +16,7 @@ Roosendaal, Noord-Brabant / Live online
 
 Every border has two sides and a line where the rules change. A train leaving Roosendaal for Belgium passes the last Dutch station and enters a different system, and for most of the history of railways that change mattered. Programs are built the same way, although their borders are invisible. On one side is code the programmer wrote and controls; on the other is everything that comes from outside: what a user types, what a file contains, what another company's service replies, and now what an AI model reads on a web page before it acts. Most serious security failures come from treating outside data as though it had been written inside. The habit that prevents them is to know where the border is, and to check everything at the moment it crosses.
 
-Facts last verified 11 September 2026. Teaching is online; no Roosendaal branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Roosendaal branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a town on the line to Belgium
 
@@ -184,7 +184,7 @@ From the town centre out to Wouwse Plantage and Moerstraten, a learner joins the
 - **Village or town, same class** A pupil in Heerle and a pupil near the old Markt start at the same moment from their own homes, with no drive between villages in the evening.
 - **Brabant school terms kept** Groep, brugklas, vmbo, havo, vwo and the profielkeuze stay in Dutch as a Brabant school writes them, and the lesson itself is in English.
 - **The free lesson is real** The first session is taught on an actual task. The teacher sees how the learner goes about it and then proposes a level, a course and a weekly slot, with nothing to pay and no card to give.
-- **Classmates at your level** Groups are five to ten learners at one stage. Roosendaal has 10,880 residents under fifteen, and five of them matched on subject, level and hour is unlikely, so a group may include learners from other countries.
+- **Classmates at your level** Groups are fifteen to twenty learners at one stage. Roosendaal has 10,880 residents under fifteen, and five of them matched on subject, level and hour is unlikely, so a group may include learners from other countries.
 - **The southern holidays** Classes run twice a week, about eight a month, at one agreed hour, and stop for the regio Zuid holidays that Noord-Brabant schools follow.
 - **Hours that suit families** The teachers are in India, three and a half hours ahead in Dutch summer and four and a half in winter, so late afternoons, evenings and weekend mornings are all realistic.
 
@@ -195,7 +195,7 @@ From the town centre out to Wouwse Plantage and Moerstraten, a learner joins the
 Three prices, and no others.
 
 - First class: USD 0. A genuine lesson on a genuine task, ending in a level and a named course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, in a group of five to ten learners at the same level.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, in a group of fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, taught to one learner alone.
 
 The price is set in dollars and is the same for every country, with no euro list to compare, so a family in Nispen pays what a family in Tolberg pays. Nothing is charged until the free lesson has fixed a course and a slot, and payment is then arranged over WhatsApp. The pricing page explains pauses, format changes and missed lessons.
@@ -236,7 +236,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Roosendaal coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

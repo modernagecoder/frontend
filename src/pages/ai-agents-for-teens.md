@@ -87,7 +87,7 @@ Why one to one
 
 ## The format is the safety feature
 
-Everything else we teach runs beautifully in batches of five to eight, and we say so on every other page of this series. Agents are the exception, and the reason is mechanical rather than commercial: an agent acts, the actions touch real accounts and real data, and eight students' agents cannot all be watched at the moment each one matters. A teacher supervising one student sees the permission about to be granted, the dry-run about to be skipped, the key about to be pasted somewhere it should not be, while it is still a lesson rather than an incident.
+Everything else we teach runs beautifully in batches of fifteen to twenty, and we say so on every other page of this series. Agents are the exception, and the reason is mechanical rather than commercial: an agent acts, the actions touch real accounts and real data, and eight students' agents cannot all be watched at the moment each one matters. A teacher supervising one student sees the permission about to be granted, the dry-run about to be skipped, the key about to be pasted somewhere it should not be, while it is still a lesson rather than an incident.
 
 One to one also changes what gets built. Group courses converge on the same safe demonstration project; a private track grows the agent out of the student's actual life, their club, their revision, their team, their family logistics, which is where the motivation lives and where the approval-flow design gets real, because the actions have real consequences the student personally cares about. The fee is the one-to-one rate, USD 150 a month, and this page will not pretend a group version exists, because it does not and should not.
 
@@ -175,7 +175,7 @@ USD 100
 a month, everywhere else on the site
 
 - Vibe coding, Python, web and more
-- Batches of five to eight
+- Batches of fifteen to twenty
 - The usual on-ramp before agents
 
 [See the teen track](/vibe-coding-for-teens)

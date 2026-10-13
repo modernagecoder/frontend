@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across the Highlands,
 canonical: https://learn.modernagecoders.com/coding-classes-in-highland
 source: src/pages/coding-classes-in-highland.html
 ---
-> Dividing the census population by its density, we estimate Highland covers roughly a third of Scotland's land, yet the 2022 census counted about 235,400 residents in roughly 111,700 households. Inverness is by far the biggest place, with Nairn, Thurso, Wick, Alness and Fort William some way behind, and a long list of villages from Mallaig to Grantown-on-Spey. Distance is exactly why live online lessons suit the Highlands; our teachers work from India, and a free first lesson decides each learner's starting stage, P1 to S6 or adult. Anyone from 6 to 67 can learn coding, Python or maths in a group of five to ten or one-to-one. The Highland project comes from the Glenfinnan Viaduct. After the free lesson it costs USD 100 a month in a group, or USD 150 a month one-to-one.
+> Dividing the census population by its density, we estimate Highland covers roughly a third of Scotland's land, yet the 2022 census counted about 235,400 residents in roughly 111,700 households. Inverness is by far the biggest place, with Nairn, Thurso, Wick, Alness and Fort William some way behind, and a long list of villages from Mallaig to Grantown-on-Spey. Distance is exactly why live online lessons suit the Highlands; our teachers work from India, and a free first lesson decides each learner's starting stage, P1 to S6 or adult. Anyone from 6 to 67 can learn coding, Python or maths in a group of fifteen to twenty or one-to-one. The Highland project comes from the Glenfinnan Viaduct. After the free lesson it costs USD 100 a month in a group, or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Highland
 
@@ -12,11 +12,11 @@ Highland council area / Live online
 
 # Coding classes in the Highlands
 
-**What are the best coding classes in the Highlands?** Dividing the census population by its density, we estimate Highland covers roughly a third of Scotland's land, yet the 2022 census counted about 235,400 residents in roughly 111,700 households. Inverness is by far the biggest place, with Nairn, Thurso, Wick, Alness and Fort William some way behind, and a long list of villages from Mallaig to Grantown-on-Spey. Distance is exactly why live online lessons suit the Highlands; our teachers work from India, and a free first lesson decides each learner's starting stage, P1 to S6 or adult. Anyone from 6 to 67 can learn coding, Python or maths in a group of five to ten or one-to-one. The Highland project comes from the Glenfinnan Viaduct. After the free lesson it costs USD 100 a month in a group, or USD 150 a month one-to-one.
+**What are the best coding classes in the Highlands?** Dividing the census population by its density, we estimate Highland covers roughly a third of Scotland's land, yet the 2022 census counted about 235,400 residents in roughly 111,700 households. Inverness is by far the biggest place, with Nairn, Thurso, Wick, Alness and Fort William some way behind, and a long list of villages from Mallaig to Grantown-on-Spey. Distance is exactly why live online lessons suit the Highlands; our teachers work from India, and a free first lesson decides each learner's starting stage, P1 to S6 or adult. Anyone from 6 to 67 can learn coding, Python or maths in a group of fifteen to twenty or one-to-one. The Highland project comes from the Glenfinnan Viaduct. After the free lesson it costs USD 100 a month in a group, or USD 150 a month one-to-one.
 
 Historic Environment Scotland lists the Glenfinnan Viaduct at Category A. Opened in 1901 on the railway from Fort William to Mallaig, it is described in the listing as a 21-arch concrete viaduct built on a curve, 380 metres long, with continuous semicircular arch rings, and as the longest concrete viaduct in Scotland. Semicircles look simple, but the curves inside every drawing program, font and web page cannot make an exact circle. They make Bezier curves, and a circle is only ever an approximation. How close can the approximation get, and how would you measure it? This page's project draws an arch in Python and finds out.
 
-Facts last verified 26 September 2026. Teaching is online; no Highland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Highland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Highland learners usually start
 
@@ -140,7 +140,7 @@ From Caithness to Lochaber and Skye, the distances that make clubs hard make onl
 - **Home, croft or flat** Any quiet corner with a laptop and a connection works; the teacher follows the learner's shared screen.
 - **Scottish stages, always** We say P5, S2, National 5, Higher and Advanced Higher, as Highland schools do, and teach in English.
 - **First lesson on us** The first lesson is free and complete. We then give an honest view of level and course.
-- **Classmates at the same stage** Groups of five to ten learners at one level, joining from several countries.
+- **Classmates at the same stage** Groups of fifteen to twenty learners at one level, joining from several countries.
 - **Lessons follow the term** Twice a week during term; school holidays are breaks.
 - **UK time that stays put** Your booked UK time holds through the clock changes; our India time teachers do the adjusting.
 
@@ -151,7 +151,7 @@ From Caithness to Lochaber and Skye, the distances that make clubs hard make onl
 Wick or Fort William, the fee does not change, and it is the fee we charge everywhere outside India.
 
 - First class: USD 0. A complete lesson at no cost, then a recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten at one stage.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty at one stage.
 - Private tuition: USD 150 a month. About eight lessons a month, learner and teacher only.
 
 We price in US dollars and keep no sterling price list. No payment is taken until after the free lesson, when a course and weekly slot are agreed; holidays, missed lessons and switching formats are covered on the pricing page.

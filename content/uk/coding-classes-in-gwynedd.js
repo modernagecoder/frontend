@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'Coding classes in Gwynedd',
   capsuleQ: 'What are the best coding classes in Gwynedd?',
-  capsule: 'At the 2021 census, 117,393 usual residents lived in Gwynedd. The city of Bangor is the largest built-up area and Caernarfon the second, after which come Bethesda, Pwllheli, Blaenau Ffestiniog and Tywyn, with Dolgellau and Porthmadog close behind. Our lessons are live video classes run by teachers in India, and the opening lesson, which is free, works out whether a Year 4 pupil, a Year 12 student or an adult should start high or low. Coding, Python and maths are open to all ages from 6 to 67, taught privately or to classes of five to ten. For Gwynedd, the project begins at an early hydro-electric station in Beddgelert community. Continuing is a monthly USD 100 in a group, or USD 150 for a teacher to yourself.',
+  capsule: 'At the 2021 census, 117,393 usual residents lived in Gwynedd. The city of Bangor is the largest built-up area and Caernarfon the second, after which come Bethesda, Pwllheli, Blaenau Ffestiniog and Tywyn, with Dolgellau and Porthmadog close behind. Our lessons are live video classes run by teachers in India, and the opening lesson, which is free, works out whether a Year 4 pupil, a Year 12 student or an adult should start high or low. Coding, Python and maths are open to all ages from 6 to 67, taught privately or to classes of fifteen to twenty. For Gwynedd, the project begins at an early hydro-electric station in Beddgelert community. Continuing is a monthly USD 100 in a group, or USD 150 for a teacher to yourself.',
   lead: 'In Beddgelert community stands a power station so handsome that locals called it the chapel in the valley. Cadw lists Cwm Dyli at Grade II* and records that it was built in 1906, took its water from Llyn Llydaw, and was the first in Britain to use alternating current. It supplied slate quarries, and it sent its energy out at 10,000 volts, which was praised at the time as a triumph of modern transmission. Why such a high voltage? Every wire has resistance, and the power it wastes as heat depends on the current flowing through it, squared. This page\'s project models a transmission line in Python, and finds that at low voltage the simple textbook formula does not just give a large loss, it gives an impossible one.',
   wa: 'Hello Modern Age Coders, we are in Gwynedd and would like to book a free lesson, please.',
 
@@ -161,7 +161,7 @@ module.exports = {
       { h3: 'Typing beats watching', p: 'Learners write every program; the teacher reads the shared screen and poses the next question.' },
       { h3: 'By Welsh school year', p: 'A Bethesda Year 3 or a Tywyn Year 11 is matched on school year and Curriculum for Wales stage, with WJEC names for exams. Lessons are taught in English.' },
       { h3: 'First lesson free', p: 'A proper lesson without charge, then honest advice on what to take.' },
-      { h3: 'Small, level classes', p: 'Five to ten learners at one level, joining from many places.' },
+      { h3: 'Small, level classes', p: 'Fifteen to twenty learners at one level, joining from many places.' },
       { h3: 'Rhythm of the term', p: 'Lessons twice a week in term; a pause in the holidays.' },
       { h3: 'No clock-change muddle', p: 'Your lesson stays at its UK hour whatever the clocks do; teachers on India time adjust.' }
     ],
@@ -172,7 +172,7 @@ module.exports = {
     h2: 'Fees in Gwynedd',
     intro: 'Caernarfon or Pwllheli, the fee does not change, and it is the same in every country outside India.',
     first: 'A full trial lesson at no cost, then a recommendation.',
-    group: 'About eight lessons a month with five to ten classmates.',
+    group: 'About eight lessons a month with fifteen to twenty classmates.',
     private: 'About eight lessons a month with one teacher.',
     closer: 'All prices are in US dollars; sterling prices are not offered. Payment only starts once the trial lesson has settled a course and weekly time, and our pricing page deals with holidays, missed sessions and switching format.'
   },

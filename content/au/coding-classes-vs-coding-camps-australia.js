@@ -256,7 +256,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Weekly lessons outside India are billed monthly in US dollars, one rate in every country. No joining fee, no term contract, and you can pause over a long holiday or stop after any month.',
     free: ['A free first lesson', 'A suggested weekly plan', 'No card details'],
-    group: ['Five to ten learners', 'One regular teacher', 'Twice a week', 'Monthly'],
+    group: ['Fifteen to twenty learners', 'One regular teacher', 'Twice a week', 'Monthly'],
     one: ['A teacher to yourself', 'Your own pace', 'Holiday intensives possible']
   },
 

@@ -1,18 +1,18 @@
 ---
 title: "Coding Classes in Pune Near Me: Live Online for Kids, Teens and Adults | Modern Age Coders"
-description: "Coding classes near you in Pune, live online for kids from 6, teens and adults. Scratch, Python, Java and AI in batches of 5 to 10, fees stated up front, free demo or a full Priority Live Demo. Rated 4.9 from 547 reviews."
+description: "Coding classes near you in Pune, live online for kids from 6, teens and adults. Scratch, Python, Java and AI in batches of 15 to 20, fees stated up front, free demo or a full Priority Live Demo. Rated 4.9 from 547 reviews."
 canonical: https://learn.modernagecoders.com/best-coding-class-in-pune
 source: src/pages/best-coding-class-in-pune.html
 ---
-> Coding classes near you in Pune, live online for kids from 6, teens and adults. Scratch, Python, Java and AI in batches of 5 to 10, fees stated up front, free demo or a full Priority Live Demo. Rated 4.9 from 547 reviews.
+> Coding classes near you in Pune, live online for kids from 6, teens and adults. Scratch, Python, Java and AI in batches of 15 to 20, fees stated up front, free demo or a full Priority Live Demo. Rated 4.9 from 547 reviews.
 
 Live online · serving Pune & PCMC
 
 # Coding classes in Pune, live online for kids, teens and adults.
 
-Searching for coding classes near me in Pune? Every class is live online, from **Hinjewadi to Hadapsar, Wakad to Viman Nagar** to every street in between: a batch of 5 to 10, a mentor who knows your child's name, and projects they can open and show you. Kids from 6, teens, college students and adults.
+Searching for coding classes near me in Pune? Every class is live online, from **Hinjewadi to Hadapsar, Wakad to Viman Nagar** to every street in between: a batch of 15 to 20, a mentor who knows your child's name, and projects they can open and show you. Kids from 6, teens, college students and adults.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Pune)★★★★★ **4.9/5****10,000+** students across India**5–10** students per batchFirst class is **free**PUNE: MAHARASHTRAEnrollingAreasHinjewadi, Wakad, Baner, Kothrud, Viman Nagar & all of Pune + PCMCBoardsMaharashtra SSC/HSC · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–10 per batchFeesGroup from **₹1,499** a month · free demo firstTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across PuneFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Pune)★★★★★ **4.9/5****10,000+** students across India**5–10** students per batchFirst class is **free**PUNE: MAHARASHTRAEnrollingAreasHinjewadi, Wakad, Baner, Kothrud, Viman Nagar & all of Pune + PCMCBoardsMaharashtra SSC/HSC · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchFeesGroup from **₹1,499** a month · free demo firstTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across PuneFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -190,7 +190,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–10 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -212,7 +212,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–10 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -221,7 +221,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -230,7 +230,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -305,7 +305,7 @@ Takes under a minute.
 
 ## Coding classes in Pune: FAQs
 
-Are these coding classes near me in Pune, or online?Live online, which is what puts them near you anywhere in Pune: Hinjewadi, Wakad, Baner, Kothrud, Viman Nagar and every area in between. Your child joins a live mentor from home in a batch of 5 to 10, with no commute and no fixed centre timetable. If you were looking for offline coding classes near you, this is the same small-batch, teacher-led class without the travel, and you can see it for yourself in a free demo or a full Priority Live Demo.What is the best coding class in Pune for kids?Modern Age Coders offers live online coding classes in Pune for kids aged 6–12: Scratch, game development and creative coding, taught by expert mentors in small batches. We serve every Pune area including Hinjewadi, Wakad, Baner, Kothrud and Viman Nagar.Are the classes online or in a centre?Every class is live online, so students across Pune and PCMC: Hinjewadi, Wakad, Baner, Kothrud, Viman Nagar, Hadapsar, Magarpatta and beyond, learn from home in interactive batches of just 5–10 students. No travel, same small class.Which programming languages do you teach?Scratch for kids (6–12), then Python, Java, HTML/CSS, JavaScript, React and AI/ML concepts. The curriculum is age-appropriate and built for kids, teens and college students in Pune.How much do coding classes cost in Pune?Three formats: a group of 5 to 10 students, a mini batch of 3 to 4, or one-to-one, each billed monthly, with two live classes a week in the group formats. The current fees for your region are shown in the pricing section of this page and on our pricing page. Every plan starts with a free demo, or a Priority Live Demo if you want a full class today or tomorrow.What age is best to start coding?Children can start with us from age 6 on block-based tools like ScratchJr and Scratch, where the logic is visual and nothing depends on typing speed. Most are ready for text-based Python or Java around age 12 to 13. Our kids track runs 6 to 12, the teens track 13 to 18, and college students and adults have their own tracks.Do students get a certificate?Yes, every student earns a completion certificate at the end of their course, useful for school portfolios and college applications. More importantly, they finish with real projects they built themselves.Which areas of Pune do you serve?All of Pune and PCMC through our online classes: Hinjewadi, Wakad, Baner, Kothrud, Viman Nagar, Hadapsar, Aundh, Shivajinagar, Koregaon Park, Kalyani Nagar, Magarpatta, Pimpri-Chinchwad, Kharadi and more.How are you different from other Pune coding institutes?We focus on project-based learning where students build real games, websites and apps. Small batches of 5–10, recorded sessions, mentors with industry experience and honest pricing set us apart. And we only show real, verified reviews.Do you teach coding to Maharashtra State Board students in Pune?Yes, and it is worth knowing that the board setting those SSC and HSC papers is headquartered in Pune itself. We do not coach the school syllabus back at your child. We teach the programming underneath it, so the computer paper stops being a memory test.Can SPPU or COEP students join your programming courses?Yes. COEP has been turning out engineers since 1854 and Savitribai Phule Pune University since 1949, but a degree still does not hand a fresher a portfolio. The college track is built for that gap: real Python, Java, full-stack and AI/ML projects you can open in a Hinjawadi interview.Do your coding classes in Pune come with placement?No. We do not sell placement guarantees or job referrals, and we would be wary of any institute in Pune that does. What the college track gives you is the thing interviews actually test: working projects you built yourself, data structures and algorithms you can solve live, a completion certificate, and a mentor who has sat on the other side of the table.
+Are these coding classes near me in Pune, or online?Live online, which is what puts them near you anywhere in Pune: Hinjewadi, Wakad, Baner, Kothrud, Viman Nagar and every area in between. Your child joins a live mentor from home in a batch of 15 to 20, with no commute and no fixed centre timetable. If you were looking for offline coding classes near you, this is the same small-batch, teacher-led class without the travel, and you can see it for yourself in a free demo or a full Priority Live Demo.What is the best coding class in Pune for kids?Modern Age Coders offers live online coding classes in Pune for kids aged 6–12: Scratch, game development and creative coding, taught by expert mentors in small batches. We serve every Pune area including Hinjewadi, Wakad, Baner, Kothrud and Viman Nagar.Are the classes online or in a centre?Every class is live online, so students across Pune and PCMC: Hinjewadi, Wakad, Baner, Kothrud, Viman Nagar, Hadapsar, Magarpatta and beyond, learn from home in interactive batches of just 15–20 students. No travel, same small class.Which programming languages do you teach?Scratch for kids (6–12), then Python, Java, HTML/CSS, JavaScript, React and AI/ML concepts. The curriculum is age-appropriate and built for kids, teens and college students in Pune.How much do coding classes cost in Pune?Three formats: a group of 15 to 20 students, a mini batch of up to 6, or one-to-one, each billed monthly, with two live classes a week in the group formats. The current fees for your region are shown in the pricing section of this page and on our pricing page. Every plan starts with a free demo, or a Priority Live Demo if you want a full class today or tomorrow.What age is best to start coding?Children can start with us from age 6 on block-based tools like ScratchJr and Scratch, where the logic is visual and nothing depends on typing speed. Most are ready for text-based Python or Java around age 12 to 13. Our kids track runs 6 to 12, the teens track 13 to 18, and college students and adults have their own tracks.Do students get a certificate?Yes, every student earns a completion certificate at the end of their course, useful for school portfolios and college applications. More importantly, they finish with real projects they built themselves.Which areas of Pune do you serve?All of Pune and PCMC through our online classes: Hinjewadi, Wakad, Baner, Kothrud, Viman Nagar, Hadapsar, Aundh, Shivajinagar, Koregaon Park, Kalyani Nagar, Magarpatta, Pimpri-Chinchwad, Kharadi and more.How are you different from other Pune coding institutes?We focus on project-based learning where students build real games, websites and apps. Batches of 15–20, recorded sessions, mentors with industry experience and honest pricing set us apart. And we only show real, verified reviews.Do you teach coding to Maharashtra State Board students in Pune?Yes, and it is worth knowing that the board setting those SSC and HSC papers is headquartered in Pune itself. We do not coach the school syllabus back at your child. We teach the programming underneath it, so the computer paper stops being a memory test.Can SPPU or COEP students join your programming courses?Yes. COEP has been turning out engineers since 1854 and Savitribai Phule Pune University since 1949, but a degree still does not hand a fresher a portfolio. The college track is built for that gap: real Python, Java, full-stack and AI/ML projects you can open in a Hinjawadi interview.Do your coding classes in Pune come with placement?No. We do not sell placement guarantees or job referrals, and we would be wary of any institute in Pune that does. What the college track gives you is the thing interviews actually test: working projects you built yourself, data structures and algorithms you can solve live, a completion certificate, and a mentor who has sat on the other side of the table.
 
 ## Ready to start your child's coding journey in Pune?
 

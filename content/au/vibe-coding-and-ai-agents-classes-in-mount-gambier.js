@@ -185,7 +185,7 @@ module.exports = {
       { h3: 'From any street', p: 'Learners anywhere in Mount Gambier sit in the same online class with no travel.' },
       { h3: 'South Australian levels', p: 'Lessons fit South Australian year levels, including SACE study in Years 11 and 12, in English.' },
       { h3: 'Opening lesson free', p: 'Build something with an AI and a teacher, then get a suggested level, course and slot; no card is requested.' },
-      { h3: 'Five to ten learners', p: 'A group shares one level and draws from South Australia, the rest of Australia and abroad.' },
+      { h3: 'Fifteen to twenty learners', p: 'A group shares one level and draws from South Australia, the rest of Australia and abroad.' },
       { h3: 'Two lessons weekly', p: 'Roughly eight lessons a month, with school holidays planned around.' },
       { h3: 'Daylight saving handled', p: 'When South Australian clocks change, the lesson stays at its Mount Gambier time.' }
     ],
@@ -196,7 +196,7 @@ module.exports = {
     h2: 'What vibe coding classes cost in Mount Gambier',
     intro: 'The complete list of prices.',
     first: 'A free first lesson that ends with a level, a course and a time.',
-    group: 'A month in a group of five to ten learners, usually eight lessons.',
+    group: 'A month in a group of fifteen to twenty learners, usually eight lessons.',
     private: 'About eight lessons a month alone with one teacher.',
     closer: 'Mount Gambier learners pay the same US dollar rate as everyone in Australia, with no regional loading. Payment starts once the trial has fixed a course and time; the pricing page explains breaks, missed lessons and changing formats.'
   },
@@ -221,8 +221,8 @@ module.exports = {
       { q: 'When are Mount Gambier lessons held?', a: 'After school or at weekends, agreed in the trial and written in South Australian time, four hours ahead of India in winter and five in summer.' },
       { q: 'Are there classes for younger children?', a: 'Yes, from age 6, usually starting with Scratch. This page focuses on teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Mount Gambier?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Mount Gambier coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Mount Gambier coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

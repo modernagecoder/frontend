@@ -16,7 +16,7 @@ Pakenham, Cardinia Shire, Melbourne, Victoria / Live online
 
 Pakenham is big enough that crossing it by bus can mean changing at the station. Which corners can you reach on one bus, which need two, and which need three? A spreadsheet of stops can answer that, and so can a single idea from school maths: multiply a table of connections by itself and it tells you every two-leg trip at once.
 
-Facts last verified 11 October 2026. Teaching is online; no Pakenham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 October 2026. Teaching is online; no Pakenham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that join maths and code
 
@@ -175,7 +175,7 @@ Every class runs live on a video call, so the size of the suburb makes no differ
 - **Screen shared** The learner writes code on their own computer while the teacher watches the screen and talks it through.
 - **Victorian terms** Courses follow the state school calendar, with breaks in the holidays.
 - **A first lesson to judge by** The free class is a full lesson. Afterwards the teacher suggests a course and a regular time.
-- **Groups by level** Five to ten learners at a similar stage share each group.
+- **Groups by level** Fifteen to twenty learners at a similar stage share each group.
 - **Twice a week** Two fixed lessons each week, about eight in a month, with any breaks agreed in advance.
 - **Teachers in India** Our teachers are in India. A 4:30pm Pakenham class in daylight saving is 11am India time; in Melbourne winter it is noon.
 
@@ -186,7 +186,7 @@ Every class runs live on a video call, so the size of the suburb makes no differ
 The whole price list fits in three lines.
 
 - First class: USD 0. A free first lesson, followed by an honest course suggestion.
-- Group tuition: USD 100 a month. One month of group classes, normally eight, in a level-matched group of five to ten.
+- Group tuition: USD 100 a month. One month of group classes, normally eight, in a level-matched group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight one-to-one classes a month with a single teacher.
 
 Families outside India are billed in US dollars, so Pakenham pays the same as any other family abroad. Nothing is due until the trial has settled the course and the time; the pricing page covers holidays, missed classes and switching format.
@@ -223,7 +223,7 @@ No. Every class is live online. We have no premises in Australia, and the phone 
 
 ### How much are coding classes for Pakenham learners?
 
-The first lesson is free. Group classes are then USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, and one-to-one classes are USD 150 a month. You agree the course, format and time before paying.
+The first lesson is free. Group classes are then USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, and one-to-one classes are USD 150 a month. You agree the course, format and time before paying.
 
 ### How many learners share a group?
 

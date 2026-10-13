@@ -16,7 +16,7 @@ Applecross, City of Melville, Western Australia / Live online
 
 Ask "which train station is in Applecross?" and you have already assumed there is one. An agent eager to help may name a station that does not exist. The state stops file settles it: none of the 34 stop records inside Applecross is a rail stop.
 
-Facts last verified 13 October 2026. Teaching is online; no Applecross branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Applecross branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that teach agents to check before agreeing
 
@@ -184,7 +184,7 @@ Lessons are taught live online, so learners never need to travel.
 - **Prompts on screen** Every question to an AI tool and every answer is read together and challenged.
 - **Aligned with school** Classes follow the WA school year and stop in the holidays.
 - **Free opening class** A full first lesson, then honest advice on the next step.
-- **Five to ten per class** Learners grouped by level, or taught on their own.
+- **Fifteen to twenty per class** Learners grouped by level, or taught on their own.
 - **Two each week** Regular slots that add up to about eight lessons monthly.
 - **India time** Teachers are based in India; a 3:30pm Applecross lesson is 1pm India time.
 
@@ -195,7 +195,7 @@ Lessons are taught live online, so learners never need to travel.
 Three clear prices.
 
 - First class: USD 0. The first lesson is free and ends with a recommendation in writing.
-- Group tuition: USD 100 a month. About eight live group lessons each month with five to ten learners.
+- Group tuition: USD 100 a month. About eight live group lessons each month with fifteen to twenty learners.
 - Private tuition: USD 150 a month. About eight live private lessons each month with one teacher.
 
 Applecross learners pay in US dollars once the trial has fixed a course and time, never before. The pricing page explains holidays, absences and switching formats.
@@ -232,11 +232,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Applecross learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Is Copilot Studio part of Applecross group classes?
 

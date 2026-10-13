@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Hillegersberg-Schiebr
 canonical: https://learn.modernagecoders.com/coding-classes-in-hillegersberg-schiebroek
 source: src/pages/coding-classes-in-hillegersberg-schiebroek.html
 ---
-> Coding classes in Hillegersberg-Schiebroek reach 44,792 residents (1 January 2026) on 1,163 hectares of land at 3,862 people to the square kilometre, the lowest density of the seven Rotterdam districts in this series. It is also the highest on average dwelling value at 496,000 euro, the highest on owner-occupation at 54 percent, and second on income at 42,400 euro. Four measures pointing one way looks like four reasons to believe something. Sort all seven districts on each and two of the four turn out to be one fact said twice. Modern Age Coders teaches live online in English from Schiebroek to Terbregge, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Hillegersberg-Schiebroek reach 44,792 residents (1 January 2026) on 1,163 hectares of land at 3,862 people to the square kilometre, the lowest density of the seven Rotterdam districts in this series. It is also the highest on average dwelling value at 496,000 euro, the highest on owner-occupation at 54 percent, and second on income at 42,400 euro. Four measures pointing one way looks like four reasons to believe something. Sort all seven districts on each and two of the four turn out to be one fact said twice. Modern Age Coders teaches live online in English from Schiebroek to Terbregge, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Rotterdam](/coding-classes-in-rotterdam) / Hillegersberg-Schiebroek
 
@@ -12,11 +12,11 @@ Hillegersberg-Schiebroek, Rotterdam / Live online
 
 # Coding classes in Hillegersberg-Schiebroek, where four measures agree and only two of them are telling you anything new
 
-**What are the best coding classes in Hillegersberg-Schiebroek?** Coding classes in Hillegersberg-Schiebroek reach 44,792 residents (1 January 2026) on 1,163 hectares of land at 3,862 people to the square kilometre, the lowest density of the seven Rotterdam districts in this series. It is also the highest on average dwelling value at 496,000 euro, the highest on owner-occupation at 54 percent, and second on income at 42,400 euro. Four measures pointing one way looks like four reasons to believe something. Sort all seven districts on each and two of the four turn out to be one fact said twice. Modern Age Coders teaches live online in English from Schiebroek to Terbregge, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Hillegersberg-Schiebroek?** Coding classes in Hillegersberg-Schiebroek reach 44,792 residents (1 January 2026) on 1,163 hectares of land at 3,862 people to the square kilometre, the lowest density of the seven Rotterdam districts in this series. It is also the highest on average dwelling value at 496,000 euro, the highest on owner-occupation at 54 percent, and second on income at 42,400 euro. Four measures pointing one way looks like four reasons to believe something. Sort all seven districts on each and two of the four turn out to be one fact said twice. Modern Age Coders teaches live online in English from Schiebroek to Terbregge, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 This district comes top or near it on dwelling value, on owner-occupation and on income, and bottom on density. Four independent-looking confirmations that it is the comfortable end of Rotterdam. Two of them are not independent at all: order the seven districts by average dwelling value and then by average income and you get almost the same list. Two of them are: order them by owner-occupation and the list scrambles completely. Knowing which is which took one sort of a table, and almost nobody does it.
 
-Facts last verified 9 September 2026. Teaching is online; no Hillegersberg-Schiebroek branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 September 2026. Teaching is online; no Hillegersberg-Schiebroek branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the quietest corner of the city
 
@@ -182,18 +182,18 @@ This is the low-density corner of the city, with lakes, villa streets and the mo
 - **A fixed hour at home, wherever home is** Molenlaankwartier, Terbregge or Schiebroek, at the same time every week. In a district this spread out that is worth more than proximity to anything.
 - **The lesson is English; the school words are not** A teacher here says groep, havo, vwo and profielkeuze in Dutch and everything around them in English, on the simple ground that a child should not have to translate the name of their own school year before following the sentence it is in.
 - **What the opening hour is for** Finding out what the learner can already do, by giving them something to do rather than a questionnaire. A level comes out of it, a course follows from the level, and a weekly slot is agreed. It costs nothing and no card is asked for.
-- **Why the other learners are usually elsewhere** A group is five to ten people at one stage. Assembling that from a single district would mean waiting; assembling it from everywhere means it exists this month. Geography is not a criterion and never has been.
+- **Why the other learners are usually elsewhere** A group is fifteen to twenty people at one stage. Assembling that from a single district would mean waiting; assembling it from everywhere means it exists this month. Geography is not a criterion and never has been.
 - **Eight lessons, most months** Two each week at a fixed hour. The regio Midden calendar governs school holidays across Zuid-Holland and comes out far ahead, so the weeks off are agreed with the schedule instead of colliding with it.
 - **Why the offset is not constant** Dutch summer time comes and goes; Indian time never has. So the teacher sits three and a half hours ahead for part of the year and four and a half for the rest, and in both cases the afternoons, evenings and weekends remain available.
 
-**Nearly eight thousand children in the least crowded district here** 7,880 residents are under fifteen, 18 percent, spread across 1,163 hectares of land at 3,862 people to the square kilometre, the lowest density of the seven Rotterdam districts in this series. There are plenty of children and a great deal of space between them, which is exactly the arithmetic that stops a local group at one narrow level from forming however good the schools are. A group of five to ten assembled on ability from across the world is indifferent to the distance, at every age from 6 to 67.
+**Nearly eight thousand children in the least crowded district here** 7,880 residents are under fifteen, 18 percent, spread across 1,163 hectares of land at 3,862 people to the square kilometre, the lowest density of the seven Rotterdam districts in this series. There are plenty of children and a great deal of space between them, which is exactly the arithmetic that stops a local group at one narrow level from forming however good the schools are. A group of fifteen to twenty assembled on ability from across the world is indifferent to the distance, at every age from 6 to 67.
 
 ## The fee, in dollars, in all five buurten
 
 On the page rather than kept for a call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate, in dollars, with no euro edition, so an address in Terbregge is charged what one in Schiebroek is. Nothing is paid until the free lesson has settled a course and an hour, and payment follows over WhatsApp. Pausing, switching plan and missing a week are all on the pricing page.
@@ -234,7 +234,7 @@ No, and none is claimed here, elsewhere in Rotterdam or anywhere in the Netherla
 
 ### What do Hillegersberg-Schiebroek coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

@@ -4,7 +4,7 @@ description: "Python classes online for learners in Ireland, ages 6 to 67: taugh
 canonical: https://learn.modernagecoders.com/best-python-classes-online-ireland
 source: src/pages/best-python-classes-online-ireland.html
 ---
-> Python suits Irish learners of any age: readable enough for a nine year old, powerful enough for professional data work, and the language Ireland's public statistics are served up for. We teach it live online in groups of five to ten placed by level, or one to one, from first programs through functions and files to reading data straight from the Central Statistics Office and training a first model. Learners practise on real Irish datasets, which is where the important lessons live, and the traps in them are taught deliberately. The first class is free; a place afterwards is USD 100 a month in a group or USD 150 a month one to one.
+> Python suits Irish learners of any age: readable enough for a nine year old, powerful enough for professional data work, and the language Ireland's public statistics are served up for. We teach it live online in groups of fifteen to twenty placed by level, or one to one, from first programs through functions and files to reading data straight from the Central Statistics Office and training a first model. Learners practise on real Irish datasets, which is where the important lessons live, and the traps in them are taught deliberately. The first class is free; a place afterwards is USD 100 a month in a group or USD 150 a month one to one.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / Python classes, Ireland
 
@@ -170,7 +170,7 @@ Teaching is live rather than recorded, with teachers working from India at a wee
 - **Weekend** Longer sessions for data projects.
 
 - **A free first class** The learner writes actual Python with a teacher, who then recommends a rung and a course.
-- **Five to ten per group** Learners at the same rung, so nobody is lost and nobody is bored.
+- **Fifteen to twenty per group** Learners at the same rung, so nobody is lost and nobody is bored.
 - **One to one** For a focused goal, an unusual schedule, or a learner who prefers privacy.
 - **Real datasets early** Irish public data appears as soon as a learner can read a file, because it teaches more than invented examples.
 - **Checks in the code** Students learn to make a program verify its own totals rather than trusting them.
@@ -181,7 +181,7 @@ Teaching is live rather than recorded, with teachers working from India at a wee
 One monthly price in US dollars, the same in every country apart from India, whatever the age of the learner or the course. No registration fee and nothing to commit to beyond the month.
 
 - Free first class: USD 0. Real Python written with a teacher. An honest view of the right rung. No card needed.
-- Group batch: USD 100 a month. Five to ten learners at one rung. The same teacher each week. Code read and corrected weekly. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one rung. The same teacher each week. Code read and corrected weekly. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one learner. Built around a goal or deadline. Good for certification work.
 
 ## What learners in Ireland ask about Python

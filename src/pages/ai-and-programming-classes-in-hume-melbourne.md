@@ -16,7 +16,7 @@ Hume City Council, Melbourne, Victoria / Live online
 
 Hume City Council takes in both Broadmeadows and Sunbury, and the 2025 state file lists 49 government schools inside it. We asked a simple question of that list: can a program tell which schools are secondary? One version gets 48 of 49 right. It is also a model that has learned nothing, and seeing why is the lesson.
 
-Facts last verified 10 October 2026. Teaching is online; no Hume branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Hume branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI and programming courses
 
@@ -175,7 +175,7 @@ Everything happens on a video call, whether the learner is in Sunbury, Campbellf
 - **Teacher and screen** The learner shares their screen; the teacher talks through the learner's own code.
 - **In step with terms** Lessons follow the Victorian school term pattern, with breaks in the holidays.
 - **First class free** A complete trial lesson with no charge, followed by a course suggestion.
-- **Matched groups** Five to ten learners grouped by level, from different suburbs and countries.
+- **Matched groups** Fifteen to twenty learners grouped by level, from different suburbs and countries.
 - **Twice a week** Two scheduled lessons weekly, so roughly eight in a month.
 - **India time** A 5pm Hume lesson is 11:30am India time while Melbourne is on daylight saving, and 12:30pm after it ends.
 
@@ -186,7 +186,7 @@ Everything happens on a video call, whether the learner is in Sunbury, Campbellf
 One price list for every family outside India.
 
 - First class: USD 0. The first lesson costs nothing and ends with a recommendation.
-- Group tuition: USD 100 a month. Group classes: a month of lessons, about eight, in a group of five to ten.
+- Group tuition: USD 100 a month. Group classes: a month of lessons, about eight, in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. One-to-one classes: a month of lessons, about eight, with a teacher to themselves.
 
 Hume families are billed in US dollars. Nothing is paid until the trial has settled the course and a weekly time; rules for holidays and missed lessons are on the pricing page.
@@ -223,11 +223,11 @@ Only online. We have no Australian premises, and our listed phone number is an I
 
 ### What do Hume classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How are groups formed?
 
-By level and pace, with five to ten learners in each, rather than by age or suburb. One-to-one lessons cover any timing a group cannot.
+By level and pace, with fifteen to twenty learners in each, rather than by age or suburb. One-to-one lessons cover any timing a group cannot.
 
 ### Is the school data on this page official?
 

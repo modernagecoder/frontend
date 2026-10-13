@@ -59,7 +59,7 @@ module.exports = {
 
   h1: 'Coding classes in Clackmannanshire',
   capsuleQ: 'What are the best coding classes in Clackmannanshire?',
-  capsule: 'Clackmannanshire is one compact council area: Scotland\'s Census 2022 counted about 51,800 people in some 24,100 households, packed at 325.4 people per square kilometre. Alloa is the main town, with Tullibody and Sauchie close by and the Hillfoots villages of Menstrie, Alva, Tillicoultry and Dollar along the foot of the Ochils. Lessons are taught live over video from India, and every learner joins the class that fits their ability, from Primary 1 to S6 and adults. Ages 6 to 67 learn coding, Python and maths with us in groups of five to ten or one-to-one. The Clackmannanshire project comes from a beam engine house at Fishcross. Try one lesson free; after that, groups cost USD 100 a month and one-to-one lessons USD 150.',
+  capsule: 'Clackmannanshire is one compact council area: Scotland\'s Census 2022 counted about 51,800 people in some 24,100 households, packed at 325.4 people per square kilometre. Alloa is the main town, with Tullibody and Sauchie close by and the Hillfoots villages of Menstrie, Alva, Tillicoultry and Dollar along the foot of the Ochils. Lessons are taught live over video from India, and every learner joins the class that fits their ability, from Primary 1 to S6 and adults. Ages 6 to 67 learn coding, Python and maths with us in groups of fifteen to twenty or one-to-one. The Clackmannanshire project comes from a beam engine house at Fishcross. Try one lesson free; after that, groups cost USD 100 a month and one-to-one lessons USD 150.',
   lead: 'At Fishcross, a red sandstone engine house still holds the cast iron beam that once pumped water out of the Devon Colliery. Historic Environment Scotland\'s listing says it was built in 1864 by Neilson and Company of Glasgow, with the beam itself inscribed "No.189", and that it is one of only two surviving historic beam engine houses in Scotland. A beam engine is, at heart, an enormous see-saw, and a see-saw raises a question physics and programming share: where does it balance? This page\'s project works out the balance point of a loaded model beam in Python, checks the answer two ways, and then meets the most useful surprise in the whole exercise: an answer that falls off the end of the beam.',
   wa: 'Hello Modern Age Coders, we are in Clackmannanshire and would like to book a free lesson, please.',
 
@@ -167,7 +167,7 @@ module.exports = {
       { h3: 'From home in the Hillfoots', p: 'A house in Menstrie, a flat in Alloa, a cottage near Dollar. The pupil writes the code while the teacher watches the same screen.' },
       { h3: 'Scottish school terms', p: 'Teachers know P1 to P7, S1 to S6 and the National 5, Higher and Advanced Higher courses by those names, and lessons are in English.' },
       { h3: 'First lesson free', p: 'A genuine lesson, then an honest suggestion of level and course, with no card details requested.' },
-      { h3: 'Grouped by stage', p: 'Five to ten learners at the same point, wherever in the world they join from.' },
+      { h3: 'Grouped by stage', p: 'Fifteen to twenty learners at the same point, wherever in the world they join from.' },
       { h3: 'Holiday breaks', p: 'Two lessons a week in term, pausing for Clackmannanshire school holidays.' },
       { h3: 'A fixed UK slot', p: 'Your lesson keeps the same UK time when the clocks change; the teacher, several hours ahead on India time, adapts.' }
     ],
@@ -178,7 +178,7 @@ module.exports = {
     h2: 'Fees in Clackmannanshire',
     intro: 'Tillicoultry or Tullibody, the fee is the same, as it is in every country we teach except India.',
     first: 'A full lesson of real work, followed by advice on level and course.',
-    group: 'About eight lessons a month in a group of five to ten at one level.',
+    group: 'About eight lessons a month in a group of fifteen to twenty at one level.',
     private: 'About eight lessons a month, taught one-to-one.',
     closer: 'Fees are charged in US dollars only. Billing starts once the free lesson has agreed a course and weekly time; holidays, missed lessons and format changes are all covered on the pricing page.'
   },

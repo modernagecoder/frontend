@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding classes in South Yorkshire',
   capsuleQ: 'What are the best coding classes in South Yorkshire?',
-  capsule: 'South Yorkshire is four boroughs, Sheffield, Doncaster, Rotherham and Barnsley, and the 2021 Census counted 1,375,006 people across them, by our addition of the four totals. The Sheffield built-up area alone passes half a million, with Doncaster, Rotherham and Barnsley next. We teach every class live over video from India, and each learner is placed by the level they have reached, whatever their age. Coding, Python, probability and maths are open to anyone aged 6 to 67, either in a class of five to ten or one-to-one. The South Yorkshire project is set at the Crucible in Sheffield. Lesson one is free of charge. Carry on and it is USD 100 per month in a group, or USD 150 per month for one-to-one.',
+  capsule: 'South Yorkshire is four boroughs, Sheffield, Doncaster, Rotherham and Barnsley, and the 2021 Census counted 1,375,006 people across them, by our addition of the four totals. The Sheffield built-up area alone passes half a million, with Doncaster, Rotherham and Barnsley next. We teach every class live over video from India, and each learner is placed by the level they have reached, whatever their age. Coding, Python, probability and maths are open to anyone aged 6 to 67, either in a class of fifteen to twenty or one-to-one. The South Yorkshire project is set at the Crucible in Sheffield. Lesson one is free of charge. Carry on and it is USD 100 per month in a group, or USD 150 per month for one-to-one.',
   lead: 'World Snooker Tour calls the Crucible in Sheffield the home of the World Championship, and describes a 147, all fifteen reds with blacks and then every colour, as snooker\'s perfect break. It also notes that in 46 years at the Crucible, with many thousands of frames, there had been only 14 maximum breaks. That fact is a gift for a young programmer, because a simple model of a snooker break gives a very different answer. This page\'s project builds that model in Python, works out the expected value of a break and the chance of a 147, and then uses the gap between the model and the Crucible\'s real record to find what the model gets wrong.',
   wa: 'Hello Modern Age Coders, we are in South Yorkshire and would like to book a free lesson, please.',
 
@@ -160,7 +160,7 @@ module.exports = {
       { h3: 'Lessons at your table', p: 'A semi in Wickersley, a terrace in Wombwell, a flat in Doncaster. The teacher and learner share a screen, and the learner writes the code.' },
       { h3: 'School words we use', p: 'Whether it is a Year 7 homework project or an A level statistics topic, the teacher uses the terms South Yorkshire pupils hear in class, in English.' },
       { h3: 'First lesson free', p: 'A proper lesson, then honest advice on level and course. No card details are asked for.' },
-      { h3: 'Your level, your group', p: 'Everyone in a group of five to ten is working at the same point, wherever in the world they log in from.' },
+      { h3: 'Your level, your group', p: 'Everyone in a group of fifteen to twenty is working at the same point, wherever in the world they log in from.' },
       { h3: 'Breaks to match school', p: 'Two lessons a week is typical, with pauses for your school\'s holidays.' },
       { h3: 'Held in UK time', p: 'Slots are fixed in UK time and ignore the clock changes on your side; the teacher, running on India time several hours ahead, adjusts.' }
     ],
@@ -171,7 +171,7 @@ module.exports = {
     h2: 'Fees in South Yorkshire',
     intro: 'Maltby or Mexborough, the fee is the same, as it is in every country we teach apart from India.',
     first: 'A full lesson of genuine work, finishing with advice on level and course.',
-    group: 'About eight lessons a month with five to ten learners at one level.',
+    group: 'About eight lessons a month with fifteen to twenty learners at one level.',
     private: 'About eight lessons a month with a teacher of your own.',
     closer: 'All prices are set in US dollars, with none in pounds. You are only billed once the free lesson has led to an agreed course and a fixed weekly slot. How pauses, missed classes and swaps between group and private teaching work is spelled out on the pricing page.'
   },

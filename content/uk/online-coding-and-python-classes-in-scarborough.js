@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Scarborough',
   capsuleQ: 'What are the best online coding and Python classes for Scarborough?',
-  capsule: 'The ONS recorded 59,505 residents in the Scarborough built-up area at the 2021 census, in North Yorkshire. Falsgrave, Northstead, Barrowcliff, Newby, Weaponness and Eastfield are all recorded as suburban areas in the YO11 and YO12 postcode districts. Coding, Python, AI, vibe coding and maths are taught here by live video, to learners from six to 67, by tutors who are based in India. Lessons are one-to-one or in a class of five to ten at a single level, and they start from how to reason about a problem before any tool is opened. There is no charge for the first lesson, and it finishes with our advice on a course. Monthly fees afterwards are USD 100 in a group and USD 150 for private tuition. The Scarborough project asks a question every map app has to answer: how do you sort places, which have two coordinates, into a single list that keeps neighbours together?',
+  capsule: 'The ONS recorded 59,505 residents in the Scarborough built-up area at the 2021 census, in North Yorkshire. Falsgrave, Northstead, Barrowcliff, Newby, Weaponness and Eastfield are all recorded as suburban areas in the YO11 and YO12 postcode districts. Coding, Python, AI, vibe coding and maths are taught here by live video, to learners from six to 67, by tutors who are based in India. Lessons are one-to-one or in a class of fifteen to twenty at a single level, and they start from how to reason about a problem before any tool is opened. There is no charge for the first lesson, and it finishes with our advice on a course. Monthly fees afterwards are USD 100 in a group and USD 150 for private tuition. The Scarborough project asks a question every map app has to answer: how do you sort places, which have two coordinates, into a single list that keeps neighbours together?',
   lead: 'A list has one dimension and a map has two. Sort 1,685 postcodes by how far east they are and two that share a street can end up hundreds of rows apart, because every postcode between them on the east to west scale, however far north or south, gets slotted in between. Databases meet this problem constantly, because so much work with location data starts by finding what is close by. One old and elegant answer is to weave the two coordinates together, bit by bit, into a single number. It is called a Z-order curve, it takes about six lines of Python, and the same trick sits underneath the geohash codes that many apps use.',
   wa: 'Hello Modern Age Coders, I am in Scarborough and would like to book a free coding or Python lesson.',
 
@@ -156,7 +156,7 @@ module.exports = {
       { h3: 'The learner types', p: 'Screen sharing lets the tutor see every keystroke. The learner writes the code and explains it back.' },
       { h3: 'A level check first', p: 'In the free lesson we find out what is known already and note any exam board.' },
       { h3: 'First one free', p: 'It is a complete lesson, there is no fee, and it ends with a course recommendation.' },
-      { h3: 'Small, level classes', p: 'Groups are five to ten learners from across the UK at the same stage.' },
+      { h3: 'Small, level classes', p: 'Groups are fifteen to twenty learners from across the UK at the same stage.' },
       { h3: 'Two lessons each week', p: 'With a pause for every school holiday.' },
       { h3: 'Steady timetable', p: 'The hour you choose is kept through both clock changes.' }
     ],

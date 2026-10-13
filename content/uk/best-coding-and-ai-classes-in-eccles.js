@@ -157,7 +157,7 @@ module.exports = {
       { h3: 'Learner at the keyboard', p: 'The tutor asks and prompts; the learner types, runs and repairs the code.' },
       { h3: 'Course chosen after the trial', p: 'We only suggest a course once the free lesson has shown the learner\'s level.' },
       { h3: 'Trial at no charge', p: 'A complete lesson for free; we do not take card details to book it.' },
-      { h3: 'Groups by level', p: 'Five to ten learners at the same stage, gathered from across the UK.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at the same stage, gathered from across the UK.' },
       { h3: 'Two per week in term', p: 'Tell us your Salford school holidays and we will pause for them.' },
       { h3: 'One UK time', p: 'When the clocks go forward or back, the tutor adapts and your slot stays.' }
     ],

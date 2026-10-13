@@ -4,7 +4,7 @@ description: "Coding, Python, AI and maths classes taught live online for Bristo
 canonical: https://learn.modernagecoders.com/best-coding-class-in-bristol
 source: src/pages/best-coding-class-in-bristol.html
 ---
-> The 2021 Census found 472,465 people living in Bristol, with 10.1% aged 20 to 24 against 6.0% in England. The University of Bristol reports 31,132 students for 2024/25, and says its Isambard-AI became the most powerful university-based supercomputer in the world in 2025. Modern Age Coders teaches Bristol learners from six to sixty-seven live online, either one to one or in groups of five to ten placed by level, with teachers based in India and lesson times set in UK hours. There is no charge for the first lesson; from then on, group teaching is USD 100 a month and private teaching USD 150 a month.
+> The 2021 Census found 472,465 people living in Bristol, with 10.1% aged 20 to 24 against 6.0% in England. The University of Bristol reports 31,132 students for 2024/25, and says its Isambard-AI became the most powerful university-based supercomputer in the world in 2025. Modern Age Coders teaches Bristol learners from six to sixty-seven live online, either one to one or in groups of fifteen to twenty placed by level, with teachers based in India and lesson times set in UK hours. There is no charge for the first lesson; from then on, group teaching is USD 100 a month and private teaching USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Bristol
 
@@ -12,11 +12,11 @@ Bristol, South West England / Live online
 
 # Coding classes in Bristol
 
-**What are the best coding classes in Bristol?** The 2021 Census found 472,465 people living in Bristol, with 10.1% aged 20 to 24 against 6.0% in England. The University of Bristol reports 31,132 students for 2024/25, and says its Isambard-AI became the most powerful university-based supercomputer in the world in 2025. Modern Age Coders teaches Bristol learners from six to sixty-seven live online, either one to one or in groups of five to ten placed by level, with teachers based in India and lesson times set in UK hours. There is no charge for the first lesson; from then on, group teaching is USD 100 a month and private teaching USD 150 a month.
+**What are the best coding classes in Bristol?** The 2021 Census found 472,465 people living in Bristol, with 10.1% aged 20 to 24 against 6.0% in England. The University of Bristol reports 31,132 students for 2024/25, and says its Isambard-AI became the most powerful university-based supercomputer in the world in 2025. Modern Age Coders teaches Bristol learners from six to sixty-seven live online, either one to one or in groups of fifteen to twenty placed by level, with teachers based in India and lesson times set in UK hours. There is no charge for the first lesson; from then on, group teaching is USD 100 a month and private teaching USD 150 a month.
 
 Bristol City Council lists 26 libraries, from Avonmouth beside the Severn to Stockwood on the south-eastern edge, plus a collection point in Lockleaze. Suppose every part of the city belongs to whichever library is nearest in a straight line. The map that results is a Voronoi diagram, a shape that turns up all over computing and geography. Drawn over Bristol's boundary on a 50-metre grid, it gives Avonmouth Library the largest territory by far, 10.98 square kilometres, and Central Library the smallest, 2.16. Yet Avonmouth's cell contains only 7 of the city's 1,405 census output areas, while St George Library's holds 112. Territory and people are different things, and a program that mixes them up draws a confident, misleading map. Building the diagram, and reading it honestly, is the lesson Bristol's libraries give our teenage learners.
 
-Facts last verified 21 September 2026. Teaching is online; no Bristol branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 21 September 2026. Teaching is online; no Bristol branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for Brunel's city
 
@@ -177,7 +177,7 @@ Bristol is a city of hills, bridges and busy roads; online lessons skip the jour
 - **Across the river, no crossing** A learner in Southville and one in Redland can share a lesson without either of them crossing the harbour or the Avon.
 - **The stages English schools use** Reception, Key Stages 1 to 4, Year 9 options, GCSEs and A levels, named the way Bristol schools name them, with every lesson in English.
 - **Start with a real lesson** The free session teaches something real and closes with a recommended level, course and weekly time. We never ask for card details to book it.
-- **Placed by level, not postcode** Groups hold five to ten learners at the same stage from Bristol, elsewhere in the UK and overseas, which keeps a slot open for every level.
+- **Placed by level, not postcode** Groups hold fifteen to twenty learners at the same stage from Bristol, elsewhere in the UK and overseas, which keeps a slot open for every level.
 - **A steady two a week** Two lessons each week at a fixed time, roughly eight a month, with holiday and exam breaks agreed in advance with the teacher.
 - **Teaching from India** Our teachers keep India Standard Time all year, four and a half hours ahead of Bristol in summer and five and a half in winter, so after-school and evening slots here fall inside their normal day.
 
@@ -188,7 +188,7 @@ Bristol is a city of hills, bridges and busy roads; online lessons skip the jour
 One free lesson, then one of two monthly prices.
 
 - First class: USD 0. A full lesson with nothing to pay, ending with a level, a suggested course and a time slot.
-- Group tuition: USD 100 a month. Each month, around eight live lessons in a group of five to ten learners at one level.
+- Group tuition: USD 100 a month. Each month, around eight live lessons in a group of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Each month, around eight live lessons with a teacher who works with one learner only.
 
 Outside India the fee is a single US dollar amount, identical for a family in Redland and a family in Cotham, and there is no pound price list. Nothing is charged until the free lesson has agreed a course and a slot, and the pricing page covers pauses, missed lessons and moving between group and one-to-one teaching.
@@ -229,11 +229,11 @@ No. We have no Bristol centre and no premises anywhere in the UK; all teaching i
 
 ### How much do Bristol lessons cost?
 
-The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, and private lessons on the same timetable are USD 150 a month. Course, format and time are agreed before anything is charged.
+The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, and private lessons on the same timetable are USD 150 a month. Course, format and time are agreed before anything is charged.
 
 ### How are Bristol groups made up?
 
-By level, pace and aims, not by age or postcode: five to ten learners at one stage. Where no group runs at a workable time, we offer one-to-one lessons.
+By level, pace and aims, not by age or postcode: fifteen to twenty learners at one stage. Where no group runs at a workable time, we offer one-to-one lessons.
 
 ## Nearby nations, other cities, the national guide
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across County Kilkenny, 
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-kilkenny
 source: src/pages/coding-classes-in-county-kilkenny.html
 ---
-> Kilkenny is a county of 104,160 people, 21,094 of them aged 15 and under, with one large town and a great many small ones: the city holds 27,184 while Castlecomer holds 1,496. Nobody in this county sat the first cohort of Leaving Certificate Computer Science, because no Kilkenny school was on that first list. Our classes run live, in ability groups of five to ten or one to one, for anyone from six years old to sixty-seven. The opening lesson costs nothing; after that a group place is USD 100 a month and a private one is USD 150.
+> Kilkenny is a county of 104,160 people, 21,094 of them aged 15 and under, with one large town and a great many small ones: the city holds 27,184 while Castlecomer holds 1,496. Nobody in this county sat the first cohort of Leaving Certificate Computer Science, because no Kilkenny school was on that first list. Our classes run live, in ability groups of fifteen to twenty or one to one, for anyone from six years old to sixty-seven. The opening lesson costs nothing; after that a group place is USD 100 a month and a private one is USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [Waterford](/best-coding-class-in-waterford) / County Kilkenny
 
@@ -12,11 +12,11 @@ County Kilkenny, Leinster / Live online
 
 # Coding classes in County Kilkenny
 
-**What are the best coding classes in County Kilkenny?** Kilkenny is a county of 104,160 people, 21,094 of them aged 15 and under, with one large town and a great many small ones: the city holds 27,184 while Castlecomer holds 1,496. Nobody in this county sat the first cohort of Leaving Certificate Computer Science, because no Kilkenny school was on that first list. Our classes run live, in ability groups of five to ten or one to one, for anyone from six years old to sixty-seven. The opening lesson costs nothing; after that a group place is USD 100 a month and a private one is USD 150.
+**What are the best coding classes in County Kilkenny?** Kilkenny is a county of 104,160 people, 21,094 of them aged 15 and under, with one large town and a great many small ones: the city holds 27,184 while Castlecomer holds 1,496. Nobody in this county sat the first cohort of Leaving Certificate Computer Science, because no Kilkenny school was on that first list. Our classes run live, in ability groups of fifteen to twenty or one to one, for anyone from six years old to sixty-seven. The opening lesson costs nothing; after that a group place is USD 100 a month and a private one is USD 150.
 
 Open Kilkenny County Council's road traffic file and two columns are full of blanks. The temptation is to fill them in, average them out, or drop the rows. Look closer and the blanks are the most informative thing in the file. Every local road has one column filled and the other empty. Every motorway has the opposite. The gaps are not accidental and they are not random: they record which counting method was used on which class of road. Fill them in and you have invented traffic that nobody measured. This is one of the deepest ideas in working with data, it is visible here in a small public spreadsheet from a small Irish county, and a fifteen year old can see it in an afternoon.
 
-Facts last verified 16 September 2026. Teaching is online; no County Kilkenny branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no County Kilkenny branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses, by age and appetite
 
@@ -170,7 +170,7 @@ Six things worth knowing before the first lesson.
 
 - **A person, not a playlist** Lessons are taught live by a teacher who expects the learner to talk, ask and get things wrong out loud.
 - **Scheduling across time zones** Our teaching team works from India, several hours ahead of Ireland, which is why afternoon and evening slots here are straightforward to fill.
-- **Grouped by what they can do** Five to ten learners at one level, gathered from Kilkenny and other countries, so a genuine peer group exists rather than a room of mixed abilities.
+- **Grouped by what they can do** Fifteen to twenty learners at one level, gathered from Kilkenny and other countries, so a genuine peer group exists rather than a room of mixed abilities.
 - **Equipment** A laptop or desktop, sound that works, a steady connection. Tools are installed together in the first lessons.
 - **Term-time aware** Junior Cycle, Transition Year and the senior cycle are planned around, including mid-terms and exam weeks.
 - **Weekly, not occasional** Two lessons in most weeks, roughly eight a month, in a slot fixed at the start and then kept.
@@ -182,7 +182,7 @@ Six things worth knowing before the first lesson.
 Three lines, and the conditions in plain view.
 
 - First class: USD 0. The opening lesson is free and complete, ending with a level and a recommended course.
-- Group tuition: USD 100 a month. A month of group classes, around eight lessons, with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group classes, around eight lessons, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. A month of one to one lessons on the same weekly rhythm.
 
 Billing is monthly and in US dollars, the one rate we use outside India, so a family in Graiguenamanagh pays exactly what a family in the city pays. Nothing is taken until a course and a weekly hour have been agreed in the free lesson, and the pricing page explains pauses, missed lessons and switching format.
@@ -223,7 +223,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do County Kilkenny coding classes cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

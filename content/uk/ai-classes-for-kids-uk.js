@@ -224,7 +224,7 @@ module.exports = {
       { h3: 'Short and busy', p: 'Children build something in every lesson. A child who has made nothing has not had a lesson.' },
       { h3: 'An adult nearby', p: 'We ask that a parent or carer is in the house and reachable. Not sitting in, just present.' },
       { h3: 'No accounts', p: 'Primary-age children need no account with any AI provider for anything we teach them.' },
-      { h3: 'Groups by level', p: 'Five to ten children at the same stage. Nobody is the youngest in a room of teenagers.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty children at the same stage. Nobody is the youngest in a room of teenagers.' },
       { h3: 'Explaining out loud', p: 'A child says what their program or model will do before it runs. Being wrong out loud is how the idea lands.' },
       { h3: 'Work you can see', p: 'Every finished project is saved where the family can open it, which is usually how a parent finds out what was learnt.' }
     ]
@@ -238,7 +238,7 @@ module.exports = {
     h2: 'What AI classes for children cost',
     lede: 'One monthly charge in US dollars, the same everywhere outside India. The free lesson comes first and nothing is taken before a course and a slot are agreed.',
     free: ['A full lesson with a teacher', 'An honest view of the right starting step', 'No card details requested'],
-    group: ['Five to ten children at one step', 'The same teacher all the way through', 'Work saved where a parent can see it', 'A certificate when a course finishes'],
+    group: ['Fifteen to twenty children at one step', 'The same teacher all the way through', 'Work saved where a parent can see it', 'A certificate when a course finishes'],
     one: ['One teacher and one child', 'Useful for a child well ahead or very shy', 'Scheduled around school and other activities']
   },
 

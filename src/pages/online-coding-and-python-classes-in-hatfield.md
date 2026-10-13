@@ -4,7 +4,7 @@ description: "Online coding and Python classes for Hatfield, South Hatfield, Roe
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-hatfield
 source: src/pages/online-coding-and-python-classes-in-hatfield.html
 ---
-> Hatfield counted 41,560 usual residents as an ONS built-up area at the 2021 census. The wider borough of Welwyn Hatfield counted 119,836. Gazetteer suburbs inside the town include South Hatfield, Roe Green, Oxlease, Birchwood, Old Hatfield, Ellenbrook and Hatfield Garden Village. Modern Age Coders teaches coding, Python, AI, vibe coding and maths to Hatfield learners aged six to 67, live on video, with a tutor based in India, either one-to-one or in a group of five to ten at the same level. Our Hatfield project asks a question every programmer meets daily: when a file changes, what exactly changed? Learners write the Myers diff in Python and test it against the library that ships with Python. Your opening lesson is on us. Carrying on costs USD 100 per month for a seat in a small class, or USD 150 per month for a tutor to yourself.
+> Hatfield counted 41,560 usual residents as an ONS built-up area at the 2021 census. The wider borough of Welwyn Hatfield counted 119,836. Gazetteer suburbs inside the town include South Hatfield, Roe Green, Oxlease, Birchwood, Old Hatfield, Ellenbrook and Hatfield Garden Village. Modern Age Coders teaches coding, Python, AI, vibe coding and maths to Hatfield learners aged six to 67, live on video, with a tutor based in India, either one-to-one or in a group of fifteen to twenty at the same level. Our Hatfield project asks a question every programmer meets daily: when a file changes, what exactly changed? Learners write the Myers diff in Python and test it against the library that ships with Python. Your opening lesson is on us. Carrying on costs USD 100 per month for a seat in a small class, or USD 150 per month for a tutor to yourself.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East of England](/coding-and-ai-classes-in-east-of-england) / Hatfield
 
@@ -12,11 +12,11 @@ Hatfield, Welwyn Hatfield, Hertfordshire / Live online
 
 # Online coding and Python classes in Hatfield
 
-**Which online coding and Python classes are best for Hatfield learners?** Hatfield counted 41,560 usual residents as an ONS built-up area at the 2021 census. The wider borough of Welwyn Hatfield counted 119,836. Gazetteer suburbs inside the town include South Hatfield, Roe Green, Oxlease, Birchwood, Old Hatfield, Ellenbrook and Hatfield Garden Village. Modern Age Coders teaches coding, Python, AI, vibe coding and maths to Hatfield learners aged six to 67, live on video, with a tutor based in India, either one-to-one or in a group of five to ten at the same level. Our Hatfield project asks a question every programmer meets daily: when a file changes, what exactly changed? Learners write the Myers diff in Python and test it against the library that ships with Python. Your opening lesson is on us. Carrying on costs USD 100 per month for a seat in a small class, or USD 150 per month for a tutor to yourself.
+**Which online coding and Python classes are best for Hatfield learners?** Hatfield counted 41,560 usual residents as an ONS built-up area at the 2021 census. The wider borough of Welwyn Hatfield counted 119,836. Gazetteer suburbs inside the town include South Hatfield, Roe Green, Oxlease, Birchwood, Old Hatfield, Ellenbrook and Hatfield Garden Village. Modern Age Coders teaches coding, Python, AI, vibe coding and maths to Hatfield learners aged six to 67, live on video, with a tutor based in India, either one-to-one or in a group of fifteen to twenty at the same level. Our Hatfield project asks a question every programmer meets daily: when a file changes, what exactly changed? Learners write the Myers diff in Python and test it against the library that ships with Python. Your opening lesson is on us. Carrying on costs USD 100 per month for a seat in a small class, or USD 150 per month for a tutor to yourself.
 
 Every time a programmer saves a change, a tool compares the old file with the new one and reports what was added and what was removed. The report looks simple, yet producing the shortest possible report is a real search problem. In 1986 Eugene Myers published a method that finds it quickly when the two versions are mostly alike, and a version of his algorithm is still the default in Git. Hatfield learners code it themselves, then point it at three versions of the public encyclopedia article about their own town.
 
-Facts last verified 30 September 2026. Teaching is online; no Hatfield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Hatfield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python and coding courses for Hatfield
 
@@ -136,7 +136,7 @@ Learners join from home on a laptop or desktop with a camera. A steady connectio
 - **Hands on the keyboard** The learner types and runs every line. The tutor asks questions and points at bugs rather than fixing them.
 - **Placed by what they can do** The free lesson shows the level; the course suggestion comes afterwards, not before.
 - **Nothing to pay up front** The trial is a complete lesson, it is free, and booking it needs no card.
-- **Five to ten per group** Groups are matched on level and pace, with classmates from across the UK.
+- **Fifteen to twenty per group** Groups are matched on level and pace, with classmates from across the UK.
 - **Two sessions a week** Share your school term dates and we leave the holiday weeks out.
 - **One UK start time** British clock changes are handled by the tutor; the slot stays at the same UK time all year.
 

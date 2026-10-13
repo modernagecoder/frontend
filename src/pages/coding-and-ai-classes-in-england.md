@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for families acro
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-england
 source: src/pages/coding-and-ai-classes-in-england.html
 ---
-> England has a statutory computing curriculum that runs from Reception to Year 11, and most English secondary schools are under no obligation to teach it. Both halves of that sentence come from the government. Computing is one of the national curriculum subjects with published programmes of study for key stages 1 to 4. GOV.UK also says that "academies and private schools do not have to follow the national curriculum", and that academies "must teach a broad and balanced curriculum including English, maths and science" with computing absent from the list. At the January 2026 census, 83.9 per cent of secondary schools in England were academies or free schools. So a family cannot read the curriculum and assume it describes their child's week. We teach live online from India, ages 6 to 67, in groups of five to ten or one to one. The first lesson is free; a group place is then USD 100 a month and one-to-one teaching USD 150.
+> England has a statutory computing curriculum that runs from Reception to Year 11, and most English secondary schools are under no obligation to teach it. Both halves of that sentence come from the government. Computing is one of the national curriculum subjects with published programmes of study for key stages 1 to 4. GOV.UK also says that "academies and private schools do not have to follow the national curriculum", and that academies "must teach a broad and balanced curriculum including English, maths and science" with computing absent from the list. At the January 2026 census, 83.9 per cent of secondary schools in England were academies or free schools. So a family cannot read the curriculum and assume it describes their child's week. We teach live online from India, ages 6 to 67, in groups of fifteen to twenty or one to one. The first lesson is free; a group place is then USD 100 a month and one-to-one teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / England
 
@@ -12,11 +12,11 @@ England, United Kingdom / Live online
 
 # Coding and AI classes in England
 
-**What are the best coding classes in England?** England has a statutory computing curriculum that runs from Reception to Year 11, and most English secondary schools are under no obligation to teach it. Both halves of that sentence come from the government. Computing is one of the national curriculum subjects with published programmes of study for key stages 1 to 4. GOV.UK also says that "academies and private schools do not have to follow the national curriculum", and that academies "must teach a broad and balanced curriculum including English, maths and science" with computing absent from the list. At the January 2026 census, 83.9 per cent of secondary schools in England were academies or free schools. So a family cannot read the curriculum and assume it describes their child's week. We teach live online from India, ages 6 to 67, in groups of five to ten or one to one. The first lesson is free; a group place is then USD 100 a month and one-to-one teaching USD 150.
+**What are the best coding classes in England?** England has a statutory computing curriculum that runs from Reception to Year 11, and most English secondary schools are under no obligation to teach it. Both halves of that sentence come from the government. Computing is one of the national curriculum subjects with published programmes of study for key stages 1 to 4. GOV.UK also says that "academies and private schools do not have to follow the national curriculum", and that academies "must teach a broad and balanced curriculum including English, maths and science" with computing absent from the list. At the January 2026 census, 83.9 per cent of secondary schools in England were academies or free schools. So a family cannot read the curriculum and assume it describes their child's week. We teach live online from India, ages 6 to 67, in groups of fifteen to twenty or one to one. The first lesson is free; a group place is then USD 100 a month and one-to-one teaching USD 150.
 
 This page is about a gap, not a complaint. England wrote one of the most ambitious school computing curricula in the world in 2014, and then spent a decade converting its schools into academies that are not required to deliver it. Most do teach computing, many teach it well, and the curriculum still sets the language everyone uses. But the entitlement a parent assumes exists is weaker than they think, and the difference between two secondary schools three miles apart can be enormous and entirely lawful. What follows is what the documents actually say, the one question that tells you where a school stands, and what a family can do about it.
 
-Facts last verified 20 September 2026. Teaching is online; no England branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no England branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for learners in England
 
@@ -182,7 +182,7 @@ A country this varied is exactly where placing by ability beats placing by postc
 - **Placed by what they can do** Not by year group. Two Year 8s from different English schools can be years apart, and pretending otherwise wastes a term.
 - **Curriculum language used** Key stages, programmes of study and the textual-language requirement, named the way the Department for Education names them.
 - **A free lesson first** Real teaching, closing with an honest view of where the learner is and what to take next.
-- **Small groups** Five to ten learners at one stage, so nobody waits and nobody drowns.
+- **Small groups** Fifteen to twenty learners at one stage, so nobody waits and nobody drowns.
 - **Or one to one** For a learner a long way ahead or a long way behind, where a group would be the wrong room.
 - **Fixed in UK time** Teachers work from India, four and a half hours ahead in summer and five and a half in winter, and every slot is agreed in UK time.
 
@@ -193,7 +193,7 @@ A country this varied is exactly where placing by ability beats placing by postc
 The same three prices in every region.
 
 - First class: USD 0. A full lesson on real work, ending with a level and a recommended course.
-- Group tuition: USD 100 a month. Roughly eight lessons a month, shared with five to ten learners at the same stage.
+- Group tuition: USD 100 a month. Roughly eight lessons a month, shared with fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. Roughly eight lessons a month, one teacher and one learner.
 
 Prices are in US dollars, which is how we quote everywhere outside India, and no pound list is published. Nothing is charged until the free lesson has settled a course and a weekly slot. Pauses, missed lessons and moving between group and private teaching are all explained on the pricing page.

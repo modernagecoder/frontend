@@ -232,7 +232,7 @@ Teachers are based in India, and the Indian working day overlaps Australian afte
 - **Weekend** Longer analysis sessions.
 
 - **Free first class** A real dataset loaded and one honest summary written.
-- **Small groups** Five to ten learners comparing answers to the same question.
+- **Small groups** Fifteen to twenty learners comparing answers to the same question.
 - **One to one** For a particular dataset, job need or pace.
 - **Sources shown** Every dataset is cited, with its licence and date.
 - **Reproducible** Every result comes from a script the learner can rerun.
@@ -243,7 +243,7 @@ Teachers are based in India, and the Indian working day overlaps Australian afte
 Learners outside India pay a monthly fee in US dollars. Nothing is due at sign-up and there is no contract.
 
 - Free first class: USD 0. A dataset loaded and summarised in the lesson. Advice on where to start. No card details.
-- Group batch: USD 100 a month. Five to ten learners per class. Shared datasets, compared answers. The same teacher each week. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners per class. Shared datasets, compared answers. The same teacher each week. Stop after any month.
 - One to one: USD 150 a month. Lessons around one learner's data. Flexible depth and pace. Times around school or work.
 
 ## Questions about data science courses in Australia

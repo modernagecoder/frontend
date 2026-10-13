@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI lessons for Rochdale, Middleton,
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-rochdale
 source: src/pages/online-coding-and-python-classes-in-rochdale.html
 ---
-> Rochdale borough counted 223,773 people in the 2021 census. The ONS gives 111,255 for the Rochdale built-up area, 46,630 for Middleton and 29,725 for Heywood, with Littleborough and Milnrow smaller. Children under 15 make up a clearly larger share than across England, and people over 75 a smaller one. Learners from 6 to 67 anywhere in the borough can take coding, Python, AI and maths live online with our tutors in India, either alone or in a class of five to ten at one level. The free first lesson settles which course fits. Rochdale's project starts with the canal that shares the town's name. After the trial, a group place costs USD 100 a month and one-to-one lessons USD 150 a month.
+> Rochdale borough counted 223,773 people in the 2021 census. The ONS gives 111,255 for the Rochdale built-up area, 46,630 for Middleton and 29,725 for Heywood, with Littleborough and Milnrow smaller. Children under 15 make up a clearly larger share than across England, and people over 75 a smaller one. Learners from 6 to 67 anywhere in the borough can take coding, Python, AI and maths live online with our tutors in India, either alone or in a class of fifteen to twenty at one level. The free first lesson settles which course fits. Rochdale's project starts with the canal that shares the town's name. After the trial, a group place costs USD 100 a month and one-to-one lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Rochdale
 
@@ -12,11 +12,11 @@ Rochdale, Greater Manchester, England / Live online
 
 # Online coding and Python classes in Rochdale
 
-**Which are the best online coding and Python classes in Rochdale?** Rochdale borough counted 223,773 people in the 2021 census. The ONS gives 111,255 for the Rochdale built-up area, 46,630 for Middleton and 29,725 for Heywood, with Littleborough and Milnrow smaller. Children under 15 make up a clearly larger share than across England, and people over 75 a smaller one. Learners from 6 to 67 anywhere in the borough can take coding, Python, AI and maths live online with our tutors in India, either alone or in a class of five to ten at one level. The free first lesson settles which course fits. Rochdale's project starts with the canal that shares the town's name. After the trial, a group place costs USD 100 a month and one-to-one lessons USD 150 a month.
+**Which are the best online coding and Python classes in Rochdale?** Rochdale borough counted 223,773 people in the 2021 census. The ONS gives 111,255 for the Rochdale built-up area, 46,630 for Middleton and 29,725 for Heywood, with Littleborough and Milnrow smaller. Children under 15 make up a clearly larger share than across England, and people over 75 a smaller one. Learners from 6 to 67 anywhere in the borough can take coding, Python, AI and maths live online with our tutors in India, either alone or in a class of fifteen to twenty at one level. The free first lesson settles which course fits. Rochdale's project starts with the canal that shares the town's name. After the trial, a group place costs USD 100 a month and one-to-one lessons USD 150 a month.
 
 In 1906 the writer Edwin A. Pratt asked whether Britain's canals could be brought back to life, and his answer rested on locks. "Between Manchester and Sowerby Bridge, on the Rochdale Canal," he wrote, "there are ninety-two locks in 32 miles." He gives similar figures for a dozen other waterways and compares them with a stretch in Germany that has only three locks in 230 miles. A Python learner can turn his prose into a ranked table of locks per mile. The catch is that Pratt, like many writers of his day, spells almost every count out in words, so the first program written finds nothing at all.
 
-Facts last verified 27 September 2026. Teaching is online; no Rochdale branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Rochdale branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Good first courses for Rochdale
 

@@ -180,7 +180,7 @@ Lessons are live on video from India, five and a half hours ahead of the UK in w
 
 - **Version control taught** Branches, merges and conflicts practised deliberately, before anyone meets one under pressure.
 - **Something on screen first** We teach building in slices, so there is always a demonstrable thing.
-- **Five to ten learners** Enough that work has to be divided, few enough that everyone is heard.
+- **Fifteen to twenty learners** Enough that work has to be divided, few enough that everyone is heard.
 - **Our own hackathon** We run an event for younger students alongside a twelve-week preparation course for ages 8 to 12.
 - **One to one when useful** For a student preparing for a specific event.
 - **No affiliation** We have no relationship with Hackathons UK, HackUK or Major League Hacking.
@@ -190,7 +190,7 @@ Lessons are live on video from India, five and a half hours ahead of the UK in w
 One monthly price in US dollars for families outside India, nothing to pay to register, and no term you are locked into.
 
 - Free first class: USD 0. A real lesson building something. An honest read on the level. No card details taken.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher weekly. Code reviewed as it grows. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher weekly. Code reviewed as it grows. A certificate at the end.
 - One to one: USD 150 a month. A teacher working with one learner. Shaped around what they are building. Useful before a first event.
 
 ## What students and parents ask

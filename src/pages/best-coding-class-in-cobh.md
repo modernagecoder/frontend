@@ -16,7 +16,7 @@ Cobh, County Cork / Live online
 
 Census 2022 asked everybody where they had lived a year earlier, and for Cobh the answers make a tidy table of arrivals: 835 of the 13,843 residents aged one and over were at a different address twelve months before. It is tempting to read that as a measure of how much the town is changing. It is not, because a table of the people who are here can never include the people who left. This page makes that blind spot concrete. The learner reads Cobh's real row, then builds two imaginary towns, one growing and one shrinking, whose census tables come out exactly the same. In a town whose heritage centre tells the story of the people who sailed away, it is a fitting thing to learn.
 
-Facts last verified 19 September 2026. Teaching is online; no Cobh branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Cobh branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Good first courses for Cobh learners
 
@@ -171,7 +171,7 @@ Machine learning inherits every blind spot in its data. Seeing the blind spot is
 Practical points.
 
 - **Live every time** A teacher is present for the full lesson and works from whatever the learner is building.
-- **Groups of a level** Five to ten learners at the same stage of a course, from Cork, the rest of Ireland and further afield.
+- **Groups of a level** Fifteen to twenty learners at the same stage of a course, from Cork, the rest of Ireland and further afield.
 - **About twice weekly** Roughly eight lessons a month, on days and times agreed at the start.
 - **School calendar** Breaks, mid-terms and exam weeks are built into the plan from the beginning.
 - **At home** A computer the learner can type on, a microphone and speakers or a headset that work, and a broadband line. A phone is not enough for writing code.
@@ -184,7 +184,7 @@ Practical points.
 Every price we charge.
 
 - First class: USD 0. A complete first lesson, with the level assessed, at no cost.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, around eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, around eight live lessons.
 - Private tuition: USD 150 a month. A month of private lessons on the same weekly pattern.
 
 Monthly fees are billed in US dollars and are identical for every family outside India. The free lesson is never billed, and the first month is charged only once a group place or a private slot has actually been arranged; the pricing page covers holidays, missed lessons and switching format.
@@ -225,7 +225,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Cobh cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

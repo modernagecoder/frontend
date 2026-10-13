@@ -180,7 +180,7 @@ Lessons are live on video from India, five and a half hours ahead of the UK in w
 
 - **Timed sittings** We run ninety-minute practices with nothing to look up, because that is the round.
 - **Unaided debugging** A student finds their own error while a teacher watches and says nothing, which is uncomfortable and works.
-- **Five to ten students** Enough for two approaches to meet, small enough for every program to be read.
+- **Fifteen to twenty students** Enough for two approaches to meet, small enough for every program to be read.
 - **Northern Ireland years used** Year 12 and Year 14 mean what they mean in Belfast, not what they mean in Birmingham.
 - **One to one when useful** For a finalist in the weeks before November.
 - **No role in the competition** We do not enter students, and we have no relationship with Sentinus.
@@ -190,7 +190,7 @@ Lessons are live on video from India, five and a half hours ahead of the UK in w
 A single monthly rate in US dollars outside India, no registration charge, and you can stop whenever a month ends.
 
 - Free first class: USD 0. A genuine lesson on the work itself. A plain view of where the gaps are. No card, no details beyond a number.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher weekly. Work read closely. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher weekly. Work read closely. A certificate at the end.
 - One to one: USD 150 a month. A teacher working with one student. Shaped around the final they are sitting. Useful in the weeks before November.
 
 ## What Northern Ireland families ask

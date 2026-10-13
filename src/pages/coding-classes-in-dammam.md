@@ -121,7 +121,7 @@ Teaching here is a career, not a stopover, and students often continue with one 
 
 ### A seat count you can audit
 
-Five to eight per group, visible every single class. Your child either gets asked questions by name each week or they do not, and you will know which.
+Fifteen to twenty per group, visible every single class. Your child either gets asked questions by name each week or they do not, and you will know which.
 
 ### Evidence over adjectives
 
@@ -223,7 +223,7 @@ Group classes
 
 $100 per month
 
-- Weekly live lessons, groups hold 5 to 8 students
+- Weekly live lessons, groups hold 15 to 20 students
 - AST hours in the evening and at weekends
 - Portfolio projects and a completion certificate
 - Demo lesson first, free of charge

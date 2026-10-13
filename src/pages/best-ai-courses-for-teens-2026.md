@@ -174,7 +174,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, same teacher every week
+- Fifteen to twenty students, same teacher every week
 - Live video, never a recording
 - Build work between sessions, reviewed by the teacher
 - Certificate on completion
@@ -293,7 +293,7 @@ The CBSE-aligned computational thinking course is the direct match for India's c
 
 ### What do these courses cost?
 
-Every group course on this page is USD 100 a month, batches of five to eight, and one to one is USD 150, the same flat figures in every country we serve outside India, monthly with no joining fee. The two agent-tool courses run one to one only at the USD 150 rate, for the supervision reasons explained on their own pages. The first class of any course is free without a card.
+Every group course on this page is USD 100 a month, batches of fifteen to twenty, and one to one is USD 150, the same flat figures in every country we serve outside India, monthly with no joining fee. The two agent-tool courses run one to one only at the USD 150 rate, for the supervision reasons explained on their own pages. The first class of any course is free without a card.
 
 ### What is the fastest way to a decision from this page?
 

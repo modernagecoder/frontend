@@ -16,7 +16,7 @@ Taree, New South Wales, Australia / Live online
 
 Among the 42 public schools in the Mid-Coast council area, only 8 teach secondary years. Train a simple model to pick those 8 from their location and founding year and it scores 76% accuracy, which sounds fine until you notice that answering "primary" every time scores 81%, and that the model finds only 3 of the 8. A popular fix, SMOTE, invents extra secondary schools between real ones so the model sees more of them. Recall doubles to about 76%. The price is a crop of false alarms. Our Taree project builds both models in Python and weighs that trade honestly.
 
-Facts last verified 9 October 2026. Teaching is online; no Taree branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 October 2026. Teaching is online; no Taree branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that teach how models really behave
 
@@ -182,7 +182,7 @@ The schools in our project lie in towns spread across the Mid-Coast council area
 - **Town to town** A teenager in Wingham and an adult in Forster can work on the same model in the same lesson, with nobody on the road.
 - **Built around NSW school** Lesson plans track the stage a learner is in and the NSW term calendar, and Year 11 or 12 students can link their AI work to whichever computing or mathematics courses they have chosen.
 - **A first lesson that counts** The trial is a full class with real code, after which we suggest a level, course and weekly time; no card details are requested.
-- **Same-stage groups** Five to ten learners at one level, from the Mid-Coast and beyond, so groups are always large enough.
+- **Same-stage groups** Fifteen to twenty learners at one level, from the Mid-Coast and beyond, so groups are always large enough.
 - **Twice a week** A regular pair of weekly sessions, roughly eight per month, with gaps for exams and school holidays agreed well ahead.
 - **Teachers in India** A 5:30pm Taree lesson in winter starts at 1pm in India; when daylight saving begins in New South Wales, it starts at 12pm there.
 
@@ -193,7 +193,7 @@ The schools in our project lie in towns spread across the Mid-Coast council area
 Three clear figures.
 
 - First class: USD 0. One complete lesson at no charge, with a recommended level, course and time to follow.
-- Group tuition: USD 100 a month. About eight lessons a month alongside five to ten learners at the same level.
+- Group tuition: USD 100 a month. About eight lessons a month alongside fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. About eight lessons a month with a teacher, one to one.
 
 Families outside India are billed in US dollars, which means Tuncurry, Wingham and central Taree all see one identical figure. No payment is taken before the trial settles a course and a weekly slot; holidays, missed classes and switching between group and private are covered on the pricing page.
@@ -234,11 +234,11 @@ No, and none is claimed. All lessons are live and online and we have no premises
 
 ### What do Taree AI and programming classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.
 
 ### How big are the groups?
 
-Five to ten learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.
+Fifteen to twenty learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.
 
 ## More for Taree and Mid North Coast learners
 

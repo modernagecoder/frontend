@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Inverness lea
 canonical: https://learn.modernagecoders.com/best-coding-class-in-inverness
 source: src/pages/best-coding-class-in-inverness.html
 ---
-> Highland, the council area around Inverness, had about 235,400 usual residents at Scotland's 2022 census, and only 9.2 people per square kilometre, figures rounded by National Records of Scotland. The British Geological Survey's earthquake database lists a magnitude 5.1 earthquake at Inverness on 13 August 1816. Anyone in Inverness from six to sixty-seven can join live video lessons led by a teacher in India, either one to one or in a class of five to ten learners at a single level, booked around the Scottish school day and working hours. Nothing is charged for the opening lesson; a place in a class then costs USD 100 each month, and private lessons USD 150.
+> Highland, the council area around Inverness, had about 235,400 usual residents at Scotland's 2022 census, and only 9.2 people per square kilometre, figures rounded by National Records of Scotland. The British Geological Survey's earthquake database lists a magnitude 5.1 earthquake at Inverness on 13 August 1816. Anyone in Inverness from six to sixty-seven can join live video lessons led by a teacher in India, either one to one or in a class of fifteen to twenty learners at a single level, booked around the Scottish school day and working hours. Nothing is charged for the opening lesson; a place in a class then costs USD 100 each month, and private lessons USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Inverness
 
@@ -12,11 +12,11 @@ Inverness, Highland / Live online
 
 # Coding classes in Inverness
 
-**What are the best coding classes in Inverness?** Highland, the council area around Inverness, had about 235,400 usual residents at Scotland's 2022 census, and only 9.2 people per square kilometre, figures rounded by National Records of Scotland. The British Geological Survey's earthquake database lists a magnitude 5.1 earthquake at Inverness on 13 August 1816. Anyone in Inverness from six to sixty-seven can join live video lessons led by a teacher in India, either one to one or in a class of five to ten learners at a single level, booked around the Scottish school day and working hours. Nothing is charged for the opening lesson; a place in a class then costs USD 100 each month, and private lessons USD 150.
+**What are the best coding classes in Inverness?** Highland, the council area around Inverness, had about 235,400 usual residents at Scotland's 2022 census, and only 9.2 people per square kilometre, figures rounded by National Records of Scotland. The British Geological Survey's earthquake database lists a magnitude 5.1 earthquake at Inverness on 13 August 1816. Anyone in Inverness from six to sixty-seven can join live video lessons led by a teacher in India, either one to one or in a class of fifteen to twenty learners at a single level, booked around the Scottish school day and working hours. Nothing is charged for the opening lesson; a place in a class then costs USD 100 each month, and private lessons USD 150.
 
 Since 1970 the British Geological Survey has recorded 883 earthquakes within 100 kilometres of Inverness, nearly all too small to feel. Only 28 reached magnitude 3, and 3 reached magnitude 4. Our Inverness project asks how quickly earthquakes become rarer as they grow, the pattern known as the Gutenberg-Richter law, and it meets a trap straight away: in the 1970s the records near Inverness hardly include anything below magnitude 3, not because small quakes stopped happening, but because the record of that decade did not capture them. Teenagers learn to find the magnitude a catalogue is complete above, then estimate the slope, called the b-value, only from data they can trust.
 
-Facts last verified 23 September 2026. Teaching is online; no Inverness branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Inverness branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the city on the Ness
 
@@ -170,7 +170,7 @@ Inverness learners live across the city and along the Firth, and in a council ar
 - **City and firth** A learner in Clachnaharry and another in Westhill can share one class without a drive through the city.
 - **Scottish stages** Learners are placed by their stage in Scottish schooling, primary P1 to P7 and secondary S1 to S6 through National 5, Higher and Advanced Higher, with all teaching in English.
 - **Your free lesson** Rather than a presentation, the first session is a proper coding task; at the end the teacher recommends where to begin, which course fits and a weekly time. There is no card to give.
-- **Grouped by level** Each class holds five to ten learners working at one level; because they come from across the UK and beyond, there are workable times at every stage.
+- **Grouped by level** Each class holds fifteen to twenty learners working at one level; because they come from across the UK and beyond, there are workable times at every stage.
 - **A weekly habit** Two fixed lessons each week, about eight a month, with holidays and exam leave planned with the teacher.
 - **Teachers' evenings** Because India keeps a single time zone year-round, a 5 pm Highland lesson begins at 21:30 for our teachers in summer and 22:30 in winter.
 
@@ -181,7 +181,7 @@ Inverness learners live across the city and along the Firth, and in a council ar
 The first lesson is free, then a single fee each month.
 
 - First class: USD 0. A full lesson without charge, closing with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a class of five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight live lessons a month in a class of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight live lessons a month, with a teacher for your learner alone.
 
 Families in Scorguie or Bunchrew pay in US dollars, like all families outside India, and our site lists no pound prices. Nothing is charged until the free lesson is over and you have agreed a course and a weekly time with us; the pricing page covers pauses, missed lessons and switching between group and one-to-one teaching.
@@ -222,11 +222,11 @@ No. We have no centre in Inverness or anywhere else in the UK, because every les
 
 ### How much are Inverness lessons?
 
-The first lesson is free. After it, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After it, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are learners grouped?
 
-By level, pace and goals rather than by age or address, with five to ten learners at the same stage. When no group fits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than by age or address, with fifteen to twenty learners at the same stage. When no group fits the learner's week, we offer one-to-one lessons.
 
 ## Scotland and beyond
 

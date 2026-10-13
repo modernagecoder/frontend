@@ -16,7 +16,7 @@ Ku-ring-gai, Sydney, New South Wales / Live online
 
 Eight stations on the North Shore line, from Roseville to Wahroonga, rise and fall together month after month: school holidays, summer and busy weeks show up at all of them at once. Try to predict Gordon from the other seven with ordinary regression and the model does something strange. It gives Pymble a large negative weight, as if more travellers at Pymble meant fewer at Gordon, although the two stations move together with a correlation of 0.924. The lasso, a regression that pays a price for every input it uses, keeps three neighbours, drops the rest, and on six months it never saw predicts Gordon with about half the error. Our Ku-ring-gai project builds both in Python on Transport for NSW's open data.
 
-Facts last verified 10 October 2026. Teaching is online; no Ku-ring-gai branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Ku-ring-gai branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Machine learning paths for Ku-ring-gai learners
 
@@ -188,7 +188,7 @@ The eight stations in our project run the length of the council area's railway, 
 - **At home** Lessons happen at the learner's own desk, so no evening is lost to driving, parking or waiting for a lift home.
 - **Following NSW** Lessons respect the NSW stages and terms, pause for school holidays, and can tie projects to senior computing and maths courses.
 - **A proper trial** The free opening lesson teaches real content; the teacher then suggests a level, course and time, and nothing is charged that day.
-- **Groups of five to ten** Learners are matched on skill and pace rather than age or postcode, alongside classmates from elsewhere.
+- **Groups of fifteen to twenty** Learners are matched on skill and pace rather than age or postcode, alongside classmates from elsewhere.
 - **Two lessons weekly** A fixed weekly rhythm of two lessons, roughly eight a month, with holiday breaks planned in advance.
 - **Teachers in India** A 6:30pm Ku-ring-gai lesson in summer starts at 1pm India time; during the Sydney winter it starts at 2pm there.
 
@@ -199,7 +199,7 @@ The eight stations in our project run the length of the council area's railway, 
 Simple pricing in three parts.
 
 - First class: USD 0. A free first lesson that ends with a recommended course.
-- Group tuition: USD 100 a month. A month of small-group lessons, usually eight, with five to ten learners.
+- Group tuition: USD 100 a month. A month of small-group lessons, usually eight, with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Around eight private lessons a month with one teacher.
 
 Invoices outside India are in US dollars, so every Ku-ring-gai family pays the same rate and no local price list exists. Payment starts only after the trial has fixed a course and time, and the pricing page sets out holidays, missed lessons and format changes.
@@ -240,11 +240,11 @@ No. Lessons are live online only and we have no premises in Australia. A compute
 
 ### How much are AI classes for Ku-ring-gai learners?
 
-The first lesson is free. Then a group place costs USD 100 a month for two live lessons a week, about eight in total, with five to ten learners, or USD 150 a month for the same schedule one to one. Course, format and time are agreed before paying.
+The first lesson is free. Then a group place costs USD 100 a month for two live lessons a week, about eight in total, with fifteen to twenty learners, or USD 150 a month for the same schedule one to one. Course, format and time are agreed before paying.
 
 ### How big are classes?
 
-Five to ten learners at the same level, grouped by ability and goals rather than age or suburb. One-to-one teaching is offered when no group fits the needed time.
+Fifteen to twenty learners at the same level, grouped by ability and goals rather than age or suburb. One-to-one teaching is offered when no group fits the needed time.
 
 ## More for Ku-ring-gai learners
 

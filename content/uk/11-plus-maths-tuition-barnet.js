@@ -249,7 +249,7 @@ module.exports = {
     cells: [
       { h3: 'One familiar teacher', p: 'Every week, so progress and slips are both noticed.' },
       { h3: 'Frank notes home', p: 'Short and honest, including what has not clicked yet.' },
-      { h3: 'Five to ten in a class', p: 'Grouped by level, so the teaching fits.' },
+      { h3: 'Fifteen to twenty in a class', p: 'Grouped by level, so the teaching fits.' },
       { h3: 'Questions we wrote', p: 'Nothing from any Barnet school\'s materials is reproduced.' },
       { h3: 'Individual lessons', p: 'One to one for a specific gap or a child who prefers it.' },
       { h3: 'Maths, and only maths', p: 'No reasoning or English coaching, no admissions advice.' }
@@ -264,7 +264,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A monthly fee in US dollars, identical for all families outside India. Stop at any time; there is no contract.',
     free: ['A real lesson with a teacher', 'An honest read on the maths', 'No card needed'],
-    group: ['Five to ten children at one level', 'A teacher who knows your child', 'Work checked and explained', 'A certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'A teacher who knows your child', 'Work checked and explained', 'A certificate at the end'],
     one: ['A teacher for one child', 'Aimed at the gaps', 'Handy in the weeks before Round Two']
   },
 

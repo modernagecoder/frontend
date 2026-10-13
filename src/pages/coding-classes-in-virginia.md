@@ -14,7 +14,7 @@ Virginia / Live online
 
 The short answer
 
-Virginia was the first state in the country to require computer science at every K-12 level. From Kindergarten to Grade 8 it is delivered inside other subjects, with no lesson of its own and no test to confirm it happened. Modern Age Coders teaches it as an actual subject, live, for ages 6 to 67, in batches of five to eight or privately, at USD 100 and USD 150 a month.
+Virginia was the first state in the country to require computer science at every K-12 level. From Kindergarten to Grade 8 it is delivered inside other subjects, with no lesson of its own and no test to confirm it happened. Modern Age Coders teaches it as an actual subject, live, for ages 6 to 67, in batches of fifteen to twenty or privately, at USD 100 and USD 150 a month.
 
 In November 2017 Virginia did something no other state had done: it made computer science a requirement for every child, not an elective for the interested ones. That deserves credit and it is genuinely ahead of most of the country. The delivery model, though, is the weakest one available. In Kindergarten through Grade 8 the standards are addressed within existing content areas. Middle and high school get stand-alone electives, but the eight years underneath them do not.
 
@@ -229,7 +229,7 @@ No enrolment charge, nothing to buy, no minimum term.
 
 Group$100per month, 8 classes
 
-Five to eight learners with one consistent teacher. Where most Virginia families begin.
+Fifteen to twenty learners with one consistent teacher. Where most Virginia families begin.
 
 Private$150per month, 8 classes
 
@@ -327,7 +327,7 @@ Around your week rather than ours. Weekend slots are the simplest to arrange on 
 
 ### What are the fees for a Virginia family?
 
-USD 100 a month for a group of five to eight, or USD 150 a month for private tuition. Both run two classes a week, eight a month. Nothing is charged to enrol, there is nothing to buy, and there is no minimum term, so any month can be the last one. The opening class is free.
+USD 100 a month for a group of fifteen to twenty, or USD 150 a month for private tuition. Both run two classes a week, eight a month. Nothing is charged to enrol, there is nothing to buy, and there is no minimum term, so any month can be the last one. The opening class is free.
 
 ### Which ages do you take, and how big is a class?
 

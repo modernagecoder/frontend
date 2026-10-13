@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Enschede for ages 6 t
 canonical: https://learn.modernagecoders.com/coding-classes-in-enschede
 source: src/pages/coding-classes-in-enschede.html
 ---
-> Coding classes in Enschede serve 162,683 people (Statistics Netherlands, 1 January 2026), the largest city of Overijssel and the slowest-growing in this series at 9.9 percent since 1995. Its university of technology reported 12,038 students in June 2021; its university of applied sciences reports 27,505, spread across campuses in Enschede, Deventer and Apeldoorn, with no published split between them. Anybody who divides that total by three has invented a number. Teaching here is done by Modern Age Coders over a live connection, in English, for learners of any age from 6 up to 67. The opening lesson is given without charge; after that a group of five to ten costs USD 100 monthly and private tuition USD 150.
+> Coding classes in Enschede serve 162,683 people (Statistics Netherlands, 1 January 2026), the largest city of Overijssel and the slowest-growing in this series at 9.9 percent since 1995. Its university of technology reported 12,038 students in June 2021; its university of applied sciences reports 27,505, spread across campuses in Enschede, Deventer and Apeldoorn, with no published split between them. Anybody who divides that total by three has invented a number. Teaching here is done by Modern Age Coders over a live connection, in English, for learners of any age from 6 up to 67. The opening lesson is given without charge; after that a group of fifteen to twenty costs USD 100 monthly and private tuition USD 150.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Enschede
 
@@ -12,11 +12,11 @@ Enschede, Overijssel / Live online
 
 # Coding classes in Enschede, where one published student total belongs to three cities at once
 
-**What are the best coding classes in Enschede?** Coding classes in Enschede serve 162,683 people (Statistics Netherlands, 1 January 2026), the largest city of Overijssel and the slowest-growing in this series at 9.9 percent since 1995. Its university of technology reported 12,038 students in June 2021; its university of applied sciences reports 27,505, spread across campuses in Enschede, Deventer and Apeldoorn, with no published split between them. Anybody who divides that total by three has invented a number. Teaching here is done by Modern Age Coders over a live connection, in English, for learners of any age from 6 up to 67. The opening lesson is given without charge; after that a group of five to ten costs USD 100 monthly and private tuition USD 150.
+**What are the best coding classes in Enschede?** Coding classes in Enschede serve 162,683 people (Statistics Netherlands, 1 January 2026), the largest city of Overijssel and the slowest-growing in this series at 9.9 percent since 1995. Its university of technology reported 12,038 students in June 2021; its university of applied sciences reports 27,505, spread across campuses in Enschede, Deventer and Apeldoorn, with no published split between them. Anybody who divides that total by three has invented a number. Teaching here is done by Modern Age Coders over a live connection, in English, for learners of any age from 6 up to 67. The opening lesson is given without charge; after that a group of fifteen to twenty costs USD 100 monthly and private tuition USD 150.
 
 Here is a question with no honest answer in the published record: how many students study in Enschede? One institution gives 12,038, dated June 2021. The other gives 27,505 with no date and three campuses, only one of which is here. The city itself counts 5,700 residents in applied higher education and 7,380 at university level, which measures something else again. Dividing 27,505 by three gives 9,168, and 9,168 is not a fact about anywhere. It is a number a person made up while trying to be helpful.
 
-Facts last verified 7 September 2026. Teaching is online; no Enschede branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Enschede branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city that had to reinvent its work once already
 
@@ -209,7 +209,7 @@ Boekelo and Usselo are out among the fields, Glanerbrug is on the border, and Lo
 Set out here so that nobody has to ask.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 Outside India there is a single price and it is in dollars, with no euro list, so Boekelo is quoted exactly what the centre is quoted. Nothing is collected until the free lesson has settled a course and a time, and then it goes through WhatsApp. Pausing, switching plan and missing a week are covered on the pricing page.
@@ -250,7 +250,7 @@ No, and none is claimed on the campus, in Roombeek or anywhere in the Netherland
 
 ### What do Enschede coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in an Enschede group?
 

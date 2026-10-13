@@ -16,7 +16,7 @@ Crumlin, Dublin 12 / Live online
 
 Eight Dublin Bus routes stop at places the timetable names after Crumlin, and each has a last departure of the night. Three of them leave after midnight: at 00:02, 00:08 and 00:16. Average the eight last buses as a clock shows them and the answer is 14:54, the middle of the afternoon, when every one of those buses is still running. The mistake is not in the arithmetic. Clock times go round in a circle, and an ordinary average treats 00:16 as the earliest time of day rather than the latest. This page teaches a learner two ways to average times properly, and why the bus timetable itself writes 00:16 as 24:16.
 
-Facts last verified 20 September 2026. Teaching is online; no Crumlin branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Crumlin branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four first courses for Crumlin
 
@@ -149,7 +149,7 @@ Arithmetic assumes numbers lie on a line. Some live on a circle, and code has to
 The practicalities.
 
 - **A teacher every time** Each lesson is led live, and the teacher watches and helps with each learner's code as it comes together.
-- **Levelled groups** Five to ten learners at one level, joining from Crumlin, the rest of Ireland or abroad.
+- **Levelled groups** Fifteen to twenty learners at one level, joining from Crumlin, the rest of Ireland or abroad.
 - **Two slots a week** Lessons on the same two days each week, about eight in a month.
 - **Holidays planned** The course plan works around school holidays, mid-terms and exams.
 - **Equipment** A desktop or laptop, a microphone, headphones or speakers, and internet good enough for a video call.
@@ -162,7 +162,7 @@ The practicalities.
 In brief.
 
 - First class: USD 0. A first lesson with a level check, at no charge.
-- Group tuition: USD 100 a month. A month in a same-level group of five to ten, around eight live lessons.
+- Group tuition: USD 100 a month. A month in a same-level group of fifteen to twenty, around eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons on the same timetable.
 
 All families outside India pay the same US dollar fee, one month at a time. The free lesson involves no commitment, charges begin only with the course, and the pricing page sets out holidays, missed lessons and switching between group and private teaching.
@@ -199,11 +199,11 @@ Only by chance. Groups are made by level, so classmates can live anywhere in Ire
 
 ### What do coding classes in Crumlin cost?
 
-The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.
+The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.
 
 ### How big is each group?
 
-Five to ten learners, matched by level, pace and goals rather than age or address. If no group fits a workable time, lessons are one to one.
+Fifteen to twenty learners, matched by level, pace and goals rather than age or address. If no group fits a workable time, lessons are one to one.
 
 ## Around Crumlin
 

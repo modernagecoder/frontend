@@ -272,7 +272,7 @@ module.exports = {
       { h3: 'Code read aloud', p: 'Each line is explained by the learner while the teacher watches.' },
       { h3: 'Follows SA terms', p: 'Plans fit the state school year, with breaks in the holidays.' },
       { h3: 'Try first', p: 'A full lesson at no cost, then a recommendation in writing.' },
-      { h3: 'Level groups', p: 'Five to ten learners at the same stage, or private lessons.' },
+      { h3: 'Level groups', p: 'Fifteen to twenty learners at the same stage, or private lessons.' },
       { h3: 'Weekly pair', p: 'Two set lessons each week, about eight a month.' },
       { h3: 'India time', p: 'Our teachers are in India, so a 7pm Unley class starts at 2pm India time in summer and 3pm from April.' }
     ],
@@ -285,7 +285,7 @@ module.exports = {
     h2: 'Unley class fees',
     intro: 'Three prices for every learner.',
     first: 'The opening lesson is free and finishes with advice in writing.',
-    group: 'About eight group lessons a month, five to ten in a class.',
+    group: 'About eight group lessons a month, fifteen to twenty in a class.',
     private: 'About eight private lessons a month with one teacher.',
     closer: 'Unley families pay in US dollars once the trial has settled a course and time. The pricing page explains holidays and missed lessons.'
   },
@@ -327,12 +327,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Unley learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Can Unley groups study Copilot Studio?', a: 'No. Copilot Studio is offered one to one only; groups write agents in Python.' }

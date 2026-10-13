@@ -171,7 +171,7 @@ module.exports = {
     intro: 'The practical side.',
     cells: [
       { h3: 'Taught live', p: 'A real teacher, present for the full hour, reacting to the learner\'s own screen.' },
-      { h3: 'Grouped by level', p: 'Five to ten learners at one stage, from Mullingar, elsewhere in Ireland and other countries.' },
+      { h3: 'Grouped by level', p: 'Fifteen to twenty learners at one stage, from Mullingar, elsewhere in Ireland and other countries.' },
       { h3: 'Twice most weeks', p: 'Around eight lessons a month at the hour agreed when the course starts.' },
       { h3: 'School terms respected', p: 'Holidays, mid-terms and exam weeks are planned in from the outset.' },
       { h3: 'What to have ready', p: 'A computer rather than a tablet or phone, audio that works both ways, and a line that will carry a live call for an hour.' },
@@ -184,7 +184,7 @@ module.exports = {
     h2: 'Mullingar class fees',
     intro: 'Three lines cover everything.',
     first: 'The introductory lesson, taught in full and assessed, free of charge.',
-    group: 'A month in a group of five to ten at one level, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, about eight live lessons.',
     private: 'A month of private lessons on the same weekly schedule.',
     closer: 'One rate, in US dollars, charged monthly and identical for every family outside India, with no euro figure printed beside it. Nothing is invoiced for the introductory hour or before a course and a time have been chosen, and the pricing page sets out what happens during holidays, after an absence, or when a learner moves between a group and private lessons.'
   },
@@ -209,7 +209,7 @@ module.exports = {
       { q: 'Are adults taught in Mullingar?', a: 'Yes. People up to sixty-seven learn with us, plenty of them from scratch, and whether an adult joins a matched group or learns privately is decided in the introductory hour.' },
       { q: 'Do learners need to be good at maths?', a: 'No. The probability and statistics on this page are taught through the project itself, one step at a time, and the computer does the arithmetic.' },
       { q: 'Is there a Modern Age Coders classroom in Mullingar?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Mullingar cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Mullingar cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

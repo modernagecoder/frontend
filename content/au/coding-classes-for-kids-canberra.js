@@ -194,7 +194,7 @@ module.exports = {
     h2: 'What coding classes cost for Canberra kids',
     intro: 'Three prices, nothing more.',
     first: 'A first lesson without charge that ends with a level, a course and a time.',
-    group: 'About eight lessons a month alongside five to ten children at the same level.',
+    group: 'About eight lessons a month alongside fifteen to twenty children at the same level.',
     private: 'About eight lessons a month with one teacher and your child.',
     closer: 'Every family beyond India is billed in US dollars at one flat rate, whichever town centre is closest to home. You are only billed after the trial, once the course and slot feel right, and the pricing page sets out holidays, missed lessons and format changes.'
   },
@@ -219,8 +219,8 @@ module.exports = {
       { q: 'When are lessons for Canberra children?', a: 'Weekday afternoons or weekends, agreed in the free lesson and always confirmed in Canberra time.' },
       { q: 'How do you keep children safe in online lessons?', a: 'A teacher leads and watches every live session, groups are small, children never need accounts on adult AI services, and parents can sit in whenever they wish.' },
       { q: 'Is there a Modern Age Coders centre in Canberra?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do coding classes for Canberra kids cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do coding classes for Canberra kids cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

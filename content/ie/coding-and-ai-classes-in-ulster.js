@@ -153,7 +153,7 @@ module.exports = {
     intro: 'From Malin Head to Kingscourt, the arrangement is the same.',
     cells: [
       { h3: 'Always live', p: 'A teacher leads each lesson as it happens, and the learner takes part rather than watches.' },
-      { h3: 'Grouped by ability', p: 'Five to ten learners at one level, gathered from all three counties and further afield.' },
+      { h3: 'Grouped by ability', p: 'Fifteen to twenty learners at one level, gathered from all three counties and further afield.' },
       { h3: 'A rhythm that holds', p: 'Roughly eight sessions a month, usually two a week, on days and at an hour agreed at the outset.' },
       { h3: 'Irish school stages', p: 'From Junior Cycle to Leaving Certificate, with holidays and exam weeks built in.' },
       { h3: 'What is needed', p: 'A laptop or desktop, working sound and a connection that carries video, all checked in the free lesson.' },
@@ -166,7 +166,7 @@ module.exports = {
     h2: 'Fees in Cavan, Donegal and Monaghan',
     intro: 'Three prices, identical in all three counties.',
     first: 'A full first lesson, free, closing with a level and a suggested course.',
-    group: 'A month in a group of five to ten at one level, about eight lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, about eight lessons.',
     private: 'A month of one to one teaching on the same weekly schedule.',
     closer: 'Everything is billed monthly in US dollars at the single rate we use outside India, so a family in Letterkenny and one in Carrickmacross pay the same and there is no second currency. No payment is taken until the free lesson settles a course and a time, and the pricing page covers pauses, missed lessons and changing format.'
   },
@@ -191,7 +191,7 @@ module.exports = {
       { q: 'Is AI taught, or only programming?', a: 'Both. Younger children usually start with Scratch, while teenagers and adults can take Python, data science or AI courses, and the teacher recommends one at the end of the free lesson.' },
       { q: 'Which county pages do you have?', a: 'One each for Cavan, Donegal and Monaghan, linked on this page, each with its own local figures and data project.' },
       { q: 'Is there a Modern Age Coders classroom in Cavan, Donegal or Monaghan?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes cost in Cavan, Donegal and Monaghan?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes cost in Cavan, Donegal and Monaghan?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

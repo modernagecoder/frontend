@@ -53,7 +53,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Modern Age Coders teaches Java live online to learners in the Netherlands: teenagers preparing for AP Computer Science A, students on university programming courses, and adults moving into back-end or enterprise development. Learners write Java from the first lesson, move on to object-oriented design and data structures, and, for adults, to Spring Boot. AP candidates work through the course College Board sets, which uses a subset of the Java language, towards the exam on 12 May 2027. Lessons are in English, in groups of five to ten or one to one. The first lesson is free; after it a group place is USD 100 a month and private tuition USD 150.',
+  capsule: 'Modern Age Coders teaches Java live online to learners in the Netherlands: teenagers preparing for AP Computer Science A, students on university programming courses, and adults moving into back-end or enterprise development. Learners write Java from the first lesson, move on to object-oriented design and data structures, and, for adults, to Spring Boot. AP candidates work through the course College Board sets, which uses a subset of the Java language, towards the exam on 12 May 2027. Lessons are in English, in groups of fifteen to twenty or one to one. The first lesson is free; after it a group place is USD 100 a month and private tuition USD 150.',
 
   picks: {
     eyebrow: 'Start here',
@@ -193,7 +193,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first lesson', p: 'The learner writes Java with the teacher, who sees their level and, for AP candidates, how far they are from exam standard.' },
-      { h3: 'Groups of five to ten', p: 'Learners at the same level from several countries, often including other AP candidates.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners at the same level from several countries, often including other AP candidates.' },
       { h3: 'One to one for exams', p: 'For AP preparation close to the exam, a university resit, or an adult with a specific goal.' },
       { h3: 'Code explained aloud', p: 'Learners explain their classes and methods as they write them, the skill free-response questions reward.' },
       { h3: 'In English', p: 'Java, AP and university materials are in English; so are the lessons.' },
@@ -209,7 +209,7 @@ module.exports = {
     h2: 'Java lesson fees',
     lede: 'Monthly, in US dollars, the same in every country outside India. No enrolment fee and no annual contract. AP preparation costs the same as any other course.',
     free: ['A real Java lesson', 'An honest view of the starting level', 'No card needed'],
-    group: ['Five to ten learners at one level', 'The same live teacher each week', 'Code reviewed every week', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same live teacher each week', 'Code reviewed every week', 'A certificate at the end'],
     one: ['A teacher for one learner', 'Paced to the exam or deadline', 'Ideal for AP in the final months']
   },
 

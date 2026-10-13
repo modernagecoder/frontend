@@ -251,7 +251,7 @@ module.exports = {
       { h3: 'Version control from the start', p: 'Every project lives in a repository, because that is how software is changed and maintained at work.' },
       { h3: 'Requirements before code', p: 'A user need turned into acceptance criteria first, then tests, then the program.' },
       { h3: 'Nothing assessed', p: 'We never work on the employer-set project, specialism assessment or anything a provider will verify.' },
-      { h3: 'Groups by level', p: 'Five to ten students at one stage, reviewing each other\'s changes as a team would.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty students at one stage, reviewing each other\'s changes as a team would.' },
       { h3: 'Or one to one', p: 'For a student with a specific gap before a placement starts.' }
     ]
   },
@@ -264,7 +264,7 @@ module.exports = {
     h2: 'What support costs',
     lede: 'A flat fee each month, priced in US dollars for every country except India. Nothing is charged until the free lesson has settled a course and a regular slot.',
     free: ['A real lesson on real code', 'An honest view of where the gaps are', 'Only a phone number needed'],
-    group: ['A room of five to ten at the same rung', 'The same teacher across the course', 'Your code reviewed and returned each week', 'Planned around weeks spent on placement'],
+    group: ['A room of fifteen to twenty at the same rung', 'The same teacher across the course', 'Your code reviewed and returned each week', 'Planned around weeks spent on placement'],
     one: ['One student and one teacher', 'Useful for a specific gap before a placement', 'Scheduled around college and work']
   },
 

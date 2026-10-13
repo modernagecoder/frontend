@@ -200,7 +200,7 @@ module.exports = {
       { h3: 'Coast and hinterland', p: 'A learner in Mullaway and one in Coramba can share a lesson without either making the drive along the highway or up the valley.' },
       { h3: 'NSW stages, English lessons', p: 'Lesson plans follow the NSW stages, from Stage 4 in Year 7 up to the HSC years, and pause with the state\'s term breaks. Older students can tie projects to their computing subjects.' },
       { h3: 'A real first lesson', p: 'The free trial is an ordinary class rather than a sales call; at the end the teacher proposes a level, a course and a slot, and no payment details are taken.' },
-      { h3: 'Matched groups', p: 'Five to ten learners at the same stage, from Coffs Harbour and other places, so a regional city still has full classes.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners at the same stage, from Coffs Harbour and other places, so a regional city still has full classes.' },
       { h3: 'Twice a week', p: 'Two lessons each week at the same hour, roughly eight per month, pausing for school holidays and exams by arrangement.' },
       { h3: 'A teacher in India', p: 'A 6pm lesson in Coffs Harbour in June starts at 1:30pm India time; once NSW clocks move forward in October, the same lesson starts at 12:30pm there.' }
     ],
@@ -211,7 +211,7 @@ module.exports = {
     h2: 'What classes cost in Coffs Harbour',
     intro: 'Three figures, with nothing hidden.',
     first: 'One full lesson free, followed by a suggested level, course and lesson time.',
-    group: 'A month of lessons, usually eight, shared with five to ten learners at the same level.',
+    group: 'A month of lessons, usually eight, shared with fifteen to twenty learners at the same level.',
     private: 'Around eight lessons a month on the same pattern, one teacher with one learner.',
     closer: 'Outside India every invoice is in US dollars, so Toormina and Korora families pay identical amounts and no Coffs Harbour price list exists. Nothing is charged until the trial has fixed a course and a time, and the pricing page covers breaks, missed lessons and switching between formats.'
   },
@@ -236,8 +236,8 @@ module.exports = {
       { q: 'What time are lessons for Coffs Harbour learners?', a: 'Most learners choose a slot after school or on a weekend morning, fixed at the trial and quoted in New South Wales time. In India the clock reads four and a half hours earlier during the NSW winter, and five and a half hours earlier once daylight saving starts.' },
       { q: 'Can younger children learn too?', a: 'Yes, from age six. Younger children build with Scratch blocks and drawings before typing code, and the projects on this page are pitched at older students.' },
       { q: 'Is there a Modern Age Coders centre in Coffs Harbour?', a: 'No, and none is claimed. Every lesson is live and online, and we have no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a steady connection; the contact number shown is Indian.', boiler: true },
-      { q: 'What do Coffs Harbour coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Coffs Harbour coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

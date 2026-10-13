@@ -216,7 +216,7 @@ Lessons are taught live from India. The UK clock moves in spring and autumn and 
 
 - **A teacher who stays** The same person each week knows which slips your child makes.
 - **Straight feedback** A brief, candid note after lessons: progress and problems both.
-- **Small matched groups** Five to ten children at one level, so nobody coasts or drowns.
+- **Small matched groups** Fifteen to twenty children at one level, so nobody coasts or drowns.
 - **Original practice** Our own questions and real data sets, never copied test material.
 - **Individual option** One to one lessons for a particular gap or a quieter child.
 - **Maths is our lane** No reasoning coaching and no views on school choice or allocation.
@@ -226,7 +226,7 @@ Lessons are taught live from India. The UK clock moves in spring and autumn and 
 Charged monthly in US dollars, as for all families outside India. Cancel whenever you like; there is nothing to sign up to.
 
 - Free first class: USD 0. A proper lesson, not a pitch. A candid view of where things stand. No payment details taken.
-- Group batch: USD 100 a month. Five to ten pupils at the same level. A regular teacher. Homework checked together. A certificate when the course ends.
+- Group batch: USD 100 a month. Fifteen to twenty pupils at the same level. A regular teacher. Homework checked together. A certificate when the course ends.
 - One to one: USD 150 a month. Just your child and a teacher. Built around what needs fixing. Helpful in the run-up to September.
 
 ## Questions Trafford families ask

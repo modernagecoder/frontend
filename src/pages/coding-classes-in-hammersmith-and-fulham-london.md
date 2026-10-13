@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Hammersmith a
 canonical: https://learn.modernagecoders.com/coding-classes-in-hammersmith-and-fulham-london
 source: src/pages/coding-classes-in-hammersmith-and-fulham-london.html
 ---
-> Hammersmith and Fulham is the west London borough of Hammersmith, Fulham, Shepherd's Bush, White City, Parsons Green, Sands End and Brook Green, with 183,157 residents at the 2021 Census, Fulham Palace as its only Grade I building and 266 listed entries in all. A class worth joining shows learners how a clever idea beats brute force, and this page does it with a walk: visit all 266 listed buildings in the shortest possible loop, using a curve drawn by recursion, the Hilbert curve, to put them in a sensible order. Teachers in India teach live on video, for ages 6 to 67, one to one or in small classes of five to ten learners at the same stage. There is no charge for the first lesson. Carrying on costs USD 100 a month in a class or USD 150 a month one to one.
+> Hammersmith and Fulham is the west London borough of Hammersmith, Fulham, Shepherd's Bush, White City, Parsons Green, Sands End and Brook Green, with 183,157 residents at the 2021 Census, Fulham Palace as its only Grade I building and 266 listed entries in all. A class worth joining shows learners how a clever idea beats brute force, and this page does it with a walk: visit all 266 listed buildings in the shortest possible loop, using a curve drawn by recursion, the Hilbert curve, to put them in a sensible order. Teachers in India teach live on video, for ages 6 to 67, one to one or in classes of fifteen to twenty learners at the same stage. There is no charge for the first lesson. Carrying on costs USD 100 a month in a class or USD 150 a month one to one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Hammersmith and Fulham
 
@@ -12,11 +12,11 @@ London Borough of Hammersmith and Fulham / Live online
 
 # Coding classes in Hammersmith and Fulham
 
-**What are the best coding classes in Hammersmith and Fulham?** Hammersmith and Fulham is the west London borough of Hammersmith, Fulham, Shepherd's Bush, White City, Parsons Green, Sands End and Brook Green, with 183,157 residents at the 2021 Census, Fulham Palace as its only Grade I building and 266 listed entries in all. A class worth joining shows learners how a clever idea beats brute force, and this page does it with a walk: visit all 266 listed buildings in the shortest possible loop, using a curve drawn by recursion, the Hilbert curve, to put them in a sensible order. Teachers in India teach live on video, for ages 6 to 67, one to one or in small classes of five to ten learners at the same stage. There is no charge for the first lesson. Carrying on costs USD 100 a month in a class or USD 150 a month one to one.
+**What are the best coding classes in Hammersmith and Fulham?** Hammersmith and Fulham is the west London borough of Hammersmith, Fulham, Shepherd's Bush, White City, Parsons Green, Sands End and Brook Green, with 183,157 residents at the 2021 Census, Fulham Palace as its only Grade I building and 266 listed entries in all. A class worth joining shows learners how a clever idea beats brute force, and this page does it with a walk: visit all 266 listed buildings in the shortest possible loop, using a curve drawn by recursion, the Hilbert curve, to put them in a sensible order. Teachers in India teach live on video, for ages 6 to 67, one to one or in classes of fifteen to twenty learners at the same stage. There is no charge for the first lesson. Carrying on costs USD 100 a month in a class or USD 150 a month one to one.
 
 Imagine a walking tour of every listed building in Hammersmith and Fulham: 266 of them, from Fulham Palace to the Grand Hall at Olympia. Take them in a random order and your loop would be about 600 kilometres long, criss-crossing a borough only seven kilometres from end to end. Sort them west to east and it is still 265. Our learners try something cleverer. The Hilbert curve is a line that wriggles through every square of a grid, drawn by a simple rule applied again and again: each square splits into four, and the curve visits the four in a twisted U. Its magic is that points close together on the curve are close together on the map. Line the buildings up along it and the tour drops to about 54 kilometres.
 
-Facts last verified 25 September 2026. Teaching is online; no Hammersmith and Fulham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Hammersmith and Fulham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Starting courses in Hammersmith and Fulham
 
@@ -147,7 +147,7 @@ A learner in the north of the borough and another by the river at Sands End can 
 
 ### The shortest route
 
-No commute is the shortest route of all: open the laptop, join the call, and the class of five to ten is there.
+No commute is the shortest route of all: open the laptop, join the call, and the class of fifteen to twenty is there.
 
 **Hammersmith and Fulham in London** Hammersmith and Fulham is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers every borough and the City, linking each page as it goes up, including [Ealing](/coding-classes-in-ealing-london) to the west and [Wandsworth](/coding-classes-in-wandsworth-london) across the river.
 
@@ -177,7 +177,7 @@ Wherever a learner is in the borough, their class is a video call away.
 - **At home** A laptop or desktop, headphones and broadband that copes with video are enough to take part.
 - **School stages** We use the Key Stages of schools in England to describe progress, up to sixth form, naming GCSE or A level when they apply. All teaching is in English.
 - **First lesson free** A proper lesson with a teacher, not a sales pitch, ending with a recommended level and course. No card details needed.
-- **Matched groups** Five to ten learners at the same stage, from across the UK and further afield, so a sensible time is usually available.
+- **Matched groups** Fifteen to twenty learners at the same stage, from across the UK and further afield, so a sensible time is usually available.
 - **Two sessions a week** Most classes meet on two evenings a week and pause for holidays and exams by agreement.
 - **UK clock** Teachers are in India, but every time we send is given in UK time.
 
@@ -188,7 +188,7 @@ Wherever a learner is in the borough, their class is a video call away.
 A free first lesson, then a single monthly fee, the same from White City to Fulham.
 
 - First class: USD 0. A full first lesson with a teacher, free, with a recommended level, course and time at the end.
-- Group tuition: USD 100 a month. Roughly eight live lessons a month in a class of five to ten at one stage.
+- Group tuition: USD 100 a month. Roughly eight live lessons a month in a class of fifteen to twenty at one stage.
 - Private tuition: USD 150 a month. Roughly eight live lessons a month, one learner with one teacher.
 
 Families here pay in US dollars, as all families outside India do, and the site shows no pound prices. Nothing is charged until after the free lesson and until a course and weekly time are agreed. The pricing page covers pausing, missed lessons and switching between group and private teaching.
@@ -229,11 +229,11 @@ No. There is no Hammersmith and Fulham centre and no premises anywhere in the UK
 
 ### What do coding classes in Hammersmith and Fulham cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## On from west London
 

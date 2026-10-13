@@ -4,7 +4,7 @@ description: "Live online coding, Python, Java and maths classes across Cambridg
 canonical: https://learn.modernagecoders.com/coding-classes-in-cambridgeshire
 source: src/pages/coding-classes-in-cambridgeshire.html
 ---
-> Cambridgeshire, as a county, is Peterborough plus five districts, 894,519 people at the 2021 Census, with two cities at opposite ends: Peterborough in the north and Cambridge in the south, and fen towns such as Wisbech, March, Chatteris and Ely in between. Our classes cover all of it the same way. A teacher based in India teaches live over video; learners are grouped by their current ability, never simply by age, and anyone from 6 to 67 is welcome, in a group of five to ten or one to one. We teach programming, Python, Java, algorithms, AI and maths. The county project borrows the limits of EDSAC, the computer that ran its first program in Cambridge in 1949. Nothing is charged for the first lesson, and afterwards group places are USD 100 a month and private lessons USD 150.
+> Cambridgeshire, as a county, is Peterborough plus five districts, 894,519 people at the 2021 Census, with two cities at opposite ends: Peterborough in the north and Cambridge in the south, and fen towns such as Wisbech, March, Chatteris and Ely in between. Our classes cover all of it the same way. A teacher based in India teaches live over video; learners are grouped by their current ability, never simply by age, and anyone from 6 to 67 is welcome, in a group of fifteen to twenty or one to one. We teach programming, Python, Java, algorithms, AI and maths. The county project borrows the limits of EDSAC, the computer that ran its first program in Cambridge in 1949. Nothing is charged for the first lesson, and afterwards group places are USD 100 a month and private lessons USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Cambridgeshire
 
@@ -12,11 +12,11 @@ County of Cambridgeshire / Live online
 
 # Coding classes in Cambridgeshire
 
-**What are the best coding classes in Cambridgeshire?** Cambridgeshire, as a county, is Peterborough plus five districts, 894,519 people at the 2021 Census, with two cities at opposite ends: Peterborough in the north and Cambridge in the south, and fen towns such as Wisbech, March, Chatteris and Ely in between. Our classes cover all of it the same way. A teacher based in India teaches live over video; learners are grouped by their current ability, never simply by age, and anyone from 6 to 67 is welcome, in a group of five to ten or one to one. We teach programming, Python, Java, algorithms, AI and maths. The county project borrows the limits of EDSAC, the computer that ran its first program in Cambridge in 1949. Nothing is charged for the first lesson, and afterwards group places are USD 100 a month and private lessons USD 150.
+**What are the best coding classes in Cambridgeshire?** Cambridgeshire, as a county, is Peterborough plus five districts, 894,519 people at the 2021 Census, with two cities at opposite ends: Peterborough in the north and Cambridge in the south, and fen towns such as Wisbech, March, Chatteris and Ely in between. Our classes cover all of it the same way. A teacher based in India teaches live over video; learners are grouped by their current ability, never simply by age, and anyone from 6 to 67 is welcome, in a group of fifteen to twenty or one to one. We teach programming, Python, Java, algorithms, AI and maths. The county project borrows the limits of EDSAC, the computer that ran its first program in Cambridge in 1949. Nothing is charged for the first lesson, and afterwards group places are USD 100 a month and private lessons USD 150.
 
 EDSAC could carry out about 650 instructions a second and, at first, remember just 512 words. Those two numbers make a wonderful puzzle for a modern learner, because they force a choice that every programmer eventually meets: the fastest way to solve a problem is often the one that needs the most memory. Take the simplest serious task there is, listing the prime numbers. One method is quick but wants a note for every number; another is frugal with memory but slow. On a machine with 512 words, neither is good enough for primes up to ten thousand. This page's project finds a third way, and counts every step so the trade is visible in seconds and in words.
 
-Facts last verified 26 September 2026. Teaching is online; no Cambridgeshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Cambridgeshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Popular first courses in Cambridgeshire
 
@@ -158,7 +158,7 @@ The county stretches a long way across the fens, and bus routes thin out after s
 - **Learning at home** A bedroom in Chatteris, a kitchen in Cottenham, a study in Godmanchester. The teacher shares a screen and the learner writes the code.
 - **School words you know** Year groups, GCSE choices and A level subjects are named the way Cambridgeshire schools name them, in English throughout.
 - **First lesson free** A proper lesson with real work, then a straight answer about level and course. There is nothing to pay and no card to give.
-- **Matched classmates** Groups of five to ten learners who have reached the same point, from towns and countries far apart, at a sensible hour.
+- **Matched classmates** Groups of fifteen to twenty learners who have reached the same point, from towns and countries far apart, at a sensible hour.
 - **Holidays by arrangement** Most learners have two lessons weekly and take the same holidays as their own school, whichever council or academy trust set them.
 - **A UK-time timetable** The clock in India, where lessons are taught from, is five and a half hours ahead of UK winter time and four and a half ahead of UK summer time, so every slot we offer is written in UK time to avoid any mix-up.
 
@@ -169,7 +169,7 @@ The county stretches a long way across the fens, and bus routes thin out after s
 One price list for all of Cambridgeshire, and for every country but India.
 
 - First class: USD 0. A full lesson of real work, ending with a recommended level and course.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight lessons a month with a teacher and one learner.
 
 Fees are charged in US dollars, the currency we use for every family outside India, and there is no separate pound price. Payment begins only after the free lesson has agreed a course and weekly slot; the pricing page covers pausing, missed lessons and changing between group and private teaching.

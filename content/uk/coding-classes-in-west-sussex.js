@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'Coding classes in West Sussex',
   capsuleQ: 'What are the best coding classes in West Sussex?',
-  capsule: 'West Sussex has one county council and seven districts, which together held 882,676 people at the 2021 Census by our sum of the seven published counts. Crawley and Worthing are the largest towns, then Bognor Regis, Horsham and Haywards Heath. We run every lesson live over video from India and match learners to classes by ability, so a quick nine-year-old and a careful adult can each start in the right place. Coding, Python, data science and maths are taught to anyone from 6 to 67, one-to-one or in small groups of five to ten. The West Sussex project lets census commuting data draw its own map. Your first lesson is free of charge. From then on a group seat is USD 100 monthly and one-to-one teaching USD 150 monthly.',
+  capsule: 'West Sussex has one county council and seven districts, which together held 882,676 people at the 2021 Census by our sum of the seven published counts. Crawley and Worthing are the largest towns, then Bognor Regis, Horsham and Haywards Heath. We run every lesson live over video from India and match learners to classes by ability, so a quick nine-year-old and a careful adult can each start in the right place. Coding, Python, data science and maths are taught to anyone from 6 to 67, one-to-one or in groups of fifteen to twenty. The West Sussex project lets census commuting data draw its own map. Your first lesson is free of charge. From then on a group seat is USD 100 monthly and one-to-one teaching USD 150 monthly.',
   lead: 'County boundaries were drawn long before anyone commuted by car or train, so do they still describe how people live? The 2011 Census recorded where every worker lived and where they worked, which turns the South East into a network: districts are the points, and the numbers of people travelling between them are the links. Programs that find communities in networks, the same kind used on social media and in biology, can then group the districts by how strongly they are tied together, without being told any county names. This page\'s project runs that analysis on 21 districts in and around West Sussex. The map it draws cuts across county lines in three places.',
   wa: 'Hello Modern Age Coders, we are in West Sussex and would like to book a free lesson, please.',
 
@@ -163,7 +163,7 @@ module.exports = {
       { h3: 'Right at home', p: 'A flat in Bognor Regis, a semi in Southwater, a house in Haywards Heath. The teacher and learner share a screen, and the learner codes.' },
       { h3: 'Familiar school terms', p: 'Key stages, year groups, GCSEs and A levels mean what they mean in West Sussex schools, and lessons are in English.' },
       { h3: 'Free first lesson', p: 'A real lesson, then an honest recommendation on level and course, with no card details asked for.' },
-      { h3: 'Grouped by stage', p: 'Five to ten learners at one level, whether in Sussex or far beyond.' },
+      { h3: 'Grouped by stage', p: 'Fifteen to twenty learners at one level, whether in Sussex or far beyond.' },
       { h3: 'Breaks for holidays', p: 'Most learners take two lessons a week and pause for their school\'s own holidays.' },
       { h3: 'Always UK time', p: 'Your lesson time is fixed in UK time through the clock changes; the teacher, on India time several hours ahead, does the adjusting.' }
     ],
@@ -174,7 +174,7 @@ module.exports = {
     h2: 'Fees in West Sussex',
     intro: 'Rustington or Horsham, the fee is the same, and it matches every country we teach except India.',
     first: 'A complete lesson with real work, then our advice on level and course.',
-    group: 'Roughly eight lessons a month in a group of five to ten at one level.',
+    group: 'Roughly eight lessons a month in a group of fifteen to twenty at one level.',
     private: 'Roughly eight lessons a month, one teacher with one learner.',
     closer: 'Prices are in US dollars only. No invoice is raised until the free lesson ends with an agreed course and a regular weekly slot. The pricing page describes pausing, missing a lesson, and changing between group and private classes.'
   },

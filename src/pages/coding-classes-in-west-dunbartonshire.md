@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across West Dunbarton
 canonical: https://learn.modernagecoders.com/coding-classes-in-west-dunbartonshire
 source: src/pages/coding-classes-in-west-dunbartonshire.html
 ---
-> West Dunbartonshire is a compact council area with about 88,400 residents in roughly 42,600 households at the 2022 census, living at 556.8 people per square kilometre. Clydebank and Dumbarton are the two main towns, with Bonhill, Alexandria, Duntocher and Hardgate, and Balloch next in size. Our teachers in India give every class live over video, and a free trial lesson finds each learner's stage, whether P1, S6 or long after school. Learners aged 6 to 67 study coding, Python and maths, in a group of five to ten or alone with a teacher. The West Dunbartonshire project starts in a long brick shed in Dumbarton. Carrying on after the trial costs USD 100 a month in a group or USD 150 a month one-to-one.
+> West Dunbartonshire is a compact council area with about 88,400 residents in roughly 42,600 households at the 2022 census, living at 556.8 people per square kilometre. Clydebank and Dumbarton are the two main towns, with Bonhill, Alexandria, Duntocher and Hardgate, and Balloch next in size. Our teachers in India give every class live over video, and a free trial lesson finds each learner's stage, whether P1, S6 or long after school. Learners aged 6 to 67 study coding, Python and maths, in a group of fifteen to twenty or alone with a teacher. The West Dunbartonshire project starts in a long brick shed in Dumbarton. Carrying on after the trial costs USD 100 a month in a group or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / West Dunbartonshire
 
@@ -12,11 +12,11 @@ West Dunbartonshire / Live online
 
 # Coding classes in West Dunbartonshire
 
-**What are the best coding classes in West Dunbartonshire?** West Dunbartonshire is a compact council area with about 88,400 residents in roughly 42,600 households at the 2022 census, living at 556.8 people per square kilometre. Clydebank and Dumbarton are the two main towns, with Bonhill, Alexandria, Duntocher and Hardgate, and Balloch next in size. Our teachers in India give every class live over video, and a free trial lesson finds each learner's stage, whether P1, S6 or long after school. Learners aged 6 to 67 study coding, Python and maths, in a group of five to ten or alone with a teacher. The West Dunbartonshire project starts in a long brick shed in Dumbarton. Carrying on after the trial costs USD 100 a month in a group or USD 150 a month one-to-one.
+**What are the best coding classes in West Dunbartonshire?** West Dunbartonshire is a compact council area with about 88,400 residents in roughly 42,600 households at the 2022 census, living at 556.8 people per square kilometre. Clydebank and Dumbarton are the two main towns, with Bonhill, Alexandria, Duntocher and Hardgate, and Balloch next in size. Our teachers in India give every class live over video, and a free trial lesson finds each learner's stage, whether P1, S6 or long after school. Learners aged 6 to 67 study coding, Python and maths, in a group of fifteen to twenty or alone with a teacher. The West Dunbartonshire project starts in a long brick shed in Dumbarton. Carrying on after the trial costs USD 100 a month in a group or USD 150 a month one-to-one.
 
 Behind a narrow stone frontage on Castle Street in Dumbarton lies a long, narrow tank of water. Historic Environment Scotland lists it at Category A as the first privately owned ship model experiment tank built in the world, said to be the oldest still in existence. It was built in 1882 and 1883 for Denny's shipyard, the first experiment is dated 21 February 1883, and a carved panel on the front honours William Froude, the naval architect whose methods it used. The idea is bold: tow a small model, measure the drag, and predict what a full-sized ship will need. But a model is not simply a small ship, and scaling it up naively gives the wrong answer. This page's project shows why, in Python.
 
-Facts last verified 26 September 2026. Teaching is online; no West Dunbartonshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no West Dunbartonshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses in West Dunbartonshire
 
@@ -138,7 +138,7 @@ Every town in the council area joins classes in exactly the same way.
 - **Real typing, real bugs** The learner writes each program; the teacher sees the shared screen and helps at the right moment.
 - **School stage names** A Faifley P5 or a Dumbarton S4 hears the stages they already use, up to Advanced Higher. Lessons are in English.
 - **Free trial lesson** A full lesson with no charge, then straightforward advice.
-- **Groups matched by stage** Five to ten learners at one stage in each group, some local and some far away.
+- **Groups matched by stage** Fifteen to twenty learners at one stage in each group, some local and some far away.
 - **Term time schedule** Two lessons a week in term; the holidays are free.
 - **UK time that holds** Your lesson stays at its UK hour through the clock changes; our teachers on India time shift instead.
 
@@ -149,7 +149,7 @@ Every town in the council area joins classes in exactly the same way.
 Clydebank or Alexandria, the fee is identical, our standard rate for every country outside India.
 
 - First class: USD 0. A full trial lesson at no cost, then a recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month, one-to-one.
 
 Fees are in US dollars; there is no sterling price. We bill only once the trial has settled a course and a weekly time, and the pricing page explains holidays, missed lessons and switching formats.

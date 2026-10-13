@@ -159,7 +159,7 @@ module.exports = {
     intro: 'Briefly.',
     cells: [
       { h3: 'Live with a teacher', p: 'The teacher runs each lesson live, looking over each learner\'s code as they build it.' },
-      { h3: 'Same-level groups', p: 'Groups of five to ten at one level, from Ballymun, other parts of Ireland or overseas.' },
+      { h3: 'Same-level groups', p: 'Groups of fifteen to twenty at one level, from Ballymun, other parts of Ireland or overseas.' },
       { h3: 'Set days', p: 'The same two days every week, roughly eight lessons a month.' },
       { h3: 'Around school', p: 'The plan makes room for holidays, mid-terms and exam periods.' },
       { h3: 'Home kit', p: 'Any computer with a keyboard, plus a mic, some way to hear, and a line fast enough that video does not stall.' },
@@ -172,7 +172,7 @@ module.exports = {
     h2: 'Fees for Ballymun',
     intro: 'The short version.',
     first: 'A free first lesson that includes a level check.',
-    group: 'A month in a same-level group of five to ten, close to eight live lessons.',
+    group: 'A month in a same-level group of fifteen to twenty, close to eight live lessons.',
     private: 'A month of private lessons at the same frequency.',
     closer: 'Outside India the fee is one US dollar amount for everyone, paid month by month. Trying the free lesson creates no obligation, billing only starts alongside the course, and holidays, missed sessions and moves between group and private teaching are explained on the pricing page.'
   },
@@ -196,7 +196,7 @@ module.exports = {
       { q: 'What are the lesson times?', a: 'Weekdays after school and into the evening, and weekend daytimes. We schedule in Irish time. Because the teaching team sits in India, the clock gap with Ballymun is five and a half hours from late October to late March and four and a half for the rest of the year, and every slot we list is one that suits both sides.' },
       { q: 'Can an adult learn with you?', a: 'Yes, at any age up to sixty-seven and from any starting point. After the free lesson an adult chooses a same-level group or private lessons.' },
       { q: 'Will my child be with other children from Ballymun?', a: 'Possibly, but groups are made by level, so the rest of the class may be anywhere in Ireland or beyond.' },
-      { q: 'What do coding classes in Ballymun cost?', a: 'The first lesson is free. Then a group place costs USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.', boiler: true },
+      { q: 'What do coding classes in Ballymun cost?', a: 'The first lesson is free. Then a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by level, pace and goals rather than by age or address. If no group runs at a workable time, lessons are one to one.', boiler: true }
     ]
   },

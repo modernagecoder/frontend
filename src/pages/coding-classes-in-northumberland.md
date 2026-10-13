@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Northumberland
 canonical: https://learn.modernagecoders.com/coding-classes-in-northumberland
 source: src/pages/coding-classes-in-northumberland.html
 ---
-> Northumberland is a single council area, and at the 2021 Census it had 320,567 residents. Most live in the south-east towns of Blyth, Cramlington, Ashington and Bedlington, with Morpeth, Berwick-upon-Tweed, Hexham and Alnwick further out. Teaching happens live over video from India, and learners are grouped by the level they have reached, so age is never the deciding factor. We teach from age 6 up to 67, in small groups of five to ten or one-to-one, covering coding, Python, data and maths. The Northumberland project comes from the tide tables for the Holy Island causeway. Your first lesson costs nothing; if you continue, it is USD 100 a month in a group or USD 150 a month one-to-one.
+> Northumberland is a single council area, and at the 2021 Census it had 320,567 residents. Most live in the south-east towns of Blyth, Cramlington, Ashington and Bedlington, with Morpeth, Berwick-upon-Tweed, Hexham and Alnwick further out. Teaching happens live over video from India, and learners are grouped by the level they have reached, so age is never the deciding factor. We teach from age 6 up to 67, in groups of fifteen to twenty or one-to-one, covering coding, Python, data and maths. The Northumberland project comes from the tide tables for the Holy Island causeway. Your first lesson costs nothing; if you continue, it is USD 100 a month in a group or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Northumberland
 
@@ -12,11 +12,11 @@ Northumberland / Live online
 
 # Coding classes in Northumberland
 
-**What are the best coding classes in Northumberland?** Northumberland is a single council area, and at the 2021 Census it had 320,567 residents. Most live in the south-east towns of Blyth, Cramlington, Ashington and Bedlington, with Morpeth, Berwick-upon-Tweed, Hexham and Alnwick further out. Teaching happens live over video from India, and learners are grouped by the level they have reached, so age is never the deciding factor. We teach from age 6 up to 67, in small groups of five to ten or one-to-one, covering coding, Python, data and maths. The Northumberland project comes from the tide tables for the Holy Island causeway. Your first lesson costs nothing; if you continue, it is USD 100 a month in a group or USD 150 a month one-to-one.
+**What are the best coding classes in Northumberland?** Northumberland is a single council area, and at the 2021 Census it had 320,567 residents. Most live in the south-east towns of Blyth, Cramlington, Ashington and Bedlington, with Morpeth, Berwick-upon-Tweed, Hexham and Alnwick further out. Teaching happens live over video from India, and learners are grouped by the level they have reached, so age is never the deciding factor. We teach from age 6 up to 67, in groups of fifteen to twenty or one-to-one, covering coding, Python, data and maths. The Northumberland project comes from the tide tables for the Holy Island causeway. Your first lesson costs nothing; if you continue, it is USD 100 a month in a group or USD 150 a month one-to-one.
 
 Twice a day the North Sea covers the causeway to Holy Island, and Northumberland County Council publishes the safe crossing times a year and more ahead, with a warning to allow 30 minutes extra. Those tables are real data with every awkward feature a programmer meets in the wild: windows that run past midnight, the same window printed on two different days, and two nights a year when the clocks change in the middle of a window. This page's project reads twelve months of the council's tables into Python, checks them for gaps and overlaps, and answers a practical question: on how many days could a family fit a four-hour daytime visit?
 
-Facts last verified 26 September 2026. Teaching is online; no Northumberland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Northumberland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Northumberland learners start
 
@@ -139,7 +139,7 @@ Northumberland is big and thinly populated in the north and west, so a weekly cl
 - **Right where you are** A farmhouse near Rothbury, a semi in Blyth, a cottage in Wooler. Everyone sees the same screen, and the learner does the typing.
 - **School words you know** We use year groups, key stages, GCSEs and A levels as Northumberland schools do, and teach in English.
 - **No cost to try** A real first lesson, then honest advice on level and course. We do not ask for card details.
-- **A class at your stage** Five to ten learners at the same point, from Northumberland and many other places.
+- **A class at your stage** Fifteen to twenty learners at the same point, from Northumberland and many other places.
 - **Holidays kept** Two lessons a week suits most learners, and we pause for your school's breaks.
 - **A fixed UK time** We book you in UK time and it stays the same through the clock changes; the teacher works in India time, hours ahead, and does the adjusting.
 
@@ -150,7 +150,7 @@ Northumberland is big and thinly populated in the north and west, so a weekly cl
 Ashington or Alnwick, the price is the same, and it is the price in every country we teach outside India.
 
 - First class: USD 0. A full lesson with real work, then a clear recommendation for level and course.
-- Group tuition: USD 100 a month. About eight lessons a month, in a group of five to ten at the same level.
+- Group tuition: USD 100 a month. About eight lessons a month, in a group of fifteen to twenty at the same level.
 - Private tuition: USD 150 a month. About eight lessons a month, just the learner and the teacher.
 
 Our prices are in US dollars, never pounds. We charge nothing until the free lesson has agreed a course and a weekly time; the pricing page explains pauses, missed lessons and changing between group and private.

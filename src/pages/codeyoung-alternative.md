@@ -1,16 +1,16 @@
 ---
 title: "Codeyoung Alternative for 2026: Live Small-Batch Coding and Maths"
-description: "Looking for a Codeyoung alternative? Codeyoung is 1:1 only. Modern Age Coders teaches live coding, AI and maths in batches of 5 to 10 or 1:1, ages 6 to 67."
+description: "Looking for a Codeyoung alternative? Codeyoung is 1:1 only. Modern Age Coders teaches live coding, AI and maths in batches of 15 to 20 or 1:1, ages 6 to 67."
 canonical: https://learn.modernagecoders.com/codeyoung-alternative
 source: src/pages/codeyoung-alternative.html
 ---
-> Looking for a Codeyoung alternative? Codeyoung is 1:1 only. Modern Age Coders teaches live coding, AI and maths in batches of 5 to 10 or 1:1, ages 6 to 67.
+> Looking for a Codeyoung alternative? Codeyoung is 1:1 only. Modern Age Coders teaches live coding, AI and maths in batches of 15 to 20 or 1:1, ages 6 to 67.
 
 Honest alternative · facts checked September 2026
 
 # Codeyoung Alternative for 2026: Small Batches or One to One, Your Choice
 
-Looking for a Codeyoung alternative? Codeyoung's own homepage sells "Live 1:1 online classes for kids", and one to one is the only format it offers. Modern Age Coders offers the choice: a live batch of 5 to 10 where children learn from each other's questions, a mini batch of 3 to 4, or one to one when a goal needs it, for coding, AI and maths, ages 6 to 67. The fee is a flat monthly amount shown on this page in your own currency, with no enrolment fee and a free demo first.
+Looking for a Codeyoung alternative? Codeyoung's own homepage sells "Live 1:1 online classes for kids", and one to one is the only format it offers. Modern Age Coders offers the choice: a live batch of 15 to 20 where children learn from each other's questions, a mini batch of up to 6, or one to one when a goal needs it, for coding, AI and maths, ages 6 to 67. The fee is a flat monthly amount shown on this page in your own currency, with no enrolment fee and a free demo first.
 
 Rated 4.9 across 547 Google reviews Group batch ₹1,499 a month
 
@@ -33,7 +33,7 @@ Quotes from codeyoung.com, read 23 September 2026; course titles and the 344-pos
 
 ## Why Modern Age Coders
 
-Modern Age Coders lets the family choose the format instead of the format choosing the family. Most children start in a batch of 5 to 10, because hearing a peer's question is half the lesson and because a group makes the fee sensible; a mini batch of 3 to 4 or one to one is there for a specific goal, an exam board, a competition, a late start. Coding runs from Scratch at 6 to Python, Java, web and AI agents for teens and adults; maths runs from Grade 1 to college; every course is two one-hour live classes a week with a project built in class.
+Modern Age Coders lets the family choose the format instead of the format choosing the family. Most children start in a batch of 15 to 20, because hearing a peer's question is half the lesson and because a group makes the fee sensible; a mini batch of up to 6 or one to one is there for a specific goal, an exam board, a competition, a late start. Coding runs from Scratch at 6 to Python, Java, web and AI agents for teens and adults; maths runs from Grade 1 to college; every course is two one-hour live classes a week with a project built in class.
 
 Side by side
 
@@ -45,7 +45,7 @@ Swipe to see the whole table
 
 | What | Codeyoung | Modern Age Coders |
 | --- | --- | --- |
-| Format | Live 1:1 only | Live batch of 5 to 10, mini batch of 3 to 4, or one to one: you choose |
+| Format | Live 1:1 only | Live batch of 15 to 20, mini batch of up to 6, or one to one: you choose |
 | Subjects | Coding and AI, maths, English, science, robotics | Coding, AI and machine learning, maths, maths through coding |
 | Ages | Kids and teens | Ages 6 to 67: kids, teens, college students, adults |
 | Coding path | Scratch, Python game dev, Python AI/ML, Java, App Inventor, web | Scratch, Python, Java, C++, web, full stack, AI, AI agents, Claude Code and Codex |
@@ -61,7 +61,7 @@ Honest answers
 
 Is Modern Age Coders a good Codeyoung alternative?
 
-Yes, particularly if you want a choice of format. Codeyoung teaches one to one only; Modern Age Coders teaches live coding, AI and maths in batches of 5 to 10, mini batches of 3 to 4, or one to one, for ages 6 to 67, with a flat monthly fee shown on the page and a free demo first.
+Yes, particularly if you want a choice of format. Codeyoung teaches one to one only; Modern Age Coders teaches live coding, AI and maths in batches of 15 to 20, mini batches of up to 6, or one to one, for ages 6 to 67, with a flat monthly fee shown on the page and a free demo first.
 
 Is one to one better than a small batch for coding?
 

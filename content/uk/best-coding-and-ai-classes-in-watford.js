@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Watford',
   capsuleQ: 'What are the best coding and AI classes in Watford?',
-  capsule: 'Watford had 102,243 residents at the 2021 census, with far more parents of school-age children than average: people aged 35 to 39 made up 8.8 per cent of residents against 6.7 per cent in England, and children aged 5 to 9 made up 6.7 against 5.9. For those families we teach coding, AI, Python programming and maths, live online, to anyone from 6 to 67. Lessons run one-to-one or in small classes of five to ten learners at the same level, and our teachers work from India. The opening lesson costs nothing and picks the right course. The Watford project reads a decade of railway numbers. Continuing costs USD 100 a month in a group or USD 150 a month for private tuition.',
+  capsule: 'Watford had 102,243 residents at the 2021 census, with far more parents of school-age children than average: people aged 35 to 39 made up 8.8 per cent of residents against 6.7 per cent in England, and children aged 5 to 9 made up 6.7 against 5.9. For those families we teach coding, AI, Python programming and maths, live online, to anyone from 6 to 67. Lessons run one-to-one or in classes of fifteen to twenty learners at the same level, and our teachers work from India. The opening lesson costs nothing and picks the right course. The Watford project reads a decade of railway numbers. Continuing costs USD 100 a month in a group or USD 150 a month for private tuition.',
   lead: 'The Office of Rail and Road publishes how many times people enter or leave every station in Great Britain each year. At Watford Junction the count was 8,436,358 in the year to March 2020. The next year it collapsed to 1,680,292, a fall of about 80 per cent. By the year to March 2025 it had climbed back to 6,940,122, more than four times the low point. So has Watford Junction recovered? It sounds as if a rise of over 300 per cent must have wiped out a fall of 80. It has not, and the reason is one of the most useful ideas in handling data: percentages of different starting points cannot simply be added. This page\'s project turns the numbers into index values in Python and shows why.',
   wa: 'Hello Modern Age Coders, I would like a free coding or AI class for a learner in Watford.',
 
@@ -164,7 +164,7 @@ module.exports = {
       { h3: 'Your own keyboard', p: 'Learners do the typing themselves while the tutor watches on the shared screen and offers hints.' },
       { h3: 'Placed by year', p: 'A Year 3 or a Year 12 in Watford starts where their school year and the trial suggest, with each exam board\'s names.' },
       { h3: 'Trial at no cost', p: 'The opening lesson is free and ends with an honest course suggestion.' },
-      { h3: 'Small level groups', p: 'Classes hold five to ten learners who share a level, from around the UK.' },
+      { h3: 'Small level groups', p: 'Classes hold fifteen to twenty learners who share a level, from around the UK.' },
       { h3: 'Term-time pattern', p: 'Twice a week while schools are open; paused over holidays.' },
       { h3: 'Fixed UK time', p: 'When the clocks change, your lesson time stays the same and our teachers adjust.' }
     ],

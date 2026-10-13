@@ -4,7 +4,7 @@ description: "Live online vibe coding, AI agents and Python lessons for Sutton C
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-sutton-coldfield-birmingham
 source: src/pages/vibe-coding-and-ai-agents-classes-in-sutton-coldfield-birmingham.html
 ---
-> The ONS counted 93,375 people in the Royal Sutton Coldfield built-up area at the 2021 census, inside the city of Birmingham. Four Oaks, Mere Green, Boldmere, Walmley, Wylde Green and Maney are among its recorded suburbs. Six-year-olds, teenagers and adults up to 67 can all take vibe coding, AI agents, Python, coding and maths here by live video with a tutor in India, in private sessions or a class of five to ten at one stage. We teach how systems behave before handing over tools, so learners understand why an agent gets blocked and how to stop it happening. A free first session ends with our pick of course. The Sutton Coldfield project records 20 real map downloads covering the town, then tests how different agents fare against a service that rations data with a token bucket. Afterwards a class place is USD 100 per month and a private tutor USD 150 per month.
+> The ONS counted 93,375 people in the Royal Sutton Coldfield built-up area at the 2021 census, inside the city of Birmingham. Four Oaks, Mere Green, Boldmere, Walmley, Wylde Green and Maney are among its recorded suburbs. Six-year-olds, teenagers and adults up to 67 can all take vibe coding, AI agents, Python, coding and maths here by live video with a tutor in India, in private sessions or a class of fifteen to twenty at one stage. We teach how systems behave before handing over tools, so learners understand why an agent gets blocked and how to stop it happening. A free first session ends with our pick of course. The Sutton Coldfield project records 20 real map downloads covering the town, then tests how different agents fare against a service that rations data with a token bucket. Afterwards a class place is USD 100 per month and a private tutor USD 150 per month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Sutton Coldfield
 
@@ -12,11 +12,11 @@ Sutton Coldfield, Birmingham, England / Live online
 
 # Vibe coding and AI agents classes in Sutton Coldfield
 
-**Where can Sutton Coldfield learners find the best vibe coding and AI agents classes?** The ONS counted 93,375 people in the Royal Sutton Coldfield built-up area at the 2021 census, inside the city of Birmingham. Four Oaks, Mere Green, Boldmere, Walmley, Wylde Green and Maney are among its recorded suburbs. Six-year-olds, teenagers and adults up to 67 can all take vibe coding, AI agents, Python, coding and maths here by live video with a tutor in India, in private sessions or a class of five to ten at one stage. We teach how systems behave before handing over tools, so learners understand why an agent gets blocked and how to stop it happening. A free first session ends with our pick of course. The Sutton Coldfield project records 20 real map downloads covering the town, then tests how different agents fare against a service that rations data with a token bucket. Afterwards a class place is USD 100 per month and a private tutor USD 150 per month.
+**Where can Sutton Coldfield learners find the best vibe coding and AI agents classes?** The ONS counted 93,375 people in the Royal Sutton Coldfield built-up area at the 2021 census, inside the city of Birmingham. Four Oaks, Mere Green, Boldmere, Walmley, Wylde Green and Maney are among its recorded suburbs. Six-year-olds, teenagers and adults up to 67 can all take vibe coding, AI agents, Python, coding and maths here by live video with a tutor in India, in private sessions or a class of fifteen to twenty at one stage. We teach how systems behave before handing over tools, so learners understand why an agent gets blocked and how to stop it happening. A free first session ends with our pick of course. The Sutton Coldfield project records 20 real map downloads covering the town, then tests how different agents fare against a service that rations data with a token bucket. Afterwards a class place is USD 100 per month and a private tutor USD 150 per month.
 
 Almost every online service an AI agent uses, from map data to language models, limits how fast a client may ask. A common way to do it is the token bucket. Picture a bucket that holds a fixed number of tokens and is topped up at a steady drip. Every request spends tokens; if there are not enough, the request is refused. A full bucket allows a short burst, and after that the drip sets the pace. An agent that does not understand this fires requests, gets refused, waits a guess, and tries again. An agent that does understand it never gets refused at all. This project compares them, using the sizes of real map downloads over Sutton Coldfield.
 
-Facts last verified 30 September 2026. Teaching is online; no Sutton Coldfield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Sutton Coldfield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Sutton Coldfield courses in thinking, vibe coding and agents
 
@@ -142,7 +142,7 @@ A computer, a webcam and a home connection that can stream are the full kit list
 - **Pupils at the keyboard** The learner writes the code and the prompts; the tutor watches the shared screen and asks what will happen next.
 - **Trial decides the level** Half an hour of real work shows where to start, and any exam board is noted.
 - **First session free** No fee for the trial, which ends with a course suggestion.
-- **Five to ten per class** Classmates come from across the UK and share a level.
+- **Fifteen to twenty per class** Classmates come from across the UK and share a level.
 - **Twice a week** Term time only.
 - **Fixed slot** Clock changes are handled by the tutor, so your time does not move.
 

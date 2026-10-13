@@ -291,7 +291,7 @@ module.exports = {
       { h3: 'Teacher-led', p: 'Every lesson is live, with questions answered as code is written.' },
       { h3: 'ACT calendar', p: 'Lessons follow ACT school terms and stop for holidays.' },
       { h3: 'Trial first', p: 'A free lesson, then a short written plan.' },
-      { h3: 'Group sizes', p: 'Five to ten learners at a level, or private sessions.' },
+      { h3: 'Group sizes', p: 'Fifteen to twenty learners at a level, or private sessions.' },
       { h3: 'Weekly rhythm', p: 'Two lessons a week, about eight a month.' },
       { h3: 'India hours', p: 'During daylight saving a 6pm Gungahlin lesson is 12:30pm in India.' }
     ],
@@ -304,7 +304,7 @@ module.exports = {
     h2: 'Gungahlin fees',
     intro: 'Every learner pays the same fees.',
     first: 'The first lesson is free, with a plan to follow.',
-    group: 'Groups: around eight lessons monthly, five to ten learners.',
+    group: 'Groups: around eight lessons monthly, fifteen to twenty learners.',
     private: 'Private: around eight lessons monthly with one teacher.',
     closer: 'Fees are in US dollars and begin only after the trial has settled a course and weekly time. See the pricing page for holidays and missed lessons.'
   },
@@ -343,12 +343,12 @@ module.exports = {
       },
       {
         q: 'What do Gungahlin classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How are groups organised?',
-        a: 'By level and pace, five to ten learners, not by age or suburb. One-to-one lessons are there when no group time fits.',
+        a: 'By level and pace, fifteen to twenty learners, not by age or suburb. One-to-one lessons are there when no group time fits.',
         boiler: true
       },
       { q: 'Can adults learn to build agents?', a: 'Yes. Adults study in adult groups or privately, often automating schedules at work.' }

@@ -4,7 +4,7 @@ description: "An app development course for learners in Ireland: build, test and
 canonical: https://learn.modernagecoders.com/app-development-course-ireland
 source: src/pages/app-development-course-ireland.html
 ---
-> App development is taught here as the whole job: decide what the app is for, design screens that make sense, write the code, test it on real devices, publish it, then keep it working. Children start with block-based apps, teenagers and adults build cross-platform apps with real data behind them. Ireland gives us unusually good material, because the code of a nationally used app is public and readable. Classes are live, in groups of five to ten at one level or one to one. The first is free, then USD 100 a month in a group or USD 150 a month one to one.
+> App development is taught here as the whole job: decide what the app is for, design screens that make sense, write the code, test it on real devices, publish it, then keep it working. Children start with block-based apps, teenagers and adults build cross-platform apps with real data behind them. Ireland gives us unusually good material, because the code of a nationally used app is public and readable. Classes are live, in groups of fifteen to twenty at one level or one to one. The first is free, then USD 100 a month in a group or USD 150 a month one to one.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / App development, Ireland
 
@@ -179,7 +179,7 @@ Classes are live, taught from India at a weekly hour fixed in Irish time. Becaus
 - **Weekend** Longer sessions when a release is close.
 
 - **A free first class** You sketch an app idea with a teacher and build the first screen, then hear what building the rest involves.
-- **Groups of five to ten** Learners at one level who test each other's apps, which is how real bugs get found.
+- **Groups of fifteen to twenty** Learners at one level who test each other's apps, which is how real bugs get found.
 - **One to one** For a specific product, a deadline or a platform choice that differs from the group.
 - **On a real phone** Apps run on the learner's own device early, because simulators hide the problems that matter.
 - **Three states per screen** Loading, empty and broken are designed alongside the happy path, every time.
@@ -190,7 +190,7 @@ Classes are live, taught from India at a weekly hour fixed in Irish time. Becaus
 One monthly price in US dollars, the same in every country outside India, for any course here and any age. No enrolment fee, no annual commitment, and no charge for the first class.
 
 - Free first class: USD 0. An app idea sketched and a first screen built. An honest view of the right course. No card required.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher throughout. Apps tested by the group weekly. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher throughout. Apps tested by the group weekly. A certificate at the end.
 - One to one: USD 150 a month. A teacher to yourself. Your own product or platform. Good for a deadline.
 
 ## What learners in Ireland ask about building apps

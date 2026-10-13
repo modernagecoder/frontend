@@ -16,7 +16,7 @@ Bankstown, Canterbury-Bankstown, Sydney / Live online
 
 Machine learning and data science run thousands of tests at once, and that creates a trap. Test enough things and some will look significant by pure chance. We tested every one of 338 Sydney train and metro stations for a change in monthly entries between two years. At the usual five per cent threshold, 234 stations showed a change. Shuffle the months at random and about 16 still do, purely by luck. A strict correction keeps 55; a smarter one, the Benjamini-Hochberg method, keeps 220. Bankstown Station itself did not pass even the loosest test, and the reason is a lesson in its own right.
 
-Facts last verified 10 October 2026. Teaching is online; no Bankstown branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Bankstown branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that teach AI with honest statistics
 
@@ -184,7 +184,7 @@ A Bankstown learner logs in from home and spends the whole lesson learning, with
 - **Simple setup** A computer with a microphone and a steady internet connection.
 - **NSW school year** Plans match NSW stages and take breaks during the state school holidays.
 - **Trial lesson** The first class is free and ends with a recommended course and timetable.
-- **Groups or private** Level-matched groups of five to ten, or one-to-one lessons.
+- **Groups or private** Level-matched groups of fifteen to twenty, or one-to-one lessons.
 - **Twice a week** Two fixed lessons a week, about eight a month, with breaks agreed in advance.
 - **Teachers in India** A 7pm Bankstown lesson in summer starts at 1:30pm India time; once daylight saving ends it starts at 2:30pm there.
 
@@ -195,7 +195,7 @@ A Bankstown learner logs in from home and spends the whole lesson learning, with
 The full price fits in three lines.
 
 - First class: USD 0. The first lesson is free and includes advice on the right course.
-- Group tuition: USD 100 a month. A month of group lessons, normally eight, with five to ten learners.
+- Group tuition: USD 100 a month. A month of group lessons, normally eight, with fifteen to twenty learners.
 - Private tuition: USD 150 a month. About eight lessons a month with a teacher to yourself.
 
 Families outside India pay in US dollars, the same for every suburb. Nothing is charged until the course and times are settled after the trial; the pricing page covers holidays and absences.
@@ -236,11 +236,11 @@ No. All teaching is live online and we have no premises in Australia. The phone 
 
 ### How much are AI classes in Bankstown?
 
-The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one.
+The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one.
 
 ### What is the group size?
 
-Five to ten learners, matched by level and pace. One-to-one lessons are offered if no group suits.
+Fifteen to twenty learners, matched by level and pace. One-to-one lessons are offered if no group suits.
 
 ## More for Bankstown learners
 

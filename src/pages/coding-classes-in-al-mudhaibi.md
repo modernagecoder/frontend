@@ -178,7 +178,7 @@ Three thousand square kilometres, two niabas and settlements scattered between c
 
 A real placement task, a real recommendation and no card requested. If the honest answer is a different course, that is what the teacher says before money is mentioned.
 
-### Groups of five to eight
+### Groups of fifteen to twenty
 
 Matched on level and objective rather than by which village somebody lives in, which is a grouping a physical school could never manage here.
 
@@ -210,7 +210,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -320,7 +320,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Al Mudhaibi learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Al Mudhaibi class times arranged?
 

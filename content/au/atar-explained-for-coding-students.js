@@ -225,7 +225,7 @@ module.exports = {
       { h3: 'Understanding first', p: 'We teach why things work, which is what lasts beyond any exam.' },
       { h3: 'Honest advice', p: 'We say what we know and point to the admissions centres for the rest.' },
       { h3: 'Projects of your own', p: 'Personal builds that show what a student can do.' },
-      { h3: 'Groups of five to ten', p: 'Students at one level, each explaining their work aloud.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Students at one level, each explaining their work aloud.' },
       { h3: 'One-to-one too', p: 'A private tutor for a specific subject or skill.' },
       { h3: 'No predictions', p: 'We never forecast or promise an ATAR. The result belongs to the student.' }
     ]
@@ -239,7 +239,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'One monthly price in US dollars for every family outside India. There is no fee to join, and you pay only for the month in progress.',
     free: ['A real class on a real topic', 'An honest conversation about goals', 'No card asked for'],
-    group: ['Five to ten students at one level', 'The same tutor each week', 'Work reviewed and discussed', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same tutor each week', 'Work reviewed and discussed', 'A certificate at the end'],
     one: ['A tutor for one student', 'Focused where help is needed', 'Flexible weekly times']
   },
 

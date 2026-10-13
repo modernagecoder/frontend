@@ -302,7 +302,7 @@ module.exports = {
       { h3: 'Live and hands-on', p: 'The learner shares their screen and builds while the teacher explains.' },
       { h3: 'Term-based plan', p: 'Teaching tracks the Victorian term dates and breaks for holidays.' },
       { h3: 'No-fee first lesson', p: 'A complete lesson free of charge, with a course suggestion afterwards.' },
-      { h3: 'Level groups', p: 'Five to ten learners at the same level, drawn from many suburbs.' },
+      { h3: 'Level groups', p: 'Fifteen to twenty learners at the same level, drawn from many suburbs.' },
       { h3: 'Two lessons a week', p: 'Two fixed sessions weekly, about eight each month.' },
       { h3: 'India-based teachers', p: 'A 4:45pm Kingston class is 11:15am India time under Melbourne daylight saving and 12:15pm once it ends.' }
     ],
@@ -315,7 +315,7 @@ module.exports = {
     h2: 'Kingston class fees',
     intro: 'Fees are simple and identical for every family.',
     first: 'Lesson one is free, with clear advice at the end.',
-    group: 'Group option: a month of lessons, usually eight, five to ten learners together.',
+    group: 'Group option: a month of lessons, usually eight, fifteen to twenty learners together.',
     private: 'Private option: a month of lessons, usually eight, one learner with one teacher.',
     closer: 'Kingston families pay in US dollars. You pay nothing until the trial agrees a course and a weekly slot; holiday and missed-lesson rules sit on the pricing page.'
   },
@@ -357,12 +357,12 @@ module.exports = {
       },
       {
         q: 'How much do Kingston classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How are learners grouped?',
-        a: 'Into groups of five to ten by level and pace, not by age or suburb, with one-to-one lessons for anyone whose timing no group fits.',
+        a: 'Into groups of fifteen to twenty by level and pace, not by age or suburb, with one-to-one lessons for anyone whose timing no group fits.',
         boiler: true
       },
       {

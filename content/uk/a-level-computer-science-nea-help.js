@@ -226,7 +226,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Monthly, in US dollars, the rate for every country outside India. No joining fee, no annual tie.',
     free: ['A real lesson with a teacher', 'An honest view of the gaps', 'No card details'],
-    group: ['Five to ten students at one level', 'The same teacher each week', 'Work read and discussed', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher each week', 'Work read and discussed', 'A certificate at the end'],
     one: ['A teacher for one student', 'Aimed at specific gaps', 'Useful before mocks and deadlines']
   },
 

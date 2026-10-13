@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Wandsworth: P
 canonical: https://learn.modernagecoders.com/coding-classes-in-wandsworth-london
 source: src/pages/coding-classes-in-wandsworth-london.html
 ---
-> Wandsworth is the south west London borough of Putney, Battersea, Tooting, Balham, Wandsworth Town, Earlsfield, Southfields and Roehampton, with 327,506 residents at the 2021 Census and the Putney end of the Boat Race course on its riverbank. Worthwhile coding classes teach a learner to tell a real pattern from a lucky one, and this page does that with every men's Boat Race since 1829: are the long winning streaks evidence of something, or just what chance produces? Classes are live on video with teachers in India, for learners from 6 to 67, one to one or in groups of five to ten at the same level. You pay nothing for the first lesson. Then a group place is USD 100 a month and one-to-one teaching USD 150 a month.
+> Wandsworth is the south west London borough of Putney, Battersea, Tooting, Balham, Wandsworth Town, Earlsfield, Southfields and Roehampton, with 327,506 residents at the 2021 Census and the Putney end of the Boat Race course on its riverbank. Worthwhile coding classes teach a learner to tell a real pattern from a lucky one, and this page does that with every men's Boat Race since 1829: are the long winning streaks evidence of something, or just what chance produces? Classes are live on video with teachers in India, for learners from 6 to 67, one to one or in groups of fifteen to twenty at the same level. You pay nothing for the first lesson. Then a group place is USD 100 a month and one-to-one teaching USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Wandsworth
 
@@ -12,11 +12,11 @@ London Borough of Wandsworth / Live online
 
 # Coding classes in Wandsworth
 
-**What are the best coding classes in Wandsworth?** Wandsworth is the south west London borough of Putney, Battersea, Tooting, Balham, Wandsworth Town, Earlsfield, Southfields and Roehampton, with 327,506 residents at the 2021 Census and the Putney end of the Boat Race course on its riverbank. Worthwhile coding classes teach a learner to tell a real pattern from a lucky one, and this page does that with every men's Boat Race since 1829: are the long winning streaks evidence of something, or just what chance produces? Classes are live on video with teachers in India, for learners from 6 to 67, one to one or in groups of five to ten at the same level. You pay nothing for the first lesson. Then a group place is USD 100 a month and one-to-one teaching USD 150 a month.
+**What are the best coding classes in Wandsworth?** Wandsworth is the south west London borough of Putney, Battersea, Tooting, Balham, Wandsworth Town, Earlsfield, Southfields and Roehampton, with 327,506 residents at the 2021 Census and the Putney end of the Boat Race course on its riverbank. Worthwhile coding classes teach a learner to tell a real pattern from a lucky one, and this page does that with every men's Boat Race since 1829: are the long winning streaks evidence of something, or just what chance produces? Classes are live on video with teachers in India, for learners from 6 to 67, one to one or in groups of fifteen to twenty at the same level. You pay nothing for the first lesson. Then a group place is USD 100 a month and one-to-one teaching USD 150 a month.
 
 The Boat Race runs 8 kilometres from Putney to Mortlake, according to the race's own website, and it starts beside Putney's riverside in Wandsworth. The same website lists the winner of every men's race since 1829: 171 races, 89 won by Cambridge, 81 by Oxford, and one dead heat in 1877. Look down the list and the streaks jump out. Cambridge won 13 in a row from 1924 to 1936; Oxford won 10 in a row from 1976 to 1985. Does that mean something carries over from year to year, or would a fair coin produce streaks like that anyway? Our learners answer with two tools: a formula that counts the runs, and a program that shuffles the 170 results 100,000 times to see what chance alone looks like.
 
-Facts last verified 25 September 2026. Teaching is online; no Wandsworth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Wandsworth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Wandsworth learners usually begin
 
@@ -141,7 +141,7 @@ A learner on the western edge and another in the south east of the borough can r
 
 ### Evenly matched
 
-Each class has five to ten learners at one stage, so nobody is left paddling to keep up.
+Each class has fifteen to twenty learners at one stage, so nobody is left paddling to keep up.
 
 **Wandsworth among the boroughs** Wandsworth is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) brings them all together with the City and links each page once it is ready, including [Richmond upon Thames](/coding-classes-in-richmond-upon-thames-london), where the race ends at Mortlake.
 
@@ -171,7 +171,7 @@ Wherever a learner lives in Wandsworth, class starts when the laptop opens.
 - **Home-based** The classroom is wherever the learner's computer is, as long as the sound works and the broadband holds.
 - **Key Stages we use** We describe progress in the Key Stages of schools in England, Key Stage 1 up to sixth form, mentioning GCSE and A level when they matter. Every lesson is in English.
 - **A first lesson free** Real teaching rather than a sales call, ending with a recommended level and course. No card details are asked for.
-- **Same-stage groups** Each group has five to ten learners at one stage, from around the UK and overseas, so a convenient hour is usually easy to find.
+- **Same-stage groups** Each group has fifteen to twenty learners at one stage, from around the UK and overseas, so a convenient hour is usually easy to find.
 - **Two sessions weekly** Classes usually meet two evenings a week, with breaks around half terms, holidays and exams by agreement.
 - **UK clock, always** Our teachers work in India, and every time in our messages is already UK time.
 
@@ -182,7 +182,7 @@ Wherever a learner lives in Wandsworth, class starts when the laptop opens.
 The first lesson is free; then there is one monthly fee, the same from Roehampton to Battersea.
 
 - First class: USD 0. A complete first lesson with a teacher, at no charge, closing with a suggested level, course and time.
-- Group tuition: USD 100 a month. Around eight live lessons a month in a class of five to ten at one stage.
+- Group tuition: USD 100 a month. Around eight live lessons a month in a class of fifteen to twenty at one stage.
 - Private tuition: USD 150 a month. Around eight live lessons a month, one to one with a teacher.
 
 Wandsworth families pay in US dollars, as do all families outside India, and no sterling prices are shown on the site. Nothing is charged until after the free lesson, when you have chosen a course and a regular time. The pricing page sets out pauses, missed lessons and switching between group and private teaching.
@@ -223,11 +223,11 @@ No. There is no Wandsworth centre and no premises anywhere in the UK, because ev
 
 ### What do coding classes in Wandsworth cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## Further along the river, and beyond
 

@@ -4,7 +4,7 @@ description: "Vibe coding, AI agents and Python taught live online for Pinner, H
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-pinner-london
 source: src/pages/vibe-coding-and-ai-agents-classes-in-pinner-london.html
 ---
-> Three Harrow wards carry most of what people call Pinner, and the ONS counted each separately at Census 2021: 13,137 usual residents in Pinner ward, 15,739 in Pinner South and 9,822 in Hatch End. Pinner Green, Pinnerwood Park and Rayners Lane are recorded suburban areas there too. Lessons in vibe coding, AI agents, Python and maths run on live video with tutors based in India, for anyone aged six to 67, one-to-one or with five to ten classmates at a matching level. Every project begins with a plan, and the Pinner project asks how detailed that plan needs to be. An agent that sketches a route along main roads first and fills in side streets afterwards did about a quarter of the searching and walked a typical 8% further. Your first lesson is free, with a course recommendation at the end; from then on a group seat is USD 100 per month and one-to-one is USD 150 per month.
+> Three Harrow wards carry most of what people call Pinner, and the ONS counted each separately at Census 2021: 13,137 usual residents in Pinner ward, 15,739 in Pinner South and 9,822 in Hatch End. Pinner Green, Pinnerwood Park and Rayners Lane are recorded suburban areas there too. Lessons in vibe coding, AI agents, Python and maths run on live video with tutors based in India, for anyone aged six to 67, one-to-one or with fifteen to twenty classmates at a matching level. Every project begins with a plan, and the Pinner project asks how detailed that plan needs to be. An agent that sketches a route along main roads first and fills in side streets afterwards did about a quarter of the searching and walked a typical 8% further. Your first lesson is free, with a course recommendation at the end; from then on a group seat is USD 100 per month and one-to-one is USD 150 per month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Pinner
 
@@ -12,11 +12,11 @@ Pinner, Harrow, London / Live online
 
 # Vibe coding and AI agents classes in Pinner
 
-**Where can Pinner learners find the best vibe coding and AI agents classes?** Three Harrow wards carry most of what people call Pinner, and the ONS counted each separately at Census 2021: 13,137 usual residents in Pinner ward, 15,739 in Pinner South and 9,822 in Hatch End. Pinner Green, Pinnerwood Park and Rayners Lane are recorded suburban areas there too. Lessons in vibe coding, AI agents, Python and maths run on live video with tutors based in India, for anyone aged six to 67, one-to-one or with five to ten classmates at a matching level. Every project begins with a plan, and the Pinner project asks how detailed that plan needs to be. An agent that sketches a route along main roads first and fills in side streets afterwards did about a quarter of the searching and walked a typical 8% further. Your first lesson is free, with a course recommendation at the end; from then on a group seat is USD 100 per month and one-to-one is USD 150 per month.
+**Where can Pinner learners find the best vibe coding and AI agents classes?** Three Harrow wards carry most of what people call Pinner, and the ONS counted each separately at Census 2021: 13,137 usual residents in Pinner ward, 15,739 in Pinner South and 9,822 in Hatch End. Pinner Green, Pinnerwood Park and Rayners Lane are recorded suburban areas there too. Lessons in vibe coding, AI agents, Python and maths run on live video with tutors based in India, for anyone aged six to 67, one-to-one or with fifteen to twenty classmates at a matching level. Every project begins with a plan, and the Pinner project asks how detailed that plan needs to be. An agent that sketches a route along main roads first and fills in side streets afterwards did about a quarter of the searching and walked a typical 8% further. Your first lesson is free, with a course recommendation at the end; from then on a group seat is USD 100 per month and one-to-one is USD 150 per month.
 
 Nobody plans a long journey one paving stone at a time. You decide on the big roads first and sort out the last few turnings when you get there. AI planners do the same thing under the name hierarchical planning, and coding agents do it when they write an outline before any code. It saves a great deal of effort, but it is a shortcut, and shortcuts have a price. Using OpenStreetMap's walking network for Pinner, this project counts both: how much searching the outline-first planner avoids, and how much longer its routes turn out to be.
 
-Facts last verified 30 September 2026. Teaching is online; no Pinner branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Pinner branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Pinner courses in planning, vibe coding and agents
 
@@ -144,7 +144,7 @@ A laptop or desktop with a webcam and an ordinary home connection is enough.
 Pinner sits on our international rate card, the same one used for every learner outside India.
 
 - First class: USD 0. A whole lesson at no cost, then a recommendation.
-- Group tuition: USD 100 a month. Around eight live classes each month with five to ten learners.
+- Group tuition: USD 100 a month. Around eight live classes each month with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Around eight live lessons each month with a tutor to yourself.
 
 We price in US dollars and do not quote sterling. No invoice goes out before the trial has agreed a course and a slot; the pricing page covers holiday breaks, lessons missed and moving between formats.

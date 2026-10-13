@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across the Isle of Wi
 canonical: https://learn.modernagecoders.com/coding-classes-in-isle-of-wight
 source: src/pages/coding-classes-in-isle-of-wight.html
 ---
-> The Isle of Wight had 140,459 residents at the 2021 Census, in one council area: Newport and Ryde are the two biggest towns at about 25,000 and 24,000, then Cowes, Sandown, Shanklin, East Cowes, Freshwater and Totland, and Ventnor. An island is exactly where online teaching earns its keep, because the ferry is not a sensible way to reach a weekly club. We teach live over video from India, place each learner by ability rather than by age, welcome anyone from 6 to 67, and offer small groups of five to ten or one-to-one lessons in programming, Python, data and maths. The Island project comes from Cowes and its sailing. There is no charge to try a first lesson. Stay on and a group place costs USD 100 each month, with private lessons at USD 150 each month.
+> The Isle of Wight had 140,459 residents at the 2021 Census, in one council area: Newport and Ryde are the two biggest towns at about 25,000 and 24,000, then Cowes, Sandown, Shanklin, East Cowes, Freshwater and Totland, and Ventnor. An island is exactly where online teaching earns its keep, because the ferry is not a sensible way to reach a weekly club. We teach live over video from India, place each learner by ability rather than by age, welcome anyone from 6 to 67, and offer groups of fifteen to twenty or one-to-one lessons in programming, Python, data and maths. The Island project comes from Cowes and its sailing. There is no charge to try a first lesson. Stay on and a group place costs USD 100 each month, with private lessons at USD 150 each month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Isle of Wight
 
@@ -12,11 +12,11 @@ Isle of Wight / Live online
 
 # Coding classes on the Isle of Wight
 
-**What are the best coding classes on the Isle of Wight?** The Isle of Wight had 140,459 residents at the 2021 Census, in one council area: Newport and Ryde are the two biggest towns at about 25,000 and 24,000, then Cowes, Sandown, Shanklin, East Cowes, Freshwater and Totland, and Ventnor. An island is exactly where online teaching earns its keep, because the ferry is not a sensible way to reach a weekly club. We teach live over video from India, place each learner by ability rather than by age, welcome anyone from 6 to 67, and offer small groups of five to ten or one-to-one lessons in programming, Python, data and maths. The Island project comes from Cowes and its sailing. There is no charge to try a first lesson. Stay on and a group place costs USD 100 each month, with private lessons at USD 150 each month.
+**What are the best coding classes on the Isle of Wight?** The Isle of Wight had 140,459 residents at the 2021 Census, in one council area: Newport and Ryde are the two biggest towns at about 25,000 and 24,000, then Cowes, Sandown, Shanklin, East Cowes, Freshwater and Totland, and Ventnor. An island is exactly where online teaching earns its keep, because the ferry is not a sensible way to reach a weekly club. We teach live over video from India, place each learner by ability rather than by age, welcome anyone from 6 to 67, and offer groups of fifteen to twenty or one-to-one lessons in programming, Python, data and maths. The Island project comes from Cowes and its sailing. There is no charge to try a first lesson. Stay on and a group place costs USD 100 each month, with private lessons at USD 150 each month.
 
 Cowes Week, which calls 2026 its bicentenary regatta and itself now "at the start of its third century", brings together boats of every size. That raises a question every club race has to answer: how can a small Topper and a fast 29er race each other fairly? The answer in British dinghy racing is the Portsmouth Yardstick, run by the RYA. Each class gets a Portsmouth Number, and each boat's time on the water is converted to a corrected time before the results are decided. This page's project uses the RYA's own numbers and formula, runs a model race in Python, and then shows how a single point in a published number can decide who wins.
 
-Facts last verified 26 September 2026. Teaching is online; no Isle of Wight branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Isle of Wight branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Isle of Wight learners begin
 
@@ -139,7 +139,7 @@ Island life makes weekly travel to mainland clubs impractical. Online lessons re
 - **At home on the Island** A bedroom in Shanklin, a kitchen in Wootton, a desk in East Cowes. The teacher shares the screen; the learner does the coding.
 - **The words schools use** Year groups, GCSE options and A levels are named just as Island schools name them, all in English.
 - **A free lesson to start** A complete lesson with real work and an honest recommendation afterwards. No payment details are asked for.
-- **A class at your level** Five to ten learners at the same stage from across the UK and beyond, which a small island rarely has locally.
+- **A class at your level** Fifteen to twenty learners at the same stage from across the UK and beyond, which a small island rarely has locally.
 - **Holidays by agreement** Two lessons a week for most learners, pausing for your own school's holidays.
 - **Island time, not India time** However the clocks change, the slot we give you is in UK time; we do the conversion at our end, where India runs a few hours ahead.
 
@@ -150,7 +150,7 @@ Island life makes weekly travel to mainland clubs impractical. Online lessons re
 Newport or Niton, the price is the same, and it matches what families pay in every other country bar India.
 
 - First class: USD 0. A full lesson of genuine work, ending with a suggested level and course.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten at the same level.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty at the same level.
 - Private tuition: USD 150 a month. About eight lessons a month, one teacher and one learner.
 
 Prices are quoted and billed in US dollars; we do not publish sterling prices. Nothing is billed before the free lesson has agreed a course and weekly time; the pricing page explains pauses, missed lessons and switching between group and private teaching.

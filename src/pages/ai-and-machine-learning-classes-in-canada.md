@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-canada.html
 
 In short
 
-Modern Age Coders teaches AI and machine learning live online across Canada, ages 6 to 67, in a cohort of five to eight or privately. What is taught is model building: Python, the probability and matrix work beneath it, then training and testing models on published Canadian data. Lessons are in English, and because the staff work from India the timetable sits in Canadian mornings and weekends. A group seat is USD 100 a month, billed in US dollars, and the first class is free.
+Modern Age Coders teaches AI and machine learning live online across Canada, ages 6 to 67, in a cohort of fifteen to twenty or privately. What is taught is model building: Python, the probability and matrix work beneath it, then training and testing models on published Canadian data. Lessons are in English, and because the staff work from India the timetable sits in Canadian mornings and weekends. A group seat is USD 100 a month, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -379,7 +379,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher, every week
+- Fifteen to twenty students, one teacher, every week
 - Live video, never a recording
 - Weekly build tasks and teacher review
 - Certificate on completion

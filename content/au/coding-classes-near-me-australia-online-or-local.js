@@ -175,7 +175,7 @@ module.exports = {
       body: [
         { kind: 'three', cells: [
           { h3: 'Who teaches?', p: 'One named teacher each week, or whoever is free? Children learn far more from a teacher who remembers last week.' },
-          { h3: 'How big is the group?', p: 'Ask for the maximum, not the average. Our groups are five to ten, or one to one.' },
+          { h3: 'How big is the group?', p: 'Ask for the maximum, not the average. Our groups are fifteen to twenty, or one to one.' },
           { h3: 'What will my child build?', p: 'Ask to see projects from children of the same age, not just the most impressive ones.' }
         ] },
         { kind: 'three', mt: true, cells: [
@@ -242,7 +242,7 @@ module.exports = {
     cells: [
       { h3: 'One teacher', p: 'The same person each week, who knows your child\'s projects.' },
       { h3: 'One slot', p: 'A fixed weekly time, like a local class, so it becomes routine.' },
-      { h3: 'One small group', p: 'Five to ten learners at a similar level, or private lessons.' },
+      { h3: 'One small group', p: 'Fifteen to twenty learners at a similar level, or private lessons.' },
       { h3: 'No travel', p: 'No drop-off, no car park, no waiting in a foyer.' },
       { h3: 'Every postcode', p: 'The same class in Broome, Ballarat or Bondi.' },
       { h3: 'Parents welcome', p: 'Sit in on any lesson, especially at the start.' }
@@ -257,7 +257,7 @@ module.exports = {
     h2: 'Fees for online classes',
     lede: 'One price in US dollars applies in every country outside India, billed month by month. There is no enrolment fee, and you can finish after any month without breaking a term contract.',
     free: ['A live first lesson at no charge', 'A teacher\'s honest view of fit', 'No payment details needed'],
-    group: ['Five to ten learners', 'One regular teacher', 'Matched by age and level', 'Month to month'],
+    group: ['Fifteen to twenty learners', 'One regular teacher', 'Matched by age and level', 'Month to month'],
     one: ['A teacher to yourself', 'Times around your week', 'Pace set by the learner']
   },
 

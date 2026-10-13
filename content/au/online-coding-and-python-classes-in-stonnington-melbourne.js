@@ -316,7 +316,7 @@ module.exports = {
       { h3: 'Code from the first minute', p: 'Teacher and learner share a screen and edit the same program together.' },
       { h3: 'Victorian terms', p: 'Plans follow the state school terms and pause over the holidays.' },
       { h3: 'A real trial lesson', p: 'The free first class teaches proper content and ends with a recommendation.' },
-      { h3: 'Five to ten per group', p: 'Learners matched on level and pace, sometimes from several states.' },
+      { h3: 'Fifteen to twenty per group', p: 'Learners matched on level and pace, sometimes from several states.' },
       { h3: 'Two lessons each week', p: 'Fixed times, about eight lessons a month, with breaks planned ahead.' },
       { h3: 'Teachers in India', p: 'A 5:30pm Stonnington lesson in daylight saving begins at noon India time; after April it begins at 1pm there.' }
     ],
@@ -329,7 +329,7 @@ module.exports = {
     h2: 'Stonnington class fees',
     intro: 'Three prices, with nothing extra later.',
     first: 'The first lesson is free and ends with an honest suggestion.',
-    group: 'One month of group lessons, typically eight, with five to ten learners at a matched level.',
+    group: 'One month of group lessons, typically eight, with fifteen to twenty learners at a matched level.',
     private: 'Around eight lessons a month with one teacher and one learner.',
     closer: 'Outside India, every family is billed in US dollars, and no money changes hands before the trial is done and a course and slot are settled. The pricing page covers holidays, missed classes and switching between group and private.'
   },
@@ -374,12 +374,12 @@ module.exports = {
       },
       {
         q: 'How much do classes cost for Stonnington learners?',
-        a: 'The first lesson is free. Group lessons then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.',
+        a: 'The first lesson is free. Group lessons then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.',
         boiler: true
       },
       {
         q: 'How big is each group?',
-        a: 'Five to ten learners, grouped by level, pace and goal. When no group suits the learner\'s time, one-to-one lessons are offered.',
+        a: 'Fifteen to twenty learners, grouped by level, pace and goal. When no group suits the learner\'s time, one-to-one lessons are offered.',
         boiler: true
       },
       {

@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across County Meath, fro
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-meath
 source: src/pages/coding-classes-in-county-meath.html
 ---
-> Meath grew faster than almost anywhere else in Ireland, up 13% to 220,826 people, and it pays for that growth every morning: its commuters have the longest average journey time in the country at 35.2 minutes, and 19% of them travel an hour or more each way, the highest share anywhere. Education here sits exactly on the national line, with 45% of adults holding a third-level qualification. What a family in Ratoath or Ballivor does not need is another evening in the car. Our classes are live, online and at a fixed weekly hour, for ages 6 to 67, in ability-matched groups of five to ten or one to one. Nothing is charged for the first lesson; after it, a shared place is USD 100 a month and a private one USD 150.
+> Meath grew faster than almost anywhere else in Ireland, up 13% to 220,826 people, and it pays for that growth every morning: its commuters have the longest average journey time in the country at 35.2 minutes, and 19% of them travel an hour or more each way, the highest share anywhere. Education here sits exactly on the national line, with 45% of adults holding a third-level qualification. What a family in Ratoath or Ballivor does not need is another evening in the car. Our classes are live, online and at a fixed weekly hour, for ages 6 to 67, in ability-matched groups of fifteen to twenty or one to one. Nothing is charged for the first lesson; after it, a shared place is USD 100 a month and a private one USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / County Meath
 
@@ -12,11 +12,11 @@ County Meath, Leinster / Live online
 
 # Coding classes in County Meath
 
-**What are the best coding classes in County Meath?** Meath grew faster than almost anywhere else in Ireland, up 13% to 220,826 people, and it pays for that growth every morning: its commuters have the longest average journey time in the country at 35.2 minutes, and 19% of them travel an hour or more each way, the highest share anywhere. Education here sits exactly on the national line, with 45% of adults holding a third-level qualification. What a family in Ratoath or Ballivor does not need is another evening in the car. Our classes are live, online and at a fixed weekly hour, for ages 6 to 67, in ability-matched groups of five to ten or one to one. Nothing is charged for the first lesson; after it, a shared place is USD 100 a month and a private one USD 150.
+**What are the best coding classes in County Meath?** Meath grew faster than almost anywhere else in Ireland, up 13% to 220,826 people, and it pays for that growth every morning: its commuters have the longest average journey time in the country at 35.2 minutes, and 19% of them travel an hour or more each way, the highest share anywhere. Education here sits exactly on the national line, with 45% of adults holding a third-level qualification. What a family in Ratoath or Ballivor does not need is another evening in the car. Our classes are live, online and at a fixed weekly hour, for ages 6 to 67, in ability-matched groups of fifteen to twenty or one to one. Nothing is charged for the first lesson; after it, a shared place is USD 100 a month and a private one USD 150.
 
 Here is a question with two official answers. How many people live in County Meath? Add up the six local electoral areas the statistics office publishes and you get 220,826, which matches the county total exactly, to the person. Add up the 87 electoral divisions instead, the smaller units inside those same areas, and you get 213,398. The same census, the same publisher, the same county, and a gap of 7,428 people, about 3.4%, hiding between two ways of slicing it. Nothing is broken. Some of Meath's population sits in divisions that carry a different label, because towns like Drogheda and Kilcock straddle county boundaries. But a learner who builds a county figure from the smaller units, as any reasonable person might, is short by more than the population of Kells and will never be told. Finding out which set of parts adds up to the whole, before trusting either, is the habit this page teaches.
 
-Facts last verified 16 September 2026. Teaching is online; no County Meath branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no County Meath branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the Royal County
 
@@ -189,7 +189,7 @@ This county empties towards Dublin every morning and fills again at night, which
 - **The journey is already done** A learner in Ballivor joins at the same second as one in Bettystown, and nobody adds a car journey to a day that already has one.
 - **School words as spoken here** Junior Cycle, Transition Year, fifth and sixth year: the teacher uses the terms the family uses, so nothing needs translating.
 - **A genuine first lesson** Teaching, not a sales call, finishing with a clear view of level and course. No card is asked for at any point.
-- **Sorted by level** Five to ten learners who can move at one pace, gathered from Meath and other countries so that every stage has a workable hour.
+- **Sorted by level** Fifteen to twenty learners who can move at one pace, gathered from Meath and other countries so that every stage has a workable hour.
 - **Weekly and predictable** Two lessons in most weeks, around eight a month, at one fixed hour, with mid-terms and exam weeks planned around in advance.
 - **Ireland changes clocks, India does not** That leaves our teachers four and a half hours ahead in the Irish summer and five and a half in winter, which suits Meath evenings well.
 
@@ -200,7 +200,7 @@ This county empties towards Dublin every morning and fills again at night, which
 The whole price list, in three lines.
 
 - First class: USD 0. One complete lesson, free, ending with a level named and a course suggested.
-- Group tuition: USD 100 a month. A month of classes, normally eight, shared with five to ten learners of similar ability.
+- Group tuition: USD 100 a month. A month of classes, normally eight, shared with fifteen to twenty learners of similar ability.
 - Private tuition: USD 150 a month. That same month of classes, with the teacher attending to one learner only.
 
 We bill monthly in US dollars on the one rate that applies outside India, which is why there is no euro list and why Trim pays exactly what Dunboyne pays. Nothing is charged until the free lesson has produced a course and a weekly hour, and the pricing page sets out pauses, missed lessons and switching between group and private.
@@ -241,7 +241,7 @@ None, and we take care never to suggest one. Teaching happens live over video, w
 
 ### What do County Meath coding classes cost?
 
-The opening lesson is free. Continuing means USD 100 monthly for a shared place, which brings two live lessons a week and about eight a month with five to ten learners, or USD 150 monthly for the same schedule taught privately. Course, format and hour are settled first.
+The opening lesson is free. Continuing means USD 100 monthly for a shared place, which brings two live lessons a week and about eight a month with fifteen to twenty learners, or USD 150 monthly for the same schedule taught privately. Course, format and hour are settled first.
 
 ### How many learners are in a group?
 

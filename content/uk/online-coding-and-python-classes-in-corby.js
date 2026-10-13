@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Corby',
   capsuleQ: 'Which are the best online coding and Python classes in Corby?',
-  capsule: 'At the 2021 census the ONS counted 68,160 people in the Corby built-up area, within North Northamptonshire, a council area of 359,525. Great Oakley is recorded as a suburban area in the council area, and Weldon, Stanion and Gretton are villages inside the NN17 and NN18 postcode districts. Coding, Python, AI, vibe coding and maths are open to anyone there from age six to 67, taught live over video by tutors in India, one-to-one or in a small class of five to ten at a shared level. We teach how to reason before how to prompt, so learners can check what an AI assistant writes. Lesson one is free and ends with our course advice. The Corby project sorts all 1,567 postcodes in those two districts and counts every step Python takes. Group lessons then cost USD 100 per month and private lessons USD 150 per month.',
+  capsule: 'At the 2021 census the ONS counted 68,160 people in the Corby built-up area, within North Northamptonshire, a council area of 359,525. Great Oakley is recorded as a suburban area in the council area, and Weldon, Stanion and Gretton are villages inside the NN17 and NN18 postcode districts. Coding, Python, AI, vibe coding and maths are open to anyone there from age six to 67, taught live over video by tutors in India, one-to-one or in a class of fifteen to twenty at a shared level. We teach how to reason before how to prompt, so learners can check what an AI assistant writes. Lesson one is free and ends with our course advice. The Corby project sorts all 1,567 postcodes in those two districts and counts every step Python takes. Group lessons then cost USD 100 per month and private lessons USD 150 per month.',
   lead: 'Sorting sounds solved: call sorted() and move on. But how many steps it takes depends on the data you hand it, and Python\'s built-in sort is cleverer than most people realise. It looks for stretches that are already in order, called runs, and merges them, so a list that is nearly sorted costs far less than a shuffled one. A completely different idea, radix sort, never compares two items at all; it deals them into buckets one character at a time. Corby\'s 1,567 postcodes, from the Ordnance Survey\'s open postcode file, make an ideal test, because every one has exactly the same shape.',
   wa: 'Hello Modern Age Coders, could we book a free coding or Python lesson for a learner in Corby?',
 
@@ -157,7 +157,7 @@ module.exports = {
       { h3: 'Hands-on from minute one', p: 'The student types, prompts and runs each piece of code; the tutor watches the shared screen and keeps asking why.' },
       { h3: 'Pitched by the trial', p: 'What the free lesson shows decides topic one, and exam boards are recorded where they apply.' },
       { h3: 'Opening lesson free', p: 'Lesson one has no charge and ends with a suggested course.' },
-      { h3: 'Classes by stage', p: 'Five to ten learners from across the UK at the same level form each class.' },
+      { h3: 'Classes by stage', p: 'Fifteen to twenty learners from across the UK at the same level form each class.' },
       { h3: 'Twice a week', p: 'Lessons break for school holidays.' },
       { h3: 'Consistent hours', p: 'UK clock changes are handled by our tutors, so your time stays the same.' }
     ],

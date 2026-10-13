@@ -16,7 +16,7 @@ Book a Free C++ Demo ClassSee the Curriculum**4.9/5**Learner rating**5–8**Stud
 
 ## Quick answer
 
-**Modern Age Coders runs India's top-rated live online C++ classes for teens and college students.** The curriculum moves from Core C++ (syntax, logic, functions, pointers) through Object-Oriented Programming, the STL, Data Structures & Algorithms, and into competitive programming and real projects you build yourself. Classes are live and interactive in small batches of 5–8 students, the focus is on contest and placement readiness, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
+**Modern Age Coders runs India's top-rated live online C++ classes for teens and college students.** The curriculum moves from Core C++ (syntax, logic, functions, pointers) through Object-Oriented Programming, the STL, Data Structures & Algorithms, and into competitive programming and real projects you build yourself. Classes are live and interactive in batches of 15–20 students, the focus is on contest and placement readiness, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
 
 > “Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.”
 
@@ -135,7 +135,7 @@ The Difference
 
 ## Why Learners Choose Our C++ Classes
 
-### Small live batches (5–8)
+### Small live batches (15–20)
 
 Real two-way mentoring, never pre-recorded videos. Your code is reviewed live, every class.
 
@@ -169,7 +169,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo, then pick 
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 learners per batch
+- 15–20 learners per batch
 - Live interactive C++ sessions
 - Recorded class access
 - Completion certificate
@@ -180,7 +180,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 learners per batch
+- Up to 6 learners per batch
 - More personal mentoring
 - Recorded class access
 - Project guidance & certificate
@@ -228,7 +228,7 @@ Good To Know
 
 What are the best online C++ classes in India?+
 
-Modern Age Coders offers live online C++ classes across India for teens (13–18) and college students. The curriculum covers Core C++, Object-Oriented Programming, the STL, Data Structures & Algorithms, competitive programming and real projects, taught in small batches of 5–8 students by expert mentors. Every new learner gets a free demo class before enrolling.
+Modern Age Coders offers live online C++ classes across India for teens (13–18) and college students. The curriculum covers Core C++, Object-Oriented Programming, the STL, Data Structures & Algorithms, competitive programming and real projects, taught in batches of 15–20 students by expert mentors. Every new learner gets a free demo class before enrolling.
 
 Is C++ a good language for teens and beginners to learn?+
 
@@ -240,7 +240,7 @@ C++ is the dominant language on Codeforces, CodeChef, LeetCode and the ICPC beca
 
 How much do C++ classes cost in India?+
 
-Group C++ classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and personalised 1-on-1 C++ mentoring is ₹4,999 per month. A free demo class is available before you enrol.
+Group C++ classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and personalised 1-on-1 C++ mentoring is ₹4,999 per month. A free demo class is available before you enrol.
 
 Can college students learn C++ for placements with you?+
 
@@ -260,7 +260,7 @@ No. Our [beginner C++ track](/c-plus-plus-for-beginners) starts from absolute ba
 
 Should I choose group C++ classes or 1-on-1?+
 
-Both are live and taught by an expert mentor. Group C++ classes in small batches of 5 to 8 are the most affordable and add peer learning, a mini batch of 3 to 4 gives near one-to-one attention, and 1-on-1 gives a fully personalised pace. Start with a free demo, and you can change your plan later.
+Both are live and taught by an expert mentor. Group C++ classes in batches of 15 to 20 are the most affordable and add peer learning, a mini batch of up to 6 gives near one-to-one attention, and 1-on-1 gives a fully personalised pace. Start with a free demo, and you can change your plan later.
 
 Do you offer a refund if the C++ course is not the right fit?+
 

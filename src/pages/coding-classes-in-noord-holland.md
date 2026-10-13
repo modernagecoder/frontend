@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across Noord-Holland, ag
 canonical: https://learn.modernagecoders.com/coding-classes-in-noord-holland
 source: src/pages/coding-classes-in-noord-holland.html
 ---
-> Coding classes in Noord-Holland have to reach 3,009,386 people in 44 municipalities (Statistics Netherlands, 1 January 2026), of whom fewer than a third live in Amsterdam. Haarlem, the provincial capital, Haarlemmermeer and Zaanstad hold places two, three and four with 168,898, 166,978 and 165,201 residents, closer to each other than a single secondary school's roll. Live online and in English, for ages 6 to 67, Modern Age Coders teaches coding, Python, AI and mathematics to every one of those municipalities at the same price: nothing for the first lesson, then USD 100 a month in a group of five to ten or USD 150 one to one.
+> Coding classes in Noord-Holland have to reach 3,009,386 people in 44 municipalities (Statistics Netherlands, 1 January 2026), of whom fewer than a third live in Amsterdam. Haarlem, the provincial capital, Haarlemmermeer and Zaanstad hold places two, three and four with 168,898, 166,978 and 165,201 residents, closer to each other than a single secondary school's roll. Live online and in English, for ages 6 to 67, Modern Age Coders teaches coding, Python, AI and mathematics to every one of those municipalities at the same price: nothing for the first lesson, then USD 100 a month in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Noord-Holland
 
@@ -12,11 +12,11 @@ Province of Noord-Holland / Live online
 
 # Coding classes in Noord-Holland, a province whose second, third and fourth cities are closer than the size of one school
 
-**What are the best coding classes in Noord-Holland?** Coding classes in Noord-Holland have to reach 3,009,386 people in 44 municipalities (Statistics Netherlands, 1 January 2026), of whom fewer than a third live in Amsterdam. Haarlem, the provincial capital, Haarlemmermeer and Zaanstad hold places two, three and four with 168,898, 166,978 and 165,201 residents, closer to each other than a single secondary school's roll. Live online and in English, for ages 6 to 67, Modern Age Coders teaches coding, Python, AI and mathematics to every one of those municipalities at the same price: nothing for the first lesson, then USD 100 a month in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Noord-Holland?** Coding classes in Noord-Holland have to reach 3,009,386 people in 44 municipalities (Statistics Netherlands, 1 January 2026), of whom fewer than a third live in Amsterdam. Haarlem, the provincial capital, Haarlemmermeer and Zaanstad hold places two, three and four with 168,898, 166,978 and 165,201 residents, closer to each other than a single secondary school's roll. Live online and in English, for ages 6 to 67, Modern Age Coders teaches coding, Python, AI and mathematics to every one of those municipalities at the same price: nothing for the first lesson, then USD 100 a month in a group of fifteen to twenty or USD 150 one to one.
 
 A league table of the province's towns says Haarlem is second and Zaanstad fourth. It does not say that 3,697 people separate them, or that 773,029 separate first from second. That is what a rank does to a number, and a child who can show it with the province's own list has learned something that applies to every table with a position column in it.
 
-Facts last verified 7 September 2026. Teaching is online; no Noord-Holland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Noord-Holland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a province that runs from the Gooi to the Wadden
 
@@ -201,7 +201,7 @@ From Den Helder the nearest large city is eighty kilometres south. From Texel it
 - **The same lesson in Bergen and in Blaricum** The group is assembled on level, not on postcode. A child on Texel and a child in the Gooi sit in the same class at the same hour and neither has travelled.
 - **English, with the Dutch words left in** Groep, havo, vwo, profielkeuze and MYP are used as the family hears them at school. The teaching itself is in English, which is the language most of the province's international families share.
 - **A first lesson that is a lesson** A task pitched at the learner, a level and a named course by the end of the hour, and no card taken to arrange it.
-- **Five to ten learners, or one** Groups are built from what learners can do and want next. Private tuition is the option for a narrow goal or an examination year that is already full.
+- **Fifteen to twenty learners, or one** Groups are built from what learners can do and want next. Private tuition is the option for a narrow goal or an examination year that is already full.
 - **Two lessons a week on the regio Noord calendar** Noord-Holland takes its school holidays with regio Noord, so the summer weeks fall earlier or later than Utrecht's and Eindhoven's in a given year. They are agreed before the slot is fixed.
 - **Four and a half hours in winter, three and a half in summer** That is the gap between a Noord-Holland afternoon and the teacher's evening in India, because only the Dutch clock moves. After-school, early-evening and weekend slots suit both ends, and the family fixes one during the free lesson.
 
@@ -212,7 +212,7 @@ From Den Helder the nearest large city is eighty kilometres south. From Texel it
 Published here in full, before anyone asks for a phone number.
 
 - First class: USD 0. A full lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 The rate is the one international rate, in US dollars, with no euro version and no difference between Amsterdam and Opmeer. The free lesson fixes the course and the slot; payment is arranged afterwards over WhatsApp. Pauses, changes of plan and missed lessons are described on the pricing page.
@@ -253,7 +253,7 @@ No, and none is claimed in Haarlem, in Amsterdam or anywhere in the Netherlands.
 
 ### What do Noord-Holland coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Noord-Holland group?
 

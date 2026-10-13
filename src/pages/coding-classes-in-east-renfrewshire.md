@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across East Renfrewsh
 canonical: https://learn.modernagecoders.com/coding-classes-in-east-renfrewshire
 source: src/pages/coding-classes-in-east-renfrewshire.html
 ---
-> East Renfrewshire is a council area with about 96,800 residents in roughly 39,700 households at the 2022 census. Newton Mearns is its largest town, ahead of Barrhead, Giffnock and Clarkston, and villages such as Neilston, Eaglesham and Busby fill out the map. We teach every lesson live on video from India, and a free first session tells us where each learner fits, from P1 to S6 or as an adult. Coding, Python and maths are open to anyone aged 6 to 67, one-to-one or in a class of five to ten. The local project comes from a Victorian reservoir in Waulkmill Glen. After the free lesson, a group place is USD 100 a month and one-to-one teaching USD 150.
+> East Renfrewshire is a council area with about 96,800 residents in roughly 39,700 households at the 2022 census. Newton Mearns is its largest town, ahead of Barrhead, Giffnock and Clarkston, and villages such as Neilston, Eaglesham and Busby fill out the map. We teach every lesson live on video from India, and a free first session tells us where each learner fits, from P1 to S6 or as an adult. Coding, Python and maths are open to anyone aged 6 to 67, one-to-one or in a class of fifteen to twenty. The local project comes from a Victorian reservoir in Waulkmill Glen. After the free lesson, a group place is USD 100 a month and one-to-one teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / East Renfrewshire
 
@@ -12,11 +12,11 @@ East Renfrewshire / Live online
 
 # Coding classes in East Renfrewshire
 
-**What are the best coding classes in East Renfrewshire?** East Renfrewshire is a council area with about 96,800 residents in roughly 39,700 households at the 2022 census. Newton Mearns is its largest town, ahead of Barrhead, Giffnock and Clarkston, and villages such as Neilston, Eaglesham and Busby fill out the map. We teach every lesson live on video from India, and a free first session tells us where each learner fits, from P1 to S6 or as an adult. Coding, Python and maths are open to anyone aged 6 to 67, one-to-one or in a class of five to ten. The local project comes from a Victorian reservoir in Waulkmill Glen. After the free lesson, a group place is USD 100 a month and one-to-one teaching USD 150.
+**What are the best coding classes in East Renfrewshire?** East Renfrewshire is a council area with about 96,800 residents in roughly 39,700 households at the 2022 census. Newton Mearns is its largest town, ahead of Barrhead, Giffnock and Clarkston, and villages such as Neilston, Eaglesham and Busby fill out the map. We teach every lesson live on video from India, and a free first session tells us where each learner fits, from P1 to S6 or as an adult. Coding, Python and maths are open to anyone aged 6 to 67, one-to-one or in a class of fifteen to twenty. The local project comes from a Victorian reservoir in Waulkmill Glen. After the free lesson, a group place is USD 100 a month and one-to-one teaching USD 150.
 
 Historic Environment Scotland lists Waulkmill Glen Reservoir at Category A, its highest grade. The engineer William Gale built it in 1847 and 1848 for the Gorbals Gravitation Water Company, and the listing calls its draw-off tower quite possibly the earliest such structure in Scotland. It also mentions a self-activating sluice, a device that let water through on its own, although the listing says it is unclear whether any of the machinery survives. How can a machine decide, with nobody watching, when to let water through? This page's project answers in Python, with an invented basin and three ways of controlling it, one of which makes the valve rattle open and shut thousands of times a week.
 
-Facts last verified 26 September 2026. Teaching is online; no East Renfrewshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no East Renfrewshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## The first course for each East Renfrewshire learner
 
@@ -135,7 +135,7 @@ East Renfrewshire mixes busy suburbs with outlying villages. Online classes trea
 - **A laptop and a quiet room** The learner shares a screen, the teacher watches the code take shape and steps in when it breaks.
 - **Scottish terms throughout** We talk about P6, S3, National 5 and Higher, exactly as East Renfrewshire schools do, and teach in English.
 - **Try before paying** The first lesson is free and complete. We then say honestly which level and course would suit.
-- **Classmates matched by level** Classes hold five to ten learners at one stage, gathered from several countries.
+- **Classmates matched by level** Classes hold fifteen to twenty learners at one stage, gathered from several countries.
 - **Term time and holidays** Lessons run twice a week in term and stop for the school holidays you tell us about.
 - **A fixed UK time** Your slot stays at the same UK time across the clock changes; our teachers in India time move instead.
 
@@ -146,7 +146,7 @@ East Renfrewshire mixes busy suburbs with outlying villages. Online classes trea
 Giffnock, Barrhead or anywhere else in the UK, the monthly fee does not change.
 
 - First class: USD 0. One complete lesson, no charge, followed by a recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a class of five to ten at one level.
+- Group tuition: USD 100 a month. About eight lessons a month in a class of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. About eight lessons a month with a teacher to yourself.
 
 All our fees are in US dollars, so there is no sterling price list. Nothing is charged until a course and weekly slot are agreed after the free lesson; holidays, missed lessons and format changes are set out on the pricing page.

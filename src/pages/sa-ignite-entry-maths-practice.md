@@ -175,7 +175,7 @@ Our teachers are in India, behind Adelaide. During daylight saving Adelaide is f
 
 - **Boards and dominoes** Students colour, cut and test ideas by hand.
 - **Arguments written down** Every claim of impossibility needs a reason.
-- **Five to ten per group** Small groups that discuss together.
+- **Fifteen to twenty per group** Small groups that discuss together.
 - **One-to-one lessons** For a student who wants to go deep alone.
 - **Not Ignite coaching** We teach mathematics, not assessment drills.
 - **No offer claims** Entry decisions rest with the schools.
@@ -185,7 +185,7 @@ Our teachers are in India, behind Adelaide. During daylight saving Adelaide is f
 South Australian families pay monthly in US dollars, the rate we use outside India. No payment in advance and no minimum term.
 
 - Free first class: USD 0. A full trial lesson. An honest view, even if no classes are needed. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. One regular teacher. Feedback on reasoning. Certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. One regular teacher. Feedback on reasoning. Certificate at the end.
 - One to one: USD 150 a month. A teacher for one student. Chosen focus. Flexible times.
 
 ## South Australian families ask

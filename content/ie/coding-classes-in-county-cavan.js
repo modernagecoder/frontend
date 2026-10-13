@@ -179,7 +179,7 @@ module.exports = {
     intro: 'The practical shape of the teaching.',
     cells: [
       { h3: 'Live with a real teacher', p: 'Every lesson is taught as it happens, with questions both ways, rather than watched as a video.' },
-      { h3: 'Grouped by level', p: 'Five to ten learners at one ability level, gathered from Cavan and other countries, so nobody is waiting for the room to catch up.' },
+      { h3: 'Grouped by level', p: 'Fifteen to twenty learners at one ability level, gathered from Cavan and other countries, so nobody is waiting for the room to catch up.' },
       { h3: 'Weekly and fixed', p: 'Two lessons most weeks, about eight a month, at a slot agreed once and kept.' },
       { h3: 'Matched to Irish schooling', p: 'Junior Cycle through Leaving Certificate, with exam seasons and holidays planned around rather than ignored.' },
       { h3: 'At the kitchen table', p: 'A computer, sound that works and a connection able to carry video. The first lesson doubles as a test of all three.' },
@@ -192,7 +192,7 @@ module.exports = {
     h2: 'Cavan class fees',
     intro: 'Three figures, with nothing further to find.',
     first: 'A first lesson in full at no charge, which ends with a level and a recommendation.',
-    group: 'Group lessons for a month, around eight of them, with five to ten learners at one level.',
+    group: 'Group lessons for a month, around eight of them, with fifteen to twenty learners at one level.',
     private: 'One to one lessons for a month on the same schedule.',
     closer: 'Monthly billing is in US dollars at the single rate we set for families outside India, so Cootehill and Cavan town pay the same and there is no euro price to compare it with. No payment is taken before a course and a time are agreed in that first lesson, and the pricing page spells out pauses, missed lessons and changing between group and private.'
   },
@@ -217,7 +217,7 @@ module.exports = {
       { q: 'Do you teach outside Cavan town?', a: 'Yes. Virginia, Bailieborough, Kingscourt, Ballyjamesduff, Cootehill and Belturbet all get exactly the same teacher at exactly the same hour.' },
       { q: 'What hours are lessons taught?', a: 'After school, evenings and weekend mornings. Our teaching staff are in India, which is four and a half hours ahead of Ireland in summer and five and a half in winter; the slot is fixed in the first lesson.' },
       { q: 'Is there a Modern Age Coders classroom in County Cavan?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do County Cavan coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do County Cavan coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

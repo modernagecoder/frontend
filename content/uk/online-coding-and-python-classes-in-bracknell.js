@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Bracknell',
   capsuleQ: 'What are the best coding and Python classes in Bracknell?',
-  capsule: 'Bracknell Forest had 124,607 residents at the 2021 census, with Bracknell itself a built-up area of 78,675 and Sandhurst at 20,215. It is a borough of young families: children aged 10 to 14 made up 6.5 per cent of residents against 6.0 across England, and people aged 35 to 39 made up 7.5 against 6.7. For every age from 6 to 67 we teach coding, Python, AI and maths in live video lessons from India, privately or in classes of five to ten learners at one level. One free lesson finds the right course. The Bracknell project comes from a Met Office rain gauge designed at Beaufort Park, Bracknell. Lessons then cost USD 100 a month in a class or USD 150 a month one-to-one.',
+  capsule: 'Bracknell Forest had 124,607 residents at the 2021 census, with Bracknell itself a built-up area of 78,675 and Sandhurst at 20,215. It is a borough of young families: children aged 10 to 14 made up 6.5 per cent of residents against 6.0 across England, and people aged 35 to 39 made up 7.5 against 6.7. For every age from 6 to 67 we teach coding, Python, AI and maths in live video lessons from India, privately or in classes of fifteen to twenty learners at one level. One free lesson finds the right course. The Bracknell project comes from a Met Office rain gauge designed at Beaufort Park, Bracknell. Lessons then cost USD 100 a month in a class or USD 150 a month one-to-one.',
   lead: 'In 1998 Martin N. Parker of the Meteorological Office\'s Engineering Design Services at Beaufort Park, Bracknell, devised a new standard 5-inch rain gauge in stainless steel, now in the Science Museum Group collection. Alongside it the collection holds a Met Office tipping bucket rain gauge from 1997. A tipping bucket gauge is clever: rain fills a tiny seesaw bucket until it tips, empties and counts one tip. That makes it automatic, but it also means the gauge can only count rain in steps, like a ruler with no marks between the centimetres. What happens to a light shower smaller than one step? And how does a sensible gauge avoid losing those scraps? This page\'s project simulates it in Python.',
   wa: 'Hello Modern Age Coders, I would like a free coding or Python class for a learner in Bracknell.',
 
@@ -165,7 +165,7 @@ module.exports = {
       { h3: 'Learners at the keys', p: 'The student writes every line; the tutor reads their screen and asks the question that unlocks the next step.' },
       { h3: 'Right level', p: 'A Year 4 or a Year 12 from Bracknell starts where their year and the trial suggest, with exam board terms.' },
       { h3: 'Free opening lesson', p: 'Nothing to pay for the first lesson, which ends with clear advice.' },
-      { h3: 'Classes by ability', p: 'Five to ten learners at one stage in each class, from across the UK.' },
+      { h3: 'Classes by ability', p: 'Fifteen to twenty learners at one stage in each class, from across the UK.' },
       { h3: 'Term weeks', p: 'Two lessons each week in term; school holidays stay free.' },
       { h3: 'Constant UK time', p: 'Your lesson time does not change when British clocks do.' }
     ],
@@ -176,7 +176,7 @@ module.exports = {
     h2: 'Fees in Bracknell',
     intro: 'Bracknell families pay the same fee we charge in every country outside India.',
     first: 'A full free lesson with an honest recommendation.',
-    group: 'About eight live lessons a month in a class of five to ten.',
+    group: 'About eight live lessons a month in a class of fifteen to twenty.',
     private: 'About eight live lessons a month with a dedicated tutor.',
     closer: 'Our fees are in US dollars only, never sterling. You pay nothing until the trial has fixed a course and a weekly slot; the pricing page covers holidays, missed lessons and switching formats.'
   },

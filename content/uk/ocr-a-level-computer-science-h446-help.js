@@ -224,7 +224,7 @@ module.exports = {
       { h3: 'Retrieval, not rereading', p: 'Component 01 is a large body of content, and the only revision that works on it is being asked.' },
       { h3: 'Unseen problems', p: 'Component 02 applies the other paper, so practice has to be on problems nobody has seen before.' },
       { h3: 'A clear line on the project', p: 'We never work on it, review it or advise on its content. We teach the four stages it assumes.' },
-      { h3: 'Groups by level', p: 'Five to ten students at one stage, marking each other\'s handwritten algorithms.' }
+      { h3: 'Groups by level', p: 'Fifteen to twenty students at one stage, marking each other\'s handwritten algorithms.' }
     ]
   },
 
@@ -236,7 +236,7 @@ module.exports = {
     h2: 'Fees for H446 teaching',
     lede: 'One figure a month, quoted in US dollars outside India. Nothing is taken until the free lesson has settled a course and a regular time.',
     free: ['A working lesson on actual H446 questions', 'A blunt answer about which component is behind', 'We ask for a phone number and nothing else'],
-    group: ['A room of five to ten at the same rung', 'The same teacher from September to June', 'Handwritten algorithms marked and handed back each week', 'A lighter timetable while the papers are on'],
+    group: ['A room of fifteen to twenty at the same rung', 'The same teacher from September to June', 'Handwritten algorithms marked and handed back each week', 'A lighter timetable while the papers are on'],
     one: ['Only the student and the teacher', 'Planned back from the exam timetable', 'Suits a candidate with a particular grade in view']
   },
 

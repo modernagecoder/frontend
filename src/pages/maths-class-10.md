@@ -153,7 +153,7 @@ Every plan is live with a specialist mentor, and each class runs about one hour.
 ₹1,499/ month
 
 - 2 live classes a week
-- Up to 10 students
+- Up to 20 students
 - Chapter tests and mock papers
 
 Most popular
@@ -163,7 +163,7 @@ Most popular
 ₹2,999/ month
 
 - 2 live classes a week
-- Just 3 to 4 students
+- Up to 6 students
 - Near one-to-one attention
 
 ### 1-on-1

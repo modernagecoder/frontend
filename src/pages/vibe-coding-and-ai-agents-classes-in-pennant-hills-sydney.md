@@ -16,7 +16,7 @@ Pennant Hills, upper north Sydney / Live online
 
 Ask an AI agent which month was busiest at Pennant Hills station and it may reply February 2026, confidently and wrongly. The busiest month in the Transport for NSW figures was March 2026, with 65,719 entries. The agent's tool did one sensible-looking thing: it converted each month stamp to UTC. Because the stamps are Sydney midnights, every one of them slid back into the previous day, and so into the previous month. Fixing it is a lesson in naive and aware datetimes that every agent builder needs.
 
-Facts last verified 10 October 2026. Teaching is online; no Pennant Hills branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Pennant Hills branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses where AI writes and learners verify
 
@@ -200,7 +200,7 @@ Every class is a live video session, held from the learner's own desk in Pennant
 One flat fee applies to every course we teach.
 
 - First class: USD 0. The first lesson costs nothing and finishes with a suggested course and slot.
-- Group tuition: USD 100 a month. A group place: two lessons weekly, about eight a month, five to ten learners at one level.
+- Group tuition: USD 100 a month. A group place: two lessons weekly, about eight a month, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. One-to-one lessons at the same pace of about eight a month.
 
 Pennant Hills fees are paid in US dollars, starting only after the trial has fixed a course and a time. Holidays, missed lessons and format changes are explained on the pricing page.
@@ -241,11 +241,11 @@ No. We teach only online and have no premises anywhere in Australia, including P
 
 ### How much do Pennant Hills lessons cost?
 
-The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.
+The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.
 
 ### How big are the groups?
 
-Five to ten learners, grouped by level and goals rather than age. If no group fits the learner's schedule, one-to-one lessons are offered instead.
+Fifteen to twenty learners, grouped by level and goals rather than age. If no group fits the learner's schedule, one-to-one lessons are offered instead.
 
 ## More for Pennant Hills learners
 

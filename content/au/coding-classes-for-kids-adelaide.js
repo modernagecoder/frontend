@@ -192,7 +192,7 @@ module.exports = {
       { h3: 'A computer and a quiet corner', p: 'A laptop or desktop with sound, plus a grown-up nearby for the first lesson, is all that is needed.' },
       { h3: 'Reception to Year 8 words', p: 'Teachers use South Australian year names, starting from Reception, so a young child hears familiar words.' },
       { h3: 'A real trial lesson', p: 'Your child makes something that works in the first session, and you leave with a suggested course and slot. No card is requested.' },
-      { h3: 'Groups of five to ten', p: 'Children working at the same stage, or one to one if your child prefers.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Children working at the same stage, or one to one if your child prefers.' },
       { h3: 'Usually twice a week', p: 'About eight lessons each month at the same time, which keeps momentum without crowding the week.' },
       { h3: 'Teachers on India time', p: 'Adelaide is four hours ahead of India time in winter and five hours ahead during daylight saving, so an after-school Adelaide lesson falls around midday for our teachers.' }
     ],
@@ -203,7 +203,7 @@ module.exports = {
     h2: 'What coding classes cost for Adelaide kids',
     intro: 'Three prices, stated plainly.',
     first: 'A first lesson that costs nothing and ends with a level, a course and a weekly time.',
-    group: 'About eight lessons a month with five to ten children at a matching level.',
+    group: 'About eight lessons a month with fifteen to twenty children at a matching level.',
     private: 'About eight lessons a month with your child as the only learner.',
     closer: 'Outside India every family is charged in US dollars at the same rate, so a child in the eastern suburbs and one on the coast pay alike. The first bill comes only after the trial, once you have chosen; the pricing page explains holidays, missed lessons and changing format.'
   },
@@ -228,8 +228,8 @@ module.exports = {
       { q: 'What time are lessons for Adelaide children?', a: 'After school on weekdays or on weekends, agreed in the free lesson and always given in Adelaide time.' },
       { q: 'How do you keep children safe online?', a: 'Lessons are live with a teacher who sees the whole small group. Children do not sign up to adult AI services, and a parent is welcome to watch any session.' },
       { q: 'Is there a Modern Age Coders centre in Adelaide?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do coding classes for Adelaide kids cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do coding classes for Adelaide kids cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

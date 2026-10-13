@@ -186,7 +186,7 @@ Tutors join live from India. Through the warm months Adelaide sits five hours in
 - **Sentences, not symbols** Every proof written so a reader can follow it.
 - **A check for every answer** Substitute, differentiate or dot to confirm.
 - **See the space** Three-dimensional problems sketched before they are solved.
-- **Peer critique** Groups of five to ten at a matching level read one another's proofs aloud and hunt for gaps.
+- **Peer critique** Groups of fifteen to twenty at a matching level read one another's proofs aloud and hunt for gaps.
 - **One-to-one sessions** For a single topic, often vectors or induction.
 - **Results stay theirs** No tutor of ours will guess at a final grade or an ATAR.
 
@@ -195,7 +195,7 @@ Tutors join live from India. Through the warm months Adelaide sits five hours in
 Every family outside India pays one monthly rate in US dollars for Specialist lessons. There is nothing to join and nothing to cancel: each month stands alone.
 
 - Free first class: USD 0. A full maths lesson with a tutor. A clear view of the topic to fix first. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. The same tutor every week. Proofs read and discussed. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same tutor every week. Proofs read and discussed. A certificate at the end.
 - One to one: USD 150 a month. A tutor for one student. Focused on one topic. Popular before the November paper.
 
 ## Specialist Mathematics questions we hear

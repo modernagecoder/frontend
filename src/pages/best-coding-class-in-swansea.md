@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Swansea learn
 canonical: https://learn.modernagecoders.com/best-coding-class-in-swansea
 source: src/pages/best-coding-class-in-swansea.html
 ---
-> The 2021 census recorded 238,490 usual residents in Swansea, and 22.8% of those aged five and over were in school or full-time study, against 19.9% across Wales. Swansea University says the finite element method, which changed how manufactured products are designed, was developed there in the 1960s by Professor Olek Zienkiewicz. Learners in Swansea, from age six to sixty-seven, join our live online lessons one to one or in a level-matched group of five to ten, taught from India at UK-friendly times. We charge nothing for the first lesson; from then on a group place is USD 100 a month and private teaching USD 150 a month.
+> The 2021 census recorded 238,490 usual residents in Swansea, and 22.8% of those aged five and over were in school or full-time study, against 19.9% across Wales. Swansea University says the finite element method, which changed how manufactured products are designed, was developed there in the 1960s by Professor Olek Zienkiewicz. Learners in Swansea, from age six to sixty-seven, join our live online lessons one to one or in a level-matched group of fifteen to twenty, taught from India at UK-friendly times. We charge nothing for the first lesson; from then on a group place is USD 100 a month and private teaching USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Swansea
 
@@ -12,11 +12,11 @@ Swansea, Wales / Live online
 
 # Coding classes in Swansea
 
-**What are the best coding classes in Swansea?** The 2021 census recorded 238,490 usual residents in Swansea, and 22.8% of those aged five and over were in school or full-time study, against 19.9% across Wales. Swansea University says the finite element method, which changed how manufactured products are designed, was developed there in the 1960s by Professor Olek Zienkiewicz. Learners in Swansea, from age six to sixty-seven, join our live online lessons one to one or in a level-matched group of five to ten, taught from India at UK-friendly times. We charge nothing for the first lesson; from then on a group place is USD 100 a month and private teaching USD 150 a month.
+**What are the best coding classes in Swansea?** The 2021 census recorded 238,490 usual residents in Swansea, and 22.8% of those aged five and over were in school or full-time study, against 19.9% across Wales. Swansea University says the finite element method, which changed how manufactured products are designed, was developed there in the 1960s by Professor Olek Zienkiewicz. Learners in Swansea, from age six to sixty-seven, join our live online lessons one to one or in a level-matched group of fifteen to twenty, taught from India at UK-friendly times. We charge nothing for the first lesson; from then on a group place is USD 100 a month and private teaching USD 150 a month.
 
 A monitor beside the A483 Carmarthen Road has measured nitrogen dioxide every hour for years. Suppose a program has to spot, as soon as possible, when the usual level shifts. Checking each day on its own fails: in 2019 and 2020 not a single day fell far enough below normal to trip a two-standard-deviation alarm. A CUSUM detector instead adds up small shortfalls until the evidence is strong, and in spring 2020 it fired on 17 March, six days before the stay-at-home instruction of 23 March. Set it more cautiously and it stays silent until July; set it more eagerly and it raises ten false alarms in an ordinary year. Our teenagers tune it, and learn that a detector reports when a level changed, never why.
 
-Facts last verified 22 September 2026. Teaching is online; no Swansea branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 22 September 2026. Teaching is online; no Swansea branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the city by the bay
 
@@ -64,7 +64,7 @@ People aged 20 to 24 made up 8.0% of residents against 6.0% in Wales, while the 
 
 At 631.5 residents per square kilometre, the council area mixes a dense city with Gower and the northern valleys, so it is far less crowded than its centre.
 
-We teach Swansea learners at every stage. A Year 4 pupil in Sketty might be animating a first sprite, a Year 11 student in Morriston preparing for WJEC GCSE Computer Science, and an adult in the Uplands learning Python to automate work reports, each in a group of five to ten at the same level.
+We teach Swansea learners at every stage. A Year 4 pupil in Sketty might be animating a first sprite, a Year 11 student in Morriston preparing for WJEC GCSE Computer Science, and an adult in the Uplands learning Python to automate work reports, each in a group of fifteen to twenty at the same level.
 
 ## A university founded in 1920 and a method that changed engineering
 
@@ -173,7 +173,7 @@ Swansea stretches from Gower to the valleys, and an evening journey across it is
 - **Gower to the valleys** A learner in Mumbles and another in Clydach can sit in the same lesson without either making the trip into town.
 - **Welsh school years** Years 1 to 13, the Curriculum for Wales and WJEC GCSEs and A levels, named as Swansea schools name them. Lessons are taught in English.
 - **A free lesson worth having** The first session works through a real task and ends with a suggested level, course and weekly time. Booking asks for no card.
-- **Level first, not postcode** Groups of five to ten learners at one stage, from Swansea, elsewhere in the UK and overseas, so every level has a suitable time.
+- **Level first, not postcode** Groups of fifteen to twenty learners at one stage, from Swansea, elsewhere in the UK and overseas, so every level has a suitable time.
 - **A twice-weekly routine** Two regular lessons each week, about eight a month, with holidays and exam periods agreed with the teacher beforehand.
 - **How the clocks line up** Because Indian time never changes, India sits four and a half hours ahead of Swansea during British Summer Time and five and a half ahead in winter, which fits UK after-school and evening lessons into the teaching day.
 
@@ -184,7 +184,7 @@ Swansea stretches from Gower to the valleys, and an evening journey across it is
 Your first lesson is free, then there is one monthly fee.
 
 - First class: USD 0. A whole lesson at no cost, finishing with a recommended level, course and weekly slot.
-- Group tuition: USD 100 a month. Roughly eight live lessons a month, alongside five to ten learners at the same level.
+- Group tuition: USD 100 a month. Roughly eight live lessons a month, alongside fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. Roughly eight live lessons a month, with the teacher's attention on your learner alone.
 
 We charge every family outside India the same fee in US dollars, whether they live in Townhill or Killay, and we publish nothing in pounds. Payment starts only after the free lesson has agreed a course and a time; the pricing page sets out pauses, missed lessons and moves between group and one-to-one teaching.
@@ -225,11 +225,11 @@ No. We have no Swansea centre and no premises anywhere in the UK; every lesson h
 
 ### How much do Swansea lessons cost?
 
-The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
+The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
 
 ### How are Swansea groups formed?
 
-By level, pace and goals rather than age or postcode, with five to ten learners at one stage. When no group fits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than age or postcode, with fifteen to twenty learners at one stage. When no group fits the learner's week, we offer one-to-one lessons.
 
 ## Welsh pages and other cities
 

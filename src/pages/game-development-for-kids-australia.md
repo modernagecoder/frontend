@@ -224,7 +224,7 @@ Our teachers are in India. In winter, Sydney, Melbourne, Brisbane, Canberra and 
 - **Sunday** For families with busy Saturday sport.
 
 - **Try before paying** The opening class costs nothing; it shows the teacher how far your child has already got.
-- **Small groups** Five to ten children of a similar level, playing and testing each other's games.
+- **Small groups** Fifteen to twenty children of a similar level, playing and testing each other's games.
 - **Private lessons** Suited to a quick learner, a quiet child or a teenager chasing one ambitious game.
 - **Their own games** Every line is typed or snapped in by the child. Teachers explain and question; they do not build it for them.
 - **Parents can watch** Lessons are live, so you can sit in, and finished games can be played at home.

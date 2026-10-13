@@ -4,7 +4,7 @@ description: "Best coding classes for kids in Ireland, from Junior Infants to Si
 canonical: https://learn.modernagecoders.com/best-coding-classes-for-kids-ireland
 source: src/pages/best-coding-classes-for-kids-ireland.html
 ---
-> The best coding class for an Irish primary-school child starts with play and blocks, moves to typed code around Fourth Class, and is taught by the same patient teacher each week in a small group. The Primary Curriculum Framework of 2023 makes being a digital learner a key competency for every child, and suggests at least five hours a month for Science, Technology and Engineering in the senior classes, but schools are introducing the new areas one at a time, so what a child meets in school this year varies. Modern Age Coders teaches children live online from age 6, in groups of five to ten placed by ability or one to one. A first class is free, and a place then costs USD 100 a month in a group or USD 150 a month with a teacher alone.
+> The best coding class for an Irish primary-school child starts with play and blocks, moves to typed code around Fourth Class, and is taught by the same patient teacher each week in a small group. The Primary Curriculum Framework of 2023 makes being a digital learner a key competency for every child, and suggests at least five hours a month for Science, Technology and Engineering in the senior classes, but schools are introducing the new areas one at a time, so what a child meets in school this year varies. Modern Age Coders teaches children live online from age 6, in groups of fifteen to twenty placed by ability or one to one. A first class is free, and a place then costs USD 100 a month in a group or USD 150 a month with a teacher alone.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / Coding for kids, Ireland
 
@@ -14,7 +14,7 @@ Ireland · Primary school · Ages 6 to 12
 
 Irish primary schools are in the middle of the biggest change to their curriculum in a generation. The Primary Curriculum Framework, launched in March 2023, names "being a digital learner" as one of seven key competencies for every child from Junior Infants to Sixth Class, and schools are bringing in the new curriculum areas one at a time. So a parent asking about coding for a young child is asking at exactly the right moment, and deserves a straight answer to three questions. What does the new curriculum ask of children, and how much time might their school give it this year? What can a small weekly class add beside a class of twenty-two? And what does good coding for a six or nine year old actually look like? This page answers all three from the Department's own documents, and finishes with a first data project any child can do: counting Irish baby names, which turns out to be harder than it looks.
 
-At a glance: For: Junior Infants to Sixth Class; Starts with: Blocks and Scratch; Moves to: Typed Python, first AI; Group: Five to ten children at one level; Or: One to one; Teacher: The same one each week; Hours: After school, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Junior Infants to Sixth Class; Starts with: Blocks and Scratch; Moves to: Typed Python, first AI; Group: Fifteen to twenty children at one level; Or: One to one; Teacher: The same one each week; Hours: After school, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three first courses for primary-school children
 
@@ -48,7 +48,7 @@ So two children in the same year, in different schools, can meet very different 
 
 Sources, read 16 September 2026: [Department of Education, the new primary curriculum](https://www.gov.ie/en/department-of-education/policy-information/new-primary-curriculum/); [Primary Curriculum Framework (2023)](https://www.curriculumonline.ie/getmedia/84747851-0581-431b-b4d7-dc6ee850883e/2023-Primary-Framework-ENG-screen.pdf); [Circular 0067/2025](https://assets.gov.ie/static/documents/16f30644/Circular_Primary_Curriculum_Specifications_EN.pdf); [Circular 0052/2026](https://assets.gov.ie/static/documents/5ee2d114/EN_4th_Communication_re_Primary_Curriculum_May_2026..pdf); [Oide Technology in Education, coding for teachers](https://www.oidetechnologyineducation.ie/courses-practice/coding-for-teachers/).
 
-## A class of twenty-two, and a group of five to ten
+## A class of twenty-two, and a group of fifteen to twenty
 
 Irish primary classes have been getting smaller, and teachers do remarkable work in them. A coding class simply offers a different ratio for one kind of learning.
 
@@ -66,7 +66,7 @@ In the senior classes, where children are often ready to move from blocks to typ
 
 The pupil:teacher ratio is lower, 12.6, but the bulletin calculates it by dividing all pupils by all full-time-equivalent teachers, so it describes staffing, not the number of children in a room.
 
-A coding group of five to ten children at the same level lets a teacher see each child's screen, catch each misunderstanding and set the next small challenge. One-to-one lessons go further still, for a child who is shy, far ahead or needs a slower pace.
+A coding group of fifteen to twenty children at the same level lets a teacher see each child's screen, catch each misunderstanding and set the next small challenge. One-to-one lessons go further still, for a child who is shy, far ahead or needs a slower pace.
 
 Neither replaces school. They add practice at the one thing a large class finds hardest to give: individual attention while a child is stuck.
 
@@ -179,7 +179,7 @@ Every lesson is live, with a teacher working from India at a fixed hour set in I
 - **Mid-term breaks** Families choose whether to pause or keep going.
 
 - **The first class is free** The child makes something small with the teacher, who then suggests the right group or course.
-- **Groups of five to ten** Children at the same stage, so no one is left behind and no one waits.
+- **Groups of fifteen to twenty** Children at the same stage, so no one is left behind and no one waits.
 - **One to one** For a shy child, a very quick one, or one who needs a gentler pace.
 - **Parents in the loop** After each block of lessons, parents hear what their child has made and what comes next.
 - **Screens used well** Lessons are about making and explaining, never passive watching.
@@ -190,7 +190,7 @@ Every lesson is live, with a teacher working from India at a fixed hour set in I
 A monthly fee in US dollars, identical for families in every country except India, whatever the child's age. There is no registration charge and no need to commit for the school year.
 
 - Free first class: USD 0. A first class where the child makes something. A suggested group or course. No card asked for.
-- Group batch: USD 100 a month. Five to ten children at one stage. The same teacher every week. Projects looked at weekly. A certificate when a course ends.
+- Group batch: USD 100 a month. Fifteen to twenty children at one stage. The same teacher every week. Projects looked at weekly. A certificate when a course ends.
 - One to one: USD 150 a month. A teacher for one child. The pace set by the child. Good for shy or very quick children.
 
 ## What Irish parents ask about coding for primary-school children
@@ -205,7 +205,7 @@ The Primary Curriculum Framework makes being a digital learner a key competency 
 
 ### How big are Irish primary classes?
 
-The Department reports an average mainstream class of 21.9 in 2025/26, from 19.7 in junior infants to 23.5 in fourth to sixth classes. Our coding groups are five to ten.
+The Department reports an average mainstream class of 21.9 in 2025/26, from 19.7 in junior infants to 23.5 in fourth to sixth classes. Our coding groups are fifteen to twenty.
 
 ### Is Scratch enough, or should my child learn Python?
 

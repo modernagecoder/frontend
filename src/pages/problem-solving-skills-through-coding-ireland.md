@@ -4,7 +4,7 @@ description: "Build problem-solving skills through coding in Ireland: what PISA 
 canonical: https://learn.modernagecoders.com/problem-solving-skills-through-coding-ireland
 source: src/pages/problem-solving-skills-through-coding-ireland.html
 ---
-> Problem solving is taught as a method: read the problem properly, break it into parts, solve a smaller version, generalise, then judge the result. Irish curriculum documents ask for exactly this, from the Junior Cycle outcome about decomposing a problem into manageable parts to the Leaving Certificate definition of a task whose solution is not immediately obvious. Coding is unusually good practice for it, because every attempt is tested immediately. Modern Age Coders teaches it live online, for ages 6 to 67, in groups of five to ten placed by level or one to one. The first class is free; continuing costs USD 100 a month in a group or USD 150 a month with a teacher to yourself. We make no promises about exam results.
+> Problem solving is taught as a method: read the problem properly, break it into parts, solve a smaller version, generalise, then judge the result. Irish curriculum documents ask for exactly this, from the Junior Cycle outcome about decomposing a problem into manageable parts to the Leaving Certificate definition of a task whose solution is not immediately obvious. Coding is unusually good practice for it, because every attempt is tested immediately. Modern Age Coders teaches it live online, for ages 6 to 67, in groups of fifteen to twenty placed by level or one to one. The first class is free; continuing costs USD 100 a month in a group or USD 150 a month with a teacher to yourself. We make no promises about exam results.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / Problem solving, Ireland
 
@@ -176,7 +176,7 @@ Every class is live, because the teaching happens in the pause after a question.
 - **Weekend** Longer problem sessions and project work.
 
 - **A free first class** A real problem, worked through with a teacher, ending with an honest view of the right level.
-- **Five to ten per group** Learners at one level, comparing approaches to the same problem each week.
+- **Fifteen to twenty per group** Learners at one level, comparing approaches to the same problem each week.
 - **One to one** For learners who want a faster pace or prefer to think without an audience.
 - **Teachers who wait** Hints before answers, and the smallest hint that will do.
 - **Problems, not only exercises** Tasks where the route is not given, because routine exercises build different skills.
@@ -187,7 +187,7 @@ Every class is live, because the teaching happens in the pause after a question.
 A single monthly price in US dollars, the same in every country outside India and the same at every age. Nothing to pay to enrol, and no term or year to sign up for.
 
 - Free first class: USD 0. A genuine problem worked through. A clear view of the starting rung. No card taken.
-- Group batch: USD 100 a month. Five to ten learners at one level. One teacher, week after week. Approaches compared, not just answers marked. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. One teacher, week after week. Approaches compared, not just answers marked. A certificate at the end.
 - One to one: USD 150 a month. A teacher for a single learner. Problems chosen for that learner. Good for fast movers and quiet thinkers.
 
 ## What families in Ireland ask about problem solving

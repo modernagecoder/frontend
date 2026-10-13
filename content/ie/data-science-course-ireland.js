@@ -66,7 +66,7 @@ module.exports = {
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
-  capsule: 'A data science course should spend its time where the work is: finding data, checking whether you may use it, understanding what each column means, cleaning it, and only then analysing. We teach that on Ireland\'s open data portal, which lists over twenty-two thousand datasets, most of them under a Creative Commons Attribution licence. Students learn Python and pandas, SQL, charts that do not mislead, and the statistics needed to say how sure they are. Classes are live, in groups of five to ten at one level or one to one. The first class is free, then USD 100 a month in a group or USD 150 a month with a teacher to yourself.',
+  capsule: 'A data science course should spend its time where the work is: finding data, checking whether you may use it, understanding what each column means, cleaning it, and only then analysing. We teach that on Ireland\'s open data portal, which lists over twenty-two thousand datasets, most of them under a Creative Commons Attribution licence. Students learn Python and pandas, SQL, charts that do not mislead, and the statistics needed to say how sure they are. Classes are live, in groups of fifteen to twenty at one level or one to one. The first class is free, then USD 100 a month in a group or USD 150 a month with a teacher to yourself.',
 
   picks: {
     eyebrow: 'Start here',
@@ -210,7 +210,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'You open a genuine dataset with a teacher and see what the first ten minutes of real work look like.' },
-      { h3: 'Five to ten per group', p: 'Learners at one level, comparing how each of them cleaned the same file.' },
+      { h3: 'Fifteen to twenty per group', p: 'Learners at one level, comparing how each of them cleaned the same file.' },
       { h3: 'One to one', p: 'For work projects, theses, or data you cannot share with a group.' },
       { h3: 'Public data throughout', p: 'Everything is done on datasets anyone can download, so every result can be checked.' },
       { h3: 'Licences taken seriously', p: 'Students learn to record source, licence and download date as a matter of habit.' },
@@ -226,7 +226,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'One price a month in US dollars, the same in every country outside India, covering any course on this page. No enrolment charge, and no commitment past the month you are in.',
     free: ['A real dataset opened with a teacher', 'An honest view of where to start', 'No card required'],
-    group: ['Five to ten learners at one level', 'The same teacher throughout', 'Work reviewed each week', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher throughout', 'Work reviewed each week', 'A certificate at the end'],
     one: ['A teacher to yourself', 'Your own data and questions', 'Right for work projects']
   },
 

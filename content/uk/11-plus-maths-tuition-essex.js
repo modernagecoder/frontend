@@ -189,7 +189,7 @@ module.exports = {
             'For coding in the county towns, see our pages for <a class="ag-inline-link" href="/best-coding-class-in-colchester">Colchester</a> and <a class="ag-inline-link" href="/best-coding-class-in-chelmsford">Chelmsford</a>.'
           ],
           right: [
-            'Lessons are live on video, in groups of five to ten matched by level, so a child in Witham, Braintree or Maldon is taught exactly as a child in Colchester or Chelmsford.',
+            'Lessons are live on video, in groups of fifteen to twenty matched by level, so a child in Witham, Braintree or Maldon is taught exactly as a child in Colchester or Chelmsford.',
             'We have no connection with the CSSE, FSCE, Essex County Council or any of these schools.'
           ] }
       ]
@@ -256,7 +256,7 @@ module.exports = {
     cells: [
       { h3: 'One teacher all year', p: 'Who knows your child\'s habits by the second week.' },
       { h3: 'Honest reporting', p: 'A few frank lines after lessons.' },
-      { h3: 'Five to ten children', p: 'Grouped by level.' },
+      { h3: 'Fifteen to twenty children', p: 'Grouped by level.' },
       { h3: 'Original material', p: 'No CSSE or FSCE content copied.' },
       { h3: 'Private lessons', p: 'When one child needs focused help.' },
       { h3: 'Maths only', p: 'No English or creativity coaching; no admissions advice.' }
@@ -271,7 +271,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'One US dollar rate per month for every family outside India. Nothing to join, cancel whenever you like.',
     free: ['A taught lesson', 'An honest verdict', 'No card needed'],
-    group: ['Five to ten children at one level', 'A regular teacher', 'Work reviewed with the child', 'A certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'A regular teacher', 'Work reviewed with the child', 'A certificate at the end'],
     one: ['A teacher for one child', 'Aimed at weak spots', 'Flexible timing']
   },
 

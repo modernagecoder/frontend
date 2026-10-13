@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Carmarthenshir
 canonical: https://learn.modernagecoders.com/coding-classes-in-carmarthenshire
 source: src/pages/coding-classes-in-carmarthenshire.html
 ---
-> Carmarthenshire had 187,897 usual residents at the 2021 census. More than a fifth of that count lives in the Llanelli built-up area alone, going by ONS figures; Carmarthen and Ammanford come next, then Cross Hands and Pen-y-groes, Burry Port, Llangennech and Glanaman, along with market towns such as Llandovery and Llandeilo. Every class happens live, with our India-based teachers on video, and an opening lesson at no cost settles where a Year 5 pupil, a sixth-former or an adult should begin. Anyone from 6 to 67 can learn coding, Python and maths, in a class of five to ten or on their own with a teacher. The Carmarthenshire project starts at a bridge over the Tywi. Staying on is USD 100 a month for a place in a class, or USD 150 a month with one teacher.
+> Carmarthenshire had 187,897 usual residents at the 2021 census. More than a fifth of that count lives in the Llanelli built-up area alone, going by ONS figures; Carmarthen and Ammanford come next, then Cross Hands and Pen-y-groes, Burry Port, Llangennech and Glanaman, along with market towns such as Llandovery and Llandeilo. Every class happens live, with our India-based teachers on video, and an opening lesson at no cost settles where a Year 5 pupil, a sixth-former or an adult should begin. Anyone from 6 to 67 can learn coding, Python and maths, in a class of fifteen to twenty or on their own with a teacher. The Carmarthenshire project starts at a bridge over the Tywi. Staying on is USD 100 a month for a place in a class, or USD 150 a month with one teacher.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Carmarthenshire
 
@@ -12,11 +12,11 @@ Carmarthenshire / Live online
 
 # Coding classes in Carmarthenshire
 
-**What are the best coding classes in Carmarthenshire?** Carmarthenshire had 187,897 usual residents at the 2021 census. More than a fifth of that count lives in the Llanelli built-up area alone, going by ONS figures; Carmarthen and Ammanford come next, then Cross Hands and Pen-y-groes, Burry Port, Llangennech and Glanaman, along with market towns such as Llandovery and Llandeilo. Every class happens live, with our India-based teachers on video, and an opening lesson at no cost settles where a Year 5 pupil, a sixth-former or an adult should begin. Anyone from 6 to 67 can learn coding, Python and maths, in a class of five to ten or on their own with a teacher. The Carmarthenshire project starts at a bridge over the Tywi. Staying on is USD 100 a month for a place in a class, or USD 150 a month with one teacher.
+**What are the best coding classes in Carmarthenshire?** Carmarthenshire had 187,897 usual residents at the 2021 census. More than a fifth of that count lives in the Llanelli built-up area alone, going by ONS figures; Carmarthen and Ammanford come next, then Cross Hands and Pen-y-groes, Burry Port, Llangennech and Glanaman, along with market towns such as Llandovery and Llandeilo. Every class happens live, with our India-based teachers on video, and an opening lesson at no cost settles where a Year 5 pupil, a sixth-former or an adult should begin. Anyone from 6 to 67 can learn coding, Python and maths, in a class of fifteen to twenty or on their own with a teacher. The Carmarthenshire project starts at a bridge over the Tywi. Staying on is USD 100 a month for a place in a class, or USD 150 a month with one teacher.
 
 Near Llandovery, Cadw lists Dolauhirion Bridge at Grade I: a single stone arch of some 25 metres across the Tywi, marked Thomas Edward 1773, though other writers date it to 1785 or credit his father. Its record praises the very broad elliptical arch rising to a thin crown, and the large circular holes through the stonework above it, a weight-saving idea the Edwards family pioneered. An elliptical arch hides a surprisingly hard question. For a circle, the curve's length is simple: pi times the diameter. For an ellipse there is no such tidy formula, and mathematicians spent centuries on it. How long is the arch ring, and how can a computer be sure? This page's project finds out in Python.
 
-Facts last verified 26 September 2026. Teaching is online; no Carmarthenshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Carmarthenshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Popular starting courses in Carmarthenshire
 
@@ -137,7 +137,7 @@ Towns and villages across the county all join the same way.
 - **Pupil at the keyboard** The learner types every line; the teacher watches on the shared screen and steps in when a bug appears.
 - **Welsh years, WJEC exams** A Year 6 in Burry Port or a Year 13 in Carmarthen is placed by school year and Curriculum for Wales stage, and exam study follows WJEC. Lessons are in English.
 - **First lesson, no charge** A complete lesson for free, followed by an honest view of what fits.
-- **Level-matched classes** Five to ten learners at one level in each class, from different places.
+- **Level-matched classes** Fifteen to twenty learners at one level in each class, from different places.
 - **Term-time rhythm** Two lessons weekly during term, none in the holidays.
 - **Spring and autumn clock changes** Twice a year the clocks move, but your class stays at its UK time; the teachers, working on India time, shift their day.
 
@@ -148,7 +148,7 @@ Towns and villages across the county all join the same way.
 A learner in Llandeilo pays exactly what one in Llanelli pays, and the same as learners in every country outside India.
 
 - First class: USD 0. A full lesson, free, then a recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month with a teacher of your own.
 
 We quote only US dollars, never sterling. An invoice follows only after the trial, when a course and weekly slot are settled, and our pricing page explains what happens over holidays, after absences and when changing format.

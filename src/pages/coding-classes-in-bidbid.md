@@ -179,7 +179,7 @@ Towers in different villages means learners in different villages. A lesson that
 
 It is a full lesson with a real task and it finishes with a named recommendation. Nobody is asked for payment details to book it and nobody signs up to anything before seeing a teacher work.
 
-### Groups of five to eight, sorted by level
+### Groups of fifteen to twenty, sorted by level
 
 Learners are put together on what they can do now and what they are heading for. Address is not an input, which is a promise geography by itself cannot keep.
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Bidbid learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Bidbid class times arranged?
 

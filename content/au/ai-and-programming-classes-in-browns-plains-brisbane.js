@@ -299,7 +299,7 @@ module.exports = {
       { h3: 'Code side by side', p: 'The learner runs the code; the teacher reads the output with them and questions it.' },
       { h3: 'Queensland calendar', p: 'Plans match state school terms, with holidays left free.' },
       { h3: 'Trial first', p: 'A full free lesson, finished with a frank recommendation.' },
-      { h3: 'Five to ten learners', p: 'Groups formed by level and pace, or private lessons instead.' },
+      { h3: 'Fifteen to twenty learners', p: 'Groups formed by level and pace, or private lessons instead.' },
       { h3: 'Two lessons each week', p: 'Fixed weekly times, around eight lessons a month.' },
       { h3: 'India time', p: 'With our teachers in India, a 6:30pm Browns Plains lesson starts at 2pm India time, all year.' }
     ],
@@ -312,7 +312,7 @@ module.exports = {
     h2: 'Browns Plains class fees',
     intro: 'A single list of three prices.',
     first: 'Lesson one is free, with a written next step at the end.',
-    group: 'Group lessons: about eight a month with five to ten learners of matching level.',
+    group: 'Group lessons: about eight a month with fifteen to twenty learners of matching level.',
     private: 'Private lessons: about eight a month with one teacher.',
     closer: 'Families in Browns Plains pay in US dollars after the trial, when a course and time have been agreed. The pricing page covers holidays, absences and format changes.'
   },
@@ -357,12 +357,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Browns Plains learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Do group classes cover Copilot Studio?', a: 'No. Copilot Studio is offered only in one-to-one lessons; group learners create agents in Python.' }

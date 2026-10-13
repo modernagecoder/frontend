@@ -60,7 +60,7 @@ module.exports = {
 
   h1: 'Coding classes in Mid Ulster',
   capsuleQ: 'What are the best coding classes in Mid Ulster?',
-  capsule: 'NISRA recorded 150,293 usual residents in Mid Ulster at the 2021 census. Dungannon, Cookstown and Magherafelt are its main towns, and Coalisland, Maghera, Castledawson, Moneymore, Moy and Draperstown are among the smaller ones. We teach every lesson live by video, with teachers based in India. From age 6 to 67, learners take coding, Python and maths in a private lesson or a same-level group of five to ten. Your first lesson is free and points to the right course. The district project is set in an eighteenth-century linen mill. After that, group lessons cost USD 100 a month and one-to-one lessons USD 150 a month.',
+  capsule: 'NISRA recorded 150,293 usual residents in Mid Ulster at the 2021 census. Dungannon, Cookstown and Magherafelt are its main towns, and Coalisland, Maghera, Castledawson, Moneymore, Moy and Draperstown are among the smaller ones. We teach every lesson live by video, with teachers based in India. From age 6 to 67, learners take coding, Python and maths in a private lesson or a same-level group of fifteen to twenty. Your first lesson is free and points to the right course. The district project is set in an eighteenth-century linen mill. After that, group lessons cost USD 100 a month and one-to-one lessons USD 150 a month.',
   lead: 'In 1764 a linen draper named Hugh Faulkner found a site near Cookstown with, in his family\'s words, a great command of water, and began a bleach works at Wellbrook. The Historic Environment Division\'s record quotes the Faulkners\' plan: a ten-acre green that would let them bleach seven to eight thousand pieces of linen a year, and a mill with two wash mills, four pairs of rubbing boards, two beetling engines, which pounded the cloth to give it a sheen, and a drying loft for five hundred pieces. Every piece had to pass through each stage in turn. So which stage set the pace, and was eight thousand a year realistic with that equipment? This page\'s project models the mill as a line of stages in Python and finds out.',
   wa: 'Hello Modern Age Coders, we are in Mid Ulster and would like to book a free lesson, please.',
 
@@ -164,7 +164,7 @@ module.exports = {
       { h3: 'Their own keyboard', p: 'Every line is typed by the learner; the teacher watches the shared screen and offers a hint only when it helps.' },
       { h3: 'Northern Ireland years', p: 'A Coalisland P4 or a Maghera Year 12 is matched by key stage and school year, and CCEA exam titles are used. Lessons are taught in English.' },
       { h3: 'Trial at no cost', p: 'A full lesson free of charge, followed by an honest recommendation.' },
-      { h3: 'Grouped by level', p: 'Classes of five to ten at one stage, from across the UK.' },
+      { h3: 'Grouped by level', p: 'Classes of fifteen to twenty at one stage, from across the UK.' },
       { h3: 'Term pattern', p: 'Two lessons weekly through term, with holidays free.' },
       { h3: 'Local time kept', p: 'Spring and autumn clock changes leave your slot where it was; our teachers adapt.' }
     ],

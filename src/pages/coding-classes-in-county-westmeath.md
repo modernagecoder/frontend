@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across County Westmeath,
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-westmeath
 source: src/pages/coding-classes-in-county-westmeath.html
 ---
-> Westmeath holds 96,221 people, up 8% since 2016, spread between two towns of almost identical size and a great deal of lake and farmland. Home working is low here at 26% against a national 32%, so most families need an evening class rather than an afternoon one, and few of them live near a centre that runs one. That is precisely the gap a live online class fills: the same teacher, the same hour every week, whether a learner is in Mullingar, Moate or out towards Lough Ree. We teach ages 6 to 67, in ability groups of five to ten or one to one. The first lesson costs nothing; then a group place is USD 100 a month and a private one USD 150.
+> Westmeath holds 96,221 people, up 8% since 2016, spread between two towns of almost identical size and a great deal of lake and farmland. Home working is low here at 26% against a national 32%, so most families need an evening class rather than an afternoon one, and few of them live near a centre that runs one. That is precisely the gap a live online class fills: the same teacher, the same hour every week, whether a learner is in Mullingar, Moate or out towards Lough Ree. We teach ages 6 to 67, in ability groups of fifteen to twenty or one to one. The first lesson costs nothing; then a group place is USD 100 a month and a private one USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / County Westmeath
 
@@ -12,11 +12,11 @@ County Westmeath, Leinster / Live online
 
 # Coding classes in County Westmeath
 
-**What are the best coding classes in County Westmeath?** Westmeath holds 96,221 people, up 8% since 2016, spread between two towns of almost identical size and a great deal of lake and farmland. Home working is low here at 26% against a national 32%, so most families need an evening class rather than an afternoon one, and few of them live near a centre that runs one. That is precisely the gap a live online class fills: the same teacher, the same hour every week, whether a learner is in Mullingar, Moate or out towards Lough Ree. We teach ages 6 to 67, in ability groups of five to ten or one to one. The first lesson costs nothing; then a group place is USD 100 a month and a private one USD 150.
+**What are the best coding classes in County Westmeath?** Westmeath holds 96,221 people, up 8% since 2016, spread between two towns of almost identical size and a great deal of lake and farmland. Home working is low here at 26% against a national 32%, so most families need an evening class rather than an afternoon one, and few of them live near a centre that runs one. That is precisely the gap a live online class fills: the same teacher, the same hour every week, whether a learner is in Mullingar, Moate or out towards Lough Ree. We teach ages 6 to 67, in ability groups of fifteen to twenty or one to one. The first lesson costs nothing; then a group place is USD 100 a month and a private one USD 150.
 
 Westmeath County Council publishes a list of its 49 recycling bring banks, and it is a tidy file: no duplicate rows, sensible coordinates, a column for each material. Four of the five material columns say YES on every single site. The fifth, for textiles, is more interesting. Forty-two sites say YES. Six say NO, meaning the council has confirmed that site does not take textiles. And one site, at Horseleap, says nothing at all: the cell is empty. Those last two are not the same thing, and no ordinary piece of code will tell them apart unless somebody thought about it first. Ask for the sites that take textiles and you get 42. Ask for the sites that do not and you get six, or seven, depending entirely on how your code treats an empty cell. One bring bank in the county falls into the gap between confirmed absent and never recorded, and finding it is the best half hour a young data learner here can spend.
 
-Facts last verified 16 September 2026. Teaching is online; no County Westmeath branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no County Westmeath branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the midlands
 
@@ -189,7 +189,7 @@ This is a wide county with two centres at opposite ends, which makes any class h
 - **Both ends at once** A learner in Athlone and one in Kinnegad sit in the same group, which no room in either town could manage on a weekday evening.
 - **Irish school stages** Junior Cycle, Transition Year, fifth and sixth year, named the way the family and the school name them.
 - **A free lesson that counts** Real teaching on a real task, closing with a level, a course and an hour, and no request for card details.
-- **Sorted by ability** Five to ten learners at one level, drawn from Westmeath and several other countries so each level meets at a workable hour.
+- **Sorted by ability** Fifteen to twenty learners at one level, drawn from Westmeath and several other countries so each level meets at a workable hour.
 - **Weekly and fixed** Two lessons in most weeks, around eight a month, at the same hour, with pauses for mid-terms and exams agreed in advance.
 - **The clocks** India holds one time all year while Ireland changes twice, so our teachers are four and a half hours ahead in summer and five and a half in winter.
 
@@ -200,7 +200,7 @@ This is a wide county with two centres at opposite ends, which makes any class h
 Three figures, and that is the whole of it.
 
 - First class: USD 0. One full lesson free, ending with a level named and a course recommended.
-- Group tuition: USD 100 a month. A month of classes, normally eight, with five to ten learners of similar ability.
+- Group tuition: USD 100 a month. A month of classes, normally eight, with fifteen to twenty learners of similar ability.
 - Private tuition: USD 150 a month. The same month of classes, with the teacher working with a single learner.
 
 Billing is monthly in US dollars at the one rate charged outside India, so Moate pays what Mullingar pays and there is no euro list. Nothing is charged until the free lesson has settled a course and a weekly hour, and the pricing page covers pauses, missed lessons and changing format.
@@ -241,7 +241,7 @@ No, and we never suggest one. Teaching is live over video only, with no premises
 
 ### What do County Westmeath coding classes cost?
 
-The first lesson is free. Continuing costs USD 100 a month for a shared place, which brings two live lessons a week and about eight a month with five to ten learners, or USD 150 a month one to one on the same schedule. Everything is agreed before payment.
+The first lesson is free. Continuing costs USD 100 a month for a shared place, which brings two live lessons a week and about eight a month with fifteen to twenty learners, or USD 150 a month one to one on the same schedule. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

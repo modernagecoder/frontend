@@ -4,7 +4,7 @@ description: "Online maths tutor for Glen Waverley, Foundation to Year 12 and ad
 canonical: https://learn.modernagecoders.com/maths-tutor-glen-waverley
 source: src/pages/maths-tutor-glen-waverley.html
 ---
-> Modern Age Coders is an online maths tutor for Glen Waverley learners aged 6 to 67: Victorian Curriculum maths from Foundation to Year 10, the VCE studies Foundation Mathematics, General Mathematics, Mathematical Methods and Specialist Mathematics, and adult maths. Lessons run on live video in Melbourne time, privately or in level-matched classes of five to ten. Our local example solves a pair of simultaneous equations whose answers are Glen Waverley's Census counts of primary and secondary students. The first lesson is free.
+> Modern Age Coders is an online maths tutor for Glen Waverley learners aged 6 to 67: Victorian Curriculum maths from Foundation to Year 10, the VCE studies Foundation Mathematics, General Mathematics, Mathematical Methods and Specialist Mathematics, and adult maths. Lessons run on live video in Melbourne time, privately or in level-matched classes of fifteen to twenty. Our local example solves a pair of simultaneous equations whose answers are Glen Waverley's Census counts of primary and secondary students. The first lesson is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Maths tutor in Glen Waverley
 
@@ -161,7 +161,7 @@ Holiday revision runs by arrangement.
 
 ### Private or in a class
 
-A private lesson targets one gap or deadline. A class of five to ten keeps steady pace with classmates at the same level.
+A private lesson targets one gap or deadline. A class of fifteen to twenty keeps steady pace with classmates at the same level.
 
 Every lesson uses a shared board so the teacher sees each step.
 
@@ -256,7 +256,7 @@ Fixed weekly times on the Melbourne clock, with the teacher's side adjusted at e
 Families outside India pay a single monthly fee in US dollars. No sign-up charge and no fixed term.
 
 - Free first class: USD 0. A full lesson at the learner's level. Honest advice afterwards. No card details.
-- Group batch: USD 100 a month. A class of five to ten at one level. The same teacher all term. Practice marked. Stop after any month.
+- Group batch: USD 100 a month. A class of fifteen to twenty at one level. The same teacher all term. Practice marked. Stop after any month.
 - One to one: USD 150 a month. Private teaching. Shaped around one aim. Useful before VCE exams.
 
 ## Questions about a maths tutor in Glen Waverley

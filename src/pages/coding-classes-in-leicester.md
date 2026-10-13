@@ -217,7 +217,7 @@ Every lesson is taught as it happens, with questions answered and code reviewed 
 
 One task pitched at the learner, then a specific recommendation. No fee and no card.
 
-### Five to eight per group
+### Fifteen to twenty per group
 
 Grouped by present ability from a large intake, so a learner is not placed with whoever else enrolled locally.
 
@@ -339,7 +339,7 @@ If you have a choice, Year 3 to Year 7, which is Key Stage 2 and the first year 
 
 ### How much do coding classes in Leicester cost?
 
-The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of five to eight compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
+The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of fifteen to twenty compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
 
 ### Do you have somewhere in Leicester we can visit?
 

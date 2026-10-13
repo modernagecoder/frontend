@@ -212,7 +212,7 @@ Our teachers are in India, and India time is behind every Australian state, so w
 - **One to one** For a shy child or a family with an unusual timetable.
 
 - **A free first class** The teacher checks whether your six year old is ready, and tells you honestly if waiting would be better.
-- **Small groups** Five to ten children of a similar age and level, with plenty of turns.
+- **Small groups** Fifteen to twenty children of a similar age and level, with plenty of turns.
 - **One to one** Every minute is your child's, at exactly their pace.
 - **Their own clicks** The child moves every block. The teacher guides with questions and demonstrations.
 - **Parents in the room** For this age we encourage it, and you will see exactly what your child learns.

@@ -4,7 +4,7 @@ description: "Online maths tutor in Luton for ages 6 to 67: KS2 and SATs, KS3, G
 canonical: https://learn.modernagecoders.com/maths-tuition-in-luton
 source: src/pages/maths-tuition-in-luton.html
 ---
-> We teach maths to Luton learners aged 6 to 67, live online. Primary pupils build number sense and tables on the way to the Year 6 SATs. In secondary school the work moves through KS3 to GCSE (Foundation or Higher, for AQA, Edexcel or OCR) or IGCSE. Sixth formers study A level, with Further Maths topics if they want them, and adults come to resit GCSE, to cover Functional Skills content or simply to feel at ease with numbers. A learner can study privately or in a class of five to ten at one level. Our Luton project explains the runway numbers: the UK aeronautical publication gives a true bearing of 074.38 degrees and a magnetic variation of 1.23 degrees east, so the magnetic direction is 073.15 degrees, which rounds to Runway 07. The opening lesson is free of charge. Continuing means USD 100 monthly for a shared class or USD 150 monthly for a teacher of your own.
+> We teach maths to Luton learners aged 6 to 67, live online. Primary pupils build number sense and tables on the way to the Year 6 SATs. In secondary school the work moves through KS3 to GCSE (Foundation or Higher, for AQA, Edexcel or OCR) or IGCSE. Sixth formers study A level, with Further Maths topics if they want them, and adults come to resit GCSE, to cover Functional Skills content or simply to feel at ease with numbers. A learner can study privately or in a class of fifteen to twenty at one level. Our Luton project explains the runway numbers: the UK aeronautical publication gives a true bearing of 074.38 degrees and a magnetic variation of 1.23 degrees east, so the magnetic direction is 073.15 degrees, which rounds to Runway 07. The opening lesson is free of charge. Continuing means USD 100 monthly for a shared class or USD 150 monthly for a teacher of your own.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Luton
 
@@ -14,7 +14,7 @@ Luton · Maths for ages 6 to 67 · Live online, groups or one to one
 
 Anyone who has flown from Luton has seen the big white numbers painted at each end of the runway: 07 at one end, 25 at the other. Where do they come from? The official UK aeronautical publication gives the runway a true bearing of 074.38 degrees. That does not round to 07. It rounds to 07 only after you allow for the difference between true north and magnetic north, which the same publication puts at 1.23 degrees east. One painted number, and inside it sit bearings, rounding, decimals and a correction that most adults have never heard of. This page shows how we teach maths to Luton learners, from Key Stage 2 to A level and adult study, using that runway as our example.
 
-At a glance: Who: Learners aged 6 to 67 in Luton; Primary: KS2 maths, tables, SATs; KS3: Years 7 to 9, angles and algebra; GCSE: AQA, Edexcel, OCR, both tiers; A level: Maths plus Further Maths topics; Adults: GCSE resits and Functional Skills topics; Delivery: Live online, 1 to 1 or classes of 5 to 10; Project: Runway numbers and trigonometry. Rated 4.9 across 547 Google reviews.
+At a glance: Who: Learners aged 6 to 67 in Luton; Primary: KS2 maths, tables, SATs; KS3: Years 7 to 9, angles and algebra; GCSE: AQA, Edexcel, OCR, both tiers; A level: Maths plus Further Maths topics; Adults: GCSE resits and Functional Skills topics; Delivery: Live online, 1 to 1 or classes of 15 to 20; Project: Runway numbers and trigonometry. Rated 4.9 across 547 Google reviews.
 
 ## Where most Luton learners start
 
@@ -241,7 +241,7 @@ Teaching is done from India. In winter India runs 5 hours 30 minutes ahead of Lu
 
 - **The same teacher** One teacher follows the learner, week after week.
 - **Updates for families** A short note after lessons: what clicked, what to revisit.
-- **Classes of five to ten** Grouped by level so nobody is lost or bored.
+- **Classes of fifteen to twenty** Grouped by level so nobody is lost or bored.
 - **Real-world numbers** Runway data, timetables and census figures as well as past papers.
 - **Private when needed** One to one before an exam or for a particular gap.
 - **Estimate first** We train learners to predict an answer before calculating it.
@@ -251,7 +251,7 @@ Teaching is done from India. In winter India runs 5 hours 30 minutes ahead of Lu
 A single monthly price in US dollars for everyone outside India, with no registration fee and no lock-in.
 
 - Free first class: USD 0. A genuine lesson at the right level. Our honest assessment afterwards. No payment details needed.
-- Group batch: USD 100 a month. Five to ten learners at one level. A dedicated teacher. Homework reviewed together. Certificate when you finish.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. A dedicated teacher. Homework reviewed together. Certificate when you finish.
 - One to one: USD 150 a month. Individual lessons. Built around one learner. Ideal before exams.
 
 ## Maths tuition in Luton: common questions

@@ -4,7 +4,7 @@ description: "Build real AI projects in Ireland on open Irish data: train a mode
 canonical: https://learn.modernagecoders.com/build-real-ai-projects-ireland
 source: src/pages/build-real-ai-projects-ireland.html
 ---
-> A real AI project starts with a question and a baseline, not a model. Our project classes use open Irish data, teach cleaning and labelling first, and treat evaluation as the main event: what does the model beat, by how much, and could the result be an accident? Learners see a measured example of data leakage, where an innocent-looking feature lifts accuracy from 0.667 to 0.923 because it could only be known after the event. Classes are live, in groups of five to ten or one to one, for teenagers, students and adults. The first is free; then it is USD 100 a month in a group or USD 150 a month one to one.
+> A real AI project starts with a question and a baseline, not a model. Our project classes use open Irish data, teach cleaning and labelling first, and treat evaluation as the main event: what does the model beat, by how much, and could the result be an accident? Learners see a measured example of data leakage, where an innocent-looking feature lifts accuracy from 0.667 to 0.923 because it could only be known after the event. Classes are live, in groups of fifteen to twenty or one to one, for teenagers, students and adults. The first is free; then it is USD 100 a month in a group or USD 150 a month one to one.
 
 [Home](/) / [Courses](/courses) / [AI and machine learning classes in Ireland](/ai-and-machine-learning-classes-in-ireland) / Build real AI projects, Ireland
 
@@ -170,7 +170,7 @@ Classes are live with teachers in India, at a fixed weekly hour in Irish time. T
 - **Intensive weeks** School holidays and quiet work periods.
 
 - **A free first class** You look at a real dataset with a teacher and see how the first decisions are made.
-- **Five to ten per group** Learners at one level, reviewing each other's evaluation as much as their code.
+- **Fifteen to twenty per group** Learners at one level, reviewing each other's evaluation as much as their code.
 - **One to one** For a specific project, a thesis or a portfolio deadline.
 - **Baselines every time** No model is accepted in class without the baseline it has to beat.
 - **Leak hunting** Every feature is questioned before training: would you really know this in advance?
@@ -181,7 +181,7 @@ Classes are live with teachers in India, at a fixed weekly hour in Irish time. T
 The same monthly price in US dollars we charge everywhere outside India, whichever course you take. Nothing to pay in advance for a term, and you can stop once a project is finished.
 
 - Free first class: USD 0. A real dataset opened with a teacher. An honest view of your starting point. No card taken.
-- Group batch: USD 100 a month. Five to ten learners at one level. One teacher across the project. Evaluation reviewed weekly. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. One teacher across the project. Evaluation reviewed weekly. A certificate at the end.
 - One to one: USD 150 a month. A teacher to yourself. Your own dataset and question. Suited to theses and deadlines.
 
 ## What learners in Ireland ask about AI projects

@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Welwyn Garden City',
   capsuleQ: 'Which coding and AI classes are best in Welwyn Garden City?',
-  capsule: 'Welwyn Garden City had 51,505 usual residents as an ONS built-up area in 2021, and the borough of Welwyn Hatfield had 119,836. Its gazetteer suburbs include Panshanger, Haldens, Peartree, Hatfield Hyde, Woodhall, Handside and Sherrardspark. Modern Age Coders teaches coding, AI, Python, vibe coding and maths to people there between six and 67 years old. A tutor in India leads every lesson by live video, for a single learner or for five to ten learners of matching level. We spend time on definitions, because a program can only do what has been defined. In the Welwyn Garden City project, learners decide what "neighbouring" means for 170 census area centres and compare two rules from geometry with the usual shortcuts. You can try a lesson free, then join a group for USD 100 a month or learn one-to-one for USD 150 a month.',
+  capsule: 'Welwyn Garden City had 51,505 usual residents as an ONS built-up area in 2021, and the borough of Welwyn Hatfield had 119,836. Its gazetteer suburbs include Panshanger, Haldens, Peartree, Hatfield Hyde, Woodhall, Handside and Sherrardspark. Modern Age Coders teaches coding, AI, Python, vibe coding and maths to people there between six and 67 years old. A tutor in India leads every lesson by live video, for a single learner or for fifteen to twenty learners of matching level. We spend time on definitions, because a program can only do what has been defined. In the Welwyn Garden City project, learners decide what "neighbouring" means for 170 census area centres and compare two rules from geometry with the usual shortcuts. You can try a lesson free, then join a group for USD 100 a month or learn one-to-one for USD 150 a month.',
   lead: 'Ask which places are neighbours and most people reach for a number: the three closest, or everything within 500 metres. Both answers need someone to choose the number, and the choice is arbitrary. In 1969 Ruben Gabriel and Robert Sokal, who were studying how animal populations vary from place to place, proposed a rule with no number in it at all. Two places are neighbours if the circle drawn with them at opposite ends of a diameter has nobody else inside. Eleven years later Godfried Toussaint proposed a stricter cousin. Learners code both and see what each one decides about a real town.',
   wa: 'Hello Modern Age Coders, we are in Welwyn Garden City and would like to try a free coding or AI lesson.',
 
@@ -158,7 +158,7 @@ module.exports = {
       { h3: 'Code written by the learner', p: 'Tutors prompt and question. The typing, running and fixing is done by the person learning.' },
       { h3: 'A recommendation after we have met', p: 'The free session is where we find the right level and then name a course.' },
       { h3: 'First lesson on us', p: 'It is a full lesson, it is free, and we take no card details for it.' },
-      { h3: 'Groups of five to ten', p: 'Everyone in a group is at the same point; members come from around the UK.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Everyone in a group is at the same point; members come from around the UK.' },
       { h3: 'Twice weekly in term', p: 'Send the Hertfordshire term dates you follow and holiday weeks are skipped.' },
       { h3: 'A fixed UK time', p: 'When the clocks change in March and October the tutor moves, the lesson does not.' }
     ],

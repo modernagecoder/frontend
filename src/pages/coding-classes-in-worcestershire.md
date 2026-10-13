@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Worcestershire
 canonical: https://learn.modernagecoders.com/coding-classes-in-worcestershire
 source: src/pages/coding-classes-in-worcestershire.html
 ---
-> Worcestershire is governed by a county council over six district councils, and our total of their six 2021 Census counts is 603,676 people. Worcester is the largest town, then Redditch, Kidderminster, Bromsgrove and Great Malvern. We teach every class live over video from India, and each learner joins the group that fits their level rather than their age. Coding, Python, computer science and maths are open to learners from 6 to 67, taught privately or in groups of five to ten. The Worcestershire project comes from the Museum of Royal Worcester and the marks on the bottom of its porcelain. Lesson one is free; from lesson two it is USD 100 monthly for a group or USD 150 monthly for one-to-one.
+> Worcestershire is governed by a county council over six district councils, and our total of their six 2021 Census counts is 603,676 people. Worcester is the largest town, then Redditch, Kidderminster, Bromsgrove and Great Malvern. We teach every class live over video from India, and each learner joins the group that fits their level rather than their age. Coding, Python, computer science and maths are open to learners from 6 to 67, taught privately or in groups of fifteen to twenty. The Worcestershire project comes from the Museum of Royal Worcester and the marks on the bottom of its porcelain. Lesson one is free; from lesson two it is USD 100 monthly for a group or USD 150 monthly for one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Worcestershire
 
@@ -12,11 +12,11 @@ Worcestershire / Live online
 
 # Coding classes in Worcestershire
 
-**What are the best coding classes in Worcestershire?** Worcestershire is governed by a county council over six district councils, and our total of their six 2021 Census counts is 603,676 people. Worcester is the largest town, then Redditch, Kidderminster, Bromsgrove and Great Malvern. We teach every class live over video from India, and each learner joins the group that fits their level rather than their age. Coding, Python, computer science and maths are open to learners from 6 to 67, taught privately or in groups of five to ten. The Worcestershire project comes from the Museum of Royal Worcester and the marks on the bottom of its porcelain. Lesson one is free; from lesson two it is USD 100 monthly for a group or USD 150 monthly for one-to-one.
+**What are the best coding classes in Worcestershire?** Worcestershire is governed by a county council over six district councils, and our total of their six 2021 Census counts is 603,676 people. Worcester is the largest town, then Redditch, Kidderminster, Bromsgrove and Great Malvern. We teach every class live over video from India, and each learner joins the group that fits their level rather than their age. Coding, Python, computer science and maths are open to learners from 6 to 67, taught privately or in groups of fifteen to twenty. The Worcestershire project comes from the Museum of Royal Worcester and the marks on the bottom of its porcelain. Lesson one is free; from lesson two it is USD 100 monthly for a group or USD 150 monthly for one-to-one.
 
 Turn over a piece of Royal Worcester porcelain and the factory mark often tells you when it was made, in a code that changed many times. The Museum of Royal Worcester explains it: letters for the years from 1867, then one dot for 1892, two for 1893, and so on until 24 dots crowd round the mark in 1915, then a star, new shapes, more dots, letters again, and finally short numbers. It is a real, working system for writing numbers, invented piece by piece by people solving a practical problem. This page's project turns it into a Python decoder and uses it to explore the ideas every programmer meets when choosing how to represent information.
 
-Facts last verified 26 September 2026. Teaching is online; no Worcestershire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Worcestershire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Worcestershire learners begin
 
@@ -145,7 +145,7 @@ Worcestershire mixes towns and wide farmland, and a weekly class in the right pl
 - **At home, anywhere** A house in Droitwich, a flat in Redditch, a farmhouse near Pershore. The learner codes while the teacher follows the shared screen.
 - **The school words** Whether it is a Key Stage 3 project or a GCSE practice paper, teachers use the terms Worcestershire pupils hear at school, in English.
 - **Start free** The first lesson is real teaching, not a sales call, and ends with a plain suggestion of level and course. You give no card details.
-- **A group at your level** Five to ten learners at the same stage, wherever in the world they join from.
+- **A group at your level** Fifteen to twenty learners at the same stage, wherever in the world they join from.
 - **Breaks for holidays** Two lessons a week is usual, with pauses for your school's own holidays.
 - **UK time, fixed** We give your slot in UK time and keep it steady through the clock changes; the teacher, several hours ahead on India time, adapts.
 
@@ -156,7 +156,7 @@ Worcestershire mixes towns and wide farmland, and a weekly class in the right pl
 Stourport or Malvern, the fee is identical, and it is the fee in every country we teach except India.
 
 - First class: USD 0. A complete lesson with real work, then a suggested level and course.
-- Group tuition: USD 100 a month. Around eight lessons a month with five to ten learners at one level.
+- Group tuition: USD 100 a month. Around eight lessons a month with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Around eight lessons a month, one-to-one.
 
 All fees are in US dollars, with no pound prices. There is no charge until the free lesson has agreed a course and a weekly time; the pricing page explains pauses, missed lessons and changing between group and private.

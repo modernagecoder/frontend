@@ -211,7 +211,7 @@ module.exports = {
     cells: [
       { h3: 'Short tasks', p: 'Young children work in bursts with plenty of variety.' },
       { h3: 'Lists on paper', p: 'Children learn to write possibilities down in order.' },
-      { h3: 'Five to ten per group', p: 'Small groups where every child is heard.' },
+      { h3: 'Fifteen to twenty per group', p: 'Small groups where every child is heard.' },
       { h3: 'One-to-one lessons', p: 'For a child who prefers quiet, individual time.' },
       { h3: 'Not OC coaching', p: 'We teach maths, in line with the department\'s advice.' },
       { h3: 'No placement claims', p: 'Placement is the department\'s decision alone.' }
@@ -226,7 +226,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'NSW families pay monthly in US dollars, our rate for everywhere except India. Nothing is paid in advance and you can stop whenever a month ends.',
     free: ['A gentle trial lesson', 'Honest advice, including when classes are not needed', 'No card required'],
-    group: ['Five to ten children at one level', 'The same friendly teacher', 'Short tasks with feedback', 'A certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'The same friendly teacher', 'Short tasks with feedback', 'A certificate at the end'],
     one: ['One teacher for one child', 'Calm, focused practice', 'Times that suit young children']
   },
 

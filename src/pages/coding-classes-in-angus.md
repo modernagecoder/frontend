@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Angus, from Ar
 canonical: https://learn.modernagecoders.com/coding-classes-in-angus
 source: src/pages/coding-classes-in-angus.html
 ---
-> Angus Council covers the whole area, home to about 114,400 people in roughly 54,300 households according to Scotland's Census 2022. Arbroath is the largest town, followed by Forfar, Montrose, Carnoustie and Monifieth, with Brechin and Kirriemuir next. We teach live over video from India, and each learner is placed by what they can already do, from Primary 1 to S6 and on to adults. Anyone from 6 to 67 can join, in a group of five to ten or one-to-one, for coding, Python, computing science and maths. The Angus project starts in Kirriemuir, where J M Barrie was born. Your first lesson is free; staying on costs USD 100 a month in a group or USD 150 a month privately.
+> Angus Council covers the whole area, home to about 114,400 people in roughly 54,300 households according to Scotland's Census 2022. Arbroath is the largest town, followed by Forfar, Montrose, Carnoustie and Monifieth, with Brechin and Kirriemuir next. We teach live over video from India, and each learner is placed by what they can already do, from Primary 1 to S6 and on to adults. Anyone from 6 to 67 can join, in a group of fifteen to twenty or one-to-one, for coding, Python, computing science and maths. The Angus project starts in Kirriemuir, where J M Barrie was born. Your first lesson is free; staying on costs USD 100 a month in a group or USD 150 a month privately.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Angus
 
@@ -12,11 +12,11 @@ Angus / Live online
 
 # Coding classes in Angus
 
-**What are the best coding classes in Angus?** Angus Council covers the whole area, home to about 114,400 people in roughly 54,300 households according to Scotland's Census 2022. Arbroath is the largest town, followed by Forfar, Montrose, Carnoustie and Monifieth, with Brechin and Kirriemuir next. We teach live over video from India, and each learner is placed by what they can already do, from Primary 1 to S6 and on to adults. Anyone from 6 to 67 can join, in a group of five to ten or one-to-one, for coding, Python, computing science and maths. The Angus project starts in Kirriemuir, where J M Barrie was born. Your first lesson is free; staying on costs USD 100 a month in a group or USD 150 a month privately.
+**What are the best coding classes in Angus?** Angus Council covers the whole area, home to about 114,400 people in roughly 54,300 households according to Scotland's Census 2022. Arbroath is the largest town, followed by Forfar, Montrose, Carnoustie and Monifieth, with Brechin and Kirriemuir next. We teach live over video from India, and each learner is placed by what they can already do, from Primary 1 to S6 and on to adults. Anyone from 6 to 67 can join, in a group of fifteen to twenty or one-to-one, for coding, Python, computing science and maths. The Angus project starts in Kirriemuir, where J M Barrie was born. Your first lesson is free; staying on costs USD 100 a month in a group or USD 150 a month privately.
 
 Historic Environment Scotland's listing for a small house on Brechin Road in Kirriemuir says it was the birthplace of Sir J M Barrie in 1860, and that the wash-house behind it was his "Little Theatre". Barrie went on to write Peter Pan, a book full of talk: Peter, Wendy, the Lost Boys and Captain Hook argue, boast and make up stories, and every line of speech sits between quotation marks. That raises a question that spellcheckers and compilers ask all the time: does every mark that opens also close? This page's project checks the whole of Peter Pan with the tool programmers use for exactly this, a stack, and finds that the hardest part is a single small mark that means two different things.
 
-Facts last verified 26 September 2026. Teaching is online; no Angus branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Angus branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Angus learners begin
 
@@ -138,7 +138,7 @@ Angus mixes coastal towns, market towns and glens, and a weekly class at the rig
 - **Your own table** A flat in Arbroath, a house in Brechin, a farm in the glens. The screen is shared, and the pupil does the typing.
 - **Scottish stages and names** P1 to P7, S1 to S6, National 5, Higher and Advanced Higher: teachers use the same terms as Angus schools, in English.
 - **Try before paying** A full first lesson with real work, then clear advice on level and course. We ask for no card details.
-- **Stage-matched groups** Five to ten pupils at the same point, joining from Angus and many other places.
+- **Stage-matched groups** Fifteen to twenty pupils at the same point, joining from Angus and many other places.
 - **Holiday pauses** Two lessons a week in term is typical, stopping for the holidays Angus Council sets.
 - **Set in UK time** We book you in UK time and the slot holds through the spring and autumn clock changes; teachers on India time adjust on their side.
 
@@ -149,7 +149,7 @@ Angus mixes coastal towns, market towns and glens, and a weekly class at the rig
 A family in Montrose pays what a family in Monifieth pays, and what families pay everywhere we teach except India.
 
 - First class: USD 0. A complete lesson of real work, then a suggested level and course.
-- Group tuition: USD 100 a month. Roughly eight lessons a month in a group of five to ten at one level.
+- Group tuition: USD 100 a month. Roughly eight lessons a month in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. Roughly eight lessons a month, one-to-one.
 
 Prices are in US dollars, never pounds. We bill only after the free lesson has fixed a course and a weekly time; the pricing page sets out what happens with holidays, missed lessons and changes of format.

@@ -1,10 +1,10 @@
 ---
 title: "Coding Classes in Dubai | Live Online Courses, Ages 6 to Adult"
-description: "Coding classes in Dubai for kids, teens and professionals. Live online Python and AI courses in batches of 5 to 8, evenings and weekends in GST. Free demo."
+description: "Coding classes in Dubai for kids, teens and professionals. Live online Python and AI courses in batches of 15 to 20, evenings and weekends in GST. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-dubai
 source: src/pages/coding-classes-in-dubai.html
 ---
-> Coding classes in Dubai for kids, teens and professionals. Live online Python and AI courses in batches of 5 to 8, evenings and weekends in GST. Free demo.
+> Coding classes in Dubai for kids, teens and professionals. Live online Python and AI courses in batches of 15 to 20, evenings and weekends in GST. Free demo.
 
 01 · Courses
 
@@ -48,7 +48,7 @@ Every class is a live video call. Students ask out loud, share their screen, and
 
 B
 
-### Five to eight students
+### Fifteen to twenty students
 
 The size is deliberate. The teacher hears from every student in every class, and nobody coasts unnoticed for a month. One-on-one classes run the same syllabus at the student's own pace.
 
@@ -82,7 +82,7 @@ Your first class is free and completely ordinary, with the same teacher and form
 
 Dubai treats technology as infrastructure rather than novelty. The UAE appointed the world's first Minister of State for Artificial Intelligence in 2017, Dubai Internet City has anchored the region's technology companies since 2000, and the city moved its own government services online earlier than almost anywhere else. Children who grow up here will sit exams, apply to universities and enter workplaces where programming is assumed to be a normal literacy, much as spreadsheets were for their parents.
 
-School supplies the ideas. What school usually cannot supply is practice: unhurried hours spent writing programs, breaking them and repairing them, with someone experienced watching. A classroom period shared among twenty five students has little room for that. A weekly live class of five to eight has plenty, and that practice, more than any single topic on a syllabus, is what we sell.
+School supplies the ideas. What school usually cannot supply is practice: unhurried hours spent writing programs, breaking them and repairing them, with someone experienced watching. A classroom period shared among twenty five students has little room for that. A weekly live class of fifteen to twenty has plenty, and that practice, more than any single topic on a syllabus, is what we sell.
 
 ### It works alongside any Dubai curriculum
 
@@ -245,7 +245,7 @@ Group classes
 
 $100 per month
 
-- Live classes in batches of 5 to 8
+- Live classes in batches of 15 to 20
 - Evening and weekend GST slots
 - Real projects and a completion certificate
 - Free demo class before you enrol

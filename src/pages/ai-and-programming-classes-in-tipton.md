@@ -4,7 +4,7 @@ description: "Live online AI and programming classes for Tipton, Ocker Hill, Pri
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-tipton
 source: src/pages/ai-and-programming-classes-in-tipton.html
 ---
-> In the 2021 census the ONS counted 47,200 usual residents in the Tipton built-up area and 341,832 in the borough of Sandwell around it. Ocker Hill, Princes End, Tipton Green, Dudley Port, Horseley Heath, Toll End and Burnt Tree are gazetteer suburbs that sit inside the Tipton built-up area. Modern Age Coders teaches programming, AI, Python, vibe coding and maths live online to learners there from six to 67. The tutors work from India, one-to-one or with groups of five to ten learners at one level. Lessons are built on algorithms the learner runs on real data. A free first lesson comes before any course suggestion. The Tipton project asks a route planner for the second, third and ninth shortest walks between Tipton and Dudley Port stations, and finds out how different those alternatives really are. Group classes then cost USD 100 a month and private ones USD 150 a month.
+> In the 2021 census the ONS counted 47,200 usual residents in the Tipton built-up area and 341,832 in the borough of Sandwell around it. Ocker Hill, Princes End, Tipton Green, Dudley Port, Horseley Heath, Toll End and Burnt Tree are gazetteer suburbs that sit inside the Tipton built-up area. Modern Age Coders teaches programming, AI, Python, vibe coding and maths live online to learners there from six to 67. The tutors work from India, one-to-one or with groups of fifteen to twenty learners at one level. Lessons are built on algorithms the learner runs on real data. A free first lesson comes before any course suggestion. The Tipton project asks a route planner for the second, third and ninth shortest walks between Tipton and Dudley Port stations, and finds out how different those alternatives really are. Group classes then cost USD 100 a month and private ones USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Tipton
 
@@ -12,11 +12,11 @@ Tipton, Sandwell, West Midlands / Live online
 
 # AI and programming classes in Tipton
 
-**Which are the best AI and programming classes for Tipton?** In the 2021 census the ONS counted 47,200 usual residents in the Tipton built-up area and 341,832 in the borough of Sandwell around it. Ocker Hill, Princes End, Tipton Green, Dudley Port, Horseley Heath, Toll End and Burnt Tree are gazetteer suburbs that sit inside the Tipton built-up area. Modern Age Coders teaches programming, AI, Python, vibe coding and maths live online to learners there from six to 67. The tutors work from India, one-to-one or with groups of five to ten learners at one level. Lessons are built on algorithms the learner runs on real data. A free first lesson comes before any course suggestion. The Tipton project asks a route planner for the second, third and ninth shortest walks between Tipton and Dudley Port stations, and finds out how different those alternatives really are. Group classes then cost USD 100 a month and private ones USD 150 a month.
+**Which are the best AI and programming classes for Tipton?** In the 2021 census the ONS counted 47,200 usual residents in the Tipton built-up area and 341,832 in the borough of Sandwell around it. Ocker Hill, Princes End, Tipton Green, Dudley Port, Horseley Heath, Toll End and Burnt Tree are gazetteer suburbs that sit inside the Tipton built-up area. Modern Age Coders teaches programming, AI, Python, vibe coding and maths live online to learners there from six to 67. The tutors work from India, one-to-one or with groups of fifteen to twenty learners at one level. Lessons are built on algorithms the learner runs on real data. A free first lesson comes before any course suggestion. The Tipton project asks a route planner for the second, third and ninth shortest walks between Tipton and Dudley Port stations, and finds out how different those alternatives really are. Group classes then cost USD 100 a month and private ones USD 150 a month.
 
 Ask a map app for alternatives and it shows two or three routes that look clearly different. Ask a textbook algorithm for the second shortest route and you often get the first one again with a tiny detour, five metres longer, round the other side of a bollard. The algorithm is not wrong. Second shortest and genuinely different are separate questions, and a good program has to know which one it is answering. Tipton, with its network of streets, footpaths and canal towpaths, turns that distinction into something a learner can count.
 
-Facts last verified 30 September 2026. Teaching is online; no Tipton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Tipton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Programming and AI courses for Tipton learners
 
@@ -135,7 +135,7 @@ All teaching happens live over video. The learner needs a computer with a keyboa
 - **Learner at the keyboard** The learner writes and runs the code; the tutor questions each decision.
 - **Level first** The free lesson shows us what the learner knows before any course is named.
 - **Nothing to pay upfront** The first lesson needs no payment and no card.
-- **Five to ten per group** Groups are formed by stage, with classmates joining from around the UK.
+- **Fifteen to twenty per group** Groups are formed by stage, with classmates joining from around the UK.
 - **Roughly eight a month** Two lessons a week during term, with Sandwell holidays skipped on request.
 - **Same slot all year** Tutors absorb the clock changes so your UK lesson time does not move.
 

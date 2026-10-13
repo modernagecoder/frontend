@@ -63,7 +63,7 @@ module.exports = {
 
   h1: 'Coding classes in Armagh',
   capsuleQ: 'What are the best coding classes in Armagh?',
-  capsule: 'The Armagh settlement had 16,310 usual residents at the 2021 census, within the Armagh City, Banbridge and Craigavon district of 218,656. Armagh Observatory and Planetarium says the Observatory opened in 1790 and that its director J.L.E. Dreyer compiled the New General Catalogue, still the principal catalogue of nebulae and galaxies used by astronomers. Armagh learners aged six to sixty-seven study with our teachers in India over live video, individually or in a group of five to ten at the same stage, at times set around the Northern Ireland school and working day. The first lesson is free; after that a group place is USD 100 a month and one-to-one lessons USD 150.',
+  capsule: 'The Armagh settlement had 16,310 usual residents at the 2021 census, within the Armagh City, Banbridge and Craigavon district of 218,656. Armagh Observatory and Planetarium says the Observatory opened in 1790 and that its director J.L.E. Dreyer compiled the New General Catalogue, still the principal catalogue of nebulae and galaxies used by astronomers. Armagh learners aged six to sixty-seven study with our teachers in India over live video, individually or in a group of fifteen to twenty at the same stage, at times set around the Northern Ireland school and working day. The first lesson is free; after that a group place is USD 100 a month and one-to-one lessons USD 150.',
   lead: 'Dreyer\'s New General Catalogue numbers 7,840 objects, and it runs very nearly in order of position across the sky. But the sky coordinates astronomers use today are not the ones of the 1880s. How out of order is the list now? Our teenagers answer by counting inversions, the pairs listed in the wrong order, using merge sort. Checking every pair would take 30,728,880 comparisons; merge sort needs 63,917. The first answer, 359,626 inversions, is wrong: right ascension goes round in a circle, and the last 40 entries have slipped past midnight. Treat the circle properly and the true count is 47,634, with the objects near the poles by far the most scrambled.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Armagh.',
 
@@ -187,7 +187,7 @@ module.exports = {
       { h3: 'City and villages', p: 'A learner in Hamiltonsbawn and another in Keady can share one class without a journey into Armagh.' },
       { h3: 'Northern Ireland school years', p: 'Lessons use the names local schools use, from P1 to Year 14, including the transfer test years and CCEA GCSEs and A levels, and teaching is in English.' },
       { h3: 'A lesson, not a pitch', p: 'The free session teaches a genuine task and ends with a recommended level, course and weekly slot. No card details are taken.' },
-      { h3: 'Stage, not postcode', p: 'Five to ten learners at the same level, from Armagh, across the UK and abroad, so every stage has a sensible time.' },
+      { h3: 'Stage, not postcode', p: 'Fifteen to twenty learners at the same level, from Armagh, across the UK and abroad, so every stage has a sensible time.' },
       { h3: 'A twice-weekly pattern', p: 'Two fixed lessons each week, around eight a month, with holidays and exam weeks agreed with the teacher in advance.' },
       { h3: 'Evenings in two time zones', p: 'A 5 pm lesson in Armagh begins at 9.30 pm in India during summer time and 10.30 pm in winter, because India never changes its clocks; our teachers plan their evenings around families here.' }
     ],
@@ -198,7 +198,7 @@ module.exports = {
     h2: 'Armagh lesson fees',
     intro: 'The first lesson is free, then there is one monthly fee.',
     first: 'A full lesson at no charge, ending with our advice on level, course and weekly time.',
-    group: 'About eight live lessons a month in a group of five to ten learners at one stage.',
+    group: 'About eight live lessons a month in a group of fifteen to twenty learners at one stage.',
     private: 'About eight live lessons a month, with the teacher focused on your learner alone.',
     closer: 'Families in Richhill or Tandragee pay in US dollars, as every family outside India does, and our pages carry no pound prices. The free lesson comes first, with billing only after a course and weekly time are agreed; the pricing page explains pauses, missed lessons and switching between group and one-to-one teaching.'
   },
@@ -223,8 +223,8 @@ module.exports = {
       { q: 'Who was Dreyer?', a: 'John Louis Emil Dreyer, a Dane, became director of Armagh Observatory after Thomas Romney Robinson died in 1882, and compiled the New General Catalogue of Nebulae and Clusters of Stars. We are not connected with the Observatory.' },
       { q: 'When are Armagh lessons?', a: 'Families in Armagh usually pick a slot after school, on a weekday evening or at the weekend, and we agree the time in the free lesson. India is four and a half hours ahead of Northern Ireland in summer and five and a half in winter.' },
       { q: 'Is there a centre in Armagh?', a: 'No. There is no Armagh centre and we have no premises anywhere in the UK, as every lesson is live online. A learner needs a computer with sound and a steady connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do lessons cost for an Armagh learner?', a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one lessons on the same timetable are USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than age or address, with five to ten learners at one stage. When no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'What do lessons cost for an Armagh learner?', a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one lessons on the same timetable are USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than age or address, with fifteen to twenty learners at one stage. When no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

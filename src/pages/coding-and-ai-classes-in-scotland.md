@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes for learners in Scotland
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-scotland
 source: src/pages/coding-and-ai-classes-in-scotland.html
 ---
-> Scotland runs its own school system, so a class for a Scottish learner has to speak its language: primary 1 to 7, S1 to S6, a broad general education that Education Scotland says continues to the end of S3, and then National 5, Higher and Advanced Higher, now awarded by Qualifications Scotland. The scale is national: 695,923 pupils in 2,435 publicly funded schools in 2025, in a country of 5,436,600 people on Census Day 2022, served by 32 councils. Modern Age Coders teaches live online from India, so a learner in Lerwick and one in Largs join a class at the same level at the same moment, anyone from 6 to 67, in groups of five to ten or one to one. There is no charge for the opening lesson; afterwards a group place is USD 100 a month and private lessons USD 150.
+> Scotland runs its own school system, so a class for a Scottish learner has to speak its language: primary 1 to 7, S1 to S6, a broad general education that Education Scotland says continues to the end of S3, and then National 5, Higher and Advanced Higher, now awarded by Qualifications Scotland. The scale is national: 695,923 pupils in 2,435 publicly funded schools in 2025, in a country of 5,436,600 people on Census Day 2022, served by 32 councils. Modern Age Coders teaches live online from India, so a learner in Lerwick and one in Largs join a class at the same level at the same moment, anyone from 6 to 67, in groups of fifteen to twenty or one to one. There is no charge for the opening lesson; afterwards a group place is USD 100 a month and private lessons USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Scotland
 
@@ -12,11 +12,11 @@ Scotland, United Kingdom / Live online
 
 # Coding and AI classes in Scotland
 
-**What are the best coding classes in Scotland?** Scotland runs its own school system, so a class for a Scottish learner has to speak its language: primary 1 to 7, S1 to S6, a broad general education that Education Scotland says continues to the end of S3, and then National 5, Higher and Advanced Higher, now awarded by Qualifications Scotland. The scale is national: 695,923 pupils in 2,435 publicly funded schools in 2025, in a country of 5,436,600 people on Census Day 2022, served by 32 councils. Modern Age Coders teaches live online from India, so a learner in Lerwick and one in Largs join a class at the same level at the same moment, anyone from 6 to 67, in groups of five to ten or one to one. There is no charge for the opening lesson; afterwards a group place is USD 100 a month and private lessons USD 150.
+**What are the best coding classes in Scotland?** Scotland runs its own school system, so a class for a Scottish learner has to speak its language: primary 1 to 7, S1 to S6, a broad general education that Education Scotland says continues to the end of S3, and then National 5, Higher and Advanced Higher, now awarded by Qualifications Scotland. The scale is national: 695,923 pupils in 2,435 publicly funded schools in 2025, in a country of 5,436,600 people on Census Day 2022, served by 32 councils. Modern Age Coders teaches live online from India, so a learner in Lerwick and one in Largs join a class at the same level at the same moment, anyone from 6 to 67, in groups of fifteen to twenty or one to one. There is no charge for the opening lesson; afterwards a group place is USD 100 a month and private lessons USD 150.
 
 Almost every Scottish website with a form has a box asking for your council, and people fill it in the way they speak. Western Isles, not Comhairle nan Eilean Siar. Glasgow, not Glasgow City Council. Borders, Lanarkshire, Edinburgh City. A programmer who wants to be kind accepts near misses, and the standard tool for that is edit distance: count the fewest single-letter changes that turn one string into another, and pick the council with the smallest count. We ran it against the 32 names on mygov.scot. It fixed Fyfe, Anguss and Highlands in one letter each. It also sent Shetland to the Highland Council, Orkney to Moray, and Lanarkshire to Renfrewshire, each time with total confidence, and it could not decide whether Glasgow meant Glasgow City or Angus. Kindness without judgement produces confident mistakes, and learning to tell the two apart is the thread of this page.
 
-Facts last verified 20 September 2026. Teaching is online; no Scotland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Scotland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses from P1 to the senior phase and beyond
 
@@ -154,7 +154,7 @@ An online class reaches the islands as easily as the Central Belt.
 - **Island or city** A learner on Orkney and a learner in Glasgow share one group, and neither needs a ferry, a train or a lift.
 - **Scottish stages kept** P1 to P7, S1 to S6, Nationals and Highers keep their Scottish names; teaching is in English.
 - **Start with a free lesson** A proper task with a teacher, then a recommended level, course and regular time. No card details are taken.
-- **Groups that fit** Five to ten learners at the same level, from across Scotland and beyond, so that each stage has a group at a sensible hour.
+- **Groups that fit** Fifteen to twenty learners at the same level, from across Scotland and beyond, so that each stage has a group at a sensible hour.
 - **Council holidays** Each Scottish council publishes its own term dates, and the exam diet has its own timetable; families and teachers agree breaks around both.
 - **Two clocks** India is five and a half hours ahead of Scotland in winter and four and a half in summer, and every lesson is booked in UK time.
 
@@ -165,7 +165,7 @@ An online class reaches the islands as easily as the Central Belt.
 One price list for the whole country, from the Central Belt to the islands.
 
 - First class: USD 0. A full lesson on a real task, ending with a recommended level and course.
-- Group tuition: USD 100 a month. Around eight lessons a month in a group of five to ten at one level.
+- Group tuition: USD 100 a month. Around eight lessons a month in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. Around eight lessons a month with a teacher for one learner.
 
 Fees are in US dollars, the rate for every family outside India, with no pound price list and no difference between councils. Nothing is paid until the free lesson has agreed a course and a regular time; the pricing page covers pauses, missed lessons and changing format.
@@ -206,7 +206,7 @@ No. All teaching is live and online, and no Scottish premises or UK office is cl
 
 ### What do coding classes in Scotland cost?
 
-Nothing for the first lesson. After that, a group place costs USD 100 a month for two live lessons a week, around eight in a month, in a group of five to ten, and one-to-one teaching costs USD 150 a month on the same rhythm. Course, format and weekly hour are settled before any payment.
+Nothing for the first lesson. After that, a group place costs USD 100 a month for two live lessons a week, around eight in a month, in a group of fifteen to twenty, and one-to-one teaching costs USD 150 a month on the same rhythm. Course, format and weekly hour are settled before any payment.
 
 ### How many learners are in a group?
 

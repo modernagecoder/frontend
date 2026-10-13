@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Rhondda Cynon 
 canonical: https://learn.modernagecoders.com/coding-classes-in-rhondda-cynon-taf
 source: src/pages/coding-classes-in-rhondda-cynon-taf.html
 ---
-> Rhondda Cynon Taf is home to 237,651 people, according to the 2021 census. Aberdare, at 37,675, and Pontypridd, at 31,900, are its largest towns, and Tonypandy, Church Village, Porth, Mountain Ash and Tonyrefail each pass 10,000. We teach every lesson live on camera, with our teachers based in India. Learners from 6 to 67 study coding, Python and maths on their own with a tutor or in a group of five to ten at the same level. An opening lesson at no charge decides where to begin. The local project stands on a stone bridge built in 1756. Staying on costs USD 100 a month for group lessons, or USD 150 a month for private ones.
+> Rhondda Cynon Taf is home to 237,651 people, according to the 2021 census. Aberdare, at 37,675, and Pontypridd, at 31,900, are its largest towns, and Tonypandy, Church Village, Porth, Mountain Ash and Tonyrefail each pass 10,000. We teach every lesson live on camera, with our teachers based in India. Learners from 6 to 67 study coding, Python and maths on their own with a tutor or in a group of fifteen to twenty at the same level. An opening lesson at no charge decides where to begin. The local project stands on a stone bridge built in 1756. Staying on costs USD 100 a month for group lessons, or USD 150 a month for private ones.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Rhondda Cynon Taf
 
@@ -12,11 +12,11 @@ Rhondda Cynon Taf / Live online
 
 # Coding classes in Rhondda Cynon Taf
 
-**What are the best coding classes in Rhondda Cynon Taf?** Rhondda Cynon Taf is home to 237,651 people, according to the 2021 census. Aberdare, at 37,675, and Pontypridd, at 31,900, are its largest towns, and Tonypandy, Church Village, Porth, Mountain Ash and Tonyrefail each pass 10,000. We teach every lesson live on camera, with our teachers based in India. Learners from 6 to 67 study coding, Python and maths on their own with a tutor or in a group of five to ten at the same level. An opening lesson at no charge decides where to begin. The local project stands on a stone bridge built in 1756. Staying on costs USD 100 a month for group lessons, or USD 150 a month for private ones.
+**What are the best coding classes in Rhondda Cynon Taf?** Rhondda Cynon Taf is home to 237,651 people, according to the 2021 census. Aberdare, at 37,675, and Pontypridd, at 31,900, are its largest towns, and Tonypandy, Church Village, Porth, Mountain Ash and Tonyrefail each pass 10,000. We teach every lesson live on camera, with our teachers based in India. Learners from 6 to 67 study coding, Python and maths on their own with a tutor or in a group of fifteen to twenty at the same level. An opening lesson at no charge decides where to begin. The local project stands on a stone bridge built in 1756. Staying on costs USD 100 a month for group lessons, or USD 150 a month for private ones.
 
 William Edwards, a minister who taught himself engineering, needed four attempts to bridge the Taff at Pontypridd. Cadw's record tells the story: a three-arch bridge begun in 1746 was swept away two years later, and his second, a single span, collapsed in 1751. The bridge that finally stood, completed in 1756, crosses in one arch of 42.7 metres, and for 40 years no bridge in Britain had a wider span. Edwards's fix was to pierce round holes, 2.7, 1.8 and 0.9 metres across, through the stone above the arch. Why does a bigger arch fight so much harder against its own weight, and how much stone did the holes save? Two scaling rules explain it, and this page's project codes both in Python.
 
-Facts last verified 26 September 2026. Teaching is online; no Rhondda Cynon Taf branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Rhondda Cynon Taf branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Rhondda Cynon Taf starting points
 
@@ -140,7 +140,7 @@ Valley or town, a home connection is all that is needed.
 - **Typed by the learner** Every line is written by the student, and the tutor follows along on screen, prompting with questions rather than answers.
 - **By Welsh year** A Ferndale Year 5 or a Pontypridd Year 12 is placed by Welsh school year and progression step, with WJEC exam names. Teaching is in English.
 - **Free to try** A full first lesson with no charge, finishing with a recommendation.
-- **Same-level groups** Five to ten learners at one level, from across the UK.
+- **Same-level groups** Fifteen to twenty learners at one level, from across the UK.
 - **Term pattern** Two lessons a week through term, off in the holidays.
 - **Fixed local hour** British clock changes do not move your lesson; our teachers in India shift to match.
 
@@ -151,7 +151,7 @@ Valley or town, a home connection is all that is needed.
 Aberdare pays what Llantrisant pays, and the same holds for every country we teach outside India.
 
 - First class: USD 0. A full free lesson, followed by our advice.
-- Group tuition: USD 100 a month. About eight lessons a month with five to ten classmates.
+- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty classmates.
 - Private tuition: USD 150 a month. About eight lessons a month with a tutor to yourself.
 
 Our prices are in US dollars only; we never quote sterling. Payment starts after the trial has fixed a course and a weekly time, and the pricing page explains breaks, missed lessons and switching formats.

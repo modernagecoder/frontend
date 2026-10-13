@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Merton: Wimbl
 canonical: https://learn.modernagecoders.com/coding-classes-in-merton-london
 source: src/pages/coding-classes-in-merton-london.html
 ---
-> Merton is the south west London borough of Wimbledon, Mitcham, Morden, Raynes Park, Colliers Wood and South Wimbledon, with 215,186 residents at the 2021 Census, Eagle House and the old Liberty print works by the River Wandle. A good coding class turns a question anyone can ask into a search a computer can finish, and this page does it with patterns: which regular shapes can meet at a point and fit together with no gaps, the question behind every tiled floor and printed fabric. Our teachers, working from India, teach live over video to learners aged 6 to 67, privately or in small classes of five to ten matched by stage. We charge nothing for the first lesson; after it, group places are USD 100 a month and private teaching USD 150 a month.
+> Merton is the south west London borough of Wimbledon, Mitcham, Morden, Raynes Park, Colliers Wood and South Wimbledon, with 215,186 residents at the 2021 Census, Eagle House and the old Liberty print works by the River Wandle. A good coding class turns a question anyone can ask into a search a computer can finish, and this page does it with patterns: which regular shapes can meet at a point and fit together with no gaps, the question behind every tiled floor and printed fabric. Our teachers, working from India, teach live over video to learners aged 6 to 67, privately or in classes of fifteen to twenty matched by stage. We charge nothing for the first lesson; after it, group places are USD 100 a month and private teaching USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Merton
 
@@ -12,11 +12,11 @@ London Borough of Merton / Live online
 
 # Coding classes in Merton
 
-**What are the best coding classes in Merton?** Merton is the south west London borough of Wimbledon, Mitcham, Morden, Raynes Park, Colliers Wood and South Wimbledon, with 215,186 residents at the 2021 Census, Eagle House and the old Liberty print works by the River Wandle. A good coding class turns a question anyone can ask into a search a computer can finish, and this page does it with patterns: which regular shapes can meet at a point and fit together with no gaps, the question behind every tiled floor and printed fabric. Our teachers, working from India, teach live over video to learners aged 6 to 67, privately or in small classes of five to ten matched by stage. We charge nothing for the first lesson; after it, group places are USD 100 a month and private teaching USD 150 a month.
+**What are the best coding classes in Merton?** Merton is the south west London borough of Wimbledon, Mitcham, Morden, Raynes Park, Colliers Wood and South Wimbledon, with 215,186 residents at the 2021 Census, Eagle House and the old Liberty print works by the River Wandle. A good coding class turns a question anyone can ask into a search a computer can finish, and this page does it with patterns: which regular shapes can meet at a point and fit together with no gaps, the question behind every tiled floor and printed fabric. Our teachers, working from India, teach live over video to learners aged 6 to 67, privately or in classes of fifteen to twenty matched by stage. We charge nothing for the first lesson; after it, group places are USD 100 a month and private teaching USD 150 a month.
 
 Beside the River Wandle at Merton stand two small listed buildings from a textile printing works: a colour house dated 1742 and a wheel house whose list entry says the site has been used for printing textiles for two centuries. Printed cloth is maths you can wear. A pattern is cut into a block, and the block is stamped again and again until the design covers the fabric with no gaps and no overlaps. Our learners ask the question underneath every repeating pattern: which regular shapes can fit together around a point? They write a program that tries every combination of regular polygons, from triangles up to 42-sided shapes, and keeps the ones whose corner angles add up to exactly 360 degrees. It finds 17 combinations, 21 ways to arrange them, and only 3 that use a single shape.
 
-Facts last verified 25 September 2026. Teaching is online; no Merton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Merton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses to begin with in Merton
 
@@ -139,7 +139,7 @@ A learner in the west of the borough and one in Mitcham can meet in the same onl
 
 ### Fitting together
 
-Each class is five to ten learners at the same stage, chosen so everyone fits the pace without gaps.
+Each class is fifteen to twenty learners at the same stage, chosen so everyone fits the pace without gaps.
 
 **Merton in London** Merton is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers all of them and the City, adding each page as it is published, including [Sutton](/coding-classes-in-sutton-london), upstream on the Wandle.
 
@@ -169,7 +169,7 @@ In every corner of Merton, a lesson begins when the video call opens.
 - **A place at home** Any quiet corner works, with a laptop or desktop, a headset and a broadband line strong enough for video.
 - **English Key Stages** Progress reports use the language of schools in England: the Key Stage the learner is in, and GCSE or A level where that applies. Lessons are in English.
 - **Start without paying** Lesson one is genuine teaching, ending with the teacher's recommendation on level and course. No card is needed.
-- **Stage-matched groups** We fill each class with five to ten learners at one stage, drawn from around the UK and further away, so an evening slot usually fits.
+- **Stage-matched groups** We fill each class with fifteen to twenty learners at one stage, drawn from around the UK and further away, so an evening slot usually fits.
 - **A two-evening rhythm** The standard week has two evening lessons; holidays and exam periods bring agreed breaks.
 - **London times** The teacher is in India; every lesson time we send is already converted to UK time.
 
@@ -180,7 +180,7 @@ In every corner of Merton, a lesson begins when the video call opens.
 The same arrangement from Wimbledon to Mitcham: a free first lesson, then one monthly fee.
 
 - First class: USD 0. A full first lesson with a teacher, free, finishing with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. Roughly eight live lessons a month, in a class of five to ten at one stage.
+- Group tuition: USD 100 a month. Roughly eight live lessons a month, in a class of fifteen to twenty at one stage.
 - Private tuition: USD 150 a month. Roughly eight live lessons a month, taught one to one.
 
 Merton families are charged in US dollars, as everyone outside India is, and no prices in pounds appear on the site. The first charge comes only after the free lesson, once a course and regular slot are chosen. How pausing, missed lessons and swapping between group and private teaching work is set out on the pricing page.
@@ -221,11 +221,11 @@ No. There is no Merton centre and no premises anywhere in the UK, because every 
 
 ### What do coding classes in Merton cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## Beyond Merton
 

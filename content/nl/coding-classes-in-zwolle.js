@@ -39,7 +39,7 @@ module.exports = {
 
   h1: 'Coding classes in Zwolle, where one of the biggest is not a claim you can check',
   capsuleQ: 'What are the best coding classes in Zwolle?',
-  capsule: 'Coding classes in Zwolle serve 134,147 people (Statistics Netherlands, 1 January 2026), the capital of Overijssel and the nineteenth municipality of the country. Its own entry calls the station one of the largest railway junctions in the Netherlands and says eight directions leave it. Only one of those two statements can be tested, and it is not the first. Across the whole municipality the teaching is done by Modern Age Coders on a live connection, in English, at any age between 6 and 67. Nothing is charged for the opening hour. From there it is USD 100 monthly in a group of five to ten, or USD 150 with a teacher to yourself.',
+  capsule: 'Coding classes in Zwolle serve 134,147 people (Statistics Netherlands, 1 January 2026), the capital of Overijssel and the nineteenth municipality of the country. Its own entry calls the station one of the largest railway junctions in the Netherlands and says eight directions leave it. Only one of those two statements can be tested, and it is not the first. Across the whole municipality the teaching is done by Modern Age Coders on a live connection, in English, at any age between 6 and 67. Nothing is charged for the opening hour. From there it is USD 100 monthly in a group of fifteen to twenty, or USD 150 with a teacher to yourself.',
   lead: 'Two sentences about this city\'s station sit next to each other in the same source. Zwolle is one of the largest railway junctions in the Netherlands. From Zwolle you can travel in eight directions by train. The second can be checked by anyone with a map and ten minutes. The first cannot be checked by anyone at all, because nobody has said which junctions are in the running, what is being measured, or where the cutoff falls. A child who can tell those two sentences apart is already harder to sell to than most adults.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Zwolle.',
 
@@ -184,7 +184,7 @@ module.exports = {
     h2: 'The fee, in dollars, in every wijk',
     intro: 'Stated on the page rather than kept for a phone call.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'One international rate applies and it is quoted in dollars, never in euros, so every address in the municipality sees the same figure. Payment follows the free lesson rather than preceding it, and it goes over WhatsApp once a course and a time are settled. Pausing, changing plan and missing a week are described on the pricing page.'
   },
@@ -209,7 +209,7 @@ module.exports = {
       { q: 'Is the Peperbus the tallest thing in Zwolle?', a: 'Not any more. It stands 75 metres and was built between 1463 and 1482, and the IJsseltoren at about 96 metres is now taller. That is a good example of a superlative that was properly formed, could therefore be checked, and turned out to stop being true when somebody built something.' },
       { q: 'What is in the free lesson?', a: 'The teacher finds the boundary of what the learner can already do and sets one task just past it. A child might turn a boast about a dog into a question with a method. A teenager writes a classifier that decides whether a claim can be tested. An adult brings a line of copy from work. The hour ends with a course, a rung, a weekly time and a dollar figure, and nothing has been charged.' },
       { q: 'Is there a Modern Age Coders classroom in Zwolle?', a: 'No, and none is claimed near the station, in Stadshagen or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Zwolle coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Zwolle coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in a Zwolle group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or wijk. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

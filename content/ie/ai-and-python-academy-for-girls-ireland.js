@@ -61,7 +61,7 @@ module.exports = {
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
-  capsule: 'Women were an estimated 22.0% of ICT specialists working in Ireland in 2025, and 23.1% of students in ICT courses in 2022/23. Irish programmes such as CodePlus find that girls\' interest in computing is easy to spark but fades without sustained engagement. The strongest thing a class can offer is not a special method but steady progress: the same teacher every week, projects the learner chooses, and a portfolio that grows towards third level. Modern Age Coders teaches Python and AI live online in mixed groups of five to ten placed by ability, or one to one, for ages 6 to 67. We do not run separate classes for girls. Trying a class costs nothing, and staying on costs USD 100 a month in a group or USD 150 a month with a private teacher.',
+  capsule: 'Women were an estimated 22.0% of ICT specialists working in Ireland in 2025, and 23.1% of students in ICT courses in 2022/23. Irish programmes such as CodePlus find that girls\' interest in computing is easy to spark but fades without sustained engagement. The strongest thing a class can offer is not a special method but steady progress: the same teacher every week, projects the learner chooses, and a portfolio that grows towards third level. Modern Age Coders teaches Python and AI live online in mixed groups of fifteen to twenty placed by ability, or one to one, for ages 6 to 67. We do not run separate classes for girls. Trying a class costs nothing, and staying on costs USD 100 a month in a group or USD 150 a month with a private teacher.',
 
   picks: {
     eyebrow: 'Start here',
@@ -136,7 +136,7 @@ module.exports = {
           { h3: 'Progress she can see', p: 'Every project is saved in her own portfolio, so a year of work is visible, to her, to her parents and later to a third-level application.' }
         ] },
         { kind: 'table', mt: true, caption: 'What we do, and what we deliberately do not do', head: ['We do', 'We do not'], rows: [
-          ['Place every learner by ability, in mixed groups of five to ten', 'Run girls-only or boys-only classes'],
+          ['Place every learner by ability, in mixed groups of fifteen to twenty', 'Run girls-only or boys-only classes'],
           ['Teach every learner with the same care and the same standard', 'Claim that girls learn in a different way'],
           ['Offer one-to-one lessons to anyone who prefers them', 'Promise outcomes, grades or university places'],
           ['Keep parents informed of progress', 'Replace school subjects or their assessments']
@@ -212,7 +212,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'A real task with a real teacher, and an honest placement on the ladder.' },
-      { h3: 'Mixed groups by level', p: 'Classes of five to ten learners who share a level, not a gender, joining from Ireland and several other countries.' },
+      { h3: 'Mixed groups by level', p: 'Classes of fifteen to twenty learners who share a level, not a gender, joining from Ireland and several other countries.' },
       { h3: 'One to one on request', p: 'For any learner who prefers a teacher to herself.' },
       { h3: 'Continuity', p: 'The same teacher across months and years, the condition Irish programmes found hardest to supply.' },
       { h3: 'Parents informed', p: 'Families hear what has been built and what comes next.' },
@@ -228,7 +228,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'One price in US dollars, paid month by month, the same for families in every country outside India. No sign-up charge, and she can stop at the end of any month.',
     free: ['A real class with a teacher', 'An honest placement', 'No card needed'],
-    group: ['Five to ten learners at one level', 'The same teacher each week', 'Projects reviewed weekly', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher each week', 'Projects reviewed weekly', 'A certificate at the end'],
     one: ['A teacher for one learner', 'Paced to her goals', 'Available to anyone']
   },
 

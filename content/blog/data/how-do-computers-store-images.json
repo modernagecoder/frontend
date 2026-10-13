@@ -237,7 +237,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Images suit two principles on our <a href='/how-we-teach'>how we teach</a> page. Learning by building: a working photo filter, however small, turns pixels and loops into something you can see. And tracing code line by line until every step can be predicted, such as what happens to one pixel in a greyscale loop. Our <a href='/courses/python-complete-masterclass-teens'>Python course for teens</a> runs one to one or in small groups of 5 to 10."
+        "text": "Images suit two principles on our <a href='/how-we-teach'>how we teach</a> page. Learning by building: a working photo filter, however small, turns pixels and loops into something you can see. And tracing code line by line until every step can be predicted, such as what happens to one pixel in a greyscale loop. Our <a href='/courses/python-complete-masterclass-teens'>Python course for teens</a> runs one to one or in groups of 15 to 20."
       },
       {
         "type": "embed",

@@ -198,7 +198,7 @@ Lessons are live and online. India, where our teachers work, is five and a half 
 
 - **Written solutions read** The teacher reads the full argument or program, not just the final answer.
 - **Fresh practice problems** Written in each competition's style, never lifted from its papers.
-- **Small matched groups** Five to ten learners at a similar level, so explanations are shared and argued over.
+- **Small matched groups** Fifteen to twenty learners at a similar level, so explanations are shared and argued over.
 - **One to one for a target** For a learner aiming at a particular round with little time left.
 - **Honest feedback** Clear notes on what went wrong and which idea to learn next.
 - **Nothing promised** No scores, medals or selections are promised, because no teacher can deliver them.
@@ -208,7 +208,7 @@ Lessons are live and online. India, where our teachers work, is five and a half 
 Monthly, in US dollars, as for every family outside India. Nothing to pay before the first class.
 
 - Free first class: USD 0. A real problem-solving lesson. A frank view of the right stage. No payment details.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher every week. Solutions read and marked. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher every week. Solutions read and marked. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one learner. Built around a target round. Suited to strong or late starters.
 
 ## What families ask about UK competitions
@@ -247,7 +247,7 @@ We write fresh practice in each competition's style and point learners to the or
 
 ### What do classes cost?
 
-The first class is free. After that it is USD 100 a month in a group of five to ten, or USD 150 a month one to one, with no fee to join and no annual contract.
+The first class is free. After that it is USD 100 a month in a group of fifteen to twenty, or USD 150 a month one to one, with no fee to join and no annual contract.
 
 ### When are lessons, in UK time?
 

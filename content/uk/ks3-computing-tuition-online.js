@@ -80,7 +80,7 @@ module.exports = {
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Key stage 3 computing is where the subject stops being about making things and starts being about systems. The statutory programme asks Years 7 to 9 to model the state and behaviour of real problems, to understand sorting and searching and compare alternative algorithms for the same task, to use at least one textual programming language with proper data structures and modular code, and to handle Boolean logic, binary arithmetic and how data and instructions are stored. The two lines most often skipped are the first two, modelling and comparing, because they are slow to teach and produce nothing visible, and they are precisely what GCSE Computer Science assumes. We teach the whole programme live online, in groups of five to ten at one level or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.',
+  capsule: 'Key stage 3 computing is where the subject stops being about making things and starts being about systems. The statutory programme asks Years 7 to 9 to model the state and behaviour of real problems, to understand sorting and searching and compare alternative algorithms for the same task, to use at least one textual programming language with proper data structures and modular code, and to handle Boolean logic, binary arithmetic and how data and instructions are stored. The two lines most often skipped are the first two, modelling and comparing, because they are slow to teach and produce nothing visible, and they are precisely what GCSE Computer Science assumes. We teach the whole programme live online, in groups of fifteen to twenty at one level or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.',
 
   picks: {
     eyebrow: 'Start here',
@@ -232,7 +232,7 @@ module.exports = {
       { h3: 'Two ways to do it', p: 'Every algorithm topic ends with two working methods and a written reason for choosing one.' },
       { h3: 'Arithmetic by hand', p: 'Binary and logic practised without a calculator from the start, because GCSE papers will demand it.' },
       { h3: 'Predict before running', p: 'The student states the output first. The gap between expectation and result is the lesson.' },
-      { h3: 'Groups by level', p: 'Five to ten students at the same rung, arguing about whose model is more accurate.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty students at the same rung, arguing about whose model is more accurate.' },
       { h3: 'Work you can see', p: 'Finished projects saved where a family can open them, which is usually how a parent learns it is working.' }
     ]
   },
@@ -245,7 +245,7 @@ module.exports = {
     h2: 'What Key Stage 3 tuition costs',
     lede: 'A flat monthly charge in US dollars, the rate everywhere outside India. The free lesson comes first and nothing is taken until a course and a weekly time are agreed.',
     free: ['A real lesson on real key stage 3 material', 'An honest view of the starting rung', 'Only a phone number needed'],
-    group: ['Five to ten students at one rung', 'One named teacher across the course', 'Written feedback on work every week', 'A certificate when a course finishes'],
+    group: ['Fifteen to twenty students at one rung', 'One named teacher across the course', 'Written feedback on work every week', 'A certificate when a course finishes'],
     one: ['One student and one teacher', 'Useful for a student far ahead or far behind', 'Fitted around clubs and homework']
   },
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes for Leixlip learners fro
 canonical: https://learn.modernagecoders.com/best-coding-class-in-leixlip
 source: src/pages/best-coding-class-in-leixlip.html
 ---
-> Leixlip, in County Kildare, has 16,587 usual residents, 5,715 households and two railway stations of its own. Of the 7,823 residents in work, 3,357 travel into Dublin city and its suburbs, and 3,328 work from home at least some of the time. For a Leixlip learner, Modern Age Coders means a live teacher on video, twice in a typical week, in a small group of five to ten at the same level or on a one to one basis, for anyone from six to sixty-seven. The first lesson is free. From then on the fee is USD 100 a month for a group place and USD 150 for private teaching.
+> Leixlip, in County Kildare, has 16,587 usual residents, 5,715 households and two railway stations of its own. Of the 7,823 residents in work, 3,357 travel into Dublin city and its suburbs, and 3,328 work from home at least some of the time. For a Leixlip learner, Modern Age Coders means a live teacher on video, twice in a typical week, in a group of fifteen to twenty at the same level or on a one to one basis, for anyone from six to sixty-seven. The first lesson is free. From then on the fee is USD 100 a month for a group place and USD 150 for private teaching.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Kildare](/coding-classes-in-county-kildare) / Leixlip
 
@@ -12,11 +12,11 @@ Leixlip, County Kildare / Live online
 
 # Coding classes in Leixlip
 
-**What is the best coding class in Leixlip?** Leixlip, in County Kildare, has 16,587 usual residents, 5,715 households and two railway stations of its own. Of the 7,823 residents in work, 3,357 travel into Dublin city and its suburbs, and 3,328 work from home at least some of the time. For a Leixlip learner, Modern Age Coders means a live teacher on video, twice in a typical week, in a small group of five to ten at the same level or on a one to one basis, for anyone from six to sixty-seven. The first lesson is free. From then on the fee is USD 100 a month for a group place and USD 150 for private teaching.
+**What is the best coding class in Leixlip?** Leixlip, in County Kildare, has 16,587 usual residents, 5,715 households and two railway stations of its own. Of the 7,823 residents in work, 3,357 travel into Dublin city and its suburbs, and 3,328 work from home at least some of the time. For a Leixlip learner, Modern Age Coders means a live teacher on video, twice in a typical week, in a group of fifteen to twenty at the same level or on a one to one basis, for anyone from six to sixty-seven. The first lesson is free. From then on the fee is USD 100 a month for a group place and USD 150 for private teaching.
 
 Look up what the people of Leixlip work at and the census will tell you: commerce and trade, professional services, then manufacturing, 930 residents. It is tempting to read that as a picture of the town's employers. It is not. The census counts people where they live. A separate census table follows workers from their town to the city they work in, and it shows 3,357 Leixlip residents working in Dublin city and suburbs, about 43% of the town's working residents. Another 1,111 work mainly from home. So Leixlip's job figures describe what Leixlip people do, wherever they do it. The jobs inside the town are a different question entirely, and this table cannot answer it. Mixing the two up is how a commuter town gets mistaken for an industrial one, or the reverse.
 
-Facts last verified 18 September 2026. Teaching is online; no Leixlip branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 18 September 2026. Teaching is online; no Leixlip branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Leixlip learners start with
 
@@ -168,7 +168,7 @@ Summaries will keep getting faster. Knowing which map a number belongs to is sti
 The practical arrangements, stated plainly.
 
 - **Taught live** A teacher leads every lesson in real time, and the learner speaks, asks and tries things during it.
-- **By level** Groups of five to ten learners at one ability level, drawn from Leixlip, elsewhere in Ireland and other countries.
+- **By level** Groups of fifteen to twenty learners at one ability level, drawn from Leixlip, elsewhere in Ireland and other countries.
 - **A set weekly pattern** Usually two lessons a week, about eight a month, at a time chosen at the start.
 - **School calendar in mind** Mid-terms, holidays and exam weeks are planned around rather than discovered late.
 - **What is needed** A computer, sound that works and a video-capable connection, all confirmed in the free lesson.
@@ -181,7 +181,7 @@ The practical arrangements, stated plainly.
 Three prices, stated once.
 
 - First class: USD 0. A full first lesson at no cost, ending with a level and a recommended course.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, about eight lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, about eight lessons.
 - Private tuition: USD 150 a month. A month of one to one teaching on the same weekly schedule.
 
 Fees are charged monthly in US dollars, the single rate for families outside India, identical in Leixlip and everywhere else in Ireland, with no euro price list. Nothing is paid before the free lesson has agreed a course and an hour, and pauses, missed lessons and switching between group and private are covered on the pricing page.
@@ -222,7 +222,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Leixlip cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

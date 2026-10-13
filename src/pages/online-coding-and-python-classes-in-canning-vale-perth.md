@@ -16,7 +16,7 @@ Canning Vale, Cities of Canning and Gosnells, Western Australia / Live online
 
 Canning Vale is a large family suburb on Perth's south-east side, shared between two councils. Nearly every home is a separate house, and more than half of its families are couples with children. That makes its school enrolment table, published by the WA Department of Education, a natural first dataset for young Python programmers.
 
-Facts last verified 12 October 2026. Teaching is online; no Canning Vale branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Canning Vale branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python from first steps to tested code
 
@@ -180,7 +180,7 @@ Lessons run live over video, so there is no drive along Ranford or Nicholson Roa
 - **Live teaching** A teacher leads every lesson and reviews code as it is typed.
 - **School terms** Classes follow the WA terms and pause in the holidays.
 - **Trial first** One free lesson, followed by a written recommendation.
-- **Level groups** Five to ten learners at one level, or one to one.
+- **Level groups** Fifteen to twenty learners at one level, or one to one.
 - **Two a week** Around eight lessons a month.
 - **Indian time** A 5:30pm Canning Vale lesson starts at 3pm in India.
 
@@ -191,7 +191,7 @@ Lessons run live over video, so there is no drive along Ranford or Nicholson Roa
 Fees are identical for every learner.
 
 - First class: USD 0. Your first lesson is free and includes a plan.
-- Group tuition: USD 100 a month. Group classes: about eight lessons monthly, five to ten learners.
+- Group tuition: USD 100 a month. Group classes: about eight lessons monthly, fifteen to twenty learners.
 - Private tuition: USD 150 a month. One-to-one: about eight lessons monthly with one teacher.
 
 Fees are set in US dollars and begin only once the trial has chosen a course and a weekly time. The pricing page covers holidays and missed lessons.
@@ -228,11 +228,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Canning Vale classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How are learners grouped?
 
-By level and pace in groups of five to ten, not by age or suburb. One-to-one lessons suit anyone no group time fits.
+By level and pace in groups of fifteen to twenty, not by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Can adults learn Python with you?
 

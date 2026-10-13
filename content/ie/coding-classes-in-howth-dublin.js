@@ -165,7 +165,7 @@ module.exports = {
     intro: 'At a glance.',
     cells: [
       { h3: 'Live teaching', p: 'The teacher leads every lesson in real time and checks each learner\'s code while it is being written.' },
-      { h3: 'Groups by level', p: 'Five to ten learners at one level, joining from Howth, other parts of Ireland or abroad.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at one level, joining from Howth, other parts of Ireland or abroad.' },
       { h3: 'Two fixed days', p: 'The same two days each week, about eight lessons over a month.' },
       { h3: 'Term breaks', p: 'Holidays, mid-term weeks and exam time are built into the plan.' },
       { h3: 'At the desk', p: 'A laptop or desktop, a microphone, headphones or speakers, and broadband steady enough for a video call.' },
@@ -178,7 +178,7 @@ module.exports = {
     h2: 'Fees for Howth',
     intro: 'Without fuss.',
     first: 'A free opening lesson with a check of the learner\'s level.',
-    group: 'One month in a same-level group of five to ten, about eight live lessons.',
+    group: 'One month in a same-level group of fifteen to twenty, about eight live lessons.',
     private: 'One month of private lessons on the same schedule.',
     closer: 'The US dollar fee is the same for every family outside India and is paid monthly. Nothing is owed for the free lesson, the monthly charge starts with the course, and the pricing page explains how holidays, missed lessons and a switch between group and private lessons work.'
   },
@@ -202,8 +202,8 @@ module.exports = {
       { q: 'When do lessons happen?', a: 'On weekdays after school and into the evening, and in the daytime at weekends. Lesson times are set in Irish time. The teachers are based in India, which runs four and a half hours ahead of Howth in summer and five and a half in winter, so we only offer times that suit both.' },
       { q: 'Are there classes for adults?', a: 'Yes, for anyone up to sixty-seven, beginners too. After the free lesson an adult chooses between a same-level group and lessons on their own.' },
       { q: 'Will my child be in a group with other children from Howth?', a: 'Not necessarily; we group by level, so the others may be anywhere in Ireland or outside it.' },
-      { q: 'What do coding classes in Howth cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and goals rather than age or address. When no group fits a workable time, lessons are one to one.', boiler: true }
+      { q: 'What do coding classes in Howth cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and goals rather than age or address. When no group fits a workable time, lessons are one to one.', boiler: true }
     ]
   },
 

@@ -14,13 +14,13 @@ For a child learning to code for the first time, a live class with a teacher who
 
 [Try a free live class](/book-demo)Jump to the comparison tableThe 20-second answer
 
-**Live** means a teacher is on screen while your child codes and reacts to what they do; **recorded** means the teaching happened once, to a camera, and the child works alone. The first is expensive to run and is priced per month; the second costs the provider nothing after the first sale and is priced once. For a beginner under about 13, choose live in a small batch of 5 to 10 or 1-on-1. For a teenager who already codes and just needs a specific tool, a good recorded course plus someone to ask questions to is a fair choice. Everything below is the detail behind those two sentences.
+**Live** means a teacher is on screen while your child codes and reacts to what they do; **recorded** means the teaching happened once, to a camera, and the child works alone. The first is expensive to run and is priced per month; the second costs the provider nothing after the first sale and is priced once. For a beginner under about 13, choose live in a batch of 15 to 20 or 1-on-1. For a teenager who already codes and just needs a specific tool, a good recorded course plus someone to ask questions to is a fair choice. Everything below is the detail behind those two sentences.
 
 Courses
 
 ## The live courses this page is comparing against
 
-Every one of these runs as a live class of 5 to 10 children or 1-on-1, one hour, with the same mentor all term. They are here so you can see what a live format actually contains before you weigh it against a recording.
+Every one of these runs as a live class of 15 to 20 children or 1-on-1, one hour, with the same mentor all term. They are here so you can see what a live format actually contains before you weigh it against a recording.
 
 [![Scratch coding for kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 12 / first course**Scratch Coding for Kids**Zero to real games in three to four months. Every project is built live with the mentor watching the child's screen.See the course](/courses/scratch-programming-complete-course)[![Python and AI for kids course thumbnail](/images/python-kids.webp)Ages 9 to 12 / first typed code**Python and AI for Kids**Turtle art, tiny games and a first AI project. Typed code needs a person to catch the missing colon; this is where live earns its fee.See the course](/courses/python-ai-kids-masterclass)[![Python for teens course thumbnail](/images/python-teens.webp)Ages 13 to 18 / the full course**Python for Teens**Beginner to advanced with objects, files and a project of the teen's own. The course a self-driven teen might compare with a recorded one.See the course](/courses/python-complete-masterclass-teens)[![Full stack web development for teens course thumbnail](/images/web-dev-teens.webp)Ages 13 to 18 / deployed project**Full Stack Web Development for Teens**React and Node, ending with a site on a live link. Debugging a real deployment is the part recorded courses skip.See the course](/courses/full-stack-web-development-teens-masterclass)Six formats
 
@@ -28,15 +28,15 @@ Every one of these runs as a live class of 5 to 10 children or 1-on-1, one hour,
 
 The two words hide six different products. The batch size and whether anyone watches the child code matter more than the label.
 
-Live 1-on-1One teacher, one childthe most attention per hour and the highest fee; best for a specific goal or a child who needs the room to themselvesLive small batch5 to 10 children, one teacherthe teacher still sees every screen; children learn from each other's questions; the fee is a fraction of 1-on-1Live large cohort20 to 100 in a webinarlive in name; the teacher cannot see any screen, questions go to a chat box, and the child is effectively watching a recording that cannot be pausedRecorded, self-pacedVideo lessons, no teachercheap or free, available at 6 am on a Sunday, and abandoned by most children within weeks because nobody notices when they stopRecorded plus mentor callVideos, a weekly check-ina fair middle ground for teens; the check-in is where the learning is confirmed, so ask how long it is and who runs itSchool coding clubOne adult, a whole classoften free and often the child's first exposure; rarely a place to get unstuck on their own projectSide by side
+Live 1-on-1One teacher, one childthe most attention per hour and the highest fee; best for a specific goal or a child who needs the room to themselvesLive batch5 to 10 children, one teacherthe teacher still sees every screen; children learn from each other's questions; the fee is a fraction of 1-on-1Live large cohort20 to 100 in a webinarlive in name; the teacher cannot see any screen, questions go to a chat box, and the child is effectively watching a recording that cannot be pausedRecorded, self-pacedVideo lessons, no teachercheap or free, available at 6 am on a Sunday, and abandoned by most children within weeks because nobody notices when they stopRecorded plus mentor callVideos, a weekly check-ina fair middle ground for teens; the check-in is where the learning is confirmed, so ask how long it is and who runs itSchool coding clubOne adult, a whole classoften free and often the child's first exposure; rarely a place to get unstuck on their own projectSide by side
 
 ## Live vs recorded, on the things that decide whether a child learns
 
-Seven rows, judged from the child's side of the screen rather than the provider's. The middle column is a live class of 5 to 10, which is what we run, so read that column as ours.
+Seven rows, judged from the child's side of the screen rather than the provider's. The middle column is a live class of 15 to 20, which is what we run, so read that column as ours.
 
 Swipe sideways to see every column
 
-|   | Recorded, self-paced | Live small batch (5 to 10) ours | Live 1-on-1 |
+|   | Recorded, self-paced | Live batch (15 to 20) ours | Live 1-on-1 |
 | --- | --- | --- | --- |
 | Who notices when the child is stuck | Nobody, until a parent checks | The teacher, within the minute, on the child's own screen | The teacher, immediately |
 | How a bug gets fixed | Rewind the video and hope the mistake is the same one | The teacher reads the child's code and asks a question that leads them to it | Same, with the whole hour available for it |
@@ -140,7 +140,7 @@ Many products described as live are webinars. These questions find out in one ca
 
 ### How many children in the class, at most?
 
-Get the maximum. "Small" means nothing; a number does. Ours is 5 to 10 in a group batch and 3 to 4 in a mini batch.
+Get the maximum. "Small" means nothing; a number does. Ours is 15 to 20 in a group batch and up to 6 in a mini batch.
 
 2
 
@@ -176,7 +176,7 @@ Full disclosure: this is us
 
 ## Where Modern Age Coders lands
 
-We are a live online school teaching coding, AI and mathematics to students from age 6 to 67, in India and 25+ countries, since 2020. Every class is one hour, live, in a batch of 5 to 10 or 1-on-1, taught by a mentor who sees the student's screen and stays with them term after term. Recordings of the family's own classes are available afterwards for revision, which is the one job a recording does well.
+We are a live online school teaching coding, AI and mathematics to students from age 6 to 67, in India and 25+ countries, since 2020. Every class is one hour, live, in a batch of 15 to 20 or 1-on-1, taught by a mentor who sees the student's screen and stays with them term after term. Recordings of the family's own classes are available afterwards for revision, which is the one job a recording does well.
 
 ### Our published fees
 
@@ -202,7 +202,7 @@ Yes, in three cases. A teenager who already codes and needs one specific tool le
 
 How many children should be in a live online coding class?
 
-Few enough that the teacher can look at every child's code during the hour. In our experience that ceiling is about ten; our group batches are 5 to 10 and mini batches 3 to 4. Ask any provider for the maximum, not the typical number, and treat "it varies" as the largest number they will admit.
+Few enough that the teacher can look at every child's code during the hour. In our experience that ceiling is about ten; our group batches are 15 to 20 and mini batches up to 6. Ask any provider for the maximum, not the typical number, and treat "it varies" as the largest number they will admit.
 
 Do live coding classes come with recordings?
 
@@ -214,7 +214,7 @@ Ask for the maximum batch size, whether the teacher can see your child's screen,
 
 Which format is best for a 7 or 8 year old starting coding?
 
-A live class in a batch of 5 to 10 or 1-on-1, in Scratch, one hour, as long as the child can sit for an hour. A 6 or 7 year old who manages twenty minutes at home is better served by short app-based sessions first; starting live at 7 or 8 loses nothing. Our [coding for 8 year olds](/coding-for-8-year-olds) page describes what that first year looks like.
+A live class in a batch of 15 to 20 or 1-on-1, in Scratch, one hour, as long as the child can sit for an hour. A 6 or 7 year old who manages twenty minutes at home is better served by short app-based sessions first; starting live at 7 or 8 loses nothing. Our [coding for 8 year olds](/coding-for-8-year-olds) page describes what that first year looks like.
 
 ## Decide in one hour, not on a page
 

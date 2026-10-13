@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across County Tipperary,
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-tipperary
 source: src/pages/coding-classes-in-county-tipperary.html
 ---
-> County Tipperary holds 167,895 people, 8,342 more than in 2016, including 33,286 children aged 15 and under. Clonmel is the largest town at 18,369, with Nenagh at 9,895 and Thurles at 8,185, and the county has run as a single council since the North and South Riding councils merged. Its third level rate is 38% against 45% nationally, one of several counties where that gap is wide. We teach ages 6 to 67 live online at a fixed weekly hour, in groups of five to ten placed by ability or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.
+> County Tipperary holds 167,895 people, 8,342 more than in 2016, including 33,286 children aged 15 and under. Clonmel is the largest town at 18,369, with Nenagh at 9,895 and Thurles at 8,185, and the county has run as a single council since the North and South Riding councils merged. Its third level rate is 38% against 45% nationally, one of several counties where that gap is wide. We teach ages 6 to 67 live online at a fixed weekly hour, in groups of fifteen to twenty placed by ability or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [Waterford](/best-coding-class-in-waterford) / County Tipperary
 
@@ -12,11 +12,11 @@ County Tipperary, Munster / Live online
 
 # Coding classes in County Tipperary
 
-**What are the best coding classes in County Tipperary?** County Tipperary holds 167,895 people, 8,342 more than in 2016, including 33,286 children aged 15 and under. Clonmel is the largest town at 18,369, with Nenagh at 9,895 and Thurles at 8,185, and the county has run as a single council since the North and South Riding councils merged. Its third level rate is 38% against 45% nationally, one of several counties where that gap is wide. We teach ages 6 to 67 live online at a fixed weekly hour, in groups of five to ten placed by ability or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.
+**What are the best coding classes in County Tipperary?** County Tipperary holds 167,895 people, 8,342 more than in 2016, including 33,286 children aged 15 and under. Clonmel is the largest town at 18,369, with Nenagh at 9,895 and Thurles at 8,185, and the county has run as a single council since the North and South Riding councils merged. Its third level rate is 38% against 45% nationally, one of several counties where that gap is wide. We teach ages 6 to 67 live online at a fixed weekly hour, in groups of fifteen to twenty placed by ability or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.
 
 We went looking for Tipperary council data for this page and found something more interesting than a spreadsheet. The council publishes nothing at all on the national data portal, which its own publisher page states plainly: zero datasets. It does run open data pages on its own website, and every attempt to read them returned a security block instead, the kind that stops automated requests. So the data may well exist and we cannot see it. At that point there are two kinds of person. One goes looking for a way around the block. The other writes down exactly what happened, quotes the message, and uses a source that gives permission. We are teaching children to be the second kind, and this page explains why that is the more valuable habit in a career, not just the more polite one.
 
-Facts last verified 16 September 2026. Teaching is online; no County Tipperary branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no County Tipperary branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four ways into this
 
@@ -169,7 +169,7 @@ Six things that are true of every class we run, so there is nothing to discover 
 
 - **A teacher, live, every week** Not a video library with a chat box. Someone is there for the hour and expects the learner to speak.
 - **Zero travel** In a county where one commuter in a hundred takes a bus, that is the whole argument.
-- **Placed on ability** Groups of five to ten at one level, drawn from Tipperary and other countries so a suitable class exists at a workable hour.
+- **Placed on ability** Groups of fifteen to twenty at one level, drawn from Tipperary and other countries so a suitable class exists at a workable hour.
 - **Irish school shape** Junior Cycle, Transition Year, fifth and sixth year, with mid-terms and exams planned around.
 - **Same hour, every week** Two lessons in most weeks, about eight a month, agreed once and then kept.
 - **A time zone ahead** Teachers work from India, four and a half hours ahead of Ireland in summer and five and a half in winter.
@@ -181,7 +181,7 @@ Six things that are true of every class we run, so there is nothing to discover 
 Three figures, and the conditions stated up front rather than in a footnote.
 
 - First class: USD 0. A full first lesson at no cost, ending with a level and a recommendation.
-- Group tuition: USD 100 a month. A month of group classes, normally eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group classes, normally eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. A month of one to one classes on the same weekly pattern.
 
 We bill monthly in US dollars at the single rate charged outside India, so Nenagh and Carrick-on-Suir pay the same and there is no euro list to compare against. Nothing is charged before the free lesson has agreed a course and an hour, and pauses, missed lessons and moves between formats are set out on the pricing page.
@@ -222,7 +222,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do County Tipperary coding classes cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

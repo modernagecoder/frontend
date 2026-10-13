@@ -204,14 +204,14 @@ Teachers work from India on a clock that never shifts, putting Scotland four and
 - **Notation drills** dx, the constant, brackets and radians, until leaving them out feels wrong.
 - **Novel questions** Unfamiliar problems under exam timing, as the report recommends.
 - **Calculator sense** In paper 2 practice, the calculator used for what it does well, with working still recorded.
-- **Five to ten per group** S5 and S6 students at one rung, reviewing each other's chains of working.
+- **Fifteen to twenty per group** S5 and S6 students at one rung, reviewing each other's chains of working.
 
 ## Fees for Higher Maths lessons
 
 We charge a monthly fee in US dollars, identical for every family outside India. There is no charge for a first lesson, and no invoice until a course and a weekly slot have been agreed.
 
 - Free first class: USD 0. A lesson on real Higher questions. An honest read of how secure the working is. We ask only for a phone number.
-- Group batch: USD 100 a month. Five to ten students on one rung. The same teacher across S5. Working marked line by line each week. Timed papers in spring.
+- Group batch: USD 100 a month. Fifteen to twenty students on one rung. The same teacher across S5. Working marked line by line each week. Timed papers in spring.
 - One to one: USD 150 a month. A teacher for one student. A plan built back from the diet. Suits a student repairing algebra habits.
 
 ## What S5 students and parents ask

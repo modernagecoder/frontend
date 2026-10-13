@@ -16,7 +16,7 @@ Gungahlin district, north Canberra, ACT / Live online
 
 Gungahlin is a young district: its median age at the 2021 Census was 32, more than half of its families were couples with children, and 2.8% of its workers rode light rail to work. Its suburbs all run on a weekly garbage collection and alternating fortnights for recycling and green waste, which is exactly the kind of schedule AI tools get wrong.
 
-Facts last verified 13 October 2026. Teaching is online; no Gungahlin branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Gungahlin branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Agents, vibe coding and Python
 
@@ -176,7 +176,7 @@ Classes run on video, so learners join from home across the district.
 - **Teacher-led** Every lesson is live, with questions answered as code is written.
 - **ACT calendar** Lessons follow ACT school terms and stop for holidays.
 - **Trial first** A free lesson, then a short written plan.
-- **Group sizes** Five to ten learners at a level, or private sessions.
+- **Group sizes** Fifteen to twenty learners at a level, or private sessions.
 - **Weekly rhythm** Two lessons a week, about eight a month.
 - **India hours** During daylight saving a 6pm Gungahlin lesson is 12:30pm in India.
 
@@ -187,7 +187,7 @@ Classes run on video, so learners join from home across the district.
 Every learner pays the same fees.
 
 - First class: USD 0. The first lesson is free, with a plan to follow.
-- Group tuition: USD 100 a month. Groups: around eight lessons monthly, five to ten learners.
+- Group tuition: USD 100 a month. Groups: around eight lessons monthly, fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private: around eight lessons monthly with one teacher.
 
 Fees are in US dollars and begin only after the trial has settled a course and weekly time. See the pricing page for holidays and missed lessons.
@@ -224,11 +224,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Gungahlin classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How are groups organised?
 
-By level and pace, five to ten learners, not by age or suburb. One-to-one lessons are there when no group time fits.
+By level and pace, fifteen to twenty learners, not by age or suburb. One-to-one lessons are there when no group time fits.
 
 ### Can adults learn to build agents?
 

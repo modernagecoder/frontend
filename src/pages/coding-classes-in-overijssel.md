@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across Overijssel, ages 
 canonical: https://learn.modernagecoders.com/coding-classes-in-overijssel
 source: src/pages/coding-classes-in-overijssel.html
 ---
-> Coding classes in Overijssel reach 1,202,375 people in 25 municipalities (Statistics Netherlands, 1 January 2026), three landscapes and one river: Twente in the east around Enschede, Salland in the middle around Deventer, and the Kop and the IJssel delta in the north around Zwolle, the capital. The dike rings along the IJssel were built to a standard of one flood in 1,250 years, a figure that means something quite different from what it sounds like. The class is the same in every one of the 25: live, online, in English, for learners from 6 to 67, with nothing charged for the first lesson and then USD 100 a month for a group of five to ten or USD 150 for a teacher alone, taught by Modern Age Coders.
+> Coding classes in Overijssel reach 1,202,375 people in 25 municipalities (Statistics Netherlands, 1 January 2026), three landscapes and one river: Twente in the east around Enschede, Salland in the middle around Deventer, and the Kop and the IJssel delta in the north around Zwolle, the capital. The dike rings along the IJssel were built to a standard of one flood in 1,250 years, a figure that means something quite different from what it sounds like. The class is the same in every one of the 25: live, online, in English, for learners from 6 to 67, with nothing charged for the first lesson and then USD 100 a month for a group of fifteen to twenty or USD 150 for a teacher alone, taught by Modern Age Coders.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Overijssel
 
@@ -12,11 +12,11 @@ Province of Overijssel / Live online
 
 # Coding classes in Overijssel, where a one-in-1,250-year dike is a one-in-sixteen lifetime
 
-**What are the best coding classes in Overijssel?** Coding classes in Overijssel reach 1,202,375 people in 25 municipalities (Statistics Netherlands, 1 January 2026), three landscapes and one river: Twente in the east around Enschede, Salland in the middle around Deventer, and the Kop and the IJssel delta in the north around Zwolle, the capital. The dike rings along the IJssel were built to a standard of one flood in 1,250 years, a figure that means something quite different from what it sounds like. The class is the same in every one of the 25: live, online, in English, for learners from 6 to 67, with nothing charged for the first lesson and then USD 100 a month for a group of five to ten or USD 150 for a teacher alone, taught by Modern Age Coders.
+**What are the best coding classes in Overijssel?** Coding classes in Overijssel reach 1,202,375 people in 25 municipalities (Statistics Netherlands, 1 January 2026), three landscapes and one river: Twente in the east around Enschede, Salland in the middle around Deventer, and the Kop and the IJssel delta in the north around Zwolle, the capital. The dike rings along the IJssel were built to a standard of one flood in 1,250 years, a figure that means something quite different from what it sounds like. The class is the same in every one of the 25: live, online, in English, for learners from 6 to 67, with nothing charged for the first lesson and then USD 100 a month for a group of fifteen to twenty or USD 150 for a teacher alone, taught by Modern Age Coders.
 
 A dike built to a one-in-1,250-year standard is not a dike that floods once every 1,250 years. It is a dike with a 0.08 percent chance of failing in any given year, which over the eighty years of a child born in Kampen this year adds up to about one chance in sixteen. The program that turns the first number into the second is fifteen lines long, and every family living below the IJssel should have one.
 
-Facts last verified 7 September 2026. Teaching is online; no Overijssel branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Overijssel branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a province of a technical university, a river and a border
 
@@ -208,7 +208,7 @@ Twente looks east to Germany, the Kop looks north to Friesland, and Salland look
 Printed before a phone number is asked for.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 A single dollar rate applies everywhere outside India, with no euro list, and Staphorst pays what Enschede pays. Course and hour are settled in the free lesson and payment comes afterwards, over WhatsApp. Pauses, plan changes and missed lessons are described on the pricing page.
@@ -249,7 +249,7 @@ No, and none is claimed in Zwolle, in Enschede or anywhere in the Netherlands. L
 
 ### What do Overijssel coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in an Overijssel group?
 

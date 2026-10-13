@@ -37,7 +37,7 @@ module.exports = {
   twitterDescription: 'Sheffield maths, taught live online: what bearing does each Supertram line take from the Cathedral stop?',
   pageName: 'Maths Tuition in Sheffield',
   webPageDescription: 'Live online maths tuition for Sheffield learners aged 6 to 67, covering KS2 and Year 6 SATs maths, KS3, GCSE and IGCSE, A level and Further Maths, and adult maths, with a bearings and trigonometry project built on the Supertram network.',
-  courseDescription: 'Live online maths classes for Sheffield learners of all ages, in level-matched groups of five to ten or one to one, following the national curriculum for England and the GCSE and A level specifications.',
+  courseDescription: 'Live online maths classes for Sheffield learners of all ages, in level-matched groups of fifteen to twenty or one to one, following the national curriculum for England and the GCSE and A level specifications.',
   crumbs: [{ name: 'Courses', href: '/courses' }, { name: 'Coding classes in the UK', href: '/coding-classes-in-united-kingdom' }],
   crumbLabel: 'Maths tuition in Sheffield',
   navLinks: [
@@ -60,11 +60,11 @@ module.exports = {
     ['Exam boards', 'AQA, Edexcel, OCR; IGCSE as well'],
     ['Post-16', 'A level Maths, Further Maths'],
     ['Adults', 'Functional Skills maths, GCSE resits'],
-    ['Lessons', 'Live online; 5 to 10 per group or one to one'],
+    ['Lessons', 'Live online; 15 to 20 per group or one to one'],
     ['Sheffield project', 'Bearings and triangles on the Supertram']
   ],
   capsuleQ: 'What does maths tuition in Sheffield with us look like?',
-  capsule: 'Learners across Sheffield, the youngest six and the oldest 67, join our maths lessons by live video, either as one of five to ten classmates working at one level or alone with their tutor. Younger pupils get KS2 maths with tables practice ahead of the Year 4 check and reasoning practice ahead of Year 6 SATs maths. Teenagers get KS3 maths and then GCSE (AQA, Edexcel or OCR, either tier) or IGCSE, followed by A level Maths with optional Further Maths. Adults get anything from Functional Skills maths to a GCSE resit. Lessons combine exam practice with real problems. In Sheffield that means measuring bearings from the Cathedral tram stop to each end of the Supertram and solving the triangles they make. The first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150 a month.',
+  capsule: 'Learners across Sheffield, the youngest six and the oldest 67, join our maths lessons by live video, either as one of fifteen to twenty classmates working at one level or alone with their tutor. Younger pupils get KS2 maths with tables practice ahead of the Year 4 check and reasoning practice ahead of Year 6 SATs maths. Teenagers get KS3 maths and then GCSE (AQA, Edexcel or OCR, either tier) or IGCSE, followed by A level Maths with optional Further Maths. Adults get anything from Functional Skills maths to a GCSE resit. Lessons combine exam practice with real problems. In Sheffield that means measuring bearings from the Cathedral tram stop to each end of the Supertram and solving the triangles they make. The first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150 a month.',
 
   picks: {
     eyebrow: 'Where Sheffield learners usually start',
@@ -270,7 +270,7 @@ module.exports = {
     cells: [
       { h3: 'One tutor, every week', p: 'The tutor who saw last week\'s slip checks for it again this week.' },
       { h3: 'Short reports', p: 'Families get a brief note on progress after lessons.' },
-      { h3: 'Level-matched groups', p: 'Five to ten learners at one level, so the pace suits everyone.' },
+      { h3: 'Level-matched groups', p: 'Fifteen to twenty learners at one level, so the pace suits everyone.' },
       { h3: 'Maps and real places', p: 'Tram networks and local data alongside past papers.' },
       { h3: 'One to one when needed', p: 'For a specific weakness or the weeks before an exam.' },
       { h3: 'Explain, then practise', p: 'Learners say why a rule works before they drill it.' }
@@ -285,7 +285,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Paid monthly in US dollars, one rate for all countries except India, with no joining fee and no contract.',
     free: ['A full lesson at the right level', 'An honest assessment afterwards', 'No card needed'],
-    group: ['Five to ten learners at one level', 'The same tutor each week', 'Homework marked with feedback', 'Certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same tutor each week', 'Homework marked with feedback', 'Certificate at the end'],
     one: ['One tutor for one learner', 'Aimed at specific gaps', 'Ideal before exams']
   },
 
@@ -293,7 +293,7 @@ module.exports = {
     eyebrow: 'Sheffield maths questions',
     h2: 'What Sheffield families and adult learners ask',
     items: [
-      { q: 'How much does a maths tutor cost in Sheffield?', a: 'Your trial costs nothing. A seat in a Sheffield-friendly class of five to ten is then USD 100 per month, and a private tutor is USD 150 per month; there is no sign-up charge and you can leave whenever you wish.' },
+      { q: 'How much does a maths tutor cost in Sheffield?', a: 'Your trial costs nothing. A seat in a Sheffield-friendly class of fifteen to twenty is then USD 100 per month, and a private tutor is USD 150 per month; there is no sign-up charge and you can leave whenever you wish.' },
       { q: 'What is a three-figure bearing?', a: 'A three-figure bearing is a direction measured clockwise from north, written with three digits, so east is 090 degrees and south-west is 225 degrees. From the Sheffield Cathedral tram stop, Meadowhall Interchange lies on a bearing of 043.9 degrees.' },
       { q: 'Will a tutor on a screen help as much as one in the room?', a: 'In our experience it helps just as much when the lesson is live and the tutor can follow each line of working. Ours write and watch on a shared board, so an error in the second line never survives to the tenth.' },
       { q: 'I need to resit GCSE maths. Can you help?', a: 'Yes. Learners of any age join our GCSE course for a resit. We find out which topics are already secure, then spend the time where it will raise the mark most.' },

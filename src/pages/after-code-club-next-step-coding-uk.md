@@ -100,7 +100,7 @@ The table is not a criticism. Code Club is built for breadth: to reach as many c
 
 ### What we offer
 
-Small live groups of five to ten children at the same level, with a teacher who reads every child's code and gives specific feedback.
+Small live groups of fifteen to twenty children at the same level, with a teacher who reads every child's code and gives specific feedback.
 
 Projects the children choose, with the skills taught in order so each week builds on the last.
 
@@ -191,14 +191,14 @@ Our teachers are in India, which keeps one time all year, so the UK is four and 
 - **Skills in order** Variables, loops, lists and functions taught so each lesson builds on the last.
 - **Stuck is normal** Getting stuck treated as the lesson, not a failure, with a question rather than an answer.
 - **Show and tell** Children share what they made, as they did at club.
-- **Small groups** Five to ten children at one level, so everyone is seen.
+- **Small groups** Fifteen to twenty children at one level, so everyone is seen.
 
 ## Fees for next-step coding lessons
 
 Unlike Code Club, this is a paid service. We charge monthly in US dollars, at a single rate for families outside India; a first lesson costs nothing, and invoices start only after you choose a course and a weekly slot.
 
 - Free first class: USD 0. A lesson built around what your child made at club. An honest view of the right next step. A phone number is all we need.
-- Group batch: USD 100 a month. Five to ten children at one level. The same teacher each week. Code reviewed in every lesson. Projects the children choose.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. The same teacher each week. Code reviewed in every lesson. Projects the children choose.
 - One to one: USD 150 a month. A teacher for one child. Paced to a child who races ahead. Suits a child with a big project in mind.
 
 ## What parents ask

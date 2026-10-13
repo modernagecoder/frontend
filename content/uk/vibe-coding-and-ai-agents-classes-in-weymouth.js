@@ -160,7 +160,7 @@ module.exports = {
       { h3: 'They build, we guide', p: 'The keyboard belongs to the learner. A tutor watches the shared screen, asks why, and steps in only when needed.' },
       { h3: 'A trial sets the level', p: 'One free session shows us what the learner already knows and which course should come next.' },
       { h3: 'Free to begin', p: 'There is no fee and no card for that session.' },
-      { h3: 'Groups of five to ten', p: 'Learners from across the UK, grouped by what they can do and not by where they live.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners from across the UK, grouped by what they can do and not by where they live.' },
       { h3: 'Twice a week', p: 'In school terms only; tell us the Dorset holiday dates and we skip them.' },
       { h3: 'Fixed UK hour', p: 'Your lesson stays at the same local time through both clock changes.' }
     ],

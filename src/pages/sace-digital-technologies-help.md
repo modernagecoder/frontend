@@ -200,7 +200,7 @@ Lessons are live and come from our tutors in India. Adelaide runs four hours ahe
 - **Invented briefs** Every project we work on in class is made up, never the assessed one.
 - **Explain aloud** Students talk through code the way a walkthrough requires.
 - **Design before code** Pseudocode or a structure chart before the editor opens.
-- **Small groups** Five to ten students at one level, reviewing each other's practice code.
+- **Small groups** Fifteen to twenty students at one level, reviewing each other's practice code.
 - **One-to-one sessions** For one skill, such as data cleaning, that needs focused repair.
 - **No grade forecasts** We never predict a SACE grade; the work and the result belong to the student.
 
@@ -209,7 +209,7 @@ Lessons are live and come from our tutors in India. Adelaide runs four hours ahe
 Lessons are billed monthly in US dollars, one rate for every family outside India, with no joining fee and nothing owed beyond the month in progress.
 
 - Free first class: USD 0. A full coding lesson with a tutor. A clear view of the next skill to build. No card details asked.
-- Group batch: USD 100 a month. Five to ten students at one level. One tutor every week. Practice code reviewed in class. A certificate when the course ends.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. One tutor every week. Practice code reviewed in class. A certificate when the course ends.
 - One to one: USD 150 a month. A tutor for one student. Focused on one skill at a time. Useful before a programming skills task.
 
 ## Digital Technologies questions we are asked

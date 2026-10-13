@@ -4,7 +4,7 @@ description: "Live online coding, Python, data science and maths classes across 
 canonical: https://learn.modernagecoders.com/coding-classes-in-cheshire
 source: src/pages/coding-classes-in-cheshire.html
 ---
-> Cheshire, as a ceremonial county, is four councils with 1,095,374 residents at the 2021 Census: Cheshire East, Cheshire West and Chester, Warrington and Halton. Warrington is the biggest town, then Chester, Crewe, Ellesmere Port, Runcorn, Widnes and Macclesfield, with salt towns, market towns and commuter villages between. Our classes reach them all in exactly the same way: taught live over video by teachers in India, grouping learners by skill and never simply by birthday, for anyone aged 6 to 67, with five to ten in a group or one learner with one teacher. Programming, Python, data science, AI and maths are all available. The Cheshire project uses a record kept at Jodrell Bank. There is no charge for the first lesson; after it, group places are USD 100 a month and private lessons USD 150.
+> Cheshire, as a ceremonial county, is four councils with 1,095,374 residents at the 2021 Census: Cheshire East, Cheshire West and Chester, Warrington and Halton. Warrington is the biggest town, then Chester, Crewe, Ellesmere Port, Runcorn, Widnes and Macclesfield, with salt towns, market towns and commuter villages between. Our classes reach them all in exactly the same way: taught live over video by teachers in India, grouping learners by skill and never simply by birthday, for anyone aged 6 to 67, with fifteen to twenty in a group or one learner with one teacher. Programming, Python, data science, AI and maths are all available. The Cheshire project uses a record kept at Jodrell Bank. There is no charge for the first lesson; after it, group places are USD 100 a month and private lessons USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Cheshire
 
@@ -12,11 +12,11 @@ County of Cheshire / Live online
 
 # Coding classes in Cheshire
 
-**What are the best coding classes in Cheshire?** Cheshire, as a ceremonial county, is four councils with 1,095,374 residents at the 2021 Census: Cheshire East, Cheshire West and Chester, Warrington and Halton. Warrington is the biggest town, then Chester, Crewe, Ellesmere Port, Runcorn, Widnes and Macclesfield, with salt towns, market towns and commuter villages between. Our classes reach them all in exactly the same way: taught live over video by teachers in India, grouping learners by skill and never simply by birthday, for anyone aged 6 to 67, with five to ten in a group or one learner with one teacher. Programming, Python, data science, AI and maths are all available. The Cheshire project uses a record kept at Jodrell Bank. There is no charge for the first lesson; after it, group places are USD 100 a month and private lessons USD 150.
+**What are the best coding classes in Cheshire?** Cheshire, as a ceremonial county, is four councils with 1,095,374 residents at the 2021 Census: Cheshire East, Cheshire West and Chester, Warrington and Halton. Warrington is the biggest town, then Chester, Crewe, Ellesmere Port, Runcorn, Widnes and Macclesfield, with salt towns, market towns and commuter villages between. Our classes reach them all in exactly the same way: taught live over video by teachers in India, grouping learners by skill and never simply by birthday, for anyone aged 6 to 67, with fifteen to twenty in a group or one learner with one teacher. Programming, Python, data science, AI and maths are all available. The Cheshire project uses a record kept at Jodrell Bank. There is no charge for the first lesson; after it, group places are USD 100 a month and private lessons USD 150.
 
 About 6,500 light-years away, the collapsed core of a star that exploded in 1054 is spinning roughly thirty times a second, and it is slowing down. Since 1988, astronomers at Jodrell Bank, under the 76 metre Lovell Telescope on the Cheshire plain, have published its exact spin rate month by month. That record is a gift to a learner, because it contains a derivative you can measure yourself. Subtract one month's spin from the next, divide by the time between them, and you have the rate at which a dead star is losing speed. This page's project does that for every pair of months in 38 years, checks the result against Jodrell's own figure, and then asks what the slowdown says about the star's age.
 
-Facts last verified 26 September 2026. Teaching is online; no Cheshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Cheshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four first courses for Cheshire learners
 
@@ -158,7 +158,7 @@ Cheshire's towns are spread across a wide, rural county. Online lessons remove e
 - **Home is the classroom** A bedroom in Frodsham, a kitchen in Holmes Chapel, a study in Lymm. The teacher shares a screen and the learner writes the code.
 - **English, and UK school terms** Year 9 options, GCSEs and A levels are named the way Cheshire schools name them, and all teaching is in English.
 - **A free lesson first** A complete lesson of real work, then an honest recommendation. We never ask for card details at this stage.
-- **Matched to your level** Groups of five to ten learners at the same point, from many towns and countries, meeting at a sensible hour.
+- **Matched to your level** Groups of fifteen to twenty learners at the same point, from many towns and countries, meeting at a sensible hour.
 - **Breaks to suit** Typically two lessons a week, paused for your own school's holidays, since the four councils and academies differ.
 - **Timetables in UK time** India, our teachers' base, runs 5.5 hours ahead of UK winter time and 4.5 hours ahead of UK summer time; every lesson is fixed in UK time.
 
@@ -169,7 +169,7 @@ Cheshire's towns are spread across a wide, rural county. Online lessons remove e
 One price list for all four councils and every country outside India.
 
 - First class: USD 0. A full lesson of real work, ending in a recommended level and course.
-- Group tuition: USD 100 a month. About eight lessons a month, in a group of five to ten at the same level.
+- Group tuition: USD 100 a month. About eight lessons a month, in a group of fifteen to twenty at the same level.
 - Private tuition: USD 150 a month. About eight lessons a month with one teacher and one learner.
 
 We bill in US dollars everywhere except India and have no sterling price list. The first charge comes after the free lesson, once a course and a regular slot are agreed; the pricing page explains pausing, missed lessons and changing between group and private places.

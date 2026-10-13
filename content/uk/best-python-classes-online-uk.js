@@ -82,7 +82,7 @@ module.exports = {
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Python became the default language of British school computing without anybody legislating for it. Wales names it in the rules of its new GCSE. Northern Ireland permits it alongside Java and C#. In England the boards choose, and one of them, Pearson Edexcel, adopted Python as what it calls the vehicle for the whole qualification and then published a Programming Language Subset stating which parts of Python 3 its on-screen paper will use, with a written commitment not to exceed it. Knowing that list exists is useful. Building a year of teaching around only that list is not, because the subset is a floor and every interesting problem sits above it. We teach Python live online to learners from about ten upwards, in groups of five to ten at one level or one to one. The first lesson is free; after that it is USD 100 a month in a group or USD 150 one to one.',
+  capsule: 'Python became the default language of British school computing without anybody legislating for it. Wales names it in the rules of its new GCSE. Northern Ireland permits it alongside Java and C#. In England the boards choose, and one of them, Pearson Edexcel, adopted Python as what it calls the vehicle for the whole qualification and then published a Programming Language Subset stating which parts of Python 3 its on-screen paper will use, with a written commitment not to exceed it. Knowing that list exists is useful. Building a year of teaching around only that list is not, because the subset is a floor and every interesting problem sits above it. We teach Python live online to learners from about ten upwards, in groups of fifteen to twenty at one level or one to one. The first lesson is free; after that it is USD 100 a month in a group or USD 150 one to one.',
 
   picks: {
     eyebrow: 'Start here',
@@ -228,7 +228,7 @@ module.exports = {
       { h3: 'Code read by a person', p: 'Every week, with reasons. A recorded course cannot tell a learner why their working program is badly built.' },
       { h3: 'Boards named, not guessed', p: 'Teachers work to the qualification a school has chosen, whether that is an English board, WJEC, CCEA or Qualifications Scotland, which replaced SQA in February 2026.' },
       { h3: 'AI used openly', p: 'Permitted once a learner can predict the answer, and logged: what the tool offered, what was kept, and why.' },
-      { h3: 'Groups by level', p: 'Five to ten learners at the same stage, reading each other\'s code and disagreeing about it.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at the same stage, reading each other\'s code and disagreeing about it.' },
       { h3: 'Work kept publicly', p: 'Projects go to the learner\'s own repository, which is what a school, university or employer can actually open.' }
     ]
   },
@@ -241,7 +241,7 @@ module.exports = {
     h2: 'What Python classes cost in the UK',
     lede: 'One monthly charge, quoted in US dollars for every family outside India. The free lesson comes first and nothing is taken until a course and a slot are agreed.',
     free: ['A full lesson with a teacher', 'An honest view of the right starting step', 'No card details requested'],
-    group: ['Five to ten learners at one step', 'The same teacher throughout', 'Code read and commented on weekly', 'A certificate when a course finishes'],
+    group: ['Fifteen to twenty learners at one step', 'The same teacher throughout', 'Code read and commented on weekly', 'A certificate when a course finishes'],
     one: ['One teacher and one learner', 'Planned around exam dates or a specific target', 'Right for deadlines and for learners well ahead']
   },
 

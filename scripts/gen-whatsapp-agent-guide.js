@@ -89,7 +89,7 @@ out.push('|---|---|---|');
 const dp = cfg.defaultPricing || {};
 function fee(tier, src) { return (src[tier] && src[tier].display) ? src[tier].display : 'not offered'; }
 out.push('| Group class (max 10 students) | ' + fee('group', dp) + ' | ' + fee('group', intl) + ' |');
-out.push('| Mini Batch (3-4 students, India only) | ' + fee('miniBatch', dp) + ' | not offered |');
+out.push('| Mini Batch (up to 6 students, India only) | ' + fee('miniBatch', dp) + ' | not offered |');
 out.push('| Personalized 1-on-1 | ' + fee('personal', dp) + ' (1 class a week, 4 a month) | ' +
     fee('personal', intl) + ' (2 classes a week, 8 a month) |');
 out.push('');
@@ -180,7 +180,7 @@ out.push('');
 out.push('## Quick answers for common parent questions');
 out.push('');
 out.push('- **Demo class**: Priority Live Demo (paid, guaranteed today or tomorrow, fee adjusted against the first month) at ' + BASE + '/priority-demo, or the free demo, which is a waiting list with no fixed date.');
-out.push('- **Class format**: live online with a real teacher, one hour a class. Group (max 10) and Mini Batch (3-4): 2 classes a week. 1-on-1: 1 class a week (4 a month) in India, 2 a week outside India.');
+out.push('- **Class format**: live online with a real teacher, one hour a class. Group (max 10) and Mini Batch (up to 6): 2 classes a week. 1-on-1: 1 class a week (4 a month) in India, 2 a week outside India.');
 out.push('- **Ages**: 6 to 67, kids (6-12), teens (13-18), college students and working professionals.');
 out.push('- **Certificates**: yes, on course completion.');
 out.push('- **Full catalog page**: ' + BASE + '/courses · Course atlas: ' + BASE + '/course-atlas');

@@ -188,7 +188,7 @@ module.exports = {
       { h3: 'The laptop is the classroom', p: 'Whether home is in Schenkel or \'s-Gravenland, the class begins on screen at the agreed minute. Nobody takes the metro in for it, and nobody waits to be picked up after.' },
       { h3: 'Dutch school words, English lesson', p: 'The terms a Capelle school uses, from groep and brugklas to vmbo, havo, vwo and the profielkeuze, stay in Dutch; the explaining is done in English.' },
       { h3: 'What the free hour includes', p: 'A complete lesson on a genuine problem, watched by the teacher, followed by a suggested level, a course and a regular time. There is no card to enter and nothing to sign.' },
-      { h3: 'How groups are formed', p: 'Each group is five to ten learners at one stage of one subject. Capelle has 10,749 residents under fifteen, and five of them matching on subject, level and hour is rare, so groups also draw on learners in other countries.' },
+      { h3: 'How groups are formed', p: 'Each group is fifteen to twenty learners at one stage of one subject. Capelle has 10,749 residents under fifteen, and five of them matching on subject, level and hour is rare, so groups also draw on learners in other countries.' },
       { h3: 'The regio Midden calendar', p: 'Lessons run twice a week, about eight times a month, at one fixed hour, and stop for the regio Midden school holidays that Zuid-Holland follows.' },
       { h3: 'Why evenings work', p: 'The teaching team is based in India, three and a half hours ahead in the Dutch summer and four and a half in winter, which leaves late afternoons, evenings and weekend mornings open all year.' }
     ],
@@ -199,7 +199,7 @@ module.exports = {
     h2: 'Capelle fees in full',
     intro: 'Everything a family pays is listed below.',
     first: 'A genuine lesson on a genuine task, closing with a level and the course to match.',
-    group: 'Monthly, usually eight lessons, in a group of five to ten learners at one level.',
+    group: 'Monthly, usually eight lessons, in a group of fifteen to twenty learners at one level.',
     private: 'Monthly, usually eight lessons, with a teacher for one learner only.',
     closer: 'Every country pays one dollar price, and no euro list sits beside it, so a household in Fascinatio pays what a household in Schollevaar pays. Payment starts only after the free lesson has fixed the course and the hour, and it is arranged on WhatsApp. For breaks, a change of format or missed lessons, the pricing page has the details.'
   },
@@ -224,7 +224,7 @@ module.exports = {
       { q: 'How many schools are there in Capelle?', a: 'The statistics count 20 primary establishments teaching 5,439 pupils and 5 secondary establishments teaching 3,114, with 221 MBO students at institutions in the town. No school is rated on this page.' },
       { q: 'Are the lessons in English, and what times are possible?', a: 'Yes, lessons are in English, and school words like brugklas, havo and vwo stay Dutch. With the teachers in India, three and a half hours ahead of Capelle in summer and four and a half in winter, late-afternoon, evening and weekend slots are all realistic. The slot is chosen in the free lesson, and the regio Midden holidays are kept.' },
       { q: 'Is there a Modern Age Coders classroom in Capelle aan den IJssel?', a: 'No, and none is claimed here or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Capelle aan den IJssel coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Capelle aan den IJssel coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

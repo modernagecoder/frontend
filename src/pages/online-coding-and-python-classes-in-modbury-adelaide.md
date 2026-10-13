@@ -16,7 +16,7 @@ Modbury, City of Tea Tree Gully, South Australia / Live online
 
 Modbury's stop records see thousands of bus visits on a weekday. How many fall in the morning peak, from 7am up to 9am? The answer depends on how the condition is written. Four plausible versions in Python give 707, 4,840, 710 and 0.
 
-Facts last verified 13 October 2026. Teaching is online; no Modbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Modbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that sharpen logic in code
 
@@ -175,7 +175,7 @@ Lessons happen over live video, so there is no travel at all.
 - **Edge cases together** Teacher and learner test boundaries live on the shared screen.
 - **Term-time classes** Plans follow the SA school year, with holiday breaks.
 - **Free opening lesson** A real first class at no cost, then honest advice.
-- **Small level groups** Five to ten learners matched by level, or private lessons.
+- **Small level groups** Fifteen to twenty learners matched by level, or private lessons.
 - **Two per week** Regular weekly times, about eight lessons a month.
 - **India time** Our teachers work in India: a 7:30pm Modbury class is 2:30pm India time until April and 3:30pm after.
 
@@ -186,7 +186,7 @@ Lessons happen over live video, so there is no travel at all.
 Three prices for every family.
 
 - First class: USD 0. Lesson one is free, and you receive a written suggestion afterwards.
-- Group tuition: USD 100 a month. About eight group lessons per month, five to ten learners.
+- Group tuition: USD 100 a month. About eight group lessons per month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. About eight private lessons per month.
 
 Fees are in US dollars and paid only after the trial, once a course and time are agreed. The pricing page explains holidays and absences.
@@ -223,11 +223,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Modbury learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Can Modbury groups learn Copilot Studio?
 

@@ -180,7 +180,7 @@ module.exports = {
       { h3: 'Set in Sydney time', p: 'Slots are agreed in Penrith time and hold steady through daylight saving.' },
       { h3: 'NSW stages and the HSC', p: 'Teachers plan around NSW stages, including HSC students, and teach in English.' },
       { h3: 'A real lesson to start', p: 'The free session is spent writing code beside a teacher. Afterwards we propose a course and a weekly slot, and at no point do we collect card or bank details.' },
-      { h3: 'Five to ten learners', p: 'Each group shares one level, drawn from different places so every stage has a sensible hour.' },
+      { h3: 'Fifteen to twenty learners', p: 'Each group shares one level, drawn from different places so every stage has a sensible hour.' },
       { h3: 'Twice a week', p: 'About eight lessons a month, with holidays and exams planned in advance.' },
       { h3: 'For working adults', p: 'Evening groups suit people who commute or work days, and private lessons fit around irregular hours.' }
     ],
@@ -191,7 +191,7 @@ module.exports = {
     h2: 'Fees for AI and programming classes in Penrith',
     intro: 'The whole list.',
     first: 'A free lesson that ends with a suggested level, course and time.',
-    group: 'Approximately eight group lessons a month, five to ten learners at one level.',
+    group: 'Approximately eight group lessons a month, fifteen to twenty learners at one level.',
     private: 'Approximately eight one-to-one lessons a month with a single teacher.',
     closer: 'Penrith pays the US dollar rate charged everywhere in Australia, with no local adjustment. Payment begins only once the trial has settled a course and time, and holidays, missed lessons and format changes are all explained on the pricing page.'
   },
@@ -216,7 +216,7 @@ module.exports = {
       { q: 'What times suit Penrith learners?', a: 'Late afternoons, evenings and weekend slots are available, fixed together at the trial and quoted in Sydney time. India time trails Penrith by four and a half hours in winter and five and a half in summer.' },
       { q: 'Are there classes for younger children?', a: 'Yes, from age 6 using visual coding, although the synthetic data project is designed for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders office in Penrith?', a: 'No, and we do not claim one. Teaching is live and online only, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a steady connection, and the contact number on this page is an Indian number.', boiler: true },
-      { q: 'What do AI and programming classes in Penrith cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
+      { q: 'What do AI and programming classes in Penrith cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
       { q: 'How large are the groups?', a: 'Between five and ten learners, matched on level, pace and goals rather than on age or postcode. When no group fits a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },

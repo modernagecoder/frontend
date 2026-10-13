@@ -287,7 +287,7 @@ module.exports = {
       { h3: 'Teacher and screen', p: 'The learner shares their screen; the teacher talks through the learner\'s own code.' },
       { h3: 'In step with terms', p: 'Lessons follow the Victorian school term pattern, with breaks in the holidays.' },
       { h3: 'First class free', p: 'A complete trial lesson with no charge, followed by a course suggestion.' },
-      { h3: 'Matched groups', p: 'Five to ten learners grouped by level, from different suburbs and countries.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners grouped by level, from different suburbs and countries.' },
       { h3: 'Twice a week', p: 'Two scheduled lessons weekly, so roughly eight in a month.' },
       { h3: 'India time', p: 'A 5pm Hume lesson is 11:30am India time while Melbourne is on daylight saving, and 12:30pm after it ends.' }
     ],
@@ -300,7 +300,7 @@ module.exports = {
     h2: 'Hume class fees',
     intro: 'One price list for every family outside India.',
     first: 'The first lesson costs nothing and ends with a recommendation.',
-    group: 'Group classes: a month of lessons, about eight, in a group of five to ten.',
+    group: 'Group classes: a month of lessons, about eight, in a group of fifteen to twenty.',
     private: 'One-to-one classes: a month of lessons, about eight, with a teacher to themselves.',
     closer: 'Hume families are billed in US dollars. Nothing is paid until the trial has settled the course and a weekly time; rules for holidays and missed lessons are on the pricing page.'
   },
@@ -335,12 +335,12 @@ module.exports = {
       { q: 'Where are your Hume classes held?', a: 'Only online. We have no Australian premises, and our listed phone number is an Indian one.', boiler: true },
       {
         q: 'What do Hume classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How are groups formed?',
-        a: 'By level and pace, with five to ten learners in each, rather than by age or suburb. One-to-one lessons cover any timing a group cannot.',
+        a: 'By level and pace, with fifteen to twenty learners in each, rather than by age or suburb. One-to-one lessons cover any timing a group cannot.',
         boiler: true
       },
       {

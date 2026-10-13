@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding classes in Renfrewshire',
   capsuleQ: 'What are the best coding classes in Renfrewshire?',
-  capsule: 'Renfrewshire had about 183,800 residents in roughly 86,700 households at the 2022 census, living at 702.9 people per square kilometre. Paisley is by far its largest town, followed by Renfrew, Johnstone and Erskine, with Linwood, Bishopton, Houston and Bridge of Weir among the rest. Teaching happens live on video from India, and a free first lesson shows which stage fits each learner, P1 to S6 or adult. Anyone aged 6 to 67 can learn coding, Python and maths, one-to-one or with five to ten classmates. The Renfrewshire project starts at a rare bridge in Renfrew. Once the free lesson is over, a group costs USD 100 a month and one-to-one teaching USD 150 a month.',
+  capsule: 'Renfrewshire had about 183,800 residents in roughly 86,700 households at the 2022 census, living at 702.9 people per square kilometre. Paisley is by far its largest town, followed by Renfrew, Johnstone and Erskine, with Linwood, Bishopton, Houston and Bridge of Weir among the rest. Teaching happens live on video from India, and a free first lesson shows which stage fits each learner, P1 to S6 or adult. Anyone aged 6 to 67 can learn coding, Python and maths, one-to-one or with fifteen to twenty classmates. The Renfrewshire project starts at a rare bridge in Renfrew. Once the free lesson is over, a group costs USD 100 a month and one-to-one teaching USD 150 a month.',
   lead: 'Over the White Cart Water in Renfrew stands a bridge that opens by rolling. Historic Environment Scotland lists it at Category A: a Scherzer rolling lift bridge built in 1923 by Sir William Arrol and Company, first opened on 24 March 1923, and one of only two rolling lift bridges left in Scotland. Most opening bridges swing up about a fixed hinge. A rolling lift instead rocks backwards on a curved segment, like a rocking chair, so the whole leaf moves back as it tilts up. Where does the tip of a rolling leaf actually go, and how different is its path from a simple hinge? This page\'s project answers with parametric equations in Python, and meets a units bug that turns a few metres into hundreds.',
   wa: 'Hello Modern Age Coders, we are in Renfrewshire and would like to book a free lesson, please.',
 
@@ -161,7 +161,7 @@ module.exports = {
       { h3: 'Writing real code', p: 'Learners type and run every line; the teacher watches the shared screen and steps in when needed.' },
       { h3: 'Scottish stages throughout', p: 'P and S stages, National 5, Higher and Advanced Higher are our terms too. Teaching is in English.' },
       { h3: 'Free first lesson', p: 'A full lesson at no cost, then a clear recommendation.' },
-      { h3: 'Groups matched by stage', p: 'Five to ten learners at one stage per group, often from several countries.' },
+      { h3: 'Groups matched by stage', p: 'Fifteen to twenty learners at one stage per group, often from several countries.' },
       { h3: 'Term-time lessons', p: 'Two a week during term, none in the school holidays.' },
       { h3: 'Your UK time stays fixed', p: 'We keep your slot at the same UK time through the clock changes; teachers in India time adjust.' }
     ],
@@ -172,7 +172,7 @@ module.exports = {
     h2: 'Fees in Renfrewshire',
     intro: 'Paisley or Houston, the fee does not change, and it is the same in every country we teach outside India.',
     first: 'A complete lesson at no charge, followed by advice.',
-    group: 'About eight lessons a month in a group of five to ten.',
+    group: 'About eight lessons a month in a group of fifteen to twenty.',
     private: 'About eight lessons a month, one-to-one.',
     closer: 'We price in US dollars only, with no sterling list. Billing starts once the free lesson has fixed a course and weekly time; the pricing page covers holidays, missed lessons and changing formats.'
   },

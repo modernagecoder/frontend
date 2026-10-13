@@ -327,7 +327,7 @@ module.exports = {
       { h3: 'A teacher watching the screen', p: 'Mistakes are spotted and explained as they happen, not marked a week later.' },
       { h3: 'NSW school language', p: 'Teachers use NSW stage and syllabus terms and plan around state school holidays.' },
       { h3: 'Free first lesson', p: 'A complete class at no cost, ending with a suggested course, level and time.' },
-      { h3: 'Groups by level', p: 'Five to ten learners of similar ability, or one-to-one teaching where that suits better.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners of similar ability, or one-to-one teaching where that suits better.' },
       { h3: 'A steady rhythm', p: 'Two lessons a week at fixed times, about eight a month.' },
       { h3: 'Teachers in India', p: 'A 5pm Rouse Hill lesson is 11:30am India time during Sydney summer time and 12:30pm after it ends.' }
     ],
@@ -340,7 +340,7 @@ module.exports = {
     h2: 'Rouse Hill lesson fees',
     intro: 'One simple price list, the same for every course.',
     first: 'The first full lesson is free, with a course and timetable suggested afterwards.',
-    group: 'About eight lessons a month, two a week, with five to ten learners at one level.',
+    group: 'About eight lessons a month, two a week, with fifteen to twenty learners at one level.',
     private: 'One-to-one lessons on the same weekly rhythm, roughly eight a month.',
     closer: 'Families outside India are invoiced in US dollars. Nothing is charged until the trial has settled a course and a time, and the pricing page covers holidays, missed lessons and switching formats.'
   },
@@ -389,7 +389,7 @@ module.exports = {
       },
       {
         q: 'How much do classes cost for Rouse Hill learners?',
-        a: 'The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one is USD 150 a month on the same rhythm. Payment starts only after a course and time are agreed.',
+        a: 'The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one is USD 150 a month on the same rhythm. Payment starts only after a course and time are agreed.',
         boiler: true
       },
       {

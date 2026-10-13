@@ -295,7 +295,7 @@ module.exports = {
       { h3: 'Plots on screen', p: 'Models and their boundaries are drawn and discussed together.' },
       { h3: 'School-term plans', p: 'Lessons pause in South Australian school holidays.' },
       { h3: 'Free trial', p: 'A full first lesson free, with a recommendation in writing.' },
-      { h3: 'Groups by level', p: 'Five to ten learners at one stage, or one to one.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at one stage, or one to one.' },
       { h3: 'Two lessons a week', p: 'Steady weekly times, about eight a month.' },
       { h3: 'Teaching from India', p: 'Our tutors work in India; a Mitcham class at 7:30pm runs at 2:30pm there over summer and 3:30pm once April arrives.' }
     ],
@@ -308,7 +308,7 @@ module.exports = {
     h2: 'Mitcham class fees',
     intro: 'Three prices for all learners.',
     first: 'The opening lesson is free and finishes with a written plan.',
-    group: 'Close to eight group lessons a month with five to ten learners.',
+    group: 'Close to eight group lessons a month with fifteen to twenty learners.',
     private: 'Close to eight private lessons a month.',
     closer: 'Mitcham families pay in US dollars, only after the trial has fixed a course and a time. Holiday and absence rules are on the pricing page.'
   },
@@ -353,12 +353,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Mitcham learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Is Copilot Studio on the Mitcham group timetable?', a: 'No. We run Copilot Studio as private tuition; our groups program their agents in Python.' }

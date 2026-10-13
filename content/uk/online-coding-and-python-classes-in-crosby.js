@@ -161,7 +161,7 @@ module.exports = {
       { h3: 'Hands on keys', p: 'The learner writes the code on a shared screen while the tutor guides with questions.' },
       { h3: 'Try before deciding', p: 'A complete free lesson lets us see the learner at work and recommend a course.' },
       { h3: 'No card for the trial', p: 'Booking it needs a name, an age and a phone number.' },
-      { h3: 'Same-level groups', p: 'Classes of five to ten, matched by stage and joined from all over the UK.' },
+      { h3: 'Same-level groups', p: 'Classes of fifteen to twenty, matched by stage and joined from all over the UK.' },
       { h3: 'Twice a week in term', p: 'With breaks for Sefton school holidays when you let us know the dates.' },
       { h3: 'Fixed UK times', p: 'When clocks go forward or back, our tutors adjust and your slot does not.' }
     ],
@@ -172,7 +172,7 @@ module.exports = {
     h2: 'Crosby lesson fees',
     intro: 'Learners anywhere outside India pay the same international rates.',
     first: 'The opening lesson is free and complete, with course advice at the end.',
-    group: 'Five to ten learners in a class, roughly eight lessons per month.',
+    group: 'Fifteen to twenty learners in a class, roughly eight lessons per month.',
     private: 'One-to-one with a tutor, roughly eight lessons per month.',
     closer: 'Fees are stated in US dollars and we give no price in pounds. Nothing is charged until the trial is done and you have settled on a course and a time. See the pricing page for holiday breaks, absences and switching format.'
   },

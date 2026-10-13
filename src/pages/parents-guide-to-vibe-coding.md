@@ -192,7 +192,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, same teacher every week
+- Fifteen to twenty students, same teacher every week
 - Live video, never a recording
 - Build work between sessions, reviewed by the teacher
 - Certificate on completion
@@ -311,7 +311,7 @@ Assume they have already tried, and hold two lines rather than one big fight. Sc
 
 ### Is a live online class with strangers safe in itself?
 
-Our classes are live video with a named, consistent teacher, batches of five to eight, and a parent may observe any session including the free one. Recordings are not the product and sessions are not public. You will always know the teacher's name, the schedule, and what the current project is, because those are the three things we would want to know as parents.
+Our classes are live video with a named, consistent teacher, batches of fifteen to twenty, and a parent may observe any session including the free one. Recordings are not the product and sessions are not public. You will always know the teacher's name, the schedule, and what the current project is, because those are the three things we would want to know as parents.
 
 ### What does it cost, and what is the commitment?
 

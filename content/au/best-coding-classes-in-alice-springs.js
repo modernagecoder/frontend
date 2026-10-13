@@ -199,7 +199,7 @@ module.exports = {
       { h3: 'No travel at all', p: 'A teenager at home and an adult after work can join the same group from different parts of town, with nothing but a computer.' },
       { h3: 'Your year level', p: 'Lessons are planned around the learner\'s school year and pause for holidays. Older students can link projects to their computing and maths subjects.' },
       { h3: 'The first lesson', p: 'The trial is a full class with real code, after which you receive a recommended level, course and weekly time; no card is asked for.' },
-      { h3: 'Groups by level', p: 'Five to ten learners working at the same stage, from Alice Springs and other places, so groups are always full enough to run.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners working at the same stage, from Alice Springs and other places, so groups are always full enough to run.' },
       { h3: 'Two lessons weekly', p: 'Two set lessons each week, about eight a month, with holiday and exam breaks agreed in advance.' },
       { h3: 'Four hours apart', p: 'Alice Springs is four hours ahead of India all year, so a 5pm lesson in town starts at 1pm for our teachers.' }
     ],
@@ -210,7 +210,7 @@ module.exports = {
     h2: 'Alice Springs class fees',
     intro: 'All of it, in three items.',
     first: 'A complete first lesson at no cost, followed by a suggested level, course and time.',
-    group: 'Approximately eight lessons a month, in a group of five to ten at one level.',
+    group: 'Approximately eight lessons a month, in a group of fifteen to twenty at one level.',
     private: 'Approximately eight lessons a month with a teacher, one to one.',
     closer: 'Outside India we invoice in US dollars, so every Alice Springs family pays the same as families in any other Australian town and there is no local price list. Nothing is charged until the trial has settled a course and a time; the pricing page explains holidays, missed lessons and changing between formats.'
   },
@@ -235,8 +235,8 @@ module.exports = {
       { q: 'What time are lessons?', a: 'Times are agreed at the trial and written in Alice Springs time. Because the Northern Territory has no daylight saving, our teachers in India are always four hours behind.' },
       { q: 'Do you teach younger children?', a: 'Yes, from age six. Younger children begin with Scratch and visual programs; the sampling project on this page is meant for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Alice Springs?', a: 'No, and none is claimed. All lessons are live and online and we have no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection; the contact number shown is Indian.', boiler: true },
-      { q: 'What do Alice Springs coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Alice Springs coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

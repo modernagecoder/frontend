@@ -66,7 +66,7 @@ module.exports = {
 
   h1: 'Coding classes in Chelmsford',
   capsuleQ: 'What are the best coding classes in Chelmsford?',
-  capsule: 'Census 2021 counted 181,523 usual residents in the Chelmsford district, at 535.9 people per square kilometre against 433.5 across England. The Essex Record Office tells how Marconi set up his company in a former silk works in Hall Street in 1898 and later built the New Street works. With us, a Chelmsford learner of any age from six to sixty-seven joins a live video lesson taught from India, either one to one or in a group of five to ten at the same level, scheduled around the British school and working day. The first lesson is free; after that a group place costs USD 100 a month and private lessons USD 150.',
+  capsule: 'Census 2021 counted 181,523 usual residents in the Chelmsford district, at 535.9 people per square kilometre against 433.5 across England. The Essex Record Office tells how Marconi set up his company in a former silk works in Hall Street in 1898 and later built the New Street works. With us, a Chelmsford learner of any age from six to sixty-seven joins a live video lesson taught from India, either one to one or in a group of fifteen to twenty at the same level, scheduled around the British school and working day. The first lesson is free; after that a group place costs USD 100 a month and private lessons USD 150.',
   lead: 'The Environment Agency gauge at Springfield recorded the River Chelmer every 15 minutes through 2024: 35,136 readings with no gaps, which arrive as a 6.1 megabyte file. Our teenagers write LZW, the dictionary compressor that learns repeated patterns as it reads, and race it against zlib. On the file as downloaded, zlib wins easily. Then they change the representation instead of the algorithm: drop what the clock already tells you, store millimetres, and keep only how much the river moved since the last reading. The file falls to 78,964 bytes before any compressor runs, and on that file their own LZW comes in at 11,596 bytes, ahead of zlib\'s 11,970.',
   wa: 'Hello Modern Age Coders, I would like to book a free coding lesson for a learner in Chelmsford.',
 
@@ -193,7 +193,7 @@ module.exports = {
       { h3: 'Villages and the city', p: 'A learner in Broomfield and another in Bicknacre can sit in one class, with no drive into the centre and no parking to find.' },
       { h3: 'The school stages you know', p: 'Lessons follow the English stages Essex schools use, from Reception and Key Stages 1 to 4 up to GCSE and A level, all taught in English.' },
       { h3: 'The first lesson teaches', p: 'The free session is a proper lesson on a real task, finishing with a recommended level, course and weekly time. No card is asked for.' },
-      { h3: 'Classes set by level', p: 'Five to ten learners at one stage, drawn from Chelmsford, other parts of the UK and further afield, so each level has workable times.' },
+      { h3: 'Classes set by level', p: 'Fifteen to twenty learners at one stage, drawn from Chelmsford, other parts of the UK and further afield, so each level has workable times.' },
       { h3: 'A steady weekly rhythm', p: 'Two fixed lessons a week, roughly eight a month, with half terms and exam periods agreed with the teacher in advance.' },
       { h3: 'Teachers on India time', p: 'A 6 pm class in Chelmsford begins at 10.30 pm in India while British Summer Time runs and 11.30 pm in winter, since India never changes its clocks; our teachers keep late hours for UK families.' }
     ],
@@ -204,7 +204,7 @@ module.exports = {
     h2: 'Chelmsford lesson fees',
     intro: 'One free lesson, then a single monthly fee.',
     first: 'A complete lesson that costs nothing, finishing with our advice on level, course and a weekly time.',
-    group: 'About eight live lessons a month, in a class of five to ten learners at the same stage.',
+    group: 'About eight live lessons a month, in a class of fifteen to twenty learners at the same stage.',
     private: 'About eight live lessons a month with the teacher\'s attention on your learner only.',
     closer: 'A family in Chelmer Village is billed exactly as any family outside India is: a single US dollar fee, and no pound prices anywhere on the site. Nothing is charged until after the free lesson, once the course and the weekly slot are settled; the pricing page covers pauses, missed lessons and switching between a group and private teaching.'
   },
@@ -229,8 +229,8 @@ module.exports = {
       { q: 'What did Marconi do in Chelmsford?', a: 'The Essex Record Office says he first established his company in a former silk works in Hall Street in 1898 and opened the New Street works in 1912, where Dame Nellie Melba later sang in an experimental broadcast. We have no connection with any Marconi organisation.' },
       { q: 'When are the Chelmsford lessons?', a: 'Families choose a weekday after school, a weekday evening or a weekend, and we settle the exact UK time during the free lesson. Our teachers in India are four and a half hours ahead of Chelmsford in summer and five and a half in winter.' },
       { q: 'Is there a building in Chelmsford we can visit?', a: 'No. We have no Chelmsford centre and no UK premises at all, because every lesson happens live online. A learner needs a computer with sound and a reliable connection, and our contact number is an Indian one.', boiler: true },
-      { q: 'What do Chelmsford lessons cost?', a: 'Nothing for the first lesson. After that, a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners; one-to-one teaching on the same schedule is USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'Who will my child learn alongside?', a: 'Five to ten learners at the same stage, matched on level, pace and goals rather than age or where they live. When no group suits the learner\'s week, we offer one-to-one lessons instead.', boiler: true }
+      { q: 'What do Chelmsford lessons cost?', a: 'Nothing for the first lesson. After that, a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners; one-to-one teaching on the same schedule is USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'Who will my child learn alongside?', a: 'Fifteen to twenty learners at the same stage, matched on level, pace and goals rather than age or where they live. When no group suits the learner\'s week, we offer one-to-one lessons instead.', boiler: true }
     ]
   },
 

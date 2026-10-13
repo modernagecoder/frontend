@@ -4,7 +4,7 @@ description: "Online AI, programming, Python and coding classes for Gateshead, B
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-gateshead
 source: src/pages/ai-and-programming-classes-in-gateshead.html
 ---
-> The 2021 census found 196,151 residents in Gateshead borough; the ONS built-up area of Gateshead held 115,280, Blaydon 14,240 and Birtley 13,835. Adults in their late fifties and early sixties are above the England share, while teenagers and young adults are below it. From Ryton to Birtley, anyone between 6 and 67 can join our India-based tutors for live AI, programming, Python and maths, solo or in a same-level class of five to ten. A free first lesson points to the right course. The Gateshead project starts from a Victorian telescope set up in the town. Staying on means USD 100 per month in a shared class or USD 150 per month on your own.
+> The 2021 census found 196,151 residents in Gateshead borough; the ONS built-up area of Gateshead held 115,280, Blaydon 14,240 and Birtley 13,835. Adults in their late fifties and early sixties are above the England share, while teenagers and young adults are below it. From Ryton to Birtley, anyone between 6 and 67 can join our India-based tutors for live AI, programming, Python and maths, solo or in a same-level class of fifteen to twenty. A free first lesson points to the right course. The Gateshead project starts from a Victorian telescope set up in the town. Staying on means USD 100 per month in a shared class or USD 150 per month on your own.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North East England](/coding-and-ai-classes-in-north-east-england) / Gateshead
 
@@ -12,11 +12,11 @@ Gateshead, Tyne and Wear, England / Live online
 
 # AI and programming classes in Gateshead
 
-**Which are the best AI and programming classes in Gateshead?** The 2021 census found 196,151 residents in Gateshead borough; the ONS built-up area of Gateshead held 115,280, Blaydon 14,240 and Birtley 13,835. Adults in their late fifties and early sixties are above the England share, while teenagers and young adults are below it. From Ryton to Birtley, anyone between 6 and 67 can join our India-based tutors for live AI, programming, Python and maths, solo or in a same-level class of five to ten. A free first lesson points to the right course. The Gateshead project starts from a Victorian telescope set up in the town. Staying on means USD 100 per month in a shared class or USD 150 per month on your own.
+**Which are the best AI and programming classes in Gateshead?** The 2021 census found 196,151 residents in Gateshead borough; the ONS built-up area of Gateshead held 115,280, Blaydon 14,240 and Birtley 13,835. Adults in their late fifties and early sixties are above the England share, while teenagers and young adults are below it. From Ryton to Birtley, anyone between 6 and 67 can join our India-based tutors for live AI, programming, Python and maths, solo or in a same-level class of fifteen to twenty. A free first lesson points to the right course. The Gateshead project starts from a Victorian telescope set up in the town. Staying on means USD 100 per month in a shared class or USD 150 per month on your own.
 
 Edward W. Byrn's 1900 survey of nineteenth-century invention lists the great telescopes of the age, and one of them was in Gateshead: "Mr. R. S. Newall's telescope, set up at Gateshead by Cookes, of York, in 1870; object glass, 25 inches, tube, 30 feet". Beside it he lists giants at Parsonstown, Paris, Ealing and Washington, each with its width and its length. A table of five telescopes looks like dry reading, until a learner computes one extra number for each, the focal ratio. Suddenly the five split into two clear families, for a reason every astronomer knows. Getting there takes some care: the units change mid-sentence, and Byrn does not measure every telescope the same way.
 
-Facts last verified 27 September 2026. Teaching is online; no Gateshead branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Gateshead branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses for Gateshead learners
 
@@ -138,7 +138,7 @@ A laptop and a connection are all any home in the borough needs.
 - **Their code, their keys** Tutors never type for the learner; they watch the shared screen and help with well-timed questions.
 - **A sensible first rung** Where a Year 3 or a Year 13 begins depends on what the trial shows as much as on the year, and the exam board is kept in mind.
 - **Opening lesson free** The trial costs nothing and ends with a clear recommendation.
-- **Same-stage classmates** Groups of five to ten UK learners at one level.
+- **Same-stage classmates** Groups of fifteen to twenty UK learners at one level.
 - **Twice a week in term** School holidays stay free.
 - **Steady lesson hour** UK clock changes are absorbed by our tutors.
 

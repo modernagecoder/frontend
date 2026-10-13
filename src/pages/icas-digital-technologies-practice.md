@@ -199,7 +199,7 @@ Our teachers work from India, which sits behind Australia on the clock: Sydney i
 - **Real tasks** Every skill is practised on something a child actually wants to make.
 - **Our own practice** Questions written by us, never copied from ICAS papers.
 - **Predict, then run** Students say what will happen before they click.
-- **Groups of five to ten** Children at a similar level comparing answers and methods.
+- **Groups of fifteen to twenty** Children at a similar level comparing answers and methods.
 - **One-to-one option** For a child who needs a particular area rebuilt.
 - **No result promised** We teach the skills; ICAS sets and marks the assessment.
 
@@ -208,7 +208,7 @@ Our teachers work from India, which sits behind Australia on the clock: Sydney i
 Lessons are billed monthly in US dollars at our international rate. There is no joining fee and no long contract. The ICAS entry fee, if a family pays one, goes to ICAS and has nothing to do with us.
 
 - Free first class: USD 0. A real first lesson with a teacher. A short look at which areas need work. No card details asked.
-- Group batch: USD 100 a month. Five to ten children at one level. One teacher across the term. Spreadsheet and coding tasks reviewed together. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. One teacher across the term. Spreadsheet and coding tasks reviewed together. A certificate at the end.
 - One to one: USD 150 a month. A teacher working with one child. A plan built around the weaker areas. Weekly times chosen with you.
 
 ## What parents ask us

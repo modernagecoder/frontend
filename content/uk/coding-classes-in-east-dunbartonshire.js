@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Coding classes in East Dunbartonshire',
   capsuleQ: 'What are the best coding classes in East Dunbartonshire?',
-  capsule: 'East Dunbartonshire is a compact council area north of Glasgow, home to about 109,000 people in some 46,500 households according to Scotland\'s Census 2022, at 624.7 people per square kilometre. Bearsden, Bishopbriggs and Kirkintilloch are the largest towns, with Milngavie, Lenzie and Lennoxtown next. We teach live by video from India, and the class each learner joins depends on their level, from Primary 1 to S6 and adults, not on their age. Anyone from 6 to 67 can study coding, Python, algorithms or maths, in a group of five to ten or one-to-one. The East Dunbartonshire project starts in Milngavie, at the beginning of the West Highland Way. Your first lesson is free; after that a group costs USD 100 a month and one-to-one USD 150.',
+  capsule: 'East Dunbartonshire is a compact council area north of Glasgow, home to about 109,000 people in some 46,500 households according to Scotland\'s Census 2022, at 624.7 people per square kilometre. Bearsden, Bishopbriggs and Kirkintilloch are the largest towns, with Milngavie, Lenzie and Lennoxtown next. We teach live by video from India, and the class each learner joins depends on their level, from Primary 1 to S6 and adults, not on their age. Anyone from 6 to 67 can study coding, Python, algorithms or maths, in a group of fifteen to twenty or one-to-one. The East Dunbartonshire project starts in Milngavie, at the beginning of the West Highland Way. Your first lesson is free; after that a group costs USD 100 a month and one-to-one USD 150.',
   lead: 'The official West Highland Way website describes the route as 96 miles from Milngavie to Fort William, in eight sections from village to village. Every walker faces the same planning puzzle: how many days, and where to stop each night, so that no single day is brutal? Stops can only fall at the ends of sections, where there is somewhere to sleep, so the days cannot be made perfectly equal. This page\'s project hands the puzzle to Python. It checks the official numbers, tries every possible way of splitting the walk into four to eight days, and finds a result that surprises most people: one of those extra days hardly helps at all.',
   wa: 'Hello Modern Age Coders, we are in East Dunbartonshire and would like to book a free lesson, please.',
 
@@ -166,7 +166,7 @@ module.exports = {
       { h3: 'Classes at your own desk', p: 'A semi in Bishopbriggs, a flat in Milngavie, a house in Lennoxtown. Teacher and pupil look at the same screen while the pupil codes.' },
       { h3: 'School words from Scotland', p: 'Our teachers know exactly what P5, S2, National 5, Higher and Advanced Higher mean to East Dunbartonshire pupils, and teach in English.' },
       { h3: 'One lesson on us', p: 'The first lesson is a real one, with an honest view of level and course at the end. No card details.' },
-      { h3: 'Matched classmates', p: 'Groups of five to ten are formed by stage, so a learner meets others at exactly their level.' },
+      { h3: 'Matched classmates', p: 'Groups of fifteen to twenty are formed by stage, so a learner meets others at exactly their level.' },
       { h3: 'Holiday pauses', p: 'Two lessons a week during term, pausing when East Dunbartonshire\'s school holidays arrive.' },
       { h3: 'Booked in UK time', p: 'Your lesson keeps its UK time through the clock changes; our India-based teachers, several hours ahead, move theirs.' }
     ],
@@ -177,7 +177,7 @@ module.exports = {
     h2: 'Fees in East Dunbartonshire',
     intro: 'Bearsden or Bishopbriggs, the fee is identical, as it is in every country we teach bar India.',
     first: 'One whole lesson of real work, then advice on level and course.',
-    group: 'Roughly eight lessons a month in a group of five to ten at one level.',
+    group: 'Roughly eight lessons a month in a group of fifteen to twenty at one level.',
     private: 'Roughly eight lessons a month, one-to-one.',
     closer: 'We invoice in US dollars and quote no pound prices. No charge is made until the free lesson has fixed a course and a weekly slot; the pricing page explains breaks, missed lessons and switching between group and private.'
   },

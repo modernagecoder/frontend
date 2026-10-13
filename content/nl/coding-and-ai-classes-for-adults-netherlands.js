@@ -52,7 +52,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Modern Age Coders teaches coding, data and AI live online to adults in the Netherlands. Most start with one of three goals: using AI tools and data confidently at work, automating repetitive tasks with Python, or moving into a technical career. Each learner is placed by what they can already do, in a group of five to ten at the same level or one to one, and every lesson is taught in English by a live teacher, in the evening or at the weekend. The first lesson is free; after that a group place is USD 100 a month and one-to-one lessons USD 150.',
+  capsule: 'Modern Age Coders teaches coding, data and AI live online to adults in the Netherlands. Most start with one of three goals: using AI tools and data confidently at work, automating repetitive tasks with Python, or moving into a technical career. Each learner is placed by what they can already do, in a group of fifteen to twenty at the same level or one to one, and every lesson is taught in English by a live teacher, in the evening or at the weekend. The first lesson is free; after that a group place is USD 100 a month and one-to-one lessons USD 150.',
 
   picks: {
     eyebrow: 'Start here',
@@ -185,7 +185,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first lesson', p: 'You work on a real task while the teacher sees how you approach it. By the end you both know the right starting point and path.' },
-      { h3: 'Groups of five to ten', p: 'Adults from several countries at the same level, often at similar points in their careers, which makes for good discussion.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Adults from several countries at the same level, often at similar points in their careers, which makes for good discussion.' },
       { h3: 'One to one for flexibility', p: 'For irregular hours, a specific work project, a deadline, or the Copilot Studio courses, which are taught only one to one.' },
       { h3: 'Your own work as material', p: 'Where it helps, lessons use a task from your job, so what you learn on Tuesday is useful on Wednesday.' },
       { h3: 'In English', p: 'Lessons are in English, the language of programming tools and documentation, and a comfortable working language for most international professionals here.' },

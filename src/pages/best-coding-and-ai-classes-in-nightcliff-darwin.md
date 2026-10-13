@@ -16,7 +16,7 @@ Nightcliff, City of Darwin, Northern Territory / Live online
 
 A short Python script asked how many buses stop in Nightcliff before nine on a weekday morning. It answered zero. The timetable says 86. The script used itertools.takewhile on rows that were never sorted by time, and it gave up at the very first row.
 
-Facts last verified 14 October 2026. Teaching is online; no Nightcliff branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 14 October 2026. Teaching is online; no Nightcliff branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Nightcliff learners usually start
 
@@ -182,7 +182,7 @@ Every lesson is live on video from home.
 - **Watch it run** Learners print the first rows of their data before they trust a count.
 - **School terms** Classes follow the Territory school year and pause for holidays.
 - **Free first lesson** A full lesson at no cost, followed by a written suggestion.
-- **Five to ten per group** Grouped by level, or taught privately.
+- **Fifteen to twenty per group** Grouped by level, or taught privately.
 - **Two a week** Fixed times twice a week, about eight lessons a month.
 - **Teachers in India** Darwin has no daylight saving, so a 7pm Nightcliff class is 3pm India time all year round.
 
@@ -193,7 +193,7 @@ Every lesson is live on video from home.
 One price list for everyone.
 
 - First class: USD 0. The first lesson is free, with advice in writing afterwards.
-- Group tuition: USD 100 a month. About eight group lessons each month, five to ten learners per group.
+- Group tuition: USD 100 a month. About eight group lessons each month, fifteen to twenty learners per group.
 - Private tuition: USD 150 a month. About eight one-to-one lessons each month.
 
 Nightcliff families are billed in US dollars after the trial has settled the course and the times. Holidays and missed lessons are covered on the pricing page.
@@ -230,11 +230,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Nightcliff learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Is Copilot Studio taught to groups?
 

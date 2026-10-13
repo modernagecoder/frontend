@@ -4,7 +4,7 @@ description: "Live online coding, Python, Java, app and AI classes for Rotterdam
 canonical: https://learn.modernagecoders.com/coding-classes-in-rotterdam
 source: src/pages/coding-classes-in-rotterdam.html
 ---
-> Coding classes in Rotterdam serve the second city of the Netherlands, 673,804 people on 1 January 2026 (Statistics Netherlands), a third of them born abroad, with the largest Surinamese-origin community of any origin group in the city at 52,003, and a port that in 2025 moved 428.4 million tonnes, 1.7 percent less than the year before, while handling 14.2 million containers, 3.1 percent more. Modern Age Coders teaches coding, Python, Java, app development, AI and mathematics to Rotterdam learners aged 6 to 67, live online and in English. Nothing is charged for the first lesson; a place in a group of five to ten is then USD 100 a month and private tuition USD 150.
+> Coding classes in Rotterdam serve the second city of the Netherlands, 673,804 people on 1 January 2026 (Statistics Netherlands), a third of them born abroad, with the largest Surinamese-origin community of any origin group in the city at 52,003, and a port that in 2025 moved 428.4 million tonnes, 1.7 percent less than the year before, while handling 14.2 million containers, 3.1 percent more. Modern Age Coders teaches coding, Python, Java, app development, AI and mathematics to Rotterdam learners aged 6 to 67, live online and in English. Nothing is charged for the first lesson; a place in a group of fifteen to twenty is then USD 100 a month and private tuition USD 150.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Rotterdam
 
@@ -12,11 +12,11 @@ Rotterdam, Zuid-Holland / Live online
 
 # Coding classes in Rotterdam, where the port handled more boxes and less cargo in the same year
 
-**What are the best coding classes in Rotterdam?** Coding classes in Rotterdam serve the second city of the Netherlands, 673,804 people on 1 January 2026 (Statistics Netherlands), a third of them born abroad, with the largest Surinamese-origin community of any origin group in the city at 52,003, and a port that in 2025 moved 428.4 million tonnes, 1.7 percent less than the year before, while handling 14.2 million containers, 3.1 percent more. Modern Age Coders teaches coding, Python, Java, app development, AI and mathematics to Rotterdam learners aged 6 to 67, live online and in English. Nothing is charged for the first lesson; a place in a group of five to ten is then USD 100 a month and private tuition USD 150.
+**What are the best coding classes in Rotterdam?** Coding classes in Rotterdam serve the second city of the Netherlands, 673,804 people on 1 January 2026 (Statistics Netherlands), a third of them born abroad, with the largest Surinamese-origin community of any origin group in the city at 52,003, and a port that in 2025 moved 428.4 million tonnes, 1.7 percent less than the year before, while handling 14.2 million containers, 3.1 percent more. Modern Age Coders teaches coding, Python, Java, app development, AI and mathematics to Rotterdam learners aged 6 to 67, live online and in English. Nothing is charged for the first lesson; a place in a group of fifteen to twenty is then USD 100 a month and private tuition USD 150.
 
 A container is a box, and a tonne is what is inside it. In 2025 Rotterdam had more of the first and less of the second, and a family reading two headlines about the same port in the same week could be forgiven for thinking one of them was wrong. Neither was. The program that shows why is the project on this page, and in a city that lives by the quay it is not a small thing for a child to understand.
 
-Facts last verified 7 September 2026. Teaching is online; no Rotterdam branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Rotterdam branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city that builds things and ships them
 
@@ -212,7 +212,7 @@ Port, hospital, terminal and refinery families in Rotterdam do not all keep offi
 - **One recurring slot, chosen by the family** The class is at home in Ommoord, Kralingen or the Kop van Zuid at an hour the household keeps, and it does not require the parent on the early shift to be there.
 - **English, with Rotterdam's school words left alone** Teaching is in English. Groep, mavo, havo, vwo, profiel, tweetalig and IGCSE are used as the child hears them at school, because that is the vocabulary the family uses at the table.
 - **One full lesson before any decision** A real task, a level and a named course by the end of the hour, with no card details taken to arrange it and nothing to decide until the family has watched us teach.
-- **Five to ten learners, grouped by level** A group is built from what its members can do and want next. The gebied, the school, the rota and the country the grandparents left play no part in it.
+- **Fifteen to twenty learners, grouped by level** A group is built from what its members can do and want next. The gebied, the school, the rota and the country the grandparents left play no part in it.
 - **Eight lessons a month, on the regio Midden calendar** Two lessons a week at one time agreed once. Zuid-Holland takes its school holidays with regio Midden, and the summer weeks are settled before the slot is.
 - **Three and a half hours, or four and a half** That is how far a Rotterdam afternoon sits behind the teacher's evening in India, more in winter because only the Dutch clock changes. After-school, early-evening and weekend slots suit both ends and the family picks one during the free lesson.
 
@@ -223,7 +223,7 @@ Port, hospital, terminal and refinery families in Rotterdam do not all keep offi
 The tariff in full, ahead of any request for a phone number, because a port city likes its numbers on the table.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 The rate is the single international one and it is in US dollars: no euro list, no Rotterdam surcharge, no joining fee. The opening lesson fixes the course and the slot; payment is arranged afterwards over WhatsApp. Pauses, changes of plan and missed lessons are on the pricing page.
@@ -264,7 +264,7 @@ No, and none is claimed in Rotterdam, in Schiedam or anywhere in the Netherlands
 
 ### What do Rotterdam coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Rotterdam group?
 

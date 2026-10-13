@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Vibe coding and AI agents classes in Washington, Tyne and Wear',
   capsuleQ: 'What are the best vibe coding and AI agents classes in Washington, Tyne and Wear?',
-  capsule: 'Washington in Tyne and Wear is an ONS built-up area with 51,320 usual residents at the 2021 census, part of the city of Sunderland, which had 274,172. The gazetteer lists Concord, Oxclose, Biddick, Fatfield, Barmston, Usworth, Sulgrave and Rickleton among its suburban areas. Modern Age Coders runs lessons there in vibe coding, AI agents, Python, general coding and maths for anyone from six to 67. Lessons are live video sessions with tutors in India, either individual or in classes of five to ten pitched at one level. We teach learners to give an agent a stopping rule and to measure what that rule costs. The Washington project has an agent hunt for a meeting point among 179 census area centres, and compares checking every one with stopping at the first that is good enough. The first lesson is free; from there a group class costs USD 100 monthly and individual tuition USD 150 monthly.',
+  capsule: 'Washington in Tyne and Wear is an ONS built-up area with 51,320 usual residents at the 2021 census, part of the city of Sunderland, which had 274,172. The gazetteer lists Concord, Oxclose, Biddick, Fatfield, Barmston, Usworth, Sulgrave and Rickleton among its suburban areas. Modern Age Coders runs lessons there in vibe coding, AI agents, Python, general coding and maths for anyone from six to 67. Lessons are live video sessions with tutors in India, either individual or in classes of fifteen to twenty pitched at one level. We teach learners to give an agent a stopping rule and to measure what that rule costs. The Washington project has an agent hunt for a meeting point among 179 census area centres, and compares checking every one with stopping at the first that is good enough. The first lesson is free; from there a group class costs USD 100 monthly and individual tuition USD 150 monthly.',
   lead: 'Herbert Simon, who later won a Nobel prize in economics, argued in the 1950s that real decision makers do not hunt for the perfect option. They set a bar, look until something clears it, and stop. He invented a word for it, satisficing, from satisfy and suffice. An AI agent faces the same choice on every task, because each extra look costs time, tokens or money. Set the bar too low and the answer is poor. Set it too high and the agent never stops. This project puts numbers on both mistakes using a real town.',
   wa: 'Hello Modern Age Coders, we are in Washington, Tyne and Wear, and would like a free trial lesson in vibe coding or AI agents.',
 
@@ -160,7 +160,7 @@ module.exports = {
       { h3: 'Active from minute one', p: 'The learner writes and runs code while sharing their screen; the tutor guides with questions.' },
       { h3: 'We assess in the trial', p: 'A course is suggested only after the free lesson has shown what the learner can do.' },
       { h3: 'Nothing to pay upfront', p: 'The first lesson is free and we do not ask for a card.' },
-      { h3: 'Five to ten in a group', p: 'Groups share a level, and their members live all over the UK.' },
+      { h3: 'Fifteen to twenty in a group', p: 'Groups share a level, and their members live all over the UK.' },
       { h3: 'Two sessions a week', p: 'In term time; Sunderland school holidays are left out on request.' },
       { h3: 'Lesson time never drifts', p: 'Clock changes in the UK are handled at the tutor\'s end.' }
     ],

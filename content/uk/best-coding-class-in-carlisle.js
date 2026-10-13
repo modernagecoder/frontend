@@ -64,7 +64,7 @@ module.exports = {
 
   h1: 'Coding classes in Carlisle',
   capsuleQ: 'What are the best coding classes in Carlisle?',
-  capsule: 'The Carlisle district, as it stood at the 2021 census, had 110,024 usual residents at 106.0 people per square kilometre, against 433.5 for England; it is now served by Cumberland Council. Carlisle Cathedral says it was founded by Henry I as an Augustinian priory in 1122 and became a cathedral in 1133. Carlisle learners from six to sixty-seven study with our teachers in India over live video, individually or in a group of five to ten at their level, at times chosen around UK school and work. There is no charge for lesson one; from then on it is USD 100 a month for a group place or USD 150 for one-to-one teaching.',
+  capsule: 'The Carlisle district, as it stood at the 2021 census, had 110,024 usual residents at 106.0 people per square kilometre, against 433.5 for England; it is now served by Cumberland Council. Carlisle Cathedral says it was founded by Henry I as an Augustinian priory in 1122 and became a cathedral in 1133. Carlisle learners from six to sixty-seven study with our teachers in India over live video, individually or in a group of fifteen to twenty at their level, at times chosen around UK school and work. There is no charge for lesson one; from then on it is USD 100 a month for a group place or USD 150 for one-to-one teaching.',
   lead: 'On the rainfall day dated 5 December 2015, Storm Desmond dropped 264.4 millimetres into the Environment Agency\'s gauge at Thirlmere. The next day the River Eden at Sheepmount, in Carlisle, reached 7.648 metres, the highest daily maximum in a record going back to 1975. But a gauge only measures the spot it stands on. How do you map rain between 99 of them? Our teenagers join the gauges into a Delaunay triangulation, the mesh of triangles in which no gauge sits inside another triangle\'s circumcircle, and estimate each point from the three corners around it. Tested by hiding one gauge at a time, the triangles miss by 17.0 millimetres on average, against 25.1 for simply copying the nearest gauge.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Carlisle, please.',
 
@@ -190,7 +190,7 @@ module.exports = {
       { h3: 'City and villages', p: 'A learner in Currock and another in Houghton can share the same class, with no journey into the city centre.' },
       { h3: 'English school stages', p: 'Our levels line up with what Cumbrian schools teach, Reception onwards through each Key Stage to GCSE and A level, with every lesson given in English.' },
       { h3: 'A useful first lesson', p: 'The free session teaches a real task and ends with a recommended level, course and weekly slot. We never ask for card details.' },
-      { h3: 'Groups by level', p: 'Five to ten learners at the same stage, from Carlisle, the rest of the UK and abroad, so every level has workable times.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at the same stage, from Carlisle, the rest of the UK and abroad, so every level has workable times.' },
       { h3: 'A weekly routine', p: 'Two regular lessons a week, around eight a month, with holidays and exams agreed with the teacher ahead of time.' },
       { h3: 'Evenings, two time zones', p: 'A 6.30 pm lesson in Carlisle starts at 11 pm in India during British Summer Time and midnight in winter, since India keeps one clock all year; our teachers work late for UK families, and earlier slots suit the winter months.' }
     ],
@@ -201,7 +201,7 @@ module.exports = {
     h2: 'Carlisle lesson fees',
     intro: 'The first lesson is free, and after that there is one monthly fee.',
     first: 'A full lesson with nothing to pay, ending with advice on level, course and a weekly slot.',
-    group: 'Roughly eight live lessons a month, with five to ten learners working at the same stage.',
+    group: 'Roughly eight live lessons a month, with fifteen to twenty learners working at the same stage.',
     private: 'Roughly eight live lessons a month, with the teacher giving your learner their full attention.',
     closer: 'Harraby households are billed the way we bill every household beyond India, in US dollars, and you will not find a pound price on any of our pages. The free lesson comes before any charge, and billing starts only once a course and weekly time are settled; pausing, missed lessons and switching between group and private teaching are on the pricing page.'
   },
@@ -226,8 +226,8 @@ module.exports = {
       { q: 'How high did the Eden rise in Carlisle?', a: 'The Environment Agency\'s Sheepmount gauge recorded a daily maximum of 7.648 metres on 6 December 2015, the highest in its record since 1975; the next highest was 7.226 metres on 8 January 2005. We are not connected with the Agency.' },
       { q: 'When do Carlisle lessons take place?', a: 'Carlisle families usually choose a slot straight after school, a weekday evening or a weekend morning, and we settle the time together during the free lesson. India is four and a half hours ahead of Carlisle in summer and five and a half in winter, so early evening slots work well.' },
       { q: 'Is there a Carlisle classroom?', a: 'No. We have no Carlisle centre and no premises anywhere in the UK, as every lesson is live online. A learner needs a computer with sound and a dependable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do Carlisle lessons cost?', a: 'The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one lessons on the same timetable are USD 150 a month. The course, format and time are agreed before anything is charged.', boiler: true },
-      { q: 'How do you choose a learner\'s group?', a: 'By level, pace and goals rather than age or postcode, with five to ten learners at the same stage. If no group fits the learner\'s week, we offer one-to-one lessons instead.', boiler: true }
+      { q: 'What do Carlisle lessons cost?', a: 'The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one lessons on the same timetable are USD 150 a month. The course, format and time are agreed before anything is charged.', boiler: true },
+      { q: 'How do you choose a learner\'s group?', a: 'By level, pace and goals rather than age or postcode, with fifteen to twenty learners at the same stage. If no group fits the learner\'s week, we offer one-to-one lessons instead.', boiler: true }
     ]
   },
 

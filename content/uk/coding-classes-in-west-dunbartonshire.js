@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'Coding classes in West Dunbartonshire',
   capsuleQ: 'What are the best coding classes in West Dunbartonshire?',
-  capsule: 'West Dunbartonshire is a compact council area with about 88,400 residents in roughly 42,600 households at the 2022 census, living at 556.8 people per square kilometre. Clydebank and Dumbarton are the two main towns, with Bonhill, Alexandria, Duntocher and Hardgate, and Balloch next in size. Our teachers in India give every class live over video, and a free trial lesson finds each learner\'s stage, whether P1, S6 or long after school. Learners aged 6 to 67 study coding, Python and maths, in a group of five to ten or alone with a teacher. The West Dunbartonshire project starts in a long brick shed in Dumbarton. Carrying on after the trial costs USD 100 a month in a group or USD 150 a month one-to-one.',
+  capsule: 'West Dunbartonshire is a compact council area with about 88,400 residents in roughly 42,600 households at the 2022 census, living at 556.8 people per square kilometre. Clydebank and Dumbarton are the two main towns, with Bonhill, Alexandria, Duntocher and Hardgate, and Balloch next in size. Our teachers in India give every class live over video, and a free trial lesson finds each learner\'s stage, whether P1, S6 or long after school. Learners aged 6 to 67 study coding, Python and maths, in a group of fifteen to twenty or alone with a teacher. The West Dunbartonshire project starts in a long brick shed in Dumbarton. Carrying on after the trial costs USD 100 a month in a group or USD 150 a month one-to-one.',
   lead: 'Behind a narrow stone frontage on Castle Street in Dumbarton lies a long, narrow tank of water. Historic Environment Scotland lists it at Category A as the first privately owned ship model experiment tank built in the world, said to be the oldest still in existence. It was built in 1882 and 1883 for Denny\'s shipyard, the first experiment is dated 21 February 1883, and a carved panel on the front honours William Froude, the naval architect whose methods it used. The idea is bold: tow a small model, measure the drag, and predict what a full-sized ship will need. But a model is not simply a small ship, and scaling it up naively gives the wrong answer. This page\'s project shows why, in Python.',
   wa: 'Hello Modern Age Coders, we are in West Dunbartonshire and would like to book a free lesson, please.',
 
@@ -163,7 +163,7 @@ module.exports = {
       { h3: 'Real typing, real bugs', p: 'The learner writes each program; the teacher sees the shared screen and helps at the right moment.' },
       { h3: 'School stage names', p: 'A Faifley P5 or a Dumbarton S4 hears the stages they already use, up to Advanced Higher. Lessons are in English.' },
       { h3: 'Free trial lesson', p: 'A full lesson with no charge, then straightforward advice.' },
-      { h3: 'Groups matched by stage', p: 'Five to ten learners at one stage in each group, some local and some far away.' },
+      { h3: 'Groups matched by stage', p: 'Fifteen to twenty learners at one stage in each group, some local and some far away.' },
       { h3: 'Term time schedule', p: 'Two lessons a week in term; the holidays are free.' },
       { h3: 'UK time that holds', p: 'Your lesson stays at its UK hour through the clock changes; our teachers on India time shift instead.' }
     ],
@@ -174,7 +174,7 @@ module.exports = {
     h2: 'Fees in West Dunbartonshire',
     intro: 'Clydebank or Alexandria, the fee is identical, our standard rate for every country outside India.',
     first: 'A full trial lesson at no cost, then a recommendation.',
-    group: 'About eight lessons a month in a group of five to ten.',
+    group: 'About eight lessons a month in a group of fifteen to twenty.',
     private: 'About eight lessons a month, one-to-one.',
     closer: 'Fees are in US dollars; there is no sterling price. We bill only once the trial has settled a course and a weekly time, and the pricing page explains holidays, missed lessons and switching formats.'
   },

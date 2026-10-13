@@ -194,7 +194,7 @@ Our teachers are in India. Burnie and Hobart are four and a half hours ahead of 
 
 - **Projects she chooses** Interest keeps students coding between events.
 - **Understanding first** Every line explained, never just copied.
-- **Friendly groups** Five to ten students at a similar level.
+- **Friendly groups** Fifteen to twenty students at a similar level.
 - **One-to-one option** For a student who wants a personal pace.
 - **Alongside GPN** Classes complement workshops; they never replace them.
 - **No outcome promised** We build skill and confidence, week by week.
@@ -204,7 +204,7 @@ Our teachers are in India. Burnie and Hobart are four and a half hours ahead of 
 Classes are charged monthly in US dollars, our international rate, with no joining fee and no lock-in. GPN workshops are free and run by GPN; they have nothing to do with our fees.
 
 - Free first class: USD 0. A first class with a teacher, at no cost. Bring a workshop project to look at together. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher across the term. Projects shared and discussed. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher across the term. Projects shared and discussed. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one student. Lessons built around her own projects. Weekly times chosen with you.
 
 ## What students and parents ask

@@ -175,7 +175,7 @@ module.exports = {
       { h3: 'Village or town, same class', p: 'A pupil in Heerle and a pupil near the old Markt start at the same moment from their own homes, with no drive between villages in the evening.' },
       { h3: 'Brabant school terms kept', p: 'Groep, brugklas, vmbo, havo, vwo and the profielkeuze stay in Dutch as a Brabant school writes them, and the lesson itself is in English.' },
       { h3: 'The free lesson is real', p: 'The first session is taught on an actual task. The teacher sees how the learner goes about it and then proposes a level, a course and a weekly slot, with nothing to pay and no card to give.' },
-      { h3: 'Classmates at your level', p: 'Groups are five to ten learners at one stage. Roosendaal has 10,880 residents under fifteen, and five of them matched on subject, level and hour is unlikely, so a group may include learners from other countries.' },
+      { h3: 'Classmates at your level', p: 'Groups are fifteen to twenty learners at one stage. Roosendaal has 10,880 residents under fifteen, and five of them matched on subject, level and hour is unlikely, so a group may include learners from other countries.' },
       { h3: 'The southern holidays', p: 'Classes run twice a week, about eight a month, at one agreed hour, and stop for the regio Zuid holidays that Noord-Brabant schools follow.' },
       { h3: 'Hours that suit families', p: 'The teachers are in India, three and a half hours ahead in Dutch summer and four and a half in winter, so late afternoons, evenings and weekend mornings are all realistic.' }
     ],
@@ -186,7 +186,7 @@ module.exports = {
     h2: 'Roosendaal fees in full',
     intro: 'Three prices, and no others.',
     first: 'A genuine lesson on a genuine task, ending in a level and a named course.',
-    group: 'Per month, normally eight lessons, in a group of five to ten learners at the same level.',
+    group: 'Per month, normally eight lessons, in a group of fifteen to twenty learners at the same level.',
     private: 'Per month, normally eight lessons, taught to one learner alone.',
     closer: 'The price is set in dollars and is the same for every country, with no euro list to compare, so a family in Nispen pays what a family in Tolberg pays. Nothing is charged until the free lesson has fixed a course and a slot, and payment is then arranged over WhatsApp. The pricing page explains pauses, format changes and missed lessons.'
   },
@@ -211,7 +211,7 @@ module.exports = {
       { q: 'How many schools does Roosendaal have?', a: 'The statistics count 33 primary establishments teaching 6,367 pupils and 6 secondary establishments teaching 4,345, with 2,680 MBO, 690 higher professional and 480 university students at institutions in the municipality. This page rates no school.' },
       { q: 'Are the lessons in English, and at what times?', a: 'Yes, in English, with Dutch school words like brugklas, havo and vwo left untranslated. The teachers work from India, three and a half hours ahead of Roosendaal in summer and four and a half in winter, so late-afternoon, evening and weekend times are easy to find. The time is set in the free lesson, and the regio Zuid holidays are observed.' },
       { q: 'Is there a Modern Age Coders classroom in Roosendaal?', a: 'No, and none is claimed here or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Roosendaal coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Roosendaal coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

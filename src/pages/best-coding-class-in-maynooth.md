@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes for Maynooth, from schoo
 canonical: https://learn.modernagecoders.com/best-coding-class-in-maynooth
 source: src/pages/best-coding-class-in-maynooth.html
 ---
-> Maynooth is a university town with 16,981 usual residents in the census town tables, 5,721 households, and 2,622 residents aged fifteen and over whose main occupation is study. Among its residents, 428 hold a doctorate. Modern Age Coders works here the way it works everywhere: no campus and no drive, just a live teacher on video for two lessons in a typical week, alongside five to ten learners at the same level or one to one, from age six to sixty-seven. There is no charge for the first lesson; afterwards USD 100 a month buys a group place and USD 150 a private one.
+> Maynooth is a university town with 16,981 usual residents in the census town tables, 5,721 households, and 2,622 residents aged fifteen and over whose main occupation is study. Among its residents, 428 hold a doctorate. Modern Age Coders works here the way it works everywhere: no campus and no drive, just a live teacher on video for two lessons in a typical week, alongside fifteen to twenty learners at the same level or one to one, from age six to sixty-seven. There is no charge for the first lesson; afterwards USD 100 a month buys a group place and USD 150 a private one.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Kildare](/coding-classes-in-county-kildare) / Maynooth
 
@@ -12,11 +12,11 @@ Maynooth, County Kildare / Live online
 
 # Coding classes in Maynooth
 
-**What is the best coding class in Maynooth?** Maynooth is a university town with 16,981 usual residents in the census town tables, 5,721 households, and 2,622 residents aged fifteen and over whose main occupation is study. Among its residents, 428 hold a doctorate. Modern Age Coders works here the way it works everywhere: no campus and no drive, just a live teacher on video for two lessons in a typical week, alongside five to ten learners at the same level or one to one, from age six to sixty-seven. There is no charge for the first lesson; afterwards USD 100 a month buys a group place and USD 150 a private one.
+**What is the best coding class in Maynooth?** Maynooth is a university town with 16,981 usual residents in the census town tables, 5,721 households, and 2,622 residents aged fifteen and over whose main occupation is study. Among its residents, 428 hold a doctorate. Modern Age Coders works here the way it works everywhere: no campus and no drive, just a live teacher on video for two lessons in a typical week, alongside fifteen to twenty learners at the same level or one to one, from age six to sixty-seven. There is no charge for the first lesson; afterwards USD 100 a month buys a group place and USD 150 a private one.
 
 Here is a table that looks complete and is not. The census publishes, for every town, the highest level of education its residents have completed, and in Maynooth that table adds up to 10,068 people. But Maynooth has 13,839 residents aged fifteen and over. The missing 3,771 are the people whose education has not finished yet: 2,622 still at school or college, and 1,149 more. Across all towns combined the missing group is about 19.4% of adults. In this university town it is more than a quarter, and it changes the answer to the obvious question. Degree holders are 47.2% of the education table but 34.4% of everyone aged fifteen and over. Both are correct. Only one describes the town, and nothing in the table's title warns you which.
 
-Facts last verified 17 September 2026. Teaching is online; no Maynooth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 17 September 2026. Teaching is online; no Maynooth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## From primary school to postgraduate
 
@@ -168,7 +168,7 @@ Tools will always divide by the total they are handed. Knowing whether it is the
 The practical details, which are the same for a nine year old and a PhD student.
 
 - **A real teacher, live** Lessons are taught as they happen, with questions and answers flowing both ways.
-- **Matched on level** Groups of five to ten are formed by ability, from Maynooth, the rest of Ireland and other countries.
+- **Matched on level** Groups of fifteen to twenty are formed by ability, from Maynooth, the rest of Ireland and other countries.
 - **Two lessons a week** About eight a month, at a time agreed at the start around school, lectures or work.
 - **Terms and exams** Irish school stages and the university year are both planned around, including exam periods.
 - **At a desk at home** A laptop or desktop, working audio and a connection that carries video, which almost nine in ten Maynooth households have on broadband.
@@ -181,7 +181,7 @@ The practical details, which are the same for a nine year old and a PhD student.
 Three figures, for every age.
 
 - First class: USD 0. The first lesson, in full, free, ending with a level and a suggested course.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, around eight lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, around eight lessons.
 - Private tuition: USD 150 a month. A month of one to one teaching on the same weekly schedule.
 
 Fees are billed monthly in US dollars at the single rate we charge outside India, the same for a Maynooth student as for anyone else in Ireland, and no euro price list exists. No payment is taken until the free lesson has agreed a course and a time, and the pricing page covers pauses, missed lessons and switching between group and private.
@@ -222,7 +222,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Maynooth cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

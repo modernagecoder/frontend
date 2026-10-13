@@ -53,7 +53,7 @@ module.exports = {
 
   h1: 'Coding classes in Oxfordshire',
   capsuleQ: 'What are the best coding classes in Oxfordshire?',
-  capsule: 'Oxfordshire is five districts holding 725,291 people at the 2021 Census. Oxford itself is by far the biggest place, and its built-up area reaches into two neighbouring districts; after it come Banbury, Bicester, Didcot, Abingdon and Witney, then a long list of market towns and villages. Wherever a family lives among them, the offer is the same. A teacher in India works with the learner live over video; the starting level comes from skill, not birthday, for anyone between 6 and 67; and the choice is a group of five to ten or a teacher to themselves, across programming, Python, GCSE computing, AI and maths. The Oxfordshire project starts at Culham, with the fusion records set there. The first lesson costs nothing; from then on group places are USD 100 monthly and private teaching USD 150.',
+  capsule: 'Oxfordshire is five districts holding 725,291 people at the 2021 Census. Oxford itself is by far the biggest place, and its built-up area reaches into two neighbouring districts; after it come Banbury, Bicester, Didcot, Abingdon and Witney, then a long list of market towns and villages. Wherever a family lives among them, the offer is the same. A teacher in India works with the learner live over video; the starting level comes from skill, not birthday, for anyone between 6 and 67; and the choice is a group of fifteen to twenty or a teacher to themselves, across programming, Python, GCSE computing, AI and maths. The Oxfordshire project starts at Culham, with the fusion records set there. The first lesson costs nothing; from then on group places are USD 100 monthly and private teaching USD 150.',
   lead: 'In 2023 the JET machine at Culham, near Abingdon, produced 69 megajoules of fusion energy over five seconds from 0.2 milligrams of fuel, about the weight of a fruit fly. Headlines often turn numbers like that into "megawatts", and the two words are not the same thing. A megajoule is an amount of energy; a megawatt is a rate, energy per second. Confuse them and a calculation can be wrong by any factor you like, with nothing on the page to warn you. This page\'s project builds a small piece of Python that knows the difference: every number carries its units, and the program refuses outright to add a megajoule to a megawatt. Then it uses JET\'s published records to show what the right sums say.',
   wa: 'Hello Modern Age Coders, I would like a free lesson for a learner in Oxfordshire, please.',
 
@@ -182,7 +182,7 @@ module.exports = {
     h2: 'Fees for Oxfordshire',
     intro: 'Identical fees in every Oxfordshire town and in every country except India.',
     first: 'A complete lesson of genuine work, with a recommended level and course.',
-    group: 'Roughly eight lessons a month, five to ten learners at one level.',
+    group: 'Roughly eight lessons a month, fifteen to twenty learners at one level.',
     private: 'Roughly eight lessons a month, one teacher with one learner.',
     closer: 'We quote in US dollars for all families outside India and keep no pound prices. You pay nothing until the free lesson has fixed a course and weekly time, and the pricing page sets out how pausing, missed lessons and moving between group and private places work.'
   },

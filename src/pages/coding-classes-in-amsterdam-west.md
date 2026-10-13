@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Amsterdam-West for ag
 canonical: https://learn.modernagecoders.com/coding-classes-in-amsterdam-west
 source: src/pages/coding-classes-in-amsterdam-west.html
 ---
-> Coding classes in Amsterdam-West reach the densest of the eight Amsterdam districts, formed in 2010 out of Oud-West, Westerpark, De Baarsjes and Bos en Lommer on 9.45 square kilometres of land. In February 2009 one of its neighbourhoods, De Kolenkit, was reported as the worst in the Netherlands. In the years after, a large part of it was demolished and replaced with new building, and one of its four buurten is now called Laan van Spartaan. The name is unchanged and much of the place is not. Modern Age Coders teaches live online in English across the whole district, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Amsterdam-West reach the densest of the eight Amsterdam districts, formed in 2010 out of Oud-West, Westerpark, De Baarsjes and Bos en Lommer on 9.45 square kilometres of land. In February 2009 one of its neighbourhoods, De Kolenkit, was reported as the worst in the Netherlands. In the years after, a large part of it was demolished and replaced with new building, and one of its four buurten is now called Laan van Spartaan. The name is unchanged and much of the place is not. Modern Age Coders teaches live online in English across the whole district, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Amsterdam](/coding-classes-in-amsterdam) / Amsterdam-West
 
@@ -12,11 +12,11 @@ West, Amsterdam / Live online
 
 # Coding classes in Amsterdam-West, where a neighbourhood still carries a label from 2009 and most of the buildings it described are gone
 
-**What are the best coding classes in Amsterdam-West?** Coding classes in Amsterdam-West reach the densest of the eight Amsterdam districts, formed in 2010 out of Oud-West, Westerpark, De Baarsjes and Bos en Lommer on 9.45 square kilometres of land. In February 2009 one of its neighbourhoods, De Kolenkit, was reported as the worst in the Netherlands. In the years after, a large part of it was demolished and replaced with new building, and one of its four buurten is now called Laan van Spartaan. The name is unchanged and much of the place is not. Modern Age Coders teaches live online in English across the whole district, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Amsterdam-West?** Coding classes in Amsterdam-West reach the densest of the eight Amsterdam districts, formed in 2010 out of Oud-West, Westerpark, De Baarsjes and Bos en Lommer on 9.45 square kilometres of land. In February 2009 one of its neighbourhoods, De Kolenkit, was reported as the worst in the Netherlands. In the years after, a large part of it was demolished and replaced with new building, and one of its four buurten is now called Laan van Spartaan. The name is unchanged and much of the place is not. Modern Age Coders teaches live online in English across the whole district, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Search for De Kolenkit and you will still meet a sentence from February 2009 calling it the worst neighbourhood in the Netherlands. The same entry that records the label also records what happened next: an urban renewal plan under which a large part of the buurt was demolished and replaced by new construction. Seventeen years later the name is identical and a substantial part of the physical neighbourhood is not. A name is a promise that the thing on either side of it is the same thing, and that promise quietly broke here without anybody being told.
 
-Facts last verified 9 September 2026. Teaching is online; no Amsterdam-West branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 September 2026. Teaching is online; no Amsterdam-West branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the most crowded eight square kilometres in the city
 
@@ -196,7 +196,7 @@ West is dense, well connected and short of space. The obstacle for a family here
 On the page rather than saved for a telephone call.
 
 - First class: USD 0. A full lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate exists and it is quoted in dollars, with no euro edition, so an address in the Helmersbuurt is charged exactly what an address in De Kolenkit is. Nothing is paid until the free lesson has settled a course and an hour, and payment is then arranged over WhatsApp. Pausing, switching plan and missing a week are all set out on the pricing page.
@@ -237,7 +237,7 @@ No, and none is claimed in Bos en Lommer, elsewhere in Amsterdam or anywhere in 
 
 ### What do Amsterdam-West coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

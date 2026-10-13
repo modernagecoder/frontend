@@ -4,7 +4,7 @@ description: "Vibe coding, AI agents, Python and coding lessons on live video fo
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-urmston
 source: src/pages/vibe-coding-and-ai-agents-classes-in-urmston.html
 ---
-> In 2021 the census counted 41,740 usual residents in the Urmston built-up area, which takes in Flixton and Davyhulme, and 235,052 in the borough of Trafford. From India, our tutors teach Urmston learners between six and 67 over live video: vibe coding, agents, Python, general programming and maths, privately or with five to ten classmates at the same stage. The first lesson is free, and a course is suggested once it is over. The Urmston project puts dozens of simulated delivery robots on the town's real road network, lets each plan its own shortest route, counts the collisions, and then has them plan one after another around a shared timetable. Beyond the trial, a monthly group place costs USD 100 and monthly private tuition USD 150.
+> In 2021 the census counted 41,740 usual residents in the Urmston built-up area, which takes in Flixton and Davyhulme, and 235,052 in the borough of Trafford. From India, our tutors teach Urmston learners between six and 67 over live video: vibe coding, agents, Python, general programming and maths, privately or with fifteen to twenty classmates at the same stage. The first lesson is free, and a course is suggested once it is over. The Urmston project puts dozens of simulated delivery robots on the town's real road network, lets each plan its own shortest route, counts the collisions, and then has them plan one after another around a shared timetable. Beyond the trial, a monthly group place costs USD 100 and monthly private tuition USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Urmston
 
@@ -12,11 +12,11 @@ Urmston, Flixton and Davyhulme, Trafford / Live online
 
 # Vibe coding and AI agents classes in Urmston
 
-**Which vibe coding and AI agents classes are best for Urmston?** In 2021 the census counted 41,740 usual residents in the Urmston built-up area, which takes in Flixton and Davyhulme, and 235,052 in the borough of Trafford. From India, our tutors teach Urmston learners between six and 67 over live video: vibe coding, agents, Python, general programming and maths, privately or with five to ten classmates at the same stage. The first lesson is free, and a course is suggested once it is over. The Urmston project puts dozens of simulated delivery robots on the town's real road network, lets each plan its own shortest route, counts the collisions, and then has them plan one after another around a shared timetable. Beyond the trial, a monthly group place costs USD 100 and monthly private tuition USD 150.
+**Which vibe coding and AI agents classes are best for Urmston?** In 2021 the census counted 41,740 usual residents in the Urmston built-up area, which takes in Flixton and Davyhulme, and 235,052 in the borough of Trafford. From India, our tutors teach Urmston learners between six and 67 over live video: vibe coding, agents, Python, general programming and maths, privately or with fifteen to twenty classmates at the same stage. The first lesson is free, and a course is suggested once it is over. The Urmston project puts dozens of simulated delivery robots on the town's real road network, lets each plan its own shortest route, counts the collisions, and then has them plan one after another around a shared timetable. Beyond the trial, a monthly group place costs USD 100 and monthly private tuition USD 150.
 
 One agent finding its way across town is a solved problem. Forty agents doing it at once is not, because the shortest route for each one ignores where the others will be. The fix most systems use is surprisingly social: agents plan one at a time and write their plans into a shared timetable that later agents must respect. The roads of Urmston, Flixton and Davyhulme make a real map to try it on.
 
-Facts last verified 1 October 2026. Teaching is online; no Urmston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 1 October 2026. Teaching is online; no Urmston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Vibe coding and AI agents courses for Urmston learners
 

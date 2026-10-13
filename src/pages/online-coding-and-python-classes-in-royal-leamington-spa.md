@@ -4,7 +4,7 @@ description: "Live online coding and Python classes for Royal Leamington Spa, Li
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-royal-leamington-spa
 source: src/pages/online-coding-and-python-classes-in-royal-leamington-spa.html
 ---
-> The ONS built-up area of Royal Leamington Spa held 51,310 usual residents at the 2021 census, and Warwick district as a whole held 148,453. Lillington, Milverton and Sydenham are suburban areas of the town in the postcode gazetteer. Learners there, from age six to 67, study Python, coding, vibe coding, AI and maths with Modern Age Coders over live video. A tutor in India leads every session, taken privately or as one of a group of five to ten at the same level. We like projects where the true answer is known, so a learner can see exactly how wrong a clever method is. In the Leamington project the learner hides the inside of a real census table, rebuilds it in Python from the totals, and then compares. Lesson one carries no charge. From the second lesson the price is USD 100 per month in a class and USD 150 per month for individual tuition.
+> The ONS built-up area of Royal Leamington Spa held 51,310 usual residents at the 2021 census, and Warwick district as a whole held 148,453. Lillington, Milverton and Sydenham are suburban areas of the town in the postcode gazetteer. Learners there, from age six to 67, study Python, coding, vibe coding, AI and maths with Modern Age Coders over live video. A tutor in India leads every session, taken privately or as one of a group of fifteen to twenty at the same level. We like projects where the true answer is known, so a learner can see exactly how wrong a clever method is. In the Leamington project the learner hides the inside of a real census table, rebuilds it in Python from the totals, and then compares. Lesson one carries no charge. From the second lesson the price is USD 100 per month in a class and USD 150 per month for individual tuition.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands](/coding-and-ai-classes-in-west-midlands-region) / Royal Leamington Spa
 
@@ -12,11 +12,11 @@ Royal Leamington Spa, Warwick district, Warwickshire / Live online
 
 # Online coding and Python classes in Royal Leamington Spa
 
-**Which online coding and Python classes are best for Royal Leamington Spa?** The ONS built-up area of Royal Leamington Spa held 51,310 usual residents at the 2021 census, and Warwick district as a whole held 148,453. Lillington, Milverton and Sydenham are suburban areas of the town in the postcode gazetteer. Learners there, from age six to 67, study Python, coding, vibe coding, AI and maths with Modern Age Coders over live video. A tutor in India leads every session, taken privately or as one of a group of five to ten at the same level. We like projects where the true answer is known, so a learner can see exactly how wrong a clever method is. In the Leamington project the learner hides the inside of a real census table, rebuilds it in Python from the totals, and then compares. Lesson one carries no charge. From the second lesson the price is USD 100 per month in a class and USD 150 per month for individual tuition.
+**Which online coding and Python classes are best for Royal Leamington Spa?** The ONS built-up area of Royal Leamington Spa held 51,310 usual residents at the 2021 census, and Warwick district as a whole held 148,453. Lillington, Milverton and Sydenham are suburban areas of the town in the postcode gazetteer. Learners there, from age six to 67, study Python, coding, vibe coding, AI and maths with Modern Age Coders over live video. A tutor in India leads every session, taken privately or as one of a group of fifteen to twenty at the same level. We like projects where the true answer is known, so a learner can see exactly how wrong a clever method is. In the Leamington project the learner hides the inside of a real census table, rebuilds it in Python from the totals, and then compares. Lesson one carries no charge. From the second lesson the price is USD 100 per month in a class and USD 150 per month for individual tuition.
 
 Published statistics often give you the edges of a table and keep the middle back. You are told how many homes each neighbourhood has, and how many homes of each type the town has, but not how many of each type are in each neighbourhood. In 1940 W. Edwards Deming and Frederick Stephan described a procedure for filling in the middle: start with a guess, scale every row to its total, scale every column to its total, and repeat until both fit. It is a dozen lines of Python. Whether the result deserves to be believed is a separate question, and this project answers it with data where the middle is in fact known.
 
-Facts last verified 30 September 2026. Teaching is online; no Royal Leamington Spa branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Royal Leamington Spa branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python and coding courses for Leamington Spa
 
@@ -133,7 +133,7 @@ Join from any room with a computer, keyboard and camera. Python needs a proper k
 - **Typing, not watching** Learners build and run their own programs with the tutor looking on and asking them to explain.
 - **Level set by the trial** We hold the course recommendation until the free lesson has shown us where the learner stands.
 - **Trial at no cost** There is no fee and no card request for the first lesson.
-- **Five to ten learners** Every group is made of learners at one stage, wherever in the UK they live.
+- **Fifteen to twenty learners** Every group is made of learners at one stage, wherever in the UK they live.
 - **Roughly eight lessons monthly** Two a week in term; Warwickshire holiday weeks are dropped if you send the dates.
 - **UK time, all year** Tutors absorb the spring and autumn clock changes so your slot holds.
 

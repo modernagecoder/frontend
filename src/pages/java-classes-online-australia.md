@@ -217,7 +217,7 @@ Our teachers work from India, whose day runs alongside the Australian afternoon 
 - **Weekend** Longer sessions for projects and testing.
 
 - **Free first class** A short Java exercise and an honest view of the right starting stage.
-- **Small groups** Five to ten students reading each other's code.
+- **Small groups** Fifteen to twenty students reading each other's code.
 - **One to one** For a unit, a job or a specific project.
 - **Code by the student** Teachers guide; students type, run and explain.
 - **Tests as standard** Every class a student writes gets at least one test.
@@ -228,7 +228,7 @@ Our teachers work from India, whose day runs alongside the Australian afternoon 
 Java lessons are billed monthly in US dollars for learners in Australia. There is no enrolment charge, and a family or adult learner can leave at the end of any month.
 
 - Free first class: USD 0. A short Java exercise. Advice on the right starting stage. No card or bank details.
-- Group batch: USD 100 a month. Five to ten students per class. Code reviews within the group. A regular teacher. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty students per class. Code reviews within the group. A regular teacher. Stop after any month.
 - One to one: USD 150 a month. Lessons around one student's goals. Unit-aligned or work-aligned plans. Times around study and work.
 
 ## Questions about Java classes online in Australia

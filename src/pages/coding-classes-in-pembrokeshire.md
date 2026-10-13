@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes for all of Pembrokesh
 canonical: https://learn.modernagecoders.com/coding-classes-in-pembrokeshire
 source: src/pages/coding-classes-in-pembrokeshire.html
 ---
-> There were 123,360 people living in Pembrokeshire on census day 2021. Milford Haven, with 14,250, is the largest town, ahead of Haverfordwest, Pembroke Dock and Pembroke; Tenby, Fishguard, Neyland, Saundersfoot, Narberth, Merlin's Bridge and Goodwick follow. Every class we run happens live over video, taught from India. Ages 6 to 67 are welcome for coding, Python and maths, one-to-one or in a small class of five to ten matched by level. A free first lesson works out the starting point. The county project is a mill at Carew that could only work when the tide allowed. If you stay, a class place is USD 100 a month and a personal tutor USD 150 a month.
+> There were 123,360 people living in Pembrokeshire on census day 2021. Milford Haven, with 14,250, is the largest town, ahead of Haverfordwest, Pembroke Dock and Pembroke; Tenby, Fishguard, Neyland, Saundersfoot, Narberth, Merlin's Bridge and Goodwick follow. Every class we run happens live over video, taught from India. Ages 6 to 67 are welcome for coding, Python and maths, one-to-one or in a class of fifteen to twenty matched by level. A free first lesson works out the starting point. The county project is a mill at Carew that could only work when the tide allowed. If you stay, a class place is USD 100 a month and a personal tutor USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Pembrokeshire
 
@@ -12,11 +12,11 @@ Pembrokeshire / Live online
 
 # Coding classes in Pembrokeshire
 
-**What are the best coding classes in Pembrokeshire?** There were 123,360 people living in Pembrokeshire on census day 2021. Milford Haven, with 14,250, is the largest town, ahead of Haverfordwest, Pembroke Dock and Pembroke; Tenby, Fishguard, Neyland, Saundersfoot, Narberth, Merlin's Bridge and Goodwick follow. Every class we run happens live over video, taught from India. Ages 6 to 67 are welcome for coding, Python and maths, one-to-one or in a small class of five to ten matched by level. A free first lesson works out the starting point. The county project is a mill at Carew that could only work when the tide allowed. If you stay, a class place is USD 100 a month and a personal tutor USD 150 a month.
+**What are the best coding classes in Pembrokeshire?** There were 123,360 people living in Pembrokeshire on census day 2021. Milford Haven, with 14,250, is the largest town, ahead of Haverfordwest, Pembroke Dock and Pembroke; Tenby, Fishguard, Neyland, Saundersfoot, Narberth, Merlin's Bridge and Goodwick follow. Every class we run happens live over video, taught from India. Ages 6 to 67 are welcome for coding, Python and maths, one-to-one or in a class of fifteen to twenty matched by level. A free first lesson works out the starting point. The county project is a mill at Carew that could only work when the tide allowed. If you stay, a class place is USD 100 a month and a personal tutor USD 150 a month.
 
 Cadw describes the French Mill at Carew as the only remaining tidal mill in Wales. Mills are recorded on the site from 1541, and by 1615 there was a causeway with floodgates. The idea is simple and clever. As the tide rises, sea water pushes through gates into a pond behind the causeway. When the tide turns, the gates swing shut, the water is trapped, and once the sea has fallen far enough it pours out through the wheels and turns the millstones. The miller did not choose the working hours; the Moon did. So how many hours could the mill grind on each tide, why did that change through the month, and why did the start time keep slipping later? A short Python simulation answers all three.
 
-Facts last verified 26 September 2026. Teaching is online; no Pembrokeshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Pembrokeshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Pembrokeshire starting courses
 
@@ -136,7 +136,7 @@ Coast or countryside, a laptop and a connection are enough.
 - **The learner types** Students write their programs themselves, and the teacher follows the shared screen, nudging with questions.
 - **Welsh placement** A Neyland Year 4 or a Pembroke Year 11 is placed by Welsh year and progression step; exam talk uses WJEC names. Teaching is in English.
 - **Try first, free** The first full lesson costs nothing, and you leave with clear advice.
-- **Matched classes** Five to ten learners at the same level, gathered from around the UK.
+- **Matched classes** Fifteen to twenty learners at the same level, gathered from around the UK.
 - **Term rhythm** Twice a week in term, with school holidays left clear.
 - **Same local hour** The lesson follows British clocks through spring and autumn changes; our India-based teachers adjust around you.
 
@@ -147,7 +147,7 @@ Coast or countryside, a laptop and a connection are enough.
 Milford Haven or Fishguard, the price does not change, and it matches every other country we teach outside India.
 
 - First class: USD 0. A full free trial lesson, with a clear next step.
-- Group tuition: USD 100 a month. Around eight classes a month among five to ten classmates.
+- Group tuition: USD 100 a month. Around eight classes a month among fifteen to twenty classmates.
 - Private tuition: USD 150 a month. Around eight classes a month with one dedicated tutor.
 
 Prices are set in US dollars only, never sterling. The first payment waits until the trial has chosen a course and a weekly time, and the pricing page covers breaks, missed lessons and swapping between group and one-to-one.

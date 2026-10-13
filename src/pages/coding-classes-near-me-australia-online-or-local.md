@@ -145,7 +145,7 @@ One named teacher each week, or whoever is free? Children learn far more from a 
 
 ### How big is the group?
 
-Ask for the maximum, not the average. Our groups are five to ten, or one to one.
+Ask for the maximum, not the average. Our groups are fifteen to twenty, or one to one.
 
 ### What will my child build?
 
@@ -224,7 +224,7 @@ The things that make a local class work, a regular teacher, a regular slot and a
 
 - **One teacher** The same person each week, who knows your child's projects.
 - **One slot** A fixed weekly time, like a local class, so it becomes routine.
-- **One small group** Five to ten learners at a similar level, or private lessons.
+- **One small group** Fifteen to twenty learners at a similar level, or private lessons.
 - **No travel** No drop-off, no car park, no waiting in a foyer.
 - **Every postcode** The same class in Broome, Ballarat or Bondi.
 - **Parents welcome** Sit in on any lesson, especially at the start.
@@ -234,7 +234,7 @@ The things that make a local class work, a regular teacher, a regular slot and a
 One price in US dollars applies in every country outside India, billed month by month. There is no enrolment fee, and you can finish after any month without breaking a term contract.
 
 - Free first class: USD 0. A live first lesson at no charge. A teacher's honest view of fit. No payment details needed.
-- Group batch: USD 100 a month. Five to ten learners. One regular teacher. Matched by age and level. Month to month.
+- Group batch: USD 100 a month. Fifteen to twenty learners. One regular teacher. Matched by age and level. Month to month.
 - One to one: USD 150 a month. A teacher to yourself. Times around your week. Pace set by the learner.
 
 ## What Australian families ask about classes near them

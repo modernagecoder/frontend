@@ -319,7 +319,7 @@ module.exports = {
         p: 'Plans follow the NSW syllabus stages and stop for the state school holidays, with senior work that suits computing electives.'
       },
       { h3: 'A real first class', p: 'The free lesson is taught like any other, and ends with a suggested course, level and time.' },
-      { h3: 'Groups of five to ten', p: 'Classmates are matched on level and pace, with Lane Cove learners mixed with others.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Classmates are matched on level and pace, with Lane Cove learners mixed with others.' },
       { h3: 'Twice weekly', p: 'Two fixed lessons a week, roughly eight a month, with breaks planned ahead.' },
       { h3: 'Teachers in India', p: 'A 6pm Lane Cove lesson during daylight saving is 12:30pm India time; in Sydney standard time it is 1:30pm there.' }
     ],
@@ -332,7 +332,7 @@ module.exports = {
     h2: 'Lane Cove class fees',
     intro: 'There are three prices and nothing else.',
     first: 'The first class is free and finishes with a recommendation.',
-    group: 'A month of small-group lessons, normally eight, with five to ten learners at one level.',
+    group: 'A month of small-group lessons, normally eight, with fifteen to twenty learners at one level.',
     private: 'Roughly eight private lessons each month with one teacher.',
     closer: 'Outside India we invoice in US dollars, so every Lane Cove household is charged the same rate. Nothing is billed until the course and time are agreed after the trial; holidays, missed lessons and switching format are set out on the pricing page.'
   },
@@ -377,7 +377,7 @@ module.exports = {
       },
       {
         q: 'How much are AI agents classes for Lane Cove learners?',
-        a: 'The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before payment.',
+        a: 'The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before payment.',
         boiler: true
       },
       {

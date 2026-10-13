@@ -16,7 +16,7 @@ Broken Hill, far west New South Wales / Live online
 
 Broken Hill sits inside New South Wales but sets its clocks with Adelaide, half an hour behind Sydney. Every phone and laptop in town knows this because of a small binary file called Australia/Broken_Hill, 941 bytes long, that ships inside operating systems and inside Python. Open it as text and it is mostly gibberish. Open it with Python's struct module, read the numbers in the right byte order, and it lists 85 moments when the city's clock changed, back to January 1895. Read the same bytes in the wrong order and the file claims to hold more than 1.4 billion of them. Our Broken Hill learners find out why the order of bytes matters as much as the bytes themselves.
 
-Facts last verified 10 October 2026. Teaching is online; no Broken Hill branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Broken Hill branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four ways into Python from Broken Hill
 
@@ -170,7 +170,7 @@ Distance from Sydney or Adelaide makes no difference to an online lesson.
 - **Taught on your clock** Lesson times are fixed in Broken Hill time, which is half an hour behind most of New South Wales.
 - **Pitched to NSW stages** Teachers work with the NSW stage and Year system, HSC students included, and teach in English.
 - **Code before commitment** The first lesson is real programming with a teacher. Afterwards you receive a suggested course and time, and no payment details are taken.
-- **Five to ten per group** Learners at one level, drawn from across Australia and abroad, so each stage has a workable slot.
+- **Fifteen to twenty per group** Learners at one level, drawn from across Australia and abroad, so each stage has a workable slot.
 - **Two lessons a week** Around eight a month. Holidays and exam weeks are planned with the teacher ahead of time.
 - **Daylight saving handled** When South Australian clocks change, Broken Hill lessons stay at the same local hour.
 
@@ -181,7 +181,7 @@ Distance from Sydney or Adelaide makes no difference to an online lesson.
 Three lines cover it.
 
 - First class: USD 0. One free lesson, ending in a recommended level, course and time.
-- Group tuition: USD 100 a month. A month of group lessons, normally eight, with five to ten learners at the same stage.
+- Group tuition: USD 100 a month. A month of group lessons, normally eight, with fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. About eight private lessons a month with one teacher.
 
 Living far from a capital costs nothing extra: Broken Hill families pay the same US dollar rate as everyone else. Payment starts only after the trial settles a course and time, and the pricing page explains breaks, missed lessons and switching format.
@@ -222,7 +222,7 @@ No, and we do not claim one. Teaching is live and online only, with no premises 
 
 ### What do online Python classes in Broken Hill cost?
 
-The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
+The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
 
 ### How large are the groups?
 

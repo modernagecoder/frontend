@@ -53,7 +53,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Beeston, Nottinghamshire',
   capsuleQ: 'Where are the best online coding and Python classes for Beeston?',
-  capsule: 'At the 2021 census the Beeston built-up area had 52,355 residents and Broxtowe borough 110,940, by ONS count. Chilwell, Bramcote, Attenborough and Toton are recorded as suburban areas of the borough, and Stapleford as a town. Our tutors teach Python, coding, AI, vibe coding and maths from India by live video, to ages six to 67, in private lessons or classes of five to ten at one level. The teaching puts reasoning first, which is what allows a learner to check a program, or a chatbot, instead of trusting it. For the Beeston project a learner joins two real tables by postcode in Python, first the slow obvious way and then with a sort-merge join, and counts every comparison. Your first lesson is free and ends with a course recommendation, after which a group place is USD 100 a month and one-to-one lessons are USD 150 a month.',
+  capsule: 'At the 2021 census the Beeston built-up area had 52,355 residents and Broxtowe borough 110,940, by ONS count. Chilwell, Bramcote, Attenborough and Toton are recorded as suburban areas of the borough, and Stapleford as a town. Our tutors teach Python, coding, AI, vibe coding and maths from India by live video, to ages six to 67, in private lessons or classes of fifteen to twenty at one level. The teaching puts reasoning first, which is what allows a learner to check a program, or a chatbot, instead of trusting it. For the Beeston project a learner joins two real tables by postcode in Python, first the slow obvious way and then with a sort-merge join, and counts every comparison. Your first lesson is free and ends with a course recommendation, after which a group place is USD 100 a month and one-to-one lessons are USD 150 a month.',
   lead: 'Almost every useful piece of data work involves a join: two tables that share a key, such as a postcode, matched row to row. The obvious method takes each row of the first table and scans the whole second table for a partner. It is easy to write and painfully slow as tables grow. Databases usually do something smarter. One classic method sorts both tables by the key and then walks down them together with two pointers, never looking back. Beeston\'s NG9 postcode district offers two open tables to try this on, and the real data adds a twist that no textbook example has: some rows refuse to join at all.',
   wa: 'Hello Modern Age Coders, please may I book a free Python or coding lesson for a learner in Beeston, Nottinghamshire?',
 
@@ -157,7 +157,7 @@ module.exports = {
       { h3: 'The learner codes', p: 'Students do the typing and the testing; the tutor sees the shared screen and asks for the reasoning behind it.' },
       { h3: 'Trial finds the level', p: 'We choose the first topic from what the free lesson shows and record the exam board if there is one.' },
       { h3: 'No cost to begin', p: 'Lesson one is free, with no card, and ends with our suggested course.' },
-      { h3: 'Same-stage groups', p: 'Five to ten learners at a common level, from anywhere in the UK.' },
+      { h3: 'Same-stage groups', p: 'Fifteen to twenty learners at a common level, from anywhere in the UK.' },
       { h3: 'Two lessons each week', p: 'Holiday weeks are left out once you give us the dates.' },
       { h3: 'Fixed lesson hour', p: 'Clock changes for British Summer Time are handled by the tutor, not by moving your slot.' }
     ],

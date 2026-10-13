@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Coventry lear
 canonical: https://learn.modernagecoders.com/best-coding-class-in-coventry
 source: src/pages/best-coding-class-in-coventry.html
 ---
-> Coventry is a city of 345,325 people, according to the 2021 Census, and a young one. People in their early twenties made up 9.1% of the city (England: 6.0%), and 89,083 residents aged five or older were in school or full-time study, a rate of 27.4% where England recorded 20.4%. It is also a city built around transport, from the collection at the Coventry Transport Museum to the 1,570 active bus stops the national register lists here. Our classes take Coventry learners from six years old to sixty-seven, taught live over the internet by teachers based in India, either in a group of five to ten matched by ability or on their own, always at a fixed hour on the UK clock. You pay nothing for the opening lesson, and from then on USD 100 a month buys a group seat while USD 150 a month buys a private teacher.
+> Coventry is a city of 345,325 people, according to the 2021 Census, and a young one. People in their early twenties made up 9.1% of the city (England: 6.0%), and 89,083 residents aged five or older were in school or full-time study, a rate of 27.4% where England recorded 20.4%. It is also a city built around transport, from the collection at the Coventry Transport Museum to the 1,570 active bus stops the national register lists here. Our classes take Coventry learners from six years old to sixty-seven, taught live over the internet by teachers based in India, either in a group of fifteen to twenty matched by ability or on their own, always at a fixed hour on the UK clock. You pay nothing for the opening lesson, and from then on USD 100 a month buys a group seat while USD 150 a month buys a private teacher.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Coventry
 
@@ -12,11 +12,11 @@ Coventry, West Midlands, England / Live online
 
 # Coding classes in Coventry
 
-**What are the best coding classes in Coventry?** Coventry is a city of 345,325 people, according to the 2021 Census, and a young one. People in their early twenties made up 9.1% of the city (England: 6.0%), and 89,083 residents aged five or older were in school or full-time study, a rate of 27.4% where England recorded 20.4%. It is also a city built around transport, from the collection at the Coventry Transport Museum to the 1,570 active bus stops the national register lists here. Our classes take Coventry learners from six years old to sixty-seven, taught live over the internet by teachers based in India, either in a group of five to ten matched by ability or on their own, always at a fixed hour on the UK clock. You pay nothing for the opening lesson, and from then on USD 100 a month buys a group seat while USD 150 a month buys a private teacher.
+**What are the best coding classes in Coventry?** Coventry is a city of 345,325 people, according to the 2021 Census, and a young one. People in their early twenties made up 9.1% of the city (England: 6.0%), and 89,083 residents aged five or older were in school or full-time study, a rate of 27.4% where England recorded 20.4%. It is also a city built around transport, from the collection at the Coventry Transport Museum to the 1,570 active bus stops the national register lists here. Our classes take Coventry learners from six years old to sixty-seven, taught live over the internet by teachers based in India, either in a group of fifteen to twenty matched by ability or on their own, always at a fixed hour on the UK clock. You pay nothing for the opening lesson, and from then on USD 100 a month buys a group seat while USD 150 a month buys a private teacher.
 
 The Department for Transport keeps a register of every bus stop in the country, and Coventry has 1,570 active ones. Most come in pairs, one on each side of the road, sharing a name: 578 names appear exactly twice. So a sensible question is how many actual places those stops represent. The standard tool for grouping things that are close together is union-find: join any two stops within a set distance and see how many groups are left. At 60 metres the answer is 1,005. At 200 metres it is 314, and the largest group has 85 stops. Push the distance to 300 metres and something alarming happens: one group swallows 1,154 stops, most of the city, because stops a few hundred metres apart along every road link hand to hand into a single chain. Working out why that happens, and what to do about it, is the lesson Coventry's own bus network teaches our teenage learners here.
 
-Facts last verified 21 September 2026. Teaching is online; no Coventry branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 21 September 2026. Teaching is online; no Coventry branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city built on transport
 
@@ -198,7 +198,7 @@ Coventry's stops spread across 60 localities, and an online lesson reaches every
 - **No bus to catch** A learner in Binley and one in Whitmore Park can join the same lesson from home, and the journey is the walk to a desk.
 - **English stages by name** Reception, Key Stages, Year 9 options, GCSEs and A levels are called what Coventry schools call them, and lessons are in English.
 - **A proper first lesson** Real teaching on a real task, then a straight recommendation of level, course and hour. No card details are asked for.
-- **Grouped by ability** Five to ten learners working at the same level, drawn from Coventry, the rest of the UK and other countries so each level finds an hour.
+- **Grouped by ability** Fifteen to twenty learners working at the same level, drawn from Coventry, the rest of the UK and other countries so each level finds an hour.
 - **Twice a week, most weeks** Roughly eight sessions in a month, same time each week, and the family and teacher decide together when to stop for school breaks or revision.
 - **A clock that stays put** Our teaching team works in India, where the clocks never go forward or back. Against Coventry that gap is four and a half hours in British Summer Time and five and a half in winter, and either way a Coventry afternoon or evening falls inside the working day there.
 
@@ -209,7 +209,7 @@ Coventry's stops spread across 60 localities, and an online lesson reaches every
 Three prices, and nothing underneath them.
 
 - First class: USD 0. A complete lesson for free, ending with a level, a course and a suggested weekly time.
-- Group tuition: USD 100 a month. A month of teaching, usually eight lessons, with five to ten learners of the same ability.
+- Group tuition: USD 100 a month. A month of teaching, usually eight lessons, with fifteen to twenty learners of the same ability.
 - Private tuition: USD 150 a month. The same pattern of around eight lessons a month, with a teacher for one learner.
 
 Fees are in US dollars, the one rate charged outside India, so a family in Earlsdon pays exactly what a family in Holbrooks pays, and sterling prices are never quoted. Billing begins only after the trial lesson has fixed which course and which weekly slot, and our pricing page explains how breaks, missed sessions and switching format work.
@@ -250,11 +250,11 @@ We have no premises in Coventry or anywhere in the UK. Every lesson happens live
 
 ### How much do Coventry lessons cost?
 
-Nothing for the first one. A place in a group of five to ten is then USD 100 a month, covering two live lessons a week, around eight a month; one-to-one teaching on that rhythm is USD 150 a month. You agree the course, format and slot before paying anything.
+Nothing for the first one. A place in a group of fifteen to twenty is then USD 100 a month, covering two live lessons a week, around eight a month; one-to-one teaching on that rhythm is USD 150 a month. You agree the course, format and slot before paying anything.
 
 ### How are groups put together?
 
-By level first: five to ten learners who work at a similar pace towards similar goals, whatever their age or postcode. When no group at the right level meets at a time that suits, we suggest one-to-one lessons.
+By level first: fifteen to twenty learners who work at a similar pace towards similar goals, whatever their age or postcode. When no group at the right level meets at a time that suits, we suggest one-to-one lessons.
 
 ## Nearby cities and the national pages
 

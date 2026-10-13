@@ -226,7 +226,7 @@ Our teachers work from India. In the southern summer, Sydney and Melbourne clock
 - **Sunday** For busy weekday families.
 
 - **A free first class** No card needed. It shows us what the coding games taught and what they missed.
-- **Groups of five to ten** Children at a similar stage, solving and comparing each other's programs.
+- **Groups of fifteen to twenty** Children at a similar stage, solving and comparing each other's programs.
 - **One to one** For a child racing ahead, or one who needs more time and quiet.
 - **No answer keys** Teachers ask questions instead of giving solutions, so the thinking stays with the child.
 - **Parents welcome** You can sit in on any lesson and see exactly what was learned.
@@ -237,7 +237,7 @@ Our teachers work from India. In the southern summer, Sydney and Melbourne clock
 Families outside India pay one monthly price in US dollars. There is no enrolment fee and no term contract, so you can stop after any month, including over the summer holidays.
 
 - Free first class: USD 0. A short coding challenge at your child's level. Honest advice on whether they are ready to move on. No card or bank details.
-- Group batch: USD 100 a month. Five to ten children per class. The same teacher each week. Classmates to compare solutions with. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty children per class. The same teacher each week. Classmates to compare solutions with. Stop after any month.
 - One to one: USD 150 a month. All of the teacher's attention. Pace set by your child. Times arranged around school and sport.
 
 ## What Australian parents ask about coding games

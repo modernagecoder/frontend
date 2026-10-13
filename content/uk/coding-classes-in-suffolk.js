@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in Suffolk',
   capsuleQ: 'What are the best coding classes in Suffolk?',
-  capsule: 'Suffolk has one county council and five district councils, and the 2021 Census counted 760,688 people across the five districts, our addition of their published figures. Ipswich is the largest town, then Lowestoft, Bury St Edmunds, Haverhill and Felixstowe. Our teachers work live over video from India, and every learner is put in a class for their level rather than their age. We take learners aged 6 to 67 for coding, Python, algorithms and maths, taught one-to-one or in groups of five to ten. The Suffolk project comes from the Port of Felixstowe and the containers that pass through it. Trying us costs nothing for the first lesson. Carrying on is USD 100 per month for a group seat or USD 150 per month for one-to-one.',
+  capsule: 'Suffolk has one county council and five district councils, and the 2021 Census counted 760,688 people across the five districts, our addition of their published figures. Ipswich is the largest town, then Lowestoft, Bury St Edmunds, Haverhill and Felixstowe. Our teachers work live over video from India, and every learner is put in a class for their level rather than their age. We take learners aged 6 to 67 for coding, Python, algorithms and maths, taught one-to-one or in groups of fifteen to twenty. The Suffolk project comes from the Port of Felixstowe and the containers that pass through it. Trying us costs nothing for the first lesson. Carrying on is USD 100 per month for a group seat or USD 150 per month for one-to-one.',
   lead: 'Department for Transport figures for 2025 show Felixstowe handling 3,510.4 thousand TEU of container traffic, the largest figure for any single port in the table, where a TEU is a standard twenty-foot container. Every one of those boxes raises a question programmers call bin packing: given a pile of goods of different sizes, how do you fit them into as few containers as possible? No quick method is guaranteed to find the perfect answer every time, but some simple rules come remarkably close. This page\'s project tests four of them in Python on 200 consignments and measures each against a minimum that no packing could ever beat.',
   wa: 'Hello Modern Age Coders, we are in Suffolk and would like to book a free lesson, please.',
 
@@ -162,7 +162,7 @@ module.exports = {
       { h3: 'At home, wherever', p: 'A cottage near Framlingham, a flat in Lowestoft, a house in Haverhill. The learner types while the teacher follows the shared screen.' },
       { h3: 'School language', p: 'Year groups, key stages, GCSEs and A levels are named as Suffolk schools name them, and lessons are in English.' },
       { h3: 'Free to try', p: 'A proper first lesson, then plain advice on level and course, with no card details requested.' },
-      { h3: 'Matched by stage', p: 'Groups of five to ten learners at one level, gathered from Suffolk and far beyond.' },
+      { h3: 'Matched by stage', p: 'Groups of fifteen to twenty learners at one level, gathered from Suffolk and far beyond.' },
       { h3: 'Holiday breaks', p: 'Two lessons a week suits most learners, and we pause for your own school holidays.' },
       { h3: 'Fixed in UK time', p: 'Lessons are booked in UK time and keep the same slot through the clock changes; the teacher, on India time some hours ahead, shifts instead.' }
     ],
@@ -173,7 +173,7 @@ module.exports = {
     h2: 'Fees in Suffolk',
     intro: 'Felixstowe or Newmarket, the price is the same, and so it is in every country we teach bar India.',
     first: 'One complete lesson of real work, then a suggested level and course.',
-    group: 'About eight lessons a month with five to ten learners at one level.',
+    group: 'About eight lessons a month with fifteen to twenty learners at one level.',
     private: 'About eight lessons a month, taught one-to-one.',
     closer: 'Fees are in US dollars; we publish no pound prices. Billing starts only once the free lesson has agreed a course and a weekly time, and the pricing page covers pauses, missed lessons and swapping between group and private teaching.'
   },

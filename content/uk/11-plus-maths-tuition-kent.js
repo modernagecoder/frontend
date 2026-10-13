@@ -280,7 +280,7 @@ module.exports = {
     cells: [
       { h3: 'One teacher, every week', p: 'The same person sees the same mistakes twice and can do something about them.' },
       { h3: 'Parents get the truth', p: 'A short honest note on what went well and what did not, not a score to frame.' },
-      { h3: 'Five to ten children', p: 'Enough voices in the room for a child to hear a better method than their own, few enough that nobody hides.' },
+      { h3: 'Fifteen to twenty children', p: 'Enough voices in the room for a child to hear a better method than their own, few enough that nobody hides.' },
       { h3: 'Our own questions', p: 'We write the practice ourselves. No Kent Test paper is reproduced here.' },
       { h3: 'One to one when it helps', p: 'For a specific gap, or for a child who freezes in a group.' },
       { h3: 'No outcome promised', p: 'We teach maths. Places, thresholds and appeals belong to the council and the schools.' }
@@ -295,7 +295,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A monthly rate in US dollars, the same everywhere outside India. Nothing to join, nothing to cancel.',
     free: ['A full lesson, taught not sold', 'A frank read on where the maths is', 'No card details taken'],
-    group: ['Five to ten children at one level', 'The same teacher each week', 'Work marked and talked through', 'A certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'The same teacher each week', 'Work marked and talked through', 'A certificate at the end'],
     one: ['One child, one teacher', 'Built around the specific gap', 'Useful in the months before the test']
   },
 

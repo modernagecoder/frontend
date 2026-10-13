@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Fife, from Kir
 canonical: https://learn.modernagecoders.com/coding-classes-in-fife
 source: src/pages/coding-classes-in-fife.html
 ---
-> Fife is one of Scotland's larger council areas, with about 370,400 residents in roughly 169,600 households at the 2022 census. Dunfermline and Kirkcaldy are the two largest places, followed by Glenrothes and St Andrews, and there are dozens of smaller places from Burntisland to Cupar. Teachers in India run every class live on camera, and a free first lesson shows which stage suits each learner, from P1 through S6 and into adult life. Learners aged 6 to 67 study coding, Python and maths, either one-to-one or in groups of five to ten. The Fife project is built around the Forth Bridge. Once the free lesson is done, fees are USD 100 a month in a group or USD 150 a month for one-to-one.
+> Fife is one of Scotland's larger council areas, with about 370,400 residents in roughly 169,600 households at the 2022 census. Dunfermline and Kirkcaldy are the two largest places, followed by Glenrothes and St Andrews, and there are dozens of smaller places from Burntisland to Cupar. Teachers in India run every class live on camera, and a free first lesson shows which stage suits each learner, from P1 through S6 and into adult life. Learners aged 6 to 67 study coding, Python and maths, either one-to-one or in groups of fifteen to twenty. The Fife project is built around the Forth Bridge. Once the free lesson is done, fees are USD 100 a month in a group or USD 150 a month for one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Fife
 
@@ -12,11 +12,11 @@ Fife / Live online
 
 # Coding classes in Fife
 
-**What are the best coding classes in Fife?** Fife is one of Scotland's larger council areas, with about 370,400 residents in roughly 169,600 households at the 2022 census. Dunfermline and Kirkcaldy are the two largest places, followed by Glenrothes and St Andrews, and there are dozens of smaller places from Burntisland to Cupar. Teachers in India run every class live on camera, and a free first lesson shows which stage suits each learner, from P1 through S6 and into adult life. Learners aged 6 to 67 study coding, Python and maths, either one-to-one or in groups of five to ten. The Fife project is built around the Forth Bridge. Once the free lesson is done, fees are USD 100 a month in a group or USD 150 a month for one-to-one.
+**What are the best coding classes in Fife?** Fife is one of Scotland's larger council areas, with about 370,400 residents in roughly 169,600 households at the 2022 census. Dunfermline and Kirkcaldy are the two largest places, followed by Glenrothes and St Andrews, and there are dozens of smaller places from Burntisland to Cupar. Teachers in India run every class live on camera, and a free first lesson shows which stage suits each learner, from P1 through S6 and into adult life. Learners aged 6 to 67 study coding, Python and maths, either one-to-one or in groups of fifteen to twenty. The Fife project is built around the Forth Bridge. Once the free lesson is done, fees are USD 100 a month in a group or USD 150 a month for one-to-one.
 
 Historic Environment Scotland lists the Forth Bridge at Category A and gives its designers as Sir John Fowler and Sir Benjamin Baker, building from 1883 until it opened on 4 March 1890. The listing describes a 2.5 kilometre steel cantilever railway bridge with three giant cross-braced towers, and says the design allowed spans nearly four times larger than any railway bridge before it. Every part of a bridge like that is a straight bar, pulled or pushed along its length, joined to others at the ends. How do engineers know how hard each bar is pulled or pushed, and how would they know if a frame could not stand at all? This page's project does the calculation in Python for a small, invented cantilever.
 
-Facts last verified 26 September 2026. Teaching is online; no Fife branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Fife branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four good first courses in Fife
 
@@ -137,7 +137,7 @@ From Burntisland to the East Neuk, a laptop at home is all a learner needs.
 - **Code on your own screen** The learner types, runs and fixes the program, and the teacher sees each step through screen sharing.
 - **We speak Curriculum for Excellence** P4, S3, National 5, Higher, Advanced Higher: we use the stages Fife schools use, and we teach in English.
 - **Free lesson, honest advice** The first lesson is a proper lesson and costs nothing. Afterwards we say which course fits.
-- **Groups sorted by stage** Five to ten learners at one level in each group, often from several countries.
+- **Groups sorted by stage** Fifteen to twenty learners at one level in each group, often from several countries.
 - **Holidays off** Two lessons a week in term time, with breaks in the school holidays you tell us.
 - **Same UK time all year** Your lesson stays at its UK time through both clock changes; the India time side is ours to adjust.
 
@@ -148,7 +148,7 @@ From Burntisland to the East Neuk, a laptop at home is all a learner needs.
 St Andrews or Cowdenbeath, the price is the same, and it is the price outside India everywhere we teach.
 
 - First class: USD 0. A full, free lesson, then a clear suggestion for what comes next.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten at one stage.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty at one stage.
 - Private tuition: USD 150 a month. About eight lessons a month with the teacher's full attention.
 
 Our fees are set in US dollars, and we have no sterling price list. We charge only after the free lesson, once a course and weekly time are fixed; the pricing page covers holidays, missed lessons and moving between group and one-to-one.

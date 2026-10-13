@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across Fingal, from Swor
 canonical: https://learn.modernagecoders.com/coding-classes-in-fingal
 source: src/pages/coding-classes-in-fingal.html
 ---
-> Fingal is not a county, though it is often called one: it is one of the four local authorities that make up County Dublin, covering about 450 square kilometres from Blanchardstown and Castleknock up through Swords to Balbriggan and the coast. Its population was 330,506 at the 2022 census, and 159,994 of those people live inside the Dublin city and suburbs built-up area, which is roughly half of Fingal. It is young: Balbriggan's average age of 33.6 is among the lowest anywhere. We teach learners aged 6 to 67 live online at a fixed weekly hour, in ability groups of five to ten or one to one, with a free first lesson and then USD 100 a month in a group or USD 150 privately.
+> Fingal is not a county, though it is often called one: it is one of the four local authorities that make up County Dublin, covering about 450 square kilometres from Blanchardstown and Castleknock up through Swords to Balbriggan and the coast. Its population was 330,506 at the 2022 census, and 159,994 of those people live inside the Dublin city and suburbs built-up area, which is roughly half of Fingal. It is young: Balbriggan's average age of 33.6 is among the lowest anywhere. We teach learners aged 6 to 67 live online at a fixed weekly hour, in ability groups of fifteen to twenty or one to one, with a free first lesson and then USD 100 a month in a group or USD 150 privately.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [Dublin](/best-coding-class-in-dublin) / Fingal
 
@@ -12,11 +12,11 @@ Fingal, County Dublin / Live online
 
 # Coding classes in Fingal
 
-**What are the best coding classes in Fingal?** Fingal is not a county, though it is often called one: it is one of the four local authorities that make up County Dublin, covering about 450 square kilometres from Blanchardstown and Castleknock up through Swords to Balbriggan and the coast. Its population was 330,506 at the 2022 census, and 159,994 of those people live inside the Dublin city and suburbs built-up area, which is roughly half of Fingal. It is young: Balbriggan's average age of 33.6 is among the lowest anywhere. We teach learners aged 6 to 67 live online at a fixed weekly hour, in ability groups of five to ten or one to one, with a free first lesson and then USD 100 a month in a group or USD 150 privately.
+**What are the best coding classes in Fingal?** Fingal is not a county, though it is often called one: it is one of the four local authorities that make up County Dublin, covering about 450 square kilometres from Blanchardstown and Castleknock up through Swords to Balbriggan and the coast. Its population was 330,506 at the 2022 census, and 159,994 of those people live inside the Dublin city and suburbs built-up area, which is roughly half of Fingal. It is young: Balbriggan's average age of 33.6 is among the lowest anywhere. We teach learners aged 6 to 67 live online at a fixed weekly hour, in ability groups of fifteen to twenty or one to one, with a free first lesson and then USD 100 a month in a group or USD 150 privately.
 
 Fingal County Council publishes 419 datasets, far more than most Irish local authorities, and one of them counts visitors to Newbridge House in Donabate. It has 31 rows and looks completely ordinary. Add up its visitor column and you get 379,230 people. The true figure is 189,615, exactly half, because three of those 31 rows are not months at all: they are totals for 2021, 2022 and 2023, sitting in the same column as the data they summarise. Sum everything and you count every visitor twice, and the answer is not obviously wrong, because nothing about it looks odd. That is the most common way a published total goes astray, and it is almost invisible unless you look at the rows themselves. This page teaches that habit, on a file from the learner's own council.
 
-Facts last verified 16 September 2026. Teaching is online; no Fingal branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no Fingal branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for north County Dublin
 
@@ -190,7 +190,7 @@ Fingal stretches from the edge of the city to the north county coast, and its tr
 - **No run to a centre** A learner in Garristown and one in Castleknock join the same class, which no room in either place could arrange on a weekday evening.
 - **School words as used here** Junior Cycle, Transition Year, fifth and sixth year, spoken the way Fingal schools speak them.
 - **The free lesson teaches** A real task, a real teacher, and a clear recommendation at the end. Nobody is asked for card details to take it.
-- **Sorted by ability** Five to ten learners at one level, gathered from Fingal and several other countries so that each level meets at a sensible hour.
+- **Sorted by ability** Fifteen to twenty learners at one level, gathered from Fingal and several other countries so that each level meets at a sensible hour.
 - **A fixed hour weekly** Usually two lessons a week, around eight a month, with mid-terms, exams and holidays planned around in advance.
 - **The clocks, briefly** Indian time holds steady while Irish time moves, so our teachers are four and a half hours ahead in summer and five and a half in winter.
 
@@ -201,7 +201,7 @@ Fingal stretches from the edge of the city to the north county coast, and its tr
 The price, in three lines.
 
 - First class: USD 0. One full lesson at no charge, ending with a level named and a course recommended.
-- Group tuition: USD 100 a month. A month of classes, normally eight, shared with five to ten learners of similar ability.
+- Group tuition: USD 100 a month. A month of classes, normally eight, shared with fifteen to twenty learners of similar ability.
 - Private tuition: USD 150 a month. The same month of classes, with the teacher working with a single learner.
 
 Billing is monthly in US dollars at the one rate charged outside India, so Skerries pays what Mulhuddart pays and there is no euro list. Nothing is charged until the free lesson has produced a course and a weekly hour, and pauses, missed lessons and format changes are set out on the pricing page.
@@ -242,7 +242,7 @@ No, and we never suggest one. All teaching happens live over video, with no prem
 
 ### What do Fingal coding classes cost?
 
-The first lesson is free. After that, a shared place costs USD 100 a month and brings two live lessons a week, roughly eight monthly, with five to ten learners; one-to-one on the same schedule is USD 150 a month. Course, format and hour are agreed before payment.
+The first lesson is free. After that, a shared place costs USD 100 a month and brings two live lessons a week, roughly eight monthly, with fifteen to twenty learners; one-to-one on the same schedule is USD 150 a month. Course, format and hour are agreed before payment.
 
 ### How many learners are in a group?
 

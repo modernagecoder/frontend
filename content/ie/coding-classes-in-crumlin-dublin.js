@@ -161,7 +161,7 @@ module.exports = {
     intro: 'The practicalities.',
     cells: [
       { h3: 'A teacher every time', p: 'Each lesson is led live, and the teacher watches and helps with each learner\'s code as it comes together.' },
-      { h3: 'Levelled groups', p: 'Five to ten learners at one level, joining from Crumlin, the rest of Ireland or abroad.' },
+      { h3: 'Levelled groups', p: 'Fifteen to twenty learners at one level, joining from Crumlin, the rest of Ireland or abroad.' },
       { h3: 'Two slots a week', p: 'Lessons on the same two days each week, about eight in a month.' },
       { h3: 'Holidays planned', p: 'The course plan works around school holidays, mid-terms and exams.' },
       { h3: 'Equipment', p: 'A desktop or laptop, a microphone, headphones or speakers, and internet good enough for a video call.' },
@@ -174,7 +174,7 @@ module.exports = {
     h2: 'Fees for Crumlin',
     intro: 'In brief.',
     first: 'A first lesson with a level check, at no charge.',
-    group: 'A month in a same-level group of five to ten, around eight live lessons.',
+    group: 'A month in a same-level group of fifteen to twenty, around eight live lessons.',
     private: 'A month of one-to-one lessons on the same timetable.',
     closer: 'All families outside India pay the same US dollar fee, one month at a time. The free lesson involves no commitment, charges begin only with the course, and the pricing page sets out holidays, missed lessons and switching between group and private teaching.'
   },
@@ -198,8 +198,8 @@ module.exports = {
       { q: 'What times are lessons?', a: 'Weekdays from after school into the evening, and daytimes at weekends. Every slot is listed in Irish time. The teaching team is in India, which runs five and a half hours ahead of Crumlin in winter and four and a half in summer, and every slot we offer is sensible for both.' },
       { q: 'Do you take adult learners?', a: 'Adults are very welcome, right up to sixty-seven and with or without experience; once the free lesson is over they choose between a same-level group and private lessons.' },
       { q: 'Will my child be with other Crumlin children?', a: 'Only by chance. Groups are made by level, so classmates can live anywhere in Ireland or further afield.' },
-      { q: 'What do coding classes in Crumlin cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.', boiler: true },
-      { q: 'How big is each group?', a: 'Five to ten learners, matched by level, pace and goals rather than age or address. If no group fits a workable time, lessons are one to one.', boiler: true }
+      { q: 'What do coding classes in Crumlin cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.', boiler: true },
+      { q: 'How big is each group?', a: 'Fifteen to twenty learners, matched by level, pace and goals rather than age or address. If no group fits a workable time, lessons are one to one.', boiler: true }
     ]
   },
 

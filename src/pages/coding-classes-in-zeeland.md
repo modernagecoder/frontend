@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across Zeeland, ages 6 t
 canonical: https://learn.modernagecoders.com/coding-classes-in-zeeland
 source: src/pages/coding-classes-in-zeeland.html
 ---
-> Coding classes in Zeeland serve 394,538 people in 13 municipalities (Statistics Netherlands, 1 January 2026), spread over what were islands until the Delta Works joined them, with a quarter of residents over sixty-five and 39 percent of the province under water. Terneuzen is the largest municipality, at 55,955, and only the fourth town; Middelburg is the largest town, at 43,165 in 2023, and only the second municipality. The same name labels two different things, and the ranking flips between them. Modern Age Coders runs one live online class in English across all 13, for anyone from 6 to 67; the first lesson is free, and after it a group of five to ten is USD 100 a month and a private teacher USD 150.
+> Coding classes in Zeeland serve 394,538 people in 13 municipalities (Statistics Netherlands, 1 January 2026), spread over what were islands until the Delta Works joined them, with a quarter of residents over sixty-five and 39 percent of the province under water. Terneuzen is the largest municipality, at 55,955, and only the fourth town; Middelburg is the largest town, at 43,165 in 2023, and only the second municipality. The same name labels two different things, and the ranking flips between them. Modern Age Coders runs one live online class in English across all 13, for anyone from 6 to 67; the first lesson is free, and after it a group of fifteen to twenty is USD 100 a month and a private teacher USD 150.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Zeeland
 
@@ -12,11 +12,11 @@ Province of Zeeland / Live online
 
 # Coding classes in Zeeland, where the largest place has two different names depending on what you count
 
-**What are the best coding classes in Zeeland?** Coding classes in Zeeland serve 394,538 people in 13 municipalities (Statistics Netherlands, 1 January 2026), spread over what were islands until the Delta Works joined them, with a quarter of residents over sixty-five and 39 percent of the province under water. Terneuzen is the largest municipality, at 55,955, and only the fourth town; Middelburg is the largest town, at 43,165 in 2023, and only the second municipality. The same name labels two different things, and the ranking flips between them. Modern Age Coders runs one live online class in English across all 13, for anyone from 6 to 67; the first lesson is free, and after it a group of five to ten is USD 100 a month and a private teacher USD 150.
+**What are the best coding classes in Zeeland?** Coding classes in Zeeland serve 394,538 people in 13 municipalities (Statistics Netherlands, 1 January 2026), spread over what were islands until the Delta Works joined them, with a quarter of residents over sixty-five and 39 percent of the province under water. Terneuzen is the largest municipality, at 55,955, and only the fourth town; Middelburg is the largest town, at 43,165 in 2023, and only the second municipality. The same name labels two different things, and the ranking flips between them. Modern Age Coders runs one live online class in English across all 13, for anyone from 6 to 67; the first lesson is free, and after it a group of fifteen to twenty is USD 100 a month and a private teacher USD 150.
 
 Ask what the largest place in Zeeland is and a child gets two right answers that contradict each other. By municipality it is Terneuzen; by town it is Middelburg, and Terneuzen the town is fourth. Nothing is wrong with either table. They count different things under the same names, and a program that joins them, or ranks one with the other's numbers, will be confidently wrong. A child who has built the ranking twice and watched it flip has learned to ask, of any table, what one row actually is.
 
-Facts last verified 7 September 2026. Teaching is online; no Zeeland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Zeeland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for thirteen municipalities that used to be islands
 
@@ -208,7 +208,7 @@ Zeeuws-Vlaanderen reaches the capital through a tunnel with a toll for half its 
 Set out here before anyone asks for a name.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 Everyone outside India sees the same figure in US dollars and never a euro one, so Noord-Beveland is charged what Middelburg is. The free lesson decides the course and the hour first, and payment comes afterwards over WhatsApp; the pricing page explains pausing, changing plan and missed lessons.
@@ -249,7 +249,7 @@ No, and none is claimed in Middelburg, in Terneuzen or anywhere in the Netherlan
 
 ### What do Zeeland coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Zeeland group?
 

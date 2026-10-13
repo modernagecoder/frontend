@@ -61,7 +61,7 @@ module.exports = {
 
   h1: 'Coding classes in Nottingham',
   capsuleQ: 'What are the best coding classes in Nottingham?',
-  capsule: 'Nottingham had 323,632 usual residents at the 2021 Census, and 13.5% of them were aged 20 to 24, against England\'s 6.0%. It is the home city of George Green, the self-taught miller whose mathematics is still used by scientists and engineers, and it holds a permanent designation as a UNESCO City of Literature. Modern Age Coders teaches Nottingham learners aged six to sixty-seven in live online lessons: one to one, or in groups of five to ten at the same level, with teachers in India and times set in UK hours. The opening lesson is free. Groups then cost USD 100 a month, and one-to-one teaching USD 150 a month.',
+  capsule: 'Nottingham had 323,632 usual residents at the 2021 Census, and 13.5% of them were aged 20 to 24, against England\'s 6.0%. It is the home city of George Green, the self-taught miller whose mathematics is still used by scientists and engineers, and it holds a permanent designation as a UNESCO City of Literature. Modern Age Coders teaches Nottingham learners aged six to sixty-seven in live online lessons: one to one, or in groups of fifteen to twenty at the same level, with teachers in India and times set in UK hours. The opening lesson is free. Groups then cost USD 100 a month, and one-to-one teaching USD 150 a month.',
   lead: 'Put a pin in a map at each of Nottingham\'s 50 tram stops and stretch a rubber band around all of them. The shape the band makes is called the convex hull, and finding it is one of the first problems in computational geometry. For the NET network, listed stop by stop in the Department for Transport\'s NaPTAN register, the band touches just 8 of the 50 stops, from Hucknall in the north to Clifton South and Toton Lane in the south, and encloses 67.94 square kilometres. Phoenix Park, one of the four places the trams run to, sits inside the band rather than on it. Take away Toton Lane and the enclosed area shrinks by 8.5%; take away Hucknall instead and it shrinks by 8.3%. Two stops out of fifty each hold up a large slice of the shape, which is why a hull on its own can mislead. Finding it, and knowing what it cannot tell you, is the lesson Nottingham\'s trams give our teenage learners.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Nottingham, please.',
 
@@ -191,7 +191,7 @@ module.exports = {
       { h3: 'No journey across the city', p: 'A learner in Bulwell and another in Clifton, near opposite ends of the tram network, can join the same lesson from home.' },
       { h3: 'Stages that match local schools', p: 'Reception, Key Stages 1 to 4, Year 9 options, GCSEs and A levels, in the terms English schools use, with lessons in English throughout.' },
       { h3: 'A first lesson with substance', p: 'The free lesson is genuine teaching on a real task and finishes with a clear level, a suggested course and a proposed time. No card is needed.' },
-      { h3: 'Grouped by what they know', p: 'Five to ten learners working at one level, from Nottingham, the rest of the UK and abroad, so every level has a workable slot.' },
+      { h3: 'Grouped by what they know', p: 'Fifteen to twenty learners working at one level, from Nottingham, the rest of the UK and abroad, so every level has a workable slot.' },
       { h3: 'The same time, twice a week', p: 'Two lessons weekly at a fixed hour, around eight a month, with pauses for holidays and exams agreed with the teacher ahead of time.' },
       { h3: 'Teachers on India time', p: 'India Standard Time has no summer change, so our teachers are four and a half hours ahead of Nottingham from late March to late October and five and a half in winter; after-school and evening slots land in their working day.' }
     ],
@@ -202,7 +202,7 @@ module.exports = {
     h2: 'Nottingham lesson prices',
     intro: 'Short enough to read in one breath.',
     first: 'A free, complete lesson that ends with a level, a recommended course and a suggested weekly time.',
-    group: 'A month of group teaching, about eight live lessons, with five to ten learners at the same level.',
+    group: 'A month of group teaching, about eight live lessons, with fifteen to twenty learners at the same level.',
     private: 'A month of one-to-one teaching, about eight live lessons, with the teacher\'s attention on one learner.',
     closer: 'Every family outside India pays the same US dollar fee, so a household in Sherwood and one in Lenton pay identical amounts, and we keep no pound prices. We bill only once the free lesson has settled the course and slot; the pricing page explains pausing, missed lessons and moving between group and private teaching.'
   },
@@ -227,8 +227,8 @@ module.exports = {
       { q: 'How many tram stops are outside the city boundary?', a: 'By our check against the ONS boundary, 15 of the 50 stops lie outside the Nottingham local authority area, including Hucknall, Toton Lane and Clifton South, so the network reaches well beyond the city.' },
       { q: 'What time are Nottingham lessons?', a: 'After school, in the evening and at weekends, fixed in UK time during the free lesson. India is four and a half hours ahead of Nottingham in summer and five and a half in winter.' },
       { q: 'Does Modern Age Coders have a Nottingham centre?', a: 'No. There is no centre in Nottingham and no premises anywhere in the UK; every lesson happens live online. Learners need a computer with audio and a dependable connection, and our phone number is based in India.', boiler: true },
-      { q: 'How much do Nottingham lessons cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight in total, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. We agree course, format and time before any charge.', boiler: true },
-      { q: 'How do you form Nottingham groups?', a: 'On ability, pace and goals, not age or postcode, with five to ten learners at one level. If no group meets at a suitable time, we offer one-to-one lessons instead.', boiler: true }
+      { q: 'How much do Nottingham lessons cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight in total, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. We agree course, format and time before any charge.', boiler: true },
+      { q: 'How do you form Nottingham groups?', a: 'On ability, pace and goals, not age or postcode, with fifteen to twenty learners at one level. If no group meets at a suitable time, we offer one-to-one lessons instead.', boiler: true }
     ]
   },
 

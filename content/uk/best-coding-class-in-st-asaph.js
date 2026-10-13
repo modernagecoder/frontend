@@ -68,7 +68,7 @@ module.exports = {
 
   h1: 'Coding classes in St Asaph',
   capsuleQ: 'What are the best coding classes in St Asaph?',
-  capsule: 'St Asaph and Trefnant, the middle-layer area that includes the city, had 5,301 usual residents at the 2021 census, at 165.8 people per square kilometre. Cadw\'s listing for the cathedral records a monastery founded by St Kentigern about 560. St Asaph learners from six to sixty-seven have live video lessons with our teachers in India, either one to one or in a class of five to ten at one level, timed around Welsh school days and working hours. There is no fee for the opening lesson; after it, a place in a class is USD 100 a month and one-to-one teaching is USD 150 a month.',
+  capsule: 'St Asaph and Trefnant, the middle-layer area that includes the city, had 5,301 usual residents at the 2021 census, at 165.8 people per square kilometre. Cadw\'s listing for the cathedral records a monastery founded by St Kentigern about 560. St Asaph learners from six to sixty-seven have live video lessons with our teachers in India, either one to one or in a class of fifteen to twenty at one level, timed around Welsh school days and working hours. There is no fee for the opening lesson; after it, a place in a class is USD 100 a month and one-to-one teaching is USD 150 a month.',
   lead: 'Cadw describes St Asaph\'s cathedral as standing at the top of the hill, and the city sits in the Vale of Clwyd with high ground on both sides. Our St Asaph project asks which way those slopes face. Teenagers load Ordnance Survey\'s 50 metre height grid for a 30 kilometre square, 360,000 heights in all, and run the Sobel operator, a small grid of weights that image software uses to find edges, to work out how steeply and in which direction the ground falls at every point. Within 6 km of the River Clwyd, the eastern side has more than five times as many steep cells as the western side, and they face west, down into the vale.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in St Asaph.',
 
@@ -190,7 +190,7 @@ module.exports = {
       { h3: 'City and vale', p: 'A learner in Nant-y-Patrick and another in Waen Goleugoed can share a class without anyone crossing the Clwyd.' },
       { h3: 'Welsh school stages', p: 'Our levels follow Welsh school years and the Curriculum for Wales, and we use WJEC GCSE and A level course names; lessons are taught in English.' },
       { h3: 'The first session', p: 'The free lesson has the learner build something real, then the teacher recommends a level, a course and a weekly time. No card is ever asked for.' },
-      { h3: 'One level to a class', p: 'Five to ten learners at the same stage, from St Asaph, the rest of the UK and abroad, so every level has workable times.' },
+      { h3: 'One level to a class', p: 'Fifteen to twenty learners at the same stage, from St Asaph, the rest of the UK and abroad, so every level has workable times.' },
       { h3: 'Two lessons a week', p: 'Two fixed lessons weekly, about eight a month, with school holidays and exam weeks agreed with the teacher beforehand.' },
       { h3: 'Late evenings in India', p: 'India keeps one time all year, so a 5 pm lesson in St Asaph begins at half past nine at night for our teachers in summer and half past ten in winter.' }
     ],
@@ -201,7 +201,7 @@ module.exports = {
     h2: 'St Asaph lesson fees',
     intro: 'Your first lesson is free, then there is a single monthly fee.',
     first: 'A full lesson at no cost, ending with a recommended level, course and weekly time.',
-    group: 'About eight live lessons a month in a class of five to ten learners at one stage.',
+    group: 'About eight live lessons a month in a class of fifteen to twenty learners at one stage.',
     private: 'About eight live lessons a month, with the teacher working with your learner alone.',
     closer: 'Families in Tremeirchion or Cwm pay in US dollars, as all families outside India do, and pound prices never appear on our site. Billing starts only after the free lesson, once a course and a weekly time have been agreed with us; the pricing page covers pausing, missed lessons and changing between a class and one-to-one lessons.'
   },
@@ -226,8 +226,8 @@ module.exports = {
       { q: 'How old is St Asaph Cathedral?', a: 'Cadw\'s listing report records a monastery founded by St Kentigern about 560 and a see re-established in 1143, with the building rebuilt and restored many times since, most fully between 1867 and 1875. It is listed at Grade I.' },
       { q: 'When do St Asaph lessons happen?', a: 'Families in St Asaph usually take an after-school slot, a weekday evening or a weekend morning, fixed in the free lesson. Our teachers in India are four and a half hours ahead of Wales in British Summer Time and five and a half hours ahead in winter.' },
       { q: 'Is there a centre in St Asaph?', a: 'No. We have no St Asaph centre and no premises anywhere in the UK, as every lesson is live online. Learners need a computer with sound and a steady connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do St Asaph lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one teaching on the same timetable is USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than age or where they live, with five to ten learners at the same stage. If no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do St Asaph lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one teaching on the same timetable is USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than age or where they live, with fifteen to twenty learners at the same stage. If no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

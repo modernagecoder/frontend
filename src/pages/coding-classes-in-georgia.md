@@ -230,7 +230,7 @@ No enrolment charge, nothing to buy, no minimum term.
 
 Group$100per month, 8 classes
 
-Five to eight learners with one consistent teacher. Where most Georgia families begin.
+Fifteen to twenty learners with one consistent teacher. Where most Georgia families begin.
 
 Private$150per month, 8 classes
 

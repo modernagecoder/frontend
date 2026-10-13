@@ -8,7 +8,7 @@ source: src/pages/ai-and-python-academy-oman.html
 
 In short
 
-Modern Age Coders runs a live online Python and AI track for learners in Oman between six and sixty-seven, in batches of five to eight or one to one. It is deliberately not a blocks-and-robots programme: students write real Python, handle real data, train and measure models, build agents that take actions, and publish the result on GitHub where somebody else can read it. Group teaching is USD 100 a month and private teaching USD 150, and the first class is free.
+Modern Age Coders runs a live online Python and AI track for learners in Oman between six and sixty-seven, in batches of fifteen to twenty or one to one. It is deliberately not a blocks-and-robots programme: students write real Python, handle real data, train and measure models, build agents that take actions, and publish the result on GitHub where somebody else can read it. Group teaching is USD 100 a month and private teaching USD 150, and the first class is free.
 
 The reason this page exists
 
@@ -213,7 +213,7 @@ Muscat has options. A family in the capital can find in-person robotics and begi
 
 So the three pages we have written hardest are for [Salalah](/ai-and-python-academy-salalah) in Dhofar, [Sohar](/ai-and-python-academy-sohar) in North Al Batinah, and [Nizwa](/ai-and-python-academy-nizwa) in Ad Dakhiliyah. Each is a real city with a university, an economy of its own and a school-age population, and each is far enough from the capital that a twice-weekly drive is not a serious plan.
 
-The honest version of the online argument is narrower than the one usually made. It is not that online is more convenient. It is that a batch of five to eight learners at the same level in the same subject free at the same hour is very hard to assemble from one city and trivial to assemble from twenty-five countries. For a subject this specialised, the pool is the product.
+The honest version of the online argument is narrower than the one usually made. It is not that online is more convenient. It is that a batch of fifteen to twenty learners at the same level in the same subject free at the same hour is very hard to assemble from one city and trivial to assemble from twenty-five countries. For a subject this specialised, the pool is the product.
 
 If what you want is general coding rather than this track, that already exists in depth: [coding classes in Oman](/coding-classes-in-oman), and city guides for [Salalah](/coding-classes-in-salalah), [Sohar](/coding-classes-in-sohar) and [Nizwa](/coding-classes-in-nizwa). The thesis behind this whole family of pages is at [Learn to Build AI](/learn-to-build-ai).
 
@@ -239,7 +239,7 @@ Oman time. University students and working adults on weeknights.
 
 Free, taught rather than sold, and it settles which rung the learner starts on. One problem, watched rather than marked.
 
-### Five to eight per batch
+### Fifteen to twenty per batch
 
 Grouped on demonstrated ability across twenty-five countries, so a strong student in Nizwa is never held to a local average.
 
@@ -329,7 +329,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Weekly build work reviewed by the teacher
 - Certificate on completion
@@ -420,7 +420,7 @@ We teach them, and we are specific about what the word means here. An agent is a
 
 ### What does it cost a family in Oman?
 
-A group batch of five to eight students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same flat figures everywhere outside India. The agent courses sit at those same figures. There is no enrolment fee, no annual contract, and the first class is free without a card.
+A group batch of fifteen to twenty students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same flat figures everywhere outside India. The agent courses sit at those same figures. There is no enrolment fee, no annual contract, and the first class is free without a card.
 
 ### We are in Salalah, not Muscat. Does that change anything?
 

@@ -12,7 +12,7 @@ Live online · serving Mohali
 
 Real programming for kids, teens and college students in Mohali, from **SAS Nagar Phases 1–5 to SAS Nagar Phases 6–11, Sectors 70 / 71 to Sectors 82–91**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Mohali)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**MohaliEnrollingAreasSAS Nagar Phases 1–5, SAS Nagar Phases 6–11, Sectors 70 / 71, Sectors 82–91, IT City / Quark City & all of MohaliBoardsPSEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across MohaliFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Mohali)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**MohaliEnrollingAreasSAS Nagar Phases 1–5, SAS Nagar Phases 6–11, Sectors 70 / 71, Sectors 82–91, IT City / Quark City & all of MohaliBoardsPSEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across MohaliFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for Mohali's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Mohali: FAQs
 
-Which is the best coding class in Mohali for kids?Modern Age Coders runs Mohali's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and graduate to Python. Batches stay small (5-8 students), every class is project-based, and instructors come from working software backgrounds. We reach the whole tricity: SAS Nagar Phases 1-11, the Sector 70/71 and 82-91 belt, IT City, Quark City, Aerocity, Kharar and Zirakpur.Are the classes online, and do you cover Kharar and Zirakpur too?Yes, every class is live and online, so a child in a Phase 7 kothi, an IT City apartment, a New Chandigarh society, or out in Kharar or Zirakpur logs in to the exact same teacher from home, no drive down the airport road or through tricity traffic. Sessions are fully interactive, with live coding, screen-sharing and a recording of every class for revision.How much do coding classes cost in Mohali?Group classes (5-8 students) start at Rs.1499/month for 2 live classes each week. The Mini Batch (3-4 students) is Rs.2,999/month, and one-to-one personal mentoring is Rs.4,999/month. Every new learner starts with a free demo class, and there are no enrolment charges or hidden costs.Will coding help my child with JEE and the CBSE board exams?Yes. Mohali and the wider tricity send a large cohort to JEE every year. Coding trains the decomposition, pattern-spotting and logical reasoning that JEE Advanced and the Olympiads test, and it maps directly onto CBSE and PSEB Computer Science, Informatics Practices and the NEP-2020 AI units. Our Python and Java tracks line up with what is taught at schools like St Xavier's, Gian Jyoti, Doon International and DPS Chandigarh.What is the best age for a child to start coding?Around age 8 is the sweet spot for visual, block-based coding in Scratch. For typed languages like Python and Java, 12-13 onwards usually works best. We keep kids (6-12), teens (13-18) and college or working learners (18+) on separate tracks so the entry point always suits the age.What languages and courses do you teach in Mohali?Kids (6-12): Scratch, web design with HTML and CSS, and a first taste of Python. Teens (13-18): Python, Java, Full-Stack Web Development with React and Node, and AI/ML. College (18+): Data Structures and Algorithms, the MERN full-stack and AI/Data Science. We also run school and Olympiad mathematics alongside the coding tracks.Do you prepare Mohali and Chandigarh University students for placements?Yes. The college track is built around placements: 200+ DSA problems, repeated mock interviews, a deployed MERN project and an AI/Data-Science portfolio. It suits students from Chandigarh University, Chandigarh Group of Colleges, Plaksha University, IISER Mohali and nearby campuses who are chasing roles at the product companies and startups growing across IT City and the tricity.Do you provide certificates, and is there a free demo?Every student earns a completion certificate that adds weight to a school portfolio or a college application. And yes, we run a free demo class before you decide, plus a full refund within the first paid week if it turns out not to be the right fit for your child.Do you teach coding to PSEB students in Mohali?Yes, and the Punjab board, PSEB, is headquartered right here in Mohali at Phase 8. CBSE and ICSE schools run in the city too. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can IISER Mohali or ISB students join your programming courses?Yes. Mohali's Knowledge City holds IISER Mohali and an ISB campus, so serious study is on the doorstep. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview.
+Which is the best coding class in Mohali for kids?Modern Age Coders runs Mohali's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and graduate to Python. Batches stay small (15-20 students), every class is project-based, and instructors come from working software backgrounds. We reach the whole tricity: SAS Nagar Phases 1-11, the Sector 70/71 and 82-91 belt, IT City, Quark City, Aerocity, Kharar and Zirakpur.Are the classes online, and do you cover Kharar and Zirakpur too?Yes, every class is live and online, so a child in a Phase 7 kothi, an IT City apartment, a New Chandigarh society, or out in Kharar or Zirakpur logs in to the exact same teacher from home, no drive down the airport road or through tricity traffic. Sessions are fully interactive, with live coding, screen-sharing and a recording of every class for revision.How much do coding classes cost in Mohali?Group classes (15-20 students) start at Rs.1499/month for 2 live classes each week. The Mini Batch (up to 6 students) is Rs.2,999/month, and one-to-one personal mentoring is Rs.4,999/month. Every new learner starts with a free demo class, and there are no enrolment charges or hidden costs.Will coding help my child with JEE and the CBSE board exams?Yes. Mohali and the wider tricity send a large cohort to JEE every year. Coding trains the decomposition, pattern-spotting and logical reasoning that JEE Advanced and the Olympiads test, and it maps directly onto CBSE and PSEB Computer Science, Informatics Practices and the NEP-2020 AI units. Our Python and Java tracks line up with what is taught at schools like St Xavier's, Gian Jyoti, Doon International and DPS Chandigarh.What is the best age for a child to start coding?Around age 8 is the sweet spot for visual, block-based coding in Scratch. For typed languages like Python and Java, 12-13 onwards usually works best. We keep kids (6-12), teens (13-18) and college or working learners (18+) on separate tracks so the entry point always suits the age.What languages and courses do you teach in Mohali?Kids (6-12): Scratch, web design with HTML and CSS, and a first taste of Python. Teens (13-18): Python, Java, Full-Stack Web Development with React and Node, and AI/ML. College (18+): Data Structures and Algorithms, the MERN full-stack and AI/Data Science. We also run school and Olympiad mathematics alongside the coding tracks.Do you prepare Mohali and Chandigarh University students for placements?Yes. The college track is built around placements: 200+ DSA problems, repeated mock interviews, a deployed MERN project and an AI/Data-Science portfolio. It suits students from Chandigarh University, Chandigarh Group of Colleges, Plaksha University, IISER Mohali and nearby campuses who are chasing roles at the product companies and startups growing across IT City and the tricity.Do you provide certificates, and is there a free demo?Every student earns a completion certificate that adds weight to a school portfolio or a college application. And yes, we run a free demo class before you decide, plus a full refund within the first paid week if it turns out not to be the right fit for your child.Do you teach coding to PSEB students in Mohali?Yes, and the Punjab board, PSEB, is headquartered right here in Mohali at Phase 8. CBSE and ICSE schools run in the city too. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can IISER Mohali or ISB students join your programming courses?Yes. Mohali's Knowledge City holds IISER Mohali and an ISB campus, so serious study is on the doorstep. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview.
 
 ## Ready to start your child's coding journey in Mohali?
 

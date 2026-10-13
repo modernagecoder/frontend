@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Nijmegen for ages 6 t
 canonical: https://learn.modernagecoders.com/coding-classes-in-nijmegen
 source: src/pages/coding-classes-in-nijmegen.html
 ---
-> Coding classes in Nijmegen serve a municipality of 189,871 people (Statistics Netherlands, 1 January 2026), the largest in Gelderland and the densest city on this site at 3,579 to the square kilometre. It declared itself the oldest city in the country in 2005, and it is one of four places that claim the title: change the test from Roman city rights to continuous habitation and the winner changes with it. Every district of it is taught by Modern Age Coders on the same live online basis, in English, to learners of any age from 6 to 67. An opening lesson is given free; from there the monthly figure is USD 100 for a group of five to ten and USD 150 for private tuition.
+> Coding classes in Nijmegen serve a municipality of 189,871 people (Statistics Netherlands, 1 January 2026), the largest in Gelderland and the densest city on this site at 3,579 to the square kilometre. It declared itself the oldest city in the country in 2005, and it is one of four places that claim the title: change the test from Roman city rights to continuous habitation and the winner changes with it. Every district of it is taught by Modern Age Coders on the same live online basis, in English, to learners of any age from 6 to 67. An opening lesson is given free; from there the monthly figure is USD 100 for a group of fifteen to twenty and USD 150 for private tuition.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Nijmegen
 
@@ -12,11 +12,11 @@ Nijmegen, Gelderland / Live online
 
 # Coding classes in Nijmegen, the oldest city in the Netherlands under three of the five tests
 
-**What are the best coding classes in Nijmegen?** Coding classes in Nijmegen serve a municipality of 189,871 people (Statistics Netherlands, 1 January 2026), the largest in Gelderland and the densest city on this site at 3,579 to the square kilometre. It declared itself the oldest city in the country in 2005, and it is one of four places that claim the title: change the test from Roman city rights to continuous habitation and the winner changes with it. Every district of it is taught by Modern Age Coders on the same live online basis, in English, to learners of any age from 6 to 67. An opening lesson is given free; from there the monthly figure is USD 100 for a group of five to ten and USD 150 for private tuition.
+**What are the best coding classes in Nijmegen?** Coding classes in Nijmegen serve a municipality of 189,871 people (Statistics Netherlands, 1 January 2026), the largest in Gelderland and the densest city on this site at 3,579 to the square kilometre. It declared itself the oldest city in the country in 2005, and it is one of four places that claim the title: change the test from Roman city rights to continuous habitation and the winner changes with it. Every district of it is taught by Modern Age Coders on the same live online basis, in English, to learners of any age from 6 to 67. An opening lesson is given free; from there the monthly figure is USD 100 for a group of fifteen to twenty and USD 150 for private tuition.
 
 Four Dutch towns claim to be the oldest city in the country and all four are telling the truth about something. Nijmegen has Roman city rights from about the year 98, and a garrison from 19 BC. One rival has a Roman bath house begun between 65 and 73. Another has been lived in without a break ever since the legions left. A third was a planned Roman town that was abandoned around 270. Nothing here is in dispute except which question counts, and a child who has built that table has learned more about evidence than a year of being told to check sources.
 
-Facts last verified 7 September 2026. Teaching is online; no Nijmegen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Nijmegen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city that argues about evidence for a living
 
@@ -209,7 +209,7 @@ The hill, the west and the Waalsprong are each a real trip on a dark evening, an
 Published here so that nobody has to ask.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate applies, quoted in dollars, with no euro list beside it, so a family in Ressen sees what a family on the hill sees. Nothing is paid until the free lesson has produced a course and a timetable, and payment then goes over WhatsApp. Pauses, plan changes and missed weeks are set out on the pricing page.
@@ -250,7 +250,7 @@ No, and none is claimed at the Valkhof, in Lent or anywhere in the Netherlands. 
 
 ### What do Nijmegen coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Nijmegen group?
 

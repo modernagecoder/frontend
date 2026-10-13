@@ -16,7 +16,7 @@ Halesowen, Dudley, West Midlands, England / Live online
 
 An AI agent that answers every question in the same confident tone is dangerous, because you cannot tell its good answers from its guesses. A trustworthy agent does two extra things: it gives a range around each answer that really does contain the truth as often as it claims, and it knows when to stop and ask a human. Both can be built and tested in Python. In this project the agent predicts the share of one-person households in each of Dudley borough's 1,033 Census output areas, and the learner checks whether its "90% sure" ranges live up to the promise, then lets it skip the questions it is least sure about.
 
-Facts last verified 29 September 2026. Teaching is online; no Halesowen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Halesowen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Halesowen courses in thinking, vibe coding and agents
 

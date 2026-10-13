@@ -63,7 +63,7 @@ module.exports = {
 
   h1: 'Coding classes in Lancaster',
   capsuleQ: 'What are the best coding classes in Lancaster?',
-  capsule: 'The Lancaster district had 142,934 usual residents at the 2021 census, and 8.9% of them were aged 20 to 24, against 6.0% across England. Lancaster Castle says its beginnings date back to Roman times, on the hill above the town and the River Lune, and that it was a working prison until 2011. Lancaster learners from six to sixty-seven can join our teachers in India in live video lessons, alone or in a class of five to ten at the same level, at times planned around the UK day. Lesson one costs nothing, and from then on families pay USD 100 a month for a group place or USD 150 for a teacher of their own.',
+  capsule: 'The Lancaster district had 142,934 usual residents at the 2021 census, and 8.9% of them were aged 20 to 24, against 6.0% across England. Lancaster Castle says its beginnings date back to Roman times, on the hill above the town and the River Lune, and that it was a working prison until 2011. Lancaster learners from six to sixty-seven can join our teachers in India in live video lessons, alone or in a class of fifteen to twenty at the same level, at times planned around the UK day. Lesson one costs nothing, and from then on families pay USD 100 a month for a group place or USD 150 for a teacher of their own.',
   lead: 'The River Lune at Caton, just upstream of Lancaster, has its flow measured every day. Our teenagers take the highest flow of each year from 1980 to 2023 and compare the two halves. The recent 21 years average 851.6 cubic metres per second at their peak, the earlier 21 years 783.2. Is the river flooding more? A permutation test answers without any formula: shuffle the 42 yearly peaks into random halves 100,000 times and see how often chance alone produces a gap that large. It does so about one time in five. Remove the single biggest flood, 1,740 cubic metres per second in December 2015, and the gap almost vanishes.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Lancaster.',
 
@@ -189,7 +189,7 @@ module.exports = {
       { h3: 'City, coast and valley', p: 'A learner in Heysham and another in Caton can share a class without anyone crossing the Lune.' },
       { h3: 'Levels schools will recognise', p: 'A Lancashire pupil will find our levels familiar, since they track the English curriculum from Reception, through each Key Stage, to GCSE and A level, and all teaching is in English.' },
       { h3: 'Learning from the first minute', p: 'Even the free session is spent on a real task, and afterwards we suggest a level, a course and a regular slot; nobody asks for card details.' },
-      { h3: 'Classes by level', p: 'Five to ten learners at one stage, from Lancaster, around the UK and abroad, which keeps sensible times open at every level.' },
+      { h3: 'Classes by level', p: 'Fifteen to twenty learners at one stage, from Lancaster, around the UK and abroad, which keeps sensible times open at every level.' },
       { h3: 'Two lessons a week', p: 'Two fixed lessons weekly, about eight a month, with half terms and exams arranged with the teacher in advance.' },
       { h3: 'Teaching across the time gap', p: 'When it is 5 pm in Lancaster it is 9.30 pm for our teachers in summer and 10.30 pm in winter, because the clocks in India never change; they plan their working day around UK learners.' }
     ],
@@ -200,7 +200,7 @@ module.exports = {
     h2: 'Lancaster lesson fees',
     intro: 'The first lesson is free, then there is one fee a month.',
     first: 'A full lesson with no charge, finishing with advice on level, course and a weekly time.',
-    group: 'About eight live lessons a month, with five to ten learners at the same stage.',
+    group: 'About eight live lessons a month, with fifteen to twenty learners at the same stage.',
     private: 'About eight live lessons a month, with the teacher working with your learner alone.',
     closer: 'Hest Bank and Torrisholme families pay in US dollars, just like every family outside India, and our site carries no pound prices anywhere. No invoice arrives until after the free lesson, once a course and a weekly time have been chosen, and our pricing page covers what happens with pauses, missed lessons or a change between group and one-to-one teaching.'
   },
@@ -225,8 +225,8 @@ module.exports = {
       { q: 'What is special about Lancaster Castle?', a: 'Lancaster Castle says its beginnings date back to Roman times and that it was a working HM Prison until 2011; it is owned by the Duchy of Lancaster. Historic England lists it at Grade I. We are not connected with the castle.' },
       { q: 'When are Lancaster lessons held?', a: 'Weekday afternoons and evenings or weekends, at a UK time chosen in the free lesson. India is four and a half hours ahead of Lancaster during British Summer Time and five and a half hours ahead in winter.' },
       { q: 'Is there a Lancaster centre?', a: 'No. We have no Lancaster centre and no premises in the UK, since all lessons are live online. A learner needs a computer with sound and a good connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do lessons cost for a Lancaster learner?', a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners; one-to-one teaching on the same pattern costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How is a learner placed in a group?', a: 'By level, pace and goals rather than age or where they live, with five to ten learners at the same stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do lessons cost for a Lancaster learner?', a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners; one-to-one teaching on the same pattern costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How is a learner placed in a group?', a: 'By level, pace and goals rather than age or where they live, with fifteen to twenty learners at the same stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

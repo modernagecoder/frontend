@@ -186,7 +186,7 @@ module.exports = {
       { h3: 'From home, either bank', p: 'A learner in Bomaderry and another in North Nowra can share a live lesson without crossing the bridge.' },
       { h3: 'NSW year levels', p: 'Teachers use NSW stages and year levels, including the HSC years, and teach in English.' },
       { h3: 'The free trial', p: 'You write Python with a teacher, then hear a recommended stage, course and time; no card is requested.' },
-      { h3: 'Five to ten per group', p: 'Learners at one level from Nowra, the rest of Australia and overseas, so every stage finds a slot.' },
+      { h3: 'Fifteen to twenty per group', p: 'Learners at one level from Nowra, the rest of Australia and overseas, so every stage finds a slot.' },
       { h3: 'About eight lessons a month', p: 'Two sessions in most weeks; school breaks and exam periods are mapped out early with the teacher.' },
       { h3: 'The October change', p: 'A 4pm Nowra lesson is 11:30am in India through winter and 10:30am once NSW daylight saving begins.' }
     ],
@@ -197,7 +197,7 @@ module.exports = {
     h2: 'What Python classes cost in Nowra',
     intro: 'Three figures cover it.',
     first: 'A free first lesson that ends with a stage, a course and a time.',
-    group: 'A month of classes, usually eight, with five to ten learners at your level.',
+    group: 'A month of classes, usually eight, with fifteen to twenty learners at your level.',
     private: 'About eight private lessons a month with one teacher.',
     closer: 'Nowra families pay one rate in US dollars, the same in Bomaderry as in Sydney, with no local price list. Nothing is invoiced before the trial fixes a course and a weekly slot; school breaks, missed sessions and format changes are covered on the pricing page.'
   },
@@ -222,8 +222,8 @@ module.exports = {
       { q: 'When do Nowra lessons run?', a: 'Weekday afternoons, evenings, Saturdays or Sundays, settled during the trial and set in Nowra time. India runs four and a half hours behind Nowra in winter and five and a half in summer.' },
       { q: 'Can younger children learn with you in Nowra?', a: 'They can, from six years old, normally beginning in Scratch with visual projects. Teen and adult learners are the focus here.' },
       { q: 'Is there a Modern Age Coders centre in Nowra?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Nowra coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Nowra coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

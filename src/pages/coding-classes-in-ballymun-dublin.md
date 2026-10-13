@@ -16,7 +16,7 @@ Ballymun, Dublin 9 and 11 / Live online
 
 Dublin City Council's sound monitor in Ballymun recorded the noise level every five minutes through 2015, as its monitor in Drumcondra did. Each reading comes with three numbers: an average level, the level exceeded 10 percent of the time, and the level exceeded 95 percent of the time. Compare the two places on the average alone and Ballymun is about 7.5 decibels louder at night. Compare them on the quiet background and the gap shrinks to 1.77. Compare them on the peaks and it grows to 12.49. This page teaches a learner why one number cannot describe a difference, and how the three together do.
 
-Facts last verified 20 September 2026. Teaching is online; no Ballymun branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Ballymun branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four first courses for Ballymun
 
@@ -147,7 +147,7 @@ An average tells you how much. Percentiles tell you where. Good analysis reports
 Briefly.
 
 - **Live with a teacher** The teacher runs each lesson live, looking over each learner's code as they build it.
-- **Same-level groups** Groups of five to ten at one level, from Ballymun, other parts of Ireland or overseas.
+- **Same-level groups** Groups of fifteen to twenty at one level, from Ballymun, other parts of Ireland or overseas.
 - **Set days** The same two days every week, roughly eight lessons a month.
 - **Around school** The plan makes room for holidays, mid-terms and exam periods.
 - **Home kit** Any computer with a keyboard, plus a mic, some way to hear, and a line fast enough that video does not stall.
@@ -160,7 +160,7 @@ Briefly.
 The short version.
 
 - First class: USD 0. A free first lesson that includes a level check.
-- Group tuition: USD 100 a month. A month in a same-level group of five to ten, close to eight live lessons.
+- Group tuition: USD 100 a month. A month in a same-level group of fifteen to twenty, close to eight live lessons.
 - Private tuition: USD 150 a month. A month of private lessons at the same frequency.
 
 Outside India the fee is one US dollar amount for everyone, paid month by month. Trying the free lesson creates no obligation, billing only starts alongside the course, and holidays, missed sessions and moves between group and private teaching are explained on the pricing page.
@@ -197,7 +197,7 @@ Possibly, but groups are made by level, so the rest of the class may be anywhere
 
 ### What do coding classes in Ballymun cost?
 
-The first lesson is free. Then a group place costs USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.
+The first lesson is free. Then a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.
 
 ### How many learners are in a group?
 

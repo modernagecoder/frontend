@@ -16,7 +16,7 @@ Port Lincoln, South Australia / Live online
 
 Every year the Australian Bureau of Statistics publishes an estimate of how many people live in each council area, and its open data service hands back Port Lincoln's figure for every 30 June from 2001 to 2025. The line climbs slowly from 13,842 to 15,065, dips twice in the middle of the 2010s and dips again by two people in the latest year. Ask a computer to fit a Gompertz curve, a shape designed to level off at a ceiling, and it obligingly finds one. Train it on a different span of years and the ceiling jumps by more than two thousand people. Our Port Lincoln learners find out why a model built to find a limit will report one whether or not the data supports it.
 
-Facts last verified 10 October 2026. Teaching is online; no Port Lincoln branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Port Lincoln branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where a Port Lincoln learner might begin
 
@@ -179,7 +179,7 @@ An online lesson reaches every part of Port Lincoln and the wider peninsula equa
 The full price list in three lines.
 
 - First class: USD 0. A free first lesson that ends with a suggested stage, course and time.
-- Group tuition: USD 100 a month. A month of lessons, normally eight, with five to ten learners at your level.
+- Group tuition: USD 100 a month. A month of lessons, normally eight, with fifteen to twenty learners at your level.
 - Private tuition: USD 150 a month. Roughly eight one-to-one lessons a month with a single teacher.
 
 There is no regional surcharge for Port Lincoln: the US dollar rate matches what families in every other state are charged. Nothing is charged until the trial has fixed a course and a time; the pricing page explains holidays, missed lessons and changing format.
@@ -220,7 +220,7 @@ No, and we do not claim one. Teaching is live and online only, with no premises 
 
 ### What do Port Lincoln coding classes cost?
 
-The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
+The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
 
 ### How large are the groups?
 

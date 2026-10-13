@@ -36,7 +36,7 @@ module.exports = {
 
   h1: 'Coding classes in Noord-Brabant, where a garden in Baarle can be Dutch, inside Belgium, inside the Netherlands',
   capsuleQ: 'What are the best coding classes in Noord-Brabant?',
-  capsule: 'Coding classes in Noord-Brabant reach 2,676,954 people in 56 municipalities (Statistics Netherlands, 1 January 2026): more municipalities than any other province, the third largest population and the second largest area. Its capital, \'s-Hertogenbosch, is only its fourth city, and its smallest municipality, Baarle-Nassau, holds 22 pieces of Belgium, two of which hold pieces of the Netherlands again. From Eindhoven to Baarle the class Modern Age Coders runs is one class: live, online, in English, for ages 6 to 67, with nothing owed for the first lesson and afterwards USD 100 a month in a group of five to ten or USD 150 with a teacher to yourself.',
+  capsule: 'Coding classes in Noord-Brabant reach 2,676,954 people in 56 municipalities (Statistics Netherlands, 1 January 2026): more municipalities than any other province, the third largest population and the second largest area. Its capital, \'s-Hertogenbosch, is only its fourth city, and its smallest municipality, Baarle-Nassau, holds 22 pieces of Belgium, two of which hold pieces of the Netherlands again. From Eindhoven to Baarle the class Modern Age Coders runs is one class: live, online, in English, for ages 6 to 67, with nothing owed for the first lesson and afterwards USD 100 a month in a group of fifteen to twenty or USD 150 with a teacher to yourself.',
   lead: 'Ask which country a garden in Baarle is in and the honest answer is: count the borders around it. On the open ground of Baarle-Nassau it is Dutch. Inside one of the 22 Belgian enclaves it is Belgian. Inside one of the Dutch enclaves that sit inside those Belgian enclaves it is Dutch again. Neither the outermost line nor the innermost one decides; the number of lines does. A child who has written the program that counts them has learned the rule every map with holes in it obeys.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Noord-Brabant.',
 
@@ -183,7 +183,7 @@ module.exports = {
     h2: 'Fifty-six municipalities, one dollar tariff, and a free hour first',
     intro: 'Set out before a number of yours is requested.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'Everywhere outside India pays the same US dollar figure, with no euro edition, so Baarle-Nassau pays what Eindhoven pays. Course and hour are fixed in the free lesson and payment comes after it, over WhatsApp. The pricing page covers pauses, changes of plan and missed lessons.'
   },
@@ -208,7 +208,7 @@ module.exports = {
       { q: 'What time are classes for a family in Noord-Brabant?', a: 'The Dutch clock jumps twice a year and the Indian one stays, so a Brabant afternoon runs three and a half hours behind the teacher in summer and four and a half in winter. After-school, early-evening and weekend hours suit both ends, and the fixed weekly hour is chosen during the free lesson.' },
       { q: 'What happens in the free lesson?', a: 'We look for what the learner already does well and set one task at that edge. A child hops between rope loops. A teenager builds a toy Baarle and counts crossings. An adult brings a zone from work with a carve-out. By the end there is a named course, a rung, a fixed hour and the dollar figure, and nothing has been paid.' },
       { q: 'Is there a Modern Age Coders classroom anywhere in Noord-Brabant?', a: 'No, and none is claimed in Eindhoven, in Tilburg or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Noord-Brabant coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Noord-Brabant coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in a Noord-Brabant group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or municipality. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

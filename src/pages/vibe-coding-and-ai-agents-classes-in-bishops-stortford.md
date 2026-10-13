@@ -4,7 +4,7 @@ description: "Vibe coding, AI agents, Python and coding classes online for Bisho
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-bishops-stortford
 source: src/pages/vibe-coding-and-ai-agents-classes-in-bishops-stortford.html
 ---
-> The ONS counted 40,915 usual residents in the Bishop's Stortford built-up area in 2021, and 150,158 across East Hertfordshire. Thorley, Hockerill and Thorley Street appear in the gazetteer as parts of the town. Modern Age Coders teaches vibe coding, AI agents, Python, coding and maths to people there aged six to 67, in live video lessons with tutors in India, either privately or in groups of five to ten at one level. When several AI agents work on the same task, each keeps its own copy of what it knows, and sooner or later the copies must be merged. Our Bishop's Stortford project sends three simulated agents out to list the town's bus stops, post boxes and benches, lets them edit offline, and compares three ways of merging. Your first lesson costs nothing; keeping going is USD 100 monthly in a class or USD 150 monthly on a one-to-one basis.
+> The ONS counted 40,915 usual residents in the Bishop's Stortford built-up area in 2021, and 150,158 across East Hertfordshire. Thorley, Hockerill and Thorley Street appear in the gazetteer as parts of the town. Modern Age Coders teaches vibe coding, AI agents, Python, coding and maths to people there aged six to 67, in live video lessons with tutors in India, either privately or in groups of fifteen to twenty at one level. When several AI agents work on the same task, each keeps its own copy of what it knows, and sooner or later the copies must be merged. Our Bishop's Stortford project sends three simulated agents out to list the town's bus stops, post boxes and benches, lets them edit offline, and compares three ways of merging. Your first lesson costs nothing; keeping going is USD 100 monthly in a class or USD 150 monthly on a one-to-one basis.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East of England](/coding-and-ai-classes-in-east-of-england) / Bishop’s Stortford
 
@@ -12,11 +12,11 @@ Bishop's Stortford, East Hertfordshire, Hertfordshire / Live online
 
 # Vibe coding and AI agents classes in Bishop's Stortford
 
-**Where are the best vibe coding and AI agents classes for Bishop's Stortford learners?** The ONS counted 40,915 usual residents in the Bishop's Stortford built-up area in 2021, and 150,158 across East Hertfordshire. Thorley, Hockerill and Thorley Street appear in the gazetteer as parts of the town. Modern Age Coders teaches vibe coding, AI agents, Python, coding and maths to people there aged six to 67, in live video lessons with tutors in India, either privately or in groups of five to ten at one level. When several AI agents work on the same task, each keeps its own copy of what it knows, and sooner or later the copies must be merged. Our Bishop's Stortford project sends three simulated agents out to list the town's bus stops, post boxes and benches, lets them edit offline, and compares three ways of merging. Your first lesson costs nothing; keeping going is USD 100 monthly in a class or USD 150 monthly on a one-to-one basis.
+**Where are the best vibe coding and AI agents classes for Bishop's Stortford learners?** The ONS counted 40,915 usual residents in the Bishop's Stortford built-up area in 2021, and 150,158 across East Hertfordshire. Thorley, Hockerill and Thorley Street appear in the gazetteer as parts of the town. Modern Age Coders teaches vibe coding, AI agents, Python, coding and maths to people there aged six to 67, in live video lessons with tutors in India, either privately or in groups of fifteen to twenty at one level. When several AI agents work on the same task, each keeps its own copy of what it knows, and sooner or later the copies must be merged. Our Bishop's Stortford project sends three simulated agents out to list the town's bus stops, post boxes and benches, lets them edit offline, and compares three ways of merging. Your first lesson costs nothing; keeping going is USD 100 monthly in a class or USD 150 monthly on a one-to-one basis.
 
 Two people edit the same shopping list on their phones in a tunnel. One crosses off milk; the other adds bread. When the signal returns, what should the list say? Now replace the people with AI agents, and the list with a shared record of a whole town. Computer scientists have a family of answers called conflict-free replicated data types, CRDTs for short, which guarantee that every copy ends up identical whatever order the updates arrive in. Bishop's Stortford learners build one, and then discover that identical is not the same as correct.
 
-Facts last verified 30 September 2026. Teaching is online; no Bishop’s Stortford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Bishop’s Stortford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Vibe coding and AI agents courses for Bishop's Stortford
 
@@ -132,7 +132,7 @@ Learners join from home with a laptop or desktop and a camera. A reliable connec
 - **The learner builds** Tutors ask and suggest; learners write, run and fix the code, including the AI's.
 - **Placement comes first** The free lesson shows the level, and only then do we recommend a course.
 - **A free full lesson** The trial costs nothing and we take no card details.
-- **Five to ten per class** Classmates share a level and come from towns across the UK.
+- **Fifteen to twenty per class** Classmates share a level and come from towns across the UK.
 - **Two slots a week** Holiday breaks follow your own school calendar; send it and we plan round it.
 - **Fixed UK start time** Clock changes are absorbed by the tutor, not by your timetable.
 

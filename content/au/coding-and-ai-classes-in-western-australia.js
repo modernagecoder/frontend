@@ -223,7 +223,7 @@ module.exports = {
     h2: 'What lessons cost in Western Australia',
     intro: 'A single price list from the Kimberley to the Great Southern.',
     first: 'A complete first lesson at no cost, ending with a recommended level, course and weekly time.',
-    group: 'A month of lessons, typically eight, with five to ten learners at a similar level.',
+    group: 'A month of lessons, typically eight, with fifteen to twenty learners at a similar level.',
     private: 'The same rhythm of about eight lessons a month, taught one to one.',
     closer: 'Outside India every family is invoiced in US dollars at one rate, so Port Hedland and Fremantle pay exactly the same. Nothing is billed until the trial has settled what and when the learner will study; holiday pauses, make-up lessons and swapping between group and private teaching are all covered on the pricing page.'
   },
@@ -248,7 +248,7 @@ module.exports = {
       { q: 'What time are lessons in WA?', a: 'Afternoons, evenings or weekends, chosen in the trial and always written in WA time. India is two and a half hours behind WA all year, because neither changes its clocks.' },
       { q: 'Do you teach regional and remote students?', a: 'Yes. Lessons need only a laptop or desktop, sound and a stable connection, so a learner in the Pilbara joins exactly the same class as one in Perth.' },
       { q: 'Is there a Modern Age Coders office in Western Australia?', a: 'No, and we do not claim one. Teaching is entirely live online with no premises anywhere in Australia, and the phone number we display is an Indian number.', boiler: true },
-      { q: 'How much are coding lessons in WA?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Nothing is paid until course, format and time are agreed.', boiler: true },
+      { q: 'How much are coding lessons in WA?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Nothing is paid until course, format and time are agreed.', boiler: true },
       { q: 'How many students share a group?', a: 'Five to ten, grouped by level, pace and goals rather than age or suburb. When no group suits a learner at a workable hour, private lessons are offered instead.', boiler: true }
     ]
   },

@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding classes in Wiltshire',
   capsuleQ: 'What are the best coding classes in Wiltshire?',
-  capsule: 'Wiltshire as a county is two unitary councils, Wiltshire and Swindon, with 743,740 residents at the 2021 Census by our addition of the two totals. Swindon is by far the largest town, followed by Salisbury, Trowbridge and Chippenham, then a ring of market towns. Our lessons are live over video, taught from India, and each learner is placed by ability, whatever their age. Coding, Python and maths are taught to learners aged 6 to 67, either on their own with a teacher or in groups of five to ten. The Wiltshire project starts at Box Tunnel, near Corsham. Try a lesson at no cost; staying on is USD 100 each month in a group or USD 150 each month privately.',
+  capsule: 'Wiltshire as a county is two unitary councils, Wiltshire and Swindon, with 743,740 residents at the 2021 Census by our addition of the two totals. Swindon is by far the largest town, followed by Salisbury, Trowbridge and Chippenham, then a ring of market towns. Our lessons are live over video, taught from India, and each learner is placed by ability, whatever their age. Coding, Python and maths are taught to learners aged 6 to 67, either on their own with a teacher or in groups of fifteen to twenty. The Wiltshire project starts at Box Tunnel, near Corsham. Try a lesson at no cost; staying on is USD 100 each month in a group or USD 150 each month privately.',
   lead: 'Historic England describes Box Tunnel, built between 1836 and 1841 to a design by Isambard Kingdom Brunel, as 1.8 miles long, arrow-straight, and on an incline of 1 in 100 down towards Bath, so it climbs as you head east. Its list entries also give map coordinates for both portals. Those few numbers are enough to ask a lovely question: is there any morning when the rising sun lines up with the tunnel and shines straight down it? This page\'s project works it out in Python. It checks the tunnel\'s length with Pythagoras, turns the coordinates into a compass bearing, corrects for the difference between map north and true north, and then searches a year of sunrises for the moment the angles agree.',
   wa: 'Hello Modern Age Coders, we are in Wiltshire and would like to book a free lesson, please.',
 
@@ -163,7 +163,7 @@ module.exports = {
       { h3: 'Learning at home', p: 'A cottage near Marlborough, a house in Trowbridge, a flat in Swindon. The teacher watches the shared screen while the learner writes the code.' },
       { h3: 'School words, unchanged', p: 'Year groups, key stages, GCSEs and A levels are named the way Wiltshire schools name them, and teaching is in English.' },
       { h3: 'Free to start', p: 'A real first lesson, then honest advice on level and course. No card details are needed.' },
-      { h3: 'Classmates at your stage', p: 'Groups of five to ten learners at one level, from Wiltshire and well beyond.' },
+      { h3: 'Classmates at your stage', p: 'Groups of fifteen to twenty learners at one level, from Wiltshire and well beyond.' },
       { h3: 'Holidays kept', p: 'Two lessons a week suits most learners, with pauses for your school\'s own holidays.' },
       { h3: 'Fixed in UK time', p: 'Your slot stays at the same UK time all year; the teacher, keeping India time several hours ahead, adjusts when the clocks change.' }
     ],
@@ -174,7 +174,7 @@ module.exports = {
     h2: 'Fees in Wiltshire',
     intro: 'Calne or Corsham, the fee is the same, as it is in every country we teach apart from India.',
     first: 'A full lesson of real work, then advice on level and course.',
-    group: 'About eight lessons a month with five to ten learners at one level.',
+    group: 'About eight lessons a month with fifteen to twenty learners at one level.',
     private: 'About eight lessons a month, one-to-one.',
     closer: 'Fees are in US dollars, not pounds. Billing begins after the free lesson, once a course and a regular slot are fixed. Pausing, a missed lesson, or moving from group to private are all explained on the pricing page.'
   },

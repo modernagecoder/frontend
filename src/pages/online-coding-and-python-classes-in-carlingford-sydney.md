@@ -16,7 +16,7 @@ Carlingford, City of Parramatta / Live online
 
 Carlingford sits at the northern end of the Parramatta Light Rail, and Transport for NSW publishes how many people tap on at each of the 16 stops every month. Put those numbers in a grid, one row per month and one column per stop, and you have a matrix. Multiply it by a column of ones and you get each month's entries for the whole line; multiply a row of ones by it and you get each stop's total. Get the order wrong and NumPy refuses. It is the cleanest first lesson in matrix multiplication we know, and it ranks Carlingford fifth of 16.
 
-Facts last verified 10 October 2026. Teaching is online; no Carlingford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Carlingford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python courses that reach real data and maths
 
@@ -195,7 +195,7 @@ Each session is live on video, so Carlingford learners join from home.
 - **Coding together** Learner and teacher work through the code in real time, screen shared.
 - **NSW school framing** Plans use the state's stages and years and respect its calendar.
 - **Free starter lesson** A full first class costs nothing and ends with a course and time suggested.
-- **Groups by ability** Five to ten learners at a similar level; one-to-one also available.
+- **Groups by ability** Fifteen to twenty learners at a similar level; one-to-one also available.
 - **Two slots weekly** About eight lessons a month at the same times, with breaks listed ahead.
 - **Teachers in India** A 7pm Carlingford lesson is 1:30pm India time in Sydney summer time and 2:30pm outside it.
 
@@ -206,7 +206,7 @@ Each session is live on video, so Carlingford learners join from home.
 The same flat rate for every course and every age.
 
 - First class: USD 0. Your first lesson is free and comes with a recommended course and timetable.
-- Group tuition: USD 100 a month. Group classes twice a week, close to eight a month, with five to ten learners at one level.
+- Group tuition: USD 100 a month. Group classes twice a week, close to eight a month, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. One-to-one lessons at the same frequency, about eight a month.
 
 Carlingford families are billed in US dollars, and only once the trial has led to an agreed course and time. Holidays, missed lessons and changing format are covered on the pricing page.
@@ -247,11 +247,11 @@ No. We teach only online and have no premises anywhere in Australia, including C
 
 ### How much do Carlingford lessons cost?
 
-The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.
+The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.
 
 ### How big are the groups?
 
-Five to ten learners, grouped by level and goals rather than age. If no group fits the learner's schedule, one-to-one lessons are offered instead.
+Fifteen to twenty learners, grouped by level and goals rather than age. If no group fits the learner's schedule, one-to-one lessons are offered instead.
 
 ## More for Carlingford learners
 

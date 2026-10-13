@@ -4,7 +4,7 @@ description: "Online AI, programming, Python and coding classes for Middlesbroug
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-middlesbrough
 source: src/pages/ai-and-programming-classes-in-middlesbrough.html
 ---
-> Middlesbrough borough had 143,926 residents in the 2021 census, and the ONS gives 148,215 for the Middlesbrough built-up area, which reaches past the borough edge. It is young: children under ten and adults aged 20 to 29 are above the England share, while people in their late forties and early fifties are fewer. Our tutors in India teach AI, programming, Python and maths over live video to anyone aged 6 to 67, privately or in groups of five to ten at the same stage. The first lesson is free and decides the course. The Middlesbrough project asks a computer to find Captain Cook's birthplace among a dozen places with the same name. Group lessons then cost USD 100 a month and private ones USD 150 a month.
+> Middlesbrough borough had 143,926 residents in the 2021 census, and the ONS gives 148,215 for the Middlesbrough built-up area, which reaches past the borough edge. It is young: children under ten and adults aged 20 to 29 are above the England share, while people in their late forties and early fifties are fewer. Our tutors in India teach AI, programming, Python and maths over live video to anyone aged 6 to 67, privately or in groups of fifteen to twenty at the same stage. The first lesson is free and decides the course. The Middlesbrough project asks a computer to find Captain Cook's birthplace among a dozen places with the same name. Group lessons then cost USD 100 a month and private ones USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North East England](/coding-and-ai-classes-in-north-east-england) / Middlesbrough
 
@@ -12,11 +12,11 @@ Middlesbrough, North Yorkshire, England / Live online
 
 # AI and programming classes in Middlesbrough
 
-**What are the best AI and programming classes in Middlesbrough?** Middlesbrough borough had 143,926 residents in the 2021 census, and the ONS gives 148,215 for the Middlesbrough built-up area, which reaches past the borough edge. It is young: children under ten and adults aged 20 to 29 are above the England share, while people in their late forties and early fifties are fewer. Our tutors in India teach AI, programming, Python and maths over live video to anyone aged 6 to 67, privately or in groups of five to ten at the same stage. The first lesson is free and decides the course. The Middlesbrough project asks a computer to find Captain Cook's birthplace among a dozen places with the same name. Group lessons then cost USD 100 a month and private ones USD 150 a month.
+**What are the best AI and programming classes in Middlesbrough?** Middlesbrough borough had 143,926 residents in the 2021 census, and the ONS gives 148,215 for the Middlesbrough built-up area, which reaches past the borough edge. It is young: children under ten and adults aged 20 to 29 are above the England share, while people in their late forties and early fifties are fewer. Our tutors in India teach AI, programming, Python and maths over live video to anyone aged 6 to 67, privately or in groups of fifteen to twenty at the same stage. The first lesson is free and decides the course. The Middlesbrough project asks a computer to find Captain Cook's birthplace among a dozen places with the same name. Group lessons then cost USD 100 a month and private ones USD 150 a month.
 
 Arthur Kitson's biography of Captain Cook records that the explorer was born on 27 October 1728 in a mud cottage, "called in the district a clay biggin", at Marton, and that his parents had earlier lived at Morton, in the parish of Ormsby, adding that "the similarity of the two names has caused some confusion". Today Marton is a suburban area of Middlesbrough. But type "Marton" into a gazetteer, a database of place names, and it returns 25 results, 12 of them named exactly Marton, from Shropshire to Cheshire to the East Riding. How would a program know which one the biography means? A Middlesbrough learner can solve it with the clues in the book itself, and discover why the Morton half of the story is even harder.
 
-Facts last verified 27 September 2026. Teaching is online; no Middlesbrough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Middlesbrough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Middlesbrough learners start with
 
@@ -139,7 +139,7 @@ Every neighbourhood in the borough joins by video.
 - **Typed by the student** Each program is the learner's own work; the tutor follows the shared screen and prompts with questions.
 - **The right entry point** Year 4 or Year 13, where a learner starts depends on school year and the trial, with their exam board named.
 - **Trial without charge** The opening lesson is free and ends with honest advice.
-- **Stage-matched groups** Five to ten learners from across the UK, all at one level.
+- **Stage-matched groups** Fifteen to twenty learners from across the UK, all at one level.
 - **Term-time pattern** Two lessons a week during term; holidays stay clear.
 - **Constant lesson time** UK clock changes shift our tutors, not your slot.
 

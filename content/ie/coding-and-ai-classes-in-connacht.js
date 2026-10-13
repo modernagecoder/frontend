@@ -53,7 +53,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Connacht',
   capsuleQ: 'What are the best coding and AI classes in Connacht?',
-  capsule: 'Connacht is the west: Galway, Mayo, Sligo, Roscommon and Leitrim, home to 582,891 usually resident people at the 2022 census and to Gaeltacht areas in Galway and Mayo. It has one city, Galway, and five counties we have written about separately, all linked below. Our lessons are the same here as anywhere: taught live over video twice a week at a set hour, in groups of five to ten at one level or one to one, for anybody from six to sixty-seven. Trying the first lesson costs nothing. A group place is then USD 100 a month, and USD 150 buys one to one.',
+  capsule: 'Connacht is the west: Galway, Mayo, Sligo, Roscommon and Leitrim, home to 582,891 usually resident people at the 2022 census and to Gaeltacht areas in Galway and Mayo. It has one city, Galway, and five counties we have written about separately, all linked below. Our lessons are the same here as anywhere: taught live over video twice a week at a set hour, in groups of fifteen to twenty at one level or one to one, for anybody from six to sixty-seven. Trying the first lesson costs nothing. A group place is then USD 100 a month, and USD 150 buys one to one.',
   lead: 'How many people in Connacht speak Irish? The census asks whether you can, and 244,788 people aged three and over said yes, about 43% of everyone that age in the province. It then asks the same people how often they actually speak it. Of those 244,788, 55,826 said never. Another 65,180 speak it every day, but only inside school or college. The number who speak Irish daily outside the education system is 16,966, under 7% of the headline. Every one of those figures is published, every one is accurate, and they describe very different realities. Which one you call the number of Irish speakers is a definition, not a fact, and choosing it silently is how two honest reports reach opposite conclusions.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Connacht.',
 
@@ -157,7 +157,7 @@ module.exports = {
     intro: 'From Clifden to Carrick-on-Shannon, the teaching works the same way.',
     cells: [
       { h3: 'A teacher, in real time', p: 'Lessons are taught live, with the learner answering, asking and trying things as they go.' },
-      { h3: 'Matched by ability', p: 'Five to ten learners at a single level, drawn from across Connacht and other countries.' },
+      { h3: 'Matched by ability', p: 'Fifteen to twenty learners at a single level, drawn from across Connacht and other countries.' },
       { h3: 'Regular and fixed', p: 'Usually two lessons a week, about eight a month, at a time agreed at the start.' },
       { h3: 'Irish school terms', p: 'Planned around Junior Cycle, Transition Year and the Leaving Certificate, including holidays and exams.' },
       { h3: 'Needs at home', p: 'A laptop or desktop, working sound and a video-capable connection, tested in the free lesson.' },
@@ -170,7 +170,7 @@ module.exports = {
     h2: 'Connacht fees',
     intro: 'One price list for all five counties.',
     first: 'An opening lesson, taught fully and free, that ends with a level and a recommendation.',
-    group: 'Group lessons for a month, about eight, with five to ten learners at one level.',
+    group: 'Group lessons for a month, about eight, with fifteen to twenty learners at one level.',
     private: 'One to one lessons for a month on the same weekly rhythm.',
     closer: 'Monthly billing is in US dollars, the single rate for families outside India, so Leitrim and Galway pay alike and there is no euro price to set against it. Nothing is charged before the free lesson agrees a course and a time; the pricing page covers pauses, missed lessons and switching format.'
   },
@@ -195,7 +195,7 @@ module.exports = {
       { q: 'When are lessons held?', a: 'After school, evenings and weekend mornings. Our teachers are in India, four and a half hours ahead of Ireland in summer and five and a half in winter; the slot is set in the free lesson.' },
       { q: 'Do you teach AI and data as well as coding?', a: 'Yes. Courses range from Scratch for young children to Python, data science and AI for teenagers and adults, and the free lesson is where the right one is chosen.' },
       { q: 'Is there a Modern Age Coders classroom in Connacht?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do Connacht coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do Connacht coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

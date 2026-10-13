@@ -262,7 +262,7 @@ module.exports = {
       { h3: 'Both ways round', p: '4 x 12 and 12 x 4 practised together as one fact.' },
       { h3: 'Six-second windows', p: 'Timed practice only once recall is secure, and never in a way that frightens a child.' },
       { h3: 'Understanding first', p: 'Arrays and derivations taught properly, so recall rests on meaning.' },
-      { h3: 'Small groups', p: 'Five to ten children at one stage, with games that keep it light.' }
+      { h3: 'Small groups', p: 'Fifteen to twenty children at one stage, with games that keep it light.' }
     ]
   },
 
@@ -274,7 +274,7 @@ module.exports = {
     h2: 'Fees for primary maths lessons',
     lede: 'One monthly fee in US dollars, the rate for every family outside India. The first lesson is free, and nothing is charged until a course and a weekly time are settled.',
     free: ['A gentle first lesson on the tables', 'A clear picture of which facts are secure', 'Only a phone number needed'],
-    group: ['Five to ten children at one stage', 'The same teacher each week', 'Short, mixed recall practice', 'Games that keep it light'],
+    group: ['Fifteen to twenty children at one stage', 'The same teacher each week', 'Short, mixed recall practice', 'Games that keep it light'],
     one: ['A teacher for one child', 'Practice built around the facts that stick', 'Suits a child who finds groups hard']
   },
 

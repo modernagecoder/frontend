@@ -16,7 +16,7 @@ Book a Free Generative AI DemoSee the Roadmap**LLMs**The latest GenAI**5–8**St
 
 ## Quick answer
 
-**Modern Age Coders' Generative AI course teaches you to build with Large Language Models and the latest GenAI tools.** You learn how LLMs work, prompt engineering, calling LLM APIs from Python, embeddings and retrieval-augmented generation (RAG), plus an introduction to fine-tuning and AI image generation. And you build real AI apps like chatbots and document assistants. Classes are live in small batches of 5–8 with a mentor, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
+**Modern Age Coders' Generative AI course teaches you to build with Large Language Models and the latest GenAI tools.** You learn how LLMs work, prompt engineering, calling LLM APIs from Python, embeddings and retrieval-augmented generation (RAG), plus an introduction to fine-tuning and AI image generation. And you build real AI apps like chatbots and document assistants. Classes are live in batches of 15–20 with a mentor, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
 
 Start Today
 
@@ -108,7 +108,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo.
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 learners per batch
+- 15–20 learners per batch
 - Live GenAI app building
 - Recorded class access
 - Completion certificate
@@ -119,7 +119,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 learners per batch
+- Up to 6 learners per batch
 - More personal mentoring
 - Recorded class access
 - Project guidance & certificate
@@ -183,7 +183,7 @@ Yes. [Prompt engineering](/prompt-engineering-course) is a core module, and you 
 
 How much does the generative AI course cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
 
 Are the generative AI classes live and hands-on?+
 

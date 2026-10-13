@@ -37,7 +37,7 @@ Published UK rates, read in October 2026 and converted to US dollars so this pag
 | GCSE maths tutor, for comparison | about $45 an hour | Tutorful, same guide |
 | Face-to-face tuition, all maths levels | about $55 an hour on average, and above $93 an hour in the most expensive areas | Tutorful, same guide, in-person rates |
 | University-level maths tutor, for comparison | about $70 an hour | Tutorful, same guide, degree level |
-| Modern Age Coders, live A level maths | $100 a month in a group of 5 to 10, or $150 a month one-to-one, eight one-hour lessons | Our own price, no enrolment fee |
+| Modern Age Coders, live A level maths | $100 a month in a group of 15 to 20, or $150 a month one-to-one, eight one-hour lessons | Our own price, no enrolment fee |
 
 Conversion: UK figures were converted at 1.3221 US dollars per pound, the Bank of England spot rate for 5 October 2026 (series XUDLUSS), and rounded to the nearest dollar. Tutorful does not publish a separate figure for Further Maths; our [Further Maths cost guide](/further-maths-tutor-cost-uk) covers that.
 
@@ -110,7 +110,7 @@ Choosing
 - learns from hearing other students' questions
 - wants the lowest monthly cost across two years
 
-Groups hold 5 to 10 students working at a similar level.
+Groups hold 15 to 20 students working at a similar level.
 
 ### One-to-one suits a student who
 
@@ -142,7 +142,7 @@ $150 / month
 $100 / month
 
 - 8 live group lessons a month (2 a week, 1 hour each)
-- 5 to 10 students at a similar level
+- 15 to 20 students at a similar level
 - The same course at a lower monthly price
 - No enrolment fee, stop at any month end
 

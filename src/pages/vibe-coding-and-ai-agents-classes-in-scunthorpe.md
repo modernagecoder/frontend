@@ -4,7 +4,7 @@ description: "Online vibe coding, AI agents and Python classes for Scunthorpe, A
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-scunthorpe
 source: src/pages/vibe-coding-and-ai-agents-classes-in-scunthorpe.html
 ---
-> Scunthorpe's built-up area held 81,265 people at the 2021 census, according to the ONS, in a North Lincolnshire of 169,680 that also takes in Brigg and Winterton; Ashby, Bottesford, Frodingham, Crosby and Yaddlethorpe are among Scunthorpe's recorded suburbs. Children from six, teenagers and adults up to 67 across the area learn vibe coding, AI agents, Python, coding and maths on camera with our tutors in India, either on their own or in a class of five to ten at one stage. Thinking skills come ahead of tools, so an agent's output is something the learner checks, not simply accepts. We give the first lesson free and finish it with a course recommendation. The Scunthorpe project looks at the moment an AI agent receives data from a tool, and at everything that can be wrong with it. Continuing lessons are USD 100 monthly in a class or USD 150 monthly one-to-one.
+> Scunthorpe's built-up area held 81,265 people at the 2021 census, according to the ONS, in a North Lincolnshire of 169,680 that also takes in Brigg and Winterton; Ashby, Bottesford, Frodingham, Crosby and Yaddlethorpe are among Scunthorpe's recorded suburbs. Children from six, teenagers and adults up to 67 across the area learn vibe coding, AI agents, Python, coding and maths on camera with our tutors in India, either on their own or in a class of fifteen to twenty at one stage. Thinking skills come ahead of tools, so an agent's output is something the learner checks, not simply accepts. We give the first lesson free and finish it with a course recommendation. The Scunthorpe project looks at the moment an AI agent receives data from a tool, and at everything that can be wrong with it. Continuing lessons are USD 100 monthly in a class or USD 150 monthly one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber) / Scunthorpe
 
@@ -12,11 +12,11 @@ Scunthorpe, North Lincolnshire, England / Live online
 
 # Vibe coding and AI agents classes in Scunthorpe
 
-**Where can Scunthorpe learners find the best vibe coding and AI agents classes?** Scunthorpe's built-up area held 81,265 people at the 2021 census, according to the ONS, in a North Lincolnshire of 169,680 that also takes in Brigg and Winterton; Ashby, Bottesford, Frodingham, Crosby and Yaddlethorpe are among Scunthorpe's recorded suburbs. Children from six, teenagers and adults up to 67 across the area learn vibe coding, AI agents, Python, coding and maths on camera with our tutors in India, either on their own or in a class of five to ten at one stage. Thinking skills come ahead of tools, so an agent's output is something the learner checks, not simply accepts. We give the first lesson free and finish it with a course recommendation. The Scunthorpe project looks at the moment an AI agent receives data from a tool, and at everything that can be wrong with it. Continuing lessons are USD 100 monthly in a class or USD 150 monthly one-to-one.
+**Where can Scunthorpe learners find the best vibe coding and AI agents classes?** Scunthorpe's built-up area held 81,265 people at the 2021 census, according to the ONS, in a North Lincolnshire of 169,680 that also takes in Brigg and Winterton; Ashby, Bottesford, Frodingham, Crosby and Yaddlethorpe are among Scunthorpe's recorded suburbs. Children from six, teenagers and adults up to 67 across the area learn vibe coding, AI agents, Python, coding and maths on camera with our tutors in India, either on their own or in a class of fifteen to twenty at one stage. Thinking skills come ahead of tools, so an agent's output is something the learner checks, not simply accepts. We give the first lesson free and finish it with a course recommendation. The Scunthorpe project looks at the moment an AI agent receives data from a tool, and at everything that can be wrong with it. Continuing lessons are USD 100 monthly in a class or USD 150 monthly one-to-one.
 
 AI agents are useful because they call tools: they look things up, fetch data and then act on what comes back. The weak point is that last step. This project plays the part of an agent asked about traffic around Scunthorpe. It calls the Department for Transport's public road traffic API, receives 1,844 records for North Lincolnshire going back to 2000, and then does what a careful agent must do before answering anything: checks every record against what it expected. Numbers arrive as text, almost a quarter of the road details are missing, and hundreds of totals do not quite add up. None of that is an error by the data provider. All of it would trip up an agent that trusted the data blindly.
 
-Facts last verified 29 September 2026. Teaching is online; no Scunthorpe branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Scunthorpe branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Scunthorpe courses in thinking, vibe coding and agents
 
@@ -135,7 +135,7 @@ A laptop or desktop and a broadband connection that can hold a video call are en
 - **Learners type the code** Students write, prompt and run each program; the tutor watches their shared screen and keeps asking why.
 - **Start at the right level** We watch what the learner can do in the trial and pick topic one from that; exam boards are written down.
 - **No fee for lesson one** Session one is free, and we end it by naming a course.
-- **Classes by stage** Each group has five to ten learners from around Britain at one level.
+- **Classes by stage** Each group has fifteen to twenty learners from around Britain at one level.
 - **Twice weekly** Lessons pause in school holidays.
 - **Fixed hours** Tutors adjust for UK clock changes so the lesson time stays put.
 

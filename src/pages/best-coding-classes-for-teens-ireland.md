@@ -4,7 +4,7 @@ description: "Best coding classes for teens in Ireland, from First Year to the L
 canonical: https://learn.modernagecoders.com/best-coding-classes-for-teens-ireland
 source: src/pages/best-coding-classes-for-teens-ireland.html
 ---
-> The best coding class for an Irish teenager turns constant use of technology into real understanding: writing and reading Python, building websites and apps, and training AI instead of only prompting it. Irish teens are online almost constantly and many already use AI tools, so the class has to teach judgement as well as syntax. Modern Age Coders teaches secondary students live online, from the Junior Cycle through Transition Year to the Leaving Cert, in groups of five to ten at one level or one to one, with the same teacher across the year. The first class costs nothing; continuing is USD 100 a month in a group or USD 150 a month one to one.
+> The best coding class for an Irish teenager turns constant use of technology into real understanding: writing and reading Python, building websites and apps, and training AI instead of only prompting it. Irish teens are online almost constantly and many already use AI tools, so the class has to teach judgement as well as syntax. Modern Age Coders teaches secondary students live online, from the Junior Cycle through Transition Year to the Leaving Cert, in groups of fifteen to twenty at one level or one to one, with the same teacher across the year. The first class costs nothing; continuing is USD 100 a month in a group or USD 150 a month one to one.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / Coding for teens, Ireland
 
@@ -181,7 +181,7 @@ Classes are live with a teacher in India, at a regular hour fixed in Irish time.
 - **Sunday** For students with weekday sport or work.
 
 - **A first class on the house** The student writes some real code with a teacher, who then suggests a level, a course and a regular slot.
-- **Groups of five to ten** Teenagers at the same level from Ireland and other countries, reviewing each other's code.
+- **Groups of fifteen to twenty** Teenagers at the same level from Ireland and other countries, reviewing each other's code.
 - **One to one** For exam years, fast movers, or anyone who prefers a teacher to themselves.
 - **AI with a record** AI tools come in after the basics, and the student notes what each tool contributed.
 - **School terms respected** Junior Cycle, TY and Leaving Cert are used as Irish schools use them, and exam weeks are planned around.

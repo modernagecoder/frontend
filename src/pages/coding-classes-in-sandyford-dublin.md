@@ -16,7 +16,7 @@ Sandyford, Dublin 18 / Live online
 
 The Luas Green Line runs through Sandyford, where it keeps a depot, and the statistics office publishes how many journeys each Luas line carries. Ask which line grew more by 2025 and the answer depends entirely on the year you start counting from. Start in 2018 and the Green Line grew by 37.2 percent against the Red Line's 26.8. Start in 2019 and the Red Line comes out ahead, 15.2 percent against 12.9. Start in any other year from 2018 to 2024 and the Green Line leads again. Nothing about the passengers changed between those sentences, only the choice of base year. This page teaches a learner to try every base, report the spread, and say why one was chosen.
 
-Facts last verified 20 September 2026. Teaching is online; no Sandyford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Sandyford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four ways to start in Sandyford
 
@@ -153,7 +153,7 @@ Calculating a percentage change is simple. Deciding which change to calculate is
 The working details.
 
 - **Real-time teaching** A teacher runs the whole lesson live and checks each learner's code while they write it.
-- **Stage-matched** Five to ten learners at the same stage, whether they are in Dublin 18, another part of Ireland or overseas.
+- **Stage-matched** Fifteen to twenty learners at the same stage, whether they are in Dublin 18, another part of Ireland or overseas.
 - **Fixed weekly slots** About eight lessons a month on two days each week, agreed when the course begins.
 - **Holidays included** School holidays, mid-terms and exam weeks are built into the course plan.
 - **Equipment list** A laptop or desktop, a microphone with headphones or speakers, and a connection able to carry video.
@@ -166,7 +166,7 @@ The working details.
 Every charge, listed.
 
 - First class: USD 0. A first lesson with a level check, at no cost.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one stage, around eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one stage, around eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons, same weekly pattern.
 
 All families outside India pay one monthly US dollar fee. The free lesson carries no commitment, payments start with the course and not before, and the pricing page explains how holidays, missed lessons and changes between group and private lessons are handled.
@@ -203,7 +203,7 @@ Not necessarily. Classes are formed by level, so classmates might be from Dublin
 
 ### What do coding classes in Sandyford cost?
 
-The first lesson is free. A group place is then USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Nothing is paid until the plan is agreed.
+The first lesson is free. A group place is then USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Nothing is paid until the plan is agreed.
 
 ### How many learners share a class?
 

@@ -16,7 +16,7 @@ Castletroy, Limerick / Live online
 
 About a kilometre from Castletroy College, the Office of Public Works runs a monitoring station at Annacotty that reports not just the river's level but six measures of the water itself, among them turbidity, conductivity, salinity, oxygen and pH. Before analysing any of them, a careful learner compares the columns with each other. In the 35 days to 19 September 2026, two of them match at every single reading: the column labelled salinity holds exactly the same number as the column labelled pH, 837 times out of 837. Two independent instruments never agree to the last decimal place every hour for five weeks. This page shows how to find a problem like that in a few lines of code, before it quietly spoils an analysis.
 
-Facts last verified 20 September 2026. Teaching is online; no Castletroy branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Castletroy branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Castletroy learners start with
 
@@ -147,7 +147,7 @@ Summarising a column is quick. Noticing that two columns are secretly the same i
 The specifics.
 
 - **Teacher-led, live** Each lesson is run live by a teacher who follows every learner's screen and code as they work.
-- **Same level, same group** Five to ten learners at one level, from Castletroy, the rest of Ireland or abroad.
+- **Same level, same group** Fifteen to twenty learners at one level, from Castletroy, the rest of Ireland or abroad.
 - **Weekly pair** About eight lessons a month, on the same two weekly times set at the start.
 - **School rhythm** The plan allows for holidays, mid-terms and exam weeks from day one.
 - **Your equipment** A laptop or desktop, a microphone and speakers or headphones, and a connection that handles video.
@@ -160,7 +160,7 @@ The specifics.
 All in one place.
 
 - First class: USD 0. A first lesson, with a level check, free of charge.
-- Group tuition: USD 100 a month. A month in a same-level group of five to ten, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a same-level group of fifteen to twenty, about eight live lessons.
 - Private tuition: USD 150 a month. A month of private lessons on the same schedule.
 
 Every family outside India pays the same monthly US dollar fee. The free lesson commits no one, charges start with the course, and the pricing page covers holidays, missed lessons and moving between group and private teaching.
@@ -197,11 +197,11 @@ Not necessarily. Groups depend on level, so classmates may be in Limerick, elsew
 
 ### What do coding classes in Castletroy cost?
 
-The first lesson is free. A group place is then USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before anything is paid.
+The first lesson is free. A group place is then USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, grouped by level, pace and aims rather than age or address. If no group fits a workable hour, lessons are one to one.
+Fifteen to twenty learners, grouped by level, pace and aims rather than age or address. If no group fits a workable hour, lessons are one to one.
 
 ## Around Castletroy and the Shannon
 

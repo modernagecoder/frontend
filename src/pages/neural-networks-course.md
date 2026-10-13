@@ -16,7 +16,7 @@ Book a Free DemoSee the Roadmap**layers**Built from neurons**5–8**Students per
 
 ## Quick answer
 
-**Modern Age Coders' Neural Networks Course teaches how neural networks work and has you build one yourself.** You'll understand neurons, weights, activation functions, layers and forward propagation, then how networks learn through backpropagation and gradient descent, and you'll build, train and evaluate your own network in Python. Classes are live in small batches of 5–8 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.
+**Modern Age Coders' Neural Networks Course teaches how neural networks work and has you build one yourself.** You'll understand neurons, weights, activation functions, layers and forward propagation, then how networks learn through backpropagation and gradient descent, and you'll build, train and evaluate your own network in Python. Classes are live in batches of 15–20 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.
 
 Start Today
 
@@ -108,7 +108,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo.
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 learners per batch
+- 15–20 learners per batch
 - Live network-building
 - Recorded class access
 - Completion certificate
@@ -119,7 +119,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 learners per batch
+- Up to 6 learners per batch
 - More personal mentoring
 - Recorded class access
 - Project guidance & certificate
@@ -183,11 +183,11 @@ Yes. Every topic is hands-on in Python/Colab and you build real, mentor-reviewed
 
 How much does the course cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
 
 Are the classes live and mentor-led?+
 
-Yes. Classes are live in small batches of 5–8 with a mentor who reviews your work, and every session is recorded so you can revise anytime. It's real-time teaching, not pre-recorded videos.
+Yes. Classes are live in batches of 15–20 with a mentor who reviews your work, and every session is recorded so you can revise anytime. It's real-time teaching, not pre-recorded videos.
 
 ---
 

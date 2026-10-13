@@ -156,7 +156,7 @@ module.exports = {
       { h3: 'Whose hands are on the keys', p: 'The learner\'s, always. Tutors watch the shared screen and ask for a prediction before each run.' },
       { h3: 'What the trial is for', p: 'Finding the right first topic, and noting an exam board when one applies.' },
       { h3: 'What the trial costs', p: 'Nothing. It ends with our suggestion of a course.' },
-      { h3: 'Who is in a group', p: 'Five to ten learners at one level, from anywhere in the UK.' },
+      { h3: 'Who is in a group', p: 'Fifteen to twenty learners at one level, from anywhere in the UK.' },
       { h3: 'How often', p: 'Twice a week in term.' },
       { h3: 'When the clocks change', p: 'Our tutors shift; your lesson hour in Sheffield does not.' }
     ],

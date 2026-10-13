@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Coding classes in Leixlip',
   capsuleQ: 'What is the best coding class in Leixlip?',
-  capsule: 'Leixlip, in County Kildare, has 16,587 usual residents, 5,715 households and two railway stations of its own. Of the 7,823 residents in work, 3,357 travel into Dublin city and its suburbs, and 3,328 work from home at least some of the time. For a Leixlip learner, Modern Age Coders means a live teacher on video, twice in a typical week, in a small group of five to ten at the same level or on a one to one basis, for anyone from six to sixty-seven. The first lesson is free. From then on the fee is USD 100 a month for a group place and USD 150 for private teaching.',
+  capsule: 'Leixlip, in County Kildare, has 16,587 usual residents, 5,715 households and two railway stations of its own. Of the 7,823 residents in work, 3,357 travel into Dublin city and its suburbs, and 3,328 work from home at least some of the time. For a Leixlip learner, Modern Age Coders means a live teacher on video, twice in a typical week, in a group of fifteen to twenty at the same level or on a one to one basis, for anyone from six to sixty-seven. The first lesson is free. From then on the fee is USD 100 a month for a group place and USD 150 for private teaching.',
   lead: 'Look up what the people of Leixlip work at and the census will tell you: commerce and trade, professional services, then manufacturing, 930 residents. It is tempting to read that as a picture of the town\'s employers. It is not. The census counts people where they live. A separate census table follows workers from their town to the city they work in, and it shows 3,357 Leixlip residents working in Dublin city and suburbs, about 43% of the town\'s working residents. Another 1,111 work mainly from home. So Leixlip\'s job figures describe what Leixlip people do, wherever they do it. The jobs inside the town are a different question entirely, and this table cannot answer it. Mixing the two up is how a commuter town gets mistaken for an industrial one, or the reverse.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Leixlip.',
 
@@ -181,7 +181,7 @@ module.exports = {
     intro: 'The practical arrangements, stated plainly.',
     cells: [
       { h3: 'Taught live', p: 'A teacher leads every lesson in real time, and the learner speaks, asks and tries things during it.' },
-      { h3: 'By level', p: 'Groups of five to ten learners at one ability level, drawn from Leixlip, elsewhere in Ireland and other countries.' },
+      { h3: 'By level', p: 'Groups of fifteen to twenty learners at one ability level, drawn from Leixlip, elsewhere in Ireland and other countries.' },
       { h3: 'A set weekly pattern', p: 'Usually two lessons a week, about eight a month, at a time chosen at the start.' },
       { h3: 'School calendar in mind', p: 'Mid-terms, holidays and exam weeks are planned around rather than discovered late.' },
       { h3: 'What is needed', p: 'A computer, sound that works and a video-capable connection, all confirmed in the free lesson.' },
@@ -194,7 +194,7 @@ module.exports = {
     h2: 'Leixlip class fees',
     intro: 'Three prices, stated once.',
     first: 'A full first lesson at no cost, ending with a level and a recommended course.',
-    group: 'A month in a group of five to ten at one level, about eight lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, about eight lessons.',
     private: 'A month of one to one teaching on the same weekly schedule.',
     closer: 'Fees are charged monthly in US dollars, the single rate for families outside India, identical in Leixlip and everywhere else in Ireland, with no euro price list. Nothing is paid before the free lesson has agreed a course and an hour, and pauses, missed lessons and switching between group and private are covered on the pricing page.'
   },
@@ -219,7 +219,7 @@ module.exports = {
       { q: 'Do you teach adults as well as children?', a: 'Yes. Learners run from six to sixty-seven, and adults are placed by level and goal in the free lesson, in a group or privately.' },
       { q: 'Does a learner need any experience?', a: 'No. The free lesson finds the real starting point, and the course begins there.' },
       { q: 'Is there a Modern Age Coders classroom in Leixlip?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Leixlip cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Leixlip cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

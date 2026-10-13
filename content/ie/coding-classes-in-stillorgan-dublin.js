@@ -164,7 +164,7 @@ module.exports = {
     intro: 'The essentials.',
     cells: [
       { h3: 'In real time', p: 'No recorded video stands in for the teacher: every lesson happens live, with help on each learner\'s own code.' },
-      { h3: 'Matched by stage', p: 'Five to ten learners at the same stage, whether they join from Stillorgan, another county or another country.' },
+      { h3: 'Matched by stage', p: 'Fifteen to twenty learners at the same stage, whether they join from Stillorgan, another county or another country.' },
       { h3: 'Fixed days', p: 'Two set days a week, which comes to about eight lessons in a month.' },
       { h3: 'Term-aware', p: 'The plan leaves room for school holidays, mid-terms and exams.' },
       { h3: 'Equipment', p: 'A laptop or desktop computer, a microphone, something to listen through, and broadband that copes with a video call.' },
@@ -177,7 +177,7 @@ module.exports = {
     h2: 'Fees for Stillorgan',
     intro: 'Briefly.',
     first: 'The first lesson, level check included, costs nothing.',
-    group: 'One month in a same-level group of five to ten: roughly eight live lessons.',
+    group: 'One month in a same-level group of fifteen to twenty: roughly eight live lessons.',
     private: 'One month of one-to-one teaching on the same pattern.',
     closer: 'Outside India every family pays the same fee in US dollars, a month at a time. The opening lesson carries no obligation and billing starts only when the course does; the pricing page explains holidays, missed lessons and moving between group and private lessons.'
   },
@@ -201,8 +201,8 @@ module.exports = {
       { q: 'What times are the lessons?', a: 'After school on weekdays and through the evening, plus daytime at weekends. Times are quoted in Irish time. India, where the teachers are based, sits five and a half hours ahead of Stillorgan from the end of October to the end of March and four and a half hours ahead for the rest of the year, and the timetable only uses hours that suit both.' },
       { q: 'Can an adult sign up?', a: 'Yes. Anyone up to sixty-seven is welcome, including complete beginners, and after the free lesson they choose between a same-level group and one-to-one lessons.' },
       { q: 'Will my child be with other children from Stillorgan?', a: 'Only by chance. Groups are formed by level, so classmates may live anywhere in Ireland or further away.' },
-      { q: 'What do coding classes in Stillorgan cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, in a group of five to ten learners, and one-to-one teaching on the same schedule is USD 150 a month. Terms are agreed before anything is paid.', boiler: true },
-      { q: 'How large are the groups?', a: 'Five to ten learners, matched by level, pace and goals rather than by age or postcode. If no group fits a workable time, the lessons are one to one.', boiler: true }
+      { q: 'What do coding classes in Stillorgan cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, in a group of fifteen to twenty learners, and one-to-one teaching on the same schedule is USD 150 a month. Terms are agreed before anything is paid.', boiler: true },
+      { q: 'How large are the groups?', a: 'Fifteen to twenty learners, matched by level, pace and goals rather than by age or postcode. If no group fits a workable time, the lessons are one to one.', boiler: true }
     ]
   },
 

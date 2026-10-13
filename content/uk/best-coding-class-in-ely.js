@@ -64,7 +64,7 @@ module.exports = {
 
   h1: 'Coding classes in Ely',
   capsuleQ: 'What are the best coding classes in Ely?',
-  capsule: 'East Cambridgeshire, the district around Ely, had 87,762 usual residents at the 2021 census, living at 134.8 people per square kilometre against 433.5 across England. Ely Cathedral says Ely was an island until about 400 years ago, when work began to drain the surrounding Fens. Ely learners aged six to sixty-seven can study with our teachers in India in live video lessons, alone or in a group of five to ten at a similar level, at times that fit the British school and working week. The first lesson is free; after it, a group place costs USD 100 a month and one-to-one lessons USD 150.',
+  capsule: 'East Cambridgeshire, the district around Ely, had 87,762 usual residents at the 2021 census, living at 134.8 people per square kilometre against 433.5 across England. Ely Cathedral says Ely was an island until about 400 years ago, when work began to drain the surrounding Fens. Ely learners aged six to sixty-seven can study with our teachers in India in live video lessons, alone or in a group of fifteen to twenty at a similar level, at times that fit the British school and working week. The first lesson is free; after it, a group place costs USD 100 a month and one-to-one lessons USD 150.',
   lead: 'Ely Cathedral says the city stood on an island until the Fens were drained. Our teenagers put that to the test on today\'s map. They take Ordnance Survey heights for a 50 kilometre square around Ely, raise an imaginary water level a quarter of a metre at a time, and ask whether Ely\'s dry land still connects to the edge of the square. At 1.5 metres above sea level it no longer does: Ely becomes an island of 104.5 square kilometres. Then they meet percolation theory. Shuffle the same heights at random and dry land stops crossing the square when 59.6% of it is dry, just as the theory predicts. The real Fens keep a connected path until only 40.8% is dry.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Ely, please.',
 
@@ -189,7 +189,7 @@ module.exports = {
       { h3: 'Villages in one class', p: 'A learner in Little Downham and another in Isleham can share a lesson, with no journey across the fen roads.' },
       { h3: 'English school stages', p: 'We follow the stages used in Cambridgeshire schools, Reception and Key Stages 1 to 4 through GCSE and A level, and teach in English.' },
       { h3: 'A lesson that teaches', p: 'The free session covers a real task and ends with a suggested level, course and weekly time. There is no card to enter.' },
-      { h3: 'Groups by level', p: 'Five to ten learners at one stage, from Ely, the rest of the UK and abroad, so every level has workable lesson times.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at one stage, from Ely, the rest of the UK and abroad, so every level has workable lesson times.' },
       { h3: 'Two lessons a week', p: 'Two fixed lessons weekly, around eight a month, with half terms and exams planned with the teacher ahead of time.' },
       { h3: 'Evenings across time zones', p: 'A 5.30 pm lesson in Ely begins at 10 pm in India during British Summer Time and 11 pm in winter, because India does not change its clocks; our teachers keep evening hours for UK learners.' }
     ],
@@ -200,7 +200,7 @@ module.exports = {
     h2: 'Ely lesson fees',
     intro: 'The first lesson is free, then there is one monthly fee.',
     first: 'A whole lesson with no charge, ending with our suggestion for level, course and weekly time.',
-    group: 'Around eight live lessons a month, in a class of five to ten learners at the same stage.',
+    group: 'Around eight live lessons a month, in a class of fifteen to twenty learners at the same stage.',
     private: 'Around eight live lessons a month, with the teacher focused entirely on your learner.',
     closer: 'Families in Burwell or Stretham pay in US dollars, the same as every family outside India, and our site shows no pound prices anywhere. Nothing is billed before the free lesson, and charges begin only once a course and weekly slot are agreed; the pricing page explains pauses, missed lessons and switching between group and private teaching.'
   },
@@ -225,8 +225,8 @@ module.exports = {
       { q: 'Was Ely really an island?', a: 'Ely Cathedral says Ely was an island until about 400 years ago, when work began to drain the Fens, and Ely Museum describes the city as built on an island of solid land surrounded by marshes. We are not connected with either.' },
       { q: 'What time are Ely lessons?', a: 'After school, in the evening or at the weekend, at a UK time we fix together during the free lesson. India runs four and a half hours ahead of Ely in summer and five and a half in winter.' },
       { q: 'Is there a centre in Ely?', a: 'No. We have no Ely centre and no premises anywhere in the UK; all lessons are live online. Learners need a computer with sound and a reliable connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much are lessons for an Ely learner?', a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How is each group put together?', a: 'By level, pace and aims rather than age or address, with five to ten learners at one stage. If no group suits the learner\'s timetable, one-to-one lessons are available.', boiler: true }
+      { q: 'How much are lessons for an Ely learner?', a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How is each group put together?', a: 'By level, pace and aims rather than age or address, with fifteen to twenty learners at one stage. If no group suits the learner\'s timetable, one-to-one lessons are available.', boiler: true }
     ]
   },
 

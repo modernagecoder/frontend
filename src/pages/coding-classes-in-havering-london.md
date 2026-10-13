@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Havering: Rom
 canonical: https://learn.modernagecoders.com/coding-classes-in-havering-london
 source: src/pages/coding-classes-in-havering-london.html
 ---
-> Havering is the east London borough of Romford, Hornchurch, Upminster, Rainham, Harold Wood, Elm Park and Gidea Park, with 262,052 residents at the 2021 Census and a timber smock mill still standing at Upminster. Good coding classes show a learner that an average can hide what matters most, and this page does exactly that with the wind: ten years of hourly wind speeds near the windmill, a Weibull curve fitted to them, and the discovery that the windiest tenth of hours carries over forty per cent of the energy. We teach over live video, with teachers based in India, for people aged 6 to 67, privately or in a class of five to ten who share a level. The first lesson is free; after it, class places are USD 100 a month and private lessons USD 150 a month.
+> Havering is the east London borough of Romford, Hornchurch, Upminster, Rainham, Harold Wood, Elm Park and Gidea Park, with 262,052 residents at the 2021 Census and a timber smock mill still standing at Upminster. Good coding classes show a learner that an average can hide what matters most, and this page does exactly that with the wind: ten years of hourly wind speeds near the windmill, a Weibull curve fitted to them, and the discovery that the windiest tenth of hours carries over forty per cent of the energy. We teach over live video, with teachers based in India, for people aged 6 to 67, privately or in a class of fifteen to twenty who share a level. The first lesson is free; after it, class places are USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Havering
 
@@ -12,11 +12,11 @@ London Borough of Havering / Live online
 
 # Coding classes in Havering
 
-**What are the best coding classes in Havering?** Havering is the east London borough of Romford, Hornchurch, Upminster, Rainham, Harold Wood, Elm Park and Gidea Park, with 262,052 residents at the 2021 Census and a timber smock mill still standing at Upminster. Good coding classes show a learner that an average can hide what matters most, and this page does exactly that with the wind: ten years of hourly wind speeds near the windmill, a Weibull curve fitted to them, and the discovery that the windiest tenth of hours carries over forty per cent of the energy. We teach over live video, with teachers based in India, for people aged 6 to 67, privately or in a class of five to ten who share a level. The first lesson is free; after it, class places are USD 100 a month and private lessons USD 150 a month.
+**What are the best coding classes in Havering?** Havering is the east London borough of Romford, Hornchurch, Upminster, Rainham, Harold Wood, Elm Park and Gidea Park, with 262,052 residents at the 2021 Census and a timber smock mill still standing at Upminster. Good coding classes show a learner that an average can hide what matters most, and this page does exactly that with the wind: ten years of hourly wind speeds near the windmill, a Weibull curve fitted to them, and the discovery that the windiest tenth of hours carries over forty per cent of the energy. We teach over live video, with teachers based in India, for people aged 6 to 67, privately or in a class of fifteen to twenty who share a level. The first lesson is free; after it, class places are USD 100 a month and private lessons USD 150 a month.
 
 Upminster Windmill, listed at Grade II*, is described by Historic England as a tall octagonal smock mill, timber-framed on a brick base. A mill like that depends entirely on the wind, and the wind is far more uneven than it feels. Our learners take ten years of hourly wind speeds, 87,672 of them, from the ERA5 reanalysis for the grid square around Upminster. The average at 100 metres is 6.8 metres per second. Work out the power from that average and you get about 190 watts for every square metre facing the wind. Work it out hour by hour and average the power instead, and you get about 320. The difference comes from one fact of physics, that wind power grows with the cube of speed, and a skewed curve named after Waloddi Weibull describes it.
 
-Facts last verified 25 September 2026. Teaching is online; no Havering branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Havering branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four first steps from Havering
 
@@ -140,7 +140,7 @@ Learners at the northern and southern ends of the borough can be in the same les
 
 ### Steady, not gusty
 
-Our timetable, unlike the wind, is regular: two evenings a week, same group of five to ten learners at one stage.
+Our timetable, unlike the wind, is regular: two evenings a week, same group of fifteen to twenty learners at one stage.
 
 **Havering and the London boroughs** Havering is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) links all of them and the City as their pages are published, including [Redbridge](/coding-classes-in-redbridge-london) to the west.
 
@@ -170,7 +170,7 @@ Across Havering, class is as close as the nearest charged laptop.
 - **No journey** Classes happen at home; a computer, a headset and a broadband line that can carry video are the only requirements.
 - **School stages in England** We track progress by English Key Stages, 1 through 4 and then sixth form, bringing in GCSE and A level where the learner is heading that way. Everything is taught in English.
 - **Nothing to pay first** The first lesson is free and genuinely teaches something; at the end the teacher suggests a level and a course. Card details are never requested for it.
-- **Level, not location** We build each class of five to ten from learners at the same stage anywhere in the UK and beyond, which is what makes a sensible hour possible.
+- **Level, not location** We build each class of fifteen to twenty from learners at the same stage anywhere in the UK and beyond, which is what makes a sensible hour possible.
 - **Two evenings a week** The usual pattern is two lessons a week in the evening, paused for school holidays and exam periods when agreed.
 - **London hours** Teachers are in India, yet the times on every invitation are the times on a Havering clock.
 
@@ -181,7 +181,7 @@ Across Havering, class is as close as the nearest charged laptop.
 One free lesson, then one monthly fee, whether you live in Rainham or Harold Wood.
 
 - First class: USD 0. A full first lesson with a teacher, free, ending in a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. Close to eight live lessons each month in a class of five to ten at one stage.
+- Group tuition: USD 100 a month. Close to eight live lessons each month in a class of fifteen to twenty at one stage.
 - Private tuition: USD 150 a month. Close to eight live lessons each month, just learner and teacher.
 
 Havering families are charged in US dollars, like everyone outside India, and the site shows no sterling prices. No payment is taken before the free lesson, or before you settle on a course and a regular time. Pausing, missed lessons and moving between class and one-to-one are covered on the pricing page.
@@ -222,11 +222,11 @@ No. There is no Havering centre and no premises anywhere in the UK, because ever
 
 ### What do coding classes in Havering cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## Westward across London, and the UK
 

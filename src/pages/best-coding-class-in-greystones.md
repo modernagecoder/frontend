@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes for Greystones learners 
 canonical: https://learn.modernagecoders.com/best-coding-class-in-greystones
 source: src/pages/best-coding-class-in-greystones.html
 ---
-> Census 2022 puts 21,701 usual residents in this built-up area, which it publishes under the joined name Greystones-Delgany, spread across 7,634 households, 6,826 of them on broadband. Teaching reaches them at home, twice in most weeks, with a live teacher and either a small ability group of five to ten or a single learner, anywhere from age six to age sixty-seven. There is no charge for the opening lesson. From then on a shared place runs at USD 100 monthly and private tuition at USD 150.
+> Census 2022 puts 21,701 usual residents in this built-up area, which it publishes under the joined name Greystones-Delgany, spread across 7,634 households, 6,826 of them on broadband. Teaching reaches them at home, twice in most weeks, with a live teacher and either a small ability group of fifteen to twenty or a single learner, anywhere from age six to age sixty-seven. There is no charge for the opening lesson. From then on a shared place runs at USD 100 monthly and private tuition at USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Wicklow](/coding-classes-in-county-wicklow) / Greystones
 
@@ -12,11 +12,11 @@ Greystones and Delgany, County Wicklow / Live online
 
 # Coding classes in Greystones
 
-**What is the best coding class in Greystones?** Census 2022 puts 21,701 usual residents in this built-up area, which it publishes under the joined name Greystones-Delgany, spread across 7,634 households, 6,826 of them on broadband. Teaching reaches them at home, twice in most weeks, with a live teacher and either a small ability group of five to ten or a single learner, anywhere from age six to age sixty-seven. There is no charge for the opening lesson. From then on a shared place runs at USD 100 monthly and private tuition at USD 150.
+**What is the best coding class in Greystones?** Census 2022 puts 21,701 usual residents in this built-up area, which it publishes under the joined name Greystones-Delgany, spread across 7,634 households, 6,826 of them on broadband. Teaching reaches them at home, twice in most weeks, with a live teacher and either a small ability group of fifteen to twenty or a single learner, anywhere from age six to age sixty-seven. There is no charge for the opening lesson. From then on a shared place runs at USD 100 monthly and private tuition at USD 150.
 
 One census table counts the people of Greystones twice, and the two counts disagree on purpose. Asked where residents were born, it records 17,313 in Ireland and 1,553 in the United Kingdom. Asked which country they are citizens of, the same 21,701 residents produce 18,813 Irish and 543 British. Neither figure corrects the other. Birthplace is a fact about one day in the past; citizenship is a legal status that can change and can be held more than once, and the census asks about them separately because they are separate. Mix them up and a sentence about the town becomes wrong by about fifteen hundred people. This page is about keeping them apart.
 
-Facts last verified 18 September 2026. Teaching is online; no Greystones branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 18 September 2026. Teaching is online; no Greystones branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Sensible starting points in Greystones
 
@@ -184,7 +184,7 @@ Six lines, no small print.
 Three lines and nothing else.
 
 - First class: USD 0. A complete first lesson, taught and assessed, at no cost.
-- Group tuition: USD 100 a month. One month in an ability group of five to ten, about eight live lessons.
+- Group tuition: USD 100 a month. One month in an ability group of fifteen to twenty, about eight live lessons.
 - Private tuition: USD 150 a month. One month of one to one lessons, same weekly pattern.
 
 Charges are monthly and in US dollars, on the single rate used for every family outside India, so a Greystones household sees the same figure as one in Athlone and no euro list beside it. Invoicing starts only after a course and a weekly hour have both been settled in the opening lesson, and the pricing page covers what happens with breaks, a missed week, or a move between a group and private tuition.
@@ -225,7 +225,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Greystones cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

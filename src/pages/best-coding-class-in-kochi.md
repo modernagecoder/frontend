@@ -12,7 +12,7 @@ Live online · serving Kochi
 
 Real programming for kids, teens and college students in Kochi, from **Kakkanad to Edapally, Vyttila to Marine Drive**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Kochi)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**KochiEnrollingAreasKakkanad, Edapally, Vyttila, Marine Drive, Fort Kochi & all of KochiBoardsKerala SCERT · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across KochiFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Kochi)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**KochiEnrollingAreasKakkanad, Edapally, Vyttila, Marine Drive, Fort Kochi & all of KochiBoardsKerala SCERT · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across KochiFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -157,7 +157,7 @@ Master algebra, geometry, trigonometry, pre-calculus, and calculus for grades 9-
 Master advanced problem-solving techniques and prepare for IMO, PRMO, RMO, and other mathematical competitions. For Kochi's brightest young mathematicians.
 
 - 2 Live Classes/Week
-- Small Batch (5-8 Students)
+- Batch (15-20 Students)
 - Recorded Sessions
 - Completion Certificate
 
@@ -175,7 +175,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -197,7 +197,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -206,7 +206,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -215,7 +215,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -290,7 +290,7 @@ Takes under a minute.
 
 ## Coding classes in Kochi: FAQs
 
-What is the best coding class in Kochi for kids?Modern Age Coders offers the best coding classes in Kochi for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Kochi areas including Kakkanad, Edapally, Vyttila, MG Road, and Ernakulam.Do you offer online coding classes in Kochi?Yes, we offer live online coding classes for students across Kochi including Kakkanad, Edapally, Vyttila, MG Road, Ernakulam, Palarivattom, and all other areas. Our online classes are interactive with small batch sizes of 5-8 students.What programming languages do you teach in Kochi?We teach Scratch (for kids 8-12), Python, Java, HTML/CSS, JavaScript, React, and AI/ML concepts. Our curriculum is designed specifically for kids and teens in Kochi with age-appropriate content aligned with the tech industry standards of India's First Smart City.How much do coding classes cost in Kochi?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (3-4 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.What age is best to start coding in Kochi?We recommend starting coding at age 8 with visual block-based programming like Scratch. For text-based programming like Python and Java, age 12-13 is ideal. Our courses are designed for kids (6-12) and teens (13-18).Do you provide certificates after completing coding courses?Yes, every student receives a completion certificate after finishing their coding course. These certificates are valuable for school portfolios, college applications, and demonstrating coding skills to Kochi's tech companies.What areas in Kochi do you serve?We serve all areas of Kochi through our online classes including Kakkanad, Edapally, Vyttila, MG Road, Ernakulam, Palarivattom, Thripunithura, Aluva, Thrikkakkara, Kaloor, Panampilly Nagar, North Paravur, Angamaly, Cheranalloor, and more.How are your coding classes different from other institutes in Kochi?We focus on project-based learning where students build real games, websites, and apps. Our small batch sizes (5-8 students), recorded sessions, expert instructors with industry experience from Kochi's tech ecosystem, and affordable pricing set us apart from other coding institutes in Kochi.Do you teach coding to Kerala state board students in Kochi?Yes. Kerala splits its state board in two: Pareeksha Bhavan runs the SSLC for Class 10, and the Directorate of Higher Secondary Education runs Plus One and Plus Two separately, and CBSE and ICSE schools operate here as well. Our classes are built to work beside any of them.Can CUSAT or Model Engineering College students join your programming courses?Yes. Infopark is on the doorstep with 580-odd companies in it, which is exactly why a portfolio matters more here than a transcript. The college track is project work: Python, Java, full-stack or AI/ML, carried through to something you can deploy and link to.
+What is the best coding class in Kochi for kids?Modern Age Coders offers the best coding classes in Kochi for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Kochi areas including Kakkanad, Edapally, Vyttila, MG Road, and Ernakulam.Do you offer online coding classes in Kochi?Yes, we offer live online coding classes for students across Kochi including Kakkanad, Edapally, Vyttila, MG Road, Ernakulam, Palarivattom, and all other areas. Our online classes are interactive with batch sizes of 15-20 students.What programming languages do you teach in Kochi?We teach Scratch (for kids 8-12), Python, Java, HTML/CSS, JavaScript, React, and AI/ML concepts. Our curriculum is designed specifically for kids and teens in Kochi with age-appropriate content aligned with the tech industry standards of India's First Smart City.How much do coding classes cost in Kochi?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (up to 6 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.What age is best to start coding in Kochi?We recommend starting coding at age 8 with visual block-based programming like Scratch. For text-based programming like Python and Java, age 12-13 is ideal. Our courses are designed for kids (6-12) and teens (13-18).Do you provide certificates after completing coding courses?Yes, every student receives a completion certificate after finishing their coding course. These certificates are valuable for school portfolios, college applications, and demonstrating coding skills to Kochi's tech companies.What areas in Kochi do you serve?We serve all areas of Kochi through our online classes including Kakkanad, Edapally, Vyttila, MG Road, Ernakulam, Palarivattom, Thripunithura, Aluva, Thrikkakkara, Kaloor, Panampilly Nagar, North Paravur, Angamaly, Cheranalloor, and more.How are your coding classes different from other institutes in Kochi?We focus on project-based learning where students build real games, websites, and apps. Our batch sizes (15-20 students), recorded sessions, expert instructors with industry experience from Kochi's tech ecosystem, and affordable pricing set us apart from other coding institutes in Kochi.Do you teach coding to Kerala state board students in Kochi?Yes. Kerala splits its state board in two: Pareeksha Bhavan runs the SSLC for Class 10, and the Directorate of Higher Secondary Education runs Plus One and Plus Two separately, and CBSE and ICSE schools operate here as well. Our classes are built to work beside any of them.Can CUSAT or Model Engineering College students join your programming courses?Yes. Infopark is on the doorstep with 580-odd companies in it, which is exactly why a portfolio matters more here than a transcript. The college track is project work: Python, Java, full-stack or AI/ML, carried through to something you can deploy and link to.
 
 ## Ready to start your child's coding journey in Kochi?
 

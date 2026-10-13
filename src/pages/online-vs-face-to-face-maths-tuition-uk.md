@@ -38,7 +38,7 @@ Published rates, read in October 2026 and converted to US dollars so this page u
 | Saving from switching to online | about $13 to $46 an hour in high-cost areas | Tutorful, same guide |
 | Online tutor on a large marketplace | from about $34 an hour | MyTutor, maths tutor listings (read 7 October 2026) |
 | In-person study centre programme | about $93 to $104 a month per subject, plus a one-off fee | Kumon centre pages for Ilford Lane and Ashford South (read 7 October 2026) |
-| Modern Age Coders, live online maths | $100 a month in a group of 5 to 10, or $150 a month one-to-one, eight one-hour lessons | Our own price, no enrolment fee |
+| Modern Age Coders, live online maths | $100 a month in a group of 15 to 20, or $150 a month one-to-one, eight one-hour lessons | Our own price, no enrolment fee |
 
 Conversion: UK figures were converted at 1.3221 US dollars per pound, the Bank of England spot rate for 5 October 2026 (series XUDLUSS), and rounded to the nearest dollar.
 
@@ -124,7 +124,7 @@ $150 / month
 $100 / month
 
 - 8 live group lessons a month (2 a week, 1 hour each)
-- 5 to 10 students at a similar level
+- 15 to 20 students at a similar level
 - The same teaching at a lower monthly price
 - No enrolment fee, stop at any month end
 

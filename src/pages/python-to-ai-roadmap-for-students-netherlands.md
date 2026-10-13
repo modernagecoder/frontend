@@ -4,7 +4,7 @@ description: "A Python to AI roadmap by Dutch school year, from groep 6 to vwo 6
 canonical: https://learn.modernagecoders.com/python-to-ai-roadmap-for-students-netherlands
 source: src/pages/python-to-ai-roadmap-for-students-netherlands.html
 ---
-> This is the route Modern Age Coders teaches from a child's first typed Python to real AI, set out against the Dutch school years: first programs around groep 6 to 8, the full language and first data in the onderbouw, models and a first public project in the upper years, and agents and a portfolio by the end of havo or vwo. At each stage the page says what a parent should see at home. Classes are live online in English, in groups of five to ten at one level or one to one, and pupils are placed by ability rather than school year. Trying a lesson is free; staying on costs USD 100 a month in a small group or USD 150 a month with a private teacher.
+> This is the route Modern Age Coders teaches from a child's first typed Python to real AI, set out against the Dutch school years: first programs around groep 6 to 8, the full language and first data in the onderbouw, models and a first public project in the upper years, and agents and a portfolio by the end of havo or vwo. At each stage the page says what a parent should see at home. Classes are live online in English, in groups of fifteen to twenty at one level or one to one, and pupils are placed by ability rather than school year. Trying a lesson is free; staying on costs USD 100 a month in a small group or USD 150 a month with a private teacher.
 
 [Home](/) / [Courses](/courses) / [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands) / Python to AI roadmap
 
@@ -144,7 +144,7 @@ Our teachers are in India, which keeps the same time all year, so they are three
 - **Weekend** Saturday or Sunday, for longer project sessions.
 
 - **A free first lesson** The teacher sees what the pupil can already do and says honestly where on the roadmap they start.
-- **Groups by level** Five to ten pupils from several countries at the same stage, whatever their school year.
+- **Groups by level** Fifteen to twenty pupils from several countries at the same stage, whatever their school year.
 - **One to one when it helps** For a profielwerkstuk, an exam year or a pupil far ahead of their age.
 - **Parents kept informed** Families hear what their child has built and what comes next, so the right-hand column of the roadmap stays visible.
 - **In English, with Dutch school terms** Lessons are in English; groep, brugklas, havo, vwo and profielwerkstuk keep their Dutch names.
@@ -155,7 +155,7 @@ Our teachers are in India, which keeps the same time all year, so they are three
 Paid monthly in US dollars, at one rate for every country outside India and every stage of the roadmap, with nothing to pay on joining and no yearly tie-in.
 
 - Free first class: USD 0. A real lesson and an honest placement. A roadmap stage agreed. No card needed.
-- Group batch: USD 100 a month. Five to ten pupils at one stage. The same live teacher each week. Work reviewed every week. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty pupils at one stage. The same live teacher each week. Work reviewed every week. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one pupil. Paced to the school year. Good for the profielwerkstuk.
 
 ## What Dutch parents ask about the roadmap
@@ -190,7 +190,7 @@ Yes, with Dutch school terms kept. Programming languages are written in English 
 
 ### What does it cost?
 
-The first lesson costs nothing. From then on it is USD 100 a month for a seat in a group of five to ten, or USD 150 a month for private lessons, paid in US dollars, with no sign-up fee and no annual tie-in.
+The first lesson costs nothing. From then on it is USD 100 a month for a seat in a group of fifteen to twenty, or USD 150 a month for private lessons, paid in US dollars, with no sign-up fee and no annual tie-in.
 
 ### When are lessons held?
 

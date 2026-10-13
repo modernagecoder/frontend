@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Hatfield',
   capsuleQ: 'Which online coding and Python classes are best for Hatfield learners?',
-  capsule: 'Hatfield counted 41,560 usual residents as an ONS built-up area at the 2021 census. The wider borough of Welwyn Hatfield counted 119,836. Gazetteer suburbs inside the town include South Hatfield, Roe Green, Oxlease, Birchwood, Old Hatfield, Ellenbrook and Hatfield Garden Village. Modern Age Coders teaches coding, Python, AI, vibe coding and maths to Hatfield learners aged six to 67, live on video, with a tutor based in India, either one-to-one or in a group of five to ten at the same level. Our Hatfield project asks a question every programmer meets daily: when a file changes, what exactly changed? Learners write the Myers diff in Python and test it against the library that ships with Python. Your opening lesson is on us. Carrying on costs USD 100 per month for a seat in a small class, or USD 150 per month for a tutor to yourself.',
+  capsule: 'Hatfield counted 41,560 usual residents as an ONS built-up area at the 2021 census. The wider borough of Welwyn Hatfield counted 119,836. Gazetteer suburbs inside the town include South Hatfield, Roe Green, Oxlease, Birchwood, Old Hatfield, Ellenbrook and Hatfield Garden Village. Modern Age Coders teaches coding, Python, AI, vibe coding and maths to Hatfield learners aged six to 67, live on video, with a tutor based in India, either one-to-one or in a group of fifteen to twenty at the same level. Our Hatfield project asks a question every programmer meets daily: when a file changes, what exactly changed? Learners write the Myers diff in Python and test it against the library that ships with Python. Your opening lesson is on us. Carrying on costs USD 100 per month for a seat in a small class, or USD 150 per month for a tutor to yourself.',
   lead: 'Every time a programmer saves a change, a tool compares the old file with the new one and reports what was added and what was removed. The report looks simple, yet producing the shortest possible report is a real search problem. In 1986 Eugene Myers published a method that finds it quickly when the two versions are mostly alike, and a version of his algorithm is still the default in Git. Hatfield learners code it themselves, then point it at three versions of the public encyclopedia article about their own town.',
   wa: 'Hello Modern Age Coders, we live in Hatfield and would like to book a free coding or Python lesson.',
 
@@ -156,7 +156,7 @@ module.exports = {
       { h3: 'Hands on the keyboard', p: 'The learner types and runs every line. The tutor asks questions and points at bugs rather than fixing them.' },
       { h3: 'Placed by what they can do', p: 'The free lesson shows the level; the course suggestion comes afterwards, not before.' },
       { h3: 'Nothing to pay up front', p: 'The trial is a complete lesson, it is free, and booking it needs no card.' },
-      { h3: 'Five to ten per group', p: 'Groups are matched on level and pace, with classmates from across the UK.' },
+      { h3: 'Fifteen to twenty per group', p: 'Groups are matched on level and pace, with classmates from across the UK.' },
       { h3: 'Two sessions a week', p: 'Share your school term dates and we leave the holiday weeks out.' },
       { h3: 'One UK start time', p: 'British clock changes are handled by the tutor; the slot stays at the same UK time all year.' }
     ],

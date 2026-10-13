@@ -224,7 +224,7 @@ module.exports = {
     cells: [
       { h3: 'Timed sittings', p: 'We run ninety-minute practices with nothing to look up, because that is the round.' },
       { h3: 'Unaided debugging', p: 'A student finds their own error while a teacher watches and says nothing, which is uncomfortable and works.' },
-      { h3: 'Five to ten students', p: 'Enough for two approaches to meet, small enough for every program to be read.' },
+      { h3: 'Fifteen to twenty students', p: 'Enough for two approaches to meet, small enough for every program to be read.' },
       { h3: 'Northern Ireland years used', p: 'Year 12 and Year 14 mean what they mean in Belfast, not what they mean in Birmingham.' },
       { h3: 'One to one when useful', p: 'For a finalist in the weeks before November.' },
       { h3: 'No role in the competition', p: 'We do not enter students, and we have no relationship with Sentinus.' }
@@ -239,7 +239,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A single monthly rate in US dollars outside India, no registration charge, and you can stop whenever a month ends.',
     free: ['A genuine lesson on the work itself', 'A plain view of where the gaps are', 'No card, no details beyond a number'],
-    group: ['Five to ten students at one level', 'The same teacher weekly', 'Work read closely', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher weekly', 'Work read closely', 'A certificate at the end'],
     one: ['A teacher working with one student', 'Shaped around the final they are sitting', 'Useful in the weeks before November']
   },
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and data classes for learners acros
 canonical: https://learn.modernagecoders.com/best-coding-class-in-limerick
 source: src/pages/best-coding-class-in-limerick.html
 ---
-> Limerick is a single council area of 209,536 people wrapped around a built-up city of 102,287, and the difference matters: most figures published about "Limerick" describe the whole council, not the city. It is a place where 27% of workers did some work from home against 32% nationally, where 34,381 residents were born outside the State, and where fewer than half the people working in the city actually live in it. A live online class suits that shape of place, because it does not care whether a learner is in Castletroy, Dooradoyle or out past Adare. We teach ages 6 to 67 in groups of five to ten at a single level, or one to one, with teachers working from India at an hour fixed to the Irish clock. Nothing is charged for the first lesson; after it, a shared place is USD 100 a month and a private one USD 150.
+> Limerick is a single council area of 209,536 people wrapped around a built-up city of 102,287, and the difference matters: most figures published about "Limerick" describe the whole council, not the city. It is a place where 27% of workers did some work from home against 32% nationally, where 34,381 residents were born outside the State, and where fewer than half the people working in the city actually live in it. A live online class suits that shape of place, because it does not care whether a learner is in Castletroy, Dooradoyle or out past Adare. We teach ages 6 to 67 in groups of fifteen to twenty at a single level, or one to one, with teachers working from India at an hour fixed to the Irish clock. Nothing is charged for the first lesson; after it, a shared place is USD 100 a month and a private one USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / Limerick
 
@@ -12,11 +12,11 @@ Limerick, Munster / Live online
 
 # Coding classes in Limerick
 
-**What are the best coding classes in Limerick?** Limerick is a single council area of 209,536 people wrapped around a built-up city of 102,287, and the difference matters: most figures published about "Limerick" describe the whole council, not the city. It is a place where 27% of workers did some work from home against 32% nationally, where 34,381 residents were born outside the State, and where fewer than half the people working in the city actually live in it. A live online class suits that shape of place, because it does not care whether a learner is in Castletroy, Dooradoyle or out past Adare. We teach ages 6 to 67 in groups of five to ten at a single level, or one to one, with teachers working from India at an hour fixed to the Irish clock. Nothing is charged for the first lesson; after it, a shared place is USD 100 a month and a private one USD 150.
+**What are the best coding classes in Limerick?** Limerick is a single council area of 209,536 people wrapped around a built-up city of 102,287, and the difference matters: most figures published about "Limerick" describe the whole council, not the city. It is a place where 27% of workers did some work from home against 32% nationally, where 34,381 residents were born outside the State, and where fewer than half the people working in the city actually live in it. A live online class suits that shape of place, because it does not care whether a learner is in Castletroy, Dooradoyle or out past Adare. We teach ages 6 to 67 in groups of fifteen to twenty at a single level, or one to one, with teachers working from India at an hour fixed to the Irish clock. Nothing is charged for the first lesson; after it, a shared place is USD 100 a month and a private one USD 150.
 
 There is a sensor on the Shannon Bridge that counts everything crossing it, hour by hour, sorted into cars, vans, trucks, motorbikes, bikes and people on foot. Limerick City and County Council publishes the lot, a month at a time, and it comes to 2,608,032 rows. Download a few months and something odd shows up: from late 2022 onwards, the last hours of each day are missing. In December 2022, and again in August 2026, the 22:00 and 23:00 readings are absent on all 31 days. In March 2023 only the 23:00 hour is gone. Nothing announces this. There is no note, no gap marker, no data dictionary at all. So anyone comparing a 2021 month against a 2026 month, using the totals as published, is comparing 24 hours a day against 22, and will get a number that is confidently wrong in a direction they cannot predict. Working out how to compare them fairly is the best data lesson this city has to offer, and it is where our teenage learners here start.
 
-Facts last verified 16 September 2026. Teaching is online; no Limerick branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no Limerick branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the Shannon city
 
@@ -192,7 +192,7 @@ The council area stretches far past the city, and a lesson delivered live online
 - **No journey at all** Whether a learner is in Raheen or thirty kilometres out, the class starts at the same second and the commute is a chair.
 - **Irish school stages, by name** Teachers talk about First Year, the Junior Cycle, Transition Year and sixth year as Irish schools do, so families are not translating anything.
 - **A genuine free lesson** Real teaching on a real task, followed by a straight recommendation about level, course and weekly hour. No card is requested at any point.
-- **Ability groups, not age groups** Five to ten learners who can work at the same pace, gathered from Limerick and several other countries so that each level has a workable hour.
+- **Ability groups, not age groups** Fifteen to twenty learners who can work at the same pace, gathered from Limerick and several other countries so that each level has a workable hour.
 - **Two lessons most weeks** About eight a month at a fixed time, with pauses for mid-term, exams and family holidays agreed in advance.
 - **Teachers on Indian time** Their clock never shifts, so they run four and a half hours ahead of Ireland in summer and five and a half in winter, which puts Limerick afternoons and evenings in their working day.
 
@@ -203,7 +203,7 @@ The council area stretches far past the city, and a lesson delivered live online
 Three numbers, and no small print underneath them.
 
 - First class: USD 0. A complete lesson at no charge, ending with a clear statement of level and a recommended course.
-- Group tuition: USD 100 a month. A month of teaching, normally eight lessons, in a group of five to ten learners of equal ability.
+- Group tuition: USD 100 a month. A month of teaching, normally eight lessons, in a group of fifteen to twenty learners of equal ability.
 - Private tuition: USD 150 a month. The same monthly rhythm of roughly eight lessons, with a teacher working with one learner alone.
 
 Everything is billed in US dollars on the single rate charged outside India, so Castletroy and Croom pay identically and no euro list exists. Charging starts only once a course and a weekly hour have been settled in the free lesson, and the pricing page explains what happens with pauses, missed lessons and changes of format.
@@ -244,7 +244,7 @@ No, and we do not claim one. Teaching happens live online only, with no premises
 
 ### What do Limerick coding classes cost?
 
-The first lesson is free. Continuing costs USD 100 a month for a group place, which covers two live lessons a week and roughly eight a month with five to ten learners, or USD 150 a month for the same schedule taught privately. Course, format and hour are agreed before anything is paid.
+The first lesson is free. Continuing costs USD 100 a month for a group place, which covers two live lessons a week and roughly eight a month with fifteen to twenty learners, or USD 150 a month for the same schedule taught privately. Course, format and hour are agreed before anything is paid.
 
 ### How many learners share a group?
 

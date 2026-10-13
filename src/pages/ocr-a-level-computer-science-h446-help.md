@@ -179,7 +179,7 @@ Teachers work from India on a clock that never shifts, leaving the UK five and a
 - **Retrieval, not rereading** Component 01 is a large body of content, and the only revision that works on it is being asked.
 - **Unseen problems** Component 02 applies the other paper, so practice has to be on problems nobody has seen before.
 - **A clear line on the project** We never work on it, review it or advise on its content. We teach the four stages it assumes.
-- **Groups by level** Five to ten students at one stage, marking each other's handwritten algorithms.
+- **Groups by level** Fifteen to twenty students at one stage, marking each other's handwritten algorithms.
 
 ## Fees for H446 teaching
 

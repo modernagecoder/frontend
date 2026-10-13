@@ -40,7 +40,7 @@ module.exports = {
 
   h1: 'Coding classes in Breda, the ninth city of the Netherlands by a margin narrower than the error bar',
   capsuleQ: 'What are the best coding classes in Breda?',
-  capsule: 'Coding classes in Breda serve a municipality of 190,204 people (Statistics Netherlands, 1 January 2026), the third of Noord-Brabant after Eindhoven and Tilburg. Its own encyclopaedia entry calls it the ninth municipality of the Netherlands; Nijmegen\'s entry calls Nijmegen the ninth city, and on the same date the two are 333 people apart. Two published sources disagree by as much as 402 about a single city on a single day, so the ninth place is not something the data can settle. Modern Age Coders teaches live online in English across the whole municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of five to ten or USD 150 one-to-one.',
+  capsule: 'Coding classes in Breda serve a municipality of 190,204 people (Statistics Netherlands, 1 January 2026), the third of Noord-Brabant after Eindhoven and Tilburg. Its own encyclopaedia entry calls it the ninth municipality of the Netherlands; Nijmegen\'s entry calls Nijmegen the ninth city, and on the same date the two are 333 people apart. Two published sources disagree by as much as 402 about a single city on a single day, so the ninth place is not something the data can settle. Modern Age Coders teaches live online in English across the whole municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of fifteen to twenty or USD 150 one-to-one.',
   lead: 'Breda and Nijmegen both claim ninth place in the country, and the honest answer is that neither claim is supported. On 1 January 2026 the national figures put Breda at 190,204 and Nijmegen at 189,871, a gap of 333 people. On the same date two published sources give Groningen as 244,427 and 244,829, a gap of 402. When the distance between two ranks is smaller than the distance between two sources describing one city, the ranking is noise wearing a number. A child who can measure that is harder to sell things to.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Breda.',
 
@@ -186,7 +186,7 @@ module.exports = {
     h2: 'What it costs, in dollars, for every address in the municipality',
     intro: 'Set out here so that nobody has to ask for it.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'One international rate applies, quoted in dollars, with no separate euro list, so a family in Effen sees exactly what a family in the centre sees. Money is only exchanged once the free lesson has produced a course and a timetable, and it goes over WhatsApp. Pauses, plan changes and missed weeks are described on the pricing page.'
   },
@@ -211,7 +211,7 @@ module.exports = {
       { q: 'How old is Breda?', a: 'Older than any single date can carry. It bought privileges from Henry the Fourth of Schoten in 1252 and its entry treats the acquisition of city rights as gradual rather than as one grant. It was the seat of the Barony from 1403, and the military academy arrived in 1828.' },
       { q: 'What is in the free lesson?', a: 'The teacher finds the edge of what the learner can do and sets one task exactly there. A child measures the same friends twice with the same tape. A teenager writes the ranking and the tie rule. An adult brings a leaderboard from work. The hour ends with a course, a starting rung, a weekly time and the fee in dollars, and nothing has been charged.' },
       { q: 'Is there a Modern Age Coders classroom in Breda?', a: 'No, and none is claimed near the Grote Kerk, in Prinsenbeek or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Breda coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Breda coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in a Breda group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or neighbourhood. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

@@ -14,7 +14,7 @@ Tutong District, Brunei / Live online
 
 The short answer
 
-Tutong's largest mukim recorded 13,253 residents and its smallest 980. A class that needs five to eight learners at one level, in one subject, free at one hour, has almost no chance of assembling itself from a pool that size, which is why families here are used to driving elsewhere for anything specialised. Modern Age Coders groups learners by what they can do, drawn from an intake across twenty-five countries, and teaches them live online for USD 100 a month. Ages six to sixty-seven. The first class costs nothing.
+Tutong's largest mukim recorded 13,253 residents and its smallest 980. A class that needs fifteen to twenty learners at one level, in one subject, free at one hour, has almost no chance of assembling itself from a pool that size, which is why families here are used to driving elsewhere for anything specialised. Modern Age Coders groups learners by what they can do, drawn from an intake across twenty-five countries, and teaches them live online for USD 100 a month. Ages six to sixty-seven. The first class costs nothing.
 
 This is not the usual argument that online is convenient. It is the narrower one that in a district of this shape, online is the only way the right class exists at all.
 
@@ -62,7 +62,7 @@ Tutong covers **1,166** square kilometres and recorded **47,210** residents at t
 | Rambai | 980 |
 | Total | 47,210 |
 
-Consider what those figures do to a class. A worthwhile group needs five to eight learners who share a level, share a subject and are free at the same hour on the same evening. Each of those conditions cuts the pool, and they multiply rather than add. Applied to Keriam's 8,589 people, of whom only a fraction are the right age in any given year, the pool that clears all four conditions at once is frequently empty. That is not a shortcoming of anybody in Tutong. It is what small numbers do.
+Consider what those figures do to a class. A worthwhile group needs fifteen to twenty learners who share a level, share a subject and are free at the same hour on the same evening. Each of those conditions cuts the pool, and they multiply rather than add. Applied to Keriam's 8,589 people, of whom only a fraction are the right age in any given year, the pool that clears all four conditions at once is frequently empty. That is not a shortcoming of anybody in Tutong. It is what small numbers do.
 
 The one specialist institution the district does have, and what it implies
 
@@ -78,7 +78,7 @@ Constraint on the left, what we do about it on the right.
 
 SMALL POOLS
 
-Five to eight learners at one level in one subject free at one hour rarely exist inside a mukim of a few thousand.
+Fifteen to twenty learners at one level in one subject free at one hour rarely exist inside a mukim of a few thousand.
 
 The pool is our whole intake in twenty-five countries. Level decides the group and geography plays no part in it.
 
@@ -198,7 +198,7 @@ Taught live, questioned live, reviewed live. Nothing recorded in advance.
 
 Costs nothing and decides everything: what the learner should study, at what level, starting when. They attempt one problem while the teacher reads the approach.
 
-### Groups of five to eight
+### Groups of fifteen to twenty
 
 Formed from ability across our whole intake. Telisai and Rambai are the same address as far as grouping is concerned, and so is Manchester.
 
@@ -300,7 +300,7 @@ Beginning with the one that a district of this size raises before any other.
 
 ### There is nothing like this near us in Tutong. Is online really equivalent?
 
-For this subject it is better, and the district explains why. A worthwhile class needs five to eight learners at a similar level and a similar age, in the same subject, free at the same hour. In a district of 47,210 people whose largest mukim holds 13,253, the pool that satisfies all four conditions at once is usually empty. Online, the pool is our entire intake across twenty-five countries, so a learner is grouped with people at their level rather than with whoever else turned up.
+For this subject it is better, and the district explains why. A worthwhile class needs fifteen to twenty learners at a similar level and a similar age, in the same subject, free at the same hour. In a district of 47,210 people whose largest mukim holds 13,253, the pool that satisfies all four conditions at once is usually empty. Online, the pool is our entire intake across twenty-five countries, so a learner is grouped with people at their level rather than with whoever else turned up.
 
 ### My child will go to Tutong Sixth Form Centre. When should they start?
 
@@ -316,7 +316,7 @@ There is nothing of ours in the district, or anywhere in Brunei. Lessons happen 
 
 ### How much do coding classes in Tutong cost?
 
-The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of five to eight compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
+The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of fifteen to twenty compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
 
 ### We are in Ukong or Rambai, well inland. Does the connection matter more than the address?
 

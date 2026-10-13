@@ -55,7 +55,7 @@ module.exports = {
   "twitterDescription": "Chatswood maths tutoring, live online: K to HSC Extension 2 and adults, with a calendar puzzle.",
   "pageName": "Maths Tutor in Chatswood",
   "webPageDescription": "Live online maths tutoring for Chatswood learners from Kindergarten to Year 12 and adults, following the NSW syllabus and HSC mathematics, with a lowest-common-multiple project on the Lunar New Year calendar.",
-  "courseDescription": "Live online maths lessons for Chatswood learners, privately or in level-matched classes of five to ten, from early number to HSC Mathematics Extension 2 and adult maths.",
+  "courseDescription": "Live online maths lessons for Chatswood learners, privately or in level-matched classes of fifteen to twenty, from early number to HSC Mathematics Extension 2 and adult maths.",
   "crumbs": [
     {
       "name": "Courses",
@@ -133,7 +133,7 @@ module.exports = {
     ]
   ],
   "capsuleQ": "Maths tutor in Chatswood, in brief",
-  "capsule": "For Chatswood, Modern Age Coders provides live online maths teaching to anyone from 6 to 67: Kindergarten to Year 10 under the NSW syllabus, all four HSC maths courses up to Extension 2, and adult maths. Teaching happens over video at Sydney times, either privately or with up to ten classmates at the same stage. Our Chatswood example uses lowest common multiples to show why a Year of the Goat is never a leap year. The first lesson is free.",
+  "capsule": "For Chatswood, Modern Age Coders provides live online maths teaching to anyone from 6 to 67: Kindergarten to Year 10 under the NSW syllabus, all four HSC maths courses up to Extension 2, and adult maths. Teaching happens over video at Sydney times, either privately or with up to twenty classmates at the same stage. Our Chatswood example uses lowest common multiples to show why a Year of the Goat is never a leap year. The first lesson is free.",
   "picks": {
     "eyebrow": "Where Chatswood learners start",
     "h2": "Number sense, junior algebra and HSC maths",
@@ -491,7 +491,7 @@ module.exports = {
             },
             {
               "h3": "Small classes",
-              "p": "Five to ten learners at one level, with questions that help everyone."
+              "p": "Fifteen to twenty learners at one level, with questions that help everyone."
             },
             {
               "h3": "Working on show",
@@ -725,7 +725,7 @@ module.exports = {
       "No card needed"
     ],
     "group": [
-      "Five to ten learners at one level",
+      "Fifteen to twenty learners at one level",
       "One teacher across the term",
       "Marked practice",
       "Stop at any month end"

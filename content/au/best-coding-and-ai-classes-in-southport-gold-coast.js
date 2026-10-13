@@ -284,7 +284,7 @@ module.exports = {
       { h3: 'Teacher on screen', p: 'Every session is run in real time, with the teacher reading each learner\'s code.' },
       { h3: 'School calendar', p: 'We keep to Queensland term dates and stop during the breaks.' },
       { h3: 'Start free', p: 'An opening session at no cost, after which we suggest a course in writing.' },
-      { h3: 'Class size', p: 'Level-matched groups of five to ten, or a teacher of your own.' },
+      { h3: 'Class size', p: 'Level-matched groups of fifteen to twenty, or a teacher of your own.' },
       { h3: 'Rhythm', p: 'Two sessions every week through each term.' },
       { h3: 'India time', p: 'A 4:30pm Southport lesson is noon in India, all year round.' }
     ],
@@ -297,7 +297,7 @@ module.exports = {
     h2: 'Southport class fees',
     intro: 'The same fees for every learner.',
     first: 'Session one costs nothing and ends with a course suggestion.',
-    group: 'Groups: two sessions weekly, roughly eight a month, five to ten classmates.',
+    group: 'Groups: two sessions weekly, roughly eight a month, fifteen to twenty classmates.',
     private: 'One-to-one: the same rhythm with a teacher who works only with you.',
     closer: 'We charge in US dollars, and only once the free session has fixed what to learn and when. School holidays and missed sessions are explained on our pricing page.'
   },
@@ -333,12 +333,12 @@ module.exports = {
       },
       {
         q: 'What do Southport classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How are groups formed?',
-        a: 'By level and pace, five to ten learners each, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'By level and pace, fifteen to twenty learners each, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       {

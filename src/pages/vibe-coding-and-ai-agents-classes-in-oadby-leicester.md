@@ -16,7 +16,7 @@ Oadby, Oadby and Wigston, Leicestershire / Live online
 
 When several AI agents share a workload, something has to decide who does what. One of the oldest answers, first described in 1980 in research on distributed computing, is the contract net protocol: a task is announced, each available agent replies with a bid, and the task goes to whoever bid lowest. It needs no central planner and it is easy to build. The question is how much it costs compared with a planner that sees everything at once. This project puts both on the road network of Oadby, as mapped on OpenStreetMap: agents start at random points, jobs appear at real building locations, and every bid is an actual driving distance.
 
-Facts last verified 30 September 2026. Teaching is online; no Oadby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Oadby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Oadby courses in reasoning, vibe coding and agents
 

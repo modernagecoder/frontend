@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Coding classes in Inverclyde',
   capsuleQ: 'What are the best coding classes in Inverclyde?',
-  capsule: 'Inverclyde is a compact council area on the Firth of Clyde with about 78,400 residents in roughly 37,400 households, according to the 2022 census. Greenock is by far the largest town, and Port Glasgow and Gourock are the other large towns, with Kilmacolm, Inverkip and Wemyss Bay smaller. Every class is taught live by video from India; a free first lesson finds the right starting stage, anything from P1 to S6 or adult. Learners aged 6 to 67 take coding, Python and maths in a group of five to ten or individually. The Inverclyde project starts at an old Greenock dry dock. After the free lesson, a group costs USD 100 a month and one-to-one USD 150 a month.',
+  capsule: 'Inverclyde is a compact council area on the Firth of Clyde with about 78,400 residents in roughly 37,400 households, according to the 2022 census. Greenock is by far the largest town, and Port Glasgow and Gourock are the other large towns, with Kilmacolm, Inverkip and Wemyss Bay smaller. Every class is taught live by video from India; a free first lesson finds the right starting stage, anything from P1 to S6 or adult. Learners aged 6 to 67 take coding, Python and maths in a group of fifteen to twenty or individually. The Inverclyde project starts at an old Greenock dry dock. After the free lesson, a group costs USD 100 a month and one-to-one USD 150 a month.',
   lead: 'In Cartsdyke, Greenock, Historic Environment Scotland lists Scott\'s Dry Dock at Category A and says it is believed to be the oldest surviving dry, or graving, dock in Scotland. Roughly 110 metres long and 20 metres wide, it was built for Steele\'s shipyard and already appears on a town plan of 1825. A dry dock works by letting the river in and pumping it out: gates open, water floods the basin, a ship floats in, and the water is removed so workers can reach the hull. How long does the flooding take? The obvious calculation is wrong by a factor of two, and the last metre of water behaves in a way that surprises almost everyone. This page\'s project finds out in Python.',
   wa: 'Hello Modern Age Coders, we are in Inverclyde and would like to book a free lesson, please.',
 
@@ -165,7 +165,7 @@ module.exports = {
       { h3: 'Learner at the keyboard', p: 'The learner writes the code; the teacher watches the shared screen and helps at the right moment.' },
       { h3: 'Our words match school', p: 'We use P3, S4, National 5, Higher and Advanced Higher, like Inverclyde schools, and teach in English.' },
       { h3: 'First lesson free', p: 'A real lesson, at no cost, and then plain advice on which course comes next.' },
-      { h3: 'Groups by stage', p: 'Five to ten learners at the same stage in each class, often from several countries.' },
+      { h3: 'Groups by stage', p: 'Fifteen to twenty learners at the same stage in each class, often from several countries.' },
       { h3: 'Term-time rhythm', p: 'Two lessons a week in term, with the school holidays off.' },
       { h3: 'Booked in UK time', p: 'Once set, your lesson keeps its UK time through the clock changes; teachers in India time adapt.' }
     ],
@@ -176,7 +176,7 @@ module.exports = {
     h2: 'Inverclyde fees',
     intro: 'Gourock or Port Glasgow, the fee is the same, and so it is in every country outside India where we teach.',
     first: 'A full lesson at no charge, with a recommendation at the end.',
-    group: 'About eight lessons a month in a group of five to ten.',
+    group: 'About eight lessons a month in a group of fifteen to twenty.',
     private: 'About eight lessons a month, one teacher and one learner.',
     closer: 'All fees are in US dollars; there is no sterling price. Payment starts only after the free lesson, when a course and weekly time have been agreed, and the pricing page explains holidays, missed lessons and changing between group and individual lessons.'
   },

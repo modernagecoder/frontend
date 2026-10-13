@@ -4,7 +4,7 @@ description: "Vibe coding, AI agents, Python and coding classes online for Oldbu
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-oldbury
 source: src/pages/vibe-coding-and-ai-agents-classes-in-oldbury.html
 ---
-> The ONS recorded 45,180 residents in the Oldbury built-up area at the 2021 census, within a Sandwell borough of 341,832. postcodes.io lists Langley Green, Brandhall, Causeway Green, Titford, Rood End and Rounds Green as suburban areas whose nearest postcode lies in the Oldbury built-up area. We teach vibe coding, AI agents, Python, coding and maths to learners aged six to 67 over live video, with tutors in India, either one-to-one or in a class of five to ten who are at the same level. We ask learners to treat every shortcut an agent takes as a claim that needs checking. The Oldbury project gives an agent a memory of its earlier answers about Sandwell's streets, then counts how often reusing those answers goes wrong when several streets share a name. Your first lesson is free and closes with a course suggestion. After that, fees are USD 100 a month for group lessons and USD 150 a month for private ones.
+> The ONS recorded 45,180 residents in the Oldbury built-up area at the 2021 census, within a Sandwell borough of 341,832. postcodes.io lists Langley Green, Brandhall, Causeway Green, Titford, Rood End and Rounds Green as suburban areas whose nearest postcode lies in the Oldbury built-up area. We teach vibe coding, AI agents, Python, coding and maths to learners aged six to 67 over live video, with tutors in India, either one-to-one or in a class of fifteen to twenty who are at the same level. We ask learners to treat every shortcut an agent takes as a claim that needs checking. The Oldbury project gives an agent a memory of its earlier answers about Sandwell's streets, then counts how often reusing those answers goes wrong when several streets share a name. Your first lesson is free and closes with a course suggestion. After that, fees are USD 100 a month for group lessons and USD 150 a month for private ones.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Oldbury
 
@@ -12,11 +12,11 @@ Oldbury, Sandwell, West Midlands / Live online
 
 # Vibe coding and AI agents classes in Oldbury
 
-**Where are the best vibe coding and AI agents classes for Oldbury learners?** The ONS recorded 45,180 residents in the Oldbury built-up area at the 2021 census, within a Sandwell borough of 341,832. postcodes.io lists Langley Green, Brandhall, Causeway Green, Titford, Rood End and Rounds Green as suburban areas whose nearest postcode lies in the Oldbury built-up area. We teach vibe coding, AI agents, Python, coding and maths to learners aged six to 67 over live video, with tutors in India, either one-to-one or in a class of five to ten who are at the same level. We ask learners to treat every shortcut an agent takes as a claim that needs checking. The Oldbury project gives an agent a memory of its earlier answers about Sandwell's streets, then counts how often reusing those answers goes wrong when several streets share a name. Your first lesson is free and closes with a course suggestion. After that, fees are USD 100 a month for group lessons and USD 150 a month for private ones.
+**Where are the best vibe coding and AI agents classes for Oldbury learners?** The ONS recorded 45,180 residents in the Oldbury built-up area at the 2021 census, within a Sandwell borough of 341,832. postcodes.io lists Langley Green, Brandhall, Causeway Green, Titford, Rood End and Rounds Green as suburban areas whose nearest postcode lies in the Oldbury built-up area. We teach vibe coding, AI agents, Python, coding and maths to learners aged six to 67 over live video, with tutors in India, either one-to-one or in a class of fifteen to twenty who are at the same level. We ask learners to treat every shortcut an agent takes as a claim that needs checking. The Oldbury project gives an agent a memory of its earlier answers about Sandwell's streets, then counts how often reusing those answers goes wrong when several streets share a name. Your first lesson is free and closes with a course suggestion. After that, fees are USD 100 a month for group lessons and USD 150 a month for private ones.
 
 An AI agent that answers the same question twice wastes time and money, so builders give agents a cache: a store of earlier answers that can be reused. The tempting upgrade is to make the cache "semantic", reusing an answer when a new question is merely similar to an old one. It sounds sensible until two similar questions need different answers. Sandwell makes the problem concrete. Its open map data holds eight separate streets called High Street, spread over six postcode districts, and hundreds of other names shared the same way. Ask an agent which postcode district a street is in, let it reuse its answers, and count the damage.
 
-Facts last verified 30 September 2026. Teaching is online; no Oldbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Oldbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for Oldbury in vibe coding, agents and thinking
 
@@ -142,7 +142,7 @@ Bring a computer, a webcam and an internet connection strong enough for video.
 - **Learner at the keyboard** The student writes and runs the code while the tutor watches and asks why.
 - **Level set by the trial** We see how a learner works before we recommend anything.
 - **First lesson on us** A normal-length lesson, no card needed, and our advice at the end.
-- **Same-stage classes** Five to ten learners at one level, from anywhere in the UK.
+- **Same-stage classes** Fifteen to twenty learners at one level, from anywhere in the UK.
 - **Two a week** Tell us your holiday weeks and they come out of the timetable.
 - **Fixed UK time** The spring and autumn clock changes are handled by our tutors.
 

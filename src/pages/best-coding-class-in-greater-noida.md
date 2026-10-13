@@ -12,7 +12,7 @@ Live online · serving Greater Noida
 
 Real programming for kids, teens and college students in Greater Noida, from **Alpha / Beta / Gamma / Delta to Pari Chowk, Knowledge Park I–V to Jagat Farm / Swarn Nagari**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Greater%20Noida)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**Greater NoidaEnrollingAreasAlpha / Beta / Gamma / Delta, Pari Chowk, Knowledge Park I–V, Jagat Farm / Swarn Nagari, Greater Noida West (Noida Extension) & all of Greater NoidaBoardsUP Board · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across Greater NoidaFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Greater%20Noida)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**Greater NoidaEnrollingAreasAlpha / Beta / Gamma / Delta, Pari Chowk, Knowledge Park I–V, Jagat Farm / Swarn Nagari, Greater Noida West (Noida Extension) & all of Greater NoidaBoardsUP Board · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across Greater NoidaFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for Greater Noida's keenest young mathematicians who want to push well past the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Greater Noida: FAQs
 
-Which is the best coding class in Greater Noida for kids?Modern Age Coders runs Greater Noida's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and progress to Python, in small batches of 5-8, taught by industry instructors. We reach families everywhere: Pari Chowk, the Alpha-Beta-Gamma sectors, Knowledge Park, Jagat Farm, Greater Noida West (Noida Extension), Gaur City, Bisrakh and Techzone.Are the classes online or offline, and do you cover Greater Noida West and Gaur City?All classes are live and online, so we cover the whole region equally: Pari Chowk, Alpha, Beta, Gamma, Knowledge Park I-V, Jagat Farm, Greater Noida West (Noida Extension), Gaur City, Bisrakh, Surajpur and Techzone. Your child joins the same expert teacher from home, with no drive down the Expressway. In every class the teacher codes alongside your child, shares the screen both ways, answers doubts then and there, and a full recording lands in your dashboard afterwards.How much do coding classes cost in Greater Noida?Group classes (5-8 students) start at Rs.1499/month for 2 live classes a week. Mini Batch (3-4 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden charges.Will coding help with JEE and the CBSE/ICSE board exams?Yes. Greater Noida is a JEE-and-board-focused belt. Coding builds the logical reasoning, decomposition and problem-solving that JEE and Olympiads reward, and it directly supports CBSE/ICSE Computer Science, Informatics Practices and the NEP-2020 AI modules taught at DPS Greater Noida, Ryan, Delhi Public, Father Agnel and Cambridge.What is the best age to start coding?Age 8 is ideal to begin with visual, block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always matches the child.Do you prepare Greater Noida university students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is built for students from Bennett, Shiv Nadar, Galgotias, Sharda, GL Bajaj, GBU, Amity and IILM who are aiming at product companies, GCCs and core IT roles.What equipment does my child need?Just a laptop or desktop and a stable internet connection, both common in Greater Noida and Noida Extension homes. A computer (rather than a tablet) is best for hands-on practice. Minimum: Windows 10 or macOS, 4GB RAM and broadband. All the software we use is free, and our team helps you set it up before the first class.Do you run summer and winter coding camps in Greater Noida?Yes. Intensive camps run during the summer break (May-June) and the winter break (Dec-Jan), letting a child finish a full course in 4-6 weeks. They are popular with Greater Noida West and Gaur City families who want a productive, screen-positive holiday. Ask us for upcoming dates and early-bird offers.Do you teach coding to UP Board students in Greater Noida?Yes. Greater Noida schools run the UP Board, UPMSP, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Gautam Buddha University or Shiv Nadar University students join your programming courses?Yes. Greater Noida holds Gautam Buddha University and a cluster of private universities, so serious study is on the doorstep. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview.
+Which is the best coding class in Greater Noida for kids?Modern Age Coders runs Greater Noida's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and progress to Python, in batches of 15-20, taught by industry instructors. We reach families everywhere: Pari Chowk, the Alpha-Beta-Gamma sectors, Knowledge Park, Jagat Farm, Greater Noida West (Noida Extension), Gaur City, Bisrakh and Techzone.Are the classes online or offline, and do you cover Greater Noida West and Gaur City?All classes are live and online, so we cover the whole region equally: Pari Chowk, Alpha, Beta, Gamma, Knowledge Park I-V, Jagat Farm, Greater Noida West (Noida Extension), Gaur City, Bisrakh, Surajpur and Techzone. Your child joins the same expert teacher from home, with no drive down the Expressway. In every class the teacher codes alongside your child, shares the screen both ways, answers doubts then and there, and a full recording lands in your dashboard afterwards.How much do coding classes cost in Greater Noida?Group classes (15-20 students) start at Rs.1499/month for 2 live classes a week. Mini Batch (up to 6 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden charges.Will coding help with JEE and the CBSE/ICSE board exams?Yes. Greater Noida is a JEE-and-board-focused belt. Coding builds the logical reasoning, decomposition and problem-solving that JEE and Olympiads reward, and it directly supports CBSE/ICSE Computer Science, Informatics Practices and the NEP-2020 AI modules taught at DPS Greater Noida, Ryan, Delhi Public, Father Agnel and Cambridge.What is the best age to start coding?Age 8 is ideal to begin with visual, block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always matches the child.Do you prepare Greater Noida university students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is built for students from Bennett, Shiv Nadar, Galgotias, Sharda, GL Bajaj, GBU, Amity and IILM who are aiming at product companies, GCCs and core IT roles.What equipment does my child need?Just a laptop or desktop and a stable internet connection, both common in Greater Noida and Noida Extension homes. A computer (rather than a tablet) is best for hands-on practice. Minimum: Windows 10 or macOS, 4GB RAM and broadband. All the software we use is free, and our team helps you set it up before the first class.Do you run summer and winter coding camps in Greater Noida?Yes. Intensive camps run during the summer break (May-June) and the winter break (Dec-Jan), letting a child finish a full course in 4-6 weeks. They are popular with Greater Noida West and Gaur City families who want a productive, screen-positive holiday. Ask us for upcoming dates and early-bird offers.Do you teach coding to UP Board students in Greater Noida?Yes. Greater Noida schools run the UP Board, UPMSP, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Gautam Buddha University or Shiv Nadar University students join your programming courses?Yes. Greater Noida holds Gautam Buddha University and a cluster of private universities, so serious study is on the doorstep. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview.
 
 ## Ready to start your child's coding journey in Greater Noida?
 

@@ -64,7 +64,7 @@ module.exports = {
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
-  capsule: 'Irish computing degrees do not share a first language: UCC introduces programming in Python, while UCD\'s first-year module uses C as its example. Whichever you are in, the gap that hurts is fluency, not talent, and it closes with weekly practice and someone to ask. Modern Age Coders teaches students in Ireland live online, in groups of five to ten at one level or one to one, around semester dates and exam weeks. We teach the skills and your own projects, never work being submitted for assessment. The first class is free; after it a group place is USD 100 a month and one-to-one lessons USD 150 a month.',
+  capsule: 'Irish computing degrees do not share a first language: UCC introduces programming in Python, while UCD\'s first-year module uses C as its example. Whichever you are in, the gap that hurts is fluency, not talent, and it closes with weekly practice and someone to ask. Modern Age Coders teaches students in Ireland live online, in groups of fifteen to twenty at one level or one to one, around semester dates and exam weeks. We teach the skills and your own projects, never work being submitted for assessment. The first class is free; after it a group place is USD 100 a month and one-to-one lessons USD 150 a month.',
 
   picks: {
     eyebrow: 'Start here',
@@ -208,7 +208,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'You work through something real and get a frank view of which level to join at.' },
-      { h3: 'Groups of five to ten', p: 'Students at one level, including students from other countries taking similar modules.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Students at one level, including students from other countries taking similar modules.' },
       { h3: 'One to one', p: 'For final-year projects, or when a timetable will not fit a fixed group slot.' },
       { h3: 'Semester aware', p: 'Lessons lighten during exams and pick up again after, planned at the start of each term.' },
       { h3: 'Assessed work is off limits', p: 'We never write, edit, debug or review anything being submitted for marks.' },
@@ -224,7 +224,7 @@ module.exports = {
     h2: 'Fees for students',
     lede: 'A flat monthly price in US dollars, identical in every country outside India, with no enrolment fee and no obligation beyond the month you are in. Students often pause over the summer and pick the same slot up in September.',
     free: ['A real problem worked through', 'An honest placement at a level', 'No card needed'],
-    group: ['Five to ten students at one level', 'The same teacher across a term', 'Code reviewed weekly', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher across a term', 'Code reviewed weekly', 'A certificate at the end'],
     one: ['A teacher for one student', 'Fits an awkward timetable', 'Best for final-year projects']
   },
 

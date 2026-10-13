@@ -178,7 +178,7 @@ Being administratively part of Muscat does not shorten the road. A class deliver
 
 A real placement task, a real recommendation, no card requested, and no course committed to until a family has seen a lesson run.
 
-### Groups of five to eight
+### Groups of fifteen to twenty
 
 Grouped on level and objective. A fisherman keeping catch records and a fifteen year old learning the same data skills belong in the same class.
 
@@ -210,7 +210,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -320,7 +320,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Qurayyat learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Qurayyat class times arranged?
 

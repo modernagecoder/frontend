@@ -318,7 +318,7 @@ module.exports = {
       { h3: 'Start writing straight away', p: 'The teacher and learner share a screen and work in the same code from the first minute.' },
       { h3: 'Built around Victorian terms', p: 'Plans follow the state school terms and stop for the holidays.' },
       { h3: 'A genuine trial lesson', p: 'The free first class teaches real material and ends with a suggested course and time.' },
-      { h3: 'Groups of five to ten', p: 'Learners at the same level, sometimes from several suburbs or states.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners at the same level, sometimes from several suburbs or states.' },
       { h3: 'Two lessons a week', p: 'About eight a month at fixed times, with any breaks agreed in advance.' },
       { h3: 'Teachers based in India', p: 'A 4:30pm Bayside lesson under daylight saving starts at 11am India time; from April it starts at noon there.' }
     ],
@@ -331,7 +331,7 @@ module.exports = {
     h2: 'Bayside class fees',
     intro: 'Three prices, set out in full before anything is paid.',
     first: 'The first lesson costs nothing and finishes with an honest recommendation.',
-    group: 'A month of group lessons, usually eight, with five to ten learners working at one level.',
+    group: 'A month of group lessons, usually eight, with fifteen to twenty learners working at one level.',
     private: 'About eight one-to-one lessons a month with a single teacher.',
     closer: 'Families outside India pay in US dollars at one rate for everyone. Billing begins only after the trial, once the course and time are agreed; the pricing page covers holidays, missed lessons and moving between formats.'
   },
@@ -376,7 +376,7 @@ module.exports = {
       },
       {
         q: 'How much do coding classes cost for Bayside learners?',
-        a: 'The first lesson is free. Group lessons then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.',
+        a: 'The first lesson is free. Group lessons then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.',
         boiler: true
       },
       {

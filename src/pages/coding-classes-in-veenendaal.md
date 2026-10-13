@@ -16,7 +16,7 @@ Veenendaal, Utrecht / Live online
 
 Veenendaal, the encyclopaedia says, must be understood as Veenen-Daal and not as Veen-en-Daal. Dutch readers cut long compound words into their parts without thinking, and most of the time they cut them the same way. Computers do not read like that. A language model never sees the word Veenendaal as a whole, nor as letters; a component called a tokenizer first chops the text into pieces from a fixed vocabulary it learned from a mass of other text, and the model only ever works with those pieces. Whether the cut falls after veenen or after veen depends on which pieces happened to be common in that other text, not on what the name means. It explains some of the odd things AI does, such as miscounting the letters in a word, and why a Dutch sentence can cost a model more pieces than an English one. Veenendaal, a name that needed a ruling on where to cut, is a good place to learn it.
 
-Facts last verified 11 September 2026. Teaching is online; no Veenendaal branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Veenendaal branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the town between the Heuvelrug and the Vallei
 
@@ -180,7 +180,7 @@ From the Centrum out to the new wijken of Veenendaal-Oost, the town is compact, 
 - **From any of the six wijken** A learner in Zuidoost and a learner in Noordwest open the lesson at the same time, each from home, without a ride through town in the evening.
 - **School words left alone** Groep, brugklas, vmbo, havo, vwo and the profielkeuze are said in Dutch, as a Veenendaal school writes them, while the teaching is in English.
 - **A real first lesson** The free session works through a genuine task. It ends with a suggested level, a course and a weekly slot, and no payment details are asked for.
-- **Matched groups** Five to ten learners at the same point. Veenendaal has 12,556 residents under fifteen, but five who match on subject, level and hour are rarely found in one town, so groups may include learners from other countries.
+- **Matched groups** Fifteen to twenty learners at the same point. Veenendaal has 12,556 residents under fifteen, but five who match on subject, level and hour are rarely found in one town, so groups may include learners from other countries.
 - **Regio Midden holidays** Two lessons a week, around eight a month, at a fixed hour, pausing for the regio Midden holidays that schools in the province of Utrecht follow.
 - **Teaching from India** The teachers are three and a half hours ahead of Veenendaal in summer and four and a half in winter, so late afternoons, evenings and weekend mornings all work.
 
@@ -191,7 +191,7 @@ From the Centrum out to the new wijken of Veenendaal-Oost, the town is compact, 
 Three prices, and nothing hidden behind them.
 
 - First class: USD 0. A real lesson on a real task, finishing with a level and a course.
-- Group tuition: USD 100 a month. Monthly, normally eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. Monthly, normally eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Monthly, normally eight lessons, one learner and one teacher.
 
 The fee is a single dollar price for every country, with no euro version, so a household in Veenendaal-Oost pays what a household in the Centrum pays. Nothing is due until the free lesson has settled a course and a slot, after which payment is arranged on WhatsApp. Pauses, changes of format and missed lessons are covered on the pricing page.
@@ -232,7 +232,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Veenendaal coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

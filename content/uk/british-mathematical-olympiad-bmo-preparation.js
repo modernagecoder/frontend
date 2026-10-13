@@ -246,7 +246,7 @@ module.exports = {
     cells: [
       { h3: 'One problem, properly', p: 'A lesson often contains a single question, taken from first reading to a written argument.' },
       { h3: 'Technique named', p: 'Invariants, extremal arguments, pigeonhole and bounding are taught as a repertoire, not as tricks.' },
-      { h3: 'Five to ten students', p: 'Small enough that every write-up is read, large enough for two approaches to collide.' },
+      { h3: 'Fifteen to twenty students', p: 'Small enough that every write-up is read, large enough for two approaches to collide.' },
       { h3: 'Our own problems', p: 'Written by us in the olympiad idiom. BMOS publishes its own past papers and solutions.' },
       { h3: 'One to one when it fits', p: 'For a candidate far beyond their year group or preparing for BMO2.' },
       { h3: 'Nothing promised', p: 'No threshold, no squad place and no medal is promised by us, and nobody honest promises one.' }
@@ -261,7 +261,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A monthly rate in US dollars, the same in every country outside India. No joining fee and no fixed term.',
     free: ['One real problem with a teacher', 'An honest view of the level', 'No card details'],
-    group: ['Five to ten students at one level', 'The same teacher each week', 'Written arguments marked by hand', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher each week', 'Written arguments marked by hand', 'A certificate at the end'],
     one: ['One student with one teacher', 'Built around a specific weakness', 'For candidates working towards BMO2']
   },
 

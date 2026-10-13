@@ -297,7 +297,7 @@ module.exports = {
       { h3: 'Live teaching', p: 'A teacher leads every lesson and reviews code as it is typed.' },
       { h3: 'School terms', p: 'Classes follow the WA terms and pause in the holidays.' },
       { h3: 'Trial first', p: 'One free lesson, followed by a written recommendation.' },
-      { h3: 'Level groups', p: 'Five to ten learners at one level, or one to one.' },
+      { h3: 'Level groups', p: 'Fifteen to twenty learners at one level, or one to one.' },
       { h3: 'Two a week', p: 'Around eight lessons a month.' },
       { h3: 'Indian time', p: 'A 5:30pm Canning Vale lesson starts at 3pm in India.' }
     ],
@@ -310,7 +310,7 @@ module.exports = {
     h2: 'Canning Vale class fees',
     intro: 'Fees are identical for every learner.',
     first: 'Your first lesson is free and includes a plan.',
-    group: 'Group classes: about eight lessons monthly, five to ten learners.',
+    group: 'Group classes: about eight lessons monthly, fifteen to twenty learners.',
     private: 'One-to-one: about eight lessons monthly with one teacher.',
     closer: 'Fees are set in US dollars and begin only once the trial has chosen a course and a weekly time. The pricing page covers holidays and missed lessons.'
   },
@@ -349,12 +349,12 @@ module.exports = {
       },
       {
         q: 'What do Canning Vale classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How are learners grouped?',
-        a: 'By level and pace in groups of five to ten, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'By level and pace in groups of fifteen to twenty, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Can adults learn Python with you?', a: 'Yes. Adults join adult groups or private lessons, often to automate tasks at work.' }

@@ -16,7 +16,7 @@ Rotherham, South Yorkshire, England / Live online
 
 The language models behind many AI chatbots have a setting called temperature. Turn it down and the answers become safe and repetitive; turn it up and they become varied, then strange. Behind that dial is one small formula, the softmax with temperature, and a learner can see exactly what it does with real data. The 2021 census records the kind of home every one of Rotherham's 113,924 households lives in: almost half semi-detached, only 42 in a caravan or other temporary structure. Our Rotherham project turns those shares into a tiny "generator" of households and turns the temperature dial, watching the caravans appear.
 
-Facts last verified 28 September 2026. Teaching is online; no Rotherham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 28 September 2026. Teaching is online; no Rotherham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for thinking, vibe coding and AI
 

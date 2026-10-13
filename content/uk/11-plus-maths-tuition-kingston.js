@@ -253,7 +253,7 @@ module.exports = {
     cells: [
       { h3: 'A constant teacher', p: 'The same person every week tracks each child\'s habits.' },
       { h3: 'Plain reporting', p: 'A few honest lines after lessons, including what went badly.' },
-      { h3: 'Groups of five to ten', p: 'Same level, so every explanation is pitched right.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Same level, so every explanation is pitched right.' },
       { h3: 'Our questions only', p: 'Nothing copied from either school\'s illustrative material.' },
       { h3: 'One to one on request', p: 'For accuracy problems that need close attention.' },
       { h3: 'Maths, not English', p: 'No English coaching and no advice on admissions.' }
@@ -268,7 +268,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Monthly, in US dollars, the same for all families outside India. No sign-up fee and no fixed term.',
     free: ['A taught lesson, not a sales call', 'Our frank view afterwards', 'No card details'],
-    group: ['Five to ten children, matched by level', 'A regular teacher', 'Answers checked in class', 'Certificate on completion'],
+    group: ['Fifteen to twenty children, matched by level', 'A regular teacher', 'Answers checked in class', 'Certificate on completion'],
     one: ['One child, one teacher', 'Close work on accuracy', 'Helpful between Stage One and Stage Two']
   },
 

@@ -16,7 +16,7 @@ Slough, Berkshire, England / Live online
 
 In 1787 William Herschel finished a telescope at Slough so large it became a sight in its own right. The Science Museum Group's record describes it: a reflecting telescope with a metal mirror four feet across, weighing over a ton, visited by the rich and famous. It is known as the 40-foot telescope. His sister Caroline, an astronomer who discovered eight comets, used a much smaller instrument with a mirror six and an eighth inches across, made for her around 1795 while they lived in Slough. Why build something so enormous? Mostly to collect light: a bigger mirror catches more of it, and faint objects that are invisible to the eye appear. How much more light, exactly, and how much fainter could Herschel see? This page's project works it out in Python.
 
-Facts last verified 27 September 2026. Teaching is online; no Slough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Slough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for Herschel's town
 
@@ -135,7 +135,7 @@ Every part of the borough joins by live video.
 - **Hands on the keyboard** Learners type their own programs while the teacher watches the shared screen and helps with questions.
 - **School years in England** A Year 4 or a Year 12 in Slough is placed by year group and key stage, with each exam board's own names.
 - **Free trial** One full lesson at no cost, then a clear recommendation.
-- **Grouped by stage** A class holds five to ten learners who are at the same point, living anywhere in Britain.
+- **Grouped by stage** A class holds fifteen to twenty learners who are at the same point, living anywhere in Britain.
 - **Through the school year** Lessons run twice weekly while schools are open and stop for the holidays.
 - **UK clock kept** Your lesson keeps its UK time when the clocks change; our teachers adjust.
 
@@ -146,7 +146,7 @@ Every part of the borough joins by live video.
 Slough pays the same fee as everywhere else we teach outside India.
 
 - First class: USD 0. A full free lesson with a clear next step.
-- Group tuition: USD 100 a month. About eight lessons a month in a class of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a class of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month with your own tutor.
 
 Fees are in US dollars only; we do not quote sterling. We ask for nothing until the trial has matched a course and a regular weekly slot; breaks, absences and moving between group and one-to-one are all explained on the pricing page.

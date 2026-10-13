@@ -14,7 +14,7 @@ Maryland / Live online
 
 The short answer
 
-Under the Blueprint for Maryland's Future, students are expected to meet the College and Career Readiness standard by the end of tenth grade, with reevaluation in eleventh and twelfth. Algebra 1 appears in more than one route to meeting it. Modern Age Coders teaches live online coding and math to ages 6 to 67 in Maryland, in groups of five to eight or one to one, from USD 100 a month. The first class is free.
+Under the Blueprint for Maryland's Future, students are expected to meet the College and Career Readiness standard by the end of tenth grade, with reevaluation in eleventh and twelfth. Algebra 1 appears in more than one route to meeting it. Modern Age Coders teaches live online coding and math to ages 6 to 67 in Maryland, in groups of fifteen to twenty or one to one, from USD 100 a month. The first class is free.
 
 Most states settle the question in junior and senior year. Maryland moved it two years earlier, and almost nothing about how families plan has caught up. If the checkpoint lands at the end of tenth grade, then middle school and ninth grade are the years that matter, and eleventh grade is late rather than early.
 
@@ -220,7 +220,7 @@ Live teaching, live questions, live code review. Nothing pre-recorded.
 
 One task pitched at the learner, then a specific recommendation. No fee and no card.
 
-### Five to eight per group
+### Fifteen to twenty per group
 
 Grouped by present ability rather than by grade, drawn from the whole intake.
 
@@ -342,7 +342,7 @@ Weekend slots are the easiest to arrange on Eastern Time, and weekday slots are 
 
 ### How much do coding classes in Maryland cost?
 
-The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of five to eight compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
+The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of fifteen to twenty compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
 
 ### Do you have a location in Maryland?
 

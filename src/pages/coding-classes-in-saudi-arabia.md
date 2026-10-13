@@ -1,10 +1,10 @@
 ---
 title: "Coding Classes in Saudi Arabia | Python & AI, Kids to Adults"
-description: "Live online coding classes in Saudi Arabia for kids, teens and professionals. Batches of 5 to 8, Python and AI tracks, evening AST slots. Free demo class."
+description: "Live online coding classes in Saudi Arabia for kids, teens and professionals. Batches of 15 to 20, Python and AI tracks, evening AST slots. Free demo class."
 canonical: https://learn.modernagecoders.com/coding-classes-in-saudi-arabia
 source: src/pages/coding-classes-in-saudi-arabia.html
 ---
-> Live online coding classes in Saudi Arabia for kids, teens and professionals. Batches of 5 to 8, Python and AI tracks, evening AST slots. Free demo class.
+> Live online coding classes in Saudi Arabia for kids, teens and professionals. Batches of 15 to 20, Python and AI tracks, evening AST slots. Free demo class.
 
 Courses
 
@@ -52,7 +52,7 @@ The format is plain and we have kept it the same for years, because it works.
 
 Every class is a live video call with a teacher who knows your child by name. Students talk, share screens and ask questions mid-problem. One hour holds attention; two does not.
 
-### Batches of five to eight
+### Batches of fifteen to twenty
 
 Small enough that nobody hides at the back. If a student is stuck, the instructor sees it in that class, not at the end of the month. One-on-one is available if you prefer it.
 
@@ -123,7 +123,7 @@ The honest pitch
 
 Our teachers are trained instructors, not gig workers reading slides. Many students stay with the same teacher for years.
 
-### Batches of five to eight
+### Batches of fifteen to twenty
 
 Small groups are the whole model. Attention is the product, and everything else follows from it.
 
@@ -225,7 +225,7 @@ Group classes
 
 $100 per month
 
-- Live classes in batches of 5 to 8
+- Live classes in batches of 15 to 20
 - Evening and weekend AST slots
 - Real projects and a completion certificate
 - Starts with a free demo class

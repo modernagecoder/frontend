@@ -4,7 +4,7 @@ description: "What makes the best coding class in the world? Eight tests from re
 canonical: https://learn.modernagecoders.com/best-coding-class-in-the-world
 source: src/pages/best-coding-class-in-the-world.html
 ---
-> The best coding class in the world cannot be named from a ranking, because nobody has tested every class. It can be recognised by what it does. Research on learners shows that most people who start a free self-paced course never finish it, that novices often cannot yet read the code they are asked to write, that feedback from a person who has looked at your work helps, and that AI tools speed up learners who already understand while leaving strugglers with an illusion of competence. Modern Age Coders teaches live online to learners aged 6 to 67 in 25+ countries, in groups of five to ten placed by ability or one to one, with a teacher who reads every learner's code. The first class costs nothing, so the tests can be run on us before anyone pays; continuing costs USD 100 a month in a group or USD 150 one to one.
+> The best coding class in the world cannot be named from a ranking, because nobody has tested every class. It can be recognised by what it does. Research on learners shows that most people who start a free self-paced course never finish it, that novices often cannot yet read the code they are asked to write, that feedback from a person who has looked at your work helps, and that AI tools speed up learners who already understand while leaving strugglers with an illusion of competence. Modern Age Coders teaches live online to learners aged 6 to 67 in 25+ countries, in groups of fifteen to twenty placed by ability or one to one, with a teacher who reads every learner's code. The first class costs nothing, so the tests can be run on us before anyone pays; continuing costs USD 100 a month in a group or USD 150 one to one.
 
 [Home](/) / [Courses](/courses) / Best coding class in the world
 
@@ -34,7 +34,7 @@ The first five come from published studies, set out with their limits in the nex
 |---|---|---|
 | 1. Do learners finish? | In the largest published look at open online courses, among learners who registered for an MITx or HarvardX course on edX and opened it, 3.13 percent completed in 2017-18. | A live teacher at a fixed weekly hour, and a small group that notices when someone is missing. |
 | 2. Do learners read code before writing it? | A multi-national study found many novices at the end of a first course could not reliably predict what short code does. | Every new idea starts with a prediction: what will this code print, and why? |
-| 3. Does a person read the learner's work? | Reviews of tutoring find real gains from a tutor who responds to the learner, though smaller than the famous early claims. | The teacher reads and discusses each learner's code every week, in groups of five to ten. |
+| 3. Does a person read the learner's work? | Reviews of tutoring find real gains from a tutor who responds to the learner, though smaller than the famous early claims. | The teacher reads and discusses each learner's code every week, in groups of fifteen to twenty. |
 | 4. Does the method have evidence? | Classes taught with PRIMM (predict, run, investigate, modify, make) scored higher on a post-test than comparison classes, by a small margin. | Lessons keep the same order: read, predict, run, change, then make something new. |
 | 5. Are AI tools used without handing over the understanding? | Learners who already understand use AI to go faster; learners who struggle can finish with an illusion of competence. | AI tools join the lesson once the learner can predict what the code should do. |
 | 6. Is the work real and public? | Practice, not research: a project someone else can open is harder to fake than a certificate. | Projects go into the learner's own GitHub repository, and some are live on the web. |
@@ -107,7 +107,7 @@ Our teachers work from India. Families in Europe usually learn in the late after
 
 ### A group is not a tutor
 
-Groups of five to ten get a teacher who reads each learner's code, but not one who waits on every line. Learners who need that choose one-to-one lessons at USD 150 a month.
+Groups of fifteen to twenty get a teacher who reads each learner's code, but not one who waits on every line. Learners who need that choose one-to-one lessons at USD 150 a month.
 
 What we do claim is narrower and can be checked: a live teacher in every class since 2020, more than 10,000 students taught in 25+ countries, learners from age 6 to 67, student projects with public addresses, and a rating of 4.9 from 547 Google reviews that anyone can read.
 
@@ -174,7 +174,7 @@ Every class is live, and our teachers work from India. The weekly hour is agreed
 - **Your weekend** Saturday or Sunday, often the easiest choice from the Americas.
 
 - **The first class is the test** A real problem, a real teacher and a straight answer about level. Nothing to pay and no card to give.
-- **Groups of five to ten** Learners at the same stage, from several countries, reading and reviewing one another's code.
+- **Groups of fifteen to twenty** Learners at the same stage, from several countries, reading and reviewing one another's code.
 - **One to one when it fits** For a learner far ahead of or behind a group, an exam year or a fixed deadline.
 - **Code read every week** The teacher reads what each learner wrote and asks them to explain it, which is where most of the learning happens.
 - **AI tools, in order** Assistants come in after prediction, and every suggested line is changed by hand and explained.
@@ -185,7 +185,7 @@ Every class is live, and our teachers work from India. The weekly hour is agreed
 Charged monthly in US dollars at one rate outside India, whatever the course or the learner's age. Nothing to pay on joining and no year-long commitment.
 
 - Free first class: USD 0. A real class on a real problem. An honest placement. No card needed.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher every week. Code read and discussed weekly. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher every week. Code read and discussed weekly. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one learner. Paced to one goal. Best for exams and deadlines.
 
 ## What people ask about finding the best coding class
@@ -220,7 +220,7 @@ Book a free first class and ask three things: how a new idea is introduced, how 
 
 ### What does it cost?
 
-The first class is free. After that it is USD 100 a month for a place in a group of five to ten, or USD 150 a month for one-to-one lessons, charged in US dollars outside India, with no joining fee and no annual contract.
+The first class is free. After that it is USD 100 a month for a place in a group of fifteen to twenty, or USD 150 a month for one-to-one lessons, charged in US dollars outside India, with no joining fee and no annual contract.
 
 ### When are classes held?
 

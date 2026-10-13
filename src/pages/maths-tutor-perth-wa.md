@@ -4,7 +4,7 @@ description: "Online maths tutor for Perth learners, primary to Year 12 and adul
 canonical: https://learn.modernagecoders.com/maths-tutor-perth-wa
 source: src/pages/maths-tutor-perth-wa.html
 ---
-> Modern Age Coders is an online maths tutor for learners in Perth, Western Australia, aged 6 to 67. We teach primary and lower secondary maths and the senior ATAR courses, Mathematics Applications, Mathematics Methods and Mathematics Specialist, plus adult maths. Lessons run live over video on Perth time, privately or in groups of five to ten matched by level, and the first lesson is free.
+> Modern Age Coders is an online maths tutor for learners in Perth, Western Australia, aged 6 to 67. We teach primary and lower secondary maths and the senior ATAR courses, Mathematics Applications, Mathematics Methods and Mathematics Specialist, plus adult maths. Lessons run live over video on Perth time, privately or in groups of fifteen to twenty matched by level, and the first lesson is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Maths tutor in Perth
 
@@ -161,7 +161,7 @@ One teacher and one learner, at a fixed weekly time that never moves with daylig
 
 ### Level-matched groups
 
-Five to ten learners at the same stage. Group members often come from several states, which is how a Perth student meets the Sydney time puzzle in the first place.
+Fifteen to twenty learners at the same stage. Group members often come from several states, which is how a Perth student meets the Sydney time puzzle in the first place.
 
 ### Visible working
 
@@ -228,7 +228,7 @@ Because Perth keeps one clock, a lesson booked for 4:30 pm stays at 4:30 pm all 
 
 - **One regular teacher** Continuity from week to week.
 - **Short parent updates** What was covered, and what is next.
-- **Five to ten per group** Matched by level, not just age.
+- **Fifteen to twenty per group** Matched by level, not just age.
 - **Real-world problems** Clocks, maps and data from Census tables.
 - **Private lessons** For a test, a gap or a head start.
 - **Why before how** Methods are explained before they are drilled.
@@ -238,7 +238,7 @@ Because Perth keeps one clock, a lesson booked for 4:30 pm stays at 4:30 pm all 
 Perth families are billed a single monthly fee in US dollars. Joining is free and there is no minimum term.
 
 - Free first class: USD 0. A real lesson at the right level. A clear note on next steps. No card required.
-- Group batch: USD 100 a month. Five to ten learners. A regular teacher. Marked practice. Leave after any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners. A regular teacher. Marked practice. Leave after any month.
 - One to one: USD 150 a month. Private lessons. Built around one goal. Good before exam season.
 
 ## Questions Perth families ask about maths tutoring

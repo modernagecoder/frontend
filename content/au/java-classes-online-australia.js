@@ -472,7 +472,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Free first class', p: 'A short Java exercise and an honest view of the right starting stage.' },
-      { h3: 'Small groups', p: 'Five to ten students reading each other\'s code.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty students reading each other\'s code.' },
       { h3: 'One to one', p: 'For a unit, a job or a specific project.' },
       { h3: 'Code by the student', p: 'Teachers guide; students type, run and explain.' },
       { h3: 'Tests as standard', p: 'Every class a student writes gets at least one test.' },
@@ -486,7 +486,7 @@ module.exports = {
     h2: 'Fees for Java classes online',
     lede: 'Java lessons are billed monthly in US dollars for learners in Australia. There is no enrolment charge, and a family or adult learner can leave at the end of any month.',
     free: ['A short Java exercise', 'Advice on the right starting stage', 'No card or bank details'],
-    group: ['Five to ten students per class', 'Code reviews within the group', 'A regular teacher', 'Stop after any month'],
+    group: ['Fifteen to twenty students per class', 'Code reviews within the group', 'A regular teacher', 'Stop after any month'],
     one: ['Lessons around one student\'s goals', 'Unit-aligned or work-aligned plans', 'Times around study and work']
   },
   faq: {

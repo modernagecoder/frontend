@@ -16,7 +16,7 @@ Sutherland Shire, Sydney, New South Wales / Live online
 
 A Python program reads 598 rows of train data for the thirteen stations inside the Shire and keeps the rows where column 2 equals "Entry". It finishes instantly, prints nothing, and raises no error. The mistake is one digit: entries and exits live in column 3, while column 2 holds the word Train. Rewrite the same code with named tuples and the filter reads row.direction instead, so the intent is visible, and a misspelt field name stops the program on the spot.
 
-Facts last verified 10 October 2026. Teaching is online; no Sutherland Shire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Sutherland Shire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python courses that build careful habits
 
@@ -195,7 +195,7 @@ The Shire stretches from Waterfall station to Cronulla station across about 334 
 - **No trip across the Shire** Learners join from home, so a family in Engadine and one in Woolooware can share a group without anyone driving.
 - **Aligned with NSW school** Teachers follow the NSW stages and syllabus names, and classes break for the state school holidays.
 - **A first lesson to judge by** The free opening lesson is a full class; at the end the teacher proposes a course, a level and a regular time, with nothing paid that day.
-- **Groups by ability** Five to ten learners working at the same level, regardless of age, or individual lessons instead.
+- **Groups by ability** Fifteen to twenty learners working at the same level, regardless of age, or individual lessons instead.
 - **Twice a week** Normally two lessons each week at a fixed time, about eight a month, with breaks arranged in advance.
 - **Teachers in India** A 4:30pm Shire lesson in summer starts at 11am India time; after Sydney ends daylight saving the same lesson starts at noon there.
 
@@ -206,7 +206,7 @@ The Shire stretches from Waterfall station to Cronulla station across about 334 
 Three numbers, nothing tucked away.
 
 - First class: USD 0. One complete lesson free, with a course, level and time suggested at the end.
-- Group tuition: USD 100 a month. A month of lessons, typically eight, with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of lessons, typically eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Roughly eight lessons a month on the same schedule, one teacher with one learner.
 
 Invoices outside India are in US dollars, so a household in Heathcote pays the same as one in Caringbah. Nothing is charged before the trial has agreed a course and a time; holidays, missed lessons and format changes are set out on the pricing page.
@@ -247,7 +247,7 @@ No, and we do not claim one. All teaching is live online and we have no premises
 
 ### What do coding classes cost in the Sutherland Shire?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month one to one on the same pattern. The course, format and time are agreed before any payment.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month one to one on the same pattern. The course, format and time are agreed before any payment.
 
 ### How many learners share a group?
 

@@ -16,7 +16,7 @@ Killarney, County Kerry / Live online
 
 The census counted Killarney twice, and both counts are official. On census night the town held 14,412 people. The tables that describe the people who live there count 13,456. The difference, 956 people, is 6.63 percent of the census-night count, and no town of 5,000 or more has a larger share. This page turns that difference into a measurement. The learner joins the two tables for all 867 census towns, computes the gap for each, ranks them, and then does the harder thing: works out what the ranking is evidence of, and what it is not. The top of the list is interesting. It is also where a confident explanation is easiest to reach for and hardest to support.
 
-Facts last verified 19 September 2026. Teaching is online; no Killarney branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Killarney branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Killarney learners tend to begin
 
@@ -174,7 +174,7 @@ Let the machine compute the gap. Explaining it still needs a person with a sourc
 The practical side.
 
 - **A teacher in the room** Every lesson is live, and the teacher follows what the learner is building on screen.
-- **Groups by stage** Five to ten learners at the same point in a course, from Kerry, elsewhere in Ireland and abroad.
+- **Groups by stage** Fifteen to twenty learners at the same point in a course, from Kerry, elsewhere in Ireland and abroad.
 - **Two a week, usually** Around eight lessons in a month, at times agreed before the course starts.
 - **Term-time aware** Mid-term breaks, holidays and exam weeks are planned for from the outset.
 - **Equipment** Any reasonably recent laptop or desktop with a camera will do. A tablet makes typing code slow, and headphones help in a busy house.
@@ -187,7 +187,7 @@ The practical side.
 The whole price list.
 
 - First class: USD 0. A full first lesson with a level check, free of charge.
-- Group tuition: USD 100 a month. One month in a group of five to ten at one stage, about eight live lessons.
+- Group tuition: USD 100 a month. One month in a group of fifteen to twenty at one stage, about eight live lessons.
 - Private tuition: USD 150 a month. One month of one-to-one lessons on the same weekly rhythm.
 
 The free lesson settles the course, the group and the weekly times; the first bill comes after that, as a single monthly amount in US dollars, identical for every family outside India. The pricing page explains holidays, missed lessons and moving between a group and private teaching.
@@ -228,7 +228,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Killarney cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

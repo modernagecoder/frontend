@@ -187,7 +187,7 @@ Placement is tested before payment.
 
 ### Group size
 
-Five to eight compatible learners work together.
+Fifteen to twenty compatible learners work together.
 
 ### Private format
 
@@ -317,7 +317,7 @@ Yes. Modern Age Coders teaches ages 6 to 67. Adults may study Python, web develo
 
 ### How much do Mawaleh coding classes cost?
 
-The monthly group plan costs USD 100 for eight live lessons and five to eight learners. The private plan costs USD 150 for eight lessons with one student and one teacher. Both normally meet twice weekly. The first class is free, and Modern Age Coders adds no enrolment fee, compulsory materials purchase or minimum term.
+The monthly group plan costs USD 100 for eight live lessons and fifteen to twenty learners. The private plan costs USD 150 for eight lessons with one student and one teacher. Both normally meet twice weekly. The first class is free, and Modern Age Coders adds no enrolment fee, compulsory materials purchase or minimum term.
 
 ### How are class times coordinated for Oman?
 

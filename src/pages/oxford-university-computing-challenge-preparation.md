@@ -176,7 +176,7 @@ Lessons are live on video from India, where the clock runs five and a half hours
 
 - **Output read first** Every task begins by writing down what the program should print, before any code is typed.
 - **Both tracks taught** Block-based and typed code, and we do not push a student out of the one they are fluent in.
-- **Groups of five to ten** Small enough that every program gets looked at, large enough for two approaches to collide.
+- **Groups of fifteen to twenty** Small enough that every program gets looked at, large enough for two approaches to collide.
 - **Our own problems** Written by us. No Bebras or challenge task is reproduced in a lesson.
 - **One to one on request** For a student far ahead of their year, or one with a particular gap.
 - **Nothing promised** We cannot get a student invited to this round, and we do not claim otherwise.
@@ -186,7 +186,7 @@ Lessons are live on video from India, where the clock runs five and a half hours
 A monthly rate in US dollars, the same for every country outside India. Nothing to join and no term to sign.
 
 - Free first class: USD 0. A full lesson on a real task. An honest read on the right track. No card details taken.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher weekly. Code read line by line. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher weekly. Code read line by line. A certificate at the end.
 - One to one: USD 150 a month. One student with one teacher. Aimed at a specific weakness. For students far ahead of their year.
 
 ## What students and parents ask

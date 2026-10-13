@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding classes in Monmouthshire',
   capsuleQ: 'What are the best coding classes in Monmouthshire?',
-  capsule: 'Monmouthshire had 92,957 usual residents at the 2021 census. Abergavenny, Chepstow and Monmouth are its three main towns, each above 10,000 people, with Caldicot close behind and Undy and Magor, Usk, Gilwern and Llanfoist among the smaller places. Teachers in India run each lesson live by video, and a trial session at no cost shows where a Year 4 child, a sixth former or an adult ought to start. Coding, Python and maths are open to anyone from 6 to 67, taught solo or in a class of five to ten at one level. The Monmouthshire project starts at a hilltop roundhouse above Monmouth. Families who continue pay USD 100 monthly for group classes or USD 150 monthly for solo tuition.',
+  capsule: 'Monmouthshire had 92,957 usual residents at the 2021 census. Abergavenny, Chepstow and Monmouth are its three main towns, each above 10,000 people, with Caldicot close behind and Undy and Magor, Usk, Gilwern and Llanfoist among the smaller places. Teachers in India run each lesson live by video, and a trial session at no cost shows where a Year 4 child, a sixth former or an adult ought to start. Coding, Python and maths are open to anyone from 6 to 67, taught solo or in a class of fifteen to twenty at one level. The Monmouthshire project starts at a hilltop roundhouse above Monmouth. Families who continue pay USD 100 monthly for group classes or USD 150 monthly for solo tuition.',
   lead: 'In 1794 a dining club in Monmouth built a small round tower on the highest point of The Kymin, purely to enjoy the view. Cadw lists the Kymin Roundhouse at Grade II* and records that Nelson breakfasted there in 1802, that its windows were supposedly aligned on objects in the view, and that its flat roof once carried a telescope for the members. A telescope does more than make things bigger. The size of its lens sets the finest detail it can ever show, because light spreads slightly as it passes through any opening. And the air itself adds a shimmer that no lens can beat. How much detail could the club have seen, and what really limited it? Python gives the answer below.',
   wa: 'Hello Modern Age Coders, we are in Monmouthshire and would like to book a free lesson, please.',
 
@@ -159,7 +159,7 @@ module.exports = {
       { h3: 'Pupils write the code', p: 'Every line on screen is typed by the learner; the teacher watches the shared window and steps in only when stuck.' },
       { h3: 'Welsh years and WJEC', p: 'We place a Magor Year 5 or a Monmouth Year 12 using Welsh school years and Curriculum for Wales progression steps, and name exams as WJEC does. Lessons are in English.' },
       { h3: 'A free trial', p: 'One whole lesson at no cost, then straight advice.' },
-      { h3: 'Level-matched groups', p: 'Five to ten learners at one level, from many places.' },
+      { h3: 'Level-matched groups', p: 'Fifteen to twenty learners at one level, from many places.' },
       { h3: 'Term-time lessons', p: 'Two lessons a week during term; holidays off.' },
       { h3: 'Steady UK time', p: 'When British clocks go forward or back, your slot stays put on the local clock and our teachers shift instead.' }
     ],
@@ -170,7 +170,7 @@ module.exports = {
     h2: 'Fees in Monmouthshire',
     intro: 'Chepstow or Abergavenny, the fee is the same, as in every country we teach outside India.',
     first: 'A complete free lesson, followed by a recommendation.',
-    group: 'About eight lessons a month in a group of five to ten.',
+    group: 'About eight lessons a month in a group of fifteen to twenty.',
     private: 'About eight lessons a month with your own teacher.',
     closer: 'We charge in US dollars only; no sterling prices. Nothing is billed until the trial has settled a course and a weekly slot; holidays, missed sessions and changes of format are explained on the pricing page.'
   },

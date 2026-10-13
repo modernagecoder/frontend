@@ -214,7 +214,7 @@ Teachers work from India. During the southern summer, Sydney, Melbourne, Canberr
 - **Weekend** Longer build sessions on bigger projects.
 
 - **Free first class** We look at code you have written, or start from nothing, and set a level honestly.
-- **Small groups** Five to ten students at a similar level, reviewing each other's code.
+- **Small groups** Fifteen to twenty students at a similar level, reviewing each other's code.
 - **One to one** For a specific project, a tight timeline or a faster pace.
 - **Your own code** You type everything. Teachers question and guide; they never write your project for you.
 - **Code review** Each module ends with a review of structure, naming and tests, not just whether it runs.
@@ -225,7 +225,7 @@ Teachers work from India. During the southern summer, Sydney, Melbourne, Canberr
 Outside India the fee is one monthly price in US dollars. There is no enrolment charge and no semester commitment; stop after any month.
 
 - Free first class: USD 0. A short programming task at your level. An honest view of where to start. No card or bank details needed.
-- Group batch: USD 100 a month. Five to ten students per class. A regular teacher who knows your code. Peer code review. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty students per class. A regular teacher who knows your code. Peer code review. Stop after any month.
 - One to one: USD 150 a month. Lessons built around your own game. Your choice of engine and language. Times around school, uni or work.
 
 ## What Australians ask about learning game programming

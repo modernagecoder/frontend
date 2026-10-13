@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI lessons for Bray learners aged 6
 canonical: https://learn.modernagecoders.com/best-coding-class-in-bray
 source: src/pages/best-coding-class-in-bray.html
 ---
-> Bray is the biggest town in County Wicklow, with 33,165 usual residents recorded in the census town tables and 11,835 households, 10,217 of which report broadband. Lessons with us happen at home: a live teacher, twice in most weeks, in an ability group of five to ten or one to one, for learners from six to sixty-seven years old. The first lesson costs nothing, and after it a group place is USD 100 a month while one to one is USD 150.
+> Bray is the biggest town in County Wicklow, with 33,165 usual residents recorded in the census town tables and 11,835 households, 10,217 of which report broadband. Lessons with us happen at home: a live teacher, twice in most weeks, in an ability group of fifteen to twenty or one to one, for learners from six to sixty-seven years old. The first lesson costs nothing, and after it a group place is USD 100 a month while one to one is USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Wicklow](/coding-classes-in-county-wicklow) / Bray
 
@@ -12,11 +12,11 @@ Bray, County Wicklow / Live online
 
 # Coding classes in Bray
 
-**What is the best coding class in Bray?** Bray is the biggest town in County Wicklow, with 33,165 usual residents recorded in the census town tables and 11,835 households, 10,217 of which report broadband. Lessons with us happen at home: a live teacher, twice in most weeks, in an ability group of five to ten or one to one, for learners from six to sixty-seven years old. The first lesson costs nothing, and after it a group place is USD 100 a month while one to one is USD 150.
+**What is the best coding class in Bray?** Bray is the biggest town in County Wicklow, with 33,165 usual residents recorded in the census town tables and 11,835 households, 10,217 of which report broadband. Lessons with us happen at home: a live teacher, twice in most weeks, in an ability group of fifteen to twenty or one to one, for learners from six to sixty-seven years old. The first lesson costs nothing, and after it a group place is USD 100 a month while one to one is USD 150.
 
 Line up Bray by single years of age and something looks like news. The census counts 2,245 residents aged ten to fourteen and only 1,704 aged four or under, a quarter fewer, and the obvious headline writes itself: fewer children in Bray. The headline is not supported. One census is one day, and those two groups are two different sets of people, not the same children photographed twice. Families arrive and leave, houses change hands, and the youngest band has had less time to be added to. Look at the row for all towns combined and it slopes the same way, 211,241 against 257,812, which is a pattern in the country rather than a story about this town. To say whether anything in Bray is rising or falling you need two censuses of the same area, and this page shows what that would take.
 
-Facts last verified 18 September 2026. Teaching is online; no Bray branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 18 September 2026. Teaching is online; no Bray branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where a Bray learner begins
 
@@ -171,7 +171,7 @@ Producing a plausible trend is now free. Knowing when there is no trend to produ
 Six things worth knowing before booking.
 
 - **Always live** A teacher is present for the whole lesson, watching the work and correcting it as it happens.
-- **Levels, not ages** Five to ten learners who are at the same stage, whether they log in from Bray, elsewhere in Ireland or abroad.
+- **Levels, not ages** Fifteen to twenty learners who are at the same stage, whether they log in from Bray, elsewhere in Ireland or abroad.
 - **Twice most weeks** Around eight lessons a month, in an hour the household picks once and then keeps.
 - **Term aware** Mid-terms, holidays and exam weeks go into the plan at the start rather than being worked around later.
 - **Equipment** A desktop or laptop, sound in both directions and a connection that holds video, all tried out in the free lesson.
@@ -184,7 +184,7 @@ Six things worth knowing before booking.
 Three lines cover it.
 
 - First class: USD 0. The first lesson in full, taught and assessed, with nothing to pay.
-- Group tuition: USD 100 a month. A month in an ability group of five to ten learners, about eight live lessons.
+- Group tuition: USD 100 a month. A month in an ability group of fifteen to twenty learners, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one to one teaching on the same weekly pattern.
 
 Fees are charged monthly in US dollars on the one rate that applies to families outside India, so a household in Bray sees exactly what a household in Greystones sees, with no euro list beside it. Nothing is charged before a course and an hour have been agreed in the free lesson, and the pricing page explains breaks, missed lessons and moving between group and private teaching.
@@ -225,7 +225,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Bray cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

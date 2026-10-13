@@ -4,7 +4,7 @@ description: "Online coding, AI, Python and vibe coding lessons for Farnborough,
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-farnborough
 source: src/pages/best-coding-and-ai-classes-in-farnborough.html
 ---
-> The ONS gives the Farnborough built-up area 60,655 residents at the 2021 census and Aldershot 39,825, in Rushmoor, a borough of 99,756. Cove, North Camp, Southwood, West Heath and Farnborough Park are recorded suburbs lying inside Farnborough's built-up area. Rushmoor learners aged six to 67 are taught coding, AI, Python, vibe coding and maths on camera by tutors working from India, privately or inside a level-matched class of five to ten. We put thinking first, so learners can explain why a model or chatbot said what it did. Your first lesson is free and closes with our course recommendation. The Farnborough project trains a model on 318 Census areas and then interrogates it about which inputs it actually uses, with a column of random numbers planted as a test. Past the trial, a class place is USD 100 per month and a private tutor USD 150 per month.
+> The ONS gives the Farnborough built-up area 60,655 residents at the 2021 census and Aldershot 39,825, in Rushmoor, a borough of 99,756. Cove, North Camp, Southwood, West Heath and Farnborough Park are recorded suburbs lying inside Farnborough's built-up area. Rushmoor learners aged six to 67 are taught coding, AI, Python, vibe coding and maths on camera by tutors working from India, privately or inside a level-matched class of fifteen to twenty. We put thinking first, so learners can explain why a model or chatbot said what it did. Your first lesson is free and closes with our course recommendation. The Farnborough project trains a model on 318 Census areas and then interrogates it about which inputs it actually uses, with a column of random numbers planted as a test. Past the trial, a class place is USD 100 per month and a private tutor USD 150 per month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Farnborough
 
@@ -12,11 +12,11 @@ Farnborough, Rushmoor, Hampshire, England / Live online
 
 # Coding and AI classes in Farnborough
 
-**Where can Farnborough learners find the best coding and AI classes?** The ONS gives the Farnborough built-up area 60,655 residents at the 2021 census and Aldershot 39,825, in Rushmoor, a borough of 99,756. Cove, North Camp, Southwood, West Heath and Farnborough Park are recorded suburbs lying inside Farnborough's built-up area. Rushmoor learners aged six to 67 are taught coding, AI, Python, vibe coding and maths on camera by tutors working from India, privately or inside a level-matched class of five to ten. We put thinking first, so learners can explain why a model or chatbot said what it did. Your first lesson is free and closes with our course recommendation. The Farnborough project trains a model on 318 Census areas and then interrogates it about which inputs it actually uses, with a column of random numbers planted as a test. Past the trial, a class place is USD 100 per month and a private tutor USD 150 per month.
+**Where can Farnborough learners find the best coding and AI classes?** The ONS gives the Farnborough built-up area 60,655 residents at the 2021 census and Aldershot 39,825, in Rushmoor, a borough of 99,756. Cove, North Camp, Southwood, West Heath and Farnborough Park are recorded suburbs lying inside Farnborough's built-up area. Rushmoor learners aged six to 67 are taught coding, AI, Python, vibe coding and maths on camera by tutors working from India, privately or inside a level-matched class of fifteen to twenty. We put thinking first, so learners can explain why a model or chatbot said what it did. Your first lesson is free and closes with our course recommendation. The Farnborough project trains a model on 318 Census areas and then interrogates it about which inputs it actually uses, with a column of random numbers planted as a test. Past the trial, a class place is USD 100 per month and a private tutor USD 150 per month.
 
 Once a machine learning model is trained, people want to know why it predicts what it does. The common shortcut is a feature importance score, a percentage for each input that most libraries print with one line of code. Those numbers look authoritative, but they are not all equally trustworthy. This project gives a random forest four inputs about each of Rushmoor's 318 Census areas, three genuine and one made of pure random numbers, and asks it to predict how many households live in flats. Then it compares two ways of asking the model which inputs mattered. A good method should give the random column nothing.
 
-Facts last verified 29 September 2026. Teaching is online; no Farnborough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Farnborough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Farnborough courses in reasoning, Python and AI
 
@@ -132,7 +132,7 @@ Bring a computer and an internet connection that handles video; that is the whol
 - **Learner at the controls** Code, prompts and test runs are all done by the student, with the tutor following the shared screen and asking for reasons.
 - **Starting from the trial** What the free session uncovers sets the first topic; exam boards go on file.
 - **No fee for lesson one** The trial is free and wraps up with a course suggestion.
-- **Same-level classes** Five to ten learners from across the UK make up each class, all at one stage.
+- **Same-level classes** Fifteen to twenty learners from across the UK make up each class, all at one stage.
 - **Two each week** Paused in school holidays.
 - **Stable lesson time** Tutors adjust when UK clocks change, so your hour stays put.
 

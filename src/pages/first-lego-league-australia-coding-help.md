@@ -33,7 +33,7 @@ FIRST Australia's program comparison sets out who each division is for and how i
 |  | Explore | Challenge | Future Edition |
 |---|---|---|---|
 | Students | Ages 6 to 10 (Years 1 to 4) | Ages 9 to 16 (Years 4 to 10) | Ages 8 to 16 (Years 3 to 10) |
-| Team size | Up to 6 students | Up to 10 students | Up to 8 students |
+| Team size | Up to 6 students | Up to 10 students | Up to 20 students |
 | Coaches | At least 1 | At least 2 | At least 2 |
 | Robot game | No matches; models built and shared | Autonomous matches of 2:30 | Autonomous matches of 2:30 |
 | Technology | LEGO Education SPIKE Essential | LEGO Education SPIKE Prime | LEGO Education Computer Science and AI kits |
@@ -195,7 +195,7 @@ Teachers work from India, behind Australian clocks: Melbourne is four and a half
 - **Measure, then code** Students use real measurements instead of guessed numbers.
 - **The team's robot** We teach and question; the team builds and programs.
 - **Blocks or Python** Whichever the team uses, with a path to the other.
-- **Groups of five to ten** Students at a similar level sharing methods.
+- **Groups of fifteen to twenty** Students at a similar level sharing methods.
 - **One-to-one option** For the team member leading the programming.
 - **No result promised** Referees and judges decide; we build the skills.
 
@@ -204,7 +204,7 @@ Teachers work from India, behind Australian clocks: Melbourne is four and a half
 Lessons are billed each month in US dollars at our international rate, with no joining fee and no contract. Team registration and kits are bought separately from FIRST Australia and its suppliers, not through us.
 
 - Free first class: USD 0. A first lesson that costs nothing. A look at how the student programs now. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. One teacher for the whole term. Movement and sensor exercises done together. A certificate on finishing.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. One teacher for the whole term. Movement and sensor exercises done together. A certificate on finishing.
 - One to one: USD 150 a month. A teacher for a single student. Time on that student's own team programs. Times arranged around team meetings.
 
 ## What families and coaches ask

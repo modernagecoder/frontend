@@ -16,7 +16,7 @@ Mullingar, County Westmeath / Live online
 
 Most figures anybody quotes come from a survey: a few hundred people asked, and the answer scaled up. The census is different. Of the 7,440 Mullingar households that answered its internet question, 6,636 reported broadband, so the true share is known exactly: 89.19%. That makes the town a rare chance to check what a survey would have said. We ran a thousand imaginary surveys of 100 households each, drawn at random from those 7,440, with a fixed seed so anybody can repeat them. The middle 95% of those surveys reported anything from 83.0% to 95.0%, and the unluckiest said 78%. Four times as many households per survey halved the spread. That is the whole project, and it changes how a learner reads every poll for the rest of their life.
 
-Facts last verified 19 September 2026. Teaching is online; no Mullingar branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Mullingar branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses for Mullingar learners
 
@@ -163,7 +163,7 @@ Machines are fluent with percentages. Knowing how much a percentage can be trust
 The practical side.
 
 - **Taught live** A real teacher, present for the full hour, reacting to the learner's own screen.
-- **Grouped by level** Five to ten learners at one stage, from Mullingar, elsewhere in Ireland and other countries.
+- **Grouped by level** Fifteen to twenty learners at one stage, from Mullingar, elsewhere in Ireland and other countries.
 - **Twice most weeks** Around eight lessons a month at the hour agreed when the course starts.
 - **School terms respected** Holidays, mid-terms and exam weeks are planned in from the outset.
 - **What to have ready** A computer rather than a tablet or phone, audio that works both ways, and a line that will carry a live call for an hour.
@@ -176,7 +176,7 @@ The practical side.
 Three lines cover everything.
 
 - First class: USD 0. The introductory lesson, taught in full and assessed, free of charge.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, about eight live lessons.
 - Private tuition: USD 150 a month. A month of private lessons on the same weekly schedule.
 
 One rate, in US dollars, charged monthly and identical for every family outside India, with no euro figure printed beside it. Nothing is invoiced for the introductory hour or before a course and a time have been chosen, and the pricing page sets out what happens during holidays, after an absence, or when a learner moves between a group and private lessons.
@@ -217,7 +217,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Mullingar cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

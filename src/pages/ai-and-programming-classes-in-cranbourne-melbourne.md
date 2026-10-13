@@ -16,7 +16,7 @@ Cranbourne, City of Casey, Melbourne, Victoria / Live online
 
 Give a model two inputs that say almost the same thing and it can still predict well. What it cannot do is decide how much credit each input deserves. We fitted that kind of model to every metropolitan station, including Cranbourne's, and watched the coefficients swing from one resample to the next.
 
-Facts last verified 11 October 2026. Teaching is online; no Cranbourne branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 October 2026. Teaching is online; no Cranbourne branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that read a model, not just run it
 
@@ -186,7 +186,7 @@ Every lesson is on screen, so no travel is needed from any part of Cranbourne.
 - **Shared code and plots** Teacher and learner write and run code together and talk through each chart.
 - **Term-based plans** Lessons follow Victorian school terms with holiday breaks.
 - **A genuine trial** The free first class teaches real content and ends with a clear suggestion.
-- **Five to ten per group** Groups formed by level and pace, sometimes across states.
+- **Fifteen to twenty per group** Groups formed by level and pace, sometimes across states.
 - **Two lessons a week** Fixed times, about eight lessons a month, with planned breaks.
 - **Teachers in India** A 6:30pm Cranbourne lesson in daylight saving starts at 1pm India time, and at 2pm there after April.
 
@@ -197,7 +197,7 @@ Every lesson is on screen, so no travel is needed from any part of Cranbourne.
 Three prices, nothing hidden.
 
 - First class: USD 0. The first lesson is free and finishes with a straight recommendation.
-- Group tuition: USD 100 a month. One month of group lessons, typically eight, with five to ten learners at a similar level.
+- Group tuition: USD 100 a month. One month of group lessons, typically eight, with fifteen to twenty learners at a similar level.
 - Private tuition: USD 150 a month. Around eight lessons a month, one teacher and one learner.
 
 Learners abroad pay in US dollars, and payment comes only after the trial, once a course and regular time suit the family. Holiday pauses, absences and moving to private lessons are laid out on the pricing page.
@@ -234,7 +234,7 @@ No. All classes are live online, we have no office in Australia, and the phone n
 
 ### What do classes cost for Cranbourne learners?
 
-The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.
+The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.
 
 ### How many learners are in a group?
 

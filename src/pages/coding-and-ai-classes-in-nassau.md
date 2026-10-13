@@ -8,7 +8,7 @@ source: src/pages/coding-and-ai-classes-in-nassau.html
 
 In short
 
-Modern Age Coders runs a live online twelve-month Python and AI track for learners in Nassau and across New Providence, aged six to sixty-seven, in batches of five to eight or one to one. Students write real Python, handle real data, train and measure models, build agents and publish on GitHub, with individual progress tracking and a written update to the parent every month. Sessions are ninety minutes, weekly, and the main slots are Saturday and Sunday mornings in Nassau because of the time difference, which this page sets out in full. Group teaching is USD 100 a month, private teaching USD 150, and the first class is free.
+Modern Age Coders runs a live online twelve-month Python and AI track for learners in Nassau and across New Providence, aged six to sixty-seven, in batches of fifteen to twenty or one to one. Students write real Python, handle real data, train and measure models, build agents and publish on GitHub, with individual progress tracking and a written update to the parent every month. Sessions are ninety minutes, weekly, and the main slots are Saturday and Sunday mornings in Nassau because of the time difference, which this page sets out in full. Group teaching is USD 100 a month, private teaching USD 150, and the first class is free.
 
 The reason this page exists
 
@@ -312,7 +312,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Weekly build work reviewed by the teacher
 - Certificate on completion
@@ -345,7 +345,7 @@ No, and the two do not overlap. Upskill Bahamas is a free government platform la
 
 ### How much does it cost?
 
-A group batch of five to eight students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same flat figures everywhere outside India. There is no enrolment fee, no annual contract, and the first class is free without a card.
+A group batch of fifteen to twenty students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same flat figures everywhere outside India. There is no enrolment fee, no annual contract, and the first class is free without a card.
 
 ### Do you have a centre in Nassau?
 

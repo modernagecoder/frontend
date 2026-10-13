@@ -309,7 +309,7 @@ module.exports = {
       { h3: 'A teacher in the session', p: 'Code is written and corrected together while the teacher watches the screen.' },
       { h3: 'Built for NSW schools', p: 'Lessons use NSW stage language and follow state school holidays.' },
       { h3: 'Free trial class', p: 'One full lesson at no charge, then a suggested course, level and time.' },
-      { h3: 'Groups at one level', p: 'Five to ten learners of similar ability, or individual lessons if preferred.' },
+      { h3: 'Groups at one level', p: 'Fifteen to twenty learners of similar ability, or individual lessons if preferred.' },
       { h3: 'Fixed weekly times', p: 'Two lessons a week, about eight a month, with breaks planned ahead.' },
       { h3: 'Teachers in India', p: 'A 4pm Oran Park lesson is 10:30am India time under Sydney summer time and 11:30am outside it.' }
     ],
@@ -322,7 +322,7 @@ module.exports = {
     h2: 'Oran Park lesson fees',
     intro: 'Simple, flat prices, the same for every course.',
     first: 'The first lesson is free and ends with a recommended course and timetable.',
-    group: 'Two lessons a week, around eight a month, in a group of five to ten learners at one level.',
+    group: 'Two lessons a week, around eight a month, in a group of fifteen to twenty learners at one level.',
     private: 'One-to-one teaching on the same schedule, roughly eight lessons a month.',
     closer: 'Families outside India pay in US dollars. Payment starts only once the trial has agreed a course and a time; the pricing page covers holidays, missed lessons and format changes.'
   },
@@ -368,12 +368,12 @@ module.exports = {
       },
       {
         q: 'How much do Oran Park lessons cost?',
-        a: 'The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.',
+        a: 'The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.',
         boiler: true
       },
       {
         q: 'How big are the groups?',
-        a: 'Five to ten learners, grouped by level and goals rather than age. If no group fits the learner\'s schedule, one-to-one lessons are offered instead.',
+        a: 'Fifteen to twenty learners, grouped by level and goals rather than age. If no group fits the learner\'s schedule, one-to-one lessons are offered instead.',
         boiler: true
       }
     ]

@@ -63,7 +63,7 @@ module.exports = {
 
   h1: 'Coding classes in Bangor, Northern Ireland',
   capsuleQ: 'What are the best coding classes in Bangor, Northern Ireland?',
-  capsule: 'The Bangor settlement had 64,596 usual residents at the 2021 census, according to the Northern Ireland Statistics and Research Agency, within the council area of Ards and North Down. The Historic Environment Division lists the Tower House on Quay Street with a construction date of 1600 to 1649. Bangor learners aged six to sixty-seven are taught live over video by teachers based in India, singly or in classes of five to ten at one level, with lesson times arranged around the Northern Ireland school day and working hours. The first lesson is free, and after that a class place is USD 100 a month and one-to-one teaching USD 150 a month.',
+  capsule: 'The Bangor settlement had 64,596 usual residents at the 2021 census, according to the Northern Ireland Statistics and Research Agency, within the council area of Ards and North Down. The Historic Environment Division lists the Tower House on Quay Street with a construction date of 1600 to 1649. Bangor learners aged six to sixty-seven are taught live over video by teachers based in India, singly or in classes of fifteen to twenty at one level, with lesson times arranged around the Northern Ireland school day and working hours. The first lesson is free, and after that a class place is USD 100 a month and one-to-one teaching USD 150 a month.',
   lead: 'On an ordinary Wednesday, Translink\'s timetable has 51 trains leaving Bangor for Belfast, an average of one every 19.82 minutes. So an average wait of about ten minutes? No. Some trains leave three minutes apart in the rush hour, while in the evening the gaps stretch to half an hour or more, and a passenger who turns up at a random moment is far more likely to land in a long gap than a short one. Our Bangor project rebuilds the timetable from Translink\'s open data and measures the real average wait: 13.64 minutes, not 9.91. Teenagers prove it with a formula, then again by simulating 200,000 passengers.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Bangor, Northern Ireland.',
 
@@ -187,7 +187,7 @@ module.exports = {
       { h3: 'Coast and line', p: 'A learner in Seahill and another in Crawfordsburn can share a class without waiting on any platform.' },
       { h3: 'Northern Ireland school years', p: 'Our stages follow Northern Ireland schooling from P1 to Year 14, through the transfer test years to CCEA GCSE and A level, with every lesson taught in English.' },
       { h3: 'A working first lesson', p: 'The free session is real coding, not a presentation, and ends with the teacher recommending a level, a course and a weekly slot. No card is needed.' },
-      { h3: 'Classes by level', p: 'Five to ten learners at the same stage, drawn from Bangor, the rest of the UK and abroad, so every level has workable times.' },
+      { h3: 'Classes by level', p: 'Fifteen to twenty learners at the same stage, drawn from Bangor, the rest of the UK and abroad, so every level has workable times.' },
       { h3: 'Two lessons weekly', p: 'Two fixed lessons each week, about eight a month, with holidays and exam study arranged with the teacher in advance.' },
       { h3: 'India time', p: 'India does not change its clocks, so a Bangor lesson at 5 pm starts at 21:30 for our teachers in summer and 22:30 in winter.' }
     ],
@@ -198,7 +198,7 @@ module.exports = {
     h2: 'Bangor lesson fees',
     intro: 'The first lesson is free, then there is one monthly fee.',
     first: 'A full lesson with no charge, ending with a suggested level, course and weekly slot.',
-    group: 'Around eight live lessons a month, in a class of five to ten learners at one stage.',
+    group: 'Around eight live lessons a month, in a class of fifteen to twenty learners at one stage.',
     private: 'Around eight live lessons a month, with a teacher for your learner alone.',
     closer: 'Families in Clandeboye or Bangor West pay in US dollars, like all families outside India, and our site shows no pound prices. Nothing is charged until after the free lesson and the agreement of a course and weekly slot; the pricing page explains pauses, missed lessons and switching between group and one-to-one teaching.'
   },
@@ -223,8 +223,8 @@ module.exports = {
       { q: 'Which Bangor buildings are listed?', a: 'The Historic Environment Division lists the Town Hall at Bangor Castle at Grade A and the Tower House on Quay Street at Grade B1, and, on the line to Belfast, the station at Helen\'s Bay and the viaduct in Crawfordsburn Country Park at Grade A.' },
       { q: 'When are Bangor lessons?', a: 'Bangor families usually choose a time after school, on a weekday evening or at the weekend, agreed in the free lesson. With our teachers in India, that is a late-evening lesson for them: four and a half hours ahead of Northern Ireland in summer, five and a half in winter.' },
       { q: 'Is there a centre in Bangor?', a: 'No. We have no Bangor centre and no premises anywhere in the UK, because every lesson is live online. Learners need a computer with sound and a steady connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do Bangor lessons cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than age or where they live, with five to ten learners at the same stage. If no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'What do Bangor lessons cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than age or where they live, with fifteen to twenty learners at the same stage. If no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

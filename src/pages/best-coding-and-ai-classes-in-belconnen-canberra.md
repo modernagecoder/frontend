@@ -16,7 +16,7 @@ Belconnen district, north-west Canberra, ACT / Live online
 
 Belconnen is Canberra's biggest district by population, a ring of suburbs from Aranda and Weetangera out to Strathnairn and Macnamara on the western edge. Many of its suburb names also turn up elsewhere in Canberra, on streets, parks and parking bays. That makes them a good test set for fast text search.
 
-Facts last verified 13 October 2026. Teaching is online; no Belconnen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Belconnen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Algorithms, Python and AI
 
@@ -182,7 +182,7 @@ Classes are live over video, so learners join from home anywhere from Kaleen to 
 - **Live teacher** Each lesson is taught in real time, with code reviewed as it is written.
 - **ACT terms** Classes follow the ACT school terms and pause in the holidays.
 - **Free start** One free lesson, then a written course plan.
-- **Groups or private** Five to ten learners at one level, or one to one.
+- **Groups or private** Fifteen to twenty learners at one level, or one to one.
 - **Two a week** About eight lessons a month.
 - **India time** Until 4 April 2027, a 5pm Belconnen lesson is 11:30am in India.
 
@@ -193,7 +193,7 @@ Classes are live over video, so learners join from home anywhere from Kaleen to 
 The same fees for every learner.
 
 - First class: USD 0. The first lesson is free and ends with a plan.
-- Group tuition: USD 100 a month. Group classes: about eight lessons a month, five to ten learners.
+- Group tuition: USD 100 a month. Group classes: about eight lessons a month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private classes: about eight lessons a month with one teacher.
 
 Fees are charged in US dollars and start only after the free lesson has set a course and weekly time. The pricing page covers holidays and missed lessons.
@@ -230,11 +230,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Belconnen classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How are groups formed?
 
-By level and pace, five to ten learners each, not by age or suburb. One-to-one lessons suit anyone no group time fits.
+By level and pace, fifteen to twenty learners each, not by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Can adults join?
 

@@ -185,7 +185,7 @@ Lessons are live on video from India, where the clock sits five and a half hours
 
 - **Accuracy before speed** We work on getting it right when hurried, which is the thing a chained round actually tests.
 - **Answers said aloud** Every answer is stated and repeated back, which is the habit that stops shuttle handovers going wrong.
-- **Five to ten learners** A group is large enough that two methods meet and small enough that every answer is heard.
+- **Fifteen to twenty learners** A group is large enough that two methods meet and small enough that every answer is heard.
 - **Our own material** Practice rounds written by us. UKMT publishes its own past material and that is where the real thing lives.
 - **One to one when needed** For a squad member with one specific weakness to close before a regional.
 - **Nothing promised** We cannot register a team or influence selection, and we promise no result.
@@ -195,7 +195,7 @@ Lessons are live on video from India, where the clock sits five and a half hours
 One monthly rate in US dollars for families outside India. No registration fee and no minimum number of months.
 
 - Free first class: USD 0. A full lesson with a teacher. An honest read on where the errors come from. No card details taken.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher every week. Work checked and talked through. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher every week. Work checked and talked through. A certificate at the end.
 - One to one: USD 150 a month. A teacher working with one learner. Aimed at one specific weakness. Useful in the weeks before a regional final.
 
 ## What teachers and parents ask

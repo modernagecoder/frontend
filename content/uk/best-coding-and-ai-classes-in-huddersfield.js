@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Huddersfield',
   capsuleQ: 'Where can Huddersfield learners find the best coding and AI classes?',
-  capsule: 'The 2021 census put Kirklees at 433,214 people, and 141,675 of them lived in the ONS built-up area of Huddersfield. School-age children and older teenagers are above the England share, while adults in their early thirties are a little below it. From Honley to Marsden, anyone aged 6 to 67 can learn coding, AI, Python or maths with our India-based tutors in real-time video lessons, solo or in level-matched classes of five to ten. The opening lesson is free and chooses the course. The Huddersfield project checks a year of readings from a river sensor in the town. After that, valley families pay USD 100 monthly in a class of peers or USD 150 monthly with a tutor alone.',
+  capsule: 'The 2021 census put Kirklees at 433,214 people, and 141,675 of them lived in the ONS built-up area of Huddersfield. School-age children and older teenagers are above the England share, while adults in their early thirties are a little below it. From Honley to Marsden, anyone aged 6 to 67 can learn coding, AI, Python or maths with our India-based tutors in real-time video lessons, solo or in level-matched classes of fifteen to twenty. The opening lesson is free and chooses the course. The Huddersfield project checks a year of readings from a river sensor in the town. After that, valley families pay USD 100 monthly in a class of peers or USD 150 monthly with a tutor alone.',
   lead: 'At Longroyd Bridge, a weir on the River Colne in Huddersfield carries an Environment Agency level sensor that reports every fifteen minutes, day and night. In 2025 it sent 35,040 readings. Sensors fail in ordinary ways: they stick and repeat one number, they jump for a moment and fall back, or they go silent. Data teams write rules to catch these faults automatically. So a Huddersfield learner writes three rules in Python, runs them over the whole year, and waits for the alarms. Plenty arrive. The real lesson is what happens next, when the learner checks each alarm against what the Agency itself says about the data, and discovers that the very first fault found was not in the sensor at all.',
   wa: 'Hello Modern Age Coders, I would like a free coding or AI lesson for a learner in Huddersfield.',
 
@@ -164,7 +164,7 @@ module.exports = {
       { h3: 'Hands on the code', p: 'Nothing is typed for the learner; the tutor watches over screen share and nudges with a question instead.' },
       { h3: 'Started at the right level', p: 'Year 5 or Year 12, the school year and the trial together set the first topic, with the exam board in mind.' },
       { h3: 'Try before paying', p: 'A complete first lesson is free, and it closes with the course we suggest and the reason for it.' },
-      { h3: 'Same-stage groups', p: 'Classes of five to ten UK learners at one level.' },
+      { h3: 'Same-stage groups', p: 'Classes of fifteen to twenty UK learners at one level.' },
       { h3: 'Two lessons a week', p: 'During term time; holidays stay free.' },
       { h3: 'Fixed hour', p: 'UK clock changes are handled by our tutors.' }
     ],

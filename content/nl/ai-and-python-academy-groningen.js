@@ -46,13 +46,13 @@ module.exports = {
     ['Aim', 'A first year of university AI that feels familiar'],
     ['Track', 'Python, maths in code, models, agents'],
     ['Delivery', 'Live video with a teacher, never recorded'],
-    ['Groups', '5 to 10 learners, or one to one'],
+    ['Groups', '15 to 20 learners, or one to one'],
     ['Hours', 'Dutch afternoons, evenings and weekends'],
     ['Taught in', 'English, as the degree is'],
     ['First lesson', 'Free, with nothing to pay']
   ],
   capsuleQ: 'In short',
-  capsule: 'For learners in Groningen, Modern Age Coders runs a live online track from typed Python through the mathematics of machine learning, written as code, to trained models and AI agents, in English, in groups of five to ten or one to one, for ages six to sixty-seven. It is shaped around a concrete target: the first year of the University of Groningen\'s English-taught AI bachelor, which admits every vwo profile and then asks for calculus, programming, statistics and logic, with 45 EC to earn in twelve months. The same ladder serves a groep 7 child starting out and an adult retraining. The first lesson is free; after it, a group place is USD 100 a month and one-to-one tuition USD 150.',
+  capsule: 'For learners in Groningen, Modern Age Coders runs a live online track from typed Python through the mathematics of machine learning, written as code, to trained models and AI agents, in English, in groups of fifteen to twenty or one to one, for ages six to sixty-seven. It is shaped around a concrete target: the first year of the University of Groningen\'s English-taught AI bachelor, which admits every vwo profile and then asks for calculus, programming, statistics and logic, with 45 EC to earn in twelve months. The same ladder serves a groep 7 child starting out and an adult retraining. The first lesson is free; after it, a group place is USD 100 a month and one-to-one tuition USD 150.',
 
   picks: {
     eyebrow: 'Start here',
@@ -192,7 +192,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A first lesson that teaches', p: 'The learner works on a real problem while the teacher watches how they think. That settles the starting rung far better than a questionnaire.' },
-      { h3: 'Five to ten per group', p: 'Groups are formed by ability from learners in many countries, so a quick student in Groningen is stretched and a new one is not left behind.' },
+      { h3: 'Fifteen to twenty per group', p: 'Groups are formed by ability from learners in many countries, so a quick student in Groningen is stretched and a new one is not left behind.' },
       { h3: 'One to one when it fits better', p: 'For a first-year student with a shifting timetable, an adult with a narrow goal, or anyone who wants the pace set around them.' },
       { h3: 'Long enough to build something', p: 'Lessons are live, with both screens shared, so a misunderstanding is caught while it forms rather than a week later.' },
       { h3: 'English throughout', p: 'The same language as the Groningen degree, the documentation and the error messages. Dutch school terms such as vwo and profielkeuze are used as they are.' },
@@ -208,7 +208,7 @@ module.exports = {
     h2: 'The fees, in full',
     lede: 'Charged monthly in US dollars, at the same two rates as everywhere outside India. There is no Groningen or Dutch surcharge, no joining fee and no annual contract. Copilot Studio courses are one to one by design and so use the one-to-one rate.',
     free: ['A real lesson on a real problem', 'Finds the starting rung', 'No card and no commitment'],
-    group: ['A group of five to ten at one level', 'Taught live by the same teacher', 'Work reviewed every week', 'Certificate on completion'],
+    group: ['A group of fifteen to twenty at one level', 'Taught live by the same teacher', 'Work reviewed every week', 'Certificate on completion'],
     one: ['One learner, one teacher', 'Pace and syllabus set around the goal', 'Required for Copilot Studio courses']
   },
 
@@ -224,7 +224,7 @@ module.exports = {
       { q: 'Is the course in English, and is that a problem?', a: 'It is in English, like the Groningen AI degree itself. For a vwo pupil that is practice for the lecture hall; the university recommends a voldoende for vwo English for exactly that reason.' },
       { q: 'Can a first-year student in Groningen join mid-year?', a: 'Yes. Students usually take the mathematics or the algorithms course one to one, fitted around their own timetable, and use the lessons to work through the ideas their degree is covering.' },
       { q: 'Is this only for future AI students?', a: 'No. The ladder starts at groep 6 and serves adults too. The Groningen AI bachelor is the clearest target for a teenager, but the same skills suit computing science, econometrics, a hogeschool course, or a job.' },
-      { q: 'What does it cost?', a: 'USD 100 a month for a place in a group of five to ten learners, or USD 150 a month for one-to-one tuition, both billed in US dollars. There is no joining fee and no yearly contract, and the first lesson is free.' },
+      { q: 'What does it cost?', a: 'USD 100 a month for a place in a group of fifteen to twenty learners, or USD 150 a month for one-to-one tuition, both billed in US dollars. There is no joining fee and no yearly contract, and the first lesson is free.' },
       { q: 'What happens after I fill in the form?', a: 'A teacher contacts you at a Dutch hour to arrange the free lesson. Nothing is charged and no place is reserved until after that lesson, when the family decides.' }
     ]
   },

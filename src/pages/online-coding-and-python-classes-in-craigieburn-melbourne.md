@@ -16,7 +16,7 @@ Craigieburn, City of Hume, Melbourne, Victoria / Live online
 
 Comparing two years of station figures sounds like one line of pandas. It is, once the two files are joined. The join is where the trouble hides: rows that do not match simply vanish, and the result looks complete. pandas has a switch that shows exactly what went missing.
 
-Facts last verified 10 October 2026. Teaching is online; no Craigieburn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Craigieburn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that build up to pandas
 
@@ -185,7 +185,7 @@ All lessons are live online, so Craigieburn learners need no lift or train to at
 - **Home desk** Join on a laptop; the teacher sees the screen and guides each step.
 - **In step with school** Lessons follow Victorian terms and pause in the state school holidays.
 - **Free first class** A whole lesson first, then a suggested course and lesson time.
-- **Groups by ability** Five to ten learners at the same level, from many areas.
+- **Groups by ability** Fifteen to twenty learners at the same level, from many areas.
 - **Two each week** Two set lessons a week, close to eight per month.
 - **Teachers in India** Our teachers work in India: 5pm in Craigieburn is 11:30am India time under daylight saving and 12:30pm afterwards.
 
@@ -196,7 +196,7 @@ All lessons are live online, so Craigieburn learners need no lift or train to at
 Three simple options.
 
 - First class: USD 0. A free first lesson, finishing with honest advice on the next step.
-- Group tuition: USD 100 a month. A month of group lessons, close to eight, five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group lessons, close to eight, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. A month of one-to-one lessons, close to eight, one teacher throughout.
 
 Craigieburn families pay in US dollars, the same as every family outside India. No payment is due until the trial fixes the course and time; see the pricing page for holidays and missed lessons.
@@ -233,7 +233,7 @@ No. All teaching is live online, there is no Australian office, and the phone nu
 
 ### How much are classes for Craigieburn learners?
 
-The first lesson is free. After it, group classes cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. We confirm course, format and time before any payment.
+The first lesson is free. After it, group classes cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. We confirm course, format and time before any payment.
 
 ### How many learners share a class?
 

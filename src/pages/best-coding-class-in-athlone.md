@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes for Athlone learners age
 canonical: https://learn.modernagecoders.com/best-coding-class-in-athlone
 source: src/pages/best-coding-class-in-athlone.html
 ---
-> The census records 22,664 usual residents for Athlone, in 8,439 households, of which 6,649 report a broadband connection. None of them has to travel to learn with us: lessons run live on video twice in most weeks, either in a group of five to ten learners at the same level or one to one, and the age range runs from six to sixty-seven. The first lesson is free of charge. After it, a group place costs USD 100 a month and private lessons cost USD 150.
+> The census records 22,664 usual residents for Athlone, in 8,439 households, of which 6,649 report a broadband connection. None of them has to travel to learn with us: lessons run live on video twice in most weeks, either in a group of fifteen to twenty learners at the same level or one to one, and the age range runs from six to sixty-seven. The first lesson is free of charge. After it, a group place costs USD 100 a month and private lessons cost USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Westmeath](/coding-classes-in-county-westmeath) / Athlone
 
@@ -12,11 +12,11 @@ Athlone, Westmeath and Roscommon / Live online
 
 # Coding classes in Athlone
 
-**What is the best coding class in Athlone?** The census records 22,664 usual residents for Athlone, in 8,439 households, of which 6,649 report a broadband connection. None of them has to travel to learn with us: lessons run live on video twice in most weeks, either in a group of five to ten learners at the same level or one to one, and the age range runs from six to sixty-seven. The first lesson is free of charge. After it, a group place costs USD 100 a month and private lessons cost USD 150.
+**What is the best coding class in Athlone?** The census records 22,664 usual residents for Athlone, in 8,439 households, of which 6,649 report a broadband connection. None of them has to travel to learn with us: lessons run live on video twice in most weeks, either in a group of fifteen to twenty learners at the same level or one to one, and the age range runs from six to sixty-seven. The first lesson is free of charge. After it, a group place costs USD 100 a month and private lessons cost USD 150.
 
 Somebody will eventually ask for the average level of education in Athlone, and a spreadsheet will answer. Number the eleven qualifications in the census table from one to eleven, weight them by the 13,007 residents who stated one, and out comes 5.82. Put two of the middle labels the other way round and it becomes 5.85. Use a ten-point numbering instead and it is 5.35. Every one of those answers is arithmetic done correctly, and not one of them is a qualification any person in the town holds, because the labels were never numbers. What the order does support is a middle: the 6,504th person in the list sits in the technical or vocational qualification group. That is the whole project on this page, and it is one of the most useful hours a learner can spend with real data.
 
-Facts last verified 18 September 2026. Teaching is online; no Athlone branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 18 September 2026. Teaching is online; no Athlone branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where an Athlone learner starts
 
@@ -177,7 +177,7 @@ The skill worth having in 2026 is not asking a model for a number. It is knowing
 Six practical points.
 
 - **Live teaching only** A teacher on the call for the whole hour, reading the learner's screen and correcting as the work happens.
-- **Ability grouping** Five to ten learners at one level, joining from Athlone, elsewhere in Ireland and abroad.
+- **Ability grouping** Fifteen to twenty learners at one level, joining from Athlone, elsewhere in Ireland and abroad.
 - **A protected hour** Two lessons in most weeks, roughly eight a month, in a slot agreed at the start and then kept.
 - **Term calendar** Mid-terms, holidays and exam weeks are factored in when the schedule is agreed, not improvised later.
 - **Kit at home** A laptop or desktop, working sound and a connection that carries video, verified in the free lesson.
@@ -190,7 +190,7 @@ Six practical points.
 The complete list, three lines long.
 
 - First class: USD 0. A full first lesson, taught and assessed, at no charge and with no obligation.
-- Group tuition: USD 100 a month. A month of group lessons, five to ten learners at one level, about eight lessons.
+- Group tuition: USD 100 a month. A month of group lessons, fifteen to twenty learners at one level, about eight lessons.
 - Private tuition: USD 150 a month. A month of one to one lessons, same weekly frequency, one teacher and one learner.
 
 Every fee is monthly and quoted in US dollars, the single rate we use for families outside India, so an Athlone household sees the same figure as one in Galway and no euro price list beside it. Billing begins after the free lesson has fixed a course and an hour, and the pricing page covers pauses, missed lessons and switching between group and private.
@@ -231,7 +231,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Athlone cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

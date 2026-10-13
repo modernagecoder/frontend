@@ -16,7 +16,7 @@ Rijswijk, Zuid-Holland / Live online
 
 A treaty works because every party knows what the others have agreed to do, and plans around it. Break a term without notice and the whole arrangement is in doubt. Programs depend on one another in exactly the same way. A weather app relies on a weather service to send the temperature in a field called temperature, in degrees Celsius; a shop relies on a payment service to answer in a known format; a thousand projects rely on the same small library to behave the same way tomorrow as today. Each of those dependencies is an unwritten treaty, and when one side changes its terms, renaming a field or changing a unit or dropping a feature, the other side breaks, often in production and often at night. Rijswijk, which gave its name to a peace signed in 1697, is a good place to learn how software keeps its promises: by writing them down, numbering its versions, announcing changes before making them, and testing that the promise still holds.
 
-Facts last verified 11 September 2026. Teaching is online; no Rijswijk branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Rijswijk branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the town between The Hague and Delft
 
@@ -190,7 +190,7 @@ From Oud-Rijswijk to the new streets of Rijswijk Buiten, and from the edge of Th
 - **Home, not a classroom** A learner in Stervoorde and a learner in Hoornwijck start the lesson together, each from home, with no journey through the evening traffic between two cities.
 - **Dutch school terms stay Dutch** Brugklas, groep, vmbo, havo, vwo and the profielkeuze are kept as Rijswijk schools write them, while the teaching is in English.
 - **A real first lesson, free** The first hour is a full lesson on a genuine task. The teacher then recommends a level, a course and a weekly time, with no payment details requested.
-- **Matched groups** Five to ten learners at the same stage. Rijswijk has 10,444 residents under fifteen, but five who match on subject, level and hour are rare, so groups also draw on learners in other countries.
+- **Matched groups** Fifteen to twenty learners at the same stage. Rijswijk has 10,444 residents under fifteen, but five who match on subject, level and hour are rare, so groups also draw on learners in other countries.
 - **Regio Midden breaks** Two lessons a week, about eight a month, at one fixed hour, pausing for the regio Midden holidays that Zuid-Holland schools keep.
 - **Teachers ahead in time** The teachers are in India, three and a half hours ahead of Rijswijk in summer and four and a half in winter, so late afternoons, evenings and weekend mornings are all available.
 
@@ -201,7 +201,7 @@ From Oud-Rijswijk to the new streets of Rijswijk Buiten, and from the edge of Th
 Three prices, stated in full.
 
 - First class: USD 0. A real lesson on a real task, ending with a level and a course.
-- Group tuition: USD 100 a month. Monthly, normally eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. Monthly, normally eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Monthly, normally eight lessons, one teacher and one learner.
 
 The dollar fee is the same in every country, with no euro list beside it, so a family in Welgelegen pays what a family in Rijswijk Buiten pays. Nothing is charged until the free lesson has settled a course and a time; payment is then arranged over WhatsApp. The pricing page covers pauses, format changes and missed lessons.
@@ -242,7 +242,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Rijswijk coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

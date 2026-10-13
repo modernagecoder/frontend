@@ -12,7 +12,7 @@ Live online · serving Belagavi
 
 Real programming for kids, teens and college students in Belagavi, from **Tilakwadi to Camp (Belgaum Camp), Shahapur to Vadgaon**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Belagavi)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**BelagaviEnrollingAreasTilakwadi, Camp (Belgaum Camp), Shahapur, Vadgaon, Sadashiv Nagar & all of BelagaviBoardsKarnataka KSEEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across BelagaviFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Belagavi)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**BelagaviEnrollingAreasTilakwadi, Camp (Belgaum Camp), Shahapur, Vadgaon, Sadashiv Nagar & all of BelagaviBoardsKarnataka KSEEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across BelagaviFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NMTC, for Belagavi's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Belagavi: FAQs
 
-Which is the best coding class in Belagavi for kids?Modern Age Coders runs Belagavi's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python, in small batches of 5-8, taught by industry instructors who bring VTU-grade engineering rigour down to a child's level. We serve Tilakwadi, Camp, Shahapur, Vadgaon, Sadashiv Nagar, Hindwadi, Angol, Udyambag and all of Belagavi, plus nearby Gokak, Bailhongal, Chikodi and Khanapur.Are the classes online, and do they work for Belagavi's bilingual Kannada-Marathi families?All classes are live and online, so a child in Tilakwadi, Camp, Sadashiv Nagar, Hindwadi or out in Gokak or Chikodi joins the same expert teacher from home, no travelling across the cantonment or to Hubli. Our instructors teach the universal language of code in clear English, and they are used to Belagavi's bilingual Kannada-and-Marathi households, so concepts are explained patiently until they click. Sessions are interactive with live coding, screen sharing and recordings.How much do coding classes cost in Belagavi?Group classes (5-8 students) start at Rs.1499/month for 2 live classes per week. Mini Batch (3-4 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Will coding help my child with KCET and the board exams in Belagavi?Yes. Coding builds the structured logical reasoning, decomposition and problem-solving that KCET, NEET-style aptitude and Olympiads reward, and it directly supports the computer-science and AI modules now in the CBSE, ICSE and Karnataka State Board (KSEAB) syllabi. For Belagavi's many engineering-bound teens, an early start in Python and Java is a genuine head start before they ever reach a VTU-affiliated college.What age is best to start coding in Belagavi?Age 8 is ideal to begin with visual block-based coding (Scratch). For text-based languages like Python and Java, age 12-13 onwards works best. We design separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always fits the learner.What programming languages and courses do you teach in Belagavi?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College and engineering students (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also teach school, board and Olympiad mathematics alongside coding, plus Vibe Coding and AI agents (Codex & Claude Code).Do you prepare Belagavi's engineering and college students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, MERN full-stack projects and AI/Data-Science portfolios. It is built for students from Belagavi's VTU-affiliated engineering colleges, Rani Channamma University and the city's polytechnics and degree campuses, so a student can build a job-ready portfolio from Belagavi without relocating to Bengaluru or Pune.Why learn from Belagavi instead of moving to Bengaluru or Pune?Belagavi is the home of VTU, the university that sets the engineering standard for most of Karnataka, and its Udyambag foundry and machine-tool cluster already builds precision parts for the country. The software and AI layer can be learned right here, online, from the same calibre of instructor a metro student gets, no migration, no hostel costs, no leaving family. Belagavi families build global skills from home.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, so you can see the teaching first, and there is a full refund within the first paid week if it is not the right fit for your child.Do you teach coding to Karnataka board students in Belagavi?Yes. Belagavi schools run the Karnataka state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about.Can VTU-affiliated college students in Belagavi join your programming courses?Yes. VTU is headquartered right here, and its colleges teach the theory well. What the college track adds is built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown, which a degree alone rarely provides.
+Which is the best coding class in Belagavi for kids?Modern Age Coders runs Belagavi's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python, in batches of 15-20, taught by industry instructors who bring VTU-grade engineering rigour down to a child's level. We serve Tilakwadi, Camp, Shahapur, Vadgaon, Sadashiv Nagar, Hindwadi, Angol, Udyambag and all of Belagavi, plus nearby Gokak, Bailhongal, Chikodi and Khanapur.Are the classes online, and do they work for Belagavi's bilingual Kannada-Marathi families?All classes are live and online, so a child in Tilakwadi, Camp, Sadashiv Nagar, Hindwadi or out in Gokak or Chikodi joins the same expert teacher from home, no travelling across the cantonment or to Hubli. Our instructors teach the universal language of code in clear English, and they are used to Belagavi's bilingual Kannada-and-Marathi households, so concepts are explained patiently until they click. Sessions are interactive with live coding, screen sharing and recordings.How much do coding classes cost in Belagavi?Group classes (15-20 students) start at Rs.1499/month for 2 live classes per week. Mini Batch (up to 6 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Will coding help my child with KCET and the board exams in Belagavi?Yes. Coding builds the structured logical reasoning, decomposition and problem-solving that KCET, NEET-style aptitude and Olympiads reward, and it directly supports the computer-science and AI modules now in the CBSE, ICSE and Karnataka State Board (KSEAB) syllabi. For Belagavi's many engineering-bound teens, an early start in Python and Java is a genuine head start before they ever reach a VTU-affiliated college.What age is best to start coding in Belagavi?Age 8 is ideal to begin with visual block-based coding (Scratch). For text-based languages like Python and Java, age 12-13 onwards works best. We design separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always fits the learner.What programming languages and courses do you teach in Belagavi?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College and engineering students (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also teach school, board and Olympiad mathematics alongside coding, plus Vibe Coding and AI agents (Codex & Claude Code).Do you prepare Belagavi's engineering and college students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, MERN full-stack projects and AI/Data-Science portfolios. It is built for students from Belagavi's VTU-affiliated engineering colleges, Rani Channamma University and the city's polytechnics and degree campuses, so a student can build a job-ready portfolio from Belagavi without relocating to Bengaluru or Pune.Why learn from Belagavi instead of moving to Bengaluru or Pune?Belagavi is the home of VTU, the university that sets the engineering standard for most of Karnataka, and its Udyambag foundry and machine-tool cluster already builds precision parts for the country. The software and AI layer can be learned right here, online, from the same calibre of instructor a metro student gets, no migration, no hostel costs, no leaving family. Belagavi families build global skills from home.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, so you can see the teaching first, and there is a full refund within the first paid week if it is not the right fit for your child.Do you teach coding to Karnataka board students in Belagavi?Yes. Belagavi schools run the Karnataka state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about.Can VTU-affiliated college students in Belagavi join your programming courses?Yes. VTU is headquartered right here, and its colleges teach the theory well. What the college track adds is built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown, which a degree alone rarely provides.
 
 ## Ready to start your child's coding journey in Belagavi?
 

@@ -160,7 +160,7 @@ module.exports = {
     intro: 'In short.',
     cells: [
       { h3: 'Live every time', p: 'A teacher runs each lesson in real time and works directly with each learner\'s code.' },
-      { h3: 'Peers at one level', p: 'Five to ten learners at the same level, from Dún Laoghaire, the rest of Ireland or overseas.' },
+      { h3: 'Peers at one level', p: 'Fifteen to twenty learners at the same level, from Dún Laoghaire, the rest of Ireland or overseas.' },
       { h3: 'Two days, set', p: 'Roughly eight lessons a month, on the same two days each week.' },
       { h3: 'School breaks', p: 'Holidays, mid-term breaks and exam weeks are planned into the course.' },
       { h3: 'Bring your own device', p: 'A laptop or desktop, headphones or speakers and a microphone, and a connection fit for video.' },
@@ -173,7 +173,7 @@ module.exports = {
     h2: 'Fees for Dún Laoghaire',
     intro: 'As simple as it gets.',
     first: 'A free first lesson including a level check.',
-    group: 'A month in a same-level group of five to ten, around eight live lessons.',
+    group: 'A month in a same-level group of fifteen to twenty, around eight live lessons.',
     private: 'A month of one-to-one lessons on the same schedule.',
     closer: 'The fee in US dollars is the same for every family outside India, month by month. Nothing is owed for the free lesson, billing starts when the course starts, and the pricing page explains holidays, missed lessons and a change between group and private teaching.'
   },
@@ -197,8 +197,8 @@ module.exports = {
       { q: 'What time are lessons?', a: 'Weekdays from after school through the evening, and weekend daytimes. Timetables are written in Irish time. India, where the teachers work, is ahead of Dún Laoghaire by five and a half hours in the cold months and by four and a half once the clocks go forward, so the hours offered are ones that suit both.' },
       { q: 'Is there anything for adults?', a: 'Yes. Adults up to sixty-seven can join, including total beginners, and choose after the first lesson between a small same-level group and private lessons.' },
       { q: 'Will my child learn beside other Dún Laoghaire children?', a: 'Perhaps, but groups are made by level, so classmates are just as likely to be elsewhere in Ireland or abroad.' },
-      { q: 'What do coding classes in Dún Laoghaire cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, grouped by level, pace and goals rather than by age or address. When no group fits a workable time, lessons are one to one.', boiler: true }
+      { q: 'What do coding classes in Dún Laoghaire cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, grouped by level, pace and goals rather than by age or address. When no group fits a workable time, lessons are one to one.', boiler: true }
     ]
   },
 

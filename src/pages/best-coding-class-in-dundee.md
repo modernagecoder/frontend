@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Dundee learne
 canonical: https://learn.modernagecoders.com/best-coding-class-in-dundee
 source: src/pages/best-coding-class-in-dundee.html
 ---
-> Scotland's Census 2022 put about 148,100 usual residents in Dundee City, with 67.1% of them aged 15 to 64 against 64.6% across Scotland. The research ship Discovery, built in the city, carried the British National Antarctic Expedition of 1901 to 1904 and came home to Dundee in 1986. Our Dundee learners, aged anywhere from six to sixty-seven, study with us over live video: one to one, or in a group of five to ten set by level, with teachers in India working to UK times. A first lesson is free, and after that a group place is USD 100 a month while one-to-one teaching is USD 150.
+> Scotland's Census 2022 put about 148,100 usual residents in Dundee City, with 67.1% of them aged 15 to 64 against 64.6% across Scotland. The research ship Discovery, built in the city, carried the British National Antarctic Expedition of 1901 to 1904 and came home to Dundee in 1986. Our Dundee learners, aged anywhere from six to sixty-seven, study with us over live video: one to one, or in a group of fifteen to twenty set by level, with teachers in India working to UK times. A first lesson is free, and after that a group place is USD 100 a month while one-to-one teaching is USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Dundee
 
@@ -12,11 +12,11 @@ Dundee, Scotland / Live online
 
 # Coding classes in Dundee
 
-**What are the best coding classes in Dundee?** Scotland's Census 2022 put about 148,100 usual residents in Dundee City, with 67.1% of them aged 15 to 64 against 64.6% across Scotland. The research ship Discovery, built in the city, carried the British National Antarctic Expedition of 1901 to 1904 and came home to Dundee in 1986. Our Dundee learners, aged anywhere from six to sixty-seven, study with us over live video: one to one, or in a group of five to ten set by level, with teachers in India working to UK times. A first lesson is free, and after that a group place is USD 100 a month while one-to-one teaching is USD 150.
+**What are the best coding classes in Dundee?** Scotland's Census 2022 put about 148,100 usual residents in Dundee City, with 67.1% of them aged 15 to 64 against 64.6% across Scotland. The research ship Discovery, built in the city, carried the British National Antarctic Expedition of 1901 to 1904 and came home to Dundee in 1986. Our Dundee learners, aged anywhere from six to sixty-seven, study with us over live video: one to one, or in a group of fifteen to twenty set by level, with teachers in India working to UK times. A first lesson is free, and after that a group place is USD 100 a month while one-to-one teaching is USD 150.
 
 The Met Office station at Leuchars, just across the Firth of Tay, has recorded every month since January 1957. Suppose a program has to forecast next month's average daytime high. The lazy guess, that next month will be like this one, misses by 2.296 degrees on average over 2000 to 2025. The long-run average for that calendar month misses by 1.113. Add a fifth of last month's departure from normal and the error falls to 1.009. Tune that fraction by peeking at the years being tested and it seems to fall to 0.969, but that number is a cheat, and so is any average that quietly includes the future. Our teenagers learn to build a forecast and, more importantly, to test it fairly.
 
-Facts last verified 22 September 2026. Teaching is online; no Dundee branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 22 September 2026. Teaching is online; no Dundee branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the City of Discovery
 
@@ -187,7 +187,7 @@ A dark winter evening in Dundee is no time to cross the city for a lesson. Onlin
 Start with a free lesson; after that, one monthly fee.
 
 - First class: USD 0. A complete lesson with nothing to pay, closing with a suggested level, course and weekly slot.
-- Group tuition: USD 100 a month. Close to eight live lessons a month, shared with five to ten learners at the same stage.
+- Group tuition: USD 100 a month. Close to eight live lessons a month, shared with fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. Close to eight live lessons a month, taught to your learner on their own.
 
 Outside India the fee is the same for everyone and set in US dollars, so Douglas and the West End pay alike, and no prices appear in pounds. Billing starts only once the free lesson has fixed a course and a time; pausing, missed lessons and switching between group and private teaching are explained on the pricing page.
@@ -228,11 +228,11 @@ No. We have no Dundee centre and no premises anywhere in the UK; every lesson is
 
 ### How much do Dundee lessons cost?
 
-The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
+The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
 
 ### How are Dundee groups arranged?
 
-By level, pace and aims rather than age or postcode, with five to ten learners at one stage. If no group suits the learner's week, we offer one-to-one lessons.
+By level, pace and aims rather than age or postcode, with fifteen to twenty learners at one stage. If no group suits the learner's week, we offer one-to-one lessons.
 
 ## Scottish cities and beyond
 

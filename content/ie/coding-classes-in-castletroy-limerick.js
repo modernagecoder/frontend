@@ -156,7 +156,7 @@ module.exports = {
     intro: 'The specifics.',
     cells: [
       { h3: 'Teacher-led, live', p: 'Each lesson is run live by a teacher who follows every learner\'s screen and code as they work.' },
-      { h3: 'Same level, same group', p: 'Five to ten learners at one level, from Castletroy, the rest of Ireland or abroad.' },
+      { h3: 'Same level, same group', p: 'Fifteen to twenty learners at one level, from Castletroy, the rest of Ireland or abroad.' },
       { h3: 'Weekly pair', p: 'About eight lessons a month, on the same two weekly times set at the start.' },
       { h3: 'School rhythm', p: 'The plan allows for holidays, mid-terms and exam weeks from day one.' },
       { h3: 'Your equipment', p: 'A laptop or desktop, a microphone and speakers or headphones, and a connection that handles video.' },
@@ -169,7 +169,7 @@ module.exports = {
     h2: 'Castletroy fees',
     intro: 'All in one place.',
     first: 'A first lesson, with a level check, free of charge.',
-    group: 'A month in a same-level group of five to ten, about eight live lessons.',
+    group: 'A month in a same-level group of fifteen to twenty, about eight live lessons.',
     private: 'A month of private lessons on the same schedule.',
     closer: 'Every family outside India pays the same monthly US dollar fee. The free lesson commits no one, charges start with the course, and the pricing page covers holidays, missed lessons and moving between group and private teaching.'
   },
@@ -193,8 +193,8 @@ module.exports = {
       { q: 'When are lessons held?', a: 'Weekday afternoons after school and into the evening, and weekend daytimes. All times are in Irish time; our teachers work from India, four and a half hours ahead during Irish summer time and five and a half in winter, and only hours that suit both sides are offered.' },
       { q: 'Are there classes for adults?', a: 'Yes, for anyone up to sixty-seven, beginners included. After the first lesson an adult chooses a small group at their level or lessons on their own.' },
       { q: 'Will my child study with other Castletroy children?', a: 'Not necessarily. Groups depend on level, so classmates may be in Limerick, elsewhere in Ireland or overseas.' },
-      { q: 'What do coding classes in Castletroy cost?', a: 'The first lesson is free. A group place is then USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, grouped by level, pace and aims rather than age or address. If no group fits a workable hour, lessons are one to one.', boiler: true }
+      { q: 'What do coding classes in Castletroy cost?', a: 'The first lesson is free. A group place is then USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, grouped by level, pace and aims rather than age or address. If no group fits a workable hour, lessons are one to one.', boiler: true }
     ]
   },
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across County Carlow, fr
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-carlow
 source: src/pages/coding-classes-in-county-carlow.html
 ---
-> Carlow is a small county that grew quickly: 61,968 people, up 9% in six years, with employment up 22% and unemployment halved to 9%. Most of it is rural, with about 36% of residents in a town of ten thousand or more, and that town is Carlow itself. For coding, the county starts from behind: no Carlow school was on the first list of schools to teach Leaving Certificate Computer Science, and the county holds a third-level rate of 39% against 45% nationally. A live online class is a practical answer, because it reaches Hacketstown and Borris at the same hour it reaches Carlow town. We teach ages 6 to 67 in groups of five to ten set by ability, or one to one. The first lesson is free; after that it is USD 100 a month in a group, USD 150 privately.
+> Carlow is a small county that grew quickly: 61,968 people, up 9% in six years, with employment up 22% and unemployment halved to 9%. Most of it is rural, with about 36% of residents in a town of ten thousand or more, and that town is Carlow itself. For coding, the county starts from behind: no Carlow school was on the first list of schools to teach Leaving Certificate Computer Science, and the county holds a third-level rate of 39% against 45% nationally. A live online class is a practical answer, because it reaches Hacketstown and Borris at the same hour it reaches Carlow town. We teach ages 6 to 67 in groups of fifteen to twenty set by ability, or one to one. The first lesson is free; after that it is USD 100 a month in a group, USD 150 privately.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / County Carlow
 
@@ -12,11 +12,11 @@ County Carlow, Leinster / Live online
 
 # Coding classes in County Carlow
 
-**What are the best coding classes in County Carlow?** Carlow is a small county that grew quickly: 61,968 people, up 9% in six years, with employment up 22% and unemployment halved to 9%. Most of it is rural, with about 36% of residents in a town of ten thousand or more, and that town is Carlow itself. For coding, the county starts from behind: no Carlow school was on the first list of schools to teach Leaving Certificate Computer Science, and the county holds a third-level rate of 39% against 45% nationally. A live online class is a practical answer, because it reaches Hacketstown and Borris at the same hour it reaches Carlow town. We teach ages 6 to 67 in groups of five to ten set by ability, or one to one. The first lesson is free; after that it is USD 100 a month in a group, USD 150 privately.
+**What are the best coding classes in County Carlow?** Carlow is a small county that grew quickly: 61,968 people, up 9% in six years, with employment up 22% and unemployment halved to 9%. Most of it is rural, with about 36% of residents in a town of ten thousand or more, and that town is Carlow itself. For coding, the county starts from behind: no Carlow school was on the first list of schools to teach Leaving Certificate Computer Science, and the county holds a third-level rate of 39% against 45% nationally. A live online class is a practical answer, because it reaches Hacketstown and Borris at the same hour it reaches Carlow town. We teach ages 6 to 67 in groups of fifteen to twenty set by ability, or one to one. The first lesson is free; after that it is USD 100 a month in a group, USD 150 privately.
 
 Ask the statistics office how many people live in Carlow town and it answers 27,351, then adds a detail that surprises people who live there: the town is recorded as "Carlow, Counties Carlow and Laois", because its Graiguecullen side lies across the river in County Laois. That is not a clerical oddity. It means the county town, which holds around 44% of everyone in the county, cannot be counted as a Carlow row at all. Write the obvious filter for Carlow towns, matching every label that ends with the county name, and you get sixteen rows out of nineteen, and the missing three include Carlow itself. No error appears. The total looks reasonable. It is short by more than a quarter of the county. Learning to catch that, on the place you actually live, is the best first data lesson this county can offer, and it is the one our teenage learners here start with.
 
-Facts last verified 16 September 2026. Teaching is online; no County Carlow branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no County Carlow branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a small county
 
@@ -190,18 +190,18 @@ Outside the county town, Carlow is villages and farmland, and an evening class i
 - **No car needed** A learner in Rathvilly and one in Bagenalstown sit in the same group without either parent driving anywhere.
 - **The Irish school year, by name** First Year, the Junior Cycle, Transition Year and sixth year, used as they are in school here, so nothing needs explaining.
 - **A free lesson that is a lesson** Real work on a real task, then an honest recommendation on level, course and hour, with no card details taken.
-- **Grouped by ability** Five to ten learners at one level, drawn from Carlow and other countries, which is what makes a good hour possible in a small county.
+- **Grouped by ability** Fifteen to twenty learners at one level, drawn from Carlow and other countries, which is what makes a good hour possible in a small county.
 - **A weekly rhythm** Two lessons most weeks, about eight a month, at the same hour, pausing for mid-terms, exams and holidays by agreement.
 - **Teachers on a fixed clock** India does not change its clocks, so our teachers sit four and a half hours ahead of Ireland in summer and five and a half in winter.
 
-**Why a small county benefits most** A town of 27,351 cannot fill an evening class at every level and every age. An online group draws its five to ten learners from several countries, which is how a child in Carlow gets a class at exactly their level rather than the nearest one running.
+**Why a small county benefits most** A town of 27,351 cannot fill an evening class at every level and every age. An online group draws its fifteen to twenty learners from several countries, which is how a child in Carlow gets a class at exactly their level rather than the nearest one running.
 
 ## What classes cost in County Carlow
 
 Three figures, stated plainly.
 
 - First class: USD 0. A full lesson at no charge, ending with a placement and a recommended course.
-- Group tuition: USD 100 a month. A month of teaching, usually eight lessons, with five to ten learners of similar ability.
+- Group tuition: USD 100 a month. A month of teaching, usually eight lessons, with fifteen to twenty learners of similar ability.
 - Private tuition: USD 150 a month. The same month of roughly eight lessons, with one teacher and one learner.
 
 Everything is billed in US dollars at the single rate charged outside India, so Tullow pays what Carlow town pays and no euro list exists. Charging begins only after the free lesson has settled a course and a weekly hour, and the pricing page covers pauses, missed lessons and format changes.
@@ -242,7 +242,7 @@ No, and we do not suggest one. Teaching is live online only, with no premises in
 
 ### What do County Carlow coding classes cost?
 
-Nothing for the first lesson. After that a group place is USD 100 a month, which covers two live lessons a week and around eight a month with five to ten learners, or USD 150 a month taught privately. Course, format and hour are agreed before payment.
+Nothing for the first lesson. After that a group place is USD 100 a month, which covers two live lessons a week and around eight a month with fifteen to twenty learners, or USD 150 a month taught privately. Course, format and hour are agreed before payment.
 
 ### How many learners are in a group?
 

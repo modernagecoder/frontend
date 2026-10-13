@@ -16,7 +16,7 @@ City of Stonnington, Melbourne, Victoria / Live online
 
 Victoria publishes yearly entry counts for every metropolitan train station, one file per year. A short Python script can stitch seven files into one table. Wrap the lookup in a broad try and except to "skip bad rows", though, and the script stops telling you when something is wrong. We measured exactly what it hid.
 
-Facts last verified 11 October 2026. Teaching is online; no Stonnington branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 October 2026. Teaching is online; no Stonnington branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that treat errors as information
 
@@ -185,7 +185,7 @@ Every class is on screen, so a learner in Toorak joins the same way as one in Wi
 - **Code from the first minute** Teacher and learner share a screen and edit the same program together.
 - **Victorian terms** Plans follow the state school terms and pause over the holidays.
 - **A real trial lesson** The free first class teaches proper content and ends with a recommendation.
-- **Five to ten per group** Learners matched on level and pace, sometimes from several states.
+- **Fifteen to twenty per group** Learners matched on level and pace, sometimes from several states.
 - **Two lessons each week** Fixed times, about eight lessons a month, with breaks planned ahead.
 - **Teachers in India** A 5:30pm Stonnington lesson in daylight saving begins at noon India time; after April it begins at 1pm there.
 
@@ -196,7 +196,7 @@ Every class is on screen, so a learner in Toorak joins the same way as one in Wi
 Three prices, with nothing extra later.
 
 - First class: USD 0. The first lesson is free and ends with an honest suggestion.
-- Group tuition: USD 100 a month. One month of group lessons, typically eight, with five to ten learners at a matched level.
+- Group tuition: USD 100 a month. One month of group lessons, typically eight, with fifteen to twenty learners at a matched level.
 - Private tuition: USD 150 a month. Around eight lessons a month with one teacher and one learner.
 
 Outside India, every family is billed in US dollars, and no money changes hands before the trial is done and a course and slot are settled. The pricing page covers holidays, missed classes and switching between group and private.
@@ -233,11 +233,11 @@ No. Every lesson is live online, we have no premises in Australia, and the phone
 
 ### How much do classes cost for Stonnington learners?
 
-The first lesson is free. Group lessons then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.
+The first lesson is free. Group lessons then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.
 
 ### How big is each group?
 
-Five to ten learners, grouped by level, pace and goal. When no group suits the learner's time, one-to-one lessons are offered.
+Fifteen to twenty learners, grouped by level, pace and goal. When no group suits the learner's time, one-to-one lessons are offered.
 
 ### Can adults learn Python with you?
 

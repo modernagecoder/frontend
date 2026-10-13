@@ -65,7 +65,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in the East of England',
   capsuleQ: 'What are the best coding and AI classes in the East of England?',
-  capsule: 'At the 2021 census the East of England region had 6,335,074 residents in 45 local authorities. Luton and Norwich are its largest built-up areas, followed by Peterborough, Southend-on-Sea, Cambridge, Ipswich and Colchester, with Basildon, Chelmsford, Bedford, Stevenage and Harlow close behind. All our teaching is live by video from India. Coding, AI, Python and maths are open to learners between 6 and 67, taught solo or in classes of five to ten grouped by level. The first lesson is free and settles the starting course. This page indexes our East of England pages and runs a rainfall project. Stay on and you pay USD 100 monthly for a class place or USD 150 monthly for solo lessons.',
+  capsule: 'At the 2021 census the East of England region had 6,335,074 residents in 45 local authorities. Luton and Norwich are its largest built-up areas, followed by Peterborough, Southend-on-Sea, Cambridge, Ipswich and Colchester, with Basildon, Chelmsford, Bedford, Stevenage and Harlow close behind. All our teaching is live by video from India. Coding, AI, Python and maths are open to learners between 6 and 67, taught solo or in classes of fifteen to twenty grouped by level. The first lesson is free and settles the starting course. This page indexes our East of England pages and runs a rainfall project. Stay on and you pay USD 100 monthly for a class place or USD 150 monthly for solo lessons.',
   lead: 'The Met Office keeps long monthly records for two stations in the East of England: Lowestoft in Suffolk and Cambridge. Over 1991 to 2020 our averages give Cambridge about 563 millimetres of rain a year and Lowestoft about 636, both far less than Camborne in Cornwall, at about 1,076. Being dry is only half the story, though. A farmer, a reservoir engineer or a gardener also wants to know whether the rain comes evenly through the year or in a wet season. Geographers measure that with a seasonality index: add up how far each month strays from an even twelfth of the year, and divide by the year\'s total. This page\'s project computes it in Python for three stations.',
   wa: 'Hello Modern Age Coders, we are in the East of England and would like to book a free lesson, please.',
 
@@ -169,7 +169,7 @@ module.exports = {
       { h3: 'Learners type', p: 'Students write their own code, while the tutor reads the shared screen and nudges with questions.' },
       { h3: 'By school year', p: 'A Year 4 in Basildon or a Year 12 in Hemel Hempstead is placed by year and key stage, using each exam board\'s own names.' },
       { h3: 'Free first lesson', p: 'A full trial lesson without charge, then straight advice.' },
-      { h3: 'Classes by level', p: 'Each class holds five to ten learners working at one stage, drawn from all over Britain.' },
+      { h3: 'Classes by level', p: 'Each class holds fifteen to twenty learners working at one stage, drawn from all over Britain.' },
       { h3: 'Term time only', p: 'Two lessons a week in term; holidays left free.' },
       { h3: 'On UK time', p: 'Lessons keep their UK hour when the clocks change; our teachers move.' }
     ],
@@ -180,7 +180,7 @@ module.exports = {
     h2: 'East of England fees',
     intro: 'Every town in the region pays the same fee, as does every country we teach outside India.',
     first: 'One complete lesson free, then a recommendation.',
-    group: 'Roughly eight lessons a month with five to ten classmates.',
+    group: 'Roughly eight lessons a month with fifteen to twenty classmates.',
     private: 'Roughly eight lessons a month with one tutor.',
     closer: 'We bill in US dollars, never sterling, and nothing is charged before the trial has agreed a course and a regular time; the pricing page explains breaks, absences and swaps between group and private.'
   },

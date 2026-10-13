@@ -16,7 +16,7 @@ Hervey Bay, Queensland, Australia / Live online
 
 Build an AI agent that answers "when is the next bus from my stop?" and it will want to remember answers, because asking the timetable tool every time is slow and costs money. But how long is a remembered answer true? At Central Ave at Stockland Hervey Bay, the busiest stop on the Maryborough and Hervey Bay network, an agent that trusts its memory for 15 minutes gives a wrong answer more than half the time. Our Hervey Bay project measures that across all 386 stops served on a Wednesday, then shows a smarter rule that is never wrong.
 
-Facts last verified 7 October 2026. Teaching is online; no Hervey Bay branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Hervey Bay branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for building agents that work
 
@@ -187,7 +187,7 @@ The Fraser Coast network runs between two cities, and an online lesson brings le
 - **Two cities, one class** A student in Urangan and one in Maryborough can work on the same agent in the same lesson without a single bus ride.
 - **Fitted to Queensland schooling** Plans follow Queensland's year structure and its four terms, and Year 11 and 12 students may link an agent project to Digital Solutions. Every lesson is taught in English.
 - **The first lesson is real** You get a genuine class, not a sales pitch, and leave with a recommended level, course and time; no card is requested.
-- **Groups at your level** Five to ten learners at a matching stage from the Fraser Coast and elsewhere, so classes run at a good size.
+- **Groups at your level** Fifteen to twenty learners at a matching stage from the Fraser Coast and elsewhere, so classes run at a good size.
 - **Two lessons a week** A fixed pair of weekly slots, about eight lessons a month, with holiday and exam breaks agreed in advance.
 - **A fixed time gap** Neither Queensland nor India changes its clocks, so the four-and-a-half-hour gap to our teachers is the same all year.
 
@@ -198,7 +198,7 @@ The Fraser Coast network runs between two cities, and an online lesson brings le
 Three numbers, clearly stated.
 
 - First class: USD 0. The whole first lesson is free and ends with a level, a course and a lesson time.
-- Group tuition: USD 100 a month. A month of lessons, normally eight, in a group of five to ten learners at your stage.
+- Group tuition: USD 100 a month. A month of lessons, normally eight, in a group of fifteen to twenty learners at your stage.
 - Private tuition: USD 150 a month. About eight lessons a month on the same pattern, one teacher with one learner.
 
 Every country apart from India pays in US dollars, so a family at Point Vernon and one at Torquay pay identical fees and there is no Hervey Bay price list. Nothing is billed until the trial has fixed what and when you learn, and questions about holidays, absences or switching to private lessons are answered on the pricing page.
@@ -239,11 +239,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Hervey Bay AI agents classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Hervey Bay and Queensland learners
 

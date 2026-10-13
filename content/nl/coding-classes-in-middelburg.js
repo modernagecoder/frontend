@@ -183,7 +183,7 @@ module.exports = {
       { h3: 'A desk at home', p: 'The class meets on screen at the agreed hour. Nobody cycles anywhere, and a wet Zeeland evening makes no difference to it.' },
       { h3: 'Dutch school words kept', p: 'Groep 8, brugklas, vmbo, havo, vwo and the profiel are named in Dutch, because that is how Middelburg families talk about school; the lesson itself is in English.' },
       { h3: 'A first lesson with no bill', p: 'The learner works on a real task, the teacher recommends a level, a course and a time, and no payment details are asked for.' },
-      { h3: 'Groups beyond Walcheren', p: 'Five to ten learners at one stage. Middelburg has 7,637 residents under fifteen, not enough to fill every level at every hour, so groups draw on learners from other towns and countries.' },
+      { h3: 'Groups beyond Walcheren', p: 'Fifteen to twenty learners at one stage. Middelburg has 7,637 residents under fifteen, not enough to fill every level at every hour, so groups draw on learners from other towns and countries.' },
       { h3: 'On the regio Zuid calendar', p: 'Two lessons a week, about eight a month, at a set hour, with breaks for the regio Zuid school holidays that Zeeland follows.' },
       { h3: 'Teachers in India', p: 'India is three and a half hours ahead of Middelburg in summer and four and a half in winter, which leaves late afternoons, evenings and weekend mornings free for lessons.' }
     ],
@@ -194,7 +194,7 @@ module.exports = {
     h2: 'What classes cost in Middelburg',
     intro: 'The full price list, nothing held back.',
     first: 'A real lesson on a real task, ending with a level and a course.',
-    group: 'Per month, normally eight lessons, five to ten learners at one level.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners at one level.',
     private: 'Per month, normally eight lessons, one learner and one teacher.',
     closer: 'There is one price in US dollars for every country and no separate euro rate, so a family in the centre of Middelburg pays exactly what a family in a village of the municipality pays. Nothing is charged until the free lesson has settled a course and an hour, and payment is then arranged on WhatsApp. Pauses, switching format and missed lessons are covered on the pricing page.'
   },
@@ -219,7 +219,7 @@ module.exports = {
       { q: 'Do the classes teach hacking?', a: 'The security course is ethical and defensive. Teenagers learn how attacks work so that they can prevent them, practise only on systems they own or are allowed to test, and spend most of their time on passwords, keys and safe design.' },
       { q: 'What language are lessons in, and what time are they?', a: 'In English, with Dutch school words such as brugklas, havo and vwo left as they are. The teachers are in India, three and a half hours ahead of Middelburg in summer and four and a half in winter, so lessons fit late afternoons, evenings and weekend mornings. The hour is agreed in the free lesson, and regio Zuid holidays are kept.' },
       { q: 'Is there a Modern Age Coders classroom in Middelburg?', a: 'No, and none is claimed here or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Middelburg coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Middelburg coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

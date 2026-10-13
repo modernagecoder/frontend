@@ -60,7 +60,7 @@ module.exports = {
 
   h1: 'Coding classes in South Lanarkshire',
   capsuleQ: 'What are the best coding classes in South Lanarkshire?',
-  capsule: 'South Lanarkshire is one of Scotland\'s bigger council areas, with about 327,200 residents in roughly 147,800 households at the 2022 census and 184.7 people per square kilometre. East Kilbride is its largest town, then Hamilton, with Rutherglen and Cambuslang each around 30,000 and Blantyre, Larkhall, Carluke and Lanark further down. Classes run live over video from India, and a free first lesson settles each learner\'s stage, P1 through S6 or adult. Anyone aged 6 to 67 can take coding, Python and maths, in a group of five to ten or with a private teacher. The South Lanarkshire project starts in the schoolrooms of New Lanark. Staying on costs USD 100 a month for a group place or USD 150 a month for one-to-one.',
+  capsule: 'South Lanarkshire is one of Scotland\'s bigger council areas, with about 327,200 residents in roughly 147,800 households at the 2022 census and 184.7 people per square kilometre. East Kilbride is its largest town, then Hamilton, with Rutherglen and Cambuslang each around 30,000 and Blantyre, Larkhall, Carluke and Lanark further down. Classes run live over video from India, and a free first lesson settles each learner\'s stage, P1 through S6 or adult. Anyone aged 6 to 67 can take coding, Python and maths, in a group of fifteen to twenty or with a private teacher. The South Lanarkshire project starts in the schoolrooms of New Lanark. Staying on costs USD 100 a month for a group place or USD 150 a month for one-to-one.',
   lead: 'At New Lanark, the cotton-spinning village begun by David Dale and developed by Robert Owen, Historic Environment Scotland lists the building of 1816 once called the New Institution for the Formation of Character at Category A. The listing says it served Owen\'s system of education for all ages, and was built on lines Owen set out for a school based on the ideas of Joseph Lancaster, an educational innovator known for having older pupils help to teach younger ones. That raises a question computer networks face every day: what is the quickest way to pass one message to hundreds of people, and how much of it survives being passed on? This page\'s project answers it in Python for an invented school of 500.',
   wa: 'Hello Modern Age Coders, we are in South Lanarkshire and would like to book a free lesson, please.',
 
@@ -166,7 +166,7 @@ module.exports = {
       { h3: 'The learner drives', p: 'Pupils type and run their own code while the teacher follows on the shared screen.' },
       { h3: 'Familiar stage names', p: 'A Larkhall P6 or a Bothwell S3 hears the Curriculum for Excellence terms they use at school, up to Advanced Higher. Lessons are in English.' },
       { h3: 'Trial lesson, no charge', p: 'One complete lesson free, then candid advice about what fits.' },
-      { h3: 'Stage-based classes', p: 'Five to ten learners working at one stage, joining from many places.' },
+      { h3: 'Stage-based classes', p: 'Fifteen to twenty learners working at one stage, joining from many places.' },
       { h3: 'Twice weekly in term', p: 'Regular lessons in term time, and none during the holidays.' },
       { h3: 'UK time kept steady', p: 'When the clocks change, the lesson stays at its UK hour and the teachers in India time adapt.' }
     ],
@@ -177,7 +177,7 @@ module.exports = {
     h2: 'Fees in South Lanarkshire',
     intro: 'Hamilton or Lanark, the fee is the same, and it is our fee for every country apart from India.',
     first: 'One complete trial lesson, free, then a recommendation.',
-    group: 'About eight lessons a month with five to ten classmates at one stage.',
+    group: 'About eight lessons a month with fifteen to twenty classmates at one stage.',
     private: 'About eight lessons a month with a teacher of your own.',
     closer: 'We charge in US dollars and keep no sterling price list. Invoices start only once a course and a weekly time are agreed after the trial; our pricing page covers holidays, missed lessons and changing format.'
   },

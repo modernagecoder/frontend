@@ -233,7 +233,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'Your child tries some Python with a teacher, and we recommend a path from what they enjoy.' },
-      { h3: 'Small groups', p: 'Five to ten children of similar age and level, often from different states.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty children of similar age and level, often from different states.' },
       { h3: 'One to one', p: 'For a child preparing for Year 7 quickly or chasing an ambitious project.' },
       { h3: 'Written by them', p: 'Every line is typed by the child; teachers guide with questions.' },
       { h3: 'Open to parents', p: 'You are welcome to watch any lesson, live.' },
@@ -249,7 +249,7 @@ module.exports = {
     h2: 'Fees for ages 11 and 12',
     lede: 'One monthly fee in US dollars applies to Australian families, with no joining charge and no fixed term.',
     free: ['A first Python task with a teacher', 'A suggested path and course', 'No card or bank details'],
-    group: ['Five to ten children per class', 'One teacher across the months', 'Peers working at the same level', 'Stop after any month'],
+    group: ['Fifteen to twenty children per class', 'One teacher across the months', 'Peers working at the same level', 'Stop after any month'],
     one: ['Lessons built around your child', 'Flexible weekly timing', 'Space for a project of their own']
   },
 

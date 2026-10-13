@@ -54,7 +54,7 @@ module.exports = {
   twitterDescription: 'Brisbane maths tutoring, live online: Prep to Year 12 and adults, on Brisbane time, with a river-measuring project.',
   pageName: 'Maths Tutor in Brisbane',
   webPageDescription: 'Live online maths tutoring for Greater Brisbane learners from Prep to Queensland senior maths and adult maths, with a measurement project on the sinuosity of the Brisbane River.',
-  courseDescription: 'Live online maths lessons for Brisbane learners, privately or in level-matched groups of five to ten, from early number to Specialist Mathematics and adult maths.',
+  courseDescription: 'Live online maths lessons for Brisbane learners, privately or in level-matched groups of fifteen to twenty, from early number to Specialist Mathematics and adult maths.',
   crumbs: [
     { name: 'Courses', href: '/courses' },
     { name: 'Coding classes in Australia', href: '/coding-classes-in-australia' }
@@ -84,7 +84,7 @@ module.exports = {
     ['City project', 'How much the river winds']
   ],
   capsuleQ: 'Maths tutor in Brisbane, in brief',
-  capsule: 'Brisbane learners aged 6 to 67 can study maths live online with Modern Age Coders: primary and secondary maths, Queensland senior subjects including Mathematical Methods and Specialist Mathematics, and adult maths. Lessons are timed in Brisbane, where clocks never change, and run either privately or with five to ten learners at the same level. The opening lesson is free.',
+  capsule: 'Brisbane learners aged 6 to 67 can study maths live online with Modern Age Coders: primary and secondary maths, Queensland senior subjects including Mathematical Methods and Specialist Mathematics, and adult maths. Lessons are timed in Brisbane, where clocks never change, and run either privately or with fifteen to twenty learners at the same level. The opening lesson is free.',
   picks: {
     eyebrow: 'How Brisbane families usually begin',
     h2: 'Three courses for Brisbane learners',
@@ -441,7 +441,7 @@ module.exports = {
     cells: [
       { h3: 'Same teacher', p: 'Week after week.' },
       { h3: 'Progress notes', p: 'Short and honest.' },
-      { h3: 'Groups of five to ten', p: 'Matched by level.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Matched by level.' },
       { h3: 'Maps and measurement', p: 'Real data beside exercises.' },
       { h3: 'One to one', p: 'For a test or a gap.' },
       { h3: 'Understanding first', p: 'Then practice.' }
@@ -454,7 +454,7 @@ module.exports = {
     h2: 'Fees for maths tutoring in Brisbane',
     lede: 'Brisbane families pay one monthly fee in US dollars. There is no joining fee and no contract.',
     free: ['A real lesson at the right level', 'An honest summary', 'No card'],
-    group: ['Five to ten learners', 'One teacher', 'Marked practice', 'Stop any month'],
+    group: ['Fifteen to twenty learners', 'One teacher', 'Marked practice', 'Stop any month'],
     one: ['Private lessons', 'Built around one learner', 'Good before exams']
   },
   faq: {

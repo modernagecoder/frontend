@@ -60,7 +60,7 @@ module.exports = {
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
-  capsule: 'CoderDojo is a network of free, volunteer-run coding clubs that began in Cork in July 2011; today there are over 600 active Dojos worldwide, part of the Raspberry Pi Foundation\'s Code Club movement. Clubs are brilliant for a first taste, for friendship and for confidence. When a child wants more, such as typed Python, a structured path or a teacher who reads their code every week, a live class is the natural next step, and many families keep the club as well. Modern Age Coders teaches live online for ages 6 to 67, in groups of five to ten placed by ability or one to one, and is not connected with CoderDojo. The first class is free; after it a group place is USD 100 a month and one-to-one lessons USD 150.',
+  capsule: 'CoderDojo is a network of free, volunteer-run coding clubs that began in Cork in July 2011; today there are over 600 active Dojos worldwide, part of the Raspberry Pi Foundation\'s Code Club movement. Clubs are brilliant for a first taste, for friendship and for confidence. When a child wants more, such as typed Python, a structured path or a teacher who reads their code every week, a live class is the natural next step, and many families keep the club as well. Modern Age Coders teaches live online for ages 6 to 67, in groups of fifteen to twenty placed by ability or one to one, and is not connected with CoderDojo. The first class is free; after it a group place is USD 100 a month and one-to-one lessons USD 150.',
 
   picks: {
     eyebrow: 'Start here',
@@ -111,7 +111,7 @@ module.exports = {
           ['Cost', 'Free', 'Paid monthly, after a free first class'],
           ['Who helps', 'Volunteer mentors, often parents and professionals giving their time', 'A teacher whose job is to teach this learner'],
           ['How learning happens', 'Learning from each other, with mentors on hand', 'A planned path, placed by level, with each step checked'],
-          ['Who is in the room', 'Young people of many ages and levels', 'Five to ten learners at the same stage, or one to one'],
+          ['Who is in the room', 'Young people of many ages and levels', 'Fifteen to twenty learners at the same stage, or one to one'],
           ['What it builds best', 'Confidence, creativity and friendship around technology', 'Steady progress from blocks to Python, data and AI']
         ] },
         { kind: 'source', html: 'The table compares two kinds of help, not two organisations. It makes no claim about any particular club, which each set their own activities.' }
@@ -210,7 +210,7 @@ module.exports = {
     cells: [
       { h3: 'A free first class', p: 'The child shows the teacher a club project and explains it, and the teacher places them on the right rung.' },
       { h3: 'The same teacher', p: 'One teacher who gets to know the child\'s projects, week after week.' },
-      { h3: 'Groups by level', p: 'Five to ten children at the same stage, from Ireland and other countries.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty children at the same stage, from Ireland and other countries.' },
       { h3: 'One to one if preferred', p: 'For a child who is far ahead, or who learns best with a teacher alone.' },
       { h3: 'Parents kept informed', p: 'Families hear what their child has built and what comes next.' },
       { h3: 'Projects that last', p: 'Work is saved in the child\'s own space, ready to show at the club or at school.' }
@@ -225,7 +225,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Monthly, in US dollars, the one rate we use for every country outside India. No enrolment fee and nothing to sign for a year.',
     free: ['A real class with a teacher', 'An honest placement on the ladder', 'No card needed'],
-    group: ['Five to ten children at one level', 'The same teacher each week', 'Projects reviewed weekly', 'A certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'The same teacher each week', 'Projects reviewed weekly', 'A certificate at the end'],
     one: ['A teacher for one child', 'Paced to the child', 'Good for fast movers']
   },
 

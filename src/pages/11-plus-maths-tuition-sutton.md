@@ -208,7 +208,7 @@ Our teachers are in India, and when Britain changes its clocks in March and Octo
 
 - **One teacher, all year** Continuity means patterns in a child's mistakes are spotted early.
 - **Brief honest reports** A few plain lines to parents after lessons, good news and bad.
-- **Five to ten per class** Children at the same level, so the pace suits everyone in the room.
+- **Fifteen to twenty per class** Children at the same level, so the pace suits everyone in the room.
 - **Written by us** All questions are ours, in both formats; no school material is reproduced.
 - **Private option** One to one when a child needs targeted help with written answers.
 - **Maths only** We do not teach the English papers and do not advise on admissions.
@@ -218,7 +218,7 @@ Our teachers are in India, and when Britain changes its clocks in March and Octo
 A flat monthly fee in US dollars, as for all families outside India. No deposit and no minimum term.
 
 - Free first class: USD 0. A full lesson with a teacher. An honest account of what we saw. No card asked for.
-- Group batch: USD 100 a month. Five to ten children, one level. The same teacher weekly. Written work marked and returned. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children, one level. The same teacher weekly. Written work marked and returned. A certificate at the end.
 - One to one: USD 150 a month. One teacher, one child. Focused on written answers if needed. Valuable between the SET and stage two.
 
 ## What Sutton families ask us

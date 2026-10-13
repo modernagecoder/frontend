@@ -60,7 +60,7 @@ module.exports = {
 
   h1: 'Coding classes in Aberdeen',
   capsuleQ: 'What are the best coding classes in Aberdeen?',
-  capsule: 'Scotland\'s Census 2022 put about 224,000 usual residents in Aberdeen City, with 68.2% aged 15 to 64 against 64.6% across Scotland. The University of Aberdeen was founded in 1495, and its Marischal College gained the facade in 1906 that the University calls the second-largest granite building in the world. Modern Age Coders teaches Aberdeen learners aged six to sixty-seven live online, one to one or in groups of five to ten placed by level, with teachers based in India and lessons timed in UK hours. The first lesson is free of charge; after that a group place is USD 100 a month and private teaching USD 150 a month.',
+  capsule: 'Scotland\'s Census 2022 put about 224,000 usual residents in Aberdeen City, with 68.2% aged 15 to 64 against 64.6% across Scotland. The University of Aberdeen was founded in 1495, and its Marischal College gained the facade in 1906 that the University calls the second-largest granite building in the world. Modern Age Coders teaches Aberdeen learners aged six to sixty-seven live online, one to one or in groups of fifteen to twenty placed by level, with teachers based in India and lessons timed in UK hours. The first lesson is free of charge; after that a group place is USD 100 a month and private teaching USD 150 a month.',
   lead: 'Ordnance Survey\'s Open Names file lists 3,170 distinct named places inside Aberdeen City, from Union Street to Tullos Hill. Suppose a program has to answer one question very fast and very often: is this name in Aberdeen? Storing the names takes about 300 kilobytes. A Bloom filter answers the same question from 6.2 kilobytes, and it never once says no about a name that is really there. The catch is the other direction: asked about names from Glasgow, Edinburgh and Dundee, it wrongly said yes 28 times out of 8,588, a false positive rate of 0.33%. Shrink it to 1.5 kilobytes and that rate climbs to 18%. Understanding a structure whose errors only ever point one way, and choosing how much memory to trade for accuracy, is the lesson Aberdeen\'s place names give our teenage learners.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Aberdeen.',
 
@@ -97,7 +97,7 @@ module.exports = {
           { h3: 'More homes than before', p: 'Households rose to about 109,500 from 103,371 in 2011, a faster change than the population, which moved from 222,793 to about 224,000.' },
           { h3: 'Compact city', p: 'At 1,207.1 residents per square kilometre, Aberdeen is far denser than the Scottish average of 69.8, though well below Glasgow.' }
         ] },
-        { kind: 'p', text: 'National Records of Scotland also reports that 21.3% of Aberdeen households had dependent children in 2022. Our learners here range across every stage: a P4 pupil in Cults making a first animation, an S4 student in Bridge of Don working towards National 5 Computing Science, or someone in their twenties in Torry learning Python for work, each in a group of five to ten at their own level.' }
+        { kind: 'p', text: 'National Records of Scotland also reports that 21.3% of Aberdeen households had dependent children in 2022. Our learners here range across every stage: a P4 pupil in Cults making a first animation, an S4 student in Bridge of Don working towards National 5 Computing Science, or someone in their twenties in Torry learning Python for work, each in a group of fifteen to twenty at their own level.' }
       ]
     },
     {
@@ -188,7 +188,7 @@ module.exports = {
       { h3: 'North or south of the Dee', p: 'A learner in Dyce and another in Kincorth can share one lesson without either crossing the city.' },
       { h3: 'Primary, secondary and national levels', p: 'Primary 1 to 7, S1 to S6, then National 5, Higher and Advanced Higher: lessons use the names Aberdeen schools use, and teaching is in English.' },
       { h3: 'A first lesson that teaches', p: 'The free session covers a real task and ends by recommending a level, a course and a weekly time. No card details are needed.' },
-      { h3: 'Matched by level', p: 'Groups of five to ten learners at the same stage, drawn from Aberdeen, elsewhere in Britain and overseas, so every level finds a workable hour.' },
+      { h3: 'Matched by level', p: 'Groups of fifteen to twenty learners at the same stage, drawn from Aberdeen, elsewhere in Britain and overseas, so every level finds a workable hour.' },
       { h3: 'Two lessons each week', p: 'A fixed pair of weekly slots, roughly eight lessons a month, with holiday and exam breaks agreed with the teacher in advance.' },
       { h3: 'India keeps one clock', p: 'India Standard Time never shifts, so Aberdeen runs four and a half hours behind it in British Summer Time and five and a half behind in winter, which keeps after-school and evening lessons inside the teaching day.' }
     ],
@@ -199,7 +199,7 @@ module.exports = {
     h2: 'Aberdeen lesson fees',
     intro: 'A free first lesson, then one monthly price.',
     first: 'A complete lesson at no cost, ending with a level, a recommended course and a proposed weekly time.',
-    group: 'About eight live lessons a month in a group of five to ten learners at one level.',
+    group: 'About eight live lessons a month in a group of fifteen to twenty learners at one level.',
     private: 'About eight live lessons a month with a teacher working only with your learner.',
     closer: 'Every family outside India pays the same US dollar fee, so Rosemount and Mannofield pay alike, and we publish no prices in pounds. Nothing is billed until the free lesson has settled a course and a slot; the pricing page covers pauses, missed lessons and moving between group and private teaching.'
   },
@@ -224,8 +224,8 @@ module.exports = {
       { q: 'How old is the University of Aberdeen?', a: 'The University says it was founded in 1495, with King\'s College welcoming its first students in 1505, and it counts five Nobel laureates among those associated with it. We are not connected with the University.' },
       { q: 'When are Aberdeen lessons held?', a: 'Weekday afternoons and evenings or weekends, at a UK time agreed during the free lesson. India runs 4.5 hours ahead of Aberdeen in summer and 5.5 hours ahead in winter.' },
       { q: 'Is there a Modern Age Coders centre in Aberdeen?', a: 'No. There is no Aberdeen centre and no premises anywhere in the UK; every lesson is taught live online. Learners need a computer with sound and a steady connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do Aberdeen lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
-      { q: 'How are Aberdeen groups formed?', a: 'By level, pace and aims rather than age or postcode, with five to ten learners at one stage. If no group meets at a suitable time, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do Aberdeen lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
+      { q: 'How are Aberdeen groups formed?', a: 'By level, pace and aims rather than age or postcode, with fifteen to twenty learners at one stage. If no group meets at a suitable time, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

@@ -203,7 +203,7 @@ Our olympiad teachers are based in India. The time difference works in favour of
 Olympiad classes cost a flat monthly amount in US dollars, the rate we use outside India; nothing is payable to join and you can stop at the end of any month. AMT competition entries are a matter between schools and the AMT, not us.
 
 - Free first class: USD 0. A first olympiad class, free. An honest read on proof-writing level. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. One teacher across the term. Solutions marked and discussed. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. One teacher across the term. Solutions marked and discussed. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one student. Work shaped around that student's weakest area. Weekly times arranged with you.
 
 ## What students and parents ask

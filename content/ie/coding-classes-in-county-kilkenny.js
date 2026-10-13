@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Coding classes in County Kilkenny',
   capsuleQ: 'What are the best coding classes in County Kilkenny?',
-  capsule: 'Kilkenny is a county of 104,160 people, 21,094 of them aged 15 and under, with one large town and a great many small ones: the city holds 27,184 while Castlecomer holds 1,496. Nobody in this county sat the first cohort of Leaving Certificate Computer Science, because no Kilkenny school was on that first list. Our classes run live, in ability groups of five to ten or one to one, for anyone from six years old to sixty-seven. The opening lesson costs nothing; after that a group place is USD 100 a month and a private one is USD 150.',
+  capsule: 'Kilkenny is a county of 104,160 people, 21,094 of them aged 15 and under, with one large town and a great many small ones: the city holds 27,184 while Castlecomer holds 1,496. Nobody in this county sat the first cohort of Leaving Certificate Computer Science, because no Kilkenny school was on that first list. Our classes run live, in ability groups of fifteen to twenty or one to one, for anyone from six years old to sixty-seven. The opening lesson costs nothing; after that a group place is USD 100 a month and a private one is USD 150.',
   lead: 'Open Kilkenny County Council\'s road traffic file and two columns are full of blanks. The temptation is to fill them in, average them out, or drop the rows. Look closer and the blanks are the most informative thing in the file. Every local road has one column filled and the other empty. Every motorway has the opposite. The gaps are not accidental and they are not random: they record which counting method was used on which class of road. Fill them in and you have invented traffic that nobody measured. This is one of the deepest ideas in working with data, it is visible here in a small public spreadsheet from a small Irish county, and a fifteen year old can see it in an afternoon.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in County Kilkenny.',
 
@@ -183,7 +183,7 @@ module.exports = {
     cells: [
       { h3: 'A person, not a playlist', p: 'Lessons are taught live by a teacher who expects the learner to talk, ask and get things wrong out loud.' },
       { h3: 'Scheduling across time zones', p: 'Our teaching team works from India, several hours ahead of Ireland, which is why afternoon and evening slots here are straightforward to fill.' },
-      { h3: 'Grouped by what they can do', p: 'Five to ten learners at one level, gathered from Kilkenny and other countries, so a genuine peer group exists rather than a room of mixed abilities.' },
+      { h3: 'Grouped by what they can do', p: 'Fifteen to twenty learners at one level, gathered from Kilkenny and other countries, so a genuine peer group exists rather than a room of mixed abilities.' },
       { h3: 'Equipment', p: 'A laptop or desktop, sound that works, a steady connection. Tools are installed together in the first lessons.' },
       { h3: 'Term-time aware', p: 'Junior Cycle, Transition Year and the senior cycle are planned around, including mid-terms and exam weeks.' },
       { h3: 'Weekly, not occasional', p: 'Two lessons in most weeks, roughly eight a month, in a slot fixed at the start and then kept.' }
@@ -195,7 +195,7 @@ module.exports = {
     h2: 'What Kilkenny families pay',
     intro: 'Three lines, and the conditions in plain view.',
     first: 'The opening lesson is free and complete, ending with a level and a recommended course.',
-    group: 'A month of group classes, around eight lessons, with five to ten learners at one level.',
+    group: 'A month of group classes, around eight lessons, with fifteen to twenty learners at one level.',
     private: 'A month of one to one lessons on the same weekly rhythm.',
     closer: 'Billing is monthly and in US dollars, the one rate we use outside India, so a family in Graiguenamanagh pays exactly what a family in the city pays. Nothing is taken until a course and a weekly hour have been agreed in the free lesson, and the pricing page explains pauses, missed lessons and switching format.'
   },
@@ -220,7 +220,7 @@ module.exports = {
       { q: 'Do you teach children outside Kilkenny city?', a: 'Yes, and it makes no difference where they are. Thomastown, Callan, Ballyragget and Graiguenamanagh all get exactly the same class as the city at exactly the same hour.' },
       { q: 'When do classes run?', a: 'Afternoons, evenings and weekend mornings, at a slot fixed during the free lesson. Our teachers work several hours ahead of Irish time, which is what makes those slots easy to staff.' },
       { q: 'Is there a Modern Age Coders classroom in County Kilkenny?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do County Kilkenny coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do County Kilkenny coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

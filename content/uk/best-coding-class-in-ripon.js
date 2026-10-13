@@ -70,7 +70,7 @@ module.exports = {
 
   h1: 'Coding classes in Ripon',
   capsuleQ: 'What are the best coding classes in Ripon?',
-  capsule: 'Ripon South and East, the larger of two middle-layer areas named after the city, had 10,336 usual residents at the 2021 census and 2,307.9 people per square kilometre. Ripon Cathedral describes its Anglo-Saxon crypt as the oldest built fabric of any English cathedral. Ripon learners from six to sixty-seven are taught live on video by our teachers in India, in a private lesson or in a class of five to ten at one stage, at times chosen around the English school day and working hours. There is no charge for the first lesson; afterwards a class place costs USD 100 a month and a private teacher USD 150 a month.',
+  capsule: 'Ripon South and East, the larger of two middle-layer areas named after the city, had 10,336 usual residents at the 2021 census and 2,307.9 people per square kilometre. Ripon Cathedral describes its Anglo-Saxon crypt as the oldest built fabric of any English cathedral. Ripon learners from six to sixty-seven are taught live on video by our teachers in India, in a private lesson or in a class of fifteen to twenty at one stage, at times chosen around the English school day and working hours. There is no charge for the first lesson; afterwards a class place costs USD 100 a month and a private teacher USD 150 a month.',
   lead: 'Rivers meet at Ripon: in Ordnance Survey\'s river network the Laver joins the Skell, and the Skell joins the Ure, within 3 km of the city centre. The Environment Agency measures the Ure at Westwick, 6.1 km downstream, every day since 1959, and the Laver at a weir inside the city since 1977. Our Ripon project asks a sharper question than whether the rivers are rising: are the biggest flows changing in a different way from ordinary ones? Quantile regression answers it by fitting a separate trend line to the 10th, 50th, 90th and 99th percentiles of daily flow. On the Ure since 1982, the top 1% of days has risen by about 5.9% a decade while the middle has hardly moved. On the Laver, the lines point the same way but the record is too short to be sure.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Ripon.',
 
@@ -203,7 +203,7 @@ module.exports = {
     h2: 'Ripon lesson fees',
     intro: 'A free first lesson, followed by one fee a month.',
     first: 'One full lesson without charge, ending with a suggested level, course and weekly slot.',
-    group: 'Around eight live lessons a month in a class of five to ten learners at the same stage.',
+    group: 'Around eight live lessons a month in a class of fifteen to twenty learners at the same stage.',
     private: 'Around eight live lessons a month, with the teacher\'s attention on your learner alone.',
     closer: 'Families in North Stainley or Bishop Monkton pay in US dollars, like all families outside India, and our site never lists pound prices. We send no bill before the free lesson is over and a course and weekly slot have been agreed; the pricing page explains how breaks, missed lessons and a switch between class and private teaching are handled.'
   },
@@ -228,8 +228,8 @@ module.exports = {
       { q: 'How old is Ripon Cathedral?', a: 'The cathedral says its crypt is still intact from St Wilfrid\'s original church of 672, and describes it as the oldest built fabric of any English cathedral. Historic England lists the building at Grade I.' },
       { q: 'When do Ripon lessons take place?', a: 'Ripon families mostly choose a time straight after school, a weekday evening or a weekend morning, and we fix it at the free lesson. With our teachers in India, a North Yorkshire evening is late for them: four and a half hours later on the clock in British Summer Time, five and a half in winter.' },
       { q: 'Do you have a Ripon centre?', a: 'No. We have no centre in Ripon or anywhere else in the UK, since every lesson is live online. Learners need a computer with sound and a reliable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do Ripon lessons cost?', a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same schedule is USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are Ripon learners grouped?', a: 'By level, pace and goals rather than by age or where they live, with five to ten learners at the same stage. If no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'What do Ripon lessons cost?', a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same schedule is USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are Ripon learners grouped?', a: 'By level, pace and goals rather than by age or where they live, with fifteen to twenty learners at the same stage. If no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

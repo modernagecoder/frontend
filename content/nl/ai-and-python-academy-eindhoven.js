@@ -53,7 +53,7 @@ module.exports = {
     ['First class', 'Free, no card']
   ],
   capsuleQ: 'In short',
-  capsule: 'Modern Age Coders runs a live online AI and Python track for learners in Eindhoven aged six to sixty-seven: Python typed by hand, then data, then models with a measured error, then agents. Because Eindhoven\'s AI is so often AI in machines, the track keeps three real-world problems in view throughout: training data that has to be made, systems that drift and must recalibrate, and the gap between a simulation and reality. Teaching is in English, in groups of five to ten or one to one. The first lesson is free; after that a group place is USD 100 a month and one-to-one tuition USD 150.',
+  capsule: 'Modern Age Coders runs a live online AI and Python track for learners in Eindhoven aged six to sixty-seven: Python typed by hand, then data, then models with a measured error, then agents. Because Eindhoven\'s AI is so often AI in machines, the track keeps three real-world problems in view throughout: training data that has to be made, systems that drift and must recalibrate, and the gap between a simulation and reality. Teaching is in English, in groups of fifteen to twenty or one to one. The first lesson is free; after that a group place is USD 100 a month and one-to-one tuition USD 150.',
 
   picks: {
     eyebrow: 'Start here',
@@ -193,7 +193,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free lesson with real work', p: 'The learner tackles an actual problem while the teacher watches. That shows the right starting rung better than any placement test.' },
-      { h3: 'Five to ten in a group', p: 'Learners from many countries grouped by ability, so a strong Eindhoven pupil is challenged and a newcomer is not rushed.' },
+      { h3: 'Fifteen to twenty in a group', p: 'Learners from many countries grouped by ability, so a strong Eindhoven pupil is challenged and a newcomer is not rushed.' },
       { h3: 'One to one for engineers', p: 'For irregular project hours, a specific technical goal, or anyone who prefers the pace set around them.' },
       { h3: 'Code visible as it is written', p: 'Screens are shared both ways, so the teacher catches a misunderstanding while it is still small.' },
       { h3: 'English, as in the lab', p: 'Lessons, documentation and error messages are in English. Dutch school terms are used as families use them.' },
@@ -209,7 +209,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Monthly, in US dollars, at the same two rates as every country outside India. Nothing extra for Eindhoven or the Netherlands, no sign-up fee, no annual contract. Copilot Studio courses are private tuition only and use the one-to-one rate.',
     free: ['A real lesson, not a sales call', 'Finds the right rung', 'No payment details needed'],
-    group: ['Five to ten learners at one level', 'One live teacher throughout', 'Projects reviewed every week', 'Certificate at completion'],
+    group: ['Fifteen to twenty learners at one level', 'One live teacher throughout', 'Projects reviewed every week', 'Certificate at completion'],
     one: ['A teacher for one learner', 'Pace and focus set by the goal', 'The format for Copilot Studio courses']
   },
 

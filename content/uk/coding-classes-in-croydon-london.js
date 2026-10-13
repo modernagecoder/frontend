@@ -53,7 +53,7 @@ module.exports = {
 
   h1: 'Coding classes in Croydon',
   capsuleQ: 'What are the best coding classes in Croydon?',
-  capsule: 'Croydon is the south London borough of Thornton Heath, Norbury, South Norwood, Addiscombe, Purley, Coulsdon, Selsdon and New Addington, with 390,719 residents at the 2021 Census and Selhurst Park inside its boundary. A class worth paying for should teach a learner not only to build a model but to ask how much to trust it, and this page does that with football: a ranking of Premier League teams worked out from their results, then tested on a season it never saw. Lessons run live on video with teachers based in India, for learners aged 6 to 67, either privately or in a group of five to ten at the same stage. The first lesson is on us. From then on, USD 100 a month buys a group place and USD 150 a month buys private teaching.',
+  capsule: 'Croydon is the south London borough of Thornton Heath, Norbury, South Norwood, Addiscombe, Purley, Coulsdon, Selsdon and New Addington, with 390,719 residents at the 2021 Census and Selhurst Park inside its boundary. A class worth paying for should teach a learner not only to build a model but to ask how much to trust it, and this page does that with football: a ranking of Premier League teams worked out from their results, then tested on a season it never saw. Lessons run live on video with teachers based in India, for learners aged 6 to 67, either privately or in a group of fifteen to twenty at the same stage. The first lesson is on us. From then on, USD 100 a month buys a group place and USD 150 a month buys private teaching.',
   lead: 'Selhurst Park, home ground of Crystal Palace, stands in South Norwood, in the north of Croydon. Our learners start from a question every supporter argues about: how good is each team, really? The Bradley-Terry model answers with one number per team, chosen so that the stronger side of any pair is more likely to win, plus a small bonus for playing at home. Fitted to all 380 results of 2024-25, it ranks the twenty clubs almost exactly as the league table does. The interesting part comes next. Asked to predict 2025-26, it picks the winner a little more often than "the home side wins", yet it states its chances more boldly than the results justify. Learners then fix that, honestly, with one extra number.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Croydon.',
 
@@ -148,7 +148,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'West Croydon', p: 'TfL\'s open data lists the tram, the Windrush line and Southern at West Croydon.' },
           { h3: 'Norbury to New Addington', p: 'Learners at opposite ends of the borough can share the same class without a single tram stop between them.' },
-          { h3: 'Matched, not drawn', p: 'Groups are built by level, not by lottery: five to ten learners at one stage, meeting at a UK evening hour.' }
+          { h3: 'Matched, not drawn', p: 'Groups are built by level, not by lottery: fifteen to twenty learners at one stage, meeting at a UK evening hour.' }
         ] },
         { kind: 'spec', title: 'Croydon and the other boroughs', p: 'At the 2021 Census Croydon had more usual residents than any other London borough, just ahead of Barnet. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> lists all 32 and the City, adding a link to each as it goes live, including <a class="cg-inline-link" href="/coding-classes-in-newham-london">Newham</a> across the river in the east.' }
       ]
@@ -185,7 +185,7 @@ module.exports = {
       { h3: 'At home', p: 'Learners join on a laptop or desktop with headphones and a steady broadband or mobile connection.' },
       { h3: 'Key Stages named', p: 'Progress is described in the stages used by schools in England, from Key Stage 1 to sixth form, with GCSE and A level mentioned where relevant. All lessons are in English.' },
       { h3: 'Free first lesson', p: 'A real teaching session rather than a pitch, finishing with a recommended level and course. We never ask for card details at this stage.' },
-      { h3: 'Five to ten per class', p: 'Classmates share a stage of learning and come from across the UK and beyond, which keeps a suitable hour available.' },
+      { h3: 'Fifteen to twenty per class', p: 'Classmates share a stage of learning and come from across the UK and beyond, which keeps a suitable hour available.' },
       { h3: 'Two evenings a week', p: 'Classes usually meet twice weekly and pause for half terms, holidays and exams by agreement.' },
       { h3: 'London clock', p: 'Teachers are based in India, but every lesson time in our messages is given in UK time.' }
     ],
@@ -196,7 +196,7 @@ module.exports = {
     h2: 'Fees for Croydon families',
     intro: 'A free first lesson, then one monthly fee that is the same from Norbury to New Addington.',
     first: 'A full lesson with a teacher, at no cost, that ends with our recommendation of level, course and time.',
-    group: 'Roughly eight live lessons each month in a class of five to ten learners at one stage.',
+    group: 'Roughly eight live lessons each month in a class of fifteen to twenty learners at one stage.',
     private: 'Roughly eight live lessons each month, taught one to one.',
     closer: 'Croydon families pay in US dollars, as all families outside India do, and the site shows no sterling prices. You pay nothing before the free lesson and before choosing a course and a regular slot. Pauses, missed lessons and switching between a class and private lessons are all explained on the pricing page.'
   },
@@ -221,8 +221,8 @@ module.exports = {
       { q: 'When would Croydon lessons take place?', a: 'After the free lesson we propose a regular weekly slot in a class at the right level with a place free. Teachers are in India, but every time we give you is UK time.' },
       { q: 'What does a learner need at home?', a: 'A laptop or desktop, headphones or speakers, and a reliable internet connection. For the football project, Python and two free public-domain result files are enough.' },
       { q: 'Is there a Modern Age Coders centre in Croydon?', a: 'No. There is no Croydon centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Croydon cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Croydon cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

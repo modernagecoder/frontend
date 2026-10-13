@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Mid and East A
 canonical: https://learn.modernagecoders.com/coding-classes-in-mid-and-east-antrim
 source: src/pages/coding-classes-in-mid-and-east-antrim.html
 ---
-> Mid and East Antrim had 138,994 usual residents at the 2021 census, NISRA reports. Its three large towns are Ballymena, Carrickfergus and Larne, and smaller settlements include Whitehead, Ahoghill, Broughshane and Cullybackey. Every class we teach is live on video, led by teachers based in India. Learners from 6 to 67 take coding, Python and maths, privately or in a class of five to ten who share a level. A free first lesson decides the course. The district project starts in a Victorian gasworks. Staying on after the free lesson means USD 100 each month in a group, or USD 150 each month with a private tutor.
+> Mid and East Antrim had 138,994 usual residents at the 2021 census, NISRA reports. Its three large towns are Ballymena, Carrickfergus and Larne, and smaller settlements include Whitehead, Ahoghill, Broughshane and Cullybackey. Every class we teach is live on video, led by teachers based in India. Learners from 6 to 67 take coding, Python and maths, privately or in a class of fifteen to twenty who share a level. A free first lesson decides the course. The district project starts in a Victorian gasworks. Staying on after the free lesson means USD 100 each month in a group, or USD 150 each month with a private tutor.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Northern Ireland](/coding-and-ai-classes-in-northern-ireland) / Mid and East Antrim
 
@@ -12,11 +12,11 @@ Mid and East Antrim / Live online
 
 # Coding classes in Mid and East Antrim
 
-**What are the best coding classes in Mid and East Antrim?** Mid and East Antrim had 138,994 usual residents at the 2021 census, NISRA reports. Its three large towns are Ballymena, Carrickfergus and Larne, and smaller settlements include Whitehead, Ahoghill, Broughshane and Cullybackey. Every class we teach is live on video, led by teachers based in India. Learners from 6 to 67 take coding, Python and maths, privately or in a class of five to ten who share a level. A free first lesson decides the course. The district project starts in a Victorian gasworks. Staying on after the free lesson means USD 100 each month in a group, or USD 150 each month with a private tutor.
+**What are the best coding classes in Mid and East Antrim?** Mid and East Antrim had 138,994 usual residents at the 2021 census, NISRA reports. Its three large towns are Ballymena, Carrickfergus and Larne, and smaller settlements include Whitehead, Ahoghill, Broughshane and Cullybackey. Every class we teach is live on video, led by teachers based in India. Learners from 6 to 67 take coding, Python and maths, privately or in a class of fifteen to twenty who share a level. A free first lesson decides the course. The district project starts in a Victorian gasworks. Staying on after the free lesson means USD 100 each month in a group, or USD 150 each month with a private tutor.
 
 In 1854 a group of Carrickfergus businessmen formed a gas company to light the town, and on 17 September 1855 its street lamps were lit for the first time. The gasworks they built is now listed at Grade A, and the Historic Environment Division's record keeps some unusually useful numbers. In its first year the company signed up 171 customers. By 1905 it had 242, and over the same period the average amount of gas each customer used tripled, thanks to gas cookers, heaters, better mantles and cheaper gas. So total gas use rose more than fourfold. But how much of that came from more customers, and how much from each one using more? And what does "more than fourfold in 50 years" mean per year? This page's project answers with compound growth in Python.
 
-Facts last verified 26 September 2026. Teaching is online; no Mid and East Antrim branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Mid and East Antrim branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Mid and East Antrim starting points
 
@@ -134,7 +134,7 @@ Coast, glen or town, a home connection is enough.
 - **Typing it themselves** Each student builds the program at their own keyboard; the tutor keeps watch on screen and nudges when needed.
 - **Northern Ireland school stages** We place a Whitehead P6 or a Larne Year 13 according to key stage and school year, using CCEA exam titles. Lessons are in English.
 - **Free starter lesson** A complete first lesson, free, then our recommendation.
-- **Level-matched groups** Classes of five to ten at one level, from all around the UK.
+- **Level-matched groups** Classes of fifteen to twenty at one level, from all around the UK.
 - **Term rhythm** Two lessons a week during term; holidays are free.
 - **Clock-change proof** The lesson keeps its usual local time in spring and autumn; our teachers shift, not you.
 
@@ -145,7 +145,7 @@ Coast, glen or town, a home connection is enough.
 Ballymena and Larne pay the same, as does every country we teach outside India.
 
 - First class: USD 0. A full trial lesson at no charge, then clear advice.
-- Group tuition: USD 100 a month. Close to eight lessons a month in a class of five to ten.
+- Group tuition: USD 100 a month. Close to eight lessons a month in a class of fifteen to twenty.
 - Private tuition: USD 150 a month. Close to eight lessons a month with your own tutor.
 
 Fees are set in US dollars; we do not quote sterling. Nothing is charged until the trial agrees a course and weekly time, and holidays, missed lessons and format changes are explained on the pricing page.

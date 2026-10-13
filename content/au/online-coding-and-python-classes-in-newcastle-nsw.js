@@ -193,7 +193,7 @@ module.exports = {
       { h3: 'Any suburb, same lesson', p: 'Learners in Belmont, Wallsend and East Maitland can join one class from their own desks, with no traffic to beat.' },
       { h3: 'NSW year levels', p: 'Teachers refer to Year 7 to Year 12 and to NSW stages as local schools do, and every lesson is delivered in English.' },
       { h3: 'A trial that teaches', p: 'The first session is a real Python task with a teacher, ending with a suggested level, course and weekly time. No payment details are taken.' },
-      { h3: 'Groups of five to ten', p: 'Learners at the same stage, drawn from the Hunter, the rest of Australia and abroad, so each level finds a time that works.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners at the same stage, drawn from the Hunter, the rest of Australia and abroad, so each level finds a time that works.' },
       { h3: 'Two lessons a week', p: 'About eight lessons a month at a fixed time, with school holidays and exam weeks planned in advance with the teacher.' },
       { h3: 'India time changes twice a year', p: 'Our teachers are in India, 4 hours 30 minutes behind Newcastle in winter and 5 hours 30 minutes behind in daylight saving months.' }
     ],
@@ -204,7 +204,7 @@ module.exports = {
     h2: 'What Python classes cost in Newcastle',
     intro: 'Three figures, nothing else.',
     first: 'A full first lesson with no charge, ending with a level, a course and a weekly time.',
-    group: 'One month of teaching, usually eight lessons, with five to ten learners at your stage.',
+    group: 'One month of teaching, usually eight lessons, with fifteen to twenty learners at your stage.',
     private: 'The same pattern of about eight lessons a month, one teacher with one learner.',
     closer: 'Every family outside India is invoiced in US dollars at a single rate, whether they live on the harbour or out in the Hunter Valley, so there is no Newcastle surcharge. Payment starts only once the trial has fixed a course and slot; the pricing page covers holidays, missed lessons and changing format.'
   },
@@ -229,8 +229,8 @@ module.exports = {
       { q: 'What time are lessons for Newcastle learners?', a: 'Late afternoon, evening or weekend, agreed in the trial and always stated in Newcastle time. Newcastle is 4 hours 30 minutes ahead of India time in winter and 5 hours 30 minutes ahead during daylight saving.' },
       { q: 'Do you teach younger children in Newcastle?', a: 'Yes, from age 6, with Scratch and picture-based projects. This page is for secondary students and adults; parents of younger children will find more on coding classes for kids in Newcastle.' },
       { q: 'Is there a Modern Age Coders centre in Newcastle?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Newcastle coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Newcastle coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

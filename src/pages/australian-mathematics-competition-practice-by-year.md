@@ -185,7 +185,7 @@ Our teachers work from India, which sits behind every Australian time zone. A 4 
 
 - **Read, then plan** Students decide how to approach a question before calculating.
 - **Eliminate first** Impossible answers are ruled out with reasons.
-- **Groups by division** Five to ten students sitting the same paper.
+- **Groups by division** Fifteen to twenty students sitting the same paper.
 - **One-to-one option** For students aiming at the hardest questions.
 - **Short parent notes** One strategy learned and one problem to try at home.
 - **No award promises** We teach maths; the result belongs to the student.
@@ -195,7 +195,7 @@ Our teachers work from India, which sits behind every Australian time zone. A 4 
 Australian families are billed monthly in US dollars, our standard rate outside India, with no deposit and the option to stop at any month end. AMC entry is arranged and paid through schools.
 
 - Free first class: USD 0. A real lesson with a teacher. An honest view of competition readiness. No card details.
-- Group batch: USD 100 a month. Five to ten students in one division. The same teacher every week. Problems reviewed and discussed. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students in one division. The same teacher every week. Problems reviewed and discussed. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one student. Focused on chosen topics. A weekly time that suits you.
 
 ## What Australian families ask

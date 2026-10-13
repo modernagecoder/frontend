@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding classes in North Ayrshire',
   capsuleQ: 'What are the best coding classes in North Ayrshire?',
-  capsule: 'North Ayrshire had about 133,400 residents in roughly 64,200 households at the 2022 census, at 150.7 people per square kilometre. Irvine is its largest town, followed by Kilwinning, Saltcoats, Largs and Ardrossan, and the council area also takes in the Isle of Arran. Live video lessons from our teachers in India start with a free session that shows which stage suits the learner, anything from P1 to S6 or an adult return to study. Coding, Python and maths are taught to ages 6 to 67, in groups of five to ten or one-to-one. The North Ayrshire project starts beneath a painted ceiling in Largs. Staying on costs USD 100 monthly for a group seat, or USD 150 monthly for private teaching.',
+  capsule: 'North Ayrshire had about 133,400 residents in roughly 64,200 households at the 2022 census, at 150.7 people per square kilometre. Irvine is its largest town, followed by Kilwinning, Saltcoats, Largs and Ardrossan, and the council area also takes in the Isle of Arran. Live video lessons from our teachers in India start with a free session that shows which stage suits the learner, anything from P1 to S6 or an adult return to study. Coding, Python and maths are taught to ages 6 to 67, in groups of fifteen to twenty or one-to-one. The North Ayrshire project starts beneath a painted ceiling in Largs. Staying on costs USD 100 monthly for a group seat, or USD 150 monthly for private teaching.',
   lead: 'In Largs, Historic Environment Scotland lists the Skelmorlie Aisle at Category A. Inside is a painted timber ceiling signed by J S Stalker and dated 1638, with biblical scenes, the four seasons and, among its panels, the signs of the zodiac, the old names for twelve stretches of the Sun\'s yearly path across the stars. Here is the puzzle: the stars have not stayed where they were in 1638. The Earth\'s axis wobbles slowly, like a spinning top, and the whole grid astronomers use to locate stars drifts with it. How far, and how would a computer calculate it? This page\'s project rotates real star positions back to the year of the painting using matrices in Python.',
   wa: 'Hello Modern Age Coders, we are in North Ayrshire and would like to book a free lesson, please.',
 
@@ -162,7 +162,7 @@ module.exports = {
       { h3: 'Code on screen, teacher beside you', p: 'The learner types and runs every program; the teacher watches the shared screen and steps in.' },
       { h3: 'Scottish stages', p: 'P6, S3, National 5, Higher and Advanced Higher are our vocabulary too, and lessons are in English.' },
       { h3: 'First lesson is free', p: 'A complete lesson, no payment, then honest advice on the next step.' },
-      { h3: 'Groups matched by stage', p: 'Five to ten learners at one stage per group, from many different places.' },
+      { h3: 'Groups matched by stage', p: 'Fifteen to twenty learners at one stage per group, from many different places.' },
       { h3: 'Term-time lessons', p: 'Two lessons a week in term; breaks in the school holidays.' },
       { h3: 'Your UK time, kept', p: 'We hold your slot at the same UK time when clocks change; our teachers in India time adjust.' }
     ],
@@ -173,7 +173,7 @@ module.exports = {
     h2: 'Fees in North Ayrshire',
     intro: 'Saltcoats or Brodick, the fee is the same, as it is in every country we teach outside India.',
     first: 'A full lesson with no charge, then a clear recommendation.',
-    group: 'About eight lessons a month in a group of five to ten.',
+    group: 'About eight lessons a month in a group of fifteen to twenty.',
     private: 'About eight lessons a month, one learner and one teacher.',
     closer: 'Fees are in US dollars; we have no sterling price list. You pay nothing until a course and regular slot have been settled after the trial lesson. Holidays, absences and moves between group and private lessons are explained on the pricing page.'
   },

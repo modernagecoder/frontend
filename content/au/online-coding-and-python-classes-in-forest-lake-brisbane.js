@@ -288,7 +288,7 @@ module.exports = {
       { h3: 'Hands-on coding', p: 'The learner writes the code; the teacher follows every keystroke on the shared screen.' },
       { h3: 'In step with school', p: 'Lessons follow Queensland terms and break for holidays.' },
       { h3: 'Free opening lesson', p: 'A genuine first class with a clear suggestion at the end.' },
-      { h3: 'Groups or one to one', p: 'Five to ten learners matched by level, or a private teacher.' },
+      { h3: 'Groups or one to one', p: 'Fifteen to twenty learners matched by level, or a private teacher.' },
       { h3: 'Two lessons weekly', p: 'Regular times, about eight lessons each month.' },
       { h3: 'Time in India', p: 'Our teachers are in India: a 4pm Forest Lake lesson is 11:30am India time, every week.' }
     ],
@@ -301,7 +301,7 @@ module.exports = {
     h2: 'Forest Lake lesson fees',
     intro: 'Three prices, set the same for all.',
     first: 'There is no charge for the first lesson, which ends with a written plan.',
-    group: 'Group study: roughly eight lessons a month, with five to ten learners.',
+    group: 'Group study: roughly eight lessons a month, with fifteen to twenty learners.',
     private: 'Private study: roughly eight lessons a month, one learner per teacher.',
     closer: 'Forest Lake families pay in US dollars and only once the trial has fixed a course and time. Holiday pauses, missed lessons and format changes are explained on the pricing page.'
   },
@@ -340,12 +340,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Forest Lake learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       {

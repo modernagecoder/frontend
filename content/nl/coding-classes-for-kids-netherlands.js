@@ -188,7 +188,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first lesson', p: 'The child makes something real while the teacher watches how they think. By the end, the teacher knows where to start and the child usually wants to come back.' },
-      { h3: 'Small groups by level', p: 'Five to ten children who can already do the same things, from several countries, so a quick seven-year-old and a careful ten-year-old can each be in the right group.' },
+      { h3: 'Small groups by level', p: 'Fifteen to twenty children who can already do the same things, from several countries, so a quick seven-year-old and a careful ten-year-old can each be in the right group.' },
       { h3: 'One to one if it suits', p: 'For a child who is shy in groups, needs extra attention, or is racing ahead and wants their own pace.' },
       { h3: 'A parent in the loop', p: 'We speak with a parent before anything is booked, and younger children often have a parent nearby for the first lessons.' },
       { h3: 'In English', p: 'Lessons are in English. Children at Dutch schools usually pick up the programming words quickly, and teachers keep instructions simple and visual.' },
@@ -204,7 +204,7 @@ module.exports = {
     h2: 'What it costs for a child',
     lede: 'Monthly, in US dollars, at the same rates as every other country outside India. No separate Dutch price, no enrolment fee and no year-long contract.',
     free: ['A real lesson, not a sales call', 'Places the child at the right level', 'No card or bank details asked'],
-    group: ['Five to ten children at one level', 'The same live teacher each week', 'Work reviewed every week', 'A certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'The same live teacher each week', 'Work reviewed every week', 'A certificate at the end'],
     one: ['A teacher for one child', 'Pace set around the child', 'Extra support where needed']
   },
 

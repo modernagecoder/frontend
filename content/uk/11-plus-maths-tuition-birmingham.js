@@ -263,7 +263,7 @@ module.exports = {
     cells: [
       { h3: 'One teacher throughout', p: 'The person who saw last week\'s mistake is there to check it is gone.' },
       { h3: 'Short honest notes', p: 'Parents hear what went well and what needs work, plainly.' },
-      { h3: 'Five to ten per group', p: 'Children at the same level, so explanations land for everyone.' },
+      { h3: 'Fifteen to twenty per group', p: 'Children at the same level, so explanations land for everyone.' },
       { h3: 'Our own questions', p: 'Every practice item is written by us. Nothing is copied from the test or the guide.' },
       { h3: 'Private lessons too', p: 'One to one for a specific gap, or a child who prefers it.' },
       { h3: 'Maths, and only maths', p: 'No verbal or non-verbal reasoning teaching, and no admissions advice.' }
@@ -278,7 +278,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'One monthly price in US dollars, the same for families everywhere outside India. No registration fee, no contract.',
     free: ['A lesson that teaches something', 'Our honest view afterwards', 'No card required'],
-    group: ['Five to ten children at one level', 'A regular teacher', 'Marked work, talked through', 'A certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'A regular teacher', 'Marked work, talked through', 'A certificate at the end'],
     one: ['A teacher for your child alone', 'Aimed at the exact gap', 'Handy in the last months before September']
   },
 

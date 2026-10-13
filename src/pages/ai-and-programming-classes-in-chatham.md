@@ -4,7 +4,7 @@ description: "Online AI, programming, Python and vibe coding classes for Chatham
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-chatham
 source: src/pages/ai-and-programming-classes-in-chatham.html
 ---
-> At the 2021 census the ONS gave Chatham's built-up area 76,955 people, alongside Gillingham and Rochester in a Medway of 279,773; Walderslade and Luton are among the suburbs recorded in the area. Anyone there aged from 6 up to 67 can study AI, programming, Python, vibe coding and maths with one of our India-based tutors over live video, in private lessons or a class of five to ten matched by stage. Thinking skills come first, so a learner understands what an AI decides and why. We do not charge for the first lesson and finish it with a course suggestion. Chatham's project uses Medway's own census data to answer a question behind every AI yes-or-no decision: where should the line be drawn? Lessons after the trial cost USD 100 per month in a class or USD 150 per month one-to-one.
+> At the 2021 census the ONS gave Chatham's built-up area 76,955 people, alongside Gillingham and Rochester in a Medway of 279,773; Walderslade and Luton are among the suburbs recorded in the area. Anyone there aged from 6 up to 67 can study AI, programming, Python, vibe coding and maths with one of our India-based tutors over live video, in private lessons or a class of fifteen to twenty matched by stage. Thinking skills come first, so a learner understands what an AI decides and why. We do not charge for the first lesson and finish it with a course suggestion. Chatham's project uses Medway's own census data to answer a question behind every AI yes-or-no decision: where should the line be drawn? Lessons after the trial cost USD 100 per month in a class or USD 150 per month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Chatham
 
@@ -12,11 +12,11 @@ Chatham, Medway, Kent, England / Live online
 
 # AI and programming classes in Chatham
 
-**Which are the best AI and programming classes in Chatham?** At the 2021 census the ONS gave Chatham's built-up area 76,955 people, alongside Gillingham and Rochester in a Medway of 279,773; Walderslade and Luton are among the suburbs recorded in the area. Anyone there aged from 6 up to 67 can study AI, programming, Python, vibe coding and maths with one of our India-based tutors over live video, in private lessons or a class of five to ten matched by stage. Thinking skills come first, so a learner understands what an AI decides and why. We do not charge for the first lesson and finish it with a course suggestion. Chatham's project uses Medway's own census data to answer a question behind every AI yes-or-no decision: where should the line be drawn? Lessons after the trial cost USD 100 per month in a class or USD 150 per month one-to-one.
+**Which are the best AI and programming classes in Chatham?** At the 2021 census the ONS gave Chatham's built-up area 76,955 people, alongside Gillingham and Rochester in a Medway of 279,773; Walderslade and Luton are among the suburbs recorded in the area. Anyone there aged from 6 up to 67 can study AI, programming, Python, vibe coding and maths with one of our India-based tutors over live video, in private lessons or a class of fifteen to twenty matched by stage. Thinking skills come first, so a learner understands what an AI decides and why. We do not charge for the first lesson and finish it with a course suggestion. Chatham's project uses Medway's own census data to answer a question behind every AI yes-or-no decision: where should the line be drawn? Lessons after the trial cost USD 100 per month in a class or USD 150 per month one-to-one.
 
 Many AI systems produce a score between 0 and 1 and then turn it into a yes or a no. Spam filters, fraud checks and medical screening tools all do it, and the obvious rule, say yes above 0.5, is often not the right one. This project builds a small classifier in Python on Medway's 853 census output areas, asking whether an area is mostly terraced houses from car ownership alone, and then draws its ROC curve: a picture of every possible cut-off at once. The model turns out to be only moderately good, which makes it a better teacher. At the default cut-off it is less accurate than never saying yes at all.
 
-Facts last verified 29 September 2026. Teaching is online; no Chatham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Chatham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Chatham courses in thinking, vibe coding and AI
 
@@ -134,7 +134,7 @@ Everything happens over video, so a computer and decent broadband are all that i
 - **Learners write the code** Students do the typing, prompting and running, while the tutor watches their screen and keeps asking questions.
 - **The trial sets the level** What the learner shows in the free session, rather than the school year, decides where to start; exam boards are noted.
 - **First lesson free** No fee for the opening session, which finishes with a course we recommend.
-- **Stage-matched groups** A class gathers five to ten learners from across Britain who are at one level.
+- **Stage-matched groups** A class gathers fifteen to twenty learners from across Britain who are at one level.
 - **Two sessions a week** Paused during school holidays.
 - **Steady lesson times** Tutors adjust to UK clock changes, so the hour stays the same.
 

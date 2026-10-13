@@ -16,7 +16,7 @@ Evington, Leicester, England / Live online
 
 Most machine learning needs examples of the right answer. Anomaly detection often has none: nobody has marked which bank payments are fraud or which sensor readings are faults. The isolation forest, introduced in 2008, turns the problem round. It chops the data with random cuts and counts how many cuts it takes to fence each point off on its own. Ordinary points, packed in with many neighbours, take a long time to isolate. Odd ones fall out after a few cuts. This project tries it on something you can inspect by eye: the outlines of buildings mapped on OpenStreetMap around Evington, where most are houses and a few are very much not.
 
-Facts last verified 30 September 2026. Teaching is online; no Evington branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Evington branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four routes in for Evington: thinking, vibe coding, machine learning, agents
 

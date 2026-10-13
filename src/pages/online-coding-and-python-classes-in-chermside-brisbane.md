@@ -16,7 +16,7 @@ Chermside, City of Brisbane, Queensland / Live online
 
 Chermside is a bus suburb. The Translink timetable for Wednesday 21 October 2026 lists 4,038 stop visits inside the suburb outline, every one of them by bus, on 23 routes. With 72 stop records to choose from, a learner building a stop finder quickly meets the question every search box faces: when should it actually search?
 
-Facts last verified 12 October 2026. Teaching is online; no Chermside branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Chermside branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python and coding courses to start with
 
@@ -175,7 +175,7 @@ Every lesson is a live video call; nobody needs to travel to Gympie Road for it.
 - **Live, not recorded** A real teacher works through the code with the learner in each session.
 - **School calendar** Lessons follow Queensland school terms and pause in the holidays.
 - **Trial first** The first lesson is free and ends with a written course suggestion.
-- **Group size** Five to ten learners at one level, or private one-to-one lessons.
+- **Group size** Fifteen to twenty learners at one level, or private one-to-one lessons.
 - **Rhythm** Two lessons a week, about eight a month.
 - **Time difference** A 5pm Chermside lesson is 12:30pm for our teachers in India, all year round.
 
@@ -186,7 +186,7 @@ Every lesson is a live video call; nobody needs to travel to Gympie Road for it.
 One price list for every learner.
 
 - First class: USD 0. The trial lesson is free, with a plan at the end.
-- Group tuition: USD 100 a month. Group classes: about eight lessons a month in groups of five to ten.
+- Group tuition: USD 100 a month. Group classes: about eight lessons a month in groups of fifteen to twenty.
 - Private tuition: USD 150 a month. Private classes: about eight lessons a month, one learner and one teacher.
 
 Chermside fees are charged in US dollars, only after the trial has fixed a course and weekly slot. The pricing page explains holidays and missed sessions.
@@ -223,11 +223,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Chermside classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### How many bus routes serve Chermside?
 

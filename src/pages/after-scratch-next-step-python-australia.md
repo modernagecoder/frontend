@@ -198,7 +198,7 @@ We teach from India, a few hours behind every Australian state, so after-school 
 - **Weekend** Longer sessions for translating bigger projects.
 
 - **A free first class** Your child translates a few Scratch blocks into Python with a teacher, which shows quickly whether they are ready.
-- **Small groups** Five to ten children making the same move from blocks to text.
+- **Small groups** Fifteen to twenty children making the same move from blocks to text.
 - **One to one** For a child who wants to bring a big Scratch project across.
 - **Their keyboard** The child types every line; teachers point, question and explain.
 - **Parents can see** Lessons are live, so you can watch the first Python steps.
@@ -209,7 +209,7 @@ We teach from India, a few hours behind every Australian state, so after-school 
 Australian families pay a monthly fee in US dollars. There is nothing to pay to join and no fixed term.
 
 - Free first class: USD 0. A few Scratch blocks turned into Python. An honest view on readiness. No card or bank details.
-- Group batch: USD 100 a month. Five to ten children per class. One teacher across the months. Classmates making the same move. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty children per class. One teacher across the months. Classmates making the same move. Stop after any month.
 - One to one: USD 150 a month. Focused on your child's own projects. Pace set by them. Good for translating a big game.
 
 ## What parents ask about the step after Scratch

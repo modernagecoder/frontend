@@ -16,7 +16,7 @@ Armidale, New South Wales, Australia / Live online
 
 Type part of a street name into a map search and the suggestions appear before you finish typing. A program that checked every street name in turn would still be quick for one town, but it does far more work than it needs to. We took the street names attached to the state's address points inside the Armidale urban area, 512 distinct names, and built a suffix array: every ending of the joined text, sorted. Finding every name that contains a word then takes two binary searches, about two dozen comparisons, instead of thousands of positions checked one by one. Suffix arrays and their close relatives are used in genome sequence tools and text compression, and the idea is small enough for a teenager to build in an afternoon.
 
-Facts last verified 10 October 2026. Teaching is online; no Armidale branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Armidale branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Coding courses that teach how search works
 
@@ -181,7 +181,7 @@ Classes are live video lessons, so learners anywhere on the tableland join from 
 - **What you need** A computer, a microphone and a connection that holds a video call.
 - **NSW year levels** Teachers plan around New South Wales year levels and terms; all teaching is in English.
 - **Free first class** The trial is a real lesson that ends with a recommended course and lesson time.
-- **Groups by stage** Five to ten learners at one level share a group, from Armidale and further afield.
+- **Groups by stage** Fifteen to twenty learners at one level share a group, from Armidale and further afield.
 - **Two set days** Group learners meet twice a week on fixed days, about eight lessons a month.
 - **Teachers** The teaching team is based in India, and every time is confirmed in Armidale time.
 
@@ -192,7 +192,7 @@ Classes are live video lessons, so learners anywhere on the tableland join from 
 Fees are short and the same everywhere in Australia.
 
 - First class: USD 0. Your first class is free and ends with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. A month of group lessons, about eight, with five to ten learners at the same stage.
+- Group tuition: USD 100 a month. A month of group lessons, about eight, with fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. About eight one-to-one lessons a month with your own teacher.
 
 Outside India we charge in US dollars, and Armidale learners pay what every Australian learner pays. No payment is taken until the trial has agreed the course and time, and the pricing page sets out holidays, missed lessons and switching between group and private.
@@ -233,7 +233,7 @@ No. We have no premises in Australia and claim none. All classes are live online
 
 ### What do Armidale coding classes cost?
 
-The first lesson is free. Afterwards a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one-to-one. All of it is agreed before payment.
+The first lesson is free. Afterwards a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one-to-one. All of it is agreed before payment.
 
 ### How many learners share a group?
 

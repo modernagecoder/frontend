@@ -16,7 +16,7 @@ Crookes, Sheffield, South Yorkshire, England / Live online
 
 A walking route planner that treats every street as flat will tell you a trip takes the same time in both directions. Anyone who has walked a steep street knows better. In 1993 the geographer Waldo Tobler published a simple rule for walking speed on a slope: about 5 km/h on the flat, fastest on a gentle downhill, slower the steeper it gets either way. Give an agent that rule and real heights, and its map of the world changes. This project builds two agents for the streets and paths around Crookes, one blind to hills and one that knows them, and compares what each plans and what each predicts.
 
-Facts last verified 30 September 2026. Teaching is online; no Crookes branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Crookes branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Crookes courses in modelling, vibe coding and agents
 
@@ -131,7 +131,7 @@ A home computer, its camera and ordinary broadband cover everything.
 - **Whose hands are on the keys** The learner's, always. Tutors watch the shared screen and ask for a prediction before each run.
 - **What the trial is for** Finding the right first topic, and noting an exam board when one applies.
 - **What the trial costs** Nothing. It ends with our suggestion of a course.
-- **Who is in a group** Five to ten learners at one level, from anywhere in the UK.
+- **Who is in a group** Fifteen to twenty learners at one level, from anywhere in the UK.
 - **How often** Twice a week in term.
 - **When the clocks change** Our tutors shift; your lesson hour in Sheffield does not.
 

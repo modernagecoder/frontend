@@ -16,7 +16,7 @@ Eight Mile Plains, City of Brisbane, Queensland / Live online
 
 Textbooks say k-means++ picks better starting centres than random guesses. We tried both, a thousand times each, on the 47 bus stop records inside Eight Mile Plains. The fancy method won on some measures and lost on another, which is exactly why learners should run the experiment rather than quote the rule.
 
-Facts last verified 12 October 2026. Teaching is online; no Eight Mile Plains branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Eight Mile Plains branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that test methods, not just apply them
 
@@ -183,7 +183,7 @@ Lessons happen live over video, so learners anywhere in the suburb join from hom
 - **Shared notebooks** Teacher and learner run code and read the results together, line by line.
 - **School-year rhythm** Plans follow Queensland terms, with breaks in the holidays.
 - **Free trial** One real lesson at no charge, closing with an honest recommendation.
-- **Matched groups** Five to ten learners of similar level, or one to one.
+- **Matched groups** Fifteen to twenty learners of similar level, or one to one.
 - **Two per week** Set weekly times, close to eight lessons a month.
 - **India time** Our teachers are based in India, so a 7pm class here starts at 2:30pm India time, all year.
 
@@ -194,7 +194,7 @@ Lessons happen live over video, so learners anywhere in the suburb join from hom
 Three prices for every family.
 
 - First class: USD 0. The trial lesson is free and ends with a written plan.
-- Group tuition: USD 100 a month. About eight group lessons a month with five to ten learners at the same level.
+- Group tuition: USD 100 a month. About eight group lessons a month with fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. About eight private lessons a month, one teacher to one learner.
 
 Payment is in US dollars and comes after the trial, once the course and time are agreed. Holiday breaks, missed lessons and format changes are covered on the pricing page.
@@ -231,11 +231,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Eight Mile Plains learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Can Copilot Studio be learned in a group?
 

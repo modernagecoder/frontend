@@ -14,7 +14,7 @@ The honest answer: the format decides the price more than the brand does. Privat
 
 [Try a free demo class](/book-demo)See how each format is pricedThe 20-second answer
 
-Coding classes are sold four ways. **By the hour** (private tutors, typically one child, billed per session). **By the pack** (branded kids-coding programmes: a bundle of 24 to 100 or more classes, discounted for size, quoted on a call). **Once** (self-paced video platforms, no teacher). **By the month** (live small-batch schools: a fixed number of live classes for a flat fee you can stop). To compare them, reduce every quote to one number: the price of one live class with a teacher who knows your child. Ours is **₹187** in a group of five to ten, **₹375** in a mini batch of three to four, and **₹1,250** one to one.
+Coding classes are sold four ways. **By the hour** (private tutors, typically one child, billed per session). **By the pack** (branded kids-coding programmes: a bundle of 24 to 100 or more classes, discounted for size, quoted on a call). **Once** (self-paced video platforms, no teacher). **By the month** (live small-batch schools: a fixed number of live classes for a flat fee you can stop). To compare them, reduce every quote to one number: the price of one live class with a teacher who knows your child. Ours is **₹187** in a group of fifteen to twenty, **₹375** in a mini batch of up to six, and **₹1,250** one to one.
 
 By format
 
@@ -22,7 +22,7 @@ By format
 
 We do not print other providers' prices here, because most are quoted on a call and change with the pack you buy. What does not change is the pricing model, and the model tells you what to ask.
 
-Private tutor, in person or onlinePer hourbilled per session; ask for the hourly rate, the session length, and what happens when a session is cancelledBranded kids-coding programmePer pack24 to 100+ classes bought at once, quoted after the demo; ask for the per-class rate, the total, and the refund terms if you stopCoding centre or franchisePer level or per monthplus enrolment, kit and material fees; ask what the year costs in total, not the monthSelf-paced video platformOne-time or subscriptionno teacher, no batch, no deadline; ask yourself who notices when your child stopsSchool coding club or after-school activityPer termoften the cheapest hour and the largest group; ask who teaches it and what the children buildLive online small-batch school₹1,499 a monthModern Age Coders group batch: 8 live one-hour classes, 5 to 10 students, stop any month, no enrolment feeBehind the number
+Private tutor, in person or onlinePer hourbilled per session; ask for the hourly rate, the session length, and what happens when a session is cancelledBranded kids-coding programmePer pack24 to 100+ classes bought at once, quoted after the demo; ask for the per-class rate, the total, and the refund terms if you stopCoding centre or franchisePer level or per monthplus enrolment, kit and material fees; ask what the year costs in total, not the monthSelf-paced video platformOne-time or subscriptionno teacher, no batch, no deadline; ask yourself who notices when your child stopsSchool coding club or after-school activityPer termoften the cheapest hour and the largest group; ask who teaches it and what the children buildLive online small-batch school₹1,499 a monthModern Age Coders group batch: 8 live one-hour classes, 15 to 20 students, stop any month, no enrolment feeBehind the number
 
 ## What actually drives the price
 
@@ -66,7 +66,7 @@ Full disclosure: this is us
 
 ## Where Modern Age Coders lands, and why
 
-We are a live online school teaching coding, AI and mathematics to students from age 6 to adults, in India and abroad, since 2020. Every class is one hour, live, in a batch of five to ten, taught by a mentor who knows the student by name. Not recordings, not a learning app, not a rotating pool of tutors.
+We are a live online school teaching coding, AI and mathematics to students from age 6 to adults, in India and abroad, since 2020. Every class is one hour, live, in a batch of fifteen to twenty, taught by a mentor who knows the student by name. Not recordings, not a learning app, not a rotating pool of tutors.
 
 ### Our published coding fees
 
@@ -124,7 +124,7 @@ It depends on the format more than the brand. A private tutor charges by the hou
 
 What should a monthly coding fee include?
 
-A stated number of live classes with a named teacher, a stated batch size, recordings or notes for a missed class, a way to ask questions between classes, a project the student builds and keeps, and a certificate on completion. If any of those is missing or vague, the fee is not comparable with one that includes them. At Modern Age Coders a group month is eight one-hour live classes in a batch of five to ten, and every plan can be stopped at the end of any month.
+A stated number of live classes with a named teacher, a stated batch size, recordings or notes for a missed class, a way to ask questions between classes, a project the student builds and keeps, and a certificate on completion. If any of those is missing or vague, the fee is not comparable with one that includes them. At Modern Age Coders a group month is eight one-hour live classes in a batch of fifteen to twenty, and every plan can be stopped at the end of any month.
 
 Why do many coding programmes not publish their prices?
 

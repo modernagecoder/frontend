@@ -61,7 +61,7 @@ module.exports = {
 
   h1: 'Coding classes in Lisburn',
   capsuleQ: 'What are the best coding classes in Lisburn?',
-  capsule: 'The settlement NISRA calls Lisburn City had 51,447 usual residents at the 2021 census, with Metropolitan Lisburn a further 32,643, in the council area of Lisburn and Castlereagh. Lisburn Cathedral records that in April 1707 the town, church and castle were destroyed in a disastrous fire. Lisburn learners aged six to sixty-seven meet teachers based in India in live video lessons, one to one or in a class of five to ten at the same level, at times planned around the Northern Ireland school day and working hours. There is no charge for the first lesson; after it a group place is USD 100 a month and a private teacher USD 150 a month.',
+  capsule: 'The settlement NISRA calls Lisburn City had 51,447 usual residents at the 2021 census, with Metropolitan Lisburn a further 32,643, in the council area of Lisburn and Castlereagh. Lisburn Cathedral records that in April 1707 the town, church and castle were destroyed in a disastrous fire. Lisburn learners aged six to sixty-seven meet teachers based in India in live video lessons, one to one or in a class of fifteen to twenty at the same level, at times planned around the Northern Ireland school day and working hours. There is no charge for the first lesson; after it a group place is USD 100 a month and a private teacher USD 150 a month.',
   lead: 'Lisburn Cathedral records that in April 1707 a fire destroyed the town, its church and its castle, and that the new church was begun in August 1708 and finished in 1719. If a fire flattened a town, you might expect its surviving old buildings to be rarer than elsewhere. Our Lisburn project tests that with the Historic Environment Division\'s record of every listed building in Northern Ireland, 15,862 entries, comparing when Lisburn\'s were built with the rest. The Mann-Whitney test, which compares two groups by ranking them together, finds no real difference: a Lisburn building is later than a random other one only 48.8% of the time, almost exactly a coin toss.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Lisburn.',
 
@@ -186,7 +186,7 @@ module.exports = {
       { h3: 'Along the Lagan', p: 'A learner in Derriaghy and another in Moira can share a class without either of them needing a lift.' },
       { h3: 'Northern Ireland stages', p: 'We follow Northern Ireland schooling from P1 to Year 14, including the transfer test years and CCEA GCSE and A level courses, and teach in English.' },
       { h3: 'A free, hands-on start', p: 'The first lesson is real coding with a teacher, and ends with a recommended level, course and regular weekly time. There is no card to hand over.' },
-      { h3: 'Level, not age', p: 'Five to ten learners at one stage, from Lisburn, the rest of the UK and further afield, so each level has good times.' },
+      { h3: 'Level, not age', p: 'Fifteen to twenty learners at one stage, from Lisburn, the rest of the UK and further afield, so each level has good times.' },
       { h3: 'Twice a week', p: 'Two set lessons weekly, around eight a month, with holidays and exam study planned together with the teacher.' },
       { h3: 'Teachers\' time', p: 'Our teachers work on Indian time, which never changes, so a 5 pm Lisburn class is at half past nine at night for them in summer and half past ten in winter.' }
     ],
@@ -197,7 +197,7 @@ module.exports = {
     h2: 'Lisburn lesson fees',
     intro: 'A free first lesson, then one fee a month.',
     first: 'A full lesson at no cost, finishing with a suggested level, course and weekly time.',
-    group: 'About eight live lessons a month, in a class of five to ten learners at one level.',
+    group: 'About eight live lessons a month, in a class of fifteen to twenty learners at one level.',
     private: 'About eight live lessons a month, with a teacher focused on your learner alone.',
     closer: 'Families in Lambeg or Hilden pay in US dollars, as every family outside India does, and our site shows no pound prices. Charging starts only after the free lesson, once a course and weekly time are agreed with us; the pricing page covers pausing, missed lessons and moving between group and one-to-one teaching.'
   },
@@ -222,8 +222,8 @@ module.exports = {
       { q: 'When was Lisburn Cathedral built?', a: 'The cathedral records that the foundation of the present church was laid on 20 August 1708, after the fire of April 1707, and that it was completed in 1719. It is listed at Grade A.' },
       { q: 'When do Lisburn lessons take place?', a: 'Lisburn families usually choose a time after school, on a weekday evening or at the weekend, set in the free lesson. For our teachers in India that is late evening: four and a half hours ahead of Northern Ireland in summer, five and a half in winter.' },
       { q: 'Is there a centre in Lisburn?', a: 'No. We have no Lisburn centre and no premises anywhere in the UK, because every lesson is live online. Learners need a computer with sound and a reliable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do Lisburn lessons cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than by age or address, with five to ten learners at the same stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'What do Lisburn lessons cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than by age or address, with fifteen to twenty learners at the same stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

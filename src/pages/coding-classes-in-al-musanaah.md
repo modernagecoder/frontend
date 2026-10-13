@@ -178,7 +178,7 @@ Eighty five kilometres each way, twice a week, for a year, is a commitment that 
 
 A real placement task and a real recommendation before any payment. No card is asked for, and sometimes the honest recommendation is a different course entirely.
 
-### Groups of five to eight
+### Groups of fifteen to twenty
 
 Matched on level and objective rather than age. A sailing coach wanting to handle results data and a seventeen year old wanting the same skill belong together.
 
@@ -210,7 +210,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -320,7 +320,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Al Musanaah learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Al Musanaah class times arranged?
 

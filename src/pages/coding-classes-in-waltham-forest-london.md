@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Waltham Fores
 canonical: https://learn.modernagecoders.com/coding-classes-in-waltham-forest-london
 source: src/pages/coding-classes-in-waltham-forest-london.html
 ---
-> Waltham Forest is the north east London borough of Walthamstow, Leyton, Leytonstone, Chingford and Highams Park, with 278,426 residents at the 2021 Census, the William Morris Gallery in Lloyd Park and more than 46,000 trees on the public list of trees looked after by councils. The coding class to choose teaches how machine learning really decides, and this page does that with those trees: a decision tree, built from scratch, that asks yes-or-no questions about height and position until it can guess whether a tree is an oak, a cherry or a plane. Lessons are taught live on video by teachers in India, for learners from 6 to 67, one to one or in small groups of five to ten at the same stage. The first lesson is free; after it, a group place is USD 100 a month and a private place USD 150 a month.
+> Waltham Forest is the north east London borough of Walthamstow, Leyton, Leytonstone, Chingford and Highams Park, with 278,426 residents at the 2021 Census, the William Morris Gallery in Lloyd Park and more than 46,000 trees on the public list of trees looked after by councils. The coding class to choose teaches how machine learning really decides, and this page does that with those trees: a decision tree, built from scratch, that asks yes-or-no questions about height and position until it can guess whether a tree is an oak, a cherry or a plane. Lessons are taught live on video by teachers in India, for learners from 6 to 67, one to one or in groups of fifteen to twenty at the same stage. The first lesson is free; after it, a group place is USD 100 a month and a private place USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Waltham Forest
 
@@ -12,11 +12,11 @@ London Borough of Waltham Forest / Live online
 
 # Coding classes in Waltham Forest
 
-**What are the best coding classes in Waltham Forest?** Waltham Forest is the north east London borough of Walthamstow, Leyton, Leytonstone, Chingford and Highams Park, with 278,426 residents at the 2021 Census, the William Morris Gallery in Lloyd Park and more than 46,000 trees on the public list of trees looked after by councils. The coding class to choose teaches how machine learning really decides, and this page does that with those trees: a decision tree, built from scratch, that asks yes-or-no questions about height and position until it can guess whether a tree is an oak, a cherry or a plane. Lessons are taught live on video by teachers in India, for learners from 6 to 67, one to one or in small groups of five to ten at the same stage. The first lesson is free; after it, a group place is USD 100 a month and a private place USD 150 a month.
+**What are the best coding classes in Waltham Forest?** Waltham Forest is the north east London borough of Walthamstow, Leyton, Leytonstone, Chingford and Highams Park, with 278,426 residents at the 2021 Census, the William Morris Gallery in Lloyd Park and more than 46,000 trees on the public list of trees looked after by councils. The coding class to choose teaches how machine learning really decides, and this page does that with those trees: a decision tree, built from scratch, that asks yes-or-no questions about height and position until it can guess whether a tree is an oak, a cherry or a plane. Lessons are taught live on video by teachers in India, for learners from 6 to 67, one to one or in groups of fifteen to twenty at the same stage. The first lesson is free; after it, a group place is USD 100 a month and a private place USD 150 a month.
 
 The Greater London Authority publishes a list of trees maintained by London's councils, and Waltham Forest's part of it runs to 46,396 trees, most with a height, a canopy width, a trunk girth and an age band. Our learners take the six commonest kinds, cherry, maple, birch, plane, oak and whitebeam, and ask a machine learning question: from size and position alone, can a program tell which is which? They build a decision tree, the same kind of model used inside many real AI systems, choosing each question by how much it reduces uncertainty, a measure called information gain. The first question it chooses is simple: is the tree taller than ten metres? The answers that follow reveal what the data knows, and exactly where it runs out.
 
-Facts last verified 25 September 2026. Teaching is online; no Waltham Forest branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Waltham Forest branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses from Waltham Forest
 
@@ -143,7 +143,7 @@ A learner near the forest in Chingford and one in Leyton can share one class fro
 
 ### Every learner counted
 
-Small groups of five to ten at one stage mean no learner is the whitebeam of the class, overlooked by the model.
+Groups of fifteen to twenty at one stage mean no learner is the whitebeam of the class, overlooked by the model.
 
 **Waltham Forest in London** Waltham Forest is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers all of them and the City, adding each page as it is published, including [Redbridge](/coding-classes-in-redbridge-london) to the east and [Hackney](/coding-classes-in-hackney-london), whose page studies trees in a different way.
 
@@ -173,7 +173,7 @@ Across Waltham Forest, a lesson is a video call away.
 - **Your own table** A laptop or desktop, a headset and a steady broadband connection are the only things a learner needs.
 - **English school stages** We describe progress in English Key Stages, from early primary to sixth form, naming GCSE and A level where they fit. Lessons are in English.
 - **A free first session** The first lesson is real teaching and closes with a recommended level and course, with no card details requested.
-- **Balanced classes** Five to ten learners at one stage, drawn from across the UK and beyond, so there is usually a convenient evening.
+- **Balanced classes** Fifteen to twenty learners at one stage, drawn from across the UK and beyond, so there is usually a convenient evening.
 - **Two evenings each week** Classes meet twice weekly in the evening in most cases, with agreed pauses for holidays and exams.
 - **On London time** Teachers are based in India, and every time we send is already in UK time.
 
@@ -184,7 +184,7 @@ Across Waltham Forest, a lesson is a video call away.
 A free first lesson, then one monthly fee that is the same in Chingford and Leyton.
 
 - First class: USD 0. A full first lesson with a teacher, free, ending with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. Around eight live lessons each month in a class of five to ten at one stage.
+- Group tuition: USD 100 a month. Around eight live lessons each month in a class of fifteen to twenty at one stage.
 - Private tuition: USD 150 a month. Around eight live lessons each month, one learner, one teacher.
 
 Waltham Forest families pay in US dollars, like every family outside India, and the site shows no pound prices. Nothing is charged until after the free lesson and until a course and regular slot have been chosen. The pricing page covers pausing, missed lessons and swapping between class and private teaching.
@@ -225,11 +225,11 @@ No. There is no Waltham Forest centre and no premises anywhere in the UK, becaus
 
 ### What do coding classes in Waltham Forest cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## Elsewhere in the capital
 

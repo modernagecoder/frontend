@@ -16,7 +16,7 @@ Tramore, County Waterford / Live online
 
 The Central Statistics Office's statement on County Waterford contains a clear, checkable sentence: "Looking at Waterford, we can see that Tramore was the largest town, with a population of 11,277 in April 2022." The learner sets out to verify it from the published town list. The number is exactly right. Whether Tramore is the largest town, though, depends on a rule the sentence never states, because the same list puts two bigger places in County Waterford: Waterford city and its suburbs, and Clonmel, whose label names both Tipperary and Waterford. Checking the claim turns out to mean finding the definition under which it is true, and writing it down.
 
-Facts last verified 19 September 2026. Teaching is online; no Tramore branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Tramore branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Tramore learners often start on
 
@@ -180,7 +180,7 @@ The practicalities.
 All of the prices.
 
 - First class: USD 0. A full first lesson with a level assessment, at no cost.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one stage, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one stage, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one teaching on the same weekly pattern.
 
 Outside India every family pays the same monthly price, in US dollars. The first lesson costs nothing and commits you to nothing, payments start with the course itself, and holidays, missed lessons and a move between group and private lessons are covered on the pricing page.
@@ -221,7 +221,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Tramore cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

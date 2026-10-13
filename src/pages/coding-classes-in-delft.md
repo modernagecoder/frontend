@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Delft for ages 6 to 6
 canonical: https://learn.modernagecoders.com/coding-classes-in-delft
 source: src/pages/coding-classes-in-delft.html
 ---
-> Coding classes in Delft serve 110,089 people (Statistics Netherlands, 1 January 2026) on 22.66 square kilometres, the second densest municipality in this series, with 59 percent of households holding one person. Between 34 and 37 paintings are attributed to the city's most famous painter, and that spread is not a counting problem: everyone agrees the criterion is that Vermeer painted it, and the disagreement is about individual pictures. Modern Age Coders teaches live online in English across all thirteen wijken, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Delft serve 110,089 people (Statistics Netherlands, 1 January 2026) on 22.66 square kilometres, the second densest municipality in this series, with 59 percent of households holding one person. Between 34 and 37 paintings are attributed to the city's most famous painter, and that spread is not a counting problem: everyone agrees the criterion is that Vermeer painted it, and the disagreement is about individual pictures. Modern Age Coders teaches live online in English across all thirteen wijken, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Delft
 
@@ -12,11 +12,11 @@ Delft, Zuid-Holland / Live online
 
 # Coding classes in Delft, where the number of Vermeers is between 34 and 37 and better counting will not help
 
-**What are the best coding classes in Delft?** Coding classes in Delft serve 110,089 people (Statistics Netherlands, 1 January 2026) on 22.66 square kilometres, the second densest municipality in this series, with 59 percent of households holding one person. Between 34 and 37 paintings are attributed to the city's most famous painter, and that spread is not a counting problem: everyone agrees the criterion is that Vermeer painted it, and the disagreement is about individual pictures. Modern Age Coders teaches live online in English across all thirteen wijken, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Delft?** Coding classes in Delft serve 110,089 people (Statistics Netherlands, 1 January 2026) on 22.66 square kilometres, the second densest municipality in this series, with 59 percent of households holding one person. Between 34 and 37 paintings are attributed to the city's most famous painter, and that spread is not a counting problem: everyone agrees the criterion is that Vermeer painted it, and the disagreement is about individual pictures. Modern Age Coders teaches live online in English across all thirteen wijken, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 How many paintings did Vermeer leave? Between thirty-four and thirty-seven, and the range has nothing to do with anybody miscounting. Every expert applies the same rule, that the picture was painted by Vermeer, and they disagree about two or three specific canvases. No better inventory closes that gap, because the uncertainty lives in the membership rather than in the arithmetic. Any dataset with borderline records has the same shape, and knowing which kind of doubt you are looking at decides whether more effort will help.
 
-Facts last verified 8 September 2026. Teaching is online; no Delft branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 8 September 2026. Teaching is online; no Delft branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the most technical square mile in the country
 
@@ -201,14 +201,14 @@ Distance is not the obstacle in Delft. Time is: a small dense city, two working 
 - **Twice weekly, on the middle calendar** Two lessons a week at one repeating slot, eight in most months. Delft takes its holidays with regio Midden along with the rest of Zuid-Holland, and weeks away go into the plan first.
 - **Three and a half hours, or four and a half** Only the Dutch clock changes, so the gap to the teacher depends on the month. Late afternoon, early evening and both weekend days work at either setting.
 
-**A city where children are outnumbered three to two by young adults** 13,158 residents are under fifteen and 22,428 are between fifteen and twenty-five. A child growing up in Delft is in a smaller cohort than in almost any comparable place, and a group of five to ten assembled on ability from across the country is a different proposition from whatever the nearest school can put together.
+**A city where children are outnumbered three to two by young adults** 13,158 residents are under fifteen and 22,428 are between fifteen and twenty-five. A child growing up in Delft is in a smaller cohort than in almost any comparable place, and a group of fifteen to twenty assembled on ability from across the country is a different proposition from whatever the nearest school can put together.
 
 ## The fee, in dollars, in all thirteen wijken
 
 Published here rather than kept for a phone call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate exists, it is quoted in dollars, and there is no euro version, so every address in the city sees the same figure. The order is free lesson first, course and time second, payment third, and the payment goes over WhatsApp. Pauses, plan changes and missed weeks are described on the pricing page.
@@ -249,7 +249,7 @@ No, and none is claimed on the campus, in the old centre or anywhere in the Neth
 
 ### What do Delft coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Delft group?
 

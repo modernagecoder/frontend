@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for families acro
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-wales
 source: src/pages/coding-and-ai-classes-in-wales.html
 ---
-> Wales has just rebuilt its computing qualification and almost nobody has explained what changed. The Made-for-Wales GCSE Computer Science, first taught from September 2025, is "a unitised qualification" in two halves: Unit 1, a "digital only examination, marked by WJEC" worth 50 per cent and first available in 2026, and Unit 2, an "on-screen examination" also worth 50 per cent, first available in 2027, in which "the language used in the examination will be Python". There is "no optionality and no tiering". Unit 2 runs from a pre-release brief issued a full academic year in advance, and no work done on that brief may be taken into the room. A class that helps a Welsh learner has to teach what survives that door: Python they can write unaided. We teach live online from India, ages 6 to 67, in groups of five to ten or one to one. The first lesson is free; a group place is then USD 100 a month and one-to-one teaching USD 150.
+> Wales has just rebuilt its computing qualification and almost nobody has explained what changed. The Made-for-Wales GCSE Computer Science, first taught from September 2025, is "a unitised qualification" in two halves: Unit 1, a "digital only examination, marked by WJEC" worth 50 per cent and first available in 2026, and Unit 2, an "on-screen examination" also worth 50 per cent, first available in 2027, in which "the language used in the examination will be Python". There is "no optionality and no tiering". Unit 2 runs from a pre-release brief issued a full academic year in advance, and no work done on that brief may be taken into the room. A class that helps a Welsh learner has to teach what survives that door: Python they can write unaided. We teach live online from India, ages 6 to 67, in groups of fifteen to twenty or one to one. The first lesson is free; a group place is then USD 100 a month and one-to-one teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Wales
 
@@ -12,11 +12,11 @@ Wales, United Kingdom / Live online
 
 # Coding and AI classes in Wales
 
-**What are the best coding classes in Wales?** Wales has just rebuilt its computing qualification and almost nobody has explained what changed. The Made-for-Wales GCSE Computer Science, first taught from September 2025, is "a unitised qualification" in two halves: Unit 1, a "digital only examination, marked by WJEC" worth 50 per cent and first available in 2026, and Unit 2, an "on-screen examination" also worth 50 per cent, first available in 2027, in which "the language used in the examination will be Python". There is "no optionality and no tiering". Unit 2 runs from a pre-release brief issued a full academic year in advance, and no work done on that brief may be taken into the room. A class that helps a Welsh learner has to teach what survives that door: Python they can write unaided. We teach live online from India, ages 6 to 67, in groups of five to ten or one to one. The first lesson is free; a group place is then USD 100 a month and one-to-one teaching USD 150.
+**What are the best coding classes in Wales?** Wales has just rebuilt its computing qualification and almost nobody has explained what changed. The Made-for-Wales GCSE Computer Science, first taught from September 2025, is "a unitised qualification" in two halves: Unit 1, a "digital only examination, marked by WJEC" worth 50 per cent and first available in 2026, and Unit 2, an "on-screen examination" also worth 50 per cent, first available in 2027, in which "the language used in the examination will be Python". There is "no optionality and no tiering". Unit 2 runs from a pre-release brief issued a full academic year in advance, and no work done on that brief may be taken into the room. A class that helps a Welsh learner has to teach what survives that door: Python they can write unaided. We teach live online from India, ages 6 to 67, in groups of fifteen to twenty or one to one. The first lesson is free; a group place is then USD 100 a month and one-to-one teaching USD 150.
 
 Every other nation in Britain marks a computing project a student brings with them. Wales does the opposite, and the design is worth reading twice. Candidates for Unit 2 receive a pre-release brief in the academic year before the exam, a scenario with requirements and tasks to work through "both individually and in groups". They may spend a year on it. Then WJEC says two things in the same paragraph: work done on the brief "will not be formally assessed and nor will it contribute to the final grade", and "learners may not take any work already done on the pre-release brief into the assessment". A year of preparation, and not one page of it crosses the threshold. That single rule decides what a useful class in Wales looks like.
 
-Facts last verified 20 September 2026. Teaching is online; no Wales branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Wales branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for learners in Wales
 
@@ -176,7 +176,7 @@ A scattered country is the strongest case there is for a lesson that does not ne
 - **Wherever the learner is** Valleys, coast or city. The lesson travels to the child instead of a parent driving across a county.
 - **Welsh vocabulary used** Progression steps, Areas of Learning and Experience and the Made-for-Wales GCSE, called what Wales calls them.
 - **A free lesson first** A real piece of teaching that ends with an honest view of level and course. No card needed.
-- **Small groups by level** Five to ten learners at the same stage, drawn from Wales and beyond so a group exists at a sensible hour.
+- **Small groups by level** Fifteen to twenty learners at the same stage, drawn from Wales and beyond so a group exists at a sensible hour.
 - **Taught in English** We do not teach through Welsh. A bilingual learner is very welcome; a Welsh-medium lesson is not something we can offer.
 - **Times in UK time** Teachers work from India, five and a half hours ahead in winter and four and a half in summer, and every lesson is agreed in UK time.
 
@@ -187,7 +187,7 @@ A scattered country is the strongest case there is for a lesson that does not ne
 The same three prices everywhere, from Cardiff to Anglesey.
 
 - First class: USD 0. A full lesson on real work, ending with a suggested level and course.
-- Group tuition: USD 100 a month. About eight lessons a month with five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight lessons a month with a teacher for one learner.
 
 Fees are set in US dollars, the rate for every family outside India, and there is no pound price list. Nothing is charged until the free lesson has settled a course and a regular slot; the pricing page covers pauses, missed lessons and moving between group and private teaching.

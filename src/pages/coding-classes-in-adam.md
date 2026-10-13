@@ -179,7 +179,7 @@ The range of courses a learner can reach should not depend on how many teachers 
 
 A complete class with a genuine task, finishing with a specific recommendation. No card is requested to book it, and no decision is asked for until a teacher has been seen working.
 
-### Five to eight learners, grouped by level
+### Fifteen to twenty learners, grouped by level
 
 Cohorts form around what a learner can already do and what they are aiming for. Where they live is not one of the inputs, and that is not something a local class can offer.
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Adam learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Adam class times arranged?
 

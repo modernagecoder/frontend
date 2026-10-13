@@ -16,7 +16,7 @@ Enniscorthy, County Wexford / Live online
 
 For the 6,909 people in Enniscorthy aged five and over, the census records two things about the trip to work, school or college: what time they leave home, and how long the journey takes. The two answers are published in separate tables, and no table for the town puts them side by side. So how many people leave after seven and arrive within three quarters of an hour? Nobody outside the CSO can say exactly. What anybody can do is prove limits. From the two tables alone, at least 3,117 people fall in both groups and at most 4,791. For a different question the same method proves nothing at all: the answer could be anywhere from 0 to 729. This page builds the calculator and shows when two separate facts are worth combining.
 
-Facts last verified 19 September 2026. Teaching is online; no Enniscorthy branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Enniscorthy branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Enniscorthy learners start with
 
@@ -171,7 +171,7 @@ An assistant fills gaps fluently. Knowing which gaps the data cannot fill is the
 The essentials.
 
 - **Teacher present** Each lesson is taught live, and the teacher works from what the learner is building that day.
-- **Same-level groups** Five to ten learners at the same stage, from Wexford, the rest of Ireland and other countries.
+- **Same-level groups** Fifteen to twenty learners at the same stage, from Wexford, the rest of Ireland and other countries.
 - **Two most weeks** About eight lessons a month, on days and times fixed at the start.
 - **Term planning** Holidays, mid-term breaks and exams are built into the course plan.
 - **Equipment** Any laptop or desktop that runs a browser well, a headset or a microphone with speakers, and broadband that carries video without dropping.
@@ -184,7 +184,7 @@ The essentials.
 Everything we charge.
 
 - First class: USD 0. A full first lesson with the level assessed, at no cost.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, around eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, around eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one teaching at the same weekly frequency.
 
 Families outside India all pay one monthly price in US dollars. The first lesson is free and nobody is charged until a course starts; holidays, missed lessons and swapping between group and private teaching are covered on the pricing page.
@@ -225,7 +225,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Enniscorthy cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

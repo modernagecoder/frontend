@@ -53,7 +53,7 @@ module.exports = {
 
   h1: 'Coding classes in Sutton',
   capsuleQ: 'What are the best coding classes in Sutton?',
-  capsule: 'Sutton is the south London borough of Cheam, Carshalton, Wallington, Beddington, Hackbridge, Worcester Park and Belmont, home to 209,639 people at the 2021 Census, with a branch of the River Wandle running through Carshalton. The classes worth choosing teach a learner to handle real data as it actually arrives, with gaps, missing years and values too small to measure. This page does exactly that with 26 years of Environment Agency river samples from Carshalton. Teaching is live on video from India for anyone aged 6 to 67, either one learner with one teacher or a group of five to ten at a single level. The first lesson costs nothing. After that, group classes are USD 100 a month and private lessons USD 150 a month.',
+  capsule: 'Sutton is the south London borough of Cheam, Carshalton, Wallington, Beddington, Hackbridge, Worcester Park and Belmont, home to 209,639 people at the 2021 Census, with a branch of the River Wandle running through Carshalton. The classes worth choosing teach a learner to handle real data as it actually arrives, with gaps, missing years and values too small to measure. This page does exactly that with 26 years of Environment Agency river samples from Carshalton. Teaching is live on video from India for anyone aged 6 to 67, either one learner with one teacher or a group of fifteen to twenty at a single level. The first lesson costs nothing. After that, group classes are USD 100 a month and private lessons USD 150 a month.',
   lead: 'Since January 2000 the Environment Agency has been taking water samples from the Carshalton branch of the River Wandle at Butter Hill Bridge, and it publishes every result. Water temperature has been measured 232 times. You would expect a clear yearly rhythm: cold in January, warm in July. The difficulty is the timing of the samples. For ten years they came about monthly; then for several years only four a year; then none at all for 991 days; then monthly again. Our learners first try the textbook tool, a Fourier transform, which assumes evenly spaced samples, and it confidently reports a cycle of 489 days. Then they use a method built for uneven data, the Lomb-Scargle periodogram, and the true year appears at 366 days.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Sutton.',
 
@@ -145,7 +145,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'Sutton station', p: 'TfL\'s open data lists Southern and Thameslink services at Sutton (London) station.' },
           { h3: 'Worcester Park to Wallington', p: 'Learners from the western edge of the borough and from the east can share one class without either making a journey.' },
-          { h3: 'No sampling gaps', p: 'Unlike the river record, classes run to a regular pattern: five to ten learners at one level, meeting at a set UK time.' }
+          { h3: 'No sampling gaps', p: 'Unlike the river record, classes run to a regular pattern: fifteen to twenty learners at one level, meeting at a set UK time.' }
         ] },
         { kind: 'spec', title: 'Sutton and its neighbours', p: 'Sutton is one of 32 London boroughs. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> lists every borough and the City, linking each page when it is ready, among them <a class="cg-inline-link" href="/coding-classes-in-croydon-london">Croydon</a> to the east.' }
       ]
@@ -193,7 +193,7 @@ module.exports = {
     h2: 'Fees for Sutton families',
     intro: 'The first lesson is free; after that there is one monthly fee, the same across Sutton.',
     first: 'A full first lesson with a teacher, free of charge, closing with our suggestion of level, course and time.',
-    group: 'Around eight live lessons a month in a class of five to ten at one level.',
+    group: 'Around eight live lessons a month in a class of fifteen to twenty at one level.',
     private: 'Around eight live lessons a month, one learner and one teacher.',
     closer: 'Sutton families pay in US dollars, like every family outside India; no sterling prices appear anywhere on the site. There is nothing to pay until the free lesson is done and a course and regular time are agreed. The pricing page covers pausing, missed lessons and changing between a class and private teaching.'
   },
@@ -218,8 +218,8 @@ module.exports = {
       { q: 'When are lessons for Sutton learners?', a: 'After the free lesson we suggest a regular weekly time from the classes at the learner\'s level that have space. Teachers are in India, and every time we give you is UK time.' },
       { q: 'What does a learner need?', a: 'A laptop or desktop, headphones or speakers, and a reliable connection. The river project needs only Python and the Environment Agency\'s free download.' },
       { q: 'Is there a Modern Age Coders centre in Sutton?', a: 'No. There is no Sutton centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Sutton cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Sutton cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

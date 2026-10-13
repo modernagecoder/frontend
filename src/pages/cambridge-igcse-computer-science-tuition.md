@@ -20,7 +20,7 @@ The course
 
 One course, two formats, both live. The batch works to a shared schedule toward the same series; one to one is rebuilt around whichever of the ten topics this particular student keeps losing marks on.
 
-| How it runs | Batch of five to eight | One to one |
+| How it runs | Batch of fifteen to twenty | One to one |
 | --- | --- | --- |
 | Live classes each week | Two, fixed slot | Two, slot chosen with you |
 | Length of a class | 60 minutes | 45 minutes |
@@ -35,7 +35,7 @@ One course, two formats, both live. The batch works to a shared schedule toward 
 
 The short answer
 
-Cambridge IGCSE Computer Science 0478 is examined by two written papers, each 1 hour 45 minutes and 75 marks. Paper 1, Computer Systems, covers topics 1 to 6 and calculators are not allowed. Paper 2, Algorithms, Programming and Logic, covers topics 7 to 10. The rule that decides the most marks is that where a solution involves coding, candidates must answer in pseudocode, and solutions written in programming code are not awarded marks. The single exception is the 15-mark scenario question, where pseudocode or Python, Visual Basic or Java are accepted and other languages are not. Modern Age Coders teaches it live online, one to one or in batches of five to eight, from USD 100 a month, first class free.
+Cambridge IGCSE Computer Science 0478 is examined by two written papers, each 1 hour 45 minutes and 75 marks. Paper 1, Computer Systems, covers topics 1 to 6 and calculators are not allowed. Paper 2, Algorithms, Programming and Logic, covers topics 7 to 10. The rule that decides the most marks is that where a solution involves coding, candidates must answer in pseudocode, and solutions written in programming code are not awarded marks. The single exception is the 15-mark scenario question, where pseudocode or Python, Visual Basic or Java are accepted and other languages are not. Modern Age Coders teaches it live online, one to one or in batches of fifteen to twenty, from USD 100 a month, first class free.
 
 Module by module
 
@@ -206,7 +206,7 @@ The two years, phase by phase
 
 ## How we sequence Cambridge IGCSE Computer Science
 
-Two live classes a week, one to one or in a batch of five to eight, with past-paper questions between them that the teacher marks against the real mark scheme.
+Two live classes a week, one to one or in a batch of fifteen to twenty, with past-paper questions between them that the teacher marks against the real mark scheme.
 
 1. #### Term 1: data representation and pseudocode, together from day one
 
@@ -434,7 +434,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Past-paper work between classes, marked by the teacher
 - Certificate on completion
@@ -529,11 +529,11 @@ Paper 1, Computer Systems, is a 1 hour 45 minute written paper worth 75 marks co
 
 ### How much does the tuition cost?
 
-A batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, and the figures are the same in every country we teach outside India. There is no enrolment fee and no minimum term, and the first class is free without a card.
+A batch of fifteen to twenty students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, and the figures are the same in every country we teach outside India. There is no enrolment fee and no minimum term, and the first class is free without a card.
 
 ### Are the classes live?
 
-Every class is live, one to one or in a batch of five to eight students, taught from India to students worldwide. We do not sell recordings in place of classes, because a recording cannot watch a student write pseudocode in their own invented style and correct it in the moment.
+Every class is live, one to one or in a batch of fifteen to twenty students, taught from India to students worldwide. We do not sell recordings in place of classes, because a recording cannot watch a student write pseudocode in their own invented style and correct it in the moment.
 
 ### Which syllabus version do you teach?
 

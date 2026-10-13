@@ -180,7 +180,7 @@ module.exports = {
       { h3: 'Straight from home', p: 'A learner in Bloemendaal and a learner in Noord join the same session at the same minute, each at their own desk, with no bike ride through the evening and no waiting outside afterwards.' },
       { h3: 'The school system untranslated', p: 'Words like brugklas, havo, vwo, vmbo, groep and profielkeuze are left in Dutch, as on any Gouda school report, while explanations come in English.' },
       { h3: 'A free lesson with substance', p: 'The opening lesson works through a real task. Afterwards the teacher suggests a level, a course and a weekly time, and asks for nothing: no card, no deposit.' },
-      { h3: 'Classmates who match', p: 'Groups have five to ten learners at one stage of one subject. Gouda has 11,861 residents under fifteen, but five at an identical stage who are free at an identical hour is rare, so groups draw on several countries.' },
+      { h3: 'Classmates who match', p: 'Groups have fifteen to twenty learners at one stage of one subject. Gouda has 11,861 residents under fifteen, but five at an identical stage who are free at an identical hour is rare, so groups draw on several countries.' },
       { h3: 'Regio Midden calendar', p: 'Twice a week, about eight times a month, at one set time, with breaks for the regio Midden school holidays that Gouda follows.' },
       { h3: 'Teachers a few hours ahead', p: 'The teachers work from India, three and a half hours later than the Dutch clock in summer and four and a half in winter, which suits after-school, evening and weekend-morning lessons.' }
     ],
@@ -191,7 +191,7 @@ module.exports = {
     h2: 'What Gouda families pay',
     intro: 'Here is the whole price list.',
     first: 'A real lesson on a real task, ending with a level and a course that suits it.',
-    group: 'Per month, normally eight lessons, five to ten learners grouped by level.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners grouped by level.',
     private: 'Per month, normally eight lessons, one learner and one teacher.',
     closer: 'Every country pays the same dollar price and there is no separate euro list, so a household in Plaswijck pays what one in the Binnenstad pays. Nothing is charged until the free lesson has settled a course and a time; payment is then set up on WhatsApp. For pauses, a switch of format or missed lessons, see the pricing page.'
   },
@@ -216,7 +216,7 @@ module.exports = {
       { q: 'How many schools are there in Gouda?', a: 'The statistics count 31 primary establishments with 7,248 pupils and 17 secondary establishments with 9,592, plus 3,901 MBO, 1,540 higher professional and 920 university students at institutions in the town. No school is rated here.' },
       { q: 'Which language are lessons in, and at what hours?', a: 'Lessons are in English, with Dutch school terms like havo and vwo kept as they are. The teaching team works in India, three and a half hours ahead of Gouda in summer and four and a half in winter, so after-school, evening and weekend slots are all easy. The slot is chosen in the free lesson, and lessons pause for the regio Midden holidays.' },
       { q: 'Is there a Modern Age Coders classroom in Gouda?', a: 'No, and none is claimed here or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Gouda coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Gouda coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

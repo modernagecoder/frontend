@@ -12,7 +12,7 @@ Live online · serving Pimpri Chinchwad
 
 Real programming for kids, teens and college students in Pimpri Chinchwad, from **Pimpri to Chinchwad, Akurdi to Nigdi / Pradhikaran**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Pimpri%20Chinchwad)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**Pimpri ChinchwadEnrollingAreasPimpri, Chinchwad, Akurdi, Nigdi / Pradhikaran, Wakad / Tathawade & all of Pimpri ChinchwadBoardsMaharashtra SSC/HSC · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across Pimpri ChinchwadFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Pimpri%20Chinchwad)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**Pimpri ChinchwadEnrollingAreasPimpri, Chinchwad, Akurdi, Nigdi / Pradhikaran, Wakad / Tathawade & all of Pimpri ChinchwadBoardsMaharashtra SSC/HSC · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across Pimpri ChinchwadFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for PCMC's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Pimpri Chinchwad: FAQs
 
-Which is the best coding class in Pimpri-Chinchwad for kids?Modern Age Coders runs PCMC's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and progress to Python, in small batches of 5-8, taught by industry instructors. We cover the whole twin-city belt: Pimpri, Chinchwad, Akurdi, Nigdi, Pradhikaran, Wakad, Ravet, Bhosari and Pimple Saudagar, right up to the Hinjewadi corridor.Are the classes online or offline, and do you cover Wakad, Ravet and the Hinjewadi side?All classes are live and online, so we reach every part of Pimpri-Chinchwad equally: Pimpri, Chinchwad, Akurdi, Nigdi, Pradhikaran, Wakad, Ravet, Tathawade, Bhosari MIDC and Pimple Saudagar, plus families working in the Hinjewadi IT park. Your child joins the same expert teacher from home, with no traffic on the Mumbai-Pune highway or the daily Hinjewadi jam. Every session is two-way and hands-on: the teacher and your child write code together on a shared screen, and a recording is saved afterwards for revision.How much do coding classes cost in Pimpri-Chinchwad?Group classes (5-8 students) start at Rs.1499/month for 2 live classes a week. Mini Batch (3-4 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden charges.Will coding help with MHT-CET, JEE and the SSC/CBSE board exams?Yes. Maharashtra students sit MHT-CET and JEE, and coding builds the very logical reasoning, decomposition and problem-solving those exams reward. It also supports SSC, CBSE and ICSE Computer Science, Informatics Practices and the new NEP-2020 AI modules. Our Python and Java tracks line up with what is taught at schools like Vibgyor, City Pride, Pawar Public, Sanskriti, DAV and St Ursula.What's the best age to start coding?Age 8 is ideal to begin with visual, block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college or working learners (18+), so the starting point always matches the child.What equipment does my child need?Just a laptop or desktop and a stable internet connection. Both common in PCMC households. A computer (rather than a tablet) is best for hands-on practice. Minimum: Windows 10 / macOS, 4GB RAM, broadband. All the software we use is free, and our team helps with setup before the first class.Do you prepare Pimpri-Chinchwad college students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is designed for students from PCCOE, D Y Patil Akurdi, JSPM and PCET who are targeting the IT companies in Hinjewadi (Infosys, Wipro, TCS, Cognizant) as well as engineering roles at PCMC's automotive giants like Tata Motors and Bajaj Auto.What are the class timings? Do you have weekend batches?Weekday batches run 4 PM-8 PM (after school) and weekend batches 9 AM-6 PM (Sat & Sun). PCMC kids juggle school, classes and activities, so we work around your schedule. Classes are an hour long, twice a week.Do you teach coding to Maharashtra board students in Pimpri-Chinchwad?Yes. Pimpri-Chinchwad schools run the Maharashtra state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about.Can Pimpri Chinchwad College of Engineering students join your programming courses?Yes. PCCOE has run in Nigdi since 1999 under Savitribai Phule Pune University, so the fundamentals are well covered. In a city built on manufacturing, what recruiters look at is built work, and that is the college track: real Python, Java, full-stack or AI/ML, carried to something that runs.
+Which is the best coding class in Pimpri-Chinchwad for kids?Modern Age Coders runs PCMC's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and progress to Python, in batches of 15-20, taught by industry instructors. We cover the whole twin-city belt: Pimpri, Chinchwad, Akurdi, Nigdi, Pradhikaran, Wakad, Ravet, Bhosari and Pimple Saudagar, right up to the Hinjewadi corridor.Are the classes online or offline, and do you cover Wakad, Ravet and the Hinjewadi side?All classes are live and online, so we reach every part of Pimpri-Chinchwad equally: Pimpri, Chinchwad, Akurdi, Nigdi, Pradhikaran, Wakad, Ravet, Tathawade, Bhosari MIDC and Pimple Saudagar, plus families working in the Hinjewadi IT park. Your child joins the same expert teacher from home, with no traffic on the Mumbai-Pune highway or the daily Hinjewadi jam. Every session is two-way and hands-on: the teacher and your child write code together on a shared screen, and a recording is saved afterwards for revision.How much do coding classes cost in Pimpri-Chinchwad?Group classes (15-20 students) start at Rs.1499/month for 2 live classes a week. Mini Batch (up to 6 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden charges.Will coding help with MHT-CET, JEE and the SSC/CBSE board exams?Yes. Maharashtra students sit MHT-CET and JEE, and coding builds the very logical reasoning, decomposition and problem-solving those exams reward. It also supports SSC, CBSE and ICSE Computer Science, Informatics Practices and the new NEP-2020 AI modules. Our Python and Java tracks line up with what is taught at schools like Vibgyor, City Pride, Pawar Public, Sanskriti, DAV and St Ursula.What's the best age to start coding?Age 8 is ideal to begin with visual, block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college or working learners (18+), so the starting point always matches the child.What equipment does my child need?Just a laptop or desktop and a stable internet connection. Both common in PCMC households. A computer (rather than a tablet) is best for hands-on practice. Minimum: Windows 10 / macOS, 4GB RAM, broadband. All the software we use is free, and our team helps with setup before the first class.Do you prepare Pimpri-Chinchwad college students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is designed for students from PCCOE, D Y Patil Akurdi, JSPM and PCET who are targeting the IT companies in Hinjewadi (Infosys, Wipro, TCS, Cognizant) as well as engineering roles at PCMC's automotive giants like Tata Motors and Bajaj Auto.What are the class timings? Do you have weekend batches?Weekday batches run 4 PM-8 PM (after school) and weekend batches 9 AM-6 PM (Sat & Sun). PCMC kids juggle school, classes and activities, so we work around your schedule. Classes are an hour long, twice a week.Do you teach coding to Maharashtra board students in Pimpri-Chinchwad?Yes. Pimpri-Chinchwad schools run the Maharashtra state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about.Can Pimpri Chinchwad College of Engineering students join your programming courses?Yes. PCCOE has run in Nigdi since 1999 under Savitribai Phule Pune University, so the fundamentals are well covered. In a city built on manufacturing, what recruiters look at is built work, and that is the college track: real Python, Java, full-stack or AI/ML, carried to something that runs.
 
 ## Ready to start your child's coding journey in Pimpri Chinchwad?
 

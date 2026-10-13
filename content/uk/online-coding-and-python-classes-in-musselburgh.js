@@ -158,7 +158,7 @@ module.exports = {
       { h3: 'Learner drives the code', p: 'Typing, prompting and running are the student\'s job; the tutor watches on screen share and questions every choice.' },
       { h3: 'Trial finds the start', p: 'In the free session we see the current level and note any SQA exam coming up.' },
       { h3: 'First session free', p: 'The opening lesson costs nothing and finishes with a course suggestion.' },
-      { h3: 'Classes of equals', p: 'Five to ten learners from across the UK make each group, matched by stage.' },
+      { h3: 'Classes of equals', p: 'Fifteen to twenty learners from across the UK make each group, matched by stage.' },
       { h3: 'Two per week', p: 'None during Scottish school holidays.' },
       { h3: 'Fixed evening', p: 'Clock changes are our tutors\' problem; your lesson time does not move.' }
     ],

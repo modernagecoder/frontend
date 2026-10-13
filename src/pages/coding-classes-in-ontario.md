@@ -14,7 +14,7 @@ Ontario / Live online
 
 The short answer
 
-Ontario became the first Canadian province to place coding inside the mathematics curriculum, in the Algebra strand, from 2020. That is why we teach coding and maths as one subject rather than two products. Live classes for ages 6 to 67, batches of five to eight or private tuition, USD 100 and USD 150 a month, and the opening class is free.
+Ontario became the first Canadian province to place coding inside the mathematics curriculum, in the Algebra strand, from 2020. That is why we teach coding and maths as one subject rather than two products. Live classes for ages 6 to 67, batches of fifteen to twenty or private tuition, USD 100 and USD 150 a month, and the opening class is free.
 
 In 2020 Ontario became the first province in Canada to write coding into the mathematics curriculum itself. Not a technology option, not a club after school. Coding sits in the Algebra strand from Grade 1, alongside patterns and variables, because the province decided that writing a sequence of instructions and reasoning about a pattern are the same intellectual act. Almost every coding provider ignores this and sells your child a games course. That is a real mismatch with what the child is being assessed on at school.
 
@@ -80,7 +80,7 @@ Strand
 
 Social-Emotional Learning Skills and Mathematical Processes. Perseverance, and the habits of a mathematical thinker.
 
-The strand no worksheet can deliver and a small live class can. Five to eight students, a teacher who sees the moment somebody gives up, and a project that is allowed to be hard. See [how we teach](/how-we-teach).
+The strand no worksheet can deliver and a small live class can. Fifteen to twenty students, a teacher who sees the moment somebody gives up, and a project that is allowed to be hard. See [how we teach](/how-we-teach).
 
 The diploma
 
@@ -227,7 +227,7 @@ Ontario families are charged in USD. There is no registration fee and no term co
 
 Small group$100per month, 8 classes
 
-Five to eight learners with a consistent teacher. Most Ontario students start here and stay, because the group is small enough that nobody hides in it.
+Fifteen to twenty learners with a consistent teacher. Most Ontario students start here and stay, because the group is small enough that nobody hides in it.
 
 One to one$150per month, 8 classes
 
@@ -325,7 +325,7 @@ From 6 to 67. Younger children begin in blocks and move to text code when they a
 
 ### How large is a class?
 
-Five to eight students in a small group, with the same teacher week after week, or one to one if a student needs the pace entirely to themselves. We do not rotate teachers between sessions. A teacher who remembers what a student struggled with last week is worth more than any curriculum document.
+Fifteen to twenty students in a small group, with the same teacher week after week, or one to one if a student needs the pace entirely to themselves. We do not rotate teachers between sessions. A teacher who remembers what a student struggled with last week is worth more than any curriculum document.
 
 ### Are classes live or pre-recorded?
 

@@ -216,14 +216,14 @@ Our teachers are in India, where the clock stays put all year, so England is fou
 - **Both ways round** 4 x 12 and 12 x 4 practised together as one fact.
 - **Six-second windows** Timed practice only once recall is secure, and never in a way that frightens a child.
 - **Understanding first** Arrays and derivations taught properly, so recall rests on meaning.
-- **Small groups** Five to ten children at one stage, with games that keep it light.
+- **Small groups** Fifteen to twenty children at one stage, with games that keep it light.
 
 ## Fees for primary maths lessons
 
 One monthly fee in US dollars, the rate for every family outside India. The first lesson is free, and nothing is charged until a course and a weekly time are settled.
 
 - Free first class: USD 0. A gentle first lesson on the tables. A clear picture of which facts are secure. Only a phone number needed.
-- Group batch: USD 100 a month. Five to ten children at one stage. The same teacher each week. Short, mixed recall practice. Games that keep it light.
+- Group batch: USD 100 a month. Fifteen to twenty children at one stage. The same teacher each week. Short, mixed recall practice. Games that keep it light.
 - One to one: USD 150 a month. A teacher for one child. Practice built around the facts that stick. Suits a child who finds groups hard.
 
 ## What parents of Year 4 children ask

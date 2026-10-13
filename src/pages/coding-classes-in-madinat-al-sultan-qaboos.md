@@ -169,7 +169,7 @@ The first live class is free and diagnostic.
 
 ### Group
 
-Five to eight learners share a compatible level.
+Fifteen to twenty learners share a compatible level.
 
 ### Private
 
@@ -299,7 +299,7 @@ Possibly, but examination commitments come first. A narrow Python, web, data or 
 
 ### What do classes in Madinat Al Sultan Qaboos cost?
 
-The monthly group plan is USD 100 for eight live lessons and five to eight learners. The private plan is USD 150 for eight lessons with one student and one teacher. Both normally meet twice a week. The first class is free, and no enrolment fee, materials charge or minimum term is added.
+The monthly group plan is USD 100 for eight live lessons and fifteen to twenty learners. The private plan is USD 150 for eight lessons with one student and one teacher. Both normally meet twice a week. The first class is free, and no enrolment fee, materials charge or minimum term is added.
 
 ### Can an adult studying at the British Council join?
 

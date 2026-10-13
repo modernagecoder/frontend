@@ -16,7 +16,7 @@ Caroline Springs, City of Melton, Melbourne, Victoria / Live online
 
 Ask a machine learning tool to find the "centres" of Caroline Springs and it will need one number from you first. Give it a small number and every few stops become their own neighbourhood. Give it a large one and the whole suburb collapses into a single blob. That number is called the bandwidth, and choosing it is the real work.
 
-Facts last verified 11 October 2026. Teaching is online; no Caroline Springs branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 October 2026. Teaching is online; no Caroline Springs branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses where machine learning is earned
 
@@ -178,7 +178,7 @@ All lessons are live online, joined from home.
 - **Hands on the keyboard** The learner types and runs the code; the teacher watches the shared screen and questions each step.
 - **Term by term** Courses track Victorian school terms and rest during the holidays.
 - **Trial lesson** The free class is a proper lesson. When it finishes, the teacher proposes a course and a weekly time.
-- **Groups by stage** Five to ten learners at a similar level form each group.
+- **Groups by stage** Fifteen to twenty learners at a similar level form each group.
 - **Two a week** Two lessons on set days each week, about eight a month, with breaks agreed early.
 - **Teachers in India** Teachers work from India: a 4:45pm Caroline Springs class in daylight saving is 11:15am India time, or 12:15pm in Melbourne winter.
 
@@ -189,7 +189,7 @@ All lessons are live online, joined from home.
 Simple pricing with a free start.
 
 - First class: USD 0. A first lesson at no cost, ending with a plain suggestion of what next.
-- Group tuition: USD 100 a month. A month of group classes, typically eight, with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group classes, typically eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight individual lessons a month with one teacher.
 
 Families outside India pay in US dollars, so Caroline Springs pays the same as every other family overseas. There is nothing to pay before the trial sets the course and time; holidays, missed classes and switching format are covered on the pricing page.
@@ -226,11 +226,11 @@ No. Everything is taught live online; we have no premises in Australia, and the 
 
 ### How much do AI classes cost for Caroline Springs learners?
 
-The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, roughly eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before payment.
+The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, roughly eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before payment.
 
 ### How many are in a group?
 
-Five to ten learners grouped on level, pace and goals, with one-to-one lessons when no group time suits.
+Fifteen to twenty learners grouped on level, pace and goals, with one-to-one lessons when no group time suits.
 
 ### Can adults study AI with you?
 

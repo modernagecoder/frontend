@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Edgbaston, Birmingham',
   capsuleQ: 'Which are the best online coding and Python classes in Edgbaston?',
-  capsule: 'Edgbaston ward counted 18,730 usual residents at the 2021 census and North Edgbaston ward 22,565, both within Birmingham. Postcodes.io places Edgbaston and Lee Bank in the B15 district. Our tutors, who teach from India over live video, take learners aged six to 67 through coding, Python, AI, vibe coding and maths, one at a time or in classes of five to ten at a shared stage. Algorithmic thinking is taught first, so a learner can judge whether a clever shortcut is safe to use. There is no charge for lesson one, and it closes with a course suggestion. The Edgbaston project takes 4,842 named places from the map of south-west Birmingham and finds the near-duplicate names among 11.7 million possible pairs, first the slow way and then with MinHash. Monthly fees after the trial: USD 100 in a class, USD 150 for private lessons.',
+  capsule: 'Edgbaston ward counted 18,730 usual residents at the 2021 census and North Edgbaston ward 22,565, both within Birmingham. Postcodes.io places Edgbaston and Lee Bank in the B15 district. Our tutors, who teach from India over live video, take learners aged six to 67 through coding, Python, AI, vibe coding and maths, one at a time or in classes of fifteen to twenty at a shared stage. Algorithmic thinking is taught first, so a learner can judge whether a clever shortcut is safe to use. There is no charge for lesson one, and it closes with a course suggestion. The Edgbaston project takes 4,842 named places from the map of south-west Birmingham and finds the near-duplicate names among 11.7 million possible pairs, first the slow way and then with MinHash. Monthly fees after the trial: USD 100 in a class, USD 150 for private lessons.',
   lead: 'Duplicate records are everywhere: the same shop entered twice with slightly different spelling, the same customer under two email addresses, the same article copied with a word changed. Finding exact copies is easy. Finding near copies seems to need every record compared with every other, and the number of pairs grows with the square of the list. With ten thousand records that is fifty million comparisons; with ten million it is hopeless. MinHash, together with a trick called locality-sensitive hashing, gets round this by giving similar items a good chance of landing in the same bucket. Search engines and plagiarism checkers have used it for years. This project tries it on real place names around Edgbaston.',
   wa: 'Hello Modern Age Coders, could we book a free coding or Python lesson for a learner in Edgbaston?',
 
@@ -155,7 +155,7 @@ module.exports = {
       { h3: 'Learner writes, tutor asks', p: 'Code and prompts come from the student; the tutor watches the screen share and asks what each step is for.' },
       { h3: 'Level found in the trial', p: 'The free lesson shows what to teach first, and exam boards are recorded.' },
       { h3: 'Trial at no cost', p: 'The first lesson is free and ends with the course we recommend.' },
-      { h3: 'Small matched classes', p: 'Five to ten learners at one level, from around the UK.' },
+      { h3: 'Small matched classes', p: 'Fifteen to twenty learners at one level, from around the UK.' },
       { h3: 'Two a week', p: 'Not in school holidays.' },
       { h3: 'Your slot stays put', p: 'UK clock changes are absorbed at our end.' }
     ],

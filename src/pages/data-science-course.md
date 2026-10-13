@@ -16,7 +16,7 @@ Book a Free Data Science DemoSee the Roadmap**pandas**Real data tools**5–8**St
 
 ## Quick answer
 
-**Modern Age Coders' Data Science course teaches data science hands-on in Python.** You learn NumPy and pandas for data handling, data cleaning and wrangling, exploratory data analysis, visualisation with Matplotlib/Seaborn, the statistics every data scientist needs, SQL basics and an introduction to machine learning, all applied to real datasets and end-to-end projects. No advanced maths is needed upfront. Classes are live in small batches of 5–8 with a mentor, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
+**Modern Age Coders' Data Science course teaches data science hands-on in Python.** You learn NumPy and pandas for data handling, data cleaning and wrangling, exploratory data analysis, visualisation with Matplotlib/Seaborn, the statistics every data scientist needs, SQL basics and an introduction to machine learning, all applied to real datasets and end-to-end projects. No advanced maths is needed upfront. Classes are live in batches of 15–20 with a mentor, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
 
 Start Today
 
@@ -108,7 +108,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo.
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 learners per batch
+- 15–20 learners per batch
 - Live notebooks & projects
 - Recorded class access
 - Completion certificate
@@ -119,7 +119,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 learners per batch
+- Up to 6 learners per batch
 - More personal mentoring
 - Recorded class access
 - Project guidance & certificate
@@ -183,7 +183,7 @@ Data analytics focuses on understanding past data and reporting insights; machin
 
 How much does the data science course cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
 
 Are the data science classes live and project-based?+
 

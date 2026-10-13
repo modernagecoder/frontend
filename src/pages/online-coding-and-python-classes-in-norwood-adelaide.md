@@ -16,7 +16,7 @@ Norwood, City of Norwood Payneham and St Peters, South Australia / Live online
 
 Five Magill Road stop records in Norwood each have 164 scheduled visits on an ordinary Wednesday, yet our first script reported zero visits for the whole suburb. The fix took one debugging line: an f-string with an equals sign, which prints each variable's name next to its value.
 
-Facts last verified 13 October 2026. Teaching is online; no Norwood branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Norwood branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that build debugging confidence
 
@@ -174,7 +174,7 @@ Classes are taught over live video, so there is no travel.
 - **Debug together** When output looks wrong, learner and teacher print values side by side.
 - **School-year planning** Lessons follow SA terms and break for holidays.
 - **Free trial** A complete opening lesson and a frank suggestion.
-- **Groups by level** Five to ten learners together, or one to one.
+- **Groups by level** Fifteen to twenty learners together, or one to one.
 - **Two lessons a week** Fixed times, about eight lessons each month.
 - **India time** Teachers work from India: a 4:30pm Norwood lesson starts at 11:30am India time until April, then 12:30pm.
 
@@ -185,7 +185,7 @@ Classes are taught over live video, so there is no travel.
 Three straightforward prices.
 
 - First class: USD 0. The first lesson costs nothing and ends with written advice.
-- Group tuition: USD 100 a month. About eight group lessons each month, five to ten learners.
+- Group tuition: USD 100 a month. About eight group lessons each month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. About eight private lessons each month.
 
 Norwood families pay in US dollars, after the trial and once course and time are settled. Holiday and absence rules are on the pricing page.
@@ -222,11 +222,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Norwood learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Is Copilot Studio part of the Norwood group course?
 

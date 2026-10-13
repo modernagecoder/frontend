@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and data classes for Waterford lear
 canonical: https://learn.modernagecoders.com/best-coding-class-in-waterford
 source: src/pages/best-coding-class-in-waterford.html
 ---
-> Waterford is a built-up city of 60,079 people sitting inside a council area of 127,363, and the city itself crosses a county line: 54,313 of its residents are in Waterford and 5,766 in Kilkenny. It is denser than Cork city and younger too, with 18.9% of people aged under 15. Only 25% of workers here did any work from home against 32% nationally, so evening classes matter more than afternoon ones, and that is exactly what a live online school can offer. We teach ages 6 to 67 at a fixed weekly hour, in groups of five to ten matched by ability or one to one, with teachers working from India. The first lesson costs nothing. After it, a group place is USD 100 a month and private tuition USD 150.
+> Waterford is a built-up city of 60,079 people sitting inside a council area of 127,363, and the city itself crosses a county line: 54,313 of its residents are in Waterford and 5,766 in Kilkenny. It is denser than Cork city and younger too, with 18.9% of people aged under 15. Only 25% of workers here did any work from home against 32% nationally, so evening classes matter more than afternoon ones, and that is exactly what a live online school can offer. We teach ages 6 to 67 at a fixed weekly hour, in groups of fifteen to twenty matched by ability or one to one, with teachers working from India. The first lesson costs nothing. After it, a group place is USD 100 a month and private tuition USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / Waterford
 
@@ -12,11 +12,11 @@ Waterford, Munster / Live online
 
 # Coding classes in Waterford
 
-**What are the best coding classes in Waterford?** Waterford is a built-up city of 60,079 people sitting inside a council area of 127,363, and the city itself crosses a county line: 54,313 of its residents are in Waterford and 5,766 in Kilkenny. It is denser than Cork city and younger too, with 18.9% of people aged under 15. Only 25% of workers here did any work from home against 32% nationally, so evening classes matter more than afternoon ones, and that is exactly what a live online school can offer. We teach ages 6 to 67 at a fixed weekly hour, in groups of five to ten matched by ability or one to one, with teachers working from India. The first lesson costs nothing. After it, a group place is USD 100 a month and private tuition USD 150.
+**What are the best coding classes in Waterford?** Waterford is a built-up city of 60,079 people sitting inside a council area of 127,363, and the city itself crosses a county line: 54,313 of its residents are in Waterford and 5,766 in Kilkenny. It is denser than Cork city and younger too, with 18.9% of people aged under 15. Only 25% of workers here did any work from home against 32% nationally, so evening classes matter more than afternoon ones, and that is exactly what a live online school can offer. We teach ages 6 to 67 at a fixed weekly hour, in groups of fifteen to twenty matched by ability or one to one, with teachers working from India. The first lesson costs nothing. After it, a group place is USD 100 a month and private tuition USD 150.
 
 Primary schools around Waterford spent years collecting the Irish names of local fields, roads, coves and townlands from the people who still use them, and the council put the results online as a map. It is a lovely thing, and for a young programmer it raises the first question that any real dataset raises, long before any code is written: am I allowed to use this? Because no licence is declared on it at all. Not an open one, not a restrictive one, none. There is a second question close behind, because one of the two published versions of the survey carries an editor's personal email address in every row, which means republishing it raw would hand out somebody's contact details. And then, only then, come the technical problems: two versions of the same survey with 407 rows and 503, and invisible characters that make a townland recorded once look like two different places. That order, permission, then privacy, then code, is the order we teach it in.
 
-Facts last verified 16 September 2026. Teaching is online; no Waterford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no Waterford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the oldest city
 
@@ -188,7 +188,7 @@ The council area runs from the Kilkenny border out along the coast, and an onlin
 - **No travel, no car park** A learner in Ferrybank and one in Dungarvan attend the same class, which matters in a county where only 73 people commute by train.
 - **School stages named properly** Teachers use First Year, Junior Cycle, Transition Year and sixth year as Irish schools do, so nothing needs translating for parents.
 - **A real trial lesson** Genuine teaching on a genuine task, ending in a recommendation on level, course and weekly hour, with no card details requested.
-- **Matched by ability** Groups of five to ten learners working at one pace, drawn from Waterford and other countries, which is how a sensible hour exists at every level.
+- **Matched by ability** Groups of fifteen to twenty learners working at one pace, drawn from Waterford and other countries, which is how a sensible hour exists at every level.
 - **A steady weekly rhythm** Usually two lessons a week, around eight a month, at a fixed hour, pausing for mid-terms, exams and holidays by agreement.
 - **Teachers on a fixed clock** India does not change its clocks, so our teachers sit four and a half hours ahead of Ireland in summer and five and a half in winter; Waterford evenings land squarely in their working day.
 
@@ -199,7 +199,7 @@ The council area runs from the Kilkenny border out along the coast, and an onlin
 Three figures, given once, with nothing arriving later.
 
 - First class: USD 0. A complete lesson at no cost, ending in an honest placement and a recommended course.
-- Group tuition: USD 100 a month. A month of teaching, normally eight lessons, alongside five to ten learners of similar ability.
+- Group tuition: USD 100 a month. A month of teaching, normally eight lessons, alongside fifteen to twenty learners of similar ability.
 - Private tuition: USD 150 a month. The same month of roughly eight lessons, with the teacher working with a single learner.
 
 Billing is in US dollars on the one rate used outside India, so there is no euro list and Tramore pays what Ferrybank pays. Nothing is charged until a course and a weekly hour have been agreed in the free lesson, and the pricing page covers pauses, missed lessons and changing format.
@@ -240,7 +240,7 @@ No, and none is claimed. All teaching happens live online, with no premises in I
 
 ### What do Waterford coding classes cost?
 
-The first lesson is free. After it, a group place costs USD 100 a month, which covers two live lessons a week and roughly eight a month with five to ten learners, while private tuition is USD 150 a month on the same rhythm. Course, format and hour are agreed before any payment.
+The first lesson is free. After it, a group place costs USD 100 a month, which covers two live lessons a week and roughly eight a month with fifteen to twenty learners, while private tuition is USD 150 a month on the same rhythm. Course, format and hour are agreed before any payment.
 
 ### How many learners in a group?
 

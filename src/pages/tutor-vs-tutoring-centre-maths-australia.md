@@ -14,7 +14,7 @@ Australia · Ages 6 to 67 · Maths help
 
 When a child starts struggling with maths, or is racing ahead, Australian families usually weigh three options: a private tutor, a tutoring centre where children work at desks with a supervising teacher, or a coaching college with larger exam-focused classes. Each can work. This page explains how they differ, lists the questions the Australian Tutoring Association suggests asking any provider, and walks through a fractions example showing the single thing that matters most: whether someone is reading your child's wrong answers, not just marking them.
 
-At a glance: For: Ages 6 to 67; Subject: Maths, Foundation to Year 12; Our format: Live online lessons; Group size: Five to ten, or one to one; Teacher: The same one each week; Focus: Diagnosing errors early; Times: Set for your state; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 6 to 67; Subject: Maths, Foundation to Year 12; Our format: Live online lessons; Group size: Fifteen to twenty, or one to one; Teacher: The same one each week; Focus: Diagnosing errors early; Times: Set for your state; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three maths courses for Australian learners
 
@@ -35,7 +35,7 @@ The labels vary, but most Australian maths help falls into three shapes.
 | Private tutor | One child, one tutor, at home, at the tutor's place or online | Every minute is about your child | Tutor's qualifications and screening vary widely |
 | Tutoring centre | Several children at desks working through programs, one supervising teacher | Structure, routine and a lower fee per child | How much individual teaching each child actually gets |
 | Coaching college | Larger classes aimed at exams, selective tests or senior years | Exam focus and practice volume | Pace set for the class, not the child |
-| Live online small group | Five to ten children of a similar level with one teacher on video | Teacher sees each child's working on screen, lower fee than one to one | Needs a quiet spot and a working computer at home |
+| Live online small group | Fifteen to twenty children of a similar level with one teacher on video | Teacher sees each child's working on screen, lower fee than one to one | Needs a quiet spot and a working computer at home |
 
 The Australian Tutoring Association, the national peak body for tutoring, explains the price side neatly: "One-to-one sessions tend to levy a higher fee for the student/family. Where the ratio of students to tutor is higher (such as in a class) the individual fee may be significantly lower and the tutor rate overall higher." In plain terms, a centre or class spreads one teacher across several children, so each family pays less and each child gets a share of the teacher.
 
@@ -69,7 +69,7 @@ The Australian Tutoring Association writes that "Clients of tutoring businesses 
 
 ### Our answers, for transparency
 
-Groups have five to ten learners at a similar level, or lessons are one to one. Parents can watch any lesson, and the teacher tells families which topics are secure and which are not.
+Groups have fifteen to twenty learners at a similar level, or lessons are one to one. Parents can watch any lesson, and the teacher tells families which topics are secure and which are not.
 
 If a child is not progressing, the teacher changes the explanation or suggests switching between group and private lessons.
 
@@ -151,7 +151,7 @@ We are neither a centre nor a single private tutor. Here is how our format lines
 
 ### Small groups or one to one
 
-Five to ten learners at a similar level, or a teacher to yourself, chosen after the free first lesson.
+Fifteen to twenty learners at a similar level, or a teacher to yourself, chosen after the free first lesson.
 
 ### Working on screen
 
@@ -244,7 +244,7 @@ Answers matter; the working behind them matters more.
 Maths lessons outside India are billed monthly in US dollars, one rate for every country. A small group costs less per learner than one to one. There is no joining fee and no term contract.
 
 - Free first class: USD 0. A free first maths lesson. A quick diagnosis of strengths and gaps. No card details.
-- Group batch: USD 100 a month. Five to ten learners. One regular teacher. Similar level. Monthly.
+- Group batch: USD 100 a month. Fifteen to twenty learners. One regular teacher. Similar level. Monthly.
 - One to one: USD 150 a month. A teacher to yourself. Time on your child's exact gaps. Your own pace.
 
 ## Maths tutor or tutoring centre: common questions

@@ -228,7 +228,7 @@ module.exports = {
     cells: [
       { h3: 'Accuracy before speed', p: 'We work on getting it right when hurried, which is the thing a chained round actually tests.' },
       { h3: 'Answers said aloud', p: 'Every answer is stated and repeated back, which is the habit that stops shuttle handovers going wrong.' },
-      { h3: 'Five to ten learners', p: 'A group is large enough that two methods meet and small enough that every answer is heard.' },
+      { h3: 'Fifteen to twenty learners', p: 'A group is large enough that two methods meet and small enough that every answer is heard.' },
       { h3: 'Our own material', p: 'Practice rounds written by us. UKMT publishes its own past material and that is where the real thing lives.' },
       { h3: 'One to one when needed', p: 'For a squad member with one specific weakness to close before a regional.' },
       { h3: 'Nothing promised', p: 'We cannot register a team or influence selection, and we promise no result.' }
@@ -243,7 +243,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'One monthly rate in US dollars for families outside India. No registration fee and no minimum number of months.',
     free: ['A full lesson with a teacher', 'An honest read on where the errors come from', 'No card details taken'],
-    group: ['Five to ten learners at one level', 'The same teacher every week', 'Work checked and talked through', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher every week', 'Work checked and talked through', 'A certificate at the end'],
     one: ['A teacher working with one learner', 'Aimed at one specific weakness', 'Useful in the weeks before a regional final']
   },
 

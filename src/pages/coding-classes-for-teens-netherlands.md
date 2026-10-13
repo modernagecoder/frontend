@@ -4,7 +4,7 @@ description: "Live online coding for Dutch teenagers aged 12 to 18: Python, AI, 
 canonical: https://learn.modernagecoders.com/coding-classes-for-teens-netherlands
 source: src/pages/coding-classes-for-teens-netherlands.html
 ---
-> Modern Age Coders teaches coding live online to teenagers across the Netherlands, aged twelve to eighteen: Python first, then data and machine learning, app and web development, Java, and AI coding tools used with care. Teenagers are placed by what they can already do, not by school year, in groups of five to ten or one to one, and every lesson is taught in English by a real teacher. Classes run after school, in the evening or at the weekend, at home on a laptop rather than on a phone in class. The first lesson is free; after it a group place is USD 100 a month and one-to-one lessons USD 150.
+> Modern Age Coders teaches coding live online to teenagers across the Netherlands, aged twelve to eighteen: Python first, then data and machine learning, app and web development, Java, and AI coding tools used with care. Teenagers are placed by what they can already do, not by school year, in groups of fifteen to twenty or one to one, and every lesson is taught in English by a real teacher. Classes run after school, in the evening or at the weekend, at home on a laptop rather than on a phone in class. The first lesson is free; after it a group place is USD 100 a month and one-to-one lessons USD 150.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the Netherlands](/coding-classes-in-netherlands) / For teens
 
@@ -154,7 +154,7 @@ Teachers work from India, where the clocks never change, while the Netherlands s
 - **Weekend** Saturday or Sunday. Useful in busy school periods and for teenagers who prefer a longer weekly session.
 
 - **A free first lesson** The teenager works on a real problem while the teacher watches how they think. That places them far better than a test or a school report.
-- **Five to ten in a group** Teenagers from several countries at the same level, which means a keen twelve-year-old and a beginner of sixteen can both be in the right class.
+- **Fifteen to twenty in a group** Teenagers from several countries at the same level, which means a keen twelve-year-old and a beginner of sixteen can both be in the right class.
 - **One to one when needed** For exam years, very specific goals, irregular timetables, or a teenager who simply works better alone with a teacher.
 - **Parents in the loop** We talk to the family before anything is booked, which also keeps us within the Dutch rule on consent for under-sixteens.
 - **In English** Lessons are in English, the language of programming. Dutch school words such as brugklas, havo and vwo are used as families use them.

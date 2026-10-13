@@ -226,7 +226,7 @@ module.exports = {
       { h3: 'Ideas first', p: 'Students learn why a program works, so they can fix it on the day.' },
       { h3: 'Their robot, their code', p: 'We explain and question; the team writes and builds.' },
       { h3: 'Blocks to Python', p: 'A clear path from SPIKE blocks to text code.' },
-      { h3: 'Groups of five to ten', p: 'Students at a similar level comparing approaches.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Students at a similar level comparing approaches.' },
       { h3: 'One-to-one option', p: 'For a team\'s lead programmer who wants to go further.' },
       { h3: 'No placing promised', p: 'We teach programming; judges and referees decide results.' }
     ]
@@ -240,7 +240,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Programming lessons are charged monthly in US dollars, our international rate, without a joining fee or a lock-in. Any RoboCup entry fee or kit purchase is separate and paid to the organiser or supplier, not to us.',
     free: ['A first lesson with a teacher, free', 'A look at the student\'s current code if they have some', 'No card needed'],
-    group: ['Five to ten students at a similar level', 'The same teacher through the term', 'Programming ideas tested on shared exercises', 'A certificate on completion'],
+    group: ['Fifteen to twenty students at a similar level', 'The same teacher through the term', 'Programming ideas tested on shared exercises', 'A certificate on completion'],
     one: ['A teacher for one student', 'Time spent on that student\'s own robot code', 'Weekly times that fit team practice']
   },
 

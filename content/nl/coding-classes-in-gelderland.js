@@ -38,7 +38,7 @@ module.exports = {
 
   h1: 'Coding classes in Gelderland, the province that goes on summer holiday in two different fortnights',
   capsuleQ: 'What are the best coding classes in Gelderland?',
-  capsule: 'Coding classes in Gelderland serve 2,173,348 people in 51 municipalities across the largest province in the country by land, 4,960 square kilometres (Statistics Netherlands, 1 January 2026), where Nijmegen, Arnhem and Apeldoorn are within 20,000 of one another at the top and Rozendaal has 1,837 people at the bottom. The province is split between two school-holiday regions along a line between Apeldoorn and Arnhem, so a family in Ede and a family in Nijmegen do not have the same summer. Modern Age Coders teaches all 51 municipalities the same live online class, in English, for ages 6 to 67, with the first lesson free and then USD 100 a month for a group of five to ten or USD 150 for one-to-one tuition.',
+  capsule: 'Coding classes in Gelderland serve 2,173,348 people in 51 municipalities across the largest province in the country by land, 4,960 square kilometres (Statistics Netherlands, 1 January 2026), where Nijmegen, Arnhem and Apeldoorn are within 20,000 of one another at the top and Rozendaal has 1,837 people at the bottom. The province is split between two school-holiday regions along a line between Apeldoorn and Arnhem, so a family in Ede and a family in Nijmegen do not have the same summer. Modern Age Coders teaches all 51 municipalities the same live online class, in English, for ages 6 to 67, with the first lesson free and then USD 100 a month for a group of fifteen to twenty or USD 150 for one-to-one tuition.',
   lead: 'Ask what week Gelderland breaks up for the summer and there is no answer, because the province does not break up: its northern half does on one date and its southern half on another, and in Montferland and Neder-Betuwe the line runs through the municipality itself. A child who can show why the average of those two dates is a week nobody has learned something that applies to every figure ever reported for a group.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Gelderland.',
 
@@ -182,7 +182,7 @@ module.exports = {
     h2: 'Fifty-one municipalities, two prices, and a free lesson first',
     intro: 'The tariff in full, ahead of any request for a number.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'One dollar rate everywhere outside India, no euro version, Rozendaal charged exactly as Nijmegen. The course and the hour are settled in the free lesson; payment comes afterwards, over WhatsApp. Pauses, plan changes and missed lessons are on the pricing page.'
   },
@@ -207,7 +207,7 @@ module.exports = {
       { q: 'What time are classes for a family in Gelderland?', a: 'Only the Dutch clock changes, so a Gelderland afternoon is four and a half hours behind the teacher in India in winter and three and a half in summer. Late afternoon, early evening and weekends suit both ends, and the weekly hour is chosen in the free lesson.' },
       { q: 'What happens in the free lesson?', a: 'We find what the learner can do and set one task there. A child is asked when two toy classrooms break up. A teenager tags 51 rows and computes a provincial holiday nobody keeps. An adult brings a group average from work. It ends with a course, a level, a weekly time and the fee in dollars, and nothing has been paid.' },
       { q: 'Is there a Modern Age Coders classroom anywhere in Gelderland?', a: 'No, and none is claimed in Arnhem, in Nijmegen or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Gelderland coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Gelderland coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in a Gelderland group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or municipality. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

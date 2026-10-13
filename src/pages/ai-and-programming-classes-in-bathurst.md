@@ -16,7 +16,7 @@ Bathurst, Central West New South Wales / Live online
 
 The ABS publishes an estimated resident population for the Bathurst council area every year: 35,504 in 2001, then a rise in every single year to 45,359 in 2025. Ask a program, or a chatbot, when that population will double and you get a confident year. Our Bathurst learners compute it three ways, with the exact formula, the rule of 70 and the rule of 72, and then repeat the calculation over different windows. Using 2001 to 2010 the doubling time is 58.7 years; using 2016 to 2025 it is 87.7. Same city, same official series, a thirty-year spread that depends entirely on a choice the answer never mentions.
 
-Facts last verified 9 October 2026. Teaching is online; no Bathurst branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 October 2026. Teaching is online; no Bathurst branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that suit Bathurst teens and adults
 
@@ -171,7 +171,7 @@ The city and its surrounding villages are all an equal distance from an online l
 - **Across the council area** A learner in Kelso and another in Eglinton can join the same lesson without travelling at all.
 - **NSW stages and years** Teachers work with NSW year levels and the HSC, and every lesson is taught in English.
 - **Trial first** You build something real with a teacher, then hear a suggested level, course and time, with no payment details requested.
-- **Small groups** Five to ten learners at one level, drawn from Bathurst, the rest of Australia and abroad.
+- **Small groups** Fifteen to twenty learners at one level, drawn from Bathurst, the rest of Australia and abroad.
 - **Two a week, mostly** Around eight lessons a month, with exam periods and holidays agreed in advance.
 - **University schedules** Evening and weekend slots suit students and working adults as well as school learners.
 
@@ -182,7 +182,7 @@ The city and its surrounding villages are all an equal distance from an online l
 Three numbers, nothing hidden.
 
 - First class: USD 0. A free trial lesson that ends with a suggested level, course and time.
-- Group tuition: USD 100 a month. A month of group lessons, usually eight, with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group lessons, usually eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Roughly eight private lessons each month with the same teacher.
 
 Bathurst learners are charged in US dollars at the single national rate, with no surcharge for the Central West. Payment begins only once the trial has set a course and a weekly time; holiday breaks, absences and switching between group and private are explained on the pricing page.
@@ -223,11 +223,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Bathurst coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Bathurst and NSW learners
 

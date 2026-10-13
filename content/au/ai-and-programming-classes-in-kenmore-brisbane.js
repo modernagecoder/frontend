@@ -280,7 +280,7 @@ module.exports = {
       { h3: 'Taught live', p: 'The teacher leads, questions and reviews code during every lesson.' },
       { h3: 'Holiday pauses', p: 'Classes follow the Queensland terms and stop in school holidays.' },
       { h3: 'Trial lesson', p: 'A free first lesson, then a written recommendation.' },
-      { h3: 'Level-based groups', p: 'Groups of five to ten, or private lessons.' },
+      { h3: 'Level-based groups', p: 'Groups of fifteen to twenty, or private lessons.' },
       { h3: 'Regular rhythm', p: 'Two lessons a week, around eight a month.' },
       { h3: 'India time', p: 'A 4:30pm Kenmore lesson is noon in India throughout the year.' }
     ],
@@ -293,7 +293,7 @@ module.exports = {
     h2: 'Kenmore class fees',
     intro: 'One set of fees for every learner.',
     first: 'Lesson one is free and comes with a plan.',
-    group: 'Groups: about eight lessons a month, five to ten learners.',
+    group: 'Groups: about eight lessons a month, fifteen to twenty learners.',
     private: 'One to one: about eight lessons a month with a dedicated teacher.',
     closer: 'Kenmore fees are in US dollars and only start after the trial has set the course and a weekly time. The pricing page sets out holiday and missed-lesson rules.'
   },
@@ -329,12 +329,12 @@ module.exports = {
       },
       {
         q: 'What do Kenmore classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Can adults join AI classes?', a: 'Yes. Adults learn in their own groups or one to one, often with data from their own work.' }

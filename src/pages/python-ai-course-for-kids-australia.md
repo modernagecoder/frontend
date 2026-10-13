@@ -226,7 +226,7 @@ Our teachers work from India, where the working day overlaps Australian afternoo
 - **Sunday** When weeknights are full of sport and homework.
 
 - **Free first class** Your child writes a first Python program, and a first rule, with a teacher.
-- **Small groups** Five to ten children comparing how their models perform.
+- **Small groups** Fifteen to twenty children comparing how their models perform.
 - **Private lessons** When your child has one AI idea they want to chase.
 - **Code by the child** Teachers explain and question; children type every line.
 - **No chatbot accounts** Everything runs in the child's own Python code.
@@ -237,7 +237,7 @@ Our teachers work from India, where the working day overlaps Australian afternoo
 Outside India, lessons are billed once a month in US dollars, with no sign-up fee. Leave whenever you like; there is no term to finish.
 
 - Free first class: USD 0. A first Python program and a first rule. Honest advice on readiness. No card or bank details.
-- Group batch: USD 100 a month. Five to ten children per class. Models compared and discussed together. A regular teacher. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty children per class. Models compared and discussed together. A regular teacher. Stop after any month.
 - One to one: USD 150 a month. Lessons around your child's own AI project. Pace set by your child. Times around school and activities.
 
 ## What Australian parents ask about Python and AI for kids

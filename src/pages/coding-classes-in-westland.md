@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Westland for ages 6 t
 canonical: https://learn.modernagecoders.com/coding-classes-in-westland
 source: src/pages/coding-classes-in-westland.html
 ---
-> Coding classes in Westland serve 118,874 people (Statistics Netherlands, 1 January 2026) across ten villages under about 2,497 hectares of glass, which is roughly 31 percent of the municipality's land. The national statistics page records zero students in higher education here, and it is right: there are no higher-education institutions in the municipality at all. It also records 2,530 residents in applied higher education and 800 at university level, all of whom travel. A zero can mean nothing exists to count. Modern Age Coders teaches live online in English to all ten villages, ages 6 to 67, free first lesson, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Westland serve 118,874 people (Statistics Netherlands, 1 January 2026) across ten villages under about 2,497 hectares of glass, which is roughly 31 percent of the municipality's land. The national statistics page records zero students in higher education here, and it is right: there are no higher-education institutions in the municipality at all. It also records 2,530 residents in applied higher education and 800 at university level, all of whom travel. A zero can mean nothing exists to count. Modern Age Coders teaches live online in English to all ten villages, ages 6 to 67, free first lesson, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Westland
 
@@ -12,11 +12,11 @@ Westland, Zuid-Holland / Live online
 
 # Coding classes in Westland, where the statistics say zero students and 3,330 people are studying
 
-**What are the best coding classes in Westland?** Coding classes in Westland serve 118,874 people (Statistics Netherlands, 1 January 2026) across ten villages under about 2,497 hectares of glass, which is roughly 31 percent of the municipality's land. The national statistics page records zero students in higher education here, and it is right: there are no higher-education institutions in the municipality at all. It also records 2,530 residents in applied higher education and 800 at university level, all of whom travel. A zero can mean nothing exists to count. Modern Age Coders teaches live online in English to all ten villages, ages 6 to 67, free first lesson, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Westland?** Coding classes in Westland serve 118,874 people (Statistics Netherlands, 1 January 2026) across ten villages under about 2,497 hectares of glass, which is roughly 31 percent of the municipality's land. The national statistics page records zero students in higher education here, and it is right: there are no higher-education institutions in the municipality at all. It also records 2,530 residents in applied higher education and 800 at university level, all of whom travel. A zero can mean nothing exists to count. Modern Age Coders teaches live online in English to all ten villages, ages 6 to 67, free first lesson, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Sort every Dutch municipality by students in higher education and Westland comes last with nothing. Read that as a fact about its people and you have it exactly backwards: 3,330 residents are registered in higher education, and every one of them travels, because the municipality contains no institution for the column to count. The zero is correct and it is not about the population at all. It is about which places have universities, which is a different question with a different answer.
 
-Facts last verified 8 September 2026. Teaching is online; no Westland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 8 September 2026. Teaching is online; no Westland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for ten villages that grow most of the country's tomatoes
 
@@ -208,7 +208,7 @@ Ter Heijde has 740 residents and s-Gravenzande has 23,470, and there is no centr
 On the page rather than kept for a phone call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 Everywhere outside India is quoted the same dollar figure and there is no euro list at all, which is why Ter Heijde and s-Gravenzande pay identically. The order is fixed: free lesson first, course and time second, payment third, and that payment is handled over WhatsApp. Details of pauses, plan changes and missed weeks sit on the pricing page.
@@ -249,7 +249,7 @@ No, and none is claimed in Naaldwijk, in s-Gravenzande or anywhere in the Nether
 
 ### What do Westland coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Westland group?
 

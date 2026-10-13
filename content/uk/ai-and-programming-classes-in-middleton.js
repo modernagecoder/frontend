@@ -61,7 +61,7 @@ module.exports = {
 
   h1: 'AI and programming classes in Middleton',
   capsuleQ: 'What are the best AI and programming classes in Middleton?',
-  capsule: 'The ONS built-up area of Middleton, in the borough of Rochdale, had 46,630 usual residents at the 2021 census. Langley, Alkrington Garden Village and Moorclose are gazetteer suburbs whose nearest postcodes lie inside it. Modern Age Coders offers live online lessons in programming, AI, Python, vibe coding and maths to Middleton learners aged six to 67, taught by tutors in India to individuals or to groups of five to ten learners at one level. Learners are asked to estimate, then check. The first lesson is free and ends with a course suggestion. The Middleton project gives the learner 301 shops and everyday places from OpenStreetMap and asks a question every exploring agent faces: having seen some of them, what is the chance the next one is a kind you have never met? From then on it is USD 100 per month in a group or USD 150 per month for private lessons.',
+  capsule: 'The ONS built-up area of Middleton, in the borough of Rochdale, had 46,630 usual residents at the 2021 census. Langley, Alkrington Garden Village and Moorclose are gazetteer suburbs whose nearest postcodes lie inside it. Modern Age Coders offers live online lessons in programming, AI, Python, vibe coding and maths to Middleton learners aged six to 67, taught by tutors in India to individuals or to groups of fifteen to twenty learners at one level. Learners are asked to estimate, then check. The first lesson is free and ends with a course suggestion. The Middleton project gives the learner 301 shops and everyday places from OpenStreetMap and asks a question every exploring agent faces: having seen some of them, what is the chance the next one is a kind you have never met? From then on it is USD 100 per month in a group or USD 150 per month for private lessons.',
   lead: 'An agent that explores, whether it is reading web pages, testing a program or visiting shops, keeps meeting new kinds of thing and then, gradually, fewer of them. At some point it has to decide it has seen enough. But how can you estimate what you have not seen? The answer I. J. Good published in 1953, crediting the idea to Alan Turing, with whom he had worked on wartime codebreaking, is startlingly simple: count the kinds you have met exactly once, and divide by the number of things you have looked at. The Middleton project tests that rule on real local data and then shows how it can still mislead an agent that stops too soon.',
   wa: 'Hello Modern Age Coders, could we have a free AI or programming trial lesson? We live in Middleton.',
 
@@ -162,7 +162,7 @@ module.exports = {
       { h3: 'The learner codes', p: 'The learner does all the typing and running, with the tutor probing each choice.' },
       { h3: 'Trial shows the level', p: 'We see what the learner can do before suggesting a course.' },
       { h3: 'Trial costs nothing', p: 'There is no charge and no card for the first lesson.' },
-      { h3: 'Five to ten per class', p: 'Each class shares a stage, with learners joining from around the UK.' },
+      { h3: 'Fifteen to twenty per class', p: 'Each class shares a stage, with learners joining from around the UK.' },
       { h3: 'Roughly eight monthly', p: 'Twice a week in term, with Rochdale school holidays left free if you ask.' },
       { h3: 'Fixed lesson time', p: 'Tutors handle the clock changes so your UK time stays the same.' }
     ],

@@ -108,7 +108,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo.
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 students per batch
+- 15–20 students per batch
 - Board-aligned, live sessions
 - Recorded class access
 - Completion certificate
@@ -119,7 +119,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 students per batch
+- Up to 6 students per batch
 - More personal attention
 - Recorded class access
 - Exam & practical guidance
@@ -183,11 +183,11 @@ Our focus is genuine understanding, so students stop memorising programs and sta
 
 How much do ICSE/ISC Java classes cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. A free demo class is available first.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. A free demo class is available first.
 
 Are the classes live and in small batches?+
 
-Yes. Every class is live with a real mentor, in small batches of 5–8 students (or 3–4 in a Mini Batch), so each student gets attention and their code is reviewed. Sessions are recorded for revision before exams.
+Yes. Every class is live with a real mentor, in batches of 15–20 students (or up to 6 in a Mini Batch), so each student gets attention and their code is reviewed. Sessions are recorded for revision before exams.
 
 ---
 

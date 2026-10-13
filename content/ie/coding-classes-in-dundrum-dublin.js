@@ -160,7 +160,7 @@ module.exports = {
     intro: 'What to expect.',
     cells: [
       { h3: 'Live, not recorded', p: 'Every lesson has a teacher present, following and correcting each learner\'s code in real time.' },
-      { h3: 'Level first', p: 'Groups of five to ten learners at one level, from Dundrum, other parts of Ireland and abroad.' },
+      { h3: 'Level first', p: 'Groups of fifteen to twenty learners at one level, from Dundrum, other parts of Ireland and abroad.' },
       { h3: 'Twice weekly', p: 'About eight lessons a month, on two set days chosen at the start of the course.' },
       { h3: 'Term breaks', p: 'The plan allows for school holidays, mid-term breaks and the weeks of exams.' },
       { h3: 'Home setup', p: 'A laptop or desktop, headphones or speakers with a microphone, and a connection steady enough for video.' },
@@ -173,7 +173,7 @@ module.exports = {
     h2: 'Dundrum lesson fees',
     intro: 'Plainly set out.',
     first: 'An opening lesson with a check of the learner\'s level, free.',
-    group: 'A month in a group of five to ten learners at one level, around eight live lessons.',
+    group: 'A month in a group of fifteen to twenty learners at one level, around eight live lessons.',
     private: 'A month of private lessons on the same weekly rhythm.',
     closer: 'Outside India, every family pays the same monthly fee in US dollars. The free lesson commits no one, the first payment comes when the course begins, and the pricing page covers holidays, missed lessons and switching between group and private teaching.'
   },
@@ -197,8 +197,8 @@ module.exports = {
       { q: 'What hours are lessons?', a: 'After school and in the evening on weekdays, and daytime at weekends. Lesson times are set in Irish time. With our teaching team based in India, the clocks there run five and a half hours ahead of Dublin in winter and four and a half in summer, which is why only mutually workable hours are offered.' },
       { q: 'Can adults take classes?', a: 'Yes, up to sixty-seven and at any level. After the first lesson an adult decides between a small group at the same level and private lessons.' },
       { q: 'Will the other learners be from Dundrum?', a: 'Possibly, but grouping is by level only, so others in the class may be from Dublin 14, elsewhere in Ireland or overseas.' },
-      { q: 'What do coding classes in Dundrum cost?', a: 'The first lesson is free. Afterwards a group place is USD 100 a month for around eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.', boiler: true },
-      { q: 'How big is a group?', a: 'Five to ten learners, grouped by level, pace and goal rather than by age or address. If no group suits at a workable time, lessons are one to one.', boiler: true }
+      { q: 'What do coding classes in Dundrum cost?', a: 'The first lesson is free. Afterwards a group place is USD 100 a month for around eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.', boiler: true },
+      { q: 'How big is a group?', a: 'Fifteen to twenty learners, grouped by level, pace and goal rather than by age or address. If no group suits at a workable time, lessons are one to one.', boiler: true }
     ]
   },
 

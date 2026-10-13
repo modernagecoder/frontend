@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Colwyn Bay',
   capsuleQ: 'What are the best online coding and Python classes in Colwyn Bay?',
-  capsule: 'Conwy county borough recorded 114,741 usual residents in the 2021 census, and the ONS built-up area of Colwyn Bay, Bae Colwyn in Welsh, recorded 29,275. Rhôs-on-Sea, Old Colwyn, Mochdre and Tan-y-Lan all fall inside it. Our tutors in India teach coding, Python, AI, vibe coding and maths over live video to Colwyn Bay pupils and adults from six up to 67, singly or in classes of five to ten pitched at a single level. Everyone starts with a free trial lesson that ends in a course recommendation. In the Colwyn Bay project a learner pairs every LL28 and LL29 postcode with a height from a terrain model, finds that two heights are missing, and watches one innocent line of Python shift a thousand answers by one place. Past the free session, expect USD 100 monthly in a class or USD 150 monthly on your own with a tutor.',
+  capsule: 'Conwy county borough recorded 114,741 usual residents in the 2021 census, and the ONS built-up area of Colwyn Bay, Bae Colwyn in Welsh, recorded 29,275. Rhôs-on-Sea, Old Colwyn, Mochdre and Tan-y-Lan all fall inside it. Our tutors in India teach coding, Python, AI, vibe coding and maths over live video to Colwyn Bay pupils and adults from six up to 67, singly or in classes of fifteen to twenty pitched at a single level. Everyone starts with a free trial lesson that ends in a course recommendation. In the Colwyn Bay project a learner pairs every LL28 and LL29 postcode with a height from a terrain model, finds that two heights are missing, and watches one innocent line of Python shift a thousand answers by one place. Past the free session, expect USD 100 monthly in a class or USD 150 monthly on your own with a tutor.',
   lead: 'Python\'s <code>zip</code> is one of the friendliest tools in the language: give it two lists and it walks along them together, pairing the first with the first, the second with the second. It has one habit that catches out beginners and professionals alike. If the lists are different lengths, it stops at the end of the shorter one and says nothing. In Colwyn Bay, two missing numbers out of 1,066 were enough to make that habit wreck a dataset without a single error message.',
   wa: 'Hello Modern Age Coders, we would like to book a free online coding or Python trial lesson. We are in Colwyn Bay.',
 
@@ -162,11 +162,11 @@ module.exports = {
       { h3: 'Code typed by the learner', p: 'The learner writes and runs each program; the tutor asks how they know it is right.' },
       { h3: 'Level before course', p: 'The trial lesson shows us where to start before any recommendation.' },
       { h3: 'Free to try', p: 'Your opening session is unpaid, and we never take card details for it.' },
-      { h3: 'Matched groups', p: 'Five to ten learners at the same level, from all over the UK.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners at the same level, from all over the UK.' },
       { h3: 'Twice weekly', p: 'Around eight lessons a month, with Conwy school holidays kept free on request.' },
       { h3: 'One UK time', p: 'The lesson keeps its UK time through the spring and autumn clock changes.' }
     ],
-    spec: { title: 'Why we teach online', p: 'It is much easier to gather five to ten learners at one exact level across the UK than along one stretch of coast, and video means nobody travels.' }
+    spec: { title: 'Why we teach online', p: 'It is much easier to gather fifteen to twenty learners at one exact level across the UK than along one stretch of coast, and video means nobody travels.' }
   },
 
   fees: {

@@ -303,7 +303,7 @@ module.exports = {
       { h3: 'Learner drives', p: 'The learner types, runs and fixes the code with the screen shared, and the teacher guides from there.' },
       { h3: 'School-term rhythm', p: 'Courses run in Victorian terms and break in the holidays.' },
       { h3: 'Free first class', p: 'The trial is a real lesson, after which the teacher proposes a course and a weekly time.' },
-      { h3: 'Level-matched', p: 'Groups run with five to ten learners who are working at about the same point.' },
+      { h3: 'Level-matched', p: 'Groups run with fifteen to twenty learners who are working at about the same point.' },
       { h3: 'Two per week', p: 'Two set lessons a week, around eight a month, with holiday gaps agreed ahead.' },
       {
         h3: 'Teachers in India',
@@ -319,7 +319,7 @@ module.exports = {
     h2: 'Reservoir class fees',
     intro: 'A free trial and two monthly rates.',
     first: 'Your first lesson is free and finishes with a plain recommendation.',
-    group: 'A month in a group of five to ten learners at one level, generally eight lessons.',
+    group: 'A month in a group of fifteen to twenty learners at one level, generally eight lessons.',
     private: 'Close to eight private lessons a month with one teacher.',
     closer: 'Families outside India are billed in US dollars, so Reservoir pays what every other overseas family pays. We take no payment until the trial has fixed course and time; the pricing page explains holidays, missed lessons and changes of format.'
   },
@@ -361,12 +361,12 @@ module.exports = {
       },
       {
         q: 'How much are AI classes for Reservoir learners?',
-        a: 'The first lesson is free. After it, group classes cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before payment.',
+        a: 'The first lesson is free. After it, group classes cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before payment.',
         boiler: true
       },
       {
         q: 'How many are in a group?',
-        a: 'Five to ten learners grouped on level, pace and goals, with one-to-one lessons if no group time suits.',
+        a: 'Fifteen to twenty learners grouped on level, pace and goals, with one-to-one lessons if no group time suits.',
         boiler: true
       },
       {

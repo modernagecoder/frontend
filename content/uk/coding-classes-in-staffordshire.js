@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in Staffordshire',
   capsuleQ: 'What are the best coding classes in Staffordshire?',
-  capsule: 'Staffordshire here means the city of Stoke-on-Trent and the eight districts of Staffordshire County Council, which the 2021 Census counted at 1,134,470 people between them, our sum of nine published totals. The Stoke-on-Trent built-up area is by far the largest, followed by Newcastle-under-Lyme, Burton upon Trent, Tamworth and Stafford. Lessons run live over video from India, and every learner is grouped by ability, not by year of birth. We welcome ages 6 to 67 to coding, Python, algorithms and maths, in groups of five to ten or one-to-one. The Staffordshire project comes from Lichfield, where Samuel Johnson was born. Lesson one costs nothing, and from then on it is USD 100 monthly for a group seat or USD 150 monthly for a private teacher.',
+  capsule: 'Staffordshire here means the city of Stoke-on-Trent and the eight districts of Staffordshire County Council, which the 2021 Census counted at 1,134,470 people between them, our sum of nine published totals. The Stoke-on-Trent built-up area is by far the largest, followed by Newcastle-under-Lyme, Burton upon Trent, Tamworth and Stafford. Lessons run live over video from India, and every learner is grouped by ability, not by year of birth. We welcome ages 6 to 67 to coding, Python, algorithms and maths, in groups of fifteen to twenty or one-to-one. The Staffordshire project comes from Lichfield, where Samuel Johnson was born. Lesson one costs nothing, and from then on it is USD 100 monthly for a group seat or USD 150 monthly for a private teacher.',
   lead: 'The Samuel Johnson Birthplace Museum says Johnson was born in 1709 in his parents\' home on Breadmarket Street, Lichfield, and that his most famous work is A Dictionary of the English Language, published in 1755. Anyone who has used a paper dictionary knows the trick: to find "salt" you do not open it in the middle, you open it about three quarters of the way through, because S comes late. Programmers call that interpolation search, and in theory it beats the steady halving of binary search. This page\'s project tests the theory on real English, the words of Johnson\'s own preface, and finds that the clever guess can lose badly.',
   wa: 'Hello Modern Age Coders, we are in Staffordshire and would like to book a free lesson, please.',
 
@@ -160,7 +160,7 @@ module.exports = {
       { h3: 'Lessons at home', p: 'A terrace in Hanley, a semi in Burntwood, a farmhouse near Uttoxeter. The learner does the typing while the teacher watches the same screen.' },
       { h3: 'School terms we know', p: 'Year groups, key stages, GCSEs and A levels mean what they mean in Staffordshire schools, and teaching is in English.' },
       { h3: 'A free lesson first', p: 'A real lesson, then an honest recommendation. We ask for no card details.' },
-      { h3: 'Classmates who match', p: 'A group of five to ten at the same stage, wherever they happen to live.' },
+      { h3: 'Classmates who match', p: 'A group of fifteen to twenty at the same stage, wherever they happen to live.' },
       { h3: 'Holidays by your dates', p: 'Most learners take two lessons a week and pause for their own school\'s holidays.' },
       { h3: 'One UK time all year', p: 'Your lesson stays at the same UK time when the clocks change; the teacher, several hours ahead on India time, makes the adjustment.' }
     ],
@@ -171,7 +171,7 @@ module.exports = {
     h2: 'Fees in Staffordshire',
     intro: 'Rugeley or Wombourne, the fee is the same, as it is in every country we teach outside India.',
     first: 'A full lesson of real work, followed by advice on level and course.',
-    group: 'Roughly eight lessons a month, in a group of five to ten at one level.',
+    group: 'Roughly eight lessons a month, in a group of fifteen to twenty at one level.',
     private: 'Roughly eight lessons a month, one-to-one.',
     closer: 'Prices are in US dollars, not pounds. We bill nothing until the free lesson has settled a course and a weekly time, and our pricing page explains pauses, missed lessons and moving between group and private.'
   },

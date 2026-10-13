@@ -303,7 +303,7 @@ London time. Sixth formers, university students and adults coming off a working 
 
 ### What a session is
 
-Ninety minutes on live video, or a two hour block on the Saturday slot. The teacher is the same person week after week, which matters more than it sounds, because they remember the bug your child could not find last time and open with it. Screens are shared both ways, so an error is caught while it is being typed rather than flagged in a comment three days later. Rooms hold five to eight learners, or you can have the teacher to yourself.
+Ninety minutes on live video, or a two hour block on the Saturday slot. The teacher is the same person week after week, which matters more than it sounds, because they remember the bug your child could not find last time and open with it. Screens are shared both ways, so an error is caught while it is being typed rather than flagged in a comment three days later. Rooms hold fifteen to twenty learners, or you can have the teacher to yourself.
 
 Between one class and the next there is something to construct, not a worksheet to complete. Bring it back broken and the next session starts there. Questions during the week go to the teacher who taught you, never into a ticket queue.
 
@@ -383,7 +383,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight learners with one teacher who stays with the room
+- Fifteen to twenty learners with one teacher who stays with the room
 - Taught live every week, with nothing pre-recorded
 - A build task between classes and a teacher who reads it
 - Certificate at the end, and a published project that matters more

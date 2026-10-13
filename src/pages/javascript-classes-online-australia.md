@@ -244,7 +244,7 @@ Teachers work from India, and their day overlaps Australian afternoons and eveni
 - **Weekend** Longer build sessions.
 
 - **Free first class** A first script in the browser and advice on where to start.
-- **Small groups** Five to ten learners at the same stage.
+- **Small groups** Fifteen to twenty learners at the same stage.
 - **One to one** For a particular project or pace.
 - **Console open** Learners read errors in the browser console from day one.
 - **Real data** Public Australian data in the async projects.
@@ -255,7 +255,7 @@ Teachers work from India, and their day overlaps Australian afternoons and eveni
 Learners outside India pay one monthly fee in US dollars; nothing is due at sign-up and there is no contract.
 
 - Free first class: USD 0. A first script running in your browser. Advice on the right course. No card needed.
-- Group batch: USD 100 a month. Five to ten learners per class. Code shared and discussed. The same teacher each week. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners per class. Code shared and discussed. The same teacher each week. Stop after any month.
 - One to one: USD 150 a month. Lessons around one learner's project. Browser, Node or React focus. Times around school or work.
 
 ## Questions about online JavaScript classes in Australia

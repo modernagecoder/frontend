@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across West Lothian, 
 canonical: https://learn.modernagecoders.com/coding-classes-in-west-lothian
 source: src/pages/coding-classes-in-west-lothian.html
 ---
-> West Lothian had about 181,300 residents in roughly 79,800 households at the 2022 census, at 423.9 people per square kilometre. Livingston is by far the largest town, followed by Bathgate, Broxburn, Linlithgow, Armadale and Whitburn, with East Calder, Fauldhouse and Winchburgh among the smaller places. Lessons are live on video with teachers in India, and a free first lesson places each learner at the right stage, from P1 to S6 or as an adult. Coding, Python and maths are taught to people from six up to 67, individually or in small classes of five to ten. The West Lothian project starts with a famous heap of shale. West Lothian families who stay on pay a monthly USD 100 for a shared class, or USD 150 for a tutor to themselves.
+> West Lothian had about 181,300 residents in roughly 79,800 households at the 2022 census, at 423.9 people per square kilometre. Livingston is by far the largest town, followed by Bathgate, Broxburn, Linlithgow, Armadale and Whitburn, with East Calder, Fauldhouse and Winchburgh among the smaller places. Lessons are live on video with teachers in India, and a free first lesson places each learner at the right stage, from P1 to S6 or as an adult. Coding, Python and maths are taught to people from six up to 67, individually or in classes of fifteen to twenty. The West Lothian project starts with a famous heap of shale. West Lothian families who stay on pay a monthly USD 100 for a shared class, or USD 150 for a tutor to themselves.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / West Lothian
 
@@ -12,11 +12,11 @@ West Lothian / Live online
 
 # Coding classes in West Lothian
 
-**What are the best coding classes in West Lothian?** West Lothian had about 181,300 residents in roughly 79,800 households at the 2022 census, at 423.9 people per square kilometre. Livingston is by far the largest town, followed by Bathgate, Broxburn, Linlithgow, Armadale and Whitburn, with East Calder, Fauldhouse and Winchburgh among the smaller places. Lessons are live on video with teachers in India, and a free first lesson places each learner at the right stage, from P1 to S6 or as an adult. Coding, Python and maths are taught to people from six up to 67, individually or in small classes of five to ten. The West Lothian project starts with a famous heap of shale. West Lothian families who stay on pay a monthly USD 100 for a shared class, or USD 150 for a tutor to themselves.
+**What are the best coding classes in West Lothian?** West Lothian had about 181,300 residents in roughly 79,800 households at the 2022 census, at 423.9 people per square kilometre. Livingston is by far the largest town, followed by Bathgate, Broxburn, Linlithgow, Armadale and Whitburn, with East Calder, Fauldhouse and Winchburgh among the smaller places. Lessons are live on video with teachers in India, and a free first lesson places each learner at the right stage, from P1 to S6 or as an adult. Coding, Python and maths are taught to people from six up to 67, individually or in classes of fifteen to twenty. The West Lothian project starts with a famous heap of shale. West Lothian families who stay on pay a monthly USD 100 for a shared class, or USD 150 for a tutor to themselves.
 
 Historic Environment Scotland names the Five Sisters as the most widely known shale bing, a heap of waste left from the oil-shale industry that James Young pioneered. It has an unusual form, with five distinct lobes that the record says were formed by the method of tipping. Other bings are huge: the scheduled area at Greendykes near Broxburn measures about 920 by 580 metres. How does tipping create a shape? Every grain dropped on a heap either stays or slides downhill until the slope is gentle enough, and those simple rules, repeated thousands of times, build cones, ridges and lobes. This page's project simulates it in Python.
 
-Facts last verified 26 September 2026. Teaching is online; no West Lothian branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no West Lothian branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where West Lothian learners start
 
@@ -136,7 +136,7 @@ Every town and village in West Lothian joins by video in the same way.
 - **Learner at the keys** Pupils write and run their own code; the teacher follows the shared screen and steps in when needed.
 - **Stages you already know** An Armadale P4 or a Whitburn S3 hears the Curriculum for Excellence names used at school, up to Advanced Higher. Lessons are in English.
 - **Trial lesson, free** One complete lesson with no charge, then honest advice.
-- **Classes by stage** Five to ten learners sharing a stage, from several countries.
+- **Classes by stage** Fifteen to twenty learners sharing a stage, from several countries.
 - **Two a week in term** Lessons run through term and pause for the holidays.
 - **UK time throughout** Your slot stays at its UK time as the clocks change; the teachers in India time adjust.
 
@@ -147,7 +147,7 @@ Every town and village in West Lothian joins by video in the same way.
 Bathgate or Mid Calder, the fee is the same, as in every country we teach outside India.
 
 - First class: USD 0. A full free trial, then a clear recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month with your own teacher.
 
 Every fee is quoted in US dollars, never sterling. Once the trial has settled a course and a weekday, invoices begin; the pricing page answers questions about breaks, absences and moving between formats.

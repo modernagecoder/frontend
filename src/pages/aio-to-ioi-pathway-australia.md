@@ -180,7 +180,7 @@ Our coaches work from India, behind every Australian time zone. An 8 pm session 
 
 - **Estimate first** Every problem starts with an operations budget.
 - **Prove, then code** Students explain why a method is correct before writing it.
-- **Small groups** Five to ten students of similar level.
+- **Small groups** Fifteen to twenty students of similar level.
 - **One-to-one coaching** The usual choice at this level.
 - **Honest feedback** Clear advice on readiness, without inflating it.
 - **No selection promises** Invitations and teams are the Trust's decisions alone.
@@ -190,7 +190,7 @@ Our coaches work from India, behind every Australian time zone. An 8 pm session 
 Families in Australia pay monthly in US dollars, the rate we charge everywhere outside India, with no deposit and no minimum term. The Trust's programs are separate and by invitation.
 
 - Free first class: USD 0. A real session with a coach. An honest assessment of level. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. The same coach every week. Solutions reviewed in depth. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same coach every week. Solutions reviewed in depth. A certificate at the end.
 - One to one: USD 150 a month. A coach for one student. Built around the pathway calendar. A weekly time that suits you.
 
 ## What families of olympiad students ask

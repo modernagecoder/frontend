@@ -4,7 +4,7 @@ description: "Live online coding, AI, Python and vibe coding lessons for Batley,
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-batley
 source: src/pages/best-coding-and-ai-classes-in-batley.html
 ---
-> At the 2021 census the ONS counted 44,500 residents in the Batley built-up area, inside a Kirklees district of 433,216. Birstall, Carlinghow, Staincliffe, Healey, Hanging Heaton and Howden Clough appear among its suburban areas in postcode data. Anyone in Batley aged six to 67 can learn maths, Python, vibe coding, AI and general coding with us over live video, taught from India by tutors who run private sessions or level-matched groups of five to ten. Each course trains the habit of explaining an answer before trusting it, which is exactly what makes AI output checkable. The Batley project reads 1,681 ground heights across the town and draws its hypsometric curve, a picture of how much land sits at each height. Your trial is free and ends with our advice on a course. Ongoing lessons then cost USD 100 monthly in a group, or USD 150 monthly with a tutor to yourself.
+> At the 2021 census the ONS counted 44,500 residents in the Batley built-up area, inside a Kirklees district of 433,216. Birstall, Carlinghow, Staincliffe, Healey, Hanging Heaton and Howden Clough appear among its suburban areas in postcode data. Anyone in Batley aged six to 67 can learn maths, Python, vibe coding, AI and general coding with us over live video, taught from India by tutors who run private sessions or level-matched groups of fifteen to twenty. Each course trains the habit of explaining an answer before trusting it, which is exactly what makes AI output checkable. The Batley project reads 1,681 ground heights across the town and draws its hypsometric curve, a picture of how much land sits at each height. Your trial is free and ends with our advice on a course. Ongoing lessons then cost USD 100 monthly in a group, or USD 150 monthly with a tutor to yourself.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber) / Batley
 
@@ -12,11 +12,11 @@ Batley, Kirklees, West Yorkshire / Live online
 
 # Coding and AI classes in Batley, West Yorkshire
 
-**Which are the best coding and AI classes for learners in Batley?** At the 2021 census the ONS counted 44,500 residents in the Batley built-up area, inside a Kirklees district of 433,216. Birstall, Carlinghow, Staincliffe, Healey, Hanging Heaton and Howden Clough appear among its suburban areas in postcode data. Anyone in Batley aged six to 67 can learn maths, Python, vibe coding, AI and general coding with us over live video, taught from India by tutors who run private sessions or level-matched groups of five to ten. Each course trains the habit of explaining an answer before trusting it, which is exactly what makes AI output checkable. The Batley project reads 1,681 ground heights across the town and draws its hypsometric curve, a picture of how much land sits at each height. Your trial is free and ends with our advice on a course. Ongoing lessons then cost USD 100 monthly in a group, or USD 150 monthly with a tutor to yourself.
+**Which are the best coding and AI classes for learners in Batley?** At the 2021 census the ONS counted 44,500 residents in the Batley built-up area, inside a Kirklees district of 433,216. Birstall, Carlinghow, Staincliffe, Healey, Hanging Heaton and Howden Clough appear among its suburban areas in postcode data. Anyone in Batley aged six to 67 can learn maths, Python, vibe coding, AI and general coding with us over live video, taught from India by tutors who run private sessions or level-matched groups of fifteen to twenty. Each course trains the habit of explaining an answer before trusting it, which is exactly what makes AI output checkable. The Batley project reads 1,681 ground heights across the town and draws its hypsometric curve, a picture of how much land sits at each height. Your trial is free and ends with our advice on a course. Ongoing lessons then cost USD 100 monthly in a group, or USD 150 monthly with a tutor to yourself.
 
 Ask for a single number that describes the ground under Batley and most people would give an average height, about 105 m above sea level. That number throws away nearly everything worth knowing. Is the town a high plateau cut by a few deep valleys, or a valley floor with a handful of lonely hilltops? Geographers settle it with a hypsometric curve, which shows how much of an area lies above each height. Underneath, it is a cumulative distribution, one of the workhorse tools of data science, and building one from real elevation data makes an excellent first data project. It also exposes a trap that AI summaries fall into all the time: any figure that leans on the highest or lowest value is fragile.
 
-Facts last verified 30 September 2026. Teaching is online; no Batley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Batley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Coding, thinking and AI courses picked for Batley
 
@@ -141,7 +141,7 @@ Bring a computer with a webcam; ordinary home broadband is plenty.
 - **The learner drives** Every line is typed by the learner on a shared screen, and the tutor asks for a prediction before each run.
 - **A level set by the trial** The free session shows us where to begin, and we note any exam board in play.
 - **No charge to start** Lesson one is free, needs no card, and finishes with our course advice.
-- **Classmates at your stage** Groups hold five to ten learners from across the UK working at the same level.
+- **Classmates at your stage** Groups hold fifteen to twenty learners from across the UK working at the same level.
 - **Two sessions a week** Tell us your holiday weeks and they stay clear.
 - **Steady through clock changes** When the clocks go forward or back, our tutors shift, so your time stays put.
 

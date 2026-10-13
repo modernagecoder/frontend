@@ -16,7 +16,7 @@ Blackrock, County Dublin / Live online
 
 Irish Rail says that "DART services operate every 10 minutes all day." If trains come every ten minutes and you turn up at a random moment, you should wait five minutes on average. At Blackrock on a weekday afternoon the timetable bears that out almost exactly. After seven in the evening it does not: the northbound trains still average one every 13 minutes, which suggests a six-and-a-half-minute wait, but a passenger arriving at a random moment waits 7.38 minutes. Nothing is hidden and no train is missing. The extra time comes from the gaps being uneven, and this page teaches a learner to work out why.
 
-Facts last verified 20 September 2026. Teaching is online; no Blackrock branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Blackrock branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four first courses for Blackrock
 
@@ -148,7 +148,7 @@ An average of the gaps is not the average of the waits. Code lets you check whic
 The practical detail.
 
 - **Taught live** The teacher is there for the whole lesson, working through each learner's code with them as it happens.
-- **Grouped by level** Groups of five to ten at one level, drawn from Blackrock, elsewhere in Ireland and abroad.
+- **Grouped by level** Groups of fifteen to twenty at one level, drawn from Blackrock, elsewhere in Ireland and abroad.
 - **Same days each week** About eight lessons a month, on two fixed days.
 - **Around the school year** Christmas, Easter, mid-terms and exam weeks are built into the plan.
 - **What to have** A laptop or desktop, a microphone, headphones or speakers, and an internet connection that handles video.
@@ -161,7 +161,7 @@ The practical detail.
 Three lines.
 
 - First class: USD 0. A first lesson free of charge, with a level check.
-- Group tuition: USD 100 a month. A month in a group of five to ten at the same level, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at the same level, about eight live lessons.
 - Private tuition: USD 150 a month. A month of private lessons on the same timetable.
 
 Every family outside India pays the same US dollar fee, month to month. The free lesson commits you to nothing and charges begin with the course; the pricing page covers holidays, missed lessons and switching between a group and private teaching.
@@ -198,7 +198,7 @@ Not necessarily. We group learners by level, so the others in a class may be any
 
 ### What do coding classes in Blackrock cost?
 
-The first lesson is free. Then a group place costs USD 100 a month for about eight live lessons, two a week, in a group of five to ten, and one-to-one teaching on the same timetable costs USD 150 a month. Terms are agreed before any payment.
+The first lesson is free. Then a group place costs USD 100 a month for about eight live lessons, two a week, in a group of fifteen to twenty, and one-to-one teaching on the same timetable costs USD 150 a month. Terms are agreed before any payment.
 
 ### How many learners are in a group?
 

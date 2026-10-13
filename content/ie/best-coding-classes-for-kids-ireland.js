@@ -54,14 +54,14 @@ module.exports = {
     ['For', 'Junior Infants to Sixth Class'],
     ['Starts with', 'Blocks and Scratch'],
     ['Moves to', 'Typed Python, first AI'],
-    ['Group', 'Five to ten children at one level'],
+    ['Group', 'Fifteen to twenty children at one level'],
     ['Or', 'One to one'],
     ['Teacher', 'The same one each week'],
     ['Hours', 'After school, Irish time'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
-  capsule: 'The best coding class for an Irish primary-school child starts with play and blocks, moves to typed code around Fourth Class, and is taught by the same patient teacher each week in a small group. The Primary Curriculum Framework of 2023 makes being a digital learner a key competency for every child, and suggests at least five hours a month for Science, Technology and Engineering in the senior classes, but schools are introducing the new areas one at a time, so what a child meets in school this year varies. Modern Age Coders teaches children live online from age 6, in groups of five to ten placed by ability or one to one. A first class is free, and a place then costs USD 100 a month in a group or USD 150 a month with a teacher alone.',
+  capsule: 'The best coding class for an Irish primary-school child starts with play and blocks, moves to typed code around Fourth Class, and is taught by the same patient teacher each week in a small group. The Primary Curriculum Framework of 2023 makes being a digital learner a key competency for every child, and suggests at least five hours a month for Science, Technology and Engineering in the senior classes, but schools are introducing the new areas one at a time, so what a child meets in school this year varies. Modern Age Coders teaches children live online from age 6, in groups of fifteen to twenty placed by ability or one to one. A first class is free, and a place then costs USD 100 a month in a group or USD 150 a month with a teacher alone.',
 
   picks: {
     eyebrow: 'Start here',
@@ -101,7 +101,7 @@ module.exports = {
     },
     {
       id: 'class', tint: 'deep', eyebrow: 'Class sizes',
-      h2: 'A class of twenty-two, and a group of five to ten',
+      h2: 'A class of twenty-two, and a group of fifteen to twenty',
       lede: 'Irish primary classes have been getting smaller, and teachers do remarkable work in them. A coding class simply offers a different ratio for one kind of learning.',
       body: [
         { kind: 'table', caption: 'Primary school in numbers, Department of Education Statistical Bulletin', head: ['Measure', 'Figure'], rows: [
@@ -117,7 +117,7 @@ module.exports = {
             'The pupil:teacher ratio is lower, 12.6, but the bulletin calculates it by dividing all pupils by all full-time-equivalent teachers, so it describes staffing, not the number of children in a room.'
           ],
           right: [
-            'A coding group of five to ten children at the same level lets a teacher see each child\'s screen, catch each misunderstanding and set the next small challenge. One-to-one lessons go further still, for a child who is shy, far ahead or needs a slower pace.',
+            'A coding group of fifteen to twenty children at the same level lets a teacher see each child\'s screen, catch each misunderstanding and set the next small challenge. One-to-one lessons go further still, for a child who is shy, far ahead or needs a slower pace.',
             'Neither replaces school. They add practice at the one thing a large class finds hardest to give: individual attention while a child is stuck.'
           ] }
       ]
@@ -218,7 +218,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'The first class is free', p: 'The child makes something small with the teacher, who then suggests the right group or course.' },
-      { h3: 'Groups of five to ten', p: 'Children at the same stage, so no one is left behind and no one waits.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Children at the same stage, so no one is left behind and no one waits.' },
       { h3: 'One to one', p: 'For a shy child, a very quick one, or one who needs a gentler pace.' },
       { h3: 'Parents in the loop', p: 'After each block of lessons, parents hear what their child has made and what comes next.' },
       { h3: 'Screens used well', p: 'Lessons are about making and explaining, never passive watching.' },
@@ -234,7 +234,7 @@ module.exports = {
     h2: 'Fees for children\'s classes',
     lede: 'A monthly fee in US dollars, identical for families in every country except India, whatever the child\'s age. There is no registration charge and no need to commit for the school year.',
     free: ['A first class where the child makes something', 'A suggested group or course', 'No card asked for'],
-    group: ['Five to ten children at one stage', 'The same teacher every week', 'Projects looked at weekly', 'A certificate when a course ends'],
+    group: ['Fifteen to twenty children at one stage', 'The same teacher every week', 'Projects looked at weekly', 'A certificate when a course ends'],
     one: ['A teacher for one child', 'The pace set by the child', 'Good for shy or very quick children']
   },
 
@@ -244,7 +244,7 @@ module.exports = {
     items: [
       { q: 'What age can my child start coding?', a: 'From about six, with blocks and no reading required. Typed code usually comes around Fourth Class, when a child can type comfortably and reason in steps.' },
       { q: 'Does the new primary curriculum include coding?', a: 'The Primary Curriculum Framework makes being a digital learner a key competency and has a STEM curriculum area, with suggested time for Science, Technology and Engineering. Schools are introducing the new areas one at a time, so how much a child meets varies by school.' },
-      { q: 'How big are Irish primary classes?', a: 'The Department reports an average mainstream class of 21.9 in 2025/26, from 19.7 in junior infants to 23.5 in fourth to sixth classes. Our coding groups are five to ten.' },
+      { q: 'How big are Irish primary classes?', a: 'The Department reports an average mainstream class of 21.9 in 2025/26, from 19.7 in junior infants to 23.5 in fourth to sixth classes. Our coding groups are fifteen to twenty.' },
       { q: 'Is Scratch enough, or should my child learn Python?', a: 'Scratch is the right start for most children under ten. Around Fourth Class many are ready for Python, and the teacher moves them on when their Scratch work shows it.' },
       { q: 'My child is at a Gaelscoil. Is an English class a problem?', a: 'Usually not. Our youngest classes involve very little reading, and programming keywords are in English whichever language a child learns in at school.' },
       { q: 'Will my child just be on a screen?', a: 'They will be making and explaining things, with a teacher asking questions, which is very different from watching videos. Lessons are short and active.' },

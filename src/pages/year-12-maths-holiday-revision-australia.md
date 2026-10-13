@@ -199,7 +199,7 @@ Our tutors teach from India, so holiday mornings in Australia line up with the I
 - **Start from errors** Each session begins with the student's own Box 1 cards.
 - **One topic done properly** Better one weak topic fixed than five skimmed.
 - **Fresh questions** New practice problems so answers are worked, not remembered.
-- **Groups of five to ten** Year 12 students in the same course, each explaining aloud.
+- **Groups of fifteen to twenty** Year 12 students in the same course, each explaining aloud.
 - **One-to-one revision** A tutor for a single student and a single topic list.
 - **Honest outcomes** We never promise a band, study score or rank.
 

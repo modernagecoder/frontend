@@ -237,7 +237,7 @@ module.exports = {
     cells: [
       { h3: 'Puzzles before syntax', p: 'Every new idea arrives as a problem to solve before it arrives as a thing to type.' },
       { h3: 'Our own tasks', p: 'Written by us in the same spirit. No Bebras task is copied into a lesson.' },
-      { h3: 'Five to ten learners', p: 'Enough voices to hear a better rule than your own, few enough that nobody sits silent.' },
+      { h3: 'Fifteen to twenty learners', p: 'Enough voices to hear a better rule than your own, few enough that nobody sits silent.' },
       { h3: 'Explaining is part of it', p: 'A learner who cannot explain a rule has not found it, and we say so kindly.' },
       { h3: 'One to one on request', p: 'For a child far ahead of their year, or one who will not speak in a group.' },
       { h3: 'Nothing promised', p: 'No score, no invitation to the coding challenge and no prize is promised by us.' }
@@ -252,7 +252,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'One monthly rate in US dollars, the same everywhere outside India. Nothing to join, nothing to cancel.',
     free: ['A full lesson on a real problem', 'A clear view of the right level', 'No card details'],
-    group: ['Five to ten learners at one level', 'The same teacher each week', 'Work read and discussed', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher each week', 'Work read and discussed', 'A certificate at the end'],
     one: ['One learner with one teacher', 'Aimed at a particular gap', 'For learners well ahead or behind their year']
   },
 

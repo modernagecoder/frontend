@@ -4,7 +4,7 @@ description: "A full stack software development course for learners in Ireland: 
 canonical: https://learn.modernagecoders.com/full-stack-software-development-course-ireland
 source: src/pages/full-stack-software-development-course-ireland.html
 ---
-> Full stack means being able to follow a request from a button in a browser to a row in a database and back. It is taught here as one continuous thing rather than two disconnected courses, on real projects, with version control and deployment from early on. Irish demand is real but not uniform: SOLAS lists software developers among its shortages and names full stack among difficult-to-fill roles, while CSO vacancy figures for the sector have fallen over the past year. We teach the skills and are honest about the market. Classes are live, in groups of five to ten or one to one; the first is free, then USD 100 a month in a group or USD 150 a month one to one.
+> Full stack means being able to follow a request from a button in a browser to a row in a database and back. It is taught here as one continuous thing rather than two disconnected courses, on real projects, with version control and deployment from early on. Irish demand is real but not uniform: SOLAS lists software developers among its shortages and names full stack among difficult-to-fill roles, while CSO vacancy figures for the sector have fallen over the past year. We teach the skills and are honest about the market. Classes are live, in groups of fifteen to twenty or one to one; the first is free, then USD 100 a month in a group or USD 150 a month one to one.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / Full stack, Ireland
 
@@ -171,7 +171,7 @@ Lessons are live with teachers working from India, at a weekly hour fixed in Iri
 - **Daytime** For students and shift workers, often one to one.
 
 - **A free first class** You build something small end to end and get a view of which rung to start on.
-- **Five to ten per group** Learners at one level, reviewing each other's code as teams do.
+- **Fifteen to twenty per group** Learners at one level, reviewing each other's code as teams do.
 - **One to one** For a specific project, a job move or an awkward schedule.
 - **Git from week one** Every project is versioned from the start, because that is how the work is actually done.
 - **Deployed, not just local** Projects go online where somebody else can use them, which is where the real bugs appear.
@@ -182,7 +182,7 @@ Lessons are live with teachers working from India, at a weekly hour fixed in Iri
 A single monthly price in US dollars, the same in every country outside India, covering any course on this page. Nothing to pay upfront, no contract for the year, and you can stop when a project is finished.
 
 - Free first class: USD 0. Something small built end to end. A clear view of the right rung. No card required.
-- Group batch: USD 100 a month. Five to ten learners at one level. One teacher for the course. Code reviewed every week. A certificate on completion.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. One teacher for the course. Code reviewed every week. A certificate on completion.
 - One to one: USD 150 a month. A teacher to yourself. Built around your own project. Good for career changers in a hurry.
 
 ## What learners in Ireland ask about full stack

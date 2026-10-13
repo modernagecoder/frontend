@@ -16,7 +16,7 @@ Ayr, South Ayrshire, Scotland / Live online
 
 When two versions of a document differ, the tempting check is to compare them word by word: first with first, second with second. It works until one word is added or removed, after which everything is out of step and almost nothing seems to match. The fix is alignment: sliding the two sequences against each other, allowing gaps, so that the words which do correspond line up. The classic method, published by Needleman and Wunsch in 1970 for comparing protein sequences, fills in a table of top partial scores and then traces back the cheapest set of edits. Here it is applied to "The Brigs of Ayr" as printed in two different Burns editions on Project Gutenberg.
 
-Facts last verified 29 September 2026. Teaching is online; no Ayr branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Ayr branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Ayr courses in reading, reasoning, Python and AI
 
@@ -130,7 +130,7 @@ All that is needed is a computer with a camera and broadband that copes with vid
 - **Hands on the keyboard** Learners type, prompt and run everything; the tutor watches the shared screen and asks them to justify each step.
 - **Pitched after the trial** The free lesson shows what to teach first, and any SQA course is noted.
 - **Free first session** Lesson one costs nothing and ends with a course suggestion.
-- **One-level classes** Five to ten learners from across the UK, all at the same stage.
+- **One-level classes** Fifteen to twenty learners from across the UK, all at the same stage.
 - **Two sessions weekly** Stopped for school holidays.
 - **Unchanging slot** When UK clocks change, tutors adjust and your time stays the same.
 

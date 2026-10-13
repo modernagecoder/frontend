@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Canterbury le
 canonical: https://learn.modernagecoders.com/best-coding-class-in-canterbury
 source: src/pages/best-coding-class-in-canterbury.html
 ---
-> The 2021 census counted 157,432 usual residents in the Canterbury district, and 10.0% of them were aged 20 to 24, against 6.0% in England. Canterbury Cathedral dates its founding by St Augustine to 597 AD, and says the shrine of Thomas Becket made the city one of the great pilgrimage sites of medieval Christendom. Canterbury learners aged six to sixty-seven can take lessons with us on live video, alone with a teacher or in a class of five to ten at their stage, taught from India at hours suited to UK families. The first lesson is free; then a group place is USD 100 a month and one-to-one teaching USD 150.
+> The 2021 census counted 157,432 usual residents in the Canterbury district, and 10.0% of them were aged 20 to 24, against 6.0% in England. Canterbury Cathedral dates its founding by St Augustine to 597 AD, and says the shrine of Thomas Becket made the city one of the great pilgrimage sites of medieval Christendom. Canterbury learners aged six to sixty-seven can take lessons with us on live video, alone with a teacher or in a class of fifteen to twenty at their stage, taught from India at hours suited to UK families. The first lesson is free; then a group place is USD 100 a month and one-to-one teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Canterbury
 
@@ -12,11 +12,11 @@ Canterbury, Kent / Live online
 
 # Coding classes in Canterbury
 
-**What are the best coding classes in Canterbury?** The 2021 census counted 157,432 usual residents in the Canterbury district, and 10.0% of them were aged 20 to 24, against 6.0% in England. Canterbury Cathedral dates its founding by St Augustine to 597 AD, and says the shrine of Thomas Becket made the city one of the great pilgrimage sites of medieval Christendom. Canterbury learners aged six to sixty-seven can take lessons with us on live video, alone with a teacher or in a class of five to ten at their stage, taught from India at hours suited to UK families. The first lesson is free; then a group place is USD 100 a month and one-to-one teaching USD 150.
+**What are the best coding classes in Canterbury?** The 2021 census counted 157,432 usual residents in the Canterbury district, and 10.0% of them were aged 20 to 24, against 6.0% in England. Canterbury Cathedral dates its founding by St Augustine to 597 AD, and says the shrine of Thomas Becket made the city one of the great pilgrimage sites of medieval Christendom. Canterbury learners aged six to sixty-seven can take lessons with us on live video, alone with a teacher or in a class of fifteen to twenty at their stage, taught from India at hours suited to UK families. The first lesson is free; then a group place is USD 100 a month and one-to-one teaching USD 150.
 
 Chaucer's pilgrims set out, as line 16 of the Tales puts it, "to Caunterbury". How many different words did he use to tell their stories? Split Walter Skeat's edition on spaces and the answer is 23,609. Ignore capital letters and it drops to 22,164. Strip punctuation and it halves, to 12,132, and treating hyphens and accents consistently brings it to 11,567. Even then, "said" appears in six spellings, from seyde to seid. The vocabulary also keeps growing as you read: Heaps' law describes that growth with a simple power curve, but a curve fitted to the first tenth of the book predicts 16,538 words, far more than there are. Our teenagers learn that counting starts with deciding what to count.
 
-Facts last verified 23 September 2026. Teaching is online; no Canterbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Canterbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the pilgrims' city
 
@@ -175,7 +175,7 @@ The district runs from the city walls to the north Kent coast. Online, a learner
 - **City and coast** A learner in Sturry and another in Whitstable can share the same class without a bus ride into Canterbury.
 - **English stages throughout** We follow the stages Kent schools use, Reception and Key Stages 1 to 4 through GCSE and A level, and teach entirely in English.
 - **A lesson, not a sales call** The free session teaches a real task and ends with our suggested level, course and weekly slot. We never ask for card details.
-- **Grouped by stage** Five to ten learners working at one level, from Canterbury, elsewhere in the UK and abroad, so every stage has a sensible time.
+- **Grouped by stage** Fifteen to twenty learners working at one level, from Canterbury, elsewhere in the UK and abroad, so every stage has a sensible time.
 - **Two regular lessons** Two set lessons a week, about eight a month, with holidays and exam weeks planned with the teacher well ahead.
 - **Evening classes from India** A 5 pm lesson in Canterbury starts at 9.30 pm in India during British Summer Time and 10.30 pm in winter, as India keeps one time all year; our teachers work late for UK learners.
 
@@ -186,7 +186,7 @@ The district runs from the city walls to the north Kent coast. Online, a learner
 A free first lesson, then one monthly fee.
 
 - First class: USD 0. A full lesson with nothing to pay, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. Around eight live lessons a month in a group of five to ten learners at one stage.
+- Group tuition: USD 100 a month. Around eight live lessons a month in a group of fifteen to twenty learners at one stage.
 - Private tuition: USD 150 a month. Around eight live lessons a month, with the teacher focused on your learner alone.
 
 Thanington and Tankerton pay what every family outside India pays: one fee in US dollars, with no pound prices anywhere on our site. The free lesson comes first, and billing starts only once a course and a weekly time are agreed; pausing, missed lessons and moving between group and private teaching are explained on the pricing page.
@@ -227,11 +227,11 @@ No. There is no Canterbury centre and no premises anywhere in the UK, as every l
 
 ### How much do Canterbury lessons cost?
 
-The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
+The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
 
 ### How are Canterbury groups formed?
 
-By level, pace and goals rather than age or address, with five to ten learners at one stage. If no group fits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than age or address, with fifteen to twenty learners at one stage. If no group fits the learner's week, we offer one-to-one lessons.
 
 ## The south east and beyond
 

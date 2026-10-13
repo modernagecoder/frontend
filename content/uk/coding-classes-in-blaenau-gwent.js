@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'Coding classes in Blaenau Gwent',
   capsuleQ: 'What are the best coding classes in Blaenau Gwent?',
-  capsule: 'Blaenau Gwent had 66,904 usual residents at the 2021 census. Ebbw Vale is its largest built-up area, followed by Tredegar and Abertillery, then Brynmawr, Blaina and Nantyglo, with smaller places such as Cwm and Llanhilleth. Our teachers work from India and teach in real time on camera; the first lesson, free of charge, pins down a starting level for anyone from Year 1 to Year 13, or an adult. Learners aged 6 to 67 take coding, Python and maths, one-to-one or in a class of five to ten. The Blaenau Gwent project begins beside the Tredegar town clock. Families who continue pay USD 100 each month for a class place or USD 150 each month for a private tutor.',
+  capsule: 'Blaenau Gwent had 66,904 usual residents at the 2021 census. Ebbw Vale is its largest built-up area, followed by Tredegar and Abertillery, then Brynmawr, Blaina and Nantyglo, with smaller places such as Cwm and Llanhilleth. Our teachers work from India and teach in real time on camera; the first lesson, free of charge, pins down a starting level for anyone from Year 1 to Year 13, or an adult. Learners aged 6 to 67 take coding, Python and maths, one-to-one or in a class of fifteen to twenty. The Blaenau Gwent project begins beside the Tredegar town clock. Families who continue pay USD 100 each month for a class place or USD 150 each month for a private tutor.',
   lead: 'In the middle of Tredegar stands a cast-iron clock on a giant column, 70 feet or 21.34 metres high. Cadw lists it at Grade II* and records that it was cast by Charles Jordan of Newport and erected in 1858, lit by gas so that ironworkers could see it day and night. The record adds a lovely detail: the town square around it later grew into The Circle, because builders chose to follow the clock\'s radius. Photograph that scene and two puzzles appear. You must stand surprisingly far back to fit the clock in, and the round street looks nothing like a circle. This page\'s project explains both with the mathematics every camera and 3D game uses, in Python.',
   wa: 'Hello Modern Age Coders, we are in Blaenau Gwent and would like to book a free lesson, please.',
 
@@ -172,7 +172,7 @@ module.exports = {
     h2: 'Fees in Blaenau Gwent',
     intro: 'Ebbw Vale or Brynmawr, the fee is the same, our standard for every country outside India.',
     first: 'A full free lesson, then a recommendation.',
-    group: 'About eight lessons a month in a group of five to ten.',
+    group: 'About eight lessons a month in a group of fifteen to twenty.',
     private: 'About eight lessons a month, one-to-one.',
     closer: 'Fees are set in US dollars; there is no sterling list. Payment begins only after the free lesson, once a course and weekly time are agreed, and the pricing page explains holidays, missed lessons and switching formats.'
   },

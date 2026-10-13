@@ -193,7 +193,7 @@ Our teachers are based in India. Victorian clocks are ahead of theirs by 4 hours
 - **Invented projects only** Every exercise is ours. Assessed work stays out of the lesson.
 - **Testing tables taught** Expected and actual output, written before the code is run.
 - **Exam-style short answers** Name the technique, apply it to the scenario, state the effect.
-- **Groups of five to ten** Senior students at the same level, each explaining their reasoning out loud.
+- **Groups of fifteen to twenty** Senior students at the same level, each explaining their reasoning out loud.
 - **One-to-one option** For one area of study that needs repair quickly.
 - **No predictions** We do not forecast study scores or ATARs; the solution and its result belong to the student.
 
@@ -202,7 +202,7 @@ Our teachers are based in India. Victorian clocks are ahead of theirs by 4 hours
 One monthly fee, charged in US dollars and identical for every family outside India. No sign-up charge, and you can stop at the end of any month.
 
 - Free first class: USD 0. A complete lesson with a teacher. An honest picture of the gaps. No card needed.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher every week. Practice reviewed together. A certificate on completion.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher every week. Practice reviewed together. A certificate on completion.
 - One to one: USD 150 a month. A teacher working with one student. Focused on a single weak area. Handy in the run-up to November.
 
 ## What Victorian students and parents ask

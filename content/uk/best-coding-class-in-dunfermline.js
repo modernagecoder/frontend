@@ -65,7 +65,7 @@ module.exports = {
 
   h1: 'Coding classes in Dunfermline',
   capsuleQ: 'What are the best coding classes in Dunfermline?',
-  capsule: 'Fife, the council area that includes Dunfermline, had about 370,400 usual residents at Scotland\'s 2022 census, rounded to the nearest hundred by National Records of Scotland. Andrew Carnegie wrote that he was born in Dunfermline on 25 November 1835, in a house at the corner of Moodie Street and Priory Lane. Dunfermline learners aged six to sixty-seven meet our teachers in India in live video lessons, one to one or in a class of five to ten at the same stage, at times fitted around Scottish school days and working hours. The first lesson is free; after that a group place costs USD 100 a month and one-to-one teaching USD 150 a month.',
+  capsule: 'Fife, the council area that includes Dunfermline, had about 370,400 usual residents at Scotland\'s 2022 census, rounded to the nearest hundred by National Records of Scotland. Andrew Carnegie wrote that he was born in Dunfermline on 25 November 1835, in a house at the corner of Moodie Street and Priory Lane. Dunfermline learners aged six to sixty-seven meet our teachers in India in live video lessons, one to one or in a class of fifteen to twenty at the same stage, at times fitted around Scottish school days and working hours. The first lesson is free; after that a group place costs USD 100 a month and one-to-one teaching USD 150 a month.',
   lead: 'Before his fortune, Andrew Carnegie was a telegraph messenger, and in his autobiography he describes learning to take a message by ear. A telegraph line could garble a message; so can any cable or radio link today. Our Dunfermline project sends Carnegie\'s entire autobiography, 669,829 characters, through a simulated line that flips one bit in every hundred at random. Sent plainly, 51,518 characters arrive wrong. Wrapped in a Hamming code, which adds three check bits to every four and can find and fix any single flipped bit, only 2,682 do. Teenagers build the code, run the line and check every result against the formula that predicts it.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Dunfermline.',
 
@@ -185,7 +185,7 @@ module.exports = {
       { h3: 'City and villages', p: 'A learner in Garvock Hill and another in Cairneyhill can share a class without anyone taking a bus.' },
       { h3: 'Scottish stages', p: 'P1 to P7, S1 to S6, then National 5, Higher and Advanced Higher: our levels use the names Scottish schools use, and every lesson is taught in English.' },
       { h3: 'The free lesson', p: 'The learner builds something real in the first session, and the teacher then suggests a level, a course and a weekly time. No card is ever needed.' },
-      { h3: 'Classes by level', p: 'Five to ten learners at one stage, from Dunfermline, the rest of the UK and abroad, so every level has good times to choose from.' },
+      { h3: 'Classes by level', p: 'Fifteen to twenty learners at one stage, from Dunfermline, the rest of the UK and abroad, so every level has good times to choose from.' },
       { h3: 'Two lessons a week', p: 'Two fixed lessons weekly, around eight a month, with school holidays and exam leave agreed with the teacher well ahead.' },
       { h3: 'Evening in India', p: 'India keeps one time all year, so a 5 pm class in Fife starts at 21:30 for our teachers during British Summer Time and 22:30 in winter.' }
     ],
@@ -196,7 +196,7 @@ module.exports = {
     h2: 'Dunfermline lesson fees',
     intro: 'A free first lesson, then one fee each month.',
     first: 'A complete lesson without charge, ending with a suggested level, course and weekly time.',
-    group: 'About eight live lessons a month in a class of five to ten learners at one stage.',
+    group: 'About eight live lessons a month in a class of fifteen to twenty learners at one stage.',
     private: 'About eight live lessons a month, with a teacher for your learner alone.',
     closer: 'Families in Bellyeoman or Townhill pay in US dollars, like every family outside India, and our site shows no pound prices. No charge is made until after the free lesson, once a course and weekly time are agreed with us; the pricing page explains pauses, missed lessons and changes between group and one-to-one teaching.'
   },
@@ -221,8 +221,8 @@ module.exports = {
       { q: 'Where was Andrew Carnegie born?', a: 'In his autobiography Carnegie writes that he was born in Dunfermline on 25 November 1835, in the attic of a small house at the corner of Moodie Street and Priory Lane. Historic Environment Scotland lists the birthplace memorial there at Category B.' },
       { q: 'When do Dunfermline lessons run?', a: 'Dunfermline families usually choose a time after school, on a weekday evening or at the weekend, and we settle it in the free lesson. Our teachers in India are four and a half hours ahead of Scotland in British Summer Time and five and a half hours ahead in winter.' },
       { q: 'Is there a Dunfermline centre?', a: 'No. We have no centre in Dunfermline or anywhere else in the UK, as every lesson is live online. Learners need a computer with sound and a steady connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do Dunfermline lessons cost?', a: 'The first lesson is free. After it, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than age or where they live, with five to ten learners at the same stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'What do Dunfermline lessons cost?', a: 'The first lesson is free. After it, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than age or where they live, with fifteen to twenty learners at the same stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

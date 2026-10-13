@@ -16,7 +16,7 @@ Weston Creek district, west Canberra, ACT / Live online
 
 Weston Creek is a small, settled district of eight suburbs in Canberra's west, from Weston and Rivett to Duffy and Holder. Its median age at the 2021 Census was 41, and more than four in five homes were separate houses. The ACT Government's tree list covers its streets and parks record by record, which suits a lesson on sampling.
 
-Facts last verified 13 October 2026. Teaching is online; no Weston Creek branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Weston Creek branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Data, statistics and AI
 
@@ -176,7 +176,7 @@ Every class is live over video, so learners stay home in Weston Creek.
 - **Real-time teaching** Teachers run lessons live and look at code as it is typed.
 - **Term-time** Lessons keep to ACT terms and stop in the breaks.
 - **No-cost trial** The first lesson is free and comes with a plan.
-- **Level groups** Groups of five to ten, or a private teacher.
+- **Level groups** Groups of fifteen to twenty, or a private teacher.
 - **Twice weekly** Around eight lessons each month.
 - **Indian clock** A 4:30pm Weston Creek lesson in December starts at 11am in India.
 
@@ -187,7 +187,7 @@ Every class is live over video, so learners stay home in Weston Creek.
 One fee table for every learner.
 
 - First class: USD 0. The first lesson is free, with a written plan.
-- Group tuition: USD 100 a month. Groups: about eight lessons a month, five to ten learners.
+- Group tuition: USD 100 a month. Groups: about eight lessons a month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private: about eight lessons a month with one teacher.
 
 Fees are in US dollars and begin only after the trial has chosen a course and weekly slot. Holiday and missed-lesson rules are on the pricing page.
@@ -224,11 +224,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Weston Creek classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How do groups work?
 
-Learners are grouped by level and pace, five to ten per group, not by age or suburb. One-to-one lessons suit anyone no group time fits.
+Learners are grouped by level and pace, fifteen to twenty per group, not by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Can adults join?
 

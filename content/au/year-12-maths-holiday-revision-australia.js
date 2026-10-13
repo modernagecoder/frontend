@@ -230,7 +230,7 @@ module.exports = {
       { h3: 'Start from errors', p: 'Each session begins with the student\'s own Box 1 cards.' },
       { h3: 'One topic done properly', p: 'Better one weak topic fixed than five skimmed.' },
       { h3: 'Fresh questions', p: 'New practice problems so answers are worked, not remembered.' },
-      { h3: 'Groups of five to ten', p: 'Year 12 students in the same course, each explaining aloud.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Year 12 students in the same course, each explaining aloud.' },
       { h3: 'One-to-one revision', p: 'A tutor for a single student and a single topic list.' },
       { h3: 'Honest outcomes', p: 'We never promise a band, study score or rank.' }
     ]

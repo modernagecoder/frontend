@@ -16,7 +16,7 @@ Ecclesall, Sheffield, South Yorkshire, England / Live online
 
 Suppose everyone in a ward had to walk to one meeting point, and you wanted the total distance walked to be as small as possible. The obvious guess is the average position, the centroid. The true answer is a different point, the geometric median, and there is no formula for it: you find it by iteration, most famously with a method published by Endre Weiszfeld in 1937. This project uses Census counts for the 63 small areas that make up Ecclesall ward to find both points, and then asks two questions any data scientist should ask of an "optimal" answer: how much better is it really, and how easily is it pushed around?
 
-Facts last verified 30 September 2026. Teaching is online; no Ecclesall branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Ecclesall branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Ecclesall courses in reasoning, Python and AI
 

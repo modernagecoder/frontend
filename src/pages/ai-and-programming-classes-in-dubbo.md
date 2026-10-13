@@ -16,7 +16,7 @@ Dubbo, New South Wales, Australia / Live online
 
 Before any AI model learns from data, someone has to find the bad rows. One of the simplest tools for that is the Hampel filter: slide a window along a sequence, take the median, and flag anything that sits too far from it. We pointed one at house numbers. The NSW address map lists every numbered site in Dubbo, so we walked the filter along Darling Street and Fitzroy Street in order. On Darling Street it raised 59 alarms. Almost all of them were false, and the fix was not a cleverer threshold. It was understanding how streets are numbered.
 
-Facts last verified 8 October 2026. Teaching is online; no Dubbo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 8 October 2026. Teaching is online; no Dubbo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI learning paths for the Orana region
 
@@ -178,7 +178,7 @@ Every class is a live video lesson, so distance from a big city is no obstacle.
 - **At home** Learners connect from their own desk; there is no long drive to Sydney or Orange for a class.
 - **Fits NSW school** Teachers plan with NSW year levels in mind and work around the state's four terms. Everything is taught in English.
 - **Trial first** A real, free first lesson ends with a recommended course and a weekly time that suits.
-- **Matched groups** Five to ten learners at the same level, gathered from Dubbo and elsewhere so each group stays full.
+- **Matched groups** Fifteen to twenty learners at the same level, gathered from Dubbo and elsewhere so each group stays full.
 - **Twice weekly** A learner meets the class on two set days each week, which comes to roughly eight sessions in a month.
 - **Teachers in India** India time is five and a half hours behind Dubbo during daylight saving and four and a half hours behind for the rest of the year.
 
@@ -189,7 +189,7 @@ Every class is a live video lesson, so distance from a big city is no obstacle.
 The pricing is short and the same across Australia.
 
 - First class: USD 0. Your first lesson is free, with a level, course and weekly time suggested at the end.
-- Group tuition: USD 100 a month. A month of group classes, about eight, with five to ten learners at the same stage.
+- Group tuition: USD 100 a month. A month of group classes, about eight, with fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. About eight private lessons a month with your own teacher.
 
 Outside India we charge in US dollars, and Dubbo pays the same as every other Australian town. You are billed only once the trial has settled what and when you will study, and our pricing page deals with holidays, absences and moving from group to private or back.
@@ -230,7 +230,7 @@ No. We hold no premises in Australia and claim none. All classes are live online
 
 ### What do Dubbo AI classes cost?
 
-The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Everything is agreed before you pay.
+The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Everything is agreed before you pay.
 
 ### How many learners share a group?
 

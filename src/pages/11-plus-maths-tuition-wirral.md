@@ -143,7 +143,7 @@ Quest and the council name the four non-Catholic grammar schools that share the 
 | St Anselm's College | Its own entrance exam |
 | Upton Hall School FCJ | Its own test, no maths paper in 2026 |
 
-Lessons are live on video, so a child in Birkenhead, Wallasey, Heswall or Hoylake is taught exactly the same way, in groups of five to ten matched by level.
+Lessons are live on video, so a child in Birkenhead, Wallasey, Heswall or Hoylake is taught exactly the same way, in groups of fifteen to twenty matched by level.
 
 For coding in the city across the Mersey, see our [Liverpool coding page](/best-coding-class-in-liverpool).
 
@@ -220,7 +220,7 @@ Teaching happens live from India. For ten-year-olds on the Wirral that means aft
 
 - **One teacher** The same person every week.
 - **Honest notes** Brief, frank updates for parents.
-- **Five to ten per group** Matched by level.
+- **Fifteen to twenty per group** Matched by level.
 - **Our own questions** Nothing copied from Quest material.
 - **One to one** For a particular gap.
 - **Maths only** No reasoning coaching, no admissions advice.
@@ -230,7 +230,7 @@ Teaching happens live from India. For ten-year-olds on the Wirral that means aft
 A single US dollar price each month for families outside India. No sign-up fee; stop when you like.
 
 - Free first class: USD 0. A lesson that teaches. An honest verdict. No card required.
-- Group batch: USD 100 a month. Five to ten children, one level. A regular teacher. Work checked together. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children, one level. A regular teacher. Work checked together. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one child. Targeted at gaps. Handy in the summer before.
 
 ## What Wirral families ask us

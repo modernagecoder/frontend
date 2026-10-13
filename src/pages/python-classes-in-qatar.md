@@ -74,7 +74,7 @@ Each session is taught in real time by an instructor who follows the same studen
 
 ### Small enough to be seen
 
-Group batches run five to eight students. In a language class that size means every student writes code every session, and nobody graduates to the next concept on hope alone.
+Group batches run fifteen to twenty students. In a language class that size means every student writes code every session, and nobody graduates to the next concept on hope alone.
 
 ### Code from minute ten
 
@@ -108,7 +108,7 @@ Our instructors write Python and explain Python, and the second skill is rarer. 
 
 ### Batches built for attention
 
-Five to eight learners per group, chosen so the teacher reads every screen. Struggling quietly is not possible here for long.
+Fifteen to twenty learners per group, chosen so the teacher reads every screen. Struggling quietly is not possible here for long.
 
 ### A project at every stage
 
@@ -160,7 +160,7 @@ Group classes
 
 $100 per month
 
-- Live batches of five to eight
+- Live batches of fifteen to twenty
 - A fixed AST evening or weekend hour
 - Projects at every stage of the arc
 - Nothing owed until after the demo

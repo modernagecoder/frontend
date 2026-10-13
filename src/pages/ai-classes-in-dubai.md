@@ -102,7 +102,7 @@ Each class is a scheduled hour on video with a teacher who knows the student's w
 
 B
 
-### Five to eight per batch
+### Fifteen to twenty per batch
 
 Small enough that the teacher sees every student's screen in every session. One-on-one classes exist for students who want the syllabus at their own speed.
 
@@ -162,7 +162,7 @@ The people teaching machine learning here work with these tools constantly and t
 
 ### Batches stay tiny on purpose
 
-AI concepts fall apart quietly when misunderstood. In a batch of five to eight, misunderstandings surface the same hour they form.
+AI concepts fall apart quietly when misunderstood. In a batch of fifteen to twenty, misunderstandings surface the same hour they form.
 
 ### Building beats browsing
 
@@ -220,7 +220,7 @@ Group classes
 
 $100 per month
 
-- Weekly live class, 5 to 8 students
+- Weekly live class, 15 to 20 students
 - Evening and weekend GST timings
 - Projects owned by the student
 - Demo class free, before anything

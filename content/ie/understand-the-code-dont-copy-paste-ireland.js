@@ -62,7 +62,7 @@ module.exports = {
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
-  capsule: 'In Ireland, guidance now treats AI-generated material as material the student did not produce, and asks for it to be referenced; State Examinations coursework must be the candidate\'s own authentic and individual work. For anyone learning to code, the practical answer is to learn in a way that keeps the understanding with the learner: predict what code will do before running it, write the core by hand, bring AI tools in openly, change what they suggest and explain every line. Modern Age Coders teaches this way, live online, for ages 6 to 67 in groups of five to ten or one to one, and learners keep a simple record of what any AI tool contributed. We never write or edit graded work for a student. The first class is free; after that a group place costs USD 100 a month and one-to-one lessons USD 150.',
+  capsule: 'In Ireland, guidance now treats AI-generated material as material the student did not produce, and asks for it to be referenced; State Examinations coursework must be the candidate\'s own authentic and individual work. For anyone learning to code, the practical answer is to learn in a way that keeps the understanding with the learner: predict what code will do before running it, write the core by hand, bring AI tools in openly, change what they suggest and explain every line. Modern Age Coders teaches this way, live online, for ages 6 to 67 in groups of fifteen to twenty or one to one, and learners keep a simple record of what any AI tool contributed. We never write or edit graded work for a student. The first class is free; after that a group place costs USD 100 a month and one-to-one lessons USD 150.',
 
   picks: {
     eyebrow: 'Start here',
@@ -216,7 +216,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'The learner explains a small program to the teacher, which shows quickly where understanding stops.' },
-      { h3: 'Groups of five to ten', p: 'Learners explain their code to one another as well as to the teacher, which is where most of the learning happens.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners explain their code to one another as well as to the teacher, which is where most of the learning happens.' },
       { h3: 'One to one when it helps', p: 'For a learner in an exam year, or anyone who wants a teacher to themselves.' },
       { h3: 'AI tools in the open', p: 'Assistants are part of the lesson from the fourth rung, with the AI record kept every time.' },
       { h3: 'Never the graded work', p: 'Teachers teach on examples; the student\'s assessed work is never written or edited in class.' },
@@ -232,7 +232,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'One monthly rate in US dollars for every country outside India, Ireland included. Nothing to pay to join and no annual contract.',
     free: ['A real class with a real teacher', 'An honest view of the starting rung', 'No card details'],
-    group: ['Five to ten learners at one level', 'The same teacher each week', 'Code explained every week', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher each week', 'Code explained every week', 'A certificate at the end'],
     one: ['A teacher for one learner', 'Paced around school assessments', 'Good for exam years']
   },
 

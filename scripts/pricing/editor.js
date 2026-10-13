@@ -25,17 +25,17 @@ const ROOT = cfgLib.REPO_ROOT;
 const GROUPS = [
     ['India: Coding (₹ per month)', [
         ['coding.india.group', 'Group classes'],
-        ['coding.india.miniBatch', 'Mini Batch (3–4 students)'],
+        ['coding.india.miniBatch', 'Mini Batch (up to 6 students)'],
         ['coding.india.personal', '1-on-1 personal']
     ]],
     ['India: Maths (₹ per month)', [
         ['maths.india.group', 'Group classes'],
-        ['maths.india.miniBatch', 'Mini Batch (3–4 students)'],
+        ['maths.india.miniBatch', 'Mini Batch (up to 6 students)'],
         ['maths.india.personal', '1-on-1 personal']
     ]],
     ['India: AI agents courses: Codex/Claude, Copilot Studio (₹ per month)', [
         ['agents.india.group', 'Group classes'],
-        ['agents.india.miniBatch', 'Mini Batch (3–4 students)'],
+        ['agents.india.miniBatch', 'Mini Batch (up to 6 students)'],
         ['agents.india.personal', '1-on-1 personal']
     ]],
     ['Google Gemini Enterprise agents programme: 1-on-1 only, per 8-class month', [

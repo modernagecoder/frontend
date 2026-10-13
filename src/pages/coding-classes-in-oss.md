@@ -4,7 +4,7 @@ description: "Oss families can book live online coding, Python, AI and app class
 canonical: https://learn.modernagecoders.com/coding-classes-in-oss
 source: src/pages/coding-classes-in-oss.html
 ---
-> Coding classes in Oss serve a municipality of 95,549 people (statistics office, 1 January 2026): the town that received its charter in 1399, grew rich on margarine, and in 1923 saw Organon founded to put the slaughter waste of the Zwanenberg works to use. From the pancreas of slaughtered pigs came insulin on an industrial scale; decades later the company brought the pill to the Dutch market. Most data used in computing today is made the same way, as the by-product of a process built for something else, and it is only as trustworthy as the fields that process depended on. Modern Age Coders teaches live online in English from Ruwaard to Ravenstein, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Oss serve a municipality of 95,549 people (statistics office, 1 January 2026): the town that received its charter in 1399, grew rich on margarine, and in 1923 saw Organon founded to put the slaughter waste of the Zwanenberg works to use. From the pancreas of slaughtered pigs came insulin on an industrial scale; decades later the company brought the pill to the Dutch market. Most data used in computing today is made the same way, as the by-product of a process built for something else, and it is only as trustworthy as the fields that process depended on. Modern Age Coders teaches live online in English from Ruwaard to Ravenstein, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Oss
 
@@ -12,11 +12,11 @@ Oss, Noord-Brabant / Live online
 
 # Coding classes in Oss, a town that built an industry from what another one threw away
 
-**What are the best coding classes in Oss?** Coding classes in Oss serve a municipality of 95,549 people (statistics office, 1 January 2026): the town that received its charter in 1399, grew rich on margarine, and in 1923 saw Organon founded to put the slaughter waste of the Zwanenberg works to use. From the pancreas of slaughtered pigs came insulin on an industrial scale; decades later the company brought the pill to the Dutch market. Most data used in computing today is made the same way, as the by-product of a process built for something else, and it is only as trustworthy as the fields that process depended on. Modern Age Coders teaches live online in English from Ruwaard to Ravenstein, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Oss?** Coding classes in Oss serve a municipality of 95,549 people (statistics office, 1 January 2026): the town that received its charter in 1399, grew rich on margarine, and in 1923 saw Organon founded to put the slaughter waste of the Zwanenberg works to use. From the pancreas of slaughtered pigs came insulin on an industrial scale; decades later the company brought the pill to the Dutch market. Most data used in computing today is made the same way, as the by-product of a process built for something else, and it is only as trustworthy as the fields that process depended on. Modern Age Coders teaches live online in English from Ruwaard to Ravenstein, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 The Zwanenberg works in Oss existed to sell meat. Whatever was left over was, in the encyclopaedia's words, something the company wished to use to good purpose, and in 1923 it founded Organon to do so. The pancreas was never the point of the slaughterhouse, and Organon could only take what the slaughter produced. Data works like that far more often than it is designed. Till receipts exist to charge customers, server logs to deliver pages, billing codes to get a hospital paid, and web pages to be read by their own audience, yet all of them end up as the raw material of analysis and machine learning. The useful habit is to ask what the original process needed to get right, because those are the only fields anyone had a reason to check.
 
-Facts last verified 11 September 2026. Teaching is online; no Oss branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Oss branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a town of factories and villages
 
@@ -196,7 +196,7 @@ Oss spreads over 16,201 hectares of land, and a family in Lith, Megen or Herpen 
 - **From any village** The class comes to the laptop, so a learner in Ravenstein or Geffen is as close to the teacher as one in the Centrum. Nobody has to be driven into town and collected again after dark.
 - **Dutch school words stay** Groep, brugklas, havo, vwo and profielkeuze are left in Dutch, just as a school in Oss writes them. The teacher knows what each one means and never asks a family to translate them.
 - **The first hour is a lesson** A real task, taught properly, while the teacher watches how the learner thinks. It ends with a level, a named course and a proposed weekly time. No payment details, no follow-up sales call.
-- **Groups made across the world** Five to ten learners who have reached the same point in the same subject. Oss has 13,636 residents under fifteen, but five at an identical stage free at one identical hour is a rare thing anywhere, so groups are drawn from every country the teachers serve.
+- **Groups made across the world** Fifteen to twenty learners who have reached the same point in the same subject. Oss has 13,636 residents under fifteen, but five at an identical stage free at one identical hour is a rare thing anywhere, so groups are drawn from every country the teachers serve.
 - **Regio Zuid holidays** Two lessons a week, about eight a month, at a fixed hour. Noord-Brabant schools take regio Zuid holidays, so the southern holiday dates are built into the timetable from the start.
 - **A four-hour gap, give or take** India runs three and a half hours ahead of Oss in summer and four and a half in winter. After-school hours, early evenings and weekend mornings all stay open through the year.
 
@@ -207,7 +207,7 @@ Oss spreads over 16,201 hectares of land, and a family in Lith, Megen or Herpen 
 All three prices sit here in plain view before anyone books.
 
 - First class: USD 0. A full lesson on a real task that ends with a level and a course name.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner and one teacher.
 
 The same dollar fee applies in Oss as in every other country, with no separate euro list, so a family in the Centrum and a family in Maren-Kessel pay alike. Nothing is due until the free lesson has settled a course and an hour, and payment is then arranged on WhatsApp. The pricing page covers pauses, format changes and missed lessons.
@@ -248,7 +248,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Oss coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

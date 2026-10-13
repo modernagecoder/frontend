@@ -188,7 +188,7 @@ Our teachers live in India, which is behind every Australian state. In Melbourne
 
 - **Check before moving on** Every solution is substituted back before the next question.
 - **Algebra and graphs together** Students see each equation as a line as well as a calculation.
-- **Groups of five to ten** Matched by current skill, not just year level.
+- **Groups of fifteen to twenty** Matched by current skill, not just year level.
 - **Private tutoring** For targeted work on particular algebra gaps.
 - **Progress notes** Brief updates for parents after each unit.
 - **No level guaranteed** We teach the mathematics; the result belongs to the student.
@@ -198,7 +198,7 @@ Our teachers live in India, which is behind every Australian state. In Melbourne
 Families in Australia are billed each month in US dollars, our standard rate for every country except India. There is nothing to pay up front, and you can stop after any month.
 
 - Free first class: USD 0. A real lesson with a teacher. A frank view of current skills. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. One regular teacher. Feedback on all work. Certificate on completion.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. One regular teacher. Feedback on all work. Certificate on completion.
 - One to one: USD 150 a month. A teacher for one student. Focus on specific algebra gaps. Times to suit you.
 
 ## Year 9 questions we hear

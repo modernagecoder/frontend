@@ -16,7 +16,7 @@ Clontarf, Dublin 3 / Live online
 
 The Marine Institute predicts the tide at Dublin Port years ahead, and its tide gauge there records what the sea actually does every five minutes. Over the first eight months of 2026 the prediction explained 97.9 percent of how the water rose and fell. That sounds like the end of the story, and it is the start. Subtract the prediction from the reading and what is left over, the residual, reached 1.01 metres before dawn on 27 January. This page teaches a learner to build that residual, test whether it is the model's fault or something outside it, and read what it shows.
 
-Facts last verified 20 September 2026. Teaching is online; no Clontarf branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Clontarf branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four first courses for Clontarf
 
@@ -149,7 +149,7 @@ A model's score tells you how often it is right. Its residual tells you when, an
 The details.
 
 - **Taught as it happens** The teacher leads every lesson live and follows each learner's code as they type it.
-- **Level-matched** Five to ten learners sharing a level, whether they are in Clontarf, elsewhere in Ireland or abroad.
+- **Level-matched** Fifteen to twenty learners sharing a level, whether they are in Clontarf, elsewhere in Ireland or abroad.
 - **Steady routine** Two set days a week, which works out at about eight lessons a month.
 - **School year in mind** The plan allows for holidays, mid-term breaks and exam season.
 - **Needed at home** A desktop or laptop, a microphone, a way to hear, and an internet connection that holds up on video.
@@ -162,7 +162,7 @@ The details.
 Clearly stated.
 
 - First class: USD 0. A no-cost first lesson that includes a level check.
-- Group tuition: USD 100 a month. A month in a group of five to ten at the same level, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at the same level, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons in the same pattern.
 
 Outside India one US dollar fee applies to every family, month by month. The free lesson involves no commitment, charging starts when the course does, and the pricing page covers holidays, missed lessons and moving between group and private lessons.
@@ -199,11 +199,11 @@ Maybe, but we group by level, so classmates are just as likely to be elsewhere i
 
 ### What do coding classes in Clontarf cost?
 
-The first lesson is free. Then a group place is USD 100 a month for about eight live lessons, two a week, in a group of five to ten, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.
+The first lesson is free. Then a group place is USD 100 a month for about eight live lessons, two a week, in a group of fifteen to twenty, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.
 
 ### How many are in each group?
 
-Five to ten learners, put together by level, pace and goals rather than age or neighbourhood. Where no group suits a workable time, lessons are one to one.
+Fifteen to twenty learners, put together by level, pace and goals rather than age or neighbourhood. Where no group suits a workable time, lessons are one to one.
 
 ## Along the north shore
 

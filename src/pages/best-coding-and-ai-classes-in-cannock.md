@@ -4,7 +4,7 @@ description: "Online coding, AI, Python and vibe coding classes for Cannock, Hed
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-cannock
 source: src/pages/best-coding-and-ai-classes-in-cannock.html
 ---
-> At the 2021 census 100,519 people lived in Cannock Chase district, and the ONS gives the Cannock built-up area 63,065, with Norton Canes and Rawnsley listed separately; Hednesford, Heath Hayes, Chadsmoor and Bridgtown are among the recorded suburbs. From primary age to 67, Cannock Chase learners can take coding, AI, Python, vibe coding and maths on camera with an India-based tutor, privately or among five to ten classmates of similar ability. We teach thinking before tools, so a learner can question how an AI grouped or ranked something. Lesson one is free and finishes with a course recommendation. Cannock's project asks which English districts are most like Cannock Chase, and shows how much the answer depends on the method. Continuing costs USD 100 for each month in a class or USD 150 for each month of private lessons.
+> At the 2021 census 100,519 people lived in Cannock Chase district, and the ONS gives the Cannock built-up area 63,065, with Norton Canes and Rawnsley listed separately; Hednesford, Heath Hayes, Chadsmoor and Bridgtown are among the recorded suburbs. From primary age to 67, Cannock Chase learners can take coding, AI, Python, vibe coding and maths on camera with an India-based tutor, privately or among fifteen to twenty classmates of similar ability. We teach thinking before tools, so a learner can question how an AI grouped or ranked something. Lesson one is free and finishes with a course recommendation. Cannock's project asks which English districts are most like Cannock Chase, and shows how much the answer depends on the method. Continuing costs USD 100 for each month in a class or USD 150 for each month of private lessons.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Cannock
 
@@ -12,11 +12,11 @@ Cannock, Cannock Chase, Staffordshire, England / Live online
 
 # Coding and AI classes in Cannock
 
-**Where can Cannock learners find the best coding and AI classes?** At the 2021 census 100,519 people lived in Cannock Chase district, and the ONS gives the Cannock built-up area 63,065, with Norton Canes and Rawnsley listed separately; Hednesford, Heath Hayes, Chadsmoor and Bridgtown are among the recorded suburbs. From primary age to 67, Cannock Chase learners can take coding, AI, Python, vibe coding and maths on camera with an India-based tutor, privately or among five to ten classmates of similar ability. We teach thinking before tools, so a learner can question how an AI grouped or ranked something. Lesson one is free and finishes with a course recommendation. Cannock's project asks which English districts are most like Cannock Chase, and shows how much the answer depends on the method. Continuing costs USD 100 for each month in a class or USD 150 for each month of private lessons.
+**Where can Cannock learners find the best coding and AI classes?** At the 2021 census 100,519 people lived in Cannock Chase district, and the ONS gives the Cannock built-up area 63,065, with Norton Canes and Rawnsley listed separately; Hednesford, Heath Hayes, Chadsmoor and Bridgtown are among the recorded suburbs. From primary age to 67, Cannock Chase learners can take coding, AI, Python, vibe coding and maths on camera with an India-based tutor, privately or among fifteen to twenty classmates of similar ability. We teach thinking before tools, so a learner can question how an AI grouped or ranked something. Lesson one is free and finishes with a course recommendation. Cannock's project asks which English districts are most like Cannock Chase, and shows how much the answer depends on the method. Continuing costs USD 100 for each month in a class or USD 150 for each month of private lessons.
 
 Recommendation engines, customer segmentation and many AI tools group things into families of "similar" items without being told what the families are. One classic way to do it is hierarchical clustering: start with every item on its own, repeatedly merge the two closest groups, and draw the whole history as a tree called a dendrogram. The catch is that "closest groups" can be defined in several ways, called linkages. This project clusters all 296 districts of England by the age make-up of their residents from the 2021 census, looks at where Cannock Chase lands, and finds that changing the linkage can turn a sensible set of families into one enormous group and three outcasts.
 
-Facts last verified 29 September 2026. Teaching is online; no Cannock branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Cannock branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Cannock courses in thinking, vibe coding and AI
 
@@ -135,7 +135,7 @@ A laptop or desktop and a connection good enough for video calls are enough.
 - **Students at the keyboard** Learners type, prompt and run their own code, and the tutor follows through screen share with questions.
 - **Placed by the trial** The free session, rather than year group alone, shows where to begin; exam boards are recorded.
 - **Opening lesson free** No fee for the first session, which ends with our course advice.
-- **Groups by stage** Five to ten learners from around Britain at a similar level in each class.
+- **Groups by stage** Fifteen to twenty learners from around Britain at a similar level in each class.
 - **Twice a week** No lessons over the school holidays.
 - **Unchanging slots** Tutors follow the UK clock changes so your lesson time stays fixed.
 

@@ -1,10 +1,10 @@
 ---
 title: "Coding Classes for Kids in Riyadh | Ages 6-12, Live Online"
-description: "Riyadh parents: live online coding classes for children aged 6 to 12. Scratch into Python, batches of 5 to 8, progress notes you can read. Free demo class."
+description: "Riyadh parents: live online coding classes for children aged 6 to 12. Scratch into Python, batches of 15 to 20, progress notes you can read. Free demo class."
 canonical: https://learn.modernagecoders.com/coding-classes-for-kids-in-riyadh
 source: src/pages/coding-classes-for-kids-in-riyadh.html
 ---
-> Riyadh parents: live online coding classes for children aged 6 to 12. Scratch into Python, batches of 5 to 8, progress notes you can read. Free demo class.
+> Riyadh parents: live online coding classes for children aged 6 to 12. Scratch into Python, batches of 15 to 20, progress notes you can read. Free demo class.
 
 The courses
 
@@ -94,7 +94,7 @@ One instructor keeps the group across the months wherever possible. They come to
 
 ### A group you can count in the demo
 
-Five to eight children, enforced. Sit in on the free class and count the faces yourself; few academies invite that kind of checking, which is exactly why we do.
+Fifteen to twenty children, enforced. Sit in on the free class and count the faces yourself; few academies invite that kind of checking, which is exactly why we do.
 
 ### Notes home you can actually read
 
@@ -160,7 +160,7 @@ Group classes
 
 $100 per month
 
-- One live hour weekly, 5 to 8 children
+- One live hour weekly, 15 to 20 children
 - Fixed AST evening or weekend slot
 - Projects the child keeps, certificate at the end
 - Nothing billed before the free demo
@@ -184,7 +184,7 @@ Questions
 
 ## What Riyadh parents ask before the demo
 
-My child is six. Is that too young to start coding?Sometimes, honestly. Six works when a child can read simple words and stay with a puzzle for a few minutes. Some six year olds have that patience already and some grow into it closer to seven, and both are normal. The class itself is built for the age: blocks, colours, short tasks, lots of showing. Book the free demo and let a teacher watch your child work for an hour. If waiting is the wiser call, we will say so to your face.Does this just add another hour of screen time?It swaps an hour of feeds for an hour of making, which is a different activity even on the same machine. In class the child is producing, with a teacher guiding and classmates reacting to each other's work. The spillover is what most Riyadh parents report first: within a few weeks the child opens the laptop to finish a project rather than to be entertained.Do Riyadh kids start with Scratch or Python?Blocks come first. The youngest snap logic into place by hand in the Scratch style, so nothing depends on typing speed. Around eight or nine, typed Python arrives through drawings the child programs line by line, and by eleven most are writing small genuine programs. Treat the ages as a starting guess. The first class is what actually places a child, not the birthday.How many children share one class, and who teaches it?Never more than eight children, usually five or six, with one instructor whose full working day is teaching. The same teacher stays with the group wherever possible, so your child is known, not processed. A family that prefers a private pace can run any of the courses one-on-one instead.How do I follow what my child is learning?Two ways, and neither requires interrogating a nine year old at dinner. You receive short written updates covering what the class did, what your child managed alone and what needs another pass. And the projects themselves are evidence you can run at home, because a game that works is difficult to fake.What do kids coding classes cost in Saudi riyals?The group plan costs 100 US dollars each month. A private teacher costs 150 US dollars each month. Billing renews monthly, there is no admission charge, and stopping whenever it suits the family carries no penalty. The demo class that comes before all of it is free.What equipment does a six to twelve year old need?A computer the child can type on, a webcam and ordinary home internet. Tablets are fine for watching but clumsy for writing code, so we suggest a proper keyboard from the first week. Everything we teach with is free software, and the teacher walks your child through the setup during the opening session.How does the free demo work for young children?Use the form here, or start on WhatsApp if that is easier. A mentor rings back, asks a couple of questions about your child, then fixes an evening slot that suits you. The demo is one complete live class, and you are welcome to sit beside your child for the whole hour. Nothing is billed and nothing is promised until you decide.
+My child is six. Is that too young to start coding?Sometimes, honestly. Six works when a child can read simple words and stay with a puzzle for a few minutes. Some six year olds have that patience already and some grow into it closer to seven, and both are normal. The class itself is built for the age: blocks, colours, short tasks, lots of showing. Book the free demo and let a teacher watch your child work for an hour. If waiting is the wiser call, we will say so to your face.Does this just add another hour of screen time?It swaps an hour of feeds for an hour of making, which is a different activity even on the same machine. In class the child is producing, with a teacher guiding and classmates reacting to each other's work. The spillover is what most Riyadh parents report first: within a few weeks the child opens the laptop to finish a project rather than to be entertained.Do Riyadh kids start with Scratch or Python?Blocks come first. The youngest snap logic into place by hand in the Scratch style, so nothing depends on typing speed. Around eight or nine, typed Python arrives through drawings the child programs line by line, and by eleven most are writing small genuine programs. Treat the ages as a starting guess. The first class is what actually places a child, not the birthday.How many children share one class, and who teaches it?Never more than twenty children, usually five or six, with one instructor whose full working day is teaching. The same teacher stays with the group wherever possible, so your child is known, not processed. A family that prefers a private pace can run any of the courses one-on-one instead.How do I follow what my child is learning?Two ways, and neither requires interrogating a nine year old at dinner. You receive short written updates covering what the class did, what your child managed alone and what needs another pass. And the projects themselves are evidence you can run at home, because a game that works is difficult to fake.What do kids coding classes cost in Saudi riyals?The group plan costs 100 US dollars each month. A private teacher costs 150 US dollars each month. Billing renews monthly, there is no admission charge, and stopping whenever it suits the family carries no penalty. The demo class that comes before all of it is free.What equipment does a six to twelve year old need?A computer the child can type on, a webcam and ordinary home internet. Tablets are fine for watching but clumsy for writing code, so we suggest a proper keyboard from the first week. Everything we teach with is free software, and the teacher walks your child through the setup during the opening session.How does the free demo work for young children?Use the form here, or start on WhatsApp if that is easier. A mentor rings back, asks a couple of questions about your child, then fixes an evening slot that suits you. The demo is one complete live class, and you are welcome to sit beside your child for the whole hour. Nothing is billed and nothing is promised until you decide.
 
 Free demo class
 

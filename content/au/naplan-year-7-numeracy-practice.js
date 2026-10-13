@@ -204,7 +204,7 @@ module.exports = {
     cells: [
       { h3: 'Draw it first', p: 'Students sketch a double number line before reaching for a calculator.' },
       { h3: 'Benchmarks daily', p: 'Ten per cent and five per cent become second nature.' },
-      { h3: 'Five to ten students', p: 'Grouped by what they can do now, not by age alone.' },
+      { h3: 'Fifteen to twenty students', p: 'Grouped by what they can do now, not by age alone.' },
       { h3: 'One-to-one lessons', p: 'For specific gaps from primary school or a fresh start.' },
       { h3: 'Parents kept in the loop', p: 'A short summary after each block of lessons.' },
       { h3: 'No NAPLAN promise', p: 'We teach mathematics; the result is the student\'s own.' }
@@ -219,7 +219,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'We bill Australian families monthly in US dollars, our standard rate outside India. No deposit is needed, and you may stop at the end of any month.',
     free: ['A complete lesson with a teacher', 'An honest assessment of where things stand', 'No card needed'],
-    group: ['Five to ten students working at one level', 'A consistent teacher', 'Marked work with explanations', 'Certificate at the end'],
+    group: ['Fifteen to twenty students working at one level', 'A consistent teacher', 'Marked work with explanations', 'Certificate at the end'],
     one: ['One teacher, one student', 'Work aimed at particular gaps', 'Flexible weekly time']
   },
 

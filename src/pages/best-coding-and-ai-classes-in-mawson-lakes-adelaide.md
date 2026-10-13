@@ -16,7 +16,7 @@ Mawson Lakes, City of Salisbury, South Australia / Live online
 
 South Australia's public transport timetable is published as a single zip file of 18.2 MB. Unpacked it fills 102 MB, and one file inside holds 1,152,604 rows. A Mawson Lakes learner can pull out the suburb's rows without unpacking anything, and without loading the whole file into memory.
 
-Facts last verified 13 October 2026. Teaching is online; no Mawson Lakes branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Mawson Lakes branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that handle real-sized data
 
@@ -194,7 +194,7 @@ Lessons are live over video, so learners join from wherever they are.
 Three prices for everyone.
 
 - First class: USD 0. The first lesson is free and ends with a clear suggestion.
-- Group tuition: USD 100 a month. About eight group lessons a month with five to ten learners.
+- Group tuition: USD 100 a month. About eight group lessons a month with fifteen to twenty learners.
 - Private tuition: USD 150 a month. About eight lessons a month with one teacher.
 
 Families pay in US dollars, only after the trial and once course and time are agreed. The pricing page covers holidays, missed lessons and changing format.
@@ -231,11 +231,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Mawson Lakes learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Could a Mawson Lakes group study Copilot Studio?
 

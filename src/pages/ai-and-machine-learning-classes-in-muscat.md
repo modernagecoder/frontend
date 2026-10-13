@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-muscat.html
 
 In short
 
-Modern Age Coders runs live online AI and machine learning classes for students in Muscat, ages 6 to 67, in batches of five to eight or one to one. Students work in Python, take on the statistics and linear algebra machine learning actually runs on, and finish able to train a model and state how accurate it is. Classes run Sunday to Thursday on Gulf Standard Time, with a Friday or Saturday morning option. Fees are USD 100 a month for a group batch, billed in US dollars, and the first class is free.
+Modern Age Coders runs live online AI and machine learning classes for students in Muscat, ages 6 to 67, in batches of fifteen to twenty or one to one. Students work in Python, take on the statistics and linear algebra machine learning actually runs on, and finish able to train a model and state how accurate it is. Classes run Sunday to Thursday on Gulf Standard Time, with a Friday or Saturday morning option. Fees are USD 100 a month for a group batch, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -297,7 +297,7 @@ Muscat time, Friday or Saturday, 11:30 to 13:00 in India. Your weekend, a workin
 
 ### What a session actually is
 
-Ninety minutes on live video with one teacher who already knows where your child stopped last week. Screens are shared both ways, so the teacher watches the code being written and interrupts at the moment the mistake happens rather than marking it three days later. Batches are five to eight students, or one to one.
+Ninety minutes on live video with one teacher who already knows where your child stopped last week. Screens are shared both ways, so the teacher watches the code being written and interrupts at the moment the mistake happens rather than marking it three days later. Batches are fifteen to twenty students, or one to one.
 
 The week in between carries a build, not a worksheet. Make it, break it, bring it back. Questions during the week go to the same teacher. Timings shift around Ramadan and the Eid holidays rather than running through them.
 
@@ -377,7 +377,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, the same teacher every week
+- Fifteen to twenty students, the same teacher every week
 - Live video, never a recording
 - Weekly build tasks and teacher review
 - Certificate on completion
@@ -468,7 +468,7 @@ Join in any week. Admission is rolling and the free first class doubles as a pla
 
 ### How much do the classes cost, and is the fee billed in rials or dollars?
 
-A group batch of five to eight students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars. The fee is the same flat figure everywhere outside India, so there is no rial conversion to watch. The first class is free and does not need a card.
+A group batch of fifteen to twenty students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars. The fee is the same flat figure everywhere outside India, so there is no rial conversion to watch. The first class is free and does not need a card.
 
 ### My son wants the BSc in Artificial Intelligence at NU in Azaiba. What should he be able to do before he gets there?
 

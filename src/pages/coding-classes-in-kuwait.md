@@ -14,7 +14,7 @@ Kuwait / Live online
 
 The short answer
 
-Kuwait's general secondary certificate, the Shahadat Al-Thanawiya Al-A'ama, is cumulative. Grade 10 contributes 10 per cent of the final mark, Grade 11 contributes 20 per cent and Grade 12 contributes 70 per cent. Modern Age Coders teaches live online coding and mathematics to ages 6 to 67 in Kuwait, in groups of five to eight or one to one, at USD 100 and USD 150 a month. The first class is free.
+Kuwait's general secondary certificate, the Shahadat Al-Thanawiya Al-A'ama, is cumulative. Grade 10 contributes 10 per cent of the final mark, Grade 11 contributes 20 per cent and Grade 12 contributes 70 per cent. Modern Age Coders teaches live online coding and mathematics to ages 6 to 67 in Kuwait, in groups of fifteen to twenty or one to one, at USD 100 and USD 150 a month. The first class is free.
 
 That weighting is the single most useful thing a family in Kuwait can know before adding anything to a teenager's week. It means the pressure is not evenly spread across three years, and it means the cheapest time to build a skill is the year most families treat as the quiet one.
 
@@ -210,7 +210,7 @@ Teaching, questions, code review and feedback all happen live. Nothing here is a
 
 A short ability-matched task while the teacher watches the reasoning, then a recommended course and format. No fee.
 
-### Five to eight per group
+### Fifteen to twenty per group
 
 Matched by present ability, drawn from across our intake, so Kuwait's size never limits the group.
 
@@ -332,7 +332,7 @@ Kuwait's school week runs Sunday to Thursday, so Friday and Saturday are the wee
 
 ### How much do coding classes in Kuwait cost?
 
-The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of five to eight compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
+The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of fifteen to twenty compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
 
 ### Do you have a centre in Kuwait?
 

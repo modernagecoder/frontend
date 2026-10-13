@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and vibe coding lessons for Paisley
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-paisley
 source: src/pages/online-coding-and-python-classes-in-paisley.html
 ---
-> At mid-2020 National Records of Scotland put Paisley's locality population at 77,270, more than any other settlement in Renfrewshire. Ralston, Glenburn, Gallowhill, Ferguslie Park and Williamsburgh are among the suburbs recorded in the town's PA1 to PA3 postcode districts. From P1 pupils to adults of 67, anyone in Renfrewshire can join our India-based tutors on video for coding, Python, AI, vibe coding and maths, taught privately or with five to ten classmates working at one stage. We teach reasoning first, so a learner can check any answer an AI hands them. The first lesson is free and ends with a course recommendation. The Paisley project uses 52 years of sunshine records from the Met Office's former Paisley weather station to test a famous rule for deciding when to stop looking and choose. Carrying on costs USD 100 a month in a group or USD 150 a month one-to-one.
+> At mid-2020 National Records of Scotland put Paisley's locality population at 77,270, more than any other settlement in Renfrewshire. Ralston, Glenburn, Gallowhill, Ferguslie Park and Williamsburgh are among the suburbs recorded in the town's PA1 to PA3 postcode districts. From P1 pupils to adults of 67, anyone in Renfrewshire can join our India-based tutors on video for coding, Python, AI, vibe coding and maths, taught privately or with fifteen to twenty classmates working at one stage. We teach reasoning first, so a learner can check any answer an AI hands them. The first lesson is free and ends with a course recommendation. The Paisley project uses 52 years of sunshine records from the Met Office's former Paisley weather station to test a famous rule for deciding when to stop looking and choose. Carrying on costs USD 100 a month in a group or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Paisley
 
@@ -12,11 +12,11 @@ Paisley, Renfrewshire, Scotland / Live online
 
 # Online coding and Python classes in Paisley
 
-**Which are the best online coding and Python classes in Paisley?** At mid-2020 National Records of Scotland put Paisley's locality population at 77,270, more than any other settlement in Renfrewshire. Ralston, Glenburn, Gallowhill, Ferguslie Park and Williamsburgh are among the suburbs recorded in the town's PA1 to PA3 postcode districts. From P1 pupils to adults of 67, anyone in Renfrewshire can join our India-based tutors on video for coding, Python, AI, vibe coding and maths, taught privately or with five to ten classmates working at one stage. We teach reasoning first, so a learner can check any answer an AI hands them. The first lesson is free and ends with a course recommendation. The Paisley project uses 52 years of sunshine records from the Met Office's former Paisley weather station to test a famous rule for deciding when to stop looking and choose. Carrying on costs USD 100 a month in a group or USD 150 a month one-to-one.
+**Which are the best online coding and Python classes in Paisley?** At mid-2020 National Records of Scotland put Paisley's locality population at 77,270, more than any other settlement in Renfrewshire. Ralston, Glenburn, Gallowhill, Ferguslie Park and Williamsburgh are among the suburbs recorded in the town's PA1 to PA3 postcode districts. From P1 pupils to adults of 67, anyone in Renfrewshire can join our India-based tutors on video for coding, Python, AI, vibe coding and maths, taught privately or with fifteen to twenty classmates working at one stage. We teach reasoning first, so a learner can check any answer an AI hands them. The first lesson is free and ends with a course recommendation. The Paisley project uses 52 years of sunshine records from the Met Office's former Paisley weather station to test a famous rule for deciding when to stop looking and choose. Carrying on costs USD 100 a month in a group or USD 150 a month one-to-one.
 
 Suppose you must pick the sunniest month of the year, but you see the months one at a time and cannot go back. Mathematicians have a celebrated answer to puzzles like this, called the secretary problem: watch the first 37% of the options without choosing, then take the first one that beats everything you have seen. If the options arrive in random order, no strategy does better on average. Paisley happens to have the data to test it. The Met Office weather station there recorded sunshine every month from 1959 until it closed in 2011, and months, of course, do not arrive in random order.
 
-Facts last verified 29 September 2026. Teaching is online; no Paisley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Paisley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Paisley courses in thinking, Python and AI
 
@@ -132,7 +132,7 @@ A computer, a webcam and a connection that manages video calls are all that is n
 - **Learner-led coding** Students type, prompt and run every step; the tutor watches the shared screen and asks for reasons.
 - **Pitched by the trial** The free lesson shows the starting point; SQA courses are noted where relevant.
 - **Free opening lesson** Lesson one has no charge and ends with a course recommendation.
-- **Stage-matched classes** Five to ten learners from around the UK at one stage per class.
+- **Stage-matched classes** Fifteen to twenty learners from around the UK at one stage per class.
 - **Two each week** None during Scottish school holidays.
 - **Fixed hour** Tutors move with UK clock changes so your time does not shift.
 

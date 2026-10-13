@@ -193,7 +193,7 @@ module.exports = {
       { h3: 'Equipment', p: 'A laptop or desktop with sound is ideal; for the very first lesson a parent nearby helps a young child settle.' },
       { h3: 'Queensland year names', p: 'Teachers use the words Gold Coast children hear at school, starting with Prep.' },
       { h3: 'A free first lesson', p: 'Your child completes a small project, then we suggest a course and a regular time. No card is needed.' },
-      { h3: 'Small groups or one to one', p: 'Groups of five to ten children ready for the same next step, or private lessons if you prefer.' },
+      { h3: 'Small groups or one to one', p: 'Groups of fifteen to twenty children ready for the same next step, or private lessons if you prefer.' },
       { h3: 'Around eight lessons a month', p: 'Usually two a week at the same time, so coding becomes a steady habit.' },
       { h3: 'Teachers on India time', p: 'A 4pm lesson on the coast is 11:30am for our teachers in India, and that gap never moves.' }
     ],
@@ -204,7 +204,7 @@ module.exports = {
     h2: 'What coding classes cost for Gold Coast kids',
     intro: 'Three prices, clearly stated.',
     first: 'A free first lesson that ends with a level, a course and a time.',
-    group: 'About eight lessons a month with five to ten children working at the same level.',
+    group: 'About eight lessons a month with fifteen to twenty children working at the same level.',
     private: 'About eight lessons a month, one teacher, one child.',
     closer: 'Families outside India pay in US dollars at one rate, from the northern suburbs to the southern beaches. There is no bill until after the trial, once you are happy with the course and time; holidays, missed lessons and switching between group and private are set out on the pricing page.'
   },
@@ -229,8 +229,8 @@ module.exports = {
       { q: 'What time are lessons for Gold Coast children?', a: 'After school or at weekends, agreed in the free lesson and confirmed in Gold Coast time, which does not change during the year.' },
       { q: 'How do you keep children safe online?', a: 'Every session is live and led by a teacher, groups are small, children never need adult AI accounts, and parents are welcome to stay and watch.' },
       { q: 'Is there a Modern Age Coders centre on the Gold Coast?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do coding classes for Gold Coast kids cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do coding classes for Gold Coast kids cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

@@ -68,7 +68,7 @@ module.exports = {
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
-  capsule: 'The Curriculum and Assessment Review\'s final report, published in November 2025, found that take-up of GCSE Computer Science was 20% among boys but 6% among girls, and pointed to gender stereotyping of computing careers and to school factors such as pedagogy and resources. The National Centre for Computing Education reports that girls made up 22.6% of GCSE Computer Science entries in 2025, and that 35.7% of girls achieved the top grades compared with 27.8% of boys. In the workforce, DSIT found only 17% of the cyber security workforce was female, against 48% of the UK workforce. Modern Age Coders teaches Python and AI live and online to UK learners, girls included, in mixed groups of five to ten placed by ability, or one to one, with the same teacher each week and real projects. We do not run girls-only classes and do not teach girls differently. The first class is free; afterwards a group place is USD 100 a month and one-to-one lessons USD 150 a month.',
+  capsule: 'The Curriculum and Assessment Review\'s final report, published in November 2025, found that take-up of GCSE Computer Science was 20% among boys but 6% among girls, and pointed to gender stereotyping of computing careers and to school factors such as pedagogy and resources. The National Centre for Computing Education reports that girls made up 22.6% of GCSE Computer Science entries in 2025, and that 35.7% of girls achieved the top grades compared with 27.8% of boys. In the workforce, DSIT found only 17% of the cyber security workforce was female, against 48% of the UK workforce. Modern Age Coders teaches Python and AI live and online to UK learners, girls included, in mixed groups of fifteen to twenty placed by ability, or one to one, with the same teacher each week and real projects. We do not run girls-only classes and do not teach girls differently. The first class is free; afterwards a group place is USD 100 a month and one-to-one lessons USD 150 a month.',
 
   picks: {
     eyebrow: 'Start here',
@@ -140,7 +140,7 @@ module.exports = {
       lede: 'If the gap is in who starts and who continues, the useful question for a parent is what makes a learner continue. These are our teaching choices, not claims about girls.',
       body: [
         { kind: 'table', caption: 'What we do, and what we will not do', head: ['We do', 'We do not'], rows: [
-          ['Place every learner by ability, in mixed groups of five to ten', 'Run girls-only or boys-only classes'],
+          ['Place every learner by ability, in mixed groups of fifteen to twenty', 'Run girls-only or boys-only classes'],
           ['Keep the same teacher every week', 'Rotate teachers so no one knows the learner'],
           ['Build projects a learner chooses and can show', 'Set exercises that never become anything'],
           ['Explain every idea until it is understood', 'Assume some learners are naturally suited to code'],
@@ -236,7 +236,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'We find out what she knows and what she would like to build.' },
-      { h3: 'Mixed groups', p: 'Five to ten learners of similar level, placed by ability.' },
+      { h3: 'Mixed groups', p: 'Fifteen to twenty learners of similar level, placed by ability.' },
       { h3: 'One to one', p: 'For anyone who prefers to learn privately.' },
       { h3: 'The same teacher', p: 'One teacher each week, who knows the learner and her projects.' },
       { h3: 'A portfolio', p: 'Finished projects kept in her own account.' },
@@ -252,7 +252,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A monthly fee in US dollars, identical for every learner outside India, with no joining fee and no commitment past the current month.',
     free: ['A look at what she already knows', 'A route suggested for her age and level', 'No payment details needed'],
-    group: ['Five to ten learners at one level, mixed', 'The same teacher each week', 'Projects she chooses', 'Stop at the end of any month'],
+    group: ['Fifteen to twenty learners at one level, mixed', 'The same teacher each week', 'Projects she chooses', 'Stop at the end of any month'],
     one: ['A teacher for one learner', 'A pace set by her', 'Suits anyone who prefers private lessons']
   },
 
@@ -260,7 +260,7 @@ module.exports = {
     eyebrow: 'Questions from girls and parents',
     h2: 'What families ask',
     items: [
-      { q: 'Are your classes girls-only?', a: 'No. Classes are mixed and placed by ability, in groups of five to ten. One-to-one lessons are available for anyone who prefers them.' },
+      { q: 'Are your classes girls-only?', a: 'No. Classes are mixed and placed by ability, in groups of fifteen to twenty. One-to-one lessons are available for anyone who prefers them.' },
       { q: 'Do you teach girls differently?', a: 'No. Every learner is taught the same way: clear explanations, real projects and a teacher who reads the code. We place by ability, not by gender.' },
       { q: 'How many girls take GCSE Computer Science?', a: 'The Curriculum and Assessment Review found take-up of 6% among girls against 20% among boys. The NCCE puts girls at 22.6% of entries in 2025.' },
       { q: 'Do girls do well in computer science?', a: 'Those who take it do: in 2025, 35.7% of girls achieved the top GCSE grades against 27.8% of boys, according to the NCCE.' },

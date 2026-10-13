@@ -295,7 +295,7 @@ module.exports = {
       { h3: 'Live teacher', p: 'Each lesson is taught in real time, with code reviewed as it is written.' },
       { h3: 'ACT terms', p: 'Classes follow the ACT school terms and pause in the holidays.' },
       { h3: 'Free start', p: 'One free lesson, then a written course plan.' },
-      { h3: 'Groups or private', p: 'Five to ten learners at one level, or one to one.' },
+      { h3: 'Groups or private', p: 'Fifteen to twenty learners at one level, or one to one.' },
       { h3: 'Two a week', p: 'About eight lessons a month.' },
       { h3: 'India time', p: 'Until 4 April 2027, a 5pm Belconnen lesson is 11:30am in India.' }
     ],
@@ -308,7 +308,7 @@ module.exports = {
     h2: 'Belconnen class fees',
     intro: 'The same fees for every learner.',
     first: 'The first lesson is free and ends with a plan.',
-    group: 'Group classes: about eight lessons a month, five to ten learners.',
+    group: 'Group classes: about eight lessons a month, fifteen to twenty learners.',
     private: 'Private classes: about eight lessons a month with one teacher.',
     closer: 'Fees are charged in US dollars and start only after the free lesson has set a course and weekly time. The pricing page covers holidays and missed lessons.'
   },
@@ -347,12 +347,12 @@ module.exports = {
       },
       {
         q: 'What do Belconnen classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How are groups formed?',
-        a: 'By level and pace, five to ten learners each, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'By level and pace, fifteen to twenty learners each, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Can adults join?', a: 'Yes. Adults learn in adult groups or privately, often to speed up text processing at work.' }

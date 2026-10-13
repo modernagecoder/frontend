@@ -182,7 +182,7 @@ We teach live from India. During daylight saving (4 October 2026 to 4 April 2027
 - **A sentence after every number** Each answer finishes with what it means in context.
 - **Reference built through the year** Students assemble their bound reference as they learn, not the night before.
 - **Timed sets** Multiple-choice practice at real exam pace.
-- **Five to ten per group** Matched by level, and everyone explains a model aloud.
+- **Fifteen to twenty per group** Matched by level, and everyone explains a model aloud.
 - **Private lessons** When one topic needs focused attention.
 - **Results belong to you** We make no claims about study scores or ATARs; the work and the result are yours.
 
@@ -191,7 +191,7 @@ We teach live from India. During daylight saving (4 October 2026 to 4 April 2027
 General Maths lessons have one monthly price, set in US dollars and equal for every family outside India; there is no joining charge and you are free to stop each month.
 
 - Free first class: USD 0. A full lesson with a tutor. An honest read on weak topics. No card asked for.
-- Group batch: USD 100 a month. Five to ten students at one level. A steady tutor each week. Practice checked and discussed. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. A steady tutor each week. Practice checked and discussed. A certificate at the end.
 - One to one: USD 150 a month. A tutor for one student. Centred on one topic. Common before the October exams.
 
 ## General Maths questions from students and parents

@@ -157,11 +157,11 @@ module.exports = {
       { h3: 'Learner writes it', p: 'The learner types, runs and explains every program while the tutor questions.' },
       { h3: 'Placement by trial', p: 'We see the learner\'s level in the first lesson before recommending a course.' },
       { h3: 'Free start', p: 'Session one costs nothing and no card is taken.' },
-      { h3: 'Small level groups', p: 'Five to ten classmates at one stage, joining from across the UK.' },
+      { h3: 'Small level groups', p: 'Fifteen to twenty classmates at one stage, joining from across the UK.' },
       { h3: 'Two a week in term', p: 'About eight lessons a month, with Denbighshire holidays left clear on request.' },
       { h3: 'Same UK time', p: 'The lesson time holds steady through the clock changes.' }
     ],
-    spec: { title: 'Why lessons are online', p: 'Five to ten learners at exactly one level are much easier to group from the whole UK than from one seaside town, and video saves everyone the journey.' }
+    spec: { title: 'Why lessons are online', p: 'Fifteen to twenty learners at exactly one level are much easier to group from the whole UK than from one seaside town, and video saves everyone the journey.' }
   },
 
   fees: {

@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Rugby',
   capsuleQ: 'What are the best online coding and Python classes for Rugby?',
-  capsule: 'The 2021 census found 114,364 residents in Rugby borough, 78,120 of them in the Rugby built-up area. Families with young children are well represented, with adults in their thirties and early forties above the England share. Anyone from 6 to 67 can learn coding, Python, AI or maths with us over live video; our India-based tutors teach privately or in level-matched classes of five to ten. A free first lesson tells us where to begin. The Rugby project turns a well-known Victorian novel set in the town into data. Continuing costs USD 100 per month for group lessons or USD 150 per month for private ones.',
+  capsule: 'The 2021 census found 114,364 residents in Rugby borough, 78,120 of them in the Rugby built-up area. Families with young children are well represented, with adults in their thirties and early forties above the England share. Anyone from 6 to 67 can learn coding, Python, AI or maths with us over live video; our India-based tutors teach privately or in level-matched classes of fifteen to twenty. A free first lesson tells us where to begin. The Rugby project turns a well-known Victorian novel set in the town into data. Continuing costs USD 100 per month for group lessons or USD 150 per month for private ones.',
   lead: 'Thomas Hughes\'s novel Tom Brown\'s School Days follows a boy who travels to Rugby by the Tally-ho coach and has his luggage carried up to the School-house. It is also a large block of text: 1,424 paragraphs in the Project Gutenberg edition. How much of it is people talking? The question sounds like counting quotation marks, and that is exactly where most first programs go wrong. The book opens 1,522 quotations but closes only 1,513. Nine speeches seem never to end. A Rugby learner who works out why will build a finite state machine, one of the most useful ideas in computing, and get an answer less than half of the naive one.',
   wa: 'Hello Modern Age Coders, please arrange a free online coding or Python lesson for a Rugby learner.',
 
@@ -163,7 +163,7 @@ module.exports = {
       { h3: 'Learners write the code', p: 'Each line is the student\'s own; the tutor watches the shared screen and prompts with questions.' },
       { h3: 'Placed by year', p: 'A Year 3 and a Year 12 each begin where their school year and trial suggest, with their exam board in mind.' },
       { h3: 'Opening lesson free', p: 'The trial is free, and ends with honest advice about the next step.' },
-      { h3: 'Stage-matched classes', p: 'Groups of five to ten learners at the same point, from across the UK.' },
+      { h3: 'Stage-matched classes', p: 'Groups of fifteen to twenty learners at the same point, from across the UK.' },
       { h3: 'Twice weekly', p: 'Two lessons a week through term time, paused in the holidays.' },
       { h3: 'Fixed hour', p: 'When clocks change in the UK, our teachers adjust and your lesson time holds.' }
     ],

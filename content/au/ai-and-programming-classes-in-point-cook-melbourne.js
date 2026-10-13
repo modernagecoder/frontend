@@ -303,7 +303,7 @@ module.exports = {
       { h3: 'Online and live', p: 'A real teacher, a shared screen and the learner\'s own code on every call.' },
       { h3: 'School terms', p: 'Classes run through Victorian terms and stop for the state school holidays.' },
       { h3: 'First lesson', p: 'A complete lesson for free, then a recommendation on course and weekly time.' },
-      { h3: 'Small groups', p: 'Groups of five to ten, formed by level, with learners from many places.' },
+      { h3: 'Small groups', p: 'Groups of fifteen to twenty, formed by level, with learners from many places.' },
       { h3: 'Two a week', p: 'Two set lessons a week, about eight a month, so progress keeps moving.' },
       { h3: 'India time', p: 'Our teachers work from India. A 5pm Point Cook class is 11:30am India time in daylight saving, and 12:30pm from April.' }
     ],
@@ -316,7 +316,7 @@ module.exports = {
     h2: 'Point Cook class fees',
     intro: 'Three options, nothing hidden.',
     first: 'The first lesson costs nothing, and ends with advice on the right course.',
-    group: 'A month of small-group lessons, typically eight, with five to ten learners at one level.',
+    group: 'A month of small-group lessons, typically eight, with fifteen to twenty learners at one level.',
     private: 'A month of one-to-one lessons, typically eight, with your own teacher.',
     closer: 'Families in Point Cook, like every family outside India, pay in US dollars at the same rate. No payment is taken until the trial has settled the course and time; the pricing page covers holidays and missed lessons.'
   },
@@ -358,7 +358,7 @@ module.exports = {
       },
       {
         q: 'How much are AI classes for Point Cook learners?',
-        a: 'The first lesson is free. After that, group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before you pay anything.',
+        a: 'The first lesson is free. After that, group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before you pay anything.',
         boiler: true
       },
       {

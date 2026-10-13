@@ -306,7 +306,7 @@ Code Queens Group
 
 per month · 2 classes/week
 
-- Girls-only batch (up to 10 students)
+- Girls-only batch (up to 20 students)
 - Live online classes (60 min)
 - Recorded sessions access
 - Doubt-solving sessions
@@ -315,13 +315,13 @@ per month · 2 classes/week
 
 Book Free Demo →Most Popular
 
-Mini Batch · 3-4 Girls
+Mini Batch · up to 6 Girls
 
 ₹2,499
 
 per month · 2 classes/week
 
-- **Micro batch of just 3-4 girls**
+- **Micro batch of up to 6 girls**
 - Near 1-on-1 teacher attention
 - Female mentor option available
 - Live doubt-clearing every class

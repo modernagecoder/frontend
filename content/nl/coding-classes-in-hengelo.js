@@ -182,7 +182,7 @@ module.exports = {
       { h3: 'Home is the classroom', p: 'Someone in Slangenbeek and someone in Noord open the same session at the same minute. There is no trip across town and nobody waiting outside a building afterwards.' },
       { h3: 'Havo stays havo', p: 'The Dutch labels for school, from groep and brugklas through vmbo, havo and vwo to the profielkeuze, are used untranslated, while explanations are given in English.' },
       { h3: 'Free, and a real lesson', p: 'The first session is taught properly on a genuine task rather than demonstrated. It closes with a recommended level, a course and a proposed weekly slot; no payment details are requested.' },
-      { h3: 'Matched classmates', p: 'Groups hold five to ten learners at one stage. Hengelo has 11,422 residents under fifteen, and finding five of them at an identical point, free at an identical hour, is unusual, so classmates can come from other countries.' },
+      { h3: 'Matched classmates', p: 'Groups hold fifteen to twenty learners at one stage. Hengelo has 11,422 residents under fifteen, and finding five of them at an identical point, free at an identical hour, is unusual, so classmates can come from other countries.' },
       { h3: 'Holidays of regio Noord', p: 'Sessions run twice a week, roughly eight times a month, at one fixed slot, and stop for the regio Noord school holidays that Overijssel follows.' },
       { h3: 'Teachers on Indian time', p: 'The teaching team works in India, three and a half hours later than Dutch summer time and four and a half later in winter, which puts late afternoons, evenings and weekend mornings within easy reach.' }
     ],
@@ -193,7 +193,7 @@ module.exports = {
     h2: 'Hengelo fees at a glance',
     intro: 'What a family pays, in full, before booking anything.',
     first: 'One genuine lesson on a genuine task, finishing with a level and the course that fits.',
-    group: 'A month of classes, normally eight, in a group of five to ten at the same level.',
+    group: 'A month of classes, normally eight, in a group of fifteen to twenty at the same level.',
     private: 'A month of classes, normally eight, with a teacher to oneself.',
     closer: 'There is one dollar price for every country and no euro tariff alongside it, so a family in Wilderinkshoek pays the same as one in the Binnenstad. Nothing is charged before the free lesson has fixed the course and the slot, and payment is then set up over WhatsApp. For pauses, a switch of format or missed sessions, see the pricing page.'
   },
@@ -218,7 +218,7 @@ module.exports = {
       { q: 'How many schools does Hengelo have?', a: 'The statistics count 26 primary establishments with 6,369 pupils and 8 secondary establishments with 5,612, plus 6,723 MBO, 2,260 higher professional and 860 university students at institutions in the municipality. No school is rated here.' },
       { q: 'Are lessons in English or Dutch, and when do they happen?', a: 'The teaching language is English, and Dutch school words like vmbo, havo and brugklas are left as they are. Teachers work on Indian time, three and a half hours ahead of the Netherlands in summer and four and a half in winter, so late-afternoon, evening and weekend slots are easy to arrange. The slot is fixed in the free lesson, and breaks follow the regio Noord holidays.' },
       { q: 'Is there a Modern Age Coders classroom in Hengelo?', a: 'No, and none is claimed here or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Hengelo coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Hengelo coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

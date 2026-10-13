@@ -16,7 +16,7 @@ Hobart, Tasmania, Australia / Live online
 
 Leonhard Euler noticed that any network drawn flat on paper obeys a simple rule: count the points, subtract the lines, add the regions, and you always get 2. Our Hobart project turns that rule into a data checker. The City of Hobart publishes its road centre lines as open data, 2,155 car-road pieces in the main council file. We joined the pieces into a network and counted. The largest connected part has 1,573 junctions and ends and 1,861 road pieces, so Euler says it should enclose 290 regions. Tracing them from the file's own geometry finds only 262. Those 28 missing regions are a signal that somewhere, roads cross without meeting, and learners write the code to find out where.
 
-Facts last verified 7 October 2026. Teaching is online; no Hobart branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Hobart branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where a Hobart teenager or adult might begin
 
@@ -181,7 +181,7 @@ Greater Hobart wraps around the river and up the hillsides, and a live online le
 - **Both sides of the Derwent** Bellerive and Moonah are a bridge apart, yet two learners there can sit in one lesson without either of them leaving home.
 - **Tasmanian year levels** Teachers use Tasmanian year levels and plan around the state's four terms; senior learners can connect projects to TASC courses. Lessons are in English.
 - **Start with a real task** The trial is a genuine lesson with a teacher, ending with a suggested level, course and time. Card details are never requested.
-- **Groups at the same stage** Five to ten learners working at a matching level, from Hobart and elsewhere, so small cities still get full groups.
+- **Groups at the same stage** Fifteen to twenty learners working at a matching level, from Hobart and elsewhere, so small cities still get full groups.
 - **A twice-weekly rhythm** Around eight lessons a month in a fixed slot, with holiday and exam breaks agreed with the teacher beforehand.
 - **Teachers on the other side of the Indian Ocean** When it is 6pm in Hobart in July, it is 1:30pm where our teachers sit; once Tasmanian clocks go forward in October, the same 6pm lesson starts at 12:30pm for them.
 
@@ -192,7 +192,7 @@ Greater Hobart wraps around the river and up the hillsides, and a live online le
 Three figures, stated plainly.
 
 - First class: USD 0. A full lesson without charge, after which you receive a level, a suggested course and a lesson time.
-- Group tuition: USD 100 a month. A month of lessons, normally eight, sharing the class with five to ten learners at your level.
+- Group tuition: USD 100 a month. A month of lessons, normally eight, sharing the class with fifteen to twenty learners at your level.
 - Private tuition: USD 150 a month. Roughly eight lessons a month in the same rhythm, with one teacher and one learner.
 
 Our fees are set in US dollars for every country except India, which means a family in Lindisfarne and one in Lenah Valley see identical invoices and no local price list exists. You are invoiced once the trial has settled a course and a time, and the pricing page answers questions about breaks, absences and changing format.
@@ -233,11 +233,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Hobart coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Hobart and Australian learners
 

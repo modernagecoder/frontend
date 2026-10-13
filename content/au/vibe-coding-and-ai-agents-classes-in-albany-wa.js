@@ -186,7 +186,7 @@ module.exports = {
       { h3: 'Anywhere around the sound', p: 'A learner in Little Grove and another in Lower King can sit in the same lesson from their own desks.' },
       { h3: 'WA year levels', p: 'Lessons use Western Australian year levels and the senior ATAR and general pathways, taught in English.' },
       { h3: 'Free opening lesson', p: 'You build something with an AI and a teacher, then get a level, course and time suggested, with no card requested.' },
-      { h3: 'Five to ten learners', p: 'Each group shares a level, drawing from Albany, the rest of Australia and overseas.' },
+      { h3: 'Fifteen to twenty learners', p: 'Each group shares a level, drawing from Albany, the rest of Australia and overseas.' },
       { h3: 'Weekly rhythm', p: 'Normally two lessons a week, about eight a month, with breaks planned around WA holidays.' },
       { h3: 'No clock changes', p: 'With no daylight saving in WA, the gap to India time never moves, so slots stay where they are.' }
     ],
@@ -197,7 +197,7 @@ module.exports = {
     h2: 'What vibe coding classes cost in Albany',
     intro: 'All three prices are below.',
     first: 'An opening lesson at no cost, ending with a level, a course and a time.',
-    group: 'One month in a group, usually eight lessons, with five to ten learners at your stage.',
+    group: 'One month in a group, usually eight lessons, with fifteen to twenty learners at your stage.',
     private: 'Roughly eight one-to-one lessons a month with the same teacher.',
     closer: 'Albany learners pay the national rate in US dollars, with no Great Southern loading. Charges begin once the trial has fixed a course and slot; the pricing page sets out breaks, missed lessons and moving between group and private.'
   },
@@ -222,8 +222,8 @@ module.exports = {
       { q: 'What times are Albany lessons?', a: 'After school, weeknights or weekends, fixed during the trial and written in Albany time, which is always two and a half hours ahead of India.' },
       { q: 'Do you teach younger children?', a: 'From age 6, usually through Scratch and playful projects. The content on this page is aimed at teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Albany?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Albany coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Albany coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

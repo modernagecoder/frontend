@@ -39,7 +39,7 @@ module.exports = {
 
   h1: 'Coding classes in Leeuwarden, where a tower 40 metres tall leaning 4.2 degrees will not give you a lean in centimetres',
   capsuleQ: 'What are the best coding classes in Leeuwarden?',
-  capsule: 'Coding classes in Leeuwarden serve 130,162 people (Statistics Netherlands, 1 January 2026) across 36 named places, from the city itself at 95,890 in 2023 down to Lions with about 25. The Oldehove, its unfinished tower, is published at 40 metres and 4.2 degrees out of true, and those two rounded figures put its lean somewhere between 2.86 and 3.00 metres. The single number a calculator returns is 2.93, and claiming it would be claiming more than the sources gave. Modern Age Coders teaches live online in English to all 36 places, ages 6 to 67, with a free opening lesson and then USD 100 monthly in a group of five to ten or USD 150 one to one.',
+  capsule: 'Coding classes in Leeuwarden serve 130,162 people (Statistics Netherlands, 1 January 2026) across 36 named places, from the city itself at 95,890 in 2023 down to Lions with about 25. The Oldehove, its unfinished tower, is published at 40 metres and 4.2 degrees out of true, and those two rounded figures put its lean somewhere between 2.86 and 3.00 metres. The single number a calculator returns is 2.93, and claiming it would be claiming more than the sources gave. Modern Age Coders teaches live online in English to all 36 places, ages 6 to 67, with a free opening lesson and then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.',
   lead: 'Type forty times the sine of 4.2 degrees into anything and it answers 2.93 metres. That is how far the top of the Oldehove stands out from its base, and it is a figure no source on this page publishes. The height is given to the nearest metre and the angle to one decimal place, so the honest answer is a range from 2.86 to 3.00 metres, about seven centimetres either side. The calculator gave three digits because calculators always do. Knowing how many of them to keep is a separate skill, and it is one almost nobody is taught.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Leeuwarden.',
 
@@ -183,7 +183,7 @@ module.exports = {
     h2: 'The fee, in dollars, in all thirty-six places',
     intro: 'On the page rather than saved for a phone call.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'One international rate applies, quoted in dollars and never in euros, so a family in Lions sees exactly what a family in the city sees. Payment comes after the free lesson has produced a course and a time, and it comes over WhatsApp. Pausing, changing plan and missing a week are described on the pricing page.'
   },
@@ -208,7 +208,7 @@ module.exports = {
       { q: 'Why does Leeuwarden have so few university students?', a: 'Because it teaches mainly at the applied level. The municipality counts 21,170 students at institutions here, while among its residents 7,870 are in applied higher education and 930 at university level. Frisian students who want a university generally go to Groningen.' },
       { q: 'What is in the free lesson?', a: 'The teacher finds the edge of what the learner can already do and sets one task just past it. A child might measure a room with a ruler marked only in metres. A teenager builds an interval type and runs the tower through it. An adult brings a derived figure from work. The hour ends with a course, a rung, a weekly time and a dollar figure, and nothing has been charged.' },
       { q: 'Is there a Modern Age Coders classroom in Leeuwarden?', a: 'No, and none is claimed near the Oldehove, in Stiens or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Leeuwarden coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Leeuwarden coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in a Leeuwarden group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or village. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

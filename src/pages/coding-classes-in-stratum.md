@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Stratum, Eindhoven fo
 canonical: https://learn.modernagecoders.com/coding-classes-in-stratum
 source: src/pages/coding-classes-in-stratum.html
 ---
-> Coding classes in Stratum reach a stadsdeel of three statistics office wijken, Oud-Stratum, Kortonjo and Putten, all three read for this page, holding 35,779 residents on 1,141 hectares of land in January 2026. Their densities are 6,156, 2,777 and 2,361 residents per square kilometre of land. The mean of those three is 3,765, and it is wrong: Stratum as a whole has 3,136, because Oud-Stratum is the densest wijk and has the least land. Add the people, add the land, divide once. Modern Age Coders teaches live online in English from the Joriskwartier to Leenderheide, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Stratum reach a stadsdeel of three statistics office wijken, Oud-Stratum, Kortonjo and Putten, all three read for this page, holding 35,779 residents on 1,141 hectares of land in January 2026. Their densities are 6,156, 2,777 and 2,361 residents per square kilometre of land. The mean of those three is 3,765, and it is wrong: Stratum as a whole has 3,136, because Oud-Stratum is the densest wijk and has the least land. Add the people, add the land, divide once. Modern Age Coders teaches live online in English from the Joriskwartier to Leenderheide, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Eindhoven](/coding-classes-in-eindhoven) / Stratum
 
@@ -12,11 +12,11 @@ Stratum, Eindhoven / Live online
 
 # Coding classes in Stratum, where averaging three correct densities gives a wrong one
 
-**What are the best coding classes in Stratum, Eindhoven?** Coding classes in Stratum reach a stadsdeel of three statistics office wijken, Oud-Stratum, Kortonjo and Putten, all three read for this page, holding 35,779 residents on 1,141 hectares of land in January 2026. Their densities are 6,156, 2,777 and 2,361 residents per square kilometre of land. The mean of those three is 3,765, and it is wrong: Stratum as a whole has 3,136, because Oud-Stratum is the densest wijk and has the least land. Add the people, add the land, divide once. Modern Age Coders teaches live online in English from the Joriskwartier to Leenderheide, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Stratum, Eindhoven?** Coding classes in Stratum reach a stadsdeel of three statistics office wijken, Oud-Stratum, Kortonjo and Putten, all three read for this page, holding 35,779 residents on 1,141 hectares of land in January 2026. Their densities are 6,156, 2,777 and 2,361 residents per square kilometre of land. The mean of those three is 3,765, and it is wrong: Stratum as a whole has 3,136, because Oud-Stratum is the densest wijk and has the least land. Add the people, add the land, divide once. Modern Age Coders teaches live online in English from the Joriskwartier to Leenderheide, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Three numbers, each of them correct, each of them published or checked against a published count, and the most natural thing anyone could do with them, take their average, produces a figure about twenty percent too high. Nothing is wrong with Oud-Stratum, Kortonjo or Putten. What goes wrong is the one step that combines them, because an average of three densities treats the three wijken as equal, and they are not equal in the thing a density divides by. The same step is taken every day in code, when somebody averages the accuracy of each batch, the response time of each server or the pass rate of each class, and it is one of the few mistakes in data work that can be caught with nothing more than a pencil.
 
-Facts last verified 10 September 2026. Teaching is online; no Stratum branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 September 2026. Teaching is online; no Stratum branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the south-east of Eindhoven
 
@@ -192,7 +192,7 @@ Stratum runs from the old village streets by the Sint-Joriskerk to the woods at 
 - **No ride across the ring** From Putten or the Elzent a classroom anywhere else in the city is a bike ride each way, twice a week, in every kind of weather. A lesson at the kitchen table removes the ride and keeps the hour, and an hour that costs no travel is the one that survives November.
 - **School words stay in Dutch** Groep, havo, vwo and profielkeuze are not translated during a lesson. A Stratum child reads them on every letter home and hears them at every parents evening, so they are used in their own form and nobody pauses to convert them.
 - **A real lesson, and no sales pitch** The free hour is taught, with a problem the learner actually solves, and it ends with a placement, a named course and a fixed weekly time. There is no card to enter and no call afterwards dressed up as a follow-up lesson.
-- **Classmates by stage, not by postcode** A group is five to ten learners at the same point in the same subject. Stratum holds 4,930 children under fifteen, and even so, five at one exact stage wanting one exact hour is rare anywhere, so groups are formed from a worldwide pool and start without a waiting list.
+- **Classmates by stage, not by postcode** A group is fifteen to twenty learners at the same point in the same subject. Stratum holds 4,930 children under fifteen, and even so, five at one exact stage wanting one exact hour is rare anywhere, so groups are formed from a worldwide pool and start without a waiting list.
 - **Holidays set by regio Zuid** Twice a week, about eight lessons a month, at an hour that does not move. Noord-Brabant schools take regio Zuid holidays, which fall at different times from the west of the country, and the teaching calendar follows them from the first month.
 - **One clock changes, and it is the Dutch one** India runs three and a half hours ahead of Eindhoven in summer and four and a half in winter, and India never changes its clocks. After school, the early evening and weekend mornings all stay open whatever the season.
 
@@ -203,7 +203,7 @@ Stratum runs from the old village streets by the Sint-Joriskerk to the woods at 
 Printed in full on the page so that nobody has to ask for it.
 
 - First class: USD 0. A complete taught lesson that ends with a level and a named course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 The same dollar figure applies in every country, with no euro version, so a flat in Oud-Stratum and a house in Kortonjo pay exactly the same. Nothing is charged until the free lesson has fixed a course and an hour, and payment is then handled over WhatsApp. What happens with a pause, a change of plan or a missed week is written out on the pricing page.
@@ -244,7 +244,7 @@ No, and none is claimed here, elsewhere in Eindhoven or anywhere in the Netherla
 
 ### What do Stratum coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

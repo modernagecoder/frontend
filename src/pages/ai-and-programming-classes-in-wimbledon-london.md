@@ -4,7 +4,7 @@ description: "Live online AI, programming, Python and vibe coding lessons for Wi
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-wimbledon-london
 source: src/pages/ai-and-programming-classes-in-wimbledon-london.html
 ---
-> The 2021 census recorded 12,966 residents in Merton's Wimbledon Town and Dundonald ward, 11,071 in Wimbledon Park, 11,804 in Village, 8,242 in Hillside and 12,301 in Raynes Park. South Wimbledon, Merton Park, Cottenham Park and Copse Hill are suburban areas recorded in the SW19 and SW20 districts. Wimbledon learners from six to 67 take AI, programming, Python, vibe coding and maths with an India-based tutor on a live video call, privately or as one of five to ten in a class at their level. We teach honest testing before clever tools, so a learner can tell a real result from a flattering one. Nothing is charged for lesson one, which ends with our course suggestion. The Wimbledon project tunes a model on 199 Census areas and shows that the score which picked the winner is better than the winner deserves. For Wimbledon families who stay, fees are USD 100 a month for a class place or USD 150 a month one-to-one.
+> The 2021 census recorded 12,966 residents in Merton's Wimbledon Town and Dundonald ward, 11,071 in Wimbledon Park, 11,804 in Village, 8,242 in Hillside and 12,301 in Raynes Park. South Wimbledon, Merton Park, Cottenham Park and Copse Hill are suburban areas recorded in the SW19 and SW20 districts. Wimbledon learners from six to 67 take AI, programming, Python, vibe coding and maths with an India-based tutor on a live video call, privately or as one of fifteen to twenty in a class at their level. We teach honest testing before clever tools, so a learner can tell a real result from a flattering one. Nothing is charged for lesson one, which ends with our course suggestion. The Wimbledon project tunes a model on 199 Census areas and shows that the score which picked the winner is better than the winner deserves. For Wimbledon families who stay, fees are USD 100 a month for a class place or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Wimbledon
 
@@ -12,11 +12,11 @@ Wimbledon, Merton, London / Live online
 
 # AI and programming classes in Wimbledon
 
-**Which are the best AI and programming classes in Wimbledon?** The 2021 census recorded 12,966 residents in Merton's Wimbledon Town and Dundonald ward, 11,071 in Wimbledon Park, 11,804 in Village, 8,242 in Hillside and 12,301 in Raynes Park. South Wimbledon, Merton Park, Cottenham Park and Copse Hill are suburban areas recorded in the SW19 and SW20 districts. Wimbledon learners from six to 67 take AI, programming, Python, vibe coding and maths with an India-based tutor on a live video call, privately or as one of five to ten in a class at their level. We teach honest testing before clever tools, so a learner can tell a real result from a flattering one. Nothing is charged for lesson one, which ends with our course suggestion. The Wimbledon project tunes a model on 199 Census areas and shows that the score which picked the winner is better than the winner deserves. For Wimbledon families who stay, fees are USD 100 a month for a class place or USD 150 a month one-to-one.
+**Which are the best AI and programming classes in Wimbledon?** The 2021 census recorded 12,966 residents in Merton's Wimbledon Town and Dundonald ward, 11,071 in Wimbledon Park, 11,804 in Village, 8,242 in Hillside and 12,301 in Raynes Park. South Wimbledon, Merton Park, Cottenham Park and Copse Hill are suburban areas recorded in the SW19 and SW20 districts. Wimbledon learners from six to 67 take AI, programming, Python, vibe coding and maths with an India-based tutor on a live video call, privately or as one of fifteen to twenty in a class at their level. We teach honest testing before clever tools, so a learner can tell a real result from a flattering one. Nothing is charged for lesson one, which ends with our course suggestion. The Wimbledon project tunes a model on 199 Census areas and shows that the score which picked the winner is better than the winner deserves. For Wimbledon families who stay, fees are USD 100 a month for a class place or USD 150 a month one-to-one.
 
 Modern models have settings, called hyperparameters, and the usual way to choose them is to try many and keep whichever scores highest in cross-validation. The trap is reporting that highest score as the model's accuracy. It was the luckiest of many attempts on that particular data, so it is biased upwards. The fix is nested cross-validation: an inner loop does the choosing, and an outer loop scores the whole choosing procedure on data it never touched. This project runs both on Wimbledon, predicting how many households in each small Census area have no car, and then checks the verdict on the rest of Merton.
 
-Facts last verified 30 September 2026. Teaching is online; no Wimbledon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Wimbledon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Wimbledon courses in reasoning, Python and AI
 
@@ -134,7 +134,7 @@ For a Wimbledon lesson you need a computer, a webcam and a connection that holds
 - **Learner writes, tutor asks** The student does the typing and running. From the shared screen, the tutor keeps asking how they would prove the result.
 - **The trial sets the start** One free session shows what is already known; exam boards are written down.
 - **First session free** Wimbledon families pay nothing for it, and it ends with a course we recommend.
-- **Classes of one level** Five to ten learners, drawn from across Britain, all at the same point.
+- **Classes of one level** Fifteen to twenty learners, drawn from across Britain, all at the same point.
 - **Twice a week** Term time only.
 - **Same hour all year** British clock changes are handled by the tutor, not the family.
 

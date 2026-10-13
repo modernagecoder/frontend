@@ -1,10 +1,10 @@
 ---
 title: "Python Classes in Dubai | Live Course for Teens & Professionals"
-description: "Live Python classes in Dubai for kids, teens, college students and professionals. Batches of 5 to 8, GST evening slots, real projects. Book a free demo."
+description: "Live Python classes in Dubai for kids, teens, college students and professionals. Batches of 15 to 20, GST evening slots, real projects. Book a free demo."
 canonical: https://learn.modernagecoders.com/python-classes-in-dubai
 source: src/pages/python-classes-in-dubai.html
 ---
-> Live Python classes in Dubai for kids, teens, college students and professionals. Batches of 5 to 8, GST evening slots, real projects. Book a free demo.
+> Live Python classes in Dubai for kids, teens, college students and professionals. Batches of 15 to 20, GST evening slots, real projects. Book a free demo.
 
 01 · The Python tracks
 
@@ -145,7 +145,7 @@ Instruction is the job, not a side gig between other things. Students keep the s
 
 ### A batch you cannot hide in
 
-Five to eight students means the teacher notices a quiet week immediately. Attention is the product; the cap is what protects it.
+Fifteen to twenty students means the teacher notices a quiet week immediately. Attention is the product; the cap is what protects it.
 
 ### Code written, not watched
 
@@ -197,7 +197,7 @@ Group classes
 
 $100 per month
 
-- Live weekly class, batch of 5 to 8
+- Live weekly class, batch of 15 to 20
 - GST evening and weekend slots
 - Projects kept, certificate on completion
 - Free demo class first

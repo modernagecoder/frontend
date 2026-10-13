@@ -51,7 +51,7 @@ module.exports = {
     ['Subjects', 'Coding, AI and maths'],
     ['Times', 'Set for your state'],
     ['Delivery', 'Live online video'],
-    ['Alternative', 'Small groups of five to ten'],
+    ['Alternative', 'Groups of fifteen to twenty'],
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
@@ -251,7 +251,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Private and group lessons outside India are charged monthly in US dollars, with one rate for all countries. There is no joining fee and no term contract, so you may stop after any month or switch formats.',
     free: ['A free first lesson', 'Advice on private or group', 'No card details'],
-    group: ['Five to ten learners', 'One regular teacher', 'Similar level', 'Monthly'],
+    group: ['Fifteen to twenty learners', 'One regular teacher', 'Similar level', 'Monthly'],
     one: ['A teacher to yourself', 'Mastery pacing', 'Your own project welcome']
   },
 

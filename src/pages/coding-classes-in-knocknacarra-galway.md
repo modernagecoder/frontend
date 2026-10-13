@@ -16,7 +16,7 @@ Knocknacarra, Galway / Live online
 
 At Galway Port, 5.5 kilometres from Knocknacarra's community centre, the Marine Institute runs two tide gauges about thirty metres apart, each logging the sea level every five minutes. Do they agree? Their readings correlate at 0.99995, which sounds like perfect agreement. It is not. One gauge reads 17.4 millimetres lower than the other on average, the gap nearly triples at low water, and two impossible readings, each claiming the sea stood 32.753 metres below datum, would on their own make the gauges seem to disagree by a third of a metre. This page teaches a learner how to measure agreement properly, and why correlation cannot.
 
-Facts last verified 20 September 2026. Teaching is online; no Knocknacarra branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Knocknacarra branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four first courses for Knocknacarra
 
@@ -163,7 +163,7 @@ The details that matter.
 Briefly.
 
 - First class: USD 0. A free first lesson with a level check.
-- Group tuition: USD 100 a month. A month in a group of five to ten at the same level, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at the same level, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons at the same frequency.
 
 The fee is one amount in US dollars for every family outside India, paid a month at a time. No payment is due for the trial, the first charge comes with the start of the course, and the pricing page spells out what happens around holidays, absences and a move from group to private lessons or back.
@@ -200,7 +200,7 @@ Possibly, but groups are made by level, so classmates may be anywhere in Ireland
 
 ### What do coding classes in Knocknacarra cost?
 
-The first lesson is free. Then a group place costs USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.
+The first lesson is free. Then a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.
 
 ### How many learners are in a group?
 

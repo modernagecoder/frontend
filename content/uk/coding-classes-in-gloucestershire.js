@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Coding classes in Gloucestershire',
   capsuleQ: 'What are the best coding classes in Gloucestershire?',
-  capsule: 'Gloucestershire as a ceremonial county runs from the Forest of Dean to the Cotswolds and down to the edge of Bristol: seven councils and 935,500 people at the 2021 Census. Gloucester and Cheltenham are the two big towns, then Yate, Stroud, Bradley Stoke and Cirencester, with dozens of market towns and villages in the valleys. We teach every one of them in the same way. Every class happens live on a video call with a teacher based in India; skills, not birthdays, decide where a learner starts; anyone aged 6 to 67 can join; and a learner can be one of five to ten in a group or have a teacher all to themselves. Topics include programming, Python, cyber security, algorithms and maths. The Gloucestershire project begins in Cheltenham. Lesson one is free. Continuing costs USD 100 each month for group teaching or USD 150 each month for private teaching.',
+  capsule: 'Gloucestershire as a ceremonial county runs from the Forest of Dean to the Cotswolds and down to the edge of Bristol: seven councils and 935,500 people at the 2021 Census. Gloucester and Cheltenham are the two big towns, then Yate, Stroud, Bradley Stoke and Cirencester, with dozens of market towns and villages in the valleys. We teach every one of them in the same way. Every class happens live on a video call with a teacher based in India; skills, not birthdays, decide where a learner starts; anyone aged 6 to 67 can join; and a learner can be one of fifteen to twenty in a group or have a teacher all to themselves. Topics include programming, Python, cyber security, algorithms and maths. The Gloucestershire project begins in Cheltenham. Lesson one is free. Continuing costs USD 100 each month for group teaching or USD 150 each month for private teaching.',
   lead: 'GCHQ has been in Cheltenham since the 1950s, and its headquarters, known as the Doughnut, has been home since 2003. Codes and keys depend on something that sounds simple and is not: random numbers that nobody can guess. Computers cannot flip coins, so they use formulas that produce numbers which look random. This page\'s project builds the oldest and simplest such formula, then plays the codebreaker. It finds that the numbers repeat, that some of their digits follow an obvious pattern, and that three outputs in a row are enough to predict every number that follows. The lesson is the same one professional codemakers learned long ago: looking random is not the same as being unpredictable.',
   wa: 'Hello Modern Age Coders, please could we book a free lesson for a learner in Gloucestershire?',
 
@@ -188,7 +188,7 @@ module.exports = {
     h2: 'Gloucestershire fees',
     intro: 'One set of fees across the county, and for every country other than India.',
     first: 'A complete lesson of real work, with a recommended level and course.',
-    group: 'About eight lessons a month, five to ten learners at one level.',
+    group: 'About eight lessons a month, fifteen to twenty learners at one level.',
     private: 'About eight lessons a month with a teacher and one learner.',
     closer: 'Families outside India are billed in US dollars, with no pound list. Payment begins only after the free lesson has agreed a course and a weekly time, and the pricing page covers pauses, missed lessons and switching between group and private.'
   },

@@ -52,7 +52,7 @@ module.exports = {
 
   h1: 'Coding classes in Bromley',
   capsuleQ: 'What are the best coding classes in Bromley?',
-  capsule: 'Bromley is the south east London borough of Beckenham, Orpington, Chislehurst, Penge, West Wickham, Hayes, Petts Wood and Biggin Hill, with 329,992 residents at the 2021 Census and Down House, Charles Darwin\'s home, at Downe. A course worth its fee teaches a learner to decide how a question should be tested before seeing the answer, and this page does that with Darwin\'s own data: fifteen pairs of maize plants from his 1876 book, tested by a program that tries every possible outcome. Our teachers, based in India, teach live on video to anyone from 6 to 67, individually or in a small group of five to ten at the same stage. A first lesson is free of charge; continuing costs USD 100 a month in a group or USD 150 a month one to one.',
+  capsule: 'Bromley is the south east London borough of Beckenham, Orpington, Chislehurst, Penge, West Wickham, Hayes, Petts Wood and Biggin Hill, with 329,992 residents at the 2021 Census and Down House, Charles Darwin\'s home, at Downe. A course worth its fee teaches a learner to decide how a question should be tested before seeing the answer, and this page does that with Darwin\'s own data: fifteen pairs of maize plants from his 1876 book, tested by a program that tries every possible outcome. Our teachers, based in India, teach live on video to anyone from 6 to 67, individually or in a group of fifteen to twenty at the same stage. A first lesson is free of charge; continuing costs USD 100 a month in a group or USD 150 a month one to one.',
   lead: 'Charles Darwin lived at Down House, in what is now the London Borough of Bromley, from 1842 until 1882, according to Historic England. In 1876 he published a book on whether plants grown from crossed parents do better than plants from self-fertilised ones, and he printed his measurements in full. One small table, fifteen pairs of maize plants grown on opposite sides of the same pots, became a favourite of statisticians. Our learners type it in and ask Darwin\'s question with a computer: if crossing made no difference, how often would chance alone produce a gap this large? With fifteen pairs there are exactly 32,768 ways the signs could have fallen, and a short program checks every one. The answer depends, uncomfortably, on which test you pick, and that is the real lesson.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Bromley.',
 
@@ -181,7 +181,7 @@ module.exports = {
       { h3: 'Home is the classroom', p: 'Learners take part from home with a laptop or desktop, headphones and a steady internet connection.' },
       { h3: 'Stages used in England', p: 'We describe progress in the Key Stages of English schools, from Key Stage 1 to sixth form, with GCSE and A level where they are relevant. Lessons are in English throughout.' },
       { h3: 'A free lesson first', p: 'Real teaching from a real teacher, never a sales pitch. By the end we can recommend a starting level and a course, and nobody asks for a card.' },
-      { h3: 'Matched classmates', p: 'Each group gathers five to ten learners who have reached one stage, drawn from all over the UK and abroad, which keeps a sensible hour within reach.' },
+      { h3: 'Matched classmates', p: 'Each group gathers fifteen to twenty learners who have reached one stage, drawn from all over the UK and abroad, which keeps a sensible hour within reach.' },
       { h3: 'Twice a week', p: 'Most groups meet on two evenings a week, taking breaks for half terms, holidays and exams by agreement.' },
       { h3: 'Local times', p: 'Our teachers work from India, but every time we send you is written in UK time.' }
     ],
@@ -192,7 +192,7 @@ module.exports = {
     h2: 'Fees for Bromley families',
     intro: 'A free first lesson, then a single monthly fee that does not change from Penge to Biggin Hill.',
     first: 'A full first lesson with a teacher at no charge, ending with our recommendation of level, course and time.',
-    group: 'About eight live lessons a month in a class of five to ten at the same stage.',
+    group: 'About eight live lessons a month in a class of fifteen to twenty at the same stage.',
     private: 'About eight live lessons a month, just the learner and the teacher.',
     closer: 'Families in Bromley pay in US dollars, as all families outside India do, and no pound prices appear on the site. Nothing is due until the free lesson has taken place and a course and weekly time are settled. The pricing page sets out how pauses, missed lessons and a move between class and one-to-one teaching work.'
   },
@@ -217,8 +217,8 @@ module.exports = {
       { q: 'When would a Bromley learner have lessons?', a: 'Once the free lesson is done we offer a weekly slot in a class at the right level with a seat free. Teachers sit in India; the times in our messages are always Bromley times.' },
       { q: 'Which equipment is required?', a: 'Any laptop or desktop computer with sound through headphones or speakers, plus a steady connection. For the Darwin project, Python and fifteen pairs of numbers are all that is required.' },
       { q: 'Is there a Modern Age Coders centre in Bromley?', a: 'No. There is no Bromley centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Bromley cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Bromley cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

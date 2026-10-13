@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Shropshire, fr
 canonical: https://learn.modernagecoders.com/coding-classes-in-shropshire
 source: src/pages/coding-classes-in-shropshire.html
 ---
-> Shropshire as a county is two unitary councils, Shropshire and Telford and Wrekin, and together they had 509,147 residents at the 2021 Census, our sum of the two published counts. Telford is the largest town, then Shrewsbury, with Oswestry, Newport, Bridgnorth and Market Drayton well behind. We teach live over video from India, and a learner's class is decided by what they can already do, never simply by age. Learners from 6 to 67 join groups of five to ten or have one-to-one lessons, in coding, Python, AI and maths. The Shropshire project starts with Charles Darwin, who was born in Shrewsbury. The first lesson is free; continuing is USD 100 a month in a group or USD 150 a month one-to-one.
+> Shropshire as a county is two unitary councils, Shropshire and Telford and Wrekin, and together they had 509,147 residents at the 2021 Census, our sum of the two published counts. Telford is the largest town, then Shrewsbury, with Oswestry, Newport, Bridgnorth and Market Drayton well behind. We teach live over video from India, and a learner's class is decided by what they can already do, never simply by age. Learners from 6 to 67 join groups of fifteen to twenty or have one-to-one lessons, in coding, Python, AI and maths. The Shropshire project starts with Charles Darwin, who was born in Shrewsbury. The first lesson is free; continuing is USD 100 a month in a group or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Shropshire
 
@@ -12,11 +12,11 @@ Shropshire / Live online
 
 # Coding classes in Shropshire
 
-**What are the best coding classes in Shropshire?** Shropshire as a county is two unitary councils, Shropshire and Telford and Wrekin, and together they had 509,147 residents at the 2021 Census, our sum of the two published counts. Telford is the largest town, then Shrewsbury, with Oswestry, Newport, Bridgnorth and Market Drayton well behind. We teach live over video from India, and a learner's class is decided by what they can already do, never simply by age. Learners from 6 to 67 join groups of five to ten or have one-to-one lessons, in coding, Python, AI and maths. The Shropshire project starts with Charles Darwin, who was born in Shrewsbury. The first lesson is free; continuing is USD 100 a month in a group or USD 150 a month one-to-one.
+**What are the best coding classes in Shropshire?** Shropshire as a county is two unitary councils, Shropshire and Telford and Wrekin, and together they had 509,147 residents at the 2021 Census, our sum of the two published counts. Telford is the largest town, then Shrewsbury, with Oswestry, Newport, Bridgnorth and Market Drayton well behind. We teach live over video from India, and a learner's class is decided by what they can already do, never simply by age. Learners from 6 to 67 join groups of fifteen to twenty or have one-to-one lessons, in coding, Python, AI and maths. The Shropshire project starts with Charles Darwin, who was born in Shrewsbury. The first lesson is free; continuing is USD 100 a month in a group or USD 150 a month one-to-one.
 
 Charles Darwin opened his autobiography with the words "I was born at Shrewsbury on February 12th, 1809", and a bronze statue of him, made in 1897, sits in front of the town's library. His idea of natural selection, slight useful variations preserved over generations, became one of the most borrowed ideas in computing: the genetic algorithm, which breeds better answers to a problem instead of calculating them. This page's project builds one in Python, tests it against pure guessing and against an exact method, and then does what any good scientist would do: switches off each ingredient in turn to find out which ones actually matter.
 
-Facts last verified 26 September 2026. Teaching is online; no Shropshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Shropshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Shropshire learners start
 
@@ -143,7 +143,7 @@ Shropshire is large and rural, and for many families a weekly class in Telford o
 - **From your own home** A farmhouse near Clun, a terrace in Oswestry, a new estate in Telford. Learner and teacher share one screen, and the learner types.
 - **The school system you know** Key stages, year groups, GCSEs and A levels mean what they mean in Shropshire schools, and lessons are in English.
 - **A free lesson to begin** A genuine lesson, then an honest recommendation. We ask for no card details.
-- **Classmates at your stage** Five to ten learners at one level, from Shropshire and many other places.
+- **Classmates at your stage** Fifteen to twenty learners at one level, from Shropshire and many other places.
 - **Holidays when you need them** Most learners do two lessons a week and pause for their school's own holidays.
 - **Booked in UK time** Your slot is set in UK time and stays put through the clock changes; the teacher, on India time some hours ahead, moves instead.
 
@@ -154,7 +154,7 @@ Shropshire is large and rural, and for many families a weekly class in Telford o
 Market Drayton or Albrighton, the fee is the same, as it is in every country we teach other than India.
 
 - First class: USD 0. One whole lesson of genuine work, then advice on level and course.
-- Group tuition: USD 100 a month. Around eight lessons a month with five to ten learners at one level.
+- Group tuition: USD 100 a month. Around eight lessons a month with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Around eight lessons a month with the teacher to themselves.
 
 Our prices are in US dollars rather than pounds. Billing begins only once the free lesson has produced an agreed course and a regular weekly time. Pauses, missed lessons and a switch between group and private work are all set out on the pricing page.

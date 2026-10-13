@@ -150,7 +150,7 @@ The ranking above is global, because every option on it is online. For country d
 
 Do you also run coding classes for adults?
 
-Yes. The same live format, in batches of 5 to 10 adults or 1-on-1, in the evening and at the weekend, for ages 18 to 67: career changers, working professionals, returners, parents learning alongside a child and later-life learners. The [coding classes for adults](/coding-classes-for-adults) page has the paths, the timetable and the fee.
+Yes. The same live format, in batches of 15 to 20 adults or 1-on-1, in the evening and at the weekend, for ages 18 to 67: career changers, working professionals, returners, parents learning alongside a child and later-life learners. The [coding classes for adults](/coding-classes-for-adults) page has the paths, the timetable and the fee.
 
 [What kids coding classes cost](/coding-classes-for-kids-cost)[vs Juni Learning](/modern-age-coders-vs-juni-learning)[vs Outschool](/modern-age-coders-vs-outschool)[vs Tynker](/modern-age-coders-vs-tynker)[vs Codingal](/modern-age-coders-vs-codingal)
 

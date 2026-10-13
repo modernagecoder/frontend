@@ -181,7 +181,7 @@ A side-by-side reality check against generic coaching centres near Darga Road an
 | Feature | Local Coaching / EdTech Giants | Modern Age Coders |
 | --- | --- | --- |
 | **Curriculum Sync** | Generic CBSE syllabus, no school-specific pacing | Precisely mapped to **MBWA's chapter schedule** |
-| **Batch Size** | 30 to 100+ students per batch | Ultra-small **5-8 students max** |
+| **Batch Size** | 30 to 100+ students per batch | Ultra-small **15-20 students max** |
 | **Teaching Method** | Rote learning, formula memorization | Visual logic, derivation-first, project-based |
 | **Doubt Clearing** | Limited to class hours only | ✔ Direct WhatsApp access to mentor |
 | **Progress Tracking** | Annual report cards, no real insight | Monthly parent-mentor strategy calls |
@@ -194,7 +194,7 @@ No hidden fees. No lock-in contracts. Subscribe to exactly what your child needs
 
 ### Group Batch
 
-Max 5-8 students. High interaction.
+Max 20 students. High interaction.
 
 ₹1,499/ month
 

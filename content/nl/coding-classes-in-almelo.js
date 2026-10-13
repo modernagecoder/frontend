@@ -173,7 +173,7 @@ module.exports = {
       { h3: 'At home, wherever home is', p: 'A learner in Bornerbroek and a learner in the Hofkamp join at the same minute from their own homes. No evening drive into town and no wait at a door afterwards.' },
       { h3: 'School words stay in Dutch', p: 'Groep, brugklas, vmbo, havo, vwo and the profielkeuze are kept as Twente schools write them, while the explanation around them is in English.' },
       { h3: 'A proper first lesson', p: 'The free lesson is a real one on a real task. At the end the teacher suggests a level, a course and a weekly time, and asks for no payment details.' },
-      { h3: 'A group at one stage', p: 'Five to ten learners who have reached the same point. Almelo has 10,821 residents under fifteen, and five who match on subject, level and hour are unusual in one town, so a group may bring in learners from other countries.' },
+      { h3: 'A group at one stage', p: 'Fifteen to twenty learners who have reached the same point. Almelo has 10,821 residents under fifteen, and five who match on subject, level and hour are unusual in one town, so a group may bring in learners from other countries.' },
       { h3: 'Regio Noord breaks', p: 'Two lessons a week, about eight each month, at a fixed time, stopping for the regio Noord school holidays that Overijssel follows.' },
       { h3: 'Teachers a few hours ahead', p: 'The teachers are in India, three and a half hours ahead of Almelo in summer and four and a half in winter, so late-afternoon, evening and weekend-morning lessons all fit.' }
     ],
@@ -184,7 +184,7 @@ module.exports = {
     h2: 'What Almelo families pay',
     intro: 'All the prices, before anything is booked.',
     first: 'One real lesson on a real task, ending with a level and a course that suits it.',
-    group: 'A month of lessons, usually eight, in a group of five to ten at one level.',
+    group: 'A month of lessons, usually eight, in a group of fifteen to twenty at one level.',
     private: 'A month of lessons, usually eight, taught to one learner alone.',
     closer: 'The fee is set in dollars and is the same for every country, with no euro list to weigh against it, so a family in Aadorp pays exactly what a family in De Riet pays. Nothing is charged until the free lesson has fixed a course and a time, and payment is then arranged through WhatsApp. The pricing page explains pauses, format changes and missed lessons.'
   },
@@ -209,7 +209,7 @@ module.exports = {
       { q: 'How many schools are there in Almelo?', a: 'The statistics count 29 primary establishments teaching 6,490 pupils and 12 secondary establishments teaching 5,802, together with 6,964 MBO, 1,730 higher professional and 350 university students at institutions in the municipality. No school is rated on this page.' },
       { q: 'Which language are the lessons in, and at what times?', a: 'English, with Dutch school terms such as brugklas, havo and vwo left as they are. The teachers work from India, three and a half hours ahead of Almelo in summer and four and a half in winter, so late-afternoon, evening and weekend times are easy to arrange. The time is agreed in the free lesson, and lessons pause for the regio Noord holidays.' },
       { q: 'Is there a Modern Age Coders classroom in Almelo?', a: 'No, and none is claimed here or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Almelo coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Almelo coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

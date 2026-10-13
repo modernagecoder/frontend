@@ -1,10 +1,10 @@
 ---
 title: "Coding Classes in Doha | Live Online Python & AI for All Ages"
-description: "Live online coding classes in Doha for kids, teens and adults. Batches of 5 to 8, evening AST slots, real projects, taught in English. Free demo class first."
+description: "Live online coding classes in Doha for kids, teens and adults. Batches of 15 to 20, evening AST slots, real projects, taught in English. Free demo class first."
 canonical: https://learn.modernagecoders.com/coding-classes-in-doha
 source: src/pages/coding-classes-in-doha.html
 ---
-> Live online coding classes in Doha for kids, teens and adults. Batches of 5 to 8, evening AST slots, real projects, taught in English. Free demo class first.
+> Live online coding classes in Doha for kids, teens and adults. Batches of 15 to 20, evening AST slots, real projects, taught in English. Free demo class first.
 
 Enrol by age
 
@@ -72,7 +72,7 @@ Most of our Qatar students live in and around Doha, and the city shapes how they
 
 Doha also happens to be a city that takes study seriously. Its western districts hold Education City, where campuses of several foreign universities have taught side by side for two decades, computer science among the subjects. A child here grows up in sight of the idea that rigorous technical education is an ordinary local fact, not something that happens abroad. We think a weekly coding class is the right size of response to that atmosphere: not a boot camp, not an app, just steady practice with a teacher who checks the work.
 
-What school introduces once or twice a term, a weekly class turns into a habit. Programming is learned the way an instrument is learned, through repetition with correction, and forty school minutes shared among thirty children cannot supply that. Five to eight children with one teacher, every week, can.
+What school introduces once or twice a term, a weekly class turns into a habit. Programming is learned the way an instrument is learned, through repetition with correction, and forty school minutes shared among thirty children cannot supply that. Fifteen to twenty children with one teacher, every week, can.
 
 ### Every Doha curriculum, one class
 
@@ -222,7 +222,7 @@ Group classes
 
 $100 per month
 
-- Five to eight students per teacher
+- Fifteen to twenty students per teacher
 - A fixed weekly evening hour, AST
 - Projects, homework and a certificate
 - The demo hour costs nothing

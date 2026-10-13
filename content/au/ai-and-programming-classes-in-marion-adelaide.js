@@ -288,7 +288,7 @@ module.exports = {
       { h3: 'Every step visible', p: 'Each prompt and each intermediate result is reviewed together.' },
       { h3: 'SA term rhythm', p: 'Lessons follow South Australian school terms and holidays.' },
       { h3: 'Free trial lesson', p: 'A full first class with no charge, then advice in writing.' },
-      { h3: 'Level-matched classes', p: 'Five to ten learners at a similar stage, or one to one.' },
+      { h3: 'Level-matched classes', p: 'Fifteen to twenty learners at a similar stage, or one to one.' },
       { h3: 'Twice each week', p: 'Two set lessons weekly, roughly eight a month.' },
       { h3: 'India time', p: 'Teachers are in India, so a 4pm Marion lesson is 11am India time in summer and noon after early April.' }
     ],
@@ -301,7 +301,7 @@ module.exports = {
     h2: 'Marion class fees',
     intro: 'One set of three prices.',
     first: 'The first lesson is free and ends with a recommended course.',
-    group: 'Group lessons: about eight a month with five to ten learners.',
+    group: 'Group lessons: about eight a month with fifteen to twenty learners.',
     private: 'Private lessons: about eight a month with one teacher.',
     closer: 'Marion families pay in US dollars, after the trial and once course and time are fixed. The pricing page covers holidays and missed lessons.'
   },
@@ -343,12 +343,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Marion learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Will Marion group classes include Copilot Studio?', a: 'No. Copilot Studio is taught one to one only; group learners build agents in Python.' }

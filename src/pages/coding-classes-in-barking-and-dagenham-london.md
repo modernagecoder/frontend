@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Barking and D
 canonical: https://learn.modernagecoders.com/coding-classes-in-barking-and-dagenham-london
 source: src/pages/coding-classes-in-barking-and-dagenham-london.html
 ---
-> Barking and Dagenham is the east London borough of Barking, Dagenham, Becontree, Chadwell Heath, Rush Green, Marks Gate and Barking Riverside, with 218,869 residents at the 2021 Census, a larger share of them under 18 than in any other London borough. Classes worth joining teach a learner that the way you summarise data can change the answer, and this page shows it with the Census itself: by median age the borough is only sixth youngest in London, but by share of children it comes first. We teach live over video from India, for learners aged 6 to 67, either alone with a teacher or in a class of five to ten at one level. There is no fee for the first lesson; after that it is USD 100 a month for a class place or USD 150 a month one to one.
+> Barking and Dagenham is the east London borough of Barking, Dagenham, Becontree, Chadwell Heath, Rush Green, Marks Gate and Barking Riverside, with 218,869 residents at the 2021 Census, a larger share of them under 18 than in any other London borough. Classes worth joining teach a learner that the way you summarise data can change the answer, and this page shows it with the Census itself: by median age the borough is only sixth youngest in London, but by share of children it comes first. We teach live over video from India, for learners aged 6 to 67, either alone with a teacher or in a class of fifteen to twenty at one level. There is no fee for the first lesson; after that it is USD 100 a month for a class place or USD 150 a month one to one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Barking and Dagenham
 
@@ -12,11 +12,11 @@ London Borough of Barking and Dagenham / Live online
 
 # Coding classes in Barking and Dagenham
 
-**What are the best coding classes in Barking and Dagenham?** Barking and Dagenham is the east London borough of Barking, Dagenham, Becontree, Chadwell Heath, Rush Green, Marks Gate and Barking Riverside, with 218,869 residents at the 2021 Census, a larger share of them under 18 than in any other London borough. Classes worth joining teach a learner that the way you summarise data can change the answer, and this page shows it with the Census itself: by median age the borough is only sixth youngest in London, but by share of children it comes first. We teach live over video from India, for learners aged 6 to 67, either alone with a teacher or in a class of five to ten at one level. There is no fee for the first lesson; after that it is USD 100 a month for a class place or USD 150 a month one to one.
+**What are the best coding classes in Barking and Dagenham?** Barking and Dagenham is the east London borough of Barking, Dagenham, Becontree, Chadwell Heath, Rush Green, Marks Gate and Barking Riverside, with 218,869 residents at the 2021 Census, a larger share of them under 18 than in any other London borough. Classes worth joining teach a learner that the way you summarise data can change the answer, and this page shows it with the Census itself: by median age the borough is only sixth youngest in London, but by share of children it comes first. We teach live over video from India, for learners aged 6 to 67, either alone with a teacher or in a class of fifteen to twenty at one level. There is no fee for the first lesson; after that it is USD 100 a month for a class place or USD 150 a month one to one.
 
 At the 2021 Census, 29.0% of Barking and Dagenham's residents were under 18, more than in any of London's 32 boroughs or the City. So is it London's youngest borough? It depends how you ask. Rank the 33 areas by median age, the age of the person exactly in the middle, and Barking and Dagenham comes sixth, behind Tower Hamlets, Newham, Hackney, Islington and Lambeth. Our learners download the Census age tables for every London area and work out both measures themselves, including the median from grouped five-year age bands, a classic technique that turns out to be surprisingly accurate. On the way they meet a small puzzle: the borough's single-year age table adds up to 218,863, six fewer than the published total.
 
-Facts last verified 25 September 2026. Teaching is online; no Barking and Dagenham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Barking and Dagenham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses to start with in Barking and Dagenham
 
@@ -140,7 +140,7 @@ A learner at Barking Riverside and another at Marks Gate can share a class witho
 
 ### Right-sized classes
 
-Each group has five to ten learners at the same stage, so every learner is working at a pace that suits them.
+Each group has fifteen to twenty learners at the same stage, so every learner is working at a pace that suits them.
 
 **Barking and Dagenham in London** Barking and Dagenham is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers them all and the City, linking each page as it goes up, including [Havering](/coding-classes-in-havering-london) to the east and [Newham](/coding-classes-in-newham-london) to the west.
 
@@ -170,7 +170,7 @@ In any part of the borough, a class starts as soon as the call connects.
 - **Your own space** A laptop or desktop, a pair of headphones and a broadband connection that handles video are enough.
 - **England's Key Stages** We talk about progress in the Key Stages used by English schools, from the first years of primary up to sixth form, and name GCSE or A level where they apply. Lessons are in English.
 - **Free to try** Lesson one costs nothing and teaches properly; by its end the teacher can recommend a level and course. We never ask for card details at that point.
-- **Five to ten per class** Classes bring together learners at the same stage from across the UK and overseas, so we can usually offer a convenient time.
+- **Fifteen to twenty per class** Classes bring together learners at the same stage from across the UK and overseas, so we can usually offer a convenient time.
 - **Two evenings** Most classes meet two evenings a week and take agreed breaks for half terms, holidays and exams.
 - **Times in UK time** Teachers are based in India, and every time we send already matches the clock in Barking.
 
@@ -181,7 +181,7 @@ In any part of the borough, a class starts as soon as the call connects.
 A free first lesson, then one monthly fee across the whole borough.
 
 - First class: USD 0. A complete lesson with a teacher, free, ending with a recommended level, course and time.
-- Group tuition: USD 100 a month. Roughly eight live lessons a month in a class of five to ten at one stage.
+- Group tuition: USD 100 a month. Roughly eight live lessons a month in a class of fifteen to twenty at one stage.
 - Private tuition: USD 150 a month. Roughly eight live lessons a month with one teacher for one learner.
 
 Families here pay in US dollars, as everyone outside India does, and the site lists no pound prices. We take nothing until the free lesson has happened and you have chosen a course and a weekly slot. How pauses, missed lessons and swaps between group and private teaching work is set out on the pricing page.
@@ -222,11 +222,11 @@ No. There is no Barking and Dagenham centre and no premises anywhere in the UK, 
 
 ### What do coding classes in Barking and Dagenham cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## Across the capital and the country
 

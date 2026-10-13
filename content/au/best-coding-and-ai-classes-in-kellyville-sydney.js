@@ -331,7 +331,7 @@ module.exports = {
       { h3: 'At home', p: 'A laptop or desktop with sound is enough. Younger children usually have a parent nearby for the first lesson.' },
       { h3: 'NSW calendar', p: 'Plans follow NSW stages and pause for the state holidays, so the teaching rhythm matches the school year.' },
       { h3: 'Free first class', p: 'The trial is a real lesson, after which the teacher recommends a course and time, with nothing to pay.' },
-      { h3: 'Small groups', p: 'Five to ten learners at a matched level, drawn from many places, or one to one if preferred.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners at a matched level, drawn from many places, or one to one if preferred.' },
       { h3: 'Twice weekly', p: 'A fixed slot on two days a week, around eight lessons a month, with breaks agreed in advance.' },
       {
         h3: 'India time',
@@ -347,7 +347,7 @@ module.exports = {
     h2: 'Kellyville class fees',
     intro: 'Three numbers cover the whole price.',
     first: 'The opening lesson is free and finishes with a recommendation.',
-    group: 'A month of group lessons, usually eight, with five to ten learners.',
+    group: 'A month of group lessons, usually eight, with fifteen to twenty learners.',
     private: 'About eight lessons a month, one teacher with one learner.',
     closer: 'Families outside India pay in US dollars, one price whatever the suburb. Payment only starts once a course and time are agreed after the trial; holidays and missed lessons are explained on the pricing page.'
   },
@@ -393,12 +393,12 @@ module.exports = {
       },
       {
         q: 'What do Kellyville coding classes cost?',
-        a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one.',
+        a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one.',
         boiler: true
       },
       {
         q: 'How big are the groups?',
-        a: 'Five to ten learners, matched by level and pace. If no group fits the learner\'s time, one-to-one lessons are available.',
+        a: 'Fifteen to twenty learners, matched by level and pace. If no group fits the learner\'s time, one-to-one lessons are available.',
         boiler: true
       }
     ]

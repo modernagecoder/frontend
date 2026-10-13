@@ -306,7 +306,7 @@ module.exports = {
       { h3: 'Shared code and plots', p: 'Teacher and learner write and run code together and talk through each chart.' },
       { h3: 'Term-based plans', p: 'Lessons follow Victorian school terms with holiday breaks.' },
       { h3: 'A genuine trial', p: 'The free first class teaches real content and ends with a clear suggestion.' },
-      { h3: 'Five to ten per group', p: 'Groups formed by level and pace, sometimes across states.' },
+      { h3: 'Fifteen to twenty per group', p: 'Groups formed by level and pace, sometimes across states.' },
       { h3: 'Two lessons a week', p: 'Fixed times, about eight lessons a month, with planned breaks.' },
       { h3: 'Teachers in India', p: 'A 6:30pm Cranbourne lesson in daylight saving starts at 1pm India time, and at 2pm there after April.' }
     ],
@@ -319,7 +319,7 @@ module.exports = {
     h2: 'Cranbourne class fees',
     intro: 'Three prices, nothing hidden.',
     first: 'The first lesson is free and finishes with a straight recommendation.',
-    group: 'One month of group lessons, typically eight, with five to ten learners at a similar level.',
+    group: 'One month of group lessons, typically eight, with fifteen to twenty learners at a similar level.',
     private: 'Around eight lessons a month, one teacher and one learner.',
     closer: 'Learners abroad pay in US dollars, and payment comes only after the trial, once a course and regular time suit the family. Holiday pauses, absences and moving to private lessons are laid out on the pricing page.'
   },
@@ -364,7 +364,7 @@ module.exports = {
       },
       {
         q: 'What do classes cost for Cranbourne learners?',
-        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.',
+        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.',
         boiler: true
       },
       {

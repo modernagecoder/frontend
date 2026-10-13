@@ -217,7 +217,7 @@ module.exports = {
     cells: [
       { h3: 'One strategy at a time', p: 'Each lesson builds a single method until it is reliable.' },
       { h3: 'Explain the correction', p: 'Students say what they changed and how they undid it.' },
-      { h3: 'Five to ten per group', p: 'Grouped by skill, so the pace suits everyone.' },
+      { h3: 'Fifteen to twenty per group', p: 'Grouped by skill, so the pace suits everyone.' },
       { h3: 'Private option', p: 'One-to-one lessons for a particular gap or a confidence rebuild.' },
       { h3: 'Short parent updates', p: 'What was covered, and one question to try at the dinner table.' },
       { h3: 'No level promised', p: 'We teach the mathematics; NAPLAN reports what the child shows on the day.' }
@@ -232,7 +232,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Australian families are charged monthly in US dollars, our rate for every country outside India. Nothing is paid in advance, and you can stop at any month end.',
     free: ['A full lesson with a teacher', 'Advice on where your child stands', 'No card required'],
-    group: ['Five to ten students at the same stage', 'One regular teacher', 'Feedback on every task', 'A certificate on completion'],
+    group: ['Fifteen to twenty students at the same stage', 'One regular teacher', 'Feedback on every task', 'A certificate on completion'],
     one: ['A teacher for one student', 'Work on the exact gaps that matter', 'Times that suit your family']
   },
 

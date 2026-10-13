@@ -16,7 +16,7 @@ Clondalkin, Dublin 22 / Live online
 
 South Dublin County Council gives the height of the Round Tower in Clondalkin village as 27.5 metres. Suppose a learner wants to check that with nothing but a phone's angle app and a measured distance. The trigonometry is one line, but the answer is only as good as the measurements, and a single degree of error in the angle can shift the result by almost a metre or by nearly three, depending on where the learner stands. This page turns that into a small coding project: build the calculation, add a deliberate error, and let the program find the spot where the tower can be measured most reliably.
 
-Facts last verified 20 September 2026. Teaching is online; no Clondalkin branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Clondalkin branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses for Clondalkin learners
 
@@ -150,7 +150,7 @@ Calculating a height is one line. Knowing how wrong it could be is the skill. Th
 The practical arrangements.
 
 - **A live teacher** Each lesson is led live, with the teacher watching and helping as every learner writes code.
-- **Same-stage learners** Groups of five to ten at one stage, from Dublin 22, elsewhere in Ireland and abroad.
+- **Same-stage learners** Groups of fifteen to twenty at one stage, from Dublin 22, elsewhere in Ireland and abroad.
 - **Two regular slots** About eight lessons a month, on the same two weekly slots agreed at the outset.
 - **Term planning** School holidays, mid-term breaks and exam weeks are accounted for in advance.
 - **Setup at home** Whatever laptop or desktop is at home will usually do, with a mic and something to hear through, on broadband that copes with video.
@@ -163,7 +163,7 @@ The practical arrangements.
 Here is everything.
 
 - First class: USD 0. A free first lesson that includes a level check.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one stage, around eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one stage, around eight live lessons.
 - Private tuition: USD 150 a month. A month of private lessons at the same pace.
 
 One monthly fee in US dollars applies to every family outside India. The free lesson involves no commitment, the first payment is due when the course begins, and the pricing page explains holidays, missed lessons and moving between group and private lessons.
@@ -200,7 +200,7 @@ Only if their level matches. Groups are formed by level, so classmates may be lo
 
 ### What do coding classes in Clondalkin cost?
 
-The first lesson is free. A group place is then USD 100 a month for around eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.
+The first lesson is free. A group place is then USD 100 a month for around eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.
 
 ### How big are groups?
 

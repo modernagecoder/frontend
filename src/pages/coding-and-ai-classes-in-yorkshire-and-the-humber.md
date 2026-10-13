@@ -4,7 +4,7 @@ description: "Live online coding, AI, Python and maths classes across Yorkshire 
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-yorkshire-and-the-humber
 source: src/pages/coding-and-ai-classes-in-yorkshire-and-the-humber.html
 ---
-> Yorkshire and The Humber had 5,480,774 usual residents at the 2021 census, across 21 local authorities. Leeds is its largest built-up area, followed by Bradford, Kingston upon Hull, York and Huddersfield, with Wakefield, Halifax, Doncaster, Grimsby, Scunthorpe, Harrogate, Rotherham and Barnsley among the other large towns. We teach every class live by video, with teachers in India. Learners of 6 to 67 take coding, AI, Python and maths, privately or in groups of five to ten sorted by level. One free lesson picks the starting course. This page indexes our Yorkshire and Humber pages and adds a temperature project. Those who continue pay USD 100 per month for a class place, or USD 150 per month to learn one-to-one.
+> Yorkshire and The Humber had 5,480,774 usual residents at the 2021 census, across 21 local authorities. Leeds is its largest built-up area, followed by Bradford, Kingston upon Hull, York and Huddersfield, with Wakefield, Halifax, Doncaster, Grimsby, Scunthorpe, Harrogate, Rotherham and Barnsley among the other large towns. We teach every class live by video, with teachers in India. Learners of 6 to 67 take coding, AI, Python and maths, privately or in groups of fifteen to twenty sorted by level. One free lesson picks the starting course. This page indexes our Yorkshire and Humber pages and adds a temperature project. Those who continue pay USD 100 per month for a class place, or USD 150 per month to learn one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [England](/coding-and-ai-classes-in-england) / Yorkshire and the Humber
 
@@ -12,11 +12,11 @@ Yorkshire and the Humber / Live online
 
 # Coding and AI classes in Yorkshire and the Humber
 
-**What are the best coding and AI classes in Yorkshire and the Humber?** Yorkshire and The Humber had 5,480,774 usual residents at the 2021 census, across 21 local authorities. Leeds is its largest built-up area, followed by Bradford, Kingston upon Hull, York and Huddersfield, with Wakefield, Halifax, Doncaster, Grimsby, Scunthorpe, Harrogate, Rotherham and Barnsley among the other large towns. We teach every class live by video, with teachers in India. Learners of 6 to 67 take coding, AI, Python and maths, privately or in groups of five to ten sorted by level. One free lesson picks the starting course. This page indexes our Yorkshire and Humber pages and adds a temperature project. Those who continue pay USD 100 per month for a class place, or USD 150 per month to learn one-to-one.
+**What are the best coding and AI classes in Yorkshire and the Humber?** Yorkshire and The Humber had 5,480,774 usual residents at the 2021 census, across 21 local authorities. Leeds is its largest built-up area, followed by Bradford, Kingston upon Hull, York and Huddersfield, with Wakefield, Halifax, Doncaster, Grimsby, Scunthorpe, Harrogate, Rotherham and Barnsley among the other large towns. We teach every class live by video, with teachers in India. Learners of 6 to 67 take coding, AI, Python and maths, privately or in groups of fifteen to twenty sorted by level. One free lesson picks the starting course. This page indexes our Yorkshire and Humber pages and adds a temperature project. Those who continue pay USD 100 per month for a class place, or USD 150 per month to learn one-to-one.
 
 Three Met Office stations in the region publish long monthly records: Whitby, Bradford and Sheffield. Over 2000 to 2020 our sums make Sheffield the warmest at 10.44 degrees, then Whitby at 10.06, then Bradford at 9.86. So is the coast warmer than West Yorkshire? Not so fast. Bradford's station stands 134 metres above sea level and Whitby's only 41, and air generally gets cooler as you climb, by roughly 0.65 degrees for every 100 metres. Before comparing places, a fair analyst removes the effect of height, and when you do, the ranking changes and a different pattern appears. This page's project makes that adjustment in Python and shows how an unadjusted comparison can mislead.
 
-Facts last verified 26 September 2026. Teaching is online; no Yorkshire and the Humber branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Yorkshire and the Humber branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Starting courses in Yorkshire and the Humber
 
@@ -137,7 +137,7 @@ Town, village or city, the classroom is a link.
 - **Students type** Learners write their own code while the tutor watches the shared screen and asks a well-timed question.
 - **Placed by year group** We start a Halifax Year 5 or a Dewsbury Year 11 at the level their school year suggests, then adjust after the trial; exams are named as their board names them.
 - **Free trial** A whole first lesson for nothing, then a recommendation.
-- **Level first** Each class gathers five to ten learners who are at the same point, wherever in Britain they live.
+- **Level first** Each class gathers fifteen to twenty learners who are at the same point, wherever in Britain they live.
 - **Term time** Twice a week in term; no lessons in holidays.
 - **Fixed UK hour** Clock changes leave your lesson time alone; our teachers adapt.
 

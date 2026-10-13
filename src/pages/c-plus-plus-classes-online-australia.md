@@ -256,7 +256,7 @@ Teaching happens from India during the hours that line up with Australian aftern
 Outside India, C++ lessons are billed monthly in US dollars. You pay nothing to sign up and can leave at the end of any month.
 
 - Free first class: USD 0. A compiler set up and a first program run. Advice on the right course. No card required.
-- Group batch: USD 100 a month. Five to ten learners per class. Code review of each project. A regular teacher. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners per class. Code review of each project. A regular teacher. Stop after any month.
 - One to one: USD 150 a month. Lessons around one learner's goal. Contest, uni or project focus. Times around school or work.
 
 ## Questions about online C++ classes in Australia

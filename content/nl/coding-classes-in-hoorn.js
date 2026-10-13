@@ -180,7 +180,7 @@ module.exports = {
       { h3: 'From home in any of the three', p: 'A learner in Blokker and a learner by the harbour open the same class at the same minute, each at home, with no ride through West-Friesland in the evening.' },
       { h3: 'Dutch school labels as they are', p: 'Brugklas, groep, vmbo, havo, vwo and the profielkeuze keep their Dutch names, as Hoorn schools use them, and everything around them is taught in English.' },
       { h3: 'A first lesson that is a lesson', p: 'The free session works through a real task. Afterwards the teacher proposes a level, a course and a weekly time; no card is asked for and nothing is owed.' },
-      { h3: 'A group at the right stage', p: 'Five to ten learners at one point in one subject. The municipality has 11,894 residents under fifteen, but a matching five, free at the same hour, is rare, so a group may include learners from other countries.' },
+      { h3: 'A group at the right stage', p: 'Fifteen to twenty learners at one point in one subject. The municipality has 11,894 residents under fifteen, but a matching five, free at the same hour, is rare, so a group may include learners from other countries.' },
       { h3: 'Regio Noord weeks off', p: 'Two classes a week, about eight a month, in one fixed slot, pausing for the regio Noord holidays that Noord-Holland schools keep.' },
       { h3: 'Clocks three or four hours apart', p: 'The teachers work from India, three and a half hours ahead of Hoorn in summer and four and a half in winter, so after-school, evening and weekend-morning slots are all practical.' }
     ],
@@ -191,7 +191,7 @@ module.exports = {
     h2: 'What Hoorn families pay',
     intro: 'Three prices, set out in full.',
     first: 'A real lesson on a real task, ending with a level and the course that fits.',
-    group: 'Per month, normally eight lessons, five to ten learners at the same level.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners at the same level.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'The fee is a single dollar amount for every country, with no euro list alongside it, so a household in Zwaag pays what a household in the Binnenstad pays. Nothing is charged until the free lesson has fixed a course and a slot, and payment is arranged on WhatsApp after that. The pricing page explains pauses, a change of format and missed lessons.'
   },
@@ -216,7 +216,7 @@ module.exports = {
       { q: 'How many schools does Hoorn have?', a: 'The statistics count 27 primary establishments teaching 6,845 pupils and 9 secondary establishments teaching 7,499, with 3,138 MBO students at institutions in the municipality. No school is rated here.' },
       { q: 'Are the classes in English, and when are they held?', a: 'Yes, in English, with Dutch school terms such as brugklas, havo and vwo left untranslated. The teachers are in India, three and a half hours ahead of Hoorn in summer and four and a half in winter, so late-afternoon, evening and weekend times are straightforward. The slot is agreed in the free lesson, and the regio Noord holidays are kept.' },
       { q: 'Is there a Modern Age Coders classroom in Hoorn?', a: 'No, and none is claimed here or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Hoorn coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Hoorn coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

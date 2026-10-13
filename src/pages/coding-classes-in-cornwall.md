@@ -4,7 +4,7 @@ description: "Live online coding, Python, algorithms and maths classes across Co
 canonical: https://learn.modernagecoders.com/coding-classes-in-cornwall
 source: src/pages/coding-classes-in-cornwall.html
 ---
-> Cornwall and the Isles of Scilly held 572,358 people at the 2021 Census, and not one Cornish town reaches 25,000: Newquay, St Austell, Falmouth and Truro are all around 23,000 to 24,500, followed by Camborne, Bodmin, Redruth, Saltash and Penzance. It is a county of small towns a long way apart, which is exactly why online classes suit it. Here is how it works. A teacher in India appears live on the screen in front of the learner; the level is set by what the learner can already do, not how old they are; ages 6 to 67 are all welcome; classes are one to one or small groups of five to ten; and topics range from first programs and Python to algorithms, AI and maths. The Cornwall project is the Morse code signal Poldhu sent in 1901. The first lesson is on us. If you continue, it is USD 100 a month for a place in a group or USD 150 a month for lessons on your own.
+> Cornwall and the Isles of Scilly held 572,358 people at the 2021 Census, and not one Cornish town reaches 25,000: Newquay, St Austell, Falmouth and Truro are all around 23,000 to 24,500, followed by Camborne, Bodmin, Redruth, Saltash and Penzance. It is a county of small towns a long way apart, which is exactly why online classes suit it. Here is how it works. A teacher in India appears live on the screen in front of the learner; the level is set by what the learner can already do, not how old they are; ages 6 to 67 are all welcome; classes are one to one or groups of fifteen to twenty; and topics range from first programs and Python to algorithms, AI and maths. The Cornwall project is the Morse code signal Poldhu sent in 1901. The first lesson is on us. If you continue, it is USD 100 a month for a place in a group or USD 150 a month for lessons on your own.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Cornwall
 
@@ -12,11 +12,11 @@ Duchy and county of Cornwall / Live online
 
 # Coding classes in Cornwall
 
-**What are the best coding classes in Cornwall?** Cornwall and the Isles of Scilly held 572,358 people at the 2021 Census, and not one Cornish town reaches 25,000: Newquay, St Austell, Falmouth and Truro are all around 23,000 to 24,500, followed by Camborne, Bodmin, Redruth, Saltash and Penzance. It is a county of small towns a long way apart, which is exactly why online classes suit it. Here is how it works. A teacher in India appears live on the screen in front of the learner; the level is set by what the learner can already do, not how old they are; ages 6 to 67 are all welcome; classes are one to one or small groups of five to ten; and topics range from first programs and Python to algorithms, AI and maths. The Cornwall project is the Morse code signal Poldhu sent in 1901. The first lesson is on us. If you continue, it is USD 100 a month for a place in a group or USD 150 a month for lessons on your own.
+**What are the best coding classes in Cornwall?** Cornwall and the Isles of Scilly held 572,358 people at the 2021 Census, and not one Cornish town reaches 25,000: Newquay, St Austell, Falmouth and Truro are all around 23,000 to 24,500, followed by Camborne, Bodmin, Redruth, Saltash and Penzance. It is a county of small towns a long way apart, which is exactly why online classes suit it. Here is how it works. A teacher in India appears live on the screen in front of the learner; the level is set by what the learner can already do, not how old they are; ages 6 to 67 are all welcome; classes are one to one or groups of fifteen to twenty; and topics range from first programs and Python to algorithms, AI and maths. The Cornwall project is the Morse code signal Poldhu sent in 1901. The first lesson is on us. If you continue, it is USD 100 a month for a place in a group or USD 150 a month for lessons on your own.
 
 On 12 December 1901, at Signal Hill in Newfoundland, Marconi heard three faint clicks from Cornwall: dot, dot, dot, the Morse letter S, sent from Poldhu on the Lizard. The Marconi Centre's history explains why S was chosen: the switches at Poldhu could not take the wear of long dashes, and static tended to smear dots and dashes together, so three dots were easiest to recognise. Hidden in that story is something every programmer eventually learns. Morse only works because of the silences. Take away the gaps between letters and a message can be read in thousands, even millions, of ways. This page's project counts them, and in doing so meets one of the most useful ideas in programming: remembering answers you have already worked out.
 
-Facts last verified 26 September 2026. Teaching is online; no Cornwall branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Cornwall branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four ways Cornish learners begin
 
@@ -159,7 +159,7 @@ Cornwall is long and its towns are far apart. An online class treats them all as
 The same prices for every Cornish town, the islands included, and every country except India.
 
 - First class: USD 0. A full lesson of real work, ending with a recommended level and course.
-- Group tuition: USD 100 a month. About eight lessons a month, in a group of five to ten at the same level.
+- Group tuition: USD 100 a month. About eight lessons a month, in a group of fifteen to twenty at the same level.
 - Private tuition: USD 150 a month. About eight lessons a month, one teacher for one learner.
 
 Outside India, prices are always quoted in US dollars, never pounds. No money changes hands until after the free lesson, when the course and a weekly time are agreed; how pauses, missed lessons and moves between group and private places work is explained on the pricing page.

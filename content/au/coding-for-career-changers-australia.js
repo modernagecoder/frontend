@@ -511,7 +511,7 @@ module.exports = {
     "right": {
       "h3": "Group or one to one?",
       "ps": [
-        "Groups of five to ten give you peers at the same stage. One to one suits irregular hours or a specific goal.",
+        "Groups of fifteen to twenty give you peers at the same stage. One to one suits irregular hours or a specific goal.",
         "Many adults start in a group and switch if their week changes."
       ]
     }

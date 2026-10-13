@@ -64,7 +64,7 @@ module.exports = {
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
-  capsule: 'Java is a strict, verbose, extremely well-established language, and it is worth learning for exactly those reasons: it forces you to say what you mean about types and structure. In Irish higher education it usually appears after a first language rather than as one, with Trinity a notable exception in first year and several universities introducing it in second year. We teach it live online, from the first class and object through collections, data structures and testing, to secondary students, college students and working adults. The first class is free, then USD 100 a month in a group of five to ten or USD 150 a month one to one.',
+  capsule: 'Java is a strict, verbose, extremely well-established language, and it is worth learning for exactly those reasons: it forces you to say what you mean about types and structure. In Irish higher education it usually appears after a first language rather than as one, with Trinity a notable exception in first year and several universities introducing it in second year. We teach it live online, from the first class and object through collections, data structures and testing, to secondary students, college students and working adults. The first class is free, then USD 100 a month in a group of fifteen to twenty or USD 150 a month one to one.',
 
   picks: {
     eyebrow: 'Start here',
@@ -221,7 +221,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'You write and compile real Java with a teacher and get a clear view of the right starting rung.' },
-      { h3: 'Groups of five to ten', p: 'Learners at one level, reading each other\'s classes and suggesting better designs.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners at one level, reading each other\'s classes and suggesting better designs.' },
       { h3: 'One to one', p: 'For a deadline, a placement or a particular codebase at work.' },
       { h3: 'Real tooling', p: 'A proper editor, a build tool and version control from early on, as used in any Java job.' },
       { h3: 'Tests from week two', p: 'Java makes automated tests straightforward, so students write them as a habit.' },
@@ -237,7 +237,7 @@ module.exports = {
     h2: 'Java class fees',
     lede: 'One monthly price in US dollars, the same in every country outside India and at every level. Nothing to pay to enrol, and no term or year to sign up for.',
     free: ['Real Java written and compiled', 'An honest view of the right rung', 'No card taken'],
-    group: ['Five to ten learners at one level', 'The same teacher each week', 'Code reviewed weekly', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher each week', 'Code reviewed weekly', 'A certificate at the end'],
     one: ['A teacher to yourself', 'Built around a module or a job', 'Good before a second-year course']
   },
 

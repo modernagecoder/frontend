@@ -180,7 +180,7 @@ Lessons are live on video from India, five and a half hours ahead of the UK in w
 
 - **Reasoning out loud** Students say what they have ruled out and why, which is the habit a team round needs.
 - **Girls-only groups where wanted** We run mixed groups by default and girls-only groups where a family prefers one.
-- **Five to ten students** Enough for a better method to surface, small enough that nobody stays quiet.
+- **Fifteen to twenty students** Enough for a better method to surface, small enough that nobody stays quiet.
 - **Our own puzzles** Written by us. We do not reproduce competition material.
 - **One to one on request** For a student who would rather think aloud without an audience.
 - **No part in the competition** A teacher registers a team. We have no role in the competition and promise nothing about it.
@@ -190,7 +190,7 @@ Lessons are live on video from India, five and a half hours ahead of the UK in w
 The same monthly price in US dollars wherever a family lives outside India. Nothing to join, and you can stop at the end of any month.
 
 - Free first class: USD 0. A full lesson on a real puzzle. A straight read on the level. No card details taken.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher every week. Work talked through together. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher every week. Work talked through together. A certificate at the end.
 - One to one: USD 150 a month. A teacher working with one student. Shaped around what she finds hard. Useful when a group hour will not fit.
 
 ## What parents and teachers ask

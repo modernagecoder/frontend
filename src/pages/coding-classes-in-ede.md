@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Ede for ages 6 to 67,
 canonical: https://learn.modernagecoders.com/coding-classes-in-ede
 source: src/pages/coding-classes-in-ede.html
 ---
-> Coding classes in Ede serve 125,331 people (Statistics Netherlands, 1 January 2026) across ten places on 318 square kilometres of land, of which barely half a square kilometre is water. Its best-known feature, the national park, lies mostly in Ede and partly in Arnhem, and the sources that say so give no split. Any record with one municipality field for that park is therefore either incomplete or wrong, and the choice is a design decision rather than a fact. All ten places are taught by Modern Age Coders over a live connection, in English, to learners anywhere between 6 and 67 years old. The opening lesson carries no charge; the months that follow cost USD 100 in a group of five to ten and USD 150 for private tuition.
+> Coding classes in Ede serve 125,331 people (Statistics Netherlands, 1 January 2026) across ten places on 318 square kilometres of land, of which barely half a square kilometre is water. Its best-known feature, the national park, lies mostly in Ede and partly in Arnhem, and the sources that say so give no split. Any record with one municipality field for that park is therefore either incomplete or wrong, and the choice is a design decision rather than a fact. All ten places are taught by Modern Age Coders over a live connection, in English, to learners anywhere between 6 and 67 years old. The opening lesson carries no charge; the months that follow cost USD 100 in a group of fifteen to twenty and USD 150 for private tuition.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Ede
 
@@ -12,11 +12,11 @@ Ede, Gelderland / Live online
 
 # Coding classes in Ede, where the national park belongs to two municipalities and no source says in what proportion
 
-**What are the best coding classes in Ede?** Coding classes in Ede serve 125,331 people (Statistics Netherlands, 1 January 2026) across ten places on 318 square kilometres of land, of which barely half a square kilometre is water. Its best-known feature, the national park, lies mostly in Ede and partly in Arnhem, and the sources that say so give no split. Any record with one municipality field for that park is therefore either incomplete or wrong, and the choice is a design decision rather than a fact. All ten places are taught by Modern Age Coders over a live connection, in English, to learners anywhere between 6 and 67 years old. The opening lesson carries no charge; the months that follow cost USD 100 in a group of five to ten and USD 150 for private tuition.
+**What are the best coding classes in Ede?** Coding classes in Ede serve 125,331 people (Statistics Netherlands, 1 January 2026) across ten places on 318 square kilometres of land, of which barely half a square kilometre is water. Its best-known feature, the national park, lies mostly in Ede and partly in Arnhem, and the sources that say so give no split. Any record with one municipality field for that park is therefore either incomplete or wrong, and the choice is a design decision rather than a fact. All ten places are taught by Modern Age Coders over a live connection, in English, to learners anywhere between 6 and 67 years old. The opening lesson carries no charge; the months that follow cost USD 100 in a group of fifteen to twenty and USD 150 for private tuition.
 
 Where is the Hoge Veluwe national park? Mostly in Ede and, in the words of its own entry, for a small part in the municipality of Arnhem. Every database that stores a location wants one answer to that question, and the honest answer is two, in a proportion nobody has published. Fill the field with Ede and Arnhem loses a piece of itself; fill it with both and every total that adds up municipalities counts the same heathland twice. A child who has met that once will look at every location column differently.
 
-Facts last verified 8 September 2026. Teaching is online; no Ede branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 8 September 2026. Teaching is online; no Ede branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for ten villages on the edge of the heath
 
@@ -201,14 +201,14 @@ Harskamp to Bennekom crosses most of the municipality, and Otterlo sits at the e
 - **Twice weekly, on the middle calendar** Two lessons a week at one repeating slot, eight in most months. Ede lies in the northern part of Gelderland, which takes its holidays with regio Midden, and weeks away go into the plan before the slot is agreed.
 - **A seasonal offset of three and a half or four and a half hours** Summer time here shortens the distance to the teacher; winter time lengthens it, since nothing on the Indian side ever shifts. Whatever the month, the hours between the school bell and mid-evening line up, and weekends line up completely.
 
-**More children than any other city in this series** 21,832 residents are under fifteen, 17.4 percent, and they are spread across ten separate places with nine secondary establishments between them. A group of five to ten formed on ability rather than on postcode is a different proposition from whatever a village of 2,885 can assemble locally.
+**More children than any other city in this series** 21,832 residents are under fifteen, 17.4 percent, and they are spread across ten separate places with nine secondary establishments between them. A group of fifteen to twenty formed on ability rather than on postcode is a different proposition from whatever a village of 2,885 can assemble locally.
 
 ## The fee, in dollars, in all ten places
 
 Set out here rather than kept for a phone call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 The rate is the same everywhere outside India and it is a dollar figure; no euro list is kept, which is why De Klomp and the town see identical numbers. Nothing is invoiced in advance: a course and a time come first, out of the free lesson, and the payment afterwards goes through WhatsApp. Pauses, plan changes and missed weeks each have their own paragraph on the pricing page.
@@ -249,7 +249,7 @@ No, and none is claimed at the Veluwse Poort, in Bennekom or anywhere in the Net
 
 ### What do Ede coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in an Ede group?
 

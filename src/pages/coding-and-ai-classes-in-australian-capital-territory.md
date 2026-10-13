@@ -16,7 +16,7 @@ Australian Capital Territory / Live online
 
 The ACT Government publishes a record for every public playground it manages, including a shade rating. Rank Canberra's suburbs by the share of playgrounds rated GOOD for shade and the top of the list fills with places that scored 100 percent from a single playground, while Kambah, with 37 rated playgrounds, sits far down. Is one shady playground really better evidence than thirty-seven? Our project says no, and shows learners the fix statisticians use: pretend every suburb has a few extra, average playgrounds before you divide. Two suburbs with four GOOD playgrounds out of five rise to the top, and stay there whichever reasonable number of pretend playgrounds you choose.
 
-Facts last verified 7 October 2026. Teaching is online; no the Australian Capital Territory branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no the Australian Capital Territory branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four starting routes for ACT learners
 
@@ -178,7 +178,7 @@ Canberra is spread across separate town centres. An online lesson means nobody c
 - **Same clocks as Sydney** The ACT follows New South Wales on daylight saving, so lesson times are written in ACT time and shift with it automatically.
 - **Data-literate families** With so many ACT adults holding degrees, parents often want to see the evidence behind a project. Our pages and lessons show it.
 - **A real first lesson** The free lesson is complete, with finished work and a recommendation for level, course and time afterwards. No card is requested.
-- **Groups by level** Five to ten learners at a similar standard, from the ACT, other states and abroad, so most levels have a good time slot.
+- **Groups by level** Fifteen to twenty learners at a similar standard, from the ACT, other states and abroad, so most levels have a good time slot.
 - **Twice a week** Around eight lessons a month at a regular hour, with holidays and exam periods paused by agreement.
 - **India time on our side** Our teachers work on India time, so ACT after-school lessons fall during their working day.
 
@@ -189,7 +189,7 @@ Canberra is spread across separate town centres. An online lesson means nobody c
 One price list for the whole territory.
 
 - First class: USD 0. A complete first lesson, free, finishing with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, in a group of five to ten learners at the same level.
+- Group tuition: USD 100 a month. A month of lessons, usually eight, in a group of fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. The same pattern of roughly eight lessons a month, one teacher and one learner.
 
 Families outside India are billed in US dollars at a single rate, so a household in Gungahlin pays exactly what one in Tuggeranong does. Billing waits until course and lesson time are decided at the trial, and our pricing page sets out what happens with holiday breaks, missed classes and format changes.
@@ -230,7 +230,7 @@ No, and none is claimed. All teaching is live online with no premises in Austral
 
 ### How much are coding lessons in the ACT?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
 
 ### How many learners are in each group?
 

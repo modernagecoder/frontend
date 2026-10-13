@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Powys, from Ne
 canonical: https://learn.modernagecoders.com/coding-classes-in-powys
 source: src/pages/coding-classes-in-powys.html
 ---
-> Powys had 133,169 residents in the 2021 census, spread across small towns. Newtown is the biggest, at 10,885, followed by Brecon, Welshpool and Llandrindod Wells, with Ystradgynlais, Knighton, Builth Wells, Llanidloes, Machynlleth and Crickhowell each above 2,000. Distance matters little to us, because all teaching is live on video from our teachers in India. From age 6 to 67, learners take coding, Python and maths privately or in a level-matched group of five to ten. The first lesson is free and decides the starting course. The Powys project begins in an opera singer's private theatre. Afterwards, fees are USD 100 a month for a group place or USD 150 a month one-to-one.
+> Powys had 133,169 residents in the 2021 census, spread across small towns. Newtown is the biggest, at 10,885, followed by Brecon, Welshpool and Llandrindod Wells, with Ystradgynlais, Knighton, Builth Wells, Llanidloes, Machynlleth and Crickhowell each above 2,000. Distance matters little to us, because all teaching is live on video from our teachers in India. From age 6 to 67, learners take coding, Python and maths privately or in a level-matched group of fifteen to twenty. The first lesson is free and decides the starting course. The Powys project begins in an opera singer's private theatre. Afterwards, fees are USD 100 a month for a group place or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Powys
 
@@ -12,11 +12,11 @@ Powys / Live online
 
 # Coding classes in Powys
 
-**What are the best coding classes in Powys?** Powys had 133,169 residents in the 2021 census, spread across small towns. Newtown is the biggest, at 10,885, followed by Brecon, Welshpool and Llandrindod Wells, with Ystradgynlais, Knighton, Builth Wells, Llanidloes, Machynlleth and Crickhowell each above 2,000. Distance matters little to us, because all teaching is live on video from our teachers in India. From age 6 to 67, learners take coding, Python and maths privately or in a level-matched group of five to ten. The first lesson is free and decides the starting course. The Powys project begins in an opera singer's private theatre. Afterwards, fees are USD 100 a month for a group place or USD 150 a month one-to-one.
+**What are the best coding classes in Powys?** Powys had 133,169 residents in the 2021 census, spread across small towns. Newtown is the biggest, at 10,885, followed by Brecon, Welshpool and Llandrindod Wells, with Ystradgynlais, Knighton, Builth Wells, Llanidloes, Machynlleth and Crickhowell each above 2,000. Distance matters little to us, because all teaching is live on video from our teachers in India. From age 6 to 67, learners take coding, Python and maths privately or in a level-matched group of fifteen to twenty. The first lesson is free and decides the starting course. The Powys project begins in an opera singer's private theatre. Afterwards, fees are USD 100 a month for a group place or USD 150 a month one-to-one.
 
 In 1890 the opera star Adelina Patti added a private theatre to her home at Craig-y-nos. Cadw lists it at Grade I and records that it is a small version of the Bayreuth theatre, seats 150, and opened in 1891 with Patti singing extracts from La Traviata and Faust. Anyone who has sung in an empty hall and then a full one knows the room changes. With no audience, each note rings on; with every seat taken, the sound dies away faster. Why? Every surface soaks up a little sound, and people soak up a lot. A formula worked out by the physicist Wallace Sabine around 1900 turns that into numbers, and this page's project codes it in Python.
 
-Facts last verified 26 September 2026. Teaching is online; no Powys branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Powys branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses for Powys learners
 
@@ -137,7 +137,7 @@ A big rural county, and no travel at all.
 - **Learners at the keys** Each student types their own code, while the teacher watches the shared screen and asks guiding questions.
 - **Welsh placement** A Builth Wells Year 3 or a Newtown Year 12 is placed by Welsh school year and progression step, with exams named the WJEC way. Lessons run in English.
 - **Free first session** A complete trial lesson, no charge, then a straight recommendation.
-- **Level, not location** Classes of five to ten at one level, from all over the UK.
+- **Level, not location** Classes of fifteen to twenty at one level, from all over the UK.
 - **Termly timetable** Two lessons a week in term; holidays kept free.
 - **Clocks look after themselves** When the UK clocks change, your lesson stays at the same local time and our teachers move instead.
 
@@ -148,7 +148,7 @@ A big rural county, and no travel at all.
 Whether you live in Brecon or Welshpool, the fee is the same, and the same again in every country we teach outside India.
 
 - First class: USD 0. A whole trial lesson, free, then our honest view.
-- Group tuition: USD 100 a month. Close to eight classes a month in a group of five to ten.
+- Group tuition: USD 100 a month. Close to eight classes a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. Close to eight classes a month with your own tutor.
 
 Everything is priced in US dollars; there is no sterling price. Billing begins once the trial has agreed a course and a weekly time, and the pricing page explains holidays, missed classes and changes between group and private.

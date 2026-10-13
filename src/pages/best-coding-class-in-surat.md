@@ -12,7 +12,7 @@ Live online · serving Surat
 
 Real programming for kids, teens and college students in Surat, from **Vesu to Adajan, Athwa to Piplod**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Surat)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**SuratEnrollingAreasVesu, Adajan, Athwa, Piplod, Althan & all of SuratBoardsGujarat GSEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across SuratFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Surat)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**SuratEnrollingAreasVesu, Adajan, Athwa, Piplod, Althan & all of SuratBoardsGujarat GSEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across SuratFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -157,7 +157,7 @@ Master algebra, geometry, trigonometry, pre-calculus, and calculus for grades 9-
 Master advanced problem-solving techniques and prepare for IMO, PRMO, RMO, and other mathematical competitions. For Surat's brightest young mathematicians.
 
 - 2 Live Classes/Week
-- Small Batch (5-8 Students)
+- Batch (15-20 Students)
 - Recorded Sessions
 - Completion Certificate
 
@@ -175,7 +175,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -197,7 +197,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -206,7 +206,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -215,7 +215,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -290,7 +290,7 @@ Takes under a minute.
 
 ## Coding classes in Surat: FAQs
 
-What is the best coding class in Surat for kids?Modern Age Coders offers the best coding classes in Surat for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Surat areas including Vesu, Adajan, Athwa, Citylight, and Varachha.Do you offer online coding classes in Surat?Yes, we offer live online coding classes for students across Surat including Vesu, Adajan, Athwa, Piplod, Citylight, Varachha, Katargam, and all other areas. Our online classes are interactive with small batch sizes of 5-8 students.Do you support Gujarati-medium students in Surat?Yes! Our instructors are comfortable teaching in both English and Hindi, and can explain concepts in Gujarati when needed. Many of our Surat students come from Gujarati-medium schools and adapt quickly to our curriculum.How much do coding classes cost in Surat?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (3-4 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Do you cover Vesu and Adajan areas in Surat?Yes! We serve all areas of Surat through our online classes including Vesu, Adajan, Athwa, Piplod, Althan, Pal, Citylight, Varachha, Katargam, Udhna, Rander, and more. Since classes are live online, students from any part of Surat can join.Can my child learn JEE Maths alongside coding?Absolutely! We offer both coding and mathematics courses. Our maths curriculum covers GSEB, CBSE boards and competitive exams like JEE. Many Surat students enroll in our coding + maths bundle for comprehensive preparation.Do you offer a coding and maths bundle?Yes, we offer a combined coding + maths bundle at a discounted price. This is especially popular among Surat parents who want their children to build both logical thinking through coding and strong mathematical foundations for GSEB/CBSE exams.How are your coding classes different from other institutes in Surat?We focus on project-based learning where students build real games, websites, and apps. Our small batch sizes (5-8 students), recorded sessions, expert instructors, and affordable pricing set us apart from other coding institutes in Surat.How much do Gujarat board marks count for engineering admission?Half of it. ACPC builds the merit list from 50 per cent board theory percentile in Maths, Physics and Chemistry and 50 per cent GUJCET percentile, for 95 per cent of seats in government and grant-in-aid institutions. Several coaching sites report a 60:40 split; the official ACPC admission programme says 50:50.Can SVNIT or VNSGU students join your programming courses?Yes. SVNIT has been an engineering school since 1961 and Veer Narmad South Gujarat University covers seven districts from its Surat campus. Neither of them ships you a portfolio at graduation. That is the college track: Python, Java, full-stack or AI/ML, built until it runs.
+What is the best coding class in Surat for kids?Modern Age Coders offers the best coding classes in Surat for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Surat areas including Vesu, Adajan, Athwa, Citylight, and Varachha.Do you offer online coding classes in Surat?Yes, we offer live online coding classes for students across Surat including Vesu, Adajan, Athwa, Piplod, Citylight, Varachha, Katargam, and all other areas. Our online classes are interactive with batch sizes of 15-20 students.Do you support Gujarati-medium students in Surat?Yes! Our instructors are comfortable teaching in both English and Hindi, and can explain concepts in Gujarati when needed. Many of our Surat students come from Gujarati-medium schools and adapt quickly to our curriculum.How much do coding classes cost in Surat?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (up to 6 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Do you cover Vesu and Adajan areas in Surat?Yes! We serve all areas of Surat through our online classes including Vesu, Adajan, Athwa, Piplod, Althan, Pal, Citylight, Varachha, Katargam, Udhna, Rander, and more. Since classes are live online, students from any part of Surat can join.Can my child learn JEE Maths alongside coding?Absolutely! We offer both coding and mathematics courses. Our maths curriculum covers GSEB, CBSE boards and competitive exams like JEE. Many Surat students enroll in our coding + maths bundle for comprehensive preparation.Do you offer a coding and maths bundle?Yes, we offer a combined coding + maths bundle at a discounted price. This is especially popular among Surat parents who want their children to build both logical thinking through coding and strong mathematical foundations for GSEB/CBSE exams.How are your coding classes different from other institutes in Surat?We focus on project-based learning where students build real games, websites, and apps. Our batch sizes (15-20 students), recorded sessions, expert instructors, and affordable pricing set us apart from other coding institutes in Surat.How much do Gujarat board marks count for engineering admission?Half of it. ACPC builds the merit list from 50 per cent board theory percentile in Maths, Physics and Chemistry and 50 per cent GUJCET percentile, for 95 per cent of seats in government and grant-in-aid institutions. Several coaching sites report a 60:40 split; the official ACPC admission programme says 50:50.Can SVNIT or VNSGU students join your programming courses?Yes. SVNIT has been an engineering school since 1961 and Veer Narmad South Gujarat University covers seven districts from its Surat campus. Neither of them ships you a portfolio at graduation. That is the college track: Python, Java, full-stack or AI/ML, built until it runs.
 
 ## Ready to start your child's coding journey in Surat?
 

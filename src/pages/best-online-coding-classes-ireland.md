@@ -4,7 +4,7 @@ description: "Best online coding classes in Ireland? What to look for from Junio
 canonical: https://learn.modernagecoders.com/best-online-coding-classes-ireland
 source: src/pages/best-online-coding-classes-ireland.html
 ---
-> The best online coding class in Ireland is the one that fits where a learner is in the Irish school path and teaches them to think, not just to type. Coding appears at every stage, unevenly: a Coding short course of about 100 hours at Junior Cycle that each school chooses whether to offer, and Leaving Certificate Computer Science, a 180-hour subject offered by 194 schools in 2024 out of 722 post-primary schools that year. A good class fills the gaps without competing with school: a live teacher at an Irish hour, reading before writing, code reviewed every week, and AI tools used openly and acknowledged. Modern Age Coders teaches exactly that online, for ages 6 to 67, in groups of five to ten or one to one; the first class is free, and afterwards a group place is USD 100 a month and one-to-one lessons USD 150.
+> The best online coding class in Ireland is the one that fits where a learner is in the Irish school path and teaches them to think, not just to type. Coding appears at every stage, unevenly: a Coding short course of about 100 hours at Junior Cycle that each school chooses whether to offer, and Leaving Certificate Computer Science, a 180-hour subject offered by 194 schools in 2024 out of 722 post-primary schools that year. A good class fills the gaps without competing with school: a live teacher at an Irish hour, reading before writing, code reviewed every week, and AI tools used openly and acknowledged. Modern Age Coders teaches exactly that online, for ages 6 to 67, in groups of fifteen to twenty or one to one; the first class is free, and afterwards a group place is USD 100 a month and one-to-one lessons USD 150.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / Best online coding classes in Ireland
 
@@ -180,7 +180,7 @@ Teachers work from India, which never changes its clocks, so Irish time runs fiv
 - **Saturday morning** For longer sessions and Transition Year projects.
 
 - **A free first class** A real problem with a real teacher, and an honest view of where the learner should start.
-- **Groups of five to ten** Learners at the same stage, from Ireland and other countries, reviewing one another's work.
+- **Groups of fifteen to twenty** Learners at the same stage, from Ireland and other countries, reviewing one another's work.
 - **One to one when needed** For a Sixth Year with a deadline, a learner far ahead, or an adult with a fixed goal.
 - **Irish words kept** Junior Infants, Transition Year, the Junior Cycle and the Leaving Cert keep their names; lessons are in English.
 - **AI with a record** Learners note what an AI tool suggested and what they changed, the habit Irish schools now ask for.
@@ -191,7 +191,7 @@ Teachers work from India, which never changes its clocks, so Irish time runs fiv
 Monthly and in US dollars, the one rate we use for every country outside India. No enrolment fee and nothing to sign for a year.
 
 - Free first class: USD 0. A real class with a teacher. An honest placement. No card required.
-- Group batch: USD 100 a month. Five to ten learners at one stage. The same teacher each week. Code read every week. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one stage. The same teacher each week. Code read every week. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one learner. Paced to the school year. Ideal for exam years.
 
 ## What Irish parents and learners ask about online coding classes

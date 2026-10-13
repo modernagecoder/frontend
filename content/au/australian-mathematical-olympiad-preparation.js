@@ -239,7 +239,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Olympiad classes cost a flat monthly amount in US dollars, the rate we use outside India; nothing is payable to join and you can stop at the end of any month. AMT competition entries are a matter between schools and the AMT, not us.',
     free: ['A first olympiad class, free', 'An honest read on proof-writing level', 'No card details'],
-    group: ['Five to ten students at one level', 'One teacher across the term', 'Solutions marked and discussed', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'One teacher across the term', 'Solutions marked and discussed', 'A certificate at the end'],
     one: ['A teacher for one student', 'Work shaped around that student\'s weakest area', 'Weekly times arranged with you']
   },
 

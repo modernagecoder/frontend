@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'Coding classes in Belfast',
   capsuleQ: 'What are the best coding classes in Belfast?',
-  capsule: 'Belfast counted 345,418 usual residents at the 2021 Census, and 8.37% of them were aged 20 to 24, against 5.85% across Northern Ireland. Queen\'s University Belfast, founded in 1845 as Queen\'s College Belfast, became an independent university in 1908. Learners in Belfast, from six-year-olds to people of sixty-seven, study with Modern Age Coders live online, one to one or in groups of five to ten set by level, with teachers based in India and lesson times fixed in UK hours. The first lesson is free. After it, a group place costs USD 100 a month and one-to-one teaching USD 150 a month.',
+  capsule: 'Belfast counted 345,418 usual residents at the 2021 Census, and 8.37% of them were aged 20 to 24, against 5.85% across Northern Ireland. Queen\'s University Belfast, founded in 1845 as Queen\'s College Belfast, became an independent university in 1908. Learners in Belfast, from six-year-olds to people of sixty-seven, study with Modern Age Coders live online, one to one or in groups of fifteen to twenty set by level, with teachers based in India and lesson times fixed in UK hours. The first lesson is free. After it, a group place costs USD 100 a month and one-to-one teaching USD 150 a month.',
   lead: 'Which bus stop matters most in Belfast? The busiest is easy to find: Translink\'s published timetable sends 1,321 scheduled journeys through Dundonald Park and Ride. But busiest is not the same as most central. Imagine a passenger who hops on at a random stop, rides one leg, then repeats, occasionally starting again somewhere new. Where does that wanderer spend most time? That question is answered by PageRank, the algorithm that first ranked the web, and run over 2,090 Metro and Glider stops it puts May Street at St George\'s Market first, with the Central Library and May Street at City Hall next. Dundonald, for all its journeys, comes 19th, because a terminus takes passengers in and rarely passes them on. Working out why the two rankings disagree is the lesson Belfast\'s bus network gives our teenage learners.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Belfast.',
 
@@ -92,7 +92,7 @@ module.exports = {
           { h3: 'Fewer primary-age children', p: 'Children aged 5 to 9 made up 6.17% of Belfast residents, a little below the Northern Ireland figure of 6.54%.' },
           { h3: 'Two tables, two totals', p: 'The population table gives Belfast 345,418 residents and the age table 345,417. Each is protected separately, so we quote them apart and never mix them.' }
         ] },
-        { kind: 'p', text: 'That profile shapes who learns with us here. A Belfast household might include a Year 6 pupil in Cregagh working towards the transfer test, a Year 12 student in Stranmillis taking CCEA GCSE Digital Technology, or a graduate near the Ormeau Road picking up Python, and each joins five to ten learners at their own level rather than their age.' }
+        { kind: 'p', text: 'That profile shapes who learns with us here. A Belfast household might include a Year 6 pupil in Cregagh working towards the transfer test, a Year 12 student in Stranmillis taking CCEA GCSE Digital Technology, or a graduate near the Ormeau Road picking up Python, and each joins fifteen to twenty learners at their own level rather than their age.' }
       ]
     },
     {
@@ -184,7 +184,7 @@ module.exports = {
       { h3: 'East or west of the Lagan', p: 'A learner in Ballysillan and another in Titanic Quarter can share the same lesson without either taking a bus.' },
       { h3: 'Northern Ireland school years', p: 'Years 1 to 14, the transfer test, CCEA GCSEs and A levels: lessons follow the names local schools use, and teaching is in English.' },
       { h3: 'A free lesson with a plan', p: 'The first lesson teaches something real and ends with a suggested level, a course and a weekly time. No card details are asked for.' },
-      { h3: 'Level, not postcode', p: 'Each group holds five to ten learners at one stage, drawn from Belfast, the rest of the UK and abroad, so every level finds a workable hour.' },
+      { h3: 'Level, not postcode', p: 'Each group holds fifteen to twenty learners at one stage, drawn from Belfast, the rest of the UK and abroad, so every level finds a workable hour.' },
       { h3: 'Two lessons a week', p: 'The rhythm is two fixed lessons weekly, roughly eight a month, with holiday and exam pauses agreed with the teacher in advance.' },
       { h3: 'Teachers on India time', p: 'India Standard Time never changes, so our teachers run four and a half hours ahead of Belfast in summer and five and a half in winter, which puts after-school and evening lessons inside their day.' }
     ],
@@ -195,7 +195,7 @@ module.exports = {
     h2: 'Belfast lesson fees',
     intro: 'One free lesson, then a single monthly price.',
     first: 'A complete lesson at no cost, closing with a level, a recommended course and a proposed weekly time.',
-    group: 'About eight live lessons a month in a group of five to ten learners at one level.',
+    group: 'About eight live lessons a month in a group of fifteen to twenty learners at one level.',
     private: 'About eight live lessons a month with the teacher working only with your learner.',
     closer: 'Everyone outside India pays the same US dollar fee, so a family on the Antrim Road pays what a family in Ballyhackamore pays, and we publish no prices in pounds. Nothing is charged until the free lesson has agreed a course and a slot; the pricing page explains pauses, missed lessons and moving between group and private teaching.'
   },
@@ -220,8 +220,8 @@ module.exports = {
       { q: 'Do you follow the Northern Ireland curriculum?', a: 'We use Northern Ireland school years and CCEA course names, and support learners working towards CCEA GCSE Digital Technology and A level Software Systems Development; our CCEA pages explain each one.' },
       { q: 'When are Belfast lessons held?', a: 'On weekday afternoons and evenings or at weekends, at a UK time agreed in the free lesson. India runs four and a half hours ahead of Belfast in summer and five and a half in winter.' },
       { q: 'Is there a Modern Age Coders centre in Belfast?', a: 'No. There is no Belfast centre and no premises anywhere in the UK; every lesson is taught live online. Learners need a computer with sound and a steady connection, and our phone number is based in India.', boiler: true },
-      { q: 'How much do Belfast lessons cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same timetable are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
-      { q: 'How are Belfast groups formed?', a: 'By level, pace and aims rather than age or postcode, with five to ten learners at one stage. If no group meets at a suitable time, we offer one-to-one lessons instead.', boiler: true }
+      { q: 'How much do Belfast lessons cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same timetable are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
+      { q: 'How are Belfast groups formed?', a: 'By level, pace and aims rather than age or postcode, with fifteen to twenty learners at one stage. If no group meets at a suitable time, we offer one-to-one lessons instead.', boiler: true }
     ]
   },
 

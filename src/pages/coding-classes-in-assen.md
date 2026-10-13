@@ -16,7 +16,7 @@ Assen, Drenthe / Live online
 
 Two people open the same shared shopping list on two phones. Each sees that there are ten items, each adds one, and each saves. The list should now hold twelve items; it holds eleven, because the second save overwrote the first without either person noticing. Programmers call this a race condition, and it is one of the most stubborn kinds of bug there is, because it only appears when two things happen at almost exactly the same moment, which may be rare on a quiet Tuesday and constant on the busiest day of the year. Assen, where a motorcycle race has been run every year since 1925, is a fitting place to learn it. The cure is not to hope that things never collide, but to design so that a collision cannot lose anything: operations that happen as one indivisible step, locks and transactions, and rules in the database that make the impossible result impossible to store.
 
-Facts last verified 11 September 2026. Teaching is online; no Assen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Assen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the capital of Drenthe
 
@@ -192,7 +192,7 @@ From the Brink and the Centrum out to Kloosterveen and the villages of the Buite
 - **No trip to the centre** A learner in Peelo and a learner in Assen-West start at the same moment, each from home, with no ride across town on a dark evening.
 - **School words stay Dutch** The groep, brugklas, vmbo, havo, vwo and profielkeuze of a Drenthe school keep their Dutch names; the lesson around them is in English.
 - **A free, real lesson** The opening session is taught on an actual task. At the end the teacher suggests a level, a course and a weekly time, and asks for nothing.
-- **Classmates at your level** Groups hold five to ten learners who have reached the same point. Assen has 10,233 residents under fifteen, and five who match on subject, level and hour are hard to find in one town, so a group may include learners from other countries.
+- **Classmates at your level** Groups hold fifteen to twenty learners who have reached the same point. Assen has 10,233 residents under fifteen, and five who match on subject, level and hour are hard to find in one town, so a group may include learners from other countries.
 - **Regio Noord holidays** Two lessons a week, about eight a month, at one fixed hour, pausing for the regio Noord school holidays that Drenthe keeps.
 - **Time zones on your side** The teachers are in India, three and a half hours ahead of Assen in summer and four and a half in winter, so late afternoons, evenings and weekend mornings are all possible.
 
@@ -203,7 +203,7 @@ From the Brink and the Centrum out to Kloosterveen and the villages of the Buite
 The complete price list, stated here.
 
 - First class: USD 0. One real lesson on a real task, ending with a level and a course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner, one teacher.
 
 The fee is one dollar price for every country, with no euro list alongside, so a family in Marsdijk pays exactly what a family in Lariks pays. Nothing is charged until the free lesson has fixed a course and an hour, and then payment is arranged on WhatsApp. The pricing page explains pauses, format changes and missed lessons.
@@ -244,7 +244,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Assen coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

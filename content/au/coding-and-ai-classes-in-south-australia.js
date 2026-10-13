@@ -204,7 +204,7 @@ module.exports = {
       { h3: 'Half-hour time zones handled', p: 'South Australia\'s clocks sit half an hour off the eastern states. Every lesson time is written in SA time so nobody has to convert.' },
       { h3: 'SACE vocabulary', p: 'Teachers talk about Stage 1, Stage 2 and SACE subjects the way South Australian schools do. All lessons are in English.' },
       { h3: 'A proper trial', p: 'The first lesson is a full one with something finished at the end, then a suggestion for level, course and weekly time. We never ask for card details at this stage.' },
-      { h3: 'Matched groups', p: 'Groups of five to ten learners are formed by standard, mixing South Australians with learners from other states and countries so most levels have a sensible time.' },
+      { h3: 'Matched groups', p: 'Groups of fifteen to twenty learners are formed by standard, mixing South Australians with learners from other states and countries so most levels have a sensible time.' },
       { h3: 'Two lessons a week', p: 'About eight a month at a fixed time, paused for school holidays and exam periods by arrangement with the teacher.' },
       { h3: 'Teachers in India', p: 'Our teachers keep India time, which runs four or five hours behind SA depending on the season, so SA afternoons are their working day.' }
     ],
@@ -215,7 +215,7 @@ module.exports = {
     h2: 'What lessons cost in South Australia',
     intro: 'One set of prices across the whole state.',
     first: 'A full first lesson with no charge, finishing with a recommended level, course and weekly time.',
-    group: 'A month of lessons, usually eight, in a group of five to ten learners at a similar level.',
+    group: 'A month of lessons, usually eight, in a group of fifteen to twenty learners at a similar level.',
     private: 'The same monthly pattern of about eight lessons, with one teacher and one learner.',
     closer: 'Every family outside India pays in US dollars at one rate, so a family in Port Augusta pays the same as one in Glenelg. No invoice goes out until the trial has chosen a course and a time; how holidays, missed lessons and changes between group and private teaching are handled is spelled out on the pricing page.'
   },
@@ -240,7 +240,7 @@ module.exports = {
       { q: 'What time are lessons for South Australian learners?', a: 'Afternoons, evenings or weekends, settled during the trial and always shown in SA time. India is four hours behind South Australia in winter and five hours behind during daylight saving.' },
       { q: 'Why don\'t you list SA school term dates?', a: 'The Department for Education\'s term date pages refused our automated check, and we only publish dates we have read at the source. Tell the teacher your school\'s dates and lessons are planned around them.' },
       { q: 'Do you have a centre in South Australia?', a: 'No, and none is claimed. All teaching is live online, with no premises in Australia; a learner needs a laptop or desktop, sound and a dependable connection, and the number we show is in India.', boiler: true },
-      { q: 'How much do coding lessons cost in SA?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
+      { q: 'How much do coding lessons cost in SA?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
       { q: 'How big are the groups?', a: 'Between five and ten learners, placed by level, pace and goals rather than age or suburb. If no group fits at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },

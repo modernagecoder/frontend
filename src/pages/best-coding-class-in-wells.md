@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for learners aged
 canonical: https://learn.modernagecoders.com/best-coding-class-in-wells
 source: src/pages/best-coding-class-in-wells.html
 ---
-> The middle-layer area the House of Commons Library calls Wells Town had 8,317 usual residents at the 2021 census, packed at 2,146.2 people per square kilometre among thinly settled Mendip villages. Wells Cathedral dates the works of its clock, with jousting knights and a Quarter Jack, to about 1390. Learners in Wells aged six to sixty-seven meet our teachers in India on live video, one to one or in a group of five to ten at the same level, at times that fit around the English school and working week. We charge nothing for the opening lesson; after that it is USD 100 a month in a group or USD 150 a month one to one.
+> The middle-layer area the House of Commons Library calls Wells Town had 8,317 usual residents at the 2021 census, packed at 2,146.2 people per square kilometre among thinly settled Mendip villages. Wells Cathedral dates the works of its clock, with jousting knights and a Quarter Jack, to about 1390. Learners in Wells aged six to sixty-seven meet our teachers in India on live video, one to one or in a group of fifteen to twenty at the same level, at times that fit around the English school and working week. We charge nothing for the opening lesson; after that it is USD 100 a month in a group or USD 150 a month one to one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Wells
 
@@ -12,11 +12,11 @@ Wells, Somerset / Live online
 
 # Coding classes in Wells, Somerset
 
-**What are the best coding classes in Wells, Somerset?** The middle-layer area the House of Commons Library calls Wells Town had 8,317 usual residents at the 2021 census, packed at 2,146.2 people per square kilometre among thinly settled Mendip villages. Wells Cathedral dates the works of its clock, with jousting knights and a Quarter Jack, to about 1390. Learners in Wells aged six to sixty-seven meet our teachers in India on live video, one to one or in a group of five to ten at the same level, at times that fit around the English school and working week. We charge nothing for the opening lesson; after that it is USD 100 a month in a group or USD 150 a month one to one.
+**What are the best coding classes in Wells, Somerset?** The middle-layer area the House of Commons Library calls Wells Town had 8,317 usual residents at the 2021 census, packed at 2,146.2 people per square kilometre among thinly settled Mendip villages. Wells Cathedral dates the works of its clock, with jousting knights and a Quarter Jack, to about 1390. Learners in Wells aged six to sixty-seven meet our teachers in India on live video, one to one or in a group of fifteen to twenty at the same level, at times that fit around the English school and working week. We charge nothing for the opening lesson; after that it is USD 100 a month in a group or USD 150 a month one to one.
 
 In Wells Cathedral a clock made about 1390 still marks every quarter hour, the Quarter Jack banging out the quarters with his heels while jousting knights rush round above. Our Wells project builds a clock of a different kind, one that predicts full moons. Teenagers learn to count time the way astronomers do, as a single running tally of days called the Julian day number, then add NASA's average month of 29.53059 days again and again. Set against the full moons the US Naval Observatory lists for 2016 to 2030, the simple model lands on the right date almost three times in four. Its worst miss is 13.9 hours, and working out why it misses is the real lesson.
 
-Facts last verified 23 September 2026. Teaching is online; no Wells branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Wells branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the city of springs
 
@@ -169,7 +169,7 @@ Wells is small, and many of its learners live in the villages around it. Online,
 - **City and villages alike** A learner in Haybridge and another in East Horrington can share a class without anyone waiting for a lift or a bus.
 - **English school years** We place learners by English school years and key stages and use GCSE and A level course names, with every lesson taught in English.
 - **A free lesson with a plan** The opening session works on a real task and finishes with our advice on level, course and a weekly time. No card is ever requested.
-- **Groups set by level** Classes of five to ten learners at one stage, from Wells, elsewhere in the UK and abroad, so there are sensible times for every level.
+- **Groups set by level** Classes of fifteen to twenty learners at one stage, from Wells, elsewhere in the UK and abroad, so there are sensible times for every level.
 - **A steady weekly rhythm** Two set lessons each week, roughly eight a month, with half terms and exams agreed with the teacher ahead of time.
 - **Teachers who shift their day** A 5 pm lesson in Wells is 9.30 pm for our teachers in India during British Summer Time and 10.30 pm in winter, because India does not change its clocks; they plan their evenings around families here.
 
@@ -180,7 +180,7 @@ Wells is small, and many of its learners live in the villages around it. Online,
 A free first lesson, and after that one fee each month.
 
 - First class: USD 0. A complete lesson at no cost, finishing with our advice on level, course and a weekly time.
-- Group tuition: USD 100 a month. Roughly eight live lessons each month, in a class of five to ten learners at one level.
+- Group tuition: USD 100 a month. Roughly eight live lessons each month, in a class of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Roughly eight live lessons each month, with a teacher working with your learner alone.
 
 Families in Croscombe or Westbury-sub-Mendip pay in US dollars, as every family outside India does, and our site shows no pound prices. Billing begins only once the free lesson is over and you have chosen a course and a weekly time with us; the pricing page covers pausing, missed lessons and switching between a class and one-to-one teaching.
@@ -221,11 +221,11 @@ No. There is no centre in Wells or anywhere else in the UK, because every lesson
 
 ### What do Wells lessons cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same pattern costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same pattern costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are classes put together?
 
-By level, pace and goals rather than by age or address, with five to ten learners at the same stage. When no group fits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than by age or address, with fifteen to twenty learners at the same stage. When no group fits the learner's week, we offer one-to-one lessons.
 
 ## Somerset and further afield
 

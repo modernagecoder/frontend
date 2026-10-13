@@ -58,7 +58,7 @@ Families who arrive at a page like this usually have specific logistical questio
 
 ### Batches are mixed
 
-We do not run girls-only batches and we are not going to pretend otherwise on a page like this. Groups of five to eight are assembled on demonstrated ability from an intake across twenty-five countries, which is the only basis that reliably produces a class at the right level.
+We do not run girls-only batches and we are not going to pretend otherwise on a page like this. Groups of fifteen to twenty are assembled on demonstrated ability from an intake across twenty-five countries, which is the only basis that reliably produces a class at the right level.
 
 ### One to one is available
 
@@ -132,7 +132,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Weekly build work reviewed by the teacher
 - Certificate on completion
@@ -169,7 +169,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Weekly build work reviewed by the teacher
 - Certificate on completion
@@ -248,7 +248,7 @@ Practical questions
 
 ### Do you run girls-only classes?
 
-No, and we would rather say so directly than let a page imply it. Batches of five to eight are mixed and are assembled on demonstrated ability drawn from an intake across twenty-five countries, because that is the only way to reliably put a learner with peers at their own level. If a family would prefer private teaching, one to one is available at USD 150 a month and no explanation is required.
+No, and we would rather say so directly than let a page imply it. Batches of fifteen to twenty are mixed and are assembled on demonstrated ability drawn from an intake across twenty-five countries, because that is the only way to reliably put a learner with peers at their own level. If a family would prefer private teaching, one to one is available at USD 150 a month and no explanation is required.
 
 ### Is the syllabus different?
 
@@ -264,7 +264,7 @@ For motivation it can, which is a real and often underrated problem. What an onl
 
 ### How much does it cost?
 
-A group batch of five to eight students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same flat figures everywhere outside India. There is no enrolment fee, no annual contract, and the first class is free without a card.
+A group batch of fifteen to twenty students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same flat figures everywhere outside India. There is no enrolment fee, no annual contract, and the first class is free without a card.
 
 ### Are there rules about cameras and privacy?
 

@@ -288,7 +288,7 @@ module.exports = {
       { h3: 'Coding together', p: 'Teacher and learner work in the same code and talk through each step.' },
       { h3: 'Built around terms', p: 'Plans follow the Victorian school terms and break for holidays.' },
       { h3: 'A proper trial', p: 'The free first lesson teaches real content and ends with a recommendation.' },
-      { h3: 'Groups of five to ten', p: 'Learners matched by level and pace, sometimes from several states.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners matched by level and pace, sometimes from several states.' },
       { h3: 'Two lessons a week', p: 'Regular times, around eight lessons each month, with planned breaks.' },
       { h3: 'Teachers in India', p: 'In daylight saving a 6pm Darebin lesson starts at 12:30pm India time; from April it starts at 1:30pm there.' }
     ],
@@ -301,7 +301,7 @@ module.exports = {
     h2: 'Darebin class fees',
     intro: 'Three prices, set out plainly.',
     first: 'The first lesson is free, with an honest recommendation at the end.',
-    group: 'A month of group lessons, normally eight, with five to ten learners at a similar level.',
+    group: 'A month of group lessons, normally eight, with fifteen to twenty learners at a similar level.',
     private: 'Roughly eight lessons a month with one teacher.',
     closer: 'Families living abroad settle fees in US dollars. We take no payment until after the trial, when the course and lesson time are fixed together; holidays, absences and moving between formats are all on the pricing page.'
   },
@@ -343,7 +343,7 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Darebin learners?',
-        a: 'The first lesson is free. After that, group classes cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one classes cost USD 150 a month. Course, format and time are agreed before paying.',
+        a: 'The first lesson is free. After that, group classes cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one classes cost USD 150 a month. Course, format and time are agreed before paying.',
         boiler: true
       },
       {

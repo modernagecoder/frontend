@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Arnold',
   capsuleQ: 'What are the best online coding and Python classes in Arnold?',
-  capsule: 'The ONS 2021 census put the Arnold built-up area at 40,010 usual residents, and Gedling borough, which contains most of it, at 117,264. Its postcodes sit in the Ernehale, Redhill, Daybrook, Plains, Coppice and Woodthorpe wards. Modern Age Coders teaches coding, Python, AI and maths to Arnold learners aged six to 67 in live video lessons with tutors in India, privately or in groups of five to ten who share a level. A free trial lesson comes first and ends with a course recommendation. In the Arnold project a learner loads a census table of household sizes for 128 local output areas, copies it in four different ways, and finds that three of them are not really copies at all. Group places then cost USD 100 a month and one-to-one tuition USD 150 a month.',
+  capsule: 'The ONS 2021 census put the Arnold built-up area at 40,010 usual residents, and Gedling borough, which contains most of it, at 117,264. Its postcodes sit in the Ernehale, Redhill, Daybrook, Plains, Coppice and Woodthorpe wards. Modern Age Coders teaches coding, Python, AI and maths to Arnold learners aged six to 67 in live video lessons with tutors in India, privately or in groups of fifteen to twenty who share a level. A free trial lesson comes first and ends with a course recommendation. In the Arnold project a learner loads a census table of household sizes for 128 local output areas, copies it in four different ways, and finds that three of them are not really copies at all. Group places then cost USD 100 a month and one-to-one tuition USD 150 a month.',
   lead: 'Here is a line of Python that looks perfectly sensible: make a grid of zeros with one row per neighbourhood, then fill it in. Run it on a table of Arnold households and nearly four cells in five come out wrong, with no error and no warning. The reason is one of the ideas that separates people who write Python from people who understand it: a name in Python is a label stuck on an object, not a box with a value inside. Copying the label does not copy the thing.',
   wa: 'Hello Modern Age Coders, we would like to book a free online coding or Python trial lesson. We are in Arnold.',
 
@@ -158,11 +158,11 @@ module.exports = {
       { h3: 'Typing, not watching', p: 'The learner writes the code; the tutor keeps asking why it works.' },
       { h3: 'We place, then suggest', p: 'A trial lesson tells us the level before any course is proposed.' },
       { h3: 'Free first session', p: 'No charge and no card for the trial lesson.' },
-      { h3: 'Same-level classmates', p: 'Groups of five to ten, drawn from across the UK.' },
+      { h3: 'Same-level classmates', p: 'Groups of fifteen to twenty, drawn from across the UK.' },
       { h3: 'Regular rhythm', p: 'Roughly eight lessons a month, with Nottinghamshire school holidays skipped if you ask.' },
       { h3: 'UK time held', p: 'The lesson stays at its UK hour when the clocks change.' }
     ],
-    spec: { title: 'Why we teach online', p: 'Finding five to ten learners at precisely the same stage is far easier across the UK than in one town, and on video nobody has to travel.' }
+    spec: { title: 'Why we teach online', p: 'Finding fifteen to twenty learners at precisely the same stage is far easier across the UK than in one town, and on video nobody has to travel.' }
   },
 
   fees: {

@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Eastbourne',
   capsuleQ: 'Which are the best online coding and Python classes in Eastbourne?',
-  capsule: 'Eastbourne borough recorded 101,685 people in the 2021 census, and the ONS gives 99,180 for the Eastbourne built-up area. The town leans older than England: every band from 70 upward is well above England, and people in their twenties are fewer. From Hampden Park and Langney to Meads, learners aged 6 to 67 can study coding, Python, vibe coding, AI and maths live online with our tutors in India, privately or in a small class of five to ten at the same level. We teach thinking first, so learners who build with AI still understand what they built. A free trial lesson picks the right course, and after it a group place costs USD 100 a month and one-to-one lessons USD 150 a month.',
+  capsule: 'Eastbourne borough recorded 101,685 people in the 2021 census, and the ONS gives 99,180 for the Eastbourne built-up area. The town leans older than England: every band from 70 upward is well above England, and people in their twenties are fewer. From Hampden Park and Langney to Meads, learners aged 6 to 67 can study coding, Python, vibe coding, AI and maths live online with our tutors in India, privately or in a class of fifteen to twenty at the same level. We teach thinking first, so learners who build with AI still understand what they built. A free trial lesson picks the right course, and after it a group place costs USD 100 a month and one-to-one lessons USD 150 a month.',
   lead: 'Every artificial intelligence you have heard of is built from very simple parts. The simplest of all is the perceptron, a single artificial neuron that looks at a few numbers, multiplies each by a weight, adds them up and says yes or no. When it gets an answer wrong, it nudges its weights and tries again. The Met Office has published monthly weather for Eastbourne since 1959, from a station just 7 metres above sea level: temperatures, rainfall, sunshine and the number of days with air frost. A Python learner can teach one neuron to recognise frosty months from that record. It works quite well. What it cannot do, and why, is the real lesson about how machines learn.',
   wa: 'Hello Modern Age Coders, please could we book a free coding or Python lesson for an Eastbourne learner?',
 
@@ -160,7 +160,7 @@ module.exports = {
       { h3: 'Learners write the code', p: 'Students type and prompt everything themselves, and the tutor watches by screen share, asking rather than telling.' },
       { h3: 'The trial sets the level', p: 'Whether in Year 3 or Year 13, a learner starts where the free lesson places them, with the exam board in mind.' },
       { h3: 'First lesson free', p: 'One complete lesson at no charge, with a course recommendation at the end.' },
-      { h3: 'Matched classmates', p: 'Groups of five to ten UK learners working at one stage.' },
+      { h3: 'Matched classmates', p: 'Groups of fifteen to twenty UK learners working at one stage.' },
       { h3: 'Two a week', p: 'No lessons during school holidays.' },
       { h3: 'Steady UK hour', p: 'Tutors adjust when the clocks change, so your slot stays the same.' }
     ],

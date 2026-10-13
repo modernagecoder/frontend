@@ -53,7 +53,7 @@ module.exports = {
 
   h1: 'Coding classes on the Isle of Wight',
   capsuleQ: 'What are the best coding classes on the Isle of Wight?',
-  capsule: 'The Isle of Wight had 140,459 residents at the 2021 Census, in one council area: Newport and Ryde are the two biggest towns at about 25,000 and 24,000, then Cowes, Sandown, Shanklin, East Cowes, Freshwater and Totland, and Ventnor. An island is exactly where online teaching earns its keep, because the ferry is not a sensible way to reach a weekly club. We teach live over video from India, place each learner by ability rather than by age, welcome anyone from 6 to 67, and offer small groups of five to ten or one-to-one lessons in programming, Python, data and maths. The Island project comes from Cowes and its sailing. There is no charge to try a first lesson. Stay on and a group place costs USD 100 each month, with private lessons at USD 150 each month.',
+  capsule: 'The Isle of Wight had 140,459 residents at the 2021 Census, in one council area: Newport and Ryde are the two biggest towns at about 25,000 and 24,000, then Cowes, Sandown, Shanklin, East Cowes, Freshwater and Totland, and Ventnor. An island is exactly where online teaching earns its keep, because the ferry is not a sensible way to reach a weekly club. We teach live over video from India, place each learner by ability rather than by age, welcome anyone from 6 to 67, and offer groups of fifteen to twenty or one-to-one lessons in programming, Python, data and maths. The Island project comes from Cowes and its sailing. There is no charge to try a first lesson. Stay on and a group place costs USD 100 each month, with private lessons at USD 150 each month.',
   lead: 'Cowes Week, which calls 2026 its bicentenary regatta and itself now "at the start of its third century", brings together boats of every size. That raises a question every club race has to answer: how can a small Topper and a fast 29er race each other fairly? The answer in British dinghy racing is the Portsmouth Yardstick, run by the RYA. Each class gets a Portsmouth Number, and each boat\'s time on the water is converted to a corrected time before the results are decided. This page\'s project uses the RYA\'s own numbers and formula, runs a model race in Python, and then shows how a single point in a published number can decide who wins.',
   wa: 'Hello Modern Age Coders, please could we book a free lesson for a learner on the Isle of Wight?',
 
@@ -159,7 +159,7 @@ module.exports = {
       { h3: 'At home on the Island', p: 'A bedroom in Shanklin, a kitchen in Wootton, a desk in East Cowes. The teacher shares the screen; the learner does the coding.' },
       { h3: 'The words schools use', p: 'Year groups, GCSE options and A levels are named just as Island schools name them, all in English.' },
       { h3: 'A free lesson to start', p: 'A complete lesson with real work and an honest recommendation afterwards. No payment details are asked for.' },
-      { h3: 'A class at your level', p: 'Five to ten learners at the same stage from across the UK and beyond, which a small island rarely has locally.' },
+      { h3: 'A class at your level', p: 'Fifteen to twenty learners at the same stage from across the UK and beyond, which a small island rarely has locally.' },
       { h3: 'Holidays by agreement', p: 'Two lessons a week for most learners, pausing for your own school\'s holidays.' },
       { h3: 'Island time, not India time', p: 'However the clocks change, the slot we give you is in UK time; we do the conversion at our end, where India runs a few hours ahead.' }
     ],
@@ -170,7 +170,7 @@ module.exports = {
     h2: 'Fees on the Isle of Wight',
     intro: 'Newport or Niton, the price is the same, and it matches what families pay in every other country bar India.',
     first: 'A full lesson of genuine work, ending with a suggested level and course.',
-    group: 'About eight lessons a month in a group of five to ten at the same level.',
+    group: 'About eight lessons a month in a group of fifteen to twenty at the same level.',
     private: 'About eight lessons a month, one teacher and one learner.',
     closer: 'Prices are quoted and billed in US dollars; we do not publish sterling prices. Nothing is billed before the free lesson has agreed a course and weekly time; the pricing page explains pauses, missed lessons and switching between group and private teaching.'
   },

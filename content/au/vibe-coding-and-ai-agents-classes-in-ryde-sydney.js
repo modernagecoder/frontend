@@ -347,7 +347,7 @@ module.exports = {
         p: 'Plans track the NSW syllabus stages, break for the state holidays, and give senior students projects that suit their computing subjects.'
       },
       { h3: 'Trial, not a pitch', p: 'The free first lesson is a real class. At the end the teacher suggests a course, level and time, with nothing paid.' },
-      { h3: 'Five to ten learners', p: 'Groups are built around level and pace, mixing Ryde learners with classmates from elsewhere.' },
+      { h3: 'Fifteen to twenty learners', p: 'Groups are built around level and pace, mixing Ryde learners with classmates from elsewhere.' },
       { h3: 'Twice a week', p: 'A fixed hour on two days each week, roughly eight lessons monthly, with breaks agreed ahead.' },
       {
         h3: 'Teachers in India',
@@ -363,7 +363,7 @@ module.exports = {
     h2: 'Ryde class fees',
     intro: 'Three amounts make up the whole price list.',
     first: 'The first lesson costs nothing and ends with a clear recommendation.',
-    group: 'A month of small-group lessons, normally eight, with five to ten learners.',
+    group: 'A month of small-group lessons, normally eight, with fifteen to twenty learners.',
     private: 'Roughly eight lessons a month, one teacher and one learner.',
     closer: 'Outside India every invoice is in US dollars, which means one rate for all of Ryde rather than a suburb tariff. Nothing is charged until course and time are fixed after the trial; holidays, absences and format changes are covered on the pricing page.'
   },
@@ -412,7 +412,7 @@ module.exports = {
       },
       {
         q: 'How much are AI agents classes for Ryde learners?',
-        a: 'The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before payment.',
+        a: 'The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before payment.',
         boiler: true
       },
       {

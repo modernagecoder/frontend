@@ -221,7 +221,7 @@ We teach from India, and every Australian state is some hours ahead of us. An af
 - **Sunday** For families with Saturday sport.
 
 - **A free first class** Your child makes a small animation with a teacher, and you see how they respond.
-- **Small groups** Five to ten children of similar age who enjoy showing each other their projects.
+- **Small groups** Fifteen to twenty children of similar age who enjoy showing each other their projects.
 - **One to one** For a child who wants to race ahead or needs a quieter start.
 - **Hands on the mouse** The child builds every project. Teachers ask questions instead of taking over.
 - **Families can join** Lessons are live, and a parent is always welcome to watch.
@@ -232,7 +232,7 @@ We teach from India, and every Australian state is some hours ahead of us. An af
 Australian families pay in US dollars, one fixed amount a month. Joining is free and there is no contract for a term or a year.
 
 - Free first class: USD 0. A small animation made together. A suggested first course. No card or bank details.
-- Group batch: USD 100 a month. Five to ten children per group. The same teacher each week. Friends to share projects with. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty children per group. The same teacher each week. Friends to share projects with. Stop after any month.
 - One to one: USD 150 a month. A teacher entirely for your child. Pace set around them. Room for a big project of their own.
 
 ## What parents of 7 and 8 year olds ask

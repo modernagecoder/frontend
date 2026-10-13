@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Clifton',
   capsuleQ: 'Which are the best coding and AI classes in Clifton?',
-  capsule: 'Clifton is a City of Bristol ward that counted 13,022 usual residents in the 2021 census, and Clifton Down is a ward of its own with 11,420. In the postcodes.io records, Clifton Wood and Hotwells sit in BS8, with Redland and Cotham in BS6. Anyone from six to 67 can study coding, AI, Python, vibe coding and maths here through live video with a tutor in India, either alone or among five to ten classmates at a matching level. We teach how to reason before which tool to reach for, so learners can tell when a confident answer is only one of many guesses. Lesson one costs nothing and ends with a named course. In the Clifton project a particle filter locates a lost walker on a terrain model whose heights run from 5.0 to 116.8 metres. Monthly fees afterwards are USD 100 for a class place or USD 150 for private lessons.',
+  capsule: 'Clifton is a City of Bristol ward that counted 13,022 usual residents in the 2021 census, and Clifton Down is a ward of its own with 11,420. In the postcodes.io records, Clifton Wood and Hotwells sit in BS8, with Redland and Cotham in BS6. Anyone from six to 67 can study coding, AI, Python, vibe coding and maths here through live video with a tutor in India, either alone or among fifteen to twenty classmates at a matching level. We teach how to reason before which tool to reach for, so learners can tell when a confident answer is only one of many guesses. Lesson one costs nothing and ends with a named course. In the Clifton project a particle filter locates a lost walker on a terrain model whose heights run from 5.0 to 116.8 metres. Monthly fees afterwards are USD 100 for a class place or USD 150 for private lessons.',
   lead: 'Suppose a phone has lost its satellite signal. It still has a compass, a step counter and a barometer that gives height. On flat ground that would be useless for finding yourself. Where the ground varies by more than a hundred metres across the map, every height reading rules out most of it. A particle filter turns that into an algorithm: scatter two thousand guesses across the map, move every guess when the walker moves, and after each altimeter reading keep the guesses whose ground height matches and drop those that do not. Robots localise themselves this way, and the terrain model around Clifton has enough relief to show it working.',
   wa: 'Hi Modern Age Coders, I would like a free coding or AI lesson for a learner in Clifton, Bristol.',
 
@@ -154,7 +154,7 @@ module.exports = {
       { h3: 'The learner drives', p: 'Code is written on the learner\'s own screen, shared live, and the tutor\'s job is to question each step.' },
       { h3: 'Placed by the trial', p: 'We set the level from what we see in the free lesson and record any exam board.' },
       { h3: 'Nothing to pay at first', p: 'Lesson one is free and finishes with the course we would choose.' },
-      { h3: 'Groups of five to ten', p: 'One level per group, with classmates from all over the UK.' },
+      { h3: 'Groups of fifteen to twenty', p: 'One level per group, with classmates from all over the UK.' },
       { h3: 'Two sessions weekly', p: 'Paused through school breaks.' },
       { h3: 'A fixed UK time', p: 'Our tutors move their clocks when Britain does.' }
     ],

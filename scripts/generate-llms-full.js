@@ -173,13 +173,13 @@ function buildKeyFacts() {
 
     const tiers = [];
     if (india.group != null) tiers.push(`Group classes from ${money(india.group)}/month (2 live classes per week)`);
-    if (india.miniBatch != null) tiers.push(`Mini Batch (3-4 students) ${money(india.miniBatch)}/month`);
+    if (india.miniBatch != null) tiers.push(`Mini Batch (up to 6 students) ${money(india.miniBatch)}/month`);
     if (india.personal != null) tiers.push(`1-on-1 from ${money(india.personal)}/month`);
 
     return `## Quick Facts
 
 - **Pricing (India):** ${tiers.join('. ')}. Visitors outside India see a price set for their own country, shown in their local currency.
-- **Class size:** 5 to 10 students per group batch, 3 to 4 in a mini batch, or 1-on-1 (small batches, not 100+).
+- **Class size:** 15 to 20 students per group batch, up to 6 in a mini batch, or 1-on-1 (small batches, not 100+).
 - **Format:** Live and interactive over video. Recorded for revision.
 - **Trial:** Free demo class (a waiting list, no promised date) at ${SITE}/book-demo, or the paid Priority Live Demo at ${SITE}/priority-demo: a guaranteed full class of about 45 to 60 minutes today or tomorrow, with a written skill report afterwards, and the fee adjusted against the first month on enrolment.
 - **Audience:** Kids (6-12), Teens (13-17), College students, Working professionals, Corporate teams.
@@ -189,7 +189,7 @@ function buildKeyFacts() {
 
 ## Differentiators
 
-- Small batches (5 to 10 students per group, 3 to 4 in a mini batch, or 1-on-1)
+- Batches (15 to 20 students per group, up to 6 in a mini batch, or 1-on-1)
 - Live mentor-led sessions, not pre-recorded
 - Coding **and** mathematics taught together
 - Real projects from day one
@@ -200,13 +200,13 @@ function buildKeyFacts() {
 
 **Q: Good for absolute beginners?** Yes. Most courses start from zero.
 
-**Q: Different from WhiteHat Jr / Vedantu / BYJU'S?** Smaller batches (5 to 10 vs 100+), live interactive, coding and mathematics taught as one subject under one brand.
+**Q: Different from WhiteHat Jr / Vedantu / BYJU'S?** Smaller batches (15 to 20 vs 100+), live interactive, coding and mathematics taught as one subject under one brand.
 
 **Q: What is Vibe Coding?** AI-powered coding program, students build real projects using AI tools alongside traditional programming. Available for kids, teens, college.
 
 **Q: Free demo classes?** Yes, at ${SITE}/book-demo. The free demo is a waiting list: mentors teach live all day, so it happens when one becomes free and no date is promised. For a guaranteed class today or tomorrow there is the paid Priority Live Demo at ${SITE}/priority-demo (full class of about 45 to 60 minutes, written skill report and learning roadmap afterwards, fee adjusted against the first month on enrolment). Full recorded classes are free to watch at ${SITE}/how-we-teach.
 
-**Q: How are classes conducted?** Live over video in groups of 5 to 10 (or 1-on-1). Recorded for revision. Student dashboard at https://dashboard.modernagecoders.com
+**Q: How are classes conducted?** Live over video in groups of 15 to 20 (or 1-on-1). Recorded for revision. Student dashboard at https://dashboard.modernagecoders.com
 
 `;
 }

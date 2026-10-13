@@ -158,7 +158,7 @@ module.exports = {
       { h3: 'The student drives', p: 'Code is written by the learner on their own shared screen; the tutor prompts, questions and corrects course.' },
       { h3: 'Start with a real lesson', p: 'We use a free session to see how the learner thinks, then name the course that suits.' },
       { h3: 'No cost, no card', p: 'Trying a lesson commits you to nothing.' },
-      { h3: 'Level-matched classes', p: 'Five to ten learners who are all at one stage, joining from around the UK.' },
+      { h3: 'Level-matched classes', p: 'Fifteen to twenty learners who are all at one stage, joining from around the UK.' },
       { h3: 'Twice weekly', p: 'Through the school term, with Northamptonshire holiday weeks off when you send dates.' },
       { h3: 'A constant UK slot', p: 'Tutors take on the clock change, and your time stays put.' }
     ],
@@ -169,7 +169,7 @@ module.exports = {
     h2: 'Fees for Wellingborough learners',
     intro: 'These are the international fees that apply to every learner outside India.',
     first: 'An entire first lesson for free, closing with a course suggestion.',
-    group: 'Small group of five to ten, some eight lessons in a month.',
+    group: 'Group of fifteen to twenty, some eight lessons in a month.',
     private: 'A tutor to yourself, some eight lessons in a month.',
     closer: 'Our prices are in US dollars, with no sterling equivalent published. Invoicing starts only when the trial is over and the course and lesson time are chosen. Holiday breaks, missed lessons and changes of format are explained on the pricing page.'
   },

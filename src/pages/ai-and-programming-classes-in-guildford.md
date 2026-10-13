@@ -4,7 +4,7 @@ description: "Online AI, programming, Python and coding classes for learners in 
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-guildford
 source: src/pages/ai-and-programming-classes-in-guildford.html
 ---
-> The Borough of Guildford had 143,650 residents at the 2021 census, with Guildford itself a built-up area of 77,880. It is a place full of students: people aged 20 to 24 made up 9.2 per cent of residents against 6.0 per cent in England, and 15 to 19 year olds 7.5 against 5.7. It is also the town where Lewis Carroll spent his Christmases. For learners of every age from 6 to 67 we teach AI, programming, Python and maths live online from India, one-to-one or in classes of five to ten at matching levels. The first lesson is free and fixes the course. The Guildford project hands one of Carroll's logic puzzles to a computer. Carrying on costs USD 100 a month for a group or USD 150 a month privately.
+> The Borough of Guildford had 143,650 residents at the 2021 census, with Guildford itself a built-up area of 77,880. It is a place full of students: people aged 20 to 24 made up 9.2 per cent of residents against 6.0 per cent in England, and 15 to 19 year olds 7.5 against 5.7. It is also the town where Lewis Carroll spent his Christmases. For learners of every age from 6 to 67 we teach AI, programming, Python and maths live online from India, one-to-one or in classes of fifteen to twenty at matching levels. The first lesson is free and fixes the course. The Guildford project hands one of Carroll's logic puzzles to a computer. Carrying on costs USD 100 a month for a group or USD 150 a month privately.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Guildford
 
@@ -12,11 +12,11 @@ Guildford, Surrey, England / Live online
 
 # AI and programming classes in Guildford
 
-**What are the best AI and programming classes in Guildford?** The Borough of Guildford had 143,650 residents at the 2021 census, with Guildford itself a built-up area of 77,880. It is a place full of students: people aged 20 to 24 made up 9.2 per cent of residents against 6.0 per cent in England, and 15 to 19 year olds 7.5 against 5.7. It is also the town where Lewis Carroll spent his Christmases. For learners of every age from 6 to 67 we teach AI, programming, Python and maths live online from India, one-to-one or in classes of five to ten at matching levels. The first lesson is free and fixes the course. The Guildford project hands one of Carroll's logic puzzles to a computer. Carrying on costs USD 100 a month for a group or USD 150 a month privately.
+**What are the best AI and programming classes in Guildford?** The Borough of Guildford had 143,650 residents at the 2021 census, with Guildford itself a built-up area of 77,880. It is a place full of students: people aged 20 to 24 made up 9.2 per cent of residents against 6.0 per cent in England, and 15 to 19 year olds 7.5 against 5.7. It is also the town where Lewis Carroll spent his Christmases. For learners of every age from 6 to 67 we teach AI, programming, Python and maths live online from India, one-to-one or in classes of fifteen to twenty at matching levels. The first lesson is free and fixes the course. The Guildford project hands one of Carroll's logic puzzles to a computer. Carrying on costs USD 100 a month for a group or USD 150 a month privately.
 
 Surrey History Centre records that Lewis Carroll settled his sisters in a house called The Chestnuts on Castle Hill, Guildford, in September 1868 and always spent Christmas there; it suggests Guildford is, after Oxford, the place most associated with his adult life. Carroll was a mathematician, and his book Symbolic Logic is full of puzzles in which a list of odd statements hides one surprising conclusion. In one, ten premises about cats, kangaroos and animals that gaze at the moon lead, after a long chain, to "I always avoid a kangaroo". People solve these slowly, rearranging sentences. A computer can do it in milliseconds, if it is taught one rule of logic that even clever humans forget. This page's project builds that solver in Python.
 
-Facts last verified 27 September 2026. Teaching is online; no Guildford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Guildford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Popular starting courses in Guildford
 
@@ -136,7 +136,7 @@ Anywhere in the borough joins by video.
 - **The learner codes** Students write their own programs, with the teacher following on screen and asking guiding questions.
 - **Matched to the year** A Year 6 or a Year 13 begins at the stage their school year and trial lesson point to, with exam board names used.
 - **A free trial** The first full lesson costs nothing and ends with honest advice.
-- **Classes by stage** Five to ten learners at the same level, from across the UK.
+- **Classes by stage** Fifteen to twenty learners at the same level, from across the UK.
 - **Term pattern** Two lessons each week during term, with holidays kept free.
 - **Fixed local time** Clock changes never move your lesson; our teachers shift instead.
 

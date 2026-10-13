@@ -173,7 +173,7 @@ module.exports = {
     intro: 'The practical points.',
     cells: [
       { h3: 'Real time', p: 'The teacher leads every lesson live and responds to the code the learner is writing.' },
-      { h3: 'Stage-matched', p: 'Five to ten learners at one stage of a course, from Mayo, the rest of Ireland and abroad.' },
+      { h3: 'Stage-matched', p: 'Fifteen to twenty learners at one stage of a course, from Mayo, the rest of Ireland and abroad.' },
       { h3: 'Two a week, mostly', p: 'Roughly eight lessons a month, at times agreed before the course begins.' },
       { h3: 'School calendar', p: 'The plan allows for holidays, mid-term breaks and exam weeks from the start.' },
       { h3: 'For each lesson', p: 'A computer with a keyboard, a way to hear and be heard, and a broadband connection that can carry video.' },
@@ -186,7 +186,7 @@ module.exports = {
     h2: 'Fees for Castlebar',
     intro: 'Every price, in one place.',
     first: 'A full first lesson with the level assessed, free.',
-    group: 'A month in a group of five to ten at the same level, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at the same level, about eight live lessons.',
     private: 'A month of private lessons at the same weekly frequency.',
     closer: 'Fees run monthly in US dollars, one rate for every family outside India. The free lesson commits nobody, and the first charge is made when the course itself begins. For holidays, missed lessons and switching between a group and private teaching, the pricing page has the rules.'
   },
@@ -211,7 +211,7 @@ module.exports = {
       { q: 'Do you teach adults?', a: 'Yes, up to sixty-seven, and complete beginners are welcome. An adult\'s first lesson is where we see whether a level-matched group or private lessons will suit better.' },
       { q: 'Will a Castlebar learner be grouped with local learners?', a: 'Groups are formed by level, not by town, so the others in a lesson may be in Mayo, elsewhere in Ireland or overseas.' },
       { q: 'Is there a Modern Age Coders classroom in Castlebar?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Castlebar cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Castlebar cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

@@ -198,7 +198,7 @@ Our teachers are in India, which keeps a single time all year, so the UK is four
 Summer costs what any other month costs: one monthly fee in US dollars, the rate outside India, with no surcharge, no registration fee and no commitment past the month you are in. The first lesson is free.
 
 - Free first class: USD 0. A first lesson in whichever week your holiday starts. A summer project chosen together. Only a phone number to book.
-- Group batch: USD 100 a month. Five to ten children at one level. Start any week of the summer. Pause for weeks away. A finished project by the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. Start any week of the summer. Pause for weeks away. A finished project by the end.
 - One to one: USD 150 a month. A teacher for one child. Scheduled around your trips. Suits a teenager with an ambitious project.
 
 ## What families ask about summer

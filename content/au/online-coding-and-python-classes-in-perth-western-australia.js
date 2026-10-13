@@ -200,7 +200,7 @@ module.exports = {
       { h3: 'No drive across the city', p: 'Learners in Joondalup, Midland or Rockingham join the same live lesson from home, with nothing to book but the time.' },
       { h3: 'Western Australian year levels', p: 'Teachers use the same year levels as Perth schools and plan around the four WA school terms. Every lesson is in English.' },
       { h3: 'Trial lesson first', p: 'Bring a question or a project idea; leave with a working piece of code and a recommended course and time. No payment details are taken.' },
-      { h3: 'Level-matched groups', p: 'Groups of five to ten at the same stage, drawn from Perth and other places in a similar time zone, so evening slots fill easily.' },
+      { h3: 'Level-matched groups', p: 'Groups of fifteen to twenty at the same stage, drawn from Perth and other places in a similar time zone, so evening slots fill easily.' },
       { h3: 'Two lessons a week', p: 'Around eight a month in a regular slot, with breaks for school holidays and exams arranged with the teacher in advance.' },
       { h3: 'Two and a half hours to India time', p: 'Perth is 2 hours 30 minutes ahead of our teachers throughout the year, so a 4:30pm Perth lesson is at 2pm in India.' }
     ],
@@ -211,7 +211,7 @@ module.exports = {
     h2: 'What classes cost in Perth',
     intro: 'Three numbers, set out plainly.',
     first: 'One whole lesson at no cost, after which you get a level, a suggested course and a regular time.',
-    group: 'A month of lessons, typically eight, alongside five to ten learners at your level.',
+    group: 'A month of lessons, typically eight, alongside fifteen to twenty learners at your level.',
     private: 'About eight lessons each month in the same pattern, with one teacher for one learner.',
     closer: 'Every family outside India pays in US dollars at a single rate, so Fremantle and Ellenbrook see the same bill and there is no Perth price list. Nothing is charged until the trial is done and a course and time are agreed; the pricing page covers holidays, missed lessons and switching between group and private.'
   },
@@ -236,8 +236,8 @@ module.exports = {
       { q: 'What time are lessons for Perth learners?', a: 'After school, in the evening or at the weekend, chosen during the trial and always given in Perth time. Perth is two and a half hours ahead of India time all year.' },
       { q: 'Can younger children learn with you?', a: 'Yes. We teach from age 6, starting younger learners with Scratch and visual projects. This page is written for teenagers and adults, but the free lesson works for any age.' },
       { q: 'Is there a Modern Age Coders centre in Perth?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Perth coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Perth coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

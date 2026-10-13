@@ -14,7 +14,7 @@ Azaiba / Live online
 
 The short answer
 
-Azaiba’s official record includes an 800-metre beach-park path and a separate 1,600-metre wadi walkway. A Modern Age Coders teacher leads coding and mathematics online across the provider’s age range, 6 to 67. The opening assessment is free. Five to eight learners pay USD 100 monthly; private tuition is USD 150, with no claimed Azaiba office.
+Azaiba’s official record includes an 800-metre beach-park path and a separate 1,600-metre wadi walkway. A Modern Age Coders teacher leads coding and mathematics online across the provider’s age range, 6 to 67. The opening assessment is free. Fifteen to twenty learners pay USD 100 monthly; private tuition is USD 150, with no claimed Azaiba office.
 
 Azaiba's official evidence is unusually numerical: an 800-metre beach-park path, a 1,600-metre wadi walkway, counted palms and seats, and a planned city measured in millions of square metres. Numbers still become unreliable when software silently chops their decimals. This page makes that quiet bias visible.
 
@@ -180,7 +180,7 @@ The placement class is live and free.
 
 ### Group size
 
-Five to eight learners share a compatible level.
+Fifteen to twenty learners share a compatible level.
 
 ### Private
 
@@ -310,7 +310,7 @@ Yes. Modern Age Coders teaches ages 6 to 67. Adult paths can cover web developme
 
 ### What do coding and mathematics classes in Azaiba cost?
 
-The group plan costs USD 100 per month for eight live classes and five to eight learners. The private plan costs USD 150 for eight classes with one student and one teacher. Both usually meet twice weekly. The first class is free, and Modern Age Coders adds no enrolment fee, compulsory purchase or minimum term.
+The group plan costs USD 100 per month for eight live classes and fifteen to twenty learners. The private plan costs USD 150 for eight classes with one student and one teacher. Both usually meet twice weekly. The first class is free, and Modern Age Coders adds no enrolment fee, compulsory purchase or minimum term.
 
 ### How are class times arranged from Oman?
 

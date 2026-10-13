@@ -197,7 +197,7 @@ module.exports = {
       { h3: 'No drive needed', p: 'A learner in Marulan and another in central Goulburn can debug the same agent together without anyone leaving home.' },
       { h3: 'Fits the NSW year', p: 'Plans move with the learner\'s school stage and the four NSW terms, and senior students can connect agent projects to the computing or maths they are taking.' },
       { h3: 'Trial with substance', p: 'The free lesson is a real class with working code; afterwards we propose a level, a course and a weekly slot, with no card details asked.' },
-      { h3: 'Matched groups', p: 'Groups hold five to ten learners at the same stage, drawn from across Australia and further afield, so a suitable class always exists.' },
+      { h3: 'Matched groups', p: 'Groups hold fifteen to twenty learners at the same stage, drawn from across Australia and further afield, so a suitable class always exists.' },
       { h3: 'A steady rhythm', p: 'Classes run on the same two weekdays at the same hour, close to eight sessions a month, with exam and holiday pauses set in advance.' },
       { h3: 'Teachers in India', p: 'A 6pm Goulburn class in winter begins at 1:30pm in India; once NSW daylight saving starts it begins at 12:30pm there.' }
     ],
@@ -208,7 +208,7 @@ module.exports = {
     h2: 'Fees for Goulburn learners',
     intro: 'Three prices, nothing hidden.',
     first: 'A full lesson with no charge, ending with a suggested level, course and time.',
-    group: 'Roughly eight lessons a month with five to ten learners at the same stage.',
+    group: 'Roughly eight lessons a month with fifteen to twenty learners at the same stage.',
     private: 'Roughly eight lessons a month, just the learner and a teacher.',
     closer: 'Billing outside India is always in US dollars, so a family in Tarago pays the same figure as one in central Goulburn and there is no separate local tariff. Payment waits until the trial has agreed a course and a regular time, and the pricing page sets out pauses, missed lessons and moves between group and private.'
   },
@@ -233,8 +233,8 @@ module.exports = {
       { q: 'When are lessons held?', a: 'Times are fixed at the trial and stated in Goulburn time, mostly after school or on weekends. India runs 4.5 hours behind Goulburn in winter and 5.5 hours behind during NSW daylight saving.' },
       { q: 'Can children younger than 13 join?', a: 'Yes, from age six. Younger learners begin with Scratch and visual projects, while the agent project on this page suits teenagers and adults.' },
       { q: 'Do you have a centre in Goulburn?', a: 'No, and none is claimed. All lessons are live and online and we have no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection; the contact number shown is Indian.', boiler: true },
-      { q: 'What do Goulburn vibe coding and AI agents classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Goulburn vibe coding and AI agents classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

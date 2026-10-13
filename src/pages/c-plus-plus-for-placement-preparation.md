@@ -16,7 +16,7 @@ Book a Free Placement DemoClear Every Round**DSA**The core of every round**Mock*
 
 ## Quick answer
 
-**Modern Age Coders' C++ placement-preparation course gets students ready for coding rounds and technical interviews.** It covers a full Data Structures & Algorithms syllabus in C++ with the STL, problem-solving patterns, OOP and CS-fundamentals theory interviewers ask, and timed coding-round practice, plus mock technical interviews with detailed feedback. Classes are live in small batches of 5–8, aimed at product-company and campus placements, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
+**Modern Age Coders' C++ placement-preparation course gets students ready for coding rounds and technical interviews.** It covers a full Data Structures & Algorithms syllabus in C++ with the STL, problem-solving patterns, OOP and CS-fundamentals theory interviewers ask, and timed coding-round practice, plus mock technical interviews with detailed feedback. Classes are live in batches of 15–20, aimed at product-company and campus placements, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
 
 Start Today
 
@@ -108,7 +108,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo.
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 learners per batch
+- 15–20 learners per batch
 - Live DSA + theory
 - Recorded class access
 - Completion certificate
@@ -119,7 +119,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 learners per batch
+- Up to 6 learners per batch
 - More personal mentoring
 - Recorded class access
 - Mock interviews & certificate
@@ -183,7 +183,7 @@ Yes. The course includes mock technical interviews where a mentor plays the inte
 
 How much does C++ placement preparation cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
 
 When should I start placement preparation?+
 

@@ -193,7 +193,7 @@ Two live classes each week, normally eight during a month.
 
 ### Compatible peers
 
-Group classes hold five to eight learners working at a similar level.
+Group classes hold fifteen to twenty learners working at a similar level.
 
 ### Private option
 
@@ -223,7 +223,7 @@ No enrolment charge, nothing to buy, no minimum term.
 
 GroupUSD 100monthly, 8 live classes
 
-Five to eight students sharing an appropriate level.
+Fifteen to twenty students sharing an appropriate level.
 
 PrivateUSD 150monthly, 8 live classes
 
@@ -319,7 +319,7 @@ Oman is one and a half hours behind India, which leaves a practical overlap for 
 
 ### How much are coding classes in Muttrah?
 
-The group plan is USD 100 a month for eight live classes with five to eight learners. Private study is USD 150 a month for eight classes with one student and one teacher. Both usually meet twice a week. The placement class is free, and there is no enrolment fee, materials fee or minimum term.
+The group plan is USD 100 a month for eight live classes with fifteen to twenty learners. Private study is USD 150 a month for eight classes with one student and one teacher. Both usually meet twice a week. The placement class is free, and there is no enrolment fee, materials fee or minimum term.
 
 ### Can a working adult in Ruwi or Muttrah join?
 

@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Withington',
   capsuleQ: 'Where can Withington learners find the best coding and AI classes?',
-  capsule: 'Withington ward in Manchester had 15,439 usual residents at the 2021 census. It lies in the M20 postcode district, whose ward list also includes Old Moat and Burnage. From age six up to 67, people here take coding, AI, Python, vibe coding and maths on live video calls with our India-based tutors, either privately or in a class of five to ten who share a level. We build the habit of questioning first, so a learner can ask how a chart was made before trusting what it shows. Lesson one is free and finishes with our view on which course suits. The Withington project maps Census population around the area twice, once in square cells and once in hexagons, then slides each grid about to see how much the picture changes. From then on a group place is USD 100 each month and private tuition USD 150.',
+  capsule: 'Withington ward in Manchester had 15,439 usual residents at the 2021 census. It lies in the M20 postcode district, whose ward list also includes Old Moat and Burnage. From age six up to 67, people here take coding, AI, Python, vibe coding and maths on live video calls with our India-based tutors, either privately or in a class of fifteen to twenty who share a level. We build the habit of questioning first, so a learner can ask how a chart was made before trusting what it shows. Lesson one is free and finishes with our view on which course suits. The Withington project maps Census population around the area twice, once in square cells and once in hexagons, then slides each grid about to see how much the picture changes. From then on a group place is USD 100 each month and private tuition USD 150.',
   lead: 'Maps of data often sort points into cells and colour each cell by its total. For years the cells were squares; now many maps use hexagons. The usual explanation is that hexagons are fairer: every neighbour is the same distance away, and no part of a cell is far from its centre. That is true, and measurable. But a quieter question sits underneath: whichever shape you choose, the grid has to be placed somewhere, and nobody tells you where. This project measures both effects on real numbers, using the 2021 census counts for the small areas around Withington.',
   wa: 'Hello Modern Age Coders, could we book a free coding or AI lesson for a learner in Withington, Manchester?',
 
@@ -156,7 +156,7 @@ module.exports = {
       { h3: 'Students build it', p: 'The learner writes and runs the code themselves, while the tutor follows on a shared screen and asks why each step is there.' },
       { h3: 'Trial lesson first', p: 'We use the free session to find the right starting point and note any exam board.' },
       { h3: 'Nothing to pay at first', p: 'The opening lesson is free and closes with a course suggestion.' },
-      { h3: 'Classes of similar level', p: 'Five to ten learners who are at the same stage, from anywhere in Britain.' },
+      { h3: 'Classes of similar level', p: 'Fifteen to twenty learners who are at the same stage, from anywhere in Britain.' },
       { h3: 'Twice a week', p: 'Stopping for school holidays.' },
       { h3: 'A slot that holds', p: 'Tutors move with UK clock changes so the lesson time stays the same for you.' }
     ],

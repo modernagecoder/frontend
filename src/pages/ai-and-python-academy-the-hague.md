@@ -4,7 +4,7 @@ description: "The Hague is where the Netherlands learned what a biased risk mode
 canonical: https://learn.modernagecoders.com/ai-and-python-academy-the-hague
 source: src/pages/ai-and-python-academy-the-hague.html
 ---
-> Modern Age Coders teaches learners in The Hague, aged six to sixty-seven, a live online AI and Python track: typed Python, real data, models whose errors are measured, and agents whose decisions can be traced. Every model on the track is checked group by group, because an overall error rate can look acceptable while one group carries most of the false alarms. The reason is local and documented: the risk model in the childcare-benefits case, which the data protection authority found had used nationality unlawfully. Teaching happens in English, either in a small group of five to ten at one level or with a teacher of your own. There is no charge for the first lesson; afterwards the group rate is USD 100 a month and private tuition USD 150.
+> Modern Age Coders teaches learners in The Hague, aged six to sixty-seven, a live online AI and Python track: typed Python, real data, models whose errors are measured, and agents whose decisions can be traced. Every model on the track is checked group by group, because an overall error rate can look acceptable while one group carries most of the false alarms. The reason is local and documented: the risk model in the childcare-benefits case, which the data protection authority found had used nationality unlawfully. Teaching happens in English, either in a group of fifteen to twenty at one level or with a teacher of your own. There is no charge for the first lesson; afterwards the group rate is USD 100 a month and private tuition USD 150.
 
 [Home](/) / [Courses](/courses) / [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands) / The Hague
 
@@ -156,7 +156,7 @@ Dutch clocks change twice a year and Indian clocks never do. In winter the teach
 - **Saturday or Sunday** Mornings or afternoons in The Hague. The slot most working adults and busy households end up choosing.
 
 - **The opening session** A real task, a teacher watching how the learner approaches it, and at the end a clear view of where to start. No questionnaire does that as well.
-- **Groups of five to ten** Classmates come from several countries and share one level, so nobody in The Hague is held back by a local average or left behind by it.
+- **Groups of fifteen to twenty** Classmates come from several countries and share one level, so nobody in The Hague is held back by a local average or left behind by it.
 - **Private lessons** For diplomats, civil servants and others whose diaries move, for a narrowly defined goal, and for the Copilot Studio courses, which are never taught in groups.
 - **Code seen as it is typed** Teacher and learner share screens, so a misunderstanding is corrected in the minute it appears.
 - **English, with Dutch kept for school** Teaching is in English; groep, brugklas, havo and vwo stay in Dutch because that is how parents in the city speak of them.
@@ -167,7 +167,7 @@ Dutch clocks change twice a year and Indian clocks never do. In winter the teach
 Monthly, in US dollars, at the rates charged in every country outside India. The Hague pays what every other city pays, with no enrolment fee and no contract for the year. The Copilot Studio courses are taught privately and so carry the private rate.
 
 - Free first class: USD 0. A real lesson on a real problem. Places the learner on the right rung. No card or bank details.
-- Group batch: USD 100 a month. Five to ten learners at one level. One live teacher throughout. Work reviewed each week. Certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. One live teacher throughout. Work reviewed each week. Certificate at the end.
 - One to one: USD 150 a month. One learner, one teacher. Pace and focus fitted to the goal. The only format for Copilot Studio.
 
 ## What families and professionals in The Hague ask first

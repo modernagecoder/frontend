@@ -16,7 +16,7 @@ Ulster, the three counties in the State / Live online
 
 Here are two gaps between these three counties and Munster, and a question: which gap is bigger? Among people who stated how long their journey to work, school or college takes, 3.5% here travel an hour and a half or more, against 2.0% in Munster. On birthplace, 78.4% of residents here were born in Ireland, against 82.8% in Munster. The first gap is 1.5 percentage points, the second 4.5, so the birthplace gap looks three times bigger. Now compare them proportionally: the long-journey share here is 76% higher than Munster's, while Munster's born-in-Ireland share is only 5.7% higher. By that measure the journey gap is thirteen times bigger. Both statements are arithmetically correct, and they rank the same two gaps in opposite orders.
 
-Facts last verified 17 September 2026. Teaching is online; no Cavan, Donegal and Monaghan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 17 September 2026. Teaching is online; no Cavan, Donegal and Monaghan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four good places to start
 
@@ -137,7 +137,7 @@ Calculating a percentage is trivial for a machine. Knowing which percentage hone
 From Malin Head to Kingscourt, the arrangement is the same.
 
 - **Always live** A teacher leads each lesson as it happens, and the learner takes part rather than watches.
-- **Grouped by ability** Five to ten learners at one level, gathered from all three counties and further afield.
+- **Grouped by ability** Fifteen to twenty learners at one level, gathered from all three counties and further afield.
 - **A rhythm that holds** Roughly eight sessions a month, usually two a week, on days and at an hour agreed at the outset.
 - **Irish school stages** From Junior Cycle to Leaving Certificate, with holidays and exam weeks built in.
 - **What is needed** A laptop or desktop, working sound and a connection that carries video, all checked in the free lesson.
@@ -150,7 +150,7 @@ From Malin Head to Kingscourt, the arrangement is the same.
 Three prices, identical in all three counties.
 
 - First class: USD 0. A full first lesson, free, closing with a level and a suggested course.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, about eight lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, about eight lessons.
 - Private tuition: USD 150 a month. A month of one to one teaching on the same weekly schedule.
 
 Everything is billed monthly in US dollars at the single rate we use outside India, so a family in Letterkenny and one in Carrickmacross pay the same and there is no second currency. No payment is taken until the free lesson settles a course and a time, and the pricing page covers pauses, missed lessons and changing format.
@@ -191,7 +191,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes cost in Cavan, Donegal and Monaghan?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

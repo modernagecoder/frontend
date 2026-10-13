@@ -228,7 +228,7 @@ module.exports = {
     h2: 'What classes cost in New South Wales',
     intro: 'The same three numbers everywhere in the state.',
     first: 'A full lesson at no cost, ending with a recommended level, course and weekly time.',
-    group: 'A month of teaching, usually eight lessons, with five to ten learners at the same level.',
+    group: 'A month of teaching, usually eight lessons, with fifteen to twenty learners at the same level.',
     private: 'The same monthly rhythm of around eight lessons, one teacher and one learner.',
     closer: 'Every family outside India is billed in US dollars at one rate, which means Albury and Bondi see an identical invoice and no regional price list exists. Billing begins only after the trial lesson has fixed a course and a weekly slot; holidays off, a missed class or a move between group and private teaching are explained on the pricing page.'
   },
@@ -253,8 +253,8 @@ module.exports = {
       { q: 'Do you prepare students for the selective and OC tests?', a: 'We teach the maths and reasoning skills the Mathematical Reasoning and Thinking Skills sections draw on, as part of normal lessons. We do not give admissions advice and make no claims about selection.' },
       { q: 'What time are lessons for NSW learners?', a: 'Any weekday afternoon or evening, or on a weekend, agreed during the trial and always written in NSW time. India runs four and a half hours behind NSW in the cooler months and five and a half behind while daylight saving lasts.' },
       { q: 'Is there a Modern Age Coders centre in New South Wales?', a: 'No, and none is claimed. Every lesson is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do coding classes cost in NSW?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do coding classes cost in NSW?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

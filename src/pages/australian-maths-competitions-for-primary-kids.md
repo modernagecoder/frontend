@@ -192,7 +192,7 @@ Our maths teachers teach live from India. Australian clocks run ahead: Darwin by
 - **Strategies taught** Draw it, list it, shrink it, check it.
 - **Thinking out loud** Children explain how they solved each problem.
 - **Original problems** Never copied from competition papers.
-- **Classes of five to ten** Children at a similar level, learning from each other.
+- **Classes of fifteen to twenty** Children at a similar level, learning from each other.
 - **One-to-one option** For a child who needs a different pace or more stretch.
 - **No medal promised** Organisers set and mark; we build the thinking.
 
@@ -201,7 +201,7 @@ Our maths teachers teach live from India. Australian clocks run ahead: Darwin by
 Maths classes are charged per month in US dollars, our international rate, with no enrolment fee and no fixed term. Competition entries are arranged with the organisers, usually through schools, and are separate from our fees.
 
 - Free first class: USD 0. A free first maths class. A short check of number sense and strategies. No payment details.
-- Group batch: USD 100 a month. Five to ten children at one level. The same teacher each week. Problems solved and discussed together. A certificate on completion.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. The same teacher each week. Problems solved and discussed together. A certificate on completion.
 - One to one: USD 150 a month. A teacher for one child. Work pitched exactly at the child's level. Times arranged around family life.
 
 ## What parents and teachers ask

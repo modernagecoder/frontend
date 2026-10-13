@@ -261,7 +261,7 @@ module.exports = {
     cells: [
       { h3: 'One teacher all year', p: 'Who notices the same slip twice.' },
       { h3: 'Frank updates', p: 'A few honest lines after lessons.' },
-      { h3: 'Five to ten per class', p: 'Matched by level.' },
+      { h3: 'Fifteen to twenty per class', p: 'Matched by level.' },
       { h3: 'Our own questions', p: 'No GL material reproduced.' },
       { h3: 'One to one', p: 'For a stubborn topic.' },
       { h3: 'Our subject', p: 'Maths lessons, nothing wider: English, reasoning and admissions belong elsewhere.' }
@@ -276,7 +276,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Every family outside India pays one monthly US dollar price. No joining fee; stop whenever you like.',
     free: ['A proper lesson', 'An honest verdict', 'No card needed'],
-    group: ['Five to ten children at one level', 'A regular teacher', 'Work reviewed together', 'Certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'A regular teacher', 'Work reviewed together', 'Certificate at the end'],
     one: ['A teacher for one child', 'Aimed at gaps', 'Flexible timing']
   },
 

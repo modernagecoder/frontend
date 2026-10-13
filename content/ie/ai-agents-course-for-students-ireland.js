@@ -57,7 +57,7 @@ module.exports = {
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
-  capsule: 'An AI agent is a program in which a language model directs its own steps and tool use to reach a goal. The best way for a student to learn about agents is to build one as their own work, test it against questions with known answers, and disclose what the model produced, which is also what Irish academic integrity guidance expects. Modern Age Coders teaches students in Ireland to build agents in Python, live online, in groups of five to ten or one to one. A first class is free. Then a group place costs USD 100 a month and one-to-one tuition USD 150 a month; the Copilot Studio course is taught one to one only.',
+  capsule: 'An AI agent is a program in which a language model directs its own steps and tool use to reach a goal. The best way for a student to learn about agents is to build one as their own work, test it against questions with known answers, and disclose what the model produced, which is also what Irish academic integrity guidance expects. Modern Age Coders teaches students in Ireland to build agents in Python, live online, in groups of fifteen to twenty or one to one. A first class is free. Then a group place costs USD 100 a month and one-to-one tuition USD 150 a month; the Copilot Studio course is taught one to one only.',
 
   picks: {
     eyebrow: 'Start here',
@@ -210,7 +210,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Build an agent in the free class', p: 'A tiny agent with one tool, built with the teacher, who then suggests where to start.' },
-      { h3: 'Groups of five to ten', p: 'Students at one level, comparing how their agents fail on the same test questions.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Students at one level, comparing how their agents fail on the same test questions.' },
       { h3: 'One to one', p: 'For a final-year project with an agent in it, and for the Copilot Studio course.' },
       { h3: 'A log from the first run', p: 'Every agent records each step it takes, so testing and disclosure are built in from day one.' },
       { h3: 'Never assessed work', p: 'Teachers do not write, edit or check anything that will be submitted for credit.' },
@@ -226,7 +226,7 @@ module.exports = {
     h2: 'Fees for students',
     lede: 'Monthly in US dollars, at the rate we charge in every country outside India, with no enrolment fee and nothing to sign for the year. The Copilot Studio course is private only and uses the one-to-one rate; the coding agents course needs your own paid accounts for the tools.',
     free: ['A small agent built with a teacher', 'A suggested route before you pay anything', 'No card details'],
-    group: ['Five to ten students at one level', 'One live teacher throughout', 'Agents and tests reviewed each week', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'One live teacher throughout', 'Agents and tests reviewed each week', 'A certificate at the end'],
     one: ['A teacher for one student', 'Shaped around your own project', 'The only format for Copilot Studio']
   },
 

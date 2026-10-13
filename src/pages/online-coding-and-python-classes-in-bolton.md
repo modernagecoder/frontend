@@ -4,7 +4,7 @@ description: "Online coding, Python and AI lessons for Bolton, Farnworth, Horwic
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-bolton
 source: src/pages/online-coding-and-python-classes-in-bolton.html
 ---
-> At the 2021 census Bolton borough had 295,961 residents and the Bolton built-up area 184,090. It is a young borough: every five-year band from birth to 19 makes up a larger share than in England as a whole. Coding, Python, AI and maths reach Bolton by live video from our teachers in India, for learners aged 6 to 67, either solo with a tutor or in same-stage classes of five to ten. The opening lesson is free and points to the right course. The Bolton project works through the prices Samuel Crompton was paid for yarn from his spinning mule. Carrying on costs USD 100 each month in a group or USD 150 each month one-to-one.
+> At the 2021 census Bolton borough had 295,961 residents and the Bolton built-up area 184,090. It is a young borough: every five-year band from birth to 19 makes up a larger share than in England as a whole. Coding, Python, AI and maths reach Bolton by live video from our teachers in India, for learners aged 6 to 67, either solo with a tutor or in same-stage classes of fifteen to twenty. The opening lesson is free and points to the right course. The Bolton project works through the prices Samuel Crompton was paid for yarn from his spinning mule. Carrying on costs USD 100 each month in a group or USD 150 each month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Bolton
 
@@ -12,11 +12,11 @@ Bolton, Greater Manchester, England / Live online
 
 # Online coding and Python classes in Bolton
 
-**Which are the best online coding and Python classes for Bolton?** At the 2021 census Bolton borough had 295,961 residents and the Bolton built-up area 184,090. It is a young borough: every five-year band from birth to 19 makes up a larger share than in England as a whole. Coding, Python, AI and maths reach Bolton by live video from our teachers in India, for learners aged 6 to 67, either solo with a tutor or in same-stage classes of five to ten. The opening lesson is free and points to the right course. The Bolton project works through the prices Samuel Crompton was paid for yarn from his spinning mule. Carrying on costs USD 100 each month in a group or USD 150 each month one-to-one.
+**Which are the best online coding and Python classes for Bolton?** At the 2021 census Bolton borough had 295,961 residents and the Bolton built-up area 184,090. It is a young borough: every five-year band from birth to 19 makes up a larger share than in England as a whole. Coding, Python, AI and maths reach Bolton by live video from our teachers in India, for learners aged 6 to 67, either solo with a tutor or in same-stage classes of fifteen to twenty. The opening lesson is free and points to the right course. The Bolton project works through the prices Samuel Crompton was paid for yarn from his spinning mule. Carrying on costs USD 100 each month in a group or USD 150 each month one-to-one.
 
 Samuel Crompton was born in 1753 at Firwood Fold in the township of Tonge, in the parish of Bolton, and grew up at Hall-i'-th'-Wood. There, George W. Daniels records, he built the spinning mule, completed in 1779, and sold its yarn at 14 shillings a pound for 40's and 25 shillings a pound for 60's. Those numbers look simple, and they hide a trap. A yarn's count is how many hanks weigh a pound, so a bigger count means a thinner thread, and a pound of 60's is far longer than a pound of 40's. Was the fine yarn really nearly twice the price? A Bolton learner can answer with a few lines of Python, and meet the harmonic mean on the way.
 
-Facts last verified 27 September 2026. Teaching is online; no Bolton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Bolton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses for Bolton
 
@@ -136,7 +136,7 @@ Every part of the borough joins the same way.
 - **The student drives** Every line is typed by the learner, while the tutor reads along and prompts with questions.
 - **Pitched to the year** Year 3 or Year 11, each learner begins where their year and trial point, and we use the right exam board.
 - **No-cost trial** The opening lesson is free, followed by honest advice on what suits.
-- **Same-stage classes** Five to ten learners at one level, gathered from across the UK.
+- **Same-stage classes** Fifteen to twenty learners at one level, gathered from across the UK.
 - **Weekly rhythm** Two lessons a week in term time, with school holidays kept clear.
 - **Steady time slot** Clock changes in spring and autumn are absorbed by our teachers; your time stays the same.
 

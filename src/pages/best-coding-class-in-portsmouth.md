@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Portsmouth le
 canonical: https://learn.modernagecoders.com/best-coding-class-in-portsmouth
 source: src/pages/best-coding-class-in-portsmouth.html
 ---
-> The 2021 census counted 208,003 usual residents in Portsmouth, at 5,149.8 per square kilometre, which puts the city second among English council areas outside London, just behind Luton. The Mary Rose, built in 1510, sank off the city in 1545 and was raised in 1982. Portsmouth learners from six to sixty-seven join us on live video, either in a class of five to ten at the same level or with a teacher of their own; the teaching comes from India, scheduled around the UK day. There is no charge for the opening lesson. After that, a group place is USD 100 a month and individual teaching USD 150.
+> The 2021 census counted 208,003 usual residents in Portsmouth, at 5,149.8 per square kilometre, which puts the city second among English council areas outside London, just behind Luton. The Mary Rose, built in 1510, sank off the city in 1545 and was raised in 1982. Portsmouth learners from six to sixty-seven join us on live video, either in a class of fifteen to twenty at the same level or with a teacher of their own; the teaching comes from India, scheduled around the UK day. There is no charge for the opening lesson. After that, a group place is USD 100 a month and individual teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Portsmouth
 
@@ -12,11 +12,11 @@ Portsmouth, Hampshire / Live online
 
 # Coding classes in Portsmouth
 
-**What are the best coding classes in Portsmouth?** The 2021 census counted 208,003 usual residents in Portsmouth, at 5,149.8 per square kilometre, which puts the city second among English council areas outside London, just behind Luton. The Mary Rose, built in 1510, sank off the city in 1545 and was raised in 1982. Portsmouth learners from six to sixty-seven join us on live video, either in a class of five to ten at the same level or with a teacher of their own; the teaching comes from India, scheduled around the UK day. There is no charge for the opening lesson. After that, a group place is USD 100 a month and individual teaching USD 150.
+**What are the best coding classes in Portsmouth?** The 2021 census counted 208,003 usual residents in Portsmouth, at 5,149.8 per square kilometre, which puts the city second among English council areas outside London, just behind Luton. The Mary Rose, built in 1510, sank off the city in 1545 and was raised in 1982. Portsmouth learners from six to sixty-seven join us on live video, either in a class of fifteen to twenty at the same level or with a teacher of their own; the teaching comes from India, scheduled around the UK day. There is no charge for the opening lesson. After that, a group place is USD 100 a month and individual teaching USD 150.
 
 Much of Portsmouth stands on Portsea Island. Ordnance Survey's road network for the area around it has 17,738 road links. How many of them would have to close before no car could drive from the Guildhall to Cosham? A program can answer that without trying every combination, using one of the most useful results in computer science: the largest number of separate routes between two places equals the smallest number of links whose removal separates them. For Portsea Island both numbers are three: the M275, London Road and Eastern Road. On the mainland, between the Fareham and Havant sides, the answer is five. Our teenagers compute both, and learn why the theorem makes the question easy.
 
-Facts last verified 22 September 2026. Teaching is online; no Portsmouth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 22 September 2026. Teaching is online; no Portsmouth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the island city
 
@@ -65,7 +65,7 @@ Of 196,723 residents aged five and over, 49,106 were schoolchildren or full-time
 
 People aged 20 to 24 were 9.6% of the city's residents in 2021, and those aged 15 to 19 were 7.0%, both above the English shares.
 
-Those learners appear in our groups at every stage. A Year 5 child in Copnor might be solving a first maze in code, a Year 12 student in Southsea taking A level Computer Science, and an adult in Paulsgrove learning Python for a new role, each placed with five to ten learners at the same level.
+Those learners appear in our groups at every stage. A Year 5 child in Copnor might be solving a first maze in code, a Year 12 student in Southsea taking A level Computer Science, and an adult in Paulsgrove learning Python for a new role, each placed with fifteen to twenty learners at the same level.
 
 ## The Mary Rose, lost in sight of Southsea Castle
 
@@ -175,7 +175,7 @@ With only three road links off the island, a trip across Portsmouth depends on a
 - **Island and mainland** A learner in Eastney and another in Paulsgrove can share one lesson without either of them using the M275.
 - **English stages throughout** Reception, Key Stages 1 to 4, GCSEs and A levels, named as Portsmouth schools name them, and every lesson taught in English.
 - **The free lesson teaches** The first session covers a real task and ends by suggesting a level, a course and a weekly slot. No card details are taken.
-- **Right-level classmates** Groups of five to ten learners at the same stage, from Portsmouth, elsewhere in the UK and overseas, so every level can find a sensible hour.
+- **Right-level classmates** Groups of fifteen to twenty learners at the same stage, from Portsmouth, elsewhere in the UK and overseas, so every level can find a sensible hour.
 - **Twice every week** Two fixed lessons a week, around eight a month, with holidays and exam dates planned with the teacher in advance.
 - **Late afternoon in Southsea** When it is late afternoon in Portsmouth it is already evening in India, where our teachers are: four and a half hours ahead in the British summer, five and a half in winter. They teach through their evening so that UK learners can join after school or work.
 
@@ -186,7 +186,7 @@ With only three road links off the island, a trip across Portsmouth depends on a
 A free lesson to start, then one monthly fee.
 
 - First class: USD 0. A full lesson with no charge, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. Roughly eight live lessons a month in a group of five to ten learners at the same level.
+- Group tuition: USD 100 a month. Roughly eight live lessons a month in a group of fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. Roughly eight live lessons a month, with the teacher working only with your learner.
 
 A household in Milton pays the same as one in Hilsea or anywhere else outside India: a single fee in US dollars, with no pound prices shown. You pay nothing until after the free lesson, when a course and a time have been agreed; pausing, missed lessons and switching formats are all explained on the pricing page.
@@ -227,11 +227,11 @@ No. There is no Portsmouth centre and we have no premises anywhere in the UK, as
 
 ### How much do Portsmouth lessons cost?
 
-The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
+The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
 
 ### How are Portsmouth groups put together?
 
-By level, pace and goals rather than age or postcode, with five to ten learners at one stage. If no group suits the learner's timetable, we offer one-to-one lessons instead.
+By level, pace and goals rather than age or postcode, with fifteen to twenty learners at one stage. If no group suits the learner's timetable, we offer one-to-one lessons instead.
 
 ## The south coast and beyond
 

@@ -16,7 +16,7 @@ Calamvale, City of Brisbane, Queensland / Live online
 
 Calamvale has a Fig Tree Street, a Silky Oak Court and a Van Wirdum Place. Ask Python to separate each street's name from its type and those three are where a careless split goes wrong. Brisbane City Council lists 263 street entries for the suburb, so we tested two one-line methods on every one.
 
-Facts last verified 12 October 2026. Teaching is online; no Calamvale branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Calamvale branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that handle real-world text
 
@@ -181,7 +181,7 @@ There is nothing to travel to: every lesson happens over video at home.
 - **Learner at the keyboard** The teacher watches the shared screen and asks the learner to explain each line.
 - **Follows school terms** Plans fit the Queensland school year and stop for holidays.
 - **Free first lesson** A complete trial class that ends with a written suggestion.
-- **Groups by level** Five to ten learners at a similar pace, or one to one.
+- **Groups by level** Fifteen to twenty learners at a similar pace, or one to one.
 - **Two sessions weekly** Regular times each week, around eight lessons a month.
 - **Brisbane and India** Teachers work from India: a 5pm Calamvale lesson is 12:30pm India time, all year.
 
@@ -192,7 +192,7 @@ There is nothing to travel to: every lesson happens over video at home.
 Three prices, the same for everyone.
 
 - First class: USD 0. Lesson one is free and finishes with a recommended course.
-- Group tuition: USD 100 a month. Groups: around eight lessons a month with five to ten learners at one level.
+- Group tuition: USD 100 a month. Groups: around eight lessons a month with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. One to one: around eight lessons a month with a single teacher.
 
 Calamvale families pay in US dollars after the trial, once the course and weekly time suit them. The pricing page explains holidays, absences and changing format.
@@ -229,11 +229,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Calamvale learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Is Copilot Studio offered in Calamvale groups?
 

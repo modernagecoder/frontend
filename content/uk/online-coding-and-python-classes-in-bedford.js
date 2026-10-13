@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Bedford',
   capsuleQ: 'What are the best online coding and Python classes for Bedford?',
-  capsule: 'Bedford borough had 185,231 residents at the 2021 census, and the Bedford built-up area 97,235, with Kempston next in size at 22,785. The borough skews young: each band from birth to 14 is above the England share, as are adults in their early forties. We run live online lessons in coding, Python, AI and maths for anyone aged 6 to 67, with tutors in India teaching privately or in classes of five to ten at one stage. The opening lesson is free and chooses the course. The Bedford project asks whether a river gauge can be trusted, using its neighbour upstream. Group lessons then cost USD 100 each month and one-to-one lessons USD 150 each month.',
+  capsule: 'Bedford borough had 185,231 residents at the 2021 census, and the Bedford built-up area 97,235, with Kempston next in size at 22,785. The borough skews young: each band from birth to 14 is above the England share, as are adults in their early forties. We run live online lessons in coding, Python, AI and maths for anyone aged 6 to 67, with tutors in India teaching privately or in classes of fifteen to twenty at one stage. The opening lesson is free and chooses the course. The Bedford project asks whether a river gauge can be trusted, using its neighbour upstream. Group lessons then cost USD 100 each month and one-to-one lessons USD 150 each month.',
   lead: 'Two Environment Agency gauges watch the Great Ouse, one upstream of Bedford at Newport Pagnell, in Milton Keynes, and one downstream at Roxton, in Bedford borough, just above where the River Ivel joins. Roxton drains 1,660 square kilometres, Newport Pagnell 800. If both gauges measure honestly, their flows should rise and fall together, with Roxton carrying roughly twice as much. But how would you spot the moment a gauge quietly changed, perhaps a weir altered or a new calculation adopted? Hydrologists use a simple, clever picture called a double mass curve. A Bedford learner can draw it in Python from 27 years of data and see why adding things up can reveal what single years hide.',
   wa: 'Hello Modern Age Coders, I would like a free online coding or Python lesson for a learner in Bedford.',
 
@@ -165,7 +165,7 @@ module.exports = {
       { h3: 'Student at the keyboard', p: 'The learner types each program; the tutor watches the shared screen and prompts with questions.' },
       { h3: 'Started at the right year', p: 'A Year 5 or a Year 12 begins where their school year and trial point, with their exam board used.' },
       { h3: 'Free trial', p: 'The first full lesson is free and ends with honest advice.' },
-      { h3: 'Classmates who match', p: 'A group is five to ten UK learners who have all reached the same point.' },
+      { h3: 'Classmates who match', p: 'A group is fifteen to twenty UK learners who have all reached the same point.' },
       { h3: 'Two lessons weekly', p: 'Twice a week in term; nothing in school holidays.' },
       { h3: 'Fixed local time', p: 'UK clock changes move our teachers, not your slot.' }
     ],

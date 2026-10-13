@@ -16,7 +16,7 @@ Kingston, Kingborough, Tasmania / Live online
 
 Training a model is a loop: adjust, measure, repeat. Something has to say when to stop. On Kingston's 2,432 road segments, one stopping rule ended training after 7 steps with a model barely better than guessing; another ran for 14,899 steps chasing a number that can never settle.
 
-Facts last verified 14 October 2026. Teaching is online; no Kingston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 14 October 2026. Teaching is online; no Kingston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that open up model training
 
@@ -187,7 +187,7 @@ Lessons are taught live on video, so there is no trip into Hobart.
 Three prices for everyone.
 
 - First class: USD 0. Lesson one is free, with written advice.
-- Group tuition: USD 100 a month. Group lessons: about eight a month, five to ten learners.
+- Group tuition: USD 100 a month. Group lessons: about eight a month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private lessons: about eight a month with one teacher.
 
 Kingston families pay in US dollars after the trial, once course and timing are agreed. Holidays and absences are explained on the pricing page.
@@ -224,11 +224,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Kingston learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Does group study in Kingston include Copilot Studio?
 

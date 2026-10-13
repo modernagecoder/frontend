@@ -175,7 +175,7 @@ module.exports = {
     intro: 'The basics.',
     cells: [
       { h3: 'Taught in real time', p: 'Every lesson has a teacher on the call, responding to the learner\'s code as it is written.' },
-      { h3: 'Matched by stage', p: 'Groups of five to ten, all at the same point in the course, drawn from Kildare, the rest of Ireland and beyond.' },
+      { h3: 'Matched by stage', p: 'Groups of fifteen to twenty, all at the same point in the course, drawn from Kildare, the rest of Ireland and beyond.' },
       { h3: 'Weekly pattern', p: 'Two lessons in most weeks, about eight a month, at hours settled before the course begins.' },
       { h3: 'School terms', p: 'The course plan builds in mid-term breaks, holidays and exam periods.' },
       { h3: 'What the learner needs', p: 'A laptop or desktop to type on, a working microphone with speakers or headphones, and home broadband reliable through a whole lesson.' },
@@ -188,7 +188,7 @@ module.exports = {
     h2: 'Fees for Athy',
     intro: 'The price list in full.',
     first: 'A full first lesson with the level assessed, free.',
-    group: 'A month in a group of five to ten at one stage, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one stage, about eight live lessons.',
     private: 'A month of one-to-one lessons on the same weekly pattern.',
     closer: 'Families in every country except India pay the same monthly fee, in US dollars. The first lesson is free and the first month is charged only when the course starts; for holidays, missed lessons and switching between group and one-to-one, see the pricing page.'
   },
@@ -213,7 +213,7 @@ module.exports = {
       { q: 'Do you teach adults?', a: 'Yes, up to sixty-seven, including complete beginners. After the free first lesson, adults decide with the teacher between a group at their level and one-to-one lessons.' },
       { q: 'Will an Athy learner be in a group with other Athy learners?', a: 'Groups are formed by level rather than town, so classmates may be in Kildare, elsewhere in Ireland or abroad.' },
       { q: 'Is there a Modern Age Coders classroom in Athy?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Athy cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Athy cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

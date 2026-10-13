@@ -223,7 +223,7 @@ module.exports = {
     cells: [
       { h3: 'Written solutions marked', p: 'Someone reads the argument as a stranger would and says where it stops convincing.' },
       { h3: 'Problems written by us', p: 'In the olympiad idiom. UKMT\'s past papers stay on UKMT\'s site.' },
-      { h3: 'Five to ten pupils', p: 'Enough for two different methods to meet, small enough for every write-up to be read.' },
+      { h3: 'Fifteen to twenty pupils', p: 'Enough for two different methods to meet, small enough for every write-up to be read.' },
       { h3: 'Year groups respected', p: 'Cayley, Hamilton and Maclaurin candidates are taught at the level their paper is set.' },
       { h3: 'One to one when useful', p: 'For a pupil far ahead of their year or preparing for a specific paper.' },
       { h3: 'No score promised', p: 'We cannot qualify anyone and do not claim to. Nobody honest promises a medal.' }
@@ -238,7 +238,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'One monthly rate in US dollars for every country outside India. No joining fee and no term to sign.',
     free: ['A real lesson on one problem', 'An honest read on the level', 'No card details'],
-    group: ['Five to ten pupils at one level', 'The same teacher weekly', 'Solutions read line by line', 'A certificate at the end'],
+    group: ['Fifteen to twenty pupils at one level', 'The same teacher weekly', 'Solutions read line by line', 'A certificate at the end'],
     one: ['One pupil with one teacher', 'Aimed at a particular paper', 'For pupils well ahead of their year']
   },
 

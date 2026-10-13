@@ -12,7 +12,7 @@ Live online · serving Visakhapatnam
 
 Real programming for kids, teens and college students in Visakhapatnam, from **Madhurawada to Gajuwaka, MVP Colony to Seethammadhara**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Visakhapatnam)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**VisakhapatnamEnrollingAreasMadhurawada, Gajuwaka, MVP Colony, Seethammadhara, Rushikonda & all of VisakhapatnamBoardsAP BSE/BIE · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across VisakhapatnamFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Visakhapatnam)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**VisakhapatnamEnrollingAreasMadhurawada, Gajuwaka, MVP Colony, Seethammadhara, Rushikonda & all of VisakhapatnamBoardsAP BSE/BIE · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across VisakhapatnamFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -140,7 +140,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -162,7 +162,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -171,7 +171,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -180,7 +180,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -255,7 +255,7 @@ Takes under a minute.
 
 ## Coding classes in Visakhapatnam: FAQs
 
-What is the best coding class in Visakhapatnam for kids?Modern Age Coders offers the best coding classes in Visakhapatnam for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Visakhapatnam areas including MVP Colony, Madhurawada, Seethammadhara, and Rushikonda, and Manjalpur.Do you offer online coding classes in Visakhapatnam?Yes, we offer live online coding classes for students across Visakhapatnam including MVP Colony, Madhurawada, Seethammadhara, and Rushikonda, Rushikonda, Gajuwaka, and all other areas. Our online classes are interactive with small batch sizes of 5-8 students.Do you offer coding classes for AP Board (BIEAP) (AP Board) students in Visakhapatnam?Yes, our curriculum supports both AP Board (AP Board (BIEAP)) and CBSE students in Visakhapatnam. We align our coding and maths courses with AP Board (BIEAP) requirements to complement school education.How much do coding classes cost in Visakhapatnam?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (3-4 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Can GITAM University students join your programming courses?Absolutely! We offer college-level courses in Data Structures & Algorithms, Full Stack Web Development, and AI/Data Science perfect for GITAM University and Andhra University students preparing for placements.Is the medium of instruction English for Visakhapatnam students?Our instructors are comfortable teaching in Hindi and English. Yes! All classes are in English with Hindi support. Visakhapatnam students feel comfortable in our friendly, bilingual learning environment.What areas in Visakhapatnam do you serve?We serve all areas of Visakhapatnam through our online classes including MVP Colony, Madhurawada, Seethammadhara, and Rushikonda, Dwaraka Nagar, Pendurthi, Simhachalam, Beach Road, Waltair, Kancharapalem, Gopalapatnam, and more.How are your coding classes different from other institutes in Visakhapatnam?We focus on project-based learning where students build real games, websites, and apps. Our small batch sizes (5-8 students), recorded sessions, expert instructors, and affordable pricing set us apart. We also support AP Board, CBSE, and AP Board (BIEAP) preparation.Which board and entrance exam apply to a Visakhapatnam student?Andhra Pradesh ones, not Telangana's. Since the 2014 bifurcation the two states run separate examination bodies: Vizag students sit the Class 10 SSC under BSEAP and Classes 11-12 Intermediate under BIEAP. For engineering the route is AP EAPCET, conducted by JNTU Kakinada for APSCHE, or JEE Main for the national institutes.Can Andhra University or GITAM students join your programming courses?Yes. Andhra University's engineering college has been running since the 1950s and IIM Visakhapatnam arrived in 2015, so the theory is well covered locally. The college track adds the part that is not: Python, Java, full-stack or AI/ML written until it deploys.
+What is the best coding class in Visakhapatnam for kids?Modern Age Coders offers the best coding classes in Visakhapatnam for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Visakhapatnam areas including MVP Colony, Madhurawada, Seethammadhara, and Rushikonda, and Manjalpur.Do you offer online coding classes in Visakhapatnam?Yes, we offer live online coding classes for students across Visakhapatnam including MVP Colony, Madhurawada, Seethammadhara, and Rushikonda, Rushikonda, Gajuwaka, and all other areas. Our online classes are interactive with batch sizes of 15-20 students.Do you offer coding classes for AP Board (BIEAP) (AP Board) students in Visakhapatnam?Yes, our curriculum supports both AP Board (AP Board (BIEAP)) and CBSE students in Visakhapatnam. We align our coding and maths courses with AP Board (BIEAP) requirements to complement school education.How much do coding classes cost in Visakhapatnam?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (up to 6 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Can GITAM University students join your programming courses?Absolutely! We offer college-level courses in Data Structures & Algorithms, Full Stack Web Development, and AI/Data Science perfect for GITAM University and Andhra University students preparing for placements.Is the medium of instruction English for Visakhapatnam students?Our instructors are comfortable teaching in Hindi and English. Yes! All classes are in English with Hindi support. Visakhapatnam students feel comfortable in our friendly, bilingual learning environment.What areas in Visakhapatnam do you serve?We serve all areas of Visakhapatnam through our online classes including MVP Colony, Madhurawada, Seethammadhara, and Rushikonda, Dwaraka Nagar, Pendurthi, Simhachalam, Beach Road, Waltair, Kancharapalem, Gopalapatnam, and more.How are your coding classes different from other institutes in Visakhapatnam?We focus on project-based learning where students build real games, websites, and apps. Our batch sizes (15-20 students), recorded sessions, expert instructors, and affordable pricing set us apart. We also support AP Board, CBSE, and AP Board (BIEAP) preparation.Which board and entrance exam apply to a Visakhapatnam student?Andhra Pradesh ones, not Telangana's. Since the 2014 bifurcation the two states run separate examination bodies: Vizag students sit the Class 10 SSC under BSEAP and Classes 11-12 Intermediate under BIEAP. For engineering the route is AP EAPCET, conducted by JNTU Kakinada for APSCHE, or JEE Main for the national institutes.Can Andhra University or GITAM students join your programming courses?Yes. Andhra University's engineering college has been running since the 1950s and IIM Visakhapatnam arrived in 2015, so the theory is well covered locally. The college track adds the part that is not: Python, Java, full-stack or AI/ML written until it deploys.
 
 ## Ready to start your child's coding journey in Visakhapatnam?
 

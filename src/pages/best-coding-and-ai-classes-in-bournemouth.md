@@ -4,7 +4,7 @@ description: "Online coding, AI and Python classes for Bournemouth and Christchu
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-bournemouth
 source: src/pages/best-coding-and-ai-classes-in-bournemouth.html
 ---
-> The council area of Bournemouth, Christchurch and Poole had 400,198 residents in 2021, and the Bournemouth built-up area alone 196,455. Its age profile is unusual: people in their early twenties are above the England share, and so is every band from 65 upwards, while children aged 5 to 9 are fewer. Our tutors in India teach coding, AI, Python and maths in live online lessons for anyone from 6 to 67, privately or in classes of five to ten at a common stage. The first lesson is free and points to the right course. The Bournemouth project reads a famous novella written by a Bournemouth resident. Staying on costs USD 100 a month for a group or USD 150 a month one-to-one.
+> The council area of Bournemouth, Christchurch and Poole had 400,198 residents in 2021, and the Bournemouth built-up area alone 196,455. Its age profile is unusual: people in their early twenties are above the England share, and so is every band from 65 upwards, while children aged 5 to 9 are fewer. Our tutors in India teach coding, AI, Python and maths in live online lessons for anyone from 6 to 67, privately or in classes of fifteen to twenty at a common stage. The first lesson is free and points to the right course. The Bournemouth project reads a famous novella written by a Bournemouth resident. Staying on costs USD 100 a month for a group or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South West England](/coding-and-ai-classes-in-south-west-england) / Bournemouth
 
@@ -12,11 +12,11 @@ Bournemouth, Dorset, England / Live online
 
 # Coding and AI classes in Bournemouth
 
-**Where are the best coding and AI classes for Bournemouth learners?** The council area of Bournemouth, Christchurch and Poole had 400,198 residents in 2021, and the Bournemouth built-up area alone 196,455. Its age profile is unusual: people in their early twenties are above the England share, and so is every band from 65 upwards, while children aged 5 to 9 are fewer. Our tutors in India teach coding, AI, Python and maths in live online lessons for anyone from 6 to 67, privately or in classes of five to ten at a common stage. The first lesson is free and points to the right course. The Bournemouth project reads a famous novella written by a Bournemouth resident. Staying on costs USD 100 a month for a group or USD 150 a month one-to-one.
+**Where are the best coding and AI classes for Bournemouth learners?** The council area of Bournemouth, Christchurch and Poole had 400,198 residents in 2021, and the Bournemouth built-up area alone 196,455. Its age profile is unusual: people in their early twenties are above the England share, and so is every band from 65 upwards, while children aged 5 to 9 are fewer. Our tutors in India teach coding, AI, Python and maths in live online lessons for anyone from 6 to 67, privately or in classes of fifteen to twenty at a common stage. The first lesson is free and points to the right course. The Bournemouth project reads a famous novella written by a Bournemouth resident. Staying on costs USD 100 a month for a group or USD 150 a month one-to-one.
 
 Robert Louis Stevenson came to Bournemouth for its climate, and his father bought the couple a house there, which they renamed Skerryvore after a lighthouse built by the Stevenson family. In the chapter of her biography that covers those Bournemouth years, Nellie Van de Grift Sanchez tells how Stevenson dreamed the idea for Dr. Jekyll and Mr. Hyde, burned his first draft and rewrote it "from a different point of view". Point of view is exactly what a program can measure. Most of the book is told from outside, but its last two chapters are documents written by characters in their own voices. Could a computer tell which chapters are first-person just by counting the words I, me and my? A Bournemouth learner can find out, and discover why the first attempt fails.
 
-Facts last verified 27 September 2026. Teaching is online; no Bournemouth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Bournemouth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Bournemouth learners begin with
 
@@ -138,7 +138,7 @@ Every neighbourhood joins by live video.
 - **Learner-led code** The student types each program while the tutor follows the shared screen and asks questions.
 - **The right start** Year 3 or Year 12, each learner begins where their school year and trial show, with their exam board named.
 - **Free opening session** The first full lesson costs nothing and ends with a clear recommendation.
-- **Classes at one level** Groups of five to ten UK learners at the same stage.
+- **Classes at one level** Groups of fifteen to twenty UK learners at the same stage.
 - **Two lessons weekly** Twice a week in term; nothing in the holidays.
 - **Fixed lesson hour** UK clock changes are absorbed by our teachers.
 

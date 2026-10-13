@@ -290,7 +290,7 @@ Dhofar runs to 99,300 square kilometres, and a class that assumes everyone can r
 
 A learner in Thumrait or Rakhyut joins the same live class as one in Salalah.
 
-### Groups of five to eight
+### Groups of fifteen to twenty
 
 Compatible learners with one teacher and spoken feedback.
 
@@ -326,7 +326,7 @@ Goal review, ability task and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight live lessons, five to eight learners.
+Per month, normally eight live lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -426,7 +426,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the group size and schedule for Dhofar learners?
 
-A group normally has five to eight compatible learners, while private tuition is one learner with one teacher. Classes usually meet twice each week, normally eight times monthly. Oman is one and a half hours behind India. The recurring time is agreed before payment, with Friday and Saturday options subject to availability.
+A group normally has fifteen to twenty compatible learners, while private tuition is one learner with one teacher. Classes usually meet twice each week, normally eight times monthly. Oman is one and a half hours behind India. The recurring time is agreed before payment, with Friday and Saturday options subject to availability.
 
 ### What happens in the free Dhofar coding class?
 

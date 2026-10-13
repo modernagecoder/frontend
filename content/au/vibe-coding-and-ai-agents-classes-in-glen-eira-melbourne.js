@@ -315,7 +315,7 @@ module.exports = {
       { h3: 'A shared screen', p: 'Teacher and learner open the same project and write code together from the start.' },
       { h3: 'Victorian school terms', p: 'Lesson plans track the state terms and pause over the school holidays.' },
       { h3: 'A proper first lesson', p: 'The free trial covers real material and ends with a suggested course and time.' },
-      { h3: 'Small level-matched groups', p: 'Five to ten learners at one level, sometimes from several states.' },
+      { h3: 'Small level-matched groups', p: 'Fifteen to twenty learners at one level, sometimes from several states.' },
       { h3: 'Twice weekly', p: 'Two fixed lessons a week, roughly eight a month, with breaks agreed ahead.' },
       { h3: 'Teachers in India', p: 'A 6pm Glen Eira lesson in daylight saving starts at 12:30pm India time; after April it starts at 1:30pm there.' }
     ],
@@ -328,7 +328,7 @@ module.exports = {
     h2: 'Glen Eira class fees',
     intro: 'Three prices, all stated up front.',
     first: 'The opening lesson is free and closes with an honest recommendation.',
-    group: 'A month of group lessons, normally eight, with five to ten learners at the same level.',
+    group: 'A month of group lessons, normally eight, with fifteen to twenty learners at the same level.',
     private: 'Close to eight one-to-one lessons a month with the same teacher.',
     closer: 'Families outside India are billed in US dollars at a single rate. Nothing is charged until after the trial, once the course and time are fixed; the pricing page explains holidays, missed lessons and switching formats.'
   },
@@ -373,7 +373,7 @@ module.exports = {
       },
       {
         q: 'What do classes cost for Glen Eira learners?',
-        a: 'The first lesson is free. Group lessons then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.',
+        a: 'The first lesson is free. Group lessons then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.',
         boiler: true
       },
       {

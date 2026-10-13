@@ -188,7 +188,7 @@ Our tutors teach from India, which is four and a half hours behind Sydney in win
 - **Proof as a sentence** Students say what they are assuming and why it helps, before writing a symbol.
 - **Cases before claims** Quick tables or short programs check a statement before any proof is attempted.
 - **Both papers practised** Advanced items keep their place in revision, where careless marks hide.
-- **Classes of five to ten** Extension 1 students at one level, each explaining a step aloud every week.
+- **Classes of fifteen to twenty** Extension 1 students at one level, each explaining a step aloud every week.
 - **Individual help** A single tutor for a single focus area that will not click.
 - **No rank promises** We never forecast an ATAR or a band. The effort and the result are the student's.
 
@@ -197,7 +197,7 @@ Our tutors teach from India, which is four and a half hours behind Sydney in win
 One monthly charge in US dollars, identical for every family outside India, with no joining fee and nothing payable beyond the current month.
 
 - Free first class: USD 0. A full lesson with a tutor. A straight answer on readiness. No payment details.
-- Group batch: USD 100 a month. Five to ten students at one level. One tutor all term. Proofs marked and discussed. A certificate on completion.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. One tutor all term. Proofs marked and discussed. A certificate on completion.
 - One to one: USD 150 a month. A tutor for one student. Focused on chosen topics. Good for the weeks before trials.
 
 ## What Extension 1 families ask us

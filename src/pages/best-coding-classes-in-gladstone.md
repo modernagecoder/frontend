@@ -16,7 +16,7 @@ Gladstone, Queensland, Australia / Live online
 
 A loaded coal train cannot turn like a car. Where it reverses at the port it runs round a balloon loop, a teardrop of track that brings it back the way it came. Queensland publishes its railway centrelines as open map data, and around Gladstone harbour that data names nine balloon loops. Our project asks a plain question of them: how sharp is the tightest part of each loop? The answer comes from a three-line piece of geometry, the circle through three points, and from one surprisingly important decision, how far apart those three points should be.
 
-Facts last verified 8 October 2026. Teaching is online; no Gladstone branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 8 October 2026. Teaching is online; no Gladstone branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses that fit this project
 
@@ -187,7 +187,7 @@ The urban area stretches along the coast, and a video lesson reaches every part 
 - **One room for the whole coast** A learner at Tannum Sands and one in central Gladstone can join the same session, each from home.
 - **Local year levels** Teachers speak in the year levels Gladstone schools use and line homework up with the four Queensland terms. All teaching is in English.
 - **A real first lesson** The free session is an ordinary lesson rather than a sales call, and it ends with a suggested level, course and time. No card is needed to book.
-- **Groups at one level** Five to ten learners working at the same stage, from Gladstone and other places, so a regional city still gets a full group.
+- **Groups at one level** Fifteen to twenty learners working at the same stage, from Gladstone and other places, so a regional city still gets a full group.
 - **Twice a week** About eight lessons a month in a fixed slot, with exam weeks and holidays agreed with the teacher in advance.
 - **Four and a half hours apart** Neither Queensland nor India changes its clocks, so 6pm in Gladstone is 1:30pm India time in every month of the year.
 
@@ -198,7 +198,7 @@ The urban area stretches along the coast, and a video lesson reaches every part 
 Three lines cover the whole price list.
 
 - First class: USD 0. One complete lesson at no charge, after which you receive a level, a course suggestion and a regular time.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, shared with five to ten learners at your level.
+- Group tuition: USD 100 a month. A month of lessons, usually eight, shared with fifteen to twenty learners at your level.
 - Private tuition: USD 150 a month. Roughly eight lessons a month on the same pattern, with one teacher working only with you.
 
 Fees are charged in US dollars everywhere outside India, so a family in Clinton pays exactly what a family in Boyne Island pays. Nothing is billed until the trial has settled a course and a weekly slot, and the pricing page explains holidays, missed lessons and moving between group and private classes.
@@ -239,11 +239,11 @@ No, and none is claimed. Every lesson is live and online with no premises in Aus
 
 ### What do Gladstone coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and goals rather than age or postcode. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and goals rather than age or postcode. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Gladstone and Queensland learners
 

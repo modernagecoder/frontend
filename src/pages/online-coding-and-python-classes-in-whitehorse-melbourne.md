@@ -4,7 +4,7 @@ description: "Live online coding and Python classes for City of Whitehorse child
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-whitehorse-melbourne
 source: src/pages/online-coding-and-python-classes-in-whitehorse-melbourne.html
 ---
-> Through live lessons on screen, in groups of five to ten or one to one, writing Python that works on real public files. The City of Whitehorse had 169,346 residents at the 2021 Census, and 24.1% of its homes were townhouses, terraces or semi-detached houses, against 13.9% across Victoria.
+> Through live lessons on screen, in groups of fifteen to twenty or one to one, writing Python that works on real public files. The City of Whitehorse had 169,346 residents at the 2021 Census, and 24.1% of its homes were townhouses, terraces or semi-detached houses, against 13.9% across Victoria.
 
 [Home](/) / [Australia](/coding-classes-in-australia) / [Victoria](/coding-and-ai-classes-in-victoria) / [Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne) / City of Whitehorse
 
@@ -12,11 +12,11 @@ City of Whitehorse, Melbourne, Victoria / Live online
 
 # Online coding and Python classes in the City of Whitehorse
 
-**How can City of Whitehorse learners study coding and Python online?** Through live lessons on screen, in groups of five to ten or one to one, writing Python that works on real public files. The City of Whitehorse had 169,346 residents at the 2021 Census, and 24.1% of its homes were townhouses, terraces or semi-detached houses, against 13.9% across Victoria.
+**How can City of Whitehorse learners study coding and Python online?** Through live lessons on screen, in groups of fifteen to twenty or one to one, writing Python that works on real public files. The City of Whitehorse had 169,346 residents at the 2021 Census, and 24.1% of its homes were townhouses, terraces or semi-detached houses, against 13.9% across Victoria.
 
 Victoria publishes one file of station entries for each financial year. A script that reads all of them has to find them first, and that is where small mistakes hide. Ask for files containing "2024" and you get two years, not one. Ask for files ending "_2024" and you get the year that finished in 2024, which may not be the one you meant.
 
-Facts last verified 10 October 2026. Teaching is online; no City of Whitehorse branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no City of Whitehorse branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that teach Python for real files
 
@@ -189,7 +189,7 @@ Lessons are live on screen, so learners join from home in any suburb of the coun
 - **Shared code** Learners open a link, share a screen and the teacher works through the code with them live.
 - **State terms** Courses follow Victoria's four school terms and pause in the holidays between.
 - **A first class** The free trial is a real lesson; afterwards we recommend a course and a fixed weekly time.
-- **Group size** Five to ten learners in each group, sorted by level rather than location.
+- **Group size** Fifteen to twenty learners in each group, sorted by level rather than location.
 - **Twice a week** Two lessons a week, about eight a month, with breaks agreed beforehand.
 - **Teachers in India** Teachers work from India, so a 5pm Whitehorse lesson in summer is 11:30am India time, and 12:30pm after daylight saving ends.
 
@@ -200,7 +200,7 @@ Lessons are live on screen, so learners join from home in any suburb of the coun
 Three prices, in plain terms.
 
 - First class: USD 0. The first lesson is free and ends with an honest view of where to go next.
-- Group tuition: USD 100 a month. A month of group lessons, usually eight, in a group of five to ten at one level.
+- Group tuition: USD 100 a month. A month of group lessons, usually eight, in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. About eight one-to-one lessons each month.
 
 Outside India we bill in US dollars, so a Whitehorse family pays the same as families anywhere else abroad. Payment starts only once the trial has agreed a course and time; holidays, missed lessons and format switches are explained on the pricing page.
@@ -237,11 +237,11 @@ No. All lessons are live online, we have no Australian premises, and the phone n
 
 ### How much do Python classes cost for City of Whitehorse learners?
 
-The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for one-to-one lessons. Course, format and time are agreed before you pay.
+The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for one-to-one lessons. Course, format and time are agreed before you pay.
 
 ### How are groups made up?
 
-Five to ten learners at a matching level, pace and goal; private lessons fill the gap when no group time works.
+Fifteen to twenty learners at a matching level, pace and goal; private lessons fill the gap when no group time works.
 
 ### Can adults learn Python with you?
 

@@ -258,7 +258,7 @@ module.exports = {
     cells: [
       { h3: 'One teacher, all year', p: 'Continuity means patterns in a child\'s mistakes are spotted early.' },
       { h3: 'Brief honest reports', p: 'A few plain lines to parents after lessons, good news and bad.' },
-      { h3: 'Five to ten per class', p: 'Children at the same level, so the pace suits everyone in the room.' },
+      { h3: 'Fifteen to twenty per class', p: 'Children at the same level, so the pace suits everyone in the room.' },
       { h3: 'Written by us', p: 'All questions are ours, in both formats; no school material is reproduced.' },
       { h3: 'Private option', p: 'One to one when a child needs targeted help with written answers.' },
       { h3: 'Maths only', p: 'We do not teach the English papers and do not advise on admissions.' }
@@ -273,7 +273,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A flat monthly fee in US dollars, as for all families outside India. No deposit and no minimum term.',
     free: ['A full lesson with a teacher', 'An honest account of what we saw', 'No card asked for'],
-    group: ['Five to ten children, one level', 'The same teacher weekly', 'Written work marked and returned', 'A certificate at the end'],
+    group: ['Fifteen to twenty children, one level', 'The same teacher weekly', 'Written work marked and returned', 'A certificate at the end'],
     one: ['One teacher, one child', 'Focused on written answers if needed', 'Valuable between the SET and stage two']
   },
 

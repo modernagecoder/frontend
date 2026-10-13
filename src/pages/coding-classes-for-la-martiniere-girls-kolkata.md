@@ -24,7 +24,7 @@ Yet the numbers tell a concerning story: **only 28% of the global STEM workforce
 
 At Modern Age Coders, we have designed our coding classes specifically to complement the **ICSE Computer Applications curriculum** that La Martiniere for Girls follows. While the school syllabus introduces concepts in Java and HTML, our courses go far deeper, teaching students to build real-world projects, from interactive websites and Python-powered data analysis tools to AI chatbots and mobile applications. This hands-on approach transforms theoretical knowledge into practical skill, giving your daughter a significant edge in ICSE board examinations and beyond.
 
-We understand that La Martiniere Girls have demanding schedules packed with academics, sports, music, dance, and social service commitments. That is why we offer flexible **after-school evening batches (4 PM - 8 PM)** and **weekend sessions (Saturday and Sunday)** designed to fit seamlessly around your daughter's routine. Our small batch sizes of just 5-8 students ensure personalized attention, and every session is recorded so she never falls behind, even during exam periods or school events.
+We understand that La Martiniere Girls have demanding schedules packed with academics, sports, music, dance, and social service commitments. That is why we offer flexible **after-school evening batches (4 PM - 8 PM)** and **weekend sessions (Saturday and Sunday)** designed to fit seamlessly around your daughter's routine. Our batch sizes of just 15-20 students ensure personalized attention, and every session is recorded so she never falls behind, even during exam periods or school events.
 
 What makes our approach truly different is the learning environment. We offer **girls-only coding batches**, creating a safe, supportive space where your daughter can ask questions without hesitation, experiment without fear of judgement, and build confidence alongside like-minded peers. From Ritu Karidhal at ISRO to Neha Narkhede at Confluent, from Debjani Ghosh leading NASSCOM to the thousands of women engineers at Google, Microsoft, and Amazon, the future of technology includes everyone, and we want La Martiniere Girls to be part of it.
 
@@ -177,9 +177,9 @@ Industry-experienced teachers including female instructors who serve as role mod
 
 👥
 
-### Small Batch Sizes
+### Batch Sizes
 
-Only 5-8 students per batch ensures every La Martiniere girl gets personal attention, can ask questions freely, and learns at her own pace.
+Only 15-20 students per batch ensures every La Martiniere girl gets personal attention, can ask questions freely, and learns at her own pace.
 
 💻
 
@@ -224,7 +224,7 @@ Premium quality education at honest prices. No hidden fees. Free demo class befo
 ₹1,499/month
 
 - ✓ 2 Live Classes per Week
-- ✓ Small Batch Size (5-8 Students)
+- ✓ Batch Size (15-20 Students)
 - ✓ Recorded Sessions Access
 - ✓ Doubt Clearing Support
 - ✓ Project-Based Learning
@@ -297,7 +297,7 @@ Girls-only batches available
 
 ₹1,499/month
 
-- ✓ 5-8 Students per Batch
+- ✓ 15-20 Students per Batch
 - ✓ 2 Live Classes per Week
 - ✓ Peer Learning & Team Projects
 - ✓ Recorded Sessions Access
@@ -327,7 +327,7 @@ Finding the right **coding classes near Rawdon Street, Kolkata** for your La Mar
 
 Our curriculum covers the full spectrum of technology education: from **Scratch programming for Classes 1-5** to **Python and Java for Classes 6-10** to **AI, Machine Learning, and Full Stack Web Development for Classes 11-12**. Every course is mapped to the ICSE Computer Applications syllabus, giving your daughter a direct academic advantage while building career-ready skills that go far beyond the textbook. We also offer comprehensive **ICSE Mathematics, Olympiad preparation (IMO, PRMO, RMO), and JEE/WBJEE maths** coaching.
 
-What makes us unique for La Martiniere Girls families is our availability of **girls-only batches** taught by expert instructors in a supportive, empowering environment. With a small batch size of just 5-8 students, every student receives personalized attention. Our after-school evening batches (4 PM – 8 PM) and weekend sessions are specifically designed around the demanding La Martiniere schedule. We also offer **1-on-1 personalized classes** for families who prefer dedicated instruction.
+What makes us unique for La Martiniere Girls families is our availability of **girls-only batches** taught by expert instructors in a supportive, empowering environment. With a batch size of just 15-20 students, every student receives personalized attention. Our after-school evening batches (4 PM – 8 PM) and weekend sessions are specifically designed around the demanding La Martiniere schedule. We also offer **1-on-1 personalized classes** for families who prefer dedicated instruction.
 
 We are proud to be trusted by families from both La Martiniere for Girls and [La Martiniere for Boys](/coding-classes-for-la-martiniere-boys-kolkata). With 10,000+ students taught, a 4.9/5 parent rating, and completion certificates that add genuine value to school portfolios and college applications, Modern Age Coders is the trusted choice for **La Martiniere Girls coding education in Kolkata**.
 
@@ -385,7 +385,7 @@ Today, only 28% of the global STEM workforce is female, and that percentage is g
 
 +
 
-Group classes start at just ₹1499 per month, which includes 2 live interactive sessions per week, small batch sizes of 5-8 students, recorded session access, and doubt-clearing support. Mini Batch (3-4 students) is ₹2,999 per month. For personalised 1-on-1 classes with customised curriculum and scheduling, the cost is ₹4,999 per month. We offer a free demo class before any commitment so you and your daughter can experience our teaching approach firsthand.
+Group classes start at just ₹1499 per month, which includes 2 live interactive sessions per week, batch sizes of 15-20 students, recorded session access, and doubt-clearing support. Mini Batch (up to 6 students) is ₹2,999 per month. For personalised 1-on-1 classes with customised curriculum and scheduling, the cost is ₹4,999 per month. We offer a free demo class before any commitment so you and your daughter can experience our teaching approach firsthand.
 
 ## Explore More
 

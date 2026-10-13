@@ -179,7 +179,7 @@ There is no route from here to the rest of Oman that stays in Oman. A lesson del
 
 A full class with a genuine task, finishing on a specific recommendation. We take no card details to arrange it and ask for no decision until somebody has watched us teach.
 
-### Groups of five to eight, set by ability
+### Groups of fifteen to twenty, set by ability
 
 Who joins a group depends on what a learner can already do and what they want next. Which side of which boundary they live on plays no part, which in Madha is not a small claim.
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Madha learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Madha class times arranged?
 

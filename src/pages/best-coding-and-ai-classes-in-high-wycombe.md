@@ -4,7 +4,7 @@ description: "Online coding, AI, Python and programming lessons for High Wycombe
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-high-wycombe
 source: src/pages/best-coding-and-ai-classes-in-high-wycombe.html
 ---
-> High Wycombe is a built-up area of 83,535 people in the 2021 census, with Hazlemere at 20,005 and Beaconsfield at 14,145 nearby in Buckinghamshire, a county where 10 to 14 year olds make up 6.7 per cent of residents against 6.0 in England. The town built its name on chairs, and Wycombe Museum opened a Chair Discovery Centre in 2026. Learners anywhere from 6 to 67 can join our live online lessons in coding, AI, Python programming and maths, taught by teachers in India, either privately or in a group of five to ten matched by level. Your first lesson is free and shapes the plan. The High Wycombe project uses the museum's own chair records. Staying on is USD 100 a month for a class or USD 150 a month with a personal tutor.
+> High Wycombe is a built-up area of 83,535 people in the 2021 census, with Hazlemere at 20,005 and Beaconsfield at 14,145 nearby in Buckinghamshire, a county where 10 to 14 year olds make up 6.7 per cent of residents against 6.0 in England. The town built its name on chairs, and Wycombe Museum opened a Chair Discovery Centre in 2026. Learners anywhere from 6 to 67 can join our live online lessons in coding, AI, Python programming and maths, taught by teachers in India, either privately or in a group of fifteen to twenty matched by level. Your first lesson is free and shapes the plan. The High Wycombe project uses the museum's own chair records. Staying on is USD 100 a month for a class or USD 150 a month with a personal tutor.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / High Wycombe
 
@@ -12,11 +12,11 @@ High Wycombe, Buckinghamshire, England / Live online
 
 # Coding and AI classes in High Wycombe
 
-**What are the best coding and AI classes in High Wycombe?** High Wycombe is a built-up area of 83,535 people in the 2021 census, with Hazlemere at 20,005 and Beaconsfield at 14,145 nearby in Buckinghamshire, a county where 10 to 14 year olds make up 6.7 per cent of residents against 6.0 in England. The town built its name on chairs, and Wycombe Museum opened a Chair Discovery Centre in 2026. Learners anywhere from 6 to 67 can join our live online lessons in coding, AI, Python programming and maths, taught by teachers in India, either privately or in a group of five to ten matched by level. Your first lesson is free and shapes the plan. The High Wycombe project uses the museum's own chair records. Staying on is USD 100 a month for a class or USD 150 a month with a personal tutor.
+**What are the best coding and AI classes in High Wycombe?** High Wycombe is a built-up area of 83,535 people in the 2021 census, with Hazlemere at 20,005 and Beaconsfield at 14,145 nearby in Buckinghamshire, a county where 10 to 14 year olds make up 6.7 per cent of residents against 6.0 in England. The town built its name on chairs, and Wycombe Museum opened a Chair Discovery Centre in 2026. Learners anywhere from 6 to 67 can join our live online lessons in coding, AI, Python programming and maths, taught by teachers in India, either privately or in a group of fifteen to twenty matched by level. Your first lesson is free and shapes the plan. The High Wycombe project uses the museum's own chair records. Staying on is USD 100 a month for a class or USD 150 a month with a personal tutor.
 
 A Science Museum Group record describes a lathe once used near High Wycombe by a bodger, a craftsman who turned the legs of Windsor chairs, still working until around 1953. Wycombe Museum now holds almost 250 chairs in its Chair Discovery Centre and is putting its chair records online: about 12 per cent, 34 records, in 2020, and a further 21 in 2025. Look through those online records and a simple question gets tricky. What share of these chairs were made in High Wycombe? Some records name the town, some name other places, and some leave the place blank or write "Unknown". How you treat those gaps changes the answer by almost thirty percentage points. This page's project works through it in Python.
 
-Facts last verified 27 September 2026. Teaching is online; no High Wycombe branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no High Wycombe branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Good first courses for High Wycombe
 
@@ -137,7 +137,7 @@ Wherever you live around High Wycombe, the class comes to you.
 - **Student-written code** Each learner types their own programs; the tutor studies the shared screen and prompts at the right moments.
 - **Year-group placement** A Year 2 or a Year 11 starts at the point their year and trial lesson suggest, using exam board wording.
 - **No-cost first lesson** A full trial with nothing to pay, and a plain recommendation at the end.
-- **Level-matched classes** Five to ten learners at one stage, gathered from all over Britain.
+- **Level-matched classes** Fifteen to twenty learners at one stage, gathered from all over Britain.
 - **Termly rhythm** Two sessions a week while schools are in, none during breaks.
 - **Stable UK time** The March and October clock changes leave your slot where it was.
 

@@ -48,7 +48,7 @@ The price on our pricing page is the whole price. Nothing is added later.
 
 ### Small live batches
 
-Group classes are capped at 10 students, mini batches at 3 to 4, and full 1-on-1 is available.
+Group classes are capped at 20 students, mini batches of up to 6, and full 1-on-1 is available.
 
 ### You keep everything you build
 

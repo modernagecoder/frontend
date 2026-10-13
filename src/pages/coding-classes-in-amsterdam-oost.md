@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Amsterdam-Oost for ag
 canonical: https://learn.modernagecoders.com/coding-classes-in-amsterdam-oost
 source: src/pages/coding-classes-in-amsterdam-oost.html
 ---
-> Coding classes in Amsterdam-Oost reach a district assembled in 2010 out of two older ones, holding a quarter built after 1900, a dock converted from the 1990s and an island under construction since 2002. IJburg-West has 6,830 homes and 16,099 residents. Indische Buurt-West has 6,712 homes and 11,939 residents. The housing stock differs by 118 units and the population by 4,160 people, and every explanation for that lives in who chose to move where. Modern Age Coders teaches live online in English from the Ambonpleinbuurt to the Rieteilanden, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Amsterdam-Oost reach a district assembled in 2010 out of two older ones, holding a quarter built after 1900, a dock converted from the 1990s and an island under construction since 2002. IJburg-West has 6,830 homes and 16,099 residents. Indische Buurt-West has 6,712 homes and 11,939 residents. The housing stock differs by 118 units and the population by 4,160 people, and every explanation for that lives in who chose to move where. Modern Age Coders teaches live online in English from the Ambonpleinbuurt to the Rieteilanden, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Amsterdam](/coding-classes-in-amsterdam) / Amsterdam-Oost
 
@@ -12,11 +12,11 @@ Oost, Amsterdam / Live online
 
 # Coding classes in Amsterdam-Oost, where two neighbourhoods with the same number of homes hold 4,160 more people in one than the other
 
-**What are the best coding classes in Amsterdam-Oost?** Coding classes in Amsterdam-Oost reach a district assembled in 2010 out of two older ones, holding a quarter built after 1900, a dock converted from the 1990s and an island under construction since 2002. IJburg-West has 6,830 homes and 16,099 residents. Indische Buurt-West has 6,712 homes and 11,939 residents. The housing stock differs by 118 units and the population by 4,160 people, and every explanation for that lives in who chose to move where. Modern Age Coders teaches live online in English from the Ambonpleinbuurt to the Rieteilanden, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Amsterdam-Oost?** Coding classes in Amsterdam-Oost reach a district assembled in 2010 out of two older ones, holding a quarter built after 1900, a dock converted from the 1990s and an island under construction since 2002. IJburg-West has 6,830 homes and 16,099 residents. Indische Buurt-West has 6,712 homes and 11,939 residents. The housing stock differs by 118 units and the population by 4,160 people, and every explanation for that lives in who chose to move where. Modern Age Coders teaches live online in English from the Ambonpleinbuurt to the Rieteilanden, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Two neighbourhoods in the same district. One has 6,830 homes, the other 6,712, a difference of under two percent. One holds 16,099 people and the other 11,939, a difference of thirty-five percent. Nothing about the ground explains that. What differs is the size of the homes and, far more importantly, who wanted them: families took the new island and single people took the older quarter. Any comparison between these two places is, before it is anything else, a comparison between two sets of people who selected themselves.
 
-Facts last verified 8 September 2026. Teaching is online; no Amsterdam-Oost branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 8 September 2026. Teaching is online; no Amsterdam-Oost branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a district built in three different centuries
 
@@ -202,7 +202,7 @@ Oost runs from streets built before the First World War to ground that did not e
 Written down here instead of held back for a call.
 
 - First class: USD 0. A full lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 There is one international rate, quoted in dollars, and no euro edition, so an address on the Rieteilanden sees exactly what an address in the Ambonpleinbuurt sees. Nothing is charged until the free lesson has settled a course and an hour, and payment is arranged over WhatsApp afterwards. Pausing, changing plan and missing a week are described on the pricing page.
@@ -243,7 +243,7 @@ No, and none is claimed on IJburg, elsewhere in Amsterdam or anywhere in the Net
 
 ### What do Amsterdam-Oost coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight in a month, in a group of five to ten. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight in a month, in a group of fifteen to twenty. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

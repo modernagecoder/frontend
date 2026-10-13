@@ -1,10 +1,10 @@
 ---
 title: "CEMC Waterloo Contest Preparation: Gauss to Euclid, Live Online"
-description: "Live online prep for the CEMC Waterloo contests, Gauss to Euclid: the published 2026-27 dates, school-only entry, full-solution writing, batches of 5 to 10."
+description: "Live online prep for the CEMC Waterloo contests, Gauss to Euclid: the published 2026-27 dates, school-only entry, full-solution writing, batches of 15 to 20."
 canonical: https://learn.modernagecoders.com/cemc-waterloo-contests-preparation
 source: src/pages/cemc-waterloo-contests-preparation.html
 ---
-> Live online prep for the CEMC Waterloo contests, Gauss to Euclid: the published 2026-27 dates, school-only entry, full-solution writing, batches of 5 to 10.
+> Live online prep for the CEMC Waterloo contests, Gauss to Euclid: the published 2026-27 dates, school-only entry, full-solution writing, batches of 15 to 20.
 
 Start here
 
@@ -16,7 +16,7 @@ CEMC sets its papers on the school curriculum up to each grade, plus problems th
 
 Ans. The short version
 
-The CEMC contests are the University of Waterloo's family of mathematics contests: Gauss for Grades 7 and 8, Pascal, Cayley and Fermat for Grades 9 to 11, Fryer, Galois and Hypatia as their full-solution counterparts, Euclid for Grade 12, and the Canadian Senior and Intermediate contests. Every 2026-27 date is published: Pascal, Cayley and Fermat on 24 to 25 February 2027 outside the Americas, Euclid on 7 April, Fryer, Galois and Hypatia on 8 April, Gauss in the 10 to 21 May window, with dates one day earlier in North and South America. Entry is through a school that holds a CEMC account; students cannot register individually and contests are written in a classroom under supervision. Modern Age Coders prepares students for them live online in batches of five to ten grouped by grade: one class a week on the mathematics and the multiple-choice technique, one on timed practice and full-solution writing using CEMC's own past contests. The first class is a free demo, and the group batch fee is shown on this page in your own currency.
+The CEMC contests are the University of Waterloo's family of mathematics contests: Gauss for Grades 7 and 8, Pascal, Cayley and Fermat for Grades 9 to 11, Fryer, Galois and Hypatia as their full-solution counterparts, Euclid for Grade 12, and the Canadian Senior and Intermediate contests. Every 2026-27 date is published: Pascal, Cayley and Fermat on 24 to 25 February 2027 outside the Americas, Euclid on 7 April, Fryer, Galois and Hypatia on 8 April, Gauss in the 10 to 21 May window, with dates one day earlier in North and South America. Entry is through a school that holds a CEMC account; students cannot register individually and contests are written in a classroom under supervision. Modern Age Coders prepares students for them live online in batches of fifteen to twenty grouped by grade: one class a week on the mathematics and the multiple-choice technique, one on timed practice and full-solution writing using CEMC's own past contests. The first class is a free demo, and the group batch fee is shown on this page in your own currency.
 
 Q1. Which contest, on which date, in what shape?
 
@@ -169,7 +169,7 @@ Group batch · by grade band
 
 per month
 
-- Five to ten students, in the same grade band
+- Fifteen to twenty students, in the same grade band
 - Two live classes a week, mathematics and timed contest practice
 - Placement paper, weekly marked solutions, two full rehearsals
 - Certificate on completion
@@ -182,7 +182,7 @@ Mini batch
 
 per month
 
-- Three to four students
+- Up to six students
 - Timings agreed around the family
 - More marked full-solution writing per student
 

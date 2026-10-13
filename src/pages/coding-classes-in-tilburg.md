@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Tilburg for ages 6 to
 canonical: https://learn.modernagecoders.com/coding-classes-in-tilburg
 source: src/pages/coding-classes-in-tilburg.html
 ---
-> Coding classes in Tilburg serve a municipality of 230,746 people (Statistics Netherlands, 1 January 2026), the second city of Noord-Brabant and the sixth or seventh largest in the country depending on the year you check. The statistics office divides it into 59 wijken and 254 buurten, so its average neighbourhood holds 3,911 people; it divides Groningen, a city 6 percent larger, into 20 wijken, whose average holds 12,221. Neither city is more neighbourly than the other. Modern Age Coders teaches live online in English across all of them, for ages 6 to 67, with the first lesson free and then USD 100 a month for a group of five to ten or USD 150 one-to-one.
+> Coding classes in Tilburg serve a municipality of 230,746 people (Statistics Netherlands, 1 January 2026), the second city of Noord-Brabant and the sixth or seventh largest in the country depending on the year you check. The statistics office divides it into 59 wijken and 254 buurten, so its average neighbourhood holds 3,911 people; it divides Groningen, a city 6 percent larger, into 20 wijken, whose average holds 12,221. Neither city is more neighbourly than the other. Modern Age Coders teaches live online in English across all of them, for ages 6 to 67, with the first lesson free and then USD 100 a month for a group of fifteen to twenty or USD 150 one-to-one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Tilburg
 
@@ -12,11 +12,11 @@ Tilburg, Noord-Brabant / Live online
 
 # Coding classes in Tilburg, where the average neighbourhood has 3,911 people because someone drew 59 of them
 
-**What are the best coding classes in Tilburg?** Coding classes in Tilburg serve a municipality of 230,746 people (Statistics Netherlands, 1 January 2026), the second city of Noord-Brabant and the sixth or seventh largest in the country depending on the year you check. The statistics office divides it into 59 wijken and 254 buurten, so its average neighbourhood holds 3,911 people; it divides Groningen, a city 6 percent larger, into 20 wijken, whose average holds 12,221. Neither city is more neighbourly than the other. Modern Age Coders teaches live online in English across all of them, for ages 6 to 67, with the first lesson free and then USD 100 a month for a group of five to ten or USD 150 one-to-one.
+**What are the best coding classes in Tilburg?** Coding classes in Tilburg serve a municipality of 230,746 people (Statistics Netherlands, 1 January 2026), the second city of Noord-Brabant and the sixth or seventh largest in the country depending on the year you check. The statistics office divides it into 59 wijken and 254 buurten, so its average neighbourhood holds 3,911 people; it divides Groningen, a city 6 percent larger, into 20 wijken, whose average holds 12,221. Neither city is more neighbourly than the other. Modern Age Coders teaches live online in English across all of them, for ages 6 to 67, with the first lesson free and then USD 100 a month for a group of fifteen to twenty or USD 150 one-to-one.
 
 A newspaper says the average Dutch neighbourhood has so many people, so much income, so much of something per head. Before believing it, ask who drew the neighbourhood. Tilburg is cut into 59 wijken and Groningen into 20, for populations that differ by six percent, so Tilburg's average wijk is a third the size of Groningen's before a single person moves house. A child who has computed both averages and seen the gap has learned that a per-area statistic measures the map as much as the place.
 
-Facts last verified 7 September 2026. Teaching is online; no Tilburg branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Tilburg branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city that rebuilt itself once already
 
@@ -208,7 +208,7 @@ Reeshof to Udenhout is a real journey on a wet Tuesday, and Berkel-Enschot has i
 Published on the page so nobody has to ask.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 There is a single international rate, quoted in dollars, and no separate euro list, which means an Udenhout family and a city-centre family see the same figure. Money changes hands only after the free lesson has produced a course and a timetable, and it changes hands over WhatsApp. What happens if you pause, change plan or miss a week is set out on the pricing page.
@@ -249,7 +249,7 @@ No, and none is claimed near the university, in the Reeshof or anywhere in the N
 
 ### What do Tilburg coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Tilburg group?
 

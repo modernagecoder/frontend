@@ -16,7 +16,7 @@ Indooroopilly, City of Brisbane, Queensland / Live online
 
 Indooroopilly is a busy junction: a railway station, a shopping-centre bus station and a long run of Moggill Road stops all sit inside the suburb outline. Translink schedules 4,365 stop visits there on Wednesday 21 October 2026 across 41 routes. An assistant asked "when is the next bus at every stop?" has to make 84 separate tool calls, and how it makes them is the lesson.
 
-Facts last verified 12 October 2026. Teaching is online; no Indooroopilly branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Indooroopilly branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Agents and AI tool courses
 
@@ -177,7 +177,7 @@ Lessons are live on video, so any home in the suburb works as the classroom.
 - **Shared screen** The teacher follows the learner's own code as they type and test it.
 - **Holiday breaks** Classes run in Queensland terms and stop for school holidays.
 - **No-cost first lesson** A full trial lesson, then a recommendation in writing.
-- **Matched groups** Five to ten learners at the same level, or private lessons.
+- **Matched groups** Fifteen to twenty learners at the same level, or private lessons.
 - **Two lessons weekly** Around eight live sessions a month.
 - **Teachers in India** A 4:30pm Indooroopilly class is noon in India, every week of the year.
 
@@ -188,7 +188,7 @@ Lessons are live on video, so any home in the suburb works as the classroom.
 The same fees for every learner.
 
 - First class: USD 0. The opening lesson costs nothing and finishes with a plan.
-- Group tuition: USD 100 a month. Groups: roughly eight lessons a month, five to ten learners.
+- Group tuition: USD 100 a month. Groups: roughly eight lessons a month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. One to one: roughly eight lessons a month with your own teacher.
 
 Fees for Indooroopilly families are in US dollars. Payment starts once the trial has settled a course and a weekly time; the pricing page covers holidays and missed lessons.
@@ -225,11 +225,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Indooroopilly classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### How many bus and train routes stop in Indooroopilly?
 

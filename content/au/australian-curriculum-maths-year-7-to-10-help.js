@@ -217,7 +217,7 @@ module.exports = {
     cells: [
       { h3: 'Working shown', p: 'Every solution written out, because that is how marks are awarded.' },
       { h3: 'Gaps found first', p: 'A short diagnostic before new content.' },
-      { h3: 'Groups of five to ten', p: 'Grouped by level rather than strictly by year.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Grouped by level rather than strictly by year.' },
       { h3: 'One-to-one lessons', p: 'For a specific gap or a student ready to move fast.' },
       { h3: 'Brief parent notes', p: 'What was covered and what to practise.' },
       { h3: 'No grade promises', p: 'We teach the maths properly; results belong to the student.' }
@@ -232,7 +232,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Australian families pay monthly in US dollars, the same rate we charge in every country outside India. No deposit, and you can stop at the end of any month.',
     free: ['A lesson with a real teacher', 'A short diagnostic of where things stand', 'No payment details'],
-    group: ['Five to ten students at one level', 'The same teacher every week', 'Homework marked and explained', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher every week', 'Homework marked and explained', 'A certificate at the end'],
     one: ['A teacher for one student', 'Focused on chosen topics', 'A weekly time that suits you']
   },
 

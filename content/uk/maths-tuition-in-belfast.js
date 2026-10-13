@@ -43,7 +43,7 @@ module.exports = {
   twitterDescription: 'Belfast maths, taught live online: how far could you see from the top of Divis on a perfectly smooth Earth? One right angle answers it.',
   pageName: 'Maths Tuition in Belfast',
   webPageDescription: 'Live online maths tuition for Belfast learners aged 6 to 67 under the Northern Ireland Curriculum, from primary maths to CCEA GCSE Mathematics and Further Mathematics, AS and A2 Mathematics, and adult study, with a circle-theorem project on the Belfast Hills.',
-  courseDescription: 'Live online maths for Belfast learners at every stage, taught in level-matched groups of five to ten or one to one, with GCSE and A level lessons steered to the CCEA specifications.',
+  courseDescription: 'Live online maths for Belfast learners at every stage, taught in level-matched groups of fifteen to twenty or one to one, with GCSE and A level lessons steered to the CCEA specifications.',
   crumbs: [{ name: 'Courses', href: '/courses' }, { name: 'Coding classes in the UK', href: '/coding-classes-in-united-kingdom' }],
   crumbLabel: 'Maths tuition in Belfast',
   navLinks: [
@@ -66,11 +66,11 @@ module.exports = {
     ['Extra GCSE', 'CCEA GCSE Further Mathematics'],
     ['Sixth form', 'CCEA AS and A2 Mathematics'],
     ['Adults', 'Refreshers, Functional Mathematics, GCSE'],
-    ['Format', 'Live video, 5 to 10 per class or one to one'],
+    ['Format', 'Live video, 15 to 20 per class or one to one'],
     ['Local project', 'Horizons from Divis and Black Mountain']
   ],
   capsuleQ: 'In short',
-  capsule: 'Belfast learners from 6 to 67 can study maths with us live online: primary maths from P1 to P7, Years 8 to 10, CCEA GCSE Mathematics at Foundation or Higher tier, CCEA GCSE Further Mathematics, CCEA AS and A2 Mathematics, and adult maths. Classes hold five to ten learners at the same level, or a learner can work one to one. Our Belfast example uses the hills: on a smooth Earth without refraction, the horizon from the 478 metre summit of Divis is 78.0 kilometres away, found with the circle theorem that a tangent is perpendicular to a radius and with Pythagoras. The first lesson is free. Afterwards, group places cost USD 100 a month and private lessons USD 150 a month.',
+  capsule: 'Belfast learners from 6 to 67 can study maths with us live online: primary maths from P1 to P7, Years 8 to 10, CCEA GCSE Mathematics at Foundation or Higher tier, CCEA GCSE Further Mathematics, CCEA AS and A2 Mathematics, and adult maths. Classes hold fifteen to twenty learners at the same level, or a learner can work one to one. Our Belfast example uses the hills: on a smooth Earth without refraction, the horizon from the 478 metre summit of Divis is 78.0 kilometres away, found with the circle theorem that a tangent is perpendicular to a radius and with Pythagoras. The first lesson is free. Afterwards, group places cost USD 100 a month and private lessons USD 150 a month.',
 
   picks: {
     eyebrow: 'Common starting points in Belfast',
@@ -263,7 +263,7 @@ module.exports = {
     cells: [
       { h3: 'One teacher throughout', p: 'The same teacher each week, who learns each learner\'s habits.' },
       { h3: 'Updates home', p: 'A brief note after lessons on progress and next steps.' },
-      { h3: 'Classes by level', p: 'Five to ten learners at one level in each class.' },
+      { h3: 'Classes by level', p: 'Fifteen to twenty learners at one level in each class.' },
       { h3: 'Real numbers', p: 'Hill heights, maps and records next to exam questions.' },
       { h3: 'Private teaching', p: 'One to one for a single topic or the last weeks before exams.' },
       { h3: 'Understanding before speed', p: 'Methods are explained, then practised.' }
@@ -278,7 +278,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Paid monthly in US dollars, at the same rate for every country outside India, with no joining fee and no fixed term.',
     free: ['A real lesson at the right level', 'Our candid view afterwards', 'No card details asked for'],
-    group: ['Five to ten learners at one level', 'A regular teacher', 'Marked work, discussed in class', 'A certificate when you finish'],
+    group: ['Fifteen to twenty learners at one level', 'A regular teacher', 'Marked work, discussed in class', 'A certificate when you finish'],
     one: ['Individual teaching', 'Focused on the exact gap', 'Well suited to the run-up to exams']
   },
 

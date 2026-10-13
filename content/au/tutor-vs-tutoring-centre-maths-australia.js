@@ -86,7 +86,7 @@ module.exports = {
           ['Private tutor', 'One child, one tutor, at home, at the tutor\'s place or online', 'Every minute is about your child', 'Tutor\'s qualifications and screening vary widely'],
           ['Tutoring centre', 'Several children at desks working through programs, one supervising teacher', 'Structure, routine and a lower fee per child', 'How much individual teaching each child actually gets'],
           ['Coaching college', 'Larger classes aimed at exams, selective tests or senior years', 'Exam focus and practice volume', 'Pace set for the class, not the child'],
-          ['Live online small group', 'Five to ten children of a similar level with one teacher on video', 'Teacher sees each child\'s working on screen, lower fee than one to one', 'Needs a quiet spot and a working computer at home']
+          ['Live online small group', 'Fifteen to twenty children of a similar level with one teacher on video', 'Teacher sees each child\'s working on screen, lower fee than one to one', 'Needs a quiet spot and a working computer at home']
         ] },
         { kind: 'p', mt: true, html: 'The Australian Tutoring Association, the national peak body for tutoring, explains the price side neatly: "One-to-one sessions tend to levy a higher fee for the student/family. Where the ratio of students to tutor is higher (such as in a class) the individual fee may be significantly lower and the tutor rate overall higher." In plain terms, a centre or class spreads one teacher across several children, so each family pays less and each child gets a share of the teacher.' },
         { kind: 'two', mt: true,
@@ -118,7 +118,7 @@ module.exports = {
         { kind: 'two', mt: true,
           leftH3: 'Our answers, for transparency',
           left: [
-            'Groups have five to ten learners at a similar level, or lessons are one to one. Parents can watch any lesson, and the teacher tells families which topics are secure and which are not.',
+            'Groups have fifteen to twenty learners at a similar level, or lessons are one to one. Parents can watch any lesson, and the teacher tells families which topics are secure and which are not.',
             'If a child is not progressing, the teacher changes the explanation or suggests switching between group and private lessons.'
           ],
           rightH3: 'One thing we cannot offer',
@@ -191,7 +191,7 @@ module.exports = {
       lede: 'We are neither a centre nor a single private tutor. Here is how our format lines up against the questions above.',
       body: [
         { kind: 'three', cells: [
-          { h3: 'Small groups or one to one', p: 'Five to ten learners at a similar level, or a teacher to yourself, chosen after the free first lesson.' },
+          { h3: 'Small groups or one to one', p: 'Fifteen to twenty learners at a similar level, or a teacher to yourself, chosen after the free first lesson.' },
           { h3: 'Working on screen', p: 'Learners write their working where the teacher can see it, so mistakes are read, not just marked.' },
           { h3: 'Named gaps', p: 'Families hear which topics are secure and which need work, in plain words.' }
         ] },
@@ -274,7 +274,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Maths lessons outside India are billed monthly in US dollars, one rate for every country. A small group costs less per learner than one to one. There is no joining fee and no term contract.',
     free: ['A free first maths lesson', 'A quick diagnosis of strengths and gaps', 'No card details'],
-    group: ['Five to ten learners', 'One regular teacher', 'Similar level', 'Monthly'],
+    group: ['Fifteen to twenty learners', 'One regular teacher', 'Similar level', 'Monthly'],
     one: ['A teacher to yourself', 'Time on your child\'s exact gaps', 'Your own pace']
   },
 

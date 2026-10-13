@@ -52,7 +52,7 @@ module.exports = {
     ['First step', 'A free lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'For learners in Utrecht between six and sixty-seven, Modern Age Coders teaches a live online AI and Python track: Python typed by hand, real data, models with a measured error, and agents. Alongside the code, learners practise four questions borrowed from the way Utrecht University frames its own AI degree: how does this system work, what would count as thinking, why do people believe it, and what is it doing with language? The signature project is a small ELIZA, the 1960s conversation program, built in Python and then tested on real people. Classes run in English, in groups of five to ten learners or one to one. The first lesson costs nothing; after it, group classes are USD 100 a month and private tuition USD 150.',
+  capsule: 'For learners in Utrecht between six and sixty-seven, Modern Age Coders teaches a live online AI and Python track: Python typed by hand, real data, models with a measured error, and agents. Alongside the code, learners practise four questions borrowed from the way Utrecht University frames its own AI degree: how does this system work, what would count as thinking, why do people believe it, and what is it doing with language? The signature project is a small ELIZA, the 1960s conversation program, built in Python and then tested on real people. Classes run in English, in groups of fifteen to twenty learners or one to one. The first lesson costs nothing; after it, group classes are USD 100 a month and private tuition USD 150.',
 
   picks: {
     eyebrow: 'Start here',
@@ -194,7 +194,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'The free lesson', p: 'Not a sales conversation but a lesson: the learner works on something real and the teacher sees how they think, which settles the starting rung.' },
-      { h3: 'Small groups, one level', p: 'Five to ten learners from several countries who can already do the same things, so no one in Utrecht waits for others or races to keep up.' },
+      { h3: 'Small groups, one level', p: 'Fifteen to twenty learners from several countries who can already do the same things, so no one in Utrecht waits for others or races to keep up.' },
       { h3: 'Private tuition too', p: 'For students with changing timetables, adults with a specific goal, and the Copilot Studio courses, taught only one to one.' },
       { h3: 'Work visible live', p: 'The teacher follows the learner\'s screen as code is written and questions are answered, so confusion never gets a week to settle.' },
       { h3: 'English, Dutch where it belongs', p: 'All teaching is in English. Words like groep, brugklas, havo and vwo stay Dutch, the way Utrecht families say them.' },
@@ -210,7 +210,7 @@ module.exports = {
     h2: 'Two prices, both in dollars',
     lede: 'Billed each month in US dollars at the rate we use for every country outside India. Utrecht pays nothing extra, there is no registration fee, and nobody signs up for a year. The Copilot Studio courses exist only as private lessons, so they use the private rate.',
     free: ['A proper lesson, not a pitch', 'Decides the starting rung', 'Nothing to pay, no card'],
-    group: ['Five to ten learners who match in level', 'The same teacher, live each time', 'Code reviewed every week', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners who match in level', 'The same teacher, live each time', 'Code reviewed every week', 'A certificate at the end'],
     one: ['Just the learner and a teacher', 'Content and speed set by the goal', 'Required for Copilot Studio']
   },
 

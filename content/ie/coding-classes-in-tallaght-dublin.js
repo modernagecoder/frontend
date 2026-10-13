@@ -160,7 +160,7 @@ module.exports = {
     intro: 'The working arrangements.',
     cells: [
       { h3: 'With a teacher, live', p: 'The teacher stays on the call throughout, watching each learner\'s code and helping as it is written.' },
-      { h3: 'Grouped by stage', p: 'Five to ten learners at the same stage, from Dublin 24, elsewhere in Ireland and abroad.' },
+      { h3: 'Grouped by stage', p: 'Fifteen to twenty learners at the same stage, from Dublin 24, elsewhere in Ireland and abroad.' },
       { h3: 'A regular pair', p: 'About eight lessons a month, held at two weekly times fixed when the course starts.' },
       { h3: 'Holidays planned', p: 'Mid-term breaks, holidays and exam weeks are built into the plan in advance.' },
       { h3: 'Home kit', p: 'Any laptop or desktop that runs a browser, a headset or speakers with a mic, and broadband steady enough for a video call.' },
@@ -173,7 +173,7 @@ module.exports = {
     h2: 'Fees in Tallaght',
     intro: 'Nothing left out.',
     first: 'An opening lesson and level check, at no charge.',
-    group: 'A month in a group of five to ten at one stage, roughly eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one stage, roughly eight live lessons.',
     private: 'A month of one-to-one lessons on the same timetable.',
     closer: 'Families living outside India all pay one monthly fee in US dollars. The free lesson carries no commitment, the first charge comes with the start of the course, and holidays, missed lessons and changes between group and private teaching are set out on the pricing page.'
   },
@@ -197,7 +197,7 @@ module.exports = {
       { q: 'When do lessons run?', a: 'After school and into the evening on weekdays, and during weekend days. Every slot is given in Irish time. The teaching team works from India, where the clock reads five and a half hours later than Tallaght\'s in winter and four and a half later in summer, so the timetable only uses hours that work in both places.' },
       { q: 'Do you teach adults in Tallaght?', a: 'Yes, from beginners up, to the age of sixty-seven. An adult chooses a small group at their level or private lessons once the first lesson is done.' },
       { q: 'Will my child be grouped with local children?', a: 'Not deliberately. Groups are built on level, so classmates might be in Dublin 24 or a long way off.' },
-      { q: 'What do coding classes in Tallaght cost?', a: 'The first lesson is free. Then a group place is USD 100 a month for around eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same timetable are USD 150 a month. Terms are agreed before any payment.', boiler: true },
+      { q: 'What do coding classes in Tallaght cost?', a: 'The first lesson is free. Then a group place is USD 100 a month for around eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same timetable are USD 150 a month. Terms are agreed before any payment.', boiler: true },
       { q: 'How many learners are in each group?', a: 'Five to ten, grouped by level, pace and aim rather than age or address. When no group fits at a workable hour, lessons are one to one.', boiler: true }
     ]
   },

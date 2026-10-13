@@ -219,7 +219,7 @@ module.exports = {
       { h3: 'Context first', p: 'Every topic starts from a real situation, so the mathematics has a reason.' },
       { h3: 'Tables before formulas', p: 'Students build the pattern by hand, then meet the formula that shortens it.' },
       { h3: 'Stimulus reading', p: 'Practice in pulling exactly the right numbers from a diagram or table.' },
-      { h3: 'Groups of five to ten', p: 'Standard students working at the same level, each explaining their steps.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Standard students working at the same level, each explaining their steps.' },
       { h3: 'One-to-one lessons', p: 'A private tutor for a topic that keeps slipping.' },
       { h3: 'No promised bands', p: 'We teach well and say so honestly; marks are earned by the student.' }
     ]
@@ -233,7 +233,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A monthly fee in US dollars that is the same for every family outside India. No sign-up charge, and nothing owed after the month you are in.',
     free: ['A real lesson with a tutor', 'Honest advice on gaps', 'No card required'],
-    group: ['Five to ten students at one level', 'One tutor through the term', 'Practice papers reviewed', 'A certificate when you finish'],
+    group: ['Fifteen to twenty students at one level', 'One tutor through the term', 'Practice papers reviewed', 'A certificate when you finish'],
     one: ['Your own tutor', 'Built around your weak topics', 'Useful before school exams']
   },
 

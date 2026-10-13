@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes for Amsterdam learners a
 canonical: https://learn.modernagecoders.com/coding-classes-in-amsterdam
 source: src/pages/coding-classes-in-amsterdam.html
 ---
-> Coding classes in Amsterdam have to work around a transition no other Dutch city runs quite this way: a school advice in groep 8, a doorstroomtoets that may disagree with it, and in April a central lottery in which 7,674 pupils competed for 9,969 places at 65 schools in 2026, with 73.85 percent getting their first choice. Modern Age Coders teaches coding, Python, AI and mathematics live online, in English, to learners aged 6 to 67 anywhere in the city. The first class is free; then USD 100 a month in a group of five to ten, or USD 150 one to one.
+> Coding classes in Amsterdam have to work around a transition no other Dutch city runs quite this way: a school advice in groep 8, a doorstroomtoets that may disagree with it, and in April a central lottery in which 7,674 pupils competed for 9,969 places at 65 schools in 2026, with 73.85 percent getting their first choice. Modern Age Coders teaches coding, Python, AI and mathematics live online, in English, to learners aged 6 to 67 anywhere in the city. The first class is free; then USD 100 a month in a group of fifteen to twenty, or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Amsterdam
 
@@ -12,11 +12,11 @@ Amsterdam, Noord-Holland / Live online
 
 # Coding classes in Amsterdam, a city that hands every eleven-year-old two verdicts and a lottery number
 
-**What are the best coding classes in Amsterdam?** Coding classes in Amsterdam have to work around a transition no other Dutch city runs quite this way: a school advice in groep 8, a doorstroomtoets that may disagree with it, and in April a central lottery in which 7,674 pupils competed for 9,969 places at 65 schools in 2026, with 73.85 percent getting their first choice. Modern Age Coders teaches coding, Python, AI and mathematics live online, in English, to learners aged 6 to 67 anywhere in the city. The first class is free; then USD 100 a month in a group of five to ten, or USD 150 one to one.
+**What are the best coding classes in Amsterdam?** Coding classes in Amsterdam have to work around a transition no other Dutch city runs quite this way: a school advice in groep 8, a doorstroomtoets that may disagree with it, and in April a central lottery in which 7,674 pupils competed for 9,969 places at 65 schools in 2026, with 73.85 percent getting their first choice. Modern Age Coders teaches coding, Python, AI and mathematics live online, in English, to learners aged 6 to 67 anywhere in the city. The first class is free; then USD 100 a month in a group of fifteen to twenty, or USD 150 one to one.
 
 Nationally about one child in three gets a test result higher than the advice the school gave. In Amsterdam it is one in five. Ask why and you will hear two confident answers that contradict each other. The project on this page is the small program that shows both answers fit the number, which is the beginning of knowing how to read any number at all.
 
-Facts last verified 7 September 2026. Teaching is online; no Amsterdam branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Amsterdam branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city with 244 primary schools and 91 secondary ones
 
@@ -206,7 +206,7 @@ A recurring lesson that lives on a laptop rather than in a building is the one t
 - **Survives the placement** The class was booked around the family, not the school, so when the 9 April result sends a child across the city in September, the Tuesday slot is still Tuesday.
 - **English, with the Amsterdam words** Taught in English. Groep, advice, doorstroomtoets, loting, brugklas and profiel are used as the family hears them at school, because that is what the family will ask about.
 - **The first hour is a real lesson** A task pitched at the learner, a level, a named course and a slot at the end of it. No card, no deposit and no decision before anyone has watched us teach.
-- **Five to ten per group, by level** A group is formed on what its members can do and what they want next. Which stadsdeel they live in and which school the lottery gave them are not inputs.
+- **Fifteen to twenty per group, by level** A group is formed on what its members can do and what they want next. Which stadsdeel they live in and which school the lottery gave them are not inputs.
 - **Eight lessons a month, one fixed time** Two lessons a week at a time agreed once. Regio Noord holiday weeks, the exam period and the summer are settled before the slot, not after.
 - **The clock difference, stated plainly** An Amsterdam evening is late in India: eight o'clock here is half past eleven or half past midnight in Kolkata depending on the season. Late afternoon, early evening and weekend slots are the ones that work, and the recurring time is confirmed on the call.
 
@@ -217,7 +217,7 @@ A recurring lesson that lives on a laptop rather than in a building is the one t
 Published in full, here, so nobody has to book a call to learn a price.
 
 - First class: USD 0. A full lesson with a task, a level and a named next step.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 Fees are in US dollars because that is the one published international rate; there is no separate euro tariff and nothing added for Amsterdam. The free class comes first and settles the course and the slot; payment is arranged afterwards over WhatsApp. Pauses, plan changes and missed lessons are on the pricing page.
@@ -258,11 +258,11 @@ No. No premises are claimed in Amsterdam, in Amstelveen or anywhere else in the 
 
 ### What do Amsterdam coding classes cost?
 
-The first class is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are all confirmed before payment.
+The first class is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are all confirmed before payment.
 
 ### How big is a group for Amsterdam learners?
 
-Five to ten learners, matched on level, pace and goal rather than on age, district or school. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next group to form.
+Fifteen to twenty learners, matched on level, pace and goal rather than on age, district or school. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next group to form.
 
 ## The town next door, the country page, and the page for building AI
 

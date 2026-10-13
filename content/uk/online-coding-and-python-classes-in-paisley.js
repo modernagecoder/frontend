@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Paisley',
   capsuleQ: 'Which are the best online coding and Python classes in Paisley?',
-  capsule: 'At mid-2020 National Records of Scotland put Paisley\'s locality population at 77,270, more than any other settlement in Renfrewshire. Ralston, Glenburn, Gallowhill, Ferguslie Park and Williamsburgh are among the suburbs recorded in the town\'s PA1 to PA3 postcode districts. From P1 pupils to adults of 67, anyone in Renfrewshire can join our India-based tutors on video for coding, Python, AI, vibe coding and maths, taught privately or with five to ten classmates working at one stage. We teach reasoning first, so a learner can check any answer an AI hands them. The first lesson is free and ends with a course recommendation. The Paisley project uses 52 years of sunshine records from the Met Office\'s former Paisley weather station to test a famous rule for deciding when to stop looking and choose. Carrying on costs USD 100 a month in a group or USD 150 a month one-to-one.',
+  capsule: 'At mid-2020 National Records of Scotland put Paisley\'s locality population at 77,270, more than any other settlement in Renfrewshire. Ralston, Glenburn, Gallowhill, Ferguslie Park and Williamsburgh are among the suburbs recorded in the town\'s PA1 to PA3 postcode districts. From P1 pupils to adults of 67, anyone in Renfrewshire can join our India-based tutors on video for coding, Python, AI, vibe coding and maths, taught privately or with fifteen to twenty classmates working at one stage. We teach reasoning first, so a learner can check any answer an AI hands them. The first lesson is free and ends with a course recommendation. The Paisley project uses 52 years of sunshine records from the Met Office\'s former Paisley weather station to test a famous rule for deciding when to stop looking and choose. Carrying on costs USD 100 a month in a group or USD 150 a month one-to-one.',
   lead: 'Suppose you must pick the sunniest month of the year, but you see the months one at a time and cannot go back. Mathematicians have a celebrated answer to puzzles like this, called the secretary problem: watch the first 37% of the options without choosing, then take the first one that beats everything you have seen. If the options arrive in random order, no strategy does better on average. Paisley happens to have the data to test it. The Met Office weather station there recorded sunshine every month from 1959 until it closed in 2011, and months, of course, do not arrive in random order.',
   wa: 'Hello Modern Age Coders, could we book a free coding or Python lesson for a learner in Paisley?',
 
@@ -157,7 +157,7 @@ module.exports = {
       { h3: 'Learner-led coding', p: 'Students type, prompt and run every step; the tutor watches the shared screen and asks for reasons.' },
       { h3: 'Pitched by the trial', p: 'The free lesson shows the starting point; SQA courses are noted where relevant.' },
       { h3: 'Free opening lesson', p: 'Lesson one has no charge and ends with a course recommendation.' },
-      { h3: 'Stage-matched classes', p: 'Five to ten learners from around the UK at one stage per class.' },
+      { h3: 'Stage-matched classes', p: 'Fifteen to twenty learners from around the UK at one stage per class.' },
       { h3: 'Two each week', p: 'None during Scottish school holidays.' },
       { h3: 'Fixed hour', p: 'Tutors move with UK clock changes so your time does not shift.' }
     ],

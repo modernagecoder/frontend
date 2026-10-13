@@ -206,7 +206,7 @@ Lessons are taught live from India. Because every Australian state is a few hour
 - **Weekend** For longer project sessions.
 
 - **A free first class** Your child tries some Python with a teacher, and we recommend a path from what they enjoy.
-- **Small groups** Five to ten children of similar age and level, often from different states.
+- **Small groups** Fifteen to twenty children of similar age and level, often from different states.
 - **One to one** For a child preparing for Year 7 quickly or chasing an ambitious project.
 - **Written by them** Every line is typed by the child; teachers guide with questions.
 - **Open to parents** You are welcome to watch any lesson, live.
@@ -217,7 +217,7 @@ Lessons are taught live from India. Because every Australian state is a few hour
 One monthly fee in US dollars applies to Australian families, with no joining charge and no fixed term.
 
 - Free first class: USD 0. A first Python task with a teacher. A suggested path and course. No card or bank details.
-- Group batch: USD 100 a month. Five to ten children per class. One teacher across the months. Peers working at the same level. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty children per class. One teacher across the months. Peers working at the same level. Stop after any month.
 - One to one: USD 150 a month. Lessons built around your child. Flexible weekly timing. Space for a project of their own.
 
 ## What parents of 11 and 12 year olds ask

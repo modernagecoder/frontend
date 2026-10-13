@@ -60,7 +60,7 @@ module.exports = {
 
   h1: 'Coding classes in Newcastle upon Tyne',
   capsuleQ: 'What are the best coding classes in Newcastle upon Tyne?',
-  capsule: 'Newcastle upon Tyne had 300,125 usual residents at the 2021 Census, and 29.1% of those aged five and over were schoolchildren or full-time students, against 20.4% in England. Its Literary and Philosophical Society, founded in 1793, says Joseph Swan lit a public room with electric light for the first time there in 1881. Modern Age Coders teaches Newcastle learners aged six to sixty-seven in live online lessons, either privately or in a small group of five to ten matched by level, with teachers based in India and lesson times set in UK hours. There is no fee for the first lesson. Later months cost USD 100 in a group or USD 150 for private lessons.',
+  capsule: 'Newcastle upon Tyne had 300,125 usual residents at the 2021 Census, and 29.1% of those aged five and over were schoolchildren or full-time students, against 20.4% in England. Its Literary and Philosophical Society, founded in 1793, says Joseph Swan lit a public room with electric light for the first time there in 1881. Modern Age Coders teaches Newcastle learners aged six to sixty-seven in live online lessons, either privately or in a group of fifteen to twenty matched by level, with teachers based in India and lesson times set in UK hours. There is no fee for the first lesson. Later months cost USD 100 in a group or USD 150 for private lessons.',
   lead: 'Give each of Newcastle\'s 26 council wards a colour so that no two wards sharing a border match. How few colours will do? The quick method, taking wards one at a time and giving each the first colour its neighbours are not already using, needs six colours in alphabetical order and five if the busiest ward, Wingrove with eight neighbours, goes first. Across 100,000 random orders it manages four only about 17% of the time. A careful search settles the question: three colours are impossible, and four are enough. The proof of the first half is sitting in the map, where Arthur\'s Hill, Elswick, Monument and Wingrove all border one another, so they need four different colours between them. That is graph colouring, a problem behind exam timetables and computer chips alike, and it is the lesson Newcastle\'s ward map teaches our teenage learners.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Newcastle upon Tyne.',
 
@@ -186,7 +186,7 @@ module.exports = {
       { h3: 'East end or west end', p: 'A learner in Walker and another in Benwell can share one lesson without either crossing the city centre.' },
       { h3: 'Stages that match local schools', p: 'From Reception and the four Key Stages through Year 9 options to GCSEs and A levels, we use the stage names Newcastle schools use and teach in English.' },
       { h3: 'A free lesson with a result', p: 'The first lesson teaches something real and finishes by recommending a level, a course and a regular weekly time. No card is needed.' },
-      { h3: 'Matched by level', p: 'Five to ten learners at the same stage, from Newcastle, the rest of the UK and abroad, so that every level can find a workable slot.' },
+      { h3: 'Matched by level', p: 'Fifteen to twenty learners at the same stage, from Newcastle, the rest of the UK and abroad, so that every level can find a workable slot.' },
       { h3: 'A steady weekly pattern', p: 'The timetable is two fixed lessons a week, roughly eight a month; holiday and exam pauses are arranged with the teacher well before they start.' },
       { h3: 'Teaching on India time', p: 'India Standard Time does not change with the seasons, so our teachers are four and a half hours ahead of Newcastle in summer and five and a half in winter, which puts after-school and evening lessons inside their day.' }
     ],
@@ -197,7 +197,7 @@ module.exports = {
     h2: 'Newcastle lesson fees',
     intro: 'One free lesson, then one of two monthly prices.',
     first: 'A full lesson with nothing to pay, ending in a level, a recommended course and a proposed weekly time.',
-    group: 'About eight live lessons each month in a group of five to ten learners at one level.',
+    group: 'About eight live lessons each month in a group of fifteen to twenty learners at one level.',
     private: 'About eight live lessons each month given to one learner alone.',
     closer: 'Byker or Gosforth, the fee is identical: families outside India all pay the same US dollar amount, and we publish nothing in pounds. You pay nothing before the free lesson has settled which course and which weekly slot suit, and the pricing page explains how pauses, missed lessons and a change between group and private teaching are handled.'
   },
@@ -222,8 +222,8 @@ module.exports = {
       { q: 'Which Newcastle ward has the most neighbours?', a: 'Wingrove, which shares a boundary with eight other wards. Walker and Manor Park have the fewest, with two each, on the ONS December 2023 boundaries.' },
       { q: 'When are Newcastle lessons held?', a: 'Lessons run on weekday afternoons and evenings or at weekends, at a UK time agreed during the free lesson. Our teachers are four and a half hours ahead of Newcastle in summer and five and a half in winter.' },
       { q: 'Is there a Modern Age Coders centre in Newcastle?', a: 'No. There is no Newcastle centre and no premises anywhere in the UK; all teaching is live online. Learners need a computer with sound and a reliable connection, and our contact number is Indian.', boiler: true },
-      { q: 'How much do Newcastle lessons cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
-      { q: 'How are Newcastle groups organised?', a: 'By level, pace and goals rather than age or postcode, with five to ten learners at one stage. If no group meets at a good time, we propose one-to-one lessons.', boiler: true }
+      { q: 'How much do Newcastle lessons cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
+      { q: 'How are Newcastle groups organised?', a: 'By level, pace and goals rather than age or postcode, with fifteen to twenty learners at one stage. If no group meets at a good time, we propose one-to-one lessons.', boiler: true }
     ]
   },
 

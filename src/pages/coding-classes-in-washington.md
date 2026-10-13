@@ -216,7 +216,7 @@ No enrolment charge, nothing to buy, no minimum term.
 
 Group$100per month, 8 classes
 
-Five to eight learners with one consistent teacher. Where most Washington families begin.
+Fifteen to twenty learners with one consistent teacher. Where most Washington families begin.
 
 Private$150per month, 8 classes
 
@@ -318,7 +318,7 @@ Six to sixty-seven. Placement follows what a learner can demonstrate in the open
 
 ### How many students share a class?
 
-Five to eight in a group, or one to one. Either way the teacher is the same person from week to week. Rotating staff is the cheapest saving a provider can make and the most expensive one for a student, because every rotation restarts the part of teaching that is about knowing somebody.
+Fifteen to twenty in a group, or one to one. Either way the teacher is the same person from week to week. Rotating staff is the cheapest saving a provider can make and the most expensive one for a student, because every rotation restarts the part of teaching that is about knowing somebody.
 
 ### How do we start?
 

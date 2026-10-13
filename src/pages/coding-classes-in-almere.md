@@ -16,7 +16,7 @@ Almere, Flevoland / Live online
 
 Every height in Almere is measured against a level fixed in Amsterdam in 1684 that the North Sea stopped agreeing with long ago. A child who can build the small program that shows the difference between the land, the reference and the water has learned something the whole country stands on, quite literally, and it is the most Almere lesson there is.
 
-Facts last verified 7 September 2026. Teaching is online; no Almere branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Almere branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city that was built from a plan, for children who like building from one
 
@@ -223,7 +223,7 @@ A great many Almere parents cross the Hollandse Brug or ride the Flevolijn to Am
 Printed here in full, ahead of any request for a phone number.
 
 - First class: USD 0. A complete lesson with a task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 The rate is the single international one and it is in US dollars, with no euro version, nothing added for Almere and no enrolment charge. The free lesson fixes the course and the slot; payment is arranged afterwards over WhatsApp. Pauses, changes of plan and missed lessons are described on the pricing page.
@@ -264,7 +264,7 @@ No, and none is claimed in Almere, in Lelystad or anywhere in the Netherlands. L
 
 ### What do Almere coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in an Almere group?
 

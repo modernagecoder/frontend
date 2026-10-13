@@ -307,7 +307,7 @@ module.exports = {
       { h3: 'From the apartment', p: 'A computer and headphones are enough; no special room is needed.' },
       { h3: 'Holiday breaks', p: 'Families can pause through the NSW school holidays.' },
       { h3: 'Trial first', p: 'A full free lesson, followed by a suggested course and time.' },
-      { h3: 'Group or solo', p: 'Five to ten classmates of one level, or a private teacher.' },
+      { h3: 'Group or solo', p: 'Fifteen to twenty classmates of one level, or a private teacher.' },
       { h3: 'Weekly rhythm', p: 'Two lessons a week in the same slots, about eight each month.' },
       { h3: 'India time', p: 'An 8pm Rhodes lesson begins at 2:30pm India time in daylight saving and 3:30pm once it ends.' }
     ],
@@ -320,7 +320,7 @@ module.exports = {
     h2: 'Rhodes class fees',
     intro: 'Three amounts explain the cost.',
     first: 'The first lesson is free and ends with a straight recommendation.',
-    group: 'Two group lessons each week, about eight a month, with five to ten learners at one level.',
+    group: 'Two group lessons each week, about eight a month, with fifteen to twenty learners at one level.',
     private: 'Two lessons each week with a teacher for one learner.',
     closer: 'Everyone outside India is invoiced in US dollars. Nothing is charged before the trial and an agreed timetable; holidays and absences are set out on the pricing page.'
   },
@@ -363,7 +363,7 @@ module.exports = {
       },
       {
         q: 'What do classes cost in Rhodes?',
-        a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one.',
+        a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one.',
         boiler: true
       },
       {

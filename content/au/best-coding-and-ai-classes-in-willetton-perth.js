@@ -298,7 +298,7 @@ module.exports = {
       { h3: 'Watch every keystroke', p: 'The teacher follows the learner\'s screen and stops to ask what each line does.' },
       { h3: 'In step with terms', p: 'Lessons fit Western Australian school terms and holidays.' },
       { h3: 'An opening class free', p: 'A genuine lesson first, then a straight recommendation.' },
-      { h3: 'Small level groups', p: 'Five to ten learners at one level, or one to one.' },
+      { h3: 'Small level groups', p: 'Fifteen to twenty learners at one level, or one to one.' },
       { h3: 'Two sessions each week', p: 'Fixed weekly times, about eight lessons a month.' },
       { h3: 'India time', p: 'Our teachers are in India: a 5:30pm Willetton lesson begins at 3pm India time.' }
     ],
@@ -311,7 +311,7 @@ module.exports = {
     h2: 'Willetton class fees',
     intro: 'Three prices, no extras.',
     first: 'The opening lesson is free, with written feedback afterwards.',
-    group: 'Group classes: roughly eight lessons a month, five to ten learners.',
+    group: 'Group classes: roughly eight lessons a month, fifteen to twenty learners.',
     private: 'Private classes: roughly eight lessons a month, one teacher.',
     closer: 'Willetton families pay in US dollars and only after the trial has settled a course and a time. Holiday and absence arrangements are on the pricing page.'
   },
@@ -350,12 +350,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Willetton learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Is Copilot Studio offered to Willetton groups?', a: 'No. Copilot Studio is private-lesson only; groups build agents with Python code.' }

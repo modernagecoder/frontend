@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Coding classes in Falkirk',
   capsuleQ: 'What are the best coding classes in Falkirk?',
-  capsule: 'The Falkirk council area had about 158,400 residents in roughly 72,500 households at Scotland\'s 2022 census, living at 533.1 people per square kilometre. Falkirk town is the largest place, with Grangemouth, Bo\'ness, Larbert, Stenhousemuir and Denny next. Lessons happen live on video with teachers in India, and a free opening lesson fixes each learner\'s level, whether they are in P2, S5 or working. Coding, Python and maths are taught to people aged 6 to 67 in small groups of five to ten or one-to-one. The Falkirk project starts at the Dunmore Pineapple, a stone pineapple on a garden folly near Airth. Beyond the free lesson, fees are USD 100 a month for a group and USD 150 a month for one-to-one.',
+  capsule: 'The Falkirk council area had about 158,400 residents in roughly 72,500 households at Scotland\'s 2022 census, living at 533.1 people per square kilometre. Falkirk town is the largest place, with Grangemouth, Bo\'ness, Larbert, Stenhousemuir and Denny next. Lessons happen live on video with teachers in India, and a free opening lesson fixes each learner\'s level, whether they are in P2, S5 or working. Coding, Python and maths are taught to people aged 6 to 67 in groups of fifteen to twenty or one-to-one. The Falkirk project starts at the Dunmore Pineapple, a stone pineapple on a garden folly near Airth. Beyond the free lesson, fees are USD 100 a month for a group and USD 150 a month for one-to-one.',
   lead: 'Near Airth, at the head of a walled garden, sits one of Scotland\'s most surprising follies: a folly crowned by a giant pineapple carved in stone. Historic Environment Scotland lists the Dunmore Pineapple at Category A, dates the crown to about 1771 and credits it to the Earl of Dunmore. A pineapple is a fruit built from many small units packed around a core, and plants that pack units like that, from seeds in a flower head to scales on a cone, face a geometry puzzle: at what angle should each new unit sit from the last so they fit together without gaps? This page\'s project answers it in Python, and the answer involves an angle of 137.5 degrees and the Fibonacci numbers.',
   wa: 'Hello Modern Age Coders, we are in the Falkirk area and would like to book a free lesson, please.',
 
@@ -159,7 +159,7 @@ module.exports = {
       { h3: 'Screen shared, teacher present', p: 'Learners type the code themselves while the teacher sees every line and helps at the moment it goes wrong.' },
       { h3: 'P and S stages, not years', p: 'We use the Scottish words: P5, S2, National 5, Higher and Advanced Higher. Teaching is in English.' },
       { h3: 'A free, real first lesson', p: 'Nothing to pay and nothing to promise. At the end we suggest a starting stage and a course.' },
-      { h3: 'Level-matched classes', p: 'Groups of five to ten, all at one stage, with classmates from different countries.' },
+      { h3: 'Level-matched classes', p: 'Groups of fifteen to twenty, all at one stage, with classmates from different countries.' },
       { h3: 'Two lessons a week', p: 'Lessons run in term and pause for the holidays your school sets.' },
       { h3: 'Booked in UK time', p: 'The time you book stays the same UK time all year; teachers in India time handle the clock changes.' }
     ],
@@ -170,7 +170,7 @@ module.exports = {
     h2: 'Fees across the Falkirk area',
     intro: 'Bo\'ness or Bonnybridge, the monthly fee is identical, and matches the one we charge outside India everywhere.',
     first: 'A complete lesson, free, with an honest placement at the end.',
-    group: 'About eight lessons a month in a group of five to ten matched by stage.',
+    group: 'About eight lessons a month in a group of fifteen to twenty matched by stage.',
     private: 'About eight lessons a month, just learner and teacher.',
     closer: 'Fees are in US dollars and we publish no sterling prices. Billing begins only after the free lesson, once a course and a weekly time are agreed; the pricing page explains holidays, missed lessons and switching formats.'
   },

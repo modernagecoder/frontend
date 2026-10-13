@@ -236,7 +236,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Build work between sessions, reviewed by the teacher
 - Certificate on completion
@@ -331,7 +331,7 @@ Thirteen for the full course, and realistically only once a student can read the
 
 ### How much does it cost?
 
-A group batch of five to eight students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same figures everywhere we teach outside India. No enrolment fee and no minimum term. The first class is free without a card. The agent subscription itself is the student's own cost.
+A group batch of fifteen to twenty students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same figures everywhere we teach outside India. No enrolment fee and no minimum term. The first class is free without a card. The agent subscription itself is the student's own cost.
 
 ### Which tools do you use?
 

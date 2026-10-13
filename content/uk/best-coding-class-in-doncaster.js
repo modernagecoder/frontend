@@ -64,7 +64,7 @@ module.exports = {
 
   h1: 'Coding classes in Doncaster',
   capsuleQ: 'What are the best coding classes in Doncaster?',
-  capsule: 'The 2021 census counted 308,106 usual residents in the Doncaster borough, and 7.1% of them were aged 55 to 59, against 6.7% in England. The National Railway Museum shows Sir Nigel Gresley, designer of the record-breaking locomotive Mallard, photographed at the Doncaster Works. Doncaster learners from six to sixty-seven join our teachers live on screen, either in a group of five to ten at the same level or one to one, with lessons arranged in UK hours by our team in India. The first lesson is free; after it a group place costs USD 100 a month and private teaching USD 150.',
+  capsule: 'The 2021 census counted 308,106 usual residents in the Doncaster borough, and 7.1% of them were aged 55 to 59, against 6.7% in England. The National Railway Museum shows Sir Nigel Gresley, designer of the record-breaking locomotive Mallard, photographed at the Doncaster Works. Doncaster learners from six to sixty-seven join our teachers live on screen, either in a group of fifteen to twenty at the same level or one to one, with lessons arranged in UK hours by our team in India. The first lesson is free; after it a group place costs USD 100 a month and private teaching USD 150.',
   lead: 'Suppose Doncaster wanted ten study hubs, placed so that the average resident lives as close as possible to one. The census divides the borough into 199 neighbourhoods, and there are about 21 million billion ways to choose ten of them. No computer can try them all. Pick ten at random and the average trip is about 2.9 kilometres. Add hubs one at a time, always taking the most helpful, and it falls to 1.822. Simulated annealing does better, 1.767, by sometimes accepting a worse arrangement on purpose so that it can escape a dead end, then cooling until it settles. Our teenagers write all three and learn to report not just the answer but how sure they can be of it.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Doncaster.',
 
@@ -191,7 +191,7 @@ module.exports = {
       { h3: 'Town and village alike', p: 'A learner in Rossington and another in Adwick can join the same class without either travelling into town.' },
       { h3: 'School stages, English style', p: 'Reception, Key Stages 1 to 4, GCSE choices and A levels, named as Doncaster schools name them, with lessons taught in English.' },
       { h3: 'A free lesson that counts', p: 'The first session involves genuine work and ends with a suggested level, course and weekly slot. You will not be asked for a card.' },
-      { h3: 'Classmates at your level', p: 'Groups of five to ten learners at one stage, from Doncaster, the rest of Britain and abroad, so there is a sensible time for every level.' },
+      { h3: 'Classmates at your level', p: 'Groups of fifteen to twenty learners at one stage, from Doncaster, the rest of Britain and abroad, so there is a sensible time for every level.' },
       { h3: 'Two lessons each week', p: 'A regular pair of weekly lessons, about eight a month, with holidays and exams planned with the teacher ahead of time.' },
       { h3: 'Late evenings in India', p: 'A 5 pm class in Doncaster starts at 9.30 pm in India in the British summer and 10.30 pm in winter, because India keeps one time all year; our teachers work those hours for UK learners.' }
     ],
@@ -202,7 +202,7 @@ module.exports = {
     h2: 'Doncaster lesson fees',
     intro: 'The first lesson is free, then a single monthly fee.',
     first: 'A complete lesson at no charge, closing with a recommended level, course and weekly time.',
-    group: 'Roughly eight live lessons a month in a group of five to ten learners at the same level.',
+    group: 'Roughly eight live lessons a month in a group of fifteen to twenty learners at the same level.',
     private: 'Roughly eight live lessons a month, with the teacher working only with your learner.',
     closer: 'Wheatley and Hatfield pay the same as any family elsewhere outside India: one fee, set in US dollars, and nothing on our site is priced in pounds. Billing starts only when the free lesson has settled a course and a lesson time; the pricing page covers pausing, missed lessons and moving between group and private teaching.'
   },
@@ -227,8 +227,8 @@ module.exports = {
       { q: 'What is Mallard?', a: 'An A4 class steam locomotive designed by Sir Nigel Gresley, which the National Railway Museum says reached 126 mph on 3 July 1938, a steam record never surpassed. We are not connected with the museum.' },
       { q: 'When do Doncaster lessons happen?', a: 'On weekday afternoons and evenings or at weekends, at a UK time set in the free lesson. India is four and a half hours ahead of Doncaster in summer and five and a half in winter.' },
       { q: 'Is there a Modern Age Coders centre in Doncaster?', a: 'No. There is no centre in Doncaster and no premises anywhere in the UK; every lesson is taught live online. Learners need a computer with sound and a reliable connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do Doncaster lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
-      { q: 'How are Doncaster groups arranged?', a: 'By level, pace and goals rather than age or postcode, with five to ten learners at one stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do Doncaster lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
+      { q: 'How are Doncaster groups arranged?', a: 'By level, pace and goals rather than age or postcode, with fifteen to twenty learners at one stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

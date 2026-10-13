@@ -192,7 +192,7 @@ Our teachers work from India, behind every Australian state and territory. A 4.3
 
 - **Predict, then run** Students say what code will do before running it, every time.
 - **Testing taught early** Boundary and invalid inputs are part of every program, not an afterthought.
-- **Groups of five to ten** Placed by what students can already do, not only by year level.
+- **Groups of fifteen to twenty** Placed by what students can already do, not only by year level.
 - **One-to-one if needed** For a gap that needs closing quickly, or a student ready to race ahead.
 - **Short parent notes** What was covered and one thing worth asking about at home.
 - **School work stays theirs** We teach the skill; assessed tasks are completed by the student under the school's rules.
@@ -202,7 +202,7 @@ Our teachers work from India, behind every Australian state and territory. A 4.3
 Families in Australia pay monthly in US dollars, the rate we charge in every country outside India, with no deposit and the option to stop at the end of any month.
 
 - Free first class: USD 0. A live lesson with a teacher. A clear view of where your child sits. No payment details needed.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher each week. Homework reviewed and explained. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher each week. Homework reviewed and explained. A certificate at the end.
 - One to one: USD 150 a month. A teacher for your child alone. Built around one goal. Weekly time chosen with you.
 
 ## What Australian families ask

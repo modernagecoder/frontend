@@ -12,7 +12,7 @@ Live online · serving Cuttack
 
 Real programming for kids, teens and college students in Cuttack, from **Buxi Bazaar to Choudhury Bazaar, College Square to Link Road**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Cuttack)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**CuttackEnrollingAreasBuxi Bazaar, Choudhury Bazaar, College Square, Link Road, CDA Bidanasi & all of CuttackBoardsBSE Odisha · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across CuttackFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Cuttack)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**CuttackEnrollingAreasBuxi Bazaar, Choudhury Bazaar, College Square, Link Road, CDA Bidanasi & all of CuttackBoardsBSE Odisha · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across CuttackFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for Cuttack's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Cuttack: FAQs
 
-Which is the best coding class in Cuttack for kids?Modern Age Coders runs Cuttack's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and move to Python. Batches are small (5-8 students), project-based, and taught by industry instructors. We cover the whole city: Buxi Bazaar, Choudhury Bazaar, College Square, Link Road, CDA Bidanasi, Madhupatna, Ranihat, Badambadi and Nayasarak, plus nearby Bhubaneswar, Jagatpur, Choudwar, Athagarh and Salipur.Are the classes online, and do you cover all of Cuttack?Yes. Every class is live and online, so a child in the old-town lanes of Buxi Bazaar or Choudhury Bazaar, the CDA Bidanasi sectors, College Square, Link Road, Madhupatna, Ranihat or Tulsipur joins the same expert teacher from home, no travel across the Mahanadi or through Cuttack's busy bazaars. Sessions are interactive, with live coding, screen-sharing and saved recordings.How much do coding classes cost in Cuttack?Group classes (5-8 students) start at Rs.1499/month for 2 live classes per week. The Mini Batch (3-4 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student begins with a free demo class, and there are no hidden fees.Does this fit CBSE, ICSE and Odisha Board (BSE/CHSE) students in Cuttack?Yes. We teach students from CBSE, ICSE and Odisha Board (BSE/CHSE) schools across Cuttack. Coding supports school Computer Science, Information Technology and the NEP-2020 AI modules, and strengthens the maths and structured reasoning that help in board exams, engineering entrances and a Ravenshaw-style college path.What is the best age to start coding in Cuttack?Age 8 is ideal to begin with visual, block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always matches the child.What is the Vibe Coding & AI Agents course?Vibe coding means describing what you want, letting an AI build a first draft, then refining it, and AI coding agents like Codex and Claude Code are how engineers ship software in 2026. We teach this modern, agentic workflow alongside the fundamentals underneath it, in versions for kids, teens, college students and professionals, so students direct the AI instead of being replaced by it.Do you prepare Cuttack college students for placements and remote work?Yes. Our college track is placement-focused: Python, 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is designed for Ravenshaw University students, engineering aspirants in the Cuttack-Bhubaneswar belt and anyone targeting product companies, GCCs and remote IT roles, so a young person can launch a tech career from Cuttack itself, no migration needed.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Do you teach coding to BSE Odisha students in Cuttack?Yes, and the Odisha board, BSE Odisha, is based in Cuttack itself, so the state board is a local body. CBSE and ICSE schools run here too. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Ravenshaw University students join your programming courses?Yes. Ravenshaw traces to 1868 and is Odisha's oldest institution of higher education, so the theory is well taught. The college track adds the applied half: real Python, Java, full-stack or AI/ML work, built until it runs and can be opened by a recruiter.
+Which is the best coding class in Cuttack for kids?Modern Age Coders runs Cuttack's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and move to Python. Batches are small (15-20 students), project-based, and taught by industry instructors. We cover the whole city: Buxi Bazaar, Choudhury Bazaar, College Square, Link Road, CDA Bidanasi, Madhupatna, Ranihat, Badambadi and Nayasarak, plus nearby Bhubaneswar, Jagatpur, Choudwar, Athagarh and Salipur.Are the classes online, and do you cover all of Cuttack?Yes. Every class is live and online, so a child in the old-town lanes of Buxi Bazaar or Choudhury Bazaar, the CDA Bidanasi sectors, College Square, Link Road, Madhupatna, Ranihat or Tulsipur joins the same expert teacher from home, no travel across the Mahanadi or through Cuttack's busy bazaars. Sessions are interactive, with live coding, screen-sharing and saved recordings.How much do coding classes cost in Cuttack?Group classes (15-20 students) start at Rs.1499/month for 2 live classes per week. The Mini Batch (up to 6 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student begins with a free demo class, and there are no hidden fees.Does this fit CBSE, ICSE and Odisha Board (BSE/CHSE) students in Cuttack?Yes. We teach students from CBSE, ICSE and Odisha Board (BSE/CHSE) schools across Cuttack. Coding supports school Computer Science, Information Technology and the NEP-2020 AI modules, and strengthens the maths and structured reasoning that help in board exams, engineering entrances and a Ravenshaw-style college path.What is the best age to start coding in Cuttack?Age 8 is ideal to begin with visual, block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always matches the child.What is the Vibe Coding & AI Agents course?Vibe coding means describing what you want, letting an AI build a first draft, then refining it, and AI coding agents like Codex and Claude Code are how engineers ship software in 2026. We teach this modern, agentic workflow alongside the fundamentals underneath it, in versions for kids, teens, college students and professionals, so students direct the AI instead of being replaced by it.Do you prepare Cuttack college students for placements and remote work?Yes. Our college track is placement-focused: Python, 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is designed for Ravenshaw University students, engineering aspirants in the Cuttack-Bhubaneswar belt and anyone targeting product companies, GCCs and remote IT roles, so a young person can launch a tech career from Cuttack itself, no migration needed.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Do you teach coding to BSE Odisha students in Cuttack?Yes, and the Odisha board, BSE Odisha, is based in Cuttack itself, so the state board is a local body. CBSE and ICSE schools run here too. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Ravenshaw University students join your programming courses?Yes. Ravenshaw traces to 1868 and is Odisha's oldest institution of higher education, so the theory is well taught. The college track adds the applied half: real Python, Java, full-stack or AI/ML work, built until it runs and can be opened by a recruiter.
 
 ## Ready to start your child's coding journey in Cuttack?
 

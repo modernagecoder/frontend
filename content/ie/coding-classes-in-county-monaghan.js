@@ -60,7 +60,7 @@ module.exports = {
 
   h1: 'Coding classes in County Monaghan',
   capsuleQ: 'What are the best coding classes in County Monaghan?',
-  capsule: 'County Monaghan counted 65,288 residents in 2022, and in three towns: Monaghan with 7,894, Carrickmacross with 5,745 and Castleblayney with 3,926, the last home to the one Monaghan school that started Leaving Certificate Computer Science in the first wave. Employment rose 12% in six years and manufacturing is the largest employer. Lessons with us happen live on video, twice a week at an agreed hour, in a group of five to ten at the same level or on a one to one basis, for any age from six to sixty-seven. There is no charge for the first; groups then cost USD 100 a month and private lessons USD 150.',
+  capsule: 'County Monaghan counted 65,288 residents in 2022, and in three towns: Monaghan with 7,894, Carrickmacross with 5,745 and Castleblayney with 3,926, the last home to the one Monaghan school that started Leaving Certificate Computer Science in the first wave. Employment rose 12% in six years and manufacturing is the largest employer. Lessons with us happen live on video, twice a week at an agreed hour, in a group of fifteen to twenty at the same level or on a one to one basis, for any age from six to sixty-seven. There is no charge for the first; groups then cost USD 100 a month and private lessons USD 150.',
   lead: 'Monaghan County Council publishes a small, tidy file listing the county\'s 24 bottle and can banks. Its written description says, in a plain sentence, that the data uses WGS84, which is ordinary latitude and longitude. Look at the X column and the numbers run from about minus 807,000 to minus 732,000. No longitude on earth is minus 807,000. So either the numbers are broken or the sentence describing them is wrong, and this is a question with a definite answer, not a matter of opinion. The file also contains its own latitude and longitude columns. Convert X and Y as if they were Web Mercator, the system web maps use, and you reproduce those columns to six decimal places, in every one of the 24 rows. The data was right all along. The description was not.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in County Monaghan.',
 
@@ -183,7 +183,7 @@ module.exports = {
     intro: 'What a week actually involves.',
     cells: [
       { h3: 'Taught as it happens', p: 'Each lesson is live, with a teacher asking and answering questions throughout, not a recording to sit through alone.' },
-      { h3: 'Among learners at the same level', p: 'Groups of five to ten are formed by ability, drawing on Monaghan and other countries so the fit is real.' },
+      { h3: 'Among learners at the same level', p: 'Groups of fifteen to twenty are formed by ability, drawing on Monaghan and other countries so the fit is real.' },
       { h3: 'A fixed place in the week', p: 'Usually two lessons a week, about eight a month, at a time agreed at the start and then held.' },
       { h3: 'Irish school calendar respected', p: 'From Junior Cycle to Leaving Certificate, with mid-terms, holidays and exam weeks planned for.' },
       { h3: 'What sits on the desk', p: 'A laptop or desktop, audio that works and a connection that carries video. The first lesson checks all of it.' },
@@ -196,7 +196,7 @@ module.exports = {
     h2: 'Monaghan lesson fees',
     intro: 'The whole price list.',
     first: 'An opening lesson, taught in full, free of charge.',
-    group: 'A month in a group of five to ten learners at one level, around eight lessons.',
+    group: 'A month in a group of fifteen to twenty learners at one level, around eight lessons.',
     private: 'A month of one to one lessons at the same weekly pace.',
     closer: 'Fees are charged monthly in US dollars, at the one rate we use for all families outside India, so Clones and Carrickmacross pay identical amounts and no second currency appears anywhere. Nothing is charged before that first lesson has settled a course and a weekly time, and pauses, missed lessons and a switch between group and private are covered on the pricing page.'
   },
@@ -221,7 +221,7 @@ module.exports = {
       { q: 'Do you teach outside the three towns?', a: 'Yes. Clones, Ballybay, Emyvale and the countryside between them receive exactly the same lessons at exactly the same times.' },
       { q: 'When are lessons held?', a: 'After school, in the evening and on weekend mornings. Our teachers are in India, four and a half hours ahead of Irish time in summer and five and a half in winter; your slot is set in the first lesson.' },
       { q: 'Is there a Modern Age Coders classroom in County Monaghan?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do County Monaghan coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do County Monaghan coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

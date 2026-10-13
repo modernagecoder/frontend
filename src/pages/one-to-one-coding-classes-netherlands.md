@@ -164,7 +164,7 @@ Teachers work from India, which keeps the same clock all year, while the Netherl
 Monthly, in US dollars, at the same rates as every country outside India. One-to-one lessons are USD 150 a month and a small-group place USD 100. No enrolment fee and no annual contract.
 
 - Free first class: USD 0. A real private lesson. A plan built around your goal. No card or bank details.
-- Group batch: USD 100 a month. Five to ten learners at one level. Peers and steady pace. Work reviewed every week. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. Peers and steady pace. Work reviewed every week. A certificate at the end.
 - One to one: USD 150 a month. One teacher, one learner. Syllabus shaped to the goal. The only format for Copilot Studio.
 
 ## What families and learners in the Netherlands ask about one to one

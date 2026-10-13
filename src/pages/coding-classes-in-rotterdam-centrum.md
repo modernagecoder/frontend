@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Rotterdam Centrum for
 canonical: https://learn.modernagecoders.com/coding-classes-in-rotterdam-centrum
 source: src/pages/coding-classes-in-rotterdam-centrum.html
 ---
-> Coding classes in Rotterdam Centrum reach 42,924 residents (1 January 2026) on 413 hectares of land, the smallest of the fourteen gebieden, in 25,035 households of which 15,290 hold one person. Six primary establishments here teach 1,989 pupils and four secondary ones teach 1,622, in a district holding 3,130 residents under fifteen. None of those figures answers the question anybody wants answered, because a school catchment is not district-shaped and this district is small enough that almost everyone in it lives near an edge. Modern Age Coders teaches live online in English across all six buurten, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Rotterdam Centrum reach 42,924 residents (1 January 2026) on 413 hectares of land, the smallest of the fourteen gebieden, in 25,035 households of which 15,290 hold one person. Six primary establishments here teach 1,989 pupils and four secondary ones teach 1,622, in a district holding 3,130 residents under fifteen. None of those figures answers the question anybody wants answered, because a school catchment is not district-shaped and this district is small enough that almost everyone in it lives near an edge. Modern Age Coders teaches live online in English across all six buurten, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Rotterdam](/coding-classes-in-rotterdam) / Rotterdam Centrum
 
@@ -12,11 +12,11 @@ Centrum, Rotterdam / Live online
 
 # Coding classes in Rotterdam Centrum, a district where three quarters of the ground is within five hundred metres of somewhere else
 
-**What are the best coding classes in Rotterdam Centrum?** Coding classes in Rotterdam Centrum reach 42,924 residents (1 January 2026) on 413 hectares of land, the smallest of the fourteen gebieden, in 25,035 households of which 15,290 hold one person. Six primary establishments here teach 1,989 pupils and four secondary ones teach 1,622, in a district holding 3,130 residents under fifteen. None of those figures answers the question anybody wants answered, because a school catchment is not district-shaped and this district is small enough that almost everyone in it lives near an edge. Modern Age Coders teaches live online in English across all six buurten, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Rotterdam Centrum?** Coding classes in Rotterdam Centrum reach 42,924 residents (1 January 2026) on 413 hectares of land, the smallest of the fourteen gebieden, in 25,035 households of which 15,290 hold one person. Six primary establishments here teach 1,989 pupils and four secondary ones teach 1,622, in a district holding 3,130 residents under fifteen. None of those figures answers the question anybody wants answered, because a school catchment is not district-shaped and this district is small enough that almost everyone in it lives near an edge. Modern Age Coders teaches live online in English across all six buurten, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Rotterdam Centrum covers 413 hectares of land, which is 4.13 square kilometres. Lay that out as a square and its sides are about two kilometres, so a person standing anywhere in it is on average a few minutes from a district that is not this one. Count what is near residents by counting only what falls inside the boundary and you will undercount for nearly all of them, not because the centre is badly served but because it is small. The same count in a district four times the size undercounts far less. Half of what separates those two numbers is geometry.
 
-Facts last verified 9 September 2026. Teaching is online; no Rotterdam Centrum branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 September 2026. Teaching is online; no Rotterdam Centrum branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the densest four square kilometres in the city
 
@@ -182,18 +182,18 @@ Nothing in the centre is far from anything. What families here run short of is s
 - **No room to book and nowhere to go** The lesson happens at the table in the Stadsdriehoek, the Oude Westen or Cool, at one hour that repeats every week, which is the only arrangement that does not need a spare room somewhere else.
 - **English for the lesson, Dutch for the school** Teaching is in English throughout. Groep, havo, vwo and profielkeuze stay Dutch, because those four are printed on the paperwork a child brings home and an English version would only need turning back.
 - **The first hour is free and settles three things** A level, found by giving the learner something real to do. A course chosen because that level points at it. A weekly time. Nothing about payment comes up while any of it is happening.
-- **Grouped by stage, drawn from far outside the district** Five to ten learners at one level. In a district with 3,130 children under fifteen, drawing from further afield is not a preference, it is the only way a specific level fills.
+- **Grouped by stage, drawn from far outside the district** Fifteen to twenty learners at one level. In a district with 3,130 children under fifteen, drawing from further afield is not a preference, it is the only way a specific level fills.
 - **Twice a week, on the regio Midden calendar** Two lessons weekly at a repeating hour, normally eight in a month. Zuid-Holland takes its school holidays with regio Midden, and the weeks a family will be away are agreed at the start rather than found later.
 - **India is ahead, by three and a half hours or four and a half** The Dutch clock changes twice a year and the Indian one does not, which is where the whole difference comes from. Late afternoon, early evening and either weekend day work at both settings.
 
-**The lowest share of children of any page in this series** Just 3,130 of the centre's 42,924 residents are under fifteen, 7.3 percent, against 15 percent in Prins Alexander and 19 percent in the fullest Amsterdam neighbourhood this series has measured. A child growing up here is in a very small local cohort, and no school or club inside four square kilometres can assemble a group of five to ten at one particular level in one particular subject from it. That is arithmetic rather than any comment on the schools, and it is the reason groups here are formed on ability from across the world, at every age up to sixty-seven.
+**The lowest share of children of any page in this series** Just 3,130 of the centre's 42,924 residents are under fifteen, 7.3 percent, against 15 percent in Prins Alexander and 19 percent in the fullest Amsterdam neighbourhood this series has measured. A child growing up here is in a very small local cohort, and no school or club inside four square kilometres can assemble a group of fifteen to twenty at one particular level in one particular subject from it. That is arithmetic rather than any comment on the schools, and it is the reason groups here are formed on ability from across the world, at every age up to sixty-seven.
 
 ## The fee, in dollars, in all six buurten
 
 On the page rather than saved for a telephone call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate applies and it is quoted in dollars, with no euro edition, so an address in Dijkzigt is charged exactly what one in the Cs Kwartier is. Nothing is paid until the free lesson has settled a course and an hour, and payment is arranged over WhatsApp afterwards. Pausing, switching plan and missing a week are described on the pricing page.
@@ -226,7 +226,7 @@ The teacher is three and a half hours ahead for part of the year and four and a 
 
 ### Why look outside the centre for a class at all?
 
-Because of the arithmetic in the district itself. A group of five to ten learners at one specific level in one specific subject needs a pool, and a district with 3,130 children under fifteen across four square kilometres does not have one, however good its schools are. Groups here are assembled on ability from across the world, which is the only arrangement in which a narrow level actually fills.
+Because of the arithmetic in the district itself. A group of fifteen to twenty learners at one specific level in one specific subject needs a pool, and a district with 3,130 children under fifteen across four square kilometres does not have one, however good its schools are. Groups here are assembled on ability from across the world, which is the only arrangement in which a narrow level actually fills.
 
 ### Is there a Modern Age Coders classroom in Rotterdam Centrum?
 
@@ -234,7 +234,7 @@ No, and none is claimed in the centre, elsewhere in Rotterdam or anywhere in the
 
 ### What do Rotterdam Centrum coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

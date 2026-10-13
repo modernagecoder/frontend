@@ -4,7 +4,7 @@ description: "Best online coding classes in the UK? Seven checks from Key Stage 
 canonical: https://learn.modernagecoders.com/best-online-coding-classes-uk
 source: src/pages/best-online-coding-classes-uk.html
 ---
-> The best online coding class in the UK is one that fits the learner's school system and stage and teaches them to reason about code rather than copy it. Interest at school is moving: Ofqual's provisional figures for England show GCSE computing entries falling from 89,610 in 2025 to 83,330 in 2026, down 7.0 percent and the largest fall of any EBacc subject, while A level computing grew by 3.5 percent. A good class works around school rather than against it: a live teacher at a UK hour, a prediction before any typing, code read by a person every week, AI used openly and recorded, and evidence you can check yourself. We run classes like that for learners from 6 to 67, either in a small group of five to ten or with a teacher to themselves. Trying one costs nothing, and staying on costs USD 100 a month in a group or USD 150 for private lessons.
+> The best online coding class in the UK is one that fits the learner's school system and stage and teaches them to reason about code rather than copy it. Interest at school is moving: Ofqual's provisional figures for England show GCSE computing entries falling from 89,610 in 2025 to 83,330 in 2026, down 7.0 percent and the largest fall of any EBacc subject, while A level computing grew by 3.5 percent. A good class works around school rather than against it: a live teacher at a UK hour, a prediction before any typing, code read by a person every week, AI used openly and recorded, and evidence you can check yourself. We run classes like that for learners from 6 to 67, either in a group of fifteen to twenty or with a teacher to themselves. Trying one costs nothing, and staying on costs USD 100 a month in a group or USD 150 for private lessons.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Best online coding classes in the UK
 
@@ -181,7 +181,7 @@ Our teachers are in India, where the clocks never change, so the UK sits five an
 - **Saturday or Sunday morning** Good for longer lessons and for finishing projects.
 
 - **The opening lesson** A proper problem worked on with a teacher, ending in an honest recommendation about the right starting point.
-- **Small groups** Five to ten learners working at the same level, some from the UK and some from further away, who learn to read each other's code.
+- **Small groups** Fifteen to twenty learners working at the same level, some from the UK and some from further away, who learn to read each other's code.
 - **Private lessons** Useful when a deadline is close, when a learner is far ahead, or when an adult has one specific target.
 - **Local school language** Teachers talk about Year 10, S4, CCEA or WJEC as the learner does; all teaching is in English.
 - **An AI log** Any suggestion from an AI tool goes into a short log, with a note of what the learner kept and why.
@@ -192,7 +192,7 @@ Our teachers are in India, where the clocks never change, so the UK sits five an
 A monthly fee in US dollars, identical for every country outside India. Nothing to pay up front and no twelve-month commitment.
 
 - Free first class: USD 0. A full lesson with a teacher. A frank view of the starting level. No card details taken.
-- Group batch: USD 100 a month. Five to ten learners at one level. One teacher all the way through. Weekly feedback on the learner's code. A certificate on completion.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. One teacher all the way through. Weekly feedback on the learner's code. A certificate on completion.
 - One to one: USD 150 a month. A teacher working with one learner. Planned around exam dates. Right for tight deadlines and fast movers.
 
 ## The questions UK families put to us first

@@ -296,7 +296,7 @@ module.exports = {
       { h3: 'Hands on keyboard', p: 'The learner writes the code; the teacher watches the shared screen and guides.' },
       { h3: 'Term rhythm', p: 'Classes follow Queensland school terms and pause for the holidays.' },
       { h3: 'Free first class', p: 'One full lesson costs nothing and ends with a suggested course.' },
-      { h3: 'Small groups', p: 'Five to ten learners at a matched level, or one to one.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners at a matched level, or one to one.' },
       { h3: 'Twice a week', p: 'Two live lessons each week, about eight in a month.' },
       { h3: 'Clocks that stay put', p: 'Brisbane keeps the same time all year, so a 5pm Sunnybank lesson is always 12:30pm in India, where our teachers are.' }
     ],
@@ -309,7 +309,7 @@ module.exports = {
     h2: 'Sunnybank class fees',
     intro: 'One price list for every family.',
     first: 'Your first lesson is free and comes with a written next step.',
-    group: 'Group classes: about eight lessons a month with five to ten learners.',
+    group: 'Group classes: about eight lessons a month with fifteen to twenty learners.',
     private: 'One to one: about eight lessons a month with a dedicated teacher.',
     closer: 'Sunnybank families pay in US dollars. Nothing is charged until the trial has fixed a course and a time; holiday and missed-lesson rules are on the pricing page.'
   },
@@ -342,12 +342,12 @@ module.exports = {
       },
       {
         q: 'What do Sunnybank classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Which train stations are in Sunnybank?', a: 'Altandi and Banoon stations are inside the ABS outline of the Sunnybank suburb.' }

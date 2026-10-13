@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Midlothian, fr
 canonical: https://learn.modernagecoders.com/coding-classes-in-midlothian
 source: src/pages/coding-classes-in-midlothian.html
 ---
-> Midlothian is a council area of about 96,600 residents in roughly 41,000 households, according to the 2022 census, with 273.1 people per square kilometre. Its biggest towns are Bonnyrigg, Penicuik and Dalkeith, followed by Mayfield, Gorebridge and Loanhead, and it includes villages such as Roslin and Rosewell. We teach online in real time from India, and a free first lesson shows where each person should start, whether in P1, S6 or adult life. People aged 6 to 67 learn coding, Python and maths with us, either with a teacher of their own or with five to ten classmates. The Midlothian project comes from a pair of carved sundials at Newbattle. Continuing costs USD 100 a month in a group or USD 150 a month with a teacher to yourself.
+> Midlothian is a council area of about 96,600 residents in roughly 41,000 households, according to the 2022 census, with 273.1 people per square kilometre. Its biggest towns are Bonnyrigg, Penicuik and Dalkeith, followed by Mayfield, Gorebridge and Loanhead, and it includes villages such as Roslin and Rosewell. We teach online in real time from India, and a free first lesson shows where each person should start, whether in P1, S6 or adult life. People aged 6 to 67 learn coding, Python and maths with us, either with a teacher of their own or with fifteen to twenty classmates. The Midlothian project comes from a pair of carved sundials at Newbattle. Continuing costs USD 100 a month in a group or USD 150 a month with a teacher to yourself.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Midlothian
 
@@ -12,11 +12,11 @@ Midlothian / Live online
 
 # Coding classes in Midlothian
 
-**What are the best coding classes in Midlothian?** Midlothian is a council area of about 96,600 residents in roughly 41,000 households, according to the 2022 census, with 273.1 people per square kilometre. Its biggest towns are Bonnyrigg, Penicuik and Dalkeith, followed by Mayfield, Gorebridge and Loanhead, and it includes villages such as Roslin and Rosewell. We teach online in real time from India, and a free first lesson shows where each person should start, whether in P1, S6 or adult life. People aged 6 to 67 learn coding, Python and maths with us, either with a teacher of their own or with five to ten classmates. The Midlothian project comes from a pair of carved sundials at Newbattle. Continuing costs USD 100 a month in a group or USD 150 a month with a teacher to yourself.
+**What are the best coding classes in Midlothian?** Midlothian is a council area of about 96,600 residents in roughly 41,000 households, according to the 2022 census, with 273.1 people per square kilometre. Its biggest towns are Bonnyrigg, Penicuik and Dalkeith, followed by Mayfield, Gorebridge and Loanhead, and it includes villages such as Roslin and Rosewell. We teach online in real time from India, and a free first lesson shows where each person should start, whether in P1, S6 or adult life. People aged 6 to 67 learn coding, Python and maths with us, either with a teacher of their own or with fifteen to twenty classmates. The Midlothian project comes from a pair of carved sundials at Newbattle. Continuing costs USD 100 a month in a group or USD 150 a month with a teacher to yourself.
 
 In the grounds of Newbattle Abbey stand two identical sundials, each dated 1635 and each listed at Category A by Historic Environment Scotland. The listing describes them as octagonal, carved in two tiers, with a bronze gnomon, the part that casts the shadow, in each panel of the lower tier. Why would anyone build a sundial with eight faces? Because the sun does not stay in the south. On a summer morning it rises in the north-east and sets in the north-west, so a single south-facing dial sits in its own shadow for hours. This page's project turns the sun into a vector in Python and works out, minute by minute, which faces of an eight-sided dial are in sunshine.
 
-Facts last verified 26 September 2026. Teaching is online; no Midlothian branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Midlothian branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four starting points in Midlothian
 
@@ -138,7 +138,7 @@ Whether in a Midlothian town or village, learners join from home.
 - **A shared screen** The learner writes and runs the code; the teacher sees it live and steps in when something breaks.
 - **Scottish stages spoken** P5, S2, National 5, Higher, Advanced Higher: the same words Midlothian schools use, and teaching in English.
 - **No-cost first lesson** A full lesson, free. Afterwards we recommend a stage and a course, with no obligation.
-- **Five to ten per group** Every group works at one stage, with classmates from several countries.
+- **Fifteen to twenty per group** Every group works at one stage, with classmates from several countries.
 - **Term time only** Two lessons a week during term, and none in the school holidays.
 - **Steady UK time** Lessons keep their UK time through the clock changes; teachers in India time take care of the difference.
 
@@ -149,7 +149,7 @@ Whether in a Midlothian town or village, learners join from home.
 Dalkeith or Roslin, the fee is the same, and it matches our fee in every country except India.
 
 - First class: USD 0. One whole lesson for nothing, then our honest advice.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month, one-to-one.
 
 Fees are charged in US dollars, with no sterling price list. Nothing is billed until a course and a weekly time are agreed after the free lesson; the pricing page sets out holidays, missed lessons and switching between formats.

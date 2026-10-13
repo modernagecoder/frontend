@@ -16,7 +16,7 @@ Hemel Hempstead, Hertfordshire, England / Live online
 
 In his 1890 book The Art of Paper-Making, Alexander Watt records that after a first working model in 1803, "in 1804 a second machine was made and put up at Two-Waters, Herts, which was completely successful". Two Waters is today a suburban area of Dacorum with a Hemel Hempstead postcode, and machines like that one made paper in long continuous rolls that then had to be cut into sheets. The sheets had wonderful names: Pot, Foolscap, Demy, Royal, Elephant, Atlas. Richard Herring listed 26 of them in inches in 1855. Today most home and school printers take one size, A4. Why that shape? A Hemel Hempstead learner can find out in Python by folding each old sheet in half, again and again, and watching what happens to its proportions.
 
-Facts last verified 27 September 2026. Teaching is online; no Hemel Hempstead branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Hemel Hempstead branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Hemel Hempstead learners start
 

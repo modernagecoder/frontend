@@ -37,7 +37,7 @@ module.exports = {
 
   h1: 'Coding classes in Rotterdam, where the port handled more boxes and less cargo in the same year',
   capsuleQ: 'What are the best coding classes in Rotterdam?',
-  capsule: 'Coding classes in Rotterdam serve the second city of the Netherlands, 673,804 people on 1 January 2026 (Statistics Netherlands), a third of them born abroad, with the largest Surinamese-origin community of any origin group in the city at 52,003, and a port that in 2025 moved 428.4 million tonnes, 1.7 percent less than the year before, while handling 14.2 million containers, 3.1 percent more. Modern Age Coders teaches coding, Python, Java, app development, AI and mathematics to Rotterdam learners aged 6 to 67, live online and in English. Nothing is charged for the first lesson; a place in a group of five to ten is then USD 100 a month and private tuition USD 150.',
+  capsule: 'Coding classes in Rotterdam serve the second city of the Netherlands, 673,804 people on 1 January 2026 (Statistics Netherlands), a third of them born abroad, with the largest Surinamese-origin community of any origin group in the city at 52,003, and a port that in 2025 moved 428.4 million tonnes, 1.7 percent less than the year before, while handling 14.2 million containers, 3.1 percent more. Modern Age Coders teaches coding, Python, Java, app development, AI and mathematics to Rotterdam learners aged 6 to 67, live online and in English. Nothing is charged for the first lesson; a place in a group of fifteen to twenty is then USD 100 a month and private tuition USD 150.',
   lead: 'A container is a box, and a tonne is what is inside it. In 2025 Rotterdam had more of the first and less of the second, and a family reading two headlines about the same port in the same week could be forgiven for thinking one of them was wrong. Neither was. The program that shows why is the project on this page, and in a city that lives by the quay it is not a small thing for a child to understand.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Rotterdam.',
 
@@ -188,7 +188,7 @@ module.exports = {
       { h3: 'One recurring slot, chosen by the family', p: 'The class is at home in Ommoord, Kralingen or the Kop van Zuid at an hour the household keeps, and it does not require the parent on the early shift to be there.' },
       { h3: 'English, with Rotterdam\'s school words left alone', p: 'Teaching is in English. Groep, mavo, havo, vwo, profiel, tweetalig and IGCSE are used as the child hears them at school, because that is the vocabulary the family uses at the table.' },
       { h3: 'One full lesson before any decision', p: 'A real task, a level and a named course by the end of the hour, with no card details taken to arrange it and nothing to decide until the family has watched us teach.' },
-      { h3: 'Five to ten learners, grouped by level', p: 'A group is built from what its members can do and want next. The gebied, the school, the rota and the country the grandparents left play no part in it.' },
+      { h3: 'Fifteen to twenty learners, grouped by level', p: 'A group is built from what its members can do and want next. The gebied, the school, the rota and the country the grandparents left play no part in it.' },
       { h3: 'Eight lessons a month, on the regio Midden calendar', p: 'Two lessons a week at one time agreed once. Zuid-Holland takes its school holidays with regio Midden, and the summer weeks are settled before the slot is.' },
       { h3: 'Three and a half hours, or four and a half', p: 'That is how far a Rotterdam afternoon sits behind the teacher\'s evening in India, more in winter because only the Dutch clock changes. After-school, early-evening and weekend slots suit both ends and the family picks one during the free lesson.' }
     ],
@@ -199,7 +199,7 @@ module.exports = {
     h2: 'A free opening lesson, then USD 100 or USD 150 a month, and that is all of it',
     intro: 'The tariff in full, ahead of any request for a phone number, because a port city likes its numbers on the table.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'The rate is the single international one and it is in US dollars: no euro list, no Rotterdam surcharge, no joining fee. The opening lesson fixes the course and the slot; payment is arranged afterwards over WhatsApp. Pauses, changes of plan and missed lessons are on the pricing page.'
   },
@@ -224,7 +224,7 @@ module.exports = {
       { q: 'What time are classes for a Rotterdam family?', a: 'The teacher is in India on a clock that never changes, so a Rotterdam afternoon is four and a half hours behind in winter and three and a half in summer. After-school, early-evening and weekend slots work at both ends, and the recurring time is fixed during the free lesson before any payment.' },
       { q: 'What happens in the free Rotterdam lesson?', a: 'We find what the learner can do and set one task there. A child counts and weighs ten toy boxes. A teenager writes the two-unit model and derives the weight per box. An adult brings a report that says two things in two units. The lesson ends with a course, a level, a weekly slot and the price in dollars, and nothing has been paid.' },
       { q: 'Is there a Modern Age Coders classroom in Rotterdam?', a: 'No, and none is claimed in Rotterdam, in Schiedam or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Rotterdam coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Rotterdam coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in a Rotterdam group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or gebied. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

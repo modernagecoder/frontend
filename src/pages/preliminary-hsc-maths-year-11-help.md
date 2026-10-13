@@ -178,7 +178,7 @@ Our tutors are based in India. Sydney runs four and a half hours ahead of India 
 - **Foundations checked early** A quick diagnostic in the first lesson shows which Year 10 skills need repair.
 - **Points before equations** Students test every transformed graph with a point or two before trusting it.
 - **Explaining, not reciting** Each lesson ends with the student explaining one idea in their own words.
-- **Five to ten per class** Year 11 students in the same course, each speaking up every week.
+- **Fifteen to twenty per class** Year 11 students in the same course, each speaking up every week.
 - **One-to-one too** Individual lessons for a student with a specific gap.
 - **No grade promises** We do not promise a grade. We make the mathematics clear and the work is the student's.
 

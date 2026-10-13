@@ -181,7 +181,7 @@ module.exports = {
     cells: [
       { h3: 'One hour, one teacher, live', p: 'A person teaches, asks questions and waits for answers. Recordings exist for revision, not instead of the class.' },
       { h3: 'Reaching the rural majority', p: 'With around 56 in every 100 people here living outside any town, a class that needs no journey reaches families that nothing else reaches.' },
-      { h3: 'Grouped by what they can do', p: 'Five to ten learners at one level, drawn from Longford and several countries, so a real peer group exists at a sensible hour.' },
+      { h3: 'Grouped by what they can do', p: 'Fifteen to twenty learners at one level, drawn from Longford and several countries, so a real peer group exists at a sensible hour.' },
       { h3: 'Equipment and connection', p: 'A laptop or desktop, working sound and a steady line. The free lesson is the honest test of whether the line is good enough.' },
       { h3: 'Irish school calendar', p: 'Junior Cycle, Transition Year and senior cycle, with mid-terms and exam weeks written into the plan.' },
       { h3: 'Hours and time zones', p: 'Afternoons, evenings and weekend mornings, taught by a team several hours ahead of Irish time.' }
@@ -193,7 +193,7 @@ module.exports = {
     h2: 'Longford class fees',
     intro: 'Three numbers, no conditions hidden behind them.',
     first: 'The opening lesson, taught in full, at no cost.',
-    group: 'A month of group classes, around eight lessons, five to ten learners at one level.',
+    group: 'A month of group classes, around eight lessons, fifteen to twenty learners at one level.',
     private: 'A month of one to one classes on the same weekly rhythm.',
     closer: 'Fees are monthly and in US dollars, the one rate we use outside India, so Granard pays what Longford town pays and there is no euro list beside it. Nothing is charged until the free lesson has settled a course and an hour, and pauses, missed lessons and changes between group and private are written out on the pricing page.'
   },
@@ -218,7 +218,7 @@ module.exports = {
       { q: 'Do you teach children in the rural parts of the county?', a: 'That is most of the county, and yes. Around 56 in every 100 people here live outside any town of 500 or more, and the class is identical wherever the learner sits.' },
       { q: 'When do classes run?', a: 'Afternoons, evenings and weekend mornings, at an hour fixed in the free lesson. Our teaching team is several hours ahead of Irish time, which keeps those hours easy to staff.' },
       { q: 'Is there a Modern Age Coders classroom in County Longford?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do County Longford coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do County Longford coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

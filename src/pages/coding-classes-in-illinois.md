@@ -14,7 +14,7 @@ Illinois / Live online
 
 The short answer
 
-The Education and Workforce Equity Act gives every Illinois student the opportunity to take at least one computer science course from the 2023 to 2024 school year. That is a floor, not a ceiling, and many students clear it in a term. Modern Age Coders teaches what comes next, live, for ages 6 to 67, in batches of five to eight or privately, at USD 100 and USD 150 a month. The opening class is free.
+The Education and Workforce Equity Act gives every Illinois student the opportunity to take at least one computer science course from the 2023 to 2024 school year. That is a floor, not a ceiling, and many students clear it in a term. Modern Age Coders teaches what comes next, live, for ages 6 to 67, in batches of fifteen to twenty or privately, at USD 100 and USD 150 a month. The opening class is free.
 
 Illinois did something unusually decent in 2021. Rather than leaving computer science to whichever districts could afford it, the state legislated an entitlement, so that access would not depend on a postcode. It was the right instinct and it has moved real numbers. What it cannot legislate is depth, and depth is what a motivated student runs out of first.
 
@@ -222,7 +222,7 @@ No enrolment charge, nothing to buy, no minimum term.
 
 Group$100per month, 8 classes
 
-Five to eight learners with one consistent teacher. Where most Illinois families begin.
+Fifteen to twenty learners with one consistent teacher. Where most Illinois families begin.
 
 Private$150per month, 8 classes
 
@@ -316,7 +316,7 @@ We fit the timetable to your household. Weekend slots are the easiest to arrange
 
 ### What are the fees for an Illinois family?
 
-USD 100 a month in a group of five to eight, or USD 150 a month one to one. Both are two classes a week, eight a month. There is no enrolment charge, nothing to buy, and no minimum term. The first class is free and is used to place the student properly rather than to sell.
+USD 100 a month in a group of fifteen to twenty, or USD 150 a month one to one. Both are two classes a week, eight a month. There is no enrolment charge, nothing to buy, and no minimum term. The first class is free and is used to place the student properly rather than to sell.
 
 ### Which ages do you take?
 
@@ -324,7 +324,7 @@ Six to sixty-seven. Placement comes from what a learner can show in the opening 
 
 ### How large is a class?
 
-Five to eight learners in a group, or one to one. The teacher is the same person every week in both cases. We do not rotate staff between sessions, because a teacher who already knows where a student got stuck last week begins the lesson somewhere useful instead of starting again.
+Fifteen to twenty learners in a group, or one to one. The teacher is the same person every week in both cases. We do not rotate staff between sessions, because a teacher who already knows where a student got stuck last week begins the lesson somewhere useful instead of starting again.
 
 ### How do we start?
 

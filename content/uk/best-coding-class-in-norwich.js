@@ -62,7 +62,7 @@ module.exports = {
 
   h1: 'Coding classes in Norwich',
   capsuleQ: 'What are the best coding classes in Norwich?',
-  capsule: 'Census 2021 found 143,922 usual residents in Norwich, and 11.4% of them were aged 20 to 24, against 6.0% across England. Norwich Cathedral was founded in 1096 by Herbert de Losinga, the first Bishop of Norwich. Anyone in Norwich from six to sixty-seven can learn with us live on screen, alone with a teacher or among five to ten classmates of similar ability; the teachers are in India and the timetable runs on UK time. Your first lesson costs nothing. A group place then costs USD 100 a month, and private teaching USD 150.',
+  capsule: 'Census 2021 found 143,922 usual residents in Norwich, and 11.4% of them were aged 20 to 24, against 6.0% across England. Norwich Cathedral was founded in 1096 by Herbert de Losinga, the first Bishop of Norwich. Anyone in Norwich from six to sixty-seven can learn with us live on screen, alone with a teacher or among fifteen to twenty classmates of similar ability; the teachers are in India and the timetable runs on UK time. Your first lesson costs nothing. A group place then costs USD 100 a month, and private teaching USD 150.',
   lead: 'Historic England lists 34 Grade I churches, chapels and cathedral buildings inside Norwich. Are they clustered or evenly spaced? Measure each one\'s distance to its nearest neighbour and compare the average with what random scattering would give. Across the whole council area the churches sit far closer together than random, a ratio of 0.453, strongly clustered. Draw the frame tightly around the churches themselves and the same 34 points become more evenly spaced than random, a ratio of 1.351, and in 499 random layouts only about one in fifty spread out as much. Nothing about the churches changed. Only the frame did. Our teenagers learn to run the test, and to say which frame they chose.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Norwich.',
 
@@ -189,7 +189,7 @@ module.exports = {
       { h3: 'Both banks of the Wensum', p: 'A learner in Mile Cross and another in Thorpe Hamlet can share the same lesson without crossing the river.' },
       { h3: 'Stages Norwich schools use', p: 'Reception, Key Stages 1 to 4, GCSE options and A levels, called by the names Norwich schools use, and taught in English throughout.' },
       { h3: 'Try before paying', p: 'In the free session your learner does real work with a teacher, and at the end we suggest where to start, which course fits and a weekly slot. Card details are never requested.' },
-      { h3: 'Grouped by level', p: 'Groups of five to ten learners at one stage, from Norwich, other parts of the UK and overseas, so every level finds a time that works.' },
+      { h3: 'Grouped by level', p: 'Groups of fifteen to twenty learners at one stage, from Norwich, other parts of the UK and overseas, so every level finds a time that works.' },
       { h3: 'A fixed weekly pair', p: 'Two set lessons each week, about eight a month, with school holidays and exam weeks arranged with the teacher ahead of time.' },
       { h3: 'Evening in Norwich, night in India', p: 'Our teachers work late by Indian time so that Norwich learners can have lessons after school or after work. The gap is four and a half hours while Britain is on summer time and five and a half from late October.' }
     ],
@@ -200,7 +200,7 @@ module.exports = {
     h2: 'Norwich lesson fees',
     intro: 'The first lesson costs nothing, then there is one monthly fee.',
     first: 'A complete lesson at no charge, closing with a recommended level, course and weekly time.',
-    group: 'About eight live lessons each month in a group of five to ten learners at one stage.',
+    group: 'About eight live lessons each month in a group of fifteen to twenty learners at one stage.',
     private: 'About eight live lessons each month, with a teacher focused on your learner alone.',
     closer: 'Tuckswood and Catton Grove are billed identically, in US dollars, as is every family outside India; there are no pound prices on our site. Billing begins after the trial lesson, once you have accepted a course and a lesson time, and the pricing page answers the usual questions about pausing, missed lessons and changing format.'
   },
@@ -225,8 +225,8 @@ module.exports = {
       { q: 'How old is Norwich Cathedral?', a: 'The Cathedral says it was founded in 1096 by Herbert de Losinga, the first Bishop of Norwich, and that its spire has risen above the city for over 900 years. We are not connected with the Cathedral.' },
       { q: 'When do Norwich lessons run?', a: 'Weekday afternoons, evenings or weekends, at a UK time chosen during the free lesson. India is four and a half hours ahead of Norwich in summer and five and a half hours ahead in winter.' },
       { q: 'Is there a Modern Age Coders centre in Norwich?', a: 'No. There is no Norwich centre and we have no premises anywhere in the UK, since all teaching is live online. A learner needs a computer with sound and a reliable connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do Norwich lessons cost?', a: 'The first lesson is free. Afterwards, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
-      { q: 'How are Norwich groups formed?', a: 'By level, pace and aims rather than age or address, with five to ten learners at one stage. If no group meets at a time that suits, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do Norwich lessons cost?', a: 'The first lesson is free. Afterwards, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
+      { q: 'How are Norwich groups formed?', a: 'By level, pace and aims rather than age or address, with fifteen to twenty learners at one stage. If no group meets at a time that suits, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

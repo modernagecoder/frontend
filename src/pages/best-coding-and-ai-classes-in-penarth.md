@@ -4,7 +4,7 @@ description: "Live online coding and AI classes for Penarth, Cogan, Llandough an
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-penarth
 source: src/pages/best-coding-and-ai-classes-in-penarth.html
 ---
-> The ONS gives the Penarth built-up area 28,395 usual residents in the 2021 census; the Vale of Glamorgan as a whole had 131,939. Cogan, Lower Penarth and Cosmeston fall inside the built-up area, and its postcodes sit in the St Augustine's, Plymouth, Cornerswell, Stanwell and Llandough wards. Penarth learners between six and 67 study coding, AI, Python, vibe coding and maths with us over live video; tutors in India take them one at a time or in level-matched groups of five to ten. A free trial lesson comes first, then a course suggestion. The Penarth project takes 48 years of temperature records from the Met Office station in Bute Park, Cardiff, and asks for the longest chain of years in which each was warmer than the one before, a question whose obvious solution would take years to run. After the free lesson, joining a group costs USD 100 per month; a personal tutor costs USD 150 per month.
+> The ONS gives the Penarth built-up area 28,395 usual residents in the 2021 census; the Vale of Glamorgan as a whole had 131,939. Cogan, Lower Penarth and Cosmeston fall inside the built-up area, and its postcodes sit in the St Augustine's, Plymouth, Cornerswell, Stanwell and Llandough wards. Penarth learners between six and 67 study coding, AI, Python, vibe coding and maths with us over live video; tutors in India take them one at a time or in level-matched groups of fifteen to twenty. A free trial lesson comes first, then a course suggestion. The Penarth project takes 48 years of temperature records from the Met Office station in Bute Park, Cardiff, and asks for the longest chain of years in which each was warmer than the one before, a question whose obvious solution would take years to run. After the free lesson, joining a group costs USD 100 per month; a personal tutor costs USD 150 per month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Penarth
 
@@ -12,11 +12,11 @@ Penarth, Vale of Glamorgan, Wales / Live online
 
 # Coding and AI classes in Penarth
 
-**Where can Penarth families find the best coding and AI classes?** The ONS gives the Penarth built-up area 28,395 usual residents in the 2021 census; the Vale of Glamorgan as a whole had 131,939. Cogan, Lower Penarth and Cosmeston fall inside the built-up area, and its postcodes sit in the St Augustine's, Plymouth, Cornerswell, Stanwell and Llandough wards. Penarth learners between six and 67 study coding, AI, Python, vibe coding and maths with us over live video; tutors in India take them one at a time or in level-matched groups of five to ten. A free trial lesson comes first, then a course suggestion. The Penarth project takes 48 years of temperature records from the Met Office station in Bute Park, Cardiff, and asks for the longest chain of years in which each was warmer than the one before, a question whose obvious solution would take years to run. After the free lesson, joining a group costs USD 100 per month; a personal tutor costs USD 150 per month.
+**Where can Penarth families find the best coding and AI classes?** The ONS gives the Penarth built-up area 28,395 usual residents in the 2021 census; the Vale of Glamorgan as a whole had 131,939. Cogan, Lower Penarth and Cosmeston fall inside the built-up area, and its postcodes sit in the St Augustine's, Plymouth, Cornerswell, Stanwell and Llandough wards. Penarth learners between six and 67 study coding, AI, Python, vibe coding and maths with us over live video; tutors in India take them one at a time or in level-matched groups of fifteen to twenty. A free trial lesson comes first, then a course suggestion. The Penarth project takes 48 years of temperature records from the Met Office station in Bute Park, Cardiff, and asks for the longest chain of years in which each was warmer than the one before, a question whose obvious solution would take years to run. After the free lesson, joining a group costs USD 100 per month; a personal tutor costs USD 150 per month.
 
 Some questions sound tiny and hide an enormous search. Here is one: in a list of 48 yearly temperatures, which years can you pick, keeping them in order, so that each is warmer than the last, and how long can that chain get? Checking every possible selection means looking at more than 281 trillion of them. A cleverer method needs 1,128 comparisons, and a cleverer one still, borrowed from a card game called patience, needs 141. Penarth learners write all three and time them.
 
-Facts last verified 1 October 2026. Teaching is online; no Penarth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 1 October 2026. Teaching is online; no Penarth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Coding and AI courses for Penarth learners
 
@@ -133,11 +133,11 @@ Each lesson is a live video call. Bring a laptop or desktop with a keyboard; Pyt
 - **Learner at the keyboard** Each line is typed and run by the learner, with the tutor asking for reasons.
 - **We place before we suggest** The trial lesson shows a learner's level before we name a course.
 - **First lesson free** There is no charge and no card for the trial.
-- **Five to ten per class** Learners at one level, joining from around the UK.
+- **Fifteen to twenty per class** Learners at one level, joining from around the UK.
 - **Weekly rhythm** About eight lessons a month in term, with Vale of Glamorgan holidays kept free on request.
 - **Same UK hour** Clock changes do not move your lesson.
 
-**Why we teach online** Finding five to ten learners at exactly one level is far easier across the UK than in one town by the sea, and video means no travelling.
+**Why we teach online** Finding fifteen to twenty learners at exactly one level is far easier across the UK than in one town by the sea, and video means no travelling.
 
 ## Fees for Penarth families
 

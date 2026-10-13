@@ -323,7 +323,7 @@ module.exports = {
       { h3: 'Teaching in real time', p: 'The teacher watches the learner\'s screen and explains each fix as it happens.' },
       { h3: 'NSW stages and terms', p: 'Lessons use NSW syllabus language and pause for state school holidays.' },
       { h3: 'A free start', p: 'The opening class costs nothing and ends with a recommended course, level and time.' },
-      { h3: 'Level-matched groups', p: 'Five to ten learners working at the same level, or one-to-one if preferred.' },
+      { h3: 'Level-matched groups', p: 'Fifteen to twenty learners working at the same level, or one-to-one if preferred.' },
       { h3: 'Two lessons a week', p: 'Fixed weekly times, around eight lessons a month.' },
       { h3: 'Teachers in India', p: 'A 4:30pm Schofields lesson is 11am India time while Sydney is on summer time and noon once it ends.' }
     ],
@@ -336,7 +336,7 @@ module.exports = {
     h2: 'Schofields lesson fees',
     intro: 'A single, simple fee table for every course.',
     first: 'A whole first lesson free, followed by a suggested course and timetable.',
-    group: 'Around eight lessons a month, two each week, in a group of five to ten learners at one level.',
+    group: 'Around eight lessons a month, two each week, in a group of fifteen to twenty learners at one level.',
     private: 'One-to-one lessons at the same pace, about eight each month.',
     closer: 'Outside India we bill in US dollars. Billing begins only after the trial confirms a course and a time; the pricing page explains holidays, missed lessons and changing format.'
   },
@@ -385,12 +385,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Schofields learners?',
-        a: 'The first lesson is free. A group place costs USD 100 a month for two live lessons a week, roughly eight a month, with five to ten learners; one-to-one is USD 150 a month on the same plan. No payment is taken until a course and time are agreed.',
+        a: 'The first lesson is free. A group place costs USD 100 a month for two live lessons a week, roughly eight a month, with fifteen to twenty learners; one-to-one is USD 150 a month on the same plan. No payment is taken until a course and time are agreed.',
         boiler: true
       },
       {
         q: 'How large are the groups?',
-        a: 'Five to ten learners, matched on level and goals rather than age. Where no group fits the learner\'s week, one-to-one teaching is offered.',
+        a: 'Fifteen to twenty learners, matched on level and goals rather than age. Where no group fits the learner\'s week, one-to-one teaching is offered.',
         boiler: true
       }
     ]

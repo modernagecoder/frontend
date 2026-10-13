@@ -60,7 +60,7 @@ module.exports = {
 
   h1: 'Coding classes in the Orkney Islands',
   capsuleQ: 'What are the best coding classes in Orkney?',
-  capsule: 'The Orkney Islands council area had about 22,000 residents in roughly 10,600 households at Scotland\'s 2022 census, at 22.2 people per square kilometre. Kirkwall is the main town, with Stromness second and Finstown the only other settlement NRS counts as a locality; many islanders live on farms and in smaller isles. Because every lesson is live online from India, an island address makes no difference, and a free first lesson decides where each learner starts, P1 to S6 or adult. Ages 6 to 67 learn coding, Python and maths, either one-to-one or in groups of five to ten. The Orkney project comes from North Ronaldsay\'s sheep dyke. After the free lesson, fees are USD 100 a month for a group or USD 150 a month one-to-one.',
+  capsule: 'The Orkney Islands council area had about 22,000 residents in roughly 10,600 households at Scotland\'s 2022 census, at 22.2 people per square kilometre. Kirkwall is the main town, with Stromness second and Finstown the only other settlement NRS counts as a locality; many islanders live on farms and in smaller isles. Because every lesson is live online from India, an island address makes no difference, and a free first lesson decides where each learner starts, P1 to S6 or adult. Ages 6 to 67 learn coding, Python and maths, either one-to-one or in groups of fifteen to twenty. The Orkney project comes from North Ronaldsay\'s sheep dyke. After the free lesson, fees are USD 100 a month for a group or USD 150 a month one-to-one.',
   lead: 'Around the edge of North Ronaldsay runs a drystone wall 12 to 13 miles long and roughly six feet high, built around 1832. Historic Environment Scotland lists it at Category A and calls it probably the largest drystone construction conceived as a single entity in the world. It keeps the island\'s sheep on the shore, where they eat seaweed, and a sheep court oversaw its upkeep, with every farmer taking a hand in the repairs. Sharing out jobs among people with different wishes is a real computing problem. Give everyone their first choice and some sections go unrepaired; assign them carelessly and people quietly swap. This page\'s project solves it in Python with a famous algorithm that guarantees nobody has a reason to break the deal.',
   wa: 'Hello Modern Age Coders, we are in Orkney and would like to book a free lesson, please.',
 
@@ -161,7 +161,7 @@ module.exports = {
       { h3: 'A connection is the only commute', p: 'Any island home with a laptop and steady internet works; the teacher follows the learner\'s screen live.' },
       { h3: 'Scottish stages in use', p: 'We talk in P and S stages and National 5, Higher and Advanced Higher, like Orkney schools, and teach in English.' },
       { h3: 'No-cost first lesson', p: 'A real lesson, free, followed by honest advice.' },
-      { h3: 'Groups by stage', p: 'Five to ten learners at the same stage, from many different places.' },
+      { h3: 'Groups by stage', p: 'Fifteen to twenty learners at the same stage, from many different places.' },
       { h3: 'Lessons in term time', p: 'Two lessons a week during term, with breaks for the holidays.' },
       { h3: 'Same UK time year-round', p: 'Your lesson keeps its UK time through the clock changes; our teachers on India time adapt.' }
     ],
@@ -172,7 +172,7 @@ module.exports = {
     h2: 'Fees in Orkney',
     intro: 'Kirkwall or Westray, the fee is the same, matching every country we teach outside India.',
     first: 'A whole lesson at no charge, then a clear suggestion.',
-    group: 'About eight lessons a month in a group of five to ten.',
+    group: 'About eight lessons a month in a group of fifteen to twenty.',
     private: 'About eight lessons a month, one-to-one.',
     closer: 'Prices are in US dollars and we have no sterling list. We bill only once a course and a weekly time are agreed after the free lesson; holidays, missed lessons and format changes are explained on the pricing page.'
   },

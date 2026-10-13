@@ -186,7 +186,7 @@ module.exports = {
       { h3: 'At the kitchen table', p: 'A laptop or desktop, a working microphone and a parent nearby for the first session is all a young learner needs.' },
       { h3: 'School words, not new jargon', p: 'Teachers use the year names Melbourne children hear at school, from Prep to Year 8, so nothing feels foreign.' },
       { h3: 'A real first lesson', p: 'Your child builds something small but complete, then you get a suggested level, course and weekly time. No card details are asked for.' },
-      { h3: 'Small, matched groups', p: 'Five to ten children working at the same stage, so no one is left behind or held back. One to one is available instead.' },
+      { h3: 'Small, matched groups', p: 'Fifteen to twenty children working at the same stage, so no one is left behind or held back. One to one is available instead.' },
       { h3: 'Twice a week as standard', p: 'Around eight lessons a month in a fixed slot, which suits most children better than one long weekend session.' },
       { h3: 'Teachers working on India time', p: 'Melbourne is four and a half hours ahead of India time in winter and five and a half hours ahead during daylight saving, so a 4pm Melbourne lesson sits in our teachers\' late morning or early afternoon.' }
     ],
@@ -197,7 +197,7 @@ module.exports = {
     h2: 'What coding classes cost for Melbourne kids',
     intro: 'Three clear prices, nothing hidden underneath.',
     first: 'One full lesson with no charge, ending with a level, a course suggestion and a weekly time.',
-    group: 'A month of lessons, usually eight, alongside five to ten children at the same level.',
+    group: 'A month of lessons, usually eight, alongside fifteen to twenty children at the same level.',
     private: 'The same monthly rhythm of about eight lessons, with your child as the only learner.',
     closer: 'Families outside India pay in US dollars at one rate, so a child in the inner north and a child on the Mornington Peninsula pay the same. Nothing is invoiced until after the free lesson, once the course and time suit you; the pricing page explains holidays, missed lessons and switching between group and private.'
   },
@@ -222,8 +222,8 @@ module.exports = {
       { q: 'When are lessons for Melbourne children?', a: 'After school on weekdays or on weekends, chosen during the free lesson and always stated in Melbourne time. Exact times depend on which groups suit your child\'s level.' },
       { q: 'Is it safe for my child to learn online?', a: 'Lessons are live with a teacher in a small group, children are not asked to create accounts on adult AI tools, and parents are welcome to sit in, especially for the first few sessions.' },
       { q: 'Is there a Modern Age Coders centre in Melbourne?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do coding classes for Melbourne kids cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do coding classes for Melbourne kids cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

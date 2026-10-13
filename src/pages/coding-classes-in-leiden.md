@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Leiden for ages 6 to 
 canonical: https://learn.modernagecoders.com/coding-classes-in-leiden
 source: src/pages/coding-classes-in-leiden.html
 ---
-> Coding classes in Leiden serve 130,328 people (Statistics Netherlands, 1 January 2026) packed onto 21.85 square kilometres of land, which its own entry calls by far the smallest area of any Dutch city above a hundred thousand. In 1807 a boat carrying 37,000 Hollandse ponden of gunpowder exploded here, and the same source gives that charge as 17,760 kilograms, which works out at 0.48 kilograms to the pond rather than the 0.4536 of a modern pound. Throughout the city, Modern Age Coders teaches on a live connection and in English, taking learners at any age between 6 and 67. The first hour is given free. Afterwards it is USD 100 a month in a group of five to ten, and USD 150 with a teacher to yourself.
+> Coding classes in Leiden serve 130,328 people (Statistics Netherlands, 1 January 2026) packed onto 21.85 square kilometres of land, which its own entry calls by far the smallest area of any Dutch city above a hundred thousand. In 1807 a boat carrying 37,000 Hollandse ponden of gunpowder exploded here, and the same source gives that charge as 17,760 kilograms, which works out at 0.48 kilograms to the pond rather than the 0.4536 of a modern pound. Throughout the city, Modern Age Coders teaches on a live connection and in English, taking learners at any age between 6 and 67. The first hour is given free. Afterwards it is USD 100 a month in a group of fifteen to twenty, and USD 150 with a teacher to yourself.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Leiden
 
@@ -12,11 +12,11 @@ Leiden, Zuid-Holland / Live online
 
 # Coding classes in Leiden, where a pound in 1807 was not the pound you would convert it with
 
-**What are the best coding classes in Leiden?** Coding classes in Leiden serve 130,328 people (Statistics Netherlands, 1 January 2026) packed onto 21.85 square kilometres of land, which its own entry calls by far the smallest area of any Dutch city above a hundred thousand. In 1807 a boat carrying 37,000 Hollandse ponden of gunpowder exploded here, and the same source gives that charge as 17,760 kilograms, which works out at 0.48 kilograms to the pond rather than the 0.4536 of a modern pound. Throughout the city, Modern Age Coders teaches on a live connection and in English, taking learners at any age between 6 and 67. The first hour is given free. Afterwards it is USD 100 a month in a group of five to ten, and USD 150 with a teacher to yourself.
+**What are the best coding classes in Leiden?** Coding classes in Leiden serve 130,328 people (Statistics Netherlands, 1 January 2026) packed onto 21.85 square kilometres of land, which its own entry calls by far the smallest area of any Dutch city above a hundred thousand. In 1807 a boat carrying 37,000 Hollandse ponden of gunpowder exploded here, and the same source gives that charge as 17,760 kilograms, which works out at 0.48 kilograms to the pond rather than the 0.4536 of a modern pound. Throughout the city, Modern Age Coders teaches on a live connection and in English, taking learners at any age between 6 and 67. The first hour is given free. Afterwards it is USD 100 a month in a group of fifteen to twenty, and USD 150 with a teacher to yourself.
 
 A record from 1807 says the boat carried 37,000 pounds of gunpowder. Convert that with the pound on your phone and you get 16,783 kilograms. The source itself says 17,760, because the Hollandse pond of the day was 0.48 kilograms rather than 0.4536. Almost a tonne of explosive goes missing in a conversion that looks completely routine, and nothing in the word pound warns you. A child who has met one unit that changed size behind its own name will check the others before trusting a number that crossed a century.
 
-Facts last verified 7 September 2026. Teaching is online; no Leiden branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Leiden branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city with forty thousand students in it
 
@@ -201,14 +201,14 @@ Leiden fits 130,328 people onto twenty-two square kilometres, so nothing is far.
 - **Twice weekly, on the middle calendar** Two lessons a week at one repeating slot, eight in most months. Leiden takes its school holidays with regio Midden along with the rest of Zuid-Holland, and weeks away go into the plan first.
 - **Two clocks, one of which moves** Because only the Netherlands adjusts for summer time, the teacher sits three and a half hours in front for part of the year and four and a half for the rest. Late afternoons and early evenings overlap comfortably, and Saturday and Sunday are open throughout.
 
-**A city of students where the children are outnumbered** Only 14,836 residents are under fifteen, 11 percent, while 23,428 are between fifteen and twenty-five. A child growing up here is in a minority, and the group of five to ten that this class forms is drawn from the whole country rather than from one street, which for some families is exactly the point.
+**A city of students where the children are outnumbered** Only 14,836 residents are under fifteen, 11 percent, while 23,428 are between fifteen and twenty-five. A child growing up here is in a minority, and the group of fifteen to twenty that this class forms is drawn from the whole country rather than from one street, which for some families is exactly the point.
 
 ## The fee, in dollars, in all ten wijken
 
 Published here rather than saved for a phone call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate applies, quoted in dollars and never in euros, so every address in the city sees the same figure. Payment follows the free lesson rather than preceding it and goes over WhatsApp once a course and a time are agreed. Pausing, changing plan and missing a week are described on the pricing page.
@@ -249,7 +249,7 @@ No, and none is claimed near the Burcht, at the Bio Science Park or anywhere in 
 
 ### What do Leiden coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Leiden group?
 

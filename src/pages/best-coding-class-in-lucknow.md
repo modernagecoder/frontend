@@ -12,7 +12,7 @@ Live online · serving Lucknow
 
 Real programming for kids, teens and college students in Lucknow, from **Gomti Nagar to Hazratganj, Aliganj to Indira Nagar**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Lucknow)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**LucknowEnrollingAreasGomti Nagar, Hazratganj, Aliganj, Indira Nagar, Mahanagar & all of LucknowBoardsUP Board · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across LucknowFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Lucknow)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**LucknowEnrollingAreasGomti Nagar, Hazratganj, Aliganj, Indira Nagar, Mahanagar & all of LucknowBoardsUP Board · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across LucknowFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -157,7 +157,7 @@ Master algebra, geometry, trigonometry, pre-calculus, and calculus for grades 9-
 Master advanced problem-solving techniques and prepare for IMO, PRMO, RMO, and other mathematical competitions. For Lucknow's brightest young mathematicians.
 
 - 2 Live Classes/Week
-- Small Batch (5-8 Students)
+- Batch (15-20 Students)
 - Recorded Sessions
 - Completion Certificate
 
@@ -175,7 +175,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -197,7 +197,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -206,7 +206,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -215,7 +215,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -290,7 +290,7 @@ Takes under a minute.
 
 ## Coding classes in Lucknow: FAQs
 
-What is the best coding class in Lucknow for kids?Modern Age Coders offers the best coding classes in Lucknow for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Lucknow areas including Gomti Nagar, Hazratganj, Aliganj, Indira Nagar, and Mahanagar.Do you offer online coding classes in Lucknow?Yes, we offer live online coding classes for students across Lucknow including Gomti Nagar, Hazratganj, Aliganj, Indira Nagar, Mahanagar, Aminabad, and all other areas. Our online classes are interactive with small batch sizes of 5-8 students.What programming languages do you teach in Lucknow?We teach Scratch (for kids 8-12), Python, Java, HTML/CSS, JavaScript, React, and AI/ML concepts. Our curriculum is designed specifically for kids and teens in Lucknow with age-appropriate content aligned with UP Board, CBSE, and ICSE standards.How much do coding classes cost in Lucknow?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (3-4 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.What age is best to start coding in Lucknow?We recommend starting coding at age 8 with visual block-based programming like Scratch. For text-based programming like Python and Java, age 12-13 is ideal. Our courses are designed for kids (6-12) and teens (13-18).Do you provide certificates after completing coding courses?Yes, every student receives a completion certificate after finishing their coding course. These certificates are valuable for school portfolios, college applications, and demonstrating coding skills to employers in Lucknow's growing IT sector.What areas in Lucknow do you serve?We serve all areas of Lucknow through our online classes including Gomti Nagar, Hazratganj, Aliganj, Indira Nagar, Mahanagar, Aminabad, Chowk, Alambagh, Rajajipuram, Vikas Nagar, Jankipuram, Gomti Nagar Extension, Aashiana, Chinhat, and more.How are your coding classes different from other institutes in Lucknow?We focus on project-based learning where students build real games, websites, and apps. Our small batch sizes (5-8 students), recorded sessions, expert instructors with industry experience, and affordable pricing set us apart from other coding institutes in Lucknow.Do you teach coding to UP Board students in Lucknow?Yes. Lucknow runs the UP Board alongside CBSE, ICSE and IB, and our classes sit beside whichever your child attends. The UP Board describes itself as the biggest examining body in the world; whatever the ranking, its Class 10 and 12 papers are not where a child learns to actually write software. That is the gap we fill.Can IIM Lucknow or AKTU students join your programming courses?Yes. AKTU affiliates the engineering colleges across the whole state from its Jankipuram campus, and its B.Tech admissions run on JEE Main through UPTAC. Students already inside that system take our college track for the part it does not cover: Python, Java, full-stack or AI/ML built into something that runs.
+What is the best coding class in Lucknow for kids?Modern Age Coders offers the best coding classes in Lucknow for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Lucknow areas including Gomti Nagar, Hazratganj, Aliganj, Indira Nagar, and Mahanagar.Do you offer online coding classes in Lucknow?Yes, we offer live online coding classes for students across Lucknow including Gomti Nagar, Hazratganj, Aliganj, Indira Nagar, Mahanagar, Aminabad, and all other areas. Our online classes are interactive with batch sizes of 15-20 students.What programming languages do you teach in Lucknow?We teach Scratch (for kids 8-12), Python, Java, HTML/CSS, JavaScript, React, and AI/ML concepts. Our curriculum is designed specifically for kids and teens in Lucknow with age-appropriate content aligned with UP Board, CBSE, and ICSE standards.How much do coding classes cost in Lucknow?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (up to 6 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.What age is best to start coding in Lucknow?We recommend starting coding at age 8 with visual block-based programming like Scratch. For text-based programming like Python and Java, age 12-13 is ideal. Our courses are designed for kids (6-12) and teens (13-18).Do you provide certificates after completing coding courses?Yes, every student receives a completion certificate after finishing their coding course. These certificates are valuable for school portfolios, college applications, and demonstrating coding skills to employers in Lucknow's growing IT sector.What areas in Lucknow do you serve?We serve all areas of Lucknow through our online classes including Gomti Nagar, Hazratganj, Aliganj, Indira Nagar, Mahanagar, Aminabad, Chowk, Alambagh, Rajajipuram, Vikas Nagar, Jankipuram, Gomti Nagar Extension, Aashiana, Chinhat, and more.How are your coding classes different from other institutes in Lucknow?We focus on project-based learning where students build real games, websites, and apps. Our batch sizes (15-20 students), recorded sessions, expert instructors with industry experience, and affordable pricing set us apart from other coding institutes in Lucknow.Do you teach coding to UP Board students in Lucknow?Yes. Lucknow runs the UP Board alongside CBSE, ICSE and IB, and our classes sit beside whichever your child attends. The UP Board describes itself as the biggest examining body in the world; whatever the ranking, its Class 10 and 12 papers are not where a child learns to actually write software. That is the gap we fill.Can IIM Lucknow or AKTU students join your programming courses?Yes. AKTU affiliates the engineering colleges across the whole state from its Jankipuram campus, and its B.Tech admissions run on JEE Main through UPTAC. Students already inside that system take our college track for the part it does not cover: Python, Java, full-stack or AI/ML built into something that runs.
 
 ## Ready to start your child's coding journey in Lucknow?
 

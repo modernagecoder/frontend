@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Coding classes in Berkshire',
   capsuleQ: 'What are the best coding classes in Berkshire?',
-  capsule: 'Berkshire has no county council. It is six unitary authorities, Wokingham, Reading, West Berkshire, Slough, Windsor and Maidenhead, and Bracknell Forest, which held 949,778 people between them at the 2021 Census. Reading is the biggest place, and the town spreads well past its own borough. Our classes reach every corner of it the same way, taught live over video by teachers in India, with each learner placed by skill rather than age, from 6 up to 67. Choose a group of five to ten, or a teacher of your own. We teach programming, Python, data science, AI and maths. Because the European weather centre is based in Reading, the Berkshire project is a forecast. The opening class costs nothing; after it, a monthly group place is USD 100, and a teacher to yourself USD 150.',
+  capsule: 'Berkshire has no county council. It is six unitary authorities, Wokingham, Reading, West Berkshire, Slough, Windsor and Maidenhead, and Bracknell Forest, which held 949,778 people between them at the 2021 Census. Reading is the biggest place, and the town spreads well past its own borough. Our classes reach every corner of it the same way, taught live over video by teachers in India, with each learner placed by skill rather than age, from 6 up to 67. Choose a group of fifteen to twenty, or a teacher of your own. We teach programming, Python, data science, AI and maths. Because the European weather centre is based in Reading, the Berkshire project is a forecast. The opening class costs nothing; after it, a monthly group place is USD 100, and a teacher to yourself USD 150.',
   lead: 'Ask what the weather will do in Reading in ten days and a serious answer is not a number. It is a crowd. The European Centre for Medium-Range Weather Forecasts, which has its headquarters in Reading, runs its model 51 times from slightly different starting points, and the 51 answers agree closely about tomorrow and argue more and more about the week after. This page takes one of those runs, the free version published for anyone to use, and turns it into a lesson a teenager can build: count the members to get a probability, measure how the crowd spreads out as the days go by, and discover why the average of 51 forecasts is the one forecast that never sees a downpour coming.',
   wa: 'Hello Modern Age Coders, I am looking for a free class for a learner in Berkshire.',
 
@@ -189,7 +189,7 @@ module.exports = {
     h2: 'Fees for Berkshire families',
     intro: 'The same prices apply in every Berkshire town, and in every country other than India.',
     first: 'A whole class of real work, ending with a recommended level and course.',
-    group: 'Roughly eight classes a month, in a group of five to ten at the same level.',
+    group: 'Roughly eight classes a month, in a group of fifteen to twenty at the same level.',
     private: 'Roughly eight classes a month with a teacher working with one learner.',
     closer: 'Fees are in US dollars, our rate everywhere outside India, and there is no separate pound price list. You pay nothing until the free class has settled a course and a weekly time; the pricing page explains pauses, missed classes and moving between group and private teaching.'
   },

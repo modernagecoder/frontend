@@ -4,7 +4,7 @@ description: "Live online AI, programming, Python and vibe coding lessons for Ro
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-roundhay-leeds
 source: src/pages/ai-and-programming-classes-in-roundhay-leeds.html
 ---
-> Roundhay ward in Leeds counted 23,809 usual residents at the 2021 census, and Roundhay, Oakwood and Gledhow are the suburban areas recorded in its LS8 postcode district. AI, programming, Python, vibe coding and maths lessons are open to anyone from six to 67 and run on live video with tutors in India, either privately or in a class of five to ten at a shared level. Sound reasoning is taught before any tool, so a learner can ask the awkward question when a model's score looks good. We give the first lesson free and close it with a course suggestion. The Roundhay project tunes a machine learning model on Census data for all 2,607 small areas of Leeds and asks how to spend a budget of 16 attempts: on a tidy grid, at random, or with a Latin hypercube. Continuing costs USD 100 a month in a class or USD 150 a month privately.
+> Roundhay ward in Leeds counted 23,809 usual residents at the 2021 census, and Roundhay, Oakwood and Gledhow are the suburban areas recorded in its LS8 postcode district. AI, programming, Python, vibe coding and maths lessons are open to anyone from six to 67 and run on live video with tutors in India, either privately or in a class of fifteen to twenty at a shared level. Sound reasoning is taught before any tool, so a learner can ask the awkward question when a model's score looks good. We give the first lesson free and close it with a course suggestion. The Roundhay project tunes a machine learning model on Census data for all 2,607 small areas of Leeds and asks how to spend a budget of 16 attempts: on a tidy grid, at random, or with a Latin hypercube. Continuing costs USD 100 a month in a class or USD 150 a month privately.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Leeds](/best-coding-class-in-leeds) / Roundhay
 
@@ -12,11 +12,11 @@ Roundhay, Leeds, West Yorkshire / Live online
 
 # AI and programming classes in Roundhay
 
-**Which are the best AI and programming classes in Roundhay?** Roundhay ward in Leeds counted 23,809 usual residents at the 2021 census, and Roundhay, Oakwood and Gledhow are the suburban areas recorded in its LS8 postcode district. AI, programming, Python, vibe coding and maths lessons are open to anyone from six to 67 and run on live video with tutors in India, either privately or in a class of five to ten at a shared level. Sound reasoning is taught before any tool, so a learner can ask the awkward question when a model's score looks good. We give the first lesson free and close it with a course suggestion. The Roundhay project tunes a machine learning model on Census data for all 2,607 small areas of Leeds and asks how to spend a budget of 16 attempts: on a tidy grid, at random, or with a Latin hypercube. Continuing costs USD 100 a month in a class or USD 150 a month privately.
+**Which are the best AI and programming classes in Roundhay?** Roundhay ward in Leeds counted 23,809 usual residents at the 2021 census, and Roundhay, Oakwood and Gledhow are the suburban areas recorded in its LS8 postcode district. AI, programming, Python, vibe coding and maths lessons are open to anyone from six to 67 and run on live video with tutors in India, either privately or in a class of fifteen to twenty at a shared level. Sound reasoning is taught before any tool, so a learner can ask the awkward question when a model's score looks good. We give the first lesson free and close it with a course suggestion. The Roundhay project tunes a machine learning model on Census data for all 2,607 small areas of Leeds and asks how to spend a budget of 16 attempts: on a tidy grid, at random, or with a Latin hypercube. Continuing costs USD 100 a month in a class or USD 150 a month privately.
 
 Machine learning models have settings that are chosen before training starts, such as how fast to learn or how much data each step sees. They are called hyperparameters, and finding good values means training the model again and again, which costs time and money. So the real question is how to search when tries are limited. The obvious plan is a grid: a few values of each setting, every combination. The less obvious plan is to pick the combinations at random. This project runs both, plus a third design called a Latin hypercube, on a model that predicts car ownership across Leeds, with exactly 16 tries each.
 
-Facts last verified 30 September 2026. Teaching is online; no Roundhay branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Roundhay branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Roundhay courses in reasoning, Python and AI
 
@@ -130,7 +130,7 @@ Bring a computer with a webcam and a connection steady enough for video; that is
 - **Hands on** Students do the typing and the running. The tutor follows over screen share and asks them to predict each result first.
 - **The trial sets the start** In the free session we see what the learner already knows and note any exam board.
 - **First lesson free** Nothing to pay for the opening lesson, which ends with our course advice.
-- **Classes of five to ten** Grouped by stage, with classmates from all over the UK.
+- **Classes of fifteen to twenty** Grouped by stage, with classmates from all over the UK.
 - **Two a week** In term time.
 - **Your time stays fixed** When British clocks change, the tutor adjusts, not you.
 

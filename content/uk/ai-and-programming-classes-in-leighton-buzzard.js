@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'AI and programming classes in Leighton Buzzard',
   capsuleQ: 'Which are the best AI and programming classes for Leighton Buzzard?',
-  capsule: 'Leighton Buzzard, with Linslade across the river, had 42,735 usual residents at the 2021 census by the ONS count for its built-up area, inside Central Bedfordshire\'s 294,252. Our tutors, who work from India, run live video lessons in programming, AI, Python, vibe coding and maths for anyone aged six to 67 in the town, either privately or in a class of five to ten learners matched by level. No course is recommended until a free trial lesson has happened. The Leighton Buzzard project takes the town\'s road map and asks a question every navigation service faces: search the whole map for each journey, or prepare it once so that each later search touches only a few dozen junctions. After the trial, group lessons are USD 100 a month and private lessons USD 150 a month.',
+  capsule: 'Leighton Buzzard, with Linslade across the river, had 42,735 usual residents at the 2021 census by the ONS count for its built-up area, inside Central Bedfordshire\'s 294,252. Our tutors, who work from India, run live video lessons in programming, AI, Python, vibe coding and maths for anyone aged six to 67 in the town, either privately or in a class of fifteen to twenty learners matched by level. No course is recommended until a free trial lesson has happened. The Leighton Buzzard project takes the town\'s road map and asks a question every navigation service faces: search the whole map for each journey, or prepare it once so that each later search touches only a few dozen junctions. After the trial, group lessons are USD 100 a month and private lessons USD 150 a month.',
   lead: 'A sat nav does not think very hard about your journey. The heavy thinking happened earlier, when the map was prepared, and your question is answered by a search so small it barely notices the rest of the country. Learners rarely meet that idea, because textbooks teach the search and skip the preparation. Leighton Buzzard\'s own streets make a good place to try both and count the difference.',
   wa: 'Hello Modern Age Coders, we are in Leighton Buzzard and would like to book a free AI or programming lesson.',
 
@@ -155,7 +155,7 @@ module.exports = {
       { h3: 'Hands on the keys', p: 'The learner types and runs the code; the tutor asks why at each step.' },
       { h3: 'Placement by trial', p: 'The trial shows the level, and only then do we propose a course.' },
       { h3: 'Free first lesson', p: 'Trying costs nothing and we never ask for card numbers first.' },
-      { h3: 'Groups of five to ten', p: 'Classmates share a level and log in from all over Britain.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Classmates share a level and log in from all over Britain.' },
       { h3: 'About eight a month', p: 'Two a week is typical in term; holiday weeks are simply left out.' },
       { h3: 'Fixed UK time', p: 'Clock changes are our problem, so your lesson hour stays put.' }
     ],

@@ -16,7 +16,7 @@ City of Darebin, Melbourne, Victoria / Live online
 
 Sorting a list sounds solved: call sort and move on. Sort by two things, school type and then name, and the order of the calls suddenly matters. We sorted every school with a Darebin address in the state list three ways and counted how badly one mistake scrambled the result.
 
-Facts last verified 11 October 2026. Teaching is online; no Darebin branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 October 2026. Teaching is online; no Darebin branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses where algorithms come first
 
@@ -175,7 +175,7 @@ Every lesson runs on screen, so all Darebin suburbs join the same way.
 - **Coding together** Teacher and learner work in the same code and talk through each step.
 - **Built around terms** Plans follow the Victorian school terms and break for holidays.
 - **A proper trial** The free first lesson teaches real content and ends with a recommendation.
-- **Groups of five to ten** Learners matched by level and pace, sometimes from several states.
+- **Groups of fifteen to twenty** Learners matched by level and pace, sometimes from several states.
 - **Two lessons a week** Regular times, around eight lessons each month, with planned breaks.
 - **Teachers in India** In daylight saving a 6pm Darebin lesson starts at 12:30pm India time; from April it starts at 1:30pm there.
 
@@ -186,7 +186,7 @@ Every lesson runs on screen, so all Darebin suburbs join the same way.
 Three prices, set out plainly.
 
 - First class: USD 0. The first lesson is free, with an honest recommendation at the end.
-- Group tuition: USD 100 a month. A month of group lessons, normally eight, with five to ten learners at a similar level.
+- Group tuition: USD 100 a month. A month of group lessons, normally eight, with fifteen to twenty learners at a similar level.
 - Private tuition: USD 150 a month. Roughly eight lessons a month with one teacher.
 
 Families living abroad settle fees in US dollars. We take no payment until after the trial, when the course and lesson time are fixed together; holidays, absences and moving between formats are all on the pricing page.
@@ -223,7 +223,7 @@ No. Lessons are only live online, we have no premises in Australia, and our list
 
 ### What do lessons cost for Darebin learners?
 
-The first lesson is free. After that, group classes cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one classes cost USD 150 a month. Course, format and time are agreed before paying.
+The first lesson is free. After that, group classes cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one classes cost USD 150 a month. Course, format and time are agreed before paying.
 
 ### How many learners share a group?
 

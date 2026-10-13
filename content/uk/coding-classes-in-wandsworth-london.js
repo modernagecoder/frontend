@@ -48,7 +48,7 @@ module.exports = {
 
   h1: 'Coding classes in Wandsworth',
   capsuleQ: 'What are the best coding classes in Wandsworth?',
-  capsule: 'Wandsworth is the south west London borough of Putney, Battersea, Tooting, Balham, Wandsworth Town, Earlsfield, Southfields and Roehampton, with 327,506 residents at the 2021 Census and the Putney end of the Boat Race course on its riverbank. Worthwhile coding classes teach a learner to tell a real pattern from a lucky one, and this page does that with every men\'s Boat Race since 1829: are the long winning streaks evidence of something, or just what chance produces? Classes are live on video with teachers in India, for learners from 6 to 67, one to one or in groups of five to ten at the same level. You pay nothing for the first lesson. Then a group place is USD 100 a month and one-to-one teaching USD 150 a month.',
+  capsule: 'Wandsworth is the south west London borough of Putney, Battersea, Tooting, Balham, Wandsworth Town, Earlsfield, Southfields and Roehampton, with 327,506 residents at the 2021 Census and the Putney end of the Boat Race course on its riverbank. Worthwhile coding classes teach a learner to tell a real pattern from a lucky one, and this page does that with every men\'s Boat Race since 1829: are the long winning streaks evidence of something, or just what chance produces? Classes are live on video with teachers in India, for learners from 6 to 67, one to one or in groups of fifteen to twenty at the same level. You pay nothing for the first lesson. Then a group place is USD 100 a month and one-to-one teaching USD 150 a month.',
   lead: 'The Boat Race runs 8 kilometres from Putney to Mortlake, according to the race\'s own website, and it starts beside Putney\'s riverside in Wandsworth. The same website lists the winner of every men\'s race since 1829: 171 races, 89 won by Cambridge, 81 by Oxford, and one dead heat in 1877. Look down the list and the streaks jump out. Cambridge won 13 in a row from 1924 to 1936; Oxford won 10 in a row from 1976 to 1985. Does that mean something carries over from year to year, or would a fair coin produce streaks like that anyway? Our learners answer with two tools: a formula that counts the runs, and a program that shuffles the 170 results 100,000 times to see what chance alone looks like.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Wandsworth.',
 
@@ -139,7 +139,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'Clapham Junction', p: 'TfL\'s open data lists Southern, South Western Railway and the Mildmay and Windrush lines at Clapham Junction.' },
           { h3: 'Roehampton to Tooting', p: 'A learner on the western edge and another in the south east of the borough can row in the same class, so to speak, from home.' },
-          { h3: 'Evenly matched', p: 'Each class has five to ten learners at one stage, so nobody is left paddling to keep up.' }
+          { h3: 'Evenly matched', p: 'Each class has fifteen to twenty learners at one stage, so nobody is left paddling to keep up.' }
         ] },
         { kind: 'spec', title: 'Wandsworth among the boroughs', p: 'Wandsworth is one of London\'s 32 boroughs. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> brings them all together with the City and links each page once it is ready, including <a class="cg-inline-link" href="/coding-classes-in-richmond-upon-thames-london">Richmond upon Thames</a>, where the race ends at Mortlake.' }
       ]
@@ -176,7 +176,7 @@ module.exports = {
       { h3: 'Home-based', p: 'The classroom is wherever the learner\'s computer is, as long as the sound works and the broadband holds.' },
       { h3: 'Key Stages we use', p: 'We describe progress in the Key Stages of schools in England, Key Stage 1 up to sixth form, mentioning GCSE and A level when they matter. Every lesson is in English.' },
       { h3: 'A first lesson free', p: 'Real teaching rather than a sales call, ending with a recommended level and course. No card details are asked for.' },
-      { h3: 'Same-stage groups', p: 'Each group has five to ten learners at one stage, from around the UK and overseas, so a convenient hour is usually easy to find.' },
+      { h3: 'Same-stage groups', p: 'Each group has fifteen to twenty learners at one stage, from around the UK and overseas, so a convenient hour is usually easy to find.' },
       { h3: 'Two sessions weekly', p: 'Classes usually meet two evenings a week, with breaks around half terms, holidays and exams by agreement.' },
       { h3: 'UK clock, always', p: 'Our teachers work in India, and every time in our messages is already UK time.' }
     ],
@@ -187,7 +187,7 @@ module.exports = {
     h2: 'Fees for Wandsworth families',
     intro: 'The first lesson is free; then there is one monthly fee, the same from Roehampton to Battersea.',
     first: 'A complete first lesson with a teacher, at no charge, closing with a suggested level, course and time.',
-    group: 'Around eight live lessons a month in a class of five to ten at one stage.',
+    group: 'Around eight live lessons a month in a class of fifteen to twenty at one stage.',
     private: 'Around eight live lessons a month, one to one with a teacher.',
     closer: 'Wandsworth families pay in US dollars, as do all families outside India, and no sterling prices are shown on the site. Nothing is charged until after the free lesson, when you have chosen a course and a regular time. The pricing page sets out pauses, missed lessons and switching between group and private teaching.'
   },
@@ -212,8 +212,8 @@ module.exports = {
       { q: 'When do Wandsworth learners have lessons?', a: 'The free lesson tells us the level; we then name a class at that level with a spare seat and a fixed evening. The teacher sits in India, and the evening we name is London time.' },
       { q: 'What does a learner need?', a: 'An ordinary computer with sound and broadband that will not drop out. The Boat Race project needs only Python and the published results table.' },
       { q: 'Is there a Modern Age Coders centre in Wandsworth?', a: 'No. There is no Wandsworth centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Wandsworth cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Wandsworth cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

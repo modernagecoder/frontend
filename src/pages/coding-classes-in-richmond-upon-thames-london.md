@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Richmond upon
 canonical: https://learn.modernagecoders.com/coding-classes-in-richmond-upon-thames-london
 source: src/pages/coding-classes-in-richmond-upon-thames-london.html
 ---
-> Richmond upon Thames is the south west London borough of Richmond, Twickenham, Teddington, Kew, Barnes, Hampton, Whitton and East Sheen, home to 195,278 people at the 2021 Census and to Kew Observatory, Hampton Court Palace and Ham House. The coding classes to look for teach a learner to turn a law of nature into a working calculation, and this page does that with Kepler's third law: planetary data from NASA's Jet Propulsion Laboratory, a straight line on a log scale, and then the mass of Jupiter worked out from its moons. We teach live by video from India for ages 6 to 67, one to one or in groups of five to ten at a single level. There is no charge for the first lesson. Carrying on costs USD 100 a month in a group or USD 150 a month privately.
+> Richmond upon Thames is the south west London borough of Richmond, Twickenham, Teddington, Kew, Barnes, Hampton, Whitton and East Sheen, home to 195,278 people at the 2021 Census and to Kew Observatory, Hampton Court Palace and Ham House. The coding classes to look for teach a learner to turn a law of nature into a working calculation, and this page does that with Kepler's third law: planetary data from NASA's Jet Propulsion Laboratory, a straight line on a log scale, and then the mass of Jupiter worked out from its moons. We teach live by video from India for ages 6 to 67, one to one or in groups of fifteen to twenty at a single level. There is no charge for the first lesson. Carrying on costs USD 100 a month in a group or USD 150 a month privately.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Richmond upon Thames
 
@@ -12,11 +12,11 @@ London Borough of Richmond upon Thames / Live online
 
 # Coding classes in Richmond upon Thames
 
-**What are the best coding classes in Richmond upon Thames?** Richmond upon Thames is the south west London borough of Richmond, Twickenham, Teddington, Kew, Barnes, Hampton, Whitton and East Sheen, home to 195,278 people at the 2021 Census and to Kew Observatory, Hampton Court Palace and Ham House. The coding classes to look for teach a learner to turn a law of nature into a working calculation, and this page does that with Kepler's third law: planetary data from NASA's Jet Propulsion Laboratory, a straight line on a log scale, and then the mass of Jupiter worked out from its moons. We teach live by video from India for ages 6 to 67, one to one or in groups of five to ten at a single level. There is no charge for the first lesson. Carrying on costs USD 100 a month in a group or USD 150 a month privately.
+**What are the best coding classes in Richmond upon Thames?** Richmond upon Thames is the south west London borough of Richmond, Twickenham, Teddington, Kew, Barnes, Hampton, Whitton and East Sheen, home to 195,278 people at the 2021 Census and to Kew Observatory, Hampton Court Palace and Ham House. The coding classes to look for teach a learner to turn a law of nature into a working calculation, and this page does that with Kepler's third law: planetary data from NASA's Jet Propulsion Laboratory, a straight line on a log scale, and then the mass of Jupiter worked out from its moons. We teach live by video from India for ages 6 to 67, one to one or in groups of fifteen to twenty at a single level. There is no charge for the first lesson. Carrying on costs USD 100 a month in a group or USD 150 a month privately.
 
 In Old Deer Park stands Kew Observatory, listed at Grade I. Historic England's entry says it was built in 1768 and 1769 after Dr Stephen Demainbray persuaded George III to take an interest in a transit of Venus, when Venus crosses the face of the Sun. Such transits mattered because they could reveal the scale of the solar system. Our learners pick up the story with modern numbers. NASA's Jet Propulsion Laboratory publishes each planet's distance from the Sun and how fast it moves round. From those, learners find that the square of every planet's year equals the cube of its distance, to within about a tenth of one per cent: Kepler's third law. Then they turn the law round and use the orbits of Jupiter's four largest moons to weigh the planet itself.
 
-Facts last verified 25 September 2026. Teaching is online; no Richmond upon Thames branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Richmond upon Thames branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Richmond learners start with
 
@@ -145,7 +145,7 @@ A learner by the river at Barnes and another out at Hampton can join the same cl
 
 ### Regular orbits
 
-Classes keep to a steady pattern: five to ten learners at one stage, twice a week, at an agreed UK time.
+Classes keep to a steady pattern: fifteen to twenty learners at one stage, twice a week, at an agreed UK time.
 
 **Richmond and its neighbours** Richmond upon Thames is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers all of them and the City, adding a link to each page as it is published, including [Kingston upon Thames](/coding-classes-in-kingston-upon-thames-london) to the south.
 
@@ -175,7 +175,7 @@ From any part of Richmond upon Thames, class begins when the video call starts.
 - **From your own room** Learners need a laptop or desktop, headphones, and an internet connection steady enough for an hour of video.
 - **English school stages** We use the Key Stages of English schools, from Key Stage 1 to sixth form, and name GCSE and A level where they apply. Classes are taught in English.
 - **First lesson on us** The free lesson is actual teaching, and by the end the teacher can suggest where the learner should start. We do not ask for any card details.
-- **Grouped by stage** Five to ten learners who are at the same point share a class, gathered from across the UK and abroad so that a good hour is available.
+- **Grouped by stage** Fifteen to twenty learners who are at the same point share a class, gathered from across the UK and abroad so that a good hour is available.
 - **Twice each week** Classes normally run on two evenings a week and stop for half terms, holidays and exam time as agreed.
 - **Times you can trust** Teachers work in India, and every time we give is already converted to UK time.
 
@@ -186,7 +186,7 @@ From any part of Richmond upon Thames, class begins when the video call starts.
 A free first lesson, then one monthly fee, identical in Kew, Hampton and everywhere between.
 
 - First class: USD 0. A full first lesson with a teacher, free, ending with a recommended level, course and time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a group of five to ten at the same level.
+- Group tuition: USD 100 a month. About eight live lessons a month in a group of fifteen to twenty at the same level.
 - Private tuition: USD 150 a month. About eight live lessons a month, the learner alone with the teacher.
 
 Families in Richmond upon Thames pay in US dollars, as all families outside India do; pound prices are not shown anywhere on the site. Payment begins only after the free lesson and after you have chosen a course and a weekly time. Pausing, missed lessons and switching between a group and one-to-one lessons are explained on the pricing page.
@@ -227,11 +227,11 @@ No. There is no Richmond upon Thames centre and no premises anywhere in the UK, 
 
 ### What do coding classes in Richmond upon Thames cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## From Richmond to the rest of the map
 

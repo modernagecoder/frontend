@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Coding classes in County Carlow',
   capsuleQ: 'What are the best coding classes in County Carlow?',
-  capsule: 'Carlow is a small county that grew quickly: 61,968 people, up 9% in six years, with employment up 22% and unemployment halved to 9%. Most of it is rural, with about 36% of residents in a town of ten thousand or more, and that town is Carlow itself. For coding, the county starts from behind: no Carlow school was on the first list of schools to teach Leaving Certificate Computer Science, and the county holds a third-level rate of 39% against 45% nationally. A live online class is a practical answer, because it reaches Hacketstown and Borris at the same hour it reaches Carlow town. We teach ages 6 to 67 in groups of five to ten set by ability, or one to one. The first lesson is free; after that it is USD 100 a month in a group, USD 150 privately.',
+  capsule: 'Carlow is a small county that grew quickly: 61,968 people, up 9% in six years, with employment up 22% and unemployment halved to 9%. Most of it is rural, with about 36% of residents in a town of ten thousand or more, and that town is Carlow itself. For coding, the county starts from behind: no Carlow school was on the first list of schools to teach Leaving Certificate Computer Science, and the county holds a third-level rate of 39% against 45% nationally. A live online class is a practical answer, because it reaches Hacketstown and Borris at the same hour it reaches Carlow town. We teach ages 6 to 67 in groups of fifteen to twenty set by ability, or one to one. The first lesson is free; after that it is USD 100 a month in a group, USD 150 privately.',
   lead: 'Ask the statistics office how many people live in Carlow town and it answers 27,351, then adds a detail that surprises people who live there: the town is recorded as "Carlow, Counties Carlow and Laois", because its Graiguecullen side lies across the river in County Laois. That is not a clerical oddity. It means the county town, which holds around 44% of everyone in the county, cannot be counted as a Carlow row at all. Write the obvious filter for Carlow towns, matching every label that ends with the county name, and you get sixteen rows out of nineteen, and the missing three include Carlow itself. No error appears. The total looks reasonable. It is short by more than a quarter of the county. Learning to catch that, on the place you actually live, is the best first data lesson this county can offer, and it is the one our teenage learners here start with.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in County Carlow.',
 
@@ -193,18 +193,18 @@ module.exports = {
       { h3: 'No car needed', p: 'A learner in Rathvilly and one in Bagenalstown sit in the same group without either parent driving anywhere.' },
       { h3: 'The Irish school year, by name', p: 'First Year, the Junior Cycle, Transition Year and sixth year, used as they are in school here, so nothing needs explaining.' },
       { h3: 'A free lesson that is a lesson', p: 'Real work on a real task, then an honest recommendation on level, course and hour, with no card details taken.' },
-      { h3: 'Grouped by ability', p: 'Five to ten learners at one level, drawn from Carlow and other countries, which is what makes a good hour possible in a small county.' },
+      { h3: 'Grouped by ability', p: 'Fifteen to twenty learners at one level, drawn from Carlow and other countries, which is what makes a good hour possible in a small county.' },
       { h3: 'A weekly rhythm', p: 'Two lessons most weeks, about eight a month, at the same hour, pausing for mid-terms, exams and holidays by agreement.' },
       { h3: 'Teachers on a fixed clock', p: 'India does not change its clocks, so our teachers sit four and a half hours ahead of Ireland in summer and five and a half in winter.' }
     ],
-    spec: { title: 'Why a small county benefits most', p: 'A town of 27,351 cannot fill an evening class at every level and every age. An online group draws its five to ten learners from several countries, which is how a child in Carlow gets a class at exactly their level rather than the nearest one running.' }
+    spec: { title: 'Why a small county benefits most', p: 'A town of 27,351 cannot fill an evening class at every level and every age. An online group draws its fifteen to twenty learners from several countries, which is how a child in Carlow gets a class at exactly their level rather than the nearest one running.' }
   },
 
   fees: {
     h2: 'What classes cost in County Carlow',
     intro: 'Three figures, stated plainly.',
     first: 'A full lesson at no charge, ending with a placement and a recommended course.',
-    group: 'A month of teaching, usually eight lessons, with five to ten learners of similar ability.',
+    group: 'A month of teaching, usually eight lessons, with fifteen to twenty learners of similar ability.',
     private: 'The same month of roughly eight lessons, with one teacher and one learner.',
     closer: 'Everything is billed in US dollars at the single rate charged outside India, so Tullow pays what Carlow town pays and no euro list exists. Charging begins only after the free lesson has settled a course and a weekly hour, and the pricing page covers pauses, missed lessons and format changes.'
   },
@@ -229,7 +229,7 @@ module.exports = {
       { q: 'Is there a third-level option in the county?', a: 'South East Technological University has a campus on the Kilkenny Road in Carlow town, with about thirty hectares and sixteen buildings. We are not connected with the university.' },
       { q: 'What hours do classes run?', a: 'Afternoons, evenings and weekend mornings. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter, and the weekly hour is agreed in the free lesson.' },
       { q: 'Is there a Modern Age Coders classroom in Carlow?', a: 'No, and we do not suggest one. Teaching is live online only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number on this page is an Indian one.', boiler: true },
-      { q: 'What do County Carlow coding classes cost?', a: 'Nothing for the first lesson. After that a group place is USD 100 a month, which covers two live lessons a week and around eight a month with five to ten learners, or USD 150 a month taught privately. Course, format and hour are agreed before payment.', boiler: true },
+      { q: 'What do County Carlow coding classes cost?', a: 'Nothing for the first lesson. After that a group place is USD 100 a month, which covers two live lessons a week and around eight a month with fifteen to twenty learners, or USD 150 a month taught privately. Course, format and hour are agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched by ability, pace and goal rather than by age or address. If no suitable group runs at a workable hour, one-to-one lessons are offered instead.', boiler: true }
     ]
   },

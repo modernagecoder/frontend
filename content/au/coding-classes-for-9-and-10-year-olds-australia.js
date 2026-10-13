@@ -250,7 +250,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'Your child builds part of a small game and the teacher judges whether Scratch or Python suits better.' },
-      { h3: 'Small groups', p: 'Five to ten children of similar ability who play-test each other\'s games.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty children of similar ability who play-test each other\'s games.' },
       { h3: 'One to one', p: 'For a child who wants to move faster or build one big project.' },
       { h3: 'Built by the child', p: 'Teachers explain and question. Every block and line is the child\'s.' },
       { h3: 'Watch any time', p: 'Lessons are live, so parents can see exactly how they run.' },
@@ -266,7 +266,7 @@ module.exports = {
     h2: 'Fees for ages 9 and 10',
     lede: 'Families in Australia pay a monthly fee in US dollars, with no charge to join and no contract.',
     free: ['Part of a small game, built together', 'Advice on Scratch or Python', 'No card or bank details'],
-    group: ['Five to ten children per group', 'A regular teacher', 'Classmates who play-test games', 'Stop after any month'],
+    group: ['Fifteen to twenty children per group', 'A regular teacher', 'Classmates who play-test games', 'Stop after any month'],
     one: ['Your child\'s project, your child\'s pace', 'Flexible timing', 'Ideal for an ambitious game']
   },
 

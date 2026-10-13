@@ -38,7 +38,7 @@ module.exports = {
   twitterDescription: 'Leicester maths, taught live online: why does a bar chart of commuting distances tell the wrong story?',
   pageName: 'Maths Tuition in Leicester',
   webPageDescription: 'Live online maths tuition for learners in Leicester aged 6 to 67, from KS2 and Year 6 SATs maths through KS3, GCSE, A level and Further Maths to adult Functional Skills maths and GCSE resits, with a histogram project built on Census 2021 travel data.',
-  courseDescription: 'Live online maths lessons for Leicester learners, in groups of five to ten at one level or one to one, following the national curriculum for England and the GCSE and A level specifications of each exam board.',
+  courseDescription: 'Live online maths lessons for Leicester learners, in groups of fifteen to twenty at one level or one to one, following the national curriculum for England and the GCSE and A level specifications of each exam board.',
   crumbs: [{ name: 'Courses', href: '/courses' }, { name: 'Coding classes in the UK', href: '/coding-classes-in-united-kingdom' }],
   crumbLabel: 'Maths tuition in Leicester',
   navLinks: [
@@ -61,11 +61,11 @@ module.exports = {
     ['Exam boards', 'AQA, Edexcel, OCR and IGCSE'],
     ['Post-16', 'A level Maths and Further Maths'],
     ['Adults', 'Functional Skills, resits and refreshers'],
-    ['Lessons', 'Live online, five to ten per group or one to one'],
+    ['Lessons', 'Live online, fifteen to twenty per group or one to one'],
     ['Leicester project', 'Census commuting distances as a histogram']
   ],
   capsuleQ: 'What is maths tuition in Leicester like with us?',
-  capsule: 'We teach maths live online to Leicester learners from age 6 to 67, in small groups of five to ten at the same level or one to one. That covers primary work (times tables for the Year 4 check and Year 6 SATs maths), KS3 maths, GCSE maths on whichever board a school uses, whether AQA, Edexcel or OCR, at either tier, the IGCSE papers, A level Maths with Further Maths, and adult courses from Functional Skills maths to GCSE maths resits. Lessons use real data as well as past papers. Our Leicester example takes Census 2021 commuting distances and shows why a histogram with unequal class widths needs frequency density, not frequency. The first lesson costs nothing; afterwards it is USD 100 a month for a group place or USD 150 a month for one-to-one lessons.',
+  capsule: 'We teach maths live online to Leicester learners from age 6 to 67, in groups of fifteen to twenty at the same level or one to one. That covers primary work (times tables for the Year 4 check and Year 6 SATs maths), KS3 maths, GCSE maths on whichever board a school uses, whether AQA, Edexcel or OCR, at either tier, the IGCSE papers, A level Maths with Further Maths, and adult courses from Functional Skills maths to GCSE maths resits. Lessons use real data as well as past papers. Our Leicester example takes Census 2021 commuting distances and shows why a histogram with unequal class widths needs frequency density, not frequency. The first lesson costs nothing; afterwards it is USD 100 a month for a group place or USD 150 a month for one-to-one lessons.',
 
   picks: {
     eyebrow: 'Where Leicester learners start',
@@ -263,7 +263,7 @@ module.exports = {
     cells: [
       { h3: 'A regular teacher', p: 'The same teacher each week, who remembers last week\'s mistakes.' },
       { h3: 'Updates for families', p: 'A short honest note on what went well and what needs work.' },
-      { h3: 'Classes by level', p: 'Five to ten learners at one level, so explanations fit everyone.' },
+      { h3: 'Classes by level', p: 'Fifteen to twenty learners at one level, so explanations fit everyone.' },
       { h3: 'Census and survey data', p: 'Tables such as the commuting one sit next to the past papers.' },
       { h3: 'One to one on request', p: 'For a learner who needs a tighter focus or a different pace.' },
       { h3: 'Reasons first', p: 'We expect learners to explain a method before drilling it.' }
@@ -278,7 +278,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Paid monthly in US dollars, one price for every country except India, with no sign-up charge and no minimum period.',
     free: ['A proper lesson pitched at the right level', 'Frank feedback afterwards', 'No card required'],
-    group: ['Five to ten learners at the same level', 'One teacher all term', 'Work marked and explained', 'Certificate at the end'],
+    group: ['Fifteen to twenty learners at the same level', 'One teacher all term', 'Work marked and explained', 'Certificate at the end'],
     one: ['Individual lessons with one teacher', 'Built around the learner\'s gaps', 'Well suited to exam seasons']
   },
 
@@ -286,7 +286,7 @@ module.exports = {
     eyebrow: 'Leicester maths questions',
     h2: 'Questions Leicester families ask about maths tuition',
     items: [
-      { q: 'How much does a maths tutor cost in Leicester?', a: 'The first lesson is free. From then on a seat in a class of five to ten is USD 100 monthly, while private lessons are USD 150 monthly, with nothing to pay to join and no term to commit to.' },
+      { q: 'How much does a maths tutor cost in Leicester?', a: 'The first lesson is free. From then on a seat in a class of fifteen to twenty is USD 100 monthly, while private lessons are USD 150 monthly, with nothing to pay to join and no term to commit to.' },
       { q: 'What is frequency density?', a: 'Frequency density is the frequency of a class divided by its width. It is used on histograms with unequal class widths so that the area of each bar, not its height, shows how many values fall in the class.' },
       { q: 'Does an online maths tutor work as well as one at the kitchen table?', a: 'It does for most learners, as long as the lesson is live and the teacher watches the working rather than just the answer. Our teachers see each line written on a shared board and correct slips the moment they appear.' },
       { q: 'I need to retake GCSE maths. Can you help?', a: 'Certainly. Resit candidates of any age join our GCSE course. The first few lessons map what is already solid, so the time goes on the topics that will actually lift the mark.' },

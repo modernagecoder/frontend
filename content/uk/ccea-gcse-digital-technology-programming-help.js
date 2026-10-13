@@ -249,7 +249,7 @@ module.exports = {
       { h3: 'Precise words', p: 'Extended answers rewritten until generic words like faster are replaced with the correct terms.' },
       { h3: 'Extreme test data', p: 'Every practice test table includes extreme data, the gap the moderators flagged.' },
       { h3: 'Our own scenarios', p: 'Unit 5 skills practised on briefs we write, never on the live task.' },
-      { h3: 'Five to ten per group', p: 'Students at one rung, swapping and marking each other\'s handwritten answers.' }
+      { h3: 'Fifteen to twenty per group', p: 'Students at one rung, swapping and marking each other\'s handwritten answers.' }
     ]
   },
 
@@ -261,7 +261,7 @@ module.exports = {
     h2: 'Fees for CCEA lessons',
     lede: 'One monthly charge in US dollars, applied to every family outside India. The first lesson costs nothing, and nothing is billed until a course and a weekly slot are fixed.',
     free: ['A lesson on real CCEA-style questions', 'A clear view of the right rung', 'Just a phone number to book'],
-    group: ['Five to ten students on one rung', 'The same teacher across Years 11 and 12', 'Handwritten algorithms marked weekly', 'Quieter weeks around controlled assessment'],
+    group: ['Fifteen to twenty students on one rung', 'The same teacher across Years 11 and 12', 'Handwritten algorithms marked weekly', 'Quieter weeks around controlled assessment'],
     one: ['A teacher for one student', 'A plan built back from the exam dates', 'Suits a C# school or a late start']
   },
 

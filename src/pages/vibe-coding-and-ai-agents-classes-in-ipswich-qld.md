@@ -16,7 +16,7 @@ Ipswich, south east Queensland / Live online
 
 The City of Ipswich publishes a register of its bridges as open data: 190 structures, almost all of them footbridges, each with a length, a width, a height and a year built. Ask an AI agent for the average bridge height and it reads the column, adds it up and replies 0.523 metres, roughly knee height. The problem is that 158 of the 190 heights are recorded as zero, which for a bridge is not a measurement at all. Leave those out and the average of the 32 real values is 3.103 metres. Our Ipswich learners find out how a single silent zero can turn a confident agent into a confidently wrong one.
 
-Facts last verified 10 October 2026. Teaching is online; no Ipswich branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Ipswich branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Working with AI agents, from Ipswich
 
@@ -169,7 +169,7 @@ Online lessons reach every Ipswich suburb without a drive into Brisbane.
 - **On Queensland time** Lessons are booked in Ipswich time, which never shifts for daylight saving.
 - **Queensland year levels** Teachers know the Queensland curriculum years, senior QCE students included, and teach in English.
 - **Build something first** The free session is hands-on work with a teacher and an AI tool. You then get a suggested course and time, and we never take payment details.
-- **Groups at one level** Five to ten learners at the same stage, drawn from many places so every level has a workable slot.
+- **Groups at one level** Fifteen to twenty learners at the same stage, drawn from many places so every level has a workable slot.
 - **Twice every week** About eight sessions a month, with breaks for holidays and exams planned early.
 - **Agents with age limits respected** Younger learners only use AI tools whose terms allow their age, and teachers choose the tools accordingly.
 
@@ -180,7 +180,7 @@ Online lessons reach every Ipswich suburb without a drive into Brisbane.
 Three choices, in full.
 
 - First class: USD 0. A free session that ends with our recommended level, course and time.
-- Group tuition: USD 100 a month. About eight group sessions a month, with five to ten learners sharing your level.
+- Group tuition: USD 100 a month. About eight group sessions a month, with fifteen to twenty learners sharing your level.
 - Private tuition: USD 150 a month. About eight private sessions a month with one teacher.
 
 Ipswich families pay the same US dollar fee as families in any other part of Australia. Nothing is charged until the trial confirms a course and slot, and the pricing page covers breaks, missed sessions and moving between formats.
@@ -221,7 +221,7 @@ No, and we do not claim one. Teaching is live and online only, with no premises 
 
 ### What do vibe coding and AI agents classes in Ipswich cost?
 
-The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
+The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
 
 ### How large are the groups?
 

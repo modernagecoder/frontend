@@ -223,7 +223,7 @@ module.exports = {
     cells: [
       { h3: 'Answers before options', p: 'Every practice question is worked to a number before anything printed is looked at.' },
       { h3: 'Mistakes named', p: 'When a pupil lands on a wrong option we work out which mistake produced it, rather than moving on.' },
-      { h3: 'Five to ten pupils', p: 'Enough for a quicker method to surface, small enough that nobody hides at the back.' },
+      { h3: 'Fifteen to twenty pupils', p: 'Enough for a quicker method to surface, small enough that nobody hides at the back.' },
       { h3: 'Our own questions', p: 'Written by us in the same style. UKMT publishes its past papers free and that is where the real ones live.' },
       { h3: 'One to one when useful', p: 'For a pupil far ahead of their year, or one who freezes in a timed group.' },
       { h3: 'Nothing promised', p: 'We cannot enter anyone for a Kangaroo paper and promise no score or certificate.' }
@@ -238,7 +238,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A single monthly rate in US dollars for families outside India, with nothing to pay to register and no minimum term.',
     free: ['A full lesson with a teacher', 'A straight read on the level', 'No card details taken'],
-    group: ['Five to ten pupils at one level', 'The same teacher every week', 'Work marked and discussed', 'A certificate at the end'],
+    group: ['Fifteen to twenty pupils at one level', 'The same teacher every week', 'Work marked and discussed', 'A certificate at the end'],
     one: ['A teacher working with one pupil', 'Shaped around the specific gap', 'Useful when a group hour will not fit']
   },
 

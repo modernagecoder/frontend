@@ -53,7 +53,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Modern Age Coders teaches app development live online to learners in the Netherlands: children from about eight build real apps with blocks; teenagers build phone apps in React Native; students and adults work in Flutter for both platforms, Kotlin for Android or Swift for iOS. Every course treats the parts users never see, such as how data is stored, what an app asks permission for and what happens when something fails, as part of building the app. Lessons are live and in English, in groups of five to ten or one to one. The first lesson is free; after that a group place is USD 100 a month and private lessons USD 150.',
+  capsule: 'Modern Age Coders teaches app development live online to learners in the Netherlands: children from about eight build real apps with blocks; teenagers build phone apps in React Native; students and adults work in Flutter for both platforms, Kotlin for Android or Swift for iOS. Every course treats the parts users never see, such as how data is stored, what an app asks permission for and what happens when something fails, as part of building the app. Lessons are live and in English, in groups of fifteen to twenty or one to one. The first lesson is free; after that a group place is USD 100 a month and private lessons USD 150.',
 
   picks: {
     eyebrow: 'Start here',
@@ -194,7 +194,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first lesson', p: 'You build a first screen with a teacher and see it running, and the teacher proposes the right route.' },
-      { h3: 'Groups of five to ten', p: 'Learners at the same level from several countries, testing each other\'s apps.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners at the same level from several countries, testing each other\'s apps.' },
       { h3: 'One to one for your own idea', p: 'For a learner with an app idea of their own, a deadline or a specific platform.' },
       { h3: 'Tested on real devices', p: 'Apps are run on phones and tablets, not only in simulators, so real problems show up early.' },
       { h3: 'In English', p: 'The language of the frameworks and the app stores; Dutch school terms are kept for younger learners.' },
@@ -210,7 +210,7 @@ module.exports = {
     h2: 'App development fees',
     lede: 'A single monthly rate in US dollars, identical in every country outside India and for every kind of app. You pay nothing to register and sign no annual contract.',
     free: ['A real lesson building an app', 'A route proposed', 'No card needed'],
-    group: ['Five to ten learners at one level', 'The same live teacher each week', 'Apps reviewed every week', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same live teacher each week', 'Apps reviewed every week', 'A certificate at the end'],
     one: ['A teacher for one learner', 'Built around your own app idea', 'Pace set by your goal']
   },
 

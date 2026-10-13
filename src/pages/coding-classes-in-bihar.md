@@ -16,7 +16,7 @@ Book a Free Demo ClassExplore Courses**4.9/5**Parent rating**5–8**Students per
 
 ## Quick answer
 
-**Modern Age Coders runs live online coding and mathematics classes across Bihar for ages 6 to 60+.** Kids start with Scratch and Python, teens learn Web Development, Java and AI, and college students & adults master Data Structures, Full-Stack and Data Science. Classes are taught live in small batches of 5–8 students, support BSEB, CBSE and ICSE learners, and are available in Patna, Gaya, Bhagalpur, Muzaffarpur and every other city in the state. Group plans start at ₹1,499/month and every student can book a free demo class.
+**Modern Age Coders runs live online coding and mathematics classes across Bihar for ages 6 to 60+.** Kids start with Scratch and Python, teens learn Web Development, Java and AI, and college students & adults master Data Structures, Full-Stack and Data Science. Classes are taught live in batches of 15–20 students, support BSEB, CBSE and ICSE learners, and are available in Patna, Gaya, Bhagalpur, Muzaffarpur and every other city in the state. Group plans start at ₹1,499/month and every student can book a free demo class.
 
 Start Today
 
@@ -105,7 +105,7 @@ The Difference
 
 ## Why Bihar Families Choose Modern Age Coders
 
-### Small live batches (5–8)
+### Small live batches (15–20)
 
 Every student gets real attention from the instructor. No pre-recorded videos pretending to be a class, these are live, two-way sessions.
 
@@ -139,7 +139,7 @@ Transparent monthly plans with no hidden charges. Start with a free demo, then c
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 students per batch
+- 15–20 students per batch
 - Live interactive sessions
 - Recorded class access
 - Completion certificate
@@ -150,7 +150,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 students per batch
+- Up to 6 students per batch
 - More personal attention
 - Recorded class access
 - Project guidance & certificate
@@ -198,7 +198,7 @@ Good To Know
 
 What are the best online coding classes in Bihar?+
 
-Modern Age Coders offers live online coding classes in Bihar for kids aged 6–12, teens aged 13–18 and adults. Courses include Scratch, Python, Web Development, Java, AI/ML and Data Structures & Algorithms. Classes run in small batches of 5–8 students with expert instructors, and students across Patna, Gaya, Bhagalpur, Muzaffarpur and Darbhanga can join. Every new learner gets a free demo class.
+Modern Age Coders offers live online coding classes in Bihar for kids aged 6–12, teens aged 13–18 and adults. Courses include Scratch, Python, Web Development, Java, AI/ML and Data Structures & Algorithms. Classes run in batches of 15–20 students with expert instructors, and students across Patna, Gaya, Bhagalpur, Muzaffarpur and Darbhanga can join. Every new learner gets a free demo class.
 
 Do you offer coding classes for BSEB, CBSE and ICSE students?+
 
@@ -206,7 +206,7 @@ Yes. Our coding and maths curriculum supports students from the Bihar School Exa
 
 How much do coding classes cost in Bihar?+
 
-Group coding classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and personalised 1-on-1 classes are ₹4,999 per month. A free demo class is available before you enrol.
+Group coding classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and personalised 1-on-1 classes are ₹4,999 per month. A free demo class is available before you enrol.
 
 Are classes available in Hindi as well as English?+
 

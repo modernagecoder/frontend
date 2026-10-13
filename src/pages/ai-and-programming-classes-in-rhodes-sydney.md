@@ -16,7 +16,7 @@ Rhodes, City of Canada Bay, Sydney / Live online
 
 Imagine a model that has seen just three months of Rhodes Station's entry counts, and those three are December, January and February, the quiet summer months. Asked to forecast March to August 2026, it is off by 16.60% on average. Now let it first learn the shape of a year from 337 other NSW stations, and take only the level from Rhodes. The error falls to 11.03%. That is transfer learning, the idea behind almost every modern AI model, measured on one station's numbers.
 
-Facts last verified 10 October 2026. Teaching is online; no Rhodes branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Rhodes branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses in AI that test their own claims
 
@@ -182,7 +182,7 @@ Every lesson is taught live and joined from home, with no travel.
 - **From the apartment** A computer and headphones are enough; no special room is needed.
 - **Holiday breaks** Families can pause through the NSW school holidays.
 - **Trial first** A full free lesson, followed by a suggested course and time.
-- **Group or solo** Five to ten classmates of one level, or a private teacher.
+- **Group or solo** Fifteen to twenty classmates of one level, or a private teacher.
 - **Weekly rhythm** Two lessons a week in the same slots, about eight each month.
 - **India time** An 8pm Rhodes lesson begins at 2:30pm India time in daylight saving and 3:30pm once it ends.
 
@@ -193,7 +193,7 @@ Every lesson is taught live and joined from home, with no travel.
 Three amounts explain the cost.
 
 - First class: USD 0. The first lesson is free and ends with a straight recommendation.
-- Group tuition: USD 100 a month. Two group lessons each week, about eight a month, with five to ten learners at one level.
+- Group tuition: USD 100 a month. Two group lessons each week, about eight a month, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Two lessons each week with a teacher for one learner.
 
 Everyone outside India is invoiced in US dollars. Nothing is charged before the trial and an agreed timetable; holidays and absences are set out on the pricing page.
@@ -234,7 +234,7 @@ No. All lessons are live online and we have no premises in Australia. The phone 
 
 ### What do classes cost in Rhodes?
 
-The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one.
+The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one.
 
 ### How many learners are in a group?
 

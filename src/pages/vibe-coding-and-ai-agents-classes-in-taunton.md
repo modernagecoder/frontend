@@ -16,7 +16,7 @@ Taunton, Somerset, England / Live online
 
 Ant colonies are famous for finding short routes to food without a map or a leader: each ant leaves a scent trail, shorter trails get walked more often, the scent builds up, and the colony settles on a path. Computer scientists copied the idea, calling it ant colony optimisation, and it is one of the classic examples of swarm intelligence: many simple agents producing clever group behaviour. This project lets a colony of 20 virtual ants loose on central Taunton's real street map, between Taunton Library and Vivary Park, and compares their route with the exact answer. The result is a lesson every builder of multi-agent AI needs: a confident, unanimous swarm can still be wrong.
 
-Facts last verified 29 September 2026. Teaching is online; no Taunton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Taunton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for Taunton: thinking, vibe coding, agents
 
@@ -136,7 +136,7 @@ A laptop or desktop and a broadband line that copes with video are all that is n
 - **Learner in the driving seat** Students type, prompt and run their own code; the tutor watches through screen share and keeps the questions coming.
 - **Level set by a trial** The free lesson decides where to start, whatever the school year, and we note any exam board.
 - **No charge for lesson one** The first session is free and ends with a course suggestion.
-- **Matched classes** Groups of five to ten UK learners who are at about the same point.
+- **Matched classes** Groups of fifteen to twenty UK learners who are at about the same point.
 - **Two sessions a week** Paused through the school holidays.
 - **Steady slots** Tutors adjust when the clocks change, so the lesson hour stays the same.
 

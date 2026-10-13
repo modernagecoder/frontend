@@ -188,7 +188,7 @@ module.exports = {
       { h3: 'At your desk', p: 'Learners join from home on a laptop or desktop, with no trip into town after school.' },
       { h3: 'NSW year levels', p: 'Teachers know NSW stages and year levels and plan around the four NSW terms. Lessons are in English.' },
       { h3: 'A useful trial', p: 'The free first lesson teaches something real and ends with a recommended course and weekly slot.' },
-      { h3: 'Small groups', p: 'Five to ten learners at one level, gathered from Orange and other places so the group stays the right size.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners at one level, gathered from Orange and other places so the group stays the right size.' },
       { h3: 'Steady rhythm', p: 'Two live lessons a week, roughly eight a month, at a time agreed once the trial is done.' },
       { h3: 'Teachers in India', p: 'Orange is four and a half hours ahead of India time in winter and five and a half hours ahead during daylight saving.' }
     ],
@@ -199,7 +199,7 @@ module.exports = {
     h2: 'Fees for Orange learners',
     intro: 'Pricing is the same everywhere in Australia, and short.',
     first: 'A free first lesson, followed by a suggested level, course and lesson time.',
-    group: 'One month of group lessons, usually eight, with five to ten learners at the same stage.',
+    group: 'One month of group lessons, usually eight, with fifteen to twenty learners at the same stage.',
     private: 'A month of one-to-one lessons, about eight, with a teacher of your own.',
     closer: 'Fees outside India are charged in US dollars. You pay nothing until after the trial, once a course and weekly time are agreed; holidays, missed lessons and moving between group and private are all explained on the pricing page.'
   },
@@ -224,8 +224,8 @@ module.exports = {
       { q: 'What time are lessons for Orange learners?', a: 'Weekday afternoons after school and Saturday mornings are typical, fixed at the trial and always quoted in Orange time.' },
       { q: 'Can primary school children join?', a: 'Yes. Live classes start at age six, with Scratch and simple game projects; the vibe coding and agents work suits teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Orange?', a: 'No. We do not have premises in Australia and do not claim any. Classes are live online, learners need a computer with sound and a reliable connection, and our listed phone number is in India.', boiler: true },
-      { q: 'How much do Orange classes cost?', a: 'The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, or USD 150 a month for one-to-one lessons. Everything is agreed before you pay.', boiler: true },
-      { q: 'How large are the groups?', a: 'Each group has five to ten learners, matched by level and goals rather than age or location. If no group time suits, one-to-one lessons are offered.', boiler: true }
+      { q: 'How much do Orange classes cost?', a: 'The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, or USD 150 a month for one-to-one lessons. Everything is agreed before you pay.', boiler: true },
+      { q: 'How large are the groups?', a: 'Each group has fifteen to twenty learners, matched by level and goals rather than age or location. If no group time suits, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

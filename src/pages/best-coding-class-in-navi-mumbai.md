@@ -12,7 +12,7 @@ Live online · serving Navi Mumbai
 
 Real programming for kids, teens and college students in Navi Mumbai, from **Vashi / Sanpada to Nerul / Seawoods, Belapur (CBD) / Kharghar to Kharghar / Kamothe**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Navi%20Mumbai)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**Navi MumbaiEnrollingAreasVashi / Sanpada, Nerul / Seawoods, Belapur (CBD) / Kharghar, Kharghar / Kamothe, Airoli / Ghansoli (Mindspace) & all of Navi MumbaiBoardsMaharashtra SSC/HSC · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across Navi MumbaiFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Navi%20Mumbai)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**Navi MumbaiEnrollingAreasVashi / Sanpada, Nerul / Seawoods, Belapur (CBD) / Kharghar, Kharghar / Kamothe, Airoli / Ghansoli (Mindspace) & all of Navi MumbaiBoardsMaharashtra SSC/HSC · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across Navi MumbaiFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for Navi Mumbai's keenest young mathematicians who want to stretch well beyond the regular school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Navi Mumbai: FAQs
 
-Which is the best coding class in Navi Mumbai for kids?Modern Age Coders runs Navi Mumbai's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and move on to Python, in small batches of 5-8, taught by industry instructors. We cover every node: Vashi, Nerul, Belapur, Kharghar, Airoli, Ghansoli, Seawoods, Sanpada, Kopar Khairane, Panvel and Ulwe.Are the classes online or offline, and do you cover Kharghar and Panvel?Every class is live and online, so we reach all of Navi Mumbai equally: Vashi, Nerul, Belapur CBD, the fast-growing Kharghar and Ulwe nodes, the Airoli-Ghansoli Mindspace IT belt, Seawoods, Sanpada, Kopar Khairane and Panvel. Your child learns from the same expert teacher at home, with no rickshaw ride to a centre or a crawl across the Palm Beach Road. Each session runs two-way. Your child writes code on a shared screen, asks questions out loud, and gets a recording afterwards to revisit.How much do coding classes cost in Navi Mumbai?Group classes (5-8 students) start at Rs.1499/month for 2 live classes a week. Mini Batch (3-4 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student starts with a free demo class, and there are no hidden charges.Will coding help with JEE, MHT-CET and the board exams?Yes. Navi Mumbai families chase JEE, MHT-CET and NEET hard, and coding builds the exact logical reasoning, decomposition and problem-solving those exams reward. It also supports SSC/CBSE/ICSE Computer Science, Information Technology and the NEP-2020 AI modules. Our Python and Java tracks line up with what is taught at DPS Nerul, Ryan, Apeejay, Delhi Public Kharghar and Avalon Heights.What's the best age to start coding in Navi Mumbai?Age 8 is the sweet spot to begin with visual, block-based coding (Scratch). For text languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always suits the child.What programming languages and courses do you teach in Navi Mumbai?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also teach school, JEE/MHT-CET and Olympiad mathematics alongside coding.Do you prepare Navi Mumbai college students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is designed for students from Pillai (PCE), SIES, Datta Meghe (DMCE), Bharati Vidyapeeth and Terna targeting the GCCs, fintechs and IT employers around the Airoli-Ghansoli Mindspace belt and across MMR.Do you run summer & winter coding camps in Navi Mumbai?Yes, intensive camps run during the summer break (April-June) and winter break (Dec-Jan), where a child can finish a full course in 4-6 weeks. They are a favourite among Navi Mumbai parents who want a productive, screen-positive holiday. Ask us for upcoming dates and early-bird offers.Do you teach coding to Maharashtra board students in Navi Mumbai?Yes. Navi Mumbai schools run the Maharashtra state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about.Can DY Patil University students join your programming courses?Yes. DY Patil University has been in the Nerul node since 1983, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter.
+Which is the best coding class in Navi Mumbai for kids?Modern Age Coders runs Navi Mumbai's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and move on to Python, in batches of 15-20, taught by industry instructors. We cover every node: Vashi, Nerul, Belapur, Kharghar, Airoli, Ghansoli, Seawoods, Sanpada, Kopar Khairane, Panvel and Ulwe.Are the classes online or offline, and do you cover Kharghar and Panvel?Every class is live and online, so we reach all of Navi Mumbai equally: Vashi, Nerul, Belapur CBD, the fast-growing Kharghar and Ulwe nodes, the Airoli-Ghansoli Mindspace IT belt, Seawoods, Sanpada, Kopar Khairane and Panvel. Your child learns from the same expert teacher at home, with no rickshaw ride to a centre or a crawl across the Palm Beach Road. Each session runs two-way. Your child writes code on a shared screen, asks questions out loud, and gets a recording afterwards to revisit.How much do coding classes cost in Navi Mumbai?Group classes (15-20 students) start at Rs.1499/month for 2 live classes a week. Mini Batch (up to 6 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student starts with a free demo class, and there are no hidden charges.Will coding help with JEE, MHT-CET and the board exams?Yes. Navi Mumbai families chase JEE, MHT-CET and NEET hard, and coding builds the exact logical reasoning, decomposition and problem-solving those exams reward. It also supports SSC/CBSE/ICSE Computer Science, Information Technology and the NEP-2020 AI modules. Our Python and Java tracks line up with what is taught at DPS Nerul, Ryan, Apeejay, Delhi Public Kharghar and Avalon Heights.What's the best age to start coding in Navi Mumbai?Age 8 is the sweet spot to begin with visual, block-based coding (Scratch). For text languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always suits the child.What programming languages and courses do you teach in Navi Mumbai?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also teach school, JEE/MHT-CET and Olympiad mathematics alongside coding.Do you prepare Navi Mumbai college students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is designed for students from Pillai (PCE), SIES, Datta Meghe (DMCE), Bharati Vidyapeeth and Terna targeting the GCCs, fintechs and IT employers around the Airoli-Ghansoli Mindspace belt and across MMR.Do you run summer & winter coding camps in Navi Mumbai?Yes, intensive camps run during the summer break (April-June) and winter break (Dec-Jan), where a child can finish a full course in 4-6 weeks. They are a favourite among Navi Mumbai parents who want a productive, screen-positive holiday. Ask us for upcoming dates and early-bird offers.Do you teach coding to Maharashtra board students in Navi Mumbai?Yes. Navi Mumbai schools run the Maharashtra state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about.Can DY Patil University students join your programming courses?Yes. DY Patil University has been in the Nerul node since 1983, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter.
 
 ## Ready to start your child's coding journey in Navi Mumbai?
 

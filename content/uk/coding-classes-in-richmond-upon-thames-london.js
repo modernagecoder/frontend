@@ -50,7 +50,7 @@ module.exports = {
 
   h1: 'Coding classes in Richmond upon Thames',
   capsuleQ: 'What are the best coding classes in Richmond upon Thames?',
-  capsule: 'Richmond upon Thames is the south west London borough of Richmond, Twickenham, Teddington, Kew, Barnes, Hampton, Whitton and East Sheen, home to 195,278 people at the 2021 Census and to Kew Observatory, Hampton Court Palace and Ham House. The coding classes to look for teach a learner to turn a law of nature into a working calculation, and this page does that with Kepler\'s third law: planetary data from NASA\'s Jet Propulsion Laboratory, a straight line on a log scale, and then the mass of Jupiter worked out from its moons. We teach live by video from India for ages 6 to 67, one to one or in groups of five to ten at a single level. There is no charge for the first lesson. Carrying on costs USD 100 a month in a group or USD 150 a month privately.',
+  capsule: 'Richmond upon Thames is the south west London borough of Richmond, Twickenham, Teddington, Kew, Barnes, Hampton, Whitton and East Sheen, home to 195,278 people at the 2021 Census and to Kew Observatory, Hampton Court Palace and Ham House. The coding classes to look for teach a learner to turn a law of nature into a working calculation, and this page does that with Kepler\'s third law: planetary data from NASA\'s Jet Propulsion Laboratory, a straight line on a log scale, and then the mass of Jupiter worked out from its moons. We teach live by video from India for ages 6 to 67, one to one or in groups of fifteen to twenty at a single level. There is no charge for the first lesson. Carrying on costs USD 100 a month in a group or USD 150 a month privately.',
   lead: 'In Old Deer Park stands Kew Observatory, listed at Grade I. Historic England\'s entry says it was built in 1768 and 1769 after Dr Stephen Demainbray persuaded George III to take an interest in a transit of Venus, when Venus crosses the face of the Sun. Such transits mattered because they could reveal the scale of the solar system. Our learners pick up the story with modern numbers. NASA\'s Jet Propulsion Laboratory publishes each planet\'s distance from the Sun and how fast it moves round. From those, learners find that the square of every planet\'s year equals the cube of its distance, to within about a tenth of one per cent: Kepler\'s third law. Then they turn the law round and use the orbits of Jupiter\'s four largest moons to weigh the planet itself.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Richmond upon Thames.',
 
@@ -145,7 +145,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'Richmond station', p: 'TfL\'s open data lists the District line, the Mildmay line and South Western Railway at Richmond.' },
           { h3: 'Barnes to Hampton', p: 'A learner by the river at Barnes and another out at Hampton can join the same class from their own desks.' },
-          { h3: 'Regular orbits', p: 'Classes keep to a steady pattern: five to ten learners at one stage, twice a week, at an agreed UK time.' }
+          { h3: 'Regular orbits', p: 'Classes keep to a steady pattern: fifteen to twenty learners at one stage, twice a week, at an agreed UK time.' }
         ] },
         { kind: 'spec', title: 'Richmond and its neighbours', p: 'Richmond upon Thames is one of London\'s 32 boroughs. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> covers all of them and the City, adding a link to each page as it is published, including <a class="cg-inline-link" href="/coding-classes-in-kingston-upon-thames-london">Kingston upon Thames</a> to the south.' }
       ]
@@ -182,7 +182,7 @@ module.exports = {
       { h3: 'From your own room', p: 'Learners need a laptop or desktop, headphones, and an internet connection steady enough for an hour of video.' },
       { h3: 'English school stages', p: 'We use the Key Stages of English schools, from Key Stage 1 to sixth form, and name GCSE and A level where they apply. Classes are taught in English.' },
       { h3: 'First lesson on us', p: 'The free lesson is actual teaching, and by the end the teacher can suggest where the learner should start. We do not ask for any card details.' },
-      { h3: 'Grouped by stage', p: 'Five to ten learners who are at the same point share a class, gathered from across the UK and abroad so that a good hour is available.' },
+      { h3: 'Grouped by stage', p: 'Fifteen to twenty learners who are at the same point share a class, gathered from across the UK and abroad so that a good hour is available.' },
       { h3: 'Twice each week', p: 'Classes normally run on two evenings a week and stop for half terms, holidays and exam time as agreed.' },
       { h3: 'Times you can trust', p: 'Teachers work in India, and every time we give is already converted to UK time.' }
     ],
@@ -193,7 +193,7 @@ module.exports = {
     h2: 'Fees for Richmond families',
     intro: 'A free first lesson, then one monthly fee, identical in Kew, Hampton and everywhere between.',
     first: 'A full first lesson with a teacher, free, ending with a recommended level, course and time.',
-    group: 'About eight live lessons a month in a group of five to ten at the same level.',
+    group: 'About eight live lessons a month in a group of fifteen to twenty at the same level.',
     private: 'About eight live lessons a month, the learner alone with the teacher.',
     closer: 'Families in Richmond upon Thames pay in US dollars, as all families outside India do; pound prices are not shown anywhere on the site. Payment begins only after the free lesson and after you have chosen a course and a weekly time. Pausing, missed lessons and switching between a group and one-to-one lessons are explained on the pricing page.'
   },
@@ -218,8 +218,8 @@ module.exports = {
       { q: 'When would a Richmond learner have lessons?', a: 'When the free lesson is over we propose a weekly slot in a class at the right level with room to join. Teachers are in India, and all times we send are UK times.' },
       { q: 'Is anything special needed at home?', a: 'Nothing beyond a laptop or desktop with sound and a reliable connection. The Kepler project needs only Python and the numbers in JPL\'s two tables.' },
       { q: 'Is there a Modern Age Coders centre in Richmond upon Thames?', a: 'No. There is no Richmond upon Thames centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Richmond upon Thames cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Richmond upon Thames cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

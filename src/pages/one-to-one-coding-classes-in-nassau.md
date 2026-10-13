@@ -18,7 +18,7 @@ The rest of the ladder is [Python and AI for Kids](/courses/python-ai-kids-maste
 
 In short
 
-Private one to one Python and AI tuition for learners in Nassau and across The Bahamas costs USD 150 a month against USD 100 for a group batch of five to eight. Our honest default recommendation is the group, because much of the learning in this subject comes from watching peers attempt the same problem. Private teaching is the right answer in five specific situations, including the only one that is structural here: the weekday early-morning slot, seven to eight in Nassau, which no group can fill because of the time difference to our teachers in India. The first class is free either way.
+Private one to one Python and AI tuition for learners in Nassau and across The Bahamas costs USD 150 a month against USD 100 for a group batch of fifteen to twenty. Our honest default recommendation is the group, because much of the learning in this subject comes from watching peers attempt the same problem. Private teaching is the right answer in five specific situations, including the only one that is structural here: the weekday early-morning slot, seven to eight in Nassau, which no group can fill because of the time difference to our teachers in India. The first class is free either way.
 
 Against our own interest, first
 
@@ -48,7 +48,7 @@ Each of these is a real reason rather than a preference, and in each case a grou
 | A learning need that requires pacing | A group has one pace, and repeatedly holding it up is unfair to everybody including the student | Sets the pace per session, and can repeat a week without cost to anybody |
 | A learner far ahead of their age group | Being the strongest in a batch by a wide margin is as unproductive as being the weakest | Moves at their speed, which is often startlingly fast |
 
-The first row is the one specific to the Bahamas and it is worth expanding. Because our teachers are in India, nine and a half to ten and a half hours ahead, the only weekday hour that works is early morning in Nassau, seven to eight before school. Assembling a group of five to eight learners at the same level who are all free at seven in the morning is close to impossible, so that slot exists only as private teaching. If a weekend morning genuinely does not work for your household, one to one is not an upgrade, it is the only option.
+The first row is the one specific to the Bahamas and it is worth expanding. Because our teachers are in India, nine and a half to ten and a half hours ahead, the only weekday hour that works is early morning in Nassau, seven to eight before school. Assembling a group of fifteen to twenty learners at the same level who are all free at seven in the morning is close to impossible, so that slot exists only as private teaching. If a weekend morning genuinely does not work for your household, one to one is not an upgrade, it is the only option.
 
 What actually changes
 
@@ -192,7 +192,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Weekly build work reviewed by the teacher
 - Certificate on completion
@@ -225,7 +225,7 @@ No, and this is not a negotiating position. Our teachers are in India, nine and 
 
 ### How much does it cost?
 
-One to one teaching is USD 150 a month for weekly ninety-minute sessions, against USD 100 a month for a group batch of five to eight students, both billed in US dollars. There is no enrolment fee, no annual contract, and the first class is free without a card whichever format you are considering.
+One to one teaching is USD 150 a month for weekly ninety-minute sessions, against USD 100 a month for a group batch of fifteen to twenty students, both billed in US dollars. There is no enrolment fee, no annual contract, and the first class is free without a card whichever format you are considering.
 
 ### Can we start one to one and move to a group later?
 

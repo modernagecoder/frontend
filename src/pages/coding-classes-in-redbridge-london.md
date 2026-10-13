@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Redbridge: Il
 canonical: https://learn.modernagecoders.com/coding-classes-in-redbridge-london
 source: src/pages/coding-classes-in-redbridge-london.html
 ---
-> Redbridge is the north-east London borough of Ilford, Woodford, Wanstead, Gants Hill, Barkingside and Hainault, with 310,260 residents at the 2021 Census. Its libraries, run by Vision Redbridge Culture and Leisure, include nine that are open, and the borough holds ten Central line and four Elizabeth line stations. The right class for a learner here should make them ask how much to trust an answer, and our project does that by locating each library from its distances to those stations, the same idea that lets a phone find itself. Anyone from 6 to 67 can join, taught in real time by a teacher in India, either privately or in a class of five to ten who share a level. The first lesson is free; after it, group lessons cost USD 100 a month and private ones USD 150.
+> Redbridge is the north-east London borough of Ilford, Woodford, Wanstead, Gants Hill, Barkingside and Hainault, with 310,260 residents at the 2021 Census. Its libraries, run by Vision Redbridge Culture and Leisure, include nine that are open, and the borough holds ten Central line and four Elizabeth line stations. The right class for a learner here should make them ask how much to trust an answer, and our project does that by locating each library from its distances to those stations, the same idea that lets a phone find itself. Anyone from 6 to 67 can join, taught in real time by a teacher in India, either privately or in a class of fifteen to twenty who share a level. The first lesson is free; after it, group lessons cost USD 100 a month and private ones USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Redbridge
 
@@ -12,11 +12,11 @@ London Borough of Redbridge / Live online
 
 # Coding classes in Redbridge
 
-**What are the best coding classes in Redbridge?** Redbridge is the north-east London borough of Ilford, Woodford, Wanstead, Gants Hill, Barkingside and Hainault, with 310,260 residents at the 2021 Census. Its libraries, run by Vision Redbridge Culture and Leisure, include nine that are open, and the borough holds ten Central line and four Elizabeth line stations. The right class for a learner here should make them ask how much to trust an answer, and our project does that by locating each library from its distances to those stations, the same idea that lets a phone find itself. Anyone from 6 to 67 can join, taught in real time by a teacher in India, either privately or in a class of five to ten who share a level. The first lesson is free; after it, group lessons cost USD 100 a month and private ones USD 150.
+**What are the best coding classes in Redbridge?** Redbridge is the north-east London borough of Ilford, Woodford, Wanstead, Gants Hill, Barkingside and Hainault, with 310,260 residents at the 2021 Census. Its libraries, run by Vision Redbridge Culture and Leisure, include nine that are open, and the borough holds ten Central line and four Elizabeth line stations. The right class for a learner here should make them ask how much to trust an answer, and our project does that by locating each library from its distances to those stations, the same idea that lets a phone find itself. Anyone from 6 to 67 can join, taught in real time by a teacher in India, either privately or in a class of fifteen to twenty who share a level. The first lesson is free; after it, group lessons cost USD 100 a month and private ones USD 150.
 
 Tell a computer how far a place is from three or four stations and it can work out where the place is. That is trilateration, and it is how satellite positioning works. The catch is that distances are never exact, and the stations are never perfectly placed. Redbridge is a good place to see why. Its four Elizabeth line stations, Ilford, Seven Kings, Goodmayes and Chadwell Heath, sit almost in a straight line: all four within 56 metres of one line across 4.2 kilometres. Give the computer distances to those four alone, each off by a realistic 50 metres, and in up to four tries in ten it puts Aldersbrook Library more than a kilometre away, on the wrong side of the railway. Use all fourteen stations in the borough and the same library lands within about 22 metres, every single time.
 
-Facts last verified 25 September 2026. Teaching is online; no Redbridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Redbridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for Redbridge learners
 
@@ -177,7 +177,7 @@ Every address in Redbridge is exactly as near an online lesson as every other.
 - **Your own desk** Most learners take lessons at home; a library corner with headphones is a good fallback.
 - **School stages we all know** We talk in the terms your school uses, from Key Stage 1 through to sixth form, and all teaching happens in English.
 - **First lesson free** A real lesson with a teacher, ending with an honest suggestion of level and course, and no card details asked.
-- **Same-level groups** Five to ten learners at one stage, from Redbridge and far beyond, so a group can meet at a sensible time.
+- **Same-level groups** Fifteen to twenty learners at one stage, from Redbridge and far beyond, so a group can meet at a sensible time.
 - **Twice weekly, flexibly** Most groups meet twice a week, with breaks for half terms, holidays and exams agreed in advance.
 - **Times as you read them** Teachers are in India; the times on every booking and reminder are Redbridge times.
 
@@ -188,7 +188,7 @@ Every address in Redbridge is exactly as near an online lesson as every other.
 A free first lesson, then one monthly fee, the same anywhere in the borough.
 
 - First class: USD 0. A complete first lesson with a teacher at no cost, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month, in a group of five to ten at one stage.
+- Group tuition: USD 100 a month. About eight live lessons a month, in a group of fifteen to twenty at one stage.
 - Private tuition: USD 150 a month. About eight live lessons a month, one teacher with your learner.
 
 Whether you live in Ilford or Woodford, invoices come in US dollars, the currency we use for all families outside India; there is no sterling price list. Nothing is taken until the free lesson is done and a course and weekly time are fixed; the pricing page sets out pauses, missed lessons and moving between group and one-to-one.
@@ -229,7 +229,7 @@ No. We have no centre in Redbridge or elsewhere in the UK, because all lessons a
 
 ### What do coding classes in Redbridge cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are groups arranged?
 

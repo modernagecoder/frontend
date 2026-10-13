@@ -196,7 +196,7 @@ module.exports = {
       { h3: 'Both sides of the Derwent', p: 'Bellerive and Moonah are a bridge apart, yet two learners there can sit in one lesson without either of them leaving home.' },
       { h3: 'Tasmanian year levels', p: 'Teachers use Tasmanian year levels and plan around the state\'s four terms; senior learners can connect projects to TASC courses. Lessons are in English.' },
       { h3: 'Start with a real task', p: 'The trial is a genuine lesson with a teacher, ending with a suggested level, course and time. Card details are never requested.' },
-      { h3: 'Groups at the same stage', p: 'Five to ten learners working at a matching level, from Hobart and elsewhere, so small cities still get full groups.' },
+      { h3: 'Groups at the same stage', p: 'Fifteen to twenty learners working at a matching level, from Hobart and elsewhere, so small cities still get full groups.' },
       { h3: 'A twice-weekly rhythm', p: 'Around eight lessons a month in a fixed slot, with holiday and exam breaks agreed with the teacher beforehand.' },
       { h3: 'Teachers on the other side of the Indian Ocean', p: 'When it is 6pm in Hobart in July, it is 1:30pm where our teachers sit; once Tasmanian clocks go forward in October, the same 6pm lesson starts at 12:30pm for them.' }
     ],
@@ -207,7 +207,7 @@ module.exports = {
     h2: 'What classes cost in Hobart',
     intro: 'Three figures, stated plainly.',
     first: 'A full lesson without charge, after which you receive a level, a suggested course and a lesson time.',
-    group: 'A month of lessons, normally eight, sharing the class with five to ten learners at your level.',
+    group: 'A month of lessons, normally eight, sharing the class with fifteen to twenty learners at your level.',
     private: 'Roughly eight lessons a month in the same rhythm, with one teacher and one learner.',
     closer: 'Our fees are set in US dollars for every country except India, which means a family in Lindisfarne and one in Lenah Valley see identical invoices and no local price list exists. You are invoiced once the trial has settled a course and a time, and the pricing page answers questions about breaks, absences and changing format.'
   },
@@ -232,8 +232,8 @@ module.exports = {
       { q: 'What time are lessons for Hobart learners?', a: 'Most Hobart learners pick a slot between school pick-up and dinner, or on Saturday morning; the time is fixed at the trial and quoted in Tasmanian time. Our teachers are four and a half hours behind in winter and five and a half behind in summer.' },
       { q: 'Are classes available for younger children too?', a: 'Yes. Children from six begin with Scratch and picture-based projects, and move to typed code when they are ready; the projects on this page simply aim at older learners.' },
       { q: 'Is there a Modern Age Coders centre in Hobart?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Hobart coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Hobart coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

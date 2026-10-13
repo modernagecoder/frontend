@@ -60,7 +60,7 @@ module.exports = {
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
-  capsule: 'The best coding class for an Irish teenager turns constant use of technology into real understanding: writing and reading Python, building websites and apps, and training AI instead of only prompting it. Irish teens are online almost constantly and many already use AI tools, so the class has to teach judgement as well as syntax. Modern Age Coders teaches secondary students live online, from the Junior Cycle through Transition Year to the Leaving Cert, in groups of five to ten at one level or one to one, with the same teacher across the year. The first class costs nothing; continuing is USD 100 a month in a group or USD 150 a month one to one.',
+  capsule: 'The best coding class for an Irish teenager turns constant use of technology into real understanding: writing and reading Python, building websites and apps, and training AI instead of only prompting it. Irish teens are online almost constantly and many already use AI tools, so the class has to teach judgement as well as syntax. Modern Age Coders teaches secondary students live online, from the Junior Cycle through Transition Year to the Leaving Cert, in groups of fifteen to twenty at one level or one to one, with the same teacher across the year. The first class costs nothing; continuing is USD 100 a month in a group or USD 150 a month one to one.',
 
   picks: {
     eyebrow: 'Start here',
@@ -218,7 +218,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A first class on the house', p: 'The student writes some real code with a teacher, who then suggests a level, a course and a regular slot.' },
-      { h3: 'Groups of five to ten', p: 'Teenagers at the same level from Ireland and other countries, reviewing each other\'s code.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Teenagers at the same level from Ireland and other countries, reviewing each other\'s code.' },
       { h3: 'One to one', p: 'For exam years, fast movers, or anyone who prefers a teacher to themselves.' },
       { h3: 'AI with a record', p: 'AI tools come in after the basics, and the student notes what each tool contributed.' },
       { h3: 'School terms respected', p: 'Junior Cycle, TY and Leaving Cert are used as Irish schools use them, and exam weeks are planned around.' },

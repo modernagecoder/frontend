@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Southwark: Pe
 canonical: https://learn.modernagecoders.com/coding-classes-in-southwark-london
 source: src/pages/coding-classes-in-southwark-london.html
 ---
-> Southwark is the south London borough of Peckham, Bermondsey, Camberwell, Dulwich, Rotherhithe, Borough, Walworth and Nunhead, with 307,637 residents at the 2021 Census, Southwark Cathedral and Sir John Soane's Dulwich Picture Gallery. A class worth your time teaches a learner to check a famous claim before repeating it, and this page does exactly that with art: is the golden ratio really hidden in the shapes of pictures? Tested on 65,833 artworks, it first seems to win, then learners discover why the result is misleading. Lessons happen live on video with teachers in India; learners anywhere from six to sixty-seven study one to one or join a group of five to ten who share a stage. The first lesson is free. Afterwards a group place costs USD 100 a month, and one-to-one teaching USD 150 a month.
+> Southwark is the south London borough of Peckham, Bermondsey, Camberwell, Dulwich, Rotherhithe, Borough, Walworth and Nunhead, with 307,637 residents at the 2021 Census, Southwark Cathedral and Sir John Soane's Dulwich Picture Gallery. A class worth your time teaches a learner to check a famous claim before repeating it, and this page does exactly that with art: is the golden ratio really hidden in the shapes of pictures? Tested on 65,833 artworks, it first seems to win, then learners discover why the result is misleading. Lessons happen live on video with teachers in India; learners anywhere from six to sixty-seven study one to one or join a group of fifteen to twenty who share a stage. The first lesson is free. Afterwards a group place costs USD 100 a month, and one-to-one teaching USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Southwark
 
@@ -12,11 +12,11 @@ London Borough of Southwark / Live online
 
 # Coding classes in Southwark
 
-**What are the best coding classes in Southwark?** Southwark is the south London borough of Peckham, Bermondsey, Camberwell, Dulwich, Rotherhithe, Borough, Walworth and Nunhead, with 307,637 residents at the 2021 Census, Southwark Cathedral and Sir John Soane's Dulwich Picture Gallery. A class worth your time teaches a learner to check a famous claim before repeating it, and this page does exactly that with art: is the golden ratio really hidden in the shapes of pictures? Tested on 65,833 artworks, it first seems to win, then learners discover why the result is misleading. Lessons happen live on video with teachers in India; learners anywhere from six to sixty-seven study one to one or join a group of five to ten who share a stage. The first lesson is free. Afterwards a group place costs USD 100 a month, and one-to-one teaching USD 150 a month.
+**What are the best coding classes in Southwark?** Southwark is the south London borough of Peckham, Bermondsey, Camberwell, Dulwich, Rotherhithe, Borough, Walworth and Nunhead, with 307,637 residents at the 2021 Census, Southwark Cathedral and Sir John Soane's Dulwich Picture Gallery. A class worth your time teaches a learner to check a famous claim before repeating it, and this page does exactly that with art: is the golden ratio really hidden in the shapes of pictures? Tested on 65,833 artworks, it first seems to win, then learners discover why the result is misleading. Lessons happen live on video with teachers in India; learners anywhere from six to sixty-seven study one to one or join a group of fifteen to twenty who share a stage. The first lesson is free. Afterwards a group place costs USD 100 a month, and one-to-one teaching USD 150 a month.
 
 Dulwich Picture Gallery, designed by Sir John Soane and built between 1811 and 1814, is listed at Grade II* by Historic England. Galleries like it are full of rectangles: canvases, panels, sheets of paper. A claim you will meet in books and online says that artists favour the golden ratio, about 1.618 to 1, because it looks most pleasing. Our learners test it on the Tate's published collection data, which gives the width and height of tens of thousands of works. The first result seems to prove the claim: more works sit close to the golden ratio than to 4:3, 3:2 or a square. Then learners count who made the works. More than half of all the records are by a single artist, J. M. W. Turner. Take him out and the golden ratio sinks near the bottom.
 
-Facts last verified 25 September 2026. Teaching is online; no Southwark branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Southwark branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Southwark learners begin
 
@@ -144,7 +144,7 @@ A learner by the river in Rotherhithe and another in Dulwich can share the same 
 
 ### A balanced class
 
-Groups are built the opposite way to the Tate list: no single member dominates, just five to ten learners at a shared stage.
+Groups are built the opposite way to the Tate list: no single member dominates, just fifteen to twenty learners at a shared stage.
 
 **Southwark in London** Southwark is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers them all and the City, linking each page as it goes live, including [Lambeth](/coding-classes-in-lambeth-london) to the west and [Lewisham](/coding-classes-in-lewisham-london) to the east.
 
@@ -174,7 +174,7 @@ From any corner of Southwark, a lesson starts the moment the video call does.
 - **Home is fine** Learners take part from home on a laptop or desktop, with headphones and broadband that copes with video.
 - **England's stages** We use the Key Stages of English schools to describe progress, up to sixth form, and bring in GCSE and A level where relevant. Everything is taught in English.
 - **A free start** Lesson one costs nothing, teaches properly, and ends with the teacher's suggestion of level and course; nobody asks for a card.
-- **Matched by stage** Each class is five to ten learners at the same stage, gathered from across the UK and beyond so a suitable evening is available.
+- **Matched by stage** Each class is fifteen to twenty learners at the same stage, gathered from across the UK and beyond so a suitable evening is available.
 - **Twice weekly** Classes generally meet on two evenings each week, with agreed breaks for holidays and exams.
 - **On UK time** All lesson times reach you already in London time, so there is nothing to convert.
 
@@ -185,7 +185,7 @@ From any corner of Southwark, a lesson starts the moment the video call does.
 A free first lesson, then one monthly fee, the same in Walworth as in Dulwich.
 
 - First class: USD 0. A full lesson with a teacher, free, ending with a recommended level, course and time.
-- Group tuition: USD 100 a month. Around eight live lessons a month in a class of five to ten at one stage.
+- Group tuition: USD 100 a month. Around eight live lessons a month in a class of fifteen to twenty at one stage.
 - Private tuition: USD 150 a month. Around eight live lessons a month, one to one.
 
 Southwark families pay in US dollars, like all families outside India, so no pound prices appear on the site. Billing begins only after the free lesson, when the course and the weekly evening are fixed. If you need to pause, miss a week or move to private lessons, the pricing page shows how.
@@ -226,11 +226,11 @@ No. There is no Southwark centre and no premises anywhere in the UK, because eve
 
 ### What do coding classes in Southwark cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## Around London and the UK
 

@@ -43,7 +43,7 @@ module.exports = {
   twitterDescription: 'Glasgow maths, taught live online: is the Subway really a circle? Fifteen stations and a Higher Maths equation decide.',
   pageName: 'Maths Tuition in Glasgow',
   webPageDescription: 'Live online maths tuition for Glasgow learners aged 6 to 67 under the Curriculum for Excellence, from primary maths to SQA National 5, Higher and Advanced Higher Mathematics, and adult study, with a circle-geometry project built on the 15 Subway stations.',
-  courseDescription: 'Live online maths for Glasgow learners from P1 to S6 and beyond, taught in level-matched groups of five to ten or one to one, with senior-phase lessons steered to the SQA course specifications.',
+  courseDescription: 'Live online maths for Glasgow learners from P1 to S6 and beyond, taught in level-matched groups of fifteen to twenty or one to one, with senior-phase lessons steered to the SQA course specifications.',
   crumbs: [{ name: 'Courses', href: '/courses' }, { name: 'Coding classes in the UK', href: '/coding-classes-in-united-kingdom' }],
   crumbLabel: 'Maths tuition in Glasgow',
   navLinks: [
@@ -65,12 +65,12 @@ module.exports = {
     ['BGE', 'S1 to S3 maths, the base for the senior phase'],
     ['Senior phase', 'National 5, Higher, Advanced Higher'],
     ['Adults', 'Refreshers and a return to qualifications'],
-    ['Format', 'Live video, groups of 5 to 10 or private'],
+    ['Format', 'Live video, groups of 15 to 20 or private'],
     ['Teachers', 'Based in India, booked in UK time'],
     ['Local project', 'Subway stations and the circle equation']
   ],
   capsuleQ: 'In short',
-  capsule: 'We teach maths live online to Glasgow learners aged 6 to 67: primary maths from P1 to P7, S1 to S3 maths in the broad general education, then SQA National 5, Higher and Advanced Higher Mathematics, plus adult refreshers. Classes hold five to ten learners at one level, or a learner can work one to one. Our Glasgow example is the Subway: a least-squares circle through its 15 stations has a radius of 1,600.1 metres, but the stations lie between 1,304.4 and 1,891.5 metres from its centre, a good test of the Higher Maths equation of a circle. A first lesson is free; ongoing places are USD 100 a month in a group or USD 150 a month one to one.',
+  capsule: 'We teach maths live online to Glasgow learners aged 6 to 67: primary maths from P1 to P7, S1 to S3 maths in the broad general education, then SQA National 5, Higher and Advanced Higher Mathematics, plus adult refreshers. Classes hold fifteen to twenty learners at one level, or a learner can work one to one. Our Glasgow example is the Subway: a least-squares circle through its 15 stations has a radius of 1,600.1 metres, but the stations lie between 1,304.4 and 1,891.5 metres from its centre, a good test of the Higher Maths equation of a circle. A first lesson is free; ongoing places are USD 100 a month in a group or USD 150 a month one to one.',
 
   picks: {
     eyebrow: 'Typical starting points in Glasgow',
@@ -266,7 +266,7 @@ module.exports = {
     cells: [
       { h3: 'The same teacher', p: 'Every week, so small habits and slips are noticed.' },
       { h3: 'Short updates', p: 'A note after lessons on what is secure and what is next.' },
-      { h3: 'Groups by level', p: 'Five to ten learners, all working at one level.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners, all working at one level.' },
       { h3: 'Real maps and data', p: 'Station coordinates, census tables and weather records in lessons.' },
       { h3: 'One to one', p: 'For a single difficult topic or the weeks before an exam.' },
       { h3: 'Reasons, not tricks', p: 'Learners explain why a method works before practising it.' }
@@ -281,7 +281,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Charged monthly in US dollars, at one price for every country outside India, with no registration fee and no long contract.',
     free: ['A complete lesson at the right level', 'Our honest assessment', 'No card needed'],
-    group: ['Five to ten learners at the same level', 'A regular teacher', 'Homework marked and explained', 'A certificate on completion'],
+    group: ['Fifteen to twenty learners at the same level', 'A regular teacher', 'Homework marked and explained', 'A certificate on completion'],
     one: ['One learner, one teacher', 'Targeted at the precise gap', 'Valuable in the run-up to exams']
   },
 

@@ -41,7 +41,7 @@ module.exports = {
   twitterDescription: 'Cardiff maths, taught live online: which age band is really the busiest in the city? A histogram answers it.',
   pageName: 'Maths Tuition in Cardiff',
   webPageDescription: 'Live online maths tuition for Cardiff learners aged 6 to 67, from primary maths under the Curriculum for Wales to the WJEC GCSE Mathematics and Numeracy double award, A level, Further Maths and adult maths, with a statistics project built on Census 2021 age bands.',
-  courseDescription: 'Live online maths for Cardiff learners at every stage, taught in level-matched groups of five to ten or one to one, with secondary lessons steered to the WJEC specification.',
+  courseDescription: 'Live online maths for Cardiff learners at every stage, taught in level-matched groups of fifteen to twenty or one to one, with secondary lessons steered to the WJEC specification.',
   crumbs: [{ name: 'Courses', href: '/courses' }, { name: 'Coding classes in the UK', href: '/coding-classes-in-united-kingdom' }],
   crumbLabel: 'Maths tuition in Cardiff',
   navLinks: [
@@ -63,12 +63,12 @@ module.exports = {
     ['Secondary', 'WJEC GCSE Mathematics and Numeracy'],
     ['Sixth form', 'AS and A level, Further Maths'],
     ['Adults', 'Refreshers and maths for work'],
-    ['Format', 'Live video, groups of 5 to 10 or private'],
+    ['Format', 'Live video, groups of 15 to 20 or private'],
     ['Teachers', 'In India, timetabled on UK time'],
     ['Local project', 'Census age bands as a histogram']
   ],
   capsuleQ: 'In short',
-  capsule: 'We are a maths tutor for Cardiff learners aged 6 to 67, teaching live online: primary maths under the Curriculum for Wales, secondary maths up to the WJEC GCSE Mathematics and Numeracy double award at Foundation or Higher tier, AS and A level Maths with Further Maths, and adult refreshers. Groups hold five to ten learners at one level, and one to one lessons are available. Our Cardiff example comes from Census 2021: the 35 to 49 age band has the most people, 67,407, yet the 20 to 24 band is the densest, at 7,577 people per year of age, because it is only five years wide. A first lesson is free; afterwards a group seat is USD 100 a month and private lessons USD 150 a month.',
+  capsule: 'We are a maths tutor for Cardiff learners aged 6 to 67, teaching live online: primary maths under the Curriculum for Wales, secondary maths up to the WJEC GCSE Mathematics and Numeracy double award at Foundation or Higher tier, AS and A level Maths with Further Maths, and adult refreshers. Groups hold fifteen to twenty learners at one level, and one to one lessons are available. Our Cardiff example comes from Census 2021: the 35 to 49 age band has the most people, 67,407, yet the 20 to 24 band is the densest, at 7,577 people per year of age, because it is only five years wide. A first lesson is free; afterwards a group seat is USD 100 a month and private lessons USD 150 a month.',
 
   picks: {
     eyebrow: 'Where a Cardiff learner usually begins',
@@ -268,7 +268,7 @@ module.exports = {
     cells: [
       { h3: 'One regular teacher', p: 'The person who noticed a mistake last week checks for it again this week.' },
       { h3: 'Notes after lessons', p: 'A short message home on what went well and what still needs work.' },
-      { h3: 'Groups of five to ten', p: 'All at one level, so an explanation fits everyone in the room.' },
+      { h3: 'Groups of fifteen to twenty', p: 'All at one level, so an explanation fits everyone in the room.' },
       { h3: 'Real data', p: 'Census tables, weather records and maps sit next to textbook exercises.' },
       { h3: 'Private lessons', p: 'For one stubborn topic, an exam close by, or a learner who prefers it.' },
       { h3: 'Reasons first', p: 'We ask why a method works before we drill it.' }
@@ -283,7 +283,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Charged monthly in US dollars at a single rate for every country outside India. There is no joining fee and nothing to sign in advance.',
     free: ['A proper lesson at the right level', 'An honest view of where things stand', 'No card details needed'],
-    group: ['Five to ten learners at one level', 'The same teacher each week', 'Work marked and discussed', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher each week', 'Work marked and discussed', 'A certificate at the end'],
     one: ['A teacher for a single learner', 'Aimed at the exact weak spot', 'Handy in the run-up to exams']
   },
 

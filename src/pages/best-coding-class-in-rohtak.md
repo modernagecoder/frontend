@@ -12,7 +12,7 @@ Live online · serving Rohtak
 
 Real programming for kids, teens and college students in Rohtak, from **Model Town to HUDA Sector 1–3, HUDA Sector 4–6 to Delhi Road**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Rohtak)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**RohtakEnrollingAreasModel Town, HUDA Sector 1–3, HUDA Sector 4–6, Delhi Road, Sonipat Road & all of RohtakBoardsHBSE · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across RohtakFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Rohtak)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**RohtakEnrollingAreasModel Town, HUDA Sector 1–3, HUDA Sector 4–6, Delhi Road, Sonipat Road & all of RohtakBoardsHBSE · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across RohtakFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for Rohtak's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Rohtak: FAQs
 
-Which is the best coding class in Rohtak for kids?Modern Age Coders runs Rohtak's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and progress to Python, in small batches of 5-8 taught by industry instructors. Because we are online, a child in Model Town, the HUDA Sectors, Delhi Road, Civil Lines or near MDU Campus gets exactly the same teacher, and so do families out in Meham, Kalanaur, Sampla or Jhajjar.Are the classes online, and can I join from outside Rohtak city?Yes to both. Every class is live and online, so we cover all of Rohtak equally: Model Town, HUDA Sectors 1-6, Delhi Road, Sonipat Road, Jhajjar Road, Civil Lines, Subhash Nagar, Prem Nagar, Shivaji Colony, DLF Colony, Quila Road and the MDU Campus area, plus nearby Meham, Kalanaur, Sampla, Bahadurgarh and Jhajjar. Sessions are fully interactive with live coding, screen-sharing and a saved recording.How much do coding classes cost in Rohtak?Group classes (5-8 students) are Rs.1499/month for 2 live classes a week. The Mini Batch (3-4 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student begins with a free demo class, and there are no hidden charges. Families abroad are billed on our international plan.My child studies in a Haryana Board (HBSE/BSEH) school. Does coding still fit?Absolutely. We teach children from CBSE, ICSE and Haryana Board (HBSE/BSEH) schools across Rohtak, and our tracks adapt to each, from school Computer Science and Java (BlueJ) to the NEP-2020 AI modules. Coding sharpens the same structured logic that maths and science reward, so it supports school study rather than competing with it.Rohtak is an education city, does coding suit IIM, MDU and PGIMS-aspirant families?Yes. Rohtak is the heart of Haryana and its premier education city, home to IIM Rohtak, Maharshi Dayanand University (MDU) and PGIMS. The same exam discipline that cracks PGIMS or an IIM seat builds a strong coder. For management, university and degree students, our college track teaches DSA, full-stack MERN and AI/Data Science, career skills that complement, not replace, an academic path.Can a Rohtak student build a tech career without moving to Delhi or Gurgaon?Yes. Software is built from anywhere now. Rohtak sits on Delhi's doorstep, but a student here can learn, freelance and land remote roles from home with no need to relocate. Our college and AI-agent tracks teach exactly the product, freelancing and remote-work skills that make a global coding career possible from Rohtak.What is the Vibe Coding & AI Agents course?Vibe coding means describing what you want, letting an AI build a first draft, then refining it, and AI coding agents like Codex and Claude Code are how engineers ship software in 2026. We teach this modern workflow with the fundamentals underneath, in versions for kids, teens, college students and professionals, so a Rohtak learner directs the AI instead of being replaced by it.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college and university applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Do you teach coding to BSEH students in Rohtak?Yes. Rohtak schools run the Haryana board, BSEH, along with CBSE and ICSE, and our classes fit around any of them. The board is at Bhiwani, not Rohtak. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Maharshi Dayanand University or IIM Rohtak students join your programming courses?Yes. MDU has taught here since 1976 and shares its campus with IIM Rohtak, so serious study is on the doorstep. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview.
+Which is the best coding class in Rohtak for kids?Modern Age Coders runs Rohtak's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and progress to Python, in batches of 15-20 taught by industry instructors. Because we are online, a child in Model Town, the HUDA Sectors, Delhi Road, Civil Lines or near MDU Campus gets exactly the same teacher, and so do families out in Meham, Kalanaur, Sampla or Jhajjar.Are the classes online, and can I join from outside Rohtak city?Yes to both. Every class is live and online, so we cover all of Rohtak equally: Model Town, HUDA Sectors 1-6, Delhi Road, Sonipat Road, Jhajjar Road, Civil Lines, Subhash Nagar, Prem Nagar, Shivaji Colony, DLF Colony, Quila Road and the MDU Campus area, plus nearby Meham, Kalanaur, Sampla, Bahadurgarh and Jhajjar. Sessions are fully interactive with live coding, screen-sharing and a saved recording.How much do coding classes cost in Rohtak?Group classes (15-20 students) are Rs.1499/month for 2 live classes a week. The Mini Batch (up to 6 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student begins with a free demo class, and there are no hidden charges. Families abroad are billed on our international plan.My child studies in a Haryana Board (HBSE/BSEH) school. Does coding still fit?Absolutely. We teach children from CBSE, ICSE and Haryana Board (HBSE/BSEH) schools across Rohtak, and our tracks adapt to each, from school Computer Science and Java (BlueJ) to the NEP-2020 AI modules. Coding sharpens the same structured logic that maths and science reward, so it supports school study rather than competing with it.Rohtak is an education city, does coding suit IIM, MDU and PGIMS-aspirant families?Yes. Rohtak is the heart of Haryana and its premier education city, home to IIM Rohtak, Maharshi Dayanand University (MDU) and PGIMS. The same exam discipline that cracks PGIMS or an IIM seat builds a strong coder. For management, university and degree students, our college track teaches DSA, full-stack MERN and AI/Data Science, career skills that complement, not replace, an academic path.Can a Rohtak student build a tech career without moving to Delhi or Gurgaon?Yes. Software is built from anywhere now. Rohtak sits on Delhi's doorstep, but a student here can learn, freelance and land remote roles from home with no need to relocate. Our college and AI-agent tracks teach exactly the product, freelancing and remote-work skills that make a global coding career possible from Rohtak.What is the Vibe Coding & AI Agents course?Vibe coding means describing what you want, letting an AI build a first draft, then refining it, and AI coding agents like Codex and Claude Code are how engineers ship software in 2026. We teach this modern workflow with the fundamentals underneath, in versions for kids, teens, college students and professionals, so a Rohtak learner directs the AI instead of being replaced by it.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college and university applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Do you teach coding to BSEH students in Rohtak?Yes. Rohtak schools run the Haryana board, BSEH, along with CBSE and ICSE, and our classes fit around any of them. The board is at Bhiwani, not Rohtak. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Maharshi Dayanand University or IIM Rohtak students join your programming courses?Yes. MDU has taught here since 1976 and shares its campus with IIM Rohtak, so serious study is on the doorstep. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview.
 
 ## Ready to start your child's coding journey in Rohtak?
 

@@ -204,7 +204,7 @@ module.exports = {
       { h3: 'From any room', p: 'A learner in Roundhay and another in Armley can sit in the same class, each at their own table, with no bus into town.' },
       { h3: 'The school words Leeds uses', p: 'Reception, Key Stages, Year 9 options, GCSEs and A levels keep their English names, and every lesson is in English.' },
       { h3: 'A trial that teaches', p: 'The first session is a genuine lesson on a genuine task, ending with honest advice on level, course and time. Nobody asks for card details.' },
-      { h3: 'Level before age', p: 'Classes hold five to ten learners who work at the same pace, drawn from Leeds, elsewhere in the UK and abroad so every level finds a sensible slot.' },
+      { h3: 'Level before age', p: 'Classes hold fifteen to twenty learners who work at the same pace, drawn from Leeds, elsewhere in the UK and abroad so every level finds a sensible slot.' },
       { h3: 'A steady rhythm', p: 'Two sessions a week at an agreed time, about eight a month, with gaps for school holidays and revision arranged with the teacher.' },
       { h3: 'Our teachers\' clock', p: 'Teaching happens from India, which keeps one time all year. That puts it four and a half hours ahead of Leeds in summer and five and a half in winter, and a Leeds after-school or evening slot sits comfortably in the teacher\'s day.' }
     ],
@@ -215,7 +215,7 @@ module.exports = {
     h2: 'What classes cost in Leeds',
     intro: 'The whole price list, in three lines.',
     first: 'One complete lesson, free, finishing with a level, a course suggestion and a proposed weekly time.',
-    group: 'A month of teaching, normally eight sessions, in a class of five to ten learners at one level.',
+    group: 'A month of teaching, normally eight sessions, in a class of fifteen to twenty learners at one level.',
     private: 'Around eight sessions a month on the same pattern, with the teacher working with one learner.',
     closer: 'All fees are charged in US dollars at the one rate we use everywhere outside India, so a family in Headingley and a family in Seacroft are charged identically and no sterling list exists. Payment starts only after the trial lesson has set a course and a slot, and our pricing page describes breaks, missed sessions and moving between group and private lessons.'
   },
@@ -240,7 +240,7 @@ module.exports = {
       { q: 'When can Leeds learners have lessons?', a: 'Weekday afternoons after school, weekday evenings or at the weekend, agreed in UK time at the trial lesson. India is four and a half hours ahead of Leeds in summer and five and a half in winter.' },
       { q: 'Can we pause lessons around exams?', a: 'Yes. Families often stop for GCSE or A level revision and the exam weeks, and for school holidays, with the dates agreed with the teacher beforehand.' },
       { q: 'Is there a Modern Age Coders office in Leeds?', a: 'There is not, and we do not suggest otherwise. All lessons are online and live, and we have no UK premises. Learners need a laptop or desktop computer, working audio and a stable internet connection, and our phone number is an Indian one.', boiler: true },
-      { q: 'How much do Leeds classes cost?', a: 'The first lesson is free. A group place then costs USD 100 a month for two live lessons a week, roughly eight a month, with five to ten learners, and one-to-one teaching on the same schedule costs USD 150 a month. Course, format and time are fixed before any payment.', boiler: true },
+      { q: 'How much do Leeds classes cost?', a: 'The first lesson is free. A group place then costs USD 100 a month for two live lessons a week, roughly eight a month, with fifteen to twenty learners, and one-to-one teaching on the same schedule costs USD 150 a month. Course, format and time are fixed before any payment.', boiler: true },
       { q: 'How big is each group?', a: 'Between five and ten learners, grouped by level, pace and what they want to achieve, not by age or area. Where no group at the right level meets at a suitable time, we offer one-to-one lessons.', boiler: true }
     ]
   },

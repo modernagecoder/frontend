@@ -16,7 +16,7 @@ Kingswood, South Gloucestershire, England / Live online
 
 Take a photo on a grey day and most of it sits in a narrow band of middle tones, so it looks flat. Photo editors fix this with an old trick called histogram equalisation: count how many pixels have each shade, then stretch the crowded shades apart and squeeze the rare ones together, so every band of the grey scale ends up with a similar share of the picture. The same idea works on any grid of numbers. This project builds a picture of the ground around Kingswood from 1,920 heights in the European EU-DEM elevation model, where most of the land sits in a middle band, and shows in Python what equalisation gains and what it gives up.
 
-Facts last verified 30 September 2026. Teaching is online; no Kingswood branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Kingswood branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Kingswood courses in thinking, Python and AI
 
@@ -130,7 +130,7 @@ You need a computer with a webcam and a connection that can carry a video call.
 - **Learner does the work** Students type, prompt and run every step while the tutor follows the shared screen and asks what each number means.
 - **Where to begin** The trial tells us the right first topic; any exam board is written down.
 - **Trial on us** The first session is unpaid and closes with the course we would pick for you.
-- **Level, not postcode** Groups of five to ten are formed by what learners can already do, drawing on the whole country.
+- **Level, not postcode** Groups of fifteen to twenty are formed by what learners can already do, drawing on the whole country.
 - **Two a week** Paused in the school holidays.
 - **Fixed time** Our tutors follow the UK clock changes so your slot stays put.
 

@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-qatar.html
 
 In short
 
-Modern Age Coders runs live online AI and machine learning classes for students in Qatar, ages 6 to 67, in batches of five to eight or one to one. Students build in Python, study the mathematics machine learning depends on, and train models they can evaluate rather than merely operate. Classes follow the Qatari week, Sunday to Thursday, with a Saturday intensive. Fees start at a flat USD 100 a month, billed in US dollars, first class free.
+Modern Age Coders runs live online AI and machine learning classes for students in Qatar, ages 6 to 67, in batches of fifteen to twenty or one to one. Students build in Python, study the mathematics machine learning depends on, and train models they can evaluate rather than merely operate. Classes follow the Qatari week, Sunday to Thursday, with a Saturday intensive. Fees start at a flat USD 100 a month, billed in US dollars, first class free.
 
 The catalogue
 
@@ -286,7 +286,7 @@ Saturday, Doha time, which is 12:30 to 14:00 in India. The ninety minute intensi
 
 ### What a session is
 
-Sixty minutes of live video on a weekday, ninety on the Saturday intensive, with a teacher who remembers what your child got stuck on last week. Screens are shared both ways, so the mistake is caught as it happens rather than marked three days later. Batches are five to eight students, or one to one.
+Sixty minutes of live video on a weekday, ninety on the Saturday intensive, with a teacher who remembers what your child got stuck on last week. Screens are shared both ways, so the mistake is caught as it happens rather than marked three days later. Batches are fifteen to twenty students, or one to one.
 
 Between sessions students get a task, not a worksheet: something to build, break and bring back, with questions going to the same teacher.
 
@@ -368,7 +368,7 @@ USD 100
 
 Per month, billed in US dollars
 
-- Five to eight students, same teacher every week
+- Fifteen to twenty students, same teacher every week
 - Live video, never a recording
 - Weekly build tasks and teacher review
 - Certificate on completion

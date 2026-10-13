@@ -310,7 +310,7 @@ module.exports = {
       { h3: 'Live teaching', p: 'The learner shares their screen and the teacher reads and runs their code with them.' },
       { h3: 'State terms', p: 'The schedule tracks the Victorian school terms and pauses for the holidays.' },
       { h3: 'No-cost trial', p: 'A full first lesson for free, then a suggested course and weekly slot.' },
-      { h3: 'Level-based groups', p: 'Five to ten learners of similar level, from many different places.' },
+      { h3: 'Level-based groups', p: 'Fifteen to twenty learners of similar level, from many different places.' },
       { h3: 'Two lessons weekly', p: 'Two set lessons each week, about eight per month, for steady progress.' },
       { h3: 'Teachers in India', p: 'A 4:30pm Casey class is 11am India time under Melbourne daylight saving, and noon once it ends in April.' }
     ],
@@ -323,7 +323,7 @@ module.exports = {
     h2: 'Casey class fees',
     intro: 'Simple and the same for every family.',
     first: 'The first lesson is free, and we finish it with clear advice.',
-    group: 'A month of group lessons, normally eight, with five to ten learners at one level.',
+    group: 'A month of group lessons, normally eight, with fifteen to twenty learners at one level.',
     private: 'A month of private lessons, normally eight, just the learner and a teacher.',
     closer: 'Casey families pay in US dollars, as all families outside India do. No charge is made before the trial fixes a course and a time; holidays and missed lessons are covered on the pricing page.'
   },
@@ -362,12 +362,12 @@ module.exports = {
       },
       {
         q: 'How much are Casey Python classes?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'What size are the groups?',
-        a: 'Five to ten learners, matched by level, pace and goals, not by age or suburb; private lessons are offered when no group time works.',
+        a: 'Fifteen to twenty learners, matched by level, pace and goals, not by age or suburb; private lessons are offered when no group time works.',
         boiler: true
       },
       { q: 'Are there classes for adults in Casey?', a: 'Yes. Adults study in adult groups or privately, often testing scripts they already use at work.' }

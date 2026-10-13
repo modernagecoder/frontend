@@ -183,7 +183,7 @@ module.exports = {
     intro: 'The arrangements, in brief.',
     cells: [
       { h3: 'Live, not recorded', p: 'A teacher runs each lesson in real time and responds to the code in front of the learner.' },
-      { h3: 'Matched groups', p: 'Five to ten learners at one stage, drawn from Offaly, the rest of Ireland and other countries.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners at one stage, drawn from Offaly, the rest of Ireland and other countries.' },
       { h3: 'Twice most weeks', p: 'About eight lessons a month, on days and at an hour agreed at the start.' },
       { h3: 'Fitted to the school year', p: 'The plan allows for mid-terms, holidays and the weeks before exams.' },
       { h3: 'At home', p: 'A keyboard and a screen wide enough for code beside a video window, a headset or speakers with a microphone, and the ordinary home broadband that 4,530 households here already have.' },
@@ -196,7 +196,7 @@ module.exports = {
     h2: 'Fees for Tullamore',
     intro: 'All of it, in one place.',
     first: 'A complete first lesson with a level assessment, at no charge.',
-    group: 'A month in a group of five to ten at the same stage, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at the same stage, about eight live lessons.',
     private: 'A month of one-to-one lessons on the same weekly pattern.',
     closer: 'Nothing is owed for the opening hour; the month begins when the first paid lesson does, at the one US dollar rate used for every country outside India, and the pricing page sets out what happens over holidays, after a missed lesson or on moving between group and private.'
   },
@@ -221,7 +221,7 @@ module.exports = {
       { q: 'Is it too late to start as an adult?', a: 'No. Learners up to sixty-seven join us, often with no coding behind them, and after the first lesson they either join a group at their level or continue one to one.' },
       { q: 'Do learners from outside the town join too?', a: 'Yes. Lessons are online, so a learner in Clara, Kilbeggan or a farm outside Tullamore gets the same class, and groups are formed by level rather than address.' },
       { q: 'Is there a Modern Age Coders classroom in Tullamore?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Tullamore cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Tullamore cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

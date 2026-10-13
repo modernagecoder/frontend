@@ -16,7 +16,7 @@ The Hills Shire, Sydney, New South Wales / Live online
 
 Suppose every primary school in The Hills Shire wants a buddy school within three and a half kilometres for shared events. The obvious method is to pair the two closest schools, then the next closest pair still free, and so on. On the 22 government primary schools in the department's file that method stops at 7 pairs and strands four schools that each had a partner in range. A smarter method, which hunts for chains of swaps called augmenting paths, finds 9 pairs and leaves nobody out who could have been paired. Our Hills project builds both in Python and shows exactly which swaps make the difference.
 
-Facts last verified 10 October 2026. Teaching is online; no The Hills Shire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no The Hills Shire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where a Hills learner might start
 
@@ -185,7 +185,7 @@ The schools in the department's file for The Hills range from Wisemans Ferry Pub
 - **No long drives** Learners from every part of the shire join the same lesson from home, so distance makes no difference to who can take part.
 - **NSW-aligned** Plans follow the NSW stages and terms, stop for state school holidays and can support senior computing and maths subjects.
 - **A free real lesson** The trial teaches genuine content. At the end the teacher proposes a course, level and time, and no payment is taken.
-- **Five to ten per group** Groups are formed by level and pace, combining Hills learners with others, so nobody is held back or rushed.
+- **Fifteen to twenty per group** Groups are formed by level and pace, combining Hills learners with others, so nobody is held back or rushed.
 - **Regular lessons** Two lessons a week at a set time, about eight a month, with breaks for holidays arranged in advance.
 - **Teachers in India** A 4:30pm lesson in The Hills during daylight saving starts at 11am India time; in winter it starts at noon there.
 
@@ -196,7 +196,7 @@ The schools in the department's file for The Hills range from Wisemans Ferry Pub
 No hidden extras, just three figures.
 
 - First class: USD 0. A first lesson free of charge, with a suggested course and time to follow.
-- Group tuition: USD 100 a month. A month of group lessons, generally eight, alongside five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group lessons, generally eight, alongside fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight one-to-one lessons a month.
 
 We bill in US dollars outside India, so the price is identical across the shire and there is no Hills price list. Charges begin after the trial has agreed a course and a time; the pricing page explains holidays, missed lessons and changing between group and private lessons.
@@ -237,11 +237,11 @@ No. Classes are live and online only, and we run no premises anywhere in Austral
 
 ### How much do coding classes cost in The Hills?
 
-The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for one-to-one lessons on the same schedule. Course, format and time are settled before any payment.
+The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for one-to-one lessons on the same schedule. Course, format and time are settled before any payment.
 
 ### How are groups formed?
 
-Groups have five to ten learners matched by level, pace and goals rather than age or location. If no group fits, one-to-one lessons are available.
+Groups have fifteen to twenty learners matched by level, pace and goals rather than age or location. If no group fits, one-to-one lessons are available.
 
 ## More for Hills learners
 

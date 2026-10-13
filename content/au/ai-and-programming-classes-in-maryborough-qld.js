@@ -199,7 +199,7 @@ module.exports = {
       { h3: 'Across the city', p: 'A teenager in Tinana and an adult in Granville can learn side by side without either of them catching a bus.' },
       { h3: 'Queensland years', p: 'Lessons follow Queensland\'s year levels and four terms, and senior students can link projects to the computing and maths subjects they take.' },
       { h3: 'A proper trial', p: 'The first lesson is a full class with real code. Afterwards you receive a recommended level, course and time, and no payment details are taken.' },
-      { h3: 'Level-matched groups', p: 'Five to ten learners at one stage, from Maryborough and further afield, so the group always has enough people.' },
+      { h3: 'Level-matched groups', p: 'Fifteen to twenty learners at one stage, from Maryborough and further afield, so the group always has enough people.' },
       { h3: 'Two lessons a week', p: 'Fixed times twice weekly, about eight lessons a month, with breaks for school holidays and exams planned ahead.' },
       { h3: 'One steady time gap', p: 'Queensland does not use daylight saving, so a 5pm Maryborough lesson starts at 12:30pm in India all year round.' }
     ],
@@ -210,7 +210,7 @@ module.exports = {
     h2: 'Maryborough class fees',
     intro: 'Three numbers explain the cost.',
     first: 'A full lesson at no charge, finished with a suggested level, course and lesson time.',
-    group: 'Close to eight lessons a month with five to ten learners at one level.',
+    group: 'Close to eight lessons a month with fifteen to twenty learners at one level.',
     private: 'Close to eight lessons a month with a teacher working one to one.',
     closer: 'Families outside India are billed in US dollars, so a learner in Tinana and one in Granville pay the same and there is no Maryborough price list. We charge nothing until the trial has fixed a course and a weekly time, and the pricing page sets out breaks, absences and changes of format.'
   },
@@ -235,8 +235,8 @@ module.exports = {
       { q: 'What time are lessons?', a: 'Times are set at the trial and written in Maryborough time. Because Queensland has no daylight saving, the gap to our teachers in India is always four and a half hours.' },
       { q: 'Can younger children learn with you?', a: 'Yes, from age six. Younger learners begin with Scratch and drawing programs; the precision project on this page is designed for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Maryborough?', a: 'No, and none is claimed. Every lesson is live and online, and we have no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection; the contact number shown is Indian.', boiler: true },
-      { q: 'What do Maryborough classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Maryborough classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

@@ -179,7 +179,7 @@ Reaching the rest of Oman from here means crossing a border or taking a boat. A 
 
 A complete class with a genuine task, ending in a specific recommendation. No card details to arrange it and no commitment until a teacher has been watched working.
 
-### Five to eight per group, chosen by level
+### Fifteen to twenty per group, chosen by level
 
 Groups form on present ability and destination, not on which side of a boundary somebody lives. In a town divided three ways that is worth stating plainly.
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for learners here?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are class times arranged for learners here?
 

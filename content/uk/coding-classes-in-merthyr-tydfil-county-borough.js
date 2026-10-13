@@ -53,7 +53,7 @@ module.exports = {
 
   h1: 'Coding classes in Merthyr Tydfil',
   capsuleQ: 'What are the best coding classes in Merthyr Tydfil?',
-  capsule: 'Merthyr Tydfil county borough counted 58,836 usual residents at the 2021 census, the smallest total of any Welsh principal area in that release. Most live in the Merthyr Tydfil built-up area itself, with Treharris, Troedyrhiw and Pentrebach, Aberfan and Trelewis the other sizeable places. Every lesson is taught live over video by teachers in India; the first one is free and pins down a starting level for a Year 3 pupil, a Year 13 student or an adult. Learners from 6 to 67 study coding, Python and maths, alone with a teacher or in a class of five to ten. The Merthyr project begins at an iron bridge from around 1794. Staying on costs USD 100 each month in a group or USD 150 each month one-to-one.',
+  capsule: 'Merthyr Tydfil county borough counted 58,836 usual residents at the 2021 census, the smallest total of any Welsh principal area in that release. Most live in the Merthyr Tydfil built-up area itself, with Treharris, Troedyrhiw and Pentrebach, Aberfan and Trelewis the other sizeable places. Every lesson is taught live over video by teachers in India; the first one is free and pins down a starting level for a Year 3 pupil, a Year 13 student or an adult. Learners from 6 to 67 study coding, Python and maths, alone with a teacher or in a class of fifteen to twenty. The Merthyr project begins at an iron bridge from around 1794. Staying on costs USD 100 each month in a group or USD 150 each month one-to-one.',
   lead: 'By the site of the old Cyfarthfa Ironworks, Cadw lists Pont-y-Cafnau at Grade II* and records that it probably dates from about 1794, making it probably the earliest known iron railway bridge. It carried a tramroad of four-foot gauge on a pair of A-frame iron trusses, and some of the chairs that held the rails survive on its deck. Iron has a habit engineers must always respect: it grows when it warms and shrinks when it cools. A bridge or a rail that cannot move as it grows pushes on whatever holds it. How much does iron grow between a Welsh winter and summer, and how big is that push? This page\'s project works it out in Python.',
   wa: 'Hello Modern Age Coders, we are in Merthyr Tydfil and would like to book a free lesson, please.',
 
@@ -159,7 +159,7 @@ module.exports = {
       { h3: 'Learners build it', p: 'Pupils write each program while the teacher follows along on the shared screen.' },
       { h3: 'Welsh school years', p: 'An Aberfan Year 5 or a Merthyr Year 12 is placed by school year and the Curriculum for Wales, with WJEC exam names. Lessons are in English.' },
       { h3: 'Free first lesson', p: 'A full lesson for nothing, then clear advice.' },
-      { h3: 'Classes by level', p: 'Five to ten learners working at the same level.' },
+      { h3: 'Classes by level', p: 'Fifteen to twenty learners working at the same level.' },
       { h3: 'Term time only', p: 'Two lessons a week in term; none in the holidays.' },
       { h3: 'UK time, both seasons', p: 'The lesson stays at its UK hour through summer and winter time; teachers on India time adjust.' }
     ],
@@ -170,7 +170,7 @@ module.exports = {
     h2: 'Fees in Merthyr Tydfil',
     intro: 'Merthyr or Treharris, the fee is identical, and matches every country we teach outside India.',
     first: 'A complete lesson, free of charge, then our recommendation.',
-    group: 'About eight lessons a month in a group of five to ten.',
+    group: 'About eight lessons a month in a group of fifteen to twenty.',
     private: 'About eight lessons a month, one-to-one.',
     closer: 'Fees are set in US dollars, never sterling. Billing starts only when the trial has fixed a course and a weekly time; the pricing page covers holidays, absences and moving between formats.'
   },

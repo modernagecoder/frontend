@@ -16,7 +16,7 @@ Canberra, Australian Capital Territory / Live online
 
 An AI agent cannot remember everything, and it should not try. Our Canberra project shows why. Transport Canberra publishes a weekly figure for the share of services that leave their first stop on time, nine years of it, and we built a small agent to watch that number and raise an alert when a week looks unusually bad. The agent keeps only the last few weeks in a ring buffer, a fixed-size memory that overwrites its oldest entry with each new one. Learners discover two things quickly. The size of that memory changes how often the agent cries wolf. And when the data itself goes wrong, an agent that trusts every number it is fed will report a collapse that never happened.
 
-Facts last verified 7 October 2026. Teaching is online; no Canberra branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Canberra branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four starting points for Canberra teenagers and adults
 
@@ -181,7 +181,7 @@ The capital is spread across separate town centres, and an online lesson brings 
 - **No trip across town** A learner near Lake Burley Griffin and one in Tuggeranong share the lesson from home, with nothing to travel to.
 - **Familiar year levels** Teachers use the year levels ACT schools use, from Year 7 to Year 12, and work around the territory's school terms. All teaching is in English.
 - **A genuine trial** You complete a real task with a teacher and leave with a suggested level, course and lesson time. No card details are taken.
-- **Small level-matched groups** Five to ten learners at the same stage, from Canberra and further afield, so a suitable evening slot is easy to find.
+- **Small level-matched groups** Fifteen to twenty learners at the same stage, from Canberra and further afield, so a suitable evening slot is easy to find.
 - **Two lessons a week** Roughly eight lessons a month at a regular time. Holidays and exam weeks are planned with the teacher ahead of time.
 - **India time, four and a half or five and a half hours behind** Canberra is 4 hours 30 minutes ahead of India time in winter and 5 hours 30 minutes ahead from Sunday 4 October 2026 until Sunday 4 April 2027.
 
@@ -192,7 +192,7 @@ The capital is spread across separate town centres, and an online lesson brings 
 Three amounts and no surprises.
 
 - First class: USD 0. A complete lesson at no charge, followed by a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. A month of classes, normally eight, with five to ten learners at a matching level.
+- Group tuition: USD 100 a month. A month of classes, normally eight, with fifteen to twenty learners at a matching level.
 - Private tuition: USD 150 a month. About eight classes a month in the same pattern, with one learner and one teacher.
 
 Everyone outside India pays in US dollars at a single rate, so the inner north and the far south get the same invoice, and there is no Canberra price list. Payment starts only after the trial, once course and time are agreed; the pricing page covers holidays, missed classes and moving between group and private lessons. Copilot Studio agent lessons are one to one only.
@@ -233,11 +233,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Canberra coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Canberra and Australian learners
 

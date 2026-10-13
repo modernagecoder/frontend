@@ -61,11 +61,11 @@ module.exports = {
     ['GCSE', 'Foundation or Higher, AQA, Edexcel, OCR'],
     ['A level', 'Maths, with Further Maths topics'],
     ['Adults', 'Resits, statistics, refreshers'],
-    ['Lessons', 'Live online, private or 5 to 10 per class'],
+    ['Lessons', 'Live online, private or 15 to 20 per class'],
     ['Project', 'Record years in 173 years of data']
   ],
   capsuleQ: 'Maths tuition in Oxford, summarised',
-  capsule: 'Oxford learners aged 6 to 67 can study maths with Modern Age Coders in live online lessons. Primary children work towards the Year 6 SATs with secure tables; Years 7 to 9 cover KS3; GCSE students are taught at their tier (Foundation or Higher) and board (AQA, Edexcel or OCR), or for IGCSE; sixth formers take A level Maths and can add Further Maths topics; adults resit GCSE or refresh their statistics. A learner can be taught alone or in a class of five to ten at a matching level. Our Oxford project counts record-breaking years in the Met Office series from 1853: of 173 complete years, 7 were the wettest so far, against about 5.73 expected if every year were equally likely to set a record. The first lesson is free; continuing costs USD 100 a month in a class or USD 150 a month one to one.',
+  capsule: 'Oxford learners aged 6 to 67 can study maths with Modern Age Coders in live online lessons. Primary children work towards the Year 6 SATs with secure tables; Years 7 to 9 cover KS3; GCSE students are taught at their tier (Foundation or Higher) and board (AQA, Edexcel or OCR), or for IGCSE; sixth formers take A level Maths and can add Further Maths topics; adults resit GCSE or refresh their statistics. A learner can be taught alone or in a class of fifteen to twenty at a matching level. Our Oxford project counts record-breaking years in the Met Office series from 1853: of 173 complete years, 7 were the wettest so far, against about 5.73 expected if every year were equally likely to set a record. The first lesson is free; continuing costs USD 100 a month in a class or USD 150 a month one to one.',
 
   picks: {
     eyebrow: 'Most requested by Oxford families',
@@ -271,7 +271,7 @@ module.exports = {
     cells: [
       { h3: 'A familiar face', p: 'One teacher follows the learner through the course.' },
       { h3: 'Short reports', p: 'A few lines after lessons on progress and next steps.' },
-      { h3: 'Level-matched classes', p: 'Five to ten learners at a similar point, never a mixed bag.' },
+      { h3: 'Level-matched classes', p: 'Fifteen to twenty learners at a similar point, never a mixed bag.' },
       { h3: 'Long data sets', p: 'Weather records and census tables used alongside past papers.' },
       { h3: 'One to one option', p: 'For an approaching exam or a specific weakness.' },
       { h3: 'Reasons first', p: 'We explain why a method works before drilling it.' }
@@ -286,7 +286,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Monthly fees in US dollars, the same everywhere outside India, with no registration charge and no contract.',
     free: ['A complete lesson at the right level', 'A candid view afterwards', 'No card details'],
-    group: ['Five to ten learners at one level', 'A steady teacher', 'Homework marked and talked through', 'Certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'A steady teacher', 'Homework marked and talked through', 'Certificate at the end'],
     one: ['Private teaching', 'Shaped around one learner', 'Helpful close to an exam']
   },
 
@@ -295,7 +295,7 @@ module.exports = {
     h2: 'Questions about maths tuition in Oxford',
     items: [
       { q: 'What is a harmonic number?', a: 'A harmonic number is the sum 1 + 1/2 + 1/3 and so on up to 1/n. It grows slowly, roughly like the natural logarithm of n plus 0.577. For n = 173 it is about 5.73.' },
-      { q: 'How much does a maths tutor in Oxford cost with you?', a: 'The first lesson is free. Ongoing lessons cost USD 100 a month in a class of five to ten, or USD 150 a month one to one. There is no joining fee.' },
+      { q: 'How much does a maths tutor in Oxford cost with you?', a: 'The first lesson is free. Ongoing lessons cost USD 100 a month in a class of fifteen to twenty, or USD 150 a month one to one. There is no joining fee.' },
       { q: 'Which GCSE boards do your tutors teach?', a: 'AQA, Edexcel and OCR at both tiers, and the IGCSE papers too. We follow the specification the school has chosen.' },
       { q: 'Can an adult in Oxford resit GCSE maths with you?', a: 'Yes. We teach the course again, starting from your weakest topic, and prepare you for an exam you enter through a college or exam centre.' },
       { q: 'Do you teach KS2 maths and the Year 6 SATs?', a: 'Yes, from times tables and the Year 4 check through to the arithmetic and reasoning papers sat in Year 6.' },

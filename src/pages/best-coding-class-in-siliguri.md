@@ -12,7 +12,7 @@ Live online · serving Siliguri
 
 Real programming for kids, teens and college students in Siliguri, from **Sevoke Road to Hakimpara, Pradhan Nagar to Hill Cart Road**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Siliguri)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**SiliguriEnrollingAreasSevoke Road, Hakimpara, Pradhan Nagar, Hill Cart Road, Matigara & all of SiliguriBoardsWBBSE / WBCHSE · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across SiliguriFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Siliguri)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**SiliguriEnrollingAreasSevoke Road, Hakimpara, Pradhan Nagar, Hill Cart Road, Matigara & all of SiliguriBoardsWBBSE / WBCHSE · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across SiliguriFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for North Bengal's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Siliguri: FAQs
 
-Which is the best coding class in Siliguri for kids?Modern Age Coders runs Siliguri's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and move to Python, in small batches of 5-8, taught by industry instructors. We reach families across Sevoke Road, Hakimpara, Pradhan Nagar, Hill Cart Road, Matigara and Salugara - and right across the hills, Sikkim and the North-East, where good offline options are scarce.Are the classes online or offline, and do you cover all of North Bengal?All classes are live and online, so we cover the whole region equally - Sevoke Road, Hakimpara, Pradhan Nagar, Hill Cart Road, Matigara, Salugara, Bhakti Nagar, Champasari and Uttorayon, as well as NJP, Jalpaiguri, the Darjeeling hills, Kurseong, Kalimpong and Gangtok in Sikkim. As the region's digital front-door, Siliguri families finally get a teacher of metro quality without anyone leaving home. Sessions are fully interactive with live coding, screen-sharing and recordings.How much do coding classes cost in Siliguri?Group classes (5-8 students) start at Rs.1,499/month for 2 live classes a week. Mini Batch (3-4 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. The fee is the same whether you join from town or the hills. Every new student gets a free demo class first, and there are no hidden charges.Will coding help with WBJEE, JEE and the CBSE/ICSE board exams?Yes. Siliguri families are serious about WBJEE, JEE and the boards. Coding strengthens the exact logical reasoning, decomposition and problem-solving these exams reward, and it directly supports CBSE/ICSE Computer Science, Informatics Practices and the new NEP-2020 AI modules. Our Python and Java tracks line up with what's taught at Don Bosco, St Joseph's, Holy Child, DAV, G D Goenka and Techno India Group Public School.What's the best age to start coding?Age 8 is ideal to begin with visual, block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always matches the child.Do you prepare Siliguri & North Bengal college students for placements?Yes - our college track is placement-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It's designed for students from the University of North Bengal (NBU), Siliguri Institute of Technology (SIT) and colleges across the region who are targeting product companies, service companies and the remote-first roles that now hire on skill rather than location.What equipment does my child need?Just a laptop or desktop and a stable internet connection - now common across Siliguri and most of North Bengal. A computer (rather than a tablet) is best for hands-on practice. Minimum: Windows 10 / macOS, 4GB RAM, broadband. All the software we use is free, and our team helps with setup before the first class.What are the class timings? Do you have weekend batches?Yes. Weekday batches run 4 PM-8 PM (after school) and weekend batches 9 AM-6 PM (Sat & Sun). Siliguri children juggle school, tuitions and activities, so we work around your schedule. Classes are an hour long, twice a week.Do you teach coding to West Bengal board students in Siliguri?Yes. Siliguri schools run the West Bengal boards, WBBSE for the Class 10 Madhyamik and WBCHSE for Plus Two, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.How does a Siliguri student get into engineering, and can college students join?West Bengal fills its engineering seats through its own state entrance, WBJEE, rather than JEE Main alone. College students anywhere in the north of Bengal are welcome on the college track: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown to a recruiter.
+Which is the best coding class in Siliguri for kids?Modern Age Coders runs Siliguri's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and move to Python, in batches of 15-20, taught by industry instructors. We reach families across Sevoke Road, Hakimpara, Pradhan Nagar, Hill Cart Road, Matigara and Salugara - and right across the hills, Sikkim and the North-East, where good offline options are scarce.Are the classes online or offline, and do you cover all of North Bengal?All classes are live and online, so we cover the whole region equally - Sevoke Road, Hakimpara, Pradhan Nagar, Hill Cart Road, Matigara, Salugara, Bhakti Nagar, Champasari and Uttorayon, as well as NJP, Jalpaiguri, the Darjeeling hills, Kurseong, Kalimpong and Gangtok in Sikkim. As the region's digital front-door, Siliguri families finally get a teacher of metro quality without anyone leaving home. Sessions are fully interactive with live coding, screen-sharing and recordings.How much do coding classes cost in Siliguri?Group classes (15-20 students) start at Rs.1,499/month for 2 live classes a week. Mini Batch (up to 6 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. The fee is the same whether you join from town or the hills. Every new student gets a free demo class first, and there are no hidden charges.Will coding help with WBJEE, JEE and the CBSE/ICSE board exams?Yes. Siliguri families are serious about WBJEE, JEE and the boards. Coding strengthens the exact logical reasoning, decomposition and problem-solving these exams reward, and it directly supports CBSE/ICSE Computer Science, Informatics Practices and the new NEP-2020 AI modules. Our Python and Java tracks line up with what's taught at Don Bosco, St Joseph's, Holy Child, DAV, G D Goenka and Techno India Group Public School.What's the best age to start coding?Age 8 is ideal to begin with visual, block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always matches the child.Do you prepare Siliguri & North Bengal college students for placements?Yes - our college track is placement-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It's designed for students from the University of North Bengal (NBU), Siliguri Institute of Technology (SIT) and colleges across the region who are targeting product companies, service companies and the remote-first roles that now hire on skill rather than location.What equipment does my child need?Just a laptop or desktop and a stable internet connection - now common across Siliguri and most of North Bengal. A computer (rather than a tablet) is best for hands-on practice. Minimum: Windows 10 / macOS, 4GB RAM, broadband. All the software we use is free, and our team helps with setup before the first class.What are the class timings? Do you have weekend batches?Yes. Weekday batches run 4 PM-8 PM (after school) and weekend batches 9 AM-6 PM (Sat & Sun). Siliguri children juggle school, tuitions and activities, so we work around your schedule. Classes are an hour long, twice a week.Do you teach coding to West Bengal board students in Siliguri?Yes. Siliguri schools run the West Bengal boards, WBBSE for the Class 10 Madhyamik and WBCHSE for Plus Two, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.How does a Siliguri student get into engineering, and can college students join?West Bengal fills its engineering seats through its own state entrance, WBJEE, rather than JEE Main alone. College students anywhere in the north of Bengal are welcome on the college track: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown to a recruiter.
 
 ## Ready to start your child's coding journey in Siliguri?
 

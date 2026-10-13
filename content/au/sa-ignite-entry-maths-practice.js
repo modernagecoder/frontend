@@ -212,7 +212,7 @@ module.exports = {
     cells: [
       { h3: 'Boards and dominoes', p: 'Students colour, cut and test ideas by hand.' },
       { h3: 'Arguments written down', p: 'Every claim of impossibility needs a reason.' },
-      { h3: 'Five to ten per group', p: 'Small groups that discuss together.' },
+      { h3: 'Fifteen to twenty per group', p: 'Small groups that discuss together.' },
       { h3: 'One-to-one lessons', p: 'For a student who wants to go deep alone.' },
       { h3: 'Not Ignite coaching', p: 'We teach mathematics, not assessment drills.' },
       { h3: 'No offer claims', p: 'Entry decisions rest with the schools.' }
@@ -227,7 +227,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'South Australian families pay monthly in US dollars, the rate we use outside India. No payment in advance and no minimum term.',
     free: ['A full trial lesson', 'An honest view, even if no classes are needed', 'No card details'],
-    group: ['Five to ten students at one level', 'One regular teacher', 'Feedback on reasoning', 'Certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'One regular teacher', 'Feedback on reasoning', 'Certificate at the end'],
     one: ['A teacher for one student', 'Chosen focus', 'Flexible times']
   },
 

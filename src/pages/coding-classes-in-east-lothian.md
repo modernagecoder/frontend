@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across East Lothian, 
 canonical: https://learn.modernagecoders.com/coding-classes-in-east-lothian
 source: src/pages/coding-classes-in-east-lothian.html
 ---
-> East Lothian is a single council area, home to about 112,300 people in roughly 48,800 households at the 2022 census, at 165.3 people per square kilometre. Musselburgh is the largest town, followed by Tranent, Prestonpans, Haddington and Dunbar, with North Berwick on the coast. Our teachers are in India and teach in real time on camera; a free first lesson sets the level for every learner, whether they are in Primary 1, S6 or long past school. Anyone aged 6 to 67 can study coding, Python or maths, alone with a teacher or among five to ten classmates. The East Lothian project looks out to the Bass Rock and its gannets. A first lesson is free of charge; continuing is USD 100 a month in a group or USD 150 a month one-to-one.
+> East Lothian is a single council area, home to about 112,300 people in roughly 48,800 households at the 2022 census, at 165.3 people per square kilometre. Musselburgh is the largest town, followed by Tranent, Prestonpans, Haddington and Dunbar, with North Berwick on the coast. Our teachers are in India and teach in real time on camera; a free first lesson sets the level for every learner, whether they are in Primary 1, S6 or long past school. Anyone aged 6 to 67 can study coding, Python or maths, alone with a teacher or among fifteen to twenty classmates. The East Lothian project looks out to the Bass Rock and its gannets. A first lesson is free of charge; continuing is USD 100 a month in a group or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / East Lothian
 
@@ -12,11 +12,11 @@ East Lothian / Live online
 
 # Coding classes in East Lothian
 
-**What are the best coding classes in East Lothian?** East Lothian is a single council area, home to about 112,300 people in roughly 48,800 households at the 2022 census, at 165.3 people per square kilometre. Musselburgh is the largest town, followed by Tranent, Prestonpans, Haddington and Dunbar, with North Berwick on the coast. Our teachers are in India and teach in real time on camera; a free first lesson sets the level for every learner, whether they are in Primary 1, S6 or long past school. Anyone aged 6 to 67 can study coding, Python or maths, alone with a teacher or among five to ten classmates. The East Lothian project looks out to the Bass Rock and its gannets. A first lesson is free of charge; continuing is USD 100 a month in a group or USD 150 a month one-to-one.
+**What are the best coding classes in East Lothian?** East Lothian is a single council area, home to about 112,300 people in roughly 48,800 households at the 2022 census, at 165.3 people per square kilometre. Musselburgh is the largest town, followed by Tranent, Prestonpans, Haddington and Dunbar, with North Berwick on the coast. Our teachers are in India and teach in real time on camera; a free first lesson sets the level for every learner, whether they are in Primary 1, S6 or long past school. Anyone aged 6 to 67 can study coding, Python or maths, alone with a teacher or among fifteen to twenty classmates. The East Lothian project looks out to the Bass Rock and its gannets. A first lesson is free of charge; continuing is USD 100 a month in a group or USD 150 a month one-to-one.
 
 The Scottish Seabird Centre in North Berwick trains live cameras on the Bass Rock, which it calls one of the world's largest Northern gannet colonies, and Historic Environment Scotland lists the lighthouse David Alan Stevenson built on the rock in 1902. Gannets eat fish, and predator and prey numbers affect each other: more fish feed more birds, more birds eat down the fish, fewer fish mean fewer birds, and the cycle repeats. Two short equations, the Lotka-Volterra model, capture that loop. This page's project runs them in Python with invented numbers, watches the cycles and the lag between them, and uses a quantity the equations should keep constant to catch a numerical method that quietly goes wrong.
 
-Facts last verified 26 September 2026. Teaching is online; no East Lothian branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no East Lothian branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where East Lothian learners begin
 
@@ -135,7 +135,7 @@ East Lothian has towns and villages of every size, and an evening class in Edinb
 - **Right at home** A flat in Musselburgh, a house in Gullane, a cottage near East Linton. The pupil codes and the teacher follows the shared screen.
 - **Scottish stages spoken here** P1 to P7, S1 to S6, National 5, Higher, Advanced Higher: the terms East Lothian pupils use are the ones we use, in English.
 - **First lesson free** Real coding from the first minute, then our view of where the learner should start. No card details are asked for.
-- **Classmates at your stage** Five to ten learners working at one level, drawn from many countries.
+- **Classmates at your stage** Fifteen to twenty learners working at one level, drawn from many countries.
 - **School holiday breaks** Two lessons a week during term; we pause for the holidays.
 - **UK time, all year** We book your lesson in UK time and hold it there through the clock changes, while teachers in India time adjust their side.
 
@@ -146,7 +146,7 @@ East Lothian has towns and villages of every size, and an evening class in Edinb
 A learner in Tranent pays what one in North Berwick pays, the rate we charge in every country outside India.
 
 - First class: USD 0. A full lesson of real work, then a suggested level and course.
-- Group tuition: USD 100 a month. About eight lessons a month with five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight lessons a month, one-to-one.
 
 Fees are set in US dollars; there are no sterling prices. We bill only once the free lesson has fixed a course and a weekly time, and the pricing page covers holidays, missed lessons and changes of format.

@@ -178,7 +178,7 @@ Teaching is live on video from India, five and a half hours ahead of the UK in w
 
 - **Answers before options** Every practice question is worked to a number before anything printed is looked at.
 - **Mistakes named** When a pupil lands on a wrong option we work out which mistake produced it, rather than moving on.
-- **Five to ten pupils** Enough for a quicker method to surface, small enough that nobody hides at the back.
+- **Fifteen to twenty pupils** Enough for a quicker method to surface, small enough that nobody hides at the back.
 - **Our own questions** Written by us in the same style. UKMT publishes its past papers free and that is where the real ones live.
 - **One to one when useful** For a pupil far ahead of their year, or one who freezes in a timed group.
 - **Nothing promised** We cannot enter anyone for a Kangaroo paper and promise no score or certificate.
@@ -188,7 +188,7 @@ Teaching is live on video from India, five and a half hours ahead of the UK in w
 A single monthly rate in US dollars for families outside India, with nothing to pay to register and no minimum term.
 
 - Free first class: USD 0. A full lesson with a teacher. A straight read on the level. No card details taken.
-- Group batch: USD 100 a month. Five to ten pupils at one level. The same teacher every week. Work marked and discussed. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty pupils at one level. The same teacher every week. Work marked and discussed. A certificate at the end.
 - One to one: USD 150 a month. A teacher working with one pupil. Shaped around the specific gap. Useful when a group hour will not fit.
 
 ## What parents and pupils ask

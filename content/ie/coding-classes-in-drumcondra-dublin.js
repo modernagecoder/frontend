@@ -167,7 +167,7 @@ module.exports = {
     intro: 'The short version.',
     cells: [
       { h3: 'Always live', p: 'A real teacher is present for every minute, reading and helping with each learner\'s code as they write it.' },
-      { h3: 'Same stage together', p: 'Groups of five to ten at one stage, drawn from Drumcondra, the rest of Ireland and other countries.' },
+      { h3: 'Same stage together', p: 'Groups of fifteen to twenty at one stage, drawn from Drumcondra, the rest of Ireland and other countries.' },
       { h3: 'A fixed pair of days', p: 'Lessons fall on the same two weekdays or weekend days, around eight a month.' },
       { h3: 'School calendar', p: 'Holiday weeks, mid-terms and exam time are part of the plan from the start.' },
       { h3: 'At home', p: 'A computer rather than a phone, a microphone, speakers or headphones, and broadband good enough for video.' },
@@ -180,7 +180,7 @@ module.exports = {
     h2: 'Fees for Drumcondra',
     intro: 'Simply put.',
     first: 'An opening lesson at no cost, with a check of the learner\'s level.',
-    group: 'A month in a group of five to ten at one level, close to eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, close to eight live lessons.',
     private: 'A month of private lessons, same frequency.',
     closer: 'The fee is set in US dollars and is the same for every family outside India, paid a month at a time. Taking the free lesson commits you to nothing and payment only begins with the course; details on holidays, missed lessons and moving between group and private teaching are on the pricing page.'
   },
@@ -204,7 +204,7 @@ module.exports = {
       { q: 'What are the lesson times?', a: 'Weekday slots start after school and run into the evening; weekend slots are in the daytime. We schedule in Irish time. Our teachers are in India, four and a half hours ahead of Drumcondra while Ireland is on summer time and five and a half hours ahead in winter, and the slots we offer are chosen to be reasonable for both.' },
       { q: 'Can adults take lessons?', a: 'Yes, from any starting point and up to age sixty-seven. After the free lesson an adult decides between a group at their level and one-to-one lessons.' },
       { q: 'Will my child be in a class with other Drumcondra children?', a: 'Not necessarily. We group by level, so the others may live anywhere in Ireland or outside it.' },
-      { q: 'What do coding classes in Drumcondra cost?', a: 'The first lesson is free. After it, a group place costs USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are settled before any money changes hands.', boiler: true },
+      { q: 'What do coding classes in Drumcondra cost?', a: 'The first lesson is free. After it, a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are settled before any money changes hands.', boiler: true },
       { q: 'What size are the groups?', a: 'Between five and ten learners, grouped by level, pace and goals rather than age or area. When no group suits a workable time, the lessons are one to one.', boiler: true }
     ]
   },

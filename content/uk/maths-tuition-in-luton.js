@@ -34,7 +34,7 @@ module.exports = {
   twitterDescription: 'Maths tuition in Luton, live online: the runway points at 074.38 degrees true, so why is it Runway 07?',
   pageName: 'Maths Tuition in Luton',
   webPageDescription: 'Live online maths tuition for Luton learners aged 6 to 67, from KS2 and the SATs through KS3, GCSE and A level to adult maths and GCSE resits, with a trigonometry and rounding project on the London Luton Airport runway.',
-  courseDescription: 'Live online maths teaching for Luton learners of every age, in level-matched groups of five to ten or one to one, following the national curriculum and the main GCSE and A level specifications.',
+  courseDescription: 'Live online maths teaching for Luton learners of every age, in level-matched groups of fifteen to twenty or one to one, following the national curriculum and the main GCSE and A level specifications.',
   crumbs: [{ name: 'Courses', href: '/courses' }, { name: 'Coding classes in the UK', href: '/coding-classes-in-united-kingdom' }],
   crumbLabel: 'Maths tuition in Luton',
   navLinks: [
@@ -57,11 +57,11 @@ module.exports = {
     ['GCSE', 'AQA, Edexcel, OCR, both tiers'],
     ['A level', 'Maths plus Further Maths topics'],
     ['Adults', 'GCSE resits and Functional Skills topics'],
-    ['Delivery', 'Live online, 1 to 1 or classes of 5 to 10'],
+    ['Delivery', 'Live online, 1 to 1 or classes of 15 to 20'],
     ['Project', 'Runway numbers and trigonometry']
   ],
   capsuleQ: 'Maths tuition in Luton, quickly',
-  capsule: 'We teach maths to Luton learners aged 6 to 67, live online. Primary pupils build number sense and tables on the way to the Year 6 SATs. In secondary school the work moves through KS3 to GCSE (Foundation or Higher, for AQA, Edexcel or OCR) or IGCSE. Sixth formers study A level, with Further Maths topics if they want them, and adults come to resit GCSE, to cover Functional Skills content or simply to feel at ease with numbers. A learner can study privately or in a class of five to ten at one level. Our Luton project explains the runway numbers: the UK aeronautical publication gives a true bearing of 074.38 degrees and a magnetic variation of 1.23 degrees east, so the magnetic direction is 073.15 degrees, which rounds to Runway 07. The opening lesson is free of charge. Continuing means USD 100 monthly for a shared class or USD 150 monthly for a teacher of your own.',
+  capsule: 'We teach maths to Luton learners aged 6 to 67, live online. Primary pupils build number sense and tables on the way to the Year 6 SATs. In secondary school the work moves through KS3 to GCSE (Foundation or Higher, for AQA, Edexcel or OCR) or IGCSE. Sixth formers study A level, with Further Maths topics if they want them, and adults come to resit GCSE, to cover Functional Skills content or simply to feel at ease with numbers. A learner can study privately or in a class of fifteen to twenty at one level. Our Luton project explains the runway numbers: the UK aeronautical publication gives a true bearing of 074.38 degrees and a magnetic variation of 1.23 degrees east, so the magnetic direction is 073.15 degrees, which rounds to Runway 07. The opening lesson is free of charge. Continuing means USD 100 monthly for a shared class or USD 150 monthly for a teacher of your own.',
 
   picks: {
     eyebrow: 'The three most asked about in Luton',
@@ -272,7 +272,7 @@ module.exports = {
     cells: [
       { h3: 'The same teacher', p: 'One teacher follows the learner, week after week.' },
       { h3: 'Updates for families', p: 'A short note after lessons: what clicked, what to revisit.' },
-      { h3: 'Classes of five to ten', p: 'Grouped by level so nobody is lost or bored.' },
+      { h3: 'Classes of fifteen to twenty', p: 'Grouped by level so nobody is lost or bored.' },
       { h3: 'Real-world numbers', p: 'Runway data, timetables and census figures as well as past papers.' },
       { h3: 'Private when needed', p: 'One to one before an exam or for a particular gap.' },
       { h3: 'Estimate first', p: 'We train learners to predict an answer before calculating it.' }
@@ -287,7 +287,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A single monthly price in US dollars for everyone outside India, with no registration fee and no lock-in.',
     free: ['A genuine lesson at the right level', 'Our honest assessment afterwards', 'No payment details needed'],
-    group: ['Five to ten learners at one level', 'A dedicated teacher', 'Homework reviewed together', 'Certificate when you finish'],
+    group: ['Fifteen to twenty learners at one level', 'A dedicated teacher', 'Homework reviewed together', 'Certificate when you finish'],
     one: ['Individual lessons', 'Built around one learner', 'Ideal before exams']
   },
 

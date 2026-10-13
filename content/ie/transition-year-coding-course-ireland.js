@@ -61,7 +61,7 @@ module.exports = {
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
-  capsule: 'A good Transition Year coding course runs for the whole year and ends with one finished project the student can show and explain. The Transition Year Programme Statement, in all Irish schools since September 2025, lets each school design its own TY, allows externally provided learning only within the context of the school\'s TY programme, and says TY should not be used to start Leaving Cert courses early. So the right course is exploration, not a head start: Python first, then an app, website, data project or AI model built to the end. Modern Age Coders teaches TY students live online in groups of five to ten or one to one. The first class costs nothing, and the course is then USD 100 a month in a group or USD 150 a month one to one.',
+  capsule: 'A good Transition Year coding course runs for the whole year and ends with one finished project the student can show and explain. The Transition Year Programme Statement, in all Irish schools since September 2025, lets each school design its own TY, allows externally provided learning only within the context of the school\'s TY programme, and says TY should not be used to start Leaving Cert courses early. So the right course is exploration, not a head start: Python first, then an app, website, data project or AI model built to the end. Modern Age Coders teaches TY students live online in groups of fifteen to twenty or one to one. The first class costs nothing, and the course is then USD 100 a month in a group or USD 150 a month one to one.',
 
   picks: {
     eyebrow: 'Start here',
@@ -220,7 +220,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'The first class is on us', p: 'The student writes real code with a teacher, talks about project ideas, and gets a suggested course and level.' },
-      { h3: 'Five to ten per group', p: 'TY students and others of the same level, sharing progress and testing each other\'s projects.' },
+      { h3: 'Fifteen to twenty per group', p: 'TY students and others of the same level, sharing progress and testing each other\'s projects.' },
       { h3: 'One to one', p: 'For a student with a very particular project, or a timetable that will not fit a group.' },
       { h3: 'A log for the portfolio', p: 'Each week the student notes what they built and what went wrong, which becomes the portfolio reflection.' },
       { h3: 'A letter for the school', p: 'On request we describe the course in writing for a TY coordinator; the school decides how it fits.' },
@@ -236,7 +236,7 @@ module.exports = {
     h2: 'Fees for the TY course',
     lede: 'Paid monthly in US dollars at one rate for every country outside India. There is nothing to pay upfront for the year, no enrolment charge, and a student can stop at the end of any month if their TY plans change.',
     free: ['Real code and a talk about project ideas', 'A suggested course and level', 'No card taken'],
-    group: ['Five to ten students at one level', 'The same teacher for the year', 'Project checked every week', 'A certificate when the course is complete'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher for the year', 'Project checked every week', 'A certificate when the course is complete'],
     one: ['A teacher for one student', 'Built around an unusual project or timetable', 'Flexible around placements']
   },
 

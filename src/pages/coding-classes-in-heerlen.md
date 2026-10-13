@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and app classes in Heerlen for ages
 canonical: https://learn.modernagecoders.com/coding-classes-in-heerlen
 source: src/pages/coding-classes-in-heerlen.html
 ---
-> Coding classes in Heerlen serve 87,764 people (statistics office, 1 January 2026) in a municipality of four stadsdelen, Heerlen-Stad, Heerlerheide, Heerlerbaan and Hoensbroek, together since 1982. The Romans founded a military settlement here called Coriovallum; the mines turned a village of 6,646 people in 1900 into a town of 32,263 by 1930; and the last of those mines closed in 1974. The statistics office series used on this page begins in 1995, and it shows 8,510 fewer residents since then. A series begins where someone started counting, not where the story began, and every programmer meets that blind spot in logs, version history and the training data of AI models. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Heerlen serve 87,764 people (statistics office, 1 January 2026) in a municipality of four stadsdelen, Heerlen-Stad, Heerlerheide, Heerlerbaan and Hoensbroek, together since 1982. The Romans founded a military settlement here called Coriovallum; the mines turned a village of 6,646 people in 1900 into a town of 32,263 by 1930; and the last of those mines closed in 1974. The statistics office series used on this page begins in 1995, and it shows 8,510 fewer residents since then. A series begins where someone started counting, not where the story began, and every programmer meets that blind spot in logs, version history and the training data of AI models. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Heerlen
 
@@ -12,11 +12,11 @@ Heerlen, Limburg / Live online
 
 # Coding classes in Heerlen, where the story is older than the statistics
 
-**What are the best coding classes in Heerlen?** Coding classes in Heerlen serve 87,764 people (statistics office, 1 January 2026) in a municipality of four stadsdelen, Heerlen-Stad, Heerlerheide, Heerlerbaan and Hoensbroek, together since 1982. The Romans founded a military settlement here called Coriovallum; the mines turned a village of 6,646 people in 1900 into a town of 32,263 by 1930; and the last of those mines closed in 1974. The statistics office series used on this page begins in 1995, and it shows 8,510 fewer residents since then. A series begins where someone started counting, not where the story began, and every programmer meets that blind spot in logs, version history and the training data of AI models. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Heerlen?** Coding classes in Heerlen serve 87,764 people (statistics office, 1 January 2026) in a municipality of four stadsdelen, Heerlen-Stad, Heerlerheide, Heerlerbaan and Hoensbroek, together since 1982. The Romans founded a military settlement here called Coriovallum; the mines turned a village of 6,646 people in 1900 into a town of 32,263 by 1930; and the last of those mines closed in 1974. The statistics office series used on this page begins in 1995, and it shows 8,510 fewer residents since then. A series begins where someone started counting, not where the story began, and every programmer meets that blind spot in logs, version history and the training data of AI models. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Show someone a chart of Heerlen's population from 1995 to 2026 and they will see a steady fall, from 96,274 to 87,764, and look for its cause somewhere on the chart. The chart cannot help them. Its first year comes more than two decades after the last of the mines closed, and almost three decades after the first of them, and the growth that came before, from 6,646 residents in 1900 to 32,263 in 1930, is not on it at all. This page does not claim to know why Heerlen has fewer residents than in 1995. It makes a simpler point: any series starts where somebody started recording, and whatever happened before that line is invisible in it. Programmers live with the same limit every day, in logs that keep thirty days, in repositories cloned without their history, and in AI models that know nothing outside their training window.
 
-Facts last verified 11 September 2026. Teaching is online; no Heerlen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Heerlen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a town with a long memory
 
@@ -185,7 +185,7 @@ The four stadsdelen and the wider Parkstad are close together, but evenings are 
 - **Straight from home** A pupil in Hoensbroek or Heerlerheide opens the class on a laptop at the agreed hour. There is no journey into the centre and no one waiting to collect them afterwards.
 - **Dutch terms, English teaching** Groep, brugklas, vmbo, havo, vwo and the profielkeuze keep their Dutch names in lessons, as a Limburg school uses them, while the teaching is in English.
 - **The free lesson is a lesson** The first hour is spent on a real task. By the end the teacher recommends a level, a named course and a regular weekly time, and no payment details are taken.
-- **Groups beyond one town** Groups are five to ten learners at the same stage. Heerlen has 11,220 residents under fifteen, and five at an identical stage free at an identical hour are uncommon anywhere, so groups can include learners from several countries.
+- **Groups beyond one town** Groups are fifteen to twenty learners at the same stage. Heerlen has 11,220 residents under fifteen, and five at an identical stage free at an identical hour are uncommon anywhere, so groups can include learners from several countries.
 - **Regio Zuid holidays** Two lessons a week, about eight a month, always at the same time, and paused for the regio Zuid holidays that Limburg schools follow.
 - **A convenient time difference** India is three and a half hours ahead of Heerlen in summer and four and a half in winter, so after school, the early evening and weekend mornings stay open throughout the year.
 
@@ -196,7 +196,7 @@ The four stadsdelen and the wider Parkstad are close together, but evenings are 
 Here is everything a family pays, before anyone books a thing.
 
 - First class: USD 0. A genuine lesson on a genuine task, ending in a level and a named course.
-- Group tuition: USD 100 a month. Each month, usually eight lessons, five to ten learners grouped by ability.
+- Group tuition: USD 100 a month. Each month, usually eight lessons, fifteen to twenty learners grouped by ability.
 - Private tuition: USD 150 a month. Each month, usually eight lessons, one teacher for one learner.
 
 The dollar fee is identical in every country and there is no euro list beside it, so a household in Hoensbroek pays exactly what one in Heerlerbaan pays. Nothing is charged until the free lesson has fixed a course and a time, after which payment is arranged over WhatsApp. Breaks, changes of format and missed lessons are covered on the pricing page.
@@ -237,7 +237,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Heerlen coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

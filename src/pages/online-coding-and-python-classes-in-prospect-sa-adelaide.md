@@ -16,7 +16,7 @@ City of Prospect, Adelaide, South Australia / Live online
 
 Rank the City of Prospect's bus stops by how many buses call on a Wednesday, and show the top three. One natural line of Python, ranked = pairs.sort(...), leaves ranked holding None. The data was sorted; the answer was thrown away.
 
-Facts last verified 14 October 2026. Teaching is online; no Prospect branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 14 October 2026. Teaching is online; no Prospect branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that explain Python's behaviour
 
@@ -183,7 +183,7 @@ Lessons happen live on video, from home.
 - **Tracebacks read together** Errors are treated as clues and read line by line with the teacher.
 - **Follows SA terms** Lessons pause in South Australian school holidays.
 - **Free opening class** A complete first lesson at no cost, then advice.
-- **Level groups** Five to ten learners at a matching stage, or private.
+- **Level groups** Fifteen to twenty learners at a matching stage, or private.
 - **Two a week** Fixed weekly lessons, around eight a month.
 - **India time** Our teachers are in India: a 4:30pm Prospect lesson is 11:30am India time in summer and 12:30pm from April.
 
@@ -194,7 +194,7 @@ Lessons happen live on video, from home.
 Three prices, no surprises.
 
 - First class: USD 0. Lesson one is free, with written advice afterwards.
-- Group tuition: USD 100 a month. Around eight group lessons a month, five to ten learners.
+- Group tuition: USD 100 a month. Around eight group lessons a month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. Around eight private lessons a month.
 
 Prospect families pay in US dollars after the trial, when course and time are settled. The pricing page covers holidays and missed lessons.
@@ -231,11 +231,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Prospect learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Does the Prospect group course include Copilot Studio?
 

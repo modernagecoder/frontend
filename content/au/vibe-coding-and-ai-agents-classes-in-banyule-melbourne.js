@@ -296,7 +296,7 @@ module.exports = {
       { h3: 'Building side by side', p: 'Teacher and learner share code and run each experiment together.' },
       { h3: 'Term-time plans', p: 'Lessons follow the Victorian school terms with holiday breaks.' },
       { h3: 'A real first lesson', p: 'The free trial covers proper content and ends with a clear suggestion.' },
-      { h3: 'Five to ten per group', p: 'Groups matched by level and pace, sometimes across several states.' },
+      { h3: 'Fifteen to twenty per group', p: 'Groups matched by level and pace, sometimes across several states.' },
       { h3: 'Twice weekly', p: 'Two fixed lessons a week, about eight each month, with planned breaks.' },
       { h3: 'Teachers in India', p: 'In daylight saving a 7pm Banyule lesson begins at 1:30pm India time, and at 2:30pm there after April.' }
     ],
@@ -309,7 +309,7 @@ module.exports = {
     h2: 'Banyule class fees',
     intro: 'Three clear prices.',
     first: 'The first lesson costs nothing and ends with an honest suggestion.',
-    group: 'One month of group lessons, generally eight, with five to ten learners at a matched level.',
+    group: 'One month of group lessons, generally eight, with fifteen to twenty learners at a matched level.',
     private: 'Close to eight lessons a month with one teacher and one learner.',
     closer: 'Anyone paying from outside India pays in US dollars. The bill only starts once the trial is over and both course and timeslot are agreed, with term breaks, missed sessions and format changes described on the pricing page.'
   },
@@ -354,12 +354,12 @@ module.exports = {
       },
       {
         q: 'What do classes cost for Banyule learners?',
-        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.',
+        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.',
         boiler: true
       },
       {
         q: 'How large are the groups?',
-        a: 'Five to ten learners, matched by level, pace and goal. If no group fits the learner\'s time, one-to-one lessons are offered.',
+        a: 'Fifteen to twenty learners, matched by level, pace and goal. If no group fits the learner\'s time, one-to-one lessons are offered.',
         boiler: true
       },
       {

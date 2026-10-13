@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-hong-kong.html
 
 In short
 
-Modern Age Coders teaches AI and machine learning live online to learners in Hong Kong, from age 6 to age 67, in groups of five to eight or privately. The subject is model construction: Python first, then the statistics and matrix work the algorithms depend on, then training a model on published data and stating in plain units how wrong it is. Teaching is in English, on Hong Kong weekday evenings and Saturday mornings. A group place is USD 100 a month, billed in US dollars, and the opening class costs nothing.
+Modern Age Coders teaches AI and machine learning live online to learners in Hong Kong, from age 6 to age 67, in groups of fifteen to twenty or privately. The subject is model construction: Python first, then the statistics and matrix work the algorithms depend on, then training a model on published data and stating in plain units how wrong it is. Teaching is in English, on Hong Kong weekday evenings and Saturday mornings. A group place is USD 100 a month, billed in US dollars, and the opening class costs nothing.
 
 The catalogue
 
@@ -301,7 +301,7 @@ Hong Kong time, which is 07:30 to 09:00 in India. The longest session of the wee
 
 ### What a session is
 
-Weekday sessions run 75 minutes and the Saturday session runs 90, all of it live, with the same teacher week after week. Screens are shared in both directions, so a mistake is interrupted while it is being typed rather than returned marked three days later. Groups are five to eight students, or one to one where a family prefers it. Between one week and the next there is something to build and bring back, not a worksheet to complete.
+Weekday sessions run 75 minutes and the Saturday session runs 90, all of it live, with the same teacher week after week. Screens are shared in both directions, so a mistake is interrupted while it is being typed rather than returned marked three days later. Groups are fifteen to twenty students, or one to one where a family prefers it. Between one week and the next there is something to build and bring back, not a worksheet to complete.
 
 Two local specifics sit on top. Senior form students here carry heavy evening commitments, so we keep the later weekday slot genuinely open rather than pretending everyone is free at half past seven. And when the Observatory hoists Signal No. 8 the class still runs, because the teacher is in India and the classroom is a video call. If a student's building loses power or broadband during a storm, that session is moved rather than lost.
 
@@ -381,7 +381,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher, every week
+- Fifteen to twenty students, one teacher, every week
 - Live video, never a recording
 - A build task between sessions, reviewed by the teacher
 - Certificate on completion

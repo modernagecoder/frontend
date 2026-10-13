@@ -182,7 +182,7 @@ module.exports = {
       { h3: 'Queensland time only', p: 'Lesson times are written in Moreton Bay time and stay put all year.' },
       { h3: 'Queensland year levels', p: 'Teachers plan to Queensland year levels, including QCE seniors, and teach in English.' },
       { h3: 'Write code on day one', p: 'The trial lesson is genuine programming with a teacher; we then suggest a course and time, and no payment details are taken.' },
-      { h3: 'Five to ten per group', p: 'Learners share a level, drawn from different places so every stage has a usable slot.' },
+      { h3: 'Fifteen to twenty per group', p: 'Learners share a level, drawn from different places so every stage has a usable slot.' },
       { h3: 'Two lessons each week', p: 'About eight a month, with holidays and exam periods planned ahead.' },
       { h3: 'Evening slots for workers', p: 'Adults commuting into Brisbane can join later groups or book one-to-one lessons.' }
     ],
@@ -193,7 +193,7 @@ module.exports = {
     h2: 'Online Python fees for Moreton Bay',
     intro: 'Three options, stated plainly.',
     first: 'One free lesson that ends with our suggested level, course and time.',
-    group: 'About eight group lessons a month, with five to ten learners at your level.',
+    group: 'About eight group lessons a month, with fifteen to twenty learners at your level.',
     private: 'About eight one-to-one lessons a month with the same teacher.',
     closer: 'Moreton Bay families pay the same US dollar fee as families anywhere else in Australia. Nothing is charged before the trial settles a course and time, and the pricing page explains holidays, missed lessons and changing format.'
   },
@@ -218,7 +218,7 @@ module.exports = {
       { q: 'What lesson times suit Moreton Bay?', a: 'After school, evenings and weekends, agreed in the trial and written in Queensland time, four and a half hours ahead of India time.' },
       { q: 'Is there anything for primary school children?', a: 'Yes, from age 6 with visual coding tools; the timetable project here is designed for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders office in Moreton Bay?', a: 'No, and we do not claim one. Teaching is live and online only, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a steady connection, and the contact number on this page is an Indian number.', boiler: true },
-      { q: 'What do online Python classes in Moreton Bay cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
+      { q: 'What do online Python classes in Moreton Bay cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
       { q: 'How large are the groups?', a: 'Between five and ten learners, matched on level, pace and goals rather than on age or postcode. When no group fits a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },

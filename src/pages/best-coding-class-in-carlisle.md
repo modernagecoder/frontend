@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Carlisle lear
 canonical: https://learn.modernagecoders.com/best-coding-class-in-carlisle
 source: src/pages/best-coding-class-in-carlisle.html
 ---
-> The Carlisle district, as it stood at the 2021 census, had 110,024 usual residents at 106.0 people per square kilometre, against 433.5 for England; it is now served by Cumberland Council. Carlisle Cathedral says it was founded by Henry I as an Augustinian priory in 1122 and became a cathedral in 1133. Carlisle learners from six to sixty-seven study with our teachers in India over live video, individually or in a group of five to ten at their level, at times chosen around UK school and work. There is no charge for lesson one; from then on it is USD 100 a month for a group place or USD 150 for one-to-one teaching.
+> The Carlisle district, as it stood at the 2021 census, had 110,024 usual residents at 106.0 people per square kilometre, against 433.5 for England; it is now served by Cumberland Council. Carlisle Cathedral says it was founded by Henry I as an Augustinian priory in 1122 and became a cathedral in 1133. Carlisle learners from six to sixty-seven study with our teachers in India over live video, individually or in a group of fifteen to twenty at their level, at times chosen around UK school and work. There is no charge for lesson one; from then on it is USD 100 a month for a group place or USD 150 for one-to-one teaching.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Carlisle
 
@@ -12,11 +12,11 @@ Carlisle, Cumbria / Live online
 
 # Coding classes in Carlisle
 
-**What are the best coding classes in Carlisle?** The Carlisle district, as it stood at the 2021 census, had 110,024 usual residents at 106.0 people per square kilometre, against 433.5 for England; it is now served by Cumberland Council. Carlisle Cathedral says it was founded by Henry I as an Augustinian priory in 1122 and became a cathedral in 1133. Carlisle learners from six to sixty-seven study with our teachers in India over live video, individually or in a group of five to ten at their level, at times chosen around UK school and work. There is no charge for lesson one; from then on it is USD 100 a month for a group place or USD 150 for one-to-one teaching.
+**What are the best coding classes in Carlisle?** The Carlisle district, as it stood at the 2021 census, had 110,024 usual residents at 106.0 people per square kilometre, against 433.5 for England; it is now served by Cumberland Council. Carlisle Cathedral says it was founded by Henry I as an Augustinian priory in 1122 and became a cathedral in 1133. Carlisle learners from six to sixty-seven study with our teachers in India over live video, individually or in a group of fifteen to twenty at their level, at times chosen around UK school and work. There is no charge for lesson one; from then on it is USD 100 a month for a group place or USD 150 for one-to-one teaching.
 
 On the rainfall day dated 5 December 2015, Storm Desmond dropped 264.4 millimetres into the Environment Agency's gauge at Thirlmere. The next day the River Eden at Sheepmount, in Carlisle, reached 7.648 metres, the highest daily maximum in a record going back to 1975. But a gauge only measures the spot it stands on. How do you map rain between 99 of them? Our teenagers join the gauges into a Delaunay triangulation, the mesh of triangles in which no gauge sits inside another triangle's circumcircle, and estimate each point from the three corners around it. Tested by hiding one gauge at a time, the triangles miss by 17.0 millimetres on average, against 25.1 for simply copying the nearest gauge.
 
-Facts last verified 23 September 2026. Teaching is online; no Carlisle branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Carlisle branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the border city
 
@@ -173,7 +173,7 @@ Carlisle reaches from its city centre out to villages along the Eden. Online, a 
 - **City and villages** A learner in Currock and another in Houghton can share the same class, with no journey into the city centre.
 - **English school stages** Our levels line up with what Cumbrian schools teach, Reception onwards through each Key Stage to GCSE and A level, with every lesson given in English.
 - **A useful first lesson** The free session teaches a real task and ends with a recommended level, course and weekly slot. We never ask for card details.
-- **Groups by level** Five to ten learners at the same stage, from Carlisle, the rest of the UK and abroad, so every level has workable times.
+- **Groups by level** Fifteen to twenty learners at the same stage, from Carlisle, the rest of the UK and abroad, so every level has workable times.
 - **A weekly routine** Two regular lessons a week, around eight a month, with holidays and exams agreed with the teacher ahead of time.
 - **Evenings, two time zones** A 6.30 pm lesson in Carlisle starts at 11 pm in India during British Summer Time and midnight in winter, since India keeps one clock all year; our teachers work late for UK families, and earlier slots suit the winter months.
 
@@ -184,7 +184,7 @@ Carlisle reaches from its city centre out to villages along the Eden. Online, a 
 The first lesson is free, and after that there is one monthly fee.
 
 - First class: USD 0. A full lesson with nothing to pay, ending with advice on level, course and a weekly slot.
-- Group tuition: USD 100 a month. Roughly eight live lessons a month, with five to ten learners working at the same stage.
+- Group tuition: USD 100 a month. Roughly eight live lessons a month, with fifteen to twenty learners working at the same stage.
 - Private tuition: USD 150 a month. Roughly eight live lessons a month, with the teacher giving your learner their full attention.
 
 Harraby households are billed the way we bill every household beyond India, in US dollars, and you will not find a pound price on any of our pages. The free lesson comes before any charge, and billing starts only once a course and weekly time are settled; pausing, missed lessons and switching between group and private teaching are on the pricing page.
@@ -225,11 +225,11 @@ No. We have no Carlisle centre and no premises anywhere in the UK, as every less
 
 ### What do Carlisle lessons cost?
 
-The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one lessons on the same timetable are USD 150 a month. The course, format and time are agreed before anything is charged.
+The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one lessons on the same timetable are USD 150 a month. The course, format and time are agreed before anything is charged.
 
 ### How do you choose a learner's group?
 
-By level, pace and goals rather than age or postcode, with five to ten learners at the same stage. If no group fits the learner's week, we offer one-to-one lessons instead.
+By level, pace and goals rather than age or postcode, with fifteen to twenty learners at the same stage. If no group fits the learner's week, we offer one-to-one lessons instead.
 
 ## The North and beyond
 

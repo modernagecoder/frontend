@@ -189,7 +189,7 @@ module.exports = {
       { h3: 'One room for the whole coast', p: 'A learner at Tannum Sands and one in central Gladstone can join the same session, each from home.' },
       { h3: 'Local year levels', p: 'Teachers speak in the year levels Gladstone schools use and line homework up with the four Queensland terms. All teaching is in English.' },
       { h3: 'A real first lesson', p: 'The free session is an ordinary lesson rather than a sales call, and it ends with a suggested level, course and time. No card is needed to book.' },
-      { h3: 'Groups at one level', p: 'Five to ten learners working at the same stage, from Gladstone and other places, so a regional city still gets a full group.' },
+      { h3: 'Groups at one level', p: 'Fifteen to twenty learners working at the same stage, from Gladstone and other places, so a regional city still gets a full group.' },
       { h3: 'Twice a week', p: 'About eight lessons a month in a fixed slot, with exam weeks and holidays agreed with the teacher in advance.' },
       { h3: 'Four and a half hours apart', p: 'Neither Queensland nor India changes its clocks, so 6pm in Gladstone is 1:30pm India time in every month of the year.' }
     ],
@@ -200,7 +200,7 @@ module.exports = {
     h2: 'What classes cost in Gladstone',
     intro: 'Three lines cover the whole price list.',
     first: 'One complete lesson at no charge, after which you receive a level, a course suggestion and a regular time.',
-    group: 'A month of lessons, usually eight, shared with five to ten learners at your level.',
+    group: 'A month of lessons, usually eight, shared with fifteen to twenty learners at your level.',
     private: 'Roughly eight lessons a month on the same pattern, with one teacher working only with you.',
     closer: 'Fees are charged in US dollars everywhere outside India, so a family in Clinton pays exactly what a family in Boyne Island pays. Nothing is billed until the trial has settled a course and a weekly slot, and the pricing page explains holidays, missed lessons and moving between group and private classes.'
   },
@@ -225,8 +225,8 @@ module.exports = {
       { q: 'When are lessons for Gladstone learners?', a: 'After school on weekdays or a Saturday morning suits most families. The slot is fixed at the trial and written in local time, which sits four and a half hours ahead of our teachers in every season.' },
       { q: 'Can younger children join?', a: 'Yes. Live classes start from age six with Scratch and simple drawing projects before any typed code; the railway project simply suits older learners.' },
       { q: 'Is there a Modern Age Coders centre in Gladstone?', a: 'No, and none is claimed. Every lesson is live and online with no premises in Australia. A learner needs a laptop or desktop, working sound and a steady connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Gladstone coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and goals rather than age or postcode. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Gladstone coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and goals rather than age or postcode. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

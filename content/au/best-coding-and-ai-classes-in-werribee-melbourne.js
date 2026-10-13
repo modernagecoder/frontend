@@ -311,7 +311,7 @@ module.exports = {
       { h3: 'From home', p: 'A laptop and a stable connection are all a learner needs to join.' },
       { h3: 'Term-time teaching', p: 'We follow the Victorian school terms and break for the state holidays.' },
       { h3: 'Free trial', p: 'A full first lesson, then a clear suggestion for course and timing.' },
-      { h3: 'Groups by level', p: 'Five to ten learners at a matched level, drawn from different places.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at a matched level, drawn from different places.' },
       { h3: 'Regular rhythm', p: 'Two fixed lessons a week, around eight each month.' },
       { h3: 'Teachers in India', p: 'A 5pm Werribee lesson is 11:30am India time while Melbourne is on daylight saving, then 12:30pm.' }
     ],
@@ -324,7 +324,7 @@ module.exports = {
     h2: 'Werribee class fees',
     intro: 'The fee list is short.',
     first: 'A first lesson free of charge, with advice at the end.',
-    group: 'A month of group lessons, about eight, with five to ten learners at one level.',
+    group: 'A month of group lessons, about eight, with fifteen to twenty learners at one level.',
     private: 'A month of private lessons, about eight, one learner and one teacher.',
     closer: 'Werribee families pay in US dollars, the currency for every family outside India. We take no payment until the trial has settled course and time, and the pricing page explains holidays and missed classes.'
   },
@@ -366,7 +366,7 @@ module.exports = {
       },
       {
         q: 'What are the fees for Werribee learners?',
-        a: 'The first lesson is free. Group classes are then USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one classes are USD 150 a month. We settle course, format and time before any payment.',
+        a: 'The first lesson is free. Group classes are then USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one classes are USD 150 a month. We settle course, format and time before any payment.',
         boiler: true
       },
       {

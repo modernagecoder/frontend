@@ -178,7 +178,7 @@ A port running around the clock and 51 villages on a school calendar are two ver
 
 The placement lesson carries a real task and a real recommendation. No card is asked for, and no course is confirmed until a family has seen how a lesson runs.
 
-### Groups of five to eight
+### Groups of fifteen to twenty
 
 Grouped on level and objective. A logistics clerk and a seventeen year old who both need the same data skill belong in the same room, whatever the age gap.
 
@@ -210,7 +210,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -320,7 +320,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Liwa learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Liwa class times arranged?
 

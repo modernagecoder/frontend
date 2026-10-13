@@ -4,7 +4,7 @@ description: "Learn app development in the Netherlands, from a first app to Flut
 canonical: https://learn.modernagecoders.com/app-development-course-netherlands
 source: src/pages/app-development-course-netherlands.html
 ---
-> Modern Age Coders teaches app development live online to learners in the Netherlands: children from about eight build real apps with blocks; teenagers build phone apps in React Native; students and adults work in Flutter for both platforms, Kotlin for Android or Swift for iOS. Every course treats the parts users never see, such as how data is stored, what an app asks permission for and what happens when something fails, as part of building the app. Lessons are live and in English, in groups of five to ten or one to one. The first lesson is free; after that a group place is USD 100 a month and private lessons USD 150.
+> Modern Age Coders teaches app development live online to learners in the Netherlands: children from about eight build real apps with blocks; teenagers build phone apps in React Native; students and adults work in Flutter for both platforms, Kotlin for Android or Swift for iOS. Every course treats the parts users never see, such as how data is stored, what an app asks permission for and what happens when something fails, as part of building the app. Lessons are live and in English, in groups of fifteen to twenty or one to one. The first lesson is free; after that a group place is USD 100 a month and private lessons USD 150.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the Netherlands](/coding-classes-in-netherlands) / App development
 
@@ -158,7 +158,7 @@ Teachers work from India, which does not change its clocks, so the gap to the Ne
 - **Weekend** Saturday or Sunday, good for testing apps on devices.
 
 - **A free first lesson** You build a first screen with a teacher and see it running, and the teacher proposes the right route.
-- **Groups of five to ten** Learners at the same level from several countries, testing each other's apps.
+- **Groups of fifteen to twenty** Learners at the same level from several countries, testing each other's apps.
 - **One to one for your own idea** For a learner with an app idea of their own, a deadline or a specific platform.
 - **Tested on real devices** Apps are run on phones and tablets, not only in simulators, so real problems show up early.
 - **In English** The language of the frameworks and the app stores; Dutch school terms are kept for younger learners.
@@ -169,7 +169,7 @@ Teachers work from India, which does not change its clocks, so the gap to the Ne
 A single monthly rate in US dollars, identical in every country outside India and for every kind of app. You pay nothing to register and sign no annual contract.
 
 - Free first class: USD 0. A real lesson building an app. A route proposed. No card needed.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same live teacher each week. Apps reviewed every week. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same live teacher each week. Apps reviewed every week. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one learner. Built around your own app idea. Pace set by your goal.
 
 ## What learners in the Netherlands ask about building apps

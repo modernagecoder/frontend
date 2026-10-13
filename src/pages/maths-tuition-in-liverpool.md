@@ -4,7 +4,7 @@ description: "Online maths tuition in Liverpool for ages 6 to 67: KS2, KS3, GCSE
 canonical: https://learn.modernagecoders.com/maths-tuition-in-liverpool
 source: src/pages/maths-tuition-in-liverpool.html
 ---
-> Liverpool learners aged 6 to 67 can take live online maths with us, at every level: KS2 maths and the Year 6 papers, KS3, GCSE at Foundation or Higher tier on AQA, Edexcel or OCR, A level Maths with Further Maths, and adult maths from refreshers to GCSE resits. Classes run with five to ten learners matched by level, or privately for one learner. Our Liverpool example is the tide: from 2,766 Environment Agency readings in September 2026, the average time from one high water to the next was 12 hours 25.6 minutes, and a single cosine curve tracked a spring tide to within 0.948 metres but missed a neap tide by up to 6.44 metres. Lesson one is on us. From then on, a group seat runs to USD 100 monthly and individual tuition to USD 150 monthly.
+> Liverpool learners aged 6 to 67 can take live online maths with us, at every level: KS2 maths and the Year 6 papers, KS3, GCSE at Foundation or Higher tier on AQA, Edexcel or OCR, A level Maths with Further Maths, and adult maths from refreshers to GCSE resits. Classes run with fifteen to twenty learners matched by level, or privately for one learner. Our Liverpool example is the tide: from 2,766 Environment Agency readings in September 2026, the average time from one high water to the next was 12 hours 25.6 minutes, and a single cosine curve tracked a spring tide to within 0.948 metres but missed a neap tide by up to 6.44 metres. Lesson one is on us. From then on, a group seat runs to USD 100 monthly and individual tuition to USD 150 monthly.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Liverpool
 
@@ -14,7 +14,7 @@ Liverpool · Maths at any age from 6 to 67 · Taught live online, in groups or o
 
 The water at Liverpool rises and falls twice a day, and in September 2026 the Environment Agency's gauge recorded it every fifteen minutes. Across 54 gaps between one high water and the next, the average was 12 hours 25.6 minutes. That number, and the shape of the rise between, is A level trigonometry wearing a coat: a cosine curve with an amplitude, a period and a midline. We fitted one. On a big spring tide it stayed within a metre of the truth all cycle. A week later, on a small neap tide, the same curve was wrong by more than six metres. This page explains how we teach maths to Liverpool learners from primary school to adulthood, and uses the tide to show what a model can and cannot do.
 
-At a glance: Who: Liverpool learners from 6 to 67; Primary: KS2 maths, times tables, Year 6 papers; Secondary: KS3 and GCSE, Foundation or Higher; Sixth form: A level Maths and Further Maths; Adults: Refreshers, resits, everyday maths; Format: Live video, groups of 5 to 10 or private; Teachers: Teaching from India on UK time; Local project: Mersey tide readings and a cosine model. Rated 4.9 across 547 Google reviews.
+At a glance: Who: Liverpool learners from 6 to 67; Primary: KS2 maths, times tables, Year 6 papers; Secondary: KS3 and GCSE, Foundation or Higher; Sixth form: A level Maths and Further Maths; Adults: Refreshers, resits, everyday maths; Format: Live video, groups of 15 to 20 or private; Teachers: Teaching from India on UK time; Local project: Mersey tide readings and a cosine model. Rated 4.9 across 547 Google reviews.
 
 ## Three places to begin
 
@@ -231,7 +231,7 @@ Teaching happens from India, which has no daylight saving. So the gap to Liverpo
 
 - **Continuity** The same teacher takes a group each week and knows every learner's slips.
 - **Brief reports** A short note home after lessons on progress and next steps.
-- **Level, not age** Five to ten learners in a group, all at one level.
+- **Level, not age** Fifteen to twenty learners in a group, all at one level.
 - **Measured data** Tide readings, maps and census tables next to exam practice.
 - **One to one** For a stubborn topic, a near exam, or by choice.
 - **Say why** Learners explain a method in words before drilling it.
@@ -241,7 +241,7 @@ Teaching happens from India, which has no daylight saving. So the gap to Liverpo
 Monthly, in US dollars, at one rate for every country outside India. No joining fee, no minimum term.
 
 - Free first class: USD 0. A real lesson at the learner's level. A candid account afterwards. No card required.
-- Group batch: USD 100 a month. Five to ten learners at one level. A familiar teacher. Work marked and talked through. A certificate when finished.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. A familiar teacher. Work marked and talked through. A certificate when finished.
 - One to one: USD 150 a month. Individual teaching. Aimed at the specific gap. Ideal close to exams.
 
 ## What Liverpool families and adult learners ask

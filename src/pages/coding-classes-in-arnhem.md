@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Arnhem for ages 6 to 
 canonical: https://learn.modernagecoders.com/coding-classes-in-arnhem
 source: src/pages/coding-classes-in-arnhem.html
 ---
-> Coding classes in Arnhem serve a municipality of 171,822 people (Statistics Netherlands, 1 January 2026), the capital of Gelderland and its second city. Its most heavily documented week is September 1944, and the published figures for it will not reconcile: about 7,100 British troops landed in the first two lifts, while the recorded dead, the recorded prisoners and the recorded evacuation across the Rhine total 10,003. Nothing there is a lie. The categories overlap and the frames differ, and knowing that before you add is the whole of data work. Modern Age Coders teaches live online in English across the municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of five to ten or USD 150 one-to-one.
+> Coding classes in Arnhem serve a municipality of 171,822 people (Statistics Netherlands, 1 January 2026), the capital of Gelderland and its second city. Its most heavily documented week is September 1944, and the published figures for it will not reconcile: about 7,100 British troops landed in the first two lifts, while the recorded dead, the recorded prisoners and the recorded evacuation across the Rhine total 10,003. Nothing there is a lie. The categories overlap and the frames differ, and knowing that before you add is the whole of data work. Modern Age Coders teaches live online in English across the municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of fifteen to twenty or USD 150 one-to-one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Arnhem
 
@@ -12,11 +12,11 @@ Arnhem, Gelderland / Live online
 
 # Coding classes in Arnhem, where three published categories add up to more men than ever landed
 
-**What are the best coding classes in Arnhem?** Coding classes in Arnhem serve a municipality of 171,822 people (Statistics Netherlands, 1 January 2026), the capital of Gelderland and its second city. Its most heavily documented week is September 1944, and the published figures for it will not reconcile: about 7,100 British troops landed in the first two lifts, while the recorded dead, the recorded prisoners and the recorded evacuation across the Rhine total 10,003. Nothing there is a lie. The categories overlap and the frames differ, and knowing that before you add is the whole of data work. Modern Age Coders teaches live online in English across the municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of five to ten or USD 150 one-to-one.
+**What are the best coding classes in Arnhem?** Coding classes in Arnhem serve a municipality of 171,822 people (Statistics Netherlands, 1 January 2026), the capital of Gelderland and its second city. Its most heavily documented week is September 1944, and the published figures for it will not reconcile: about 7,100 British troops landed in the first two lifts, while the recorded dead, the recorded prisoners and the recorded evacuation across the Rhine total 10,003. Nothing there is a lie. The categories overlap and the frames differ, and knowing that before you add is the whole of data work. Modern Age Coders teaches live online in English across the municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of fifteen to twenty or USD 150 one-to-one.
 
 Take three sourced figures about one week in this city: about 1,500 British dead, 6,340 taken prisoner, and 2,163 brought back across the Nederrijn on the night of 25 September 1944. Add them and you get 10,003 men from a force of roughly 7,100. The arithmetic is right and the sources are serious, so the fault is in the addition: a man wounded and captured appears in two of those counts, and the tallies were compiled over different periods and different formations. These were people, and getting their number right is a form of care. It is also the first lesson of every real dataset.
 
-Facts last verified 7 September 2026. Teaching is online; no Arnhem branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Arnhem branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city that has to be careful with its records
 
@@ -210,7 +210,7 @@ Schaarsbergen is up on the heath, Elden is over the water, and the centre is a c
 Put on the page so that nobody has to ask for it.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate applies and it is quoted in dollars, with no euro list beside it, so a family in Schaarsbergen sees exactly what a family in the centre sees. Payment follows the free lesson rather than preceding it, and it goes over WhatsApp once a course and a time are agreed. Pauses, plan changes and missed weeks are described on the pricing page.
@@ -251,7 +251,7 @@ No, and none is claimed near the bridge, in Presikhaaf or anywhere in the Nether
 
 ### What do Arnhem coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in an Arnhem group?
 

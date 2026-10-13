@@ -12,7 +12,7 @@ Live online · serving Jamnagar
 
 Real programming for kids, teens and college students in Jamnagar, from **Pancheshwar Tower to Bedi Gate, Patel Colony to Park Colony**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Jamnagar)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**JamnagarEnrollingAreasPancheshwar Tower, Bedi Gate, Patel Colony, Park Colony, Summair Club Road & all of JamnagarBoardsGujarat GSEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across JamnagarFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Jamnagar)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**JamnagarEnrollingAreasPancheshwar Tower, Bedi Gate, Patel Colony, Park Colony, Summair Club Road & all of JamnagarBoardsGujarat GSEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across JamnagarFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for Jamnagar's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Jamnagar: FAQs
 
-Which is the best coding class in Jamnagar for kids?Modern Age Coders runs Jamnagar's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and progress to Python. Batches stay small (5-8 students), are project-based, and are taught by industry instructors. Families from Pancheshwar Tower, Patel Colony, Bedi Gate, Park Colony, Summair Club Road, Khodiyar Colony and Hapa join the same expert teacher online.Are these coding classes online, and do they reach areas around Jamnagar?Yes. Every class is live and online, so a child near Pancheshwar Tower, Bedi Gate, Patel Colony, Park Colony, Digjam Circle, Indira Marg, Ranjit Sagar Road or Gulabnagar, or in nearby Khambhalia, Dwarka, Jamjodhpur or Lalpur, learns from home with no travel. Sessions are fully interactive with live coding, screen-sharing and recordings, so distance from the city centre is never a barrier.How much do coding classes cost in Jamnagar?Group classes (5-8 students) start at Rs.1499/month for 2 live classes per week. The Mini Batch (3-4 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Will coding help my child with JEE, GUJCET and the GSEB or CBSE board exams?Yes. Coding builds the structured, step-by-step reasoning that JEE, GUJCET and Olympiads reward, and it directly supports Computer Science and the new AI components in the GSEB, CBSE and ICSE syllabi under NEP 2020. Our Python and Java tracks align cleanly with what Gujarat Board, CBSE and ICSE schools across Jamnagar teach.What is the best age to start coding in Jamnagar?Age 8 is the right time to begin with visual, block-based coding in Scratch. For text languages such as Python and Java, 12-13 onwards works best. We run distinct tracks for kids (6-12), teens (13-18) and college or working learners (18+), so the starting point always fits the learner.What programming languages and courses do you teach in Jamnagar?Kids (6-12): Scratch, web design (HTML/CSS) and introductory Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also offer Vibe Coding and AI-agent courses (Codex and Claude Code), plus school and Olympiad mathematics.Can a Jamnagar student build a real tech career without leaving for Ahmedabad or Bengaluru?Yes. That is the whole point of learning online. Jamnagar already ships precision brass parts worldwide and refines a huge share of India's fuel, so global, exacting work is in the city's DNA. With software, a student can do that work from home: build for clients anywhere, take remote roles, or freelance. Our college track adds 200+ DSA problems, mock interviews and a full-stack portfolio so the work, not the postcode, decides the outcome.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Do you teach coding to GSEB students in Jamnagar?Yes. Jamnagar schools run the Gujarat board, GSEB, along with CBSE and other boards, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about.Can college students in Jamnagar join your programming courses?Yes. Whether you study Ayurveda at ITRA or engineering at a local college, the college track is the same: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown to a recruiter. In a city built on industry, what counts is what you can actually build.
+Which is the best coding class in Jamnagar for kids?Modern Age Coders runs Jamnagar's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and progress to Python. Batches stay small (15-20 students), are project-based, and are taught by industry instructors. Families from Pancheshwar Tower, Patel Colony, Bedi Gate, Park Colony, Summair Club Road, Khodiyar Colony and Hapa join the same expert teacher online.Are these coding classes online, and do they reach areas around Jamnagar?Yes. Every class is live and online, so a child near Pancheshwar Tower, Bedi Gate, Patel Colony, Park Colony, Digjam Circle, Indira Marg, Ranjit Sagar Road or Gulabnagar, or in nearby Khambhalia, Dwarka, Jamjodhpur or Lalpur, learns from home with no travel. Sessions are fully interactive with live coding, screen-sharing and recordings, so distance from the city centre is never a barrier.How much do coding classes cost in Jamnagar?Group classes (15-20 students) start at Rs.1499/month for 2 live classes per week. The Mini Batch (up to 6 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Will coding help my child with JEE, GUJCET and the GSEB or CBSE board exams?Yes. Coding builds the structured, step-by-step reasoning that JEE, GUJCET and Olympiads reward, and it directly supports Computer Science and the new AI components in the GSEB, CBSE and ICSE syllabi under NEP 2020. Our Python and Java tracks align cleanly with what Gujarat Board, CBSE and ICSE schools across Jamnagar teach.What is the best age to start coding in Jamnagar?Age 8 is the right time to begin with visual, block-based coding in Scratch. For text languages such as Python and Java, 12-13 onwards works best. We run distinct tracks for kids (6-12), teens (13-18) and college or working learners (18+), so the starting point always fits the learner.What programming languages and courses do you teach in Jamnagar?Kids (6-12): Scratch, web design (HTML/CSS) and introductory Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also offer Vibe Coding and AI-agent courses (Codex and Claude Code), plus school and Olympiad mathematics.Can a Jamnagar student build a real tech career without leaving for Ahmedabad or Bengaluru?Yes. That is the whole point of learning online. Jamnagar already ships precision brass parts worldwide and refines a huge share of India's fuel, so global, exacting work is in the city's DNA. With software, a student can do that work from home: build for clients anywhere, take remote roles, or freelance. Our college track adds 200+ DSA problems, mock interviews and a full-stack portfolio so the work, not the postcode, decides the outcome.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Do you teach coding to GSEB students in Jamnagar?Yes. Jamnagar schools run the Gujarat board, GSEB, along with CBSE and other boards, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about.Can college students in Jamnagar join your programming courses?Yes. Whether you study Ayurveda at ITRA or engineering at a local college, the college track is the same: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown to a recruiter. In a city built on industry, what counts is what you can actually build.
 
 ## Ready to start your child's coding journey in Jamnagar?
 

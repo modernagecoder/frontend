@@ -314,7 +314,7 @@ module.exports = {
       { h3: 'From your desk', p: 'There is no drive to a centre; the learner signs in and starts coding straight away.' },
       { h3: 'NSW stages', p: 'Lesson plans follow the state syllabus stages and stop during NSW school holidays.' },
       { h3: 'A free real lesson', p: 'The first class is taught in full and ends with a suggested course, level and time.' },
-      { h3: 'Five to ten per group', p: 'Groups are formed by level and pace, combining Mosman learners with others.' },
+      { h3: 'Fifteen to twenty per group', p: 'Groups are formed by level and pace, combining Mosman learners with others.' },
       { h3: 'Two lessons a week', p: 'Two fixed lessons weekly, around eight a month, with any breaks agreed in advance.' },
       {
         h3: 'Teachers in India',
@@ -330,7 +330,7 @@ module.exports = {
     h2: 'Mosman class fees',
     intro: 'Three amounts cover everything.',
     first: 'The first class costs nothing and closes with an honest recommendation.',
-    group: 'A month of group lessons, typically eight, with five to ten learners at a similar level.',
+    group: 'A month of group lessons, typically eight, with fifteen to twenty learners at a similar level.',
     private: 'Around eight lessons a month, one teacher with one learner.',
     closer: 'Outside India, invoices are in US dollars, so the rate is the same for every Mosman family. Billing begins only after the trial, once a course and time are fixed; holidays, absences and format changes are covered on the pricing page.'
   },
@@ -375,7 +375,7 @@ module.exports = {
       },
       {
         q: 'How much are coding classes for Mosman learners?',
-        a: 'The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before payment.',
+        a: 'The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before payment.',
         boiler: true
       },
       {

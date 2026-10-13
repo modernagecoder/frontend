@@ -264,7 +264,7 @@ module.exports = {
       { h3: 'Pseudo-code as design', p: 'Designs written in pseudo-code first, checked for any slip into Python, then implemented.' },
       { h3: 'Test data explained', p: 'Typical, extreme and erroneous data chosen for a routine, with the outcome explained in full sentences.' },
       { h3: 'IDLE and no internet', p: 'Timed practice in plain IDLE with nothing else open, because that is the room.' },
-      { h3: 'Groups of five to ten', p: 'Students at the same rung, reading and commenting each other\'s programs.' }
+      { h3: 'Groups of fifteen to twenty', p: 'Students at the same rung, reading and commenting each other\'s programs.' }
     ]
   },
 
@@ -276,7 +276,7 @@ module.exports = {
     h2: 'Fees for WJEC lessons',
     lede: 'One monthly fee in US dollars, the rate for every family outside India. The first lesson costs nothing, and we bill only once a course and a regular time are fixed.',
     free: ['A proper lesson on WJEC material', 'A straight answer on which rung fits', 'Only a phone number needed'],
-    group: ['Five to ten students on one rung', 'The same teacher across Years 10 and 11', 'A fresh unfamiliar program most weeks', 'Lighter lessons near each exam'],
+    group: ['Fifteen to twenty students on one rung', 'The same teacher across Years 10 and 11', 'A fresh unfamiliar program most weeks', 'Lighter lessons near each exam'],
     one: ['A teacher for one student', 'A plan built back from the exam dates', 'Suits a January resitter or a late starter']
   },
 

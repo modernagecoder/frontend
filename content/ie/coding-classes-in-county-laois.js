@@ -52,7 +52,7 @@ module.exports = {
 
   h1: 'Coding classes in County Laois',
   capsuleQ: 'What are the best coding classes in County Laois?',
-  capsule: 'Laois has the longest average commute in Ireland: 25.3 km each way, taking 32.3 minutes. It is also young, at an average age of 37.3, and growing, up 8% to 91,877 people, with Portlaoise at 23,494 the largest town and the youngest of any town we have written about. Put those together and you have a county where parents are often on the road at the hour a class would start. Ours are live and online at a fixed weekly hour, which a household can build around, for ages 6 to 67, in ability groups of five to ten or one to one. The first lesson costs nothing. After it, a group place is USD 100 a month and private tuition USD 150.',
+  capsule: 'Laois has the longest average commute in Ireland: 25.3 km each way, taking 32.3 minutes. It is also young, at an average age of 37.3, and growing, up 8% to 91,877 people, with Portlaoise at 23,494 the largest town and the youngest of any town we have written about. Put those together and you have a county where parents are often on the road at the hour a class would start. Ours are live and online at a fixed weekly hour, which a household can build around, for ages 6 to 67, in ability groups of fifteen to twenty or one to one. The first lesson costs nothing. After it, a group place is USD 100 a month and private tuition USD 150.',
   lead: 'Laois County Council has thirty-nine datasets listed on the public sector data catalogue, more than several larger counties. Planning applications. Recycling locations. Rateable properties. The register of electors. The sales ledger. Purchase orders. It reads like a county that has taken open data seriously. We opened six of them through the catalogue\'s own interface and every one came back the same way: no attached files at all, and no licence stated. Thirty-nine promises, and behind the six we checked, nothing to download. This is not a scandal, and it is not unusual; catalogues fill up with entries faster than councils can publish the files behind them. But it is the single most useful thing a young data learner can discover early, because the alternative is planning a project around a title and finding out three weeks later. This page teaches that check first, and then gives Laois learners something real to work on.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in County Laois.',
 
@@ -192,7 +192,7 @@ module.exports = {
       { h3: 'The lesson comes to the house', p: 'A learner in Durrow and one in Portarlington are in the same group, and no parent drives either of them anywhere.' },
       { h3: 'School stages by their Irish names', p: 'First Year, the Junior Cycle, Transition Year and sixth year, used exactly as they are used locally.' },
       { h3: 'A free lesson with teaching in it', p: 'Real work on a real task, then a recommendation on level, course and hour, with no card details requested.' },
-      { h3: 'Ability groups', p: 'Five to ten learners at one level, drawn from Laois and several other countries, so a good hour exists at every stage.' },
+      { h3: 'Ability groups', p: 'Fifteen to twenty learners at one level, drawn from Laois and several other countries, so a good hour exists at every stage.' },
       { h3: 'Built around the commute', p: 'Two lessons most weeks, about eight a month, at a fixed hour chosen to fall after the drive home, with pauses agreed for exams and holidays.' },
       { h3: 'Teachers on Indian time', p: 'Their clock never shifts, leaving them four and a half hours ahead of Ireland in summer and five and a half in winter, which covers Laois evenings comfortably.' }
     ],
@@ -203,7 +203,7 @@ module.exports = {
     h2: 'What classes cost in County Laois',
     intro: 'Three numbers, and nothing else afterwards.',
     first: 'A full lesson free of charge, ending in an honest placement and a recommended course.',
-    group: 'A month of teaching, usually eight lessons, with five to ten learners of matching ability.',
+    group: 'A month of teaching, usually eight lessons, with fifteen to twenty learners of matching ability.',
     private: 'The same month of about eight lessons, with one teacher working with one learner.',
     closer: 'Fees are charged in US dollars at the one rate used outside India, so Portlaoise pays what Abbeyleix pays and there is no euro list. Nothing is charged until the free lesson has settled a course and a weekly hour, and the pricing page explains pauses, missed lessons and changes of format.'
   },
@@ -228,7 +228,7 @@ module.exports = {
       { q: 'Why is Portarlington counted differently?', a: 'Because its built-up area crosses into County Offaly, so the statistics office publishes it as Portarlington, Counties Laois and Offaly, with 9,288 people in total.' },
       { q: 'What hours do classes run?', a: 'Afternoons, evenings and weekend mornings, with evening slots most popular here because of the commute. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter.' },
       { q: 'Is there a Modern Age Coders classroom in Laois?', a: 'No, and we never imply one. All teaching is live online, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a reliable connection, and the number shown here is an Indian one.', boiler: true },
-      { q: 'What do County Laois coding classes cost?', a: 'The first lesson is free. Continuing costs USD 100 a month for a group place, covering two live lessons a week and about eight a month with five to ten learners, or USD 150 a month privately on the same schedule. Everything is settled before payment.', boiler: true },
+      { q: 'What do County Laois coding classes cost?', a: 'The first lesson is free. Continuing costs USD 100 a month for a group place, covering two live lessons a week and about eight a month with fifteen to twenty learners, or USD 150 a month privately on the same schedule. Everything is settled before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable runs at a workable hour, we offer one-to-one lessons instead.', boiler: true }
     ]
   },

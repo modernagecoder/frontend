@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'AI and programming classes in Pontypool',
   capsuleQ: 'Which are the best AI and programming classes for Pontypool?',
-  capsule: 'Census 2021 found 29,070 usual residents in the Pontypool built-up area and 92,276 across the county borough of Torfaen. Griffithstown, Sebastopol, New Inn, Pontnewynydd, Trevethin, Penygarn, Wainfelin and Tranch all sit within the built-up area. From the age of six up to 67, Pontypool learners study AI, programming, Python, vibe coding and maths with Modern Age Coders, live online, with India-based tutors teaching privately or to level-matched classes of five to ten. Every learner begins with a free trial lesson and a course recommendation. The Pontypool project trains a small neural network to tell which ward a postcode belongs to, teaches it the northern wards first and the southern wards second, and measures how much of the first lesson survives. Following the free trial, a class place is USD 100 monthly and individual tuition USD 150 monthly.',
+  capsule: 'Census 2021 found 29,070 usual residents in the Pontypool built-up area and 92,276 across the county borough of Torfaen. Griffithstown, Sebastopol, New Inn, Pontnewynydd, Trevethin, Penygarn, Wainfelin and Tranch all sit within the built-up area. From the age of six up to 67, Pontypool learners study AI, programming, Python, vibe coding and maths with Modern Age Coders, live online, with India-based tutors teaching privately or to level-matched classes of fifteen to twenty. Every learner begins with a free trial lesson and a course recommendation. The Pontypool project trains a small neural network to tell which ward a postcode belongs to, teaches it the northern wards first and the southern wards second, and measures how much of the first lesson survives. Following the free trial, a class place is USD 100 monthly and individual tuition USD 150 monthly.',
   lead: 'People learn new things without forgetting old ones, mostly. Neural networks are not so lucky. Train one on a task, then train it on a different task, and it can lose the first almost entirely. McCloskey and Cohen described the effect in 1989 as catastrophic interference; today it is usually called catastrophic forgetting. It matters every time an AI model is updated with new data. In Pontypool we make it happen on purpose, with 721 local postcodes and five wards, and then fix it with one simple idea.',
   wa: 'Hello Modern Age Coders, we would like to book a free AI or programming trial lesson. We are in Pontypool.',
 
@@ -159,11 +159,11 @@ module.exports = {
       { h3: 'Learner in charge of the keys', p: 'The learner writes and runs every line, explaining it to the tutor.' },
       { h3: 'Level comes first', p: 'The trial lesson shows where to start before we recommend anything.' },
       { h3: 'No charge to begin', p: 'The first lesson is free and needs no card.' },
-      { h3: 'Groups by level', p: 'Five to ten learners at the same stage, from across the UK.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at the same stage, from across the UK.' },
       { h3: 'Two a week', p: 'About eight lessons a month in term, with Torfaen holidays left free on request.' },
       { h3: 'Fixed UK time', p: 'The lesson stays at its UK hour when the clocks change.' }
     ],
-    spec: { title: 'Why online lessons', p: 'Five to ten learners at one exact level are far easier to bring together across the UK than in a single town, and on video nobody travels.' }
+    spec: { title: 'Why online lessons', p: 'Fifteen to twenty learners at one exact level are far easier to bring together across the UK than in a single town, and on video nobody travels.' }
   },
 
   fees: {

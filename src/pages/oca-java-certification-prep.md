@@ -193,7 +193,7 @@ File 06 · Why us
 
 #### Small live batches
 
-4–8 students per class. A mentor sees your compiler errors and your reasoning, and corrects both in real time.
+15–20 students per class. A mentor sees your compiler errors and your reasoning, and corrects both in real time.
 
 #### Mapped to the objectives
 

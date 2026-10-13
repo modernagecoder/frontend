@@ -181,7 +181,7 @@ Teaching is live on video from India, five and a half hours ahead of the UK in w
 
 - **Reasoning out loud** A child says why before saying what, which is the habit every one of these competitions rewards.
 - **Our own puzzles** Written by us. We do not reproduce any competition's questions in a lesson.
-- **Five to ten children** Enough to hear a better method than your own, few enough that nobody stays silent.
+- **Fifteen to twenty children** Enough to hear a better method than your own, few enough that nobody stays silent.
 - **Parents told plainly** A short honest note after each block, not a score to put on the fridge.
 - **One to one when it helps** For a child far ahead of their year, or one who freezes in a group.
 - **We enter nobody** Every competition here is entered by a school or a parent. We teach, and that is all.
@@ -191,7 +191,7 @@ Teaching is live on video from India, five and a half hours ahead of the UK in w
 A monthly rate in US dollars, the same in every country outside India, with nothing to join and no fixed term.
 
 - Free first class: USD 0. A real lesson, taught not sold. An honest read on where the maths is. No card details.
-- Group batch: USD 100 a month. Five to ten children at one level. The same teacher every week. Work marked and talked through. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. The same teacher every week. Work marked and talked through. A certificate at the end.
 - One to one: USD 150 a month. One child with one teacher. Built around a particular gap. Useful when a group hour will not fit.
 
 ## What parents of primary children ask

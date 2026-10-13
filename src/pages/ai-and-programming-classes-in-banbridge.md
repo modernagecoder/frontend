@@ -4,7 +4,7 @@ description: "Live online AI, programming, Python and vibe coding lessons for Ba
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-banbridge
 source: src/pages/ai-and-programming-classes-in-banbridge.html
 ---
-> Banbridge had roughly 17,400 usual residents at the 2021 census, by NISRA's settlement estimate, inside a district electoral area of 34,940. Banbridge East, North, South and West, Loughbrickland, Gransha and Quilly are among the wards postcodes.io lists for the BT32 district. AI, programming, Python, vibe coding and maths are taught over live video by India-based tutors to anyone from six to 67, in one-to-one sessions or small classes of five to ten grouped by level. Reasoning is taught before tools, so learners know when a computer's answer is exact and when it is a good guess. The trial lesson costs nothing and ends with a course suggestion. The Banbridge project uses a clever algorithm called Held-Karp to find the shortest walking round of up to 16 of the town's 30 mapped bus stops, and then shows why even that cannot handle all 30. Group lessons then cost USD 100 a month and one-to-one lessons USD 150 a month.
+> Banbridge had roughly 17,400 usual residents at the 2021 census, by NISRA's settlement estimate, inside a district electoral area of 34,940. Banbridge East, North, South and West, Loughbrickland, Gransha and Quilly are among the wards postcodes.io lists for the BT32 district. AI, programming, Python, vibe coding and maths are taught over live video by India-based tutors to anyone from six to 67, in one-to-one sessions or classes of fifteen to twenty grouped by level. Reasoning is taught before tools, so learners know when a computer's answer is exact and when it is a good guess. The trial lesson costs nothing and ends with a course suggestion. The Banbridge project uses a clever algorithm called Held-Karp to find the shortest walking round of up to 16 of the town's 30 mapped bus stops, and then shows why even that cannot handle all 30. Group lessons then cost USD 100 a month and one-to-one lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Northern Ireland](/coding-and-ai-classes-in-northern-ireland) / Banbridge
 
@@ -12,11 +12,11 @@ Banbridge, Armagh City, Banbridge and Craigavon, Northern Ireland / Live online
 
 # AI and programming classes in Banbridge
 
-**Which are the best AI and programming classes in Banbridge?** Banbridge had roughly 17,400 usual residents at the 2021 census, by NISRA's settlement estimate, inside a district electoral area of 34,940. Banbridge East, North, South and West, Loughbrickland, Gransha and Quilly are among the wards postcodes.io lists for the BT32 district. AI, programming, Python, vibe coding and maths are taught over live video by India-based tutors to anyone from six to 67, in one-to-one sessions or small classes of five to ten grouped by level. Reasoning is taught before tools, so learners know when a computer's answer is exact and when it is a good guess. The trial lesson costs nothing and ends with a course suggestion. The Banbridge project uses a clever algorithm called Held-Karp to find the shortest walking round of up to 16 of the town's 30 mapped bus stops, and then shows why even that cannot handle all 30. Group lessons then cost USD 100 a month and one-to-one lessons USD 150 a month.
+**Which are the best AI and programming classes in Banbridge?** Banbridge had roughly 17,400 usual residents at the 2021 census, by NISRA's settlement estimate, inside a district electoral area of 34,940. Banbridge East, North, South and West, Loughbrickland, Gransha and Quilly are among the wards postcodes.io lists for the BT32 district. AI, programming, Python, vibe coding and maths are taught over live video by India-based tutors to anyone from six to 67, in one-to-one sessions or classes of fifteen to twenty grouped by level. Reasoning is taught before tools, so learners know when a computer's answer is exact and when it is a good guess. The trial lesson costs nothing and ends with a course suggestion. The Banbridge project uses a clever algorithm called Held-Karp to find the shortest walking round of up to 16 of the town's 30 mapped bus stops, and then shows why even that cannot handle all 30. Group lessons then cost USD 100 a month and one-to-one lessons USD 150 a month.
 
 Plan a walk that visits a set of places once each and returns home by the shortest route, and you have the travelling salesman problem. The obvious method, trying every order, collapses almost at once: sixteen stops already allow about 654 billion different rounds. Held-Karp is a smarter exact method from 1962. Instead of whole routes, it builds up the shortest way to cover each subset of stops ending at each stop, reusing those partial answers again and again, which is the essence of dynamic programming. This project runs it on the bus stops mapped on OpenStreetMap across Banbridge, with walking distances along real paths, and compares it with a quick greedy rule.
 
-Facts last verified 29 September 2026. Teaching is online; no Banbridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Banbridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Banbridge courses in logic, Python and AI
 
@@ -133,7 +133,7 @@ Equipment: a computer, a webcam and broadband that can manage a video call.
 - **Learners code it themselves** Every line and run is the student's; the tutor follows the shared screen and asks what the program is doing.
 - **Placed by the trial** Half an hour of real work tells us the right first topic, with any CCEA exam written into the plan.
 - **Free first lesson** No fee for lesson one, which ends with our course suggestion.
-- **Classes by stage** Groups of five to ten UK learners at one level.
+- **Classes by stage** Groups of fifteen to twenty UK learners at one level.
 - **Twice a week** Paused over school holidays.
 - **Stable slot** Tutors follow UK clock changes, so your time stays the same.
 

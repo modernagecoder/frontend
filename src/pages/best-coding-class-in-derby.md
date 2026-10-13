@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Derby learner
 canonical: https://learn.modernagecoders.com/best-coding-class-in-derby
 source: src/pages/best-coding-class-in-derby.html
 ---
-> Derby counted 261,364 usual residents at the 2021 Census, and children aged 5 to 14 made up a larger share than across England, with 6.5% in each five-year band against 5.9% and 6.0% nationally. The city's Museum of Making stands on what is widely regarded as the site of the world's first factory, at the southern end of the Derwent Valley Mills World Heritage Site. Modern Age Coders teaches Derby learners from six to sixty-seven in live online lessons, one to one or in groups of five to ten at one level, with teachers based in India and times arranged in UK hours. We charge nothing for the first lesson; afterwards a group place is USD 100 and one-to-one teaching USD 150 per month.
+> Derby counted 261,364 usual residents at the 2021 Census, and children aged 5 to 14 made up a larger share than across England, with 6.5% in each five-year band against 5.9% and 6.0% nationally. The city's Museum of Making stands on what is widely regarded as the site of the world's first factory, at the southern end of the Derwent Valley Mills World Heritage Site. Modern Age Coders teaches Derby learners from six to sixty-seven in live online lessons, one to one or in groups of fifteen to twenty at one level, with teachers based in India and times arranged in UK hours. We charge nothing for the first lesson; afterwards a group place is USD 100 and one-to-one teaching USD 150 per month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Derby
 
@@ -12,11 +12,11 @@ Derby, East Midlands, England / Live online
 
 # Coding classes in Derby
 
-**What are the best coding classes in Derby?** Derby counted 261,364 usual residents at the 2021 Census, and children aged 5 to 14 made up a larger share than across England, with 6.5% in each five-year band against 5.9% and 6.0% nationally. The city's Museum of Making stands on what is widely regarded as the site of the world's first factory, at the southern end of the Derwent Valley Mills World Heritage Site. Modern Age Coders teaches Derby learners from six to sixty-seven in live online lessons, one to one or in groups of five to ten at one level, with teachers based in India and times arranged in UK hours. We charge nothing for the first lesson; afterwards a group place is USD 100 and one-to-one teaching USD 150 per month.
+**What are the best coding classes in Derby?** Derby counted 261,364 usual residents at the 2021 Census, and children aged 5 to 14 made up a larger share than across England, with 6.5% in each five-year band against 5.9% and 6.0% nationally. The city's Museum of Making stands on what is widely regarded as the site of the world's first factory, at the southern end of the Derwent Valley Mills World Heritage Site. Modern Age Coders teaches Derby learners from six to sixty-seven in live online lessons, one to one or in groups of fifteen to twenty at one level, with teachers based in India and times arranged in UK hours. We charge nothing for the first lesson; afterwards a group place is USD 100 and one-to-one teaching USD 150 per month.
 
 How many buses are carrying passengers around Derby at its busiest moment? The Department for Transport's Bus Open Data Service publishes the timetable of every local bus service in England, free and without a licence, so the question has an exact answer. On Tuesday 22 September 2026, 2,595 scheduled trips spend time inside the city boundary. Turn each into a start and an end, sort the 5,190 moments, then walk through them keeping a running count, adding one at each start and taking one away at each end. The highest the count reaches is 109, first at 08:14. That walk is called a sweep line, and it replaces more than 3.3 million pairwise comparisons with a single pass. There is a catch: whether the answer is 109 or 117 depends on one rule about what happens when a trip ends at the very minute another begins. Finding that rule, and stating it, is the lesson Derby's buses teach our teenage learners.
 
-Facts last verified 21 September 2026. Teaching is online; no Derby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 21 September 2026. Teaching is online; no Derby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the city of making
 
@@ -176,7 +176,7 @@ Derby is compact, but a lesson that needs no bus at all is simpler still.
 - **Across the city in no time** A learner in Mickleover and one in Chellaston can share a lesson without either of them catching a single bus.
 - **The school stages in use here** Reception, Key Stages 1 to 4, Year 9 options, GCSEs and A levels, named as Derby schools name them, and taught in English.
 - **A free lesson that teaches** The first session is proper teaching on a real task and ends with a suggested level, course and weekly time. There is no card to enter.
-- **Level first, age second** Five to ten learners at one stage, gathered from Derby, the wider UK and abroad, so that every level can find a sensible slot.
+- **Level first, age second** Fifteen to twenty learners at one stage, gathered from Derby, the wider UK and abroad, so that every level can find a sensible slot.
 - **A regular weekly pattern** Two lessons a week at a set time, around eight a month, with breaks for holidays and exams arranged with the teacher in advance.
 - **Teachers on a fixed clock** India does not change its clocks, so our teachers are four and a half hours ahead of Derby in British Summer Time and five and a half in winter, which keeps after-school and evening slots inside their day.
 
@@ -187,7 +187,7 @@ Derby is compact, but a lesson that needs no bus at all is simpler still.
 A free start, then a single monthly fee.
 
 - First class: USD 0. A complete lesson with nothing to pay, finishing with a level, a course suggestion and a proposed weekly time.
-- Group tuition: USD 100 a month. About eight live lessons each month in a group of five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight live lessons each month in a group of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight live lessons each month, taught to one learner with the teacher's full attention.
 
 Outside India the fee is one US dollar amount for everyone, so a family in Darley Abbey pays exactly what a family in Allestree pays, and there is no separate pound tariff. Nothing is charged until the free lesson has settled a course and a slot; the pricing page covers pausing, missed lessons and switching between group and one-to-one teaching.
@@ -228,11 +228,11 @@ No. There is no Derby centre and no premises anywhere in the UK; every lesson is
 
 ### How much are lessons for Derby learners?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
 
 ### How are Derby groups put together?
 
-By level, pace and goals rather than age or postcode, with five to ten learners at one stage. If no group meets at a workable time, we suggest one-to-one lessons.
+By level, pace and goals rather than age or postcode, with fifteen to twenty learners at one stage. If no group meets at a workable time, we suggest one-to-one lessons.
 
 ## East Midlands neighbours and beyond
 

@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Vibe coding and AI agents classes in Bishop\'s Stortford',
   capsuleQ: 'Where are the best vibe coding and AI agents classes for Bishop\'s Stortford learners?',
-  capsule: 'The ONS counted 40,915 usual residents in the Bishop\'s Stortford built-up area in 2021, and 150,158 across East Hertfordshire. Thorley, Hockerill and Thorley Street appear in the gazetteer as parts of the town. Modern Age Coders teaches vibe coding, AI agents, Python, coding and maths to people there aged six to 67, in live video lessons with tutors in India, either privately or in groups of five to ten at one level. When several AI agents work on the same task, each keeps its own copy of what it knows, and sooner or later the copies must be merged. Our Bishop\'s Stortford project sends three simulated agents out to list the town\'s bus stops, post boxes and benches, lets them edit offline, and compares three ways of merging. Your first lesson costs nothing; keeping going is USD 100 monthly in a class or USD 150 monthly on a one-to-one basis.',
+  capsule: 'The ONS counted 40,915 usual residents in the Bishop\'s Stortford built-up area in 2021, and 150,158 across East Hertfordshire. Thorley, Hockerill and Thorley Street appear in the gazetteer as parts of the town. Modern Age Coders teaches vibe coding, AI agents, Python, coding and maths to people there aged six to 67, in live video lessons with tutors in India, either privately or in groups of fifteen to twenty at one level. When several AI agents work on the same task, each keeps its own copy of what it knows, and sooner or later the copies must be merged. Our Bishop\'s Stortford project sends three simulated agents out to list the town\'s bus stops, post boxes and benches, lets them edit offline, and compares three ways of merging. Your first lesson costs nothing; keeping going is USD 100 monthly in a class or USD 150 monthly on a one-to-one basis.',
   lead: 'Two people edit the same shopping list on their phones in a tunnel. One crosses off milk; the other adds bread. When the signal returns, what should the list say? Now replace the people with AI agents, and the list with a shared record of a whole town. Computer scientists have a family of answers called conflict-free replicated data types, CRDTs for short, which guarantee that every copy ends up identical whatever order the updates arrive in. Bishop\'s Stortford learners build one, and then discover that identical is not the same as correct.',
   wa: 'Hello Modern Age Coders, we are in Bishop\'s Stortford and would like a free vibe coding or AI agents lesson.',
 
@@ -158,7 +158,7 @@ module.exports = {
       { h3: 'The learner builds', p: 'Tutors ask and suggest; learners write, run and fix the code, including the AI\'s.' },
       { h3: 'Placement comes first', p: 'The free lesson shows the level, and only then do we recommend a course.' },
       { h3: 'A free full lesson', p: 'The trial costs nothing and we take no card details.' },
-      { h3: 'Five to ten per class', p: 'Classmates share a level and come from towns across the UK.' },
+      { h3: 'Fifteen to twenty per class', p: 'Classmates share a level and come from towns across the UK.' },
       { h3: 'Two slots a week', p: 'Holiday breaks follow your own school calendar; send it and we plan round it.' },
       { h3: 'Fixed UK start time', p: 'Clock changes are absorbed by the tutor, not by your timetable.' }
     ],

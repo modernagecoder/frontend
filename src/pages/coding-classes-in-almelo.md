@@ -16,7 +16,7 @@ Almelo, Overijssel / Live online
 
 Look closely at a woven cloth and the pattern is a grid. At every crossing a thread either passes over or under, and a row of the design can be written as a row of choices: over, over, over, under, under. Jacquard's loom, invented in 1804, read those choices from cards with holes, one card for each pass of the shuttle, so that a machine could weave a complicated pattern without a weaver deciding every thread. Almelo grew on weaving, first in homes and later in mills, and it is a good place to learn what the loom already knew. A picture on a screen is the same grid, with pixels instead of threads. A row such as over five times, under five times can be written far more briefly by counting the runs, and that trick, run-length encoding, still shrinks images and files today. It also has a limit worth learning early: some patterns get longer, not shorter, when you try to describe them this way.
 
-Facts last verified 11 September 2026. Teaching is online; no Almelo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Almelo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the textile town of Twente
 
@@ -182,7 +182,7 @@ The municipality reaches from the Binnenstad out to the villages of Aadorp and B
 - **At home, wherever home is** A learner in Bornerbroek and a learner in the Hofkamp join at the same minute from their own homes. No evening drive into town and no wait at a door afterwards.
 - **School words stay in Dutch** Groep, brugklas, vmbo, havo, vwo and the profielkeuze are kept as Twente schools write them, while the explanation around them is in English.
 - **A proper first lesson** The free lesson is a real one on a real task. At the end the teacher suggests a level, a course and a weekly time, and asks for no payment details.
-- **A group at one stage** Five to ten learners who have reached the same point. Almelo has 10,821 residents under fifteen, and five who match on subject, level and hour are unusual in one town, so a group may bring in learners from other countries.
+- **A group at one stage** Fifteen to twenty learners who have reached the same point. Almelo has 10,821 residents under fifteen, and five who match on subject, level and hour are unusual in one town, so a group may bring in learners from other countries.
 - **Regio Noord breaks** Two lessons a week, about eight each month, at a fixed time, stopping for the regio Noord school holidays that Overijssel follows.
 - **Teachers a few hours ahead** The teachers are in India, three and a half hours ahead of Almelo in summer and four and a half in winter, so late-afternoon, evening and weekend-morning lessons all fit.
 
@@ -193,7 +193,7 @@ The municipality reaches from the Binnenstad out to the villages of Aadorp and B
 All the prices, before anything is booked.
 
 - First class: USD 0. One real lesson on a real task, ending with a level and a course that suits it.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, in a group of five to ten at one level.
+- Group tuition: USD 100 a month. A month of lessons, usually eight, in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. A month of lessons, usually eight, taught to one learner alone.
 
 The fee is set in dollars and is the same for every country, with no euro list to weigh against it, so a family in Aadorp pays exactly what a family in De Riet pays. Nothing is charged until the free lesson has fixed a course and a time, and payment is then arranged through WhatsApp. The pricing page explains pauses, format changes and missed lessons.
@@ -234,7 +234,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Almelo coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

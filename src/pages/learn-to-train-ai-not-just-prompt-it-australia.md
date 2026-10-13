@@ -213,7 +213,7 @@ Students collect, label, train and test in every course. Teachers ask "how do yo
 - **Agreement checked** Labels are double-checked before any training.
 - **Tests held back** Every model is tested on data it has never seen.
 - **Errors explained** Students find out why a model got something wrong.
-- **Small groups** Five to ten learners, or one to one.
+- **Small groups** Fifteen to twenty learners, or one to one.
 - **Age-appropriate tools** Younger students use tools that need no adult accounts.
 
 ## Fees
@@ -221,7 +221,7 @@ Students collect, label, train and test in every course. Teachers ask "how do yo
 A monthly fee in US dollars applies to every country outside India, at one shared rate. There is no charge to start and no term-length commitment, so any month can be your last.
 
 - Free first class: USD 0. A trial lesson at no cost. A frank view of the right level. Card details not needed.
-- Group batch: USD 100 a month. Five to ten learners. A dedicated teacher. Similar age and level. Pay as you go, monthly.
+- Group batch: USD 100 a month. Fifteen to twenty learners. A dedicated teacher. Similar age and level. Pay as you go, monthly.
 - One to one: USD 150 a month. Individual teaching. Flexible weekly time. Learner-led pace.
 
 ## Common questions about training AI
@@ -260,7 +260,7 @@ Not to build the models. Students train their own. Where chatbots appear, we fol
 
 ### Are classes live?
 
-Yes. Every lesson is live online with a teacher, in a small group of five to ten or one to one, at times set for your state.
+Yes. Every lesson is live online with a teacher, in a group of fifteen to twenty or one to one, at times set for your state.
 
 ### How much are the courses?
 

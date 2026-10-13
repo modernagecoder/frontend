@@ -4,7 +4,7 @@ description: "Roblox coding classes for Australian kids: real Luau scripting in 
 canonical: https://learn.modernagecoders.com/roblox-coding-classes-australia
 source: src/pages/roblox-coding-classes-australia.html
 ---
-> Roblox coding is writing scripts in Luau, a programming language based on Lua, inside Roblox Studio, the free tool used to build every Roblox experience. Children learn variables, functions, events and loops by making parts move, doors open and scores change, then move on to the split between client and server code that every online game depends on. Modern Age Coders teaches it live online to Australian children and teens, either in a class of five to ten or privately, starting with a free class.
+> Roblox coding is writing scripts in Luau, a programming language based on Lua, inside Roblox Studio, the free tool used to build every Roblox experience. Children learn variables, functions, events and loops by making parts move, doors open and scores change, then move on to the split between client and server code that every online game depends on. Modern Age Coders teaches it live online to Australian children and teens, either in a class of fifteen to twenty or privately, starting with a free class.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Roblox coding classes
 
@@ -226,7 +226,7 @@ Our teachers are in India, and Australian afternoons overlap neatly with their w
 - **Sunday** For families with full weekday schedules.
 
 - **Free first class** Your child scripts a small part in Roblox Studio with a teacher. No card needed.
-- **Groups of five to ten** Classmates test each other's experiences in supervised lessons.
+- **Groups of fifteen to twenty** Classmates test each other's experiences in supervised lessons.
 - **One to one** For a child with one ambitious experience to build.
 - **Typed by the child** Teachers explain and question; children write every script themselves.
 - **Security from the start** Server checks are taught before the first shop or economy.
@@ -237,7 +237,7 @@ Our teachers are in India, and Australian afternoons overlap neatly with their w
 Families outside India pay one monthly price in US dollars. There is no enrolment fee and nothing to buy inside Roblox; you can stop after any month.
 
 - Free first class: USD 0. A first Luau script with a teacher. Advice on the right starting course. No card or bank details.
-- Group batch: USD 100 a month. Five to ten children per class. Supervised testing with classmates. A regular teacher. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty children per class. Supervised testing with classmates. A regular teacher. Stop after any month.
 - One to one: USD 150 a month. Lessons built around your child's own experience. Flexible pace. Times around school and sport.
 
 ## What Australian parents ask about Roblox coding

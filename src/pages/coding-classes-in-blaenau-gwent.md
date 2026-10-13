@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Blaenau Gwent,
 canonical: https://learn.modernagecoders.com/coding-classes-in-blaenau-gwent
 source: src/pages/coding-classes-in-blaenau-gwent.html
 ---
-> Blaenau Gwent had 66,904 usual residents at the 2021 census. Ebbw Vale is its largest built-up area, followed by Tredegar and Abertillery, then Brynmawr, Blaina and Nantyglo, with smaller places such as Cwm and Llanhilleth. Our teachers work from India and teach in real time on camera; the first lesson, free of charge, pins down a starting level for anyone from Year 1 to Year 13, or an adult. Learners aged 6 to 67 take coding, Python and maths, one-to-one or in a class of five to ten. The Blaenau Gwent project begins beside the Tredegar town clock. Families who continue pay USD 100 each month for a class place or USD 150 each month for a private tutor.
+> Blaenau Gwent had 66,904 usual residents at the 2021 census. Ebbw Vale is its largest built-up area, followed by Tredegar and Abertillery, then Brynmawr, Blaina and Nantyglo, with smaller places such as Cwm and Llanhilleth. Our teachers work from India and teach in real time on camera; the first lesson, free of charge, pins down a starting level for anyone from Year 1 to Year 13, or an adult. Learners aged 6 to 67 take coding, Python and maths, one-to-one or in a class of fifteen to twenty. The Blaenau Gwent project begins beside the Tredegar town clock. Families who continue pay USD 100 each month for a class place or USD 150 each month for a private tutor.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Blaenau Gwent
 
@@ -12,11 +12,11 @@ Blaenau Gwent / Live online
 
 # Coding classes in Blaenau Gwent
 
-**What are the best coding classes in Blaenau Gwent?** Blaenau Gwent had 66,904 usual residents at the 2021 census. Ebbw Vale is its largest built-up area, followed by Tredegar and Abertillery, then Brynmawr, Blaina and Nantyglo, with smaller places such as Cwm and Llanhilleth. Our teachers work from India and teach in real time on camera; the first lesson, free of charge, pins down a starting level for anyone from Year 1 to Year 13, or an adult. Learners aged 6 to 67 take coding, Python and maths, one-to-one or in a class of five to ten. The Blaenau Gwent project begins beside the Tredegar town clock. Families who continue pay USD 100 each month for a class place or USD 150 each month for a private tutor.
+**What are the best coding classes in Blaenau Gwent?** Blaenau Gwent had 66,904 usual residents at the 2021 census. Ebbw Vale is its largest built-up area, followed by Tredegar and Abertillery, then Brynmawr, Blaina and Nantyglo, with smaller places such as Cwm and Llanhilleth. Our teachers work from India and teach in real time on camera; the first lesson, free of charge, pins down a starting level for anyone from Year 1 to Year 13, or an adult. Learners aged 6 to 67 take coding, Python and maths, one-to-one or in a class of fifteen to twenty. The Blaenau Gwent project begins beside the Tredegar town clock. Families who continue pay USD 100 each month for a class place or USD 150 each month for a private tutor.
 
 In the middle of Tredegar stands a cast-iron clock on a giant column, 70 feet or 21.34 metres high. Cadw lists it at Grade II* and records that it was cast by Charles Jordan of Newport and erected in 1858, lit by gas so that ironworkers could see it day and night. The record adds a lovely detail: the town square around it later grew into The Circle, because builders chose to follow the clock's radius. Photograph that scene and two puzzles appear. You must stand surprisingly far back to fit the clock in, and the round street looks nothing like a circle. This page's project explains both with the mathematics every camera and 3D game uses, in Python.
 
-Facts last verified 26 September 2026. Teaching is online; no Blaenau Gwent branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Blaenau Gwent branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Blaenau Gwent learners begin
 
@@ -147,7 +147,7 @@ Every town in the county borough joins lessons the same way.
 Ebbw Vale or Brynmawr, the fee is the same, our standard for every country outside India.
 
 - First class: USD 0. A full free lesson, then a recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month, one-to-one.
 
 Fees are set in US dollars; there is no sterling list. Payment begins only after the free lesson, once a course and weekly time are agreed, and the pricing page explains holidays, missed lessons and switching formats.

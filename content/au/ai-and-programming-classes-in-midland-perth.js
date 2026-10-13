@@ -290,7 +290,7 @@ module.exports = {
       { h3: 'Results read aloud', p: 'Every score is read together and questioned before anyone believes it.' },
       { h3: 'Following WA terms', p: 'Plans fit the state school year, with holiday breaks.' },
       { h3: 'Free trial', p: 'One full lesson free, then a frank recommendation.' },
-      { h3: 'Five to ten learners', p: 'Groups by level, or one-to-one teaching.' },
+      { h3: 'Fifteen to twenty learners', p: 'Groups by level, or one-to-one teaching.' },
       { h3: 'Weekly pattern', p: 'A pair of fixed lessons every week, near enough eight per month.' },
       { h3: 'Across time zones', p: 'Teaching happens from India, so a Midland class at 6:30pm is 4pm India time.' }
     ],
@@ -303,7 +303,7 @@ module.exports = {
     h2: 'Midland class fees',
     intro: 'Three prices, the same for every learner.',
     first: 'Lesson one is free and finishes with a written next step.',
-    group: 'About eight group lessons a month, five to ten in each class.',
+    group: 'About eight group lessons a month, fifteen to twenty in each class.',
     private: 'About eight private lessons a month, one teacher per learner.',
     closer: 'Fees are charged in US dollars, and nothing is paid until after the trial when a course and timing have been chosen. See the pricing page for holiday and absence rules.'
   },
@@ -345,12 +345,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Midland learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Will Midland groups cover Copilot Studio?', a: 'No. Copilot Studio is one to one only; groups code their agents in Python.' }

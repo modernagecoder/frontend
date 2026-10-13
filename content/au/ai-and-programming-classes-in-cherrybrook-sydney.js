@@ -322,7 +322,7 @@ module.exports = {
       { h3: 'Live with a teacher', p: 'The teacher sees the learner\'s screen, talks through each step and fixes misunderstandings straight away.' },
       { h3: 'Linked to NSW schooling', p: 'Teachers use NSW stage and syllabus terms and plan around the state school holidays.' },
       { h3: 'First lesson free', p: 'A full trial lesson at no cost, then a recommended course, level and regular time slot.' },
-      { h3: 'Groups by level', p: 'Five to ten learners of similar ability, or one-to-one lessons if that suits the learner better.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners of similar ability, or one-to-one lessons if that suits the learner better.' },
       { h3: 'Twice weekly', p: 'Two scheduled lessons each week, around eight a month, with any breaks agreed early.' },
       { h3: 'Teachers in India', p: 'A 3:45pm Cherrybrook lesson during daylight saving is 10:15am India time; outside daylight saving it is 11:15am.' }
     ],
@@ -335,7 +335,7 @@ module.exports = {
     h2: 'Fees for Cherrybrook lessons',
     intro: 'Three simple prices covering every course.',
     first: 'A full first lesson at no charge, finishing with a course and time recommendation.',
-    group: 'A month of group lessons, usually eight, with five to ten learners at the same level.',
+    group: 'A month of group lessons, usually eight, with fifteen to twenty learners at the same level.',
     private: 'Individual lessons, about eight a month, at a fixed weekly time.',
     closer: 'Outside India all fees are invoiced in US dollars, so Cherrybrook families pay the same as anyone else in the Hornsby area. Nothing is charged until the trial agrees a course and time, and the pricing page explains breaks, missed lessons and changing formats.'
   },
@@ -384,12 +384,12 @@ module.exports = {
       },
       {
         q: 'How much are AI and programming classes in Cherrybrook?',
-        a: 'The first lesson is free. Group lessons cost USD 100 a month for two live classes a week, about eight in total, with five to ten learners; one-to-one is USD 150 a month at the same rate of lessons. Payment begins only once the course and time are agreed.',
+        a: 'The first lesson is free. Group lessons cost USD 100 a month for two live classes a week, about eight in total, with fifteen to twenty learners; one-to-one is USD 150 a month at the same rate of lessons. Payment begins only once the course and time are agreed.',
         boiler: true
       },
       {
         q: 'How many learners share a class?',
-        a: 'Groups have five to ten learners at a similar level, whatever their age. If no group time works, we arrange one-to-one lessons.',
+        a: 'Groups have fifteen to twenty learners at a similar level, whatever their age. If no group time works, we arrange one-to-one lessons.',
         boiler: true
       }
     ]

@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding classes in County Offaly',
   capsuleQ: 'What are the best coding classes in County Offaly?',
-  capsule: 'There are 83,150 people in County Offaly and 17,167 of them are aged 15 or under. Tullamore is the county town, where the census counted 15,598 people, Birr is next with 4,726, and the rest of the county lives in smaller places between the two. Nearly 21,000 people here drive to work and their journeys are among the longer ones in the country. What we run is simple: live classes, one fixed hour a week, ability groups of five to ten or one to one, from age six to sixty-seven. Try the first lesson at no cost, then a group place is USD 100 a month, a private one USD 150.',
+  capsule: 'There are 83,150 people in County Offaly and 17,167 of them are aged 15 or under. Tullamore is the county town, where the census counted 15,598 people, Birr is next with 4,726, and the rest of the county lives in smaller places between the two. Nearly 21,000 people here drive to work and their journeys are among the longer ones in the country. What we run is simple: live classes, one fixed hour a week, ability groups of fifteen to twenty or one to one, from age six to sixty-seven. Try the first lesson at no cost, then a group place is USD 100 a month, a private one USD 150.',
   lead: 'For seventy years the largest telescope on earth stood in Birr, and everything a telescope does comes down to resolution: how small a thing it can separate from the thing beside it. Statistics has the same limit, and it depends on the instrument. The figure we most wanted here was the share of Offaly homes with broadband, since our classes need a connection. The source most often quoted, the statistics office\'s annual internet survey, reports no finer than the Midland region, four counties at once, and this page once said that no Offaly figure therefore existed. That was wrong. The census is a different instrument, and it publishes internet access for every county, town and small neighbourhood: in Offaly, 21,841 of 28,702 households had broadband in April 2022. The data was not missing. We had asked only one instrument.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in County Offaly.',
 
@@ -181,7 +181,7 @@ module.exports = {
     cells: [
       { h3: 'Taught live by a person', p: 'A teacher for the full hour who expects the learner to speak, not a video with a comment box.' },
       { h3: 'Nothing to drive to', p: 'With commutes here averaging over half an hour, the journey a class does not require is the reason it survives past February.' },
-      { h3: 'Grouped by ability', p: 'Five to ten learners working at one level, gathered from Offaly and several other countries so a real peer group exists.' },
+      { h3: 'Grouped by ability', p: 'Fifteen to twenty learners working at one level, gathered from Offaly and several other countries so a real peer group exists.' },
       { h3: 'What you need', p: 'A laptop or desktop, sound that works and a connection steady enough for video. The free lesson tests exactly that.' },
       { h3: 'Built around Irish terms', p: 'Junior Cycle, Transition Year and senior cycle, with mid-terms and exam weeks planned for in advance.' },
       { h3: 'Hours that work here', p: 'Afternoons, evenings and weekend mornings, taught by a team several hours ahead of Irish time, which is what keeps those slots staffed.' }
@@ -193,7 +193,7 @@ module.exports = {
     h2: 'What it costs in Offaly',
     intro: 'Three numbers and the conditions in plain sight.',
     first: 'A complete opening lesson at no charge, which also proves the connection works.',
-    group: 'A month of group classes, around eight lessons, five to ten learners at one level.',
+    group: 'A month of group classes, around eight lessons, fifteen to twenty learners at one level.',
     private: 'A month of one to one teaching on the same weekly rhythm.',
     closer: 'We charge monthly in US dollars, the single rate used outside India, so a family in Birr pays what a family in Tullamore pays and no euro list exists alongside it. Nothing is charged until a course and an hour have been agreed. Pauses, missed lessons and changes of format are all written down on the pricing page instead of being discovered later.'
   },
@@ -218,7 +218,7 @@ module.exports = {
       { q: 'Do you teach children outside Tullamore?', a: 'Yes, and it changes nothing about the class. Edenderry, Clara, Ferbane, Kilcormac and Banagher all get the same teacher at the same hour as anywhere else.' },
       { q: 'When do classes run?', a: 'Afternoons, evenings and weekend mornings, at a slot agreed in the free lesson. Our teaching team works several hours ahead of Irish time, which makes those hours easy to staff.' },
       { q: 'Is there a Modern Age Coders classroom in County Offaly?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do County Offaly coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do County Offaly coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

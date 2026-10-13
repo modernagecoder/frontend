@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'Coding classes in County Kerry',
   capsuleQ: 'What are the best coding classes in County Kerry?',
-  capsule: 'County Kerry holds 156,458 people, up by 8,751 since 2016, with 28,756 of them aged 15 and under. Tralee is the largest town at 26,079 and Killarney follows at 14,412, while the rest of the county lives in smaller towns and townlands from Listowel down to Kenmare and out along the peninsulas. One Kerry school was on the first national list for Leaving Certificate Computer Science. We teach ages 6 to 67 live online at a fixed weekly hour, in ability groups of five to ten or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.',
+  capsule: 'County Kerry holds 156,458 people, up by 8,751 since 2016, with 28,756 of them aged 15 and under. Tralee is the largest town at 26,079 and Killarney follows at 14,412, while the rest of the county lives in smaller towns and townlands from Listowel down to Kenmare and out along the peninsulas. One Kerry school was on the first national list for Leaving Certificate Computer Science. We teach ages 6 to 67 live online at a fixed weekly hour, in ability groups of fifteen to twenty or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.',
   lead: 'Here is a real problem, and a Kerry one. The Central Statistics Office published how many people in this county could speak Irish. In its summary release of 30 May 2023 the figure was 62,887. In its Profile 8 release of 19 December 2023, describing the same measure from the same census in the same county, the figure was 62,877. Ten people apart, two official documents, seven months between them. Nobody has done anything wrong, and neither number is fake. So which one do you put in your project, and what do you say about the other? That question has a right answer, it takes about four sentences to write down, and almost nobody is ever taught it. It is the centre of this page.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in County Kerry.',
 
@@ -188,7 +188,7 @@ module.exports = {
       { h3: 'No second car journey', p: 'With an average commute of 24.6 minutes already, a class that needs another drive is a class that gets dropped in November.' },
       { h3: 'Irish school stages', p: 'We work to the Junior Cycle, Transition Year, fifth year and sixth year, and plan around exam weeks.' },
       { h3: 'A free first lesson', p: 'Real teaching, a level identified, a course suggested and an hour proposed. No card details are requested.' },
-      { h3: 'Groups of five to ten', p: 'Learners at one ability level, gathered across Kerry and several countries so the right group runs at a workable hour.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners at one ability level, gathered across Kerry and several countries so the right group runs at a workable hour.' },
       { h3: 'The same hour each week', p: 'Usually two lessons a week, around eight a month, fixed once and kept.' },
       { h3: 'Teachers ahead of you', p: 'Our teachers work from India, four and a half hours ahead of Irish time in summer and five and a half in winter.' }
     ],
@@ -199,7 +199,7 @@ module.exports = {
     h2: 'Kerry class fees',
     intro: 'Three numbers, and nothing hidden behind them.',
     first: 'The first lesson, taught in full, at no charge.',
-    group: 'A month of group classes, normally eight lessons, five to ten learners at one level.',
+    group: 'A month of group classes, normally eight lessons, fifteen to twenty learners at one level.',
     private: 'A month of one to one classes on the same weekly pattern.',
     closer: 'We bill monthly in US dollars, at the one rate we charge outside India, so Cahersiveen and Tralee pay the same and there is no euro price list. Nothing is charged until the free lesson has agreed a course and a weekly hour, and the pricing page sets out pauses, missed lessons and moves between group and private.'
   },
@@ -224,7 +224,7 @@ module.exports = {
       { q: 'Why does this page mention the road to work so often?', a: 'Because 38,084 people in Kerry drive to work and the average journey has grown to 24.6 minutes. An online class removes the second journey of the day rather than adding one.' },
       { q: 'What hours do classes run?', a: 'Afternoons, evenings and weekend mornings. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter, and the weekly hour is agreed in the free lesson.' },
       { q: 'Is there a Modern Age Coders classroom in County Kerry?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do County Kerry coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do County Kerry coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

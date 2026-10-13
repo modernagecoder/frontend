@@ -16,7 +16,7 @@ Book a Free C++ Demo ClassSee the Roadmap**4.9/5**Learner rating**5–8**Student
 
 ## Quick answer
 
-**Modern Age Coders runs live online C++ classes for college students built around placements.** The track covers Core C++, OOP and the STL, then a complete Data Structures & Algorithms syllabus, arrays, linked lists, stacks, queues, trees, graphs, hashing, recursion and dynamic programming, plus competitive-programming patterns and mock interviews. Classes are live in small batches of 5–8 students, aimed squarely at coding rounds and product-company interviews, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
+**Modern Age Coders runs live online C++ classes for college students built around placements.** The track covers Core C++, OOP and the STL, then a complete Data Structures & Algorithms syllabus, arrays, linked lists, stacks, queues, trees, graphs, hashing, recursion and dynamic programming, plus competitive-programming patterns and mock interviews. Classes are live in batches of 15–20 students, aimed squarely at coding rounds and product-company interviews, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
 
 Start Today
 
@@ -108,7 +108,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo.
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 learners per batch
+- 15–20 learners per batch
 - Live C++ + DSA sessions
 - Recorded class access
 - Completion certificate
@@ -119,7 +119,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 learners per batch
+- Up to 6 learners per batch
 - More personal mentoring
 - Recorded class access
 - Mock interviews & certificate
@@ -183,7 +183,7 @@ Arrays, strings, linked lists, stacks, queues, hashing, recursion, trees, graphs
 
 How much do C++ classes for college students cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available before you enrol.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available before you enrol.
 
 Do you provide mock interviews and problem-solving practice?+
 

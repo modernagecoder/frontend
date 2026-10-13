@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in High Wycombe',
   capsuleQ: 'What are the best coding and AI classes in High Wycombe?',
-  capsule: 'High Wycombe is a built-up area of 83,535 people in the 2021 census, with Hazlemere at 20,005 and Beaconsfield at 14,145 nearby in Buckinghamshire, a county where 10 to 14 year olds make up 6.7 per cent of residents against 6.0 in England. The town built its name on chairs, and Wycombe Museum opened a Chair Discovery Centre in 2026. Learners anywhere from 6 to 67 can join our live online lessons in coding, AI, Python programming and maths, taught by teachers in India, either privately or in a group of five to ten matched by level. Your first lesson is free and shapes the plan. The High Wycombe project uses the museum\'s own chair records. Staying on is USD 100 a month for a class or USD 150 a month with a personal tutor.',
+  capsule: 'High Wycombe is a built-up area of 83,535 people in the 2021 census, with Hazlemere at 20,005 and Beaconsfield at 14,145 nearby in Buckinghamshire, a county where 10 to 14 year olds make up 6.7 per cent of residents against 6.0 in England. The town built its name on chairs, and Wycombe Museum opened a Chair Discovery Centre in 2026. Learners anywhere from 6 to 67 can join our live online lessons in coding, AI, Python programming and maths, taught by teachers in India, either privately or in a group of fifteen to twenty matched by level. Your first lesson is free and shapes the plan. The High Wycombe project uses the museum\'s own chair records. Staying on is USD 100 a month for a class or USD 150 a month with a personal tutor.',
   lead: 'A Science Museum Group record describes a lathe once used near High Wycombe by a bodger, a craftsman who turned the legs of Windsor chairs, still working until around 1953. Wycombe Museum now holds almost 250 chairs in its Chair Discovery Centre and is putting its chair records online: about 12 per cent, 34 records, in 2020, and a further 21 in 2025. Look through those online records and a simple question gets tricky. What share of these chairs were made in High Wycombe? Some records name the town, some name other places, and some leave the place blank or write "Unknown". How you treat those gaps changes the answer by almost thirty percentage points. This page\'s project works through it in Python.',
   wa: 'Hello Modern Age Coders, I would like a free coding or AI class for a learner in High Wycombe.',
 
@@ -163,7 +163,7 @@ module.exports = {
       { h3: 'Student-written code', p: 'Each learner types their own programs; the tutor studies the shared screen and prompts at the right moments.' },
       { h3: 'Year-group placement', p: 'A Year 2 or a Year 11 starts at the point their year and trial lesson suggest, using exam board wording.' },
       { h3: 'No-cost first lesson', p: 'A full trial with nothing to pay, and a plain recommendation at the end.' },
-      { h3: 'Level-matched classes', p: 'Five to ten learners at one stage, gathered from all over Britain.' },
+      { h3: 'Level-matched classes', p: 'Fifteen to twenty learners at one stage, gathered from all over Britain.' },
       { h3: 'Termly rhythm', p: 'Two sessions a week while schools are in, none during breaks.' },
       { h3: 'Stable UK time', p: 'The March and October clock changes leave your slot where it was.' }
     ],

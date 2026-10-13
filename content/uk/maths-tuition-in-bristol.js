@@ -41,7 +41,7 @@ module.exports = {
   twitterDescription: 'Bristol maths, taught live online: do people who live further out really cycle and walk less?',
   pageName: 'Maths Tuition in Bristol',
   webPageDescription: 'Live online maths tuition for Bristol learners aged 6 to 67: KS2 and Year 6 SATs maths, KS3, GCSE and IGCSE, A level Maths and Further Maths, and adult maths including Functional Skills and GCSE resits, with a scatter graph project on Census 2021 travel to work data.',
-  courseDescription: 'Live online maths lessons for Bristol learners of every age, in groups of five to ten at one level or one to one, following the national curriculum for England and each exam board\'s GCSE and A level specification.',
+  courseDescription: 'Live online maths lessons for Bristol learners of every age, in groups of fifteen to twenty at one level or one to one, following the national curriculum for England and each exam board\'s GCSE and A level specification.',
   crumbs: [{ name: 'Courses', href: '/courses' }, { name: 'Coding classes in the UK', href: '/coding-classes-in-united-kingdom' }],
   crumbLabel: 'Maths tuition in Bristol',
   navLinks: [
@@ -64,11 +64,11 @@ module.exports = {
     ['Exam boards', 'AQA, Edexcel, OCR, and IGCSE'],
     ['Sixth form', 'A level Maths and Further Maths'],
     ['Adults', 'Functional Skills, GCSE resits'],
-    ['Teaching', 'Live online, 5 to 10 per class or solo'],
+    ['Teaching', 'Live online, 15 to 20 per class or solo'],
     ['Bristol project', 'Commuting by neighbourhood on a scatter graph']
   ],
   capsuleQ: 'What do Bristol learners get from our maths tuition?',
-  capsule: 'Bristol learners aged 6 to 67 take live maths lessons with us online, either in a class of five to ten people working at the same level or one to one. Young children build times tables for the Year 4 check and the reasoning needed for Year 6 SATs maths. Older pupils move through KS3 maths into GCSE, foundation or higher, for AQA, Edexcel or OCR, or into IGCSE. Sixth formers study A level Maths, with Further Maths if they want it, and adults come for Functional Skills maths, GCSE maths resits or simply to feel confident with numbers again. Our Bristol example plots Census 2021 commuting data for 57 neighbourhoods and shows where a trend line can and cannot be trusted. Your first lesson is free; ongoing lessons are USD 100 a month in a class or USD 150 a month one to one.',
+  capsule: 'Bristol learners aged 6 to 67 take live maths lessons with us online, either in a class of fifteen to twenty people working at the same level or one to one. Young children build times tables for the Year 4 check and the reasoning needed for Year 6 SATs maths. Older pupils move through KS3 maths into GCSE, foundation or higher, for AQA, Edexcel or OCR, or into IGCSE. Sixth formers study A level Maths, with Further Maths if they want it, and adults come for Functional Skills maths, GCSE maths resits or simply to feel confident with numbers again. Our Bristol example plots Census 2021 commuting data for 57 neighbourhoods and shows where a trend line can and cannot be trusted. Your first lesson is free; ongoing lessons are USD 100 a month in a class or USD 150 a month one to one.',
 
   picks: {
     eyebrow: 'Popular with Bristol families',
@@ -268,7 +268,7 @@ module.exports = {
     cells: [
       { h3: 'Same tutor every week', p: 'Continuity means no time lost re-explaining.' },
       { h3: 'Progress notes', p: 'Short, honest updates after lessons for families.' },
-      { h3: 'Matched by level', p: 'Classes of five to ten at one level, wherever they live.' },
+      { h3: 'Matched by level', p: 'Classes of fifteen to twenty at one level, wherever they live.' },
       { h3: 'Census and local data', p: 'Real Bristol numbers next to exam questions.' },
       { h3: 'Private lessons', p: 'One to one for a particular gap or an exam close at hand.' },
       { h3: 'Why before how', p: 'Learners explain an idea before they practise it.' }
@@ -283,7 +283,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Billed in US dollars each month, one price for every country outside India, with no registration fee and no contract to sign.',
     free: ['A real lesson pitched at the learner', 'Clear feedback afterwards', 'No card details'],
-    group: ['A class of five to ten at one level', 'A regular tutor', 'Homework marked with comments', 'Course certificate'],
+    group: ['A class of fifteen to twenty at one level', 'A regular tutor', 'Homework marked with comments', 'Course certificate'],
     one: ['One tutor, one learner', 'Focused on particular gaps', 'Useful before exams']
   },
 
@@ -291,7 +291,7 @@ module.exports = {
     eyebrow: 'Bristol maths questions',
     h2: 'Questions Bristol families ask before booking',
     items: [
-      { q: 'How much is a maths tutor in Bristol?', a: 'The first lesson is free. Ongoing lessons cost USD 100 a month in a class of five to ten learners at the same level, or USD 150 a month for private lessons. You pay no registration fee and can stop whenever you like.' },
+      { q: 'How much is a maths tutor in Bristol?', a: 'The first lesson is free. Ongoing lessons cost USD 100 a month in a class of fifteen to twenty learners at the same level, or USD 150 a month for private lessons. You pay no registration fee and can stop whenever you like.' },
       { q: 'What is a line of best fit?', a: 'It is a straight line drawn through a scatter graph so that it follows the general trend of the points as closely as possible. It can be used to estimate values inside the range of the data, but predictions outside that range are unreliable.' },
       { q: 'Are online maths lessons as effective as in-person tutoring?', a: 'For most learners, yes, as long as the lesson is live and the tutor sees the learner\'s working as it is written. Our tutors use a shared board and step in at the first wrong line.' },
       { q: 'Can adults resit GCSE maths with you?', a: 'Yes. Learners of any age join our GCSE course to resit. We begin by working out which topics are secure and then focus where it will help the result most.' },

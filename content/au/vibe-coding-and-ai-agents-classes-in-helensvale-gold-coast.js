@@ -282,7 +282,7 @@ module.exports = {
       { h3: 'Real-time teacher', p: 'A teacher leads each session and looks at learners\' code live.' },
       { h3: 'Term-based', p: 'Sessions follow Queensland school terms with holiday breaks.' },
       { h3: 'Free first session', p: 'A trial at no cost, then a written plan.' },
-      { h3: 'Group or private', p: 'Groups of five to ten by level, or one-to-one.' },
+      { h3: 'Group or private', p: 'Groups of fifteen to twenty by level, or one-to-one.' },
       { h3: 'Weekly rhythm', p: 'Two sessions a week, about eight a month.' },
       { h3: 'India hours', p: 'A 4:30pm Helensvale session is noon in India every day of the year.' }
     ],
@@ -295,7 +295,7 @@ module.exports = {
     h2: 'Helensvale fees',
     intro: 'The same fees apply to all learners.',
     first: 'The first session is free and includes a plan.',
-    group: 'Group: around eight sessions monthly, five to ten learners.',
+    group: 'Group: around eight sessions monthly, fifteen to twenty learners.',
     private: 'Private: around eight sessions monthly with one teacher.',
     closer: 'Fees are charged in US dollars once the trial has agreed a course and weekly slot. The pricing page explains holidays and missed sessions.'
   },
@@ -331,12 +331,12 @@ module.exports = {
       },
       {
         q: 'What do Helensvale classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How are learners grouped?',
-        a: 'Groups of five to ten share a level and pace, whatever their age or suburb. If no group time suits, one-to-one lessons are an option.',
+        a: 'Groups of fifteen to twenty share a level and pace, whatever their age or suburb. If no group time suits, one-to-one lessons are an option.',
         boiler: true
       },
       { q: 'Can adults build agents here?', a: 'Yes. Adults study in their own groups or privately, often on planning problems from work.' }

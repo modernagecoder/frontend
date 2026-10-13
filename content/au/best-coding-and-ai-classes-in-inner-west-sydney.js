@@ -311,7 +311,7 @@ module.exports = {
       { h3: 'Learn at home', p: 'A laptop and a quiet table are enough; the teacher shares code and screen live.' },
       { h3: 'NSW calendar', p: 'Planning tracks NSW syllabus stages, with no lessons in the state school holidays.' },
       { h3: 'Trial first', p: 'The free first class is a real lesson, closing with a course, level and time suggestion.' },
-      { h3: 'Five to ten learners', p: 'Groups are formed by level and pace, mixing Inner West learners with others.' },
+      { h3: 'Fifteen to twenty learners', p: 'Groups are formed by level and pace, mixing Inner West learners with others.' },
       { h3: 'Two lessons weekly', p: 'Two set lessons a week, roughly eight a month, with planned breaks agreed early.' },
       { h3: 'Teachers in India', p: 'A 5:30pm Inner West lesson in daylight saving time is 12 noon in India; after the clocks go back, it is 1pm there.' }
     ],
@@ -324,7 +324,7 @@ module.exports = {
     h2: 'Inner West class fees',
     intro: 'Everything is covered by three amounts.',
     first: 'Your first class is free and ends with a clear recommendation.',
-    group: 'A month of group lessons, usually eight, with five to ten learners at one level.',
+    group: 'A month of group lessons, usually eight, with fifteen to twenty learners at one level.',
     private: 'Roughly eight one-to-one lessons every month.',
     closer: 'Families outside India are invoiced in US dollars, the same for every Inner West household. Nothing is charged until after the trial, when course and time are set; holidays, absences and switching formats are explained on the pricing page.'
   },
@@ -366,7 +366,7 @@ module.exports = {
       },
       {
         q: 'How much are coding classes for Inner West learners?',
-        a: 'The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before payment.',
+        a: 'The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before payment.',
         boiler: true
       },
       {

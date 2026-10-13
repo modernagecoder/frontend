@@ -16,7 +16,7 @@ Mansfield, City of Brisbane, Queensland / Live online
 
 Brisbane City Council publishes a bin collection day for every property. In Mansfield that is 3,402 rows, two collection days and 124 street names. It is tempting to assume one street means one day. A few lines of grouping code test that assumption properly, and it fails in exactly five places.
 
-Facts last verified 12 October 2026. Teaching is online; no Mansfield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Mansfield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that make data rules testable
 
@@ -187,7 +187,7 @@ Everything happens live on video, so learners join from home with no travel.
 - **Code together** The learner writes the queries and code while the teacher follows on the shared screen.
 - **Term planning** Lessons fit Queensland school terms and stop for the holidays.
 - **No-cost trial** One full lesson free, with a written recommendation afterwards.
-- **Five to ten per group** Learners grouped by level and pace; one to one also available.
+- **Fifteen to twenty per group** Learners grouped by level and pace; one to one also available.
 - **Two a week** Regular weekly slots, about eight lessons a month.
 - **India time** With teachers in India, a 5:30pm Mansfield class starts at 1pm India time, the whole year round.
 
@@ -198,7 +198,7 @@ Everything happens live on video, so learners join from home with no travel.
 Three prices for every learner.
 
 - First class: USD 0. Lesson one is free and ends with a clear course suggestion.
-- Group tuition: USD 100 a month. Group classes: close to eight lessons a month with five to ten learners at one level.
+- Group tuition: USD 100 a month. Group classes: close to eight lessons a month with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Private classes: close to eight lessons a month with one dedicated teacher.
 
 Mansfield families pay in US dollars, and only after the trial, once a course and time are fixed. The pricing page sets out holidays, absences and changes of format.
@@ -235,11 +235,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Mansfield learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Is Copilot Studio taught in group classes?
 

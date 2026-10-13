@@ -16,7 +16,7 @@ Coffs Harbour, New South Wales, Australia / Live online
 
 Ask which school is closest to Tyalla Public School and the answer is Orara High School, 126 metres away. Ask which school is closest to Orara High School and the answer comes straight back: Tyalla. Pairs like that, where two places choose each other, are rarer than you might expect. Our Coffs Harbour project takes the state government's list of 26 public schools in the council area, finds each school's nearest neighbour in Python, and then asks which of those choices are returned. Only six pairs are. Nine schools are not the nearest neighbour of anything at all.
 
-Facts last verified 7 October 2026. Teaching is online; no Coffs Harbour branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Coffs Harbour branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four places a Coffs Harbour learner might start
 
@@ -187,7 +187,7 @@ The schools in our project stretch about 40 kilometres from north to south, and 
 - **Coast and hinterland** A learner in Mullaway and one in Coramba can share a lesson without either making the drive along the highway or up the valley.
 - **NSW stages, English lessons** Lesson plans follow the NSW stages, from Stage 4 in Year 7 up to the HSC years, and pause with the state's term breaks. Older students can tie projects to their computing subjects.
 - **A real first lesson** The free trial is an ordinary class rather than a sales call; at the end the teacher proposes a level, a course and a slot, and no payment details are taken.
-- **Matched groups** Five to ten learners at the same stage, from Coffs Harbour and other places, so a regional city still has full classes.
+- **Matched groups** Fifteen to twenty learners at the same stage, from Coffs Harbour and other places, so a regional city still has full classes.
 - **Twice a week** Two lessons each week at the same hour, roughly eight per month, pausing for school holidays and exams by arrangement.
 - **A teacher in India** A 6pm lesson in Coffs Harbour in June starts at 1:30pm India time; once NSW clocks move forward in October, the same lesson starts at 12:30pm there.
 
@@ -198,7 +198,7 @@ The schools in our project stretch about 40 kilometres from north to south, and 
 Three figures, with nothing hidden.
 
 - First class: USD 0. One full lesson free, followed by a suggested level, course and lesson time.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, shared with five to ten learners at the same level.
+- Group tuition: USD 100 a month. A month of lessons, usually eight, shared with fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. Around eight lessons a month on the same pattern, one teacher with one learner.
 
 Outside India every invoice is in US dollars, so Toormina and Korora families pay identical amounts and no Coffs Harbour price list exists. Nothing is charged until the trial has fixed a course and a time, and the pricing page covers breaks, missed lessons and switching between formats.
@@ -239,11 +239,11 @@ No, and none is claimed. Every lesson is live and online, and we have no premise
 
 ### What do Coffs Harbour coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.
 
 ### How big are the groups?
 
-Five to ten learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.
+Fifteen to twenty learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.
 
 ## More for Coffs Harbour and New South Wales learners
 

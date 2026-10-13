@@ -177,7 +177,7 @@ module.exports = {
       { h3: 'A short walk to nowhere', p: 'A learner in Adegeest and a learner in Dobbewijk begin the lesson together, each at home. Nobody bikes to Leiden or The Hague for it, and nobody waits to be collected.' },
       { h3: 'Dutch school labels kept', p: 'Groep, brugklas, vmbo, havo, vwo and the profielkeuze are used as Voorschoten families know them, while the teaching is in English.' },
       { h3: 'The first hour costs nothing', p: 'It is a full lesson on a real task. The teacher then recommends a level, a course and a weekly time, and no payment details are asked for.' },
-      { h3: 'Classmates at your stage', p: 'Five to ten learners at the same point in the same subject. Voorschoten has 4,048 residents under fifteen, too few to fill every stage and hour locally, so groups include learners from other places.' },
+      { h3: 'Classmates at your stage', p: 'Fifteen to twenty learners at the same point in the same subject. Voorschoten has 4,048 residents under fifteen, too few to fill every stage and hour locally, so groups include learners from other places.' },
       { h3: 'Regio Midden weeks off', p: 'Twice a week, around eight lessons a month, at one set hour, pausing for the regio Midden holidays that Zuid-Holland schools keep.' },
       { h3: 'Time in India, evenings here', p: 'The teachers are three and a half hours ahead of Voorschoten in summer and four and a half in winter, so late afternoons, evenings and weekend mornings are all open.' }
     ],
@@ -188,7 +188,7 @@ module.exports = {
     h2: 'What Voorschoten families pay',
     intro: 'The whole price, in three lines.',
     first: 'A genuine lesson on a genuine task, finishing with a level and a course.',
-    group: 'Per month, normally eight lessons, five to ten learners at one level.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners at one level.',
     private: 'Per month, normally eight lessons, one teacher for one learner.',
     closer: 'The dollar fee is the same in every country and there is no euro list, so a household in Krimwijk pays what a household in Starrenburg pays. Nothing is charged until the free lesson has fixed a course and a time, and payment is then arranged on WhatsApp. The pricing page explains pauses, changes of format and missed lessons.'
   },
@@ -213,7 +213,7 @@ module.exports = {
       { q: 'How many schools are there in Voorschoten?', a: 'The statistics count 8 primary establishments teaching 2,165 pupils in the municipality and list no secondary establishment. This page rates no school.' },
       { q: 'Are the lessons in English, and when are they?', a: 'Lessons are in English, with Dutch school words such as brugklas, havo and vwo left untranslated. The teachers work from India, three and a half hours ahead of Voorschoten in summer and four and a half in winter, so late-afternoon, evening and weekend slots are easy to arrange. The slot is agreed in the free lesson, and regio Midden holidays are kept.' },
       { q: 'Is there a Modern Age Coders classroom in Voorschoten?', a: 'No, and none is claimed here or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Voorschoten coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Voorschoten coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

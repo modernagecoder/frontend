@@ -62,7 +62,7 @@ module.exports = {
 
   h1: 'Coding classes in Reading',
   capsuleQ: 'What are the best coding classes in Reading?',
-  capsule: 'Reading had 174,224 residents at the 2021 census and is a town of young adults: people aged 20 to 24 made up 8.4 per cent of residents and those aged 30 to 34 made up 9.0, against 6.0 and 7.0 per cent across England. Caversham, inside the borough, is a built-up area of 33,040 on its own. Reading Museum also holds Britain\'s Bayeux Tapestry, a full-size Victorian copy. Our teachers work from India and teach every lesson live by video, in coding, Python, AI and maths, for anyone from 6 to 67, one-to-one or in a small class of five to ten at one level. A free first lesson finds the right course. The Reading project asks whose mistake is whose when copies are made from copies. Continuing costs USD 100 a month for a class or USD 150 a month with a private tutor.',
+  capsule: 'Reading had 174,224 residents at the 2021 census and is a town of young adults: people aged 20 to 24 made up 8.4 per cent of residents and those aged 30 to 34 made up 9.0, against 6.0 and 7.0 per cent across England. Caversham, inside the borough, is a built-up area of 33,040 on its own. Reading Museum also holds Britain\'s Bayeux Tapestry, a full-size Victorian copy. Our teachers work from India and teach every lesson live by video, in coding, Python, AI and maths, for anyone from 6 to 67, one-to-one or in a class of fifteen to twenty at one level. A free first lesson finds the right course. The Reading project asks whose mistake is whose when copies are made from copies. Continuing costs USD 100 a month for a class or USD 150 a month with a private tutor.',
   lead: 'In 1885 Elizabeth Wardle of the Leek Embroidery Society visited Bayeux, and soon thirty-five women were stitching a full-size copy of its famous embroidery, over 70 metres long, finished at Whitsuntide 1886. Reading Museum has displayed it since the town was given it. The museum\'s history page tells a lovely story about mistakes. In the Reading copy one naked figure in the border wears pants. The embroiderers are often blamed for adding them, but the museum explains they simply copied hand-coloured photographs whose images had already been "cleaned up" by staff at the South Kensington Museum. The copy was faithful to its source; the source had changed. How do errors build up when every copy is made from the last, and how do you tell who made them? This page\'s project works it out in Python.',
   wa: 'Hello Modern Age Coders, I would like a free coding class for a learner in Reading.',
 
@@ -166,7 +166,7 @@ module.exports = {
       { h3: 'Learners at the keyboard', p: 'Students type their own code; the teacher watches the shared screen and nudges with questions.' },
       { h3: 'By year group', p: 'A Year 3 or a Year 11 in Reading starts at a level fitting their school year, using exam board names.' },
       { h3: 'Trial first', p: 'The opening lesson is free and ends with a straight recommendation.' },
-      { h3: 'Classes at one stage', p: 'Five to ten learners working at one level, from all over the UK.' },
+      { h3: 'Classes at one stage', p: 'Fifteen to twenty learners working at one level, from all over the UK.' },
       { h3: 'School terms', p: 'Two lessons each week in term; the holidays are left free.' },
       { h3: 'On UK time', p: 'Your lesson stays at its UK hour through the clock changes; teachers move instead.' }
     ],
@@ -177,7 +177,7 @@ module.exports = {
     h2: 'Fees in Reading',
     intro: 'Reading pays the same fee as every country we teach outside India.',
     first: 'A complete free lesson and honest advice.',
-    group: 'Roughly eight lessons a month with five to ten classmates.',
+    group: 'Roughly eight lessons a month with fifteen to twenty classmates.',
     private: 'Roughly eight lessons a month with one tutor.',
     closer: 'All fees are in US dollars and never in sterling. You pay only after the trial has settled a course and a weekly slot; holidays, missed lessons and format changes are set out on the pricing page.'
   },

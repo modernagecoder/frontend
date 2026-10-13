@@ -186,7 +186,7 @@ Our teachers log in from India. Victoria leads India by 4.5 hours in winter; wit
 - **Our datasets only** Public data and questions we choose; assessed work never enters the lesson.
 - **Every change logged** Cleansing taught as a documented process, not silent deletion.
 - **Interpretation drilled** What a statistic shows, what it hides, and how to say so briefly.
-- **Small senior groups** Five to ten students at one level, each defending an analysis aloud.
+- **Small senior groups** Fifteen to twenty students at one level, each defending an analysis aloud.
 - **One-to-one option** For SQL or statistics gaps that need fast repair.
 - **Straight about results** We will not promise a study score or ATAR; the analysis and the mark are the student's.
 
@@ -195,7 +195,7 @@ Our teachers log in from India. Victoria leads India by 4.5 hours in winter; wit
 Data Analytics lessons are priced per month in US dollars, one rate for every family outside India, with nothing up front and no contract.
 
 - Free first class: USD 0. A real lesson with a teacher. A clear read on what to work on. No card required.
-- Group batch: USD 100 a month. Five to ten students at one level. A steady teacher all term. Analyses reviewed together. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. A steady teacher all term. Analyses reviewed together. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one student. Concentrated on one weak skill. Good for the weeks before the exam.
 
 ## Data Analytics questions

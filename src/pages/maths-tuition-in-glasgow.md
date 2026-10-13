@@ -4,7 +4,7 @@ description: "Online maths tuition in Glasgow for ages 6 to 67: primary maths, N
 canonical: https://learn.modernagecoders.com/maths-tuition-in-glasgow
 source: src/pages/maths-tuition-in-glasgow.html
 ---
-> We teach maths live online to Glasgow learners aged 6 to 67: primary maths from P1 to P7, S1 to S3 maths in the broad general education, then SQA National 5, Higher and Advanced Higher Mathematics, plus adult refreshers. Classes hold five to ten learners at one level, or a learner can work one to one. Our Glasgow example is the Subway: a least-squares circle through its 15 stations has a radius of 1,600.1 metres, but the stations lie between 1,304.4 and 1,891.5 metres from its centre, a good test of the Higher Maths equation of a circle. A first lesson is free; ongoing places are USD 100 a month in a group or USD 150 a month one to one.
+> We teach maths live online to Glasgow learners aged 6 to 67: primary maths from P1 to P7, S1 to S3 maths in the broad general education, then SQA National 5, Higher and Advanced Higher Mathematics, plus adult refreshers. Classes hold fifteen to twenty learners at one level, or a learner can work one to one. Our Glasgow example is the Subway: a least-squares circle through its 15 stations has a radius of 1,600.1 metres, but the stations lie between 1,304.4 and 1,891.5 metres from its centre, a good test of the Higher Maths equation of a circle. A first lesson is free; ongoing places are USD 100 a month in a group or USD 150 a month one to one.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Glasgow
 
@@ -14,7 +14,7 @@ Glasgow · Maths from P1 to adult learners · Live online lessons for small grou
 
 Everyone in Glasgow calls the Subway a circle. Is it? We took the positions of its 15 stations from OpenStreetMap and asked which circle fits them most closely. The answer has a radius of 1,600.1 metres, and the stations sit anywhere from 1,304.4 to 1,891.5 metres from its centre. So it is a loop, and a fairly round one, but not a circle. Getting there uses exactly the tools of SQA Higher Mathematics: perpendicular bisectors, the circle through three points and the equation of a circle. This page sets out how we teach maths to Glasgow learners, from P1 to Advanced Higher and adult study, with the Subway as a running example.
 
-At a glance: Who: Glasgow learners aged 6 to 67; Primary: P1 to P7, number and early algebra; BGE: S1 to S3 maths, the base for the senior phase; Senior phase: National 5, Higher, Advanced Higher; Adults: Refreshers and a return to qualifications; Format: Live video, groups of 5 to 10 or private; Teachers: Based in India, booked in UK time; Local project: Subway stations and the circle equation. Rated 4.9 across 547 Google reviews.
+At a glance: Who: Glasgow learners aged 6 to 67; Primary: P1 to P7, number and early algebra; BGE: S1 to S3 maths, the base for the senior phase; Senior phase: National 5, Higher, Advanced Higher; Adults: Refreshers and a return to qualifications; Format: Live video, groups of 15 to 20 or private; Teachers: Based in India, booked in UK time; Local project: Subway stations and the circle equation. Rated 4.9 across 547 Google reviews.
 
 ## Three common first steps
 
@@ -227,7 +227,7 @@ Our teachers are in India, where the clocks stay put all year. Between late Octo
 
 - **The same teacher** Every week, so small habits and slips are noticed.
 - **Short updates** A note after lessons on what is secure and what is next.
-- **Groups by level** Five to ten learners, all working at one level.
+- **Groups by level** Fifteen to twenty learners, all working at one level.
 - **Real maps and data** Station coordinates, census tables and weather records in lessons.
 - **One to one** For a single difficult topic or the weeks before an exam.
 - **Reasons, not tricks** Learners explain why a method works before practising it.
@@ -237,7 +237,7 @@ Our teachers are in India, where the clocks stay put all year. Between late Octo
 Charged monthly in US dollars, at one price for every country outside India, with no registration fee and no long contract.
 
 - Free first class: USD 0. A complete lesson at the right level. Our honest assessment. No card needed.
-- Group batch: USD 100 a month. Five to ten learners at the same level. A regular teacher. Homework marked and explained. A certificate on completion.
+- Group batch: USD 100 a month. Fifteen to twenty learners at the same level. A regular teacher. Homework marked and explained. A certificate on completion.
 - One to one: USD 150 a month. One learner, one teacher. Targeted at the precise gap. Valuable in the run-up to exams.
 
 ## Questions Glasgow families and adult learners ask

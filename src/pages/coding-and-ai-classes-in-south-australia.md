@@ -16,7 +16,7 @@ South Australia / Live online
 
 Adelaide's city centre is laid out as a grid of streets, and that grid decides how far you actually walk. Two cafes might be 500 metres apart as the crow flies, but on foot you have to go along one street and then down another. Mathematicians call the walking version taxicab distance. Our project takes every cafe mapped inside the square mile, measures both distances for all 7,800 pairs and finds that the grid adds, on average, 27.33 percent: astonishingly close to a figure that pure geometry predicts, 4 divided by pi. Learners discover why, and why the grid being turned three and a half degrees off north hardly changes the answer.
 
-Facts last verified 7 October 2026. Teaching is online; no South Australia branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no South Australia branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four routes into coding for a South Australian learner
 
@@ -182,7 +182,7 @@ Many South Australians live a long way from a specialist class. A live online le
 - **Half-hour time zones handled** South Australia's clocks sit half an hour off the eastern states. Every lesson time is written in SA time so nobody has to convert.
 - **SACE vocabulary** Teachers talk about Stage 1, Stage 2 and SACE subjects the way South Australian schools do. All lessons are in English.
 - **A proper trial** The first lesson is a full one with something finished at the end, then a suggestion for level, course and weekly time. We never ask for card details at this stage.
-- **Matched groups** Groups of five to ten learners are formed by standard, mixing South Australians with learners from other states and countries so most levels have a sensible time.
+- **Matched groups** Groups of fifteen to twenty learners are formed by standard, mixing South Australians with learners from other states and countries so most levels have a sensible time.
 - **Two lessons a week** About eight a month at a fixed time, paused for school holidays and exam periods by arrangement with the teacher.
 - **Teachers in India** Our teachers keep India time, which runs four or five hours behind SA depending on the season, so SA afternoons are their working day.
 
@@ -193,7 +193,7 @@ Many South Australians live a long way from a specialist class. A live online le
 One set of prices across the whole state.
 
 - First class: USD 0. A full first lesson with no charge, finishing with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, in a group of five to ten learners at a similar level.
+- Group tuition: USD 100 a month. A month of lessons, usually eight, in a group of fifteen to twenty learners at a similar level.
 - Private tuition: USD 150 a month. The same monthly pattern of about eight lessons, with one teacher and one learner.
 
 Every family outside India pays in US dollars at one rate, so a family in Port Augusta pays the same as one in Glenelg. No invoice goes out until the trial has chosen a course and a time; how holidays, missed lessons and changes between group and private teaching are handled is spelled out on the pricing page.
@@ -234,7 +234,7 @@ No, and none is claimed. All teaching is live online, with no premises in Austra
 
 ### How much do coding lessons cost in SA?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
 
 ### How big are the groups?
 

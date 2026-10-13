@@ -4,7 +4,7 @@ description: "Maths tuition in Sheffield for ages 6 to 67: live online maths tut
 canonical: https://learn.modernagecoders.com/maths-tuition-in-sheffield
 source: src/pages/maths-tuition-in-sheffield.html
 ---
-> Learners across Sheffield, the youngest six and the oldest 67, join our maths lessons by live video, either as one of five to ten classmates working at one level or alone with their tutor. Younger pupils get KS2 maths with tables practice ahead of the Year 4 check and reasoning practice ahead of Year 6 SATs maths. Teenagers get KS3 maths and then GCSE (AQA, Edexcel or OCR, either tier) or IGCSE, followed by A level Maths with optional Further Maths. Adults get anything from Functional Skills maths to a GCSE resit. Lessons combine exam practice with real problems. In Sheffield that means measuring bearings from the Cathedral tram stop to each end of the Supertram and solving the triangles they make. The first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150 a month.
+> Learners across Sheffield, the youngest six and the oldest 67, join our maths lessons by live video, either as one of fifteen to twenty classmates working at one level or alone with their tutor. Younger pupils get KS2 maths with tables practice ahead of the Year 4 check and reasoning practice ahead of Year 6 SATs maths. Teenagers get KS3 maths and then GCSE (AQA, Edexcel or OCR, either tier) or IGCSE, followed by A level Maths with optional Further Maths. Adults get anything from Functional Skills maths to a GCSE resit. Lessons combine exam practice with real problems. In Sheffield that means measuring bearings from the Cathedral tram stop to each end of the Supertram and solving the triangles they make. The first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Sheffield
 
@@ -14,7 +14,7 @@ Sheffield · Maths tutor, ages 6 to 67 · Live online, in small groups or one to
 
 Stand at the Cathedral tram stop with a compass and the Supertram network fans out around you. Middlewood lies on a bearing of 323.7 degrees, Meadowhall Interchange on 043.9, Halfway on 125.9. Join two of those ends to the Cathedral and you have a triangle whose third side you can find without ever measuring it: the cosine rule gives 6,430.9 metres from Middlewood to Meadowhall, and the direct distance worked out from the map agrees to a tenth of a metre. Bearings, the cosine rule, the sine rule and triangle area are all GCSE topics, and this page uses the Supertram to show how our online maths tutors teach Sheffield learners, from the Year 4 multiplication check to A level, Further Maths and adult maths.
 
-At a glance: Who: Sheffield learners aged 6 to 67; Primary: KS2 maths, the Year 4 check, Year 6 SATs; Secondary: KS3, GCSE foundation or higher; Exam boards: AQA, Edexcel, OCR; IGCSE as well; Post-16: A level Maths, Further Maths; Adults: Functional Skills maths, GCSE resits; Lessons: Live online; 5 to 10 per group or one to one; Sheffield project: Bearings and triangles on the Supertram. Rated 4.9 across 547 Google reviews.
+At a glance: Who: Sheffield learners aged 6 to 67; Primary: KS2 maths, the Year 4 check, Year 6 SATs; Secondary: KS3, GCSE foundation or higher; Exam boards: AQA, Edexcel, OCR; IGCSE as well; Post-16: A level Maths, Further Maths; Adults: Functional Skills maths, GCSE resits; Lessons: Live online; 15 to 20 per group or one to one; Sheffield project: Bearings and triangles on the Supertram. Rated 4.9 across 547 Google reviews.
 
 ## The three maths courses Sheffield families book most
 
@@ -238,7 +238,7 @@ Our tutors keep Indian Standard Time, which has no summer change. That puts Indi
 
 - **One tutor, every week** The tutor who saw last week's slip checks for it again this week.
 - **Short reports** Families get a brief note on progress after lessons.
-- **Level-matched groups** Five to ten learners at one level, so the pace suits everyone.
+- **Level-matched groups** Fifteen to twenty learners at one level, so the pace suits everyone.
 - **Maps and real places** Tram networks and local data alongside past papers.
 - **One to one when needed** For a specific weakness or the weeks before an exam.
 - **Explain, then practise** Learners say why a rule works before they drill it.
@@ -248,14 +248,14 @@ Our tutors keep Indian Standard Time, which has no summer change. That puts Indi
 Paid monthly in US dollars, one rate for all countries except India, with no joining fee and no contract.
 
 - Free first class: USD 0. A full lesson at the right level. An honest assessment afterwards. No card needed.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same tutor each week. Homework marked with feedback. Certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same tutor each week. Homework marked with feedback. Certificate at the end.
 - One to one: USD 150 a month. One tutor for one learner. Aimed at specific gaps. Ideal before exams.
 
 ## What Sheffield families and adult learners ask
 
 ### How much does a maths tutor cost in Sheffield?
 
-Your trial costs nothing. A seat in a Sheffield-friendly class of five to ten is then USD 100 per month, and a private tutor is USD 150 per month; there is no sign-up charge and you can leave whenever you wish.
+Your trial costs nothing. A seat in a Sheffield-friendly class of fifteen to twenty is then USD 100 per month, and a private tutor is USD 150 per month; there is no sign-up charge and you can leave whenever you wish.
 
 ### What is a three-figure bearing?
 

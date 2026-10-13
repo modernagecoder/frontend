@@ -224,7 +224,7 @@ module.exports = {
       { h3: 'Invented projects only', p: 'Every exercise is ours. Assessed work stays out of the lesson.' },
       { h3: 'Testing tables taught', p: 'Expected and actual output, written before the code is run.' },
       { h3: 'Exam-style short answers', p: 'Name the technique, apply it to the scenario, state the effect.' },
-      { h3: 'Groups of five to ten', p: 'Senior students at the same level, each explaining their reasoning out loud.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Senior students at the same level, each explaining their reasoning out loud.' },
       { h3: 'One-to-one option', p: 'For one area of study that needs repair quickly.' },
       { h3: 'No predictions', p: 'We do not forecast study scores or ATARs; the solution and its result belong to the student.' }
     ]
@@ -238,7 +238,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'One monthly fee, charged in US dollars and identical for every family outside India. No sign-up charge, and you can stop at the end of any month.',
     free: ['A complete lesson with a teacher', 'An honest picture of the gaps', 'No card needed'],
-    group: ['Five to ten students at one level', 'The same teacher every week', 'Practice reviewed together', 'A certificate on completion'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher every week', 'Practice reviewed together', 'A certificate on completion'],
     one: ['A teacher working with one student', 'Focused on a single weak area', 'Handy in the run-up to November']
   },
 

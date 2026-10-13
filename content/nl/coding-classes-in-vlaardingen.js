@@ -175,7 +175,7 @@ module.exports = {
       { h3: 'At home, on time', p: 'A learner in Vlaardinger Ambacht and a learner in Holy-Zuid start at the same moment, each from home. No cycling across town in the dark and no waiting at a door afterwards.' },
       { h3: 'Dutch words kept Dutch', p: 'Groep, brugklas, vmbo, havo, vwo and profielkeuze are said in Dutch in every lesson, as a Vlaardingen school uses them, and the teaching around them is in English.' },
       { h3: 'The first hour teaches', p: 'The free session is a real lesson with a real task. At the end the teacher proposes a level, a course and a weekly time, and nothing is paid or promised.' },
-      { h3: 'Groups made to measure', p: 'Five to ten learners at one stage of one subject. Vlaardingen has 12,520 residents under fifteen, but five who match on subject, level and hour are hard to find in one town, so groups may include learners from abroad.' },
+      { h3: 'Groups made to measure', p: 'Fifteen to twenty learners at one stage of one subject. Vlaardingen has 12,520 residents under fifteen, but five who match on subject, level and hour are hard to find in one town, so groups may include learners from abroad.' },
       { h3: 'Regio Midden weeks off', p: 'Two lessons a week, roughly eight a month, at the same time, pausing for the regio Midden school holidays that Zuid-Holland keeps.' },
       { h3: 'Teachers ahead of the clock', p: 'The teachers are in India, three and a half hours ahead of Vlaardingen in summer and four and a half in winter, so after school, evenings and weekend mornings all work.' }
     ],
@@ -186,7 +186,7 @@ module.exports = {
     h2: 'What classes cost in Vlaardingen',
     intro: 'The whole price, in three lines.',
     first: 'A real lesson on a real task, finishing with a level and the course that suits it.',
-    group: 'Per month, normally eight lessons, five to ten learners at one level.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners at one level.',
     private: 'Per month, normally eight lessons, one teacher for one learner.',
     closer: 'There is a single dollar price for every country and no euro list beside it, so a family in the Westwijk pays what a family in Holy-Noord pays. Nothing is charged until the free lesson has settled a course and a time, and payment is arranged over WhatsApp afterwards. The pricing page covers pauses, changes of format and missed lessons.'
   },
@@ -211,7 +211,7 @@ module.exports = {
       { q: 'How many schools does Vlaardingen have?', a: 'The statistics count 23 primary establishments with 6,562 pupils and 9 secondary establishments with 5,079, plus 965 MBO students at institutions in the town. This page does not rate any school.' },
       { q: 'What language are the lessons in, and when are they?', a: 'The lessons are in English, with school words such as vmbo, havo and brugklas kept in Dutch. The teachers work from India, three and a half hours ahead of Vlaardingen in summer and four and a half in winter, so afternoon, evening and weekend slots are easy to arrange. The time is agreed in the free lesson, and the regio Midden holidays are kept.' },
       { q: 'Is there a Modern Age Coders classroom in Vlaardingen?', a: 'No, and none is claimed here or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Vlaardingen coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Vlaardingen coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

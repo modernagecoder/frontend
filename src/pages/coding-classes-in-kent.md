@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for all of Kent, 
 canonical: https://learn.modernagecoders.com/coding-classes-in-kent
 source: src/pages/coding-classes-in-kent.html
 ---
-> Kent had 1,855,844 residents across twelve districts and Medway at the 2021 Census, and its towns are spread along two coasts, the Medway, the Thames estuary and the Weald. Maidstone and Gillingham are the biggest; after them come Ashford, Chatham, Dartford, Rochester and Margate, and dozens more. We serve all of them identically. Classes run live on video with teachers in India, and learners are placed by what they can do, at any age from 6 to 67, in a group of five to ten or one to one, across programming, Python, AI and maths. The Kent project uses Dover's official traffic statistics. Lesson one is free, and then a group seat costs USD 100 a month while private tuition costs USD 150.
+> Kent had 1,855,844 residents across twelve districts and Medway at the 2021 Census, and its towns are spread along two coasts, the Medway, the Thames estuary and the Weald. Maidstone and Gillingham are the biggest; after them come Ashford, Chatham, Dartford, Rochester and Margate, and dozens more. We serve all of them identically. Classes run live on video with teachers in India, and learners are placed by what they can do, at any age from 6 to 67, in a group of fifteen to twenty or one to one, across programming, Python, AI and maths. The Kent project uses Dover's official traffic statistics. Lesson one is free, and then a group seat costs USD 100 a month while private tuition costs USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Kent
 
@@ -12,11 +12,11 @@ County of Kent / Live online
 
 # Coding classes in Kent
 
-**What are the best coding classes in Kent?** Kent had 1,855,844 residents across twelve districts and Medway at the 2021 Census, and its towns are spread along two coasts, the Medway, the Thames estuary and the Weald. Maidstone and Gillingham are the biggest; after them come Ashford, Chatham, Dartford, Rochester and Margate, and dozens more. We serve all of them identically. Classes run live on video with teachers in India, and learners are placed by what they can do, at any age from 6 to 67, in a group of five to ten or one to one, across programming, Python, AI and maths. The Kent project uses Dover's official traffic statistics. Lesson one is free, and then a group seat costs USD 100 a month while private tuition costs USD 150.
+**What are the best coding classes in Kent?** Kent had 1,855,844 residents across twelve districts and Medway at the 2021 Census, and its towns are spread along two coasts, the Medway, the Thames estuary and the Weald. Maidstone and Gillingham are the biggest; after them come Ashford, Chatham, Dartford, Rochester and Margate, and dozens more. We serve all of them identically. Classes run live on video with teachers in India, and learners are placed by what they can do, at any age from 6 to 67, in a group of fifteen to twenty or one to one, across programming, Python, AI and maths. The Kent project uses Dover's official traffic statistics. Lesson one is free, and then a group seat costs USD 100 a month while private tuition costs USD 150.
 
 Every summer, somebody in Kent asks how long the queue at Dover will be. The Department for Transport publishes exactly how many vehicles pass through the port each quarter, and a tidy piece of mathematics called Little's law links the number arriving, the time each one waits and the length of the line. Put the two together and you can answer the question, sort of. This page's project does precisely that, carefully, and then shows the part that surprises most people: the official figure gives you an average over every hour of three months, including three in the morning in January, and the queue that matters is never an average one.
 
-Facts last verified 26 September 2026. Teaching is online; no Kent branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Kent branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Kent learners pick first
 
@@ -176,7 +176,7 @@ Kent's distances are real, and its roads are busy. Online lessons avoid both.
 - **Lessons at home** A bedroom in Broadstairs, a kitchen in Paddock Wood, a desk in Gravesend. Teacher and learner share a screen and talk it through.
 - **Familiar school terms** Key Stages, GCSE options, A levels and the words Kent schools use, all in English.
 - **Free first lesson** A full lesson of real work with a teacher and a plain recommendation afterwards. No card is requested.
-- **Placed with equals** Five to ten learners at the same stage, drawn from towns and countries far apart, so the level suits everyone.
+- **Placed with equals** Fifteen to twenty learners at the same stage, drawn from towns and countries far apart, so the level suits everyone.
 - **Your own breaks** Usually two lessons a week, paused around your school's holidays, which in Kent and Medway can vary by council and by school.
 - **Clear about time zones** Teachers are in India: in summer 4.5 hours ahead of the UK, in winter 5.5 hours. Your timetable always shows UK time.
 
@@ -187,7 +187,7 @@ Kent's distances are real, and its roads are busy. Online lessons avoid both.
 Every Kent town pays the same, as does every country other than India.
 
 - First class: USD 0. A full lesson of genuine work, followed by a recommended level and course.
-- Group tuition: USD 100 a month. Around eight lessons a month in a group of five to ten at one level.
+- Group tuition: USD 100 a month. Around eight lessons a month in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. Around eight lessons a month with one teacher for one learner.
 
 Fees are charged in US dollars, as everywhere outside India, and we have no pound price list. You pay nothing until after the free lesson has fixed a course and a weekly time; the pricing page sets out pauses, missed lessons and changes between group and private.

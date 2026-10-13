@@ -196,7 +196,7 @@ Whether or not an AI tool is involved, the student does the thinking, out loud, 
 - **Predict, then run** Students say what they expect before any code or tool runs.
 - **Explain it back** An answer counts only once the student can explain it.
 - **Age-appropriate tools** We follow each tool's terms on minimum age.
-- **Small groups** Five to ten students, or one to one.
+- **Small groups** Fifteen to twenty students, or one to one.
 - **Their own work** Teachers question and guide; they do not do the work.
 - **Real checks** Students write tests and samplers, not just opinions.
 
@@ -205,7 +205,7 @@ Whether or not an AI tool is involved, the student does the thinking, out loud, 
 Outside India we charge a single monthly fee in US dollars, identical across countries. Joining costs nothing extra and no term contract applies, so you may stop at the close of any month.
 
 - Free first class: USD 0. A first lesson that costs nothing. A clear recommendation from the teacher. No card details asked.
-- Group batch: USD 100 a month. Five to ten students. One teacher all the way through. Grouped by age and level. Monthly, no lock-in.
+- Group batch: USD 100 a month. Fifteen to twenty students. One teacher all the way through. Grouped by age and level. Monthly, no lock-in.
 - One to one: USD 150 a month. A teacher for one student. Scheduled around school. Paced to the learner.
 
 ## Common questions about thinking with AI

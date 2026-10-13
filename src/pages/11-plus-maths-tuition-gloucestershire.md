@@ -130,7 +130,7 @@ Gloucestershire County Council lists the seven grammar schools that share the te
 
 Pate's 2027 FAQ says the test is the same on the same day at all seven schools, and that families register once. We expect the same under FSCE, but the schools will confirm the 2028 arrangements.
 
-Lessons are live on video, so a child in Tewkesbury, the Forest of Dean or the Cotswolds is taught the same way, in groups of five to ten matched by level.
+Lessons are live on video, so a child in Tewkesbury, the Forest of Dean or the Cotswolds is taught the same way, in groups of fifteen to twenty matched by level.
 
 For coding in the county city, see our [Gloucester coding page](/best-coding-class-in-gloucester).
 
@@ -207,7 +207,7 @@ Lessons are taught live from India. We schedule Gloucestershire primary pupils i
 
 - **One teacher** The same teacher all year.
 - **Frank updates** Short, honest notes after lessons.
-- **Five to ten children** Matched by level.
+- **Fifteen to twenty children** Matched by level.
 - **Our own questions** No FSCE or GL material copied.
 - **One to one** When time before July is short.
 - **Maths only** No English or Compass coaching; no admissions advice.
@@ -217,7 +217,7 @@ Lessons are taught live from India. We schedule Gloucestershire primary pupils i
 Families outside India all pay the same monthly US dollar fee. There is no joining charge and no minimum term.
 
 - Free first class: USD 0. A real lesson. Honest feedback. No card needed.
-- Group batch: USD 100 a month. Five to ten children, one level. The same teacher weekly. Work checked together. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children, one level. The same teacher weekly. Work checked together. A certificate at the end.
 - One to one: USD 150 a month. One child, one teacher. Paced for a July test. Focused on weak areas.
 
 ## What Gloucestershire families ask us

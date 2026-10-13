@@ -4,7 +4,7 @@ description: "Python, coding, AI and vibe coding classes online and live for Sto
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-stourbridge
 source: src/pages/online-coding-and-python-classes-in-stourbridge.html
 ---
-> Stourbridge lies in the borough of Dudley, and the ONS gives its built-up area 56,950 residents at the 2021 census. Amblecote, Wollaston, Pedmore, Norton, Lye, Wollescote and Old Swinford are recorded suburbs within that area. Learners aged six to 67 take coding, Python, AI, vibe coding and maths with us online: the lessons are live, the tutors are in India, and the format is either private or a small class of five to ten at one level. We begin with reasoning, so that code and AI output are things a learner can check. The first lesson is on us and ends with a suggested course. After that the charge is USD 100 each month for a group place, or USD 150 each month for private lessons. In the Stourbridge project, Python boils the town's 186 Census areas down to five numbers, a centre, a length, a width and a direction, and then the learner tests how much those five numbers can be trusted.
+> Stourbridge lies in the borough of Dudley, and the ONS gives its built-up area 56,950 residents at the 2021 census. Amblecote, Wollaston, Pedmore, Norton, Lye, Wollescote and Old Swinford are recorded suburbs within that area. Learners aged six to 67 take coding, Python, AI, vibe coding and maths with us online: the lessons are live, the tutors are in India, and the format is either private or a class of fifteen to twenty at one level. We begin with reasoning, so that code and AI output are things a learner can check. The first lesson is on us and ends with a suggested course. After that the charge is USD 100 each month for a group place, or USD 150 each month for private lessons. In the Stourbridge project, Python boils the town's 186 Census areas down to five numbers, a centre, a length, a width and a direction, and then the learner tests how much those five numbers can be trusted.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Stourbridge
 
@@ -12,11 +12,11 @@ Stourbridge, Dudley, West Midlands / Live online
 
 # Online coding and Python classes in Stourbridge
 
-**Which online coding and Python classes are best for Stourbridge?** Stourbridge lies in the borough of Dudley, and the ONS gives its built-up area 56,950 residents at the 2021 census. Amblecote, Wollaston, Pedmore, Norton, Lye, Wollescote and Old Swinford are recorded suburbs within that area. Learners aged six to 67 take coding, Python, AI, vibe coding and maths with us online: the lessons are live, the tutors are in India, and the format is either private or a small class of five to ten at one level. We begin with reasoning, so that code and AI output are things a learner can check. The first lesson is on us and ends with a suggested course. After that the charge is USD 100 each month for a group place, or USD 150 each month for private lessons. In the Stourbridge project, Python boils the town's 186 Census areas down to five numbers, a centre, a length, a width and a direction, and then the learner tests how much those five numbers can be trusted.
+**Which online coding and Python classes are best for Stourbridge?** Stourbridge lies in the borough of Dudley, and the ONS gives its built-up area 56,950 residents at the 2021 census. Amblecote, Wollaston, Pedmore, Norton, Lye, Wollescote and Old Swinford are recorded suburbs within that area. Learners aged six to 67 take coding, Python, AI, vibe coding and maths with us online: the lessons are live, the tutors are in India, and the format is either private or a class of fifteen to twenty at one level. We begin with reasoning, so that code and AI output are things a learner can check. The first lesson is on us and ends with a suggested course. After that the charge is USD 100 each month for a group place, or USD 150 each month for private lessons. In the Stourbridge project, Python boils the town's 186 Census areas down to five numbers, a centre, a length, a width and a direction, and then the learner tests how much those five numbers can be trusted.
 
 An average is a summary of a column of numbers. What is the summary of a map? If you know where everyone in a town lives, you can find the balance point of the population, which is called the mean centre. You can then ask how far people are spread around it, and the answer is different in different directions, because towns are not round. Put those together and you have the standard deviational ellipse: an oval, centred on the balance point, stretched along the direction in which the town is most spread out. It comes from one small table of numbers and a standard piece of linear algebra, and it is a fine first use of Python's numerical tools on real data.
 
-Facts last verified 30 September 2026. Teaching is online; no Stourbridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Stourbridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python, maths and thinking courses for Stourbridge
 
@@ -133,7 +133,7 @@ What you need at home: a computer with a proper keyboard and a video-capable con
 - **Code written by the learner** Our tutors follow along on a shared screen and ask for a reason behind each line, but do not take over.
 - **Assessment in lesson one** A free first session shows us the learner's level and, where it applies, the exam board.
 - **Try before paying** Lesson one is free of charge and concludes with a course we think fits.
-- **Level-based groups** Five to ten learners from anywhere in the UK, all at the same stage.
+- **Level-based groups** Fifteen to twenty learners from anywhere in the UK, all at the same stage.
 - **A twice-weekly rhythm** We break when schools break.
 - **Hour held constant** Summer time and winter time make no difference to your slot.
 

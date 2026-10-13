@@ -52,7 +52,7 @@ module.exports = {
 
   h1: 'Coding classes in Newham',
   capsuleQ: 'What are the best coding classes in Newham?',
-  capsule: 'Newham is the east London borough of Stratford, West Ham, East Ham, Canning Town, Forest Gate, Beckton and the Royal Docks, with 351,036 residents counted at the 2021 Census and London City Airport on its southern edge. Good classes here should leave a learner able to make a prediction and then find out, honestly, how wrong it was. This page does that with the airport: a forecast of its monthly passengers built from three moving parts, tested on a year the model never saw. Our teachers work from India and teach live on video to anyone aged 6 to 67, one to one or in a class of five to ten learners at the same level. The opening lesson is free. Afterwards a class place is USD 100 a month and private lessons are USD 150 a month.',
+  capsule: 'Newham is the east London borough of Stratford, West Ham, East Ham, Canning Town, Forest Gate, Beckton and the Royal Docks, with 351,036 residents counted at the 2021 Census and London City Airport on its southern edge. Good classes here should leave a learner able to make a prediction and then find out, honestly, how wrong it was. This page does that with the airport: a forecast of its monthly passengers built from three moving parts, tested on a year the model never saw. Our teachers work from India and teach live on video to anyone aged 6 to 67, one to one or in a class of fifteen to twenty learners at the same level. The opening lesson is free. Afterwards a class place is USD 100 a month and private lessons are USD 150 a month.',
   lead: 'London City Airport sits on the Royal Docks in the south of Newham, and the Civil Aviation Authority publishes how many passengers pass through it every month. Our learners use those figures to build a forecast in three parts: where the numbers stand now, which way they are heading, and how each month usually differs from the average. That method is called Holt-Winters exponential smoothing, and it takes only a short loop of code. Then comes the honest part. Trained on 2016 to 2018, it predicts 2019 within about 5 per cent a month. Trained on 2016 to 2019, it expects some 420,000 passengers in April 2020, and the real figure is zero. Trained on the recovery years, it loses narrowly to a much simpler guess, until the two are averaged.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Newham.',
 
@@ -146,7 +146,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'Stratford', p: 'TfL\'s open data lists the Central and Jubilee lines, the DLR, the Elizabeth line, the Mildmay line, c2c and Greater Anglia at Stratford.' },
           { h3: 'Docks to Forest Gate', p: 'A learner in North Woolwich and another in Manor Park can join the same group from home, whatever the trains are doing.' },
-          { h3: 'No departure board', p: 'Classes are not a timetable you must fit. Learners join a group of five to ten at the same level, at an hour that suits UK evenings.' }
+          { h3: 'No departure board', p: 'Classes are not a timetable you must fit. Learners join a group of fifteen to twenty at the same level, at an hour that suits UK evenings.' }
         ] },
         { kind: 'spec', title: 'Newham among the London boroughs', p: 'Newham is one of 32 London boroughs. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> lists all of them and the City, linking each page as it goes live, including <a class="cg-inline-link" href="/coding-classes-in-redbridge-london">Redbridge</a> just to the north east.' }
       ]
@@ -183,7 +183,7 @@ module.exports = {
       { h3: 'Join from home', p: 'A laptop or desktop computer, a headset and a reliable connection are all a learner needs to take part.' },
       { h3: 'English stages', p: 'We describe progress in the stages English schools use, Key Stage 1 through sixth form, and name GCSE and A level where they apply. Lessons are in English.' },
       { h3: 'A free first lesson', p: 'It is a proper lesson with a teacher, not a sales call, and finishes with a suggested level and course. No card details are asked for.' },
-      { h3: 'Grouped by level', p: 'Each class has five to ten learners at the same stage, drawn from across the UK and further afield, so there is usually an hour that suits.' },
+      { h3: 'Grouped by level', p: 'Each class has fifteen to twenty learners at the same stage, drawn from across the UK and further afield, so there is usually an hour that suits.' },
       { h3: 'Twice weekly', p: 'Most classes meet on two evenings a week, pausing for half terms, holidays and exam weeks as agreed with the teacher.' },
       { h3: 'Newham time', p: 'Although teachers are based in India, every lesson time we send is written as it reads in London.' }
     ],
@@ -194,7 +194,7 @@ module.exports = {
     h2: 'Fees for Newham families',
     intro: 'One free lesson, then a single monthly fee that is the same in every part of the borough.',
     first: 'A complete first lesson with a teacher, free, ending with a recommended level, course and time.',
-    group: 'About eight live lessons a month in a class of five to ten at one stage.',
+    group: 'About eight live lessons a month in a class of fifteen to twenty at one stage.',
     private: 'About eight live lessons a month with a teacher to themselves.',
     closer: 'Families in Stratford, East Ham and the rest of Newham pay in US dollars, like every family outside India, and no prices in pounds appear on this site. Nothing is paid until the free lesson is over and you have chosen a course and a regular time. The pricing page explains pauses, missed lessons and moving between class and private teaching.'
   },
@@ -219,8 +219,8 @@ module.exports = {
       { q: 'When do Newham learners have lessons?', a: 'After the free lesson we suggest a regular weekly time from the classes at the right level that have space. Our teachers are in India, but every time we send you is London time.' },
       { q: 'What equipment is needed?', a: 'A laptop or desktop, headphones or speakers, and a dependable internet connection. The forecasting project needs only Python and the published CAA files.' },
       { q: 'Is there a Modern Age Coders centre in Newham?', a: 'No. There is no Newham centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Newham cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Newham cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

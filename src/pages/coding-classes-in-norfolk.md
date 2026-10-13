@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Norfolk, from 
 canonical: https://learn.modernagecoders.com/coding-classes-in-norfolk
 source: src/pages/coding-classes-in-norfolk.html
 ---
-> Norfolk has one county council and seven district councils, and at the 2021 Census the seven districts held 916,120 people, a figure we reached by adding their published counts. Norwich is by far the largest place, with King's Lynn, Great Yarmouth and Thetford next. Our lessons are live over video, taught from India, and each learner joins a class chosen by level, not by age. Pupils can be as young as 6 or as old as 67, and they learn coding, Python, algorithms or maths in a small group of five to ten or on their own with a teacher. The Norfolk project comes from the wind farms off its coast. The opening lesson costs nothing. Carrying on means USD 100 monthly in a group, or USD 150 monthly for one-to-one teaching.
+> Norfolk has one county council and seven district councils, and at the 2021 Census the seven districts held 916,120 people, a figure we reached by adding their published counts. Norwich is by far the largest place, with King's Lynn, Great Yarmouth and Thetford next. Our lessons are live over video, taught from India, and each learner joins a class chosen by level, not by age. Pupils can be as young as 6 or as old as 67, and they learn coding, Python, algorithms or maths in a group of fifteen to twenty or on their own with a teacher. The Norfolk project comes from the wind farms off its coast. The opening lesson costs nothing. Carrying on means USD 100 monthly in a group, or USD 150 monthly for one-to-one teaching.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Norfolk
 
@@ -12,11 +12,11 @@ Norfolk / Live online
 
 # Coding classes in Norfolk
 
-**What are the best coding classes in Norfolk?** Norfolk has one county council and seven district councils, and at the 2021 Census the seven districts held 916,120 people, a figure we reached by adding their published counts. Norwich is by far the largest place, with King's Lynn, Great Yarmouth and Thetford next. Our lessons are live over video, taught from India, and each learner joins a class chosen by level, not by age. Pupils can be as young as 6 or as old as 67, and they learn coding, Python, algorithms or maths in a small group of five to ten or on their own with a teacher. The Norfolk project comes from the wind farms off its coast. The opening lesson costs nothing. Carrying on means USD 100 monthly in a group, or USD 150 monthly for one-to-one teaching.
+**What are the best coding classes in Norfolk?** Norfolk has one county council and seven district councils, and at the 2021 Census the seven districts held 916,120 people, a figure we reached by adding their published counts. Norwich is by far the largest place, with King's Lynn, Great Yarmouth and Thetford next. Our lessons are live over video, taught from India, and each learner joins a class chosen by level, not by age. Pupils can be as young as 6 or as old as 67, and they learn coding, Python, algorithms or maths in a group of fifteen to twenty or on their own with a teacher. The Norfolk project comes from the wind farms off its coast. The opening lesson costs nothing. Carrying on means USD 100 monthly in a group, or USD 150 monthly for one-to-one teaching.
 
 RWE says Scroby Sands, 2.5 kilometres off Great Yarmouth, was commissioned in March 2004 as one of the UK's first commercial offshore wind farms. Further out now stand Sheringham Shoal and Dudgeon, with turbines several times larger. Every turbine faces the same hard limit: it cannot catch all of the wind's power, because air that stopped dead would pile up behind the blades. A short textbook formula gives the share it can catch, and the ideal share sits at the top of a curve. This page's project finds that top in Python without any calculus, using a search that needs only thirty tries where a simple list of guesses needs half a million, and then shows the one kind of curve that fools it.
 
-Facts last verified 26 September 2026. Teaching is online; no Norfolk branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Norfolk branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Norfolk learners begin
 
@@ -135,7 +135,7 @@ Norfolk is large and rural, and weekly trips to a class in Norwich can swallow a
 - **Learning from home** A farmhouse near Swaffham, a terrace in Gorleston, a bungalow in Watton. The teacher shares a screen and the learner writes the code.
 - **Familiar school terms** Teachers talk about Year 9, Key Stage 4, GCSE options and A level choices in the way Norfolk pupils hear them at school, in English throughout.
 - **A first lesson free** A genuine lesson, followed by honest advice on level and course. We never ask for card details up front.
-- **A group at your pace** Five to ten learners at the same stage, drawn from Norfolk, the rest of the UK and abroad.
+- **A group at your pace** Fifteen to twenty learners at the same stage, drawn from Norfolk, the rest of the UK and abroad.
 - **Holidays on your terms** Most learners have two lessons a week, and we pause for your school's own holidays.
 - **Times given in UK time** Each slot is set in UK time and stays put when the clocks change; the teacher, on India time several hours ahead, takes care of the difference.
 
@@ -146,7 +146,7 @@ Norfolk is large and rural, and weekly trips to a class in Norwich can swallow a
 Thetford or Sheringham, the price is the same, and so it is in every country we teach other than India.
 
 - First class: USD 0. A complete lesson with real work, then a recommendation of level and course.
-- Group tuition: USD 100 a month. About eight lessons each month, in a group of five to ten at one level.
+- Group tuition: USD 100 a month. About eight lessons each month, in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. About eight lessons each month, one-to-one.
 
 We charge in US dollars and publish no prices in pounds. Billing begins only after the free lesson has agreed a course and a weekly time; the pricing page covers pauses, missed lessons and changes between group and private teaching.

@@ -274,7 +274,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first lesson', p: 'We see where you are and suggest a route towards the option you are interested in.' },
-      { h3: 'Small groups', p: 'Five to ten students at the same level.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty students at the same level.' },
       { h3: 'One to one', p: 'For a faster pace or a specific deadline.' },
       { h3: 'Projects you choose', p: 'Your project, in your own GitHub account, so it stays yours.' },
       { h3: 'Code read line by line', p: 'A teacher reads your program and explains what to improve.' },
@@ -290,7 +290,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'One monthly fee in US dollars, the same outside India, with no enrolment fee and no commitment beyond the month, so lessons can stop for exams or a new job.',
     free: ['A look at your current level', 'A suggested route towards your option', 'No payment details needed'],
-    group: ['Five to ten students at one level', 'The same teacher each week', 'A project of your own', 'Stop at the end of any month'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher each week', 'A project of your own', 'Stop at the end of any month'],
     one: ['A teacher for you alone', 'A pace set around school', 'Useful before a specific deadline']
   },
 

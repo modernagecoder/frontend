@@ -514,7 +514,7 @@ const InternationalPricing = {
   },
 
   // ─── Generic Mini Batch hiding (custom-markup pages) ───
-  // The Mini Batch tier (₹2,499, 3-4 students) is India-only and has no USD
+  // The Mini Batch tier (₹2,499, up to 6 students) is India-only and has no USD
   // price. Pages with bespoke pricing markup (e.g. .bj-plan on the Java
   // pillar) don't carry [data-india-only], so detect the card by content:
   // a plan/card/tier element that mentions both "Mini Batch" and ₹2,499.

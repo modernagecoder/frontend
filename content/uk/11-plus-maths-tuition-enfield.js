@@ -252,7 +252,7 @@ module.exports = {
     cells: [
       { h3: 'The same teacher', p: 'So each child\'s habits and errors are known.' },
       { h3: 'Honest notes home', p: 'Brief and specific, including what is not working yet.' },
-      { h3: 'Classes of five to ten', p: 'Matched by level, so nobody is lost or bored.' },
+      { h3: 'Classes of fifteen to twenty', p: 'Matched by level, so nobody is lost or bored.' },
       { h3: 'Original questions', p: 'We copy nothing from Quest, GL or the school.' },
       { h3: 'One to one if useful', p: 'For fractions or any stubborn gap.' },
       { h3: 'Maths is our part', p: 'No English coaching; no advice on admissions.' }
@@ -267,7 +267,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Charged each month in US dollars, the same for all families outside India. No enrolment fee and no fixed term.',
     free: ['A real lesson with a teacher', 'A straight account afterwards', 'No card details'],
-    group: ['Five to ten children, one level', 'A regular teacher', 'Work marked with the child', 'A certificate on completion'],
+    group: ['Fifteen to twenty children, one level', 'A regular teacher', 'Work marked with the child', 'A certificate on completion'],
     one: ['Individual lessons', 'Built around the gaps', 'Useful in the summer before the test']
   },
 

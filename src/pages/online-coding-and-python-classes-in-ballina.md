@@ -16,7 +16,7 @@ Ballina, New South Wales, Australia / Live online
 
 Plan a round trip that visits ten of the public schools in the Ballina council area and comes back to the start by the shortest route. A clever recursive function can find it, but written plainly it calls itself 986,410 times, working out the same sub-trips over and over. Add one line of Python, a decorator called lru_cache, and the same function needs only 2,305 calls. Our Ballina project shows where that saving comes from, and why a cache with the wrong key saves nothing at all.
 
-Facts last verified 9 October 2026. Teaching is online; no Ballina branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 October 2026. Teaching is online; no Ballina branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python courses that reach real algorithms
 
@@ -184,7 +184,7 @@ The schools in our project are spread across several towns in the council area, 
 - **Across the shire** A student in Wollongbar and an adult in Lennox Head can share a lesson without either leaving home.
 - **Matched to NSW school** Lessons track the NSW stages and term calendar, and senior students can connect Python projects to their computing subjects.
 - **Start with a real lesson** The trial is a full Python class. At the end you are given a suggested level, course and time, and no payment details are collected.
-- **Groups by stage** Five to ten learners at one level, from Ballina and further afield, so there is always a group ready to run.
+- **Groups by stage** Fifteen to twenty learners at one level, from Ballina and further afield, so there is always a group ready to run.
 - **Two sessions a week** Regular lessons twice weekly, roughly eight a month, pausing for holidays and exams by agreement.
 - **Teachers in India** A 4:30pm Ballina lesson in June starts at 12pm in India, and at 11am once New South Wales moves to daylight saving.
 
@@ -195,7 +195,7 @@ The schools in our project are spread across several towns in the council area, 
 The cost, laid out in three lines.
 
 - First class: USD 0. A full Python lesson for free, then a recommended level, course and time.
-- Group tuition: USD 100 a month. Around eight lessons each month, in a group of five to ten at the same level.
+- Group tuition: USD 100 a month. Around eight lessons each month, in a group of fifteen to twenty at the same level.
 - Private tuition: USD 150 a month. Around eight lessons each month, one to one with a teacher.
 
 Outside India all invoices are in US dollars, so families in Alstonville and East Ballina pay identical amounts and there is no Ballina price. Billing begins only once the trial has agreed a course and time, and the pricing page explains breaks, missed lessons and moving between formats.
@@ -236,11 +236,11 @@ No, and none is claimed. All lessons are live and online and we have no premises
 
 ### What do Ballina Python classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.
 
 ### How big are the groups?
 
-Five to ten learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.
+Fifteen to twenty learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.
 
 ## More for Ballina and Northern Rivers learners
 

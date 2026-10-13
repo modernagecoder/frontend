@@ -317,7 +317,7 @@ function buildBlock(page, inv) {
 
     const inner = `      <nav aria-label="Breadcrumb" style="${S.crumb}">${crumb(breadcrumb)}</nav>
       <h2 style="${S.h2}">Coding &amp; maths classes near ${cityName}</h2>
-      <p style="${S.lead}">Live online classes for kids, teens and adults${stateName ? ` across ${stateName}` : ''}: Scratch, Python, web development, AI/ML and DSA in small 4&ndash;8 student batches. Explore nearby locations or book a free demo.</p>
+      <p style="${S.lead}">Live online classes for kids, teens and adults${stateName ? ` across ${stateName}` : ''}: Scratch, Python, web development, AI/ML and DSA in small 15&ndash;20 student batches. Explore nearby locations or book a free demo.</p>
 ${groups.filter(Boolean).join('\n')}
 ${ctas(extra)}`;
     return wrapBlock(inner);

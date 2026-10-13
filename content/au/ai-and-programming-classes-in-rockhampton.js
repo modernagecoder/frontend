@@ -201,7 +201,7 @@ module.exports = {
     h2: 'What classes cost in Rockhampton',
     intro: 'Here are the three prices.',
     first: 'A full lesson at no charge, finishing with a recommended level, a course and a regular time.',
-    group: 'Roughly eight lessons a month in a group of five to ten learners at your stage.',
+    group: 'Roughly eight lessons a month in a group of fifteen to twenty learners at your stage.',
     private: 'Around eight lessons a month with a teacher working one to one.',
     closer: 'Fees are charged in US dollars in every country but India, so a family in Gracemere pays the same as one in The Range, with no Queensland pricing. Billing starts only after the trial agrees a course and a time, and the pricing page explains holidays, absences and changes between group and private lessons.'
   },
@@ -226,8 +226,8 @@ module.exports = {
       { q: 'What time are lessons for Rockhampton learners?', a: 'Families usually choose a weekday after-school slot or a Saturday, settled at the trial and quoted in local time. With no daylight saving in Queensland or India, the gap to our teachers is constant.' },
       { q: 'Can younger children learn programming?', a: 'Yes. We teach from age six with Scratch and visual logic games, then typed code when children are ready. This page is written for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Rockhampton?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Rockhampton classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Rockhampton classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

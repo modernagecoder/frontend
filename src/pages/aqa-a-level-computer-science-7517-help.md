@@ -174,14 +174,14 @@ Teachers work from India, where the clock never moves, so the UK is five and a h
 - **Extended answers marked** Written responses handed in and marked by a person, because that is the only way expression improves.
 - **Theory taught early** Functional programming and Big Data planned into Year 12 rather than left to the final term.
 - **A clear line on the project** We never work on it, review it or advise on its content. We teach the skills it assumes.
-- **Groups by level** Five to ten students at one stage, reading each other's changes to the same program.
+- **Groups by level** Fifteen to twenty students at one stage, reading each other's changes to the same program.
 
 ## What A-level tuition costs
 
 One charge a month in US dollars, the rate for every country outside India. The free lesson comes first and billing starts only when a course and a weekly time are agreed.
 
 - Free first class: USD 0. A full lesson on real 7517 material. An honest view of which component is weakest. Nothing asked for but a number.
-- Group batch: USD 100 a month. Five to ten students at one stage. The same teacher across the year. Written answers marked weekly. Fewer lessons in the run-up to the papers.
+- Group batch: USD 100 a month. Fifteen to twenty students at one stage. The same teacher across the year. Written answers marked weekly. Fewer lessons in the run-up to the papers.
 - One to one: USD 150 a month. Only the student and the teacher. Planned backwards from the exam timetable. Suits a candidate with a specific grade in view.
 
 ## What A-level candidates and parents ask

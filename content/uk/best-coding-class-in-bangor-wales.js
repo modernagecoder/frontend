@@ -62,7 +62,7 @@ module.exports = {
 
   h1: 'Coding classes in Bangor, Wales',
   capsuleQ: 'What are the best coding classes in Bangor, Wales?',
-  capsule: 'Gwynedd, the county that includes Bangor, had 117,393 usual residents at the 2021 census, and in the Bangor City area 60.7% of residents aged five and over were students. Menai Heritage records that Thomas Telford\'s suspension bridge over the Menai Strait was completed on 30 January 1826. Bangor learners aged six to sixty-seven join our teachers in India on live video, one to one or in a group of five to ten at the same level, at hours arranged around the Welsh school and working day. Lesson one costs nothing; from then on, families pay USD 100 a month for a group place or USD 150 for a teacher to themselves.',
+  capsule: 'Gwynedd, the county that includes Bangor, had 117,393 usual residents at the 2021 census, and in the Bangor City area 60.7% of residents aged five and over were students. Menai Heritage records that Thomas Telford\'s suspension bridge over the Menai Strait was completed on 30 January 1826. Bangor learners aged six to sixty-seven join our teachers in India on live video, one to one or in a group of fifteen to twenty at the same level, at hours arranged around the Welsh school and working day. Lesson one costs nothing; from then on, families pay USD 100 a month for a group place or USD 150 for a teacher to themselves.',
   lead: 'Across the Menai Strait from Bangor, the Met Office station at Valley on Anglesey has counted hours of sunshine every month since the 1930s. In November 2001 it swapped its Campbell-Stokes sunshine recorder for an automatic Kipp and Zonen sensor. The record shows fewer sunny hours afterwards. Did Anglesey get duller, or did the new instrument simply count differently? Our teenagers use regression discontinuity: fit a line to the months just before the switch and another to the months just after, and measure the step between them. At every width they try, the step is downward, from 10.8 to 19.5 hours a month. Then they test whether an ordinary month could produce a step that big.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Bangor, Wales.',
 
@@ -185,7 +185,7 @@ module.exports = {
       { h3: 'City, valley and island', p: 'A learner in Glasinfryn and another in Porthaethwy can share a class without anyone crossing a bridge.' },
       { h3: 'Welsh school years', p: 'We follow Welsh school years, the Curriculum for Wales and WJEC GCSE and A level course names; every lesson is taught in English.' },
       { h3: 'The free lesson teaches', p: 'The first session works through a real task and ends with our suggested level, course and weekly slot. We do not take card details.' },
-      { h3: 'Classes by stage', p: 'Five to ten learners working at one level, from Bangor, the rest of the UK and abroad, so every stage has sensible times.' },
+      { h3: 'Classes by stage', p: 'Fifteen to twenty learners working at one level, from Bangor, the rest of the UK and abroad, so every stage has sensible times.' },
       { h3: 'Two lessons weekly', p: 'Two fixed lessons each week, about eight a month, with half terms and exam weeks planned with the teacher in advance.' },
       { h3: 'Evenings across time zones', p: 'At 5 pm in Bangor it is 9.30 pm for our teachers in India in summer and 10.30 pm in winter, as India keeps a single time all year; they arrange their evenings around families here.' }
     ],
@@ -196,7 +196,7 @@ module.exports = {
     h2: 'Bangor lesson fees',
     intro: 'Nothing to pay for lesson one, then a single fee each month.',
     first: 'A full lesson free of charge, ending with advice on level, course and a weekly time.',
-    group: 'Around eight live lessons a month, in a group of five to ten learners at the same stage.',
+    group: 'Around eight live lessons a month, in a group of fifteen to twenty learners at the same stage.',
     private: 'Around eight live lessons a month, with the teacher focused only on your learner.',
     closer: 'Families in Y Felinheli or Llandygai are billed in US dollars, like every family outside India, and our site shows no pound prices. We only start charging after the free lesson, when you have picked a course and a regular time together with us; how pausing, missed lessons and moving between a group and private teaching work is all laid out on the pricing page.'
   },
@@ -221,8 +221,8 @@ module.exports = {
       { q: 'When was the Menai Suspension Bridge built?', a: 'Menai Heritage records that the first stone was laid on 10 August 1819 and the bridge was completed on 30 January 1826, designed by Thomas Telford. We are not connected with Menai Heritage.' },
       { q: 'When do Bangor lessons take place?', a: 'Bangor families usually choose an after-school slot, a weekday evening or a weekend morning, and we agree it in the free lesson. For our teachers in India the clock reads four and a half hours later than in Wales during British Summer Time, and five and a half hours later in winter.' },
       { q: 'Is there a centre in Bangor?', a: 'No. We have no Bangor centre and no premises anywhere in the UK, as every lesson is live online. Learners need a computer with sound and a steady connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do Bangor lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one teaching on the same timetable is USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than age or where they live, with five to ten learners at the same stage. If no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do Bangor lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one teaching on the same timetable is USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than age or where they live, with fifteen to twenty learners at the same stage. If no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

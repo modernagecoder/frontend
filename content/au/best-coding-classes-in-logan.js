@@ -183,7 +183,7 @@ module.exports = {
       { h3: 'Queensland time throughout', p: 'Lesson times are set in Logan time and never move for daylight saving.' },
       { h3: 'Queensland curriculum years', p: 'Teachers plan around Queensland year levels, QCE seniors included, and teach in English.' },
       { h3: 'Code in the first hour', p: 'The free lesson is real programming with a teacher. You then receive a recommended course and time, and payment details are never requested.' },
-      { h3: 'Five to ten per class', p: 'Learners grouped by level, drawn from several places so each stage has a workable hour.' },
+      { h3: 'Fifteen to twenty per class', p: 'Learners grouped by level, drawn from several places so each stage has a workable hour.' },
       { h3: 'Two lessons weekly', p: 'Roughly eight a month, with holiday and exam breaks planned with the teacher.' },
       { h3: 'Families with several learners', p: 'Siblings at different levels join separate groups at times that suit the household.' }
     ],
@@ -194,7 +194,7 @@ module.exports = {
     h2: 'Coding class fees in Logan',
     intro: 'All of it in three lines.',
     first: 'A free lesson, then a recommended level, course and time.',
-    group: 'Near enough eight group lessons a month, five to ten learners per class.',
+    group: 'Near enough eight group lessons a month, fifteen to twenty learners per class.',
     private: 'Near enough eight one-to-one lessons a month with one teacher.',
     closer: 'Logan pays the national US dollar rate, the same as every other Australian city. There is no charge until the trial agrees a course and time; the pricing page explains holidays, missed lessons and changes of format.'
   },
@@ -219,7 +219,7 @@ module.exports = {
       { q: 'What times work in Logan?', a: 'Weekday afternoons, evenings or weekends, chosen together during the trial and always stated in Logan time, which is four and a half hours ahead of India time.' },
       { q: 'Do you have classes for younger kids?', a: 'Yes, from age 6 with Scratch and other visual tools. The ruggedness project suits teenagers and adults.' },
       { q: 'Is there a Modern Age Coders office in Logan?', a: 'No, and we do not claim one. Teaching is live and online only, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a steady connection, and the contact number on this page is an Indian number.', boiler: true },
-      { q: 'What do Logan coding classes cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
+      { q: 'What do Logan coding classes cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
       { q: 'How large are the groups?', a: 'Between five and ten learners, matched on level, pace and goals rather than on age or postcode. When no group fits a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },

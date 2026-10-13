@@ -4,7 +4,7 @@ description: "Online maths tutor for Brisbane learners, Prep to Year 12 and adul
 canonical: https://learn.modernagecoders.com/maths-tutor-brisbane
 source: src/pages/maths-tutor-brisbane.html
 ---
-> Brisbane learners aged 6 to 67 can study maths live online with Modern Age Coders: primary and secondary maths, Queensland senior subjects including Mathematical Methods and Specialist Mathematics, and adult maths. Lessons are timed in Brisbane, where clocks never change, and run either privately or with five to ten learners at the same level. The opening lesson is free.
+> Brisbane learners aged 6 to 67 can study maths live online with Modern Age Coders: primary and secondary maths, Queensland senior subjects including Mathematical Methods and Specialist Mathematics, and adult maths. Lessons are timed in Brisbane, where clocks never change, and run either privately or with fifteen to twenty learners at the same level. The opening lesson is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Maths tutor in Brisbane
 
@@ -250,7 +250,7 @@ Since Brisbane keeps the same clock all year, a lesson booked once stays at the 
 
 - **Same teacher** Week after week.
 - **Progress notes** Short and honest.
-- **Groups of five to ten** Matched by level.
+- **Groups of fifteen to twenty** Matched by level.
 - **Maps and measurement** Real data beside exercises.
 - **One to one** For a test or a gap.
 - **Understanding first** Then practice.
@@ -260,7 +260,7 @@ Since Brisbane keeps the same clock all year, a lesson booked once stays at the 
 Brisbane families pay one monthly fee in US dollars. There is no joining fee and no contract.
 
 - Free first class: USD 0. A real lesson at the right level. An honest summary. No card.
-- Group batch: USD 100 a month. Five to ten learners. One teacher. Marked practice. Stop any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners. One teacher. Marked practice. Stop any month.
 - One to one: USD 150 a month. Private lessons. Built around one learner. Good before exams.
 
 ## What Brisbane families ask about maths tutoring

@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across County Laois, fro
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-laois
 source: src/pages/coding-classes-in-county-laois.html
 ---
-> Laois has the longest average commute in Ireland: 25.3 km each way, taking 32.3 minutes. It is also young, at an average age of 37.3, and growing, up 8% to 91,877 people, with Portlaoise at 23,494 the largest town and the youngest of any town we have written about. Put those together and you have a county where parents are often on the road at the hour a class would start. Ours are live and online at a fixed weekly hour, which a household can build around, for ages 6 to 67, in ability groups of five to ten or one to one. The first lesson costs nothing. After it, a group place is USD 100 a month and private tuition USD 150.
+> Laois has the longest average commute in Ireland: 25.3 km each way, taking 32.3 minutes. It is also young, at an average age of 37.3, and growing, up 8% to 91,877 people, with Portlaoise at 23,494 the largest town and the youngest of any town we have written about. Put those together and you have a county where parents are often on the road at the hour a class would start. Ours are live and online at a fixed weekly hour, which a household can build around, for ages 6 to 67, in ability groups of fifteen to twenty or one to one. The first lesson costs nothing. After it, a group place is USD 100 a month and private tuition USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / County Laois
 
@@ -12,11 +12,11 @@ County Laois, Leinster / Live online
 
 # Coding classes in County Laois
 
-**What are the best coding classes in County Laois?** Laois has the longest average commute in Ireland: 25.3 km each way, taking 32.3 minutes. It is also young, at an average age of 37.3, and growing, up 8% to 91,877 people, with Portlaoise at 23,494 the largest town and the youngest of any town we have written about. Put those together and you have a county where parents are often on the road at the hour a class would start. Ours are live and online at a fixed weekly hour, which a household can build around, for ages 6 to 67, in ability groups of five to ten or one to one. The first lesson costs nothing. After it, a group place is USD 100 a month and private tuition USD 150.
+**What are the best coding classes in County Laois?** Laois has the longest average commute in Ireland: 25.3 km each way, taking 32.3 minutes. It is also young, at an average age of 37.3, and growing, up 8% to 91,877 people, with Portlaoise at 23,494 the largest town and the youngest of any town we have written about. Put those together and you have a county where parents are often on the road at the hour a class would start. Ours are live and online at a fixed weekly hour, which a household can build around, for ages 6 to 67, in ability groups of fifteen to twenty or one to one. The first lesson costs nothing. After it, a group place is USD 100 a month and private tuition USD 150.
 
 Laois County Council has thirty-nine datasets listed on the public sector data catalogue, more than several larger counties. Planning applications. Recycling locations. Rateable properties. The register of electors. The sales ledger. Purchase orders. It reads like a county that has taken open data seriously. We opened six of them through the catalogue's own interface and every one came back the same way: no attached files at all, and no licence stated. Thirty-nine promises, and behind the six we checked, nothing to download. This is not a scandal, and it is not unusual; catalogues fill up with entries faster than councils can publish the files behind them. But it is the single most useful thing a young data learner can discover early, because the alternative is planning a project around a title and finding out three weeks later. This page teaches that check first, and then gives Laois learners something real to work on.
 
-Facts last verified 16 September 2026. Teaching is online; no County Laois branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no County Laois branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a commuting county
 
@@ -191,7 +191,7 @@ In a county where the average commute is the longest in Ireland, the last thing 
 - **The lesson comes to the house** A learner in Durrow and one in Portarlington are in the same group, and no parent drives either of them anywhere.
 - **School stages by their Irish names** First Year, the Junior Cycle, Transition Year and sixth year, used exactly as they are used locally.
 - **A free lesson with teaching in it** Real work on a real task, then a recommendation on level, course and hour, with no card details requested.
-- **Ability groups** Five to ten learners at one level, drawn from Laois and several other countries, so a good hour exists at every stage.
+- **Ability groups** Fifteen to twenty learners at one level, drawn from Laois and several other countries, so a good hour exists at every stage.
 - **Built around the commute** Two lessons most weeks, about eight a month, at a fixed hour chosen to fall after the drive home, with pauses agreed for exams and holidays.
 - **Teachers on Indian time** Their clock never shifts, leaving them four and a half hours ahead of Ireland in summer and five and a half in winter, which covers Laois evenings comfortably.
 
@@ -202,7 +202,7 @@ In a county where the average commute is the longest in Ireland, the last thing 
 Three numbers, and nothing else afterwards.
 
 - First class: USD 0. A full lesson free of charge, ending in an honest placement and a recommended course.
-- Group tuition: USD 100 a month. A month of teaching, usually eight lessons, with five to ten learners of matching ability.
+- Group tuition: USD 100 a month. A month of teaching, usually eight lessons, with fifteen to twenty learners of matching ability.
 - Private tuition: USD 150 a month. The same month of about eight lessons, with one teacher working with one learner.
 
 Fees are charged in US dollars at the one rate used outside India, so Portlaoise pays what Abbeyleix pays and there is no euro list. Nothing is charged until the free lesson has settled a course and a weekly hour, and the pricing page explains pauses, missed lessons and changes of format.
@@ -243,7 +243,7 @@ No, and we never imply one. All teaching is live online, with no premises in Ire
 
 ### What do County Laois coding classes cost?
 
-The first lesson is free. Continuing costs USD 100 a month for a group place, covering two live lessons a week and about eight a month with five to ten learners, or USD 150 a month privately on the same schedule. Everything is settled before payment.
+The first lesson is free. Continuing costs USD 100 a month for a group place, covering two live lessons a week and about eight a month with fifteen to twenty learners, or USD 150 a month privately on the same schedule. Everything is settled before payment.
 
 ### How many learners are in a group?
 

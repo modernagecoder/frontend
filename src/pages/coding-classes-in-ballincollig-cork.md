@@ -16,7 +16,7 @@ Ballincollig, Cork / Live online
 
 A few kilometres upstream of Ballincollig, the Office of Public Works measures the level of the Lee every 15 minutes at a station called Inniscarra Tailrace, just below the ESB's hydro station. In the 35 days to 19 September 2026 its level jumped by five centimetres or more within a single quarter of an hour 17 times, once by 15.4 centimetres, and the jumps came at particular times of day. At the nearest station that is not beside a power station, Ovens Bridge, the level never moved more than 1.9 centimetres in 15 minutes. Rivers rise and fall with rain; this one also moves in steps. This page teaches a learner to find those steps in data, check when they happen, and tell a decision apart from the weather.
 
-Facts last verified 20 September 2026. Teaching is online; no Ballincollig branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Ballincollig branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Ballincollig learners can begin
 
@@ -147,7 +147,7 @@ Spotting a jump in a list is easy. Saying honestly what caused it is the skill. 
 In practice.
 
 - **Teacher in real time** A teacher leads each lesson live and reads every learner's code as they write it.
-- **Groups of equals** Five to ten learners who are at the same point, from Ballincollig, the rest of Ireland or abroad.
+- **Groups of equals** Fifteen to twenty learners who are at the same point, from Ballincollig, the rest of Ireland or abroad.
 - **Two days a week** Around eight lessons a month at the same times each week, agreed at the start.
 - **Around school** Mid-terms, holidays and exam periods are planned for in advance.
 - **At the desk** A laptop or desktop, a microphone and headphones or speakers, and broadband that can carry video.
@@ -160,7 +160,7 @@ In practice.
 The full picture.
 
 - First class: USD 0. A free first lesson, including a check of the learner's level.
-- Group tuition: USD 100 a month. A month in a same-stage group of five to ten, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a same-stage group of fifteen to twenty, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons on the same timetable.
 
 Families outside India all pay the same monthly amount in US dollars. The free lesson commits nobody, payment begins when the course does, and the pricing page sets out how holidays, missed lessons and a move between group and private teaching are handled.
@@ -197,7 +197,7 @@ Only by chance. Groups are made by level, so classmates may be in Cork, elsewher
 
 ### What do coding classes in Ballincollig cost?
 
-The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with five to ten learners; one-to-one lessons on the same timetable are USD 150 a month. Terms are agreed before any payment.
+The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners; one-to-one lessons on the same timetable are USD 150 a month. Terms are agreed before any payment.
 
 ### How many learners are in a group?
 

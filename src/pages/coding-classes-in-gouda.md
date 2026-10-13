@@ -16,7 +16,7 @@ Gouda, Zuid-Holland / Live online
 
 A clay pipe carries smoke from one end to the other and hides what happens inside. A software pipe does much the same with data. On a command line, one small program reads a file, a second picks out the lines that matter, a third sorts them and a fourth counts them, each passing its result straight to the next through a pipe. It is one of the most elegant ideas in computing, dating from the 1970s, and it lives on in data pipelines, machine learning workflows and AI agents that chain one tool into another. It also has a characteristic weakness. When a stage in the middle quietly drops half the data, or fails outright, the stages after it carry on with whatever they were given, and the final result looks perfectly normal. Gouda, which the encyclopaedia names among the towns known for making pipes, is a good place to learn to look inside the joints.
 
-Facts last verified 11 September 2026. Teaching is online; no Gouda branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Gouda branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the town of the Waag and the Sint-Janskerk
 
@@ -191,7 +191,7 @@ From the canal ring of the Binnenstad to the newer wijken beyond, Gouda is compa
 - **Straight from home** A learner in Bloemendaal and a learner in Noord join the same session at the same minute, each at their own desk, with no bike ride through the evening and no waiting outside afterwards.
 - **The school system untranslated** Words like brugklas, havo, vwo, vmbo, groep and profielkeuze are left in Dutch, as on any Gouda school report, while explanations come in English.
 - **A free lesson with substance** The opening lesson works through a real task. Afterwards the teacher suggests a level, a course and a weekly time, and asks for nothing: no card, no deposit.
-- **Classmates who match** Groups have five to ten learners at one stage of one subject. Gouda has 11,861 residents under fifteen, but five at an identical stage who are free at an identical hour is rare, so groups draw on several countries.
+- **Classmates who match** Groups have fifteen to twenty learners at one stage of one subject. Gouda has 11,861 residents under fifteen, but five at an identical stage who are free at an identical hour is rare, so groups draw on several countries.
 - **Regio Midden calendar** Twice a week, about eight times a month, at one set time, with breaks for the regio Midden school holidays that Gouda follows.
 - **Teachers a few hours ahead** The teachers work from India, three and a half hours later than the Dutch clock in summer and four and a half in winter, which suits after-school, evening and weekend-morning lessons.
 
@@ -202,7 +202,7 @@ From the canal ring of the Binnenstad to the newer wijken beyond, Gouda is compa
 Here is the whole price list.
 
 - First class: USD 0. A real lesson on a real task, ending with a level and a course that suits it.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners grouped by level.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners grouped by level.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner and one teacher.
 
 Every country pays the same dollar price and there is no separate euro list, so a household in Plaswijck pays what one in the Binnenstad pays. Nothing is charged until the free lesson has settled a course and a time; payment is then set up on WhatsApp. For pauses, a switch of format or missed lessons, see the pricing page.
@@ -243,7 +243,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Gouda coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

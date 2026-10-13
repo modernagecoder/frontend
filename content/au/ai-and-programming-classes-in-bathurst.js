@@ -183,7 +183,7 @@ module.exports = {
       { h3: 'Across the council area', p: 'A learner in Kelso and another in Eglinton can join the same lesson without travelling at all.' },
       { h3: 'NSW stages and years', p: 'Teachers work with NSW year levels and the HSC, and every lesson is taught in English.' },
       { h3: 'Trial first', p: 'You build something real with a teacher, then hear a suggested level, course and time, with no payment details requested.' },
-      { h3: 'Small groups', p: 'Five to ten learners at one level, drawn from Bathurst, the rest of Australia and abroad.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners at one level, drawn from Bathurst, the rest of Australia and abroad.' },
       { h3: 'Two a week, mostly', p: 'Around eight lessons a month, with exam periods and holidays agreed in advance.' },
       { h3: 'University schedules', p: 'Evening and weekend slots suit students and working adults as well as school learners.' }
     ],
@@ -194,7 +194,7 @@ module.exports = {
     h2: 'What AI and programming classes cost in Bathurst',
     intro: 'Three numbers, nothing hidden.',
     first: 'A free trial lesson that ends with a suggested level, course and time.',
-    group: 'A month of group lessons, usually eight, with five to ten learners at one level.',
+    group: 'A month of group lessons, usually eight, with fifteen to twenty learners at one level.',
     private: 'Roughly eight private lessons each month with the same teacher.',
     closer: 'Bathurst learners are charged in US dollars at the single national rate, with no surcharge for the Central West. Payment begins only once the trial has set a course and a weekly time; holiday breaks, absences and switching between group and private are explained on the pricing page.'
   },
@@ -219,8 +219,8 @@ module.exports = {
       { q: 'When do Bathurst classes take place?', a: 'Afternoons after school, weeknight evenings or weekends, chosen in the trial and stated in Bathurst time.' },
       { q: 'Can children under 13 join?', a: 'Yes, from age 6, beginning with Scratch and simple projects. This page focuses on teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Bathurst?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Bathurst coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Bathurst coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

@@ -39,7 +39,7 @@ module.exports = {
 
   h1: 'Coding classes in Delft, where the number of Vermeers is between 34 and 37 and better counting will not help',
   capsuleQ: 'What are the best coding classes in Delft?',
-  capsule: 'Coding classes in Delft serve 110,089 people (Statistics Netherlands, 1 January 2026) on 22.66 square kilometres, the second densest municipality in this series, with 59 percent of households holding one person. Between 34 and 37 paintings are attributed to the city\'s most famous painter, and that spread is not a counting problem: everyone agrees the criterion is that Vermeer painted it, and the disagreement is about individual pictures. Modern Age Coders teaches live online in English across all thirteen wijken, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.',
+  capsule: 'Coding classes in Delft serve 110,089 people (Statistics Netherlands, 1 January 2026) on 22.66 square kilometres, the second densest municipality in this series, with 59 percent of households holding one person. Between 34 and 37 paintings are attributed to the city\'s most famous painter, and that spread is not a counting problem: everyone agrees the criterion is that Vermeer painted it, and the disagreement is about individual pictures. Modern Age Coders teaches live online in English across all thirteen wijken, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.',
   lead: 'How many paintings did Vermeer leave? Between thirty-four and thirty-seven, and the range has nothing to do with anybody miscounting. Every expert applies the same rule, that the picture was painted by Vermeer, and they disagree about two or three specific canvases. No better inventory closes that gap, because the uncertainty lives in the membership rather than in the arithmetic. Any dataset with borderline records has the same shape, and knowing which kind of doubt you are looking at decides whether more effort will help.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Delft.',
 
@@ -176,14 +176,14 @@ module.exports = {
       { h3: 'Twice weekly, on the middle calendar', p: 'Two lessons a week at one repeating slot, eight in most months. Delft takes its holidays with regio Midden along with the rest of Zuid-Holland, and weeks away go into the plan first.' },
       { h3: 'Three and a half hours, or four and a half', p: 'Only the Dutch clock changes, so the gap to the teacher depends on the month. Late afternoon, early evening and both weekend days work at either setting.' }
     ],
-    spec: { title: 'A city where children are outnumbered three to two by young adults', p: '13,158 residents are under fifteen and 22,428 are between fifteen and twenty-five. A child growing up in Delft is in a smaller cohort than in almost any comparable place, and a group of five to ten assembled on ability from across the country is a different proposition from whatever the nearest school can put together.' }
+    spec: { title: 'A city where children are outnumbered three to two by young adults', p: '13,158 residents are under fifteen and 22,428 are between fifteen and twenty-five. A child growing up in Delft is in a smaller cohort than in almost any comparable place, and a group of fifteen to twenty assembled on ability from across the country is a different proposition from whatever the nearest school can put together.' }
   },
 
   fees: {
     h2: 'The fee, in dollars, in all thirteen wijken',
     intro: 'Published here rather than kept for a phone call.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'One international rate exists, it is quoted in dollars, and there is no euro version, so every address in the city sees the same figure. The order is free lesson first, course and time second, payment third, and the payment goes over WhatsApp. Pauses, plan changes and missed weeks are described on the pricing page.'
   },
@@ -208,7 +208,7 @@ module.exports = {
       { q: 'Is Delft one of the most densely populated cities in the country?', a: 'It is the second densest in this series at a published 4,862 residents to the square kilometre, behind Leiden. Its own entry makes no claim about a national ranking and gives no position, and this page does not supply one, because the only ranking found was in an aggregator blog rather than in a source worth citing.' },
       { q: 'What is in the free lesson?', a: 'The teacher establishes the real level by having the learner do something, then sets one task just beyond it. A child might sort a box of things that are arguably orange. A teenager gives every record a status and makes a count return two numbers. An adult brings a deduplication problem. It ends with a course, a rung, a weekly time and a dollar price, and nothing has been charged.' },
       { q: 'Is there a Modern Age Coders classroom in Delft?', a: 'No, and none is claimed on the campus, in the old centre or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Delft coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Delft coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in a Delft group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or wijk. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in Devon',
   capsuleQ: 'What are the best coding classes in Devon?',
-  capsule: 'Devon is ten councils, Plymouth, Torbay and eight districts, with 1,215,659 people at the 2021 Census. Plymouth is the largest place by a long way, then Exeter, the Torbay towns of Paignton and Torquay, and then Exmouth, Barnstaple and Newton Abbot, with market towns and villages across two coasts, Dartmoor and Exmoor. Our lessons reach every one of them in the same way. A teacher based in India teaches live on video; we place learners by skill rather than by age; anyone from 6 to 67 is welcome; groups have five to ten learners, or you can learn one to one. We teach programming, Python, game making, algorithms and maths. The Devon project is a simulation of a shoal of fish. You pay nothing for the first lesson; after that it is USD 100 a month in a group or USD 150 with a private teacher.',
+  capsule: 'Devon is ten councils, Plymouth, Torbay and eight districts, with 1,215,659 people at the 2021 Census. Plymouth is the largest place by a long way, then Exeter, the Torbay towns of Paignton and Torquay, and then Exmouth, Barnstaple and Newton Abbot, with market towns and villages across two coasts, Dartmoor and Exmoor. Our lessons reach every one of them in the same way. A teacher based in India teaches live on video; we place learners by skill rather than by age; anyone from 6 to 67 is welcome; groups have fifteen to twenty learners, or you can learn one to one. We teach programming, Python, game making, algorithms and maths. The Devon project is a simulation of a shoal of fish. You pay nothing for the first lesson; after that it is USD 100 a month in a group or USD 150 with a private teacher.',
   lead: 'Anyone who has watched a shoal in the tanks at the National Marine Aquarium in Plymouth has seen something that looks planned: hundreds of fish turning together as if one mind were steering. In 1986 Craig Reynolds showed that no mind is needed. His computer model gave each simulated creature, which he called a boid, just three rules about its nearest neighbours: do not crowd them, head the way they are heading, and move towards where they are. Put enough boids together and a flock or shoal appears on its own. This page\'s project builds that model, then does what a scientist would do next: measures the shoal, and switches each rule off to see what it was really doing.',
   wa: 'Hello Modern Age Coders, please could I book a free lesson for a learner in Devon?',
 
@@ -184,7 +184,7 @@ module.exports = {
       { h3: 'At your kitchen table', p: 'A kitchen in Braunton, a bedroom in Crediton, a desk in Kingsbridge. The teacher shares the screen and the learner writes the code.' },
       { h3: 'Words from your school', p: 'Year groups, GCSE options and A levels are named just as Devon schools name them, and teaching is in English.' },
       { h3: 'First lesson on the house', p: 'A proper lesson of real work, then an honest recommendation. You will not be asked for card details.' },
-      { h3: 'A group at your pace', p: 'Five to ten learners who are at the same point, from many towns and countries, meeting at a sensible hour.' },
+      { h3: 'A group at your pace', p: 'Fifteen to twenty learners who are at the same point, from many towns and countries, meeting at a sensible hour.' },
       { h3: 'Breaks by arrangement', p: 'Two lessons a week is normal, pausing when your own school breaks up, whichever council or trust set the dates.' },
       { h3: 'UK times only', p: 'Teachers work on India time, 4.5 hours ahead of UK summer time and 5.5 ahead of winter time, but you only ever see UK times.' }
     ],
@@ -195,7 +195,7 @@ module.exports = {
     h2: 'Fees for Devon',
     intro: 'Every Devon town pays the same, as does every country outside India.',
     first: 'One full lesson of real work, with a recommended level and course at the end.',
-    group: 'Roughly eight lessons a month in a group of five to ten at the same level.',
+    group: 'Roughly eight lessons a month in a group of fifteen to twenty at the same level.',
     private: 'Roughly eight lessons a month, one teacher with one learner.',
     closer: 'We bill every family outside India in US dollars; there is no price list in pounds. The first bill comes only after the free lesson has settled a course and weekly slot, and the pricing page explains pausing, missed lessons and switching between group and private teaching.'
   },

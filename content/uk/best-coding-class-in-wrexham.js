@@ -67,7 +67,7 @@ module.exports = {
 
   h1: 'Coding classes in Wrexham',
   capsuleQ: 'What are the best coding classes in Wrexham?',
-  capsule: 'Wrexham county borough had 135,117 usual residents at the 2021 census, and the Caia Park area had 4,890.9 people per square kilometre. Wrexham appears among the Welsh cities on the UK government\'s List of Cities, last updated on 29 August 2022. Wrexham learners aged six to sixty-seven study with our teachers in India over live video, in one-to-one lessons or in classes of five to ten at one level, at times set around the Welsh school day and working week. We charge nothing for the first lesson; afterwards a group place is USD 100 a month and a private teacher USD 150 a month.',
+  capsule: 'Wrexham county borough had 135,117 usual residents at the 2021 census, and the Caia Park area had 4,890.9 people per square kilometre. Wrexham appears among the Welsh cities on the UK government\'s List of Cities, last updated on 29 August 2022. Wrexham learners aged six to sixty-seven study with our teachers in India over live video, in one-to-one lessons or in classes of fifteen to twenty at one level, at times set around the Welsh school day and working week. We charge nothing for the first lesson; afterwards a group place is USD 100 a month and a private teacher USD 150 a month.',
   lead: 'A monitoring station called Wrexham, run by the Welsh Air Quality Network less than a kilometre from the city centre, has published hourly nitrogen dioxide readings since at least 2005. Its yearly average fell from 20.2 micrograms per cubic metre over the first five years to 14.0 over the last five. But did it fall every year? No: in 9 of the 20 steps from one year to the next it rose. Our Wrexham project uses isotonic regression, which finds the closest curve that never goes up, to separate the long fall from the year-to-year wobble. That curve explains 88.4% of the variation, a straight line only 68.2%, and it shows the fall levelling off after 2020.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Wrexham.',
 
@@ -195,7 +195,7 @@ module.exports = {
       { h3: 'City and villages', p: 'A learner in Rhostyllen and another in Acton can share a class without either of them crossing town.' },
       { h3: 'Set to the Welsh system', p: 'Placement follows the Welsh school year a learner is in and the Curriculum for Wales, with WJEC names for GCSE and A level courses; the teaching language is English.' },
       { h3: 'A useful first session', p: 'Nobody sits through a sales talk: the free lesson is a real coding task, after which the teacher recommends where to start, which course suits and a regular weekly slot. No card is requested.' },
-      { h3: 'Classes by level', p: 'Five to ten learners at one stage, from Wrexham, the rest of the UK and abroad, keeping sensible times open at every level.' },
+      { h3: 'Classes by level', p: 'Fifteen to twenty learners at one stage, from Wrexham, the rest of the UK and abroad, keeping sensible times open at every level.' },
       { h3: 'Two lessons a week', p: 'A steady pattern of two lessons each week, roughly eight in a month; holidays and exam periods are worked around by agreement with the teacher.' },
       { h3: 'Evenings for our teachers', p: 'Our teachers are in India, which keeps a single time zone all year, so a 5 pm Wrexham lesson falls at half past nine their time in summer and half past ten in winter.' }
     ],
@@ -206,7 +206,7 @@ module.exports = {
     h2: 'Wrexham lesson fees',
     intro: 'The first lesson costs nothing, then there is a single monthly fee.',
     first: 'One whole lesson at no cost, ending with a suggested level, course and weekly time.',
-    group: 'Around eight live lessons a month in a class of five to ten learners at the same level.',
+    group: 'Around eight live lessons a month in a class of fifteen to twenty learners at the same level.',
     private: 'Around eight live lessons a month, with a teacher focused on your learner only.',
     closer: 'Stansty and Garden Village families are invoiced in US dollars, the same as every family living outside India, and no price on our site is shown in pounds. We bill nothing before the free lesson is over and a course and weekly time have been chosen with us; the pricing page sets out pauses, missed lessons and moving between group and one-to-one teaching.'
   },
@@ -231,8 +231,8 @@ module.exports = {
       { q: 'Is Wrexham a city?', a: 'Yes. The UK government\'s List of Cities, last updated on 29 August 2022, includes Wrexham among the cities of Wales.' },
       { q: 'When do Wrexham lessons take place?', a: 'Most Wrexham families pick a slot after school, on a weekday evening or at the weekend, and we confirm it in the free lesson. Because the teachers work from India, the lesson sits in their late evening: India is four and a half hours on from Wrexham between March and October and five and a half hours on for the rest of the year.' },
       { q: 'Is there a centre in Wrexham?', a: 'No. We have no Wrexham centre and no premises anywhere in the UK, because every lesson is live online. Learners need a computer with sound and a reliable connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much are Wrexham lessons?', a: 'The first lesson is free. After it, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than by age or address, with five to ten learners at the same stage. When no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much are Wrexham lessons?', a: 'The first lesson is free. After it, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than by age or address, with fifteen to twenty learners at the same stage. When no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

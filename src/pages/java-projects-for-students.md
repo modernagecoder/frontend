@@ -130,7 +130,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo.
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 students per batch
+- 15–20 students per batch
 - Live project-based sessions
 - Recorded class access
 - Portfolio + completion certificate
@@ -141,7 +141,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 students per batch
+- Up to 6 students per batch
 - More project mentoring
 - Recorded class access
 - Portfolio + certificate
@@ -205,7 +205,7 @@ No. We start with beginner-friendly projects and increase complexity as skills g
 
 How much does the Java projects course cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. A free demo class is available before you enrol.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. A free demo class is available before you enrol.
 
 Will students have a portfolio at the end?+
 

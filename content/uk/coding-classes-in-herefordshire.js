@@ -53,7 +53,7 @@ module.exports = {
 
   h1: 'Coding classes in Herefordshire',
   capsuleQ: 'What are the best coding classes in Herefordshire?',
-  capsule: 'Herefordshire is a single council and a deeply rural county: after the city of Hereford, with just over 60,000 people in its built-up area, the next towns are Leominster and Ross-on-Wye at about 11,000 each, then Ledbury and Bromyard, and a wide spread of villages and farms. That is exactly the kind of place online teaching suits. Our teachers work from India and teach live over video; a learner\'s starting point comes from what they can do, not their age; anyone from 6 to 67 is welcome; and classes are either groups of five to ten or one to one. We teach programming, Python, data structures, algorithms and maths. The Herefordshire project comes from the cathedral\'s Chained Library. The first lesson is free, then USD 100 a month for a group place or USD 150 for private teaching.',
+  capsule: 'Herefordshire is a single council and a deeply rural county: after the city of Hereford, with just over 60,000 people in its built-up area, the next towns are Leominster and Ross-on-Wye at about 11,000 each, then Ledbury and Bromyard, and a wide spread of villages and farms. That is exactly the kind of place online teaching suits. Our teachers work from India and teach live over video; a learner\'s starting point comes from what they can do, not their age; anyone from 6 to 67 is welcome; and classes are either groups of fifteen to twenty or one to one. We teach programming, Python, data structures, algorithms and maths. The Herefordshire project comes from the cathedral\'s Chained Library. The first lesson is free, then USD 100 a month for a group place or USD 150 for private teaching.',
   lead: 'Hereford Cathedral\'s Chained Library is, in the cathedral\'s words, the largest to survive with all its chains, rods and locks intact. Each book has a chain fixed to its front cover, and the other end runs on a rod along the bottom of the shelf. It is a beautiful piece of security engineering, and it hides a problem every programmer meets. Suppose a new book has to go in the middle of a full shelf, in its proper order. Every chain after it must slide along the rod to make room. This page\'s project turns that into code, measures the work for fifty new books, and compares it with two cleverer ways of storing an ordered list: one borrowed from computer science, and one that librarians have always known.',
   wa: 'Hello Modern Age Coders, may I book a free lesson for a learner in Herefordshire?',
 
@@ -158,7 +158,7 @@ module.exports = {
       { h3: 'From the farmhouse or the flat', p: 'A kitchen near Leominster, a bedroom in Hereford, a study in Ledbury. The teacher shares the screen; the learner types.' },
       { h3: 'School terms we share', p: 'Year groups, GCSE choices and A levels are named as Herefordshire schools name them, and teaching is in English.' },
       { h3: 'A free first lesson', p: 'A real lesson with real work, then a straight recommendation. We ask for no payment details.' },
-      { h3: 'Learners at your level', p: 'Five to ten classmates at the same stage, from many places, which rural counties rarely have locally.' },
+      { h3: 'Learners at your level', p: 'Fifteen to twenty classmates at the same stage, from many places, which rural counties rarely have locally.' },
       { h3: 'Around your school holidays', p: 'Usually two lessons a week, pausing when your school does.' },
       { h3: 'UK clock times', p: 'India, where our teachers are, is ahead of the UK by four and a half hours in summer and five and a half in winter; your times are always UK times.' }
     ],
@@ -169,7 +169,7 @@ module.exports = {
     h2: 'Fees in Herefordshire',
     intro: 'The same prices across the county, and in every country outside India.',
     first: 'A full lesson of genuine work, with a recommended level and course at the end.',
-    group: 'About eight lessons a month in a group of five to ten learners at one level.',
+    group: 'About eight lessons a month in a group of fifteen to twenty learners at one level.',
     private: 'About eight lessons a month, one teacher with one learner.',
     closer: 'Fees are in US dollars for everyone outside India, and there is no list in pounds. We charge nothing until the free lesson has settled a course and a weekly time; pausing, missed lessons and switching between group and private are explained on the pricing page.'
   },

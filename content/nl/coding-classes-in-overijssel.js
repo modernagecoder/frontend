@@ -37,7 +37,7 @@ module.exports = {
 
   h1: 'Coding classes in Overijssel, where a one-in-1,250-year dike is a one-in-sixteen lifetime',
   capsuleQ: 'What are the best coding classes in Overijssel?',
-  capsule: 'Coding classes in Overijssel reach 1,202,375 people in 25 municipalities (Statistics Netherlands, 1 January 2026), three landscapes and one river: Twente in the east around Enschede, Salland in the middle around Deventer, and the Kop and the IJssel delta in the north around Zwolle, the capital. The dike rings along the IJssel were built to a standard of one flood in 1,250 years, a figure that means something quite different from what it sounds like. The class is the same in every one of the 25: live, online, in English, for learners from 6 to 67, with nothing charged for the first lesson and then USD 100 a month for a group of five to ten or USD 150 for a teacher alone, taught by Modern Age Coders.',
+  capsule: 'Coding classes in Overijssel reach 1,202,375 people in 25 municipalities (Statistics Netherlands, 1 January 2026), three landscapes and one river: Twente in the east around Enschede, Salland in the middle around Deventer, and the Kop and the IJssel delta in the north around Zwolle, the capital. The dike rings along the IJssel were built to a standard of one flood in 1,250 years, a figure that means something quite different from what it sounds like. The class is the same in every one of the 25: live, online, in English, for learners from 6 to 67, with nothing charged for the first lesson and then USD 100 a month for a group of fifteen to twenty or USD 150 for a teacher alone, taught by Modern Age Coders.',
   lead: 'A dike built to a one-in-1,250-year standard is not a dike that floods once every 1,250 years. It is a dike with a 0.08 percent chance of failing in any given year, which over the eighty years of a child born in Kampen this year adds up to about one chance in sixteen. The program that turns the first number into the second is fifteen lines long, and every family living below the IJssel should have one.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Overijssel.',
 
@@ -181,7 +181,7 @@ module.exports = {
     h2: 'The tariff for twenty-five municipalities, in full',
     intro: 'Printed before a phone number is asked for.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'A single dollar rate applies everywhere outside India, with no euro list, and Staphorst pays what Enschede pays. Course and hour are settled in the free lesson and payment comes afterwards, over WhatsApp. Pauses, plan changes and missed lessons are described on the pricing page.'
   },
@@ -206,7 +206,7 @@ module.exports = {
       { q: 'What time are classes for a family in Overijssel?', a: 'The Dutch clock moves and the Indian one does not, so an Overijssel afternoon is three and a half hours behind the teacher in summer and four and a half in winter. Late afternoon, early evening and weekend slots suit both ends, and the recurring hour is chosen in the free lesson.' },
       { q: 'What happens in the free lesson?', a: 'We find what the learner can do and set one task there. A child draws from a bag with one red marble in 1,250. A teenager writes the compounding line and simulates ten thousand lifetimes. An adult brings a failure rate from work. It closes with a course, a level, a weekly hour and the fee in dollars, and nothing has changed hands.' },
       { q: 'Is there a Modern Age Coders classroom anywhere in Overijssel?', a: 'No, and none is claimed in Zwolle, in Enschede or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Overijssel coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Overijssel coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in an Overijssel group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or municipality. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

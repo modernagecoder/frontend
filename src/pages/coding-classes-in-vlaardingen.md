@@ -16,7 +16,7 @@ Vlaardingen, Zuid-Holland / Live online
 
 The document of 1273 is a pointer. By describing the rights it granted as an extension of earlier ones, it refers to something older, and the encyclopaedia draws the careful conclusion: Vlaardingen probably had town rights before 1273. The earlier grant itself is not the record that has come down. Historians are used to this, and they treat the pointer as evidence while saying plainly that the thing it points to is missing. Software is full of the same situation and is far less careful about it. An order refers to a customer who has been deleted. A web page links to a page that no longer exists. A program loads a file that someone moved. An AI answer cites an article that was never written. In each case the reference looks exactly like a good one until somebody follows it.
 
-Facts last verified 11 September 2026. Teaching is online; no Vlaardingen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Vlaardingen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the haringstad
 
@@ -184,7 +184,7 @@ From the Oude Haven to Holy and the Broekpolder, the town is close-knit but busy
 - **At home, on time** A learner in Vlaardinger Ambacht and a learner in Holy-Zuid start at the same moment, each from home. No cycling across town in the dark and no waiting at a door afterwards.
 - **Dutch words kept Dutch** Groep, brugklas, vmbo, havo, vwo and profielkeuze are said in Dutch in every lesson, as a Vlaardingen school uses them, and the teaching around them is in English.
 - **The first hour teaches** The free session is a real lesson with a real task. At the end the teacher proposes a level, a course and a weekly time, and nothing is paid or promised.
-- **Groups made to measure** Five to ten learners at one stage of one subject. Vlaardingen has 12,520 residents under fifteen, but five who match on subject, level and hour are hard to find in one town, so groups may include learners from abroad.
+- **Groups made to measure** Fifteen to twenty learners at one stage of one subject. Vlaardingen has 12,520 residents under fifteen, but five who match on subject, level and hour are hard to find in one town, so groups may include learners from abroad.
 - **Regio Midden weeks off** Two lessons a week, roughly eight a month, at the same time, pausing for the regio Midden school holidays that Zuid-Holland keeps.
 - **Teachers ahead of the clock** The teachers are in India, three and a half hours ahead of Vlaardingen in summer and four and a half in winter, so after school, evenings and weekend mornings all work.
 
@@ -195,7 +195,7 @@ From the Oude Haven to Holy and the Broekpolder, the town is close-knit but busy
 The whole price, in three lines.
 
 - First class: USD 0. A real lesson on a real task, finishing with a level and the course that suits it.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one teacher for one learner.
 
 There is a single dollar price for every country and no euro list beside it, so a family in the Westwijk pays what a family in Holy-Noord pays. Nothing is charged until the free lesson has settled a course and a time, and payment is arranged over WhatsApp afterwards. The pricing page covers pauses, changes of format and missed lessons.
@@ -236,7 +236,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Vlaardingen coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

@@ -178,7 +178,7 @@ A learner in a mountain village and a learner near the coast join the same class
 
 Placement, a short ability task and a course recommendation happen before any payment and before any card is requested.
 
-### Five to eight in a group
+### Fifteen to twenty in a group
 
 Groups are matched on current level, pace and objective. Age alone does not decide who learns well beside whom.
 
@@ -210,7 +210,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -320,7 +320,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for As Suwaiq learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are As Suwaiq class times arranged?
 

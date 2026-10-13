@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Coding classes in South Dublin',
   capsuleQ: 'What are the best coding classes in South Dublin?',
-  capsule: 'South Dublin County Council has existed since 1 January 1994 and covers 222.74 square kilometres, with 301,075 people living in 100,364 homes at the 2022 census, an 8% rise on 2016. Its average age of 37.2 is lower than Leinster, Dublin City and the State, and two thirds of households own their home. It is a young, working area with 137,100 people at work, and an average commute of 30.6 minutes. Our classes are live online at a fixed weekly hour for ages 6 to 67, in ability groups of five to ten or one to one. The first lesson costs nothing, then a group place is USD 100 a month and private tuition USD 150.',
+  capsule: 'South Dublin County Council has existed since 1 January 1994 and covers 222.74 square kilometres, with 301,075 people living in 100,364 homes at the 2022 census, an 8% rise on 2016. Its average age of 37.2 is lower than Leinster, Dublin City and the State, and two thirds of households own their home. It is a young, working area with 137,100 people at work, and an average commute of 30.6 minutes. Our classes are live online at a fixed weekly hour for ages 6 to 67, in ability groups of fifteen to twenty or one to one. The first lesson costs nothing, then a group place is USD 100 a month and private tuition USD 150.',
   lead: 'Here is a small thing that matters more than it sounds. South Dublin County Council publishes a dataset of parking fines. Look it up on the national open data portal and it says the licence is Creative Commons Attribution. Open the council\'s own data hub, where the same file actually lives, and the metadata says Attribution ShareAlike, which is a different licence with a different obligation attached. One council, one file, two answers about what you are allowed to do with it. Nothing is hidden and nobody is at fault; publishing surfaces drift apart. But a student who builds something on that file has to know which licence governs it, and the only way to find out is to look in both places and notice they disagree. That habit, checking the same fact in two sources before relying on it, is what this page teaches, and it turns out South Dublin offers several chances to practise.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in South Dublin.',
 
@@ -195,7 +195,7 @@ module.exports = {
       { h3: 'No bus, no wait', p: 'A learner in Firhouse and one in Palmerstown are in the same class at the same moment, and neither stands at a stop to get there.' },
       { h3: 'The school year as spoken', p: 'Junior Cycle, Transition Year, fifth and sixth year: the words your school uses are the words the teacher uses.' },
       { h3: 'A free lesson that teaches', p: 'A real task with a real teacher, ending in a clear recommendation, and no request for payment details.' },
-      { h3: 'Levels, not ages', p: 'Five to ten learners who work at one pace, drawn from South Dublin and further afield so every level has a workable hour.' },
+      { h3: 'Levels, not ages', p: 'Fifteen to twenty learners who work at one pace, drawn from South Dublin and further afield so every level has a workable hour.' },
       { h3: 'Weekly and reliable', p: 'Two lessons in most weeks, about eight a month, at one fixed time, with breaks planned around exams and holidays.' },
       { h3: 'The clock difference', p: 'Our teachers work from India, four and a half hours ahead of Ireland in summer and five and a half in winter.' }
     ],
@@ -206,7 +206,7 @@ module.exports = {
     h2: 'What classes cost in South Dublin',
     intro: 'Three numbers, stated once and not added to.',
     first: 'One complete lesson at no charge, ending with a level and a course named.',
-    group: 'A month of classes, normally eight, shared with five to ten learners of similar ability.',
+    group: 'A month of classes, normally eight, shared with fifteen to twenty learners of similar ability.',
     private: 'The same month of classes with the teacher working with one learner only.',
     closer: 'Charging is monthly in US dollars at the one rate used outside India, so Rathfarnham pays what Brittas pays and there is no euro list. Nothing is billed until the free lesson has produced a course and an hour, and the pricing page explains pauses, missed lessons and moving between group and private teaching.'
   },
@@ -231,7 +231,7 @@ module.exports = {
       { q: 'Is there third level in the area?', a: 'TU Dublin\'s Tallaght campus, on an 18 hectare site with over 5,000 students, at D24 FKT9. We have no connection with the university.' },
       { q: 'What hours do classes run?', a: 'Afternoons, evenings and weekend mornings. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter, and the weekly hour is agreed in the free lesson.' },
       { q: 'Is there a Modern Age Coders classroom in South Dublin?', a: 'No, and we are careful never to imply one. Teaching happens live over video, with no premises anywhere in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number printed here belongs to India.', boiler: true },
-      { q: 'What do South Dublin coding classes cost?', a: 'The opening lesson is free. After that, a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do South Dublin coding classes cost?', a: 'The opening lesson is free. After that, a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Between five and ten, grouped by ability, pace and goal rather than by age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

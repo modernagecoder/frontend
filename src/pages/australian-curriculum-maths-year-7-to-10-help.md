@@ -187,7 +187,7 @@ Teachers are based in India, which is behind every Australian time zone. A 6 pm 
 
 - **Working shown** Every solution written out, because that is how marks are awarded.
 - **Gaps found first** A short diagnostic before new content.
-- **Groups of five to ten** Grouped by level rather than strictly by year.
+- **Groups of fifteen to twenty** Grouped by level rather than strictly by year.
 - **One-to-one lessons** For a specific gap or a student ready to move fast.
 - **Brief parent notes** What was covered and what to practise.
 - **No grade promises** We teach the maths properly; results belong to the student.
@@ -197,7 +197,7 @@ Teachers are based in India, which is behind every Australian time zone. A 6 pm 
 Australian families pay monthly in US dollars, the same rate we charge in every country outside India. No deposit, and you can stop at the end of any month.
 
 - Free first class: USD 0. A lesson with a real teacher. A short diagnostic of where things stand. No payment details.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher every week. Homework marked and explained. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher every week. Homework marked and explained. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one student. Focused on chosen topics. A weekly time that suits you.
 
 ## What Australian families ask

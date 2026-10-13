@@ -16,7 +16,7 @@ Book a Free DemoSee the Roadmap**act**AI that does**5 to 10**Students per batch*
 
 ## Quick answer
 
-**Modern Age Coders' AI Agents Course teaches you to build autonomous AI agents with LLMs in Python.** You'll learn the think-act-observe loop, how to give an LLM tools and memory, and how to design agents that complete multi-step tasks reliably, the architecture behind modern agentic AI. It's hands-on with real agents. Classes are live in small batches of 5 to 10 with a mentor, the fee is a flat monthly amount shown below in your own currency, and a free demo comes first.
+**Modern Age Coders' AI Agents Course teaches you to build autonomous AI agents with LLMs in Python.** You'll learn the think-act-observe loop, how to give an LLM tools and memory, and how to design agents that complete multi-step tasks reliably, the architecture behind modern agentic AI. It's hands-on with real agents. Classes are live in batches of 15 to 20 with a mentor, the fee is a flat monthly amount shown below in your own currency, and a free demo comes first.
 
 Start Today
 
@@ -108,7 +108,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo.
 
 ₹1,499per month · 2 classes/week
 
-- 5 to 10 learners per batch
+- 15 to 20 learners per batch
 - Live agent building
 - Recorded class access
 - Completion certificate
@@ -119,7 +119,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 learners per batch
+- Up to 6 learners per batch
 - More personal mentoring
 - Recorded class access
 - Project guidance & certificate
@@ -183,11 +183,11 @@ Yes. Every topic is hands-on in Python/Colab and you build real, mentor-reviewed
 
 How much does the course cost?+
 
-Three formats, each a flat monthly fee: a group batch of 5 to 10 with two live classes a week, a mini batch of 3 to 4, and one-to-one mentoring. The current fees for your region are on this page and on our pricing page. Every plan starts with a free demo, or a Priority Live Demo if you want a full class today or tomorrow.
+Three formats, each a flat monthly fee: a group batch of 15 to 20 with two live classes a week, a mini batch of up to 6, and one-to-one mentoring. The current fees for your region are on this page and on our pricing page. Every plan starts with a free demo, or a Priority Live Demo if you want a full class today or tomorrow.
 
 Are the classes live and mentor-led?+
 
-Yes. Classes are live in small batches of 5 to 10 with a mentor who reviews your work, and every session is recorded so you can revise anytime. It's real-time teaching, not pre-recorded videos.
+Yes. Classes are live in batches of 15 to 20 with a mentor who reviews your work, and every session is recorded so you can revise anytime. It's real-time teaching, not pre-recorded videos.
 
 ---
 

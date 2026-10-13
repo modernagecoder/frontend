@@ -58,7 +58,7 @@ module.exports = {
     ['First step', 'One lesson, free']
   ],
   capsuleQ: 'In short',
-  capsule: 'The best online coding class in the UK is one that fits the learner\'s school system and stage and teaches them to reason about code rather than copy it. Interest at school is moving: Ofqual\'s provisional figures for England show GCSE computing entries falling from 89,610 in 2025 to 83,330 in 2026, down 7.0 percent and the largest fall of any EBacc subject, while A level computing grew by 3.5 percent. A good class works around school rather than against it: a live teacher at a UK hour, a prediction before any typing, code read by a person every week, AI used openly and recorded, and evidence you can check yourself. We run classes like that for learners from 6 to 67, either in a small group of five to ten or with a teacher to themselves. Trying one costs nothing, and staying on costs USD 100 a month in a group or USD 150 for private lessons.',
+  capsule: 'The best online coding class in the UK is one that fits the learner\'s school system and stage and teaches them to reason about code rather than copy it. Interest at school is moving: Ofqual\'s provisional figures for England show GCSE computing entries falling from 89,610 in 2025 to 83,330 in 2026, down 7.0 percent and the largest fall of any EBacc subject, while A level computing grew by 3.5 percent. A good class works around school rather than against it: a live teacher at a UK hour, a prediction before any typing, code read by a person every week, AI used openly and recorded, and evidence you can check yourself. We run classes like that for learners from 6 to 67, either in a group of fifteen to twenty or with a teacher to themselves. Trying one costs nothing, and staying on costs USD 100 a month in a group or USD 150 for private lessons.',
 
   picks: {
     eyebrow: 'Where to begin',
@@ -214,7 +214,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'The opening lesson', p: 'A proper problem worked on with a teacher, ending in an honest recommendation about the right starting point.' },
-      { h3: 'Small groups', p: 'Five to ten learners working at the same level, some from the UK and some from further away, who learn to read each other\'s code.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners working at the same level, some from the UK and some from further away, who learn to read each other\'s code.' },
       { h3: 'Private lessons', p: 'Useful when a deadline is close, when a learner is far ahead, or when an adult has one specific target.' },
       { h3: 'Local school language', p: 'Teachers talk about Year 10, S4, CCEA or WJEC as the learner does; all teaching is in English.' },
       { h3: 'An AI log', p: 'Any suggestion from an AI tool goes into a short log, with a note of what the learner kept and why.' },
@@ -230,7 +230,7 @@ module.exports = {
     h2: 'What UK families pay',
     lede: 'A monthly fee in US dollars, identical for every country outside India. Nothing to pay up front and no twelve-month commitment.',
     free: ['A full lesson with a teacher', 'A frank view of the starting level', 'No card details taken'],
-    group: ['Five to ten learners at one level', 'One teacher all the way through', 'Weekly feedback on the learner\'s code', 'A certificate on completion'],
+    group: ['Fifteen to twenty learners at one level', 'One teacher all the way through', 'Weekly feedback on the learner\'s code', 'A certificate on completion'],
     one: ['A teacher working with one learner', 'Planned around exam dates', 'Right for tight deadlines and fast movers']
   },
 

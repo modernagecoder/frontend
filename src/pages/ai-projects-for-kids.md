@@ -16,7 +16,7 @@ Every project below is a class exercise somewhere in these three courses, run by
 
 The short answer
 
-Children aged 6 to 12 can do real AI projects without any child accounts, which matters because every mainstream AI chat platform sets its floor at 13. The working toolkit is browser-based training tools that need no sign-in, Scratch, unplugged games, and a parent or teacher driving any account-gated tool. Ten projects on this page cover the core concepts honestly: camera classifiers teach training and data, the deliberately biased robot game teaches why AI errs, rule-following bots teach the difference between programmed and learned behaviour. Modern Age Coders runs these as live classes for kids at USD 100 a month for groups of five to eight, USD 150 one to one, first class free with parents welcome.
+Children aged 6 to 12 can do real AI projects without any child accounts, which matters because every mainstream AI chat platform sets its floor at 13. The working toolkit is browser-based training tools that need no sign-in, Scratch, unplugged games, and a parent or teacher driving any account-gated tool. Ten projects on this page cover the core concepts honestly: camera classifiers teach training and data, the deliberately biased robot game teaches why AI errs, rule-following bots teach the difference between programmed and learned behaviour. Modern Age Coders runs these as live classes for kids at USD 100 a month for groups of fifteen to twenty, USD 150 one to one, first class free with parents welcome.
 
 The list
 
@@ -176,7 +176,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, same teacher every week
+- Fifteen to twenty students, same teacher every week
 - Live video, never a recording
 - Build work between sessions, reviewed by the teacher
 - Certificate on completion
@@ -295,7 +295,7 @@ The projects are deliberately theme-neutral, and the classifiers train on whatev
 
 ### What do the kids classes cost if we want the taught version?
 
-USD 100 a month for a live group batch of five to eight children, USD 150 a month one to one, the same figures in every country we serve outside India, billed monthly with no joining fee. The first class is free, no card, and parents are welcome to sit in on any session at this age, not just the first one.
+USD 100 a month for a live group batch of fifteen to twenty children, USD 150 a month one to one, the same figures in every country we serve outside India, billed monthly with no joining fee. The first class is free, no card, and parents are welcome to sit in on any session at this age, not just the first one.
 
 ### How do we start if my child likes these projects?
 

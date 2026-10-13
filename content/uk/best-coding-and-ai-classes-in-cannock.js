@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Cannock',
   capsuleQ: 'Where can Cannock learners find the best coding and AI classes?',
-  capsule: 'At the 2021 census 100,519 people lived in Cannock Chase district, and the ONS gives the Cannock built-up area 63,065, with Norton Canes and Rawnsley listed separately; Hednesford, Heath Hayes, Chadsmoor and Bridgtown are among the recorded suburbs. From primary age to 67, Cannock Chase learners can take coding, AI, Python, vibe coding and maths on camera with an India-based tutor, privately or among five to ten classmates of similar ability. We teach thinking before tools, so a learner can question how an AI grouped or ranked something. Lesson one is free and finishes with a course recommendation. Cannock\'s project asks which English districts are most like Cannock Chase, and shows how much the answer depends on the method. Continuing costs USD 100 for each month in a class or USD 150 for each month of private lessons.',
+  capsule: 'At the 2021 census 100,519 people lived in Cannock Chase district, and the ONS gives the Cannock built-up area 63,065, with Norton Canes and Rawnsley listed separately; Hednesford, Heath Hayes, Chadsmoor and Bridgtown are among the recorded suburbs. From primary age to 67, Cannock Chase learners can take coding, AI, Python, vibe coding and maths on camera with an India-based tutor, privately or among fifteen to twenty classmates of similar ability. We teach thinking before tools, so a learner can question how an AI grouped or ranked something. Lesson one is free and finishes with a course recommendation. Cannock\'s project asks which English districts are most like Cannock Chase, and shows how much the answer depends on the method. Continuing costs USD 100 for each month in a class or USD 150 for each month of private lessons.',
   lead: 'Recommendation engines, customer segmentation and many AI tools group things into families of "similar" items without being told what the families are. One classic way to do it is hierarchical clustering: start with every item on its own, repeatedly merge the two closest groups, and draw the whole history as a tree called a dendrogram. The catch is that "closest groups" can be defined in several ways, called linkages. This project clusters all 296 districts of England by the age make-up of their residents from the 2021 census, looks at where Cannock Chase lands, and finds that changing the linkage can turn a sensible set of families into one enormous group and three outcasts.',
   wa: 'Hello Modern Age Coders, can we book a free coding or AI lesson for a learner in Cannock?',
 
@@ -159,7 +159,7 @@ module.exports = {
       { h3: 'Students at the keyboard', p: 'Learners type, prompt and run their own code, and the tutor follows through screen share with questions.' },
       { h3: 'Placed by the trial', p: 'The free session, rather than year group alone, shows where to begin; exam boards are recorded.' },
       { h3: 'Opening lesson free', p: 'No fee for the first session, which ends with our course advice.' },
-      { h3: 'Groups by stage', p: 'Five to ten learners from around Britain at a similar level in each class.' },
+      { h3: 'Groups by stage', p: 'Fifteen to twenty learners from around Britain at a similar level in each class.' },
       { h3: 'Twice a week', p: 'No lessons over the school holidays.' },
       { h3: 'Unchanging slots', p: 'Tutors follow the UK clock changes so your lesson time stays fixed.' }
     ],

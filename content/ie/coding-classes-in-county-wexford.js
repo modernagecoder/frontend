@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding classes in County Wexford',
   capsuleQ: 'What are the best coding classes in County Wexford?',
-  capsule: 'County Wexford grew 9% to 163,919 people at the 2022 census, and it is a county of towns rather than one city: Wexford at 21,524, Enniscorthy at 12,310, Gorey at 11,517, with just under 28% of the county living in towns of ten thousand or more. It is also older than the country as a whole, with an average age of 40 and a 65-and-over population up a quarter to 27,403. For families here the practical question about any class is how far it is, and a live online class answers that by being the same distance from Bunclody as from Rosslare. We teach ages 6 to 67 at a fixed weekly hour, in groups of five to ten matched by ability or one to one. The first lesson is free; after it, a group place is USD 100 a month and private tuition USD 150.',
+  capsule: 'County Wexford grew 9% to 163,919 people at the 2022 census, and it is a county of towns rather than one city: Wexford at 21,524, Enniscorthy at 12,310, Gorey at 11,517, with just under 28% of the county living in towns of ten thousand or more. It is also older than the country as a whole, with an average age of 40 and a 65-and-over population up a quarter to 27,403. For families here the practical question about any class is how far it is, and a live online class answers that by being the same distance from Bunclody as from Rosslare. We teach ages 6 to 67 at a fixed weekly hour, in groups of fifteen to twenty matched by ability or one to one. The first lesson is free; after it, a group place is USD 100 a month and private tuition USD 150.',
   lead: 'Wexford County Council counts the people walking past a point on the north side of Main Street in Gorey, every fifteen minutes, and publishes the result as open data under a Creative Commons licence. Read its description and you are told the series begins on 20 January 2022. Query the layer and you get a single week: 2 to 8 January 2023, and nothing else. Then look at what is inside that week. There should be 672 quarter-hour readings; there are 553. And the missing ones are not scattered: 114 of the 119 gaps fall between one and eight in the morning, while every single slot between ten in the morning and ten at night is present. Now read the council\'s own two sentences about it. The first says that if an interval is missing, there was no traffic in that interval. The second says any gaps are due to the sensor malfunctioning. Both are printed in the same field, and they cannot both be true. Deciding which one to believe, and saying so out loud in your write-up, is the whole job.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in County Wexford.',
 
@@ -195,7 +195,7 @@ module.exports = {
       { h3: 'No drive, no evening lost', p: 'In a county where the average commute already takes 28.5 minutes, a class that starts in the kitchen saves a parent an hour each week.' },
       { h3: 'The school year, named properly', p: 'Teachers use First Year, the Junior Cycle, Transition Year and sixth year as Irish schools do, so nothing needs explaining twice.' },
       { h3: 'The trial lesson is a lesson', p: 'Real teaching on a real task, ending with an honest recommendation on level, course and hour, and no request for card details.' },
-      { h3: 'Ability, not address', p: 'Groups of five to ten learners working at one pace, drawn from Wexford and several countries, which is how a good hour exists at every level.' },
+      { h3: 'Ability, not address', p: 'Groups of fifteen to twenty learners working at one pace, drawn from Wexford and several countries, which is how a good hour exists at every level.' },
       { h3: 'A rhythm that holds', p: 'Two lessons most weeks, about eight a month, at a fixed time, pausing for mid-terms, exams and holidays by agreement.' },
       { h3: 'A clock that never moves', p: 'Our teachers work from India, four and a half hours ahead of Ireland in summer and five and a half in winter, which puts Wexford afternoons and evenings squarely in their day.' }
     ],
@@ -206,7 +206,7 @@ module.exports = {
     h2: 'What classes cost in County Wexford',
     intro: 'Three figures, said once.',
     first: 'A complete lesson at no charge, ending in an honest placement and a course recommendation.',
-    group: 'A month of teaching, usually eight lessons, with five to ten learners of matching ability.',
+    group: 'A month of teaching, usually eight lessons, with fifteen to twenty learners of matching ability.',
     private: 'The same month and the same eight or so lessons, with one teacher and one learner.',
     closer: 'Fees are charged in US dollars at the single rate used outside India, so Gorey pays what New Ross pays and there is no euro price list. Nothing is charged until a course and a weekly hour are agreed in the free lesson, and the pricing page explains pauses, missed lessons and changes of format.'
   },
@@ -231,7 +231,7 @@ module.exports = {
       { q: 'Is there anywhere in the county to study computing after school?', a: 'South East Technological University lists two Wexford campuses on its own site, on Summerhill Road and Hill Street. We are not connected with the university and make no claims on its behalf.' },
       { q: 'What hours do classes run?', a: 'Afternoons, evenings and weekend mornings. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter, and the weekly hour is fixed during the free lesson.' },
       { q: 'Is there a Modern Age Coders classroom in Wexford?', a: 'No, and none is claimed. All teaching is live online, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the phone number on this page is an Indian one.', boiler: true },
-      { q: 'What do County Wexford coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month, covering two live lessons a week and roughly eight a month with five to ten learners, or USD 150 a month taught privately on the same schedule. Everything is agreed before payment.', boiler: true },
+      { q: 'What do County Wexford coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month, covering two live lessons a week and roughly eight a month with fifteen to twenty learners, or USD 150 a month taught privately on the same schedule. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than by age or address. Where no suitable group runs at a workable hour, we offer one-to-one lessons instead.', boiler: true }
     ]
   },

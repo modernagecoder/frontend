@@ -1,10 +1,10 @@
 ---
 title: "Our Team | Founder & Mentors | Modern Age Coders"
-description: "Meet the founder and senior mentors behind Modern Age Coders. Live teaching since 2020, small batches capped at 10, and a 4.9 rating across 547 Google reviews."
+description: "Meet the founder and senior mentors behind Modern Age Coders. Live teaching since 2020, batches capped at 10, and a 4.9 rating across 547 Google reviews."
 canonical: https://learn.modernagecoders.com/team
 source: src/pages/team.html
 ---
-> Meet the founder and senior mentors behind Modern Age Coders. Live teaching since 2020, small batches capped at 10, and a 4.9 rating across 547 Google reviews.
+> Meet the founder and senior mentors behind Modern Age Coders. Live teaching since 2020, batches capped at 10, and a 4.9 rating across 547 Google reviews.
 
 The people behind the screen
 
@@ -52,7 +52,7 @@ Add full name, subjects, bio, photo
 
 ## How this team teaches
 
-[Live, always No recorded lectures pretending to be classes. A teacher is present, every time.](/how-we-teach)[Small batches Group classes capped at 10 students, so nobody hides in the back row.](/how-we-teach)[Projects from day one Students build real things early. See them live in our Student Labs.](/how-we-teach)[Maths and code together One strengthens the other. It is the core of how we were built.](/how-we-teach)
+[Live, always No recorded lectures pretending to be classes. A teacher is present, every time.](/how-we-teach)[Small batches Group classes capped at 20 students, so nobody hides in the back row.](/how-we-teach)[Projects from day one Students build real things early. See them live in our Student Labs.](/how-we-teach)[Maths and code together One strengthens the other. It is the core of how we were built.](/how-we-teach)
 
 Watch recordings of real classes on [How We Teach](/how-we-teach).
 

@@ -65,7 +65,7 @@ module.exports = {
 
   h1: 'Coding classes in York',
   capsuleQ: 'What are the best coding classes in York?',
-  capsule: 'Census 2021 counted 202,821 usual residents in York, and a quarter of those aged five and over were in study, 25.1% against 20.4% for England. The University of York says plans for a university in the city go back to 1617, though permission came only in 1960. From six-year-olds to learners of sixty-seven, York students work with our teachers over live video, in level-based groups of five to ten or one to one, with India-based staff teaching at hours that suit the UK. The first lesson is free; after it a group place costs USD 100 a month and one-to-one teaching USD 150 a month.',
+  capsule: 'Census 2021 counted 202,821 usual residents in York, and a quarter of those aged five and over were in study, 25.1% against 20.4% for England. The University of York says plans for a university in the city go back to 1617, though permission came only in 1960. From six-year-olds to learners of sixty-seven, York students work with our teachers over live video, in level-based groups of fifteen to twenty or one to one, with India-based staff teaching at hours that suit the UK. The first lesson is free; after it a group place costs USD 100 a month and one-to-one teaching USD 150 a month.',
   lead: 'Ordnance Survey lists 2,785 named roads in York. Guess how one ends before you read it, and you will be right more often with Close than with anything else, since 369 of them do. You will almost never guess Coppergate, or Shambles, which is the only name in the city with that ending. Information theory turns that feeling into a number. A likely ending carries little surprise, about 2.9 bits for Close, and a rare one carries a lot, 11.4 bits for a one-off. Averaged over the whole city, a York road ending carries 4.729 bits, the second-highest of eight English cities we measured on equal terms. Our teenagers compute it, then build a code that gets within a few hundredths of a bit of it.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in York.',
 
@@ -193,7 +193,7 @@ module.exports = {
       { h3: 'Inside and outside the walls', p: 'A learner in Bishopthorpe and another in Huntington can join the same lesson without anyone driving round the ring road.' },
       { h3: 'From Reception to sixth form', p: 'We describe progress the way York schools do, in key stages, Year 9 option choices, GCSEs and A levels. All teaching is in English.' },
       { h3: 'A lesson with substance', p: 'The free session teaches something real, then recommends a level, a course and a weekly time. Booking needs no card details.' },
-      { h3: 'Matched by stage', p: 'Groups of five to ten learners at one level, from York, elsewhere in the UK and abroad, so every stage has a workable time.' },
+      { h3: 'Matched by stage', p: 'Groups of fifteen to twenty learners at one level, from York, elsewhere in the UK and abroad, so every stage has a workable time.' },
       { h3: 'Two lessons, every week', p: 'Two regular weekly lessons, around eight a month, with holidays and exam weeks settled with the teacher in advance.' },
       { h3: 'Teaching across time zones', p: 'A 5 pm lesson in York starts at 9.30 pm in India during British Summer Time and at 10.30 pm in winter, because Indian clocks never change. Our teachers work those late hours so York learners do not have to rearrange their day.' }
     ],
@@ -204,7 +204,7 @@ module.exports = {
     h2: 'York lesson fees',
     intro: 'A free first lesson, then a single monthly fee.',
     first: 'A full lesson at no cost, ending with a level, a course we recommend and a weekly time to consider.',
-    group: 'Around eight live lessons a month in a group of five to ten learners working at one stage.',
+    group: 'Around eight live lessons a month in a group of fifteen to twenty learners working at one stage.',
     private: 'Around eight live lessons a month, with the teacher giving your learner all of the time.',
     closer: 'Every family outside India pays the same US dollar fee, whether in Dringhouses or Tang Hall, and we publish no prices in pounds. No payment is taken until the free lesson has agreed a course and a slot; the pricing page covers pausing, missed lessons and moving between group and private teaching.'
   },
@@ -229,8 +229,8 @@ module.exports = {
       { q: 'How old are the plans for the University of York?', a: 'The University says plans for a university in York first appeared as early as 1617, and permission to build was granted in 1960. We are not connected with the University.' },
       { q: 'When do York lessons take place?', a: 'Weekday afternoons and evenings or weekends, at a UK time settled in the free lesson. India is four and a half hours ahead of York in summer and five and a half hours ahead in winter.' },
       { q: 'Is there a Modern Age Coders centre in York?', a: 'No. There is no centre in York and no premises anywhere in the UK, because all lessons are live online. Learners need a computer with working sound and a steady connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do York lessons cost?', a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before anything is charged.', boiler: true },
-      { q: 'How are York groups formed?', a: 'By level, pace and goals rather than age or address, with five to ten learners at one stage. When no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do York lessons cost?', a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before anything is charged.', boiler: true },
+      { q: 'How are York groups formed?', a: 'By level, pace and goals rather than age or address, with fifteen to twenty learners at one stage. When no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

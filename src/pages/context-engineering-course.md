@@ -225,7 +225,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Build work between sessions, reviewed by the teacher
 - Certificate on completion
@@ -320,7 +320,7 @@ No, and this is the most common misconception. A larger window means more can be
 
 ### How much does it cost?
 
-A group batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, and these are the same flat figures everywhere we teach outside India. No enrolment fee, no minimum term, and the first class is free without a card.
+A group batch of fifteen to twenty students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, and these are the same flat figures everywhere we teach outside India. No enrolment fee, no minimum term, and the first class is free without a card.
 
 ### What do I need to know first?
 

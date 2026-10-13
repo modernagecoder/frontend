@@ -221,7 +221,7 @@ module.exports = {
       { h3: 'Our own problems', p: 'Every example is written by us, never taken from a student\'s assessed task.' },
       { h3: 'Hand execution drilled', p: 'Pseudocode traced on paper until reading it is as quick as reading prose.' },
       { h3: 'Exam-length answers', p: 'Short written arguments that name a pattern, justify it and state a bound.' },
-      { h3: 'Senior groups of five to ten', p: 'Students at a matching level, each one explaining a solution aloud every week.' },
+      { h3: 'Senior groups of fifteen to twenty', p: 'Students at a matching level, each one explaining a solution aloud every week.' },
       { h3: 'Solo sessions', p: 'For one area of study that needs repair before the exam.' },
       { h3: 'Nothing guaranteed', p: 'No study score, ATAR or university offer is promised; the thinking and the outcome are the student\'s.' }
     ]
@@ -235,7 +235,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A single monthly fee in US dollars, the same for every family outside India. There is no joining charge and nothing continues past the month you are in.',
     free: ['A full lesson with a teacher', 'A frank view of what needs work', 'No card details asked'],
-    group: ['Five to ten students at one level', 'One teacher all term', 'Practice marked and talked through', 'A certificate when the course ends'],
+    group: ['Fifteen to twenty students at one level', 'One teacher all term', 'Practice marked and talked through', 'A certificate when the course ends'],
     one: ['One teacher, one student', 'Aimed at the weakest area of study', 'Useful in the weeks before November']
   },
 

@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Kingswinford',
   capsuleQ: 'What are the best online coding and Python classes for Kingswinford?',
-  capsule: 'Kingswinford is an ONS built-up area of 51,910 people (Census 2021) within the borough of Dudley, which had 323,486. Wall Heath, Wordsley, Pensnett and Bromley are gazetteer suburbs that fall inside it. Modern Age Coders teaches Python, coding, vibe coding, AI and maths live online to learners there aged six to 67. Tutors based in India take each lesson over video, either one-to-one or with a group of five to ten working at a shared level. We have learners count what their code does instead of assuming it. After a free first lesson we recommend a course. In the Kingswinford project a learner writes Shell sort in Python, puts 810 local street names into alphabetical order, and counts how the number of comparisons changes with the gaps chosen. Lessons then cost USD 100 a month in a group, or USD 150 a month one-to-one.',
+  capsule: 'Kingswinford is an ONS built-up area of 51,910 people (Census 2021) within the borough of Dudley, which had 323,486. Wall Heath, Wordsley, Pensnett and Bromley are gazetteer suburbs that fall inside it. Modern Age Coders teaches Python, coding, vibe coding, AI and maths live online to learners there aged six to 67. Tutors based in India take each lesson over video, either one-to-one or with a group of fifteen to twenty working at a shared level. We have learners count what their code does instead of assuming it. After a free first lesson we recommend a course. In the Kingswinford project a learner writes Shell sort in Python, puts 810 local street names into alphabetical order, and counts how the number of comparisons changes with the gaps chosen. Lessons then cost USD 100 a month in a group, or USD 150 a month one-to-one.',
   lead: 'In 1959 Donald Shell noticed something about the simple card-player\'s way of sorting, where each new item is walked back past its neighbours until it fits. The method is slow because items only ever move one place at a time. His fix was to run the same loop first on items far apart, then closer, then adjacent. The code barely changes: one extra loop and one number, the gap. What nobody could say for certain, then or since, is which gaps to use. That makes it an unusually good lesson, because the learner can test the question on real data and get a clear answer in an afternoon.',
   wa: 'Hello Modern Age Coders, could we book a free Python or coding trial lesson? We are in Kingswinford.',
 
@@ -155,7 +155,7 @@ module.exports = {
       { h3: 'The learner drives', p: 'They type and run the code on a shared screen while the tutor asks why each line is there.' },
       { h3: 'Level found, not guessed', p: 'The free lesson shows us what the learner already knows before we name a course.' },
       { h3: 'A trial with no strings', p: 'No fee, no card and no commitment for the first session.' },
-      { h3: 'Five to ten per class', p: 'Classmates are at the same stage and log in from around the UK.' },
+      { h3: 'Fifteen to twenty per class', p: 'Classmates are at the same stage and log in from around the UK.' },
       { h3: 'About eight lessons a month', p: 'Twice a week in term, with Dudley school holidays left clear on request.' },
       { h3: 'Clock changes handled', p: 'Your UK lesson time is fixed through the year; tutors shift at their end.' }
     ],

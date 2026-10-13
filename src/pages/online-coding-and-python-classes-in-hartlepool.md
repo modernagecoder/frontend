@@ -16,7 +16,7 @@ Hartlepool, County Durham, England / Live online
 
 The 2021 census asked every working adult in Hartlepool how far they travelled to work, and Nomis publishes the answers, but only in bands: under 2 kilometres, 2 to 5, 5 to 10, and so on up to a final band of "60km and over" with no upper limit at all. So what is the average distance to work in Hartlepool, and is it longer or shorter than England's? An AI assistant will happily give a single tidy number. A Python learner who works it out properly discovers that the answer depends on a guess about fewer than 3 percent of workers, and that a different kind of average tells a clearer story.
 
-Facts last verified 28 September 2026. Teaching is online; no Hartlepool branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 28 September 2026. Teaching is online; no Hartlepool branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Thinking, vibe coding and Python courses
 

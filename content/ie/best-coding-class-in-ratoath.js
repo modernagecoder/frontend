@@ -52,7 +52,7 @@ module.exports = {
 
   h1: 'Coding classes in Ratoath',
   capsuleQ: 'What is the best coding class in Ratoath?',
-  capsule: 'Ratoath holds 10,041 usual residents across 3,041 households in the Census 2022 town tables, and 2,739 of those households report a broadband connection. We teach into those houses: two live lessons in most weeks, taught by a teacher who is present throughout, either with five to ten learners at one level or with a single learner, for ages six to sixty-seven. The opening lesson is free, then a group place is USD 100 a month and private teaching is USD 150.',
+  capsule: 'Ratoath holds 10,041 usual residents across 3,041 households in the Census 2022 town tables, and 2,739 of those households report a broadband connection. We teach into those houses: two live lessons in most weeks, taught by a teacher who is present throughout, either with fifteen to twenty learners at one level or with a single learner, for ages six to sixty-seven. The opening lesson is free, then a group place is USD 100 a month and private teaching is USD 150.',
   lead: 'Ninety per cent of Ratoath households have broadband. It is a real figure, 2,739 of 3,041 by our division, and it is a statement about houses rather than about people. Ratoath runs 3.30 residents per household, against 2.72 across all towns combined, so the same household percentage covers a different number of people here than it would in a town of smaller households. Turning one into the other would need internet access crossed with household size, which the town tables do not publish. Once a learner notices that, they start checking what every figure counts before comparing any two, and this page is built around that habit using the town\'s own published tables.',
   wa: 'Hello Modern Age Coders, I would like to book a free coding lesson for a learner in Ratoath.',
 
@@ -179,7 +179,7 @@ module.exports = {
     intro: 'Six things, briefly.',
     cells: [
       { h3: 'A teacher, not a video', p: 'Every lesson is taught as it happens, with the teacher responding to the learner\'s own screen.' },
-      { h3: 'Sorted by level', p: 'Groups of five to ten at the same stage, drawn from across Ireland and beyond rather than from one town.' },
+      { h3: 'Sorted by level', p: 'Groups of fifteen to twenty at the same stage, drawn from across Ireland and beyond rather than from one town.' },
       { h3: 'The same hour weekly', p: 'Two lessons in most weeks, about eight a month, at a time chosen at the start.' },
       { h3: 'Holidays accounted for', p: 'Mid-terms, breaks and exam weeks are built into the plan rather than patched over afterwards.' },
       { h3: 'Equipment', p: 'A computer with a keyboard, sound that works, and a household connection steady enough for video.' },
@@ -192,7 +192,7 @@ module.exports = {
     h2: 'Ratoath class fees',
     intro: 'Three lines and no extras.',
     first: 'A full opening lesson, taught and assessed, charged at nothing.',
-    group: 'One month in an ability group of five to ten, about eight live lessons.',
+    group: 'One month in an ability group of fifteen to twenty, about eight live lessons.',
     private: 'One month of private lessons on the same weekly pattern.',
     closer: 'Everything is billed monthly in US dollars, at the one rate that covers families outside India, so the figure a Ratoath household sees is the figure a household in Ashbourne or Bray sees, with no euro column anywhere. The first charge waits until a course and an hour have been agreed in the opening lesson, and the pricing page deals with breaks, missed weeks and moving between a group and private teaching.'
   },
@@ -217,7 +217,7 @@ module.exports = {
       { q: 'Do you take adults in Ratoath?', a: 'Yes, to the age of sixty-seven and from no experience at all. After the free lesson an adult is placed with a group at the same level or taught privately.' },
       { q: 'Does a learner need their own computer?', a: 'They need access to one for the lesson, with a keyboard and working sound. A phone is not enough, and nothing needs to be bought before the free lesson.' },
       { q: 'Is there a Modern Age Coders classroom in Ratoath?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Ratoath cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Ratoath cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

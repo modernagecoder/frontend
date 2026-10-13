@@ -4,7 +4,7 @@ description: "Live online AI and programming classes for Leith, Newhaven, Pilrig
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-leith-edinburgh
 source: src/pages/ai-and-programming-classes-in-leith-edinburgh.html
 ---
-> Leith sits within the City of Edinburgh council area, home to about 512,700 people at Scotland's 2022 census. We could find no official count for Leith under that name, so we print none. Open postcode data lists North Leith, South Leith, Newhaven, Bonnington, Pilrig and Trinity in EH6, and Lochend and Restalrig in EH7. Modern Age Coders teaches AI, Python, programming and maths to learners aged six to 67 in live online lessons led from India, either individually or in classes of five to ten at the same level. We teach how a method works before using a library that hides it. There is no charge for the opening lesson, and it ends with the course we think fits. For Leith the project is computer vision: a program looks for the corners of 275 buildings and is marked against the 1,485 corners actually on the map. Ongoing lessons cost USD 100 monthly for a class or USD 150 monthly for a tutor of your own.
+> Leith sits within the City of Edinburgh council area, home to about 512,700 people at Scotland's 2022 census. We could find no official count for Leith under that name, so we print none. Open postcode data lists North Leith, South Leith, Newhaven, Bonnington, Pilrig and Trinity in EH6, and Lochend and Restalrig in EH7. Modern Age Coders teaches AI, Python, programming and maths to learners aged six to 67 in live online lessons led from India, either individually or in classes of fifteen to twenty at the same level. We teach how a method works before using a library that hides it. There is no charge for the opening lesson, and it ends with the course we think fits. For Leith the project is computer vision: a program looks for the corners of 275 buildings and is marked against the 1,485 corners actually on the map. Ongoing lessons cost USD 100 monthly for a class or USD 150 monthly for a tutor of your own.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Edinburgh](/best-coding-class-in-edinburgh) / Leith
 
@@ -12,11 +12,11 @@ Leith, Edinburgh, Scotland / Live online
 
 # AI and programming classes in Leith, Edinburgh
 
-**What are the best AI and programming classes for Leith learners?** Leith sits within the City of Edinburgh council area, home to about 512,700 people at Scotland's 2022 census. We could find no official count for Leith under that name, so we print none. Open postcode data lists North Leith, South Leith, Newhaven, Bonnington, Pilrig and Trinity in EH6, and Lochend and Restalrig in EH7. Modern Age Coders teaches AI, Python, programming and maths to learners aged six to 67 in live online lessons led from India, either individually or in classes of five to ten at the same level. We teach how a method works before using a library that hides it. There is no charge for the opening lesson, and it ends with the course we think fits. For Leith the project is computer vision: a program looks for the corners of 275 buildings and is marked against the 1,485 corners actually on the map. Ongoing lessons cost USD 100 monthly for a class or USD 150 monthly for a tutor of your own.
+**What are the best AI and programming classes for Leith learners?** Leith sits within the City of Edinburgh council area, home to about 512,700 people at Scotland's 2022 census. We could find no official count for Leith under that name, so we print none. Open postcode data lists North Leith, South Leith, Newhaven, Bonnington, Pilrig and Trinity in EH6, and Lochend and Restalrig in EH7. Modern Age Coders teaches AI, Python, programming and maths to learners aged six to 67 in live online lessons led from India, either individually or in classes of fifteen to twenty at the same level. We teach how a method works before using a library that hides it. There is no charge for the opening lesson, and it ends with the course we think fits. For Leith the project is computer vision: a program looks for the corners of 275 buildings and is marked against the 1,485 corners actually on the map. Ongoing lessons cost USD 100 monthly for a class or USD 150 monthly for a tutor of your own.
 
 Before a computer can match two photos, track a moving object or stitch a panorama, it needs points it can find again. Corners are ideal. Along a plain wall, brightness changes in one direction only, so a small patch looks the same if you slide it along the edge. At a corner, brightness changes in two directions, and any slide changes the patch. Harris corner detection turns that observation into a score for every pixel, then keeps the peaks above a threshold. Two choices decide how well it works: where the threshold sits, and how fine the image is. This project measures both on a drawn map of Leith, where the true corners are known.
 
-Facts last verified 30 September 2026. Teaching is online; no Leith branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Leith branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Leith courses: how to think, vibe coding, AI and Python
 
@@ -137,7 +137,7 @@ You will need a computer with a working camera and an internet line that carries
 - **The pupil does the coding** With the screen shared, the pupil writes and runs the program. The tutor questions and explains, and never takes over the keys.
 - **Trial first** A free session tells us the level and whether an SQA course is in play.
 - **Opening lesson free** It costs nothing and closes with a suggested course.
-- **Classes of five to ten** Grouped by level, with classmates from across Britain.
+- **Classes of fifteen to twenty** Grouped by level, with classmates from across Britain.
 - **Two sessions weekly** During the school term.
 - **Your hour is fixed** Tutors shift with the UK clock changes so you never have to.
 

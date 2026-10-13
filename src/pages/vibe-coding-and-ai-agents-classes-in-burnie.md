@@ -16,7 +16,7 @@ Burnie, Tasmania, Australia / Live online
 
 Ask an AI agent how many addresses Tasmania's land information system holds for postcode 7320, Burnie, and give it a tool that queries the state's address service. It calls once, counts the records it receives and answers 2,000 with complete confidence. The real figure is 9,267. The service did warn it: the reply carried a flag saying the limit had been reached. The agent simply never read the flag. Our Burnie project builds that agent, then fixes it twice, once by paging through the results and once by asking the service to count.
 
-Facts last verified 9 October 2026. Teaching is online; no Burnie branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 October 2026. Teaching is online; no Burnie branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for agents that check their own data
 
@@ -185,7 +185,7 @@ The urban area takes in both Burnie and Somerset, and a lesson on video includes
 - **Burnie and Somerset** A student in Shorewell Park and an adult in Somerset can work on the same agent at the same time, with no travel at all.
 - **Tasmanian school years** Lessons follow Tasmanian year levels and the four-term calendar, and older students can connect agent projects to the subjects they study.
 - **A trial with real code** The first lesson is a genuine class. Afterwards you get a recommended level, course and lesson time, and no card details are taken.
-- **Same-level groups** Five to ten learners at one stage, from Burnie, Somerset and elsewhere, so every group runs at full strength.
+- **Same-level groups** Fifteen to twenty learners at one stage, from Burnie, Somerset and elsewhere, so every group runs at full strength.
 - **Two lessons a week** Two fixed slots each week, about eight lessons a month, with breaks arranged around holidays and exams.
 - **Teachers in India** A 5pm Burnie lesson in winter starts at 12:30pm in India; once Tasmania moves to daylight saving, it starts at 11:30am there.
 
@@ -196,7 +196,7 @@ The urban area takes in both Burnie and Somerset, and a lesson on video includes
 Everything you pay, in three parts.
 
 - First class: USD 0. A free, complete first lesson, ending with a recommended level, course and time.
-- Group tuition: USD 100 a month. Roughly eight lessons a month in a group of five to ten at one level.
+- Group tuition: USD 100 a month. Roughly eight lessons a month in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. Roughly eight lessons a month with a teacher, one to one.
 
 Everyone outside India pays in US dollars, so a household in Cooee and one in Romaine see the same invoice and there is no Burnie price. Charging begins only after the trial has agreed a course and time, and the pricing page covers holidays, missed lessons and switching between group and one to one.
@@ -237,11 +237,11 @@ No, and none is claimed. All lessons are live and online and we have no premises
 
 ### What do Burnie vibe coding and AI agents classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.
 
 ### How big are the groups?
 
-Five to ten learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.
+Fifteen to twenty learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.
 
 ## More for Burnie and Tasmanian learners
 

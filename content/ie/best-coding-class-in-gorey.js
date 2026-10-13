@@ -180,7 +180,7 @@ module.exports = {
     intro: 'What to expect.',
     cells: [
       { h3: 'Live teaching', p: 'Every lesson is led by a teacher in real time, working from what the learner has built.' },
-      { h3: 'Groups by level', p: 'Five to ten learners at one stage, from Wexford, the rest of Ireland and abroad.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at one stage, from Wexford, the rest of Ireland and abroad.' },
       { h3: 'Usually twice a week', p: 'Roughly eight lessons a month, at times agreed before starting.' },
       { h3: 'Planned round school', p: 'Mid-terms, holidays and exam weeks are allowed for in the course plan.' },
       { h3: 'Equipment', p: 'Computer, not phone: a laptop or desktop with a keyboard, plus a headset or speakers and a microphone, on a connection that can hold live video.' },
@@ -193,7 +193,7 @@ module.exports = {
     h2: 'Fees for Gorey',
     intro: 'The full price list.',
     first: 'A full first lesson with a level assessment, free.',
-    group: 'A month in a group of five to ten at the same stage, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at the same stage, about eight live lessons.',
     private: 'A month of one-to-one teaching at the same weekly rhythm.',
     closer: 'A family anywhere outside India pays the same US dollar amount each month. The first lesson is free and carries no obligation; the first charge follows when a course starts, and the pricing page lays out holidays, missed lessons and moving between group and private teaching.'
   },
@@ -218,7 +218,7 @@ module.exports = {
       { q: 'Can adults join?', a: 'Yes, up to sixty-seven and from any starting point. By the end of the first lesson an adult usually knows whether a same-level group or one-to-one lessons would suit them.' },
       { q: 'Will Gorey learners be in a group together?', a: 'Only when they are at the same level. Groups are formed by stage, so a Gorey learner may share lessons with others in Wexford, Wicklow or abroad.' },
       { q: 'Is there a Modern Age Coders classroom in Gorey?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Gorey cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Gorey cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

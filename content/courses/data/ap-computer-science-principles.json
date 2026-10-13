@@ -512,7 +512,7 @@
   ],
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
-    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "small_batches": "Small batches only: group classes are capped at 20 students, with mini-batch (up to 6 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured curriculum that builds programming concepts from scratch and follows the current two-part exam, with hands-on coding in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so a stuck problem does not cost you a week.",
     "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
@@ -550,7 +550,7 @@
     },
     {
       "question": "What does the course cost, and can I try it first?",
-      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency. The first demo class is free, so you can see the teaching before deciding: book at learn.modernagecoders.com/contact or on WhatsApp at +91 91233 66161."
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 20 students per batch. Mini batches of up to 6 students are ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency. The first demo class is free, so you can see the teaching before deciding: book at learn.modernagecoders.com/contact or on WhatsApp at +91 91233 66161."
     },
     {
       "question": "Is this course affiliated with the College Board?",

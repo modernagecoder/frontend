@@ -4,7 +4,7 @@ description: "Live online coding, Python, C++ and AI classes for Eindhoven learn
 canonical: https://learn.modernagecoders.com/coding-classes-in-eindhoven
 source: src/pages/coding-classes-in-eindhoven.html
 ---
-> Coding classes in Eindhoven serve a city where an unusual share of the parents are engineers: ASML, headquartered in Veldhoven next door, employed more than 44,000 people worldwide in 2025 from 143 nationalities; the High Tech Campus holds some 300 companies and more than 12,500 people; and 35.4 of every thousand Eindhoven residents are of Indian origin, the third highest share of any Dutch municipality (Statistics Netherlands, 1 January 2024). Modern Age Coders teaches coding, Python, C++, AI and mathematics live online, in English, to learners aged 6 to 67 here. The first class is free; then USD 100 a month in a group of five to ten, or USD 150 one to one.
+> Coding classes in Eindhoven serve a city where an unusual share of the parents are engineers: ASML, headquartered in Veldhoven next door, employed more than 44,000 people worldwide in 2025 from 143 nationalities; the High Tech Campus holds some 300 companies and more than 12,500 people; and 35.4 of every thousand Eindhoven residents are of Indian origin, the third highest share of any Dutch municipality (Statistics Netherlands, 1 January 2024). Modern Age Coders teaches coding, Python, C++, AI and mathematics live online, in English, to learners aged 6 to 67 here. The first class is free; then USD 100 a month in a group of fifteen to twenty, or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Eindhoven
 
@@ -12,11 +12,11 @@ Eindhoven, Noord-Brabant / Live online
 
 # Coding classes in Eindhoven, for children whose parents build the machines that build the chips
 
-**What are the best coding classes in Eindhoven?** Coding classes in Eindhoven serve a city where an unusual share of the parents are engineers: ASML, headquartered in Veldhoven next door, employed more than 44,000 people worldwide in 2025 from 143 nationalities; the High Tech Campus holds some 300 companies and more than 12,500 people; and 35.4 of every thousand Eindhoven residents are of Indian origin, the third highest share of any Dutch municipality (Statistics Netherlands, 1 January 2024). Modern Age Coders teaches coding, Python, C++, AI and mathematics live online, in English, to learners aged 6 to 67 here. The first class is free; then USD 100 a month in a group of five to ten, or USD 150 one to one.
+**What are the best coding classes in Eindhoven?** Coding classes in Eindhoven serve a city where an unusual share of the parents are engineers: ASML, headquartered in Veldhoven next door, employed more than 44,000 people worldwide in 2025 from 143 nationalities; the High Tech Campus holds some 300 companies and more than 12,500 people; and 35.4 of every thousand Eindhoven residents are of Indian origin, the third highest share of any Dutch municipality (Statistics Netherlands, 1 January 2024). Modern Age Coders teaches coding, Python, C++, AI and mathematics live online, in English, to learners aged 6 to 67 here. The first class is free; then USD 100 a month in a group of fifteen to twenty, or USD 150 one to one.
 
 On 10 March 2026 the city council approved the plan for a campus at BIC Noord with room for 20,000 workplaces. Within a week the question in every Eindhoven kitchen was how many homes that means, and every answer was a different number. The project on this page is the short program that shows why they differ, and it may be the most Eindhoven thing a child here can learn.
 
-Facts last verified 7 September 2026. Teaching is online; no Eindhoven branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Eindhoven branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city that already knows what an engineer does all day
 
@@ -183,7 +183,7 @@ Between the school run to the Oirschotsedijk, the commute to Veldhoven or the ca
 - **No extra trip on the A2** The lesson happens at the kitchen table in Meerhoven, Woensel or Stratum, at a fixed time, and the only traffic it competes with is the household's own.
 - **English, with the Brainport words kept** Taught in English, which is the working language of most of the households this page is written for. Groep, havo, vwo, profiel and MYP are used as the child hears them at school.
 - **One full free lesson first** A real task, a level and a named course at the end of it. No card and no decision until the family has watched a lesson happen.
-- **Groups of five to ten, matched on level** Who joins a group depends on what the learner can do and wants next. Which company a parent works for, and in which municipality, is not a variable.
+- **Groups of fifteen to twenty, matched on level** Who joins a group depends on what the learner can do and wants next. Which company a parent works for, and in which municipality, is not a variable.
 - **Eight lessons a month, regio Zuid calendar** Two lessons a week at a recurring time. Noord-Brabant sits in regio Zuid for school holidays, so the summer weeks differ from Amsterdam's, and that is settled before the slot is fixed.
 - **The clock, stated plainly** An Eindhoven evening is late in India: seven o'clock here is half past ten or half past eleven there depending on the season. Late afternoon, early evening and weekend slots work for both sides and are confirmed on the free class.
 
@@ -194,7 +194,7 @@ Between the school run to the Oirschotsedijk, the commute to Veldhoven or the ca
 The fee is stated before anybody is asked for a phone number, because an engineer would want it that way round.
 
 - First class: USD 0. A full lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner and one teacher.
 
 The figure is in US dollars because there is one published international rate and no euro list; there is no Eindhoven supplement and no enrolment fee. The free class settles the course and the slot first and payment is arranged afterwards over WhatsApp. Pauses, plan changes and missed lessons are on the pricing page.
@@ -235,11 +235,11 @@ No. No premises are claimed in Eindhoven, in Veldhoven or anywhere in the Nether
 
 ### What do Eindhoven coding classes cost?
 
-The first class is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month for one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first class is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month for one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How large is a group for Eindhoven learners?
 
-Five to ten learners, matched on level, pace and goal rather than on age, school or a parent's employer. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next group to form.
+Fifteen to twenty learners, matched on level, pace and goal rather than on age, school or a parent's employer. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next group to form.
 
 ## The country page, the two Amsterdam pages, and the page for building AI
 

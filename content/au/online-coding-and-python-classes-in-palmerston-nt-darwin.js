@@ -281,7 +281,7 @@ module.exports = {
       { h3: 'Real-time teaching', p: 'Your teacher is on the call the whole time, reading code line by line.' },
       { h3: 'Territory terms', p: 'Lessons pause in Northern Territory school holidays.' },
       { h3: 'Try before paying', p: 'The first session is on us, and you receive a short written plan.' },
-      { h3: 'Class size', p: 'Up to ten learners of similar level, or a private teacher.' },
+      { h3: 'Class size', p: 'Up to twenty learners of similar level, or a private teacher.' },
       { h3: 'Two a week', p: 'Around eight lessons a month.' },
       { h3: 'India time', p: 'A 4pm Palmerston lesson is noon in India, all year.' }
     ],
@@ -294,7 +294,7 @@ module.exports = {
     h2: 'Palmerston fees',
     intro: 'Every learner pays the same fees.',
     first: 'The first lesson is free and includes a plan.',
-    group: 'Group lessons: two a week through term, with five to ten classmates.',
+    group: 'Group lessons: two a week through term, with fifteen to twenty classmates.',
     private: 'Individual lessons: the same two a week, with the teacher all to yourself.',
     closer: 'Fees are set in US dollars and begin only when the trial has chosen a course and weekly time. Holiday and missed-lesson rules are on the pricing page.'
   },
@@ -339,12 +339,12 @@ module.exports = {
       },
       {
         q: 'What do Palmerston classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How are groups formed?',
-        a: 'By level and pace, five to ten learners each, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'By level and pace, fifteen to twenty learners each, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       {

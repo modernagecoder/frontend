@@ -16,7 +16,7 @@ Sunshine Coast, Queensland, Australia / Live online
 
 Most people judge a prediction model by one number: how often it is right. Our Sunshine Coast project shows why that is not enough. We took the 975 bus stops between Caloundra and Noosa that have a weekday service in the open Translink timetable, and asked a simple model a yes or no question about each one: will this stop get at least 16 buses this Sunday? Three versions of the model are right 96.9% of the time, every one of them. Yet when one says "27% likely", not a single stop in that group qualifies. Learners find out which version to believe by drawing a reliability diagram, the check that tells you whether a model's confidence matches reality.
 
-Facts last verified 7 October 2026. Teaching is online; no Sunshine Coast branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Sunshine Coast branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four starting points in AI and programming
 
@@ -189,7 +189,7 @@ The coast stretches a long way north to south, and an online class removes every
 - **Coast or hinterland** A learner in Maroochydore and another in the hinterland join the same lesson at the same moment from home.
 - **Queensland school terms** Lessons follow Queensland year levels, Year 7 to Year 12, and are always taught in English.
 - **Real work from minute one** The trial is an actual programming or AI task with a teacher, finishing with a suggested level, course and time. No payment details are taken.
-- **Five to ten per group** Learners at the same stage from the coast, the rest of Australia and further away, so every level finds a workable slot.
+- **Fifteen to twenty per group** Learners at the same stage from the coast, the rest of Australia and further away, so every level finds a workable slot.
 - **Twice a week** Around eight lessons a month in a fixed slot, with holidays and exam periods agreed ahead with the teacher.
 - **A constant gap to India** Queensland and India both keep one clock time all year, so the coast is always 4 hours 30 minutes ahead of our teachers.
 
@@ -200,7 +200,7 @@ The coast stretches a long way north to south, and an online class removes every
 Three figures only.
 
 - First class: USD 0. A full first lesson without charge, ending with a level, a course and a time.
-- Group tuition: USD 100 a month. A month of teaching, usually eight lessons, alongside five to ten learners at your stage.
+- Group tuition: USD 100 a month. A month of teaching, usually eight lessons, alongside fifteen to twenty learners at your stage.
 - Private tuition: USD 150 a month. About eight lessons a month with a teacher all to yourself.
 
 Families outside India pay in US dollars at one rate, so a learner in Caloundra and one in Noosa pay exactly the same. Charges begin only after the trial, when the course and time are agreed; holidays, missed lessons and changes of format are explained on the pricing page.
@@ -241,11 +241,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Sunshine Coast coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Sunshine Coast and Queensland learners
 

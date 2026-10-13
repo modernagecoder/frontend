@@ -4,7 +4,7 @@ description: "Live online coding, AI, Python and maths classes across South East
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-south-east-england
 source: src/pages/coding-and-ai-classes-in-south-east-england.html
 ---
-> The South East region counted 9,278,065 residents at the 2021 census, across 64 local authorities, the most of any English region. Its largest built-up areas are Brighton and Hove, Southampton, Portsmouth, Reading, Oxford and Slough, with Crawley, Basingstoke, Worthing and Maidstone each above 100,000. Our teachers run every lesson live on video from India. Learners aged 6 to 67 study coding, AI, Python and maths one-to-one or in a group of five to ten at one level. A first lesson costs nothing and decides the course. Below is the index of our South East county and city pages, and a project built on two weather stations. Continuing costs USD 100 a month in a group or USD 150 a month one-to-one.
+> The South East region counted 9,278,065 residents at the 2021 census, across 64 local authorities, the most of any English region. Its largest built-up areas are Brighton and Hove, Southampton, Portsmouth, Reading, Oxford and Slough, with Crawley, Basingstoke, Worthing and Maidstone each above 100,000. Our teachers run every lesson live on video from India. Learners aged 6 to 67 study coding, AI, Python and maths one-to-one or in a group of fifteen to twenty at one level. A first lesson costs nothing and decides the course. Below is the index of our South East county and city pages, and a project built on two weather stations. Continuing costs USD 100 a month in a group or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [England](/coding-and-ai-classes-in-england) / South East England
 
@@ -12,11 +12,11 @@ South East England / Live online
 
 # Coding and AI classes in South East England
 
-**What are the best coding and AI classes in South East England?** The South East region counted 9,278,065 residents at the 2021 census, across 64 local authorities, the most of any English region. Its largest built-up areas are Brighton and Hove, Southampton, Portsmouth, Reading, Oxford and Slough, with Crawley, Basingstoke, Worthing and Maidstone each above 100,000. Our teachers run every lesson live on video from India. Learners aged 6 to 67 study coding, AI, Python and maths one-to-one or in a group of five to ten at one level. A first lesson costs nothing and decides the course. Below is the index of our South East county and city pages, and a project built on two weather stations. Continuing costs USD 100 a month in a group or USD 150 a month one-to-one.
+**What are the best coding and AI classes in South East England?** The South East region counted 9,278,065 residents at the 2021 census, across 64 local authorities, the most of any English region. Its largest built-up areas are Brighton and Hove, Southampton, Portsmouth, Reading, Oxford and Slough, with Crawley, Basingstoke, Worthing and Maidstone each above 100,000. Our teachers run every lesson live on video from India. Learners aged 6 to 67 study coding, AI, Python and maths one-to-one or in a group of fifteen to twenty at one level. A first lesson costs nothing and decides the course. Below is the index of our South East county and city pages, and a project built on two weather stations. Continuing costs USD 100 a month in a group or USD 150 a month one-to-one.
 
 The Met Office publishes monthly records for a small set of long-running weather stations, and two of them sit in the South East: Manston in Kent, about 3 kilometres from the coastline, and Oxford, more than 60 kilometres from any coast, whose record starts in 1853. Take the thirty years from 1991 to 2020 and a surprise appears. Both stations average exactly 11.04 degrees across the year. Yet their seasons are not the same. At Manston the warmest month is August; at Oxford it is July. The sea warms slowly and cools slowly, so a coastal place should keep its warmth later into autumn and stay cool later into spring. Can two lines of arithmetic prove it from the raw records? This page's project finds out in Python.
 
-Facts last verified 26 September 2026. Teaching is online; no South East England branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no South East England branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses for South East learners
 
@@ -140,7 +140,7 @@ Anywhere in the region with a connection can join.
 - **Learners write the code** Each student types their own programs while the tutor follows the shared screen and asks guiding questions.
 - **English school years** A Year 5 in Crawley or a Year 13 in Eastbourne is placed by school year and key stage, and exams keep their board names.
 - **Free trial** One whole lesson at no charge, then honest advice.
-- **Level-matched groups** Five to ten learners at one level from across the UK.
+- **Level-matched groups** Fifteen to twenty learners at one level from across the UK.
 - **Term time** Two lessons a week in term; holidays kept free.
 - **UK clock kept** Your slot stays on UK time through both clock changes; our teachers adjust.
 
@@ -151,7 +151,7 @@ Anywhere in the region with a connection can join.
 The fee is the same in every South East town, and in every country we teach outside India.
 
 - First class: USD 0. A full free lesson with a clear recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a class of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a class of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month with your own tutor.
 
 We charge in US dollars only; there is no sterling price. Billing starts once the trial has fixed a course and weekly time, and the pricing page covers holidays, missed lessons and switching formats.

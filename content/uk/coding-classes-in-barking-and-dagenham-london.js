@@ -50,7 +50,7 @@ module.exports = {
 
   h1: 'Coding classes in Barking and Dagenham',
   capsuleQ: 'What are the best coding classes in Barking and Dagenham?',
-  capsule: 'Barking and Dagenham is the east London borough of Barking, Dagenham, Becontree, Chadwell Heath, Rush Green, Marks Gate and Barking Riverside, with 218,869 residents at the 2021 Census, a larger share of them under 18 than in any other London borough. Classes worth joining teach a learner that the way you summarise data can change the answer, and this page shows it with the Census itself: by median age the borough is only sixth youngest in London, but by share of children it comes first. We teach live over video from India, for learners aged 6 to 67, either alone with a teacher or in a class of five to ten at one level. There is no fee for the first lesson; after that it is USD 100 a month for a class place or USD 150 a month one to one.',
+  capsule: 'Barking and Dagenham is the east London borough of Barking, Dagenham, Becontree, Chadwell Heath, Rush Green, Marks Gate and Barking Riverside, with 218,869 residents at the 2021 Census, a larger share of them under 18 than in any other London borough. Classes worth joining teach a learner that the way you summarise data can change the answer, and this page shows it with the Census itself: by median age the borough is only sixth youngest in London, but by share of children it comes first. We teach live over video from India, for learners aged 6 to 67, either alone with a teacher or in a class of fifteen to twenty at one level. There is no fee for the first lesson; after that it is USD 100 a month for a class place or USD 150 a month one to one.',
   lead: 'At the 2021 Census, 29.0% of Barking and Dagenham\'s residents were under 18, more than in any of London\'s 32 boroughs or the City. So is it London\'s youngest borough? It depends how you ask. Rank the 33 areas by median age, the age of the person exactly in the middle, and Barking and Dagenham comes sixth, behind Tower Hamlets, Newham, Hackney, Islington and Lambeth. Our learners download the Census age tables for every London area and work out both measures themselves, including the median from grouped five-year age bands, a classic technique that turns out to be surprisingly accurate. On the way they meet a small puzzle: the borough\'s single-year age table adds up to 218,863, six fewer than the published total.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Barking and Dagenham.',
 
@@ -140,7 +140,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'Barking', p: 'TfL\'s open data lists the District, Hammersmith & City, c2c and Suffragette lines at Barking.' },
           { h3: 'Riverside to Marks Gate', p: 'A learner at Barking Riverside and another at Marks Gate can share a class without either catching a train.' },
-          { h3: 'Right-sized classes', p: 'Each group has five to ten learners at the same stage, so every learner is working at a pace that suits them.' }
+          { h3: 'Right-sized classes', p: 'Each group has fifteen to twenty learners at the same stage, so every learner is working at a pace that suits them.' }
         ] },
         { kind: 'spec', title: 'Barking and Dagenham in London', p: 'Barking and Dagenham is one of London\'s 32 boroughs. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> covers them all and the City, linking each page as it goes up, including <a class="cg-inline-link" href="/coding-classes-in-havering-london">Havering</a> to the east and <a class="cg-inline-link" href="/coding-classes-in-newham-london">Newham</a> to the west.' }
       ]
@@ -177,7 +177,7 @@ module.exports = {
       { h3: 'Your own space', p: 'A laptop or desktop, a pair of headphones and a broadband connection that handles video are enough.' },
       { h3: 'England\'s Key Stages', p: 'We talk about progress in the Key Stages used by English schools, from the first years of primary up to sixth form, and name GCSE or A level where they apply. Lessons are in English.' },
       { h3: 'Free to try', p: 'Lesson one costs nothing and teaches properly; by its end the teacher can recommend a level and course. We never ask for card details at that point.' },
-      { h3: 'Five to ten per class', p: 'Classes bring together learners at the same stage from across the UK and overseas, so we can usually offer a convenient time.' },
+      { h3: 'Fifteen to twenty per class', p: 'Classes bring together learners at the same stage from across the UK and overseas, so we can usually offer a convenient time.' },
       { h3: 'Two evenings', p: 'Most classes meet two evenings a week and take agreed breaks for half terms, holidays and exams.' },
       { h3: 'Times in UK time', p: 'Teachers are based in India, and every time we send already matches the clock in Barking.' }
     ],
@@ -188,7 +188,7 @@ module.exports = {
     h2: 'Fees for Barking and Dagenham families',
     intro: 'A free first lesson, then one monthly fee across the whole borough.',
     first: 'A complete lesson with a teacher, free, ending with a recommended level, course and time.',
-    group: 'Roughly eight live lessons a month in a class of five to ten at one stage.',
+    group: 'Roughly eight live lessons a month in a class of fifteen to twenty at one stage.',
     private: 'Roughly eight live lessons a month with one teacher for one learner.',
     closer: 'Families here pay in US dollars, as everyone outside India does, and the site lists no pound prices. We take nothing until the free lesson has happened and you have chosen a course and a weekly slot. How pauses, missed lessons and swaps between group and private teaching work is set out on the pricing page.'
   },
@@ -213,8 +213,8 @@ module.exports = {
       { q: 'When are lessons for learners here?', a: 'After the free lesson we suggest a weekly slot in a class at the right level with a place free. Teachers work from India, and the slot is quoted in UK time.' },
       { q: 'What equipment does a learner need?', a: 'A computer with sound and a steady internet connection. The Census project needs Python and two free tables.' },
       { q: 'Is there a Modern Age Coders centre in Barking and Dagenham?', a: 'No. There is no Barking and Dagenham centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Barking and Dagenham cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Barking and Dagenham cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

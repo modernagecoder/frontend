@@ -233,7 +233,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Dijkstra's algorithm suits a principle on our <a href='/how-we-teach'>how we teach</a> page: trace line by line until the student can predict every step. Filling in the settle table by hand on a small map, then checking it against the code, is exactly that. Seeing the same problem solved three ways, greedy, fewest roads and Dijkstra, makes clear why the algorithm works. Our <a href='/data-structures-and-algorithms-course'>data structures and algorithms course</a> runs one to one or in small groups of 5 to 10."
+        "text": "Dijkstra's algorithm suits a principle on our <a href='/how-we-teach'>how we teach</a> page: trace line by line until the student can predict every step. Filling in the settle table by hand on a small map, then checking it against the code, is exactly that. Seeing the same problem solved three ways, greedy, fewest roads and Dijkstra, makes clear why the algorithm works. Our <a href='/data-structures-and-algorithms-course'>data structures and algorithms course</a> runs one to one or in groups of 15 to 20."
       },
       {
         "type": "embed",

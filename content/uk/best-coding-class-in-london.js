@@ -60,7 +60,7 @@ module.exports = {
 
   h1: 'Coding classes in London',
   capsuleQ: 'What are the best coding classes in London?',
-  capsule: 'A good class for a London family has to work in a city of 8,799,728 people at the 2021 Census, run by 33 local authorities: 32 boroughs and the City of London Corporation. London also publishes itself. The Greater London Authority created the London Datastore, which listed 1,302 datasets when we counted through its API on 19 September 2026, and that API is the project on this page. Teaching is live, online and from India: a learner in Harrow, Hackney or Croydon logs in from home to a class at their own level, with learners aged anywhere from 6 to 67, in a group of five to ten or alone with a teacher. Nothing is charged for the first lesson; from then on a group place is USD 100 a month and private teaching USD 150.',
+  capsule: 'A good class for a London family has to work in a city of 8,799,728 people at the 2021 Census, run by 33 local authorities: 32 boroughs and the City of London Corporation. London also publishes itself. The Greater London Authority created the London Datastore, which listed 1,302 datasets when we counted through its API on 19 September 2026, and that API is the project on this page. Teaching is live, online and from India: a learner in Harrow, Hackney or Croydon logs in from home to a class at their own level, with learners aged anywhere from 6 to 67, in a group of fifteen to twenty or alone with a teacher. Nothing is charged for the first lesson; from then on a group place is USD 100 a month and private teaching USD 150.',
   lead: 'Every programmer eventually writes a loop that asks a server for results one page at a time: give me the first hundred, then the next hundred, and stop when a page comes back empty. It is the standard way to download a catalogue, and it rests on one assumption nobody writes down: that the server does what the request asks. We pointed that loop at the London Datastore, the city\'s open-data catalogue. It reported 1,302 datasets. Then it sent all 1,302 back on every call, whatever page size and starting point we asked for. A page never came back empty, so the loop never stopped. We had put a cap of 51 calls on it; by then it had collected 66,402 records, and only 1,302 of them were different. Nothing crashed and nothing warned. The program simply kept working, confidently, on a false assumption. That is the thread of this page, and of a great deal of real software.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in London.',
 
@@ -187,7 +187,7 @@ module.exports = {
       { h3: 'Home, wherever that is', p: 'A learner in Bexley and one in Barnet share a lesson from their own rooms, and nobody travels across the city.' },
       { h3: 'English school words kept', p: 'Reception, Key Stages, Year 9 options, GCSEs and A levels keep their names, and every lesson is taught in English.' },
       { h3: 'The first lesson is free', p: 'A proper lesson on a real problem, followed by a suggested level, course and weekly slot. We never ask for card details.' },
-      { h3: 'Mixed from many places', p: 'A group is five to ten learners at the same level, from all over London and from other countries, which is how every stage finds a slot that suits it.' },
+      { h3: 'Mixed from many places', p: 'A group is fifteen to twenty learners at the same level, from all over London and from other countries, which is how every stage finds a slot that suits it.' },
       { h3: 'Around the school year', p: 'Twice a week, roughly eight lessons a month, and the family decides with the teacher when to stop for holidays, half term or revision.' },
       { h3: 'Teaching from India', p: 'Our teachers work on India time, which runs five and a half hours ahead of London from late October to late March and four and a half hours ahead in summer. Your slot is always written down in UK time.' }
     ],
@@ -198,7 +198,7 @@ module.exports = {
     h2: 'What classes cost in London',
     intro: 'Three prices, and no small print behind them.',
     first: 'One lesson on a real problem, ending in a placement and a course suggestion.',
-    group: 'A month of lessons, usually eight, with five to ten learners at the same level.',
+    group: 'A month of lessons, usually eight, with fifteen to twenty learners at the same level.',
     private: 'A month of lessons, usually eight, with one teacher for one learner.',
     closer: 'The price is set in US dollars, as it is for every family outside India, and it is the same in Zone 1 as in Zone 6; there is no pound price list. Nothing is paid until the free lesson has fixed a course and a regular slot, and the pricing page covers pauses, missed lessons and a change of format.'
   },
@@ -223,7 +223,7 @@ module.exports = {
       { q: 'What time are lessons for London learners?', a: 'That depends on which groups have space at your level, and it is settled after the free lesson. India time is five and a half hours ahead of London in winter and four and a half in summer, and your slot is confirmed in UK time before you pay anything.' },
       { q: 'Will there be a page for my borough?', a: 'Yes. Each of the 32 boroughs and the City will have its own page as the series grows, and every one that is live is linked from the borough list on this page.' },
       { q: 'Is there a Modern Age Coders centre in London?', a: 'No. All teaching is live and online, and no London premises or UK office is claimed anywhere. A learner needs a laptop or desktop, working audio and a steady connection, and the phone number on this page is Indian and described as such.', boiler: true },
-      { q: 'What do coding classes in London cost?', a: 'Nothing for the first lesson. After that, a group place costs USD 100 a month for two live lessons a week, around eight in a month, in a group of five to ten, and one-to-one teaching costs USD 150 a month on the same rhythm. Course, format and weekly hour are settled before any payment.', boiler: true },
+      { q: 'What do coding classes in London cost?', a: 'Nothing for the first lesson. After that, a group place costs USD 100 a month for two live lessons a week, around eight in a month, in a group of fifteen to twenty, and one-to-one teaching costs USD 150 a month on the same rhythm. Course, format and weekly hour are settled before any payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Between five and ten, matched by level, pace and goal rather than by age or postcode. If no group at the right level runs at a workable hour, one-to-one lessons are the alternative.', boiler: true }
     ]
   },

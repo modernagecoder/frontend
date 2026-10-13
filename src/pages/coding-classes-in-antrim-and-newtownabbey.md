@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Antrim and New
 canonical: https://learn.modernagecoders.com/coding-classes-in-antrim-and-newtownabbey
 source: src/pages/coding-classes-in-antrim-and-newtownabbey.html
 ---
-> Antrim and Newtownabbey had 145,661 usual residents at the 2021 census, according to NISRA. Its biggest settlement is Metropolitan Newtownabbey, then the town of Antrim, with Ballyclare, Crumlin, Randalstown and Templepatrick among the smaller places. All our lessons are taught live by video from India. Learners aged 6 to 67 take coding, Python and maths, either one-to-one or in a group of five to ten at the same level. A free first lesson decides the starting course. The district project is set on a wartime airfield. If you continue, a group place is USD 100 a month and private lessons USD 150 a month.
+> Antrim and Newtownabbey had 145,661 usual residents at the 2021 census, according to NISRA. Its biggest settlement is Metropolitan Newtownabbey, then the town of Antrim, with Ballyclare, Crumlin, Randalstown and Templepatrick among the smaller places. All our lessons are taught live by video from India. Learners aged 6 to 67 take coding, Python and maths, either one-to-one or in a group of fifteen to twenty at the same level. A free first lesson decides the starting course. The district project is set on a wartime airfield. If you continue, a group place is USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Northern Ireland](/coding-and-ai-classes-in-northern-ireland) / Antrim and Newtownabbey
 
@@ -12,11 +12,11 @@ Antrim and Newtownabbey / Live online
 
 # Coding classes in Antrim and Newtownabbey
 
-**What are the best coding classes in Antrim and Newtownabbey?** Antrim and Newtownabbey had 145,661 usual residents at the 2021 census, according to NISRA. Its biggest settlement is Metropolitan Newtownabbey, then the town of Antrim, with Ballyclare, Crumlin, Randalstown and Templepatrick among the smaller places. All our lessons are taught live by video from India. Learners aged 6 to 67 take coding, Python and maths, either one-to-one or in a group of five to ten at the same level. A free first lesson decides the starting course. The district project is set on a wartime airfield. If you continue, a group place is USD 100 a month and private lessons USD 150 a month.
+**What are the best coding classes in Antrim and Newtownabbey?** Antrim and Newtownabbey had 145,661 usual residents at the 2021 census, according to NISRA. Its biggest settlement is Metropolitan Newtownabbey, then the town of Antrim, with Ballyclare, Crumlin, Randalstown and Templepatrick among the smaller places. All our lessons are taught live by video from India. Learners aged 6 to 67 take coding, Python and maths, either one-to-one or in a group of fifteen to twenty at the same level. A free first lesson decides the starting course. The district project is set on a wartime airfield. If you continue, a group place is USD 100 a month and private lessons USD 150 a month.
 
 In August 1942 an airfield at Langford Lodge opened as AAF Station 597, a depot for the United States Army Air Force, run by the Lockheed Overseas Corporation with 2,600 employees. The Historic Environment Division's defence record says 3,250 aircraft were reassembled or modified there and 11,000 serviced. That many aircraft needed somewhere to wait, and the record describes finger parks: short dead-end strips that packed aircraft in tightly but meant they had to be towed on and off. Park planes nose to tail in a dead end and the first one in is the last one out. If the aircraft you need is at the back, everything in front must be moved. How much towing does that cost, and how much can planning save? This page's project works it out in Python.
 
-Facts last verified 26 September 2026. Teaching is online; no Antrim and Newtownabbey branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Antrim and Newtownabbey branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Antrim and Newtownabbey learners start
 
@@ -137,7 +137,7 @@ Any home in the district with a connection can join.
 - **Hands on** Learners type their own programs, and the tutor follows the shared screen, stepping in with a question when needed.
 - **Northern Ireland years** A Crumlin P6 or a Ballyclare Year 13 is placed by Northern Ireland school year and key stage, with CCEA exam names. Teaching is in English.
 - **Free trial** One full lesson free of charge, with a recommendation at the end.
-- **Level groups** Five to ten learners at one level, gathered from across the UK.
+- **Level groups** Fifteen to twenty learners at one level, gathered from across the UK.
 - **Term weeks** Two lessons a week in term time, none in holidays.
 - **Local time kept** Your lesson stays at the same Northern Ireland clock time through spring and autumn changes; our teachers adapt.
 
@@ -148,7 +148,7 @@ Any home in the district with a connection can join.
 Antrim or Newtownabbey, the price is the same, as it is in every country we teach outside India.
 
 - First class: USD 0. A full first lesson at no cost, then our honest advice.
-- Group tuition: USD 100 a month. About eight lessons a month in a class of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a class of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month with a dedicated tutor.
 
 Fees are in US dollars only; we have no sterling price. Payment begins after the trial has set a course and a weekly time, and the pricing page explains holidays, missed lessons and changing format.

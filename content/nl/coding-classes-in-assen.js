@@ -180,7 +180,7 @@ module.exports = {
       { h3: 'No trip to the centre', p: 'A learner in Peelo and a learner in Assen-West start at the same moment, each from home, with no ride across town on a dark evening.' },
       { h3: 'School words stay Dutch', p: 'The groep, brugklas, vmbo, havo, vwo and profielkeuze of a Drenthe school keep their Dutch names; the lesson around them is in English.' },
       { h3: 'A free, real lesson', p: 'The opening session is taught on an actual task. At the end the teacher suggests a level, a course and a weekly time, and asks for nothing.' },
-      { h3: 'Classmates at your level', p: 'Groups hold five to ten learners who have reached the same point. Assen has 10,233 residents under fifteen, and five who match on subject, level and hour are hard to find in one town, so a group may include learners from other countries.' },
+      { h3: 'Classmates at your level', p: 'Groups hold fifteen to twenty learners who have reached the same point. Assen has 10,233 residents under fifteen, and five who match on subject, level and hour are hard to find in one town, so a group may include learners from other countries.' },
       { h3: 'Regio Noord holidays', p: 'Two lessons a week, about eight a month, at one fixed hour, pausing for the regio Noord school holidays that Drenthe keeps.' },
       { h3: 'Time zones on your side', p: 'The teachers are in India, three and a half hours ahead of Assen in summer and four and a half in winter, so late afternoons, evenings and weekend mornings are all possible.' }
     ],
@@ -191,7 +191,7 @@ module.exports = {
     h2: 'What classes cost in Assen',
     intro: 'The complete price list, stated here.',
     first: 'One real lesson on a real task, ending with a level and a course.',
-    group: 'Per month, normally eight lessons, five to ten learners at one level.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners at one level.',
     private: 'Per month, normally eight lessons, one learner, one teacher.',
     closer: 'The fee is one dollar price for every country, with no euro list alongside, so a family in Marsdijk pays exactly what a family in Lariks pays. Nothing is charged until the free lesson has fixed a course and an hour, and then payment is arranged on WhatsApp. The pricing page explains pauses, format changes and missed lessons.'
   },
@@ -216,7 +216,7 @@ module.exports = {
       { q: 'How many schools are there in Assen?', a: 'The statistics count 33 primary establishments teaching 6,171 pupils and 10 secondary establishments teaching 5,454, with 3,067 MBO, 254 higher professional and 480 university students at institutions in the municipality. No school is rated here.' },
       { q: 'In what language are lessons given, and when?', a: 'In English, with Dutch school words such as brugklas, havo and vwo left untranslated. The teachers work from India, three and a half hours ahead of Assen in summer and four and a half in winter, so late-afternoon, evening and weekend times are easy to find. The time is agreed in the free lesson, and the regio Noord holidays are observed.' },
       { q: 'Is there a Modern Age Coders classroom in Assen?', a: 'No, and none is claimed here or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Assen coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Assen coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

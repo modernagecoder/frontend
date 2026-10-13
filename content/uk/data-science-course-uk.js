@@ -246,7 +246,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'We look at your maths and coding, and pick a route and a first data set.' },
-      { h3: 'Small groups', p: 'Five to ten learners at the same level.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners at the same level.' },
       { h3: 'One to one', p: 'For a faster pace or a particular project.' },
       { h3: 'Notebooks you keep', p: 'Every analysis is saved in your own repository.' },
       { h3: 'Sources on every chart', p: 'Students record where each data set came from.' },
@@ -262,7 +262,7 @@ module.exports = {
     h2: 'Fees for data science',
     lede: 'Charged monthly in US dollars, at one rate for learners anywhere outside India. There is no joining fee, and you can stop when any month ends. The software we use is free.',
     free: ['A look at your maths and coding', 'A route and a first data set', 'No payment details needed'],
-    group: ['Five to ten learners at one level', 'The same teacher each week', 'Real data in every lesson', 'Stop at the end of any month'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher each week', 'Real data in every lesson', 'Stop at the end of any month'],
     one: ['A teacher for you alone', 'Built around your own data question', 'Paced to suit you']
   },
 

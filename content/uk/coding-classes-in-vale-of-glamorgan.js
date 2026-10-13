@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Coding classes in the Vale of Glamorgan',
   capsuleQ: 'What are the best coding classes in the Vale of Glamorgan?',
-  capsule: 'At the 2021 census the Vale of Glamorgan had 131,939 residents. Barry, with a built-up area of 56,605, is by far the largest town; Dinas Powis, Rhoose, Llantwit Major and Cowbridge follow, along with Eglwys-Brewis, Boverton and St Athan. Every lesson we give is live, on video, from our teachers in India. Learners aged 6 to 67 study coding, Python and maths, as a private pupil or in a group of five to ten placed by level. It starts with a free lesson that picks the right course. The Vale project counts pigeons in a medieval dovecote. Afterwards the fee is USD 100 a month in a group or USD 150 a month one-to-one.',
+  capsule: 'At the 2021 census the Vale of Glamorgan had 131,939 residents. Barry, with a built-up area of 56,605, is by far the largest town; Dinas Powis, Rhoose, Llantwit Major and Cowbridge follow, along with Eglwys-Brewis, Boverton and St Athan. Every lesson we give is live, on video, from our teachers in India. Learners aged 6 to 67 study coding, Python and maths, as a private pupil or in a group of fifteen to twenty placed by level. It starts with a free lesson that picks the right course. The Vale project counts pigeons in a medieval dovecote. Afterwards the fee is USD 100 a month in a group or USD 150 a month one-to-one.',
   lead: 'Beside Cadoxton Court in Barry stands a round stone dovecote, probably from the 13th century, which Cadw lists at Grade I as the largest and most intact medieval dovecote in Glamorgan. Inside, the walls were lined with nesting holes about 15 centimetres square and 45 deep. The record gives two numbers: originally 700 nesting holes, and capacity for 1,400 pigeons. Those two numbers hold three good problems. What is certain to happen if too many birds move in? What is likely to happen if birds choose holes at random? And could 700 holes really fit on those walls? Each question needs a different kind of maths, and this page\'s project answers all three in Python.',
   wa: 'Hello Modern Age Coders, we are in the Vale of Glamorgan and would like to book a free lesson, please.',
 
@@ -161,7 +161,7 @@ module.exports = {
       { h3: 'Learners do the typing', p: 'Students build each program themselves; the tutor keeps an eye on their screen and offers a question when they get stuck.' },
       { h3: 'Welsh school years', p: 'A Boverton Year 5 or a Dinas Powis Year 11 is placed by Welsh year and progression step, and exams go by WJEC names. Teaching is in English.' },
       { h3: 'Free start', p: 'The trial lesson is complete and free, and ends with a clear suggestion.' },
-      { h3: 'Classes by stage', p: 'Five to ten learners at one level, from across the UK.' },
+      { h3: 'Classes by stage', p: 'Fifteen to twenty learners at one level, from across the UK.' },
       { h3: 'Term timetable', p: 'Twice weekly during term; holidays kept clear.' },
       { h3: 'Clock changes covered', p: 'When Britain changes its clocks, your lesson keeps its usual hour and our teachers in India move instead.' }
     ],
@@ -172,7 +172,7 @@ module.exports = {
     h2: 'Fees in the Vale of Glamorgan',
     intro: 'Barry or Cowbridge, the fee is identical, and it matches every other country we teach outside India.',
     first: 'A full trial lesson, free, and clear advice after it.',
-    group: 'Roughly eight lessons a month in a class of five to ten.',
+    group: 'Roughly eight lessons a month in a class of fifteen to twenty.',
     private: 'Roughly eight lessons a month with a personal tutor.',
     closer: 'We price in US dollars alone and never in sterling. Nothing is charged until the trial settles a course and a weekly slot, and the pricing page covers holidays, missed lessons and moving between formats.'
   },

@@ -4,7 +4,7 @@ description: "Online maths tutor for Newcastle, NSW: Kindergarten to Year 12 and
 canonical: https://learn.modernagecoders.com/maths-tutor-newcastle-nsw
 source: src/pages/maths-tutor-newcastle-nsw.html
 ---
-> Learners in Newcastle, New South Wales, can study maths live online with Modern Age Coders from age 6 to 67. That covers the NSW syllabus from Kindergarten through Year 10, every HSC mathematics course from Standard to Extension 2, and maths for adults. Sessions run in Newcastle time, privately or with five to ten learners at the same level, and the first one is free.
+> Learners in Newcastle, New South Wales, can study maths live online with Modern Age Coders from age 6 to 67. That covers the NSW syllabus from Kindergarten through Year 10, every HSC mathematics course from Standard to Extension 2, and maths for adults. Sessions run in Newcastle time, privately or with fifteen to twenty learners at the same level, and the first one is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Maths tutor in Newcastle
 
@@ -243,7 +243,7 @@ Lessons are fixed in Newcastle time; we adjust for daylight saving so families d
 
 - **One teacher** Continuity week to week.
 - **Short updates** For parents after lessons.
-- **Groups by level** Five to ten learners.
+- **Groups by level** Fifteen to twenty learners.
 - **Local problems** Baths, beaches and maps.
 - **Private lessons** For one goal.
 - **Ideas before drills** Understanding first.
@@ -253,7 +253,7 @@ Lessons are fixed in Newcastle time; we adjust for daylight saving so families d
 A single monthly charge in US dollars covers lessons for Newcastle families; you pay nothing up front, and can finish whenever a month ends.
 
 - Free first class: USD 0. A full lesson at the learner's level. A clear recommendation. No card.
-- Group batch: USD 100 a month. Five to ten learners. The same teacher. Marked practice. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners. The same teacher. Marked practice. Stop after any month.
 - One to one: USD 150 a month. Private lessons. Built around one goal. Useful before HSC exams.
 
 ## Questions about maths tutoring in Newcastle

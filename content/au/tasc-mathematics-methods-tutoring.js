@@ -220,7 +220,7 @@ module.exports = {
       { h3: 'Working on every line', p: 'Answers written the way the marking rules reward.' },
       { h3: 'Calculator-free first', p: 'Fluency built before technology is used.' },
       { h3: 'Check by composition', p: 'Inverses, derivatives and integrals confirmed, not assumed.' },
-      { h3: 'Group marking', p: 'In classes of five to ten, students swap solutions and mark the working against the TASC rules.' },
+      { h3: 'Group marking', p: 'In classes of fifteen to twenty, students swap solutions and mark the working against the TASC rules.' },
       { h3: 'Private sessions', p: 'Booked for a single weak area, usually circular functions or integration.' },
       { h3: 'No forecasts', p: 'Nobody here will guess at your award or your ATAR.' }
     ]
@@ -234,7 +234,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Families outside India pay one monthly price in US dollars. No enrolment charge applies, and stopping simply means not renewing for the next month.',
     free: ['A full maths lesson with a tutor', 'A clear first area to work on', 'No card details'],
-    group: ['Five to ten students at one level', 'The same tutor all term', 'Working checked line by line', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same tutor all term', 'Working checked line by line', 'A certificate at the end'],
     one: ['A tutor for one student', 'Focused on one area of study', 'Often booked before November']
   },
 

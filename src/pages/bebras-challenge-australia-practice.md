@@ -193,7 +193,7 @@ Our teachers work from India. During daylight saving, a 4.30 pm lesson in Melbou
 
 - **Draw the story** Every task is sketched before it is solved.
 - **Name the idea** Students say which computing concept the puzzle hides.
-- **Groups of five to ten** Matched by stage rather than only by year.
+- **Groups of fifteen to twenty** Matched by stage rather than only by year.
 - **One-to-one option** For students aiming at the harder divisions.
 - **Notes for parents** One idea learned and one puzzle to try at home.
 - **No award promises** We teach thinking; the result is the student's.
@@ -203,7 +203,7 @@ Our teachers work from India. During daylight saving, a 4.30 pm lesson in Melbou
 Australian families pay monthly in US dollars, the same rate we use in every country outside India, with no deposit and the freedom to stop at any month end. Bebras entry is arranged and paid through schools, separately.
 
 - Free first class: USD 0. A real lesson with a teacher. A view of your child's problem-solving level. No card needed.
-- Group batch: USD 100 a month. Five to ten students at one stage. The same teacher every week. Puzzles discussed in depth. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one stage. The same teacher every week. Puzzles discussed in depth. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one student. Aimed at a chosen division. A weekly time that suits you.
 
 ## What families and students ask

@@ -228,7 +228,7 @@ module.exports = {
       { h3: 'Invented briefs', p: 'Every project we work on in class is made up, never the assessed one.' },
       { h3: 'Explain aloud', p: 'Students talk through code the way a walkthrough requires.' },
       { h3: 'Design before code', p: 'Pseudocode or a structure chart before the editor opens.' },
-      { h3: 'Small groups', p: 'Five to ten students at one level, reviewing each other\'s practice code.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty students at one level, reviewing each other\'s practice code.' },
       { h3: 'One-to-one sessions', p: 'For one skill, such as data cleaning, that needs focused repair.' },
       { h3: 'No grade forecasts', p: 'We never predict a SACE grade; the work and the result belong to the student.' }
     ]
@@ -242,7 +242,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Lessons are billed monthly in US dollars, one rate for every family outside India, with no joining fee and nothing owed beyond the month in progress.',
     free: ['A full coding lesson with a tutor', 'A clear view of the next skill to build', 'No card details asked'],
-    group: ['Five to ten students at one level', 'One tutor every week', 'Practice code reviewed in class', 'A certificate when the course ends'],
+    group: ['Fifteen to twenty students at one level', 'One tutor every week', 'Practice code reviewed in class', 'A certificate when the course ends'],
     one: ['A tutor for one student', 'Focused on one skill at a time', 'Useful before a programming skills task']
   },
 

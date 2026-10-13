@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'AI and programming classes in Aberdare',
   capsuleQ: 'Which are the best AI and programming classes for Aberdare?',
-  capsule: 'Rhondda Cynon Taf counted 237,651 usual residents in the 2021 census, and the ONS built-up area of Aberdare held 37,675 of them. That built-up area stretches from Hirwaun and Penywaun through Trecynon, Cwmdare and Llwydcoed to Cwmbach, Aberaman, Godreaman and Cwmaman. Modern Age Coders teaches AI, programming, Python, vibe coding and maths to Aberdare learners from six to 67, live on video with tutors in India, one-to-one or in groups of five to ten at the same level. A free trial lesson always comes first, followed by a course suggestion. The Aberdare project builds one of the oldest neural networks there is, a Hopfield network, stores census patterns for local neighbourhoods in it, and counts how quickly the memory starts producing patterns nobody stored. After the trial, fees are USD 100 a month in a group and USD 150 a month one-to-one.',
+  capsule: 'Rhondda Cynon Taf counted 237,651 usual residents in the 2021 census, and the ONS built-up area of Aberdare held 37,675 of them. That built-up area stretches from Hirwaun and Penywaun through Trecynon, Cwmdare and Llwydcoed to Cwmbach, Aberaman, Godreaman and Cwmaman. Modern Age Coders teaches AI, programming, Python, vibe coding and maths to Aberdare learners from six to 67, live on video with tutors in India, one-to-one or in groups of fifteen to twenty at the same level. A free trial lesson always comes first, followed by a course suggestion. The Aberdare project builds one of the oldest neural networks there is, a Hopfield network, stores census patterns for local neighbourhoods in it, and counts how quickly the memory starts producing patterns nobody stored. After the trial, fees are USD 100 a month in a group and USD 150 a month one-to-one.',
   lead: 'Most people meet AI as something that predicts. Older and in some ways stranger is AI that remembers: give it a damaged or partial pattern and it settles back to the complete one it learned. John Hopfield described such a network in 1982, and the 2024 Nobel Prize in Physics, which he shared with Geoffrey Hinton, cited that work. It is small enough for a teenager to write from scratch, and it has a hard limit that is easy to measure. Fill it with too many memories and it begins to recall things that were never put in.',
   wa: 'Hello Modern Age Coders, we would like to book a free AI or programming trial lesson. We are in Aberdare.',
 
@@ -162,11 +162,11 @@ module.exports = {
       { h3: 'Learner writes the code', p: 'Every line is typed by the learner while the tutor probes their reasoning.' },
       { h3: 'Trial before advice', p: 'We see the learner\'s level in the first lesson, then recommend a course.' },
       { h3: 'First session free', p: 'The trial costs nothing and needs no card.' },
-      { h3: 'Five to ten per group', p: 'Learners at one level, joining from all over the UK.' },
+      { h3: 'Fifteen to twenty per group', p: 'Learners at one level, joining from all over the UK.' },
       { h3: 'Steady pace', p: 'About two lessons a week in term, with Rhondda Cynon Taf holidays left free if asked.' },
       { h3: 'Same UK time', p: 'Your slot does not move when the clocks go forward or back.' }
     ],
-    spec: { title: 'Why video lessons', p: 'Five to ten learners at one exact level are much easier to find across the UK than in one valley, and nobody needs to travel to join them.' }
+    spec: { title: 'Why video lessons', p: 'Fifteen to twenty learners at one exact level are much easier to find across the UK than in one valley, and nobody needs to travel to join them.' }
   },
 
   fees: {

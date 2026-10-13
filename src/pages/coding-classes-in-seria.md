@@ -86,7 +86,7 @@ The slot is agreed with you and can be moved when the roster moves. Pausing for 
 
 2,659 RESIDENTS
 
-A town this size cannot supply five to eight learners at one level in one subject who are free at one hour.
+A town this size cannot supply fifteen to twenty learners at one level in one subject who are free at one hour.
 
 The group is drawn from our whole intake across twenty-five countries. Level decides who a learner sits with; the town has no bearing on it.
 
@@ -198,7 +198,7 @@ Every hour is taught in real time by a person who was there last week. Nothing i
 
 Free, and it decides the level. One problem, watched rather than marked, and a recommendation you are welcome to push back on.
 
-### Five to eight per group
+### Fifteen to twenty per group
 
 Grouped by demonstrated ability from twenty-five countries. Seria and Kuala Belait are the same address as far as grouping goes.
 
@@ -308,7 +308,7 @@ None in the town, none at Panaga, none anywhere in Brunei. Teaching reaches you 
 
 ### Only 2,659 people live in the town. Is a group class realistic?
 
-It is, and the reason is that the town has nothing to do with who is in the room. Groups of five to eight are built on what each learner can demonstrate, drawn from an intake across twenty-five countries. A fourteen year old in Seria therefore works with people at their own standard instead of with whoever lives close by and is roughly the right age, which in a town of this size is the difference between having a class and not having one.
+It is, and the reason is that the town has nothing to do with who is in the room. Groups of fifteen to twenty are built on what each learner can demonstrate, drawn from an intake across twenty-five countries. A fourteen year old in Seria therefore works with people at their own standard instead of with whoever lives close by and is roughly the right age, which in a town of this size is the difference between having a class and not having one.
 
 ### My child is on the international programme rather than SPN21. Does that matter?
 
@@ -316,7 +316,7 @@ Not to the teaching, and Belait is where the question comes up most in Brunei. P
 
 ### How much do coding classes in Seria cost?
 
-The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of five to eight compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
+The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of fifteen to twenty compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
 
 ### What time would the lesson be, and does it drift?
 

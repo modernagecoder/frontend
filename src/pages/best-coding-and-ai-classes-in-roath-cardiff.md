@@ -4,7 +4,7 @@ description: "Online coding, AI, Python and vibe coding lessons for Roath, Penyl
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-roath-cardiff
 source: src/pages/best-coding-and-ai-classes-in-roath-cardiff.html
 ---
-> Roath (Y Rhath) is recorded on postcodes.io as a suburban area of Cardiff, next to Roath Park, and postcode lookups put points in Roath inside Plasnewydd and Penylan wards, which counted 18,277 and 12,911 residents at the 2021 census; no separate figure is published for Roath itself. Our tutors, who work from India, teach coding, AI, Python, vibe coding and maths by live video to learners of six to 67, alone or in a class of five to ten pitched at one level. We start with how to reason, so learners can question a neat answer a computer draws for them. Lesson one is free, and we finish it by suggesting a course. The Roath project takes 529 shops, cafes and pubs mapped on OpenStreetMap and asks a computer to draw the outline of the local shopping streets, then shows how one setting changes the answer from one big blob to twenty-one tight clusters. From there, a class place is USD 100 each month and a private tutor USD 150 each month.
+> Roath (Y Rhath) is recorded on postcodes.io as a suburban area of Cardiff, next to Roath Park, and postcode lookups put points in Roath inside Plasnewydd and Penylan wards, which counted 18,277 and 12,911 residents at the 2021 census; no separate figure is published for Roath itself. Our tutors, who work from India, teach coding, AI, Python, vibe coding and maths by live video to learners of six to 67, alone or in a class of fifteen to twenty pitched at one level. We start with how to reason, so learners can question a neat answer a computer draws for them. Lesson one is free, and we finish it by suggesting a course. The Roath project takes 529 shops, cafes and pubs mapped on OpenStreetMap and asks a computer to draw the outline of the local shopping streets, then shows how one setting changes the answer from one big blob to twenty-one tight clusters. From there, a class place is USD 100 each month and a private tutor USD 150 each month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Cardiff](/best-coding-class-in-cardiff) / Roath
 
@@ -12,11 +12,11 @@ Roath, Cardiff, Wales / Live online
 
 # Coding and AI classes in Roath, Cardiff
 
-**Where can Roath learners find the best coding and AI classes?** Roath (Y Rhath) is recorded on postcodes.io as a suburban area of Cardiff, next to Roath Park, and postcode lookups put points in Roath inside Plasnewydd and Penylan wards, which counted 18,277 and 12,911 residents at the 2021 census; no separate figure is published for Roath itself. Our tutors, who work from India, teach coding, AI, Python, vibe coding and maths by live video to learners of six to 67, alone or in a class of five to ten pitched at one level. We start with how to reason, so learners can question a neat answer a computer draws for them. Lesson one is free, and we finish it by suggesting a course. The Roath project takes 529 shops, cafes and pubs mapped on OpenStreetMap and asks a computer to draw the outline of the local shopping streets, then shows how one setting changes the answer from one big blob to twenty-one tight clusters. From there, a class place is USD 100 each month and a private tutor USD 150 each month.
+**Where can Roath learners find the best coding and AI classes?** Roath (Y Rhath) is recorded on postcodes.io as a suburban area of Cardiff, next to Roath Park, and postcode lookups put points in Roath inside Plasnewydd and Penylan wards, which counted 18,277 and 12,911 residents at the 2021 census; no separate figure is published for Roath itself. Our tutors, who work from India, teach coding, AI, Python, vibe coding and maths by live video to learners of six to 67, alone or in a class of fifteen to twenty pitched at one level. We start with how to reason, so learners can question a neat answer a computer draws for them. Lesson one is free, and we finish it by suggesting a course. The Roath project takes 529 shops, cafes and pubs mapped on OpenStreetMap and asks a computer to draw the outline of the local shopping streets, then shows how one setting changes the answer from one big blob to twenty-one tight clusters. From there, a class place is USD 100 each month and a private tutor USD 150 each month.
 
 Draw a line round every shop in a neighbourhood and you get a shape. The simplest shape, the convex hull, is what a rubber band would make if stretched round all the points: it never dents inwards, so it swallows parks, back streets and houses along with the shops. A better outline hugs the points. The standard way to get one is an alpha shape: join the points into triangles, then throw away any triangle that is too big to belong to a crowd. What counts as too big is a choice, and that choice decides how many separate shopping areas the computer finds. This project runs the idea on Roath and its neighbouring streets.
 
-Facts last verified 30 September 2026. Teaching is online; no Roath branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Roath branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Roath courses in shapes, Python and AI
 
@@ -132,7 +132,7 @@ You supply a computer with a webcam and a line fast enough for video; we supply 
 - **The learner codes** Everything is typed and run by the student; the tutor watches the shared screen and asks why each step works.
 - **Level from the trial** The free session shows where to start, and any WJEC course is noted.
 - **First lesson free** No fee for lesson one, which ends with a course recommendation.
-- **Classes by level** Five to ten learners from around the UK, all working at one stage.
+- **Classes by level** Fifteen to twenty learners from around the UK, all working at one stage.
 - **Two a week in term** We stop for school holidays.
 - **Same slot all year** Our tutors absorb UK clock changes, so your time stays put.
 

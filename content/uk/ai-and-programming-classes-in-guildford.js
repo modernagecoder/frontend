@@ -59,7 +59,7 @@ module.exports = {
 
   h1: 'AI and programming classes in Guildford',
   capsuleQ: 'What are the best AI and programming classes in Guildford?',
-  capsule: 'The Borough of Guildford had 143,650 residents at the 2021 census, with Guildford itself a built-up area of 77,880. It is a place full of students: people aged 20 to 24 made up 9.2 per cent of residents against 6.0 per cent in England, and 15 to 19 year olds 7.5 against 5.7. It is also the town where Lewis Carroll spent his Christmases. For learners of every age from 6 to 67 we teach AI, programming, Python and maths live online from India, one-to-one or in classes of five to ten at matching levels. The first lesson is free and fixes the course. The Guildford project hands one of Carroll\'s logic puzzles to a computer. Carrying on costs USD 100 a month for a group or USD 150 a month privately.',
+  capsule: 'The Borough of Guildford had 143,650 residents at the 2021 census, with Guildford itself a built-up area of 77,880. It is a place full of students: people aged 20 to 24 made up 9.2 per cent of residents against 6.0 per cent in England, and 15 to 19 year olds 7.5 against 5.7. It is also the town where Lewis Carroll spent his Christmases. For learners of every age from 6 to 67 we teach AI, programming, Python and maths live online from India, one-to-one or in classes of fifteen to twenty at matching levels. The first lesson is free and fixes the course. The Guildford project hands one of Carroll\'s logic puzzles to a computer. Carrying on costs USD 100 a month for a group or USD 150 a month privately.',
   lead: 'Surrey History Centre records that Lewis Carroll settled his sisters in a house called The Chestnuts on Castle Hill, Guildford, in September 1868 and always spent Christmas there; it suggests Guildford is, after Oxford, the place most associated with his adult life. Carroll was a mathematician, and his book Symbolic Logic is full of puzzles in which a list of odd statements hides one surprising conclusion. In one, ten premises about cats, kangaroos and animals that gaze at the moon lead, after a long chain, to "I always avoid a kangaroo". People solve these slowly, rearranging sentences. A computer can do it in milliseconds, if it is taught one rule of logic that even clever humans forget. This page\'s project builds that solver in Python.',
   wa: 'Hello Modern Age Coders, I would like a free AI or programming class for a learner in Guildford.',
 
@@ -163,7 +163,7 @@ module.exports = {
       { h3: 'The learner codes', p: 'Students write their own programs, with the teacher following on screen and asking guiding questions.' },
       { h3: 'Matched to the year', p: 'A Year 6 or a Year 13 begins at the stage their school year and trial lesson point to, with exam board names used.' },
       { h3: 'A free trial', p: 'The first full lesson costs nothing and ends with honest advice.' },
-      { h3: 'Classes by stage', p: 'Five to ten learners at the same level, from across the UK.' },
+      { h3: 'Classes by stage', p: 'Fifteen to twenty learners at the same level, from across the UK.' },
       { h3: 'Term pattern', p: 'Two lessons each week during term, with holidays kept free.' },
       { h3: 'Fixed local time', p: 'Clock changes never move your lesson; our teachers shift instead.' }
     ],

@@ -54,7 +54,7 @@ module.exports = {
   "twitterDescription": "Hobart maths tutoring, live online: Prep to TASC and adult maths, with problems from Tasmania's own map data.",
   "pageName": "Maths Tutor in Hobart",
   "webPageDescription": "Live online maths tutoring for Greater Hobart learners from Prep to Year 12 and adults, following the Tasmanian curriculum and TASC mathematics courses, with a gradient project on Pinnacle Road.",
-  "courseDescription": "Live online maths lessons for Hobart learners, privately or in level-matched classes of five to ten, from early number to TASC Mathematics Specialised and adult maths.",
+  "courseDescription": "Live online maths lessons for Hobart learners, privately or in level-matched classes of fifteen to twenty, from early number to TASC Mathematics Specialised and adult maths.",
   "crumbs": [
     {
       "name": "Courses",
@@ -120,7 +120,7 @@ module.exports = {
     ],
     [
       "Format",
-      "Private or a class of five to ten"
+      "Private or a class of fifteen to twenty"
     ],
     [
       "Clock",
@@ -132,7 +132,7 @@ module.exports = {
     ]
   ],
   "capsuleQ": "Maths tutor in Hobart, in brief",
-  "capsule": "Modern Age Coders is an online maths tutor for Hobart learners aged 6 to 67, teaching primary and high school maths and the TASC senior courses, including General Mathematics, Mathematics Methods and Mathematics Specialised, plus adult maths. Teaching happens over live video, booked in Hobart time, privately or in a class of five to ten matched by level. Our Hobart example measures Pinnacle Road from LIST data: about 806 metres of climb over 10,574 metres of road, a 7.62% grade. The opening lesson is free.",
+  "capsule": "Modern Age Coders is an online maths tutor for Hobart learners aged 6 to 67, teaching primary and high school maths and the TASC senior courses, including General Mathematics, Mathematics Methods and Mathematics Specialised, plus adult maths. Teaching happens over live video, booked in Hobart time, privately or in a class of fifteen to twenty matched by level. Our Hobart example measures Pinnacle Road from LIST data: about 806 metres of climb over 10,574 metres of road, a 7.62% grade. The opening lesson is free.",
   "picks": {
     "eyebrow": "Start here in Hobart",
     "h2": "Three courses most Hobart learners need",
@@ -750,7 +750,7 @@ module.exports = {
       "No card required"
     ],
     "group": [
-      "A class of five to ten at one level",
+      "A class of fifteen to twenty at one level",
       "One teacher all term",
       "Homework marked",
       "Cancel at the end of any month"
@@ -767,7 +767,7 @@ module.exports = {
     "items": [
       {
         "q": "Do you tutor maths for Hobart students online?",
-        "a": "Yes. Every lesson is live on video and booked in Hobart time, either privately or in a class of five to ten learners at the same level."
+        "a": "Yes. Every lesson is live on video and booked in Hobart time, either privately or in a class of fifteen to twenty learners at the same level."
       },
       {
         "q": "Which TASC maths courses can you help with?",

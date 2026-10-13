@@ -181,7 +181,7 @@ module.exports = {
     intro: 'The essentials.',
     cells: [
       { h3: 'Teacher present', p: 'Each lesson is taught live, and the teacher works from what the learner is building that day.' },
-      { h3: 'Same-level groups', p: 'Five to ten learners at the same stage, from Wexford, the rest of Ireland and other countries.' },
+      { h3: 'Same-level groups', p: 'Fifteen to twenty learners at the same stage, from Wexford, the rest of Ireland and other countries.' },
       { h3: 'Two most weeks', p: 'About eight lessons a month, on days and times fixed at the start.' },
       { h3: 'Term planning', p: 'Holidays, mid-term breaks and exams are built into the course plan.' },
       { h3: 'Equipment', p: 'Any laptop or desktop that runs a browser well, a headset or a microphone with speakers, and broadband that carries video without dropping.' },
@@ -194,7 +194,7 @@ module.exports = {
     h2: 'Fees for Enniscorthy',
     intro: 'Everything we charge.',
     first: 'A full first lesson with the level assessed, at no cost.',
-    group: 'A month in a group of five to ten at one level, around eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, around eight live lessons.',
     private: 'A month of one-to-one teaching at the same weekly frequency.',
     closer: 'Families outside India all pay one monthly price in US dollars. The first lesson is free and nobody is charged until a course starts; holidays, missed lessons and swapping between group and private teaching are covered on the pricing page.'
   },
@@ -219,7 +219,7 @@ module.exports = {
       { q: 'Is it too late for an adult to learn?', a: 'No. Adults up to sixty-seven join, often from scratch. The first lesson tells us, and the learner, whether a same-level group or a private teacher is the better route.' },
       { q: 'Will a learner from Enniscorthy be with local learners?', a: 'Groups are formed by level rather than town, so the others in a lesson may be in Wexford, elsewhere in Ireland or abroad.' },
       { q: 'Is there a Modern Age Coders classroom in Enniscorthy?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Enniscorthy cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Enniscorthy cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

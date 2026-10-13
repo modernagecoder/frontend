@@ -189,7 +189,7 @@ Students type, predict and test everything they keep. Teachers ask "what will th
 - **Contracts written** Students state what each function promises before writing it.
 - **Tests by the student** Students write their own checks, including the awkward cases.
 - **Explain it back** A program is finished when the student can explain every line.
-- **Small groups** Five to ten students, or one to one.
+- **Small groups** Fifteen to twenty students, or one to one.
 - **Never your assessment** We teach technique; assessed work stays the student's own.
 
 ## Fees
@@ -197,7 +197,7 @@ Students type, predict and test everything they keep. Teachers ask "what will th
 Families outside India are billed monthly in US dollars at a rate that does not change between countries. No sign-up fee applies and nothing locks you in for a term; any month can be the last.
 
 - Free first class: USD 0. A full trial lesson, free. An honest read of current level. No card required.
-- Group batch: USD 100 a month. Five to ten students. One steady teacher. Matched by level. Month by month.
+- Group batch: USD 100 a month. Fifteen to twenty students. One steady teacher. Matched by level. Month by month.
 - One to one: USD 150 a month. One teacher, one student. Around school and exams. Your pace.
 
 ## Common questions about understanding code

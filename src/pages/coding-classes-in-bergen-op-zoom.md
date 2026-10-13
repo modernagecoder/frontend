@@ -16,7 +16,7 @@ Bergen op Zoom, Noord-Brabant / Live online
 
 For more than a century and a half, the reputation of Bergen op Zoom rested on a record: sieges came, and the town did not fall. The encyclopaedia records the name that record earned, La Pucelle, because no enemy power had ever taken it. Then, during the War of the Austrian Succession, the French besieged it in 1747 and succeeded. Nothing about the earlier defences had been untrue; they really had held. What the record could not say was how the town would fare against an attack it had not yet faced. A programmer's test suite is a record of exactly the same kind. Every passing test is a small siege that the code survived, and a long list of green results feels like proof. It is not. It shows that the cases someone thought of work, and it is silent about everything else, which is why good programmers spend as much effort on finding the attack nobody has tried as on counting the ones that failed.
 
-Facts last verified 11 September 2026. Teaching is online; no Bergen op Zoom branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Bergen op Zoom branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the town of the Markiezenhof
 
@@ -192,7 +192,7 @@ From the Grote Markt to the villages north of the town, a learner in Bergen op Z
 - **No trip into town** A pupil in Lepelstraat and a pupil near the Markiezenhof start together, each at home, with no drive through the evening dark.
 - **Dutch terms untouched** Brugklas, groep, vmbo, havo, vwo and profielkeuze stay in Dutch as a Brabant school writes them, and the teaching is in English.
 - **A lesson, free** The first session is a full lesson on a real task. The teacher then suggests a level, a course and a regular time, without taking any payment details.
-- **Groups by stage** Five to ten learners at one point in one subject. Bergen op Zoom has 10,321 residents under fifteen, and five who match on subject, level and hour are rare in one municipality, so classmates may join from other countries.
+- **Groups by stage** Fifteen to twenty learners at one point in one subject. Bergen op Zoom has 10,321 residents under fifteen, and five who match on subject, level and hour are rare in one municipality, so classmates may join from other countries.
 - **Regio Zuid holidays** Two lessons a week, about eight a month, at a fixed hour, breaking for the regio Zuid holidays of Noord-Brabant.
 - **Teachers in India** The teachers are three and a half hours ahead in Dutch summer and four and a half in winter, so late afternoons, evenings and weekend mornings all suit.
 
@@ -203,7 +203,7 @@ From the Grote Markt to the villages north of the town, a learner in Bergen op Z
 Three prices, shown in full.
 
 - First class: USD 0. A real lesson on a real task, finishing with a level and a course.
-- Group tuition: USD 100 a month. Each month, normally eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. Each month, normally eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Each month, normally eight lessons, one teacher for one learner.
 
 The dollar fee is the same for every country and there is no euro list, so a household in Halsteren pays exactly what one in the old town pays. Nothing is charged until the free lesson has settled the course and the hour, and then payment is arranged over WhatsApp. The pricing page explains pauses, a change of format and missed lessons.
@@ -244,7 +244,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Bergen op Zoom coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

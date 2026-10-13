@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Cambridge lea
 canonical: https://learn.modernagecoders.com/best-coding-class-in-cambridge
 source: src/pages/best-coding-class-in-cambridge.html
 ---
-> Cambridge is a small city dominated by learning. Its 2021 Census count was 145,674, of whom 19,292 lived in communal establishments such as colleges, and 33.2% of residents aged five and over were schoolchildren or full-time students, far above England's 20.4%. It is also where EDSAC, the first practical stored-program computer, ran its first program on 6 May 1949. Modern Age Coders teaches Cambridge learners from six to sixty-seven in live online lessons, either in a group of five to ten at one level or one to one, with teachers in India and a weekly time pinned to UK hours. The first lesson is free; afterwards, a group place is USD 100 and private lessons USD 150 each month.
+> Cambridge is a small city dominated by learning. Its 2021 Census count was 145,674, of whom 19,292 lived in communal establishments such as colleges, and 33.2% of residents aged five and over were schoolchildren or full-time students, far above England's 20.4%. It is also where EDSAC, the first practical stored-program computer, ran its first program on 6 May 1949. Modern Age Coders teaches Cambridge learners from six to sixty-seven in live online lessons, either in a group of fifteen to twenty at one level or one to one, with teachers in India and a weekly time pinned to UK hours. The first lesson is free; afterwards, a group place is USD 100 and private lessons USD 150 each month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Cambridge
 
@@ -12,11 +12,11 @@ Cambridge, Cambridgeshire, England / Live online
 
 # Coding classes in Cambridge
 
-**What are the best coding classes in Cambridge?** Cambridge is a small city dominated by learning. Its 2021 Census count was 145,674, of whom 19,292 lived in communal establishments such as colleges, and 33.2% of residents aged five and over were schoolchildren or full-time students, far above England's 20.4%. It is also where EDSAC, the first practical stored-program computer, ran its first program on 6 May 1949. Modern Age Coders teaches Cambridge learners from six to sixty-seven in live online lessons, either in a group of five to ten at one level or one to one, with teachers in India and a weekly time pinned to UK hours. The first lesson is free; afterwards, a group place is USD 100 and private lessons USD 150 each month.
+**What are the best coding classes in Cambridge?** Cambridge is a small city dominated by learning. Its 2021 Census count was 145,674, of whom 19,292 lived in communal establishments such as colleges, and 33.2% of residents aged five and over were schoolchildren or full-time students, far above England's 20.4%. It is also where EDSAC, the first practical stored-program computer, ran its first program on 6 May 1949. Modern Age Coders teaches Cambridge learners from six to sixty-seven in live online lessons, either in a group of fifteen to twenty at one level or one to one, with teachers in India and a weekly time pinned to UK hours. The first lesson is free; afterwards, a group place is USD 100 and private lessons USD 150 each month.
 
 The Met Office has kept monthly weather for a station at NIAB in Cambridge since January 1959, and the record now runs to 812 months. Which ten months were the warmest? The obvious method is to sort all 812 by temperature and read off the top. A better one, used everywhere from search engines to game leaderboards, reads the record once and keeps only a small pile of the top ten so far, always knowing which of the ten is weakest. That pile is a heap, and it needs about a third of the comparisons a full sort does. Run it on Cambridge and the answer arrives with a twist: July 2006 is warmest at 28.3C, but second place goes to July 2026, and that value is still marked provisional. Six of the ten warmest months come from 2000 or later. How the heap works, and why a provisional number deserves an asterisk in any top ten, is the lesson Cambridge's own weather record teaches our teenage learners here.
 
-Facts last verified 21 September 2026. Teaching is online; no Cambridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 21 September 2026. Teaching is online; no Cambridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the city of EDSAC
 
@@ -175,7 +175,7 @@ Cambridge is compact, but even a short cycle across town is time a live online l
 - **No ride across town** A learner in Arbury and one in Newnham can take the same lesson from their own desks, and nobody has to cross Parker's Piece in the rain.
 - **English school stages** Reception, the Key Stages, Year 9 options, GCSEs and A levels keep the names Cambridge schools use, and all teaching is in English.
 - **A free first session** A proper lesson on a real task, followed by a clear suggestion of level, course and time, with no card requested.
-- **Grouped by level** Five to ten learners at the same stage, drawn from Cambridge, across the UK and abroad, so each level finds a workable slot.
+- **Grouped by level** Fifteen to twenty learners at the same stage, drawn from Cambridge, across the UK and abroad, so each level finds a workable slot.
 - **A fixed weekly rhythm** Two lessons a week at the same time, around eight a month, with pauses for holidays and exams agreed with the teacher.
 - **Taught from India** India keeps one clock all year, so our teachers run four and a half hours ahead of Cambridge in summer and five and a half in winter, which places after-school and evening slots within their day.
 
@@ -186,7 +186,7 @@ Cambridge is compact, but even a short cycle across town is time a live online l
 The complete price list is three lines long.
 
 - First class: USD 0. A full lesson at no cost, ending with a level, a recommended course and a proposed weekly slot.
-- Group tuition: USD 100 a month. One month of teaching, usually eight lessons, in a group of five to ten learners at one level.
+- Group tuition: USD 100 a month. One month of teaching, usually eight lessons, in a group of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight lessons a month on the same schedule, with a teacher for one learner alone.
 
 Fees are charged in US dollars at the one rate that applies everywhere outside India, so Chesterton and Cherry Hinton pay exactly the same and we keep no pound price list. Charges start only when the free lesson has set a course and a slot, and our pricing page explains breaks, missed lessons and changes between group and private teaching.
@@ -227,11 +227,11 @@ No. We have no premises in Cambridge or anywhere in the UK, and every lesson is 
 
 ### How much are Cambridge lessons?
 
-The first lesson costs nothing. A group place is then USD 100 a month for two live lessons weekly, around eight a month, with five to ten learners; one-to-one lessons on the same schedule are USD 150 a month. Course, format and time are agreed first.
+The first lesson costs nothing. A group place is then USD 100 a month for two live lessons weekly, around eight a month, with fifteen to twenty learners; one-to-one lessons on the same schedule are USD 150 a month. Course, format and time are agreed first.
 
 ### How are Cambridge groups formed?
 
-By ability, pace and aims: five to ten learners at one level, whatever their age or postcode. When no suitable group meets at a good time, we propose one-to-one lessons.
+By ability, pace and aims: fifteen to twenty learners at one level, whatever their age or postcode. When no suitable group meets at a good time, we propose one-to-one lessons.
 
 ## Other cities and the national guide
 

@@ -16,7 +16,7 @@ Oran Park, south-west Sydney / Live online
 
 At the 2021 Census one Oran Park resident in eight was under five, more than double the share across New South Wales. Draw its 18 age bands in Python and the interesting work is not the chart but the printing. One format code gives 12.471630%, another gives 12.5%, and a rounding rule most people never meet decides whether 2.5 becomes 2 or 3. Get the specifications right and every one of the 18 shares matches the bureau's own figure to the last decimal place.
 
-Facts last verified 10 October 2026. Teaching is online; no Oran Park branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Oran Park branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python courses that make output readable
 
@@ -194,7 +194,7 @@ Lessons are on live video, so nobody in Oran Park has to drive to a class.
 - **A teacher in the session** Code is written and corrected together while the teacher watches the screen.
 - **Built for NSW schools** Lessons use NSW stage language and follow state school holidays.
 - **Free trial class** One full lesson at no charge, then a suggested course, level and time.
-- **Groups at one level** Five to ten learners of similar ability, or individual lessons if preferred.
+- **Groups at one level** Fifteen to twenty learners of similar ability, or individual lessons if preferred.
 - **Fixed weekly times** Two lessons a week, about eight a month, with breaks planned ahead.
 - **Teachers in India** A 4pm Oran Park lesson is 10:30am India time under Sydney summer time and 11:30am outside it.
 
@@ -205,7 +205,7 @@ Lessons are on live video, so nobody in Oran Park has to drive to a class.
 Simple, flat prices, the same for every course.
 
 - First class: USD 0. The first lesson is free and ends with a recommended course and timetable.
-- Group tuition: USD 100 a month. Two lessons a week, around eight a month, in a group of five to ten learners at one level.
+- Group tuition: USD 100 a month. Two lessons a week, around eight a month, in a group of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. One-to-one teaching on the same schedule, roughly eight lessons a month.
 
 Families outside India pay in US dollars. Payment starts only once the trial has agreed a course and a time; the pricing page covers holidays, missed lessons and format changes.
@@ -246,11 +246,11 @@ No. We teach only online and have no premises anywhere in Australia, including O
 
 ### How much do Oran Park lessons cost?
 
-The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.
+The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.
 
 ### How big are the groups?
 
-Five to ten learners, grouped by level and goals rather than age. If no group fits the learner's schedule, one-to-one lessons are offered instead.
+Fifteen to twenty learners, grouped by level and goals rather than age. If no group fits the learner's schedule, one-to-one lessons are offered instead.
 
 ## More for Oran Park learners
 

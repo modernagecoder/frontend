@@ -213,7 +213,7 @@ The things a free option usually cannot promise are the things we build each les
 
 - **The same teacher** Your child keeps one teacher, who remembers last week's project.
 - **A planned sequence** Each lesson builds on the one before, towards a clear next stage.
-- **Small groups** Five to ten children close in age and ability, or one to one.
+- **Small groups** Fifteen to twenty children close in age and ability, or one to one.
 - **Their own work** Children build every project themselves; teachers ask questions rather than take over.
 - **Stuck for minutes, not weeks** Help arrives in the lesson, which keeps momentum going.
 - **Free clubs still welcome** Many of our students keep going to a Code Club too. The two fit well together.
@@ -223,7 +223,7 @@ The things a free option usually cannot promise are the things we build each les
 Families outside India pay one monthly fee in US dollars, the same in every country. Nothing is charged to join, and nothing ties you to a whole term: leaving at the end of a month is fine.
 
 - Free first class: USD 0. One full live lesson. An honest course suggestion. No card asked, no obligation.
-- Group batch: USD 100 a month. Classes of five to ten. A familiar teacher each week. Peers close in age and level. Stop whenever a month ends.
+- Group batch: USD 100 a month. Classes of fifteen to twenty. A familiar teacher each week. Peers close in age and level. Stop whenever a month ends.
 - One to one: USD 150 a month. Undivided attention from a teacher. Times that fit around the school week. Pace set by your child.
 
 ## What Australian parents ask about free coding classes

@@ -16,7 +16,7 @@ City of Manningham, Melbourne, Victoria / Live online
 
 Plot the City of Manningham's 30 open schools on a map and half of them have another school within 0.837 km. A few are much further from their neighbours. Which ones count as outliers depends on how you define unusual, and machine learning offers a definition that takes the neighbourhood into account.
 
-Facts last verified 10 October 2026. Teaching is online; no City of Manningham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no City of Manningham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that teach models and their limits
 
@@ -187,7 +187,7 @@ Lessons are live online, which saves a long drive in a council area without a ra
 Three prices, given plainly.
 
 - First class: USD 0. The first lesson is free and closes with a direct recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, normally eight, with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group lessons, normally eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Close to eight private lessons each month.
 
 Families outside India are charged in US dollars, so Manningham pays the same as any other family abroad. Charges begin only after the trial has decided the course and time; holidays, absences and format changes are on the pricing page.
@@ -224,7 +224,7 @@ No. Every lesson is live online, there are no premises in Australia, and the pho
 
 ### How much are AI classes for City of Manningham learners?
 
-The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before any payment.
+The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before any payment.
 
 ### How many learners in a group?
 

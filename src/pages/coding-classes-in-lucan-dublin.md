@@ -16,7 +16,7 @@ Lucan, County Dublin / Live online
 
 Met Éireann ran a rain gauge called Lucan G.S. from 1949 to 1973, and every day of its record comes with two numbers: the rainfall, and a code saying how that rainfall was obtained. Most days are marked satisfactory. Some are marked trace, which means rain fell but too little to measure. And some are marked estimated. In 1964, 212 of the year's 366 days were estimates, and those days account for 484.9 of the year's 670.9 millimetres. A learner who reads only the rainfall column is mostly reading someone's estimates without knowing it. This page shows how to read the flag first, and how to write code that reports what was measured separately from what was filled in.
 
-Facts last verified 19 September 2026. Teaching is online; no Lucan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Lucan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four ways into coding for Lucan
 
@@ -148,7 +148,7 @@ Counting zeros takes one line. Knowing which zeros were measured is the skill. T
 The arrangement, briefly.
 
 - **Taught live** The teacher is there for the whole lesson, working through each learner's code as it develops.
-- **Classes by level** Five to ten learners at a shared stage, some in Lucan, some elsewhere in Ireland and some further afield.
+- **Classes by level** Fifteen to twenty learners at a shared stage, some in Lucan, some elsewhere in Ireland and some further afield.
 - **Regular days** Roughly eight lessons a month, on the same two days each week once agreed.
 - **School calendar** Holidays, mid-terms and exam weeks are accounted for from the start of the course.
 - **What is needed** A computer with a keyboard, a microphone and headphones or speakers, and broadband that handles video.
@@ -161,7 +161,7 @@ The arrangement, briefly.
 Short and complete.
 
 - First class: USD 0. The first lesson, with its level check, free.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, around eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, around eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons on the same timetable.
 
 Every family outside India pays a single monthly fee in US dollars. Taking the free lesson commits nobody, charging begins with the course itself, and the pricing page covers holidays, missed lessons and moving between group and one-to-one teaching.
@@ -198,11 +198,11 @@ Sometimes, but not by design. Groups are made by level, so classmates may be in 
 
 ### What do coding classes in Lucan cost?
 
-The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same timetable cost USD 150 a month. Everything is agreed before any payment.
+The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same timetable cost USD 150 a month. Everything is agreed before any payment.
 
 ### How large are the groups?
 
-Five to ten learners, matched on level, pace and goals rather than on age or address. If nothing fits at a workable time, lessons are one to one.
+Fifteen to twenty learners, matched on level, pace and goals rather than on age or address. If nothing fits at a workable time, lessons are one to one.
 
 ## Around Lucan and the Liffey valley
 

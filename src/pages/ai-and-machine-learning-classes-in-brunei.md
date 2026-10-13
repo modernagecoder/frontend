@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-brunei.html
 
 In short
 
-Brunei families can enrol a learner between six and sixty-seven with Modern Age Coders, either in a batch of five to eight or alone with a teacher, and every session is live. What gets taught is construction rather than conversation. Students write Python, pick up the mathematics as each piece of it becomes necessary, and leave able to do the thing most courses never mention: quote a model's error and then demonstrate that the error is better than what you would get by not modelling at all. Batches cost USD 100 monthly, private teaching USD 150, and the opening session is free.
+Brunei families can enrol a learner between six and sixty-seven with Modern Age Coders, either in a batch of fifteen to twenty or alone with a teacher, and every session is live. What gets taught is construction rather than conversation. Students write Python, pick up the mathematics as each piece of it becomes necessary, and leave able to do the thing most courses never mention: quote a model's error and then demonstrate that the error is better than what you would get by not modelling at all. Batches cost USD 100 monthly, private teaching USD 150, and the opening session is free.
 
 The catalogue
 
@@ -347,7 +347,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Weekly build work reviewed by the teacher
 - Certificate on completion
@@ -438,7 +438,7 @@ Most of what is sold under this heading is instruction in how to phrase a reques
 
 ### What does it cost?
 
-One hundred US dollars a month puts a learner in a batch of five to eight. One hundred and fifty gets them the teacher on their own. Those two figures are the same in every country we work in outside India, they are charged monthly, and there is no joining fee and no term you are locked into. The opening lesson costs nothing and we do not ask for card details to book it.
+One hundred US dollars a month puts a learner in a batch of fifteen to twenty. One hundred and fifty gets them the teacher on their own. Those two figures are the same in every country we work in outside India, they are charged monthly, and there is no joining fee and no term you are locked into. The opening lesson costs nothing and we do not ask for card details to book it.
 
 ### My child is heading for the Brunei-Cambridge GCE. Does this help or interfere?
 

@@ -197,7 +197,7 @@ Our teachers work from India, where the clock does not shift, so the UK runs fiv
 - **Testing as you go** Run it early and often, because the paper asks for programs that are tested and refined rather than merely written.
 - **Topics in rotation** The five written topics revisited across the year rather than blocked, because each one is a whole question.
 - **Timed practice later** From the spring of Year 11, six questions in two hours, with the clock visible.
-- **Groups by level** Five to ten students at one stage, comparing two solutions to the same problem.
+- **Groups by level** Fifteen to twenty students at one stage, comparing two solutions to the same problem.
 
 ## What 1CP2 tuition costs
 

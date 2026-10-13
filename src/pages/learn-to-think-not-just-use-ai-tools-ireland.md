@@ -4,7 +4,7 @@ description: "Coding classes in Ireland that build thinking, not tool use: the J
 canonical: https://learn.modernagecoders.com/learn-to-think-not-just-use-ai-tools-ireland
 source: src/pages/learn-to-think-not-just-use-ai-tools-ireland.html
 ---
-> Irish curriculum documents already say what a good coding class should do. The Junior Cycle framework names eight key skills, including managing information and thinking, and requires them in every subject and short course. The redeveloped senior cycle names thinking and solving problems among seven key competencies. The Department's 2025 guidance on AI in schools asks for critical, safe and ethical use of these tools. Our lessons follow the same order: the learner predicts what code will do, runs it, explains the difference, and only then meets a tool that can write code for them. Classes are live, in groups of five to ten or one to one, for ages 6 to 67. The first is free; after that it is USD 100 a month in a group and USD 150 a month one to one.
+> Irish curriculum documents already say what a good coding class should do. The Junior Cycle framework names eight key skills, including managing information and thinking, and requires them in every subject and short course. The redeveloped senior cycle names thinking and solving problems among seven key competencies. The Department's 2025 guidance on AI in schools asks for critical, safe and ethical use of these tools. Our lessons follow the same order: the learner predicts what code will do, runs it, explains the difference, and only then meets a tool that can write code for them. Classes are live, in groups of fifteen to twenty or one to one, for ages 6 to 67. The first is free; after that it is USD 100 a month in a group and USD 150 a month one to one.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / Learn to think, Ireland
 
@@ -189,7 +189,7 @@ Thinking is taught by conversation, so lessons are live rather than recorded. Ou
 - **Weekend** Longer sessions for harder problems.
 
 - **A free first class** The learner reasons through a real problem with a teacher, who then suggests the right level and course.
-- **Groups of five to ten** Small enough that every learner is asked to explain something each week.
+- **Groups of fifteen to twenty** Small enough that every learner is asked to explain something each week.
 - **One to one** For learners who think better without an audience, or who move very fast.
 - **Questions before answers** Teachers are trained to ask what the learner expects, and to wait, rather than typing the fix.
 - **Tools in the open** When AI tools are used, the class looks at what they produced and what was wrong with it.
@@ -200,7 +200,7 @@ Thinking is taught by conversation, so lessons are live rather than recorded. Ou
 One monthly price in US dollars for every country outside India, the same at every age and for every course on this page. No joining fee, and no term or year to commit to.
 
 - Free first class: USD 0. A real problem, reasoned through aloud. An honest view of the right starting rung. No card required.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher each week. Work discussed, not just marked. A certificate at the end of a course.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. Work discussed, not just marked. A certificate at the end of a course.
 - One to one: USD 150 a month. A teacher for one learner. The pace set by the learner. Good for very fast or very quiet learners.
 
 ## What families in Ireland ask about thinking and AI tools

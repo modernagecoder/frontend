@@ -16,7 +16,7 @@ North Lakes, City of Moreton Bay, Queensland / Live online
 
 North Lakes is a suburb in the City of Moreton Bay, with a bus station rather than a railway platform. On Wednesday 21 October 2026 the Translink timetable lists 2,242 stop visits inside it, all by bus, on 11 routes. That is a small enough network for an AI agent to manage a personal watchlist of stops, and a good place to ask what happens when the agent gets one step wrong.
 
-Facts last verified 12 October 2026. Teaching is online; no North Lakes branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no North Lakes branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses in AI tools and agents
 
@@ -180,7 +180,7 @@ Lessons run over live video, so learners join from home.
 - **Live sessions** A teacher guides each lesson and reviews code as it is written.
 - **Queensland terms** Weekly classes follow the school terms and break for holidays.
 - **First class free** A complete trial lesson, then a written suggestion for next steps.
-- **Level groups** Five to ten learners at one level, or private lessons.
+- **Level groups** Fifteen to twenty learners at one level, or private lessons.
 - **Frequency** Two classes a week, about eight a month.
 - **Teachers in India** A 5:30pm North Lakes class is 1pm in India, every week.
 
@@ -191,7 +191,7 @@ Lessons run over live video, so learners join from home.
 The same fees apply to everyone.
 
 - First class: USD 0. The first class is free and finishes with a plan.
-- Group tuition: USD 100 a month. Group classes: close to eight a month, five to ten learners.
+- Group tuition: USD 100 a month. Group classes: close to eight a month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private classes: close to eight a month, one teacher, one learner.
 
 North Lakes fees are in US dollars and begin only when the trial has settled the course and weekly times. Holiday and missed-class rules are on the pricing page.
@@ -228,11 +228,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do North Lakes classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Is the adult coding agents course open to teens?
 

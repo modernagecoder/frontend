@@ -16,7 +16,7 @@ Point Cook, City of Wyndham, Melbourne, Victoria / Live online
 
 Point Cook is young. Its Census age chart bulges at the primary-school years, and few Melbourne suburbs look like it. Which ones come closest is a clustering question, and clustering is where many learners first meet machine learning without a single neural network in sight.
 
-Facts last verified 10 October 2026. Teaching is online; no Point Cook branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Point Cook branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that lead to clustering and machine learning
 
@@ -187,7 +187,7 @@ Every class is live on a screen, so learners from any corner of Point Cook join 
 - **Online and live** A real teacher, a shared screen and the learner's own code on every call.
 - **School terms** Classes run through Victorian terms and stop for the state school holidays.
 - **First lesson** A complete lesson for free, then a recommendation on course and weekly time.
-- **Small groups** Groups of five to ten, formed by level, with learners from many places.
+- **Small groups** Groups of fifteen to twenty, formed by level, with learners from many places.
 - **Two a week** Two set lessons a week, about eight a month, so progress keeps moving.
 - **India time** Our teachers work from India. A 5pm Point Cook class is 11:30am India time in daylight saving, and 12:30pm from April.
 
@@ -198,7 +198,7 @@ Every class is live on a screen, so learners from any corner of Point Cook join 
 Three options, nothing hidden.
 
 - First class: USD 0. The first lesson costs nothing, and ends with advice on the right course.
-- Group tuition: USD 100 a month. A month of small-group lessons, typically eight, with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of small-group lessons, typically eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. A month of one-to-one lessons, typically eight, with your own teacher.
 
 Families in Point Cook, like every family outside India, pay in US dollars at the same rate. No payment is taken until the trial has settled the course and time; the pricing page covers holidays and missed lessons.
@@ -235,7 +235,7 @@ No. Teaching is live online only, there is no Australian office, and the phone n
 
 ### How much are AI classes for Point Cook learners?
 
-The first lesson is free. After that, group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before you pay anything.
+The first lesson is free. After that, group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before you pay anything.
 
 ### How large are the groups?
 

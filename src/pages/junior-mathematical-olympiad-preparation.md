@@ -203,7 +203,7 @@ Lessons are live on video from India, where the clock runs five and a half hours
 
 - **Solutions read closely** The teacher reads what the pupil wrote and says where a reader would stop being convinced.
 - **Our own problems** Written by us in the olympiad spirit. UKMT past papers stay where UKMT publishes them.
-- **Five to ten pupils** Small enough for every solution to be looked at, large enough for two methods to meet.
+- **Fifteen to twenty pupils** Small enough for every solution to be looked at, large enough for two methods to meet.
 - **Time to be stuck** Being stuck for twenty minutes is the work, not a sign that something is wrong.
 - **One to one on request** For a pupil working far above their year, or one who will not speak in a group.
 - **No result promised** No qualification, medal or score is promised by us, and nobody honest promises one.
@@ -213,7 +213,7 @@ Lessons are live on video from India, where the clock runs five and a half hours
 A monthly rate in US dollars, the same outside India everywhere. No joining fee and no fixed term.
 
 - Free first class: USD 0. A real lesson on a real problem. An honest read on the level. No card details.
-- Group batch: USD 100 a month. Five to ten pupils at one level. The same teacher each week. Written solutions marked. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty pupils at one level. The same teacher each week. Written solutions marked. A certificate at the end.
 - One to one: USD 150 a month. One pupil with one teacher. Aimed at the specific gap. For pupils far ahead of their year.
 
 ## What parents and pupils ask

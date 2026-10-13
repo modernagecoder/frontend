@@ -74,7 +74,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Scotland',
   capsuleQ: 'What are the best coding classes in Scotland?',
-  capsule: 'Scotland runs its own school system, so a class for a Scottish learner has to speak its language: primary 1 to 7, S1 to S6, a broad general education that Education Scotland says continues to the end of S3, and then National 5, Higher and Advanced Higher, now awarded by Qualifications Scotland. The scale is national: 695,923 pupils in 2,435 publicly funded schools in 2025, in a country of 5,436,600 people on Census Day 2022, served by 32 councils. Modern Age Coders teaches live online from India, so a learner in Lerwick and one in Largs join a class at the same level at the same moment, anyone from 6 to 67, in groups of five to ten or one to one. There is no charge for the opening lesson; afterwards a group place is USD 100 a month and private lessons USD 150.',
+  capsule: 'Scotland runs its own school system, so a class for a Scottish learner has to speak its language: primary 1 to 7, S1 to S6, a broad general education that Education Scotland says continues to the end of S3, and then National 5, Higher and Advanced Higher, now awarded by Qualifications Scotland. The scale is national: 695,923 pupils in 2,435 publicly funded schools in 2025, in a country of 5,436,600 people on Census Day 2022, served by 32 councils. Modern Age Coders teaches live online from India, so a learner in Lerwick and one in Largs join a class at the same level at the same moment, anyone from 6 to 67, in groups of fifteen to twenty or one to one. There is no charge for the opening lesson; afterwards a group place is USD 100 a month and private lessons USD 150.',
   lead: 'Almost every Scottish website with a form has a box asking for your council, and people fill it in the way they speak. Western Isles, not Comhairle nan Eilean Siar. Glasgow, not Glasgow City Council. Borders, Lanarkshire, Edinburgh City. A programmer who wants to be kind accepts near misses, and the standard tool for that is edit distance: count the fewest single-letter changes that turn one string into another, and pick the council with the smallest count. We ran it against the 32 names on mygov.scot. It fixed Fyfe, Anguss and Highlands in one letter each. It also sent Shetland to the Highland Council, Orkney to Moray, and Lanarkshire to Renfrewshire, each time with total confidence, and it could not decide whether Glasgow meant Glasgow City or Angus. Kindness without judgement produces confident mistakes, and learning to tell the two apart is the thread of this page.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Scotland.',
 
@@ -196,7 +196,7 @@ module.exports = {
       { h3: 'Island or city', p: 'A learner on Orkney and a learner in Glasgow share one group, and neither needs a ferry, a train or a lift.' },
       { h3: 'Scottish stages kept', p: 'P1 to P7, S1 to S6, Nationals and Highers keep their Scottish names; teaching is in English.' },
       { h3: 'Start with a free lesson', p: 'A proper task with a teacher, then a recommended level, course and regular time. No card details are taken.' },
-      { h3: 'Groups that fit', p: 'Five to ten learners at the same level, from across Scotland and beyond, so that each stage has a group at a sensible hour.' },
+      { h3: 'Groups that fit', p: 'Fifteen to twenty learners at the same level, from across Scotland and beyond, so that each stage has a group at a sensible hour.' },
       { h3: 'Council holidays', p: 'Each Scottish council publishes its own term dates, and the exam diet has its own timetable; families and teachers agree breaks around both.' },
       { h3: 'Two clocks', p: 'India is five and a half hours ahead of Scotland in winter and four and a half in summer, and every lesson is booked in UK time.' }
     ],
@@ -207,7 +207,7 @@ module.exports = {
     h2: 'What classes cost in Scotland',
     intro: 'One price list for the whole country, from the Central Belt to the islands.',
     first: 'A full lesson on a real task, ending with a recommended level and course.',
-    group: 'Around eight lessons a month in a group of five to ten at one level.',
+    group: 'Around eight lessons a month in a group of fifteen to twenty at one level.',
     private: 'Around eight lessons a month with a teacher for one learner.',
     closer: 'Fees are in US dollars, the rate for every family outside India, with no pound price list and no difference between councils. Nothing is paid until the free lesson has agreed a course and a regular time; the pricing page covers pauses, missed lessons and changing format.'
   },
@@ -232,7 +232,7 @@ module.exports = {
       { q: 'Do you teach National 5 and Higher Computing Science?', a: 'Teachers work with the content of National 5, Higher and Advanced Higher Computing Science alongside school, as tutoring and extra practice; they do not replace the school course or its assessment.' },
       { q: 'What time are lessons for learners in Scotland?', a: 'A regular time is agreed after the free lesson, depending on which groups have space at the learner\'s level. India is five and a half hours ahead of the UK in winter and four and a half in summer, and times are always given in UK time.' },
       { q: 'Is there a Modern Age Coders centre in Scotland?', a: 'No. All teaching is live and online, and no Scottish premises or UK office is claimed anywhere. A learner needs a laptop or desktop, working audio and a steady connection, and the phone number on this page is Indian and described as such.', boiler: true },
-      { q: 'What do coding classes in Scotland cost?', a: 'Nothing for the first lesson. After that, a group place costs USD 100 a month for two live lessons a week, around eight in a month, in a group of five to ten, and one-to-one teaching costs USD 150 a month on the same rhythm. Course, format and weekly hour are settled before any payment.', boiler: true },
+      { q: 'What do coding classes in Scotland cost?', a: 'Nothing for the first lesson. After that, a group place costs USD 100 a month for two live lessons a week, around eight in a month, in a group of fifteen to twenty, and one-to-one teaching costs USD 150 a month on the same rhythm. Course, format and weekly hour are settled before any payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Between five and ten, matched by level, pace and goal rather than by age or postcode. If no group at the right level runs at a workable hour, one-to-one lessons are the alternative.', boiler: true }
     ]
   },

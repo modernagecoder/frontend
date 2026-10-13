@@ -283,7 +283,7 @@ module.exports = {
       { h3: 'Live, not recorded', p: 'A real teacher works through the code with the learner in each session.' },
       { h3: 'School calendar', p: 'Lessons follow Queensland school terms and pause in the holidays.' },
       { h3: 'Trial first', p: 'The first lesson is free and ends with a written course suggestion.' },
-      { h3: 'Group size', p: 'Five to ten learners at one level, or private one-to-one lessons.' },
+      { h3: 'Group size', p: 'Fifteen to twenty learners at one level, or private one-to-one lessons.' },
       { h3: 'Rhythm', p: 'Two lessons a week, about eight a month.' },
       { h3: 'Time difference', p: 'A 5pm Chermside lesson is 12:30pm for our teachers in India, all year round.' }
     ],
@@ -296,7 +296,7 @@ module.exports = {
     h2: 'Chermside class fees',
     intro: 'One price list for every learner.',
     first: 'The trial lesson is free, with a plan at the end.',
-    group: 'Group classes: about eight lessons a month in groups of five to ten.',
+    group: 'Group classes: about eight lessons a month in groups of fifteen to twenty.',
     private: 'Private classes: about eight lessons a month, one learner and one teacher.',
     closer: 'Chermside fees are charged in US dollars, only after the trial has fixed a course and weekly slot. The pricing page explains holidays and missed sessions.'
   },
@@ -338,12 +338,12 @@ module.exports = {
       },
       {
         q: 'What do Chermside classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'How many bus routes serve Chermside?', a: 'On Wednesday 21 October 2026 the Translink timetable shows 23 routes stopping inside the suburb.' }

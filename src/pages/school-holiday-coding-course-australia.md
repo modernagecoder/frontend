@@ -197,7 +197,7 @@ In the holidays, every lesson points at a finished project by the first day of t
 - **A plan** A Gantt chart of the days available.
 - **Check-ins** A teacher reviews progress against the plan.
 - **Your state's dates** Planned around your own holiday window.
-- **Small groups** Five to ten learners, or one to one.
+- **Small groups** Fifteen to twenty learners, or one to one.
 - **Pause if you prefer** Taking the holidays off is fine too.
 
 ## Fees
@@ -205,7 +205,7 @@ In the holidays, every lesson points at a finished project by the first day of t
 We bill monthly in US dollars outside India, one rate for every country. Nothing is charged to join and no term commitment applies, which makes it easy to keep going through a holiday or pause for one.
 
 - Free first class: USD 0. A free first lesson. Help choosing a holiday project. No card asked.
-- Group batch: USD 100 a month. Five to ten learners. One regular teacher. Similar age and level. Monthly, pause any time.
+- Group batch: USD 100 a month. Fifteen to twenty learners. One regular teacher. Similar age and level. Monthly, pause any time.
 - One to one: USD 150 a month. A teacher to yourself. Holiday times that suit you. Your own project pace.
 
 ## Common questions about school holiday coding

@@ -181,7 +181,7 @@ module.exports = {
       { h3: 'Among the trees, online', p: 'A learner in Rijksdorp and a learner near De Paauw join the lesson at the same moment from home. The woods and dunes between them make no difference to a class that runs on a laptop.' },
       { h3: 'Both school systems welcome', p: 'Dutch school words such as groep, brugklas, havo and vwo stay Dutch, and learners from international schools join the same English-language lessons at their own level.' },
       { h3: 'A free first hour', p: 'The first session is a full lesson on a real task. The teacher then suggests a level, a course and a regular time, and no payment details are requested.' },
-      { h3: 'Groups across countries', p: 'Five to ten learners who have reached the same point. Wassenaar has 4,139 residents under fifteen, and five who match on subject, level and hour are rare in a municipality this size, so groups bring in learners from elsewhere.' },
+      { h3: 'Groups across countries', p: 'Fifteen to twenty learners who have reached the same point. Wassenaar has 4,139 residents under fifteen, and five who match on subject, level and hour are rare in a municipality this size, so groups bring in learners from elsewhere.' },
       { h3: 'Regio Midden holidays', p: 'Two lessons a week, about eight a month, at one fixed hour, pausing during the regio Midden holidays that Zuid-Holland schools follow.' },
       { h3: 'Teachers in India', p: 'The teachers work three and a half hours ahead of Wassenaar in summer and four and a half in winter, so late afternoons, evenings and weekend mornings all fit.' }
     ],
@@ -192,7 +192,7 @@ module.exports = {
     h2: 'Wassenaar fees',
     intro: 'The full price, set out in three lines.',
     first: 'A real lesson on a real task, ending with a level and a course.',
-    group: 'Per month, normally eight lessons, five to ten learners at one level.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners at one level.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'The fee is a single dollar price for every country, with no euro list, so a family in Kerkehout pays what a family in Oud Wassenaar pays. Nothing is charged until the free lesson has settled a course and a time, and payment is then arranged over WhatsApp. The pricing page explains pauses, changes of format and missed lessons.'
   },
@@ -217,7 +217,7 @@ module.exports = {
       { q: 'Which schools are in Wassenaar?', a: 'The statistics count 8 primary and 2 secondary establishments, and the encyclopaedia lists the American School of The Hague among the secondary schools in the municipality. This page does not rate any school.' },
       { q: 'Which language are lessons in, and at what hours?', a: 'The lessons are in English, which suits learners at international schools, and Dutch school terms such as brugklas, havo and vwo are kept as they are. The teachers are in India, three and a half hours ahead of Wassenaar in summer and four and a half in winter, so late-afternoon, evening and weekend slots are easy. The slot is agreed in the free lesson, and regio Midden holidays are kept.' },
       { q: 'Is there a Modern Age Coders classroom in Wassenaar?', a: 'No, and none is claimed here or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Wassenaar coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Wassenaar coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

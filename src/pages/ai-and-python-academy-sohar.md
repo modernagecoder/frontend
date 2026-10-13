@@ -18,7 +18,7 @@ The full ladder is [Python and AI for Kids](/courses/python-ai-kids-masterclass)
 
 In short
 
-Modern Age Coders teaches a live online Python and AI track to learners in Sohar and across North Al Batinah, aged six to sixty-seven, in batches of five to eight or one to one. The emphasis is the applied end: models that predict something a student can check, and agents that act on the prediction. Group teaching is USD 100 a month, private USD 150, and the first class is free. We hold no premises in Oman and claim no connection to any company in the governorate.
+Modern Age Coders teaches a live online Python and AI track to learners in Sohar and across North Al Batinah, aged six to sixty-seven, in batches of fifteen to twenty or one to one. The emphasis is the applied end: models that predict something a student can check, and agents that act on the prediction. Group teaching is USD 100 a month, private USD 150, and the first class is free. We hold no premises in Oman and claim no connection to any company in the governorate.
 
 The advantage Sohar has and does not use
 
@@ -87,7 +87,7 @@ Sohar time. University students and working adults on weeknights.
 
 Free, taught rather than sold. One task, and by the end of it we know which rung the learner belongs on.
 
-### Five to eight per batch
+### Fifteen to twenty per batch
 
 Sorted by demonstrated ability across an intake from twenty-five countries, never by postcode or school year.
 
@@ -213,7 +213,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Weekly build work reviewed by the teacher
 - Certificate on completion
@@ -250,7 +250,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Weekly build work reviewed by the teacher
 - Certificate on completion
@@ -341,7 +341,7 @@ None here and none anywhere in Oman. Teaching is delivered as a live video call 
 
 ### How much does it cost?
 
-A group batch of five to eight students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same flat figures everywhere outside India. There is no enrolment fee, no annual contract, and the first class is free without a card.
+A group batch of fifteen to twenty students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same flat figures everywhere outside India. There is no enrolment fee, no annual contract, and the first class is free without a card.
 
 ### What is the difference between this and the robotics clubs?
 

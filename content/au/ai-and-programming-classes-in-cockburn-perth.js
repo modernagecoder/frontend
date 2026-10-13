@@ -276,7 +276,7 @@ module.exports = {
       { h3: 'Notebooks together', p: 'Teacher and learner run cells and read every score side by side.' },
       { h3: 'Term calendar', p: 'Plans follow WA school terms, with holiday breaks.' },
       { h3: 'Trial at no cost', p: 'A full opening lesson and a candid recommendation.' },
-      { h3: 'Matched classmates', p: 'Each group holds five to ten learners at the same stage; private lessons are the alternative.' },
+      { h3: 'Matched classmates', p: 'Each group holds fifteen to twenty learners at the same stage; private lessons are the alternative.' },
       { h3: 'A twice-weekly rhythm', p: 'The same two slots each week make roughly eight lessons monthly.' },
       { h3: 'India time', p: 'Teachers work from India, so a 7pm Cockburn class begins at 4:30pm India time.' }
     ],
@@ -289,7 +289,7 @@ module.exports = {
     h2: 'Fees for Cockburn learners',
     intro: 'Three prices for everyone.',
     first: 'The first lesson is free and comes with a written plan.',
-    group: 'Around eight group lessons a month with five to ten learners.',
+    group: 'Around eight group lessons a month with fifteen to twenty learners.',
     private: 'Around eight private lessons a month with one teacher.',
     closer: 'Cockburn families pay in US dollars, after the trial and once a course and weekly time are agreed. School holidays, sick days and moving between formats are all explained on our pricing page.'
   },
@@ -331,12 +331,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Cockburn learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Do Cockburn group classes include Copilot Studio?', a: 'No. Copilot Studio is taught only one to one; group learners write agents in Python.' }

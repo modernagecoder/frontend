@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'Coding classes in Midlothian',
   capsuleQ: 'What are the best coding classes in Midlothian?',
-  capsule: 'Midlothian is a council area of about 96,600 residents in roughly 41,000 households, according to the 2022 census, with 273.1 people per square kilometre. Its biggest towns are Bonnyrigg, Penicuik and Dalkeith, followed by Mayfield, Gorebridge and Loanhead, and it includes villages such as Roslin and Rosewell. We teach online in real time from India, and a free first lesson shows where each person should start, whether in P1, S6 or adult life. People aged 6 to 67 learn coding, Python and maths with us, either with a teacher of their own or with five to ten classmates. The Midlothian project comes from a pair of carved sundials at Newbattle. Continuing costs USD 100 a month in a group or USD 150 a month with a teacher to yourself.',
+  capsule: 'Midlothian is a council area of about 96,600 residents in roughly 41,000 households, according to the 2022 census, with 273.1 people per square kilometre. Its biggest towns are Bonnyrigg, Penicuik and Dalkeith, followed by Mayfield, Gorebridge and Loanhead, and it includes villages such as Roslin and Rosewell. We teach online in real time from India, and a free first lesson shows where each person should start, whether in P1, S6 or adult life. People aged 6 to 67 learn coding, Python and maths with us, either with a teacher of their own or with fifteen to twenty classmates. The Midlothian project comes from a pair of carved sundials at Newbattle. Continuing costs USD 100 a month in a group or USD 150 a month with a teacher to yourself.',
   lead: 'In the grounds of Newbattle Abbey stand two identical sundials, each dated 1635 and each listed at Category A by Historic Environment Scotland. The listing describes them as octagonal, carved in two tiers, with a bronze gnomon, the part that casts the shadow, in each panel of the lower tier. Why would anyone build a sundial with eight faces? Because the sun does not stay in the south. On a summer morning it rises in the north-east and sets in the north-west, so a single south-facing dial sits in its own shadow for hours. This page\'s project turns the sun into a vector in Python and works out, minute by minute, which faces of an eight-sided dial are in sunshine.',
   wa: 'Hello Modern Age Coders, we are in Midlothian and would like to book a free lesson, please.',
 
@@ -163,7 +163,7 @@ module.exports = {
       { h3: 'A shared screen', p: 'The learner writes and runs the code; the teacher sees it live and steps in when something breaks.' },
       { h3: 'Scottish stages spoken', p: 'P5, S2, National 5, Higher, Advanced Higher: the same words Midlothian schools use, and teaching in English.' },
       { h3: 'No-cost first lesson', p: 'A full lesson, free. Afterwards we recommend a stage and a course, with no obligation.' },
-      { h3: 'Five to ten per group', p: 'Every group works at one stage, with classmates from several countries.' },
+      { h3: 'Fifteen to twenty per group', p: 'Every group works at one stage, with classmates from several countries.' },
       { h3: 'Term time only', p: 'Two lessons a week during term, and none in the school holidays.' },
       { h3: 'Steady UK time', p: 'Lessons keep their UK time through the clock changes; teachers in India time take care of the difference.' }
     ],
@@ -174,7 +174,7 @@ module.exports = {
     h2: 'Fees in Midlothian',
     intro: 'Dalkeith or Roslin, the fee is the same, and it matches our fee in every country except India.',
     first: 'One whole lesson for nothing, then our honest advice.',
-    group: 'About eight lessons a month in a group of five to ten.',
+    group: 'About eight lessons a month in a group of fifteen to twenty.',
     private: 'About eight lessons a month, one-to-one.',
     closer: 'Fees are charged in US dollars, with no sterling price list. Nothing is billed until a course and a weekly time are agreed after the free lesson; the pricing page sets out holidays, missed lessons and switching between formats.'
   },

@@ -197,7 +197,7 @@ Teaching is live on video from India, five and a half hours ahead of the UK in w
 
 - **Written work read properly** A teacher reads what the pupil actually wrote and says where the argument stops being convincing.
 - **Problems written by us** Fresh problems in the same spirit. The organiser's archive is where the real ones live.
-- **Groups of five to ten** Small enough that every solution gets read aloud, large enough to hear a better method than your own.
+- **Groups of fifteen to twenty** Small enough that every solution gets read aloud, large enough to hear a better method than your own.
 - **Scottish stages used** P7, S1 to S6, National 5, Higher and Advanced Higher, called by their own names.
 - **One to one when wanted** For a pupil working well beyond their year, or one who will not speak up in a group.
 - **No result promised** No certificate, no prize-giving invitation and no mug is promised by us.
@@ -207,7 +207,7 @@ Teaching is live on video from India, five and a half hours ahead of the UK in w
 One monthly rate in US dollars for every country outside India. No joining fee and no term to commit to.
 
 - Free first class: USD 0. A proper lesson with a teacher. An honest read on where the maths is. No card details taken.
-- Group batch: USD 100 a month. Five to ten pupils at one stage. The same teacher weekly. Written solutions read and discussed. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty pupils at one stage. The same teacher weekly. Written solutions read and discussed. A certificate at the end.
 - One to one: USD 150 a month. One pupil, one teacher. Aimed at a particular weakness. Useful for a pupil far ahead of their stage.
 
 ## What Scottish parents and teachers ask

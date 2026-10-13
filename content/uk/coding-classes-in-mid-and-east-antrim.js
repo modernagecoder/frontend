@@ -62,7 +62,7 @@ module.exports = {
 
   h1: 'Coding classes in Mid and East Antrim',
   capsuleQ: 'What are the best coding classes in Mid and East Antrim?',
-  capsule: 'Mid and East Antrim had 138,994 usual residents at the 2021 census, NISRA reports. Its three large towns are Ballymena, Carrickfergus and Larne, and smaller settlements include Whitehead, Ahoghill, Broughshane and Cullybackey. Every class we teach is live on video, led by teachers based in India. Learners from 6 to 67 take coding, Python and maths, privately or in a class of five to ten who share a level. A free first lesson decides the course. The district project starts in a Victorian gasworks. Staying on after the free lesson means USD 100 each month in a group, or USD 150 each month with a private tutor.',
+  capsule: 'Mid and East Antrim had 138,994 usual residents at the 2021 census, NISRA reports. Its three large towns are Ballymena, Carrickfergus and Larne, and smaller settlements include Whitehead, Ahoghill, Broughshane and Cullybackey. Every class we teach is live on video, led by teachers based in India. Learners from 6 to 67 take coding, Python and maths, privately or in a class of fifteen to twenty who share a level. A free first lesson decides the course. The district project starts in a Victorian gasworks. Staying on after the free lesson means USD 100 each month in a group, or USD 150 each month with a private tutor.',
   lead: 'In 1854 a group of Carrickfergus businessmen formed a gas company to light the town, and on 17 September 1855 its street lamps were lit for the first time. The gasworks they built is now listed at Grade A, and the Historic Environment Division\'s record keeps some unusually useful numbers. In its first year the company signed up 171 customers. By 1905 it had 242, and over the same period the average amount of gas each customer used tripled, thanks to gas cookers, heaters, better mantles and cheaper gas. So total gas use rose more than fourfold. But how much of that came from more customers, and how much from each one using more? And what does "more than fourfold in 50 years" mean per year? This page\'s project answers with compound growth in Python.',
   wa: 'Hello Modern Age Coders, we are in Mid and East Antrim and would like to book a free lesson, please.',
 
@@ -164,7 +164,7 @@ module.exports = {
       { h3: 'Typing it themselves', p: 'Each student builds the program at their own keyboard; the tutor keeps watch on screen and nudges when needed.' },
       { h3: 'Northern Ireland school stages', p: 'We place a Whitehead P6 or a Larne Year 13 according to key stage and school year, using CCEA exam titles. Lessons are in English.' },
       { h3: 'Free starter lesson', p: 'A complete first lesson, free, then our recommendation.' },
-      { h3: 'Level-matched groups', p: 'Classes of five to ten at one level, from all around the UK.' },
+      { h3: 'Level-matched groups', p: 'Classes of fifteen to twenty at one level, from all around the UK.' },
       { h3: 'Term rhythm', p: 'Two lessons a week during term; holidays are free.' },
       { h3: 'Clock-change proof', p: 'The lesson keeps its usual local time in spring and autumn; our teachers shift, not you.' }
     ],
@@ -175,7 +175,7 @@ module.exports = {
     h2: 'Mid and East Antrim fees',
     intro: 'Ballymena and Larne pay the same, as does every country we teach outside India.',
     first: 'A full trial lesson at no charge, then clear advice.',
-    group: 'Close to eight lessons a month in a class of five to ten.',
+    group: 'Close to eight lessons a month in a class of fifteen to twenty.',
     private: 'Close to eight lessons a month with your own tutor.',
     closer: 'Fees are set in US dollars; we do not quote sterling. Nothing is charged until the trial agrees a course and weekly time, and holidays, missed lessons and format changes are explained on the pricing page.'
   },

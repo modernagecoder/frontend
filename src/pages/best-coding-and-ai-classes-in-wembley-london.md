@@ -16,7 +16,7 @@ Wembley, Brent, London / Live online
 
 Choosing somewhere to live, a laptop or an AI model almost always means juggling goals that pull against each other. A home close to a station may be far from a park; a model that answers faster may answer worse. The honest way to handle this is not to squash everything into one score but to throw out only the options that are worse on every count. Whatever survives is called the Pareto front, after the economist Vilfredo Pareto. This project builds one in Python from real Wembley map data: walking distances from every mapped building to four kinds of places, and a count of how many buildings are never beaten on all of them at once.
 
-Facts last verified 30 September 2026. Teaching is online; no Wembley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Wembley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Wembley courses in decisions, Python and AI
 

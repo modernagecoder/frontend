@@ -365,7 +365,7 @@ bullets([
     'A live class before you commit to a course: a free demo (a waiting list) or the paid Priority Live Demo (a guaranteed slot today or tomorrow).',
     'Monthly billing. Cancel any month. No six or twelve month packages.',
     'No registration fee and no hidden charges. The price quoted is the whole price.',
-    'Small live batches. Group is capped at 10 students, mini batch is 3 to 4, and one to one is one student.',
+    'Small live batches. Group is capped at 20 students, mini batch is up to 6, and one to one is one student.',
     'You keep everything you build. Projects, code and certificates stay yours.',
     'A real person on WhatsApp at +91 9123366161, not a ticket queue.',
 ])
@@ -394,8 +394,8 @@ bullets([
 out()
 out('BATCH SIZES')
 out()
-out('  Group classes: capped at 10 students.')
-out('  Mini batch: 3 to 4 students, close to one to one attention.')
+out('  Group classes: capped at 20 students.')
+out('  Mini batch: up to 6 students, close to one to one attention.')
 out('  One to one: one student with one dedicated mentor.')
 out('  Custom group for a school or a friend group: 3 to 10 students.')
 out()
@@ -971,7 +971,7 @@ GEN = [
   'is %s. The day and time are fixed around the student, and the pace and topics are planned '
   'for them alone. It is billed monthly and can be cancelled any month.' % IN_1TO1),
  ('How big are the batches?',
-  'Group classes are capped at 10 students. A mini batch is just 3 to 4. One to one is a '
+  'Group classes are capped at 20 students. A mini batch is up to 6. One to one is a '
   'single student with their own mentor.'),
  ('How long does a course take?',
   'Beginner courses usually run 3 to 6 months. Advanced ones run 6 to 9 months. Custom '
@@ -1061,7 +1061,7 @@ out('WHEN THEY ASK THE PRICE. Give only their own region, never both.')
 out()
 out('  If they are in India:')
 para('"Our classes are %s a month for a group class of up to 10, or %s for a mini batch of just '
-     '3 to 4 students, both with %s. Fully one to one is %s a month, which is %s with a mentor '
+     'up to 6 students, both with %s. Fully one to one is %s a month, which is %s with a mentor '
      'who teaches only your child. Every plan includes recordings, doubt support and a '
      'certificate. To see the teaching first, the Priority Live Demo is a full class today or '
      'tomorrow for 499 rupees, adjusted against your first month if you join, or you can join '

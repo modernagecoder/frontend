@@ -320,7 +320,7 @@ module.exports = {
       { h3: 'Straight in', p: 'Open the link, share a screen and build with the teacher from the first minute.' },
       { h3: 'Term-time plans', p: 'Plans follow the Victorian school terms and stop for the state school holidays.' },
       { h3: 'Trial in full', p: 'The free class runs like any normal lesson, and afterwards we propose a starting course and a weekly slot.' },
-      { h3: 'Five to ten', p: 'Each group holds five to ten learners at one level, drawn from many suburbs.' },
+      { h3: 'Five to ten', p: 'Each group holds fifteen to twenty learners at one level, drawn from many suburbs.' },
       { h3: 'Weekly rhythm', p: 'Two set lessons a week, around eight a month, with any pauses agreed beforehand.' },
       {
         h3: 'India-based teachers',
@@ -336,7 +336,7 @@ module.exports = {
     h2: 'Box Hill class fees',
     intro: 'Three amounts, stated plainly.',
     first: 'The first lesson is free and closes with a straight recommendation.',
-    group: 'A month of group lessons, normally eight, with five to ten learners at a matching level.',
+    group: 'A month of group lessons, normally eight, with fifteen to twenty learners at a matching level.',
     private: 'About eight lessons a month, one teacher with one learner.',
     closer: 'Outside India we bill in US dollars, so every Box Hill family pays the same rate. Billing starts only once the trial has fixed a course and time; holidays, absences and switching format are explained on the pricing page.'
   },
@@ -378,7 +378,7 @@ module.exports = {
       },
       {
         q: 'How much are classes for Box Hill learners?',
-        a: 'The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before payment.',
+        a: 'The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before payment.',
         boiler: true
       },
       {

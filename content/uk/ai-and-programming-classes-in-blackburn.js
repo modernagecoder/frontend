@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'AI and programming classes in Blackburn',
   capsuleQ: 'Where are the best AI and programming classes for Blackburn?',
-  capsule: 'Blackburn with Darwen had 154,738 residents at the 2021 census. The ONS puts the Blackburn built-up area at 124,955 and Darwen at 27,900. The borough is young: 10 to 14 year olds alone make up 7.6 per cent of residents, against 6.0 per cent nationally. From India, our teachers run live video lessons in AI, programming, Python and maths for anyone aged 6 to 67, privately or in groups of five to ten who are at the same stage. A free first lesson shows which course fits. The Blackburn project asks how precise an 18th-century count of spinning machines can be. Staying on is USD 100 per month in a class or USD 150 per month one-to-one.',
+  capsule: 'Blackburn with Darwen had 154,738 residents at the 2021 census. The ONS puts the Blackburn built-up area at 124,955 and Darwen at 27,900. The borough is young: 10 to 14 year olds alone make up 7.6 per cent of residents, against 6.0 per cent nationally. From India, our teachers run live video lessons in AI, programming, Python and maths for anyone aged 6 to 67, privately or in groups of fifteen to twenty who are at the same stage. A free first lesson shows which course fits. The Blackburn project asks how precise an 18th-century count of spinning machines can be. Staying on is USD 100 per month in a class or USD 150 per month one-to-one.',
   lead: 'George W. Daniels records that the founder of the Peel family at Blackburn, experimenting with carding machines, employed James Hargreaves, the name forever tied to the spinning-jenny. The jenny grew fast: eight spindles in 1767, "sixteen or more" in the 1770 patent, eighty by 1784, and perhaps 120 in the end. In 1788 a pamphlet estimated 20,070 hand-jennies of eighty spindles at work, alongside 550 of Crompton\'s mules with ninety each. Multiply and you get 1,605,600 jenny spindles, a number that looks exact to the last digit. It is nothing of the kind. A Blackburn learner can write Python that carries the uncertainty through the sum honestly, using a tool called interval arithmetic.',
   wa: 'Hello Modern Age Coders, I am in Blackburn and would like a free AI or programming lesson.',
 
@@ -162,7 +162,7 @@ module.exports = {
       { h3: 'Learner at the keys', p: 'Students type their own code; tutors follow on the shared screen and ask rather than tell.' },
       { h3: 'Set by school year', p: 'Whether Year 5 or Year 13, a learner starts where their year and trial lesson indicate, naming the exam board.' },
       { h3: 'Trial at no cost', p: 'One free full lesson, then a plain answer about the right course.' },
-      { h3: 'Groups by level', p: 'Five to ten learners at one stage, drawn from all over the UK.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at one stage, drawn from all over the UK.' },
       { h3: 'Term-time lessons', p: 'Two lessons per week during term, and a break for every holiday.' },
       { h3: 'Stable timing', p: 'Our teachers adjust when the UK clocks change, so your lesson time does not.' }
     ],

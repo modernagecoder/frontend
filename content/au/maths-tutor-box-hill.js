@@ -50,7 +50,7 @@ module.exports = {
   "twitterDescription": "Box Hill maths tutoring, live online: Foundation to VCE and adults, with a scale-drawing project.",
   "pageName": "Maths Tutor in Box Hill",
   "webPageDescription": "Live online maths tutoring for Box Hill learners from Foundation to Year 12 and adults, following the Victorian Curriculum and VCE mathematics, with an area scale factor project on suburb maps.",
-  "courseDescription": "Live online maths lessons for Box Hill learners in classes of five to ten at one level, or one to one, from early number to VCE Specialist Mathematics and adult maths.",
+  "courseDescription": "Live online maths lessons for Box Hill learners in classes of fifteen to twenty at one level, or one to one, from early number to VCE Specialist Mathematics and adult maths.",
   "crumbs": [
     {
       "name": "Courses",
@@ -128,7 +128,7 @@ module.exports = {
     ]
   ],
   "capsuleQ": "Maths tutor in Box Hill, in brief",
-  "capsule": "Modern Age Coders teaches maths online to Box Hill learners aged 6 to 67, following the Victorian Curriculum from Foundation to Year 10, the VCE mathematics studies including Mathematical Methods and Specialist Mathematics, and adult maths. Lessons are live, booked in Melbourne time, in level-matched classes of five to ten or one to one. Our Box Hill example uses ABS suburb areas to show that changing a map scale by 2.5 changes areas by 6.25. The first lesson is free.",
+  "capsule": "Modern Age Coders teaches maths online to Box Hill learners aged 6 to 67, following the Victorian Curriculum from Foundation to Year 10, the VCE mathematics studies including Mathematical Methods and Specialist Mathematics, and adult maths. Lessons are live, booked in Melbourne time, in level-matched classes of fifteen to twenty or one to one. Our Box Hill example uses ABS suburb areas to show that changing a map scale by 2.5 changes areas by 6.25. The first lesson is free.",
   "picks": {
     "eyebrow": "Most asked for in Box Hill",
     "h2": "From number sense to VCE",
@@ -435,7 +435,7 @@ module.exports = {
           "mt": true,
           "cells": [
             {
-              "h3": "Classes of five to ten",
+              "h3": "Classes of fifteen to twenty",
               "p": "Grouped by level so explanations land at the right depth for everyone."
             },
             {
@@ -674,7 +674,7 @@ module.exports = {
       "No card details"
     ],
     "group": [
-      "Five to ten learners at one level",
+      "Fifteen to twenty learners at one level",
       "One teacher all term",
       "Practice reviewed",
       "Leave after any month"

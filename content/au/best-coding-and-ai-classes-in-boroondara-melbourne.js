@@ -310,7 +310,7 @@ module.exports = {
       { h3: 'Live with a teacher', p: 'The teacher watches the learner\'s own code run and fixes misunderstandings on the spot.' },
       { h3: 'Victorian terms', p: 'The timetable follows the four state school terms and pauses for the holidays.' },
       { h3: 'Trial lesson', p: 'The first full lesson is free and ends with a course and time recommendation.' },
-      { h3: 'Groups by level', p: 'Five to ten learners at the same level, drawn from many places, never sorted by postcode.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at the same level, drawn from many places, never sorted by postcode.' },
       { h3: 'Twice weekly', p: 'Two fixed lessons each week, around eight a month, keep skills from fading.' },
       { h3: 'Teachers in India', p: 'A 6pm Boroondara lesson is 12:30pm India time while Melbourne is on daylight saving, and 1:30pm after it ends.' }
     ],
@@ -323,7 +323,7 @@ module.exports = {
     h2: 'Boroondara class fees',
     intro: 'The same three choices for every family.',
     first: 'Your first lesson is free and comes with an honest recommendation.',
-    group: 'One month of group lessons, usually eight, with five to ten learners at a matched level.',
+    group: 'One month of group lessons, usually eight, with fifteen to twenty learners at a matched level.',
     private: 'One month of private lessons, usually eight, with a single teacher.',
     closer: 'Boroondara families pay in US dollars, as everyone outside India does. Nothing is charged until the trial has fixed the course and lesson time, and the pricing page explains holidays and missed lessons.'
   },
@@ -365,7 +365,7 @@ module.exports = {
       },
       {
         q: 'What do classes cost in Boroondara?',
-        a: 'The first lesson is free. Group classes are USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten; one-to-one classes are USD 150 a month. Course and time are agreed before any payment.',
+        a: 'The first lesson is free. Group classes are USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty; one-to-one classes are USD 150 a month. Course and time are agreed before any payment.',
         boiler: true
       },
       {

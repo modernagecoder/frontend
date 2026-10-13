@@ -39,7 +39,7 @@ module.exports = {
 
   h1: 'Coding classes in Alkmaar, where a rising population chart records a boundary rather than a birth rate',
   capsuleQ: 'What are the best coding classes in Alkmaar?',
-  capsule: 'Coding classes in Alkmaar serve 113,196 people (Statistics Netherlands, 1 January 2026) across seventeen places, from the city at 92,675 to a hamlet of 85. The published growth since 1995 is 9,187 people. In 2015 the municipality absorbed Graft-De Rijp and Schermer, whose villages held roughly 12,430 people in 2023, which is more than the whole rise. The chart went up because the boundary moved outward. Modern Age Coders teaches live online in English to all seventeen places, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.',
+  capsule: 'Coding classes in Alkmaar serve 113,196 people (Statistics Netherlands, 1 January 2026) across seventeen places, from the city at 92,675 to a hamlet of 85. The published growth since 1995 is 9,187 people. In 2015 the municipality absorbed Graft-De Rijp and Schermer, whose villages held roughly 12,430 people in 2023, which is more than the whole rise. The chart went up because the boundary moved outward. Modern Age Coders teaches live online in English to all seventeen places, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.',
   lead: 'Alkmaar had 104,009 residents in 1995 and 113,196 in 2026, a rise of 9,187. That looks like a growing city. Then read the merger: in 2015 two rural municipalities joined, bringing villages that held about 12,430 people eight years later. Subtract them and the ground that was Alkmaar in 1995 appears to have lost people rather than gained them. Nothing in the published series marks the moment the boundary moved, and a chart that does not mark it is telling you about paperwork while you read it as demography.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Alkmaar.',
 
@@ -184,7 +184,7 @@ module.exports = {
     h2: 'The fee, in dollars, in all seventeen places',
     intro: 'Set out here so that nobody has to ask.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'Noordeinde and the city centre are quoted the same number, because one international rate exists, it is in dollars and there is no euro version. Payment comes last: free lesson, then a course and an hour, then a transfer over WhatsApp. Pauses, plan changes and missed weeks are covered on the pricing page.'
   },
@@ -209,7 +209,7 @@ module.exports = {
       { q: 'We are in Noordeinde or Driehuizen. Does the class reach there?', a: 'It reaches every address in the municipality at the same hour and the same fee. Noordeinde had about 85 residents in 2023 and Driehuizen 240, and neither could ever fill a local class, which is precisely the gap this closes.' },
       { q: 'What is in the free lesson?', a: 'The teacher establishes where the learner\'s ability currently stops and sets one task just past it. A child may watch a count rise because a jar was tipped into another. A teenager builds a raw series and an adjusted one and marks the seam. An adult brings a chart from work that crosses a restructure. It ends with a course, a rung, a weekly time and a dollar price, and nothing has been paid.' },
       { q: 'Is there a Modern Age Coders classroom in Alkmaar?', a: 'No, and none is claimed at the Waag, in De Rijp or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Alkmaar coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Alkmaar coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in an Alkmaar group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or village. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

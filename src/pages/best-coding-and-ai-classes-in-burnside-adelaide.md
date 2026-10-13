@@ -16,7 +16,7 @@ Burnside, City of Burnside, South Australia / Live online
 
 On each of the three Sundays we checked, half of Burnside's bus stop records saw no buses at all. A data script written to guard against that, using Python's assert, catches it at once. Run the same script with the -O optimisation flag and the guard disappears: the script announces that every stop is served.
 
-Facts last verified 13 October 2026. Teaching is online; no Burnside branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Burnside branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that make data checks dependable
 
@@ -180,7 +180,7 @@ Every class happens over video from home.
 - **Run it both ways** Learners try their code in different settings while the teacher watches the results.
 - **State school calendar** Lessons follow South Australian terms and pause for holidays.
 - **No-cost opening class** One full lesson free, with a written suggestion after.
-- **Five to ten learners** Grouped by level, or one-to-one teaching.
+- **Fifteen to twenty learners** Grouped by level, or one-to-one teaching.
 - **Twice weekly** Two fixed lessons a week, roughly eight a month.
 - **India time** Our teachers work from India: a 5:30pm Burnside lesson is 12:30pm India time in summer, 1:30pm in winter.
 
@@ -191,7 +191,7 @@ Every class happens over video from home.
 Three prices, the same for all.
 
 - First class: USD 0. Lesson one is free, with written feedback.
-- Group tuition: USD 100 a month. Roughly eight group lessons a month with five to ten learners.
+- Group tuition: USD 100 a month. Roughly eight group lessons a month with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Roughly eight private lessons a month.
 
 Burnside families pay in US dollars, never before the trial, and only once course and time are agreed. Holidays and absences are explained on the pricing page.
@@ -228,11 +228,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Burnside learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Is Copilot Studio available in Burnside groups?
 

@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'Coding classes in Fife',
   capsuleQ: 'What are the best coding classes in Fife?',
-  capsule: 'Fife is one of Scotland\'s larger council areas, with about 370,400 residents in roughly 169,600 households at the 2022 census. Dunfermline and Kirkcaldy are the two largest places, followed by Glenrothes and St Andrews, and there are dozens of smaller places from Burntisland to Cupar. Teachers in India run every class live on camera, and a free first lesson shows which stage suits each learner, from P1 through S6 and into adult life. Learners aged 6 to 67 study coding, Python and maths, either one-to-one or in groups of five to ten. The Fife project is built around the Forth Bridge. Once the free lesson is done, fees are USD 100 a month in a group or USD 150 a month for one-to-one.',
+  capsule: 'Fife is one of Scotland\'s larger council areas, with about 370,400 residents in roughly 169,600 households at the 2022 census. Dunfermline and Kirkcaldy are the two largest places, followed by Glenrothes and St Andrews, and there are dozens of smaller places from Burntisland to Cupar. Teachers in India run every class live on camera, and a free first lesson shows which stage suits each learner, from P1 through S6 and into adult life. Learners aged 6 to 67 study coding, Python and maths, either one-to-one or in groups of fifteen to twenty. The Fife project is built around the Forth Bridge. Once the free lesson is done, fees are USD 100 a month in a group or USD 150 a month for one-to-one.',
   lead: 'Historic Environment Scotland lists the Forth Bridge at Category A and gives its designers as Sir John Fowler and Sir Benjamin Baker, building from 1883 until it opened on 4 March 1890. The listing describes a 2.5 kilometre steel cantilever railway bridge with three giant cross-braced towers, and says the design allowed spans nearly four times larger than any railway bridge before it. Every part of a bridge like that is a straight bar, pulled or pushed along its length, joined to others at the ends. How do engineers know how hard each bar is pulled or pushed, and how would they know if a frame could not stand at all? This page\'s project does the calculation in Python for a small, invented cantilever.',
   wa: 'Hello Modern Age Coders, we are in Fife and would like to book a free lesson, please.',
 
@@ -162,7 +162,7 @@ module.exports = {
       { h3: 'Code on your own screen', p: 'The learner types, runs and fixes the program, and the teacher sees each step through screen sharing.' },
       { h3: 'We speak Curriculum for Excellence', p: 'P4, S3, National 5, Higher, Advanced Higher: we use the stages Fife schools use, and we teach in English.' },
       { h3: 'Free lesson, honest advice', p: 'The first lesson is a proper lesson and costs nothing. Afterwards we say which course fits.' },
-      { h3: 'Groups sorted by stage', p: 'Five to ten learners at one level in each group, often from several countries.' },
+      { h3: 'Groups sorted by stage', p: 'Fifteen to twenty learners at one level in each group, often from several countries.' },
       { h3: 'Holidays off', p: 'Two lessons a week in term time, with breaks in the school holidays you tell us.' },
       { h3: 'Same UK time all year', p: 'Your lesson stays at its UK time through both clock changes; the India time side is ours to adjust.' }
     ],
@@ -173,7 +173,7 @@ module.exports = {
     h2: 'What lessons cost in Fife',
     intro: 'St Andrews or Cowdenbeath, the price is the same, and it is the price outside India everywhere we teach.',
     first: 'A full, free lesson, then a clear suggestion for what comes next.',
-    group: 'About eight lessons a month in a group of five to ten at one stage.',
+    group: 'About eight lessons a month in a group of fifteen to twenty at one stage.',
     private: 'About eight lessons a month with the teacher\'s full attention.',
     closer: 'Our fees are set in US dollars, and we have no sterling price list. We charge only after the free lesson, once a course and weekly time are fixed; the pricing page covers holidays, missed lessons and moving between group and one-to-one.'
   },

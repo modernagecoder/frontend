@@ -1,10 +1,10 @@
 ---
 title: "Coding Classes in Abu Dhabi | Live Python & AI Courses Online"
-description: "Live online coding classes in Abu Dhabi for kids, teens and adults. Python and AI in small batches of 5 to 8, evening and weekend slots in GST. Free demo."
+description: "Live online coding classes in Abu Dhabi for kids, teens and adults. Python and AI in batches of 15 to 20, evening and weekend slots in GST. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-abu-dhabi
 source: src/pages/coding-classes-in-abu-dhabi.html
 ---
-> Live online coding classes in Abu Dhabi for kids, teens and adults. Python and AI in small batches of 5 to 8, evening and weekend slots in GST. Free demo.
+> Live online coding classes in Abu Dhabi for kids, teens and adults. Python and AI in batches of 15 to 20, evening and weekend slots in GST. Free demo.
 
 01 · Courses
 
@@ -50,7 +50,7 @@ B
 
 ### Eight students, never more
 
-Batches hold five to eight students so the teacher hears from each one, every single week. Families who want a private pace can take the same syllabus one-on-one.
+Batches hold fifteen to twenty students so the teacher hears from each one, every single week. Families who want a private pace can take the same syllabus one-on-one.
 
 C
 
@@ -82,7 +82,7 @@ The first class is free and identical to every paid one, same teacher, same batc
 
 Abu Dhabi plans in decades. The emirate that holds the federal government, the country's largest sovereign funds and its energy headquarters has spent recent years building the other half of its future: Hub71 gathers technology startups downtown, the Technology Innovation Institute publishes open AI models under the Falcon name, and universities from Khalifa University to NYU Abu Dhabi and Sorbonne Abu Dhabi anchor a research corridor that did not exist a generation ago. A child growing up here will finish school in a city where writing software is treated as ordinary professional equipment, the way drafting a memo once was.
 
-School introduces the subject; it rarely supplies the hours. Computing lessons shared among twenty five students leave little time for the unglamorous middle of learning to program, which is writing something, watching it fail, and fixing it while someone experienced looks on. A weekly class of five to eight exists to supply exactly those hours. That practice, repeated over months, is the whole product.
+School introduces the subject; it rarely supplies the hours. Computing lessons shared among twenty five students leave little time for the unglamorous middle of learning to program, which is writing something, watching it fail, and fixing it while someone experienced looks on. A weekly class of fifteen to twenty exists to supply exactly those hours. That practice, repeated over months, is the whole product.
 
 ### Alongside any ADEK school system
 
@@ -135,7 +135,7 @@ Instructors here teach for a living, and a student keeps their teacher through t
 
 ### Small on purpose
 
-Five to eight students is not a promotional line, it is the product. Attention is what tuition buys, and attention divided by forty is a webinar.
+Fifteen to twenty students is not a promotional line, it is the product. Attention is what tuition buys, and attention divided by forty is a webinar.
 
 ### Built things, not covered chapters
 
@@ -237,7 +237,7 @@ Group classes
 
 $100 per month
 
-- Live weekly classes, batches of 5 to 8
+- Live weekly classes, batches of 15 to 20
 - Evening and weekend slots in GST
 - Projects the student keeps, plus a certificate
 - Free demo class before any payment

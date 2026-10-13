@@ -37,7 +37,7 @@ module.exports = {
   twitterDescription: 'Maths tuition in Milton Keynes, live online: we tested whether the H and V grid roads meet at right angles.',
   pageName: 'Maths Tuition in Milton Keynes',
   webPageDescription: 'Live online maths tuition for Milton Keynes learners aged 6 to 67, from Key Stage 2 and the Year 6 SATs through Key Stage 3, GCSE and A level to adult maths, with a coordinate geometry project on the city grid roads.',
-  courseDescription: 'Live online maths lessons for Milton Keynes learners of every age, one to one or in level-matched groups of five to ten, following the national curriculum and the GCSE and A level specifications of AQA, Edexcel and OCR.',
+  courseDescription: 'Live online maths lessons for Milton Keynes learners of every age, one to one or in level-matched groups of fifteen to twenty, following the national curriculum and the GCSE and A level specifications of AQA, Edexcel and OCR.',
   crumbs: [{ name: 'Courses', href: '/courses' }, { name: 'Coding classes in the UK', href: '/coding-classes-in-united-kingdom' }],
   crumbLabel: 'Maths tuition in Milton Keynes',
   navLinks: [
@@ -60,11 +60,11 @@ module.exports = {
     ['GCSE', 'Foundation and Higher, AQA, Edexcel, OCR'],
     ['Post 16', 'A level Maths and Further Maths'],
     ['Adults', 'GCSE resits, Functional Skills topics, refreshers'],
-    ['How', 'Live video, one to one or five to ten per group'],
+    ['How', 'Live video, one to one or fifteen to twenty per group'],
     ['Project', 'Grid road gradients and angles']
   ],
   capsuleQ: 'Maths tuition in Milton Keynes, in brief',
-  capsule: 'Milton Keynes families and adults use Modern Age Coders as an online maths tutor, with live lessons for anyone from 6 to 67. Children prepare for the Year 6 SATs through KS2; teenagers move through KS3 into GCSE, taught for their board (AQA, Edexcel or OCR) and tier, or IGCSE; sixth formers take A level, with Further Maths topics for the keenest; and adults sit GCSE maths resits or rebuild confidence. Lessons run one to one or in groups of five to ten learners at the same level. Our Milton Keynes project tests whether the grid roads cross at right angles: the H roads average a bearing of 060 degrees and the V roads 323, which leaves 83.2 degrees between them. The opening lesson is free. After it, a group place is USD 100 a month and private tuition USD 150 a month.',
+  capsule: 'Milton Keynes families and adults use Modern Age Coders as an online maths tutor, with live lessons for anyone from 6 to 67. Children prepare for the Year 6 SATs through KS2; teenagers move through KS3 into GCSE, taught for their board (AQA, Edexcel or OCR) and tier, or IGCSE; sixth formers take A level, with Further Maths topics for the keenest; and adults sit GCSE maths resits or rebuild confidence. Lessons run one to one or in groups of fifteen to twenty learners at the same level. Our Milton Keynes project tests whether the grid roads cross at right angles: the H roads average a bearing of 060 degrees and the V roads 323, which leaves 83.2 degrees between them. The opening lesson is free. After it, a group place is USD 100 a month and private tuition USD 150 a month.',
 
   picks: {
     eyebrow: 'Most requested in Milton Keynes',
@@ -269,7 +269,7 @@ module.exports = {
     cells: [
       { h3: 'One teacher, every week', p: 'The person who saw a mistake last week checks for it this week.' },
       { h3: 'Notes for parents', p: 'A short message after lessons on what landed and what needs another look.' },
-      { h3: 'Five to ten in a group', p: 'Everyone working at the same level, so one explanation suits the room.' },
+      { h3: 'Fifteen to twenty in a group', p: 'Everyone working at the same level, so one explanation suits the room.' },
       { h3: 'Numbers from real places', p: 'Grid road angles, timetables and census tables alongside exam questions.' },
       { h3: 'One to one on request', p: 'For an exam close at hand or a particular gap.' },
       { h3: 'Reasons, not tricks', p: 'Every method comes with the reason it works.' }
@@ -284,7 +284,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'One monthly price in US dollars for every country outside India. No joining fee and no contract.',
     free: ['A full lesson at the right level', 'A straight answer about where the learner stands', 'No payment details needed'],
-    group: ['Five to ten learners at one level', 'The same teacher each week', 'Homework marked and discussed', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher each week', 'Homework marked and discussed', 'A certificate at the end'],
     one: ['One teacher, one learner', 'Aimed at a particular gap', 'Handy in the run-up to an exam']
   },
 

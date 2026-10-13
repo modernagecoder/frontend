@@ -4,7 +4,7 @@ description: "AI, programming, Python and vibe coding classes taught live online
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-barrow-in-furness
 source: src/pages/ai-and-programming-classes-in-barrow-in-furness.html
 ---
-> The Barrow-in-Furness built-up area had 55,255 residents at the 2021 census by the ONS count, and the district as it then stood had 67,407. Vickerstown, Hawcoat, Ormsgill, Hindpool, North Scale, Roose and Newbarns are suburbs recorded in the LA13 and LA14 postcode districts. People in any of them, from age six to 67, can learn AI, programming, Python, vibe coding and maths with us. Lessons are live and online, led by tutors in India, with a choice between private tuition and a class of five to ten at your level. What we care about is whether a learner can tell a real pattern from an accident of how the data was picked. One lesson is free, and at its end we recommend a course. The Barrow project takes two facts about 246 census areas that have nothing to do with each other, applies a reasonable-looking filter, and watches a strong relationship appear from nowhere. Fees after the trial are USD 100 monthly for a group and USD 150 monthly for private lessons.
+> The Barrow-in-Furness built-up area had 55,255 residents at the 2021 census by the ONS count, and the district as it then stood had 67,407. Vickerstown, Hawcoat, Ormsgill, Hindpool, North Scale, Roose and Newbarns are suburbs recorded in the LA13 and LA14 postcode districts. People in any of them, from age six to 67, can learn AI, programming, Python, vibe coding and maths with us. Lessons are live and online, led by tutors in India, with a choice between private tuition and a class of fifteen to twenty at your level. What we care about is whether a learner can tell a real pattern from an accident of how the data was picked. One lesson is free, and at its end we recommend a course. The Barrow project takes two facts about 246 census areas that have nothing to do with each other, applies a reasonable-looking filter, and watches a strong relationship appear from nowhere. Fees after the trial are USD 100 monthly for a group and USD 150 monthly for private lessons.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Barrow-in-Furness
 
@@ -12,11 +12,11 @@ Barrow-in-Furness, Cumbria, North West England / Live online
 
 # AI and programming classes in Barrow-in-Furness
 
-**Where can Barrow-in-Furness learners find the best AI and programming classes?** The Barrow-in-Furness built-up area had 55,255 residents at the 2021 census by the ONS count, and the district as it then stood had 67,407. Vickerstown, Hawcoat, Ormsgill, Hindpool, North Scale, Roose and Newbarns are suburbs recorded in the LA13 and LA14 postcode districts. People in any of them, from age six to 67, can learn AI, programming, Python, vibe coding and maths with us. Lessons are live and online, led by tutors in India, with a choice between private tuition and a class of five to ten at your level. What we care about is whether a learner can tell a real pattern from an accident of how the data was picked. One lesson is free, and at its end we recommend a course. The Barrow project takes two facts about 246 census areas that have nothing to do with each other, applies a reasonable-looking filter, and watches a strong relationship appear from nowhere. Fees after the trial are USD 100 monthly for a group and USD 150 monthly for private lessons.
+**Where can Barrow-in-Furness learners find the best AI and programming classes?** The Barrow-in-Furness built-up area had 55,255 residents at the 2021 census by the ONS count, and the district as it then stood had 67,407. Vickerstown, Hawcoat, Ormsgill, Hindpool, North Scale, Roose and Newbarns are suburbs recorded in the LA13 and LA14 postcode districts. People in any of them, from age six to 67, can learn AI, programming, Python, vibe coding and maths with us. Lessons are live and online, led by tutors in India, with a choice between private tuition and a class of fifteen to twenty at your level. What we care about is whether a learner can tell a real pattern from an accident of how the data was picked. One lesson is free, and at its end we recommend a course. The Barrow project takes two facts about 246 census areas that have nothing to do with each other, applies a reasonable-looking filter, and watches a strong relationship appear from nowhere. Fees after the trial are USD 100 monthly for a group and USD 150 monthly for private lessons.
 
 An AI model learns whatever patterns are in the data it is shown. So a great deal rides on how that data was gathered. One of the quietest traps is a filter. Suppose rows only enter a dataset when they score well on one thing or another. Inside the filtered set, those two things will seem to work against each other, even if across everything they are unrelated. Statisticians call this Berkson's paradox, after Joseph Berkson, who described it in hospital records in 1946. This project reproduces it with housing figures for Barrow-in-Furness, where the learner can see the full data and the filtered data side by side.
 
-Facts last verified 30 September 2026. Teaching is online; no Barrow-in-Furness branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Barrow-in-Furness branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Barrow-in-Furness courses in thinking, Python and AI
 
@@ -135,7 +135,7 @@ A computer, a webcam and ordinary home broadband are enough. No software has to 
 - **Active, not watching** Learners write the programs and run the experiments themselves, sharing their screen with the tutor.
 - **Level found in lesson one** The free trial is a real lesson, and it shows us which course and stage make sense.
 - **Trial without payment** No fee, no card, and a recommendation when it ends.
-- **Five to ten per class** Classmates are at the same stage and may be anywhere in the UK.
+- **Fifteen to twenty per class** Classmates are at the same stage and may be anywhere in the UK.
 - **Two lessons each week** In term time, with Cumbria school holidays kept clear on request.
 - **Same slot, summer and winter** Clock changes never move your lesson; our tutors adjust.
 
@@ -146,7 +146,7 @@ A computer, a webcam and ordinary home broadband are enough. No software has to 
 Here are the prices we charge in every country apart from India.
 
 - First class: USD 0. First lesson free, complete, with a course recommendation.
-- Group tuition: USD 100 a month. A group of five to ten, close to eight lessons a month.
+- Group tuition: USD 100 a month. A group of fifteen to twenty, close to eight lessons a month.
 - Private tuition: USD 150 a month. Just the learner and a tutor, close to eight lessons a month.
 
 Fees are set in US dollars, and we do not publish them in pounds. Billing begins after the trial, once the course and weekly slot are fixed. The pricing page sets out how holidays, missed lessons and format changes are handled.

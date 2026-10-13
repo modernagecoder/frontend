@@ -16,7 +16,7 @@ Whyalla, South Australia, Australia / Live online
 
 Between 2001 and 2025 the official estimate for the statistical area called Whyalla went from 22,003 people to 21,641. Subtract one from the other and you get a fall of 362, under 2 percent, which sounds like a town holding steady. The yearly numbers tell a different story. The population climbed for most of a decade, peaked at 22,624 in 2014, then slid. A ten-line Python program that keeps a running maximum shows the fall from that peak is 983 people, almost three times what first-minus-last suggests. That program is the Whyalla project, and it teaches a habit every programmer needs: before you summarise a series, look at its whole shape.
 
-Facts last verified 10 October 2026. Teaching is online; no Whyalla branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Whyalla branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python courses for the Upper Spencer Gulf
 
@@ -181,7 +181,7 @@ Classes are live video lessons, so a learner in Whyalla has the same teachers as
 - **From home** A laptop or desktop, a headset and a steady connection are enough; nobody travels for a lesson.
 - **South Australian years** Teachers plan with South Australian year levels in mind, and every lesson is in English.
 - **A real first lesson** The free trial is a proper class that ends with a suggested course and a regular weekly time.
-- **Small matched groups** Groups hold five to ten learners at the same level, drawn from Whyalla and further afield.
+- **Small matched groups** Groups hold fifteen to twenty learners at the same level, drawn from Whyalla and further afield.
 - **Twice a week** Group learners meet on two fixed days, which comes to about eight lessons in a month.
 - **Teachers in India** Lessons are booked in Whyalla time; our teachers work in India, four or five hours behind depending on the season.
 
@@ -192,7 +192,7 @@ Classes are live video lessons, so a learner in Whyalla has the same teachers as
 One short price list applies everywhere in Australia.
 
 - First class: USD 0. The first lesson is free and finishes with a level, a course and a weekly time suggested for you.
-- Group tuition: USD 100 a month. One month of group lessons, around eight, with five to ten learners at a matching level.
+- Group tuition: USD 100 a month. One month of group lessons, around eight, with fifteen to twenty learners at a matching level.
 - Private tuition: USD 150 a month. Around eight one-to-one lessons a month with a dedicated teacher.
 
 Outside India we charge in US dollars, and Whyalla pays exactly what every other Australian town pays. Billing starts only after the trial has settled the course and the time, and the pricing page covers holidays, missed lessons and switching between group and private.
@@ -233,11 +233,11 @@ No. We have no premises in Australia and do not claim any. Classes are live onli
 
 ### What do Whyalla Python classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for one-to-one. Everything is agreed before any payment.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for one-to-one. Everything is agreed before any payment.
 
 ### How big are the groups?
 
-Five to ten learners, matched by level and goals rather than by age or postcode. If no group time suits, we offer one-to-one lessons instead.
+Fifteen to twenty learners, matched by level and goals rather than by age or postcode. If no group time suits, we offer one-to-one lessons instead.
 
 ## More from South Australia
 

@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in Somerset',
   capsuleQ: 'What are the best coding classes in Somerset?',
-  capsule: 'Somerset as a county is three councils: Somerset Council, which the 2021 Census still counted as four districts, plus Bath and North East Somerset and North Somerset. Their six published counts add up, by our sum, to 981,683 people. Bath and Weston-super-Mare are the largest towns, followed by Taunton, Yeovil and Bridgwater. We teach live over video from India, and learners are placed in classes by ability instead of by age. Anyone from 6 to 67 can learn coding, Python, statistics or maths with us, in a small group of five to ten or one-to-one. The Somerset project tests the idea of ley lines with real monument data. Your first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150 a month.',
+  capsule: 'Somerset as a county is three councils: Somerset Council, which the 2021 Census still counted as four districts, plus Bath and North East Somerset and North Somerset. Their six published counts add up, by our sum, to 981,683 people. Bath and Weston-super-Mare are the largest towns, followed by Taunton, Yeovil and Bridgwater. We teach live over video from India, and learners are placed in classes by ability instead of by age. Anyone from 6 to 67 can learn coding, Python, statistics or maths with us, in a group of fifteen to twenty or one-to-one. The Somerset project tests the idea of ley lines with real monument data. Your first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150 a month.',
   lead: 'Glastonbury Tor, with the ruined St Michael\'s Church on top, is a scheduled monument, and around it lie hundreds more: barrows, hillforts, caves and the Glastonbury lake village. People have long noticed that some ancient places seem to fall on straight lines, sometimes called ley lines. But on any map with enough dots, some will line up by pure chance. This page\'s project asks the question properly. It takes the 233 scheduled monuments in the Mendip district, counts every set of three that sits on a near-straight line, and compares the total with the same count for random dots scattered over the same ground. The answer is more interesting than yes or no.',
   wa: 'Hello Modern Age Coders, we are in Somerset and would like to book a free lesson, please.',
 
@@ -160,7 +160,7 @@ module.exports = {
       { h3: 'Learning at home', p: 'A farmhouse on the Levels, a terrace in Bridgwater, a flat in Weston. The screen is shared and the learner writes the code.' },
       { h3: 'Words from school', p: 'Year groups, key stages, GCSEs and A levels mean the same here as in Somerset schools, and all teaching is in English.' },
       { h3: 'A first lesson on us', p: 'A real lesson, then a straight recommendation of level and course. We never ask for card details at this stage.' },
-      { h3: 'The right group', p: 'Five to ten learners at the same stage, drawn from Somerset, the UK and further afield.' },
+      { h3: 'The right group', p: 'Fifteen to twenty learners at the same stage, drawn from Somerset, the UK and further afield.' },
       { h3: 'Pauses for holidays', p: 'Two lessons a week suits most learners, with breaks for your school\'s holidays.' },
       { h3: 'Times kept in UK time', p: 'We book you in UK time, unchanged by the clock changes; your teacher works on India time, several hours ahead, and handles the difference.' }
     ],
@@ -171,7 +171,7 @@ module.exports = {
     h2: 'Fees in Somerset',
     intro: 'Chard or Clevedon, you pay the same, and so do families in every country we teach except India.',
     first: 'A whole lesson of real work, ending with advice on level and course.',
-    group: 'Roughly eight lessons a month in a group of five to ten at one level.',
+    group: 'Roughly eight lessons a month in a group of fifteen to twenty at one level.',
     private: 'Roughly eight lessons a month, one teacher and one learner.',
     closer: 'Everything is priced in US dollars, with no sterling prices. Nothing is billed until the free lesson has set a course and a weekly time; the pricing page covers pauses, missed lessons and moving between group and private.'
   },

@@ -214,7 +214,7 @@ module.exports = {
       { h3: 'A sentence after every number', p: 'Each answer finishes with what it means in context.' },
       { h3: 'Reference built through the year', p: 'Students assemble their bound reference as they learn, not the night before.' },
       { h3: 'Timed sets', p: 'Multiple-choice practice at real exam pace.' },
-      { h3: 'Five to ten per group', p: 'Matched by level, and everyone explains a model aloud.' },
+      { h3: 'Fifteen to twenty per group', p: 'Matched by level, and everyone explains a model aloud.' },
       { h3: 'Private lessons', p: 'When one topic needs focused attention.' },
       { h3: 'Results belong to you', p: 'We make no claims about study scores or ATARs; the work and the result are yours.' }
     ]
@@ -228,7 +228,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'General Maths lessons have one monthly price, set in US dollars and equal for every family outside India; there is no joining charge and you are free to stop each month.',
     free: ['A full lesson with a tutor', 'An honest read on weak topics', 'No card asked for'],
-    group: ['Five to ten students at one level', 'A steady tutor each week', 'Practice checked and discussed', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'A steady tutor each week', 'Practice checked and discussed', 'A certificate at the end'],
     one: ['A tutor for one student', 'Centred on one topic', 'Common before the October exams']
   },
 

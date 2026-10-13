@@ -76,7 +76,7 @@ ONE SECONDARY SCHOOL
 
 Sultan Hassan serves the district, so for a specialised subject there is no second option.
 
-Groups of five to eight assembled by demonstrated ability from twenty-five countries. The peer group is the product, and it is the one thing 9,444 people cannot generate.
+Groups of fifteen to twenty assembled by demonstrated ability from twenty-five countries. The peer group is the product, and it is the one thing 9,444 people cannot generate.
 
 THE BRIDGE FIXED TRANSPORT
 
@@ -194,7 +194,7 @@ Taught live, questioned live, reviewed live. Nothing is pre-recorded and nothing
 
 Free, and it settles what the learner should study and at what level. They attempt one problem while the teacher watches the approach rather than the outcome.
 
-### A group of five to eight
+### A group of fifteen to twenty
 
 Built from ability across our whole intake. Being the only person in your district working on something stops being true the moment the class starts.
 
@@ -296,7 +296,7 @@ Starting with the two this district asks that no other district does.
 
 ### There is one secondary school in the whole district. What can an online class realistically add?
 
-A peer group, which is the thing a district of 9,444 people cannot supply on its own. Sultan Hassan Secondary School serves the entire district, so for any specialised subject a learner is not choosing between options, they are choosing between the one that exists and nothing. Our groups hold five to eight learners assembled by demonstrated ability from an intake across twenty-five countries, so a fourteen year old in Bangar sits with people working at the same level rather than with whoever happens to live nearby.
+A peer group, which is the thing a district of 9,444 people cannot supply on its own. Sultan Hassan Secondary School serves the entire district, so for any specialised subject a learner is not choosing between options, they are choosing between the one that exists and nothing. Our groups hold fifteen to twenty learners assembled by demonstrated ability from an intake across twenty-five countries, so a fourteen year old in Bangar sits with people working at the same level rather than with whoever happens to live nearby.
 
 ### The bridge already fixed our connection to the capital. Why does this matter?
 
@@ -312,7 +312,7 @@ It is the right thing to worry about, and it is the only real risk in this for a
 
 ### How much do coding classes in Temburong cost?
 
-The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of five to eight compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
+The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of fifteen to twenty compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
 
 ### Which evenings would the lessons be on?
 

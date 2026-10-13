@@ -183,7 +183,7 @@ Our tutors are in India. Eastern states on daylight saving run five and a half h
 - **Understanding first** We teach why things work, which is what lasts beyond any exam.
 - **Honest advice** We say what we know and point to the admissions centres for the rest.
 - **Projects of your own** Personal builds that show what a student can do.
-- **Groups of five to ten** Students at one level, each explaining their work aloud.
+- **Groups of fifteen to twenty** Students at one level, each explaining their work aloud.
 - **One-to-one too** A private tutor for a specific subject or skill.
 - **No predictions** We never forecast or promise an ATAR. The result belongs to the student.
 
@@ -192,7 +192,7 @@ Our tutors are in India. Eastern states on daylight saving run five and a half h
 One monthly price in US dollars for every family outside India. There is no fee to join, and you pay only for the month in progress.
 
 - Free first class: USD 0. A real class on a real topic. An honest conversation about goals. No card asked for.
-- Group batch: USD 100 a month. Five to ten students at one level. The same tutor each week. Work reviewed and discussed. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same tutor each week. Work reviewed and discussed. A certificate at the end.
 - One to one: USD 150 a month. A tutor for one student. Focused where help is needed. Flexible weekly times.
 
 ## What families ask us about the ATAR

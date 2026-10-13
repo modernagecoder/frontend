@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI lessons for Ratoath learners age
 canonical: https://learn.modernagecoders.com/best-coding-class-in-ratoath
 source: src/pages/best-coding-class-in-ratoath.html
 ---
-> Ratoath holds 10,041 usual residents across 3,041 households in the Census 2022 town tables, and 2,739 of those households report a broadband connection. We teach into those houses: two live lessons in most weeks, taught by a teacher who is present throughout, either with five to ten learners at one level or with a single learner, for ages six to sixty-seven. The opening lesson is free, then a group place is USD 100 a month and private teaching is USD 150.
+> Ratoath holds 10,041 usual residents across 3,041 households in the Census 2022 town tables, and 2,739 of those households report a broadband connection. We teach into those houses: two live lessons in most weeks, taught by a teacher who is present throughout, either with fifteen to twenty learners at one level or with a single learner, for ages six to sixty-seven. The opening lesson is free, then a group place is USD 100 a month and private teaching is USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Meath](/coding-classes-in-county-meath) / Ratoath
 
@@ -12,11 +12,11 @@ Ratoath, County Meath / Live online
 
 # Coding classes in Ratoath
 
-**What is the best coding class in Ratoath?** Ratoath holds 10,041 usual residents across 3,041 households in the Census 2022 town tables, and 2,739 of those households report a broadband connection. We teach into those houses: two live lessons in most weeks, taught by a teacher who is present throughout, either with five to ten learners at one level or with a single learner, for ages six to sixty-seven. The opening lesson is free, then a group place is USD 100 a month and private teaching is USD 150.
+**What is the best coding class in Ratoath?** Ratoath holds 10,041 usual residents across 3,041 households in the Census 2022 town tables, and 2,739 of those households report a broadband connection. We teach into those houses: two live lessons in most weeks, taught by a teacher who is present throughout, either with fifteen to twenty learners at one level or with a single learner, for ages six to sixty-seven. The opening lesson is free, then a group place is USD 100 a month and private teaching is USD 150.
 
 Ninety per cent of Ratoath households have broadband. It is a real figure, 2,739 of 3,041 by our division, and it is a statement about houses rather than about people. Ratoath runs 3.30 residents per household, against 2.72 across all towns combined, so the same household percentage covers a different number of people here than it would in a town of smaller households. Turning one into the other would need internet access crossed with household size, which the town tables do not publish. Once a learner notices that, they start checking what every figure counts before comparing any two, and this page is built around that habit using the town's own published tables.
 
-Facts last verified 18 September 2026. Teaching is online; no Ratoath branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 18 September 2026. Teaching is online; no Ratoath branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Ratoath learners start
 
@@ -171,7 +171,7 @@ Models are fluent in numbers and indifferent to units. Supplying the units, and 
 Six things, briefly.
 
 - **A teacher, not a video** Every lesson is taught as it happens, with the teacher responding to the learner's own screen.
-- **Sorted by level** Groups of five to ten at the same stage, drawn from across Ireland and beyond rather than from one town.
+- **Sorted by level** Groups of fifteen to twenty at the same stage, drawn from across Ireland and beyond rather than from one town.
 - **The same hour weekly** Two lessons in most weeks, about eight a month, at a time chosen at the start.
 - **Holidays accounted for** Mid-terms, breaks and exam weeks are built into the plan rather than patched over afterwards.
 - **Equipment** A computer with a keyboard, sound that works, and a household connection steady enough for video.
@@ -184,7 +184,7 @@ Six things, briefly.
 Three lines and no extras.
 
 - First class: USD 0. A full opening lesson, taught and assessed, charged at nothing.
-- Group tuition: USD 100 a month. One month in an ability group of five to ten, about eight live lessons.
+- Group tuition: USD 100 a month. One month in an ability group of fifteen to twenty, about eight live lessons.
 - Private tuition: USD 150 a month. One month of private lessons on the same weekly pattern.
 
 Everything is billed monthly in US dollars, at the one rate that covers families outside India, so the figure a Ratoath household sees is the figure a household in Ashbourne or Bray sees, with no euro column anywhere. The first charge waits until a course and an hour have been agreed in the opening lesson, and the pricing page deals with breaks, missed weeks and moving between a group and private teaching.
@@ -225,7 +225,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Ratoath cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

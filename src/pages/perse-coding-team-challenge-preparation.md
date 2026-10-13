@@ -180,7 +180,7 @@ Lessons are live on video from India, five and a half hours ahead of the UK in w
 
 - **Checklist before submit** Every task starts by listing the awkward inputs, before a line of code is written.
 - **One keyboard practice** We run pair tasks the way round one does, with one pupil typing and one reading.
-- **Five to ten learners** Enough for two solutions to be compared, small enough for every program to be looked at.
+- **Fifteen to twenty learners** Enough for two solutions to be compared, small enough for every program to be looked at.
 - **Our own tasks** Written by us in the same style. The organiser publishes its own past papers.
 - **One to one when useful** For a pupil working well above their year, or one with a specific gap.
 - **Nothing promised** We cannot register a team and promise no score, certificate or prize.
@@ -190,7 +190,7 @@ Lessons are live on video from India, five and a half hours ahead of the UK in w
 A single monthly rate in US dollars for families outside India, with no registration fee and no minimum term.
 
 - Free first class: USD 0. A full lesson on a real task. A straight read on the right level. No card details taken.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher weekly. Code read line by line. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher weekly. Code read line by line. A certificate at the end.
 - One to one: USD 150 a month. A teacher working with one learner. Shaped around the specific weakness. Useful in the weeks before a round.
 
 ## What teachers and parents ask

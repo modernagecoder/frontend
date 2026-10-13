@@ -16,7 +16,7 @@ Oegstgeest, Zuid-Holland / Live online
 
 Think of a number between one and a thousand. A careless guesser tries numbers one after another and may need a thousand tries. A careful one asks whether it is above five hundred, then halves what is left, and halves again, and is certain to have it within ten questions, because ten halvings reduce a thousand possibilities to one. That is the whole trick of divide and conquer: split a problem so that each part is smaller and simpler than the whole, solve the parts, and put the answers together. Descartes, who lived for a time at Endegeest in Oegstgeest, put a version of it at the heart of his method, published in Leiden in 1637. Computer science turned it into sorting methods that handle millions of items, searches that find one record among billions, and the way good programmers break any large task into pieces small enough to get right.
 
-Facts last verified 11 September 2026. Teaching is online; no Oegstgeest branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Oegstgeest branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the village beside Leiden
 
@@ -184,7 +184,7 @@ From Oud Oegstgeest by the Groene Kerkje to Oegstgeest West, the village is comp
 - **Right at home** A learner in De Kwaak and a learner in Oegstgeest Noord join the same lesson at the same moment from their own homes, with no trip into Leiden.
 - **School words in Dutch** Groep, brugklas, vmbo, havo, vwo and the profielkeuze stay in Dutch, as Oegstgeest families use them, and the teaching is in English.
 - **A free lesson with a real task** The first hour is a real lesson. Afterwards the teacher suggests a level, a course and a weekly time; no payment details are asked for.
-- **Groups beyond the village** Five to ten learners at one stage. Oegstgeest has 4,559 residents under fifteen, far too few to fill every level and hour locally, so groups include learners from other places.
+- **Groups beyond the village** Fifteen to twenty learners at one stage. Oegstgeest has 4,559 residents under fifteen, far too few to fill every level and hour locally, so groups include learners from other places.
 - **Regio Midden holidays** Twice a week, about eight lessons a month, at one fixed hour, with breaks for the regio Midden holidays of Zuid-Holland.
 - **Evening-friendly hours** The teachers are in India, three and a half hours ahead of Oegstgeest in summer and four and a half in winter, so late afternoons, evenings and weekend mornings all work.
 
@@ -195,7 +195,7 @@ From Oud Oegstgeest by the Groene Kerkje to Oegstgeest West, the village is comp
 Three prices, with nothing added later.
 
 - First class: USD 0. A real lesson on a real task, finishing with a level and a course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with a teacher.
 
 The fee is set in dollars and is the same everywhere, with no euro list, so a family in Oudenhof pays what a family in Oegstgeest West pays. Nothing is charged until the free lesson has fixed a course and a time, and payment is then arranged over WhatsApp. The pricing page explains pauses, a change of format and missed lessons.
@@ -236,7 +236,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Oegstgeest coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

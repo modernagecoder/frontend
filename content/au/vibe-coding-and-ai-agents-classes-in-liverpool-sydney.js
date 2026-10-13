@@ -345,7 +345,7 @@ module.exports = {
         h3: 'A trial that teaches',
         p: 'The opening lesson is a proper class, finishing with a recommended course, level and weekly time. Nothing is paid on the day.'
       },
-      { h3: 'Grouped by progress', p: 'Groups of five to ten learners at a similar stage, or one-to-one teaching when that suits better.' },
+      { h3: 'Grouped by progress', p: 'Groups of fifteen to twenty learners at a similar stage, or one-to-one teaching when that suits better.' },
       { h3: 'Two sessions a week', p: 'Normally two lessons a week at a set time, around eight a month, with holidays agreed ahead.' },
       {
         h3: 'Teachers in India',
@@ -361,7 +361,7 @@ module.exports = {
     h2: 'Fees for Liverpool learners',
     intro: 'Three figures, all stated plainly.',
     first: 'A full lesson free, with a course, level and time recommended at the end.',
-    group: 'A month of lessons, normally eight, alongside five to ten learners at the same level.',
+    group: 'A month of lessons, normally eight, alongside fifteen to twenty learners at the same level.',
     private: 'About eight lessons a month on the same rhythm, with one teacher and one learner.',
     closer: 'Outside India we bill in US dollars, so there is one fee for every Liverpool household. Nothing is charged until the trial has fixed a course and a time; holidays, missed lessons and changing format are explained on the pricing page.'
   },
@@ -410,7 +410,7 @@ module.exports = {
       },
       {
         q: 'How much do classes cost in Liverpool?',
-        a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one on the same pattern. Course, format and time are settled before anything is paid.',
+        a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one on the same pattern. Course, format and time are settled before anything is paid.',
         boiler: true
       },
       {

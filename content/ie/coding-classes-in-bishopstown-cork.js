@@ -163,7 +163,7 @@ module.exports = {
     intro: 'Quickly.',
     cells: [
       { h3: 'Taught in real time', p: 'Every lesson is live, with the teacher checking each learner\'s code and helping as they go.' },
-      { h3: 'Level first', p: 'Groups of five to ten learners at the same level, from Bishopstown, around Ireland or abroad.' },
+      { h3: 'Level first', p: 'Groups of fifteen to twenty learners at the same level, from Bishopstown, around Ireland or abroad.' },
       { h3: 'Regular slots', p: 'Two fixed days each week, around eight lessons a month.' },
       { h3: 'Term planning', p: 'Holidays, mid-terms and exam periods are built into the course plan.' },
       { h3: 'At home', p: 'A laptop or desktop, a microphone, headphones or speakers, and a connection strong enough for video.' },
@@ -176,7 +176,7 @@ module.exports = {
     h2: 'Fees for Bishopstown',
     intro: 'Straight to it.',
     first: 'A free opening lesson with a level check.',
-    group: 'A month in a group of five to ten at one level, around eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, around eight live lessons.',
     private: 'A month of one-to-one lessons at the same frequency.',
     closer: 'Families outside India all pay the same fee in US dollars, a month at a time. Booking the free lesson is not an agreement to continue; payment begins with the course itself, and our pricing page answers the usual questions on holiday weeks, missed sessions and moving from a group to private lessons or back.'
   },
@@ -200,7 +200,7 @@ module.exports = {
       { q: 'What times are lessons?', a: 'Weekdays after school through the evening, and weekend daytimes. We schedule in Irish time. Our teachers are in India, which is four and a half hours ahead of Bishopstown in the Irish summer and five and a half in winter, so the times we offer are ones that work in both countries.' },
       { q: 'Are lessons open to adults?', a: 'Yes, up to sixty-seven and at any starting level. Once the free lesson is over, a grown-up learner decides whether a group at their level or teaching on their own suits them better.' },
       { q: 'Will my child be grouped with other Bishopstown children?', a: 'Sometimes, though we build groups around ability rather than area, so the other learners could be in another county or another country.' },
-      { q: 'What do coding classes in Bishopstown cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.', boiler: true },
+      { q: 'What do coding classes in Bishopstown cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched by level, pace and goals rather than age or address. If no group runs at a workable time, lessons are one to one.', boiler: true }
     ]
   },

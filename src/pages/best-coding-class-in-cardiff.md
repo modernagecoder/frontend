@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Cardiff learn
 canonical: https://learn.modernagecoders.com/best-coding-class-in-cardiff
 source: src/pages/best-coding-class-in-cardiff.html
 ---
-> Cardiff had 362,308 usual residents at the 2021 Census, and 27.6% of those aged five and over were schoolchildren or full-time students, against 19.9% across Wales. Cardiff University, which opened on 24 October 1883 with 102 full-time degree students, now counts 31,505. Learners across Cardiff, from six-year-olds to people of sixty-seven, study with Modern Age Coders live online, privately or in groups of five to ten placed by level, with India-based teachers working to a UK timetable. The first lesson costs nothing; afterwards a group place is USD 100 a month and private lessons USD 150 a month.
+> Cardiff had 362,308 usual residents at the 2021 Census, and 27.6% of those aged five and over were schoolchildren or full-time students, against 19.9% across Wales. Cardiff University, which opened on 24 October 1883 with 102 full-time degree students, now counts 31,505. Learners across Cardiff, from six-year-olds to people of sixty-seven, study with Modern Age Coders live online, privately or in groups of fifteen to twenty placed by level, with India-based teachers working to a UK timetable. The first lesson costs nothing; afterwards a group place is USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Cardiff
 
@@ -12,11 +12,11 @@ Cardiff, Wales / Live online
 
 # Coding classes in Cardiff
 
-**What are the best coding classes in Cardiff?** Cardiff had 362,308 usual residents at the 2021 Census, and 27.6% of those aged five and over were schoolchildren or full-time students, against 19.9% across Wales. Cardiff University, which opened on 24 October 1883 with 102 full-time degree students, now counts 31,505. Learners across Cardiff, from six-year-olds to people of sixty-seven, study with Modern Age Coders live online, privately or in groups of five to ten placed by level, with India-based teachers working to a UK timetable. The first lesson costs nothing; afterwards a group place is USD 100 a month and private lessons USD 150 a month.
+**What are the best coding classes in Cardiff?** Cardiff had 362,308 usual residents at the 2021 Census, and 27.6% of those aged five and over were schoolchildren or full-time students, against 19.9% across Wales. Cardiff University, which opened on 24 October 1883 with 102 full-time degree students, now counts 31,505. Learners across Cardiff, from six-year-olds to people of sixty-seven, study with Modern Age Coders live online, privately or in groups of fifteen to twenty placed by level, with India-based teachers working to a UK timetable. The first lesson costs nothing; afterwards a group place is USD 100 a month and private lessons USD 150 a month.
 
 The Office for National Statistics counted the people in every built-up area of Wales in 2021: 579 of them, from Cardiff with 348,535 down to Llandarcy with 115. Put them in order of size and a curious pattern appears. Zipf's law, famous from word frequencies, says the second place should be about half the size of the first, the third a third, and so on. Swansea, in second place, has 170,085; the law predicts 174,268 from Cardiff's count, within 2.5%. Across the ten largest places, the fitted line on a log-log chart has a slope of minus 0.999, almost exactly Zipf's minus one. But fit the 54 places of 10,000 or more and the line predicts a capital of about 246,650, so Cardiff comes out bigger than the pattern expects. Why, and how much the answer depends on which towns you include, is the lesson Wales's towns give our teenage learners.
 
-Facts last verified 21 September 2026. Teaching is online; no Cardiff branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 21 September 2026. Teaching is online; no Cardiff branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the Welsh capital
 
@@ -175,7 +175,7 @@ Cardiff is compact, but a live online lesson still saves the trip across town.
 - **Bay to the northern suburbs** A learner in Butetown and another in Rhiwbina can share a lesson without either crossing the city.
 - **Welsh school years** Years 1 to 13, the Curriculum for Wales and WJEC GCSEs and A levels, named as Cardiff schools name them. Lessons are taught in English.
 - **A free lesson that counts** The first lesson teaches something real and ends with a recommended level, course and weekly time. No card is needed.
-- **Grouped by level** Every group holds five to ten learners at the same stage, gathered from Cardiff, other parts of Britain and further afield, so each level can meet at a sensible hour.
+- **Grouped by level** Every group holds fifteen to twenty learners at the same stage, gathered from Cardiff, other parts of Britain and further afield, so each level can meet at a sensible hour.
 - **Twice a week, set times** The rhythm is two fixed lessons weekly, roughly eight in a month, and any holiday or exam pause is planned with the teacher before it begins.
 - **Teachers in India** India keeps the same clock all year. Cardiff is four and a half hours behind it in British Summer Time and five and a half behind in winter, which places after-school and evening slots inside the teaching day.
 
@@ -186,7 +186,7 @@ Cardiff is compact, but a live online lesson still saves the trip across town.
 One free lesson, then a single monthly fee.
 
 - First class: USD 0. A full lesson at no charge, ending with a level, a suggested course and a proposed weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a group of five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight live lessons a month in a group of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight live lessons a month with a teacher who works with your learner alone.
 
 Families outside India all pay one US dollar fee, so Pontcanna and Splott pay exactly the same, and we publish no prices in pounds. No invoice arrives before the free lesson has settled which course and which weekly slot suit, and our pricing page explains how pausing, missed lessons and a switch between group and private teaching are handled.
@@ -227,11 +227,11 @@ No. There is no Cardiff centre and no premises anywhere in the UK; all teaching 
 
 ### How much do Cardiff lessons cost?
 
-The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Course, format and time are agreed before any payment.
+The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Course, format and time are agreed before any payment.
 
 ### How are Cardiff groups formed?
 
-By level, pace and aims rather than age or postcode, with five to ten learners at one stage. If no group meets at a suitable time, we propose one-to-one lessons.
+By level, pace and aims rather than age or postcode, with fifteen to twenty learners at one stage. If no group meets at a suitable time, we propose one-to-one lessons.
 
 ## Welsh guides and nearby cities
 

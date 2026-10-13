@@ -16,7 +16,7 @@ Blanchardstown, Dublin 15 / Live online
 
 Beside the M50 and N3 interchange, the Environmental Protection Agency runs a monitoring site that records nitrogen dioxide every hour and publishes the readings online. Take its 2025 readings and a simple question, whether the air stayed within the limit, turns out to have several answers. The same numbers sit inside today's rules and outside two of the rules due in 2030, and the yearly average most people reach for first is one the rules would not accept, because a whole season of readings is missing. This page shows a learner how to write a limit as the rule it really is, and how to check whether the data can answer the question at all.
 
-Facts last verified 19 September 2026. Teaching is online; no Blanchardstown branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Blanchardstown branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four starting points in Blanchardstown
 
@@ -150,7 +150,7 @@ Averaging a column takes one line. Knowing which rule the question is really abo
 The details.
 
 - **A teacher, live** Each lesson is taught in real time by a teacher who follows every learner's work on screen.
-- **Same-stage classmates** Groups of five to ten learners at one level, who may be in Dublin 15, elsewhere in Ireland or overseas.
+- **Same-stage classmates** Groups of fifteen to twenty learners at one level, who may be in Dublin 15, elsewhere in Ireland or overseas.
 - **Twice in a week** Around eight lessons a month, on two regular days fixed at the start.
 - **Term-time aware** Mid-terms, holidays and exam weeks are allowed for in the plan from day one.
 - **At home** A laptop or desktop with a keyboard, a headset or speakers and microphone, and a connection that carries video.
@@ -163,7 +163,7 @@ The details.
 In full.
 
 - First class: USD 0. A free first lesson, with the learner's level checked.
-- Group tuition: USD 100 a month. A monthly group place, five to ten learners at one stage, around eight live lessons.
+- Group tuition: USD 100 a month. A monthly group place, fifteen to twenty learners at one stage, around eight live lessons.
 - Private tuition: USD 150 a month. Monthly one-to-one lessons on the same pattern.
 
 Families living outside India pay the same US dollar fee each month, wherever they are. The first lesson places no obligation on anyone, charges begin when the course begins, and the pricing page covers holidays, missed lessons and changes between group and private teaching.
@@ -200,11 +200,11 @@ Only by coincidence. Learners are grouped by level, so classmates may come from 
 
 ### What do coding classes in Blanchardstown cost?
 
-The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Nothing is paid before the plan is agreed.
+The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Nothing is paid before the plan is agreed.
 
 ### How big are the groups?
 
-Five to ten learners, grouped by level, pace and aim rather than by age or area. If no group fits at a workable time, lessons are one to one.
+Fifteen to twenty learners, grouped by level, pace and aim rather than by age or area. If no group fits at a workable time, lessons are one to one.
 
 ## Around Dublin 15 and Fingal
 

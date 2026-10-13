@@ -144,7 +144,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'South Kensington', p: 'TfL\'s open data lists the Circle, District and Piccadilly lines at South Kensington.' },
           { h3: 'Kensal Green to Chelsea', p: 'A learner at the northern edge of the borough and one by the river in Chelsea can share a class from home.' },
-          { h3: 'A weekly rhythm', p: 'Like the Solar Stair, our classes keep a steady weekly pattern: two evenings, a group of five to ten at one stage.' }
+          { h3: 'A weekly rhythm', p: 'Like the Solar Stair, our classes keep a steady weekly pattern: two evenings, a group of fifteen to twenty at one stage.' }
         ] },
         { kind: 'spec', title: 'Kensington and Chelsea among the boroughs', p: 'Kensington and Chelsea is one of London\'s 32 boroughs. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> lists them all with the City, linking each page when it goes live, including <a class="cg-inline-link" href="/coding-classes-in-hammersmith-and-fulham-london">Hammersmith and Fulham</a> to the west.' }
       ]
@@ -192,7 +192,7 @@ module.exports = {
     h2: 'Fees for Kensington and Chelsea families',
     intro: 'The first lesson is free; then there is one monthly fee throughout the Royal Borough.',
     first: 'A full first lesson with a teacher, free, ending with a recommended level, course and time.',
-    group: 'About eight live lessons a month in a class of five to ten at one stage.',
+    group: 'About eight live lessons a month in a class of fifteen to twenty at one stage.',
     private: 'About eight live lessons a month, one to one.',
     closer: 'The monthly fee is set in US dollars for every family outside India, so this site never shows a price in pounds. There is no bill at all until the free lesson has happened and you have settled on a course and a fixed weekly slot. The pricing page explains pausing, missed lessons and changing between group and private teaching.'
   },
@@ -217,8 +217,8 @@ module.exports = {
       { q: 'When are lessons held?', a: 'With the level known from the free lesson, we point you to a class that has a seat and meets on a fixed weekday evening, always quoted in UK time; the teacher is in India.' },
       { q: 'What equipment is needed?', a: 'Nothing unusual: any computer that plays sound, with an internet line that does not keep dropping. The calendar project needs only Python.' },
       { q: 'Is there a Modern Age Coders centre in Kensington and Chelsea?', a: 'No. There is no Kensington and Chelsea centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Kensington and Chelsea cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Kensington and Chelsea cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

@@ -36,7 +36,7 @@ The course
 
 One course, two formats, both live. The batch runs to a shared two-year schedule; one to one reorders around this student's level, language and internal assessment deadline.
 
-| How it runs | Batch of five to eight | One to one |
+| How it runs | Batch of fifteen to twenty | One to one |
 | --- | --- | --- |
 | Live classes each week | Two, fixed slot | Two, slot agreed with you |
 | Level taught | SL and HL together where content overlaps | Exactly the student's level |
@@ -51,7 +51,7 @@ One course, two formats, both live. The batch runs to a shared two-year schedule
 
 The short answer
 
-IB Diploma Computer Science is taught at standard and higher level. Under the syllabus first assessed in May 2027, external assessment is carried by two papers rather than three: Paper 3 has been removed, and Paper 2 exists in two versions, one Java and one Python, so a candidate sits the version their chosen language dictates. At standard level each paper carries about 35 per cent and the internal assessment 30 per cent; at higher level each paper carries about 40 per cent and the internal assessment 20 per cent. The internal assessment is a computational solution of roughly 35 hours submitted with a video. Modern Age Coders teaches it live online, one to one or in batches of five to eight, from USD 100 a month, first class free.
+IB Diploma Computer Science is taught at standard and higher level. Under the syllabus first assessed in May 2027, external assessment is carried by two papers rather than three: Paper 3 has been removed, and Paper 2 exists in two versions, one Java and one Python, so a candidate sits the version their chosen language dictates. At standard level each paper carries about 35 per cent and the internal assessment 30 per cent; at higher level each paper carries about 40 per cent and the internal assessment 20 per cent. The internal assessment is a computational solution of roughly 35 hours submitted with a video. Modern Age Coders teaches it live online, one to one or in batches of fifteen to twenty, from USD 100 a month, first class free.
 
 Module by module
 
@@ -205,7 +205,7 @@ The two years, phase by phase
 
 ## How we sequence IB Computer Science across DP1 and DP2
 
-Two live classes a week, one to one or in a batch of five to eight, with the internal assessment started early rather than treated as a deadline in DP2.
+Two live classes a week, one to one or in a batch of fifteen to twenty, with the internal assessment started early rather than treated as a deadline in DP2.
 
 1. #### DP1 term 1: choose the language, deliberately, and start Theme A
 
@@ -433,7 +433,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Past-paper work between classes, marked by the teacher
 - Certificate on completion
@@ -528,7 +528,7 @@ It is no longer set. External assessment is now carried by Paper 1 and Paper 2, 
 
 ### How much does the tuition cost?
 
-A batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, and the figures are identical in every country we teach outside India. No enrolment fee, no minimum term, and the first class is free without a card.
+A batch of fifteen to twenty students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, and the figures are identical in every country we teach outside India. No enrolment fee, no minimum term, and the first class is free without a card.
 
 ### How important is the internal assessment?
 
@@ -548,7 +548,7 @@ Higher level suits a student heading into computing who can carry the extra cont
 
 ### Are the classes live?
 
-Every class is live, one to one or in a batch of five to eight, taught from India to students worldwide. We do not sell recordings in place of classes, because a recording cannot look at a student's internal assessment scope and tell them there is no real client in it.
+Every class is live, one to one or in a batch of fifteen to twenty, taught from India to students worldwide. We do not sell recordings in place of classes, because a recording cannot look at a student's internal assessment scope and tell them there is no real client in it.
 
 ### Can you teach both SL and HL students together?
 
@@ -596,7 +596,7 @@ Rather read first? [The full course syllabus](/courses/ib-diploma-computer-scien
 
 [WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20IB%20Diploma%20Computer%20Science%20online%20tuition.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
-Live classes only, one to one or a batch of five to eight, taught from India at an hour arranged with you. We do not sell recordings. The form starts a conversation, not an enrolment.
+Live classes only, one to one or a batch of fifteen to twenty, taught from India at an hour arranged with you. We do not sell recordings. The form starts a conversation, not an enrolment.
 
 ## Keep exploring Modern Age Coders
 

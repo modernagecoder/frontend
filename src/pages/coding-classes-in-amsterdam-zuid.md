@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Amsterdam-Zuid for ag
 canonical: https://learn.modernagecoders.com/coding-classes-in-amsterdam-zuid
 source: src/pages/coding-classes-in-amsterdam-zuid.html
 ---
-> Coding classes in Amsterdam-Zuid reach 146,395 residents (1 January 2026) across a district formed on 1 May 2010 out of Oud-Zuid and Zuideramstel. On the Zuidas the statistics office publishes 3,310 households and 2,878 dwellings for the same year, 432 more households than homes. In the Jordaan across the city the same pair runs the other way, 13,260 households in 13,425 dwellings. Neither figure is wrong and neither is a count of the other. Modern Age Coders teaches live online in English from the Albert Cuyp end of De Pijp out to Buitenveldert, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Amsterdam-Zuid reach 146,395 residents (1 January 2026) across a district formed on 1 May 2010 out of Oud-Zuid and Zuideramstel. On the Zuidas the statistics office publishes 3,310 households and 2,878 dwellings for the same year, 432 more households than homes. In the Jordaan across the city the same pair runs the other way, 13,260 households in 13,425 dwellings. Neither figure is wrong and neither is a count of the other. Modern Age Coders teaches live online in English from the Albert Cuyp end of De Pijp out to Buitenveldert, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Amsterdam](/coding-classes-in-amsterdam) / Amsterdam-Zuid
 
@@ -12,11 +12,11 @@ Zuid, Amsterdam / Live online
 
 # Coding classes in Amsterdam-Zuid, where one neighbourhood has 3,310 households living in 2,878 homes
 
-**What are the best coding classes in Amsterdam-Zuid?** Coding classes in Amsterdam-Zuid reach 146,395 residents (1 January 2026) across a district formed on 1 May 2010 out of Oud-Zuid and Zuideramstel. On the Zuidas the statistics office publishes 3,310 households and 2,878 dwellings for the same year, 432 more households than homes. In the Jordaan across the city the same pair runs the other way, 13,260 households in 13,425 dwellings. Neither figure is wrong and neither is a count of the other. Modern Age Coders teaches live online in English from the Albert Cuyp end of De Pijp out to Buitenveldert, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Amsterdam-Zuid?** Coding classes in Amsterdam-Zuid reach 146,395 residents (1 January 2026) across a district formed on 1 May 2010 out of Oud-Zuid and Zuideramstel. On the Zuidas the statistics office publishes 3,310 households and 2,878 dwellings for the same year, 432 more households than homes. In the Jordaan across the city the same pair runs the other way, 13,260 households in 13,425 dwellings. Neither figure is wrong and neither is a count of the other. Modern Age Coders teaches live online in English from the Albert Cuyp end of De Pijp out to Buitenveldert, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 The Zuidas has 3,310 households and 2,878 homes, both published for 2025 by the same office. There are 432 more households than there are dwellings for them to be in. Nothing has gone wrong. A household is an entry in a population register and a dwelling is an entry in a building register, and one address can carry several of the first. Two streets of data further on, in the Jordaan, the same two columns run the other way round. The gap between them is not an error to be closed. It is the most interesting number on the page.
 
-Facts last verified 9 September 2026. Teaching is online; no Amsterdam-Zuid branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 September 2026. Teaching is online; no Amsterdam-Zuid branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a district that runs from a market street to a business quarter
 
@@ -187,14 +187,14 @@ Zuid is well served by trams and short journeys, and none of that helps with the
 - **Two lessons a week, regio Noord dates** A repeating twice-weekly slot, normally eight lessons across a month. Noord-Holland takes its school holidays with regio Noord, and the weeks a family will be away are agreed before the plan starts rather than after.
 - **India is three and a half hours behind, four and a half in winter** The Dutch clock moves and the Indian one does not, so the gap changes with the season. The stretch after school, the early evening and either weekend day all work at both settings.
 
-**A district where the child population is very unevenly spread** Under-fifteens are 6.6 percent of the Oude Pijp, 10 percent of the Zuidas and 13 percent of Buitenveldert-Oost, which in absolute terms is 975, 500 and 1,100 children. A neighbourhood with 500 children under fifteen cannot assemble a group of five to ten at one specific level in one specific subject, and that is arithmetic rather than any comment on local schools. Groups here are formed on ability from across the world, which is the only arrangement in which a narrow level fills, at every age up to sixty-seven.
+**A district where the child population is very unevenly spread** Under-fifteens are 6.6 percent of the Oude Pijp, 10 percent of the Zuidas and 13 percent of Buitenveldert-Oost, which in absolute terms is 975, 500 and 1,100 children. A neighbourhood with 500 children under fifteen cannot assemble a group of fifteen to twenty at one specific level in one specific subject, and that is arithmetic rather than any comment on local schools. Groups here are formed on ability from across the world, which is the only arrangement in which a narrow level fills, at every age up to sixty-seven.
 
 ## The fee, in dollars, identical in all three zones
 
 Published on the page rather than saved for a phone call.
 
 - First class: USD 0. A full lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate applies and it is quoted in dollars. There is no euro edition, so an address on the Zuidas is charged exactly what an address in the Rijnbuurt is. Nothing is paid until the free lesson has fixed a course and an hour, and the payment is then arranged over WhatsApp. Pausing, switching plan and missing a week are all described on the pricing page.
@@ -235,7 +235,7 @@ No, and none is claimed on the Zuidas, elsewhere in Amsterdam or anywhere in the
 
 ### What do Amsterdam-Zuid coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. The course, the format, the recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. The course, the format, the recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

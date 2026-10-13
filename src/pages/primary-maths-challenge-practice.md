@@ -189,7 +189,7 @@ Teaching is live on video from India, which runs five and a half hours ahead of 
 
 - **The same teacher weekly** A child's mistakes only get fixed by someone who has seen them before.
 - **Our own problems** Practice is written by us in the spirit of the challenge. No PMC paper is copied.
-- **Five to ten children** Enough for a child to hear a better method than their own, few enough that nobody hides at the back.
+- **Fifteen to twenty children** Enough for a child to hear a better method than their own, few enough that nobody hides at the back.
 - **Parents told the truth** A short, plain note on what went well and what did not, rather than a score to put on the fridge.
 - **One to one when useful** For a child who freezes in a group, or has one specific gap to close.
 - **Nothing promised** No certificate, no Bonus Round place and no score is promised by us or anyone honest.
@@ -199,7 +199,7 @@ Teaching is live on video from India, which runs five and a half hours ahead of 
 A monthly rate in US dollars, the same for every country outside India. Nothing to join and nothing to cancel.
 
 - Free first class: USD 0. A real lesson, taught not sold. A straight answer about where the maths is. No card details.
-- Group batch: USD 100 a month. Five to ten children at one level. The same teacher every week. Work marked and talked through. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. The same teacher every week. Work marked and talked through. A certificate at the end.
 - One to one: USD 150 a month. One child with one teacher. Built around a specific gap. Useful when a group hour will not fit.
 
 ## What parents and teachers ask

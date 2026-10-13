@@ -195,7 +195,7 @@ module.exports = {
       { h3: 'Every suburb included', p: 'A learner near the Strand and another out at Kelso join the same lesson at the same time from home.' },
       { h3: 'Queensland school years', p: 'Teachers use Queensland year levels, from Year 7 to Year 12, and all lessons run in English.' },
       { h3: 'Start with a real model', p: 'The first, unpaid session has you training something small while the teacher watches, and it closes with advice on stage, course and slot. There is no card to enter.' },
-      { h3: 'Groups of five to ten', p: 'Learners at the same stage from North Queensland, the rest of Australia and abroad, so every level has a sensible slot.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners at the same stage from North Queensland, the rest of Australia and abroad, so every level has a sensible slot.' },
       { h3: 'Two lessons a week', p: 'About eight lessons a month at a fixed time, with holidays and exam periods planned with the teacher.' },
       { h3: 'Same offset in every season', p: 'Neither North Queensland nor India adjusts its clocks, which fixes the distance to our teachers at four and a half hours.' }
     ],
@@ -206,7 +206,7 @@ module.exports = {
     h2: 'What AI and programming classes cost in Townsville',
     intro: 'Three figures, nothing hidden.',
     first: 'One free lesson that ends with a level, a recommended course and a weekly time.',
-    group: 'A month of tuition, normally eight lessons, with five to ten learners at your stage.',
+    group: 'A month of tuition, normally eight lessons, with fifteen to twenty learners at your stage.',
     private: 'Roughly eight private lessons a month with a single teacher.',
     closer: 'North Queensland families pay in US dollars at the same single rate as everyone outside India, with no regional loading. Billing starts only once the trial has fixed a course and time; the pricing page explains holidays, missed lessons and changing format.'
   },
@@ -231,8 +231,8 @@ module.exports = {
       { q: 'When are lessons for Townsville learners?', a: 'Between the end of school and dinner, or at the weekend, settled during the trial and always quoted in Townsville time; India runs four and a half hours behind, year round.' },
       { q: 'Can primary-school children learn with you?', a: 'They can, from six years old, usually through Scratch first; this page is written with older students and adults in mind.' },
       { q: 'Is there a Modern Age Coders centre in Townsville?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Townsville coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Townsville coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

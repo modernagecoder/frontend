@@ -278,7 +278,7 @@ Ibri sits between the Western Hajar and the desert, and the surrounding wilayats
 
 A learner in Yanqul or Dhank joins the same live class as one in Ibri itself.
 
-### Five to eight per group
+### Fifteen to twenty per group
 
 Compatible learners, one teacher, feedback given while the work is open.
 
@@ -314,7 +314,7 @@ Goal discussion, ability task and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight live lessons, five to eight learners.
+Per month, normally eight live lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -414,7 +414,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the group size and schedule for Ibri learners?
 
-A group normally has five to eight compatible learners, while private tuition is one learner with one teacher. Classes usually meet twice each week, normally eight times monthly. Oman is one and a half hours behind India. The recurring time is agreed before payment, with Friday and Saturday options subject to availability.
+A group normally has fifteen to twenty compatible learners, while private tuition is one learner with one teacher. Classes usually meet twice each week, normally eight times monthly. Oman is one and a half hours behind India. The recurring time is agreed before payment, with Friday and Saturday options subject to availability.
 
 ### What happens in the free Ibri coding class?
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and vibe coding lessons for Ballyme
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-ballymena
 source: src/pages/online-coding-and-python-classes-in-ballymena.html
 ---
-> Census 2021 recorded 31,205 usual residents in the Ballymena settlement, according to NISRA, part of Mid and East Antrim with its 138,994 people. Galgorm, Ballee and Harryville, Ballykeel, Ardeevin, Fair Green and Kirkinriola are among the electoral wards listed for the BT42 and BT43 districts. Anyone aged six to 67 can study coding, Python, AI, vibe coding and maths on camera with an India-based tutor, alone or in a small class of five to ten matched by level. We teach problem solving before tools, so a learner can tell a good-enough answer from an optimal one. The opening lesson costs nothing, and we close it by naming the course we would choose. The Ballymena project sets a coverage puzzle on 11,552 mapped buildings, solves it with a quick greedy rule and with an exact integer programming solver in Python, and measures the gap. Carrying on after the trial costs USD 100 a month in a class or USD 150 a month one-to-one.
+> Census 2021 recorded 31,205 usual residents in the Ballymena settlement, according to NISRA, part of Mid and East Antrim with its 138,994 people. Galgorm, Ballee and Harryville, Ballykeel, Ardeevin, Fair Green and Kirkinriola are among the electoral wards listed for the BT42 and BT43 districts. Anyone aged six to 67 can study coding, Python, AI, vibe coding and maths on camera with an India-based tutor, alone or in a class of fifteen to twenty matched by level. We teach problem solving before tools, so a learner can tell a good-enough answer from an optimal one. The opening lesson costs nothing, and we close it by naming the course we would choose. The Ballymena project sets a coverage puzzle on 11,552 mapped buildings, solves it with a quick greedy rule and with an exact integer programming solver in Python, and measures the gap. Carrying on after the trial costs USD 100 a month in a class or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Northern Ireland](/coding-and-ai-classes-in-northern-ireland) / Ballymena
 
@@ -12,11 +12,11 @@ Ballymena, Mid and East Antrim, Northern Ireland / Live online
 
 # Online coding and Python classes in Ballymena
 
-**Which are the best online coding and Python classes in Ballymena?** Census 2021 recorded 31,205 usual residents in the Ballymena settlement, according to NISRA, part of Mid and East Antrim with its 138,994 people. Galgorm, Ballee and Harryville, Ballykeel, Ardeevin, Fair Green and Kirkinriola are among the electoral wards listed for the BT42 and BT43 districts. Anyone aged six to 67 can study coding, Python, AI, vibe coding and maths on camera with an India-based tutor, alone or in a small class of five to ten matched by level. We teach problem solving before tools, so a learner can tell a good-enough answer from an optimal one. The opening lesson costs nothing, and we close it by naming the course we would choose. The Ballymena project sets a coverage puzzle on 11,552 mapped buildings, solves it with a quick greedy rule and with an exact integer programming solver in Python, and measures the gap. Carrying on after the trial costs USD 100 a month in a class or USD 150 a month one-to-one.
+**Which are the best online coding and Python classes in Ballymena?** Census 2021 recorded 31,205 usual residents in the Ballymena settlement, according to NISRA, part of Mid and East Antrim with its 138,994 people. Galgorm, Ballee and Harryville, Ballykeel, Ardeevin, Fair Green and Kirkinriola are among the electoral wards listed for the BT42 and BT43 districts. Anyone aged six to 67 can study coding, Python, AI, vibe coding and maths on camera with an India-based tutor, alone or in a class of fifteen to twenty matched by level. We teach problem solving before tools, so a learner can tell a good-enough answer from an optimal one. The opening lesson costs nothing, and we close it by naming the course we would choose. The Ballymena project sets a coverage puzzle on 11,552 mapped buildings, solves it with a quick greedy rule and with an exact integer programming solver in Python, and measures the gap. Carrying on after the trial costs USD 100 a month in a class or USD 150 a month one-to-one.
 
 Many real decisions are puzzles of the form "pick the fewest things that still cover everything": sites for bins or chargers, shifts that cover every hour, tests that check every feature. The fast way is a greedy rule, grabbing whatever covers the most right now. It is quick, but is it any good? Integer programming answers that. A solver searches for the true minimum, and a clever trick called the LP relaxation proves how low the answer could possibly go. This project poses one such puzzle on Ballymena as mapped on OpenStreetMap: choose the fewest street junctions so that every building lies within 400 m of one.
 
-Facts last verified 29 September 2026. Teaching is online; no Ballymena branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Ballymena branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Ballymena courses in problem solving, Python and AI
 
@@ -130,7 +130,7 @@ Any computer with a webcam and a connection good enough for video will do.
 - **Learner at the keyboard** Every line and prompt is typed by the student, and the tutor, watching on screen share, keeps asking whether a cheaper answer exists.
 - **Where to begin** Worked out in the trial, and any CCEA exam goes straight into the plan.
 - **Taster at no cost** We teach a full opening session for free and recommend a course afterwards.
-- **Classes by ability** A group means five to ten learners working at one level, from all over the UK.
+- **Classes by ability** A group means fifteen to twenty learners working at one level, from all over the UK.
 - **Twice a week** Paused for school holidays.
 - **Steady time** Our tutors adjust for UK clock changes, so your slot stays the same.
 

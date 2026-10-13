@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and app classes in Nissewaard for a
 canonical: https://learn.modernagecoders.com/coding-classes-in-nissewaard
 source: src/pages/coding-classes-in-nissewaard.html
 ---
-> Coding classes in Nissewaard serve 89,112 people (statistics office, 1 January 2026) in a municipality formed on 1 January 2015 from Spijkenisse and Bernisse, on the island of Voorne-Putten. Spijkenisse became a groeigemeente in 1958 and a groeikern in 1977, and by around 1990 it had 26,400 dwellings housing 68,000 people, almost twenty new wijken and a metro connection with Rotterdam. A town filled in one burst ages together, so its averages can shift simply because the mix of households shifts, while no single household has changed at all. Statisticians call it the composition effect, and machine learning meets it as dataset shift. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Nissewaard serve 89,112 people (statistics office, 1 January 2026) in a municipality formed on 1 January 2015 from Spijkenisse and Bernisse, on the island of Voorne-Putten. Spijkenisse became a groeigemeente in 1958 and a groeikern in 1977, and by around 1990 it had 26,400 dwellings housing 68,000 people, almost twenty new wijken and a metro connection with Rotterdam. A town filled in one burst ages together, so its averages can shift simply because the mix of households shifts, while no single household has changed at all. Statisticians call it the composition effect, and machine learning meets it as dataset shift. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Nissewaard
 
@@ -12,11 +12,11 @@ Nissewaard, Zuid-Holland / Live online
 
 # Coding classes in Nissewaard, a town built for young families that grew up together
 
-**What are the best coding classes in Nissewaard?** Coding classes in Nissewaard serve 89,112 people (statistics office, 1 January 2026) in a municipality formed on 1 January 2015 from Spijkenisse and Bernisse, on the island of Voorne-Putten. Spijkenisse became a groeigemeente in 1958 and a groeikern in 1977, and by around 1990 it had 26,400 dwellings housing 68,000 people, almost twenty new wijken and a metro connection with Rotterdam. A town filled in one burst ages together, so its averages can shift simply because the mix of households shifts, while no single household has changed at all. Statisticians call it the composition effect, and machine learning meets it as dataset shift. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Nissewaard?** Coding classes in Nissewaard serve 89,112 people (statistics office, 1 January 2026) in a municipality formed on 1 January 2015 from Spijkenisse and Bernisse, on the island of Voorne-Putten. Spijkenisse became a groeigemeente in 1958 and a groeikern in 1977, and by around 1990 it had 26,400 dwellings housing 68,000 people, almost twenty new wijken and a metro connection with Rotterdam. A town filled in one burst ages together, so its averages can shift simply because the mix of households shifts, while no single household has changed at all. Statisticians call it the composition effect, and machine learning meets it as dataset shift. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Most towns grow a little every year, and their residents come in all ages at once. Spijkenisse grew in a hurry, from its designation as a groeigemeente in 1958 through the raised targets of a groeikern after 1977, and by around 1990 it had almost twenty new wijken. Places built like that fill with people at the same stage of life, and then all of them move on to the next stage together. The consequence is easy to miss in the figures. An average over the whole town, of household size, of income, of anything, can rise or fall because the town now contains more of one kind of household and fewer of another, even when every kind is exactly as it was. Anyone who builds a model, a dashboard or a school report will meet the same effect, and it is far easier to spot once someone has shown it on a town.
 
-Facts last verified 11 September 2026. Teaching is online; no Nissewaard branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Nissewaard branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for Spijkenisse and the Bernisse villages
 
@@ -191,7 +191,7 @@ Nissewaard spans Spijkenisse and a string of Bernisse villages, and while the me
 - **Village or town, same seat** A learner in Abbenbroek, Simonshaven or Hekelingen joins from home exactly as one in Spijkenisse does. There is no metro to catch and no drive across the island after the evening meal.
 - **Groep and havo in Dutch** The school vocabulary a Nissewaard family already uses, groep, brugklas, vmbo, havo, vwo and profielkeuze, stays in Dutch during lessons, while the teaching itself is in English.
 - **An honest first hour** The free lesson is a real one. The teacher sets a genuine task, watches how the learner approaches it, and afterwards recommends a level, a course and a weekly time, with no card requested and no pressure to decide.
-- **Well-matched classmates** A group is five to ten learners who are at the same stage. Nissewaard has 14,107 residents under fifteen, but matching five of them on subject, level and hour is unlikely, so a group may include learners from several countries.
+- **Well-matched classmates** A group is fifteen to twenty learners who are at the same stage. Nissewaard has 14,107 residents under fifteen, but matching five of them on subject, level and hour is unlikely, so a group may include learners from several countries.
 - **Regio Midden holidays** Two sessions a week, roughly eight each month, at one fixed hour. Zuid-Holland schools take regio Midden holidays, and lessons pause for the same weeks.
 - **Time zones that suit families** With India three and a half hours ahead in summer and four and a half in winter, the usual slots fall after school, in the early evening and at weekends, and they hold steady through the year.
 
@@ -202,7 +202,7 @@ Nissewaard spans Spijkenisse and a string of Bernisse villages, and while the me
 The three prices below are the whole picture.
 
 - First class: USD 0. A real lesson on a real task, ending in a recommended level and course.
-- Group tuition: USD 100 a month. Monthly, usually eight lessons, in a group of five to ten learners at the same level.
+- Group tuition: USD 100 a month. Monthly, usually eight lessons, in a group of fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. Monthly, usually eight lessons, with one teacher and one learner.
 
 The fee is in dollars and is the same for every country, so there is no euro price to weigh against it, and a family in Zuidland pays what a family in Spijkenisse pays. Payment begins only once the free lesson has fixed a course and an hour, and it is set up over WhatsApp. The pricing page covers breaks, a change of format and lessons that are missed.
@@ -243,7 +243,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Nissewaard coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

@@ -37,7 +37,7 @@ module.exports = {
   twitterDescription: 'Leeds maths, taught live online: which streets in Headingley and Burley are steepest, and how do you write a gradient?',
   pageName: 'Maths Tuition in Leeds',
   webPageDescription: 'Live online maths tuition for Leeds learners aged 6 to 67, from KS2 and Year 6 SATs maths through KS3, GCSE and A level to Further Maths and adult maths, with a gradients and trigonometry project built on Leeds street heights.',
-  courseDescription: 'Live online maths classes for Leeds learners, in groups of five to ten at a single level or one to one, taught to the national curriculum for England and the GCSE and A level specifications of every board.',
+  courseDescription: 'Live online maths classes for Leeds learners, in groups of fifteen to twenty at a single level or one to one, taught to the national curriculum for England and the GCSE and A level specifications of every board.',
   crumbs: [{ name: 'Courses', href: '/courses' }, { name: 'Coding classes in the UK', href: '/coding-classes-in-united-kingdom' }],
   crumbLabel: 'Maths tuition in Leeds',
   navLinks: [
@@ -60,11 +60,11 @@ module.exports = {
     ['Boards', 'AQA, Edexcel, OCR, plus IGCSE'],
     ['Sixth form', 'A level Maths and Further Maths'],
     ['Adults', 'Functional Skills, resits, refreshers'],
-    ['Teaching', 'Live online, five to ten per group or one to one'],
+    ['Teaching', 'Live online, fifteen to twenty per group or one to one'],
     ['Leeds project', 'Street gradients in Headingley and Burley']
   ],
   capsuleQ: 'How does maths tuition in Leeds work with Modern Age Coders?',
-  capsule: 'Leeds learners study maths with us live on video, at any age between 6 and 67, either in a level-matched class of five to ten or one to one. For primary children that means times tables in time for the Year 4 check, KS2 maths and the reasoning in Year 6 SATs maths. Secondary pupils follow KS3 maths into GCSE, on AQA, Edexcel or OCR at foundation or higher tier, or IGCSE. Sixth formers take A level Maths, often with Further Maths, and adults join for Functional Skills maths, a GCSE maths resit or a confidence refresher. Real data runs through every course; in Leeds we use the gradients of 124 streets around Headingley and Burley, the steepest of which rises 1 in 10.8. Lessons start with a free trial, then cost USD 100 a month in a group or USD 150 a month one to one.',
+  capsule: 'Leeds learners study maths with us live on video, at any age between 6 and 67, either in a level-matched class of fifteen to twenty or one to one. For primary children that means times tables in time for the Year 4 check, KS2 maths and the reasoning in Year 6 SATs maths. Secondary pupils follow KS3 maths into GCSE, on AQA, Edexcel or OCR at foundation or higher tier, or IGCSE. Sixth formers take A level Maths, often with Further Maths, and adults join for Functional Skills maths, a GCSE maths resit or a confidence refresher. Real data runs through every course; in Leeds we use the gradients of 124 streets around Headingley and Burley, the steepest of which rises 1 in 10.8. Lessons start with a free trial, then cost USD 100 a month in a group or USD 150 a month one to one.',
 
   picks: {
     eyebrow: 'Leeds favourites',
@@ -259,7 +259,7 @@ module.exports = {
     cells: [
       { h3: 'A tutor who knows the learner', p: 'The same person each week, so progress builds rather than restarts.' },
       { h3: 'Notes home', p: 'Brief, truthful updates after lessons on what to work on next.' },
-      { h3: 'Classes by ability', p: 'Five to ten learners working at the same level.' },
+      { h3: 'Classes by ability', p: 'Fifteen to twenty learners working at the same level.' },
       { h3: 'Hills, maps and data', p: 'Leeds streets and real numbers alongside past papers.' },
       { h3: 'Individual lessons', p: 'One to one for a learner who needs a sharper focus.' },
       { h3: 'Understanding first', p: 'Methods are explained before they are practised.' }
@@ -274,7 +274,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Monthly fees in US dollars, the same for every country apart from India. Nothing to pay to register and no contract.',
     free: ['A complete lesson, properly pitched', 'Honest advice afterwards', 'No card details required'],
-    group: ['A class of five to ten at one level', 'The same tutor throughout', 'Marked homework with comments', 'Certificate when you finish'],
+    group: ['A class of fifteen to twenty at one level', 'The same tutor throughout', 'Marked homework with comments', 'Certificate when you finish'],
     one: ['Private lessons with one tutor', 'Targeted at particular gaps', 'Handy before exams']
   },
 
@@ -282,7 +282,7 @@ module.exports = {
     eyebrow: 'Leeds maths questions',
     h2: 'Questions Leeds families and adult learners ask us',
     items: [
-      { q: 'What does a maths tutor in Leeds cost?', a: 'With us, the first lesson is free. After that it is USD 100 a month for a group of five to ten learners at the same level, or USD 150 a month for one-to-one lessons. No registration fee and no fixed term.' },
+      { q: 'What does a maths tutor in Leeds cost?', a: 'With us, the first lesson is free. After that it is USD 100 a month for a group of fifteen to twenty learners at the same level, or USD 150 a month for one-to-one lessons. No registration fee and no fixed term.' },
       { q: 'What does a gradient of 10% mean?', a: 'A gradient of 10% means the ground rises 10 metres for every 100 metres you travel horizontally, which can also be written as 1 in 10 or as an angle of about 5.7 degrees. Argie Road in Leeds averages 9.26%, or 1 in 10.8.' },
       { q: 'Is learning maths online as good as having a tutor at home?', a: 'For most learners it is, when lessons are live and the tutor can see the working as it happens. Our tutors follow every line on a shared board and pick up mistakes at once.' },
       { q: 'Can an adult resit GCSE maths with you?', a: 'Yes. Our GCSE course is open to resit candidates of any age. We check which topics are secure, then concentrate where the marks are.' },

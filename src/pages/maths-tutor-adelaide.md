@@ -4,7 +4,7 @@ description: "Online maths tutor for Adelaide, Reception to Year 12 and adults: 
 canonical: https://learn.modernagecoders.com/maths-tutor-adelaide
 source: src/pages/maths-tutor-adelaide.html
 ---
-> For Adelaide, Modern Age Coders offers live online maths tutoring from Reception through Year 12 and on to adult learners up to 67. Senior students are taught the four SACE subjects: Essential Mathematics, General Mathematics, Mathematical Methods and Specialist Mathematics. Every session is booked on the Adelaide clock, either privately or with five to ten classmates working at the same level, and a first session costs nothing.
+> For Adelaide, Modern Age Coders offers live online maths tutoring from Reception through Year 12 and on to adult learners up to 67. Senior students are taught the four SACE subjects: Essential Mathematics, General Mathematics, Mathematical Methods and Specialist Mathematics. Every session is booked on the Adelaide clock, either privately or with fifteen to twenty classmates working at the same level, and a first session costs nothing.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Maths tutor in Adelaide
 
@@ -253,7 +253,7 @@ Bookings are made and confirmed in Adelaide time, half an hour behind the easter
 Adelaide families pay a single monthly fee in US dollars, with no enrolment charge and no fixed term.
 
 - Free first class: USD 0. A full lesson at the learner's level. Honest advice on next steps. No card.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher each week. Marked practice. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. Marked practice. Stop after any month.
 - One to one: USD 150 a month. Private teaching. One goal at a time. Ideal before SACE exams.
 
 ## Adelaide maths tutoring: common questions

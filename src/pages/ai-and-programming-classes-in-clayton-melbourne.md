@@ -16,7 +16,7 @@ Clayton, City of Monash, Melbourne, Victoria / Live online
 
 Machine learning models are trained on examples and then used on new cases. They work well when the new cases look like the old ones. Clayton's train station gives a clean, local demonstration of what happens when they do not, a problem called covariate shift.
 
-Facts last verified 10 October 2026. Teaching is online; no Clayton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Clayton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for building and testing models
 
@@ -185,7 +185,7 @@ Every class is live online, so Clayton learners join from home, a study room or 
 - **Wherever you study** Any laptop with a stable connection works; the teacher follows your screen.
 - **School calendar** Children's and teenagers' classes follow the Victorian terms and pause in state holidays.
 - **A free start** One complete free lesson, then advice on the course and a time.
-- **Level groups** Five to ten learners at one level, from a range of places.
+- **Level groups** Fifteen to twenty learners at one level, from a range of places.
 - **Weekly pattern** Two fixed lessons each week, roughly eight a month.
 - **Teachers in India** With Melbourne on daylight saving, a 5pm Clayton lesson is 11:30am India time; from April it is 12:30pm.
 
@@ -196,7 +196,7 @@ Every class is live online, so Clayton learners join from home, a study room or 
 Only three prices to know.
 
 - First class: USD 0. A first lesson at no cost, followed by a recommendation.
-- Group tuition: USD 100 a month. A month of group classes, roughly eight, with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group classes, roughly eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. A month of one-to-one classes, roughly eight, with your own teacher.
 
 Learners in Clayton pay in US dollars, as everyone outside India does, at a single rate. No payment is taken until the trial settles course and time; the pricing page covers holidays and missed classes.
@@ -233,7 +233,7 @@ No. Lessons are online and live only, we have no Australian office, and the phon
 
 ### What are the fees for Clayton learners?
 
-The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before payment.
+The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before payment.
 
 ### How many people are in a group?
 

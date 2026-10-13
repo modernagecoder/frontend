@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across County Cork, from
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-cork
 source: src/pages/coding-classes-in-county-cork.html
 ---
-> County Cork, the area outside the city, holds 360,152 people and the largest land area of any Irish county. Its towns are scattered: Carrigaline at 18,239, Cobh at 14,148, Midleton at 13,906, Mallow at 13,456, then Youghal, Bandon, Fermoy, Kinsale and Clonakilty. Unemployment here is 6%, which the statistics office recorded as the joint lowest in the country. What the county does not have is a class within easy reach of every town, which is where a live online school earns its place. We teach ages 6 to 67 at a fixed weekly hour in ability groups of five to ten, or one to one, with a free first lesson and then USD 100 a month in a group or USD 150 privately.
+> County Cork, the area outside the city, holds 360,152 people and the largest land area of any Irish county. Its towns are scattered: Carrigaline at 18,239, Cobh at 14,148, Midleton at 13,906, Mallow at 13,456, then Youghal, Bandon, Fermoy, Kinsale and Clonakilty. Unemployment here is 6%, which the statistics office recorded as the joint lowest in the country. What the county does not have is a class within easy reach of every town, which is where a live online school earns its place. We teach ages 6 to 67 at a fixed weekly hour in ability groups of fifteen to twenty, or one to one, with a free first lesson and then USD 100 a month in a group or USD 150 privately.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [Cork](/best-coding-class-in-cork) / County Cork
 
@@ -12,11 +12,11 @@ County Cork, Munster / Live online
 
 # Coding classes in County Cork
 
-**What are the best coding classes in County Cork?** County Cork, the area outside the city, holds 360,152 people and the largest land area of any Irish county. Its towns are scattered: Carrigaline at 18,239, Cobh at 14,148, Midleton at 13,906, Mallow at 13,456, then Youghal, Bandon, Fermoy, Kinsale and Clonakilty. Unemployment here is 6%, which the statistics office recorded as the joint lowest in the country. What the county does not have is a class within easy reach of every town, which is where a live online school earns its place. We teach ages 6 to 67 at a fixed weekly hour in ability groups of five to ten, or one to one, with a free first lesson and then USD 100 a month in a group or USD 150 privately.
+**What are the best coding classes in County Cork?** County Cork, the area outside the city, holds 360,152 people and the largest land area of any Irish county. Its towns are scattered: Carrigaline at 18,239, Cobh at 14,148, Midleton at 13,906, Mallow at 13,456, then Youghal, Bandon, Fermoy, Kinsale and Clonakilty. Unemployment here is 6%, which the statistics office recorded as the joint lowest in the country. What the county does not have is a class within easy reach of every town, which is where a live online school earns its place. We teach ages 6 to 67 at a fixed weekly hour in ability groups of fifteen to twenty, or one to one, with a free first lesson and then USD 100 a month in a group or USD 150 privately.
 
 On 31 May 2019 a large piece of County Cork stopped being County Cork. Ballincollig, Blarney, Tower, Glanmire, Douglas, Rochestown and Togher transferred to Cork City Council under legislation passed that January, and the county lost both territory and tens of thousands of residents overnight. This matters for anyone working with Cork figures, because the Central Statistics Office states plainly that the change means "a direct comparison with Census 2016 data is not possible" for Cork. So the growth percentages you see quoted casually for other counties simply cannot be produced honestly here. A learner who understands why will treat every time series with more respect afterwards: boundaries move, definitions change, and a number that looks comparable often is not. That is the thread of this page, and it runs through everything from school lists to council datasets.
 
-Facts last verified 16 September 2026. Teaching is online; no County Cork branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no County Cork branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a very large county
 
@@ -189,7 +189,7 @@ This is the largest county in Ireland by area, and its learners are spread acros
 - **The same class everywhere** Skibbereen and Midleton are two hours apart and zero minutes apart once the lesson starts.
 - **School stages by name** Junior Cycle, Transition Year, fifth and sixth year, as they are called in Cork schools.
 - **A free lesson that teaches** Real work with a real teacher, ending in a level, a course and an hour, and no request for card details.
-- **Ability groups** Five to ten learners at one level, drawn from County Cork and several other countries so the right class exists at a workable hour.
+- **Ability groups** Fifteen to twenty learners at one level, drawn from County Cork and several other countries so the right class exists at a workable hour.
 - **Weekly and predictable** Two lessons in most weeks, about eight a month, with mid-terms and exams planned around in advance.
 - **The time difference** Our teachers work from India, four and a half hours ahead of Ireland in summer and five and a half in winter.
 
@@ -200,7 +200,7 @@ This is the largest county in Ireland by area, and its learners are spread acros
 Three figures and no small print.
 
 - First class: USD 0. A complete lesson at no charge, closing with a level named and a course recommended.
-- Group tuition: USD 100 a month. A month of classes, normally eight, with five to ten learners of similar ability.
+- Group tuition: USD 100 a month. A month of classes, normally eight, with fifteen to twenty learners of similar ability.
 - Private tuition: USD 150 a month. The same month of classes, with the teacher working with one learner.
 
 Billing is monthly in US dollars at the single rate charged outside India, so Bantry pays what Carrigaline pays and there is no euro list. Nothing is charged until the free lesson has settled a course and a weekly hour, and pauses, missed lessons and format changes are set out on the pricing page.
@@ -241,7 +241,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do County Cork coding classes cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

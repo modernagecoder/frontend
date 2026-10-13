@@ -50,7 +50,7 @@ module.exports = {
 
   h1: 'Coding classes in Southwark',
   capsuleQ: 'What are the best coding classes in Southwark?',
-  capsule: 'Southwark is the south London borough of Peckham, Bermondsey, Camberwell, Dulwich, Rotherhithe, Borough, Walworth and Nunhead, with 307,637 residents at the 2021 Census, Southwark Cathedral and Sir John Soane\'s Dulwich Picture Gallery. A class worth your time teaches a learner to check a famous claim before repeating it, and this page does exactly that with art: is the golden ratio really hidden in the shapes of pictures? Tested on 65,833 artworks, it first seems to win, then learners discover why the result is misleading. Lessons happen live on video with teachers in India; learners anywhere from six to sixty-seven study one to one or join a group of five to ten who share a stage. The first lesson is free. Afterwards a group place costs USD 100 a month, and one-to-one teaching USD 150 a month.',
+  capsule: 'Southwark is the south London borough of Peckham, Bermondsey, Camberwell, Dulwich, Rotherhithe, Borough, Walworth and Nunhead, with 307,637 residents at the 2021 Census, Southwark Cathedral and Sir John Soane\'s Dulwich Picture Gallery. A class worth your time teaches a learner to check a famous claim before repeating it, and this page does exactly that with art: is the golden ratio really hidden in the shapes of pictures? Tested on 65,833 artworks, it first seems to win, then learners discover why the result is misleading. Lessons happen live on video with teachers in India; learners anywhere from six to sixty-seven study one to one or join a group of fifteen to twenty who share a stage. The first lesson is free. Afterwards a group place costs USD 100 a month, and one-to-one teaching USD 150 a month.',
   lead: 'Dulwich Picture Gallery, designed by Sir John Soane and built between 1811 and 1814, is listed at Grade II* by Historic England. Galleries like it are full of rectangles: canvases, panels, sheets of paper. A claim you will meet in books and online says that artists favour the golden ratio, about 1.618 to 1, because it looks most pleasing. Our learners test it on the Tate\'s published collection data, which gives the width and height of tens of thousands of works. The first result seems to prove the claim: more works sit close to the golden ratio than to 4:3, 3:2 or a square. Then learners count who made the works. More than half of all the records are by a single artist, J. M. W. Turner. Take him out and the golden ratio sinks near the bottom.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Southwark.',
 
@@ -145,7 +145,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'London Bridge', p: 'TfL\'s open data lists the Jubilee line, Southeastern, Southern and Thameslink at London Bridge.' },
           { h3: 'Rotherhithe to Dulwich', p: 'A learner by the river in Rotherhithe and another in Dulwich can share the same class without a journey.' },
-          { h3: 'A balanced class', p: 'Groups are built the opposite way to the Tate list: no single member dominates, just five to ten learners at a shared stage.' }
+          { h3: 'A balanced class', p: 'Groups are built the opposite way to the Tate list: no single member dominates, just fifteen to twenty learners at a shared stage.' }
         ] },
         { kind: 'spec', title: 'Southwark in London', p: 'Southwark is one of London\'s 32 boroughs. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> covers them all and the City, linking each page as it goes live, including <a class="cg-inline-link" href="/coding-classes-in-lambeth-london">Lambeth</a> to the west and <a class="cg-inline-link" href="/coding-classes-in-lewisham-london">Lewisham</a> to the east.' }
       ]
@@ -182,7 +182,7 @@ module.exports = {
       { h3: 'Home is fine', p: 'Learners take part from home on a laptop or desktop, with headphones and broadband that copes with video.' },
       { h3: 'England\'s stages', p: 'We use the Key Stages of English schools to describe progress, up to sixth form, and bring in GCSE and A level where relevant. Everything is taught in English.' },
       { h3: 'A free start', p: 'Lesson one costs nothing, teaches properly, and ends with the teacher\'s suggestion of level and course; nobody asks for a card.' },
-      { h3: 'Matched by stage', p: 'Each class is five to ten learners at the same stage, gathered from across the UK and beyond so a suitable evening is available.' },
+      { h3: 'Matched by stage', p: 'Each class is fifteen to twenty learners at the same stage, gathered from across the UK and beyond so a suitable evening is available.' },
       { h3: 'Twice weekly', p: 'Classes generally meet on two evenings each week, with agreed breaks for holidays and exams.' },
       { h3: 'On UK time', p: 'All lesson times reach you already in London time, so there is nothing to convert.' }
     ],
@@ -193,7 +193,7 @@ module.exports = {
     h2: 'Fees for Southwark families',
     intro: 'A free first lesson, then one monthly fee, the same in Walworth as in Dulwich.',
     first: 'A full lesson with a teacher, free, ending with a recommended level, course and time.',
-    group: 'Around eight live lessons a month in a class of five to ten at one stage.',
+    group: 'Around eight live lessons a month in a class of fifteen to twenty at one stage.',
     private: 'Around eight live lessons a month, one to one.',
     closer: 'Southwark families pay in US dollars, like all families outside India, so no pound prices appear on the site. Billing begins only after the free lesson, when the course and the weekly evening are fixed. If you need to pause, miss a week or move to private lessons, the pricing page shows how.'
   },
@@ -218,8 +218,8 @@ module.exports = {
       { q: 'When are lessons for Southwark learners?', a: 'Your free lesson settles the level. From there we match the learner to a class with a seat and a set evening, and every time we quote is London time, whatever the teacher\'s own clock says in India.' },
       { q: 'Which equipment helps?', a: 'Nothing special: any computer with sound and a connection that does not drop. The golden ratio project needs Python and the Tate\'s free data file.' },
       { q: 'Is there a Modern Age Coders centre in Southwark?', a: 'No. There is no Southwark centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Southwark cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Southwark cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

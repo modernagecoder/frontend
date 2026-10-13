@@ -200,7 +200,7 @@ module.exports = {
       { h3: 'A fixed four-hour gap', p: 'Neither the Territory nor India changes its clocks, so our teachers are four hours behind the NT all year and lesson times never shift.' },
       { h3: 'Built for remote learners', p: 'Any laptop or desktop with sound and a reliable connection is enough. Learners far from town join the same class as learners in Darwin.' },
       { h3: 'Full trial lesson', p: 'The first session is a real lesson with something finished, followed by a recommended level, course and time. No card details are needed.' },
-      { h3: 'Classmates at your level', p: 'Groups of five to ten learners at a similar standard, from the Territory, other states and overseas, so most levels have a workable hour.' },
+      { h3: 'Classmates at your level', p: 'Groups of fifteen to twenty learners at a similar standard, from the Territory, other states and overseas, so most levels have a workable hour.' },
       { h3: 'Steady weekly rhythm', p: 'Two lessons a week, about eight a month, at a fixed time, with breaks for school holidays arranged with the teacher.' },
       { h3: 'English throughout', p: 'Every lesson is taught in English, using Australian school year names so lessons connect with what learners meet at school.' }
     ],
@@ -211,7 +211,7 @@ module.exports = {
     h2: 'What lessons cost in the Northern Territory',
     intro: 'One price list for the whole Territory.',
     first: 'A full first lesson free of charge, ending with a recommended level, course and weekly time.',
-    group: 'A month of lessons, normally eight, with five to ten learners at a similar level.',
+    group: 'A month of lessons, normally eight, with fifteen to twenty learners at a similar level.',
     private: 'Around eight lessons a month in the same pattern, one teacher with one learner.',
     closer: 'Families outside India are invoiced in US dollars at a single rate, so Tennant Creek and the Darwin waterfront receive the same bill. Nothing is billed before the trial has fixed a course and a lesson time, and our pricing page explains holiday pauses, missed lessons and moving between group and private teaching.'
   },
@@ -236,7 +236,7 @@ module.exports = {
       { q: 'Do you help senior students in the NT?', a: 'Yes, with the programming, maths and data skills senior subjects draw on. We could not read the department\'s senior secondary pages automatically, so we do not describe those subjects; assessed work always stays the student\'s own.' },
       { q: 'Can students in remote communities join?', a: 'Yes, if they have a laptop or desktop, sound and a connection reliable enough for a video call. They join exactly the same live lessons as learners in Darwin.' },
       { q: 'Is there a Modern Age Coders centre in the Northern Territory?', a: 'No, and none is claimed. All lessons are live online with no premises in Australia, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'How much are coding lessons in the NT?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
+      { q: 'How much are coding lessons in the NT?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by level, pace and goals rather than age or town. If no group meets at a suitable hour, the learner is offered one-to-one lessons.', boiler: true }
     ]
   },

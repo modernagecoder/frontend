@@ -4,7 +4,7 @@ description: "Live online coding for students at Dutch universities and hogescho
 canonical: https://learn.modernagecoders.com/coding-for-college-students-netherlands
 source: src/pages/coding-for-college-students-netherlands.html
 ---
-> Modern Age Coders teaches coding live online to students at universities and hogescholen in the Netherlands. The focus is on the skills an AI assistant cannot supply: data structures and algorithms, debugging and reading code, Git and team workflows, and projects that stand up in an interview, alongside software, data science and AI tracks for students heading into those fields. Students are placed by ability, in groups of five to ten or one to one, and lessons fit around lectures and exams. Your opening lesson costs nothing; from then on a seat in a group runs at USD 100 a month, and private tuition at USD 150.
+> Modern Age Coders teaches coding live online to students at universities and hogescholen in the Netherlands. The focus is on the skills an AI assistant cannot supply: data structures and algorithms, debugging and reading code, Git and team workflows, and projects that stand up in an interview, alongside software, data science and AI tracks for students heading into those fields. Students are placed by ability, in groups of fifteen to twenty or one to one, and lessons fit around lectures and exams. Your opening lesson costs nothing; from then on a seat in a group runs at USD 100 a month, and private tuition at USD 150.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the Netherlands](/coding-classes-in-netherlands) / For students
 
@@ -150,7 +150,7 @@ Our teachers are based in India, where the clock never moves, so a student in Le
 - **Daytime gaps** Where a timetable leaves a free afternoon and a teacher is available, often for one-to-one lessons.
 
 - **A free first lesson** You solve a real problem while the teacher watches your approach. That shows where to start better than your year of study does.
-- **Groups of five to ten** Students from several countries at the same level, a useful rehearsal for the international teams many graduates join.
+- **Groups of fifteen to twenty** Students from several countries at the same level, a useful rehearsal for the international teams many graduates join.
 - **One to one for thesis work** For a thesis with a technical part, a specific project, an interview deadline, or a timetable that changes every block.
 - **Pause for exams** Lessons can pause during exam weeks and resume afterwards without losing your place.
 - **In English** The language of programming, of most Dutch master's programmes in technical fields, and of the tech industry here.
@@ -161,7 +161,7 @@ Our teachers are based in India, where the clock never moves, so a student in Le
 Monthly, in US dollars, at the same rates as every country outside India. Students here pay the international rate like everyone else, with no registration charge and no annual commitment. Copilot Studio is taught privately, so it carries the private rate.
 
 - Free first class: USD 0. A real lesson, not a sales call. Places you on the right rung. No card or bank details.
-- Group batch: USD 100 a month. Five to ten students at one level. The same live teacher each week. Code reviewed every week. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same live teacher each week. Code reviewed every week. A certificate at the end.
 - One to one: USD 150 a month. A teacher for you alone. Pace set by your project or deadline. The only format for Copilot Studio.
 
 ## What students in the Netherlands ask before starting

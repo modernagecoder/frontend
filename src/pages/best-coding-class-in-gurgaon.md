@@ -12,7 +12,7 @@ Live online · serving Gurgaon
 
 Real programming for kids, teens and college students in Gurgaon, from **Cyber City / Cyber Hub / Udyog Vihar to DLF Phases 1–5, Golf Course Road / Sushant Lok to Sohna Road / South City / Nirvana Country**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Gurgaon)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**GurgaonEnrollingAreasCyber City / Cyber Hub / Udyog Vihar, DLF Phases 1–5, Golf Course Road / Sushant Lok, Sohna Road / South City / Nirvana Country, MG Road / Sector 14 / 29 & all of GurgaonBoardsHBSE · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across GurgaonFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Gurgaon)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**GurgaonEnrollingAreasCyber City / Cyber Hub / Udyog Vihar, DLF Phases 1–5, Golf Course Road / Sushant Lok, Sohna Road / South City / Nirvana Country, MG Road / Sector 14 / 29 & all of GurgaonBoardsHBSE · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across GurgaonFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for Gurgaon's sharpest young mathematicians who want to push well past the regular school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Gurgaon: FAQs
 
-Which is the best coding class in Gurgaon for kids?Modern Age Coders runs Gurgaon's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and move on to Python, in small batches of 5-8, taught by industry instructors. We reach every part of the city: Cyber City and Cyber Hub, the DLF Phases, Golf Course Road, Sohna Road, Sushant Lok, MG Road, Sectors 14/29/56 and the New Gurgaon belt of Sectors 81-95.Are the classes online or offline, and do you cover all of Gurgaon?Every class is live and online, so we cover all of Gurugram equally, a child in DLF Phase 1, on Golf Course Road, in Sushant Lok, along Sohna Road, in Palam Vihar or out in New Gurgaon joins the same expert teacher from home. No fighting the Cyber City rush hour or the NH-48 traffic. Every session is hands-on, live coding, screen-sharing and full recordings to revisit any lesson.How much do coding classes cost in Gurgaon?Group classes (5-8 students) start at Rs.1499/month for 2 live classes a week. Mini Batch (3-4 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden charges.Will coding help my child with JEE and the CBSE/ICSE board exams in Gurgaon?Yes. Gurgaon is a competitive, results-driven city. Coding builds the precise logical reasoning, decomposition and problem-solving that JEE and Olympiads reward, and it directly supports CBSE/ICSE Computer Science, Informatics Practices and the NEP-2020 AI modules. Our Python and Java tracks line up with what is taught at DPS Gurgaon, The Shri Ram School, Pathways, Heritage and GD Goenka.What age is best to start coding in Gurgaon?Age 8 is the sweet spot to begin with visual block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always fits the child.What programming languages and courses do you teach in Gurgaon?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also teach school and Olympiad mathematics alongside coding.Do you prepare Gurgaon college students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is designed for students from Amity Gurugram, MDI Gurgaon, GD Goenka University, Ansal and ITM who are targeting the analyst, engineering and product roles at the Fortune-500 GCCs clustered in Cyber City and along Golf Course Road.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Which school board applies in Gurgaon, and does it differ from Noida?It differs, and the confusion is common. Gurgaon is in Haryana, so the state board is the Board of School Education Haryana at Bhiwani. Noida is in Uttar Pradesh under UPMSP. Both sit in the NCR and both are heavily CBSE in practice, with ICSE, IB and Cambridge IGCSE schools present, but the state machinery behind them is not the same.Can Gurugram University or MDI students join your programming courses?Yes. Cyber City is full of Global Capability Centres hiring engineers a few kilometres away, and they interview on what you have built. The college track exists for that: Python, Java, full-stack or AI/ML, taken as far as a working deployment.
+Which is the best coding class in Gurgaon for kids?Modern Age Coders runs Gurgaon's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and move on to Python, in batches of 15-20, taught by industry instructors. We reach every part of the city: Cyber City and Cyber Hub, the DLF Phases, Golf Course Road, Sohna Road, Sushant Lok, MG Road, Sectors 14/29/56 and the New Gurgaon belt of Sectors 81-95.Are the classes online or offline, and do you cover all of Gurgaon?Every class is live and online, so we cover all of Gurugram equally, a child in DLF Phase 1, on Golf Course Road, in Sushant Lok, along Sohna Road, in Palam Vihar or out in New Gurgaon joins the same expert teacher from home. No fighting the Cyber City rush hour or the NH-48 traffic. Every session is hands-on, live coding, screen-sharing and full recordings to revisit any lesson.How much do coding classes cost in Gurgaon?Group classes (15-20 students) start at Rs.1499/month for 2 live classes a week. Mini Batch (up to 6 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden charges.Will coding help my child with JEE and the CBSE/ICSE board exams in Gurgaon?Yes. Gurgaon is a competitive, results-driven city. Coding builds the precise logical reasoning, decomposition and problem-solving that JEE and Olympiads reward, and it directly supports CBSE/ICSE Computer Science, Informatics Practices and the NEP-2020 AI modules. Our Python and Java tracks line up with what is taught at DPS Gurgaon, The Shri Ram School, Pathways, Heritage and GD Goenka.What age is best to start coding in Gurgaon?Age 8 is the sweet spot to begin with visual block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always fits the child.What programming languages and courses do you teach in Gurgaon?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also teach school and Olympiad mathematics alongside coding.Do you prepare Gurgaon college students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is designed for students from Amity Gurugram, MDI Gurgaon, GD Goenka University, Ansal and ITM who are targeting the analyst, engineering and product roles at the Fortune-500 GCCs clustered in Cyber City and along Golf Course Road.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Which school board applies in Gurgaon, and does it differ from Noida?It differs, and the confusion is common. Gurgaon is in Haryana, so the state board is the Board of School Education Haryana at Bhiwani. Noida is in Uttar Pradesh under UPMSP. Both sit in the NCR and both are heavily CBSE in practice, with ICSE, IB and Cambridge IGCSE schools present, but the state machinery behind them is not the same.Can Gurugram University or MDI students join your programming courses?Yes. Cyber City is full of Global Capability Centres hiring engineers a few kilometres away, and they interview on what you have built. The college track exists for that: Python, Java, full-stack or AI/ML, taken as far as a working deployment.
 
 ## Ready to start your child's coding journey in Gurgaon?
 

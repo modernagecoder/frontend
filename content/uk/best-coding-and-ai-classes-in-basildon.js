@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Basildon',
   capsuleQ: 'Where can Basildon learners find the best coding and AI classes?',
-  capsule: 'The 2021 census recorded 187,571 people in Basildon borough; the ONS places 115,955 in the Basildon built-up area, 34,075 in Billericay and 27,535 in Wickford. Young children and adults in their early thirties are above the England share, while people in their early twenties and early seventies are below it. Learners aged 6 to 67 can study coding, AI, Python and maths with us live over video, taught by tutors in India either alone or among five to ten classmates who have reached the same step. One free session is enough for us to recommend a starting course. The Basildon project sorts the borough\'s census areas with one of computing\'s most famous algorithms. Afterwards, group lessons are USD 100 a month and private lessons USD 150 a month.',
+  capsule: 'The 2021 census recorded 187,571 people in Basildon borough; the ONS places 115,955 in the Basildon built-up area, 34,075 in Billericay and 27,535 in Wickford. Young children and adults in their early thirties are above the England share, while people in their early twenties and early seventies are below it. Learners aged 6 to 67 can study coding, AI, Python and maths with us live over video, taught by tutors in India either alone or among fifteen to twenty classmates who have reached the same step. One free session is enough for us to recommend a starting course. The Basildon project sorts the borough\'s census areas with one of computing\'s most famous algorithms. Afterwards, group lessons are USD 100 a month and private lessons USD 150 a month.',
   lead: 'For the 2021 census the ONS split Basildon borough into 584 output areas, the smallest areas for which it publishes counts. The smallest had 105 residents, the largest 712. Sorting them from smallest to largest sounds like a job any computer does instantly, and usually it is. Quicksort, the algorithm behind many real sorting routines, picks one value as a pivot, splits everything else into smaller and larger, and repeats. It is usually very fast. But feed it a list that is already in order, with the wrong pivot rule, and it slows to a crawl. A Basildon learner can count exactly how much slower, using the town\'s own census numbers, and then fix it with one small change.',
   wa: 'Hello Modern Age Coders, I would like a free coding or AI lesson for a learner in Basildon.',
 
@@ -162,7 +162,7 @@ module.exports = {
       { h3: 'The learner codes', p: 'Each program is typed by the student, while the tutor watches the shared screen and asks questions.' },
       { h3: 'Right starting point', p: 'From Year 3 to Year 13, school year and the trial decide where a learner starts, with the exam board in mind.' },
       { h3: 'First session free', p: 'We charge nothing for a full opening lesson and finish it by naming the course we think fits.' },
-      { h3: 'Groups that fit', p: 'Each class brings together five to ten learners from around the UK who are at the same stage.' },
+      { h3: 'Groups that fit', p: 'Each class brings together fifteen to twenty learners from around the UK who are at the same stage.' },
       { h3: 'Two a week in term', p: 'Holidays stay free.' },
       { h3: 'Constant time slot', p: 'Our tutors adjust for UK clock changes, not you.' }
     ],

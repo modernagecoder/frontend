@@ -209,7 +209,7 @@
       },
       {
         "type": "paragraph",
-        "text": "A search engine is a good example of learning by building, one of the principles on our <a href='/how-we-teach'>how we teach</a> page: forty lines of Python teach dictionaries, loops and sorting in a way no worksheet can. Tracing the code line by line until every step can be predicted is how a result like the Scratch post topping a Python search stops being a mystery. Our <a href='/courses/python-complete-masterclass-teens'>Python course for teens</a> runs one to one or in small groups of 5 to 10."
+        "text": "A search engine is a good example of learning by building, one of the principles on our <a href='/how-we-teach'>how we teach</a> page: forty lines of Python teach dictionaries, loops and sorting in a way no worksheet can. Tracing the code line by line until every step can be predicted is how a result like the Scratch post topping a Python search stops being a mystery. Our <a href='/courses/python-complete-masterclass-teens'>Python course for teens</a> runs one to one or in groups of 15 to 20."
       },
       {
         "type": "embed",

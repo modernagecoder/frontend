@@ -60,7 +60,7 @@ module.exports = {
 
   h1: 'Coding classes in Fingal',
   capsuleQ: 'What are the best coding classes in Fingal?',
-  capsule: 'Fingal is not a county, though it is often called one: it is one of the four local authorities that make up County Dublin, covering about 450 square kilometres from Blanchardstown and Castleknock up through Swords to Balbriggan and the coast. Its population was 330,506 at the 2022 census, and 159,994 of those people live inside the Dublin city and suburbs built-up area, which is roughly half of Fingal. It is young: Balbriggan\'s average age of 33.6 is among the lowest anywhere. We teach learners aged 6 to 67 live online at a fixed weekly hour, in ability groups of five to ten or one to one, with a free first lesson and then USD 100 a month in a group or USD 150 privately.',
+  capsule: 'Fingal is not a county, though it is often called one: it is one of the four local authorities that make up County Dublin, covering about 450 square kilometres from Blanchardstown and Castleknock up through Swords to Balbriggan and the coast. Its population was 330,506 at the 2022 census, and 159,994 of those people live inside the Dublin city and suburbs built-up area, which is roughly half of Fingal. It is young: Balbriggan\'s average age of 33.6 is among the lowest anywhere. We teach learners aged 6 to 67 live online at a fixed weekly hour, in ability groups of fifteen to twenty or one to one, with a free first lesson and then USD 100 a month in a group or USD 150 privately.',
   lead: 'Fingal County Council publishes 419 datasets, far more than most Irish local authorities, and one of them counts visitors to Newbridge House in Donabate. It has 31 rows and looks completely ordinary. Add up its visitor column and you get 379,230 people. The true figure is 189,615, exactly half, because three of those 31 rows are not months at all: they are totals for 2021, 2022 and 2023, sitting in the same column as the data they summarise. Sum everything and you count every visitor twice, and the answer is not obviously wrong, because nothing about it looks odd. That is the most common way a published total goes astray, and it is almost invisible unless you look at the rows themselves. This page teaches that habit, on a file from the learner\'s own council.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Fingal.',
 
@@ -199,7 +199,7 @@ module.exports = {
       { h3: 'No run to a centre', p: 'A learner in Garristown and one in Castleknock join the same class, which no room in either place could arrange on a weekday evening.' },
       { h3: 'School words as used here', p: 'Junior Cycle, Transition Year, fifth and sixth year, spoken the way Fingal schools speak them.' },
       { h3: 'The free lesson teaches', p: 'A real task, a real teacher, and a clear recommendation at the end. Nobody is asked for card details to take it.' },
-      { h3: 'Sorted by ability', p: 'Five to ten learners at one level, gathered from Fingal and several other countries so that each level meets at a sensible hour.' },
+      { h3: 'Sorted by ability', p: 'Fifteen to twenty learners at one level, gathered from Fingal and several other countries so that each level meets at a sensible hour.' },
       { h3: 'A fixed hour weekly', p: 'Usually two lessons a week, around eight a month, with mid-terms, exams and holidays planned around in advance.' },
       { h3: 'The clocks, briefly', p: 'Indian time holds steady while Irish time moves, so our teachers are four and a half hours ahead in summer and five and a half in winter.' }
     ],
@@ -210,7 +210,7 @@ module.exports = {
     h2: 'What classes cost in Fingal',
     intro: 'The price, in three lines.',
     first: 'One full lesson at no charge, ending with a level named and a course recommended.',
-    group: 'A month of classes, normally eight, shared with five to ten learners of similar ability.',
+    group: 'A month of classes, normally eight, shared with fifteen to twenty learners of similar ability.',
     private: 'The same month of classes, with the teacher working with a single learner.',
     closer: 'Billing is monthly in US dollars at the one rate charged outside India, so Skerries pays what Mulhuddart pays and there is no euro list. Nothing is charged until the free lesson has produced a course and a weekly hour, and pauses, missed lessons and format changes are set out on the pricing page.'
   },
@@ -235,7 +235,7 @@ module.exports = {
       { q: 'Why do census tables call Fingal towns County Dublin?', a: 'It is a naming convention that predates the 1994 division of the old county into four authorities. The label is historical rather than wrong, and it is a good example of administrative history surviving inside data.' },
       { q: 'What hours do classes run?', a: 'Afternoons, evenings and weekend mornings. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter, and the weekly slot is fixed during the free lesson.' },
       { q: 'Is there a Modern Age Coders classroom in Fingal?', a: 'No, and we never suggest one. All teaching happens live over video, with no premises in Ireland at all. A learner needs a laptop or desktop, sound that works and a steady connection, and the number on this page belongs to India.', boiler: true },
-      { q: 'What do Fingal coding classes cost?', a: 'The first lesson is free. After that, a shared place costs USD 100 a month and brings two live lessons a week, roughly eight monthly, with five to ten learners; one-to-one on the same schedule is USD 150 a month. Course, format and hour are agreed before payment.', boiler: true },
+      { q: 'What do Fingal coding classes cost?', a: 'The first lesson is free. After that, a shared place costs USD 100 a month and brings two live lessons a week, roughly eight monthly, with fifteen to twenty learners; one-to-one on the same schedule is USD 150 a month. Course, format and hour are agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than by age or address. Where nothing suitable runs at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

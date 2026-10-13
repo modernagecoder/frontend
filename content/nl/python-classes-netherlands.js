@@ -51,7 +51,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Modern Age Coders teaches Python live online to learners in the Netherlands from six to sixty-seven. Children type their first Python at around nine; teenagers build the full language over two years; students and adults learn it from scratch or deepen it for automation, web development, data science and AI, with optional preparation for the PCEP and PCAP certifications. Learners are placed by ability, in groups of five to ten or one to one, and every lesson is taught in English by a live teacher. The first lesson is free; after that, a group place costs USD 100 a month and private lessons USD 150.',
+  capsule: 'Modern Age Coders teaches Python live online to learners in the Netherlands from six to sixty-seven. Children type their first Python at around nine; teenagers build the full language over two years; students and adults learn it from scratch or deepen it for automation, web development, data science and AI, with optional preparation for the PCEP and PCAP certifications. Learners are placed by ability, in groups of fifteen to twenty or one to one, and every lesson is taught in English by a live teacher. The first lesson is free; after that, a group place costs USD 100 a month and private lessons USD 150.',
 
   picks: {
     eyebrow: 'Start here',
@@ -188,7 +188,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first lesson', p: 'The learner writes real Python while the teacher watches, and the right starting rung becomes obvious.' },
-      { h3: 'Groups of five to ten', p: 'Learners from several countries at the same level, so a quick learner is stretched and a beginner is not rushed.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners from several countries at the same level, so a quick learner is stretched and a beginner is not rushed.' },
       { h3: 'One to one if preferred', p: 'For deadlines, certification, a specific project or a learner who works best alone with a teacher.' },
       { h3: 'Code read aloud', p: 'Teachers ask learners to explain their code line by line, the habit Python\'s readability was designed for.' },
       { h3: 'In English', p: 'Python\'s keywords, error messages and documentation are in English; lessons are too, with Dutch school terms kept.' },
@@ -204,7 +204,7 @@ module.exports = {
     h2: 'Python lesson fees',
     lede: 'Monthly, in US dollars, at the same rates for every country outside India. No enrolment fee, no annual contract, and the same price for every Python course.',
     free: ['A real Python lesson', 'Places you at the right rung', 'No card needed'],
-    group: ['Five to ten learners at one level', 'The same live teacher each week', 'Code reviewed every week', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same live teacher each week', 'Code reviewed every week', 'A certificate at the end'],
     one: ['A teacher to yourself', 'Pace and focus set by your goal', 'Good for certification and deadlines']
   },
 

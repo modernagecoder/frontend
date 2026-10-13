@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Bamber Bridge',
   capsuleQ: 'Which coding and AI classes are best for Bamber Bridge?',
-  capsule: 'The 2021 census put 40,360 usual residents in the ONS built-up area of Bamber Bridge; South Ribble, which holds most of it, recorded 111,035. Gazetteer suburbs in the town include Walton-le-Dale, Tardy Gate and Clayton Brook. Learners here, from six years old to 67, can take coding, AI, Python, vibe coding or maths with Modern Age Coders: each lesson is live on video with a tutor in India, taught privately or to a small class of five to ten who share a level. The Bamber Bridge project is about a kind of search that timetables, calendars and monitoring systems do constantly: given thousands of overlapping time spans, which ones cover this exact moment? Learners build an interval tree over a year of rain records from four gauges near the town. The first lesson is free; then USD 100 a month in a group or USD 150 a month one-to-one.',
+  capsule: 'The 2021 census put 40,360 usual residents in the ONS built-up area of Bamber Bridge; South Ribble, which holds most of it, recorded 111,035. Gazetteer suburbs in the town include Walton-le-Dale, Tardy Gate and Clayton Brook. Learners here, from six years old to 67, can take coding, AI, Python, vibe coding or maths with Modern Age Coders: each lesson is live on video with a tutor in India, taught privately or to a class of fifteen to twenty who share a level. The Bamber Bridge project is about a kind of search that timetables, calendars and monitoring systems do constantly: given thousands of overlapping time spans, which ones cover this exact moment? Learners build an interval tree over a year of rain records from four gauges near the town. The first lesson is free; then USD 100 a month in a group or USD 150 a month one-to-one.',
   lead: 'A calendar app asks which meetings are happening at 10 o\'clock. A server log, a train control room and a weather service ask the same sort of question about spans of time, over and over. Checking every span each time works, but it is slow when there are thousands. An interval tree answers the question by looking at only a handful. Bamber Bridge learners build one in Python and feed it a year of rain from the Environment Agency gauges around the town, then ask a simple daily question: at half past eight in the morning, where was it raining?',
   wa: 'Hello Modern Age Coders, we are in Bamber Bridge and would like to book a free coding or AI lesson.',
 
@@ -158,7 +158,7 @@ module.exports = {
       { h3: 'The learner codes', p: 'Tutors guide with questions; learners do the typing, running and fixing.' },
       { h3: 'We place, then suggest', p: 'The free lesson shows the learner\'s level before any course is proposed.' },
       { h3: 'First lesson free', p: 'A full lesson at no charge, with no card details taken.' },
-      { h3: 'Level-matched groups', p: 'Five to ten learners at one stage, from towns all over the UK.' },
+      { h3: 'Level-matched groups', p: 'Fifteen to twenty learners at one stage, from towns all over the UK.' },
       { h3: 'Two a week in term', p: 'Share the Lancashire term dates you follow and we leave holidays free.' },
       { h3: 'Fixed UK time', p: 'Clock changes in spring and autumn are the tutor\'s job, not yours.' }
     ],

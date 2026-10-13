@@ -191,7 +191,7 @@ module.exports = {
       { h3: 'Getting set up', p: 'Learners need only a laptop or desktop, a headset or built-in mic, and internet that copes with video.' },
       { h3: 'NSW year levels', p: 'Teachers plan around New South Wales year levels and term dates, teaching in English.' },
       { h3: 'Free trial class', p: 'The first lesson is a full class and ends with a recommended course and time.' },
-      { h3: 'Groups of a level', p: 'Each group has five to ten learners at the same level, from Grafton and elsewhere.' },
+      { h3: 'Groups of a level', p: 'Each group has fifteen to twenty learners at the same level, from Grafton and elsewhere.' },
       { h3: 'Twice a week', p: 'Groups meet on two set days weekly, close to eight lessons a month.' },
       { h3: 'India-based teachers', p: 'Our teachers work in India, and every lesson is booked in Grafton time.' }
     ],
@@ -202,7 +202,7 @@ module.exports = {
     h2: 'Grafton class fees',
     intro: 'Pricing is simple and the same throughout Australia.',
     first: 'The first class is free, finishing with a suggested level, course and weekly time.',
-    group: 'A month of group classes, close to eight, with five to ten learners at one level.',
+    group: 'A month of group classes, close to eight, with fifteen to twenty learners at one level.',
     private: 'Close to eight private lessons a month with your own teacher.',
     closer: 'Outside India, fees are charged in US dollars, and Grafton pays what all of Australia pays. Nothing is billed until the trial settles what to study and when; holidays, absences and switching formats are all covered on our pricing page.'
   },
@@ -227,7 +227,7 @@ module.exports = {
       { q: 'When are Grafton lessons held?', a: 'Weekday afternoons, early evenings and Saturday mornings are popular, always set in Grafton time.' },
       { q: 'Is there anything for primary school children?', a: 'Yes. Children from six begin with Scratch and block coding; the federated project suits teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Grafton?', a: 'No. We have no premises in Australia and claim none. All classes are live online; learners need a computer and a dependable connection, and our listed phone number is in India.', boiler: true },
-      { q: 'What do Grafton AI classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one-to-one. All of it is agreed before payment.', boiler: true },
+      { q: 'What do Grafton AI classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one-to-one. All of it is agreed before payment.', boiler: true },
       { q: 'How many learners share a group?', a: 'Five to ten, grouped by level and goals rather than age or town. If no group time suits, one-to-one lessons are offered.', boiler: true }
     ]
   },

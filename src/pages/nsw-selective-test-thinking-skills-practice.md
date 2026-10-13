@@ -183,7 +183,7 @@ Our teachers are in India, which is behind New South Wales. In Sydney during day
 
 - **Arguments discussed aloud** Students explain the flaw before the class moves on.
 - **Puzzles with reasons** Every answer needs a sentence of justification.
-- **Five to ten per group** Small enough for everyone to speak.
+- **Fifteen to twenty per group** Small enough for everyone to speak.
 - **Private lessons** For a child who wants focused one-to-one time.
 - **Not test coaching** We teach thinking skills for life, as the department advises.
 - **No promises** Selection decisions belong to the department; we claim nothing about them.
@@ -193,7 +193,7 @@ Our teachers are in India, which is behind New South Wales. In Sydney during day
 We charge NSW families monthly in US dollars, as we do in every country outside India. No deposit, and no minimum number of months.
 
 - Free first class: USD 0. A real lesson with a teacher. Honest advice, even if it is that no classes are needed. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. A regular teacher. Discussion and feedback every week. Certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. A regular teacher. Discussion and feedback every week. Certificate at the end.
 - One to one: USD 150 a month. One-to-one teaching. Focus on chosen skills. Flexible weekly time.
 
 ## What families ask about this section

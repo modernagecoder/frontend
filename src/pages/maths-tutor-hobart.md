@@ -4,7 +4,7 @@ description: "Online maths tutor for Hobart, Prep to Year 12 and adults: the Tas
 canonical: https://learn.modernagecoders.com/maths-tutor-hobart
 source: src/pages/maths-tutor-hobart.html
 ---
-> Modern Age Coders is an online maths tutor for Hobart learners aged 6 to 67, teaching primary and high school maths and the TASC senior courses, including General Mathematics, Mathematics Methods and Mathematics Specialised, plus adult maths. Teaching happens over live video, booked in Hobart time, privately or in a class of five to ten matched by level. Our Hobart example measures Pinnacle Road from LIST data: about 806 metres of climb over 10,574 metres of road, a 7.62% grade. The opening lesson is free.
+> Modern Age Coders is an online maths tutor for Hobart learners aged 6 to 67, teaching primary and high school maths and the TASC senior courses, including General Mathematics, Mathematics Methods and Mathematics Specialised, plus adult maths. Teaching happens over live video, booked in Hobart time, privately or in a class of fifteen to twenty matched by level. Our Hobart example measures Pinnacle Road from LIST data: about 806 metres of climb over 10,574 metres of road, a 7.62% grade. The opening lesson is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Maths tutor in Hobart
 
@@ -14,7 +14,7 @@ Hobart · Prep to Year 12 and adults · Live online maths
 
 Anyone who has driven up kunanyi knows the road is steep, but how steep? The LIST, Tasmania's official map data, lets us measure it. Pinnacle Road starts between the 460 and 470 metre contour lines and climbs to a spot height of 1,271 metres, over about 10.6 kilometres of road. That is an average grade of about 7.6%, an angle of only 4.4 degrees. Draw a straight line from the bottom to the top instead and the grade jumps to 26.5%. Two honest answers to one question, and the difference is the whole point of gradient: it depends on what you count as the run. That is how we teach maths to Hobart learners, from Prep number work to TASC Mathematics Specialised.
 
-At a glance: Learners: Aged 6 to 67; Prep to 6: Number, fractions, measuring; Years 7 to 10: Algebra, graphs, trigonometry; TASC: Levels 2, 3 and 4; Grown-ups: Work maths and refreshers; Format: Private or a class of five to ten; Clock: Booked in Hobart time; Local project: Pinnacle Road gradient. Rated 4.9 across 547 Google reviews.
+At a glance: Learners: Aged 6 to 67; Prep to 6: Number, fractions, measuring; Years 7 to 10: Algebra, graphs, trigonometry; TASC: Levels 2, 3 and 4; Grown-ups: Work maths and refreshers; Format: Private or a class of fifteen to twenty; Clock: Booked in Hobart time; Local project: Pinnacle Road gradient. Rated 4.9 across 547 Google reviews.
 
 ## Three courses most Hobart learners need
 
@@ -266,14 +266,14 @@ The routine is simple, and it stays the same through the clock changes in Octobe
 One monthly fee, charged in US dollars to families outside India; there is no joining fee and no minimum term.
 
 - Free first class: USD 0. A complete lesson at the right level. Plain advice on next steps. No card required.
-- Group batch: USD 100 a month. A class of five to ten at one level. One teacher all term. Homework marked. Cancel at the end of any month.
+- Group batch: USD 100 a month. A class of fifteen to twenty at one level. One teacher all term. Homework marked. Cancel at the end of any month.
 - One to one: USD 150 a month. A teacher just for the learner. Shaped around one goal. Handy before TASC exams.
 
 ## Maths tutoring in Hobart: common questions
 
 ### Do you tutor maths for Hobart students online?
 
-Yes. Every lesson is live on video and booked in Hobart time, either privately or in a class of five to ten learners at the same level.
+Yes. Every lesson is live on video and booked in Hobart time, either privately or in a class of fifteen to twenty learners at the same level.
 
 ### Which TASC maths courses can you help with?
 

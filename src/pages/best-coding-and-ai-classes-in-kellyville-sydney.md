@@ -16,7 +16,7 @@ Kellyville, The Hills Shire, Sydney / Live online
 
 Kellyville has a metro station that Transport for NSW counts every month. We took the 23 monthly entry totals from October 2024 to August 2026 and asked a question that sounds simple: for each month, how long did the station wait before a busier month arrived? March 2025 logged 112,923 entries and was not beaten until March 2026. August 2026, at 119,415, has not been beaten at all in the published data. Answering the question for every month with two nested loops is easy; answering it in a single pass needs a monotonic stack, one of the most useful tricks a young programmer can learn.
 
-Facts last verified 10 October 2026. Teaching is online; no Kellyville branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Kellyville branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that lead to thinking like an engineer
 
@@ -191,7 +191,7 @@ Families in Kellyville can skip the drive to a coding centre; the lesson comes t
 - **At home** A laptop or desktop with sound is enough. Younger children usually have a parent nearby for the first lesson.
 - **NSW calendar** Plans follow NSW stages and pause for the state holidays, so the teaching rhythm matches the school year.
 - **Free first class** The trial is a real lesson, after which the teacher recommends a course and time, with nothing to pay.
-- **Small groups** Five to ten learners at a matched level, drawn from many places, or one to one if preferred.
+- **Small groups** Fifteen to twenty learners at a matched level, drawn from many places, or one to one if preferred.
 - **Twice weekly** A fixed slot on two days a week, around eight lessons a month, with breaks agreed in advance.
 - **India time** Our teachers work in India. A 5pm Kellyville lesson in summer is 11:30am India time, and 12:30pm there once Sydney leaves daylight saving.
 
@@ -202,7 +202,7 @@ Families in Kellyville can skip the drive to a coding centre; the lesson comes t
 Three numbers cover the whole price.
 
 - First class: USD 0. The opening lesson is free and finishes with a recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, usually eight, with five to ten learners.
+- Group tuition: USD 100 a month. A month of group lessons, usually eight, with fifteen to twenty learners.
 - Private tuition: USD 150 a month. About eight lessons a month, one teacher with one learner.
 
 Families outside India pay in US dollars, one price whatever the suburb. Payment only starts once a course and time are agreed after the trial; holidays and missed lessons are explained on the pricing page.
@@ -243,11 +243,11 @@ No. Every lesson is live online and we have no premises in Australia. The phone 
 
 ### What do Kellyville coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one.
 
 ### How big are the groups?
 
-Five to ten learners, matched by level and pace. If no group fits the learner's time, one-to-one lessons are available.
+Fifteen to twenty learners, matched by level and pace. If no group fits the learner's time, one-to-one lessons are available.
 
 ## More for Kellyville learners
 

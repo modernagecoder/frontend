@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Helmond for ages 6 to
 canonical: https://learn.modernagecoders.com/coding-classes-in-helmond
 source: src/pages/coding-classes-in-helmond.html
 ---
-> Coding classes in Helmond serve 96,860 people (statistics office, 1 January 2026) in a textile town of twelve wijken east of Eindhoven, enlarged in 1968 with Stiphout and Mierlo-Hout. Helmond kept no evidence of its city rights. The encyclopaedia says they are generally assumed to date from the same period as those of its neighbour Eindhoven, in or around 1232, which is the year Eindhoven received its rights from Duke Henry I of Brabant. So the two towns share a charter year because one was copied from the other, and that agreement proves nothing. Modern Age Coders teaches live online in English across Helmond, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Helmond serve 96,860 people (statistics office, 1 January 2026) in a textile town of twelve wijken east of Eindhoven, enlarged in 1968 with Stiphout and Mierlo-Hout. Helmond kept no evidence of its city rights. The encyclopaedia says they are generally assumed to date from the same period as those of its neighbour Eindhoven, in or around 1232, which is the year Eindhoven received its rights from Duke Henry I of Brabant. So the two towns share a charter year because one was copied from the other, and that agreement proves nothing. Modern Age Coders teaches live online in English across Helmond, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Helmond
 
@@ -12,11 +12,11 @@ Helmond, Noord-Brabant / Live online
 
 # Coding classes in Helmond, where the year of the city charter was borrowed from the neighbours
 
-**What are the best coding classes in Helmond?** Coding classes in Helmond serve 96,860 people (statistics office, 1 January 2026) in a textile town of twelve wijken east of Eindhoven, enlarged in 1968 with Stiphout and Mierlo-Hout. Helmond kept no evidence of its city rights. The encyclopaedia says they are generally assumed to date from the same period as those of its neighbour Eindhoven, in or around 1232, which is the year Eindhoven received its rights from Duke Henry I of Brabant. So the two towns share a charter year because one was copied from the other, and that agreement proves nothing. Modern Age Coders teaches live online in English across Helmond, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Helmond?** Coding classes in Helmond serve 96,860 people (statistics office, 1 January 2026) in a textile town of twelve wijken east of Eindhoven, enlarged in 1968 with Stiphout and Mierlo-Hout. Helmond kept no evidence of its city rights. The encyclopaedia says they are generally assumed to date from the same period as those of its neighbour Eindhoven, in or around 1232, which is the year Eindhoven received its rights from Duke Henry I of Brabant. So the two towns share a charter year because one was copied from the other, and that agreement proves nothing. Modern Age Coders teaches live online in English across Helmond, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Ask when Helmond became a city and most lists will give 1232. Ask where that year comes from and the answer is Eindhoven: Helmond has kept no evidence of a grant, and the usual assumption is that its rights came in the same period as its neighbour, which received them in 1232 from the same duke who had founded Helmond in 1225. There is nothing wrong with a reasonable assumption. What goes wrong is what happens next, when the filled-in year sits in a table beside the recorded one and somebody notices that the two neighbouring towns were chartered in the same year. They were chartered in the same year because the table was filled in to say so. Programmers call it imputation, and the rule it breaks is simple: a value you filled in cannot be used as evidence for the rule you filled it in with.
 
-Facts last verified 11 September 2026. Teaching is online; no Helmond branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Helmond branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a town between the Peel and Brainport
 
@@ -184,7 +184,7 @@ Helmond reaches from the castle and the Binnenstad out to Brandevoort in the wes
 - **From Brandevoort or Dierdonk, nothing to drive** A class in Eindhoven means the car or the train twice a week, and even across Helmond itself it is a ride there and back. The online lesson starts at the kitchen table at the agreed hour, and the travel simply drops out of the week.
 - **Groep, havo and vwo, kept Dutch** The school words a Helmond child reads on every report stay in Dutch during lessons: groep, havo, vwo, profielkeuze. Nothing is lost translating the school system, because it is never translated.
 - **The first lesson is a lesson** A real task, worked through with a teacher who watches how the learner goes about it. It ends with a level, a course and a regular time, and it never asks for a card number or turns into a sales conversation.
-- **Groups built by stage** Five to ten learners at the same point in the same subject. Helmond has 14,407 residents under fifteen, and still five at one exact stage wanting one exact hour is rare, so groups are drawn from a worldwide pool and start promptly.
+- **Groups built by stage** Fifteen to twenty learners at the same point in the same subject. Helmond has 14,407 residents under fifteen, and still five at one exact stage wanting one exact hour is rare, so groups are drawn from a worldwide pool and start promptly.
 - **Regio Zuid, in the diary** Two lessons a week, around eight a month, at one fixed hour. Noord-Brabant schools take regio Zuid holidays, on dates that differ from the west of the country, and lessons are planned around them from the first month.
 - **The hour, winter and summer** India is three and a half hours ahead of Helmond in summer and four and a half in winter; only the Dutch clocks move. The late afternoon, the early evening and weekend mornings all stay available through the year.
 
@@ -195,7 +195,7 @@ Helmond reaches from the castle and the Binnenstad out to Brandevoort in the wes
 The full fee is here on the page, not saved for a phone call.
 
 - First class: USD 0. A complete taught lesson, ending with a level and a named course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 Every country pays the same dollar figure and there is no euro list, so a family in Brandevoort and one in the Binnenstad see the same price. Nothing is charged until the free lesson has settled a course and a weekly hour, and payment is then arranged over WhatsApp. Pauses, format changes and missed lessons are covered on the pricing page.
@@ -236,7 +236,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Helmond coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

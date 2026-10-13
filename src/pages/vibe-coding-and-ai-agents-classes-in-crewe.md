@@ -4,7 +4,7 @@ description: "Online vibe coding, AI agents, Python and coding classes for Crewe
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-crewe
 source: src/pages/vibe-coding-and-ai-agents-classes-in-crewe.html
 ---
-> The ONS counted 74,120 people in the Crewe built-up area at the 2021 census, in a Cheshire East of 398,772 that also includes Nantwich, Alsager, Sandbach and Haslington. From six-year-olds to adults of 67, anyone here can join India-based tutors on a video call for vibe coding, AI agents, Python, coding and maths, taught privately or in classes of five to ten grouped by level. Reasoning is taught ahead of any tool, which means an agent's behaviour makes sense to the person running it. We waive the fee for lesson one and close it with a recommendation. The Crewe project sets an AI agent loose on the town centre's real street map and asks what learning by trial and error really costs. To keep going, budget USD 100 monthly for a class place or USD 150 monthly for private tuition.
+> The ONS counted 74,120 people in the Crewe built-up area at the 2021 census, in a Cheshire East of 398,772 that also includes Nantwich, Alsager, Sandbach and Haslington. From six-year-olds to adults of 67, anyone here can join India-based tutors on a video call for vibe coding, AI agents, Python, coding and maths, taught privately or in classes of fifteen to twenty grouped by level. Reasoning is taught ahead of any tool, which means an agent's behaviour makes sense to the person running it. We waive the fee for lesson one and close it with a recommendation. The Crewe project sets an AI agent loose on the town centre's real street map and asks what learning by trial and error really costs. To keep going, budget USD 100 monthly for a class place or USD 150 monthly for private tuition.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Crewe
 
@@ -12,11 +12,11 @@ Crewe, Cheshire East, England / Live online
 
 # Vibe coding and AI agents classes in Crewe
 
-**Where can Crewe learners find the best vibe coding and AI agents classes?** The ONS counted 74,120 people in the Crewe built-up area at the 2021 census, in a Cheshire East of 398,772 that also includes Nantwich, Alsager, Sandbach and Haslington. From six-year-olds to adults of 67, anyone here can join India-based tutors on a video call for vibe coding, AI agents, Python, coding and maths, taught privately or in classes of five to ten grouped by level. Reasoning is taught ahead of any tool, which means an agent's behaviour makes sense to the person running it. We waive the fee for lesson one and close it with a recommendation. The Crewe project sets an AI agent loose on the town centre's real street map and asks what learning by trial and error really costs. To keep going, budget USD 100 monthly for a class place or USD 150 monthly for private tuition.
+**Where can Crewe learners find the best vibe coding and AI agents classes?** The ONS counted 74,120 people in the Crewe built-up area at the 2021 census, in a Cheshire East of 398,772 that also includes Nantwich, Alsager, Sandbach and Haslington. From six-year-olds to adults of 67, anyone here can join India-based tutors on a video call for vibe coding, AI agents, Python, coding and maths, taught privately or in classes of fifteen to twenty grouped by level. Reasoning is taught ahead of any tool, which means an agent's behaviour makes sense to the person running it. We waive the fee for lesson one and close it with a recommendation. The Crewe project sets an AI agent loose on the town centre's real street map and asks what learning by trial and error really costs. To keep going, budget USD 100 monthly for a class place or USD 150 monthly for private tuition.
 
 Some AI agents are not told how to do a job; they are rewarded for doing it well and left to work out the rest. This approach, reinforcement learning, is used to train game-playing programs, and a simple version called Q-learning fits in a page of Python. This project gives a Q-learning agent the real street map of central Crewe from OpenStreetMap and one goal: walk from the Crewe Heritage Centre to Crewe Library by the shortest route. The agent is never shown the answer. It wanders, remembers what each move cost, and slowly improves. Then the learner compares it with a planner that simply reads the map.
 
-Facts last verified 29 September 2026. Teaching is online; no Crewe branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Crewe branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Crewe choices for thinking, vibe coding and agents
 
@@ -137,7 +137,7 @@ Any home in Cheshire East with a computer and steady internet can join.
 - **The student builds** Learners type, prompt and test the code themselves while the tutor watches their screen and asks the next question.
 - **The trial decides the start** A Year 4 or a Year 13 begins where the free lesson places them, with exam boards recorded.
 - **Free opening lesson** Lesson one costs nothing and ends with a recommended course.
-- **Classes at one level** Every group mixes five to ten learners from around the UK who are equally far along.
+- **Classes at one level** Every group mixes fifteen to twenty learners from around the UK who are equally far along.
 - **Twice a week** Paused during the school holidays.
 - **Constant lesson times** Tutors adapt to UK clock changes, so the slot never moves.
 

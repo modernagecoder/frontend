@@ -177,7 +177,7 @@ Teachers work from India, which is behind every Australian time zone. A 5 pm les
 
 - **Code read aloud** Students explain each line before changing it.
 - **Tests first** Boundaries and bad input are tried on every program.
-- **Five to ten per group** Placed by skill so everyone works at the right pace.
+- **Fifteen to twenty per group** Placed by skill so everyone works at the right pace.
 - **Private lessons** Chosen for a specific gap or a student moving fast.
 - **Notes for parents** A line on what was covered and what to ask about.
 - **Honest about school work** We teach technique; assessed projects stay the student's own.
@@ -187,7 +187,7 @@ Teachers work from India, which is behind every Australian time zone. A 5 pm les
 Australian families are billed each month in US dollars at our standard rate outside India. There is no deposit, and you can stop at the end of any month.
 
 - Free first class: USD 0. A real lesson with a teacher. An honest read on your child's level. No card required.
-- Group batch: USD 100 a month. Five to ten students at one level. One teacher, every week. Code reviewed with comments. A certificate on completion.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. One teacher, every week. Code reviewed with comments. A certificate on completion.
 - One to one: USD 150 a month. A teacher for one student. Aimed at a particular goal. A weekly time that suits you.
 
 ## What families and students ask

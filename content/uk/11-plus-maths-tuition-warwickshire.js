@@ -190,7 +190,7 @@ module.exports = {
         ] },
         { kind: 'two', mt: true,
           left: [
-            'Lessons are live on video, in groups of five to ten matched by level, so a child in Warwick, Leamington Spa, Nuneaton or Kenilworth learns the same way as one in Stratford or Rugby.',
+            'Lessons are live on video, in groups of fifteen to twenty matched by level, so a child in Warwick, Leamington Spa, Nuneaton or Kenilworth learns the same way as one in Stratford or Rugby.',
             'For coding in the county, see our <a class="ag-inline-link" href="/coding-classes-in-united-kingdom">UK coding page</a>, which lists every area we cover.'
           ],
           right: [
@@ -262,7 +262,7 @@ module.exports = {
     cells: [
       { h3: 'Same teacher', p: 'Continuity, so habits are noticed.' },
       { h3: 'Honest notes', p: 'Short updates after lessons.' },
-      { h3: 'Five to ten children', p: 'Grouped by level.' },
+      { h3: 'Fifteen to twenty children', p: 'Grouped by level.' },
       { h3: 'Our own questions', p: 'No GL or council material copied.' },
       { h3: 'One to one', p: 'For targeted help.' },
       { h3: 'Maths only', p: 'No reasoning or English coaching; no admissions advice.' }
@@ -277,7 +277,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Monthly, in US dollars, at one rate for all families outside India. No registration fee; leave any month.',
     free: ['A real lesson', 'A frank assessment', 'No card needed'],
-    group: ['Five to ten children at one level', 'A regular teacher', 'Work discussed in class', 'A certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'A regular teacher', 'Work discussed in class', 'A certificate at the end'],
     one: ['One child, one teacher', 'Focused on multi-step problems', 'Flexible scheduling']
   },
 

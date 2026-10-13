@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across County Mayo, from
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-mayo
 source: src/pages/coding-classes-in-county-mayo.html
 ---
-> Mayo is home to 137,970 people, 26,362 of them aged 15 or under, across three towns of size and a long Atlantic coast: Castlebar at 13,054, Ballina at 10,556 and Westport at 6,872. It has a Gaeltacht, an average age of 41.6 years and one of the oldest towns in the country. Our teaching is live and weekly, in ability groups of five to ten or one to one, open from age six to sixty-seven. Nothing is charged for the first lesson. A group place afterwards is USD 100 a month, one to one is USD 150.
+> Mayo is home to 137,970 people, 26,362 of them aged 15 or under, across three towns of size and a long Atlantic coast: Castlebar at 13,054, Ballina at 10,556 and Westport at 6,872. It has a Gaeltacht, an average age of 41.6 years and one of the oldest towns in the country. Our teaching is live and weekly, in ability groups of fifteen to twenty or one to one, open from age six to sixty-seven. Nothing is charged for the first lesson. A group place afterwards is USD 100 a month, one to one is USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Galway](/coding-classes-in-county-galway) / County Mayo
 
@@ -12,11 +12,11 @@ County Mayo, Connacht / Live online
 
 # Coding classes in County Mayo
 
-**What are the best coding classes in County Mayo?** Mayo is home to 137,970 people, 26,362 of them aged 15 or under, across three towns of size and a long Atlantic coast: Castlebar at 13,054, Ballina at 10,556 and Westport at 6,872. It has a Gaeltacht, an average age of 41.6 years and one of the oldest towns in the country. Our teaching is live and weekly, in ability groups of five to ten or one to one, open from age six to sixty-seven. Nothing is charged for the first lesson. A group place afterwards is USD 100 a month, one to one is USD 150.
+**What are the best coding classes in County Mayo?** Mayo is home to 137,970 people, 26,362 of them aged 15 or under, across three towns of size and a long Atlantic coast: Castlebar at 13,054, Ballina at 10,556 and Westport at 6,872. It has a Gaeltacht, an average age of 41.6 years and one of the oldest towns in the country. Our teaching is live and weekly, in ability groups of fifteen to twenty or one to one, open from age six to sixty-seven. Nothing is charged for the first lesson. A group place afterwards is USD 100 a month, one to one is USD 150.
 
 Here are two sentences about the Mayo Gaeltacht, both taken from the same official page. The population living there grew by 129 people. The number of people there who can speak Irish fell by three per cent. A reader who expects one of them to be wrong will waste a long time looking. They are both right, and they are not even in tension once you see what each is counting. This is the single most reliable way to be misled by a true statistic, and Mayo gives us four clean examples of it in one census. Once a learner can take any headline apart into its top half and its bottom half, a whole category of confident nonsense simply stops working on them.
 
-Facts last verified 16 September 2026. Teaching is online; no County Mayo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no County Mayo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four ways in
 
@@ -168,7 +168,7 @@ Six practical points, stated plainly.
 
 - **A live teacher, weekly** One hour with a person who asks questions and waits for the answer, not a video to watch alone.
 - **No journey at either end** Belmullet to Castlebar is over an hour each way. The class that requires none of that is the one still running at Easter.
-- **Ability groups of five to ten** Learners placed at one level, drawn from Mayo and several countries, so the group is a genuine match rather than whoever turned up.
+- **Ability groups of fifteen to twenty** Learners placed at one level, drawn from Mayo and several countries, so the group is a genuine match rather than whoever turned up.
 - **What a household needs** A laptop or desktop, working sound and a connection good enough for video, which the free lesson tests directly.
 - **Irish school year** Junior Cycle, Transition Year and senior cycle, with mid-terms and exam weeks built into the plan.
 - **When we teach** Afternoons, evenings and weekend mornings. Our teaching team sits several hours ahead of Irish time, which is what keeps those hours staffed.
@@ -180,7 +180,7 @@ Six practical points, stated plainly.
 Three figures, with the conditions written down rather than implied.
 
 - First class: USD 0. A complete first lesson at no charge, which also proves the connection.
-- Group tuition: USD 100 a month. A month of group classes, around eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group classes, around eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. A month of one to one teaching on the same weekly pattern.
 
 We charge monthly in US dollars, the one rate used outside India, so Belmullet pays what Castlebar pays and there is no second price list. Nothing is taken until a course and a weekly hour are agreed. The pricing page covers pauses, missed lessons and moving between group and one to one.
@@ -221,7 +221,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do County Mayo coding classes cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

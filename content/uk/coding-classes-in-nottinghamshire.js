@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Coding classes in Nottinghamshire',
   capsuleQ: 'What are the best coding classes in Nottinghamshire?',
-  capsule: 'Nottinghamshire here means the city of Nottingham together with the seven districts of Nottinghamshire County Council. Between them they held 1,148,455 people at the 2021 Census, a total we made by adding the eight published figures. After Nottingham come Mansfield, Carlton, Beeston and Worksop. Every lesson is live on video, taught from India, and learners join the class that fits their ability rather than the one that fits their age. Pupils range from six-year-olds to people of 67, learning coding, Python or maths in a class of five to ten or with a teacher of their own. The Nottinghamshire project comes from Newstead Abbey, Lord Byron\'s former home, and Byron\'s daughter Ada Lovelace. You pay nothing for a first lesson; after it, groups cost USD 100 a month and private lessons USD 150 a month.',
+  capsule: 'Nottinghamshire here means the city of Nottingham together with the seven districts of Nottinghamshire County Council. Between them they held 1,148,455 people at the 2021 Census, a total we made by adding the eight published figures. After Nottingham come Mansfield, Carlton, Beeston and Worksop. Every lesson is live on video, taught from India, and learners join the class that fits their ability rather than the one that fits their age. Pupils range from six-year-olds to people of 67, learning coding, Python or maths in a class of fifteen to twenty or with a teacher of their own. The Nottinghamshire project comes from Newstead Abbey, Lord Byron\'s former home, and Byron\'s daughter Ada Lovelace. You pay nothing for a first lesson; after it, groups cost USD 100 a month and private lessons USD 150 a month.',
   lead: 'Newstead Abbey, in Nottinghamshire, keeps Lord Byron\'s study and his belongings. His daughter was Ada Lovelace, who in 1843 published what is often called the first computer program: a step-by-step plan for Charles Babbage\'s Analytical Engine to compute the Bernoulli numbers. Babbage wrote that she caught "a grave mistake" in his working along the way. This page\'s project turns Ada\'s formula into a Python loop, checks it against the numbers as mathematicians write them today, and then runs it in ordinary computer decimals to see how far it can go before the answers become nonsense.',
   wa: 'Hello Modern Age Coders, we are in Nottinghamshire and would like a free lesson, please.',
 
@@ -165,7 +165,7 @@ module.exports = {
       { h3: 'At your own desk', p: 'A bedroom in Hucknall, a dining room in Southwell, a flat in Beeston. The learner codes while the teacher watches the same screen.' },
       { h3: 'Terms from school', p: 'When a Year 10 mentions a GCSE mock or a sixth former talks about A level options, the teacher knows exactly what they mean. Lessons are in English.' },
       { h3: 'A free lesson first', p: 'A genuine lesson, then a clear recommendation. No payment details are requested.' },
-      { h3: 'Learners at your level', p: 'Groups of five to ten at one stage, drawn from Nottinghamshire and far beyond.' },
+      { h3: 'Learners at your level', p: 'Groups of fifteen to twenty at one stage, drawn from Nottinghamshire and far beyond.' },
       { h3: 'Holidays by your calendar', p: 'Two lessons a week is the norm, and we pause for your school\'s own holidays.' },
       { h3: 'Always UK clock time', p: 'Slots are booked in UK time and do not move when the clocks change; the teacher keeps India time, several hours ahead, and makes the switch.' }
     ],
@@ -176,7 +176,7 @@ module.exports = {
     h2: 'Fees in Nottinghamshire',
     intro: 'A family in Worksop pays exactly what a family in West Bridgford pays, and the same as families in every country we teach apart from India.',
     first: 'A complete lesson of real work, then our honest suggestion of level and course.',
-    group: 'Roughly eight lessons a month with five to ten learners at one level.',
+    group: 'Roughly eight lessons a month with fifteen to twenty learners at one level.',
     private: 'Roughly eight lessons a month, one teacher to one learner.',
     closer: 'We invoice in US dollars and publish no sterling prices. The first invoice comes only after the free lesson, once a course and a regular weekly slot are settled. Holidays, a missed class, or a change from group to private are all explained on our pricing page.'
   },

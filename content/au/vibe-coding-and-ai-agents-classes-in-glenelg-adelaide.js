@@ -296,7 +296,7 @@ module.exports = {
       { h3: 'Shared screen', p: 'Prompts, code and test results are all read together.' },
       { h3: 'Term-time rhythm', p: 'Classes follow South Australian school terms with holiday breaks.' },
       { h3: 'Opening class free', p: 'A real first lesson, then honest advice on next steps.' },
-      { h3: 'Small groups', p: 'Five to ten learners at a matching level, or private lessons.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners at a matching level, or private lessons.' },
       { h3: 'Twice a week', p: 'Regular slots, roughly eight lessons a month.' },
       { h3: 'India time', p: 'Our teachers are in India: a 6pm Glenelg class is 1pm India time until early April, then 2pm.' }
     ],
@@ -309,7 +309,7 @@ module.exports = {
     h2: 'Glenelg class fees',
     intro: 'The same three prices for all.',
     first: 'Your first lesson is free and comes with a written plan.',
-    group: 'Group month: about eight lessons with five to ten learners.',
+    group: 'Group month: about eight lessons with fifteen to twenty learners.',
     private: 'Private month: about eight lessons with one teacher.',
     closer: 'Glenelg learners pay in US dollars after the trial, once course and timing are agreed. The pricing page details holidays and absences.'
   },
@@ -351,12 +351,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Glenelg learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Do Glenelg groups learn Copilot Studio?', a: 'No. Copilot Studio is kept for one-to-one lessons; groups build agents in Python.' }

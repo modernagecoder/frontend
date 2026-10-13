@@ -55,7 +55,7 @@ module.exports = {
   twitterDescription: 'Melbourne maths tutoring, live online: Prep to VCE and adult maths, in Melbourne time, with a real measuring project.',
   pageName: 'Maths Tutor in Melbourne',
   webPageDescription: 'Live online maths tutoring for learners in Greater Melbourne, from Prep to the four VCE mathematics studies and adult maths, with a unit-conversion project on the central city street grid.',
-  courseDescription: 'Live online maths lessons for Melbourne learners, one to one or in level-matched groups of five to ten, from early number to VCE Specialist Mathematics and adult maths.',
+  courseDescription: 'Live online maths lessons for Melbourne learners, one to one or in level-matched groups of fifteen to twenty, from early number to VCE Specialist Mathematics and adult maths.',
   crumbs: [
     { name: 'Courses', href: '/courses' },
     { name: 'Coding classes in Australia', href: '/coding-classes-in-australia' }
@@ -85,7 +85,7 @@ module.exports = {
     ['City project', 'The central city grid in chains']
   ],
   capsuleQ: 'Maths tutor in Melbourne, in brief',
-  capsule: 'Modern Age Coders is an online maths tutor for Melbourne learners aged 6 to 67. We teach primary and secondary maths and the four VCE mathematics studies, Foundation Mathematics, General Mathematics, Mathematical Methods and Specialist Mathematics, as well as adult maths. Lessons are live over video in Melbourne time, privately or in level-matched groups of five to ten, and the first lesson is free.',
+  capsule: 'Modern Age Coders is an online maths tutor for Melbourne learners aged 6 to 67. We teach primary and secondary maths and the four VCE mathematics studies, Foundation Mathematics, General Mathematics, Mathematical Methods and Specialist Mathematics, as well as adult maths. Lessons are live over video in Melbourne time, privately or in level-matched groups of fifteen to twenty, and the first lesson is free.',
   picks: {
     eyebrow: 'Popular with Melbourne families',
     h2: 'Three maths courses to start from',
@@ -352,7 +352,7 @@ module.exports = {
           kind: 'three',
           cells: [
             { h3: 'Private', p: 'One learner and one teacher, ideal before a SAC block or exam, or to rebuild a single topic.' },
-            { h3: 'Small group', p: 'Five to ten learners at one level, with discussion that often makes the idea click.' },
+            { h3: 'Small group', p: 'Fifteen to twenty learners at one level, with discussion that often makes the idea click.' },
             { h3: 'Working on screen', p: 'Learners write on a shared whiteboard so the teacher sees every step, not only the answer.' }
           ]
         }
@@ -434,7 +434,7 @@ module.exports = {
     cells: [
       { h3: 'A familiar teacher', p: 'The same person each week.' },
       { h3: 'Brief updates', p: 'Parents hear what changed.' },
-      { h3: 'Groups by stage', p: 'Five to ten per class.' },
+      { h3: 'Groups by stage', p: 'Fifteen to twenty per class.' },
       { h3: 'Maps and data', p: 'Real measurements beside textbook work.' },
       { h3: 'Private lessons', p: 'For one goal or deadline.' },
       { h3: 'Understanding first', p: 'Methods explained, then practised.' }
@@ -447,7 +447,7 @@ module.exports = {
     h2: 'Fees for maths tutoring in Melbourne',
     lede: 'Melbourne families pay a flat monthly fee in US dollars, with no joining fee and no lock-in.',
     free: ['A full first lesson', 'A frank summary afterwards', 'No card needed'],
-    group: ['Five to ten learners per class', 'One regular teacher', 'Practice marked and discussed', 'Stop any month'],
+    group: ['Fifteen to twenty learners per class', 'One regular teacher', 'Practice marked and discussed', 'Stop any month'],
     one: ['Private lessons', 'Shaped around one learner', 'Useful before SACs and exams']
   },
   faq: {

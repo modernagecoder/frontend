@@ -16,7 +16,7 @@ Larne, Mid and East Antrim, Northern Ireland / Live online
 
 Counting how many different things you have seen sounds trivial: keep a list and check each new item against it. At the scale of website visitors, search queries or map edits, that list becomes enormous. HyperLogLog, a neat trick from computer science, estimates the number of distinct items using a tiny, fixed amount of memory. It hashes each item to a random-looking number, keeps only the longest run of leading zeros seen in each of a set of buckets, and turns those records into an estimate. This project tests it on a real stream: every element of the OpenStreetMap data covering Larne, and who last edited it.
 
-Facts last verified 29 September 2026. Teaching is online; no Larne branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Larne branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Larne courses in thinking, Python and AI
 
@@ -134,7 +134,7 @@ All you need is a computer with a camera and an internet connection that copes w
 - **The student runs it** Learners type, prompt and run each step, and the tutor watches over screen share, asking how they would check it.
 - **Pitched at the trial** The free session shows where to begin, and any CCEA exam is noted.
 - **Nothing to pay first** Lesson one is free and finishes with a course suggestion.
-- **Matched groups** Five to ten learners from across the UK, placed by level.
+- **Matched groups** Fifteen to twenty learners from across the UK, placed by level.
 - **Two a week** Paused for school holidays.
 - **Fixed hour** Our tutors adjust to UK clock changes so your slot never moves.
 

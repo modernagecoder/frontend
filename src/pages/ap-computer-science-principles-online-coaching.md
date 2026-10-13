@@ -34,9 +34,9 @@ The course
 
 ## AP Computer Science Principles, taught live and paced to your entry date
 
-One course, two formats. A batch of five to eight students working toward the same session, or one to one where the project design and the written responses get rebuilt around this particular student.
+One course, two formats. A batch of fifteen to twenty students working toward the same session, or one to one where the project design and the written responses get rebuilt around this particular student.
 
-| What you get | In a batch of five to eight | One to one |
+| What you get | In a batch of fifteen to twenty | One to one |
 | --- | --- | --- |
 | Project design review | Once, before the build starts | Twice, and again if it drifts |
 | Prompt rehearsals under time | Four, on the same schedule | Six or more, scheduled to the student |
@@ -51,7 +51,7 @@ One course, two formats. A batch of five to eight students working toward the sa
 
 The short answer
 
-AP Computer Science Principles is College Board's broad, language-agnostic computing course. The end-of-course exam is 70 multiple-choice questions in 120 minutes, worth 70 per cent: 57 single-select, 5 single-select attached to a reading passage, and 8 multiple-select. The Create Performance Task, which students build across the year with nine hours of in-class time, is worth the other 30 per cent, but it is assessed by two written-response questions in the same exam session, in 60 minutes, covering four distinct prompts, with only the student's Personalized Project Reference available. Modern Age Coders teaches it live online, one to one or in batches of five to eight, from USD 100 a month, first class free.
+AP Computer Science Principles is College Board's broad, language-agnostic computing course. The end-of-course exam is 70 multiple-choice questions in 120 minutes, worth 70 per cent: 57 single-select, 5 single-select attached to a reading passage, and 8 multiple-select. The Create Performance Task, which students build across the year with nine hours of in-class time, is worth the other 30 per cent, but it is assessed by two written-response questions in the same exam session, in 60 minutes, covering four distinct prompts, with only the student's Personalized Project Reference available. Modern Age Coders teaches it live online, one to one or in batches of fifteen to twenty, from USD 100 a month, first class free.
 
 Module by module
 
@@ -205,7 +205,7 @@ The year, phase by phase
 
 ## How we sequence AP Computer Science Principles across a year
 
-Two live classes a week, one to one or in a batch of five to eight, with the project running alongside from the middle of the year rather than crammed into spring.
+Two live classes a week, one to one or in a batch of fifteen to twenty, with the project running alongside from the middle of the year rather than crammed into spring.
 
 1. #### Weeks 1 to 8: computing systems, networks and data
 
@@ -433,7 +433,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Past-paper work between classes, marked by the teacher
 - Certificate on completion
@@ -528,11 +528,11 @@ The program, video and Personalized Project Reference are developed across the y
 
 ### How much does the coaching cost?
 
-A group batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, the same figures everywhere we teach outside India. There is no enrolment fee and no minimum term, and the first class is free without a card.
+A group batch of fifteen to twenty students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, the same figures everywhere we teach outside India. There is no enrolment fee and no minimum term, and the first class is free without a card.
 
 ### Are classes live or recorded?
 
-Every class is live, one to one or in a batch of five to eight students, taught from India to students worldwide. We do not sell recordings in place of classes, because a recording cannot read a student's project and tell them there is no real algorithm in it yet.
+Every class is live, one to one or in a batch of fifteen to twenty students, taught from India to students worldwide. We do not sell recordings in place of classes, because a recording cannot read a student's project and tell them there is no real algorithm in it yet.
 
 ### Does my child need to know how to program first?
 
@@ -564,7 +564,7 @@ That depends on the institution and often the department, and several treat Prin
 
 ### How much work is there between classes?
 
-Timed question sets that the teacher marks, plus project work in the middle third of the year. Two to four hours a week during term, more in the final phase. Work that is not marked is not worth setting, which is why batches are capped at eight.
+Timed question sets that the teacher marks, plus project work in the middle third of the year. Two to four hours a week during term, more in the final phase. Work that is not marked is not worth setting, which is why batches are capped at twenty.
 
 ### Can my child join mid-year?
 

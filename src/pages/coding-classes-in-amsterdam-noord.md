@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Amsterdam-Noord for a
 canonical: https://learn.modernagecoders.com/coding-classes-in-amsterdam-noord
 source: src/pages/coding-classes-in-amsterdam-noord.html
 ---
-> Coding classes in Amsterdam-Noord reach 112,500 residents (1 January 2026) on 49.01 square kilometres, about half of which is a single rural wijk holding 2,357 people. In Volewijck the published age bands add to 9,305 against a published population of 9,277, a gap of 28. Five bands rounded to the nearest five can only be out by twelve and a half between them, so rounding cannot be the whole story, and this page says that rather than quietly closing the gap. Modern Age Coders teaches live online in English from the Van der Pekbuurt to Durgerdam, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Amsterdam-Noord reach 112,500 residents (1 January 2026) on 49.01 square kilometres, about half of which is a single rural wijk holding 2,357 people. In Volewijck the published age bands add to 9,305 against a published population of 9,277, a gap of 28. Five bands rounded to the nearest five can only be out by twelve and a half between them, so rounding cannot be the whole story, and this page says that rather than quietly closing the gap. Modern Age Coders teaches live online in English from the Van der Pekbuurt to Durgerdam, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Amsterdam](/coding-classes-in-amsterdam) / Amsterdam-Noord
 
@@ -12,11 +12,11 @@ Noord, Amsterdam / Live online
 
 # Coding classes in Amsterdam-Noord, where one neighbourhood's five age groups add up to 28 more people than live in it
 
-**What are the best coding classes in Amsterdam-Noord?** Coding classes in Amsterdam-Noord reach 112,500 residents (1 January 2026) on 49.01 square kilometres, about half of which is a single rural wijk holding 2,357 people. In Volewijck the published age bands add to 9,305 against a published population of 9,277, a gap of 28. Five bands rounded to the nearest five can only be out by twelve and a half between them, so rounding cannot be the whole story, and this page says that rather than quietly closing the gap. Modern Age Coders teaches live online in English from the Van der Pekbuurt to Durgerdam, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Amsterdam-Noord?** Coding classes in Amsterdam-Noord reach 112,500 residents (1 January 2026) on 49.01 square kilometres, about half of which is a single rural wijk holding 2,357 people. In Volewijck the published age bands add to 9,305 against a published population of 9,277, a gap of 28. Five bands rounded to the nearest five can only be out by twelve and a half between them, so rounding cannot be the whole story, and this page says that rather than quietly closing the gap. Modern Age Coders teaches live online in English from the Van der Pekbuurt to Durgerdam, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Take the published population of Volewijck, 9,277 people, and add up the five published age groups for the same wijk in the same year. You get 9,305. The parts exceed the whole by 28. Every one of those age figures ends in a nought or a five, which tells you they have been rounded, and rounding is a perfectly good explanation for a small gap. It is not a good enough explanation for this one, and working out exactly how much it can account for is a more valuable half hour than any single number on this page.
 
-Facts last verified 8 September 2026. Teaching is online; no Amsterdam-Noord branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 8 September 2026. Teaching is online; no Amsterdam-Noord branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a district on the other side of the water
 
@@ -208,7 +208,7 @@ Noord is separated from the rest of Amsterdam by water, and while the metro and 
 Set out here rather than saved for a phone call.
 
 - First class: USD 0. A whole lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate applies, quoted in dollars, with no euro version, so Durgerdam is charged exactly what the Van der Pekbuurt is. Nothing is paid until the free lesson has fixed a course and an hour, and payment then goes over WhatsApp. Pausing, changing plan and missing a week are all described on the pricing page.
@@ -249,7 +249,7 @@ No, and none is claimed in Noord, elsewhere in Amsterdam or anywhere in the Neth
 
 ### What do Amsterdam-Noord coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight in a month, in a group of five to ten. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before any payment.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight in a month, in a group of fifteen to twenty. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before any payment.
 
 ### How many learners are in a group?
 

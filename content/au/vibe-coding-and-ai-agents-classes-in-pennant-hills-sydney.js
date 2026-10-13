@@ -328,7 +328,7 @@ module.exports = {
     h2: 'Pennant Hills lesson fees',
     intro: 'One flat fee applies to every course we teach.',
     first: 'The first lesson costs nothing and finishes with a suggested course and slot.',
-    group: 'A group place: two lessons weekly, about eight a month, five to ten learners at one level.',
+    group: 'A group place: two lessons weekly, about eight a month, fifteen to twenty learners at one level.',
     private: 'One-to-one lessons at the same pace of about eight a month.',
     closer: 'Pennant Hills fees are paid in US dollars, starting only after the trial has fixed a course and a time. Holidays, missed lessons and format changes are explained on the pricing page.'
   },
@@ -374,12 +374,12 @@ module.exports = {
       },
       {
         q: 'How much do Pennant Hills lessons cost?',
-        a: 'The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.',
+        a: 'The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.',
         boiler: true
       },
       {
         q: 'How big are the groups?',
-        a: 'Five to ten learners, grouped by level and goals rather than age. If no group fits the learner\'s schedule, one-to-one lessons are offered instead.',
+        a: 'Fifteen to twenty learners, grouped by level and goals rather than age. If no group fits the learner\'s schedule, one-to-one lessons are offered instead.',
         boiler: true
       }
     ]

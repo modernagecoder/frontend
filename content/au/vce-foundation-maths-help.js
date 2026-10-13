@@ -215,7 +215,7 @@ module.exports = {
       { h3: 'Context first', p: 'Every topic starts from a real situation, then the maths.' },
       { h3: 'Explain every answer', p: 'A sentence about what the number means, every time.' },
       { h3: 'Spreadsheets and code', p: 'Technology used to check and explore, as Outcome 3 asks.' },
-      { h3: 'Groups kept small', p: 'Five to ten students at one level, encouraged to ask anything.' },
+      { h3: 'Groups kept small', p: 'Fifteen to twenty students at one level, encouraged to ask anything.' },
       { h3: 'One-to-one sessions', p: 'For students who want a quieter pace.' },
       { h3: 'No outcome guarantees', p: 'We do not predict study scores or ATARs; progress is earned by the student.' }
     ]
@@ -229,7 +229,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Foundation lessons are charged monthly in US dollars, at the same rate for any family outside India, with nothing to pay to begin and no lock-in.',
     free: ['A full lesson with a tutor', 'A kind, honest view of the gaps', 'No card details'],
-    group: ['Five to ten students at one level', 'The same tutor each week', 'Practice talked through together', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same tutor each week', 'Practice talked through together', 'A certificate at the end'],
     one: ['One tutor, one student', 'At the student\'s own pace', 'Often chosen to rebuild confidence']
   },
 

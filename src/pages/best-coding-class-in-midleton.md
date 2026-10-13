@@ -16,7 +16,7 @@ Midleton, County Cork / Live online
 
 Census 2022 asked every worker whether they work from home, and in Midleton 1,918 of the 5,936 who answered said they do, at least some of the time. Put the same answer for 262 towns on a chart against the share of each town's workers in farming, forestry and fishing, and a clear line appears: the more farm workers a town has, the less home-working. It is tempting to read that as a fact about farm workers. The CSO also publishes the answer for workers themselves, grouped by industry, and it points the other way: 54.9 percent of workers in agriculture, forestry and fishing work from home at least one day, against 36.3 percent of all workers. This page builds both views and explains how a pattern among places can reverse among the people who live in them.
 
-Facts last verified 19 September 2026. Teaching is online; no Midleton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Midleton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Starting points for Midleton learners
 
@@ -168,7 +168,7 @@ An assistant can draw the chart in seconds. Knowing which kind of question it ca
 The arrangements.
 
 - **Taught live** The teacher leads every lesson in real time and works from what the learner has built.
-- **Level groups** Five to ten learners at one stage, from East Cork, the rest of Ireland and abroad.
+- **Level groups** Fifteen to twenty learners at one stage, from East Cork, the rest of Ireland and abroad.
 - **Twice most weeks** About eight lessons in a month, on days and at times agreed before starting.
 - **Around the school year** Mid-terms, holidays and exam periods are allowed for from the start.
 - **Equipment** A laptop or desktop is needed rather than a tablet, with a microphone and speakers or a headset, on the kind of home broadband 4,163 Midleton households already have.
@@ -181,7 +181,7 @@ The arrangements.
 The full list.
 
 - First class: USD 0. A full first lesson with a level assessment, free.
-- Group tuition: USD 100 a month. A month in a group of five to ten at the same level, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at the same level, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons at the same weekly frequency.
 
 We charge by the month, in US dollars, at one rate for every country outside India. The opening lesson is free with no obligation, the first charge follows only once a course and a time are agreed, and the pricing page deals with holidays, missed lessons and changing between a group and private lessons.
@@ -222,7 +222,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Midleton cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python, GCSE computing and maths classes acros
 canonical: https://learn.modernagecoders.com/coding-classes-in-oxfordshire
 source: src/pages/coding-classes-in-oxfordshire.html
 ---
-> Oxfordshire is five districts holding 725,291 people at the 2021 Census. Oxford itself is by far the biggest place, and its built-up area reaches into two neighbouring districts; after it come Banbury, Bicester, Didcot, Abingdon and Witney, then a long list of market towns and villages. Wherever a family lives among them, the offer is the same. A teacher in India works with the learner live over video; the starting level comes from skill, not birthday, for anyone between 6 and 67; and the choice is a group of five to ten or a teacher to themselves, across programming, Python, GCSE computing, AI and maths. The Oxfordshire project starts at Culham, with the fusion records set there. The first lesson costs nothing; from then on group places are USD 100 monthly and private teaching USD 150.
+> Oxfordshire is five districts holding 725,291 people at the 2021 Census. Oxford itself is by far the biggest place, and its built-up area reaches into two neighbouring districts; after it come Banbury, Bicester, Didcot, Abingdon and Witney, then a long list of market towns and villages. Wherever a family lives among them, the offer is the same. A teacher in India works with the learner live over video; the starting level comes from skill, not birthday, for anyone between 6 and 67; and the choice is a group of fifteen to twenty or a teacher to themselves, across programming, Python, GCSE computing, AI and maths. The Oxfordshire project starts at Culham, with the fusion records set there. The first lesson costs nothing; from then on group places are USD 100 monthly and private teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Oxfordshire
 
@@ -12,11 +12,11 @@ County of Oxfordshire / Live online
 
 # Coding classes in Oxfordshire
 
-**What are the best coding classes in Oxfordshire?** Oxfordshire is five districts holding 725,291 people at the 2021 Census. Oxford itself is by far the biggest place, and its built-up area reaches into two neighbouring districts; after it come Banbury, Bicester, Didcot, Abingdon and Witney, then a long list of market towns and villages. Wherever a family lives among them, the offer is the same. A teacher in India works with the learner live over video; the starting level comes from skill, not birthday, for anyone between 6 and 67; and the choice is a group of five to ten or a teacher to themselves, across programming, Python, GCSE computing, AI and maths. The Oxfordshire project starts at Culham, with the fusion records set there. The first lesson costs nothing; from then on group places are USD 100 monthly and private teaching USD 150.
+**What are the best coding classes in Oxfordshire?** Oxfordshire is five districts holding 725,291 people at the 2021 Census. Oxford itself is by far the biggest place, and its built-up area reaches into two neighbouring districts; after it come Banbury, Bicester, Didcot, Abingdon and Witney, then a long list of market towns and villages. Wherever a family lives among them, the offer is the same. A teacher in India works with the learner live over video; the starting level comes from skill, not birthday, for anyone between 6 and 67; and the choice is a group of fifteen to twenty or a teacher to themselves, across programming, Python, GCSE computing, AI and maths. The Oxfordshire project starts at Culham, with the fusion records set there. The first lesson costs nothing; from then on group places are USD 100 monthly and private teaching USD 150.
 
 In 2023 the JET machine at Culham, near Abingdon, produced 69 megajoules of fusion energy over five seconds from 0.2 milligrams of fuel, about the weight of a fruit fly. Headlines often turn numbers like that into "megawatts", and the two words are not the same thing. A megajoule is an amount of energy; a megawatt is a rate, energy per second. Confuse them and a calculation can be wrong by any factor you like, with nothing on the page to warn you. This page's project builds a small piece of Python that knows the difference: every number carries its units, and the program refuses outright to add a megajoule to a megawatt. Then it uses JET's published records to show what the right sums say.
 
-Facts last verified 26 September 2026. Teaching is online; no Oxfordshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Oxfordshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Oxfordshire learners tend to begin
 
@@ -166,7 +166,7 @@ Oxfordshire's towns are spread out and its roads are busy at school pick-up. An 
 Identical fees in every Oxfordshire town and in every country except India.
 
 - First class: USD 0. A complete lesson of genuine work, with a recommended level and course.
-- Group tuition: USD 100 a month. Roughly eight lessons a month, five to ten learners at one level.
+- Group tuition: USD 100 a month. Roughly eight lessons a month, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Roughly eight lessons a month, one teacher with one learner.
 
 We quote in US dollars for all families outside India and keep no pound prices. You pay nothing until the free lesson has fixed a course and weekly time, and the pricing page sets out how pausing, missed lessons and moving between group and private places work.

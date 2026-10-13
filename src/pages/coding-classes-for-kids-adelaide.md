@@ -16,7 +16,7 @@ Adelaide, South Australia, Australia / Live online
 
 Look at a map of the Adelaide city centre and the five squares seem to sit in a neat pattern around Victoria Square. Is it a mirror image, with the left side copying the right? Children usually say yes. Then they put coordinates on each square, write a few lines of code to flip the map, and find that the mirror is about 95 metres out. Turn the map halfway round instead, and the squares land almost exactly on each other. That surprise, measured rather than guessed, is how our young Adelaide coders meet two kinds of symmetry.
 
-Facts last verified 7 October 2026. Teaching is online; no Adelaide branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Adelaide branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Starting points for an Adelaide child
 
@@ -183,7 +183,7 @@ Greater Adelaide spreads along the coast and into the foothills, and an online l
 - **A computer and a quiet corner** A laptop or desktop with sound, plus a grown-up nearby for the first lesson, is all that is needed.
 - **Reception to Year 8 words** Teachers use South Australian year names, starting from Reception, so a young child hears familiar words.
 - **A real trial lesson** Your child makes something that works in the first session, and you leave with a suggested course and slot. No card is requested.
-- **Groups of five to ten** Children working at the same stage, or one to one if your child prefers.
+- **Groups of fifteen to twenty** Children working at the same stage, or one to one if your child prefers.
 - **Usually twice a week** About eight lessons each month at the same time, which keeps momentum without crowding the week.
 - **Teachers on India time** Adelaide is four hours ahead of India time in winter and five hours ahead during daylight saving, so an after-school Adelaide lesson falls around midday for our teachers.
 
@@ -194,7 +194,7 @@ Greater Adelaide spreads along the coast and into the foothills, and an online l
 Three prices, stated plainly.
 
 - First class: USD 0. A first lesson that costs nothing and ends with a level, a course and a weekly time.
-- Group tuition: USD 100 a month. About eight lessons a month with five to ten children at a matching level.
+- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty children at a matching level.
 - Private tuition: USD 150 a month. About eight lessons a month with your child as the only learner.
 
 Outside India every family is charged in US dollars at the same rate, so a child in the eastern suburbs and one on the coast pay alike. The first bill comes only after the trial, once you have chosen; the pricing page explains holidays, missed lessons and changing format.
@@ -235,11 +235,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do coding classes for Adelaide kids cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Adelaide families
 

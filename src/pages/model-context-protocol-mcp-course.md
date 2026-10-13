@@ -237,7 +237,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Build work between sessions, reviewed by the teacher
 - Certificate on completion
@@ -332,7 +332,7 @@ No. This is a builder's topic. It matters if you want to give a model access to 
 
 ### How much does it cost?
 
-A group batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, the same figures everywhere we teach outside India. Three of the AI agent courses in our catalogue are taught one to one only and are priced as private teaching, which is stated on those course pages.
+A group batch of fifteen to twenty students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, the same figures everywhere we teach outside India. Three of the AI agent courses in our catalogue are taught one to one only and are priced as private teaching, which is stated on those course pages.
 
 ### What can I actually build in this course?
 

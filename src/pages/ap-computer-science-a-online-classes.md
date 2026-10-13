@@ -33,13 +33,13 @@ The course
 
 ## AP Computer Science A, taught live and paced to your entry date
 
-One course, two formats. A batch of five to eight students who sit the same paper in the same session, or one to one where the syllabus is rebuilt around the questions this particular student loses marks on.
+One course, two formats. A batch of fifteen to twenty students who sit the same paper in the same session, or one to one where the syllabus is rebuilt around the questions this particular student loses marks on.
 
 |   | Group batch | One to one |
 | --- | --- | --- |
 | Class length | 60 minutes | 45 minutes |
 | Frequency | Two classes a week | Two a week, or more before the exam |
-| Class size | Five to eight students | One |
+| Class size | Fifteen to twenty students | One |
 | Full course | About 32 weeks, an academic year | Paced to the entry date |
 | Late start | Join the next batch | Start this week, syllabus rebuilt |
 | Between classes | Past-paper work, marked by the teacher | The same, targeted at weak papers |
@@ -50,7 +50,7 @@ One course, two formats. A batch of five to eight students who sit the same pape
 
 The short answer
 
-AP Computer Science A is College Board's Java programming course. The exam is three hours and taken digitally: 42 multiple-choice questions worth 55 per cent and four free-response questions worth 45 per cent. The four free-response items are Methods and Control Structures, Class Design, Data Analysis with ArrayList and 2D Arrays. The four units are weighted Using Objects and Methods 15 to 25 per cent, Selection and Iteration 25 to 35 per cent, Class Creation 10 to 18 per cent and Data Collections 30 to 40 per cent, which makes collections close to half the paper once the two written questions are counted. Modern Age Coders teaches it live online, one to one or in batches of five to eight, from USD 100 a month, with the first class free.
+AP Computer Science A is College Board's Java programming course. The exam is three hours and taken digitally: 42 multiple-choice questions worth 55 per cent and four free-response questions worth 45 per cent. The four free-response items are Methods and Control Structures, Class Design, Data Analysis with ArrayList and 2D Arrays. The four units are weighted Using Objects and Methods 15 to 25 per cent, Selection and Iteration 25 to 35 per cent, Class Creation 10 to 18 per cent and Data Collections 30 to 40 per cent, which makes collections close to half the paper once the two written questions are counted. Modern Age Coders teaches it live online, one to one or in batches of fifteen to twenty, from USD 100 a month, with the first class free.
 
 Module by module
 
@@ -213,7 +213,7 @@ The year, phase by phase
 
 ## How we sequence AP Computer Science A across an academic year
 
-Two live classes a week, one to one or in a batch of five to eight, with past-paper work between them that the teacher marks.
+Two live classes a week, one to one or in a batch of fifteen to twenty, with past-paper work between them that the teacher marks.
 
 1. #### Weeks 1 to 6: objects, methods and the habit of reading a signature
 
@@ -441,7 +441,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Past-paper work between classes, marked by the teacher
 - Certificate on completion
@@ -534,11 +534,11 @@ Data Collections is the heaviest at thirty to forty per cent of the multiple cho
 
 ### How much do the classes cost?
 
-A group batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars. These are the same figures everywhere we teach outside India. There is no enrolment fee and no minimum term, and the first class is free without a card.
+A group batch of fifteen to twenty students is USD 100 a month and one to one is USD 150 a month, billed in US dollars. These are the same figures everywhere we teach outside India. There is no enrolment fee and no minimum term, and the first class is free without a card.
 
 ### Are the classes live, or recorded?
 
-Every class is live, one to one or in a batch of five to eight students, taught from India to students worldwide. We do not sell recordings in place of classes. A live teacher is the only thing that can watch a student trace a loop wrongly and interrupt while the misconception is forming.
+Every class is live, one to one or in a batch of fifteen to twenty students, taught from India to students worldwide. We do not sell recordings in place of classes. A live teacher is the only thing that can watch a student trace a loop wrongly and interrupt while the misconception is forming.
 
 ### Does my child need to know Java before starting?
 

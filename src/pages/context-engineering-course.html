@@ -100,7 +100,7 @@
         "mainEntity": [
           {"@type": "Question", "name": "How is this different from prompt engineering?", "acceptedAnswer": {"@type": "Answer", "text": "Prompt engineering is about phrasing the instructions, which is a genuine but small part. Context engineering is about everything in the window: which examples, which retrieved passages, how much history, which tools, in what order and within what token budget. In a real system the instructions are a small fraction of what the model sees."}},
           {"@type": "Question", "name": "Is a bigger context window not the answer?", "acceptedAnswer": {"@type": "Answer", "text": "No, and this is the most common misconception. A larger window means more can be present, not that more is attended to well. Filling it is slower, costs more per call, and is measurably worse at locating one specific fact than a small window containing the right paragraph. More room is not more attention."}},
-          {"@type": "Question", "name": "How much does it cost?", "acceptedAnswer": {"@type": "Answer", "text": "A group batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, and these are the same flat figures everywhere we teach outside India. No enrolment fee, no minimum term, and the first class is free without a card."}},
+          {"@type": "Question", "name": "How much does it cost?", "acceptedAnswer": {"@type": "Answer", "text": "A group batch of fifteen to twenty students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, and these are the same flat figures everywhere we teach outside India. No enrolment fee, no minimum term, and the first class is free without a card."}},
           {"@type": "Question", "name": "What do I need to know first?", "acceptedAnswer": {"@type": "Answer", "text": "The mechanism, because half of context engineering follows from the model having no memory and seeing only what you assembled, and enough Python to build the assembly. Retrieval helps a great deal too, since in most systems the largest part of the window is fetched rather than written."}},
           {"@type": "Question", "name": "Can you just tell me the optimal layout?", "acceptedAnswer": {"@type": "Answer", "text": "No, and anybody who does is selling you their intuition. The correct order and budget depend on your task, your documents and your model, and they change when any of those change. What we teach is how to find out for your case, which is why this course is inseparable from evaluation."}},
           {"@type": "Question", "name": "Does this apply if I only use ChatGPT or Claude as a user?", "acceptedAnswer": {"@type": "Answer", "text": "Partly, and usefully. Supplying the document instead of asking from memory, starting a fresh conversation when the thread has drifted, and putting the actual question last rather than first are all context decisions available to any user. The engineering version is for people building systems."}},
@@ -504,7 +504,7 @@
         <p class="ag-price-name">Group batch</p>
         <p class="ag-price-amt">USD 100</p>
         <p class="ag-price-alt">a month, billed in US dollars</p>
-        <ul><li>Five to eight students, one teacher throughout</li><li>Live video, never a recording</li><li>Build work between sessions, reviewed by the teacher</li><li>Certificate on completion</li></ul>
+        <ul><li>Fifteen to twenty students, one teacher throughout</li><li>Live video, never a recording</li><li>Build work between sessions, reviewed by the teacher</li><li>Certificate on completion</li></ul>
         <a href="#start" class="ag-btn">Start here</a>
       </div>
       <div class="ag-price">
@@ -604,7 +604,7 @@
       </div>
       <div class="ag-faq-item">
         <h3>How much does it cost?</h3>
-        <p>A group batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, and these are the same flat figures everywhere we teach outside India. No enrolment fee, no minimum term, and the first class is free without a card.</p>
+        <p>A group batch of fifteen to twenty students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, and these are the same flat figures everywhere we teach outside India. No enrolment fee, no minimum term, and the first class is free without a card.</p>
       </div>
       <div class="ag-faq-item">
         <h3>What do I need to know first?</h3>

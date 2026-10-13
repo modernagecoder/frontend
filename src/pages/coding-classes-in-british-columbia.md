@@ -214,7 +214,7 @@ Live teaching, live questions, live code review. Nothing pre-recorded.
 
 One task pitched at the learner, then a specific recommendation. In BC this does more work than anywhere else, because grade level tells us so little.
 
-### Five to eight per group
+### Fifteen to twenty per group
 
 Grouped by present ability, drawn from the whole intake rather than from one province.
 
@@ -336,7 +336,7 @@ No. Nothing taught here appears on a BC transcript, earns credit, or satisfies a
 
 ### How much do coding classes in British Columbia cost?
 
-The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of five to eight compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
+The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of fifteen to twenty compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
 
 ### Do you have a location in British Columbia?
 

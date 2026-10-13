@@ -16,7 +16,7 @@ Dandenong, City of Greater Dandenong, Melbourne, Victoria / Live online
 
 Two train lines share the tracks from the city to Dandenong, then split. A Pakenham train and a Cranbourne train stop at the same stations for most of the way, but not all of them, and some Pakenham trains run straight past Yarraman. Working out exactly how much two stopping patterns share is a classic problem in computer science, and the neat way to solve it is a small table filled in one cell at a time.
 
-Facts last verified 10 October 2026. Teaching is online; no Dandenong branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Dandenong branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that teach algorithms properly
 
@@ -182,7 +182,7 @@ All teaching is live on screen, so a learner near the station and one in a quiet
 - **One link** The learner opens a link at lesson time, shares a screen and starts writing code with the teacher.
 - **School terms** Lesson plans follow the Victorian term calendar and pause during state school holidays.
 - **Trial lesson** The free first class is a full lesson; afterwards we suggest a course and a regular time.
-- **Small groups** Groups hold five to ten learners at the same level, gathered from across Australia.
+- **Small groups** Groups hold fifteen to twenty learners at the same level, gathered from across Australia.
 - **Twice weekly** Two fixed lessons each week, about eight a month, with breaks agreed in advance.
 - **Teachers in India** Our teachers are based in India, so a Dandenong lesson at 4:30pm during daylight saving is 11am India time, and noon once Melbourne clocks go back.
 
@@ -193,7 +193,7 @@ All teaching is live on screen, so a learner near the station and one in a quiet
 Three prices, nothing hidden.
 
 - First class: USD 0. Lesson one is free and ends with an honest suggestion about what to study next.
-- Group tuition: USD 100 a month. One month of group lessons, usually eight, with five to ten learners working at the same level.
+- Group tuition: USD 100 a month. One month of group lessons, usually eight, with fifteen to twenty learners working at the same level.
 - Private tuition: USD 150 a month. Around eight lessons a month with a teacher working only with your learner.
 
 Families outside India are billed in US dollars, so Dandenong pays the same as anywhere else. Nothing is charged until the trial has settled the course and time; holidays, missed lessons and changing format are set out on the pricing page.
@@ -230,11 +230,11 @@ No. Every lesson is live online, we have no Australian premises, and the phone n
 
 ### What do coding classes cost for Dandenong learners?
 
-The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. You agree the course, format and time before paying.
+The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. You agree the course, format and time before paying.
 
 ### How big are the groups?
 
-Five to ten learners, put together by level, pace and goals. Private lessons are an option if no group time fits.
+Fifteen to twenty learners, put together by level, pace and goals. Private lessons are an option if no group time fits.
 
 ### Can adults learn algorithms with you?
 

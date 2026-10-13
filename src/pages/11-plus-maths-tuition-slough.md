@@ -142,7 +142,7 @@ The consortium says families outside Slough, including in Reading, register dire
 
 Reading's two selective schools set their own tests, which are separate from this one; this page is only about the Slough Consortium examination.
 
-Our lessons are live on video, so a child in Langley, Burnham or Cippenham is taught with others at the same level of Year 5 maths, from anywhere, in groups of five to ten.
+Our lessons are live on video, so a child in Langley, Burnham or Cippenham is taught with others at the same level of Year 5 maths, from anywhere, in groups of fifteen to twenty.
 
 We have no connection with the consortium, any of its schools or the council, and we do not advise on applications or places.
 
@@ -217,7 +217,7 @@ We teach live from India and schedule primary children in the early evening or o
 
 - **One teacher** The same person weekly, who knows each child's habits.
 - **Honest notes** A few frank sentences after lessons.
-- **Five to ten per group** Children matched by level.
+- **Fifteen to twenty per group** Children matched by level.
 - **Our own questions** No GL, Quest or consortium material is copied.
 - **One to one option** For a specific weakness, such as time.
 - **Maths only** No reasoning coaching and no admissions advice.
@@ -227,7 +227,7 @@ We teach live from India and schedule primary children in the early evening or o
 One monthly price in US dollars, the same for all families outside India. No joining fee and no notice period.
 
 - Free first class: USD 0. A real taught lesson. An honest verdict afterwards. No card required.
-- Group batch: USD 100 a month. Five to ten children at one level. A regular teacher. Marked work, talked through. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. A regular teacher. Marked work, talked through. A certificate at the end.
 - One to one: USD 150 a month. A teacher for your child only. Aimed at particular gaps. Useful in the summer of Year 5.
 
 ## What Slough families ask us

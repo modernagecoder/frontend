@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Coding classes in Tyne and Wear',
   capsuleQ: 'What are the best coding classes in Tyne and Wear?',
-  capsule: 'Tyne and Wear is five boroughs: Newcastle upon Tyne, Sunderland, North Tyneside, Gateshead and South Tyneside. At the 2021 Census they held 1,127,191 people between them, by our sum of the five published counts. The Newcastle built-up area is the largest, followed by Sunderland, Gateshead and South Shields. Teachers in India run every class live over video, and each learner joins the group that matches their skills, whatever their age. We teach everyone from 6 to 67, in groups of five to ten or one-to-one, in coding, Python, probability and maths. The Tyne and Wear project uses the official list of Metro stations. Lesson one is on us; stay, and a group costs USD 100 a month while one-to-one costs USD 150.',
+  capsule: 'Tyne and Wear is five boroughs: Newcastle upon Tyne, Sunderland, North Tyneside, Gateshead and South Tyneside. At the 2021 Census they held 1,127,191 people between them, by our sum of the five published counts. The Newcastle built-up area is the largest, followed by Sunderland, Gateshead and South Shields. Teachers in India run every class live over video, and each learner joins the group that matches their skills, whatever their age. We teach everyone from 6 to 67, in groups of fifteen to twenty or one-to-one, in coding, Python, probability and maths. The Tyne and Wear project uses the official list of Metro stations. Lesson one is on us; stay, and a group costs USD 100 a month while one-to-one costs USD 150.',
   lead: 'Suppose you set out to visit every Tyne and Wear Metro station, but each trip takes you to a station chosen at random. The first few trips almost always bring somewhere new, yet the last few stations can take an age to turn up. Mathematicians call this the coupon collector problem, after collecting every card in a set. This page\'s project starts with the government\'s official register of public transport stops, discovers that the obvious way to pick out Metro stations quietly lets in eight tram stops from Edinburgh, cleans the list down to 60 stations, and then works out exactly how many random trips a full set should take.',
   wa: 'Hello Modern Age Coders, we are in Tyne and Wear and would like to try a free lesson, please.',
 
@@ -160,7 +160,7 @@ module.exports = {
       { h3: 'At home, anywhere', p: 'A terrace in Hebburn, a semi in Longbenton, a flat in Sunderland. The learner types and the teacher follows on the shared screen.' },
       { h3: 'The school words', p: 'A Year 9 option choice or an A level coursework deadline means the same to our teachers as to a Tyneside classroom, and every lesson is in English.' },
       { h3: 'Try a lesson free', p: 'A proper lesson, then clear advice on level and course. No card details are requested.' },
-      { h3: 'A group at your level', p: 'Five to ten learners at the same stage, whether they log in from Tyneside or much further away.' },
+      { h3: 'A group at your level', p: 'Fifteen to twenty learners at the same stage, whether they log in from Tyneside or much further away.' },
       { h3: 'Pauses for holidays', p: 'Two lessons a week is usual, and we stop for your school\'s own holidays.' },
       { h3: 'Booked in UK time', p: 'Your slot stays at the same UK time all year; the teacher, whose clock runs on India time several hours ahead, adjusts at the changes.' }
     ],
@@ -171,7 +171,7 @@ module.exports = {
     h2: 'Fees in Tyne and Wear',
     intro: 'Jarrow or Jesmond, the fee is the same, and it is the fee in every country we teach except India.',
     first: 'A full lesson of real work, then advice on level and course.',
-    group: 'Around eight lessons a month with five to ten learners at one level.',
+    group: 'Around eight lessons a month with fifteen to twenty learners at one level.',
     private: 'Around eight lessons a month, one-to-one.',
     closer: 'We charge in US dollars and list no pound prices. The first invoice waits until the free lesson has produced a chosen course and a regular weekly time. Our pricing page sets out what happens with holidays, a missed class, or a move from group to private.'
   },
@@ -196,7 +196,7 @@ module.exports = {
       { q: 'Are lessons held in Tyne and Wear?', a: 'Not in person. Every lesson is live online, so learners join from anywhere in the county.' },
       { q: 'What ages can learn with you?', a: 'Ages 6 to 67. Children start with blocks and games, Python often begins around eight to ten, teenagers move on to probability and data, and adults take data and Python. The free lesson finds the right starting point.' },
       { q: 'Do you teach data cleaning?', a: 'Yes. Our teen data science and adult data analysis courses both work with real, messy datasets and how to check them.' },
-      { q: 'How much do lessons cost?', a: 'The first lesson is free. Continuing is USD 100 per month in a group of five to ten, or USD 150 per month on your own with a teacher; nobody pays to register and there is no minimum spell.' },
+      { q: 'How much do lessons cost?', a: 'The first lesson is free. Continuing is USD 100 per month in a group of fifteen to twenty, or USD 150 per month on your own with a teacher; nobody pays to register and there is no minimum spell.' },
       { q: 'Do you break for Tyne and Wear school holidays?', a: 'Yes, if you like. Each borough and each academy trust fixes its own term dates, so send us your school\'s and we will pause to match.' }
     ]
   },

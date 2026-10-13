@@ -163,7 +163,7 @@ module.exports = {
     intro: 'The practical detail.',
     cells: [
       { h3: 'Taught live', p: 'The teacher is there for the whole lesson, working through each learner\'s code with them as it happens.' },
-      { h3: 'Grouped by level', p: 'Groups of five to ten at one level, drawn from Blackrock, elsewhere in Ireland and abroad.' },
+      { h3: 'Grouped by level', p: 'Groups of fifteen to twenty at one level, drawn from Blackrock, elsewhere in Ireland and abroad.' },
       { h3: 'Same days each week', p: 'About eight lessons a month, on two fixed days.' },
       { h3: 'Around the school year', p: 'Christmas, Easter, mid-terms and exam weeks are built into the plan.' },
       { h3: 'What to have', p: 'A laptop or desktop, a microphone, headphones or speakers, and an internet connection that handles video.' },
@@ -176,7 +176,7 @@ module.exports = {
     h2: 'Fees for Blackrock',
     intro: 'Three lines.',
     first: 'A first lesson free of charge, with a level check.',
-    group: 'A month in a group of five to ten at the same level, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at the same level, about eight live lessons.',
     private: 'A month of private lessons on the same timetable.',
     closer: 'Every family outside India pays the same US dollar fee, month to month. The free lesson commits you to nothing and charges begin with the course; the pricing page covers holidays, missed lessons and switching between a group and private teaching.'
   },
@@ -200,7 +200,7 @@ module.exports = {
       { q: 'When do lessons take place?', a: 'After school on weekdays, into the evening, and during the day at weekends. Lesson times are set in Irish time. Our teachers are in India, which runs four and a half hours ahead of Blackrock during Irish summer time and five and a half hours ahead in winter, and we only offer hours that are workable at both ends.' },
       { q: 'Can adults join?', a: 'Yes, anyone up to sixty-seven, beginners included. After the free lesson an adult can choose a small group at their level or private lessons.' },
       { q: 'Will the group be made up of Blackrock children?', a: 'Not necessarily. We group learners by level, so the others in a class may be anywhere in Ireland or overseas.' },
-      { q: 'What do coding classes in Blackrock cost?', a: 'The first lesson is free. Then a group place costs USD 100 a month for about eight live lessons, two a week, in a group of five to ten, and one-to-one teaching on the same timetable costs USD 150 a month. Terms are agreed before any payment.', boiler: true },
+      { q: 'What do coding classes in Blackrock cost?', a: 'The first lesson is free. Then a group place costs USD 100 a month for about eight live lessons, two a week, in a group of fifteen to twenty, and one-to-one teaching on the same timetable costs USD 150 a month. Terms are agreed before any payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Between five and ten, matched by level, pace and goals rather than by age or where they live. If no group suits at a workable time, lessons run one to one.', boiler: true }
     ]
   },

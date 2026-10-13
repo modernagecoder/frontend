@@ -183,7 +183,7 @@ module.exports = {
       { h3: 'No commute', p: 'Lessons are joined from home, so there is no trip up the highway to Sydney for a coding class.' },
       { h3: 'NSW school structure', p: 'Lessons line up with the NSW syllabus stage a learner is in, and shift around the state\'s four terms. Teaching is in English.' },
       { h3: 'A free first class', p: 'The trial lesson teaches real material and finishes with a recommendation for course and weekly time.' },
-      { h3: 'Small classes', p: 'Groups have five to ten learners at a similar level, from the Highlands and beyond, so each group stays full.' },
+      { h3: 'Small classes', p: 'Groups have fifteen to twenty learners at a similar level, from the Highlands and beyond, so each group stays full.' },
       { h3: 'Two a week', p: 'Two live lessons each week, roughly eight per month, at a regular time agreed after the trial.' },
       { h3: 'Teachers in India', p: 'Our teaching team works from India. The Highlands clock leads theirs by 4.5 hours in the cooler months and by 5.5 hours once NSW daylight saving starts.' }
     ],
@@ -194,7 +194,7 @@ module.exports = {
     h2: 'What Bowral classes cost',
     intro: 'Fees are simple and identical across Australia.',
     first: 'First lesson free, then a recommended level, course and lesson time.',
-    group: 'A month of group lessons, about eight, with five to ten learners at the same level.',
+    group: 'A month of group lessons, about eight, with fifteen to twenty learners at the same level.',
     private: 'Roughly eight one-to-one lessons a month with a teacher of your own.',
     closer: 'Families and adults outside India pay in US dollars, so Bowral pays what every Australian town pays. Nothing is due until the trial has settled a course and a weekly slot, and the pricing page explains holidays, missed lessons and switching between group and private.'
   },
@@ -219,7 +219,7 @@ module.exports = {
       { q: 'What time are lessons for Bowral learners?', a: 'After school on weekdays and Saturday mornings are common; adults often prefer other times. Slots are agreed at the trial and quoted in Bowral time.' },
       { q: 'Do you teach primary school children too?', a: 'Yes. From age six, children learn with Scratch and game making. Slicing Mount Gibraltar into volumes is a project for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Bowral?', a: 'No. We do not have any premises in Australia and claim none. Classes are live online only; you need a computer with sound and a reliable connection, and our listed phone number is an Indian one.', boiler: true },
-      { q: 'How much do Bowral Python classes cost?', a: 'The first lesson is free. Then a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for one to one. All of it is agreed before any payment.', boiler: true },
+      { q: 'How much do Bowral Python classes cost?', a: 'The first lesson is free. Then a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for one to one. All of it is agreed before any payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by level and pace rather than age or town. When no group time works, one-to-one classes are offered instead.', boiler: true }
     ]
   },

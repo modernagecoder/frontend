@@ -16,7 +16,7 @@ Wentworthville, western Sydney / Live online
 
 Fit a model to Wentworthville station's monthly entries and the score can look superb: 0.934 on the standard measure, R squared, meaning 93.4% of the up-and-down is explained. Hide the last six months, refit on the rest and score those six, and the same kind of model gets 0.699 or minus 0.984, depending only on which average you compare it with. Both numbers are correct. Learning why is the most useful hour a future AI builder can spend.
 
-Facts last verified 10 October 2026. Teaching is online; no Wentworthville branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Wentworthville branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that build and test models
 
@@ -182,7 +182,7 @@ Classes take place on live video, joined from home in Wentworthville.
 - **Real-time teaching** Code and models are built during the class, with the teacher watching each step.
 - **Fits NSW schooling** Teachers use NSW stages and years and plan around the state calendar.
 - **Trial lesson free** One full lesson without charge, ending in a suggested course and time.
-- **Five to ten learners** Groups share a level; individual teaching is available instead.
+- **Fifteen to twenty learners** Groups share a level; individual teaching is available instead.
 - **Regular sessions** Two a week at fixed times, close to eight a month, with breaks shared early.
 - **Teachers in India** A 5:30pm Wentworthville lesson is noon India time in Sydney summer time and 1pm the rest of the year.
 
@@ -193,7 +193,7 @@ Classes take place on live video, joined from home in Wentworthville.
 A single flat price list for all courses.
 
 - First class: USD 0. The opening lesson is free, and the teacher then suggests a course and a time.
-- Group tuition: USD 100 a month. Two group lessons a week, about eight a month, in a class of five to ten at one level.
+- Group tuition: USD 100 a month. Two group lessons a week, about eight a month, in a class of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. Private lessons twice a week, again about eight a month.
 
 Wentworthville families pay in US dollars, and payment begins only after the trial has agreed a course and slot. See the pricing page for holidays, missed lessons and switching formats.
@@ -234,11 +234,11 @@ No. We teach only online and have no premises anywhere in Australia, including W
 
 ### How much do Wentworthville lessons cost?
 
-The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.
+The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.
 
 ### How big are the groups?
 
-Five to ten learners, grouped by level and goals rather than age. If no group fits the learner's schedule, one-to-one lessons are offered instead.
+Fifteen to twenty learners, grouped by level and goals rather than age. If no group fits the learner's schedule, one-to-one lessons are offered instead.
 
 ## More for Wentworthville learners
 

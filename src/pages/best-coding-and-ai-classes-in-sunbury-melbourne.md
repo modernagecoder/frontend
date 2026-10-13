@@ -16,7 +16,7 @@ Sunbury, City of Hume, Melbourne, Victoria / Live online
 
 A Sunbury train heads into the city through the Metro Tunnel. A Craigieburn train comes in on a different line. Where do their routes first share a station? On a network drawn as a tree, that question has a name, the lowest common ancestor, and a neat trick called binary lifting answers it in a handful of jumps instead of a long walk.
 
-Facts last verified 11 October 2026. Teaching is online; no Sunbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 October 2026. Teaching is online; no Sunbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for learners who like hard problems
 
@@ -173,7 +173,7 @@ Lessons happen live on a video call, so Sunbury's distance from the city does no
 - **Shared screen, own code** Each learner codes on their own computer while the teacher follows the shared screen and asks questions.
 - **Terms and holidays** Courses run through the Victorian terms and stop for school holidays.
 - **Start with a free lesson** The trial is a real class; afterwards the teacher suggests a course and a time that suits.
-- **Small level groups** Five to ten learners at the same stage work together.
+- **Small level groups** Fifteen to twenty learners at the same stage work together.
 - **Steady pace** Two set lessons each week, about eight a month, with holiday breaks planned ahead.
 - **Teachers in India** Teachers are in India, so a 4pm Sunbury lesson in daylight saving is 10:30am India time, and 11:30am in Melbourne winter.
 
@@ -184,7 +184,7 @@ Lessons happen live on a video call, so Sunbury's distance from the city does no
 A free start, then two monthly options.
 
 - First class: USD 0. Lesson one is free and closes with a straight recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, normally eight, with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group lessons, normally eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Close to eight one-to-one lessons a month with a single teacher.
 
 Fees outside India are in US dollars, the same for Sunbury as for any family abroad. Nothing is charged before the trial has decided the course and the time; the pricing page explains holidays, missed classes and changing format.
@@ -221,11 +221,11 @@ No physical classes. All teaching is live online, we have no Australian premises
 
 ### How much are coding classes for Sunbury learners?
 
-The first lesson is free. After that, group classes are USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, and one-to-one classes are USD 150 a month. Course, format and time are agreed before payment.
+The first lesson is free. After that, group classes are USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, and one-to-one classes are USD 150 a month. Course, format and time are agreed before payment.
 
 ### How big is each group?
 
-Five to ten learners, grouped on level, pace and goals, with one-to-one lessons if no group time works.
+Fifteen to twenty learners, grouped on level, pace and goals, with one-to-one lessons if no group time works.
 
 ### Can adults join coding classes?
 

@@ -1,16 +1,16 @@
 ---
 title: "Modern Age Coders vs WhiteHat Jr, Cuemath & Codingal - Honest Comparison | Modern Age Coders"
-description: "An honest, fair comparison of Modern Age Coders vs WhiteHat Jr, Cuemath and Codingal. Coding plus maths together, small live batches of 4-8, real projects, ages 6-67."
+description: "An honest, fair comparison of Modern Age Coders vs WhiteHat Jr, Cuemath and Codingal. Coding plus maths together, small live batches of 15-20, real projects, ages 6-67."
 canonical: https://learn.modernagecoders.com/modern-age-coders-vs-whitehat-jr-cuemath-codingal
 source: src/pages/modern-age-coders-vs-whitehat-jr-cuemath-codingal.html
 ---
-> An honest, fair comparison of Modern Age Coders vs WhiteHat Jr, Cuemath and Codingal. Coding plus maths together, small live batches of 4-8, real projects, ages 6-67.
+> An honest, fair comparison of Modern Age Coders vs WhiteHat Jr, Cuemath and Codingal. Coding plus maths together, small live batches of 15-20, real projects, ages 6-67.
 
 Honest comparison · last reviewed June 2026
 
 # Modern Age Coders vs WhiteHat Jr, Cuemath & Codingal
 
-The short version: Modern Age Coders is the only one of these four that teaches **coding and maths together**, in **small live batches of 4 to 8 students**, with **real projects from day one**, for **ages 6 to 67**. This page lays out a fair, side-by-side comparison so you can decide what fits your family.
+The short version: Modern Age Coders is the only one of these four that teaches **coding and maths together**, in **small live batches of 15 to 20 students**, with **real projects from day one**, for **ages 6 to 67**. This page lays out a fair, side-by-side comparison so you can decide what fits your family.
 
 [Book a free demo](/book-demo)See the full comparison6–67Ages we teach4–8Students per batchLiveNot pre-recordedFreeTrial class
 
@@ -24,7 +24,7 @@ Rated 4.9 across 547 Google reviews
 
 In one paragraph
 
-How is Modern Age Coders different? **We teach coding and maths together as one programme**, in live, interactive small batches of four to eight students rather than pre-recorded video, and learners build real projects from their very first class. We serve a wide age range of 6 to 67, offer a free trial, keep recordings for revision, and run mentor-led Group, Mini-Batch and one-on-one options. WhiteHat Jr, Cuemath and Codingal are each strong in their own lane, coding for kids, maths, and coding-with-competitions respectively, but the combination of coding-plus-maths in small live groups is our distinct wedge.
+How is Modern Age Coders different? **We teach coding and maths together as one programme**, in live, interactive batches of fifteen to twenty students rather than pre-recorded video, and learners build real projects from their very first class. We serve a wide age range of 6 to 67, offer a free trial, keep recordings for revision, and run mentor-led Group, Mini-Batch and one-on-one options. WhiteHat Jr, Cuemath and Codingal are each strong in their own lane, coding for kids, maths, and coding-with-competitions respectively, but the combination of coding-plus-maths in small live groups is our distinct wedge.
 
 Side by side
 
@@ -38,7 +38,7 @@ Scroll the table sideways to see every column →
 | --- | --- | --- | --- | --- |
 | Primary focus | **Coding and maths, taught together** | Positions itself as coding for kids | Primarily maths-focused (not coding-first) | Coding for kids, with competitions |
 | Format: live & interactive | **Live and interactive, not pre-recorded** | Typically live online classes , verify | Typically live online classes , verify | Typically live online classes , verify |
-| Batch size | **Small live batches of 4–8 (plus Mini-Batch & 1-on-1)** | Often one-on-one oriented , verify | Varies , verify | Varies (group & one-on-one) , verify |
+| Batch size | **Small live batches of 15–20 (plus Mini-Batch & 1-on-1)** | Often one-on-one oriented , verify | Varies , verify | Varies (group & one-on-one) , verify |
 | Coding + maths together | **Yes. Both in one curriculum** | Coding-first; not taught together , verify | Maths-focused, not coding-first , verify | Coding-first , verify |
 | Real projects from day one | **Yes, real projects from day one** | Project-based coding , verify | Maths concepts & practice , verify | Project & competition based , verify |
 | Ages served | **Ages 6–67** | Primarily school-age children , verify | Primarily school students , verify | Primarily school-age children , verify |
@@ -61,7 +61,7 @@ Most platforms pick one. We teach both in a single, joined-up curriculum, becaus
 
 2
 
-### Small live batches of 4–8
+### Small live batches of 15–20
 
 Classes are live and interactive, never pre-recorded. With only a handful of students, mentors learn how each learner thinks and no one fades into the back row.
 
@@ -115,7 +115,7 @@ Honest answers
 
 Is Modern Age Coders better than WhiteHat Jr?
 
-It depends on what you want. WhiteHat Jr positions itself as coding for kids and is widely known for a one-on-one format. Modern Age Coders is a live, interactive school that teaches coding and maths together in small batches of 4 to 8 students, with real projects from day one and learners aged 6 to 67. If you want both subjects in one place, small live groups rather than only solo classes, and a wider age range, Modern Age Coders is likely the better fit. We always encourage families to take a free trial of each and compare current details on the official sites before deciding.
+It depends on what you want. WhiteHat Jr positions itself as coding for kids and is widely known for a one-on-one format. Modern Age Coders is a live, interactive school that teaches coding and maths together in batches of 15 to 20 students, with real projects from day one and learners aged 6 to 67. If you want both subjects in one place, small live groups rather than only solo classes, and a wider age range, Modern Age Coders is likely the better fit. We always encourage families to take a free trial of each and compare current details on the official sites before deciding.
 
 Modern Age Coders vs Cuemath, which is better for coding?
 
@@ -127,11 +127,11 @@ Cuemath is primarily a maths-focused platform rather than a coding-first one. It
 
 Modern Age Coders vs Codingal, what is the difference?
 
-Both teach coding to young learners through live classes, so they overlap. Codingal positions itself as coding for kids, often highlighting live classes and coding competitions. Modern Age Coders teaches coding and maths together in small live batches of 4 to 8 students, builds real projects from day one, and serves a wider age range of 6 to 67. The clearest difference is our coding-plus-maths wedge and small-group format. We recommend trying a free class with each and confirming current details on their official site.
+Both teach coding to young learners through live classes, so they overlap. Codingal positions itself as coding for kids, often highlighting live classes and coding competitions. Modern Age Coders teaches coding and maths together in small live batches of 15 to 20 students, builds real projects from day one, and serves a wider age range of 6 to 67. The clearest difference is our coding-plus-maths wedge and small-group format. We recommend trying a free class with each and confirming current details on their official site.
 
 What makes Modern Age Coders different?
 
-Three things set us apart. First, we teach coding and maths together in one curriculum, not as separate products. Second, classes are live and interactive in small batches of 4 to 8 students, never pre-recorded video. Third, learners build real projects from day one, and we serve a wide age range of 6 to 67. You also get a free trial, mentor-led sessions, and recordings for revision, with flexible Group, Mini-Batch and one-on-one options.
+Three things set us apart. First, we teach coding and maths together in one curriculum, not as separate products. Second, classes are live and interactive in batches of 15 to 20 students, never pre-recorded video. Third, learners build real projects from day one, and we serve a wide age range of 6 to 67. You also get a free trial, mentor-led sessions, and recordings for revision, with flexible Group, Mini-Batch and one-on-one options.
 
 How much does Modern Age Coders cost?
 

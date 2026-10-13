@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Vibe coding and AI agents classes in Pinner',
   capsuleQ: 'Where can Pinner learners find the best vibe coding and AI agents classes?',
-  capsule: 'Three Harrow wards carry most of what people call Pinner, and the ONS counted each separately at Census 2021: 13,137 usual residents in Pinner ward, 15,739 in Pinner South and 9,822 in Hatch End. Pinner Green, Pinnerwood Park and Rayners Lane are recorded suburban areas there too. Lessons in vibe coding, AI agents, Python and maths run on live video with tutors based in India, for anyone aged six to 67, one-to-one or with five to ten classmates at a matching level. Every project begins with a plan, and the Pinner project asks how detailed that plan needs to be. An agent that sketches a route along main roads first and fills in side streets afterwards did about a quarter of the searching and walked a typical 8% further. Your first lesson is free, with a course recommendation at the end; from then on a group seat is USD 100 per month and one-to-one is USD 150 per month.',
+  capsule: 'Three Harrow wards carry most of what people call Pinner, and the ONS counted each separately at Census 2021: 13,137 usual residents in Pinner ward, 15,739 in Pinner South and 9,822 in Hatch End. Pinner Green, Pinnerwood Park and Rayners Lane are recorded suburban areas there too. Lessons in vibe coding, AI agents, Python and maths run on live video with tutors based in India, for anyone aged six to 67, one-to-one or with fifteen to twenty classmates at a matching level. Every project begins with a plan, and the Pinner project asks how detailed that plan needs to be. An agent that sketches a route along main roads first and fills in side streets afterwards did about a quarter of the searching and walked a typical 8% further. Your first lesson is free, with a course recommendation at the end; from then on a group seat is USD 100 per month and one-to-one is USD 150 per month.',
   lead: 'Nobody plans a long journey one paving stone at a time. You decide on the big roads first and sort out the last few turnings when you get there. AI planners do the same thing under the name hierarchical planning, and coding agents do it when they write an outline before any code. It saves a great deal of effort, but it is a shortcut, and shortcuts have a price. Using OpenStreetMap\'s walking network for Pinner, this project counts both: how much searching the outline-first planner avoids, and how much longer its routes turn out to be.',
   wa: 'Hello Modern Age Coders, may we arrange a free vibe coding or AI agents lesson for someone in Pinner?',
 
@@ -171,7 +171,7 @@ module.exports = {
     h2: 'Fees for Pinner',
     intro: 'Pinner sits on our international rate card, the same one used for every learner outside India.',
     first: 'A whole lesson at no cost, then a recommendation.',
-    group: 'Around eight live classes each month with five to ten learners.',
+    group: 'Around eight live classes each month with fifteen to twenty learners.',
     private: 'Around eight live lessons each month with a tutor to yourself.',
     closer: 'We price in US dollars and do not quote sterling. No invoice goes out before the trial has agreed a course and a slot; the pricing page covers holiday breaks, lessons missed and moving between formats.'
   },

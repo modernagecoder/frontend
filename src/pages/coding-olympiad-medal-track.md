@@ -10,7 +10,7 @@ A medal track, not a syllabus
 
 # For the child who already *likes* the hard problems.
 
-Modern Age Coders runs a serious, year-long preparation track for the Indian Computing Olympiad, IOQI, ZIO, INOI and IOI, alongside the Bebras Challenge, Math Kangaroo, USACO and the international competitive programming circuit. Trained by past Olympiad medallists. Capped at eight students per cohort. For families who have decided the goal is not "exposure to coding" but a medal.
+Modern Age Coders runs a serious, year-long preparation track for the Indian Computing Olympiad, IOQI, ZIO, INOI and IOI, alongside the Bebras Challenge, Math Kangaroo, USACO and the international competitive programming circuit. Trained by past Olympiad medallists. Capped at twenty students per cohort. For families who have decided the goal is not "exposure to coding" but a medal.
 
 Apply to the medal trackSee the year planEST. MMXIXMACOlympiad CouncilThe olympiads we coach to medal
 
@@ -208,7 +208,7 @@ If you are not ready to apply to the Medal Track yet, these are the live small-b
 
 ## We do not enrol the willing. We enrol the *committed.*
 
-The Medal Track is capped at eight students per cohort. Each application is read by a senior mentor. We will reply within 48 hours with either a calendar link for a screening conversation, or an honest note explaining why this particular cohort is not the right fit for your child, and what would be.
+The Medal Track is capped at twenty students per cohort. Each application is read by a senior mentor. We will reply within 48 hours with either a calendar link for a screening conversation, or an honest note explaining why this particular cohort is not the right fit for your child, and what would be.
 
 No pre-tests. No fees to apply. We are interested in the way your child speaks about a problem they could not solve last week, more than in any score.
 

@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding classes in Coventry',
   capsuleQ: 'What are the best coding classes in Coventry?',
-  capsule: 'Coventry is a city of 345,325 people, according to the 2021 Census, and a young one. People in their early twenties made up 9.1% of the city (England: 6.0%), and 89,083 residents aged five or older were in school or full-time study, a rate of 27.4% where England recorded 20.4%. It is also a city built around transport, from the collection at the Coventry Transport Museum to the 1,570 active bus stops the national register lists here. Our classes take Coventry learners from six years old to sixty-seven, taught live over the internet by teachers based in India, either in a group of five to ten matched by ability or on their own, always at a fixed hour on the UK clock. You pay nothing for the opening lesson, and from then on USD 100 a month buys a group seat while USD 150 a month buys a private teacher.',
+  capsule: 'Coventry is a city of 345,325 people, according to the 2021 Census, and a young one. People in their early twenties made up 9.1% of the city (England: 6.0%), and 89,083 residents aged five or older were in school or full-time study, a rate of 27.4% where England recorded 20.4%. It is also a city built around transport, from the collection at the Coventry Transport Museum to the 1,570 active bus stops the national register lists here. Our classes take Coventry learners from six years old to sixty-seven, taught live over the internet by teachers based in India, either in a group of fifteen to twenty matched by ability or on their own, always at a fixed hour on the UK clock. You pay nothing for the opening lesson, and from then on USD 100 a month buys a group seat while USD 150 a month buys a private teacher.',
   lead: 'The Department for Transport keeps a register of every bus stop in the country, and Coventry has 1,570 active ones. Most come in pairs, one on each side of the road, sharing a name: 578 names appear exactly twice. So a sensible question is how many actual places those stops represent. The standard tool for grouping things that are close together is union-find: join any two stops within a set distance and see how many groups are left. At 60 metres the answer is 1,005. At 200 metres it is 314, and the largest group has 85 stops. Push the distance to 300 metres and something alarming happens: one group swallows 1,154 stops, most of the city, because stops a few hundred metres apart along every road link hand to hand into a single chain. Working out why that happens, and what to do about it, is the lesson Coventry\'s own bus network teaches our teenage learners here.',
   wa: 'Hello Modern Age Coders, I would like a free coding class for a learner in Coventry.',
 
@@ -201,7 +201,7 @@ module.exports = {
       { h3: 'No bus to catch', p: 'A learner in Binley and one in Whitmore Park can join the same lesson from home, and the journey is the walk to a desk.' },
       { h3: 'English stages by name', p: 'Reception, Key Stages, Year 9 options, GCSEs and A levels are called what Coventry schools call them, and lessons are in English.' },
       { h3: 'A proper first lesson', p: 'Real teaching on a real task, then a straight recommendation of level, course and hour. No card details are asked for.' },
-      { h3: 'Grouped by ability', p: 'Five to ten learners working at the same level, drawn from Coventry, the rest of the UK and other countries so each level finds an hour.' },
+      { h3: 'Grouped by ability', p: 'Fifteen to twenty learners working at the same level, drawn from Coventry, the rest of the UK and other countries so each level finds an hour.' },
       { h3: 'Twice a week, most weeks', p: 'Roughly eight sessions in a month, same time each week, and the family and teacher decide together when to stop for school breaks or revision.' },
       { h3: 'A clock that stays put', p: 'Our teaching team works in India, where the clocks never go forward or back. Against Coventry that gap is four and a half hours in British Summer Time and five and a half in winter, and either way a Coventry afternoon or evening falls inside the working day there.' }
     ],
@@ -212,7 +212,7 @@ module.exports = {
     h2: 'What classes cost in Coventry',
     intro: 'Three prices, and nothing underneath them.',
     first: 'A complete lesson for free, ending with a level, a course and a suggested weekly time.',
-    group: 'A month of teaching, usually eight lessons, with five to ten learners of the same ability.',
+    group: 'A month of teaching, usually eight lessons, with fifteen to twenty learners of the same ability.',
     private: 'The same pattern of around eight lessons a month, with a teacher for one learner.',
     closer: 'Fees are in US dollars, the one rate charged outside India, so a family in Earlsdon pays exactly what a family in Holbrooks pays, and sterling prices are never quoted. Billing begins only after the trial lesson has fixed which course and which weekly slot, and our pricing page explains how breaks, missed sessions and switching format work.'
   },
@@ -237,8 +237,8 @@ module.exports = {
       { q: 'When do Coventry lessons run?', a: 'Late afternoons once school is out, weeknight evenings, or Saturday and Sunday, with the exact slot written down in UK time at the trial lesson. India sits four and a half hours ahead of Coventry in summer and five and a half ahead in winter.' },
       { q: 'Can lessons stop during GCSE or A level season?', a: 'Yes. Plenty of families pause for revision and the exams themselves, and for school breaks; you settle the dates with the teacher ahead of time.' },
       { q: 'Do you have a building in Coventry?', a: 'We have no premises in Coventry or anywhere in the UK. Every lesson happens live online, so the kit needed is a laptop or desktop with sound and a reliable connection. Our phone number is Indian, and we say so.', boiler: true },
-      { q: 'How much do Coventry lessons cost?', a: 'Nothing for the first one. A place in a group of five to ten is then USD 100 a month, covering two live lessons a week, around eight a month; one-to-one teaching on that rhythm is USD 150 a month. You agree the course, format and slot before paying anything.', boiler: true },
-      { q: 'How are groups put together?', a: 'By level first: five to ten learners who work at a similar pace towards similar goals, whatever their age or postcode. When no group at the right level meets at a time that suits, we suggest one-to-one lessons.', boiler: true }
+      { q: 'How much do Coventry lessons cost?', a: 'Nothing for the first one. A place in a group of fifteen to twenty is then USD 100 a month, covering two live lessons a week, around eight a month; one-to-one teaching on that rhythm is USD 150 a month. You agree the course, format and slot before paying anything.', boiler: true },
+      { q: 'How are groups put together?', a: 'By level first: fifteen to twenty learners who work at a similar pace towards similar goals, whatever their age or postcode. When no group at the right level meets at a time that suits, we suggest one-to-one lessons.', boiler: true }
     ]
   },
 

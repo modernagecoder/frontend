@@ -16,7 +16,7 @@ Book a Free AI Demo ClassSee the Curriculum**Full AI**ML to Generative AI**5–8
 
 ## Quick answer
 
-**Modern Age Coders' Artificial Intelligence course is a complete, hands-on AI programme.** It takes you from Python foundations through Machine Learning, Deep Learning and Neural Networks, Natural Language Processing, Computer Vision and Generative AI with Large Language Models, each area taught with real projects so you build a broad, job-ready AI skill set. Classes are live in small batches of 5–8 with an expert mentor, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
+**Modern Age Coders' Artificial Intelligence course is a complete, hands-on AI programme.** It takes you from Python foundations through Machine Learning, Deep Learning and Neural Networks, Natural Language Processing, Computer Vision and Generative AI with Large Language Models, each area taught with real projects so you build a broad, job-ready AI skill set. Classes are live in batches of 15–20 with an expert mentor, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
 
 Start Today
 
@@ -108,7 +108,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo.
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 learners per batch
+- 15–20 learners per batch
 - Live AI + projects
 - Recorded class access
 - Completion certificate
@@ -119,7 +119,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 learners per batch
+- Up to 6 learners per batch
 - More personal mentoring
 - Recorded class access
 - Project guidance & certificate
@@ -183,7 +183,7 @@ Yes. You build hands-on projects across ML, deep learning, NLP, computer vision 
 
 How much does the AI course cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
 
 Are the AI classes live and hands-on?+
 

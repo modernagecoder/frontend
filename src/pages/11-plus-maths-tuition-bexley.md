@@ -130,7 +130,7 @@ A single test is used for all four schools. Children whose primary school is not
 
 For coding and computing in the borough, see our [Bexley coding page](/coding-classes-in-bexley-london).
 
-Our classes are grouped by level. A Bexley child is taught with children at the same stage of Year 5 maths from across the UK, five to ten in a group, all online.
+Our classes are grouped by level. A Bexley child is taught with children at the same stage of Year 5 maths from across the UK, fifteen to twenty in a group, all online.
 
 We have no connection with these schools, the council or Quest Assessments, and we do not advise on applications, oversubscription or places.
 
@@ -205,7 +205,7 @@ We are an Indian school teaching live over video. India keeps the same clock all
 
 - **Same teacher weekly** Mistakes are remembered and followed up.
 - **Honest updates** A few frank lines to parents, not glossy reports.
-- **Five to ten learners** Grouped by level, so the lesson fits each child.
+- **Fifteen to twenty learners** Grouped by level, so the lesson fits each child.
 - **Our own material** Questions written by us; no Quest or test material reproduced.
 - **One to one available** For focused help on a particular weakness.
 - **Numerical only** No verbal or non-verbal coaching, no advice on admissions.
@@ -215,7 +215,7 @@ We are an Indian school teaching live over video. India keeps the same clock all
 A single monthly fee in US dollars, the same for every family outside India. You can stop at any time.
 
 - Free first class: USD 0. A proper lesson from a teacher. Our straight assessment afterwards. No payment card required.
-- Group batch: USD 100 a month. Five to ten children at one level. A familiar teacher every week. Work reviewed together. A course certificate.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. A familiar teacher every week. Work reviewed together. A course certificate.
 - One to one: USD 150 a month. A teacher for your child only. Aimed precisely at the gaps. Useful in the months after registration.
 
 ## What Bexley families ask us

@@ -328,7 +328,7 @@ module.exports = {
     h2: 'Burwood East class fees',
     intro: 'One free lesson and two monthly prices.',
     first: 'The opening lesson costs nothing and finishes with a recommendation.',
-    group: 'A month in a level-matched group of five to ten, usually eight lessons.',
+    group: 'A month in a level-matched group of fifteen to twenty, usually eight lessons.',
     private: 'Around eight private lessons a month with one teacher.',
     closer: 'Outside India, fees are in US dollars, the same for Burwood East as for every other overseas family. Nothing is charged until after the trial, once course and time are settled; holidays, missed lessons and format changes are explained on the pricing page.'
   },
@@ -370,7 +370,7 @@ module.exports = {
       },
       {
         q: 'What do Python classes cost for Burwood East learners?',
-        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. The course, format and time are agreed before payment.',
+        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. The course, format and time are agreed before payment.',
         boiler: true
       },
       {

@@ -162,7 +162,7 @@ module.exports = {
       { h3: 'Any island, any township', p: 'Lewis, Harris, the Uists or Barra: a laptop and a reliable connection are all that is needed.' },
       { h3: 'Island school language', p: 'Our teachers talk in P and S stages and name National 5, Higher and Advanced Higher just as island teachers do; lessons are in English.' },
       { h3: 'First lesson free', p: 'A proper lesson at no cost, then a plain recommendation.' },
-      { h3: 'Classmates at the right level', p: 'Each group has five to ten learners working at one stage, joining from all over.' },
+      { h3: 'Classmates at the right level', p: 'Each group has fifteen to twenty learners working at one stage, joining from all over.' },
       { h3: 'Term time rhythm', p: 'Two lessons a week in term; the holidays are breaks.' },
       { h3: 'A steady UK time', p: 'Your booked UK time stays put through the clock changes; teachers in India time adjust.' }
     ],
@@ -173,7 +173,7 @@ module.exports = {
     h2: 'Fees in the Western Isles',
     intro: 'Stornoway or Barra, the fee is the same, matching what we charge in every country outside India.',
     first: 'One complete lesson free, then honest advice.',
-    group: 'About eight lessons a month in a group of five to ten.',
+    group: 'About eight lessons a month in a group of fifteen to twenty.',
     private: 'About eight lessons a month, one learner and one teacher.',
     closer: 'Fees are in US dollars, and there is no sterling price. Payment starts only after the free lesson, once a course and a weekly time are agreed; the pricing page explains holidays, missed lessons and switching formats.'
   },

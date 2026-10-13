@@ -179,7 +179,7 @@ Anything that requires leaving the island requires a boat and a day. A lesson th
 
 A complete lesson with a genuine task, closing with a specific recommendation. No card details are taken to arrange it and no commitment is asked for beforehand.
 
-### Five to eight learners, grouped on level
+### Fifteen to twenty learners, grouped on level
 
 Cohorts are built from present ability and destination. Being on an island is not a factor, which is the one thing geography here would otherwise decide completely.
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Masirah learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Masirah class times arranged?
 

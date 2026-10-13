@@ -21,7 +21,7 @@ Intensive learning with peer support
 ₹4,999for 8 one-to-one classes
 
 - 16 Intensive Live Sessions
-- Small Batch (Max 8 Learners)
+- Batch (Max 20 Learners)
 - 5+ Production-Ready Projects
 - Industry-Recognized Certificate
 - 24/7 Doubt Support

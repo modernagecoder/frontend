@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Neath',
   capsuleQ: 'Which online coding and Python classes are best for learners in Neath?',
-  capsule: 'At the 2021 census the ONS built-up area of Neath (Castell-nedd) held 40,730 usual residents; Neath Port Talbot county borough as a whole held 142,289. Its suburbs in the gazetteer include Cimla, Llantwit, Skewen, Penrhiwtyn, Neath Abbey and Bryn-coch. Anyone in Neath from six to 67 can learn coding, Python, AI, vibe coding or maths with us; a tutor in India teaches each lesson live on camera, either privately or to a class of five to ten who share a level. The Neath project starts from something everyone assumes is solved: putting words in alphabetical order. Welsh has its own alphabet, with letters such as ll and dd, and Python\'s sort does not know it. Learners write a sort key that does. Try one lesson at no cost; staying on is USD 100 a month in a class or USD 150 a month for private sessions.',
+  capsule: 'At the 2021 census the ONS built-up area of Neath (Castell-nedd) held 40,730 usual residents; Neath Port Talbot county borough as a whole held 142,289. Its suburbs in the gazetteer include Cimla, Llantwit, Skewen, Penrhiwtyn, Neath Abbey and Bryn-coch. Anyone in Neath from six to 67 can learn coding, Python, AI, vibe coding or maths with us; a tutor in India teaches each lesson live on camera, either privately or to a class of fifteen to twenty who share a level. The Neath project starts from something everyone assumes is solved: putting words in alphabetical order. Welsh has its own alphabet, with letters such as ll and dd, and Python\'s sort does not know it. Learners write a sort key that does. Try one lesson at no cost; staying on is USD 100 a month in a class or USD 150 a month for private sessions.',
   lead: 'Ask Python to sort a list of names and it compares them character by character, using the number each character has inside the computer. For English that mostly works. For Welsh it does not, because ll, dd, ff, ch, rh, th, ph and ng are single letters of the Welsh alphabet with their own places in it. Street signs in Neath are bilingual, and OpenStreetMap records the Welsh form of many street names. Learners take 240 of them and find out how far the computer\'s idea of order is from a Welsh reader\'s.',
   wa: 'Hello Modern Age Coders, we are in Neath and would like to try a free coding or Python lesson.',
 
@@ -154,7 +154,7 @@ module.exports = {
       { h3: 'Learners write the code', p: 'Tutors explain and ask; the keyboard stays with the learner the whole time.' },
       { h3: 'Recommendation after the trial', p: 'We watch the learner work in the free lesson and only then suggest a course.' },
       { h3: 'The first session is free', p: 'It is a proper lesson, free of charge, and we do not ask for payment details.' },
-      { h3: 'Classes of five to ten', p: 'Group members share a level, not a postcode, and come from all over the UK.' },
+      { h3: 'Classes of fifteen to twenty', p: 'Group members share a level, not a postcode, and come from all over the UK.' },
       { h3: 'Two lessons weekly', p: 'Let us know the Neath Port Talbot term dates and holiday weeks are left free.' },
       { h3: 'UK time, all year', p: 'When the clocks change, our tutor moves; your lesson time does not.' }
     ],

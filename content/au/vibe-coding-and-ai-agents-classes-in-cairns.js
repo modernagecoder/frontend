@@ -191,7 +191,7 @@ module.exports = {
       { h3: 'North or south', p: 'A learner in the northern beaches and one in Edmonton join the same class at the same time, each from home.' },
       { h3: 'Queensland school levels', p: 'Teachers use the Queensland year levels, Year 7 to Year 12, and every lesson is taught in English.' },
       { h3: 'A trial that builds something', p: 'The free first session is an actual agent or vibe coding task with a teacher, ending with a suggested level, course and time. Nothing is charged.' },
-      { h3: 'Five to ten per group', p: 'Learners at the same stage from Far North Queensland, the rest of Australia and abroad, so each level has a sensible slot.' },
+      { h3: 'Fifteen to twenty per group', p: 'Learners at the same stage from Far North Queensland, the rest of Australia and abroad, so each level has a sensible slot.' },
       { h3: 'Regular lessons', p: 'Normally two a week, about eight a month, with holidays and exam weeks planned with the teacher.' },
       { h3: 'Four and a half hours, all year', p: 'Cairns and India both keep one clock time year round, so our teachers are always 4 hours 30 minutes behind.' }
     ],
@@ -202,7 +202,7 @@ module.exports = {
     h2: 'What vibe coding and agent classes cost in Cairns',
     intro: 'Just three figures.',
     first: 'A complimentary first lesson ending with a level, a course and a weekly time.',
-    group: 'One month of lessons, generally eight, with five to ten learners at your level.',
+    group: 'One month of lessons, generally eight, with fifteen to twenty learners at your level.',
     private: 'About eight lessons a month with a teacher to yourself.',
     closer: 'Cairns families pay in US dollars at the one rate charged everywhere outside India, with no Far North loading. Billing begins only after the trial confirms a course and time; the pricing page covers breaks, missed lessons and switching between group and private.'
   },
@@ -227,8 +227,8 @@ module.exports = {
       { q: 'When are lessons for Cairns learners?', a: 'After school, in the evening or at weekends, agreed in the trial and stated in Cairns time, 4 hours 30 minutes ahead of India time all year.' },
       { q: 'Do you teach younger children in Cairns?', a: 'Yes, from age 6, usually starting with Scratch and simple AI experiments; this page is aimed at teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Cairns?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Cairns coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Cairns coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

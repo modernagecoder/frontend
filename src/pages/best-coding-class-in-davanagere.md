@@ -12,7 +12,7 @@ Live online · serving Davanagere
 
 Real programming for kids, teens and college students in Davanagere, from **P J Extension to Vidyanagar, MCC A Block to MCC B Block**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Davanagere)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**DavanagereEnrollingAreasP J Extension, Vidyanagar, MCC A Block, MCC B Block, Shivaji Nagar & all of DavanagereBoardsKarnataka KSEEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across DavanagereFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Davanagere)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**DavanagereEnrollingAreasP J Extension, Vidyanagar, MCC A Block, MCC B Block, Shivaji Nagar & all of DavanagereBoardsKarnataka KSEEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across DavanagereFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NMTC, for Davanagere's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Davanagere: FAQs
 
-Which is the best coding class in Davanagere for kids?Modern Age Coders runs Davanagere's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python, in small batches of 5-8, taught by industry instructors. We serve P J Extension, Vidyanagar, MCC A and B Block, Shivaji Nagar, Ring Road, Nittuvalli, Jayanagar and Avaragere, plus nearby Harihar, Channagiri, Honnali, Jagalur and Harapanahalli.Are the classes online, and do they reach families across central Karnataka?Yes. Every class is live and online, so a student in P J Extension, Vidyanagar, MCC Block, Vinobanagar or Saraswathi Nagar, or out in Harihar, Channagiri or Honnali, joins the same expert teacher from home, no travel into the city. Sessions are fully interactive with live coding, screen-sharing and a saved recording. Davanagere is already an education magnet that draws students from across the district; online learning extends that reach.How much do coding classes cost in Davanagere?Group classes (5-8 students) start at Rs.1499/month for 2 live classes a week. The Mini Batch (3-4 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student begins with a free demo class, and there are no hidden charges.Will coding help with KCET and the board exams in Davanagere?Yes. The step-by-step logical thinking a child practises while debugging code is exactly what KCET aptitude, NTSE and Olympiad questions test, and coding directly supports the computer-science and AI modules now in the CBSE, ICSE and Karnataka State Board (KSEAB) syllabi. In a college town where so many children grow up around medical and engineering aspirants, starting Python and Java early is a real advantage well before college.What age is best to start coding in Davanagere?Age 8 is ideal to begin with visual block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always matches the child.Why learn coding from Davanagere instead of moving to Bengaluru?Davanagere has already reinvented itself once, from the cotton-mill 'Manchester of Karnataka' into central Karnataka's education hub, home to Bapuji and JJM medical and dental colleges, UBDT engineering and Davangere University. The next reinvention is digital, and it can be learned right here, online, from the same calibre of instructor a metro student gets. Remote and freelance hiring means a Davanagere student can build and earn for employers anywhere without leaving family.Do you prepare Davanagere's college and engineering students for placements?Yes. Our college track is placement-focused: Python, 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is designed for engineering and degree students at Davangere University, UBDT, Bapuji and the city's colleges, so a young person can build a job-ready portfolio and pursue remote or off-campus IT roles from Davanagere itself.Does this fit CBSE, ICSE and Karnataka State Board students, and is there a free demo?Yes. We teach students from CBSE, ICSE and Karnataka State Board (KSEAB) schools across Davanagere, whatever board they follow. Every student receives a completion certificate, we offer a free demo class before you enrol, and if your child still isn't enjoying it within the first paid week we return the fee in full.Do you teach coding to Karnataka board students in Davanagere?Yes. Davanagere schools run the Karnataka state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can UBDT College of Engineering students join your programming courses?Yes. UBDTCE has taught here since 1951, so the fundamentals are well covered. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown, which a degree alone rarely provides.
+Which is the best coding class in Davanagere for kids?Modern Age Coders runs Davanagere's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python, in batches of 15-20, taught by industry instructors. We serve P J Extension, Vidyanagar, MCC A and B Block, Shivaji Nagar, Ring Road, Nittuvalli, Jayanagar and Avaragere, plus nearby Harihar, Channagiri, Honnali, Jagalur and Harapanahalli.Are the classes online, and do they reach families across central Karnataka?Yes. Every class is live and online, so a student in P J Extension, Vidyanagar, MCC Block, Vinobanagar or Saraswathi Nagar, or out in Harihar, Channagiri or Honnali, joins the same expert teacher from home, no travel into the city. Sessions are fully interactive with live coding, screen-sharing and a saved recording. Davanagere is already an education magnet that draws students from across the district; online learning extends that reach.How much do coding classes cost in Davanagere?Group classes (15-20 students) start at Rs.1499/month for 2 live classes a week. The Mini Batch (up to 6 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student begins with a free demo class, and there are no hidden charges.Will coding help with KCET and the board exams in Davanagere?Yes. The step-by-step logical thinking a child practises while debugging code is exactly what KCET aptitude, NTSE and Olympiad questions test, and coding directly supports the computer-science and AI modules now in the CBSE, ICSE and Karnataka State Board (KSEAB) syllabi. In a college town where so many children grow up around medical and engineering aspirants, starting Python and Java early is a real advantage well before college.What age is best to start coding in Davanagere?Age 8 is ideal to begin with visual block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always matches the child.Why learn coding from Davanagere instead of moving to Bengaluru?Davanagere has already reinvented itself once, from the cotton-mill 'Manchester of Karnataka' into central Karnataka's education hub, home to Bapuji and JJM medical and dental colleges, UBDT engineering and Davangere University. The next reinvention is digital, and it can be learned right here, online, from the same calibre of instructor a metro student gets. Remote and freelance hiring means a Davanagere student can build and earn for employers anywhere without leaving family.Do you prepare Davanagere's college and engineering students for placements?Yes. Our college track is placement-focused: Python, 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is designed for engineering and degree students at Davangere University, UBDT, Bapuji and the city's colleges, so a young person can build a job-ready portfolio and pursue remote or off-campus IT roles from Davanagere itself.Does this fit CBSE, ICSE and Karnataka State Board students, and is there a free demo?Yes. We teach students from CBSE, ICSE and Karnataka State Board (KSEAB) schools across Davanagere, whatever board they follow. Every student receives a completion certificate, we offer a free demo class before you enrol, and if your child still isn't enjoying it within the first paid week we return the fee in full.Do you teach coding to Karnataka board students in Davanagere?Yes. Davanagere schools run the Karnataka state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can UBDT College of Engineering students join your programming courses?Yes. UBDTCE has taught here since 1951, so the fundamentals are well covered. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown, which a degree alone rarely provides.
 
 ## Ready to start your child's coding journey in Davanagere?
 

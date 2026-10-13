@@ -4,7 +4,7 @@ description: "Live online coding, Python, maths and automation classes across De
 canonical: https://learn.modernagecoders.com/coding-classes-in-derbyshire
 source: src/pages/coding-classes-in-derbyshire.html
 ---
-> Derbyshire is Derby plus eight districts, 1,055,996 people at the 2021 Census. Derby's built-up area is the largest place by far, spilling into two neighbouring districts, followed by Chesterfield, then the Erewash towns of Ilkeston and Long Eaton, Swadlincote in the south, and the Peak towns of Buxton, Glossop and Matlock. We teach every one of them the same way: a teacher in India teaches live over video, learners are grouped by what they can already do rather than by age, and we welcome everyone from 6 to 67 in groups of five to ten or one to one. On offer are programming, Python, maths, automation and AI. The Derbyshire project begins in the Derwent Valley mills. There is no charge for the first lesson; group lessons then cost USD 100 a month and private lessons USD 150.
+> Derbyshire is Derby plus eight districts, 1,055,996 people at the 2021 Census. Derby's built-up area is the largest place by far, spilling into two neighbouring districts, followed by Chesterfield, then the Erewash towns of Ilkeston and Long Eaton, Swadlincote in the south, and the Peak towns of Buxton, Glossop and Matlock. We teach every one of them the same way: a teacher in India teaches live over video, learners are grouped by what they can already do rather than by age, and we welcome everyone from 6 to 67 in groups of fifteen to twenty or one to one. On offer are programming, Python, maths, automation and AI. The Derbyshire project begins in the Derwent Valley mills. There is no charge for the first lesson; group lessons then cost USD 100 a month and private lessons USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Derbyshire
 
@@ -12,11 +12,11 @@ County of Derbyshire / Live online
 
 # Coding classes in Derbyshire
 
-**What are the best coding classes in Derbyshire?** Derbyshire is Derby plus eight districts, 1,055,996 people at the 2021 Census. Derby's built-up area is the largest place by far, spilling into two neighbouring districts, followed by Chesterfield, then the Erewash towns of Ilkeston and Long Eaton, Swadlincote in the south, and the Peak towns of Buxton, Glossop and Matlock. We teach every one of them the same way: a teacher in India teaches live over video, learners are grouped by what they can already do rather than by age, and we welcome everyone from 6 to 67 in groups of five to ten or one to one. On offer are programming, Python, maths, automation and AI. The Derbyshire project begins in the Derwent Valley mills. There is no charge for the first lesson; group lessons then cost USD 100 a month and private lessons USD 150.
+**What are the best coding classes in Derbyshire?** Derbyshire is Derby plus eight districts, 1,055,996 people at the 2021 Census. Derby's built-up area is the largest place by far, spilling into two neighbouring districts, followed by Chesterfield, then the Erewash towns of Ilkeston and Long Eaton, Swadlincote in the south, and the Peak towns of Buxton, Glossop and Matlock. We teach every one of them the same way: a teacher in India teaches live over video, learners are grouped by what they can already do rather than by age, and we welcome everyone from 6 to 67 in groups of fifteen to twenty or one to one. On offer are programming, Python, maths, automation and AI. The Derbyshire project begins in the Derwent Valley mills. There is no charge for the first lesson; group lessons then cost USD 100 a month and private lessons USD 150.
 
 Cromford Mills, built by Richard Arkwright in 1771, describes itself as the world's first successful water-powered cotton spinning mill, and the Derwent Valley below it became a string of early factories stretching fifteen miles to Derby. Every one of those mills ran on gears, and gears hide a lovely piece of arithmetic. Pair a 96-tooth wheel with a 24-tooth pinion and each pinion tooth only ever touches four of the wheel's teeth, round and round, so any damage keeps hitting the same spots. Give the pinion one extra tooth, 25, and every tooth meets every other tooth before the pattern repeats. This page's project simulates both, and finds the rule behind it: greatest common divisors and least common multiples.
 
-Facts last verified 26 September 2026. Teaching is online; no Derbyshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Derbyshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses Derbyshire learners start with
 
@@ -161,7 +161,7 @@ Derbyshire's towns are separated by moors, valleys and slow roads. Online lesson
 - **Home is where it happens** A bedroom in Heanor, a kitchen in Ashbourne, a desk in Killamarsh. The learner writes code while the teacher watches the same screen.
 - **School words you know** Year groups, GCSE options and A levels are named as Derbyshire schools name them, all in English.
 - **Try a lesson for free** A real first lesson with a teacher, then an honest recommendation. No card is requested.
-- **Right-level groups** Five to ten learners at one stage, gathered widely, so the lesson is pitched for everyone in it.
+- **Right-level groups** Fifteen to twenty learners at one stage, gathered widely, so the lesson is pitched for everyone in it.
 - **Holidays around school** Two lessons a week is usual, pausing when your own school breaks up, whoever sets its dates.
 - **Times in UK time** India, where our teachers are, is 5.5 hours ahead of the UK in winter and 4.5 in summer; every lesson is booked in UK time.
 
@@ -172,7 +172,7 @@ Derbyshire's towns are separated by moors, valleys and slow roads. Online lesson
 Every Derbyshire town, and every country other than India, pays the same.
 
 - First class: USD 0. A complete lesson of real work, ending in a suggested level and course.
-- Group tuition: USD 100 a month. Around eight lessons a month, five to ten learners at one level.
+- Group tuition: USD 100 a month. Around eight lessons a month, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Around eight lessons a month, one teacher with one learner.
 
 We price in US dollars for everyone outside India and do not keep a pound list. Nothing is billed until after the free lesson, when a course and a weekly slot are agreed; for pauses, missed lessons and changes between group and one-to-one teaching, see the pricing page.

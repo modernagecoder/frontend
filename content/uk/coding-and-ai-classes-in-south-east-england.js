@@ -67,7 +67,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in South East England',
   capsuleQ: 'What are the best coding and AI classes in South East England?',
-  capsule: 'The South East region counted 9,278,065 residents at the 2021 census, across 64 local authorities, the most of any English region. Its largest built-up areas are Brighton and Hove, Southampton, Portsmouth, Reading, Oxford and Slough, with Crawley, Basingstoke, Worthing and Maidstone each above 100,000. Our teachers run every lesson live on video from India. Learners aged 6 to 67 study coding, AI, Python and maths one-to-one or in a group of five to ten at one level. A first lesson costs nothing and decides the course. Below is the index of our South East county and city pages, and a project built on two weather stations. Continuing costs USD 100 a month in a group or USD 150 a month one-to-one.',
+  capsule: 'The South East region counted 9,278,065 residents at the 2021 census, across 64 local authorities, the most of any English region. Its largest built-up areas are Brighton and Hove, Southampton, Portsmouth, Reading, Oxford and Slough, with Crawley, Basingstoke, Worthing and Maidstone each above 100,000. Our teachers run every lesson live on video from India. Learners aged 6 to 67 study coding, AI, Python and maths one-to-one or in a group of fifteen to twenty at one level. A first lesson costs nothing and decides the course. Below is the index of our South East county and city pages, and a project built on two weather stations. Continuing costs USD 100 a month in a group or USD 150 a month one-to-one.',
   lead: 'The Met Office publishes monthly records for a small set of long-running weather stations, and two of them sit in the South East: Manston in Kent, about 3 kilometres from the coastline, and Oxford, more than 60 kilometres from any coast, whose record starts in 1853. Take the thirty years from 1991 to 2020 and a surprise appears. Both stations average exactly 11.04 degrees across the year. Yet their seasons are not the same. At Manston the warmest month is August; at Oxford it is July. The sea warms slowly and cools slowly, so a coastal place should keep its warmth later into autumn and stay cool later into spring. Can two lines of arithmetic prove it from the raw records? This page\'s project finds out in Python.',
   wa: 'Hello Modern Age Coders, we are in South East England and would like to book a free lesson, please.',
 
@@ -174,7 +174,7 @@ module.exports = {
       { h3: 'Learners write the code', p: 'Each student types their own programs while the tutor follows the shared screen and asks guiding questions.' },
       { h3: 'English school years', p: 'A Year 5 in Crawley or a Year 13 in Eastbourne is placed by school year and key stage, and exams keep their board names.' },
       { h3: 'Free trial', p: 'One whole lesson at no charge, then honest advice.' },
-      { h3: 'Level-matched groups', p: 'Five to ten learners at one level from across the UK.' },
+      { h3: 'Level-matched groups', p: 'Fifteen to twenty learners at one level from across the UK.' },
       { h3: 'Term time', p: 'Two lessons a week in term; holidays kept free.' },
       { h3: 'UK clock kept', p: 'Your slot stays on UK time through both clock changes; our teachers adjust.' }
     ],
@@ -185,7 +185,7 @@ module.exports = {
     h2: 'Fees in the South East',
     intro: 'The fee is the same in every South East town, and in every country we teach outside India.',
     first: 'A full free lesson with a clear recommendation.',
-    group: 'About eight lessons a month in a class of five to ten.',
+    group: 'About eight lessons a month in a class of fifteen to twenty.',
     private: 'About eight lessons a month with your own tutor.',
     closer: 'We charge in US dollars only; there is no sterling price. Billing starts once the trial has fixed a course and weekly time, and the pricing page covers holidays, missed lessons and switching formats.'
   },

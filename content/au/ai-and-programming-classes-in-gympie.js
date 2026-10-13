@@ -187,7 +187,7 @@ module.exports = {
       { h3: 'Learning from home', p: 'A computer with a microphone and a reliable connection is all a Gympie learner needs.' },
       { h3: 'Queensland levels', p: 'Teachers plan around Queensland year levels and school terms, and everything is taught in English.' },
       { h3: 'Free trial first', p: 'The first lesson is a full class that ends with a course and weekly time recommended for the learner.' },
-      { h3: 'Level-matched groups', p: 'Groups of five to ten learners share a level and pace, gathered from Gympie and other places.' },
+      { h3: 'Level-matched groups', p: 'Groups of fifteen to twenty learners share a level and pace, gathered from Gympie and other places.' },
       { h3: 'Twice weekly', p: 'Group learners meet on two set days each week, roughly eight lessons a month.' },
       { h3: 'Teachers in India', p: 'Our teachers work in India, four and a half hours behind Gympie in every season.' }
     ],
@@ -198,7 +198,7 @@ module.exports = {
     h2: 'Gympie class fees',
     intro: 'Prices are brief and the same across Australia.',
     first: 'Your first lesson is free and closes with a recommended level, course and time.',
-    group: 'A month of group classes, about eight lessons, with five to ten learners at one level.',
+    group: 'A month of group classes, about eight lessons, with fifteen to twenty learners at one level.',
     private: 'Roughly eight private lessons each month with your own teacher.',
     closer: 'We charge in US dollars outside India, and Gympie pays the same as any other Australian town. Billing starts after the trial has agreed the course and schedule, and the pricing page explains holidays, missed lessons and switching between group and private.'
   },
@@ -223,7 +223,7 @@ module.exports = {
       { q: 'When are lessons for Gympie learners?', a: 'Weekday afternoons and Saturday mornings are popular, always agreed in Gympie time.' },
       { q: 'Can younger children join?', a: 'Yes. Children from age six start with Scratch and games; the forecasting project suits teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Gympie?', a: 'No. We hold no premises in Australia and claim none. All classes are live online; learners need a computer and a dependable connection, and our listed phone number is in India.', boiler: true },
-      { q: 'What do Gympie AI classes cost?', a: 'The first lesson is free. Afterwards a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month one-to-one. Everything is agreed before payment.', boiler: true },
+      { q: 'What do Gympie AI classes cost?', a: 'The first lesson is free. Afterwards a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month one-to-one. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners share a group?', a: 'Five to ten, matched by level and aims rather than age or location. If no group time works, one-to-one lessons are offered instead.', boiler: true }
     ]
   },

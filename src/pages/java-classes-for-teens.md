@@ -16,7 +16,7 @@ Book a Free Demo ClassWhat They'll Build**4.9/5**Parent rating**5–8**Students 
 
 ## Quick answer
 
-**Modern Age Coders offers live online Java classes for teens aged 13–18.** Teens master Core Java, Object-Oriented Programming and Data Structures while building real projects, games, quiz apps, a bank-account system and more. Classes are live and interactive in small batches of 5–8 students, the curriculum supports ICSE/ISC (where Java is the official language) and CBSE computer science, and group plans start at ₹1,499/month. Every teen gets a free demo class first.
+**Modern Age Coders offers live online Java classes for teens aged 13–18.** Teens master Core Java, Object-Oriented Programming and Data Structures while building real projects, games, quiz apps, a bank-account system and more. Classes are live and interactive in batches of 15–20 students, the curriculum supports ICSE/ISC (where Java is the official language) and CBSE computer science, and group plans start at ₹1,499/month. Every teen gets a free demo class first.
 
 Start Today
 
@@ -108,7 +108,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo.
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 students per batch
+- 15–20 students per batch
 - Live interactive sessions
 - Recorded class access
 - Completion certificate
@@ -119,7 +119,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 students per batch
+- Up to 6 students per batch
 - More personal attention
 - Recorded class access
 - Project guidance & certificate
@@ -183,11 +183,11 @@ Teens build real, working programs, number games, quiz apps, a calculator, a ban
 
 How much do teen Java classes cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. A free demo class is available first.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. A free demo class is available first.
 
 Are the classes live and in small batches?+
 
-Yes. Every class is live and interactive with a real mentor, in small batches of 5–8 students (or 3–4 in a Mini Batch). Sessions are recorded so teens can revise anytime.
+Yes. Every class is live and interactive with a real mentor, in batches of 15–20 students (or up to 6 in a Mini Batch). Sessions are recorded so teens can revise anytime.
 
 ---
 

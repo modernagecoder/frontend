@@ -4,7 +4,7 @@ description: "Online coding, AI and Python classes for Northampton, Daventry, To
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-northampton
 source: src/pages/best-coding-and-ai-classes-in-northampton.html
 ---
-> The 2021 census put West Northamptonshire at 425,725 people, with 243,520 of them in the Northampton built-up area. Its age profile tilts to families, with children aged 5 to 14 and adults aged 40 to 49 above the England share. Northampton learners from 6 to 67 study coding, AI, Python and maths with our India-based tutors over live video, one-to-one or in groups of five to ten at a single stage. A free opening lesson points to the right course. The Northampton project turns 81 years of River Nene flows into an engineering answer. After the trial, a group place costs USD 100 a month and a private tutor USD 150 a month.
+> The 2021 census put West Northamptonshire at 425,725 people, with 243,520 of them in the Northampton built-up area. Its age profile tilts to families, with children aged 5 to 14 and adults aged 40 to 49 above the England share. Northampton learners from 6 to 67 study coding, AI, Python and maths with our India-based tutors over live video, one-to-one or in groups of fifteen to twenty at a single stage. A free opening lesson points to the right course. The Northampton project turns 81 years of River Nene flows into an engineering answer. After the trial, a group place costs USD 100 a month and a private tutor USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East Midlands](/coding-and-ai-classes-in-east-midlands) / Northampton
 
@@ -12,11 +12,11 @@ Northampton, Northamptonshire, England / Live online
 
 # Coding and AI classes in Northampton
 
-**Where can Northampton families find the best coding and AI classes?** The 2021 census put West Northamptonshire at 425,725 people, with 243,520 of them in the Northampton built-up area. Its age profile tilts to families, with children aged 5 to 14 and adults aged 40 to 49 above the England share. Northampton learners from 6 to 67 study coding, AI, Python and maths with our India-based tutors over live video, one-to-one or in groups of five to ten at a single stage. A free opening lesson points to the right course. The Northampton project turns 81 years of River Nene flows into an engineering answer. After the trial, a group place costs USD 100 a month and a private tutor USD 150 a month.
+**Where can Northampton families find the best coding and AI classes?** The 2021 census put West Northamptonshire at 425,725 people, with 243,520 of them in the Northampton built-up area. Its age profile tilts to families, with children aged 5 to 14 and adults aged 40 to 49 above the England share. Northampton learners from 6 to 67 study coding, AI, Python and maths with our India-based tutors over live video, one-to-one or in groups of fifteen to twenty at a single stage. A free opening lesson points to the right course. The Northampton project turns 81 years of River Nene flows into an engineering answer. After the trial, a group place costs USD 100 a month and a private tutor USD 150 a month.
 
 Since November 1939 the River Nene has been measured every day at Upton Mill, on the Kislingbury branch in West Northamptonshire, where a flume under the mill and a weir on the bypass channel are added together to give the total flow. That record now holds more than 80 years of wet winters and dry summers. Here is an engineer's question a teenager can answer with it: if you wanted to take a steady flow from this river, every single day, how large a reservoir would you need to keep it going through the dry spells? The answer comes from a short algorithm called the sequent peak method, and it holds two surprises about how much history you need to look at.
 
-Facts last verified 27 September 2026. Teaching is online; no Northampton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Northampton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses Northampton learners choose
 
@@ -136,7 +136,7 @@ Anywhere in West Northamptonshire joins the same way.
 - **The learner types** All code is written by the student; the tutor reads along on the shared screen and asks guiding questions.
 - **Right year, right start** Year 6 or Year 12, each learner starts where their year and trial indicate, with their exam board named.
 - **First lesson on us** The trial is free and ends with a straight recommendation.
-- **Classes by stage** Five to ten learners at one level, gathered from around the UK.
+- **Classes by stage** Fifteen to twenty learners at one level, gathered from around the UK.
 - **Two per week** Two weekly lessons during term time; holidays stay free.
 - **Time that stays put** UK clock changes are absorbed by our teachers, so your lesson hour is unchanged.
 

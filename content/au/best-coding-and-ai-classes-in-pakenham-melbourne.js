@@ -305,7 +305,7 @@ module.exports = {
       { h3: 'Screen shared', p: 'The learner writes code on their own computer while the teacher watches the screen and talks it through.' },
       { h3: 'Victorian terms', p: 'Courses follow the state school calendar, with breaks in the holidays.' },
       { h3: 'A first lesson to judge by', p: 'The free class is a full lesson. Afterwards the teacher suggests a course and a regular time.' },
-      { h3: 'Groups by level', p: 'Five to ten learners at a similar stage share each group.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at a similar stage share each group.' },
       { h3: 'Twice a week', p: 'Two fixed lessons each week, about eight in a month, with any breaks agreed in advance.' },
       {
         h3: 'Teachers in India',
@@ -321,7 +321,7 @@ module.exports = {
     h2: 'Pakenham class fees',
     intro: 'The whole price list fits in three lines.',
     first: 'A free first lesson, followed by an honest course suggestion.',
-    group: 'One month of group classes, normally eight, in a level-matched group of five to ten.',
+    group: 'One month of group classes, normally eight, in a level-matched group of fifteen to twenty.',
     private: 'About eight one-to-one classes a month with a single teacher.',
     closer: 'Families outside India are billed in US dollars, so Pakenham pays the same as any other family abroad. Nothing is due until the trial has settled the course and the time; the pricing page covers holidays, missed classes and switching format.'
   },
@@ -363,7 +363,7 @@ module.exports = {
       },
       {
         q: 'How much are coding classes for Pakenham learners?',
-        a: 'The first lesson is free. Group classes are then USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, and one-to-one classes are USD 150 a month. You agree the course, format and time before paying.',
+        a: 'The first lesson is free. Group classes are then USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, and one-to-one classes are USD 150 a month. You agree the course, format and time before paying.',
         boiler: true
       },
       {

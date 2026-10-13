@@ -225,7 +225,7 @@ Teaching comes from India, which keeps the same clock all year. The UK is four a
 - **Sunday** For students with Saturday jobs.
 
 - **A free first lesson** We see where you are and suggest a route towards the option you are interested in.
-- **Small groups** Five to ten students at the same level.
+- **Small groups** Fifteen to twenty students at the same level.
 - **One to one** For a faster pace or a specific deadline.
 - **Projects you choose** Your project, in your own GitHub account, so it stays yours.
 - **Code read line by line** A teacher reads your program and explains what to improve.
@@ -236,7 +236,7 @@ Teaching comes from India, which keeps the same clock all year. The UK is four a
 One monthly fee in US dollars, the same outside India, with no enrolment fee and no commitment beyond the month, so lessons can stop for exams or a new job.
 
 - Free first class: USD 0. A look at your current level. A suggested route towards your option. No payment details needed.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher each week. A project of your own. Stop at the end of any month.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher each week. A project of your own. Stop at the end of any month.
 - One to one: USD 150 a month. A teacher for you alone. A pace set around school. Useful before a specific deadline.
 
 ## What students and parents ask

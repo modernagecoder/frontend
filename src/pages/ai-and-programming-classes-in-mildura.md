@@ -16,7 +16,7 @@ Mildura, Victoria, Australia / Live online
 
 Mildura Rural City Council fitted some of its public bins with sensors that measure the distance from the lid down to the rubbish, and published every reading as open data. Two of those bins, in Mildura itself, sent 13,758 usable readings between December 2021 and April 2023. Can a computer predict, from one reading, whether the bin will be emptied in the next 24 hours? Our Mildura project builds the simplest machine learning model there is, a one-rule classifier, and finds that it beats the "never emptied" guess by only four percentage points, while catching about one emptying in three. Understanding why is a better introduction to AI than any chatbot.
 
-Facts last verified 7 October 2026. Teaching is online; no Mildura branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Mildura branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI and programming courses for Mildura learners
 
@@ -187,7 +187,7 @@ The urban area straddles a state border, and an online class does not mind which
 - **Across the Murray** A learner in Buronga and one in Irymple join the same class without anyone crossing the bridge.
 - **Victorian and NSW schooling** Teachers plan around Victorian year levels and terms, and work just as readily with NSW students across the river. Lessons are in English.
 - **The trial is a real class** The free lesson ends with a recommended level, course and time, and nobody asks for payment details.
-- **Groups at the same stage** Five to ten learners at one level, from Sunraysia and beyond, so classes are never too small to run.
+- **Groups at the same stage** Fifteen to twenty learners at one level, from Sunraysia and beyond, so classes are never too small to run.
 - **A twice-weekly habit** Two lessons a week at fixed times, about eight a month, with breaks planned around holidays and exams.
 - **Teachers in India** A 5pm Mildura lesson in July starts at 12:30pm India time; once daylight saving begins, it starts at 11:30am there.
 
@@ -198,7 +198,7 @@ The urban area straddles a state border, and an online class does not mind which
 Three figures, no small print.
 
 - First class: USD 0. A free first lesson, finishing with a level, a course and a lesson time.
-- Group tuition: USD 100 a month. A month of classes, usually eight, with five to ten learners at your stage.
+- Group tuition: USD 100 a month. A month of classes, usually eight, with fifteen to twenty learners at your stage.
 - Private tuition: USD 150 a month. About eight lessons a month on the same plan, one to one.
 
 We invoice everywhere except India in US dollars, so a household in Mildura and one in Buronga pay exactly the same and no local price list exists. Payment starts only after the trial has agreed a course and a time; the pricing page covers holidays, absences and changing formats.
@@ -239,11 +239,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Mildura AI classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Mildura and Victorian learners
 

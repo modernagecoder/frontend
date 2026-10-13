@@ -184,7 +184,7 @@ module.exports = {
       { h3: 'At home', p: 'Learners connect from their own desk; there is no long drive to Sydney or Orange for a class.' },
       { h3: 'Fits NSW school', p: 'Teachers plan with NSW year levels in mind and work around the state\'s four terms. Everything is taught in English.' },
       { h3: 'Trial first', p: 'A real, free first lesson ends with a recommended course and a weekly time that suits.' },
-      { h3: 'Matched groups', p: 'Five to ten learners at the same level, gathered from Dubbo and elsewhere so each group stays full.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners at the same level, gathered from Dubbo and elsewhere so each group stays full.' },
       { h3: 'Twice weekly', p: 'A learner meets the class on two set days each week, which comes to roughly eight sessions in a month.' },
       { h3: 'Teachers in India', p: 'India time is five and a half hours behind Dubbo during daylight saving and four and a half hours behind for the rest of the year.' }
     ],
@@ -195,7 +195,7 @@ module.exports = {
     h2: 'Dubbo class fees',
     intro: 'The pricing is short and the same across Australia.',
     first: 'Your first lesson is free, with a level, course and weekly time suggested at the end.',
-    group: 'A month of group classes, about eight, with five to ten learners at the same stage.',
+    group: 'A month of group classes, about eight, with fifteen to twenty learners at the same stage.',
     private: 'About eight private lessons a month with your own teacher.',
     closer: 'Outside India we charge in US dollars, and Dubbo pays the same as every other Australian town. You are billed only once the trial has settled what and when you will study, and our pricing page deals with holidays, absences and moving from group to private or back.'
   },
@@ -220,7 +220,7 @@ module.exports = {
       { q: 'When are lessons for Dubbo learners?', a: 'Weekday after-school slots and Saturday mornings are common, agreed at the trial and always quoted in Dubbo time.' },
       { q: 'Can younger children join?', a: 'Yes. Our youngest learners are six and start with Scratch and simple games. The address filter project is for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Dubbo?', a: 'No. We hold no premises in Australia and claim none. All classes are live online; learners need a computer, sound and a dependable connection, and our listed phone number is in India.', boiler: true },
-      { q: 'What do Dubbo AI classes cost?', a: 'The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Everything is agreed before you pay.', boiler: true },
+      { q: 'What do Dubbo AI classes cost?', a: 'The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Everything is agreed before you pay.', boiler: true },
       { q: 'How many learners share a group?', a: 'Between five and ten, matched by level and goals rather than age or location. If no group time works, we offer one-to-one lessons.', boiler: true }
     ]
   },

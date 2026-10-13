@@ -4,7 +4,7 @@ description: "Live online coding classes for Busselton teens and adults: Python,
 canonical: https://learn.modernagecoders.com/best-coding-classes-in-busselton
 source: src/pages/best-coding-classes-in-busselton.html
 ---
-> For Busselton teenagers and adults, look for live lessons where a teacher explains each idea and real projects make it stick: Python first, then algorithms and geometry applied to genuine South West data. The 2021 Census counted 40,544 people in the Busselton urban area. We teach online in groups of five to ten or one to one, with a free first lesson.
+> For Busselton teenagers and adults, look for live lessons where a teacher explains each idea and real projects make it stick: Python first, then algorithms and geometry applied to genuine South West data. The 2021 Census counted 40,544 people in the Busselton urban area. We teach online in groups of fifteen to twenty or one to one, with a free first lesson.
 
 [Home](/) / [Western Australia](/coding-and-ai-classes-in-western-australia) / [Australia](/coding-classes-in-australia) / Busselton
 
@@ -12,11 +12,11 @@ Busselton, Western Australia, Australia / Live online
 
 # Coding classes in Busselton
 
-**What are the best coding classes in Busselton?** For Busselton teenagers and adults, look for live lessons where a teacher explains each idea and real projects make it stick: Python first, then algorithms and geometry applied to genuine South West data. The 2021 Census counted 40,544 people in the Busselton urban area. We teach online in groups of five to ten or one to one, with a free first lesson.
+**What are the best coding classes in Busselton?** For Busselton teenagers and adults, look for live lessons where a teacher explains each idea and real projects make it stick: Python first, then algorithms and geometry applied to genuine South West data. The 2021 Census counted 40,544 people in the Busselton urban area. We teach online in groups of fifteen to twenty or one to one, with a free first lesson.
 
 Western Australia's conservation department maps where western ringtail possums could live across the coastal plain from Binningup to Dunsborough, sorting the bush into classes from very high suitability to unsuitable. Draw a rectangle around central Busselton and ask a simple question: how many hectares of mapped habitat are inside it? Count every patch the box touches and you get one answer. Count only patches whose centre falls inside and you get another. Cut each patch exactly at the box edge and you get the right one. The gap between the three is almost 150 hectares, and the algorithm that closes it fits on one screen.
 
-Facts last verified 8 October 2026. Teaching is online; no Busselton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 8 October 2026. Teaching is online; no Busselton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four places Busselton learners begin
 
@@ -187,7 +187,7 @@ Every class runs on a video call, so living in the South West makes no differenc
 - **Learn from home** Join from a home computer; there is no drive up to Bunbury or Perth for a class.
 - **WA school years** Teachers work with WA year levels and plan around the four WA terms. All teaching is in English.
 - **A proper trial** The first lesson is free and real, and ends with a recommended course and a weekly time.
-- **Right-sized groups** Groups hold five to ten learners at a similar level, drawn from Busselton and further afield.
+- **Right-sized groups** Groups hold fifteen to twenty learners at a similar level, drawn from Busselton and further afield.
 - **Twice a week** Two live lessons each week, about eight a month, at a fixed time set after the trial.
 - **Teachers in India** Our teachers are two and a half hours behind Busselton all year, because neither place changes its clocks.
 
@@ -198,7 +198,7 @@ Every class runs on a video call, so living in the South West makes no differenc
 Three lines cover the whole price list.
 
 - First class: USD 0. The first lesson is free and ends with a course, level and weekly time recommended.
-- Group tuition: USD 100 a month. A month of group lessons, typically eight, alongside five to ten learners at your stage.
+- Group tuition: USD 100 a month. A month of group lessons, typically eight, alongside fifteen to twenty learners at your stage.
 - Private tuition: USD 150 a month. Around eight one-to-one lessons a month with a dedicated teacher.
 
 Outside India fees are in US dollars, the same for Busselton as for any Australian town. There is no charge until after the trial, when a course and a slot are fixed; the pricing page sets out holidays, missed classes and changing between group and private.
@@ -239,7 +239,7 @@ No. We have no premises anywhere in Australia and claim none. All lessons are li
 
 ### What do Busselton coding classes cost?
 
-The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Nothing is charged before the plan is agreed.
+The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Nothing is charged before the plan is agreed.
 
 ### How big are your groups?
 

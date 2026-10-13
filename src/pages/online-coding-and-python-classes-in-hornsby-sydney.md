@@ -16,7 +16,7 @@ Hornsby Shire, Sydney, New South Wales / Live online
 
 Type "E" into a search box of Hornsby's public schools and only Epping North Public School can match. Type "Pennant Hills" and two schools are still in play until the fifteenth character settles it. How many keystrokes does each of the 35 names need before it is the only possible answer? Comparing every name with every other would take 595 comparisons. Sort the list first and only neighbours matter: 34 comparisons, one for each adjacent pair, give every answer. Our Hornsby project builds that autocomplete in Python and finds that all 35 schools can be picked out in 226 keystrokes, against 881 characters for the full names.
 
-Facts last verified 10 October 2026. Teaching is online; no Hornsby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Hornsby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Starting points for Hornsby learners of every age
 
@@ -186,7 +186,7 @@ In the department's file the most northerly school in the shire is Brooklyn Publ
 - **No travel** Wherever in the shire a learner lives, the lesson starts at home and the hour goes on programming rather than travelling.
 - **In step with NSW** Lessons follow the NSW stages and year levels, take breaks with the state school holidays, and can support senior computing subjects.
 - **A real first class** The free trial is a proper lesson; afterwards the teacher suggests a course, level and time, and nothing is billed.
-- **Small, matched groups** Groups hold five to ten learners at one level, mixing Hornsby learners with others from different places.
+- **Small, matched groups** Groups hold fifteen to twenty learners at one level, mixing Hornsby learners with others from different places.
 - **Twice weekly** Two fixed lessons each week, about eight a month, with holiday pauses arranged ahead of time.
 - **Teachers in India** A 5pm Hornsby lesson in summer starts at 11:30am India time, and at 12:30pm there once Sydney leaves daylight saving.
 
@@ -197,7 +197,7 @@ In the department's file the most northerly school in the shire is Brooklyn Publ
 Three numbers cover everything.
 
 - First class: USD 0. The first lesson is free and ends with a recommendation.
-- Group tuition: USD 100 a month. About eight group lessons a month with five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight group lessons a month with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight private lessons a month with one teacher.
 
 Outside India we invoice in US dollars, which means one price for the whole shire and no Hornsby-specific rates. Nothing is charged until a course and time are confirmed after the trial; the pricing page covers holidays, absences and format changes.
@@ -238,11 +238,11 @@ No. We teach only online and have no premises in Australia. A learner needs a co
 
 ### How much are Python classes for Hornsby learners?
 
-The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.
+The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.
 
 ### What size are the groups?
 
-Five to ten learners grouped by level and goals, not by age or suburb. One-to-one lessons are available when no group suits the required time.
+Fifteen to twenty learners grouped by level and goals, not by age or suburb. One-to-one lessons are available when no group suits the required time.
 
 ## More for Hornsby learners
 

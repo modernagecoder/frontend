@@ -1,10 +1,10 @@
 ---
 title: "Indian Computing Olympiad Prep: ZIO, ZCO and INOI, Live Online"
-description: "Live online Indian Computing Olympiad prep: ZIO, ZCO in C++, Java or Python, then INOI in C++ only. ICO-2027 registration opens Oct 2026. Batches of 5 to 10."
+description: "Live online Indian Computing Olympiad prep: ZIO, ZCO in C++, Java or Python, then INOI in C++ only. ICO-2027 registration opens Oct 2026. Batches of 15 to 20."
 canonical: https://learn.modernagecoders.com/indian-computing-olympiad-preparation
 source: src/pages/indian-computing-olympiad-preparation.html
 ---
-> Live online Indian Computing Olympiad prep: ZIO, ZCO in C++, Java or Python, then INOI in C++ only. ICO-2027 registration opens Oct 2026. Batches of 5 to 10.
+> Live online Indian Computing Olympiad prep: ZIO, ZCO in C++, Java or Python, then INOI in C++ only. ICO-2027 registration opens Oct 2026. Batches of 15 to 20.
 
 Start here
 
@@ -16,7 +16,7 @@ ZIO needs reasoning, ZCO needs a language and an algorithm, INOI needs C++ and s
 
 Ans. The short version
 
-The Indian Computing Olympiad, run by the Indian Association for Research in Computing Science, is India's selection route to the International Olympiad in Informatics. It is open to any school student up to Class 12 from any board, with no lower age limit; a student who has completed Class 12 is no longer eligible. The first round is the Zonal Informatics Olympiad, a written paper, or the Zonal Computing Olympiad, a programming exam in C++, Java or Python, and a student may attempt either or both. Qualifiers sit the Indian National Olympiad in Informatics, where the only language allowed is C++, and about thirty students go on to the IOI Training Camp. IARCS says registration for ICO-2027 opens in October 2026; the 2026 cycle ran ZIO in November, ZCO and INOI in February and the camp in June. Modern Age Coders prepares students live online in batches of five to ten: one class a week on algorithms and the reasoning ZIO tests, one on coding against a judge with a clock, and a planned move to C++ for every student before INOI. The first class is a free demo, and the group batch fee is shown on this page in your own currency.
+The Indian Computing Olympiad, run by the Indian Association for Research in Computing Science, is India's selection route to the International Olympiad in Informatics. It is open to any school student up to Class 12 from any board, with no lower age limit; a student who has completed Class 12 is no longer eligible. The first round is the Zonal Informatics Olympiad, a written paper, or the Zonal Computing Olympiad, a programming exam in C++, Java or Python, and a student may attempt either or both. Qualifiers sit the Indian National Olympiad in Informatics, where the only language allowed is C++, and about thirty students go on to the IOI Training Camp. IARCS says registration for ICO-2027 opens in October 2026; the 2026 cycle ran ZIO in November, ZCO and INOI in February and the camp in June. Modern Age Coders prepares students live online in batches of fifteen to twenty: one class a week on algorithms and the reasoning ZIO tests, one on coding against a judge with a clock, and a planned move to C++ for every student before INOI. The first class is a free demo, and the group batch fee is shown on this page in your own currency.
 
 Q1. What are the stages, and what does each allow?
 
@@ -168,7 +168,7 @@ Group batch · by level
 
 per month
 
-- Five to ten students, at the same level
+- Fifteen to twenty students, at the same level
 - Two live classes a week, algorithms and judged coding practice
 - Placement, weekly marked ZIO work, judge problems reviewed, scheduled C++ move
 - Certificate on completion
@@ -181,7 +181,7 @@ Mini batch
 
 per month
 
-- Three to four students
+- Up to six students
 - Timings agreed around the family
 - More code review per student
 

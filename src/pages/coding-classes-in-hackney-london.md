@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Hackney: Shor
 canonical: https://learn.modernagecoders.com/coding-classes-in-hackney-london
 source: src/pages/coding-classes-in-hackney-london.html
 ---
-> Hackney is the east London borough of Shoreditch, Dalston, Stoke Newington, Clapton, Homerton, Hackney Wick and Stamford Hill, home to 259,146 people at the 2021 Census and to more than 33,000 trees on the public list of trees looked after by councils and other public bodies. A class worth its fee teaches a learner to estimate what they cannot yet see from what they can, and this page does that with Hackney's trees: how many species appear as you look at more and more trees, and a famous formula that guesses how many are still unrecorded. Teachers in India teach live over video, for learners aged 6 to 67, either one to one or in small classes of five to ten sharing a level. The first lesson is free. Group places then cost USD 100 a month; private lessons USD 150 a month.
+> Hackney is the east London borough of Shoreditch, Dalston, Stoke Newington, Clapton, Homerton, Hackney Wick and Stamford Hill, home to 259,146 people at the 2021 Census and to more than 33,000 trees on the public list of trees looked after by councils and other public bodies. A class worth its fee teaches a learner to estimate what they cannot yet see from what they can, and this page does that with Hackney's trees: how many species appear as you look at more and more trees, and a famous formula that guesses how many are still unrecorded. Teachers in India teach live over video, for learners aged 6 to 67, either one to one or in classes of fifteen to twenty sharing a level. The first lesson is free. Group places then cost USD 100 a month; private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Hackney
 
@@ -12,11 +12,11 @@ London Borough of Hackney / Live online
 
 # Coding classes in Hackney
 
-**What are the best coding classes in Hackney?** Hackney is the east London borough of Shoreditch, Dalston, Stoke Newington, Clapton, Homerton, Hackney Wick and Stamford Hill, home to 259,146 people at the 2021 Census and to more than 33,000 trees on the public list of trees looked after by councils and other public bodies. A class worth its fee teaches a learner to estimate what they cannot yet see from what they can, and this page does that with Hackney's trees: how many species appear as you look at more and more trees, and a famous formula that guesses how many are still unrecorded. Teachers in India teach live over video, for learners aged 6 to 67, either one to one or in small classes of five to ten sharing a level. The first lesson is free. Group places then cost USD 100 a month; private lessons USD 150 a month.
+**What are the best coding classes in Hackney?** Hackney is the east London borough of Shoreditch, Dalston, Stoke Newington, Clapton, Homerton, Hackney Wick and Stamford Hill, home to 259,146 people at the 2021 Census and to more than 33,000 trees on the public list of trees looked after by councils and other public bodies. A class worth its fee teaches a learner to estimate what they cannot yet see from what they can, and this page does that with Hackney's trees: how many species appear as you look at more and more trees, and a famous formula that guesses how many are still unrecorded. Teachers in India teach live over video, for learners aged 6 to 67, either one to one or in classes of fifteen to twenty sharing a level. The first lesson is free. Group places then cost USD 100 a month; private lessons USD 150 a month.
 
 The Greater London Authority publishes a list of trees maintained by London's councils and other public bodies, with the species of each where it is known. Hackney has 33,085 entries. Walk down a Hackney street and you will soon have seen London planes, silver birches and sycamores; keep walking and new species appear more and more rarely. Ecologists call the graph of that slowing discovery a species accumulation curve, and our learners draw it by sampling the list at random. Then they meet Chao1, a short formula that uses only the species seen once or twice to estimate how many were never seen at all. On the full list it suggests about 255 species where 229 are named. On small samples, learners find it guesses far too low.
 
-Facts last verified 25 September 2026. Teaching is online; no Hackney branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Hackney branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses to begin with in Hackney
 
@@ -142,7 +142,7 @@ A learner at the northern tip of the borough and one near Shoreditch can share a
 
 ### No one left unrecorded
 
-In groups of five to ten at one stage, the teacher knows every learner by name and by progress.
+In groups of fifteen to twenty at one stage, the teacher knows every learner by name and by progress.
 
 **Hackney among London's boroughs** Hackney is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers every borough and the City, linking each page as it goes live, including [Newham](/coding-classes-in-newham-london) to the east and [Camden](/coding-classes-in-camden-london) to the west.
 
@@ -183,7 +183,7 @@ From any corner of Hackney, a lesson starts the moment the video call does.
 Nothing for lesson one; afterwards a single monthly fee that does not vary between Shoreditch and Stamford Hill.
 
 - First class: USD 0. A full first lesson with a teacher, free, ending with a recommended level, course and time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a class of five to ten at one stage.
+- Group tuition: USD 100 a month. About eight live lessons a month in a class of fifteen to twenty at one stage.
 - Private tuition: USD 150 a month. About eight live lessons a month, one to one with a teacher.
 
 Fees for Hackney, like everywhere outside India, are set in US dollars, which is why no pound figures appear anywhere on the site. Money only changes hands once the free lesson is over and a course and a regular slot have been agreed. The pricing page explains pauses, missed lessons and switching between group and private lessons.
@@ -224,11 +224,11 @@ No. There is no Hackney centre and no premises anywhere in the UK, because every
 
 ### What do coding classes in Hackney cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## More boroughs, more data
 

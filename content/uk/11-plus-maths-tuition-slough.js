@@ -193,7 +193,7 @@ module.exports = {
             'Reading\'s two selective schools set their own tests, which are separate from this one; this page is only about the Slough Consortium examination.'
           ],
           right: [
-            'Our lessons are live on video, so a child in Langley, Burnham or Cippenham is taught with others at the same level of Year 5 maths, from anywhere, in groups of five to ten.',
+            'Our lessons are live on video, so a child in Langley, Burnham or Cippenham is taught with others at the same level of Year 5 maths, from anywhere, in groups of fifteen to twenty.',
             'We have no connection with the consortium, any of its schools or the council, and we do not advise on applications or places.'
           ] },
         { kind: 'source', html: 'Sources: Herschel Grammar School, Year 7 admissions 2028; Slough Consortium briefing, April 2026.' }
@@ -261,7 +261,7 @@ module.exports = {
     cells: [
       { h3: 'One teacher', p: 'The same person weekly, who knows each child\'s habits.' },
       { h3: 'Honest notes', p: 'A few frank sentences after lessons.' },
-      { h3: 'Five to ten per group', p: 'Children matched by level.' },
+      { h3: 'Fifteen to twenty per group', p: 'Children matched by level.' },
       { h3: 'Our own questions', p: 'No GL, Quest or consortium material is copied.' },
       { h3: 'One to one option', p: 'For a specific weakness, such as time.' },
       { h3: 'Maths only', p: 'No reasoning coaching and no admissions advice.' }
@@ -276,7 +276,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'One monthly price in US dollars, the same for all families outside India. No joining fee and no notice period.',
     free: ['A real taught lesson', 'An honest verdict afterwards', 'No card required'],
-    group: ['Five to ten children at one level', 'A regular teacher', 'Marked work, talked through', 'A certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'A regular teacher', 'Marked work, talked through', 'A certificate at the end'],
     one: ['A teacher for your child only', 'Aimed at particular gaps', 'Useful in the summer of Year 5']
   },
 

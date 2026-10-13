@@ -46,7 +46,7 @@ module.exports = {
   twitterDescription: 'Manchester maths, taught live online: is the typical gap between Metrolink stops the mean or the median?',
   pageName: 'Maths Tuition in Manchester',
   webPageDescription: 'Live online mathematics tuition for learners in Manchester from age 6 to 67, covering primary maths, Key Stage 3, GCSE, A level and Further Maths, and adult maths, with a statistics project built on the Metrolink network.',
-  courseDescription: 'Live online maths lessons for Manchester learners at every stage, in groups of five to ten at one level or one to one, taught to the national curriculum and the GCSE and A level specifications.',
+  courseDescription: 'Live online maths lessons for Manchester learners at every stage, in groups of fifteen to twenty at one level or one to one, taught to the national curriculum and the GCSE and A level specifications.',
   crumbs: [{ name: 'Courses', href: '/courses' }, { name: 'Coding classes in the UK', href: '/coding-classes-in-united-kingdom' }],
   crumbLabel: 'Maths tuition in Manchester',
   navLinks: [
@@ -68,7 +68,7 @@ module.exports = {
     ['GCSE', 'Foundation or Higher, AQA, Edexcel or OCR'],
     ['Sixth form', 'A level Maths and Further Maths'],
     ['Adults', 'GCSE resits, Functional Skills topics, refreshers'],
-    ['Format', 'Live video, 5 to 10 per group or one to one'],
+    ['Format', 'Live video, 15 to 20 per group or one to one'],
     ['Teachers', 'Based in India, booked on UK time'],
     ['Local project', 'Metrolink stop gaps, mean against median']
   ],
@@ -280,7 +280,7 @@ module.exports = {
     cells: [
       { h3: 'The same teacher each week', p: 'Whoever spotted a slip on Tuesday is the one who checks for it the following Tuesday.' },
       { h3: 'Short reports home', p: 'A few lines after lessons on what clicked and what still wobbles.' },
-      { h3: 'Five to ten per group', p: 'Everyone at the same level, so an explanation lands for all of them.' },
+      { h3: 'Fifteen to twenty per group', p: 'Everyone at the same level, so an explanation lands for all of them.' },
       { h3: 'Real data in lessons', p: 'Metrolink gaps, weather records and census tables, as well as textbook questions.' },
       { h3: 'One to one if needed', p: 'For a specific gap, an exam close at hand, or a learner who prefers it.' },
       { h3: 'Maths, explained', p: 'We ask learners to say why a method works, not only to follow it.' }
@@ -295,7 +295,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Billed monthly in US dollars at one rate for every country outside India, with nothing to sign up front and nothing to pay to join.',
     free: ['A real lesson at the right level', 'Our honest view afterwards', 'No card details asked for'],
-    group: ['Five to ten learners at one level', 'A regular teacher', 'Marked work, talked through', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'A regular teacher', 'Marked work, talked through', 'A certificate at the end'],
     one: ['A teacher for one learner', 'Aimed at the exact gap', 'Useful in the months before an exam']
   },
 
@@ -303,7 +303,7 @@ module.exports = {
     eyebrow: 'Manchester maths questions',
     h2: 'What Manchester families and adult learners ask us',
     items: [
-      { q: 'What is maths tuition?', a: 'Maths tuition is teaching outside school hours that follows the learner rather than a class: it finds the gaps, explains the ideas behind them and builds confidence step by step. Ours is live and online, in small groups of five to ten at one level or one to one.' },
+      { q: 'What is maths tuition?', a: 'Maths tuition is teaching outside school hours that follows the learner rather than a class: it finds the gaps, explains the ideas behind them and builds confidence step by step. Ours is live and online, in groups of fifteen to twenty at one level or one to one.' },
       { q: 'What is the best age to start maths tuition?', a: 'There is no single right age. We teach from 6, when number sense and times tables are being built, and we also teach adults up to 67. The useful moment is when a learner first feels lost, before the gap grows.' },
       { q: 'Will you follow the GCSE exam board my child is entered for?', a: 'Yes. We teach to the national curriculum for England and to whichever board the school uses, AQA, Edexcel or OCR, at Foundation or Higher tier, or to IGCSE where that is the course.' },
       { q: 'Can you help with the Year 4 multiplication tables check?', a: 'Yes. We teach the tables to 12 × 12 so that each fact can be rebuilt from another, which makes them stick. The check is statutory in Year 4 at state-funded schools in England.' },

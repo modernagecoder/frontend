@@ -16,7 +16,7 @@ Terenure, Dublin 6W / Live online
 
 Seven Dublin Bus routes stop in Terenure. How alike are they? A standard answer compares the stops two routes share with all the stops either one uses, a score called the Jaccard index that runs from 0, nothing in common, to 1, identical. Routes 16 and 16D score 0.896; routes 65 and 74 both pass through Terenure and score 0. Then comes the surprise: route 15 compared with itself going the other way scores 0.008, because a stop in the timetable is one side of the road. Count stops by name instead and the same comparison gives 0.859. This page teaches a learner to measure similarity, and to decide first what counts as the same thing.
 
-Facts last verified 20 September 2026. Teaching is online; no Terenure branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Terenure branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four first courses for Terenure
 
@@ -148,7 +148,7 @@ Similarity depends on sameness. Define sameness first, then let the code count. 
 The main points.
 
 - **Live lessons** A teacher leads each lesson in real time and works through each learner's code alongside them.
-- **Grouped by level** Five to ten learners on the same level, joining from Terenure, around Ireland or abroad.
+- **Grouped by level** Fifteen to twenty learners on the same level, joining from Terenure, around Ireland or abroad.
 - **Two days a week** The same pair of days each week, which comes to roughly eight lessons a month.
 - **School calendar** Breaks for holidays, mid-terms and exams are part of the plan.
 - **Equipment check** A proper computer rather than a phone, a working mic, a way to hear the teacher, and broadband that keeps video smooth.
@@ -161,7 +161,7 @@ The main points.
 Clearly.
 
 - First class: USD 0. A free first lesson, with a check of the learner's level.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, around eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, around eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons on the same pattern.
 
 Outside India the fee is a single US dollar amount for every family, paid monthly. Taking the free lesson signs you up to nothing; the first bill arrives only when the course begins, and anything about holidays, missed sessions or changing format is set out on the pricing page.
@@ -198,11 +198,11 @@ Possibly, but groups are organised by level, so classmates may live anywhere in 
 
 ### What do coding classes in Terenure cost?
 
-The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.
+The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.
 
 ### How big are the groups?
 
-Five to ten learners, matched by level, pace and goals rather than age or address. If no group runs at a workable time, lessons are one to one.
+Fifteen to twenty learners, matched by level, pace and goals rather than age or address. If no group runs at a workable time, lessons are one to one.
 
 ## Around Terenure
 

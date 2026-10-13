@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Southampton l
 canonical: https://learn.modernagecoders.com/best-coding-class-in-southampton
 source: src/pages/best-coding-class-in-southampton.html
 ---
-> Southampton counted 248,922 usual residents at the 2021 Census, and 25.6% of those aged five and over were schoolchildren or full-time students, against 20.4% across England. Ordnance Survey, Great Britain's national mapping service, moved its headquarters to Southampton after a fire in 1841, and its open postcode file is the data behind the project on this page. Modern Age Coders teaches Southampton learners aged six to sixty-seven live online, in small groups of five to ten set by level or one to one, with teachers in India and times arranged in UK hours. Nothing is charged for the first lesson. Afterwards it is USD 100 a month for a group place, or USD 150 a month for lessons with a teacher to yourself.
+> Southampton counted 248,922 usual residents at the 2021 Census, and 25.6% of those aged five and over were schoolchildren or full-time students, against 20.4% across England. Ordnance Survey, Great Britain's national mapping service, moved its headquarters to Southampton after a fire in 1841, and its open postcode file is the data behind the project on this page. Modern Age Coders teaches Southampton learners aged six to sixty-seven live online, in groups of fifteen to twenty set by level or one to one, with teachers in India and times arranged in UK hours. Nothing is charged for the first lesson. Afterwards it is USD 100 a month for a group place, or USD 150 a month for lessons with a teacher to yourself.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Southampton
 
@@ -12,11 +12,11 @@ Southampton, Hampshire, England / Live online
 
 # Coding classes in Southampton
 
-**What are the best coding classes in Southampton?** Southampton counted 248,922 usual residents at the 2021 Census, and 25.6% of those aged five and over were schoolchildren or full-time students, against 20.4% across England. Ordnance Survey, Great Britain's national mapping service, moved its headquarters to Southampton after a fire in 1841, and its open postcode file is the data behind the project on this page. Modern Age Coders teaches Southampton learners aged six to sixty-seven live online, in small groups of five to ten set by level or one to one, with teachers in India and times arranged in UK hours. Nothing is charged for the first lesson. Afterwards it is USD 100 a month for a group place, or USD 150 a month for lessons with a teacher to yourself.
+**What are the best coding classes in Southampton?** Southampton counted 248,922 usual residents at the 2021 Census, and 25.6% of those aged five and over were schoolchildren or full-time students, against 20.4% across England. Ordnance Survey, Great Britain's national mapping service, moved its headquarters to Southampton after a fire in 1841, and its open postcode file is the data behind the project on this page. Modern Age Coders teaches Southampton learners aged six to sixty-seven live online, in groups of fifteen to twenty set by level or one to one, with teachers in India and times arranged in UK hours. Nothing is charged for the first lesson. Afterwards it is USD 100 a month for a group place, or USD 150 a month for lessons with a teacher to yourself.
 
 Southampton has 5,814 postcodes in Ordnance Survey's open Code-Point file. Suppose a program has to find one of them instantly, thousands of times a second. Scanning a list takes 2,907 comparisons on average. A hash table does it in about one: a hash function turns each postcode into a bucket number, and the lookup jumps straight there. But the hash has to be good. The obvious one, adding up the character codes, turns out to produce only 61 different answers for every postcode in the city, because they are all built from the same few letters and digits. It packs 5,814 postcodes into 61 of 7,919 buckets, with 227 in the worst. A well-mixed hash spreads the same keys over 3,901 buckets, seven at most in any one. Knowing why, and how to measure it, is the lesson Southampton's postcodes teach our teenage learners.
 
-Facts last verified 21 September 2026. Teaching is online; no Southampton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 21 September 2026. Teaching is online; no Southampton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the mapmakers' city
 
@@ -64,7 +64,7 @@ Schoolchildren and full-time students together were 25.6% of residents aged five
 
 Some 95.9% of residents lived in households; the other 4.1%, in communal establishments, include people in student halls.
 
-In practice that means learners at every stage. A Southampton learner might be a nine-year-old in Bassett writing a first Python program, a Year 13 student in Sholing finishing A level Computer Science, or someone in their twenties in Ocean Village learning SQL for work, and each joins a group of five to ten at the same level.
+In practice that means learners at every stage. A Southampton learner might be a nine-year-old in Bassett writing a first Python program, a Year 13 student in Sholing finishing A level Computer Science, or someone in their twenties in Ocean Village learning SQL for work, and each joins a group of fifteen to twenty at the same level.
 
 ## Ordnance Survey's long Southampton story
 
@@ -172,7 +172,7 @@ Whichever side of the Itchen a learner lives on, a live online lesson needs no b
 - **Both banks of the Itchen** A learner in Woolston and another in Freemantle can share one lesson without either crossing the river.
 - **English stages, English names** Reception, the four Key Stages, Year 9 options, GCSEs and A levels, called what Southampton schools call them, and taught in English.
 - **A useful first lesson** The free lesson teaches something real and ends with a recommended level, course and regular weekly time, with no card requested.
-- **Groups set by level** Five to ten learners at one stage, from Southampton, the rest of the UK and abroad, so every level has a slot that works.
+- **Groups set by level** Fifteen to twenty learners at one stage, from Southampton, the rest of the UK and abroad, so every level has a slot that works.
 - **Two fixed lessons weekly** The same two times each week, about eight lessons a month, with holiday and exam pauses agreed with the teacher ahead of time.
 - **A fixed clock in India** Our teachers work on India Standard Time, which stays fixed all year, so they are four and a half hours ahead of Southampton in summer and five and a half in winter; after-school and evening lessons sit inside their day.
 
@@ -183,7 +183,7 @@ Whichever side of the Itchen a learner lives on, a live online lesson needs no b
 A free first lesson, then one of two prices.
 
 - First class: USD 0. A complete lesson with nothing to pay, closing with a level, a course suggestion and a weekly time.
-- Group tuition: USD 100 a month. Around eight live lessons a month, in a group of five to ten learners at one level.
+- Group tuition: USD 100 a month. Around eight live lessons a month, in a group of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Around eight live lessons a month, with the teacher working only with your learner.
 
 All families outside India pay a single US dollar fee, so Highfield and Harefield pay exactly the same, and we list no prices in pounds. Billing starts only after the free lesson has fixed a course and a time; the pricing page explains pauses, missed lessons and changing between group and private teaching.
@@ -224,11 +224,11 @@ No. We have no Southampton centre and no premises anywhere in the UK; every less
 
 ### How much do Southampton lessons cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Course, format and time are agreed before anything is charged.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Course, format and time are agreed before anything is charged.
 
 ### How are Southampton groups formed?
 
-By ability, pace and aims rather than age or postcode, with five to ten learners at one level. If no group meets at a suitable time, we offer one-to-one lessons.
+By ability, pace and aims rather than age or postcode, with fifteen to twenty learners at one level. If no group meets at a suitable time, we offer one-to-one lessons.
 
 ## Southern cities and the national guide
 

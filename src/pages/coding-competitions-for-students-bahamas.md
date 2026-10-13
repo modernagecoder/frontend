@@ -202,7 +202,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Weekly build work reviewed by the teacher
 - Certificate on completion
@@ -235,7 +235,7 @@ No, and anybody who tells you otherwise is describing luck as a service. For sch
 
 ### How much does it cost?
 
-A group batch of five to eight students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same flat figures everywhere outside India. Competition preparation is part of the track rather than an extra, so there is no separate charge. The first class is free without a card.
+A group batch of fifteen to twenty students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same flat figures everywhere outside India. Competition preparation is part of the track rather than an extra, so there is no separate charge. The first class is free without a card.
 
 ### Is my child too young for competitions?
 

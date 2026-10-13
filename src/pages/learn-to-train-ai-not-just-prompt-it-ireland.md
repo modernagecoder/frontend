@@ -4,7 +4,7 @@ description: "Learn to train AI in Ireland, not just prompt it: labels, splits, 
 canonical: https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-ireland
 source: src/pages/learn-to-train-ai-not-just-prompt-it-ireland.html
 ---
-> Training a model means deciding what to predict, choosing evidence you would genuinely have in advance, splitting the data so the test is fair, setting a baseline, and only then fitting anything. We teach that on real Irish data rather than on tidied teaching sets, because every important lesson lives in the mess: categories that repeat themselves as totals, missing values that are missing for a reason, and splits that let a model memorise instead of learn. Classes are live, in groups of five to ten at one level or one to one, for teenagers, students and adults. The first class is free, then USD 100 a month in a group or USD 150 a month one to one.
+> Training a model means deciding what to predict, choosing evidence you would genuinely have in advance, splitting the data so the test is fair, setting a baseline, and only then fitting anything. We teach that on real Irish data rather than on tidied teaching sets, because every important lesson lives in the mess: categories that repeat themselves as totals, missing values that are missing for a reason, and splits that let a model memorise instead of learn. Classes are live, in groups of fifteen to twenty at one level or one to one, for teenagers, students and adults. The first class is free, then USD 100 a month in a group or USD 150 a month one to one.
 
 [Home](/) / [Courses](/courses) / [AI and machine learning classes in Ireland](/ai-and-machine-learning-classes-in-ireland) / Learn to train AI, Ireland
 
@@ -182,7 +182,7 @@ Classes are live, with teachers working from India at a weekly hour set in Irish
 - **Quiet periods** Intensive weeks during holidays.
 
 - **A free first class** You define a task and compute its baseline with a teacher, before any model is trained.
-- **Five to ten per group** Learners at one level, comparing splits and scores on the same data.
+- **Fifteen to twenty per group** Learners at one level, comparing splits and scores on the same data.
 - **One to one** For work data, a thesis, or a deadline that will not wait.
 - **Baseline before model** No result is accepted in class without the naive score it has to beat.
 - **Splits are checked** Every split is inspected for group and time leakage before training begins.
@@ -193,7 +193,7 @@ Classes are live, with teachers working from India at a weekly hour set in Irish
 One monthly fee in US dollars, identical in every country outside India, for any course on this page. Nothing to pay in advance for a term, and you stop whenever you choose.
 
 - Free first class: USD 0. A task defined and a baseline computed. An honest view of your starting level. No card taken.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher throughout. Splits and scores reviewed weekly. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher throughout. Splits and scores reviewed weekly. A certificate at the end.
 - One to one: USD 150 a month. A teacher to yourself. Your own dataset and question. Suited to work projects and theses.
 
 ## What learners in Ireland ask about training models

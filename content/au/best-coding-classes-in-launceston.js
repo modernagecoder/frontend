@@ -189,7 +189,7 @@ module.exports = {
       { h3: 'East and West Tamar', p: 'A learner in Trevallyn and one in Mowbray can share a class, each joining from their own home.' },
       { h3: 'Tasmanian schooling', p: 'Lessons follow Tasmanian year levels and the four-term year, and college students can relate projects to TASC courses. Teaching is in English.' },
       { h3: 'An actual lesson first', p: 'The free trial is regular teaching, and it closes with a level, a course suggestion and a weekly time. Card details are never requested.' },
-      { h3: 'Classmates at your stage', p: 'Groups of five to ten learners at the same level, from northern Tasmania and further away, so nobody waits for a class to fill.' },
+      { h3: 'Classmates at your stage', p: 'Groups of fifteen to twenty learners at the same level, from northern Tasmania and further away, so nobody waits for a class to fill.' },
       { h3: 'Lessons twice weekly', p: 'Approximately eight a month at a regular time, with holidays and assessment periods planned with the teacher.' },
       { h3: 'Where our teachers are', p: 'A 5pm Launceston lesson begins at 11:30am in India while Tasmania is on daylight saving, and at 12:30pm after the clocks go back.' }
     ],
@@ -200,7 +200,7 @@ module.exports = {
     h2: 'What classes cost in Launceston',
     intro: 'Every price, stated once.',
     first: 'A free full lesson that ends with your level, a course recommendation and a regular slot.',
-    group: 'Around eight lessons a month, shared with five to ten learners working at your level.',
+    group: 'Around eight lessons a month, shared with fifteen to twenty learners working at your level.',
     private: 'Close to eight lessons a month, with a teacher devoted to one learner.',
     closer: 'Except in India, we set fees in US dollars, so a household in Prospect pays the same as one in Ravenswood and there is no Tasmanian rate. We bill only after the trial confirms a course and a time, and the pricing page explains breaks, absences and changing between group and one-to-one lessons.'
   },
@@ -225,8 +225,8 @@ module.exports = {
       { q: 'What time are lessons for Launceston learners?', a: 'Usually after school, in the evening or on a weekend morning, decided at the trial and quoted in Launceston time. Tasmania uses daylight saving and India does not, so the gap to our teachers changes by an hour twice a year.' },
       { q: 'Can primary-school children join?', a: 'Yes. Children from six start with Scratch and visual puzzles and move on to typed code when ready. The projects on this page aim at older learners.' },
       { q: 'Is there a Modern Age Coders centre in Launceston?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Launceston coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Launceston coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in East Renfrewshire',
   capsuleQ: 'What are the best coding classes in East Renfrewshire?',
-  capsule: 'East Renfrewshire is a council area with about 96,800 residents in roughly 39,700 households at the 2022 census. Newton Mearns is its largest town, ahead of Barrhead, Giffnock and Clarkston, and villages such as Neilston, Eaglesham and Busby fill out the map. We teach every lesson live on video from India, and a free first session tells us where each learner fits, from P1 to S6 or as an adult. Coding, Python and maths are open to anyone aged 6 to 67, one-to-one or in a class of five to ten. The local project comes from a Victorian reservoir in Waulkmill Glen. After the free lesson, a group place is USD 100 a month and one-to-one teaching USD 150.',
+  capsule: 'East Renfrewshire is a council area with about 96,800 residents in roughly 39,700 households at the 2022 census. Newton Mearns is its largest town, ahead of Barrhead, Giffnock and Clarkston, and villages such as Neilston, Eaglesham and Busby fill out the map. We teach every lesson live on video from India, and a free first session tells us where each learner fits, from P1 to S6 or as an adult. Coding, Python and maths are open to anyone aged 6 to 67, one-to-one or in a class of fifteen to twenty. The local project comes from a Victorian reservoir in Waulkmill Glen. After the free lesson, a group place is USD 100 a month and one-to-one teaching USD 150.',
   lead: 'Historic Environment Scotland lists Waulkmill Glen Reservoir at Category A, its highest grade. The engineer William Gale built it in 1847 and 1848 for the Gorbals Gravitation Water Company, and the listing calls its draw-off tower quite possibly the earliest such structure in Scotland. It also mentions a self-activating sluice, a device that let water through on its own, although the listing says it is unclear whether any of the machinery survives. How can a machine decide, with nobody watching, when to let water through? This page\'s project answers in Python, with an invented basin and three ways of controlling it, one of which makes the valve rattle open and shut thousands of times a week.',
   wa: 'Hello Modern Age Coders, we are in East Renfrewshire and would like a free lesson, please.',
 
@@ -157,7 +157,7 @@ module.exports = {
       { h3: 'A laptop and a quiet room', p: 'The learner shares a screen, the teacher watches the code take shape and steps in when it breaks.' },
       { h3: 'Scottish terms throughout', p: 'We talk about P6, S3, National 5 and Higher, exactly as East Renfrewshire schools do, and teach in English.' },
       { h3: 'Try before paying', p: 'The first lesson is free and complete. We then say honestly which level and course would suit.' },
-      { h3: 'Classmates matched by level', p: 'Classes hold five to ten learners at one stage, gathered from several countries.' },
+      { h3: 'Classmates matched by level', p: 'Classes hold fifteen to twenty learners at one stage, gathered from several countries.' },
       { h3: 'Term time and holidays', p: 'Lessons run twice a week in term and stop for the school holidays you tell us about.' },
       { h3: 'A fixed UK time', p: 'Your slot stays at the same UK time across the clock changes; our teachers in India time move instead.' }
     ],
@@ -168,7 +168,7 @@ module.exports = {
     h2: 'Fees in East Renfrewshire',
     intro: 'Giffnock, Barrhead or anywhere else in the UK, the monthly fee does not change.',
     first: 'One complete lesson, no charge, followed by a recommendation.',
-    group: 'About eight lessons a month in a class of five to ten at one level.',
+    group: 'About eight lessons a month in a class of fifteen to twenty at one level.',
     private: 'About eight lessons a month with a teacher to yourself.',
     closer: 'All our fees are in US dollars, so there is no sterling price list. Nothing is charged until a course and weekly slot are agreed after the free lesson; holidays, missed lessons and format changes are set out on the pricing page.'
   },

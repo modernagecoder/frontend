@@ -217,7 +217,7 @@ module.exports = {
       { h3: 'Sentences, not symbols', p: 'Every proof written so a reader can follow it.' },
       { h3: 'A check for every answer', p: 'Substitute, differentiate or dot to confirm.' },
       { h3: 'See the space', p: 'Three-dimensional problems sketched before they are solved.' },
-      { h3: 'Peer critique', p: 'Groups of five to ten at a matching level read one another\'s proofs aloud and hunt for gaps.' },
+      { h3: 'Peer critique', p: 'Groups of fifteen to twenty at a matching level read one another\'s proofs aloud and hunt for gaps.' },
       { h3: 'One-to-one sessions', p: 'For a single topic, often vectors or induction.' },
       { h3: 'Results stay theirs', p: 'No tutor of ours will guess at a final grade or an ATAR.' }
     ]
@@ -231,7 +231,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Every family outside India pays one monthly rate in US dollars for Specialist lessons. There is nothing to join and nothing to cancel: each month stands alone.',
     free: ['A full maths lesson with a tutor', 'A clear view of the topic to fix first', 'No card details'],
-    group: ['Five to ten students at one level', 'The same tutor every week', 'Proofs read and discussed', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same tutor every week', 'Proofs read and discussed', 'A certificate at the end'],
     one: ['A tutor for one student', 'Focused on one topic', 'Popular before the November paper']
   },
 

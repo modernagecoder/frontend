@@ -246,7 +246,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'We check what you know, in any language, and where Java fits for you.' },
-      { h3: 'Small groups', p: 'Five to ten learners at the same level and age band.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners at the same level and age band.' },
       { h3: 'One to one', p: 'For exam timetables or a faster pace.' },
       { h3: 'Console first', p: 'Plain console programs before any graphical framework.' },
       { h3: 'Code read closely', p: 'A teacher reads your Java and explains what to change and why.' },
@@ -262,7 +262,7 @@ module.exports = {
     h2: 'Fees for Java classes',
     lede: 'A single monthly fee in US dollars, identical outside India, with no enrolment fee and no commitment beyond the month you are in.',
     free: ['Your current level, in any language', 'A route into Java that fits your goal', 'No payment details needed'],
-    group: ['Five to ten learners at one level', 'The same teacher each week', 'Console practice and projects', 'Stop at the end of any month'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher each week', 'Console practice and projects', 'Stop at the end of any month'],
     one: ['A teacher for you alone', 'Paced around your exams or work', 'Suits a board-specific focus']
   },
 

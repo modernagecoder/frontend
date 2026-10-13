@@ -36,7 +36,7 @@ module.exports = {
   twitterDescription: 'Eight tests from learning research that any coding class should pass, with our answers. Live online, first class free.',
   pageName: 'Best Coding Class in the World: Eight Tests',
   webPageDescription: 'A criteria page: eight tests, drawn from published research on how people learn to program, that any coding class claiming to be the best should pass, with Modern Age Coders\' own answers and limits.',
-  courseDescription: 'Live online coding and AI classes for ages 6 to 67, taught by a teacher who reads each learner\'s code, in groups of five to ten placed by ability or one to one.',
+  courseDescription: 'Live online coding and AI classes for ages 6 to 67, taught by a teacher who reads each learner\'s code, in groups of fifteen to twenty placed by ability or one to one.',
   crumbs: [{ name: 'Courses', href: '/courses' }],
   crumbLabel: 'Best coding class in the world',
   navLinks: [
@@ -63,7 +63,7 @@ module.exports = {
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
-  capsule: 'The best coding class in the world cannot be named from a ranking, because nobody has tested every class. It can be recognised by what it does. Research on learners shows that most people who start a free self-paced course never finish it, that novices often cannot yet read the code they are asked to write, that feedback from a person who has looked at your work helps, and that AI tools speed up learners who already understand while leaving strugglers with an illusion of competence. Modern Age Coders teaches live online to learners aged 6 to 67 in 25+ countries, in groups of five to ten placed by ability or one to one, with a teacher who reads every learner\'s code. The first class costs nothing, so the tests can be run on us before anyone pays; continuing costs USD 100 a month in a group or USD 150 one to one.',
+  capsule: 'The best coding class in the world cannot be named from a ranking, because nobody has tested every class. It can be recognised by what it does. Research on learners shows that most people who start a free self-paced course never finish it, that novices often cannot yet read the code they are asked to write, that feedback from a person who has looked at your work helps, and that AI tools speed up learners who already understand while leaving strugglers with an illusion of competence. Modern Age Coders teaches live online to learners aged 6 to 67 in 25+ countries, in groups of fifteen to twenty placed by ability or one to one, with a teacher who reads every learner\'s code. The first class costs nothing, so the tests can be run on us before anyone pays; continuing costs USD 100 a month in a group or USD 150 one to one.',
 
   picks: {
     eyebrow: 'Start here',
@@ -85,7 +85,7 @@ module.exports = {
         { kind: 'table', caption: 'Eight tests for any coding class, and how Modern Age Coders answers each', head: ['Test', 'Why it matters', 'Our answer'], rows: [
           ['1. Do learners finish?', 'In the largest published look at open online courses, among learners who registered for an MITx or HarvardX course on edX and opened it, 3.13 percent completed in 2017-18.', 'A live teacher at a fixed weekly hour, and a small group that notices when someone is missing.'],
           ['2. Do learners read code before writing it?', 'A multi-national study found many novices at the end of a first course could not reliably predict what short code does.', 'Every new idea starts with a prediction: what will this code print, and why?'],
-          ['3. Does a person read the learner\'s work?', 'Reviews of tutoring find real gains from a tutor who responds to the learner, though smaller than the famous early claims.', 'The teacher reads and discusses each learner\'s code every week, in groups of five to ten.'],
+          ['3. Does a person read the learner\'s work?', 'Reviews of tutoring find real gains from a tutor who responds to the learner, though smaller than the famous early claims.', 'The teacher reads and discusses each learner\'s code every week, in groups of fifteen to twenty.'],
           ['4. Does the method have evidence?', 'Classes taught with PRIMM (predict, run, investigate, modify, make) scored higher on a post-test than comparison classes, by a small margin.', 'Lessons keep the same order: read, predict, run, change, then make something new.'],
           ['5. Are AI tools used without handing over the understanding?', 'Learners who already understand use AI to go faster; learners who struggle can finish with an illusion of competence.', 'AI tools join the lesson once the learner can predict what the code should do.'],
           ['6. Is the work real and public?', 'Practice, not research: a project someone else can open is harder to fake than a certificate.', 'Projects go into the learner\'s own GitHub repository, and some are live on the web.'],
@@ -155,7 +155,7 @@ module.exports = {
         { kind: 'three', cells: [
           { h3: 'No school credit', p: 'We teach skills, not qualifications. Nothing here counts towards a school exam or a university degree, and no class of ours replaces a school\'s own subject.' },
           { h3: 'Teachers in one time zone', p: 'Our teachers work from India. Families in Europe usually learn in the late afternoon or evening, families in the Americas in the morning or at weekends, and some hours are simply not available.' },
-          { h3: 'A group is not a tutor', p: 'Groups of five to ten get a teacher who reads each learner\'s code, but not one who waits on every line. Learners who need that choose one-to-one lessons at USD 150 a month.' }
+          { h3: 'A group is not a tutor', p: 'Groups of fifteen to twenty get a teacher who reads each learner\'s code, but not one who waits on every line. Learners who need that choose one-to-one lessons at USD 150 a month.' }
         ] },
         { kind: 'two', mt: true,
           left: [
@@ -223,7 +223,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'The first class is the test', p: 'A real problem, a real teacher and a straight answer about level. Nothing to pay and no card to give.' },
-      { h3: 'Groups of five to ten', p: 'Learners at the same stage, from several countries, reading and reviewing one another\'s code.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners at the same stage, from several countries, reading and reviewing one another\'s code.' },
       { h3: 'One to one when it fits', p: 'For a learner far ahead of or behind a group, an exam year or a fixed deadline.' },
       { h3: 'Code read every week', p: 'The teacher reads what each learner wrote and asks them to explain it, which is where most of the learning happens.' },
       { h3: 'AI tools, in order', p: 'Assistants come in after prediction, and every suggested line is changed by hand and explained.' },
@@ -239,7 +239,7 @@ module.exports = {
     h2: 'Fees, anywhere in the world',
     lede: 'Charged monthly in US dollars at one rate outside India, whatever the course or the learner\'s age. Nothing to pay on joining and no year-long commitment.',
     free: ['A real class on a real problem', 'An honest placement', 'No card needed'],
-    group: ['Five to ten learners at one level', 'The same teacher every week', 'Code read and discussed weekly', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher every week', 'Code read and discussed weekly', 'A certificate at the end'],
     one: ['A teacher for one learner', 'Paced to one goal', 'Best for exams and deadlines']
   },
 
@@ -254,7 +254,7 @@ module.exports = {
       { q: 'What is PRIMM?', a: 'A way of teaching programming: predict what code will do, run it, investigate it, modify it, then make something new. In a study across 13 schools, classes taught this way did slightly better on a post-test than comparison classes.' },
       { q: 'What age is best to start?', a: 'Children can start reading and predicting block programs from about age 6, and typed code usually from 9 or 10. Adults can start at any age; our learners run up to 67.' },
       { q: 'How can I test a class before paying?', a: 'Book a free first class and ask three things: how a new idea is introduced, how the learner\'s code will be reviewed, and when AI tools are allowed. Good answers are specific.' },
-      { q: 'What does it cost?', a: 'The first class is free. After that it is USD 100 a month for a place in a group of five to ten, or USD 150 a month for one-to-one lessons, charged in US dollars outside India, with no joining fee and no annual contract.' },
+      { q: 'What does it cost?', a: 'The first class is free. After that it is USD 100 a month for a place in a group of fifteen to twenty, or USD 150 a month for one-to-one lessons, charged in US dollars outside India, with no joining fee and no annual contract.' },
       { q: 'When are classes held?', a: 'At a fixed weekly hour agreed in the free first class, in your own local time. Our teachers work from India, so mornings suit the Americas, and afternoons and evenings suit Europe, Africa and the Gulf.' },
       { q: 'What happens after I send the form?', a: 'Someone from our team calls or messages you, agrees a time in your time zone and books the free first class. You pay nothing unless you decide to continue.' }
     ]

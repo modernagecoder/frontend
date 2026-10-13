@@ -190,7 +190,7 @@ module.exports = {
       { h3: 'What you need', p: 'A computer, a microphone and a connection that holds a video call.' },
       { h3: 'NSW year levels', p: 'Teachers plan around New South Wales year levels and terms; all teaching is in English.' },
       { h3: 'Free first class', p: 'The trial is a real lesson that ends with a recommended course and lesson time.' },
-      { h3: 'Groups by stage', p: 'Five to ten learners at one level share a group, from Armidale and further afield.' },
+      { h3: 'Groups by stage', p: 'Fifteen to twenty learners at one level share a group, from Armidale and further afield.' },
       { h3: 'Two set days', p: 'Group learners meet twice a week on fixed days, about eight lessons a month.' },
       { h3: 'Teachers', p: 'The teaching team is based in India, and every time is confirmed in Armidale time.' }
     ],
@@ -201,7 +201,7 @@ module.exports = {
     h2: 'Armidale class fees',
     intro: 'Fees are short and the same everywhere in Australia.',
     first: 'Your first class is free and ends with a suggested level, course and weekly time.',
-    group: 'A month of group lessons, about eight, with five to ten learners at the same stage.',
+    group: 'A month of group lessons, about eight, with fifteen to twenty learners at the same stage.',
     private: 'About eight one-to-one lessons a month with your own teacher.',
     closer: 'Outside India we charge in US dollars, and Armidale learners pay what every Australian learner pays. No payment is taken until the trial has agreed the course and time, and the pricing page sets out holidays, missed lessons and switching between group and private.'
   },
@@ -226,7 +226,7 @@ module.exports = {
       { q: 'Do you help with HSC computing subjects?', a: 'Yes, with the programming and problem solving those courses use, planned around NSW terms. We never complete assessed work for a student.' },
       { q: 'Can younger children join?', a: 'Yes. Children from six start with Scratch and block coding; the street name project suits teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Armidale?', a: 'No. We have no premises in Australia and claim none. All classes are live online; learners need a computer and a reliable connection, and our listed phone number is in India.', boiler: true },
-      { q: 'What do Armidale coding classes cost?', a: 'The first lesson is free. Afterwards a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one-to-one. All of it is agreed before payment.', boiler: true },
+      { q: 'What do Armidale coding classes cost?', a: 'The first lesson is free. Afterwards a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one-to-one. All of it is agreed before payment.', boiler: true },
       { q: 'How many learners share a group?', a: 'Five to ten, matched by level and goals rather than age or town. If no group time fits, one-to-one lessons are offered.', boiler: true }
     ]
   },

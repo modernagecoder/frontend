@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Tongelre, Eindhoven f
 canonical: https://learn.modernagecoders.com/coding-classes-in-tongelre
 source: src/pages/coding-classes-in-tongelre.html
 ---
-> Coding classes in Tongelre reach a stadsdeel of three statistics office wijken, Oud-Tongelre, De Laak and Doornakkers, all three read, with 23,660 residents in January 2026. On 't Hofke stands one of the oldest houses in Eindhoven. Its beams date from 1583, it was enlarged in 1600, its present appearance is eighteenth-century and its outside was restored in 2007/2008. The encyclopaedia gives no date for the house itself. So how old is it: 443 years, 426, about two or three centuries, or 18? Each is true of a different event, and none is true of the house. Modern Age Coders teaches live online in English from Urkhoven to the Villapark, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Tongelre reach a stadsdeel of three statistics office wijken, Oud-Tongelre, De Laak and Doornakkers, all three read, with 23,660 residents in January 2026. On 't Hofke stands one of the oldest houses in Eindhoven. Its beams date from 1583, it was enlarged in 1600, its present appearance is eighteenth-century and its outside was restored in 2007/2008. The encyclopaedia gives no date for the house itself. So how old is it: 443 years, 426, about two or three centuries, or 18? Each is true of a different event, and none is true of the house. Modern Age Coders teaches live online in English from Urkhoven to the Villapark, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Eindhoven](/coding-classes-in-eindhoven) / Tongelre
 
@@ -12,11 +12,11 @@ Tongelre, Eindhoven / Live online
 
 # Coding classes in Tongelre, where one farmhouse has five dates and no age
 
-**What are the best coding classes in Tongelre, Eindhoven?** Coding classes in Tongelre reach a stadsdeel of three statistics office wijken, Oud-Tongelre, De Laak and Doornakkers, all three read, with 23,660 residents in January 2026. On 't Hofke stands one of the oldest houses in Eindhoven. Its beams date from 1583, it was enlarged in 1600, its present appearance is eighteenth-century and its outside was restored in 2007/2008. The encyclopaedia gives no date for the house itself. So how old is it: 443 years, 426, about two or three centuries, or 18? Each is true of a different event, and none is true of the house. Modern Age Coders teaches live online in English from Urkhoven to the Villapark, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Tongelre, Eindhoven?** Coding classes in Tongelre reach a stadsdeel of three statistics office wijken, Oud-Tongelre, De Laak and Doornakkers, all three read, with 23,660 residents in January 2026. On 't Hofke stands one of the oldest houses in Eindhoven. Its beams date from 1583, it was enlarged in 1600, its present appearance is eighteenth-century and its outside was restored in 2007/2008. The encyclopaedia gives no date for the house itself. So how old is it: 443 years, 426, about two or three centuries, or 18? Each is true of a different event, and none is true of the house. Modern Age Coders teaches live online in English from Urkhoven to the Villapark, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Ask how old a thing is and the question sounds complete. It is not. The farmhouse at 't Hofke 13 in the old heart of Tongelre has a timber frame from 1583, grew in 1600, took on its present face in the eighteenth century and had its outside restored early this century, and every one of those is a correct answer to how old it is, because each dates a different event. The same thing happens to every record a program touches: a file has one date for when it was created and another for when it was changed, a database row copied into a new system gets a fresh creation date, a line of code carries its own date inside a repository that is older than it. A date without its event is half a fact, and the half that is missing is the one that decides whether the number means anything.
 
-Facts last verified 11 September 2026. Teaching is online; no Tongelre branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Tongelre branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the east of Eindhoven
 
@@ -184,7 +184,7 @@ Tongelre runs from the Villapark and Lakerlopen out past 't Hofke to Urkhoven an
 - **From Urkhoven, no journey at all** From Urkhoven or Koudenhoven, any classroom in the city means a ride in and a ride home twice a week. Online, the learner opens a laptop at the agreed time and the journey is simply not part of the plan.
 - **Dutch words for Dutch school** Groep, havo, vwo and profielkeuze stay in Dutch in every lesson, because they are the terms on every Tongelre school letter. The teacher meets the school vocabulary where it is rather than translating it away.
 - **A lesson that is a lesson** The free hour is spent on a real task while the teacher watches how the learner works. It ends with a level, a course and a weekly time, and at no point does it ask for payment details or lead to a sales call.
-- **Groups by stage, drawn widely** Five to ten learners who are at the same point in the same subject. Tongelre has 3,400 residents under fifteen, and five of them at one exact stage wanting one exact hour is rare, so groups are drawn from a worldwide pool.
+- **Groups by stage, drawn widely** Fifteen to twenty learners who are at the same point in the same subject. Tongelre has 3,400 residents under fifteen, and five of them at one exact stage wanting one exact hour is rare, so groups are drawn from a worldwide pool.
 - **Regio Zuid school holidays** Two lessons a week, about eight a month, at a fixed hour. Noord-Brabant follows regio Zuid holidays, on dates that differ from the western provinces, and the teaching calendar keeps to them from the first month.
 - **The clock that moves is Dutch** India sits three and a half hours ahead in summer and four and a half in winter, and only the Dutch clock ever changes. After school, the early evening and weekend mornings remain available the whole year.
 
@@ -195,7 +195,7 @@ Tongelre runs from the Villapark and Lakerlopen out past 't Hofke to Urkhoven an
 Set out fully here, so the number is known before anyone talks to us.
 
 - First class: USD 0. A whole taught lesson that ends with a level and a named course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One dollar rate for every country and no euro list, so a house in the Villapark and a flat in Doornakkers are quoted the same. Nothing is paid until the free lesson has decided a course and a weekly hour, and payment is then arranged over WhatsApp. Pausing, changing format and missing a lesson are all covered on the pricing page.
@@ -236,7 +236,7 @@ No, and none is claimed here, elsewhere in Eindhoven or anywhere in the Netherla
 
 ### What do Tongelre coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

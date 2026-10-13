@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding classes in Greater Manchester',
   capsuleQ: 'What are the best coding classes in Greater Manchester?',
-  capsule: 'Greater Manchester is ten metropolitan boroughs and 2,867,762 people at the 2021 Census, from Wigan in the west to Tameside in the east. Manchester and Salford sit at the centre, with Bolton, Stockport, Rochdale, Oldham, Wigan and Bury as big towns in their own right and dozens of smaller places between. However large the county, our lessons reach a Farnworth kitchen exactly as they reach a flat in Ancoats: taught live on video by a teacher in India, with learners grouped by current skill, ages 6 to 67, five to ten in a group or one to one. The subjects are programming, Python, web development, AI and maths. The county project starts with the Baby, the first computer to run a stored program, here in 1948. We charge nothing for the first lesson; after that it is USD 100 monthly in a group or USD 150 for a private teacher.',
+  capsule: 'Greater Manchester is ten metropolitan boroughs and 2,867,762 people at the 2021 Census, from Wigan in the west to Tameside in the east. Manchester and Salford sit at the centre, with Bolton, Stockport, Rochdale, Oldham, Wigan and Bury as big towns in their own right and dozens of smaller places between. However large the county, our lessons reach a Farnworth kitchen exactly as they reach a flat in Ancoats: taught live on video by a teacher in India, with learners grouped by current skill, ages 6 to 67, fifteen to twenty in a group or one to one. The subjects are programming, Python, web development, AI and maths. The county project starts with the Baby, the first computer to run a stored program, here in 1948. We charge nothing for the first lesson; after that it is USD 100 monthly in a group or USD 150 for a private teacher.',
   lead: 'On 21 June 1948, in Manchester, a machine called the Baby ran a 17-instruction program that searched for the highest factor of a number. By August it was doing so for numbers as large as two to the power eighteen, working through 3.5 million calculations in 53 minutes to arrive at 131,072. It was a brilliant test of a new kind of memory, and it is also a perfect first puzzle for a modern learner, because the same answer can be found almost instantly by asking the question a different way. This page\'s project writes both versions, counts how many numbers each has to try, and then hunts for the inputs that make each version work hardest.',
   wa: 'Hello Modern Age Coders, please could I book a free lesson for a learner in Greater Manchester?',
 
@@ -187,7 +187,7 @@ module.exports = {
       { h3: 'Lessons at home', p: 'A bedroom in Hindley, a kitchen table in Romiley, a desk in Whitefield. The teacher shares a screen and the learner types.' },
       { h3: 'Our words match school\'s', p: 'Year groups, GCSE options and A levels are named as Greater Manchester schools name them, and teaching is in English.' },
       { h3: 'A free first lesson', p: 'A proper lesson of real work, then an honest recommendation. No card details are ever requested.' },
-      { h3: 'Classmates at your stage', p: 'Groups of five to ten learners at the same level, gathered from many towns and countries, at a sensible hour.' },
+      { h3: 'Classmates at your stage', p: 'Groups of fifteen to twenty learners at the same level, gathered from many towns and countries, at a sensible hour.' },
       { h3: 'Breaks you set', p: 'Usually two lessons a week, paused for the holidays your own school keeps, which differ between boroughs and academies.' },
       { h3: 'UK time, always', p: 'India, where the teachers are, is five and a half hours ahead of UK winter time and four and a half ahead of UK summer time; lessons are booked in UK time.' }
     ],
@@ -198,7 +198,7 @@ module.exports = {
     h2: 'Fees in Greater Manchester',
     intro: 'Every borough pays the same, as does every country other than India.',
     first: 'A full lesson of real work, finishing with a recommended level and course.',
-    group: 'Around eight lessons a month in a group of five to ten at one level.',
+    group: 'Around eight lessons a month in a group of fifteen to twenty at one level.',
     private: 'Around eight lessons a month with a teacher for one learner.',
     closer: 'Prices are set in US dollars, our rate for families outside India, and there is no pound price list. Payment starts only after the free lesson has agreed a course and weekly slot; pausing, missed lessons and switching between group and private teaching are explained on the pricing page.'
   },

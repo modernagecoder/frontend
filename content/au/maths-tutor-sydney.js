@@ -56,7 +56,7 @@ module.exports = {
   twitterDescription: 'Sydney maths tutoring, live online: Kindergarten to HSC and adult maths, in Sydney time, with real problems from real data.',
   pageName: 'Maths Tutor in Sydney',
   webPageDescription: 'Live online maths tutoring for Greater Sydney learners from Kindergarten to Year 12 and adults, following the NSW syllabus and the HSC mathematics courses, with a reverse-percentage project on Census data.',
-  courseDescription: 'Live online maths lessons for Sydney learners, one to one or in level-matched groups of five to ten, from early number to HSC Mathematics Extension 2 and adult maths.',
+  courseDescription: 'Live online maths lessons for Sydney learners, one to one or in level-matched groups of fifteen to twenty, from early number to HSC Mathematics Extension 2 and adult maths.',
   crumbs: [
     { name: 'Courses', href: '/courses' },
     { name: 'Coding classes in Australia', href: '/coding-classes-in-australia' }
@@ -86,7 +86,7 @@ module.exports = {
     ['City project', 'Reverse percentages on Census data']
   ],
   capsuleQ: 'Maths tutor in Sydney, in brief',
-  capsule: 'Modern Age Coders is an online maths tutor for Sydney learners aged 6 to 67, teaching the NSW mathematics syllabus from Kindergarten to Year 10 and the HSC courses: Mathematics Standard, Advanced, Extension 1 and Extension 2. Lessons are live over video in Sydney time, one to one or in level-matched groups of five to ten, and the first lesson is free.',
+  capsule: 'Modern Age Coders is an online maths tutor for Sydney learners aged 6 to 67, teaching the NSW mathematics syllabus from Kindergarten to Year 10 and the HSC courses: Mathematics Standard, Advanced, Extension 1 and Extension 2. Lessons are live over video in Sydney time, one to one or in level-matched groups of fifteen to twenty, and the first lesson is free.',
   picks: {
     eyebrow: 'Where most Sydney families begin',
     h2: 'Primary, junior secondary and senior maths',
@@ -338,7 +338,7 @@ module.exports = {
             },
             {
               h3: 'Small groups',
-              p: 'Five to ten learners at the same level, with the same teacher each week. Students hear other people\'s questions, which often answer their own.'
+              p: 'Fifteen to twenty learners at the same level, with the same teacher each week. Students hear other people\'s questions, which often answer their own.'
             },
             {
               h3: 'Shared whiteboard',
@@ -427,7 +427,7 @@ module.exports = {
     cells: [
       { h3: 'The same teacher', p: 'One teacher follows the learner and remembers what went wrong last time.' },
       { h3: 'Notes for parents', p: 'A short, honest update after lessons.' },
-      { h3: 'Groups by level', p: 'Five to ten learners at one stage.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at one stage.' },
       { h3: 'Real numbers', p: 'Census tables and maps alongside textbook work.' },
       { h3: 'Private option', p: 'One teacher, one learner, for a gap or deadline.' },
       { h3: 'Reasons first', p: 'Learners explain a method before practising it.' }
@@ -440,7 +440,7 @@ module.exports = {
     h2: 'Fees for maths tutoring in Sydney',
     lede: 'Sydney families pay one flat monthly fee in US dollars. Nothing is charged to sign up, and there is no fixed term.',
     free: ['A full lesson at the learner\'s level', 'An honest summary afterwards', 'No payment card'],
-    group: ['Five to ten learners at one level', 'The same teacher each week', 'Work marked and discussed', 'Stop after any month'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher each week', 'Work marked and discussed', 'Stop after any month'],
     one: ['Private teaching', 'Built around one gap or goal', 'Useful before exam blocks']
   },
   faq: {

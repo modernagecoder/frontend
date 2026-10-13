@@ -1,10 +1,10 @@
 ---
 title: "Coding Classes in Sharjah | Live Online Coding for Kids & Teens"
-description: "Coding classes in Sharjah, taught live online. Kids, teens and adults learn Python and AI in batches of 5 to 8, GST evening slots, no commute. Free demo class."
+description: "Coding classes in Sharjah, taught live online. Kids, teens and adults learn Python and AI in batches of 15 to 20, GST evening slots, no commute. Free demo class."
 canonical: https://learn.modernagecoders.com/coding-classes-in-sharjah
 source: src/pages/coding-classes-in-sharjah.html
 ---
-> Coding classes in Sharjah, taught live online. Kids, teens and adults learn Python and AI in batches of 5 to 8, GST evening slots, no commute. Free demo class.
+> Coding classes in Sharjah, taught live online. Kids, teens and adults learn Python and AI in batches of 15 to 20, GST evening slots, no commute. Free demo class.
 
 01 · Courses
 
@@ -40,7 +40,7 @@ Many Sharjah families are at American, British and IB schools. These live course
 
 Sharjah is the emirate that spends its ambition on education. University City gathers the American University of Sharjah and the University of Sharjah on one campus district, the Sharjah International Book Fair fills halls every November, UNESCO named the city World Book Capital in 2019, and the House of Wisdom is the kind of library other cities put on postcards. Families here did not need convincing that learning matters. What they ask, sensibly, is whether a particular class is any good and whether it is worth what it costs.
 
-Both questions deserve straight answers. A coding class is good when a real teacher watches a small number of students write real programs, week after week, and adjusts to each of them. That is the entire design of ours: batches of five to eight, live on video, one hour weekly, ending in projects the student keeps. It is worth the fee when nothing in it is padding. Group classes cost about AED 150 a month, and every dirham of that goes to the thing you actually wanted, which is a teacher's attention on your child's code.
+Both questions deserve straight answers. A coding class is good when a real teacher watches a small number of students write real programs, week after week, and adjusts to each of them. That is the entire design of ours: batches of fifteen to twenty, live on video, one hour weekly, ending in projects the student keeps. It is worth the fee when nothing in it is padding. Group classes cost about AED 150 a month, and every dirham of that goes to the thing you actually wanted, which is a teacher's attention on your child's code.
 
 ### The commute you do not take
 
@@ -236,7 +236,7 @@ Group classes
 
 $100 per month
 
-- Weekly live classes, 5 to 8 students
+- Weekly live classes, 15 to 20 students
 - Evening and weekend GST slots
 - Finished projects plus a completion certificate
 - Demo class first, always free
@@ -260,7 +260,7 @@ No registration fee, no hidden charges, no long lock-in. If the demo does not pe
 
 ## Frequently asked questions
 
-Do you have a centre in Sharjah?No, and that is the point. Classes are live online, so a student in Al Nahda, Muwaileh, Al Khan or even Kalba joins the same small class without anyone driving anywhere. All the class needs is a laptop or desktop and a reliable connection.What timings work for Sharjah students?Weekday slots run through the evening, roughly 4:00 to 9:00 PM Gulf Standard Time, and Saturday and Sunday slots cover the weekend. A student keeps one fixed weekly slot. The UAE does not observe daylight saving, so the slot chosen at enrolment holds all year.Will the classes fit school in Sharjah?Yes. Sharjah's private schools, licensed by SPEA, teach Indian, British, American and IB curricula, and government schools follow the Ministry of Education programme. Our coursework runs alongside any of them. The overlap is strongest for CBSE students, whose Class 11 and 12 computer science is taught in Python, the language our teen track uses.The classes are in English. Will my child manage?Almost certainly, and the free demo is the honest way to find out. Our teachers work daily with students who speak Arabic, Urdu, Hindi or Malayalam at home. They speak plainly, avoid jargon until it is earned, and ask students to explain ideas back rather than assuming a nod means understanding.How much do coding classes cost in Sharjah?Group classes cost 100 US dollars a month. One-on-one classes cost 150 US dollars a month. The dirham is pegged to the dollar, so the figures hold steady. There is no registration fee, no material charge, and billing runs month to month.Should we choose group or one-on-one?Most families should start with group. Five to eight students is small enough for personal attention and the company of other learners helps. One-on-one earns its higher fee in two cases: a schedule that cannot fit a fixed batch slot, or a student who needs a very different pace, faster or slower, than a batch would set.How does the free demo class work?Fill the form on this page or send us a WhatsApp message. A mentor calls, asks about the student's age and any past experience, and books a slot. The demo is one full hour of live teaching, identical to a paid class. No card details are taken, and no follow-up pressure comes after.
+Do you have a centre in Sharjah?No, and that is the point. Classes are live online, so a student in Al Nahda, Muwaileh, Al Khan or even Kalba joins the same small class without anyone driving anywhere. All the class needs is a laptop or desktop and a reliable connection.What timings work for Sharjah students?Weekday slots run through the evening, roughly 4:00 to 9:00 PM Gulf Standard Time, and Saturday and Sunday slots cover the weekend. A student keeps one fixed weekly slot. The UAE does not observe daylight saving, so the slot chosen at enrolment holds all year.Will the classes fit school in Sharjah?Yes. Sharjah's private schools, licensed by SPEA, teach Indian, British, American and IB curricula, and government schools follow the Ministry of Education programme. Our coursework runs alongside any of them. The overlap is strongest for CBSE students, whose Class 11 and 12 computer science is taught in Python, the language our teen track uses.The classes are in English. Will my child manage?Almost certainly, and the free demo is the honest way to find out. Our teachers work daily with students who speak Arabic, Urdu, Hindi or Malayalam at home. They speak plainly, avoid jargon until it is earned, and ask students to explain ideas back rather than assuming a nod means understanding.How much do coding classes cost in Sharjah?Group classes cost 100 US dollars a month. One-on-one classes cost 150 US dollars a month. The dirham is pegged to the dollar, so the figures hold steady. There is no registration fee, no material charge, and billing runs month to month.Should we choose group or one-on-one?Most families should start with group. Fifteen to twenty students is small enough for personal attention and the company of other learners helps. One-on-one earns its higher fee in two cases: a schedule that cannot fit a fixed batch slot, or a student who needs a very different pace, faster or slower, than a batch would set.How does the free demo class work?Fill the form on this page or send us a WhatsApp message. A mentor calls, asks about the student's age and any past experience, and books a slot. The demo is one full hour of live teaching, identical to a paid class. No card details are taken, and no follow-up pressure comes after.
 
 11 · Free demo class
 

@@ -212,7 +212,7 @@ module.exports = {
     cells: [
       { h3: 'Estimate first', p: 'Every problem starts with an operations budget.' },
       { h3: 'Prove, then code', p: 'Students explain why a method is correct before writing it.' },
-      { h3: 'Small groups', p: 'Five to ten students of similar level.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty students of similar level.' },
       { h3: 'One-to-one coaching', p: 'The usual choice at this level.' },
       { h3: 'Honest feedback', p: 'Clear advice on readiness, without inflating it.' },
       { h3: 'No selection promises', p: 'Invitations and teams are the Trust\'s decisions alone.' }
@@ -227,7 +227,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Families in Australia pay monthly in US dollars, the rate we charge everywhere outside India, with no deposit and no minimum term. The Trust\'s programs are separate and by invitation.',
     free: ['A real session with a coach', 'An honest assessment of level', 'No card details'],
-    group: ['Five to ten students at one level', 'The same coach every week', 'Solutions reviewed in depth', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same coach every week', 'Solutions reviewed in depth', 'A certificate at the end'],
     one: ['A coach for one student', 'Built around the pathway calendar', 'A weekly time that suits you']
   },
 

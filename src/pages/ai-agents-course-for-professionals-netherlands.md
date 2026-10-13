@@ -144,7 +144,7 @@ Teaching comes from India, which has no daylight saving, so the offset to the Ne
 
 - **An opening lesson on your case** Bring a real process or codebase. The teacher sees where you are and proposes a route before anything is paid.
 - **Mostly one to one** Agent work depends on each organisation's systems, so most professionals learn individually. Copilot Studio is only taught this way.
-- **Small groups where they fit** For the generative AI and automation routes, groups of five to ten at one level are available and often lively.
+- **Small groups where they fit** For the generative AI and automation routes, groups of fifteen to twenty at one level are available and often lively.
 - **Nothing confidential shared** Lessons use your processes as examples without your organisation's confidential data; the teacher works with safe substitutes.
 - **English throughout** The language of the tools, their documentation and most international teams in the Netherlands.
 - **Work you can show** Agents, prompts, evaluations and governance notes are kept in your own repository, ready to show a manager or reviewer.

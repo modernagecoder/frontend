@@ -16,7 +16,7 @@ Gold Coast, Queensland, Australia / Live online
 
 Stand on the platform at Cavill Avenue on a weekday and a tram arrives every seven and a half minutes for most of the day. The open Translink timetable says so precisely: on Wednesday 14 October 2026 the southbound platform there sees 134 departures, and 105 of the gaps between them are exactly 7.5 minutes. Now ask a sharper question. What was the longest wait between 7am and 9am? Between noon and 3pm? After one tram is cancelled? A loop can answer each question by checking every gap. Our Gold Coast learners build a segment tree instead, a structure that answers any such range question by looking at a handful of stored maximums, and keeps answering correctly when the timetable changes.
 
-Facts last verified 7 October 2026. Teaching is online; no Gold Coast branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Gold Coast branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four places to start for Gold Coast teens and adults
 
@@ -183,7 +183,7 @@ The urban area stretches along the coast and inland, and a live online lesson re
 - **Anywhere along the coast** A learner in an apartment near the beach and one in a house out west can share the same lesson, each at their own desk.
 - **School words you know** Lessons refer to Year 7, Year 10 or Year 12 the way coast schools do, and every class runs in English.
 - **A trial with real work** The free session is an actual coding task with a teacher watching, and it ends with a recommended level, course and time. No payment details are taken.
-- **Small matched groups** Five to ten learners at the same stage, drawn from the Gold Coast, the rest of Australia and further away, so each level finds a workable time.
+- **Small matched groups** Fifteen to twenty learners at the same stage, drawn from the Gold Coast, the rest of Australia and further away, so each level finds a workable time.
 - **A steady weekly rhythm** Usually two lessons a week, about eight a month, at a fixed time. Breaks for school holidays and exams are agreed with the teacher ahead of time.
 - **India time, all year** Neither Queensland nor India changes its clocks, so the coast stays 4 hours 30 minutes in front of our teachers; a 5pm lesson on the coast begins at 12:30pm in India.
 
@@ -194,7 +194,7 @@ The urban area stretches along the coast and inland, and a live online lesson re
 Three figures and nothing hidden.
 
 - First class: USD 0. One complete lesson at no charge, ending with a level, a course suggestion and a weekly time.
-- Group tuition: USD 100 a month. A month of teaching, normally eight lessons, with five to ten learners at your level.
+- Group tuition: USD 100 a month. A month of teaching, normally eight lessons, with fifteen to twenty learners at your level.
 - Private tuition: USD 150 a month. The same monthly pattern of about eight lessons, with one teacher and one learner.
 
 Outside India every family pays in US dollars at the same rate; Helensvale and Coolangatta receive identical invoices and no coastal surcharge exists. Nothing is charged until the trial has settled a course and a weekly time; holidays, missed lessons and moving between group and private classes are covered on the pricing page.
@@ -235,11 +235,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Gold Coast coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Gold Coast and Queensland learners
 

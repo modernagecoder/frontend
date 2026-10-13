@@ -16,7 +16,7 @@ Queanbeyan, New South Wales, beside Canberra / Live online
 
 The NSW Department of Education publishes a master list of every public school in the state, and 15 of them sit in the Queanbeyan-Palerang council area. How many towns do those schools belong to? Python's itertools.groupby looks like the obvious tool, and run on the file as it arrives it answers 11. Sort the list first and it says 10. Clean the spellings and sort and it says 7, which is right. The function was never broken: it only ever groups items that sit next to each other, and the town names carried hidden spaces and capital letters. Our Queanbeyan learners find out why a correct function can still give a wrong answer.
 
-Facts last verified 10 October 2026. Teaching is online; no Queanbeyan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Queanbeyan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python routes for Queanbeyan learners
 
@@ -169,7 +169,7 @@ An online lesson removes the drive across the border.
 - **Eastern time, written down** Lessons are fixed in Queanbeyan time, which matches Canberra and Sydney all year round.
 - **Built for NSW students** Teachers plan around NSW stages and the HSC, and every lesson is in English.
 - **A coding lesson, not a pitch** The free first session is real Python with a teacher; you then get a suggested course and time, and we never take payment details.
-- **Small groups by level** Five to ten learners at the same stage, drawn from many places so each level has a workable hour.
+- **Small groups by level** Fifteen to twenty learners at the same stage, drawn from many places so each level has a workable hour.
 - **Two sessions a week** About eight a month; school holidays and exam periods are agreed beforehand.
 - **Public servants welcome** Adults working office hours can take evening groups or book one-to-one lessons.
 
@@ -180,7 +180,7 @@ An online lesson removes the drive across the border.
 Three options, nothing hidden.
 
 - First class: USD 0. A free lesson that finishes with our suggestion of level, course and time.
-- Group tuition: USD 100 a month. Around eight group lessons a month, with five to ten learners at one level.
+- Group tuition: USD 100 a month. Around eight group lessons a month, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Around eight one-to-one lessons a month with a single teacher.
 
 Queanbeyan families pay the same US dollar fee as families anywhere else in Australia. No charge applies until the trial settles a course and a time, and the pricing page explains holidays, missed lessons and switching formats.
@@ -221,7 +221,7 @@ No, and we do not claim one. Teaching is live and online only, with no premises 
 
 ### What do online Python classes in Queanbeyan cost?
 
-The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
+The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
 
 ### How large are the groups?
 

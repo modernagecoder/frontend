@@ -4,7 +4,7 @@ description: "Online maths tutor for Canberra learners from primary to Year 12 a
 canonical: https://learn.modernagecoders.com/maths-tutor-canberra
 source: src/pages/maths-tutor-canberra.html
 ---
-> Canberra learners from age 6 to 67 can take live online maths lessons with Modern Age Coders. Primary and high school maths come first, then the ACT senior courses, which ANU names as Mathematical Methods, Specialist Mathematics, Specialist Methods and Further Mathematics, and adult maths. We schedule in Canberra time, teach privately or in level-matched groups of five to ten, and the first lesson is free.
+> Canberra learners from age 6 to 67 can take live online maths lessons with Modern Age Coders. Primary and high school maths come first, then the ACT senior courses, which ANU names as Mathematical Methods, Specialist Mathematics, Specialist Methods and Further Mathematics, and adult maths. We schedule in Canberra time, teach privately or in level-matched groups of fifteen to twenty, and the first lesson is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Maths tutor in Canberra
 
@@ -173,7 +173,7 @@ One learner with one teacher, for a specific course, unit or gap.
 
 ### Level-matched classes
 
-Five to ten learners working on the same material, often from several states.
+Fifteen to twenty learners working on the same material, often from several states.
 
 ### Every step on screen
 
@@ -242,7 +242,7 @@ We arrange times in Canberra time and take care of the October and April clock c
 
 - **Steady teacher** One teacher, week after week.
 - **Family notes** What was covered and what is next.
-- **Groups by level** Five to ten learners.
+- **Groups by level** Fifteen to twenty learners.
 - **Geometry from maps** Real shapes from the city plan.
 - **Private lessons** For one course or deadline.
 - **Explain, then practise** Ideas before drills.
@@ -252,7 +252,7 @@ We arrange times in Canberra time and take care of the October and April clock c
 Canberra families are charged a flat monthly fee in US dollars; there is nothing to pay to join and no minimum period.
 
 - Free first class: USD 0. A real first lesson. Advice on next steps. No card.
-- Group batch: USD 100 a month. Classes of five to ten. The same teacher. Marked practice. Stop at any month.
+- Group batch: USD 100 a month. Classes of fifteen to twenty. The same teacher. Marked practice. Stop at any month.
 - One to one: USD 150 a month. One to one. One course or goal. Useful before exams.
 
 ## Common questions from Canberra families

@@ -1,10 +1,10 @@
 ---
 title: "Coding Classes in Jeddah | Live Coding for Kids, Teens & Adults"
-description: "Live online coding classes in Jeddah for kids, teens and adults. Python and AI tracks in groups of 5 to 8, evening AST slots, no crossing the city. Free demo."
+description: "Live online coding classes in Jeddah for kids, teens and adults. Python and AI tracks in groups of 15 to 20, evening AST slots, no crossing the city. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-jeddah
 source: src/pages/coding-classes-in-jeddah.html
 ---
-> Live online coding classes in Jeddah for kids, teens and adults. Python and AI tracks in groups of 5 to 8, evening AST slots, no crossing the city. Free demo.
+> Live online coding classes in Jeddah for kids, teens and adults. Python and AI tracks in groups of 15 to 20, evening AST slots, no crossing the city. Free demo.
 
 Courses
 
@@ -69,7 +69,7 @@ Six plain facts about the format, none of which change after enrolment.
 
 A teacher and a small group on a video call, building together in real time. Questions get answered while the problem is still open on screen, not in a forum thread three days later.
 
-### Groups of five to eight
+### Groups of fifteen to twenty
 
 At that size, silence gets noticed. When a student goes quiet, the teacher asks why in that same lesson, and the answer shapes the next ten minutes.
 
@@ -123,7 +123,7 @@ Our instructors teach full time and are trained for it. The difference shows in 
 
 ### Small on purpose
 
-Five to eight students is not a marketing line, it is the operating constraint everything else depends on. We would rather open another batch than stretch one.
+Fifteen to twenty students is not a marketing line, it is the operating constraint everything else depends on. We would rather open another batch than stretch one.
 
 ### Projects as proof
 
@@ -225,7 +225,7 @@ Group classes
 
 $100 per month
 
-- Live weekly lessons, five to eight students
+- Live weekly lessons, fifteen to twenty students
 - AST evening and weekend timings
 - Project work and a certificate on completion
 - Preceded by the free demo lesson

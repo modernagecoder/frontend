@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-kuwait.html
 
 In short
 
-Modern Age Coders runs live online AI and machine learning classes for students in Kuwait, ages 6 to 67, in batches of five to eight or one to one. Students learn Python and the mathematics beneath machine learning, then train and evaluate their own models instead of only prompting AI tools. Fees start at USD 100 a month, billed in US dollars, and the first class is free.
+Modern Age Coders runs live online AI and machine learning classes for students in Kuwait, ages 6 to 67, in batches of fifteen to twenty or one to one. Students learn Python and the mathematics beneath machine learning, then train and evaluate their own models instead of only prompting AI tools. Fees start at USD 100 a month, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -296,7 +296,7 @@ Kuwait time, Friday or Saturday. The weekend group for every age band, including
 
 ### What a session is, and what we will not promise
 
-Ninety minutes of live teaching from someone who recalls your child's last sticking point without being reminded. Screens are shared both ways, so the teacher watches the code being written and interrupts at the moment the mistake appears. Batches are five to eight students, or one to one. Between sessions there is a build task rather than a worksheet, and questions during the week reach the same teacher rather than a support queue.
+Ninety minutes of live teaching from someone who recalls your child's last sticking point without being reminded. Screens are shared both ways, so the teacher watches the code being written and interrupts at the moment the mistake appears. Batches are fifteen to twenty students, or one to one. Between sessions there is a build task rather than a worksheet, and questions during the week reach the same teacher rather than a support queue.
 
 Our latest workable slot is 7:30 PM Kuwait time, already 10:00 PM in India. An 8:00 or 9:00 PM Kuwait batch would fill, but it needs a dedicated late shift teacher to run honestly, so we do not list one.
 
@@ -378,7 +378,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, same teacher every week
+- Fifteen to twenty students, same teacher every week
 - Live video only, no recording sold as a lesson
 - A build task between sessions, reviewed by the teacher
 - Certificate on completion, and a published project that matters more

@@ -16,7 +16,7 @@ Brisbane, Queensland, Australia / Live online
 
 Translink publishes every bus, train, ferry and tram stop in South East Queensland as one open file, and that file is where our Brisbane project begins. It lists 12,855 boarding stops, each with its own six-digit code. Drop those codes into a binary search tree, one of the first data structures a programmer meets, and you would expect quick lookups: a well-shaped tree of that size is only 13 levels deep. Load them in the order the file gives them, though, and the tree grows 8,427 levels tall. Nothing is wrong with the codes. The file simply lists them almost in order, and order is exactly what a plain search tree cannot cope with. Our Brisbane learners measure the damage, then fix it.
 
-Facts last verified 7 October 2026. Teaching is online; no Brisbane branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Brisbane branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four starting points for Brisbane teenagers and adults
 
@@ -171,7 +171,7 @@ Greater Brisbane spreads across hundreds of suburbs, and a live online lesson re
 - **From any suburb** A learner in a unit near the river and one in a house out at Redbank Plains can share a lesson, each at their own desk.
 - **Queensland language** Teachers use the year levels Queensland schools use, from Year 7 through Year 12, and know that senior study leads to the QCE. Lessons are taught in English.
 - **A real first lesson** You do a genuine task with a genuine teacher and leave knowing which level, course and weekly slot would suit you. Nobody asks for payment details.
-- **Small, matched groups** Five to ten learners working at the same stage, drawn from Brisbane, the rest of Australia and further afield, so each level finds a workable slot.
+- **Small, matched groups** Fifteen to twenty learners working at the same stage, drawn from Brisbane, the rest of Australia and further afield, so each level finds a workable slot.
 - **A steady rhythm** Usually two lessons a week, around eight a month, in a fixed slot. Breaks for school holidays and exams are planned with the teacher ahead of time.
 - **A fixed gap to India time** Neither Queensland nor India moves its clocks, so Brisbane always runs 4 hours 30 minutes in front of our teachers: 5pm in Brisbane is 12:30pm for them.
 
@@ -182,7 +182,7 @@ Greater Brisbane spreads across hundreds of suburbs, and a live online lesson re
 Three figures and nothing hidden.
 
 - First class: USD 0. A full lesson with no charge, finishing with a level, a course suggestion and a weekly time.
-- Group tuition: USD 100 a month. One month of teaching, normally eight lessons, with five to ten learners at your level.
+- Group tuition: USD 100 a month. One month of teaching, normally eight lessons, with fifteen to twenty learners at your level.
 - Private tuition: USD 150 a month. The same monthly pattern of about eight lessons, one teacher and one learner.
 
 Outside India every family is billed in US dollars at one rate, so the northside and the southside receive the same invoice and there is no separate Brisbane price list. Billing starts only after the trial, once course and time are agreed; the pricing page explains breaks, missed lessons and moving between group and private teaching.
@@ -223,11 +223,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Brisbane coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Brisbane and Australian learners
 

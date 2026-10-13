@@ -180,7 +180,7 @@ Teachers work from India, behind Sydney. During daylight saving a 4 pm Sydney cl
 
 - **Short tasks** Young children work in bursts with plenty of variety.
 - **Lists on paper** Children learn to write possibilities down in order.
-- **Five to ten per group** Small groups where every child is heard.
+- **Fifteen to twenty per group** Small groups where every child is heard.
 - **One-to-one lessons** For a child who prefers quiet, individual time.
 - **Not OC coaching** We teach maths, in line with the department's advice.
 - **No placement claims** Placement is the department's decision alone.
@@ -190,7 +190,7 @@ Teachers work from India, behind Sydney. During daylight saving a 4 pm Sydney cl
 NSW families pay monthly in US dollars, our rate for everywhere except India. Nothing is paid in advance and you can stop whenever a month ends.
 
 - Free first class: USD 0. A gentle trial lesson. Honest advice, including when classes are not needed. No card required.
-- Group batch: USD 100 a month. Five to ten children at one level. The same friendly teacher. Short tasks with feedback. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. The same friendly teacher. Short tasks with feedback. A certificate at the end.
 - One to one: USD 150 a month. One teacher for one child. Calm, focused practice. Times that suit young children.
 
 ## What Year 3 and 4 families ask

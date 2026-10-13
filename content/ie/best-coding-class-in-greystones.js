@@ -53,7 +53,7 @@ module.exports = {
 
   h1: 'Coding classes in Greystones',
   capsuleQ: 'What is the best coding class in Greystones?',
-  capsule: 'Census 2022 puts 21,701 usual residents in this built-up area, which it publishes under the joined name Greystones-Delgany, spread across 7,634 households, 6,826 of them on broadband. Teaching reaches them at home, twice in most weeks, with a live teacher and either a small ability group of five to ten or a single learner, anywhere from age six to age sixty-seven. There is no charge for the opening lesson. From then on a shared place runs at USD 100 monthly and private tuition at USD 150.',
+  capsule: 'Census 2022 puts 21,701 usual residents in this built-up area, which it publishes under the joined name Greystones-Delgany, spread across 7,634 households, 6,826 of them on broadband. Teaching reaches them at home, twice in most weeks, with a live teacher and either a small ability group of fifteen to twenty or a single learner, anywhere from age six to age sixty-seven. There is no charge for the opening lesson. From then on a shared place runs at USD 100 monthly and private tuition at USD 150.',
   lead: 'One census table counts the people of Greystones twice, and the two counts disagree on purpose. Asked where residents were born, it records 17,313 in Ireland and 1,553 in the United Kingdom. Asked which country they are citizens of, the same 21,701 residents produce 18,813 Irish and 543 British. Neither figure corrects the other. Birthplace is a fact about one day in the past; citizenship is a legal status that can change and can be held more than once, and the census asks about them separately because they are separate. Mix them up and a sentence about the town becomes wrong by about fifteen hundred people. This page is about keeping them apart.',
   wa: 'Hello Modern Age Coders, I want to arrange a free coding lesson for a learner in Greystones.',
 
@@ -193,7 +193,7 @@ module.exports = {
     h2: 'Greystones class fees',
     intro: 'Three lines and nothing else.',
     first: 'A complete first lesson, taught and assessed, at no cost.',
-    group: 'One month in an ability group of five to ten, about eight live lessons.',
+    group: 'One month in an ability group of fifteen to twenty, about eight live lessons.',
     private: 'One month of one to one lessons, same weekly pattern.',
     closer: 'Charges are monthly and in US dollars, on the single rate used for every family outside India, so a Greystones household sees the same figure as one in Athlone and no euro list beside it. Invoicing starts only after a course and a weekly hour have both been settled in the opening lesson, and the pricing page covers what happens with breaks, a missed week, or a move between a group and private tuition.'
   },
@@ -218,7 +218,7 @@ module.exports = {
       { q: 'Are adult learners welcome in Greystones?', a: 'Yes, right up to sixty-seven, beginners included. After the free lesson an adult is placed either in a group at the same level or with a teacher one to one.' },
       { q: 'Which software has to be installed first?', a: 'None before the free lesson. The teacher sets up whatever the course needs during it, and everything we use runs in a browser or installs free.' },
       { q: 'Is there a Modern Age Coders classroom in Greystones?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Greystones cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Greystones cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

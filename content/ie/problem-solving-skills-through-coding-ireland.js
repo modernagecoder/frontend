@@ -62,7 +62,7 @@ module.exports = {
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
-  capsule: 'Problem solving is taught as a method: read the problem properly, break it into parts, solve a smaller version, generalise, then judge the result. Irish curriculum documents ask for exactly this, from the Junior Cycle outcome about decomposing a problem into manageable parts to the Leaving Certificate definition of a task whose solution is not immediately obvious. Coding is unusually good practice for it, because every attempt is tested immediately. Modern Age Coders teaches it live online, for ages 6 to 67, in groups of five to ten placed by level or one to one. The first class is free; continuing costs USD 100 a month in a group or USD 150 a month with a teacher to yourself. We make no promises about exam results.',
+  capsule: 'Problem solving is taught as a method: read the problem properly, break it into parts, solve a smaller version, generalise, then judge the result. Irish curriculum documents ask for exactly this, from the Junior Cycle outcome about decomposing a problem into manageable parts to the Leaving Certificate definition of a task whose solution is not immediately obvious. Coding is unusually good practice for it, because every attempt is tested immediately. Modern Age Coders teaches it live online, for ages 6 to 67, in groups of fifteen to twenty placed by level or one to one. The first class is free; continuing costs USD 100 a month in a group or USD 150 a month with a teacher to yourself. We make no promises about exam results.',
 
   picks: {
     eyebrow: 'Start here',
@@ -211,7 +211,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'A real problem, worked through with a teacher, ending with an honest view of the right level.' },
-      { h3: 'Five to ten per group', p: 'Learners at one level, comparing approaches to the same problem each week.' },
+      { h3: 'Fifteen to twenty per group', p: 'Learners at one level, comparing approaches to the same problem each week.' },
       { h3: 'One to one', p: 'For learners who want a faster pace or prefer to think without an audience.' },
       { h3: 'Teachers who wait', p: 'Hints before answers, and the smallest hint that will do.' },
       { h3: 'Problems, not only exercises', p: 'Tasks where the route is not given, because routine exercises build different skills.' },
@@ -227,7 +227,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A single monthly price in US dollars, the same in every country outside India and the same at every age. Nothing to pay to enrol, and no term or year to sign up for.',
     free: ['A genuine problem worked through', 'A clear view of the starting rung', 'No card taken'],
-    group: ['Five to ten learners at one level', 'One teacher, week after week', 'Approaches compared, not just answers marked', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'One teacher, week after week', 'Approaches compared, not just answers marked', 'A certificate at the end'],
     one: ['A teacher for a single learner', 'Problems chosen for that learner', 'Good for fast movers and quiet thinkers']
   },
 

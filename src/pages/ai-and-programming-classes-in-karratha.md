@@ -16,7 +16,7 @@ Karratha, Pilbara, Western Australia / Live online
 
 Karratha lies north of the Tropic of Capricorn, which means that twice a year the noon sun climbs to the very top of the sky and shadows almost vanish beneath people's feet. Which two days? Take the latitude of the town from Main Roads WA's open road data, about 20.74 degrees south, and write a program that tracks the sun's declination through the year. It answers 17 January and 25 November. Use a popular one-line shortcut instead and November moves three days earlier. Feed degrees to a function expecting radians and the sun ends up on the wrong side of the sky. Karratha learners discover how much care hides inside a calculation that looks like a single line.
 
-Facts last verified 10 October 2026. Teaching is online; no Karratha branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Karratha branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Karratha learners usually start
 
@@ -170,7 +170,7 @@ A live online class reaches Karratha as easily as it reaches Perth.
 - **Set in WA time** Lessons are scheduled on Western Australian time, which never shifts, so the slot is the same all year.
 - **Matched to WA year levels** Teachers follow the WA curriculum years, including ATAR students, and teach in English.
 - **A real first lesson** The free session is spent programming with a teacher; you then get a suggested course and time, and nobody asks for payment details.
-- **Groups of five to ten** Learners at one stage, gathered from several states and countries so a sensible hour exists.
+- **Groups of fifteen to twenty** Learners at one stage, gathered from several states and countries so a sensible hour exists.
 - **Two classes weekly** Roughly eight a month, with school holidays and exams planned around in advance.
 - **Swing shifts allowed for** Adults on rotating rosters can move between group times or choose one-to-one lessons.
 
@@ -181,7 +181,7 @@ A live online class reaches Karratha as easily as it reaches Perth.
 Three options, plainly.
 
 - First class: USD 0. A free lesson that ends with a level, a course and a time we suggest.
-- Group tuition: USD 100 a month. About eight group lessons a month with five to ten learners at your stage.
+- Group tuition: USD 100 a month. About eight group lessons a month with fifteen to twenty learners at your stage.
 - Private tuition: USD 150 a month. About eight one-to-one lessons a month with a dedicated teacher.
 
 Remote postcodes pay nothing extra: Karratha is charged the same US dollar fee as every other Australian town. No payment is taken until the trial has settled a course and slot; the pricing page covers breaks, missed lessons and changes of format.
@@ -222,7 +222,7 @@ No, and we do not claim one. Teaching is live and online only, with no premises 
 
 ### What do AI and programming classes in Karratha cost?
 
-The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
+The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
 
 ### How large are the groups?
 

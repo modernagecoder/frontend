@@ -4,7 +4,7 @@ description: "Outgrown a free coding club? The next step after CoderDojo for Iri
 canonical: https://learn.modernagecoders.com/after-coderdojo-next-step-coding-ireland
 source: src/pages/after-coderdojo-next-step-coding-ireland.html
 ---
-> CoderDojo is a network of free, volunteer-run coding clubs that began in Cork in July 2011; today there are over 600 active Dojos worldwide, part of the Raspberry Pi Foundation's Code Club movement. Clubs are brilliant for a first taste, for friendship and for confidence. When a child wants more, such as typed Python, a structured path or a teacher who reads their code every week, a live class is the natural next step, and many families keep the club as well. Modern Age Coders teaches live online for ages 6 to 67, in groups of five to ten placed by ability or one to one, and is not connected with CoderDojo. The first class is free; after it a group place is USD 100 a month and one-to-one lessons USD 150.
+> CoderDojo is a network of free, volunteer-run coding clubs that began in Cork in July 2011; today there are over 600 active Dojos worldwide, part of the Raspberry Pi Foundation's Code Club movement. Clubs are brilliant for a first taste, for friendship and for confidence. When a child wants more, such as typed Python, a structured path or a teacher who reads their code every week, a live class is the natural next step, and many families keep the club as well. Modern Age Coders teaches live online for ages 6 to 67, in groups of fifteen to twenty placed by ability or one to one, and is not connected with CoderDojo. The first class is free; after it a group place is USD 100 a month and one-to-one lessons USD 150.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / After CoderDojo
 
@@ -70,7 +70,7 @@ Friends, school or the news mention Python and AI, and the child wants the real 
 | Cost | Free | Paid monthly, after a free first class |
 | Who helps | Volunteer mentors, often parents and professionals giving their time | A teacher whose job is to teach this learner |
 | How learning happens | Learning from each other, with mentors on hand | A planned path, placed by level, with each step checked |
-| Who is in the room | Young people of many ages and levels | Five to ten learners at the same stage, or one to one |
+| Who is in the room | Young people of many ages and levels | Fifteen to twenty learners at the same stage, or one to one |
 | What it builds best | Confidence, creativity and friendship around technology | Steady progress from blocks to Python, data and AI |
 
 The table compares two kinds of help, not two organisations. It makes no claim about any particular club, which each set their own activities.
@@ -175,7 +175,7 @@ Classes are live, taught from India at a fixed hour in Irish time. Irish time ru
 
 - **A free first class** The child shows the teacher a club project and explains it, and the teacher places them on the right rung.
 - **The same teacher** One teacher who gets to know the child's projects, week after week.
-- **Groups by level** Five to ten children at the same stage, from Ireland and other countries.
+- **Groups by level** Fifteen to twenty children at the same stage, from Ireland and other countries.
 - **One to one if preferred** For a child who is far ahead, or who learns best with a teacher alone.
 - **Parents kept informed** Families hear what their child has built and what comes next.
 - **Projects that last** Work is saved in the child's own space, ready to show at the club or at school.
@@ -185,7 +185,7 @@ Classes are live, taught from India at a fixed hour in Irish time. Irish time ru
 Monthly, in US dollars, the one rate we use for every country outside India. No enrolment fee and nothing to sign for a year.
 
 - Free first class: USD 0. A real class with a teacher. An honest placement on the ladder. No card needed.
-- Group batch: USD 100 a month. Five to ten children at one level. The same teacher each week. Projects reviewed weekly. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. The same teacher each week. Projects reviewed weekly. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one child. Paced to the child. Good for fast movers.
 
 ## What parents ask when a child outgrows a coding club

@@ -16,7 +16,7 @@ Rathfarnham, Dublin 14 and 16 / Live online
 
 Start at Rathfarnham Castle and set out to see ten of the heritage sites the Office of Public Works runs in Dublin, from the Pearse Museum down the road to Casino Marino on the north side. The obvious plan is to go to whichever site is closest, then the closest after that, and so on. Measured in straight lines, that route is 23.26 kilometres. A program that tries every possible order, all 362,880 of them, finds one of 21.74. The quick rule is 7 percent longer than the shortest, and with a few more sites the careful search becomes impossible. This page teaches a learner the difference between an algorithm that guesses well and one that is sure.
 
-Facts last verified 20 September 2026. Teaching is online; no Rathfarnham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Rathfarnham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Rathfarnham learners get started
 
@@ -147,7 +147,7 @@ Suggesting a route is easy. Proving it is the shortest is the skill. The longer 
 Arrangements in brief.
 
 - **Real teacher, real time** The teacher leads throughout and responds to each learner's code as it is typed.
-- **Matched level** Five to ten learners at one level, from Rathfarnham, elsewhere in Ireland or overseas.
+- **Matched level** Fifteen to twenty learners at one level, from Rathfarnham, elsewhere in Ireland or overseas.
 - **Fixed pair of days** Around eight lessons a month on two set days each week.
 - **Breaks built in** Holidays, mid-terms and exam weeks are allowed for in the course plan.
 - **What to use** A laptop or desktop, a working microphone and sound, and a connection that holds video.
@@ -160,7 +160,7 @@ Arrangements in brief.
 The full list.
 
 - First class: USD 0. The first lesson and a level check, free.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons at the same rhythm.
 
 Each family outside India pays the same monthly amount in US dollars. There is no obligation after the free lesson, payment begins only with the course, and the pricing page covers holidays, missed lessons and changing between group and private teaching.
@@ -197,11 +197,11 @@ Not necessarily. Groups are set by level, so classmates may be anywhere in Irela
 
 ### What do coding classes in Rathfarnham cost?
 
-The first lesson is free. A group place is then USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same timetable are USD 150 a month. Terms are agreed before any payment.
+The first lesson is free. A group place is then USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same timetable are USD 150 a month. Terms are agreed before any payment.
 
 ### How big is each group?
 
-Five to ten learners, grouped by level, pace and goals rather than age or address. If no group fits a workable hour, lessons are one to one.
+Fifteen to twenty learners, grouped by level, pace and goals rather than age or address. If no group fits a workable hour, lessons are one to one.
 
 ## Around Rathfarnham and the south side
 

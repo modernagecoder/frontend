@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'AI and programming classes in East Kilbride',
   capsuleQ: 'Which are the best AI and programming classes in East Kilbride?',
-  capsule: 'National Records of Scotland estimated 75,310 people in the East Kilbride locality in mid-2020, the largest in South Lanarkshire. Stewartfield, Greenhills, Westwood, The Murray, Lindsayfield and Hairmyres are among the suburbs recorded in its G74 and G75 postcode districts. Anyone from P1 age to 67 can study AI, programming, Python, vibe coding and maths with an India-based tutor on live video, privately or in a class of five to ten at one stage. Reasoning comes first, so learners can question what a model or chatbot concludes. The trial lesson is free and ends with the course we would recommend. The East Kilbride project maps 92 roundabouts and teaches a program to recognise them from shape and connections, then counts its mistakes. Once the trial is done, fees are USD 100 a month for group places and USD 150 a month for individual tuition.',
+  capsule: 'National Records of Scotland estimated 75,310 people in the East Kilbride locality in mid-2020, the largest in South Lanarkshire. Stewartfield, Greenhills, Westwood, The Murray, Lindsayfield and Hairmyres are among the suburbs recorded in its G74 and G75 postcode districts. Anyone from P1 age to 67 can study AI, programming, Python, vibe coding and maths with an India-based tutor on live video, privately or in a class of fifteen to twenty at one stage. Reasoning comes first, so learners can question what a model or chatbot concludes. The trial lesson is free and ends with the course we would recommend. The East Kilbride project maps 92 roundabouts and teaches a program to recognise them from shape and connections, then counts its mistakes. Once the trial is done, fees are USD 100 a month for group places and USD 150 a month for individual tuition.',
   lead: 'Recognising a roundabout on a map is effortless for a person and surprisingly slippery for a program. The obvious clue is that roundabouts are round, and there is a neat formula for roundness called circularity: four times pi times the area, divided by the perimeter squared, which is exactly 1 for a perfect circle and smaller for anything stretched or jagged. This project tests how far that one clue gets. OpenStreetMap contributors have tagged 92 complete roundabout rings in and around East Kilbride, which gives the program a set of right answers, and 111 other closed road loops give it things to confuse them with.',
   wa: 'Hello Modern Age Coders, could we book a free AI or programming lesson for a learner in East Kilbride?',
 
@@ -154,7 +154,7 @@ module.exports = {
       { h3: 'Hands on, not watching', p: 'The student runs the keyboard for the whole lesson; the tutor follows over screen share and asks them to predict each result.' },
       { h3: 'Trial decides the start', p: 'We see what the learner can already do, then plan from there, noting any SQA course they sit.' },
       { h3: 'Trial costs nothing', p: 'We teach the first lesson free and suggest a course at the end.' },
-      { h3: 'Classes by stage', p: 'Five to ten learners from across the UK, all at the same stage.' },
+      { h3: 'Classes by stage', p: 'Fifteen to twenty learners from across the UK, all at the same stage.' },
       { h3: 'Two sessions a week', p: 'Term time only; holiday weeks are off.' },
       { h3: 'Steady timings', p: 'Tutors adjust to UK clock changes so your slot stays fixed.' }
     ],

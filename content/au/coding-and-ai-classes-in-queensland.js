@@ -214,7 +214,7 @@ module.exports = {
       { h3: 'No clock changes to track', p: 'With no daylight saving in Queensland, a lesson booked for 4pm stays at 4pm all year, and our side of the timetable never moves either.' },
       { h3: 'Queensland school words', p: 'Teachers use Prep, Year 10 and Queensland term language, so lessons line up with what a learner hears at school. Every class is in English.' },
       { h3: 'Try a full lesson', p: 'The free class is a real lesson with a finished piece of work, then a recommendation for level, course and weekly time. No payment details are asked for.' },
-      { h3: 'Groups at one level', p: 'A group has five to ten learners at a similar standard, from Queensland, other states and abroad, which keeps sensible times open for most levels.' },
+      { h3: 'Groups at one level', p: 'A group has fifteen to twenty learners at a similar standard, from Queensland, other states and abroad, which keeps sensible times open for most levels.' },
       { h3: 'Twice a week', p: 'About eight lessons a month at a fixed hour, with school holidays and exam weeks paused by arrangement.' },
       { h3: 'India time, every week', p: 'Our teachers keep India time, four and a half hours behind Queensland, so a Queensland afternoon lesson sits in their working midday.' }
     ],
@@ -225,7 +225,7 @@ module.exports = {
     h2: 'What classes cost in Queensland',
     intro: 'The same simple pricing from Cape York to the border.',
     first: 'A full first lesson free of charge, ending with a suggested level, course and weekly time.',
-    group: 'A month of teaching, generally eight lessons, with five to ten learners at a similar level.',
+    group: 'A month of teaching, generally eight lessons, with fifteen to twenty learners at a similar level.',
     private: 'The same monthly pattern of about eight lessons, one teacher with one learner.',
     closer: 'Families outside India pay in US dollars at one rate, so Mount Isa and Maroochydore receive the same invoice. Billing starts only once the trial has fixed a course and a weekly time; holiday pauses, missed lessons and switching between group and private teaching are set out on the pricing page.'
   },
@@ -250,8 +250,8 @@ module.exports = {
       { q: 'Do you help with the QCE?', a: 'We teach the programming and maths skills senior students need. The authority that runs the QCE blocks automated reading of its site, so we do not describe its subjects here; tell us the subject in the free lesson and the teacher will plan around it. Assessed work is always the student\'s own.' },
       { q: 'What time are lessons for Queensland learners?', a: 'Afternoons, evenings or weekends, agreed during the trial and written in Queensland time. Because neither Queensland nor India changes its clocks, the time never shifts during the year.' },
       { q: 'Is there a Modern Age Coders centre in Queensland?', a: 'No, and none is claimed. All lessons happen live online, with no premises in Australia. A learner needs a laptop or desktop, working sound and a reliable connection; the contact number on this page is Indian.', boiler: true },
-      { q: 'What do coding classes cost in Queensland?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched by level, pace and goals rather than age or suburb. If no group meets at a workable time, the learner is offered one-to-one lessons instead.', boiler: true }
+      { q: 'What do coding classes cost in Queensland?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched by level, pace and goals rather than age or suburb. If no group meets at a workable time, the learner is offered one-to-one lessons instead.', boiler: true }
     ]
   },
 

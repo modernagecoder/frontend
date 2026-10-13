@@ -211,7 +211,7 @@ Classes come from India, which never changes its clocks. Against the UK that mea
 Billed monthly in US dollars, at the same rate for every country outside India, with no joining charge and no commitment past the current month. Most tools used are free; any paid AI service is your own choice and your own account.
 
 - Free first class: USD 0. A look at your Python and maths. A first project agreed with you. Nothing to pay that day.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher each week. Data and evaluation reviewed. Stop at the end of any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. Data and evaluation reviewed. Stop at the end of any month.
 - One to one: USD 150 a month. One teacher, one learner. Your own project at the centre. Suits a competition deadline.
 
 ## What UK learners ask about building AI

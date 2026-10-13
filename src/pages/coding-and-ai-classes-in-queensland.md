@@ -16,7 +16,7 @@ Queensland, Australia / Live online
 
 A train from Roma Street to Varsity Lakes covers about 89 kilometres of track, yet the two stations are only about 80 kilometres apart in a straight line. Where does the extra distance go, and how far along the line is each stop? Railway engineers answer with chainage: a distance measured along the track itself, not across the map. Our project rebuilds it from open map data. Learners join hundreds of short track pieces into one line, drop every platform onto it and measure. Along the way they learn why the obvious shortcut, snapping each station to the closest stored point, can be wrong by more than 70 metres.
 
-Facts last verified 7 October 2026. Teaching is online; no Queensland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Queensland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where a Queensland learner might begin
 
@@ -190,7 +190,7 @@ Queensland is too big for one physical classroom to serve. A live video lesson r
 - **No clock changes to track** With no daylight saving in Queensland, a lesson booked for 4pm stays at 4pm all year, and our side of the timetable never moves either.
 - **Queensland school words** Teachers use Prep, Year 10 and Queensland term language, so lessons line up with what a learner hears at school. Every class is in English.
 - **Try a full lesson** The free class is a real lesson with a finished piece of work, then a recommendation for level, course and weekly time. No payment details are asked for.
-- **Groups at one level** A group has five to ten learners at a similar standard, from Queensland, other states and abroad, which keeps sensible times open for most levels.
+- **Groups at one level** A group has fifteen to twenty learners at a similar standard, from Queensland, other states and abroad, which keeps sensible times open for most levels.
 - **Twice a week** About eight lessons a month at a fixed hour, with school holidays and exam weeks paused by arrangement.
 - **India time, every week** Our teachers keep India time, four and a half hours behind Queensland, so a Queensland afternoon lesson sits in their working midday.
 
@@ -201,7 +201,7 @@ Queensland is too big for one physical classroom to serve. A live video lesson r
 The same simple pricing from Cape York to the border.
 
 - First class: USD 0. A full first lesson free of charge, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. A month of teaching, generally eight lessons, with five to ten learners at a similar level.
+- Group tuition: USD 100 a month. A month of teaching, generally eight lessons, with fifteen to twenty learners at a similar level.
 - Private tuition: USD 150 a month. The same monthly pattern of about eight lessons, one teacher with one learner.
 
 Families outside India pay in US dollars at one rate, so Mount Isa and Maroochydore receive the same invoice. Billing starts only once the trial has fixed a course and a weekly time; holiday pauses, missed lessons and switching between group and private teaching are set out on the pricing page.
@@ -242,11 +242,11 @@ No, and none is claimed. All lessons happen live online, with no premises in Aus
 
 ### What do coding classes cost in Queensland?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched by level, pace and goals rather than age or suburb. If no group meets at a workable time, the learner is offered one-to-one lessons instead.
+Fifteen to twenty learners, matched by level, pace and goals rather than age or suburb. If no group meets at a workable time, the learner is offered one-to-one lessons instead.
 
 ## More for Queensland and Australian learners
 

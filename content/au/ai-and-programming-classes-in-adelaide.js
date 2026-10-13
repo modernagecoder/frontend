@@ -188,7 +188,7 @@ module.exports = {
       { h3: 'From home, anywhere in the city', p: 'A learner in Salisbury and one in Mount Barker can share a lesson, each from their own room, with no travel at all.' },
       { h3: 'South Australian year levels', p: 'Teachers use the year levels Adelaide schools use and plan around the SA school terms; senior students can link projects to SACE studies. Lessons are in English.' },
       { h3: 'Start with a free lesson', p: 'A proper task with a proper teacher, then a recommended level, course and time. We never ask for card details at this stage.' },
-      { h3: 'Groups matched by level', p: 'Five to ten learners at the same stage, from Adelaide and elsewhere, so most evening times have a group.' },
+      { h3: 'Groups matched by level', p: 'Fifteen to twenty learners at the same stage, from Adelaide and elsewhere, so most evening times have a group.' },
       { h3: 'Two lessons each week', p: 'About eight lessons a month at a fixed time, with holiday and exam breaks planned with the teacher.' },
       { h3: 'Four or five hours to India time', p: 'Adelaide is 4 hours ahead of India time in winter and 5 hours ahead during daylight saving, from 4 October 2026 to 4 April 2027.' }
     ],
@@ -199,7 +199,7 @@ module.exports = {
     h2: 'What classes cost in Adelaide',
     intro: 'Three figures with no extras.',
     first: 'An entire lesson free of charge, ending with a suggested level, course and lesson time.',
-    group: 'A month of lessons, usually eight, in a group of five to ten learners at the same stage.',
+    group: 'A month of lessons, usually eight, in a group of fifteen to twenty learners at the same stage.',
     private: 'The same rhythm of about eight lessons a month, with one teacher for one learner.',
     closer: 'Families outside India pay in US dollars at one rate, so Port Adelaide and Unley pay the same and there is no Adelaide price list. Billing begins only after the trial, once course and time are settled; the pricing page explains holidays, missed lessons and switching between group and private.'
   },
@@ -224,8 +224,8 @@ module.exports = {
       { q: 'What time are lessons for Adelaide learners?', a: 'After school, evenings or weekends, agreed during the trial and always given in Adelaide time. Adelaide is four hours ahead of India time in winter and five hours ahead during daylight saving.' },
       { q: 'Can adults with no coding experience join?', a: 'Yes. Many adults start from nothing with Python before moving into AI and data work. The free lesson finds the right starting point and pace.' },
       { q: 'Is there a Modern Age Coders centre in Adelaide?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Adelaide coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Adelaide coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

@@ -4,7 +4,7 @@ description: "Live online coding, AI, Python and vibe coding lessons for learner
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-clifton-bristol
 source: src/pages/best-coding-and-ai-classes-in-clifton-bristol.html
 ---
-> Clifton is a City of Bristol ward that counted 13,022 usual residents in the 2021 census, and Clifton Down is a ward of its own with 11,420. In the postcodes.io records, Clifton Wood and Hotwells sit in BS8, with Redland and Cotham in BS6. Anyone from six to 67 can study coding, AI, Python, vibe coding and maths here through live video with a tutor in India, either alone or among five to ten classmates at a matching level. We teach how to reason before which tool to reach for, so learners can tell when a confident answer is only one of many guesses. Lesson one costs nothing and ends with a named course. In the Clifton project a particle filter locates a lost walker on a terrain model whose heights run from 5.0 to 116.8 metres. Monthly fees afterwards are USD 100 for a class place or USD 150 for private lessons.
+> Clifton is a City of Bristol ward that counted 13,022 usual residents in the 2021 census, and Clifton Down is a ward of its own with 11,420. In the postcodes.io records, Clifton Wood and Hotwells sit in BS8, with Redland and Cotham in BS6. Anyone from six to 67 can study coding, AI, Python, vibe coding and maths here through live video with a tutor in India, either alone or among fifteen to twenty classmates at a matching level. We teach how to reason before which tool to reach for, so learners can tell when a confident answer is only one of many guesses. Lesson one costs nothing and ends with a named course. In the Clifton project a particle filter locates a lost walker on a terrain model whose heights run from 5.0 to 116.8 metres. Monthly fees afterwards are USD 100 for a class place or USD 150 for private lessons.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Bristol](/best-coding-class-in-bristol) / Clifton
 
@@ -12,11 +12,11 @@ Clifton, Bristol, England / Live online
 
 # Coding and AI classes in Clifton
 
-**Which are the best coding and AI classes in Clifton?** Clifton is a City of Bristol ward that counted 13,022 usual residents in the 2021 census, and Clifton Down is a ward of its own with 11,420. In the postcodes.io records, Clifton Wood and Hotwells sit in BS8, with Redland and Cotham in BS6. Anyone from six to 67 can study coding, AI, Python, vibe coding and maths here through live video with a tutor in India, either alone or among five to ten classmates at a matching level. We teach how to reason before which tool to reach for, so learners can tell when a confident answer is only one of many guesses. Lesson one costs nothing and ends with a named course. In the Clifton project a particle filter locates a lost walker on a terrain model whose heights run from 5.0 to 116.8 metres. Monthly fees afterwards are USD 100 for a class place or USD 150 for private lessons.
+**Which are the best coding and AI classes in Clifton?** Clifton is a City of Bristol ward that counted 13,022 usual residents in the 2021 census, and Clifton Down is a ward of its own with 11,420. In the postcodes.io records, Clifton Wood and Hotwells sit in BS8, with Redland and Cotham in BS6. Anyone from six to 67 can study coding, AI, Python, vibe coding and maths here through live video with a tutor in India, either alone or among fifteen to twenty classmates at a matching level. We teach how to reason before which tool to reach for, so learners can tell when a confident answer is only one of many guesses. Lesson one costs nothing and ends with a named course. In the Clifton project a particle filter locates a lost walker on a terrain model whose heights run from 5.0 to 116.8 metres. Monthly fees afterwards are USD 100 for a class place or USD 150 for private lessons.
 
 Suppose a phone has lost its satellite signal. It still has a compass, a step counter and a barometer that gives height. On flat ground that would be useless for finding yourself. Where the ground varies by more than a hundred metres across the map, every height reading rules out most of it. A particle filter turns that into an algorithm: scatter two thousand guesses across the map, move every guess when the walker moves, and after each altimeter reading keep the guesses whose ground height matches and drop those that do not. Robots localise themselves this way, and the terrain model around Clifton has enough relief to show it working.
 
-Facts last verified 30 September 2026. Teaching is online; no Clifton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Clifton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Thinking, vibe coding, Python and AI agents for Clifton learners
 
@@ -132,7 +132,7 @@ Any laptop or desktop with a webcam will do, given broadband that copes with a v
 - **The learner drives** Code is written on the learner's own screen, shared live, and the tutor's job is to question each step.
 - **Placed by the trial** We set the level from what we see in the free lesson and record any exam board.
 - **Nothing to pay at first** Lesson one is free and finishes with the course we would choose.
-- **Groups of five to ten** One level per group, with classmates from all over the UK.
+- **Groups of fifteen to twenty** One level per group, with classmates from all over the UK.
 - **Two sessions weekly** Paused through school breaks.
 - **A fixed UK time** Our tutors move their clocks when Britain does.
 

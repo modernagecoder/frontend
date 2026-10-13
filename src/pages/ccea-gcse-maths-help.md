@@ -202,14 +202,14 @@ Our teachers are in India, which never changes its clocks, so Northern Ireland i
 - **One clear answer** Abandoned attempts crossed out, so the better work is the one marked.
 - **Instruction words** Estimate, show and explain treated as instructions, never as decoration.
 - **Honest placement** A clear view of whether a pupil is secure on their pathway or ready for the next.
-- **Small groups** Five to ten pupils at one rung, on the same pathway.
+- **Small groups** Fifteen to twenty pupils at one rung, on the same pathway.
 
 ## Fees for CCEA GCSE maths lessons
 
 One monthly fee in US dollars, at the rate all families outside India pay. The first lesson is free; we bill only once a course and a weekly time are in place.
 
 - Free first class: USD 0. A lesson on the pupil's own CCEA units. An honest view of the pathway. A phone number is enough to book.
-- Group batch: USD 100 a month. Five to ten pupils on one pathway. The same teacher through Years 11 and 12. Unit-specific past papers weekly. Lighter weeks around each series.
+- Group batch: USD 100 a month. Fifteen to twenty pupils on one pathway. The same teacher through Years 11 and 12. Unit-specific past papers weekly. Lighter weeks around each series.
 - One to one: USD 150 a month. A teacher for one pupil. Planned around the pupil's units and dates. Suits a pupil hoping to move up a pathway.
 
 ## What families in Northern Ireland ask

@@ -16,7 +16,7 @@ Gorey, County Wexford / Live online
 
 Census 2022 asked every worker in Gorey whether they work from home, and 1,057 said they do, at least some of the time. It is a tidy number, and it answers one question: how many people. It does not answer a second question that matters just as much: how much. The census asked that too, and nationally the answers are striking. Among home-workers who said how many days, the single most common answer is not one day but five. This page puts the two measures side by side, the share of people and the number of days, and shows why a report that gives only one of them can mislead in either direction.
 
-Facts last verified 19 September 2026. Teaching is online; no Gorey branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Gorey branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Good places for Gorey learners to begin
 
@@ -170,7 +170,7 @@ Assistants summarise quickly. Choosing the summary that fits the question is sti
 What to expect.
 
 - **Live teaching** Every lesson is led by a teacher in real time, working from what the learner has built.
-- **Groups by level** Five to ten learners at one stage, from Wexford, the rest of Ireland and abroad.
+- **Groups by level** Fifteen to twenty learners at one stage, from Wexford, the rest of Ireland and abroad.
 - **Usually twice a week** Roughly eight lessons a month, at times agreed before starting.
 - **Planned round school** Mid-terms, holidays and exam weeks are allowed for in the course plan.
 - **Equipment** Computer, not phone: a laptop or desktop with a keyboard, plus a headset or speakers and a microphone, on a connection that can hold live video.
@@ -183,7 +183,7 @@ What to expect.
 The full price list.
 
 - First class: USD 0. A full first lesson with a level assessment, free.
-- Group tuition: USD 100 a month. A month in a group of five to ten at the same stage, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at the same stage, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one teaching at the same weekly rhythm.
 
 A family anywhere outside India pays the same US dollar amount each month. The first lesson is free and carries no obligation; the first charge follows when a course starts, and the pricing page lays out holidays, missed lessons and moving between group and private teaching.
@@ -224,7 +224,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Gorey cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

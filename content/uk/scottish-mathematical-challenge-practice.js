@@ -239,7 +239,7 @@ module.exports = {
     cells: [
       { h3: 'Written work read properly', p: 'A teacher reads what the pupil actually wrote and says where the argument stops being convincing.' },
       { h3: 'Problems written by us', p: 'Fresh problems in the same spirit. The organiser\'s archive is where the real ones live.' },
-      { h3: 'Groups of five to ten', p: 'Small enough that every solution gets read aloud, large enough to hear a better method than your own.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Small enough that every solution gets read aloud, large enough to hear a better method than your own.' },
       { h3: 'Scottish stages used', p: 'P7, S1 to S6, National 5, Higher and Advanced Higher, called by their own names.' },
       { h3: 'One to one when wanted', p: 'For a pupil working well beyond their year, or one who will not speak up in a group.' },
       { h3: 'No result promised', p: 'No certificate, no prize-giving invitation and no mug is promised by us.' }
@@ -254,7 +254,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'One monthly rate in US dollars for every country outside India. No joining fee and no term to commit to.',
     free: ['A proper lesson with a teacher', 'An honest read on where the maths is', 'No card details taken'],
-    group: ['Five to ten pupils at one stage', 'The same teacher weekly', 'Written solutions read and discussed', 'A certificate at the end'],
+    group: ['Fifteen to twenty pupils at one stage', 'The same teacher weekly', 'Written solutions read and discussed', 'A certificate at the end'],
     one: ['One pupil, one teacher', 'Aimed at a particular weakness', 'Useful for a pupil far ahead of their stage']
   },
 

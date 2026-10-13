@@ -225,7 +225,7 @@ module.exports = {
       { h3: 'Trace by hand', p: 'Every program traced on paper before it runs.' },
       { h3: 'Both halves', p: 'Java and machine theory taught in the same course.' },
       { h3: 'Mark a minute', p: 'Practice timed the way the exam is designed.' },
-      { h3: 'Small groups', p: 'Five to ten students at one level, comparing traces.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty students at one level, comparing traces.' },
       { h3: 'One-to-one sessions', p: 'For one area, often logic or two\'s complement.' },
       { h3: 'No predictions', p: 'We never forecast a TASC award; the work belongs to the student.' }
     ]
@@ -239,7 +239,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Lessons are billed monthly in US dollars at a single rate for families outside India. There is no joining fee and no commitment beyond the month in progress.',
     free: ['A full computer science lesson with a tutor', 'A clear plan for the weakest area', 'No card details'],
-    group: ['Five to ten students at one level', 'One tutor all term', 'Traces and code reviewed in class', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'One tutor all term', 'Traces and code reviewed in class', 'A certificate at the end'],
     one: ['A tutor for one student', 'Built around one area of the course', 'Useful in the weeks before November']
   },
 

@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Loughborough',
   capsuleQ: 'Where should Loughborough learners look for the best coding and AI classes?',
-  capsule: 'Charnwood borough, home to Loughborough, had 183,968 residents in the 2021 census, and the Loughborough built-up area 64,860. Students shape it: 20 to 24 year olds are 8.7 per cent of the borough against 6.0 per cent in England, and 15 to 19 year olds 7.5 against 5.7. For every age from 6 to 67 we teach coding, AI, Python and maths in live lessons over video, with our teachers in India working one-to-one or with five to ten learners at a common level. Your first lesson costs nothing and decides the course. The Loughborough project asks a question about the River Soar that has several honest answers. After the trial, group places cost USD 100 a month and private lessons USD 150 a month.',
+  capsule: 'Charnwood borough, home to Loughborough, had 183,968 residents in the 2021 census, and the Loughborough built-up area 64,860. Students shape it: 20 to 24 year olds are 8.7 per cent of the borough against 6.0 per cent in England, and 15 to 19 year olds 7.5 against 5.7. For every age from 6 to 67 we teach coding, AI, Python and maths in live lessons over video, with our teachers in India working one-to-one or with fifteen to twenty learners at a common level. Your first lesson costs nothing and decides the course. The Loughborough project asks a question about the River Soar that has several honest answers. After the trial, group places cost USD 100 a month and private lessons USD 150 a month.',
   lead: 'The Environment Agency has measured the River Soar at Pillings Lock, in Charnwood, every day since 1986, using an ultrasonic gauge set in the Soar Navigation. The National River Flow Archive says the river runs above 21.8 cubic metres per second on only one day in ten. So how many high-flow episodes did the Soar have between 1991 and 2025? It sounds like a question with one answer. It is not. Count every crossing of the line and you get 334; merge crossings that are less than a month apart and you get 88. Both are honest. A Loughborough learner can write the Python that shows why, and meet an idea programmers call debouncing on the way.',
   wa: 'Hello Modern Age Coders, I would like a free coding or AI lesson for a learner in Loughborough.',
 
@@ -164,7 +164,7 @@ module.exports = {
       { h3: 'Code by the learner', p: 'Learners write every line; the tutor watches the screen share and guides with questions.' },
       { h3: 'Matched to school year', p: 'From Year 2 to Year 13, each learner starts at the point their year and trial suggest, using their exam board.' },
       { h3: 'Trial lesson free', p: 'A full first lesson without charge, and a frank recommendation.' },
-      { h3: 'Classes at one level', p: 'Groups of five to ten learners at the same stage, from across the UK.' },
+      { h3: 'Classes at one level', p: 'Groups of fifteen to twenty learners at the same stage, from across the UK.' },
       { h3: 'Two a week', p: 'Two lessons weekly in term, and none in the holidays.' },
       { h3: 'Unmoved by clock changes', p: 'Our teachers shift when UK clocks go forward or back, so your slot does not.' }
     ],

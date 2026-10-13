@@ -4,7 +4,7 @@ description: "Online maths tuition in Slough for ages 6 to 67: KS2 and SATs, 11 
 canonical: https://learn.modernagecoders.com/maths-tuition-in-slough
 source: src/pages/maths-tuition-in-slough.html
 ---
-> Modern Age Coders gives live online maths lessons to Slough learners between 6 and 67. Children start with number, times tables and the Year 6 SATs; some go on to 11 plus maths; older pupils move through KS3 into GCSE at Foundation or Higher tier for AQA, Edexcel or OCR, or IGCSE; sixth formers take A level Maths and, if they want, Further Maths topics; and adults come for GCSE maths resits and everyday confidence. Teaching is private or in classes of five to ten at one level. Our Slough project builds ratios from the census: 35.2 children and 14.5 people aged 65 or over for every 100 aged 15 to 64. Lesson one is free. From then on a class seat costs USD 100 per month and a private teacher USD 150 per month.
+> Modern Age Coders gives live online maths lessons to Slough learners between 6 and 67. Children start with number, times tables and the Year 6 SATs; some go on to 11 plus maths; older pupils move through KS3 into GCSE at Foundation or Higher tier for AQA, Edexcel or OCR, or IGCSE; sixth formers take A level Maths and, if they want, Further Maths topics; and adults come for GCSE maths resits and everyday confidence. Teaching is private or in classes of fifteen to twenty at one level. Our Slough project builds ratios from the census: 35.2 children and 14.5 people aged 65 or over for every 100 aged 15 to 64. Lesson one is free. From then on a class seat costs USD 100 per month and a private teacher USD 150 per month.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Slough
 
@@ -14,7 +14,7 @@ Slough · Maths lessons for ages 6 to 67 · Taught live by video
 
 Here is a ratio a Year 9 pupil can work out from public data in ten minutes. In the 2021 census Slough had 105,895 residents aged 15 to 64, 37,285 under 15 and 15,320 aged 65 or over. For every 100 people of working age, then, there were 35.2 children and 14.5 older people. Across England the same two figures were 27.1 and 28.7. Slough has far more children for its size and far fewer pensioners, and the ratio says so in one line. This page explains how we teach maths to Slough learners, from times tables and the 11 plus to A level, and why ratio and proportion sit at the heart of so much of it.
 
-At a glance: For: Learners aged 6 to 67 in Slough; Primary: KS2, times tables, Year 6 SATs; Selective: 11 plus maths preparation; Secondary: KS3, GCSE Foundation and Higher; Sixth form: A level, with Further Maths topics; Adults: Resits, refreshers, work maths; Lessons: Live online, private or 5 to 10 per class; Project: Census ratios and proportion. Rated 4.9 across 547 Google reviews.
+At a glance: For: Learners aged 6 to 67 in Slough; Primary: KS2, times tables, Year 6 SATs; Selective: 11 plus maths preparation; Secondary: KS3, GCSE Foundation and Higher; Sixth form: A level, with Further Maths topics; Adults: Resits, refreshers, work maths; Lessons: Live online, private or 15 to 20 per class; Project: Census ratios and proportion. Rated 4.9 across 547 Google reviews.
 
 ## 11 plus, GCSE and A level maths
 
@@ -226,7 +226,7 @@ Teachers work from India, five and a half hours ahead of Slough in winter and fo
 
 - **Continuity** Your teacher stays the same, so nothing has to be explained twice.
 - **Parents kept informed** A brief note after lessons on what went well and what comes next.
-- **Small, matched classes** Five to ten learners, all at a similar point.
+- **Small, matched classes** Fifteen to twenty learners, all at a similar point.
 - **Local numbers** Census tables and other real data, not only textbook exercises.
 - **Private option** One to one for a near exam or a stubborn topic.
 - **Understanding first** We show why a method works before practising it.
@@ -236,7 +236,7 @@ Teachers work from India, five and a half hours ahead of Slough in winter and fo
 We bill monthly in US dollars, one price for all countries except India. No sign-up fee, no fixed term.
 
 - Free first class: USD 0. A proper lesson pitched at the right level. An honest summary afterwards. No card asked for.
-- Group batch: USD 100 a month. A class of five to ten at one level. A regular teacher. Homework checked and explained. Certificate on finishing.
+- Group batch: USD 100 a month. A class of fifteen to twenty at one level. A regular teacher. Homework checked and explained. Certificate on finishing.
 - One to one: USD 150 a month. Private lessons with one teacher. Tailored to one learner. Good for the weeks before an exam.
 
 ## Questions about maths tuition in Slough

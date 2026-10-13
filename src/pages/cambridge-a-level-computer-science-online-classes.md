@@ -20,7 +20,7 @@ The course
 
 One course, two formats, both live. The batch runs a shared schedule through AS and then A2; one to one is paced to whichever series the student is entered for and rebuilt around the weaker paper.
 
-| How it runs | Batch of five to eight | One to one |
+| How it runs | Batch of fifteen to twenty | One to one |
 | --- | --- | --- |
 | Route supported | AS then A2, staged | Staged or all four in one series |
 | Live classes each week | Two, fixed slot | Two, slot agreed with you |
@@ -35,7 +35,7 @@ One course, two formats, both live. The batch runs a shared schedule through AS 
 
 The short answer
 
-Cambridge International AS and A Level Computer Science 9618 is examined through four papers of 75 marks each. Paper 1 is Theory Fundamentals, covering syllabus sections 1 to 8. Paper 2 is Fundamental Problem-solving and Programming Skills, sections 9 to 12, and the syllabus states candidates will not be required to write programming code, providing an Insert of pseudocode built-in functions instead. Paper 3 is Advanced Theory, sections 13 to 20. Paper 4 is Practical, assessing sections 19 to 20 through scenarios, with program code and evidence of testing submitted. AS candidates take Papers 1 and 2; A Level candidates take all four. Modern Age Coders teaches it live online, one to one or in batches of five to eight, from USD 100 a month, first class free.
+Cambridge International AS and A Level Computer Science 9618 is examined through four papers of 75 marks each. Paper 1 is Theory Fundamentals, covering syllabus sections 1 to 8. Paper 2 is Fundamental Problem-solving and Programming Skills, sections 9 to 12, and the syllabus states candidates will not be required to write programming code, providing an Insert of pseudocode built-in functions instead. Paper 3 is Advanced Theory, sections 13 to 20. Paper 4 is Practical, assessing sections 19 to 20 through scenarios, with program code and evidence of testing submitted. AS candidates take Papers 1 and 2; A Level candidates take all four. Modern Age Coders teaches it live online, one to one or in batches of fifteen to twenty, from USD 100 a month, first class free.
 
 Module by module
 
@@ -189,7 +189,7 @@ The course, phase by phase
 
 ## How we sequence Cambridge 9618 across AS and A2
 
-Two live classes a week, one to one or in a batch of five to eight, with past papers marked against the real Cambridge mark scheme.
+Two live classes a week, one to one or in a batch of fifteen to twenty, with past papers marked against the real Cambridge mark scheme.
 
 1. #### AS term 1: theory fundamentals, sections 1 to 8
 
@@ -417,7 +417,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Past-paper work between classes, marked by the teacher
 - Certificate on completion
@@ -512,7 +512,7 @@ Yes, and it is stated in the syllabus. Candidates will not be required to write 
 
 ### How much do the classes cost?
 
-A batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, and the figures are identical in every country we teach outside India. No enrolment fee, no minimum term, and the first class is free without a card.
+A batch of fifteen to twenty students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, and the figures are identical in every country we teach outside India. No enrolment fee, no minimum term, and the first class is free without a card.
 
 ### Which language should we choose for Paper 4?
 
@@ -532,7 +532,7 @@ We teach, question and review. We do not write code that will be submitted as a 
 
 ### Are the classes live?
 
-Every class is live, one to one or in a batch of five to eight, taught from India to students worldwide. We do not sell recordings in place of classes, because a recording cannot watch a student write real syntax into a Paper 2 answer and stop them.
+Every class is live, one to one or in a batch of fifteen to twenty, taught from India to students worldwide. We do not sell recordings in place of classes, because a recording cannot watch a student write real syntax into a Paper 2 answer and stop them.
 
 ### What if my child is coming from a UK GCSE rather than an IGCSE?
 
@@ -580,7 +580,7 @@ Rather read first? [The full course syllabus](/courses/cambridge-a-level-compute
 
 [WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20Cambridge%20AS%20and%20A%20Level%20Computer%20Science%209618%20classes.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
-Every class is live, one to one or a batch of five to eight, taught from India at a time arranged with you. We never sell a recording in place of a class. The form starts a conversation, not an enrolment.
+Every class is live, one to one or a batch of fifteen to twenty, taught from India at a time arranged with you. We never sell a recording in place of a class. The form starts a conversation, not an enrolment.
 
 ## Keep exploring Modern Age Coders
 

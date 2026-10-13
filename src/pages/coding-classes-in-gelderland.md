@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across Gelderland, ages 
 canonical: https://learn.modernagecoders.com/coding-classes-in-gelderland
 source: src/pages/coding-classes-in-gelderland.html
 ---
-> Coding classes in Gelderland serve 2,173,348 people in 51 municipalities across the largest province in the country by land, 4,960 square kilometres (Statistics Netherlands, 1 January 2026), where Nijmegen, Arnhem and Apeldoorn are within 20,000 of one another at the top and Rozendaal has 1,837 people at the bottom. The province is split between two school-holiday regions along a line between Apeldoorn and Arnhem, so a family in Ede and a family in Nijmegen do not have the same summer. Modern Age Coders teaches all 51 municipalities the same live online class, in English, for ages 6 to 67, with the first lesson free and then USD 100 a month for a group of five to ten or USD 150 for one-to-one tuition.
+> Coding classes in Gelderland serve 2,173,348 people in 51 municipalities across the largest province in the country by land, 4,960 square kilometres (Statistics Netherlands, 1 January 2026), where Nijmegen, Arnhem and Apeldoorn are within 20,000 of one another at the top and Rozendaal has 1,837 people at the bottom. The province is split between two school-holiday regions along a line between Apeldoorn and Arnhem, so a family in Ede and a family in Nijmegen do not have the same summer. Modern Age Coders teaches all 51 municipalities the same live online class, in English, for ages 6 to 67, with the first lesson free and then USD 100 a month for a group of fifteen to twenty or USD 150 for one-to-one tuition.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Gelderland
 
@@ -12,11 +12,11 @@ Province of Gelderland / Live online
 
 # Coding classes in Gelderland, the province that goes on summer holiday in two different fortnights
 
-**What are the best coding classes in Gelderland?** Coding classes in Gelderland serve 2,173,348 people in 51 municipalities across the largest province in the country by land, 4,960 square kilometres (Statistics Netherlands, 1 January 2026), where Nijmegen, Arnhem and Apeldoorn are within 20,000 of one another at the top and Rozendaal has 1,837 people at the bottom. The province is split between two school-holiday regions along a line between Apeldoorn and Arnhem, so a family in Ede and a family in Nijmegen do not have the same summer. Modern Age Coders teaches all 51 municipalities the same live online class, in English, for ages 6 to 67, with the first lesson free and then USD 100 a month for a group of five to ten or USD 150 for one-to-one tuition.
+**What are the best coding classes in Gelderland?** Coding classes in Gelderland serve 2,173,348 people in 51 municipalities across the largest province in the country by land, 4,960 square kilometres (Statistics Netherlands, 1 January 2026), where Nijmegen, Arnhem and Apeldoorn are within 20,000 of one another at the top and Rozendaal has 1,837 people at the bottom. The province is split between two school-holiday regions along a line between Apeldoorn and Arnhem, so a family in Ede and a family in Nijmegen do not have the same summer. Modern Age Coders teaches all 51 municipalities the same live online class, in English, for ages 6 to 67, with the first lesson free and then USD 100 a month for a group of fifteen to twenty or USD 150 for one-to-one tuition.
 
 Ask what week Gelderland breaks up for the summer and there is no answer, because the province does not break up: its northern half does on one date and its southern half on another, and in Montferland and Neder-Betuwe the line runs through the municipality itself. A child who can show why the average of those two dates is a week nobody has learned something that applies to every figure ever reported for a group.
 
-Facts last verified 7 September 2026. Teaching is online; no Gelderland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Gelderland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a province of river towns, a forest and a border
 
@@ -208,7 +208,7 @@ From Winterswijk the nearest large city is over the German border. From Nunspeet
 The tariff in full, ahead of any request for a number.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One dollar rate everywhere outside India, no euro version, Rozendaal charged exactly as Nijmegen. The course and the hour are settled in the free lesson; payment comes afterwards, over WhatsApp. Pauses, plan changes and missed lessons are on the pricing page.
@@ -249,7 +249,7 @@ No, and none is claimed in Arnhem, in Nijmegen or anywhere in the Netherlands. L
 
 ### What do Gelderland coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Gelderland group?
 

@@ -63,7 +63,7 @@ module.exports = {
 
   h1: 'Coding classes in Dundee',
   capsuleQ: 'What are the best coding classes in Dundee?',
-  capsule: 'Scotland\'s Census 2022 put about 148,100 usual residents in Dundee City, with 67.1% of them aged 15 to 64 against 64.6% across Scotland. The research ship Discovery, built in the city, carried the British National Antarctic Expedition of 1901 to 1904 and came home to Dundee in 1986. Our Dundee learners, aged anywhere from six to sixty-seven, study with us over live video: one to one, or in a group of five to ten set by level, with teachers in India working to UK times. A first lesson is free, and after that a group place is USD 100 a month while one-to-one teaching is USD 150.',
+  capsule: 'Scotland\'s Census 2022 put about 148,100 usual residents in Dundee City, with 67.1% of them aged 15 to 64 against 64.6% across Scotland. The research ship Discovery, built in the city, carried the British National Antarctic Expedition of 1901 to 1904 and came home to Dundee in 1986. Our Dundee learners, aged anywhere from six to sixty-seven, study with us over live video: one to one, or in a group of fifteen to twenty set by level, with teachers in India working to UK times. A first lesson is free, and after that a group place is USD 100 a month while one-to-one teaching is USD 150.',
   lead: 'The Met Office station at Leuchars, just across the Firth of Tay, has recorded every month since January 1957. Suppose a program has to forecast next month\'s average daytime high. The lazy guess, that next month will be like this one, misses by 2.296 degrees on average over 2000 to 2025. The long-run average for that calendar month misses by 1.113. Add a fifth of last month\'s departure from normal and the error falls to 1.009. Tune that fraction by peeking at the years being tested and it seems to fall to 0.969, but that number is a cheat, and so is any average that quietly includes the future. Our teenagers learn to build a forecast and, more importantly, to test it fairly.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Dundee.',
 
@@ -203,7 +203,7 @@ module.exports = {
     h2: 'Dundee lesson fees',
     intro: 'Start with a free lesson; after that, one monthly fee.',
     first: 'A complete lesson with nothing to pay, closing with a suggested level, course and weekly slot.',
-    group: 'Close to eight live lessons a month, shared with five to ten learners at the same stage.',
+    group: 'Close to eight live lessons a month, shared with fifteen to twenty learners at the same stage.',
     private: 'Close to eight live lessons a month, taught to your learner on their own.',
     closer: 'Outside India the fee is the same for everyone and set in US dollars, so Douglas and the West End pay alike, and no prices appear in pounds. Billing starts only once the free lesson has fixed a course and a time; pausing, missed lessons and switching between group and private teaching are explained on the pricing page.'
   },
@@ -228,8 +228,8 @@ module.exports = {
       { q: 'What was RRS Discovery?', a: 'A ship built in Dundee that Dundee Heritage Trust describes as the first British commissioned scientific research ship. She carried the 1901 to 1904 British National Antarctic Expedition and returned to Dundee in 1986. We are not connected with the Trust.' },
       { q: 'At what times are Dundee lessons?', a: 'After school or in the evening on weekdays, or at weekends, at a UK time we settle in the free lesson. India is four and a half hours ahead of Dundee in summer and five and a half in winter.' },
       { q: 'Is there a Modern Age Coders centre in Dundee?', a: 'No. We have no Dundee centre and no premises anywhere in the UK; every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do Dundee lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
-      { q: 'How are Dundee groups arranged?', a: 'By level, pace and aims rather than age or postcode, with five to ten learners at one stage. If no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do Dundee lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
+      { q: 'How are Dundee groups arranged?', a: 'By level, pace and aims rather than age or postcode, with fifteen to twenty learners at one stage. If no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

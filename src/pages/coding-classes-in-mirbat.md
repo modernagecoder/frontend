@@ -179,7 +179,7 @@ A working morning that starts at three does not leave the same free hours as an 
 
 A real class with a real task, finishing with a specific recommendation. No card is asked for to arrange it, and nothing is committed to until a teacher has been watched working.
 
-### Five to eight per group, matched on level
+### Fifteen to twenty per group, matched on level
 
 What a learner can do and where they are going decides the group. The town they live in does not, which is what a fixed classroom can never promise.
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Mirbat learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Mirbat class times arranged?
 

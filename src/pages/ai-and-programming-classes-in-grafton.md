@@ -16,7 +16,7 @@ Grafton, New South Wales, Australia / Live online
 
 Some AI systems are now trained without collecting everyone's data in one place. Each device or site trains a copy of the model on its own data, and only the model's numbers travel to be averaged. That is federated learning, and its hardest case is when every participant sees a different kind of data. Grafton gives a clean example. We took the state's address points on both sides of the Clarence and gave one imaginary client only the Grafton points on the north bank, and the other only the South Grafton points. Neither can learn the river alone: their models are right 65.8% and 47.7% of the time. Averaged together round by round, they match a model trained on all the data at once, with one mistake in 1,911 test points.
 
-Facts last verified 10 October 2026. Teaching is online; no Grafton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Grafton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI courses for the Clarence Valley
 
@@ -181,7 +181,7 @@ Every class is a live video lesson, so learners on both sides of the river join 
 - **Getting set up** Learners need only a laptop or desktop, a headset or built-in mic, and internet that copes with video.
 - **NSW year levels** Teachers plan around New South Wales year levels and term dates, teaching in English.
 - **Free trial class** The first lesson is a full class and ends with a recommended course and time.
-- **Groups of a level** Each group has five to ten learners at the same level, from Grafton and elsewhere.
+- **Groups of a level** Each group has fifteen to twenty learners at the same level, from Grafton and elsewhere.
 - **Twice a week** Groups meet on two set days weekly, close to eight lessons a month.
 - **India-based teachers** Our teachers work in India, and every lesson is booked in Grafton time.
 
@@ -192,7 +192,7 @@ Every class is a live video lesson, so learners on both sides of the river join 
 Pricing is simple and the same throughout Australia.
 
 - First class: USD 0. The first class is free, finishing with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. A month of group classes, close to eight, with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group classes, close to eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Close to eight private lessons a month with your own teacher.
 
 Outside India, fees are charged in US dollars, and Grafton pays what all of Australia pays. Nothing is billed until the trial settles what to study and when; holidays, absences and switching formats are all covered on our pricing page.
@@ -233,7 +233,7 @@ No. We have no premises in Australia and claim none. All classes are live online
 
 ### What do Grafton AI classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one-to-one. All of it is agreed before payment.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one-to-one. All of it is agreed before payment.
 
 ### How many learners share a group?
 

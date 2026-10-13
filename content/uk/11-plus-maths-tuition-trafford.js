@@ -267,7 +267,7 @@ module.exports = {
     cells: [
       { h3: 'A teacher who stays', p: 'The same person each week knows which slips your child makes.' },
       { h3: 'Straight feedback', p: 'A brief, candid note after lessons: progress and problems both.' },
-      { h3: 'Small matched groups', p: 'Five to ten children at one level, so nobody coasts or drowns.' },
+      { h3: 'Small matched groups', p: 'Fifteen to twenty children at one level, so nobody coasts or drowns.' },
       { h3: 'Original practice', p: 'Our own questions and real data sets, never copied test material.' },
       { h3: 'Individual option', p: 'One to one lessons for a particular gap or a quieter child.' },
       { h3: 'Maths is our lane', p: 'No reasoning coaching and no views on school choice or allocation.' }
@@ -282,7 +282,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Charged monthly in US dollars, as for all families outside India. Cancel whenever you like; there is nothing to sign up to.',
     free: ['A proper lesson, not a pitch', 'A candid view of where things stand', 'No payment details taken'],
-    group: ['Five to ten pupils at the same level', 'A regular teacher', 'Homework checked together', 'A certificate when the course ends'],
+    group: ['Fifteen to twenty pupils at the same level', 'A regular teacher', 'Homework checked together', 'A certificate when the course ends'],
     one: ['Just your child and a teacher', 'Built around what needs fixing', 'Helpful in the run-up to September']
   },
 

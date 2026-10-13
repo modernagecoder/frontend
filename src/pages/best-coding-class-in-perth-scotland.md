@@ -16,7 +16,7 @@ Perth, Scotland / Live online
 
 Walter Scott set The Fair Maid of Perth in the city, and wrote that Perth was "so eminent for the beauty of its situation". His novel is full of names: Catharine, Henry, Simon, the apothecary Henbane Dwining. Our Perth project asks whether a computer can recognise those names when they are spelt differently, using Soundex, a code that turns a name into a letter and three digits by how it sounds. Teenagers build Soundex from the US National Archives' rules, test it on the Archives' own examples, then run it over the whole book. It correctly pairs Johnston with Johnstone, but it also files Dwining with Dominican, and John with Joan.
 
-Facts last verified 23 September 2026. Teaching is online; no Perth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Perth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the city on the Tay
 
@@ -170,7 +170,7 @@ Perth learners live on both banks of the Tay and in villages across a council ar
 - **Both banks of the Tay** A learner in Muirton and another in Kinfauns can sit in the same class without either crossing the river.
 - **In step with Scottish schools** Placement follows the Scottish stages, primary to S6 with National 5, Higher and Advanced Higher along the way; lessons themselves are in English.
 - **The opening lesson** No slides and no sales pitch: the learner writes real code, and the teacher then proposes a level, a course and a regular weekly time. We never take card details.
-- **Level, not age** Five to ten learners at one level, drawn from Perth, the rest of the UK and further afield, keeping good times open at each stage.
+- **Level, not age** Fifteen to twenty learners at one level, drawn from Perth, the rest of the UK and further afield, keeping good times open at each stage.
 - **A twice-weekly rhythm** Two set lessons every week, about eight a month, with holidays and exam study worked out with the teacher ahead of time.
 - **Late evenings in India** India stays on one time zone all year, so a class at five in the afternoon in Perth begins at half past nine at night for our teachers in summer, and half past ten in winter.
 
@@ -181,7 +181,7 @@ Perth learners live on both banks of the Tay and in villages across a council ar
 No charge for the first lesson, and a single monthly fee after that.
 
 - First class: USD 0. A full lesson free of charge, closing with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. Roughly eight live lessons a month, in a class of five to ten learners at the same stage.
+- Group tuition: USD 100 a month. Roughly eight live lessons a month, in a class of fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. Roughly eight live lessons a month, the teacher working with your learner alone.
 
 Families in Gannochy or Moncreiffe are billed in US dollars, like everyone outside India, and our site never quotes pound prices. Billing starts only after the free lesson, when a course and a weekly time have been agreed with us; the pricing page explains pausing, missed lessons and changing between group and private teaching.
@@ -222,11 +222,11 @@ No. We have no Perth centre and no premises anywhere in the UK, since every less
 
 ### What do Perth lessons cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are learners grouped?
 
-By level, pace and goals rather than by age or where they live, with five to ten learners at the same stage. When no group suits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than by age or where they live, with fifteen to twenty learners at the same stage. When no group suits the learner's week, we offer one-to-one lessons.
 
 ## Scotland and beyond
 

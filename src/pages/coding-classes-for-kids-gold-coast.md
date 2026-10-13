@@ -16,7 +16,7 @@ Gold Coast, Queensland, Australia / Live online
 
 Ride the G:link from Helensvale to Burleigh Heads and some stops arrive almost at once while others take a while. Children notice; a stem-and-leaf plot proves it. We measured the straight-line gap between each pair of neighbouring stops in OpenStreetMap, 26 gaps in all, and our young Gold Coast coders sort them into a plot that shows every number and the shape of the whole set at once. Most gaps sit between 400 and 1,000 metres. One stretches past 3 kilometres, and that single long gap is enough to pull the average well above the middle value.
 
-Facts last verified 7 October 2026. Teaching is online; no Gold Coast branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Gold Coast branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Starting points for a Gold Coast child
 
@@ -185,7 +185,7 @@ The Gold Coast runs a long way along the coast, and an online lesson keeps the a
 - **Equipment** A laptop or desktop with sound is ideal; for the very first lesson a parent nearby helps a young child settle.
 - **Queensland year names** Teachers use the words Gold Coast children hear at school, starting with Prep.
 - **A free first lesson** Your child completes a small project, then we suggest a course and a regular time. No card is needed.
-- **Small groups or one to one** Groups of five to ten children ready for the same next step, or private lessons if you prefer.
+- **Small groups or one to one** Groups of fifteen to twenty children ready for the same next step, or private lessons if you prefer.
 - **Around eight lessons a month** Usually two a week at the same time, so coding becomes a steady habit.
 - **Teachers on India time** A 4pm lesson on the coast is 11:30am for our teachers in India, and that gap never moves.
 
@@ -196,7 +196,7 @@ The Gold Coast runs a long way along the coast, and an online lesson keeps the a
 Three prices, clearly stated.
 
 - First class: USD 0. A free first lesson that ends with a level, a course and a time.
-- Group tuition: USD 100 a month. About eight lessons a month with five to ten children working at the same level.
+- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty children working at the same level.
 - Private tuition: USD 150 a month. About eight lessons a month, one teacher, one child.
 
 Families outside India pay in US dollars at one rate, from the northern suburbs to the southern beaches. There is no bill until after the trial, once you are happy with the course and time; holidays, missed lessons and switching between group and private are set out on the pricing page.
@@ -237,11 +237,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do coding classes for Gold Coast kids cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Gold Coast families
 

@@ -89,7 +89,7 @@ const WinterCampEnrollment = {
             theme: 'winter',
             courseName: this.courseName,
             planName: 'Group camp · 16 live sessions',
-            planInfo: 'Small batch, at most 8 learners',
+            planInfo: 'Small batch, at most 20 learners',
             price: this.getPriceDisplay(),
             pricePer: 'one-time fee',
             isIndian: this.isIndian(),

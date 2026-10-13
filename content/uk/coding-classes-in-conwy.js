@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in Conwy county borough',
   capsuleQ: 'What are the best coding classes in Conwy?',
-  capsule: 'Conwy county borough had 114,741 usual residents at the 2021 census. Colwyn Bay is its largest built-up area, then Conwy and Llandudno, with Kinmel Bay, Abergele, Penrhyn Bay and Llanfairfechan among the rest, and towns such as Llanrwst and Betws-y-Coed. Lessons run live over video with our teachers in India, and a free first session finds each learner\'s level, from a Year 1 pupil to a Year 13 student or an adult. Coding, Python and maths are open to anyone between 6 and 67, in classes of five to ten or one-to-one. The Conwy project starts at Robert Stephenson\'s tubular railway bridge. Families who continue pay USD 100 monthly for group lessons or USD 150 monthly for a personal tutor.',
+  capsule: 'Conwy county borough had 114,741 usual residents at the 2021 census. Colwyn Bay is its largest built-up area, then Conwy and Llandudno, with Kinmel Bay, Abergele, Penrhyn Bay and Llanfairfechan among the rest, and towns such as Llanrwst and Betws-y-Coed. Lessons run live over video with our teachers in India, and a free first session finds each learner\'s level, from a Year 1 pupil to a Year 13 student or an adult. Coding, Python and maths are open to anyone between 6 and 67, in classes of fifteen to twenty or one-to-one. The Conwy project starts at Robert Stephenson\'s tubular railway bridge. Families who continue pay USD 100 monthly for group lessons or USD 150 monthly for a personal tutor.',
   lead: 'In Conwy, Cadw lists the Tubular Railway Bridge at Grade I. Built from 1846 to 1849 by Robert Stephenson with William Fairbairn and E. Hodgkinson, it carries the railway inside wrought-iron tubes, and the record says it pioneered box-girder construction, like the Britannia Bridge across the Menai Strait. It was first meant to be a suspension bridge, and in 1899 intermediate piers were added. Two questions follow for anyone who likes numbers. Why would engineers wrap a railway in a hollow box rather than lay it on solid bars? And why would one extra support in the middle matter so much? This page\'s project answers both in Python with invented sizes.',
   wa: 'Hello Modern Age Coders, we are in Conwy county borough and would like to book a free lesson, please.',
 
@@ -157,7 +157,7 @@ module.exports = {
       { h3: 'Writing, not watching', p: 'The learner builds each program; the teacher reads along on the shared screen and asks the question that moves things on.' },
       { h3: 'Welsh years, WJEC courses', p: 'A Penmaenmawr Year 6 or a Colwyn Bay Year 11 is placed by year and the Curriculum for Wales, with WJEC names for exams. We teach in English.' },
       { h3: 'A free first session', p: 'One whole lesson for nothing, then honest advice.' },
-      { h3: 'Level first, then the group', p: 'Each class gathers five to ten learners with matching skills, whatever town or country they log in from.' },
+      { h3: 'Level first, then the group', p: 'Each class gathers fifteen to twenty learners with matching skills, whatever town or country they log in from.' },
       { h3: 'Term-time lessons', p: 'Twice a week in term, with the holidays free.' },
       { h3: 'Clock changes, sorted', p: 'Whatever the British clocks do in March and October, your lesson stays at its UK hour.' }
     ],
@@ -168,7 +168,7 @@ module.exports = {
     h2: 'Fees in Conwy county borough',
     intro: 'Colwyn Bay or Betws-y-Coed, the fee is identical, the same as everywhere we teach outside India.',
     first: 'A complete free lesson, then our recommendation.',
-    group: 'About eight lessons a month in a group of five to ten.',
+    group: 'About eight lessons a month in a group of fifteen to twenty.',
     private: 'About eight lessons a month, one-to-one.',
     closer: 'Fees are charged in US dollars; there is no sterling list. Nothing is charged until the trial has fixed a course and weekly slot; for holidays, absences and moving between formats, see the pricing page.'
   },

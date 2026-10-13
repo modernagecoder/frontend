@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes for families in Swords, 
 canonical: https://learn.modernagecoders.com/best-coding-class-in-swords
 source: src/pages/best-coding-class-in-swords.html
 ---
-> Swords is the county town of Fingal, with 40,458 usual residents in the census town tables, 13,643 households and 3,169 students aged fifteen and over. Two of its secondary schools, Loreto College and St Finian's Community College, were among the forty that began Leaving Certificate Computer Science in 2018. For families here, Modern Age Coders is a live alternative that needs no drive into the city: two video lessons in a normal week with a real teacher, a group of five to ten at the learner's level or a private place, for any age from six to sixty-seven. The first lesson is free of charge; after that it is USD 100 monthly in a group and USD 150 for one to one.
+> Swords is the county town of Fingal, with 40,458 usual residents in the census town tables, 13,643 households and 3,169 students aged fifteen and over. Two of its secondary schools, Loreto College and St Finian's Community College, were among the forty that began Leaving Certificate Computer Science in 2018. For families here, Modern Age Coders is a live alternative that needs no drive into the city: two video lessons in a normal week with a real teacher, a group of fifteen to twenty at the learner's level or a private place, for any age from six to sixty-seven. The first lesson is free of charge; after that it is USD 100 monthly in a group and USD 150 for one to one.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [Fingal](/coding-classes-in-fingal) / Swords
 
@@ -12,11 +12,11 @@ Swords, Fingal, County Dublin / Live online
 
 # Coding classes in Swords
 
-**What is the best coding class in Swords?** Swords is the county town of Fingal, with 40,458 usual residents in the census town tables, 13,643 households and 3,169 students aged fifteen and over. Two of its secondary schools, Loreto College and St Finian's Community College, were among the forty that began Leaving Certificate Computer Science in 2018. For families here, Modern Age Coders is a live alternative that needs no drive into the city: two video lessons in a normal week with a real teacher, a group of five to ten at the learner's level or a private place, for any age from six to sixty-seven. The first lesson is free of charge; after that it is USD 100 monthly in a group and USD 150 for one to one.
+**What is the best coding class in Swords?** Swords is the county town of Fingal, with 40,458 usual residents in the census town tables, 13,643 households and 3,169 students aged fifteen and over. Two of its secondary schools, Loreto College and St Finian's Community College, were among the forty that began Leaving Certificate Computer Science in 2018. For families here, Modern Age Coders is a live alternative that needs no drive into the city: two video lessons in a normal week with a real teacher, a group of fifteen to twenty at the learner's level or a private place, for any age from six to sixty-seven. The first lesson is free of charge; after that it is USD 100 monthly in a group and USD 150 for one to one.
 
 Open any of the census tables published for Irish towns and you will find Swords, and at the bottom of the list a row called State. It is tempting to compare the two, and most people would. But that row is not the State. Add up all 867 towns in the table and you get exactly the number in it: 3,582,870 usual residents, about 70.5% of the 5,084,879 people who live in Ireland. The other million and a half live outside any town and are not in it at all. So Swords compared with that row is Swords compared with all towns combined, and the gap looks smaller than the gap between Swords and the country. On broadband it is 7.4 points against 10.3. A label saved somebody a few characters and quietly changed every comparison built on it.
 
-Facts last verified 17 September 2026. Teaching is online; no Swords branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 17 September 2026. Teaching is online; no Swords branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where a Swords learner can start
 
@@ -167,7 +167,7 @@ The machines will keep reading labels at face value. People who look underneath 
 No drive into the city and no bus timetable to plan around.
 
 - **Live teaching** Each lesson has a teacher present throughout, asking and answering, with the learner expected to take part.
-- **Level, not postcode** Groups of five to ten are formed by ability, drawing on Swords, the rest of Ireland and other countries.
+- **Level, not postcode** Groups of fifteen to twenty are formed by ability, drawing on Swords, the rest of Ireland and other countries.
 - **Two a week, usually** About eight lessons a month at an hour agreed once, around school and exams.
 - **Irish school stages** From primary through Junior Cycle, Transition Year and the Leaving Certificate years.
 - **What the learner needs** A laptop or desktop, working sound and a connection that carries video, which almost nine in ten Swords households have on broadband.
@@ -180,7 +180,7 @@ No drive into the city and no bus timetable to plan around.
 Three prices, no extras.
 
 - First class: USD 0. The first lesson, free, finishing with a level and a course suggestion.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, around eight lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, around eight lessons.
 - Private tuition: USD 150 a month. A month of one to one lessons at the same weekly pace.
 
 Invoices are monthly and in US dollars, at the single rate we use outside India, and they are the same in Swords as anywhere else in Ireland. Nothing is charged before the free lesson has settled a course and an hour; pauses, missed lessons and a change between group and private are explained on the pricing page.
@@ -221,7 +221,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Swords cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

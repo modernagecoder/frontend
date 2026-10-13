@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-ireland.html
 
 In short
 
-Modern Age Coders is a live online school. Learners in Ireland aged 6 to 67 join a group of five to eight or take private lessons, and the subject is model building rather than tool use: Python, then the statistics that decides whether a result is real, then training and testing on published data such as the CSO data centre electricity series. Teaching is in English on Irish clock time and aims at the 30 per cent Leaving Cert Computer Science coursework. A group place is USD 100 a month, billed in US dollars, first class free.
+Modern Age Coders is a live online school. Learners in Ireland aged 6 to 67 join a group of fifteen to twenty or take private lessons, and the subject is model building rather than tool use: Python, then the statistics that decides whether a result is real, then training and testing on published data such as the CSO data centre electricity series. Teaching is in English on Irish clock time and aims at the 30 per cent Leaving Cert Computer Science coursework. A group place is USD 100 a month, billed in US dollars, first class free.
 
 The catalogue
 
@@ -389,7 +389,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight learners, one named teacher
+- Fifteen to twenty learners, one named teacher
 - Live only, with nothing resold as a recording
 - A build task each week, reviewed by name
 - Certificate at the end

@@ -16,7 +16,7 @@ Inner North (North Canberra district), ACT / Live online
 
 The Inner North spreads from the City and Braddon out to Watson, Hackett and Downer. Of the eight districts on our pages it has the highest share of people walking to work: more than one in eight in 2021, with over 40% of homes being flats or apartments. Its suburbs also register very different cars, which makes a good Python exercise.
 
-Facts last verified 13 October 2026. Teaching is online; no Inner North Canberra branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Inner North Canberra branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python, from first programs to data work
 
@@ -176,7 +176,7 @@ Lessons are live over video, so learners join from an apartment in Braddon or a 
 - **Live and guided** A teacher leads every lesson and reviews code as it is written.
 - **School calendar** Lessons follow ACT terms and pause for holidays.
 - **Trial lesson** One free class, then a written recommendation.
-- **Group size** Small level-matched groups of five to ten, or private.
+- **Group size** Small level-matched groups of fifteen to twenty, or private.
 - **Pace** Two lessons a week, about eight a month.
 - **India hours** In summer a 7pm Inner North lesson begins at 1:30pm in India.
 
@@ -187,7 +187,7 @@ Lessons are live over video, so learners join from an apartment in Braddon or a 
 All learners pay the same fees.
 
 - First class: USD 0. The first class is free and comes with a plan.
-- Group tuition: USD 100 a month. Groups: roughly eight sessions monthly, five to ten learners.
+- Group tuition: USD 100 a month. Groups: roughly eight sessions monthly, fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private classes: about eight a month, one teacher.
 
 Billing is in US dollars, and nothing is charged until the trial lesson has agreed what to study and when. Holidays and missed classes are explained on the pricing page.
@@ -224,11 +224,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Inner North classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How are groups formed?
 
-By level and pace in groups of five to ten, not by age or suburb. One-to-one lessons are there if no group time fits.
+By level and pace in groups of fifteen to twenty, not by age or suburb. One-to-one lessons are there if no group time fits.
 
 ### Can university students and adults join?
 

@@ -4,7 +4,7 @@ description: "Online coding and Python classes for Newbury, Speen, Shaw, Wash Co
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-newbury
 source: src/pages/online-coding-and-python-classes-in-newbury.html
 ---
-> The Newbury built-up area had 42,260 usual residents at the 2021 census, according to the ONS, and West Berkshire as a whole had 161,448. Speen, Shaw, Wash Common, Donnington and Greenham are gazetteer suburbs whose nearest postcode falls inside the built-up area. Modern Age Coders gives live online lessons in coding, Python, vibe coding, AI and maths to Newbury learners aged six to 67; our tutors are in India and teach either one-to-one or in level-matched groups of five to ten. A free lesson happens before we recommend any course. The Newbury project takes a full year of water levels from the Environment Agency gauge at Shaw on the River Lambourn and asks how to smooth out the wobble without shaving the tops off the rises. Lessons after the trial are USD 100 a month in a group or USD 150 a month privately.
+> The Newbury built-up area had 42,260 usual residents at the 2021 census, according to the ONS, and West Berkshire as a whole had 161,448. Speen, Shaw, Wash Common, Donnington and Greenham are gazetteer suburbs whose nearest postcode falls inside the built-up area. Modern Age Coders gives live online lessons in coding, Python, vibe coding, AI and maths to Newbury learners aged six to 67; our tutors are in India and teach either one-to-one or in level-matched groups of fifteen to twenty. A free lesson happens before we recommend any course. The Newbury project takes a full year of water levels from the Environment Agency gauge at Shaw on the River Lambourn and asks how to smooth out the wobble without shaving the tops off the rises. Lessons after the trial are USD 100 a month in a group or USD 150 a month privately.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Newbury
 
@@ -12,11 +12,11 @@ Newbury, West Berkshire / Live online
 
 # Online coding and Python classes in Newbury
 
-**What are the best online coding and Python classes in Newbury?** The Newbury built-up area had 42,260 usual residents at the 2021 census, according to the ONS, and West Berkshire as a whole had 161,448. Speen, Shaw, Wash Common, Donnington and Greenham are gazetteer suburbs whose nearest postcode falls inside the built-up area. Modern Age Coders gives live online lessons in coding, Python, vibe coding, AI and maths to Newbury learners aged six to 67; our tutors are in India and teach either one-to-one or in level-matched groups of five to ten. A free lesson happens before we recommend any course. The Newbury project takes a full year of water levels from the Environment Agency gauge at Shaw on the River Lambourn and asks how to smooth out the wobble without shaving the tops off the rises. Lessons after the trial are USD 100 a month in a group or USD 150 a month privately.
+**What are the best online coding and Python classes in Newbury?** The Newbury built-up area had 42,260 usual residents at the 2021 census, according to the ONS, and West Berkshire as a whole had 161,448. Speen, Shaw, Wash Common, Donnington and Greenham are gazetteer suburbs whose nearest postcode falls inside the built-up area. Modern Age Coders gives live online lessons in coding, Python, vibe coding, AI and maths to Newbury learners aged six to 67; our tutors are in India and teach either one-to-one or in level-matched groups of fifteen to twenty. A free lesson happens before we recommend any course. The Newbury project takes a full year of water levels from the Environment Agency gauge at Shaw on the River Lambourn and asks how to smooth out the wobble without shaving the tops off the rises. Lessons after the trial are USD 100 a month in a group or USD 150 a month privately.
 
 Every sensor wobbles, and the usual cure is an average: replace each reading with the mean of its neighbours. It works, and it quietly lies. Averages flatten peaks and, if they only look backwards, they report every rise late. A method from 1964 chemistry labs, the Savitzky-Golay filter, fits a small curve through each window instead of a flat line, and a year of River Lambourn readings shows exactly how much difference that makes.
 
-Facts last verified 1 October 2026. Teaching is online; no Newbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 1 October 2026. Teaching is online; no Newbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Online coding and Python courses for Newbury learners
 
@@ -132,7 +132,7 @@ All lessons are live on video. A laptop or desktop with a keyboard is needed, si
 - **Learner in control** The learner types every line and runs it; the tutor asks what it should do.
 - **Start at the right step** The free lesson shows the level, and the course follows from that.
 - **Free to try** The trial lesson has no fee and asks for no card.
-- **Level-matched groups** Five to ten learners at one stage, from towns all over the UK.
+- **Level-matched groups** Fifteen to twenty learners at one stage, from towns all over the UK.
 - **Regular rhythm** Around eight lessons a month in term, two a week, with holidays skipped on request.
 - **Same hour all year** Clock changes are handled on our side so your lesson time holds.
 

@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Coding classes in Malahide',
   capsuleQ: 'What is the best coding class in Malahide?',
-  capsule: 'The census town tables record 18,305 usual residents in Malahide, living in 6,521 households, of which 6,018 have a broadband connection. Learning here needs no journey: a teacher takes the lesson live on video twice in most weeks, either with a group of five to ten placed at one level or with a single learner, and ages run from six to sixty-seven. The first lesson costs nothing. After it, a group place is USD 100 a month and one to one is USD 150.',
+  capsule: 'The census town tables record 18,305 usual residents in Malahide, living in 6,521 households, of which 6,018 have a broadband connection. Learning here needs no journey: a teacher takes the lesson live on video twice in most weeks, either with a group of fifteen to twenty placed at one level or with a single learner, and ages run from six to sixty-seven. The first lesson costs nothing. After it, a group place is USD 100 a month and one to one is USD 150.',
   lead: 'Chart the Malahide journey-time figures and the bars fall away neatly until the second last one, which climbs again: 1,208 residents spend three quarters of an hour to an hour getting to work, school or college, and 1,348 spend an hour to an hour and a half. Read the labels rather than the bars and the climb disappears. Every earlier band covers fifteen minutes; that one covers thirty, so it has twice as long a stretch of the day to gather people from. Share it out evenly and it is 674 per quarter hour, roughly half the bar beside it. Nothing about Malahide caused the bump. The chart did, and a reader who checks band widths before believing a shape has learned something that applies to every histogram they will ever meet.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Malahide.',
 
@@ -181,7 +181,7 @@ module.exports = {
     intro: 'The practical details, kept short.',
     cells: [
       { h3: 'A real teacher, live', p: 'Nothing is pre-recorded. The teacher sees the learner\'s work as it happens and responds to it.' },
-      { h3: 'Placed by ability', p: 'Groups hold five to ten learners working at the same level, wherever in Ireland or beyond they log in from.' },
+      { h3: 'Placed by ability', p: 'Groups hold fifteen to twenty learners working at the same level, wherever in Ireland or beyond they log in from.' },
       { h3: 'The same hour each week', p: 'Two lessons in most weeks, around eight a month, at a slot fixed once and then protected.' },
       { h3: 'Around the school term', p: 'Mid-terms, holidays and exam weeks are agreed in advance rather than patched over later.' },
       { h3: 'What is needed at home', p: 'A laptop or desktop, sound that works and a connection that holds video, all tested in the free lesson.' },
@@ -194,7 +194,7 @@ module.exports = {
     h2: 'What lessons cost in Malahide',
     intro: 'Three lines, and that is the whole list.',
     first: 'A full first lesson, taught properly and charged for at nothing, ending with a level and a recommended course.',
-    group: 'One month in an ability group of five to ten, about eight live lessons.',
+    group: 'One month in an ability group of fifteen to twenty, about eight live lessons.',
     private: 'One month of one to one lessons on the same weekly rhythm.',
     closer: 'We bill monthly in US dollars, at the one rate that applies to every family outside India, so Malahide pays what Cork or Sligo pays and there is no second list in another currency. Nothing is charged before the free lesson has settled a course and a time, and the pricing page sets out pauses, missed lessons and moving between group and private.'
   },
@@ -219,7 +219,7 @@ module.exports = {
       { q: 'Can an adult in Malahide join?', a: 'Yes. Our learners run from six to sixty-seven, and the free lesson places an adult either in a group working at the same level or with a teacher one to one.' },
       { q: 'Is any experience needed before starting?', a: 'None. The free lesson establishes what a learner can already do, and the course starts from there rather than from a fixed week one.' },
       { q: 'Is there a Modern Age Coders classroom in Malahide?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Malahide cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Malahide cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

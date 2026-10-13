@@ -63,7 +63,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in the East Midlands',
   capsuleQ: 'What are the best coding and AI classes in the East Midlands?',
-  capsule: 'The East Midlands region had 4,880,054 usual residents at the 2021 census, in 35 local authorities. Leicester, Nottingham, Derby and Northampton are its largest built-up areas, followed by Lincoln, with Chesterfield, Corby, Loughborough, Mansfield, Kettering and Wellingborough among the larger towns. All our lessons are live over video, taught from India. Anyone between 6 and 67 can study coding, AI, Python or maths, one-to-one or in a class of five to ten at a shared level. A free first lesson decides where to begin. Below are our East Midlands pages and a rainfall project. After the trial, a group place is USD 100 a month and private lessons are USD 150 a month.',
+  capsule: 'The East Midlands region had 4,880,054 usual residents at the 2021 census, in 35 local authorities. Leicester, Nottingham, Derby and Northampton are its largest built-up areas, followed by Lincoln, with Chesterfield, Corby, Loughborough, Mansfield, Kettering and Wellingborough among the larger towns. All our lessons are live over video, taught from India. Anyone between 6 and 67 can study coding, AI, Python or maths, one-to-one or in a class of fifteen to twenty at a shared level. A free first lesson decides where to begin. Below are our East Midlands pages and a rainfall project. After the trial, a group place is USD 100 a month and private lessons are USD 150 a month.',
   lead: 'The Met Office station at Sutton Bonington has recorded monthly rain since 1959. Averaged over 1991 to 2020, June is its wettest month, at about 64 millimetres. So a reasonable guess is that a typical year\'s wettest month brings about 64 millimetres, and that it is usually June. Both guesses are wrong, and by a lot. In those thirty years, June was the wettest month only eight times, and the wettest month of a year averaged about 104 millimetres. The gap is not a quirk of the data; it follows from the order in which you take an average and a maximum. This page\'s project finds it in Python and explains why it matters well beyond weather.',
   wa: 'Hello Modern Age Coders, we are in the East Midlands and would like to book a free lesson, please.',
 
@@ -168,7 +168,7 @@ module.exports = {
       { h3: 'The learner types', p: 'Every program is typed by the student, with the tutor watching the shared screen and asking rather than telling.' },
       { h3: 'English year groups', p: 'A Year 4 in Kettering or a Year 13 in Wellingborough is placed by year and key stage, with exam names from their board.' },
       { h3: 'Trial lesson free', p: 'The first full lesson is free and ends with plain advice.' },
-      { h3: 'Classes of one level', p: 'Five to ten learners at a single stage, gathered from around the UK.' },
+      { h3: 'Classes of one level', p: 'Fifteen to twenty learners at a single stage, gathered from around the UK.' },
       { h3: 'Term-time rhythm', p: 'Two sessions a week in term and a break for holidays.' },
       { h3: 'Local time stays', p: 'Clock changes do not shift your lesson; our teachers adjust their day.' }
     ],

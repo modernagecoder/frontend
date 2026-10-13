@@ -16,7 +16,7 @@ Wellingborough, North Northamptonshire, East Midlands / Live online
 
 Social networks, road maps, the web and the knowledge graphs behind some AI systems are all networks: points joined by links. A common first question about any network is who is central. Counting a point's links is the obvious answer and a weak one, because a point can have several links that all lead nowhere. A stronger idea is the k-core: the largest part of the network in which every point has at least k links to other points in that same part. You find it by peeling. Remove every point with too few links, which may leave others with too few, and repeat until nothing more falls off. This project peels the streets of Wellingborough.
 
-Facts last verified 30 September 2026. Teaching is online; no Wellingborough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Wellingborough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Wellingborough courses, chosen by age
 
@@ -133,7 +133,7 @@ All teaching is on a video call. The learner needs a computer with a camera and 
 - **The student drives** Code is written by the learner on their own shared screen; the tutor prompts, questions and corrects course.
 - **Start with a real lesson** We use a free session to see how the learner thinks, then name the course that suits.
 - **No cost, no card** Trying a lesson commits you to nothing.
-- **Level-matched classes** Five to ten learners who are all at one stage, joining from around the UK.
+- **Level-matched classes** Fifteen to twenty learners who are all at one stage, joining from around the UK.
 - **Twice weekly** Through the school term, with Northamptonshire holiday weeks off when you send dates.
 - **A constant UK slot** Tutors take on the clock change, and your time stays put.
 
@@ -144,7 +144,7 @@ All teaching is on a video call. The learner needs a computer with a camera and 
 These are the international fees that apply to every learner outside India.
 
 - First class: USD 0. An entire first lesson for free, closing with a course suggestion.
-- Group tuition: USD 100 a month. Small group of five to ten, some eight lessons in a month.
+- Group tuition: USD 100 a month. Group of fifteen to twenty, some eight lessons in a month.
 - Private tuition: USD 150 a month. A tutor to yourself, some eight lessons in a month.
 
 Our prices are in US dollars, with no sterling equivalent published. Invoicing starts only when the trial is over and the course and lesson time are chosen. Holiday breaks, missed lessons and changes of format are explained on the pricing page.

@@ -196,7 +196,7 @@ module.exports = {
       { h3: 'No trip across town', p: 'A learner near Lake Burley Griffin and one in Tuggeranong share the lesson from home, with nothing to travel to.' },
       { h3: 'Familiar year levels', p: 'Teachers use the year levels ACT schools use, from Year 7 to Year 12, and work around the territory\'s school terms. All teaching is in English.' },
       { h3: 'A genuine trial', p: 'You complete a real task with a teacher and leave with a suggested level, course and lesson time. No card details are taken.' },
-      { h3: 'Small level-matched groups', p: 'Five to ten learners at the same stage, from Canberra and further afield, so a suitable evening slot is easy to find.' },
+      { h3: 'Small level-matched groups', p: 'Fifteen to twenty learners at the same stage, from Canberra and further afield, so a suitable evening slot is easy to find.' },
       { h3: 'Two lessons a week', p: 'Roughly eight lessons a month at a regular time. Holidays and exam weeks are planned with the teacher ahead of time.' },
       { h3: 'India time, four and a half or five and a half hours behind', p: 'Canberra is 4 hours 30 minutes ahead of India time in winter and 5 hours 30 minutes ahead from Sunday 4 October 2026 until Sunday 4 April 2027.' }
     ],
@@ -207,7 +207,7 @@ module.exports = {
     h2: 'What classes cost in Canberra',
     intro: 'Three amounts and no surprises.',
     first: 'A complete lesson at no charge, followed by a recommended level, course and weekly time.',
-    group: 'A month of classes, normally eight, with five to ten learners at a matching level.',
+    group: 'A month of classes, normally eight, with fifteen to twenty learners at a matching level.',
     private: 'About eight classes a month in the same pattern, with one learner and one teacher.',
     closer: 'Everyone outside India pays in US dollars at a single rate, so the inner north and the far south get the same invoice, and there is no Canberra price list. Payment starts only after the trial, once course and time are agreed; the pricing page covers holidays, missed classes and moving between group and private lessons. Copilot Studio agent lessons are one to one only.'
   },
@@ -232,8 +232,8 @@ module.exports = {
       { q: 'What time are lessons for Canberra learners?', a: 'After school, evenings or weekends, agreed during the trial and always stated in Canberra time. Canberra is four and a half hours ahead of India time in winter and five and a half during daylight saving.' },
       { q: 'Can younger students join?', a: 'Yes. We teach from age 6, and younger children begin with Scratch and simple AI activities. This page is aimed at teenagers and adults, but the free lesson suits any age.' },
       { q: 'Is there a Modern Age Coders centre in Canberra?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Canberra coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Canberra coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Newham: Strat
 canonical: https://learn.modernagecoders.com/coding-classes-in-newham-london
 source: src/pages/coding-classes-in-newham-london.html
 ---
-> Newham is the east London borough of Stratford, West Ham, East Ham, Canning Town, Forest Gate, Beckton and the Royal Docks, with 351,036 residents counted at the 2021 Census and London City Airport on its southern edge. Good classes here should leave a learner able to make a prediction and then find out, honestly, how wrong it was. This page does that with the airport: a forecast of its monthly passengers built from three moving parts, tested on a year the model never saw. Our teachers work from India and teach live on video to anyone aged 6 to 67, one to one or in a class of five to ten learners at the same level. The opening lesson is free. Afterwards a class place is USD 100 a month and private lessons are USD 150 a month.
+> Newham is the east London borough of Stratford, West Ham, East Ham, Canning Town, Forest Gate, Beckton and the Royal Docks, with 351,036 residents counted at the 2021 Census and London City Airport on its southern edge. Good classes here should leave a learner able to make a prediction and then find out, honestly, how wrong it was. This page does that with the airport: a forecast of its monthly passengers built from three moving parts, tested on a year the model never saw. Our teachers work from India and teach live on video to anyone aged 6 to 67, one to one or in a class of fifteen to twenty learners at the same level. The opening lesson is free. Afterwards a class place is USD 100 a month and private lessons are USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Newham
 
@@ -12,11 +12,11 @@ London Borough of Newham / Live online
 
 # Coding classes in Newham
 
-**What are the best coding classes in Newham?** Newham is the east London borough of Stratford, West Ham, East Ham, Canning Town, Forest Gate, Beckton and the Royal Docks, with 351,036 residents counted at the 2021 Census and London City Airport on its southern edge. Good classes here should leave a learner able to make a prediction and then find out, honestly, how wrong it was. This page does that with the airport: a forecast of its monthly passengers built from three moving parts, tested on a year the model never saw. Our teachers work from India and teach live on video to anyone aged 6 to 67, one to one or in a class of five to ten learners at the same level. The opening lesson is free. Afterwards a class place is USD 100 a month and private lessons are USD 150 a month.
+**What are the best coding classes in Newham?** Newham is the east London borough of Stratford, West Ham, East Ham, Canning Town, Forest Gate, Beckton and the Royal Docks, with 351,036 residents counted at the 2021 Census and London City Airport on its southern edge. Good classes here should leave a learner able to make a prediction and then find out, honestly, how wrong it was. This page does that with the airport: a forecast of its monthly passengers built from three moving parts, tested on a year the model never saw. Our teachers work from India and teach live on video to anyone aged 6 to 67, one to one or in a class of fifteen to twenty learners at the same level. The opening lesson is free. Afterwards a class place is USD 100 a month and private lessons are USD 150 a month.
 
 London City Airport sits on the Royal Docks in the south of Newham, and the Civil Aviation Authority publishes how many passengers pass through it every month. Our learners use those figures to build a forecast in three parts: where the numbers stand now, which way they are heading, and how each month usually differs from the average. That method is called Holt-Winters exponential smoothing, and it takes only a short loop of code. Then comes the honest part. Trained on 2016 to 2018, it predicts 2019 within about 5 per cent a month. Trained on 2016 to 2019, it expects some 420,000 passengers in April 2020, and the real figure is zero. Trained on the recovery years, it loses narrowly to a much simpler guess, until the two are averaged.
 
-Facts last verified 25 September 2026. Teaching is online; no Newham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Newham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four starting courses for Newham
 
@@ -141,7 +141,7 @@ A learner in North Woolwich and another in Manor Park can join the same group fr
 
 ### No departure board
 
-Classes are not a timetable you must fit. Learners join a group of five to ten at the same level, at an hour that suits UK evenings.
+Classes are not a timetable you must fit. Learners join a group of fifteen to twenty at the same level, at an hour that suits UK evenings.
 
 **Newham among the London boroughs** Newham is one of 32 London boroughs. The [London page](/best-coding-class-in-london) lists all of them and the City, linking each page as it goes live, including [Redbridge](/coding-classes-in-redbridge-london) just to the north east.
 
@@ -171,7 +171,7 @@ Wherever a learner lives in the borough, class starts when they open the laptop.
 - **Join from home** A laptop or desktop computer, a headset and a reliable connection are all a learner needs to take part.
 - **English stages** We describe progress in the stages English schools use, Key Stage 1 through sixth form, and name GCSE and A level where they apply. Lessons are in English.
 - **A free first lesson** It is a proper lesson with a teacher, not a sales call, and finishes with a suggested level and course. No card details are asked for.
-- **Grouped by level** Each class has five to ten learners at the same stage, drawn from across the UK and further afield, so there is usually an hour that suits.
+- **Grouped by level** Each class has fifteen to twenty learners at the same stage, drawn from across the UK and further afield, so there is usually an hour that suits.
 - **Twice weekly** Most classes meet on two evenings a week, pausing for half terms, holidays and exam weeks as agreed with the teacher.
 - **Newham time** Although teachers are based in India, every lesson time we send is written as it reads in London.
 
@@ -182,7 +182,7 @@ Wherever a learner lives in the borough, class starts when they open the laptop.
 One free lesson, then a single monthly fee that is the same in every part of the borough.
 
 - First class: USD 0. A complete first lesson with a teacher, free, ending with a recommended level, course and time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a class of five to ten at one stage.
+- Group tuition: USD 100 a month. About eight live lessons a month in a class of fifteen to twenty at one stage.
 - Private tuition: USD 150 a month. About eight live lessons a month with a teacher to themselves.
 
 Families in Stratford, East Ham and the rest of Newham pay in US dollars, like every family outside India, and no prices in pounds appear on this site. Nothing is paid until the free lesson is over and you have chosen a course and a regular time. The pricing page explains pauses, missed lessons and moving between class and private teaching.
@@ -223,11 +223,11 @@ No. There is no Newham centre and no premises anywhere in the UK, because every 
 
 ### What do coding classes in Newham cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## More of London and the UK
 

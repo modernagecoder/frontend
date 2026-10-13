@@ -260,7 +260,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Free first class', p: 'Your child writes a first Python program, and a first rule, with a teacher.' },
-      { h3: 'Small groups', p: 'Five to ten children comparing how their models perform.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty children comparing how their models perform.' },
       { h3: 'Private lessons', p: 'When your child has one AI idea they want to chase.' },
       { h3: 'Code by the child', p: 'Teachers explain and question; children type every line.' },
       { h3: 'No chatbot accounts', p: 'Everything runs in the child\'s own Python code.' },
@@ -276,7 +276,7 @@ module.exports = {
     h2: 'Fees for the Python AI course',
     lede: 'Outside India, lessons are billed once a month in US dollars, with no sign-up fee. Leave whenever you like; there is no term to finish.',
     free: ['A first Python program and a first rule', 'Honest advice on readiness', 'No card or bank details'],
-    group: ['Five to ten children per class', 'Models compared and discussed together', 'A regular teacher', 'Stop after any month'],
+    group: ['Fifteen to twenty children per class', 'Models compared and discussed together', 'A regular teacher', 'Stop after any month'],
     one: ['Lessons around your child\'s own AI project', 'Pace set by your child', 'Times around school and activities']
   },
 

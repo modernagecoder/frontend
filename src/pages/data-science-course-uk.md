@@ -204,7 +204,7 @@ Lessons are taught from India, where there is no clock change, so the UK sits fo
 - **Weekend** Longer sessions for a data project.
 
 - **A free first class** We look at your maths and coding, and pick a route and a first data set.
-- **Small groups** Five to ten learners at the same level.
+- **Small groups** Fifteen to twenty learners at the same level.
 - **One to one** For a faster pace or a particular project.
 - **Notebooks you keep** Every analysis is saved in your own repository.
 - **Sources on every chart** Students record where each data set came from.
@@ -215,7 +215,7 @@ Lessons are taught from India, where there is no clock change, so the UK sits fo
 Charged monthly in US dollars, at one rate for learners anywhere outside India. There is no joining fee, and you can stop when any month ends. The software we use is free.
 
 - Free first class: USD 0. A look at your maths and coding. A route and a first data set. No payment details needed.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher each week. Real data in every lesson. Stop at the end of any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. Real data in every lesson. Stop at the end of any month.
 - One to one: USD 150 a month. A teacher for you alone. Built around your own data question. Paced to suit you.
 
 ## What UK learners ask about data science

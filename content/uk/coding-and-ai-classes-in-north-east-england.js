@@ -61,7 +61,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in North East England',
   capsuleQ: 'What are the best coding and AI classes in North East England?',
-  capsule: 'North East England had 2,647,013 usual residents in the 2021 census, across 12 local authorities, the fewest of any English region. Newcastle upon Tyne is its largest built-up area, followed by Sunderland, Middlesbrough and Gateshead, with Hartlepool, Stockton-on-Tees, South Shields, Washington and Durham among the other towns. Every lesson we teach is live over video, from India. Anyone aged 6 to 67 can take coding, AI, Python and maths, with a private tutor or in a same-level class of five to ten. The first lesson is free and sets the course. Here you will find our North East pages and a project built on a weather record that reaches back to 1880. Learners who stay on pay USD 100 per month in a class, or USD 150 per month for lessons alone with a tutor.',
+  capsule: 'North East England had 2,647,013 usual residents in the 2021 census, across 12 local authorities, the fewest of any English region. Newcastle upon Tyne is its largest built-up area, followed by Sunderland, Middlesbrough and Gateshead, with Hartlepool, Stockton-on-Tees, South Shields, Washington and Durham among the other towns. Every lesson we teach is live over video, from India. Anyone aged 6 to 67 can take coding, AI, Python and maths, with a private tutor or in a same-level class of fifteen to twenty. The first lesson is free and sets the course. Here you will find our North East pages and a project built on a weather record that reaches back to 1880. Learners who stay on pay USD 100 per month in a class, or USD 150 per month for lessons alone with a tutor.',
   lead: 'The Met Office station at Durham has monthly temperatures going back to January 1880. Forecasters often describe a year as cold, normal or warm by splitting a set of past years into three equal groups, called terciles, and seeing which third a new year falls into. That sounds objective, until you ask which past years. Measure the years from 1991 to 2020 against Durham\'s 1961 to 1990 and 25 of the 30 count as warm. Measure them against 1881 to 1910 and 28 do. Measure them against themselves and exactly ten are warm, by definition. The same temperatures, three different stories. This page\'s project builds the terciles in Python and shows why the reference period must always be stated.',
   wa: 'Hello Modern Age Coders, we are in North East England and would like to book a free lesson, please.',
 
@@ -165,7 +165,7 @@ module.exports = {
       { h3: 'Typing is theirs', p: 'The learner writes the code; the tutor looks on via the shared screen and prompts only when useful.' },
       { h3: 'Placed by school year', p: 'A Year 5 in Wallsend or a Year 11 in Stockton-on-Tees joins at the level their year suggests, with exams named by their board.' },
       { h3: 'First lesson free', p: 'A complete trial lesson at no charge, then direct advice.' },
-      { h3: 'Classes at one level', p: 'Five to ten learners per class, all at the same stage, from across the UK.' },
+      { h3: 'Classes at one level', p: 'Fifteen to twenty learners per class, all at the same stage, from across the UK.' },
       { h3: 'Term-time lessons', p: 'Two a week in term, none in the holidays.' },
       { h3: 'UK time kept', p: 'The clocks change; your lesson time does not. Our teachers adjust instead.' }
     ],
@@ -176,7 +176,7 @@ module.exports = {
     h2: 'Fees in the North East',
     intro: 'There is one fee for the whole region, and it is the same in every country we teach outside India.',
     first: 'A full lesson free, then an honest recommendation.',
-    group: 'About eight lessons each month in a group of five to ten.',
+    group: 'About eight lessons each month in a group of fifteen to twenty.',
     private: 'About eight lessons each month with a personal tutor.',
     closer: 'Prices are in US dollars only, never sterling. Billing starts once the trial has agreed a course and a weekly slot, and the pricing page explains holidays, missed lessons and switching formats.'
   },

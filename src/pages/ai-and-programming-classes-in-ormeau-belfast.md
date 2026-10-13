@@ -4,7 +4,7 @@ description: "Live online AI, programming, Python and vibe coding lessons for Or
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-ormeau-belfast
 source: src/pages/ai-and-programming-classes-in-ormeau-belfast.html
 ---
-> The Belfast ward named Ormeau had 6,532 usual residents at the 2021 census, and the neighbouring-named Rosetta ward 5,793, according to NISRA; OpenStreetMap labels Lower Ormeau, Ballynafeigh and Ravenhill as suburbs in the same part of the city. Tutors working from India teach AI, programming, Python, vibe coding and maths over live video to anyone from six to 67, privately or in a class of five to ten pitched at one level. We teach how a method works before how to call it, so learners can tell what an AI grouping really means. Lesson one is free and ends with our course advice. The Ormeau project clusters 341 shops and cafes two ways and asks whether the centre of a group should be an average point that may sit in the middle of a road, or a real place you could walk to. After the trial, a class is USD 100 a month and private tuition USD 150 a month.
+> The Belfast ward named Ormeau had 6,532 usual residents at the 2021 census, and the neighbouring-named Rosetta ward 5,793, according to NISRA; OpenStreetMap labels Lower Ormeau, Ballynafeigh and Ravenhill as suburbs in the same part of the city. Tutors working from India teach AI, programming, Python, vibe coding and maths over live video to anyone from six to 67, privately or in a class of fifteen to twenty pitched at one level. We teach how a method works before how to call it, so learners can tell what an AI grouping really means. Lesson one is free and ends with our course advice. The Ormeau project clusters 341 shops and cafes two ways and asks whether the centre of a group should be an average point that may sit in the middle of a road, or a real place you could walk to. After the trial, a class is USD 100 a month and private tuition USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Belfast](/best-coding-class-in-belfast) / Ormeau
 
@@ -12,11 +12,11 @@ Ormeau, Belfast, Northern Ireland / Live online
 
 # AI and programming classes in Ormeau, Belfast
 
-**Which are the best AI and programming classes in Ormeau, Belfast?** The Belfast ward named Ormeau had 6,532 usual residents at the 2021 census, and the neighbouring-named Rosetta ward 5,793, according to NISRA; OpenStreetMap labels Lower Ormeau, Ballynafeigh and Ravenhill as suburbs in the same part of the city. Tutors working from India teach AI, programming, Python, vibe coding and maths over live video to anyone from six to 67, privately or in a class of five to ten pitched at one level. We teach how a method works before how to call it, so learners can tell what an AI grouping really means. Lesson one is free and ends with our course advice. The Ormeau project clusters 341 shops and cafes two ways and asks whether the centre of a group should be an average point that may sit in the middle of a road, or a real place you could walk to. After the trial, a class is USD 100 a month and private tuition USD 150 a month.
+**Which are the best AI and programming classes in Ormeau, Belfast?** The Belfast ward named Ormeau had 6,532 usual residents at the 2021 census, and the neighbouring-named Rosetta ward 5,793, according to NISRA; OpenStreetMap labels Lower Ormeau, Ballynafeigh and Ravenhill as suburbs in the same part of the city. Tutors working from India teach AI, programming, Python, vibe coding and maths over live video to anyone from six to 67, privately or in a class of fifteen to twenty pitched at one level. We teach how a method works before how to call it, so learners can tell what an AI grouping really means. Lesson one is free and ends with our course advice. The Ormeau project clusters 341 shops and cafes two ways and asks whether the centre of a group should be an average point that may sit in the middle of a road, or a real place you could walk to. After the trial, a class is USD 100 a month and private tuition USD 150 a month.
 
 Clustering is how AI sorts things into groups without being told the answer, and the usual method, k-means, describes each group by its average. Averages are convenient, but the average of forty shop locations is not a shop; it may be a back garden. A close relative called k-medoids makes one change: the centre of each group must be one of its actual members, the one with the smallest total distance to the rest. That member is called the medoid, or exemplar. The change brings two bonuses: each group has a real representative you can name, and the method works with any measure of distance, including how far it is on foot. Ormeau's shops and cafes make a good test.
 
-Facts last verified 30 September 2026. Teaching is online; no Ormeau branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Ormeau branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Ormeau courses in reasoning, Python and AI
 
@@ -131,7 +131,7 @@ Needed at home: a computer, a webcam and broadband that can manage a video call.
 - **The learner writes it** Code and prompts are the student's own work, with the tutor on screen share asking what each output means.
 - **Trial sets the start** The free lesson shows us the level; CCEA courses are noted where they apply.
 - **First lesson without charge** Lesson one is free and finishes with a course recommendation.
-- **Small matched classes** Each class is five to ten learners at a shared level, from anywhere in the UK.
+- **Small matched classes** Each class is fifteen to twenty learners at a shared level, from anywhere in the UK.
 - **Two a week** Term time only.
 - **Time that holds** Tutors shift with the UK clocks, so your slot never moves.
 

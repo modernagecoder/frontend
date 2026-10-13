@@ -161,7 +161,7 @@ module.exports = {
     intro: 'The essentials, in six lines.',
     cells: [
       { h3: 'Real-time lessons', p: 'Each lesson is taught live, with the teacher looking at every learner\'s code as it is typed.' },
-      { h3: 'One level together', p: 'Five to ten learners at the same level, from Finglas, the rest of Ireland or further away.' },
+      { h3: 'One level together', p: 'Fifteen to twenty learners at the same level, from Finglas, the rest of Ireland or further away.' },
       { h3: 'Predictable days', p: 'Two regular days a week, around eight lessons in a month.' },
       { h3: 'School-year aware', p: 'Holidays, mid-terms and exam weeks are accounted for in the plan.' },
       { h3: 'What to have', p: 'A laptop or desktop, a microphone, headphones or speakers, and internet that can carry video.' },
@@ -174,7 +174,7 @@ module.exports = {
     h2: 'Fees for Finglas',
     intro: 'Kept simple.',
     first: 'A first lesson at no cost, level check included.',
-    group: 'A month in a same-level group of five to ten, about eight live lessons.',
+    group: 'A month in a same-level group of fifteen to twenty, about eight live lessons.',
     private: 'A month of one-to-one lessons at the same rhythm.',
     closer: 'Every family outside India pays one US dollar fee, charged monthly. The free lesson carries no obligation, the charge starts only when the course begins, and the pricing page explains holidays, missed lessons and changing between group and one-to-one teaching.'
   },
@@ -198,7 +198,7 @@ module.exports = {
       { q: 'At what times do lessons run?', a: 'On weekdays from after school into the evening, and at weekends during the day. Times are set in Irish time. The teachers are in India, five and a half hours ahead of Finglas in winter and four and a half in summer, and we only offer times that work at both ends.' },
       { q: 'Can I join as an adult?', a: 'Yes. Grown-up learners up to sixty-seven are welcome, complete beginners included, and they pick a same-level group or private lessons once the free lesson is done.' },
       { q: 'Will my child be with other Finglas children?', a: 'Only by chance, because groups are formed by level and classmates may be anywhere in Ireland or abroad.' },
-      { q: 'What do coding classes in Finglas cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.', boiler: true },
+      { q: 'What do coding classes in Finglas cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched by level, pace and goals rather than age or address. If no group runs at a time that suits, lessons are one to one.', boiler: true }
     ]
   },

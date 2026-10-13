@@ -39,7 +39,7 @@ module.exports = {
 
   h1: 'Coding classes in Zaanstad, a city with 165,201 residents and a name that is younger than most of them',
   capsuleQ: 'What are the best coding classes in Zaanstad?',
-  capsule: 'Coding classes in Zaanstad serve 165,201 people (Statistics Netherlands, 1 January 2026) across seven towns that were seven separate municipalities until 1974: Zaandam, Assendelft, Krommenie, Wormerveer, Zaandijk, Koog aan de Zaan and Westzaan. Any chart of Zaanstad before 1974 is a chart of something that did not exist, and the honest reconstruction is a sum of seven predecessors rather than a measurement of one place. Modern Age Coders teaches live online in English to all of them, ages 6 to 67, with a free first lesson and then USD 100 a month in a group of five to ten or USD 150 with a teacher alone.',
+  capsule: 'Coding classes in Zaanstad serve 165,201 people (Statistics Netherlands, 1 January 2026) across seven towns that were seven separate municipalities until 1974: Zaandam, Assendelft, Krommenie, Wormerveer, Zaandijk, Koog aan de Zaan and Westzaan. Any chart of Zaanstad before 1974 is a chart of something that did not exist, and the honest reconstruction is a sum of seven predecessors rather than a measurement of one place. Modern Age Coders teaches live online in English to all of them, ages 6 to 67, with a free first lesson and then USD 100 a month in a group of fifteen to twenty or USD 150 with a teacher alone.',
   lead: 'Ask a spreadsheet for Zaanstad\'s population in 1970 and it will either return nothing or return a number somebody constructed. Zaanstad did not exist in 1970. Seven municipalities merged in 1974 and the new name took their combined territory, so a line on a chart that runs back past 1974 is describing land, not a council, and certainly not an institution with a continuous history. Knowing which of those three a series is about, and refusing to draw a line across the join without saying so, is a skill nobody teaches and everybody needs.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Zaanstad.',
 
@@ -183,7 +183,7 @@ module.exports = {
     h2: 'One dollar tariff for all seven towns',
     intro: 'On the page, so that nobody has to ask for it.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'Outside India there is a single price and it is quoted in dollars; no euro list exists, so Westknollendam and Zaandam are quoted identically. Nothing is collected until the free lesson has settled a course and a time, and then it goes through WhatsApp. Pausing, switching plan and missing a week are all covered on the pricing page.'
   },
@@ -208,7 +208,7 @@ module.exports = {
       { q: 'We are in Assendelft or Westknollendam. Does the class reach that far?', a: 'It reaches every address in the municipality at the same hour and the same fee. Assendelft is the most rural of the seven and Westknollendam had about 450 residents in 2023, and neither is going to support an after-school club of its own, which is precisely the gap this fills.' },
       { q: 'What is in the free lesson?', a: 'The teacher locates what the learner can already do and sets one task a step beyond it. A child might pour seven jars into one and work out what can be said about last week. A teenager writes a plot that refuses to draw before a founding date. An adult brings a chart from work that crosses a restructure. It ends with a course, a rung, a weekly time and a price in dollars, and nothing has been charged.' },
       { q: 'Is there a Modern Age Coders classroom in Zaanstad?', a: 'No, and none is claimed in Zaandam, at the Zaanse Schans or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Zaanstad coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Zaanstad coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in a Zaanstad group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or town. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

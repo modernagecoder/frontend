@@ -53,7 +53,7 @@ module.exports = {
   twitterDescription: 'Gold Coast maths tutoring, live online: Prep to Year 12 and adults, with a trigonometry project on beachfront shadows.',
   pageName: 'Maths Tutor on the Gold Coast',
   webPageDescription: 'Live online maths tutoring for Gold Coast learners from Prep to Queensland senior maths and adult maths, with a trigonometry project on the shadows of Surfers Paradise towers.',
-  courseDescription: 'Live online maths lessons for Gold Coast learners, one to one or in level-matched groups of five to ten, from early number to Specialist Mathematics and adult maths.',
+  courseDescription: 'Live online maths lessons for Gold Coast learners, one to one or in level-matched groups of fifteen to twenty, from early number to Specialist Mathematics and adult maths.',
   crumbs: [
     { name: 'Courses', href: '/courses' },
     { name: 'Coding classes in Australia', href: '/coding-classes-in-australia' }
@@ -83,7 +83,7 @@ module.exports = {
     ['City project', 'Tower shadows with trigonometry']
   ],
   capsuleQ: 'Maths tutor on the Gold Coast, in brief',
-  capsule: 'Gold Coast families can book live online maths lessons with Modern Age Coders for anyone aged 6 to 67. We teach everything from early number to senior calculus: the primary years, the secondary years, Queensland Year 12 subjects including Mathematical Methods and Specialist Mathematics, and maths for grown-ups. Times are set in Queensland time, which has no daylight saving, and learners choose private lessons or a group of five to ten at their level. Trying a first lesson costs nothing.',
+  capsule: 'Gold Coast families can book live online maths lessons with Modern Age Coders for anyone aged 6 to 67. We teach everything from early number to senior calculus: the primary years, the secondary years, Queensland Year 12 subjects including Mathematical Methods and Specialist Mathematics, and maths for grown-ups. Times are set in Queensland time, which has no daylight saving, and learners choose private lessons or a group of fifteen to twenty at their level. Trying a first lesson costs nothing.',
   picks: {
     eyebrow: 'A good place to start on the Gold Coast',
     h2: 'Three maths courses Gold Coast learners choose',
@@ -325,7 +325,7 @@ module.exports = {
           kind: 'three',
           cells: [
             { h3: 'Private', p: 'One learner, one teacher, a fixed time each week.' },
-            { h3: 'Small classes', p: 'Five to ten learners at one level, working through the same topic together.' },
+            { h3: 'Small classes', p: 'Fifteen to twenty learners at one level, working through the same topic together.' },
             { h3: 'Visible thinking', p: 'Students write their steps on a shared screen so the teacher can respond to each one.' }
           ]
         },
@@ -417,7 +417,7 @@ module.exports = {
     cells: [
       { h3: 'Consistent teacher', p: 'Same person each week.' },
       { h3: 'Parent notes', p: 'Brief and honest.' },
-      { h3: 'Classes by level', p: 'Five to ten learners.' },
+      { h3: 'Classes by level', p: 'Fifteen to twenty learners.' },
       { h3: 'Local problems', p: 'Shadows, beaches and timetables.' },
       { h3: 'Private option', p: 'For tests and gaps.' },
       { h3: 'Meaning first', p: 'Why, then how.' }
@@ -430,7 +430,7 @@ module.exports = {
     h2: 'Fees for maths tutoring on the Gold Coast',
     lede: 'Gold Coast families pay a monthly fee in US dollars, with nothing to pay at sign-up and no fixed term.',
     free: ['A first lesson at the right level', 'Advice afterwards', 'No card details'],
-    group: ['Five to ten learners per class', 'Same teacher weekly', 'Marked practice', 'Stop any month'],
+    group: ['Fifteen to twenty learners per class', 'Same teacher weekly', 'Marked practice', 'Stop any month'],
     one: ['Private lessons', 'Built around one learner', 'Helpful before exams']
   },
   faq: {

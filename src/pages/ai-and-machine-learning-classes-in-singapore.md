@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-singapore.html
 
 In short
 
-Modern Age Coders teaches live online AI and machine learning to learners in Singapore aged 6 to 67, in groups of five to eight or one to one. The work is Python, the mathematics that sits under a model, and the harder discipline of proving a result is real rather than borrowed from the answer. Slots are quoted in SGT alongside IST. Group fees are a flat USD 100 a month, billed in US dollars, and the first class is free.
+Modern Age Coders teaches live online AI and machine learning to learners in Singapore aged 6 to 67, in groups of fifteen to twenty or one to one. The work is Python, the mathematics that sits under a model, and the harder discipline of proving a result is real rather than borrowed from the answer. Slots are quoted in SGT alongside IST. Group fees are a flat USD 100 a month, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -302,7 +302,7 @@ Which is 7:30 to 9:00am IST. The longer build session, where a project gets fini
 
 ### What a session is
 
-On weeknights, sixty minutes of live teaching with a teacher who remembers what your child got stuck on last Tuesday. The Saturday session runs ninety minutes, because a build needs the extra half hour. Screens are shared both ways, so the teacher sees the code being typed and interrupts at the moment the error appears. Batches are five to eight, or one to one.
+On weeknights, sixty minutes of live teaching with a teacher who remembers what your child got stuck on last Tuesday. The Saturday session runs ninety minutes, because a build needs the extra half hour. Screens are shared both ways, so the teacher sees the code being typed and interrupts at the moment the error appears. Batches are fifteen to twenty, or one to one.
 
 Between sessions there is something to make, not a worksheet to complete. Bring it back broken and the class debugs it together. Questions during the week go to the same teacher, and no session is replaced by a recording.
 
@@ -382,7 +382,7 @@ USD 100
 
 Per month, billed in US dollars
 
-- Five to eight students, same teacher every week
+- Fifteen to twenty students, same teacher every week
 - Live video, never a recording
 - Weekly build tasks with teacher review
 - Certificate on completion
@@ -479,7 +479,7 @@ Every class is live video with the same teacher each week, and nothing is a reco
 
 ### How much does it cost, and are there any additional or hidden fees?
 
-A group batch of five to eight students is a flat USD 100 a month, and one to one teaching is USD 150 a month, billed in US dollars, the same rate everywhere outside India. There is no registration fee, no materials fee and no annual contract, and the first class is free.
+A group batch of fifteen to twenty students is a flat USD 100 a month, and one to one teaching is USD 150 a month, billed in US dollars, the same rate everywhere outside India. There is no registration fee, no materials fee and no annual contract, and the first class is free.
 
 ### Will this help with admission to NUS Common Computer Science Programmes or NTU Data Science and Artificial Intelligence?
 

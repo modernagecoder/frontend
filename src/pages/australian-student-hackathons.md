@@ -196,7 +196,7 @@ Lessons are taught live from India, which runs behind Australia: Canberra is fou
 - **Working first** Every build starts with a path that runs end to end.
 - **Real data** Practice with public data sources and APIs.
 - **Team habits** Splitting and joining work without breaking it.
-- **Groups of five to ten** Peers to build and pitch alongside.
+- **Groups of fifteen to twenty** Peers to build and pitch alongside.
 - **One-to-one option** For a student preparing for a specific event.
 - **No prize promised** Judges decide; we teach students to ship.
 
@@ -205,7 +205,7 @@ Lessons are taught live from India, which runs behind Australia: Canberra is fou
 Lessons are billed monthly in US dollars at our international rate, with no joining fee and no lock-in. Hackathon registration is handled by each event's organiser, separately from us.
 
 - Free first class: USD 0. A first practice build with a teacher, free. An honest view of readiness for a first event. No card needed.
-- Group batch: USD 100 a month. Five to ten students at a similar level. One teacher for the term. Timed builds reviewed together. A certificate when finished.
+- Group batch: USD 100 a month. Fifteen to twenty students at a similar level. One teacher for the term. Timed builds reviewed together. A certificate when finished.
 - One to one: USD 150 a month. A teacher for one student. Preparation aimed at a chosen event. Weekly times that fit study.
 
 ## What students and parents ask

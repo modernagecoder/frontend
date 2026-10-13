@@ -156,13 +156,13 @@ test('rewrites Offer prices by matching the offer name to a tier', function () {
     const src = '<script type="application/ld+json" data-price-scope="coding.india">' +
         '{"@type":"Course","offers":[' +
         '{"@type":"Offer","name":"Group Classes","price":"999","priceCurrency":"INR"},' +
-        '{"@type":"Offer","name":"Mini Batch (3-4 students)","price":"999","priceCurrency":"INR"},' +
+        '{"@type":"Offer","name":"Mini Batch (up to 6 students)","price":"999","priceCurrency":"INR"},' +
         '{"@type":"Offer","name":"1:1 Private Mentorship","price":"999","priceCurrency":"INR"}]}' +
         '</script>';
     const out = stamp(src);
     assert.strictEqual(out.report.errors.length, 0, out.report.errors.join('; '));
     assert.ok(/"name":"Group Classes","price":"1499"/.test(out.html), 'group: ' + out.html);
-    assert.ok(/"name":"Mini Batch \(3-4 students\)","price":"2999"/.test(out.html), 'mini: ' + out.html);
+    assert.ok(/"name":"Mini Batch \(up to 6 students\)","price":"2999"/.test(out.html), 'mini: ' + out.html);
     assert.ok(/"name":"1:1 Private Mentorship","price":"4999"/.test(out.html), 'personal: ' + out.html);
 });
 
@@ -215,7 +215,7 @@ test('a mixed INR+USD block stamps each offer against its own region', function 
     const src = '<script type="application/ld+json" data-price-scope="maths.international">' +
         '{"offers":[' +
         '{"@type":"Offer","name":"Group Classes","price":"1","priceCurrency":"INR"},' +
-        '{"@type":"Offer","name":"Mini Batch (3-4 students, India only)","price":"1","priceCurrency":"INR"},' +
+        '{"@type":"Offer","name":"Mini Batch (up to 6 students, India only)","price":"1","priceCurrency":"INR"},' +
         '{"@type":"Offer","name":"Small-Group Cohort","price":"1","priceCurrency":"USD"}]}</script>';
     const out = stamp(src);
     assert.strictEqual(out.report.errors.length, 0, out.report.errors.join('; '));
@@ -228,7 +228,7 @@ test('offer-name lexicon maps the shapes actually used on this site', function (
     const cases = {
         'Group Classes': 'group',
         'Small-Group Cohort': 'group',
-        'Mini Batch (3-4 students)': 'miniBatch',
+        'Mini Batch (up to 6 students)': 'miniBatch',
         '1:1 Private Tuition': 'personal',
         '1-on-1 Mentorship': 'personal',
         'One to one': 'personal',

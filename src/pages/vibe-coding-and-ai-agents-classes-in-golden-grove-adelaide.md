@@ -16,7 +16,7 @@ Golden Grove, City of Tea Tree Gully, South Australia / Live online
 
 We asked a scripted agent one loose question: how busy is public transport in Golden Grove? Working from the Adelaide Metro timetable it could truthfully answer 75, or 46, or 2,843, or 1,116, depending on what "busy" and "Golden Grove" mean. None of those is wrong. That is the problem.
 
-Facts last verified 13 October 2026. Teaching is online; no Golden Grove branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Golden Grove branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for asking AI the right question
 
@@ -177,7 +177,7 @@ All teaching is live on video; learners stay at home.
 - **Prompts reviewed** Every request to an AI tool is read and sharpened with the teacher.
 - **SA school terms** Lessons follow the state school year, with holidays off.
 - **Free first class** One complete lesson free and a clear recommendation.
-- **Matched groups** Five to ten learners at one level, or private lessons.
+- **Matched groups** Fifteen to twenty learners at one level, or private lessons.
 - **Two lessons weekly** Fixed weekly times, close to eight lessons a month.
 - **India time** Teachers are based in India; a 6:30pm Golden Grove class is 1:30pm India time in summer and 2:30pm from April.
 
@@ -188,7 +188,7 @@ All teaching is live on video; learners stay at home.
 Three simple prices.
 
 - First class: USD 0. The first lesson is free and comes with a written next step.
-- Group tuition: USD 100 a month. About eight group lessons monthly, five to ten learners.
+- Group tuition: USD 100 a month. About eight group lessons monthly, fifteen to twenty learners.
 - Private tuition: USD 150 a month. About eight private lessons monthly with one teacher.
 
 Billing is in US dollars and starts only after the trial has fixed a course and weekly slot. See the pricing page for holidays and missed lessons.
@@ -225,11 +225,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Golden Grove learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Do Golden Grove groups cover Copilot Studio?
 

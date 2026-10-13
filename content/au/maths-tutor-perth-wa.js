@@ -56,7 +56,7 @@ module.exports = {
   twitterDescription: 'Perth maths tutoring, live online: primary to ATAR maths and adults, booked on Perth time all year.',
   pageName: 'Maths Tutor in Perth, WA',
   webPageDescription: 'Live online maths tutoring for learners in Greater Perth, from primary school to the WA ATAR mathematics courses and adult maths, with a piecewise-function project on time zones.',
-  courseDescription: 'Live online maths lessons for Perth learners, one to one or in level-matched groups of five to ten, from early number to Mathematics Specialist ATAR and adult maths.',
+  courseDescription: 'Live online maths lessons for Perth learners, one to one or in level-matched groups of fifteen to twenty, from early number to Mathematics Specialist ATAR and adult maths.',
   crumbs: [
     { name: 'Courses', href: '/courses' },
     { name: 'Coding classes in Australia', href: '/coding-classes-in-australia' }
@@ -86,7 +86,7 @@ module.exports = {
     ['City project', 'A piecewise time-zone function']
   ],
   capsuleQ: 'Maths tutor in Perth, in brief',
-  capsule: 'Modern Age Coders is an online maths tutor for learners in Perth, Western Australia, aged 6 to 67. We teach primary and lower secondary maths and the senior ATAR courses, Mathematics Applications, Mathematics Methods and Mathematics Specialist, plus adult maths. Lessons run live over video on Perth time, privately or in groups of five to ten matched by level, and the first lesson is free.',
+  capsule: 'Modern Age Coders is an online maths tutor for learners in Perth, Western Australia, aged 6 to 67. We teach primary and lower secondary maths and the senior ATAR courses, Mathematics Applications, Mathematics Methods and Mathematics Specialist, plus adult maths. Lessons run live over video on Perth time, privately or in groups of fifteen to twenty matched by level, and the first lesson is free.',
   picks: {
     eyebrow: 'The usual starting points in Perth',
     h2: 'Three courses for Perth learners',
@@ -317,7 +317,7 @@ module.exports = {
             },
             {
               h3: 'Level-matched groups',
-              p: 'Five to ten learners at the same stage. Group members often come from several states, which is how a Perth student meets the Sydney time puzzle in the first place.'
+              p: 'Fifteen to twenty learners at the same stage. Group members often come from several states, which is how a Perth student meets the Sydney time puzzle in the first place.'
             },
             { h3: 'Visible working', p: 'A shared whiteboard lets the teacher see each line of working, so mistakes are caught where they start.' }
           ]
@@ -403,7 +403,7 @@ module.exports = {
     cells: [
       { h3: 'One regular teacher', p: 'Continuity from week to week.' },
       { h3: 'Short parent updates', p: 'What was covered, and what is next.' },
-      { h3: 'Five to ten per group', p: 'Matched by level, not just age.' },
+      { h3: 'Fifteen to twenty per group', p: 'Matched by level, not just age.' },
       { h3: 'Real-world problems', p: 'Clocks, maps and data from Census tables.' },
       { h3: 'Private lessons', p: 'For a test, a gap or a head start.' },
       { h3: 'Why before how', p: 'Methods are explained before they are drilled.' }
@@ -416,7 +416,7 @@ module.exports = {
     h2: 'Fees for maths tutoring in Perth',
     lede: 'Perth families are billed a single monthly fee in US dollars. Joining is free and there is no minimum term.',
     free: ['A real lesson at the right level', 'A clear note on next steps', 'No card required'],
-    group: ['Five to ten learners', 'A regular teacher', 'Marked practice', 'Leave after any month'],
+    group: ['Fifteen to twenty learners', 'A regular teacher', 'Marked practice', 'Leave after any month'],
     one: ['Private lessons', 'Built around one goal', 'Good before exam season']
   },
   faq: {

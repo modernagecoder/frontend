@@ -191,14 +191,14 @@ Teaching happens from India, which does not change its clocks, leaving the UK fo
 - **Errors as clues** Error messages read together until they stop being scary.
 - **Code reviewed** A teacher reads every child's program and gives specific next steps.
 - **Their own ideas** Children choose projects; the teacher picks the skills each one needs.
-- **Small groups** Five to ten children at one level.
+- **Small groups** Fifteen to twenty children at one level.
 
 ## Fees for Python lessons
 
 Lessons are paid monthly in US dollars, one rate wherever you live outside India. Nothing is due for the first lesson, and no invoice follows until you pick a course and a regular weekly time. Hardware is never part of the fee; we do not sell boards.
 
 - Free first class: USD 0. A lesson starting from your child's micro:bit projects. A clear view of whether they are ready for Python. Only a phone number to book.
-- Group batch: USD 100 a month. Five to ten children at one level. The same teacher each week. Code read and reviewed every lesson. Projects the children choose.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. The same teacher each week. Code read and reviewed every lesson. Projects the children choose.
 - One to one: USD 150 a month. A teacher for one child. Paced to a fast-moving maker. Suits a child with a big idea.
 
 ## What parents ask

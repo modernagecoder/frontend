@@ -50,7 +50,7 @@ module.exports = {
 
   h1: 'Coding classes in Greenwich',
   capsuleQ: 'What are the best coding classes in Greenwich?',
-  capsule: 'Greenwich is the south east London borough of Greenwich, Woolwich, Eltham, Charlton, Plumstead, Abbey Wood, Kidbrooke and the Greenwich Peninsula, with 289,068 residents at the 2021 Census and the Royal Observatory, where the Prime Meridian runs through the Transit House. A coding class worth the time teaches a learner how tiny, repeated effects add up to something large, and this page does it with time itself: daily measurements of how long the Earth takes to turn, summed over half a century until they rebuild every leap second ever added to the world\'s clocks. We teach live by video from India, for anyone from 6 to 67, individually or in groups of five to ten at one level. Nothing is charged for the first lesson. From then on it is USD 100 a month in a group or USD 150 a month one to one.',
+  capsule: 'Greenwich is the south east London borough of Greenwich, Woolwich, Eltham, Charlton, Plumstead, Abbey Wood, Kidbrooke and the Greenwich Peninsula, with 289,068 residents at the 2021 Census and the Royal Observatory, where the Prime Meridian runs through the Transit House. A coding class worth the time teaches a learner how tiny, repeated effects add up to something large, and this page does it with time itself: daily measurements of how long the Earth takes to turn, summed over half a century until they rebuild every leap second ever added to the world\'s clocks. We teach live by video from India, for anyone from 6 to 67, individually or in groups of fifteen to twenty at one level. Nothing is charged for the first lesson. From then on it is USD 100 a month in a group or USD 150 a month one to one.',
   lead: 'Historic England\'s list entry for the Transit House at the Royal Observatory says that the Prime Meridian runs through its eastern part. Greenwich gave the world a way of measuring time and place; our learners use modern data to check how steady the Earth\'s own clock really is. The International Earth Rotation and Reference Systems Service publishes, for every day since 1962, how much longer or shorter than 86,400 seconds the Earth took to spin. The differences are thousandths of a second. In 1972 each day ran about 3 milliseconds long. That sounds like nothing, but add it up over a year and it comes to more than a second, which is why leap seconds exist. Learners add up every day from 1972 to 2026 and rebuild all 27 leap seconds to within four thousandths of a second.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Greenwich.',
 
@@ -143,7 +143,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'Greenwich', p: 'TfL\'s open data lists the DLR, Southeastern and Thameslink at Greenwich station.' },
           { h3: 'Eltham to the Peninsula', p: 'A learner in Eltham and one on the Greenwich Peninsula can join the same lesson from home.' },
-          { h3: 'On time', p: 'Our timetable keeps steadier time than the Earth: two evenings a week, the same group of five to ten learners at one stage.' }
+          { h3: 'On time', p: 'Our timetable keeps steadier time than the Earth: two evenings a week, the same group of fifteen to twenty learners at one stage.' }
         ] },
         { kind: 'spec', title: 'Greenwich among the boroughs', p: 'Greenwich is one of London\'s 32 boroughs. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> covers all of them and the City, adding a link to each page as it is published, including <a class="cg-inline-link" href="/coding-classes-in-bexley-london">Bexley</a> to the east.' }
       ]
@@ -180,7 +180,7 @@ module.exports = {
       { h3: 'Home desk', p: 'Learners need a laptop or desktop, headphones and an internet connection good enough for video calls.' },
       { h3: 'English school stages', p: 'We talk about progress using the Key Stages English schools use, Key Stage 1 up to sixth form, with GCSE and A level mentioned where relevant. Lessons are in English.' },
       { h3: 'Start for free', p: 'A proper first lesson with a teacher, free, ending with a recommended level and course. No payment details are requested.' },
-      { h3: 'Same-level classes', p: 'Five to ten learners at the same stage form each class, drawn from across the UK and abroad, so there is usually a suitable hour.' },
+      { h3: 'Same-level classes', p: 'Fifteen to twenty learners at the same stage form each class, drawn from across the UK and abroad, so there is usually a suitable hour.' },
       { h3: 'Two evenings weekly', p: 'Classes generally meet twice a week in the evening, pausing for half terms, holidays and exams as agreed.' },
       { h3: 'Greenwich Mean Time, naturally', p: 'Teachers work from India, but every time we send is given as it reads on a UK clock.' }
     ],
@@ -191,7 +191,7 @@ module.exports = {
     h2: 'Fees for Greenwich families',
     intro: 'The first lesson is free; after that one monthly fee applies across the Royal Borough.',
     first: 'A full lesson with a teacher, free, finishing with a recommended level, course and time.',
-    group: 'About eight live lessons a month in a group of five to ten at one stage.',
+    group: 'About eight live lessons a month in a group of fifteen to twenty at one stage.',
     private: 'About eight live lessons a month, one to one.',
     closer: 'Greenwich families pay in US dollars, as all families outside India do, and the site shows no prices in pounds. Nothing is charged until the free lesson is complete and you have chosen a course and regular time. Pausing, missed lessons and switching between group and private lessons are explained on the pricing page.'
   },
@@ -216,8 +216,8 @@ module.exports = {
       { q: 'When are lessons for Greenwich learners?', a: 'After the free lesson we offer a regular weekly time in a class at the right level with space. Teachers are in India; the time is given in UK time.' },
       { q: 'What does a learner need?', a: 'A computer with sound and a steady connection. The Earth rotation project needs Python and two free files from the IERS.' },
       { q: 'Is there a Modern Age Coders centre in Greenwich?', a: 'No. There is no Greenwich centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Greenwich cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Greenwich cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

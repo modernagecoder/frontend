@@ -16,7 +16,7 @@ Winchester, Hampshire / Live online
 
 Some rivers leap after every storm and shrink in every dry spell. The Itchen, which flows through Winchester, barely changes: a high flow it reaches on only 5% of days is just 3.5 times the low flow it beats on 95% of days. Why? Our teenagers answer with a recursive digital filter, a short loop that runs along fifty years of daily flows and splits each day into quick water, straight off the land after rain, and baseflow, the steady supply from underground. For the Itchen at Highbridge, baseflow makes up 0.875 of everything that passes. For the nearby Hamble it is 0.623, and for the Blackwater 0.427, where the same high-to-low comparison is 29.7.
 
-Facts last verified 23 September 2026. Teaching is online; no Winchester branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Winchester branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the Itchen city
 
@@ -174,7 +174,7 @@ The district spreads from the city's suburbs to market towns and villages on eve
 - **City and market towns** A learner in St Cross and another in Bishop's Waltham can share the same class, with no journey into Winchester.
 - **In step with local schools** What we teach lines up with the English curriculum Hampshire pupils follow, from the early years to GCSE and A level, with lessons given entirely in English.
 - **The first lesson is real** Even the free session tackles a genuine task, and at the end we suggest a level, course and weekly time. No card is needed.
-- **Matched by stage** A group gathers five to ten learners working at the same stage, whether they live in Winchester, elsewhere in Britain or overseas, which keeps good times free at every level.
+- **Matched by stage** A group gathers fifteen to twenty learners working at the same stage, whether they live in Winchester, elsewhere in Britain or overseas, which keeps good times free at every level.
 - **A twice-weekly habit** Lessons run twice a week on fixed days, close to eight a month, and the teacher plans around half terms and exam seasons with families early on.
 - **Evening across two countries** At 4.30 pm in Winchester it is 9 pm for our teachers in summer and 10 pm in winter, as India does not move its clocks; they arrange their working evenings around UK families.
 
@@ -185,7 +185,7 @@ The district spreads from the city's suburbs to market towns and villages on eve
 A free lesson first, then a single fee each month.
 
 - First class: USD 0. A full lesson at no cost, ending with our advice on level, course and a weekly slot.
-- Group tuition: USD 100 a month. Around eight live lessons a month, in a group of five to ten learners at one stage.
+- Group tuition: USD 100 a month. Around eight live lessons a month, in a group of fifteen to twenty learners at one stage.
 - Private tuition: USD 150 a month. Around eight live lessons a month, with the teacher giving your learner undivided attention.
 
 Households in Twyford or Colden Common are charged in US dollars, the same as every household outside India, and you will not see a pound price anywhere on our site. We bill nothing before the free lesson, and charges start only once a course and weekly time are fixed; pauses, missed lessons and moving between group and one-to-one teaching are covered on the pricing page.
@@ -226,11 +226,11 @@ No. We have no Winchester centre and no UK premises, because every lesson is liv
 
 ### What do lessons cost for a Winchester learner?
 
-The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one teaching on the same timetable is USD 150 a month. Nothing is charged before the course, format and time are agreed.
+The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one teaching on the same timetable is USD 150 a month. Nothing is charged before the course, format and time are agreed.
 
 ### How are learners grouped?
 
-By level, pace and goals rather than age or address, with five to ten learners at the same stage. If no group fits the learner's timetable, one-to-one lessons are offered.
+By level, pace and goals rather than age or address, with fifteen to twenty learners at the same stage. If no group fits the learner's timetable, one-to-one lessons are offered.
 
 ## The South and beyond
 

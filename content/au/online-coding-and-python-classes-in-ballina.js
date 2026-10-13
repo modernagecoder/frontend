@@ -195,7 +195,7 @@ module.exports = {
       { h3: 'Across the shire', p: 'A student in Wollongbar and an adult in Lennox Head can share a lesson without either leaving home.' },
       { h3: 'Matched to NSW school', p: 'Lessons track the NSW stages and term calendar, and senior students can connect Python projects to their computing subjects.' },
       { h3: 'Start with a real lesson', p: 'The trial is a full Python class. At the end you are given a suggested level, course and time, and no payment details are collected.' },
-      { h3: 'Groups by stage', p: 'Five to ten learners at one level, from Ballina and further afield, so there is always a group ready to run.' },
+      { h3: 'Groups by stage', p: 'Fifteen to twenty learners at one level, from Ballina and further afield, so there is always a group ready to run.' },
       { h3: 'Two sessions a week', p: 'Regular lessons twice weekly, roughly eight a month, pausing for holidays and exams by agreement.' },
       { h3: 'Teachers in India', p: 'A 4:30pm Ballina lesson in June starts at 12pm in India, and at 11am once New South Wales moves to daylight saving.' }
     ],
@@ -206,7 +206,7 @@ module.exports = {
     h2: 'Ballina class fees',
     intro: 'The cost, laid out in three lines.',
     first: 'A full Python lesson for free, then a recommended level, course and time.',
-    group: 'Around eight lessons each month, in a group of five to ten at the same level.',
+    group: 'Around eight lessons each month, in a group of fifteen to twenty at the same level.',
     private: 'Around eight lessons each month, one to one with a teacher.',
     closer: 'Outside India all invoices are in US dollars, so families in Alstonville and East Ballina pay identical amounts and there is no Ballina price. Billing begins only once the trial has agreed a course and time, and the pricing page explains breaks, missed lessons and moving between formats.'
   },
@@ -231,8 +231,8 @@ module.exports = {
       { q: 'When are lessons held?', a: 'Lesson times are set during the trial and given in Ballina time, typically after school or on a weekend. India is 4.5 hours behind Ballina in winter and 5.5 hours behind in daylight saving.' },
       { q: 'Can younger children learn?', a: 'Yes, from age six. Children start with Scratch and visual programs before typing Python; the project on this page is for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Ballina?', a: 'No, and none is claimed. All lessons are live and online and we have no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection; the contact number shown is Indian.', boiler: true },
-      { q: 'What do Ballina Python classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Ballina Python classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

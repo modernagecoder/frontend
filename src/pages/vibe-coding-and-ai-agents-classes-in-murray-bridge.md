@@ -16,7 +16,7 @@ Murray Bridge, South Australia, Australia / Live online
 
 Ask an AI system how fast South Australian neighbourhoods grew over the last ten years and a well-built one will split the work. An orchestrating agent hands each of the state's seven big statistical regions to a sub-agent, each sub-agent summarises its own area, and the orchestrator combines the replies. We built exactly that on the bureau's population estimates for 166 areas, Murray Bridge among them. Totals combined perfectly. Averages combined correctly only when each reply also carried its count. Medians did not combine at all: the median of the seven regional medians came out at 7.54 percent growth when the true median of all 166 areas is 8.94. Knowing which answers can be merged is a core skill for anyone building agent teams.
 
-Facts last verified 10 October 2026. Teaching is online; no Murray Bridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Murray Bridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for building agent teams that add up
 
@@ -180,7 +180,7 @@ Every class is a live video lesson, so the drive to Adelaide never comes into it
 - **At your desk** Learners join from home with a computer, a headset and a dependable connection.
 - **South Australian levels** Teachers plan around South Australian year levels, and all teaching is in English.
 - **Trial lesson** The free first lesson is a full class that ends with a recommended course and a weekly slot.
-- **Groups by level** Each group has five to ten learners at the same stage, from the Murraylands and beyond.
+- **Groups by level** Each group has fifteen to twenty learners at the same stage, from the Murraylands and beyond.
 - **Two lessons a week** Group learners meet twice weekly on set days, about eight lessons a month.
 - **Where teachers are** Our teaching team is based in India, and every booking is written in Murray Bridge time.
 
@@ -191,7 +191,7 @@ Every class is a live video lesson, so the drive to Adelaide never comes into it
 Pricing is short and identical across Australia.
 
 - First class: USD 0. The first lesson costs nothing and ends with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. A month of group classes, around eight, with five to ten learners matched by level.
+- Group tuition: USD 100 a month. A month of group classes, around eight, with fifteen to twenty learners matched by level.
 - Private tuition: USD 150 a month. About eight private lessons a month with one teacher.
 
 We bill in US dollars outside India, and Murray Bridge pays the same as any Australian town. Charges begin only once the trial has fixed what and when you study, and the pricing page explains holidays, absences and moving between group and private.
@@ -232,7 +232,7 @@ No. We run no premises in Australia and claim none. Every class is live online, 
 
 ### What do Murray Bridge classes cost?
 
-Your first lesson is free. Then a group place costs USD 100 a month for two live lessons a week, roughly eight a month, with five to ten learners, or USD 150 a month one-to-one. Nothing is charged until the details are agreed.
+Your first lesson is free. Then a group place costs USD 100 a month for two live lessons a week, roughly eight a month, with fifteen to twenty learners, or USD 150 a month one-to-one. Nothing is charged until the details are agreed.
 
 ### How many learners are in a group?
 

@@ -14,7 +14,7 @@ New York / Live online
 
 The short answer
 
-New York plans to sunset the Regents exam graduation requirement and move to a Portrait of a Graduate model, which rewards demonstrated capability over rehearsed papers. Modern Age Coders builds exactly that: live coding and mathematics for ages 6 to 67, ending in work a student can show and defend. Batches of five to eight or private tuition, USD 100 and USD 150 monthly, opening class free.
+New York plans to sunset the Regents exam graduation requirement and move to a Portrait of a Graduate model, which rewards demonstrated capability over rehearsed papers. Modern Age Coders builds exactly that: live coding and mathematics for ages 6 to 67, ending in work a student can show and defend. Batches of fifteen to twenty or private tuition, USD 100 and USD 150 monthly, opening class free.
 
 For three generations a New York diploma has meant Regents exams. That is changing. The State Education Department has set out a plan to sunset the diploma assessment requirements and replace them with a Portrait of a Graduate, and the practical effect for a student now in middle school is that nobody can tell them precisely what they will be assessed on. In that situation, one strategy is obviously safer than the others.
 
@@ -207,7 +207,7 @@ Fees
 
 Group$100per month, 8 classes
 
-Five to eight learners with a teacher who does not change. Where most New York families start and stay.
+Fifteen to twenty learners with a teacher who does not change. Where most New York families start and stay.
 
 Private$150per month, 8 classes
 
@@ -301,7 +301,7 @@ The timetable is built around your week rather than ours. Weekend slots are the 
 
 ### What are the fees?
 
-USD 100 a month for a group of five to eight, or USD 150 a month for private tuition. Each is two classes a week, eight a month. Nothing is charged to enrol, nothing has to be bought, and there is no minimum term, so any month can be your last. The opening class is free.
+USD 100 a month for a group of fifteen to twenty, or USD 150 a month for private tuition. Each is two classes a week, eight a month. Nothing is charged to enrol, nothing has to be bought, and there is no minimum term, so any month can be your last. The opening class is free.
 
 ### Which ages do you take?
 

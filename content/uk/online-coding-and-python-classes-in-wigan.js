@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Wigan',
   capsuleQ: 'Which are the best online coding and Python classes in Wigan?',
-  capsule: 'Wigan borough counted 329,330 usual residents in 2021, and the ONS gives 81,580 for the Wigan built-up area and 45,495 for Leigh, with Golborne, Hindley, Tyldesley and Standish among the other towns. The borough has more people in their fifties and seventies than England\'s average, and fewer in their early twenties. Leigh, Golborne, Hindley and the rest are all in reach: learners from primary age to 67 take coding, Python, vibe coding, AI and maths with us through live video, taught by tutors in India individually or in small classes of five to ten who move at the same pace. Everything starts from sound reasoning, so AI tools extend a learner\'s skills rather than stand in for them. The opening lesson is free, and monthly fees after it are USD 100 in a group or USD 150 one-to-one.',
+  capsule: 'Wigan borough counted 329,330 usual residents in 2021, and the ONS gives 81,580 for the Wigan built-up area and 45,495 for Leigh, with Golborne, Hindley, Tyldesley and Standish among the other towns. The borough has more people in their fifties and seventies than England\'s average, and fewer in their early twenties. Leigh, Golborne, Hindley and the rest are all in reach: learners from primary age to 67 take coding, Python, vibe coding, AI and maths with us through live video, taught by tutors in India individually or in classes of fifteen to twenty who move at the same pace. Everything starts from sound reasoning, so AI tools extend a learner\'s skills rather than stand in for them. The opening lesson is free, and monthly fees after it are USD 100 in a group or USD 150 one-to-one.',
   lead: 'Machine learning models only understand numbers, so every category has to be turned into numbers first. It sounds trivial, and it hides one of the commonest mistakes in AI. The 2021 census sorts Wigan\'s 154,614 working residents into nine occupation groups, numbered 1 for managers to 9 for elementary occupations. Take those numbers at face value and Wigan\'s "average occupation" is 4.753, England\'s 4.387, and it looks like a finding. Number the same groups alphabetically instead and Wigan\'s average drops below England\'s. Our Wigan project uses this to teach how AI systems should really see categories, through a technique called one-hot encoding.',
   wa: 'Hello Modern Age Coders, I would like to book a free coding or Python lesson for a learner in Wigan.',
 
@@ -163,7 +163,7 @@ module.exports = {
       { h3: 'Learners drive the code', p: 'Every line, prompt and test comes from the student; the tutor watches the shared screen and asks.' },
       { h3: 'The right first topic', p: 'The trial shows where a Year 4 or Year 13 should begin, with exam boards noted.' },
       { h3: 'Trial on us', p: 'A full lesson, free, with a clear recommendation afterwards.' },
-      { h3: 'Five to ten per class', p: 'UK learners grouped by level.' },
+      { h3: 'Fifteen to twenty per class', p: 'UK learners grouped by level.' },
       { h3: 'Two a week', p: 'Holidays are left clear.' },
       { h3: 'Same slot all year', p: 'The UK clock changes are handled by our tutors.' }
     ],

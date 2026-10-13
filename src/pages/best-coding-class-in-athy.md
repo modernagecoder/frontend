@@ -16,7 +16,7 @@ Athy, County Kildare / Live online
 
 How many primary-school-age children will Athy have in April 2028? It sounds like a question for a model, but most of the answer is already written down. Every child who will be six to twelve in 2028 had been born by census night 2022, and the census counted them by single year of age. Move each year of the table up six rows and the answer is 1,018, against 1,253 of that age now. That is a projection with no trend line and no formula, only counting. It rests on one assumption, that nobody moves in or out, and the census has a table that measures how wrong that assumption is. This page builds the projection, compares Athy with 94 other towns, and then tests the assumption against the record of who moved.
 
-Facts last verified 19 September 2026. Teaching is online; no Athy branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Athy branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Athy learners often begin with
 
@@ -164,7 +164,7 @@ An assistant can produce a number instantly. Knowing which part of it was counte
 The basics.
 
 - **Taught in real time** Every lesson has a teacher on the call, responding to the learner's code as it is written.
-- **Matched by stage** Groups of five to ten, all at the same point in the course, drawn from Kildare, the rest of Ireland and beyond.
+- **Matched by stage** Groups of fifteen to twenty, all at the same point in the course, drawn from Kildare, the rest of Ireland and beyond.
 - **Weekly pattern** Two lessons in most weeks, about eight a month, at hours settled before the course begins.
 - **School terms** The course plan builds in mid-term breaks, holidays and exam periods.
 - **What the learner needs** A laptop or desktop to type on, a working microphone with speakers or headphones, and home broadband reliable through a whole lesson.
@@ -177,7 +177,7 @@ The basics.
 The price list in full.
 
 - First class: USD 0. A full first lesson with the level assessed, free.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one stage, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one stage, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons on the same weekly pattern.
 
 Families in every country except India pay the same monthly fee, in US dollars. The first lesson is free and the first month is charged only when the course starts; for holidays, missed lessons and switching between group and one-to-one, see the pricing page.
@@ -218,7 +218,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Athy cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

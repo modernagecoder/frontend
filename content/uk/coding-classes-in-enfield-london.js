@@ -51,7 +51,7 @@ module.exports = {
 
   h1: 'Coding classes in Enfield',
   capsuleQ: 'What are the best coding classes in Enfield?',
-  capsule: 'Enfield is the north London borough of Enfield Town, Edmonton, Southgate, Palmers Green, Winchmore Hill, Ponders End and Enfield Lock, with 329,984 people counted at the 2021 Census. Historic England lists a bank on The Town as the site of the world\'s first operational cash machine. Classes worth a family\'s time teach a learner to reason about mistakes, not just to write code that works when nothing goes wrong, and this page does that with check digits: one extra digit that lets a machine notice a mistyped number. Lessons are taught live on video by teachers based in India, to anyone aged 6 to 67, privately or in a class of five to ten at one level. The opening lesson is free, then a class place is USD 100 a month and private teaching USD 150 a month.',
+  capsule: 'Enfield is the north London borough of Enfield Town, Edmonton, Southgate, Palmers Green, Winchmore Hill, Ponders End and Enfield Lock, with 329,984 people counted at the 2021 Census. Historic England lists a bank on The Town as the site of the world\'s first operational cash machine. Classes worth a family\'s time teach a learner to reason about mistakes, not just to write code that works when nothing goes wrong, and this page does that with check digits: one extra digit that lets a machine notice a mistyped number. Lessons are taught live on video by teachers based in India, to anyone aged 6 to 67, privately or in a class of fifteen to twenty at one level. The opening lesson is free, then a class place is USD 100 a month and private teaching USD 150 a month.',
   lead: 'On 27 June 1967, according to Historic England, the world\'s first operational automated teller machine was inaugurated at a bank at 20 The Town, Enfield. The building was listed at Grade II in 2023 partly for that reason. Every machine that handles numbers typed by people meets the same problem: people make mistakes. They hit a wrong key, or swap two digits, or double the wrong one. Our learners code four ways of adding a single check digit to the end of a long number, then attack each one with every mistake they can think of, on 2,000 random 16-digit numbers. All four catch every single wrong key. They differ sharply on swapped digits, and none of them can do much better than 9 in 10 against two random slips.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Enfield.',
 
@@ -143,7 +143,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'Oakwood and Southgate', p: 'TfL\'s open data lists the Piccadilly line at both stations, and Historic England lists both at Grade II*.' },
           { h3: 'Edmonton to Enfield Lock', p: 'Learners in the east of the borough and in the north can join one class from home without a single change of train.' },
-          { h3: 'No wrong platform', p: 'Every learner joins a group of five to ten at the same level, at a UK evening time agreed in advance.' }
+          { h3: 'No wrong platform', p: 'Every learner joins a group of fifteen to twenty at the same level, at a UK evening time agreed in advance.' }
         ] },
         { kind: 'spec', title: 'Enfield and the other boroughs', p: 'Enfield is one of London\'s 32 boroughs. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> covers all of them and the City, adding a link to each page as it appears, including <a class="cg-inline-link" href="/coding-classes-in-barnet-london">Barnet</a> just to the west.' }
       ]
@@ -180,7 +180,7 @@ module.exports = {
       { h3: 'At the kitchen table', p: 'All a learner needs is a laptop or desktop, headphones and an internet connection that holds steady.' },
       { h3: 'England\'s Key Stages', p: 'We map progress onto the Key Stages English schools use, Key Stage 1 through to sixth form, naming GCSE and A level where relevant. Teaching is in English.' },
       { h3: 'Try before paying', p: 'The first lesson is genuine teaching with a teacher, and closes with a recommended level and course. We ask for no card details.' },
-      { h3: 'Five to ten per group', p: 'Learners are grouped by stage with others from around the UK and beyond, so a workable hour can nearly always be found.' },
+      { h3: 'Fifteen to twenty per group', p: 'Learners are grouped by stage with others from around the UK and beyond, so a workable hour can nearly always be found.' },
       { h3: 'A twice-weekly rhythm', p: 'Classes generally meet on two evenings a week, pausing for half terms, holidays and exams by arrangement.' },
       { h3: 'Enfield time', p: 'Teachers work from India; each time in our messages is the time it will be in London.' }
     ],
@@ -191,7 +191,7 @@ module.exports = {
     h2: 'Fees for Enfield families',
     intro: 'The first lesson is free; after that one monthly fee applies, whether you live in Edmonton or Enfield Town.',
     first: 'A full lesson with a teacher at no cost, finishing with our suggested level, course and time.',
-    group: 'About eight live lessons each month in a class of five to ten at the same stage.',
+    group: 'About eight live lessons each month in a class of fifteen to twenty at the same stage.',
     private: 'About eight live lessons each month with a teacher all to themselves.',
     closer: 'Enfield families pay in US dollars, the same as every family outside India, and the site carries no prices in pounds. You pay nothing before the free lesson and before settling on a course and a weekly slot. Pausing, missed classes and moving between group and private lessons are all covered on the pricing page.'
   },
@@ -216,8 +216,8 @@ module.exports = {
       { q: 'When would Enfield lessons be?', a: 'Once the free lesson is finished we propose a regular weekly time in a class at the learner\'s level with a place open. Teachers are based in India, and all times we send are London times.' },
       { q: 'Is special equipment needed?', a: 'No. A laptop or desktop, headphones or speakers and a dependable connection are enough. The check digit project runs in plain Python with no downloads.' },
       { q: 'Is there a Modern Age Coders centre in Enfield?', a: 'No. There is no Enfield centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Enfield cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Enfield cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Coding classes in Derbyshire',
   capsuleQ: 'What are the best coding classes in Derbyshire?',
-  capsule: 'Derbyshire is Derby plus eight districts, 1,055,996 people at the 2021 Census. Derby\'s built-up area is the largest place by far, spilling into two neighbouring districts, followed by Chesterfield, then the Erewash towns of Ilkeston and Long Eaton, Swadlincote in the south, and the Peak towns of Buxton, Glossop and Matlock. We teach every one of them the same way: a teacher in India teaches live over video, learners are grouped by what they can already do rather than by age, and we welcome everyone from 6 to 67 in groups of five to ten or one to one. On offer are programming, Python, maths, automation and AI. The Derbyshire project begins in the Derwent Valley mills. There is no charge for the first lesson; group lessons then cost USD 100 a month and private lessons USD 150.',
+  capsule: 'Derbyshire is Derby plus eight districts, 1,055,996 people at the 2021 Census. Derby\'s built-up area is the largest place by far, spilling into two neighbouring districts, followed by Chesterfield, then the Erewash towns of Ilkeston and Long Eaton, Swadlincote in the south, and the Peak towns of Buxton, Glossop and Matlock. We teach every one of them the same way: a teacher in India teaches live over video, learners are grouped by what they can already do rather than by age, and we welcome everyone from 6 to 67 in groups of fifteen to twenty or one to one. On offer are programming, Python, maths, automation and AI. The Derbyshire project begins in the Derwent Valley mills. There is no charge for the first lesson; group lessons then cost USD 100 a month and private lessons USD 150.',
   lead: 'Cromford Mills, built by Richard Arkwright in 1771, describes itself as the world\'s first successful water-powered cotton spinning mill, and the Derwent Valley below it became a string of early factories stretching fifteen miles to Derby. Every one of those mills ran on gears, and gears hide a lovely piece of arithmetic. Pair a 96-tooth wheel with a 24-tooth pinion and each pinion tooth only ever touches four of the wheel\'s teeth, round and round, so any damage keeps hitting the same spots. Give the pinion one extra tooth, 25, and every tooth meets every other tooth before the pattern repeats. This page\'s project simulates both, and finds the rule behind it: greatest common divisors and least common multiples.',
   wa: 'Hello Modern Age Coders, I would like a free lesson for a learner in Derbyshire.',
 
@@ -181,7 +181,7 @@ module.exports = {
       { h3: 'Home is where it happens', p: 'A bedroom in Heanor, a kitchen in Ashbourne, a desk in Killamarsh. The learner writes code while the teacher watches the same screen.' },
       { h3: 'School words you know', p: 'Year groups, GCSE options and A levels are named as Derbyshire schools name them, all in English.' },
       { h3: 'Try a lesson for free', p: 'A real first lesson with a teacher, then an honest recommendation. No card is requested.' },
-      { h3: 'Right-level groups', p: 'Five to ten learners at one stage, gathered widely, so the lesson is pitched for everyone in it.' },
+      { h3: 'Right-level groups', p: 'Fifteen to twenty learners at one stage, gathered widely, so the lesson is pitched for everyone in it.' },
       { h3: 'Holidays around school', p: 'Two lessons a week is usual, pausing when your own school breaks up, whoever sets its dates.' },
       { h3: 'Times in UK time', p: 'India, where our teachers are, is 5.5 hours ahead of the UK in winter and 4.5 in summer; every lesson is booked in UK time.' }
     ],
@@ -192,7 +192,7 @@ module.exports = {
     h2: 'Derbyshire fees',
     intro: 'Every Derbyshire town, and every country other than India, pays the same.',
     first: 'A complete lesson of real work, ending in a suggested level and course.',
-    group: 'Around eight lessons a month, five to ten learners at one level.',
+    group: 'Around eight lessons a month, fifteen to twenty learners at one level.',
     private: 'Around eight lessons a month, one teacher with one learner.',
     closer: 'We price in US dollars for everyone outside India and do not keep a pound list. Nothing is billed until after the free lesson, when a course and a weekly slot are agreed; for pauses, missed lessons and changes between group and one-to-one teaching, see the pricing page.'
   },

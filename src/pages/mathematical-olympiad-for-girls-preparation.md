@@ -200,7 +200,7 @@ Teaching is live on video from India, five and a half hours ahead of the UK in w
 
 - **Write-ups read as a stranger** A teacher reads the argument cold and says where it stops being convincing.
 - **Techniques named** Pigeonhole, extremal cases and construction are taught as a repertoire, not as tricks.
-- **Five to ten students** Enough for two approaches to meet, small enough for every solution to be read aloud.
+- **Fifteen to twenty students** Enough for two approaches to meet, small enough for every solution to be read aloud.
 - **Our own problems** Written by us in the same territory. UKMT publishes its own past papers and solutions.
 - **One to one when wanted** For a student working beyond her year group, or one who prefers to think out loud alone.
 - **Nothing promised** We cannot enter anyone, and no score, award or invitation is promised by us.
@@ -210,7 +210,7 @@ Teaching is live on video from India, five and a half hours ahead of the UK in w
 Priced monthly in US dollars for families outside India, with no registration fee and no minimum number of months.
 
 - Free first class: USD 0. One real problem with a teacher. A straight read on the level. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher weekly. Written arguments read closely. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher weekly. Written arguments read closely. A certificate at the end.
 - One to one: USD 150 a month. A teacher working with one student. Shaped around what she finds hard. Useful when a group hour will not fit the week.
 
 ## What students and parents ask

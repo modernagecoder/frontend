@@ -190,7 +190,7 @@ module.exports = {
       { h3: 'City and market towns', p: 'A learner in St Cross and another in Bishop\'s Waltham can share the same class, with no journey into Winchester.' },
       { h3: 'In step with local schools', p: 'What we teach lines up with the English curriculum Hampshire pupils follow, from the early years to GCSE and A level, with lessons given entirely in English.' },
       { h3: 'The first lesson is real', p: 'Even the free session tackles a genuine task, and at the end we suggest a level, course and weekly time. No card is needed.' },
-      { h3: 'Matched by stage', p: 'A group gathers five to ten learners working at the same stage, whether they live in Winchester, elsewhere in Britain or overseas, which keeps good times free at every level.' },
+      { h3: 'Matched by stage', p: 'A group gathers fifteen to twenty learners working at the same stage, whether they live in Winchester, elsewhere in Britain or overseas, which keeps good times free at every level.' },
       { h3: 'A twice-weekly habit', p: 'Lessons run twice a week on fixed days, close to eight a month, and the teacher plans around half terms and exam seasons with families early on.' },
       { h3: 'Evening across two countries', p: 'At 4.30 pm in Winchester it is 9 pm for our teachers in summer and 10 pm in winter, as India does not move its clocks; they arrange their working evenings around UK families.' }
     ],
@@ -201,7 +201,7 @@ module.exports = {
     h2: 'Winchester lesson fees',
     intro: 'A free lesson first, then a single fee each month.',
     first: 'A full lesson at no cost, ending with our advice on level, course and a weekly slot.',
-    group: 'Around eight live lessons a month, in a group of five to ten learners at one stage.',
+    group: 'Around eight live lessons a month, in a group of fifteen to twenty learners at one stage.',
     private: 'Around eight live lessons a month, with the teacher giving your learner undivided attention.',
     closer: 'Households in Twyford or Colden Common are charged in US dollars, the same as every household outside India, and you will not see a pound price anywhere on our site. We bill nothing before the free lesson, and charges start only once a course and weekly time are fixed; pauses, missed lessons and moving between group and one-to-one teaching are covered on the pricing page.'
   },
@@ -226,8 +226,8 @@ module.exports = {
       { q: 'Why did Winchester Cathedral need a diver?', a: 'The cathedral says that when huge cracks appeared in the early 1900s, its waterlogged foundations were underpinned by William Walker, a deep-sea diver who worked under water every day for six years. We are not connected with the cathedral.' },
       { q: 'When do Winchester lessons take place?', a: 'Winchester families generally pick a slot after school, on a weekday evening or at the weekend, and we confirm the time in the free lesson. India is four and a half hours ahead of Winchester in summer and five and a half in winter.' },
       { q: 'Do you have a Winchester centre?', a: 'No. We have no Winchester centre and no UK premises, because every lesson is live online. Learners need a computer with sound and a reliable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do lessons cost for a Winchester learner?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one teaching on the same timetable is USD 150 a month. Nothing is charged before the course, format and time are agreed.', boiler: true },
-      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than age or address, with five to ten learners at the same stage. If no group fits the learner\'s timetable, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do lessons cost for a Winchester learner?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one teaching on the same timetable is USD 150 a month. Nothing is charged before the course, format and time are agreed.', boiler: true },
+      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than age or address, with fifteen to twenty learners at the same stage. If no group fits the learner\'s timetable, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

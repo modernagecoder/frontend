@@ -287,7 +287,7 @@ module.exports = {
       { h3: 'Real-time teaching', p: 'Teachers run lessons live and look at code as it is typed.' },
       { h3: 'Term-time', p: 'Lessons keep to ACT terms and stop in the breaks.' },
       { h3: 'No-cost trial', p: 'The first lesson is free and comes with a plan.' },
-      { h3: 'Level groups', p: 'Groups of five to ten, or a private teacher.' },
+      { h3: 'Level groups', p: 'Groups of fifteen to twenty, or a private teacher.' },
       { h3: 'Twice weekly', p: 'Around eight lessons each month.' },
       { h3: 'Indian clock', p: 'A 4:30pm Weston Creek lesson in December starts at 11am in India.' }
     ],
@@ -300,7 +300,7 @@ module.exports = {
     h2: 'Weston Creek fees',
     intro: 'One fee table for every learner.',
     first: 'The first lesson is free, with a written plan.',
-    group: 'Groups: about eight lessons a month, five to ten learners.',
+    group: 'Groups: about eight lessons a month, fifteen to twenty learners.',
     private: 'Private: about eight lessons a month with one teacher.',
     closer: 'Fees are in US dollars and begin only after the trial has chosen a course and weekly slot. Holiday and missed-lesson rules are on the pricing page.'
   },
@@ -339,12 +339,12 @@ module.exports = {
       },
       {
         q: 'What do Weston Creek classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How do groups work?',
-        a: 'Learners are grouped by level and pace, five to ten per group, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Learners are grouped by level and pace, fifteen to twenty per group, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Can adults join?', a: 'Yes. Adults learn in adult groups or privately, often to design audits or analyses at work.' }

@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Monmouthshire,
 canonical: https://learn.modernagecoders.com/coding-classes-in-monmouthshire
 source: src/pages/coding-classes-in-monmouthshire.html
 ---
-> Monmouthshire had 92,957 usual residents at the 2021 census. Abergavenny, Chepstow and Monmouth are its three main towns, each above 10,000 people, with Caldicot close behind and Undy and Magor, Usk, Gilwern and Llanfoist among the smaller places. Teachers in India run each lesson live by video, and a trial session at no cost shows where a Year 4 child, a sixth former or an adult ought to start. Coding, Python and maths are open to anyone from 6 to 67, taught solo or in a class of five to ten at one level. The Monmouthshire project starts at a hilltop roundhouse above Monmouth. Families who continue pay USD 100 monthly for group classes or USD 150 monthly for solo tuition.
+> Monmouthshire had 92,957 usual residents at the 2021 census. Abergavenny, Chepstow and Monmouth are its three main towns, each above 10,000 people, with Caldicot close behind and Undy and Magor, Usk, Gilwern and Llanfoist among the smaller places. Teachers in India run each lesson live by video, and a trial session at no cost shows where a Year 4 child, a sixth former or an adult ought to start. Coding, Python and maths are open to anyone from 6 to 67, taught solo or in a class of fifteen to twenty at one level. The Monmouthshire project starts at a hilltop roundhouse above Monmouth. Families who continue pay USD 100 monthly for group classes or USD 150 monthly for solo tuition.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Monmouthshire
 
@@ -12,11 +12,11 @@ Monmouthshire / Live online
 
 # Coding classes in Monmouthshire
 
-**What are the best coding classes in Monmouthshire?** Monmouthshire had 92,957 usual residents at the 2021 census. Abergavenny, Chepstow and Monmouth are its three main towns, each above 10,000 people, with Caldicot close behind and Undy and Magor, Usk, Gilwern and Llanfoist among the smaller places. Teachers in India run each lesson live by video, and a trial session at no cost shows where a Year 4 child, a sixth former or an adult ought to start. Coding, Python and maths are open to anyone from 6 to 67, taught solo or in a class of five to ten at one level. The Monmouthshire project starts at a hilltop roundhouse above Monmouth. Families who continue pay USD 100 monthly for group classes or USD 150 monthly for solo tuition.
+**What are the best coding classes in Monmouthshire?** Monmouthshire had 92,957 usual residents at the 2021 census. Abergavenny, Chepstow and Monmouth are its three main towns, each above 10,000 people, with Caldicot close behind and Undy and Magor, Usk, Gilwern and Llanfoist among the smaller places. Teachers in India run each lesson live by video, and a trial session at no cost shows where a Year 4 child, a sixth former or an adult ought to start. Coding, Python and maths are open to anyone from 6 to 67, taught solo or in a class of fifteen to twenty at one level. The Monmouthshire project starts at a hilltop roundhouse above Monmouth. Families who continue pay USD 100 monthly for group classes or USD 150 monthly for solo tuition.
 
 In 1794 a dining club in Monmouth built a small round tower on the highest point of The Kymin, purely to enjoy the view. Cadw lists the Kymin Roundhouse at Grade II* and records that Nelson breakfasted there in 1802, that its windows were supposedly aligned on objects in the view, and that its flat roof once carried a telescope for the members. A telescope does more than make things bigger. The size of its lens sets the finest detail it can ever show, because light spreads slightly as it passes through any opening. And the air itself adds a shimmer that no lens can beat. How much detail could the club have seen, and what really limited it? Python gives the answer below.
 
-Facts last verified 26 September 2026. Teaching is online; no Monmouthshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Monmouthshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Starting points around Monmouthshire
 
@@ -135,7 +135,7 @@ Every town and village in the county joins by video.
 - **Pupils write the code** Every line on screen is typed by the learner; the teacher watches the shared window and steps in only when stuck.
 - **Welsh years and WJEC** We place a Magor Year 5 or a Monmouth Year 12 using Welsh school years and Curriculum for Wales progression steps, and name exams as WJEC does. Lessons are in English.
 - **A free trial** One whole lesson at no cost, then straight advice.
-- **Level-matched groups** Five to ten learners at one level, from many places.
+- **Level-matched groups** Fifteen to twenty learners at one level, from many places.
 - **Term-time lessons** Two lessons a week during term; holidays off.
 - **Steady UK time** When British clocks go forward or back, your slot stays put on the local clock and our teachers shift instead.
 
@@ -146,7 +146,7 @@ Every town and village in the county joins by video.
 Chepstow or Abergavenny, the fee is the same, as in every country we teach outside India.
 
 - First class: USD 0. A complete free lesson, followed by a recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month with your own teacher.
 
 We charge in US dollars only; no sterling prices. Nothing is billed until the trial has settled a course and a weekly slot; holidays, missed sessions and changes of format are explained on the pricing page.

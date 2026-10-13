@@ -184,7 +184,7 @@ module.exports = {
         ] },
         { kind: 'two', mt: true,
           left: [
-            'Lessons are live on video, so a child in Plympton, Plymstock, Saltash or Ivybridge is taught the same way, in groups of five to ten matched by level.',
+            'Lessons are live on video, so a child in Plympton, Plymstock, Saltash or Ivybridge is taught the same way, in groups of fifteen to twenty matched by level.',
             'For coding in the city, see our <a class="ag-inline-link" href="/best-coding-class-in-plymouth">Plymouth coding page</a>.'
           ],
           right: [
@@ -256,7 +256,7 @@ module.exports = {
     cells: [
       { h3: 'A teacher who knows your child', p: 'The same person every week, tracking progress.' },
       { h3: 'Plain-spoken updates', p: 'What is secure and what is not, in a few lines.' },
-      { h3: 'Classes of five to ten', p: 'Matched on level, not postcode.' },
+      { h3: 'Classes of fifteen to twenty', p: 'Matched on level, not postcode.' },
       { h3: 'Questions we write', p: 'No Quest material copied.' },
       { h3: 'Individual lessons', p: 'For a gap that needs close work.' },
       { h3: 'Our remit: maths', p: 'No English or writing coaching; no admissions advice.' }
@@ -271,7 +271,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Every family outside India pays one monthly price in US dollars. No sign-up cost; stop whenever you want.',
     free: ['A proper lesson', 'An honest verdict', 'No card needed'],
-    group: ['Five to ten children at one level', 'A regular teacher', 'Work reviewed in class', 'A certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'A regular teacher', 'Work reviewed in class', 'A certificate at the end'],
     one: ['A teacher for one child', 'Focused on speed and accuracy', 'Flexible timing']
   },
 
@@ -288,7 +288,7 @@ module.exports = {
       { q: 'Are there Quest maths practice papers?', a: 'DHSB says it is unable to share the Quest familiarisation maths paper. Quest publishes general guidance. We write our own questions.' },
       { q: 'Do you teach English or the DHSB writing task?', a: 'No. The English paper and the boys\' school writing task fall outside our lessons, as do questions about applications and places.' },
       { q: 'Which schools use the test?', a: 'Devonport High School for Boys, Devonport High School for Girls and Plymouth High School for Girls.' },
-      { q: 'What do lessons cost?', a: 'We do not charge for the trial. Continuing costs USD 100 per month in a group of five to ten, or USD 150 per month taught individually.' }
+      { q: 'What do lessons cost?', a: 'We do not charge for the trial. Continuing costs USD 100 per month in a group of fifteen to twenty, or USD 150 per month taught individually.' }
     ]
   },
 

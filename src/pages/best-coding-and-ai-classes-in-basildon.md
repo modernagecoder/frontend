@@ -4,7 +4,7 @@ description: "Online coding, AI and Python classes for Basildon, Billericay and 
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-basildon
 source: src/pages/best-coding-and-ai-classes-in-basildon.html
 ---
-> The 2021 census recorded 187,571 people in Basildon borough; the ONS places 115,955 in the Basildon built-up area, 34,075 in Billericay and 27,535 in Wickford. Young children and adults in their early thirties are above the England share, while people in their early twenties and early seventies are below it. Learners aged 6 to 67 can study coding, AI, Python and maths with us live over video, taught by tutors in India either alone or among five to ten classmates who have reached the same step. One free session is enough for us to recommend a starting course. The Basildon project sorts the borough's census areas with one of computing's most famous algorithms. Afterwards, group lessons are USD 100 a month and private lessons USD 150 a month.
+> The 2021 census recorded 187,571 people in Basildon borough; the ONS places 115,955 in the Basildon built-up area, 34,075 in Billericay and 27,535 in Wickford. Young children and adults in their early thirties are above the England share, while people in their early twenties and early seventies are below it. Learners aged 6 to 67 can study coding, AI, Python and maths with us live over video, taught by tutors in India either alone or among fifteen to twenty classmates who have reached the same step. One free session is enough for us to recommend a starting course. The Basildon project sorts the borough's census areas with one of computing's most famous algorithms. Afterwards, group lessons are USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East of England](/coding-and-ai-classes-in-east-of-england) / Basildon
 
@@ -12,11 +12,11 @@ Basildon, Essex, England / Live online
 
 # Coding and AI classes in Basildon
 
-**Where can Basildon learners find the best coding and AI classes?** The 2021 census recorded 187,571 people in Basildon borough; the ONS places 115,955 in the Basildon built-up area, 34,075 in Billericay and 27,535 in Wickford. Young children and adults in their early thirties are above the England share, while people in their early twenties and early seventies are below it. Learners aged 6 to 67 can study coding, AI, Python and maths with us live over video, taught by tutors in India either alone or among five to ten classmates who have reached the same step. One free session is enough for us to recommend a starting course. The Basildon project sorts the borough's census areas with one of computing's most famous algorithms. Afterwards, group lessons are USD 100 a month and private lessons USD 150 a month.
+**Where can Basildon learners find the best coding and AI classes?** The 2021 census recorded 187,571 people in Basildon borough; the ONS places 115,955 in the Basildon built-up area, 34,075 in Billericay and 27,535 in Wickford. Young children and adults in their early thirties are above the England share, while people in their early twenties and early seventies are below it. Learners aged 6 to 67 can study coding, AI, Python and maths with us live over video, taught by tutors in India either alone or among fifteen to twenty classmates who have reached the same step. One free session is enough for us to recommend a starting course. The Basildon project sorts the borough's census areas with one of computing's most famous algorithms. Afterwards, group lessons are USD 100 a month and private lessons USD 150 a month.
 
 For the 2021 census the ONS split Basildon borough into 584 output areas, the smallest areas for which it publishes counts. The smallest had 105 residents, the largest 712. Sorting them from smallest to largest sounds like a job any computer does instantly, and usually it is. Quicksort, the algorithm behind many real sorting routines, picks one value as a pivot, splits everything else into smaller and larger, and repeats. It is usually very fast. But feed it a list that is already in order, with the wrong pivot rule, and it slows to a crawl. A Basildon learner can count exactly how much slower, using the town's own census numbers, and then fix it with one small change.
 
-Facts last verified 27 September 2026. Teaching is online; no Basildon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Basildon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Basildon learners begin with
 
@@ -139,7 +139,7 @@ Every part of the borough joins by video.
 - **The learner codes** Each program is typed by the student, while the tutor watches the shared screen and asks questions.
 - **Right starting point** From Year 3 to Year 13, school year and the trial decide where a learner starts, with the exam board in mind.
 - **First session free** We charge nothing for a full opening lesson and finish it by naming the course we think fits.
-- **Groups that fit** Each class brings together five to ten learners from around the UK who are at the same stage.
+- **Groups that fit** Each class brings together fifteen to twenty learners from around the UK who are at the same stage.
 - **Two a week in term** Holidays stay free.
 - **Constant time slot** Our tutors adjust for UK clock changes, not you.
 

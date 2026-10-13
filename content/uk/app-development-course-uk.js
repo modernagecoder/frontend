@@ -241,7 +241,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'We check your starting point and choose a framework with you.' },
-      { h3: 'Small groups', p: 'Five to ten learners of similar age and level.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners of similar age and level.' },
       { h3: 'One to one', p: 'For a specific app idea or a faster pace.' },
       { h3: 'Your own device', p: 'Apps run on your phone or an emulator from the early weeks.' },
       { h3: 'Privacy checklist', p: 'Every project passes the same short checklist before it counts as done.' },
@@ -257,7 +257,7 @@ module.exports = {
     h2: 'Fees for app development',
     lede: 'One monthly fee in US dollars, the same for every country outside India, with no enrolment fee and nothing to commit to beyond the current month. Store developer accounts, if you choose to publish, are separate and paid to the store.',
     free: ['A look at your starting point', 'A framework chosen with you', 'No payment details needed'],
-    group: ['Five to ten learners at one level', 'The same teacher each week', 'A privacy checklist on every project', 'Stop at the end of any month'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher each week', 'A privacy checklist on every project', 'Stop at the end of any month'],
     one: ['A teacher for you alone', 'Built around your own app idea', 'Paced to suit you']
   },
 

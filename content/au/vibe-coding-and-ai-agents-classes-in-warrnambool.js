@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Vibe coding and AI agents classes in Warrnambool',
   capsuleQ: 'What are the best vibe coding and AI agents classes in Warrnambool?',
-  capsule: 'For Warrnambool teenagers and adults, classes where you build apps by talking to AI coding tools and agents, and learn just enough Python and maths to catch them when they are wrong. Warrnambool had 35,743 residents at the 2021 Census. A teacher runs every lesson live on video, in a group of five to ten or one to one, and the first lesson is free.',
+  capsule: 'For Warrnambool teenagers and adults, classes where you build apps by talking to AI coding tools and agents, and learn just enough Python and maths to catch them when they are wrong. Warrnambool had 35,743 residents at the 2021 Census. A teacher runs every lesson live on video, in a group of fifteen to twenty or one to one, and the first lesson is free.',
   lead: 'Here is a question an AI travel agent might be asked in Warrnambool: how often does the Merrivale bus run? To answer from raw timetable data, a tempting trick borrowed from audio engineering is to treat departures like a sound and listen for the strongest beat. The Goertzel algorithm does exactly that, testing one period at a time. We ran it over every town route on a Wednesday in October. For route 1 it heard a 15-minute beat just as loudly as a 30-minute one, although no bus on that route ever runs 15 minutes apart. Working out why is the whole lesson.',
   wa: 'Hello Modern Age Coders, I would like a free vibe coding or AI agents class for a learner in Warrnambool.',
 
@@ -185,7 +185,7 @@ module.exports = {
       { h3: 'From home', p: 'Learners log in from their own computer, with no trip to a city campus for a class.' },
       { h3: 'Victorian levels', p: 'Lessons are pitched at Victorian year levels and paced around the state\'s four terms. Teaching is in English.' },
       { h3: 'Free trial', p: 'The first lesson teaches something real and ends with a suggested course and weekly time.' },
-      { h3: 'Five to ten', p: 'Group classes hold five to ten learners at the same level, combined from Warrnambool and other places.' },
+      { h3: 'Five to ten', p: 'Group classes hold fifteen to twenty learners at the same level, combined from Warrnambool and other places.' },
       { h3: 'Every week', p: 'Two live sessions each week, close to eight a month, on days agreed after the trial.' },
       { h3: 'Teachers in India', p: 'In summer Warrnambool runs five and a half hours ahead of India time; from April to October the difference is four and a half hours.' }
     ],
@@ -196,7 +196,7 @@ module.exports = {
     h2: 'Warrnambool fees',
     intro: 'Pricing is brief and uniform across Australia.',
     first: 'A free first lesson that finishes with a recommended level, course and weekly slot.',
-    group: 'A month of group sessions, normally eight, with five to ten learners at your level.',
+    group: 'A month of group sessions, normally eight, with fifteen to twenty learners at your level.',
     private: 'Close to eight one-to-one sessions a month with your own teacher.',
     closer: 'Fees outside India are in US dollars, so Warrnambool learners pay the national rate. No payment is taken until the trial has fixed what and when you will study; the pricing page explains holidays, missed sessions and switching formats.'
   },
@@ -221,7 +221,7 @@ module.exports = {
       { q: 'When do Warrnambool lessons run?', a: 'Typically after school on weekdays or on Saturday mornings, agreed at the trial and confirmed in Warrnambool time.' },
       { q: 'Is there anything for younger children?', a: 'Yes. Live classes begin at age six with Scratch; the timetable and agents project is meant for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Warrnambool?', a: 'No. We have no premises in Australia and do not claim any. Classes are live online only, learners need a computer with sound and stable internet, and our listed phone number is an Indian number.', boiler: true },
-      { q: 'How much are Warrnambool classes?', a: 'The first lesson is free. Afterwards a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Everything is agreed before you pay.', boiler: true },
+      { q: 'How much are Warrnambool classes?', a: 'The first lesson is free. Afterwards a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Everything is agreed before you pay.', boiler: true },
       { q: 'How many learners are in each group?', a: 'Five to ten, grouped by level and goals rather than age or town. If no group fits the timetable, one-to-one lessons are offered.', boiler: true }
     ]
   },

@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Zaanstad for ages 6 t
 canonical: https://learn.modernagecoders.com/coding-classes-in-zaanstad
 source: src/pages/coding-classes-in-zaanstad.html
 ---
-> Coding classes in Zaanstad serve 165,201 people (Statistics Netherlands, 1 January 2026) across seven towns that were seven separate municipalities until 1974: Zaandam, Assendelft, Krommenie, Wormerveer, Zaandijk, Koog aan de Zaan and Westzaan. Any chart of Zaanstad before 1974 is a chart of something that did not exist, and the honest reconstruction is a sum of seven predecessors rather than a measurement of one place. Modern Age Coders teaches live online in English to all of them, ages 6 to 67, with a free first lesson and then USD 100 a month in a group of five to ten or USD 150 with a teacher alone.
+> Coding classes in Zaanstad serve 165,201 people (Statistics Netherlands, 1 January 2026) across seven towns that were seven separate municipalities until 1974: Zaandam, Assendelft, Krommenie, Wormerveer, Zaandijk, Koog aan de Zaan and Westzaan. Any chart of Zaanstad before 1974 is a chart of something that did not exist, and the honest reconstruction is a sum of seven predecessors rather than a measurement of one place. Modern Age Coders teaches live online in English to all of them, ages 6 to 67, with a free first lesson and then USD 100 a month in a group of fifteen to twenty or USD 150 with a teacher alone.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Zaanstad
 
@@ -12,11 +12,11 @@ Zaanstad, Noord-Holland / Live online
 
 # Coding classes in Zaanstad, a city with 165,201 residents and a name that is younger than most of them
 
-**What are the best coding classes in Zaanstad?** Coding classes in Zaanstad serve 165,201 people (Statistics Netherlands, 1 January 2026) across seven towns that were seven separate municipalities until 1974: Zaandam, Assendelft, Krommenie, Wormerveer, Zaandijk, Koog aan de Zaan and Westzaan. Any chart of Zaanstad before 1974 is a chart of something that did not exist, and the honest reconstruction is a sum of seven predecessors rather than a measurement of one place. Modern Age Coders teaches live online in English to all of them, ages 6 to 67, with a free first lesson and then USD 100 a month in a group of five to ten or USD 150 with a teacher alone.
+**What are the best coding classes in Zaanstad?** Coding classes in Zaanstad serve 165,201 people (Statistics Netherlands, 1 January 2026) across seven towns that were seven separate municipalities until 1974: Zaandam, Assendelft, Krommenie, Wormerveer, Zaandijk, Koog aan de Zaan and Westzaan. Any chart of Zaanstad before 1974 is a chart of something that did not exist, and the honest reconstruction is a sum of seven predecessors rather than a measurement of one place. Modern Age Coders teaches live online in English to all of them, ages 6 to 67, with a free first lesson and then USD 100 a month in a group of fifteen to twenty or USD 150 with a teacher alone.
 
 Ask a spreadsheet for Zaanstad's population in 1970 and it will either return nothing or return a number somebody constructed. Zaanstad did not exist in 1970. Seven municipalities merged in 1974 and the new name took their combined territory, so a line on a chart that runs back past 1974 is describing land, not a council, and certainly not an institution with a continuous history. Knowing which of those three a series is about, and refusing to draw a line across the join without saying so, is a skill nobody teaches and everybody needs.
 
-Facts last verified 7 September 2026. Teaching is online; no Zaanstad branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Zaanstad branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for seven towns along one river
 
@@ -208,7 +208,7 @@ Assendelft to Krommenie is a proper journey, Wormerveer faces a municipality it 
 On the page, so that nobody has to ask for it.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 Outside India there is a single price and it is quoted in dollars; no euro list exists, so Westknollendam and Zaandam are quoted identically. Nothing is collected until the free lesson has settled a course and a time, and then it goes through WhatsApp. Pausing, switching plan and missing a week are all covered on the pricing page.
@@ -249,7 +249,7 @@ No, and none is claimed in Zaandam, at the Zaanse Schans or anywhere in the Neth
 
 ### What do Zaanstad coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Zaanstad group?
 

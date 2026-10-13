@@ -1,12 +1,12 @@
 ---
 title: "Vibe Coding Classes for Kids, Teens & College | Live, Small-Batch | Modern Age Coders"
-description: "Live vibe coding classes for kids (6-12), teens (13-17) and college students (18+). Build real apps, games and AI projects while learning the code underneath. Three 12-week tracks, small batches of 4-8, free trial. From Rs.1,499/month."
+description: "Live vibe coding classes for kids (6-12), teens (13-17) and college students (18+). Build real apps, games and AI projects while learning the code underneath. Three 12-week tracks, batches of 15-20, free trial. From Rs.1,499/month."
 canonical: https://learn.modernagecoders.com/vibe-coding-classes
 source: src/pages/vibe-coding-classes.html
 ---
-> Live vibe coding classes for kids (6-12), teens (13-17) and college students (18+). Build real apps, games and AI projects while learning the code underneath. Three 12-week tracks, small batches of 4-8, free trial. From Rs.1,499/month.
+> Live vibe coding classes for kids (6-12), teens (13-17) and college students (18+). Build real apps, games and AI projects while learning the code underneath. Three 12-week tracks, batches of 15-20, free trial. From Rs.1,499/month.
 
-Live online · small batches of 4–8 · ages 8 to 65
+Live online · batches of 15–20 · ages 8 to 65
 
 # Vibe coding classes that actually teach you to build.
 
@@ -114,7 +114,7 @@ The mentor unpacks the fundamentals behind what you built, the logic, the maths,
 
 #### Ship & review
 
-You finish with something that works, get live code review in a 4–8 student group, and keep the recording to revise.
+You finish with something that works, get live code review in a 15–20 student group, and keep the recording to revise.
 
 Real projects from day one
 
@@ -242,7 +242,7 @@ Why families choose us
 
 #### Small live batches
 
-Just four to eight students per class, so every learner is seen, heard and helped. No one fades into the back row.
+Just fifteen to twenty students per class, so every learner is seen, heard and helped. No one fades into the back row.
 
 #### Coding + maths together
 
@@ -312,16 +312,16 @@ Group₹1,499/month
 
 Live small-batch classes, two sessions a week.
 
-- ** Batches of 4–8 students
+- ** Batches of 15–20 students
 - ** Two live classes per week
 - ** Recordings for revision
 - ** Certificate & portfolio
 
 [Start free trial](/book-demo)Most personalMini-Batch₹2,999/month
 
-Tiny 3–4 student groups for closer attention.
+Tiny up to 6 student groups for closer attention.
 
-- ** Just 3–4 students
+- ** Up to 6 students
 - ** Faster pace, more help
 - ** Recordings for revision
 - ** Certificate & portfolio
@@ -343,7 +343,7 @@ Questions, answered
 
 ## Vibe coding classes: frequently asked questions.
 
-What is vibe coding?Vibe coding is building real software, apps, games and AI projects, by describing what you want and directing AI tools to help build it, while still learning the programming underneath. Our students use AI alongside genuine coding fundamentals, so they become makers who can read, change and explain their own code, not people who only copy and paste.Which vibe coding course is right for my age?There are three tracks. Vibe Coding for Kids (ages 6–12) starts with Scratch, game development and AI creative projects. Vibe Coding for Teens (ages 13–17) covers Python, web development and AI tools like Cursor, Lovable and Claude. Vibe Coding for College (ages 18+) covers the MERN full-stack, Data Structures and Algorithms, Machine Learning and system design for placements.Is vibe coding just letting AI write the code?No. AI is a tool we teach students to direct, not a replacement for understanding. In every live class learners build real projects with AI and learn the fundamentals underneath, how the code works, why it works, and how to fix it when it breaks. We pair coding with maths and problem solving so students can read, change and defend their own code.Does my child need prior coding experience?No prior experience is needed for the Kids and Teens tracks. Both start from the absolute basics and most students have never written a line of code. The College track expects basic programming familiarity and goes deeper into full-stack, DSA and ML. During enrolment we help each student pick the right track.How long are the courses and how much time do they take?Each track runs for 3 months (12 weeks) with two live classes per week. The weekly commitment is about 4–6 hours for Kids, 6–8 hours for Teens, and 10–15 hours for College including practice and projects.What AI tools are used in the classes?Age-appropriately. Kids use friendly, safe AI tools to generate art, characters and simple apps. Teens learn industry tools such as Cursor IDE, Lovable and Claude. College students use AI coding assistants and agents alongside professional engineering workflows. We also offer dedicated Codex and Claude Code agent masterclasses for teens and adults who want to go further.Are classes live or recorded?Classes are live and interactive in small batches of 4–8 students, never pre-recorded video. Every session is also recorded so students can revise, and mentors review code in real time.How much do vibe coding classes cost?Group classes are ₹1,499/month with two live classes a week. A small 3–4 student Mini-Batch is ₹2,999/month, and fully personalised 1-on-1 classes are ₹4,999/month. Every student can start with a free trial class before enrolling, and international pricing is shown automatically outside India.Do students get a certificate?Yes. Every student receives a completion certificate and finishes with a real portfolio of projects they built. For college students, the portfolio and capstone are designed to support placements and internships.Is vibe coding a good way to learn to code in 2026?Yes, when it is taught properly. Directing AI is now part of how professional software is built, but the engineers who benefit most are the ones who understand code. Our classes teach both at once, how to build fast with AI and how the code actually works, so students are ready for a future where humans and AI build together.
+What is vibe coding?Vibe coding is building real software, apps, games and AI projects, by describing what you want and directing AI tools to help build it, while still learning the programming underneath. Our students use AI alongside genuine coding fundamentals, so they become makers who can read, change and explain their own code, not people who only copy and paste.Which vibe coding course is right for my age?There are three tracks. Vibe Coding for Kids (ages 6–12) starts with Scratch, game development and AI creative projects. Vibe Coding for Teens (ages 13–17) covers Python, web development and AI tools like Cursor, Lovable and Claude. Vibe Coding for College (ages 18+) covers the MERN full-stack, Data Structures and Algorithms, Machine Learning and system design for placements.Is vibe coding just letting AI write the code?No. AI is a tool we teach students to direct, not a replacement for understanding. In every live class learners build real projects with AI and learn the fundamentals underneath, how the code works, why it works, and how to fix it when it breaks. We pair coding with maths and problem solving so students can read, change and defend their own code.Does my child need prior coding experience?No prior experience is needed for the Kids and Teens tracks. Both start from the absolute basics and most students have never written a line of code. The College track expects basic programming familiarity and goes deeper into full-stack, DSA and ML. During enrolment we help each student pick the right track.How long are the courses and how much time do they take?Each track runs for 3 months (12 weeks) with two live classes per week. The weekly commitment is about 4–6 hours for Kids, 6–8 hours for Teens, and 10–15 hours for College including practice and projects.What AI tools are used in the classes?Age-appropriately. Kids use friendly, safe AI tools to generate art, characters and simple apps. Teens learn industry tools such as Cursor IDE, Lovable and Claude. College students use AI coding assistants and agents alongside professional engineering workflows. We also offer dedicated Codex and Claude Code agent masterclasses for teens and adults who want to go further.Are classes live or recorded?Classes are live and interactive in batches of 15–20 students, never pre-recorded video. Every session is also recorded so students can revise, and mentors review code in real time.How much do vibe coding classes cost?Group classes are ₹1,499/month with two live classes a week. A small up to 6 student Mini-Batch is ₹2,999/month, and fully personalised 1-on-1 classes are ₹4,999/month. Every student can start with a free trial class before enrolling, and international pricing is shown automatically outside India.Do students get a certificate?Yes. Every student receives a completion certificate and finishes with a real portfolio of projects they built. For college students, the portfolio and capstone are designed to support placements and internships.Is vibe coding a good way to learn to code in 2026?Yes, when it is taught properly. Directing AI is now part of how professional software is built, but the engineers who benefit most are the ones who understand code. Our classes teach both at once, how to build fast with AI and how the code actually works, so students are ready for a future where humans and AI build together.
 
 ## See it for yourself in a free trial class.
 

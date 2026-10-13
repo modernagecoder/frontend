@@ -184,7 +184,7 @@ Our teachers work from India, which is behind every Australian state. A 4 pm cla
 
 - **Thirty minutes of focus** Young learners get short, varied tasks rather than one long drill.
 - **Say it, then write it** Children explain each jump aloud before drawing it.
-- **Groups of five to ten** Children at the same stage learn together.
+- **Groups of fifteen to twenty** Children at the same stage learn together.
 - **One-to-one if needed** For a child who needs a particular gap closed gently.
 - **A note for parents** What we practised, and one game to play at home.
 - **Honest about NAPLAN** We teach mathematics; the test result belongs to the child.
@@ -194,7 +194,7 @@ Our teachers work from India, which is behind every Australian state. A 4 pm cla
 Families in Australia pay monthly in US dollars, the rate we use everywhere outside India. There is no deposit, and you can stop at the end of any month.
 
 - Free first class: USD 0. A real lesson with a teacher. A clear picture of where your child is. No payment details needed.
-- Group batch: USD 100 a month. Five to ten children at one stage. The same teacher each week. Short tasks with feedback. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one stage. The same teacher each week. Short tasks with feedback. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one child. Gentle work on specific gaps. Times that fit your week.
 
 ## What parents of Year 3 children ask

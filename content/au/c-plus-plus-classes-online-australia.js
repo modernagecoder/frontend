@@ -698,7 +698,7 @@ module.exports = {
       "No card required"
     ],
     "group": [
-      "Five to ten learners per class",
+      "Fifteen to twenty learners per class",
       "Code review of each project",
       "A regular teacher",
       "Stop after any month"

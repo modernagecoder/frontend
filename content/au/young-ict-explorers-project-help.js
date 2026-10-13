@@ -235,7 +235,7 @@ module.exports = {
       { h3: 'Skills, not answers', p: 'We teach how; the team decides what to build.' },
       { h3: 'Planning built in', p: 'MoSCoW and weekly re-estimates from the start.' },
       { h3: 'Testing habits', p: 'A test log that strengthens the report.' },
-      { h3: 'Groups of five to ten', p: 'Students at a similar level sharing progress.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Students at a similar level sharing progress.' },
       { h3: 'One-to-one option', p: 'For an individual entrant or a team\'s lead coder.' },
       { h3: 'No award promised', p: 'Judges decide; we build skill and confidence.' }
     ]
@@ -249,7 +249,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Our lessons are charged monthly in US dollars, the international rate, with nothing to join and no lock-in. Young ICT Explorers is run by its organisers; anything they charge is separate from us.',
     free: ['A free first lesson with a teacher', 'A look at the project idea and how to scope it', 'No card required'],
-    group: ['Five to ten students at one level', 'The same teacher all season', 'Shared reviews of plans and tests', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher all season', 'Shared reviews of plans and tests', 'A certificate at the end'],
     one: ['A teacher for one student', 'Lessons shaped around that student\'s project skills', 'Weekly times that suit the family']
   },
 

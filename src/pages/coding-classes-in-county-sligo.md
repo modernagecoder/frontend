@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across County Sligo, fro
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-sligo
 source: src/pages/coding-classes-in-county-sligo.html
 ---
-> County Sligo holds 70,198 people, 4,663 more than in 2016. Sligo town accounts for 20,608 of them and the rest are spread thinly, from Tubbercurry at 2,307 down to villages of a few hundred. The county has an older profile than most, with 12,903 people aged 65 or over, and no Gaeltacht. Our teaching runs live, one hour a week at a fixed time, in ability groups of five to ten or one to one, from age six through to sixty-seven. The first lesson is free, then USD 100 a month in a group or USD 150 privately.
+> County Sligo holds 70,198 people, 4,663 more than in 2016. Sligo town accounts for 20,608 of them and the rest are spread thinly, from Tubbercurry at 2,307 down to villages of a few hundred. The county has an older profile than most, with 12,903 people aged 65 or over, and no Gaeltacht. Our teaching runs live, one hour a week at a fixed time, in ability groups of fifteen to twenty or one to one, from age six through to sixty-seven. The first lesson is free, then USD 100 a month in a group or USD 150 privately.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Mayo](/coding-classes-in-county-mayo) / County Sligo
 
@@ -12,11 +12,11 @@ County Sligo, Connacht / Live online
 
 # Coding classes in County Sligo
 
-**What are the best coding classes in County Sligo?** County Sligo holds 70,198 people, 4,663 more than in 2016. Sligo town accounts for 20,608 of them and the rest are spread thinly, from Tubbercurry at 2,307 down to villages of a few hundred. The county has an older profile than most, with 12,903 people aged 65 or over, and no Gaeltacht. Our teaching runs live, one hour a week at a fixed time, in ability groups of five to ten or one to one, from age six through to sixty-seven. The first lesson is free, then USD 100 a month in a group or USD 150 privately.
+**What are the best coding classes in County Sligo?** County Sligo holds 70,198 people, 4,663 more than in 2016. Sligo town accounts for 20,608 of them and the rest are spread thinly, from Tubbercurry at 2,307 down to villages of a few hundred. The county has an older profile than most, with 12,903 people aged 65 or over, and no Gaeltacht. Our teaching runs live, one hour a week at a fixed time, in ability groups of fifteen to twenty or one to one, from age six through to sixty-seven. The first lesson is free, then USD 100 a month in a group or USD 150 privately.
 
 The average age in County Sligo is 40.7 years. Now look at its towns. Coolaney averages 31.8. Rosses Point and Enniscrone both average 45.3. That is a spread of thirteen and a half years inside one small county, and the county figure sits in the middle describing none of them. Push a little further and it gets stranger. Sligo town is the biggest place here by a wide margin, and only 16.4 per cent of its residents are under 15. In Coolaney, a village of 1,155 people, the figure is 30.6 per cent, nearly double. The children of this county are not, proportionally, where the county keeps its population. An average told you none of that, and an average is usually all anybody quotes.
 
-Facts last verified 16 September 2026. Teaching is online; no County Sligo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no County Sligo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four ways to begin
 
@@ -170,7 +170,7 @@ Six plain facts about the format.
 
 - **One live hour a week** A teacher is present throughout and the learner is expected to talk, not to watch.
 - **Reaching the small places** Coolaney, Ballymote and Tubbercurry have proportionally more children and fewer options than Sligo town. Online removes that difference entirely.
-- **Ability groups of five to ten** Learners placed at one level, gathered across Sligo and several other countries, so a proper peer group exists at a workable hour.
+- **Ability groups of fifteen to twenty** Learners placed at one level, gathered across Sligo and several other countries, so a proper peer group exists at a workable hour.
 - **What is needed** A laptop or desktop, working sound and a connection good enough for video, which the free lesson tests directly.
 - **Irish school stages** Junior Cycle, Transition Year and senior cycle, with exam weeks and mid-terms planned around.
 - **Our hours** Afternoons, evenings and weekend mornings, taught by a team working several hours ahead of Irish time.
@@ -182,7 +182,7 @@ Six plain facts about the format.
 Three figures, with the terms in plain sight.
 
 - First class: USD 0. A complete first lesson at no cost, which ends with a level and a recommendation.
-- Group tuition: USD 100 a month. A month of group classes, about eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group classes, about eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. A month of one to one teaching on the same weekly pattern.
 
 We bill monthly in US dollars at the single rate charged outside India, so Enniscrone pays what Sligo town pays and no second price list exists. Nothing is charged until a course and an hour have been agreed in the free lesson, and the pricing page sets out pauses, missed lessons and changes of format.
@@ -223,7 +223,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do County Sligo coding classes cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

@@ -182,7 +182,7 @@ module.exports = {
       { h3: 'Classes come to you', p: 'Learners join from home anywhere around Horsham, in the same live lesson a Melbourne student would attend.' },
       { h3: 'Victorian year levels', p: 'Teaching follows Victorian year levels, with VCE students supported in Years 11 and 12, all in English.' },
       { h3: 'Start with a free session', p: 'Spend the opening lesson building something with an agent and a teacher, then receive a suggested course and time; no card is needed.' },
-      { h3: 'Classmates at your stage', p: 'Groups hold five to ten learners at one level, drawn from across Australia and abroad so every stage has a workable hour.' },
+      { h3: 'Classmates at your stage', p: 'Groups hold fifteen to twenty learners at one level, drawn from across Australia and abroad so every stage has a workable hour.' },
       { h3: 'A steady rhythm', p: 'Two sessions each week, about eight a month, with school holidays and exam periods planned ahead.' },
       { h3: 'Daylight saving absorbed', p: 'When Victoria changes its clocks, the lesson keeps its Horsham time and our side adjusts.' }
     ],
@@ -193,7 +193,7 @@ module.exports = {
     h2: 'What vibe coding and AI agents classes cost in Horsham',
     intro: 'The price list fits in three lines.',
     first: 'A free first session that finishes with a recommended stage, course and slot.',
-    group: 'A month of group lessons, normally eight, with five to ten learners at your level.',
+    group: 'A month of group lessons, normally eight, with fifteen to twenty learners at your level.',
     private: 'About eight private lessons a month with one teacher.',
     closer: 'Horsham learners are charged the same US dollar rate as every other Australian family, with no country loading. Payment only begins once the trial has settled a course and a time; holidays, missed sessions and format changes are explained on the pricing page.'
   },
@@ -218,7 +218,7 @@ module.exports = {
       { q: 'When do Horsham lessons run?', a: 'After school, in the evening or at the weekend, agreed in the trial and written in Victorian time.' },
       { q: 'Are there lessons for younger children?', a: 'There are, from age 6, usually with Scratch and other visual tools, but this page is written for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Horsham?', a: 'No, and we do not claim one. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number on this page is an Indian one.', boiler: true },
-      { q: 'What do Horsham classes cost?', a: 'The first lesson is free. Afterwards a group place costs USD 100 a month for two live lessons a week, roughly eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'What do Horsham classes cost?', a: 'The first lesson is free. Afterwards a group place costs USD 100 a month for two live lessons a week, roughly eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'From five to ten, matched by level, pace and goals rather than by age or town. If no group suits a workable time, one-to-one lessons are offered.', boiler: true }
     ]
   },

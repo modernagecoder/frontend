@@ -4,7 +4,7 @@ description: "Live online data science for learners in the Netherlands: Python, 
 canonical: https://learn.modernagecoders.com/data-science-course-netherlands
 source: src/pages/data-science-course-netherlands.html
 ---
-> Modern Age Coders teaches data science live online to learners in the Netherlands: Python and statistics first, then SQL, data cleaning and visualisation, then machine learning. Every project starts with the same questions a statistics office asks of a new source: who is in this data, what does it really measure and how good is it? Teenagers, students and adults are placed by ability, in groups of five to ten or one to one, and non-programmers can start with analytics tools before Python. The trial lesson costs nothing; afterwards a group seat is USD 100 and private teaching USD 150 per month.
+> Modern Age Coders teaches data science live online to learners in the Netherlands: Python and statistics first, then SQL, data cleaning and visualisation, then machine learning. Every project starts with the same questions a statistics office asks of a new source: who is in this data, what does it really measure and how good is it? Teenagers, students and adults are placed by ability, in groups of fifteen to twenty or one to one, and non-programmers can start with analytics tools before Python. The trial lesson costs nothing; afterwards a group seat is USD 100 and private teaching USD 150 per month.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the Netherlands](/coding-classes-in-netherlands) / Data science
 
@@ -154,7 +154,7 @@ Our teachers are in India, where the clock stays put all year, so they are three
 - **Weekend** Saturday or Sunday, for longer analysis sessions.
 
 - **A free first lesson** You explore a real dataset with a teacher, who sees your level and proposes a route.
-- **Groups of five to ten** Learners at the same level from several countries, often analysing the same data differently.
+- **Groups of fifteen to twenty** Learners at the same level from several countries, often analysing the same data differently.
 - **One to one for theses** For a thesis analysis, a work project or a learner who prefers a teacher to themselves.
 - **Data questioned aloud** Teachers ask who is in the data and what it measures before any chart is drawn.
 - **In English** The language of the tools and libraries; Dutch datasets are used as they come.
@@ -165,7 +165,7 @@ Our teachers are in India, where the clock stays put all year, so they are three
 One monthly price in US dollars for every country outside India, whether the learner analyses data in spreadsheets or in Python. Joining is free of charge and there is no annual commitment.
 
 - Free first class: USD 0. A real lesson on real data. A route proposed. No card needed.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same live teacher each week. Analyses reviewed weekly. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same live teacher each week. Analyses reviewed weekly. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one learner. Built around a thesis or job. Pace set by your goal.
 
 ## What learners in the Netherlands ask about data science

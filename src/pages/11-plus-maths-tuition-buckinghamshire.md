@@ -246,7 +246,7 @@ Our teachers are in India, which is five and a half hours ahead of the UK in win
 
 - **The same teacher** Week after week, so the particular slips a child makes are noticed and fixed.
 - **A note home** What went well, what did not, and what to practise, in two or three honest sentences.
-- **Groups of five to ten** Matched by level, so every child is stretched and nobody is lost.
+- **Groups of fifteen to twenty** Matched by level, so every child is stretched and nobody is lost.
 - **Questions we write** All practice is our own. No Transfer Test or familiarisation material is copied.
 - **One to one if needed** For a stubborn gap, or a child who works better alone.
 - **Maths only** We do not teach verbal or non-verbal reasoning, and admissions questions go to the schools and the council.
@@ -256,7 +256,7 @@ Our teachers are in India, which is five and a half hours ahead of the UK in win
 Monthly, in US dollars, as for every family outside India. No joining fee and no term contract.
 
 - Free first class: USD 0. A real lesson, not a sales call. An honest view of the maths so far. No card needed.
-- Group batch: USD 100 a month. Five to ten children, one level. One regular teacher. Work checked and discussed. Certificate on completion.
+- Group batch: USD 100 a month. Fifteen to twenty children, one level. One regular teacher. Work checked and discussed. Certificate on completion.
 - One to one: USD 150 a month. One child and one teacher. Planned around the child's gaps. Useful in the summer of Year 5.
 
 ## What Buckinghamshire parents ask us

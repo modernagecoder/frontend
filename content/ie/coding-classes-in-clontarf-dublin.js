@@ -162,7 +162,7 @@ module.exports = {
     intro: 'The details.',
     cells: [
       { h3: 'Taught as it happens', p: 'The teacher leads every lesson live and follows each learner\'s code as they type it.' },
-      { h3: 'Level-matched', p: 'Five to ten learners sharing a level, whether they are in Clontarf, elsewhere in Ireland or abroad.' },
+      { h3: 'Level-matched', p: 'Fifteen to twenty learners sharing a level, whether they are in Clontarf, elsewhere in Ireland or abroad.' },
       { h3: 'Steady routine', p: 'Two set days a week, which works out at about eight lessons a month.' },
       { h3: 'School year in mind', p: 'The plan allows for holidays, mid-term breaks and exam season.' },
       { h3: 'Needed at home', p: 'A desktop or laptop, a microphone, a way to hear, and an internet connection that holds up on video.' },
@@ -175,7 +175,7 @@ module.exports = {
     h2: 'Fees for Clontarf',
     intro: 'Clearly stated.',
     first: 'A no-cost first lesson that includes a level check.',
-    group: 'A month in a group of five to ten at the same level, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at the same level, about eight live lessons.',
     private: 'A month of one-to-one lessons in the same pattern.',
     closer: 'Outside India one US dollar fee applies to every family, month by month. The free lesson involves no commitment, charging starts when the course does, and the pricing page covers holidays, missed lessons and moving between group and private lessons.'
   },
@@ -199,8 +199,8 @@ module.exports = {
       { q: 'What hours are the lessons?', a: 'Weekday lessons run from after school into the evening, and weekend ones in the daytime. We keep times in Irish time. The teachers work from India, which is four and a half hours ahead of Clontarf in the Irish summer and five and a half hours ahead in winter, so every slot we offer is chosen to be workable at both ends.' },
       { q: 'Can adults enrol?', a: 'Yes, anyone up to sixty-seven, whether or not they have coded before. After the free lesson an adult chooses a group at their level or one-to-one teaching.' },
       { q: 'Will my child learn alongside other Clontarf children?', a: 'Maybe, but we group by level, so classmates are just as likely to be elsewhere in Ireland or overseas.' },
-      { q: 'What do coding classes in Clontarf cost?', a: 'The first lesson is free. Then a group place is USD 100 a month for about eight live lessons, two a week, in a group of five to ten, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.', boiler: true },
-      { q: 'How many are in each group?', a: 'Five to ten learners, put together by level, pace and goals rather than age or neighbourhood. Where no group suits a workable time, lessons are one to one.', boiler: true }
+      { q: 'What do coding classes in Clontarf cost?', a: 'The first lesson is free. Then a group place is USD 100 a month for about eight live lessons, two a week, in a group of fifteen to twenty, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.', boiler: true },
+      { q: 'How many are in each group?', a: 'Fifteen to twenty learners, put together by level, pace and goals rather than age or neighbourhood. Where no group suits a workable time, lessons are one to one.', boiler: true }
     ]
   },
 

@@ -16,7 +16,7 @@ Dungarvan, County Waterford / Live online
 
 On the 2022 census form, anyone who could speak Irish was asked how often they spoke it, with five boxes to choose from, and a student could tick "daily, within the education system" as well as one of the other four. The statistics office publishes the answers as eleven separate categories, one for each combination that could be ticked. Read one of those categories on its own and it can pass for the whole answer: in Dungarvan the category "daily only outside the education system" holds 136 people, yet 182 ticked the daily-outside box. This page teaches the step that makes such tables usable, decoding a list of combinations back into one yes-or-no column per box, and then proving the decoding right with a single subtraction.
 
-Facts last verified 19 September 2026. Teaching is online; no Dungarvan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Dungarvan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four first courses for Dungarvan
 
@@ -173,7 +173,7 @@ Finding a matching row is easy for any tool. Knowing that the row is only part o
 The arrangements.
 
 - **Teacher present throughout** The teacher stays on the call for the whole lesson, looking at each learner's screen and code as they work.
-- **One level per group** Five to ten learners who are at the same point, whether they join from Dungarvan, another Irish town or abroad.
+- **One level per group** Fifteen to twenty learners who are at the same point, whether they join from Dungarvan, another Irish town or abroad.
 - **Two fixed days** Roughly eight lessons a month on two days agreed at enrolment, weekdays or weekends.
 - **Built around the school year** Term breaks, holidays and exam periods are part of the plan rather than interruptions to it.
 - **Kit needed** A computer with a keyboard, sound in and out, and an internet connection strong enough for video.
@@ -186,7 +186,7 @@ The arrangements.
 Everything, in three lines.
 
 - First class: USD 0. An opening lesson with a level check, free.
-- Group tuition: USD 100 a month. A month in a group of five to ten at the same stage: about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at the same stage: about eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one teaching on the same schedule.
 
 Any family living outside India pays one flat fee in US dollars. The opening lesson commits nobody to anything, payment starts only when the course does, and the pricing page explains what happens over holidays, after a missed lesson, or on a move from group to private lessons.

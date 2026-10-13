@@ -179,7 +179,7 @@ Teaching is live on video from India, five and a half hours ahead of the UK in w
 
 - **Finishing taught explicitly** We help a child cut a project down to something that can actually be completed, which is most of the work.
 - **Handover tested** Every project is run somewhere other than where it was built before we call it done.
-- **Five to ten learners** Enough that ideas cross the room, few enough that every project gets looked at.
+- **Fifteen to twenty learners** Enough that ideas cross the room, few enough that every project gets looked at.
 - **The child builds it** We teach and review. The project belongs to the young person and is theirs to submit.
 - **One to one when useful** For an ambitious build, or a child who would rather work alone.
 - **No role in the showcase** We do not register entries or have any relationship with the organiser.
@@ -189,7 +189,7 @@ Teaching is live on video from India, five and a half hours ahead of the UK in w
 A monthly fee in US dollars, identical in every country but India, with no registration charge and no tie-in.
 
 - Free first class: USD 0. A proper lesson with a teacher. A frank view of what a project needs. No payment details requested.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher weekly. Projects reviewed as they grow. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher weekly. Projects reviewed as they grow. A certificate at the end.
 - One to one: USD 150 a month. A teacher working with one builder. Shaped around the project. Useful in the weeks before a deadline.
 
 ## What parents and young builders ask

@@ -4,7 +4,7 @@ description: "Amsterdam publishes 73 of its algorithms in a public register, wit
 canonical: https://learn.modernagecoders.com/ai-and-python-academy-amsterdam
 source: src/pages/ai-and-python-academy-amsterdam.html
 ---
-> Modern Age Coders teaches Amsterdam learners aged six to sixty-seven a live online AI and Python track: Python typed by hand, then real data, then models whose error is measured, then agents whose mistakes show. Every project finishes with a short public write-up in the shape the City of Amsterdam uses for its own 73 entries in the national Algoritmeregister: purpose, data, human involvement, risks and how to object. Classes are in English, in groups of five to ten or one to one. The first lesson is free; after it, a group place costs USD 100 a month and one-to-one tuition USD 150.
+> Modern Age Coders teaches Amsterdam learners aged six to sixty-seven a live online AI and Python track: Python typed by hand, then real data, then models whose error is measured, then agents whose mistakes show. Every project finishes with a short public write-up in the shape the City of Amsterdam uses for its own 73 entries in the national Algoritmeregister: purpose, data, human involvement, risks and how to object. Classes are in English, in groups of fifteen to twenty or one to one. The first lesson is free; after it, a group place costs USD 100 a month and one-to-one tuition USD 150.
 
 [Home](/) / [Courses](/courses) / [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands) / Amsterdam
 
@@ -14,7 +14,7 @@ Amsterdam · Live online · Ages 6 to 67
 
 The City of Amsterdam uses algorithms to check parked cars, count crowds, spot households slipping into debt and help its own staff write. It also writes each of them down in public. In the Dutch government's Algoritmeregister, Gemeente Amsterdam has 73 entries, and each one states what the system is for, what data it uses, where a person steps in and what can go wrong. That is an unusual thing for a city to publish, and it is exactly the habit most AI courses never teach. A model that works is half a project. The other half is a plain account of what it does, how well, who checks it and how someone it gets wrong can put that right. This page teaches both halves, from a child's first program to an adult's working agent, live online for Amsterdam learners.
 
-At a glance: Who: Amsterdam learners from 6 to 67; What: Python, data, models, agents; Habit: Every project ends with a public write-up; How: Live video with one teacher; Group size: 5 to 10, or one to one; When: Dutch afternoons, evenings, weekends; Language: English, with Dutch school words kept; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Who: Amsterdam learners from 6 to 67; What: Python, data, models, agents; Habit: Every project ends with a public write-up; How: Live video with one teacher; Group size: 15 to 20, or one to one; When: Dutch afternoons, evenings, weekends; Language: English, with Dutch school words kept; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for three ages in Amsterdam
 
@@ -159,7 +159,7 @@ Amsterdam moves between CET and CEST each year and India stays on one time, so t
 - **Weekend** Saturday or Sunday, Amsterdam time. The simplest choice for working adults and families with full weekdays.
 
 - **The free first lesson** A proper lesson on a real problem. Watching how the learner works tells the teacher where to start, more reliably than any form.
-- **Groups of five to ten** Grouped by ability across many countries, so an advanced Amsterdam learner is stretched and a beginner has company at their level.
+- **Groups of fifteen to twenty** Grouped by ability across many countries, so an advanced Amsterdam learner is stretched and a beginner has company at their level.
 - **One to one if preferred** For irregular working hours, a narrow goal, an exam year, or the Copilot Studio courses, which are only taught individually.
 - **Both screens shared** The teacher sees the learner's code as it is written, so misunderstandings are fixed while they are small.
 - **English, with Dutch terms** Lessons are in English. Groep, havo, vwo and profielkeuze keep their Dutch names, as Amsterdam families use them.
@@ -170,7 +170,7 @@ Amsterdam moves between CET and CEST each year and India stays on one time, so t
 Monthly, in US dollars, at the same two rates as every country outside India. No Amsterdam surcharge, no registration fee, no yearly contract. Copilot Studio courses are one to one only and use that rate.
 
 - Free first class: USD 0. A taught lesson, not a pitch. Sets the starting rung. No payment details asked.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same live teacher throughout. Weekly review of built work. Certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same live teacher throughout. Weekly review of built work. Certificate at the end.
 - One to one: USD 150 a month. A teacher for one learner. Pace and content fitted to the goal. The only format for Copilot Studio.
 
 ## What Amsterdam families and adults ask before the first lesson

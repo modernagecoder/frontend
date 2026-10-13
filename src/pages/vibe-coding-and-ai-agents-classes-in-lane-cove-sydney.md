@@ -16,7 +16,7 @@ Lane Cove Council area, Sydney, New South Wales / Live online
 
 People rarely ask an assistant one complete question. They ask "how many people live in Lane Cove?", then "and the median age?", then "what about Mosman?". Each follow-up leans on something said earlier. We wrote 21 such turns and ran three small agents over the same Census table to see how much memory a follow-up really needs.
 
-Facts last verified 10 October 2026. Teaching is online; no Lane Cove branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Lane Cove branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for agents that follow a conversation
 
@@ -183,7 +183,7 @@ The council area runs from Greenwich to Lane Cove West, and a live online lesson
 - **At home** Learners join from their own desk, so the whole lesson is coding rather than travelling.
 - **In step with NSW** Plans follow the NSW syllabus stages and stop for the state school holidays, with senior work that suits computing electives.
 - **A real first class** The free lesson is taught like any other, and ends with a suggested course, level and time.
-- **Groups of five to ten** Classmates are matched on level and pace, with Lane Cove learners mixed with others.
+- **Groups of fifteen to twenty** Classmates are matched on level and pace, with Lane Cove learners mixed with others.
 - **Twice weekly** Two fixed lessons a week, roughly eight a month, with breaks planned ahead.
 - **Teachers in India** A 6pm Lane Cove lesson during daylight saving is 12:30pm India time; in Sydney standard time it is 1:30pm there.
 
@@ -194,7 +194,7 @@ The council area runs from Greenwich to Lane Cove West, and a live online lesson
 There are three prices and nothing else.
 
 - First class: USD 0. The first class is free and finishes with a recommendation.
-- Group tuition: USD 100 a month. A month of small-group lessons, normally eight, with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of small-group lessons, normally eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Roughly eight private lessons each month with one teacher.
 
 Outside India we invoice in US dollars, so every Lane Cove household is charged the same rate. Nothing is billed until the course and time are agreed after the trial; holidays, missed lessons and switching format are set out on the pricing page.
@@ -231,7 +231,7 @@ No. All lessons are live online, we have no premises in Australia, and the phone
 
 ### How much are AI agents classes for Lane Cove learners?
 
-The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before payment.
+The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before payment.
 
 ### How many people are in a group?
 

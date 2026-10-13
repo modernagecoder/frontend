@@ -184,7 +184,7 @@ Lessons come to you live from India. Melbourne clocks read four and a half hours
 - **By hand first** Every method practised without technology before the calculator comes out.
 - **Point tracking** Transformations checked one point at a time, every time.
 - **Exam-length sets** Short timed practice that mirrors a one-hour paper.
-- **Small groups** Five to ten students at one level, each explaining a method aloud.
+- **Small groups** Fifteen to twenty students at one level, each explaining a method aloud.
 - **One-to-one sessions** For a single topic that needs repair before the exams.
 - **Honest about outcomes** We never forecast a study score or an ATAR; the effort and the result are the student's.
 
@@ -193,7 +193,7 @@ Lessons come to you live from India. Melbourne clocks read four and a half hours
 Methods tutoring is billed monthly in US dollars at one rate for all families outside India, with no sign-up fee and nothing owed beyond the current month.
 
 - Free first class: USD 0. A full maths lesson with a tutor. A straight answer on what to fix. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. The same tutor each week. Practice marked and discussed. A certificate on completion.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same tutor each week. Practice marked and discussed. A certificate on completion.
 - One to one: USD 150 a month. A tutor for one student. Built around one weak topic. Popular in the final weeks before November.
 
 ## Methods questions we hear most

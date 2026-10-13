@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-germany.html
 
 In short
 
-Modern Age Coders is a live online school teaching learners in Germany from age 6 to age 67, in batches of five to eight or privately. The subject is model building, not tool use: Python first, then the statistics under it, then training and testing models on published German data such as the Bundesnetzagentur SMARD electricity series. Teaching is in English, on German clock time. A group place is USD 100 a month, billed in US dollars, and the first class costs nothing.
+Modern Age Coders is a live online school teaching learners in Germany from age 6 to age 67, in batches of fifteen to twenty or privately. The subject is model building, not tool use: Python first, then the statistics under it, then training and testing models on published German data such as the Bundesnetzagentur SMARD electricity series. Teaching is in English, on German clock time. A group place is USD 100 a month, billed in US dollars, and the first class costs nothing.
 
 The catalogue
 
@@ -308,7 +308,7 @@ German time, the default German cohort and the strongest build slot. India: 13:0
 
 ### What a session is
 
-Each slot is ninety minutes of live video, because a build task does not fit inside an hour. Both screens stay shared, so a mistake gets argued about in the minute it is typed rather than found in a marked file on Thursday. Batches hold five to eight learners, or one to one, and between sessions there is something to build and bring back.
+Each slot is ninety minutes of live video, because a build task does not fit inside an hour. Both screens stay shared, so a mistake gets argued about in the minute it is typed rather than found in a marked file on Thursday. Batches hold fifteen to twenty learners, or one to one, and between sessions there is something to build and bring back.
 
 The clock change here is not merely a scheduling nuisance, it is part of the first project. The SMARD hourly series is published on German local time, so 25 October 2026 contains 25 hours and 29 March 2026 contains 23.
 
@@ -388,7 +388,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight learners, one named teacher
+- Fifteen to twenty learners, one named teacher
 - Live video only, nothing resold as a recording
 - A build task every week, reviewed by name
 - Certificate on completion
@@ -477,7 +477,7 @@ Three slots, all German local time: Tuesday and Thursday 17:00 to 18:30, Wednesd
 
 ### What does it cost?
 
-A group batch of five to eight students is USD 100 a month and one to one teaching is USD 150 a month. Pricing is flat and billed in US dollars everywhere outside India, so there is no euro price list to track. Billing is monthly and the first class is free.
+A group batch of fifteen to twenty students is USD 100 a month and one to one teaching is USD 150 a month. Pricing is flat and billed in US dollars everywhere outside India, so there is no euro price list to track. Billing is monthly and the first class is free.
 
 ### Our school already has Informatik as a Pflichtfach. Why would we add this?
 

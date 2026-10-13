@@ -16,7 +16,7 @@ Torquay, Torbay, Devon / Live online
 
 Most machine learning that makes the news is supervised: the network is shown the right answers and adjusts until it matches them. A self-organising map gets no answers at all. It is a grid of nodes, each holding a made-up description of a census area. Show it a real area, find the node that resembles it most, and nudge that node and its grid neighbours a little closer to the area. Repeat a few thousand times and the grid rearranges itself until neighbouring nodes describe similar kinds of place. Torbay has 479 census output areas, which a Torquay learner can feed to such a map in a few dozen lines of Python, and then test whether the promised order really appeared.
 
-Facts last verified 30 September 2026. Teaching is online; no Torquay branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Torquay branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Thinking, vibe coding and AI courses for Torquay
 
@@ -142,7 +142,7 @@ You need a computer, a webcam and broadband that copes with video.
 - **Learner does the work** The student writes and runs everything on a shared screen while the tutor asks what each line is for.
 - **Start point from the trial** The free lesson tells us the level, and we take down the exam board where it applies.
 - **First class free** There is no charge and no card request, and you leave with a course suggestion.
-- **Groups of a kind** Five to ten learners at one stage, joined from towns all over the UK.
+- **Groups of a kind** Fifteen to twenty learners at one stage, joined from towns all over the UK.
 - **Two lessons weekly** School holidays are skipped when you send the dates.
 - **No drifting slot** British Summer Time is absorbed at the tutor's end, so the lesson hour is constant.
 

@@ -182,7 +182,7 @@ module.exports = {
       { h3: 'No connection to catch', p: 'A learner in Oud-Diemen and a learner in Holland Park start the same lesson at the same moment, each from home, with no metro or train in between.' },
       { h3: 'School words in Dutch', p: 'Groep, brugklas, vmbo, havo, vwo and profielkeuze stay in Dutch, as Diemen families use them, while the teaching is in English.' },
       { h3: 'The first hour is free', p: 'It is a real lesson on a real task. The teacher then recommends a level, a course and a regular time, and asks for no payment details.' },
-      { h3: 'Groups from further afield', p: 'Five to ten learners at the same stage. Diemen has 4,794 residents under fifteen, too few to fill every level and hour locally, so groups include learners from other places and countries.' },
+      { h3: 'Groups from further afield', p: 'Fifteen to twenty learners at the same stage. Diemen has 4,794 residents under fifteen, too few to fill every level and hour locally, so groups include learners from other places and countries.' },
       { h3: 'Regio Noord holidays', p: 'Twice a week, about eight lessons a month, at a fixed hour, pausing for the regio Noord holidays that Noord-Holland schools keep.' },
       { h3: 'Teachers a few hours ahead', p: 'The teachers are in India, three and a half hours ahead of Diemen in summer and four and a half in winter, so late afternoons, evenings and weekend mornings all work.' }
     ],
@@ -193,7 +193,7 @@ module.exports = {
     h2: 'What classes cost in Diemen',
     intro: 'The whole price list, set out here.',
     first: 'A real lesson on a real task, ending with a level and a course.',
-    group: 'Per month, normally eight lessons, five to ten learners at one level.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners at one level.',
     private: 'Per month, normally eight lessons, one learner and one teacher.',
     closer: 'The fee is one dollar price for every country, with no euro list, so a household in Diemen-Noord pays what a household in Diemen-Zuid pays. Nothing is charged until the free lesson has settled a course and a time, and payment is then arranged on WhatsApp. The pricing page covers pauses, format changes and missed lessons.'
   },
@@ -218,7 +218,7 @@ module.exports = {
       { q: 'How many schools are there in Diemen?', a: 'The statistics count 7 primary establishments teaching 2,423 pupils and one secondary establishment, with 527 MBO, 830 higher professional and 1,890 university students at institutions in the municipality. This page rates no school.' },
       { q: 'What language are lessons in, and when are they?', a: 'In English, with Dutch school terms such as brugklas, havo and vwo kept as they are. The teachers work from India, three and a half hours ahead of Diemen in summer and four and a half in winter, so late-afternoon, evening and weekend times are easy to arrange. The time is agreed in the free lesson, and regio Noord holidays are kept.' },
       { q: 'Is there a Modern Age Coders classroom in Diemen?', a: 'No, and none is claimed here or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Diemen coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Diemen coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Truro learner
 canonical: https://learn.modernagecoders.com/best-coding-class-in-truro
 source: src/pages/best-coding-class-in-truro.html
 ---
-> Cornwall had 570,305 usual residents at the 2021 census, and Truro West, the largest of three middle-layer areas named after the city, had 10,739. Truro Cathedral records that its foundation stones were laid on 20 May 1880. Truro learners between six and sixty-seven study with us live over video, taught by teachers in India either alone or in a class of five to ten at one level, with lesson times built around English school hours and the working day. The opening lesson is on us; from then on, a group place is USD 100 a month, or USD 150 a month for one-to-one teaching.
+> Cornwall had 570,305 usual residents at the 2021 census, and Truro West, the largest of three middle-layer areas named after the city, had 10,739. Truro Cathedral records that its foundation stones were laid on 20 May 1880. Truro learners between six and sixty-seven study with us live over video, taught by teachers in India either alone or in a class of fifteen to twenty at one level, with lesson times built around English school hours and the working day. The opening lesson is on us; from then on, a group place is USD 100 a month, or USD 150 a month for one-to-one teaching.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Truro
 
@@ -12,11 +12,11 @@ Truro, Cornwall / Live online
 
 # Coding classes in Truro
 
-**What are the best coding classes in Truro?** Cornwall had 570,305 usual residents at the 2021 census, and Truro West, the largest of three middle-layer areas named after the city, had 10,739. Truro Cathedral records that its foundation stones were laid on 20 May 1880. Truro learners between six and sixty-seven study with us live over video, taught by teachers in India either alone or in a class of five to ten at one level, with lesson times built around English school hours and the working day. The opening lesson is on us; from then on, a group place is USD 100 a month, or USD 150 a month for one-to-one teaching.
+**What are the best coding classes in Truro?** Cornwall had 570,305 usual residents at the 2021 census, and Truro West, the largest of three middle-layer areas named after the city, had 10,739. Truro Cathedral records that its foundation stones were laid on 20 May 1880. Truro learners between six and sixty-seven study with us live over video, taught by teachers in India either alone or in a class of fifteen to twenty at one level, with lesson times built around English school hours and the working day. The opening lesson is on us; from then on, a group place is USD 100 a month, or USD 150 a month for one-to-one teaching.
 
 Look at a map around Truro and the names begin with the same few letters: Treliske, Tresillian, Trelissick, Penelewey. Our Truro project asks where those names stop. Teenagers take every settlement Ordnance Survey names in Cornwall, Devon and Torbay, 2,385 in all, and pull out those beginning Tre-, Pol- and Pen-. Of the 183 Tre- names, 182 are in Cornwall. Then they use the Kolmogorov-Smirnov test to compare where the Tre- names sit from west to east with where every other name sits, and find the gap is far too large to be chance. The surprise comes when they run the same test inside Cornwall alone.
 
-Facts last verified 23 September 2026. Teaching is online; no Truro branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Truro branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for Cornwall's cathedral city
 
@@ -170,7 +170,7 @@ Truro has villages on every side, from Idless to Playing Place. Online, each of 
 - **City and villages** A learner in Idless and another in Playing Place can be in the same class without anyone driving into the city.
 - **School years in England** Our levels are set out to match English school years, from primary to GCSE and A level, and every lesson is delivered in English.
 - **What happens first** The free session has the learner make something real, and closes with the teacher's suggestion of level, course and a weekly time. Card details are never requested.
-- **One level per class** Classes of five to ten learners at the same stage, from Truro, elsewhere in the UK and overseas, so there are workable times at every level.
+- **One level per class** Classes of fifteen to twenty learners at the same stage, from Truro, elsewhere in the UK and overseas, so there are workable times at every level.
 - **Twice a week** Two set lessons weekly, around eight a month, with holidays and exam weeks planned together with the teacher.
 - **Evenings in India** Our teachers live on Indian time, which never changes for summer, so an early-evening class in Cornwall falls late in their evening: half past nine there for a 5 pm start here in summer, half past ten once the clocks go back.
 
@@ -181,7 +181,7 @@ Truro has villages on every side, from Idless to Playing Place. Online, each of 
 Nothing to pay for the first lesson, then one fee a month.
 
 - First class: USD 0. A full lesson with no charge, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. Around eight live lessons each month, in a class of five to ten learners at one stage.
+- Group tuition: USD 100 a month. Around eight live lessons each month, in a class of fifteen to twenty learners at one stage.
 - Private tuition: USD 150 a month. Around eight live lessons each month, with a teacher devoted to your learner alone.
 
 Families in Tresillian or Shortlanesend pay in US dollars, as every family outside India does, and no pound prices appear anywhere on our site. The first bill comes only after the free lesson and only once a course and a regular slot are settled; the pricing page answers questions on breaks, lessons a learner cannot attend and moving between group and private teaching.
@@ -222,11 +222,11 @@ No. There is no centre in Truro or anywhere in the UK, because every lesson is l
 
 ### How much are Truro lessons?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same timetable cost USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same timetable cost USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are learners grouped?
 
-By level, pace and goals rather than age or location, with five to ten learners at the same stage. If no group suits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than age or location, with fifteen to twenty learners at the same stage. If no group suits the learner's week, we offer one-to-one lessons.
 
 ## The South West and beyond
 

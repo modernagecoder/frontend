@@ -4,7 +4,7 @@ description: "Live online coding and AI classes for Kirkby, Northwood, Southdene
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-kirkby
 source: src/pages/best-coding-and-ai-classes-in-kirkby.html
 ---
-> The ONS gives the Kirkby built-up area 45,560 usual residents at the 2021 census, and the borough of Knowsley 154,519; a small part of that built-up area lies outside Knowsley. Northwood, Southdene, Tower Hill and Westvale are gazetteer suburbs whose nearest postcodes are inside it. People in Kirkby aged six to 67 learn coding, AI, Python, vibe coding and maths with Modern Age Coders in live online classes. Tutors in India take each class, either privately or with five to ten learners at a matching level, and every project involves calculating something real. Our course advice follows a free first lesson. In the Kirkby project the learner downloads the boundaries of 137 census neighbourhoods, writes two shape scores in Python, and finds that the question "which is the oddest shape?" has more than one honest answer. From then on it is USD 100 each month in a group, or USD 150 each month for one-to-one.
+> The ONS gives the Kirkby built-up area 45,560 usual residents at the 2021 census, and the borough of Knowsley 154,519; a small part of that built-up area lies outside Knowsley. Northwood, Southdene, Tower Hill and Westvale are gazetteer suburbs whose nearest postcodes are inside it. People in Kirkby aged six to 67 learn coding, AI, Python, vibe coding and maths with Modern Age Coders in live online classes. Tutors in India take each class, either privately or with fifteen to twenty learners at a matching level, and every project involves calculating something real. Our course advice follows a free first lesson. In the Kirkby project the learner downloads the boundaries of 137 census neighbourhoods, writes two shape scores in Python, and finds that the question "which is the oddest shape?" has more than one honest answer. From then on it is USD 100 each month in a group, or USD 150 each month for one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Kirkby
 
@@ -12,11 +12,11 @@ Kirkby, Knowsley, Merseyside / Live online
 
 # Coding and AI classes in Kirkby
 
-**Which coding and AI classes are best for Kirkby?** The ONS gives the Kirkby built-up area 45,560 usual residents at the 2021 census, and the borough of Knowsley 154,519; a small part of that built-up area lies outside Knowsley. Northwood, Southdene, Tower Hill and Westvale are gazetteer suburbs whose nearest postcodes are inside it. People in Kirkby aged six to 67 learn coding, AI, Python, vibe coding and maths with Modern Age Coders in live online classes. Tutors in India take each class, either privately or with five to ten learners at a matching level, and every project involves calculating something real. Our course advice follows a free first lesson. In the Kirkby project the learner downloads the boundaries of 137 census neighbourhoods, writes two shape scores in Python, and finds that the question "which is the oddest shape?" has more than one honest answer. From then on it is USD 100 each month in a group, or USD 150 each month for one-to-one.
+**Which coding and AI classes are best for Kirkby?** The ONS gives the Kirkby built-up area 45,560 usual residents at the 2021 census, and the borough of Knowsley 154,519; a small part of that built-up area lies outside Knowsley. Northwood, Southdene, Tower Hill and Westvale are gazetteer suburbs whose nearest postcodes are inside it. People in Kirkby aged six to 67 learn coding, AI, Python, vibe coding and maths with Modern Age Coders in live online classes. Tutors in India take each class, either privately or with fifteen to twenty learners at a matching level, and every project involves calculating something real. Our course advice follows a free first lesson. In the Kirkby project the learner downloads the boundaries of 137 census neighbourhoods, writes two shape scores in Python, and finds that the question "which is the oddest shape?" has more than one honest answer. From then on it is USD 100 each month in a group, or USD 150 each month for one-to-one.
 
 A circle is as compact as a shape can be. A long thin strip is not. Between those two, deciding which shape is "odder" sounds like a matter of taste, but there are formulas for it, and people use them to judge everything from census areas to land parcels. The trouble is that the standard formulas disagree, and one of them changes its answer depending on how finely the boundary was drawn. Kirkby's census neighbourhoods, whose edges follow streets and property lines rather than any geometry, make an ideal test.
 
-Facts last verified 1 October 2026. Teaching is online; no Kirkby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 1 October 2026. Teaching is online; no Kirkby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Coding and AI courses for Kirkby learners
 
@@ -134,11 +134,11 @@ Lessons take place live over video. You need a computer with a keyboard; a table
 - **Learner does the typing** Code is written and run by the learner, with the tutor asking why.
 - **Level set by the trial** We see the learner's skills in the free lesson before naming a course.
 - **No payment to try** The first lesson is free and needs no card.
-- **Classes of five to ten** Groups share a level, with classmates from across the UK.
+- **Classes of fifteen to twenty** Groups share a level, with classmates from across the UK.
 - **About eight a month** Two lessons a week in term, with Knowsley holidays left free on request.
 - **No clock-change confusion** Your UK lesson time holds steady all year.
 
-**Why lessons are online** Finding five to ten learners at exactly the same stage is easier across the country than in one town. Video brings them together without travel.
+**Why lessons are online** Finding fifteen to twenty learners at exactly the same stage is easier across the country than in one town. Video brings them together without travel.
 
 ## Costs for Kirkby learners
 

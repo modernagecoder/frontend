@@ -199,7 +199,7 @@ module.exports = {
     h2: 'Navan class fees',
     intro: 'Three lines, in full.',
     first: 'The opening lesson, taught and assessed in full, with no charge.',
-    group: 'A month in an ability group of five to ten learners, about eight live lessons.',
+    group: 'A month in an ability group of fifteen to twenty learners, about eight live lessons.',
     private: 'A month of one to one teaching on the same weekly pattern.',
     closer: 'Fees are monthly, in US dollars, at the one rate used for every family outside India, so Navan sees the same figure as Ashbourne or Drogheda and no second list in another currency. Nothing is charged before the opening lesson has fixed a course and an hour, and the pricing page sets out breaks, missed weeks and moving between group and private teaching.'
   },
@@ -224,7 +224,7 @@ module.exports = {
       { q: 'Do you teach adults in Navan?', a: 'Yes. Our oldest learners are in their sixties, beginners are common, and where an adult ends up, in a group of peers at the same stage or alone with a teacher, is settled by what happens in the opening hour.' },
       { q: 'Is maths a big part of the courses?', a: 'Only as much as the project needs. Some learners take a maths through coding course deliberately; others meet arithmetic through games, data and small tools without it ever being a maths lesson.' },
       { q: 'Is there a Modern Age Coders classroom in Navan?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Navan cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Navan cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

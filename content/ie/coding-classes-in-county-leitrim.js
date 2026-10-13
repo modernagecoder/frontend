@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in County Leitrim',
   capsuleQ: 'What are the best coding classes in County Leitrim?',
-  capsule: 'Leitrim has 35,199 residents and 22 of them for every square kilometre, the thinnest spread of any county in the State. Carrick-on-Shannon is the biggest town at 4,743 and after that nothing reaches two thousand: Manorhamilton 1,667, Drumshanbo 1,240, Ballinamore 1,112, Mohill 1,027. Classes here run the same way they run everywhere we teach: live, weekly, at a fixed hour, in ability groups of five to ten or one to one, for ages six to sixty-seven. The first is free, then USD 100 a month in a group or USD 150 privately.',
+  capsule: 'Leitrim has 35,199 residents and 22 of them for every square kilometre, the thinnest spread of any county in the State. Carrick-on-Shannon is the biggest town at 4,743 and after that nothing reaches two thousand: Manorhamilton 1,667, Drumshanbo 1,240, Ballinamore 1,112, Mohill 1,027. Classes here run the same way they run everywhere we teach: live, weekly, at a fixed hour, in ability groups of fifteen to twenty or one to one, for ages six to sixty-seven. The first is free, then USD 100 a month in a group or USD 150 privately.',
   lead: 'In 2022, 77 people cycled to work in County Leitrim. That was 27 more than in 2016, so somebody could correctly write that cycling to work here rose by more than half in six years. Twenty seven people. Over the same period walking to work fell, from 697 people to 686, a decline of eleven individuals that a chart would render as a downward line. This is the whole difficulty with small places. Every percentage is arithmetically correct and almost none of them mean what they appear to mean, because the numbers underneath are small enough that a handful of people changing jobs moves everything. The habit this county teaches is short and permanent: before you believe a percentage, ask how many people.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in County Leitrim.',
 
@@ -179,7 +179,7 @@ module.exports = {
     cells: [
       { h3: 'One live hour, weekly', p: 'A teacher present throughout, expecting the learner to speak and to be wrong out loud.' },
       { h3: 'Distance stops mattering', p: 'Kinlough to Carrick-on-Shannon is most of the county. Online, it is nothing at all.' },
-      { h3: 'A group that could not otherwise exist', p: 'Five to ten learners at one level, gathered from Leitrim and several other countries, which in a county of 35,199 is the only way the right group ever forms.' },
+      { h3: 'A group that could not otherwise exist', p: 'Fifteen to twenty learners at one level, gathered from Leitrim and several other countries, which in a county of 35,199 is the only way the right group ever forms.' },
       { h3: 'What is needed', p: 'A laptop or desktop, working sound and a line that carries video, which the free lesson tests directly.' },
       { h3: 'Built around Irish terms', p: 'Junior Cycle, Transition Year and senior cycle, with mid-terms and exam weeks planned for.' },
       { h3: 'Our teaching hours', p: 'Afternoons, evenings and weekend mornings, taught by a team working several hours ahead of Irish time.' }
@@ -191,7 +191,7 @@ module.exports = {
     h2: 'Leitrim class fees',
     intro: 'Three figures, and the terms said out loud.',
     first: 'A full first lesson at no cost, ending with a level and a recommended course.',
-    group: 'A month of group classes, about eight lessons, five to ten learners at one level.',
+    group: 'A month of group classes, about eight lessons, fifteen to twenty learners at one level.',
     private: 'A month of one to one teaching on the same weekly pattern.',
     closer: 'Billing is monthly in US dollars at the one rate we charge outside India, so Manorhamilton pays exactly what Carrick-on-Shannon pays and there is no euro list to compare with. Nothing is charged until a course and an hour are agreed in the free lesson. Pauses, missed lessons and moving between group and one to one are all written out on the pricing page.'
   },
@@ -212,11 +212,11 @@ module.exports = {
       { q: 'What is the Leitrim data project?', a: 'Students put the missing counts back into percentages. The headline case is cycling to work, which rose by more than half and by 27 people, alongside walking, which fell by eleven.' },
       { q: 'How big is Carrick-on-Shannon?', a: 'Its built-up area held 4,743 people in 2022, and the statistics office records that area as spanning Leitrim and Roscommon, so that figure covers the whole town rather than the Leitrim side of it.' },
       { q: 'Did a Leitrim school offer Leaving Certificate Computer Science from the start?', a: 'No Leitrim school appears on the forty-school first-phase list published in January 2018. Every county reference in that table was checked. It says nothing about schools here today.' },
-      { q: 'Is it harder to find a class in a county this small?', a: 'In a room, yes, and that is the honest answer. A child may be the only one in their year with a serious interest. Online, we place them with five to ten learners at the same level from across several countries.' },
+      { q: 'Is it harder to find a class in a county this small?', a: 'In a room, yes, and that is the honest answer. A child may be the only one in their year with a serious interest. Online, we place them with fifteen to twenty learners at the same level from across several countries.' },
       { q: 'Do you teach in north Leitrim as well?', a: 'Yes. Manorhamilton and Kinlough get exactly the same class at exactly the same hour as Carrick-on-Shannon, which is the point of the format.' },
       { q: 'When do classes run?', a: 'Afternoons, evenings and weekend mornings, at an hour fixed during the free lesson. Our teaching team works several hours ahead of Irish time.' },
       { q: 'Is there a Modern Age Coders classroom in County Leitrim?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do County Leitrim coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do County Leitrim coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

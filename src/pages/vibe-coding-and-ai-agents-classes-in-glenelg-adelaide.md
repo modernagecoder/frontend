@@ -16,7 +16,7 @@ Glenelg, City of Holdfast Bay, South Australia / Live online
 
 Trams reach Moseley Square on every day of the week in the timetable, so a count of Wednesday tram visits at Glenelg should not be zero. Our scripted agent's code said zero, and the test it wrote for that code passed. The test was checking the code against itself.
 
-Facts last verified 13 October 2026. Teaching is online; no Glenelg branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Glenelg branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for testing what agents build
 
@@ -175,7 +175,7 @@ Each lesson is a live video class; there is no venue to visit.
 - **Shared screen** Prompts, code and test results are all read together.
 - **Term-time rhythm** Classes follow South Australian school terms with holiday breaks.
 - **Opening class free** A real first lesson, then honest advice on next steps.
-- **Small groups** Five to ten learners at a matching level, or private lessons.
+- **Small groups** Fifteen to twenty learners at a matching level, or private lessons.
 - **Twice a week** Regular slots, roughly eight lessons a month.
 - **India time** Our teachers are in India: a 6pm Glenelg class is 1pm India time until early April, then 2pm.
 
@@ -186,7 +186,7 @@ Each lesson is a live video class; there is no venue to visit.
 The same three prices for all.
 
 - First class: USD 0. Your first lesson is free and comes with a written plan.
-- Group tuition: USD 100 a month. Group month: about eight lessons with five to ten learners.
+- Group tuition: USD 100 a month. Group month: about eight lessons with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private month: about eight lessons with one teacher.
 
 Glenelg learners pay in US dollars after the trial, once course and timing are agreed. The pricing page details holidays and absences.
@@ -223,11 +223,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Glenelg learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Do Glenelg groups learn Copilot Studio?
 

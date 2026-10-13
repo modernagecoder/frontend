@@ -178,7 +178,7 @@ A class that happens at home does not care whether the Wadi Adai corridor is mov
 
 The placement class carries a real task and a real recommendation. No card is requested and no course is committed to until the family has seen how a lesson runs.
 
-### Five to eight learners together
+### Fifteen to twenty learners together
 
 Group members are matched on level and goal. In a wilayat this spread out, a group can contain learners from areas that would never share a physical classroom.
 
@@ -210,7 +210,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -320,7 +320,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Al Amarat learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Al Amarat class times arranged?
 

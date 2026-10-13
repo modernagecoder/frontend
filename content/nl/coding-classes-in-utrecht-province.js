@@ -37,7 +37,7 @@ module.exports = {
 
   h1: 'Coding classes in the province of Utrecht, the smallest province in the country on one measure and the fifth largest on another',
   capsuleQ: 'What are the best coding classes in the province of Utrecht?',
-  capsule: 'Coding classes in the province of Utrecht serve 1,415,104 people in 26 municipalities (Statistics Netherlands, 1 January 2026), of whom 378,121 live in the city that shares the province\'s name and has a page of its own. The province is the smallest of the twelve by total area, the second smallest by land, the fifth by population and the third by density, and which of those a person quotes tells you what they wanted to say. From Renswoude to the city itself the offer is one class, live online, in English, for learners from 6 to 67, with the first lesson free and a monthly fee of USD 100 for a group of five to ten or USD 150 for private tuition.',
+  capsule: 'Coding classes in the province of Utrecht serve 1,415,104 people in 26 municipalities (Statistics Netherlands, 1 January 2026), of whom 378,121 live in the city that shares the province\'s name and has a page of its own. The province is the smallest of the twelve by total area, the second smallest by land, the fifth by population and the third by density, and which of those a person quotes tells you what they wanted to say. From Renswoude to the city itself the offer is one class, live online, in English, for learners from 6 to 67, with the first lesson free and a monthly fee of USD 100 for a group of fifteen to twenty or USD 150 for private tuition.',
   lead: '"Utrecht is the smallest province" is a sentence everyone in Amersfoort or Veenendaal has heard, and it is true, on exactly one of the four measures a province is normally ranked by. On the other three it is second, fifth and third. A child who can build the small program that produces all four rankings from the same twelve rows has learned what a superlative is worth, which is nothing until its measure is named.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in the province of Utrecht.',
 
@@ -181,7 +181,7 @@ module.exports = {
     h2: 'What the twenty-six municipalities pay: nothing, then USD 100 or USD 150',
     intro: 'The whole tariff, printed before anyone is asked for a phone number.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'Dollars, one rate worldwide outside India, no euro edition, Zeist and Renswoude charged alike. Course and hour first, in the free lesson; money afterwards, over WhatsApp. The pricing page covers pauses, changes and missed lessons.'
   },
@@ -206,7 +206,7 @@ module.exports = {
       { q: 'What time are classes for a family in the province of Utrecht?', a: 'Because only the Dutch clock changes, an afternoon in the province sits four and a half hours behind the teacher in winter and three and a half in summer. Late afternoon, early evening and weekends suit both ends, and the weekly hour is chosen in the free lesson.' },
       { q: 'What happens in the free lesson?', a: 'We find what the learner can do and set one task there. A child lines up twelve province cards two ways. A teenager sorts the twelve rows four ways in Python and writes one honest superlative. An adult brings a league from work. By the end there is a course, a level, a fixed weekly time and a fee in dollars on the table, and no payment has been made.' },
       { q: 'Is there a Modern Age Coders classroom anywhere in the province of Utrecht?', a: 'No, and none is claimed in Utrecht, in Amersfoort or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do coding classes in the province of Utrecht cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do coding classes in the province of Utrecht cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or municipality. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

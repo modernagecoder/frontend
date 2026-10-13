@@ -16,7 +16,7 @@ Carindale, City of Brisbane, Queensland / Live online
 
 Carindale is a suburb of separate houses with a shopping centre and bus interchange near its middle. The Translink timetable for Wednesday 21 October 2026 shows 5,556 stop visits inside the suburb, all by bus, on 23 routes. One stop record, number 6291, collects 244 of those visits from ten routes, a neat small data set for the oldest trick in language models.
 
-Facts last verified 12 October 2026. Teaching is online; no Carindale branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Carindale branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI and programming courses
 
@@ -177,7 +177,7 @@ Lessons happen on a live video call, so the classroom is wherever the laptop is.
 - **Teacher on screen** Explanations, questions and code review happen live in every lesson.
 - **Term-time schedule** Weekly lessons pause for Queensland school holidays.
 - **Free opening session** One full lesson at no charge, followed by a written suggestion.
-- **Who learns together** Groups of five to ten at one level, or a private teacher.
+- **Who learns together** Groups of fifteen to twenty at one level, or a private teacher.
 - **Twice a week** About eight lessons a month.
 - **Brisbane and India** A 6pm Carindale class is 1:30pm for our teachers in India.
 
@@ -188,7 +188,7 @@ Lessons happen on a live video call, so the classroom is wherever the laptop is.
 Fees are the same for every learner.
 
 - First class: USD 0. There is no charge for the opening lesson, which ends with a plan.
-- Group tuition: USD 100 a month. Group option: around eight lessons a month with five to ten classmates.
+- Group tuition: USD 100 a month. Group option: around eight lessons a month with fifteen to twenty classmates.
 - Private tuition: USD 150 a month. Private option: around eight lessons a month, one to one.
 
 Carindale families pay in US dollars, and only once the trial has fixed the course and lesson times. Holidays and missed lessons are covered on the pricing page.
@@ -225,11 +225,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Carindale classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### How many bus routes stop in Carindale?
 

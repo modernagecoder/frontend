@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding classes in County Tipperary',
   capsuleQ: 'What are the best coding classes in County Tipperary?',
-  capsule: 'County Tipperary holds 167,895 people, 8,342 more than in 2016, including 33,286 children aged 15 and under. Clonmel is the largest town at 18,369, with Nenagh at 9,895 and Thurles at 8,185, and the county has run as a single council since the North and South Riding councils merged. Its third level rate is 38% against 45% nationally, one of several counties where that gap is wide. We teach ages 6 to 67 live online at a fixed weekly hour, in groups of five to ten placed by ability or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.',
+  capsule: 'County Tipperary holds 167,895 people, 8,342 more than in 2016, including 33,286 children aged 15 and under. Clonmel is the largest town at 18,369, with Nenagh at 9,895 and Thurles at 8,185, and the county has run as a single council since the North and South Riding councils merged. Its third level rate is 38% against 45% nationally, one of several counties where that gap is wide. We teach ages 6 to 67 live online at a fixed weekly hour, in groups of fifteen to twenty placed by ability or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.',
   lead: 'We went looking for Tipperary council data for this page and found something more interesting than a spreadsheet. The council publishes nothing at all on the national data portal, which its own publisher page states plainly: zero datasets. It does run open data pages on its own website, and every attempt to read them returned a security block instead, the kind that stops automated requests. So the data may well exist and we cannot see it. At that point there are two kinds of person. One goes looking for a way around the block. The other writes down exactly what happened, quotes the message, and uses a source that gives permission. We are teaching children to be the second kind, and this page explains why that is the more valuable habit in a career, not just the more polite one.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in County Tipperary.',
 
@@ -180,7 +180,7 @@ module.exports = {
     cells: [
       { h3: 'A teacher, live, every week', p: 'Not a video library with a chat box. Someone is there for the hour and expects the learner to speak.' },
       { h3: 'Zero travel', p: 'In a county where one commuter in a hundred takes a bus, that is the whole argument.' },
-      { h3: 'Placed on ability', p: 'Groups of five to ten at one level, drawn from Tipperary and other countries so a suitable class exists at a workable hour.' },
+      { h3: 'Placed on ability', p: 'Groups of fifteen to twenty at one level, drawn from Tipperary and other countries so a suitable class exists at a workable hour.' },
       { h3: 'Irish school shape', p: 'Junior Cycle, Transition Year, fifth and sixth year, with mid-terms and exams planned around.' },
       { h3: 'Same hour, every week', p: 'Two lessons in most weeks, about eight a month, agreed once and then kept.' },
       { h3: 'A time zone ahead', p: 'Teachers work from India, four and a half hours ahead of Ireland in summer and five and a half in winter.' }
@@ -192,7 +192,7 @@ module.exports = {
     h2: 'Tipperary class fees',
     intro: 'Three figures, and the conditions stated up front rather than in a footnote.',
     first: 'A full first lesson at no cost, ending with a level and a recommendation.',
-    group: 'A month of group classes, normally eight lessons, five to ten learners at one level.',
+    group: 'A month of group classes, normally eight lessons, fifteen to twenty learners at one level.',
     private: 'A month of one to one classes on the same weekly pattern.',
     closer: 'We bill monthly in US dollars at the single rate charged outside India, so Nenagh and Carrick-on-Suir pay the same and there is no euro list to compare against. Nothing is charged before the free lesson has agreed a course and an hour, and pauses, missed lessons and moves between formats are set out on the pricing page.'
   },
@@ -217,7 +217,7 @@ module.exports = {
       { q: 'Is there anywhere to study computing in the county?', a: 'TUS runs campuses in Thurles and Clonmel. Our classes are separate from those and are not a route to any qualification from them.' },
       { q: 'What hours do classes run?', a: 'Afternoons, evenings and weekend mornings. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter, and the weekly hour is agreed in the free lesson.' },
       { q: 'Is there a Modern Age Coders classroom in County Tipperary?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do County Tipperary coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do County Tipperary coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

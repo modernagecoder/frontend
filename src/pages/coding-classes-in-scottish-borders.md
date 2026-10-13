@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across the Scottish B
 canonical: https://learn.modernagecoders.com/coding-classes-in-scottish-borders
 source: src/pages/coding-classes-in-scottish-borders.html
 ---
-> The Scottish Borders had about 116,900 residents in roughly 55,600 households at the 2022 census, living at 24.7 people per square kilometre. It has no single dominant town: Hawick and Galashiels are close in size, with Peebles, Kelso, Selkirk and Jedburgh next, and Eyemouth, Duns and Melrose among the rest. Lessons are given live over video by teachers in India, and a free first lesson places every learner, whether in P1, S6 or long out of school. Coding, Python and maths are open to anyone between six and 67, whether in a small class of five to ten or alone with a tutor. The Borders project begins at Melrose Abbey. Beyond the trial, Borders learners pay a monthly USD 100 for a class place or USD 150 for private lessons.
+> The Scottish Borders had about 116,900 residents in roughly 55,600 households at the 2022 census, living at 24.7 people per square kilometre. It has no single dominant town: Hawick and Galashiels are close in size, with Peebles, Kelso, Selkirk and Jedburgh next, and Eyemouth, Duns and Melrose among the rest. Lessons are given live over video by teachers in India, and a free first lesson places every learner, whether in P1, S6 or long out of school. Coding, Python and maths are open to anyone between six and 67, whether in a class of fifteen to twenty or alone with a tutor. The Borders project begins at Melrose Abbey. Beyond the trial, Borders learners pay a monthly USD 100 for a class place or USD 150 for private lessons.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Scottish Borders
 
@@ -12,11 +12,11 @@ Scottish Borders / Live online
 
 # Coding classes in the Scottish Borders
 
-**What are the best coding classes in the Scottish Borders?** The Scottish Borders had about 116,900 residents in roughly 55,600 households at the 2022 census, living at 24.7 people per square kilometre. It has no single dominant town: Hawick and Galashiels are close in size, with Peebles, Kelso, Selkirk and Jedburgh next, and Eyemouth, Duns and Melrose among the rest. Lessons are given live over video by teachers in India, and a free first lesson places every learner, whether in P1, S6 or long out of school. Coding, Python and maths are open to anyone between six and 67, whether in a small class of five to ten or alone with a tutor. The Borders project begins at Melrose Abbey. Beyond the trial, Borders learners pay a monthly USD 100 for a class place or USD 150 for private lessons.
+**What are the best coding classes in the Scottish Borders?** The Scottish Borders had about 116,900 residents in roughly 55,600 households at the 2022 census, living at 24.7 people per square kilometre. It has no single dominant town: Hawick and Galashiels are close in size, with Peebles, Kelso, Selkirk and Jedburgh next, and Eyemouth, Duns and Melrose among the rest. Lessons are given live over video by teachers in India, and a free first lesson places every learner, whether in P1, S6 or long out of school. Coding, Python and maths are open to anyone between six and 67, whether in a class of fifteen to twenty or alone with a tutor. The Borders project begins at Melrose Abbey. Beyond the trial, Borders learners pay a monthly USD 100 for a class place or USD 150 for private lessons.
 
 Historic Environment Scotland records that Melrose Abbey was founded in 1136 or 1137 by King David I, and that its monks even took a lade of water from a weir on the Tweed about 500 metres away. For a medieval religious house, one of the hardest recurring calculations was the date of Easter, which moves between March and April every year. It depends on a full moon and a Sunday, but in practice on arithmetic tables rather than the real sky. Today the rule fits in a dozen lines of code. This page's project writes those lines in Python and then does what any good programmer should: tests them against every year from 1583 to 4099, and finds that one famous formula needs two special cases to survive.
 
-Facts last verified 26 September 2026. Teaching is online; no Scottish Borders branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Scottish Borders branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## How Borders learners start
 
@@ -137,7 +137,7 @@ Across a large rural council area, online lessons remove the drive to an evening
 - **Type, run, fix** The learner writes every line; the teacher follows the shared screen and helps when it breaks.
 - **The same stage names as school** A Galashiels S3 or a Hawick P6 hears the Curriculum for Excellence terms they already know, up to Advanced Higher. We teach in English.
 - **A free first lesson** A real lesson, no payment, and then honest advice.
-- **Peers at your level** Classes gather five to ten learners who share a stage, wherever in the world they happen to live.
+- **Peers at your level** Classes gather fifteen to twenty learners who share a stage, wherever in the world they happen to live.
 - **Term time only** Two lessons a week in term; none during the school holidays.
 - **Clock changes handled** When British clocks go forward or back, your class stays at its usual UK hour; the teachers in India time are the ones who shift.
 
@@ -148,7 +148,7 @@ Across a large rural council area, online lessons remove the drive to an evening
 Hawick or Eyemouth, the fee is the same, and it matches every country we teach outside India.
 
 - First class: USD 0. A complete free lesson, followed by a recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month with one teacher.
 
 All fees are in US dollars; there is no sterling price list. We bill only after the free lesson has set a course and weekly time, and the pricing page explains holidays, missed lessons and switching formats.

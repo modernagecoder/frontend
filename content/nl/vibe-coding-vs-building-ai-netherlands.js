@@ -61,7 +61,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Vibe coding is building software by describing it to an AI tool; building AI is understanding, training and testing the models themselves. Modern Age Coders teaches both, live online to learners in the Netherlands, and in that order: learners start by making real things with AI assistants, then learn to read and write the code themselves in Python, then train and evaluate models of their own, so that by the end they can judge what an AI tool gives them rather than simply accept it. Classes run in English, in groups of five to ten at one level or one to one. There is no charge for the first lesson; from then on it is USD 100 a month in a group or USD 150 a month one to one.',
+  capsule: 'Vibe coding is building software by describing it to an AI tool; building AI is understanding, training and testing the models themselves. Modern Age Coders teaches both, live online to learners in the Netherlands, and in that order: learners start by making real things with AI assistants, then learn to read and write the code themselves in Python, then train and evaluate models of their own, so that by the end they can judge what an AI tool gives them rather than simply accept it. Classes run in English, in groups of fifteen to twenty at one level or one to one. There is no charge for the first lesson; from then on it is USD 100 a month in a group or USD 150 a month one to one.',
 
   picks: {
     eyebrow: 'Start here',
@@ -193,7 +193,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first lesson', p: 'The learner builds something with an AI assistant and then explains it to the teacher, which shows quickly which rung they are on.' },
-      { h3: 'Small groups by level', p: 'Five to ten learners at the same stage, from several countries, comparing what their tools produced.' },
+      { h3: 'Small groups by level', p: 'Fifteen to twenty learners at the same stage, from several countries, comparing what their tools produced.' },
       { h3: 'One to one when it helps', p: 'For a learner far ahead of their age, a specific project, or an adult with a deadline.' },
       { h3: 'Tools used openly', p: 'Assistants are part of the lesson, not a secret. The teacher shows when to use them and when to switch them off.' },
       { h3: 'Data handled carefully', p: 'Learners are taught what not to paste into an online tool, from passwords to other people\'s personal data.' },
@@ -209,7 +209,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'One monthly rate in US dollars for every country outside India, whether a learner is on the first rung or the fifth. There is no joining fee and nothing to sign for a year.',
     free: ['A real lesson with an AI assistant', 'An honest view of the starting rung', 'No card needed'],
-    group: ['Five to ten learners at one level', 'The same live teacher each week', 'Work read and discussed every week', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same live teacher each week', 'Work read and discussed every week', 'A certificate at the end'],
     one: ['A teacher for one learner', 'Paced to a project or goal', 'Good for ambitious learners']
   },
 
@@ -224,7 +224,7 @@ module.exports = {
       { q: 'Is my child too young for this?', a: 'Children from about eight can start with blocks and AI help. Typed code and model building come later, when they are ready.' },
       { q: 'Will my child just copy from AI?', a: 'Not in our lessons. Every program an assistant writes is read and explained, and learners also write programs by hand without it.' },
       { q: 'Which AI tools do you use?', a: 'Common coding assistants and chat tools, chosen by age and course. Some tools set their own age limits, and we follow them.' },
-      { q: 'What does it cost?', a: 'Nothing for the first lesson. After that, USD 100 per month buys a place in a group of five to ten and USD 150 per month buys lessons with a teacher to yourself, both charged in US dollars, with no joining fee and no annual contract.' },
+      { q: 'What does it cost?', a: 'Nothing for the first lesson. After that, USD 100 per month buys a place in a group of fifteen to twenty and USD 150 per month buys lessons with a teacher to yourself, both charged in US dollars, with no joining fee and no annual contract.' },
       { q: 'When are lessons held?', a: 'After school, in the evening or at the weekend, in Dutch time. Teachers are three and a half hours ahead in summer and four and a half in winter.' },
       { q: 'What happens after we send the form?', a: 'Someone from our team calls back when it suits you in the Netherlands and books the trial lesson. You only pay if the learner carries on.' }
     ]

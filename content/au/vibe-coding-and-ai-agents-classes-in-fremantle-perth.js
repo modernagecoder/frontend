@@ -313,7 +313,7 @@ module.exports = {
       { h3: 'Teacher-led', p: 'Every lesson is run live, with code checked as learners write it.' },
       { h3: 'Term-time rhythm', p: 'Classes match the WA school terms and break for the holidays.' },
       { h3: 'Free first session', p: 'One trial lesson, then a short written plan.' },
-      { h3: 'Group or solo', p: 'Groups of five to ten at one level, or private lessons.' },
+      { h3: 'Group or solo', p: 'Groups of fifteen to twenty at one level, or private lessons.' },
       { h3: 'Twice weekly', p: 'Two lessons each week, about eight a month.' },
       { h3: 'Clock check', p: 'A 4pm Fremantle lesson begins at 1:30pm in India, all year.' }
     ],
@@ -326,7 +326,7 @@ module.exports = {
     h2: 'Fremantle class fees',
     intro: 'One fee table for every learner.',
     first: 'The trial lesson is free and includes a plan.',
-    group: 'Group lessons: around eight a month, with five to ten learners.',
+    group: 'Group lessons: around eight a month, with fifteen to twenty learners.',
     private: 'Private lessons: around eight a month with a dedicated teacher.',
     closer: 'Fremantle fees are in US dollars and start only after the trial has fixed a course and a weekly slot. Holiday and missed-lesson rules are on the pricing page.'
   },
@@ -371,12 +371,12 @@ module.exports = {
       },
       {
         q: 'What do Fremantle classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who will my child learn with?',
-        a: 'Five to ten learners matched by level and pace, not by age or suburb. One-to-one lessons are there when no group time fits.',
+        a: 'Fifteen to twenty learners matched by level and pace, not by age or suburb. One-to-one lessons are there when no group time fits.',
         boiler: true
       },
       { q: 'Can adults learn about agents?', a: 'Yes. Adults join adult groups or private lessons and often build agents around their own tools at work.' }

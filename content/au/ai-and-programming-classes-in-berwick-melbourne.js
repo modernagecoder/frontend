@@ -296,7 +296,7 @@ module.exports = {
       { h3: 'Log in and build', p: 'At lesson time the learner opens the link, shares a screen and codes with the teacher watching.' },
       { h3: 'Term calendar', p: 'Courses follow Victoria\'s school terms and pause in the state holidays.' },
       { h3: 'Trial class', p: 'The free class is a normal lesson; afterwards we recommend a course and a weekly slot.' },
-      { h3: 'Matched groups', p: 'Five to ten learners per group, matched on level and pace.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners per group, matched on level and pace.' },
       { h3: 'Steady pace', p: 'Two fixed lessons a week, about eight each month, with breaks agreed early.' },
       {
         h3: 'Teachers in India',
@@ -312,7 +312,7 @@ module.exports = {
     h2: 'Berwick class fees',
     intro: 'Three prices, set out plainly.',
     first: 'The first lesson is free and finishes with a clear recommendation.',
-    group: 'A month of group lessons, usually eight, with five to ten learners at the same level.',
+    group: 'A month of group lessons, usually eight, with fifteen to twenty learners at the same level.',
     private: 'About eight lessons a month, one teacher with one learner.',
     closer: 'Families outside India are billed in US dollars, so Berwick pays the same as other families abroad. Billing starts only after the trial has settled course and time; holidays, absences and changing format are covered on the pricing page.'
   },
@@ -357,12 +357,12 @@ module.exports = {
       },
       {
         q: 'What do AI classes cost for Berwick learners?',
-        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for one-to-one lessons. Course, format and time are agreed before paying.',
+        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for one-to-one lessons. Course, format and time are agreed before paying.',
         boiler: true
       },
       {
         q: 'How many are in a group?',
-        a: 'Five to ten learners, grouped by level, pace and goals. Private lessons are offered when no group time works.',
+        a: 'Fifteen to twenty learners, grouped by level, pace and goals. Private lessons are offered when no group time works.',
         boiler: true
       },
       { q: 'Can adults join AI classes?', a: 'Yes. Adults have their own groups or study privately, often to evaluate AI tools they already use at work.' }

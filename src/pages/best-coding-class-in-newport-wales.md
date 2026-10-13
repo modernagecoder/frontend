@@ -16,7 +16,7 @@ Newport, Wales / Live online
 
 On Monday 17 December 2018 the tolls on the Severn Crossings were abolished. Did traffic grow because of it? On the M4 Prince of Wales Bridge, the Department for Transport counted 67,488 vehicles a day in 2017 and 77,629 in 2019, a rise of 15%. But traffic changes for all sorts of reasons, so the rise alone proves little. The fair question is how much more it grew than similar roads that had no toll to lose. Six English motorway counts near Bristol, counted in both years, changed by 0.07% on average. The difference in the differences, about 15 points, is the estimate. Our teenagers learn the method, and the trap waiting beside it: the old Severn Bridge was not counted in those years at all.
 
-Facts last verified 22 September 2026. Teaching is online; no Newport branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 22 September 2026. Teaching is online; no Newport branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the city on the Usk
 
@@ -174,7 +174,7 @@ Getting across Newport and over the Usk at the end of the school day is slow. A 
 - **East and west of the Usk** A learner in St Julians and another in Rogerstone can share the same class without either crossing a bridge.
 - **Years 1 to 13 in Wales** We follow Welsh school years, the Curriculum for Wales and WJEC GCSE and A level course names, and every lesson is taught in English.
 - **A lesson that shows the way** The free session teaches a real task and finishes with a proposed level, course and weekly time, with no card details needed.
-- **Right-sized groups** Five to ten learners at one stage, drawn from Newport, the rest of Britain and overseas, so every level has a time that works.
+- **Right-sized groups** Fifteen to twenty learners at one stage, drawn from Newport, the rest of Britain and overseas, so every level has a time that works.
 - **Two sessions a week** A regular pair of weekly lessons, around eight a month, with holidays and exam periods arranged with the teacher ahead of time.
 - **Newport afternoon, India evening** A 4.30 pm class in Newport begins at 9 pm in India in summer and 10 pm in winter, since India never changes its clocks, and our teachers keep those evening hours for UK learners.
 
@@ -185,7 +185,7 @@ Getting across Newport and over the Usk at the end of the school day is slow. A 
 A free first lesson, followed by a single monthly fee.
 
 - First class: USD 0. A full lesson at no charge, closing with a suggested level, course and weekly slot.
-- Group tuition: USD 100 a month. Roughly eight live lessons a month in a group of five to ten learners at one stage.
+- Group tuition: USD 100 a month. Roughly eight live lessons a month in a group of fifteen to twenty learners at one stage.
 - Private tuition: USD 150 a month. Roughly eight live lessons a month, taught to your learner alone.
 
 Whether you live in Allt-yr-yn or Alway, the fee is the same US dollar amount charged to every family outside India, and no price on our site is in pounds. We send no bill until the free lesson has agreed a course and a lesson time; the pricing page deals with pausing, missed lessons and changes between group and private teaching.
@@ -226,11 +226,11 @@ No. We have no centre in Newport and no premises anywhere in the UK; all our tea
 
 ### How much do Newport lessons cost?
 
-The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
+The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
 
 ### How are Newport groups formed?
 
-By level, pace and goals rather than age or postcode, with five to ten learners at one stage. If no group fits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than age or postcode, with fifteen to twenty learners at one stage. If no group fits the learner's week, we offer one-to-one lessons.
 
 ## Welsh cities and beyond
 

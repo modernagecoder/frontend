@@ -34,7 +34,7 @@ module.exports = {
   twitterDescription: 'Maths tuition in Slough, live online: ratio and proportion from the town census, and two tables that disagree by two people.',
   pageName: 'Maths Tuition in Slough',
   webPageDescription: 'Live online maths tuition for Slough learners aged 6 to 67, from KS2, the SATs and the 11 plus to KS3, GCSE, A level and adult maths, with a ratio and proportion project built on Census 2021 age bands.',
-  courseDescription: 'Live online maths teaching for Slough learners at every stage, in level-matched groups of five to ten or one to one, following the national curriculum and the main GCSE and A level specifications.',
+  courseDescription: 'Live online maths teaching for Slough learners at every stage, in level-matched groups of fifteen to twenty or one to one, following the national curriculum and the main GCSE and A level specifications.',
   crumbs: [{ name: 'Courses', href: '/courses' }, { name: 'Coding classes in the UK', href: '/coding-classes-in-united-kingdom' }],
   crumbLabel: 'Maths tuition in Slough',
   navLinks: [
@@ -57,11 +57,11 @@ module.exports = {
     ['Secondary', 'KS3, GCSE Foundation and Higher'],
     ['Sixth form', 'A level, with Further Maths topics'],
     ['Adults', 'Resits, refreshers, work maths'],
-    ['Lessons', 'Live online, private or 5 to 10 per class'],
+    ['Lessons', 'Live online, private or 15 to 20 per class'],
     ['Project', 'Census ratios and proportion']
   ],
   capsuleQ: 'Maths tuition in Slough at a glance',
-  capsule: 'Modern Age Coders gives live online maths lessons to Slough learners between 6 and 67. Children start with number, times tables and the Year 6 SATs; some go on to 11 plus maths; older pupils move through KS3 into GCSE at Foundation or Higher tier for AQA, Edexcel or OCR, or IGCSE; sixth formers take A level Maths and, if they want, Further Maths topics; and adults come for GCSE maths resits and everyday confidence. Teaching is private or in classes of five to ten at one level. Our Slough project builds ratios from the census: 35.2 children and 14.5 people aged 65 or over for every 100 aged 15 to 64. Lesson one is free. From then on a class seat costs USD 100 per month and a private teacher USD 150 per month.',
+  capsule: 'Modern Age Coders gives live online maths lessons to Slough learners between 6 and 67. Children start with number, times tables and the Year 6 SATs; some go on to 11 plus maths; older pupils move through KS3 into GCSE at Foundation or Higher tier for AQA, Edexcel or OCR, or IGCSE; sixth formers take A level Maths and, if they want, Further Maths topics; and adults come for GCSE maths resits and everyday confidence. Teaching is private or in classes of fifteen to twenty at one level. Our Slough project builds ratios from the census: 35.2 children and 14.5 people aged 65 or over for every 100 aged 15 to 64. Lesson one is free. From then on a class seat costs USD 100 per month and a private teacher USD 150 per month.',
 
   picks: {
     eyebrow: 'Where Slough learners usually begin',
@@ -258,7 +258,7 @@ module.exports = {
     cells: [
       { h3: 'Continuity', p: 'Your teacher stays the same, so nothing has to be explained twice.' },
       { h3: 'Parents kept informed', p: 'A brief note after lessons on what went well and what comes next.' },
-      { h3: 'Small, matched classes', p: 'Five to ten learners, all at a similar point.' },
+      { h3: 'Small, matched classes', p: 'Fifteen to twenty learners, all at a similar point.' },
       { h3: 'Local numbers', p: 'Census tables and other real data, not only textbook exercises.' },
       { h3: 'Private option', p: 'One to one for a near exam or a stubborn topic.' },
       { h3: 'Understanding first', p: 'We show why a method works before practising it.' }
@@ -273,7 +273,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'We bill monthly in US dollars, one price for all countries except India. No sign-up fee, no fixed term.',
     free: ['A proper lesson pitched at the right level', 'An honest summary afterwards', 'No card asked for'],
-    group: ['A class of five to ten at one level', 'A regular teacher', 'Homework checked and explained', 'Certificate on finishing'],
+    group: ['A class of fifteen to twenty at one level', 'A regular teacher', 'Homework checked and explained', 'Certificate on finishing'],
     one: ['Private lessons with one teacher', 'Tailored to one learner', 'Good for the weeks before an exam']
   },
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and vibe coding lessons for Edgbast
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-edgbaston-birmingham
 source: src/pages/online-coding-and-python-classes-in-edgbaston-birmingham.html
 ---
-> Edgbaston ward counted 18,730 usual residents at the 2021 census and North Edgbaston ward 22,565, both within Birmingham. Postcodes.io places Edgbaston and Lee Bank in the B15 district. Our tutors, who teach from India over live video, take learners aged six to 67 through coding, Python, AI, vibe coding and maths, one at a time or in classes of five to ten at a shared stage. Algorithmic thinking is taught first, so a learner can judge whether a clever shortcut is safe to use. There is no charge for lesson one, and it closes with a course suggestion. The Edgbaston project takes 4,842 named places from the map of south-west Birmingham and finds the near-duplicate names among 11.7 million possible pairs, first the slow way and then with MinHash. Monthly fees after the trial: USD 100 in a class, USD 150 for private lessons.
+> Edgbaston ward counted 18,730 usual residents at the 2021 census and North Edgbaston ward 22,565, both within Birmingham. Postcodes.io places Edgbaston and Lee Bank in the B15 district. Our tutors, who teach from India over live video, take learners aged six to 67 through coding, Python, AI, vibe coding and maths, one at a time or in classes of fifteen to twenty at a shared stage. Algorithmic thinking is taught first, so a learner can judge whether a clever shortcut is safe to use. There is no charge for lesson one, and it closes with a course suggestion. The Edgbaston project takes 4,842 named places from the map of south-west Birmingham and finds the near-duplicate names among 11.7 million possible pairs, first the slow way and then with MinHash. Monthly fees after the trial: USD 100 in a class, USD 150 for private lessons.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Edgbaston
 
@@ -12,11 +12,11 @@ Edgbaston, Birmingham, England / Live online
 
 # Online coding and Python classes in Edgbaston, Birmingham
 
-**Which are the best online coding and Python classes in Edgbaston?** Edgbaston ward counted 18,730 usual residents at the 2021 census and North Edgbaston ward 22,565, both within Birmingham. Postcodes.io places Edgbaston and Lee Bank in the B15 district. Our tutors, who teach from India over live video, take learners aged six to 67 through coding, Python, AI, vibe coding and maths, one at a time or in classes of five to ten at a shared stage. Algorithmic thinking is taught first, so a learner can judge whether a clever shortcut is safe to use. There is no charge for lesson one, and it closes with a course suggestion. The Edgbaston project takes 4,842 named places from the map of south-west Birmingham and finds the near-duplicate names among 11.7 million possible pairs, first the slow way and then with MinHash. Monthly fees after the trial: USD 100 in a class, USD 150 for private lessons.
+**Which are the best online coding and Python classes in Edgbaston?** Edgbaston ward counted 18,730 usual residents at the 2021 census and North Edgbaston ward 22,565, both within Birmingham. Postcodes.io places Edgbaston and Lee Bank in the B15 district. Our tutors, who teach from India over live video, take learners aged six to 67 through coding, Python, AI, vibe coding and maths, one at a time or in classes of fifteen to twenty at a shared stage. Algorithmic thinking is taught first, so a learner can judge whether a clever shortcut is safe to use. There is no charge for lesson one, and it closes with a course suggestion. The Edgbaston project takes 4,842 named places from the map of south-west Birmingham and finds the near-duplicate names among 11.7 million possible pairs, first the slow way and then with MinHash. Monthly fees after the trial: USD 100 in a class, USD 150 for private lessons.
 
 Duplicate records are everywhere: the same shop entered twice with slightly different spelling, the same customer under two email addresses, the same article copied with a word changed. Finding exact copies is easy. Finding near copies seems to need every record compared with every other, and the number of pairs grows with the square of the list. With ten thousand records that is fifty million comparisons; with ten million it is hopeless. MinHash, together with a trick called locality-sensitive hashing, gets round this by giving similar items a good chance of landing in the same bucket. Search engines and plagiarism checkers have used it for years. This project tries it on real place names around Edgbaston.
 
-Facts last verified 30 September 2026. Teaching is online; no Edgbaston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Edgbaston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Edgbaston courses in algorithms, Python and AI
 
@@ -132,7 +132,7 @@ Any reasonably modern computer with a camera will do, given internet that can ca
 - **Learner writes, tutor asks** Code and prompts come from the student; the tutor watches the screen share and asks what each step is for.
 - **Level found in the trial** The free lesson shows what to teach first, and exam boards are recorded.
 - **Trial at no cost** The first lesson is free and ends with the course we recommend.
-- **Small matched classes** Five to ten learners at one level, from around the UK.
+- **Small matched classes** Fifteen to twenty learners at one level, from around the UK.
 - **Two a week** Not in school holidays.
 - **Your slot stays put** UK clock changes are absorbed at our end.
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across Connacht, from Ga
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-connacht
 source: src/pages/coding-and-ai-classes-in-connacht.html
 ---
-> Connacht is the west: Galway, Mayo, Sligo, Roscommon and Leitrim, home to 582,891 usually resident people at the 2022 census and to Gaeltacht areas in Galway and Mayo. It has one city, Galway, and five counties we have written about separately, all linked below. Our lessons are the same here as anywhere: taught live over video twice a week at a set hour, in groups of five to ten at one level or one to one, for anybody from six to sixty-seven. Trying the first lesson costs nothing. A group place is then USD 100 a month, and USD 150 buys one to one.
+> Connacht is the west: Galway, Mayo, Sligo, Roscommon and Leitrim, home to 582,891 usually resident people at the 2022 census and to Gaeltacht areas in Galway and Mayo. It has one city, Galway, and five counties we have written about separately, all linked below. Our lessons are the same here as anywhere: taught live over video twice a week at a set hour, in groups of fifteen to twenty at one level or one to one, for anybody from six to sixty-seven. Trying the first lesson costs nothing. A group place is then USD 100 a month, and USD 150 buys one to one.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / Connacht
 
@@ -12,11 +12,11 @@ Connacht, the western province / Live online
 
 # Coding and AI classes in Connacht
 
-**What are the best coding and AI classes in Connacht?** Connacht is the west: Galway, Mayo, Sligo, Roscommon and Leitrim, home to 582,891 usually resident people at the 2022 census and to Gaeltacht areas in Galway and Mayo. It has one city, Galway, and five counties we have written about separately, all linked below. Our lessons are the same here as anywhere: taught live over video twice a week at a set hour, in groups of five to ten at one level or one to one, for anybody from six to sixty-seven. Trying the first lesson costs nothing. A group place is then USD 100 a month, and USD 150 buys one to one.
+**What are the best coding and AI classes in Connacht?** Connacht is the west: Galway, Mayo, Sligo, Roscommon and Leitrim, home to 582,891 usually resident people at the 2022 census and to Gaeltacht areas in Galway and Mayo. It has one city, Galway, and five counties we have written about separately, all linked below. Our lessons are the same here as anywhere: taught live over video twice a week at a set hour, in groups of fifteen to twenty at one level or one to one, for anybody from six to sixty-seven. Trying the first lesson costs nothing. A group place is then USD 100 a month, and USD 150 buys one to one.
 
 How many people in Connacht speak Irish? The census asks whether you can, and 244,788 people aged three and over said yes, about 43% of everyone that age in the province. It then asks the same people how often they actually speak it. Of those 244,788, 55,826 said never. Another 65,180 speak it every day, but only inside school or college. The number who speak Irish daily outside the education system is 16,966, under 7% of the headline. Every one of those figures is published, every one is accurate, and they describe very different realities. Which one you call the number of Irish speakers is a definition, not a fact, and choosing it silently is how two honest reports reach opposite conclusions.
 
-Facts last verified 17 September 2026. Teaching is online; no Connacht branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 17 September 2026. Teaching is online; no Connacht branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses to begin with
 
@@ -141,7 +141,7 @@ Machines will count whatever category they are pointed at. Deciding which catego
 From Clifden to Carrick-on-Shannon, the teaching works the same way.
 
 - **A teacher, in real time** Lessons are taught live, with the learner answering, asking and trying things as they go.
-- **Matched by ability** Five to ten learners at a single level, drawn from across Connacht and other countries.
+- **Matched by ability** Fifteen to twenty learners at a single level, drawn from across Connacht and other countries.
 - **Regular and fixed** Usually two lessons a week, about eight a month, at a time agreed at the start.
 - **Irish school terms** Planned around Junior Cycle, Transition Year and the Leaving Certificate, including holidays and exams.
 - **Needs at home** A laptop or desktop, working sound and a video-capable connection, tested in the free lesson.
@@ -154,7 +154,7 @@ From Clifden to Carrick-on-Shannon, the teaching works the same way.
 One price list for all five counties.
 
 - First class: USD 0. An opening lesson, taught fully and free, that ends with a level and a recommendation.
-- Group tuition: USD 100 a month. Group lessons for a month, about eight, with five to ten learners at one level.
+- Group tuition: USD 100 a month. Group lessons for a month, about eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. One to one lessons for a month on the same weekly rhythm.
 
 Monthly billing is in US dollars, the single rate for families outside India, so Leitrim and Galway pay alike and there is no euro price to set against it. Nothing is charged before the free lesson agrees a course and a time; the pricing page covers pauses, missed lessons and switching format.
@@ -195,7 +195,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do Connacht coding classes cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

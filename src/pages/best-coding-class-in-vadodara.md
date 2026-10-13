@@ -12,7 +12,7 @@ Live online · serving Vadodara
 
 Real programming for kids, teens and college students in Vadodara, from **Alkapuri to Sayajigunj, Fatehgunj to Akota**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Vadodara)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**VadodaraEnrollingAreasAlkapuri, Sayajigunj, Fatehgunj, Akota, Manjalpur & all of VadodaraBoardsGujarat GSEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across VadodaraFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Vadodara)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**VadodaraEnrollingAreasAlkapuri, Sayajigunj, Fatehgunj, Akota, Manjalpur & all of VadodaraBoardsGujarat GSEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across VadodaraFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -140,7 +140,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -162,7 +162,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -171,7 +171,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -180,7 +180,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -255,7 +255,7 @@ Takes under a minute.
 
 ## Coding classes in Vadodara: FAQs
 
-What is the best coding class in Vadodara for kids?Modern Age Coders offers the best coding classes in Vadodara for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Vadodara areas including Alkapuri, Sayajigunj, Fatehgunj, Akota, and Manjalpur.Do you offer online coding classes in Vadodara?Yes, we offer live online coding classes for students across Vadodara including Alkapuri, Sayajigunj, Fatehgunj, Akota, Gotri, Karelibaug, and all other areas. Our online classes are interactive with small batch sizes of 5-8 students.Do you offer coding classes for Gujarat Board (GSEB) students in Vadodara?Yes, our curriculum supports both GSEB (Gujarat Board) and CBSE students in Vadodara. We align our coding and maths courses with Gujarat Board requirements to complement school education.How much do coding classes cost in Vadodara?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (3-4 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Can MS University students join your programming courses?Absolutely! We offer college-level courses in Data Structures & Algorithms, Full Stack Web Development, and AI/Data Science perfect for MS University and Faculty of Technology students preparing for placements.Are classes available in Gujarati-medium for Vadodara students?Our instructors are comfortable teaching in Hindi and English. Gujarati-speaking students feel right at home with our approachable teaching style that accommodates regional language comfort.What areas in Vadodara do you serve?We serve all areas of Vadodara through our online classes including Alkapuri, Sayajigunj, Fatehgunj, Akota, Manjalpur, Gotri, Subhanpura, Karelibaug, Vasna, Tandalja, Makarpura, Nizampura, and more.How are your coding classes different from other institutes in Vadodara?We focus on project-based learning where students build real games, websites, and apps. Our small batch sizes (5-8 students), recorded sessions, expert instructors, and affordable pricing set us apart. We also support GSEB, CBSE, and Gujarat CET preparation.Do you offer coding classes for GSEB students in Vadodara?Yes. Vadodara runs GSEB, CBSE, IB and Cambridge IGCSE across its schools, and our classes work alongside whichever your child attends. What we teach is the programming itself, Python, Java, web development, rather than a second pass over the school computer paper.Can MSU Baroda students join your programming courses?Yes. MSU's Faculty of Technology has roots going back to Kala Bhavan in 1890, which is a long lineage and still not a portfolio. The college track is where the projects come from: Python, Java, full-stack or AI/ML, built to the point of being usable.
+What is the best coding class in Vadodara for kids?Modern Age Coders offers the best coding classes in Vadodara for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Vadodara areas including Alkapuri, Sayajigunj, Fatehgunj, Akota, and Manjalpur.Do you offer online coding classes in Vadodara?Yes, we offer live online coding classes for students across Vadodara including Alkapuri, Sayajigunj, Fatehgunj, Akota, Gotri, Karelibaug, and all other areas. Our online classes are interactive with batch sizes of 15-20 students.Do you offer coding classes for Gujarat Board (GSEB) students in Vadodara?Yes, our curriculum supports both GSEB (Gujarat Board) and CBSE students in Vadodara. We align our coding and maths courses with Gujarat Board requirements to complement school education.How much do coding classes cost in Vadodara?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (up to 6 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Can MS University students join your programming courses?Absolutely! We offer college-level courses in Data Structures & Algorithms, Full Stack Web Development, and AI/Data Science perfect for MS University and Faculty of Technology students preparing for placements.Are classes available in Gujarati-medium for Vadodara students?Our instructors are comfortable teaching in Hindi and English. Gujarati-speaking students feel right at home with our approachable teaching style that accommodates regional language comfort.What areas in Vadodara do you serve?We serve all areas of Vadodara through our online classes including Alkapuri, Sayajigunj, Fatehgunj, Akota, Manjalpur, Gotri, Subhanpura, Karelibaug, Vasna, Tandalja, Makarpura, Nizampura, and more.How are your coding classes different from other institutes in Vadodara?We focus on project-based learning where students build real games, websites, and apps. Our batch sizes (15-20 students), recorded sessions, expert instructors, and affordable pricing set us apart. We also support GSEB, CBSE, and Gujarat CET preparation.Do you offer coding classes for GSEB students in Vadodara?Yes. Vadodara runs GSEB, CBSE, IB and Cambridge IGCSE across its schools, and our classes work alongside whichever your child attends. What we teach is the programming itself, Python, Java, web development, rather than a second pass over the school computer paper.Can MSU Baroda students join your programming courses?Yes. MSU's Faculty of Technology has roots going back to Kala Bhavan in 1890, which is a long lineage and still not a portfolio. The college track is where the projects come from: Python, Java, full-stack or AI/ML, built to the point of being usable.
 
 ## Ready to start your child's coding journey in Vadodara?
 

@@ -1,10 +1,10 @@
 ---
 title: "Maths Olympiad Classes Online: Which Contest, and How to Enter"
-description: "Live maths olympiad classes online, ages 6 to 18: the contest that fits your child by age and country, how entry works, the next dates, batches of 5 to 10."
+description: "Live maths olympiad classes online, ages 6 to 18: the contest that fits your child by age and country, how entry works, the next dates, batches of 15 to 20."
 canonical: https://learn.modernagecoders.com/maths-olympiad-classes-online
 source: src/pages/maths-olympiad-classes-online.html
 ---
-> Live maths olympiad classes online, ages 6 to 18: the contest that fits your child by age and country, how entry works, the next dates, batches of 5 to 10.
+> Live maths olympiad classes online, ages 6 to 18: the contest that fits your child by age and country, how entry works, the next dates, batches of 15 to 20.
 
 Start here
 
@@ -16,7 +16,7 @@ Contest mathematics sits on top of school mathematics. The base is the live cour
 
 Ans. The short version
 
-Maths olympiad classes online at Modern Age Coders prepare students aged 6 to 18 for the contest that fits them rather than for "olympiads" in general. In India that is the SOF IMO, a school-based multiple-choice paper for Classes 1 to 12, or the IOQM, RMO and INMO pathway, which a family can enter individually and which leads to the International Mathematical Olympiad. In the United States it is AMC 8, AMC 10 and 12 and the AIME, MATHCOUNTS for grades 6 to 8, and Math Kangaroo, which a parent can enter a child for directly. In Canada and worldwide it is the CEMC Waterloo contests from Gauss to Euclid; in the UK the UKMT Challenges, Kangaroo rounds and the British Mathematical Olympiad; in Australia the Australian Maths Trust's AMC, AIO and CAT. Each has its own page on this site with the organiser's rules, dates and fees quoted and dated. Every batch is five to ten students grouped by level, two live classes a week, one on the mathematics and one on timed practice from the organisers' own past papers. The first class is a free demo, and the group batch fee is shown on this page in your own currency.
+Maths olympiad classes online at Modern Age Coders prepare students aged 6 to 18 for the contest that fits them rather than for "olympiads" in general. In India that is the SOF IMO, a school-based multiple-choice paper for Classes 1 to 12, or the IOQM, RMO and INMO pathway, which a family can enter individually and which leads to the International Mathematical Olympiad. In the United States it is AMC 8, AMC 10 and 12 and the AIME, MATHCOUNTS for grades 6 to 8, and Math Kangaroo, which a parent can enter a child for directly. In Canada and worldwide it is the CEMC Waterloo contests from Gauss to Euclid; in the UK the UKMT Challenges, Kangaroo rounds and the British Mathematical Olympiad; in Australia the Australian Maths Trust's AMC, AIO and CAT. Each has its own page on this site with the organiser's rules, dates and fees quoted and dated. Every batch is fifteen to twenty students grouped by level, two live classes a week, one on the mathematics and one on timed practice from the organisers' own past papers. The first class is a free demo, and the group batch fee is shown on this page in your own currency.
 
 Q1. Which contest, for whom, entered how, and when?
 
@@ -170,7 +170,7 @@ Group batch · by level
 
 per month
 
-- Five to ten students, at the same level, often on the same contest
+- Fifteen to twenty students, at the same level, often on the same contest
 - Two live classes a week, the level and timed contest practice
 - Placement on the real paper, weekly marked work, two full rehearsals
 - Certificate on completion
@@ -183,7 +183,7 @@ Mini batch
 
 per month
 
-- Three to four students
+- Up to six students
 - Timings agreed around the family
 - More marked proof writing per student
 

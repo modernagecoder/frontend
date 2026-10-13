@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in County Durham',
   capsuleQ: 'What are the best coding classes in County Durham?',
-  capsule: 'This page covers Durham County Council and the three boroughs on its south-east edge, Darlington, Hartlepool and Stockton-on-Tees, which together held 918,800 people at the 2021 Census. Darlington, Hartlepool and Stockton are the biggest towns, then the city of Durham, Billingham and Consett, with dozens of former mining towns and villages in between. Whichever of these towns you live in, the lessons are identical: a live video class with a teacher in India, a level set by your skills rather than your age, a welcome for any learner aged 6 to 67, and a choice between a small group of five to ten and a teacher to yourself. We teach programming, Python, databases, algorithms and maths. The project here comes from the railway that began in this county. You will not be charged for the opening lesson; if you stay, it is USD 100 a month to learn in a group and USD 150 to learn alone with a teacher.',
+  capsule: 'This page covers Durham County Council and the three boroughs on its south-east edge, Darlington, Hartlepool and Stockton-on-Tees, which together held 918,800 people at the 2021 Census. Darlington, Hartlepool and Stockton are the biggest towns, then the city of Durham, Billingham and Consett, with dozens of former mining towns and villages in between. Whichever of these towns you live in, the lessons are identical: a live video class with a teacher in India, a level set by your skills rather than your age, a welcome for any learner aged 6 to 67, and a choice between a group of fifteen to twenty and a teacher to yourself. We teach programming, Python, databases, algorithms and maths. The project here comes from the railway that began in this county. You will not be charged for the opening lesson; if you stay, it is USD 100 a month to learn in a group and USD 150 to learn alone with a teacher.',
   lead: 'On 27 September 1825, Locomotion No.1 ran the first passenger service on the brand-new Stockton and Darlington Railway, and Shildon, where the line\'s engines were kept, now calls itself the world\'s first railway town. Early railways had to solve a problem that every programmer meets sooner or later. Picture two trains heading towards each other on a single track. Each moves forward whenever the section ahead is empty, and each ends up in a section the other one needs. Neither can move, and neither will ever move again. In computing this is called a deadlock. This page\'s project builds the railway in Python, shows how often a simple rule jams it, and tests the old railway answer that stops it completely.',
   wa: 'Hello Modern Age Coders, I would like a free lesson for a learner in County Durham.',
 
@@ -176,7 +176,7 @@ module.exports = {
       { h3: 'Learning from home', p: 'A bedroom in Spennymoor, a kitchen in Peterlee, a desk in Yarm. Teacher and learner share one screen.' },
       { h3: 'The same school words', p: 'Key Stages, GCSE options and A levels are named as local schools name them, and every lesson is in English.' },
       { h3: 'First lesson free', p: 'A real lesson with real work and an honest recommendation. There is no card to hand over.' },
-      { h3: 'Right-level classmates', p: 'Five to ten learners at the same stage, gathered from many places, so the pace suits everyone.' },
+      { h3: 'Right-level classmates', p: 'Fifteen to twenty learners at the same stage, gathered from many places, so the pace suits everyone.' },
       { h3: 'Holidays fitted in', p: 'Two lessons a week is usual, paused when your own school stops, whichever council or trust sets its dates.' },
       { h3: 'Times written in UK time', p: 'Teachers work from India, five and a half hours ahead of UK winter time and four and a half ahead of UK summer time; your timetable shows UK time.' }
     ],
@@ -187,7 +187,7 @@ module.exports = {
     h2: 'Fees across County Durham',
     intro: 'The same fees in every town on this page, and in every country outside India.',
     first: 'A full lesson of real work, finishing with a recommended level and course.',
-    group: 'Around eight lessons a month in a group of five to ten learners at one level.',
+    group: 'Around eight lessons a month in a group of fifteen to twenty learners at one level.',
     private: 'Around eight lessons a month, one teacher with one learner.',
     closer: 'All families outside India pay in US dollars, and there is no pound price list. The first payment follows the free lesson, once a course and weekly slot are agreed; details on pausing, missed lessons and changing between group and private are on the pricing page.'
   },

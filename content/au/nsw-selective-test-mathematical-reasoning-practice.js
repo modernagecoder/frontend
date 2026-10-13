@@ -210,7 +210,7 @@ module.exports = {
     cells: [
       { h3: 'Diagrams before numbers', p: 'Students draw the problem before they calculate anything.' },
       { h3: 'Explain every answer', p: 'A correct answer without a reason counts as half done.' },
-      { h3: 'Groups of five to ten', p: 'Children at a similar level learn together.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Children at a similar level learn together.' },
       { h3: 'One-to-one available', p: 'For a child who wants a particular topic strengthened.' },
       { h3: 'No test coaching', p: 'We teach maths from the curriculum, as the department advises.' },
       { h3: 'No placement promises', p: 'Selection is the department\'s decision; we make no claims about it.' }
@@ -225,7 +225,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Families in New South Wales pay monthly in US dollars, the rate we charge in every country other than India. There is no up-front payment and no minimum term.',
     free: ['A real lesson with a teacher', 'Our honest view, including if no help is needed', 'No card details'],
-    group: ['Five to ten children at one level', 'The same teacher each week', 'Work explained and checked', 'A certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'The same teacher each week', 'Work explained and checked', 'A certificate at the end'],
     one: ['One teacher for one child', 'Focus on chosen topics', 'Times to suit your family']
   },
 

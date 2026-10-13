@@ -151,7 +151,7 @@ module.exports = {
       { h3: 'Code by the learner', p: 'Students write and run everything; the tutor watches through screen share and asks them to predict each search.' },
       { h3: 'Trial finds the level', p: 'The free session shows where to begin; SQA exams are noted if one is ahead.' },
       { h3: 'Free first session', p: 'Lesson one is free of charge and ends with a course suggestion.' },
-      { h3: 'Groups by stage', p: 'Five to ten learners from around Britain at one level per class.' },
+      { h3: 'Groups by stage', p: 'Fifteen to twenty learners from around Britain at one level per class.' },
       { h3: 'Two a week in term', p: 'Holidays off.' },
       { h3: 'Stable timetable', p: 'UK clock changes are absorbed by our tutors, not by your slot.' }
     ],

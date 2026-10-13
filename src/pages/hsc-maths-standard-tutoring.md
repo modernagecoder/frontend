@@ -179,7 +179,7 @@ Our tutors teach from India, so Sydney is four and a half hours ahead of them in
 - **Context first** Every topic starts from a real situation, so the mathematics has a reason.
 - **Tables before formulas** Students build the pattern by hand, then meet the formula that shortens it.
 - **Stimulus reading** Practice in pulling exactly the right numbers from a diagram or table.
-- **Groups of five to ten** Standard students working at the same level, each explaining their steps.
+- **Groups of fifteen to twenty** Standard students working at the same level, each explaining their steps.
 - **One-to-one lessons** A private tutor for a topic that keeps slipping.
 - **No promised bands** We teach well and say so honestly; marks are earned by the student.
 
@@ -188,7 +188,7 @@ Our tutors teach from India, so Sydney is four and a half hours ahead of them in
 A monthly fee in US dollars that is the same for every family outside India. No sign-up charge, and nothing owed after the month you are in.
 
 - Free first class: USD 0. A real lesson with a tutor. Honest advice on gaps. No card required.
-- Group batch: USD 100 a month. Five to ten students at one level. One tutor through the term. Practice papers reviewed. A certificate when you finish.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. One tutor through the term. Practice papers reviewed. A certificate when you finish.
 - One to one: USD 150 a month. Your own tutor. Built around your weak topics. Useful before school exams.
 
 ## What Standard students and parents ask

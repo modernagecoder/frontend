@@ -212,7 +212,7 @@ module.exports = {
       { h3: 'Foundations checked early', p: 'A quick diagnostic in the first lesson shows which Year 10 skills need repair.' },
       { h3: 'Points before equations', p: 'Students test every transformed graph with a point or two before trusting it.' },
       { h3: 'Explaining, not reciting', p: 'Each lesson ends with the student explaining one idea in their own words.' },
-      { h3: 'Five to ten per class', p: 'Year 11 students in the same course, each speaking up every week.' },
+      { h3: 'Fifteen to twenty per class', p: 'Year 11 students in the same course, each speaking up every week.' },
       { h3: 'One-to-one too', p: 'Individual lessons for a student with a specific gap.' },
       { h3: 'No grade promises', p: 'We do not promise a grade. We make the mathematics clear and the work is the student\'s.' }
     ]

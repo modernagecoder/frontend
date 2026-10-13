@@ -191,7 +191,7 @@ Curriculum mapped to CBSE Computer Science syllabus for direct academic advantag
 
 ### Tiny Batches
 
-Max 5-8 students per batch ensures personalized attention for every learner
+Max 20 students per batch ensures personalized attention for every learner
 
 ### Real Projects
 
@@ -323,7 +323,7 @@ Collaborative learning with peers
 
 ₹1,499/month
 
-- ✓ 5-8 Students per Batch
+- ✓ 15-20 Students per Batch
 - ✓ 2 Live Classes per Week
 - ✓ Peer Learning & Team Projects
 - ✓ Recorded Sessions Access
@@ -353,7 +353,7 @@ Families residing within the expansive, rapidly developing township of Greater N
 
 Our meticulously crafted learning journeys scale perfectly with your childâ€™s age. We introduce **fundamental logic through block-based game building (Classes 1-5)** to instill early computational enthusiasm. This graduates into rigorous, highly beneficial **Python, Java, and Web Development tracks (Classes 6-12)**. By ensuring that our syntax and logical problems align exactly with the CBSE Computer Science matrix, we remove confusion and actively boost your child's in-school scores and board practical results. Alongside coding, our dedicated **CBSE Mathematics curriculum** ensures unbreakable foundations for future JEE and engineering pursuits.
 
-We recognize the massive logistical hassle of commuting across Greater Noida's vast sectors. Thus, our acclaimed sessions are held 100% live online. More importantly, we enforce a strict 5-8 student maximum capacity per batch. This allows our hand-picked, elite teaching faculty to provide unparalleled, personalized attention to every DPS Greater Noida student, a feat impossible in standard 40-student tuition centers. Plus, immediate access to high-def session recordings means absolute learning continuity even during exam seasons.
+We recognize the massive logistical hassle of commuting across Greater Noida's vast sectors. Thus, our acclaimed sessions are held 100% live online. More importantly, we enforce a strict 15-20 student maximum capacity per batch. This allows our hand-picked, elite teaching faculty to provide unparalleled, personalized attention to every DPS Greater Noida student, a feat impossible in standard 40-student tuition centers. Plus, immediate access to high-def session recordings means absolute learning continuity even during exam seasons.
 
 Empower your child to thrive in tomorrow's high-tech landscape while elevating their current CBSE performance. We invite parent communities across Greater Noida to schedule a **100% free, no-obligation demo class** and witness our uniquely effective pedagogical approach firsthand!
 
@@ -368,7 +368,7 @@ Premium quality education at honest prices. No hidden fees, no surprises. Transp
 ₹1,499/month
 
 - ✓ 2 Live Classes per Week
-- ✓ Small Batch Size (5-8 Students)
+- ✓ Batch Size (15-20 Students)
 - ✓ Recorded Sessions Access
 - ✓ Doubt Clearing Support
 - ✓ Project-Based Learning
@@ -431,7 +431,7 @@ Children can start as early as 6-8 years old with our Scratch programming course
 
 +
 
-Our group coding classes start at just ₹1499/month with 2 live classes per week in small batches of 5-8 students. Mini Batch (3-4 students) is available at ₹2,999/month. For personalized 1-on-1 classes with customized CBSE curriculum, we offer sessions at ₹4,999/month. We provide a free demo class before enrollment so you can experience our teaching quality firsthand. No hidden fees, no long-term commitments required.
+Our group coding classes start at just ₹1499/month with 2 live classes per week in batches of 15-20 students. Mini Batch (up to 6 students) is available at ₹2,999/month. For personalized 1-on-1 classes with customized CBSE curriculum, we offer sessions at ₹4,999/month. We provide a free demo class before enrollment so you can experience our teaching quality firsthand. No hidden fees, no long-term commitments required.
 
 ### Do you offer classes during school vacations?
 

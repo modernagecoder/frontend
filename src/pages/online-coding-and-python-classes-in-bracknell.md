@@ -4,7 +4,7 @@ description: "Online coding, Python, AI and programming classes for Bracknell, S
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-bracknell
 source: src/pages/online-coding-and-python-classes-in-bracknell.html
 ---
-> Bracknell Forest had 124,607 residents at the 2021 census, with Bracknell itself a built-up area of 78,675 and Sandhurst at 20,215. It is a borough of young families: children aged 10 to 14 made up 6.5 per cent of residents against 6.0 across England, and people aged 35 to 39 made up 7.5 against 6.7. For every age from 6 to 67 we teach coding, Python, AI and maths in live video lessons from India, privately or in classes of five to ten learners at one level. One free lesson finds the right course. The Bracknell project comes from a Met Office rain gauge designed at Beaufort Park, Bracknell. Lessons then cost USD 100 a month in a class or USD 150 a month one-to-one.
+> Bracknell Forest had 124,607 residents at the 2021 census, with Bracknell itself a built-up area of 78,675 and Sandhurst at 20,215. It is a borough of young families: children aged 10 to 14 made up 6.5 per cent of residents against 6.0 across England, and people aged 35 to 39 made up 7.5 against 6.7. For every age from 6 to 67 we teach coding, Python, AI and maths in live video lessons from India, privately or in classes of fifteen to twenty learners at one level. One free lesson finds the right course. The Bracknell project comes from a Met Office rain gauge designed at Beaufort Park, Bracknell. Lessons then cost USD 100 a month in a class or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Bracknell
 
@@ -12,11 +12,11 @@ Bracknell, Berkshire, England / Live online
 
 # Online coding and Python classes in Bracknell
 
-**What are the best coding and Python classes in Bracknell?** Bracknell Forest had 124,607 residents at the 2021 census, with Bracknell itself a built-up area of 78,675 and Sandhurst at 20,215. It is a borough of young families: children aged 10 to 14 made up 6.5 per cent of residents against 6.0 across England, and people aged 35 to 39 made up 7.5 against 6.7. For every age from 6 to 67 we teach coding, Python, AI and maths in live video lessons from India, privately or in classes of five to ten learners at one level. One free lesson finds the right course. The Bracknell project comes from a Met Office rain gauge designed at Beaufort Park, Bracknell. Lessons then cost USD 100 a month in a class or USD 150 a month one-to-one.
+**What are the best coding and Python classes in Bracknell?** Bracknell Forest had 124,607 residents at the 2021 census, with Bracknell itself a built-up area of 78,675 and Sandhurst at 20,215. It is a borough of young families: children aged 10 to 14 made up 6.5 per cent of residents against 6.0 across England, and people aged 35 to 39 made up 7.5 against 6.7. For every age from 6 to 67 we teach coding, Python, AI and maths in live video lessons from India, privately or in classes of fifteen to twenty learners at one level. One free lesson finds the right course. The Bracknell project comes from a Met Office rain gauge designed at Beaufort Park, Bracknell. Lessons then cost USD 100 a month in a class or USD 150 a month one-to-one.
 
 In 1998 Martin N. Parker of the Meteorological Office's Engineering Design Services at Beaufort Park, Bracknell, devised a new standard 5-inch rain gauge in stainless steel, now in the Science Museum Group collection. Alongside it the collection holds a Met Office tipping bucket rain gauge from 1997. A tipping bucket gauge is clever: rain fills a tiny seesaw bucket until it tips, empties and counts one tip. That makes it automatic, but it also means the gauge can only count rain in steps, like a ruler with no marks between the centimetres. What happens to a light shower smaller than one step? And how does a sensible gauge avoid losing those scraps? This page's project simulates it in Python.
 
-Facts last verified 27 September 2026. Teaching is online; no Bracknell branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Bracknell branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Bracknell learners usually start
 
@@ -139,7 +139,7 @@ Any home in the borough can join a live lesson.
 - **Learners at the keys** The student writes every line; the tutor reads their screen and asks the question that unlocks the next step.
 - **Right level** A Year 4 or a Year 12 from Bracknell starts where their year and the trial suggest, with exam board terms.
 - **Free opening lesson** Nothing to pay for the first lesson, which ends with clear advice.
-- **Classes by ability** Five to ten learners at one stage in each class, from across the UK.
+- **Classes by ability** Fifteen to twenty learners at one stage in each class, from across the UK.
 - **Term weeks** Two lessons each week in term; school holidays stay free.
 - **Constant UK time** Your lesson time does not change when British clocks do.
 
@@ -150,7 +150,7 @@ Any home in the borough can join a live lesson.
 Bracknell families pay the same fee we charge in every country outside India.
 
 - First class: USD 0. A full free lesson with an honest recommendation.
-- Group tuition: USD 100 a month. About eight live lessons a month in a class of five to ten.
+- Group tuition: USD 100 a month. About eight live lessons a month in a class of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight live lessons a month with a dedicated tutor.
 
 Our fees are in US dollars only, never sterling. You pay nothing until the trial has fixed a course and a weekly slot; the pricing page covers holidays, missed lessons and switching formats.

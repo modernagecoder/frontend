@@ -4,7 +4,7 @@ description: "Maths tuition in Bristol for ages 6 to 67: live online lessons for
 canonical: https://learn.modernagecoders.com/maths-tuition-in-bristol
 source: src/pages/maths-tuition-in-bristol.html
 ---
-> Bristol learners aged 6 to 67 take live maths lessons with us online, either in a class of five to ten people working at the same level or one to one. Young children build times tables for the Year 4 check and the reasoning needed for Year 6 SATs maths. Older pupils move through KS3 maths into GCSE, foundation or higher, for AQA, Edexcel or OCR, or into IGCSE. Sixth formers study A level Maths, with Further Maths if they want it, and adults come for Functional Skills maths, GCSE maths resits or simply to feel confident with numbers again. Our Bristol example plots Census 2021 commuting data for 57 neighbourhoods and shows where a trend line can and cannot be trusted. Your first lesson is free; ongoing lessons are USD 100 a month in a class or USD 150 a month one to one.
+> Bristol learners aged 6 to 67 take live maths lessons with us online, either in a class of fifteen to twenty people working at the same level or one to one. Young children build times tables for the Year 4 check and the reasoning needed for Year 6 SATs maths. Older pupils move through KS3 maths into GCSE, foundation or higher, for AQA, Edexcel or OCR, or into IGCSE. Sixth formers study A level Maths, with Further Maths if they want it, and adults come for Functional Skills maths, GCSE maths resits or simply to feel confident with numbers again. Our Bristol example plots Census 2021 commuting data for 57 neighbourhoods and shows where a trend line can and cannot be trusted. Your first lesson is free; ongoing lessons are USD 100 a month in a class or USD 150 a month one to one.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Bristol
 
@@ -14,7 +14,7 @@ Bristol · Online maths tutor, ages 6 to 67 · Small live classes or private les
 
 Split Bristol into its 57 census neighbourhoods and plot each one: distance from Bristol Bridge along the bottom, share of commuters who walk up the side. The points fall in a clear downhill band, with a correlation of minus 0.82. Draw the trend line and it makes a confident prediction for the furthest neighbourhood, 7.44 km out: minus 1.43% of people walk to work. In reality 12.4% do. A line that fits well in the middle can talk nonsense at the edges, and learning to notice that is a large part of GCSE statistics. This page explains how our online maths tutors teach Bristol learners, from the Year 4 times tables check through GCSE and A level to adult maths, using the city's own commuting data.
 
-At a glance: For: Bristol learners aged 6 to 67; Primary: KS2 maths, tables check, Year 6 SATs; Secondary: KS3, then GCSE at either tier; Exam boards: AQA, Edexcel, OCR, and IGCSE; Sixth form: A level Maths and Further Maths; Adults: Functional Skills, GCSE resits; Teaching: Live online, 5 to 10 per class or solo; Bristol project: Commuting by neighbourhood on a scatter graph. Rated 4.9 across 547 Google reviews.
+At a glance: For: Bristol learners aged 6 to 67; Primary: KS2 maths, tables check, Year 6 SATs; Secondary: KS3, then GCSE at either tier; Exam boards: AQA, Edexcel, OCR, and IGCSE; Sixth form: A level Maths and Further Maths; Adults: Functional Skills, GCSE resits; Teaching: Live online, 15 to 20 per class or solo; Bristol project: Commuting by neighbourhood on a scatter graph. Rated 4.9 across 547 Google reviews.
 
 ## Three maths courses Bristol learners book most
 
@@ -230,7 +230,7 @@ Our tutors teach from India, where clocks do not change. India is four and a hal
 
 - **Same tutor every week** Continuity means no time lost re-explaining.
 - **Progress notes** Short, honest updates after lessons for families.
-- **Matched by level** Classes of five to ten at one level, wherever they live.
+- **Matched by level** Classes of fifteen to twenty at one level, wherever they live.
 - **Census and local data** Real Bristol numbers next to exam questions.
 - **Private lessons** One to one for a particular gap or an exam close at hand.
 - **Why before how** Learners explain an idea before they practise it.
@@ -240,14 +240,14 @@ Our tutors teach from India, where clocks do not change. India is four and a hal
 Billed in US dollars each month, one price for every country outside India, with no registration fee and no contract to sign.
 
 - Free first class: USD 0. A real lesson pitched at the learner. Clear feedback afterwards. No card details.
-- Group batch: USD 100 a month. A class of five to ten at one level. A regular tutor. Homework marked with comments. Course certificate.
+- Group batch: USD 100 a month. A class of fifteen to twenty at one level. A regular tutor. Homework marked with comments. Course certificate.
 - One to one: USD 150 a month. One tutor, one learner. Focused on particular gaps. Useful before exams.
 
 ## Questions Bristol families ask before booking
 
 ### How much is a maths tutor in Bristol?
 
-The first lesson is free. Ongoing lessons cost USD 100 a month in a class of five to ten learners at the same level, or USD 150 a month for private lessons. You pay no registration fee and can stop whenever you like.
+The first lesson is free. Ongoing lessons cost USD 100 a month in a class of fifteen to twenty learners at the same level, or USD 150 a month for private lessons. You pay no registration fee and can stop whenever you like.
 
 ### What is a line of best fit?
 

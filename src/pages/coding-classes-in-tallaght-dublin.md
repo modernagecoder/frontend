@@ -16,7 +16,7 @@ Tallaght, Dublin 24 / Live online
 
 On the Old Bawn Road, South Dublin County Council runs an air monitoring station that reports nitrogen dioxide to the Environmental Protection Agency every hour. Average its 2025 readings day by day and weekdays come out higher than weekends, 12.20 against 10.05 micrograms per cubic metre. That sounds settled, until you look at single weeks: in 14 of the 44 complete weeks of the year the weekend was the higher of the two. So is the weekday difference real, and how big might it be? This page teaches a learner to answer that with resampling, a technique that measures how much a result would wobble if the year had turned out slightly differently.
 
-Facts last verified 20 September 2026. Teaching is online; no Tallaght branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Tallaght branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Starting points for Tallaght learners
 
@@ -148,7 +148,7 @@ Comparing two averages takes a line of code. Knowing how far to trust the gap is
 The working arrangements.
 
 - **With a teacher, live** The teacher stays on the call throughout, watching each learner's code and helping as it is written.
-- **Grouped by stage** Five to ten learners at the same stage, from Dublin 24, elsewhere in Ireland and abroad.
+- **Grouped by stage** Fifteen to twenty learners at the same stage, from Dublin 24, elsewhere in Ireland and abroad.
 - **A regular pair** About eight lessons a month, held at two weekly times fixed when the course starts.
 - **Holidays planned** Mid-term breaks, holidays and exam weeks are built into the plan in advance.
 - **Home kit** Any laptop or desktop that runs a browser, a headset or speakers with a mic, and broadband steady enough for a video call.
@@ -161,7 +161,7 @@ The working arrangements.
 Nothing left out.
 
 - First class: USD 0. An opening lesson and level check, at no charge.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one stage, roughly eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one stage, roughly eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons on the same timetable.
 
 Families living outside India all pay one monthly fee in US dollars. The free lesson carries no commitment, the first charge comes with the start of the course, and holidays, missed lessons and changes between group and private teaching are set out on the pricing page.
@@ -198,7 +198,7 @@ Not deliberately. Groups are built on level, so classmates might be in Dublin 24
 
 ### What do coding classes in Tallaght cost?
 
-The first lesson is free. Then a group place is USD 100 a month for around eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same timetable are USD 150 a month. Terms are agreed before any payment.
+The first lesson is free. Then a group place is USD 100 a month for around eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same timetable are USD 150 a month. Terms are agreed before any payment.
 
 ### How many learners are in each group?
 

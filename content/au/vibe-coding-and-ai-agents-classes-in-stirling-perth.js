@@ -317,7 +317,7 @@ module.exports = {
       { h3: 'Real-time teaching', p: 'A teacher leads and checks code during each lesson.' },
       { h3: 'In step with school', p: 'Classes keep to WA term dates and rest in the holidays.' },
       { h3: 'No-cost trial', p: 'One free lesson, then a short course plan.' },
-      { h3: 'Group or private', p: 'Level-matched groups of five to ten, or a private teacher.' },
+      { h3: 'Group or private', p: 'Level-matched groups of fifteen to twenty, or a private teacher.' },
       { h3: 'Two per week', p: 'Around eight lessons a month.' },
       { h3: 'Indian clock', p: 'A 4:30pm Stirling lesson starts at 2pm in India.' }
     ],
@@ -330,7 +330,7 @@ module.exports = {
     h2: 'Stirling class fees',
     intro: 'The same fees for every learner.',
     first: 'There is no charge for the opening lesson, which ends with a plan.',
-    group: 'Group lessons: about eight a month in groups of five to ten.',
+    group: 'Group lessons: about eight a month in groups of fifteen to twenty.',
     private: 'Private lessons: about eight a month with your own teacher.',
     closer: 'Fees are in US dollars and begin only after the free lesson has agreed a course and a weekly slot. The pricing page explains holidays and missed lessons.'
   },
@@ -375,12 +375,12 @@ module.exports = {
       },
       {
         q: 'What do Stirling classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How do you form groups?',
-        a: 'By level and pace, five to ten learners each, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'By level and pace, fifteen to twenty learners each, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Can adults build agents with you?', a: 'Yes. Adults learn in adult groups or one to one, often building agents for their own work.' }

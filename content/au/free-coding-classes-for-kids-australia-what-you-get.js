@@ -238,7 +238,7 @@ module.exports = {
     cells: [
       { h3: 'The same teacher', p: 'Your child keeps one teacher, who remembers last week\'s project.' },
       { h3: 'A planned sequence', p: 'Each lesson builds on the one before, towards a clear next stage.' },
-      { h3: 'Small groups', p: 'Five to ten children close in age and ability, or one to one.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty children close in age and ability, or one to one.' },
       { h3: 'Their own work', p: 'Children build every project themselves; teachers ask questions rather than take over.' },
       { h3: 'Stuck for minutes, not weeks', p: 'Help arrives in the lesson, which keeps momentum going.' },
       { h3: 'Free clubs still welcome', p: 'Many of our students keep going to a Code Club too. The two fit well together.' }
@@ -253,7 +253,7 @@ module.exports = {
     h2: 'After the free lesson: fees',
     lede: 'Families outside India pay one monthly fee in US dollars, the same in every country. Nothing is charged to join, and nothing ties you to a whole term: leaving at the end of a month is fine.',
     free: ['One full live lesson', 'An honest course suggestion', 'No card asked, no obligation'],
-    group: ['Classes of five to ten', 'A familiar teacher each week', 'Peers close in age and level', 'Stop whenever a month ends'],
+    group: ['Classes of fifteen to twenty', 'A familiar teacher each week', 'Peers close in age and level', 'Stop whenever a month ends'],
     one: ['Undivided attention from a teacher', 'Times that fit around the school week', 'Pace set by your child']
   },
 

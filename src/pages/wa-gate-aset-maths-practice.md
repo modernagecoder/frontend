@@ -194,7 +194,7 @@ Teachers are in India, two and a half hours behind Perth all year, since WA has 
 
 - **Draw, count, rule** Students build patterns before writing rules.
 - **Explain the plus one** Every rule must be explained, not just found.
-- **Five to ten per group** Small groups at a shared level.
+- **Fifteen to twenty per group** Small groups at a shared level.
 - **One-to-one** For focused individual work.
 - **Not ASET coaching** We teach maths and reasoning, consistent with the department's advice.
 - **No offer promises** Offers are the department's decision.
@@ -204,7 +204,7 @@ Teachers are in India, two and a half hours behind Perth all year, since WA has 
 WA families pay monthly in US dollars, our rate outside India. No deposit, and you can stop at the end of any month.
 
 - Free first class: USD 0. A real trial lesson. Honest advice, including when no classes are needed. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. A regular teacher. Explained feedback. Certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. A regular teacher. Explained feedback. Certificate at the end.
 - One to one: USD 150 a month. A teacher for one child. Chosen focus areas. Times to suit you.
 
 ## Western Australian families ask

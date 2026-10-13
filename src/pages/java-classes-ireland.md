@@ -4,7 +4,7 @@ description: "Java classes for learners in Ireland: where Java sits in Irish deg
 canonical: https://learn.modernagecoders.com/java-classes-ireland
 source: src/pages/java-classes-ireland.html
 ---
-> Java is a strict, verbose, extremely well-established language, and it is worth learning for exactly those reasons: it forces you to say what you mean about types and structure. In Irish higher education it usually appears after a first language rather than as one, with Trinity a notable exception in first year and several universities introducing it in second year. We teach it live online, from the first class and object through collections, data structures and testing, to secondary students, college students and working adults. The first class is free, then USD 100 a month in a group of five to ten or USD 150 a month one to one.
+> Java is a strict, verbose, extremely well-established language, and it is worth learning for exactly those reasons: it forces you to say what you mean about types and structure. In Irish higher education it usually appears after a first language rather than as one, with Trinity a notable exception in first year and several universities introducing it in second year. We teach it live online, from the first class and object through collections, data structures and testing, to secondary students, college students and working adults. The first class is free, then USD 100 a month in a group of fifteen to twenty or USD 150 a month one to one.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / Java classes, Ireland
 
@@ -182,7 +182,7 @@ Teaching is live, from India, at one fixed hour each week set in Irish time. Ind
 - **Summer intensives** Before a second-year module starts.
 
 - **A free first class** You write and compile real Java with a teacher and get a clear view of the right starting rung.
-- **Groups of five to ten** Learners at one level, reading each other's classes and suggesting better designs.
+- **Groups of fifteen to twenty** Learners at one level, reading each other's classes and suggesting better designs.
 - **One to one** For a deadline, a placement or a particular codebase at work.
 - **Real tooling** A proper editor, a build tool and version control from early on, as used in any Java job.
 - **Tests from week two** Java makes automated tests straightforward, so students write them as a habit.
@@ -193,7 +193,7 @@ Teaching is live, from India, at one fixed hour each week set in Irish time. Ind
 One monthly price in US dollars, the same in every country outside India and at every level. Nothing to pay to enrol, and no term or year to sign up for.
 
 - Free first class: USD 0. Real Java written and compiled. An honest view of the right rung. No card taken.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher each week. Code reviewed weekly. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. Code reviewed weekly. A certificate at the end.
 - One to one: USD 150 a month. A teacher to yourself. Built around a module or a job. Good before a second-year course.
 
 ## What learners in Ireland ask about Java

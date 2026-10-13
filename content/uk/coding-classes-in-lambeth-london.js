@@ -50,7 +50,7 @@ module.exports = {
 
   h1: 'Coding classes in Lambeth',
   capsuleQ: 'What are the best coding classes in Lambeth?',
-  capsule: 'Lambeth is the south London borough of Brixton, Clapham, Streatham, Stockwell, Vauxhall, Kennington, West Norwood and Waterloo, with 317,654 residents at the 2021 Census, Lambeth Palace and the Royal Festival Hall among its six Grade I entries. A coding class that means something teaches a learner when a simple method is guaranteed to give the right answer, and this page does it with cycle docks: link all 58 docks in the borough with the least total length, using two famous algorithms that are provably perfect. Teachers in India teach live on video to learners from 6 to 67, either alone or in groups of five to ten sharing a level. The first lesson is free. Afterwards, it is USD 100 a month for a group place or USD 150 a month for one-to-one.',
+  capsule: 'Lambeth is the south London borough of Brixton, Clapham, Streatham, Stockwell, Vauxhall, Kennington, West Norwood and Waterloo, with 317,654 residents at the 2021 Census, Lambeth Palace and the Royal Festival Hall among its six Grade I entries. A coding class that means something teaches a learner when a simple method is guaranteed to give the right answer, and this page does it with cycle docks: link all 58 docks in the borough with the least total length, using two famous algorithms that are provably perfect. Teachers in India teach live on video to learners from 6 to 67, either alone or in groups of fifteen to twenty sharing a level. The first lesson is free. Afterwards, it is USD 100 a month for a group place or USD 150 a month for one-to-one.',
   lead: 'Transport for London publishes the location of every cycle hire docking station, 801 across the capital when we checked, and 58 of them fall inside Lambeth. Suppose you had to connect all 58 with a network, a cable, a maintenance route, anything, using as little total length as possible. There are more than a thousand possible links between pairs of docks. Our learners solve it with a minimum spanning tree, and they solve it twice, with Prim\'s algorithm and with Kruskal\'s, which work in completely different ways. Both land on exactly the same answer: 17.12 kilometres of straight-line links. Wiring every dock straight to Waterloo instead would take 128 kilometres. The surprise is that a greedy rule, always take the shortest safe link, is not just good here. It is perfect, and learners see why.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Lambeth.',
 
@@ -140,7 +140,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'Waterloo', p: 'TfL\'s open data lists the Bakerloo, Jubilee and Waterloo & City lines and South Western Railway at Waterloo.' },
           { h3: 'Streatham to Kennington', p: 'A learner in the south of the borough and another in Kennington can share one class without leaving home.' },
-          { h3: 'A connected class', p: 'Every learner in a group of five to ten is linked to the teacher and to each other, and nobody is left at the end of a long branch.' }
+          { h3: 'A connected class', p: 'Every learner in a group of fifteen to twenty is linked to the teacher and to each other, and nobody is left at the end of a long branch.' }
         ] },
         { kind: 'spec', title: 'Lambeth in London', p: 'Lambeth is one of London\'s 32 boroughs. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> covers every borough and the City, linking each page when it is published, including <a class="cg-inline-link" href="/coding-classes-in-wandsworth-london">Wandsworth</a> to the west and <a class="cg-inline-link" href="/coding-classes-in-croydon-london">Croydon</a> to the south.' }
       ]
@@ -177,7 +177,7 @@ module.exports = {
       { h3: 'At home', p: 'Learners sit at their own computer with headphones on; the only other requirement is broadband that copes with an hour of video.' },
       { h3: 'England\'s stages', p: 'We describe progress using English Key Stages, from Key Stage 1 up to sixth form, naming GCSE and A level where they apply. Lessons are in English.' },
       { h3: 'Free to begin', p: 'The opening session is taught properly and closes with the teacher\'s advice on level and course. No card is taken for it.' },
-      { h3: 'Five to ten per class', p: 'Classmates share a stage, gathered from across the UK and abroad, so a sensible evening hour is usually available.' },
+      { h3: 'Fifteen to twenty per class', p: 'Classmates share a stage, gathered from across the UK and abroad, so a sensible evening hour is usually available.' },
       { h3: 'Twice a week', p: 'Expect two lessons a week, both in the evening, with the group taking agreed time off in school holidays and around exams.' },
       { h3: 'UK times', p: 'Teachers are based in India; all times we send are UK times.' }
     ],
@@ -188,7 +188,7 @@ module.exports = {
     h2: 'Fees for Lambeth families',
     intro: 'A free first lesson, then one monthly fee across the borough.',
     first: 'A complete lesson with a teacher, free, ending with a recommended level, course and time.',
-    group: 'About eight live lessons a month in a class of five to ten at one stage.',
+    group: 'About eight live lessons a month in a class of fifteen to twenty at one stage.',
     private: 'About eight live lessons a month, one to one.',
     closer: 'We bill in US dollars wherever a family lives outside India, which is why no pound amounts appear on the site. The first invoice comes only after the free lesson, once you have picked a course and a weekly evening. Pauses, missed lessons and a later move to or from private teaching are explained on the pricing page.'
   },
@@ -213,8 +213,8 @@ module.exports = {
       { q: 'When would a Lambeth learner have lessons?', a: 'Lesson one tells us the level; we then offer a place in a class at that level that meets on a set evening, shown in UK time even though the teacher is in India.' },
       { q: 'What equipment is needed?', a: 'Any home computer with working sound and dependable internet will do. The network project needs Python and TfL\'s free docking station data.' },
       { q: 'Is there a Modern Age Coders centre in Lambeth?', a: 'No. There is no Lambeth centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Lambeth cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Lambeth cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

@@ -16,7 +16,7 @@ Leeds, West Yorkshire, England / Live online
 
 Eight cameras in Leeds city centre count the people walking past, hour by hour, on Briggate, the Headrow, Albion Street, Commercial Street and Park Row. The council publishes the counts every week on Data Mill North, and the weekly files, which begin on 30 December 2019, add up to 656,544 rows. Suppose you want a quick, honest estimate of how busy a camera is in a typical hour, without loading six years of files at once. The usual shortcut, reading the first thousand rows, says 134 people an hour, because the stream happens to begin with a single week, 1 to 7 June 2020, at six cameras. The last thousand rows say 993. Reservoir sampling fixes that: it keeps a sample of a thousand rows as the stream goes past, giving every row the same chance of being chosen. But this stream holds a surprise. 157 weeks were published twice, so every row being equally likely is not the same as every hour being equally likely. Finding that out, and fixing it, is the lesson Leeds's own footfall teaches our teenage learners here.
 
-Facts last verified 21 September 2026. Teaching is online; no Leeds branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 21 September 2026. Teaching is online; no Leeds branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city that counts its footsteps
 
@@ -198,7 +198,7 @@ Leeds is a large metropolitan district, and a live online lesson reaches every c
 - **From any room** A learner in Roundhay and another in Armley can sit in the same class, each at their own table, with no bus into town.
 - **The school words Leeds uses** Reception, Key Stages, Year 9 options, GCSEs and A levels keep their English names, and every lesson is in English.
 - **A trial that teaches** The first session is a genuine lesson on a genuine task, ending with honest advice on level, course and time. Nobody asks for card details.
-- **Level before age** Classes hold five to ten learners who work at the same pace, drawn from Leeds, elsewhere in the UK and abroad so every level finds a sensible slot.
+- **Level before age** Classes hold fifteen to twenty learners who work at the same pace, drawn from Leeds, elsewhere in the UK and abroad so every level finds a sensible slot.
 - **A steady rhythm** Two sessions a week at an agreed time, about eight a month, with gaps for school holidays and revision arranged with the teacher.
 - **Our teachers' clock** Teaching happens from India, which keeps one time all year. That puts it four and a half hours ahead of Leeds in summer and five and a half in winter, and a Leeds after-school or evening slot sits comfortably in the teacher's day.
 
@@ -209,7 +209,7 @@ Leeds is a large metropolitan district, and a live online lesson reaches every c
 The whole price list, in three lines.
 
 - First class: USD 0. One complete lesson, free, finishing with a level, a course suggestion and a proposed weekly time.
-- Group tuition: USD 100 a month. A month of teaching, normally eight sessions, in a class of five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of teaching, normally eight sessions, in a class of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Around eight sessions a month on the same pattern, with the teacher working with one learner.
 
 All fees are charged in US dollars at the one rate we use everywhere outside India, so a family in Headingley and a family in Seacroft are charged identically and no sterling list exists. Payment starts only after the trial lesson has set a course and a slot, and our pricing page describes breaks, missed sessions and moving between group and private lessons.
@@ -250,7 +250,7 @@ There is not, and we do not suggest otherwise. All lessons are online and live, 
 
 ### How much do Leeds classes cost?
 
-The first lesson is free. A group place then costs USD 100 a month for two live lessons a week, roughly eight a month, with five to ten learners, and one-to-one teaching on the same schedule costs USD 150 a month. Course, format and time are fixed before any payment.
+The first lesson is free. A group place then costs USD 100 a month for two live lessons a week, roughly eight a month, with fifteen to twenty learners, and one-to-one teaching on the same schedule costs USD 150 a month. Course, format and time are fixed before any payment.
 
 ### How big is each group?
 

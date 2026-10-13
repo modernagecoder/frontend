@@ -213,7 +213,7 @@ module.exports = {
     cells: [
       { h3: 'Thirty minutes of focus', p: 'Young learners get short, varied tasks rather than one long drill.' },
       { h3: 'Say it, then write it', p: 'Children explain each jump aloud before drawing it.' },
-      { h3: 'Groups of five to ten', p: 'Children at the same stage learn together.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Children at the same stage learn together.' },
       { h3: 'One-to-one if needed', p: 'For a child who needs a particular gap closed gently.' },
       { h3: 'A note for parents', p: 'What we practised, and one game to play at home.' },
       { h3: 'Honest about NAPLAN', p: 'We teach mathematics; the test result belongs to the child.' }
@@ -228,7 +228,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Families in Australia pay monthly in US dollars, the rate we use everywhere outside India. There is no deposit, and you can stop at the end of any month.',
     free: ['A real lesson with a teacher', 'A clear picture of where your child is', 'No payment details needed'],
-    group: ['Five to ten children at one stage', 'The same teacher each week', 'Short tasks with feedback', 'A certificate at the end'],
+    group: ['Fifteen to twenty children at one stage', 'The same teacher each week', 'Short tasks with feedback', 'A certificate at the end'],
     one: ['A teacher for one child', 'Gentle work on specific gaps', 'Times that fit your week']
   },
 

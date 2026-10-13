@@ -276,7 +276,7 @@ module.exports = {
       { h3: 'Taught live', p: 'A teacher runs each lesson and checks work as it happens.' },
       { h3: 'ACT terms', p: 'Lessons follow the school terms and rest in holidays.' },
       { h3: 'Free first lesson', p: 'A trial lesson, then a short written plan.' },
-      { h3: 'Groups', p: 'Five to ten learners per level, or one-to-one.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners per level, or one-to-one.' },
       { h3: 'Schedule', p: 'Two lessons a week, about eight a month.' },
       { h3: 'India hours', p: 'A 6:30pm Woden lesson is 1pm in India while daylight saving runs.' }
     ],
@@ -286,7 +286,7 @@ module.exports = {
     h2: 'Woden class fees',
     intro: 'All learners pay the same fees.',
     first: 'Lesson one is free, followed by a plan.',
-    group: 'Group lessons: about eight a month, five to ten learners.',
+    group: 'Group lessons: about eight a month, fifteen to twenty learners.',
     private: 'Private lessons: about eight a month with one teacher.',
     closer: 'Fees are in US dollars and start only once the trial has set a course and weekly time. The pricing page explains holidays and missed lessons.'
   },
@@ -325,12 +325,12 @@ module.exports = {
       },
       {
         q: 'What do Woden classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How are groups decided?',
-        a: 'By level and pace, five to ten learners, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'By level and pace, fifteen to twenty learners, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Can adults study AI here?', a: 'Yes. Adults learn in adult groups or privately, often with data from their own work.' }

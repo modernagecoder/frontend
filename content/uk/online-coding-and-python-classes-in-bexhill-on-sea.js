@@ -157,7 +157,7 @@ module.exports = {
       { h3: 'Typing, not watching', p: 'The learner writes the code on a shared screen, and the tutor asks what should happen before anything runs.' },
       { h3: 'The first lesson sets the level', p: 'We see where a learner is in the free session and note any exam board.' },
       { h3: 'Free to try', p: 'The trial costs nothing, takes no card, and ends with our course advice.' },
-      { h3: 'Classes by level', p: 'Five to ten learners in a group, all at one stage, from anywhere in the UK.' },
+      { h3: 'Classes by level', p: 'Fifteen to twenty learners in a group, all at one stage, from anywhere in the UK.' },
       { h3: 'Two lessons a week', p: 'Holiday weeks you send us stay empty.' },
       { h3: 'Same slot all year', p: 'British Summer Time starts and ends on our side of the call, not yours.' }
     ],

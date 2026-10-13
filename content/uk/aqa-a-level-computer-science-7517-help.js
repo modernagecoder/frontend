@@ -218,7 +218,7 @@ module.exports = {
       { h3: 'Extended answers marked', p: 'Written responses handed in and marked by a person, because that is the only way expression improves.' },
       { h3: 'Theory taught early', p: 'Functional programming and Big Data planned into Year 12 rather than left to the final term.' },
       { h3: 'A clear line on the project', p: 'We never work on it, review it or advise on its content. We teach the skills it assumes.' },
-      { h3: 'Groups by level', p: 'Five to ten students at one stage, reading each other\'s changes to the same program.' }
+      { h3: 'Groups by level', p: 'Fifteen to twenty students at one stage, reading each other\'s changes to the same program.' }
     ]
   },
 
@@ -230,7 +230,7 @@ module.exports = {
     h2: 'What A-level tuition costs',
     lede: 'One charge a month in US dollars, the rate for every country outside India. The free lesson comes first and billing starts only when a course and a weekly time are agreed.',
     free: ['A full lesson on real 7517 material', 'An honest view of which component is weakest', 'Nothing asked for but a number'],
-    group: ['Five to ten students at one stage', 'The same teacher across the year', 'Written answers marked weekly', 'Fewer lessons in the run-up to the papers'],
+    group: ['Fifteen to twenty students at one stage', 'The same teacher across the year', 'Written answers marked weekly', 'Fewer lessons in the run-up to the papers'],
     one: ['Only the student and the teacher', 'Planned backwards from the exam timetable', 'Suits a candidate with a specific grade in view']
   },
 

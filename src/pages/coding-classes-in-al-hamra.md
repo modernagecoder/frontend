@@ -179,7 +179,7 @@ Two settlements close on a map can be a long way apart up a mountain. Teaching t
 
 A full lesson, a genuine task and a specific recommendation at the end of it. No card details are requested to arrange it, and no decision is asked for until a teacher has been seen teaching.
 
-### Five to eight learners, grouped by ability
+### Fifteen to twenty learners, grouped by ability
 
 What a learner can already do and where they are going decides the group. Altitude and address do not, which is a thing no local arrangement here could promise.
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Al Hamra learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Al Hamra class times arranged?
 

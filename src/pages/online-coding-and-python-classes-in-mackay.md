@@ -16,7 +16,7 @@ Mackay, Queensland, Australia / Live online
 
 Joining two tables is the most common thing anyone does with data, and the easiest to get silently wrong. Translink publishes Mackay's bus timetable as a set of linked tables: stops, routes, trips and the 4,687 rows that say when each bus reaches each stop. Join those rows to the stops table by stop number and you still have 4,687 rows. Join them by stop name instead, which looks just as reasonable, and you get 5,572, because 34 names belong to two stops each. Join them to the route shapes and the table explodes to 1,725,944 rows. No error appears in any of these. Our Mackay learners find out why, and how to make pandas refuse.
 
-Facts last verified 7 October 2026. Teaching is online; no Mackay branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Mackay branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python and data courses for Mackay learners
 
@@ -180,7 +180,7 @@ Mackay spreads from the beaches to the cane country inland, and a video lesson r
 - **Coast and valley** A learner in Bucasia and another in Marian can work together in one class, each from their own home.
 - **Queensland school terms** Lessons are planned around Queensland year levels and terms, and senior students can relate projects to the subjects they study. Teaching is in English.
 - **A trial that counts** The free session is a real lesson that ends with a recommended level, course and regular time. You are never asked for card details.
-- **Same-level classmates** Five to ten learners at one stage, from Mackay and elsewhere, so regional students learn alongside peers at their level.
+- **Same-level classmates** Fifteen to twenty learners at one stage, from Mackay and elsewhere, so regional students learn alongside peers at their level.
 - **Regular schedule** Two lessons a week, about eight a month, at a fixed time, with school holidays and exam weeks agreed in advance.
 - **Teachers in India** Mackay never changes its clocks, so a 5pm lesson always begins at 12:30pm where our teachers are.
 
@@ -191,7 +191,7 @@ Mackay spreads from the beaches to the cane country inland, and a video lesson r
 Three prices, plainly stated.
 
 - First class: USD 0. A full first lesson that costs nothing and ends with a level, a course and a time.
-- Group tuition: USD 100 a month. A month of classes, typically eight, alongside five to ten learners at your stage.
+- Group tuition: USD 100 a month. A month of classes, typically eight, alongside fifteen to twenty learners at your stage.
 - Private tuition: USD 150 a month. About eight classes a month on the same pattern, one teacher with one learner.
 
 Fees are in US dollars wherever you live, India apart, so families in Slade Point and Beaconsfield get the same invoice and there is no regional rate. We invoice only after the trial agrees a course and a time; the pricing page covers holidays, absences and moving between group and private lessons.
@@ -232,11 +232,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Mackay Python classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Mackay and Queensland learners
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Loosduinen, The Hague
 canonical: https://learn.modernagecoders.com/coding-classes-in-loosduinen
 source: src/pages/coding-classes-in-loosduinen.html
 ---
-> Coding classes in Loosduinen reach the west of The Hague, four wijken, all read for this page. Waldeck has 17,950 residents, 9,690 households and 10,020 dwellings, every one of those enumerated from a register. It also has an average WOZ value of 308,000 euro, which was not enumerated from anything: it is an estimate made by municipal assessors from sale prices of comparable homes, referenced to a date a year before the tax year. All four figures print the same way. Modern Age Coders teaches live online in English from the Componistenbuurt to Ockenburgh, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Loosduinen reach the west of The Hague, four wijken, all read for this page. Waldeck has 17,950 residents, 9,690 households and 10,020 dwellings, every one of those enumerated from a register. It also has an average WOZ value of 308,000 euro, which was not enumerated from anything: it is an estimate made by municipal assessors from sale prices of comparable homes, referenced to a date a year before the tax year. All four figures print the same way. Modern Age Coders teaches live online in English from the Componistenbuurt to Ockenburgh, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [The Hague](/coding-classes-in-the-hague) / Loosduinen
 
@@ -12,11 +12,11 @@ Loosduinen, Den Haag / Live online
 
 # Coding classes in Loosduinen, where one column of the table was counted and one was estimated and they look identical
 
-**What are the best coding classes in Loosduinen?** Coding classes in Loosduinen reach the west of The Hague, four wijken, all read for this page. Waldeck has 17,950 residents, 9,690 households and 10,020 dwellings, every one of those enumerated from a register. It also has an average WOZ value of 308,000 euro, which was not enumerated from anything: it is an estimate made by municipal assessors from sale prices of comparable homes, referenced to a date a year before the tax year. All four figures print the same way. Modern Age Coders teaches live online in English from the Componistenbuurt to Ockenburgh, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Loosduinen?** Coding classes in Loosduinen reach the west of The Hague, four wijken, all read for this page. Waldeck has 17,950 residents, 9,690 households and 10,020 dwellings, every one of those enumerated from a register. It also has an average WOZ value of 308,000 euro, which was not enumerated from anything: it is an estimate made by municipal assessors from sale prices of comparable homes, referenced to a date a year before the tax year. All four figures print the same way. Modern Age Coders teaches live online in English from the Componistenbuurt to Ockenburgh, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 This series has now printed an average WOZ value on sixty-nine pages, always in the same sentence as a population and always in the same shape. The population was counted. The WOZ was modelled: an official estimates what a dwelling would fetch, working from what comparable dwellings nearby actually sold for, and the estimate is pinned to a valuation date one year before the tax year it governs. It is a good estimate and it is used for real things, from municipal tax to mortgage collateral. It is still not the same kind of object as a headcount, and no table anywhere in this cluster has ever said so.
 
-Facts last verified 10 September 2026. Teaching is online; no Loosduinen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 September 2026. Teaching is online; no Loosduinen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the western edge
 
@@ -184,7 +184,7 @@ Loosduinen runs from the old village out to the dunes at Kijkduin and Ockenburgh
 - **The far side of the city, and no journey** From Kijkduin or Nieuw Waldeck an evening class in the middle of town is two long tram rides in the dark. Taking the journey out of the arrangement is what makes a weekly commitment survive the winter rather than quietly lapse.
 - **The four words that stay Dutch** Groep, havo, vwo, profielkeuze. English carries the rest of the hour. A child should hear the name of their own school year in the form they read it in, not in a translation they have to convert back.
 - **Free, and actually a lesson** A task, a teacher watching the working rather than the result, and three things fixed by the end: the level, the course, the weekly hour. Nothing is charged and no card details are requested at any stage.
-- **Grouped by stage, gathered from anywhere** Five to ten learners at one level. A stadsdeel of fifty thousand will not reliably hold five people at one narrow stage in one month, so the pool is worldwide, which is the reason a class exists to join instead of a list to wait on.
+- **Grouped by stage, gathered from anywhere** Fifteen to twenty learners at one level. A stadsdeel of fifty thousand will not reliably hold five people at one narrow stage in one month, so the pool is worldwide, which is the reason a class exists to join instead of a list to wait on.
 - **Two a week, holidays already in it** Roughly eight lessons a month at a fixed hour. Zuid-Holland follows the regio Midden holiday calendar, published years ahead, so the weeks off are part of the schedule from the first conversation.
 - **Three and a half hours, or four and a half** The teacher is in India, which has kept one clock for decades, so both changes each year happen on the Dutch side. Neither setting removes an hour a family here would have used anyway.
 
@@ -195,7 +195,7 @@ Loosduinen runs from the old village out to the dunes at Kijkduin and Ockenburgh
 Below, in full, because a price a family has to ask for is a price that has something wrong with it.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 Dollars, one rate, worldwide, and no separate euro price list, which means Rosenburg and Kijkduin see the same figure. Nothing is paid until the free lesson has produced a course and an hour, and payment is arranged over WhatsApp afterwards. Pausing, switching plan and missing a week are all written out on the pricing page.
@@ -236,7 +236,7 @@ No, and none is claimed here, elsewhere in The Hague or anywhere in the Netherla
 
 ### What do Loosduinen coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

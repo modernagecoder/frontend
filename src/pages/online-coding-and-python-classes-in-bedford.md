@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI lessons for Bedford, Kempston, W
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-bedford
 source: src/pages/online-coding-and-python-classes-in-bedford.html
 ---
-> Bedford borough had 185,231 residents at the 2021 census, and the Bedford built-up area 97,235, with Kempston next in size at 22,785. The borough skews young: each band from birth to 14 is above the England share, as are adults in their early forties. We run live online lessons in coding, Python, AI and maths for anyone aged 6 to 67, with tutors in India teaching privately or in classes of five to ten at one stage. The opening lesson is free and chooses the course. The Bedford project asks whether a river gauge can be trusted, using its neighbour upstream. Group lessons then cost USD 100 each month and one-to-one lessons USD 150 each month.
+> Bedford borough had 185,231 residents at the 2021 census, and the Bedford built-up area 97,235, with Kempston next in size at 22,785. The borough skews young: each band from birth to 14 is above the England share, as are adults in their early forties. We run live online lessons in coding, Python, AI and maths for anyone aged 6 to 67, with tutors in India teaching privately or in classes of fifteen to twenty at one stage. The opening lesson is free and chooses the course. The Bedford project asks whether a river gauge can be trusted, using its neighbour upstream. Group lessons then cost USD 100 each month and one-to-one lessons USD 150 each month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East of England](/coding-and-ai-classes-in-east-of-england) / Bedford
 
@@ -12,11 +12,11 @@ Bedford, Bedfordshire, England / Live online
 
 # Online coding and Python classes in Bedford
 
-**What are the best online coding and Python classes for Bedford?** Bedford borough had 185,231 residents at the 2021 census, and the Bedford built-up area 97,235, with Kempston next in size at 22,785. The borough skews young: each band from birth to 14 is above the England share, as are adults in their early forties. We run live online lessons in coding, Python, AI and maths for anyone aged 6 to 67, with tutors in India teaching privately or in classes of five to ten at one stage. The opening lesson is free and chooses the course. The Bedford project asks whether a river gauge can be trusted, using its neighbour upstream. Group lessons then cost USD 100 each month and one-to-one lessons USD 150 each month.
+**What are the best online coding and Python classes for Bedford?** Bedford borough had 185,231 residents at the 2021 census, and the Bedford built-up area 97,235, with Kempston next in size at 22,785. The borough skews young: each band from birth to 14 is above the England share, as are adults in their early forties. We run live online lessons in coding, Python, AI and maths for anyone aged 6 to 67, with tutors in India teaching privately or in classes of fifteen to twenty at one stage. The opening lesson is free and chooses the course. The Bedford project asks whether a river gauge can be trusted, using its neighbour upstream. Group lessons then cost USD 100 each month and one-to-one lessons USD 150 each month.
 
 Two Environment Agency gauges watch the Great Ouse, one upstream of Bedford at Newport Pagnell, in Milton Keynes, and one downstream at Roxton, in Bedford borough, just above where the River Ivel joins. Roxton drains 1,660 square kilometres, Newport Pagnell 800. If both gauges measure honestly, their flows should rise and fall together, with Roxton carrying roughly twice as much. But how would you spot the moment a gauge quietly changed, perhaps a weir altered or a new calculation adopted? Hydrologists use a simple, clever picture called a double mass curve. A Bedford learner can draw it in Python from 27 years of data and see why adding things up can reveal what single years hide.
 
-Facts last verified 27 September 2026. Teaching is online; no Bedford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Bedford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Bedford learners begin with
 
@@ -139,7 +139,7 @@ Everywhere in the borough joins the same way.
 - **Student at the keyboard** The learner types each program; the tutor watches the shared screen and prompts with questions.
 - **Started at the right year** A Year 5 or a Year 12 begins where their school year and trial point, with their exam board used.
 - **Free trial** The first full lesson is free and ends with honest advice.
-- **Classmates who match** A group is five to ten UK learners who have all reached the same point.
+- **Classmates who match** A group is fifteen to twenty UK learners who have all reached the same point.
 - **Two lessons weekly** Twice a week in term; nothing in school holidays.
 - **Fixed local time** UK clock changes move our teachers, not your slot.
 

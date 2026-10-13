@@ -191,7 +191,7 @@ Our teachers are in India, behind every Australian capital. In Adelaide during d
 
 - **One strategy at a time** Each lesson builds a single method until it is reliable.
 - **Explain the correction** Students say what they changed and how they undid it.
-- **Five to ten per group** Grouped by skill, so the pace suits everyone.
+- **Fifteen to twenty per group** Grouped by skill, so the pace suits everyone.
 - **Private option** One-to-one lessons for a particular gap or a confidence rebuild.
 - **Short parent updates** What was covered, and one question to try at the dinner table.
 - **No level promised** We teach the mathematics; NAPLAN reports what the child shows on the day.
@@ -201,7 +201,7 @@ Our teachers are in India, behind every Australian capital. In Adelaide during d
 Australian families are charged monthly in US dollars, our rate for every country outside India. Nothing is paid in advance, and you can stop at any month end.
 
 - Free first class: USD 0. A full lesson with a teacher. Advice on where your child stands. No card required.
-- Group batch: USD 100 a month. Five to ten students at the same stage. One regular teacher. Feedback on every task. A certificate on completion.
+- Group batch: USD 100 a month. Fifteen to twenty students at the same stage. One regular teacher. Feedback on every task. A certificate on completion.
 - One to one: USD 150 a month. A teacher for one student. Work on the exact gaps that matter. Times that suit your family.
 
 ## What Year 5 families ask us

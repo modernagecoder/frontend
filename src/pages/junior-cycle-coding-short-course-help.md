@@ -4,7 +4,7 @@ description: "Help with the Junior Cycle Coding short course: the strands, the P
 canonical: https://learn.modernagecoders.com/junior-cycle-coding-short-course-help
 source: src/pages/junior-cycle-coding-short-course-help.html
 ---
-> The Junior Cycle Coding short course has one Classroom-Based Assessment, called Putting the Pieces Together. Students choose a Software Project, built in a team of two or three but assessed on each student's own role, or an individual Coding Portfolio of 3 to 5 pieces with reflections. It takes place in second or third year, after all three strands, over about six to eight hours, and the school awards one of four descriptors, which appears on the Junior Cycle Profile of Achievement. Modern Age Coders teaches the skills behind the course live online, on separate examples, in groups of five to ten or one to one. We never touch assessed work. The first class is free; later a group place is USD 100 a month, and one-to-one USD 150.
+> The Junior Cycle Coding short course has one Classroom-Based Assessment, called Putting the Pieces Together. Students choose a Software Project, built in a team of two or three but assessed on each student's own role, or an individual Coding Portfolio of 3 to 5 pieces with reflections. It takes place in second or third year, after all three strands, over about six to eight hours, and the school awards one of four descriptors, which appears on the Junior Cycle Profile of Achievement. Modern Age Coders teaches the skills behind the course live online, on separate examples, in groups of fifteen to twenty or one to one. We never touch assessed work. The first class is free; later a group place is USD 100 a month, and one-to-one USD 150.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / Junior Cycle Coding help
 
@@ -171,7 +171,7 @@ Lessons are live and taught from India, at a regular hour set in Irish time; Iri
 - **Assessment weeks** Lessons switch to unrelated examples while the CBA is under way.
 
 - **A first class, free** A short task in code, so the teacher can see where the student stands and suggest a starting point.
-- **Small groups** Five to ten students at the same level, many of them taking school computing courses of their own.
+- **Small groups** Fifteen to twenty students at the same level, many of them taking school computing courses of their own.
 - **One to one** For a student who wants the teacher's full attention, or who is far ahead of their class.
 - **Practice, not the real thing** Every project in our lessons is separate from school assessed work, by design.
 - **Irish terms kept** Strands, CBA, descriptors and JCPA are used as Irish schools use them; lessons are in English.
@@ -182,7 +182,7 @@ Lessons are live and taught from India, at a regular hour set in Irish time; Iri
 A single monthly price in US dollars for families anywhere outside India. Joining costs nothing extra, and there is no contract for the school year.
 
 - Free first class: USD 0. A short coding task with a teacher. A suggested starting point. No payment details.
-- Group batch: USD 100 a month. Five to ten students at one level. One teacher all term. Practice work reviewed each week. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. One teacher all term. Practice work reviewed each week. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one student. Fitted around the school course. Paused for assessment weeks.
 
 ## What parents and students ask about the Coding short course

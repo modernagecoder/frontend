@@ -256,7 +256,7 @@ module.exports = {
     h2: 'Fees for AI projects',
     lede: 'Billed monthly in US dollars, at the same rate for every country outside India, with no joining charge and no commitment past the current month. Most tools used are free; any paid AI service is your own choice and your own account.',
     free: ['A look at your Python and maths', 'A first project agreed with you', 'Nothing to pay that day'],
-    group: ['Five to ten learners at one level', 'The same teacher each week', 'Data and evaluation reviewed', 'Stop at the end of any month'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher each week', 'Data and evaluation reviewed', 'Stop at the end of any month'],
     one: ['One teacher, one learner', 'Your own project at the centre', 'Suits a competition deadline']
   },
 

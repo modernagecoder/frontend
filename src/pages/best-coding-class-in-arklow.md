@@ -16,7 +16,7 @@ Arklow, County Wicklow / Live online
 
 Off the coast from Arklow, SSE Renewables is developing Arklow Bank Wind Park 2, and its web page makes two large claims: that the wind farm would power 834,286 homes, and that it would abate 826,944,000 kilos of carbon emissions a year. Unusually, and to its credit, it prints a footnote showing how both were worked out. That makes them checkable. The learner rebuilds each figure step by step, writing every number with its unit. The homes figure reproduces exactly. The carbon figure reproduces too, but only once a unit printed in the footnote is read as kilograms rather than grams, a factor of a thousand that nobody notices by reading and everybody notices by calculating.
 
-Facts last verified 19 September 2026. Teaching is online; no Arklow branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Arklow branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Arklow learners often choose first
 
@@ -167,7 +167,7 @@ An assistant is a fast calculator. Insisting that every number keeps its unit is
 The details.
 
 - **Live lessons** The teacher is on the call for the whole lesson and works from what the learner is making.
-- **Level groups** Five to ten learners at one stage of a course, from Wicklow, the rest of Ireland and abroad.
+- **Level groups** Fifteen to twenty learners at one stage of a course, from Wicklow, the rest of Ireland and abroad.
 - **Twice a week, usually** Eight or so lessons in a month, at hours set when the course begins.
 - **Term-time friendly** Holidays, mid-term breaks and exam weeks are planned in from the outset.
 - **Needed at home** A laptop or desktop rather than a phone, speakers or a headset plus a microphone, and a home connection good enough for live video.
@@ -180,7 +180,7 @@ The details.
 All the prices.
 
 - First class: USD 0. A full first lesson with the level assessed, free of charge.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one stage, around eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one stage, around eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons on the same weekly pattern.
 
 Every family outside India pays the same US dollar amount each month. Nothing is due for the free lesson, the monthly fee starts with the course, and the rules on holidays, missed lessons and changing format are set out on the pricing page.
@@ -221,7 +221,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Arklow cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

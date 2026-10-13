@@ -165,7 +165,7 @@ module.exports = {
       { h3: 'Learners type', p: 'Each student writes their own programs while the tutor follows along on the shared screen.' },
       { h3: 'Year groups', p: 'A Year 2 or a Year 12 in Luton begins at the level their school year suggests, using exam board names.' },
       { h3: 'Free first lesson', p: 'No charge for the opening lesson, which ends with clear advice.' },
-      { h3: 'Same-level classes', p: 'Five to ten learners at one stage, from anywhere in the UK.' },
+      { h3: 'Same-level classes', p: 'Fifteen to twenty learners at one stage, from anywhere in the UK.' },
       { h3: 'Term pattern', p: 'Two lessons weekly in term, with a pause for holidays.' },
       { h3: 'UK hour kept', p: 'Clock changes leave your lesson time alone; our teachers adjust.' }
     ],

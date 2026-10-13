@@ -54,7 +54,7 @@ module.exports = {
   twitterDescription: 'Adelaide maths tutoring, live online: Reception to SACE Stage 2 and adults, with real geometry from the city squares.',
   pageName: 'Maths Tutor in Adelaide',
   webPageDescription: 'Live online maths tutoring for Greater Adelaide learners from Reception to the SACE Stage 2 mathematics subjects and adult maths, with a geometry project on triangles between the city squares.',
-  courseDescription: 'Live online maths lessons for Adelaide learners, privately or in level-matched groups of five to ten, from early number to SACE Specialist Mathematics and adult maths.',
+  courseDescription: 'Live online maths lessons for Adelaide learners, privately or in level-matched groups of fifteen to twenty, from early number to SACE Specialist Mathematics and adult maths.',
   crumbs: [
     { name: 'Courses', href: '/courses' },
     { name: 'Coding classes in Australia', href: '/coding-classes-in-australia' }
@@ -84,7 +84,7 @@ module.exports = {
     ['City project', 'Triangles between the city squares']
   ],
   capsuleQ: 'Maths tutor in Adelaide, in brief',
-  capsule: 'For Adelaide, Modern Age Coders offers live online maths tutoring from Reception through Year 12 and on to adult learners up to 67. Senior students are taught the four SACE subjects: Essential Mathematics, General Mathematics, Mathematical Methods and Specialist Mathematics. Every session is booked on the Adelaide clock, either privately or with five to ten classmates working at the same level, and a first session costs nothing.',
+  capsule: 'For Adelaide, Modern Age Coders offers live online maths tutoring from Reception through Year 12 and on to adult learners up to 67. Senior students are taught the four SACE subjects: Essential Mathematics, General Mathematics, Mathematical Methods and Specialist Mathematics. Every session is booked on the Adelaide clock, either privately or with fifteen to twenty classmates working at the same level, and a first session costs nothing.',
   picks: {
     eyebrow: 'Where Adelaide learners often start',
     h2: 'Three maths courses for Adelaide',
@@ -437,7 +437,7 @@ module.exports = {
     h2: 'Fees for maths tutoring in Adelaide',
     lede: 'Adelaide families pay a single monthly fee in US dollars, with no enrolment charge and no fixed term.',
     free: ['A full lesson at the learner\'s level', 'Honest advice on next steps', 'No card'],
-    group: ['Five to ten learners at one level', 'The same teacher each week', 'Marked practice', 'Stop after any month'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher each week', 'Marked practice', 'Stop after any month'],
     one: ['Private teaching', 'One goal at a time', 'Ideal before SACE exams']
   },
   faq: {

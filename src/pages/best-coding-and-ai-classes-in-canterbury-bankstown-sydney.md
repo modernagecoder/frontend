@@ -16,7 +16,7 @@ City of Canterbury-Bankstown, Sydney / Live online
 
 The council area has 75 government schools in the NSW Department of Education's file. Is there one level of schooling that makes up more than half of them? A beginner counts every category in a dictionary. The Boyer-Moore majority vote algorithm does it with a single variable and a single counter, walking the list once. It names primary schools, and a second pass confirms 46 of the 75. Ask the same algorithm about suburbs and it confidently names Punchbowl, which appears just three times. The second pass is what catches it, and that is the real lesson.
 
-Facts last verified 10 October 2026. Teaching is online; no Canterbury-Bankstown branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Canterbury-Bankstown branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that build algorithmic thinking
 
@@ -183,7 +183,7 @@ From Campsie to Panania, every household in the council area joins the same live
 - **From home** No travel across the council area; a computer and headphones are enough.
 - **NSW timing** Plans follow NSW stages and break for the state school holidays.
 - **Free trial** A full first lesson at no cost, followed by a suggested course and time.
-- **Group or one to one** Classes of five to ten learners sorted by level, or a teacher of your own.
+- **Group or one to one** Classes of fifteen to twenty learners sorted by level, or a teacher of your own.
 - **Steady routine** The same two weekly slots all term, roughly eight lessons a month.
 - **Teachers in India** A 5:30pm lesson in summer begins at noon India time, and at 1pm once Sydney leaves daylight saving.
 
@@ -194,7 +194,7 @@ From Campsie to Panania, every household in the council area joins the same live
 Three amounts are the whole story.
 
 - First class: USD 0. The first lesson is free and ends with a recommendation.
-- Group tuition: USD 100 a month. A month of small-group lessons, normally eight, with five to ten learners.
+- Group tuition: USD 100 a month. A month of small-group lessons, normally eight, with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Roughly eight lessons a month with one teacher and one learner.
 
 Outside India every invoice is in US dollars, the same across the council area. Payment starts only after the trial, when course and times are agreed; holidays and absences are explained on the pricing page.
@@ -235,7 +235,7 @@ No. All lessons are live online and we have no premises in Australia. The phone 
 
 ### What do classes cost in Canterbury-Bankstown?
 
-The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one.
+The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one.
 
 ### How many learners are in a group?
 

@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding classes in Cambridgeshire',
   capsuleQ: 'What are the best coding classes in Cambridgeshire?',
-  capsule: 'Cambridgeshire, as a county, is Peterborough plus five districts, 894,519 people at the 2021 Census, with two cities at opposite ends: Peterborough in the north and Cambridge in the south, and fen towns such as Wisbech, March, Chatteris and Ely in between. Our classes cover all of it the same way. A teacher based in India teaches live over video; learners are grouped by their current ability, never simply by age, and anyone from 6 to 67 is welcome, in a group of five to ten or one to one. We teach programming, Python, Java, algorithms, AI and maths. The county project borrows the limits of EDSAC, the computer that ran its first program in Cambridge in 1949. Nothing is charged for the first lesson, and afterwards group places are USD 100 a month and private lessons USD 150.',
+  capsule: 'Cambridgeshire, as a county, is Peterborough plus five districts, 894,519 people at the 2021 Census, with two cities at opposite ends: Peterborough in the north and Cambridge in the south, and fen towns such as Wisbech, March, Chatteris and Ely in between. Our classes cover all of it the same way. A teacher based in India teaches live over video; learners are grouped by their current ability, never simply by age, and anyone from 6 to 67 is welcome, in a group of fifteen to twenty or one to one. We teach programming, Python, Java, algorithms, AI and maths. The county project borrows the limits of EDSAC, the computer that ran its first program in Cambridge in 1949. Nothing is charged for the first lesson, and afterwards group places are USD 100 a month and private lessons USD 150.',
   lead: 'EDSAC could carry out about 650 instructions a second and, at first, remember just 512 words. Those two numbers make a wonderful puzzle for a modern learner, because they force a choice that every programmer eventually meets: the fastest way to solve a problem is often the one that needs the most memory. Take the simplest serious task there is, listing the prime numbers. One method is quick but wants a note for every number; another is frugal with memory but slow. On a machine with 512 words, neither is good enough for primes up to ten thousand. This page\'s project finds a third way, and counts every step so the trade is visible in seconds and in words.',
   wa: 'Hello Modern Age Coders, may we book a free lesson for a learner in Cambridgeshire?',
 
@@ -177,7 +177,7 @@ module.exports = {
       { h3: 'Learning at home', p: 'A bedroom in Chatteris, a kitchen in Cottenham, a study in Godmanchester. The teacher shares a screen and the learner writes the code.' },
       { h3: 'School words you know', p: 'Year groups, GCSE choices and A level subjects are named the way Cambridgeshire schools name them, in English throughout.' },
       { h3: 'First lesson free', p: 'A proper lesson with real work, then a straight answer about level and course. There is nothing to pay and no card to give.' },
-      { h3: 'Matched classmates', p: 'Groups of five to ten learners who have reached the same point, from towns and countries far apart, at a sensible hour.' },
+      { h3: 'Matched classmates', p: 'Groups of fifteen to twenty learners who have reached the same point, from towns and countries far apart, at a sensible hour.' },
       { h3: 'Holidays by arrangement', p: 'Most learners have two lessons weekly and take the same holidays as their own school, whichever council or academy trust set them.' },
       { h3: 'A UK-time timetable', p: 'The clock in India, where lessons are taught from, is five and a half hours ahead of UK winter time and four and a half ahead of UK summer time, so every slot we offer is written in UK time to avoid any mix-up.' }
     ],
@@ -188,7 +188,7 @@ module.exports = {
     h2: 'Cambridgeshire fees',
     intro: 'One price list for all of Cambridgeshire, and for every country but India.',
     first: 'A full lesson of real work, ending with a recommended level and course.',
-    group: 'About eight lessons a month in a group of five to ten learners at one level.',
+    group: 'About eight lessons a month in a group of fifteen to twenty learners at one level.',
     private: 'About eight lessons a month with a teacher and one learner.',
     closer: 'Fees are charged in US dollars, the currency we use for every family outside India, and there is no separate pound price. Payment begins only after the free lesson has agreed a course and weekly slot; the pricing page covers pausing, missed lessons and changing between group and private teaching.'
   },

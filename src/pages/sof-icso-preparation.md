@@ -1,10 +1,10 @@
 ---
 title: "SOF ICSO (NCO) Preparation Classes Online, Classes 1 to 10"
-description: "Live online SOF ICSO preparation, Classes 1 to 10 (formerly NCO): four sections including AI and robotics, the 17 December 2026 date, batches of 5 to 10."
+description: "Live online SOF ICSO preparation, Classes 1 to 10 (formerly NCO): four sections including AI and robotics, the 17 December 2026 date, batches of 15 to 20."
 canonical: https://learn.modernagecoders.com/sof-icso-preparation
 source: src/pages/sof-icso-preparation.html
 ---
-> Live online SOF ICSO preparation, Classes 1 to 10 (formerly NCO): four sections including AI and robotics, the 17 December 2026 date, batches of 5 to 10.
+> Live online SOF ICSO preparation, Classes 1 to 10 (formerly NCO): four sections including AI and robotics, the 17 December 2026 date, batches of 15 to 20.
 
 Start here
 
@@ -16,7 +16,7 @@ The paper tests computer science, AI and reasoning at the class's own level, so 
 
 Ans. The short version
 
-SOF ICSO is the International Computer Science Olympiad run by the Science Olympiad Foundation, the exam that was called the National Cyber Olympiad, NCO, until SOF renamed it; the old NCO web address now redirects to the ICSO one. It is a 60-minute multiple-choice paper for Classes 1 to 10, sat at school on one of two dates the school chooses, 24 September or 17 December 2026, with 35 questions for Classes 1 to 4 and 50 for Classes 5 to 10 in four sections: Logical Reasoning, Computer Science, Information Technology (for Classes 1 and 2) or AI, Robotics and Information Technology (for Classes 3 to 10), and the Achievers Section. Registration is through the school only. Modern Age Coders prepares students for it live online, in batches of five to ten grouped by class band, two classes a week, ending on the week of the December date. The first class is a free demo, and the group batch fee is shown on this page in your own currency.
+SOF ICSO is the International Computer Science Olympiad run by the Science Olympiad Foundation, the exam that was called the National Cyber Olympiad, NCO, until SOF renamed it; the old NCO web address now redirects to the ICSO one. It is a 60-minute multiple-choice paper for Classes 1 to 10, sat at school on one of two dates the school chooses, 24 September or 17 December 2026, with 35 questions for Classes 1 to 4 and 50 for Classes 5 to 10 in four sections: Logical Reasoning, Computer Science, Information Technology (for Classes 1 and 2) or AI, Robotics and Information Technology (for Classes 3 to 10), and the Achievers Section. Registration is through the school only. Modern Age Coders prepares students for it live online, in batches of fifteen to twenty grouped by class band, two classes a week, ending on the week of the December date. The first class is a free demo, and the group batch fee is shown on this page in your own currency.
 
 Q1. What exactly is the paper?
 
@@ -176,7 +176,7 @@ Group batch · by class band
 
 per month
 
-- Five to ten students in the same class band
+- Fifteen to twenty students in the same class band
 - Two live classes a week, sections and timed practice
 - Placement check, weekly marked sets, reviewed mocks
 - Certificate on completion
@@ -189,7 +189,7 @@ Mini batch
 
 per month
 
-- Three to four students
+- Up to six students
 - Timings agreed around the family
 - More time per student on the Achievers Section
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across County Leitrim, f
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-leitrim
 source: src/pages/coding-classes-in-county-leitrim.html
 ---
-> Leitrim has 35,199 residents and 22 of them for every square kilometre, the thinnest spread of any county in the State. Carrick-on-Shannon is the biggest town at 4,743 and after that nothing reaches two thousand: Manorhamilton 1,667, Drumshanbo 1,240, Ballinamore 1,112, Mohill 1,027. Classes here run the same way they run everywhere we teach: live, weekly, at a fixed hour, in ability groups of five to ten or one to one, for ages six to sixty-seven. The first is free, then USD 100 a month in a group or USD 150 privately.
+> Leitrim has 35,199 residents and 22 of them for every square kilometre, the thinnest spread of any county in the State. Carrick-on-Shannon is the biggest town at 4,743 and after that nothing reaches two thousand: Manorhamilton 1,667, Drumshanbo 1,240, Ballinamore 1,112, Mohill 1,027. Classes here run the same way they run everywhere we teach: live, weekly, at a fixed hour, in ability groups of fifteen to twenty or one to one, for ages six to sixty-seven. The first is free, then USD 100 a month in a group or USD 150 privately.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Sligo](/coding-classes-in-county-sligo) / County Leitrim
 
@@ -12,11 +12,11 @@ County Leitrim, Connacht / Live online
 
 # Coding classes in County Leitrim
 
-**What are the best coding classes in County Leitrim?** Leitrim has 35,199 residents and 22 of them for every square kilometre, the thinnest spread of any county in the State. Carrick-on-Shannon is the biggest town at 4,743 and after that nothing reaches two thousand: Manorhamilton 1,667, Drumshanbo 1,240, Ballinamore 1,112, Mohill 1,027. Classes here run the same way they run everywhere we teach: live, weekly, at a fixed hour, in ability groups of five to ten or one to one, for ages six to sixty-seven. The first is free, then USD 100 a month in a group or USD 150 privately.
+**What are the best coding classes in County Leitrim?** Leitrim has 35,199 residents and 22 of them for every square kilometre, the thinnest spread of any county in the State. Carrick-on-Shannon is the biggest town at 4,743 and after that nothing reaches two thousand: Manorhamilton 1,667, Drumshanbo 1,240, Ballinamore 1,112, Mohill 1,027. Classes here run the same way they run everywhere we teach: live, weekly, at a fixed hour, in ability groups of fifteen to twenty or one to one, for ages six to sixty-seven. The first is free, then USD 100 a month in a group or USD 150 privately.
 
 In 2022, 77 people cycled to work in County Leitrim. That was 27 more than in 2016, so somebody could correctly write that cycling to work here rose by more than half in six years. Twenty seven people. Over the same period walking to work fell, from 697 people to 686, a decline of eleven individuals that a chart would render as a downward line. This is the whole difficulty with small places. Every percentage is arithmetically correct and almost none of them mean what they appear to mean, because the numbers underneath are small enough that a handful of people changing jobs moves everything. The habit this county teaches is short and permanent: before you believe a percentage, ask how many people.
 
-Facts last verified 16 September 2026. Teaching is online; no County Leitrim branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no County Leitrim branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four places to start
 
@@ -169,7 +169,7 @@ Six facts about how the teaching works.
 
 - **One live hour, weekly** A teacher present throughout, expecting the learner to speak and to be wrong out loud.
 - **Distance stops mattering** Kinlough to Carrick-on-Shannon is most of the county. Online, it is nothing at all.
-- **A group that could not otherwise exist** Five to ten learners at one level, gathered from Leitrim and several other countries, which in a county of 35,199 is the only way the right group ever forms.
+- **A group that could not otherwise exist** Fifteen to twenty learners at one level, gathered from Leitrim and several other countries, which in a county of 35,199 is the only way the right group ever forms.
 - **What is needed** A laptop or desktop, working sound and a line that carries video, which the free lesson tests directly.
 - **Built around Irish terms** Junior Cycle, Transition Year and senior cycle, with mid-terms and exam weeks planned for.
 - **Our teaching hours** Afternoons, evenings and weekend mornings, taught by a team working several hours ahead of Irish time.
@@ -181,7 +181,7 @@ Six facts about how the teaching works.
 Three figures, and the terms said out loud.
 
 - First class: USD 0. A full first lesson at no cost, ending with a level and a recommended course.
-- Group tuition: USD 100 a month. A month of group classes, about eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group classes, about eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. A month of one to one teaching on the same weekly pattern.
 
 Billing is monthly in US dollars at the one rate we charge outside India, so Manorhamilton pays exactly what Carrick-on-Shannon pays and there is no euro list to compare with. Nothing is charged until a course and an hour are agreed in the free lesson. Pauses, missed lessons and moving between group and one to one are all written out on the pricing page.
@@ -206,7 +206,7 @@ No Leitrim school appears on the forty-school first-phase list published in Janu
 
 ### Is it harder to find a class in a county this small?
 
-In a room, yes, and that is the honest answer. A child may be the only one in their year with a serious interest. Online, we place them with five to ten learners at the same level from across several countries.
+In a room, yes, and that is the honest answer. A child may be the only one in their year with a serious interest. Online, we place them with fifteen to twenty learners at the same level from across several countries.
 
 ### Do you teach in north Leitrim as well?
 
@@ -222,7 +222,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do County Leitrim coding classes cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

@@ -174,7 +174,7 @@ module.exports = {
     h2: 'Fees for Knocknacarra',
     intro: 'Briefly.',
     first: 'A free first lesson with a level check.',
-    group: 'A month in a group of five to ten at the same level, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at the same level, about eight live lessons.',
     private: 'A month of one-to-one lessons at the same frequency.',
     closer: 'The fee is one amount in US dollars for every family outside India, paid a month at a time. No payment is due for the trial, the first charge comes with the start of the course, and the pricing page spells out what happens around holidays, absences and a move from group to private lessons or back.'
   },
@@ -198,7 +198,7 @@ module.exports = {
       { q: 'When are lessons held?', a: 'School days have slots from mid-afternoon to evening, and Saturdays and Sundays have daytime ones, all listed in Irish time. Our teachers are in India, five and a half hours ahead of Knocknacarra in the Irish winter and four and a half in summer, so we offer only hours that work in both places.' },
       { q: 'Do you teach adults?', a: 'We do, from complete beginners up to learners of sixty-seven; once the free lesson is done they settle on a same-level group or one-to-one teaching.' },
       { q: 'Will my child be with other Knocknacarra children?', a: 'Possibly, but groups are made by level, so classmates may be anywhere in Ireland or abroad.' },
-      { q: 'What do coding classes in Knocknacarra cost?', a: 'The first lesson is free. Then a group place costs USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.', boiler: true },
+      { q: 'What do coding classes in Knocknacarra cost?', a: 'The first lesson is free. Then a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched by level, pace and goals rather than age or address. If no group runs at a workable time, lessons are one to one.', boiler: true }
     ]
   },

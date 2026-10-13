@@ -16,7 +16,7 @@ Mandurah, Peel region, Western Australia / Live online
 
 Main Roads WA marks its roads with reference points every hundred metres or so, each one tagged with its distance along the road and its exact position. Around Mandurah that open dataset holds 5,887 points. Pair them up along each road and a simple question appears: if you know how far a trip runs along the road, how well can you predict the straight-line distance? A line through the data answers on average. But the errors are tiny for short hops and large for longer ones, so a single error band of plus or minus 507 metres is far too wide for a 300 metre trip and too narrow for a 3 kilometre one. Our Mandurah learners find out why a model's uncertainty must grow with what it is predicting.
 
-Facts last verified 10 October 2026. Teaching is online; no Mandurah branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Mandurah branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Routes in for a Mandurah learner
 
@@ -169,7 +169,7 @@ An online lesson reaches Mandurah without the trip up the freeway.
 - **Kept in WA time** Every slot is set in Western Australian time, which never changes during the year.
 - **WA year levels** Teachers work to WA year levels, ATAR students included, and teach entirely in English.
 - **Learn first, decide later** The trial is a genuine programming lesson. Afterwards we suggest a course and time, and payment details are never taken.
-- **Five to ten learners** Each group shares one level, with learners from different places so every stage has a sensible hour.
+- **Fifteen to twenty learners** Each group shares one level, with learners from different places so every stage has a sensible hour.
 - **Twice weekly sessions** About eight a month, with holiday and exam breaks agreed early.
 - **Adults and retirees too** Daytime and evening groups suit adults at any stage of working life, as do one-to-one lessons.
 
@@ -180,7 +180,7 @@ An online lesson reaches Mandurah without the trip up the freeway.
 Here is everything you pay for.
 
 - First class: USD 0. One free lesson, with a recommended level, course and time at the end.
-- Group tuition: USD 100 a month. Close to eight group lessons each month, with five to ten learners at one level.
+- Group tuition: USD 100 a month. Close to eight group lessons each month, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Close to eight private lessons each month with the same teacher.
 
 Mandurah pays the national US dollar rate, with nothing added or removed for location. No payment is due until the trial fixes a course and slot, and the pricing page sets out holidays, missed lessons and changes of format.
@@ -221,7 +221,7 @@ No, and we do not claim one. Teaching is live and online only, with no premises 
 
 ### What do AI and programming classes in Mandurah cost?
 
-The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
+The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
 
 ### How large are the groups?
 

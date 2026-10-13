@@ -16,7 +16,7 @@ Stockbridge, Edinburgh, Scotland / Live online
 
 Take a list of numbers that go up and down: daily profit and loss, temperature changes, or the rise and fall of the ground along a line. Which unbroken stretch adds up to the most? That is the maximum subarray problem. The obvious method tries every start and every end. Kadane's algorithm does it in a single pass with one idea: at each step, either carry on with the run you have, or drop it and start again here, whichever is larger. The same data shows why the quick shortcut, highest value minus lowest value, gives a wrong answer as soon as direction matters. This project runs both on real heights through Stockbridge.
 
-Facts last verified 30 September 2026. Teaching is online; no Stockbridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Stockbridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for Stockbridge: thinking, Python and vibe coding
 
@@ -138,7 +138,7 @@ Needed at home: a laptop or desktop with a camera, and broadband good enough for
 - **Hands on the keyboard** The learner writes every line while sharing their screen. The teacher steers with questions and leaves the typing alone.
 - **Level set at the trial** The free lesson shows the right starting point and records any SQA course being taken.
 - **Lesson one is on us** No fee for the opening lesson, which finishes with the course we would pick.
-- **Five to ten per class** Classmates are at your level and may live anywhere in the UK.
+- **Fifteen to twenty per class** Classmates are at your level and may live anywhere in the UK.
 - **Twice weekly** Through the school term.
 - **Same hour all year** When British clocks move, the tutor adjusts and your time stays put.
 

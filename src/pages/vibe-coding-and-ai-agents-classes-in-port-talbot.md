@@ -4,7 +4,7 @@ description: "Live online vibe coding and AI agents classes for Port Talbot, Abe
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-port-talbot
 source: src/pages/vibe-coding-and-ai-agents-classes-in-port-talbot.html
 ---
-> Port Talbot's built-up area numbered 31,555 usual residents in Census 2021; the wider county borough of Neath Port Talbot numbered 142,289. Aberavon, Sandfields, Taibach, Margam and Velindre all sit within that built-up area. Learners from Port Talbot, from six-year-olds to people of 67, study vibe coding, AI agents, Python, coding and maths with us over live video, taught by tutors in India either privately or in a level-matched class of five to ten. The first lesson is a free trial that ends with a course recommendation. The Port Talbot project tackles a puzzle every team of AI agents runs into: when three agents each write their own log and their clocks disagree, how do you work out what happened first? Fees after the trial are USD 100 a month for a group place and USD 150 a month for private lessons.
+> Port Talbot's built-up area numbered 31,555 usual residents in Census 2021; the wider county borough of Neath Port Talbot numbered 142,289. Aberavon, Sandfields, Taibach, Margam and Velindre all sit within that built-up area. Learners from Port Talbot, from six-year-olds to people of 67, study vibe coding, AI agents, Python, coding and maths with us over live video, taught by tutors in India either privately or in a level-matched class of fifteen to twenty. The first lesson is a free trial that ends with a course recommendation. The Port Talbot project tackles a puzzle every team of AI agents runs into: when three agents each write their own log and their clocks disagree, how do you work out what happened first? Fees after the trial are USD 100 a month for a group place and USD 150 a month for private lessons.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Port Talbot
 
@@ -12,11 +12,11 @@ Port Talbot, Neath Port Talbot, Wales / Live online
 
 # Vibe coding and AI agents classes in Port Talbot
 
-**Where are the best vibe coding and AI agents classes for Port Talbot?** Port Talbot's built-up area numbered 31,555 usual residents in Census 2021; the wider county borough of Neath Port Talbot numbered 142,289. Aberavon, Sandfields, Taibach, Margam and Velindre all sit within that built-up area. Learners from Port Talbot, from six-year-olds to people of 67, study vibe coding, AI agents, Python, coding and maths with us over live video, taught by tutors in India either privately or in a level-matched class of five to ten. The first lesson is a free trial that ends with a course recommendation. The Port Talbot project tackles a puzzle every team of AI agents runs into: when three agents each write their own log and their clocks disagree, how do you work out what happened first? Fees after the trial are USD 100 a month for a group place and USD 150 a month for private lessons.
+**Where are the best vibe coding and AI agents classes for Port Talbot?** Port Talbot's built-up area numbered 31,555 usual residents in Census 2021; the wider county borough of Neath Port Talbot numbered 142,289. Aberavon, Sandfields, Taibach, Margam and Velindre all sit within that built-up area. Learners from Port Talbot, from six-year-olds to people of 67, study vibe coding, AI agents, Python, coding and maths with us over live video, taught by tutors in India either privately or in a level-matched class of fifteen to twenty. The first lesson is a free trial that ends with a course recommendation. The Port Talbot project tackles a puzzle every team of AI agents runs into: when three agents each write their own log and their clocks disagree, how do you work out what happened first? Fees after the trial are USD 100 a month for a group place and USD 150 a month for private lessons.
 
 Put three AI agents on one job, perhaps one gathering facts, one drafting and one checking, and give each its own log. Something goes wrong, and you merge the logs to see the order of events. If you sort by the times the agents wrote down, you will sometimes see a reply recorded before the question that caused it. Nobody lied; their clocks simply disagree by a fraction of a second. In 1978 Leslie Lamport showed how to order events without trusting clocks at all, and the idea is about forty lines of Python.
 
-Facts last verified 1 October 2026. Teaching is online; no Port Talbot branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 1 October 2026. Teaching is online; no Port Talbot branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Vibe coding and AI agents courses for Port Talbot learners
 
@@ -135,11 +135,11 @@ Classes take place live on video. Learners need a computer with a keyboard; a ta
 - **Learner does the typing** Every program is written and run by the learner, with the tutor asking why.
 - **Trial shows the level** We see where a learner is before recommending a course.
 - **Trial costs nothing** The first session is free and needs no card.
-- **Classes of five to ten** Learners at the same stage, joining from across the UK.
+- **Classes of fifteen to twenty** Learners at the same stage, joining from across the UK.
 - **Around eight a month** Two lessons a week in term, with Neath Port Talbot holidays skipped on request.
 - **Stable UK hour** The lesson time stays fixed when the clocks change.
 
-**Why lessons are online** A class of five to ten learners at one precise level forms far more easily across the UK than in one town, and video spares everyone a journey.
+**Why lessons are online** A class of fifteen to twenty learners at one precise level forms far more easily across the UK than in one town, and video spares everyone a journey.
 
 ## Fees for Port Talbot families
 

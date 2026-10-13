@@ -4,7 +4,7 @@ description: "Online maths tutor for Milton Keynes, ages 6 to 67: KS2 and SATs, 
 canonical: https://learn.modernagecoders.com/maths-tuition-in-milton-keynes
 source: src/pages/maths-tuition-in-milton-keynes.html
 ---
-> Milton Keynes families and adults use Modern Age Coders as an online maths tutor, with live lessons for anyone from 6 to 67. Children prepare for the Year 6 SATs through KS2; teenagers move through KS3 into GCSE, taught for their board (AQA, Edexcel or OCR) and tier, or IGCSE; sixth formers take A level, with Further Maths topics for the keenest; and adults sit GCSE maths resits or rebuild confidence. Lessons run one to one or in groups of five to ten learners at the same level. Our Milton Keynes project tests whether the grid roads cross at right angles: the H roads average a bearing of 060 degrees and the V roads 323, which leaves 83.2 degrees between them. The opening lesson is free. After it, a group place is USD 100 a month and private tuition USD 150 a month.
+> Milton Keynes families and adults use Modern Age Coders as an online maths tutor, with live lessons for anyone from 6 to 67. Children prepare for the Year 6 SATs through KS2; teenagers move through KS3 into GCSE, taught for their board (AQA, Edexcel or OCR) and tier, or IGCSE; sixth formers take A level, with Further Maths topics for the keenest; and adults sit GCSE maths resits or rebuild confidence. Lessons run one to one or in groups of fifteen to twenty learners at the same level. Our Milton Keynes project tests whether the grid roads cross at right angles: the H roads average a bearing of 060 degrees and the V roads 323, which leaves 83.2 degrees between them. The opening lesson is free. After it, a group place is USD 100 a month and private tuition USD 150 a month.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Milton Keynes
 
@@ -14,7 +14,7 @@ Milton Keynes · Maths tutors for ages 6 to 67 · Live online lessons
 
 Milton Keynes is laid out on a grid, and every child who grows up here learns that the H roads run one way and the V roads the other. A grid suggests right angles. So we measured them. Using the free OpenStreetMap data, we drew a straight line from end to end of each grid road and worked out its direction. The H roads head, on average, at a bearing of 060 degrees, not 090; the V roads at 323. The angle between those two average directions is 83.2 degrees. Close to a right angle, but not one. That small gap is a whole unit of school maths, and it is how we teach: real numbers first, then the method that explains them, from Year 2 sums to A level vectors.
 
-At a glance: Learners: Aged 6 to 67, anywhere in Milton Keynes; Primary: KS2 maths, times tables, Year 6 SATs; KS3: Years 7 to 9, algebra and graphs; GCSE: Foundation and Higher, AQA, Edexcel, OCR; Post 16: A level Maths and Further Maths; Adults: GCSE resits, Functional Skills topics, refreshers; How: Live video, one to one or five to ten per group; Project: Grid road gradients and angles. Rated 4.9 across 547 Google reviews.
+At a glance: Learners: Aged 6 to 67, anywhere in Milton Keynes; Primary: KS2 maths, times tables, Year 6 SATs; KS3: Years 7 to 9, algebra and graphs; GCSE: Foundation and Higher, AQA, Edexcel, OCR; Post 16: A level Maths and Further Maths; Adults: GCSE resits, Functional Skills topics, refreshers; How: Live video, one to one or fifteen to twenty per group; Project: Grid road gradients and angles. Rated 4.9 across 547 Google reviews.
 
 ## GCSE, A level and Key Stage 3 maths first
 
@@ -234,7 +234,7 @@ Our teachers work from India. For most of the winter India is five and a half ho
 
 - **One teacher, every week** The person who saw a mistake last week checks for it this week.
 - **Notes for parents** A short message after lessons on what landed and what needs another look.
-- **Five to ten in a group** Everyone working at the same level, so one explanation suits the room.
+- **Fifteen to twenty in a group** Everyone working at the same level, so one explanation suits the room.
 - **Numbers from real places** Grid road angles, timetables and census tables alongside exam questions.
 - **One to one on request** For an exam close at hand or a particular gap.
 - **Reasons, not tricks** Every method comes with the reason it works.
@@ -244,7 +244,7 @@ Our teachers work from India. For most of the winter India is five and a half ho
 One monthly price in US dollars for every country outside India. No joining fee and no contract.
 
 - Free first class: USD 0. A full lesson at the right level. A straight answer about where the learner stands. No payment details needed.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher each week. Homework marked and discussed. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. Homework marked and discussed. A certificate at the end.
 - One to one: USD 150 a month. One teacher, one learner. Aimed at a particular gap. Handy in the run-up to an exam.
 
 ## Questions Milton Keynes families ask about maths tuition

@@ -223,7 +223,7 @@ module.exports = {
     cells: [
       { h3: 'Tools, not exercises', p: 'Every lesson leaves the student with a script they can run again on the next challenge.' },
       { h3: 'We do not touch the challenges', p: 'We teach programming. We do not decipher a live challenge message or help with one, and we say so if asked.' },
-      { h3: 'Five to ten students', p: 'Enough for two approaches to be compared, small enough for every script to be read.' },
+      { h3: 'Fifteen to twenty students', p: 'Enough for two approaches to be compared, small enough for every script to be read.' },
       { h3: 'Our own examples', p: 'Written by us. The organiser publishes an archive of past challenges for the real thing.' },
       { h3: 'One to one when useful', p: 'For a student well ahead of their year, or one building something specific.' },
       { h3: 'No AI shortcuts', p: 'The competition forbids AI for this work, and we teach accordingly.' }
@@ -238,7 +238,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'One monthly rate in US dollars for families outside India, with nothing to pay to register and no minimum term.',
     free: ['A full lesson building something', 'A straight read on the level', 'No card details taken'],
-    group: ['Five to ten students at one level', 'The same teacher every week', 'Code read line by line', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher every week', 'Code read line by line', 'A certificate at the end'],
     one: ['A teacher working with one student', 'Shaped around what they are building', 'Useful when a group hour will not fit']
   },
 

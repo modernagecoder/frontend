@@ -173,7 +173,7 @@ module.exports = {
     intro: 'Six lines.',
     cells: [
       { h3: 'Live teaching', p: 'A teacher present for the whole hour, working from the learner\'s own screen.' },
-      { h3: 'Grouped by level', p: 'Five to ten learners at one stage, from Kilkenny, the rest of Ireland and abroad.' },
+      { h3: 'Grouped by level', p: 'Fifteen to twenty learners at one stage, from Kilkenny, the rest of Ireland and abroad.' },
       { h3: 'Two lessons a week', p: 'Roughly eight a month, in an hour agreed at the start and then kept.' },
       { h3: 'Around the term', p: 'Mid-terms, holidays and exam weeks are built into the plan in advance.' },
       { h3: 'What is needed', p: 'Something with a proper keyboard, a microphone the teacher can hear, and enough bandwidth to hold a video call.' },
@@ -186,7 +186,7 @@ module.exports = {
     h2: 'Kilkenny class fees',
     intro: 'Three lines and no extras.',
     first: 'A complete opening lesson, taught and assessed, at no charge.',
-    group: 'A month in an ability group of five to ten, about eight live lessons.',
+    group: 'A month in an ability group of fifteen to twenty, about eight live lessons.',
     private: 'A month of one to one teaching on the same weekly pattern.',
     closer: 'Fees are monthly, in US dollars, at the one rate for families outside India, so Kilkenny sees the same figure as Carlow or Waterford and there is no euro column anywhere on the page. No money changes hands until a level, a course and a time are settled, which is what the free hour is for, and the pricing page carries the rules on holidays, a lesson missed and a change of format.'
   },
@@ -211,7 +211,7 @@ module.exports = {
       { q: 'Can an adult in Kilkenny learn from scratch?', a: 'Yes, up to the age of sixty-seven. The opening lesson decides whether an adult joins a group at the same stage or works one to one with a teacher.' },
       { q: 'What happens if a learner falls behind?', a: 'The group is chosen to fit, and if it stops fitting we move the learner rather than letting them struggle through a course pitched at somebody else.' },
       { q: 'Is there a Modern Age Coders classroom in Kilkenny?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Kilkenny cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Kilkenny cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

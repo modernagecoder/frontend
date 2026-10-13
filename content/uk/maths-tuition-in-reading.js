@@ -64,7 +64,7 @@ module.exports = {
     ['Project', 'Thames flow in standard form']
   ],
   capsuleQ: 'Maths tuition in Reading: the short version',
-  capsule: 'For Reading learners from age 6 to 67 we work as an online maths tutor, teaching live by video. That covers primary arithmetic through to the Year 6 SATs, preparation for the 11 plus, Years 7 to 9, GCSE (either tier, with AQA, Edexcel or OCR), IGCSE, A level with optional Further Maths topics, and maths for grown-ups, resits included. A learner can have a teacher to themselves or join a class of five to ten who are working at the same point. Our Reading project uses Environment Agency readings of the Thames: on a typical day 23.4 cubic metres of water pass the town each second, which is about 2.02 × 10⁶ cubic metres a day. The trial costs nothing. Ongoing lessons are USD 100 a month for a class seat or USD 150 a month taught privately.',
+  capsule: 'For Reading learners from age 6 to 67 we work as an online maths tutor, teaching live by video. That covers primary arithmetic through to the Year 6 SATs, preparation for the 11 plus, Years 7 to 9, GCSE (either tier, with AQA, Edexcel or OCR), IGCSE, A level with optional Further Maths topics, and maths for grown-ups, resits included. A learner can have a teacher to themselves or join a class of fifteen to twenty who are working at the same point. Our Reading project uses Environment Agency readings of the Thames: on a typical day 23.4 cubic metres of water pass the town each second, which is about 2.02 × 10⁶ cubic metres a day. The trial costs nothing. Ongoing lessons are USD 100 a month for a class seat or USD 150 a month taught privately.',
 
   picks: {
     eyebrow: 'What Reading families ask for first',
@@ -273,7 +273,7 @@ module.exports = {
     cells: [
       { h3: 'A regular teacher', p: 'The same person each week, who knows what slipped last time.' },
       { h3: 'Short updates home', p: 'A few lines after lessons on progress and next steps.' },
-      { h3: 'Groups of five to ten', p: 'Matched by level, so the pace suits everyone.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Matched by level, so the pace suits everyone.' },
       { h3: 'Real data used', p: 'River flows, timetables and census tables alongside exam questions.' },
       { h3: 'Private lessons too', p: 'For a near exam or a single stubborn topic.' },
       { h3: 'Why before how', p: 'We explain the reason behind every method we teach.' }
@@ -288,7 +288,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Charged monthly in US dollars, at the same rate for every country outside India. Nothing to pay up front and no contract.',
     free: ['A real lesson at the right level', 'Frank feedback afterwards', 'No card required'],
-    group: ['Five to ten learners, one level', 'A teacher who stays with the group', 'Marked homework, discussed', 'A certificate on completion'],
+    group: ['Fifteen to twenty learners, one level', 'A teacher who stays with the group', 'Marked homework, discussed', 'A certificate on completion'],
     one: ['A single learner with a teacher', 'Built around the exact gap', 'Useful before an exam']
   },
 

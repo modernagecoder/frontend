@@ -1,12 +1,12 @@
 # Modern Age Coders
 
 > Live online coding and mathematics classes for kids (ages 6+), teens, college students,
-and adults, ages 6 to 67. Small group batches of 5 to 10 students, mini batches of 3 to 4, and 1-on-1. Rated 4.9 out of 5 across 547
+and adults, ages 6 to 67. Small group batches of 15 to 20 students, mini batches of up to 6, and 1-on-1. Rated 4.9 out of 5 across 547
 Google reviews. Founded 2020.
 
 Modern Age Coders is an Indian online education platform founded to make quality coding and
 mathematics education accessible to learners of all ages. We offer live, interactive classes
-taught by expert mentors in groups of 5 to 10 students at most, unlike large platforms
+taught by expert mentors in groups of 15 to 20 students at most, unlike large platforms
 where students get lost in the crowd.
 
 We are one of the very few providers that teaches BOTH coding and mathematics under one
@@ -1818,7 +1818,7 @@ Each page maps the grade's real content, worked examples, honest FAQs, and a mar
 
 ## Our Unique Differentiators
 
-- Small batches: 5 to 10 students per group class, 3 to 4 in a mini batch, or 1-on-1 (not 100+)
+- Batches: 15 to 20 students per group class, up to 6 in a mini batch, or 1-on-1 (not 100+)
 - Live and interactive: taught by a real mentor in real time, not pre-recorded video
 - Coding AND maths under one brand, on one continuous track from age 6 to adult; coding
   providers typically stop at 17; maths providers do not teach programming
@@ -1838,7 +1838,7 @@ Each page maps the grade's real content, worked examples, honest FAQs, and a mar
 
 Q: What is Modern Age Coders?
 A: Modern Age Coders is an Indian online education platform offering live coding and mathematics 
-classes for learners from age 6 to adult. Classes are conducted in small groups of 5 to 10 students 
+classes for learners from age 6 to adult. Classes are conducted in groups of 15 to 20 students 
 with expert mentors. Courses include Python, Java, web development, Scratch, AI/ML, and math.
 
 Q: Who is Modern Age Coders for?
@@ -1847,8 +1847,8 @@ professionals, and corporate teams across India and internationally. We also run
 Girls in Tech coding batch.
 
 Q: How much do Modern Age Coders courses cost?
-A: In India there are three tiers, all billed monthly with no lock-in: group batches of 5 to
-10 students at ₹1,499 per month (two live classes per week), mini batches of 3 to 4 students
+A: In India there are three tiers, all billed monthly with no lock-in: group batches of 15 to
+20 students at ₹1,499 per month (two live classes per week), mini batches of up to 6 students
 at ₹2,999 per month, one-on-one classes at ₹4,999 per month (one class a week, four classes
 a month). Outside India the pricing is a flat $100 per month for group classes and $150 for
 one-on-one, in US dollars, for all courses except the Gemini Enterprise programme below. The
@@ -1867,7 +1867,7 @@ C++, Kotlin, Swift, Go, TypeScript, PHP, and more. There are also AI/ML, data sc
 ethical hacking, and mathematics courses.
 
 Q: How is Modern Age Coders different from WhiteHat Jr or Vedantu?
-A: Modern Age Coders offers small batches (5 to 10 students) vs. larger platforms, 
+A: Modern Age Coders offers batches (15 to 20 students) vs. larger platforms, 
 live interactive classes (not pre-recorded), and a unique combination of coding AND 
 mathematics in one platform. Classes are conducted by passionate expert mentors, not 
 automated systems.

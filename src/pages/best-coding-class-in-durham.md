@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Durham learne
 canonical: https://learn.modernagecoders.com/best-coding-class-in-durham
 source: src/pages/best-coding-class-in-durham.html
 ---
-> County Durham had 522,068 usual residents at the 2021 census, and in the middle-layer area the House of Commons Library calls Durham City, 10,073 of the 12,608 residents aged five and over were students. The Durham World Heritage Site says UNESCO inscribed the castle and cathedral in 1986. From our base in India we teach Durham learners aged six to sixty-seven over live video, either on their own with a teacher or in a class of five to ten at a matching level, with lesson times set around UK days. The first lesson costs nothing, and after it a group place is USD 100 a month and private teaching USD 150.
+> County Durham had 522,068 usual residents at the 2021 census, and in the middle-layer area the House of Commons Library calls Durham City, 10,073 of the 12,608 residents aged five and over were students. The Durham World Heritage Site says UNESCO inscribed the castle and cathedral in 1986. From our base in India we teach Durham learners aged six to sixty-seven over live video, either on their own with a teacher or in a class of fifteen to twenty at a matching level, with lesson times set around UK days. The first lesson costs nothing, and after it a group place is USD 100 a month and private teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Durham
 
@@ -12,11 +12,11 @@ Durham, County Durham / Live online
 
 # Coding classes in Durham
 
-**What are the best coding classes in Durham?** County Durham had 522,068 usual residents at the 2021 census, and in the middle-layer area the House of Commons Library calls Durham City, 10,073 of the 12,608 residents aged five and over were students. The Durham World Heritage Site says UNESCO inscribed the castle and cathedral in 1986. From our base in India we teach Durham learners aged six to sixty-seven over live video, either on their own with a teacher or in a class of five to ten at a matching level, with lesson times set around UK days. The first lesson costs nothing, and after it a group place is USD 100 a month and private teaching USD 150.
+**What are the best coding classes in Durham?** County Durham had 522,068 usual residents at the 2021 census, and in the middle-layer area the House of Commons Library calls Durham City, 10,073 of the 12,608 residents aged five and over were students. The Durham World Heritage Site says UNESCO inscribed the castle and cathedral in 1986. From our base in India we teach Durham learners aged six to sixty-seven over live video, either on their own with a teacher or in a class of fifteen to twenty at a matching level, with lesson times set around UK days. The first lesson costs nothing, and after it a group place is USD 100 a month and private teaching USD 150.
 
 Medieval sources, as the World Heritage Site retells them, say that in 1346 the monks of Durham climbed the cathedral's central tower and watched the Battle of Neville's Cross. Could they? Our teenagers answer with Bresenham's line algorithm, which steps across a grid of Ordnance Survey heights one cell at a time, checking whether any hill rises into the line of sight. A person standing at the Neville's Cross monument, 1,110 metres away, comes into view from an eye height of just 10.4 metres. The area Historic England registers as the battlefield is another matter: half of it needs an eye more than 85.2 metres above the cathedral's ground, and 14 of its 157 cells stay hidden from any height we tried.
 
-Facts last verified 23 September 2026. Teaching is online; no Durham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Durham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the cathedral city
 
@@ -174,7 +174,7 @@ The city spreads from the colleges by the river to the estates and villages on t
 - **Hills and river** A learner in Sherburn and another in Ushaw Moor can share one class without crossing the Wear or finding a bus into town.
 - **English school stages** We teach to the stages used in County Durham schools, Reception and Key Stages 1 to 4 through to GCSE and A level, entirely in English.
 - **A lesson with substance** The free session works through a real task and closes with a recommended level, course and weekly slot. We do not ask for card details.
-- **Stage, not postcode** Groups hold five to ten learners at the same stage, from Durham, the rest of the UK and overseas, so every level has sensible times.
+- **Stage, not postcode** Groups hold fifteen to twenty learners at the same stage, from Durham, the rest of the UK and overseas, so every level has sensible times.
 - **Two lessons a week** Two regular lessons each week, around eight a month, with half terms and exam seasons planned with the teacher in advance.
 - **An evening here, late there** A 4.30 pm lesson in Durham starts at 9 pm in India while the UK is on summer time and at 10 pm in winter, because India keeps one time zone all year; our teachers work their evenings around UK families.
 
@@ -185,7 +185,7 @@ The city spreads from the colleges by the river to the estates and villages on t
 The first lesson is free; after that there is one monthly fee.
 
 - First class: USD 0. A full lesson with nothing to pay, ending with advice on level, course and a weekly slot.
-- Group tuition: USD 100 a month. Roughly eight live lessons a month, in a group of five to ten learners at one stage.
+- Group tuition: USD 100 a month. Roughly eight live lessons a month, in a group of fifteen to twenty learners at one stage.
 - Private tuition: USD 150 a month. Roughly eight live lessons a month, with the teacher working with your learner alone.
 
 Whether you live in Newton Hall or Neville's Cross, the fee is set in US dollars, as it is for every family outside India, and the site shows no pound prices. Nothing is billed until after the free lesson, when the course and weekly slot are agreed; pauses, missed lessons and changing between group and private teaching are all set out on the pricing page.
@@ -226,11 +226,11 @@ No. We have no Durham centre and no premises anywhere in the UK, because every l
 
 ### How much are lessons for a Durham learner?
 
-The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one lessons on the same timetable are USD 150 a month. The course, format and time are agreed before anything is charged.
+The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one lessons on the same timetable are USD 150 a month. The course, format and time are agreed before anything is charged.
 
 ### How do you decide which group a learner joins?
 
-By level, pace and aims rather than age or address, so each group has five to ten learners at one stage. If no group fits the learner's timetable, one-to-one lessons are available instead.
+By level, pace and aims rather than age or address, so each group has fifteen to twenty learners at one stage. If no group fits the learner's timetable, one-to-one lessons are available instead.
 
 ## The North East and beyond
 

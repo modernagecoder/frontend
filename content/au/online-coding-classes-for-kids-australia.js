@@ -59,7 +59,7 @@ module.exports = {
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
-  capsule: 'Online coding classes for kids are live lessons over video in which a teacher guides a small group of children, or one child, as they build games, animations and simple programs. For Australian primary students the natural start is Scratch, a free block-based language, followed by Python from about age nine. Modern Age Coders teaches children aged 6 to 12 across every Australian state and territory, at times set for your own time zone, in groups of five to ten or one to one. The first class is free.',
+  capsule: 'Online coding classes for kids are live lessons over video in which a teacher guides a small group of children, or one child, as they build games, animations and simple programs. For Australian primary students the natural start is Scratch, a free block-based language, followed by Python from about age nine. Modern Age Coders teaches children aged 6 to 12 across every Australian state and territory, at times set for your own time zone, in groups of fifteen to twenty or one to one. The first class is free.',
 
   picks: {
     eyebrow: 'Start here',
@@ -255,7 +255,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A trial at no cost', p: 'The teacher watches how your child works before suggesting a course or a group.' },
-      { h3: 'Kept small', p: 'A class holds five to ten children close in age and ability, so each one gets noticed.' },
+      { h3: 'Kept small', p: 'A class holds fifteen to twenty children close in age and ability, so each one gets noticed.' },
       { h3: 'Individual lessons', p: 'Helpful for children who are very quick, very quiet, or bursting with one idea.' },
       { h3: 'Their own work', p: 'Children build every project themselves. Teachers explain and ask questions; they do not take over the mouse.' },
       { h3: 'Progress you can see', p: 'Finished projects can be played at home, so you see what was learned each week.' },
@@ -271,7 +271,7 @@ module.exports = {
     h2: 'Fees for online coding classes',
     lede: 'Outside India, fees are charged monthly in US dollars at one rate for every country. There is no joining fee and no lock-in for a term, so a family can finish at the end of whichever month suits, school holidays included.',
     free: ['Your child builds something real', 'A clear course suggestion afterwards', 'Nothing to pay, no card asked'],
-    group: ['Classes of five to ten', 'A familiar teacher each week', 'Peers close in age and level', 'Finish whenever a month ends'],
+    group: ['Classes of fifteen to twenty', 'A familiar teacher each week', 'Peers close in age and level', 'Finish whenever a month ends'],
     one: ['Undivided attention from a teacher', 'Times that fit around the school week', 'Pace set entirely by your child']
   },
 

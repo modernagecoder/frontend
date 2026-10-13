@@ -4,7 +4,7 @@ description: "AI, programming, Python and coding classes online for Blackburn an
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-blackburn
 source: src/pages/ai-and-programming-classes-in-blackburn.html
 ---
-> Blackburn with Darwen had 154,738 residents at the 2021 census. The ONS puts the Blackburn built-up area at 124,955 and Darwen at 27,900. The borough is young: 10 to 14 year olds alone make up 7.6 per cent of residents, against 6.0 per cent nationally. From India, our teachers run live video lessons in AI, programming, Python and maths for anyone aged 6 to 67, privately or in groups of five to ten who are at the same stage. A free first lesson shows which course fits. The Blackburn project asks how precise an 18th-century count of spinning machines can be. Staying on is USD 100 per month in a class or USD 150 per month one-to-one.
+> Blackburn with Darwen had 154,738 residents at the 2021 census. The ONS puts the Blackburn built-up area at 124,955 and Darwen at 27,900. The borough is young: 10 to 14 year olds alone make up 7.6 per cent of residents, against 6.0 per cent nationally. From India, our teachers run live video lessons in AI, programming, Python and maths for anyone aged 6 to 67, privately or in groups of fifteen to twenty who are at the same stage. A free first lesson shows which course fits. The Blackburn project asks how precise an 18th-century count of spinning machines can be. Staying on is USD 100 per month in a class or USD 150 per month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Blackburn
 
@@ -12,11 +12,11 @@ Blackburn, Lancashire, England / Live online
 
 # AI and programming classes in Blackburn
 
-**Where are the best AI and programming classes for Blackburn?** Blackburn with Darwen had 154,738 residents at the 2021 census. The ONS puts the Blackburn built-up area at 124,955 and Darwen at 27,900. The borough is young: 10 to 14 year olds alone make up 7.6 per cent of residents, against 6.0 per cent nationally. From India, our teachers run live video lessons in AI, programming, Python and maths for anyone aged 6 to 67, privately or in groups of five to ten who are at the same stage. A free first lesson shows which course fits. The Blackburn project asks how precise an 18th-century count of spinning machines can be. Staying on is USD 100 per month in a class or USD 150 per month one-to-one.
+**Where are the best AI and programming classes for Blackburn?** Blackburn with Darwen had 154,738 residents at the 2021 census. The ONS puts the Blackburn built-up area at 124,955 and Darwen at 27,900. The borough is young: 10 to 14 year olds alone make up 7.6 per cent of residents, against 6.0 per cent nationally. From India, our teachers run live video lessons in AI, programming, Python and maths for anyone aged 6 to 67, privately or in groups of fifteen to twenty who are at the same stage. A free first lesson shows which course fits. The Blackburn project asks how precise an 18th-century count of spinning machines can be. Staying on is USD 100 per month in a class or USD 150 per month one-to-one.
 
 George W. Daniels records that the founder of the Peel family at Blackburn, experimenting with carding machines, employed James Hargreaves, the name forever tied to the spinning-jenny. The jenny grew fast: eight spindles in 1767, "sixteen or more" in the 1770 patent, eighty by 1784, and perhaps 120 in the end. In 1788 a pamphlet estimated 20,070 hand-jennies of eighty spindles at work, alongside 550 of Crompton's mules with ninety each. Multiply and you get 1,605,600 jenny spindles, a number that looks exact to the last digit. It is nothing of the kind. A Blackburn learner can write Python that carries the uncertainty through the sum honestly, using a tool called interval arithmetic.
 
-Facts last verified 27 September 2026. Teaching is online; no Blackburn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Blackburn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Good first courses in Blackburn
 
@@ -136,7 +136,7 @@ Learners join from home wherever they are in the borough.
 - **Learner at the keys** Students type their own code; tutors follow on the shared screen and ask rather than tell.
 - **Set by school year** Whether Year 5 or Year 13, a learner starts where their year and trial lesson indicate, naming the exam board.
 - **Trial at no cost** One free full lesson, then a plain answer about the right course.
-- **Groups by level** Five to ten learners at one stage, drawn from all over the UK.
+- **Groups by level** Fifteen to twenty learners at one stage, drawn from all over the UK.
 - **Term-time lessons** Two lessons per week during term, and a break for every holiday.
 - **Stable timing** Our teachers adjust when the UK clocks change, so your lesson time does not.
 

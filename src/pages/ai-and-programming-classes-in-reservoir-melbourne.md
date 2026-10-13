@@ -16,7 +16,7 @@ Reservoir, City of Darebin, Melbourne, Victoria / Live online
 
 Every machine learning model learns by following a gradient, a set of numbers saying which way to nudge each setting. Write that gradient by hand and a single copied line can send training the wrong way without any error message. Gradient checking compares the formula with a slow but trustworthy estimate, and it takes seconds.
 
-Facts last verified 11 October 2026. Teaching is online; no Reservoir branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 October 2026. Teaching is online; no Reservoir branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that open up the model
 
@@ -182,7 +182,7 @@ Every lesson is a live video class taken from home.
 - **Learner drives** The learner types, runs and fixes the code with the screen shared, and the teacher guides from there.
 - **School-term rhythm** Courses run in Victorian terms and break in the holidays.
 - **Free first class** The trial is a real lesson, after which the teacher proposes a course and a weekly time.
-- **Level-matched** Groups run with five to ten learners who are working at about the same point.
+- **Level-matched** Groups run with fifteen to twenty learners who are working at about the same point.
 - **Two per week** Two set lessons a week, around eight a month, with holiday gaps agreed ahead.
 - **Teachers in India** Our teachers are in India, so a 4:30pm Reservoir class during daylight saving is 11am India time, and noon in the Melbourne winter.
 
@@ -193,7 +193,7 @@ Every lesson is a live video class taken from home.
 A free trial and two monthly rates.
 
 - First class: USD 0. Your first lesson is free and finishes with a plain recommendation.
-- Group tuition: USD 100 a month. A month in a group of five to ten learners at one level, generally eight lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty learners at one level, generally eight lessons.
 - Private tuition: USD 150 a month. Close to eight private lessons a month with one teacher.
 
 Families outside India are billed in US dollars, so Reservoir pays what every other overseas family pays. We take no payment until the trial has fixed course and time; the pricing page explains holidays, missed lessons and changes of format.
@@ -230,11 +230,11 @@ No. All lessons are live online, we have no Australian premises, and our phone n
 
 ### How much are AI classes for Reservoir learners?
 
-The first lesson is free. After it, group classes cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before payment.
+The first lesson is free. After it, group classes cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before payment.
 
 ### How many are in a group?
 
-Five to ten learners grouped on level, pace and goals, with one-to-one lessons if no group time suits.
+Fifteen to twenty learners grouped on level, pace and goals, with one-to-one lessons if no group time suits.
 
 ### Can adults study machine learning with you?
 

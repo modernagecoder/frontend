@@ -4,7 +4,7 @@ description: "Vibe coding, AI agents, Python and coding taught on live video for
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-fareham
 source: src/pages/vibe-coding-and-ai-agents-classes-in-fareham.html
 ---
-> At the 2021 census the ONS put 42,625 usual residents in the Fareham built-up area and 114,511 in the borough of Fareham. Funtley, Wallington, Catisfield, Hill Park and Heathfield are gazetteer suburbs whose nearest postcode lies inside the built-up area. Modern Age Coders runs live online lessons in vibe coding, AI agents, Python, coding and maths for learners from six to 67, with tutors in India teaching one-to-one or in groups of five to ten learners at a matched level. A free lesson always comes first, and our course suggestion follows it. The Fareham project gives a simple agent 30 real post boxes with afternoon collection times and asks whether it should chase the most urgent deadline or the nearest box. Regular lessons then cost USD 100 a month in a group or USD 150 a month one-to-one.
+> At the 2021 census the ONS put 42,625 usual residents in the Fareham built-up area and 114,511 in the borough of Fareham. Funtley, Wallington, Catisfield, Hill Park and Heathfield are gazetteer suburbs whose nearest postcode lies inside the built-up area. Modern Age Coders runs live online lessons in vibe coding, AI agents, Python, coding and maths for learners from six to 67, with tutors in India teaching one-to-one or in groups of fifteen to twenty learners at a matched level. A free lesson always comes first, and our course suggestion follows it. The Fareham project gives a simple agent 30 real post boxes with afternoon collection times and asks whether it should chase the most urgent deadline or the nearest box. Regular lessons then cost USD 100 a month in a group or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Fareham
 
@@ -12,11 +12,11 @@ Fareham, Hampshire / Live online
 
 # Vibe coding and AI agents classes in Fareham
 
-**Which vibe coding and AI agents classes are best for Fareham?** At the 2021 census the ONS put 42,625 usual residents in the Fareham built-up area and 114,511 in the borough of Fareham. Funtley, Wallington, Catisfield, Hill Park and Heathfield are gazetteer suburbs whose nearest postcode lies inside the built-up area. Modern Age Coders runs live online lessons in vibe coding, AI agents, Python, coding and maths for learners from six to 67, with tutors in India teaching one-to-one or in groups of five to ten learners at a matched level. A free lesson always comes first, and our course suggestion follows it. The Fareham project gives a simple agent 30 real post boxes with afternoon collection times and asks whether it should chase the most urgent deadline or the nearest box. Regular lessons then cost USD 100 a month in a group or USD 150 a month one-to-one.
+**Which vibe coding and AI agents classes are best for Fareham?** At the 2021 census the ONS put 42,625 usual residents in the Fareham built-up area and 114,511 in the borough of Fareham. Funtley, Wallington, Catisfield, Hill Park and Heathfield are gazetteer suburbs whose nearest postcode lies inside the built-up area. Modern Age Coders runs live online lessons in vibe coding, AI agents, Python, coding and maths for learners from six to 67, with tutors in India teaching one-to-one or in groups of fifteen to twenty learners at a matched level. A free lesson always comes first, and our course suggestion follows it. The Fareham project gives a simple agent 30 real post boxes with afternoon collection times and asks whether it should chase the most urgent deadline or the nearest box. Regular lessons then cost USD 100 a month in a group or USD 150 a month one-to-one.
 
 Give an AI agent a to-do list and the first question it faces is not how to do each job but which job to do next. The textbook answer is to work in order of deadline, and for a single machine with no travelling that rule is provably hard to beat. An agent that moves around a town is in a different position: every choice changes how far away all the other jobs are. Fareham's post boxes, each with a collection time, turn that difference into a count.
 
-Facts last verified 1 October 2026. Teaching is online; no Fareham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 1 October 2026. Teaching is online; no Fareham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Vibe coding and AI agents courses for Fareham learners
 
@@ -131,7 +131,7 @@ Teaching happens live over video. Learners need a laptop or desktop with a keybo
 - **The learner codes** Keyboard stays with the learner; the tutor asks questions rather than taking over.
 - **Trial sets the level** What the learner shows in the first lesson decides where they begin.
 - **Try before paying** No charge and no card for the trial lesson.
-- **Five to ten per class** Classmates at the same point, joining from all over the UK.
+- **Fifteen to twenty per class** Classmates at the same point, joining from all over the UK.
 - **Two a week, usually** About eight lessons a month in term time, pausing for the holidays you name.
 - **Steady lesson times** We adjust for the clock changes so your slot stays the same.
 

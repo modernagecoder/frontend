@@ -16,7 +16,7 @@ Same five modules, tuned to the age, the stakes and the schedule of each group.
 
 The short answer
 
-A complete AI coding course in 2026 teaches five modules: enough programming fundamentals to read what models write, the craft of directing models precisely, verification habits that catch confident errors, testing and shipping so projects reach real users, and a supervised introduction to coding agents. Courses that teach only prompting produce students who can start anything and finish nothing. Modern Age Coders runs this syllabus live in three age tracks, teens through working professionals, in batches of five to eight at USD 100 a month or one to one at USD 150, with the first class free and the first shipped project inside month one.
+A complete AI coding course in 2026 teaches five modules: enough programming fundamentals to read what models write, the craft of directing models precisely, verification habits that catch confident errors, testing and shipping so projects reach real users, and a supervised introduction to coding agents. Courses that teach only prompting produce students who can start anything and finish nothing. Modern Age Coders runs this syllabus live in three age tracks, teens through working professionals, in batches of fifteen to twenty at USD 100 a month or one to one at USD 150, with the first class free and the first shipped project inside month one.
 
 The syllabus
 
@@ -122,7 +122,7 @@ The rhythm
 
 ### The live session
 
-Ninety minutes, five to eight students, one teacher who stays with the batch for the whole arc. The shape rarely varies: fifteen minutes reviewing what everyone built since last time, an hour of new work on the week's module, and a closing stretch where each student states, out loud, exactly what they will ship before the next session. Saying it aloud sounds like a small thing; it roughly doubles the completion rate, and we have watched enough batches to say that with a straight face.
+Ninety minutes, fifteen to twenty students, one teacher who stays with the batch for the whole arc. The shape rarely varies: fifteen minutes reviewing what everyone built since last time, an hour of new work on the week's module, and a closing stretch where each student states, out loud, exactly what they will ship before the next session. Saying it aloud sounds like a small thing; it roughly doubles the completion rate, and we have watched enough batches to say that with a straight face.
 
 ### The days between
 
@@ -198,7 +198,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, same teacher every week
+- Fifteen to twenty students, same teacher every week
 - Live video, never a recording
 - Build work between sessions, reviewed by the teacher
 - Certificate on completion
@@ -313,7 +313,7 @@ Modules one to four run entirely on tools with capable free tiers, chosen from w
 
 ### Group or one to one for this course?
 
-Groups of five to eight work well for the teen and college tracks, where watching a batchmate's project fail differently from yours is half the education. Professionals with a deadline, or anyone whose schedule fights fixed slots, tend to choose one to one. Both formats cover the same five modules; the difference is pace and scheduling, not syllabus.
+Groups of fifteen to twenty work well for the teen and college tracks, where watching a batchmate's project fail differently from yours is half the education. Professionals with a deadline, or anyone whose schedule fights fixed slots, tend to choose one to one. Both formats cover the same five modules; the difference is pace and scheduling, not syllabus.
 
 ### What does the AI coding course cost?
 

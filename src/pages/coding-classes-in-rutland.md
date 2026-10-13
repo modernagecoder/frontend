@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Rutland, from 
 canonical: https://learn.modernagecoders.com/coding-classes-in-rutland
 source: src/pages/coding-classes-in-rutland.html
 ---
-> Rutland is a single council area, and the 2021 Census counted 41,049 people there. Oakham is the county town and much the largest parish, with Uppingham second, then villages such as Cottesmore, Ketton and Ryhall. In a county this small, finding a local class at exactly the right level is hard, which is where live online teaching helps. We teach over video from India and match each learner to a class by ability, not age, for anyone from 6 to 67, in groups of five to ten or one-to-one, across coding, Python, data structures and maths. The Rutland project turns the whole county into a tree. There is no fee for the first lesson; after that it is USD 100 a month for a group place or USD 150 a month for one-to-one teaching.
+> Rutland is a single council area, and the 2021 Census counted 41,049 people there. Oakham is the county town and much the largest parish, with Uppingham second, then villages such as Cottesmore, Ketton and Ryhall. In a county this small, finding a local class at exactly the right level is hard, which is where live online teaching helps. We teach over video from India and match each learner to a class by ability, not age, for anyone from 6 to 67, in groups of fifteen to twenty or one-to-one, across coding, Python, data structures and maths. The Rutland project turns the whole county into a tree. There is no fee for the first lesson; after that it is USD 100 a month for a group place or USD 150 a month for one-to-one teaching.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Rutland
 
@@ -12,11 +12,11 @@ Rutland / Live online
 
 # Coding classes in Rutland
 
-**What are the best coding classes in Rutland?** Rutland is a single council area, and the 2021 Census counted 41,049 people there. Oakham is the county town and much the largest parish, with Uppingham second, then villages such as Cottesmore, Ketton and Ryhall. In a county this small, finding a local class at exactly the right level is hard, which is where live online teaching helps. We teach over video from India and match each learner to a class by ability, not age, for anyone from 6 to 67, in groups of five to ten or one-to-one, across coding, Python, data structures and maths. The Rutland project turns the whole county into a tree. There is no fee for the first lesson; after that it is USD 100 a month for a group place or USD 150 a month for one-to-one teaching.
+**What are the best coding classes in Rutland?** Rutland is a single council area, and the 2021 Census counted 41,049 people there. Oakham is the county town and much the largest parish, with Uppingham second, then villages such as Cottesmore, Ketton and Ryhall. In a county this small, finding a local class at exactly the right level is hard, which is where live online teaching helps. We teach over video from India and match each learner to a class by ability, not age, for anyone from 6 to 67, in groups of fifteen to twenty or one-to-one, across coding, Python, data structures and maths. The Rutland project turns the whole county into a tree. There is no fee for the first lesson; after that it is USD 100 a month for a group place or USD 150 a month for one-to-one teaching.
 
 Rutland's motto is Multum in Parvo, much in little, and Discover Rutland calls it England's smallest county. Small is useful for a programmer, because it means the whole county fits into one data structure you can print on a page. This project builds Rutland as a tree: the county at the root, its parishes as branches, and the 2021 Census output areas as leaves, each holding a count of people. The learner walks the tree in different orders to print it, total it and search it, and then meets a real surprise: the leaves add up to one person fewer than the county total the ONS publishes, for a reason the ONS explains itself.
 
-Facts last verified 26 September 2026. Teaching is online; no Rutland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Rutland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Rutland learners begin
 
@@ -140,7 +140,7 @@ In a county of villages, a weekly class at the right level might mean a long dri
 - **Lessons in your own home** A cottage in Lyddington, a new house in Barleythorpe, a farmhouse near Clipsham. The screen is shared and the learner does the coding.
 - **The school words, unchanged** Key stages, year groups, GCSEs and A levels are used as Rutland schools use them, and the teaching is in English.
 - **The first lesson is free** A proper lesson with real work, then a straight answer on level and course, without card details.
-- **A group that matches you** Five to ten learners at one stage, from Rutland, the rest of the UK and abroad.
+- **A group that matches you** Fifteen to twenty learners at one stage, from Rutland, the rest of the UK and abroad.
 - **Breaks when you need them** Two lessons a week for most learners, with pauses for your own school holidays.
 - **UK time, clock change or not** Your slot is fixed in UK time all year; the teacher, whose day runs on India time a few hours ahead, adapts when the UK clocks move.
 
@@ -151,7 +151,7 @@ In a county of villages, a weekly class at the right level might mean a long dri
 Uppingham or Tinwell, the price is the same, and it is the same in every country we teach other than India.
 
 - First class: USD 0. One real lesson with genuine work, then advice on level and course.
-- Group tuition: USD 100 a month. About eight lessons a month with a group of five to ten at one level.
+- Group tuition: USD 100 a month. About eight lessons a month with a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. About eight lessons a month, one-to-one with a teacher.
 
 We price and bill in US dollars, not pounds. There is no charge until the free lesson has settled a course and a weekly time, and the pricing page explains pauses, missed lessons and switching between group and private.

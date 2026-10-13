@@ -198,7 +198,7 @@ module.exports = {
     h2: 'A free first lesson, then USD 100 or USD 150 a month, and that is the whole list',
     intro: 'Printed here in full, ahead of any request for a phone number.',
     first: 'A complete lesson with a task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'The rate is the single international one and it is in US dollars, with no euro version, nothing added for Almere and no enrolment charge. The free lesson fixes the course and the slot; payment is arranged afterwards over WhatsApp. Pauses, changes of plan and missed lessons are described on the pricing page.'
   },
@@ -223,7 +223,7 @@ module.exports = {
       { q: 'What time are classes for a family in Almere?', a: 'Three and a half hours behind the teacher in summer and four and a half in winter, because the Dutch clock changes and the Indian one does not. Late afternoons, early evenings and weekends suit both ends, and the recurring slot is chosen during the free lesson, before any payment.' },
       { q: 'What happens in the free Almere lesson?', a: 'We find what the learner can do and set one task there. A child watches water rise past a mark on a ruler with a house taped to it. A teenager writes the datum converter and adds subsidence. An adult brings a baseline from work. The lesson finishes with a course, a level, a weekly time and the price in dollars, and nothing to pay.' },
       { q: 'Is there a Modern Age Coders classroom in Almere?', a: 'No, and none is claimed in Almere, in Lelystad or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Almere coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Almere coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in an Almere group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or stadsdeel. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

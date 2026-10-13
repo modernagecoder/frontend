@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-oman.html
 
 In short
 
-Modern Age Coders runs live online AI and machine learning classes for students in Oman, ages 6 to 67, in small batches of five to eight or one to one. Students learn Python and the mathematics under machine learning, then train and evaluate their own models rather than only prompting AI tools. Fees start at USD 100 a month, billed in US dollars, and the first class is free.
+Modern Age Coders runs live online AI and machine learning classes for students in Oman, ages 6 to 67, in batches of fifteen to twenty or one to one. Students learn Python and the mathematics under machine learning, then train and evaluate their own models rather than only prompting AI tools. Fees start at USD 100 a month, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -273,7 +273,7 @@ Oman time. Working professionals and university students, after dinner on weekni
 
 ### What a session is
 
-Ninety minutes of live video with a teacher who knows your child's name and what they got stuck on last week. Screens are shared in both directions, so the teacher watches the student write code and stops them at the moment the mistake happens rather than marking it three days later. Class size is five to eight students, or one to one if you prefer.
+Ninety minutes of live video with a teacher who knows your child's name and what they got stuck on last week. Screens are shared in both directions, so the teacher watches the student write code and stops them at the moment the mistake happens rather than marking it three days later. Class size is fifteen to twenty students, or one to one if you prefer.
 
 Between sessions students have a task, not a worksheet. Something to build, break and bring back. Questions during the week go to the same teacher, not to a support queue.
 
@@ -343,7 +343,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, same teacher every week
+- Fifteen to twenty students, same teacher every week
 - Live video, never a recording
 - Weekly build tasks and teacher review
 - Certificate on completion
@@ -434,7 +434,7 @@ We enrol from age 6, but a six year old does not start with neural networks. Chi
 
 ### How much do AI and machine learning classes cost in Oman?
 
-Group batches of five to eight students are USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars. The fee is the same flat figure everywhere outside India, so there is no rial conversion to track. The first class is free and does not need a card.
+Group batches of fifteen to twenty students are USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars. The fee is the same flat figure everywhere outside India, so there is no rial conversion to track. The first class is free and does not need a card.
 
 ### Does this fit the CBSE curriculum taught in Indian schools in Oman?
 

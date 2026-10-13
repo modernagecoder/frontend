@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-saudi-arabia.html
 
 In short
 
-Modern Age Coders runs live online AI and machine learning classes for students in Saudi Arabia, ages 6 to 67, in batches of five to eight or one to one. The national AI curriculum already gives every school child the vocabulary, so our work starts a level below it: Python, the mathematics under machine learning, and models the student trains, measures and publishes. Classes run Sunday to Thursday on Arabia Standard Time. Fees start at a flat USD 100 a month, billed in US dollars, and the first class is free.
+Modern Age Coders runs live online AI and machine learning classes for students in Saudi Arabia, ages 6 to 67, in batches of fifteen to twenty or one to one. The national AI curriculum already gives every school child the vocabulary, so our work starts a level below it: Python, the mathematics under machine learning, and models the student trains, measures and publishes. Classes run Sunday to Thursday on Arabia Standard Time. Fees start at a flat USD 100 a month, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -299,7 +299,7 @@ Equivalent to 12:30 in India. The weekend intensive, deliberately on Saturday an
 
 ### What a session is
 
-Ninety minutes of live teaching from someone who picks up exactly where your child stopped. Screens are shared in both directions, so the teacher watches the student type and interrupts at the moment the mistake happens rather than marking it three days later. Batches are five to eight students, or one to one.
+Ninety minutes of live teaching from someone who picks up exactly where your child stopped. Screens are shared in both directions, so the teacher watches the student type and interrupts at the moment the mistake happens rather than marking it three days later. Batches are fifteen to twenty students, or one to one.
 
 Between sessions a student gets a task, not a worksheet: something to build, break and bring back. Questions during the week go to the same teacher, not into a support queue. Nothing here is pre-recorded and nothing is auto-graded.
 
@@ -379,7 +379,7 @@ USD 100
 
 Per month, billed in US dollars
 
-- Five to eight students, same teacher every week
+- Fifteen to twenty students, same teacher every week
 - Live video, never a recording
 - Weekly build tasks and teacher review
 - Certificate on completion

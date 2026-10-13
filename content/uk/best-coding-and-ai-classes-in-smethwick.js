@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Smethwick',
   capsuleQ: 'Where can Smethwick learners find the best coding and AI classes?',
-  capsule: 'Smethwick is a town of 56,340 people by the ONS built-up area count from the 2021 census, and postcodes.io records Bearwood, Cape Hill, Black Patch, West Smethwick, Londonderry, Warley Woods and Rood End as suburbs around it. From there, children of six, teenagers, parents and retired people up to 67 join our tutors in India by video for coding, AI, Python, vibe coding and maths. Some work one-to-one; most sit in a class of five to ten at one level. Understanding comes first with us: a learner should be able to say why a method works and when it will not. We give the first lesson away and finish it by naming a course. Smethwick\'s project describes 978 small census areas with up to 21 columns each and watches "find the most similar area" slowly stop meaning anything. Monthly fees afterwards are USD 100 for a group seat and USD 150 for private tuition.',
+  capsule: 'Smethwick is a town of 56,340 people by the ONS built-up area count from the 2021 census, and postcodes.io records Bearwood, Cape Hill, Black Patch, West Smethwick, Londonderry, Warley Woods and Rood End as suburbs around it. From there, children of six, teenagers, parents and retired people up to 67 join our tutors in India by video for coding, AI, Python, vibe coding and maths. Some work one-to-one; most sit in a class of fifteen to twenty at one level. Understanding comes first with us: a learner should be able to say why a method works and when it will not. We give the first lesson away and finish it by naming a course. Smethwick\'s project describes 978 small census areas with up to 21 columns each and watches "find the most similar area" slowly stop meaning anything. Monthly fees afterwards are USD 100 for a group seat and USD 150 for private tuition.',
   lead: 'Recommendation engines, search tools and the memory behind many AI chat assistants all rest on one idea: turn each item into a list of numbers, then call two items similar when their lists are close. It feels safe to add more numbers, because more description ought to mean better matches. Often the opposite happens. As columns pile up, every item drifts to roughly the same distance from every other, and the nearest match is barely nearer than the farthest. Mathematicians call this distance concentration, one face of the curse of dimensionality. This project measures it on census columns for Sandwell, the borough Smethwick sits in, and on made-up random columns for contrast.',
   wa: 'Hello Modern Age Coders, I am in Smethwick and would like to book a free coding or AI lesson.',
 
@@ -157,7 +157,7 @@ module.exports = {
       { h3: 'Learner at the controls', p: 'The student shares their screen and does the building. The tutor questions, hints and waits.' },
       { h3: 'Placed by a real lesson', p: 'We decide the course after watching the learner work for one free session, not from a form.' },
       { h3: 'No charge to try', p: 'That first session is complete and unpaid, and you leave with a named course.' },
-      { h3: 'Same-level classmates', p: 'Group classes hold five to ten learners from around the UK who are at one stage.' },
+      { h3: 'Same-level classmates', p: 'Group classes hold fifteen to twenty learners from around the UK who are at one stage.' },
       { h3: 'Term-time rhythm', p: 'Two sessions in most weeks, paused for the Sandwell school holidays you tell us about.' },
       { h3: 'UK time, always', p: 'Tutors shift their own clocks when British Summer Time starts and ends.' }
     ],
@@ -168,7 +168,7 @@ module.exports = {
     h2: 'What Smethwick learners pay',
     intro: 'We publish one price list for every country other than India, and it applies here.',
     first: 'A full first lesson, free, with a course recommendation.',
-    group: 'Class of five to ten, roughly eight sessions each month.',
+    group: 'Class of fifteen to twenty, roughly eight sessions each month.',
     private: 'Individual tuition, roughly eight sessions each month.',
     closer: 'Prices are quoted in US dollars and we do not list a sterling figure. You are invoiced only once the trial is done and a course and time are agreed; the pricing page explains holidays, missed sessions and switching between group and private.'
   },

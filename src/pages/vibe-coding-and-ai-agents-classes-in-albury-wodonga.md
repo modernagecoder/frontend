@@ -16,7 +16,7 @@ Albury, New South Wales and Wodonga, Victoria / Live online
 
 Ask an AI agent how many buses run in Wodonga next Tuesday and it will call a tool, and the tool will read a timetable. Transport Victoria publishes Wodonga's buses as open data, and the timetable comes in two parts: a weekly pattern, and a list of dates that break the pattern. A tool written quickly, by a person or by an AI, often reads only the first part. We tested exactly that. Across the 92 days the current feed covers, the shortcut gives the wrong number of trips on 16 days. On an ordinary Tuesday it reports 264 trips when 135 actually run, and on Christmas Day it promises 135 buses when none run at all.
 
-Facts last verified 7 October 2026. Teaching is online; no Albury-Wodonga branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Albury-Wodonga branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for agent builders on the Murray
 
@@ -181,7 +181,7 @@ The twin city spreads along both banks of the Murray, and an online lesson cross
 - **Either side of the river** A learner in North Albury and one in Baranduda can join the same class from home, whichever state they live in.
 - **Two state systems understood** Teachers work with New South Wales and Victorian year levels and term dates, and senior students can link projects to their own state's courses. Lessons are in English.
 - **The trial is a lesson** Your free session is real teaching that ends with a suggested level, course and time, with no card asked for.
-- **Five to ten per group** Learners at one stage from the twin city and beyond, so even small regional cohorts get complete classes.
+- **Fifteen to twenty per group** Learners at one stage from the twin city and beyond, so even small regional cohorts get complete classes.
 - **Eight lessons a month** Two lessons a week at a fixed time, with holidays and exam weeks arranged with your teacher in advance.
 - **Teachers in India** A 6pm lesson in Albury-Wodonga starts at 12:30pm for our teachers during daylight saving and at 1:30pm in winter.
 
@@ -233,11 +233,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Albury-Wodonga classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Albury-Wodonga learners
 

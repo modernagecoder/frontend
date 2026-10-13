@@ -244,7 +244,7 @@ module.exports = {
       { h3: 'Agreement checked', p: 'Labels are double-checked before any training.' },
       { h3: 'Tests held back', p: 'Every model is tested on data it has never seen.' },
       { h3: 'Errors explained', p: 'Students find out why a model got something wrong.' },
-      { h3: 'Small groups', p: 'Five to ten learners, or one to one.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners, or one to one.' },
       { h3: 'Age-appropriate tools', p: 'Younger students use tools that need no adult accounts.' }
     ]
   },
@@ -257,7 +257,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A monthly fee in US dollars applies to every country outside India, at one shared rate. There is no charge to start and no term-length commitment, so any month can be your last.',
     free: ['A trial lesson at no cost', 'A frank view of the right level', 'Card details not needed'],
-    group: ['Five to ten learners', 'A dedicated teacher', 'Similar age and level', 'Pay as you go, monthly'],
+    group: ['Fifteen to twenty learners', 'A dedicated teacher', 'Similar age and level', 'Pay as you go, monthly'],
     one: ['Individual teaching', 'Flexible weekly time', 'Learner-led pace']
   },
 
@@ -273,7 +273,7 @@ module.exports = {
       { q: 'Does my child need maths to train AI?', a: 'Basic percentages are enough to begin. More maths becomes useful later, and our maths and coding courses support each other.' },
       { q: 'What is a test set?', a: 'A test set is a group of examples kept aside and never shown to the model during training, so that its score on them shows how well it handles new data.' },
       { q: 'Will my child use ChatGPT or Claude in these courses?', a: 'Not to build the models. Students train their own. Where chatbots appear, we follow each tool\'s minimum age in its terms.' },
-      { q: 'Are classes live?', a: 'Yes. Every lesson is live online with a teacher, in a small group of five to ten or one to one, at times set for your state.' },
+      { q: 'Are classes live?', a: 'Yes. Every lesson is live online with a teacher, in a group of fifteen to twenty or one to one, at times set for your state.' },
       { q: 'How much are the courses?', a: 'The first lesson is free. Families then pay monthly with no joining fee and no term lock-in, as shown in the fees section.' }
     ]
   },

@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Exeter learne
 canonical: https://learn.modernagecoders.com/best-coding-class-in-exeter
 source: src/pages/best-coding-class-in-exeter.html
 ---
-> Census 2021 counted 130,709 usual residents in Exeter, and 28.7% of those aged five and over were in school or full-time study, against 20.4% in England. The Met Office, founded in 1854 by Robert FitzRoy, moved its headquarters from Bracknell to Exeter in 2003. We teach Exeter learners from six to sixty-seven by live video, either privately or in small classes of five to ten grouped by ability, and our India-based teachers keep to UK hours. The opening lesson carries no charge, and after that a group place costs USD 100 a month and one-to-one lessons USD 150 a month.
+> Census 2021 counted 130,709 usual residents in Exeter, and 28.7% of those aged five and over were in school or full-time study, against 20.4% in England. The Met Office, founded in 1854 by Robert FitzRoy, moved its headquarters from Bracknell to Exeter in 2003. We teach Exeter learners from six to sixty-seven by live video, either privately or in classes of fifteen to twenty grouped by ability, and our India-based teachers keep to UK hours. The opening lesson carries no charge, and after that a group place costs USD 100 a month and one-to-one lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Exeter
 
@@ -12,11 +12,11 @@ Exeter, Devon / Live online
 
 # Coding classes in Exeter
 
-**What are the best coding classes in Exeter?** Census 2021 counted 130,709 usual residents in Exeter, and 28.7% of those aged five and over were in school or full-time study, against 20.4% in England. The Met Office, founded in 1854 by Robert FitzRoy, moved its headquarters from Bracknell to Exeter in 2003. We teach Exeter learners from six to sixty-seven by live video, either privately or in small classes of five to ten grouped by ability, and our India-based teachers keep to UK hours. The opening lesson carries no charge, and after that a group place costs USD 100 a month and one-to-one lessons USD 150 a month.
+**What are the best coding classes in Exeter?** Census 2021 counted 130,709 usual residents in Exeter, and 28.7% of those aged five and over were in school or full-time study, against 20.4% in England. The Met Office, founded in 1854 by Robert FitzRoy, moved its headquarters from Bracknell to Exeter in 2003. We teach Exeter learners from six to sixty-seven by live video, either privately or in classes of fifteen to twenty grouped by ability, and our India-based teachers keep to UK hours. The opening lesson carries no charge, and after that a group place costs USD 100 a month and one-to-one lessons USD 150 a month.
 
 Every stream in the Exe catchment flows somewhere, so the river network is a set of arrows. To add up how much river drains past Exeter Quay, a program must visit the streams in the right order, sources first and the outlet last. That order is a topological sort, and on Ordnance Survey's river data it works perfectly: 775 junctions, no loops, 712.7 kilometres of channel. The number is still wrong. One link of the River Culm ends 417.5 metres short of the next, joined to nothing, so almost everything above that point never reaches Exeter in the data. Bridge that one gap and the total jumps to 911.8 kilometres. Our teenagers learn that a correct algorithm on an incomplete graph gives a confident wrong answer.
 
-Facts last verified 22 September 2026. Teaching is online; no Exeter branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 22 September 2026. Teaching is online; no Exeter branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the city on the Exe
 
@@ -65,7 +65,7 @@ Those aged 15 to 19 made up 9.0% of Exeter and those aged 20 to 24 another 12.5%
 
 Student halls and other communal establishments housed 9,769 people in 2021, a large number for a city of this size; the other 120,940 residents lived in private households.
 
-Our Exeter learners come from every stage. A Year 4 pupil in Heavitree might be making a first game, a Year 12 student in St Thomas starting A level Computer Science, and a graduate in Pennsylvania learning Python for a new job, each in a group of five to ten learners at the same level.
+Our Exeter learners come from every stage. A Year 4 pupil in Heavitree might be making a first game, a Year 12 student in St Thomas starting A level Computer Science, and a graduate in Pennsylvania learning Python for a new job, each in a group of fifteen to twenty learners at the same level.
 
 ## The Met Office, from FitzRoy to Exeter
 
@@ -176,7 +176,7 @@ Exeter is compact, but a school-night trip across it still takes time. Live onli
 - **Either side of the Exe** A learner in Alphington and another in Pinhoe can sit in the same lesson without either crossing the river.
 - **England's school stages** Reception, Key Stages 1 to 4, GCSEs and A levels, named as Exeter schools name them, with every lesson taught in English.
 - **A real first lesson** The free session covers a proper task and ends with a recommended level, course and weekly time. There is no card to enter.
-- **Five to ten per group** Learners at the same stage from Exeter, the rest of the UK and overseas, so every level can find a workable time.
+- **Fifteen to twenty per group** Learners at the same stage from Exeter, the rest of the UK and overseas, so every level can find a workable time.
 - **Twice weekly** Two fixed lessons each week, about eight a month, with holidays and exam periods planned with the teacher well in advance.
 - **Two clocks, one plan** With no clock change in India, our teachers are four and a half hours ahead of Exeter in British Summer Time and five and a half in winter, so UK after-school and evening lessons fit their working day.
 
@@ -187,7 +187,7 @@ Exeter is compact, but a school-night trip across it still takes time. Live onli
 The first lesson is free, then a single monthly fee.
 
 - First class: USD 0. A complete lesson at no cost, closing with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons each month in a class of five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight live lessons each month in a class of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight live lessons each month, with the teacher working with your learner alone.
 
 Newtown and Whipton pay exactly what a family in any other country outside India pays, one fee set in US dollars, and you will not see a price in pounds here. The first bill follows the free lesson, never precedes it, and only once a course and a weekly time are fixed. Pauses, a missed lesson or a move from group to private teaching are all explained on our pricing page.
@@ -228,11 +228,11 @@ No. There is no Exeter centre and we have no premises anywhere in the UK; every 
 
 ### How much do Exeter lessons cost?
 
-The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
+The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
 
 ### How are Exeter groups organised?
 
-By level, pace and aims rather than age or address, with five to ten learners at one stage. When no group suits the learner's week, we offer one-to-one lessons.
+By level, pace and aims rather than age or address, with fifteen to twenty learners at one stage. When no group suits the learner's week, we offer one-to-one lessons.
 
 ## The South West and beyond
 

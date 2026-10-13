@@ -211,7 +211,7 @@ module.exports = {
       { h3: 'Our examples only', p: 'Every exercise uses invented briefs and our own code.' },
       { h3: 'Process made visible', p: 'Students keep a Gantt chart and commit history on every practice build.' },
       { h3: 'Testing as a habit', p: 'Each practice requirement gets a test before it gets code.' },
-      { h3: 'Classes of five to ten', p: 'Students at one level, each presenting their practice work.' },
+      { h3: 'Classes of fifteen to twenty', p: 'Students at one level, each presenting their practice work.' },
       { h3: 'One-to-one coaching', p: 'Private lessons on a single skill, never on assessed work.' },
       { h3: 'Clear boundaries', p: 'We do not write, edit, debug or review projects, and we promise no marks.' }
     ]
@@ -225,7 +225,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A monthly fee in US dollars, set at one level for every family outside India. Joining is free and only the current month is ever charged.',
     free: ['A real lesson on a project skill', 'Honest advice on what to learn next', 'No card details'],
-    group: ['Five to ten students per class', 'One tutor through the term', 'Practice projects reviewed', 'A certificate at the end'],
+    group: ['Fifteen to twenty students per class', 'One tutor through the term', 'Practice projects reviewed', 'A certificate at the end'],
     one: ['Private skill coaching', 'Focused on one weak area', 'Strictly no assessed work']
   },
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across East Sussex, f
 canonical: https://learn.modernagecoders.com/coding-classes-in-east-sussex
 source: src/pages/coding-classes-in-east-sussex.html
 ---
-> East Sussex, counted as a ceremonial county, is Brighton and Hove plus five districts, 822,949 people at the 2021 Census. Brighton and Hove is by far the largest place; then come Eastbourne and Hastings, Bexhill-on-Sea, Seaford, Hailsham and Crowborough, and a string of Weald villages. Wherever a learner lives, we teach the same way: live over video with a teacher based in India, grouped by ability and not by age, for anyone from 6 to 67, either with five to ten classmates or with a teacher to themselves. Programming, Python and maths are all taught. The East Sussex project comes from the observatory at Herstmonceux. Start with a free lesson; after that, group learning is USD 100 a month and private learning USD 150 a month.
+> East Sussex, counted as a ceremonial county, is Brighton and Hove plus five districts, 822,949 people at the 2021 Census. Brighton and Hove is by far the largest place; then come Eastbourne and Hastings, Bexhill-on-Sea, Seaford, Hailsham and Crowborough, and a string of Weald villages. Wherever a learner lives, we teach the same way: live over video with a teacher based in India, grouped by ability and not by age, for anyone from 6 to 67, either with fifteen to twenty classmates or with a teacher to themselves. Programming, Python and maths are all taught. The East Sussex project comes from the observatory at Herstmonceux. Start with a free lesson; after that, group learning is USD 100 a month and private learning USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / East Sussex
 
@@ -12,11 +12,11 @@ County of East Sussex / Live online
 
 # Coding classes in East Sussex
 
-**What are the best coding classes in East Sussex?** East Sussex, counted as a ceremonial county, is Brighton and Hove plus five districts, 822,949 people at the 2021 Census. Brighton and Hove is by far the largest place; then come Eastbourne and Hastings, Bexhill-on-Sea, Seaford, Hailsham and Crowborough, and a string of Weald villages. Wherever a learner lives, we teach the same way: live over video with a teacher based in India, grouped by ability and not by age, for anyone from 6 to 67, either with five to ten classmates or with a teacher to themselves. Programming, Python and maths are all taught. The East Sussex project comes from the observatory at Herstmonceux. Start with a free lesson; after that, group learning is USD 100 a month and private learning USD 150 a month.
+**What are the best coding classes in East Sussex?** East Sussex, counted as a ceremonial county, is Brighton and Hove plus five districts, 822,949 people at the 2021 Census. Brighton and Hove is by far the largest place; then come Eastbourne and Hastings, Bexhill-on-Sea, Seaford, Hailsham and Crowborough, and a string of Weald villages. Wherever a learner lives, we teach the same way: live over video with a teacher based in India, grouped by ability and not by age, for anyone from 6 to 67, either with fifteen to twenty classmates or with a teacher to themselves. Programming, Python and maths are all taught. The East Sussex project comes from the observatory at Herstmonceux. Start with a free lesson; after that, group learning is USD 100 a month and private learning USD 150 a month.
 
 In April 1946 the Royal Observatory, founded at Greenwich in 1675, chose Herstmonceux in East Sussex for its new home, after considering more than seventy sites; its six green domes still stand there. An observatory exists to keep careful track of the sky, and one of the first things it reveals is that the sun is a poor timekeeper. The moment the sun is highest over Herstmonceux drifts back and forth through the year by over half an hour on the clock. This page's project calculates that drift for every day of 2027 using the formulas NOAA publishes, and discovers why a sundial can be more than sixteen minutes fast in November and fourteen minutes slow in February.
 
-Facts last verified 26 September 2026. Teaching is online; no East Sussex branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no East Sussex branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## What East Sussex learners start with
 
@@ -163,7 +163,7 @@ Coast and Weald are far apart and poorly joined by evening buses. Online lessons
 The same fees in every East Sussex town and every country apart from India.
 
 - First class: USD 0. A full lesson of genuine work, with a recommended level and course at the end.
-- Group tuition: USD 100 a month. About eight lessons a month, in a group of five to ten at the same level.
+- Group tuition: USD 100 a month. About eight lessons a month, in a group of fifteen to twenty at the same level.
 - Private tuition: USD 150 a month. About eight lessons a month, one teacher and one learner.
 
 All families outside India are charged in US dollars and we have no pound prices. You pay only after the free lesson has agreed a course and a weekly time; how pausing, missed lessons and changes between group and private work is set out on the pricing page.

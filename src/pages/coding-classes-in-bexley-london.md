@@ -16,7 +16,7 @@ London Borough of Bexley / Live online
 
 On 4 April 1865, according to Historic England, the Crossness Pumping Station opened on the Bexley shore of the Thames, designed by the engineer Joseph Bazalgette to deal with London's sewage. A century and a half later, the Environment Agency publishes a yearly record of storm overflows: pipes that release diluted sewage into rivers and the sea when heavy rain overwhelms the system. The 2025 return lists more than 14,000 of them in England, each with its total hours of spilling. Our learners ask a simple question of that enormous table: is the spilling spread evenly, or do a few overflows account for most of it? They draw a Lorenz curve and calculate a Gini coefficient, the same tools economists use for income inequality, and the answer is striking.
 
-Facts last verified 25 September 2026. Teaching is online; no Bexley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Bexley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Starting points for Bexley learners
 
@@ -143,7 +143,7 @@ A learner by the river in the north and one in Sidcup in the south can share one
 
 ### Fairly shared
 
-A class is kept small and matched, five to ten learners at one stage, so no one learner takes up most of the lesson.
+A class is kept small and matched, fifteen to twenty learners at one stage, so no one learner takes up most of the lesson.
 
 **Bexley in London** Bexley is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) lists every borough and the City, linking each page as it is published, including [Bromley](/coding-classes-in-bromley-london) to the south west.
 
@@ -173,7 +173,7 @@ From any street in Bexley, a lesson is just a video call away.
 - **Learn at home** Bexley learners log in from their own homes; all that matters is a working computer, sound, and broadband good enough for video.
 - **Stages in England** Reports to parents use the same language as a Bexley school: Key Stage 1, 2, 3, 4, then sixth form, with GCSE or A level named when relevant. Teaching is always in English.
 - **Free lesson first** Proper teaching, not a sales pitch, which ends with a suggested level and course. No payment information is requested.
-- **Classes by level** Classmates are matched on stage, not postcode, which is how we can usually offer a sensible hour for a group of five to ten.
+- **Classes by level** Classmates are matched on stage, not postcode, which is how we can usually offer a sensible hour for a group of fifteen to twenty.
 - **Twice a week** Two evening sessions make up a normal week, with the class stopping for school holidays and exam fortnights when the teacher and families agree.
 - **Local time** Our teachers are in India; every lesson time we give is already in UK time.
 
@@ -184,7 +184,7 @@ From any street in Bexley, a lesson is just a video call away.
 One free lesson, then a single monthly fee that is the same in Erith as in Sidcup.
 
 - First class: USD 0. A full lesson with a teacher, free of charge, ending with our recommended level, course and time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a class of five to ten at the same stage.
+- Group tuition: USD 100 a month. About eight live lessons a month in a class of fifteen to twenty at the same stage.
 - Private tuition: USD 150 a month. About eight live lessons a month, one to one.
 
 Bexley families pay in US dollars, as every family outside India does, and there are no pound prices on the site. You pay nothing until the free lesson is done and you have agreed a course and regular slot. The pricing page explains pausing, missed lessons and changing between class and private teaching.
@@ -225,11 +225,11 @@ No. There is no Bexley centre and no premises anywhere in the UK, because every 
 
 ### What do coding classes in Bexley cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## The rest of London, and the UK
 

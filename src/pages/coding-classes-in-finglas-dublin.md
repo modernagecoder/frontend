@@ -16,7 +16,7 @@ Finglas, Dublin 11 / Live online
 
 Dublin City Council runs particle monitors in Finglas, and the EPA publishes their readings hour by hour. In 2024 the monitor logged 8,658 hours of fine particles, PM2.5. Most hours were clean, with a middle value near 5 micrograms per cubic metre. A handful were not: at 8 in the evening on 7 January the reading reached 84.24, and at 10 at night on 31 October 66.84. How do you decide which hours are unusual? The usual rule, anything more than three standard deviations above the average, turns out to be blinded by the very spikes it is looking for. This page teaches a learner why, and a fairer yardstick: each hour compared with the same hour on an ordinary day.
 
-Facts last verified 20 September 2026. Teaching is online; no Finglas branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Finglas branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four first courses for Finglas
 
@@ -150,7 +150,7 @@ An outlier depends on what normal looks like. Code lets you define normal proper
 The essentials, in six lines.
 
 - **Real-time lessons** Each lesson is taught live, with the teacher looking at every learner's code as it is typed.
-- **One level together** Five to ten learners at the same level, from Finglas, the rest of Ireland or further away.
+- **One level together** Fifteen to twenty learners at the same level, from Finglas, the rest of Ireland or further away.
 - **Predictable days** Two regular days a week, around eight lessons in a month.
 - **School-year aware** Holidays, mid-terms and exam weeks are accounted for in the plan.
 - **What to have** A laptop or desktop, a microphone, headphones or speakers, and internet that can carry video.
@@ -163,7 +163,7 @@ The essentials, in six lines.
 Kept simple.
 
 - First class: USD 0. A first lesson at no cost, level check included.
-- Group tuition: USD 100 a month. A month in a same-level group of five to ten, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a same-level group of fifteen to twenty, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons at the same rhythm.
 
 Every family outside India pays one US dollar fee, charged monthly. The free lesson carries no obligation, the charge starts only when the course begins, and the pricing page explains holidays, missed lessons and changing between group and one-to-one teaching.
@@ -200,7 +200,7 @@ Only by chance, because groups are formed by level and classmates may be anywher
 
 ### What do coding classes in Finglas cost?
 
-The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.
+The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.
 
 ### How many learners are in a group?
 

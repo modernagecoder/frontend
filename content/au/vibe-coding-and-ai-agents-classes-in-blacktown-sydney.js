@@ -353,7 +353,7 @@ module.exports = {
         h3: 'An honest trial',
         p: 'The free first lesson teaches something real. Afterwards the teacher recommends a course, a level and a time; nothing is charged at that point.'
       },
-      { h3: 'Classes of five to ten', p: 'Learners are grouped by skill, not by age or suburb, with classmates from Blacktown and from other places.' },
+      { h3: 'Classes of fifteen to twenty', p: 'Learners are grouped by skill, not by age or suburb, with classmates from Blacktown and from other places.' },
       { h3: 'A steady rhythm', p: 'Two lessons a week at the same hour make roughly eight a month, with breaks for holidays and exam weeks agreed ahead.' },
       {
         h3: 'Teachers in India',
@@ -369,7 +369,7 @@ module.exports = {
     h2: 'Blacktown class fees',
     intro: 'The whole price list fits in three lines.',
     first: 'A complete first lesson at no cost, with a suggested course and time at the end.',
-    group: 'A month of group lessons, typically eight, with five to ten learners at one level.',
+    group: 'A month of group lessons, typically eight, with fifteen to twenty learners at one level.',
     private: 'The same eight-or-so lessons a month, taught one to one.',
     closer: 'All invoices outside India are in US dollars, so every Blacktown family pays the same and there is no separate local tariff. Billing begins once the trial has settled a course and slot, and the pricing page explains holidays, missed lessons and switching formats.'
   },
@@ -418,7 +418,7 @@ module.exports = {
       },
       {
         q: 'How much do Blacktown AI agents classes cost?',
-        a: 'The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, shared with five to ten learners, or USD 150 a month one to one on the same schedule. Course, format and time are agreed before payment.',
+        a: 'The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, shared with fifteen to twenty learners, or USD 150 a month one to one on the same schedule. Course, format and time are agreed before payment.',
         boiler: true
       },
       {

@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for learners in E
 canonical: https://learn.modernagecoders.com/best-coding-class-in-ely
 source: src/pages/best-coding-class-in-ely.html
 ---
-> East Cambridgeshire, the district around Ely, had 87,762 usual residents at the 2021 census, living at 134.8 people per square kilometre against 433.5 across England. Ely Cathedral says Ely was an island until about 400 years ago, when work began to drain the surrounding Fens. Ely learners aged six to sixty-seven can study with our teachers in India in live video lessons, alone or in a group of five to ten at a similar level, at times that fit the British school and working week. The first lesson is free; after it, a group place costs USD 100 a month and one-to-one lessons USD 150.
+> East Cambridgeshire, the district around Ely, had 87,762 usual residents at the 2021 census, living at 134.8 people per square kilometre against 433.5 across England. Ely Cathedral says Ely was an island until about 400 years ago, when work began to drain the surrounding Fens. Ely learners aged six to sixty-seven can study with our teachers in India in live video lessons, alone or in a group of fifteen to twenty at a similar level, at times that fit the British school and working week. The first lesson is free; after it, a group place costs USD 100 a month and one-to-one lessons USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Ely
 
@@ -12,11 +12,11 @@ Ely, Cambridgeshire / Live online
 
 # Coding classes in Ely
 
-**What are the best coding classes in Ely?** East Cambridgeshire, the district around Ely, had 87,762 usual residents at the 2021 census, living at 134.8 people per square kilometre against 433.5 across England. Ely Cathedral says Ely was an island until about 400 years ago, when work began to drain the surrounding Fens. Ely learners aged six to sixty-seven can study with our teachers in India in live video lessons, alone or in a group of five to ten at a similar level, at times that fit the British school and working week. The first lesson is free; after it, a group place costs USD 100 a month and one-to-one lessons USD 150.
+**What are the best coding classes in Ely?** East Cambridgeshire, the district around Ely, had 87,762 usual residents at the 2021 census, living at 134.8 people per square kilometre against 433.5 across England. Ely Cathedral says Ely was an island until about 400 years ago, when work began to drain the surrounding Fens. Ely learners aged six to sixty-seven can study with our teachers in India in live video lessons, alone or in a group of fifteen to twenty at a similar level, at times that fit the British school and working week. The first lesson is free; after it, a group place costs USD 100 a month and one-to-one lessons USD 150.
 
 Ely Cathedral says the city stood on an island until the Fens were drained. Our teenagers put that to the test on today's map. They take Ordnance Survey heights for a 50 kilometre square around Ely, raise an imaginary water level a quarter of a metre at a time, and ask whether Ely's dry land still connects to the edge of the square. At 1.5 metres above sea level it no longer does: Ely becomes an island of 104.5 square kilometres. Then they meet percolation theory. Shuffle the same heights at random and dry land stops crossing the square when 59.6% of it is dry, just as the theory predicts. The real Fens keep a connected path until only 40.8% is dry.
 
-Facts last verified 23 September 2026. Teaching is online; no Ely branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Ely branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the Isle
 
@@ -172,7 +172,7 @@ East Cambridgeshire is a district of scattered towns and villages. Online, every
 - **Villages in one class** A learner in Little Downham and another in Isleham can share a lesson, with no journey across the fen roads.
 - **English school stages** We follow the stages used in Cambridgeshire schools, Reception and Key Stages 1 to 4 through GCSE and A level, and teach in English.
 - **A lesson that teaches** The free session covers a real task and ends with a suggested level, course and weekly time. There is no card to enter.
-- **Groups by level** Five to ten learners at one stage, from Ely, the rest of the UK and abroad, so every level has workable lesson times.
+- **Groups by level** Fifteen to twenty learners at one stage, from Ely, the rest of the UK and abroad, so every level has workable lesson times.
 - **Two lessons a week** Two fixed lessons weekly, around eight a month, with half terms and exams planned with the teacher ahead of time.
 - **Evenings across time zones** A 5.30 pm lesson in Ely begins at 10 pm in India during British Summer Time and 11 pm in winter, because India does not change its clocks; our teachers keep evening hours for UK learners.
 
@@ -183,7 +183,7 @@ East Cambridgeshire is a district of scattered towns and villages. Online, every
 The first lesson is free, then there is one monthly fee.
 
 - First class: USD 0. A whole lesson with no charge, ending with our suggestion for level, course and weekly time.
-- Group tuition: USD 100 a month. Around eight live lessons a month, in a class of five to ten learners at the same stage.
+- Group tuition: USD 100 a month. Around eight live lessons a month, in a class of fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. Around eight live lessons a month, with the teacher focused entirely on your learner.
 
 Families in Burwell or Stretham pay in US dollars, the same as every family outside India, and our site shows no pound prices anywhere. Nothing is billed before the free lesson, and charges begin only once a course and weekly slot are agreed; the pricing page explains pauses, missed lessons and switching between group and private teaching.
@@ -224,11 +224,11 @@ No. We have no Ely centre and no premises anywhere in the UK; all lessons are li
 
 ### How much are lessons for an Ely learner?
 
-The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How is each group put together?
 
-By level, pace and aims rather than age or address, with five to ten learners at one stage. If no group suits the learner's timetable, one-to-one lessons are available.
+By level, pace and aims rather than age or address, with fifteen to twenty learners at one stage. If no group suits the learner's timetable, one-to-one lessons are available.
 
 ## The East of England and beyond
 

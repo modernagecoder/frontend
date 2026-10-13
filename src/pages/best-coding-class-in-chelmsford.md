@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Chelmsford le
 canonical: https://learn.modernagecoders.com/best-coding-class-in-chelmsford
 source: src/pages/best-coding-class-in-chelmsford.html
 ---
-> Census 2021 counted 181,523 usual residents in the Chelmsford district, at 535.9 people per square kilometre against 433.5 across England. The Essex Record Office tells how Marconi set up his company in a former silk works in Hall Street in 1898 and later built the New Street works. With us, a Chelmsford learner of any age from six to sixty-seven joins a live video lesson taught from India, either one to one or in a group of five to ten at the same level, scheduled around the British school and working day. The first lesson is free; after that a group place costs USD 100 a month and private lessons USD 150.
+> Census 2021 counted 181,523 usual residents in the Chelmsford district, at 535.9 people per square kilometre against 433.5 across England. The Essex Record Office tells how Marconi set up his company in a former silk works in Hall Street in 1898 and later built the New Street works. With us, a Chelmsford learner of any age from six to sixty-seven joins a live video lesson taught from India, either one to one or in a group of fifteen to twenty at the same level, scheduled around the British school and working day. The first lesson is free; after that a group place costs USD 100 a month and private lessons USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Chelmsford
 
@@ -12,11 +12,11 @@ Chelmsford, Essex / Live online
 
 # Coding classes in Chelmsford
 
-**What are the best coding classes in Chelmsford?** Census 2021 counted 181,523 usual residents in the Chelmsford district, at 535.9 people per square kilometre against 433.5 across England. The Essex Record Office tells how Marconi set up his company in a former silk works in Hall Street in 1898 and later built the New Street works. With us, a Chelmsford learner of any age from six to sixty-seven joins a live video lesson taught from India, either one to one or in a group of five to ten at the same level, scheduled around the British school and working day. The first lesson is free; after that a group place costs USD 100 a month and private lessons USD 150.
+**What are the best coding classes in Chelmsford?** Census 2021 counted 181,523 usual residents in the Chelmsford district, at 535.9 people per square kilometre against 433.5 across England. The Essex Record Office tells how Marconi set up his company in a former silk works in Hall Street in 1898 and later built the New Street works. With us, a Chelmsford learner of any age from six to sixty-seven joins a live video lesson taught from India, either one to one or in a group of fifteen to twenty at the same level, scheduled around the British school and working day. The first lesson is free; after that a group place costs USD 100 a month and private lessons USD 150.
 
 The Environment Agency gauge at Springfield recorded the River Chelmer every 15 minutes through 2024: 35,136 readings with no gaps, which arrive as a 6.1 megabyte file. Our teenagers write LZW, the dictionary compressor that learns repeated patterns as it reads, and race it against zlib. On the file as downloaded, zlib wins easily. Then they change the representation instead of the algorithm: drop what the clock already tells you, store millimetres, and keep only how much the river moved since the last reading. The file falls to 78,964 bytes before any compressor runs, and on that file their own LZW comes in at 11,596 bytes, ahead of zlib's 11,970.
 
-Facts last verified 23 September 2026. Teaching is online; no Chelmsford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Chelmsford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for Marconi's city
 
@@ -174,7 +174,7 @@ The district runs from Writtle in the west to South Woodham Ferrers in the south
 - **Villages and the city** A learner in Broomfield and another in Bicknacre can sit in one class, with no drive into the centre and no parking to find.
 - **The school stages you know** Lessons follow the English stages Essex schools use, from Reception and Key Stages 1 to 4 up to GCSE and A level, all taught in English.
 - **The first lesson teaches** The free session is a proper lesson on a real task, finishing with a recommended level, course and weekly time. No card is asked for.
-- **Classes set by level** Five to ten learners at one stage, drawn from Chelmsford, other parts of the UK and further afield, so each level has workable times.
+- **Classes set by level** Fifteen to twenty learners at one stage, drawn from Chelmsford, other parts of the UK and further afield, so each level has workable times.
 - **A steady weekly rhythm** Two fixed lessons a week, roughly eight a month, with half terms and exam periods agreed with the teacher in advance.
 - **Teachers on India time** A 6 pm class in Chelmsford begins at 10.30 pm in India while British Summer Time runs and 11.30 pm in winter, since India never changes its clocks; our teachers keep late hours for UK families.
 
@@ -185,7 +185,7 @@ The district runs from Writtle in the west to South Woodham Ferrers in the south
 One free lesson, then a single monthly fee.
 
 - First class: USD 0. A complete lesson that costs nothing, finishing with our advice on level, course and a weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month, in a class of five to ten learners at the same stage.
+- Group tuition: USD 100 a month. About eight live lessons a month, in a class of fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. About eight live lessons a month with the teacher's attention on your learner only.
 
 A family in Chelmer Village is billed exactly as any family outside India is: a single US dollar fee, and no pound prices anywhere on the site. Nothing is charged until after the free lesson, once the course and the weekly slot are settled; the pricing page covers pauses, missed lessons and switching between a group and private teaching.
@@ -226,11 +226,11 @@ No. We have no Chelmsford centre and no UK premises at all, because every lesson
 
 ### What do Chelmsford lessons cost?
 
-Nothing for the first lesson. After that, a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners; one-to-one teaching on the same schedule is USD 150 a month. Nothing is charged until the course, format and time are agreed.
+Nothing for the first lesson. After that, a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners; one-to-one teaching on the same schedule is USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### Who will my child learn alongside?
 
-Five to ten learners at the same stage, matched on level, pace and goals rather than age or where they live. When no group suits the learner's week, we offer one-to-one lessons instead.
+Fifteen to twenty learners at the same stage, matched on level, pace and goals rather than age or where they live. When no group suits the learner's week, we offer one-to-one lessons instead.
 
 ## East of England and beyond
 

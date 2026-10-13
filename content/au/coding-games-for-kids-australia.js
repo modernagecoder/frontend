@@ -254,7 +254,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'No card needed. It shows us what the coding games taught and what they missed.' },
-      { h3: 'Groups of five to ten', p: 'Children at a similar stage, solving and comparing each other\'s programs.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Children at a similar stage, solving and comparing each other\'s programs.' },
       { h3: 'One to one', p: 'For a child racing ahead, or one who needs more time and quiet.' },
       { h3: 'No answer keys', p: 'Teachers ask questions instead of giving solutions, so the thinking stays with the child.' },
       { h3: 'Parents welcome', p: 'You can sit in on any lesson and see exactly what was learned.' },
@@ -270,7 +270,7 @@ module.exports = {
     h2: 'Fees once the coding games are finished',
     lede: 'Families outside India pay one monthly price in US dollars. There is no enrolment fee and no term contract, so you can stop after any month, including over the summer holidays.',
     free: ['A short coding challenge at your child\'s level', 'Honest advice on whether they are ready to move on', 'No card or bank details'],
-    group: ['Five to ten children per class', 'The same teacher each week', 'Classmates to compare solutions with', 'Stop after any month'],
+    group: ['Fifteen to twenty children per class', 'The same teacher each week', 'Classmates to compare solutions with', 'Stop after any month'],
     one: ['All of the teacher\'s attention', 'Pace set by your child', 'Times arranged around school and sport']
   },
 

@@ -12,7 +12,7 @@ Live online · serving Gaya
 
 Real programming for kids, teens and college students in Gaya, from **Civil Lines to A.P. Colony, Rampur to Delha**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Gaya)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**GayaEnrollingAreasCivil Lines, A.P. Colony, Rampur, Delha, Manpur & all of GayaBoardsBSEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across GayaFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Gaya)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**GayaEnrollingAreasCivil Lines, A.P. Colony, Rampur, Delha, Manpur & all of GayaBoardsBSEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across GayaFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for Gaya's sharpest young mathematicians who are ready to push well past the school syllabus and surprise themselves.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Gaya: FAQs
 
-Which is the best coding class in Gaya for kids?Modern Age Coders runs Gaya's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python. Batches are small (5-8 students), project-based, and taught by industry instructors. We serve every part of the city: Civil Lines, A.P. Colony, Rampur, Delha, Manpur, Chandauti, Magadh Colony and nearby Bodh Gaya.Are the classes online or offline, and do you cover Bodh Gaya?All classes are live and online, so a child in Civil Lines, A.P. Colony, Rampur, Delha, Manpur, Magadh Colony or out near Bodh Gaya joins the same expert teacher from home, no auto-rickshaw run to a far coaching centre. Sessions are fully interactive with live coding, screen-sharing and recordings you can revisit.How much do coding classes cost in Gaya?Group classes (5-8 students) start at Rs.1499/month for 2 live classes per week. Mini Batch (3-4 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Will coding help with JEE, NEET and the Bihar Board exams?Yes. Gaya is a serious JEE-NEET-and-board town. Coding builds the step-by-step logical reasoning and problem decomposition those exams reward, and it directly supports CBSE/Bihar Board (BSEB) Computer Science, Informatics Practices and the new NEP-2020 AI modules. Our Python and Java tracks line up with what is taught at Nazareth Academy, Creane Memorial, DAV, St Michael's and Gyan Bharati.What's the best age to start coding?Around age 8 is the sweet spot for visual block-based coding (Scratch). For typed languages like Python and Java, age 12-13 onwards tends to work best. We run separate tracks for kids (6-12), teens (13-18) and college or working learners (18+), so wherever your child is, the starting point fits.Do you prepare Gaya college students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, MERN full-stack projects and AI/Data-Science portfolios. It is built for students from Magadh University, Gaya College of Engineering, ANS College and Mirza Ghalib College who are aiming for product companies, IT services and remote engineering roles.What equipment does my child need?Just a laptop or desktop and a reliable internet connection, a decent broadband or 4G line in Gaya is plenty. A computer (rather than a tablet) is best for hands-on practice. Minimum: Windows 10 / macOS, 4GB RAM, broadband. Every tool we use is free, and our team walks you through the setup before the first class.What if my child doesn't enjoy it, is there a refund?The free demo lets you judge our teaching before you spend a rupee. If your child isn't enjoying it after the first paid week, we refund you in full, no awkward questions. We would rather earn your trust than trap your fee.Do you teach coding to Bihar board students in Gaya?Yes. Gaya schools run the Bihar board, BSEB, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Magadh University students join your programming courses?Yes. Magadh University has served the region from Bodh Gaya since 1962, so the theory is close at hand. One useful note: Bihar fills engineering seats through UGEAC on JEE Main rank, not the BCECE exam. The college track adds real Python, Java, full-stack or AI/ML work, built until it runs.
+Which is the best coding class in Gaya for kids?Modern Age Coders runs Gaya's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python. Batches are small (15-20 students), project-based, and taught by industry instructors. We serve every part of the city: Civil Lines, A.P. Colony, Rampur, Delha, Manpur, Chandauti, Magadh Colony and nearby Bodh Gaya.Are the classes online or offline, and do you cover Bodh Gaya?All classes are live and online, so a child in Civil Lines, A.P. Colony, Rampur, Delha, Manpur, Magadh Colony or out near Bodh Gaya joins the same expert teacher from home, no auto-rickshaw run to a far coaching centre. Sessions are fully interactive with live coding, screen-sharing and recordings you can revisit.How much do coding classes cost in Gaya?Group classes (15-20 students) start at Rs.1499/month for 2 live classes per week. Mini Batch (up to 6 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Will coding help with JEE, NEET and the Bihar Board exams?Yes. Gaya is a serious JEE-NEET-and-board town. Coding builds the step-by-step logical reasoning and problem decomposition those exams reward, and it directly supports CBSE/Bihar Board (BSEB) Computer Science, Informatics Practices and the new NEP-2020 AI modules. Our Python and Java tracks line up with what is taught at Nazareth Academy, Creane Memorial, DAV, St Michael's and Gyan Bharati.What's the best age to start coding?Around age 8 is the sweet spot for visual block-based coding (Scratch). For typed languages like Python and Java, age 12-13 onwards tends to work best. We run separate tracks for kids (6-12), teens (13-18) and college or working learners (18+), so wherever your child is, the starting point fits.Do you prepare Gaya college students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, MERN full-stack projects and AI/Data-Science portfolios. It is built for students from Magadh University, Gaya College of Engineering, ANS College and Mirza Ghalib College who are aiming for product companies, IT services and remote engineering roles.What equipment does my child need?Just a laptop or desktop and a reliable internet connection, a decent broadband or 4G line in Gaya is plenty. A computer (rather than a tablet) is best for hands-on practice. Minimum: Windows 10 / macOS, 4GB RAM, broadband. Every tool we use is free, and our team walks you through the setup before the first class.What if my child doesn't enjoy it, is there a refund?The free demo lets you judge our teaching before you spend a rupee. If your child isn't enjoying it after the first paid week, we refund you in full, no awkward questions. We would rather earn your trust than trap your fee.Do you teach coding to Bihar board students in Gaya?Yes. Gaya schools run the Bihar board, BSEB, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Magadh University students join your programming courses?Yes. Magadh University has served the region from Bodh Gaya since 1962, so the theory is close at hand. One useful note: Bihar fills engineering seats through UGEAC on JEE Main rank, not the BCECE exam. The college track adds real Python, Java, full-stack or AI/ML work, built until it runs.
 
 ## Ready to start your child's coding journey in Gaya?
 

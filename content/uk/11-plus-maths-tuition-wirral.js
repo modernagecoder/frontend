@@ -191,7 +191,7 @@ module.exports = {
         ] },
         { kind: 'two', mt: true,
           left: [
-            'Lessons are live on video, so a child in Birkenhead, Wallasey, Heswall or Hoylake is taught exactly the same way, in groups of five to ten matched by level.',
+            'Lessons are live on video, so a child in Birkenhead, Wallasey, Heswall or Hoylake is taught exactly the same way, in groups of fifteen to twenty matched by level.',
             'For coding in the city across the Mersey, see our <a class="ag-inline-link" href="/best-coding-class-in-liverpool">Liverpool coding page</a>.'
           ],
           right: [
@@ -262,7 +262,7 @@ module.exports = {
     cells: [
       { h3: 'One teacher', p: 'The same person every week.' },
       { h3: 'Honest notes', p: 'Brief, frank updates for parents.' },
-      { h3: 'Five to ten per group', p: 'Matched by level.' },
+      { h3: 'Fifteen to twenty per group', p: 'Matched by level.' },
       { h3: 'Our own questions', p: 'Nothing copied from Quest material.' },
       { h3: 'One to one', p: 'For a particular gap.' },
       { h3: 'Maths only', p: 'No reasoning coaching, no admissions advice.' }
@@ -277,7 +277,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A single US dollar price each month for families outside India. No sign-up fee; stop when you like.',
     free: ['A lesson that teaches', 'An honest verdict', 'No card required'],
-    group: ['Five to ten children, one level', 'A regular teacher', 'Work checked together', 'A certificate at the end'],
+    group: ['Fifteen to twenty children, one level', 'A regular teacher', 'Work checked together', 'A certificate at the end'],
     one: ['A teacher for one child', 'Targeted at gaps', 'Handy in the summer before']
   },
 

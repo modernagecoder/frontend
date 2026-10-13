@@ -16,7 +16,7 @@ Cumbernauld, North Lanarkshire, Scotland / Live online
 
 A map app never tells you the straight-line distance; it tells you the route. The ratio between the two, route length divided by the crow-flies distance, is called the detour factor or circuity, and it says a lot about how a place is laid out. A town where it stays near 1 lets you travel almost directly; one where it climbs towards 2 sends you the long way round. Measuring it takes a real map, a shortest-path algorithm and a few hundred random trips, all things a learner can put together in Python. Cumbernauld, with 209 km of mapped footways, paths and cycleways alongside its roads, makes a revealing test of walking against driving.
 
-Facts last verified 29 September 2026. Teaching is online; no Cumbernauld branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Cumbernauld branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Cumbernauld courses in thinking, Python and AI
 
@@ -132,7 +132,7 @@ Laptop or desktop, camera, and broadband that can carry a video call: that is ev
 - **Student at the keys** Learners write, prompt and run every step themselves; the tutor watches over screen share and asks why each choice was made.
 - **Starting line** We find the right first topic during the trial and note any SQA exam ahead.
 - **No charge to try** The first lesson is free and ends with a course suggestion.
-- **Groups of equals** Every group seats five to ten learners at a common stage, drawn from across Britain.
+- **Groups of equals** Every group seats fifteen to twenty learners at a common stage, drawn from across Britain.
 - **Two a week** Paused for school holidays.
 - **Fixed time** Our tutors follow UK clock changes, so your slot does not move.
 

@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in East Lothian',
   capsuleQ: 'What are the best coding classes in East Lothian?',
-  capsule: 'East Lothian is a single council area, home to about 112,300 people in roughly 48,800 households at the 2022 census, at 165.3 people per square kilometre. Musselburgh is the largest town, followed by Tranent, Prestonpans, Haddington and Dunbar, with North Berwick on the coast. Our teachers are in India and teach in real time on camera; a free first lesson sets the level for every learner, whether they are in Primary 1, S6 or long past school. Anyone aged 6 to 67 can study coding, Python or maths, alone with a teacher or among five to ten classmates. The East Lothian project looks out to the Bass Rock and its gannets. A first lesson is free of charge; continuing is USD 100 a month in a group or USD 150 a month one-to-one.',
+  capsule: 'East Lothian is a single council area, home to about 112,300 people in roughly 48,800 households at the 2022 census, at 165.3 people per square kilometre. Musselburgh is the largest town, followed by Tranent, Prestonpans, Haddington and Dunbar, with North Berwick on the coast. Our teachers are in India and teach in real time on camera; a free first lesson sets the level for every learner, whether they are in Primary 1, S6 or long past school. Anyone aged 6 to 67 can study coding, Python or maths, alone with a teacher or among fifteen to twenty classmates. The East Lothian project looks out to the Bass Rock and its gannets. A first lesson is free of charge; continuing is USD 100 a month in a group or USD 150 a month one-to-one.',
   lead: 'The Scottish Seabird Centre in North Berwick trains live cameras on the Bass Rock, which it calls one of the world\'s largest Northern gannet colonies, and Historic Environment Scotland lists the lighthouse David Alan Stevenson built on the rock in 1902. Gannets eat fish, and predator and prey numbers affect each other: more fish feed more birds, more birds eat down the fish, fewer fish mean fewer birds, and the cycle repeats. Two short equations, the Lotka-Volterra model, capture that loop. This page\'s project runs them in Python with invented numbers, watches the cycles and the lag between them, and uses a quantity the equations should keep constant to catch a numerical method that quietly goes wrong.',
   wa: 'Hello Modern Age Coders, we are in East Lothian and would like to book a free lesson, please.',
 
@@ -157,7 +157,7 @@ module.exports = {
       { h3: 'Right at home', p: 'A flat in Musselburgh, a house in Gullane, a cottage near East Linton. The pupil codes and the teacher follows the shared screen.' },
       { h3: 'Scottish stages spoken here', p: 'P1 to P7, S1 to S6, National 5, Higher, Advanced Higher: the terms East Lothian pupils use are the ones we use, in English.' },
       { h3: 'First lesson free', p: 'Real coding from the first minute, then our view of where the learner should start. No card details are asked for.' },
-      { h3: 'Classmates at your stage', p: 'Five to ten learners working at one level, drawn from many countries.' },
+      { h3: 'Classmates at your stage', p: 'Fifteen to twenty learners working at one level, drawn from many countries.' },
       { h3: 'School holiday breaks', p: 'Two lessons a week during term; we pause for the holidays.' },
       { h3: 'UK time, all year', p: 'We book your lesson in UK time and hold it there through the clock changes, while teachers in India time adjust their side.' }
     ],
@@ -168,7 +168,7 @@ module.exports = {
     h2: 'Fees in East Lothian',
     intro: 'A learner in Tranent pays what one in North Berwick pays, the rate we charge in every country outside India.',
     first: 'A full lesson of real work, then a suggested level and course.',
-    group: 'About eight lessons a month with five to ten learners at one level.',
+    group: 'About eight lessons a month with fifteen to twenty learners at one level.',
     private: 'About eight lessons a month, one-to-one.',
     closer: 'Fees are set in US dollars; there are no sterling prices. We bill only once the free lesson has fixed a course and a weekly time, and the pricing page covers holidays, missed lessons and changes of format.'
   },

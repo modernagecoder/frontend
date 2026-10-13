@@ -61,7 +61,7 @@ module.exports = {
 
   h1: 'Coding classes in Liverpool',
   capsuleQ: 'What are the best coding classes in Liverpool?',
-  capsule: 'Liverpool had 486,088 usual residents at the 2021 Census, and 10.1% of them were aged 20 to 24 against 6.0% in England. The Mersey has the second-highest tidal range in the UK, according to the National Tidal and Sea Level Facility, and tide prediction at the University of Liverpool Tidal Institute began in 1924. Modern Age Coders teaches Liverpool learners aged six to sixty-seven live online, one to one or in groups of five to ten at a single level, with teachers in India and lessons timed in UK hours. We charge nothing for the first lesson. From then on a group place costs USD 100 a month and one-to-one teaching USD 150 a month.',
+  capsule: 'Liverpool had 486,088 usual residents at the 2021 Census, and 10.1% of them were aged 20 to 24 against 6.0% in England. The Mersey has the second-highest tidal range in the UK, according to the National Tidal and Sea Level Facility, and tide prediction at the University of Liverpool Tidal Institute began in 1924. Modern Age Coders teaches Liverpool learners aged six to sixty-seven live online, one to one or in groups of fifteen to twenty at a single level, with teachers in India and lessons timed in UK hours. We charge nothing for the first lesson. From then on a group place costs USD 100 a month and one-to-one teaching USD 150 a month.',
   lead: 'Twice a day the Mersey rises and falls by several metres, and the rhythm is set by the moon. You can hear it in the numbers. The Environment Agency publishes a reading from its Liverpool tide gauge every 15 minutes, and a month of them, 2,828 readings from 23 August to 21 September 2026, is enough to ask a precise question: for every possible period, how strongly does the water swing at that rhythm? The answer, called a periodogram, has one towering peak at 12.42 hours, the moon\'s tide, and a second at about 12 hours, the sun\'s. Where the two waves fall into step the tides are big; where they fall out of step they are small. That beat repeats every 14.77 days, and it is the whole story of spring and neap tides. It is also how tide tables are made, and that is the lesson Liverpool\'s river teaches our teenage learners.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Liverpool.',
 
@@ -186,7 +186,7 @@ module.exports = {
       { h3: 'North end or south end', p: 'A learner in Walton and another in Garston can share the same lesson without either crossing the city.' },
       { h3: 'Stages from Reception to A level', p: 'Reception, Key Stages 1 to 4, Year 9 options, GCSEs and A levels, as Liverpool schools name them, with teaching in English throughout.' },
       { h3: 'A first lesson worth having', p: 'The free lesson teaches something real and ends with a suggested level, course and weekly time. No card is needed to book.' },
-      { h3: 'Level before age', p: 'Five to ten learners at one stage, from Liverpool, elsewhere in the UK and abroad, so every level can meet at a workable hour.' },
+      { h3: 'Level before age', p: 'Fifteen to twenty learners at one stage, from Liverpool, elsewhere in the UK and abroad, so every level can meet at a workable hour.' },
       { h3: 'Twice weekly, same time', p: 'Two lessons each week at fixed times, around eight a month, with breaks for holidays and exams agreed with the teacher ahead of time.' },
       { h3: 'Teaching from India', p: 'Our teachers use India Standard Time, which has no daylight saving: four and a half hours ahead of Liverpool in summer and five and a half in winter, so after-school and evening lessons fall in their working day.' }
     ],
@@ -197,7 +197,7 @@ module.exports = {
     h2: 'Liverpool lesson fees',
     intro: 'One free lesson, then a single monthly price.',
     first: 'A full lesson with nothing to pay, finishing with a level, a recommended course and a weekly time.',
-    group: 'Around eight live lessons a month, in a group of five to ten learners working at one level.',
+    group: 'Around eight live lessons a month, in a group of fifteen to twenty learners working at one level.',
     private: 'Around eight live lessons a month, taught to your learner alone.',
     closer: 'Everyone outside India pays one US dollar fee, so a family in Allerton pays the same as a family in Mossley Hill, and we keep no pound price list. Nothing is billed until the free lesson has agreed a course and a slot; the pricing page covers pauses, missed lessons and switching between group and private teaching.'
   },
@@ -222,8 +222,8 @@ module.exports = {
       { q: 'How big is the tide on the Mersey?', a: 'The National Tidal and Sea Level Facility gives a range of about 4 metres at neaps to 10 metres at springs, the second highest in the UK. In our month of readings the largest calendar-day range was 8.83 metres.' },
       { q: 'When are lessons for Liverpool learners?', a: 'After school, in the evening or at weekends, at a UK time set during the free lesson. Our teachers are four and a half hours ahead of Liverpool in summer and five and a half in winter.' },
       { q: 'Is there a Modern Age Coders centre in Liverpool?', a: 'No. There is no centre in Liverpool and no premises anywhere in the UK; every lesson is taught live online. Learners need a computer with audio and a reliable connection, and our phone number is based in India.', boiler: true },
-      { q: 'How much do Liverpool lessons cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same timetable are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
-      { q: 'How are Liverpool groups formed?', a: 'By level, pace and aims rather than age or postcode, with five to ten learners at one stage. If no group fits the learner\'s times, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do Liverpool lessons cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same timetable are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
+      { q: 'How are Liverpool groups formed?', a: 'By level, pace and aims rather than age or postcode, with fifteen to twenty learners at one stage. If no group fits the learner\'s times, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

@@ -209,9 +209,9 @@ The arrangement
 
 Free placement work shows more than a school label or a parent's estimate.
 
-### Small group
+### Group
 
-Five to eight learners share a level, teacher and live problem-solving discussion.
+Fifteen to twenty learners share a level, teacher and live problem-solving discussion.
 
 ### Private
 
@@ -241,7 +241,7 @@ No enrolment charge, nothing to buy, no minimum term.
 
 Group$100per month, 8 classes
 
-For a learner who gains from peers and fits a group of five to eight at the same stage.
+For a learner who gains from peers and fits a group of fifteen to twenty at the same stage.
 
 Private$150per month, 8 classes
 
@@ -337,7 +337,7 @@ School hours and household routines change during Ramadan, so lesson timing can 
 
 ### What do Muscat coding classes cost?
 
-A group of five to eight students costs USD 100 a month. Private teaching with one student and one teacher costs USD 150 a month. Each plan includes eight live classes, normally two each week. The first class is free and there is no enrolment charge or minimum term.
+A group of fifteen to twenty students costs USD 100 a month. Private teaching with one student and one teacher costs USD 150 a month. Each plan includes eight live classes, normally two each week. The first class is free and there is no enrolment charge or minimum term.
 
 ### Can an adult in Muscat join?
 

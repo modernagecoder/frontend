@@ -325,7 +325,7 @@ module.exports = {
       { h3: 'Join from home', p: 'The learner logs in from a desk at home and spends the whole lesson building.' },
       { h3: 'Built around NSW terms', p: 'Lessons track NSW syllabus stages and pause in the state school holidays.' },
       { h3: 'A genuine trial', p: 'The free first class is a full lesson, finishing with a course, level and time suggestion.' },
-      { h3: 'Small groups', p: 'Five to ten learners per group, matched by level and pace, Randwick learners alongside others.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners per group, matched by level and pace, Randwick learners alongside others.' },
       { h3: 'Two a week', p: 'Two fixed lessons weekly, about eight a month, with breaks agreed in advance.' },
       {
         h3: 'Teachers in India',
@@ -341,7 +341,7 @@ module.exports = {
     h2: 'Fees for Randwick learners',
     intro: 'Three amounts, all stated up front.',
     first: 'The first class is free and closes with an honest course recommendation.',
-    group: 'A month of group lessons, eight as a rule, with five to ten learners at a similar level.',
+    group: 'A month of group lessons, eight as a rule, with fifteen to twenty learners at a similar level.',
     private: 'Around eight lessons a month with a teacher to themselves.',
     closer: 'Families outside India are billed in US dollars, so every Randwick family pays the same. Billing starts only after the trial, when course and time are agreed; the pricing page explains holidays, absences and changing format.'
   },
@@ -383,12 +383,12 @@ module.exports = {
       },
       {
         q: 'How much are vibe coding classes for Randwick learners?',
-        a: 'The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before payment.',
+        a: 'The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before payment.',
         boiler: true
       },
       {
         q: 'How large is each group?',
-        a: 'Five to ten learners, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner\'s time.',
+        a: 'Fifteen to twenty learners, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner\'s time.',
         boiler: true
       },
       { q: 'Can university students and adults join?', a: 'Yes, in adult groups or one to one, often building an agent for study or a work task.' }

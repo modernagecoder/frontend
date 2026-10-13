@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Dumfries and G
 canonical: https://learn.modernagecoders.com/coding-classes-in-dumfries-and-galloway
 source: src/pages/coding-classes-in-dumfries-and-galloway.html
 ---
-> Dumfries and Galloway is a single, sprawling council area, where Scotland's Census 2022 found about 145,900 people in some 70,600 households, at 22.7 people per square kilometre. Dumfries is by far the largest town, then Stranraer and Annan, with Lockerbie, Dalbeattie, Newton Stewart, Castle Douglas and Kirkcudbright after. Every class runs live over video from India, and learners are grouped by ability, from Primary 1 through S6 and on to adults. We teach coding, Python, data science and maths to everyone between 6 and 67, privately or in small classes of five to ten. The Dumfries and Galloway project looks up at the Galloway sky. Lesson one is free; after that it is USD 100 a month in a group or USD 150 a month one-to-one.
+> Dumfries and Galloway is a single, sprawling council area, where Scotland's Census 2022 found about 145,900 people in some 70,600 households, at 22.7 people per square kilometre. Dumfries is by far the largest town, then Stranraer and Annan, with Lockerbie, Dalbeattie, Newton Stewart, Castle Douglas and Kirkcudbright after. Every class runs live over video from India, and learners are grouped by ability, from Primary 1 through S6 and on to adults. We teach coding, Python, data science and maths to everyone between 6 and 67, privately or in classes of fifteen to twenty. The Dumfries and Galloway project looks up at the Galloway sky. Lesson one is free; after that it is USD 100 a month in a group or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Dumfries and Galloway
 
@@ -12,11 +12,11 @@ Dumfries and Galloway / Live online
 
 # Coding classes in Dumfries and Galloway
 
-**What are the best coding classes in Dumfries and Galloway?** Dumfries and Galloway is a single, sprawling council area, where Scotland's Census 2022 found about 145,900 people in some 70,600 households, at 22.7 people per square kilometre. Dumfries is by far the largest town, then Stranraer and Annan, with Lockerbie, Dalbeattie, Newton Stewart, Castle Douglas and Kirkcudbright after. Every class runs live over video from India, and learners are grouped by ability, from Primary 1 through S6 and on to adults. We teach coding, Python, data science and maths to everyone between 6 and 67, privately or in small classes of five to ten. The Dumfries and Galloway project looks up at the Galloway sky. Lesson one is free; after that it is USD 100 a month in a group or USD 150 a month one-to-one.
+**What are the best coding classes in Dumfries and Galloway?** Dumfries and Galloway is a single, sprawling council area, where Scotland's Census 2022 found about 145,900 people in some 70,600 households, at 22.7 people per square kilometre. Dumfries is by far the largest town, then Stranraer and Annan, with Lockerbie, Dalbeattie, Newton Stewart, Castle Douglas and Kirkcudbright after. Every class runs live over video from India, and learners are grouped by ability, from Primary 1 through S6 and on to adults. We teach coding, Python, data science and maths to everyone between 6 and 67, privately or in classes of fifteen to twenty. The Dumfries and Galloway project looks up at the Galloway sky. Lesson one is free; after that it is USD 100 a month in a group or USD 150 a month one-to-one.
 
 Forestry and Land Scotland says that in 2009 Galloway Forest Park became one of the first places in the world to be named an International Dark Sky Park, and that on a clear night over 7,000 stars and planets are visible with the naked eye. That is a claim a programmer can test. Astronomers have catalogued every star bright enough to see without a telescope, with its brightness and its position. This page's project loads that catalogue into Python, works out which stars ever rise over Galloway and how many are above the horizon at any one moment, and finds that the answer depends entirely on what "visible" is taken to mean.
 
-Facts last verified 26 September 2026. Teaching is online; no Dumfries and Galloway branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Dumfries and Galloway branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Dumfries and Galloway learners start
 
@@ -137,7 +137,7 @@ Dumfries and Galloway is wide and rural, and a weekly class at the right level c
 - **Home is the classroom** A farmhouse near Newton Stewart, a flat in Dumfries, a house in Stranraer. The pupil types the code while the teacher watches the shared screen.
 - **Scottish stages** Teachers know where a P7 or an S4 pupil is in the Scottish system, from Primary to National 5, Higher and Advanced Higher, and teach in English.
 - **Free to start** A real first lesson, then clear advice on level and course. No card details are asked for.
-- **Groups by stage** Each class of five to ten shares a level, even if its members live in different countries.
+- **Groups by stage** Each class of fifteen to twenty shares a level, even if its members live in different countries.
 - **Term and holidays** A usual week has two lessons; when the school holidays start, so does our break.
 - **UK time, steady** Your slot stays at the same UK time all year; the teacher, on India time several hours ahead, adjusts when the clocks change.
 
@@ -148,7 +148,7 @@ Dumfries and Galloway is wide and rural, and a weekly class at the right level c
 Stranraer or Gretna, the fee is the same, and it is the fee in every country we teach apart from India.
 
 - First class: USD 0. A full lesson of genuine work, then a suggested level and course.
-- Group tuition: USD 100 a month. About eight lessons a month with five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight lessons a month, one-to-one.
 
 Prices are set in US dollars, not pounds. Payment only begins after the free lesson has settled which course and which weekly hour; holiday pauses, missed lessons and changing between group and private are explained on the pricing page.

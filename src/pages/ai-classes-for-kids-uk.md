@@ -162,7 +162,7 @@ Our teachers work from India, where clocks do not change, so the UK is five and 
 - **Short and busy** Children build something in every lesson. A child who has made nothing has not had a lesson.
 - **An adult nearby** We ask that a parent or carer is in the house and reachable. Not sitting in, just present.
 - **No accounts** Primary-age children need no account with any AI provider for anything we teach them.
-- **Groups by level** Five to ten children at the same stage. Nobody is the youngest in a room of teenagers.
+- **Groups by level** Fifteen to twenty children at the same stage. Nobody is the youngest in a room of teenagers.
 - **Explaining out loud** A child says what their program or model will do before it runs. Being wrong out loud is how the idea lands.
 - **Work you can see** Every finished project is saved where the family can open it, which is usually how a parent finds out what was learnt.
 
@@ -171,7 +171,7 @@ Our teachers work from India, where clocks do not change, so the UK is five and 
 One monthly charge in US dollars, the same everywhere outside India. The free lesson comes first and nothing is taken before a course and a slot are agreed.
 
 - Free first class: USD 0. A full lesson with a teacher. An honest view of the right starting step. No card details requested.
-- Group batch: USD 100 a month. Five to ten children at one step. The same teacher all the way through. Work saved where a parent can see it. A certificate when a course finishes.
+- Group batch: USD 100 a month. Fifteen to twenty children at one step. The same teacher all the way through. Work saved where a parent can see it. A certificate when a course finishes.
 - One to one: USD 150 a month. One teacher and one child. Useful for a child well ahead or very shy. Scheduled around school and other activities.
 
 ## What parents ask about AI classes for children

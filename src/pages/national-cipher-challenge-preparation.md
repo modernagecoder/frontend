@@ -178,7 +178,7 @@ Lessons are live on video from India, five and a half hours ahead of the UK in w
 
 - **Tools, not exercises** Every lesson leaves the student with a script they can run again on the next challenge.
 - **We do not touch the challenges** We teach programming. We do not decipher a live challenge message or help with one, and we say so if asked.
-- **Five to ten students** Enough for two approaches to be compared, small enough for every script to be read.
+- **Fifteen to twenty students** Enough for two approaches to be compared, small enough for every script to be read.
 - **Our own examples** Written by us. The organiser publishes an archive of past challenges for the real thing.
 - **One to one when useful** For a student well ahead of their year, or one building something specific.
 - **No AI shortcuts** The competition forbids AI for this work, and we teach accordingly.
@@ -188,7 +188,7 @@ Lessons are live on video from India, five and a half hours ahead of the UK in w
 One monthly rate in US dollars for families outside India, with nothing to pay to register and no minimum term.
 
 - Free first class: USD 0. A full lesson building something. A straight read on the level. No card details taken.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher every week. Code read line by line. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher every week. Code read line by line. A certificate at the end.
 - One to one: USD 150 a month. A teacher working with one student. Shaped around what they are building. Useful when a group hour will not fit.
 
 ## What students and parents ask

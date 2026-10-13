@@ -358,7 +358,7 @@ Real skills, real projects, real mentorship - not another boring course.
 
 ### Small Batches, Big Impact
 
-4-8 students per batch means you actually get attention, not lost in a crowd of 100.
+15-20 students per batch means you actually get attention, not lost in a crowd of 100.
 
 ### Learn by Building
 
@@ -380,7 +380,7 @@ We have courses for everyone! Kids (ages 6-12) can start with Scratch and visual
 
 Not at all! Most of our courses are designed for complete beginners. We start from "what is a computer?" level and build up your skills step by step. If you already have some experience, we have intermediate and advanced courses too. During enrollment, we'll help you pick the right level.
 
-Our classes are live and interactive with small batch sizes (typically 4-8 students). You'll work on real projects, get personalized feedback, and can ask questions anytime. We also provide recorded sessions for revision. Think of it as having a personal tutor, but in a fun group setting.
+Our classes are live and interactive with small batch sizes (typically 15-20 students). You'll work on real projects, get personalized feedback, and can ask questions anytime. We also provide recorded sessions for revision. Think of it as having a personal tutor, but in a fun group setting.
 
 Three things: structure, accountability, and mentorship. YouTube is great for random topics, but our courses follow a proven curriculum that builds skills systematically. You get regular assignments and feedback (not just "like and subscribe"). And you have a mentor who guides you through challenges - someone who notices when you're stuck and helps you push through.
 
@@ -390,7 +390,7 @@ We get it - not everything clicks for everyone. That's why we offer a trial clas
 
 Group classes start at ₹1,499 a month, a mini batch with near one-to-one attention starts at ₹2,999, and fully personalised 1-on-1 is ₹4,999 with one private class a week (4 a month), with plans outside India priced in local currency. The AI agents courses with Microsoft Copilot Studio are taught 1-on-1 only. Every course starts with a free demo class before you pay.
 
-Both are live and taught by an expert mentor. Group classes in small batches of 5 to 8 are the most affordable and add peer learning, a mini batch of 3 to 4 gives near one-to-one attention, and 1-on-1 gives a fully personalised pace. Start with a free demo, and you can change your plan later.
+Both are live and taught by an expert mentor. Group classes in batches of 15 to 20 are the most affordable and add peer learning, a mini batch of up to 6 gives near one-to-one attention, and 1-on-1 gives a fully personalised pace. Start with a free demo, and you can change your plan later.
 
 ## Browse all 122 courses
 

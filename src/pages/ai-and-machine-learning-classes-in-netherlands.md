@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-netherlands.html
 
 In short
 
-Modern Age Coders teaches live online AI and machine learning to learners in the Netherlands between the ages of 6 and 67, in groups of five to eight or one to one. The subject here is model building rather than prompt writing: students work in Python, meet the mathematics that holds machine learning up, and finish able to train something and say how far off it is. Group fees are USD 100 a month, billed in US dollars, and the first class is free.
+Modern Age Coders teaches live online AI and machine learning to learners in the Netherlands between the ages of 6 and 67, in groups of fifteen to twenty or one to one. The subject here is model building rather than prompt writing: students work in Python, meet the mathematics that holds machine learning up, and finish able to train something and say how far off it is. Group fees are USD 100 a month, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -258,7 +258,7 @@ Dutch time. University students and working adults on weeknights.
 
 ### What a session is
 
-Ninety minutes of live video with a teacher who can tell you where your child stopped last week without checking anything. Screens are shared both ways, so the teacher watches the code being written and interrupts at the moment the misconception forms rather than marking it days later. Five to eight students, or one to one.
+Ninety minutes of live video with a teacher who can tell you where your child stopped last week without checking anything. Screens are shared both ways, so the teacher watches the code being written and interrupts at the moment the misconception forms rather than marking it days later. Fifteen to twenty students, or one to one.
 
 Between sessions there is something to build rather than something to complete. Questions during the week reach the same teacher, not a ticket queue.
 
@@ -338,7 +338,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Weekly build work reviewed by the teacher
 - Certificate on completion
@@ -425,7 +425,7 @@ Most of them teach prompting. A student finishes able to phrase a request well a
 
 ### What does it cost?
 
-A group batch of five to eight students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same flat figures everywhere outside India. There is no enrolment fee, no annual contract, and the first class is free without a card.
+A group batch of fifteen to twenty students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same flat figures everywhere outside India. There is no enrolment fee, no annual contract, and the first class is free without a card.
 
 ### My child is in VWO. Does this compete with school or support it?
 

@@ -4,7 +4,7 @@ description: "Live online coding and AI classes for Welwyn Garden City, Panshang
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-welwyn-garden-city
 source: src/pages/best-coding-and-ai-classes-in-welwyn-garden-city.html
 ---
-> Welwyn Garden City had 51,505 usual residents as an ONS built-up area in 2021, and the borough of Welwyn Hatfield had 119,836. Its gazetteer suburbs include Panshanger, Haldens, Peartree, Hatfield Hyde, Woodhall, Handside and Sherrardspark. Modern Age Coders teaches coding, AI, Python, vibe coding and maths to people there between six and 67 years old. A tutor in India leads every lesson by live video, for a single learner or for five to ten learners of matching level. We spend time on definitions, because a program can only do what has been defined. In the Welwyn Garden City project, learners decide what "neighbouring" means for 170 census area centres and compare two rules from geometry with the usual shortcuts. You can try a lesson free, then join a group for USD 100 a month or learn one-to-one for USD 150 a month.
+> Welwyn Garden City had 51,505 usual residents as an ONS built-up area in 2021, and the borough of Welwyn Hatfield had 119,836. Its gazetteer suburbs include Panshanger, Haldens, Peartree, Hatfield Hyde, Woodhall, Handside and Sherrardspark. Modern Age Coders teaches coding, AI, Python, vibe coding and maths to people there between six and 67 years old. A tutor in India leads every lesson by live video, for a single learner or for fifteen to twenty learners of matching level. We spend time on definitions, because a program can only do what has been defined. In the Welwyn Garden City project, learners decide what "neighbouring" means for 170 census area centres and compare two rules from geometry with the usual shortcuts. You can try a lesson free, then join a group for USD 100 a month or learn one-to-one for USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East of England](/coding-and-ai-classes-in-east-of-england) / Welwyn Garden City
 
@@ -12,11 +12,11 @@ Welwyn Garden City, Welwyn Hatfield, Hertfordshire / Live online
 
 # Coding and AI classes in Welwyn Garden City
 
-**Which coding and AI classes are best in Welwyn Garden City?** Welwyn Garden City had 51,505 usual residents as an ONS built-up area in 2021, and the borough of Welwyn Hatfield had 119,836. Its gazetteer suburbs include Panshanger, Haldens, Peartree, Hatfield Hyde, Woodhall, Handside and Sherrardspark. Modern Age Coders teaches coding, AI, Python, vibe coding and maths to people there between six and 67 years old. A tutor in India leads every lesson by live video, for a single learner or for five to ten learners of matching level. We spend time on definitions, because a program can only do what has been defined. In the Welwyn Garden City project, learners decide what "neighbouring" means for 170 census area centres and compare two rules from geometry with the usual shortcuts. You can try a lesson free, then join a group for USD 100 a month or learn one-to-one for USD 150 a month.
+**Which coding and AI classes are best in Welwyn Garden City?** Welwyn Garden City had 51,505 usual residents as an ONS built-up area in 2021, and the borough of Welwyn Hatfield had 119,836. Its gazetteer suburbs include Panshanger, Haldens, Peartree, Hatfield Hyde, Woodhall, Handside and Sherrardspark. Modern Age Coders teaches coding, AI, Python, vibe coding and maths to people there between six and 67 years old. A tutor in India leads every lesson by live video, for a single learner or for fifteen to twenty learners of matching level. We spend time on definitions, because a program can only do what has been defined. In the Welwyn Garden City project, learners decide what "neighbouring" means for 170 census area centres and compare two rules from geometry with the usual shortcuts. You can try a lesson free, then join a group for USD 100 a month or learn one-to-one for USD 150 a month.
 
 Ask which places are neighbours and most people reach for a number: the three closest, or everything within 500 metres. Both answers need someone to choose the number, and the choice is arbitrary. In 1969 Ruben Gabriel and Robert Sokal, who were studying how animal populations vary from place to place, proposed a rule with no number in it at all. Two places are neighbours if the circle drawn with them at opposite ends of a diameter has nobody else inside. Eleven years later Godfried Toussaint proposed a stricter cousin. Learners code both and see what each one decides about a real town.
 
-Facts last verified 30 September 2026. Teaching is online; no Welwyn Garden City branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Welwyn Garden City branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Coding and AI courses for Welwyn Garden City
 
@@ -136,7 +136,7 @@ Each learner joins from home. A laptop or desktop with a camera is what matters;
 - **Code written by the learner** Tutors prompt and question. The typing, running and fixing is done by the person learning.
 - **A recommendation after we have met** The free session is where we find the right level and then name a course.
 - **First lesson on us** It is a full lesson, it is free, and we take no card details for it.
-- **Groups of five to ten** Everyone in a group is at the same point; members come from around the UK.
+- **Groups of fifteen to twenty** Everyone in a group is at the same point; members come from around the UK.
 - **Twice weekly in term** Send the Hertfordshire term dates you follow and holiday weeks are skipped.
 - **A fixed UK time** When the clocks change in March and October the tutor moves, the lesson does not.
 

@@ -37,7 +37,7 @@ module.exports = {
 
   h1: 'Coding classes in The Hague, a city whose largest South Asian community appears in no column of the census',
   capsuleQ: 'What are the best coding classes in The Hague?',
-  capsule: 'Coding classes in The Hague serve a city of 569,468 people (Statistics Netherlands, 1 January 2026) where 43 percent of residents have their origins outside Europe, 44,769 of them from Suriname, and where the Hindustani community that grew from that migration is the largest in the country and is not measured by any statistic, because the office counts countries of origin for two generations and then stops. Live online and in English, for ages 6 to 67 across all eight stadsdelen, Modern Age Coders teaches coding, Python, AI and mathematics. There is no charge for the first lesson; after it, USD 100 a month buys a place in a group of five to ten and USD 150 a month buys private tuition.',
+  capsule: 'Coding classes in The Hague serve a city of 569,468 people (Statistics Netherlands, 1 January 2026) where 43 percent of residents have their origins outside Europe, 44,769 of them from Suriname, and where the Hindustani community that grew from that migration is the largest in the country and is not measured by any statistic, because the office counts countries of origin for two generations and then stops. Live online and in English, for ages 6 to 67 across all eight stadsdelen, Modern Age Coders teaches coding, Python, AI and mathematics. There is no charge for the first lesson; after it, USD 100 a month buys a place in a group of fifteen to twenty and USD 150 a month buys private tuition.',
   lead: 'A grandchild of a family that arrived from Suriname around 25 November 1975 is, in the national statistics, of Dutch origin. The community has not gone anywhere; the column has. Building the small program that shows a group growing while its measured size shrinks is the project on this page, and in this city it is not an abstract one.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in The Hague.',
 
@@ -197,7 +197,7 @@ module.exports = {
       { h3: 'No crossing of the city', p: 'The lesson is at the kitchen table in Escamp, Segbroek or Ypenburg at a fixed time. Tram 1, tram 9 and the RandstadRail are for other things.' },
       { h3: 'English, with the Hague words kept', p: 'Taught in English. Groep, havo, vwo, Key Stage, MYP and the BOVO list are used as the family hears them, because the family has to live with them.' },
       { h3: 'One free lesson that ends in a decision', p: 'A real task, a level, a named course and a slot. No card and no commitment until the family has watched a lesson happen.' },
-      { h3: 'Five to ten learners a group, sorted by what they can do', p: 'A group is assembled from level and goal, nothing else. The school system, the stadsdeel and the country the grandparents left are not inputs to it.' },
+      { h3: 'Fifteen to twenty learners a group, sorted by what they can do', p: 'A group is assembled from level and goal, nothing else. The school system, the stadsdeel and the country the grandparents left are not inputs to it.' },
       { h3: 'Eight lessons a month on the regio Midden calendar', p: 'Two lessons a week at a recurring time. Zuid-Holland sits in regio Midden for school holidays, so the summer break falls a week apart from Amsterdam\'s, and that is settled before the slot is.' },
       { h3: 'Where the hours line up', p: 'By the time a Hague family sits down to dinner the teacher\'s day in India is almost over, three and a half hours ahead in summer and four and a half in winter. The slots that suit both ends are the ones after school, before dinner and at the weekend, and the one the family keeps is fixed during the free lesson.' }
     ],
@@ -208,7 +208,7 @@ module.exports = {
     h2: 'One free class, then USD 100 or USD 150 a month, published here',
     intro: 'Stated in full before anyone is asked for a phone number.',
     first: 'A full lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner and one teacher.',
     closer: 'Dollars, because the international tariff is published once and has no euro edition; The Hague pays what every other city outside India pays, with no joining fee. Course and slot are settled in the free lesson, and only then is payment arranged, over WhatsApp. What happens with a pause, a change of plan or a missed lesson is written up on the pricing page.'
   },
@@ -233,8 +233,8 @@ module.exports = {
       { q: 'What time are classes for a family in The Hague?', a: 'India stays on one clock all year and the Netherlands does not, so the gap between a Hague afternoon and the teacher\'s evening is four and a half hours in winter and three and a half in summer. After-school, pre-dinner and weekend times are the ones that work at both ends, and the family picks its recurring slot during the free lesson, before anything is paid.' },
       { q: 'What happens in the free The Hague class?', a: 'We work out what the learner can do and set one task there. A child colours a paper family tree by a rule and counts. A teenager writes the two-generation rule as a function and plots the two lines. An adult brings a category from work and finds its definition. By the end of the hour the family has a course name, a level, a weekly time and the price in dollars, and has paid nothing for any of it.' },
       { q: 'Does Modern Age Coders have a centre anywhere in The Hague?', a: 'No. No premises are claimed in The Hague, in Wassenaar, in Rijswijk or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The phone number on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do The Hague coding classes cost?', a: 'The first class is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month for one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
-      { q: 'How large is a group for learners in The Hague?', a: 'Five to ten learners, matched on level, pace and goal rather than on age, school system or stadsdeel. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
+      { q: 'What do The Hague coding classes cost?', a: 'The first class is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month for one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'How large is a group for learners in The Hague?', a: 'Fifteen to twenty learners, matched on level, pace and goal rather than on age, school system or stadsdeel. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },
 

@@ -178,7 +178,7 @@ module.exports = {
     intro: 'Six points.',
     cells: [
       { h3: 'Live, not recorded', p: 'A teacher present throughout, responding to the work as the learner does it.' },
-      { h3: 'Placed by level', p: 'Groups of five to ten at one stage, joining from Ennis, elsewhere in Ireland and abroad.' },
+      { h3: 'Placed by level', p: 'Groups of fifteen to twenty at one stage, joining from Ennis, elsewhere in Ireland and abroad.' },
       { h3: 'Two lessons weekly', p: 'About eight a month, in a slot chosen once and then kept for the term.' },
       { h3: 'School calendar', p: 'Mid-terms, holidays and exam weeks are planned in before the first lesson.' },
       { h3: 'Equipment', p: 'A computer with a keyboard, working sound, and a connection able to carry video.' },
@@ -191,7 +191,7 @@ module.exports = {
     h2: 'Ennis class fees',
     intro: 'Three lines, complete.',
     first: 'A full opening lesson, taught and assessed, at no charge.',
-    group: 'A month in an ability group of five to ten, about eight live lessons.',
+    group: 'A month in an ability group of fifteen to twenty, about eight live lessons.',
     private: 'A month of private teaching on the same weekly pattern.',
     closer: 'Everything is billed monthly in US dollars at the one rate for families outside India, so Ennis sees the same figure as Galway or Navan and no euro list beside it. We invoice once, and only once, a course and a weekly time have both been chosen in the opening lesson; what happens around holidays, a week missed and a switch of format is written out on the pricing page rather than agreed case by case.'
   },
@@ -216,7 +216,7 @@ module.exports = {
       { q: 'Can adults in Ennis join?', a: 'Yes, to sixty-seven, with no previous coding needed. The opening lesson places an adult in a group at the same stage or with a teacher one to one.' },
       { q: 'Are learners compared with each other?', a: 'No. There is no ranking, no leaderboard and no class position. Progress is measured against what the learner could do at the start.' },
       { q: 'Is there a Modern Age Coders classroom in Ennis?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Ennis cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Ennis cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

@@ -239,7 +239,7 @@ module.exports = {
     cells: [
       { h3: 'Solutions read closely', p: 'The teacher reads what the pupil wrote and says where a reader would stop being convinced.' },
       { h3: 'Our own problems', p: 'Written by us in the olympiad spirit. UKMT past papers stay where UKMT publishes them.' },
-      { h3: 'Five to ten pupils', p: 'Small enough for every solution to be looked at, large enough for two methods to meet.' },
+      { h3: 'Fifteen to twenty pupils', p: 'Small enough for every solution to be looked at, large enough for two methods to meet.' },
       { h3: 'Time to be stuck', p: 'Being stuck for twenty minutes is the work, not a sign that something is wrong.' },
       { h3: 'One to one on request', p: 'For a pupil working far above their year, or one who will not speak in a group.' },
       { h3: 'No result promised', p: 'No qualification, medal or score is promised by us, and nobody honest promises one.' }
@@ -254,7 +254,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A monthly rate in US dollars, the same outside India everywhere. No joining fee and no fixed term.',
     free: ['A real lesson on a real problem', 'An honest read on the level', 'No card details'],
-    group: ['Five to ten pupils at one level', 'The same teacher each week', 'Written solutions marked', 'A certificate at the end'],
+    group: ['Fifteen to twenty pupils at one level', 'The same teacher each week', 'Written solutions marked', 'A certificate at the end'],
     one: ['One pupil with one teacher', 'Aimed at the specific gap', 'For pupils far ahead of their year']
   },
 

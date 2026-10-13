@@ -229,7 +229,7 @@ Teaching is live on video from India, which runs five and a half hours ahead of 
 
 - **One teacher, every week** The same person sees the same mistakes twice and can do something about them.
 - **Parents get the truth** A short honest note on what went well and what did not, not a score to frame.
-- **Five to ten children** Enough voices in the room for a child to hear a better method than their own, few enough that nobody hides.
+- **Fifteen to twenty children** Enough voices in the room for a child to hear a better method than their own, few enough that nobody hides.
 - **Our own questions** We write the practice ourselves. No Kent Test paper is reproduced here.
 - **One to one when it helps** For a specific gap, or for a child who freezes in a group.
 - **No outcome promised** We teach maths. Places, thresholds and appeals belong to the council and the schools.
@@ -239,7 +239,7 @@ Teaching is live on video from India, which runs five and a half hours ahead of 
 A monthly rate in US dollars, the same everywhere outside India. Nothing to join, nothing to cancel.
 
 - Free first class: USD 0. A full lesson, taught not sold. A frank read on where the maths is. No card details taken.
-- Group batch: USD 100 a month. Five to ten children at one level. The same teacher each week. Work marked and talked through. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. The same teacher each week. Work marked and talked through. A certificate at the end.
 - One to one: USD 150 a month. One child, one teacher. Built around the specific gap. Useful in the months before the test.
 
 ## What Kent parents ask us

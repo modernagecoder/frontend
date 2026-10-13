@@ -293,7 +293,7 @@ module.exports = {
       { h3: 'Real files', p: 'Learners work with public data from their own region, not toy examples.' },
       { h3: 'NSW terms', p: 'Classes follow the New South Wales school calendar and stop for holidays.' },
       { h3: 'Free trial', p: 'One full lesson costs nothing and ends with a written recommendation.' },
-      { h3: 'Level-matched groups', p: 'Five to ten learners at a similar stage, or one to one.' },
+      { h3: 'Level-matched groups', p: 'Fifteen to twenty learners at a similar stage, or one to one.' },
       { h3: 'Twice weekly', p: 'Two set lessons a week, around eight in a month.' },
       { h3: 'India time', p: 'Our teachers are in India: a 7pm Maitland class is 1:30pm India time during daylight saving and 2:30pm from April.' }
     ],
@@ -306,7 +306,7 @@ module.exports = {
     h2: 'Maitland class fees',
     intro: 'The same price list in every council area.',
     first: 'Your first lesson is free, with written advice to follow.',
-    group: 'Around eight group lessons a month, five to ten learners each.',
+    group: 'Around eight group lessons a month, fifteen to twenty learners each.',
     private: 'Around eight private lessons a month.',
     closer: 'Maitland families pay in US dollars once the trial lesson has fixed the course and the class times. The pricing page explains holidays and missed lessons.'
   },
@@ -348,12 +348,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Maitland learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Do Maitland group classes cover Copilot Studio?', a: 'No. Copilot Studio is taught one to one only; groups write their projects in Python.' }

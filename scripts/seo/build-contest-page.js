@@ -189,7 +189,7 @@ ${faqSchema}
           <a href="#format" class="bx-btn bx-btn--ghost">${esc(c.formatCta)}</a>
           <a href="${wa}" class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'${c.slug}'});">Ask on WhatsApp</a>
         </div>
-        <p class="bx-hero-note">Live online &middot; 100% online &middot; batch of 5 to 10 &middot; ${c.heroNote} &middot; first class free</p>
+        <p class="bx-hero-note">Live online &middot; 100% online &middot; batch of 15 to 20 &middot; ${c.heroNote} &middot; first class free</p>
       </div>
 
       <aside class="bx-timetable" aria-label="${esc(c.dates.aria)}">
@@ -198,7 +198,7 @@ ${dateRows}
         <p class="bx-tt-zones"><b>${esc(c.dates.noteLead)}</b> ${esc(c.dates.note)}</p>
         <div class="bx-tt-foot">
           <span class="bx-stamp">Live &middot; 100% online</span>
-          <span class="bx-stamp">5 to 10 students</span>
+          <span class="bx-stamp">15 to 20 students</span>
         </div>
         <p class="bx-trust" style="margin-top:14px"><span class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Rated ${facts.rating} across ${facts.reviews} Google reviews</p>
       </aside>
@@ -326,14 +326,14 @@ ${paras(c.plan.after)}
         <p class="bx-price-name">Group batch &middot; ${esc(c.fees.groupName)}</p>
         <p class="bx-price-amt"><span data-price="coding.india.group">₹1,499</span></p>
         <p class="bx-price-alt">per month</p>
-        <ul><li>Five to ten students, ${esc(c.fees.groupWho)}</li><li>Two live classes a week, ${esc(c.fees.groupWhat)}</li><li>${esc(c.fees.groupExtra)}</li><li>Certificate on completion</li></ul>
+        <ul><li>Fifteen to twenty students, ${esc(c.fees.groupWho)}</li><li>Two live classes a week, ${esc(c.fees.groupWhat)}</li><li>${esc(c.fees.groupExtra)}</li><li>Certificate on completion</li></ul>
         <a href="#start" class="bx-btn">Book the free demo</a>
       </div>
       <div class="bx-price" data-india-only="true">
         <p class="bx-price-name">Mini batch</p>
         <p class="bx-price-amt"><span data-price="coding.india.miniBatch">₹2,999</span></p>
         <p class="bx-price-alt">per month</p>
-        <ul><li>Three to four students</li><li>Timings agreed around the family</li><li>${esc(c.fees.miniExtra)}</li></ul>
+        <ul><li>Up to six students</li><li>Timings agreed around the family</li><li>${esc(c.fees.miniExtra)}</li></ul>
         <a href="#start" class="bx-btn bx-btn--ghost">Ask about timings</a>
       </div>
       <div class="bx-price">

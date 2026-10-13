@@ -63,7 +63,7 @@ module.exports = {
 
   h1: 'Coding classes in Canterbury',
   capsuleQ: 'What are the best coding classes in Canterbury?',
-  capsule: 'The 2021 census counted 157,432 usual residents in the Canterbury district, and 10.0% of them were aged 20 to 24, against 6.0% in England. Canterbury Cathedral dates its founding by St Augustine to 597 AD, and says the shrine of Thomas Becket made the city one of the great pilgrimage sites of medieval Christendom. Canterbury learners aged six to sixty-seven can take lessons with us on live video, alone with a teacher or in a class of five to ten at their stage, taught from India at hours suited to UK families. The first lesson is free; then a group place is USD 100 a month and one-to-one teaching USD 150.',
+  capsule: 'The 2021 census counted 157,432 usual residents in the Canterbury district, and 10.0% of them were aged 20 to 24, against 6.0% in England. Canterbury Cathedral dates its founding by St Augustine to 597 AD, and says the shrine of Thomas Becket made the city one of the great pilgrimage sites of medieval Christendom. Canterbury learners aged six to sixty-seven can take lessons with us on live video, alone with a teacher or in a class of fifteen to twenty at their stage, taught from India at hours suited to UK families. The first lesson is free; then a group place is USD 100 a month and one-to-one teaching USD 150.',
   lead: 'Chaucer\'s pilgrims set out, as line 16 of the Tales puts it, "to Caunterbury". How many different words did he use to tell their stories? Split Walter Skeat\'s edition on spaces and the answer is 23,609. Ignore capital letters and it drops to 22,164. Strip punctuation and it halves, to 12,132, and treating hyphens and accents consistently brings it to 11,567. Even then, "said" appears in six spellings, from seyde to seid. The vocabulary also keeps growing as you read: Heaps\' law describes that growth with a simple power curve, but a curve fitted to the first tenth of the book predicts 16,538 words, far more than there are. Our teenagers learn that counting starts with deciding what to count.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Canterbury.',
 
@@ -191,7 +191,7 @@ module.exports = {
       { h3: 'City and coast', p: 'A learner in Sturry and another in Whitstable can share the same class without a bus ride into Canterbury.' },
       { h3: 'English stages throughout', p: 'We follow the stages Kent schools use, Reception and Key Stages 1 to 4 through GCSE and A level, and teach entirely in English.' },
       { h3: 'A lesson, not a sales call', p: 'The free session teaches a real task and ends with our suggested level, course and weekly slot. We never ask for card details.' },
-      { h3: 'Grouped by stage', p: 'Five to ten learners working at one level, from Canterbury, elsewhere in the UK and abroad, so every stage has a sensible time.' },
+      { h3: 'Grouped by stage', p: 'Fifteen to twenty learners working at one level, from Canterbury, elsewhere in the UK and abroad, so every stage has a sensible time.' },
       { h3: 'Two regular lessons', p: 'Two set lessons a week, about eight a month, with holidays and exam weeks planned with the teacher well ahead.' },
       { h3: 'Evening classes from India', p: 'A 5 pm lesson in Canterbury starts at 9.30 pm in India during British Summer Time and 10.30 pm in winter, as India keeps one time all year; our teachers work late for UK learners.' }
     ],
@@ -202,7 +202,7 @@ module.exports = {
     h2: 'Canterbury lesson fees',
     intro: 'A free first lesson, then one monthly fee.',
     first: 'A full lesson with nothing to pay, ending with a suggested level, course and weekly time.',
-    group: 'Around eight live lessons a month in a group of five to ten learners at one stage.',
+    group: 'Around eight live lessons a month in a group of fifteen to twenty learners at one stage.',
     private: 'Around eight live lessons a month, with the teacher focused on your learner alone.',
     closer: 'Thanington and Tankerton pay what every family outside India pays: one fee in US dollars, with no pound prices anywhere on our site. The free lesson comes first, and billing starts only once a course and a weekly time are agreed; pausing, missed lessons and moving between group and private teaching are explained on the pricing page.'
   },
@@ -227,8 +227,8 @@ module.exports = {
       { q: 'Why is Canterbury a place of pilgrimage?', a: 'Canterbury Cathedral says it was founded by St Augustine in 597 AD and that the shrine of Thomas Becket, killed there in 1170, made it one of the most important pilgrimage sites in medieval Christendom. We are not connected with the Cathedral.' },
       { q: 'At what times are Canterbury lessons?', a: 'Weekday afternoons or evenings, or weekends, at a UK time agreed during the free lesson. India is four and a half hours ahead of Canterbury in summer and five and a half in winter.' },
       { q: 'Is there a Modern Age Coders centre in Canterbury?', a: 'No. There is no Canterbury centre and no premises anywhere in the UK, as every lesson is live online. Learners need a computer with sound and a steady connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do Canterbury lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
-      { q: 'How are Canterbury groups formed?', a: 'By level, pace and goals rather than age or address, with five to ten learners at one stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do Canterbury lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
+      { q: 'How are Canterbury groups formed?', a: 'By level, pace and goals rather than age or address, with fifteen to twenty learners at one stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

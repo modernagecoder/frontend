@@ -190,7 +190,7 @@ module.exports = {
       { h3: 'Every suburb at once', p: 'A learner in Belmont and one in Ocean Grove can share a lesson in real time without either leaving home.' },
       { h3: 'Victorian year levels', p: 'Teachers refer to Year 7 through Year 12 and to the VCE years as Victorian schools do; lessons are in English.' },
       { h3: 'Free, and properly useful', p: 'In the trial you write actual Python while a teacher watches, then hear which stage, course and weekly slot would suit; card details are never requested.' },
-      { h3: 'Small groups of five to ten', p: 'Learners at one stage from Geelong, elsewhere in Australia and overseas, so each level finds a workable time.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners at one stage from Geelong, elsewhere in Australia and overseas, so each level finds a workable time.' },
       { h3: 'Twice a week', p: 'Usually two lessons a week, about eight a month, with holidays and exams planned ahead with the teacher.' },
       { h3: 'The October shift', p: 'When Victoria moves its clocks forward, a 5pm Geelong lesson moves from 12:30pm to 11:30am for our teachers, who stay on India time all year.' }
     ],
@@ -201,7 +201,7 @@ module.exports = {
     h2: 'What Python classes cost in Geelong',
     intro: 'Three figures only.',
     first: 'A free first lesson that ends with a level, a course and a time.',
-    group: 'A month of classes, usually eight, with five to ten learners at your stage.',
+    group: 'A month of classes, usually eight, with fifteen to twenty learners at your stage.',
     private: 'Around eight private lessons each month with one teacher.',
     closer: 'Geelong families are charged in US dollars at one rate, the same on the Bellarine as in Corio, with no local price list. Nothing is billed until the trial has settled a course and time; the pricing page explains holidays, missed classes and changing format.'
   },
@@ -226,8 +226,8 @@ module.exports = {
       { q: 'When do Geelong lessons run?', a: 'After school, in the evening or at weekends, agreed in the trial and written in Geelong time. India time is 4 hours 30 minutes behind in winter and 5 hours 30 minutes behind during daylight saving.' },
       { q: 'Can younger children learn with you in Geelong?', a: 'Yes, from age 6, usually starting with Scratch and visual projects. This page is written for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Geelong?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Geelong coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Geelong coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

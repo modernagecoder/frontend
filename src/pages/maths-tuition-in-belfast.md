@@ -4,7 +4,7 @@ description: "Online maths tuition in Belfast for ages 6 to 67: CCEA GCSE Maths 
 canonical: https://learn.modernagecoders.com/maths-tuition-in-belfast
 source: src/pages/maths-tuition-in-belfast.html
 ---
-> Belfast learners from 6 to 67 can study maths with us live online: primary maths from P1 to P7, Years 8 to 10, CCEA GCSE Mathematics at Foundation or Higher tier, CCEA GCSE Further Mathematics, CCEA AS and A2 Mathematics, and adult maths. Classes hold five to ten learners at the same level, or a learner can work one to one. Our Belfast example uses the hills: on a smooth Earth without refraction, the horizon from the 478 metre summit of Divis is 78.0 kilometres away, found with the circle theorem that a tangent is perpendicular to a radius and with Pythagoras. The first lesson is free. Afterwards, group places cost USD 100 a month and private lessons USD 150 a month.
+> Belfast learners from 6 to 67 can study maths with us live online: primary maths from P1 to P7, Years 8 to 10, CCEA GCSE Mathematics at Foundation or Higher tier, CCEA GCSE Further Mathematics, CCEA AS and A2 Mathematics, and adult maths. Classes hold fifteen to twenty learners at the same level, or a learner can work one to one. Our Belfast example uses the hills: on a smooth Earth without refraction, the horizon from the 478 metre summit of Divis is 78.0 kilometres away, found with the circle theorem that a tangent is perpendicular to a radius and with Pythagoras. The first lesson is free. Afterwards, group places cost USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Belfast
 
@@ -14,7 +14,7 @@ Belfast · Maths for learners aged 6 to 67 · Live and online, small classes or 
 
 OpenStreetMap gives the summit of Divis as 478 metres. Imagine the Earth as a perfectly smooth ball with no air to bend the light. How far away is the horizon from the top? One fact from GCSE geometry answers it: a tangent meets a radius at a right angle. Put Pythagoras on that right angle, with the Earth's radius of 6,371 kilometres on one side, and the horizon sits 78.0 kilometres away. Stand at sea level with your eyes 1.6 metres up and it shrinks to 4.5 kilometres. This page explains how we teach maths to Belfast learners, from P1 to A2 and adult study, and uses the Belfast Hills to show how much a single circle theorem can do.
 
-At a glance: Who: Belfast learners aged 6 to 67; Primary: P1 to P7 number, shape and measure; Secondary: Years 8 to 12, CCEA GCSE Mathematics; Extra GCSE: CCEA GCSE Further Mathematics; Sixth form: CCEA AS and A2 Mathematics; Adults: Refreshers, Functional Mathematics, GCSE; Format: Live video, 5 to 10 per class or one to one; Local project: Horizons from Divis and Black Mountain. Rated 4.9 across 547 Google reviews.
+At a glance: Who: Belfast learners aged 6 to 67; Primary: P1 to P7 number, shape and measure; Secondary: Years 8 to 12, CCEA GCSE Mathematics; Extra GCSE: CCEA GCSE Further Mathematics; Sixth form: CCEA AS and A2 Mathematics; Adults: Refreshers, Functional Mathematics, GCSE; Format: Live video, 15 to 20 per class or one to one; Local project: Horizons from Divis and Black Mountain. Rated 4.9 across 547 Google reviews.
 
 ## Three courses most families start with
 
@@ -224,7 +224,7 @@ Teaching happens from India, where the clocks do not change. India is five and a
 
 - **One teacher throughout** The same teacher each week, who learns each learner's habits.
 - **Updates home** A brief note after lessons on progress and next steps.
-- **Classes by level** Five to ten learners at one level in each class.
+- **Classes by level** Fifteen to twenty learners at one level in each class.
 - **Real numbers** Hill heights, maps and records next to exam questions.
 - **Private teaching** One to one for a single topic or the last weeks before exams.
 - **Understanding before speed** Methods are explained, then practised.
@@ -234,7 +234,7 @@ Teaching happens from India, where the clocks do not change. India is five and a
 Paid monthly in US dollars, at the same rate for every country outside India, with no joining fee and no fixed term.
 
 - Free first class: USD 0. A real lesson at the right level. Our candid view afterwards. No card details asked for.
-- Group batch: USD 100 a month. Five to ten learners at one level. A regular teacher. Marked work, discussed in class. A certificate when you finish.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. A regular teacher. Marked work, discussed in class. A certificate when you finish.
 - One to one: USD 150 a month. Individual teaching. Focused on the exact gap. Well suited to the run-up to exams.
 
 ## What Belfast families and adult learners ask

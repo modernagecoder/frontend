@@ -4,7 +4,7 @@ description: "Coding and AI classes for Ramsgate, Newington, Pegwell and Netherc
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-ramsgate
 source: src/pages/best-coding-and-ai-classes-in-ramsgate.html
 ---
-> According to the ONS, 42,030 people lived in the Ramsgate built-up area at the 2021 census, and 140,587 in the Thanet district. Newington, Pegwell, Nethercourt, Northwood, Haine and Chilton are the gazetteer suburbs we could place inside the built-up area by their nearest postcode. Modern Age Coders teaches coding, AI, Python, vibe coding and maths in Ramsgate through live online lessons for ages six to 67; the tutors are in India and teach privately or in groups of five to ten learners at one level. Learners begin with a free lesson, and we recommend a course only afterwards. In the Ramsgate project a small neural network learns the height of the land from its position, and the learner discovers that the numbers it starts from decide whether it learns anything at all. After the trial, lessons cost USD 100 a month in a group or USD 150 a month privately.
+> According to the ONS, 42,030 people lived in the Ramsgate built-up area at the 2021 census, and 140,587 in the Thanet district. Newington, Pegwell, Nethercourt, Northwood, Haine and Chilton are the gazetteer suburbs we could place inside the built-up area by their nearest postcode. Modern Age Coders teaches coding, AI, Python, vibe coding and maths in Ramsgate through live online lessons for ages six to 67; the tutors are in India and teach privately or in groups of fifteen to twenty learners at one level. Learners begin with a free lesson, and we recommend a course only afterwards. In the Ramsgate project a small neural network learns the height of the land from its position, and the learner discovers that the numbers it starts from decide whether it learns anything at all. After the trial, lessons cost USD 100 a month in a group or USD 150 a month privately.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Ramsgate
 
@@ -12,11 +12,11 @@ Ramsgate, Thanet, Kent / Live online
 
 # Coding and AI classes in Ramsgate
 
-**What are the best coding and AI classes for Ramsgate?** According to the ONS, 42,030 people lived in the Ramsgate built-up area at the 2021 census, and 140,587 in the Thanet district. Newington, Pegwell, Nethercourt, Northwood, Haine and Chilton are the gazetteer suburbs we could place inside the built-up area by their nearest postcode. Modern Age Coders teaches coding, AI, Python, vibe coding and maths in Ramsgate through live online lessons for ages six to 67; the tutors are in India and teach privately or in groups of five to ten learners at one level. Learners begin with a free lesson, and we recommend a course only afterwards. In the Ramsgate project a small neural network learns the height of the land from its position, and the learner discovers that the numbers it starts from decide whether it learns anything at all. After the trial, lessons cost USD 100 a month in a group or USD 150 a month privately.
+**What are the best coding and AI classes for Ramsgate?** According to the ONS, 42,030 people lived in the Ramsgate built-up area at the 2021 census, and 140,587 in the Thanet district. Newington, Pegwell, Nethercourt, Northwood, Haine and Chilton are the gazetteer suburbs we could place inside the built-up area by their nearest postcode. Modern Age Coders teaches coding, AI, Python, vibe coding and maths in Ramsgate through live online lessons for ages six to 67; the tutors are in India and teach privately or in groups of fifteen to twenty learners at one level. Learners begin with a free lesson, and we recommend a course only afterwards. In the Ramsgate project a small neural network learns the height of the land from its position, and the learner discovers that the numbers it starts from decide whether it learns anything at all. After the trial, lessons cost USD 100 a month in a group or USD 150 a month privately.
 
 Before a neural network sees any data, someone has to fill it with numbers. It sounds like a formality. It is not: start every weight at zero and the network cannot learn; start them all the same and its neurons stay identical forever; start them too large and it learns worse than a guess. A map of the heights under Ramsgate gives a network something real to learn, and five ways of starting it give five very different results.
 
-Facts last verified 1 October 2026. Teaching is online; no Ramsgate branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 1 October 2026. Teaching is online; no Ramsgate branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Coding and AI courses for Ramsgate learners
 
@@ -134,7 +134,7 @@ Lessons take place live on video. A laptop or desktop with a keyboard is needed;
 - **Hands on keyboard** Learners write and run their own code, with the tutor prompting rather than typing.
 - **Right level first** We decide where to start from what the free lesson shows.
 - **Nothing to pay upfront** The trial is free, and no card is requested.
-- **Small groups** Five to ten learners at a matching level, from across the UK.
+- **Small groups** Fifteen to twenty learners at a matching level, from across the UK.
 - **Weekly routine** Two lessons a week during term, about eight a month, holidays skipped on request.
 - **Time that stays put** Our tutors absorb the UK clock changes, not your timetable.
 

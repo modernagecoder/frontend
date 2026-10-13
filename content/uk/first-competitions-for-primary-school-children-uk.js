@@ -224,7 +224,7 @@ module.exports = {
     cells: [
       { h3: 'Reasoning out loud', p: 'A child says why before saying what, which is the habit every one of these competitions rewards.' },
       { h3: 'Our own puzzles', p: 'Written by us. We do not reproduce any competition\'s questions in a lesson.' },
-      { h3: 'Five to ten children', p: 'Enough to hear a better method than your own, few enough that nobody stays silent.' },
+      { h3: 'Fifteen to twenty children', p: 'Enough to hear a better method than your own, few enough that nobody stays silent.' },
       { h3: 'Parents told plainly', p: 'A short honest note after each block, not a score to put on the fridge.' },
       { h3: 'One to one when it helps', p: 'For a child far ahead of their year, or one who freezes in a group.' },
       { h3: 'We enter nobody', p: 'Every competition here is entered by a school or a parent. We teach, and that is all.' }
@@ -239,7 +239,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A monthly rate in US dollars, the same in every country outside India, with nothing to join and no fixed term.',
     free: ['A real lesson, taught not sold', 'An honest read on where the maths is', 'No card details'],
-    group: ['Five to ten children at one level', 'The same teacher every week', 'Work marked and talked through', 'A certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'The same teacher every week', 'Work marked and talked through', 'A certificate at the end'],
     one: ['One child with one teacher', 'Built around a particular gap', 'Useful when a group hour will not fit']
   },
 

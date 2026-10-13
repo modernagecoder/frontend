@@ -181,7 +181,7 @@ module.exports = {
       { h3: 'From the kitchen table', p: 'A learner in Boukoul and a learner in the centre of Roermond join the same class from home, and nobody crosses a bridge to get there.' },
       { h3: 'Dutch school terms kept', p: 'Groep 8, brugklas, vmbo, havo, vwo and the profiel stay in Dutch, as Roermond families say them, while all teaching is in English.' },
       { h3: 'The first lesson costs nothing', p: 'It is a proper lesson on a proper task. Afterwards the teacher suggests a level, a course and a regular hour, and asks for no card or bank details.' },
-      { h3: 'Groups across borders', p: 'Five to ten learners at one level. Roermond has 8,509 residents under fifteen, too few to fill every stage at every hour, so groups include learners from elsewhere in the Netherlands and abroad.' },
+      { h3: 'Groups across borders', p: 'Fifteen to twenty learners at one level. Roermond has 8,509 residents under fifteen, too few to fill every stage at every hour, so groups include learners from elsewhere in the Netherlands and abroad.' },
       { h3: 'Regio Zuid holidays', p: 'Two lessons a week, around eight a month, at a fixed time, with breaks for the regio Zuid school holidays that Limburg follows.' },
       { h3: 'Teaching from India', p: 'The teachers are three and a half hours ahead of Roermond in summer and four and a half in winter, so late afternoons, evenings and weekend mornings all suit.' }
     ],
@@ -192,7 +192,7 @@ module.exports = {
     h2: 'What classes cost in Roermond',
     intro: 'Every price, in one place.',
     first: 'A real lesson on a real task, ending with a level and a course.',
-    group: 'Per month, normally eight lessons, five to ten learners at one level.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners at one level.',
     private: 'Per month, normally eight lessons, one learner and one teacher.',
     closer: 'The fee is set in US dollars and is the same in every country, with no separate euro price, so a family in Swalmen pays what a family in Maasniel pays. Nothing is due until the free lesson has fixed a course and an hour, and payment is then arranged on WhatsApp. Pausing, changing format and missed lessons are all explained on the pricing page.'
   },
@@ -217,7 +217,7 @@ module.exports = {
       { q: 'What is a regular expression?', a: 'A short pattern that describes text to search for, such as a word with a capital letter that stands on its own. Almost every programming language supports them, and learners on this page use them to find village names without catching deer, lions or school.' },
       { q: 'What language are lessons in, and when do they happen?', a: 'In English, with Dutch school terms such as brugklas, havo and vwo kept as they are. The teachers work from India, three and a half hours ahead of Roermond in summer and four and a half in winter, so lessons fit late afternoons, evenings and weekend mornings. The time is agreed in the free lesson, and regio Zuid holidays are kept.' },
       { q: 'Is there a Modern Age Coders classroom in Roermond?', a: 'No, and none is claimed here or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Roermond coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Roermond coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

@@ -296,7 +296,7 @@ module.exports = {
       { h3: 'Live, not recorded', p: 'The teacher talks through each line with the learner while it is being written.' },
       { h3: 'NSW terms', p: 'Stages, years and the school calendar match what local schools use.' },
       { h3: 'Trial before paying', p: 'The first class is free and ends with a clear plan for level and timing.' },
-      { h3: 'Five to ten per group', p: 'Classmates are matched by ability; one-to-one is offered too.' },
+      { h3: 'Fifteen to twenty per group', p: 'Classmates are matched by ability; one-to-one is offered too.' },
       { h3: 'Twice a week', p: 'A regular pair of weekly slots, roughly eight sessions a month.' },
       { h3: 'Teachers in India', p: 'A 6pm Baulkham Hills lesson is 12:30pm India time in Sydney summer time and 1:30pm otherwise.' }
     ],
@@ -309,7 +309,7 @@ module.exports = {
     h2: 'Baulkham Hills lesson fees',
     intro: 'Every course costs the same, whatever the subject or age.',
     first: 'Lesson one is free, and the teacher recommends a course and time at the end of it.',
-    group: 'Two classes each week, about eight a month, with five to ten classmates at the same level.',
+    group: 'Two classes each week, about eight a month, with fifteen to twenty classmates at the same level.',
     private: 'Individual lessons on the same twice-weekly rhythm, about eight a month.',
     closer: 'Baulkham Hills families pay in US dollars, and only after the trial has settled a course and a time. The pricing page sets out holidays, missed classes and changes of format.'
   },
@@ -358,12 +358,12 @@ module.exports = {
       },
       {
         q: 'How much do Baulkham Hills lessons cost?',
-        a: 'The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.',
+        a: 'The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.',
         boiler: true
       },
       {
         q: 'How big are the groups?',
-        a: 'Five to ten learners, grouped by level and goals rather than age. If no group fits the learner\'s schedule, one-to-one lessons are offered instead.',
+        a: 'Fifteen to twenty learners, grouped by level and goals rather than age. If no group fits the learner\'s schedule, one-to-one lessons are offered instead.',
         boiler: true
       }
     ]

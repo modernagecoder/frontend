@@ -60,7 +60,7 @@ module.exports = {
 
   h1: 'Coding classes in Sheffield',
   capsuleQ: 'What are the best coding classes in Sheffield?',
-  capsule: 'Sheffield counted 556,521 usual residents at the 2021 Census, with 9.1% aged 20 to 24 against 6.0% across England. The University of Sheffield, chartered in 1905, counts six members of its staff who have won a Nobel Prize, and Sheffield Hallam University describes a community of about 31,000 students. Modern Age Coders teaches Sheffield learners aged six to sixty-seven in live online lessons, in groups of five to ten at one level or one to one, with teachers in India and times fixed in UK hours. The first lesson is on us; after it, a group place is USD 100 a month and one-to-one teaching USD 150 a month.',
+  capsule: 'Sheffield counted 556,521 usual residents at the 2021 Census, with 9.1% aged 20 to 24 against 6.0% across England. The University of Sheffield, chartered in 1905, counts six members of its staff who have won a Nobel Prize, and Sheffield Hallam University describes a community of about 31,000 students. Modern Age Coders teaches Sheffield learners aged six to sixty-seven in live online lessons, in groups of fifteen to twenty at one level or one to one, with teachers in India and times fixed in UK hours. The first lesson is on us; after it, a group place is USD 100 a month and one-to-one teaching USD 150 a month.',
   lead: 'Draw one straight line through 140 years of Sheffield temperatures and it rises by about 0.11 degrees Celsius a decade. Draw it from 1970 instead and it rises 0.30 degrees a decade. Start in 2010 and it climbs 0.85. All three are honest least-squares fits to the same Met Office record for the city\'s station, 131 metres up, with annual means from 1883 to 2025 and three incomplete years left out. The method is one of the most widely used tools in data science: choose the line that makes the squared gaps between line and points as small as possible. The lesson lies in the choices around it. Pick a start year between 1990 and 2011 and the slope can be anything from 0.26 to 0.85 degrees a decade. That freedom is where honest analysis and cherry-picking part company, and telling them apart is the lesson Sheffield\'s weather teaches our teenage learners.',
   wa: 'Hello Modern Age Coders, I would like to arrange a free coding lesson for a learner in Sheffield.',
 
@@ -97,7 +97,7 @@ module.exports = {
           { h3: 'Children near the national share', p: 'Children aged 5 to 9 were 5.8% of residents, almost exactly England\'s 5.9%, so the student city sits on top of an ordinary family city.' },
           { h3: 'Study across the city', p: 'In 2021, 24.9% of residents aged five and over were schoolchildren or full-time students, compared with 20.4% in England.' }
         ] },
-        { kind: 'p', text: 'That mix means Sheffield learners come at every stage: a seven-year-old in Walkley making a first animation, a Year 11 student in Gleadless preparing for GCSE Computer Science, a university student in Broomhill who wants Python for a dissertation, and an adult in Stocksbridge changing career. Each joins a group of five to ten at their own level.' }
+        { kind: 'p', text: 'That mix means Sheffield learners come at every stage: a seven-year-old in Walkley making a first animation, a Year 11 student in Gleadless preparing for GCSE Computer Science, a university student in Broomhill who wants Python for a dissertation, and an adult in Stocksbridge changing career. Each joins a group of fifteen to twenty at their own level.' }
       ]
     },
     {
@@ -188,7 +188,7 @@ module.exports = {
       { h3: 'No climb, no commute', p: 'A learner in Crookes and another in Handsworth can share a lesson without either facing a single hill or bus.' },
       { h3: 'English school stages', p: 'Reception, Key Stages 1 to 4, Year 9 options, GCSEs and A levels, named the way Sheffield schools name them, with every lesson in English.' },
       { h3: 'A free lesson with a plan', p: 'The first lesson teaches a real task and ends with a suggested level, course and weekly slot. Booking asks for no card.' },
-      { h3: 'Placed by level', p: 'Five to ten learners at one stage, from Sheffield, the rest of the UK and abroad, so every level can find a time that suits.' },
+      { h3: 'Placed by level', p: 'Fifteen to twenty learners at one stage, from Sheffield, the rest of the UK and abroad, so every level can find a time that suits.' },
       { h3: 'Fixed twice-weekly slots', p: 'Two lessons a week at the same times, about eight a month, with holiday and exam breaks agreed with the teacher in advance.' },
       { h3: 'Teachers on Indian time', p: 'Our teachers work in India Standard Time, which never changes: four and a half hours ahead of Sheffield in summer and five and a half in winter, so after-school and evening lessons fit their day.' }
     ],
@@ -199,7 +199,7 @@ module.exports = {
     h2: 'Sheffield lesson fees',
     intro: 'A free start and two simple monthly options.',
     first: 'A full lesson for nothing, ending with a level, a recommended course and a proposed weekly time.',
-    group: 'Roughly eight live lessons a month in a group of five to ten learners at one level.',
+    group: 'Roughly eight live lessons a month in a group of fifteen to twenty learners at one level.',
     private: 'Roughly eight live lessons a month in which the teacher works with your learner alone.',
     closer: 'Every family outside India pays one US dollar fee, so a household in Dore pays exactly what a household in Totley pays, and we publish no prices in pounds. Nothing is billed until the free lesson has agreed a course and a time; the pricing page covers pausing, missed lessons and moving between group and one-to-one teaching.'
   },
@@ -224,8 +224,8 @@ module.exports = {
       { q: 'What links Sheffield to the Nobel Prize?', a: 'The University of Sheffield counts six members of its staff who have won a Nobel Prize, and lists chemistry graduate Sir Harry Kroto, who shared the 1996 Nobel Prize in Chemistry, among its laureates. We are not connected with the University.' },
       { q: 'When are Sheffield lessons?', a: 'After school, in the evening or at weekends, set in UK time during the free lesson. Our teachers are four and a half hours ahead of Sheffield in summer and five and a half in winter.' },
       { q: 'Does Modern Age Coders have a centre in Sheffield?', a: 'No. There is no Sheffield centre and no UK premises; every lesson is live online. Learners need a computer with sound and a reliable connection, and our phone number is an Indian one.', boiler: true },
-      { q: 'How much do Sheffield lessons cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Course, format and time are agreed before any payment.', boiler: true },
-      { q: 'How do you group Sheffield learners?', a: 'By ability, pace and goals, not age or postcode, with five to ten learners at one level. Where no group meets at a suitable time, we propose one-to-one lessons.', boiler: true }
+      { q: 'How much do Sheffield lessons cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Course, format and time are agreed before any payment.', boiler: true },
+      { q: 'How do you group Sheffield learners?', a: 'By ability, pace and goals, not age or postcode, with fifteen to twenty learners at one level. Where no group meets at a suitable time, we propose one-to-one lessons.', boiler: true }
     ]
   },
 

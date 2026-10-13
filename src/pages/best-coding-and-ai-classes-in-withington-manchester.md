@@ -4,7 +4,7 @@ description: "Online coding, AI, Python and vibe coding lessons for Withington, 
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-withington-manchester
 source: src/pages/best-coding-and-ai-classes-in-withington-manchester.html
 ---
-> Withington ward in Manchester had 15,439 usual residents at the 2021 census. It lies in the M20 postcode district, whose ward list also includes Old Moat and Burnage. From age six up to 67, people here take coding, AI, Python, vibe coding and maths on live video calls with our India-based tutors, either privately or in a class of five to ten who share a level. We build the habit of questioning first, so a learner can ask how a chart was made before trusting what it shows. Lesson one is free and finishes with our view on which course suits. The Withington project maps Census population around the area twice, once in square cells and once in hexagons, then slides each grid about to see how much the picture changes. From then on a group place is USD 100 each month and private tuition USD 150.
+> Withington ward in Manchester had 15,439 usual residents at the 2021 census. It lies in the M20 postcode district, whose ward list also includes Old Moat and Burnage. From age six up to 67, people here take coding, AI, Python, vibe coding and maths on live video calls with our India-based tutors, either privately or in a class of fifteen to twenty who share a level. We build the habit of questioning first, so a learner can ask how a chart was made before trusting what it shows. Lesson one is free and finishes with our view on which course suits. The Withington project maps Census population around the area twice, once in square cells and once in hexagons, then slides each grid about to see how much the picture changes. From then on a group place is USD 100 each month and private tuition USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Manchester](/best-coding-class-in-manchester) / Withington
 
@@ -12,11 +12,11 @@ Withington, Manchester, England / Live online
 
 # Coding and AI classes in Withington
 
-**Where can Withington learners find the best coding and AI classes?** Withington ward in Manchester had 15,439 usual residents at the 2021 census. It lies in the M20 postcode district, whose ward list also includes Old Moat and Burnage. From age six up to 67, people here take coding, AI, Python, vibe coding and maths on live video calls with our India-based tutors, either privately or in a class of five to ten who share a level. We build the habit of questioning first, so a learner can ask how a chart was made before trusting what it shows. Lesson one is free and finishes with our view on which course suits. The Withington project maps Census population around the area twice, once in square cells and once in hexagons, then slides each grid about to see how much the picture changes. From then on a group place is USD 100 each month and private tuition USD 150.
+**Where can Withington learners find the best coding and AI classes?** Withington ward in Manchester had 15,439 usual residents at the 2021 census. It lies in the M20 postcode district, whose ward list also includes Old Moat and Burnage. From age six up to 67, people here take coding, AI, Python, vibe coding and maths on live video calls with our India-based tutors, either privately or in a class of fifteen to twenty who share a level. We build the habit of questioning first, so a learner can ask how a chart was made before trusting what it shows. Lesson one is free and finishes with our view on which course suits. The Withington project maps Census population around the area twice, once in square cells and once in hexagons, then slides each grid about to see how much the picture changes. From then on a group place is USD 100 each month and private tuition USD 150.
 
 Maps of data often sort points into cells and colour each cell by its total. For years the cells were squares; now many maps use hexagons. The usual explanation is that hexagons are fairer: every neighbour is the same distance away, and no part of a cell is far from its centre. That is true, and measurable. But a quieter question sits underneath: whichever shape you choose, the grid has to be placed somewhere, and nobody tells you where. This project measures both effects on real numbers, using the 2021 census counts for the small areas around Withington.
 
-Facts last verified 30 September 2026. Teaching is online; no Withington branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Withington branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Withington courses in questioning, Python and AI
 
@@ -132,7 +132,7 @@ Any computer with a camera will do, plus broadband that can carry a video call.
 - **Students build it** The learner writes and runs the code themselves, while the tutor follows on a shared screen and asks why each step is there.
 - **Trial lesson first** We use the free session to find the right starting point and note any exam board.
 - **Nothing to pay at first** The opening lesson is free and closes with a course suggestion.
-- **Classes of similar level** Five to ten learners who are at the same stage, from anywhere in Britain.
+- **Classes of similar level** Fifteen to twenty learners who are at the same stage, from anywhere in Britain.
 - **Twice a week** Stopping for school holidays.
 - **A slot that holds** Tutors move with UK clock changes so the lesson time stays the same for you.
 

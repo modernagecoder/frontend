@@ -161,7 +161,7 @@ module.exports = {
     intro: 'What to expect.',
     cells: [
       { h3: 'Teacher present', p: 'Lessons are taught in real time, with the teacher reviewing each learner\'s code and helping as it is written.' },
-      { h3: 'Matched groups', p: 'Five to ten learners at one level, whether from Glasnevin, elsewhere in Ireland or another country.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners at one level, whether from Glasnevin, elsewhere in Ireland or another country.' },
       { h3: 'Regular slots', p: 'Two agreed days every week, adding up to about eight lessons a month.' },
       { h3: 'Holidays covered', p: 'The school holidays, mid-term breaks and exam weeks are planned around.' },
       { h3: 'Set-up', p: 'A laptop or desktop, a working microphone, headphones or speakers, and broadband able to carry video.' },
@@ -174,7 +174,7 @@ module.exports = {
     h2: 'Fees for Glasnevin',
     intro: 'Straightforward.',
     first: 'An opening lesson free of charge, including a level check.',
-    group: 'A month in a same-level group of five to ten, roughly eight live lessons.',
+    group: 'A month in a same-level group of fifteen to twenty, roughly eight live lessons.',
     private: 'A month of one-to-one lessons at the same pace.',
     closer: 'Families outside India all pay the same fee in US dollars, one month at a time. The free lesson carries no obligation, charges begin only with the course, and the pricing page explains holidays, missed lessons and changing between group and private teaching.'
   },
@@ -198,8 +198,8 @@ module.exports = {
       { q: 'At what times are lessons held?', a: 'Weekdays from after school into the evening, and daytime at weekends. Lesson times are given in Irish time. Our teachers are in India, ahead of Glasnevin by four and a half hours in summer and by five and a half in winter, and we only offer hours that make sense on both sides.' },
       { q: 'Do you teach adults?', a: 'Yes, anyone up to sixty-seven, beginners included. After the free lesson an adult can pick a group at their level or one-to-one teaching.' },
       { q: 'Will my child be grouped with other Glasnevin children?', a: 'Only by chance, since groups are formed by level, so classmates can be from anywhere in Ireland or abroad.' },
-      { q: 'What do coding classes in Glasnevin cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before anything is paid.', boiler: true },
-      { q: 'How big is a group?', a: 'Five to ten learners, matched by level, pace and goals rather than by age or where they live. If no group runs at a workable time, lessons are one to one.', boiler: true }
+      { q: 'What do coding classes in Glasnevin cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before anything is paid.', boiler: true },
+      { q: 'How big is a group?', a: 'Fifteen to twenty learners, matched by level, pace and goals rather than by age or where they live. If no group runs at a workable time, lessons are one to one.', boiler: true }
     ]
   },
 

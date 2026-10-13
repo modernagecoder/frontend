@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and vibe coding lessons for Irvine,
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-irvine
 source: src/pages/online-coding-and-python-classes-in-irvine.html
 ---
-> North Ayrshire's largest locality by a wide margin is Irvine, with 34,130 people in the National Records of Scotland estimate for mid-2020. Girdle Toll, Bourtreehill, Fullarton and Dreghorn are among the suburbs on record in the KA11 and KA12 districts, with Perceton and Springside listed as villages. Coding, Python, AI, vibe coding and maths lessons come live from India-based tutors, for anyone six to 67, either solo or in a class of five to ten at a common stage. Reasoning comes first, so learners can see when a quick answer hides a wrong assumption. The first lesson costs nothing and ends with the course we would suggest. The Irvine project builds a 350.6 km walking network and draws the true 5, 10, 15 and 20 minute walks from the town centre, then compares them with the circles a simple calculation would draw. Staying on is USD 100 per month for group classes, or USD 150 per month for private teaching.
+> North Ayrshire's largest locality by a wide margin is Irvine, with 34,130 people in the National Records of Scotland estimate for mid-2020. Girdle Toll, Bourtreehill, Fullarton and Dreghorn are among the suburbs on record in the KA11 and KA12 districts, with Perceton and Springside listed as villages. Coding, Python, AI, vibe coding and maths lessons come live from India-based tutors, for anyone six to 67, either solo or in a class of fifteen to twenty at a common stage. Reasoning comes first, so learners can see when a quick answer hides a wrong assumption. The first lesson costs nothing and ends with the course we would suggest. The Irvine project builds a 350.6 km walking network and draws the true 5, 10, 15 and 20 minute walks from the town centre, then compares them with the circles a simple calculation would draw. Staying on is USD 100 per month for group classes, or USD 150 per month for private teaching.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Irvine
 
@@ -12,11 +12,11 @@ Irvine, North Ayrshire, Scotland / Live online
 
 # Online coding and Python classes in Irvine
 
-**Which are the best online coding and Python classes in Irvine?** North Ayrshire's largest locality by a wide margin is Irvine, with 34,130 people in the National Records of Scotland estimate for mid-2020. Girdle Toll, Bourtreehill, Fullarton and Dreghorn are among the suburbs on record in the KA11 and KA12 districts, with Perceton and Springside listed as villages. Coding, Python, AI, vibe coding and maths lessons come live from India-based tutors, for anyone six to 67, either solo or in a class of five to ten at a common stage. Reasoning comes first, so learners can see when a quick answer hides a wrong assumption. The first lesson costs nothing and ends with the course we would suggest. The Irvine project builds a 350.6 km walking network and draws the true 5, 10, 15 and 20 minute walks from the town centre, then compares them with the circles a simple calculation would draw. Staying on is USD 100 per month for group classes, or USD 150 per month for private teaching.
+**Which are the best online coding and Python classes in Irvine?** North Ayrshire's largest locality by a wide margin is Irvine, with 34,130 people in the National Records of Scotland estimate for mid-2020. Girdle Toll, Bourtreehill, Fullarton and Dreghorn are among the suburbs on record in the KA11 and KA12 districts, with Perceton and Springside listed as villages. Coding, Python, AI, vibe coding and maths lessons come live from India-based tutors, for anyone six to 67, either solo or in a class of fifteen to twenty at a common stage. Reasoning comes first, so learners can see when a quick answer hides a wrong assumption. The first lesson costs nothing and ends with the course we would suggest. The Irvine project builds a 350.6 km walking network and draws the true 5, 10, 15 and 20 minute walks from the town centre, then compares them with the circles a simple calculation would draw. Staying on is USD 100 per month for group classes, or USD 150 per month for private teaching.
 
 Ask how much of a town lies within a ten-minute walk and the quick answer is a circle: ten minutes at walking pace, about 800 metres, drawn around the starting point. Real walks follow streets and paths, cross rivers only at bridges and go round railways, so the true reachable area, called an isochrone, is smaller and oddly shaped. Planners use isochrones to judge access to shops, schools and stations, and apps draw them for travel times. This project builds one from scratch in Python, starting from the point OpenStreetMap uses to label Irvine and counting how many of the town's 10,769 mapped buildings each walk really reaches.
 
-Facts last verified 29 September 2026. Teaching is online; no Irvine branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Irvine branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Irvine courses in thinking, Python and AI
 
@@ -131,7 +131,7 @@ A computer, a camera and a connection able to carry video are all the equipment 
 - **Hands on the keys** The learner writes and runs everything while the tutor watches through screen share and asks what the result shows.
 - **Where to begin** The trial shows us, and if an SQA exam is coming we plan towards it.
 - **Nothing up front** We teach a full first session for free and then point to the right course.
-- **Grouped by ability** Each class has five to ten learners at one level, from across the country.
+- **Grouped by ability** Each class has fifteen to twenty learners at one level, from across the country.
 - **Twice weekly in term** We stop when the schools do.
 - **Constant time** Tutors adjust for UK clock changes so your slot does not shift.
 

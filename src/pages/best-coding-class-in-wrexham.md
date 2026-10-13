@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Wrexham learn
 canonical: https://learn.modernagecoders.com/best-coding-class-in-wrexham
 source: src/pages/best-coding-class-in-wrexham.html
 ---
-> Wrexham county borough had 135,117 usual residents at the 2021 census, and the Caia Park area had 4,890.9 people per square kilometre. Wrexham appears among the Welsh cities on the UK government's List of Cities, last updated on 29 August 2022. Wrexham learners aged six to sixty-seven study with our teachers in India over live video, in one-to-one lessons or in classes of five to ten at one level, at times set around the Welsh school day and working week. We charge nothing for the first lesson; afterwards a group place is USD 100 a month and a private teacher USD 150 a month.
+> Wrexham county borough had 135,117 usual residents at the 2021 census, and the Caia Park area had 4,890.9 people per square kilometre. Wrexham appears among the Welsh cities on the UK government's List of Cities, last updated on 29 August 2022. Wrexham learners aged six to sixty-seven study with our teachers in India over live video, in one-to-one lessons or in classes of fifteen to twenty at one level, at times set around the Welsh school day and working week. We charge nothing for the first lesson; afterwards a group place is USD 100 a month and a private teacher USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Wrexham
 
@@ -12,11 +12,11 @@ Wrexham, North Wales / Live online
 
 # Coding classes in Wrexham
 
-**What are the best coding classes in Wrexham?** Wrexham county borough had 135,117 usual residents at the 2021 census, and the Caia Park area had 4,890.9 people per square kilometre. Wrexham appears among the Welsh cities on the UK government's List of Cities, last updated on 29 August 2022. Wrexham learners aged six to sixty-seven study with our teachers in India over live video, in one-to-one lessons or in classes of five to ten at one level, at times set around the Welsh school day and working week. We charge nothing for the first lesson; afterwards a group place is USD 100 a month and a private teacher USD 150 a month.
+**What are the best coding classes in Wrexham?** Wrexham county borough had 135,117 usual residents at the 2021 census, and the Caia Park area had 4,890.9 people per square kilometre. Wrexham appears among the Welsh cities on the UK government's List of Cities, last updated on 29 August 2022. Wrexham learners aged six to sixty-seven study with our teachers in India over live video, in one-to-one lessons or in classes of fifteen to twenty at one level, at times set around the Welsh school day and working week. We charge nothing for the first lesson; afterwards a group place is USD 100 a month and a private teacher USD 150 a month.
 
 A monitoring station called Wrexham, run by the Welsh Air Quality Network less than a kilometre from the city centre, has published hourly nitrogen dioxide readings since at least 2005. Its yearly average fell from 20.2 micrograms per cubic metre over the first five years to 14.0 over the last five. But did it fall every year? No: in 9 of the 20 steps from one year to the next it rose. Our Wrexham project uses isotonic regression, which finds the closest curve that never goes up, to separate the long fall from the year-to-year wobble. That curve explains 88.4% of the variation, a straight line only 68.2%, and it shows the fall levelling off after 2020.
 
-Facts last verified 23 September 2026. Teaching is online; no Wrexham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Wrexham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the city of St Giles
 
@@ -175,7 +175,7 @@ Wrexham's learners live across the city and the villages around it. Online, ever
 - **City and villages** A learner in Rhostyllen and another in Acton can share a class without either of them crossing town.
 - **Set to the Welsh system** Placement follows the Welsh school year a learner is in and the Curriculum for Wales, with WJEC names for GCSE and A level courses; the teaching language is English.
 - **A useful first session** Nobody sits through a sales talk: the free lesson is a real coding task, after which the teacher recommends where to start, which course suits and a regular weekly slot. No card is requested.
-- **Classes by level** Five to ten learners at one stage, from Wrexham, the rest of the UK and abroad, keeping sensible times open at every level.
+- **Classes by level** Fifteen to twenty learners at one stage, from Wrexham, the rest of the UK and abroad, keeping sensible times open at every level.
 - **Two lessons a week** A steady pattern of two lessons each week, roughly eight in a month; holidays and exam periods are worked around by agreement with the teacher.
 - **Evenings for our teachers** Our teachers are in India, which keeps a single time zone all year, so a 5 pm Wrexham lesson falls at half past nine their time in summer and half past ten in winter.
 
@@ -186,7 +186,7 @@ Wrexham's learners live across the city and the villages around it. Online, ever
 The first lesson costs nothing, then there is a single monthly fee.
 
 - First class: USD 0. One whole lesson at no cost, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. Around eight live lessons a month in a class of five to ten learners at the same level.
+- Group tuition: USD 100 a month. Around eight live lessons a month in a class of fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. Around eight live lessons a month, with a teacher focused on your learner only.
 
 Stansty and Garden Village families are invoiced in US dollars, the same as every family living outside India, and no price on our site is shown in pounds. We bill nothing before the free lesson is over and a course and weekly time have been chosen with us; the pricing page sets out pauses, missed lessons and moving between group and one-to-one teaching.
@@ -227,11 +227,11 @@ No. We have no Wrexham centre and no premises anywhere in the UK, because every 
 
 ### How much are Wrexham lessons?
 
-The first lesson is free. After it, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After it, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are learners grouped?
 
-By level, pace and goals rather than by age or address, with five to ten learners at the same stage. When no group fits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than by age or address, with fifteen to twenty learners at the same stage. When no group fits the learner's week, we offer one-to-one lessons.
 
 ## Wales and beyond
 

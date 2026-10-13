@@ -354,13 +354,13 @@ One published fee per tier, the same whichever activity a student is aiming at. 
 
 ### Group class
 
-Batches of 5–8. Good for building the fundamentals.
+Batches of 15–20. Good for building the fundamentals.
 
 ₹1,499per month
 
 ### Mini batch
 
-3–4 students. More airtime per student.
+up to 6 students. More airtime per student.
 
 ₹2,999per month
 

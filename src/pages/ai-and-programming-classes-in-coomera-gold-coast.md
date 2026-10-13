@@ -16,7 +16,7 @@ Coomera, City of Gold Coast, Queensland / Live online
 
 Coomera is a changing part of the northern Gold Coast, home to young families, a train station and some roads that now carry many more cars than a few years ago. The City of Gold Coast surveys its streets repeatedly and publishes every count. A list of counts taken over nine years is exactly the kind of data where a careless test fools an AI builder.
 
-Facts last verified 13 October 2026. Teaching is online; no Coomera branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Coomera branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Machine learning, data and Python
 
@@ -187,7 +187,7 @@ Lessons are live online, which suits busy northern Gold Coast family schedules.
 All learners pay the same fees.
 
 - First class: USD 0. The first class is free, followed by a plan.
-- Group tuition: USD 100 a month. Group: roughly eight classes monthly, five to ten learners.
+- Group tuition: USD 100 a month. Group: roughly eight classes monthly, fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private: roughly eight classes monthly with one teacher.
 
 Fees are charged in US dollars, starting only after the trial has fixed a course and weekly time. The pricing page explains holidays and missed classes.
@@ -224,11 +224,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Coomera classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How do groups work?
 
-Five to ten learners at one level and pace, not grouped by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at one level and pace, not grouped by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Can adults learn AI here?
 

@@ -194,7 +194,7 @@ module.exports = {
         ] },
         { kind: 'two', mt: true,
           left: [
-            'Lessons are live on video, so a child in Strood, Gillingham, Hoo or Walderslade is taught the same way, in groups of five to ten matched by level.',
+            'Lessons are live on video, so a child in Strood, Gillingham, Hoo or Walderslade is taught the same way, in groups of fifteen to twenty matched by level.',
             'For coding in the area, see our <a class="ag-inline-link" href="/coding-classes-in-united-kingdom">UK page</a>, which lists every city and county we cover.'
           ],
           right: [
@@ -266,7 +266,7 @@ module.exports = {
     cells: [
       { h3: 'One teacher', p: 'The same teacher each week.' },
       { h3: 'Frank updates', p: 'Short, honest notes for parents.' },
-      { h3: 'Five to ten children', p: 'Grouped by level.' },
+      { h3: 'Fifteen to twenty children', p: 'Grouped by level.' },
       { h3: 'Nothing unofficial', p: 'Our own questions only; no copied GL or council material.' },
       { h3: 'One to one', p: 'For method gaps or pacing.' },
       { h3: 'Maths only', p: 'No English or reasoning coaching; no admissions advice.' }
@@ -281,7 +281,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A single monthly US dollar fee for every family outside India. No sign-up charge; stop whenever you like.',
     free: ['A real lesson', 'An honest view', 'No card needed'],
-    group: ['Five to ten children at one level', 'A regular teacher', 'Methods checked in class', 'A certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'A regular teacher', 'Methods checked in class', 'A certificate at the end'],
     one: ['A teacher for one child', 'Focused on methods and pace', 'Flexible timing']
   },
 

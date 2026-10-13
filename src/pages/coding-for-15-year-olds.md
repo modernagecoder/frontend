@@ -14,7 +14,7 @@ Class 10 is the board year. The right coding programme at 15 respects that, fewe
 
 [Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**5 to 10**Students in a group batch**1 hour**Per live class, 1:1 or group**6 projects**Finished across the year15Age cohortBoard-safePortfolio-gradeDSA basicsIn short
 
-Coding classes for 15 year olds at Modern Age Coders are live, one hour per class, in a batch of 5 to 10 teens or 1-on-1, and the plan is written around the Class 10 board year: lighter in the pre-board months, paused for the boards if you want, and back to full pace afterwards. AI sessions for 15 year olds use real data and a teacher in the room, full stack work produces a deployed site, and DSA prepares the teen for Class 11 and for competitive programming. See [coding for Class 10](/coding-for-class-10) for the exam-year version of this plan.
+Coding classes for 15 year olds at Modern Age Coders are live, one hour per class, in a batch of 15 to 20 teens or 1-on-1, and the plan is written around the Class 10 board year: lighter in the pre-board months, paused for the boards if you want, and back to full pace afterwards. AI sessions for 15 year olds use real data and a teacher in the room, full stack work produces a deployed site, and DSA prepares the teen for Class 11 and for competitive programming. See [coding for Class 10](/coding-for-class-10) for the exam-year version of this plan.
 
 Courses matched for this level
 

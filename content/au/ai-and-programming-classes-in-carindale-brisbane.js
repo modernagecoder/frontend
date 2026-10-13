@@ -281,7 +281,7 @@ module.exports = {
       { h3: 'Teacher on screen', p: 'Explanations, questions and code review happen live in every lesson.' },
       { h3: 'Term-time schedule', p: 'Weekly lessons pause for Queensland school holidays.' },
       { h3: 'Free opening session', p: 'One full lesson at no charge, followed by a written suggestion.' },
-      { h3: 'Who learns together', p: 'Groups of five to ten at one level, or a private teacher.' },
+      { h3: 'Who learns together', p: 'Groups of fifteen to twenty at one level, or a private teacher.' },
       { h3: 'Twice a week', p: 'About eight lessons a month.' },
       { h3: 'Brisbane and India', p: 'A 6pm Carindale class is 1:30pm for our teachers in India.' }
     ],
@@ -294,7 +294,7 @@ module.exports = {
     h2: 'Carindale class fees',
     intro: 'Fees are the same for every learner.',
     first: 'There is no charge for the opening lesson, which ends with a plan.',
-    group: 'Group option: around eight lessons a month with five to ten classmates.',
+    group: 'Group option: around eight lessons a month with fifteen to twenty classmates.',
     private: 'Private option: around eight lessons a month, one to one.',
     closer: 'Carindale families pay in US dollars, and only once the trial has fixed the course and lesson times. Holidays and missed lessons are covered on the pricing page.'
   },
@@ -336,12 +336,12 @@ module.exports = {
       },
       {
         q: 'What do Carindale classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'How many bus routes stop in Carindale?', a: 'The Translink timetable shows 23 routes calling inside the suburb on Wednesday 21 October 2026.' }

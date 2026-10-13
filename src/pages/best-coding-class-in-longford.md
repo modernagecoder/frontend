@@ -16,7 +16,7 @@ Longford town, County Longford / Live online
 
 Suppose you wanted to ask every household in Longford town a question, and chose an online form because it is quick and cheap. Before a single reply arrives, the census can tell you who that form will never hear from. In 2022, 430 of the town's households said they had no internet at all. Ask the online form "does your home have internet?" and every answer will be yes: one hundred percent, against a true figure nearer 88. That is the extreme case of a problem every survey has, called coverage: the method decides who can answer. This page plans a survey of Longford, counts who each method can reach, and separates that problem from a second one Longford also shows clearly, people who are reached but leave a question blank.
 
-Facts last verified 19 September 2026. Teaching is online; no Longford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Longford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Longford town learners start
 
@@ -178,7 +178,7 @@ Details.
 Every price.
 
 - First class: USD 0. A full first lesson with the level assessed, at no charge.
-- Group tuition: USD 100 a month. A month in a group of five to ten at the same level, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at the same level, about eight live lessons.
 - Private tuition: USD 150 a month. A month of private lessons on the same weekly pattern.
 
 Every family outside India is charged the same monthly amount in US dollars. There is nothing to pay for the free first lesson, charges begin with the course, and the pricing page describes holidays, missed lessons and changing between group and private lessons.
@@ -219,7 +219,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Longford town cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

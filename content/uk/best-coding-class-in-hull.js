@@ -70,7 +70,7 @@ module.exports = {
 
   h1: 'Coding classes in Hull',
   capsuleQ: 'What are the best coding classes in Hull?',
-  capsule: 'Census 2021 counted 267,014 usual residents in Kingston upon Hull, where children aged five to nine made up 6.5% of the population against 5.9% in England. Hull has run its own telephone network since its first exchange opened in 1904, which is why its phone boxes are cream. We teach Hull learners aged six to sixty-seven in live online lessons, in a level-matched group of five to ten or one to one, with teachers based in India and times set in UK hours. There is no charge for the first lesson; after it, a group place is USD 100 a month and one-to-one teaching USD 150 a month.',
+  capsule: 'Census 2021 counted 267,014 usual residents in Kingston upon Hull, where children aged five to nine made up 6.5% of the population against 5.9% in England. Hull has run its own telephone network since its first exchange opened in 1904, which is why its phone boxes are cream. We teach Hull learners aged six to sixty-seven in live online lessons, in a level-matched group of fifteen to twenty or one to one, with teachers based in India and times set in UK hours. There is no charge for the first lesson; after it, a group place is USD 100 a month and one-to-one teaching USD 150 a month.',
   lead: 'At 07:00 GMT on 13 September 2026 the Environment Agency gauge at the Hull Barrier read 4.235 metres above Ordnance Datum, the highest tide in four weeks of readings. Ordnance Survey\'s 50-metre height grid puts 86.9% of Hull\'s land at or below that level. Does that mean the tide could cover most of Hull? No, because the grid knows heights and nothing else. A flood fill starting in the Humber can move into any low cell next to one already reached, and it reports almost all of that land as connected. The embankments, dock walls and tidal barrier that actually hold the water back are narrower than one cell, so the model never sees them. Our teenagers write the fill, then learn to say exactly what it proves and what it cannot.',
   wa: 'Hello Modern Age Coders, I would like to book a free coding lesson for a learner in Hull.',
 
@@ -107,7 +107,7 @@ module.exports = {
           { h3: 'Young adults too', p: 'People aged 25 to 29 were 7.6% of residents against 6.6% nationally, and 54,703 of the 251,060 residents aged five and over were in study.' },
           { h3: 'Close-packed', p: 'At 3,730.1 residents per square kilometre, Hull is a compact city, with its boundary drawn tightly around the built-up area.' }
         ] },
-        { kind: 'p', text: 'That mix shows up in our classes. A Year 3 child in Bransholme might be solving a first maze with code blocks, a Year 10 student in the Avenues preparing for GCSE Computer Science, and an adult near Hessle Road learning Python for a new job, each in a group of five to ten learners at a matching level.' }
+        { kind: 'p', text: 'That mix shows up in our classes. A Year 3 child in Bransholme might be solving a first maze with code blocks, a Year 10 student in the Avenues preparing for GCSE Computer Science, and an adult near Hessle Road learning Python for a new job, each in a group of fifteen to twenty learners at a matching level.' }
       ]
     },
     {
@@ -198,7 +198,7 @@ module.exports = {
       { h3: 'East and west of the river', p: 'A learner off Holderness Road and another near Anlaby Road can share a lesson without either crossing the River Hull.' },
       { h3: 'English school stages', p: 'Reception, Key Stages 1 to 4, GCSEs and A levels, called what Hull schools call them, with all teaching in English.' },
       { h3: 'A proper first lesson', p: 'The free session covers a real task, then recommends a level, a course and a weekly time. We take no card details to book it.' },
-      { h3: 'Classmates who match', p: 'Groups of five to ten learners at one level, from Hull, elsewhere in the UK and overseas, so every stage can find a workable hour.' },
+      { h3: 'Classmates who match', p: 'Groups of fifteen to twenty learners at one level, from Hull, elsewhere in the UK and overseas, so every stage can find a workable hour.' },
       { h3: 'Twice a week, every week', p: 'Two fixed weekly lessons, about eight a month, with school holidays and exams arranged with the teacher in good time.' },
       { h3: 'India\'s clock stands still', p: 'India never changes its clocks, so it runs four and a half hours ahead of Hull in British Summer Time and five and a half in winter, keeping UK after-school and evening lessons inside the teaching day.' }
     ],
@@ -209,7 +209,7 @@ module.exports = {
     h2: 'Hull lesson fees',
     intro: 'A free lesson to begin, then one monthly fee.',
     first: 'A complete lesson without charge, ending with a recommended level, course and weekly time.',
-    group: 'About eight live lessons a month in a group of five to ten learners working at one level.',
+    group: 'About eight live lessons a month in a group of fifteen to twenty learners working at one level.',
     private: 'About eight live lessons a month, with the teacher working with your learner only.',
     closer: 'All families outside India pay the same US dollar fee, whether in Kingswood or the Old Town, and we show no prices in pounds. Nothing is charged until the free lesson has agreed a course and a slot; the pricing page covers pausing, missed lessons and switching between group and private teaching.'
   },
@@ -234,8 +234,8 @@ module.exports = {
       { q: 'Why are Hull\'s phone boxes cream?', a: 'KCOM says Hull has run its own telephone network since the council opened its first exchange in 1904, and its kiosks were painted cream and made without crowns. We are not connected with KCOM.' },
       { q: 'When are Hull lessons held?', a: 'Weekday afternoons and evenings or weekends, at a UK time agreed during the free lesson. India is four and a half hours ahead of Hull in summer and five and a half hours ahead in winter.' },
       { q: 'Is there a Modern Age Coders centre in Hull?', a: 'No. There is no Hull centre and we have no premises anywhere in the UK, because every lesson is taught live online. Learners need a computer with sound and a dependable connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do Hull lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
-      { q: 'How are Hull groups organised?', a: 'By level, pace and aims rather than age or postcode, with five to ten learners at one stage in each group. If no group meets at a suitable time, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do Hull lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
+      { q: 'How are Hull groups organised?', a: 'By level, pace and aims rather than age or postcode, with fifteen to twenty learners at one stage in each group. If no group meets at a suitable time, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

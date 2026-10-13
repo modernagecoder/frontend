@@ -16,7 +16,7 @@ Melbourne, Victoria, Australia / Live online
 
 Ask a Melbourne eight-year-old which playground is closest to the State Library and you will get a confident answer and an argument. We settled it with data. OpenStreetMap lists 234 playgrounds in a rectangle we drew around the inner city, and a child can find the nearest one with a single idea: keep a note of the smallest distance seen so far, and cross it out only when a smaller one turns up. That one variable is the heart of countless programs. Our young Melbourne coders run it in Scratch, then in Python, and then discover two things: in a list of 234 playgrounds the record only changed six times, and starting the record at the wrong number gives a confident wrong answer.
 
-Facts last verified 7 October 2026. Teaching is online; no Melbourne branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Melbourne branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where a Melbourne child usually starts
 
@@ -177,7 +177,7 @@ Greater Melbourne is wide, and after-school traffic is no one's favourite activi
 - **At the kitchen table** A laptop or desktop, a working microphone and a parent nearby for the first session is all a young learner needs.
 - **School words, not new jargon** Teachers use the year names Melbourne children hear at school, from Prep to Year 8, so nothing feels foreign.
 - **A real first lesson** Your child builds something small but complete, then you get a suggested level, course and weekly time. No card details are asked for.
-- **Small, matched groups** Five to ten children working at the same stage, so no one is left behind or held back. One to one is available instead.
+- **Small, matched groups** Fifteen to twenty children working at the same stage, so no one is left behind or held back. One to one is available instead.
 - **Twice a week as standard** Around eight lessons a month in a fixed slot, which suits most children better than one long weekend session.
 - **Teachers working on India time** Melbourne is four and a half hours ahead of India time in winter and five and a half hours ahead during daylight saving, so a 4pm Melbourne lesson sits in our teachers' late morning or early afternoon.
 
@@ -188,7 +188,7 @@ Greater Melbourne is wide, and after-school traffic is no one's favourite activi
 Three clear prices, nothing hidden underneath.
 
 - First class: USD 0. One full lesson with no charge, ending with a level, a course suggestion and a weekly time.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, alongside five to ten children at the same level.
+- Group tuition: USD 100 a month. A month of lessons, usually eight, alongside fifteen to twenty children at the same level.
 - Private tuition: USD 150 a month. The same monthly rhythm of about eight lessons, with your child as the only learner.
 
 Families outside India pay in US dollars at one rate, so a child in the inner north and a child on the Mornington Peninsula pay the same. Nothing is invoiced until after the free lesson, once the course and time suit you; the pricing page explains holidays, missed lessons and switching between group and private.
@@ -229,11 +229,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do coding classes for Melbourne kids cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Melbourne families
 

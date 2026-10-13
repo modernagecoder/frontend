@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across Flevoland, ages 6
 canonical: https://learn.modernagecoders.com/coding-classes-in-flevoland
 source: src/pages/coding-classes-in-flevoland.html
 ---
-> Coding classes in Flevoland reach 462,816 people in six municipalities (Statistics Netherlands, 1 January 2026) on land that was drained between 1942 and 1968 and became a province on 1 January 1986. Half of them live in Almere, a city that delivered its first homes in November 1976, and whose growth is 63 percent, 123 percent, 477 percent or over three thousand percent depending on whether the count starts in 2000, 1995, 1986 or 1980, and is not a number at all if it starts before the first house. Modern Age Coders teaches one live online class in English across all six, for ages 6 to 67; nothing is charged for the first lesson, and the monthly fee after it is USD 100 in a group of five to ten or USD 150 one-to-one.
+> Coding classes in Flevoland reach 462,816 people in six municipalities (Statistics Netherlands, 1 January 2026) on land that was drained between 1942 and 1968 and became a province on 1 January 1986. Half of them live in Almere, a city that delivered its first homes in November 1976, and whose growth is 63 percent, 123 percent, 477 percent or over three thousand percent depending on whether the count starts in 2000, 1995, 1986 or 1980, and is not a number at all if it starts before the first house. Modern Age Coders teaches one live online class in English across all six, for ages 6 to 67; nothing is charged for the first lesson, and the monthly fee after it is USD 100 in a group of fifteen to twenty or USD 150 one-to-one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Flevoland
 
@@ -12,11 +12,11 @@ Province of Flevoland / Live online
 
 # Coding classes in Flevoland, where the growth rate is whatever year you choose to start from
 
-**What are the best coding classes in Flevoland?** Coding classes in Flevoland reach 462,816 people in six municipalities (Statistics Netherlands, 1 January 2026) on land that was drained between 1942 and 1968 and became a province on 1 January 1986. Half of them live in Almere, a city that delivered its first homes in November 1976, and whose growth is 63 percent, 123 percent, 477 percent or over three thousand percent depending on whether the count starts in 2000, 1995, 1986 or 1980, and is not a number at all if it starts before the first house. Modern Age Coders teaches one live online class in English across all six, for ages 6 to 67; nothing is charged for the first lesson, and the monthly fee after it is USD 100 in a group of five to ten or USD 150 one-to-one.
+**What are the best coding classes in Flevoland?** Coding classes in Flevoland reach 462,816 people in six municipalities (Statistics Netherlands, 1 January 2026) on land that was drained between 1942 and 1968 and became a province on 1 January 1986. Half of them live in Almere, a city that delivered its first homes in November 1976, and whose growth is 63 percent, 123 percent, 477 percent or over three thousand percent depending on whether the count starts in 2000, 1995, 1986 or 1980, and is not a number at all if it starts before the first house. Modern Age Coders teaches one live online class in English across all six, for ages 6 to 67; nothing is charged for the first lesson, and the monthly fee after it is USD 100 in a group of fifteen to twenty or USD 150 one-to-one.
 
 Every article about Almere calls it the fastest-growing city in the country, and every one of them is choosing a starting year without saying so. Start in 2000 and the city has grown by 63 percent; start in 1986 and it is 477 percent; start in 1975 and the sum divides by zero, because nobody lived there. A child who has written the program that prints all four beside each other has learned that a growth rate is not a fact about a place but a fact about a place and a date, and that the date is the part people leave out.
 
-Facts last verified 7 September 2026. Teaching is online; no Flevoland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Flevoland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a province younger than most of its parents
 
@@ -197,7 +197,7 @@ Emmeloord to Almere is an hour on straight roads with nothing to look at, and Ur
 Stated here before anything of yours is asked for.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 Outside India the price is one dollar figure, never a euro one, and Urk is charged what Almere is charged. Payment comes only after the free lesson has settled the course and the hour, and it comes over WhatsApp; pausing, changing plan and missing lessons are explained on the pricing page.
@@ -238,7 +238,7 @@ No, and none is claimed in Almere, in Lelystad or anywhere in the Netherlands. L
 
 ### What do Flevoland coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Flevoland group?
 

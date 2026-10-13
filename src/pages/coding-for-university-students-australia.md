@@ -217,7 +217,7 @@ Our teachers are in India, where the day overlaps Australian afternoons and even
 - **Semester break** Foundations before the next unit.
 
 - **Free first class** A short concept check against the unit's public outline.
-- **Small groups** Five to ten students, often from different universities.
+- **Small groups** Fifteen to twenty students, often from different universities.
 - **One to one** For one unit, one language or a repeat attempt.
 - **A week ahead** Concepts taught before the lecture covers them.
 - **Our own problems** Practice written by us, never taken from the unit.
@@ -228,7 +228,7 @@ Our teachers are in India, where the day overlaps Australian afternoons and even
 University students in Australia pay one monthly fee in US dollars. There is no joining charge, and lessons can end with any month.
 
 - Free first class: USD 0. A concept check against your unit. An honest plan for the semester. No card required.
-- Group batch: USD 100 a month. Five to ten students per group. Practice problems written by us. One teacher all semester. Leave at any month's end.
+- Group batch: USD 100 a month. Fifteen to twenty students per group. Practice problems written by us. One teacher all semester. Leave at any month's end.
 - One to one: USD 150 a month. Built around one unit and language. Pace matched to the semester. Evening and weekend times.
 
 ## Questions about coding support for university students

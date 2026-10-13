@@ -183,7 +183,7 @@ module.exports = {
       { h3: 'Kept in WA time', p: 'Every slot is set in Western Australian time, which never changes during the year.' },
       { h3: 'WA year levels', p: 'Teachers work to WA year levels, ATAR students included, and teach entirely in English.' },
       { h3: 'Learn first, decide later', p: 'The trial is a genuine programming lesson. Afterwards we suggest a course and time, and payment details are never taken.' },
-      { h3: 'Five to ten learners', p: 'Each group shares one level, with learners from different places so every stage has a sensible hour.' },
+      { h3: 'Fifteen to twenty learners', p: 'Each group shares one level, with learners from different places so every stage has a sensible hour.' },
       { h3: 'Twice weekly sessions', p: 'About eight a month, with holiday and exam breaks agreed early.' },
       { h3: 'Adults and retirees too', p: 'Daytime and evening groups suit adults at any stage of working life, as do one-to-one lessons.' }
     ],
@@ -194,7 +194,7 @@ module.exports = {
     h2: 'Cost of AI and programming classes in Mandurah',
     intro: 'Here is everything you pay for.',
     first: 'One free lesson, with a recommended level, course and time at the end.',
-    group: 'Close to eight group lessons each month, with five to ten learners at one level.',
+    group: 'Close to eight group lessons each month, with fifteen to twenty learners at one level.',
     private: 'Close to eight private lessons each month with the same teacher.',
     closer: 'Mandurah pays the national US dollar rate, with nothing added or removed for location. No payment is due until the trial fixes a course and slot, and the pricing page sets out holidays, missed lessons and changes of format.'
   },
@@ -219,7 +219,7 @@ module.exports = {
       { q: 'What lesson times work in Mandurah?', a: 'After school, evenings, weekends and some daytime slots for adults, agreed in the trial and written in Western Australian time. India time is two and a half hours behind Mandurah year round.' },
       { q: 'Are younger children catered for?', a: 'Yes, from age 6 with visual coding, although the road data project is designed for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders office in Mandurah?', a: 'No, and we do not claim one. Teaching is live and online only, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a steady connection, and the contact number on this page is an Indian number.', boiler: true },
-      { q: 'What do AI and programming classes in Mandurah cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
+      { q: 'What do AI and programming classes in Mandurah cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
       { q: 'How large are the groups?', a: 'Between five and ten learners, matched on level, pace and goals rather than on age or postcode. When no group fits a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },

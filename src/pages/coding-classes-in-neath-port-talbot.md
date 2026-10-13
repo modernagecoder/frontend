@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Neath Port Tal
 canonical: https://learn.modernagecoders.com/coding-classes-in-neath-port-talbot
 source: src/pages/coding-classes-in-neath-port-talbot.html
 ---
-> Neath Port Talbot counted 142,289 residents in the 2021 census. Neath, at 40,730, and Port Talbot, at 31,555, are its two big towns, with Baglan above 10,000 and a string of valley places such as Pontardawe, Cwmavon, Glyn-neath and Resolven. Our teachers work from India and meet every learner on a live video call. Children from 6, teenagers and adults up to 67 study coding, Python or maths, either in a level-matched class of five to ten or alone with a tutor. It begins with one free lesson that fixes the right starting course. The local project climbs down a colliery shaft at Crynant. Carrying on costs USD 100 per month in a class, or USD 150 per month for private tuition.
+> Neath Port Talbot counted 142,289 residents in the 2021 census. Neath, at 40,730, and Port Talbot, at 31,555, are its two big towns, with Baglan above 10,000 and a string of valley places such as Pontardawe, Cwmavon, Glyn-neath and Resolven. Our teachers work from India and meet every learner on a live video call. Children from 6, teenagers and adults up to 67 study coding, Python or maths, either in a level-matched class of fifteen to twenty or alone with a tutor. It begins with one free lesson that fixes the right starting course. The local project climbs down a colliery shaft at Crynant. Carrying on costs USD 100 per month in a class, or USD 150 per month for private tuition.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Neath Port Talbot
 
@@ -12,11 +12,11 @@ Neath Port Talbot / Live online
 
 # Coding classes in Neath Port Talbot
 
-**What are the best coding classes in Neath Port Talbot?** Neath Port Talbot counted 142,289 residents in the 2021 census. Neath, at 40,730, and Port Talbot, at 31,555, are its two big towns, with Baglan above 10,000 and a string of valley places such as Pontardawe, Cwmavon, Glyn-neath and Resolven. Our teachers work from India and meet every learner on a live video call. Children from 6, teenagers and adults up to 67 study coding, Python or maths, either in a level-matched class of five to ten or alone with a tutor. It begins with one free lesson that fixes the right starting course. The local project climbs down a colliery shaft at Crynant. Carrying on costs USD 100 per month in a class, or USD 150 per month for private tuition.
+**What are the best coding classes in Neath Port Talbot?** Neath Port Talbot counted 142,289 residents in the 2021 census. Neath, at 40,730, and Port Talbot, at 31,555, are its two big towns, with Baglan above 10,000 and a string of valley places such as Pontardawe, Cwmavon, Glyn-neath and Resolven. Our teachers work from India and meet every learner on a live video call. Children from 6, teenagers and adults up to 67 study coding, Python or maths, either in a level-matched class of fifteen to twenty or alone with a tutor. It begins with one free lesson that fixes the right starting course. The local project climbs down a colliery shaft at Crynant. Carrying on costs USD 100 per month in a class, or USD 150 per month for private tuition.
 
 Cefn Coed Colliery was sunk in 1926 and 1927 with two shafts, both deeper than 732 metres, and Cadw records that it was then the deepest anthracite mine in the world. Its two steel lattice headframes, about 18 metres high, still stand at Crynant and are listed at Grade II*. The record explains something clever about the No. 1 frame: it sat over the upcast shaft, and its tower was boxed in with steel plates so that fresh air would be drawn down the other shaft instead. Hundreds of men needed that air. Warm air rises, so a deep shaft full of warmer air acts like a chimney and pulls cooler air through the workings on its own. How strong is that pull, and why did the colliery still need a fan house? The gas law answers both, in a few lines of Python.
 
-Facts last verified 26 September 2026. Teaching is online; no Neath Port Talbot branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Neath Port Talbot branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Neath Port Talbot learners begin
 
@@ -137,7 +137,7 @@ Anywhere in the county borough with a connection can join.
 - **Hands on the keyboard** The learner does the typing; the teacher reads along on the shared screen and gives hints rather than answers.
 - **Placed the Welsh way** A Pontardawe Year 6 or a Neath Year 13 is placed by Welsh school year and progression step, and exams go by their WJEC names. We teach in English.
 - **Trial before fees** The opening lesson is free and ends with an honest course suggestion.
-- **Classes by level** Groups of five to ten who share a level, drawn from across the UK.
+- **Classes by level** Groups of fifteen to twenty who share a level, drawn from across the UK.
 - **During term** Usually two lessons weekly; school holidays stay free.
 - **Clock changes handled** We move with British Summer Time so your lesson hour on the kitchen clock never shifts.
 
@@ -148,7 +148,7 @@ Anywhere in the county borough with a connection can join.
 Port Talbot and Pontardawe pay the same fee, as do families in every country we teach outside India.
 
 - First class: USD 0. One full trial lesson, free, then our advice.
-- Group tuition: USD 100 a month. Roughly eight classes each month with five to ten learners.
+- Group tuition: USD 100 a month. Roughly eight classes each month with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Roughly eight classes each month with a tutor of your own.
 
 Fees are in US dollars and nothing else; we give no sterling price. You are charged only once the trial has agreed a course and a regular slot, and our pricing page explains holidays, missed classes and moving between group and private.

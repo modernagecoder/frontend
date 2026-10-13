@@ -1,10 +1,10 @@
 ---
 title: "IOQM, RMO and INMO Preparation Online: India's Olympiad Pathway"
-description: "Live online IOQM, RMO and INMO prep: RMO on 15 Nov 2026, INMO on 17 Jan 2027, proof writing for six-question papers, individual entry, batches of 5 to 10."
+description: "Live online IOQM, RMO and INMO prep: RMO on 15 Nov 2026, INMO on 17 Jan 2027, proof writing for six-question papers, individual entry, batches of 15 to 20."
 canonical: https://learn.modernagecoders.com/ioqm-rmo-inmo-preparation
 source: src/pages/ioqm-rmo-inmo-preparation.html
 ---
-> Live online IOQM, RMO and INMO prep: RMO on 15 Nov 2026, INMO on 17 Jan 2027, proof writing for six-question papers, individual entry, batches of 5 to 10.
+> Live online IOQM, RMO and INMO prep: RMO on 15 Nov 2026, INMO on 17 Jan 2027, proof writing for six-question papers, individual entry, batches of 15 to 20.
 
 Start here
 
@@ -16,7 +16,7 @@ The pathway tests number theory, geometry, algebra and combinatorics with proofs
 
 Ans. The short version
 
-India's mathematical olympiad programme runs IOQM, the Indian Olympiad Qualifier in Mathematics, then the Regional Mathematical Olympiad, then the Indian National Mathematical Olympiad, then training camps that select the team for the International Mathematical Olympiad. IOQM is an offline paper answered on an OMR sheet with no negative marking, open to students in Classes 8 to 12 within a published birth-date window, and a family can register individually through the online portal or through a registered centre; exam centres are in India only. RMO is six proof questions in three hours on 15 November 2026 and INMO is six proof questions in four and a half hours on 17 January 2027, both reached by qualification. The syllabus is number theory, geometry, algebra and combinatorics, with calculus and statistics excluded. Modern Age Coders prepares students live online in batches of five to ten grouped by class: one class a week on the mathematics, one on problem solving and proof writing using HBCSE's own past papers. The first class is a free demo, and the group batch fee is shown on this page in your own currency.
+India's mathematical olympiad programme runs IOQM, the Indian Olympiad Qualifier in Mathematics, then the Regional Mathematical Olympiad, then the Indian National Mathematical Olympiad, then training camps that select the team for the International Mathematical Olympiad. IOQM is an offline paper answered on an OMR sheet with no negative marking, open to students in Classes 8 to 12 within a published birth-date window, and a family can register individually through the online portal or through a registered centre; exam centres are in India only. RMO is six proof questions in three hours on 15 November 2026 and INMO is six proof questions in four and a half hours on 17 January 2027, both reached by qualification. The syllabus is number theory, geometry, algebra and combinatorics, with calculus and statistics excluded. Modern Age Coders prepares students live online in batches of fifteen to twenty grouped by class: one class a week on the mathematics, one on problem solving and proof writing using HBCSE's own past papers. The first class is a free demo, and the group batch fee is shown on this page in your own currency.
 
 Q1. What is the pathway, stage by stage?
 
@@ -169,7 +169,7 @@ Group batch · by class
 
 per month
 
-- Five to ten students, in the same class band
+- Fifteen to twenty students, in the same class band
 - Two live classes a week, an area of the syllabus and timed problem solving
 - Placement paper, a marked proof a week from month two, past papers reviewed
 - Certificate on completion
@@ -182,7 +182,7 @@ Mini batch
 
 per month
 
-- Three to four students
+- Up to six students
 - Timings agreed around the family
 - More marked proofs per student
 

@@ -157,7 +157,7 @@ module.exports = {
       { h3: 'Student at the keys', p: 'Learners write, prompt and run every step themselves; the tutor watches over screen share and asks why each choice was made.' },
       { h3: 'Starting line', p: 'We find the right first topic during the trial and note any SQA exam ahead.' },
       { h3: 'No charge to try', p: 'The first lesson is free and ends with a course suggestion.' },
-      { h3: 'Groups of equals', p: 'Every group seats five to ten learners at a common stage, drawn from across Britain.' },
+      { h3: 'Groups of equals', p: 'Every group seats fifteen to twenty learners at a common stage, drawn from across Britain.' },
       { h3: 'Two a week', p: 'Paused for school holidays.' },
       { h3: 'Fixed time', p: 'Our tutors follow UK clock changes, so your slot does not move.' }
     ],

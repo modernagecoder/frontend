@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for the City of L
 canonical: https://learn.modernagecoders.com/coding-classes-in-the-city-of-london
 source: src/pages/coding-classes-in-the-city-of-london.html
 ---
-> The City of London is the Square Mile of the Barbican, Smithfield, Aldgate, Bank, Temple, Blackfriars and Liverpool Street, home to only 8,583 residents at the 2021 Census, the fewest of any London local authority, yet to 86 Grade I buildings including St Paul's Cathedral and the Monument. A class worth joining lets a learner discover a law of nature with code rather than read it in a book, and this page does that with arches: hang a virtual chain, let the computer find the shape of least energy, and turn it upside down to get the ideal arch. Teaching happens live on video from India, for anyone aged 6 to 67, one to one or in a group of five to ten learners at the same stage. Lesson one is free; from then on, group places cost USD 100 a month and private lessons USD 150 a month.
+> The City of London is the Square Mile of the Barbican, Smithfield, Aldgate, Bank, Temple, Blackfriars and Liverpool Street, home to only 8,583 residents at the 2021 Census, the fewest of any London local authority, yet to 86 Grade I buildings including St Paul's Cathedral and the Monument. A class worth joining lets a learner discover a law of nature with code rather than read it in a book, and this page does that with arches: hang a virtual chain, let the computer find the shape of least energy, and turn it upside down to get the ideal arch. Teaching happens live on video from India, for anyone aged 6 to 67, one to one or in a group of fifteen to twenty learners at the same stage. Lesson one is free; from then on, group places cost USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / City of London
 
@@ -12,11 +12,11 @@ The City of London / Live online
 
 # Coding classes in the City of London
 
-**What are the best coding classes in the City of London?** The City of London is the Square Mile of the Barbican, Smithfield, Aldgate, Bank, Temple, Blackfriars and Liverpool Street, home to only 8,583 residents at the 2021 Census, the fewest of any London local authority, yet to 86 Grade I buildings including St Paul's Cathedral and the Monument. A class worth joining lets a learner discover a law of nature with code rather than read it in a book, and this page does that with arches: hang a virtual chain, let the computer find the shape of least energy, and turn it upside down to get the ideal arch. Teaching happens live on video from India, for anyone aged 6 to 67, one to one or in a group of five to ten learners at the same stage. Lesson one is free; from then on, group places cost USD 100 a month and private lessons USD 150 a month.
+**What are the best coding classes in the City of London?** The City of London is the Square Mile of the Barbican, Smithfield, Aldgate, Bank, Temple, Blackfriars and Liverpool Street, home to only 8,583 residents at the 2021 Census, the fewest of any London local authority, yet to 86 Grade I buildings including St Paul's Cathedral and the Monument. A class worth joining lets a learner discover a law of nature with code rather than read it in a book, and this page does that with arches: hang a virtual chain, let the computer find the shape of least energy, and turn it upside down to get the ideal arch. Teaching happens live on video from India, for anyone aged 6 to 67, one to one or in a group of fifteen to twenty learners at the same stage. Lesson one is free; from then on, group places cost USD 100 a month and private lessons USD 150 a month.
 
 Historic England's list entry for St Paul's Cathedral records a rebuilding by Sir Christopher Wren between 1675 and 1710, in Portland stone, with a great central dome, after the medieval cathedral burnt in the Great Fire. Nearby stands Wren's Monument to that fire, built between 1671 and 1677. Buildings like these raise a question every engineer faces: what shape should an arch or a dome be, so that it carries its own weight without bending? There is a beautifully simple answer, and learners find it themselves. Hang a chain between two points and it settles into a curve where every link pulls purely along the chain. Flip that curve upside down and every stone would push purely along the arch. Our learners let a computer hang a chain of 60 links, compare the result with the curves they know, and see which one nature chose.
 
-Facts last verified 26 September 2026. Teaching is online; no City of London branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no City of London branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses City learners begin with
 
@@ -171,7 +171,7 @@ For City families, lessons happen at home, whatever the office hours around them
 - **A screen at home** A laptop or desktop, a headset and broadband that handles video are all that is required.
 - **Key Stages in England** Progress reports use English Key Stages, from the start of primary to sixth form, with GCSE and A level where they apply. Lessons are in English.
 - **Nothing to pay first** The opening lesson is free and properly taught, ending with the teacher's advice on level and course; no card is taken.
-- **Classmates from everywhere** With so few City residents, each class of five to ten at one stage is drawn from across the UK and beyond.
+- **Classmates from everywhere** With so few City residents, each class of fifteen to twenty at one stage is drawn from across the UK and beyond.
 - **Two evening sessions** Most classes meet on two evenings a week and break for holidays and exams by agreement.
 - **London time** Teachers work from India; every time we send is already in UK time.
 
@@ -182,7 +182,7 @@ For City families, lessons happen at home, whatever the office hours around them
 A free first lesson, then one monthly fee, the same as everywhere else in London.
 
 - First class: USD 0. A complete first lesson with a teacher, free, closing with a recommended level, course and time.
-- Group tuition: USD 100 a month. About eight live lessons a month, in a class of five to ten at one stage.
+- Group tuition: USD 100 a month. About eight live lessons a month, in a class of fifteen to twenty at one stage.
 - Private tuition: USD 150 a month. About eight live lessons a month, one to one.
 
 Families in the City are billed in US dollars, as every family outside India is, and the site shows no pound prices. Billing starts only after the free lesson, once a course and a regular evening are agreed. The pricing page explains pauses, missed lessons and changes between class and private teaching.
@@ -223,11 +223,11 @@ No. There is no City of London centre and no premises anywhere in the UK, becaus
 
 ### What do coding classes in the City of London cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## The rest of London
 

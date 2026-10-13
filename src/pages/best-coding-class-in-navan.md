@@ -16,7 +16,7 @@ Navan, County Meath / Live online
 
 Take the eleven rows of Navan's work travel column, turn each count into a percentage of the 15,024 working residents, round each to one decimal, and add them up. The total is 100.1. Every individual figure is right, the counts are exactly as the CSO published them, and the column still comes to more than everything. Print two decimals instead and the same column totals 99.98. The explanation is not an error anywhere: eleven numbers were each rounded on their own, each moved by up to half a tenth, and the movements did not cancel. What a learner does next is the interesting part, because there are three defensible responses and each of them has a cost.
 
-Facts last verified 18 September 2026. Teaching is online; no Navan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 18 September 2026. Teaching is online; no Navan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Navan learners begin
 
@@ -191,7 +191,7 @@ Six points of logistics.
 Three lines, in full.
 
 - First class: USD 0. The opening lesson, taught and assessed in full, with no charge.
-- Group tuition: USD 100 a month. A month in an ability group of five to ten learners, about eight live lessons.
+- Group tuition: USD 100 a month. A month in an ability group of fifteen to twenty learners, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one to one teaching on the same weekly pattern.
 
 Fees are monthly, in US dollars, at the one rate used for every family outside India, so Navan sees the same figure as Ashbourne or Drogheda and no second list in another currency. Nothing is charged before the opening lesson has fixed a course and an hour, and the pricing page sets out breaks, missed weeks and moving between group and private teaching.
@@ -232,7 +232,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Navan cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

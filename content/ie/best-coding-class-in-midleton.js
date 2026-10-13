@@ -178,7 +178,7 @@ module.exports = {
     intro: 'The arrangements.',
     cells: [
       { h3: 'Taught live', p: 'The teacher leads every lesson in real time and works from what the learner has built.' },
-      { h3: 'Level groups', p: 'Five to ten learners at one stage, from East Cork, the rest of Ireland and abroad.' },
+      { h3: 'Level groups', p: 'Fifteen to twenty learners at one stage, from East Cork, the rest of Ireland and abroad.' },
       { h3: 'Twice most weeks', p: 'About eight lessons in a month, on days and at times agreed before starting.' },
       { h3: 'Around the school year', p: 'Mid-terms, holidays and exam periods are allowed for from the start.' },
       { h3: 'Equipment', p: 'A laptop or desktop is needed rather than a tablet, with a microphone and speakers or a headset, on the kind of home broadband 4,163 Midleton households already have.' },
@@ -191,7 +191,7 @@ module.exports = {
     h2: 'Fees for Midleton',
     intro: 'The full list.',
     first: 'A full first lesson with a level assessment, free.',
-    group: 'A month in a group of five to ten at the same level, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at the same level, about eight live lessons.',
     private: 'A month of one-to-one lessons at the same weekly frequency.',
     closer: 'We charge by the month, in US dollars, at one rate for every country outside India. The opening lesson is free with no obligation, the first charge follows only once a course and a time are agreed, and the pricing page deals with holidays, missed lessons and changing between a group and private lessons.'
   },
@@ -216,7 +216,7 @@ module.exports = {
       { q: 'Are adults welcome?', a: 'Yes, up to sixty-seven and from any starting point. The opening lesson shows whether an adult is better placed in a group of similar level or with a private teacher.' },
       { q: 'Will Midleton learners be grouped together?', a: 'Only by chance. Groups are made by level, so a Midleton learner may share a lesson with others in Cobh, Cork city or another country.' },
       { q: 'Is there a Modern Age Coders classroom in Midleton?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Midleton cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Midleton cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

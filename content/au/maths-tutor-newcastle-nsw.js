@@ -52,7 +52,7 @@ module.exports = {
   twitterDescription: 'Newcastle maths tutoring, live online: Kindergarten to HSC and adults, with a real volume problem from the ocean baths.',
   pageName: 'Maths Tutor in Newcastle, NSW',
   webPageDescription: 'Live online maths tutoring for City of Newcastle learners from Kindergarten to the HSC mathematics courses and adult maths, with a volume-estimation project on the ocean baths.',
-  courseDescription: 'Live online maths lessons for Newcastle learners, privately or in level-matched groups of five to ten, from early number to HSC Mathematics Extension 2 and adult maths.',
+  courseDescription: 'Live online maths lessons for Newcastle learners, privately or in level-matched groups of fifteen to twenty, from early number to HSC Mathematics Extension 2 and adult maths.',
   crumbs: [
     { name: 'Courses', href: '/courses' },
     { name: 'Coding classes in Australia', href: '/coding-classes-in-australia' }
@@ -82,7 +82,7 @@ module.exports = {
     ['City project', 'How much water the baths hold']
   ],
   capsuleQ: 'Maths tutor in Newcastle, in brief',
-  capsule: 'Learners in Newcastle, New South Wales, can study maths live online with Modern Age Coders from age 6 to 67. That covers the NSW syllabus from Kindergarten through Year 10, every HSC mathematics course from Standard to Extension 2, and maths for adults. Sessions run in Newcastle time, privately or with five to ten learners at the same level, and the first one is free.',
+  capsule: 'Learners in Newcastle, New South Wales, can study maths live online with Modern Age Coders from age 6 to 67. That covers the NSW syllabus from Kindergarten through Year 10, every HSC mathematics course from Standard to Extension 2, and maths for adults. Sessions run in Newcastle time, privately or with fifteen to twenty learners at the same level, and the first one is free.',
   picks: {
     eyebrow: 'Where Newcastle learners often begin',
     h2: 'Three courses for Newcastle families',
@@ -428,7 +428,7 @@ module.exports = {
     cells: [
       { h3: 'One teacher', p: 'Continuity week to week.' },
       { h3: 'Short updates', p: 'For parents after lessons.' },
-      { h3: 'Groups by level', p: 'Five to ten learners.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners.' },
       { h3: 'Local problems', p: 'Baths, beaches and maps.' },
       { h3: 'Private lessons', p: 'For one goal.' },
       { h3: 'Ideas before drills', p: 'Understanding first.' }
@@ -441,7 +441,7 @@ module.exports = {
     h2: 'Fees for maths tutoring in Newcastle',
     lede: 'A single monthly charge in US dollars covers lessons for Newcastle families; you pay nothing up front, and can finish whenever a month ends.',
     free: ['A full lesson at the learner\'s level', 'A clear recommendation', 'No card'],
-    group: ['Five to ten learners', 'The same teacher', 'Marked practice', 'Stop after any month'],
+    group: ['Fifteen to twenty learners', 'The same teacher', 'Marked practice', 'Stop after any month'],
     one: ['Private lessons', 'Built around one goal', 'Useful before HSC exams']
   },
   faq: {

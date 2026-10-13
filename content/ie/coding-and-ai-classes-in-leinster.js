@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Leinster',
   capsuleQ: 'What are the best coding and AI classes in Leinster?',
-  capsule: 'Leinster is the most populous of Ireland\'s four provinces: 2,835,980 of the State\'s residents lived in its twelve counties at the 2022 census, in 1,004,936 households. It holds Dublin and its three neighbouring councils, the commuter counties around them and the midlands to the west. We have a separate page for every Leinster county, linked below. Every class we run is live and weekly, placed by ability in groups of five to ten or taught one to one, for learners from six to sixty-seven; the opening lesson is free and afterwards a group place is USD 100 a month and a private one USD 150.',
+  capsule: 'Leinster is the most populous of Ireland\'s four provinces: 2,835,980 of the State\'s residents lived in its twelve counties at the 2022 census, in 1,004,936 households. It holds Dublin and its three neighbouring councils, the commuter counties around them and the midlands to the west. We have a separate page for every Leinster county, linked below. Every class we run is live and weekly, placed by ability in groups of fifteen to twenty or taught one to one, for learners from six to sixty-seven; the opening lesson is free and afterwards a group place is USD 100 a month and a private one USD 150.',
   lead: 'Here is a sum that looks right and is not. The census counts how many working people in each province work from home at least some of the time. Connacht comes to 27.6%, Leinster 35.5%, Munster 28.9% and Ulster, meaning the three Ulster counties in this State, 21.9%. Add the four and divide by four and you get 28.5%. The national figure is 32.1%. Nothing is wrong with the census. The plain average treats each province as equal, and they are not: Leinster alone holds 57.0% of all the working people in the country, so the national figure is mostly Leinster\'s. Averaging averages without their weights is one of the commonest errors in anything built from grouped numbers, school results and sales regions included.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Leinster.',
 
@@ -157,7 +157,7 @@ module.exports = {
     intro: 'From Dundalk to Enniscorthy to Mullingar, the arrangement is identical.',
     cells: [
       { h3: 'Live every time', p: 'A teacher runs the whole lesson in real time and expects the learner to talk, try and get things wrong aloud.' },
-      { h3: 'Grouped by level', p: 'Five to ten learners at one ability level, drawn from across Leinster and further afield so the match is a real one.' },
+      { h3: 'Grouped by level', p: 'Fifteen to twenty learners at one ability level, drawn from across Leinster and further afield so the match is a real one.' },
       { h3: 'Two lessons most weeks', p: 'About eight a month, at a day and time fixed at the start and then kept.' },
       { h3: 'The Irish school year', p: 'Junior Cycle, Transition Year and the Leaving Certificate years, with mid-terms and exams planned around.' },
       { h3: 'At home', p: 'A laptop or desktop, working sound and a connection that carries video; the free lesson confirms all three.' },
@@ -170,7 +170,7 @@ module.exports = {
     h2: 'Fees across Leinster',
     intro: 'The same three figures in every county of the province.',
     first: 'A full first lesson, free, finishing with a level and a recommended course.',
-    group: 'A month of group lessons, about eight, with five to ten learners at one level.',
+    group: 'A month of group lessons, about eight, with fifteen to twenty learners at one level.',
     private: 'A month of one to one lessons at the same weekly pace.',
     closer: 'Billing is monthly in US dollars at the single rate we charge outside India, so Wicklow and Longford pay the same and there is no separate euro list. Nothing is charged until a course and a weekly time are agreed in the free lesson, and the pricing page covers pauses, missed lessons and moving between group and private.'
   },
@@ -195,7 +195,7 @@ module.exports = {
       { q: 'Do lessons happen at times that suit Irish families?', a: 'Yes: after school, in the evening and on weekend mornings. Our teachers are based in India, four and a half hours ahead of Ireland in summer and five and a half in winter, and the exact slot is agreed in the free lesson.' },
       { q: 'Can I switch from a group to private lessons later?', a: 'Yes. The pricing page explains how switching works, and nothing changes without agreement first.' },
       { q: 'Is there a Modern Age Coders classroom in Leinster?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do Leinster coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do Leinster coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

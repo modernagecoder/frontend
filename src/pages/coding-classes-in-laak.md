@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Laak, The Hague, for 
 canonical: https://learn.modernagecoders.com/coding-classes-in-laak
 source: src/pages/coding-classes-in-laak.html
 ---
-> Coding classes in Laak reach the smallest stadsdeel of The Hague, two wijken, both read for this page. In Wijk 39 Binckhorst 2,635 of 4,126 residents are aged twenty-five to forty-five, sixty-four percent, while 100 are over sixty-five and 1,750 of its 1,902 dwellings are rented. That looks like a statement about who prefers the area. It is a statement about what was built there: an industrial district around the Laakkanaal, converted to flats. Modern Age Coders teaches live online in English from the Noordpolderbuurt to Laakhaven-Oost, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Laak reach the smallest stadsdeel of The Hague, two wijken, both read for this page. In Wijk 39 Binckhorst 2,635 of 4,126 residents are aged twenty-five to forty-five, sixty-four percent, while 100 are over sixty-five and 1,750 of its 1,902 dwellings are rented. That looks like a statement about who prefers the area. It is a statement about what was built there: an industrial district around the Laakkanaal, converted to flats. Modern Age Coders teaches live online in English from the Noordpolderbuurt to Laakhaven-Oost, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [The Hague](/coding-classes-in-the-hague) / Laak
 
@@ -12,11 +12,11 @@ Laak, Den Haag / Live online
 
 # Coding classes in Laak, where sixty-four percent of one wijk is aged twenty-five to forty-five and almost nobody chose that
 
-**What are the best coding classes in Laak?** Coding classes in Laak reach the smallest stadsdeel of The Hague, two wijken, both read for this page. In Wijk 39 Binckhorst 2,635 of 4,126 residents are aged twenty-five to forty-five, sixty-four percent, while 100 are over sixty-five and 1,750 of its 1,902 dwellings are rented. That looks like a statement about who prefers the area. It is a statement about what was built there: an industrial district around the Laakkanaal, converted to flats. Modern Age Coders teaches live online in English from the Noordpolderbuurt to Laakhaven-Oost, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Laak?** Coding classes in Laak reach the smallest stadsdeel of The Hague, two wijken, both read for this page. In Wijk 39 Binckhorst 2,635 of 4,126 residents are aged twenty-five to forty-five, sixty-four percent, while 100 are over sixty-five and 1,750 of its 1,902 dwellings are rented. That looks like a statement about who prefers the area. It is a statement about what was built there: an industrial district around the Laakkanaal, converted to flats. Modern Age Coders teaches live online in English from the Noordpolderbuurt to Laakhaven-Oost, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 A distribution across options looks like a record of what people wanted. It is only that if everybody was choosing from the same menu. The Binckhorst was dug for harbours and given over to industry around 1900, and most of it has since been rebuilt as housing, a good deal of it flats. Ninety-two percent of the dwellings there are rented. A family of five and a couple in their eighties are not declining the Binckhorst; for the most part they were never offered anything in it they could take. Read the age table as taste and you have learned something about people. Read it as supply and you have learned something true.
 
-Facts last verified 10 September 2026. Teaching is online; no Laak branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 September 2026. Teaching is online; no Laak branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the smallest stadsdeel
 
@@ -184,18 +184,18 @@ Laak is four and a quarter square kilometres wedged between the railway lines an
 - **Dense, and still no room** Laakkwartier en Spoorwijk runs at a published 16,690 people to the square kilometre. Nothing about that density puts a room, at a time, with a teacher in it, within reach of a particular family. A lesson that arrives at the table needs neither the room nor the journey.
 - **The Dutch that stays Dutch** Groep, havo, vwo and profielkeuze. Four words held in the original inside an otherwise English hour, because a child should recognise the term for their own school year when a teacher says it.
 - **An hour of teaching, given away** A task, and a teacher watching how the learner approaches it rather than whether they get it right. By the end there is a level, the course that begins at it, and a weekly time. No charge, no card, no call afterwards dressed up as a lesson.
-- **Assembled by stage, from everywhere** Five to ten learners at one level. Even the largest wijk in the city does not reliably contain five people at one narrow stage in one month, so the pool is not the wijk and never has been. That is what makes the class exist now rather than later.
+- **Assembled by stage, from everywhere** Fifteen to twenty learners at one level. Even the largest wijk in the city does not reliably contain five people at one narrow stage in one month, so the pool is not the wijk and never has been. That is what makes the class exist now rather than later.
 - **Eight a month, against a published calendar** Two live lessons a week at one fixed hour. Zuid-Holland takes regio Midden holiday dates, which are set years ahead, so the weeks off are part of the plan from the first conversation.
 - **The offset, and which country moves it** Three and a half hours ahead in Dutch summer time and four and a half outside it. India has not changed its clock in decades, so the whole variation is made at this end, and neither value removes an hour a family here would have used.
 
-**The largest wijk in the city, and what that does not guarantee** Laakkwartier en Spoorwijk holds 44,684 residents, more than any other wijk in The Hague, with 6,325 of them under fifteen and 12 primary establishments teaching 2,903 pupils. The Binckhorst beside it holds 360 under fifteen and one primary establishment with 62. Neither of those situations produces five to ten learners at one particular stage of one particular subject in one particular month, because a stage is narrow wherever you stand and crowding does not make it wider. So the group is built by level from a worldwide pool, at every age between 6 and 67.
+**The largest wijk in the city, and what that does not guarantee** Laakkwartier en Spoorwijk holds 44,684 residents, more than any other wijk in The Hague, with 6,325 of them under fifteen and 12 primary establishments teaching 2,903 pupils. The Binckhorst beside it holds 360 under fifteen and one primary establishment with 62. Neither of those situations produces fifteen to twenty learners at one particular stage of one particular subject in one particular month, because a stage is narrow wherever you stand and crowding does not make it wider. So the group is built by level from a worldwide pool, at every age between 6 and 67.
 
 ## The fee, in dollars, in both wijken
 
 On the page, rather than saved for a phone call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate quoted in dollars, with no euro edition, so an address in Spoorwijk is charged exactly what one in the Binckhorst is. Nothing is paid until the free lesson has settled a course and an hour, and payment is arranged over WhatsApp afterwards. Pausing, switching plan and missing a week are all set out on the pricing page.
@@ -236,7 +236,7 @@ No, and none is claimed here, elsewhere in The Hague or anywhere in the Netherla
 
 ### What do Laak coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

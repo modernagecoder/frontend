@@ -16,7 +16,7 @@ Maryborough, Queensland, Australia / Live online
 
 Route 705 links Maryborough and Hervey Bay and back, and its path in the state's transit file is 1,220 points long. Add up the gaps between them and you get 102,231 metres. Do the same sum in half precision, the 16-bit numbers that many AI chips use to go fast, and the answer is not slightly wrong: it is infinity, because a 16-bit float cannot hold any number above 65,504. Store the map coordinates in half precision instead and the route grows by a third. Our Maryborough project makes these numbers in Python and shows why AI engineers think so hard about precision.
 
-Facts last verified 9 October 2026. Teaching is online; no Maryborough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 October 2026. Teaching is online; no Maryborough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI and programming courses that start from first principles
 
@@ -188,7 +188,7 @@ Maryborough's seven bus routes connect suburbs such as Tinana and Granville with
 - **Across the city** A teenager in Tinana and an adult in Granville can learn side by side without either of them catching a bus.
 - **Queensland years** Lessons follow Queensland's year levels and four terms, and senior students can link projects to the computing and maths subjects they take.
 - **A proper trial** The first lesson is a full class with real code. Afterwards you receive a recommended level, course and time, and no payment details are taken.
-- **Level-matched groups** Five to ten learners at one stage, from Maryborough and further afield, so the group always has enough people.
+- **Level-matched groups** Fifteen to twenty learners at one stage, from Maryborough and further afield, so the group always has enough people.
 - **Two lessons a week** Fixed times twice weekly, about eight lessons a month, with breaks for school holidays and exams planned ahead.
 - **One steady time gap** Queensland does not use daylight saving, so a 5pm Maryborough lesson starts at 12:30pm in India all year round.
 
@@ -199,7 +199,7 @@ Maryborough's seven bus routes connect suburbs such as Tinana and Granville with
 Three numbers explain the cost.
 
 - First class: USD 0. A full lesson at no charge, finished with a suggested level, course and lesson time.
-- Group tuition: USD 100 a month. Close to eight lessons a month with five to ten learners at one level.
+- Group tuition: USD 100 a month. Close to eight lessons a month with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Close to eight lessons a month with a teacher working one to one.
 
 Families outside India are billed in US dollars, so a learner in Tinana and one in Granville pay the same and there is no Maryborough price list. We charge nothing until the trial has fixed a course and a weekly time, and the pricing page sets out breaks, absences and changes of format.
@@ -240,11 +240,11 @@ No, and none is claimed. Every lesson is live and online, and we have no premise
 
 ### What do Maryborough classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.
 
 ### How big are the groups?
 
-Five to ten learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.
+Fifteen to twenty learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.
 
 ## More for Fraser Coast and Queensland learners
 

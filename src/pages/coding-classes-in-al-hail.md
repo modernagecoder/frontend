@@ -171,9 +171,9 @@ The format is deliberately specific so families can compare it with other option
 
 The learner completes a short placement task before payment.
 
-### Small group
+### Group
 
-Five to eight compatible learners work with one teacher.
+Fifteen to twenty compatible learners work with one teacher.
 
 ### Private option
 
@@ -207,7 +207,7 @@ Ability check, goal discussion and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight live classes, with five to eight learners.
+Per month, normally eight live classes, with fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -319,7 +319,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What group size does Modern Age Coders use?
 
-A group normally contains five to eight compatible learners. Compatibility means more than age: the teacher considers present knowledge, pace and objective. Private tuition is one student with one teacher. If no suitable group is available, the family can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility means more than age: the teacher considers present knowledge, pace and objective. Private tuition is one student with one teacher. If no suitable group is available, the family can discuss private tuition or wait for an appropriate cohort.
 
 ### How are class times arranged for Al Hail?
 

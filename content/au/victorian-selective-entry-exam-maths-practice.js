@@ -214,7 +214,7 @@ module.exports = {
     cells: [
       { h3: 'Units in every line', p: 'Students write units beside numbers until it becomes automatic.' },
       { h3: 'Reasons out loud', p: 'Each answer comes with an explanation of the set-up.' },
-      { h3: 'Five to ten per class', p: 'Students grouped by current level.' },
+      { h3: 'Fifteen to twenty per class', p: 'Students grouped by current level.' },
       { h3: 'One-to-one option', p: 'For a student wanting focused help.' },
       { h3: 'Never exam content', p: 'We do not collect or share exam questions, in line with ACER\'s rules.' },
       { h3: 'No selection promises', p: 'Offers are made through ACER\'s process; we make no claims about them.' }
@@ -229,7 +229,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Victorian families are billed monthly in US dollars, our single rate outside India. Nothing up front, and you can stop after any month.',
     free: ['A full trial lesson', 'Straight advice about whether classes would help', 'No card details'],
-    group: ['Five to ten students at one level', 'A regular teacher', 'Reasoned feedback', 'Certificate on completion'],
+    group: ['Fifteen to twenty students at one level', 'A regular teacher', 'Reasoned feedback', 'Certificate on completion'],
     one: ['A teacher for one student', 'Work on chosen topics', 'Flexible times']
   },
 

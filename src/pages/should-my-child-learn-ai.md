@@ -168,7 +168,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, same teacher every week
+- Fifteen to twenty students, same teacher every week
 - Live video, never a recording
 - Build work between sessions, reviewed by the teacher
 - Certificate on completion
@@ -287,7 +287,7 @@ Check what the school actually delivers, because coverage varies from excellent 
 
 ### What do the classes cost if we decide yes?
 
-USD 100 a month for live group batches of five to eight, USD 150 a month for one to one, the same in every country we serve outside India, monthly, no joining fee, stop at any month end. The first class is free without a card, and nothing on this page requires deciding before you have watched one.
+USD 100 a month for live group batches of fifteen to twenty, USD 150 a month for one to one, the same in every country we serve outside India, monthly, no joining fee, stop at any month end. The first class is free without a card, and nothing on this page requires deciding before you have watched one.
 
 ### What is the smallest sensible first step?
 

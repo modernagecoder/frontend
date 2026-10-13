@@ -16,7 +16,7 @@ Rathmines, Dublin 6 / Live online
 
 In November 2012 Dublin City Council's libraries logged 43,295 adult fiction loans and renewals, and Rathmines Library handled 3,661 of them, 8.46 percent. One novel broke that pattern. Of the 142 times Jon McGregor's Even the dogs went out across the city, 34 were at Rathmines, where its ordinary share would predict 12. Comparing a branch's share of one book with its share of everything is a standard tool with a well-known trap, and this page teaches both: the ratio, and why a list ranked by it needs a minimum count before it means anything.
 
-Facts last verified 20 September 2026. Teaching is online; no Rathmines branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Rathmines branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four first courses for Rathmines
 
@@ -148,7 +148,7 @@ A ratio without its counts is half an answer. Code keeps the other half attached
 In outline.
 
 - **Live, not recorded** Every lesson is taught as it happens, and the teacher looks at and helps with each learner's own code.
-- **One level per group** Five to ten learners working at the same level, from Rathmines, other parts of Ireland or overseas.
+- **One level per group** Fifteen to twenty learners working at the same level, from Rathmines, other parts of Ireland or overseas.
 - **Two regular days** The same two days each week, roughly eight lessons a month.
 - **Fits the school year** School holidays, mid-term breaks and exam periods are allowed for in the plan.
 - **Kit** Any desktop or laptop with a working microphone, something to hear through, and internet steady enough for video.
@@ -161,7 +161,7 @@ In outline.
 Plainly.
 
 - First class: USD 0. A free first lesson, which includes a level check.
-- Group tuition: USD 100 a month. A month in a same-level group of five to ten, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a same-level group of fifteen to twenty, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons at the same rhythm.
 
 Families everywhere outside India pay one US dollar fee, month by month. The free lesson binds you to nothing, charges start with the course itself, and the pricing page sets out how holidays, missed lessons and a switch between group and private teaching are handled.
@@ -198,7 +198,7 @@ Possibly, but groups are built around level, so classmates may join from anywher
 
 ### What do coding classes in Rathmines cost?
 
-The first lesson is free. After it, a group place costs USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment is made.
+The first lesson is free. After it, a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment is made.
 
 ### How many learners share a group?
 

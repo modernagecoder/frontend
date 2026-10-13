@@ -194,7 +194,7 @@ Teachers work from India, five and a half hours ahead of the UK in winter and fo
 
 - **Puzzles before syntax** Every new idea arrives as a problem to solve before it arrives as a thing to type.
 - **Our own tasks** Written by us in the same spirit. No Bebras task is copied into a lesson.
-- **Five to ten learners** Enough voices to hear a better rule than your own, few enough that nobody sits silent.
+- **Fifteen to twenty learners** Enough voices to hear a better rule than your own, few enough that nobody sits silent.
 - **Explaining is part of it** A learner who cannot explain a rule has not found it, and we say so kindly.
 - **One to one on request** For a child far ahead of their year, or one who will not speak in a group.
 - **Nothing promised** No score, no invitation to the coding challenge and no prize is promised by us.
@@ -204,7 +204,7 @@ Teachers work from India, five and a half hours ahead of the UK in winter and fo
 One monthly rate in US dollars, the same everywhere outside India. Nothing to join, nothing to cancel.
 
 - Free first class: USD 0. A full lesson on a real problem. A clear view of the right level. No card details.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher each week. Work read and discussed. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. Work read and discussed. A certificate at the end.
 - One to one: USD 150 a month. One learner with one teacher. Aimed at a particular gap. For learners well ahead or behind their year.
 
 ## What parents and teachers ask

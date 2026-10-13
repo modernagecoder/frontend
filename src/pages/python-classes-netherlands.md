@@ -4,7 +4,7 @@ description: "Live online Python classes in the Netherlands, the language design
 canonical: https://learn.modernagecoders.com/python-classes-netherlands
 source: src/pages/python-classes-netherlands.html
 ---
-> Modern Age Coders teaches Python live online to learners in the Netherlands from six to sixty-seven. Children type their first Python at around nine; teenagers build the full language over two years; students and adults learn it from scratch or deepen it for automation, web development, data science and AI, with optional preparation for the PCEP and PCAP certifications. Learners are placed by ability, in groups of five to ten or one to one, and every lesson is taught in English by a live teacher. The first lesson is free; after that, a group place costs USD 100 a month and private lessons USD 150.
+> Modern Age Coders teaches Python live online to learners in the Netherlands from six to sixty-seven. Children type their first Python at around nine; teenagers build the full language over two years; students and adults learn it from scratch or deepen it for automation, web development, data science and AI, with optional preparation for the PCEP and PCAP certifications. Learners are placed by ability, in groups of fifteen to twenty or one to one, and every lesson is taught in English by a live teacher. The first lesson is free; after that, a group place costs USD 100 a month and private lessons USD 150.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the Netherlands](/coding-classes-in-netherlands) / Python
 
@@ -151,7 +151,7 @@ The teachers are in India, which does not observe summer time, so they are three
 - **Weekend** Saturday or Sunday, for any age.
 
 - **A free first lesson** The learner writes real Python while the teacher watches, and the right starting rung becomes obvious.
-- **Groups of five to ten** Learners from several countries at the same level, so a quick learner is stretched and a beginner is not rushed.
+- **Groups of fifteen to twenty** Learners from several countries at the same level, so a quick learner is stretched and a beginner is not rushed.
 - **One to one if preferred** For deadlines, certification, a specific project or a learner who works best alone with a teacher.
 - **Code read aloud** Teachers ask learners to explain their code line by line, the habit Python's readability was designed for.
 - **In English** Python's keywords, error messages and documentation are in English; lessons are too, with Dutch school terms kept.
@@ -162,7 +162,7 @@ The teachers are in India, which does not observe summer time, so they are three
 Monthly, in US dollars, at the same rates for every country outside India. No enrolment fee, no annual contract, and the same price for every Python course.
 
 - Free first class: USD 0. A real Python lesson. Places you at the right rung. No card needed.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same live teacher each week. Code reviewed every week. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same live teacher each week. Code reviewed every week. A certificate at the end.
 - One to one: USD 150 a month. A teacher to yourself. Pace and focus set by your goal. Good for certification and deadlines.
 
 ## What learners in the Netherlands ask about Python classes

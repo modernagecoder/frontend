@@ -16,7 +16,7 @@ Hoorn, Noord-Holland / Live online
 
 A date looks like the least ambiguous thing in a document, and it is one of the most ambiguous. The encyclopaedia writes Hoorn's charter as 26 March 1356/1357 because in the Middle Ages different places started the year on different days, one of them Easter, and a March date could fall in one year by one reckoning and the next year by another. Writers who corresponded across such boundaries sometimes gave both years to be safe. Holland settled the matter for itself in 1580. Computers have never settled it. The same eight characters, 03/04/26, mean one day in the Netherlands and another in the United States; a meeting at nine means nothing without a time zone; a week number depends on which system counts the weeks. Hoorn, whose charter already needs two years to be dated honestly, is a good place to learn that a date is only as clear as the convention written beside it.
 
-Facts last verified 11 September 2026. Teaching is online; no Hoorn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Hoorn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the town of the Hoofdtoren
 
@@ -191,7 +191,7 @@ The municipality stretches from the harbour to the villages of Zwaag and Blokker
 - **From home in any of the three** A learner in Blokker and a learner by the harbour open the same class at the same minute, each at home, with no ride through West-Friesland in the evening.
 - **Dutch school labels as they are** Brugklas, groep, vmbo, havo, vwo and the profielkeuze keep their Dutch names, as Hoorn schools use them, and everything around them is taught in English.
 - **A first lesson that is a lesson** The free session works through a real task. Afterwards the teacher proposes a level, a course and a weekly time; no card is asked for and nothing is owed.
-- **A group at the right stage** Five to ten learners at one point in one subject. The municipality has 11,894 residents under fifteen, but a matching five, free at the same hour, is rare, so a group may include learners from other countries.
+- **A group at the right stage** Fifteen to twenty learners at one point in one subject. The municipality has 11,894 residents under fifteen, but a matching five, free at the same hour, is rare, so a group may include learners from other countries.
 - **Regio Noord weeks off** Two classes a week, about eight a month, in one fixed slot, pausing for the regio Noord holidays that Noord-Holland schools keep.
 - **Clocks three or four hours apart** The teachers work from India, three and a half hours ahead of Hoorn in summer and four and a half in winter, so after-school, evening and weekend-morning slots are all practical.
 
@@ -202,7 +202,7 @@ The municipality stretches from the harbour to the villages of Zwaag and Blokker
 Three prices, set out in full.
 
 - First class: USD 0. A real lesson on a real task, ending with a level and the course that fits.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners at the same level.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 The fee is a single dollar amount for every country, with no euro list alongside it, so a household in Zwaag pays what a household in the Binnenstad pays. Nothing is charged until the free lesson has fixed a course and a slot, and payment is arranged on WhatsApp after that. The pricing page explains pauses, a change of format and missed lessons.
@@ -243,7 +243,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Hoorn coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

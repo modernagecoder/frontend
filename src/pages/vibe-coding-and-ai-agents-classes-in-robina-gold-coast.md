@@ -16,7 +16,7 @@ Robina, City of Gold Coast, Queensland / Live online
 
 Robina is in the southern Gold Coast, with a station on the Gold Coast rail line, a town centre and many townhouses. Its 90 served stop records carry buses and trains through the day, and many of them share a name with a stop across the road. That small detail is enough to make a careless agent unpredictable.
 
-Facts last verified 13 October 2026. Teaching is online; no Robina branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Robina branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Agents, vibe coding and Python
 
@@ -176,7 +176,7 @@ Learners log in from home for a live session; nobody has to drive to the town ce
 - **Real teacher** Each session is taught live, with questions answered on the spot.
 - **Term pattern** Sessions follow Queensland school terms and pause for breaks.
 - **Free start** Try one session free, then receive a short plan.
-- **Group size** Groups of five to ten at a matching level, or private.
+- **Group size** Groups of fifteen to twenty at a matching level, or private.
 - **Weekly** Two sessions each week, around eight monthly.
 - **Indian time** A 5pm Robina session is 12:30pm in India on any date.
 
@@ -187,7 +187,7 @@ Learners log in from home for a live session; nobody has to drive to the town ce
 Every learner pays the same published fees.
 
 - First class: USD 0. The opening session is free, with a course suggestion afterwards.
-- Group tuition: USD 100 a month. Group: around eight sessions a month, five to ten learners.
+- Group tuition: USD 100 a month. Group: around eight sessions a month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private: around eight sessions a month with a personal teacher.
 
 Billing is in US dollars and begins once the trial has settled a course and a regular slot. Holiday and absence rules are on the pricing page.
@@ -224,11 +224,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Robina classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who are the other learners?
 
-Five to ten learners at a similar level and pace, not grouped by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not grouped by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Can adults build agents here?
 

@@ -187,7 +187,7 @@ Our teachers are in India, which is behind every Australian state. A 4 pm lesson
 
 - **Pairs and threes** Students solve together, as the Challenge encourages.
 - **Write, then mark** Every solution is marked against a rubric.
-- **Groups of five to ten** Placed by problem-solving level.
+- **Groups of fifteen to twenty** Placed by problem-solving level.
 - **One-to-one option** For students aiming at Enrichment stages.
 - **Short parent notes** One idea learned and a problem to discuss at home.
 - **School work stays theirs** We never work on live Challenge problems with students.
@@ -197,7 +197,7 @@ Our teachers are in India, which is behind every Australian state. A 4 pm lesson
 Families in Australia pay monthly in US dollars, our usual rate for every country outside India. No deposit, and you can stop at any month end. The Trust's modules are entered and paid for by schools.
 
 - Free first class: USD 0. A real lesson with a teacher. An honest view of problem-solving level. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher every week. Solutions marked and discussed. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher every week. Solutions marked and discussed. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one student. Focused on written solutions. A weekly time that suits you.
 
 ## What Australian families ask

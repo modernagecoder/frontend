@@ -284,7 +284,7 @@ module.exports = {
       { h3: 'Live and guided', p: 'A teacher leads every lesson and reviews code as it is written.' },
       { h3: 'School calendar', p: 'Lessons follow ACT terms and pause for holidays.' },
       { h3: 'Trial lesson', p: 'One free class, then a written recommendation.' },
-      { h3: 'Group size', p: 'Small level-matched groups of five to ten, or private.' },
+      { h3: 'Group size', p: 'Small level-matched groups of fifteen to twenty, or private.' },
       { h3: 'Pace', p: 'Two lessons a week, about eight a month.' },
       { h3: 'India hours', p: 'In summer a 7pm Inner North lesson begins at 1:30pm in India.' }
     ],
@@ -294,7 +294,7 @@ module.exports = {
     h2: 'Inner North fees',
     intro: 'All learners pay the same fees.',
     first: 'The first class is free and comes with a plan.',
-    group: 'Groups: roughly eight sessions monthly, five to ten learners.',
+    group: 'Groups: roughly eight sessions monthly, fifteen to twenty learners.',
     private: 'Private classes: about eight a month, one teacher.',
     closer: 'Billing is in US dollars, and nothing is charged until the trial lesson has agreed what to study and when. Holidays and missed classes are explained on the pricing page.'
   },
@@ -339,12 +339,12 @@ module.exports = {
       },
       {
         q: 'What do Inner North classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How are groups formed?',
-        a: 'By level and pace in groups of five to ten, not by age or suburb. One-to-one lessons are there if no group time fits.',
+        a: 'By level and pace in groups of fifteen to twenty, not by age or suburb. One-to-one lessons are there if no group time fits.',
         boiler: true
       },
       {

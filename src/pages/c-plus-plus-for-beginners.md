@@ -16,7 +16,7 @@ Book a Free Beginner DemoSee the Journey**0→1**No experience needed**5–8**St
 
 ## Quick answer
 
-**Modern Age Coders offers beginner-friendly live online C++ classes that start from absolute zero.** You write your first program in class one, then learn variables, conditionals, loops and functions at a gentle, mentor-led pace before moving on to arrays, pointers, Object-Oriented Programming and the STL. No prior coding experience is required, classes are live in small batches of 5–8 students, and group plans start at ₹1,499/month. Every beginner gets a free demo class first.
+**Modern Age Coders offers beginner-friendly live online C++ classes that start from absolute zero.** You write your first program in class one, then learn variables, conditionals, loops and functions at a gentle, mentor-led pace before moving on to arrays, pointers, Object-Oriented Programming and the STL. No prior coding experience is required, classes are live in batches of 15–20 students, and group plans start at ₹1,499/month. Every beginner gets a free demo class first.
 
 Start Today
 
@@ -40,7 +40,7 @@ We never dump theory. Each class introduces a single concept, you practise it li
 
 ### A Patient Live Mentor
 
-You ask "silly" questions freely in a small batch of 5–8. Your mentor watches your screen and fixes mistakes with you, in real time.
+You ask "silly" questions freely in a batch of 15–20. Your mentor watches your screen and fixes mistakes with you, in real time.
 
 ### You Build, Not Memorise
 
@@ -108,7 +108,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo.
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 learners per batch
+- 15–20 learners per batch
 - Gentle live C++ sessions
 - Recorded class access
 - Completion certificate
@@ -119,7 +119,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 learners per batch
+- Up to 6 learners per batch
 - Extra hand-holding
 - Recorded class access
 - Project guidance & certificate
@@ -183,7 +183,7 @@ Most beginners build their first small program, a calculator, a number game or a
 
 How much do beginner C++ classes cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
 
 Are the classes live and recorded?+
 

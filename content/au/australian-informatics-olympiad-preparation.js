@@ -221,7 +221,7 @@ module.exports = {
     cells: [
       { h3: 'Brute force first', p: 'Every problem starts with a slow, correct solution.' },
       { h3: 'Stress tests always', p: 'Fast solutions are compared on random inputs before submission.' },
-      { h3: 'Groups of five to ten', p: 'Placed by programming level.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Placed by programming level.' },
       { h3: 'One-to-one coaching', p: 'For students aiming at the invitational stages.' },
       { h3: 'Progress notes', p: 'What was learned and the next technique to practise.' },
       { h3: 'No medal promises', p: 'We teach the skills; the contest result is the student\'s.' }
@@ -236,7 +236,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Families in Australia pay monthly in US dollars, our standard rate outside India, with no deposit and no lock-in. AIO entry itself is arranged and paid through schools.',
     free: ['A real lesson with a teacher', 'An honest read of programming level', 'No card details'],
-    group: ['Five to ten students at one level', 'The same teacher every week', 'Solutions reviewed line by line', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher every week', 'Solutions reviewed line by line', 'A certificate at the end'],
     one: ['A coach for one student', 'Built around a target contest', 'A weekly time that suits you']
   },
 

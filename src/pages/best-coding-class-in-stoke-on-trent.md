@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Stoke-on-Tren
 canonical: https://learn.modernagecoders.com/best-coding-class-in-stoke-on-trent
 source: src/pages/best-coding-class-in-stoke-on-trent.html
 ---
-> The 2021 census counted 258,366 usual residents in Stoke-on-Trent, living at 2,764.8 people per square kilometre against 433.5 across England. The Victoria County History records that the six pottery towns became one county borough on 31 March 1910, and the city dates from 1925. Our teachers in India teach Stoke-on-Trent learners from age six to sixty-seven in live video lessons, one to one or in groups of five to ten working at the same level, at times that fit around British school and work. There is no charge for the first lesson; after that a group place is USD 100 a month and one-to-one teaching USD 150.
+> The 2021 census counted 258,366 usual residents in Stoke-on-Trent, living at 2,764.8 people per square kilometre against 433.5 across England. The Victoria County History records that the six pottery towns became one county borough on 31 March 1910, and the city dates from 1925. Our teachers in India teach Stoke-on-Trent learners from age six to sixty-seven in live video lessons, one to one or in groups of fifteen to twenty working at the same level, at times that fit around British school and work. There is no charge for the first lesson; after that a group place is USD 100 a month and one-to-one teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Stoke-on-Trent
 
@@ -12,11 +12,11 @@ Stoke-on-Trent, Staffordshire / Live online
 
 # Coding classes in Stoke-on-Trent
 
-**What are the best coding classes in Stoke-on-Trent?** The 2021 census counted 258,366 usual residents in Stoke-on-Trent, living at 2,764.8 people per square kilometre against 433.5 across England. The Victoria County History records that the six pottery towns became one county borough on 31 March 1910, and the city dates from 1925. Our teachers in India teach Stoke-on-Trent learners from age six to sixty-seven in live video lessons, one to one or in groups of five to ten working at the same level, at times that fit around British school and work. There is no charge for the first lesson; after that a group place is USD 100 a month and one-to-one teaching USD 150.
+**What are the best coding classes in Stoke-on-Trent?** The 2021 census counted 258,366 usual residents in Stoke-on-Trent, living at 2,764.8 people per square kilometre against 433.5 across England. The Victoria County History records that the six pottery towns became one county borough on 31 March 1910, and the city dates from 1925. Our teachers in India teach Stoke-on-Trent learners from age six to sixty-seven in live video lessons, one to one or in groups of fifteen to twenty working at the same level, at times that fit around British school and work. There is no charge for the first lesson; after that a group place is USD 100 a month and one-to-one teaching USD 150.
 
 Every hour, the Stoke-on-Trent Centre monitoring site reports how much fine dust, PM2.5, is in the air. Some hours leap far above their neighbours. Are they faults to smooth away, or real events? Our teenagers build a median filter, which replaces each hour with the middle value of a small window, and test it on four years of the city's data. In 2022 the highest hour of the year was the one ending at 22:00 GMT on 5 November, Bonfire Night, and lasted all evening, so a five-hour median keeps 57.5 of its 66.8 micrograms. In 2025 the highest hour, 77.2 on a July evening, lasted barely two hours, and the same filter cuts it to 24.5. The filter cannot tell a fault from a real event; only its window length decides.
 
-Facts last verified 23 September 2026. Teaching is online; no Stoke-on-Trent branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Stoke-on-Trent branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the Potteries
 
@@ -175,7 +175,7 @@ The city runs along a chain of towns from Tunstall in the north to Longton and M
 - **Six towns, one class** A learner in Smallthorne and another in Blurton can share a lesson without either of them catching a bus through Hanley.
 - **Familiar school stages** Our teaching follows the stages used in Stoke-on-Trent schools, Reception and Key Stages 1 to 4 up to GCSE and A level, and is all in English.
 - **Real work from minute one** The free session is a genuine lesson on a real task, ending with our advice on level, course and a weekly slot. No card is needed.
-- **Classes built by level** Five to ten learners at one stage, from Stoke-on-Trent, around the UK and overseas, which keeps sensible times open for every level.
+- **Classes built by level** Fifteen to twenty learners at one stage, from Stoke-on-Trent, around the UK and overseas, which keeps sensible times open for every level.
 - **Two sessions a week** Two fixed lessons weekly, around eight a month, with school holidays and exam weeks arranged with the teacher ahead of time.
 - **Your afternoon, their evening** A 5.30 pm lesson in Stoke-on-Trent begins at 10 pm in India during British Summer Time and 11 pm in winter, since India does not change its clocks; our teachers keep evening hours for UK families.
 
@@ -186,7 +186,7 @@ The city runs along a chain of towns from Tunstall in the north to Longton and M
 A free first lesson, followed by one monthly fee.
 
 - First class: USD 0. A whole lesson at no cost, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. Around eight live lessons a month, in a group of five to ten learners at one stage.
+- Group tuition: USD 100 a month. Around eight live lessons a month, in a group of fifteen to twenty learners at one stage.
 - Private tuition: USD 150 a month. Around eight live lessons a month, with the teacher attending to your learner alone.
 
 Families in Bucknall or Abbey Hulton pay in US dollars like every family outside India, and there are no pound prices anywhere on our site. The free lesson always comes first and billing begins only when a course and a weekly time have been agreed; the pricing page explains pauses, missed lessons and moving between a group and private teaching.
@@ -227,11 +227,11 @@ No. We have no Stoke-on-Trent centre and no UK premises, because every lesson is
 
 ### What does it cost to learn with you from Stoke-on-Trent?
 
-The first lesson costs nothing. After that, a group place is USD 100 a month for two live lessons a week, roughly eight a month, with five to ten learners, and one-to-one teaching on the same pattern is USD 150 a month. Nothing is charged before the course, format and time are agreed.
+The first lesson costs nothing. After that, a group place is USD 100 a month for two live lessons a week, roughly eight a month, with fifteen to twenty learners, and one-to-one teaching on the same pattern is USD 150 a month. Nothing is charged before the course, format and time are agreed.
 
 ### Who will be in my learner's group?
 
-Five to ten learners at the same stage, grouped by level, pace and goals rather than age or neighbourhood. If no group fits the learner's week, one-to-one lessons are offered instead.
+Fifteen to twenty learners at the same stage, grouped by level, pace and goals rather than age or neighbourhood. If no group fits the learner's week, one-to-one lessons are offered instead.
 
 ## The Midlands and beyond
 

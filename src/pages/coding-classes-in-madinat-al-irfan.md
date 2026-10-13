@@ -180,7 +180,7 @@ The first lesson checks fit before payment.
 
 ### Group size
 
-Five to eight compatible learners work together.
+Fifteen to twenty compatible learners work together.
 
 ### Private
 
@@ -310,7 +310,7 @@ Yes. The taught range is ages 6 to 67. Adults can study Python, web development,
 
 ### How much are coding classes in Madinat Al Irfan?
 
-Eight live group lessons cost USD 100 per month for five to eight learners. Eight private lessons cost USD 150 with one student and one teacher. Both plans normally meet twice weekly. The first class is free, and Modern Age Coders adds no enrolment charge, compulsory materials purchase or minimum term.
+Eight live group lessons cost USD 100 per month for fifteen to twenty learners. Eight private lessons cost USD 150 with one student and one teacher. Both plans normally meet twice weekly. The first class is free, and Modern Age Coders adds no enrolment charge, compulsory materials purchase or minimum term.
 
 ### How are India and Oman class times coordinated?
 

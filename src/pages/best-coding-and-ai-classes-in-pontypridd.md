@@ -4,7 +4,7 @@ description: "Live online coding and AI classes for Pontypridd, Treforest, Cilfy
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-pontypridd
 source: src/pages/best-coding-and-ai-classes-in-pontypridd.html
 ---
-> In the 2021 census the Pontypridd built-up area had 31,900 usual residents, and Rhondda Cynon Taf as a whole 237,651. The built-up area takes in Treforest, Trallwn, Cilfynydd, Graig, Hopkinstown, Glyncoch, Maesycoed, Rhydyfelin, Hawthorn and Upper Boat. Modern Age Coders teaches coding, AI, Python, vibe coding and maths to Pontypridd learners aged six to 67, in live video classes led by tutors in India, on their own with a tutor or alongside five to ten classmates who are at the same point. The trial lesson is free and finishes with a course recommendation. For the Pontypridd project, a learner puts all 885 CF37 postcodes into a skip list, a structure that uses coin tosses to build express lanes, and measures how it compares with scanning and with binary search. Once the trial is done, fees run at USD 100 monthly for a shared class or USD 150 monthly for a tutor of your own.
+> In the 2021 census the Pontypridd built-up area had 31,900 usual residents, and Rhondda Cynon Taf as a whole 237,651. The built-up area takes in Treforest, Trallwn, Cilfynydd, Graig, Hopkinstown, Glyncoch, Maesycoed, Rhydyfelin, Hawthorn and Upper Boat. Modern Age Coders teaches coding, AI, Python, vibe coding and maths to Pontypridd learners aged six to 67, in live video classes led by tutors in India, on their own with a tutor or alongside fifteen to twenty classmates who are at the same point. The trial lesson is free and finishes with a course recommendation. For the Pontypridd project, a learner puts all 885 CF37 postcodes into a skip list, a structure that uses coin tosses to build express lanes, and measures how it compares with scanning and with binary search. Once the trial is done, fees run at USD 100 monthly for a shared class or USD 150 monthly for a tutor of your own.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Pontypridd
 
@@ -12,11 +12,11 @@ Pontypridd, Rhondda Cynon Taf, Wales / Live online
 
 # Coding and AI classes in Pontypridd
 
-**Where can Pontypridd learners find the best coding and AI classes?** In the 2021 census the Pontypridd built-up area had 31,900 usual residents, and Rhondda Cynon Taf as a whole 237,651. The built-up area takes in Treforest, Trallwn, Cilfynydd, Graig, Hopkinstown, Glyncoch, Maesycoed, Rhydyfelin, Hawthorn and Upper Boat. Modern Age Coders teaches coding, AI, Python, vibe coding and maths to Pontypridd learners aged six to 67, in live video classes led by tutors in India, on their own with a tutor or alongside five to ten classmates who are at the same point. The trial lesson is free and finishes with a course recommendation. For the Pontypridd project, a learner puts all 885 CF37 postcodes into a skip list, a structure that uses coin tosses to build express lanes, and measures how it compares with scanning and with binary search. Once the trial is done, fees run at USD 100 monthly for a shared class or USD 150 monthly for a tutor of your own.
+**Where can Pontypridd learners find the best coding and AI classes?** In the 2021 census the Pontypridd built-up area had 31,900 usual residents, and Rhondda Cynon Taf as a whole 237,651. The built-up area takes in Treforest, Trallwn, Cilfynydd, Graig, Hopkinstown, Glyncoch, Maesycoed, Rhydyfelin, Hawthorn and Upper Boat. Modern Age Coders teaches coding, AI, Python, vibe coding and maths to Pontypridd learners aged six to 67, in live video classes led by tutors in India, on their own with a tutor or alongside fifteen to twenty classmates who are at the same point. The trial lesson is free and finishes with a course recommendation. For the Pontypridd project, a learner puts all 885 CF37 postcodes into a skip list, a structure that uses coin tosses to build express lanes, and measures how it compares with scanning and with binary search. Once the trial is done, fees run at USD 100 monthly for a shared class or USD 150 monthly for a tutor of your own.
 
 Most data structures are built with care: every branch balanced, every rule enforced. A skip list is built by tossing coins. Each item goes into an ordinary sorted chain, and then a coin decides whether it also gets a place on a faster lane above, and another toss whether it goes higher still. William Pugh published the idea in 1990, and it still runs inside software used every day. It sounds too casual to work. In Pontypridd we test it on every postcode in CF37.
 
-Facts last verified 1 October 2026. Teaching is online; no Pontypridd branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 1 October 2026. Teaching is online; no Pontypridd branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Coding and AI courses for Pontypridd learners
 
@@ -138,7 +138,7 @@ All lessons are live on video. A computer with a keyboard is needed, because a t
 - **About eight a month** Normally two sessions weekly during term; ask and we skip the local school holidays.
 - **UK clock kept** Lessons stay at the same UK time through the clock changes.
 
-**Why online** Matching five to ten learners at one exact level is much easier across the UK than in one valley town, and video means no travelling.
+**Why online** Matching fifteen to twenty learners at one exact level is much easier across the UK than in one valley town, and video means no travelling.
 
 ## Prices for Pontypridd families
 

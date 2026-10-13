@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Coding classes in Angus',
   capsuleQ: 'What are the best coding classes in Angus?',
-  capsule: 'Angus Council covers the whole area, home to about 114,400 people in roughly 54,300 households according to Scotland\'s Census 2022. Arbroath is the largest town, followed by Forfar, Montrose, Carnoustie and Monifieth, with Brechin and Kirriemuir next. We teach live over video from India, and each learner is placed by what they can already do, from Primary 1 to S6 and on to adults. Anyone from 6 to 67 can join, in a group of five to ten or one-to-one, for coding, Python, computing science and maths. The Angus project starts in Kirriemuir, where J M Barrie was born. Your first lesson is free; staying on costs USD 100 a month in a group or USD 150 a month privately.',
+  capsule: 'Angus Council covers the whole area, home to about 114,400 people in roughly 54,300 households according to Scotland\'s Census 2022. Arbroath is the largest town, followed by Forfar, Montrose, Carnoustie and Monifieth, with Brechin and Kirriemuir next. We teach live over video from India, and each learner is placed by what they can already do, from Primary 1 to S6 and on to adults. Anyone from 6 to 67 can join, in a group of fifteen to twenty or one-to-one, for coding, Python, computing science and maths. The Angus project starts in Kirriemuir, where J M Barrie was born. Your first lesson is free; staying on costs USD 100 a month in a group or USD 150 a month privately.',
   lead: 'Historic Environment Scotland\'s listing for a small house on Brechin Road in Kirriemuir says it was the birthplace of Sir J M Barrie in 1860, and that the wash-house behind it was his "Little Theatre". Barrie went on to write Peter Pan, a book full of talk: Peter, Wendy, the Lost Boys and Captain Hook argue, boast and make up stories, and every line of speech sits between quotation marks. That raises a question that spellcheckers and compilers ask all the time: does every mark that opens also close? This page\'s project checks the whole of Peter Pan with the tool programmers use for exactly this, a stack, and finds that the hardest part is a single small mark that means two different things.',
   wa: 'Hello Modern Age Coders, we are in Angus and would like to book a free lesson, please.',
 
@@ -159,7 +159,7 @@ module.exports = {
       { h3: 'Your own table', p: 'A flat in Arbroath, a house in Brechin, a farm in the glens. The screen is shared, and the pupil does the typing.' },
       { h3: 'Scottish stages and names', p: 'P1 to P7, S1 to S6, National 5, Higher and Advanced Higher: teachers use the same terms as Angus schools, in English.' },
       { h3: 'Try before paying', p: 'A full first lesson with real work, then clear advice on level and course. We ask for no card details.' },
-      { h3: 'Stage-matched groups', p: 'Five to ten pupils at the same point, joining from Angus and many other places.' },
+      { h3: 'Stage-matched groups', p: 'Fifteen to twenty pupils at the same point, joining from Angus and many other places.' },
       { h3: 'Holiday pauses', p: 'Two lessons a week in term is typical, stopping for the holidays Angus Council sets.' },
       { h3: 'Set in UK time', p: 'We book you in UK time and the slot holds through the spring and autumn clock changes; teachers on India time adjust on their side.' }
     ],
@@ -170,7 +170,7 @@ module.exports = {
     h2: 'Fees in Angus',
     intro: 'A family in Montrose pays what a family in Monifieth pays, and what families pay everywhere we teach except India.',
     first: 'A complete lesson of real work, then a suggested level and course.',
-    group: 'Roughly eight lessons a month in a group of five to ten at one level.',
+    group: 'Roughly eight lessons a month in a group of fifteen to twenty at one level.',
     private: 'Roughly eight lessons a month, one-to-one.',
     closer: 'Prices are in US dollars, never pounds. We bill only after the free lesson has fixed a course and a weekly time; the pricing page sets out what happens with holidays, missed lessons and changes of format.'
   },

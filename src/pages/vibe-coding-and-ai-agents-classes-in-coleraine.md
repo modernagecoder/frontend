@@ -16,7 +16,7 @@ Coleraine, Causeway Coast and Glens, Northern Ireland / Live online
 
 Some AI systems are built from many small agents, none of which sees the whole picture. Each one knows its own situation, can message its neighbours, and must still help the group reach a good answer. Early internet routing protocols worked in this way, using distance-vector routing, a distributed version of the Bellman-Ford algorithm: every router tells its neighbours how far it thinks it is from each destination, and updates its own estimate from theirs. The method is simple and it always settles, but it has a famous weakness: good news spreads fast and bad news spreads slowly. Coleraine's road network from OpenStreetMap, with its bridges, makes a clear test of both halves of that saying.
 
-Facts last verified 29 September 2026. Teaching is online; no Coleraine branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Coleraine branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Coleraine courses in systems thinking, vibe coding and agents
 
@@ -131,7 +131,7 @@ No kit beyond a webcam-equipped computer and broadband good enough for a call.
 - **Learner-built** Everything on screen is typed by the student, and the tutor keeps asking what the next round will change.
 - **Level from the trial** The free session shows where to start, with any CCEA exam noted.
 - **Trial on the house** Session one is free, and it closes with the course we would choose for the learner.
-- **Classmates at your level** Each group seats five to ten learners, chosen by stage rather than by town.
+- **Classmates at your level** Each group seats fifteen to twenty learners, chosen by stage rather than by town.
 - **Twice a week** Lessons pause in school holidays.
 - **Same hour all year** Our tutors move with the UK clock changes so you do not have to.
 

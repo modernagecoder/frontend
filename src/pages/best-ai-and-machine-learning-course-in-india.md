@@ -16,7 +16,7 @@ Book a Free AI/ML Demo ClassSee the Curriculum**4.9/5**Learner rating**5–8**St
 
 ## Quick answer
 
-**Modern Age Coders runs India's top-rated live online AI & Machine Learning course for college students, working professionals and serious teens.** You go from Python for ML through Machine Learning, Deep Learning, Neural Networks, Data Science and Generative AI, building and training real models on real datasets with scikit-learn, TensorFlow/Keras and PyTorch. Classes are live and interactive in small batches of 5–8, focused on a real project portfolio and job-ready skills, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
+**Modern Age Coders runs India's top-rated live online AI & Machine Learning course for college students, working professionals and serious teens.** You go from Python for ML through Machine Learning, Deep Learning, Neural Networks, Data Science and Generative AI, building and training real models on real datasets with scikit-learn, TensorFlow/Keras and PyTorch. Classes are live and interactive in batches of 15–20, focused on a real project portfolio and job-ready skills, and group plans start at ₹1,499/month. Every learner gets a free demo class first.
 
 > “Children do not need another app that teaches them to copy code. They need a mentor who teaches them to think.”
 
@@ -135,7 +135,7 @@ The Difference
 
 ## Why Learners Choose Our AI & ML Course
 
-### Small live batches (5–8)
+### Small live batches (15–20)
 
 Real two-way mentoring, never pre-recorded videos. Your code and models are reviewed live, every class.
 
@@ -169,7 +169,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo, then pick 
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 learners per batch
+- 15–20 learners per batch
 - Live AI/ML + model building
 - Recorded class access
 - Completion certificate
@@ -180,7 +180,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 learners per batch
+- Up to 6 learners per batch
 - More personal mentoring
 - Recorded class access
 - Project guidance & certificate
@@ -228,7 +228,7 @@ Good To Know
 
 What is the best AI and machine learning course in India?+
 
-Modern Age Coders offers India's top-rated live online AI & Machine Learning course for college students, working professionals and serious teens. It covers Python for ML, Machine Learning, Deep Learning, Neural Networks, Data Science and Generative AI, taught hands-on by building and training real models on real datasets, in small batches of 5–8 with expert mentors. Every new learner gets a free demo class.
+Modern Age Coders offers India's top-rated live online AI & Machine Learning course for college students, working professionals and serious teens. It covers Python for ML, Machine Learning, Deep Learning, Neural Networks, Data Science and Generative AI, taught hands-on by building and training real models on real datasets, in batches of 15–20 with expert mentors. Every new learner gets a free demo class.
 
 Do I need to know Python or advanced maths before starting?+
 
@@ -244,7 +244,7 @@ Yes. AI and Machine Learning are among the fastest-growing and highest-paying ar
 
 How much does the AI & ML course cost in India?+
 
-Group AI & ML classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and personalised 1-on-1 mentoring is ₹4,999 per month. A free demo class is available before you enrol.
+Group AI & ML classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and personalised 1-on-1 mentoring is ₹4,999 per month. A free demo class is available before you enrol.
 
 Can both college students and working professionals join?+
 
@@ -260,7 +260,7 @@ All classes are live and interactive with an expert mentor who reviews your code
 
 Should I choose group AI and ML classes or 1-on-1?+
 
-Both are live and taught by an expert mentor. Group AI and ML classes in small batches of 5 to 8 are the most affordable and add peer learning, a mini batch of 3 to 4 gives near one-to-one attention, and 1-on-1 gives a fully personalised pace. Start with a free demo, and you can change your plan later.
+Both are live and taught by an expert mentor. Group AI and ML classes in batches of 15 to 20 are the most affordable and add peer learning, a mini batch of up to 6 gives near one-to-one attention, and 1-on-1 gives a fully personalised pace. Start with a free demo, and you can change your plan later.
 
 Do you offer a refund if the AI and ML course is not the right fit?+
 

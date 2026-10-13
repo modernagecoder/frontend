@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Merthyr Tydfil
 canonical: https://learn.modernagecoders.com/coding-classes-in-merthyr-tydfil-county-borough
 source: src/pages/coding-classes-in-merthyr-tydfil-county-borough.html
 ---
-> Merthyr Tydfil county borough counted 58,836 usual residents at the 2021 census, the smallest total of any Welsh principal area in that release. Most live in the Merthyr Tydfil built-up area itself, with Treharris, Troedyrhiw and Pentrebach, Aberfan and Trelewis the other sizeable places. Every lesson is taught live over video by teachers in India; the first one is free and pins down a starting level for a Year 3 pupil, a Year 13 student or an adult. Learners from 6 to 67 study coding, Python and maths, alone with a teacher or in a class of five to ten. The Merthyr project begins at an iron bridge from around 1794. Staying on costs USD 100 each month in a group or USD 150 each month one-to-one.
+> Merthyr Tydfil county borough counted 58,836 usual residents at the 2021 census, the smallest total of any Welsh principal area in that release. Most live in the Merthyr Tydfil built-up area itself, with Treharris, Troedyrhiw and Pentrebach, Aberfan and Trelewis the other sizeable places. Every lesson is taught live over video by teachers in India; the first one is free and pins down a starting level for a Year 3 pupil, a Year 13 student or an adult. Learners from 6 to 67 study coding, Python and maths, alone with a teacher or in a class of fifteen to twenty. The Merthyr project begins at an iron bridge from around 1794. Staying on costs USD 100 each month in a group or USD 150 each month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Merthyr Tydfil county borough
 
@@ -12,11 +12,11 @@ Merthyr Tydfil county borough / Live online
 
 # Coding classes in Merthyr Tydfil
 
-**What are the best coding classes in Merthyr Tydfil?** Merthyr Tydfil county borough counted 58,836 usual residents at the 2021 census, the smallest total of any Welsh principal area in that release. Most live in the Merthyr Tydfil built-up area itself, with Treharris, Troedyrhiw and Pentrebach, Aberfan and Trelewis the other sizeable places. Every lesson is taught live over video by teachers in India; the first one is free and pins down a starting level for a Year 3 pupil, a Year 13 student or an adult. Learners from 6 to 67 study coding, Python and maths, alone with a teacher or in a class of five to ten. The Merthyr project begins at an iron bridge from around 1794. Staying on costs USD 100 each month in a group or USD 150 each month one-to-one.
+**What are the best coding classes in Merthyr Tydfil?** Merthyr Tydfil county borough counted 58,836 usual residents at the 2021 census, the smallest total of any Welsh principal area in that release. Most live in the Merthyr Tydfil built-up area itself, with Treharris, Troedyrhiw and Pentrebach, Aberfan and Trelewis the other sizeable places. Every lesson is taught live over video by teachers in India; the first one is free and pins down a starting level for a Year 3 pupil, a Year 13 student or an adult. Learners from 6 to 67 study coding, Python and maths, alone with a teacher or in a class of fifteen to twenty. The Merthyr project begins at an iron bridge from around 1794. Staying on costs USD 100 each month in a group or USD 150 each month one-to-one.
 
 By the site of the old Cyfarthfa Ironworks, Cadw lists Pont-y-Cafnau at Grade II* and records that it probably dates from about 1794, making it probably the earliest known iron railway bridge. It carried a tramroad of four-foot gauge on a pair of A-frame iron trusses, and some of the chairs that held the rails survive on its deck. Iron has a habit engineers must always respect: it grows when it warms and shrinks when it cools. A bridge or a rail that cannot move as it grows pushes on whatever holds it. How much does iron grow between a Welsh winter and summer, and how big is that push? This page's project works it out in Python.
 
-Facts last verified 26 September 2026. Teaching is online; no Merthyr Tydfil county borough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Merthyr Tydfil county borough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Merthyr learners start
 
@@ -138,7 +138,7 @@ All the communities of the county borough join by video.
 - **Learners build it** Pupils write each program while the teacher follows along on the shared screen.
 - **Welsh school years** An Aberfan Year 5 or a Merthyr Year 12 is placed by school year and the Curriculum for Wales, with WJEC exam names. Lessons are in English.
 - **Free first lesson** A full lesson for nothing, then clear advice.
-- **Classes by level** Five to ten learners working at the same level.
+- **Classes by level** Fifteen to twenty learners working at the same level.
 - **Term time only** Two lessons a week in term; none in the holidays.
 - **UK time, both seasons** The lesson stays at its UK hour through summer and winter time; teachers on India time adjust.
 
@@ -149,7 +149,7 @@ All the communities of the county borough join by video.
 Merthyr or Treharris, the fee is identical, and matches every country we teach outside India.
 
 - First class: USD 0. A complete lesson, free of charge, then our recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month, one-to-one.
 
 Fees are set in US dollars, never sterling. Billing starts only when the trial has fixed a course and a weekly time; the pricing page covers holidays, absences and moving between formats.

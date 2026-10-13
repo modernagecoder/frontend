@@ -157,7 +157,7 @@ module.exports = {
     intro: 'Arrangements in brief.',
     cells: [
       { h3: 'Real teacher, real time', p: 'The teacher leads throughout and responds to each learner\'s code as it is typed.' },
-      { h3: 'Matched level', p: 'Five to ten learners at one level, from Rathfarnham, elsewhere in Ireland or overseas.' },
+      { h3: 'Matched level', p: 'Fifteen to twenty learners at one level, from Rathfarnham, elsewhere in Ireland or overseas.' },
       { h3: 'Fixed pair of days', p: 'Around eight lessons a month on two set days each week.' },
       { h3: 'Breaks built in', p: 'Holidays, mid-terms and exam weeks are allowed for in the course plan.' },
       { h3: 'What to use', p: 'A laptop or desktop, a working microphone and sound, and a connection that holds video.' },
@@ -170,7 +170,7 @@ module.exports = {
     h2: 'Rathfarnham fees',
     intro: 'The full list.',
     first: 'The first lesson and a level check, free.',
-    group: 'A month in a group of five to ten at one level, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, about eight live lessons.',
     private: 'A month of one-to-one lessons at the same rhythm.',
     closer: 'Each family outside India pays the same monthly amount in US dollars. There is no obligation after the free lesson, payment begins only with the course, and the pricing page covers holidays, missed lessons and changing between group and private teaching.'
   },
@@ -194,8 +194,8 @@ module.exports = {
       { q: 'When do lessons take place?', a: 'Late afternoons and evenings on school days, and daytime at weekends. Irish time is used for every booking. Our teachers are based in India, which sits five and a half hours ahead of Rathfarnham between late autumn and spring and four and a half ahead through the summer, and we choose hours that suit both.' },
       { q: 'Can adults join the classes?', a: 'Yes, anyone up to sixty-seven, including complete beginners. After the first lesson an adult picks a same-level group or private lessons.' },
       { q: 'Will my child be with other Rathfarnham children?', a: 'Not necessarily. Groups are set by level, so classmates may be anywhere in Ireland or abroad.' },
-      { q: 'What do coding classes in Rathfarnham cost?', a: 'The first lesson is free. A group place is then USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same timetable are USD 150 a month. Terms are agreed before any payment.', boiler: true },
-      { q: 'How big is each group?', a: 'Five to ten learners, grouped by level, pace and goals rather than age or address. If no group fits a workable hour, lessons are one to one.', boiler: true }
+      { q: 'What do coding classes in Rathfarnham cost?', a: 'The first lesson is free. A group place is then USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same timetable are USD 150 a month. Terms are agreed before any payment.', boiler: true },
+      { q: 'How big is each group?', a: 'Fifteen to twenty learners, grouped by level, pace and goals rather than age or address. If no group fits a workable hour, lessons are one to one.', boiler: true }
     ]
   },
 

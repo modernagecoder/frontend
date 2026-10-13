@@ -186,7 +186,7 @@ module.exports = {
       { h3: 'No travel across the city', p: 'A learner in an apartment near Central and one in a house out west can share the same lesson from their own desks.' },
       { h3: 'Same words as school', p: 'A Kindergarten child, a Year 8 student in Stage 4 and an HSC candidate each hear the labels their own Sydney school uses. Lessons are in English.' },
       { h3: 'A proper first lesson', p: 'A real task with a real teacher, then a clear suggestion of level, course and weekly time. No card details at any point.' },
-      { h3: 'Groups matched by level', p: 'Five to ten learners at the same stage, drawn from Sydney, the rest of Australia and other countries, so every level finds a workable time.' },
+      { h3: 'Groups matched by level', p: 'Fifteen to twenty learners at the same stage, drawn from Sydney, the rest of Australia and other countries, so every level finds a workable time.' },
       { h3: 'Twice a week, usually', p: 'Roughly eight sessions each month in a fixed slot. Holiday breaks and exam fortnights are arranged with the teacher in advance.' },
       { h3: 'Teachers on India time', p: 'Sydney is four and a half hours ahead of India time in winter and five and a half ahead once daylight saving starts on Sunday 4 October 2026, so a 4pm Sydney class falls in the late morning of our teachers\' day.' }
     ],
@@ -197,7 +197,7 @@ module.exports = {
     h2: 'What classes cost in Sydney',
     intro: 'Three numbers, no add-ons.',
     first: 'A complete lesson at no cost, ending with a level, a suggested course and a weekly time.',
-    group: 'A month of teaching, usually eight lessons, with five to ten learners at the same level.',
+    group: 'A month of teaching, usually eight lessons, with fifteen to twenty learners at the same level.',
     private: 'The same monthly pattern of around eight lessons, with one teacher and one learner.',
     closer: 'Outside India every family pays in US dollars at a single rate, so the eastern suburbs and Western Sydney get the same bill and no Sydney price list exists. The first invoice follows the trial, once course and slot are agreed; the pricing page covers holidays off, missed sessions and changing from group to private lessons.'
   },
@@ -222,8 +222,8 @@ module.exports = {
       { q: 'What time are lessons for Sydney learners?', a: 'Late afternoon, evening or weekend, picked during the trial and always stated in Sydney time. India is four and a half hours behind Sydney in winter and five and a half behind once the clocks go forward.' },
       { q: 'Can lessons pause for school holidays and exams?', a: 'Yes. Breaks for NSW school holidays, exam weeks and family travel are agreed with the teacher, and the course is planned around the school year.' },
       { q: 'Is there a Modern Age Coders centre in Sydney?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Sydney coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Sydney coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

@@ -4,7 +4,7 @@ description: "Online coding, AI, Python and vibe coding lessons for Enniskillen,
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-enniskillen
 source: src/pages/best-coding-and-ai-classes-in-enniskillen.html
 ---
-> By NISRA's approximate settlement count, about 14,086 people lived in Enniskillen at the 2021 census; the surrounding district electoral area held 18,451. For BT74, postcodes.io lists wards including Portora, Castlecoole, Rossorry and Erne. Coding, AI, Python, vibe coding and maths are taught on camera by our India-based tutors to learners from six to 67, alone or in a group of five to ten at one level. We put reasoning before tools, so a learner can tell a curve that looks right from one that is right. The free trial lesson ends with our recommended course. The Enniskillen project takes the mapped shoreline of Rossole Lough, throws away most of its points, and rebuilds it three ways to see which smooth curve comes closest to the real edge. Beyond the trial you pay USD 100 monthly for group tuition or USD 150 monthly for a personal tutor.
+> By NISRA's approximate settlement count, about 14,086 people lived in Enniskillen at the 2021 census; the surrounding district electoral area held 18,451. For BT74, postcodes.io lists wards including Portora, Castlecoole, Rossorry and Erne. Coding, AI, Python, vibe coding and maths are taught on camera by our India-based tutors to learners from six to 67, alone or in a group of fifteen to twenty at one level. We put reasoning before tools, so a learner can tell a curve that looks right from one that is right. The free trial lesson ends with our recommended course. The Enniskillen project takes the mapped shoreline of Rossole Lough, throws away most of its points, and rebuilds it three ways to see which smooth curve comes closest to the real edge. Beyond the trial you pay USD 100 monthly for group tuition or USD 150 monthly for a personal tutor.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Northern Ireland](/coding-and-ai-classes-in-northern-ireland) / Enniskillen
 
@@ -12,11 +12,11 @@ Enniskillen, Fermanagh and Omagh, Northern Ireland / Live online
 
 # Coding and AI classes in Enniskillen
 
-**Where can Enniskillen learners find the best coding and AI classes?** By NISRA's approximate settlement count, about 14,086 people lived in Enniskillen at the 2021 census; the surrounding district electoral area held 18,451. For BT74, postcodes.io lists wards including Portora, Castlecoole, Rossorry and Erne. Coding, AI, Python, vibe coding and maths are taught on camera by our India-based tutors to learners from six to 67, alone or in a group of five to ten at one level. We put reasoning before tools, so a learner can tell a curve that looks right from one that is right. The free trial lesson ends with our recommended course. The Enniskillen project takes the mapped shoreline of Rossole Lough, throws away most of its points, and rebuilds it three ways to see which smooth curve comes closest to the real edge. Beyond the trial you pay USD 100 monthly for group tuition or USD 150 monthly for a personal tutor.
+**Where can Enniskillen learners find the best coding and AI classes?** By NISRA's approximate settlement count, about 14,086 people lived in Enniskillen at the 2021 census; the surrounding district electoral area held 18,451. For BT74, postcodes.io lists wards including Portora, Castlecoole, Rossorry and Erne. Coding, AI, Python, vibe coding and maths are taught on camera by our India-based tutors to learners from six to 67, alone or in a group of fifteen to twenty at one level. We put reasoning before tools, so a learner can tell a curve that looks right from one that is right. The free trial lesson ends with our recommended course. The Enniskillen project takes the mapped shoreline of Rossole Lough, throws away most of its points, and rebuilds it three ways to see which smooth curve comes closest to the real edge. Beyond the trial you pay USD 100 monthly for group tuition or USD 150 monthly for a personal tutor.
 
 Maps, games, fonts and animation all need smooth curves drawn through a few stored points. There are two broad families of methods. Approximating curves, such as Chaikin's corner-cutting method, repeatedly shave off the corners of a shape until it looks smooth, but they do not pass through the original points. Interpolating curves, such as Catmull-Rom splines, are built to pass exactly through every point and bend smoothly between them. Which is closer to reality depends on the data. This project tests both on a real outline: Rossole Lough, a lake mapped on OpenStreetMap inside a rectangle around Enniskillen.
 
-Facts last verified 29 September 2026. Teaching is online; no Enniskillen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Enniskillen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Enniskillen courses in reasoning, Python and AI
 
@@ -134,7 +134,7 @@ A computer, a camera and a connection able to hold a video call are all you need
 - **Hands on the code** The learner writes and runs every step; the tutor watches through screen share and asks how far the output is from the truth.
 - **Set by the trial** The free lesson shows the starting point, with any CCEA exam recorded.
 - **Free opening lesson** No charge for lesson one, which ends with a course suggestion.
-- **Level-matched classes** Five to ten learners from across the UK, grouped by stage.
+- **Level-matched classes** Fifteen to twenty learners from across the UK, grouped by stage.
 - **Two per week** Paused for school holidays.
 - **Steady time** Tutors adjust for UK clock changes so your slot stays put.
 

@@ -4,7 +4,7 @@ description: "Maths tuition in Leeds for ages 6 to 67: a live online maths tutor
 canonical: https://learn.modernagecoders.com/maths-tuition-in-leeds
 source: src/pages/maths-tuition-in-leeds.html
 ---
-> Leeds learners study maths with us live on video, at any age between 6 and 67, either in a level-matched class of five to ten or one to one. For primary children that means times tables in time for the Year 4 check, KS2 maths and the reasoning in Year 6 SATs maths. Secondary pupils follow KS3 maths into GCSE, on AQA, Edexcel or OCR at foundation or higher tier, or IGCSE. Sixth formers take A level Maths, often with Further Maths, and adults join for Functional Skills maths, a GCSE maths resit or a confidence refresher. Real data runs through every course; in Leeds we use the gradients of 124 streets around Headingley and Burley, the steepest of which rises 1 in 10.8. Lessons start with a free trial, then cost USD 100 a month in a group or USD 150 a month one to one.
+> Leeds learners study maths with us live on video, at any age between 6 and 67, either in a level-matched class of fifteen to twenty or one to one. For primary children that means times tables in time for the Year 4 check, KS2 maths and the reasoning in Year 6 SATs maths. Secondary pupils follow KS3 maths into GCSE, on AQA, Edexcel or OCR at foundation or higher tier, or IGCSE. Sixth formers take A level Maths, often with Further Maths, and adults join for Functional Skills maths, a GCSE maths resit or a confidence refresher. Real data runs through every course; in Leeds we use the gradients of 124 streets around Headingley and Burley, the steepest of which rises 1 in 10.8. Lessons start with a free trial, then cost USD 100 a month in a group or USD 150 a month one to one.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Leeds
 
@@ -14,7 +14,7 @@ Leeds · Maths for everyone from 6 to 67 · Taught live online
 
 Walk around Headingley, Hyde Park or Burley and sooner or later you meet a hill. We measured how steep those hills are. Using open map data and a European height model, we worked out the average gradient of 124 streets in that corner of north-west Leeds. The steepest, Argie Road, climbs 29.7 metres in 321 metres: a gradient of 9.26%, or 1 in 10.8, or an angle of 5.29 degrees. Three ways of writing one hill, and GCSE learners need all three. This page shows how our online maths tutors teach Leeds learners, from the Year 4 multiplication check through GCSE and A level to Further Maths and adult maths, starting with the city's own slopes.
 
-At a glance: Who: Leeds learners aged 6 to 67; Primary: KS2 maths, tables check, Year 6 SATs; Secondary: KS3, GCSE at either tier; Boards: AQA, Edexcel, OCR, plus IGCSE; Sixth form: A level Maths and Further Maths; Adults: Functional Skills, resits, refreshers; Teaching: Live online, five to ten per group or one to one; Leeds project: Street gradients in Headingley and Burley. Rated 4.9 across 547 Google reviews.
+At a glance: Who: Leeds learners aged 6 to 67; Primary: KS2 maths, tables check, Year 6 SATs; Secondary: KS3, GCSE at either tier; Boards: AQA, Edexcel, OCR, plus IGCSE; Sixth form: A level Maths and Further Maths; Adults: Functional Skills, resits, refreshers; Teaching: Live online, fifteen to twenty per group or one to one; Leeds project: Street gradients in Headingley and Burley. Rated 4.9 across 547 Google reviews.
 
 ## Three maths courses Leeds learners pick first
 
@@ -227,7 +227,7 @@ Teaching runs on Indian Standard Time, which stays the same all year. From late 
 
 - **A tutor who knows the learner** The same person each week, so progress builds rather than restarts.
 - **Notes home** Brief, truthful updates after lessons on what to work on next.
-- **Classes by ability** Five to ten learners working at the same level.
+- **Classes by ability** Fifteen to twenty learners working at the same level.
 - **Hills, maps and data** Leeds streets and real numbers alongside past papers.
 - **Individual lessons** One to one for a learner who needs a sharper focus.
 - **Understanding first** Methods are explained before they are practised.
@@ -237,14 +237,14 @@ Teaching runs on Indian Standard Time, which stays the same all year. From late 
 Monthly fees in US dollars, the same for every country apart from India. Nothing to pay to register and no contract.
 
 - Free first class: USD 0. A complete lesson, properly pitched. Honest advice afterwards. No card details required.
-- Group batch: USD 100 a month. A class of five to ten at one level. The same tutor throughout. Marked homework with comments. Certificate when you finish.
+- Group batch: USD 100 a month. A class of fifteen to twenty at one level. The same tutor throughout. Marked homework with comments. Certificate when you finish.
 - One to one: USD 150 a month. Private lessons with one tutor. Targeted at particular gaps. Handy before exams.
 
 ## Questions Leeds families and adult learners ask us
 
 ### What does a maths tutor in Leeds cost?
 
-With us, the first lesson is free. After that it is USD 100 a month for a group of five to ten learners at the same level, or USD 150 a month for one-to-one lessons. No registration fee and no fixed term.
+With us, the first lesson is free. After that it is USD 100 a month for a group of fifteen to twenty learners at the same level, or USD 150 a month for one-to-one lessons. No registration fee and no fixed term.
 
 ### What does a gradient of 10% mean?
 

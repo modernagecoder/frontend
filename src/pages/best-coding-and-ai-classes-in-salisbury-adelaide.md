@@ -16,7 +16,7 @@ City of Salisbury, Adelaide, South Australia / Live online
 
 Python numbers the days of the week two ways. One starts Monday at 0, the other at 1. Pick the wrong one when reading the City of Salisbury's bus timetable and a Wednesday count barely moves, a Saturday count drops by three thousand, and a Sunday count crashes.
 
-Facts last verified 14 October 2026. Teaching is online; no Salisbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 14 October 2026. Teaching is online; no Salisbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that catch quiet bugs
 
@@ -174,7 +174,7 @@ All teaching is live over video from home.
 - **Run it together** Learner and teacher run each test case live on the shared screen.
 - **State school terms** Plans follow the South Australian school year, with holiday breaks.
 - **Free first lesson** A full trial class, then a written suggestion.
-- **Five to ten per group** Level-matched groups, or one-to-one lessons.
+- **Fifteen to twenty per group** Level-matched groups, or one-to-one lessons.
 - **Two lessons weekly** Set weekly slots, about eight lessons a month.
 - **India time** Teachers are in India: a 5pm Salisbury lesson is 12 noon India time in summer and 1pm from April.
 
@@ -185,7 +185,7 @@ All teaching is live over video from home.
 Three prices for every family.
 
 - First class: USD 0. Lesson one is free and comes with a written next step.
-- Group tuition: USD 100 a month. About eight group lessons a month with five to ten learners.
+- Group tuition: USD 100 a month. About eight group lessons a month with fifteen to twenty learners.
 - Private tuition: USD 150 a month. About eight private lessons a month with one teacher.
 
 Salisbury households are billed in US dollars, starting only once the trial has settled a course and a weekly slot. Breaks and missed classes are set out on our pricing page.
@@ -222,11 +222,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Salisbury learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Do Salisbury group classes include Copilot Studio?
 

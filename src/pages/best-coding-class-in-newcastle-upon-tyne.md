@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Newcastle upo
 canonical: https://learn.modernagecoders.com/best-coding-class-in-newcastle-upon-tyne
 source: src/pages/best-coding-class-in-newcastle-upon-tyne.html
 ---
-> Newcastle upon Tyne had 300,125 usual residents at the 2021 Census, and 29.1% of those aged five and over were schoolchildren or full-time students, against 20.4% in England. Its Literary and Philosophical Society, founded in 1793, says Joseph Swan lit a public room with electric light for the first time there in 1881. Modern Age Coders teaches Newcastle learners aged six to sixty-seven in live online lessons, either privately or in a small group of five to ten matched by level, with teachers based in India and lesson times set in UK hours. There is no fee for the first lesson. Later months cost USD 100 in a group or USD 150 for private lessons.
+> Newcastle upon Tyne had 300,125 usual residents at the 2021 Census, and 29.1% of those aged five and over were schoolchildren or full-time students, against 20.4% in England. Its Literary and Philosophical Society, founded in 1793, says Joseph Swan lit a public room with electric light for the first time there in 1881. Modern Age Coders teaches Newcastle learners aged six to sixty-seven in live online lessons, either privately or in a group of fifteen to twenty matched by level, with teachers based in India and lesson times set in UK hours. There is no fee for the first lesson. Later months cost USD 100 in a group or USD 150 for private lessons.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Newcastle upon Tyne
 
@@ -12,11 +12,11 @@ Newcastle upon Tyne, Tyne and Wear, England / Live online
 
 # Coding classes in Newcastle upon Tyne
 
-**What are the best coding classes in Newcastle upon Tyne?** Newcastle upon Tyne had 300,125 usual residents at the 2021 Census, and 29.1% of those aged five and over were schoolchildren or full-time students, against 20.4% in England. Its Literary and Philosophical Society, founded in 1793, says Joseph Swan lit a public room with electric light for the first time there in 1881. Modern Age Coders teaches Newcastle learners aged six to sixty-seven in live online lessons, either privately or in a small group of five to ten matched by level, with teachers based in India and lesson times set in UK hours. There is no fee for the first lesson. Later months cost USD 100 in a group or USD 150 for private lessons.
+**What are the best coding classes in Newcastle upon Tyne?** Newcastle upon Tyne had 300,125 usual residents at the 2021 Census, and 29.1% of those aged five and over were schoolchildren or full-time students, against 20.4% in England. Its Literary and Philosophical Society, founded in 1793, says Joseph Swan lit a public room with electric light for the first time there in 1881. Modern Age Coders teaches Newcastle learners aged six to sixty-seven in live online lessons, either privately or in a group of fifteen to twenty matched by level, with teachers based in India and lesson times set in UK hours. There is no fee for the first lesson. Later months cost USD 100 in a group or USD 150 for private lessons.
 
 Give each of Newcastle's 26 council wards a colour so that no two wards sharing a border match. How few colours will do? The quick method, taking wards one at a time and giving each the first colour its neighbours are not already using, needs six colours in alphabetical order and five if the busiest ward, Wingrove with eight neighbours, goes first. Across 100,000 random orders it manages four only about 17% of the time. A careful search settles the question: three colours are impossible, and four are enough. The proof of the first half is sitting in the map, where Arthur's Hill, Elswick, Monument and Wingrove all border one another, so they need four different colours between them. That is graph colouring, a problem behind exam timetables and computer chips alike, and it is the lesson Newcastle's ward map teaches our teenage learners.
 
-Facts last verified 21 September 2026. Teaching is online; no Newcastle upon Tyne branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 21 September 2026. Teaching is online; no Newcastle upon Tyne branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the city of the Lit & Phil
 
@@ -173,7 +173,7 @@ Newcastle is compact, but a live online lesson still saves the trip across town.
 - **East end or west end** A learner in Walker and another in Benwell can share one lesson without either crossing the city centre.
 - **Stages that match local schools** From Reception and the four Key Stages through Year 9 options to GCSEs and A levels, we use the stage names Newcastle schools use and teach in English.
 - **A free lesson with a result** The first lesson teaches something real and finishes by recommending a level, a course and a regular weekly time. No card is needed.
-- **Matched by level** Five to ten learners at the same stage, from Newcastle, the rest of the UK and abroad, so that every level can find a workable slot.
+- **Matched by level** Fifteen to twenty learners at the same stage, from Newcastle, the rest of the UK and abroad, so that every level can find a workable slot.
 - **A steady weekly pattern** The timetable is two fixed lessons a week, roughly eight a month; holiday and exam pauses are arranged with the teacher well before they start.
 - **Teaching on India time** India Standard Time does not change with the seasons, so our teachers are four and a half hours ahead of Newcastle in summer and five and a half in winter, which puts after-school and evening lessons inside their day.
 
@@ -184,7 +184,7 @@ Newcastle is compact, but a live online lesson still saves the trip across town.
 One free lesson, then one of two monthly prices.
 
 - First class: USD 0. A full lesson with nothing to pay, ending in a level, a recommended course and a proposed weekly time.
-- Group tuition: USD 100 a month. About eight live lessons each month in a group of five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight live lessons each month in a group of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight live lessons each month given to one learner alone.
 
 Byker or Gosforth, the fee is identical: families outside India all pay the same US dollar amount, and we publish nothing in pounds. You pay nothing before the free lesson has settled which course and which weekly slot suit, and the pricing page explains how pauses, missed lessons and a change between group and private teaching are handled.
@@ -225,11 +225,11 @@ No. There is no Newcastle centre and no premises anywhere in the UK; all teachin
 
 ### How much do Newcastle lessons cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
 
 ### How are Newcastle groups organised?
 
-By level, pace and goals rather than age or postcode, with five to ten learners at one stage. If no group meets at a good time, we propose one-to-one lessons.
+By level, pace and goals rather than age or postcode, with fifteen to twenty learners at one stage. If no group meets at a good time, we propose one-to-one lessons.
 
 ## Northern cities and the national guide
 

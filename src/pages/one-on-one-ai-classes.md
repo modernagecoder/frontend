@@ -188,7 +188,7 @@ Group batch, for comparison
 
 USD 100
 
-a month, five to eight students
+a month, fifteen to twenty students
 
 - Peers, rivals and demo days
 - Our default recommendation

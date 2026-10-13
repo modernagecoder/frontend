@@ -161,7 +161,7 @@ module.exports = {
       { h3: 'Hands-on learners', p: 'Students type, prompt and run everything themselves; the tutor watches their screen and asks what should happen next.' },
       { h3: 'Trial-based placement', p: 'The free lesson shows the real starting point, whatever the school year, and exam boards are noted.' },
       { h3: 'Free first session', p: 'No fee for lesson one, which ends with our recommendation.' },
-      { h3: 'Level-based groups', p: 'Each class has five to ten learners from around Britain at a shared level.' },
+      { h3: 'Level-based groups', p: 'Each class has fifteen to twenty learners from around Britain at a shared level.' },
       { h3: 'Twice a week', p: 'Lessons break for school holidays.' },
       { h3: 'Unchanging times', p: 'Tutors adjust for British Summer Time, so your lesson hour holds.' }
     ],

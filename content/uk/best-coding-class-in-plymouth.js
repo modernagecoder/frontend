@@ -66,7 +66,7 @@ module.exports = {
 
   h1: 'Coding classes in Plymouth',
   capsuleQ: 'What are the best coding classes in Plymouth?',
-  capsule: 'Census 2021 found 264,695 usual residents in Plymouth, and 21.8% of those aged five and over were in school or full-time study, above the English figure of 20.4%. Smeaton\'s Tower, which stood on the Eddystone reef from 1759, now stands on Plymouth Hoe. Modern Age Coders teaches Plymouth learners between six and sixty-seven in live online lessons, either one to one or in a group of five to ten at the same level, with teachers in India working to UK hours. The opening lesson is free; afterwards, a group place is USD 100 a month and one-to-one teaching is USD 150 a month.',
+  capsule: 'Census 2021 found 264,695 usual residents in Plymouth, and 21.8% of those aged five and over were in school or full-time study, above the English figure of 20.4%. Smeaton\'s Tower, which stood on the Eddystone reef from 1759, now stands on Plymouth Hoe. Modern Age Coders teaches Plymouth learners between six and sixty-seven in live online lessons, either one to one or in a group of fifteen to twenty at the same level, with teachers in India working to UK hours. The opening lesson is free; afterwards, a group place is USD 100 a month and one-to-one teaching is USD 150 a month.',
   lead: 'Historic England lists 782 entries inside Plymouth, from Smeaton\'s Tower to a K6 telephone kiosk in Plympton. Where are they concentrated? Count them in one-kilometre squares and the busiest square holds 109 entries, or 170, depending only on where the grid happens to start. A kernel density map avoids the grid by placing a small smooth hill over every entry and adding the hills up. That swaps one arbitrary choice for another: the width of each hill, called the bandwidth. At 175 metres Plymouth shows 24 separate peaks, from the Barbican to Devonport and Plympton. At the 736 metres a textbook rule suggests, only four survive and Devonport disappears. Our teenagers learn to choose that width from the data rather than from habit.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Plymouth.',
 
@@ -195,7 +195,7 @@ module.exports = {
       { h3: 'Either side of the Plym', p: 'A learner in Plymstock and another in St Budeaux can join the same lesson without anyone crossing the river.' },
       { h3: 'Reception to A level', p: 'Reception, Key Stages 1 to 4, GCSE options and A levels, named as Plymouth schools name them, with all teaching in English.' },
       { h3: 'A lesson, not a pitch', p: 'The free session teaches a real piece of work, then suggests a level, a course and a weekly slot. There is nothing to pay and no card to enter.' },
-      { h3: 'Grouped by stage', p: 'Five to ten learners at the same level, drawn from Plymouth, other parts of Britain and abroad, so each stage has a time that suits.' },
+      { h3: 'Grouped by stage', p: 'Fifteen to twenty learners at the same level, drawn from Plymouth, other parts of Britain and abroad, so each stage has a time that suits.' },
       { h3: 'A steady rhythm', p: 'Two regular lessons a week, roughly eight a month, with half terms and exam periods arranged with the teacher beforehand.' },
       { h3: 'Clocks that do not move', p: 'India keeps the same time all year, four and a half hours ahead of Plymouth during British Summer Time and five and a half in winter, so UK afternoon and evening lessons stay within the teaching day.' }
     ],
@@ -206,7 +206,7 @@ module.exports = {
     h2: 'Plymouth lesson fees',
     intro: 'The first lesson is free, and then there is one monthly fee.',
     first: 'A whole lesson at no charge, closing with a suggested level, course and weekly time.',
-    group: 'Roughly eight live lessons a month in a class of five to ten learners at one level.',
+    group: 'Roughly eight live lessons a month in a class of fifteen to twenty learners at one level.',
     private: 'Roughly eight live lessons a month, with the teacher focused on your learner alone.',
     closer: 'Outside India every family pays one US dollar fee, so Mannamead and Efford pay the same, and no prices are shown in pounds. We take no payment until the free lesson has settled a course and a slot; details on pausing, missed lessons and changing between group and private teaching are on the pricing page.'
   },
@@ -231,8 +231,8 @@ module.exports = {
       { q: 'What is the story of Smeaton\'s Tower?', a: 'The Box says it was built on the Eddystone reef in 1759, taken down in the early 1880s because the sea was eroding the rock beneath it, and largely rebuilt on Plymouth Hoe. We are not connected with The Box.' },
       { q: 'What times are Plymouth lessons?', a: 'Weekday afternoons and evenings or weekends, at a UK time chosen during the free lesson. India is four and a half hours ahead of Plymouth in summer and five and a half hours ahead in winter.' },
       { q: 'Is there a Modern Age Coders centre in Plymouth?', a: 'No. There is no Plymouth centre and we have no premises anywhere in the UK; all lessons are live online. Learners need a computer with working sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do Plymouth lessons cost?', a: 'The first lesson is free. After it, a group place costs USD 100 a month for two live lessons a week, about eight a month, in a group of five to ten, and one-to-one lessons on the same pattern cost USD 150 a month. Course, format and time are agreed before anything is charged.', boiler: true },
-      { q: 'How are Plymouth groups arranged?', a: 'By level, pace and aims rather than age or where a family lives, with five to ten learners at one stage. When no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do Plymouth lessons cost?', a: 'The first lesson is free. After it, a group place costs USD 100 a month for two live lessons a week, about eight a month, in a group of fifteen to twenty, and one-to-one lessons on the same pattern cost USD 150 a month. Course, format and time are agreed before anything is charged.', boiler: true },
+      { q: 'How are Plymouth groups arranged?', a: 'By level, pace and aims rather than age or where a family lives, with fifteen to twenty learners at one stage. When no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

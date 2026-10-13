@@ -179,7 +179,7 @@ A boat crossing changes what is practical for a family on the island in a way th
 
 A genuine class with a real task, ending on a specific recommendation. No card is asked for and nothing is agreed until somebody has watched a teacher work.
 
-### Groups of five to eight, set by level
+### Groups of fifteen to twenty, set by level
 
 Cohorts form on what a learner can do and where they want to get to. Whether they are on the mainland or the island plays no part, which in this wilayat is not a small thing.
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Shalim learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Shalim class times arranged?
 

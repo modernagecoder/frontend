@@ -157,7 +157,7 @@ module.exports = {
       { h3: 'Hands on the keyboard', p: 'Learners type, prompt and run everything; the tutor watches the shared screen and asks them to justify each step.' },
       { h3: 'Pitched after the trial', p: 'The free lesson shows what to teach first, and any SQA course is noted.' },
       { h3: 'Free first session', p: 'Lesson one costs nothing and ends with a course suggestion.' },
-      { h3: 'One-level classes', p: 'Five to ten learners from across the UK, all at the same stage.' },
+      { h3: 'One-level classes', p: 'Fifteen to twenty learners from across the UK, all at the same stage.' },
       { h3: 'Two sessions weekly', p: 'Stopped for school holidays.' },
       { h3: 'Unchanging slot', p: 'When UK clocks change, tutors adjust and your time stays the same.' }
     ],

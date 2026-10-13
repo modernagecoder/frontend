@@ -4,7 +4,7 @@ description: "Online coding, AI, Python and vibe coding lessons for Finchley, Ea
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-finchley-london
 source: src/pages/best-coding-and-ai-classes-in-finchley-london.html
 ---
-> Three Barnet wards carry the Finchley name: East Finchley with 16,639 residents at the 2021 census, Finchley Church End with 18,840 and West Finchley with 19,430. Church End, North Finchley and Woodside Park are recorded as suburban areas in the N3 and N12 postcode districts. Finchley learners aged six to 67 study coding, AI, Python, vibe coding and maths live on video with a tutor in India, privately or in a class of five to ten who are at one level. Careful measurement is taught before tools, so a learner knows what a score does and does not say. The opening Finchley lesson is free and closes with a suggested course. The Finchley project trains a classifier on 1,113 Census areas and finds that a score of 0.905 can sit alongside being wrong in four of every five alarms. Finchley families who carry on pay USD 100 each month for a class place, or USD 150 each month for a tutor to themselves.
+> Three Barnet wards carry the Finchley name: East Finchley with 16,639 residents at the 2021 census, Finchley Church End with 18,840 and West Finchley with 19,430. Church End, North Finchley and Woodside Park are recorded as suburban areas in the N3 and N12 postcode districts. Finchley learners aged six to 67 study coding, AI, Python, vibe coding and maths live on video with a tutor in India, privately or in a class of fifteen to twenty who are at one level. Careful measurement is taught before tools, so a learner knows what a score does and does not say. The opening Finchley lesson is free and closes with a suggested course. The Finchley project trains a classifier on 1,113 Census areas and finds that a score of 0.905 can sit alongside being wrong in four of every five alarms. Finchley families who carry on pay USD 100 each month for a class place, or USD 150 each month for a tutor to themselves.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Finchley
 
@@ -12,11 +12,11 @@ Finchley, Barnet, London / Live online
 
 # Coding and AI classes in Finchley
 
-**Where can Finchley learners find the best coding and AI classes?** Three Barnet wards carry the Finchley name: East Finchley with 16,639 residents at the 2021 census, Finchley Church End with 18,840 and West Finchley with 19,430. Church End, North Finchley and Woodside Park are recorded as suburban areas in the N3 and N12 postcode districts. Finchley learners aged six to 67 study coding, AI, Python, vibe coding and maths live on video with a tutor in India, privately or in a class of five to ten who are at one level. Careful measurement is taught before tools, so a learner knows what a score does and does not say. The opening Finchley lesson is free and closes with a suggested course. The Finchley project trains a classifier on 1,113 Census areas and finds that a score of 0.905 can sit alongside being wrong in four of every five alarms. Finchley families who carry on pay USD 100 each month for a class place, or USD 150 each month for a tutor to themselves.
+**Where can Finchley learners find the best coding and AI classes?** Three Barnet wards carry the Finchley name: East Finchley with 16,639 residents at the 2021 census, Finchley Church End with 18,840 and West Finchley with 19,430. Church End, North Finchley and Woodside Park are recorded as suburban areas in the N3 and N12 postcode districts. Finchley learners aged six to 67 study coding, AI, Python, vibe coding and maths live on video with a tutor in India, privately or in a class of fifteen to twenty who are at one level. Careful measurement is taught before tools, so a learner knows what a score does and does not say. The opening Finchley lesson is free and closes with a suggested course. The Finchley project trains a classifier on 1,113 Census areas and finds that a score of 0.905 can sit alongside being wrong in four of every five alarms. Finchley families who carry on pay USD 100 each month for a class place, or USD 150 each month for a tutor to themselves.
 
 Spam, fraud, faults, rare diseases: most things worth detecting are rare. That rarity breaks the usual way of grading a classifier. The ROC curve and its summary, the AUC, ask how well the model separates positives from negatives, and they barely change when positives become scarce. But the person using the model cares about something else: when it says yes, how often is it right? That is precision, and it collapses as positives get rarer. This project shows both on one dataset, the Census areas of Barnet, by asking a model to find the areas where unusually many households have no car, and making the target steadily rarer.
 
-Facts last verified 30 September 2026. Teaching is online; no Finchley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Finchley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Finchley courses in measuring, Python and AI
 
@@ -131,7 +131,7 @@ A Finchley learner needs a computer with a camera and broadband that carries a v
 - **The learner does the coding** Each line and each run is theirs. Watching the shared screen, the tutor asks what the number on it actually measures.
 - **Level found at the trial** A free first session shows us where to start, and any exam board goes on the record.
 - **Free Finchley trial** No payment for lesson one; it closes with a course suggestion.
-- **Classes matched by level** Groups of five to ten, with classmates from anywhere in the UK.
+- **Classes matched by level** Groups of fifteen to twenty, with classmates from anywhere in the UK.
 - **Two sessions a week** School holidays are left free.
 - **Unchanging time** Our tutors absorb the British clock changes.
 

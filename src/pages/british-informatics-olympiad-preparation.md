@@ -180,7 +180,7 @@ Teachers work from India, five and a half hours ahead of the UK in winter and fo
 - **Problems written fresh** Every practice question is our own, in the competition's style; the organiser's papers stay on the organiser's site.
 - **Programs read line by line** The teacher reads the code and the written explanation, not just the final output.
 - **Testing every week** A generator and a brute force are part of the routine, not an afterthought.
-- **Small groups** Five to ten students at a similar level, comparing approaches to the same problem.
+- **Small groups** Fifteen to twenty students at a similar level, comparing approaches to the same problem.
 - **One to one before a sitting** For a student with a date in the diary and specific gaps to close.
 - **Honest limits** No promises about scores or selection, and no help during the paper itself.
 
@@ -189,7 +189,7 @@ Teachers work from India, five and a half hours ahead of the UK in winter and fo
 Monthly, in US dollars, the same rate as every country outside India. No joining fee.
 
 - Free first class: USD 0. A real contest problem with a teacher. An honest view of the starting level. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. Weekly problems and code review. The same teacher throughout. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. Weekly problems and code review. The same teacher throughout. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one student. Planned around the sitting date. Suited to finalists and to late starters.
 
 ## What students and parents ask about the British Informatics Olympiad

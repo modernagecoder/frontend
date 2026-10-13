@@ -17,7 +17,7 @@ Straight answers about our live online classes, for parents, students and workin
 
 In one paragraph
 
-Modern Age Coders teaches live online coding and maths to students aged 6 to 67. Every class is one hour with a real mentor, in a group of 5 to 10, a small batch of 3 to 4, or 1-on-1. Students build projects, a recording is provided for any missed class, parents get regular progress updates, and every student receives a certificate on completing a course. We are rated 4.9 across 547 Google reviews.
+Modern Age Coders teaches live online coding and maths to students aged 6 to 67. Every class is one hour with a real mentor, in a group of 15 to 20, a small batch of 3 to 4, or 1-on-1. Students build projects, a recording is provided for any missed class, parents get regular progress updates, and every student receives a certificate on completing a course. We are rated 4.9 across 547 Google reviews.
 
 - About Modern Age Coders 5
 - Classes and teaching 6
@@ -61,7 +61,7 @@ Modern Age Coders mentors: the same people who teach our regular batches every d
 
 What makes your classes different from other coding classes?
 
-Four things. Every class is live and a full hour. Batches are small, 5 to 10 students or fewer. Coding and maths are taught as one subject, because programming is applied maths. And our real, unedited classes are open to watch before you pay. More in [why families trust us](/why-trust-modern-age-coders) and [we teach you how to think](/we-teach-you-how-to-think).
+Four things. Every class is live and a full hour. Batches are small, 15 to 20 students or fewer. Coding and maths are taught as one subject, because programming is applied maths. And our real, unedited classes are open to watch before you pay. More in [why families trust us](/why-trust-modern-age-coders) and [we teach you how to think](/we-teach-you-how-to-think).
 
 Do you teach students outside India?
 
@@ -87,7 +87,7 @@ Every class is one hour. Group classes and small batches meet 8 times a month, w
 
 How many students are in a batch?
 
-A group class has 5 to 10 students and a small batch has 3 to 4. You can also choose 1-on-1 classes. Read [small batches and 1-on-1 classes](/small-batches-and-1-on-1-classes) to see which suits your child.
+A group class has 15 to 20 students and a small batch has 3 to 4. You can also choose 1-on-1 classes. Read [small batches and 1-on-1 classes](/small-batches-and-1-on-1-classes) to see which suits your child.
 
 Are classes live or pre-recorded?
 
@@ -174,7 +174,7 @@ What classes cost, how to pay and what happens if plans change.
 ### Fees at a glance, for your country
 
 - **Group class****₹1,499**a month · 5 to 10 students · 8 classes
-- **Small batch****₹2,999**a month · 3 to 4 students · 8 classes
+- **Small batch****₹2,999**a month · up to 6 students · 8 classes
 - **1-on-1****₹4,999**a month · 4 classes
 
 Every class is one hour. The same fees apply to every coding and maths course.

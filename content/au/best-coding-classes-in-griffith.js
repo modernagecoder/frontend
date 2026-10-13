@@ -191,7 +191,7 @@ module.exports = {
       { h3: 'At home', p: 'A computer with a microphone and a reliable internet connection is all that is needed.' },
       { h3: 'NSW school years', p: 'Teachers plan with New South Wales year levels and terms in mind, teaching in English.' },
       { h3: 'Trial first', p: 'The free trial is a real class that finishes with a recommended course and weekly time.' },
-      { h3: 'Matched groups', p: 'Five to ten learners at the same level share a group, from across Australia.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners at the same level share a group, from across Australia.' },
       { h3: 'Two lessons weekly', p: 'Groups meet twice a week on set days, roughly eight lessons a month.' },
       { h3: 'Our teachers', p: 'Teachers work from India, and every lesson time is written in Griffith time.' }
     ],
@@ -202,7 +202,7 @@ module.exports = {
     h2: 'Griffith class fees',
     intro: 'Pricing is brief and the same throughout Australia.',
     first: 'The first lesson is free and ends with a recommended level, course and time.',
-    group: 'A month of group lessons, roughly eight, with five to ten learners of similar level.',
+    group: 'A month of group lessons, roughly eight, with fifteen to twenty learners of similar level.',
     private: 'Roughly eight private lessons each month with one teacher.',
     closer: 'Fees outside India are in US dollars, and Griffith learners pay the same as learners anywhere in Australia. Payment begins only after the trial has fixed the course and time, and the pricing page explains holidays, absences and moving between group and private.'
   },
@@ -227,7 +227,7 @@ module.exports = {
       { q: 'What times suit Griffith learners?', a: 'After-school weekday slots and Saturday mornings are popular, all agreed in Griffith time.' },
       { q: 'Can younger children start coding?', a: 'Yes. Children from age six begin with Scratch and block coding; the sorting project suits teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Griffith?', a: 'No. We run no premises in Australia and claim none. All classes are live online; learners need a computer and a dependable connection, and our listed phone number is in India.', boiler: true },
-      { q: 'What do Griffith coding classes cost?', a: 'The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one-to-one. Everything is agreed before any payment.', boiler: true },
+      { q: 'What do Griffith coding classes cost?', a: 'The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one-to-one. Everything is agreed before any payment.', boiler: true },
       { q: 'How many learners are in each group?', a: 'Five to ten, grouped by level and aims rather than age or town. If no group time suits, one-to-one lessons are offered.', boiler: true }
     ]
   },

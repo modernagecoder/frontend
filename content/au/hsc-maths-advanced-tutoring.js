@@ -230,7 +230,7 @@ module.exports = {
       { h3: 'Ideas before rules', p: 'Each new technique starts with why it works, so it survives a question worded in an unfamiliar way.' },
       { h3: 'Working shown in full', p: 'Students practise setting out solutions the way markers read them, line by line.' },
       { h3: 'Timed practice', p: 'Past-style items done against a minutes-per-mark budget, then reviewed together.' },
-      { h3: 'Groups of five to ten', p: 'Advanced students at a matching level, each one asked to explain their reasoning aloud.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Advanced students at a matching level, each one asked to explain their reasoning aloud.' },
       { h3: 'Private sessions', p: 'One student, one tutor, for a focus area that needs repair.' },
       { h3: 'Honest about outcomes', p: 'We never promise a band. The marks are earned by the student.' }
     ]
@@ -244,7 +244,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A single monthly fee in US dollars, the same for every family outside India. Nothing to join and nothing owed beyond the month in progress.',
     free: ['A real lesson on a real topic', 'A frank view of the gaps', 'No card needed'],
-    group: ['Five to ten students at one level', 'The same tutor each week', 'Practice marked and discussed', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same tutor each week', 'Practice marked and discussed', 'A certificate at the end'],
     one: ['One tutor, one student', 'Aimed at named weak spots', 'Useful in the run-up to trials']
   },
 

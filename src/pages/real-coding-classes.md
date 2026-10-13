@@ -291,7 +291,7 @@ METHOD / 02
 
 ### Small batches, by design
 
-Up to 10 students per group, 3–4 in a mini batch, or fully 1-on-1. Deep questions need room to be asked, and answered properly.
+Up to 20 students per group, up to 6 in a mini batch, or fully 1-on-1. Deep questions need room to be asked, and answered properly.
 
 METHOD / 03
 
@@ -446,7 +446,7 @@ No "call us for pricing." No surprise fees. Every plan includes live classes twi
 
 ### Group
 
-Up to 10 students
+Up to 20 students
 
 ₹1,499 / month$100 USD / month
 
@@ -459,7 +459,7 @@ Try a free demoMost chosen
 
 ### Mini Batch
 
-3–4 students · India
+up to 6 students · India
 
 ₹2,999 / month
 
@@ -521,11 +521,11 @@ Yes. The Python masterclass covers decorators, generators, context managers, typ
 
 How are the live classes structured?
 
-Every class is live, never recorded-video-only. You learn in a small batch (up to 10 students, or 3–4 in a mini batch, or fully 1-on-1), typically two classes per week. Each class mixes concept teaching, live coding together, and problem-solving. You get class recordings and notes afterwards, monthly projects, and mentors who follow up between classes.
+Every class is live, never recorded-video-only. You learn in a batch (up to 20 students, or up to 6 in a mini batch, or fully 1-on-1), typically two classes per week. Each class mixes concept teaching, live coding together, and problem-solving. You get class recordings and notes afterwards, monthly projects, and mentors who follow up between classes.
 
 What do the classes cost?
 
-Pricing is fully transparent: Group classes (up to 10 students) are ₹1,499 per month, Mini batches (3–4 students, India) are ₹2,999 per month, and 1-on-1 personal classes are ₹4,999 per month. International students pay a price set for their own country, shown on each page in their local currency. There are no hidden costs, and the first demo class is free.
+Pricing is fully transparent: Group classes (up to 20 students) are ₹1,499 per month, Mini batches (up to 6 students, India) are ₹2,999 per month, and 1-on-1 personal classes are ₹4,999 per month. International students pay a price set for their own country, shown on each page in their local currency. There are no hidden costs, and the first demo class is free.
 
 Do you teach students outside India? What about time zones?
 

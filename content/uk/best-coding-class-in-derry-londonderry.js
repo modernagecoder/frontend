@@ -64,7 +64,7 @@ module.exports = {
 
   h1: 'Coding classes in Derry~Londonderry',
   capsuleQ: 'What are the best coding classes in Derry~Londonderry?',
-  capsule: 'The settlement NISRA calls Derry City had 85,279 usual residents at the 2021 census, in the council area of Derry City and Strabane. The Historic Environment Division lists the Guildhall on Shipquay Place at Grade A, and the town walls are a scheduled monument. Anyone here from six to sixty-seven can join our lessons, which a teacher in India leads live on a video call, one to one or with a group of five to ten working at one level, fitted around school and work in Northern Ireland. You pay nothing for the first session; staying on costs USD 100 a month in a group or USD 150 a month for private teaching.',
+  capsule: 'The settlement NISRA calls Derry City had 85,279 usual residents at the 2021 census, in the council area of Derry City and Strabane. The Historic Environment Division lists the Guildhall on Shipquay Place at Grade A, and the town walls are a scheduled monument. Anyone here from six to sixty-seven can join our lessons, which a teacher in India leads live on a video call, one to one or with a group of fifteen to twenty working at one level, fitted around school and work in Northern Ireland. You pay nothing for the first session; staying on costs USD 100 a month in a group or USD 150 a month for private teaching.',
   lead: 'Trains leave Derry~Londonderry for Coleraine about once an hour, and trains from Coleraine come the other way. Somewhere, each pair must pass. Our project finds where, using a time-distance chart: time along one axis, distance along the other, every train a sloping line. Where an eastbound line crosses a westbound one, two trains meet. A first, simple model, with one time per station, says the meetings happen out on the line between Bellarena and Castlerock. Add the minutes each train waits at a station, from the same timetable, and all 15 of Wednesday\'s meetings move to one place: the platform at Bellarena.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Derry~Londonderry.',
 
@@ -189,7 +189,7 @@ module.exports = {
       { h3: 'Across the city', p: 'A learner in Waterside and another near Long Tower can share one class without either travelling across town.' },
       { h3: 'Matched to local schooling', p: 'Whether a child is in primary school, facing the transfer test or taking CCEA GCSEs and A levels up to Year 14, we place them at the right stage; all teaching is in English.' },
       { h3: 'The opening lesson', p: 'The free session is spent writing real code, and closes with the teacher\'s suggested level, course and weekly time. We never ask for a card.' },
-      { h3: 'Grouped by stage', p: 'A class brings together five to ten learners of the same level from here, from elsewhere in the UK and from other countries, which keeps a spread of sensible times open.' },
+      { h3: 'Grouped by stage', p: 'A class brings together fifteen to twenty learners of the same level from here, from elsewhere in the UK and from other countries, which keeps a spread of sensible times open.' },
       { h3: 'Twice weekly', p: 'Lessons run on two set days every week, making roughly eight a month; the teacher works around school holidays and exam revision with each family.' },
       { h3: 'Evenings in India', p: 'India has one time zone all year, so a class at 5 pm here begins at 21:30 for our teachers during British Summer Time and 22:30 in winter.' }
     ],
@@ -200,7 +200,7 @@ module.exports = {
     h2: 'Derry~Londonderry lesson fees',
     intro: 'A free first lesson, then a single monthly fee.',
     first: 'A full lesson with no charge, ending with a suggested level, course and weekly time.',
-    group: 'About eight live lessons a month, in a class of five to ten learners at one level.',
+    group: 'About eight live lessons a month, in a class of fifteen to twenty learners at one level.',
     private: 'About eight live lessons a month, with a teacher for your learner only.',
     closer: 'Every family outside India, including those in Ballyarnett and The Moor, is billed in US dollars; we do not list prices in pounds. The first charge comes only after the free lesson and once you have chosen a course and a weekly time, and the pricing page explains how breaks, missed sessions and a switch between group and one-to-one classes work.'
   },
@@ -225,8 +225,8 @@ module.exports = {
       { q: 'Are the city walls protected?', a: 'Yes. The Historic Environment Division\'s scheduled zones include monument 014:033, recorded as Londonderry Town Walls. The Guildhall on Shipquay Place is a Grade A listed building.' },
       { q: 'When are lessons for learners here?', a: 'Most pick a regular slot straight after school, later on a weekday or at a weekend, and settle it during the free lesson. Our teachers are in India, so a teatime lesson here reaches them at about half past nine at night in summer and half past ten in winter.' },
       { q: 'Is there a centre in Derry~Londonderry?', a: 'No. We have no centre here and no premises anywhere in the UK, because every lesson is live online. Learners need a computer with sound and a steady connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do lessons cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than by age or where they live, with five to ten learners at the same stage. When no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do lessons cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than by age or where they live, with fifteen to twenty learners at the same stage. When no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

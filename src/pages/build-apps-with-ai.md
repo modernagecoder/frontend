@@ -181,7 +181,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, same teacher every week
+- Fifteen to twenty students, same teacher every week
 - Live video, never a recording
 - Build work between sessions, reviewed by the teacher
 - Certificate on completion
@@ -300,7 +300,7 @@ Children from about 6 build real apps in block-based environments, and the produ
 
 ### What do the app-building classes cost?
 
-The standard figures for everything we teach: USD 100 a month for a group batch of five to eight, USD 150 a month for one to one, flat across every country we serve outside India, with monthly billing and no joining fee. The first class is free, and for this page it means arriving with an app idea and leaving with its first screen running.
+The standard figures for everything we teach: USD 100 a month for a group batch of fifteen to twenty, USD 150 a month for one to one, flat across every country we serve outside India, with monthly billing and no joining fee. The first class is free, and for this page it means arriving with an app idea and leaving with its first screen running.
 
 ### How do I start building my app from this page?
 

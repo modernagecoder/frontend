@@ -256,7 +256,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Floating point is a good example of a principle on our <a href='/how-we-teach'>how we teach</a> page: mistakes are data, not failures. An unexpected output like 0.30000000000000004 is the start of an investigation, not a reason to give up. Tracing code line by line until every step can be predicted, including what the computer really stores, is how that investigation ends. Our <a href='/courses/python-complete-masterclass-teens'>Python course for teens</a> runs one to one or in small groups of 5 to 10."
+        "text": "Floating point is a good example of a principle on our <a href='/how-we-teach'>how we teach</a> page: mistakes are data, not failures. An unexpected output like 0.30000000000000004 is the start of an investigation, not a reason to give up. Tracing code line by line until every step can be predicted, including what the computer really stores, is how that investigation ends. Our <a href='/courses/python-complete-masterclass-teens'>Python course for teens</a> runs one to one or in groups of 15 to 20."
       },
       {
         "type": "embed",

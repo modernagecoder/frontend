@@ -4,7 +4,7 @@ description: "Live online Python, coding, AI and vibe coding lessons for Ashford
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-ashford
 source: src/pages/online-coding-and-python-classes-in-ashford.html
 ---
-> Ashford borough counted 132,747 usual residents at the 2021 census. Its largest built-up area, Ashford itself, had 82,140, and Tenterden 7,775, per the ONS. Kennington, Willesborough, Singleton and Kingsnorth are among the places recorded around the town. Children from six and adults up to 67 across the borough join our India-based tutors on live video for Python, coding, AI, vibe coding and maths, taught solo or in a small class of five to ten learners of one level. We start with reasoning, so every learner can judge what a program or a chatbot hands back. Session one is free and finishes with a recommended course. The Ashford project runs a chi-square test in Python on Census household sizes and meets a p-value with 105 zeros after the decimal point, attached to a difference that turns out to be modest. Ongoing lessons cost USD 100 a month in a group or USD 150 a month one-to-one.
+> Ashford borough counted 132,747 usual residents at the 2021 census. Its largest built-up area, Ashford itself, had 82,140, and Tenterden 7,775, per the ONS. Kennington, Willesborough, Singleton and Kingsnorth are among the places recorded around the town. Children from six and adults up to 67 across the borough join our India-based tutors on live video for Python, coding, AI, vibe coding and maths, taught solo or in a class of fifteen to twenty learners of one level. We start with reasoning, so every learner can judge what a program or a chatbot hands back. Session one is free and finishes with a recommended course. The Ashford project runs a chi-square test in Python on Census household sizes and meets a p-value with 105 zeros after the decimal point, attached to a difference that turns out to be modest. Ongoing lessons cost USD 100 a month in a group or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Ashford
 
@@ -12,11 +12,11 @@ Ashford, Kent, England / Live online
 
 # Online coding and Python classes in Ashford, Kent
 
-**Which are the best online coding and Python classes in Ashford, Kent?** Ashford borough counted 132,747 usual residents at the 2021 census. Its largest built-up area, Ashford itself, had 82,140, and Tenterden 7,775, per the ONS. Kennington, Willesborough, Singleton and Kingsnorth are among the places recorded around the town. Children from six and adults up to 67 across the borough join our India-based tutors on live video for Python, coding, AI, vibe coding and maths, taught solo or in a small class of five to ten learners of one level. We start with reasoning, so every learner can judge what a program or a chatbot hands back. Session one is free and finishes with a recommended course. The Ashford project runs a chi-square test in Python on Census household sizes and meets a p-value with 105 zeros after the decimal point, attached to a difference that turns out to be modest. Ongoing lessons cost USD 100 a month in a group or USD 150 a month one-to-one.
+**Which are the best online coding and Python classes in Ashford, Kent?** Ashford borough counted 132,747 usual residents at the 2021 census. Its largest built-up area, Ashford itself, had 82,140, and Tenterden 7,775, per the ONS. Kennington, Willesborough, Singleton and Kingsnorth are among the places recorded around the town. Children from six and adults up to 67 across the borough join our India-based tutors on live video for Python, coding, AI, vibe coding and maths, taught solo or in a class of fifteen to twenty learners of one level. We start with reasoning, so every learner can judge what a program or a chatbot hands back. Session one is free and finishes with a recommended course. The Ashford project runs a chi-square test in Python on Census household sizes and meets a p-value with 105 zeros after the decimal point, attached to a difference that turns out to be modest. Ongoing lessons cost USD 100 a month in a group or USD 150 a month one-to-one.
 
 A p-value answers one narrow question: if there were really no difference, how surprising would data like ours be? It does not say how big the difference is, and with enough data even a trivial gap produces a p-value that looks spectacular. Ashford is a good place to see this for yourself. Census 2021 gives the size of all 53,582 households in the borough, and in Python a learner can test whether that mix differs from the rest of England, measure how large the difference really is, and then discover how the verdict changes when only a few hundred households are sampled.
 
-Facts last verified 29 September 2026. Teaching is online; no Ashford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Ashford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python, statistics and AI courses for Ashford
 
@@ -145,7 +145,7 @@ All you need is a computer and broadband good enough for a video call.
 - **Learner at the keyboard** Students write, prompt and run the code themselves; the tutor watches the shared screen and keeps asking for reasons.
 - **Pitched from the trial** What the free session reveals decides the first topic, and any exam board is recorded.
 - **Nothing to pay first** The trial lesson is free of charge and ends with our course suggestion.
-- **Level-matched groups** A group has five to ten learners from around the UK at the same stage.
+- **Level-matched groups** A group has fifteen to twenty learners from around the UK at the same stage.
 - **Two a week** Lessons stop for school holidays.
 - **Same time all year** Our tutors adjust for British Summer Time, so your slot does not move.
 

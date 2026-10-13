@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Alphen aan den Rijn f
 canonical: https://learn.modernagecoders.com/coding-classes-in-alphen-aan-den-rijn
 source: src/pages/coding-classes-in-alphen-aan-den-rijn.html
 ---
-> Coding classes in Alphen aan den Rijn serve 117,284 people (Statistics Netherlands, 1 January 2026) across eight places on the Oude Rijn, in a municipality that took its present shape on 1 January 2014. One page of the national statistics site carries two tables about students in this municipality. In one, the vocational figure is 1,648 and the higher-education figures are zero. In the other, the vocational figure is 3,110 and the higher-education figures are 2,470 and 1,110. Neither table says which population it counts. Modern Age Coders teaches live online in English to all eight places, ages 6 to 67, free first lesson, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Alphen aan den Rijn serve 117,284 people (Statistics Netherlands, 1 January 2026) across eight places on the Oude Rijn, in a municipality that took its present shape on 1 January 2014. One page of the national statistics site carries two tables about students in this municipality. In one, the vocational figure is 1,648 and the higher-education figures are zero. In the other, the vocational figure is 3,110 and the higher-education figures are 2,470 and 1,110. Neither table says which population it counts. Modern Age Coders teaches live online in English to all eight places, ages 6 to 67, free first lesson, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Alphen aan den Rijn
 
@@ -12,11 +12,11 @@ Alphen aan den Rijn, Zuid-Holland / Live online
 
 # Coding classes in Alphen aan den Rijn, where one page counts the same students twice and gets two answers
 
-**What are the best coding classes in Alphen aan den Rijn?** Coding classes in Alphen aan den Rijn serve 117,284 people (Statistics Netherlands, 1 January 2026) across eight places on the Oude Rijn, in a municipality that took its present shape on 1 January 2014. One page of the national statistics site carries two tables about students in this municipality. In one, the vocational figure is 1,648 and the higher-education figures are zero. In the other, the vocational figure is 3,110 and the higher-education figures are 2,470 and 1,110. Neither table says which population it counts. Modern Age Coders teaches live online in English to all eight places, ages 6 to 67, free first lesson, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Alphen aan den Rijn?** Coding classes in Alphen aan den Rijn serve 117,284 people (Statistics Netherlands, 1 January 2026) across eight places on the Oude Rijn, in a municipality that took its present shape on 1 January 2014. One page of the national statistics site carries two tables about students in this municipality. In one, the vocational figure is 1,648 and the higher-education figures are zero. In the other, the vocational figure is 3,110 and the higher-education figures are 2,470 and 1,110. Neither table says which population it counts. Modern Age Coders teaches live online in English to all eight places, ages 6 to 67, free first lesson, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Two tables sit on the same page about the same municipality. One reports 1,648 vocational students; the other reports 3,110. The pair looks like an error until you read across: the first table also reports zero students in applied higher education, and the second reports 2,470. A municipality does not have zero and 2,470 of the same thing, so the two tables must be counting different populations, one of them students at institutions here and the other residents studying anywhere. Neither table says so. Working that out from the numbers is a real skill, and it is not taught anywhere.
 
-Facts last verified 8 September 2026. Teaching is online; no Alphen aan den Rijn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 8 September 2026. Teaching is online; no Alphen aan den Rijn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a town, a nursery village and six smaller places
 
@@ -208,7 +208,7 @@ Benthuizen looks towards Zoetermeer, Boskoop keeps its own centre, and Aarlander
 Printed here rather than saved for a phone call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 A family in Aarlanderveen and a family in the town are shown the same number, because there is one international rate, it is in dollars, and no euro version of it exists. Money is the last step rather than the first: the free lesson settles a course and an hour, and only then does anything go through WhatsApp. The pricing page handles pauses, plan changes and missed weeks.
@@ -249,7 +249,7 @@ No, and none is claimed in the town, in Boskoop or anywhere in the Netherlands. 
 
 ### What do coding classes in Alphen aan den Rijn cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a group here?
 

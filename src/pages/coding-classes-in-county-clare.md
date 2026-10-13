@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across County Clare, fro
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-clare
 source: src/pages/coding-classes-in-county-clare.html
 ---
-> County Clare holds 127,938 people, 9,121 more than in 2016, including 24,998 children aged 15 and under. Ennis is much the largest town at 27,923, Shannon follows at 10,256, and the rest of the county runs from Kilrush and Ennistymon on the coast to Killaloe on the lake. Clare also has the second highest share of Irish speakers of any county. We teach ages 6 to 67 live online at a fixed weekly hour, in ability groups of five to ten or one to one, beginning with a free lesson and then USD 100 a month in a group or USD 150 privately.
+> County Clare holds 127,938 people, 9,121 more than in 2016, including 24,998 children aged 15 and under. Ennis is much the largest town at 27,923, Shannon follows at 10,256, and the rest of the county runs from Kilrush and Ennistymon on the coast to Killaloe on the lake. Clare also has the second highest share of Irish speakers of any county. We teach ages 6 to 67 live online at a fixed weekly hour, in ability groups of fifteen to twenty or one to one, beginning with a free lesson and then USD 100 a month in a group or USD 150 privately.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [Limerick](/best-coding-class-in-limerick) / County Clare
 
@@ -12,11 +12,11 @@ County Clare, Munster / Live online
 
 # Coding classes in County Clare
 
-**What are the best coding classes in County Clare?** County Clare holds 127,938 people, 9,121 more than in 2016, including 24,998 children aged 15 and under. Ennis is much the largest town at 27,923, Shannon follows at 10,256, and the rest of the county runs from Kilrush and Ennistymon on the coast to Killaloe on the lake. Clare also has the second highest share of Irish speakers of any county. We teach ages 6 to 67 live online at a fixed weekly hour, in ability groups of five to ten or one to one, beginning with a free lesson and then USD 100 a month in a group or USD 150 privately.
+**What are the best coding classes in County Clare?** County Clare holds 127,938 people, 9,121 more than in 2016, including 24,998 children aged 15 and under. Ennis is much the largest town at 27,923, Shannon follows at 10,256, and the rest of the county runs from Kilrush and Ennistymon on the coast to Killaloe on the lake. Clare also has the second highest share of Irish speakers of any county. We teach ages 6 to 67 live online at a fixed weekly hour, in ability groups of fifteen to twenty or one to one, beginning with a free lesson and then USD 100 a month in a group or USD 150 privately.
 
 Clare County Council's page on the national data portal says seven datasets. Count them properly and there are five. Two entries are the same datasets published twice, the copies distinguishable only by a stray digit at the end of a web address. That would be a small thing on its own, except that two of the remaining entries are not Clare data at all: one describes itself as owned and provided by Limerick County Council, and its own text misspells the name of that council. So a catalogue of seven is really five topics, three of which belong to this county. None of this is concealed. It is written on the page, in plain sight, waiting for somebody to read it rather than count it. That habit, reading what a label actually says instead of trusting what it claims, is what we build here.
 
-Facts last verified 16 September 2026. Teaching is online; no County Clare branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no County Clare branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where a Clare learner starts
 
@@ -172,7 +172,7 @@ Six plain facts about the format, so nothing has to be guessed at.
 - **Live, never recorded lessons** A teacher is present for the full hour and the learner talks back. Recordings are revision, not the class.
 - **One hour, one fixed slot** Usually twice a week, about eight lessons a month, on days agreed once and then kept.
 - **Nothing to install first** A laptop or desktop, working sound, a steady connection. We set up the tools during the first lessons.
-- **Placed by ability, not age** Groups of five to ten at one level, drawn from Clare and several other countries so the right class exists at a sensible hour.
+- **Placed by ability, not age** Groups of fifteen to twenty at one level, drawn from Clare and several other countries so the right class exists at a sensible hour.
 - **Written to Irish school terms** Junior Cycle, Transition Year, fifth and sixth year, with exam weeks and mid-terms planned around.
 - **Teachers ahead of Irish time** They work from India, four and a half hours ahead in summer and five and a half in winter, which suits afternoons and evenings here.
 
@@ -183,7 +183,7 @@ Six plain facts about the format, so nothing has to be guessed at.
 What it costs, in three lines, with the conditions stated rather than buried.
 
 - First class: USD 0. A full first lesson, free, ending with a level and a recommendation.
-- Group tuition: USD 100 a month. Group classes for a month, normally eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. Group classes for a month, normally eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. One to one classes for a month on the same weekly pattern.
 
 Everything is billed monthly in US dollars at the single rate we charge outside India, which means Kilkee and Ennis pay the same and no euro list exists to compare against. We charge nothing until the free lesson has settled a course and a weekly hour. Pauses, missed lessons and moving between group and one to one are all described on the pricing page rather than left to be discovered later.
@@ -224,7 +224,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do County Clare coding classes cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

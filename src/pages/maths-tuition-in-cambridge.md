@@ -14,7 +14,7 @@ Cambridge · Maths tutors for ages 6 to 67 · Live lessons by video
 
 In the 2021 census, 11,836 Cambridge residents said they usually cycled to work. That was 16.8 per cent of everyone in work, against 2.1 per cent across England. So how much more do Cambridge people cycle? You can honestly say 14.7 percentage points more, or 699 per cent more, or about 8 times as much. Leave out the people who worked from home and the share climbs to 30.8 per cent, and the multiple becomes 10. Every one of those statements is true. Knowing which one a writer chose, and why, is what percentages are really about. This page explains how we teach maths to Cambridge learners from primary school to A level and beyond, with the census as our example.
 
-At a glance: Ages: 6 to 67, in and around Cambridge; Primary: KS2 maths, tables, SATs; KS3: Years 7 to 9, percentages and algebra; GCSE: Foundation and Higher, AQA, Edexcel, OCR; Sixth form: A level and Further Maths topics; Adults: GCSE resits and statistics for work; Teaching: Live online, solo or 5 to 10 per class; Project: Census cycling percentages. Rated 4.9 across 547 Google reviews.
+At a glance: Ages: 6 to 67, in and around Cambridge; Primary: KS2 maths, tables, SATs; KS3: Years 7 to 9, percentages and algebra; GCSE: Foundation and Higher, AQA, Edexcel, OCR; Sixth form: A level and Further Maths topics; Adults: GCSE resits and statistics for work; Teaching: Live online, solo or 15 to 20 per class; Project: Census cycling percentages. Rated 4.9 across 547 Google reviews.
 
 ## A level, GCSE and primary maths
 
@@ -233,7 +233,7 @@ Our teachers are in India, which sits five and a half hours ahead of Cambridge i
 
 - **One teacher throughout** The same teacher each week, who remembers what went wrong last time.
 - **Notes home** A short update after lessons on progress and next steps.
-- **Classes of five to ten** Learners at the same level, so the pace fits.
+- **Classes of fifteen to twenty** Learners at the same level, so the pace fits.
 - **Census and real data** Real tables alongside exam papers.
 - **Solo lessons** For an exam soon or one stubborn topic.
 - **Why, then how** Every method is explained before it is practised.
@@ -243,7 +243,7 @@ Our teachers are in India, which sits five and a half hours ahead of Cambridge i
 Monthly, in US dollars, at one price for everywhere outside India. No registration fee and no minimum term.
 
 - Free first class: USD 0. A full lesson at the right level. An honest view of the starting point. No card needed.
-- Group batch: USD 100 a month. Five to ten learners, one level. A consistent teacher. Marked work with feedback. A certificate on completion.
+- Group batch: USD 100 a month. Fifteen to twenty learners, one level. A consistent teacher. Marked work with feedback. A certificate on completion.
 - One to one: USD 150 a month. A teacher for one learner. Planned around their needs. Useful before exams.
 
 ## Cambridge families ask us about maths tuition
@@ -254,7 +254,7 @@ A percentage point is the gap between two percentages, found by subtracting. A p
 
 ### How much does a maths tutor in Cambridge cost with you?
 
-The first lesson is free. After that a place in a class of five to ten is USD 100 a month and one to one lessons are USD 150 a month, with no joining fee.
+The first lesson is free. After that a place in a class of fifteen to twenty is USD 100 a month and one to one lessons are USD 150 a month, with no joining fee.
 
 ### Do you teach Further Maths in Cambridge?
 

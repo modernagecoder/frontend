@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Coding classes in Naas',
   capsuleQ: 'What is the best coding class in Naas?',
-  capsule: 'Naas holds 25,991 usual residents in the census town tables, in 8,817 households, and 2,034 of its children under fifteen are in some form of childcare. Our teaching reaches all of them without anyone leaving the house: live video lessons twice in most weeks, in a group of five to ten placed at the same level or one to one, for learners aged six to sixty-seven. We charge nothing for the first lesson, then USD 100 a month for a group place or USD 150 for one to one.',
+  capsule: 'Naas holds 25,991 usual residents in the census town tables, in 8,817 households, and 2,034 of its children under fifteen are in some form of childcare. Our teaching reaches all of them without anyone leaving the house: live video lessons twice in most weeks, in a group of fifteen to twenty placed at the same level or one to one, for learners aged six to sixty-seven. We charge nothing for the first lesson, then USD 100 a month for a group place or USD 150 for one to one.',
   lead: 'Ask the census where people in Naas were born and it answers most of the question. Of 25,991 usual residents, 19,599 were born in Ireland, 1,131 in the United Kingdom, 1,008 in Poland and 368 in India. Then it stops answering: the next largest group, 2,674 people, sits under the heading Rest of World, and one more, 1,211 people, under a heading for the other EU countries. Rest of World on its own is 41.8% of everyone in the town born outside Ireland, and with the regional heading added the two cover 3,885 people, or 60.8%, by our arithmetic. So the town learns its second most common birthplace only by asking something other than the census. That is not an error in the table. It is the shape every classification ends up with, and learning to spot it is worth more than any single figure in the row.',
   wa: 'Hello Modern Age Coders, I am looking for a free coding lesson for a learner in Naas.',
 
@@ -182,7 +182,7 @@ module.exports = {
     intro: 'The logistics in six lines.',
     cells: [
       { h3: 'Taught live', p: 'A teacher on video, watching the work happen and correcting it in the moment. No recordings standing in for teaching.' },
-      { h3: 'Grouped by level', p: 'Five to ten learners of the same ability, joining from Naas, elsewhere in Ireland and other countries.' },
+      { h3: 'Grouped by level', p: 'Fifteen to twenty learners of the same ability, joining from Naas, elsewhere in Ireland and other countries.' },
       { h3: 'A fixed weekly hour', p: 'Two lessons most weeks, about eight in a month, in a slot chosen once and then left alone.' },
       { h3: 'Term dates respected', p: 'Mid-terms, holidays and exam periods are worked into the plan when the schedule is set.' },
       { h3: 'Equipment', p: 'A laptop or desktop, sound that works and a connection steady enough for video, all checked during the free lesson.' },
@@ -195,7 +195,7 @@ module.exports = {
     h2: 'Naas class fees',
     intro: 'Everything we charge, in three lines.',
     first: 'A complete first lesson at no charge, ending with an assessed level and a course recommendation.',
-    group: 'A month in an ability group of five to ten learners, roughly eight live lessons.',
+    group: 'A month in an ability group of fifteen to twenty learners, roughly eight live lessons.',
     private: 'A month of private lessons, same frequency, one learner and one teacher.',
     closer: 'Fees are monthly, in US dollars, at the single rate for families outside India, which means Naas sees the same figure as every other Irish town and no second price list in another currency. Payment starts only once the free lesson has fixed a course and an hour, and pauses, missed lessons and moves between group and private are set out on the pricing page.'
   },
@@ -220,7 +220,7 @@ module.exports = {
       { q: 'Do you take adult beginners in Naas?', a: 'Yes. The range runs from six to sixty-seven, and an adult who has never programmed is placed after the free lesson, either in a group at the same level or with a teacher privately.' },
       { q: 'What does a learner need to start?', a: 'A laptop or desktop rather than a phone, working sound and a connection that carries video. No prior coding and no software purchase.' },
       { q: 'Is there a Modern Age Coders classroom in Naas?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Naas cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Naas cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

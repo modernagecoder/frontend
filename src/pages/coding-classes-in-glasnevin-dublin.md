@@ -16,7 +16,7 @@ Glasnevin, Dublin 9 / Live online
 
 Met Éireann has measured temperature at its Glasnevin station since 1961, and 58 of the years since are complete. If nothing were changing, every year would be as likely as any other to be the warmest so far, and 58 years would set about 4.65 records for the warmest year by chance alone. Glasnevin's yearly average has set 10, three of them in the last 20 complete years, where chance would give less than half of one. This page teaches a learner where 4.65 comes from, how to test it by shuffling the years, and why the same test on the single hottest day tells a quieter story.
 
-Facts last verified 20 September 2026. Teaching is online; no Glasnevin branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Glasnevin branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four first courses for Glasnevin
 
@@ -148,7 +148,7 @@ A record is only news next to the number chance would produce. Code lets you wor
 What to expect.
 
 - **Teacher present** Lessons are taught in real time, with the teacher reviewing each learner's code and helping as it is written.
-- **Matched groups** Five to ten learners at one level, whether from Glasnevin, elsewhere in Ireland or another country.
+- **Matched groups** Fifteen to twenty learners at one level, whether from Glasnevin, elsewhere in Ireland or another country.
 - **Regular slots** Two agreed days every week, adding up to about eight lessons a month.
 - **Holidays covered** The school holidays, mid-term breaks and exam weeks are planned around.
 - **Set-up** A laptop or desktop, a working microphone, headphones or speakers, and broadband able to carry video.
@@ -161,7 +161,7 @@ What to expect.
 Straightforward.
 
 - First class: USD 0. An opening lesson free of charge, including a level check.
-- Group tuition: USD 100 a month. A month in a same-level group of five to ten, roughly eight live lessons.
+- Group tuition: USD 100 a month. A month in a same-level group of fifteen to twenty, roughly eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons at the same pace.
 
 Families outside India all pay the same fee in US dollars, one month at a time. The free lesson carries no obligation, charges begin only with the course, and the pricing page explains holidays, missed lessons and changing between group and private teaching.
@@ -198,11 +198,11 @@ Only by chance, since groups are formed by level, so classmates can be from anyw
 
 ### What do coding classes in Glasnevin cost?
 
-The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before anything is paid.
+The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before anything is paid.
 
 ### How big is a group?
 
-Five to ten learners, matched by level, pace and goals rather than by age or where they live. If no group runs at a workable time, lessons are one to one.
+Fifteen to twenty learners, matched by level, pace and goals rather than by age or where they live. If no group runs at a workable time, lessons are one to one.
 
 ## Around Glasnevin
 

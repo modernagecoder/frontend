@@ -63,7 +63,7 @@ module.exports = {
 
   h1: 'Coding classes in Antrim and Newtownabbey',
   capsuleQ: 'What are the best coding classes in Antrim and Newtownabbey?',
-  capsule: 'Antrim and Newtownabbey had 145,661 usual residents at the 2021 census, according to NISRA. Its biggest settlement is Metropolitan Newtownabbey, then the town of Antrim, with Ballyclare, Crumlin, Randalstown and Templepatrick among the smaller places. All our lessons are taught live by video from India. Learners aged 6 to 67 take coding, Python and maths, either one-to-one or in a group of five to ten at the same level. A free first lesson decides the starting course. The district project is set on a wartime airfield. If you continue, a group place is USD 100 a month and private lessons USD 150 a month.',
+  capsule: 'Antrim and Newtownabbey had 145,661 usual residents at the 2021 census, according to NISRA. Its biggest settlement is Metropolitan Newtownabbey, then the town of Antrim, with Ballyclare, Crumlin, Randalstown and Templepatrick among the smaller places. All our lessons are taught live by video from India. Learners aged 6 to 67 take coding, Python and maths, either one-to-one or in a group of fifteen to twenty at the same level. A free first lesson decides the starting course. The district project is set on a wartime airfield. If you continue, a group place is USD 100 a month and private lessons USD 150 a month.',
   lead: 'In August 1942 an airfield at Langford Lodge opened as AAF Station 597, a depot for the United States Army Air Force, run by the Lockheed Overseas Corporation with 2,600 employees. The Historic Environment Division\'s defence record says 3,250 aircraft were reassembled or modified there and 11,000 serviced. That many aircraft needed somewhere to wait, and the record describes finger parks: short dead-end strips that packed aircraft in tightly but meant they had to be towed on and off. Park planes nose to tail in a dead end and the first one in is the last one out. If the aircraft you need is at the back, everything in front must be moved. How much towing does that cost, and how much can planning save? This page\'s project works it out in Python.',
   wa: 'Hello Modern Age Coders, we are in Antrim and Newtownabbey and would like to book a free lesson, please.',
 
@@ -168,7 +168,7 @@ module.exports = {
       { h3: 'Hands on', p: 'Learners type their own programs, and the tutor follows the shared screen, stepping in with a question when needed.' },
       { h3: 'Northern Ireland years', p: 'A Crumlin P6 or a Ballyclare Year 13 is placed by Northern Ireland school year and key stage, with CCEA exam names. Teaching is in English.' },
       { h3: 'Free trial', p: 'One full lesson free of charge, with a recommendation at the end.' },
-      { h3: 'Level groups', p: 'Five to ten learners at one level, gathered from across the UK.' },
+      { h3: 'Level groups', p: 'Fifteen to twenty learners at one level, gathered from across the UK.' },
       { h3: 'Term weeks', p: 'Two lessons a week in term time, none in holidays.' },
       { h3: 'Local time kept', p: 'Your lesson stays at the same Northern Ireland clock time through spring and autumn changes; our teachers adapt.' }
     ],
@@ -179,7 +179,7 @@ module.exports = {
     h2: 'Fees in Antrim and Newtownabbey',
     intro: 'Antrim or Newtownabbey, the price is the same, as it is in every country we teach outside India.',
     first: 'A full first lesson at no cost, then our honest advice.',
-    group: 'About eight lessons a month in a class of five to ten.',
+    group: 'About eight lessons a month in a class of fifteen to twenty.',
     private: 'About eight lessons a month with a dedicated tutor.',
     closer: 'Fees are in US dollars only; we have no sterling price. Payment begins after the trial has set a course and a weekly time, and the pricing page explains holidays, missed lessons and changing format.'
   },

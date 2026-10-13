@@ -256,7 +256,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Encryption is a good fit for two principles on our <a href='/how-we-teach'>how we teach</a> page. Learning by building: making a cipher, then breaking it, teaches more than any definition. And tracing code line by line until every step can be predicted, which is exactly how the wrap-round from Z back to A starts to make sense. Our <a href='/courses/python-complete-masterclass-teens'>Python course for teens</a> runs one to one or in small groups of 5 to 10."
+        "text": "Encryption is a good fit for two principles on our <a href='/how-we-teach'>how we teach</a> page. Learning by building: making a cipher, then breaking it, teaches more than any definition. And tracing code line by line until every step can be predicted, which is exactly how the wrap-round from Z back to A starts to make sense. Our <a href='/courses/python-complete-masterclass-teens'>Python course for teens</a> runs one to one or in groups of 15 to 20."
       },
       {
         "type": "embed",

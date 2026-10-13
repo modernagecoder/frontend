@@ -244,7 +244,7 @@ module.exports = {
       { h3: 'Code reviewed', p: 'A teacher reads each program and suggests the next improvement.' },
       { h3: 'Loops to events', p: 'From checking in a loop to responding to events, as the official examples show.' },
       { h3: 'Safety habits', p: 'The documentation\'s three rules repeated until they are automatic.' },
-      { h3: 'Small groups', p: 'Five to ten learners at one level.' }
+      { h3: 'Small groups', p: 'Fifteen to twenty learners at one level.' }
     ]
   },
 
@@ -256,7 +256,7 @@ module.exports = {
     h2: 'Fees for Python lessons',
     lede: 'We bill monthly in US dollars, one price for all families outside India. The first lesson has no charge, and billing waits until you have chosen a course and a weekly time. Hardware is not included.',
     free: ['A lesson built around your child\'s Raspberry Pi plans', 'An honest view of the Python they need first', 'A phone number is all we need'],
-    group: ['Five to ten learners at one level', 'The same teacher every week', 'Code reviewed in each lesson', 'Projects the learners choose'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher every week', 'Code reviewed in each lesson', 'Projects the learners choose'],
     one: ['A teacher for one learner', 'Paced around a specific build', 'Suits a teenager with an ambitious project']
   },
 

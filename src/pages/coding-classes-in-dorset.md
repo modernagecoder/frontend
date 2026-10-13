@@ -4,7 +4,7 @@ description: "Live online coding, Python, maths and A level classes across Dorse
 canonical: https://learn.modernagecoders.com/coding-classes-in-dorset
 source: src/pages/coding-classes-in-dorset.html
 ---
-> Dorset is two councils with 779,775 residents at the 2021 Census: Bournemouth, Christchurch and Poole, which holds just over half the county's people, and Dorset Council, which covers the rest. Bournemouth and Poole are the big places, then Weymouth, Christchurch and Dorchester, with market towns inland and along the Jurassic Coast. Classes work the same for all of them. Teachers based in India teach live over video, learners are grouped by ability instead of age, the age range runs from 6 to 67, and you can choose a group of five to ten or one-to-one teaching, across programming, Python, maths and statistics. The Dorset project comes from the coast's rocks. Try the first lesson free. Staying on costs USD 100 a month for group lessons or USD 150 a month for a private teacher.
+> Dorset is two councils with 779,775 residents at the 2021 Census: Bournemouth, Christchurch and Poole, which holds just over half the county's people, and Dorset Council, which covers the rest. Bournemouth and Poole are the big places, then Weymouth, Christchurch and Dorchester, with market towns inland and along the Jurassic Coast. Classes work the same for all of them. Teachers based in India teach live over video, learners are grouped by ability instead of age, the age range runs from 6 to 67, and you can choose a group of fifteen to twenty or one-to-one teaching, across programming, Python, maths and statistics. The Dorset project comes from the coast's rocks. Try the first lesson free. Staying on costs USD 100 a month for group lessons or USD 150 a month for a private teacher.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Dorset
 
@@ -12,11 +12,11 @@ County of Dorset / Live online
 
 # Coding classes in Dorset
 
-**What are the best coding classes in Dorset?** Dorset is two councils with 779,775 residents at the 2021 Census: Bournemouth, Christchurch and Poole, which holds just over half the county's people, and Dorset Council, which covers the rest. Bournemouth and Poole are the big places, then Weymouth, Christchurch and Dorchester, with market towns inland and along the Jurassic Coast. Classes work the same for all of them. Teachers based in India teach live over video, learners are grouped by ability instead of age, the age range runs from 6 to 67, and you can choose a group of five to ten or one-to-one teaching, across programming, Python, maths and statistics. The Dorset project comes from the coast's rocks. Try the first lesson free. Staying on costs USD 100 a month for group lessons or USD 150 a month for a private teacher.
+**What are the best coding classes in Dorset?** Dorset is two councils with 779,775 residents at the 2021 Census: Bournemouth, Christchurch and Poole, which holds just over half the county's people, and Dorset Council, which covers the rest. Bournemouth and Poole are the big places, then Weymouth, Christchurch and Dorchester, with market towns inland and along the Jurassic Coast. Classes work the same for all of them. Teachers based in India teach live over video, learners are grouped by ability instead of age, the age range runs from 6 to 67, and you can choose a group of fifteen to twenty or one-to-one teaching, across programming, Python, maths and statistics. The Dorset project comes from the coast's rocks. Try the first lesson free. Staying on costs USD 100 a month for group lessons or USD 150 a month for a private teacher.
 
 The Jurassic Coast was inscribed as a UNESCO World Heritage Site in 2001 for its rocks, fossils and landforms, and it remains England's only natural World Heritage Site. Rocks like these are dated by radioactive clocks, and a question every curious child asks is why scientists cannot just use carbon dating. This page's project answers it with a few lines of Python and the official half-lives published by the International Atomic Energy Agency. The answer has three parts: carbon runs out, the computer then rounds what is left to exactly zero, and even the right clock is only useful if its half-life suits the age you are trying to measure.
 
-Facts last verified 26 September 2026. Teaching is online; no Dorset branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Dorset branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Popular first courses in Dorset
 
@@ -149,7 +149,7 @@ Dorset stretches a long way along its coast and inland. Online lessons make ever
 - **In your own home** A bedroom in Blandford Forum, a kitchen in Wareham, a desk in Verwood. The teacher shares a screen and the learner types.
 - **Familiar school language** Teachers use the terms Dorset pupils hear every day, from Year 8 to GCSE options and sixth form, and teach in English.
 - **Free first lesson** A proper lesson with real work and a straightforward recommendation. No card details are ever asked for.
-- **Classmates who match** A class of five to ten people who have all reached roughly the same point, pulled together from across the country so nobody is bored or lost.
+- **Classmates who match** A class of fifteen to twenty people who have all reached roughly the same point, pulled together from across the country so nobody is bored or lost.
 - **Breaks when school breaks** Two lessons a week is normal, paused for your own school's holidays, whichever council or trust set them.
 - **UK time on the timetable** Our teachers are in India, four and a half hours ahead in UK summer and five and a half in UK winter; the timetable is written in UK time.
 
@@ -160,7 +160,7 @@ Dorset stretches a long way along its coast and inland. Online lessons make ever
 The same prices in Bournemouth, Bridport and every town between, and in every country outside India.
 
 - First class: USD 0. A full lesson of genuine work, ending in a recommended level and course.
-- Group tuition: USD 100 a month. About eight lessons each month, in a group of five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight lessons each month, in a group of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight lessons each month with one teacher and one learner.
 
 Fees are set in US dollars for all families outside India, and no pound list exists. You pay only after the free lesson, once a course and a weekly time are agreed; the pricing page explains pausing, missed lessons and swapping between group and private.

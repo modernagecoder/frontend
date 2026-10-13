@@ -60,7 +60,7 @@ module.exports = {
 
   h1: 'Coding classes in West Lothian',
   capsuleQ: 'What are the best coding classes in West Lothian?',
-  capsule: 'West Lothian had about 181,300 residents in roughly 79,800 households at the 2022 census, at 423.9 people per square kilometre. Livingston is by far the largest town, followed by Bathgate, Broxburn, Linlithgow, Armadale and Whitburn, with East Calder, Fauldhouse and Winchburgh among the smaller places. Lessons are live on video with teachers in India, and a free first lesson places each learner at the right stage, from P1 to S6 or as an adult. Coding, Python and maths are taught to people from six up to 67, individually or in small classes of five to ten. The West Lothian project starts with a famous heap of shale. West Lothian families who stay on pay a monthly USD 100 for a shared class, or USD 150 for a tutor to themselves.',
+  capsule: 'West Lothian had about 181,300 residents in roughly 79,800 households at the 2022 census, at 423.9 people per square kilometre. Livingston is by far the largest town, followed by Bathgate, Broxburn, Linlithgow, Armadale and Whitburn, with East Calder, Fauldhouse and Winchburgh among the smaller places. Lessons are live on video with teachers in India, and a free first lesson places each learner at the right stage, from P1 to S6 or as an adult. Coding, Python and maths are taught to people from six up to 67, individually or in classes of fifteen to twenty. The West Lothian project starts with a famous heap of shale. West Lothian families who stay on pay a monthly USD 100 for a shared class, or USD 150 for a tutor to themselves.',
   lead: 'Historic Environment Scotland names the Five Sisters as the most widely known shale bing, a heap of waste left from the oil-shale industry that James Young pioneered. It has an unusual form, with five distinct lobes that the record says were formed by the method of tipping. Other bings are huge: the scheduled area at Greendykes near Broxburn measures about 920 by 580 metres. How does tipping create a shape? Every grain dropped on a heap either stays or slides downhill until the slope is gentle enough, and those simple rules, repeated thousands of times, build cones, ridges and lobes. This page\'s project simulates it in Python.',
   wa: 'Hello Modern Age Coders, we are in West Lothian and would like to book a free lesson, please.',
 
@@ -164,7 +164,7 @@ module.exports = {
       { h3: 'Learner at the keys', p: 'Pupils write and run their own code; the teacher follows the shared screen and steps in when needed.' },
       { h3: 'Stages you already know', p: 'An Armadale P4 or a Whitburn S3 hears the Curriculum for Excellence names used at school, up to Advanced Higher. Lessons are in English.' },
       { h3: 'Trial lesson, free', p: 'One complete lesson with no charge, then honest advice.' },
-      { h3: 'Classes by stage', p: 'Five to ten learners sharing a stage, from several countries.' },
+      { h3: 'Classes by stage', p: 'Fifteen to twenty learners sharing a stage, from several countries.' },
       { h3: 'Two a week in term', p: 'Lessons run through term and pause for the holidays.' },
       { h3: 'UK time throughout', p: 'Your slot stays at its UK time as the clocks change; the teachers in India time adjust.' }
     ],
@@ -175,7 +175,7 @@ module.exports = {
     h2: 'Fees in West Lothian',
     intro: 'Bathgate or Mid Calder, the fee is the same, as in every country we teach outside India.',
     first: 'A full free trial, then a clear recommendation.',
-    group: 'About eight lessons a month in a group of five to ten.',
+    group: 'About eight lessons a month in a group of fifteen to twenty.',
     private: 'About eight lessons a month with your own teacher.',
     closer: 'Every fee is quoted in US dollars, never sterling. Once the trial has settled a course and a weekday, invoices begin; the pricing page answers questions about breaks, absences and moving between formats.'
   },

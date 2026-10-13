@@ -52,7 +52,7 @@ module.exports = {
 
   h1: 'Coding classes in Ceredigion',
   capsuleQ: 'What are the best coding classes in Ceredigion?',
-  capsule: 'Ceredigion had 71,475 usual residents at the 2021 census. Aberystwyth is its only large town, with Cardigan, Lampeter and Llanbadarn Fawr next and a scattering of small towns and villages such as Aberaeron, New Quay, Tregaron and Borth. For a county of small towns and villages, live online teaching removes the travel: our teachers in India teach every class on video, and a free first lesson finds the right level for a Year 3 pupil, a Year 12 student or an adult. Learners from 6 to 67 take coding, Python and maths, with a teacher to themselves or in a group of five to ten. The Ceredigion project uses the Aberporth weather record. After the free lesson, it is USD 100 a month for a group place or USD 150 a month one-to-one.',
+  capsule: 'Ceredigion had 71,475 usual residents at the 2021 census. Aberystwyth is its only large town, with Cardigan, Lampeter and Llanbadarn Fawr next and a scattering of small towns and villages such as Aberaeron, New Quay, Tregaron and Borth. For a county of small towns and villages, live online teaching removes the travel: our teachers in India teach every class on video, and a free first lesson finds the right level for a Year 3 pupil, a Year 12 student or an adult. Learners from 6 to 67 take coding, Python and maths, with a teacher to themselves or in a group of fifteen to twenty. The Ceredigion project uses the Aberporth weather record. After the free lesson, it is USD 100 a month for a group place or USD 150 a month one-to-one.',
   lead: 'The Met Office publishes monthly records from its station at Aberporth, 133 metres above sea level, and the air frost counts run unbroken from 1957 to 2025. In those 69 years, not one May, June, July, August or September brought a single day of air frost there. So is a summer frost at Aberporth impossible? Not quite. Never having seen something in 69 tries does not prove it cannot happen; it only limits how common it can be. Statisticians have a beautifully simple rule for exactly this situation, and an exact version to check it against. This page\'s project reads the record in Python and puts a number on never.',
   wa: 'Hello Modern Age Coders, we are in Ceredigion and would like to book a free lesson, please.',
 
@@ -155,7 +155,7 @@ module.exports = {
       { h3: 'Pupils write the code', p: 'Learners type every line; the teacher follows the shared screen and helps at the right moment.' },
       { h3: 'Placed the Welsh way', p: 'A Tregaron Year 4 or an Aberystwyth Year 12 is placed by school year and the Curriculum for Wales, with WJEC exam names. We teach in English.' },
       { h3: 'Free trial first', p: 'One complete lesson for free, then plain advice on what suits.' },
-      { h3: 'Classmates at one level', p: 'Five to ten learners working at the same level, some local and many from abroad.' },
+      { h3: 'Classmates at one level', p: 'Fifteen to twenty learners working at the same level, some local and many from abroad.' },
       { h3: 'Term time only', p: 'Two lessons a week in term; holidays off.' },
       { h3: 'UK time stays put', p: 'Your lesson keeps its UK hour through the clock changes; teachers on India time adjust.' }
     ],
@@ -166,7 +166,7 @@ module.exports = {
     h2: 'Fees in Ceredigion',
     intro: 'Aberystwyth or Aberaeron, the fee is identical, the rate we charge everywhere except India.',
     first: 'A full free lesson, then a clear recommendation.',
-    group: 'About eight lessons a month with five to ten classmates.',
+    group: 'About eight lessons a month with fifteen to twenty classmates.',
     private: 'About eight lessons a month, just you and a teacher.',
     closer: 'Prices are in US dollars with no sterling alternative. We only bill after the trial, once a course and weekly slot are agreed; our pricing page explains holidays, absences and changing between group and private lessons.'
   },

@@ -4,7 +4,7 @@ description: "Help with AQA GCSE Computer Science 8525: both papers, the three p
 canonical: https://learn.modernagecoders.com/aqa-gcse-computer-science-8525-help
 source: src/pages/aqa-gcse-computer-science-8525-help.html
 ---
-> AQA 8525 is a linear GCSE: two written papers, both sat at the end of the course, each 90 marks and each worth half. Paper 1 runs two hours and covers computational thinking and programming; paper 2 runs an hour and three quarters and covers everything else, including SQL. Three things trip students up. Questions present algorithms in AQA pseudo-code, not in the language the class was taught. Program code must be written in C#, Python 3 or VB.NET. And each question states the form the answer must take, whether pseudo-code, program code or a flowchart, so answering in the wrong notation costs the marks outright. We teach the content and the exam habits together, in groups of five to ten or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+> AQA 8525 is a linear GCSE: two written papers, both sat at the end of the course, each 90 marks and each worth half. Paper 1 runs two hours and covers computational thinking and programming; paper 2 runs an hour and three quarters and covers everything else, including SQL. Three things trip students up. Questions present algorithms in AQA pseudo-code, not in the language the class was taught. Program code must be written in C#, Python 3 or VB.NET. And each question states the form the answer must take, whether pseudo-code, program code or a flowchart, so answering in the wrong notation costs the marks outright. We teach the content and the exam habits together, in groups of fifteen to twenty or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / AQA 8525 help
 
@@ -178,14 +178,14 @@ Teachers work from India on a clock that never shifts, which puts the UK five an
 - **Read the instruction** Every practice question begins by naming the form the answer must take. It becomes automatic in weeks.
 - **Test tables early** Normal, boundary and erroneous, built before the code rather than after the marks are lost.
 - **Argue for correctness** A student says why the program is right before running it, which is what the longer questions reward.
-- **Groups by level** Five to ten students at one stage, which is where comparing two answers becomes possible.
+- **Groups by level** Fifteen to twenty students at one stage, which is where comparing two answers becomes possible.
 
 ## What GCSE tuition costs
 
 A single monthly figure in US dollars, the rate outside India. The free lesson comes first and nothing is charged until a course and a slot are settled.
 
 - Free first class: USD 0. A real lesson on real exam material. A straight view of where the gaps are. Only a phone number needed.
-- Group batch: USD 100 a month. Five to ten students at one stage. The same teacher across the course. Written work marked every week. Eased off in the weeks before papers.
+- Group batch: USD 100 a month. Fifteen to twenty students at one stage. The same teacher across the course. Written work marked every week. Eased off in the weeks before papers.
 - One to one: USD 150 a month. One student and one teacher. Planned backwards from the exam dates. Useful when a grade target is specific.
 
 ## What AQA candidates and parents ask

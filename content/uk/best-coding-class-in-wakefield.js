@@ -65,7 +65,7 @@ module.exports = {
 
   h1: 'Coding classes in Wakefield',
   capsuleQ: 'What are the best coding classes in Wakefield?',
-  capsule: 'Census 2021 counted 353,368 usual residents in the Wakefield district, and 7.5% of them were aged 50 to 54, against 6.9% in England. The Hepworth Wakefield opened in 2011 to house the city\'s art collection and to give Barbara Hepworth a legacy in the town where she was born. Wakefield learners aged six to sixty-seven study with our India-based teachers over live video, on their own or in a group of five to ten with a matching level, with lessons fitted around the UK day. There is no charge for the first lesson, and after that a group place is USD 100 a month and private teaching USD 150.',
+  capsule: 'Census 2021 counted 353,368 usual residents in the Wakefield district, and 7.5% of them were aged 50 to 54, against 6.9% in England. The Hepworth Wakefield opened in 2011 to house the city\'s art collection and to give Barbara Hepworth a legacy in the town where she was born. Wakefield learners aged six to sixty-seven study with our India-based teachers over live video, on their own or in a group of fifteen to twenty with a matching level, with lessons fitted around the UK day. There is no charge for the first lesson, and after that a group place is USD 100 a month and private teaching USD 150.',
   lead: 'The Environment Agency measures the River Calder at Methley, downstream of Wakefield, every fifteen minutes. Add up those readings with the trapezium rule and the river carried about 640 million cubic metres of water in 2024. Sample it once an hour instead and the answer barely moves; once every six hours, still barely. Look only once a day and the year\'s total falls by 1.57%, which sounds harmless. But in the five days around the November flood peak of 202.4 cubic metres a second, the once-a-day total is 28.6% short, and the highest flow it ever sees is 121.1. Our teenagers integrate the flow, then learn why the sampling interval must match the fastest thing they care about.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Wakefield.',
 
@@ -192,7 +192,7 @@ module.exports = {
       { h3: 'City, towns and villages', p: 'A learner in Horbury and another in Knottingley can share one lesson without either leaving home.' },
       { h3: 'Stages as schools use them', p: 'Reception, Key Stages 1 to 4, GCSE options and A levels, named the way Wakefield schools name them, with teaching in English.' },
       { h3: 'A first lesson with real work', p: 'The free session covers a proper task and ends with a recommended level, course and weekly time. We take no card details.' },
-      { h3: 'Five to ten learners per group', p: 'Everyone in a group works at the same stage, drawn from Wakefield, the rest of the UK and overseas, so each level has a suitable hour.' },
+      { h3: 'Fifteen to twenty learners per group', p: 'Everyone in a group works at the same stage, drawn from Wakefield, the rest of the UK and overseas, so each level has a suitable hour.' },
       { h3: 'Twice a week', p: 'Two regular lessons weekly, around eight a month, with holidays and exam weeks agreed with the teacher in good time.' },
       { h3: 'Teaching after dark in India', p: 'A 5.30 pm lesson in Wakefield begins at 10 pm in India in the British summer and 11 pm in winter, as Indian clocks never change; our teachers keep those hours for UK learners.' }
     ],
@@ -203,7 +203,7 @@ module.exports = {
     h2: 'Wakefield lesson fees',
     intro: 'A free lesson first, then one fee a month.',
     first: 'A full lesson at no cost, ending with a level, course and weekly time we suggest.',
-    group: 'Around eight live lessons a month, in a class of five to ten learners at the same stage.',
+    group: 'Around eight live lessons a month, in a class of fifteen to twenty learners at the same stage.',
     private: 'Around eight live lessons a month, with a teacher for your learner alone.',
     closer: 'Normanton and Hemsworth pay what every family outside India pays: one fee in US dollars, and not a single price in pounds on our site. Payment begins only after the free lesson has settled a course and a weekly slot, and our pricing page explains pausing, missed lessons and changes between group and private teaching.'
   },
@@ -228,8 +228,8 @@ module.exports = {
       { q: 'Why is there a gallery named after Barbara Hepworth?', a: 'The Hepworth Wakefield says it opened in 2011 to house Wakefield\'s art collection and to provide a legacy for Barbara Hepworth in the town where she was born. We are not connected with the gallery.' },
       { q: 'When are Wakefield lessons?', a: 'On weekday afternoons or evenings, or at the weekend, at a UK time fixed in the free lesson. India is four and a half hours ahead of Wakefield in summer and five and a half in winter.' },
       { q: 'Is there a Modern Age Coders centre in Wakefield?', a: 'No. We have no Wakefield centre and no premises anywhere in the UK, because all lessons are live online. Learners need a computer with sound and a steady connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do Wakefield lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
-      { q: 'How are Wakefield groups formed?', a: 'By level, pace and goals rather than age or postcode, with five to ten learners at one stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do Wakefield lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
+      { q: 'How are Wakefield groups formed?', a: 'By level, pace and goals rather than age or postcode, with fifteen to twenty learners at one stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

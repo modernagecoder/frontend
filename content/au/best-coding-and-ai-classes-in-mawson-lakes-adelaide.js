@@ -299,7 +299,7 @@ module.exports = {
     h2: 'Mawson Lakes class fees',
     intro: 'Three prices for everyone.',
     first: 'The first lesson is free and ends with a clear suggestion.',
-    group: 'About eight group lessons a month with five to ten learners.',
+    group: 'About eight group lessons a month with fifteen to twenty learners.',
     private: 'About eight lessons a month with one teacher.',
     closer: 'Families pay in US dollars, only after the trial and once course and time are agreed. The pricing page covers holidays, missed lessons and changing format.'
   },
@@ -344,12 +344,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Mawson Lakes learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       {

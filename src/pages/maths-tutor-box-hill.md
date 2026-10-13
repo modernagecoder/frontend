@@ -4,7 +4,7 @@ description: "Online maths tutor for Box Hill, Victoria: Foundation to Year 12 a
 canonical: https://learn.modernagecoders.com/maths-tutor-box-hill
 source: src/pages/maths-tutor-box-hill.html
 ---
-> Modern Age Coders teaches maths online to Box Hill learners aged 6 to 67, following the Victorian Curriculum from Foundation to Year 10, the VCE mathematics studies including Mathematical Methods and Specialist Mathematics, and adult maths. Lessons are live, booked in Melbourne time, in level-matched classes of five to ten or one to one. Our Box Hill example uses ABS suburb areas to show that changing a map scale by 2.5 changes areas by 6.25. The first lesson is free.
+> Modern Age Coders teaches maths online to Box Hill learners aged 6 to 67, following the Victorian Curriculum from Foundation to Year 10, the VCE mathematics studies including Mathematical Methods and Specialist Mathematics, and adult maths. Lessons are live, booked in Melbourne time, in level-matched classes of fifteen to twenty or one to one. Our Box Hill example uses ABS suburb areas to show that changing a map scale by 2.5 changes areas by 6.25. The first lesson is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Maths tutor in Box Hill
 
@@ -162,7 +162,7 @@ Teachers work from India, where there is no daylight saving. A 7pm Box Hill less
 
 The lesson time for the family never moves.
 
-### Classes of five to ten
+### Classes of fifteen to twenty
 
 Grouped by level so explanations land at the right depth for everyone.
 
@@ -265,7 +265,7 @@ A simple weekly routine that holds steady across daylight saving changes.
 Families outside India pay one monthly fee in US dollars. There is no registration charge and no minimum period.
 
 - Free first class: USD 0. A real lesson at the right level. A frank summary. No card details.
-- Group batch: USD 100 a month. Five to ten learners at one level. One teacher all term. Practice reviewed. Leave after any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. One teacher all term. Practice reviewed. Leave after any month.
 - One to one: USD 150 a month. Private lessons. Built around one aim. Good before VCE exams.
 
 ## Maths tutoring in Box Hill: questions families ask

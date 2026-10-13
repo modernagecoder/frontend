@@ -4,7 +4,7 @@ description: "Live online coding and Python classes for Kingswinford, Wall Heath
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-kingswinford
 source: src/pages/online-coding-and-python-classes-in-kingswinford.html
 ---
-> Kingswinford is an ONS built-up area of 51,910 people (Census 2021) within the borough of Dudley, which had 323,486. Wall Heath, Wordsley, Pensnett and Bromley are gazetteer suburbs that fall inside it. Modern Age Coders teaches Python, coding, vibe coding, AI and maths live online to learners there aged six to 67. Tutors based in India take each lesson over video, either one-to-one or with a group of five to ten working at a shared level. We have learners count what their code does instead of assuming it. After a free first lesson we recommend a course. In the Kingswinford project a learner writes Shell sort in Python, puts 810 local street names into alphabetical order, and counts how the number of comparisons changes with the gaps chosen. Lessons then cost USD 100 a month in a group, or USD 150 a month one-to-one.
+> Kingswinford is an ONS built-up area of 51,910 people (Census 2021) within the borough of Dudley, which had 323,486. Wall Heath, Wordsley, Pensnett and Bromley are gazetteer suburbs that fall inside it. Modern Age Coders teaches Python, coding, vibe coding, AI and maths live online to learners there aged six to 67. Tutors based in India take each lesson over video, either one-to-one or with a group of fifteen to twenty working at a shared level. We have learners count what their code does instead of assuming it. After a free first lesson we recommend a course. In the Kingswinford project a learner writes Shell sort in Python, puts 810 local street names into alphabetical order, and counts how the number of comparisons changes with the gaps chosen. Lessons then cost USD 100 a month in a group, or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Kingswinford
 
@@ -12,11 +12,11 @@ Kingswinford, Dudley, West Midlands / Live online
 
 # Online coding and Python classes in Kingswinford
 
-**What are the best online coding and Python classes for Kingswinford?** Kingswinford is an ONS built-up area of 51,910 people (Census 2021) within the borough of Dudley, which had 323,486. Wall Heath, Wordsley, Pensnett and Bromley are gazetteer suburbs that fall inside it. Modern Age Coders teaches Python, coding, vibe coding, AI and maths live online to learners there aged six to 67. Tutors based in India take each lesson over video, either one-to-one or with a group of five to ten working at a shared level. We have learners count what their code does instead of assuming it. After a free first lesson we recommend a course. In the Kingswinford project a learner writes Shell sort in Python, puts 810 local street names into alphabetical order, and counts how the number of comparisons changes with the gaps chosen. Lessons then cost USD 100 a month in a group, or USD 150 a month one-to-one.
+**What are the best online coding and Python classes for Kingswinford?** Kingswinford is an ONS built-up area of 51,910 people (Census 2021) within the borough of Dudley, which had 323,486. Wall Heath, Wordsley, Pensnett and Bromley are gazetteer suburbs that fall inside it. Modern Age Coders teaches Python, coding, vibe coding, AI and maths live online to learners there aged six to 67. Tutors based in India take each lesson over video, either one-to-one or with a group of fifteen to twenty working at a shared level. We have learners count what their code does instead of assuming it. After a free first lesson we recommend a course. In the Kingswinford project a learner writes Shell sort in Python, puts 810 local street names into alphabetical order, and counts how the number of comparisons changes with the gaps chosen. Lessons then cost USD 100 a month in a group, or USD 150 a month one-to-one.
 
 In 1959 Donald Shell noticed something about the simple card-player's way of sorting, where each new item is walked back past its neighbours until it fits. The method is slow because items only ever move one place at a time. His fix was to run the same loop first on items far apart, then closer, then adjacent. The code barely changes: one extra loop and one number, the gap. What nobody could say for certain, then or since, is which gaps to use. That makes it an unusually good lesson, because the learner can test the question on real data and get a clear answer in an afternoon.
 
-Facts last verified 30 September 2026. Teaching is online; no Kingswinford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Kingswinford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python and coding courses for Kingswinford learners
 
@@ -134,7 +134,7 @@ Lessons happen on a video call from your home. A computer with a keyboard and ca
 - **The learner drives** They type and run the code on a shared screen while the tutor asks why each line is there.
 - **Level found, not guessed** The free lesson shows us what the learner already knows before we name a course.
 - **A trial with no strings** No fee, no card and no commitment for the first session.
-- **Five to ten per class** Classmates are at the same stage and log in from around the UK.
+- **Fifteen to twenty per class** Classmates are at the same stage and log in from around the UK.
 - **About eight lessons a month** Twice a week in term, with Dudley school holidays left clear on request.
 - **Clock changes handled** Your UK lesson time is fixed through the year; tutors shift at their end.
 

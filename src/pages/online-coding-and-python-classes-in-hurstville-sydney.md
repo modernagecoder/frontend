@@ -16,7 +16,7 @@ Hurstville, Georges River, Sydney / Live online
 
 Suppose a Hurstville class wants a random order for a quiz about local train stations. The first shuffle most people write loops through the list and swaps each item with any item at random. It looks fair. It is not. With four stations there are 256 equally likely ways that loop can run, but only 24 possible orders, and 256 does not divide evenly by 24, so some orders must turn up more often than others. Python's own random.shuffle uses a slightly different loop, the Fisher-Yates shuffle, which gives every order exactly the same chance. This page proves the difference with exact counting and a million-shuffle experiment.
 
-Facts last verified 10 October 2026. Teaching is online; no Hurstville branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Hurstville branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses where code meets probability
 
@@ -186,7 +186,7 @@ A Hurstville learner joins from home and spends the full lesson coding, with no 
 - **Home setup** A computer with sound and a steady connection is all a lesson needs.
 - **Follows NSW terms** Lesson plans line up with NSW stages and break for the state school holidays.
 - **Free trial lesson** A full class at no cost, ending with a recommended course and time.
-- **Group or private** Groups of five to ten at a matched level, or one to one.
+- **Group or private** Groups of fifteen to twenty at a matched level, or one to one.
 - **Two a week** Two set lessons weekly, about eight a month, with breaks agreed early.
 - **Teachers in India** A 4pm Hurstville lesson in summer is 10:30am India time; after daylight saving ends it is 11:30am there.
 
@@ -197,7 +197,7 @@ A Hurstville learner joins from home and spends the full lesson coding, with no 
 Three figures make up the full price list.
 
 - First class: USD 0. The first lesson costs nothing and comes with a recommendation.
-- Group tuition: USD 100 a month. A month of small-group lessons, usually eight, with five to ten learners.
+- Group tuition: USD 100 a month. A month of small-group lessons, usually eight, with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Roughly eight one-to-one lessons each month.
 
 Outside India we bill in US dollars, so every suburb pays the same. Payment begins only after the trial, once the course and times are chosen; the pricing page explains holidays and missed lessons.
@@ -238,7 +238,7 @@ No. Every lesson is live online and we have no premises in Australia. The phone 
 
 ### How much do Hurstville Python classes cost?
 
-The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one.
+The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one.
 
 ### How large are the groups?
 

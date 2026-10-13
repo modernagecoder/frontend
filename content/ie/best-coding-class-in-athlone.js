@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in Athlone',
   capsuleQ: 'What is the best coding class in Athlone?',
-  capsule: 'The census records 22,664 usual residents for Athlone, in 8,439 households, of which 6,649 report a broadband connection. None of them has to travel to learn with us: lessons run live on video twice in most weeks, either in a group of five to ten learners at the same level or one to one, and the age range runs from six to sixty-seven. The first lesson is free of charge. After it, a group place costs USD 100 a month and private lessons cost USD 150.',
+  capsule: 'The census records 22,664 usual residents for Athlone, in 8,439 households, of which 6,649 report a broadband connection. None of them has to travel to learn with us: lessons run live on video twice in most weeks, either in a group of fifteen to twenty learners at the same level or one to one, and the age range runs from six to sixty-seven. The first lesson is free of charge. After it, a group place costs USD 100 a month and private lessons cost USD 150.',
   lead: 'Somebody will eventually ask for the average level of education in Athlone, and a spreadsheet will answer. Number the eleven qualifications in the census table from one to eleven, weight them by the 13,007 residents who stated one, and out comes 5.82. Put two of the middle labels the other way round and it becomes 5.85. Use a ten-point numbering instead and it is 5.35. Every one of those answers is arithmetic done correctly, and not one of them is a qualification any person in the town holds, because the labels were never numbers. What the order does support is a middle: the 6,504th person in the list sits in the technical or vocational qualification group. That is the whole project on this page, and it is one of the most useful hours a learner can spend with real data.',
   wa: 'Hello Modern Age Coders, I would like to book a free coding lesson for a learner in Athlone.',
 
@@ -187,7 +187,7 @@ module.exports = {
     intro: 'Six practical points.',
     cells: [
       { h3: 'Live teaching only', p: 'A teacher on the call for the whole hour, reading the learner\'s screen and correcting as the work happens.' },
-      { h3: 'Ability grouping', p: 'Five to ten learners at one level, joining from Athlone, elsewhere in Ireland and abroad.' },
+      { h3: 'Ability grouping', p: 'Fifteen to twenty learners at one level, joining from Athlone, elsewhere in Ireland and abroad.' },
       { h3: 'A protected hour', p: 'Two lessons in most weeks, roughly eight a month, in a slot agreed at the start and then kept.' },
       { h3: 'Term calendar', p: 'Mid-terms, holidays and exam weeks are factored in when the schedule is agreed, not improvised later.' },
       { h3: 'Kit at home', p: 'A laptop or desktop, working sound and a connection that carries video, verified in the free lesson.' },
@@ -200,7 +200,7 @@ module.exports = {
     h2: 'Athlone class fees',
     intro: 'The complete list, three lines long.',
     first: 'A full first lesson, taught and assessed, at no charge and with no obligation.',
-    group: 'A month of group lessons, five to ten learners at one level, about eight lessons.',
+    group: 'A month of group lessons, fifteen to twenty learners at one level, about eight lessons.',
     private: 'A month of one to one lessons, same weekly frequency, one teacher and one learner.',
     closer: 'Every fee is monthly and quoted in US dollars, the single rate we use for families outside India, so an Athlone household sees the same figure as one in Galway and no euro price list beside it. Billing begins after the free lesson has fixed a course and an hour, and the pricing page covers pauses, missed lessons and switching between group and private.'
   },
@@ -225,7 +225,7 @@ module.exports = {
       { q: 'Do you teach adults in Athlone?', a: 'Yes, up to sixty-seven, and from a complete standing start if needed. The free lesson decides whether an adult joins a group at the same level or works one to one.' },
       { q: 'Does the learner need to prepare anything?', a: 'Nothing. A laptop or desktop, sound and a connection are all that is required, and the teacher sets everything else up during the first lesson.' },
       { q: 'Is there a Modern Age Coders classroom in Athlone?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Athlone cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Athlone cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

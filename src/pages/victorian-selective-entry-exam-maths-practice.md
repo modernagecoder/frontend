@@ -179,7 +179,7 @@ Our teachers are based in India, which is behind Melbourne. During daylight savi
 
 - **Units in every line** Students write units beside numbers until it becomes automatic.
 - **Reasons out loud** Each answer comes with an explanation of the set-up.
-- **Five to ten per class** Students grouped by current level.
+- **Fifteen to twenty per class** Students grouped by current level.
 - **One-to-one option** For a student wanting focused help.
 - **Never exam content** We do not collect or share exam questions, in line with ACER's rules.
 - **No selection promises** Offers are made through ACER's process; we make no claims about them.
@@ -189,7 +189,7 @@ Our teachers are based in India, which is behind Melbourne. During daylight savi
 Victorian families are billed monthly in US dollars, our single rate outside India. Nothing up front, and you can stop after any month.
 
 - Free first class: USD 0. A full trial lesson. Straight advice about whether classes would help. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. A regular teacher. Reasoned feedback. Certificate on completion.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. A regular teacher. Reasoned feedback. Certificate on completion.
 - One to one: USD 150 a month. A teacher for one student. Work on chosen topics. Flexible times.
 
 ## Victorian families ask us

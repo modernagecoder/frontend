@@ -158,7 +158,7 @@ module.exports = {
       { h3: 'Learn where you live', p: 'A bedroom in Wellingborough, a kitchen table in Towcester, a study in Desborough. Learner and teacher look at the same shared screen, and the learner types.' },
       { h3: 'School language we share', p: 'Year groups, key stages, GCSEs and A levels mean the same to us as to Northamptonshire schools, and teaching is in English.' },
       { h3: 'Try it free', p: 'A real lesson with real work, then a frank suggestion of level and course. No card details are needed.' },
-      { h3: 'Groups by level', p: 'Classmates are matched on stage, not postcode, so a group of five to ten might mix learners from Kettering, Kent and much further afield.' },
+      { h3: 'Groups by level', p: 'Classmates are matched on stage, not postcode, so a group of fifteen to twenty might mix learners from Kettering, Kent and much further afield.' },
       { h3: 'Your holidays respected', p: 'Two lessons a week is normal, with breaks for the holidays your own school keeps.' },
       { h3: 'Set in UK time', p: 'We fix your slot in UK time and leave it alone when the clocks change; our teachers run on India time, several hours ahead, and absorb the shift.' }
     ],
@@ -169,7 +169,7 @@ module.exports = {
     h2: 'Fees in Northamptonshire',
     intro: 'Northampton or Thrapston, you pay the same, and it is what families pay in every country we teach except India.',
     first: 'One whole lesson of genuine work, then advice on level and course.',
-    group: 'Roughly eight lessons a month, in a group of five to ten at one level.',
+    group: 'Roughly eight lessons a month, in a group of fifteen to twenty at one level.',
     private: 'Roughly eight lessons a month, taught one-to-one.',
     closer: 'All prices are in US dollars and none in pounds. You are never charged before the free lesson has pinned down a course and a regular weekly slot. How pauses, missed lessons and a move between group and private classes work is set out on our pricing page.'
   },

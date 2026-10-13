@@ -240,7 +240,7 @@ module.exports = {
     cells: [
       { h3: 'Write-ups read as a stranger', p: 'A teacher reads the argument cold and says where it stops being convincing.' },
       { h3: 'Techniques named', p: 'Pigeonhole, extremal cases and construction are taught as a repertoire, not as tricks.' },
-      { h3: 'Five to ten students', p: 'Enough for two approaches to meet, small enough for every solution to be read aloud.' },
+      { h3: 'Fifteen to twenty students', p: 'Enough for two approaches to meet, small enough for every solution to be read aloud.' },
       { h3: 'Our own problems', p: 'Written by us in the same territory. UKMT publishes its own past papers and solutions.' },
       { h3: 'One to one when wanted', p: 'For a student working beyond her year group, or one who prefers to think out loud alone.' },
       { h3: 'Nothing promised', p: 'We cannot enter anyone, and no score, award or invitation is promised by us.' }
@@ -255,7 +255,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Priced monthly in US dollars for families outside India, with no registration fee and no minimum number of months.',
     free: ['One real problem with a teacher', 'A straight read on the level', 'No card details'],
-    group: ['Five to ten students at one level', 'The same teacher weekly', 'Written arguments read closely', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher weekly', 'Written arguments read closely', 'A certificate at the end'],
     one: ['A teacher working with one student', 'Shaped around what she finds hard', 'Useful when a group hour will not fit the week']
   },
 

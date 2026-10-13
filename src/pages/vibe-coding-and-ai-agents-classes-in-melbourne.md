@@ -16,7 +16,7 @@ Melbourne, Victoria, Australia / Live online
 
 Here is a small AI agent a Melbourne learner can build in an afternoon: ask it where the nearest tram stop is, and it calls a tool that searches the 1,603 tram stop points OpenStreetMap records across inner Melbourne. The tool works. Then someone tidies the code and swaps the careful distance formula for a quicker one that treats a degree of longitude as if it were as long as a degree of latitude. In Melbourne it is not. Is the agent still right? Nobody can tell by reading the answers, because they all sound fine. So our learners write 300 test questions with known correct answers, a golden set, and run every version of the tool against it before anything ships. The quicker formula gets 21 of the 300 wrong.
 
-Facts last verified 7 October 2026. Teaching is online; no Melbourne branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Melbourne branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four ways into vibe coding and AI agents
 
@@ -164,7 +164,7 @@ From the inner north to the Mornington Peninsula, the commute to class is the wa
 - **No trip across town** A teenager in the inner north and an adult in the outer east can share one lesson from their own desks.
 - **Victorian vocabulary** Teachers say Foundation, Year 9 or Unit 3 the way a Victorian school does, and plan around the four Victorian terms. Teaching is in English.
 - **Try it properly** The trial is a full working lesson. The teacher then proposes a level, a course and a regular hour, and no payment details are requested.
-- **Classmates at your standard** A group is five to ten people at a similar point, gathered from Victoria, other states and other countries, so a reasonable hour exists for nearly every level.
+- **Classmates at your standard** A group is fifteen to twenty people at a similar point, gathered from Victoria, other states and other countries, so a reasonable hour exists for nearly every level.
 - **A steady rhythm** Normally two sessions a week, roughly eight a month, with breaks for Victorian holidays and the VCE exam period arranged ahead of time.
 - **Teachers on India time** Melbourne moves its clocks on the same Sundays as Sydney, 4 October 2026 and 4 April 2027, so our teachers are five and a half hours behind Melbourne in summer and four and a half in winter.
 
@@ -175,7 +175,7 @@ From the inner north to the Mornington Peninsula, the commute to class is the wa
 Three figures, and nothing hidden behind them.
 
 - First class: USD 0. A full lesson at no cost, ending with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. A month of teaching, usually eight lessons, with five to ten learners at the same level.
+- Group tuition: USD 100 a month. A month of teaching, usually eight lessons, with fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. The same monthly rhythm of around eight lessons, one teacher and one learner.
 
 One price in US dollars applies to every learner outside India, so Brunswick and Frankston receive the same invoice and there is no Melbourne price sheet. You pay only once the trial has settled what to study and when; breaks, missed sessions and moves between group and private teaching are set out on the pricing page.
@@ -216,11 +216,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do classes cost in Melbourne?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Melbourne and Australian learners
 

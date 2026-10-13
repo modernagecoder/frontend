@@ -180,7 +180,7 @@ module.exports = {
     intro: 'The practical side.',
     cells: [
       { h3: 'A teacher in the room', p: 'Every lesson is live, and the teacher follows what the learner is building on screen.' },
-      { h3: 'Groups by stage', p: 'Five to ten learners at the same point in a course, from Kerry, elsewhere in Ireland and abroad.' },
+      { h3: 'Groups by stage', p: 'Fifteen to twenty learners at the same point in a course, from Kerry, elsewhere in Ireland and abroad.' },
       { h3: 'Two a week, usually', p: 'Around eight lessons in a month, at times agreed before the course starts.' },
       { h3: 'Term-time aware', p: 'Mid-term breaks, holidays and exam weeks are planned for from the outset.' },
       { h3: 'Equipment', p: 'Any reasonably recent laptop or desktop with a camera will do. A tablet makes typing code slow, and headphones help in a busy house.' },
@@ -193,7 +193,7 @@ module.exports = {
     h2: 'Fees for Killarney',
     intro: 'The whole price list.',
     first: 'A full first lesson with a level check, free of charge.',
-    group: 'One month in a group of five to ten at one stage, about eight live lessons.',
+    group: 'One month in a group of fifteen to twenty at one stage, about eight live lessons.',
     private: 'One month of one-to-one lessons on the same weekly rhythm.',
     closer: 'The free lesson settles the course, the group and the weekly times; the first bill comes after that, as a single monthly amount in US dollars, identical for every family outside India. The pricing page explains holidays, missed lessons and moving between a group and private teaching.'
   },
@@ -218,7 +218,7 @@ module.exports = {
       { q: 'Can adults join?', a: 'Yes, at any age up to sixty-seven and from any starting point, including none. After the first lesson an adult either joins a group at the matching stage or carries on one to one.' },
       { q: 'Is there a separate group just for Killarney?', a: 'No. Groups are formed by stage, so a Killarney learner may share lessons with learners in Kenmare, in Cork or in another country, all at the same point in the course.' },
       { q: 'Is there a Modern Age Coders classroom in Killarney?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Killarney cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Killarney cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

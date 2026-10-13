@@ -65,7 +65,7 @@ module.exports = {
 
   h1: 'Coding classes in Inverness',
   capsuleQ: 'What are the best coding classes in Inverness?',
-  capsule: 'Highland, the council area around Inverness, had about 235,400 usual residents at Scotland\'s 2022 census, and only 9.2 people per square kilometre, figures rounded by National Records of Scotland. The British Geological Survey\'s earthquake database lists a magnitude 5.1 earthquake at Inverness on 13 August 1816. Anyone in Inverness from six to sixty-seven can join live video lessons led by a teacher in India, either one to one or in a class of five to ten learners at a single level, booked around the Scottish school day and working hours. Nothing is charged for the opening lesson; a place in a class then costs USD 100 each month, and private lessons USD 150.',
+  capsule: 'Highland, the council area around Inverness, had about 235,400 usual residents at Scotland\'s 2022 census, and only 9.2 people per square kilometre, figures rounded by National Records of Scotland. The British Geological Survey\'s earthquake database lists a magnitude 5.1 earthquake at Inverness on 13 August 1816. Anyone in Inverness from six to sixty-seven can join live video lessons led by a teacher in India, either one to one or in a class of fifteen to twenty learners at a single level, booked around the Scottish school day and working hours. Nothing is charged for the opening lesson; a place in a class then costs USD 100 each month, and private lessons USD 150.',
   lead: 'Since 1970 the British Geological Survey has recorded 883 earthquakes within 100 kilometres of Inverness, nearly all too small to feel. Only 28 reached magnitude 3, and 3 reached magnitude 4. Our Inverness project asks how quickly earthquakes become rarer as they grow, the pattern known as the Gutenberg-Richter law, and it meets a trap straight away: in the 1970s the records near Inverness hardly include anything below magnitude 3, not because small quakes stopped happening, but because the record of that decade did not capture them. Teenagers learn to find the magnitude a catalogue is complete above, then estimate the slope, called the b-value, only from data they can trust.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Inverness.',
 
@@ -188,7 +188,7 @@ module.exports = {
       { h3: 'City and firth', p: 'A learner in Clachnaharry and another in Westhill can share one class without a drive through the city.' },
       { h3: 'Scottish stages', p: 'Learners are placed by their stage in Scottish schooling, primary P1 to P7 and secondary S1 to S6 through National 5, Higher and Advanced Higher, with all teaching in English.' },
       { h3: 'Your free lesson', p: 'Rather than a presentation, the first session is a proper coding task; at the end the teacher recommends where to begin, which course fits and a weekly time. There is no card to give.' },
-      { h3: 'Grouped by level', p: 'Each class holds five to ten learners working at one level; because they come from across the UK and beyond, there are workable times at every stage.' },
+      { h3: 'Grouped by level', p: 'Each class holds fifteen to twenty learners working at one level; because they come from across the UK and beyond, there are workable times at every stage.' },
       { h3: 'A weekly habit', p: 'Two fixed lessons each week, about eight a month, with holidays and exam leave planned with the teacher.' },
       { h3: 'Teachers\' evenings', p: 'Because India keeps a single time zone year-round, a 5 pm Highland lesson begins at 21:30 for our teachers in summer and 22:30 in winter.' }
     ],
@@ -199,7 +199,7 @@ module.exports = {
     h2: 'Inverness lesson fees',
     intro: 'The first lesson is free, then a single fee each month.',
     first: 'A full lesson without charge, closing with a suggested level, course and weekly time.',
-    group: 'About eight live lessons a month in a class of five to ten learners at one level.',
+    group: 'About eight live lessons a month in a class of fifteen to twenty learners at one level.',
     private: 'About eight live lessons a month, with a teacher for your learner alone.',
     closer: 'Families in Scorguie or Bunchrew pay in US dollars, like all families outside India, and our site lists no pound prices. Nothing is charged until the free lesson is over and you have agreed a course and a weekly time with us; the pricing page covers pauses, missed lessons and switching between group and one-to-one teaching.'
   },
@@ -224,8 +224,8 @@ module.exports = {
       { q: 'How old is the Inverness Town Steeple?', a: 'Historic Environment Scotland dates it to 1791, built by Alexander Laing following a design by William Sibbald, and lists it at Category A.' },
       { q: 'When do Inverness lessons take place?', a: 'Inverness families usually pick a slot after school, on a weekday evening or at the weekend, confirmed in the free lesson. A teatime lesson in the Highlands is a late one for our teachers in India, whose clocks run four and a half hours ahead of Inverness from late March to late October, and five and a half hours ahead through the winter.' },
       { q: 'Is there an Inverness centre?', a: 'No. We have no centre in Inverness or anywhere else in the UK, because every lesson is live online. Learners need a computer with sound and a reliable connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much are Inverness lessons?', a: 'The first lesson is free. After it, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than by age or address, with five to ten learners at the same stage. When no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much are Inverness lessons?', a: 'The first lesson is free. After it, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than by age or address, with fifteen to twenty learners at the same stage. When no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

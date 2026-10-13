@@ -1049,7 +1049,7 @@
   ],
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
-    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "small_batches": "Small batches only: group classes are capped at 20 students, with mini-batch (up to 6 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and homework after every class.",
     "real_assessment": "Mixed challenges after every month and a final exam that decides the certificate: real skills, really tested.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
@@ -1087,7 +1087,7 @@
     },
     {
       "question": "What is the fee structure?",
-      "answer": "Group batches cost ₹1,499 per month and include 2 classes each week with at most 10 children. A mini batch of 3-4 students is ₹2,999 per month, while personal 1-on-1 coaching with 1 private class a week (4 a month) is ₹4,999 per month. Families outside India pay a price set for their own country, shown on this page in their local currency."
+      "answer": "Group batches cost ₹1,499 per month and include 2 classes each week with at most 20 children. A mini batch of up to 6 students is ₹2,999 per month, while personal 1-on-1 coaching with 1 private class a week (4 a month) is ₹4,999 per month. Families outside India pay a price set for their own country, shown on this page in their local currency."
     },
     {
       "question": "Can my child attend a trial class first?",

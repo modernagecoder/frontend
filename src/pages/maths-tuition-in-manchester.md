@@ -14,7 +14,7 @@ Manchester · Maths from age 6 to 67 · Live online, small groups or one to one
 
 Ask a Manchester commuter how far apart the tram stops are and you will get a feeling, not a number. We measured it. Between the 99 named Metrolink stops in OpenStreetMap there are 101 pairs of neighbours, and the straight-line gaps between them average 952.9 metres. Yet half the gaps are shorter than 819.5 metres. Two honest answers, 133 metres apart, from the same list: that gap between the mean and the median is the whole of GCSE statistics in one tram map. This page explains how we teach maths to Manchester learners from the Year 4 multiplication tables check to Further Maths and adult refreshers, and uses the Metrolink as a running example.
 
-At a glance: Who: Learners aged 6 to 67 in Manchester; Primary: Times tables, the Year 4 check, Year 6 tests; GCSE: Foundation or Higher, AQA, Edexcel or OCR; Sixth form: A level Maths and Further Maths; Adults: GCSE resits, Functional Skills topics, refreshers; Format: Live video, 5 to 10 per group or one to one; Teachers: Based in India, booked on UK time; Local project: Metrolink stop gaps, mean against median. Rated 4.9 across 547 Google reviews.
+At a glance: Who: Learners aged 6 to 67 in Manchester; Primary: Times tables, the Year 4 check, Year 6 tests; GCSE: Foundation or Higher, AQA, Edexcel or OCR; Sixth form: A level Maths and Further Maths; Adults: GCSE resits, Functional Skills topics, refreshers; Format: Live video, 15 to 20 per group or one to one; Teachers: Based in India, booked on UK time; Local project: Metrolink stop gaps, mean against median. Rated 4.9 across 547 Google reviews.
 
 ## GCSE, A level and primary maths come first
 
@@ -236,7 +236,7 @@ Teaching happens from India, where clocks never go forward or back. Between late
 
 - **The same teacher each week** Whoever spotted a slip on Tuesday is the one who checks for it the following Tuesday.
 - **Short reports home** A few lines after lessons on what clicked and what still wobbles.
-- **Five to ten per group** Everyone at the same level, so an explanation lands for all of them.
+- **Fifteen to twenty per group** Everyone at the same level, so an explanation lands for all of them.
 - **Real data in lessons** Metrolink gaps, weather records and census tables, as well as textbook questions.
 - **One to one if needed** For a specific gap, an exam close at hand, or a learner who prefers it.
 - **Maths, explained** We ask learners to say why a method works, not only to follow it.
@@ -246,14 +246,14 @@ Teaching happens from India, where clocks never go forward or back. Between late
 Billed monthly in US dollars at one rate for every country outside India, with nothing to sign up front and nothing to pay to join.
 
 - Free first class: USD 0. A real lesson at the right level. Our honest view afterwards. No card details asked for.
-- Group batch: USD 100 a month. Five to ten learners at one level. A regular teacher. Marked work, talked through. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. A regular teacher. Marked work, talked through. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one learner. Aimed at the exact gap. Useful in the months before an exam.
 
 ## What Manchester families and adult learners ask us
 
 ### What is maths tuition?
 
-Maths tuition is teaching outside school hours that follows the learner rather than a class: it finds the gaps, explains the ideas behind them and builds confidence step by step. Ours is live and online, in small groups of five to ten at one level or one to one.
+Maths tuition is teaching outside school hours that follows the learner rather than a class: it finds the gaps, explains the ideas behind them and builds confidence step by step. Ours is live and online, in groups of fifteen to twenty at one level or one to one.
 
 ### What is the best age to start maths tuition?
 

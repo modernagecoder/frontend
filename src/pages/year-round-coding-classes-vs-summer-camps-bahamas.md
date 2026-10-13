@@ -205,7 +205,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Weekly build work reviewed by the teacher
 - Certificate on completion
@@ -238,7 +238,7 @@ The hours are the smaller part of the answer. The larger part is the fifty-one g
 
 ### How much does it cost?
 
-A group batch of five to eight students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars. A year at the group rate is USD 1,200, charged monthly rather than up front, with no enrolment fee and no minimum term, so you can stop at the end of any month. The first class is free without a card.
+A group batch of fifteen to twenty students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars. A year at the group rate is USD 1,200, charged monthly rather than up front, with no enrolment fee and no minimum term, so you can stop at the end of any month. The first class is free without a card.
 
 ### What about the local robotics and school programmes?
 

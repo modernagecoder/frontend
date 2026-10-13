@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-usa.html
 
 In short
 
-Modern Age Coders teaches live online AI and machine learning to learners across the United States between the ages of 6 and 67, in groups of five to eight or privately. The syllabus runs from Python and the mathematics underneath it to models the student trains, evaluates and publishes at a working link. Weekend cohorts serve both coasts and a weekday cohort runs on Pacific time. Group tuition is USD 100 a month and one-to-one is USD 150, billed in US dollars, and the first class costs nothing.
+Modern Age Coders teaches live online AI and machine learning to learners across the United States between the ages of 6 and 67, in groups of fifteen to twenty or privately. The syllabus runs from Python and the mathematics underneath it to models the student trains, evaluates and publishes at a working link. Weekend cohorts serve both coasts and a weekday cohort runs on Pacific time. Group tuition is USD 100 a month and one-to-one is USD 150, billed in US dollars, and the first class costs nothing.
 
 The catalogue
 
@@ -308,7 +308,7 @@ Tue and Thu 6:30pm PT
 
 ### What a session is
 
-Ninety minutes on live video with a teacher who remembers what went wrong last week and opens with it. Both screens are shared, so an error gets interrupted while the student is still making it rather than annotated three days later. Batches hold five to eight students, or one. Between one week and the next there is a build rather than a worksheet, and questions in the gap go to that same teacher instead of a ticket queue staffed by someone who has never met the child.
+Ninety minutes on live video with a teacher who remembers what went wrong last week and opens with it. Both screens are shared, so an error gets interrupted while the student is still making it rather than annotated three days later. Batches hold fifteen to twenty students, or one. Between one week and the next there is a build rather than a worksheet, and questions in the gap go to that same teacher instead of a ticket queue staffed by someone who has never met the child.
 
 The honest limit is worth stating once. A weekday evening class at 6:00pm to 8:00pm Eastern falls between 3:30am and 5:30am in India. No teacher on a normal schedule holds that slot week after week, so we do not sell it. We serve the United States fully at weekends, and on weekdays we serve the Pacific coast.
 
@@ -390,7 +390,7 @@ $100
 
 a month, billed in US dollars
 
-- Five to eight students, same teacher every week
+- Fifteen to twenty students, same teacher every week
 - Live video, never a recording
 - Weekly build tasks and teacher review
 - Certificate on completion

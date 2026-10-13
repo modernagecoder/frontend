@@ -45,7 +45,7 @@ module.exports = {
   heroNote: 'Teaching live since 2020 &middot; 10,000+ students &middot; mixed classes, every lesson with a real teacher',
   spec: [
     ['For', 'Girls aged 6 to 18'],
-    ['Classes', 'Mixed groups of five to ten, or one to one'],
+    ['Classes', 'Mixed groups of fifteen to twenty, or one to one'],
     ['Subjects', 'Python, AI, data, apps'],
     ['Approach', 'Early start, finished projects, portfolio'],
     ['Format', 'Live video with a teacher'],
@@ -54,7 +54,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Modern Age Coders teaches AI and Python live online to learners in the Netherlands, and this page describes that teaching for girls aged six to eighteen and their families. The classes are the same as for everyone: mixed groups of five to ten learners at one level, or one-to-one lessons, with a live teacher, in English. We make no claim that girls learn differently. What helps, we find, is starting early, finishing real projects and keeping a public portfolio, so that a girl\'s ability is visible to herself and to others. The first lesson is free; after it a group place is USD 100 a month and private lessons USD 150.',
+  capsule: 'Modern Age Coders teaches AI and Python live online to learners in the Netherlands, and this page describes that teaching for girls aged six to eighteen and their families. The classes are the same as for everyone: mixed groups of fifteen to twenty learners at one level, or one-to-one lessons, with a live teacher, in English. We make no claim that girls learn differently. What helps, we find, is starting early, finishing real projects and keeping a public portfolio, so that a girl\'s ability is visible to herself and to others. The first lesson is free; after it a group place is USD 100 a month and private lessons USD 150.',
 
   picks: {
     eyebrow: 'Start here',
@@ -185,7 +185,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first lesson', p: 'Your daughter builds something real while the teacher watches how she thinks, and the right starting rung becomes clear.' },
-      { h3: 'Mixed groups of five to ten', p: 'Learners from several countries at the same level. Groups are formed by ability, never by gender.' },
+      { h3: 'Mixed groups of fifteen to twenty', p: 'Learners from several countries at the same level. Groups are formed by ability, never by gender.' },
       { h3: 'One to one if preferred', p: 'For a learner who prefers a teacher to herself, has a project deadline, or is far ahead of her age.' },
       { h3: 'Parents informed', p: 'We talk with a parent before anything is booked and keep the family up to date, as Dutch consent rules expect for under-sixteens.' },
       { h3: 'In English', p: 'Lessons are in English; Dutch school terms are used as families use them.' },
@@ -201,7 +201,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Monthly, in US dollars, the same for every learner and every country outside India. No enrolment fee and no annual contract.',
     free: ['A real lesson on a real task', 'Places the learner at the right rung', 'No card details needed'],
-    group: ['Five to ten learners at one level', 'Mixed groups, the same live teacher', 'Work reviewed every week', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'Mixed groups, the same live teacher', 'Work reviewed every week', 'A certificate at the end'],
     one: ['A teacher for one learner', 'Pace set around her goals', 'Good for projects and deadlines']
   },
 

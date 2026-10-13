@@ -276,7 +276,7 @@ module.exports = {
       { h3: 'Edge cases together', p: 'Teacher and learner test boundaries live on the shared screen.' },
       { h3: 'Term-time classes', p: 'Plans follow the SA school year, with holiday breaks.' },
       { h3: 'Free opening lesson', p: 'A real first class at no cost, then honest advice.' },
-      { h3: 'Small level groups', p: 'Five to ten learners matched by level, or private lessons.' },
+      { h3: 'Small level groups', p: 'Fifteen to twenty learners matched by level, or private lessons.' },
       { h3: 'Two per week', p: 'Regular weekly times, about eight lessons a month.' },
       { h3: 'India time', p: 'Our teachers work in India: a 7:30pm Modbury class is 2:30pm India time until April and 3:30pm after.' }
     ],
@@ -289,7 +289,7 @@ module.exports = {
     h2: 'Modbury class fees',
     intro: 'Three prices for every family.',
     first: 'Lesson one is free, and you receive a written suggestion afterwards.',
-    group: 'About eight group lessons per month, five to ten learners.',
+    group: 'About eight group lessons per month, fifteen to twenty learners.',
     private: 'About eight private lessons per month.',
     closer: 'Fees are in US dollars and paid only after the trial, once a course and time are agreed. The pricing page explains holidays and absences.'
   },
@@ -331,12 +331,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Modbury learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Can Modbury groups learn Copilot Studio?', a: 'No. Copilot Studio is one-to-one only; groups create agents in Python.' }

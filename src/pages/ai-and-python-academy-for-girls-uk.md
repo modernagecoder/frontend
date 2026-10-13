@@ -4,7 +4,7 @@ description: "AI and Python classes for girls in the UK, taught live in mixed gr
 canonical: https://learn.modernagecoders.com/ai-and-python-academy-for-girls-uk
 source: src/pages/ai-and-python-academy-for-girls-uk.html
 ---
-> The Curriculum and Assessment Review's final report, published in November 2025, found that take-up of GCSE Computer Science was 20% among boys but 6% among girls, and pointed to gender stereotyping of computing careers and to school factors such as pedagogy and resources. The National Centre for Computing Education reports that girls made up 22.6% of GCSE Computer Science entries in 2025, and that 35.7% of girls achieved the top grades compared with 27.8% of boys. In the workforce, DSIT found only 17% of the cyber security workforce was female, against 48% of the UK workforce. Modern Age Coders teaches Python and AI live and online to UK learners, girls included, in mixed groups of five to ten placed by ability, or one to one, with the same teacher each week and real projects. We do not run girls-only classes and do not teach girls differently. The first class is free; afterwards a group place is USD 100 a month and one-to-one lessons USD 150 a month.
+> The Curriculum and Assessment Review's final report, published in November 2025, found that take-up of GCSE Computer Science was 20% among boys but 6% among girls, and pointed to gender stereotyping of computing careers and to school factors such as pedagogy and resources. The National Centre for Computing Education reports that girls made up 22.6% of GCSE Computer Science entries in 2025, and that 35.7% of girls achieved the top grades compared with 27.8% of boys. In the workforce, DSIT found only 17% of the cyber security workforce was female, against 48% of the UK workforce. Modern Age Coders teaches Python and AI live and online to UK learners, girls included, in mixed groups of fifteen to twenty placed by ability, or one to one, with the same teacher each week and real projects. We do not run girls-only classes and do not teach girls differently. The first class is free; afterwards a group place is USD 100 a month and one-to-one lessons USD 150 a month.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / AI and Python for girls
 
@@ -88,7 +88,7 @@ If the gap is in who starts and who continues, the useful question for a parent 
 
 | We do | We do not |
 |---|---|
-| Place every learner by ability, in mixed groups of five to ten | Run girls-only or boys-only classes |
+| Place every learner by ability, in mixed groups of fifteen to twenty | Run girls-only or boys-only classes |
 | Keep the same teacher every week | Rotate teachers so no one knows the learner |
 | Build projects a learner chooses and can show | Set exercises that never become anything |
 | Explain every idea until it is understood | Assume some learners are naturally suited to code |
@@ -196,7 +196,7 @@ Teachers work from India, which keeps the same clock all year, so the UK is four
 - **Sunday** For busy Saturdays.
 
 - **A free first class** We find out what she knows and what she would like to build.
-- **Mixed groups** Five to ten learners of similar level, placed by ability.
+- **Mixed groups** Fifteen to twenty learners of similar level, placed by ability.
 - **One to one** For anyone who prefers to learn privately.
 - **The same teacher** One teacher each week, who knows the learner and her projects.
 - **A portfolio** Finished projects kept in her own account.
@@ -207,14 +207,14 @@ Teachers work from India, which keeps the same clock all year, so the UK is four
 A monthly fee in US dollars, identical for every learner outside India, with no joining fee and no commitment past the current month.
 
 - Free first class: USD 0. A look at what she already knows. A route suggested for her age and level. No payment details needed.
-- Group batch: USD 100 a month. Five to ten learners at one level, mixed. The same teacher each week. Projects she chooses. Stop at the end of any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level, mixed. The same teacher each week. Projects she chooses. Stop at the end of any month.
 - One to one: USD 150 a month. A teacher for one learner. A pace set by her. Suits anyone who prefers private lessons.
 
 ## What families ask
 
 ### Are your classes girls-only?
 
-No. Classes are mixed and placed by ability, in groups of five to ten. One-to-one lessons are available for anyone who prefers them.
+No. Classes are mixed and placed by ability, in groups of fifteen to twenty. One-to-one lessons are available for anyone who prefers them.
 
 ### Do you teach girls differently?
 

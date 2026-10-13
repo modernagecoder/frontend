@@ -16,7 +16,7 @@ Bundaberg, Queensland, Australia / Live online
 
 Bundaberg's town buses make 2,724 scheduled stops on a weekday, the first at 6:25am and the last at 5:50pm. At what moment has exactly half of that service already happened? You could step through the day a minute at a time, which takes 322 checks. Or you could use the bisection method: guess the middle of the day, see which half the answer is in, and halve again. Ten guesses pin it to 11:47am. Our Bundaberg project teaches that idea on the real Translink timetable, then turns it on a second question: how far from the city centre stop do you need to go to take in half of the network's 296 stops?
 
-Facts last verified 7 October 2026. Teaching is online; no Bundaberg branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Bundaberg branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python courses that suit a Bundaberg learner
 
@@ -186,7 +186,7 @@ The furthest stop in Bundaberg's feed is more than 22 km from the city centre, a
 - **From the coast or the city** A student in Bargara and one in Avenell Heights join the same video lesson without a bus timetable to consult.
 - **Queensland year levels** Teachers plan with Queensland year levels and the state's four terms, and senior students can link projects to their Digital Solutions or maths subjects. Teaching is in English.
 - **Trial first** Your opening lesson is a genuine class. Afterwards you are offered a level, a course and a regular time, and no card is ever requested at this stage.
-- **Small, level-matched groups** Five to ten learners working at the same point, drawn from Bundaberg and other places, so every group runs at a sensible size.
+- **Small, level-matched groups** Fifteen to twenty learners working at the same point, drawn from Bundaberg and other places, so every group runs at a sensible size.
 - **A steady weekly habit** Two fixed lessons a week, about eight in a month, with breaks for holidays and exams decided with the teacher.
 - **A constant time difference** Because neither Queensland nor India uses daylight saving, a 6pm Bundaberg lesson always begins at 1:30pm for the teacher.
 
@@ -197,7 +197,7 @@ The furthest stop in Bundaberg's feed is more than 22 km from the city centre, a
 Three prices, stated plainly.
 
 - First class: USD 0. A full lesson without charge, ending with a recommended level, course and lesson time.
-- Group tuition: USD 100 a month. One month of lessons, usually eight, in a group of five to ten learners at your level.
+- Group tuition: USD 100 a month. One month of lessons, usually eight, in a group of fifteen to twenty learners at your level.
 - Private tuition: USD 150 a month. The same rhythm of roughly eight lessons a month with a teacher to yourself.
 
 All countries except India are billed in US dollars, so there is a single price whether a family lives in Millbank or at Burnett Heads. The first invoice comes only after the trial has set a course and a time; the pricing page explains holidays, missed lessons and changing formats.
@@ -238,11 +238,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Bundaberg Python classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Bundaberg and Queensland learners
 

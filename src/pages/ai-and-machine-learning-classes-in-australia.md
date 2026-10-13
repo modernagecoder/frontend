@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-australia.html
 
 In short
 
-Live online, from Cairns to Hobart to Perth, ages 6 to 67, in groups of five to eight or one to one. The subject is model building rather than tool use: Python first, then the statistics and linear algebra that sit under a trained model, then fitting and scoring models on published Australian data such as the Clean Energy Regulator rooftop solar and battery register. Teaching is in English, on your own time zone. A group place is USD 100 a month, billed in US dollars, and the first class costs nothing.
+Live online, from Cairns to Hobart to Perth, ages 6 to 67, in groups of fifteen to twenty or one to one. The subject is model building rather than tool use: Python first, then the statistics and linear algebra that sit under a trained model, then fitting and scoring models on published Australian data such as the Clean Energy Regulator rooftop solar and battery register. Teaching is in English, on your own time zone. A group place is USD 100 a month, billed in US dollars, and the first class costs nothing.
 
 The catalogue
 
@@ -286,7 +286,7 @@ Perth after school, which is 14:30 in India. Western Australia never uses daylig
 
 ### What a session is
 
-An hour and a half of live video, taught by the same person each week, someone who arrives already knowing where the student got stuck last time. Screens are shared both ways, so a mistake is caught in the second it is typed instead of turning up in a marked file on Thursday. Groups are five to eight students, or one to one.
+An hour and a half of live video, taught by the same person each week, someone who arrives already knowing where the student got stuck last time. Screens are shared both ways, so a mistake is caught in the second it is typed instead of turning up in a marked file on Thursday. Groups are fifteen to twenty students, or one to one.
 
 One Australian specific sits on top. A booking in Sydney, Melbourne, Hobart, Canberra or Adelaide changes its India-side time twice a year, so we re-cut those slots in the week before each changeover. A Brisbane, Perth or Darwin booking is set once and left alone, which makes Brisbane the easiest Australian city to timetable against India.
 
@@ -366,7 +366,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video every week, with no recording sold as a lesson
 - Something to build between sessions, reviewed by that same teacher
 - Certificate at the end

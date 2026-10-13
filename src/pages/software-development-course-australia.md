@@ -220,7 +220,7 @@ Teachers work from India, whose day overlaps Australian afternoons and evenings.
 - **Weekend** Longer project sessions.
 
 - **Free first class** A short coding task and its first test, then advice on where to begin.
-- **Small groups** Five to ten learners reviewing each other's code.
+- **Small groups** Fifteen to twenty learners reviewing each other's code.
 - **One to one** For a specific project, pace or language.
 - **Real repositories** Every project lives in Git from the first lesson.
 - **Code review** Teachers comment on pull requests as a team lead would.
@@ -231,7 +231,7 @@ Teachers work from India, whose day overlaps Australian afternoons and evenings.
 Learners outside India pay one monthly fee in US dollars, with nothing due at sign-up and no contract.
 
 - Free first class: USD 0. A short task with a first automated test. A plain recommendation on where to start. No card details needed.
-- Group batch: USD 100 a month. Five to ten learners at a similar stage. Peer code review every week. One regular teacher. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners at a similar stage. Peer code review every week. One regular teacher. Stop after any month.
 - One to one: USD 150 a month. Lessons shaped around one learner's project. Any language we teach. Times around school or work.
 
 ## Questions about software development courses in Australia

@@ -179,7 +179,7 @@ module.exports = {
       { h3: 'No crossing the canal', p: 'A learner in Velsen-Noord and a learner in Santpoort-Zuid open the same class at the same time from home, with no tunnel or ferry on a school night.' },
       { h3: 'Dutch terms as written', p: 'Brugklas, groep, vmbo, havo, vwo and the profielkeuze keep their Dutch names, as an IJmond school writes them, while the teaching is in English.' },
       { h3: 'A free lesson that teaches', p: 'The opening session is a real lesson on a real task. At the end the teacher proposes a level, a course and a weekly time, and asks for no card.' },
-      { h3: 'Groups at one level', p: 'Five to ten learners at the same stage. Velsen has 10,509 residents under fifteen, and five who match on subject, level and hour are unusual in one municipality, so groups can include learners from other countries.' },
+      { h3: 'Groups at one level', p: 'Fifteen to twenty learners at the same stage. Velsen has 10,509 residents under fifteen, and five who match on subject, level and hour are unusual in one municipality, so groups can include learners from other countries.' },
       { h3: 'Regio Noord holidays', p: 'Two lessons a week, about eight a month, at one fixed time, with breaks for the regio Noord holidays that Noord-Holland schools keep.' },
       { h3: 'Teachers a few hours ahead', p: 'The teachers are in India, three and a half hours ahead of Velsen in summer and four and a half in winter, so late afternoons, evenings and weekend mornings all work.' }
     ],
@@ -190,7 +190,7 @@ module.exports = {
     h2: 'What Velsen families pay',
     intro: 'Three prices, and that is all of them.',
     first: 'A real lesson on a real task, ending with a level and a course.',
-    group: 'Per month, normally eight lessons, five to ten learners at one level.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners at one level.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'The fee is a single dollar price for every country, with no euro list, so a family in Velserbroek pays what a family in IJmuiden pays. Nothing is charged until the free lesson has fixed a course and a time, and payment is then arranged over WhatsApp. The pricing page covers pauses, format changes and missed lessons.'
   },
@@ -215,7 +215,7 @@ module.exports = {
       { q: 'How many schools are there in Velsen?', a: 'The statistics count 23 primary establishments teaching 5,343 pupils and 11 secondary establishments teaching 3,930, with 253 MBO students at institutions in the municipality. No school is rated here.' },
       { q: 'What language are the lessons in, and when do they take place?', a: 'In English, with Dutch school words such as brugklas, havo and vwo left untranslated. The teachers work from India, three and a half hours ahead of Velsen in summer and four and a half in winter, so late-afternoon, evening and weekend times are easy to arrange. The time is agreed in the free lesson, and regio Noord holidays are kept.' },
       { q: 'Is there a Modern Age Coders classroom in Velsen?', a: 'No, and none is claimed here or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Velsen coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Velsen coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

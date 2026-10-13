@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across West Yorkshire
 canonical: https://learn.modernagecoders.com/coding-classes-in-west-yorkshire
 source: src/pages/coding-classes-in-west-yorkshire.html
 ---
-> West Yorkshire is five boroughs, Leeds, Bradford, Kirklees, Wakefield and Calderdale, with 2,351,583 residents at the 2021 Census by our addition of the five totals. Leeds and Bradford are the two big cities, followed by Huddersfield, Wakefield and Halifax. We teach every lesson live over video from India, and learners are grouped by ability, never simply by the year they were born. Anyone aged 6 to 67 can study coding, Python, AI, data science or maths with us, one-to-one or in a group of five to ten. The West Yorkshire project goes to Haworth and the Brontës. You can try one lesson free. Staying on means USD 100 per month for a group place or USD 150 per month for private teaching.
+> West Yorkshire is five boroughs, Leeds, Bradford, Kirklees, Wakefield and Calderdale, with 2,351,583 residents at the 2021 Census by our addition of the five totals. Leeds and Bradford are the two big cities, followed by Huddersfield, Wakefield and Halifax. We teach every lesson live over video from India, and learners are grouped by ability, never simply by the year they were born. Anyone aged 6 to 67 can study coding, Python, AI, data science or maths with us, one-to-one or in a group of fifteen to twenty. The West Yorkshire project goes to Haworth and the Brontës. You can try one lesson free. Staying on means USD 100 per month for a group place or USD 150 per month for private teaching.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / West Yorkshire
 
@@ -12,11 +12,11 @@ West Yorkshire / Live online
 
 # Coding classes in West Yorkshire
 
-**What are the best coding classes in West Yorkshire?** West Yorkshire is five boroughs, Leeds, Bradford, Kirklees, Wakefield and Calderdale, with 2,351,583 residents at the 2021 Census by our addition of the five totals. Leeds and Bradford are the two big cities, followed by Huddersfield, Wakefield and Halifax. We teach every lesson live over video from India, and learners are grouped by ability, never simply by the year they were born. Anyone aged 6 to 67 can study coding, Python, AI, data science or maths with us, one-to-one or in a group of five to ten. The West Yorkshire project goes to Haworth and the Brontës. You can try one lesson free. Staying on means USD 100 per month for a group place or USD 150 per month for private teaching.
+**What are the best coding classes in West Yorkshire?** West Yorkshire is five boroughs, Leeds, Bradford, Kirklees, Wakefield and Calderdale, with 2,351,583 residents at the 2021 Census by our addition of the five totals. Leeds and Bradford are the two big cities, followed by Huddersfield, Wakefield and Halifax. We teach every lesson live over video from India, and learners are grouped by ability, never simply by the year they were born. Anyone aged 6 to 67 can study coding, Python, AI, data science or maths with us, one-to-one or in a group of fifteen to twenty. The West Yorkshire project goes to Haworth and the Brontës. You can try one lesson free. Staying on means USD 100 per month for a group place or USD 150 per month for private teaching.
 
 The Brontë Parsonage Museum says the Brontë family arrived in the West Yorkshire village of Haworth in 1820, and that Charlotte, Emily and Anne wrote their novels there, including Jane Eyre, Wuthering Heights and The Tenant of Wildfell Hall. Two centuries later, computers are asked to read the mood of text all the time, from product reviews to social media. The simplest method is a word list that scores each word as positive or negative. This page's project runs one of those lists over four Brontë novels in Python, finds that it does spot the darkest book, and then hunts down the mistakes, the most striking of which is hiding in the word "Miss".
 
-Facts last verified 26 September 2026. Teaching is online; no West Yorkshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no West Yorkshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where West Yorkshire learners begin
 
@@ -138,7 +138,7 @@ West Yorkshire is busy, and getting across it for a weekly evening class takes r
 - **At your own table** A terrace in Keighley, a semi in Batley, a flat in Leeds. The screen is shared; the learner writes the code while the teacher watches and guides.
 - **The same school words** Teachers know what a Year 11 mock or an A level set text means to a pupil in Halifax or Wakefield, and they teach in English.
 - **Start free** A proper first lesson, then plain advice on level and course, without card details.
-- **A class that fits** Five to ten learners at one stage, whether they are in Yorkshire or far away.
+- **A class that fits** Fifteen to twenty learners at one stage, whether they are in Yorkshire or far away.
 - **Holiday breaks** Most learners take two lessons a week and pause for their school's own holidays.
 - **UK time throughout** The slot we give you stays fixed in UK time through the clock changes; the teacher, working on India time several hours ahead, adjusts.
 
@@ -149,7 +149,7 @@ West Yorkshire is busy, and getting across it for a weekly evening class takes r
 Families in Dewsbury and Shipley pay exactly the same, as do families everywhere we teach except India.
 
 - First class: USD 0. A full lesson of genuine work, followed by a recommendation for level and course.
-- Group tuition: USD 100 a month. About eight lessons a month with five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight lessons a month, one-to-one with a teacher.
 
 We bill in US dollars and quote no prices in pounds. Payment starts only once the free lesson has settled a course and a weekly slot. For pauses, missed lessons or a change between group and private, see the pricing page.

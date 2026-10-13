@@ -197,7 +197,7 @@ Teaching happens from India, where the clock trails Australia: Adelaide is four 
 Classes are charged each month in US dollars, our international rate, with no sign-up charge and no lock-in. Any competition entry fee is separate and goes to the organiser, not to us.
 
 - Free first class: USD 0. A real lesson with a teacher. An honest view of readiness. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher each week. Practice reviewed together. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher each week. Practice reviewed together. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one student. A plan built from the competition date. Flexible weekly times.
 
 ## What Australian families ask

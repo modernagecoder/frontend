@@ -16,7 +16,7 @@ Helensvale, City of Gold Coast, Queensland / Live online
 
 Helensvale is the northern Gold Coast suburb where the heavy-rail Gold Coast line meets the G:link tram. On a Wednesday the timetable stops 88 trains and runs 125 southbound tram departures from the station. Families who make that change know that a two-minute gap on paper is not always two minutes on the platform.
 
-Facts last verified 13 October 2026. Teaching is online; no Helensvale branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Helensvale branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Agents, vibe coding and Python
 
@@ -176,7 +176,7 @@ Sessions are live video calls, so nobody needs to catch a train to class.
 - **Real-time teacher** A teacher leads each session and looks at learners' code live.
 - **Term-based** Sessions follow Queensland school terms with holiday breaks.
 - **Free first session** A trial at no cost, then a written plan.
-- **Group or private** Groups of five to ten by level, or one-to-one.
+- **Group or private** Groups of fifteen to twenty by level, or one-to-one.
 - **Weekly rhythm** Two sessions a week, about eight a month.
 - **India hours** A 4:30pm Helensvale session is noon in India every day of the year.
 
@@ -187,7 +187,7 @@ Sessions are live video calls, so nobody needs to catch a train to class.
 The same fees apply to all learners.
 
 - First class: USD 0. The first session is free and includes a plan.
-- Group tuition: USD 100 a month. Group: around eight sessions monthly, five to ten learners.
+- Group tuition: USD 100 a month. Group: around eight sessions monthly, fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private: around eight sessions monthly with one teacher.
 
 Fees are charged in US dollars once the trial has agreed a course and weekly slot. The pricing page explains holidays and missed sessions.
@@ -224,11 +224,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Helensvale classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How are learners grouped?
 
-Groups of five to ten share a level and pace, whatever their age or suburb. If no group time suits, one-to-one lessons are an option.
+Groups of fifteen to twenty share a level and pace, whatever their age or suburb. If no group time suits, one-to-one lessons are an option.
 
 ### Can adults build agents here?
 

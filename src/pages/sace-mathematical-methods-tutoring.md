@@ -188,7 +188,7 @@ Lessons are live, taught by our tutors in India. Adelaide is four hours ahead of
 - **Reasoning on paper** Every step written, because the criteria reward communication.
 - **Simulate, then prove** Short programs check results before the algebra explains them.
 - **Technology with judgement** Calculator answers interpreted, never just copied.
-- **Small groups** Five to ten students at one level, explaining methods aloud.
+- **Small groups** Fifteen to twenty students at one level, explaining methods aloud.
 - **One-to-one sessions** For one topic that needs repair before a task.
 - **No grade forecasts** We never predict a SACE grade or an ATAR.
 
@@ -197,7 +197,7 @@ Lessons are live, taught by our tutors in India. Adelaide is four hours ahead of
 Methods tutoring is billed monthly in US dollars, the same rate for every family outside India, with no joining fee and no commitment past the current month.
 
 - Free first class: USD 0. A full maths lesson with a tutor. An honest read on what to fix first. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. The same tutor each week. Practice marked and talked through. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same tutor each week. Practice marked and talked through. A certificate at the end.
 - One to one: USD 150 a month. A tutor for one student. Built around one hard topic. Common in the weeks before the exam.
 
 ## Stage 2 Methods questions we are asked

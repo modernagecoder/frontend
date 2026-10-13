@@ -226,7 +226,7 @@ module.exports = {
     cells: [
       { h3: 'Projects she chooses', p: 'Interest keeps students coding between events.' },
       { h3: 'Understanding first', p: 'Every line explained, never just copied.' },
-      { h3: 'Friendly groups', p: 'Five to ten students at a similar level.' },
+      { h3: 'Friendly groups', p: 'Fifteen to twenty students at a similar level.' },
       { h3: 'One-to-one option', p: 'For a student who wants a personal pace.' },
       { h3: 'Alongside GPN', p: 'Classes complement workshops; they never replace them.' },
       { h3: 'No outcome promised', p: 'We build skill and confidence, week by week.' }
@@ -241,7 +241,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Classes are charged monthly in US dollars, our international rate, with no joining fee and no lock-in. GPN workshops are free and run by GPN; they have nothing to do with our fees.',
     free: ['A first class with a teacher, at no cost', 'Bring a workshop project to look at together', 'No card details'],
-    group: ['Five to ten students at one level', 'The same teacher across the term', 'Projects shared and discussed', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher across the term', 'Projects shared and discussed', 'A certificate at the end'],
     one: ['A teacher for one student', 'Lessons built around her own projects', 'Weekly times chosen with you']
   },
 

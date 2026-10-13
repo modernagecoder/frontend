@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes across Essex, fro
 canonical: https://learn.modernagecoders.com/coding-classes-in-essex
 source: src/pages/coding-classes-in-essex.html
 ---
-> Essex, counted as the ceremonial county, is fourteen councils: twelve districts plus Southend-on-Sea and Thurrock, with 1,860,208 people at the 2021 Census, a few thousand more than Kent by the same count. The Southend built-up area is the largest place, then Colchester, Basildon and Chelmsford, and after them come the estuary towns, the Tendring coast, the Epping Forest edge and the villages of Uttlesford. Our classes reach them all in one way: live online with teachers in India, placing every learner by ability rather than year group, anyone from 6 to 67, either in a group of five to ten or alone with a teacher. We teach programming, Python, algorithms, AI and maths. The Essex project is a timetable puzzle set on Southend Pier. Your first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150.
+> Essex, counted as the ceremonial county, is fourteen councils: twelve districts plus Southend-on-Sea and Thurrock, with 1,860,208 people at the 2021 Census, a few thousand more than Kent by the same count. The Southend built-up area is the largest place, then Colchester, Basildon and Chelmsford, and after them come the estuary towns, the Tendring coast, the Epping Forest edge and the villages of Uttlesford. Our classes reach them all in one way: live online with teachers in India, placing every learner by ability rather than year group, anyone from 6 to 67, either in a group of fifteen to twenty or alone with a teacher. We teach programming, Python, algorithms, AI and maths. The Essex project is a timetable puzzle set on Southend Pier. Your first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Essex
 
@@ -12,11 +12,11 @@ County of Essex / Live online
 
 # Coding classes in Essex
 
-**What are the best coding classes in Essex?** Essex, counted as the ceremonial county, is fourteen councils: twelve districts plus Southend-on-Sea and Thurrock, with 1,860,208 people at the 2021 Census, a few thousand more than Kent by the same count. The Southend built-up area is the largest place, then Colchester, Basildon and Chelmsford, and after them come the estuary towns, the Tendring coast, the Epping Forest edge and the villages of Uttlesford. Our classes reach them all in one way: live online with teachers in India, placing every learner by ability rather than year group, anyone from 6 to 67, either in a group of five to ten or alone with a teacher. We teach programming, Python, algorithms, AI and maths. The Essex project is a timetable puzzle set on Southend Pier. Your first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150.
+**What are the best coding classes in Essex?** Essex, counted as the ceremonial county, is fourteen councils: twelve districts plus Southend-on-Sea and Thurrock, with 1,860,208 people at the 2021 Census, a few thousand more than Kent by the same count. The Southend built-up area is the largest place, then Colchester, Basildon and Chelmsford, and after them come the estuary towns, the Tendring coast, the Epping Forest edge and the villages of Uttlesford. Our classes reach them all in one way: live online with teachers in India, placing every learner by ability rather than year group, anyone from 6 to 67, either in a group of fifteen to twenty or alone with a teacher. We teach programming, Python, algorithms, AI and maths. The Essex project is a timetable puzzle set on Southend Pier. Your first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150.
 
 Southend Pier runs 1.33 miles into the Thames estuary, and a single-track railway has run along it since 1890. The pier's own site publishes the timetable and the speed: trains leave the shore on the hour and half hour, leave the Pier Head at quarter past and quarter to, and travel at 8 to 10 miles an hour. That is enough information for a beautiful piece of reasoning. How many trains does that timetable need? What would it take to run twice as often? And if two trains must share one track, where exactly do they have to pass, and what happens when one of them is a little slower than the other? This page works through it the way a programmer would: model, calculate, then question the model.
 
-Facts last verified 26 September 2026. Teaching is online; no Essex branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Essex branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Essex learners usually start here
 
@@ -172,7 +172,7 @@ Essex is wide and its roads are slow at the times children finish school. Online
 - **Lessons wherever you are** A bedroom in Canvey Island, a kitchen in Saffron Walden, a desk in Loughton. The screen is shared and the learner does the work.
 - **The language of English schools** Key Stage 2 and 3, GCSE choices and A levels are named as Essex schools name them, in English.
 - **Start with a free lesson** A complete lesson of real work and a straightforward recommendation. Card details are never requested.
-- **Learners at one stage** Groups of five to ten who have reached the same point, gathered widely, so the lesson is pitched right for all of them.
+- **Learners at one stage** Groups of fifteen to twenty who have reached the same point, gathered widely, so the lesson is pitched right for all of them.
 - **Breaks around your school** Two lessons a week is typical, and holidays are fitted to your own school's dates, which in Essex can vary by council and school type.
 - **Times stated in UK time** Our teachers are in India, ahead of the UK by four and a half hours in summer and five and a half in winter, and every lesson is booked in UK time.
 
@@ -183,7 +183,7 @@ Essex is wide and its roads are slow at the times children finish school. Online
 One price list for every Essex town, and for every country outside India.
 
 - First class: USD 0. A full lesson with real work, finished with a recommended level and course.
-- Group tuition: USD 100 a month. Roughly eight lessons a month, with five to ten learners at the same level.
+- Group tuition: USD 100 a month. Roughly eight lessons a month, with fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. Roughly eight lessons a month, one teacher and one learner.
 
 Every fee is quoted in US dollars, which is how we bill families in all countries apart from India; we do not keep prices in pounds. The first payment comes only after the free lesson has settled which course and which weekly slot, and the pricing page explains how pausing, missed lessons and a move between group and one-to-one work.

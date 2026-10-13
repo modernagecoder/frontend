@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Leidschenveen-Ypenbur
 canonical: https://learn.modernagecoders.com/coding-classes-in-leidschenveen-ypenburg
 source: src/pages/coding-classes-in-leidschenveen-ypenburg.html
 ---
-> Coding classes in Leidschenveen-Ypenburg reach the newest stadsdeel of The Hague, assembled in 2002 from parts of four municipalities. Two of its four wijken are places people live: Ypenburg with 26,358 residents and 9,764 dwellings, Leidschenveen with 20,049 and 7,457. The other two are business parks along the A4 and the A12. Forepark holds 155 residents on 304 hectares and Hoornwijk holds 1,004, so the published densities there are 51 and 280 to the square kilometre. Those are correct and they describe the night. Modern Age Coders teaches live online in English from De Bras to the Vliegeniersbuurt, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Leidschenveen-Ypenburg reach the newest stadsdeel of The Hague, assembled in 2002 from parts of four municipalities. Two of its four wijken are places people live: Ypenburg with 26,358 residents and 9,764 dwellings, Leidschenveen with 20,049 and 7,457. The other two are business parks along the A4 and the A12. Forepark holds 155 residents on 304 hectares and Hoornwijk holds 1,004, so the published densities there are 51 and 280 to the square kilometre. Those are correct and they describe the night. Modern Age Coders teaches live online in English from De Bras to the Vliegeniersbuurt, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [The Hague](/coding-classes-in-the-hague) / Leidschenveen-Ypenburg
 
@@ -12,11 +12,11 @@ Leidschenveen-Ypenburg, Den Haag / Live online
 
 # Coding classes in Leidschenveen-Ypenburg, where one wijk has fifty-one people to the square kilometre and a motorway on either side
 
-**What are the best coding classes in Leidschenveen-Ypenburg?** Coding classes in Leidschenveen-Ypenburg reach the newest stadsdeel of The Hague, assembled in 2002 from parts of four municipalities. Two of its four wijken are places people live: Ypenburg with 26,358 residents and 9,764 dwellings, Leidschenveen with 20,049 and 7,457. The other two are business parks along the A4 and the A12. Forepark holds 155 residents on 304 hectares and Hoornwijk holds 1,004, so the published densities there are 51 and 280 to the square kilometre. Those are correct and they describe the night. Modern Age Coders teaches live online in English from De Bras to the Vliegeniersbuurt, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Leidschenveen-Ypenburg?** Coding classes in Leidschenveen-Ypenburg reach the newest stadsdeel of The Hague, assembled in 2002 from parts of four municipalities. Two of its four wijken are places people live: Ypenburg with 26,358 residents and 9,764 dwellings, Leidschenveen with 20,049 and 7,457. The other two are business parks along the A4 and the A12. Forepark holds 155 residents on 304 hectares and Hoornwijk holds 1,004, so the published densities there are 51 and 280 to the square kilometre. Those are correct and they describe the night. Modern Age Coders teaches live online in English from De Bras to the Vliegeniersbuurt, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Fifty-one people to the square kilometre is a figure from open countryside. Forepark is a business park between two motorways inside a city of more than half a million, and the number is not an error: 155 people are registered as living there, on 304 hectares, in 47 dwellings. What the number is, is nocturnal. A register of residents records where people sleep, so everything computed from it is a statement about the small hours, and none of it carries a label saying so. At eleven on a Tuesday morning Forepark is a different place, and no figure on this page can tell you what kind.
 
-Facts last verified 10 September 2026. Teaching is online; no Leidschenveen-Ypenburg branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 September 2026. Teaching is online; no Leidschenveen-Ypenburg branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the newest part of the city
 
@@ -184,18 +184,18 @@ This is the far edge of the city, out past the A4 and the A12, built on and arou
 - **The edge of the municipality, and no commute** From De Bras or the Rietbuurt, an evening class anywhere central means the motorway or a long tram ride, twice. Removing the journey is not a convenience here; it is the difference between a weekly commitment that lasts and one that quietly stops in November.
 - **Four Dutch words kept as they are** Groep, havo, vwo, profielkeuze. The lesson is English and those stay Dutch, because a child hearing the name of their own school track should recognise it without translating first.
 - **A free hour that teaches something** A real task, watched by a teacher who is reading the approach rather than the answer, ending in three things: level, course and a weekly time. There is no charge and no card is asked for at any point.
-- **Built from level, drawn from everywhere** Five to ten learners at one stage. Even a stadsdeel of forty-six thousand does not reliably hold five people at one narrow level in the same month, so the pool is worldwide. That is what turns a waiting list into a class.
+- **Built from level, drawn from everywhere** Fifteen to twenty learners at one stage. Even a stadsdeel of forty-six thousand does not reliably hold five people at one narrow level in the same month, so the pool is worldwide. That is what turns a waiting list into a class.
 - **Two a week, with regio Midden already in the plan** Around eight lessons a month at a fixed hour. Zuid-Holland school holidays follow the regio Midden calendar, published years ahead, so the weeks off are agreed at the start rather than discovered.
 - **Three and a half hours, then four and a half** The teacher is in India, which has held one clock for decades. Both changes each year are made on the Dutch side, and neither setting removes an hour a family here would have wanted to use.
 
-**The largest households in the city, and what that still does not settle** Ypenburg households average 2.6 people and Leidschenveen 2.7, the two largest averages of any Hague wijk in this series, with 4,620 and 3,485 residents under fifteen. Thirteen primary establishments across the two wijken teach 4,314 pupils between them. That is a great many children in a small area. It still does not produce five to ten learners at one particular stage of one particular subject in one particular month, because a stage is narrow and proximity does not widen it. So groups are assembled by level from a worldwide pool, at every age between 6 and 67.
+**The largest households in the city, and what that still does not settle** Ypenburg households average 2.6 people and Leidschenveen 2.7, the two largest averages of any Hague wijk in this series, with 4,620 and 3,485 residents under fifteen. Thirteen primary establishments across the two wijken teach 4,314 pupils between them. That is a great many children in a small area. It still does not produce fifteen to twenty learners at one particular stage of one particular subject in one particular month, because a stage is narrow and proximity does not widen it. So groups are assembled by level from a worldwide pool, at every age between 6 and 67.
 
 ## The fee, in dollars, in all four wijken
 
 Printed here rather than saved for a call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate in dollars and no euro edition, so an address in Morgenweide is quoted exactly what one in De Velden is. Nothing is paid until the free lesson has produced a course and an hour, and payment is arranged over WhatsApp after that. Pausing, switching plan and missing a week are all set out on the pricing page.
@@ -236,7 +236,7 @@ No, and none is claimed here, elsewhere in The Hague or anywhere in the Netherla
 
 ### What do Leidschenveen-Ypenburg coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

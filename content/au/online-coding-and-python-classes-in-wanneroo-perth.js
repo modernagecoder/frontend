@@ -290,7 +290,7 @@ module.exports = {
       { h3: 'Teacher present', p: 'Each lesson is live, with code checked while learners type.' },
       { h3: 'Term-based', p: 'Lessons line up with WA school terms and stop for holidays.' },
       { h3: 'Try it first', p: 'A free trial lesson leads to a written plan.' },
-      { h3: 'Group options', p: 'Five to ten learners per level, or private sessions.' },
+      { h3: 'Group options', p: 'Fifteen to twenty learners per level, or private sessions.' },
       { h3: 'Regular schedule', p: 'Two sessions every week, around eight a month.' },
       { h3: 'India hours', p: 'A 5pm Wanneroo session starts at 2:30pm Indian time.' }
     ],
@@ -303,7 +303,7 @@ module.exports = {
     h2: 'Wanneroo class fees',
     intro: 'All learners pay the same fees.',
     first: 'No fee for the first lesson, which comes with a plan.',
-    group: 'Groups: roughly eight lessons a month, five to ten learners.',
+    group: 'Groups: roughly eight lessons a month, fifteen to twenty learners.',
     private: 'Private: roughly eight lessons a month with one teacher.',
     closer: 'Fees are billed in US dollars and start only when the trial has set the course and a regular weekly time. Holiday and missed-lesson details are on the pricing page.'
   },
@@ -342,12 +342,12 @@ module.exports = {
       },
       {
         q: 'What do Wanneroo classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How are groups arranged?',
-        a: 'By level and pace, five to ten learners, not by age or suburb. One-to-one lessons are available when no group time fits.',
+        a: 'By level and pace, fifteen to twenty learners, not by age or suburb. One-to-one lessons are available when no group time fits.',
         boiler: true
       },
       { q: 'Can adults learn Python here?', a: 'Yes. Adults study in adult groups or privately, often to automate spreadsheets and reports.' }

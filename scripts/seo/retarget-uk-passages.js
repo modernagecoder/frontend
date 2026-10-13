@@ -43,7 +43,7 @@ const insertBeforeClose = (h, openTag, items) => {
   const f = 'gcse-maths-tuition-online.html';
   let h = rd(f);
   const fee = '<details><summary>How much does it cost?</summary><div class="a"><p>USD 150 per month for private 1:1, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.</p></div></details>';
-  if (h.includes(fee)) h = h.replace(fee, '<details><summary>How much does it cost?</summary><div class="a"><p>A flat monthly fee, shown in your own currency in the pricing section of this page: private one-to-one with eight live lessons a month, two each week, or a small-group batch of 5 to 10 at a lower fee. No enrolment charge and no contract; stop at any month end.</p></div></details>');
+  if (h.includes(fee)) h = h.replace(fee, '<details><summary>How much does it cost?</summary><div class="a"><p>A flat monthly fee, shown in your own currency in the pricing section of this page: private one-to-one with eight live lessons a month, two each week, or a small-group batch of 15 to 20 at a lower fee. No enrolment charge and no contract; stop at any month end.</p></div></details>');
   if (/USD \d+ per month/.test(h.slice(h.indexOf('<div class="mp-faq')))) throw new Error('a USD figure is still inside the FAQ');
   if (!h.includes(MARK)) {
     const lede = h.indexOf('<p class="mp-lede">'); if (lede === -1) throw new Error('mp-lede not found');
@@ -65,7 +65,7 @@ const insertBeforeClose = (h, openTag, items) => {
   if (h.includes(MARK)) { console.log('already done:', f); return; }
   const lede = h.indexOf('<p class="ag-lede">'); if (lede === -1) throw new Error('ag-lede not found');
   const pc = h.indexOf('</p>', lede) + '</p>'.length;
-  const passage = '\n        <p class="ag-lede" ' + MARK + '>A GCSE computer science tutor online at Modern Age Coders, in one paragraph: a live hour on a video call with a tutor who teaches your board (AQA 8525, OCR J277 or Edexcel 1CP2) and no other, in a batch of 5 to 10 students on the same specification or one-to-one, twice a week across Year 10 and Year 11, with Python written and run in every class, past-paper questions marked against the board\'s own mark scheme from the first term, and the same tutor for both years. Evening and weekend slots run in UK time. The first class is a free demo.</p>';
+  const passage = '\n        <p class="ag-lede" ' + MARK + '>A GCSE computer science tutor online at Modern Age Coders, in one paragraph: a live hour on a video call with a tutor who teaches your board (AQA 8525, OCR J277 or Edexcel 1CP2) and no other, in a batch of 15 to 20 students on the same specification or one-to-one, twice a week across Year 10 and Year 11, with Python written and run in every class, past-paper questions marked against the board\'s own mark scheme from the first term, and the same tutor for both years. Evening and weekend slots run in UK time. The first class is a free demo.</p>';
   h = h.slice(0, pc) + passage + h.slice(pc);
   const items = [
     ['How do I choose a GCSE computer science tutor online?', 'Ask four things: which board they teach and whether they teach it separately from the others; whether the student writes and runs code in every class rather than watching; how past papers are marked (against the board\'s mark scheme, or by feel); and whether the same tutor stays for both years. A tutor who cannot name the difference between AQA 8525 and OCR J277 is preparing your child for the wrong exam.'],

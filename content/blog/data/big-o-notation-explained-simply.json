@@ -297,7 +297,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Our <a href='/data-structures-and-algorithms-course'>data structures and algorithms course</a> is taught live in Python, Java and C++, one to one or in small groups of 5 to 10. It follows the principles on our <a href='/how-we-teach'>how we teach</a> page, including tracing code line by line until a student can predict every step, which is the same skill that makes Big O intuitive rather than memorised."
+        "text": "Our <a href='/data-structures-and-algorithms-course'>data structures and algorithms course</a> is taught live in Python, Java and C++, one to one or in groups of 15 to 20. It follows the principles on our <a href='/how-we-teach'>how we teach</a> page, including tracing code line by line until a student can predict every step, which is the same skill that makes Big O intuitive rather than memorised."
       },
       {
         "type": "embed",

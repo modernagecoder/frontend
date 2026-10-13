@@ -177,7 +177,7 @@ Teachers work from India, which is behind Sydney. During daylight saving a 4.30 
 
 - **Diagrams before numbers** Students draw the problem before they calculate anything.
 - **Explain every answer** A correct answer without a reason counts as half done.
-- **Groups of five to ten** Children at a similar level learn together.
+- **Groups of fifteen to twenty** Children at a similar level learn together.
 - **One-to-one available** For a child who wants a particular topic strengthened.
 - **No test coaching** We teach maths from the curriculum, as the department advises.
 - **No placement promises** Selection is the department's decision; we make no claims about it.
@@ -187,7 +187,7 @@ Teachers work from India, which is behind Sydney. During daylight saving a 4.30 
 Families in New South Wales pay monthly in US dollars, the rate we charge in every country other than India. There is no up-front payment and no minimum term.
 
 - Free first class: USD 0. A real lesson with a teacher. Our honest view, including if no help is needed. No card details.
-- Group batch: USD 100 a month. Five to ten children at one level. The same teacher each week. Work explained and checked. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. The same teacher each week. Work explained and checked. A certificate at the end.
 - One to one: USD 150 a month. One teacher for one child. Focus on chosen topics. Times to suit your family.
 
 ## What NSW families ask us

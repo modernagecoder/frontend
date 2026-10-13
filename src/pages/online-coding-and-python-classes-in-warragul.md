@@ -16,7 +16,7 @@ Warragul and Drouin, Victoria / Live online
 
 Transport Victoria publishes every scheduled bus trip in the state as an open timetable feed. The six town routes serving Warragul and Drouin account for 1,542 trips and 21,135 rows of stop times, which sounds like a big network. Group the trips by the exact ordered list of stops they visit and only 13 distinct journeys remain, each run to an identical timing pattern. Python makes that grouping one line long, provided the key is a tuple. Try a list and the program stops with an error; try a set and it quietly forgets which way the bus is going.
 
-Facts last verified 9 October 2026. Teaching is online; no Warragul branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 October 2026. Teaching is online; no Warragul branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python routes for Warragul and Drouin learners
 
@@ -172,7 +172,7 @@ The two towns share the Princes Way corridor, and a live online class covers bot
 - **Either town, same class** A learner in Drouin and one in Warragul can join one lesson from their own homes.
 - **Victorian levels** Lessons follow Victorian year levels, including VCE study for senior students, in English.
 - **Free first session** Write some real Python with a teacher, then receive a suggested stage, course and time; no card required.
-- **Five to ten learners** Groups share a level and draw from Victoria, the rest of Australia and abroad.
+- **Fifteen to twenty learners** Groups share a level and draw from Victoria, the rest of Australia and abroad.
 - **Twice weekly** Normally two lessons a week, about eight a month, with Victorian holidays planned in.
 - **Clock changes handled** When daylight saving starts or ends, the lesson stays at the same Warragul time.
 
@@ -183,7 +183,7 @@ The two towns share the Princes Way corridor, and a live online class covers bot
 Here is the full list.
 
 - First class: USD 0. A no-cost first lesson that finishes with a stage, a course and a time.
-- Group tuition: USD 100 a month. A month of group lessons, typically eight, with five to ten learners at your level.
+- Group tuition: USD 100 a month. A month of group lessons, typically eight, with fifteen to twenty learners at your level.
 - Private tuition: USD 150 a month. Typically eight one-to-one lessons a month with one teacher.
 
 Warragul and Drouin learners pay the national rate in US dollars, with no Gippsland extra. Nothing is billed until the trial has settled a course and a slot; the pricing page has the details on holidays, missed lessons and swapping formats.
@@ -224,11 +224,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Warragul coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Warragul and Victorian learners
 

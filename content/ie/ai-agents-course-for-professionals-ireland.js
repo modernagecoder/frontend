@@ -227,7 +227,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'You describe a real workflow and leave knowing whether an agent belongs in it.' },
-      { h3: 'Groups of five to ten', p: 'Professionals at one level, from Ireland and elsewhere, comparing designs.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Professionals at one level, from Ireland and elsewhere, comparing designs.' },
       { h3: 'One to one', p: 'For confidential systems and for the Copilot Studio course, which is private only.' },
       { h3: 'Your own accounts', p: 'Coding agent work uses your own paid tool accounts, so everything built stays yours.' },
       { h3: 'Test sets, always', p: 'No agent is called finished in class without cases whose answers are known.' },

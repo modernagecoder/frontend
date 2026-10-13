@@ -189,7 +189,7 @@ Our teachers are in India. We keep primary lessons within sensible UK hours, aft
 
 - **One familiar teacher** Every week, so progress and slips are both noticed.
 - **Frank notes home** Short and honest, including what has not clicked yet.
-- **Five to ten in a class** Grouped by level, so the teaching fits.
+- **Fifteen to twenty in a class** Grouped by level, so the teaching fits.
 - **Questions we wrote** Nothing from any Barnet school's materials is reproduced.
 - **Individual lessons** One to one for a specific gap or a child who prefers it.
 - **Maths, and only maths** No reasoning or English coaching, no admissions advice.
@@ -199,7 +199,7 @@ Our teachers are in India. We keep primary lessons within sensible UK hours, aft
 A monthly fee in US dollars, identical for all families outside India. Stop at any time; there is no contract.
 
 - Free first class: USD 0. A real lesson with a teacher. An honest read on the maths. No card needed.
-- Group batch: USD 100 a month. Five to ten children at one level. A teacher who knows your child. Work checked and explained. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. A teacher who knows your child. Work checked and explained. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one child. Aimed at the gaps. Handy in the weeks before Round Two.
 
 ## What Barnet families ask us

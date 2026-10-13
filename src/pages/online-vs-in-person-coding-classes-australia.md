@@ -14,7 +14,7 @@ Australia · Ages 6 to 67 · Choosing a format
 
 Some families picture coding classes as a room of children at laptops after school; others picture a teacher on a screen at the kitchen table. Both can teach well, and both can go badly. This page sets out where the formats genuinely differ, puts numbers on two things parents ask about most, the internet data an online lesson uses and the hours a weekly drive adds up to, and ends with a short checklist for a home setup that makes online lessons work.
 
-At a glance: For: Ages 6 to 67; Our format: Live online video; Screen: Shared both ways; Data per hour: Under 1.5 GB at HD; Travel: None; Group size: Five to ten, or one to one; Times: Set for your state; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 6 to 67; Our format: Live online video; Screen: Shared both ways; Data per hour: Under 1.5 GB at HD; Travel: None; Group size: Fifteen to twenty, or one to one; Times: Set for your state; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses families often start online
 
@@ -219,7 +219,7 @@ Every lesson is taught live, with the learner's code visible to the teacher thro
 
 - **Screen sharing** The teacher reads the learner's actual code.
 - **Same teacher** One teacher, week after week.
-- **Small groups** Five to ten learners, or one to one.
+- **Small groups** Fifteen to twenty learners, or one to one.
 - **No travel** Lessons start at home, on time.
 - **Family welcome** Parents can sit in on any lesson.
 - **Own computer** Projects carry on between lessons.
@@ -229,7 +229,7 @@ Every lesson is taught live, with the learner's code visible to the teacher thro
 Online lessons outside India are charged monthly in US dollars, the same rate in every country. There is no joining fee, no term contract and no travel cost, and you can stop after any month.
 
 - Free first class: USD 0. A free first lesson online. A check of sound and screen sharing. No card details.
-- Group batch: USD 100 a month. Five to ten learners. One regular teacher. Screen sharing every lesson. Monthly.
+- Group batch: USD 100 a month. Fifteen to twenty learners. One regular teacher. Screen sharing every lesson. Monthly.
 - One to one: USD 150 a month. A teacher to yourself. Your own pace. Your own projects.
 
 ## Online or in-person coding classes: common questions
@@ -268,7 +268,7 @@ For a weekly class 20 minutes away, about 26.7 hours a year of driving, based on
 
 ### Do online learners still make friends?
 
-Yes. Groups of five to ten talk, share screens and present projects to each other, and many keep the same classmates for months.
+Yes. Groups of fifteen to twenty talk, share screens and present projects to each other, and many keep the same classmates for months.
 
 ### How much do online lessons cost?
 

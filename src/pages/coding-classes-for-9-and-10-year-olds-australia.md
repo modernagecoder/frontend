@@ -222,7 +222,7 @@ The teaching team works in India, behind Australia by a few hours whichever stat
 - **Weekend** A longer session for ambitious game builders.
 
 - **A free first class** Your child builds part of a small game and the teacher judges whether Scratch or Python suits better.
-- **Small groups** Five to ten children of similar ability who play-test each other's games.
+- **Small groups** Fifteen to twenty children of similar ability who play-test each other's games.
 - **One to one** For a child who wants to move faster or build one big project.
 - **Built by the child** Teachers explain and question. Every block and line is the child's.
 - **Watch any time** Lessons are live, so parents can see exactly how they run.
@@ -233,7 +233,7 @@ The teaching team works in India, behind Australia by a few hours whichever stat
 Families in Australia pay a monthly fee in US dollars, with no charge to join and no contract.
 
 - Free first class: USD 0. Part of a small game, built together. Advice on Scratch or Python. No card or bank details.
-- Group batch: USD 100 a month. Five to ten children per group. A regular teacher. Classmates who play-test games. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty children per group. A regular teacher. Classmates who play-test games. Stop after any month.
 - One to one: USD 150 a month. Your child's project, your child's pace. Flexible timing. Ideal for an ambitious game.
 
 ## What parents of 9 and 10 year olds ask

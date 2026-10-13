@@ -16,7 +16,7 @@ Marrickville, Inner West, Sydney, New South Wales / Live online
 
 Ask a simple model which nearby suburb is most like Marrickville and it answers Dulwich Hill. That is the easy part. The more useful skill is asking why, and the cleanest way to find out is to take the evidence away one piece at a time and see whether the answer survives.
 
-Facts last verified 10 October 2026. Teaching is online; no Marrickville branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Marrickville branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses where every model has to explain itself
 
@@ -195,7 +195,7 @@ Every lesson is live online, so learners join from home wherever they are in the
 - **From the kitchen table** A laptop at home is the classroom; no trip to a centre is needed.
 - **NSW school year** Lessons follow NSW syllabus stages and pause through the NSW school holidays.
 - **A full free lesson** The first class is a proper lesson and ends with a suggested course, level and time.
-- **Groups of five to ten** Learners are matched by level and pace, Marrickville students alongside others.
+- **Groups of fifteen to twenty** Learners are matched by level and pace, Marrickville students alongside others.
 - **Two fixed slots** Two lessons a week, about eight a month, with breaks agreed ahead of time.
 - **Teachers in India** A 3pm Marrickville lesson during daylight saving starts at 9:30am in India; in Sydney standard time it starts at 10:30am there.
 
@@ -206,7 +206,7 @@ Every lesson is live online, so learners join from home wherever they are in the
 Three amounts, no extras.
 
 - First class: USD 0. Your first class is free and ends with a frank recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, generally eight, with five to ten learners at the same level.
+- Group tuition: USD 100 a month. A month of group lessons, generally eight, with fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. Around eight private lessons a month with one teacher.
 
 Families outside India pay in US dollars, so every Marrickville family pays the same. Nothing is charged before the trial; once course and time are settled, the pricing page covers holidays, absences and switching formats.
@@ -243,7 +243,7 @@ No. All lessons are live online, we have no premises in Australia, and the phone
 
 ### How much do classes cost for Marrickville learners?
 
-The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before payment.
+The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before payment.
 
 ### How many learners are in a class?
 

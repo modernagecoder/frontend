@@ -177,7 +177,7 @@ Lessons are live on video from India, five and a half hours ahead of the UK in w
 
 - **Reliability taught first** We count how often a program works, not whether it worked once.
 - **Predict then run** Children say where the robot will end up before pressing go, which is where the learning is.
-- **Five to ten learners** Enough that two approaches meet, few enough that every program is read.
+- **Fifteen to twenty learners** Enough that two approaches meet, few enough that every program is read.
 - **Platform agnostic** We teach the programming ideas. Whatever kit the club owns, the logic is the same.
 - **One to one when useful** For a team member handling the hardest missions.
 - **We do not coach the team** We teach individuals to program. We have no role in any tournament and no relationship with the organisers.
@@ -187,7 +187,7 @@ Lessons are live on video from India, five and a half hours ahead of the UK in w
 A single monthly rate in US dollars outside India, no registration charge, and you can stop whenever a month ends.
 
 - Free first class: USD 0. A genuine lesson on the programming. A plain view of where the gaps are. No card, no details beyond a number.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher weekly. Programs read line by line. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher weekly. Programs read line by line. A certificate at the end.
 - One to one: USD 150 a month. A teacher working with one learner. Shaped around the missions. Useful before a regional tournament.
 
 ## What parents and coaches ask

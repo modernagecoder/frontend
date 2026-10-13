@@ -155,7 +155,7 @@ module.exports = {
         { kind: 'three', cells: [
           { h3: 'Times for your state', p: 'Lessons are set in your local time. Our teachers\' day in India overlaps with Australian afternoons and evenings, so after-school slots are routine.' },
           { h3: 'One regular teacher', p: 'The same teacher each week, who knows the learner\'s projects and where they get stuck.' },
-          { h3: 'Group or individual', p: 'A small group of five to ten at a similar level, or one-to-one lessons at a pace set by the learner.' }
+          { h3: 'Group or individual', p: 'A group of fifteen to twenty at a similar level, or one-to-one lessons at a pace set by the learner.' }
         ] },
         { kind: 'three', mt: true, cells: [
           { h3: 'Equipment', p: 'A laptop or desktop, keyboard, mouse or trackpad, webcam and headphones, and a steady connection.' },
@@ -237,7 +237,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Tuition outside India is priced monthly in US dollars, one rate for all countries. No enrolment fee is charged and you are not committed to a term, so stopping at the end of a month is always possible.',
     free: ['One free trial lesson', 'Advice on group or individual', 'No card asked'],
-    group: ['Five to ten learners', 'The same tutor each week', 'Grouped by level', 'Month to month'],
+    group: ['Fifteen to twenty learners', 'The same tutor each week', 'Grouped by level', 'Month to month'],
     one: ['Individual tuition', 'Times around your week', 'Pace set by the learner']
   },
 

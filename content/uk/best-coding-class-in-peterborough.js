@@ -64,7 +64,7 @@ module.exports = {
 
   h1: 'Coding classes in Peterborough',
   capsuleQ: 'What are the best coding classes in Peterborough?',
-  capsule: 'The 2021 census counted 215,671 usual residents in Peterborough, and children aged five to nine made up 7.3% of them, against 5.9% in England. Peterborough Cathedral says it has been a place of worship for over 1,350 years, and that Katharine of Aragon was buried there in 1536. Peterborough learners, from six-year-olds to adults of sixty-seven, work with our India-based teachers live on screen, either individually or in a class of five to ten at the same level, at times that suit UK families. The first lesson costs nothing, and after it a group place is USD 100 a month and a private one USD 150.',
+  capsule: 'The 2021 census counted 215,671 usual residents in Peterborough, and children aged five to nine made up 7.3% of them, against 5.9% in England. Peterborough Cathedral says it has been a place of worship for over 1,350 years, and that Katharine of Aragon was buried there in 1536. Peterborough learners, from six-year-olds to adults of sixty-seven, work with our India-based teachers live on screen, either individually or in a class of fifteen to twenty at the same level, at times that suit UK families. The first lesson costs nothing, and after it a group place is USD 100 a month and a private one USD 150.',
   lead: 'Peterborough\'s population, by the Office for National Statistics\' mid-year estimates, grew from 154,181 in 1991 to 224,757 in 2025. Growth like this cannot go on for ever, and the classic model for it is the logistic curve: slow, then fast, then levelling off at a ceiling called the carrying capacity. So where is Peterborough\'s ceiling? Fix it at 400,000, fit the rest, and the curve matches the 35 years of estimates to within about 6,000 people on average. Fix it at two million and the fit is slightly better still. The data simply cannot tell. Our teenagers fit the curve, find that the most interesting number is the one the data cannot pin down, and learn to say so instead of reporting a false ceiling.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Peterborough.',
 
@@ -193,7 +193,7 @@ module.exports = {
       { h3: 'Township to township', p: 'A learner in Paston and another in Hampton Vale can share one lesson without a car journey across the city.' },
       { h3: 'English school stages', p: 'Lessons follow the stages Peterborough schools use, from Reception through Key Stages 1 to 4 to GCSEs and A levels, and are taught in English.' },
       { h3: 'Free and worthwhile', p: 'The first session involves real work with a teacher and ends with a recommended level, course and weekly slot. We never ask for card details.' },
-      { h3: 'Five to ten per class', p: 'Classmates working at the same stage, from Peterborough, the rest of the UK and abroad, so each level has a time that suits.' },
+      { h3: 'Fifteen to twenty per class', p: 'Classmates working at the same stage, from Peterborough, the rest of the UK and abroad, so each level has a time that suits.' },
       { h3: 'A two-lesson week', p: 'Two regular lessons each week, about eight a month, with holidays and exam periods arranged with the teacher well ahead.' },
       { h3: 'Evenings across two time zones', p: 'Our teachers in India are four and a half hours ahead of Peterborough in British Summer Time and five and a half in winter, and they teach into their evening so learners here can join after school or work.' }
     ],
@@ -204,7 +204,7 @@ module.exports = {
     h2: 'Peterborough lesson fees',
     intro: 'The first lesson is free; after that there is one monthly fee.',
     first: 'A full lesson free of charge, ending with a suggested level, course and weekly time.',
-    group: 'About eight live lessons a month with five to ten learners at your learner\'s level.',
+    group: 'About eight live lessons a month with fifteen to twenty learners at your learner\'s level.',
     private: 'About eight live lessons a month with a teacher who works with your learner alone.',
     closer: 'Bretton and Stanground pay the same fee as any family elsewhere outside India, set in US dollars, and nothing on our site is priced in pounds. Billing only starts once the free lesson has fixed a course and a weekly time; the pricing page covers pausing, missed lessons and moving between group and one-to-one lessons.'
   },
@@ -229,8 +229,8 @@ module.exports = {
       { q: 'Who is buried in Peterborough Cathedral?', a: 'The Cathedral says Katharine of Aragon was buried there in 1536 and Mary, Queen of Scots in 1587. We are not connected with Peterborough Cathedral.' },
       { q: 'When do Peterborough lessons run?', a: 'After school, in the evening or at the weekend, at a UK time chosen in the free lesson. India is four and a half hours ahead of Peterborough in summer and five and a half in winter.' },
       { q: 'Is there a Modern Age Coders centre in Peterborough?', a: 'No. We have no Peterborough centre and no premises anywhere in the UK, as every lesson is taught live online. Learners need a computer with sound and a reliable connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do Peterborough lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
-      { q: 'How are Peterborough groups formed?', a: 'By level, pace and goals rather than age or address, with five to ten learners at one stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do Peterborough lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
+      { q: 'How are Peterborough groups formed?', a: 'By level, pace and goals rather than age or address, with fifteen to twenty learners at one stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

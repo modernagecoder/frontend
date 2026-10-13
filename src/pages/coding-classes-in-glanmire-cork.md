@@ -16,7 +16,7 @@ Glanmire, Cork / Live online
 
 Met Éireann kept a rain gauge at Northesk in Glanmire from 1952 to 1960, and its daily readings are open data. How much rain falls there in a year? The file has four complete years, and they average 1,138.9 millimetres. A careful learner then asks the next question: how sure can four years make us? The honest answer is not very. The likely range runs from 838 to 1,439 millimetres, a quarter either way, and one wet year, 1960, moves the average by 93 millimetres on its own. This page teaches a learner to measure that uncertainty, to see why it shrinks only with the square root of the number of years, and to work out how many years a trustworthy average would need.
 
-Facts last verified 20 September 2026. Teaching is online; no Glanmire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Glanmire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four first courses for Glanmire
 
@@ -149,7 +149,7 @@ A number without its uncertainty is only half a result. Code makes the other hal
 The essentials.
 
 - **Teacher-led** Every lesson is live, and the teacher follows and helps with each learner's code as it grows.
-- **By level** Groups of five to ten at the same level, from Glanmire, the rest of Ireland or abroad.
+- **By level** Groups of fifteen to twenty at the same level, from Glanmire, the rest of Ireland or abroad.
 - **Two set days** The same two days every week, about eight lessons in a month.
 - **Built around school** The plan steps around Christmas, Easter, summer, mid-terms and exam season.
 - **Set-up at home** A computer with a keyboard, a microphone, headphones or speakers, and internet that can carry a video call without stalling.
@@ -162,7 +162,7 @@ The essentials.
 In a nutshell.
 
 - First class: USD 0. A free first lesson, level check included.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, roughly eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, roughly eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons at the same frequency.
 
 Every family outside India pays one fee in US dollars, charged monthly. The trial lesson carries no strings; the monthly charge begins on the course start date, and our pricing page deals with holiday weeks, sessions a learner misses, and moving between shared and private classes.
@@ -199,11 +199,11 @@ It can happen, but level decides the grouping, so the rest of the class may just
 
 ### What do coding classes in Glanmire cost?
 
-The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.
+The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.
 
 ### How big are the groups?
 
-Five to ten learners, matched by level, pace and goals rather than age or address. When no group fits a workable time, lessons are one to one.
+Fifteen to twenty learners, matched by level, pace and goals rather than age or address. When no group fits a workable time, lessons are one to one.
 
 ## Around Glanmire
 

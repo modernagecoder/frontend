@@ -256,7 +256,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'The teacher tries blocks and text with your child and recommends a language from what they see.' },
-      { h3: 'Small groups', p: 'Five to ten children at a similar level and learning the same language.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty children at a similar level and learning the same language.' },
       { h3: 'One to one', p: 'Useful when a child already knows one language and wants to move quickly to a second.' },
       { h3: 'Code they type', p: 'Teachers explain and question. The child types or snaps in every line.' },
       { h3: 'Watch a lesson', p: 'Every class happens live, so a parent can pull up a chair whenever they like.' },
@@ -272,7 +272,7 @@ module.exports = {
     h2: 'Fees for coding classes',
     lede: 'Families outside India pay one monthly price in US dollars, whichever language their child learns. There is no enrolment charge and no term contract.',
     free: ['A short task in blocks and in text', 'A recommended first language', 'No card or bank details'],
-    group: ['Five to ten children per class', 'One teacher across the months', 'Classmates learning the same language', 'Stop after any month'],
+    group: ['Fifteen to twenty children per class', 'One teacher across the months', 'Classmates learning the same language', 'Stop after any month'],
     one: ['All the attention on your child', 'Pace set by the child', 'Easy to switch language when ready']
   },
 

@@ -236,7 +236,7 @@ Teachers are in India, where the working day overlaps Australian afternoons. Les
 - **Weekend** Longer project sessions.
 
 - **Free first class** A first Python program and a look at what the AI project does.
-- **Small groups** Five to ten students at the same level.
+- **Small groups** Fifteen to twenty students at the same level.
 - **One to one** For any student who prefers it, at any stage.
 - **Her projects** Students choose what to build within each unit.
 - **Show and tell** Students present their work and give feedback.
@@ -247,7 +247,7 @@ Teachers are in India, where the working day overlaps Australian afternoons. Les
 Families outside India pay a monthly fee in US dollars. Nothing is due at sign-up and there is no contract.
 
 - Free first class: USD 0. A first Python program in the lesson. Advice on the right starting course. No card needed.
-- Group batch: USD 100 a month. Five to ten students at one level. Show and tell of projects. A regular teacher. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. Show and tell of projects. A regular teacher. Stop after any month.
 - One to one: USD 150 a month. Lessons shaped around one student. Her pace and project choices. Times around school.
 
 ## Questions about the AI and Python academy for girls

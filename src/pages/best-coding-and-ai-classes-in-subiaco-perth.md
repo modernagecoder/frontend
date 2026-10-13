@@ -16,7 +16,7 @@ Subiaco, City of Subiaco, Western Australia / Live online
 
 The state's public transport stops file has 29 columns. In Subiaco, five of them hold the same value on every one of the suburb's 58 stop records, so a tidy-minded analyst might delete all five. Run the same check on the whole state file and only two survive the cut.
 
-Facts last verified 12 October 2026. Teaching is online; no Subiaco branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Subiaco branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that teach careful data work
 
@@ -178,7 +178,7 @@ Lessons happen over live video, so nobody travels anywhere.
 - **Hands on the keys** Subiaco learners write every line themselves while the teacher watches and questions.
 - **WA school terms** Plans follow the Western Australian school year and break for its holidays.
 - **Try before paying** One complete lesson at no cost, then a plain suggestion of what fits.
-- **Groups of five to ten** Matched by level and pace, or one to one.
+- **Groups of fifteen to twenty** Matched by level and pace, or one to one.
 - **Two classes a week** Fixed weekly times, about eight lessons a month.
 - **Teachers in India** A 5pm Subiaco lesson starts at 2:30pm India time, all year.
 
@@ -189,7 +189,7 @@ Lessons happen over live video, so nobody travels anywhere.
 Three prices for every family.
 
 - First class: USD 0. The first lesson is free and ends with a clear suggestion.
-- Group tuition: USD 100 a month. A month of group classes, about eight lessons, with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group classes, about eight lessons, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight lessons a month with one teacher for one learner.
 
 Subiaco families pay in US dollars, only after the trial and once a course and time are agreed. The pricing page covers school holidays, missed lessons and switching between group and private.
@@ -226,11 +226,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Subiaco learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Can a Subiaco group class cover Copilot Studio?
 

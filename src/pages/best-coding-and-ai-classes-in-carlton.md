@@ -4,7 +4,7 @@ description: "Online coding, AI, Python and vibe coding classes taught live for 
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-carlton
 source: src/pages/best-coding-and-ai-classes-in-carlton.html
 ---
-> The ONS counted 53,555 residents in the Carlton built-up area at the 2021 census, and 117,264 in Gedling borough. Gedling, Netherfield, Colwick and Porchester are recorded as suburban areas of the borough, and Burton Joyce as a village. Anyone from six to 67 can study coding, AI, Python, vibe coding and maths with our India-based tutors over live video, in private lessons or in a group of five to ten learners at a shared level. Thinking comes before tools in every course, so a learner can question what a model or a chatbot says. For the Carlton project a learner trains a random forest on Gedling census areas and then uses partial dependence plots to ask what the model believes about one input at a time. Lesson one is free and ends with a course suggestion. After it, a group seat costs USD 100 a month and one-to-one teaching USD 150 a month.
+> The ONS counted 53,555 residents in the Carlton built-up area at the 2021 census, and 117,264 in Gedling borough. Gedling, Netherfield, Colwick and Porchester are recorded as suburban areas of the borough, and Burton Joyce as a village. Anyone from six to 67 can study coding, AI, Python, vibe coding and maths with our India-based tutors over live video, in private lessons or in a group of fifteen to twenty learners at a shared level. Thinking comes before tools in every course, so a learner can question what a model or a chatbot says. For the Carlton project a learner trains a random forest on Gedling census areas and then uses partial dependence plots to ask what the model believes about one input at a time. Lesson one is free and ends with a course suggestion. After it, a group seat costs USD 100 a month and one-to-one teaching USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East Midlands](/coding-and-ai-classes-in-east-midlands) / Carlton
 
@@ -12,11 +12,11 @@ Carlton, Gedling, Nottinghamshire / Live online
 
 # Coding and AI classes in Carlton, Nottinghamshire
 
-**Where will a Carlton learner find the best coding and AI classes?** The ONS counted 53,555 residents in the Carlton built-up area at the 2021 census, and 117,264 in Gedling borough. Gedling, Netherfield, Colwick and Porchester are recorded as suburban areas of the borough, and Burton Joyce as a village. Anyone from six to 67 can study coding, AI, Python, vibe coding and maths with our India-based tutors over live video, in private lessons or in a group of five to ten learners at a shared level. Thinking comes before tools in every course, so a learner can question what a model or a chatbot says. For the Carlton project a learner trains a random forest on Gedling census areas and then uses partial dependence plots to ask what the model believes about one input at a time. Lesson one is free and ends with a course suggestion. After it, a group seat costs USD 100 a month and one-to-one teaching USD 150 a month.
+**Where will a Carlton learner find the best coding and AI classes?** The ONS counted 53,555 residents in the Carlton built-up area at the 2021 census, and 117,264 in Gedling borough. Gedling, Netherfield, Colwick and Porchester are recorded as suburban areas of the borough, and Burton Joyce as a village. Anyone from six to 67 can study coding, AI, Python, vibe coding and maths with our India-based tutors over live video, in private lessons or in a group of fifteen to twenty learners at a shared level. Thinking comes before tools in every course, so a learner can question what a model or a chatbot says. For the Carlton project a learner trains a random forest on Gedling census areas and then uses partial dependence plots to ask what the model believes about one input at a time. Lesson one is free and ends with a course suggestion. After it, a group seat costs USD 100 a month and one-to-one teaching USD 150 a month.
 
 A trained model is a black box until someone interrogates it. One standard way to do that is a partial dependence plot: choose a single input, force it to a fixed value for every row of the data, average the model's predictions, then repeat for the next value. The resulting line shows how the model's answer moves as that one input changes. Gedling borough has 399 census output areas, which is enough for a Carlton learner to train a model in Python, draw these plots, and then discover the catch that careful analysts always mention: the plot describes the model, and inputs that travel together can make it misleading.
 
-Facts last verified 30 September 2026. Teaching is online; no Carlton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Carlton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses in thinking, vibe coding and AI for Carlton
 
@@ -134,7 +134,7 @@ Any reasonably recent computer with a camera and steady internet will do.
 - **The learner drives** Code is typed and run by the student while the tutor watches the screen share and probes the reasoning.
 - **Level found first** We use the trial to see where to begin and to write down the exam board if there is one.
 - **Trial without payment** Session one costs nothing and ends with the course we think fits.
-- **Small matched classes** Groups are five to ten learners at a similar stage, drawn from all over the UK.
+- **Small matched classes** Groups are fifteen to twenty learners at a similar stage, drawn from all over the UK.
 - **Two sessions a week** Term-time rhythm, with school holidays left free on request.
 - **One fixed hour** Tutors move their own clocks when British Summer Time changes; yours stays as booked.
 

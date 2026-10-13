@@ -1,26 +1,26 @@
 ---
 title: "Live Online Coding & Maths Classes near Hazra, Kolkata"
-description: "Live online, engineer-led coding & maths near Hazra, Kolkata. Python, Java, AI/ML for ICSE/CBSE/WBBSE kids & teens. Batches of 6-8 from ₹1,499/mo. Free demo."
+description: "Live online, engineer-led coding & maths near Hazra, Kolkata. Python, Java, AI/ML for ICSE/CBSE/WBBSE kids & teens. Batches of 15-20 from ₹1,499/mo. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-hazra-kolkata
 source: src/pages/coding-classes-near-hazra-kolkata.html
 ---
-> Live online, engineer-led coding & maths near Hazra, Kolkata. Python, Java, AI/ML for ICSE/CBSE/WBBSE kids & teens. Batches of 6-8 from ₹1,499/mo. Free demo.
+> Live online, engineer-led coding & maths near Hazra, Kolkata. Python, Java, AI/ML for ICSE/CBSE/WBBSE kids & teens. Batches of 15-20 from ₹1,499/mo. Free demo.
 
 LIVE ONLINE · SOUTH KOLKATA'S STUDENT CORRIDOR
 
 # Live Online Coding & Maths Classes near Hazra, Kolkata
 
-Modern Age Coders runs premium, live online coding and maths classes for students near Hazra, Kolkata, taught in real time by full-time software engineers and maths graduates, never pre-recorded. In small batches of six to eight, children from the Hazra–Bhowanipore–Kalighat belt learn Python, Java, AI/ML and school maths by building real projects. It is the engineer-led batch a three-generation tuition neighbourhood has been waiting for.
+Modern Age Coders runs premium, live online coding and maths classes for students near Hazra, Kolkata, taught in real time by full-time software engineers and maths graduates, never pre-recorded. In batches of fifteen to twenty, children from the Hazra–Bhowanipore–Kalighat belt learn Python, Java, AI/ML and school maths by building real projects. It is the engineer-led batch a three-generation tuition neighbourhood has been waiting for.
 
 Live, not recordedBatches of 6-8Engineers & maths graduatesICSE · CBSE · WBBSE · IGCSE6-8Students per live batch90 minCommute saved each class day₹1,499Per month, group plan onwards100%Live, project-based teaching[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)LIVE ONLINE · HAZRA, KOLKATA
 
 ## At a glance
 
-Format**Live online, two-way classes**, taught in real time, never pre-recorded videosBatch sizeSmall batches of **6-8** (mini batch 3-4; 1-on-1 available)Ages**6 to 67**, kids, teens, college students and working adultsSubjectsCoding (Python, Java, Scratch, web, AI/ML, DSA) + Mathematics (Grade 1 to college + Olympiad)BoardsICSE, CBSE, WBBSE and IGCSE: Java/BlueJ for ICSE, Python for CBSEFeesFrom **₹1,499/month** (group, max 6-8) · ₹2,999/month (mini batch 3-4) · ₹4,999/month (1-on-1)Free demoYes, one free live demo class, no payment, no commitmentServingHazra, Kalighat, Bhowanipore, Padmapukur, Chakraberia, Sarat Bose Road, Lansdowne, Elgin Road and nearby South KolkataWHY IT IS DIFFERENT
+Format**Live online, two-way classes**, taught in real time, never pre-recorded videosBatch sizeSmall batches of **6-8** (mini batch up to 6; 1-on-1 available)Ages**6 to 67**, kids, teens, college students and working adultsSubjectsCoding (Python, Java, Scratch, web, AI/ML, DSA) + Mathematics (Grade 1 to college + Olympiad)BoardsICSE, CBSE, WBBSE and IGCSE: Java/BlueJ for ICSE, Python for CBSEFeesFrom **₹1,499/month** (group, max 20) · ₹2,999/month (mini batch up to 6) · ₹4,999/month (1-on-1)Free demoYes, one free live demo class, no payment, no commitmentServingHazra, Kalighat, Bhowanipore, Padmapukur, Chakraberia, Sarat Bose Road, Lansdowne, Elgin Road and nearby South KolkataWHY IT IS DIFFERENT
 
 ## Premium, live, engineer-led: not a recorded course
 
-Our classes are premium, high-quality, live online coding and maths education, every session is taught live by a working software engineer or maths graduate to a batch of six to eight students, with the teacher seeing each child's screen and correcting code as it is written. There are no pre-recorded lectures and no 40-child rooms. This is what separates a Hazra child who finishes the year able to build from one who only finishes a syllabus.
+Our classes are premium, high-quality, live online coding and maths education, every session is taught live by a working software engineer or maths graduate to a batch of fifteen to twenty students, with the teacher seeing each child's screen and correcting code as it is written. There are no pre-recorded lectures and no 40-child rooms. This is what separates a Hazra child who finishes the year able to build from one who only finishes a syllabus.
 
 ### Live, never recorded
 
@@ -30,9 +30,9 @@ Every class happens in real time with the camera on and the teacher present. You
 
 Classes are led by full-time software engineers and maths graduates who write production code and solve real problems for a living. They teach the language the way the industry actually uses it, not the way a generic coaching handout describes it. Around Hazra, where families chase the right teacher across the city, this is the teacher worth finding.
 
-### Small batches of 6-8
+### Batches of 15-20
 
-A maximum of six to eight students means every child is seen, named and pushed each class. It is the opposite of the packed tuition rooms on Hazra Road and Sarat Bose Road, where a quiet student can hide for a whole term. Smaller still? Choose a 3-4 mini batch or fully personalised 1-on-1.
+A maximum of twenty students means every child is seen, named and pushed each class. It is the opposite of the packed tuition rooms on Hazra Road and Sarat Bose Road, where a quiet student can hide for a whole term. Smaller still? Choose a up to 6 mini batch or fully personalised 1-on-1.
 
 ### Project-based, not theory-only
 
@@ -166,7 +166,7 @@ AN HONEST COMPARISON
 ### Where live online wins
 
 - The teacher is a working software engineer, not whoever the local centre could hire near Hazra Road.
-- Batches stay at 6-8, so no child disappears the way they can in a packed tuition room.
+- Batches stay at 15-20, so no child disappears the way they can in a packed tuition room.
 - Roughly 90 minutes of daily commute through Hazra crossing and Jatin Das Park is given straight back.
 - Screen-sharing lets the teacher see and fix your child's actual code in real time.
 - Every class is project-based, so learning is built and remembered, not just heard.
@@ -224,11 +224,11 @@ FAQ
 
 ## Questions Hazra parents ask
 
-For serious coding, yes. A batch of 6-8 led by a working software engineer gives each child far more attention and real-world correctness than a 30-40 student room run by a generalist. You also save roughly 90 minutes of daily commute. [Try a free demo](/book-demo) and compare directly.Yes, explicitly. Our [Java course](/java-programming-for-kids-teens) builds 25+ board-style programs in BlueJ and a complete, documented Computer Applications project file aligned to the ICSE pattern. We teach Java the way the board examines it.Yes. Our [CBSE/ICSE Computer Science Class 11-12 course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers Python, Informatics Practices theory, practicals and projects for the senior board exam. Younger CBSE students are supported through [Coding for CBSE Students](/coding-for-cbse-students).A home tutor brings comfort and discipline, but most cannot actually write production code. Our live batches give you that same close attention plus a real software engineer and a project-based outcome. Many Hazra families keep their maths home tutor and add us for coding.Yes. Students from Mitra Institution (Bhawanipur Branch) and other WBBSE schools learn coding at a comfortable English pace while keeping their board maths on track through our [online maths tuition](/online-maths-tuition).Group batches (max 6-8) are from ₹1,499/month, mini batches (3-4) are ₹2,999/month, and fully personalised 1-on-1 is ₹4,999/month. See full details on the [pricing page](/pricing).Every class is 100% live and two-way, a real teacher, in real time, who can see your child's screen and answer doubts on the spot. We never use pre-recorded videos.Tell us in advance and we arrange a catch-up, a make-up session where possible, plus notes and the lesson's project so nothing is lost. Live attention means missed work is genuinely recovered, not ignored.A laptop or desktop with a stable internet connection and a quiet corner is ideal; a tablet works for younger beginners. We share simple setup help before the first class.ICSE, CBSE, WBBSE and IGCSE: Java/BlueJ for ICSE, Python for CBSE, and English-comfortable coding for WBBSE. See [Coding for ICSE](/coding-for-icse-students), [CBSE](/coding-for-cbse-students) and [IGCSE](/coding-for-igcse-students) students.Primarily clear, simple English, with teachers comfortable supporting Hazra's Bengali-medium students so no child is held back by language while learning to code.Yes. Our [Princess and Queen Coders](/coding-classes-for-girls) batches are dedicated girls-only coding groups for kids and teens, building both skills and tech confidence.From age 6 to 67, kids (6-12), teens (13-18), [college students and professionals](/courses/coding/college), and adult learners.Yes, students receive a course completion certificate, and more importantly leave each module with real projects they built and can show.[Book a free demo class](/book-demo), one live session with no payment and no commitment. You meet the teacher, see the format, and decide afterwards. WhatsApp us at [+91 91233 66161](https://wa.me/919123366161) to pick a slot.
+For serious coding, yes. A batch of 15-20 led by a working software engineer gives each child far more attention and real-world correctness than a 30-40 student room run by a generalist. You also save roughly 90 minutes of daily commute. [Try a free demo](/book-demo) and compare directly.Yes, explicitly. Our [Java course](/java-programming-for-kids-teens) builds 25+ board-style programs in BlueJ and a complete, documented Computer Applications project file aligned to the ICSE pattern. We teach Java the way the board examines it.Yes. Our [CBSE/ICSE Computer Science Class 11-12 course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers Python, Informatics Practices theory, practicals and projects for the senior board exam. Younger CBSE students are supported through [Coding for CBSE Students](/coding-for-cbse-students).A home tutor brings comfort and discipline, but most cannot actually write production code. Our live batches give you that same close attention plus a real software engineer and a project-based outcome. Many Hazra families keep their maths home tutor and add us for coding.Yes. Students from Mitra Institution (Bhawanipur Branch) and other WBBSE schools learn coding at a comfortable English pace while keeping their board maths on track through our [online maths tuition](/online-maths-tuition).Group batches (max 20) are from ₹1,499/month, mini batches (up to 6) are ₹2,999/month, and fully personalised 1-on-1 is ₹4,999/month. See full details on the [pricing page](/pricing).Every class is 100% live and two-way, a real teacher, in real time, who can see your child's screen and answer doubts on the spot. We never use pre-recorded videos.Tell us in advance and we arrange a catch-up, a make-up session where possible, plus notes and the lesson's project so nothing is lost. Live attention means missed work is genuinely recovered, not ignored.A laptop or desktop with a stable internet connection and a quiet corner is ideal; a tablet works for younger beginners. We share simple setup help before the first class.ICSE, CBSE, WBBSE and IGCSE: Java/BlueJ for ICSE, Python for CBSE, and English-comfortable coding for WBBSE. See [Coding for ICSE](/coding-for-icse-students), [CBSE](/coding-for-cbse-students) and [IGCSE](/coding-for-igcse-students) students.Primarily clear, simple English, with teachers comfortable supporting Hazra's Bengali-medium students so no child is held back by language while learning to code.Yes. Our [Princess and Queen Coders](/coding-classes-for-girls) batches are dedicated girls-only coding groups for kids and teens, building both skills and tech confidence.From age 6 to 67, kids (6-12), teens (13-18), [college students and professionals](/courses/coding/college), and adult learners.Yes, students receive a course completion certificate, and more importantly leave each module with real projects they built and can show.[Book a free demo class](/book-demo), one live session with no payment and no commitment. You meet the teacher, see the format, and decide afterwards. WhatsApp us at [+91 91233 66161](https://wa.me/919123366161) to pick a slot.
 
 ## Hazra's student corridor deserves a coding class built to its own standard.
 
-Live, engineer-led, project-based. Book one free demo near Hazra and see the difference a batch of 6-8 makes.
+Live, engineer-led, project-based. Book one free demo near Hazra and see the difference a batch of 15-20 makes.
 
 [Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)[Chat on WhatsApp](https://wa.me/919123366161)NEARBY AREAS
 

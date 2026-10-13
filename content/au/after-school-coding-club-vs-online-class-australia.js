@@ -262,7 +262,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A club is usually free; our taught online lessons are paid monthly in US dollars, one rate in every country outside India. There is no joining fee and no term contract, so a child can try a term alongside their club and stop at any month\'s end.',
     free: ['A free first lesson', 'Bring a club project', 'No card details'],
-    group: ['Five to ten learners', 'One regular teacher', 'Cover arranged', 'Monthly'],
+    group: ['Fifteen to twenty learners', 'One regular teacher', 'Cover arranged', 'Monthly'],
     one: ['A teacher to yourself', 'Your own pace', 'Your own projects']
   },
 

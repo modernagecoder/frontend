@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in Ealing',
   capsuleQ: 'What are the best coding classes in Ealing?',
-  capsule: 'Ealing is the west London borough of Ealing Broadway, Acton, Southall, Greenford, Hanwell, Northolt and Perivale, and the 2021 Census counted 367,115 residents. The council lists thirteen libraries, and Ealing Broadway alone is served by the Central, District and Elizabeth lines and Great Western Railway. A class that suits a learner here should teach them to work out how a published number was made, and the project on this page does that with the River Brent at Greenford. Our teachers teach live on video from India, in groups of five to ten at one level or one to one, for ages 6 to 67. The first lesson costs nothing; after that a group place is USD 100 a month and one-to-one teaching USD 150.',
+  capsule: 'Ealing is the west London borough of Ealing Broadway, Acton, Southall, Greenford, Hanwell, Northolt and Perivale, and the 2021 Census counted 367,115 residents. The council lists thirteen libraries, and Ealing Broadway alone is served by the Central, District and Elizabeth lines and Great Western Railway. A class that suits a learner here should teach them to work out how a published number was made, and the project on this page does that with the River Brent at Greenford. Our teachers teach live on video from India, in groups of fifteen to twenty at one level or one to one, for ages 6 to 67. The first lesson costs nothing; after that a group place is USD 100 a month and one-to-one teaching USD 150.',
   lead: 'Every fifteen minutes the Environment Agency publishes how much water is flowing down the River Brent at Greenford, in cubic metres a second. Nobody is out there measuring it. What the gauge records is the height of the water; the flow is worked out from that height with a formula called a rating, fixed by occasional field measurements. The formula itself is not printed alongside the data. But ten years of heights and flows, side by side, are enough to find it. Our learners try one smooth power curve first and land within two per cent most of the time, which sounds like success until they look at the floods, where the same curve overstates the river by about a third. Split the formula into two pieces at a water level of 0.32 m and the error falls below a tenth of a per cent almost everywhere. The published number was two formulas all along.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Ealing.',
 
@@ -190,7 +190,7 @@ module.exports = {
       { h3: 'Home or library', p: 'Most learners join from home; a library table and a headset work when home is busy.' },
       { h3: 'English stages and exams', p: 'Key Stages, Year 9 options, GCSEs, A levels, T Levels and the EPQ are named as English schools name them. Every lesson is in English.' },
       { h3: 'Start with a free lesson', p: 'The first lesson is real work with a teacher and ends with a suggested level and course. No payment details are asked for.' },
-      { h3: 'Groups by level', p: 'Five to ten learners at the same stage, from Ealing and much further afield, so there is a group at a workable hour.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at the same stage, from Ealing and much further afield, so there is a group at a workable hour.' },
       { h3: 'Twice a week, term aware', p: 'Most groups meet twice weekly and pause for half terms, holidays and exam weeks by agreement.' },
       { h3: 'Your clock, your times', p: 'The teacher is in India, but every invitation and reminder we send shows the time as it reads in Ealing.' }
     ],
@@ -201,7 +201,7 @@ module.exports = {
     h2: 'Fees for Ealing families',
     intro: 'One free lesson, then a single monthly fee, the same across the borough.',
     first: 'A full lesson with a teacher at no charge, finishing with a suggested level, course and weekly slot.',
-    group: 'Roughly eight live lessons each month with five to ten learners at one stage.',
+    group: 'Roughly eight live lessons each month with fifteen to twenty learners at one stage.',
     private: 'Roughly eight live lessons each month with a teacher for one learner.',
     closer: 'Ealing families are billed in US dollars, as is everyone outside India, and our site shows no pound prices. You pay nothing until the free lesson is behind you and a course and regular time are agreed; the pricing page covers pauses, missed lessons and switching between group and one-to-one.'
   },
@@ -226,8 +226,8 @@ module.exports = {
       { q: 'When are lessons for Ealing learners?', a: 'A regular time is settled after the free lesson, from groups at the learner\'s level that have space. Although the teacher works from India, every time we give you is the time on a clock in Ealing.' },
       { q: 'Can my child take a lesson from an Ealing library?', a: 'Yes, where the library\'s computers and connection allow and with headphones. Most learners find home quieter.' },
       { q: 'Is there a Modern Age Coders centre in Ealing?', a: 'No. There is no Ealing centre and no premises anywhere in the UK, because all teaching is live online. A learner needs a computer with sound and a steady connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Ealing cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, grouped by level, pace and goals rather than age or neighbourhood. If no group fits the learner\'s week, one-to-one lessons are the alternative.', boiler: true }
+      { q: 'What do coding classes in Ealing cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, grouped by level, pace and goals rather than age or neighbourhood. If no group fits the learner\'s week, one-to-one lessons are the alternative.', boiler: true }
     ]
   },
 

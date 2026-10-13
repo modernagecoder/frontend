@@ -321,7 +321,7 @@ module.exports = {
       { h3: 'One link', p: 'The learner opens a link at lesson time, shares a screen and starts writing code with the teacher.' },
       { h3: 'School terms', p: 'Lesson plans follow the Victorian term calendar and pause during state school holidays.' },
       { h3: 'Trial lesson', p: 'The free first class is a full lesson; afterwards we suggest a course and a regular time.' },
-      { h3: 'Small groups', p: 'Groups hold five to ten learners at the same level, gathered from across Australia.' },
+      { h3: 'Small groups', p: 'Groups hold fifteen to twenty learners at the same level, gathered from across Australia.' },
       { h3: 'Twice weekly', p: 'Two fixed lessons each week, about eight a month, with breaks agreed in advance.' },
       {
         h3: 'Teachers in India',
@@ -337,7 +337,7 @@ module.exports = {
     h2: 'Fees for Dandenong learners',
     intro: 'Three prices, nothing hidden.',
     first: 'Lesson one is free and ends with an honest suggestion about what to study next.',
-    group: 'One month of group lessons, usually eight, with five to ten learners working at the same level.',
+    group: 'One month of group lessons, usually eight, with fifteen to twenty learners working at the same level.',
     private: 'Around eight lessons a month with a teacher working only with your learner.',
     closer: 'Families outside India are billed in US dollars, so Dandenong pays the same as anywhere else. Nothing is charged until the trial has settled the course and time; holidays, missed lessons and changing format are set out on the pricing page.'
   },
@@ -382,12 +382,12 @@ module.exports = {
       },
       {
         q: 'What do coding classes cost for Dandenong learners?',
-        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. You agree the course, format and time before paying.',
+        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. You agree the course, format and time before paying.',
         boiler: true
       },
       {
         q: 'How big are the groups?',
-        a: 'Five to ten learners, put together by level, pace and goals. Private lessons are an option if no group time fits.',
+        a: 'Fifteen to twenty learners, put together by level, pace and goals. Private lessons are an option if no group time fits.',
         boiler: true
       },
       {

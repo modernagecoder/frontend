@@ -155,7 +155,7 @@ module.exports = {
       { h3: 'Hands-on learner', p: 'Everything is typed and run by the student, while the tutor follows on screen share and asks what each count means.' },
       { h3: 'Trial shapes the plan', p: 'The free lesson shows where to start, and we note any SQA exam due.' },
       { h3: 'Free opening class', p: 'Class one has no charge and ends with a course suggestion.' },
-      { h3: 'Same-stage groups', p: 'Five to ten learners from across Britain, matched by level.' },
+      { h3: 'Same-stage groups', p: 'Fifteen to twenty learners from across Britain, matched by level.' },
       { h3: 'Two lessons a week', p: 'Paused for school holidays.' },
       { h3: 'Steady lesson time', p: 'British Summer Time changes are handled by our tutors, not your diary.' }
     ],

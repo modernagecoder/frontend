@@ -238,7 +238,7 @@ module.exports = {
       { h3: 'Testing as you go', p: 'Run it early and often, because the paper asks for programs that are tested and refined rather than merely written.' },
       { h3: 'Topics in rotation', p: 'The five written topics revisited across the year rather than blocked, because each one is a whole question.' },
       { h3: 'Timed practice later', p: 'From the spring of Year 11, six questions in two hours, with the clock visible.' },
-      { h3: 'Groups by level', p: 'Five to ten students at one stage, comparing two solutions to the same problem.' }
+      { h3: 'Groups by level', p: 'Fifteen to twenty students at one stage, comparing two solutions to the same problem.' }
     ]
   },
 

@@ -209,7 +209,7 @@ Our lessons are taught live from India. For primary children we use early evenin
 
 - **Same teacher weekly** Continuity that catches recurring slips.
 - **Direct feedback** Short, honest notes to parents.
-- **Groups of five to ten** Children matched by level.
+- **Groups of fifteen to twenty** Children matched by level.
 - **No copied papers** CSSE material is never reproduced.
 - **One to one on offer** For filling particular gaps quickly.
 - **Maths, not English** No English coaching and no admissions advice.
@@ -219,7 +219,7 @@ Our lessons are taught live from India. For primary children we use early evenin
 Families outside India pay one monthly US dollar price. Nothing to join, and you can stop at any point.
 
 - Free first class: USD 0. A taught lesson, not a pitch. Our honest findings. No card needed.
-- Group batch: USD 100 a month. Five to ten pupils, one level. A familiar teacher. Work marked in the lesson. A certificate on completion.
+- Group batch: USD 100 a month. Fifteen to twenty pupils, one level. A familiar teacher. Work marked in the lesson. A certificate on completion.
 - One to one: USD 150 a month. Individual teaching. Focused on the gaps. Useful for building stamina.
 
 ## What Southend families ask us

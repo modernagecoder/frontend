@@ -216,7 +216,7 @@ module.exports = {
     cells: [
       { h3: 'Reasoning out loud', p: 'Students explain how they know, not just what they got.' },
       { h3: 'Estimation built in', p: 'Every calculation starts with a rough answer and ends with a check.' },
-      { h3: 'Classes of five to ten', p: 'Children grouped by what they can already do, so nobody waits and nobody is lost.' },
+      { h3: 'Classes of fifteen to twenty', p: 'Children grouped by what they can already do, so nobody waits and nobody is lost.' },
       { h3: 'Private lessons', p: 'Chosen when a child needs a particular gap closed or confidence rebuilt.' },
       { h3: 'Parents kept informed', p: 'A short note on what was covered and what to try at home.' },
       { h3: 'No promises', p: 'No proficiency level is promised. We teach the maths; the result is the child\'s.' }
@@ -231,7 +231,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Australian families are billed monthly in US dollars, the same rate we charge everywhere outside India, with nothing to pay up front and freedom to stop at any month end.',
     free: ['A real lesson with a teacher', 'An honest view of where your child is', 'No card details'],
-    group: ['Five to ten students at one level', 'The same teacher each week', 'Work reviewed and explained', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher each week', 'Work reviewed and explained', 'A certificate at the end'],
     one: ['A teacher for one child', 'Focused on specific gaps', 'Flexible weekly times']
   },
 

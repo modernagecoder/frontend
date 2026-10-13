@@ -210,7 +210,7 @@ module.exports = {
     h2: 'Fees for Melton learners',
     intro: 'Three figures and nothing else.',
     first: 'One complete lesson free, ending with a level, a course suggestion and a proposed time.',
-    group: 'A month of classes, usually eight, with five to ten learners at your stage.',
+    group: 'A month of classes, usually eight, with fifteen to twenty learners at your stage.',
     private: 'Roughly eight lessons a month in the same pattern, taught one to one.',
     closer: 'Every country outside India is invoiced in US dollars, so a family in Aintree pays exactly what one in Diggers Rest pays and no local price list exists. Billing starts only once the trial has fixed a course and a time, and the pricing page explains holidays, absences and format changes.'
   },
@@ -235,8 +235,8 @@ module.exports = {
       { q: 'What time are lessons for Melton learners?', a: 'Most choose an after-school or weekend slot, fixed during the trial and given in Melbourne time. India is four and a half hours behind Melton in winter and five and a half in summer.' },
       { q: 'Can younger children start AI and coding?', a: 'Yes, from six, with Scratch and visual projects first and typed code later; the Melton project on this page is designed for older learners.' },
       { q: 'Is there a Modern Age Coders centre in Melton?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Melton AI classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Melton AI classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

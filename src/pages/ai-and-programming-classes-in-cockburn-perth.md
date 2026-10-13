@@ -16,7 +16,7 @@ City of Cockburn, Perth, Western Australia / Live online
 
 The state stops file gives every stop a bay field, and in the City of Cockburn most records say N. Can you guess which say Y from where a stop is? A nearest-neighbour model tries, and the number of neighbours it consults, k, decides whether it learns the streets or just learns the average.
 
-Facts last verified 13 October 2026. Teaching is online; no Cockburn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Cockburn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that teach models and their limits
 
@@ -175,7 +175,7 @@ Lessons run live on video, reachable from any suburb in the council area.
 - **Notebooks together** Teacher and learner run cells and read every score side by side.
 - **Term calendar** Plans follow WA school terms, with holiday breaks.
 - **Trial at no cost** A full opening lesson and a candid recommendation.
-- **Matched classmates** Each group holds five to ten learners at the same stage; private lessons are the alternative.
+- **Matched classmates** Each group holds fifteen to twenty learners at the same stage; private lessons are the alternative.
 - **A twice-weekly rhythm** The same two slots each week make roughly eight lessons monthly.
 - **India time** Teachers work from India, so a 7pm Cockburn class begins at 4:30pm India time.
 
@@ -186,7 +186,7 @@ Lessons run live on video, reachable from any suburb in the council area.
 Three prices for everyone.
 
 - First class: USD 0. The first lesson is free and comes with a written plan.
-- Group tuition: USD 100 a month. Around eight group lessons a month with five to ten learners.
+- Group tuition: USD 100 a month. Around eight group lessons a month with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Around eight private lessons a month with one teacher.
 
 Cockburn families pay in US dollars, after the trial and once a course and weekly time are agreed. School holidays, sick days and moving between formats are all explained on our pricing page.
@@ -223,11 +223,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Cockburn learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Do Cockburn group classes include Copilot Studio?
 

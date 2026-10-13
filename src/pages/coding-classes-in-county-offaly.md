@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across County Offaly, fr
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-offaly
 source: src/pages/coding-classes-in-county-offaly.html
 ---
-> There are 83,150 people in County Offaly and 17,167 of them are aged 15 or under. Tullamore is the county town, where the census counted 15,598 people, Birr is next with 4,726, and the rest of the county lives in smaller places between the two. Nearly 21,000 people here drive to work and their journeys are among the longer ones in the country. What we run is simple: live classes, one fixed hour a week, ability groups of five to ten or one to one, from age six to sixty-seven. Try the first lesson at no cost, then a group place is USD 100 a month, a private one USD 150.
+> There are 83,150 people in County Offaly and 17,167 of them are aged 15 or under. Tullamore is the county town, where the census counted 15,598 people, Birr is next with 4,726, and the rest of the county lives in smaller places between the two. Nearly 21,000 people here drive to work and their journeys are among the longer ones in the country. What we run is simple: live classes, one fixed hour a week, ability groups of fifteen to twenty or one to one, from age six to sixty-seven. Try the first lesson at no cost, then a group place is USD 100 a month, a private one USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Westmeath](/coding-classes-in-county-westmeath) / County Offaly
 
@@ -12,11 +12,11 @@ County Offaly, Leinster / Live online
 
 # Coding classes in County Offaly
 
-**What are the best coding classes in County Offaly?** There are 83,150 people in County Offaly and 17,167 of them are aged 15 or under. Tullamore is the county town, where the census counted 15,598 people, Birr is next with 4,726, and the rest of the county lives in smaller places between the two. Nearly 21,000 people here drive to work and their journeys are among the longer ones in the country. What we run is simple: live classes, one fixed hour a week, ability groups of five to ten or one to one, from age six to sixty-seven. Try the first lesson at no cost, then a group place is USD 100 a month, a private one USD 150.
+**What are the best coding classes in County Offaly?** There are 83,150 people in County Offaly and 17,167 of them are aged 15 or under. Tullamore is the county town, where the census counted 15,598 people, Birr is next with 4,726, and the rest of the county lives in smaller places between the two. Nearly 21,000 people here drive to work and their journeys are among the longer ones in the country. What we run is simple: live classes, one fixed hour a week, ability groups of fifteen to twenty or one to one, from age six to sixty-seven. Try the first lesson at no cost, then a group place is USD 100 a month, a private one USD 150.
 
 For seventy years the largest telescope on earth stood in Birr, and everything a telescope does comes down to resolution: how small a thing it can separate from the thing beside it. Statistics has the same limit, and it depends on the instrument. The figure we most wanted here was the share of Offaly homes with broadband, since our classes need a connection. The source most often quoted, the statistics office's annual internet survey, reports no finer than the Midland region, four counties at once, and this page once said that no Offaly figure therefore existed. That was wrong. The census is a different instrument, and it publishes internet access for every county, town and small neighbourhood: in Offaly, 21,841 of 28,702 households had broadband in April 2022. The data was not missing. We had asked only one instrument.
 
-Facts last verified 17 September 2026. Teaching is online; no County Offaly branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 17 September 2026. Teaching is online; no County Offaly branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four starting points
 
@@ -170,7 +170,7 @@ Six practical points, none of them buried.
 
 - **Taught live by a person** A teacher for the full hour who expects the learner to speak, not a video with a comment box.
 - **Nothing to drive to** With commutes here averaging over half an hour, the journey a class does not require is the reason it survives past February.
-- **Grouped by ability** Five to ten learners working at one level, gathered from Offaly and several other countries so a real peer group exists.
+- **Grouped by ability** Fifteen to twenty learners working at one level, gathered from Offaly and several other countries so a real peer group exists.
 - **What you need** A laptop or desktop, sound that works and a connection steady enough for video. The free lesson tests exactly that.
 - **Built around Irish terms** Junior Cycle, Transition Year and senior cycle, with mid-terms and exam weeks planned for in advance.
 - **Hours that work here** Afternoons, evenings and weekend mornings, taught by a team several hours ahead of Irish time, which is what keeps those slots staffed.
@@ -182,7 +182,7 @@ Six practical points, none of them buried.
 Three numbers and the conditions in plain sight.
 
 - First class: USD 0. A complete opening lesson at no charge, which also proves the connection works.
-- Group tuition: USD 100 a month. A month of group classes, around eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group classes, around eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. A month of one to one teaching on the same weekly rhythm.
 
 We charge monthly in US dollars, the single rate used outside India, so a family in Birr pays what a family in Tullamore pays and no euro list exists alongside it. Nothing is charged until a course and an hour have been agreed. Pauses, missed lessons and changes of format are all written down on the pricing page instead of being discovered later.
@@ -223,7 +223,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do County Offaly coding classes cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

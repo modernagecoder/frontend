@@ -16,7 +16,7 @@ Book a Free Demo ClassHow You Get Certified**Cert**On course completion**Portfol
 
 ## Quick answer
 
-**Modern Age Coders' C++ certification course leads to a course-completion certificate backed by a real project portfolio.** You complete Core C++, Object-Oriented Programming, the STL, Data Structures & Algorithms and a capstone project, then receive a Modern Age Coders certificate plus a portfolio of programs you built and can explain. To be clear, this is a course-completion certificate, not a government or vendor exam credential, but it's backed by demonstrated, explainable work, which is what colleges and interviewers value most. Classes are live in small batches of 5–8; group plans start at ₹1,499/month with a free demo first.
+**Modern Age Coders' C++ certification course leads to a course-completion certificate backed by a real project portfolio.** You complete Core C++, Object-Oriented Programming, the STL, Data Structures & Algorithms and a capstone project, then receive a Modern Age Coders certificate plus a portfolio of programs you built and can explain. To be clear, this is a course-completion certificate, not a government or vendor exam credential, but it's backed by demonstrated, explainable work, which is what colleges and interviewers value most. Classes are live in batches of 15–20; group plans start at ₹1,499/month with a free demo first.
 
 Start Today
 
@@ -108,7 +108,7 @@ Transparent monthly plans, no hidden charges. The certificate is included on com
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 learners per batch
+- 15–20 learners per batch
 - Full certification modules
 - Recorded class access
 - Certificate + portfolio
@@ -119,7 +119,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 learners per batch
+- Up to 6 learners per batch
 - More personal mentoring
 - Recorded class access
 - Capstone + certificate
@@ -183,7 +183,7 @@ Complete the C++ course modules, Core C++, OOP, the STL and DSA, and build the p
 
 How much does the C++ certification course cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. The certificate is included on completion, and a free demo class is available first.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. The certificate is included on completion, and a free demo class is available first.
 
 Is it suitable for both school and college students?+
 

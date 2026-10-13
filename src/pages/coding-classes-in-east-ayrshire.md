@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across East Ayrshire,
 canonical: https://learn.modernagecoders.com/coding-classes-in-east-ayrshire
 source: src/pages/coding-classes-in-east-ayrshire.html
 ---
-> East Ayrshire is one council area where, by Scotland's Census 2022, about 120,300 people live in roughly 55,400 households. Kilmarnock is much the biggest town, followed by Cumnock and Stewarton, with Galston, Mauchline, Darvel and Auchinleck among the smaller places. Our lessons are live on video, taught from India, and every learner starts at their own level, from Primary 1 to S6 and adults. People from 6 to 67 learn coding, Python, AI and maths with us, one-to-one or in groups of five to ten. The East Ayrshire project begins with Burns and the book first printed in Kilmarnock. One lesson is free; carrying on costs USD 100 a month for a group or USD 150 a month for one-to-one.
+> East Ayrshire is one council area where, by Scotland's Census 2022, about 120,300 people live in roughly 55,400 households. Kilmarnock is much the biggest town, followed by Cumnock and Stewarton, with Galston, Mauchline, Darvel and Auchinleck among the smaller places. Our lessons are live on video, taught from India, and every learner starts at their own level, from Primary 1 to S6 and adults. People from 6 to 67 learn coding, Python, AI and maths with us, one-to-one or in groups of fifteen to twenty. The East Ayrshire project begins with Burns and the book first printed in Kilmarnock. One lesson is free; carrying on costs USD 100 a month for a group or USD 150 a month for one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / East Ayrshire
 
@@ -12,11 +12,11 @@ East Ayrshire / Live online
 
 # Coding classes in East Ayrshire
 
-**What are the best coding classes in East Ayrshire?** East Ayrshire is one council area where, by Scotland's Census 2022, about 120,300 people live in roughly 55,400 households. Kilmarnock is much the biggest town, followed by Cumnock and Stewarton, with Galston, Mauchline, Darvel and Auchinleck among the smaller places. Our lessons are live on video, taught from India, and every learner starts at their own level, from Primary 1 to S6 and adults. People from 6 to 67 learn coding, Python, AI and maths with us, one-to-one or in groups of five to ten. The East Ayrshire project begins with Burns and the book first printed in Kilmarnock. One lesson is free; carrying on costs USD 100 a month for a group or USD 150 a month for one-to-one.
+**What are the best coding classes in East Ayrshire?** East Ayrshire is one council area where, by Scotland's Census 2022, about 120,300 people live in roughly 55,400 households. Kilmarnock is much the biggest town, followed by Cumnock and Stewarton, with Galston, Mauchline, Darvel and Auchinleck among the smaller places. Our lessons are live on video, taught from India, and every learner starts at their own level, from Primary 1 to S6 and adults. People from 6 to 67 learn coding, Python, AI and maths with us, one-to-one or in groups of fifteen to twenty. The East Ayrshire project begins with Burns and the book first printed in Kilmarnock. One lesson is free; carrying on costs USD 100 a month for a group or USD 150 a month for one-to-one.
 
 Historic Environment Scotland's listing for the Burns Monument in Kilmarnock's Kay Park records that Burns's poems were first published in the town on 31 July 1786, and that the monument's museum once held a first Kilmarnock Edition. Burns had a favourite verse form, a six-line stanza with three long lines, a short one, a long one and a short one, rhyming in a distinctive pattern. Poets recognise it at a glance. Can a program? This page's project writes a detector for the Burns stanza in Python, runs it over a collection of his poems, and discovers that the easy part is counting syllables and the hard part is rhyme, because Burns wrote in Scots and spelling is not sound.
 
-Facts last verified 26 September 2026. Teaching is online; no East Ayrshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no East Ayrshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where East Ayrshire learners start
 
@@ -140,7 +140,7 @@ East Ayrshire spreads from Kilmarnock into long valleys and hills, and a weekly 
 - **At home, anywhere** A house in Galston, a flat in Kilmarnock, a cottage near Dalmellington. The screen is shared and the pupil does the coding.
 - **The Scottish system** A P6 project, an S3 option or a Higher: teachers use the same names East Ayrshire schools use, and lessons are in English.
 - **A lesson before paying** The first lesson is real teaching, then an honest recommendation, with no card details taken.
-- **Your level, your class** Five to ten learners at one stage, drawn from Scotland and much further away.
+- **Your level, your class** Fifteen to twenty learners at one stage, drawn from Scotland and much further away.
 - **Pauses for holidays** Two lessons a week during term, with a break whenever the school holidays come round.
 - **Fixed in UK time** The slot you are given stays put in UK time through spring and autumn; teachers on India time do the adjusting.
 
@@ -151,7 +151,7 @@ East Ayrshire spreads from Kilmarnock into long valleys and hills, and a weekly 
 Darvel or Drongan, the fee is the same, as it is in every country we teach apart from India.
 
 - First class: USD 0. A full lesson of real work, then a suggested level and course.
-- Group tuition: USD 100 a month. Around eight lessons a month with five to ten learners at one level.
+- Group tuition: USD 100 a month. Around eight lessons a month with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Around eight lessons a month, taught one-to-one.
 
 Fees are in US dollars, never pounds. Nothing is billed until the free lesson has agreed a course and a weekly slot; the pricing page covers pauses, missed lessons and changing format.

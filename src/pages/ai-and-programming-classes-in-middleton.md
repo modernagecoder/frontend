@@ -4,7 +4,7 @@ description: "Live online AI and programming classes for Middleton, Langley, Alk
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-middleton
 source: src/pages/ai-and-programming-classes-in-middleton.html
 ---
-> The ONS built-up area of Middleton, in the borough of Rochdale, had 46,630 usual residents at the 2021 census. Langley, Alkrington Garden Village and Moorclose are gazetteer suburbs whose nearest postcodes lie inside it. Modern Age Coders offers live online lessons in programming, AI, Python, vibe coding and maths to Middleton learners aged six to 67, taught by tutors in India to individuals or to groups of five to ten learners at one level. Learners are asked to estimate, then check. The first lesson is free and ends with a course suggestion. The Middleton project gives the learner 301 shops and everyday places from OpenStreetMap and asks a question every exploring agent faces: having seen some of them, what is the chance the next one is a kind you have never met? From then on it is USD 100 per month in a group or USD 150 per month for private lessons.
+> The ONS built-up area of Middleton, in the borough of Rochdale, had 46,630 usual residents at the 2021 census. Langley, Alkrington Garden Village and Moorclose are gazetteer suburbs whose nearest postcodes lie inside it. Modern Age Coders offers live online lessons in programming, AI, Python, vibe coding and maths to Middleton learners aged six to 67, taught by tutors in India to individuals or to groups of fifteen to twenty learners at one level. Learners are asked to estimate, then check. The first lesson is free and ends with a course suggestion. The Middleton project gives the learner 301 shops and everyday places from OpenStreetMap and asks a question every exploring agent faces: having seen some of them, what is the chance the next one is a kind you have never met? From then on it is USD 100 per month in a group or USD 150 per month for private lessons.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Middleton
 
@@ -12,11 +12,11 @@ Middleton, Rochdale, Greater Manchester / Live online
 
 # AI and programming classes in Middleton
 
-**What are the best AI and programming classes in Middleton?** The ONS built-up area of Middleton, in the borough of Rochdale, had 46,630 usual residents at the 2021 census. Langley, Alkrington Garden Village and Moorclose are gazetteer suburbs whose nearest postcodes lie inside it. Modern Age Coders offers live online lessons in programming, AI, Python, vibe coding and maths to Middleton learners aged six to 67, taught by tutors in India to individuals or to groups of five to ten learners at one level. Learners are asked to estimate, then check. The first lesson is free and ends with a course suggestion. The Middleton project gives the learner 301 shops and everyday places from OpenStreetMap and asks a question every exploring agent faces: having seen some of them, what is the chance the next one is a kind you have never met? From then on it is USD 100 per month in a group or USD 150 per month for private lessons.
+**What are the best AI and programming classes in Middleton?** The ONS built-up area of Middleton, in the borough of Rochdale, had 46,630 usual residents at the 2021 census. Langley, Alkrington Garden Village and Moorclose are gazetteer suburbs whose nearest postcodes lie inside it. Modern Age Coders offers live online lessons in programming, AI, Python, vibe coding and maths to Middleton learners aged six to 67, taught by tutors in India to individuals or to groups of fifteen to twenty learners at one level. Learners are asked to estimate, then check. The first lesson is free and ends with a course suggestion. The Middleton project gives the learner 301 shops and everyday places from OpenStreetMap and asks a question every exploring agent faces: having seen some of them, what is the chance the next one is a kind you have never met? From then on it is USD 100 per month in a group or USD 150 per month for private lessons.
 
 An agent that explores, whether it is reading web pages, testing a program or visiting shops, keeps meeting new kinds of thing and then, gradually, fewer of them. At some point it has to decide it has seen enough. But how can you estimate what you have not seen? The answer I. J. Good published in 1953, crediting the idea to Alan Turing, with whom he had worked on wartime codebreaking, is startlingly simple: count the kinds you have met exactly once, and divide by the number of things you have looked at. The Middleton project tests that rule on real local data and then shows how it can still mislead an agent that stops too soon.
 
-Facts last verified 1 October 2026. Teaching is online; no Middleton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 1 October 2026. Teaching is online; no Middleton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Programming and AI courses for Middleton learners
 
@@ -133,7 +133,7 @@ Lessons are held live over video. A computer with a keyboard is required; a tabl
 - **The learner codes** The learner does all the typing and running, with the tutor probing each choice.
 - **Trial shows the level** We see what the learner can do before suggesting a course.
 - **Trial costs nothing** There is no charge and no card for the first lesson.
-- **Five to ten per class** Each class shares a stage, with learners joining from around the UK.
+- **Fifteen to twenty per class** Each class shares a stage, with learners joining from around the UK.
 - **Roughly eight monthly** Twice a week in term, with Rochdale school holidays left free if you ask.
 - **Fixed lesson time** Tutors handle the clock changes so your UK time stays the same.
 

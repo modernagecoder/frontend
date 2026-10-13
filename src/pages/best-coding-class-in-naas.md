@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes for learners in Naas age
 canonical: https://learn.modernagecoders.com/best-coding-class-in-naas
 source: src/pages/best-coding-class-in-naas.html
 ---
-> Naas holds 25,991 usual residents in the census town tables, in 8,817 households, and 2,034 of its children under fifteen are in some form of childcare. Our teaching reaches all of them without anyone leaving the house: live video lessons twice in most weeks, in a group of five to ten placed at the same level or one to one, for learners aged six to sixty-seven. We charge nothing for the first lesson, then USD 100 a month for a group place or USD 150 for one to one.
+> Naas holds 25,991 usual residents in the census town tables, in 8,817 households, and 2,034 of its children under fifteen are in some form of childcare. Our teaching reaches all of them without anyone leaving the house: live video lessons twice in most weeks, in a group of fifteen to twenty placed at the same level or one to one, for learners aged six to sixty-seven. We charge nothing for the first lesson, then USD 100 a month for a group place or USD 150 for one to one.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Kildare](/coding-classes-in-county-kildare) / Naas
 
@@ -12,11 +12,11 @@ Naas, County Kildare / Live online
 
 # Coding classes in Naas
 
-**What is the best coding class in Naas?** Naas holds 25,991 usual residents in the census town tables, in 8,817 households, and 2,034 of its children under fifteen are in some form of childcare. Our teaching reaches all of them without anyone leaving the house: live video lessons twice in most weeks, in a group of five to ten placed at the same level or one to one, for learners aged six to sixty-seven. We charge nothing for the first lesson, then USD 100 a month for a group place or USD 150 for one to one.
+**What is the best coding class in Naas?** Naas holds 25,991 usual residents in the census town tables, in 8,817 households, and 2,034 of its children under fifteen are in some form of childcare. Our teaching reaches all of them without anyone leaving the house: live video lessons twice in most weeks, in a group of fifteen to twenty placed at the same level or one to one, for learners aged six to sixty-seven. We charge nothing for the first lesson, then USD 100 a month for a group place or USD 150 for one to one.
 
 Ask the census where people in Naas were born and it answers most of the question. Of 25,991 usual residents, 19,599 were born in Ireland, 1,131 in the United Kingdom, 1,008 in Poland and 368 in India. Then it stops answering: the next largest group, 2,674 people, sits under the heading Rest of World, and one more, 1,211 people, under a heading for the other EU countries. Rest of World on its own is 41.8% of everyone in the town born outside Ireland, and with the regional heading added the two cover 3,885 people, or 60.8%, by our arithmetic. So the town learns its second most common birthplace only by asking something other than the census. That is not an error in the table. It is the shape every classification ends up with, and learning to spot it is worth more than any single figure in the row.
 
-Facts last verified 18 September 2026. Teaching is online; no Naas branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 18 September 2026. Teaching is online; no Naas branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Good first courses for Naas learners
 
@@ -173,7 +173,7 @@ Tools will keep getting better at producing answers. The value of knowing which 
 The logistics in six lines.
 
 - **Taught live** A teacher on video, watching the work happen and correcting it in the moment. No recordings standing in for teaching.
-- **Grouped by level** Five to ten learners of the same ability, joining from Naas, elsewhere in Ireland and other countries.
+- **Grouped by level** Fifteen to twenty learners of the same ability, joining from Naas, elsewhere in Ireland and other countries.
 - **A fixed weekly hour** Two lessons most weeks, about eight in a month, in a slot chosen once and then left alone.
 - **Term dates respected** Mid-terms, holidays and exam periods are worked into the plan when the schedule is set.
 - **Equipment** A laptop or desktop, sound that works and a connection steady enough for video, all checked during the free lesson.
@@ -186,7 +186,7 @@ The logistics in six lines.
 Everything we charge, in three lines.
 
 - First class: USD 0. A complete first lesson at no charge, ending with an assessed level and a course recommendation.
-- Group tuition: USD 100 a month. A month in an ability group of five to ten learners, roughly eight live lessons.
+- Group tuition: USD 100 a month. A month in an ability group of fifteen to twenty learners, roughly eight live lessons.
 - Private tuition: USD 150 a month. A month of private lessons, same frequency, one learner and one teacher.
 
 Fees are monthly, in US dollars, at the single rate for families outside India, which means Naas sees the same figure as every other Irish town and no second price list in another currency. Payment starts only once the free lesson has fixed a course and an hour, and pauses, missed lessons and moves between group and private are set out on the pricing page.
@@ -227,7 +227,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Naas cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

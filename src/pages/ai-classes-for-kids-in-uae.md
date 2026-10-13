@@ -1,10 +1,10 @@
 ---
 title: "AI Classes for Kids in UAE | Safe, Hands-On AI Learning"
-description: "AI classes for kids in the UAE, ages 8 to 12. Supervised, hands-on AI literacy in live online batches of 5 to 8, evenings in GST. Free demo class for parents."
+description: "AI classes for kids in the UAE, ages 8 to 12. Supervised, hands-on AI literacy in live online batches of 15 to 20, evenings in GST. Free demo class for parents."
 canonical: https://learn.modernagecoders.com/ai-classes-for-kids-in-uae
 source: src/pages/ai-classes-for-kids-in-uae.html
 ---
-> AI classes for kids in the UAE, ages 8 to 12. Supervised, hands-on AI literacy in live online batches of 5 to 8, evenings in GST. Free demo class for parents.
+> AI classes for kids in the UAE, ages 8 to 12. Supervised, hands-on AI literacy in live online batches of 15 to 20, evenings in GST. Free demo class for parents.
 
 01 · The courses
 
@@ -112,7 +112,7 @@ And if your family relocates, whether between emirates or between countries, the
 
 Every AI tool a child touches in class is used with a teacher watching and explaining. That is the whole difference between literacy and exposure.
 
-### Batches of five to eight
+### Batches of fifteen to twenty
 
 Small enough for the teacher to hear every child's theory about how the machine works, and to correct the wild ones gently.
 
@@ -172,7 +172,7 @@ Group classes
 
 $100 per month
 
-- Weekly live class, 5 to 8 children
+- Weekly live class, 15 to 20 children
 - After-school GST and weekend slots
 - Supervised tools, projects kept
 - Free demo class before enrolling

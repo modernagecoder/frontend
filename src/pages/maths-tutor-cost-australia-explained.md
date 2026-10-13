@@ -37,7 +37,7 @@ These are the Australian figures we could read directly at their source, convert
 | Online one-to-one session, standard plan | About USD 69 for a one-hour session | Cluey Learning service schedule, effective July 1, 2026, including GST; two sessions paid in advance |
 | Online one-to-one session, four in advance | About USD 60 for a one-hour session | Cluey Learning, Value Max plan, same schedule; four sessions paid in advance |
 | Tutoring centre session | About USD 54 a session, recommended retail price | Kip McGrath pricing page; "Prices may vary by location" |
-| Modern Age Coders, live online maths | $100 a month in a group of 5 to 10, or $150 a month one to one, for eight one-hour lessons | Our own price; no joining fee and no term contract |
+| Modern Age Coders, live online maths | $100 a month in a group of 15 to 20, or $150 a month one to one, for eight one-hour lessons | Our own price; no joining fee and no term contract |
 
 Conversion: Australian figures were converted at 0.6982 US dollars per Australian dollar, derived from the European Central Bank's euro reference rates for 6 October 2026 (1 euro = 1.1269 US dollars = 1.6140 Australian dollars), and rounded to the nearest dollar. Sources read on 7 October 2026: the Australian Tutoring Association's "How much should I charge?" page, Cluey Learning's "Service Schedule and Fees" and Kip McGrath's pricing page. Published prices change; check the provider before you book.
 
@@ -130,7 +130,7 @@ Choosing
 - they are at a similar level to others in their year
 - you want the lowest monthly cost for weekly maths
 
-Groups hold 5 to 10 learners at a similar level.
+Groups hold 15 to 20 learners at a similar level.
 
 ### Choose one to one if
 
@@ -162,7 +162,7 @@ $150 / month
 $100 / month
 
 - 8 live group lessons a month (2 a week, 1 hour each)
-- 5 to 10 learners at a similar level
+- 15 to 20 learners at a similar level
 - Working checked, not just answers
 - No joining fee, stop at the end of any month
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across Friesland, ages 6
 canonical: https://learn.modernagecoders.com/coding-classes-in-friesland
 source: src/pages/coding-classes-in-friesland.html
 ---
-> Coding classes in Friesland cover 665,208 people in 18 municipalities (Statistics Netherlands, 1 January 2026), on the largest territory of any province and a coast with four inhabited islands. Since 1 January 1997 the province's official name has been Fryslân, its capital is Leeuwarden in Dutch and Ljouwert in Frisian, and six of its 18 municipalities carry Frisian names in the national register. A program that matches the 1995 count to the 2026 count by name finds nothing on either side, which is the reason this page has a join in it. Modern Age Coders teaches one live online class in English across all 18, for ages 6 to 67, with the first lesson free and then USD 100 a month in a group of five to ten or USD 150 with a teacher alone.
+> Coding classes in Friesland cover 665,208 people in 18 municipalities (Statistics Netherlands, 1 January 2026), on the largest territory of any province and a coast with four inhabited islands. Since 1 January 1997 the province's official name has been Fryslân, its capital is Leeuwarden in Dutch and Ljouwert in Frisian, and six of its 18 municipalities carry Frisian names in the national register. A program that matches the 1995 count to the 2026 count by name finds nothing on either side, which is the reason this page has a join in it. Modern Age Coders teaches one live online class in English across all 18, for ages 6 to 67, with the first lesson free and then USD 100 a month in a group of fifteen to twenty or USD 150 with a teacher alone.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Friesland
 
@@ -12,11 +12,11 @@ Province of Friesland (Fryslân) / Live online
 
 # Coding classes in Friesland, the province a program loses the moment it joins on the name
 
-**What are the best coding classes in Friesland?** Coding classes in Friesland cover 665,208 people in 18 municipalities (Statistics Netherlands, 1 January 2026), on the largest territory of any province and a coast with four inhabited islands. Since 1 January 1997 the province's official name has been Fryslân, its capital is Leeuwarden in Dutch and Ljouwert in Frisian, and six of its 18 municipalities carry Frisian names in the national register. A program that matches the 1995 count to the 2026 count by name finds nothing on either side, which is the reason this page has a join in it. Modern Age Coders teaches one live online class in English across all 18, for ages 6 to 67, with the first lesson free and then USD 100 a month in a group of five to ten or USD 150 with a teacher alone.
+**What are the best coding classes in Friesland?** Coding classes in Friesland cover 665,208 people in 18 municipalities (Statistics Netherlands, 1 January 2026), on the largest territory of any province and a coast with four inhabited islands. Since 1 January 1997 the province's official name has been Fryslân, its capital is Leeuwarden in Dutch and Ljouwert in Frisian, and six of its 18 municipalities carry Frisian names in the national register. A program that matches the 1995 count to the 2026 count by name finds nothing on either side, which is the reason this page has a join in it. Modern Age Coders teaches one live online class in English across all 18, for ages 6 to 67, with the first lesson free and then USD 100 a month in a group of fifteen to twenty or USD 150 with a teacher alone.
 
 Ask the national statistics website for Friesland at its old address and it replies that the address no longer exists, and sends you to Fryslân. The province did not move and nobody left. The key changed. A program that joins last decade's table to this year's on the name reports that a province of 665,208 people vanished, and a child in Sneek who has written that join and watched it happen has learned the difference between a name and an identifier, which most working databases never do.
 
-Facts last verified 7 September 2026. Teaching is online; no Friesland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Friesland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a province with two names and eighteen town halls
 
@@ -208,7 +208,7 @@ A family on Ameland is a boat and a bus from anything on the mainland, and a fam
 Stated in full before any details of yours are asked for.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 The same US dollar figure applies everywhere outside India, with no euro list, and Vlieland pays what Leeuwarden pays. The free lesson fixes the course and the hour; the first payment follows it, over WhatsApp. The pricing page sets out what happens on a pause, a change of plan or a missed lesson.
@@ -249,7 +249,7 @@ No, and none is claimed in Leeuwarden, in Drachten or anywhere in the Netherland
 
 ### What do Friesland coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Friesland group?
 

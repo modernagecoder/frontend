@@ -185,7 +185,7 @@ module.exports = {
     intro: 'The details a Wexford family needs.',
     cells: [
       { h3: 'Taught live', p: 'The teacher is on the call throughout, working from what the learner is doing on screen.' },
-      { h3: 'Grouped by level', p: 'Five to ten learners at the same stage, whether in Wexford, elsewhere in Ireland or abroad.' },
+      { h3: 'Grouped by level', p: 'Fifteen to twenty learners at the same stage, whether in Wexford, elsewhere in Ireland or abroad.' },
       { h3: 'A weekly pattern', p: 'Two lessons in most weeks, around eight a month, at an hour fixed at the start.' },
       { h3: 'Term time', p: 'Holidays, mid-terms and exam weeks are worked into the plan in advance.' },
       { h3: 'Equipment', p: 'A laptop or desktop with a keyboard, sound in and out, and a connection that stays up for a full video lesson.' },
@@ -198,7 +198,7 @@ module.exports = {
     h2: 'Wexford class fees',
     intro: 'All there is to the price.',
     first: 'A first lesson taught in full and assessed, with no charge.',
-    group: 'A month in a group of five to ten at one level, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, about eight live lessons.',
     private: 'A month of private lessons at the same weekly frequency.',
     closer: 'Every family outside India pays the same monthly rate in US dollars, so a Wexford household sees the figure a Galway or Kilkenny household sees, and there is no euro price to compare it with. The free lesson comes first, the invoice only after a course and a time are agreed, and the pricing page sets out the rules for holidays, absences and moving between formats.'
   },
@@ -223,7 +223,7 @@ module.exports = {
       { q: 'Do you teach adults in Wexford?', a: 'Yes, up to sixty-seven. Adults often begin from nothing, and the first lesson settles whether they join a group at their level or learn one to one.' },
       { q: 'Why does a small starting number make percentages so large?', a: 'Because a percentage divides the change by where you started. Going from 8 to 173 is an increase of 165 on a base of 8, which is over twenty times the starting value, even though the numbers themselves are modest.' },
       { q: 'Is there a Modern Age Coders classroom in Wexford?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Wexford cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Wexford cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

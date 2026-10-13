@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Coding classes in Drogheda',
   capsuleQ: 'What is the best coding class in Drogheda?',
-  capsule: 'Drogheda counts 43,929 usual residents in the census town tables, living in 15,751 households, 12,860 of which report broadband. Our teaching arrives at the address: a live teacher twice in most weeks, with a group of five to ten learners at one level or with a single learner, for ages six through to sixty-seven. The opening lesson carries no charge. After it, a shared place is USD 100 a month and private teaching is USD 150.',
+  capsule: 'Drogheda counts 43,929 usual residents in the census town tables, living in 15,751 households, 12,860 of which report broadband. Our teaching arrives at the address: a live teacher twice in most weeks, with a group of fifteen to twenty learners at one level or with a single learner, for ages six through to sixty-seven. The opening lesson carries no charge. After it, a shared place is USD 100 a month and private teaching is USD 150.',
   lead: 'Three rows of one Drogheda census table count people who are not in work and are looking for it: 438 seeking a first regular job, 725 described as short term unemployed and 1,287 as long term unemployed. Add them and you have 2,450. Now choose a denominator. Against the 35,128 people aged fifteen and over in that same table, 2,450 is 7.0%. Against the 21,741 who are either at work or in those three rows, it is 11.3%. Both divisions are defensible and they differ by 4.3 points. What neither of them is allowed to be called is the unemployment rate for Drogheda, because that name belongs to a figure the Central Statistics Office produces from its own series and not to our arithmetic on one town table. Learning to keep those apart is the project on this page.',
   wa: 'Hello Modern Age Coders, I would like to arrange a free coding lesson for a learner in Drogheda.',
 
@@ -182,7 +182,7 @@ module.exports = {
     intro: 'Six short points.',
     cells: [
       { h3: 'Taught as it happens', p: 'A teacher on the call throughout, working from the learner\'s screen rather than a script.' },
-      { h3: 'Levels, not year groups', p: 'Five to ten learners at the same stage, from Drogheda, elsewhere in Ireland and other countries.' },
+      { h3: 'Levels, not year groups', p: 'Fifteen to twenty learners at the same stage, from Drogheda, elsewhere in Ireland and other countries.' },
       { h3: 'Two a week', p: 'Roughly eight lessons a month, in a slot fixed once and then protected.' },
       { h3: 'Term dates first', p: 'Mid-terms, holidays and exam weeks are agreed into the plan before lessons start.' },
       { h3: 'What is needed', p: 'A computer with a keyboard, working sound, and a household connection that carries video.' },
@@ -195,7 +195,7 @@ module.exports = {
     h2: 'Drogheda class fees',
     intro: 'Three lines, all of it.',
     first: 'A full opening lesson, taught and assessed, at no cost.',
-    group: 'One month in an ability group of five to ten, about eight live lessons.',
+    group: 'One month in an ability group of fifteen to twenty, about eight live lessons.',
     private: 'One month of private teaching on the same weekly pattern.',
     closer: 'Fees are monthly and priced in US dollars on the single rate for families outside India, so Drogheda sees the same figure as Dundalk or Navan and no euro list beside it. Nothing is charged until the opening lesson has fixed a course and an hour, and the pricing page explains breaks, missed weeks and moves between group and private teaching.'
   },
@@ -220,7 +220,7 @@ module.exports = {
       { q: 'Do you teach adults in Drogheda?', a: 'Yes, to the age of sixty-seven, beginners included. After the free lesson an adult joins a group at their own level or is taught one to one.' },
       { q: 'What if a learner misses a lesson?', a: 'Tell us in advance where possible. The pricing page sets out how missed lessons and short breaks are handled, and nothing is decided after the fact.' },
       { q: 'Is there a Modern Age Coders classroom in Drogheda?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Drogheda cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Drogheda cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

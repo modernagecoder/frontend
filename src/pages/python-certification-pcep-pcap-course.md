@@ -20,7 +20,7 @@ The course
 
 One course, two formats, both live. The batch works to a shared schedule through both certifications; one to one compresses the PCEP half for an adult who already programs and spends the time on PCAP instead.
 
-| What you get | Batch of five to eight | One to one |
+| What you get | Batch of fifteen to twenty | One to one |
 | --- | --- | --- |
 | Live classes each week | Two, fixed slot | Two, slot agreed with you |
 | Topics implemented before tested | Every one | Every one |
@@ -35,7 +35,7 @@ One course, two formats, both live. The batch works to a shared schedule through
 
 The short answer
 
-The Python Institute awards PCEP-30-02 at entry level and PCAP-31-03 at associate level. PCEP covers data types, control flow, functions, basic data structures and exceptions; PCAP adds modules and packages, object-oriented programming, the exception hierarchy, file and string handling, and functional features including comprehensions, lambdas and closures. Modern Age Coders prepares both live online, one to one or in batches of five to eight, with every topic implemented in code before it is tested and a public repository of three finished programs built alongside, because a certificate cannot demonstrate that somebody can build anything. We do not sell exam vouchers or take commission on them. From USD 100 a month, first class free.
+The Python Institute awards PCEP-30-02 at entry level and PCAP-31-03 at associate level. PCEP covers data types, control flow, functions, basic data structures and exceptions; PCAP adds modules and packages, object-oriented programming, the exception hierarchy, file and string handling, and functional features including comprehensions, lambdas and closures. Modern Age Coders prepares both live online, one to one or in batches of fifteen to twenty, with every topic implemented in code before it is tested and a public repository of three finished programs built alongside, because a certificate cannot demonstrate that somebody can build anything. We do not sell exam vouchers or take commission on them. From USD 100 a month, first class free.
 
 Module by module
 
@@ -209,7 +209,7 @@ The course
 
 ## How we prepare both, and the repository alongside
 
-Two live classes a week, one to one or in a batch of five to eight, with every topic implemented in code before it is tested as an exam question.
+Two live classes a week, one to one or in a batch of fifteen to twenty, with every topic implemented in code before it is tested as an exam question.
 
 1. #### Weeks 1 to 8: PCEP material, implemented before it is examined
 
@@ -420,7 +420,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Past-paper work between classes, marked by the teacher
 - Certificate on completion
@@ -515,7 +515,7 @@ PCEP-30-02 is entry level: data types, control flow, functions, basic data struc
 
 ### How much does the course cost?
 
-A batch of five to eight students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, the same figures everywhere we teach outside India. The exam voucher is separate and is not bought from us. No enrolment fee, no minimum term, first class free without a card.
+A batch of fifteen to twenty students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, the same figures everywhere we teach outside India. The exam voucher is separate and is not bought from us. No enrolment fee, no minimum term, first class free without a card.
 
 ### Do you sell the exam voucher?
 
@@ -535,7 +535,7 @@ Yes, from about thirteen, and several of ours have. It works as an external chec
 
 ### Are the classes live?
 
-Every class is live, one to one or in a batch of five to eight, taught from India to learners worldwide. We do not sell recordings in place of classes. For this material in particular a live teacher matters, because the fastest way to fix a scope misconception is to catch it while the student is explaining it.
+Every class is live, one to one or in a batch of fifteen to twenty, taught from India to learners worldwide. We do not sell recordings in place of classes. For this material in particular a live teacher matters, because the fastest way to fix a scope misconception is to catch it while the student is explaining it.
 
 ### How long does it take?
 
@@ -583,7 +583,7 @@ Rather read first? [The full course syllabus](/courses/pcep-pcap-python-certific
 
 [WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20PCEP%20and%20PCAP%20Python%20certification%20classes.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
-Every class is live, one to one or in a batch of five to eight, taught from India at a time arranged with you. We sell no vouchers and no recordings. The form starts a conversation, not an enrolment.
+Every class is live, one to one or in a batch of fifteen to twenty, taught from India at a time arranged with you. We sell no vouchers and no recordings. The form starts a conversation, not an enrolment.
 
 ## Keep exploring Modern Age Coders
 

@@ -174,7 +174,7 @@ A live teacher connects online while the learner works at home in Seeb.
 
 ### Group
 
-Five to eight learners at a shared level, or one learner privately.
+Fifteen to twenty learners at a shared level, or one learner privately.
 
 ### Frequency
 
@@ -204,7 +204,7 @@ No enrolment charge, nothing to buy, no minimum term.
 
 GroupUSD 100per month, 8 classes
 
-Five to eight students working at a compatible level.
+Fifteen to twenty students working at a compatible level.
 
 PrivateUSD 150per month, 8 classes
 
@@ -300,7 +300,7 @@ Yes, when a suitable teaching slot is available. Oman is one and a half hours be
 
 ### What do online coding classes in Seeb cost?
 
-A group with five to eight learners costs USD 100 a month. Private teaching with one student and one teacher costs USD 150 a month. Each plan includes eight live classes, normally two a week. The first class is free, with no enrolment fee, materials fee or minimum term.
+A group with fifteen to twenty learners costs USD 100 a month. Private teaching with one student and one teacher costs USD 150 a month. Each plan includes eight live classes, normally two a week. The first class is free, with no enrolment fee, materials fee or minimum term.
 
 ### Can an adult or university learner in Seeb enrol?
 

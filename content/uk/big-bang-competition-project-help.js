@@ -231,7 +231,7 @@ module.exports = {
     cells: [
       { h3: 'Evidence built in', p: 'Every project we teach records how it was tested, because that is the section entries lose marks on.' },
       { h3: 'Scope kept honest', p: 'We help a student cut a project to something finishable, which is most of what a deadline needs.' },
-      { h3: 'Five to ten learners', p: 'Enough for ideas to cross the room, few enough that every project gets looked at.' },
+      { h3: 'Fifteen to twenty learners', p: 'Enough for ideas to cross the room, few enough that every project gets looked at.' },
       { h3: 'The student owns it', p: 'We teach and review. The project is theirs and the entry is theirs to submit.' },
       { h3: 'One to one when useful', p: 'For an ambitious build or a student preparing a video.' },
       { h3: 'No role in the entry', p: 'We do not submit entries and have no relationship with EngineeringUK.' }
@@ -246,7 +246,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Charged monthly in US dollars, one rate everywhere but India, with nothing to pay up front and no term to sign.',
     free: ['One real lesson on the build', 'An honest answer about the deadline', 'No payment details asked for'],
-    group: ['Five to ten students at one level', 'The same teacher weekly', 'Projects reviewed as they grow', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher weekly', 'Projects reviewed as they grow', 'A certificate at the end'],
     one: ['A teacher working with one student', 'Shaped around the build', 'Useful in the weeks before entry closes']
   },
 

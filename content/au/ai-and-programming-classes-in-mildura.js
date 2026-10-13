@@ -201,7 +201,7 @@ module.exports = {
       { h3: 'Across the Murray', p: 'A learner in Buronga and one in Irymple join the same class without anyone crossing the bridge.' },
       { h3: 'Victorian and NSW schooling', p: 'Teachers plan around Victorian year levels and terms, and work just as readily with NSW students across the river. Lessons are in English.' },
       { h3: 'The trial is a real class', p: 'The free lesson ends with a recommended level, course and time, and nobody asks for payment details.' },
-      { h3: 'Groups at the same stage', p: 'Five to ten learners at one level, from Sunraysia and beyond, so classes are never too small to run.' },
+      { h3: 'Groups at the same stage', p: 'Fifteen to twenty learners at one level, from Sunraysia and beyond, so classes are never too small to run.' },
       { h3: 'A twice-weekly habit', p: 'Two lessons a week at fixed times, about eight a month, with breaks planned around holidays and exams.' },
       { h3: 'Teachers in India', p: 'A 5pm Mildura lesson in July starts at 12:30pm India time; once daylight saving begins, it starts at 11:30am there.' }
     ],
@@ -212,7 +212,7 @@ module.exports = {
     h2: 'Mildura class fees',
     intro: 'Three figures, no small print.',
     first: 'A free first lesson, finishing with a level, a course and a lesson time.',
-    group: 'A month of classes, usually eight, with five to ten learners at your stage.',
+    group: 'A month of classes, usually eight, with fifteen to twenty learners at your stage.',
     private: 'About eight lessons a month on the same plan, one to one.',
     closer: 'We invoice everywhere except India in US dollars, so a household in Mildura and one in Buronga pay exactly the same and no local price list exists. Payment starts only after the trial has agreed a course and a time; the pricing page covers holidays, absences and changing formats.'
   },
@@ -237,8 +237,8 @@ module.exports = {
       { q: 'What time are Mildura lessons?', a: 'Families normally choose an after-school or weekend slot at the trial, quoted in Mildura time. India is 4.5 hours behind Mildura in winter and 5.5 hours behind during daylight saving.' },
       { q: 'Can younger children learn with you?', a: 'Children can start at six, building with Scratch blocks before typing, while the bin sensor project is aimed at secondary students and adults.' },
       { q: 'Is there a Modern Age Coders centre in Mildura?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Mildura AI classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Mildura AI classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

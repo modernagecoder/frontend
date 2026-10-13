@@ -179,7 +179,7 @@ Logistics, customs and trade records are all data work. Teaching that arrives ov
 
 A complete class with a real task, closing on a specific recommendation. No card is requested to book it and nothing is committed to until a teacher has been watched working.
 
-### Groups of five to eight, matched on level
+### Groups of fifteen to twenty, matched on level
 
 Cohorts form on what a learner can do and where they are heading, not on which side of a border they were born. In a trade zone that distinction matters.
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Al Mazyunah learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Al Mazyunah class times arranged?
 

@@ -59,7 +59,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Newbury',
   capsuleQ: 'What are the best online coding and Python classes in Newbury?',
-  capsule: 'The Newbury built-up area had 42,260 usual residents at the 2021 census, according to the ONS, and West Berkshire as a whole had 161,448. Speen, Shaw, Wash Common, Donnington and Greenham are gazetteer suburbs whose nearest postcode falls inside the built-up area. Modern Age Coders gives live online lessons in coding, Python, vibe coding, AI and maths to Newbury learners aged six to 67; our tutors are in India and teach either one-to-one or in level-matched groups of five to ten. A free lesson happens before we recommend any course. The Newbury project takes a full year of water levels from the Environment Agency gauge at Shaw on the River Lambourn and asks how to smooth out the wobble without shaving the tops off the rises. Lessons after the trial are USD 100 a month in a group or USD 150 a month privately.',
+  capsule: 'The Newbury built-up area had 42,260 usual residents at the 2021 census, according to the ONS, and West Berkshire as a whole had 161,448. Speen, Shaw, Wash Common, Donnington and Greenham are gazetteer suburbs whose nearest postcode falls inside the built-up area. Modern Age Coders gives live online lessons in coding, Python, vibe coding, AI and maths to Newbury learners aged six to 67; our tutors are in India and teach either one-to-one or in level-matched groups of fifteen to twenty. A free lesson happens before we recommend any course. The Newbury project takes a full year of water levels from the Environment Agency gauge at Shaw on the River Lambourn and asks how to smooth out the wobble without shaving the tops off the rises. Lessons after the trial are USD 100 a month in a group or USD 150 a month privately.',
   lead: 'Every sensor wobbles, and the usual cure is an average: replace each reading with the mean of its neighbours. It works, and it quietly lies. Averages flatten peaks and, if they only look backwards, they report every rise late. A method from 1964 chemistry labs, the Savitzky-Golay filter, fits a small curve through each window instead of a flat line, and a year of River Lambourn readings shows exactly how much difference that makes.',
   wa: 'Hello Modern Age Coders, could we try a free online coding or Python lesson? We are in Newbury.',
 
@@ -159,7 +159,7 @@ module.exports = {
       { h3: 'Learner in control', p: 'The learner types every line and runs it; the tutor asks what it should do.' },
       { h3: 'Start at the right step', p: 'The free lesson shows the level, and the course follows from that.' },
       { h3: 'Free to try', p: 'The trial lesson has no fee and asks for no card.' },
-      { h3: 'Level-matched groups', p: 'Five to ten learners at one stage, from towns all over the UK.' },
+      { h3: 'Level-matched groups', p: 'Fifteen to twenty learners at one stage, from towns all over the UK.' },
       { h3: 'Regular rhythm', p: 'Around eight lessons a month in term, two a week, with holidays skipped on request.' },
       { h3: 'Same hour all year', p: 'Clock changes are handled on our side so your lesson time holds.' }
     ],

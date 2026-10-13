@@ -4,7 +4,7 @@ description: "Live online coding, AI, Python and maths classes across North East
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-north-east-england
 source: src/pages/coding-and-ai-classes-in-north-east-england.html
 ---
-> North East England had 2,647,013 usual residents in the 2021 census, across 12 local authorities, the fewest of any English region. Newcastle upon Tyne is its largest built-up area, followed by Sunderland, Middlesbrough and Gateshead, with Hartlepool, Stockton-on-Tees, South Shields, Washington and Durham among the other towns. Every lesson we teach is live over video, from India. Anyone aged 6 to 67 can take coding, AI, Python and maths, with a private tutor or in a same-level class of five to ten. The first lesson is free and sets the course. Here you will find our North East pages and a project built on a weather record that reaches back to 1880. Learners who stay on pay USD 100 per month in a class, or USD 150 per month for lessons alone with a tutor.
+> North East England had 2,647,013 usual residents in the 2021 census, across 12 local authorities, the fewest of any English region. Newcastle upon Tyne is its largest built-up area, followed by Sunderland, Middlesbrough and Gateshead, with Hartlepool, Stockton-on-Tees, South Shields, Washington and Durham among the other towns. Every lesson we teach is live over video, from India. Anyone aged 6 to 67 can take coding, AI, Python and maths, with a private tutor or in a same-level class of fifteen to twenty. The first lesson is free and sets the course. Here you will find our North East pages and a project built on a weather record that reaches back to 1880. Learners who stay on pay USD 100 per month in a class, or USD 150 per month for lessons alone with a tutor.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [England](/coding-and-ai-classes-in-england) / North East England
 
@@ -12,11 +12,11 @@ North East England / Live online
 
 # Coding and AI classes in North East England
 
-**What are the best coding and AI classes in North East England?** North East England had 2,647,013 usual residents in the 2021 census, across 12 local authorities, the fewest of any English region. Newcastle upon Tyne is its largest built-up area, followed by Sunderland, Middlesbrough and Gateshead, with Hartlepool, Stockton-on-Tees, South Shields, Washington and Durham among the other towns. Every lesson we teach is live over video, from India. Anyone aged 6 to 67 can take coding, AI, Python and maths, with a private tutor or in a same-level class of five to ten. The first lesson is free and sets the course. Here you will find our North East pages and a project built on a weather record that reaches back to 1880. Learners who stay on pay USD 100 per month in a class, or USD 150 per month for lessons alone with a tutor.
+**What are the best coding and AI classes in North East England?** North East England had 2,647,013 usual residents in the 2021 census, across 12 local authorities, the fewest of any English region. Newcastle upon Tyne is its largest built-up area, followed by Sunderland, Middlesbrough and Gateshead, with Hartlepool, Stockton-on-Tees, South Shields, Washington and Durham among the other towns. Every lesson we teach is live over video, from India. Anyone aged 6 to 67 can take coding, AI, Python and maths, with a private tutor or in a same-level class of fifteen to twenty. The first lesson is free and sets the course. Here you will find our North East pages and a project built on a weather record that reaches back to 1880. Learners who stay on pay USD 100 per month in a class, or USD 150 per month for lessons alone with a tutor.
 
 The Met Office station at Durham has monthly temperatures going back to January 1880. Forecasters often describe a year as cold, normal or warm by splitting a set of past years into three equal groups, called terciles, and seeing which third a new year falls into. That sounds objective, until you ask which past years. Measure the years from 1991 to 2020 against Durham's 1961 to 1990 and 25 of the 30 count as warm. Measure them against 1881 to 1910 and 28 do. Measure them against themselves and exactly ten are warm, by definition. The same temperatures, three different stories. This page's project builds the terciles in Python and shows why the reference period must always be stated.
 
-Facts last verified 26 September 2026. Teaching is online; no North East England branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no North East England branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## North East starting courses
 
@@ -137,7 +137,7 @@ Every town in the region can join by video.
 - **Typing is theirs** The learner writes the code; the tutor looks on via the shared screen and prompts only when useful.
 - **Placed by school year** A Year 5 in Wallsend or a Year 11 in Stockton-on-Tees joins at the level their year suggests, with exams named by their board.
 - **First lesson free** A complete trial lesson at no charge, then direct advice.
-- **Classes at one level** Five to ten learners per class, all at the same stage, from across the UK.
+- **Classes at one level** Fifteen to twenty learners per class, all at the same stage, from across the UK.
 - **Term-time lessons** Two a week in term, none in the holidays.
 - **UK time kept** The clocks change; your lesson time does not. Our teachers adjust instead.
 
@@ -148,7 +148,7 @@ Every town in the region can join by video.
 There is one fee for the whole region, and it is the same in every country we teach outside India.
 
 - First class: USD 0. A full lesson free, then an honest recommendation.
-- Group tuition: USD 100 a month. About eight lessons each month in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons each month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons each month with a personal tutor.
 
 Prices are in US dollars only, never sterling. Billing starts once the trial has agreed a course and a weekly slot, and the pricing page explains holidays, missed lessons and switching formats.

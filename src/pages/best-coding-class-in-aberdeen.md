@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Aberdeen lear
 canonical: https://learn.modernagecoders.com/best-coding-class-in-aberdeen
 source: src/pages/best-coding-class-in-aberdeen.html
 ---
-> Scotland's Census 2022 put about 224,000 usual residents in Aberdeen City, with 68.2% aged 15 to 64 against 64.6% across Scotland. The University of Aberdeen was founded in 1495, and its Marischal College gained the facade in 1906 that the University calls the second-largest granite building in the world. Modern Age Coders teaches Aberdeen learners aged six to sixty-seven live online, one to one or in groups of five to ten placed by level, with teachers based in India and lessons timed in UK hours. The first lesson is free of charge; after that a group place is USD 100 a month and private teaching USD 150 a month.
+> Scotland's Census 2022 put about 224,000 usual residents in Aberdeen City, with 68.2% aged 15 to 64 against 64.6% across Scotland. The University of Aberdeen was founded in 1495, and its Marischal College gained the facade in 1906 that the University calls the second-largest granite building in the world. Modern Age Coders teaches Aberdeen learners aged six to sixty-seven live online, one to one or in groups of fifteen to twenty placed by level, with teachers based in India and lessons timed in UK hours. The first lesson is free of charge; after that a group place is USD 100 a month and private teaching USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Aberdeen
 
@@ -12,11 +12,11 @@ Aberdeen, Scotland / Live online
 
 # Coding classes in Aberdeen
 
-**What are the best coding classes in Aberdeen?** Scotland's Census 2022 put about 224,000 usual residents in Aberdeen City, with 68.2% aged 15 to 64 against 64.6% across Scotland. The University of Aberdeen was founded in 1495, and its Marischal College gained the facade in 1906 that the University calls the second-largest granite building in the world. Modern Age Coders teaches Aberdeen learners aged six to sixty-seven live online, one to one or in groups of five to ten placed by level, with teachers based in India and lessons timed in UK hours. The first lesson is free of charge; after that a group place is USD 100 a month and private teaching USD 150 a month.
+**What are the best coding classes in Aberdeen?** Scotland's Census 2022 put about 224,000 usual residents in Aberdeen City, with 68.2% aged 15 to 64 against 64.6% across Scotland. The University of Aberdeen was founded in 1495, and its Marischal College gained the facade in 1906 that the University calls the second-largest granite building in the world. Modern Age Coders teaches Aberdeen learners aged six to sixty-seven live online, one to one or in groups of fifteen to twenty placed by level, with teachers based in India and lessons timed in UK hours. The first lesson is free of charge; after that a group place is USD 100 a month and private teaching USD 150 a month.
 
 Ordnance Survey's Open Names file lists 3,170 distinct named places inside Aberdeen City, from Union Street to Tullos Hill. Suppose a program has to answer one question very fast and very often: is this name in Aberdeen? Storing the names takes about 300 kilobytes. A Bloom filter answers the same question from 6.2 kilobytes, and it never once says no about a name that is really there. The catch is the other direction: asked about names from Glasgow, Edinburgh and Dundee, it wrongly said yes 28 times out of 8,588, a false positive rate of 0.33%. Shrink it to 1.5 kilobytes and that rate climbs to 18%. Understanding a structure whose errors only ever point one way, and choosing how much memory to trade for accuracy, is the lesson Aberdeen's place names give our teenage learners.
 
-Facts last verified 21 September 2026. Teaching is online; no Aberdeen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 21 September 2026. Teaching is online; no Aberdeen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the Granite City
 
@@ -65,7 +65,7 @@ Households rose to about 109,500 from 103,371 in 2011, a faster change than the 
 
 At 1,207.1 residents per square kilometre, Aberdeen is far denser than the Scottish average of 69.8, though well below Glasgow.
 
-National Records of Scotland also reports that 21.3% of Aberdeen households had dependent children in 2022. Our learners here range across every stage: a P4 pupil in Cults making a first animation, an S4 student in Bridge of Don working towards National 5 Computing Science, or someone in their twenties in Torry learning Python for work, each in a group of five to ten at their own level.
+National Records of Scotland also reports that 21.3% of Aberdeen households had dependent children in 2022. Our learners here range across every stage: a P4 pupil in Cults making a first animation, an S4 student in Bridge of Don working towards National 5 Computing Science, or someone in their twenties in Torry learning Python for work, each in a group of fifteen to twenty at their own level.
 
 ## A university from 1495 and a building of granite
 
@@ -175,7 +175,7 @@ Aberdeen weather makes a short journey feel long; a live online lesson removes i
 - **North or south of the Dee** A learner in Dyce and another in Kincorth can share one lesson without either crossing the city.
 - **Primary, secondary and national levels** Primary 1 to 7, S1 to S6, then National 5, Higher and Advanced Higher: lessons use the names Aberdeen schools use, and teaching is in English.
 - **A first lesson that teaches** The free session covers a real task and ends by recommending a level, a course and a weekly time. No card details are needed.
-- **Matched by level** Groups of five to ten learners at the same stage, drawn from Aberdeen, elsewhere in Britain and overseas, so every level finds a workable hour.
+- **Matched by level** Groups of fifteen to twenty learners at the same stage, drawn from Aberdeen, elsewhere in Britain and overseas, so every level finds a workable hour.
 - **Two lessons each week** A fixed pair of weekly slots, roughly eight lessons a month, with holiday and exam breaks agreed with the teacher in advance.
 - **India keeps one clock** India Standard Time never shifts, so Aberdeen runs four and a half hours behind it in British Summer Time and five and a half behind in winter, which keeps after-school and evening lessons inside the teaching day.
 
@@ -186,7 +186,7 @@ Aberdeen weather makes a short journey feel long; a live online lesson removes i
 A free first lesson, then one monthly price.
 
 - First class: USD 0. A complete lesson at no cost, ending with a level, a recommended course and a proposed weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a group of five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight live lessons a month in a group of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight live lessons a month with a teacher working only with your learner.
 
 Every family outside India pays the same US dollar fee, so Rosemount and Mannofield pay alike, and we publish no prices in pounds. Nothing is billed until the free lesson has settled a course and a slot; the pricing page covers pauses, missed lessons and moving between group and private teaching.
@@ -227,11 +227,11 @@ No. There is no Aberdeen centre and no premises anywhere in the UK; every lesson
 
 ### How much do Aberdeen lessons cost?
 
-The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
+The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
 
 ### How are Aberdeen groups formed?
 
-By level, pace and aims rather than age or postcode, with five to ten learners at one stage. If no group meets at a suitable time, we offer one-to-one lessons.
+By level, pace and aims rather than age or postcode, with fifteen to twenty learners at one stage. If no group meets at a suitable time, we offer one-to-one lessons.
 
 ## Scottish pages and other cities
 

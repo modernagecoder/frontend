@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Feijenoord for ages 6
 canonical: https://learn.modernagecoders.com/coding-classes-in-feijenoord
 source: src/pages/coding-classes-in-feijenoord.html
 ---
-> Coding classes in Feijenoord reach 81,512 residents (1 January 2026) on the south bank of the Maas, on 662 hectares of land inside 855 hectares of territory, nearly a quarter of it water. Across the four Rotterdam districts this series has now measured, average income and average dwelling value rank in exactly the same order. That looks like proof they move together. With four items there are only twenty-four possible orderings, so a perfect match arrives by chance about one time in twelve, which is not proof of anything. Modern Age Coders teaches live online in English from Katendrecht to Vreewijk, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Feijenoord reach 81,512 residents (1 January 2026) on the south bank of the Maas, on 662 hectares of land inside 855 hectares of territory, nearly a quarter of it water. Across the four Rotterdam districts this series has now measured, average income and average dwelling value rank in exactly the same order. That looks like proof they move together. With four items there are only twenty-four possible orderings, so a perfect match arrives by chance about one time in twelve, which is not proof of anything. Modern Age Coders teaches live online in English from Katendrecht to Vreewijk, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Rotterdam](/coding-classes-in-rotterdam) / Feijenoord
 
@@ -12,11 +12,11 @@ Feijenoord, Rotterdam / Live online
 
 # Coding classes in Feijenoord, where four districts line up perfectly and that turns out to prove nothing
 
-**What are the best coding classes in Feijenoord?** Coding classes in Feijenoord reach 81,512 residents (1 January 2026) on the south bank of the Maas, on 662 hectares of land inside 855 hectares of territory, nearly a quarter of it water. Across the four Rotterdam districts this series has now measured, average income and average dwelling value rank in exactly the same order. That looks like proof they move together. With four items there are only twenty-four possible orderings, so a perfect match arrives by chance about one time in twelve, which is not proof of anything. Modern Age Coders teaches live online in English from Katendrecht to Vreewijk, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Feijenoord?** Coding classes in Feijenoord reach 81,512 residents (1 January 2026) on the south bank of the Maas, on 662 hectares of land inside 855 hectares of territory, nearly a quarter of it water. Across the four Rotterdam districts this series has now measured, average income and average dwelling value rank in exactly the same order. That looks like proof they move together. With four items there are only twenty-four possible orderings, so a perfect match arrives by chance about one time in twelve, which is not proof of anything. Modern Age Coders teaches live online in English from Katendrecht to Vreewijk, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Rank four Rotterdam districts by average income and you get Centrum, Prins Alexander, Delfshaven, Feijenoord. Rank the same four by average dwelling value and you get exactly the same order. It looks like a finding. It is not. Four things can be arranged in twenty-four ways, so two lists agreeing perfectly, in either direction, happens about once in twelve by accident. One more district would have made the result worth something. Four does not, and Rotterdam has twenty-two to choose from.
 
-Facts last verified 9 September 2026. Teaching is online; no Feijenoord branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 September 2026. Teaching is online; no Feijenoord branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the youngest district on the south bank
 
@@ -180,7 +180,7 @@ Feijenoord runs from the Noordereiland in the river out to Vreewijk, and the Maa
 - **No bridge, no tunnel, no metro** The lesson arrives at the table in Vreewijk, on Katendrecht or in the Afrikaanderwijk, at one hour that repeats. In a district cut off by a river, removing the journey removes the thing that actually stops families.
 - **Where the Dutch stops and the English starts** The lesson is English. The school vocabulary is not, and stays as the school prints it, so a teacher will say groep or havo or vwo or profielkeuze exactly as a child has already seen them written.
 - **One free hour, and three things settled in it** The learner is given something real to do while somebody watches. That establishes a level, the level points at one course rather than another, and an hour is put in the week. None of it involves a card.
-- **Ability sorts the groups, geography does not** A group holds five to ten learners working at one level, gathered from wherever they happen to live. Two neighbours at different stages will not be in it together, and that is the point of it.
+- **Ability sorts the groups, geography does not** A group holds fifteen to twenty learners working at one level, gathered from wherever they happen to live. Two neighbours at different stages will not be in it together, and that is the point of it.
 - **Two a week, and the holidays are already known** That comes to eight lessons in a typical month. Because Zuid-Holland sits in regio Midden, the school breaks are published long in advance, so they go into the schedule when it is made rather than disrupting it later.
 - **A gap of three and a half hours, or four and a half** Which of the two depends on the month, and entirely on the Dutch side, since the Indian clock has not moved in decades. Either way the afternoons, the early evenings and both weekend days remain workable at both ends.
 
@@ -191,7 +191,7 @@ Feijenoord runs from the Noordereiland in the river out to Vreewijk, and the Maa
 Printed here rather than kept for a call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 There is one international rate and it is in dollars, with no euro edition, so an address on the Noordereiland is charged exactly what one in Vreewijk is. Nothing is paid until the free lesson has settled a course and an hour, and payment is arranged over WhatsApp afterwards. Pausing, switching plan and missing a week are all set out on the pricing page.
@@ -232,7 +232,7 @@ No, and none is claimed on the south bank, elsewhere in Rotterdam or anywhere in
 
 ### What do Feijenoord coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

@@ -202,7 +202,7 @@ Teaching comes from India, which keeps one clock all year; the UK is four and a 
 - **Weekend** Longer sessions for building features.
 
 - **A free first class** We check your starting point and choose a framework with you.
-- **Small groups** Five to ten learners of similar age and level.
+- **Small groups** Fifteen to twenty learners of similar age and level.
 - **One to one** For a specific app idea or a faster pace.
 - **Your own device** Apps run on your phone or an emulator from the early weeks.
 - **Privacy checklist** Every project passes the same short checklist before it counts as done.
@@ -213,7 +213,7 @@ Teaching comes from India, which keeps one clock all year; the UK is four and a 
 One monthly fee in US dollars, the same for every country outside India, with no enrolment fee and nothing to commit to beyond the current month. Store developer accounts, if you choose to publish, are separate and paid to the store.
 
 - Free first class: USD 0. A look at your starting point. A framework chosen with you. No payment details needed.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher each week. A privacy checklist on every project. Stop at the end of any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. A privacy checklist on every project. Stop at the end of any month.
 - One to one: USD 150 a month. A teacher for you alone. Built around your own app idea. Paced to suit you.
 
 ## What UK learners ask about building apps

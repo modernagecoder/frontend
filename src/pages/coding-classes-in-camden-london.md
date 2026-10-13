@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Camden: Hamps
 canonical: https://learn.modernagecoders.com/coding-classes-in-camden-london
 source: src/pages/coding-classes-in-camden-london.html
 ---
-> Camden is the north London borough of Camden Town, Hampstead, Kentish Town, King's Cross, Bloomsbury, Holborn, Swiss Cottage and West Hampstead, with 210,136 residents at the 2021 Census and 57 Grade I listed entries, the British Museum and King's Cross station among them. A coding class that earns its place teaches a learner to look past the average to the whole spread of the data, and this page does that with air quality: sixteen years of hourly nitrogen dioxide readings from Bloomsbury, and a method that tracks the cleanest, typical and worst hours separately. Lessons run live on video with teachers in India, for ages 6 to 67, one to one or in groups of five to ten at the same stage. We charge nothing for the first lesson; after it, groups cost USD 100 a month and private lessons USD 150 a month.
+> Camden is the north London borough of Camden Town, Hampstead, Kentish Town, King's Cross, Bloomsbury, Holborn, Swiss Cottage and West Hampstead, with 210,136 residents at the 2021 Census and 57 Grade I listed entries, the British Museum and King's Cross station among them. A coding class that earns its place teaches a learner to look past the average to the whole spread of the data, and this page does that with air quality: sixteen years of hourly nitrogen dioxide readings from Bloomsbury, and a method that tracks the cleanest, typical and worst hours separately. Lessons run live on video with teachers in India, for ages 6 to 67, one to one or in groups of fifteen to twenty at the same stage. We charge nothing for the first lesson; after it, groups cost USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Camden
 
@@ -12,11 +12,11 @@ London Borough of Camden / Live online
 
 # Coding classes in Camden
 
-**What are the best coding classes in Camden?** Camden is the north London borough of Camden Town, Hampstead, Kentish Town, King's Cross, Bloomsbury, Holborn, Swiss Cottage and West Hampstead, with 210,136 residents at the 2021 Census and 57 Grade I listed entries, the British Museum and King's Cross station among them. A coding class that earns its place teaches a learner to look past the average to the whole spread of the data, and this page does that with air quality: sixteen years of hourly nitrogen dioxide readings from Bloomsbury, and a method that tracks the cleanest, typical and worst hours separately. Lessons run live on video with teachers in India, for ages 6 to 67, one to one or in groups of five to ten at the same stage. We charge nothing for the first lesson; after it, groups cost USD 100 a month and private lessons USD 150 a month.
+**What are the best coding classes in Camden?** Camden is the north London borough of Camden Town, Hampstead, Kentish Town, King's Cross, Bloomsbury, Holborn, Swiss Cottage and West Hampstead, with 210,136 residents at the 2021 Census and 57 Grade I listed entries, the British Museum and King's Cross station among them. A coding class that earns its place teaches a learner to look past the average to the whole spread of the data, and this page does that with air quality: sixteen years of hourly nitrogen dioxide readings from Bloomsbury, and a method that tracks the cleanest, typical and worst hours separately. Lessons run live on video with teachers in India, for ages 6 to 67, one to one or in groups of fifteen to twenty at the same stage. We charge nothing for the first lesson; after it, groups cost USD 100 a month and private lessons USD 150 a month.
 
 Since 1992 a government air monitoring station in Bloomsbury, called London Bloomsbury, has measured the air every hour, and DEFRA publishes each reading. Our learners take the nitrogen dioxide readings for 2010 to 2025, more than 134,000 hours of them. The average fell a great deal: the middle hour of 2025 was about two thirds cleaner than the middle hour of 2010. But an average is only one line through a cloud of points. What about the worst hours, the ones on still winter evenings? Learners use quantile regression, which fits a separate trend to the cleanest tenth, the middle, and the dirtiest hundredth of hours. The dirtiest hours fell by the most micrograms per year, and yet by the smallest percentage.
 
-Facts last verified 25 September 2026. Teaching is online; no Camden branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Camden branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Camden learners begin
 
@@ -171,7 +171,7 @@ Across Camden, a learner joins class simply by opening the video link.
 - **Any room will do** A laptop or desktop, headphones, and broadband steady enough for video are the full list of equipment.
 - **Key Stages, plainly** We report progress in the Key Stages English schools use, from Key Stage 1 to sixth form, and mention GCSE and A level only where they apply. We teach in English.
 - **Try it free** The first lesson is real teaching, and at its end the teacher recommends a level and course. No bank card is needed for it.
-- **Matched by stage** We gather five to ten learners at one stage into each class from all over the UK and beyond, so there is usually a time that suits.
+- **Matched by stage** We gather fifteen to twenty learners at one stage into each class from all over the UK and beyond, so there is usually a time that suits.
 - **A twice-weekly rhythm** Classes usually meet on two evenings a week and pause for school holidays and exam periods by agreement.
 - **On London time** Our teachers are in India; all times we send are already in UK time.
 
@@ -182,7 +182,7 @@ Across Camden, a learner joins class simply by opening the video link.
 The first lesson is free; then one monthly fee, the same in Kilburn as in King's Cross.
 
 - First class: USD 0. A complete first lesson with a teacher, free, closing with a recommended level, course and time.
-- Group tuition: USD 100 a month. Near enough eight live lessons a month, in a class of five to ten at the same stage.
+- Group tuition: USD 100 a month. Near enough eight live lessons a month, in a class of fifteen to twenty at the same stage.
 - Private tuition: USD 150 a month. Near enough eight live lessons a month, one to one.
 
 Camden families pay in US dollars, as do all families outside India, and no sterling prices appear on the site. Nothing is charged before the free lesson or before you pick a course and weekly time. The pricing page explains pausing, missed lessons and switching between class and private teaching.
@@ -223,11 +223,11 @@ No. There is no Camden centre and no premises anywhere in the UK, because every 
 
 ### What do coding classes in Camden cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## Beyond Camden
 

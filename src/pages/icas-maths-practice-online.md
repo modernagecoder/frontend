@@ -190,7 +190,7 @@ Our teachers work from India, behind every Australian time zone. A 4 pm lesson i
 
 - **Reasoning first** Students explain why an answer must be right.
 - **Estimation habit** Answers are checked against a rough size.
-- **Groups of five to ten** Grouped by paper level.
+- **Groups of fifteen to twenty** Grouped by paper level.
 - **One-to-one option** For a specific gap or a stretch goal.
 - **Short parent notes** What was covered and one thing to practise.
 - **No result promises** We teach maths; the result is the student's.
@@ -200,7 +200,7 @@ Our teachers work from India, behind every Australian time zone. A 4 pm lesson i
 Australian families pay monthly in US dollars, the rate we use in every country outside India. No deposit, and you can stop at any month end. ICAS entry is separate and arranged through schools or ICAS Assessments.
 
 - Free first class: USD 0. A real lesson with a teacher. An honest view of your child's level. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher every week. Work marked and explained. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher every week. Work marked and explained. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one student. Focused on chosen learning areas. A weekly time that suits you.
 
 ## What Australian families ask

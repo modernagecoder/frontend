@@ -179,7 +179,7 @@ Online from home in Bawshar, with a live teacher in India.
 
 ### Group
 
-Five to eight learners matched by level, or one student privately.
+Fifteen to twenty learners matched by level, or one student privately.
 
 ### Frequency
 
@@ -209,7 +209,7 @@ No enrolment charge, nothing to buy, no minimum term.
 
 Group$100per month, 8 classes
 
-Five to eight students at a shared level.
+Fifteen to twenty students at a shared level.
 
 Private$150per month, 8 classes
 
@@ -305,7 +305,7 @@ Yes, subject to available teaching slots. Oman is one and a half hours behind In
 
 ### What do Bawshar coding classes cost?
 
-A small group of five to eight costs USD 100 a month. Private teaching costs USD 150 a month. Both plans include eight live classes, normally two each week. The first class is free, with no enrolment charge, materials fee or minimum term.
+A group of fifteen to twenty costs USD 100 a month. Private teaching costs USD 150 a month. Both plans include eight live classes, normally two each week. The first class is free, with no enrolment charge, materials fee or minimum term.
 
 ### Can a Muscat College student or working adult join?
 

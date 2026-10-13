@@ -16,7 +16,7 @@ Geraldton, Western Australia / Live online
 
 The WA Department of Transport publishes its regional long-term cycle network as an open map layer, and 222 of its lines belong to the Geraldton 2050 strategy. Load them into Python, treat every line end as a junction, and ask a simple question: how many separate networks are there? Taken literally, the answer is 218, because only 4 of the 444 line ends land on exactly the same coordinate as another. Allow ends within one metre to join and the count drops to 164; allow 100 metres and it falls to 37. Our Geraldton learners discover that the number of networks is partly a choice, and learn how to make that choice honestly.
 
-Facts last verified 9 October 2026. Teaching is online; no Geraldton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 October 2026. Teaching is online; no Geraldton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where a Geraldton learner might start
 
@@ -172,7 +172,7 @@ Geraldton stretches a long way along the coast, and an online lesson reaches eve
 - **No travel at all** A learner at home in any Geraldton suburb joins the same live lesson as one in Perth or overseas.
 - **WA year levels** Teachers use Western Australian year levels, from primary through Years 11 and 12, and teach in English.
 - **A free first lesson** You write real code with a teacher, then hear which stage, course and weekly time would suit; no card is requested.
-- **Groups of five to ten** Classmates at the same stage from across Australia and abroad, so every level has a workable time.
+- **Groups of fifteen to twenty** Classmates at the same stage from across Australia and abroad, so every level has a workable time.
 - **Two lessons a week** Usually about eight lessons a month, with holidays and exam weeks planned with the teacher.
 - **A steady clock** Because WA does not use daylight saving, a Geraldton lesson stays at the same India time all year.
 
@@ -183,7 +183,7 @@ Geraldton stretches a long way along the coast, and an online lesson reaches eve
 The whole price list in three lines.
 
 - First class: USD 0. A free opening lesson that ends with a recommended stage, course and time.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, with five to ten learners at your level.
+- Group tuition: USD 100 a month. A month of lessons, usually eight, with fifteen to twenty learners at your level.
 - Private tuition: USD 150 a month. About eight one-to-one lessons a month with a single teacher.
 
 Geraldton families pay one rate in US dollars, the same as everywhere else in Australia, with no regional loading. Nothing is charged until the trial has settled a course and a time; the pricing page covers holidays, missed lessons and switching format.
@@ -224,11 +224,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Geraldton coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Geraldton and WA learners
 

@@ -16,7 +16,7 @@ Clarence City Council, Hobart, Tasmania / Live online
 
 An agent wrote a tidy script to total Clarence's road network from a small data file, ran it, and reported 14,374 road segments. Run the same script from its own folder and Python cannot find the file. Nothing in the code changed; only the folder it was started from.
 
-Facts last verified 14 October 2026. Teaching is online; no Clarence branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 14 October 2026. Teaching is online; no Clarence branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for agent-built code that travels
 
@@ -187,7 +187,7 @@ All lessons are live on video, with no trip across the bridge.
 - **Run it twice** Learners test agent code from more than one folder while the teacher watches.
 - **Term-time classes** Lessons follow the Tasmanian school year and pause in holidays.
 - **A free start** One complete lesson without charge, then a written suggestion.
-- **Groups of five to ten** Learners matched by level, or private sessions.
+- **Groups of fifteen to twenty** Learners matched by level, or private sessions.
 - **Twice weekly** Two fixed lessons a week, about eight each month.
 - **India time** Teaching comes from India: a 7pm Clarence class is 1:30pm India time in summer and 2:30pm after April.
 
@@ -198,7 +198,7 @@ All lessons are live on video, with no trip across the bridge.
 Three fixed prices, whichever suburb a learner lives in.
 
 - First class: USD 0. The first lesson is free and comes with written advice.
-- Group tuition: USD 100 a month. About eight group lessons a month with five to ten learners.
+- Group tuition: USD 100 a month. About eight group lessons a month with fifteen to twenty learners.
 - Private tuition: USD 150 a month. About eight private lessons a month.
 
 Clarence families pay in US dollars once the trial has fixed a course and time. The pricing page sets out holidays and missed lessons.
@@ -235,11 +235,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Clarence learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Is Copilot Studio part of the Clarence group course?
 

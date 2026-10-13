@@ -311,7 +311,7 @@ module.exports = {
       { h3: 'Shared screen', p: 'The learner opens a link, shares a screen and the teacher reads the code as it is written.' },
       { h3: 'Victorian terms', p: 'Plans follow the Victorian school year and break for the state school holidays.' },
       { h3: 'Free trial', p: 'The first lesson is a full class at no cost, followed by a suggested course and time.' },
-      { h3: 'Group of five to ten', p: 'Learners are grouped by level and pace, from many parts of Australia.' },
+      { h3: 'Group of fifteen to twenty', p: 'Learners are grouped by level and pace, from many parts of Australia.' },
       { h3: 'Routine', p: 'Two lessons every week, roughly eight a month, with planned breaks agreed early.' },
       {
         h3: 'Teachers in India',
@@ -327,7 +327,7 @@ module.exports = {
     h2: 'City of Monash class fees',
     intro: 'Three amounts, given in full.',
     first: 'The opening lesson is free, followed by a candid recommendation.',
-    group: 'A month of group lessons, typically eight, with five to ten learners at a matched level.',
+    group: 'A month of group lessons, typically eight, with fifteen to twenty learners at a matched level.',
     private: 'About eight lessons a month taught one to one.',
     closer: 'Families outside India pay in US dollars, the same rate wherever they live. Invoices start once the trial has chosen a course and a slot; holidays, absences and format changes are explained on the pricing page.'
   },
@@ -369,7 +369,7 @@ module.exports = {
       },
       {
         q: 'What do classes cost for City of Monash learners?',
-        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before payment.',
+        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before payment.',
         boiler: true
       },
       {

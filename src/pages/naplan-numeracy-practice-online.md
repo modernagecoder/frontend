@@ -185,7 +185,7 @@ Our maths teachers are based in India, which sits behind every Australian capita
 
 - **Reasoning out loud** Students explain how they know, not just what they got.
 - **Estimation built in** Every calculation starts with a rough answer and ends with a check.
-- **Classes of five to ten** Children grouped by what they can already do, so nobody waits and nobody is lost.
+- **Classes of fifteen to twenty** Children grouped by what they can already do, so nobody waits and nobody is lost.
 - **Private lessons** Chosen when a child needs a particular gap closed or confidence rebuilt.
 - **Parents kept informed** A short note on what was covered and what to try at home.
 - **No promises** No proficiency level is promised. We teach the maths; the result is the child's.
@@ -195,7 +195,7 @@ Our maths teachers are based in India, which sits behind every Australian capita
 Australian families are billed monthly in US dollars, the same rate we charge everywhere outside India, with nothing to pay up front and freedom to stop at any month end.
 
 - Free first class: USD 0. A real lesson with a teacher. An honest view of where your child is. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher each week. Work reviewed and explained. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher each week. Work reviewed and explained. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one child. Focused on specific gaps. Flexible weekly times.
 
 ## What Australian parents ask

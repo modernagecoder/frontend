@@ -241,7 +241,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Classes are charged each month in US dollars, our international rate, with no sign-up charge and no lock-in. Any competition entry fee is separate and goes to the organiser, not to us.',
     free: ['A real lesson with a teacher', 'An honest view of readiness', 'No card details'],
-    group: ['Five to ten students at one level', 'The same teacher each week', 'Practice reviewed together', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher each week', 'Practice reviewed together', 'A certificate at the end'],
     one: ['A teacher for one student', 'A plan built from the competition date', 'Flexible weekly times']
   },
 

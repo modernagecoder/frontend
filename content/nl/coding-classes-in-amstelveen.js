@@ -36,7 +36,7 @@ module.exports = {
 
   h1: 'Coding classes in Amstelveen, where the community grows even as the arrivals fall',
   capsuleQ: 'What are the best coding classes in Amstelveen?',
-  capsule: 'Coding classes in Amstelveen mostly serve families who came to the Netherlands to work in IT: the municipality has 68.3 residents of Indian origin for every thousand, the highest share of any Dutch municipality on 1 January 2024 according to Statistics Netherlands. Modern Age Coders teaches coding, Python, AI and mathematics live online, in English, to learners aged 6 to 67 here. The first class is free; after that a group of five to ten costs USD 100 a month and one-to-one tuition USD 150.',
+  capsule: 'Coding classes in Amstelveen mostly serve families who came to the Netherlands to work in IT: the municipality has 68.3 residents of Indian origin for every thousand, the highest share of any Dutch municipality on 1 January 2024 according to Statistics Netherlands. Modern Age Coders teaches coding, Python, AI and mathematics live online, in English, to learners aged 6 to 67 here. The first class is free; after that a group of fifteen to twenty costs USD 100 a month and one-to-one tuition USD 150.',
   lead: 'The headline in 2026 says Indian knowledge migration to the Netherlands has fallen by nearly half since 2022. The school gates on the Sportlaan and the Amsterdamseweg say the community is bigger than it has ever been. Both are right at once, and a child who can explain why has learned the most useful thing on this page.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Amstelveen.',
 
@@ -172,7 +172,7 @@ module.exports = {
       { h3: 'No fourth journey', p: 'The tram stops at Sportlaan for one school and Oranjebaan for the Stadshart, and parents already spend enough of the week between them. A class at the kitchen table in Westwijk or Elsrijk takes nothing off the timetable but the lesson itself.' },
       { h3: 'In English, with the Dutch words kept', p: 'Teaching is in English. Groep, havo, TTO and profielkeuze are used as the family uses them, because a course that translates a child\'s school vocabulary back at them has not been listening.' },
       { h3: 'The first class costs nothing, and decides something', p: 'A full lesson with a real task, ending in a named course, a level and a slot. No card details are taken to arrange it and nobody is asked to decide before they have watched a lesson.' },
-      { h3: 'Groups of five to ten, set by level', p: 'Who joins a group depends on what a learner can do and what they want next. Whether they arrived in 2019 or were born in the Ziekenhuis Amstelland is not a variable.' },
+      { h3: 'Groups of fifteen to twenty, set by level', p: 'Who joins a group depends on what a learner can do and what they want next. Whether they arrived in 2019 or were born in the Ziekenhuis Amstelland is not a variable.' },
       { h3: 'Two lessons a week, one recurring time', p: 'Roughly eight sessions a month at a time fixed once at enrolment. Term dates in regio Noord, the Diwali week and the summer trip to India are all mentioned before the slot is set, not after.' },
       { h3: 'Amstelveen evenings are Indian nights', p: 'Seven in the evening in Westwijk is half past ten in Kolkata in summer and half past eleven in winter, because the Dutch clock moves and the Indian one does not. Late afternoon, early evening and weekend slots are the natural ones, confirmed on the call.' }
     ],
@@ -183,7 +183,7 @@ module.exports = {
     h2: 'One free class, then USD 100 or USD 150 a month',
     intro: 'The fee is published here, in full, before anybody asks for a phone number.',
     first: 'A real lesson with a task pitched at the learner, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner and one teacher.',
     closer: 'The figure is in US dollars because there is a single published international rate and no separate euro list; there is no Amstelveen surcharge and no enrolment fee. The free class settles the course and the slot first, and payment is arranged afterwards over WhatsApp, not before. Pauses, plan changes and missed classes are on the pricing page.'
   },
@@ -208,8 +208,8 @@ module.exports = {
       { q: 'What time are classes for an Amstelveen family?', a: 'The Dutch clock moves twice a year and the Indian one never does, so seven in the evening here is half past ten or half past eleven in India depending on the season. Late afternoon, early evening and weekend slots are the natural ones. The recurring time is agreed on the free class and fixed before payment.' },
       { q: 'What happens in the free Amstelveen class?', a: 'We find out what the learner can already do and set one task pitched there. A child fills a jar of marbles while the bag empties. A teenager writes the cohort loop and swaps the retention curve. An adult is handed a dashboard with sign-ups falling and active users rising and asked what happened. It ends with a named course, a level, a slot and the fee stated in USD, and there is no charge for the hour.' },
       { q: 'Is there a Modern Age Coders centre in Amstelveen?', a: 'No, and the page does not pretend otherwise. There are no premises in Amstelveen, in Amsterdam or anywhere in the Netherlands. Classes are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The contact number on this page is an Indian one.', boiler: true },
-      { q: 'How much do Amstelveen coding classes cost?', a: 'Nothing for the first class. Group tuition is USD 100 a month for two live lessons a week, normally eight a month, in a group of five to ten. Private tuition is USD 150 a month for one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before any payment.', boiler: true },
-      { q: 'What is the class size for Amstelveen learners?', a: 'A group holds five to ten learners matched on level, pace and goal rather than on age or school. Private tuition is one learner with one teacher. When no suitable group is running, the family can choose private tuition or wait for the next cohort to form.', boiler: true }
+      { q: 'How much do Amstelveen coding classes cost?', a: 'Nothing for the first class. Group tuition is USD 100 a month for two live lessons a week, normally eight a month, in a group of fifteen to twenty. Private tuition is USD 150 a month for one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before any payment.', boiler: true },
+      { q: 'What is the class size for Amstelveen learners?', a: 'A group holds fifteen to twenty learners matched on level, pace and goal rather than on age or school. Private tuition is one learner with one teacher. When no suitable group is running, the family can choose private tuition or wait for the next cohort to form.', boiler: true }
     ]
   },
 

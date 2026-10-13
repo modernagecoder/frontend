@@ -4,7 +4,7 @@ description: "What the statutory curriculum asks of Years 3 to 6, and live lesso
 canonical: https://learn.modernagecoders.com/ks2-coding-lessons-online
 source: src/pages/ks2-coding-lessons-online.html
 ---
-> The statutory computing curriculum for key stage 2 is more ambitious than most families realise. By the end of Year 6 pupils are supposed to use sequence, selection and repetition, work with variables and with input and output, design, write and debug programs that accomplish specific goals, solve problems by decomposing them, and use logical reasoning to explain how simple algorithms work and to find errors in them. Whether a particular school covers all of that varies enormously, and a parent can check simply by asking a child to explain a program they wrote. We teach exactly this content live online, in groups of five to ten at one level or one to one, for children roughly seven to eleven. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+> The statutory computing curriculum for key stage 2 is more ambitious than most families realise. By the end of Year 6 pupils are supposed to use sequence, selection and repetition, work with variables and with input and output, design, write and debug programs that accomplish specific goals, solve problems by decomposing them, and use logical reasoning to explain how simple algorithms work and to find errors in them. Whether a particular school covers all of that varies enormously, and a parent can check simply by asking a child to explain a program they wrote. We teach exactly this content live online, in groups of fifteen to twenty at one level or one to one, for children roughly seven to eleven. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Key Stage 2 coding
 
@@ -177,7 +177,7 @@ Our teachers work from India, where the clocks never change, so the UK is five a
 - **Predictions before running** The child says what will happen first. Being wrong out loud is the mechanism, not the embarrassment.
 - **Fixing, not restarting** When it breaks we find out why, which is the part the curriculum names and the part that is usually skipped.
 - **Someone within earshot** A parent or carer at home and contactable. No need to watch the lesson, only to be findable.
-- **Groups by level** Five to ten children at the same step, so nobody is the youngest in a room of teenagers.
+- **Groups by level** Fifteen to twenty children at the same step, so nobody is the youngest in a room of teenagers.
 - **Work you can open** Finished projects are saved where a family can see them, which is usually how a parent finds out it is going well.
 
 ## What primary lessons cost
@@ -185,7 +185,7 @@ Our teachers work from India, where the clocks never change, so the UK is five a
 One monthly charge in US dollars, the rate outside India. The free lesson comes first and nothing is taken until a course and a weekly time are agreed.
 
 - Free first class: USD 0. A real lesson, with something built in it. An honest view of the step the child is on. Only a phone number needed.
-- Group batch: USD 100 a month. Five to ten children at the same step. One named teacher throughout. Work saved where a parent can open it. A certificate when a course finishes.
+- Group batch: USD 100 a month. Fifteen to twenty children at the same step. One named teacher throughout. Work saved where a parent can open it. A certificate when a course finishes.
 - One to one: USD 150 a month. One child and one teacher. Good for a very shy or very advanced child. Fitted around clubs and the school run.
 
 ## What parents of Years 3 to 6 ask

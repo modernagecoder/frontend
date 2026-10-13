@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Online coding and Python classes in Crawley',
   capsuleQ: 'Which are the best online coding and Python classes in Crawley?',
-  capsule: 'The census of 2021 found 118,491 people living in Crawley borough; the ONS built-up area of Crawley, reaching slightly beyond the boundary, holds 120,550. It is a borough of young families: adults in their thirties make up far more of it than in England as a whole, and so do children under ten, while people over 65 are fewer. Anyone from 6 up to 67 can study coding, Python, AI or maths with our India-based tutors in real-time video lessons, privately or in a class of five to ten sharing one level. A free first lesson picks the course. The Crawley project works with Gatwick Airport\'s passenger data. Learners who stay on pay USD 100 monthly in a shared class, or USD 150 monthly for solo tuition.',
+  capsule: 'The census of 2021 found 118,491 people living in Crawley borough; the ONS built-up area of Crawley, reaching slightly beyond the boundary, holds 120,550. It is a borough of young families: adults in their thirties make up far more of it than in England as a whole, and so do children under ten, while people over 65 are fewer. Anyone from 6 up to 67 can study coding, Python, AI or maths with our India-based tutors in real-time video lessons, privately or in a class of fifteen to twenty sharing one level. A free first lesson picks the course. The Crawley project works with Gatwick Airport\'s passenger data. Learners who stay on pay USD 100 monthly in a shared class, or USD 150 monthly for solo tuition.',
   lead: 'Gatwick Airport sits inside Crawley borough, and every month the Civil Aviation Authority publishes how many passengers passed through it and how many passenger and cargo flights, which it calls air transport movements, took off or landed. In 2025 the CAA counted 42,769,164 terminal passengers and 259,391 air transport movements at Gatwick. So how many passengers does an average Gatwick flight carry? There are two natural ways to work it out, and they do not agree. The gap is small at one airport and enormous across the country, and understanding why is one of the most useful lessons in handling data. A Crawley learner can find it in Python with twelve monthly spreadsheets.',
   wa: 'Hello Modern Age Coders, please book a free online coding or Python lesson for a Crawley learner.',
 
@@ -162,7 +162,7 @@ module.exports = {
       { h3: 'Code by the student', p: 'Learners type every line; the tutor follows the shared screen and asks questions rather than taking over.' },
       { h3: 'A start that fits', p: 'Whether in Year 3 or Year 12, the starting point comes from school year plus what the trial shows, and the correct exam board is used.' },
       { h3: 'No-cost first lesson', p: 'The trial is free and ends with honest advice.' },
-      { h3: 'Level-matched groups', p: 'Classes of five to ten UK learners at the same stage.' },
+      { h3: 'Level-matched groups', p: 'Classes of fifteen to twenty UK learners at the same stage.' },
       { h3: 'Two lessons weekly', p: 'Twice a week in term time; holidays left free.' },
       { h3: 'Fixed hour', p: 'UK clock changes are handled by our teachers, so your time stays the same.' }
     ],

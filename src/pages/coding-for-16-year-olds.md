@@ -1,10 +1,10 @@
 ---
 title: "Coding Classes for 16 Year Olds: Full Stack, AI and DSA, Class 11 | Modern Age Coders"
-description: "Live online coding classes for 16 year olds in Class 11: full stack web, AI with Pandas and scikit-learn, DSA in C++ or Python. Batch of 5 to 10 or 1-on-1."
+description: "Live online coding classes for 16 year olds in Class 11: full stack web, AI with Pandas and scikit-learn, DSA in C++ or Python. Batch of 15 to 20 or 1-on-1."
 canonical: https://learn.modernagecoders.com/coding-for-16-year-olds
 source: src/pages/coding-for-16-year-olds.html
 ---
-> Live online coding classes for 16 year olds in Class 11: full stack web, AI with Pandas and scikit-learn, DSA in C++ or Python. Batch of 5 to 10 or 1-on-1.
+> Live online coding classes for 16 year olds in Class 11: full stack web, AI with Pandas and scikit-learn, DSA in C++ or Python. Batch of 15 to 20 or 1-on-1.
 
 For parents of 16 year olds · Class 11
 
@@ -14,7 +14,7 @@ Class 11 is where coding stops being optional for CS-stream students. Our 1 hour
 
 [Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Per live class, 1:1 or group**6 projects**Portfolio-standard across Class 1116Age cohortCS stream alignedMERN + AIDSA in C++In short
 
-Coding classes for 16 year olds at Modern Age Coders are live, one hour per class, in a batch of 5 to 10 teens or 1-on-1, and are built for the Class 11 year: a full stack project, an AI course on real data with Pandas and scikit-learn, and DSA in C++ or Python for the CS stream. School CS in CBSE and ICSE is covered along the way, a chapter ahead of the school. Board-first students can start on [CBSE Class 11 CS](/computer-science-class-11-cbse) or [ICSE Class 11 CS](/computer-science-class-11-icse).
+Coding classes for 16 year olds at Modern Age Coders are live, one hour per class, in a batch of 15 to 20 teens or 1-on-1, and are built for the Class 11 year: a full stack project, an AI course on real data with Pandas and scikit-learn, and DSA in C++ or Python for the CS stream. School CS in CBSE and ICSE is covered along the way, a chapter ahead of the school. Board-first students can start on [CBSE Class 11 CS](/computer-science-class-11-cbse) or [ICSE Class 11 CS](/computer-science-class-11-icse).
 
 Courses matched for this level
 

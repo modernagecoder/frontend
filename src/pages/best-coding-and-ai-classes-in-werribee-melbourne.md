@@ -16,7 +16,7 @@ Werribee, City of Wyndham, Melbourne, Victoria / Live online
 
 Seven yearly files of station entries make a neat table, and the obvious question is how each year compares with the one before. SQL has a function built for exactly that, LAG. It is short, it is easy to misuse, and when misused it still returns numbers that look reasonable.
 
-Facts last verified 10 October 2026. Teaching is online; no Werribee branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Werribee branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that reach SQL, data and AI
 
@@ -187,7 +187,7 @@ Lessons are live online, so Werribee learners spend the time coding rather than 
 - **From home** A laptop and a stable connection are all a learner needs to join.
 - **Term-time teaching** We follow the Victorian school terms and break for the state holidays.
 - **Free trial** A full first lesson, then a clear suggestion for course and timing.
-- **Groups by level** Five to ten learners at a matched level, drawn from different places.
+- **Groups by level** Fifteen to twenty learners at a matched level, drawn from different places.
 - **Regular rhythm** Two fixed lessons a week, around eight each month.
 - **Teachers in India** A 5pm Werribee lesson is 11:30am India time while Melbourne is on daylight saving, then 12:30pm.
 
@@ -198,7 +198,7 @@ Lessons are live online, so Werribee learners spend the time coding rather than 
 The fee list is short.
 
 - First class: USD 0. A first lesson free of charge, with advice at the end.
-- Group tuition: USD 100 a month. A month of group lessons, about eight, with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group lessons, about eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. A month of private lessons, about eight, one learner and one teacher.
 
 Werribee families pay in US dollars, the currency for every family outside India. We take no payment until the trial has settled course and time, and the pricing page explains holidays and missed classes.
@@ -235,7 +235,7 @@ No. All classes are live online, we have no office in Australia, and our listed 
 
 ### What are the fees for Werribee learners?
 
-The first lesson is free. Group classes are then USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one classes are USD 150 a month. We settle course, format and time before any payment.
+The first lesson is free. Group classes are then USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one classes are USD 150 a month. We settle course, format and time before any payment.
 
 ### How many learners are in each group?
 

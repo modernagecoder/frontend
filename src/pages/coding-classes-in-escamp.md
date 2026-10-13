@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Escamp, The Hague, fo
 canonical: https://learn.modernagecoders.com/coding-classes-in-escamp
 source: src/pages/coding-classes-in-escamp.html
 ---
-> Coding classes in Escamp reach the largest stadsdeel of The Hague, six wijken across the post-war south-west. Bouwlust has 13 primary establishments teaching 2,954 pupils. The Wateringse Veld has 5 teaching 2,534. Counting the buildings does not count the places in them, and a school standing inside a wijk is neither necessary nor sufficient for the children who live there, because it may teach anyone and they may go anywhere. Modern Age Coders teaches live online in English from Moerwijk to the Hoge Veld, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Escamp reach the largest stadsdeel of The Hague, six wijken across the post-war south-west. Bouwlust has 13 primary establishments teaching 2,954 pupils. The Wateringse Veld has 5 teaching 2,534. Counting the buildings does not count the places in them, and a school standing inside a wijk is neither necessary nor sufficient for the children who live there, because it may teach anyone and they may go anywhere. Modern Age Coders teaches live online in English from Moerwijk to the Hoge Veld, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [The Hague](/coding-classes-in-the-hague) / Escamp
 
@@ -12,11 +12,11 @@ Escamp, Den Haag / Live online
 
 # Coding classes in Escamp, where thirteen primary schools and five primary schools teach almost the same number of children
 
-**What are the best coding classes in Escamp?** Coding classes in Escamp reach the largest stadsdeel of The Hague, six wijken across the post-war south-west. Bouwlust has 13 primary establishments teaching 2,954 pupils. The Wateringse Veld has 5 teaching 2,534. Counting the buildings does not count the places in them, and a school standing inside a wijk is neither necessary nor sufficient for the children who live there, because it may teach anyone and they may go anywhere. Modern Age Coders teaches live online in English from Moerwijk to the Hoge Veld, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Escamp?** Coding classes in Escamp reach the largest stadsdeel of The Hague, six wijken across the post-war south-west. Bouwlust has 13 primary establishments teaching 2,954 pupils. The Wateringse Veld has 5 teaching 2,534. Counting the buildings does not count the places in them, and a school standing inside a wijk is neither necessary nor sufficient for the children who live there, because it may teach anyone and they may go anywhere. Modern Age Coders teaches live online in English from Moerwijk to the Hoge Veld, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Thirteen schools sounds like more than five schools. It is more buildings, certainly. It is not more pupils in any reliable way: the thirteen establishments in Bouwlust teach 2,954 children and the five in the Wateringse Veld teach 2,534, a difference of a few hundred across a ratio of nearly three to one. And neither figure is a statement about the children of either wijk, because a school inside a wijk is not required for a local child to be educated and does not guarantee that it educates one. The count answers a question about geography that almost nobody was asking.
 
-Facts last verified 10 September 2026. Teaching is online; no Escamp branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 September 2026. Teaching is online; no Escamp branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the south-west of The Hague
 
@@ -184,7 +184,7 @@ Escamp runs from Leyenburg down to the Wateringse Veld, and Bouwlust alone cover
 - **Four hundred and twenty-eight hectares, and no journey at all** Bouwlust is larger than several Dutch towns and the Wateringse Veld sits at the far southern edge of the city. A weekly class that requires crossing that is a class that gets dropped in November; one that starts at the kitchen table does not.
 - **The school words stay Dutch** Groep, havo, vwo and profielkeuze are used untranslated inside an English lesson. A child reading those on a report card should meet the same words in class, not an approximation that has to be converted back before it means anything.
 - **What the free hour is actually for** It is a lesson, with a task, taught by a teacher who is watching how the learner works rather than whether they say yes. It ends with a level, a course and a weekly time. Nothing is charged and no card is requested.
-- **Level decides the group; the address never does** Five to ten learners at the same stage, gathered from wherever they are. A single stadsdeel, however large, rarely holds enough people at one narrow level in one month, and waiting for it to is how a family ends up waiting a term.
+- **Level decides the group; the address never does** Fifteen to twenty learners at the same stage, gathered from wherever they are. A single stadsdeel, however large, rarely holds enough people at one narrow level in one month, and waiting for it to is how a family ends up waiting a term.
 - **Eight lessons a month, holidays already in the plan** Two live lessons a week at a fixed hour. Zuid-Holland follows the regio Midden holiday calendar, which is published years ahead, so the weeks off are agreed at the start rather than discovered later.
 - **A gap that changes without anyone in India moving a clock** Three and a half hours in Dutch summer time, four and a half outside it. The teacher sits in a country that has kept one time for decades; the whole of the shift comes from this side, and neither setting touches the hours a family here would use.
 
@@ -195,7 +195,7 @@ Escamp runs from Leyenburg down to the Wateringse Veld, and Bouwlust alone cover
 Set out here, not held back for a call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate in dollars and no euro edition, so an address in the Hoge Veld pays exactly what one in Moerwijk pays. Nothing is due until the free lesson has fixed a course and an hour, and payment is arranged over WhatsApp after that. Pausing, changing plan and missing a week are all covered on the pricing page.
@@ -236,7 +236,7 @@ No, and none is claimed here, elsewhere in The Hague or anywhere in the Netherla
 
 ### What do Escamp coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

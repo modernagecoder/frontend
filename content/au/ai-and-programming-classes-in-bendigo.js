@@ -192,7 +192,7 @@ module.exports = {
       { h3: 'From Eaglehawk to Kennington', p: 'Two learners on opposite sides of the city can sit in the same class without either of them driving anywhere.' },
       { h3: 'Fitted to Victorian schooling', p: 'We use Victorian year levels, work around the four terms and help senior students connect projects to their studies. Teaching is in English.' },
       { h3: 'First lesson, real content', p: 'Your trial is a proper lesson that finishes with a suggested level, course and time. No card is taken.' },
-      { h3: 'Groups of five to ten', p: 'Learners at the same level from Bendigo and beyond, so regional students always have classmates at their stage.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners at the same level from Bendigo and beyond, so regional students always have classmates at their stage.' },
       { h3: 'Steady weekly rhythm', p: 'About eight lessons a month at a set time, with breaks for holidays and exams agreed with your teacher.' },
       { h3: 'India-based teachers', p: 'A 7pm lesson in Bendigo is 1:30pm for our teachers during daylight saving and 2:30pm once Victoria\'s clocks go back in April.' }
     ],
@@ -203,7 +203,7 @@ module.exports = {
     h2: 'What classes cost in Bendigo',
     intro: 'Three prices and nothing hidden.',
     first: 'A full lesson without charge, ending with a recommended level, course and regular slot.',
-    group: 'A month of lessons, normally eight, in a class of five to ten learners at your level.',
+    group: 'A month of lessons, normally eight, in a class of fifteen to twenty learners at your level.',
     private: 'Roughly eight lessons a month at the same pace, with a teacher working only with you.',
     closer: 'We charge in US dollars in every country apart from India, so a learner in Epsom and one in Spring Gully receive identical invoices. You are billed only after the trial agrees a course and a time, and the pricing page explains holidays, missed lessons and changing between group and private.'
   },
@@ -228,8 +228,8 @@ module.exports = {
       { q: 'When are lessons for Bendigo learners?', a: 'After school, in the evening or at weekends, agreed during the trial and always stated in Bendigo time. Our teachers are five and a half hours behind in summer and four and a half in winter.' },
       { q: 'Can younger children learn AI?', a: 'Yes. From age six children start with Scratch and simple sorting and pattern games, and older children move on to Python. This page is written for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Bendigo?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Bendigo AI classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Bendigo AI classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

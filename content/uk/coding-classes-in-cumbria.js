@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Coding classes in Cumbria',
   capsuleQ: 'What are the best coding classes in Cumbria?',
-  capsule: 'Cumbria had 499,849 residents at the 2021 Census, counted then in six districts and now served by two councils, Cumberland and Westmorland and Furness. Carlisle is by far the largest town, then Barrow-in-Furness, Kendal, Whitehaven and Workington, and after them small towns scattered across fells, coast and valleys. Distance is the county\'s defining fact, and online teaching is how we answer it: a teacher in India, live on video, working with learners placed by ability rather than age, anyone from 6 up to 67, in small groups of five to ten or on their own. We teach programming, Python, AI, machine learning and maths. The Cumbria project is about the Lake poets and a machine that learns. The first lesson costs nothing; then a group place is USD 100 a month and private teaching USD 150.',
+  capsule: 'Cumbria had 499,849 residents at the 2021 Census, counted then in six districts and now served by two councils, Cumberland and Westmorland and Furness. Carlisle is by far the largest town, then Barrow-in-Furness, Kendal, Whitehaven and Workington, and after them small towns scattered across fells, coast and valleys. Distance is the county\'s defining fact, and online teaching is how we answer it: a teacher in India, live on video, working with learners placed by ability rather than age, anyone from 6 up to 67, in groups of fifteen to twenty or on their own. We teach programming, Python, AI, machine learning and maths. The Cumbria project is about the Lake poets and a machine that learns. The first lesson costs nothing; then a group place is USD 100 a month and private teaching USD 150.',
   lead: 'Wordsworth grew up and wrote in the Lakes, and Coleridge wrote part of Christabel "in the year 1800, at Keswick, Cumberland", as his own preface puts it. Their styles are different enough that a simple machine learning model can tell their poetry apart with startling accuracy. This page\'s project builds that model from scratch, a naive Bayes classifier, and trains it on free editions of each poet. It scores nearly 97 per cent. Then comes the twist every learner should see once: when you ask the model which words convinced it, many of them turn out not to be poetry at all, but the editors\' footnotes. The project is about building a classifier, and even more about asking what it has really learned.',
   wa: 'Hello Modern Age Coders, I would like a free lesson for a learner in Cumbria.',
 
@@ -173,7 +173,7 @@ module.exports = {
       { h3: 'Taught where you live', p: 'A farmhouse table near Wigton, a bedroom in Egremont, a desk in Ulverston. Teacher and learner share one screen.' },
       { h3: 'School words, in English', p: 'Year 9 options, GCSEs and A levels are named the way Cumbrian schools name them, and teaching is in English.' },
       { h3: 'The first lesson is free', p: 'A proper lesson with real work and a clear recommendation afterwards. There is nothing to pay and no card to give.' },
-      { h3: 'A class at your stage', p: 'Five to ten learners who have reached the same point, from towns and countries far apart, meeting at a sensible hour.' },
+      { h3: 'A class at your stage', p: 'Fifteen to twenty learners who have reached the same point, from towns and countries far apart, meeting at a sensible hour.' },
       { h3: 'Your school\'s holidays', p: 'Two lessons a week is typical, paused whenever your own school breaks up.' },
       { h3: 'Always in UK time', p: 'Teachers are in India, four and a half hours ahead of UK summer time and five and a half ahead in winter; you only ever see UK time.' }
     ],
@@ -184,7 +184,7 @@ module.exports = {
     h2: 'Fees in Cumbria',
     intro: 'One price for every Cumbrian town, and for every country outside India.',
     first: 'A full lesson of real work, finishing with a recommended level and course.',
-    group: 'About eight lessons a month in a group of five to ten at the same level.',
+    group: 'About eight lessons a month in a group of fifteen to twenty at the same level.',
     private: 'About eight lessons a month with a teacher and one learner.',
     closer: 'We charge in US dollars for all families outside India and have no pound price list. The first payment is taken only after the free lesson has settled a course and weekly slot; pauses, missed lessons and changes between group and private teaching are covered on the pricing page.'
   },

@@ -277,7 +277,7 @@ module.exports = {
       { h3: 'Run it together', p: 'Learner and teacher run each test case live on the shared screen.' },
       { h3: 'State school terms', p: 'Plans follow the South Australian school year, with holiday breaks.' },
       { h3: 'Free first lesson', p: 'A full trial class, then a written suggestion.' },
-      { h3: 'Five to ten per group', p: 'Level-matched groups, or one-to-one lessons.' },
+      { h3: 'Fifteen to twenty per group', p: 'Level-matched groups, or one-to-one lessons.' },
       { h3: 'Two lessons weekly', p: 'Set weekly slots, about eight lessons a month.' },
       { h3: 'India time', p: 'Teachers are in India: a 5pm Salisbury lesson is 12 noon India time in summer and 1pm from April.' }
     ],
@@ -290,7 +290,7 @@ module.exports = {
     h2: 'Salisbury class fees',
     intro: 'Three prices for every family.',
     first: 'Lesson one is free and comes with a written next step.',
-    group: 'About eight group lessons a month with five to ten learners.',
+    group: 'About eight group lessons a month with fifteen to twenty learners.',
     private: 'About eight private lessons a month with one teacher.',
     closer: 'Salisbury households are billed in US dollars, starting only once the trial has settled a course and a weekly slot. Breaks and missed classes are set out on our pricing page.'
   },
@@ -329,12 +329,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Salisbury learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       {

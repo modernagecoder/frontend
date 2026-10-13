@@ -16,7 +16,7 @@ Campbelltown, south west Sydney, New South Wales / Live online
 
 Ask an AI agent how many public schools there are in Campbelltown and give it the NSW Department of Education's master list. It can truthfully reply 1, 4, 10, 53 or 111. One school has the town typed exactly as Campbelltown; four have it in their name; ten are in the suburb once stray spaces and capitals are cleaned; 53 sit in the council area; and 111 rows mention Campbelltown somewhere, mostly because of a regional office address. Then there is the other Campbelltown, a council area of 54,800 people in Adelaide's east, with no rows in this file at all. Our Campbelltown learners find out how to make a question precise enough that an agent cannot answer the wrong one.
 
-Facts last verified 10 October 2026. Teaching is online; no Campbelltown branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Campbelltown branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Agent skills for Campbelltown learners
 
@@ -181,7 +181,7 @@ Online lessons reach Campbelltown without a trip into the city.
 Three options in total.
 
 - First class: USD 0. A free session finishing with a recommended level, course and time.
-- Group tuition: USD 100 a month. Roughly eight group sessions a month with five to ten learners at your stage.
+- Group tuition: USD 100 a month. Roughly eight group sessions a month with fifteen to twenty learners at your stage.
 - Private tuition: USD 150 a month. Roughly eight private sessions a month with one dedicated teacher.
 
 Campbelltown families pay the same US dollar fee charged across Australia. Nothing is due until the trial agrees a course and time, and the pricing page explains holidays, missed sessions and switching between formats.
@@ -222,7 +222,7 @@ No, and we do not claim one. Teaching is live and online only, with no premises 
 
 ### What do vibe coding and AI agents classes in Campbelltown cost?
 
-The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
+The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
 
 ### How large are the groups?
 

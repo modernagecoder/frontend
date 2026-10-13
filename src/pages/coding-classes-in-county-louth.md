@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across County Louth, fro
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-louth
 source: src/pages/coding-classes-in-county-louth.html
 ---
-> Louth is the smallest county in Ireland by area and among the most urban by population: 139,703 people, 57% of them in towns of ten thousand or more, split between two large towns that almost match each other in size. It also carries the joint highest unemployment rate in the country at 11%, and a third-level rate of 40% against a national 45%, which is the gap a good class can help a family close. Ours are live and online, so Dundalk, Drogheda, Ardee and Carlingford all sit the same distance from the teacher. We take learners aged 6 to 67, in groups of five to ten matched by ability or one to one, at a fixed weekly hour. The first lesson costs nothing; then it is USD 100 a month in a group or USD 150 privately.
+> Louth is the smallest county in Ireland by area and among the most urban by population: 139,703 people, 57% of them in towns of ten thousand or more, split between two large towns that almost match each other in size. It also carries the joint highest unemployment rate in the country at 11%, and a third-level rate of 40% against a national 45%, which is the gap a good class can help a family close. Ours are live and online, so Dundalk, Drogheda, Ardee and Carlingford all sit the same distance from the teacher. We take learners aged 6 to 67, in groups of fifteen to twenty matched by ability or one to one, at a fixed weekly hour. The first lesson costs nothing; then it is USD 100 a month in a group or USD 150 privately.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / County Louth
 
@@ -12,11 +12,11 @@ County Louth, Leinster / Live online
 
 # Coding classes in County Louth
 
-**What are the best coding classes in County Louth?** Louth is the smallest county in Ireland by area and among the most urban by population: 139,703 people, 57% of them in towns of ten thousand or more, split between two large towns that almost match each other in size. It also carries the joint highest unemployment rate in the country at 11%, and a third-level rate of 40% against a national 45%, which is the gap a good class can help a family close. Ours are live and online, so Dundalk, Drogheda, Ardee and Carlingford all sit the same distance from the teacher. We take learners aged 6 to 67, in groups of five to ten matched by ability or one to one, at a fixed weekly hour. The first lesson costs nothing; then it is USD 100 a month in a group or USD 150 privately.
+**What are the best coding classes in County Louth?** Louth is the smallest county in Ireland by area and among the most urban by population: 139,703 people, 57% of them in towns of ten thousand or more, split between two large towns that almost match each other in size. It also carries the joint highest unemployment rate in the country at 11%, and a third-level rate of 40% against a national 45%, which is the gap a good class can help a family close. Ours are live and online, so Dundalk, Drogheda, Ardee and Carlingford all sit the same distance from the teacher. We take learners aged 6 to 67, in groups of fifteen to twenty matched by ability or one to one, at a fixed weekly hour. The first lesson costs nothing; then it is USD 100 a month in a group or USD 150 privately.
 
 Search Ireland's open data portal for County Louth and you will find a road schedule: every road in the county, derived from Ordnance Survey centre lines and the councils' own records, published under a Creative Commons licence. It sounds ideal. Open the record properly and the dataset has exactly one resource attached, and that resource is a link to the council's homepage. There is no file. Nothing to download, nothing to analyse, and no error message either: just a registered dataset with nothing inside it. That is a real and common experience in open data, and learning to check it in thirty seconds, before planning a project around something that is not there, is a genuine skill. So this page uses a different Louth problem instead, one that does contain data and does contain a trap: a single-line filter that quietly deletes the county's biggest town from the answer.
 
-Facts last verified 16 September 2026. Teaching is online; no County Louth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no County Louth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the Wee County
 
@@ -190,7 +190,7 @@ The county is compact by Irish standards, and still splits into two towns that f
 - **One class, both ends** A learner in Carlingford and one in Termonfeckin sit in the same group, which no room in either town could manage on a Tuesday evening.
 - **Stages named the Irish way** First Year, the Junior Cycle, Transition Year and sixth year are used as they are used in school here, so parents never have to translate.
 - **A free lesson that teaches** Real work on a real task, with a recommendation on level, course and hour afterwards, and no card details asked for at any point.
-- **Grouped by what they can do** Five to ten learners at one level, drawn from Louth and other countries, so every level has a group at a workable hour.
+- **Grouped by what they can do** Fifteen to twenty learners at one level, drawn from Louth and other countries, so every level has a group at a workable hour.
 - **Around a commuting household** Two lessons a week, roughly eight a month, at a fixed time, with pauses for mid-terms, exams and holidays agreed in advance.
 - **Teachers on Indian time** Their clock does not shift, so they sit four and a half hours ahead of Ireland in summer and five and a half in winter; Louth evenings fall comfortably inside their working day.
 
@@ -201,7 +201,7 @@ The county is compact by Irish standards, and still splits into two towns that f
 Three figures, and no additions later.
 
 - First class: USD 0. One full lesson at no cost, ending with an honest placement and a recommended course.
-- Group tuition: USD 100 a month. A month of teaching, generally eight lessons, with five to ten learners of similar ability.
+- Group tuition: USD 100 a month. A month of teaching, generally eight lessons, with fifteen to twenty learners of similar ability.
 - Private tuition: USD 150 a month. The same month of about eight lessons, with a teacher working with one learner only.
 
 Fees are in US dollars on the single rate charged outside India, so Dundalk pays what Ardee pays and there is no euro list. Nothing is charged until the free lesson has settled a course and a weekly hour. Pauses, missed lessons and changes of format are set out on the pricing page.
@@ -242,7 +242,7 @@ No, and we never imply one. Teaching is live online only, with no premises in Ir
 
 ### What do County Louth coding classes cost?
 
-The first lesson is free. Continuing costs USD 100 a month for a group place, which covers two live lessons a week and about eight a month with five to ten learners, or USD 150 a month taught privately on the same schedule. Everything is agreed before payment.
+The first lesson is free. Continuing costs USD 100 a month for a group place, which covers two live lessons a week and about eight a month with fifteen to twenty learners, or USD 150 a month taught privately on the same schedule. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

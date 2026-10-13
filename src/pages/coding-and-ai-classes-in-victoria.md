@@ -16,7 +16,7 @@ Victoria, Australia / Live online
 
 Add up the eighteen age-group percentages the Bureau of Statistics publishes for Australia in 2021 and you do not get 100. You get 99.9. Victoria's own column for the same year happens to reach exactly 100.0, but its 2016 column comes to 100.1. Nobody has made a mistake: each share was rounded on its own, and rounding errors do not cancel neatly. Round those shares again to whole numbers and the choice of rule starts to matter, because the Australian figure for people in their early forties sits at exactly 6.5. Victorian learners write the code, test two rounding rules and find out why accountants, statisticians and Python itself disagree with what most of us were taught at school.
 
-Facts last verified 7 October 2026. Teaching is online; no Victoria branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Victoria branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four starting points for a Victorian learner
 
@@ -184,7 +184,7 @@ Victoria is compact by Australian standards, but a weekly drive to a class is st
 - **Two Term 1 dates handled** Government school students start Term 1 a day after the official first day. Lessons are planned around the date the learner actually returns.
 - **Victorian words, Victorian years** Teachers say Prep, Year 9 and VCE, the same terms a Victorian classroom uses. All lessons are taught in English.
 - **A real lesson first** The free class is a complete lesson with something to finish, followed by a suggested level, course and weekly time. No card is requested.
-- **Groups by level** Each group has five to ten learners working at much the same standard, drawn from across Victoria, other states and overseas, so most levels have a workable hour.
+- **Groups by level** Each group has fifteen to twenty learners working at much the same standard, drawn from across Victoria, other states and overseas, so most levels have a workable hour.
 - **Two sessions a week** Roughly eight lessons a month at a fixed time, with breaks for school holidays and exam weeks agreed in advance.
 - **India time on our side** Our teachers work on India time all year, so a Victorian after-school slot falls in the middle of their working day.
 
@@ -195,7 +195,7 @@ Victoria is compact by Australian standards, but a weekly drive to a class is st
 One price list for the whole state.
 
 - First class: USD 0. One complete lesson at no charge, finishing with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. A month of teaching, usually eight lessons, with five to ten learners at a similar level.
+- Group tuition: USD 100 a month. A month of teaching, usually eight lessons, with fifteen to twenty learners at a similar level.
 - Private tuition: USD 150 a month. The same monthly pattern of about eight lessons, with one teacher and one learner.
 
 Families outside India are billed in US dollars at a single rate, so a family in Geelong and one in Wodonga see the same invoice. Nothing is charged until the trial has settled a course and a weekly slot; holidays, missed lessons and switching between group and private teaching are explained on the pricing page.
@@ -236,7 +236,7 @@ No, and we do not claim one. Every lesson is live online, with no premises anywh
 
 ### What do coding classes cost in Victoria?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. The course, format and time are agreed before any payment.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. The course, format and time are agreed before any payment.
 
 ### How many learners are in a group?
 

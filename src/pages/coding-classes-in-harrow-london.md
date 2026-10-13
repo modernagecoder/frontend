@@ -16,7 +16,7 @@ London Borough of Harrow / Live online
 
 Type a postcode into a website form and three different questions hide behind the green tick. Does it look like a postcode? Does it exist? And is it where the person says they live? Most forms only ask the first. We took the six postcodes Harrow Council prints for its libraries and added ten awkward ones of our own: lower case, missing spaces, a letter I in place of a 1, codes that look invented, and codes from next door. A pattern check passed 14 of the 16. Only 12 of those turned out to exist. And only 10 were in Harrow at all, because HA0 4AA is in Brent and HA8 7AA is in Barnet, however much they look like Harrow. The gap between looking valid and being true is where a lot of real software goes wrong, and it is the thread of this page.
 
-Facts last verified 20 September 2026. Teaching is online; no Harrow branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Harrow branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for Harrow learners
 
@@ -175,7 +175,7 @@ Every part of the borough is the same distance from an online lesson.
 - **Learn where you are** At home, or at a library computer when home is busy. The lesson moves with the learner, not the other way round.
 - **School stages as you know them** Key Stages, Year 9 options, GCSEs and A levels are called by their English names, and every lesson is in English.
 - **Try it before paying** The opening lesson is a real piece of work with a teacher, and ends with an honest suggestion of level and course. No card is needed.
-- **Small, matched groups** Five to ten learners at the same stage, some from Harrow and some from further afield, so that a group exists at a sensible hour.
+- **Small, matched groups** Fifteen to twenty learners at the same stage, some from Harrow and some from further afield, so that a group exists at a sensible hour.
 - **Around the school calendar** Lessons usually run twice a week, and the family and teacher agree breaks for holidays, half terms and revision.
 - **Time zones handled** Teachers work on India time, five and a half hours ahead of the UK in winter and four and a half in summer, and every lesson is booked and shown in UK time.
 
@@ -186,7 +186,7 @@ Every part of the borough is the same distance from an online lesson.
 The same three prices for every family, wherever they live in the borough.
 
 - First class: USD 0. A full lesson on a real task, ending with a suggested level and course.
-- Group tuition: USD 100 a month. About eight lessons a month with five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight lessons a month with a teacher for one learner.
 
 Fees are set in US dollars, the rate for all families outside India, and there is no pound price list. Nothing is charged until the free lesson has settled a course and a regular slot; the pricing page explains pauses, missed lessons and switching between group and private teaching.
@@ -227,7 +227,7 @@ No. All teaching is live and online, and no Harrow premises or UK office is clai
 
 ### What do coding classes in Harrow cost?
 
-Nothing for the first lesson. After that, a group place costs USD 100 a month for two live lessons a week, around eight in a month, in a group of five to ten, and one-to-one teaching costs USD 150 a month on the same rhythm. Course, format and weekly hour are settled before any payment.
+Nothing for the first lesson. After that, a group place costs USD 100 a month for two live lessons a week, around eight in a month, in a group of fifteen to twenty, and one-to-one teaching costs USD 150 a month on the same rhythm. Course, format and weekly hour are settled before any payment.
 
 ### How many learners are in a group?
 

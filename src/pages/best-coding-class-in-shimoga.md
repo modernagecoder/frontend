@@ -12,7 +12,7 @@ Live online · serving Shimoga
 
 Real programming for kids, teens and college students in Shimoga, from **Vinoba Nagar to Gopi Circle, Durgigudi to Basavanagudi**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Shimoga)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**ShimogaEnrollingAreasVinoba Nagar, Gopi Circle, Durgigudi, Basavanagudi, Shankar Mutt Road & all of ShimogaBoardsKarnataka KSEEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across ShimogaFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Shimoga)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**ShimogaEnrollingAreasVinoba Nagar, Gopi Circle, Durgigudi, Basavanagudi, Shankar Mutt Road & all of ShimogaBoardsKarnataka KSEEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across ShimogaFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for Shivamogga's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Shimoga: FAQs
 
-Which is the best coding class in Shivamogga (Shimoga) for kids?Modern Age Coders runs Shivamogga's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python, in small batches of 5-8, taught by industry instructors. We cover Vinoba Nagar, Gopi Circle, Durgigudi, Vidyanagar, Kuvempu Nagar and the Tunga riverfront, plus nearby Bhadravati, Sagar, Shikaripura, Thirthahalli and Sorab.Are the classes online, and do you cover the towns around Shivamogga?Yes, every class is live and online, so a learner in central Shivamogga (Gopi Circle, Durgigudi, Gandhi Bazaar), in Vidyanagar near Kuvempu University, or out in Bhadravati, Sagar, Shikaripura, Thirthahalli, Sorab or Hosanagara joins the same expert teacher from home, with no travel through the Malnad hills. Sessions are fully interactive with live coding, screen-sharing and a saved recording.How much do coding classes cost in Shimoga?Group classes (5-8 students) start at Rs.1499/month for 2 live classes a week. The Mini Batch (3-4 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student begins with a free demo class, and there are no hidden charges.Why learn coding from Shivamogga instead of moving to Bengaluru?For generations the hills, forests and distance from Bengaluru have pushed Malnad talent to migrate for tech work. Online coding and AI flip that: a Shivamogga student learns from the same calibre of instructor a metro student gets, and remote and freelance hiring then lets them build and earn for employers in Bengaluru or anywhere in the world, from the Malnad they love, no migration required. It is Kuvempu's Vishwa Manava idea, universal, yet rooted, in practice.Does this fit CBSE, ICSE and Karnataka State Board (KSEAB) students in Shivamogga?Yes. We teach students from CBSE, ICSE and Karnataka State Board (KSEAB) schools across Shivamogga, whatever board your child follows. Coding supports school Computer Science, Informatics Practices and the NEP-2020 AI modules while strengthening the maths and reasoning that help in board exams and engineering-entrance preparation.What is the Vibe Coding & AI Agents course?Vibe coding means describing what you want, letting an AI build a first draft, then refining it, and AI coding agents like Codex and Claude Code are how engineers ship software in 2026. We teach this modern workflow with the fundamentals underneath, in versions for kids, teens, college students and professionals, so a Shivamogga learner directs the AI instead of being replaced by it.Do you prepare Shivamogga college and engineering students for jobs and remote roles?Yes. Our college track covers Python, 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio, plus practical use of AI coding agents. It is built for Kuvempu University and Sahyadri-region engineering aspirants and degree students aiming at product companies, funded startups and remote global teams.Do you provide certificates and is there a free demo or refund?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol. If your first paid week still does not feel right for your child, we refund it in full, on good terms.Do you teach coding to Karnataka board students in Shimoga?Yes. Shivamogga schools run the Karnataka state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Kuvempu University students join your programming courses?Yes. Kuvempu University has served the Malnad region from Shankaraghatta since 1987, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter.
+Which is the best coding class in Shivamogga (Shimoga) for kids?Modern Age Coders runs Shivamogga's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python, in batches of 15-20, taught by industry instructors. We cover Vinoba Nagar, Gopi Circle, Durgigudi, Vidyanagar, Kuvempu Nagar and the Tunga riverfront, plus nearby Bhadravati, Sagar, Shikaripura, Thirthahalli and Sorab.Are the classes online, and do you cover the towns around Shivamogga?Yes, every class is live and online, so a learner in central Shivamogga (Gopi Circle, Durgigudi, Gandhi Bazaar), in Vidyanagar near Kuvempu University, or out in Bhadravati, Sagar, Shikaripura, Thirthahalli, Sorab or Hosanagara joins the same expert teacher from home, with no travel through the Malnad hills. Sessions are fully interactive with live coding, screen-sharing and a saved recording.How much do coding classes cost in Shimoga?Group classes (15-20 students) start at Rs.1499/month for 2 live classes a week. The Mini Batch (up to 6 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student begins with a free demo class, and there are no hidden charges.Why learn coding from Shivamogga instead of moving to Bengaluru?For generations the hills, forests and distance from Bengaluru have pushed Malnad talent to migrate for tech work. Online coding and AI flip that: a Shivamogga student learns from the same calibre of instructor a metro student gets, and remote and freelance hiring then lets them build and earn for employers in Bengaluru or anywhere in the world, from the Malnad they love, no migration required. It is Kuvempu's Vishwa Manava idea, universal, yet rooted, in practice.Does this fit CBSE, ICSE and Karnataka State Board (KSEAB) students in Shivamogga?Yes. We teach students from CBSE, ICSE and Karnataka State Board (KSEAB) schools across Shivamogga, whatever board your child follows. Coding supports school Computer Science, Informatics Practices and the NEP-2020 AI modules while strengthening the maths and reasoning that help in board exams and engineering-entrance preparation.What is the Vibe Coding & AI Agents course?Vibe coding means describing what you want, letting an AI build a first draft, then refining it, and AI coding agents like Codex and Claude Code are how engineers ship software in 2026. We teach this modern workflow with the fundamentals underneath, in versions for kids, teens, college students and professionals, so a Shivamogga learner directs the AI instead of being replaced by it.Do you prepare Shivamogga college and engineering students for jobs and remote roles?Yes. Our college track covers Python, 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio, plus practical use of AI coding agents. It is built for Kuvempu University and Sahyadri-region engineering aspirants and degree students aiming at product companies, funded startups and remote global teams.Do you provide certificates and is there a free demo or refund?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol. If your first paid week still does not feel right for your child, we refund it in full, on good terms.Do you teach coding to Karnataka board students in Shimoga?Yes. Shivamogga schools run the Karnataka state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Kuvempu University students join your programming courses?Yes. Kuvempu University has served the Malnad region from Shankaraghatta since 1987, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be shown to a recruiter.
 
 ## Ready to start your child's coding journey in Shimoga?
 

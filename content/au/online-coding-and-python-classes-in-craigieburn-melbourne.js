@@ -300,7 +300,7 @@ module.exports = {
       { h3: 'Home desk', p: 'Join on a laptop; the teacher sees the screen and guides each step.' },
       { h3: 'In step with school', p: 'Lessons follow Victorian terms and pause in the state school holidays.' },
       { h3: 'Free first class', p: 'A whole lesson first, then a suggested course and lesson time.' },
-      { h3: 'Groups by ability', p: 'Five to ten learners at the same level, from many areas.' },
+      { h3: 'Groups by ability', p: 'Fifteen to twenty learners at the same level, from many areas.' },
       { h3: 'Two each week', p: 'Two set lessons a week, close to eight per month.' },
       { h3: 'Teachers in India', p: 'Our teachers work in India: 5pm in Craigieburn is 11:30am India time under daylight saving and 12:30pm afterwards.' }
     ],
@@ -313,7 +313,7 @@ module.exports = {
     h2: 'Craigieburn class fees',
     intro: 'Three simple options.',
     first: 'A free first lesson, finishing with honest advice on the next step.',
-    group: 'A month of group lessons, close to eight, five to ten learners at one level.',
+    group: 'A month of group lessons, close to eight, fifteen to twenty learners at one level.',
     private: 'A month of one-to-one lessons, close to eight, one teacher throughout.',
     closer: 'Craigieburn families pay in US dollars, the same as every family outside India. No payment is due until the trial fixes the course and time; see the pricing page for holidays and missed lessons.'
   },
@@ -355,7 +355,7 @@ module.exports = {
       },
       {
         q: 'How much are classes for Craigieburn learners?',
-        a: 'The first lesson is free. After it, group classes cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. We confirm course, format and time before any payment.',
+        a: 'The first lesson is free. After it, group classes cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. We confirm course, format and time before any payment.',
         boiler: true
       },
       {

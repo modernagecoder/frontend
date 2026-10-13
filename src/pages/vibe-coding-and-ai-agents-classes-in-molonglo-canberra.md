@@ -16,7 +16,7 @@ Molonglo Valley district, west Canberra, ACT / Live online
 
 Molonglo Valley is a young district of five suburbs west of the city, from Wright and Coombs to Denman Prospect and Whitlam. Its population is rising fast and its public records grow with every new street. That makes it a good place to teach an AI agent to ask data services clever questions instead of bulk-downloading.
 
-Facts last verified 13 October 2026. Teaching is online; no Molonglo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Molonglo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Agents, APIs and Python
 
@@ -175,7 +175,7 @@ All lessons are live online, so families join from home anywhere in the valley.
 - **Live teaching** A teacher leads and checks each learner's work in real time.
 - **ACT calendar** Lessons pause in ACT school holidays.
 - **Free trial** Start with one free lesson and a plan.
-- **Group or solo** Level groups of five to ten, or private lessons.
+- **Group or solo** Level groups of fifteen to twenty, or private lessons.
 - **Rhythm** Two lessons a week, about eight a month.
 - **India time** From April to October a 6pm Molonglo lesson is 1:30pm in India.
 
@@ -186,7 +186,7 @@ All lessons are live online, so families join from home anywhere in the valley.
 The same fees apply to every learner.
 
 - First class: USD 0. The opening lesson is free and ends with a plan.
-- Group tuition: USD 100 a month. Group classes: around eight a month, five to ten learners.
+- Group tuition: USD 100 a month. Group classes: around eight a month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. One-to-one: around eight a month with a single teacher.
 
 Fees are charged in US dollars once the trial has fixed a course and weekly time. The pricing page sets out holiday and missed-lesson rules.
@@ -223,11 +223,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Molonglo classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How are groups organised?
 
-By level and pace, five to ten learners each, not by age or suburb. One-to-one lessons are available when no group time fits.
+By level and pace, fifteen to twenty learners each, not by age or suburb. One-to-one lessons are available when no group time fits.
 
 ### Can adults build agents with you?
 

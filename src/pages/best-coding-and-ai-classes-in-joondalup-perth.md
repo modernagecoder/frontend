@@ -16,7 +16,7 @@ City of Joondalup, northern Perth, Western Australia / Live online
 
 The City of Joondalup runs along the coast from Marmion Avenue to Wanneroo Road. Main Roads Western Australia lists 81 traffic count sites inside it on 30 named roads, from Mitchell Freeway to quiet streets in Edgewater. Those sites make a small, honest table for learning how databases compare rows with each other.
 
-Facts last verified 12 October 2026. Teaching is online; no Joondalup branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Joondalup branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Databases, Python and AI
 
@@ -184,7 +184,7 @@ Every lesson is live on video with a teacher, so learners join from home anywher
 - **A real teacher** Each session is taught in real time, with questions answered and code reviewed as it is written.
 - **WA school year** Classes follow the Western Australian terms and pause for school holidays.
 - **Placement first** The first lesson is free and ends with a written course suggestion.
-- **Small groups** Five to ten learners at a similar level, or one-to-one lessons.
+- **Small groups** Fifteen to twenty learners at a similar level, or one-to-one lessons.
 - **Steady pace** Two lessons a week, roughly eight in a month.
 - **Time in India** A 5pm Joondalup lesson is 2:30pm in India on every day of the year.
 
@@ -195,7 +195,7 @@ Every lesson is live on video with a teacher, so learners join from home anywher
 The same fees apply to every learner in every suburb.
 
 - First class: USD 0. The first lesson costs nothing and comes with a course plan.
-- Group tuition: USD 100 a month. Group classes: about eight lessons a month with five to ten learners.
+- Group tuition: USD 100 a month. Group classes: about eight lessons a month with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private classes: about eight lessons a month with one teacher.
 
 Fees are charged in US dollars and begin only after the free lesson has settled the course and a weekly time. The pricing page explains holidays and missed lessons.
@@ -232,11 +232,11 @@ No. All classes are live online, we have no Australian office, and our listed ph
 
 ### What do Joondalup classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How are groups formed?
 
-By level and pace, with five to ten learners, not by age or suburb. One-to-one lessons suit anyone no group time fits.
+By level and pace, with fifteen to twenty learners, not by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Can adults join?
 

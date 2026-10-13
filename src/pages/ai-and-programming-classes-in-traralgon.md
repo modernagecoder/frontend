@@ -16,7 +16,7 @@ Traralgon, Victoria, Australia / Live online
 
 Ask an AI travel assistant whether a train station is near a new cycling path and it will answer confidently. Underneath, a good assistant has to call a small, unglamorous tool: the distance from a point to a line. Latrobe City Council publishes the route of the shared path it is building between Traralgon and Morwell, stage by stage, as open data. Transport Victoria publishes every bus and train stop. Our project joins the two and draws a buffer zone around the path, a band a set distance wide, to see which stops fall inside it. The answer surprised us, and so did how easily the wrong method could have hidden it.
 
-Facts last verified 8 October 2026. Teaching is online; no Traralgon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 8 October 2026. Teaching is online; no Traralgon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Starting points for AI in the Latrobe Valley
 
@@ -185,7 +185,7 @@ Lessons happen on video, so the distance between the two towns never matters.
 - **From home** Learners join from wherever they study, which means no drive along the Princes Freeway to a classroom.
 - **Victorian context** Teachers use Victorian year levels and plan revision around the four Victorian terms. Teaching is in English.
 - **An honest trial** The first lesson is real teaching and ends with a suggested course and weekly time, with no card requested.
-- **Matched groups** Five to ten learners at a similar level form a group, drawn from Traralgon and beyond so sessions stay full.
+- **Matched groups** Fifteen to twenty learners at a similar level form a group, drawn from Traralgon and beyond so sessions stay full.
 - **Regular slots** Two lessons each week, about eight a month, at a fixed time agreed after the trial.
 - **Teachers in India** During daylight saving Traralgon is five and a half hours ahead of India time; from April to October the gap is four and a half.
 
@@ -196,7 +196,7 @@ Lessons happen on video, so the distance between the two towns never matters.
 The full pricing fits in three lines.
 
 - First class: USD 0. One free lesson, after which you get a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. A month of group classes, normally eight, with five to ten learners at your level.
+- Group tuition: USD 100 a month. A month of group classes, normally eight, with fifteen to twenty learners at your level.
 - Private tuition: USD 150 a month. About eight private lessons a month on the same pattern, with your own teacher.
 
 Families outside India pay in US dollars, so Traralgon and Morwell pay the same as every other Australian town. No fee is charged until the trial has fixed a course and a slot; the pricing page covers holidays, missed lessons and switching between group and private.
@@ -237,7 +237,7 @@ No. We have no premises in Australia and claim none; all classes are live online
 
 ### How much are Traralgon AI classes?
 
-The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Everything is agreed before any payment.
+The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Everything is agreed before any payment.
 
 ### How many students are in each group?
 

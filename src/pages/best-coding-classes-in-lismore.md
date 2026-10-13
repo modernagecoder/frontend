@@ -16,7 +16,7 @@ Lismore, New South Wales, Australia / Live online
 
 Here is a puzzle from the Lismore council area. Of the 28 public schools open today, how many already had a first teacher in 1880? The state's school file answers it exactly: three. Now pretend you only know the count every twenty years, and ask a polynomial to fill in the gaps. It says 8.31. Give it a reading every ten years instead, which sounds like better information, and for 2017 it predicts minus 76 schools. Our Lismore project builds that polynomial in Python and shows why adding more points can make a smooth curve worse, not better.
 
-Facts last verified 9 October 2026. Teaching is online; no Lismore branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 October 2026. Teaching is online; no Lismore branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four starting points for a Lismore learner
 
@@ -211,7 +211,7 @@ The schools in our project spread across the city and its surrounding villages, 
 Three figures, with nothing left out.
 
 - First class: USD 0. A complete lesson free, ending with a suggested level, course and lesson time.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, shared with five to ten learners at the same level.
+- Group tuition: USD 100 a month. A month of lessons, usually eight, shared with fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. About eight lessons a month on the same pattern, one teacher and one learner.
 
 Outside India every invoice is in US dollars, so a family in Goonellabah and one in South Lismore pay the same amount and there is no separate Lismore price. Nothing is charged until the trial has settled a course and a time; the pricing page explains breaks, missed lessons and switching formats.
@@ -252,11 +252,11 @@ No, and none is claimed. All lessons are live and online and we have no premises
 
 ### What do Lismore coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
 
 ### How big are the groups?
 
-Five to ten learners, grouped by level, pace and goals rather than age or suburb. When no group fits the time a learner needs, one-to-one lessons are offered instead.
+Fifteen to twenty learners, grouped by level, pace and goals rather than age or suburb. When no group fits the time a learner needs, one-to-one lessons are offered instead.
 
 ## More for Lismore and New South Wales learners
 

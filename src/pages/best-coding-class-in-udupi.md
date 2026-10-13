@@ -12,7 +12,7 @@ Live online · serving Udupi
 
 Real programming for kids, teens and college students in Udupi, from **Udupi Town to Manipal (MAHE / MIT), Malpe to Kunjibettu**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Udupi)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**UdupiEnrollingAreasUdupi Town, Manipal (MAHE / MIT), Malpe, Kunjibettu, Ambalpady & all of UdupiBoardsKarnataka KSEEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across UdupiFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Udupi)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**UdupiEnrollingAreasUdupi Town, Manipal (MAHE / MIT), Malpe, Kunjibettu, Ambalpady & all of UdupiBoardsKarnataka KSEEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across UdupiFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for the sharpest young mathematicians on the coast who want to push well beyond the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Udupi: FAQs
 
-Which is the best coding class in Udupi and Manipal for kids?Modern Age Coders runs top-rated live online coding classes for kids aged 6-12 across Udupi and Manipal. Children begin with Scratch (games, animation, logic) and progress to Python, in small batches of 5-8, taught by industry instructors. We serve Udupi Town, Manipal, Malpe, Kunjibettu, Ambalpady, Kallianpur, Katpadi and nearby towns like Brahmavar, Kundapur, Karkala and Kaup.Do you offer online coding classes across Udupi, Manipal and nearby coastal towns?Yes. All classes are live and online, so a learner in Udupi Town, Manipal, Malpe, Kallianpur, Parkala, Bannanje or out in Brahmavar, Kundapur, Karkala or Kaup joins the same expert teacher from home, no travelling on NH-66 or the Manipal ghat. Sessions are interactive with live coding, screen sharing and recordings, and the format suits NRI and diaspora families on different timezones too.How much do coding classes cost in Udupi?Group classes (5-8 students) start at Rs.1499/month for 2 live classes per week. Mini Batch (3-4 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Will coding help my child aim for MIT Manipal, engineering and global college admissions?Yes. Udupi-Manipal is an academically ambitious coast with MIT Manipal and KMC at its centre. Coding builds the logical reasoning, decomposition and problem-solving that engineering entrance tests reward, and a real project portfolio (apps, games, websites, AI tools) strengthens applications to MAHE, NITs, IIITs and universities abroad. Our Python and Java tracks also align with CBSE, ICSE and Karnataka State Board (KSEAB) computer science.What age is best to start coding in Udupi or Manipal?Age 8 is ideal to begin with visual, block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college / working learners (18+), so the starting point always matches the learner.What programming languages and courses do you teach in Udupi and Manipal?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node), AI/ML and Vibe Coding with AI agents like Codex and Claude Code. College (18+): Data Structures & Algorithms, MERN full-stack, AI/Data Science and agentic AI workflows. We also teach school and Olympiad mathematics alongside coding.Do you prepare Manipal engineering and college students for placements and global roles?Yes. Our college track is outcome-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio, plus hands-on AI coding agents. With Manipal's strongly international student community, we coach learners to build for product companies, startups and remote global employers, not just local jobs.Do you teach the new AI coding skills like Vibe Coding and AI agents?Yes. And we put them first. Students learn vibe coding (describe it, the AI builds it, you refine it) and real AI coding agents like Codex and Claude Code, alongside the fundamentals underneath, so they direct the AI instead of being replaced by it. Tracks exist for kids, teens and college / professionals.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and if the first paid week is not the right fit we issue a full refund, no awkward questions.Do you teach coding to Karnataka board students in Udupi?Yes. Udupi schools run the Karnataka state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Manipal Institute of Technology students join your programming courses?Yes. The Manipal Institute of Technology at Manipal, in Udupi district, has taught engineering since 1957, so the theory is well covered. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview.
+Which is the best coding class in Udupi and Manipal for kids?Modern Age Coders runs top-rated live online coding classes for kids aged 6-12 across Udupi and Manipal. Children begin with Scratch (games, animation, logic) and progress to Python, in batches of 15-20, taught by industry instructors. We serve Udupi Town, Manipal, Malpe, Kunjibettu, Ambalpady, Kallianpur, Katpadi and nearby towns like Brahmavar, Kundapur, Karkala and Kaup.Do you offer online coding classes across Udupi, Manipal and nearby coastal towns?Yes. All classes are live and online, so a learner in Udupi Town, Manipal, Malpe, Kallianpur, Parkala, Bannanje or out in Brahmavar, Kundapur, Karkala or Kaup joins the same expert teacher from home, no travelling on NH-66 or the Manipal ghat. Sessions are interactive with live coding, screen sharing and recordings, and the format suits NRI and diaspora families on different timezones too.How much do coding classes cost in Udupi?Group classes (15-20 students) start at Rs.1499/month for 2 live classes per week. Mini Batch (up to 6 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Will coding help my child aim for MIT Manipal, engineering and global college admissions?Yes. Udupi-Manipal is an academically ambitious coast with MIT Manipal and KMC at its centre. Coding builds the logical reasoning, decomposition and problem-solving that engineering entrance tests reward, and a real project portfolio (apps, games, websites, AI tools) strengthens applications to MAHE, NITs, IIITs and universities abroad. Our Python and Java tracks also align with CBSE, ICSE and Karnataka State Board (KSEAB) computer science.What age is best to start coding in Udupi or Manipal?Age 8 is ideal to begin with visual, block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college / working learners (18+), so the starting point always matches the learner.What programming languages and courses do you teach in Udupi and Manipal?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node), AI/ML and Vibe Coding with AI agents like Codex and Claude Code. College (18+): Data Structures & Algorithms, MERN full-stack, AI/Data Science and agentic AI workflows. We also teach school and Olympiad mathematics alongside coding.Do you prepare Manipal engineering and college students for placements and global roles?Yes. Our college track is outcome-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio, plus hands-on AI coding agents. With Manipal's strongly international student community, we coach learners to build for product companies, startups and remote global employers, not just local jobs.Do you teach the new AI coding skills like Vibe Coding and AI agents?Yes. And we put them first. Students learn vibe coding (describe it, the AI builds it, you refine it) and real AI coding agents like Codex and Claude Code, alongside the fundamentals underneath, so they direct the AI instead of being replaced by it. Tracks exist for kids, teens and college / professionals.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and if the first paid week is not the right fit we issue a full refund, no awkward questions.Do you teach coding to Karnataka board students in Udupi?Yes. Udupi schools run the Karnataka state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Manipal Institute of Technology students join your programming courses?Yes. The Manipal Institute of Technology at Manipal, in Udupi district, has taught engineering since 1957, so the theory is well covered. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview.
 
 ## Ready to start your child's coding journey in Udupi?
 

@@ -12,7 +12,7 @@ Live online · serving Prayagraj
 
 Real programming for kids, teens and college students in Prayagraj, from **Civil Lines to Georgetown, Tagore Town to Allahpur**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Prayagraj)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**PrayagrajEnrollingAreasCivil Lines, Georgetown, Tagore Town, Allahpur, Katra / Chowk & all of PrayagrajBoardsUP Board · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across PrayagrajFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Prayagraj)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**PrayagrajEnrollingAreasCivil Lines, Georgetown, Tagore Town, Allahpur, Katra / Chowk & all of PrayagrajBoardsUP Board · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across PrayagrajFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for Prayagraj's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Prayagraj: FAQs
 
-Which is the best coding class in Prayagraj for kids?Modern Age Coders runs Prayagraj's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python. Batches are small (5-8 students), project-based, and taught by industry instructors. We serve every locality: Civil Lines, Georgetown, Tagore Town, Allahpur, Katra, Jhunsi, Naini, Mumfordganj and Rajapur, plus families across the Sangam city and the Allahabad University belt.Do you offer online coding classes across Prayagraj?Yes. All classes are live and online, so a student in Civil Lines, Georgetown, Tagore Town, Allahpur, Katra, Jhunsi (across the Ganga), Naini, Mumfordganj or Rajapur joins the same expert teacher from home, no autos through Chowk traffic, no travel across the Sangam bridges. Sessions are interactive with live coding, screen sharing and recordings.How much do coding classes cost in Prayagraj?Group classes (5-8 students) start at Rs.1499/month for 2 live classes per week. Mini-Batch (3-4 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Will coding help my child with JEE, UPSC reasoning and the CBSE/UP Board exams in Prayagraj?Yes. Prayagraj is one of India's most exam-serious cities: JEE aspirants, a famous UPSC/civil-services coaching culture and strong CBSE/UP Board schools. Coding sharpens the exact logical reasoning, decomposition and structured problem-solving that JEE, Olympiads and competitive-exam aptitude reward, and it directly supports CBSE/ICSE Computer Science, Informatics Practices and the new NEP-2020 AI modules. Our Python and Java tracks map to the syllabi taught at Boys' High School & College, St Joseph's, Bishop Johnson, MPVM and St Mary's Convent.What age is best to start coding in Prayagraj?Age 8 is ideal to begin with visual block-based coding (Scratch). For text-based languages like Python and Java, age 12-13 onwards works best. We design separate tracks for kids (6-12), teens (13-18) and college/working learners (18+).What programming languages and courses do you teach in Prayagraj?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also teach school and Olympiad mathematics alongside coding.Do you prepare college students in Prayagraj for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, MERN full-stack projects and AI/Data-Science portfolios. It is built for the strong technical talent pool from Allahabad University, MNNIT Allahabad, IIIT Allahabad and Sam Higginbottom (SHUATS) who are targeting product companies, GCCs and IT roles across India.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Do you teach coding to UP Board students in Prayagraj?Yes, and it is worth knowing that the UP Board, UPMSP, is headquartered in Prayagraj itself, so for once the state board is a local body. CBSE and ICSE schools run here as well, and our classes fit around any of them. We teach the programming itself rather than coaching the school syllabus back at your child.Can MNNIT or University of Allahabad students join your programming courses?Yes. MNNIT has run since 1961 and the University of Allahabad since 1887, so the theory is well taught locally. One note: those national institutes admit through JEE, while the state colleges fill on JEE Main via UPTAC counselling run from Lucknow. Either way, the college track adds real project work: Python, Java, full-stack or AI/ML, built until it runs.
+Which is the best coding class in Prayagraj for kids?Modern Age Coders runs Prayagraj's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python. Batches are small (15-20 students), project-based, and taught by industry instructors. We serve every locality: Civil Lines, Georgetown, Tagore Town, Allahpur, Katra, Jhunsi, Naini, Mumfordganj and Rajapur, plus families across the Sangam city and the Allahabad University belt.Do you offer online coding classes across Prayagraj?Yes. All classes are live and online, so a student in Civil Lines, Georgetown, Tagore Town, Allahpur, Katra, Jhunsi (across the Ganga), Naini, Mumfordganj or Rajapur joins the same expert teacher from home, no autos through Chowk traffic, no travel across the Sangam bridges. Sessions are interactive with live coding, screen sharing and recordings.How much do coding classes cost in Prayagraj?Group classes (15-20 students) start at Rs.1499/month for 2 live classes per week. Mini-Batch (up to 6 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Will coding help my child with JEE, UPSC reasoning and the CBSE/UP Board exams in Prayagraj?Yes. Prayagraj is one of India's most exam-serious cities: JEE aspirants, a famous UPSC/civil-services coaching culture and strong CBSE/UP Board schools. Coding sharpens the exact logical reasoning, decomposition and structured problem-solving that JEE, Olympiads and competitive-exam aptitude reward, and it directly supports CBSE/ICSE Computer Science, Informatics Practices and the new NEP-2020 AI modules. Our Python and Java tracks map to the syllabi taught at Boys' High School & College, St Joseph's, Bishop Johnson, MPVM and St Mary's Convent.What age is best to start coding in Prayagraj?Age 8 is ideal to begin with visual block-based coding (Scratch). For text-based languages like Python and Java, age 12-13 onwards works best. We design separate tracks for kids (6-12), teens (13-18) and college/working learners (18+).What programming languages and courses do you teach in Prayagraj?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also teach school and Olympiad mathematics alongside coding.Do you prepare college students in Prayagraj for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, MERN full-stack projects and AI/Data-Science portfolios. It is built for the strong technical talent pool from Allahabad University, MNNIT Allahabad, IIIT Allahabad and Sam Higginbottom (SHUATS) who are targeting product companies, GCCs and IT roles across India.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Do you teach coding to UP Board students in Prayagraj?Yes, and it is worth knowing that the UP Board, UPMSP, is headquartered in Prayagraj itself, so for once the state board is a local body. CBSE and ICSE schools run here as well, and our classes fit around any of them. We teach the programming itself rather than coaching the school syllabus back at your child.Can MNNIT or University of Allahabad students join your programming courses?Yes. MNNIT has run since 1961 and the University of Allahabad since 1887, so the theory is well taught locally. One note: those national institutes admit through JEE, while the state colleges fill on JEE Main via UPTAC counselling run from Lucknow. Either way, the college track adds real project work: Python, Java, full-stack or AI/ML, built until it runs.
 
 ## Ready to start your child's coding journey in Prayagraj?
 

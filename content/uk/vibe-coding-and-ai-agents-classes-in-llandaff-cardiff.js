@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Vibe coding and AI agents classes in Llandaff, Cardiff',
   capsuleQ: 'Where can Llandaff learners find the best vibe coding and AI agents classes?',
-  capsule: 'Llandaff ward in Cardiff counted 8,776 usual residents at the 2021 census, and the separate Llandaff North ward 8,425, on Nomis figures for 2022 ward boundaries. Both names are also recorded as suburban areas of the city. From age six to 67, learners here study vibe coding, AI agents, Python, coding and maths in live video lessons with tutors who teach from India, in a private slot or a class of five to ten at one stage. We teach reasoning about what a program can and cannot know before any tool, so learners can judge what an agent is working from. The opening lesson is free and ends with a suggested course. The Llandaff project asks what an agent standing in the street can see past the buildings, then where a team of agents should stand to see the most. Afterwards a class place costs USD 100 a month and private lessons USD 150 a month.',
+  capsule: 'Llandaff ward in Cardiff counted 8,776 usual residents at the 2021 census, and the separate Llandaff North ward 8,425, on Nomis figures for 2022 ward boundaries. Both names are also recorded as suburban areas of the city. From age six to 67, learners here study vibe coding, AI agents, Python, coding and maths in live video lessons with tutors who teach from India, in a private slot or a class of fifteen to twenty at one stage. We teach reasoning about what a program can and cannot know before any tool, so learners can judge what an agent is working from. The opening lesson is free and ends with a suggested course. The Llandaff project asks what an agent standing in the street can see past the buildings, then where a team of agents should stand to see the most. Afterwards a class place costs USD 100 a month and private lessons USD 150 a month.',
   lead: 'A robot, a drone or a camera only knows about the part of the world it can see, and buildings get in the way. The patch visible from one spot has a name borrowed from architecture: an isovist. Working it out is a matter of geometry, drawing straight lines from the observer and checking whether any wall crosses them. Once a program can do that for one position, a harder question opens up: given only a few agents, where should they stand so that together they see as much as possible? This project answers both for the streets of Llandaff, using the buildings mapped on OpenStreetMap as the walls.',
   wa: 'Hello Modern Age Coders, could we book a free vibe coding or AI agents lesson for a learner in Llandaff, Cardiff?',
 
@@ -155,7 +155,7 @@ module.exports = {
       { h3: 'Learner-built', p: 'The student writes and runs every line. The tutor follows on a shared screen and asks what the program can and cannot see.' },
       { h3: 'Trial first', p: 'A free session shows what the learner already knows, and any WJEC course goes on the plan.' },
       { h3: 'No charge to start', p: 'The first lesson is free and closes with a course we would suggest.' },
-      { h3: 'Classes at one level', p: 'Groups hold five to ten learners from around Britain, matched by stage.' },
+      { h3: 'Classes at one level', p: 'Groups hold fifteen to twenty learners from around Britain, matched by stage.' },
       { h3: 'Twice a week', p: 'School holidays are left clear.' },
       { h3: 'Unmoving hour', p: 'UK clock changes are handled on the tutor\'s side.' }
     ],

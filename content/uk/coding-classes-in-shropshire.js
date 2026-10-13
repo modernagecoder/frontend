@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in Shropshire',
   capsuleQ: 'What are the best coding classes in Shropshire?',
-  capsule: 'Shropshire as a county is two unitary councils, Shropshire and Telford and Wrekin, and together they had 509,147 residents at the 2021 Census, our sum of the two published counts. Telford is the largest town, then Shrewsbury, with Oswestry, Newport, Bridgnorth and Market Drayton well behind. We teach live over video from India, and a learner\'s class is decided by what they can already do, never simply by age. Learners from 6 to 67 join groups of five to ten or have one-to-one lessons, in coding, Python, AI and maths. The Shropshire project starts with Charles Darwin, who was born in Shrewsbury. The first lesson is free; continuing is USD 100 a month in a group or USD 150 a month one-to-one.',
+  capsule: 'Shropshire as a county is two unitary councils, Shropshire and Telford and Wrekin, and together they had 509,147 residents at the 2021 Census, our sum of the two published counts. Telford is the largest town, then Shrewsbury, with Oswestry, Newport, Bridgnorth and Market Drayton well behind. We teach live over video from India, and a learner\'s class is decided by what they can already do, never simply by age. Learners from 6 to 67 join groups of fifteen to twenty or have one-to-one lessons, in coding, Python, AI and maths. The Shropshire project starts with Charles Darwin, who was born in Shrewsbury. The first lesson is free; continuing is USD 100 a month in a group or USD 150 a month one-to-one.',
   lead: 'Charles Darwin opened his autobiography with the words "I was born at Shrewsbury on February 12th, 1809", and a bronze statue of him, made in 1897, sits in front of the town\'s library. His idea of natural selection, slight useful variations preserved over generations, became one of the most borrowed ideas in computing: the genetic algorithm, which breeds better answers to a problem instead of calculating them. This page\'s project builds one in Python, tests it against pure guessing and against an exact method, and then does what any good scientist would do: switches off each ingredient in turn to find out which ones actually matter.',
   wa: 'Hello Modern Age Coders, we are in Shropshire and would like to book a free lesson, please.',
 
@@ -165,7 +165,7 @@ module.exports = {
       { h3: 'From your own home', p: 'A farmhouse near Clun, a terrace in Oswestry, a new estate in Telford. Learner and teacher share one screen, and the learner types.' },
       { h3: 'The school system you know', p: 'Key stages, year groups, GCSEs and A levels mean what they mean in Shropshire schools, and lessons are in English.' },
       { h3: 'A free lesson to begin', p: 'A genuine lesson, then an honest recommendation. We ask for no card details.' },
-      { h3: 'Classmates at your stage', p: 'Five to ten learners at one level, from Shropshire and many other places.' },
+      { h3: 'Classmates at your stage', p: 'Fifteen to twenty learners at one level, from Shropshire and many other places.' },
       { h3: 'Holidays when you need them', p: 'Most learners do two lessons a week and pause for their school\'s own holidays.' },
       { h3: 'Booked in UK time', p: 'Your slot is set in UK time and stays put through the clock changes; the teacher, on India time some hours ahead, moves instead.' }
     ],
@@ -176,7 +176,7 @@ module.exports = {
     h2: 'Fees in Shropshire',
     intro: 'Market Drayton or Albrighton, the fee is the same, as it is in every country we teach other than India.',
     first: 'One whole lesson of genuine work, then advice on level and course.',
-    group: 'Around eight lessons a month with five to ten learners at one level.',
+    group: 'Around eight lessons a month with fifteen to twenty learners at one level.',
     private: 'Around eight lessons a month with the teacher to themselves.',
     closer: 'Our prices are in US dollars rather than pounds. Billing begins only once the free lesson has produced an agreed course and a regular weekly time. Pauses, missed lessons and a switch between group and private work are all set out on the pricing page.'
   },

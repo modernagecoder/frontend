@@ -16,7 +16,7 @@ Launceston, Tasmania, Australia / Live online
 
 Two shapes can be close in one direction and far apart in the other. The City of Launceston publishes its council boundary as open data, and alongside it a second, much smaller boundary the council labels "Launceston LGA Pre1985". How far apart are they? The answer depends on which way you ask. Start anywhere inside the older area and you are never more than 17.2 metres from the current one, because the older area sits almost entirely within it. Start anywhere inside the current area and you can be 38.99 kilometres from the older one. That lopsided pair of numbers is the Hausdorff distance, and our Launceston learners compute it from scratch.
 
-Facts last verified 7 October 2026. Teaching is online; no Launceston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Launceston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that suit a Launceston learner
 
@@ -177,7 +177,7 @@ Launceston climbs the hills on both sides of the Tamar, and a video lesson reach
 - **East and West Tamar** A learner in Trevallyn and one in Mowbray can share a class, each joining from their own home.
 - **Tasmanian schooling** Lessons follow Tasmanian year levels and the four-term year, and college students can relate projects to TASC courses. Teaching is in English.
 - **An actual lesson first** The free trial is regular teaching, and it closes with a level, a course suggestion and a weekly time. Card details are never requested.
-- **Classmates at your stage** Groups of five to ten learners at the same level, from northern Tasmania and further away, so nobody waits for a class to fill.
+- **Classmates at your stage** Groups of fifteen to twenty learners at the same level, from northern Tasmania and further away, so nobody waits for a class to fill.
 - **Lessons twice weekly** Approximately eight a month at a regular time, with holidays and assessment periods planned with the teacher.
 - **Where our teachers are** A 5pm Launceston lesson begins at 11:30am in India while Tasmania is on daylight saving, and at 12:30pm after the clocks go back.
 
@@ -188,7 +188,7 @@ Launceston climbs the hills on both sides of the Tamar, and a video lesson reach
 Every price, stated once.
 
 - First class: USD 0. A free full lesson that ends with your level, a course recommendation and a regular slot.
-- Group tuition: USD 100 a month. Around eight lessons a month, shared with five to ten learners working at your level.
+- Group tuition: USD 100 a month. Around eight lessons a month, shared with fifteen to twenty learners working at your level.
 - Private tuition: USD 150 a month. Close to eight lessons a month, with a teacher devoted to one learner.
 
 Except in India, we set fees in US dollars, so a household in Prospect pays the same as one in Ravenswood and there is no Tasmanian rate. We bill only after the trial confirms a course and a time, and the pricing page explains breaks, absences and changing between group and one-to-one lessons.
@@ -229,11 +229,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Launceston coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Launceston and Tasmanian learners
 

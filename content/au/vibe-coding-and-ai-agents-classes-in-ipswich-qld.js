@@ -179,7 +179,7 @@ module.exports = {
       { h3: 'On Queensland time', p: 'Lessons are booked in Ipswich time, which never shifts for daylight saving.' },
       { h3: 'Queensland year levels', p: 'Teachers know the Queensland curriculum years, senior QCE students included, and teach in English.' },
       { h3: 'Build something first', p: 'The free session is hands-on work with a teacher and an AI tool. You then get a suggested course and time, and we never take payment details.' },
-      { h3: 'Groups at one level', p: 'Five to ten learners at the same stage, drawn from many places so every level has a workable slot.' },
+      { h3: 'Groups at one level', p: 'Fifteen to twenty learners at the same stage, drawn from many places so every level has a workable slot.' },
       { h3: 'Twice every week', p: 'About eight sessions a month, with breaks for holidays and exams planned early.' },
       { h3: 'Agents with age limits respected', p: 'Younger learners only use AI tools whose terms allow their age, and teachers choose the tools accordingly.' }
     ],
@@ -190,7 +190,7 @@ module.exports = {
     h2: 'Fees for vibe coding and AI agents classes in Ipswich',
     intro: 'Three choices, in full.',
     first: 'A free session that ends with our recommended level, course and time.',
-    group: 'About eight group sessions a month, with five to ten learners sharing your level.',
+    group: 'About eight group sessions a month, with fifteen to twenty learners sharing your level.',
     private: 'About eight private sessions a month with one teacher.',
     closer: 'Ipswich families pay the same US dollar fee as families in any other part of Australia. Nothing is charged until the trial confirms a course and slot, and the pricing page covers breaks, missed sessions and moving between formats.'
   },
@@ -215,7 +215,7 @@ module.exports = {
       { q: 'What times suit Ipswich learners?', a: 'After school, in the evening or at weekends, agreed during the trial and written in Queensland time. India time is four and a half hours behind Ipswich.' },
       { q: 'Do you teach primary school children?', a: 'Yes, from age 6 with visual coding tools, though the agent project here is meant for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders office in Ipswich?', a: 'No, and we do not claim one. Teaching is live and online only, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a steady connection, and the contact number on this page is an Indian number.', boiler: true },
-      { q: 'What do vibe coding and AI agents classes in Ipswich cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
+      { q: 'What do vibe coding and AI agents classes in Ipswich cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
       { q: 'How large are the groups?', a: 'Between five and ten learners, matched on level, pace and goals rather than on age or postcode. When no group fits a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },

@@ -4,7 +4,7 @@ description: "Live online coding, Python, vibe coding and AI classes for Eastbou
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-eastbourne
 source: src/pages/online-coding-and-python-classes-in-eastbourne.html
 ---
-> Eastbourne borough recorded 101,685 people in the 2021 census, and the ONS gives 99,180 for the Eastbourne built-up area. The town leans older than England: every band from 70 upward is well above England, and people in their twenties are fewer. From Hampden Park and Langney to Meads, learners aged 6 to 67 can study coding, Python, vibe coding, AI and maths live online with our tutors in India, privately or in a small class of five to ten at the same level. We teach thinking first, so learners who build with AI still understand what they built. A free trial lesson picks the right course, and after it a group place costs USD 100 a month and one-to-one lessons USD 150 a month.
+> Eastbourne borough recorded 101,685 people in the 2021 census, and the ONS gives 99,180 for the Eastbourne built-up area. The town leans older than England: every band from 70 upward is well above England, and people in their twenties are fewer. From Hampden Park and Langney to Meads, learners aged 6 to 67 can study coding, Python, vibe coding, AI and maths live online with our tutors in India, privately or in a class of fifteen to twenty at the same level. We teach thinking first, so learners who build with AI still understand what they built. A free trial lesson picks the right course, and after it a group place costs USD 100 a month and one-to-one lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Eastbourne
 
@@ -12,11 +12,11 @@ Eastbourne, East Sussex, England / Live online
 
 # Online coding and Python classes in Eastbourne
 
-**Which are the best online coding and Python classes in Eastbourne?** Eastbourne borough recorded 101,685 people in the 2021 census, and the ONS gives 99,180 for the Eastbourne built-up area. The town leans older than England: every band from 70 upward is well above England, and people in their twenties are fewer. From Hampden Park and Langney to Meads, learners aged 6 to 67 can study coding, Python, vibe coding, AI and maths live online with our tutors in India, privately or in a small class of five to ten at the same level. We teach thinking first, so learners who build with AI still understand what they built. A free trial lesson picks the right course, and after it a group place costs USD 100 a month and one-to-one lessons USD 150 a month.
+**Which are the best online coding and Python classes in Eastbourne?** Eastbourne borough recorded 101,685 people in the 2021 census, and the ONS gives 99,180 for the Eastbourne built-up area. The town leans older than England: every band from 70 upward is well above England, and people in their twenties are fewer. From Hampden Park and Langney to Meads, learners aged 6 to 67 can study coding, Python, vibe coding, AI and maths live online with our tutors in India, privately or in a class of fifteen to twenty at the same level. We teach thinking first, so learners who build with AI still understand what they built. A free trial lesson picks the right course, and after it a group place costs USD 100 a month and one-to-one lessons USD 150 a month.
 
 Every artificial intelligence you have heard of is built from very simple parts. The simplest of all is the perceptron, a single artificial neuron that looks at a few numbers, multiplies each by a weight, adds them up and says yes or no. When it gets an answer wrong, it nudges its weights and tries again. The Met Office has published monthly weather for Eastbourne since 1959, from a station just 7 metres above sea level: temperatures, rainfall, sunshine and the number of days with air frost. A Python learner can teach one neuron to recognise frosty months from that record. It works quite well. What it cannot do, and why, is the real lesson about how machines learn.
 
-Facts last verified 28 September 2026. Teaching is online; no Eastbourne branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 28 September 2026. Teaching is online; no Eastbourne branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Thinking, vibe coding and Python courses
 
@@ -136,7 +136,7 @@ All an Eastbourne home needs is a computer and a stable internet connection.
 - **Learners write the code** Students type and prompt everything themselves, and the tutor watches by screen share, asking rather than telling.
 - **The trial sets the level** Whether in Year 3 or Year 13, a learner starts where the free lesson places them, with the exam board in mind.
 - **First lesson free** One complete lesson at no charge, with a course recommendation at the end.
-- **Matched classmates** Groups of five to ten UK learners working at one stage.
+- **Matched classmates** Groups of fifteen to twenty UK learners working at one stage.
 - **Two a week** No lessons during school holidays.
 - **Steady UK hour** Tutors adjust when the clocks change, so your slot stays the same.
 

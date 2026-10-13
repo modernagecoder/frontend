@@ -51,7 +51,7 @@ module.exports = {
 
   h1: 'Coding classes in Dublin',
   capsuleQ: 'What are the best coding classes in Dublin?',
-  capsule: 'The best coding class for a Dublin family is one that fits the city as it is: 1,263,219 people in the city and suburbs at the 2022 census, a place where 41 percent of workers worked from home at least one day a week, and where Indian citizens, 10,308 of them in Dublin City, are the second-largest group of non-Irish residents after Brazilians. Dublin is also the only place in Ireland where an Eircode still says which district you live in: the old postal districts, numbered 1 to 24 plus 6W, live on in the routing key, so Dublin 15 becomes D15. Modern Age Coders teaches live online from India, so a learner in Swords, Tallaght or Dublin 8 joins the same class from home, for ages 6 to 67, in groups of five to ten or one to one. A first lesson costs nothing; after that a group place is USD 100 a month and one-to-one teaching USD 150.',
+  capsule: 'The best coding class for a Dublin family is one that fits the city as it is: 1,263,219 people in the city and suburbs at the 2022 census, a place where 41 percent of workers worked from home at least one day a week, and where Indian citizens, 10,308 of them in Dublin City, are the second-largest group of non-Irish residents after Brazilians. Dublin is also the only place in Ireland where an Eircode still says which district you live in: the old postal districts, numbered 1 to 24 plus 6W, live on in the routing key, so Dublin 15 becomes D15. Modern Age Coders teaches live online from India, so a learner in Swords, Tallaght or Dublin 8 joins the same class from home, for ages 6 to 67, in groups of fifteen to twenty or one to one. A first lesson costs nothing; after that a group place is USD 100 a month and one-to-one teaching USD 150.',
   lead: 'Dublin publishes the state of its bike-share every few minutes, and anyone can download years of it. The files look simple: a station, a time, how many bikes, how many free stands. Open one and a pattern appears. In the first three months of 2019 the file holds 2,912,994 rows for 114 stations, a reading every five minutes. But 1,094,127 of those rows, about 38 percent, repeat the station\'s previous last-updated time. The file was written every five minutes; the stations did not report every five minutes. A chart of bikes available drawn from every row shows a city that looks calmer and more certain than it was, because more than a third of its points are copies of an older reading. That gap between when data is collected and when it was last true sits under dashboards, sensors, apps and AI tools everywhere, and it is the thread of this page.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Dublin.',
 
@@ -198,7 +198,7 @@ module.exports = {
       { h3: 'At the kitchen table', p: 'A learner in Saggart and a learner in Clontarf join the same group from home, and neither crosses the city to get there.' },
       { h3: 'Irish school words kept', p: 'First Year, Junior Cycle, Transition Year, Fifth and Sixth Year and the Leaving Cert keep their Irish names, while all teaching is in English.' },
       { h3: 'A free first lesson', p: 'A proper lesson on a real task. The teacher then suggests a level, a course and a regular hour, and asks for no card details.' },
-      { h3: 'Groups across borders', p: 'Five to ten learners at one level, drawn from Dublin and other countries, so every stage has a group at a sensible hour.' },
+      { h3: 'Groups across borders', p: 'Fifteen to twenty learners at one level, drawn from Dublin and other countries, so every stage has a group at a sensible hour.' },
       { h3: 'Around mid-term breaks', p: 'Two lessons a week, about eight a month, at a fixed time, with pauses for school holidays and exam weeks agreed with the family.' },
       { h3: 'Teaching from India', p: 'Irish time runs five and a half hours behind India time in winter and four and a half in summer, so late afternoons, evenings and weekend mornings in Dublin all work.' }
     ],
@@ -209,7 +209,7 @@ module.exports = {
     h2: 'What classes cost in Dublin',
     intro: 'Three prices, and nothing hidden behind them.',
     first: 'One lesson on a real problem, ending in a placement and a course suggestion.',
-    group: 'A month of lessons, usually eight, with five to ten learners at the same level.',
+    group: 'A month of lessons, usually eight, with fifteen to twenty learners at the same level.',
     private: 'A month of lessons, usually eight, with one teacher for one learner.',
     closer: 'Dublin families pay in US dollars at the rate used for every country outside India, with no separate euro price list and no difference between Balbriggan and Ballsbridge. Payment starts only once the free lesson has settled a course and a weekly hour. The pricing page explains pauses, format changes and missed lessons.'
   },
@@ -234,7 +234,7 @@ module.exports = {
       { q: 'Do classes fit around the Junior Cycle and the Leaving Cert?', a: 'Yes. Families agree pauses for exam weeks and school holidays, and the course is chosen around the school year, including Transition Year, when many learners want a longer project.' },
       { q: 'Is Dún Laoghaire-Rathdown covered here?', a: 'Yes, on a page of its own for the council area south of the city, from Blackrock and Dundrum to Dalkey and Shankill, linked at the end of this page.' },
       { q: 'Is there a Modern Age Coders classroom in Dublin?', a: 'No. All teaching is live and online, and no Dublin premises or Irish office is claimed anywhere. A learner needs a laptop or desktop, working audio and a steady connection, and the phone number on this page is Indian and described as such.', boiler: true },
-      { q: 'What do Dublin coding classes cost?', a: 'Nothing for the first lesson. After that, a group place costs USD 100 a month for two live lessons a week, around eight in a month, in a group of five to ten, and one-to-one teaching costs USD 150 a month on the same rhythm. Course, format and weekly hour are settled before any payment.', boiler: true },
+      { q: 'What do Dublin coding classes cost?', a: 'Nothing for the first lesson. After that, a group place costs USD 100 a month for two live lessons a week, around eight in a month, in a group of fifteen to twenty, and one-to-one teaching costs USD 150 a month on the same rhythm. Course, format and weekly hour are settled before any payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Between five and ten, matched by level, pace and goal rather than by age or postcode. If no group at the right level is running at a workable hour, one-to-one lessons are the alternative.', boiler: true }
     ]
   },

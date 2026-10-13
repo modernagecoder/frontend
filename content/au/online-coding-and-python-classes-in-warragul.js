@@ -188,7 +188,7 @@ module.exports = {
       { h3: 'Either town, same class', p: 'A learner in Drouin and one in Warragul can join one lesson from their own homes.' },
       { h3: 'Victorian levels', p: 'Lessons follow Victorian year levels, including VCE study for senior students, in English.' },
       { h3: 'Free first session', p: 'Write some real Python with a teacher, then receive a suggested stage, course and time; no card required.' },
-      { h3: 'Five to ten learners', p: 'Groups share a level and draw from Victoria, the rest of Australia and abroad.' },
+      { h3: 'Fifteen to twenty learners', p: 'Groups share a level and draw from Victoria, the rest of Australia and abroad.' },
       { h3: 'Twice weekly', p: 'Normally two lessons a week, about eight a month, with Victorian holidays planned in.' },
       { h3: 'Clock changes handled', p: 'When daylight saving starts or ends, the lesson stays at the same Warragul time.' }
     ],
@@ -199,7 +199,7 @@ module.exports = {
     h2: 'What Python classes cost in Warragul',
     intro: 'Here is the full list.',
     first: 'A no-cost first lesson that finishes with a stage, a course and a time.',
-    group: 'A month of group lessons, typically eight, with five to ten learners at your level.',
+    group: 'A month of group lessons, typically eight, with fifteen to twenty learners at your level.',
     private: 'Typically eight one-to-one lessons a month with one teacher.',
     closer: 'Warragul and Drouin learners pay the national rate in US dollars, with no Gippsland extra. Nothing is billed until the trial has settled a course and a slot; the pricing page has the details on holidays, missed lessons and swapping formats.'
   },
@@ -224,8 +224,8 @@ module.exports = {
       { q: 'What times can Warragul learners book?', a: 'After school or at weekends, fixed in the trial and confirmed in Victorian time. Daylight saving changes the gap to India, not the lesson time.' },
       { q: 'What about younger children?', a: 'We teach from age 6, often beginning with Scratch. This page is about teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Warragul?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Warragul coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Warragul coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

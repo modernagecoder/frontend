@@ -4,7 +4,7 @@ description: "Coding, AI, Python and vibe coding taught live online for Smethwic
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-smethwick
 source: src/pages/best-coding-and-ai-classes-in-smethwick.html
 ---
-> Smethwick is a town of 56,340 people by the ONS built-up area count from the 2021 census, and postcodes.io records Bearwood, Cape Hill, Black Patch, West Smethwick, Londonderry, Warley Woods and Rood End as suburbs around it. From there, children of six, teenagers, parents and retired people up to 67 join our tutors in India by video for coding, AI, Python, vibe coding and maths. Some work one-to-one; most sit in a class of five to ten at one level. Understanding comes first with us: a learner should be able to say why a method works and when it will not. We give the first lesson away and finish it by naming a course. Smethwick's project describes 978 small census areas with up to 21 columns each and watches "find the most similar area" slowly stop meaning anything. Monthly fees afterwards are USD 100 for a group seat and USD 150 for private tuition.
+> Smethwick is a town of 56,340 people by the ONS built-up area count from the 2021 census, and postcodes.io records Bearwood, Cape Hill, Black Patch, West Smethwick, Londonderry, Warley Woods and Rood End as suburbs around it. From there, children of six, teenagers, parents and retired people up to 67 join our tutors in India by video for coding, AI, Python, vibe coding and maths. Some work one-to-one; most sit in a class of fifteen to twenty at one level. Understanding comes first with us: a learner should be able to say why a method works and when it will not. We give the first lesson away and finish it by naming a course. Smethwick's project describes 978 small census areas with up to 21 columns each and watches "find the most similar area" slowly stop meaning anything. Monthly fees afterwards are USD 100 for a group seat and USD 150 for private tuition.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Smethwick
 
@@ -12,11 +12,11 @@ Smethwick, Sandwell, West Midlands / Live online
 
 # Coding and AI classes in Smethwick
 
-**Where can Smethwick learners find the best coding and AI classes?** Smethwick is a town of 56,340 people by the ONS built-up area count from the 2021 census, and postcodes.io records Bearwood, Cape Hill, Black Patch, West Smethwick, Londonderry, Warley Woods and Rood End as suburbs around it. From there, children of six, teenagers, parents and retired people up to 67 join our tutors in India by video for coding, AI, Python, vibe coding and maths. Some work one-to-one; most sit in a class of five to ten at one level. Understanding comes first with us: a learner should be able to say why a method works and when it will not. We give the first lesson away and finish it by naming a course. Smethwick's project describes 978 small census areas with up to 21 columns each and watches "find the most similar area" slowly stop meaning anything. Monthly fees afterwards are USD 100 for a group seat and USD 150 for private tuition.
+**Where can Smethwick learners find the best coding and AI classes?** Smethwick is a town of 56,340 people by the ONS built-up area count from the 2021 census, and postcodes.io records Bearwood, Cape Hill, Black Patch, West Smethwick, Londonderry, Warley Woods and Rood End as suburbs around it. From there, children of six, teenagers, parents and retired people up to 67 join our tutors in India by video for coding, AI, Python, vibe coding and maths. Some work one-to-one; most sit in a class of fifteen to twenty at one level. Understanding comes first with us: a learner should be able to say why a method works and when it will not. We give the first lesson away and finish it by naming a course. Smethwick's project describes 978 small census areas with up to 21 columns each and watches "find the most similar area" slowly stop meaning anything. Monthly fees afterwards are USD 100 for a group seat and USD 150 for private tuition.
 
 Recommendation engines, search tools and the memory behind many AI chat assistants all rest on one idea: turn each item into a list of numbers, then call two items similar when their lists are close. It feels safe to add more numbers, because more description ought to mean better matches. Often the opposite happens. As columns pile up, every item drifts to roughly the same distance from every other, and the nearest match is barely nearer than the farthest. Mathematicians call this distance concentration, one face of the curse of dimensionality. This project measures it on census columns for Sandwell, the borough Smethwick sits in, and on made-up random columns for contrast.
 
-Facts last verified 30 September 2026. Teaching is online; no Smethwick branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Smethwick branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four Smethwick starting courses
 
@@ -133,7 +133,7 @@ Bring a computer with a working camera and microphone. We bring the tutor, the p
 - **Learner at the controls** The student shares their screen and does the building. The tutor questions, hints and waits.
 - **Placed by a real lesson** We decide the course after watching the learner work for one free session, not from a form.
 - **No charge to try** That first session is complete and unpaid, and you leave with a named course.
-- **Same-level classmates** Group classes hold five to ten learners from around the UK who are at one stage.
+- **Same-level classmates** Group classes hold fifteen to twenty learners from around the UK who are at one stage.
 - **Term-time rhythm** Two sessions in most weeks, paused for the Sandwell school holidays you tell us about.
 - **UK time, always** Tutors shift their own clocks when British Summer Time starts and ends.
 
@@ -144,7 +144,7 @@ Bring a computer with a working camera and microphone. We bring the tutor, the p
 We publish one price list for every country other than India, and it applies here.
 
 - First class: USD 0. A full first lesson, free, with a course recommendation.
-- Group tuition: USD 100 a month. Class of five to ten, roughly eight sessions each month.
+- Group tuition: USD 100 a month. Class of fifteen to twenty, roughly eight sessions each month.
 - Private tuition: USD 150 a month. Individual tuition, roughly eight sessions each month.
 
 Prices are quoted in US dollars and we do not list a sterling figure. You are invoiced only once the trial is done and a course and time are agreed; the pricing page explains holidays, missed sessions and switching between group and private.

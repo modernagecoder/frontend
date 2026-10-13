@@ -358,7 +358,7 @@ module.exports = {
         h3: 'Try before paying',
         p: 'The opening session runs exactly like any other lesson, and it closes with the teacher recommending a course, a level and a weekly slot. No payment is taken that day.'
       },
-      { h3: 'Groups set by level', p: 'Five to ten learners who are at the same stage, whatever their age, or one to one if that suits better.' },
+      { h3: 'Groups set by level', p: 'Fifteen to twenty learners who are at the same stage, whatever their age, or one to one if that suits better.' },
       { h3: 'A steady weekly rhythm', p: 'Usually two lessons a week at a fixed time, about eight a month, with breaks planned around school holidays.' },
       {
         h3: 'Teachers in India',
@@ -374,7 +374,7 @@ module.exports = {
     h2: 'What lessons cost for Georges River learners',
     intro: 'Three plain figures, nothing hidden.',
     first: 'One full lesson free, ending with a suggested course, level and time.',
-    group: 'A month of lessons, usually eight, shared with five to ten learners at the same level.',
+    group: 'A month of lessons, usually eight, shared with fifteen to twenty learners at the same level.',
     private: 'Around eight lessons a month on the same pattern, one teacher with one learner.',
     closer: 'Outside India, invoices are issued in US dollars, which keeps one price for every household between Kingsgrove and Oatley. Payment starts only after the trial has settled a course and a time; breaks, missed lessons and switching format are covered on the pricing page.'
   },
@@ -423,7 +423,7 @@ module.exports = {
       },
       {
         q: 'How much are coding classes for Georges River learners?',
-        a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.',
+        a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.',
         boiler: true
       },
       {

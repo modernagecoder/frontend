@@ -16,7 +16,7 @@ Doncaster, City of Manningham, Melbourne, Victoria / Live online
 
 Doncaster has no railway, so its buses carry the load, and the state timetable feed lists every trip. Ask which routes serve Doncaster on a Wednesday but not at the weekend and you have a perfect Python set problem. The answer takes one line; picking the right operator takes a little more thought.
 
-Facts last verified 10 October 2026. Teaching is online; no Doncaster branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Doncaster branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses where sets and data come naturally
 
@@ -185,7 +185,7 @@ Every class runs on screen at home, so no Doncaster learner has to plan a bus tr
 - **At home** Join from a laptop, share the screen and code alongside the teacher.
 - **Victorian calendar** Lessons follow Victorian school terms and pause during state school holidays.
 - **Trial lesson** A real, complete lesson first, followed by our advice on course, level and a weekly time.
-- **Level-matched groups** Five to ten learners per group, matched by level and pace across many suburbs.
+- **Level-matched groups** Fifteen to twenty learners per group, matched by level and pace across many suburbs.
 - **Steady schedule** Two lessons each week at fixed times, about eight a month, with breaks planned in advance.
 - **Time difference** Teachers are based in India: a 5pm Doncaster lesson is 11:30am there during daylight saving and 12:30pm once Melbourne's clocks return.
 
@@ -196,7 +196,7 @@ Every class runs on screen at home, so no Doncaster learner has to plan a bus tr
 The whole price list fits in three lines.
 
 - First class: USD 0. A free first lesson, ending with clear advice about what comes next.
-- Group tuition: USD 100 a month. One month of group classes, usually eight, five to ten learners at the same level.
+- Group tuition: USD 100 a month. One month of group classes, usually eight, fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. Roughly eight one-to-one lessons a month with a single teacher.
 
 Doncaster families pay in US dollars, as do all families outside India, so the rate is the same for everyone. Nothing is charged before the trial settles a course and time; holidays, absences and format changes are covered on the pricing page.
@@ -233,7 +233,7 @@ No. Classes are live online only, there is no Australian office, and our listed 
 
 ### What do coding classes cost for Doncaster learners?
 
-The first lesson is free. Then group lessons are USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. We agree the course, format and time before any payment.
+The first lesson is free. Then group lessons are USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. We agree the course, format and time before any payment.
 
 ### How many students share a group?
 

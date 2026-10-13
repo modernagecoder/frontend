@@ -170,7 +170,7 @@ const FAQS = [
   ['What if my child is weak in maths?',
     'That is where live teaching helps most. The mentor finds the earliest gap, often a topic from two or three years back, fixes it patiently and then builds speed and accuracy on top. Confidence usually returns once the foundations stop wobbling.'],
   ['Can I choose group maths classes or one to one?',
-    'Yes. All three are live and taught by a specialist mentor. A group batch (up to 10 students) adds peer learning, a mini batch (3 to 4 students, India only) gives near one-to-one attention, and one to one gives a fully personal pace. You can change plan later.'],
+    'Yes. All three are live and taught by a specialist mentor. A group batch (up to 20 students) adds peer learning, a mini batch (up to 6 students, India only) gives near one-to-one attention, and one to one gives a fully personal pace. You can change plan later.'],
   ['How do you report progress to parents?',
     'Parents receive regular progress updates on what was covered, what improved and what comes next, and can message the team on WhatsApp at any time. A certificate is awarded on completing a course.'],
   ['Can we pause classes for exams or holidays?',
@@ -360,12 +360,12 @@ ${BOARDS.map(([b, s]) => `      <li><b>${esc(b)}</b><span>${esc(s)}</span></li>`
     <h2 id="omt-plans-title">Clear monthly plans</h2>
     <p class="omt-sub">Every plan is live with a specialist mentor, and each class runs about one hour. Billing is monthly and you can cancel any time; quarterly and yearly plans cost less.</p>
     <div class="omt-plans" data-india-only="true">
-      <article class="omt-plan"><h3>Group batch</h3><p class="omt-plan-price"><span data-price="maths.india.group">₹1,499</span><small>/ month</small></p><ul><li>${CHECK}<span>2 live classes a week</span></li><li>${CHECK}<span>Up to 10 students</span></li><li>${CHECK}<span>Board-aligned lessons and checked practice</span></li></ul></article>
-      <article class="omt-plan omt-plan--featured"><span class="omt-plan-badge">Most popular</span><h3>Mini batch</h3><p class="omt-plan-price"><span data-price="maths.india.miniBatch">₹2,999</span><small>/ month</small></p><ul><li>${CHECK}<span>2 live classes a week</span></li><li>${CHECK}<span>Just 3 to 4 students</span></li><li>${CHECK}<span>Near one-to-one attention</span></li></ul></article>
+      <article class="omt-plan"><h3>Group batch</h3><p class="omt-plan-price"><span data-price="maths.india.group">₹1,499</span><small>/ month</small></p><ul><li>${CHECK}<span>2 live classes a week</span></li><li>${CHECK}<span>Up to 20 students</span></li><li>${CHECK}<span>Board-aligned lessons and checked practice</span></li></ul></article>
+      <article class="omt-plan omt-plan--featured"><span class="omt-plan-badge">Most popular</span><h3>Mini batch</h3><p class="omt-plan-price"><span data-price="maths.india.miniBatch">₹2,999</span><small>/ month</small></p><ul><li>${CHECK}<span>2 live classes a week</span></li><li>${CHECK}<span>Up to 6 students</span></li><li>${CHECK}<span>Near one-to-one attention</span></li></ul></article>
       <article class="omt-plan"><h3>1-on-1</h3><p class="omt-plan-price"><span data-price="maths.india.personal">₹4,999</span><small>/ month</small></p><ul><li>${CHECK}<span>1 private class a week, 4 a month</span></li><li>${CHECK}<span>Your own mentor and pace</span></li><li>${CHECK}<span>Timings that suit you</span></li></ul></article>
     </div>
     <div class="omt-plans omt-plans--two" data-intl-only="true" hidden>
-      <article class="omt-plan"><h3>Group batch</h3><p class="omt-plan-price"><span data-price="maths.international.group">$100</span><small>/ month</small></p><ul><li>${CHECK}<span>2 live classes a week</span></li><li>${CHECK}<span>Up to 10 students</span></li><li>${CHECK}<span>Taught in your time zone</span></li></ul></article>
+      <article class="omt-plan"><h3>Group batch</h3><p class="omt-plan-price"><span data-price="maths.international.group">$100</span><small>/ month</small></p><ul><li>${CHECK}<span>2 live classes a week</span></li><li>${CHECK}<span>Up to 20 students</span></li><li>${CHECK}<span>Taught in your time zone</span></li></ul></article>
       <article class="omt-plan omt-plan--featured"><span class="omt-plan-badge">Recommended</span><h3>1-on-1</h3><p class="omt-plan-price"><span data-price="maths.international.personal">$150</span><small>/ month</small></p><ul><li>${CHECK}<span>2 private classes a week</span></li><li>${CHECK}<span>Your own mentor and pace</span></li><li>${CHECK}<span>Timings that suit you</span></li></ul></article>
     </div>
     <div class="omt-plans-foot">

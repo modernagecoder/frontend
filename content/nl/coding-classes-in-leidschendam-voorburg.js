@@ -185,7 +185,7 @@ module.exports = {
     h2: 'Fees for Leidschendam-Voorburg families',
     intro: 'The complete price list is these three lines.',
     first: 'A real lesson built round a real task, with a level and a course at the end.',
-    group: 'Per month, normally eight classes, in a group of five to ten learners at one level.',
+    group: 'Per month, normally eight classes, in a group of fifteen to twenty learners at one level.',
     private: 'Per month, normally eight classes, with one teacher for one learner.',
     closer: 'The dollar price is the same in every country, with no euro table beside it, so a family in Stompwijk pays exactly what a family in Voorburg pays. Nothing is due until the free lesson has settled the course and the time, and payment is arranged over WhatsApp after that. The pricing page explains pauses, a change of format and missed classes.'
   },
@@ -210,7 +210,7 @@ module.exports = {
       { q: 'How many schools are there in Leidschendam-Voorburg?', a: 'The statistics list 21 primary establishments with 5,858 pupils and 7 secondary establishments with 4,811, plus 697 MBO students at institutions in the municipality. No school is rated on this page.' },
       { q: 'What language are the classes in, and when can they be taken?', a: 'Classes are taught in English, and Dutch school terms such as brugklas, havo and vwo are kept in Dutch. Because the teachers work three and a half hours ahead of the Netherlands in summer and four and a half in winter, afternoon, evening and weekend slots are all possible. The slot is agreed in the free lesson, and the regio Midden holidays are kept.' },
       { q: 'Is there a Modern Age Coders classroom in Leidschendam-Voorburg?', a: 'No, and none is claimed here or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Leidschendam-Voorburg coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Leidschendam-Voorburg coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

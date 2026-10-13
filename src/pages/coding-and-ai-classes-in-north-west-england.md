@@ -4,7 +4,7 @@ description: "Live online coding, AI, Python and maths classes across North West
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-north-west-england
 source: src/pages/coding-and-ai-classes-in-north-west-england.html
 ---
-> North West England counted 7,417,397 usual residents in the 2021 census, in 39 local authorities. Liverpool and Manchester are its two largest built-up areas, followed by Bolton, Warrington and Blackpool, with Blackburn, Stockport, Rochdale, Oldham, Birkenhead and Southport among the other large towns. Our lessons are all live on video, taught from India. Learners of any age from 6 to 67 study coding, AI, Python and maths, one-to-one or in classes of five to ten at a single level. The opening lesson is free and chooses the course. This page links every North West page we have and runs a rainfall project. Beyond it, expect USD 100 monthly for group learning or USD 150 monthly for a tutor of your own.
+> North West England counted 7,417,397 usual residents in the 2021 census, in 39 local authorities. Liverpool and Manchester are its two largest built-up areas, followed by Bolton, Warrington and Blackpool, with Blackburn, Stockport, Rochdale, Oldham, Birkenhead and Southport among the other large towns. Our lessons are all live on video, taught from India. Learners of any age from 6 to 67 study coding, AI, Python and maths, one-to-one or in classes of fifteen to twenty at a single level. The opening lesson is free and chooses the course. This page links every North West page we have and runs a rainfall project. Beyond it, expect USD 100 monthly for group learning or USD 150 monthly for a tutor of your own.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [England](/coding-and-ai-classes-in-england) / North West England
 
@@ -12,11 +12,11 @@ North West England / Live online
 
 # Coding and AI classes in North West England
 
-**What are the best coding and AI classes in North West England?** North West England counted 7,417,397 usual residents in the 2021 census, in 39 local authorities. Liverpool and Manchester are its two largest built-up areas, followed by Bolton, Warrington and Blackpool, with Blackburn, Stockport, Rochdale, Oldham, Birkenhead and Southport among the other large towns. Our lessons are all live on video, taught from India. Learners of any age from 6 to 67 study coding, AI, Python and maths, one-to-one or in classes of five to ten at a single level. The opening lesson is free and chooses the course. This page links every North West page we have and runs a rainfall project. Beyond it, expect USD 100 monthly for group learning or USD 150 monthly for a tutor of your own.
+**What are the best coding and AI classes in North West England?** North West England counted 7,417,397 usual residents in the 2021 census, in 39 local authorities. Liverpool and Manchester are its two largest built-up areas, followed by Bolton, Warrington and Blackpool, with Blackburn, Stockport, Rochdale, Oldham, Birkenhead and Southport among the other large towns. Our lessons are all live on video, taught from India. Learners of any age from 6 to 67 study coding, AI, Python and maths, one-to-one or in classes of fifteen to twenty at a single level. The opening lesson is free and chooses the course. This page links every North West page we have and runs a rainfall project. Beyond it, expect USD 100 monthly for group learning or USD 150 monthly for a tutor of your own.
 
 The Met Office has kept monthly rainfall at Newton Rigg, in Cumbria, since 1959, and every month from 1961 to 2020 is present. Split that record into two thirty-year halves and the average year got wetter, from about 912 millimetres to about 981. That is a rise of under 8 per cent. But look at how much the years differ from one another, and something bigger shows up: the typical gap between a year and the average grew by nearly half. So has rain become less predictable, or simply more plentiful? Answering fairly means comparing spread in a way that allows for the bigger average. This page's project does exactly that in Python with a measure called the coefficient of variation.
 
-Facts last verified 26 September 2026. Teaching is online; no North West England branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no North West England branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where North West learners begin
 
@@ -140,7 +140,7 @@ Big city or small village, every learner joins by video.
 - **Learners code** The student types every program, and the tutor, watching the shared screen, asks rather than tells.
 - **Year groups** A Year 6 in Rochdale or a Year 13 in Birkenhead starts at the right point for their year, with exam names from their board.
 - **Free opener** The first full lesson costs nothing and ends with a clear plan.
-- **Same-stage classes** Five to ten learners at one level, drawn from across Britain.
+- **Same-stage classes** Fifteen to twenty learners at one level, drawn from across Britain.
 - **Term time** Two lessons weekly in term, with the holidays off.
 - **UK clock** Spring and autumn clock changes do not move your lesson; our teachers adjust.
 
@@ -151,7 +151,7 @@ Big city or small village, every learner joins by video.
 Liverpool and Carlisle pay the same, as does each country we teach outside India.
 
 - First class: USD 0. A complete lesson free, with honest advice.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month with your own tutor.
 
 Fees are charged in US dollars only, never sterling. Payment starts after the trial has agreed a course and weekly time, and holidays, missed lessons and format changes are explained on the pricing page.

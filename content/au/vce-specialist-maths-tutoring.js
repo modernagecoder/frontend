@@ -219,7 +219,7 @@ module.exports = {
       { h3: 'Proof in full sentences', p: 'Every argument written so a stranger could check it.' },
       { h3: 'Pictures before algebra', p: 'Complex numbers and vectors drawn first, then calculated.' },
       { h3: 'Technology to check', p: 'Code and calculators used to test ideas, never to replace them.' },
-      { h3: 'Groups of five to ten', p: 'Students at one level, each presenting a solution in turn.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Students at one level, each presenting a solution in turn.' },
       { h3: 'One-to-one sessions', p: 'For one area of study that needs rebuilding.' },
       { h3: 'Outcomes stay yours', p: 'Nobody here predicts a study score or ATAR; what you earn is your own work.' }
     ]
@@ -233,7 +233,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Specialist lessons cost one flat monthly amount in US dollars for every family outside India; you can join without a fee and leave at the end of any month.',
     free: ['A full lesson with a tutor', 'A clear view of what to strengthen', 'No card needed'],
-    group: ['Five to ten students at one level', 'One tutor all term', 'Proofs and solutions discussed', 'A certificate when you finish'],
+    group: ['Fifteen to twenty students at one level', 'One tutor all term', 'Proofs and solutions discussed', 'A certificate when you finish'],
     one: ['One tutor, one student', 'Centred on one area of study', 'Often booked for the last weeks before the exams']
   },
 

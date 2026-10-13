@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Clackmannanshi
 canonical: https://learn.modernagecoders.com/coding-classes-in-clackmannanshire
 source: src/pages/coding-classes-in-clackmannanshire.html
 ---
-> Clackmannanshire is one compact council area: Scotland's Census 2022 counted about 51,800 people in some 24,100 households, packed at 325.4 people per square kilometre. Alloa is the main town, with Tullibody and Sauchie close by and the Hillfoots villages of Menstrie, Alva, Tillicoultry and Dollar along the foot of the Ochils. Lessons are taught live over video from India, and every learner joins the class that fits their ability, from Primary 1 to S6 and adults. Ages 6 to 67 learn coding, Python and maths with us in groups of five to ten or one-to-one. The Clackmannanshire project comes from a beam engine house at Fishcross. Try one lesson free; after that, groups cost USD 100 a month and one-to-one lessons USD 150.
+> Clackmannanshire is one compact council area: Scotland's Census 2022 counted about 51,800 people in some 24,100 households, packed at 325.4 people per square kilometre. Alloa is the main town, with Tullibody and Sauchie close by and the Hillfoots villages of Menstrie, Alva, Tillicoultry and Dollar along the foot of the Ochils. Lessons are taught live over video from India, and every learner joins the class that fits their ability, from Primary 1 to S6 and adults. Ages 6 to 67 learn coding, Python and maths with us in groups of fifteen to twenty or one-to-one. The Clackmannanshire project comes from a beam engine house at Fishcross. Try one lesson free; after that, groups cost USD 100 a month and one-to-one lessons USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Clackmannanshire
 
@@ -12,11 +12,11 @@ Clackmannanshire / Live online
 
 # Coding classes in Clackmannanshire
 
-**What are the best coding classes in Clackmannanshire?** Clackmannanshire is one compact council area: Scotland's Census 2022 counted about 51,800 people in some 24,100 households, packed at 325.4 people per square kilometre. Alloa is the main town, with Tullibody and Sauchie close by and the Hillfoots villages of Menstrie, Alva, Tillicoultry and Dollar along the foot of the Ochils. Lessons are taught live over video from India, and every learner joins the class that fits their ability, from Primary 1 to S6 and adults. Ages 6 to 67 learn coding, Python and maths with us in groups of five to ten or one-to-one. The Clackmannanshire project comes from a beam engine house at Fishcross. Try one lesson free; after that, groups cost USD 100 a month and one-to-one lessons USD 150.
+**What are the best coding classes in Clackmannanshire?** Clackmannanshire is one compact council area: Scotland's Census 2022 counted about 51,800 people in some 24,100 households, packed at 325.4 people per square kilometre. Alloa is the main town, with Tullibody and Sauchie close by and the Hillfoots villages of Menstrie, Alva, Tillicoultry and Dollar along the foot of the Ochils. Lessons are taught live over video from India, and every learner joins the class that fits their ability, from Primary 1 to S6 and adults. Ages 6 to 67 learn coding, Python and maths with us in groups of fifteen to twenty or one-to-one. The Clackmannanshire project comes from a beam engine house at Fishcross. Try one lesson free; after that, groups cost USD 100 a month and one-to-one lessons USD 150.
 
 At Fishcross, a red sandstone engine house still holds the cast iron beam that once pumped water out of the Devon Colliery. Historic Environment Scotland's listing says it was built in 1864 by Neilson and Company of Glasgow, with the beam itself inscribed "No.189", and that it is one of only two surviving historic beam engine houses in Scotland. A beam engine is, at heart, an enormous see-saw, and a see-saw raises a question physics and programming share: where does it balance? This page's project works out the balance point of a loaded model beam in Python, checks the answer two ways, and then meets the most useful surprise in the whole exercise: an answer that falls off the end of the beam.
 
-Facts last verified 26 September 2026. Teaching is online; no Clackmannanshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Clackmannanshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Clackmannanshire learners begin
 
@@ -141,7 +141,7 @@ Even in a compact council area, evening classes at the right level can mean a jo
 - **From home in the Hillfoots** A house in Menstrie, a flat in Alloa, a cottage near Dollar. The pupil writes the code while the teacher watches the same screen.
 - **Scottish school terms** Teachers know P1 to P7, S1 to S6 and the National 5, Higher and Advanced Higher courses by those names, and lessons are in English.
 - **First lesson free** A genuine lesson, then an honest suggestion of level and course, with no card details requested.
-- **Grouped by stage** Five to ten learners at the same point, wherever in the world they join from.
+- **Grouped by stage** Fifteen to twenty learners at the same point, wherever in the world they join from.
 - **Holiday breaks** Two lessons a week in term, pausing for Clackmannanshire school holidays.
 - **A fixed UK slot** Your lesson keeps the same UK time when the clocks change; the teacher, several hours ahead on India time, adapts.
 
@@ -152,7 +152,7 @@ Even in a compact council area, evening classes at the right level can mean a jo
 Tillicoultry or Tullibody, the fee is the same, as it is in every country we teach except India.
 
 - First class: USD 0. A full lesson of real work, followed by advice on level and course.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten at one level.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. About eight lessons a month, taught one-to-one.
 
 Fees are charged in US dollars only. Billing starts once the free lesson has agreed a course and weekly time; holidays, missed lessons and format changes are all covered on the pricing page.

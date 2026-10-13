@@ -4,7 +4,7 @@ description: "Live online Java classes in the Netherlands for teens and adults, 
 canonical: https://learn.modernagecoders.com/java-classes-netherlands
 source: src/pages/java-classes-netherlands.html
 ---
-> Modern Age Coders teaches Java live online to learners in the Netherlands: teenagers preparing for AP Computer Science A, students on university programming courses, and adults moving into back-end or enterprise development. Learners write Java from the first lesson, move on to object-oriented design and data structures, and, for adults, to Spring Boot. AP candidates work through the course College Board sets, which uses a subset of the Java language, towards the exam on 12 May 2027. Lessons are in English, in groups of five to ten or one to one. The first lesson is free; after it a group place is USD 100 a month and private tuition USD 150.
+> Modern Age Coders teaches Java live online to learners in the Netherlands: teenagers preparing for AP Computer Science A, students on university programming courses, and adults moving into back-end or enterprise development. Learners write Java from the first lesson, move on to object-oriented design and data structures, and, for adults, to Spring Boot. AP candidates work through the course College Board sets, which uses a subset of the Java language, towards the exam on 12 May 2027. Lessons are in English, in groups of fifteen to twenty or one to one. The first lesson is free; after it a group place is USD 100 a month and private tuition USD 150.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the Netherlands](/coding-classes-in-netherlands) / Java
 
@@ -156,7 +156,7 @@ Our teachers work from India, which does not change its clocks, so the gap to th
 - **Weekend** Saturday or Sunday, popular for exam practice.
 
 - **A free first lesson** The learner writes Java with the teacher, who sees their level and, for AP candidates, how far they are from exam standard.
-- **Groups of five to ten** Learners at the same level from several countries, often including other AP candidates.
+- **Groups of fifteen to twenty** Learners at the same level from several countries, often including other AP candidates.
 - **One to one for exams** For AP preparation close to the exam, a university resit, or an adult with a specific goal.
 - **Code explained aloud** Learners explain their classes and methods as they write them, the skill free-response questions reward.
 - **In English** Java, AP and university materials are in English; so are the lessons.
@@ -167,7 +167,7 @@ Our teachers work from India, which does not change its clocks, so the gap to th
 Monthly, in US dollars, the same in every country outside India. No enrolment fee and no annual contract. AP preparation costs the same as any other course.
 
 - Free first class: USD 0. A real Java lesson. An honest view of the starting level. No card needed.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same live teacher each week. Code reviewed every week. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same live teacher each week. Code reviewed every week. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one learner. Paced to the exam or deadline. Ideal for AP in the final months.
 
 ## What families, students and adults in the Netherlands ask about Java

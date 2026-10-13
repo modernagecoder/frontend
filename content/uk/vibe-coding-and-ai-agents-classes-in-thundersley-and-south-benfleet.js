@@ -63,7 +63,7 @@ module.exports = {
 
   h1: 'Vibe coding and AI agents classes in Thundersley and South Benfleet',
   capsuleQ: 'Which are the best vibe coding and AI agents classes in Thundersley and South Benfleet?',
-  capsule: 'The Office for National Statistics treats Thundersley and South Benfleet as one built-up area, and counted 49,885 usual residents there in the 2021 census. It lies in the Essex borough of Castle Point, where the postcode gazetteer also lists New Thundersley as a suburban area and Tarpots, Hadleigh and Daws Heath as villages in the SS7 district. We teach vibe coding, AI agents, Python, coding and maths online to learners aged six to 67 across these places. A tutor in India leads each live video lesson, for one learner or for a class of five to ten who are at the same stage. We ask learners to work a method out for themselves first, and to use code and AI afterwards. You can try a whole lesson free, and we use it to recommend a course. The local project sets a planning agent loose on the streets around Benfleet station: it has a fixed distance to spend, 108 bus stops worth different scores, and it must decide which ones to give up. After the trial, lessons are USD 100 a month in a group or USD 150 a month one-to-one.',
+  capsule: 'The Office for National Statistics treats Thundersley and South Benfleet as one built-up area, and counted 49,885 usual residents there in the 2021 census. It lies in the Essex borough of Castle Point, where the postcode gazetteer also lists New Thundersley as a suburban area and Tarpots, Hadleigh and Daws Heath as villages in the SS7 district. We teach vibe coding, AI agents, Python, coding and maths online to learners aged six to 67 across these places. A tutor in India leads each live video lesson, for one learner or for a class of fifteen to twenty who are at the same stage. We ask learners to work a method out for themselves first, and to use code and AI afterwards. You can try a whole lesson free, and we use it to recommend a course. The local project sets a planning agent loose on the streets around Benfleet station: it has a fixed distance to spend, 108 bus stops worth different scores, and it must decide which ones to give up. After the trial, lessons are USD 100 a month in a group or USD 150 a month one-to-one.',
   lead: 'Most route problems say: visit everything, as cheaply as possible. Real planning is usually the other way round. There is a fixed budget of time, fuel or money, more worthwhile stops than the budget allows, and the hard part is choosing what to leave out. Mathematicians named this the orienteering problem, after the sport in which runners have a time limit and pick which control points to collect. An AI agent faces it whenever it has a limited number of steps and more possible tasks than it can finish. This project hands the problem to a software agent in Thundersley and South Benfleet and compares four ways of deciding.',
   wa: 'Hello Modern Age Coders, I would like a free vibe coding or AI agents lesson for a learner in Thundersley or South Benfleet.',
 
@@ -163,7 +163,7 @@ module.exports = {
       { h3: 'Typing is the learner\'s job', p: 'They write every line on a shared screen while the tutor coaches.' },
       { h3: 'One free lesson first', p: 'A proper session, after which we tell you the course we would choose.' },
       { h3: 'No payment to book', p: 'We ask for contact details only.' },
-      { h3: 'Classes at one level', p: 'Five to ten learners who match in stage, from many parts of the UK.' },
+      { h3: 'Classes at one level', p: 'Fifteen to twenty learners who match in stage, from many parts of the UK.' },
       { h3: 'Twice weekly in term', p: 'Essex school holidays are left free once we have your dates.' },
       { h3: 'Lesson times hold', p: 'Our tutors take care of the clock change, so your slot never moves.' }
     ],
@@ -174,7 +174,7 @@ module.exports = {
     h2: 'Fees',
     intro: 'These international fees apply to everyone learning from outside India.',
     first: 'The first full lesson is free and closes with a course recommendation.',
-    group: 'Group class of five to ten, about eight lessons in each month.',
+    group: 'Group class of fifteen to twenty, about eight lessons in each month.',
     private: 'One-to-one lessons, about eight in each month.',
     closer: 'Fees are given in US dollars and there is no sterling price list. We start billing after the free lesson, once the course and a weekly time are fixed. How holidays, absences and format changes work is on the pricing page.'
   },

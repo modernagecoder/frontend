@@ -289,7 +289,7 @@ module.exports = {
       { h3: 'Live sessions', p: 'A teacher guides each lesson and reviews code as it is written.' },
       { h3: 'Queensland terms', p: 'Weekly classes follow the school terms and break for holidays.' },
       { h3: 'First class free', p: 'A complete trial lesson, then a written suggestion for next steps.' },
-      { h3: 'Level groups', p: 'Five to ten learners at one level, or private lessons.' },
+      { h3: 'Level groups', p: 'Fifteen to twenty learners at one level, or private lessons.' },
       { h3: 'Frequency', p: 'Two classes a week, about eight a month.' },
       { h3: 'Teachers in India', p: 'A 5:30pm North Lakes class is 1pm in India, every week.' }
     ],
@@ -302,7 +302,7 @@ module.exports = {
     h2: 'North Lakes class fees',
     intro: 'The same fees apply to everyone.',
     first: 'The first class is free and finishes with a plan.',
-    group: 'Group classes: close to eight a month, five to ten learners.',
+    group: 'Group classes: close to eight a month, fifteen to twenty learners.',
     private: 'Private classes: close to eight a month, one teacher, one learner.',
     closer: 'North Lakes fees are in US dollars and begin only when the trial has settled the course and weekly times. Holiday and missed-class rules are on the pricing page.'
   },
@@ -347,12 +347,12 @@ module.exports = {
       },
       {
         q: 'What do North Lakes classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Is the adult coding agents course open to teens?', a: 'No, it is for ages 18 and over. Teenagers take the teen AI tools and vibe coding courses.' }

@@ -59,7 +59,7 @@ module.exports = {
 
   h1: 'Coding classes in Milton Keynes',
   capsuleQ: 'What are the best coding classes in Milton Keynes?',
-  capsule: 'Milton Keynes had 287,060 residents at the 2021 Census and is a city of young families: children aged 5 to 9 made up 7.1% of residents and adults aged 35 to 39 made up 8.0%, above England\'s 5.9% and 6.7%. It is also where the first Colossus computer went to work, at Bletchley Park in January 1944. Modern Age Coders gives Milton Keynes learners from age six to sixty-seven live online lessons, in ability-matched groups of five to ten or one to one, taught from India at a regular hour on UK time. There is no charge for the first lesson, and after that a group place is USD 100 a month and private teaching USD 150 a month.',
+  capsule: 'Milton Keynes had 287,060 residents at the 2021 Census and is a city of young families: children aged 5 to 9 made up 7.1% of residents and adults aged 35 to 39 made up 8.0%, above England\'s 5.9% and 6.7%. It is also where the first Colossus computer went to work, at Bletchley Park in January 1944. Modern Age Coders gives Milton Keynes learners from age six to sixty-seven live online lessons, in ability-matched groups of fifteen to twenty or one to one, taught from India at a regular hour on UK time. There is no charge for the first lesson, and after that a group place is USD 100 a month and private teaching USD 150 a month.',
   lead: 'How much of Milton Keynes is within a short walk of a bus stop? Measuring it exactly means drawing a 400-metre circle round each of the city\'s 1,316 active stops and working out the area of the merged shape inside the borough boundary, which is fiddly geometry. There is a cleverer way, and it is one of the oldest ideas in computing: throw darts. Scatter random points across the map, keep the ones that land inside Milton Keynes, and count what fraction are within 400 metres of a stop. With a hundred darts the answer is 37%, give or take almost five points. With a thousand it is 41%. With a hundred thousand it settles at 39.9%, give or take a sixth of a point, and a painstaking 50-metre grid agrees at 39.8%. Why the answer sharpens so slowly, and exactly how much more effort each extra digit costs, is the lesson this city\'s own map teaches our teenage learners here.',
   wa: 'Hello Modern Age Coders, I would like a free coding class for a learner in Milton Keynes.',
 
@@ -199,7 +199,7 @@ module.exports = {
       { h3: 'No trip across the grid', p: 'A learner in Emerson Valley and one in Newport Pagnell can share a class from their own homes, and no one drives across the grid roads.' },
       { h3: 'The stages schools use', p: 'Reception, Key Stages, Year 9 options, GCSEs and A levels keep the names Milton Keynes schools give them, with every lesson in English.' },
       { h3: 'A real first session', p: 'The free lesson is actual teaching on an actual task, ending with a frank recommendation of level, course and slot, and no card details.' },
-      { h3: 'Matched by ability', p: 'Groups of five to ten learners at one level, from Milton Keynes and elsewhere in the UK and abroad, so every stage can find a time.' },
+      { h3: 'Matched by ability', p: 'Groups of fifteen to twenty learners at one level, from Milton Keynes and elsewhere in the UK and abroad, so every stage can find a time.' },
       { h3: 'Twice weekly', p: 'Two lessons a week at a fixed time, around eight a month, with breaks for holidays and revision arranged with the teacher.' },
       { h3: 'Time from India', p: 'India keeps the same clock all year, so our teachers are four and a half hours ahead of Milton Keynes in summer and five and a half in winter; after-school and evening slots sit within their working day.' }
     ],
@@ -210,7 +210,7 @@ module.exports = {
     h2: 'What classes cost in Milton Keynes',
     intro: 'Here is everything, in three lines.',
     first: 'One whole lesson for free, finishing with a level, a course suggestion and a proposed weekly time.',
-    group: 'A month of lessons, usually eight, in a group of five to ten learners working at the same level.',
+    group: 'A month of lessons, usually eight, in a group of fifteen to twenty learners working at the same level.',
     private: 'Around eight lessons a month on the same rhythm, taught to one learner alone.',
     closer: 'We charge in US dollars at the same rate for every family outside India, so Bletchley and Newport Pagnell pay identical fees, and there are no prices in pounds. Nothing is billed until the free lesson has agreed a course and a slot, and the pricing page sets out how breaks, missed lessons and changes between group and private work.'
   },
@@ -235,8 +235,8 @@ module.exports = {
       { q: 'When are lessons for Milton Keynes learners?', a: 'After school, in the evening or at the weekend, with the time set in UK hours at the free lesson. India is four and a half hours ahead of Milton Keynes in summer and five and a half in winter.' },
       { q: 'Can lessons pause for exams and holidays?', a: 'Yes. Many families pause during GCSE and A level revision, the exams and school holidays, agreeing the dates with the teacher in advance.' },
       { q: 'Do you have premises in Milton Keynes?', a: 'We do not. There is no Modern Age Coders building in Milton Keynes or anywhere in the UK; lessons are live online, needing a computer with audio and a dependable connection. The phone number we give is in India.', boiler: true },
-      { q: 'What do Milton Keynes lessons cost?', a: 'The first lesson is free. A group place is then USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; private teaching on the same schedule is USD 150 a month. Course, format and time are agreed before you pay.', boiler: true },
-      { q: 'How big are the classes?', a: 'Five to ten learners, grouped by level, pace and aims rather than age or address. When no group at the right level meets at a convenient time, we suggest private lessons instead.', boiler: true }
+      { q: 'What do Milton Keynes lessons cost?', a: 'The first lesson is free. A group place is then USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; private teaching on the same schedule is USD 150 a month. Course, format and time are agreed before you pay.', boiler: true },
+      { q: 'How big are the classes?', a: 'Fifteen to twenty learners, grouped by level, pace and aims rather than age or address. When no group at the right level meets at a convenient time, we suggest private lessons instead.', boiler: true }
     ]
   },
 

@@ -179,7 +179,7 @@ A valley with a single route means the far village is a real journey from the ne
 
 A complete class with a genuine task, ending in a named recommendation. No card details to book it, and no commitment until somebody has watched a teacher work.
 
-### Five to eight learners, grouped on ability
+### Fifteen to twenty learners, grouped on ability
 
 Cohorts are built from what a learner can do now and what they are aiming at. Position in the valley is not an input, which is precisely what a single classroom cannot say.
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Al Awabi learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Al Awabi class times arranged?
 

@@ -16,7 +16,7 @@ Wollongong, New South Wales, Australia / Live online
 
 The NSW schools file records, for every public school, the date it got its first teacher. Split the 88 schools of Wollongong, Shellharbour and Kiama councils into three lists, sort each by that date, and you have three tidy columns of history running from 1851 to 2008. Now combine them into one list in date order. You could pour them together and sort again, or you could walk down all three lists at once, always taking the earliest date at the top. Our Wollongong learners do both and count every comparison: 161 for the three-way merge, 188 when Python sorts the joined lists, and 450 when the same schools arrive in random order.
 
-Facts last verified 7 October 2026. Teaching is online; no Wollongong branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Wollongong branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four starting points for Illawarra teenagers and adults
 
@@ -190,7 +190,7 @@ The Illawarra runs along a narrow strip of coast, and an online lesson connects 
 Three figures in total.
 
 - First class: USD 0. One free lesson, ending with a level, a recommended course and a weekly time.
-- Group tuition: USD 100 a month. A month of tuition, usually eight lessons, with five to ten learners at your level.
+- Group tuition: USD 100 a month. A month of tuition, usually eight lessons, with fifteen to twenty learners at your level.
 - Private tuition: USD 150 a month. About eight one-to-one lessons a month with the same teacher.
 
 Illawarra families are charged in US dollars, the same figure from Thirroul to Kiama. Billing begins only after the trial fixes a course and time; the pricing page covers holiday breaks, missed lessons and moving between group and private classes.
@@ -231,11 +231,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Wollongong coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Wollongong and New South Wales learners
 

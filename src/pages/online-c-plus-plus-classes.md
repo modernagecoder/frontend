@@ -1,22 +1,22 @@
 ---
 title: "Online C++ Classes | Live C++ Coding Classes in Small Batches (India)"
-description: "Live online C++ classes in small batches of 5–8 with a real mentor. Learn Core C++, OOP, the STL, DSA & projects from home, interactive, recorded, and flexible. For teens & college students across India. Free demo."
+description: "Live online C++ classes in batches of 15–20 with a real mentor. Learn Core C++, OOP, the STL, DSA & projects from home, interactive, recorded, and flexible. For teens & college students across India. Free demo."
 canonical: https://learn.modernagecoders.com/online-c-plus-plus-classes
 source: src/pages/online-c-plus-plus-classes.html
 ---
-> Live online C++ classes in small batches of 5–8 with a real mentor. Learn Core C++, OOP, the STL, DSA & projects from home, interactive, recorded, and flexible. For teens & college students across India. Free demo.
+> Live online C++ classes in batches of 15–20 with a real mentor. Learn Core C++, OOP, the STL, DSA & projects from home, interactive, recorded, and flexible. For teens & college students across India. Free demo.
 
 Live & Online • **Small Batches, Real Mentor**
 
 # Online C++ Classes: Live, Not Recorded
 
-Learn C++ from home without compromising on quality. Live, interactive online classes in small batches of 5–8 with a real mentor who shares their screen, reviews your code and answers your questions in real time. Core C++, OOP, the STL, DSA and projects, every session recorded so you can revise anytime.
+Learn C++ from home without compromising on quality. Live, interactive online classes in batches of 15–20 with a real mentor who shares their screen, reviews your code and answers your questions in real time. Core C++, OOP, the STL, DSA and projects, every session recorded so you can revise anytime.
 
 Book a Free Online DemoHow It Works**5–8**Students per batch**Live**Real mentor, real-time**100%**Sessions recorded**Any city**Learn from anywhere
 
 ## Quick answer
 
-**Modern Age Coders offers live online C++ classes in small batches of 5–8 students with a real mentor.** Sessions are fully interactive, the mentor shares their screen and codes live, you write and run C++ on your own machine, and your code is reviewed in real time. The curriculum covers Core C++, OOP, the STL, Data Structures & Algorithms and projects, and every class is recorded for revision. Students join from any city in India (and abroad). Group plans start at ₹1,499/month, with a free demo class first.
+**Modern Age Coders offers live online C++ classes in batches of 15–20 students with a real mentor.** Sessions are fully interactive, the mentor shares their screen and codes live, you write and run C++ on your own machine, and your code is reviewed in real time. The curriculum covers Core C++, OOP, the STL, Data Structures & Algorithms and projects, and every class is recorded for revision. Students join from any city in India (and abroad). Group plans start at ₹1,499/month, with a free demo class first.
 
 Start Today
 
@@ -108,7 +108,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo.
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 learners per batch
+- 15–20 learners per batch
 - Live interactive sessions
 - Recorded class access
 - Completion certificate
@@ -119,7 +119,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 learners per batch
+- Up to 6 learners per batch
 - More personal attention
 - Recorded class access
 - Project guidance & certificate
@@ -167,7 +167,7 @@ Good To Know
 
 How do online C++ classes work?+
 
-Classes are live and interactive over video in small batches of 5–8 students. Your mentor shares their screen and codes live, you write and run C++ on your own machine, and the mentor reviews your code in real time. Every session is recorded and shared so you can revise anytime.
+Classes are live and interactive over video in batches of 15–20 students. Your mentor shares their screen and codes live, you write and run C++ on your own machine, and the mentor reviews your code in real time. Every session is recorded and shared so you can revise anytime.
 
 Are online classes as effective as offline coaching?+
 
@@ -183,7 +183,7 @@ Every live session is recorded and shared, so you can catch up on any missed cla
 
 How much do online C++ classes cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
 
 Can students across India and abroad join?+
 

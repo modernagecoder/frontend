@@ -4,7 +4,7 @@ description: "Live online coding, Python, algorithms and maths classes across He
 canonical: https://learn.modernagecoders.com/coding-classes-in-herefordshire
 source: src/pages/coding-classes-in-herefordshire.html
 ---
-> Herefordshire is a single council and a deeply rural county: after the city of Hereford, with just over 60,000 people in its built-up area, the next towns are Leominster and Ross-on-Wye at about 11,000 each, then Ledbury and Bromyard, and a wide spread of villages and farms. That is exactly the kind of place online teaching suits. Our teachers work from India and teach live over video; a learner's starting point comes from what they can do, not their age; anyone from 6 to 67 is welcome; and classes are either groups of five to ten or one to one. We teach programming, Python, data structures, algorithms and maths. The Herefordshire project comes from the cathedral's Chained Library. The first lesson is free, then USD 100 a month for a group place or USD 150 for private teaching.
+> Herefordshire is a single council and a deeply rural county: after the city of Hereford, with just over 60,000 people in its built-up area, the next towns are Leominster and Ross-on-Wye at about 11,000 each, then Ledbury and Bromyard, and a wide spread of villages and farms. That is exactly the kind of place online teaching suits. Our teachers work from India and teach live over video; a learner's starting point comes from what they can do, not their age; anyone from 6 to 67 is welcome; and classes are either groups of fifteen to twenty or one to one. We teach programming, Python, data structures, algorithms and maths. The Herefordshire project comes from the cathedral's Chained Library. The first lesson is free, then USD 100 a month for a group place or USD 150 for private teaching.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Herefordshire
 
@@ -12,11 +12,11 @@ County of Herefordshire / Live online
 
 # Coding classes in Herefordshire
 
-**What are the best coding classes in Herefordshire?** Herefordshire is a single council and a deeply rural county: after the city of Hereford, with just over 60,000 people in its built-up area, the next towns are Leominster and Ross-on-Wye at about 11,000 each, then Ledbury and Bromyard, and a wide spread of villages and farms. That is exactly the kind of place online teaching suits. Our teachers work from India and teach live over video; a learner's starting point comes from what they can do, not their age; anyone from 6 to 67 is welcome; and classes are either groups of five to ten or one to one. We teach programming, Python, data structures, algorithms and maths. The Herefordshire project comes from the cathedral's Chained Library. The first lesson is free, then USD 100 a month for a group place or USD 150 for private teaching.
+**What are the best coding classes in Herefordshire?** Herefordshire is a single council and a deeply rural county: after the city of Hereford, with just over 60,000 people in its built-up area, the next towns are Leominster and Ross-on-Wye at about 11,000 each, then Ledbury and Bromyard, and a wide spread of villages and farms. That is exactly the kind of place online teaching suits. Our teachers work from India and teach live over video; a learner's starting point comes from what they can do, not their age; anyone from 6 to 67 is welcome; and classes are either groups of fifteen to twenty or one to one. We teach programming, Python, data structures, algorithms and maths. The Herefordshire project comes from the cathedral's Chained Library. The first lesson is free, then USD 100 a month for a group place or USD 150 for private teaching.
 
 Hereford Cathedral's Chained Library is, in the cathedral's words, the largest to survive with all its chains, rods and locks intact. Each book has a chain fixed to its front cover, and the other end runs on a rod along the bottom of the shelf. It is a beautiful piece of security engineering, and it hides a problem every programmer meets. Suppose a new book has to go in the middle of a full shelf, in its proper order. Every chain after it must slide along the rod to make room. This page's project turns that into code, measures the work for fifty new books, and compares it with two cleverer ways of storing an ordered list: one borrowed from computer science, and one that librarians have always known.
 
-Facts last verified 26 September 2026. Teaching is online; no Herefordshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Herefordshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## The four courses Herefordshire learners start with
 
@@ -138,7 +138,7 @@ Herefordshire's lanes are long and its buses are few after school. Online lesson
 - **From the farmhouse or the flat** A kitchen near Leominster, a bedroom in Hereford, a study in Ledbury. The teacher shares the screen; the learner types.
 - **School terms we share** Year groups, GCSE choices and A levels are named as Herefordshire schools name them, and teaching is in English.
 - **A free first lesson** A real lesson with real work, then a straight recommendation. We ask for no payment details.
-- **Learners at your level** Five to ten classmates at the same stage, from many places, which rural counties rarely have locally.
+- **Learners at your level** Fifteen to twenty classmates at the same stage, from many places, which rural counties rarely have locally.
 - **Around your school holidays** Usually two lessons a week, pausing when your school does.
 - **UK clock times** India, where our teachers are, is ahead of the UK by four and a half hours in summer and five and a half in winter; your times are always UK times.
 
@@ -149,7 +149,7 @@ Herefordshire's lanes are long and its buses are few after school. Online lesson
 The same prices across the county, and in every country outside India.
 
 - First class: USD 0. A full lesson of genuine work, with a recommended level and course at the end.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight lessons a month, one teacher with one learner.
 
 Fees are in US dollars for everyone outside India, and there is no list in pounds. We charge nothing until the free lesson has settled a course and a weekly time; pausing, missed lessons and switching between group and private are explained on the pricing page.

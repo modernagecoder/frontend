@@ -21,7 +21,7 @@ Collaborative learning with peers worldwide
 ₹4,999for 8 one-to-one classes
 
 - 16 Live Interactive Sessions
-- Small Batch (Max 8 Students)
+- Batch (Max 20 Students)
 - 5+ Portfolio-Ready Projects
 - Industry-Recognized Certificate
 - 24/7 Doubt Support

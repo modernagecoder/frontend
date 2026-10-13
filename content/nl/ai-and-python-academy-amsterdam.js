@@ -51,7 +51,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Modern Age Coders teaches Amsterdam learners aged six to sixty-seven a live online AI and Python track: Python typed by hand, then real data, then models whose error is measured, then agents whose mistakes show. Every project finishes with a short public write-up in the shape the City of Amsterdam uses for its own 73 entries in the national Algoritmeregister: purpose, data, human involvement, risks and how to object. Classes are in English, in groups of five to ten or one to one. The first lesson is free; after it, a group place costs USD 100 a month and one-to-one tuition USD 150.',
+  capsule: 'Modern Age Coders teaches Amsterdam learners aged six to sixty-seven a live online AI and Python track: Python typed by hand, then real data, then models whose error is measured, then agents whose mistakes show. Every project finishes with a short public write-up in the shape the City of Amsterdam uses for its own 73 entries in the national Algoritmeregister: purpose, data, human involvement, risks and how to object. Classes are in English, in groups of fifteen to twenty or one to one. The first lesson is free; after it, a group place costs USD 100 a month and one-to-one tuition USD 150.',
 
   picks: {
     eyebrow: 'Start here',
@@ -193,7 +193,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'The free first lesson', p: 'A proper lesson on a real problem. Watching how the learner works tells the teacher where to start, more reliably than any form.' },
-      { h3: 'Groups of five to ten', p: 'Grouped by ability across many countries, so an advanced Amsterdam learner is stretched and a beginner has company at their level.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Grouped by ability across many countries, so an advanced Amsterdam learner is stretched and a beginner has company at their level.' },
       { h3: 'One to one if preferred', p: 'For irregular working hours, a narrow goal, an exam year, or the Copilot Studio courses, which are only taught individually.' },
       { h3: 'Both screens shared', p: 'The teacher sees the learner\'s code as it is written, so misunderstandings are fixed while they are small.' },
       { h3: 'English, with Dutch terms', p: 'Lessons are in English. Groep, havo, vwo and profielkeuze keep their Dutch names, as Amsterdam families use them.' },
@@ -209,7 +209,7 @@ module.exports = {
     h2: 'What it costs',
     lede: 'Monthly, in US dollars, at the same two rates as every country outside India. No Amsterdam surcharge, no registration fee, no yearly contract. Copilot Studio courses are one to one only and use that rate.',
     free: ['A taught lesson, not a pitch', 'Sets the starting rung', 'No payment details asked'],
-    group: ['Five to ten learners at one level', 'The same live teacher throughout', 'Weekly review of built work', 'Certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same live teacher throughout', 'Weekly review of built work', 'Certificate at the end'],
     one: ['A teacher for one learner', 'Pace and content fitted to the goal', 'The only format for Copilot Studio']
   },
 

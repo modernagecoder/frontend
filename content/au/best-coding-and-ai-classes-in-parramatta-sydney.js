@@ -362,7 +362,7 @@ module.exports = {
       },
       {
         h3: 'Groups by ability',
-        p: 'Classes of five to ten, sorted by how far each learner has come rather than by birthday, with classmates from Parramatta and elsewhere.'
+        p: 'Classes of fifteen to twenty, sorted by how far each learner has come rather than by birthday, with classmates from Parramatta and elsewhere.'
       },
       { h3: 'Two lessons a week', p: 'Usually two lessons a week at a fixed hour, around eight a month, with holiday breaks arranged in advance.' },
       {
@@ -379,7 +379,7 @@ module.exports = {
     h2: 'What lessons cost for Parramatta learners',
     intro: 'Three plain figures, with nothing held back.',
     first: 'One full lesson free, ending with a recommended level, course and time.',
-    group: 'A month of lessons, normally eight, shared with five to ten learners at one level.',
+    group: 'A month of lessons, normally eight, shared with fifteen to twenty learners at one level.',
     private: 'About eight lessons a month on the same rhythm, one teacher and one learner.',
     closer: 'Families outside India are invoiced in US dollars, so there is one price for the whole of Parramatta and no local price list. Payment starts only once the trial has settled a course and a slot; breaks, missed lessons and changing format are explained on the pricing page.'
   },
@@ -428,12 +428,12 @@ module.exports = {
       },
       {
         q: 'How much are coding classes for Parramatta learners?',
-        a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. The course, format and time are agreed before anything is paid.',
+        a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. The course, format and time are agreed before anything is paid.',
         boiler: true
       },
       {
         q: 'How large are the groups?',
-        a: 'Five to ten learners, grouped by level, pace and goal rather than age or suburb. If no group suits the time a learner needs, one-to-one lessons are offered.',
+        a: 'Fifteen to twenty learners, grouped by level, pace and goal rather than age or suburb. If no group suits the time a learner needs, one-to-one lessons are offered.',
         boiler: true
       }
     ]

@@ -55,7 +55,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Modern Age Coders teaches students in the Netherlands to build AI agents, programs that take a goal, plan their steps and use tools, as a subject of study rather than a shortcut through coursework. Students learn how language models work, how agents call tools and retrieve documents, how to evaluate what an agent does and how to log and disclose it, in line with the kind of rules Dutch universities now publish. Lessons are live, in English, in groups of five to ten or one to one. The first lesson is free; after that a group place is USD 100 a month and one-to-one tuition USD 150, and the Copilot Studio course for students is one to one only.',
+  capsule: 'Modern Age Coders teaches students in the Netherlands to build AI agents, programs that take a goal, plan their steps and use tools, as a subject of study rather than a shortcut through coursework. Students learn how language models work, how agents call tools and retrieve documents, how to evaluate what an agent does and how to log and disclose it, in line with the kind of rules Dutch universities now publish. Lessons are live, in English, in groups of fifteen to twenty or one to one. The first lesson is free; after that a group place is USD 100 a month and one-to-one tuition USD 150, and the Copilot Studio course for students is one to one only.',
 
   picks: {
     eyebrow: 'Start here',
@@ -184,7 +184,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first lesson', p: 'You build a very small agent with a teacher, who sees your level and proposes a route.' },
-      { h3: 'Groups of five to ten', p: 'Students at the same level, useful for comparing how different agents fail on the same task.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Students at the same level, useful for comparing how different agents fail on the same task.' },
       { h3: 'One to one for theses', p: 'For a thesis or project with an agent component, and for the Copilot Studio course.' },
       { h3: 'Logs from the start', p: 'Every agent writes a log from its first run, so evaluation and disclosure are never an afterthought.' },
       { h3: 'In English', p: 'The language of the models, the tools and most technical master\'s programmes here.' },
@@ -200,7 +200,7 @@ module.exports = {
     h2: 'Fees for students',
     lede: 'Monthly, in US dollars, at the same rates as every country outside India. No enrolment fee and no annual contract. The Copilot Studio course is private tuition only and uses the one-to-one rate.',
     free: ['A real lesson building a small agent', 'A route proposed before any payment', 'No card needed'],
-    group: ['Five to ten students at one level', 'The same live teacher each week', 'Agents reviewed weekly', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same live teacher each week', 'Agents reviewed weekly', 'A certificate at the end'],
     one: ['A teacher for one student', 'Built around a thesis or project', 'The only format for Copilot Studio']
   },
 

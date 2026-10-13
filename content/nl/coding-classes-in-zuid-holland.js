@@ -181,7 +181,7 @@ module.exports = {
     h2: 'Two prices for fifty municipalities, and a free hour before either',
     intro: 'The full tariff, printed before anyone asks for a number.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'The international tariff is a single dollar figure with no euro version, and Wassenaar pays what Sliedrecht pays. The free lesson comes first and fixes the course and the hour; payment follows on WhatsApp. Pauses, plan changes and missed lessons: see the pricing page.'
   },
@@ -206,7 +206,7 @@ module.exports = {
       { q: 'What time are classes for a family in Zuid-Holland?', a: 'India keeps one time all year and the Netherlands keeps two, which puts a Zuid-Holland afternoon four and a half hours behind the teacher in winter and three and a half in summer. Late afternoon, early evening and the weekend suit both sides, and the hour a family keeps is settled in the free lesson.' },
       { q: 'What happens in the free lesson?', a: 'We find what the learner can do and set one task there. A child counts toy houses inside a loop of string that then moves. A teenager writes the aggregator and feeds it four Randstad readings. An adult brings a regional total from work. It finishes with a named course, a starting level, an agreed hour each week and the dollar fee stated aloud, and nobody has paid for anything.' },
       { q: 'Is there a Modern Age Coders classroom anywhere in Zuid-Holland?', a: 'No, and none is claimed in The Hague, in Rotterdam or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Zuid-Holland coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Zuid-Holland coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in a Zuid-Holland group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or municipality. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

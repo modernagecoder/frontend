@@ -12,7 +12,7 @@ Live online · serving Bokaro
 
 Real programming for kids, teens and college students in Bokaro, from **City Centre (Sector 4) to Sector 1, Sector 2 to Sector 3**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Bokaro)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**BokaroEnrollingAreasCity Centre (Sector 4), Sector 1, Sector 2, Sector 3, Sector 5 & all of BokaroBoardsJAC · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across BokaroFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Bokaro)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**BokaroEnrollingAreasCity Centre (Sector 4), Sector 1, Sector 2, Sector 3, Sector 5 & all of BokaroBoardsJAC · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across BokaroFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for Bokaro's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Bokaro: FAQs
 
-Which is the best coding class in Bokaro for kids?Modern Age Coders runs Bokaro Steel City's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python. Batches are small (5-8 students), project-based, and taught by industry instructors. We serve every part of the township and district: City Centre (Sector 4), Sector 1, 2, 3, 5, 9, 12, Cooperative Colony, Chas, Balidih and nearby Bermo, Phusro, Chandankiyari and Tenughat.Are the classes online, and do you cover all of Bokaro and the district?Yes. Every class is live and online, so the whole sector-planned township is covered equally, City Centre, Sector 9, Sector 12, Cooperative Colony, the Steel Plant colonies and Chas, along with the wider district including Bermo, Phusro, Chandankiyari, Tenughat, Chandrapura and Gomia. Your child joins the same expert teacher from home, with sessions that are fully interactive with live coding, screen-sharing and saved recordings.How much do coding classes cost in Bokaro?Group classes (5-8 students) start at Rs.1499/month for 2 live classes per week. The Mini Batch (3-4 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Bokaro families value stable engineering careers, does coding fit that?It fits perfectly. Bokaro was designed sector by sector by engineers, and it raised generations of skilled steel-plant and professional families who prize stable technical careers. Coding sharpens the structured, systems-thinking those careers reward, and it opens a future-proof, globally portable path your child can build right here in Bokaro, remote, freelance and product roles are all in reach, with no need to migrate to Bengaluru or Pune to begin.Does this fit CBSE, ICSE and Jharkhand Board (JAC) students in Bokaro?Yes. We teach students from CBSE, ICSE and Jharkhand Board (JAC) schools across Bokaro, whatever board your child follows. Coding supports school Computer Science, Informatics Practices and the NEP-2020 AI modules, while strengthening the maths and reasoning that help in board exams and engineering preparation.What age is best to start coding in Bokaro?Age 8 is ideal to begin with visual block-based coding (Scratch). For text-based languages like Python and Java, age 12-13 onwards works best. We design separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always matches the child.Do you prepare Bokaro college and engineering students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is designed for engineering students and serious aspirants in the BIT Sindri orbit and across Jharkhand who are targeting product companies, GCCs and remote roles, without having to relocate.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and if the first paid week is not right for your child we return the money in full, no questions asked.Do you teach coding to Jharkhand Academic Council students in Bokaro?Yes. Bokaro schools run the Jharkhand Academic Council board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about.How does a Bokaro student get into engineering?Jharkhand fills B.Tech seats on JEE Main rank through a state merit list and counselling, not a separate state engineering exam. College students are welcome on the college track wherever they study: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown to a recruiter.
+Which is the best coding class in Bokaro for kids?Modern Age Coders runs Bokaro Steel City's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python. Batches are small (15-20 students), project-based, and taught by industry instructors. We serve every part of the township and district: City Centre (Sector 4), Sector 1, 2, 3, 5, 9, 12, Cooperative Colony, Chas, Balidih and nearby Bermo, Phusro, Chandankiyari and Tenughat.Are the classes online, and do you cover all of Bokaro and the district?Yes. Every class is live and online, so the whole sector-planned township is covered equally, City Centre, Sector 9, Sector 12, Cooperative Colony, the Steel Plant colonies and Chas, along with the wider district including Bermo, Phusro, Chandankiyari, Tenughat, Chandrapura and Gomia. Your child joins the same expert teacher from home, with sessions that are fully interactive with live coding, screen-sharing and saved recordings.How much do coding classes cost in Bokaro?Group classes (15-20 students) start at Rs.1499/month for 2 live classes per week. The Mini Batch (up to 6 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Bokaro families value stable engineering careers, does coding fit that?It fits perfectly. Bokaro was designed sector by sector by engineers, and it raised generations of skilled steel-plant and professional families who prize stable technical careers. Coding sharpens the structured, systems-thinking those careers reward, and it opens a future-proof, globally portable path your child can build right here in Bokaro, remote, freelance and product roles are all in reach, with no need to migrate to Bengaluru or Pune to begin.Does this fit CBSE, ICSE and Jharkhand Board (JAC) students in Bokaro?Yes. We teach students from CBSE, ICSE and Jharkhand Board (JAC) schools across Bokaro, whatever board your child follows. Coding supports school Computer Science, Informatics Practices and the NEP-2020 AI modules, while strengthening the maths and reasoning that help in board exams and engineering preparation.What age is best to start coding in Bokaro?Age 8 is ideal to begin with visual block-based coding (Scratch). For text-based languages like Python and Java, age 12-13 onwards works best. We design separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always matches the child.Do you prepare Bokaro college and engineering students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is designed for engineering students and serious aspirants in the BIT Sindri orbit and across Jharkhand who are targeting product companies, GCCs and remote roles, without having to relocate.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and if the first paid week is not right for your child we return the money in full, no questions asked.Do you teach coding to Jharkhand Academic Council students in Bokaro?Yes. Bokaro schools run the Jharkhand Academic Council board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being something your child only reads about.How does a Bokaro student get into engineering?Jharkhand fills B.Tech seats on JEE Main rank through a state merit list and counselling, not a separate state engineering exam. College students are welcome on the college track wherever they study: real Python, Java, full-stack or AI/ML work, built until it runs and can be shown to a recruiter.
 
 ## Ready to start your child's coding journey in Bokaro?
 

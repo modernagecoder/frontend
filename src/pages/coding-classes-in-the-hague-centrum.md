@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Den Haag Centrum, The
 canonical: https://learn.modernagecoders.com/coding-classes-in-the-hague-centrum
 source: src/pages/coding-classes-in-the-hague-centrum.html
 ---
-> Coding classes in Den Haag Centrum reach the middle stadsdeel of The Hague, 8 wijken and 17 buurten on 7.8 square kilometres. Wijk 27 Stationsbuurt holds 8,515 households averaging 1.5 people, 6,050 of them a single person, 71 percent. Wijk 29 Schildersbuurt holds 13,685 households averaging 2.2, 6,365 of them single at 47 percent. One of those pairs is a failure and the other a success, and which is which reverses depending on a standard that appears in no column of the table. Modern Age Coders teaches live online in English from the Archipelbuurt to the Groente- en Fruitmarkt, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Den Haag Centrum reach the middle stadsdeel of The Hague, 8 wijken and 17 buurten on 7.8 square kilometres. Wijk 27 Stationsbuurt holds 8,515 households averaging 1.5 people, 6,050 of them a single person, 71 percent. Wijk 29 Schildersbuurt holds 13,685 households averaging 2.2, 6,365 of them single at 47 percent. One of those pairs is a failure and the other a success, and which is which reverses depending on a standard that appears in no column of the table. Modern Age Coders teaches live online in English from the Archipelbuurt to the Groente- en Fruitmarkt, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [The Hague](/coding-classes-in-the-hague) / Den Haag Centrum
 
@@ -12,11 +12,11 @@ Centrum, Den Haag / Live online
 
 # Coding classes in Den Haag Centrum, where nothing in the table says what any of these eight wijken is for
 
-**What are the best coding classes in Den Haag Centrum?** Coding classes in Den Haag Centrum reach the middle stadsdeel of The Hague, 8 wijken and 17 buurten on 7.8 square kilometres. Wijk 27 Stationsbuurt holds 8,515 households averaging 1.5 people, 6,050 of them a single person, 71 percent. Wijk 29 Schildersbuurt holds 13,685 households averaging 2.2, 6,365 of them single at 47 percent. One of those pairs is a failure and the other a success, and which is which reverses depending on a standard that appears in no column of the table. Modern Age Coders teaches live online in English from the Archipelbuurt to the Groente- en Fruitmarkt, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Den Haag Centrum?** Coding classes in Den Haag Centrum reach the middle stadsdeel of The Hague, 8 wijken and 17 buurten on 7.8 square kilometres. Wijk 27 Stationsbuurt holds 8,515 households averaging 1.5 people, 6,050 of them a single person, 71 percent. Wijk 29 Schildersbuurt holds 13,685 households averaging 2.2, 6,365 of them single at 47 percent. One of those pairs is a failure and the other a success, and which is which reverses depending on a standard that appears in no column of the table. Modern Age Coders teaches live online in English from the Archipelbuurt to the Groente- en Fruitmarkt, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Put the two numbers side by side and the urge to grade them is immediate. A wijk where households average 1.5 people looks thin, transient, hollowed out. A wijk where they average 2.2 looks settled. But grading requires a standard, the standard has to say what a wijk is supposed to be, and no such statement exists anywhere in the statistics. Import one that values family housing and the verdicts fall one way. Import one that values a compact centre of small households near the stations and both verdicts flip, with not a single digit changed. The numbers were never the disputed part.
 
-Facts last verified 10 September 2026. Teaching is online; no Den Haag Centrum branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 September 2026. Teaching is online; no Den Haag Centrum branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the middle of The Hague
 
@@ -188,14 +188,14 @@ Stadsdeel Centrum is compact, densely built and well served by two railway stati
 - **Two a week, and regio Midden already accounted for** Around eight lessons in a month at a fixed hour. Zuid-Holland takes its school holidays with regio Midden, published a long way ahead, so the weeks off are part of the plan from the first conversation rather than a surprise in February.
 - **Three and a half hours, or four and a half** The teacher sits in India, which has not moved its clock in decades, so the gap changes only because the Dutch one does, twice a year. Neither setting touches the hours a family here would use anyway.
 
-**The two ends of the stadsdeel, and what neither guarantees** The Schilderswijk has 5,105 residents under fifteen and 15 primary establishments teaching 4,476 pupils; the Archipelbuurt has 6,269 residents in total and a single primary establishment with 213. Those are very different places to be eleven years old. What neither of them supplies is five to ten learners at one particular stage of one particular subject, in the same month, within reach of one particular family, because a stage is thin wherever you stand and thinness is not solved by density. Groups here are assembled on ability from across the world, at every age from 6 to 67.
+**The two ends of the stadsdeel, and what neither guarantees** The Schilderswijk has 5,105 residents under fifteen and 15 primary establishments teaching 4,476 pupils; the Archipelbuurt has 6,269 residents in total and a single primary establishment with 213. Those are very different places to be eleven years old. What neither of them supplies is fifteen to twenty learners at one particular stage of one particular subject, in the same month, within reach of one particular family, because a stage is thin wherever you stand and thinness is not solved by density. Groups here are assembled on ability from across the world, at every age from 6 to 67.
 
 ## The fee, in dollars, in all eight wijken
 
 Printed here rather than held back for a phone call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate quoted in dollars, with no euro edition, so an address in the Archipelbuurt is charged exactly what one in the Transvaalkwartier is charged. Nothing is paid until the free lesson has settled a course and an hour, and payment is arranged over WhatsApp afterwards. Pausing, switching plan and missing a week are all set out on the pricing page.
@@ -236,7 +236,7 @@ No, and none is claimed here, elsewhere in The Hague or anywhere in the Netherla
 
 ### What do Den Haag Centrum coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

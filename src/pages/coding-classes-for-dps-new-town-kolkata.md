@@ -191,7 +191,7 @@ Curriculum mapped to CBSE Computer Science syllabus for direct academic advantag
 
 ### Tiny Batches
 
-Max 5-8 students per batch ensures personalized attention for every learner
+Max 20 students per batch ensures personalized attention for every learner
 
 ### Real Projects
 
@@ -323,7 +323,7 @@ Collaborative learning with peers
 
 ₹1,499/month
 
-- ✓ 5-8 Students per Batch
+- ✓ 15-20 Students per Batch
 - ✓ 2 Live Classes per Week
 - ✓ Peer Learning & Team Projects
 - ✓ Recorded Sessions Access
@@ -353,7 +353,7 @@ Parents across Rajarhat and New Town are in constant search of premium online co
 
 We comprehensively cover the modern technological spectrum: starting with engaging **Scratch and web design for younger learners (Classes 1-5)**, advancing to rigorous **Python and Java for middle school (Classes 6-10)**, and culminating in advanced **Artificial Intelligence, Machine Learning, and Full Stack Development for high schoolers (Classes 11-12)**. Rather than generic instruction, every line of code taught maps directly to enhancing their cognitive abilities and CBSE Computer Science performance. Additionally, our **CBSE Mathematics mastery courses** ensure students are fully armored for JEE Main, Advanced, and international math Olympiads.
 
-Unlike diluted ed-tech massive open online courses, we strictly maintain a hyper-focused batch size of just 5-8 students. This ensures that every individual DPS New Town student receives bespoke mentorship from our industry-vetted instructors. We completely understand the bustling lifestyle of a Rajarhat family, which is why we provide both flexible after-school evening schedules and specialized weekend deep-dives. Every single lecture is recorded in ultra-high definition, guaranteeing your child never misses crucial concepts during heavy exam seasons or school-mandated events.
+Unlike diluted ed-tech massive open online courses, we strictly maintain a hyper-focused batch size of just 15-20 students. This ensures that every individual DPS New Town student receives bespoke mentorship from our industry-vetted instructors. We completely understand the bustling lifestyle of a Rajarhat family, which is why we provide both flexible after-school evening schedules and specialized weekend deep-dives. Every single lecture is recorded in ultra-high definition, guaranteeing your child never misses crucial concepts during heavy exam seasons or school-mandated events.
 
 We have established a formidable reputation in the Salt Lake and New Town sectors. Our graduates possess recognized certifications that substantially strengthen university portfolios and college applications. Give your child the definitive advantage in today's digital economy. Secure their slot in our **free introductory demo class** today and discover why parents from DPS New Town trust Modern Age Coders for their technical education!
 
@@ -368,7 +368,7 @@ Premium quality education at honest prices. No hidden fees, no surprises. Transp
 ₹1,499/month
 
 - ✓ 2 Live Classes per Week
-- ✓ Small Batch Size (5-8 Students)
+- ✓ Batch Size (15-20 Students)
 - ✓ Recorded Sessions Access
 - ✓ Doubt Clearing Support
 - ✓ Project-Based Learning
@@ -431,7 +431,7 @@ Children can start as early as 6-8 years old with our Scratch programming course
 
 +
 
-Our group coding classes start at just ₹1499/month with 2 live classes per week in small batches of 5-8 students. Mini Batch (3-4 students) is available at ₹2,999/month. For personalized 1-on-1 classes with customized CBSE curriculum, we offer sessions at ₹4,999/month. We provide a free demo class before enrollment so you can experience our teaching quality firsthand. No hidden fees, no long-term commitments required.
+Our group coding classes start at just ₹1499/month with 2 live classes per week in batches of 15-20 students. Mini Batch (up to 6 students) is available at ₹2,999/month. For personalized 1-on-1 classes with customized CBSE curriculum, we offer sessions at ₹4,999/month. We provide a free demo class before enrollment so you can experience our teaching quality firsthand. No hidden fees, no long-term commitments required.
 
 ### Do you offer classes during school vacations?
 

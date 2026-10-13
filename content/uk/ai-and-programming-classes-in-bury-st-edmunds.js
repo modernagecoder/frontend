@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'AI and programming classes in Bury St Edmunds',
   capsuleQ: 'Where can Bury St Edmunds learners find the best AI and programming classes?',
-  capsule: 'The ONS counted 41,280 usual residents in the Bury St Edmunds built-up area in 2021, and 179,948 across the West Suffolk district. The town\'s council wards include Moreton Hall, Tollgate, Minden, Abbeygate, Westgate, St Olaves, Southgate and Eastgate. Our India-based tutors teach AI, programming, Python, vibe coding and maths over live video to anyone from six to 67 in the town, either alone or alongside five to ten classmates working at the same level. For Bury St Edmunds we built a project around a question at the heart of every recommendation engine: if some numbers in a table are missing, can a model guess them from the rest? Learners hide census cells, fit a low-rank model and find out when extra flexibility starts to hurt. A trial lesson is free; group lessons then cost USD 100 a month and one-to-one lessons USD 150 a month.',
+  capsule: 'The ONS counted 41,280 usual residents in the Bury St Edmunds built-up area in 2021, and 179,948 across the West Suffolk district. The town\'s council wards include Moreton Hall, Tollgate, Minden, Abbeygate, Westgate, St Olaves, Southgate and Eastgate. Our India-based tutors teach AI, programming, Python, vibe coding and maths over live video to anyone from six to 67 in the town, either alone or alongside fifteen to twenty classmates working at the same level. For Bury St Edmunds we built a project around a question at the heart of every recommendation engine: if some numbers in a table are missing, can a model guess them from the rest? Learners hide census cells, fit a low-rank model and find out when extra flexibility starts to hurt. A trial lesson is free; group lessons then cost USD 100 a month and one-to-one lessons USD 150 a month.',
   lead: 'A streaming service knows what you have watched but not what you would think of the thousands of films you have not. Filling in those blanks is called matrix completion, and the classic trick is to assume the whole table can be rebuilt from a few hidden patterns. Bury St Edmunds learners test that assumption on something they can check: how people in each of the town\'s 141 census areas travel to work. They hide a fifth of the numbers, ask the model to fill them in, and then compare its guesses with the truth.',
   wa: 'Hello Modern Age Coders, we are in Bury St Edmunds and would like a free AI or programming lesson.',
 
@@ -158,7 +158,7 @@ module.exports = {
       { h3: 'The learner drives', p: 'Our tutors question and nudge; learners write, run and debug the code themselves.' },
       { h3: 'Level first, course second', p: 'We recommend a course only after the free lesson has shown what the learner can already do.' },
       { h3: 'A real lesson, free', p: 'The trial is a full session with no charge and no card requested.' },
-      { h3: 'Matched groups', p: 'Five to ten learners at one level, drawn from towns across the UK.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners at one level, drawn from towns across the UK.' },
       { h3: 'Term-time rhythm', p: 'Two lessons a week; tell us your Suffolk holiday dates and we pause for them.' },
       { h3: 'Clock changes absorbed', p: 'The lesson keeps its UK time through March and October; the tutor adjusts instead.' }
     ],

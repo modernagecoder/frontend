@@ -318,7 +318,7 @@ module.exports = {
       { h3: 'Code on a shared screen', p: 'The learner types; the teacher reads along and asks why each line is there.' },
       { h3: 'Queensland terms', p: 'Plans follow the state school calendar, with breaks in the holidays.' },
       { h3: 'A first lesson free', p: 'A full trial class with real content, ending in a clear recommendation.' },
-      { h3: 'Groups of five to ten', p: 'Learners matched by level and pace, or taught one to one.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners matched by level and pace, or taught one to one.' },
       { h3: 'Two classes weekly', p: 'Set times each week, about eight lessons in a month.' },
       { h3: 'Teachers in India', p: 'A 4:30pm lesson in The Gap starts at 12 noon India time, and that gap never moves.' }
     ],
@@ -331,7 +331,7 @@ module.exports = {
     h2: 'Fees for The Gap',
     intro: 'The same three prices for every family.',
     first: 'The first lesson is free and comes with a written suggestion for what to do next.',
-    group: 'A month of group classes, usually eight, with five to ten learners at a matched level.',
+    group: 'A month of group classes, usually eight, with fifteen to twenty learners at a matched level.',
     private: 'About eight lessons a month with one teacher for one learner.',
     closer: 'Families in The Gap pay in US dollars, and only after the trial, once a course and a weekly time are settled. Rules for holidays, missed lessons and switching formats sit on the pricing page.'
   },
@@ -376,12 +376,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for The Gap learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Is Copilot Studio taught in groups?', a: 'No. Copilot Studio is taught one to one only; group learners build their agents in Python instead.' }

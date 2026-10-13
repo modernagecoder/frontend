@@ -191,7 +191,7 @@ Teachers work from India, behind Brisbane by four and a half hours all year, as 
 
 - **Grids on paper** Children draw and fill logic grids as they reason.
 - **Explain the deduction** Every placed answer comes with its reason.
-- **Five to ten per group** Children at similar levels learn together.
+- **Fifteen to twenty per group** Children at similar levels learn together.
 - **One-to-one lessons** Available when focused help suits better.
 - **Not test coaching** We teach reasoning and maths, not test drills.
 - **No admissions claims** Selection is the academies' decision alone.
@@ -201,7 +201,7 @@ Teachers work from India, behind Brisbane by four and a half hours all year, as 
 Queensland families pay each month in US dollars, our rate in every country except India. No deposit, and you can stop at any month end.
 
 - Free first class: USD 0. A real lesson with a teacher. Honest advice about next steps. No card required.
-- Group batch: USD 100 a month. Five to ten children at one level. One regular teacher. Feedback on every puzzle. Certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. One regular teacher. Feedback on every puzzle. Certificate at the end.
 - One to one: USD 150 a month. One teacher, one child. Focus on chosen skills. Times that suit you.
 
 ## Queensland families ask

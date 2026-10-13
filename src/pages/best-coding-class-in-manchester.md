@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Manchester le
 canonical: https://learn.modernagecoders.com/best-coding-class-in-manchester
 source: src/pages/best-coding-class-in-manchester.html
 ---
-> Manchester is where the stored program began: on 21 June 1948 the University of Manchester's Small-Scale Experimental Machine, the Baby, became the first computer to run a program stored in its own electronic memory. The city it belongs to is unusually young. Census 2021 counted 551,938 residents, with 11.2% aged 20 to 24 against 6.0% across England, and 30.2% of residents aged five and over in full-time education or at school, against 20.4% nationally. We teach Manchester learners aged 6 to 67 live and online, in ability groups of five to ten or one to one, with a weekly hour written in UK time and teachers working from India. The first lesson costs nothing; afterwards a group place is USD 100 a month and one-to-one teaching USD 150.
+> Manchester is where the stored program began: on 21 June 1948 the University of Manchester's Small-Scale Experimental Machine, the Baby, became the first computer to run a program stored in its own electronic memory. The city it belongs to is unusually young. Census 2021 counted 551,938 residents, with 11.2% aged 20 to 24 against 6.0% across England, and 30.2% of residents aged five and over in full-time education or at school, against 20.4% nationally. We teach Manchester learners aged 6 to 67 live and online, in ability groups of fifteen to twenty or one to one, with a weekly hour written in UK time and teachers working from India. The first lesson costs nothing; afterwards a group place is USD 100 a month and one-to-one teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Manchester
 
@@ -12,11 +12,11 @@ Manchester, Greater Manchester, England / Live online
 
 # Coding classes in Manchester
 
-**What are the best coding classes in Manchester?** Manchester is where the stored program began: on 21 June 1948 the University of Manchester's Small-Scale Experimental Machine, the Baby, became the first computer to run a program stored in its own electronic memory. The city it belongs to is unusually young. Census 2021 counted 551,938 residents, with 11.2% aged 20 to 24 against 6.0% across England, and 30.2% of residents aged five and over in full-time education or at school, against 20.4% nationally. We teach Manchester learners aged 6 to 67 live and online, in ability groups of five to ten or one to one, with a weekly hour written in UK time and teachers working from India. The first lesson costs nothing; afterwards a group place is USD 100 a month and one-to-one teaching USD 150.
+**What are the best coding classes in Manchester?** Manchester is where the stored program began: on 21 June 1948 the University of Manchester's Small-Scale Experimental Machine, the Baby, became the first computer to run a program stored in its own electronic memory. The city it belongs to is unusually young. Census 2021 counted 551,938 residents, with 11.2% aged 20 to 24 against 6.0% across England, and 30.2% of residents aged five and over in full-time education or at school, against 20.4% nationally. We teach Manchester learners aged 6 to 67 live and online, in ability groups of fifteen to twenty or one to one, with a weekly hour written in UK time and teachers working from India. The first lesson costs nothing; afterwards a group place is USD 100 a month and one-to-one teaching USD 150.
 
 The River Medlock runs through the middle of Manchester, and the Environment Agency watches it at two points inside the city: Gurney Street in Ancoats and London Road further down. Both gauges report a water level every fifteen minutes, and both sets of readings are free to download. Put them side by side and an obvious question appears: how long does a rise at Gurney Street take to reach London Road? The first thing most people try gives a useless answer. The two level series correlate at 0.84 or better at every delay from none to two hours, because both are dominated by the same slow drift, so the number cannot say which delay is right. Correlate the changes instead, quarter hour by quarter hour, and the answer jumps out: a negative correlation at no delay, rising to a clear peak at 45 to 60 minutes. That difference, between the levels and the changes, is the lesson this city's own river teaches our teenage learners here.
 
-Facts last verified 21 September 2026. Teaching is online; no Manchester branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 21 September 2026. Teaching is online; no Manchester branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the city that ran the first program
 
@@ -191,7 +191,7 @@ Manchester runs from Wythenshawe in the south to Blackley in the north, and a li
 - **No journey across town** A learner in Levenshulme and one in Moss Side can share a lesson from their own desks, and nobody waits at a stop in the rain.
 - **English stages by name** Reception, the Key Stages, Year 9 options, GCSEs and A levels keep the names Manchester schools use, and lessons are taught in English.
 - **A real first lesson** A proper lesson on a real task, then a clear recommendation of level, course and weekly hour. No card details at any stage.
-- **Groups by ability** Five to ten learners at the same level, gathered from Manchester, the rest of the UK and other countries, so every stage finds a workable hour.
+- **Groups by ability** Fifteen to twenty learners at the same level, gathered from Manchester, the rest of the UK and other countries, so every stage finds a workable hour.
 - **Two lessons most weeks** Roughly eight a month at a fixed time, with breaks for half term, exams and holidays agreed with the teacher.
 - **Teachers on India time** India does not change its clocks, so our teachers are four and a half hours ahead of Manchester in summer and five and a half in winter, which puts UK afternoons and evenings inside their working day.
 
@@ -202,7 +202,7 @@ Manchester runs from Wythenshawe in the south to Blackley in the north, and a li
 Three figures, and nothing hidden behind them.
 
 - First class: USD 0. A full lesson at no cost, ending with a level, a recommended course and a suggested weekly hour.
-- Group tuition: USD 100 a month. A month of teaching, usually eight lessons, with five to ten learners of the same ability.
+- Group tuition: USD 100 a month. A month of teaching, usually eight lessons, with fifteen to twenty learners of the same ability.
 - Private tuition: USD 150 a month. The same monthly rhythm of around eight lessons, with one teacher for one learner.
 
 Fees are set in US dollars, the single rate for every family outside India, so Didsbury and Harpurhey pay exactly the same and there is no pound price list. Nothing is charged until the free lesson has settled a course and an hour, and the pricing page explains pauses, missed lessons and changes of format.
@@ -243,11 +243,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Manchester coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same schedule one to one. Course, format and hour are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same schedule one to one. Course, format and hour are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or postcode. If no suitable group meets at a workable hour, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or postcode. If no suitable group meets at a workable hour, one-to-one lessons are offered instead.
 
 ## Other cities, and the national pages
 

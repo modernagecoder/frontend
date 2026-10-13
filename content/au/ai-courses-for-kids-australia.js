@@ -248,7 +248,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Trial lesson free', p: 'Your child sorts, trains and tests something small with a teacher. No card is asked for.' },
-      { h3: 'Five to ten children', p: 'Small groups that compare results and argue about mistakes.' },
+      { h3: 'Fifteen to twenty children', p: 'Small groups that compare results and argue about mistakes.' },
       { h3: 'Private option', p: 'Lessons tailored to one child\'s pace and curiosity.' },
       { h3: 'No adult chatbots', p: 'Children\'s courses do not need any adult AI account.' },
       { h3: 'Mistakes on purpose', p: 'Children break models deliberately to see why they fail.' },
@@ -264,7 +264,7 @@ module.exports = {
     h2: 'Fees for AI courses for kids',
     lede: 'For families outside India, one monthly fee in US dollars covers lessons. Nothing to pay up front to enrol, and no minimum number of months.',
     free: ['A small sort, train and test activity', 'Honest advice on the right starting point', 'No card or bank details'],
-    group: ['Five to ten children per class', 'Results compared and discussed', 'A teacher who knows your child', 'Stop after any month'],
+    group: ['Fifteen to twenty children per class', 'Results compared and discussed', 'A teacher who knows your child', 'Stop after any month'],
     one: ['Lessons built around your child\'s questions', 'Pace that suits them', 'Times around school and activities']
   },
 

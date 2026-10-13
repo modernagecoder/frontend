@@ -203,14 +203,14 @@ Our teachers are in India, which keeps the same clock all year, so Wales is four
 - **By hand for Unit 2** Non-calculator number and algebra practised every week.
 - **Whole course for Unit 3** Statistics, geometry and measures covered in full, not left to the end.
 - **Tier by unit** Each unit taught at the tier the school has chosen for it.
-- **Small groups** Five to ten pupils at one rung, comparing methods.
+- **Small groups** Fifteen to twenty pupils at one rung, comparing methods.
 
 ## Fees for GCSE maths lessons
 
 Charged monthly in US dollars, at the single rate every family outside India pays. A first lesson costs nothing, and billing only starts once you have picked a course and a weekly slot.
 
 - Free first class: USD 0. A lesson on real WJEC-style questions. A view on the right tier for each unit. A phone number is enough.
-- Group batch: USD 100 a month. Five to ten pupils on one rung. The same teacher across the course. Finance and non-calculator work weekly. Fewer lessons near each series.
+- Group batch: USD 100 a month. Fifteen to twenty pupils on one rung. The same teacher across the course. Finance and non-calculator work weekly. Fewer lessons near each series.
 - One to one: USD 150 a month. A teacher for one pupil. Planned around mixed tiers and dates. Suits a pupil resitting a unit.
 
 ## What families in Wales ask

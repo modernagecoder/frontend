@@ -149,9 +149,9 @@ Adults automate, analyse or build an application around a defined process.
 
 The first class is free and checks current ability.
 
-### Small group
+### Group
 
-Five to eight learners work at a compatible level.
+Fifteen to twenty learners work at a compatible level.
 
 ### Private
 
@@ -181,7 +181,7 @@ No enrolment charge, nothing to buy, no minimum term.
 
 GroupUSD 100monthly, 8 live classes
 
-Five to eight learners after level matching.
+Fifteen to twenty learners after level matching.
 
 PrivateUSD 150monthly, 8 live classes
 
@@ -281,7 +281,7 @@ Oman is one and a half hours behind India. A recurring lesson may fit Sunday to 
 
 ### What are the fees for coding classes in Al Mouj?
 
-A group of five to eight learners costs USD 100 a month. One-to-one private teaching costs USD 150 a month. Both plans normally meet twice each week and include eight live lessons a month. The first class is free. There is no enrolment fee, separate materials fee or minimum term.
+A group of fifteen to twenty learners costs USD 100 a month. One-to-one private teaching costs USD 150 a month. Both plans normally meet twice each week and include eight live lessons a month. The first class is free. There is no enrolment fee, separate materials fee or minimum term.
 
 ### Can an adult who works from Al Mouj join?
 

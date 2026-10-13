@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Hillingdon: U
 canonical: https://learn.modernagecoders.com/coding-classes-in-hillingdon-london
 source: src/pages/coding-classes-in-hillingdon-london.html
 ---
-> Hillingdon is London's far-western borough, from Harefield and Northwood down through Ruislip, Uxbridge and Hayes to West Drayton and Heathrow, and 305,909 people lived there at the 2021 Census. Its council lists sixteen libraries, and Uxbridge station is served by both the Metropolitan and Piccadilly lines. A good class for a Hillingdon learner should teach them to ask what a chart is hiding, and this page's project does it with the Met Office weather record kept at Heathrow since 1948. Our teachers work live over video from India, one to one or with five to ten learners at the same level, for ages 6 to 67. The first lesson is free, and after it a group place costs USD 100 a month and private lessons USD 150 a month.
+> Hillingdon is London's far-western borough, from Harefield and Northwood down through Ruislip, Uxbridge and Hayes to West Drayton and Heathrow, and 305,909 people lived there at the 2021 Census. Its council lists sixteen libraries, and Uxbridge station is served by both the Metropolitan and Piccadilly lines. A good class for a Hillingdon learner should teach them to ask what a chart is hiding, and this page's project does it with the Met Office weather record kept at Heathrow since 1948. Our teachers work live over video from India, one to one or with fifteen to twenty learners at the same level, for ages 6 to 67. The first lesson is free, and after it a group place costs USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Hillingdon
 
@@ -12,11 +12,11 @@ London Borough of Hillingdon / Live online
 
 # Coding classes in Hillingdon
 
-**What are the best coding classes in Hillingdon?** Hillingdon is London's far-western borough, from Harefield and Northwood down through Ruislip, Uxbridge and Hayes to West Drayton and Heathrow, and 305,909 people lived there at the 2021 Census. Its council lists sixteen libraries, and Uxbridge station is served by both the Metropolitan and Piccadilly lines. A good class for a Hillingdon learner should teach them to ask what a chart is hiding, and this page's project does it with the Met Office weather record kept at Heathrow since 1948. Our teachers work live over video from India, one to one or with five to ten learners at the same level, for ages 6 to 67. The first lesson is free, and after it a group place costs USD 100 a month and private lessons USD 150 a month.
+**What are the best coding classes in Hillingdon?** Hillingdon is London's far-western borough, from Harefield and Northwood down through Ruislip, Uxbridge and Hayes to West Drayton and Heathrow, and 305,909 people lived there at the 2021 Census. Its council lists sixteen libraries, and Uxbridge station is served by both the Metropolitan and Piccadilly lines. A good class for a Hillingdon learner should teach them to ask what a chart is hiding, and this page's project does it with the Met Office weather record kept at Heathrow since 1948. Our teachers work live over video from India, one to one or with fifteen to twenty learners at the same level, for ages 6 to 67. The first lesson is free, and after it a group place costs USD 100 a month and private lessons USD 150 a month.
 
 Draw a straight line through 78 years of Heathrow temperatures and it tells a calm story: about 0.31 degrees of warming every decade, steady from 1948 to today. Let a program bend the line to follow the data, using a method called LOESS, and a different story appears. From 1949 to 1985 the smoothed curve barely moves, a quarter of a degree in 36 years. From 1985 to 2025 it climbs almost two degrees. Same data, same station, and a completely different answer to the question most people actually ask: when did it happen? Choosing how much to bend the line is its own lesson. Bend too little and you hide the change; bend too much and you chase every hot summer. Our learners let the data choose, by leaving out one year at a time and testing which setting predicts it most closely.
 
-Facts last verified 25 September 2026. Teaching is online; no Hillingdon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Hillingdon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for Hillingdon learners
 
@@ -177,7 +177,7 @@ Every postcode in Hillingdon is the same distance from an online lesson: none at
 - **Wherever the laptop is** Most learners join from home; a library table with headphones is a good plan B.
 - **Stages by their English names** Reception to Year 13, SATs, Year 9 options, GCSEs, A levels and T Levels are named as English schools name them. Teaching is in English.
 - **Try first, pay later** The first lesson is a real task with a teacher, ending with a suggested level and course. We ask for no card.
-- **Matched, small groups** Five to ten learners at one level, from Hillingdon and far beyond, so a group exists at a workable hour.
+- **Matched, small groups** Fifteen to twenty learners at one level, from Hillingdon and far beyond, so a group exists at a workable hour.
 - **Two a week, school permitting** Most groups meet twice weekly, pausing for half terms, holidays and exams by agreement.
 - **Always in UK time** Teachers are in India, but the time on every invitation and reminder is the time on your own clock.
 
@@ -188,7 +188,7 @@ Every postcode in Hillingdon is the same distance from an online lesson: none at
 A free first lesson, then a single monthly fee, the same in every part of the borough.
 
 - First class: USD 0. A full first lesson with a teacher at no charge, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. Close to eight live lessons each month, in a group of five to ten at one level.
+- Group tuition: USD 100 a month. Close to eight live lessons each month, in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. Close to eight live lessons each month, one teacher, one learner.
 
 Hillingdon families, from Harefield to Hayes, are billed in US dollars like every family outside India, and pound prices appear nowhere on our site. Payment starts only after the free lesson, when a course and weekly time are settled; the pricing page explains how pauses, missed lessons and moves between group and one-to-one work.
@@ -229,11 +229,11 @@ No. There is no centre in Hillingdon or anywhere else in the UK, because all our
 
 ### What do coding classes in Hillingdon cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are learners grouped?
 
-By level, pace and goals rather than by age or postcode, in groups of five to ten at one stage. Where no group fits the learner's week, one-to-one lessons are available instead.
+By level, pace and goals rather than by age or postcode, in groups of fifteen to twenty at one stage. Where no group fits the learner's week, one-to-one lessons are available instead.
 
 ## Further into London, and across the UK
 

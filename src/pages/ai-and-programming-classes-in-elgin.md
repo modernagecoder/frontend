@@ -16,7 +16,7 @@ Elgin, Moray, Scotland / Live online
 
 Searching for a pattern inside a long sequence sounds simple: line the pattern up at every position and compare letter by letter. It works, but every time a partial match fails, that simple method slides forward one place and starts comparing again, re-reading letters it has already seen. In 1977 Knuth, Morris and Pratt published a method that never steps backwards. Before searching, it works out, for each position in the pattern, how much of the pattern would still match after a failure, a table called the failure function. This project applies it to real data: monthly rainfall recorded by the Met Office at Nairn from 1931 to 1996, coded as low, middle or high for the time of year.
 
-Facts last verified 29 September 2026. Teaching is online; no Elgin branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Elgin branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Elgin courses in patterns, Python and AI
 
@@ -129,7 +129,7 @@ Needed: a computer, a webcam and an internet connection steady enough for video.
 - **Hands-on learner** Everything is typed and run by the student, while the tutor follows on screen share and asks what each count means.
 - **Trial shapes the plan** The free lesson shows where to start, and we note any SQA exam due.
 - **Free opening class** Class one has no charge and ends with a course suggestion.
-- **Same-stage groups** Five to ten learners from across Britain, matched by level.
+- **Same-stage groups** Fifteen to twenty learners from across Britain, matched by level.
 - **Two lessons a week** Paused for school holidays.
 - **Steady lesson time** British Summer Time changes are handled by our tutors, not your diary.
 

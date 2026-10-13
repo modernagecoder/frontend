@@ -296,7 +296,7 @@ module.exports = {
       { h3: 'Shared screen', p: 'The teacher follows the learner\'s own code as they type and test it.' },
       { h3: 'Holiday breaks', p: 'Classes run in Queensland terms and stop for school holidays.' },
       { h3: 'No-cost first lesson', p: 'A full trial lesson, then a recommendation in writing.' },
-      { h3: 'Matched groups', p: 'Five to ten learners at the same level, or private lessons.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners at the same level, or private lessons.' },
       { h3: 'Two lessons weekly', p: 'Around eight live sessions a month.' },
       { h3: 'Teachers in India', p: 'A 4:30pm Indooroopilly class is noon in India, every week of the year.' }
     ],
@@ -309,7 +309,7 @@ module.exports = {
     h2: 'Indooroopilly class fees',
     intro: 'The same fees for every learner.',
     first: 'The opening lesson costs nothing and finishes with a plan.',
-    group: 'Groups: roughly eight lessons a month, five to ten learners.',
+    group: 'Groups: roughly eight lessons a month, fifteen to twenty learners.',
     private: 'One to one: roughly eight lessons a month with your own teacher.',
     closer: 'Fees for Indooroopilly families are in US dollars. Payment starts once the trial has settled a course and a weekly time; the pricing page covers holidays and missed lessons.'
   },
@@ -351,12 +351,12 @@ module.exports = {
       },
       {
         q: 'What do Indooroopilly classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       {

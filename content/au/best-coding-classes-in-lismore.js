@@ -215,7 +215,7 @@ module.exports = {
     h2: 'What classes cost in Lismore',
     intro: 'Three figures, with nothing left out.',
     first: 'A complete lesson free, ending with a suggested level, course and lesson time.',
-    group: 'A month of lessons, usually eight, shared with five to ten learners at the same level.',
+    group: 'A month of lessons, usually eight, shared with fifteen to twenty learners at the same level.',
     private: 'About eight lessons a month on the same pattern, one teacher and one learner.',
     closer: 'Outside India every invoice is in US dollars, so a family in Goonellabah and one in South Lismore pay the same amount and there is no separate Lismore price. Nothing is charged until the trial has settled a course and a time; the pricing page explains breaks, missed lessons and switching formats.'
   },
@@ -240,8 +240,8 @@ module.exports = {
       { q: 'What time are lessons for Lismore learners?', a: 'Lesson times are agreed during the free trial and written in Lismore time, usually late afternoon or a weekend morning. From April to early October Lismore sits 4.5 hours ahead of India; from the first Sunday in October it sits 5.5 hours ahead.' },
       { q: 'Can younger children join?', a: 'Yes, from age six. Younger children start with Scratch blocks and drawing programs before typing code; the project on this page is aimed at older students.' },
       { q: 'Is there a Modern Age Coders centre in Lismore?', a: 'No, and none is claimed. All lessons are live and online and we have no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection; the contact number shown is Indian.', boiler: true },
-      { q: 'What do Lismore coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, grouped by level, pace and goals rather than age or suburb. When no group fits the time a learner needs, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Lismore coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, grouped by level, pace and goals rather than age or suburb. When no group fits the time a learner needs, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

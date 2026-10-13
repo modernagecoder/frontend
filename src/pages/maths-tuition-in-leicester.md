@@ -4,7 +4,7 @@ description: "Maths tuition in Leicester for ages 6 to 67: a live online maths t
 canonical: https://learn.modernagecoders.com/maths-tuition-in-leicester
 source: src/pages/maths-tuition-in-leicester.html
 ---
-> We teach maths live online to Leicester learners from age 6 to 67, in small groups of five to ten at the same level or one to one. That covers primary work (times tables for the Year 4 check and Year 6 SATs maths), KS3 maths, GCSE maths on whichever board a school uses, whether AQA, Edexcel or OCR, at either tier, the IGCSE papers, A level Maths with Further Maths, and adult courses from Functional Skills maths to GCSE maths resits. Lessons use real data as well as past papers. Our Leicester example takes Census 2021 commuting distances and shows why a histogram with unequal class widths needs frequency density, not frequency. The first lesson costs nothing; afterwards it is USD 100 a month for a group place or USD 150 a month for one-to-one lessons.
+> We teach maths live online to Leicester learners from age 6 to 67, in groups of fifteen to twenty at the same level or one to one. That covers primary work (times tables for the Year 4 check and Year 6 SATs maths), KS3 maths, GCSE maths on whichever board a school uses, whether AQA, Edexcel or OCR, at either tier, the IGCSE papers, A level Maths with Further Maths, and adult courses from Functional Skills maths to GCSE maths resits. Lessons use real data as well as past papers. Our Leicester example takes Census 2021 commuting distances and shows why a histogram with unequal class widths needs frequency density, not frequency. The first lesson costs nothing; afterwards it is USD 100 a month for a group place or USD 150 a month for one-to-one lessons.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Leicester
 
@@ -14,7 +14,7 @@ Leicester · Maths tutor for ages 6 to 67 · Live online lessons
 
 Draw a bar chart of how far Leicester residents travel to work and one bar towers over the rest: 36,598 people travel between 2 and 5 km. It looks like the most common distance. It is not. That class is three kilometres wide, while the class below it is only two, and once you divide by the width the under 2 km group turns out to be the most crowded part of the chart. Spotting that is exactly what GCSE higher tier asks of a histogram, and it is the kind of reasoning our online maths tutors build with Leicester learners, from times tables in Year 4 to Further Maths and adult refreshers.
 
-At a glance: Who for: Learners aged 6 to 67 in Leicester; Primary: KS2 maths, times tables, Year 6 SATs maths; Secondary: KS3 and GCSE, foundation or higher; Exam boards: AQA, Edexcel, OCR and IGCSE; Post-16: A level Maths and Further Maths; Adults: Functional Skills, resits and refreshers; Lessons: Live online, five to ten per group or one to one; Leicester project: Census commuting distances as a histogram. Rated 4.9 across 547 Google reviews.
+At a glance: Who for: Learners aged 6 to 67 in Leicester; Primary: KS2 maths, times tables, Year 6 SATs maths; Secondary: KS3 and GCSE, foundation or higher; Exam boards: AQA, Edexcel, OCR and IGCSE; Post-16: A level Maths and Further Maths; Adults: Functional Skills, resits and refreshers; Lessons: Live online, fifteen to twenty per group or one to one; Leicester project: Census commuting distances as a histogram. Rated 4.9 across 547 Google reviews.
 
 ## Three popular maths courses in Leicester
 
@@ -229,7 +229,7 @@ Teachers are in India, which keeps the same clock all year. In winter India is f
 
 - **A regular teacher** The same teacher each week, who remembers last week's mistakes.
 - **Updates for families** A short honest note on what went well and what needs work.
-- **Classes by level** Five to ten learners at one level, so explanations fit everyone.
+- **Classes by level** Fifteen to twenty learners at one level, so explanations fit everyone.
 - **Census and survey data** Tables such as the commuting one sit next to the past papers.
 - **One to one on request** For a learner who needs a tighter focus or a different pace.
 - **Reasons first** We expect learners to explain a method before drilling it.
@@ -239,14 +239,14 @@ Teachers are in India, which keeps the same clock all year. In winter India is f
 Paid monthly in US dollars, one price for every country except India, with no sign-up charge and no minimum period.
 
 - Free first class: USD 0. A proper lesson pitched at the right level. Frank feedback afterwards. No card required.
-- Group batch: USD 100 a month. Five to ten learners at the same level. One teacher all term. Work marked and explained. Certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at the same level. One teacher all term. Work marked and explained. Certificate at the end.
 - One to one: USD 150 a month. Individual lessons with one teacher. Built around the learner's gaps. Well suited to exam seasons.
 
 ## Questions Leicester families ask about maths tuition
 
 ### How much does a maths tutor cost in Leicester?
 
-The first lesson is free. From then on a seat in a class of five to ten is USD 100 monthly, while private lessons are USD 150 monthly, with nothing to pay to join and no term to commit to.
+The first lesson is free. From then on a seat in a class of fifteen to twenty is USD 100 monthly, while private lessons are USD 150 monthly, with nothing to pay to join and no term to commit to.
 
 ### What is frequency density?
 

@@ -162,7 +162,7 @@ module.exports = {
       { h3: 'Hands-on coding', p: 'The learner types every program; the tutor follows on the shared screen and helps with questions.' },
       { h3: 'Level first, age second', p: 'We match a Solihull Year 4 or Year 13 to a course using the trial lesson, then name exams exactly as their board does.' },
       { h3: 'A free start', p: 'The first lesson carries no charge and ends with a clear plan.' },
-      { h3: 'Classmates who match', p: 'Groups of five to ten are formed by ability, so Solihull learners study alongside peers at their exact stage.' },
+      { h3: 'Classmates who match', p: 'Groups of fifteen to twenty are formed by ability, so Solihull learners study alongside peers at their exact stage.' },
       { h3: 'School terms', p: 'Two lessons weekly during term, none in the holidays.' },
       { h3: 'No clock-change confusion', p: 'Lessons stay at the same Solihull time in March and October; the teachers adapt.' }
     ],
@@ -173,7 +173,7 @@ module.exports = {
     h2: 'Fees in Solihull',
     intro: 'The price is identical across Solihull, and matches what we charge in every country outside India.',
     first: 'One whole lesson free, then honest advice.',
-    group: 'Around eight live lessons a month with five to ten classmates.',
+    group: 'Around eight live lessons a month with fifteen to twenty classmates.',
     private: 'Around eight live lessons a month with your own tutor.',
     closer: 'Prices are in US dollars only; there is no sterling price. The first invoice follows only after the trial agrees a course and a regular slot; see the pricing page for breaks, missed sessions and moving between group and private.'
   },

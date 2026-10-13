@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Lambeth: Brix
 canonical: https://learn.modernagecoders.com/coding-classes-in-lambeth-london
 source: src/pages/coding-classes-in-lambeth-london.html
 ---
-> Lambeth is the south London borough of Brixton, Clapham, Streatham, Stockwell, Vauxhall, Kennington, West Norwood and Waterloo, with 317,654 residents at the 2021 Census, Lambeth Palace and the Royal Festival Hall among its six Grade I entries. A coding class that means something teaches a learner when a simple method is guaranteed to give the right answer, and this page does it with cycle docks: link all 58 docks in the borough with the least total length, using two famous algorithms that are provably perfect. Teachers in India teach live on video to learners from 6 to 67, either alone or in groups of five to ten sharing a level. The first lesson is free. Afterwards, it is USD 100 a month for a group place or USD 150 a month for one-to-one.
+> Lambeth is the south London borough of Brixton, Clapham, Streatham, Stockwell, Vauxhall, Kennington, West Norwood and Waterloo, with 317,654 residents at the 2021 Census, Lambeth Palace and the Royal Festival Hall among its six Grade I entries. A coding class that means something teaches a learner when a simple method is guaranteed to give the right answer, and this page does it with cycle docks: link all 58 docks in the borough with the least total length, using two famous algorithms that are provably perfect. Teachers in India teach live on video to learners from 6 to 67, either alone or in groups of fifteen to twenty sharing a level. The first lesson is free. Afterwards, it is USD 100 a month for a group place or USD 150 a month for one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Lambeth
 
@@ -12,11 +12,11 @@ London Borough of Lambeth / Live online
 
 # Coding classes in Lambeth
 
-**What are the best coding classes in Lambeth?** Lambeth is the south London borough of Brixton, Clapham, Streatham, Stockwell, Vauxhall, Kennington, West Norwood and Waterloo, with 317,654 residents at the 2021 Census, Lambeth Palace and the Royal Festival Hall among its six Grade I entries. A coding class that means something teaches a learner when a simple method is guaranteed to give the right answer, and this page does it with cycle docks: link all 58 docks in the borough with the least total length, using two famous algorithms that are provably perfect. Teachers in India teach live on video to learners from 6 to 67, either alone or in groups of five to ten sharing a level. The first lesson is free. Afterwards, it is USD 100 a month for a group place or USD 150 a month for one-to-one.
+**What are the best coding classes in Lambeth?** Lambeth is the south London borough of Brixton, Clapham, Streatham, Stockwell, Vauxhall, Kennington, West Norwood and Waterloo, with 317,654 residents at the 2021 Census, Lambeth Palace and the Royal Festival Hall among its six Grade I entries. A coding class that means something teaches a learner when a simple method is guaranteed to give the right answer, and this page does it with cycle docks: link all 58 docks in the borough with the least total length, using two famous algorithms that are provably perfect. Teachers in India teach live on video to learners from 6 to 67, either alone or in groups of fifteen to twenty sharing a level. The first lesson is free. Afterwards, it is USD 100 a month for a group place or USD 150 a month for one-to-one.
 
 Transport for London publishes the location of every cycle hire docking station, 801 across the capital when we checked, and 58 of them fall inside Lambeth. Suppose you had to connect all 58 with a network, a cable, a maintenance route, anything, using as little total length as possible. There are more than a thousand possible links between pairs of docks. Our learners solve it with a minimum spanning tree, and they solve it twice, with Prim's algorithm and with Kruskal's, which work in completely different ways. Both land on exactly the same answer: 17.12 kilometres of straight-line links. Wiring every dock straight to Waterloo instead would take 128 kilometres. The surprise is that a greedy rule, always take the shortest safe link, is not just good here. It is perfect, and learners see why.
 
-Facts last verified 25 September 2026. Teaching is online; no Lambeth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Lambeth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses for Lambeth learners
 
@@ -140,7 +140,7 @@ A learner in the south of the borough and another in Kennington can share one cl
 
 ### A connected class
 
-Every learner in a group of five to ten is linked to the teacher and to each other, and nobody is left at the end of a long branch.
+Every learner in a group of fifteen to twenty is linked to the teacher and to each other, and nobody is left at the end of a long branch.
 
 **Lambeth in London** Lambeth is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers every borough and the City, linking each page when it is published, including [Wandsworth](/coding-classes-in-wandsworth-london) to the west and [Croydon](/coding-classes-in-croydon-london) to the south.
 
@@ -170,7 +170,7 @@ Across Lambeth, class begins when the video call connects.
 - **At home** Learners sit at their own computer with headphones on; the only other requirement is broadband that copes with an hour of video.
 - **England's stages** We describe progress using English Key Stages, from Key Stage 1 up to sixth form, naming GCSE and A level where they apply. Lessons are in English.
 - **Free to begin** The opening session is taught properly and closes with the teacher's advice on level and course. No card is taken for it.
-- **Five to ten per class** Classmates share a stage, gathered from across the UK and abroad, so a sensible evening hour is usually available.
+- **Fifteen to twenty per class** Classmates share a stage, gathered from across the UK and abroad, so a sensible evening hour is usually available.
 - **Twice a week** Expect two lessons a week, both in the evening, with the group taking agreed time off in school holidays and around exams.
 - **UK times** Teachers are based in India; all times we send are UK times.
 
@@ -181,7 +181,7 @@ Across Lambeth, class begins when the video call connects.
 A free first lesson, then one monthly fee across the borough.
 
 - First class: USD 0. A complete lesson with a teacher, free, ending with a recommended level, course and time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a class of five to ten at one stage.
+- Group tuition: USD 100 a month. About eight live lessons a month in a class of fifteen to twenty at one stage.
 - Private tuition: USD 150 a month. About eight live lessons a month, one to one.
 
 We bill in US dollars wherever a family lives outside India, which is why no pound amounts appear on the site. The first invoice comes only after the free lesson, once you have picked a course and a weekly evening. Pauses, missed lessons and a later move to or from private teaching are explained on the pricing page.
@@ -222,11 +222,11 @@ No. There is no Lambeth centre and no premises anywhere in the UK, because every
 
 ### What do coding classes in Lambeth cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## More of London
 

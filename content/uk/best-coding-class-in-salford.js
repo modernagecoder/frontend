@@ -63,7 +63,7 @@ module.exports = {
 
   h1: 'Coding classes in Salford',
   capsuleQ: 'What are the best coding classes in Salford?',
-  capsule: 'Census 2021 counted 269,923 usual residents in Salford, and 9.8% of them were aged 25 to 29, against 6.6% in England. The Working Class Movement Library, begun in the 1950s by Eddie and Ruth Frow from the books that filled their home, has been at Jubilee House in Salford since 1987. Anyone in Salford from six to sixty-seven can take our live video lessons, joining a class of five to ten at a matching level or learning privately, with teachers in India who keep UK hours. The first lesson is free; then a group place is USD 100 a month and one-to-one teaching USD 150.',
+  capsule: 'Census 2021 counted 269,923 usual residents in Salford, and 9.8% of them were aged 25 to 29, against 6.6% in England. The Working Class Movement Library, begun in the 1950s by Eddie and Ruth Frow from the books that filled their home, has been at Jubilee House in Salford since 1987. Anyone in Salford from six to sixty-seven can take our live video lessons, joining a class of fifteen to twenty at a matching level or learning privately, with teachers in India who keep UK hours. The first lesson is free; then a group place is USD 100 a month and one-to-one teaching USD 150.',
   lead: 'The 2021 census splits Salford into 34 neighbourhoods and counts each one\'s residents in 18 age bands, from under-fives to over-85s. That is 612 numbers, too many to see at once. Principal component analysis asks which combinations of them vary most from place to place. For Salford, one combination does most of the work: the share of people in their twenties and thirties set against the share over sixty. It alone captures 61.1% of the variation, with Salford Quays, Greengate and Ordsall at one end and Worsley at the other. A second combination, the share of children, adds 18.9%. Our teenagers compute both, and learn why the answer changes if the numbers are not scaled first.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Salford.',
 
@@ -189,7 +189,7 @@ module.exports = {
       { h3: 'East and west Salford', p: 'A learner in Ordsall and another in Walkden can share the same class without either crossing the city.' },
       { h3: 'Stages named the English way', p: 'Reception, the four Key Stages, Year 9 options, GCSEs and A levels, as Salford schools call them, with every lesson in English.' },
       { h3: 'A first lesson with substance', p: 'The free session works through real material and closes with our suggested level, course and weekly slot, with no card requested.' },
-      { h3: 'Grouped by stage', p: 'Five to ten learners at one level, from Salford, the rest of the UK and overseas, so every stage has a workable time.' },
+      { h3: 'Grouped by stage', p: 'Fifteen to twenty learners at one level, from Salford, the rest of the UK and overseas, so every stage has a workable time.' },
       { h3: 'A steady schedule', p: 'Two fixed lessons a week, about eight a month, with holidays and exams planned with the teacher in advance.' },
       { h3: 'Lessons into the Indian night', p: 'A 6 pm lesson in Salford starts at 10.30 pm in India during British Summer Time and 11.30 pm in winter. Our teachers work those hours so Salford learners can join after school or work.' }
     ],
@@ -200,7 +200,7 @@ module.exports = {
     h2: 'Salford lesson fees',
     intro: 'One free lesson, then a single fee each month.',
     first: 'A complete lesson without charge, ending with a suggested level, course and weekly time.',
-    group: 'Around eight live lessons a month in a group of five to ten learners at one stage.',
+    group: 'Around eight live lessons a month in a group of fifteen to twenty learners at one stage.',
     private: 'Around eight live lessons a month, with the teacher working with your learner alone.',
     closer: 'Irlam and Pendleton are charged the same as anywhere else outside India: one fee, in US dollars, with no pound prices on our site. We only bill after the free lesson, once a course and a time are settled, and the pricing page explains pausing, missed lessons and moving between group and one-to-one teaching.'
   },
@@ -225,8 +225,8 @@ module.exports = {
       { q: 'What is the Working Class Movement Library?', a: 'An independent library and archive, begun in the 1950s by Eddie and Ruth Frow and housed since 1987 in Jubilee House in Salford, according to the Library. We are not connected with it.' },
       { q: 'When do Salford lessons take place?', a: 'After school, in the evening or at weekends, at a UK time agreed during the free lesson. India is four and a half hours ahead of Salford in summer and five and a half in winter.' },
       { q: 'Is there a Modern Age Coders centre in Salford?', a: 'No. There is no Salford centre and we have no premises anywhere in the UK; every lesson is live online. A learner needs a computer with sound and a steady connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do Salford lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
-      { q: 'How are Salford groups formed?', a: 'By level, pace and aims rather than age or postcode, with five to ten learners at one stage. If no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do Salford lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
+      { q: 'How are Salford groups formed?', a: 'By level, pace and aims rather than age or postcode, with fifteen to twenty learners at one stage. If no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

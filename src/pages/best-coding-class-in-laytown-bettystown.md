@@ -16,7 +16,7 @@ Laytown, Bettystown, Mornington and Donacarney, County Meath / Live online
 
 The Central Statistics Office names this town Laytown-Bettystown-Mornington-Donacarney, Co Meath, one label for four places. Most people will type Bettystown, or Laytown, into a search box, and whether they find anything depends entirely on how the search was built. So this page is not about a mistake in data; it is about making something that works. The learner builds a place-name search for the 867 census towns, tries three designs, and keeps the one that passes every test. Exact matching fails on the first try. Matching any fragment of text drags in the wrong towns. Matching whole words finds Bettystown, finds only the two towns actually called Kill, and keeps Omeath in Louth out of a search for Meath. Every result below was produced by running the code.
 
-Facts last verified 19 September 2026. Teaching is online; no Laytown-Bettystown branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Laytown-Bettystown branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where learners here usually begin
 
@@ -166,7 +166,7 @@ Code is cheap now. A good set of tests, and the judgement to write them, is wher
 The practical details.
 
 - **Taught live** The teacher is present for the whole lesson and works from what the learner is building.
-- **Grouped by level** Five to ten learners at the same point, from this coast, the rest of Ireland and abroad.
+- **Grouped by level** Fifteen to twenty learners at the same point, from this coast, the rest of Ireland and abroad.
 - **Two lessons most weeks** Roughly eight a month, at an hour settled when the course starts.
 - **Around school** Holidays, mid-terms and exam weeks are allowed for in the plan.
 - **Needed at home** A proper computer, since a phone is too small to code on, working audio both ways, and internet steady enough for video.
@@ -179,7 +179,7 @@ The practical details.
 The complete price list.
 
 - First class: USD 0. A first lesson taught in full and assessed, free of charge.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, about eight live lessons.
 - Private tuition: USD 150 a month. A month of private lessons at the same weekly frequency.
 
 Everyone outside India is charged the same amount each month in US dollars, with no euro figure alongside. The order never changes: free lesson, then a plan, then the first monthly charge, and the pricing page has a rule for holidays, missed lessons and a change of format.
@@ -220,7 +220,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Laytown and Bettystown cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

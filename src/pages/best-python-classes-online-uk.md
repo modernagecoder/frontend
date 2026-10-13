@@ -4,7 +4,7 @@ description: "Python classes online for UK learners of every age, taught live ag
 canonical: https://learn.modernagecoders.com/best-python-classes-online-uk
 source: src/pages/best-python-classes-online-uk.html
 ---
-> Python became the default language of British school computing without anybody legislating for it. Wales names it in the rules of its new GCSE. Northern Ireland permits it alongside Java and C#. In England the boards choose, and one of them, Pearson Edexcel, adopted Python as what it calls the vehicle for the whole qualification and then published a Programming Language Subset stating which parts of Python 3 its on-screen paper will use, with a written commitment not to exceed it. Knowing that list exists is useful. Building a year of teaching around only that list is not, because the subset is a floor and every interesting problem sits above it. We teach Python live online to learners from about ten upwards, in groups of five to ten at one level or one to one. The first lesson is free; after that it is USD 100 a month in a group or USD 150 one to one.
+> Python became the default language of British school computing without anybody legislating for it. Wales names it in the rules of its new GCSE. Northern Ireland permits it alongside Java and C#. In England the boards choose, and one of them, Pearson Edexcel, adopted Python as what it calls the vehicle for the whole qualification and then published a Programming Language Subset stating which parts of Python 3 its on-screen paper will use, with a written commitment not to exceed it. Knowing that list exists is useful. Building a year of teaching around only that list is not, because the subset is a floor and every interesting problem sits above it. We teach Python live online to learners from about ten upwards, in groups of fifteen to twenty at one level or one to one. The first lesson is free; after that it is USD 100 a month in a group or USD 150 one to one.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Python classes, UK
 
@@ -161,7 +161,7 @@ Teachers work from India, where the clocks do not move, so the UK is five and a 
 - **Code read by a person** Every week, with reasons. A recorded course cannot tell a learner why their working program is badly built.
 - **Boards named, not guessed** Teachers work to the qualification a school has chosen, whether that is an English board, WJEC, CCEA or Qualifications Scotland, which replaced SQA in February 2026.
 - **AI used openly** Permitted once a learner can predict the answer, and logged: what the tool offered, what was kept, and why.
-- **Groups by level** Five to ten learners at the same stage, reading each other's code and disagreeing about it.
+- **Groups by level** Fifteen to twenty learners at the same stage, reading each other's code and disagreeing about it.
 - **Work kept publicly** Projects go to the learner's own repository, which is what a school, university or employer can actually open.
 
 ## What Python classes cost in the UK
@@ -169,7 +169,7 @@ Teachers work from India, where the clocks do not move, so the UK is five and a 
 One monthly charge, quoted in US dollars for every family outside India. The free lesson comes first and nothing is taken until a course and a slot are agreed.
 
 - Free first class: USD 0. A full lesson with a teacher. An honest view of the right starting step. No card details requested.
-- Group batch: USD 100 a month. Five to ten learners at one step. The same teacher throughout. Code read and commented on weekly. A certificate when a course finishes.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one step. The same teacher throughout. Code read and commented on weekly. A certificate when a course finishes.
 - One to one: USD 150 a month. One teacher and one learner. Planned around exam dates or a specific target. Right for deadlines and for learners well ahead.
 
 ## What UK families ask about Python

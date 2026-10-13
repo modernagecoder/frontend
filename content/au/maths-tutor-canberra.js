@@ -57,7 +57,7 @@ module.exports = {
   twitterDescription: 'Canberra maths tutoring, live online: primary to Year 12 and adults, with a geometry project on State Circle.',
   pageName: 'Maths Tutor in Canberra',
   webPageDescription: 'Live online maths tutoring for Canberra learners from primary school to the ACT senior mathematics courses and adult maths, with a circle-geometry project on State Circle.',
-  courseDescription: 'Live online maths lessons for Canberra learners, one to one or in level-matched groups of five to ten, from early number to ACT Specialist Mathematics and adult maths.',
+  courseDescription: 'Live online maths lessons for Canberra learners, one to one or in level-matched groups of fifteen to twenty, from early number to ACT Specialist Mathematics and adult maths.',
   crumbs: [
     { name: 'Courses', href: '/courses' },
     { name: 'Coding classes in Australia', href: '/coding-classes-in-australia' }
@@ -87,7 +87,7 @@ module.exports = {
     ['City project', 'The radius of State Circle']
   ],
   capsuleQ: 'Maths tutor in Canberra, in brief',
-  capsule: 'Canberra learners from age 6 to 67 can take live online maths lessons with Modern Age Coders. Primary and high school maths come first, then the ACT senior courses, which ANU names as Mathematical Methods, Specialist Mathematics, Specialist Methods and Further Mathematics, and adult maths. We schedule in Canberra time, teach privately or in level-matched groups of five to ten, and the first lesson is free.',
+  capsule: 'Canberra learners from age 6 to 67 can take live online maths lessons with Modern Age Coders. Primary and high school maths come first, then the ACT senior courses, which ANU names as Mathematical Methods, Specialist Mathematics, Specialist Methods and Further Mathematics, and adult maths. We schedule in Canberra time, teach privately or in level-matched groups of fifteen to twenty, and the first lesson is free.',
   picks: {
     eyebrow: 'Common first choices in Canberra',
     h2: 'Three maths courses that suit Canberra learners',
@@ -330,7 +330,7 @@ module.exports = {
           kind: 'three',
           cells: [
             { h3: 'Private lessons', p: 'One learner with one teacher, for a specific course, unit or gap.' },
-            { h3: 'Level-matched classes', p: 'Five to ten learners working on the same material, often from several states.' },
+            { h3: 'Level-matched classes', p: 'Fifteen to twenty learners working on the same material, often from several states.' },
             { h3: 'Every step on screen', p: 'Each student\'s working appears on a common digital board, so mistakes are caught at the point they begin.' }
           ]
         },
@@ -417,7 +417,7 @@ module.exports = {
     cells: [
       { h3: 'Steady teacher', p: 'One teacher, week after week.' },
       { h3: 'Family notes', p: 'What was covered and what is next.' },
-      { h3: 'Groups by level', p: 'Five to ten learners.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners.' },
       { h3: 'Geometry from maps', p: 'Real shapes from the city plan.' },
       { h3: 'Private lessons', p: 'For one course or deadline.' },
       { h3: 'Explain, then practise', p: 'Ideas before drills.' }
@@ -430,7 +430,7 @@ module.exports = {
     h2: 'Fees for maths tutoring in Canberra',
     lede: 'Canberra families are charged a flat monthly fee in US dollars; there is nothing to pay to join and no minimum period.',
     free: ['A real first lesson', 'Advice on next steps', 'No card'],
-    group: ['Classes of five to ten', 'The same teacher', 'Marked practice', 'Stop at any month'],
+    group: ['Classes of fifteen to twenty', 'The same teacher', 'Marked practice', 'Stop at any month'],
     one: ['One to one', 'One course or goal', 'Useful before exams']
   },
   faq: {

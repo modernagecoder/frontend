@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Vibe coding and AI agents classes in West Bromwich',
   capsuleQ: 'Where can West Bromwich learners find the best vibe coding and AI agents classes?',
-  capsule: 'Sandwell, the borough that includes West Bromwich, counted 341,832 people at the 2021 census, and the ONS gives 103,110 for the West Bromwich built-up area, with Smethwick, Tipton and Oldbury next in size. Children and teenagers make up a clearly bigger share than across England. From Tipton to Cradley Heath, anyone aged 6 to 67 can learn vibe coding, AI agents, Python, coding and maths in live video lessons with our India-based tutors, taught solo or alongside five to ten classmates of similar ability. Vibe coding means describing what you want to an AI and letting it write the code; we teach it the careful way, so the learner plans first and checks every line. The first lesson is free. Carrying on after that is USD 100 monthly for a shared class, or USD 150 monthly for private tuition.',
+  capsule: 'Sandwell, the borough that includes West Bromwich, counted 341,832 people at the 2021 census, and the ONS gives 103,110 for the West Bromwich built-up area, with Smethwick, Tipton and Oldbury next in size. Children and teenagers make up a clearly bigger share than across England. From Tipton to Cradley Heath, anyone aged 6 to 67 can learn vibe coding, AI agents, Python, coding and maths in live video lessons with our India-based tutors, taught solo or alongside fifteen to twenty classmates of similar ability. Vibe coding means describing what you want to an AI and letting it write the code; we teach it the careful way, so the learner plans first and checks every line. The first lesson is free. Carrying on after that is USD 100 monthly for a shared class, or USD 150 monthly for private tuition.',
   lead: 'Vibe coding is the name people now use for building software by describing it to an AI in plain English and accepting the code that comes back. It is fast, it is fun, and it is exactly how many young people meet programming today. An AI agent goes one step further: instead of only writing text, it decides which tools to use, calls them and acts on the results. Our West Bromwich project puts both ideas to work on real local data, the census counts for Sandwell. A learner vibe codes a small agent that answers questions about the borough. Its first answer is more than four and a half times too big, and finding out why teaches more about AI than any tutorial.',
   wa: 'Hello Modern Age Coders, I would like a free vibe coding or AI agents lesson for a West Bromwich learner.',
 
@@ -162,7 +162,7 @@ module.exports = {
       { h3: 'The learner drives', p: 'Students write, prompt and test the code themselves; the tutor follows the shared screen and asks questions.' },
       { h3: 'Level before year group', p: 'Our free trial, more than the school year, sets the first topic for anyone from Year 4 to Year 12, keeping their exam board in view.' },
       { h3: 'A free first lesson', p: 'A full lesson at no cost, ending with a clear course suggestion.' },
-      { h3: 'Classes at one level', p: 'Groups of five to ten UK learners at the same stage.' },
+      { h3: 'Classes at one level', p: 'Groups of fifteen to twenty UK learners at the same stage.' },
       { h3: 'Twice a week', p: 'School holidays stay free of lessons.' },
       { h3: 'A fixed UK time', p: 'Our tutors follow the British clock changes, so your slot holds.' }
     ],

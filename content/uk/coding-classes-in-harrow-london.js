@@ -190,7 +190,7 @@ module.exports = {
       { h3: 'Learn where you are', p: 'At home, or at a library computer when home is busy. The lesson moves with the learner, not the other way round.' },
       { h3: 'School stages as you know them', p: 'Key Stages, Year 9 options, GCSEs and A levels are called by their English names, and every lesson is in English.' },
       { h3: 'Try it before paying', p: 'The opening lesson is a real piece of work with a teacher, and ends with an honest suggestion of level and course. No card is needed.' },
-      { h3: 'Small, matched groups', p: 'Five to ten learners at the same stage, some from Harrow and some from further afield, so that a group exists at a sensible hour.' },
+      { h3: 'Small, matched groups', p: 'Fifteen to twenty learners at the same stage, some from Harrow and some from further afield, so that a group exists at a sensible hour.' },
       { h3: 'Around the school calendar', p: 'Lessons usually run twice a week, and the family and teacher agree breaks for holidays, half terms and revision.' },
       { h3: 'Time zones handled', p: 'Teachers work on India time, five and a half hours ahead of the UK in winter and four and a half in summer, and every lesson is booked and shown in UK time.' }
     ],
@@ -201,7 +201,7 @@ module.exports = {
     h2: 'What classes cost in Harrow',
     intro: 'The same three prices for every family, wherever they live in the borough.',
     first: 'A full lesson on a real task, ending with a suggested level and course.',
-    group: 'About eight lessons a month with five to ten learners at one level.',
+    group: 'About eight lessons a month with fifteen to twenty learners at one level.',
     private: 'About eight lessons a month with a teacher for one learner.',
     closer: 'Fees are set in US dollars, the rate for all families outside India, and there is no pound price list. Nothing is charged until the free lesson has settled a course and a regular slot; the pricing page explains pauses, missed lessons and switching between group and private teaching.'
   },
@@ -226,7 +226,7 @@ module.exports = {
       { q: 'What time are lessons for Harrow learners?', a: 'A regular slot is agreed after the free lesson, depending on which groups have space at the learner\'s level. India time is five and a half hours ahead of the UK in winter and four and a half in summer, and times are always confirmed in UK time.' },
       { q: 'Can my child take lessons from a library?', a: 'Yes, if the library\'s computers and connection allow it; Harrow\'s libraries offer free Wi-Fi to members. Most learners take lessons at home, and a headset helps anywhere public.' },
       { q: 'Is there a Modern Age Coders centre in Harrow?', a: 'No. All teaching is live and online, and no Harrow premises or UK office is claimed anywhere. A learner needs a laptop or desktop, working audio and a steady connection, and the phone number on this page is Indian and described as such.', boiler: true },
-      { q: 'What do coding classes in Harrow cost?', a: 'Nothing for the first lesson. After that, a group place costs USD 100 a month for two live lessons a week, around eight in a month, in a group of five to ten, and one-to-one teaching costs USD 150 a month on the same rhythm. Course, format and weekly hour are settled before any payment.', boiler: true },
+      { q: 'What do coding classes in Harrow cost?', a: 'Nothing for the first lesson. After that, a group place costs USD 100 a month for two live lessons a week, around eight in a month, in a group of fifteen to twenty, and one-to-one teaching costs USD 150 a month on the same rhythm. Course, format and weekly hour are settled before any payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Between five and ten, matched by level, pace and goal rather than by age or postcode. If no group at the right level runs at a workable hour, one-to-one lessons are the alternative.', boiler: true }
     ]
   },

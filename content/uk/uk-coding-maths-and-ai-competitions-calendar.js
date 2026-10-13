@@ -254,7 +254,7 @@ module.exports = {
     cells: [
       { h3: 'Written solutions read', p: 'The teacher reads the full argument or program, not just the final answer.' },
       { h3: 'Fresh practice problems', p: 'Written in each competition\'s style, never lifted from its papers.' },
-      { h3: 'Small matched groups', p: 'Five to ten learners at a similar level, so explanations are shared and argued over.' },
+      { h3: 'Small matched groups', p: 'Fifteen to twenty learners at a similar level, so explanations are shared and argued over.' },
       { h3: 'One to one for a target', p: 'For a learner aiming at a particular round with little time left.' },
       { h3: 'Honest feedback', p: 'Clear notes on what went wrong and which idea to learn next.' },
       { h3: 'Nothing promised', p: 'No scores, medals or selections are promised, because no teacher can deliver them.' }
@@ -269,7 +269,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Monthly, in US dollars, as for every family outside India. Nothing to pay before the first class.',
     free: ['A real problem-solving lesson', 'A frank view of the right stage', 'No payment details'],
-    group: ['Five to ten learners at one level', 'The same teacher every week', 'Solutions read and marked', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher every week', 'Solutions read and marked', 'A certificate at the end'],
     one: ['A teacher for one learner', 'Built around a target round', 'Suited to strong or late starters']
   },
 
@@ -285,7 +285,7 @@ module.exports = {
       { q: 'Is FIRST LEGO League still running?', a: 'LEGO Education says FIRST LEGO League comes to an end after the 2026-2027 BIOGLOW season, and that LEGO League begins in August 2027.' },
       { q: 'Do you enter students into competitions?', a: 'No. Most competitions here are entered by schools or directly with the organiser. We teach the mathematics, programming and problem solving they draw on, and we promise no results.' },
       { q: 'Do you use past papers in class?', a: 'We write fresh practice in each competition\'s style and point learners to the organisers\' own past papers, which remain theirs to publish.' },
-      { q: 'What do classes cost?', a: 'The first class is free. After that it is USD 100 a month in a group of five to ten, or USD 150 a month one to one, with no fee to join and no annual contract.' },
+      { q: 'What do classes cost?', a: 'The first class is free. After that it is USD 100 a month in a group of fifteen to twenty, or USD 150 a month one to one, with no fee to join and no annual contract.' },
       { q: 'When are lessons, in UK time?', a: 'At a fixed weekly slot agreed in the free class, usually after school or at the weekend. India is five and a half hours ahead of the UK in winter and four and a half in summer.' }
     ]
   },

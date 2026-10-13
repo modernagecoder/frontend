@@ -44,7 +44,7 @@ module.exports = {
   twitterDescription: 'London maths, taught live online: can 40 Santander Cycles docking stations tell you about all of them?',
   pageName: 'Maths Tuition in London',
   webPageDescription: 'Live online maths tuition for London learners aged 6 to 67, covering KS2 and Year 6 SATs maths, KS3, GCSE on every board and tier, A level Maths and Further Maths, and adult maths, with a sampling project built on TfL cycle hire data.',
-  courseDescription: 'Live online maths lessons for London learners from primary school to adulthood, in level-matched groups of five to ten or one to one, following the national curriculum and the AQA, Edexcel and OCR specifications.',
+  courseDescription: 'Live online maths lessons for London learners from primary school to adulthood, in level-matched groups of fifteen to twenty or one to one, following the national curriculum and the AQA, Edexcel and OCR specifications.',
   crumbs: [{ name: 'Courses', href: '/courses' }, { name: 'Coding classes in the UK', href: '/coding-classes-in-united-kingdom' }],
   crumbLabel: 'Maths tuition in London',
   navLinks: [
@@ -54,7 +54,7 @@ module.exports = {
     { href: '#hubs', label: 'Maths hubs' },
     { href: '#fees', label: 'Fees' }
   ],
-  eyebrow: 'London &middot; Online maths tutor for ages 6 to 67 &middot; Groups of five to ten or one to one',
+  eyebrow: 'London &middot; Online maths tutor for ages 6 to 67 &middot; Groups of fifteen to twenty or one to one',
   h1: 'Maths tuition in London',
   lede: 'Nobody in London has time to measure everything, so mathematicians sample. We put that idea to work on the Santander Cycles network. TfL lists every docking station with its number of docks, so we know the true average: 26.29 docks per station. Then we asked what a learner would conclude from just 40 stations, chosen four different ways, ten thousand times over. A careless sample drawn only from central London lands within one dock of the truth just 39.0% of the time. A well-planned one manages 80.0%. That gap is the heart of GCSE statistics, and this page uses it to show how our online maths tutors teach London learners, from the Year 4 times tables check to Further Maths and adult maths.',
   secondaryCta: { href: '#docks', label: 'See the docking station data' },
@@ -67,11 +67,11 @@ module.exports = {
     ['Boards', 'AQA, Edexcel and OCR, plus IGCSE'],
     ['Sixth form', 'A level Maths and Further Maths'],
     ['Adults', 'Functional Skills, GCSE resits, refreshers'],
-    ['Format', 'Live video, groups of 5 to 10 or one to one'],
+    ['Format', 'Live video, groups of 15 to 20 or one to one'],
     ['London project', 'Sampling 40 cycle docks out of hundreds']
   ],
   capsuleQ: 'What does maths tuition in London with us involve?',
-  capsule: 'We are an online maths tutor for London learners aged 6 to 67. Lessons are live on video with a real teacher, in groups of five to ten learners at one level or one to one. We cover KS2 maths and Year 6 SATs preparation, the Year 4 multiplication tables check, KS3 maths, GCSE maths at foundation or higher tier on the AQA, Edexcel or OCR specification, IGCSE, A level Maths and Further Maths, and adult maths including Functional Skills and GCSE maths resits. Every course mixes exam practice with real data; our London example asks whether 40 Santander Cycles docking stations can tell you the average size of all of them. The first lesson is free. After that a group place is USD 100 a month and one-to-one lessons are USD 150 a month.',
+  capsule: 'We are an online maths tutor for London learners aged 6 to 67. Lessons are live on video with a real teacher, in groups of fifteen to twenty learners at one level or one to one. We cover KS2 maths and Year 6 SATs preparation, the Year 4 multiplication tables check, KS3 maths, GCSE maths at foundation or higher tier on the AQA, Edexcel or OCR specification, IGCSE, A level Maths and Further Maths, and adult maths including Functional Skills and GCSE maths resits. Every course mixes exam practice with real data; our London example asks whether 40 Santander Cycles docking stations can tell you the average size of all of them. The first lesson is free. After that a group place is USD 100 a month and one-to-one lessons are USD 150 a month.',
 
   picks: {
     eyebrow: 'Where London families usually begin',
@@ -283,7 +283,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Charged monthly in US dollars, the same for every country outside India. No registration fee and no contract.',
     free: ['A full lesson at the right level', 'An honest assessment afterwards', 'No payment details needed'],
-    group: ['Five to ten learners of one level', 'The same teacher each week', 'Homework marked and discussed', 'Certificate on completion'],
+    group: ['Fifteen to twenty learners of one level', 'The same teacher each week', 'Homework marked and discussed', 'Certificate on completion'],
     one: ['A teacher for a single learner', 'Lessons aimed at specific gaps', 'Flexible around exam dates']
   },
 
@@ -291,7 +291,7 @@ module.exports = {
     eyebrow: 'London maths questions',
     h2: 'What London families and adult learners ask before booking',
     items: [
-      { q: 'How much does a maths tutor cost in London?', a: 'With us the first lesson is free. After that, a place in a group of five to ten costs USD 100 a month and one-to-one tuition costs USD 150 a month, with no joining fee and no fixed term.' },
+      { q: 'How much does a maths tutor cost in London?', a: 'With us the first lesson is free. After that, a place in a group of fifteen to twenty costs USD 100 a month and one-to-one tuition costs USD 150 a month, with no joining fee and no fixed term.' },
       { q: 'Is online maths tuition as good as face to face?', a: 'For most learners it works as well, provided the lesson is live and the teacher can see the working. Our lessons are live on video with a shared whiteboard, and the teacher watches each step rather than only the final answer.' },
       { q: 'What is stratified sampling?', a: 'Stratified sampling splits a population into groups, called strata, and then samples from each group in proportion to its size. It improves accuracy when the groups differ from one another; in our London cycle dock data the rings were too similar for it to help much.' },
       { q: 'Can you help with a GCSE maths resit?', a: 'Yes. Our GCSE course takes resit candidates of any age. We start by finding which topics are secure and which are not, then rebuild the weak ones before moving on to exam practice.' },

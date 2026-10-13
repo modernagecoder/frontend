@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Amersfoort for ages 6
 canonical: https://learn.modernagecoders.com/coding-classes-in-amersfoort
 source: src/pages/coding-classes-in-amersfoort.html
 ---
-> Coding classes in Amersfoort serve 163,764 people (Statistics Netherlands, 1 January 2026), the second city of the province of Utrecht and the sixteenth municipality of the country. Every surveyed point in the Netherlands is measured from the Onze-Lieve-Vrouwetoren here. It used to be zero by zero; around 1970 the origin was shifted outside the country for practical reasons, and the tower now carries the coordinates 155,000 by 463,000 exactly, without having moved a centimetre. Modern Age Coders teaches live online in English across the municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of five to ten or USD 150 one-to-one.
+> Coding classes in Amersfoort serve 163,764 people (Statistics Netherlands, 1 January 2026), the second city of the province of Utrecht and the sixteenth municipality of the country. Every surveyed point in the Netherlands is measured from the Onze-Lieve-Vrouwetoren here. It used to be zero by zero; around 1970 the origin was shifted outside the country for practical reasons, and the tower now carries the coordinates 155,000 by 463,000 exactly, without having moved a centimetre. Modern Age Coders teaches live online in English across the municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of fifteen to twenty or USD 150 one-to-one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Amersfoort
 
@@ -12,11 +12,11 @@ Amersfoort, province of Utrecht / Live online
 
 # Coding classes in Amersfoort, where the origin of the map moved and the tower stayed still
 
-**What are the best coding classes in Amersfoort?** Coding classes in Amersfoort serve 163,764 people (Statistics Netherlands, 1 January 2026), the second city of the province of Utrecht and the sixteenth municipality of the country. Every surveyed point in the Netherlands is measured from the Onze-Lieve-Vrouwetoren here. It used to be zero by zero; around 1970 the origin was shifted outside the country for practical reasons, and the tower now carries the coordinates 155,000 by 463,000 exactly, without having moved a centimetre. Modern Age Coders teaches live online in English across the municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of five to ten or USD 150 one-to-one.
+**What are the best coding classes in Amersfoort?** Coding classes in Amersfoort serve 163,764 people (Statistics Netherlands, 1 January 2026), the second city of the province of Utrecht and the sixteenth municipality of the country. Every surveyed point in the Netherlands is measured from the Onze-Lieve-Vrouwetoren here. It used to be zero by zero; around 1970 the origin was shifted outside the country for practical reasons, and the tower now carries the coordinates 155,000 by 463,000 exactly, without having moved a centimetre. Modern Age Coders teaches live online in English across the municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of fifteen to twenty or USD 150 one-to-one.
 
 A tower in the middle of this city is the reference point for the national coordinate grid. For most of the grid's life the tower was the origin, so its coordinates were zero and zero. Then the origin was moved out beyond the border so that nowhere in the Netherlands would need a negative number, and overnight the same stones acquired the coordinates 155,000 by 463,000. Nothing was rebuilt. If a program holds one point in the old numbering and another in the new, it will calmly report that two neighbours are 489 kilometres apart.
 
-Facts last verified 7 September 2026. Teaching is online; no Amersfoort branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Amersfoort branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city that the rest of the country measures itself against
 
@@ -208,7 +208,7 @@ Vathorst to the old centre is a real ride for a ten-year-old on a winter evening
 Published here rather than kept for a phone call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate applies, quoted in dollars and never in euros, so Hooglanderveen is charged exactly what the old centre is. Money changes hands only after the free lesson has produced a course and a timetable, and it changes hands over WhatsApp. Pausing, changing plan and missing a week are described on the pricing page.
@@ -249,7 +249,7 @@ No, and none is claimed near Lange Jan, in Vathorst or anywhere in the Netherlan
 
 ### What do Amersfoort coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in an Amersfoort group?
 

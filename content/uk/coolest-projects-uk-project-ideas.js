@@ -219,7 +219,7 @@ module.exports = {
     cells: [
       { h3: 'Finishing taught explicitly', p: 'We help a child cut a project down to something that can actually be completed, which is most of the work.' },
       { h3: 'Handover tested', p: 'Every project is run somewhere other than where it was built before we call it done.' },
-      { h3: 'Five to ten learners', p: 'Enough that ideas cross the room, few enough that every project gets looked at.' },
+      { h3: 'Fifteen to twenty learners', p: 'Enough that ideas cross the room, few enough that every project gets looked at.' },
       { h3: 'The child builds it', p: 'We teach and review. The project belongs to the young person and is theirs to submit.' },
       { h3: 'One to one when useful', p: 'For an ambitious build, or a child who would rather work alone.' },
       { h3: 'No role in the showcase', p: 'We do not register entries or have any relationship with the organiser.' }
@@ -234,7 +234,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A monthly fee in US dollars, identical in every country but India, with no registration charge and no tie-in.',
     free: ['A proper lesson with a teacher', 'A frank view of what a project needs', 'No payment details requested'],
-    group: ['Five to ten learners at one level', 'The same teacher weekly', 'Projects reviewed as they grow', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher weekly', 'Projects reviewed as they grow', 'A certificate at the end'],
     one: ['A teacher working with one builder', 'Shaped around the project', 'Useful in the weeks before a deadline']
   },
 

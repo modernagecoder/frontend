@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Deventer for ages 6 t
 canonical: https://learn.modernagecoders.com/coding-classes-in-deventer
 source: src/pages/coding-classes-in-deventer.html
 ---
-> Coding classes in Deventer reach 105,111 people (Statistics Netherlands, 1 January 2026) across 134 square kilometres at 799 residents to the square kilometre, in 48,940 households of which 19,715 hold one person. The book market held here on the first Sunday of August drew 130,000 visitors in 2008 and 75,000 in 2009, and the source gives the reason in three words: vanwege de regen. The stalls, the six kilometres and the several hundred booksellers were the same both years. Modern Age Coders teaches live online in English from Lettele to Bathmen, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Deventer reach 105,111 people (Statistics Netherlands, 1 January 2026) across 134 square kilometres at 799 residents to the square kilometre, in 48,940 households of which 19,715 hold one person. The book market held here on the first Sunday of August drew 130,000 visitors in 2008 and 75,000 in 2009, and the source gives the reason in three words: vanwege de regen. The stalls, the six kilometres and the several hundred booksellers were the same both years. Modern Age Coders teaches live online in English from Lettele to Bathmen, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Deventer
 
@@ -12,11 +12,11 @@ Deventer, Overijssel / Live online
 
 # Coding classes in Deventer, where a book market lost 55,000 visitors in one year and nothing about the market had changed
 
-**What are the best coding classes in Deventer?** Coding classes in Deventer reach 105,111 people (Statistics Netherlands, 1 January 2026) across 134 square kilometres at 799 residents to the square kilometre, in 48,940 households of which 19,715 hold one person. The book market held here on the first Sunday of August drew 130,000 visitors in 2008 and 75,000 in 2009, and the source gives the reason in three words: vanwege de regen. The stalls, the six kilometres and the several hundred booksellers were the same both years. Modern Age Coders teaches live online in English from Lettele to Bathmen, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Deventer?** Coding classes in Deventer reach 105,111 people (Statistics Netherlands, 1 January 2026) across 134 square kilometres at 799 residents to the square kilometre, in 48,940 households of which 19,715 hold one person. The book market held here on the first Sunday of August drew 130,000 visitors in 2008 and 75,000 in 2009, and the source gives the reason in three words: vanwege de regen. The stalls, the six kilometres and the several hundred booksellers were the same both years. Modern Age Coders teaches live online in English from Lettele to Bathmen, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 One Sunday in August 2008, 130,000 people came to the book market in Deventer. The next August, 75,000 came. Between those two Sundays the market did not shrink: it still ran to more than six kilometres, still had around 875 stalls, still filled the same streets with the same booksellers. What changed was the weather, and the source says so outright. A number that falls by 42 percent while the thing it supposedly measures stays exactly the same is not measuring that thing. It is measuring the day.
 
-Facts last verified 8 September 2026. Teaching is online; no Deventer branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 8 September 2026. Teaching is online; no Deventer branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city that teaches more students than it sends away
 
@@ -202,14 +202,14 @@ Deventer is compact and well connected, and almost nobody here is more than a qu
 - **Two lessons a week, regio Noord holidays** A repeating twice-weekly slot, normally eight lessons in a month. Overijssel takes its school holidays with regio Noord, and the weeks a family will be away are written into the plan before it starts.
 - **Three and a half hours ahead, four and a half in winter** Only the Dutch clock changes, so the distance to the teacher depends on the season. After school, early evening and either weekend day all land inside both working days.
 
-**Twice as many students study here as live here and study** 8,586 people are enrolled at institutions inside the municipality while 3,830 residents are enrolled anywhere at that level. Deventer is a place young people come to for education, which is excellent for anyone at that stage and no help at all to an eleven-year-old who wants to learn Python properly. A group of five to ten assembled on ability from across the world fills exactly that gap, at every age up to sixty-seven.
+**Twice as many students study here as live here and study** 8,586 people are enrolled at institutions inside the municipality while 3,830 residents are enrolled anywhere at that level. Deventer is a place young people come to for education, which is excellent for anyone at that stage and no help at all to an eleven-year-old who wants to learn Python properly. A group of fifteen to twenty assembled on ability from across the world fills exactly that gap, at every age up to sixty-seven.
 
 ## The fee, in dollars, identical in all seven places
 
 Set out here instead of being kept back for a call.
 
 - First class: USD 0. A whole lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate exists and it is quoted in dollars. There is no euro figure, which means Lettele and the centre of Deventer are charged exactly the same. Nothing is paid until the free lesson has settled a course and an hour, and payment is then handled over WhatsApp. Pausing, changing plan and missing a week are described on the pricing page.
@@ -250,7 +250,7 @@ There is not, and none is claimed in Deventer, in Bathmen or anywhere else in th
 
 ### What do Deventer coding classes cost?
 
-The first lesson is free of charge. After that, group tuition costs USD 100 a month for two live lessons every week, normally eight in a month, in a group of five to ten learners. One-to-one tuition costs USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all agreed before anything is paid.
+The first lesson is free of charge. After that, group tuition costs USD 100 a month for two live lessons every week, normally eight in a month, in a group of fifteen to twenty learners. One-to-one tuition costs USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all agreed before anything is paid.
 
 ### How many learners are in a group?
 

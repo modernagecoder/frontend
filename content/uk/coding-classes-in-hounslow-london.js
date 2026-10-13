@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Coding classes in Hounslow',
   capsuleQ: 'What are the best coding classes in Hounslow?',
-  capsule: 'Hounslow runs from Chiswick and Brentford by the Thames out to Feltham, Bedfont and Cranford by Heathrow, and the 2021 Census found 288,181 people living there. The council runs eleven Community Hub and Library sites, and Hounslow Central sits on the Piccadilly line. A class for your family should leave a learner able to judge which parts of a calculation matter, and this page\'s project does exactly that with a measurement made across Hounslow Heath in 1784. Lessons are live on video from India, in groups of five to ten at one level or one to one, for learners aged 6 to 67. The first lesson is free; afterwards a group place is USD 100 a month and private teaching USD 150 a month.',
+  capsule: 'Hounslow runs from Chiswick and Brentford by the Thames out to Feltham, Bedfont and Cranford by Heathrow, and the 2021 Census found 288,181 people living there. The council runs eleven Community Hub and Library sites, and Hounslow Central sits on the Piccadilly line. A class for your family should leave a learner able to judge which parts of a calculation matter, and this page\'s project does exactly that with a measurement made across Hounslow Heath in 1784. Lessons are live on video from India, in groups of fifteen to twenty at one level or one to one, for learners aged 6 to 67. The first lesson is free; afterwards a group place is USD 100 a month and private teaching USD 150 a month.',
   lead: 'In the spring of 1784 a narrow strip of Hounslow Heath was cleared of furze bushes and ant-hills, a party of soldiers from the 12th Regiment of Foot camped beside it, and William Roy laid glass rods, twenty feet at a time, along more than five miles of it. Ordnance Survey\'s own history tells how that base began the triangulation that joined London to Paris, a line that now crosses Heathrow airport. Roy did not stop at counting rods. He corrected his total for the slope of the ground, for the rods growing in the heat, for the temperature of the brass scale he had checked them against, and for the height of the heath above the sea, and he published every correction. Our learners rebuild his sums and put them in order of size. The largest turns out to be more than twenty times the size of the two smallest. Knowing which corrections matter, and which you could safely ignore, is called an error budget, and it is the thread of this page.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Hounslow.',
 
@@ -209,7 +209,7 @@ module.exports = {
     h2: 'Fees for Hounslow families',
     intro: 'The same fees in every corner of the borough: a free first lesson, then one monthly fee.',
     first: 'A complete lesson with a teacher, free, ending with a suggested level, course and weekly time.',
-    group: 'About eight live lessons a month in a group of five to ten learners at the same stage.',
+    group: 'About eight live lessons a month in a group of fifteen to twenty learners at the same stage.',
     private: 'About eight live lessons a month with a teacher for your learner alone.',
     closer: 'From Brentford to Bedfont, families are billed in US dollars, like every family outside India, and no pound prices appear on this site. Nothing is due until after the free lesson, once a course and a regular slot are chosen; our pricing page explains pauses, missed lessons and switching between group and private teaching.'
   },
@@ -234,8 +234,8 @@ module.exports = {
       { q: 'When are lessons for Hounslow learners?', a: 'A regular slot is chosen after the free lesson from the groups at the learner\'s level that have space. Our teachers work evenings in India while Hounslow has its afternoon and early evening, and every message and reminder gives the time as it is on a UK clock.' },
       { q: 'Can my child join a lesson from a hub library?', a: 'Yes, if the site\'s computers and connection allow it and they use a headset. Home is usually quieter, and it is where most of our learners join.' },
       { q: 'Is there a Modern Age Coders centre in Hounslow?', a: 'No. There is no Hounslow centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Hounslow cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are groups formed?', a: 'By level, pace and goals rather than age or area, with five to ten learners at the same stage. When no group at the right level meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do coding classes in Hounslow cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are groups formed?', a: 'By level, pace and goals rather than age or area, with fifteen to twenty learners at the same stage. When no group at the right level meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

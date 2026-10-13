@@ -223,7 +223,7 @@ module.exports = {
     cells: [
       { h3: 'Predict, then run', p: 'Students say what code will do before running it, every time.' },
       { h3: 'Testing taught early', p: 'Boundary and invalid inputs are part of every program, not an afterthought.' },
-      { h3: 'Groups of five to ten', p: 'Placed by what students can already do, not only by year level.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Placed by what students can already do, not only by year level.' },
       { h3: 'One-to-one if needed', p: 'For a gap that needs closing quickly, or a student ready to race ahead.' },
       { h3: 'Short parent notes', p: 'What was covered and one thing worth asking about at home.' },
       { h3: 'School work stays theirs', p: 'We teach the skill; assessed tasks are completed by the student under the school\'s rules.' }
@@ -238,7 +238,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Families in Australia pay monthly in US dollars, the rate we charge in every country outside India, with no deposit and the option to stop at the end of any month.',
     free: ['A live lesson with a teacher', 'A clear view of where your child sits', 'No payment details needed'],
-    group: ['Five to ten students at one level', 'The same teacher each week', 'Homework reviewed and explained', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher each week', 'Homework reviewed and explained', 'A certificate at the end'],
     one: ['A teacher for your child alone', 'Built around one goal', 'Weekly time chosen with you']
   },
 

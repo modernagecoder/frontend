@@ -14,7 +14,7 @@ Australia · Ages 6 to 18 · Free club or taught class
 
 Many Australian schools and libraries host a coding club after the bell, often free and run by volunteers. Online classes, like ours, are paid and taught by a regular teacher. Families sometimes assume one must be a cheaper or dearer version of the other. They are different things, and a lot of children do both. This page explains how volunteer clubs work, compares them fairly with a taught online class, and uses a small reliability model to show something parents rarely think about: how often each format actually runs across a term.
 
-At a glance: For: Ages 6 to 18, and adults; Our format: Taught live online; Teacher: Regular, with cover; Group size: Five to ten, or one to one; Alongside clubs: Yes, many learners do both; Delivery: Live online video; Times: Set for your state; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 6 to 18, and adults; Our format: Taught live online; Teacher: Regular, with cover; Group size: Fifteen to twenty, or one to one; Alongside clubs: Yes, many learners do both; Delivery: Live online video; Times: Set for your state; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for children who enjoy their club
 
@@ -220,7 +220,7 @@ A class that runs every week it is meant to.
 A club is usually free; our taught online lessons are paid monthly in US dollars, one rate in every country outside India. There is no joining fee and no term contract, so a child can try a term alongside their club and stop at any month's end.
 
 - Free first class: USD 0. A free first lesson. Bring a club project. No card details.
-- Group batch: USD 100 a month. Five to ten learners. One regular teacher. Cover arranged. Monthly.
+- Group batch: USD 100 a month. Fifteen to twenty learners. One regular teacher. Cover arranged. Monthly.
 - One to one: USD 150 a month. A teacher to yourself. Your own pace. Your own projects.
 
 ## Coding club or online class: common questions

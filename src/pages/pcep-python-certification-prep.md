@@ -146,9 +146,9 @@ Why prepare with Modern Age Coders>>>
 
 ## Not a video course. A coach who watches your code.
 
-#### Live, small batches
+#### Live, batches
 
-4–8 students per class, so a mentor actually sees your screen, catches your mistakes, and answers your questions in real time.
+15–20 students per class, so a mentor actually sees your screen, catches your mistakes, and answers your questions in real time.
 
 #### Built around the syllabus
 

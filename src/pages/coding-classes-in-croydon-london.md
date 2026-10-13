@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Croydon: Thor
 canonical: https://learn.modernagecoders.com/coding-classes-in-croydon-london
 source: src/pages/coding-classes-in-croydon-london.html
 ---
-> Croydon is the south London borough of Thornton Heath, Norbury, South Norwood, Addiscombe, Purley, Coulsdon, Selsdon and New Addington, with 390,719 residents at the 2021 Census and Selhurst Park inside its boundary. A class worth paying for should teach a learner not only to build a model but to ask how much to trust it, and this page does that with football: a ranking of Premier League teams worked out from their results, then tested on a season it never saw. Lessons run live on video with teachers based in India, for learners aged 6 to 67, either privately or in a group of five to ten at the same stage. The first lesson is on us. From then on, USD 100 a month buys a group place and USD 150 a month buys private teaching.
+> Croydon is the south London borough of Thornton Heath, Norbury, South Norwood, Addiscombe, Purley, Coulsdon, Selsdon and New Addington, with 390,719 residents at the 2021 Census and Selhurst Park inside its boundary. A class worth paying for should teach a learner not only to build a model but to ask how much to trust it, and this page does that with football: a ranking of Premier League teams worked out from their results, then tested on a season it never saw. Lessons run live on video with teachers based in India, for learners aged 6 to 67, either privately or in a group of fifteen to twenty at the same stage. The first lesson is on us. From then on, USD 100 a month buys a group place and USD 150 a month buys private teaching.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Croydon
 
@@ -12,11 +12,11 @@ London Borough of Croydon / Live online
 
 # Coding classes in Croydon
 
-**What are the best coding classes in Croydon?** Croydon is the south London borough of Thornton Heath, Norbury, South Norwood, Addiscombe, Purley, Coulsdon, Selsdon and New Addington, with 390,719 residents at the 2021 Census and Selhurst Park inside its boundary. A class worth paying for should teach a learner not only to build a model but to ask how much to trust it, and this page does that with football: a ranking of Premier League teams worked out from their results, then tested on a season it never saw. Lessons run live on video with teachers based in India, for learners aged 6 to 67, either privately or in a group of five to ten at the same stage. The first lesson is on us. From then on, USD 100 a month buys a group place and USD 150 a month buys private teaching.
+**What are the best coding classes in Croydon?** Croydon is the south London borough of Thornton Heath, Norbury, South Norwood, Addiscombe, Purley, Coulsdon, Selsdon and New Addington, with 390,719 residents at the 2021 Census and Selhurst Park inside its boundary. A class worth paying for should teach a learner not only to build a model but to ask how much to trust it, and this page does that with football: a ranking of Premier League teams worked out from their results, then tested on a season it never saw. Lessons run live on video with teachers based in India, for learners aged 6 to 67, either privately or in a group of fifteen to twenty at the same stage. The first lesson is on us. From then on, USD 100 a month buys a group place and USD 150 a month buys private teaching.
 
 Selhurst Park, home ground of Crystal Palace, stands in South Norwood, in the north of Croydon. Our learners start from a question every supporter argues about: how good is each team, really? The Bradley-Terry model answers with one number per team, chosen so that the stronger side of any pair is more likely to win, plus a small bonus for playing at home. Fitted to all 380 results of 2024-25, it ranks the twenty clubs almost exactly as the league table does. The interesting part comes next. Asked to predict 2025-26, it picks the winner a little more often than "the home side wins", yet it states its chances more boldly than the results justify. Learners then fix that, honestly, with one extra number.
 
-Facts last verified 25 September 2026. Teaching is online; no Croydon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Croydon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Croydon learners usually start
 
@@ -143,7 +143,7 @@ Learners at opposite ends of the borough can share the same class without a sing
 
 ### Matched, not drawn
 
-Groups are built by level, not by lottery: five to ten learners at one stage, meeting at a UK evening hour.
+Groups are built by level, not by lottery: fifteen to twenty learners at one stage, meeting at a UK evening hour.
 
 **Croydon and the other boroughs** At the 2021 Census Croydon had more usual residents than any other London borough, just ahead of Barnet. The [London page](/best-coding-class-in-london) lists all 32 and the City, adding a link to each as it goes live, including [Newham](/coding-classes-in-newham-london) across the river in the east.
 
@@ -173,7 +173,7 @@ Wherever a learner lives in Croydon, the classroom is a browser tab away.
 - **At home** Learners join on a laptop or desktop with headphones and a steady broadband or mobile connection.
 - **Key Stages named** Progress is described in the stages used by schools in England, from Key Stage 1 to sixth form, with GCSE and A level mentioned where relevant. All lessons are in English.
 - **Free first lesson** A real teaching session rather than a pitch, finishing with a recommended level and course. We never ask for card details at this stage.
-- **Five to ten per class** Classmates share a stage of learning and come from across the UK and beyond, which keeps a suitable hour available.
+- **Fifteen to twenty per class** Classmates share a stage of learning and come from across the UK and beyond, which keeps a suitable hour available.
 - **Two evenings a week** Classes usually meet twice weekly and pause for half terms, holidays and exams by agreement.
 - **London clock** Teachers are based in India, but every lesson time in our messages is given in UK time.
 
@@ -184,7 +184,7 @@ Wherever a learner lives in Croydon, the classroom is a browser tab away.
 A free first lesson, then one monthly fee that is the same from Norbury to New Addington.
 
 - First class: USD 0. A full lesson with a teacher, at no cost, that ends with our recommendation of level, course and time.
-- Group tuition: USD 100 a month. Roughly eight live lessons each month in a class of five to ten learners at one stage.
+- Group tuition: USD 100 a month. Roughly eight live lessons each month in a class of fifteen to twenty learners at one stage.
 - Private tuition: USD 150 a month. Roughly eight live lessons each month, taught one to one.
 
 Croydon families pay in US dollars, as all families outside India do, and the site shows no sterling prices. You pay nothing before the free lesson and before choosing a course and a regular slot. Pauses, missed lessons and switching between a class and private lessons are all explained on the pricing page.
@@ -225,11 +225,11 @@ No. There is no Croydon centre and no premises anywhere in the UK, because every
 
 ### What do coding classes in Croydon cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## Elsewhere in London and the UK
 

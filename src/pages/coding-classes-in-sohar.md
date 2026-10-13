@@ -170,9 +170,9 @@ The service details are specific enough to compare before booking.
 
 The first live class tests level and goal at no tuition charge.
 
-### Small groups
+### Groups
 
-Five to eight compatible learners work together with a teacher.
+Fifteen to twenty compatible learners work together with a teacher.
 
 ### Private option
 
@@ -206,7 +206,7 @@ Goal discussion, placement task and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -316,7 +316,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### How many learners are in a class?
 
-A group normally contains five to eight compatible learners. Compatibility considers current ability, pace and objective rather than age alone. Private tuition is one learner with one teacher. When no suitable group is available, the family or adult learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility considers current ability, pace and objective rather than age alone. Private tuition is one learner with one teacher. When no suitable group is available, the family or adult learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Sohar class times coordinated?
 

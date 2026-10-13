@@ -617,7 +617,7 @@ module.exports = {
       },
       {
         "h3": "Small groups",
-        "p": "Five to ten learners comparing answers to the same question."
+        "p": "Fifteen to twenty learners comparing answers to the same question."
       },
       {
         "h3": "One to one",
@@ -649,7 +649,7 @@ module.exports = {
       "No card details"
     ],
     "group": [
-      "Five to ten learners per class",
+      "Fifteen to twenty learners per class",
       "Shared datasets, compared answers",
       "The same teacher each week",
       "Stop after any month"

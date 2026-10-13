@@ -12,7 +12,7 @@ Live online · serving Dehradun
 
 Real programming for kids, teens and college students in Dehradun, from **Rajpur Road to Clock Tower, ISBT to Ballupur**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Dehradun)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**DehradunEnrollingAreasRajpur Road, Clock Tower, ISBT, Ballupur, Sahastradhara Road & all of DehradunBoardsUBSE · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across DehradunFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Dehradun)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**DehradunEnrollingAreasRajpur Road, Clock Tower, ISBT, Ballupur, Sahastradhara Road & all of DehradunBoardsUBSE · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across DehradunFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -140,7 +140,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -162,7 +162,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -171,7 +171,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -180,7 +180,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -255,7 +255,7 @@ Takes under a minute.
 
 ## Coding classes in Dehradun: FAQs
 
-What is the best coding class in Dehradun for kids?Modern Age Coders offers the best coding classes in Dehradun for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Dehradun areas including Rajpur Road, GMS Road, Clement Town, and Ballupur, and Manjalpur.Do you offer online coding classes in Dehradun?Yes, we offer live online coding classes for students across Dehradun including Rajpur Road, GMS Road, Clement Town, and Ballupur, Dalanwala, Clock Tower, and all other areas. Our online classes are interactive with small batch sizes of 5-8 students.Do you offer coding classes for Uttarakhand Board (UBSE) (Uttarakhand Board) students in Dehradun?Yes, our curriculum supports both Uttarakhand Board (Uttarakhand Board (UBSE)) and CBSE students in Dehradun. We align our coding and maths courses with Uttarakhand Board (UBSE) requirements to complement school education.How much do coding classes cost in Dehradun?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (3-4 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Can IIT Roorkee (nearby) students join your programming courses?Absolutely! We offer college-level courses in Data Structures & Algorithms, Full Stack Web Development, and AI/Data Science perfect for IIT Roorkee (nearby) and UPES students preparing for placements.Is the medium of instruction English for Dehradun students?Our instructors are comfortable teaching in Hindi and English. Yes! All classes are in English with Hindi support. Dehradun students feel comfortable in our friendly, bilingual learning environment.What areas in Dehradun do you serve?We serve all areas of Dehradun through our online classes including Rajpur Road, GMS Road, Clement Town, and Ballupur, Sahastradhara Road, Haridwar Road, EC Road, Canal Road, Prem Nagar, Race Course, Vasant Vihar, and more.How are your coding classes different from other institutes in Dehradun?We focus on project-based learning where students build real games, websites, and apps. Our small batch sizes (5-8 students), recorded sessions, expert instructors, and affordable pricing set us apart. We also support Uttarakhand Board, CBSE, and Uttarakhand Board (UBSE) preparation.Do you teach coding to Uttarakhand Board students in Dehradun?Yes. Dehradun schools run the Uttarakhand Board, UBSE, alongside CBSE, ICSE and a strong set of long-established private schools, and our classes fit beside any of them. One local quirk is that UBSE itself is not a Dehradun body: it is headquartered at Ramnagar in Nainital district. We teach the programming rather than the school syllabus, so the computer paper takes care of itself.How does a Dehradun student get into engineering, and can college students join?For engineering, Uttarakhand fills first-year B.Tech seats through a single admission window run by the state technical university in Dehradun, on JEE Main and Class 12 merit. College students are welcome on the college track wherever they study: real Python, Java, full-stack or AI/ML work, built until it runs. A transcript rarely shows any of that, which is exactly the gap it fills.
+What is the best coding class in Dehradun for kids?Modern Age Coders offers the best coding classes in Dehradun for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Dehradun areas including Rajpur Road, GMS Road, Clement Town, and Ballupur, and Manjalpur.Do you offer online coding classes in Dehradun?Yes, we offer live online coding classes for students across Dehradun including Rajpur Road, GMS Road, Clement Town, and Ballupur, Dalanwala, Clock Tower, and all other areas. Our online classes are interactive with batch sizes of 15-20 students.Do you offer coding classes for Uttarakhand Board (UBSE) (Uttarakhand Board) students in Dehradun?Yes, our curriculum supports both Uttarakhand Board (Uttarakhand Board (UBSE)) and CBSE students in Dehradun. We align our coding and maths courses with Uttarakhand Board (UBSE) requirements to complement school education.How much do coding classes cost in Dehradun?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (up to 6 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Can IIT Roorkee (nearby) students join your programming courses?Absolutely! We offer college-level courses in Data Structures & Algorithms, Full Stack Web Development, and AI/Data Science perfect for IIT Roorkee (nearby) and UPES students preparing for placements.Is the medium of instruction English for Dehradun students?Our instructors are comfortable teaching in Hindi and English. Yes! All classes are in English with Hindi support. Dehradun students feel comfortable in our friendly, bilingual learning environment.What areas in Dehradun do you serve?We serve all areas of Dehradun through our online classes including Rajpur Road, GMS Road, Clement Town, and Ballupur, Sahastradhara Road, Haridwar Road, EC Road, Canal Road, Prem Nagar, Race Course, Vasant Vihar, and more.How are your coding classes different from other institutes in Dehradun?We focus on project-based learning where students build real games, websites, and apps. Our batch sizes (15-20 students), recorded sessions, expert instructors, and affordable pricing set us apart. We also support Uttarakhand Board, CBSE, and Uttarakhand Board (UBSE) preparation.Do you teach coding to Uttarakhand Board students in Dehradun?Yes. Dehradun schools run the Uttarakhand Board, UBSE, alongside CBSE, ICSE and a strong set of long-established private schools, and our classes fit beside any of them. One local quirk is that UBSE itself is not a Dehradun body: it is headquartered at Ramnagar in Nainital district. We teach the programming rather than the school syllabus, so the computer paper takes care of itself.How does a Dehradun student get into engineering, and can college students join?For engineering, Uttarakhand fills first-year B.Tech seats through a single admission window run by the state technical university in Dehradun, on JEE Main and Class 12 merit. College students are welcome on the college track wherever they study: real Python, Java, full-stack or AI/ML work, built until it runs. A transcript rarely shows any of that, which is exactly the gap it fills.
 
 ## Ready to start your child's coding journey in Dehradun?
 

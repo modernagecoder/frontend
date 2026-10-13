@@ -179,7 +179,7 @@ The families hardest to reach are exactly the ones a fixed classroom serves wors
 
 A full class with a genuine task, closing with a clear recommendation. No card details to book it, and no commitment before somebody has watched a teacher work.
 
-### Five to eight in a group, matched on level
+### Fifteen to twenty in a group, matched on level
 
 Cohorts form on what a learner can do and where they are headed. How far up the valley they live plays no part, which is what proximity would otherwise decide.
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for learners here?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are class times arranged for learners here?
 

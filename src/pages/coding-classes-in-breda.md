@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Breda for ages 6 to 6
 canonical: https://learn.modernagecoders.com/coding-classes-in-breda
 source: src/pages/coding-classes-in-breda.html
 ---
-> Coding classes in Breda serve a municipality of 190,204 people (Statistics Netherlands, 1 January 2026), the third of Noord-Brabant after Eindhoven and Tilburg. Its own encyclopaedia entry calls it the ninth municipality of the Netherlands; Nijmegen's entry calls Nijmegen the ninth city, and on the same date the two are 333 people apart. Two published sources disagree by as much as 402 about a single city on a single day, so the ninth place is not something the data can settle. Modern Age Coders teaches live online in English across the whole municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of five to ten or USD 150 one-to-one.
+> Coding classes in Breda serve a municipality of 190,204 people (Statistics Netherlands, 1 January 2026), the third of Noord-Brabant after Eindhoven and Tilburg. Its own encyclopaedia entry calls it the ninth municipality of the Netherlands; Nijmegen's entry calls Nijmegen the ninth city, and on the same date the two are 333 people apart. Two published sources disagree by as much as 402 about a single city on a single day, so the ninth place is not something the data can settle. Modern Age Coders teaches live online in English across the whole municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of fifteen to twenty or USD 150 one-to-one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Breda
 
@@ -12,11 +12,11 @@ Breda, Noord-Brabant / Live online
 
 # Coding classes in Breda, the ninth city of the Netherlands by a margin narrower than the error bar
 
-**What are the best coding classes in Breda?** Coding classes in Breda serve a municipality of 190,204 people (Statistics Netherlands, 1 January 2026), the third of Noord-Brabant after Eindhoven and Tilburg. Its own encyclopaedia entry calls it the ninth municipality of the Netherlands; Nijmegen's entry calls Nijmegen the ninth city, and on the same date the two are 333 people apart. Two published sources disagree by as much as 402 about a single city on a single day, so the ninth place is not something the data can settle. Modern Age Coders teaches live online in English across the whole municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of five to ten or USD 150 one-to-one.
+**What are the best coding classes in Breda?** Coding classes in Breda serve a municipality of 190,204 people (Statistics Netherlands, 1 January 2026), the third of Noord-Brabant after Eindhoven and Tilburg. Its own encyclopaedia entry calls it the ninth municipality of the Netherlands; Nijmegen's entry calls Nijmegen the ninth city, and on the same date the two are 333 people apart. Two published sources disagree by as much as 402 about a single city on a single day, so the ninth place is not something the data can settle. Modern Age Coders teaches live online in English across the whole municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of fifteen to twenty or USD 150 one-to-one.
 
 Breda and Nijmegen both claim ninth place in the country, and the honest answer is that neither claim is supported. On 1 January 2026 the national figures put Breda at 190,204 and Nijmegen at 189,871, a gap of 333 people. On the same date two published sources give Groningen as 244,427 and 244,829, a gap of 402. When the distance between two ranks is smaller than the distance between two sources describing one city, the ranking is noise wearing a number. A child who can measure that is harder to sell things to.
 
-Facts last verified 7 September 2026. Teaching is online; no Breda branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Breda branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city of soldiers, students and screen-makers
 
@@ -210,7 +210,7 @@ Prinsenbeek is over the motorway, Bavel and Ulvenhout are out towards the woods,
 Set out here so that nobody has to ask for it.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate applies, quoted in dollars, with no separate euro list, so a family in Effen sees exactly what a family in the centre sees. Money is only exchanged once the free lesson has produced a course and a timetable, and it goes over WhatsApp. Pauses, plan changes and missed weeks are described on the pricing page.
@@ -251,7 +251,7 @@ No, and none is claimed near the Grote Kerk, in Prinsenbeek or anywhere in the N
 
 ### What do Breda coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Breda group?
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI lessons for Cheltenham children,
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-cheltenham
 source: src/pages/online-coding-and-python-classes-in-cheltenham.html
 ---
-> Cheltenham borough held 118,833 people when the 2021 census was taken; the ONS built-up area of Cheltenham, reaching slightly past the boundary, holds 115,940. People in their twenties and those over 80 are above the England share, and young children a little below it. Cheltenham learners from 6 to 67 can study coding, Python, AI and maths with our tutors in India over live video, alone or in classes of five to ten at one level. A free opening lesson points to the right course. The Cheltenham project reads a century-old biography of a headteacher remembered across the town. Afterwards, lessons cost USD 100 monthly as part of a small class, or USD 150 monthly one-to-one.
+> Cheltenham borough held 118,833 people when the 2021 census was taken; the ONS built-up area of Cheltenham, reaching slightly past the boundary, holds 115,940. People in their twenties and those over 80 are above the England share, and young children a little below it. Cheltenham learners from 6 to 67 can study coding, Python, AI and maths with our tutors in India over live video, alone or in classes of fifteen to twenty at one level. A free opening lesson points to the right course. The Cheltenham project reads a century-old biography of a headteacher remembered across the town. Afterwards, lessons cost USD 100 monthly as part of a small class, or USD 150 monthly one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South West England](/coding-and-ai-classes-in-south-west-england) / Cheltenham
 
@@ -12,11 +12,11 @@ Cheltenham, Gloucestershire, England / Live online
 
 # Online coding and Python classes in Cheltenham
 
-**What are the best online coding and Python classes in Cheltenham?** Cheltenham borough held 118,833 people when the 2021 census was taken; the ONS built-up area of Cheltenham, reaching slightly past the boundary, holds 115,940. People in their twenties and those over 80 are above the England share, and young children a little below it. Cheltenham learners from 6 to 67 can study coding, Python, AI and maths with our tutors in India over live video, alone or in classes of five to ten at one level. A free opening lesson points to the right course. The Cheltenham project reads a century-old biography of a headteacher remembered across the town. Afterwards, lessons cost USD 100 monthly as part of a small class, or USD 150 monthly one-to-one.
+**What are the best online coding and Python classes in Cheltenham?** Cheltenham borough held 118,833 people when the 2021 census was taken; the ONS built-up area of Cheltenham, reaching slightly past the boundary, holds 115,940. People in their twenties and those over 80 are above the England share, and young children a little below it. Cheltenham learners from 6 to 67 can study coding, Python, AI and maths with our tutors in India over live video, alone or in classes of fifteen to twenty at one level. A free opening lesson points to the right course. The Cheltenham project reads a century-old biography of a headteacher remembered across the town. Afterwards, lessons cost USD 100 monthly as part of a small class, or USD 150 monthly one-to-one.
 
 Elizabeth Helen Shillito records that a new college for girls opened in Cheltenham on 13 February 1854, in Cambray House, and that in 1858 it advertised for a Principal. The woman appointed, Dorothea Beale, led it until 1906, and a fuller biography by Elizabeth Raikes, Dorothea Beale of Cheltenham, runs to 146,461 words. Which pairs of words define that book? Count every pair of neighbouring words and the winner is "of the", which says nothing. Switch to a clever score called pointwise mutual information and the winners are pairs seen exactly once, some of them publisher's notes. The right answer needs a third step. A Cheltenham learner can build all three in Python and see why language tools need both statistics and judgement.
 
-Facts last verified 27 September 2026. Teaching is online; no Cheltenham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Cheltenham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Cheltenham learners pick first
 
@@ -138,7 +138,7 @@ Every neighbourhood in the borough joins the same way.
 - **Student-led code** The learner types each program; the tutor follows the shared screen and prompts with questions.
 - **Placed with care** From Year 4 to Year 13, the starting topic comes from the school year and the trial, with the right exam board.
 - **A free first lesson** No charge for the trial, which ends with a named course and the reason for it.
-- **Classes at one stage** Five to ten learners from around the UK, all at the same level.
+- **Classes at one stage** Fifteen to twenty learners from around the UK, all at the same level.
 - **Two lessons weekly** In term time; school holidays kept clear.
 - **Fixed lesson time** Our tutors adjust when UK clocks change.
 

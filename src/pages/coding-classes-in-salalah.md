@@ -191,7 +191,7 @@ The first task and starting recommendation require no tuition payment.
 
 ### Group tuition
 
-Five to eight compatible learners work live with one teacher.
+Fifteen to twenty compatible learners work live with one teacher.
 
 ### Private tuition
 
@@ -225,7 +225,7 @@ Goal review, ability task and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -335,7 +335,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Salalah learners?
 
-A group normally contains five to eight compatible learners. Compatibility considers present ability, pace and objective rather than age alone. Private tuition is one learner with one teacher. If no suitable group is available, the learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility considers present ability, pace and objective rather than age alone. Private tuition is one learner with one teacher. If no suitable group is available, the learner can discuss private tuition or wait for an appropriate cohort.
 
 ### Can the timetable adjust around Khareef and Ramadan?
 

@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Coding classes in Cheshire',
   capsuleQ: 'What are the best coding classes in Cheshire?',
-  capsule: 'Cheshire, as a ceremonial county, is four councils with 1,095,374 residents at the 2021 Census: Cheshire East, Cheshire West and Chester, Warrington and Halton. Warrington is the biggest town, then Chester, Crewe, Ellesmere Port, Runcorn, Widnes and Macclesfield, with salt towns, market towns and commuter villages between. Our classes reach them all in exactly the same way: taught live over video by teachers in India, grouping learners by skill and never simply by birthday, for anyone aged 6 to 67, with five to ten in a group or one learner with one teacher. Programming, Python, data science, AI and maths are all available. The Cheshire project uses a record kept at Jodrell Bank. There is no charge for the first lesson; after it, group places are USD 100 a month and private lessons USD 150.',
+  capsule: 'Cheshire, as a ceremonial county, is four councils with 1,095,374 residents at the 2021 Census: Cheshire East, Cheshire West and Chester, Warrington and Halton. Warrington is the biggest town, then Chester, Crewe, Ellesmere Port, Runcorn, Widnes and Macclesfield, with salt towns, market towns and commuter villages between. Our classes reach them all in exactly the same way: taught live over video by teachers in India, grouping learners by skill and never simply by birthday, for anyone aged 6 to 67, with fifteen to twenty in a group or one learner with one teacher. Programming, Python, data science, AI and maths are all available. The Cheshire project uses a record kept at Jodrell Bank. There is no charge for the first lesson; after it, group places are USD 100 a month and private lessons USD 150.',
   lead: 'About 6,500 light-years away, the collapsed core of a star that exploded in 1054 is spinning roughly thirty times a second, and it is slowing down. Since 1988, astronomers at Jodrell Bank, under the 76 metre Lovell Telescope on the Cheshire plain, have published its exact spin rate month by month. That record is a gift to a learner, because it contains a derivative you can measure yourself. Subtract one month\'s spin from the next, divide by the time between them, and you have the rate at which a dead star is losing speed. This page\'s project does that for every pair of months in 38 years, checks the result against Jodrell\'s own figure, and then asks what the slowdown says about the star\'s age.',
   wa: 'Hello Modern Age Coders, may I book a free lesson for a learner in Cheshire?',
 
@@ -178,7 +178,7 @@ module.exports = {
       { h3: 'Home is the classroom', p: 'A bedroom in Frodsham, a kitchen in Holmes Chapel, a study in Lymm. The teacher shares a screen and the learner writes the code.' },
       { h3: 'English, and UK school terms', p: 'Year 9 options, GCSEs and A levels are named the way Cheshire schools name them, and all teaching is in English.' },
       { h3: 'A free lesson first', p: 'A complete lesson of real work, then an honest recommendation. We never ask for card details at this stage.' },
-      { h3: 'Matched to your level', p: 'Groups of five to ten learners at the same point, from many towns and countries, meeting at a sensible hour.' },
+      { h3: 'Matched to your level', p: 'Groups of fifteen to twenty learners at the same point, from many towns and countries, meeting at a sensible hour.' },
       { h3: 'Breaks to suit', p: 'Typically two lessons a week, paused for your own school\'s holidays, since the four councils and academies differ.' },
       { h3: 'Timetables in UK time', p: 'India, our teachers\' base, runs 5.5 hours ahead of UK winter time and 4.5 hours ahead of UK summer time; every lesson is fixed in UK time.' }
     ],
@@ -189,7 +189,7 @@ module.exports = {
     h2: 'What lessons cost in Cheshire',
     intro: 'One price list for all four councils and every country outside India.',
     first: 'A full lesson of real work, ending in a recommended level and course.',
-    group: 'About eight lessons a month, in a group of five to ten at the same level.',
+    group: 'About eight lessons a month, in a group of fifteen to twenty at the same level.',
     private: 'About eight lessons a month with one teacher and one learner.',
     closer: 'We bill in US dollars everywhere except India and have no sterling price list. The first charge comes after the free lesson, once a course and a regular slot are agreed; the pricing page explains pausing, missed lessons and changing between group and private places.'
   },

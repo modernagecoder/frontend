@@ -16,7 +16,7 @@ Kenmore, City of Brisbane, Queensland / Live online
 
 Kenmore is a suburb where nearly every home is a separate house. Its bus stops carry 2,614 scheduled visits on Wednesday 21 October 2026, all by bus, on 10 routes numbered from 425 to 446. Weekday and weekend timetables differ, which makes Kenmore a clean example of the drift that quietly breaks AI models.
 
-Facts last verified 12 October 2026. Teaching is online; no Kenmore branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Kenmore branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI and data courses
 
@@ -176,7 +176,7 @@ Lessons run live over video, so learners join from home.
 - **Taught live** The teacher leads, questions and reviews code during every lesson.
 - **Holiday pauses** Classes follow the Queensland terms and stop in school holidays.
 - **Trial lesson** A free first lesson, then a written recommendation.
-- **Level-based groups** Groups of five to ten, or private lessons.
+- **Level-based groups** Groups of fifteen to twenty, or private lessons.
 - **Regular rhythm** Two lessons a week, around eight a month.
 - **India time** A 4:30pm Kenmore lesson is noon in India throughout the year.
 
@@ -187,7 +187,7 @@ Lessons run live over video, so learners join from home.
 One set of fees for every learner.
 
 - First class: USD 0. Lesson one is free and comes with a plan.
-- Group tuition: USD 100 a month. Groups: about eight lessons a month, five to ten learners.
+- Group tuition: USD 100 a month. Groups: about eight lessons a month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. One to one: about eight lessons a month with a dedicated teacher.
 
 Kenmore fees are in US dollars and only start after the trial has set the course and a weekly time. The pricing page sets out holiday and missed-lesson rules.
@@ -224,11 +224,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Kenmore classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Can adults join AI classes?
 

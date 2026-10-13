@@ -279,7 +279,7 @@ module.exports = {
       { h3: 'Real-time teaching', p: 'The teacher sees and discusses the learner\'s screen throughout.' },
       { h3: 'Terms and breaks', p: 'Lessons run through Queensland terms and rest in the school holidays.' },
       { h3: 'Trial at no cost', p: 'One free lesson and a written recommendation afterwards.' },
-      { h3: 'Small classes', p: 'Five to ten learners of one level, or one to one.' },
+      { h3: 'Small classes', p: 'Fifteen to twenty learners of one level, or one to one.' },
       { h3: 'Weekly pattern', p: 'Two lessons each week, around eight a month.' },
       { h3: 'Across time zones', p: 'A 4pm Springfield class is 11:30am for our teachers in India.' }
     ],
@@ -292,7 +292,7 @@ module.exports = {
     h2: 'Springfield class fees',
     intro: 'Every learner pays the same rates.',
     first: 'Your first lesson is free and ends with a learning plan.',
-    group: 'Group lessons: roughly eight a month, five to ten learners.',
+    group: 'Group lessons: roughly eight a month, fifteen to twenty learners.',
     private: 'Private lessons: roughly eight a month with one teacher.',
     closer: 'Fees for Springfield learners are in US dollars and start only after the trial has fixed a course and timetable. See the pricing page for holidays and missed lessons.'
   },
@@ -337,12 +337,12 @@ module.exports = {
       },
       {
         q: 'What do Springfield classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       {

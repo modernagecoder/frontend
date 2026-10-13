@@ -286,7 +286,7 @@ module.exports = {
       { h3: 'Tracebacks read together', p: 'Errors are treated as clues and read line by line with the teacher.' },
       { h3: 'Follows SA terms', p: 'Lessons pause in South Australian school holidays.' },
       { h3: 'Free opening class', p: 'A complete first lesson at no cost, then advice.' },
-      { h3: 'Level groups', p: 'Five to ten learners at a matching stage, or private.' },
+      { h3: 'Level groups', p: 'Fifteen to twenty learners at a matching stage, or private.' },
       { h3: 'Two a week', p: 'Fixed weekly lessons, around eight a month.' },
       { h3: 'India time', p: 'Our teachers are in India: a 4:30pm Prospect lesson is 11:30am India time in summer and 12:30pm from April.' }
     ],
@@ -299,7 +299,7 @@ module.exports = {
     h2: 'Prospect class fees',
     intro: 'Three prices, no surprises.',
     first: 'Lesson one is free, with written advice afterwards.',
-    group: 'Around eight group lessons a month, five to ten learners.',
+    group: 'Around eight group lessons a month, fifteen to twenty learners.',
     private: 'Around eight private lessons a month.',
     closer: 'Prospect families pay in US dollars after the trial, when course and time are settled. The pricing page covers holidays and missed lessons.'
   },
@@ -341,12 +341,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Prospect learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       {

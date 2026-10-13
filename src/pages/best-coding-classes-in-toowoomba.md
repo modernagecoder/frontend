@@ -16,7 +16,7 @@ Toowoomba, Queensland, Australia / Live online
 
 Type two places into a journey planner and an answer appears in a blink. Behind that blink sits an algorithm, and one of the neatest is the Connection Scan Algorithm. It treats a timetable as a single long list of hops, each one a bus leaving one stop and reaching the next, sorted by departure time, and reads that list once from top to bottom. Translink publishes Toowoomba's bus timetable as open data. On a weekday its 202 trips break into 9,444 such hops. Starting from the bus station at 8:00 in the morning, our code walked the list and worked out the earliest time a rider could reach every one of the 641 stops in the city. Learners write the same program, then try to break it.
 
-Facts last verified 7 October 2026. Teaching is online; no Toowoomba branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Toowoomba branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four places a Toowoomba learner could start
 
@@ -181,7 +181,7 @@ Toowoomba spreads across the top of the range, and a video lesson reaches every 
 - **Anywhere on the Downs** A learner in the city centre and one out at Westbrook can share the same lesson, each from their own desk.
 - **Queensland school language** We talk in Queensland year levels, time the work to its four terms and help senior students connect projects with the computing subjects they take. Teaching is in English.
 - **A genuine first lesson** Your free session is an ordinary lesson, not a sales call, and it ends with a recommended level, course and slot. Booking it needs no card.
-- **Groups at one stage** Five to ten learners working at the same level, from Toowoomba and elsewhere, so regional cities still get complete groups.
+- **Groups at one stage** Fifteen to twenty learners working at the same level, from Toowoomba and elsewhere, so regional cities still get complete groups.
 - **Two lessons a week** Around eight lessons each month in a fixed slot, with holidays and exam weeks arranged with the teacher in advance.
 - **Teachers four and a half hours behind** Queensland never changes its clocks, so a 6pm lesson in Toowoomba is always 1:30pm where our teachers work in India, in January and in July alike.
 
@@ -192,7 +192,7 @@ Toowoomba spreads across the top of the range, and a video lesson reaches every 
 The whole price list, in three lines.
 
 - First class: USD 0. A complete lesson free of charge, after which you receive a level, a suggested course and a regular time.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, shared with five to ten learners at your level.
+- Group tuition: USD 100 a month. A month of lessons, usually eight, shared with fifteen to twenty learners at your level.
 - Private tuition: USD 150 a month. About eight lessons a month on the same rhythm, with one teacher working only with you.
 
 Fees are set in US dollars everywhere except India, so a family in Rangeville pays exactly what a family in Darling Heights pays and there is no separate Queensland price. Nothing is charged until the trial has fixed a course and a weekly slot; the pricing page explains holidays, absences and switching between group and private lessons.
@@ -233,11 +233,11 @@ No, and none is claimed. Every lesson is live and online, with no premises anywh
 
 ### What do Toowoomba coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and goals rather than on age or postcode. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and goals rather than on age or postcode. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Toowoomba and Queensland learners
 

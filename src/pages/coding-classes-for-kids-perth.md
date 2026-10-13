@@ -16,7 +16,7 @@ Perth, Western Australia, Australia / Live online
 
 Ride the Fremantle line out to the coast and you pass seventeen stations. Ride it home and you pass the same seventeen, backwards. A program should be able to prove that: take the outbound list, reverse it, and check it against the list for the trip home. Our young Perth coders did exactly that with the station lists stored in OpenStreetMap. Sixteen stations matched perfectly. One did not, and the reason turned out to be one stray letter that nobody had noticed.
 
-Facts last verified 7 October 2026. Teaching is online; no Perth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Perth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Good places for a Perth child to begin
 
@@ -178,7 +178,7 @@ Greater Perth stretches a long way up and down the coast, and online lessons mea
 - **What you need** A laptop or desktop with working sound. A parent nearby for the first lesson helps young children settle in.
 - **Western Australian terms** Teachers use the year names Perth children use, from Pre-primary onwards, so nothing sounds unfamiliar.
 - **A proper trial** One complete lesson to see how your child learns, followed by a course and time recommendation, with no card required.
-- **Small groups** Five to ten children at the same stage, or one to one when that suits better.
+- **Small groups** Fifteen to twenty children at the same stage, or one to one when that suits better.
 - **Regular rhythm** About eight lessons a month, normally two a week in the same slot.
 - **Teachers on India time** Perth is two and a half hours ahead of India time all year round, so after-school Perth lessons fall in the early afternoon of our teachers' working day.
 
@@ -189,7 +189,7 @@ Greater Perth stretches a long way up and down the coast, and online lessons mea
 Three prices and no fine print.
 
 - First class: USD 0. A full first lesson, free, finishing with a level, a course and a regular time.
-- Group tuition: USD 100 a month. Roughly eight lessons a month shared with five to ten children at the same level.
+- Group tuition: USD 100 a month. Roughly eight lessons a month shared with fifteen to twenty children at the same level.
 - Private tuition: USD 150 a month. Roughly eight lessons a month with your child working one to one with the teacher.
 
 Outside India we charge everyone in US dollars at one rate, so it does not matter whether you are in the northern suburbs or down the coast towards Rockingham. The first invoice only follows the trial, once you are happy with the course and slot; the pricing page covers holidays, missed lessons and switching formats.
@@ -230,11 +230,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do coding classes for Perth kids cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Perth families
 

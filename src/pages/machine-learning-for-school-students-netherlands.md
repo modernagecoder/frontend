@@ -4,7 +4,7 @@ description: "Machine learning for Dutch school pupils aged 10 to 18: first mode
 canonical: https://learn.modernagecoders.com/machine-learning-for-school-students-netherlands
 source: src/pages/machine-learning-for-school-students-netherlands.html
 ---
-> Modern Age Coders teaches machine learning live online to school pupils in the Netherlands aged ten to eighteen. Younger pupils write a first program that learns from examples; older pupils train models in Python on real data, test them against a simple baseline, count what the model gets right and wrong in each group, and write up what it can and cannot do. Pupils are placed by ability, in groups of five to ten or one to one, alongside a Dutch or international school. The first lesson is free; after that a group place is USD 100 a month and one-to-one lessons USD 150.
+> Modern Age Coders teaches machine learning live online to school pupils in the Netherlands aged ten to eighteen. Younger pupils write a first program that learns from examples; older pupils train models in Python on real data, test them against a simple baseline, count what the model gets right and wrong in each group, and write up what it can and cannot do. Pupils are placed by ability, in groups of fifteen to twenty or one to one, alongside a Dutch or international school. The first lesson is free; after that a group place is USD 100 a month and one-to-one lessons USD 150.
 
 [Home](/) / [Courses](/courses) / [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands) / Machine learning for pupils
 
@@ -155,7 +155,7 @@ Our teachers work from India, which never switches to summer time, while Dutch c
 - **Weekend** Saturday or Sunday, for longer sessions on a project.
 
 - **A first lesson with a real model** Even in the free lesson a pupil makes something that learns. The teacher watches how they reason and chooses the right starting rung.
-- **Groups by level** Five to ten pupils from several countries who can already do the same things, so nobody is rushed or held back.
+- **Groups by level** Fifteen to twenty pupils from several countries who can already do the same things, so nobody is rushed or held back.
 - **One to one for projects** For a profile project, a competition entry or a pupil who prefers a teacher to themselves.
 - **Parents informed** We speak with a parent before anything is booked and keep them in the loop, as Dutch rules on consent for under-sixteens expect.
 - **English, with Dutch school words** Lessons are in English; brugklas, havo, vwo and profielkeuze are used as families use them.
@@ -166,7 +166,7 @@ Our teachers work from India, which never switches to summer time, while Dutch c
 Monthly, in US dollars, the same as for every country outside India. No separate Dutch rate, no joining fee, no annual contract.
 
 - Free first class: USD 0. A real lesson with a real model. Places the pupil at the right rung. No card or bank details.
-- Group batch: USD 100 a month. Five to ten pupils at one level. The same live teacher every week. Models reviewed every week. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty pupils at one level. The same live teacher every week. Models reviewed every week. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one pupil. Pace set by the pupil and the project. Ideal for profile projects.
 
 ## What Dutch families ask about machine learning at school age

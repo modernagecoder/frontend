@@ -186,7 +186,7 @@ module.exports = {
       { h3: 'At your desk', p: 'Any laptop or desktop with working sound. A parent beside the youngest children for the first lesson helps them relax.' },
       { h3: 'Familiar school language', p: 'We talk about Kindergarten, Stage 2 or Year 7 exactly as a Sydney classroom does, so the lesson feels connected to school.' },
       { h3: 'Free first session', p: 'A full lesson with something finished at the end, then our suggestion for course and time. Card details are never asked for.' },
-      { h3: 'Groups of five to ten', p: 'Children working at a similar level, or private lessons if they suit your child better.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Children working at a similar level, or private lessons if they suit your child better.' },
       { h3: 'Steady weekly rhythm', p: 'About eight lessons a month, often two a week at a fixed time.' },
       { h3: 'Teachers on India time', p: 'Our teachers work on India time, which trails Sydney by 4.5 hours in the cooler months and by 5.5 hours while daylight saving runs. A Sydney after-school class therefore falls in their late morning.' }
     ],
@@ -197,7 +197,7 @@ module.exports = {
     h2: 'What coding classes cost for Sydney kids',
     intro: 'Three prices, plainly put.',
     first: 'A free first lesson, finishing with a suggested level, course and time.',
-    group: 'About eight lessons a month with five to ten children at a matching level.',
+    group: 'About eight lessons a month with fifteen to twenty children at a matching level.',
     private: 'About eight lessons a month for your child alone with a teacher.',
     closer: 'Outside India, every family pays in US dollars at the same single rate, from the inner west to the Hills. Nothing is charged until after the trial lesson and your choice of course and slot; the pricing page explains holidays, absences and changing between group and private lessons.'
   },
@@ -222,8 +222,8 @@ module.exports = {
       { q: 'What time are lessons for Sydney children?', a: 'After school on weekdays or at weekends, set during the free lesson and always given in Sydney time.' },
       { q: 'How are children kept safe in online lessons?', a: 'A teacher runs and watches each live session, the groups are small, no child is signed up to an adult AI service, and parents may sit in at any time.' },
       { q: 'Is there a Modern Age Coders centre in Sydney?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do coding classes for Sydney kids cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do coding classes for Sydney kids cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

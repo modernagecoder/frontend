@@ -64,7 +64,7 @@ So a sentence beginning "in Gadong" can be describing any of these, and the read
 
 The number of children near you is not the number who could be in your class
 
-That distinction is the practical version of the whole page. Kampong Gadong has 3,356 residents of all ages, from which a class needing five to eight learners at one level in one subject free at one hour is very hard to assemble. Widen to the two mukims and you have 73,491, but they are spread across many schools with very different amounts of prior computing, and no institution is sorting them by ability for you. Our groups are formed from our entire intake across twenty-five countries on demonstrated ability alone, which is the only denominator that actually produces a class rather than a waiting list.
+That distinction is the practical version of the whole page. Kampong Gadong has 3,356 residents of all ages, from which a class needing fifteen to twenty learners at one level in one subject free at one hour is very hard to assemble. Widen to the two mukims and you have 73,491, but they are spread across many schools with very different amounts of prior computing, and no institution is sorting them by ability for you. Our groups are formed from our entire intake across twenty-five countries on demonstrated ability alone, which is the only denominator that actually produces a class rather than a waiting list.
 
 Sources: Kampong Gadong population of 3,356 at the 2021 census, its area of 254.4872 hectares, its position within Mukim Gadong B and within Bandar Seri Begawan, the Centrepoint Hotel completed in 1994 as part of the Abdul Razak Complex, and The Mall and Rizqun International Hotel inaugurated on 9 July 2006, from the [Gadong](https://en.wikipedia.org/wiki/Gadong,_Brunei) summary citing Brunei government material. Mukim Gadong A at 35,424, Mukim Gadong B at 38,067 and the Brunei-Muara district total of 318,530 at the 2021 census, together with the eighteen-mukim breakdown that sums to exactly that total, from the [Brunei-Muara District](https://en.wikipedia.org/wiki/Brunei%E2%80%93Muara_District) summary. Note that 318,530 is the 2021 census figure and the 332,462 quoted for the district elsewhere on this site is a later estimate; both are real and neither corrects the other. Verified 17 August 2026.
 
@@ -194,7 +194,7 @@ A teacher on camera, in real time, reviewing work as it is written. No recording
 
 Free, and it settles the level. One problem, watched rather than marked, then a recommendation you can push back on.
 
-### Five to eight per group
+### Fifteen to twenty per group
 
 Sorted on demonstrated ability across twenty-five countries, which is the only sorting that produces a class rather than a waiting list.
 
@@ -312,7 +312,7 @@ It is the best window in the system, and we would say so even if it were inconve
 
 ### How much do coding classes in Gadong cost?
 
-The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of five to eight compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
+The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of fifteen to twenty compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
 
 ### What time would the class be, and does it shift?
 

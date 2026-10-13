@@ -48,7 +48,7 @@ Published prices, read in October 2026 and converted to US dollars so this page 
 | Online Level 2 maths course with exams | about $635 on sale, listed at about $1,058 | learndirect, Functional Skills Maths Level 2 exam and course bundle page (read 7 October 2026) |
 | Functional Skills maths exam on its own | about $502 | learndirect, Functional Skills maths exam page (read 7 October 2026) |
 | Funded place at a college or adult provider (England) | free for eligible adults | gov.uk, Statutory entitlements: other approval criteria (updated 12 December 2025) |
-| Modern Age Coders, live Functional Skills maths | $100 a month in a group of 5 to 10, or $150 a month one-to-one, eight one-hour lessons; exam booked separately with an approved centre | Our own price, no enrolment fee |
+| Modern Age Coders, live Functional Skills maths | $100 a month in a group of 15 to 20, or $150 a month one-to-one, eight one-hour lessons; exam booked separately with an approved centre | Our own price, no enrolment fee |
 
 Conversion: UK figures were converted at 1.3221 US dollars per pound, the Bank of England spot rate for 5 October 2026 (series XUDLUSS), and rounded to the nearest dollar. learndirect's prices were sale prices at the time of reading.
 

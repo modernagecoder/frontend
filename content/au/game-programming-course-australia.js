@@ -242,7 +242,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Free first class', p: 'We look at code you have written, or start from nothing, and set a level honestly.' },
-      { h3: 'Small groups', p: 'Five to ten students at a similar level, reviewing each other\'s code.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty students at a similar level, reviewing each other\'s code.' },
       { h3: 'One to one', p: 'For a specific project, a tight timeline or a faster pace.' },
       { h3: 'Your own code', p: 'You type everything. Teachers question and guide; they never write your project for you.' },
       { h3: 'Code review', p: 'Each module ends with a review of structure, naming and tests, not just whether it runs.' },
@@ -258,7 +258,7 @@ module.exports = {
     h2: 'Fees for the game programming course',
     lede: 'Outside India the fee is one monthly price in US dollars. There is no enrolment charge and no semester commitment; stop after any month.',
     free: ['A short programming task at your level', 'An honest view of where to start', 'No card or bank details needed'],
-    group: ['Five to ten students per class', 'A regular teacher who knows your code', 'Peer code review', 'Stop after any month'],
+    group: ['Fifteen to twenty students per class', 'A regular teacher who knows your code', 'Peer code review', 'Stop after any month'],
     one: ['Lessons built around your own game', 'Your choice of engine and language', 'Times around school, uni or work']
   },
 

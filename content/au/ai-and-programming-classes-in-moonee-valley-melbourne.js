@@ -299,7 +299,7 @@ module.exports = {
       { h3: 'Shared code and notebooks', p: 'The teacher sees the learner\'s code and plots as they are written.' },
       { h3: 'Victorian calendar', p: 'Lesson plans follow state school terms and break for holidays.' },
       { h3: 'A genuine first class', p: 'The free trial is a full lesson that ends with a level and a course suggestion.' },
-      { h3: 'Small, matched groups', p: 'Groups of five to ten are formed by level and pace, sometimes across states.' },
+      { h3: 'Small, matched groups', p: 'Groups of fifteen to twenty are formed by level and pace, sometimes across states.' },
       { h3: 'Twice a week', p: 'Two fixed lessons each week, about eight a month, with planned breaks.' },
       { h3: 'Teachers in India', p: 'A 4pm Moonee Valley class in daylight saving starts at 10:30am India time, and at 11:30am there after April.' }
     ],
@@ -312,7 +312,7 @@ module.exports = {
     h2: 'Moonee Valley class fees',
     intro: 'Three straightforward prices.',
     first: 'The first lesson is free and ends with a clear recommendation.',
-    group: 'One month of group lessons, usually eight, with five to ten learners at a similar level.',
+    group: 'One month of group lessons, usually eight, with fifteen to twenty learners at a similar level.',
     private: 'About eight lessons a month with a dedicated teacher.',
     closer: 'International learners are invoiced in US dollars. Billing waits until the trial has happened and you have chosen a course and time; the pricing page explains breaks, absences and format swaps.'
   },
@@ -357,7 +357,7 @@ module.exports = {
       },
       {
         q: 'What do classes cost for Moonee Valley learners?',
-        a: 'The first lesson is free. Group classes are USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes are USD 150 a month. Course, format and time are agreed before anything is paid.',
+        a: 'The first lesson is free. Group classes are USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes are USD 150 a month. Course, format and time are agreed before anything is paid.',
         boiler: true
       },
       {

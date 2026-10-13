@@ -327,7 +327,7 @@ module.exports = {
     h2: 'Camden lesson fees',
     intro: 'One price list covers every subject, from Scratch to machine learning.',
     first: 'The first lesson is free and ends with a recommended course and timetable.',
-    group: 'Two lessons a week, around eight a month, in a group of five to ten learners at one level.',
+    group: 'Two lessons a week, around eight a month, in a group of fifteen to twenty learners at one level.',
     private: 'One-to-one teaching on the same schedule, roughly eight lessons a month.',
     closer: 'Fees for Camden are charged in US dollars, and no money changes hands until after the trial, when you have chosen the course and the slot. Rules on holidays, missed classes and switching between group and one-to-one sit on the pricing page.'
   },
@@ -376,12 +376,12 @@ module.exports = {
       },
       {
         q: 'How much do Camden lessons cost?',
-        a: 'The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.',
+        a: 'The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.',
         boiler: true
       },
       {
         q: 'How big are the groups?',
-        a: 'Five to ten learners, grouped by level and goals rather than age. If no group fits the learner\'s schedule, one-to-one lessons are offered instead.',
+        a: 'Fifteen to twenty learners, grouped by level and goals rather than age. If no group fits the learner\'s schedule, one-to-one lessons are offered instead.',
         boiler: true
       }
     ]

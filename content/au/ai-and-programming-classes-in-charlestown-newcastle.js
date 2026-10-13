@@ -294,7 +294,7 @@ module.exports = {
       { h3: 'Count first', p: 'Learners tally blanks and odd values before any model is trained.' },
       { h3: 'Term time', p: 'Classes follow the NSW school calendar with breaks in the holidays.' },
       { h3: 'No-cost trial', p: 'A complete first lesson free, then a written suggestion for what comes next.' },
-      { h3: 'Matched by level', p: 'Groups of five to ten learners at a similar stage, or private teaching.' },
+      { h3: 'Matched by level', p: 'Groups of fifteen to twenty learners at a similar stage, or private teaching.' },
       { h3: 'Fixed weekly slots', p: 'Two lessons a week, so about eight a month.' },
       { h3: 'Teaching from India', p: 'A 5pm Charlestown class is 11:30am India time during daylight saving and 12:30pm in winter.' }
     ],
@@ -307,7 +307,7 @@ module.exports = {
     h2: 'Charlestown class fees',
     intro: 'A single price list for all learners.',
     first: 'No charge for the first lesson, and written advice afterwards.',
-    group: 'About eight group lessons monthly, with five to ten in each group.',
+    group: 'About eight group lessons monthly, with fifteen to twenty in each group.',
     private: 'About eight one-to-one lessons monthly.',
     closer: 'Charlestown families pay in US dollars once the trial has settled the course and times. The pricing page sets out how holidays and missed lessons work.'
   },
@@ -349,12 +349,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Charlestown learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Can Charlestown groups study Copilot Studio?', a: 'No. Copilot Studio is offered one to one only; group learners build in Python.' }

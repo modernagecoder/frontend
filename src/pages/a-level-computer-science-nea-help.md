@@ -186,7 +186,7 @@ Lessons run on video with a teacher in India, where the clock sits five and a ha
 Monthly, in US dollars, the rate for every country outside India. No joining fee, no annual tie.
 
 - Free first class: USD 0. A real lesson with a teacher. An honest view of the gaps. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher each week. Work read and discussed. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher each week. Work read and discussed. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one student. Aimed at specific gaps. Useful before mocks and deadlines.
 
 ## What A-level students and parents ask

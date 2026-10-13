@@ -171,7 +171,7 @@ module.exports = {
     intro: 'The practicalities.',
     cells: [
       { h3: 'Live throughout', p: 'The teacher leads each lesson in real time and works from the learner\'s own code.' },
-      { h3: 'Level-matched', p: 'Five to ten learners at the same stage, from Cavan, the rest of Ireland and abroad.' },
+      { h3: 'Level-matched', p: 'Fifteen to twenty learners at the same stage, from Cavan, the rest of Ireland and abroad.' },
       { h3: 'Most weeks, twice', p: 'About eight lessons a month, at times agreed before the course begins.' },
       { h3: 'Around school', p: 'Holidays, mid-term breaks and exam weeks are planned in from the start.' },
       { h3: 'At home', p: 'A laptop or desktop, since code is hard to type on a phone; a microphone and speakers or a headset; and broadband that keeps a video call steady.' },
@@ -184,7 +184,7 @@ module.exports = {
     h2: 'Fees for Cavan town',
     intro: 'All prices.',
     first: 'A full first lesson with a level check, free.',
-    group: 'A month in a group of five to ten at one level, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, about eight live lessons.',
     private: 'A month of one-to-one lessons at the same weekly frequency.',
     closer: 'One price in US dollars each month for every family outside India, and nothing to pay for the first lesson. Charging starts once a course is running, and the pricing page spells out holidays, missed lessons and changes between group and private teaching.'
   },
@@ -209,7 +209,7 @@ module.exports = {
       { q: 'Do adults take lessons?', a: 'Yes, up to sixty-seven, from complete beginners upwards. Most adults know after the first lesson whether they would rather learn in a small same-level group or with a teacher to themselves.' },
       { q: 'Will a Cavan town learner be grouped with others from Cavan?', a: 'Groups follow level rather than place, so classmates may be in Cavan, elsewhere in Ireland or abroad.' },
       { q: 'Is there a Modern Age Coders classroom in Cavan town?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Cavan town cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Cavan town cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

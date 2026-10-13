@@ -178,7 +178,7 @@ module.exports = {
     intro: 'The details.',
     cells: [
       { h3: 'Live lessons', p: 'The teacher is on the call for the whole lesson and works from what the learner is making.' },
-      { h3: 'Level groups', p: 'Five to ten learners at one stage of a course, from Wicklow, the rest of Ireland and abroad.' },
+      { h3: 'Level groups', p: 'Fifteen to twenty learners at one stage of a course, from Wicklow, the rest of Ireland and abroad.' },
       { h3: 'Twice a week, usually', p: 'Eight or so lessons in a month, at hours set when the course begins.' },
       { h3: 'Term-time friendly', p: 'Holidays, mid-term breaks and exam weeks are planned in from the outset.' },
       { h3: 'Needed at home', p: 'A laptop or desktop rather than a phone, speakers or a headset plus a microphone, and a home connection good enough for live video.' },
@@ -191,7 +191,7 @@ module.exports = {
     h2: 'Fees for Arklow',
     intro: 'All the prices.',
     first: 'A full first lesson with the level assessed, free of charge.',
-    group: 'A month in a group of five to ten at one stage, around eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one stage, around eight live lessons.',
     private: 'A month of one-to-one lessons on the same weekly pattern.',
     closer: 'Every family outside India pays the same US dollar amount each month. Nothing is due for the free lesson, the monthly fee starts with the course, and the rules on holidays, missed lessons and changing format are set out on the pricing page.'
   },
@@ -216,7 +216,7 @@ module.exports = {
       { q: 'Can adults take part?', a: 'Yes, up to sixty-seven, starting from any point. Whether an adult learns with a small group at the same level or with a private teacher is decided in the first lesson, from what they already know.' },
       { q: 'Are Arklow learners taught together?', a: 'Not necessarily. Groups are made by level, so an Arklow learner could share lessons with others in Wicklow, Wexford or another country.' },
       { q: 'Is there a Modern Age Coders classroom in Arklow?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Arklow cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Arklow cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

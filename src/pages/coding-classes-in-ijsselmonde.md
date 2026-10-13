@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in IJsselmonde for ages 
 canonical: https://learn.modernagecoders.com/coding-classes-in-ijsselmonde
 source: src/pages/coding-classes-in-ijsselmonde.html
 ---
-> Coding classes in IJsselmonde reach 63,475 residents (1 January 2026) on 1,179 hectares of land at 5,376 people to the square kilometre, in 29,930 households averaging 2.1 people. The district publishes 11,115 residents under fifteen and 11,185 aged sixty-five and over, seventy apart, which reads as a place with as many pensioners as children. The first of those bands covers fifteen years and the second covers as many as anybody lives, so the two counts were never comparable. Modern Age Coders teaches live online in English across Beverwaard, Lombardijen and Groot IJsselmonde, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in IJsselmonde reach 63,475 residents (1 January 2026) on 1,179 hectares of land at 5,376 people to the square kilometre, in 29,930 households averaging 2.1 people. The district publishes 11,115 residents under fifteen and 11,185 aged sixty-five and over, seventy apart, which reads as a place with as many pensioners as children. The first of those bands covers fifteen years and the second covers as many as anybody lives, so the two counts were never comparable. Modern Age Coders teaches live online in English across Beverwaard, Lombardijen and Groot IJsselmonde, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Rotterdam](/coding-classes-in-rotterdam) / IJsselmonde
 
@@ -12,11 +12,11 @@ IJsselmonde, Rotterdam / Live online
 
 # Coding classes in IJsselmonde, which has as many pensioners as children only because one age band never ends
 
-**What are the best coding classes in IJsselmonde?** Coding classes in IJsselmonde reach 63,475 residents (1 January 2026) on 1,179 hectares of land at 5,376 people to the square kilometre, in 29,930 households averaging 2.1 people. The district publishes 11,115 residents under fifteen and 11,185 aged sixty-five and over, seventy apart, which reads as a place with as many pensioners as children. The first of those bands covers fifteen years and the second covers as many as anybody lives, so the two counts were never comparable. Modern Age Coders teaches live online in English across Beverwaard, Lombardijen and Groot IJsselmonde, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in IJsselmonde?** Coding classes in IJsselmonde reach 63,475 residents (1 January 2026) on 1,179 hectares of land at 5,376 people to the square kilometre, in 29,930 households averaging 2.1 people. The district publishes 11,115 residents under fifteen and 11,185 aged sixty-five and over, seventy apart, which reads as a place with as many pensioners as children. The first of those bands covers fifteen years and the second covers as many as anybody lives, so the two counts were never comparable. Modern Age Coders teaches live online in English across Beverwaard, Lombardijen and Groot IJsselmonde, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 IJsselmonde has 11,115 residents under fifteen and 11,185 aged sixty-five or over. Both are eighteen percent, seventy people apart, and it is a striking sentence: as many pensioners as children. It is also an artefact. The first band is fifteen years wide. The second has no upper end at all. Per year of age the children come to about 741 and the pensioners cannot be worked out, because nobody has said where the band stops. The symmetry belongs to the table, not to the district.
 
-Facts last verified 9 September 2026. Teaching is online; no IJsselmonde branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 September 2026. Teaching is online; no IJsselmonde branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for eleven thousand children across four large buurten
 
@@ -181,7 +181,7 @@ IJsselmonde is spread out, mostly post-war, and separated from the rest of Rotte
 - **A weekly hour that arrives instead of being travelled to** The class happens in Beverwaard, Lombardijen or Oud IJsselmonde at the same time each week, which removes the crossing and the evening journey in one move.
 - **What is taught in English and what is not** Everything except four words. Groep, havo, vwo and profielkeuze are said in Dutch exactly as the school writes them, because those are the terms a child already recognises.
 - **A first lesson with nothing attached to it** The teacher gives the learner something real to do and watches how it goes. That fixes a level, the level fixes a course, and a weekly hour is agreed. No payment details are taken at any point.
-- **The group is a level, not a place** Five to ten learners, all working at the same stage, from wherever in the world that stage happens to be populated this month. Two children in the same street at different stages are in different groups.
+- **The group is a level, not a place** Fifteen to twenty learners, all working at the same stage, from wherever in the world that stage happens to be populated this month. Two children in the same street at different stages are in different groups.
 - **Two lessons a week, and the breaks are known** Around eight lessons a month. Zuid-Holland follows the regio Midden holiday calendar, published far ahead, so the weeks off are in the plan from the first day rather than sprung later.
 - **India does not change its clocks** The Netherlands does, twice a year, so the teacher is three and a half hours ahead for part of the year and four and a half for the rest. The hours that work are unaffected either way.
 
@@ -192,7 +192,7 @@ IJsselmonde is spread out, mostly post-war, and separated from the rest of Rotte
 Printed here instead of held for a call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate, in dollars, with no euro edition, so an address in Beverwaard is charged what one in Lombardijen is. Nothing is paid until the free lesson has settled a course and an hour, and payment follows over WhatsApp. Pausing, switching plan and missing a week are all on the pricing page.
@@ -233,7 +233,7 @@ No, and none is claimed here, elsewhere in Rotterdam or anywhere in the Netherla
 
 ### What do IJsselmonde coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

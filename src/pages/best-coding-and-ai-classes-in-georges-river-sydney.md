@@ -16,7 +16,7 @@ Georges River council area, Sydney, New South Wales / Live online
 
 Hurstville is busy; everyone in the area knows that. The question a programmer asks is how busy compared with what. Transport for NSW publishes Opal entries for every station each month, and in August 2026 the ten stations inside the Georges River council area logged entries ranging from 45,930 at Oatley to 499,555 at Hurstville. One number, the Herfindahl-Hirschman index, sums up how lopsided that spread is, and this page builds it from scratch in Python.
 
-Facts last verified 10 October 2026. Teaching is online; no Georges River branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Georges River branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where a Georges River learner might start
 
@@ -193,7 +193,7 @@ The council area runs from the Georges River in the south to Kingsgrove in the n
 - **Nothing to travel to** Learners join from home, so a class works the same for a family near Oatley station as for one near Riverwood.
 - **Matched to NSW school years** Teachers know the NSW stages and syllabus names, and lessons pause for the state school holidays.
 - **Try before paying** The opening session runs exactly like any other lesson, and it closes with the teacher recommending a course, a level and a weekly slot. No payment is taken that day.
-- **Groups set by level** Five to ten learners who are at the same stage, whatever their age, or one to one if that suits better.
+- **Groups set by level** Fifteen to twenty learners who are at the same stage, whatever their age, or one to one if that suits better.
 - **A steady weekly rhythm** Usually two lessons a week at a fixed time, about eight a month, with breaks planned around school holidays.
 - **Teachers in India** A 5pm Hurstville lesson in summer starts at 11:30am India time; once Sydney leaves daylight saving it starts at 12:30pm there.
 
@@ -204,7 +204,7 @@ The council area runs from the Georges River in the south to Kingsgrove in the n
 Three plain figures, nothing hidden.
 
 - First class: USD 0. One full lesson free, ending with a suggested course, level and time.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, shared with five to ten learners at the same level.
+- Group tuition: USD 100 a month. A month of lessons, usually eight, shared with fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. Around eight lessons a month on the same pattern, one teacher with one learner.
 
 Outside India, invoices are issued in US dollars, which keeps one price for every household between Kingsgrove and Oatley. Payment starts only after the trial has settled a course and a time; breaks, missed lessons and switching format are covered on the pricing page.
@@ -245,7 +245,7 @@ No, and we do not claim one. All lessons are live online and we have no premises
 
 ### How much are coding classes for Georges River learners?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How many learners are in a group?
 

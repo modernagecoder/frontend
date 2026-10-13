@@ -152,7 +152,7 @@ module.exports = {
           ['Are your teachers DBS checked?', 'No, and they could not usefully be. They work from India and a UK check cannot see overseas records. We say so rather than use a phrase that sounds like a yes.'],
           ['Can I sit in on a lesson?', 'Yes, any lesson, without telling us first. The link is the same one your child uses.'],
           ['Will the same person teach every week?', 'Yes. The teacher is named before the first lesson and changes only if you ask or if they leave.'],
-          ['Is one-to-one the default?', 'No. Small groups of five to ten at one level are the default, and one-to-one is offered where a group would be the wrong room.'],
+          ['Is one-to-one the default?', 'No. Groups of fifteen to twenty at one level are the default, and one-to-one is offered where a group would be the wrong room.'],
           ['Can I see what my child has done?', 'Yes. Finished work is saved where you can open it, and the weekly feedback goes to you as well as to the learner.'],
           ['What if it is not working?', 'Stop. There is no minimum term, nothing is taken in advance, and we would rather you left after a month than stayed unhappily for a year.']
         ] },
@@ -215,7 +215,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Join any lesson', p: 'Parents can sit in on any lesson without arranging it. Same link, no notice needed, and never treated as a problem.' },
-      { h3: 'Groups by default', p: 'Five to ten learners at one level. One-to-one exists where it genuinely suits the learner, not as the standard product.' },
+      { h3: 'Groups by default', p: 'Fifteen to twenty learners at one level. One-to-one exists where it genuinely suits the learner, not as the standard product.' },
       { h3: 'The same teacher', p: 'Named before the first lesson and kept, because most of the value is in somebody knowing the learner.' },
       { h3: 'Work you can open', p: 'Finished projects are saved where the family can see them, which is how a parent knows what happened.' },
       { h3: 'Weekly feedback', p: 'On the learner\'s actual code, with reasons, sent to the parent as well as the learner.' },
@@ -231,7 +231,7 @@ module.exports = {
     h2: 'What tuition costs here',
     lede: 'A monthly figure rather than an hourly one, quoted in US dollars for every country outside India. Nothing is taken before the free lesson.',
     free: ['A full lesson with a teacher', 'An honest view of the right starting point', 'No card details requested'],
-    group: ['Five to ten learners at one level', 'A named teacher who stays', 'Weekly feedback on the learner\'s own code', 'Stop any month, with one message'],
+    group: ['Fifteen to twenty learners at one level', 'A named teacher who stays', 'Weekly feedback on the learner\'s own code', 'Stop any month, with one message'],
     one: ['One teacher and one learner', 'Built around an exam date or a specific target', 'Right for a deadline or a learner well ahead']
   },
 
@@ -244,7 +244,7 @@ module.exports = {
       { q: 'Can I apply for a check on a tutor myself?', a: 'No. The Government leaflet states that parents and carers cannot apply on behalf of an individual, and that an eligible person must apply themselves through an Umbrella Body. You can ask to see the certificate.' },
       { q: 'How should I ask?', a: 'GOV.UK suggests the wording itself: ask to see the DBS certificate and note that they can now apply for an Enhanced one. Most tutors will not mind being asked.' },
       { q: 'Can I sit in on my child\'s lesson?', a: 'Yes, any lesson, on the same link, without telling us beforehand. We treat that as completely normal.' },
-      { q: 'Is it one-to-one?', a: 'Only if you want it to be. The default is a small group of five to ten learners at the same level, which most children find better than a one-to-one hour.' },
+      { q: 'Is it one-to-one?', a: 'Only if you want it to be. The default is a group of fifteen to twenty learners at the same level, which most children find better than a one-to-one hour.' },
       { q: 'Do you charge by the hour?', a: 'No, by the month. A group place is USD 100 a month and one-to-one teaching USD 150, with nothing in advance and no minimum term.' },
       { q: 'Will you just help with homework?', a: 'We will handle school work inside a sequence that goes somewhere, but a tutor who only does this week\'s task produces a learner who can finish and cannot start. We say so at the outset.' },
       { q: 'Do you cover the Scottish, Welsh and Northern Irish courses?', a: 'Yes. Teachers work with National 5 and Higher, WJEC in Wales and CCEA in Northern Ireland as well as the English boards.' },

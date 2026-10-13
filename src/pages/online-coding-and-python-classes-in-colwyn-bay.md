@@ -4,7 +4,7 @@ description: "Live online coding and Python classes for Colwyn Bay, Rhos-on-Sea,
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-colwyn-bay
 source: src/pages/online-coding-and-python-classes-in-colwyn-bay.html
 ---
-> Conwy county borough recorded 114,741 usual residents in the 2021 census, and the ONS built-up area of Colwyn Bay, Bae Colwyn in Welsh, recorded 29,275. Rhôs-on-Sea, Old Colwyn, Mochdre and Tan-y-Lan all fall inside it. Our tutors in India teach coding, Python, AI, vibe coding and maths over live video to Colwyn Bay pupils and adults from six up to 67, singly or in classes of five to ten pitched at a single level. Everyone starts with a free trial lesson that ends in a course recommendation. In the Colwyn Bay project a learner pairs every LL28 and LL29 postcode with a height from a terrain model, finds that two heights are missing, and watches one innocent line of Python shift a thousand answers by one place. Past the free session, expect USD 100 monthly in a class or USD 150 monthly on your own with a tutor.
+> Conwy county borough recorded 114,741 usual residents in the 2021 census, and the ONS built-up area of Colwyn Bay, Bae Colwyn in Welsh, recorded 29,275. Rhôs-on-Sea, Old Colwyn, Mochdre and Tan-y-Lan all fall inside it. Our tutors in India teach coding, Python, AI, vibe coding and maths over live video to Colwyn Bay pupils and adults from six up to 67, singly or in classes of fifteen to twenty pitched at a single level. Everyone starts with a free trial lesson that ends in a course recommendation. In the Colwyn Bay project a learner pairs every LL28 and LL29 postcode with a height from a terrain model, finds that two heights are missing, and watches one innocent line of Python shift a thousand answers by one place. Past the free session, expect USD 100 monthly in a class or USD 150 monthly on your own with a tutor.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Colwyn Bay
 
@@ -12,11 +12,11 @@ Colwyn Bay (Bae Colwyn), Conwy, Wales / Live online
 
 # Online coding and Python classes in Colwyn Bay
 
-**What are the best online coding and Python classes in Colwyn Bay?** Conwy county borough recorded 114,741 usual residents in the 2021 census, and the ONS built-up area of Colwyn Bay, Bae Colwyn in Welsh, recorded 29,275. Rhôs-on-Sea, Old Colwyn, Mochdre and Tan-y-Lan all fall inside it. Our tutors in India teach coding, Python, AI, vibe coding and maths over live video to Colwyn Bay pupils and adults from six up to 67, singly or in classes of five to ten pitched at a single level. Everyone starts with a free trial lesson that ends in a course recommendation. In the Colwyn Bay project a learner pairs every LL28 and LL29 postcode with a height from a terrain model, finds that two heights are missing, and watches one innocent line of Python shift a thousand answers by one place. Past the free session, expect USD 100 monthly in a class or USD 150 monthly on your own with a tutor.
+**What are the best online coding and Python classes in Colwyn Bay?** Conwy county borough recorded 114,741 usual residents in the 2021 census, and the ONS built-up area of Colwyn Bay, Bae Colwyn in Welsh, recorded 29,275. Rhôs-on-Sea, Old Colwyn, Mochdre and Tan-y-Lan all fall inside it. Our tutors in India teach coding, Python, AI, vibe coding and maths over live video to Colwyn Bay pupils and adults from six up to 67, singly or in classes of fifteen to twenty pitched at a single level. Everyone starts with a free trial lesson that ends in a course recommendation. In the Colwyn Bay project a learner pairs every LL28 and LL29 postcode with a height from a terrain model, finds that two heights are missing, and watches one innocent line of Python shift a thousand answers by one place. Past the free session, expect USD 100 monthly in a class or USD 150 monthly on your own with a tutor.
 
 Python's zip is one of the friendliest tools in the language: give it two lists and it walks along them together, pairing the first with the first, the second with the second. It has one habit that catches out beginners and professionals alike. If the lists are different lengths, it stops at the end of the shorter one and says nothing. In Colwyn Bay, two missing numbers out of 1,066 were enough to make that habit wreck a dataset without a single error message.
 
-Facts last verified 1 October 2026. Teaching is online; no Colwyn Bay branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 1 October 2026. Teaching is online; no Colwyn Bay branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python and coding courses for Colwyn Bay learners
 
@@ -137,11 +137,11 @@ Lessons are live video classes. A computer with a keyboard is needed, as Python 
 - **Code typed by the learner** The learner writes and runs each program; the tutor asks how they know it is right.
 - **Level before course** The trial lesson shows us where to start before any recommendation.
 - **Free to try** Your opening session is unpaid, and we never take card details for it.
-- **Matched groups** Five to ten learners at the same level, from all over the UK.
+- **Matched groups** Fifteen to twenty learners at the same level, from all over the UK.
 - **Twice weekly** Around eight lessons a month, with Conwy school holidays kept free on request.
 - **One UK time** The lesson keeps its UK time through the spring and autumn clock changes.
 
-**Why we teach online** It is much easier to gather five to ten learners at one exact level across the UK than along one stretch of coast, and video means nobody travels.
+**Why we teach online** It is much easier to gather fifteen to twenty learners at one exact level across the UK than along one stretch of coast, and video means nobody travels.
 
 ## Fees for Colwyn Bay families
 

@@ -92,7 +92,7 @@ Adults starting later often bring things younger beginners lack: years of solvin
 
 ### How our lessons run
 
-Small groups of five to ten at the same level, or one to one if you prefer to learn privately.
+Groups of fifteen to twenty at the same level, or one to one if you prefer to learn privately.
 
 Live and online, with questions welcome at any point in a lesson.
 
@@ -274,9 +274,9 @@ No question is too basic; asking is how everyone learns.
 
 One-to-one lessons for learners who would rather not join a group.
 
-### Small groups
+### Groups
 
-Five to ten learners at the same level.
+Fifteen to twenty learners at the same level.
 
 Student work
 

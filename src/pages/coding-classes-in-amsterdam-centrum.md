@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Amsterdam-Centrum for
 canonical: https://learn.modernagecoders.com/coding-classes-in-amsterdam-centrum
 source: src/pages/coding-classes-in-amsterdam-centrum.html
 ---
-> Coding classes in Amsterdam-Centrum reach 90,400 residents (1 January 2026) on 8.04 square kilometres, which works out at 11,244 people to the square kilometre. Every wijk this page checked is denser than that: 23,476 in the Jordaan, 15,682 on the Oostelijke Eilanden, 14,456 in Grachtengordel-West and 13,600 in Burgwallen-Oude Zijde. A whole cannot really be less crowded than all of its parts, and finding out why is more useful than any of the numbers. Modern Age Coders teaches live online in English across all ten wijken, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Amsterdam-Centrum reach 90,400 residents (1 January 2026) on 8.04 square kilometres, which works out at 11,244 people to the square kilometre. Every wijk this page checked is denser than that: 23,476 in the Jordaan, 15,682 on the Oostelijke Eilanden, 14,456 in Grachtengordel-West and 13,600 in Burgwallen-Oude Zijde. A whole cannot really be less crowded than all of its parts, and finding out why is more useful than any of the numbers. Modern Age Coders teaches live online in English across all ten wijken, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Amsterdam](/coding-classes-in-amsterdam) / Amsterdam-Centrum
 
@@ -12,11 +12,11 @@ Centrum, Amsterdam / Live online
 
 # Coding classes in Amsterdam-Centrum, where the district is less crowded than every neighbourhood inside it
 
-**What are the best coding classes in Amsterdam-Centrum?** Coding classes in Amsterdam-Centrum reach 90,400 residents (1 January 2026) on 8.04 square kilometres, which works out at 11,244 people to the square kilometre. Every wijk this page checked is denser than that: 23,476 in the Jordaan, 15,682 on the Oostelijke Eilanden, 14,456 in Grachtengordel-West and 13,600 in Burgwallen-Oude Zijde. A whole cannot really be less crowded than all of its parts, and finding out why is more useful than any of the numbers. Modern Age Coders teaches live online in English across all ten wijken, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Amsterdam-Centrum?** Coding classes in Amsterdam-Centrum reach 90,400 residents (1 January 2026) on 8.04 square kilometres, which works out at 11,244 people to the square kilometre. Every wijk this page checked is denser than that: 23,476 in the Jordaan, 15,682 on the Oostelijke Eilanden, 14,456 in Grachtengordel-West and 13,600 in Burgwallen-Oude Zijde. A whole cannot really be less crowded than all of its parts, and finding out why is more useful than any of the numbers. Modern Age Coders teaches live online in English across all ten wijken, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Amsterdam-Centrum holds 90,400 people on 8.04 square kilometres, about 11,244 to the square kilometre. Walk into the Jordaan and the figure is 23,476. Cross to the Oostelijke Eilanden and it is 15,682. Burgwallen-Oude Zijde, the smallest of the four checked here, still comes in at 13,600. Four neighbourhoods, all inside the district, all denser than the district itself. That is not possible if the numbers mean the same thing, which is the first clue that they do not, and the whole reason this page exists.
 
-Facts last verified 8 September 2026. Teaching is online; no Amsterdam-Centrum branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 8 September 2026. Teaching is online; no Amsterdam-Centrum branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for ten wijken and a very short walk between them
 
@@ -202,14 +202,14 @@ Centrum is eight square kilometres and a family can cross it on foot. What it do
 - **Twice weekly, on the regio Noord calendar** Two lessons a week at a repeating hour, normally eight in a month. Noord-Holland takes its school holidays with regio Noord, and the weeks a family is away go into the plan before it starts.
 - **Three and a half hours ahead, four and a half in winter** Only the Dutch clock moves, so the gap to the teacher depends on the month. After school, early evening and both weekend days work at either setting.
 
-**A district where children are scarce and unevenly spread** Under-fifteens are 4.38 percent of Burgwallen-Oude Zijde and 8.4 percent of the Oostelijke Eilanden, which is not far off double. In a district where a whole wijk can hold 205 children, the chance that a local club or school can assemble a group of five to ten at one specific level in one specific subject is small, and that is arithmetic rather than any comment on the schools. A group formed on ability from across the world is the version of this that actually fills, at every age up to sixty-seven.
+**A district where children are scarce and unevenly spread** Under-fifteens are 4.38 percent of Burgwallen-Oude Zijde and 8.4 percent of the Oostelijke Eilanden, which is not far off double. In a district where a whole wijk can hold 205 children, the chance that a local club or school can assemble a group of fifteen to twenty at one specific level in one specific subject is small, and that is arithmetic rather than any comment on the schools. A group formed on ability from across the world is the version of this that actually fills, at every age up to sixty-seven.
 
 ## The fee, in dollars, the same in all ten wijken
 
 Printed here rather than kept back for a call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate exists, quoted in dollars, with no euro edition, so an address on the Zeedijk sees exactly what an address on the Herengracht sees. Nothing is charged until the free lesson has fixed a course and an hour, and payment is then arranged over WhatsApp. Pausing, changing plan and missing a week are all set out on the pricing page.
@@ -242,7 +242,7 @@ The teacher is three and a half hours ahead during Dutch summer time and four an
 
 ### Why not just use a school or club in the centre?
 
-For a general education, by all means. The difficulty is specific: a group of five to ten learners at one particular level in one particular subject needs a pool to draw from, and a wijk holding 205 children under fifteen does not have one. Groups here are formed on ability from across the world, which is the only arrangement in which a specific level actually fills.
+For a general education, by all means. The difficulty is specific: a group of fifteen to twenty learners at one particular level in one particular subject needs a pool to draw from, and a wijk holding 205 children under fifteen does not have one. Groups here are formed on ability from across the world, which is the only arrangement in which a specific level actually fills.
 
 ### Is there a Modern Age Coders classroom in Amsterdam-Centrum?
 
@@ -250,7 +250,7 @@ No, and none is claimed in the centre, elsewhere in Amsterdam or anywhere in the
 
 ### What do Amsterdam-Centrum coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

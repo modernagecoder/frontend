@@ -162,7 +162,7 @@ module.exports = {
       { h3: 'Learner-built', p: 'Everything on screen is typed by the student, and the tutor keeps asking what the next round will change.' },
       { h3: 'Level from the trial', p: 'The free session shows where to start, with any CCEA exam noted.' },
       { h3: 'Trial on the house', p: 'Session one is free, and it closes with the course we would choose for the learner.' },
-      { h3: 'Classmates at your level', p: 'Each group seats five to ten learners, chosen by stage rather than by town.' },
+      { h3: 'Classmates at your level', p: 'Each group seats fifteen to twenty learners, chosen by stage rather than by town.' },
       { h3: 'Twice a week', p: 'Lessons pause in school holidays.' },
       { h3: 'Same hour all year', p: 'Our tutors move with the UK clock changes so you do not have to.' }
     ],

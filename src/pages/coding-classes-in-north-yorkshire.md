@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across North Yorkshir
 canonical: https://learn.modernagecoders.com/coding-classes-in-north-yorkshire
 source: src/pages/coding-classes-in-north-yorkshire.html
 ---
-> This page covers North Yorkshire as a county: the North Yorkshire Council area, counted at the 2021 Census as seven districts, together with York, Middlesbrough and Redcar and Cleveland. Adding up the ten published counts gives our total of 1,098,768 residents. The biggest places are Middlesbrough, York, Harrogate and Scarborough. We teach live over video from India, and place each learner in a class matched to their ability, whatever their age. That runs from 6 to 67, with groups of five to ten or one-to-one lessons in coding, Python, data science and maths. The North Yorkshire project uses real census data on who commutes where. A first lesson is on us; carrying on costs USD 100 a month for a group or USD 150 a month for one-to-one.
+> This page covers North Yorkshire as a county: the North Yorkshire Council area, counted at the 2021 Census as seven districts, together with York, Middlesbrough and Redcar and Cleveland. Adding up the ten published counts gives our total of 1,098,768 residents. The biggest places are Middlesbrough, York, Harrogate and Scarborough. We teach live over video from India, and place each learner in a class matched to their ability, whatever their age. That runs from 6 to 67, with groups of fifteen to twenty or one-to-one lessons in coding, Python, data science and maths. The North Yorkshire project uses real census data on who commutes where. A first lesson is on us; carrying on costs USD 100 a month for a group or USD 150 a month for one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / North Yorkshire
 
@@ -12,11 +12,11 @@ North Yorkshire / Live online
 
 # Coding classes in North Yorkshire
 
-**What are the best coding classes in North Yorkshire?** This page covers North Yorkshire as a county: the North Yorkshire Council area, counted at the 2021 Census as seven districts, together with York, Middlesbrough and Redcar and Cleveland. Adding up the ten published counts gives our total of 1,098,768 residents. The biggest places are Middlesbrough, York, Harrogate and Scarborough. We teach live over video from India, and place each learner in a class matched to their ability, whatever their age. That runs from 6 to 67, with groups of five to ten or one-to-one lessons in coding, Python, data science and maths. The North Yorkshire project uses real census data on who commutes where. A first lesson is on us; carrying on costs USD 100 a month for a group or USD 150 a month for one-to-one.
+**What are the best coding classes in North Yorkshire?** This page covers North Yorkshire as a county: the North Yorkshire Council area, counted at the 2021 Census as seven districts, together with York, Middlesbrough and Redcar and Cleveland. Adding up the ten published counts gives our total of 1,098,768 residents. The biggest places are Middlesbrough, York, Harrogate and Scarborough. We teach live over video from India, and place each learner in a class matched to their ability, whatever their age. That runs from 6 to 67, with groups of fifteen to twenty or one-to-one lessons in coding, Python, data science and maths. The North Yorkshire project uses real census data on who commutes where. A first lesson is on us; carrying on costs USD 100 a month for a group or USD 150 a month for one-to-one.
 
 Why do more people commute from Selby to York than from Scarborough to Richmondshire? Big places attract more journeys, and near places attract more than far ones. Geographers turned that common sense into a formula borrowed from physics, the gravity model: the flow between two places grows with their size and shrinks with the distance between them. The census recorded where people lived and where they worked, so the formula can be tested properly. This page's project fits it in Python to the real 2011 Census flows between ten North Yorkshire areas, measures how much it explains, and then studies the places where it gets the answer badly wrong, because that is where the interesting geography is.
 
-Facts last verified 26 September 2026. Teaching is online; no North Yorkshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no North Yorkshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where North Yorkshire learners start
 
@@ -140,7 +140,7 @@ In a county this size, a weekly class in York or Middlesbrough can mean a long d
 - **Lessons at home** A farmhouse in Wensleydale, a terrace in Redcar, a flat in Harrogate. The teacher shares a screen and the learner does the coding.
 - **Words from your school** Year groups, key stages, GCSEs and A levels are named as North Yorkshire schools name them, and lessons are in English.
 - **A free lesson first** A proper lesson with real work, then clear advice on level and course, with no card details asked for.
-- **Classmates at your level** Five to ten learners at the same stage, from across the county, the UK and further afield.
+- **Classmates at your level** Fifteen to twenty learners at the same stage, from across the county, the UK and further afield.
 - **Breaks when school breaks** Two lessons a week is typical, and we pause for your own school's holidays.
 - **UK times, always** Your lesson time is set in UK time and does not shift with the clocks; the teacher, who keeps India time several hours ahead, adjusts instead.
 
@@ -151,7 +151,7 @@ In a county this size, a weekly class in York or Middlesbrough can mean a long d
 Skipton or Saltburn, the fee is identical, and it is the fee in every country we teach apart from India.
 
 - First class: USD 0. A full lesson of real work, ending with a suggested level and course.
-- Group tuition: USD 100 a month. Around eight lessons a month with five to ten learners at one level.
+- Group tuition: USD 100 a month. Around eight lessons a month with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Around eight lessons a month with a teacher to themselves.
 
 We bill in US dollars and quote no sterling prices. Nothing is charged until the free lesson has settled a course and a weekly time, and our pricing page explains pauses, missed lessons and switching between group and private.

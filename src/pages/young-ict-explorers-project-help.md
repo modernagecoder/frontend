@@ -204,7 +204,7 @@ We teach live from India. Hobart is four and a half hours ahead of India time in
 - **Skills, not answers** We teach how; the team decides what to build.
 - **Planning built in** MoSCoW and weekly re-estimates from the start.
 - **Testing habits** A test log that strengthens the report.
-- **Groups of five to ten** Students at a similar level sharing progress.
+- **Groups of fifteen to twenty** Students at a similar level sharing progress.
 - **One-to-one option** For an individual entrant or a team's lead coder.
 - **No award promised** Judges decide; we build skill and confidence.
 
@@ -213,7 +213,7 @@ We teach live from India. Hobart is four and a half hours ahead of India time in
 Our lessons are charged monthly in US dollars, the international rate, with nothing to join and no lock-in. Young ICT Explorers is run by its organisers; anything they charge is separate from us.
 
 - Free first class: USD 0. A free first lesson with a teacher. A look at the project idea and how to scope it. No card required.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher all season. Shared reviews of plans and tests. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher all season. Shared reviews of plans and tests. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one student. Lessons shaped around that student's project skills. Weekly times that suit the family.
 
 ## What students, parents and teachers ask

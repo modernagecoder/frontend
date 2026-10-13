@@ -16,7 +16,7 @@ Cherrybrook, Hornsby Shire, Sydney / Live online
 
 Point a change detector at the monthly Opal entries for Cherrybrook metro station and it starts raising alarms: March 2025, October 2025, January 2026, March 2026, August 2026. Look closer and January is the lowest month in both years, 97,235 and then 96,055, while March is high both times. The detector is reacting to a pattern that comes round every year. Compare each month with the same month a year earlier instead, and a clearer story appears: 9 of 11 months were higher.
 
-Facts last verified 10 October 2026. Teaching is online; no Cherrybrook branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Cherrybrook branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Programming and AI, taught to be checked
 
@@ -183,7 +183,7 @@ Every class is live on video, so a learner only needs a desk, a computer and a r
 - **Live with a teacher** The teacher sees the learner's screen, talks through each step and fixes misunderstandings straight away.
 - **Linked to NSW schooling** Teachers use NSW stage and syllabus terms and plan around the state school holidays.
 - **First lesson free** A full trial lesson at no cost, then a recommended course, level and regular time slot.
-- **Groups by level** Five to ten learners of similar ability, or one-to-one lessons if that suits the learner better.
+- **Groups by level** Fifteen to twenty learners of similar ability, or one-to-one lessons if that suits the learner better.
 - **Twice weekly** Two scheduled lessons each week, around eight a month, with any breaks agreed early.
 - **Teachers in India** A 3:45pm Cherrybrook lesson during daylight saving is 10:15am India time; outside daylight saving it is 11:15am.
 
@@ -194,7 +194,7 @@ Every class is live on video, so a learner only needs a desk, a computer and a r
 Three simple prices covering every course.
 
 - First class: USD 0. A full first lesson at no charge, finishing with a course and time recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, usually eight, with five to ten learners at the same level.
+- Group tuition: USD 100 a month. A month of group lessons, usually eight, with fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. Individual lessons, about eight a month, at a fixed weekly time.
 
 Outside India all fees are invoiced in US dollars, so Cherrybrook families pay the same as anyone else in the Hornsby area. Nothing is charged until the trial agrees a course and time, and the pricing page explains breaks, missed lessons and changing formats.
@@ -235,11 +235,11 @@ No. All our teaching is live online and we have no premises in Australia. Learne
 
 ### How much are AI and programming classes in Cherrybrook?
 
-The first lesson is free. Group lessons cost USD 100 a month for two live classes a week, about eight in total, with five to ten learners; one-to-one is USD 150 a month at the same rate of lessons. Payment begins only once the course and time are agreed.
+The first lesson is free. Group lessons cost USD 100 a month for two live classes a week, about eight in total, with fifteen to twenty learners; one-to-one is USD 150 a month at the same rate of lessons. Payment begins only once the course and time are agreed.
 
 ### How many learners share a class?
 
-Groups have five to ten learners at a similar level, whatever their age. If no group time works, we arrange one-to-one lessons.
+Groups have fifteen to twenty learners at a similar level, whatever their age. If no group time works, we arrange one-to-one lessons.
 
 ## More for Cherrybrook families
 

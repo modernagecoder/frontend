@@ -16,7 +16,7 @@ Mount Isa, north west Queensland / Live online
 
 Stand on a flat plain and you can see the whole dome of the sky. Stand in a gully or beside a ridge and part of it disappears behind the land. Geographers measure this with a number called the sky view factor, from 1 for a completely open spot down towards 0 at the bottom of a deep slot. NASA's radar survey of the Earth gives Mount Isa's ground height every 30 metres or so, and from those 20,234 heights a Python program can work out the sky view factor for each point. Across 10,434 points the average is 0.9552. A popular shortcut that looks only at the local slope says 0.9975. Our Mount Isa learners find out why the two disagree and which one to trust.
 
-Facts last verified 10 October 2026. Teaching is online; no Mount Isa branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Mount Isa branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Starting points for a Mount Isa learner
 
@@ -170,7 +170,7 @@ A live online lesson works the same in Mount Isa as anywhere on the coast.
 - **Booked in Queensland time** With no daylight saving in Queensland, a lesson slot stays at the same Mount Isa hour all year.
 - **Fitted to Queensland years** Teachers know the Queensland year levels, including senior students working towards the QCE, and teach in English.
 - **Programming first, paperwork never** The free session is hands-on coding. You then receive our suggestion for a course and time, and we never ask for payment details.
-- **Level-matched groups** Five to ten learners at one stage, gathered from across Australia and beyond so every level has a usable time.
+- **Level-matched groups** Fifteen to twenty learners at one stage, gathered from across Australia and beyond so every level has a usable time.
 - **Twice a week** Close to eight lessons a month, with holidays and exam weeks planned well ahead.
 - **Rosters welcome** Adults on rotating shifts can switch group slots or choose private lessons instead.
 
@@ -181,7 +181,7 @@ A live online lesson works the same in Mount Isa as anywhere on the coast.
 All three options at a glance.
 
 - First class: USD 0. A free lesson, after which we suggest a level, a course and a time.
-- Group tuition: USD 100 a month. Roughly eight group lessons a month, five to ten learners at one level.
+- Group tuition: USD 100 a month. Roughly eight group lessons a month, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Roughly eight one-to-one lessons a month with the same teacher.
 
 Distance adds no surcharge: Mount Isa families pay the US dollar rate charged everywhere else in Australia. No money is taken until the trial has agreed a course and time; holidays, missed lessons and format changes are covered on the pricing page.
@@ -222,7 +222,7 @@ No, and we do not claim one. Teaching is live and online only, with no premises 
 
 ### What do Mount Isa coding classes cost?
 
-The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
+The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
 
 ### How large are the groups?
 

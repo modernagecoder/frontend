@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Suffolk, from 
 canonical: https://learn.modernagecoders.com/coding-classes-in-suffolk
 source: src/pages/coding-classes-in-suffolk.html
 ---
-> Suffolk has one county council and five district councils, and the 2021 Census counted 760,688 people across the five districts, our addition of their published figures. Ipswich is the largest town, then Lowestoft, Bury St Edmunds, Haverhill and Felixstowe. Our teachers work live over video from India, and every learner is put in a class for their level rather than their age. We take learners aged 6 to 67 for coding, Python, algorithms and maths, taught one-to-one or in groups of five to ten. The Suffolk project comes from the Port of Felixstowe and the containers that pass through it. Trying us costs nothing for the first lesson. Carrying on is USD 100 per month for a group seat or USD 150 per month for one-to-one.
+> Suffolk has one county council and five district councils, and the 2021 Census counted 760,688 people across the five districts, our addition of their published figures. Ipswich is the largest town, then Lowestoft, Bury St Edmunds, Haverhill and Felixstowe. Our teachers work live over video from India, and every learner is put in a class for their level rather than their age. We take learners aged 6 to 67 for coding, Python, algorithms and maths, taught one-to-one or in groups of fifteen to twenty. The Suffolk project comes from the Port of Felixstowe and the containers that pass through it. Trying us costs nothing for the first lesson. Carrying on is USD 100 per month for a group seat or USD 150 per month for one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Suffolk
 
@@ -12,11 +12,11 @@ Suffolk / Live online
 
 # Coding classes in Suffolk
 
-**What are the best coding classes in Suffolk?** Suffolk has one county council and five district councils, and the 2021 Census counted 760,688 people across the five districts, our addition of their published figures. Ipswich is the largest town, then Lowestoft, Bury St Edmunds, Haverhill and Felixstowe. Our teachers work live over video from India, and every learner is put in a class for their level rather than their age. We take learners aged 6 to 67 for coding, Python, algorithms and maths, taught one-to-one or in groups of five to ten. The Suffolk project comes from the Port of Felixstowe and the containers that pass through it. Trying us costs nothing for the first lesson. Carrying on is USD 100 per month for a group seat or USD 150 per month for one-to-one.
+**What are the best coding classes in Suffolk?** Suffolk has one county council and five district councils, and the 2021 Census counted 760,688 people across the five districts, our addition of their published figures. Ipswich is the largest town, then Lowestoft, Bury St Edmunds, Haverhill and Felixstowe. Our teachers work live over video from India, and every learner is put in a class for their level rather than their age. We take learners aged 6 to 67 for coding, Python, algorithms and maths, taught one-to-one or in groups of fifteen to twenty. The Suffolk project comes from the Port of Felixstowe and the containers that pass through it. Trying us costs nothing for the first lesson. Carrying on is USD 100 per month for a group seat or USD 150 per month for one-to-one.
 
 Department for Transport figures for 2025 show Felixstowe handling 3,510.4 thousand TEU of container traffic, the largest figure for any single port in the table, where a TEU is a standard twenty-foot container. Every one of those boxes raises a question programmers call bin packing: given a pile of goods of different sizes, how do you fit them into as few containers as possible? No quick method is guaranteed to find the perfect answer every time, but some simple rules come remarkably close. This page's project tests four of them in Python on 200 consignments and measures each against a minimum that no packing could ever beat.
 
-Facts last verified 26 September 2026. Teaching is online; no Suffolk branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Suffolk branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Suffolk learners begin
 
@@ -141,7 +141,7 @@ Many Suffolk villages sit a long way from the nearest town with a coding club. L
 - **At home, wherever** A cottage near Framlingham, a flat in Lowestoft, a house in Haverhill. The learner types while the teacher follows the shared screen.
 - **School language** Year groups, key stages, GCSEs and A levels are named as Suffolk schools name them, and lessons are in English.
 - **Free to try** A proper first lesson, then plain advice on level and course, with no card details requested.
-- **Matched by stage** Groups of five to ten learners at one level, gathered from Suffolk and far beyond.
+- **Matched by stage** Groups of fifteen to twenty learners at one level, gathered from Suffolk and far beyond.
 - **Holiday breaks** Two lessons a week suits most learners, and we pause for your own school holidays.
 - **Fixed in UK time** Lessons are booked in UK time and keep the same slot through the clock changes; the teacher, on India time some hours ahead, shifts instead.
 
@@ -152,7 +152,7 @@ Many Suffolk villages sit a long way from the nearest town with a coding club. L
 Felixstowe or Newmarket, the price is the same, and so it is in every country we teach bar India.
 
 - First class: USD 0. One complete lesson of real work, then a suggested level and course.
-- Group tuition: USD 100 a month. About eight lessons a month with five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight lessons a month, taught one-to-one.
 
 Fees are in US dollars; we publish no pound prices. Billing starts only once the free lesson has agreed a course and a weekly time, and the pricing page covers pauses, missed lessons and swapping between group and private teaching.

@@ -59,7 +59,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Northampton',
   capsuleQ: 'Where can Northampton families find the best coding and AI classes?',
-  capsule: 'The 2021 census put West Northamptonshire at 425,725 people, with 243,520 of them in the Northampton built-up area. Its age profile tilts to families, with children aged 5 to 14 and adults aged 40 to 49 above the England share. Northampton learners from 6 to 67 study coding, AI, Python and maths with our India-based tutors over live video, one-to-one or in groups of five to ten at a single stage. A free opening lesson points to the right course. The Northampton project turns 81 years of River Nene flows into an engineering answer. After the trial, a group place costs USD 100 a month and a private tutor USD 150 a month.',
+  capsule: 'The 2021 census put West Northamptonshire at 425,725 people, with 243,520 of them in the Northampton built-up area. Its age profile tilts to families, with children aged 5 to 14 and adults aged 40 to 49 above the England share. Northampton learners from 6 to 67 study coding, AI, Python and maths with our India-based tutors over live video, one-to-one or in groups of fifteen to twenty at a single stage. A free opening lesson points to the right course. The Northampton project turns 81 years of River Nene flows into an engineering answer. After the trial, a group place costs USD 100 a month and a private tutor USD 150 a month.',
   lead: 'Since November 1939 the River Nene has been measured every day at Upton Mill, on the Kislingbury branch in West Northamptonshire, where a flume under the mill and a weir on the bypass channel are added together to give the total flow. That record now holds more than 80 years of wet winters and dry summers. Here is an engineer\'s question a teenager can answer with it: if you wanted to take a steady flow from this river, every single day, how large a reservoir would you need to keep it going through the dry spells? The answer comes from a short algorithm called the sequent peak method, and it holds two surprises about how much history you need to look at.',
   wa: 'Hello Modern Age Coders, I would like to book a free coding or AI lesson for a Northampton learner.',
 
@@ -163,7 +163,7 @@ module.exports = {
       { h3: 'The learner types', p: 'All code is written by the student; the tutor reads along on the shared screen and asks guiding questions.' },
       { h3: 'Right year, right start', p: 'Year 6 or Year 12, each learner starts where their year and trial indicate, with their exam board named.' },
       { h3: 'First lesson on us', p: 'The trial is free and ends with a straight recommendation.' },
-      { h3: 'Classes by stage', p: 'Five to ten learners at one level, gathered from around the UK.' },
+      { h3: 'Classes by stage', p: 'Fifteen to twenty learners at one level, gathered from around the UK.' },
       { h3: 'Two per week', p: 'Two weekly lessons during term time; holidays stay free.' },
       { h3: 'Time that stays put', p: 'UK clock changes are absorbed by our teachers, so your lesson hour is unchanged.' }
     ],

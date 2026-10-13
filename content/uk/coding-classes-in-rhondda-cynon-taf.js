@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Coding classes in Rhondda Cynon Taf',
   capsuleQ: 'What are the best coding classes in Rhondda Cynon Taf?',
-  capsule: 'Rhondda Cynon Taf is home to 237,651 people, according to the 2021 census. Aberdare, at 37,675, and Pontypridd, at 31,900, are its largest towns, and Tonypandy, Church Village, Porth, Mountain Ash and Tonyrefail each pass 10,000. We teach every lesson live on camera, with our teachers based in India. Learners from 6 to 67 study coding, Python and maths on their own with a tutor or in a group of five to ten at the same level. An opening lesson at no charge decides where to begin. The local project stands on a stone bridge built in 1756. Staying on costs USD 100 a month for group lessons, or USD 150 a month for private ones.',
+  capsule: 'Rhondda Cynon Taf is home to 237,651 people, according to the 2021 census. Aberdare, at 37,675, and Pontypridd, at 31,900, are its largest towns, and Tonypandy, Church Village, Porth, Mountain Ash and Tonyrefail each pass 10,000. We teach every lesson live on camera, with our teachers based in India. Learners from 6 to 67 study coding, Python and maths on their own with a tutor or in a group of fifteen to twenty at the same level. An opening lesson at no charge decides where to begin. The local project stands on a stone bridge built in 1756. Staying on costs USD 100 a month for group lessons, or USD 150 a month for private ones.',
   lead: 'William Edwards, a minister who taught himself engineering, needed four attempts to bridge the Taff at Pontypridd. Cadw\'s record tells the story: a three-arch bridge begun in 1746 was swept away two years later, and his second, a single span, collapsed in 1751. The bridge that finally stood, completed in 1756, crosses in one arch of 42.7 metres, and for 40 years no bridge in Britain had a wider span. Edwards\'s fix was to pierce round holes, 2.7, 1.8 and 0.9 metres across, through the stone above the arch. Why does a bigger arch fight so much harder against its own weight, and how much stone did the holes save? Two scaling rules explain it, and this page\'s project codes both in Python.',
   wa: 'Hello Modern Age Coders, we are in Rhondda Cynon Taf and would like to book a free lesson, please.',
 
@@ -166,7 +166,7 @@ module.exports = {
       { h3: 'Typed by the learner', p: 'Every line is written by the student, and the tutor follows along on screen, prompting with questions rather than answers.' },
       { h3: 'By Welsh year', p: 'A Ferndale Year 5 or a Pontypridd Year 12 is placed by Welsh school year and progression step, with WJEC exam names. Teaching is in English.' },
       { h3: 'Free to try', p: 'A full first lesson with no charge, finishing with a recommendation.' },
-      { h3: 'Same-level groups', p: 'Five to ten learners at one level, from across the UK.' },
+      { h3: 'Same-level groups', p: 'Fifteen to twenty learners at one level, from across the UK.' },
       { h3: 'Term pattern', p: 'Two lessons a week through term, off in the holidays.' },
       { h3: 'Fixed local hour', p: 'British clock changes do not move your lesson; our teachers in India shift to match.' }
     ],
@@ -177,7 +177,7 @@ module.exports = {
     h2: 'Rhondda Cynon Taf fees',
     intro: 'Aberdare pays what Llantrisant pays, and the same holds for every country we teach outside India.',
     first: 'A full free lesson, followed by our advice.',
-    group: 'About eight lessons a month with five to ten classmates.',
+    group: 'About eight lessons a month with fifteen to twenty classmates.',
     private: 'About eight lessons a month with a tutor to yourself.',
     closer: 'Our prices are in US dollars only; we never quote sterling. Payment starts after the trial has fixed a course and a weekly time, and the pricing page explains breaks, missed lessons and switching formats.'
   },

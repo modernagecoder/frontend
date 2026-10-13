@@ -176,7 +176,7 @@ module.exports = {
       { h3: 'From the living room', p: 'A pupil in Spaland and a pupil in Bijdorp log on at the same minute from their own homes. No cycle through the evening traffic and no waiting at a door afterwards.' },
       { h3: 'School vocabulary left in Dutch', p: 'Brugklas, vmbo, havo, vwo, groep and the profielkeuze are never translated during a lesson; the explanations around them are in English.' },
       { h3: 'A free lesson that teaches', p: 'The opening session is a lesson, not a sales demonstration. The teacher sets a real task, watches how it is handled, and afterwards proposes a level, a course and a regular time, with no payment details taken.' },
-      { h3: 'Groups of equals', p: 'Five to ten learners who stand at the same point in the same subject. Schiedam has 12,890 residents under fifteen, but five of them matched on subject, stage and hour is rare, so a group may include learners from abroad.' },
+      { h3: 'Groups of equals', p: 'Fifteen to twenty learners who stand at the same point in the same subject. Schiedam has 12,890 residents under fifteen, but five of them matched on subject, stage and hour is rare, so a group may include learners from abroad.' },
       { h3: 'Regio Midden calendar', p: 'Classes meet twice a week, about eight times a month, in one fixed slot, and break for the regio Midden holidays that Zuid-Holland schools keep.' },
       { h3: 'Evenings on Indian time', p: 'Because the teachers work from India, three and a half hours ahead in the Dutch summer and four and a half in winter, late afternoons, evenings and weekend mornings are all practical here.' }
     ],
@@ -187,7 +187,7 @@ module.exports = {
     h2: 'The price of classes in Schiedam',
     intro: 'Three figures, shown in full here rather than on request.',
     first: 'One real lesson with a real task, closing with a level and a recommended course.',
-    group: 'Monthly, usually eight classes, with five to ten learners at one level.',
+    group: 'Monthly, usually eight classes, with fifteen to twenty learners at one level.',
     private: 'Monthly, usually eight classes, one learner and a dedicated teacher.',
     closer: 'The dollar price is the same everywhere and no euro list exists beside it, so a household in Kethel pays what one in Schiedam-Zuid pays. No payment is taken until the free lesson has settled the course and the slot, after which WhatsApp is used to arrange it. The pricing page covers pauses, a change of format and missed classes.'
   },
@@ -212,7 +212,7 @@ module.exports = {
       { q: 'How many schools are there in Schiedam?', a: 'The statistics list 24 primary establishments with 7,114 pupils and 8 secondary establishments with 4,076, together with 1,614 MBO, 1,840 higher professional and 790 university students at institutions in the town. This page rates none of them.' },
       { q: 'In what language, and at what hours, are lessons given?', a: 'Lessons are given in English, and Dutch school terms like groep, vmbo and vwo keep their Dutch names. The teachers are in India, three and a half hours ahead of Schiedam in summer and four and a half in winter, so afternoon, evening and weekend slots are straightforward. The slot is set during the free lesson, and regio Midden holidays are observed.' },
       { q: 'Is there a Modern Age Coders classroom in Schiedam?', a: 'No, and none is claimed here or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Schiedam coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Schiedam coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

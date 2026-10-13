@@ -16,7 +16,7 @@ Ballarat, Victoria, Australia / Live online
 
 The City of Ballarat keeps a register of 75,347 trees and publishes it as open data. Look at the columns for height, trunk width and crown spread and you will find no numbers at all, only text such as "3-6", "16cm - 30cm" and "> 90cm". A beginner tends to swap each range for its middle and carry on. Our Ballarat project asks a better question: what can you honestly conclude from a range? Learners write a Python function that turns every label into a lower and upper bound, and the answers change. The average tree height is not one number but anywhere from 4.88 to 9.14 metres, and the average trunk has no upper limit at all.
 
-Facts last verified 7 October 2026. Teaching is online; no Ballarat branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Ballarat branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python courses that suit a Ballarat learner
 
@@ -193,7 +193,7 @@ Ballarat's suburbs ring the lake and the old diggings, and a video lesson reache
 The prices, without small print.
 
 - First class: USD 0. One full lesson at no cost, ending with a level, a course suggestion and a time that suits.
-- Group tuition: USD 100 a month. A month of classes, normally eight, with five to ten learners working at your stage.
+- Group tuition: USD 100 a month. A month of classes, normally eight, with fifteen to twenty learners working at your stage.
 - Private tuition: USD 150 a month. About eight classes a month on the same schedule, taught one to one.
 
 Outside India every family pays in US dollars, so Delacombe and Brown Hill see the same invoice and no Victorian price list exists. You are billed only once the trial has chosen a course and a time; the pricing page sets out what happens with holidays, absences and moving between group and private lessons.
@@ -234,11 +234,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Ballarat Python classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Ballarat and Victorian learners
 

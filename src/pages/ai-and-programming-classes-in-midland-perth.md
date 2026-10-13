@@ -16,7 +16,7 @@ Midland, City of Swan, Western Australia / Live online
 
 Around Midland station, about one stop record in five carries a Y in the state file's bay field. Try 852 simple rules to predict which, keep the one that scores highest on your test data, and it looks like progress. Score that same rule on data it has never met and almost all of the progress vanishes.
 
-Facts last verified 13 October 2026. Teaching is online; no Midland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Midland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that teach honest evaluation
 
@@ -181,7 +181,7 @@ Lessons are live online, so learners join from home.
 - **Results read aloud** Every score is read together and questioned before anyone believes it.
 - **Following WA terms** Plans fit the state school year, with holiday breaks.
 - **Free trial** One full lesson free, then a frank recommendation.
-- **Five to ten learners** Groups by level, or one-to-one teaching.
+- **Fifteen to twenty learners** Groups by level, or one-to-one teaching.
 - **Weekly pattern** A pair of fixed lessons every week, near enough eight per month.
 - **Across time zones** Teaching happens from India, so a Midland class at 6:30pm is 4pm India time.
 
@@ -192,7 +192,7 @@ Lessons are live online, so learners join from home.
 Three prices, the same for every learner.
 
 - First class: USD 0. Lesson one is free and finishes with a written next step.
-- Group tuition: USD 100 a month. About eight group lessons a month, five to ten in each class.
+- Group tuition: USD 100 a month. About eight group lessons a month, fifteen to twenty in each class.
 - Private tuition: USD 150 a month. About eight private lessons a month, one teacher per learner.
 
 Fees are charged in US dollars, and nothing is paid until after the trial when a course and timing have been chosen. See the pricing page for holiday and absence rules.
@@ -229,11 +229,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Midland learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Will Midland groups cover Copilot Studio?
 

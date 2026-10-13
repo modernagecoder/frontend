@@ -16,7 +16,7 @@ Chiswick, Hounslow, London / Live online
 
 Most school statistics quietly assume a bell curve: values pile up in the middle and thin out evenly on both sides. Sizes of things rarely oblige. A few huge items and a great many small ones give a long right tail, measured by a number called skewness, and on such data the mean sits where almost nothing is and "two standard deviations below the mean" can be a negative area. The fix is old and elegant: change the scale. Take logarithms, or let the Box-Cox method choose the power that straightens the data, and do the statistics there. This project does it to every mapped building in a rectangle around Chiswick.
 
-Facts last verified 30 September 2026. Teaching is online; no Chiswick branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Chiswick branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Coding and Python courses for Chiswick, by age
 

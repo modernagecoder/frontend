@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-zurich.html
 
 In short
 
-Modern Age Coders teaches live online AI and machine learning to learners in Zurich from age 6 to age 67, in groups of five to eight or privately. The syllabus begins with Python and the mathematics a model actually runs on, then moves through training, evaluation and deployment, so a student finishes able to build a system rather than only query one. Group fees are USD 100 a month, billed in US dollars, and the first class costs nothing.
+Modern Age Coders teaches live online AI and machine learning to learners in Zurich from age 6 to age 67, in groups of fifteen to twenty or privately. The syllabus begins with Python and the mathematics a model actually runs on, then moves through training, evaluation and deployment, so a student finishes able to build a system rather than only query one. Group fees are USD 100 a month, billed in US dollars, and the first class costs nothing.
 
 The catalogue
 
@@ -294,7 +294,7 @@ Zurich time, the easiest slot at both ends of the link and the one we roster fir
 
 ### What a session is
 
-Seventy five to ninety minutes on live video with one teacher who remembers what broke last Tuesday and opens with it. Both screens are visible, so a wrong indent or a leaked test set gets caught in the second it happens rather than in a comment three days later. Groups hold five to eight learners.
+Seventy five to ninety minutes on live video with one teacher who remembers what broke last Tuesday and opens with it. Both screens are visible, so a wrong indent or a leaked test set gets caught in the second it happens rather than in a comment three days later. Groups hold fifteen to twenty learners.
 
 Between sessions there is something to construct, not a sheet to fill in, and it is expected back partly broken, because a task that returns perfect taught nobody anything. Questions go to the same teacher, not into a support inbox.
 
@@ -376,7 +376,7 @@ $100
 
 a month, billed in US dollars
 
-- Five to eight learners, one teacher who stays with the batch
+- Fifteen to twenty learners, one teacher who stays with the batch
 - Live video every week, nothing pre-recorded
 - A build task between sessions, reviewed by the person who set it
 - Certificate issued at the end of the track
@@ -463,7 +463,7 @@ Zurich runs CEST, UTC plus 2, from 29 March 2026 until 25 October 2026, then CET
 
 ### Group teaching is USD 100 a month and one to one USD 150. What is included, and how does that compare with a Zurich Nachhilfe hour?
 
-The prices are USD 100 a month for group teaching and USD 150 for one to one, flat dollar prices billed in US dollars everywhere we teach outside India. Included: live weekly teaching in a group of five to eight or privately, the same teacher each week, a build task with teacher review, and a certificate. Hardware and paid AI subscriptions are neither included nor required. We publish no comparison against local tutoring rates, having no sourced Zurich figure for them.
+The prices are USD 100 a month for group teaching and USD 150 for one to one, flat dollar prices billed in US dollars everywhere we teach outside India. Included: live weekly teaching in a group of fifteen to twenty or privately, the same teacher each week, a build task with teacher review, and a certificate. Hardware and paid AI subscriptions are neither included nor required. We publish no comparison against local tutoring rates, having no sourced Zurich figure for them.
 
 ### Does this help with the ZAP for the Langgymnasium on 8 March 2027?
 

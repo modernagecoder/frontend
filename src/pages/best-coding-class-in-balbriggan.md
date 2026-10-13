@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI lessons for Balbriggan learners 
 canonical: https://learn.modernagecoders.com/best-coding-class-in-balbriggan
 source: src/pages/best-coding-class-in-balbriggan.html
 ---
-> Balbriggan holds 24,145 usual residents in the census town tables, across 8,146 households, 6,979 of them reporting broadband. The lesson comes to the house: a teacher live on video at an agreed hour, twice in most weeks, with a group of five to ten at one stage or with the learner alone, from six years old to sixty-seven. The opening lesson is free. After it, a shared place costs USD 100 a month and private teaching USD 150.
+> Balbriggan holds 24,145 usual residents in the census town tables, across 8,146 households, 6,979 of them reporting broadband. The lesson comes to the house: a teacher live on video at an agreed hour, twice in most weeks, with a group of fifteen to twenty at one stage or with the learner alone, from six years old to sixty-seven. The opening lesson is free. After it, a shared place costs USD 100 a month and private teaching USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [Fingal](/coding-classes-in-fingal) / Balbriggan
 
@@ -12,11 +12,11 @@ Balbriggan, Fingal, County Dublin / Live online
 
 # Coding classes in Balbriggan
 
-**What is the best coding class in Balbriggan?** Balbriggan holds 24,145 usual residents in the census town tables, across 8,146 households, 6,979 of them reporting broadband. The lesson comes to the house: a teacher live on video at an agreed hour, twice in most weeks, with a group of five to ten at one stage or with the learner alone, from six years old to sixty-seven. The opening lesson is free. After it, a shared place costs USD 100 a month and private teaching USD 150.
+**What is the best coding class in Balbriggan?** Balbriggan holds 24,145 usual residents in the census town tables, across 8,146 households, 6,979 of them reporting broadband. The lesson comes to the house: a teacher live on video at an agreed hour, twice in most weeks, with a group of fifteen to twenty at one stage or with the learner alone, from six years old to sixty-seven. The opening lesson is free. After it, a shared place costs USD 100 a month and private teaching USD 150.
 
 The Central Statistics Office writes census day as 03 April 2022. Hand that string to a program without thinking and the trouble starts. Ask JavaScript to parse 03/04/2022 and it answers the fourth of March, because it reads the month first. Build the date by hand instead, as new Date(2022, 3, 3), and you get 3 April, because months in JavaScript start at zero while days do not. That day was a Sunday, and Irish clocks had moved an hour forward the week before, so any timestamp stored without a zone shifts by an hour on either side of it. Every one of those was run while writing this page. Dates look like text, behave like arithmetic and break more programs than numbers ever do.
 
-Facts last verified 18 September 2026. Teaching is online; no Balbriggan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 18 September 2026. Teaching is online; no Balbriggan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Balbriggan learners begin
 
@@ -166,7 +166,7 @@ A computer can write the parser. Knowing which date it will get wrong is still a
 Six practical points.
 
 - **Live teaching** A teacher on the call for the full hour, working from what the learner is building.
-- **Placed by stage** Five to ten learners at the same level, joining from Balbriggan, elsewhere in Ireland and abroad.
+- **Placed by stage** Fifteen to twenty learners at the same level, joining from Balbriggan, elsewhere in Ireland and abroad.
 - **A weekly slot** Two lessons in most weeks, about eight a month, at an hour agreed at the start.
 - **Clock changes handled** When the clocks move, the Irish hour stays the hour you agreed, and the shift is ours to absorb.
 - **Equipment** A computer with a keyboard, audio in both directions, and a connection that holds a video call.
@@ -179,7 +179,7 @@ Six practical points.
 Three lines, complete.
 
 - First class: USD 0. The opening lesson, taught and assessed in full, at no charge.
-- Group tuition: USD 100 a month. A month in an ability group of five to ten, about eight live lessons.
+- Group tuition: USD 100 a month. A month in an ability group of fifteen to twenty, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one to one teaching on the same weekly pattern.
 
 A Balbriggan household pays in US dollars, monthly, at the rate every family outside India pays, which is also what Swords and Drogheda pay, and there is no parallel price in euro. Nothing is owed for the opening hour, the month starts with the first paid lesson, and the pricing page explains what happens over school holidays, after a missed week, or on a move from a group to private lessons.
@@ -220,7 +220,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Balbriggan cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

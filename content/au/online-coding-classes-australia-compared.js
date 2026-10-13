@@ -263,7 +263,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Lessons outside India are paid monthly in US dollars, one rate in every country. There is no joining fee, no term contract and no pressure to sign: try the free lesson, think it over, then decide.',
     free: ['A free first lesson', 'Time to decide afterwards', 'No card details'],
-    group: ['Five to ten learners', 'One regular teacher', 'Live every lesson', 'Monthly'],
+    group: ['Fifteen to twenty learners', 'One regular teacher', 'Live every lesson', 'Monthly'],
     one: ['A teacher to yourself', 'Your own pace', 'Your own projects']
   },
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across Limburg, ages 6 t
 canonical: https://learn.modernagecoders.com/coding-classes-in-limburg
 source: src/pages/coding-classes-in-limburg.html
 ---
-> Coding classes in Limburg cover 1,138,374 people in 31 municipalities (Statistics Netherlands, 1 January 2026), a province that has grown by 8,324 people in thirty-one years and shares more border with Belgium and Germany than with the rest of the country. Its Vaalserberg, 322.4 metres above NAP, is the highest point of the European Netherlands, and stopped being the highest point of the Netherlands on 10 October 2010 without moving. Wherever in the province the laptop is, Modern Age Coders teaches the same live online class in English for learners from 6 to 67, the first lesson without charge, then USD 100 a month for a group of five to ten or USD 150 for private tuition.
+> Coding classes in Limburg cover 1,138,374 people in 31 municipalities (Statistics Netherlands, 1 January 2026), a province that has grown by 8,324 people in thirty-one years and shares more border with Belgium and Germany than with the rest of the country. Its Vaalserberg, 322.4 metres above NAP, is the highest point of the European Netherlands, and stopped being the highest point of the Netherlands on 10 October 2010 without moving. Wherever in the province the laptop is, Modern Age Coders teaches the same live online class in English for learners from 6 to 67, the first lesson without charge, then USD 100 a month for a group of fifteen to twenty or USD 150 for private tuition.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Limburg
 
@@ -12,11 +12,11 @@ Province of Limburg / Live online
 
 # Coding classes in Limburg, home of the highest point in the Netherlands, unless you count all of the Netherlands
 
-**What are the best coding classes in Limburg?** Coding classes in Limburg cover 1,138,374 people in 31 municipalities (Statistics Netherlands, 1 January 2026), a province that has grown by 8,324 people in thirty-one years and shares more border with Belgium and Germany than with the rest of the country. Its Vaalserberg, 322.4 metres above NAP, is the highest point of the European Netherlands, and stopped being the highest point of the Netherlands on 10 October 2010 without moving. Wherever in the province the laptop is, Modern Age Coders teaches the same live online class in English for learners from 6 to 67, the first lesson without charge, then USD 100 a month for a group of five to ten or USD 150 for private tuition.
+**What are the best coding classes in Limburg?** Coding classes in Limburg cover 1,138,374 people in 31 municipalities (Statistics Netherlands, 1 January 2026), a province that has grown by 8,324 people in thirty-one years and shares more border with Belgium and Germany than with the rest of the country. Its Vaalserberg, 322.4 metres above NAP, is the highest point of the European Netherlands, and stopped being the highest point of the Netherlands on 10 October 2010 without moving. Wherever in the province the laptop is, Modern Age Coders teaches the same live online class in English for learners from 6 to 67, the first lesson without charge, then USD 100 a month for a group of fifteen to twenty or USD 150 for private tuition.
 
 Every Limburg schoolchild is told that the highest point in the Netherlands is in Vaals. It was, until the morning the country grew to include an island in the Caribbean with a mountain nearly three times as tall. Nothing about the hill changed; the definition of the country did. A child who can build the program that answers "highest point of what?" has learned to ask the question that most tables never state.
 
-Facts last verified 7 September 2026. Teaching is online; no Limburg branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Limburg branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a province that is a long road between two countries
 
@@ -208,7 +208,7 @@ Venlo to Maastricht is an hour on the A2 and a whole province; Vaals to Mook is 
 Stated in full before a number is asked for.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 The international rate is one figure in US dollars with no euro edition, and Vaals pays what Venlo pays. The free lesson fixes the course and the hour first; payment follows on WhatsApp. Pauses, plan changes and missed lessons are on the pricing page.
@@ -249,7 +249,7 @@ No, and none is claimed in Maastricht, in Venlo or anywhere in the Netherlands. 
 
 ### What do Limburg coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Limburg group?
 

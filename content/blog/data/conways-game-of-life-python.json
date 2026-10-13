@@ -210,7 +210,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The Game of Life is learning by building at its best, one of the principles on our <a href='/how-we-teach'>how we teach</a> page: students can ship a working simulation in the same lesson they meet the rules. Tracing one generation by hand until every cell can be predicted, then checking against the code, is how the rules really sink in. Our <a href='/courses/python-complete-masterclass-teens'>Python course for teens</a> runs one to one or in small groups of 5 to 10."
+        "text": "The Game of Life is learning by building at its best, one of the principles on our <a href='/how-we-teach'>how we teach</a> page: students can ship a working simulation in the same lesson they meet the rules. Tracing one generation by hand until every cell can be predicted, then checking against the code, is how the rules really sink in. Our <a href='/courses/python-complete-masterclass-teens'>Python course for teens</a> runs one to one or in groups of 15 to 20."
       },
       {
         "type": "embed",

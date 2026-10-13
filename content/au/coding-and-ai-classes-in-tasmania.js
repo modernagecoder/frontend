@@ -211,7 +211,7 @@ module.exports = {
       { h3: 'North and South calendars', p: 'Professional learning days differ between the North and South. Tell the teacher which region your school follows and lessons fit around it.' },
       { h3: 'College students too', p: 'Colleges set their own finishing dates. Senior students can plan lessons right up to their exams and pause afterwards.' },
       { h3: 'Trial lesson first', p: 'The first session is a full lesson with a finished task, then a suggested level, course and weekly time, with no card requested.' },
-      { h3: 'Groups of equals', p: 'Five to ten learners per group, matched by standard and drawn from Tasmania, other states and abroad, so most levels have a good hour.' },
+      { h3: 'Groups of equals', p: 'Fifteen to twenty learners per group, matched by standard and drawn from Tasmania, other states and abroad, so most levels have a good hour.' },
       { h3: 'Regular rhythm', p: 'Two lessons a week, around eight a month, at a fixed time, with school holidays paused by arrangement.' },
       { h3: 'India time behind us', p: 'Our teachers keep India time, so a Tasmanian afternoon lesson lands in the middle of their working day.' }
     ],
@@ -222,7 +222,7 @@ module.exports = {
     h2: 'What lessons cost in Tasmania',
     intro: 'One price list for the whole island.',
     first: 'A full first lesson with no charge, ending with a suggested level, course and weekly time.',
-    group: 'A month of lessons, generally eight, with five to ten learners at a similar level.',
+    group: 'A month of lessons, generally eight, with fifteen to twenty learners at a similar level.',
     private: 'About eight lessons a month in the same pattern, one teacher with one learner.',
     closer: 'Outside India, every family pays in US dollars at a single rate, so Burnie and Battery Point receive identical invoices. Nothing is charged before the trial has agreed a course and a lesson time; the pricing page covers holidays, missed lessons and changing between group and private teaching.'
   },
@@ -247,7 +247,7 @@ module.exports = {
       { q: 'What time are lessons for Tasmanian learners?', a: 'Afternoons, evenings or weekends, agreed in the trial and always written in Tasmanian time. India is four and a half hours behind Tasmania in winter and five and a half hours behind during daylight saving.' },
       { q: 'Can adults join?', a: 'Yes. Learners up to 67 study with us, in adult groups or one to one, from complete beginners to people automating parts of their working day.' },
       { q: 'Is there a Modern Age Coders centre in Tasmania?', a: 'No, and none is claimed. All teaching is live and online, with no premises in Australia; a learner needs a laptop or desktop, sound and a reliable connection, and the phone number shown is in India.', boiler: true },
-      { q: 'How much do coding classes cost in Tasmania?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. The course, format and time are settled before anything is paid.', boiler: true },
+      { q: 'How much do coding classes cost in Tasmania?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. The course, format and time are settled before anything is paid.', boiler: true },
       { q: 'How many learners share a group?', a: 'Between five and ten, grouped by level, pace and aims rather than by age or town. Where no group meets at a workable time, the learner is offered one-to-one lessons instead.', boiler: true }
     ]
   },

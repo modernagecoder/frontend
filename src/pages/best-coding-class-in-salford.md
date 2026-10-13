@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Salford learn
 canonical: https://learn.modernagecoders.com/best-coding-class-in-salford
 source: src/pages/best-coding-class-in-salford.html
 ---
-> Census 2021 counted 269,923 usual residents in Salford, and 9.8% of them were aged 25 to 29, against 6.6% in England. The Working Class Movement Library, begun in the 1950s by Eddie and Ruth Frow from the books that filled their home, has been at Jubilee House in Salford since 1987. Anyone in Salford from six to sixty-seven can take our live video lessons, joining a class of five to ten at a matching level or learning privately, with teachers in India who keep UK hours. The first lesson is free; then a group place is USD 100 a month and one-to-one teaching USD 150.
+> Census 2021 counted 269,923 usual residents in Salford, and 9.8% of them were aged 25 to 29, against 6.6% in England. The Working Class Movement Library, begun in the 1950s by Eddie and Ruth Frow from the books that filled their home, has been at Jubilee House in Salford since 1987. Anyone in Salford from six to sixty-seven can take our live video lessons, joining a class of fifteen to twenty at a matching level or learning privately, with teachers in India who keep UK hours. The first lesson is free; then a group place is USD 100 a month and one-to-one teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Salford
 
@@ -12,11 +12,11 @@ Salford, Greater Manchester / Live online
 
 # Coding classes in Salford
 
-**What are the best coding classes in Salford?** Census 2021 counted 269,923 usual residents in Salford, and 9.8% of them were aged 25 to 29, against 6.6% in England. The Working Class Movement Library, begun in the 1950s by Eddie and Ruth Frow from the books that filled their home, has been at Jubilee House in Salford since 1987. Anyone in Salford from six to sixty-seven can take our live video lessons, joining a class of five to ten at a matching level or learning privately, with teachers in India who keep UK hours. The first lesson is free; then a group place is USD 100 a month and one-to-one teaching USD 150.
+**What are the best coding classes in Salford?** Census 2021 counted 269,923 usual residents in Salford, and 9.8% of them were aged 25 to 29, against 6.6% in England. The Working Class Movement Library, begun in the 1950s by Eddie and Ruth Frow from the books that filled their home, has been at Jubilee House in Salford since 1987. Anyone in Salford from six to sixty-seven can take our live video lessons, joining a class of fifteen to twenty at a matching level or learning privately, with teachers in India who keep UK hours. The first lesson is free; then a group place is USD 100 a month and one-to-one teaching USD 150.
 
 The 2021 census splits Salford into 34 neighbourhoods and counts each one's residents in 18 age bands, from under-fives to over-85s. That is 612 numbers, too many to see at once. Principal component analysis asks which combinations of them vary most from place to place. For Salford, one combination does most of the work: the share of people in their twenties and thirties set against the share over sixty. It alone captures 61.1% of the variation, with Salford Quays, Greengate and Ordsall at one end and Worsley at the other. A second combination, the share of children, adds 18.9%. Our teenagers compute both, and learn why the answer changes if the numbers are not scaled first.
 
-Facts last verified 23 September 2026. Teaching is online; no Salford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Salford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the city of the Quays
 
@@ -173,7 +173,7 @@ Salford runs from the Quays out to Irlam and Little Hulton, a long way on a week
 - **East and west Salford** A learner in Ordsall and another in Walkden can share the same class without either crossing the city.
 - **Stages named the English way** Reception, the four Key Stages, Year 9 options, GCSEs and A levels, as Salford schools call them, with every lesson in English.
 - **A first lesson with substance** The free session works through real material and closes with our suggested level, course and weekly slot, with no card requested.
-- **Grouped by stage** Five to ten learners at one level, from Salford, the rest of the UK and overseas, so every stage has a workable time.
+- **Grouped by stage** Fifteen to twenty learners at one level, from Salford, the rest of the UK and overseas, so every stage has a workable time.
 - **A steady schedule** Two fixed lessons a week, about eight a month, with holidays and exams planned with the teacher in advance.
 - **Lessons into the Indian night** A 6 pm lesson in Salford starts at 10.30 pm in India during British Summer Time and 11.30 pm in winter. Our teachers work those hours so Salford learners can join after school or work.
 
@@ -184,7 +184,7 @@ Salford runs from the Quays out to Irlam and Little Hulton, a long way on a week
 One free lesson, then a single fee each month.
 
 - First class: USD 0. A complete lesson without charge, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. Around eight live lessons a month in a group of five to ten learners at one stage.
+- Group tuition: USD 100 a month. Around eight live lessons a month in a group of fifteen to twenty learners at one stage.
 - Private tuition: USD 150 a month. Around eight live lessons a month, with the teacher working with your learner alone.
 
 Irlam and Pendleton are charged the same as anywhere else outside India: one fee, in US dollars, with no pound prices on our site. We only bill after the free lesson, once a course and a time are settled, and the pricing page explains pausing, missed lessons and moving between group and one-to-one teaching.
@@ -225,11 +225,11 @@ No. There is no Salford centre and we have no premises anywhere in the UK; every
 
 ### How much do Salford lessons cost?
 
-The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
+The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
 
 ### How are Salford groups formed?
 
-By level, pace and aims rather than age or postcode, with five to ten learners at one stage. If no group suits the learner's week, we offer one-to-one lessons.
+By level, pace and aims rather than age or postcode, with fifteen to twenty learners at one stage. If no group suits the learner's week, we offer one-to-one lessons.
 
 ## Greater Manchester and beyond
 

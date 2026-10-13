@@ -16,7 +16,7 @@ Darwin, Northern Territory, Australia / Live online
 
 Darwin keeps its clocks nine and a half hours ahead of UTC, all year, and every phone and laptop knows it because of one shared file: the IANA time zone database. Our Darwin project opens that file and reads it with code. Learners write a recursive-descent parser in Python, a program that breaks lines of text into pieces and checks each piece against a small grammar, and use it to pull out Darwin's history. The first line says that before February 1895 Darwin ran on local mean time, 8 hours 43 minutes 20 seconds ahead of Greenwich. Turn those minutes into degrees and you land on 130 degrees 50 minutes east, exactly the longitude the same database lists for Darwin. One parser, one file, and a clock offset turns out to be a position on the map.
 
-Facts last verified 7 October 2026. Teaching is online; no Darwin branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Darwin branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that fit a Darwin learner
 
@@ -179,7 +179,7 @@ Greater Darwin is spread along the harbour and out to Palmerston, and an online 
 - **Lessons at home** A learner in Palmerston and another near the Esplanade can be in the same lesson without either one getting in a car.
 - **Territory year levels** Teachers use the year levels Darwin schools use and plan around the Northern Territory school terms. Everything is taught in English.
 - **Try before you commit** The first session is a real lesson with a real teacher; you leave with a suggested course and time and with nothing paid.
-- **Learners at your level** Groups of five to ten learners at the same stage, from Darwin and other cities, so there is a group even in a small capital.
+- **Learners at your level** Groups of fifteen to twenty learners at the same stage, from Darwin and other cities, so there is a group even in a small capital.
 - **Twice a week** Usually two lessons a week, about eight a month, at a set time, with breaks for school holidays and exams arranged in advance.
 - **The same four hours, every day** Darwin runs four hours ahead of our teachers all year round, so 4:30pm in Darwin is always 12:30pm for them.
 
@@ -190,7 +190,7 @@ Greater Darwin is spread along the harbour and out to Palmerston, and an online 
 Three prices, laid out simply.
 
 - First class: USD 0. The opening lesson in full, free, followed by a suggested level, course and time.
-- Group tuition: USD 100 a month. Monthly teaching of around eight lessons in a group of five to ten at your stage.
+- Group tuition: USD 100 a month. Monthly teaching of around eight lessons in a group of fifteen to twenty at your stage.
 - Private tuition: USD 150 a month. The same monthly rhythm of roughly eight lessons, taught one to one.
 
 Outside India, the fee is a single US dollar amount everywhere, so a learner in Stuart Park and one in Palmerston pay the same and there is no local price sheet. Nothing is charged until the trial has fixed a course and a time; the pricing page covers holiday pauses, missed sessions and changing between group and private lessons.
@@ -231,11 +231,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Darwin coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Darwin and Australian learners
 

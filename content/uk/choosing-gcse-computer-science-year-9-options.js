@@ -237,7 +237,7 @@ module.exports = {
     h2: 'What lessons cost before GCSE',
     lede: 'One charge a month in US dollars, the rate outside India. The free lesson comes first, and billing only starts once a course and a weekly time are agreed.',
     free: ['A proper lesson, and something built in it', 'A frank view of readiness, including waiting', 'Nothing needed but a number'],
-    group: ['Five to ten students at the same stage', 'One named teacher throughout', 'Work saved where a parent can see it', 'A certificate at the end of a course'],
+    group: ['Fifteen to twenty students at the same stage', 'One named teacher throughout', 'Work saved where a parent can see it', 'A certificate at the end of a course'],
     one: ['Only the student and the teacher', 'Useful for a student well ahead or very hesitant', 'Arranged around clubs and school commitments']
   },
 

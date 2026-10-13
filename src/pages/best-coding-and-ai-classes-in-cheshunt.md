@@ -4,7 +4,7 @@ description: "Live online coding, AI, Python and vibe coding classes for Cheshun
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-cheshunt
 source: src/pages/best-coding-and-ai-classes-in-cheshunt.html
 ---
-> The Cheshunt built-up area had 43,680 residents at the 2021 census and the borough of Broxbourne 99,009, according to the ONS. Flamstead End, Rosedale, Hammond Street, Bury Green and Churchgate are suburban areas of the town in postcode data. We teach coding, AI, Python, vibe coding and maths to Cheshunt learners from six to 67, live online with tutors based in India, as private lessons or in level-matched groups of five to ten. Learners here are taught to ask how far wrong an answer could be, a question that matters just as much when the answer comes from an AI. The Cheshunt project draws 17 local lakes as grids of pixels and shows how the way you colour each pixel decides whether a lake keeps its true size. Lesson one is on us and closes with a course recommendation; carrying on is USD 100 per month in a group or USD 150 per month on your own with a tutor.
+> The Cheshunt built-up area had 43,680 residents at the 2021 census and the borough of Broxbourne 99,009, according to the ONS. Flamstead End, Rosedale, Hammond Street, Bury Green and Churchgate are suburban areas of the town in postcode data. We teach coding, AI, Python, vibe coding and maths to Cheshunt learners from six to 67, live online with tutors based in India, as private lessons or in level-matched groups of fifteen to twenty. Learners here are taught to ask how far wrong an answer could be, a question that matters just as much when the answer comes from an AI. The Cheshunt project draws 17 local lakes as grids of pixels and shows how the way you colour each pixel decides whether a lake keeps its true size. Lesson one is on us and closes with a course recommendation; carrying on is USD 100 per month in a group or USD 150 per month on your own with a tutor.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East of England](/coding-and-ai-classes-in-east-of-england) / Cheshunt
 
@@ -12,11 +12,11 @@ Cheshunt, Broxbourne, Hertfordshire / Live online
 
 # Coding and AI classes in Cheshunt, Hertfordshire
 
-**What are the best coding and AI classes for Cheshunt learners?** The Cheshunt built-up area had 43,680 residents at the 2021 census and the borough of Broxbourne 99,009, according to the ONS. Flamstead End, Rosedale, Hammond Street, Bury Green and Churchgate are suburban areas of the town in postcode data. We teach coding, AI, Python, vibe coding and maths to Cheshunt learners from six to 67, live online with tutors based in India, as private lessons or in level-matched groups of five to ten. Learners here are taught to ask how far wrong an answer could be, a question that matters just as much when the answer comes from an AI. The Cheshunt project draws 17 local lakes as grids of pixels and shows how the way you colour each pixel decides whether a lake keeps its true size. Lesson one is on us and closes with a course recommendation; carrying on is USD 100 per month in a group or USD 150 per month on your own with a tutor.
+**What are the best coding and AI classes for Cheshunt learners?** The Cheshunt built-up area had 43,680 residents at the 2021 census and the borough of Broxbourne 99,009, according to the ONS. Flamstead End, Rosedale, Hammond Street, Bury Green and Churchgate are suburban areas of the town in postcode data. We teach coding, AI, Python, vibe coding and maths to Cheshunt learners from six to 67, live online with tutors based in India, as private lessons or in level-matched groups of fifteen to twenty. Learners here are taught to ask how far wrong an answer could be, a question that matters just as much when the answer comes from an AI. The Cheshunt project draws 17 local lakes as grids of pixels and shows how the way you colour each pixel decides whether a lake keeps its true size. Lesson one is on us and closes with a course recommendation; carrying on is USD 100 per month in a group or USD 150 per month on your own with a tutor.
 
 Every image on a screen is a grid of little squares, and every smooth shape has to be squeezed into that grid. Do it carelessly and edges turn into staircases, thin features vanish, and anything measured from the picture comes out wrong. The fix, used in video games, photo software and mapping alike, is called anti-aliasing: instead of asking one question per pixel, ask several and average. The lakes and flooded pits mapped around Cheshunt, from Holyfield Lake at about 50 hectares down to New Hill Clay Pit at little more than half a hectare, make a handy test set. Draw each one in pixels, measure its area, and see how far the two ways of drawing drift from the truth.
 
-Facts last verified 30 September 2026. Teaching is online; no Cheshunt branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Cheshunt branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Coding, thinking and AI courses chosen for Cheshunt
 
@@ -137,7 +137,7 @@ Use a desktop or laptop with a webcam; a typical home connection is enough.
 - **Learning by building** Hands on their own keyboard, learners build while the tutor watches the screen and asks them to guess each outcome first.
 - **Placed after the trial** During the free session the tutor works out the right starting course, and notes any exam board too.
 - **Free first lesson** It costs nothing, needs no card, and closes with a course suggestion.
-- **Groups at one level** Five to ten learners who share a stage, gathered from across the UK.
+- **Groups at one level** Fifteen to twenty learners who share a stage, gathered from across the UK.
 - **Twice weekly** Holiday dates you send stay free of lessons.
 - **Unmoved by clock changes** When the clocks change, our tutors adjust and your lesson time holds.
 

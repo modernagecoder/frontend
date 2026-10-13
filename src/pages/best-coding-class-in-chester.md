@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Chester learn
 canonical: https://learn.modernagecoders.com/best-coding-class-in-chester
 source: src/pages/best-coding-class-in-chester.html
 ---
-> Cheshire West and Chester, the council area that includes the city, had 357,150 usual residents at the 2021 census, at 388.2 per square kilometre against 433.5 for England. Historic England schedules the walls, towers, gates and posterns of the City of Chester as an ancient monument, alongside the southern part of its Roman amphitheatre. Chester learners aged six to sixty-seven study with our teachers in India in live video lessons, in a group of five to ten at one level or one to one, at hours fitted around the UK day. Lesson one is free; after that it is USD 100 a month for a group place or USD 150 for private teaching.
+> Cheshire West and Chester, the council area that includes the city, had 357,150 usual residents at the 2021 census, at 388.2 per square kilometre against 433.5 for England. Historic England schedules the walls, towers, gates and posterns of the City of Chester as an ancient monument, alongside the southern part of its Roman amphitheatre. Chester learners aged six to sixty-seven study with our teachers in India in live video lessons, in a group of fifteen to twenty at one level or one to one, at hours fitted around the UK day. Lesson one is free; after that it is USD 100 a month for a group place or USD 150 for private teaching.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Chester
 
@@ -12,11 +12,11 @@ Chester, Cheshire / Live online
 
 # Coding classes in Chester
 
-**What are the best coding classes in Chester?** Cheshire West and Chester, the council area that includes the city, had 357,150 usual residents at the 2021 census, at 388.2 per square kilometre against 433.5 for England. Historic England schedules the walls, towers, gates and posterns of the City of Chester as an ancient monument, alongside the southern part of its Roman amphitheatre. Chester learners aged six to sixty-seven study with our teachers in India in live video lessons, in a group of five to ten at one level or one to one, at hours fitted around the UK day. Lesson one is free; after that it is USD 100 a month for a group place or USD 150 for private teaching.
+**What are the best coding classes in Chester?** Cheshire West and Chester, the council area that includes the city, had 357,150 usual residents at the 2021 census, at 388.2 per square kilometre against 433.5 for England. Historic England schedules the walls, towers, gates and posterns of the City of Chester as an ancient monument, alongside the southern part of its Roman amphitheatre. Chester learners aged six to sixty-seven study with our teachers in India in live video lessons, in a group of fifteen to twenty at one level or one to one, at hours fitted around the UK day. Lesson one is free; after that it is USD 100 a month for a group place or USD 150 for private teaching.
 
 After heavy rain, the River Gowy near Chester rises and then drains away, day by day, along a curve that looks like exponential decay. How fast? Our teenagers make a computer learn the answer with gradient descent, the same step-by-step method that trains AI models: guess, measure the error, nudge the guess downhill, repeat. On one 22-day fall in January 2023, a sensible step size settles in 642 steps on a decay time of 10.39 days. A step size of 0.5 instead of 0.01 announces success after 51 steps, with an answer of 0.04 days that is nonsense. And a shortcut that fits the logarithm instead says 15.98 days. Same river, three answers, and every one of them teaches something.
 
-Facts last verified 23 September 2026. Teaching is online; no Chester branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Chester branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the walled city
 
@@ -172,7 +172,7 @@ The council area runs from the city out to Ellesmere Port, Neston and Frodsham. 
 - **City and towns** A learner in Lache and another in Neston can share one class, with no drive into the city centre.
 - **Levels Cheshire schools use** Our levels follow the English curriculum from Reception through each Key Stage to GCSE and A level, and every lesson is taught in English.
 - **Straight into real work** Even the free session covers a real task, and it ends with our suggested level, course and weekly slot. No card is requested.
-- **Grouped by stage** Five to ten learners at the same level, from Chester, around the UK and overseas, so each stage has sensible times.
+- **Grouped by stage** Fifteen to twenty learners at the same level, from Chester, around the UK and overseas, so each stage has sensible times.
 - **A steady rhythm** Two regular lessons each week, around eight a month, with holidays and exam weeks planned with the teacher well ahead.
 - **Across the time zones** It is 9 pm for our teachers in India when a 4.30 pm lesson starts in Chester in summer, and 10 pm in winter, because India does not change its clocks; they shape their evenings around UK families.
 
@@ -183,7 +183,7 @@ The council area runs from the city out to Ellesmere Port, Neston and Frodsham. 
 A free first lesson, then one monthly fee.
 
 - First class: USD 0. A full lesson free of charge, closing with advice on level, course and a weekly slot.
-- Group tuition: USD 100 a month. Roughly eight live lessons a month in a group of five to ten learners at one stage.
+- Group tuition: USD 100 a month. Roughly eight live lessons a month in a group of fifteen to twenty learners at one stage.
 - Private tuition: USD 150 a month. Roughly eight live lessons a month, with the teacher focused only on your learner.
 
 Families in Upton or Vicars Cross are billed in US dollars, as every family outside India is, and no pound price appears on any of our pages. There is nothing to pay until after the free lesson, once a course and weekly time are chosen; the pricing page explains pauses, missed lessons and moves between group and one-to-one teaching.
@@ -224,11 +224,11 @@ No. There is no Chester centre and we have no premises anywhere in the UK, becau
 
 ### What do lessons cost in Chester?
 
-The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one lessons on the same timetable cost USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one lessons on the same timetable cost USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How do you group learners?
 
-By level, pace and goals rather than age or address, with five to ten learners at one stage. If no group fits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than age or address, with fifteen to twenty learners at one stage. If no group fits the learner's week, we offer one-to-one lessons.
 
 ## The North West and beyond
 

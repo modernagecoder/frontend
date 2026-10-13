@@ -4,7 +4,7 @@ description: "Online coding, AI, Python and vibe coding lessons for Stanmore, Be
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-stanmore-london
 source: src/pages/best-coding-and-ai-classes-in-stanmore-london.html
 ---
-> At Census 2021 the Stanmore ward of Harrow had 13,501 usual residents, with 9,735 in Canons and 14,341 in Harrow Weald, each an ONS figure for one 2022 ward. Belmont, Harrow Weald and Little Stanmore are suburban areas on record in the borough. Coding, AI, Python, vibe coding and maths are taught here on live video by tutors in India, for ages six to 67, either privately or in a small group of five to ten at one level. We want learners to understand a method, not just copy it, and the local project shows why. A program learns to walk Stanmore's streets by imitating an expert, matches the expert's choice 88.1% of the time, and still finishes only one journey in eight. The first lesson costs nothing and closes with our course advice; after it, a group place is USD 100 a month and private lessons USD 150 a month.
+> At Census 2021 the Stanmore ward of Harrow had 13,501 usual residents, with 9,735 in Canons and 14,341 in Harrow Weald, each an ONS figure for one 2022 ward. Belmont, Harrow Weald and Little Stanmore are suburban areas on record in the borough. Coding, AI, Python, vibe coding and maths are taught here on live video by tutors in India, for ages six to 67, either privately or in a group of fifteen to twenty at one level. We want learners to understand a method, not just copy it, and the local project shows why. A program learns to walk Stanmore's streets by imitating an expert, matches the expert's choice 88.1% of the time, and still finishes only one journey in eight. The first lesson costs nothing and closes with our course advice; after it, a group place is USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Stanmore
 
@@ -12,11 +12,11 @@ Stanmore, Harrow, London / Live online
 
 # Coding and AI classes in Stanmore
 
-**Where can Stanmore learners find the best coding and AI classes?** At Census 2021 the Stanmore ward of Harrow had 13,501 usual residents, with 9,735 in Canons and 14,341 in Harrow Weald, each an ONS figure for one 2022 ward. Belmont, Harrow Weald and Little Stanmore are suburban areas on record in the borough. Coding, AI, Python, vibe coding and maths are taught here on live video by tutors in India, for ages six to 67, either privately or in a small group of five to ten at one level. We want learners to understand a method, not just copy it, and the local project shows why. A program learns to walk Stanmore's streets by imitating an expert, matches the expert's choice 88.1% of the time, and still finishes only one journey in eight. The first lesson costs nothing and closes with our course advice; after it, a group place is USD 100 a month and private lessons USD 150 a month.
+**Where can Stanmore learners find the best coding and AI classes?** At Census 2021 the Stanmore ward of Harrow had 13,501 usual residents, with 9,735 in Canons and 14,341 in Harrow Weald, each an ONS figure for one 2022 ward. Belmont, Harrow Weald and Little Stanmore are suburban areas on record in the borough. Coding, AI, Python, vibe coding and maths are taught here on live video by tutors in India, for ages six to 67, either privately or in a group of fifteen to twenty at one level. We want learners to understand a method, not just copy it, and the local project shows why. A program learns to walk Stanmore's streets by imitating an expert, matches the expert's choice 88.1% of the time, and still finishes only one journey in eight. The first lesson costs nothing and closes with our course advice; after it, a group place is USD 100 a month and private lessons USD 150 a month.
 
 The simplest way to teach a machine a skill is to show it an expert and ask it to copy: see this situation, make this move. It is called imitation learning, or behaviour cloning, and it is how many driving and robot systems start out, and close to how language models learn to continue text. It has a famous weakness. A copy that is nearly perfect at each step can be hopeless over a long task, because one wrong move lands it somewhere the expert never went, where it has no idea what to do. This project measures that on walking routes through Stanmore from OpenStreetMap, and then tests two possible cures.
 
-Facts last verified 30 September 2026. Teaching is online; no Stanmore branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Stanmore branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Stanmore courses in understanding, Python and AI
 
@@ -134,7 +134,7 @@ What you need: a computer, a camera, and broadband that will carry a video lesso
 - **Doing, not watching** The learner writes every line and runs every test, while the tutor on screen share asks what would happen somewhere the code has not been.
 - **Trial first, plan second** The free lesson shows what is secure and what is not; exam boards are recorded.
 - **A free opening lesson** Lesson one is not charged and finishes with a course recommendation.
-- **One level per class** Five to ten learners, all at a similar stage, drawn from across the UK.
+- **One level per class** Fifteen to twenty learners, all at a similar stage, drawn from across the UK.
 - **Two lessons each week** With breaks for school holidays.
 - **The same hour all year** Our tutors shift when British clocks change; your slot does not.
 

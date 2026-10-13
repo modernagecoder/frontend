@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'AI and programming classes in Edgware',
   capsuleQ: 'Which are the best AI and programming classes in Edgware?',
-  capsule: 'Edgware straddles two London boroughs, and the ONS counts each 2022 ward on its own: at Census 2021 there were 19,998 usual residents in the Edgware ward of Barnet, 15,713 in the Edgware ward of Harrow and 12,109 in Edgwarebury. Burnt Oak and Canons Park are recorded suburban areas in the same HA8 postcode district. Tutors in India teach AI, programming, Python, vibe coding and maths here over live video to anyone aged six to 67, one-to-one or in groups of five to ten at a shared level. Reasoning comes before tools, so a learner can ask where a model\'s answers came from. Lesson one is free and ends with a course suggestion. The Edgware project trains models on 1,801 Census areas, deliberately spoils some of the training answers, and measures which models cope. Ongoing lessons are USD 100 a month in a group or USD 150 a month privately.',
+  capsule: 'Edgware straddles two London boroughs, and the ONS counts each 2022 ward on its own: at Census 2021 there were 19,998 usual residents in the Edgware ward of Barnet, 15,713 in the Edgware ward of Harrow and 12,109 in Edgwarebury. Burnt Oak and Canons Park are recorded suburban areas in the same HA8 postcode district. Tutors in India teach AI, programming, Python, vibe coding and maths here over live video to anyone aged six to 67, one-to-one or in groups of fifteen to twenty at a shared level. Reasoning comes before tools, so a learner can ask where a model\'s answers came from. Lesson one is free and ends with a course suggestion. The Edgware project trains models on 1,801 Census areas, deliberately spoils some of the training answers, and measures which models cope. Ongoing lessons are USD 100 a month in a group or USD 150 a month privately.',
   lead: 'A machine learning model learns from examples that come with answers attached, called labels. In real projects some of those labels are wrong: a tired annotator, a typo, an out-of-date record. This is label noise, and it is everywhere. Two questions matter. Does a little noise ruin a model, and does it matter whether the mistakes are random or all lean the same way? This project answers both with real data: Census output areas across Barnet and Harrow, the two boroughs Edgware sits in, where the model must say whether most households in an area live in purpose-built flats.',
   wa: 'Hello Modern Age Coders, could we book a free AI or programming lesson for a learner in Edgware?',
 
@@ -158,7 +158,7 @@ module.exports = {
       { h3: 'Pupil writes, tutor questions', p: 'The learner types and runs each step; on the shared screen the tutor keeps asking where a result came from.' },
       { h3: 'First topic from the trial', p: 'The free lesson tells us what is already known; we also note the exam board.' },
       { h3: 'Trial without charge', p: 'Lesson one is free and ends with a course suggestion.' },
-      { h3: 'Small classes, one level', p: 'Five to ten learners from around the UK who are at the same stage.' },
+      { h3: 'Small classes, one level', p: 'Fifteen to twenty learners from around the UK who are at the same stage.' },
       { h3: 'Two sessions weekly', p: 'Not during school holidays.' },
       { h3: 'No drifting timetable', p: 'UK clock changes are handled by our tutors, so your slot stays where it is.' }
     ],

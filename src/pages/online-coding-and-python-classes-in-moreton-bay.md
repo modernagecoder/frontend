@@ -16,7 +16,7 @@ Moreton Bay, north of Brisbane, Queensland / Live online
 
 Translink publishes its whole south east Queensland timetable as open data: every trip, every stop, every scheduled time. Inside the Moreton Bay council boundary that comes to 1,347 stops and 137,865 timetabled stop times in the current feed, from Kippa-Ring and Petrie stations to the buses of Bribie Island. Load them into Python as dictionaries and they take 38.6 megabytes. Load the same values into a class that declares its fields with __slots__ and they take 13.3. Nothing about the timetable changed, only the containers holding it. Our Moreton Bay learners find out where memory goes in a Python program and how to stop wasting it.
 
-Facts last verified 10 October 2026. Teaching is online; no Moreton Bay branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Moreton Bay branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python paths for Moreton Bay learners
 
@@ -172,7 +172,7 @@ A live lesson online is equally close to every part of Moreton Bay.
 - **Queensland time only** Lesson times are written in Moreton Bay time and stay put all year.
 - **Queensland year levels** Teachers plan to Queensland year levels, including QCE seniors, and teach in English.
 - **Write code on day one** The trial lesson is genuine programming with a teacher; we then suggest a course and time, and no payment details are taken.
-- **Five to ten per group** Learners share a level, drawn from different places so every stage has a usable slot.
+- **Fifteen to twenty per group** Learners share a level, drawn from different places so every stage has a usable slot.
 - **Two lessons each week** About eight a month, with holidays and exam periods planned ahead.
 - **Evening slots for workers** Adults commuting into Brisbane can join later groups or book one-to-one lessons.
 
@@ -183,7 +183,7 @@ A live lesson online is equally close to every part of Moreton Bay.
 Three options, stated plainly.
 
 - First class: USD 0. One free lesson that ends with our suggested level, course and time.
-- Group tuition: USD 100 a month. About eight group lessons a month, with five to ten learners at your level.
+- Group tuition: USD 100 a month. About eight group lessons a month, with fifteen to twenty learners at your level.
 - Private tuition: USD 150 a month. About eight one-to-one lessons a month with the same teacher.
 
 Moreton Bay families pay the same US dollar fee as families anywhere else in Australia. Nothing is charged before the trial settles a course and time, and the pricing page explains holidays, missed lessons and changing format.
@@ -224,7 +224,7 @@ No, and we do not claim one. Teaching is live and online only, with no premises 
 
 ### What do online Python classes in Moreton Bay cost?
 
-The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
+The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
 
 ### How large are the groups?
 

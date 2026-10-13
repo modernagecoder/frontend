@@ -64,7 +64,7 @@ module.exports = {
 
   h1: 'Coding classes in Swansea',
   capsuleQ: 'What are the best coding classes in Swansea?',
-  capsule: 'The 2021 census recorded 238,490 usual residents in Swansea, and 22.8% of those aged five and over were in school or full-time study, against 19.9% across Wales. Swansea University says the finite element method, which changed how manufactured products are designed, was developed there in the 1960s by Professor Olek Zienkiewicz. Learners in Swansea, from age six to sixty-seven, join our live online lessons one to one or in a level-matched group of five to ten, taught from India at UK-friendly times. We charge nothing for the first lesson; from then on a group place is USD 100 a month and private teaching USD 150 a month.',
+  capsule: 'The 2021 census recorded 238,490 usual residents in Swansea, and 22.8% of those aged five and over were in school or full-time study, against 19.9% across Wales. Swansea University says the finite element method, which changed how manufactured products are designed, was developed there in the 1960s by Professor Olek Zienkiewicz. Learners in Swansea, from age six to sixty-seven, join our live online lessons one to one or in a level-matched group of fifteen to twenty, taught from India at UK-friendly times. We charge nothing for the first lesson; from then on a group place is USD 100 a month and private teaching USD 150 a month.',
   lead: 'A monitor beside the A483 Carmarthen Road has measured nitrogen dioxide every hour for years. Suppose a program has to spot, as soon as possible, when the usual level shifts. Checking each day on its own fails: in 2019 and 2020 not a single day fell far enough below normal to trip a two-standard-deviation alarm. A CUSUM detector instead adds up small shortfalls until the evidence is strong, and in spring 2020 it fired on 17 March, six days before the stay-at-home instruction of 23 March. Set it more cautiously and it stays silent until July; set it more eagerly and it raises ten false alarms in an ordinary year. Our teenagers tune it, and learn that a detector reports when a level changed, never why.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Swansea.',
 
@@ -100,7 +100,7 @@ module.exports = {
           { h3: 'The early twenties', p: 'People aged 20 to 24 made up 8.0% of residents against 6.0% in Wales, while the late twenties matched the Welsh share at 6.0%.' },
           { h3: 'City and country', p: 'At 631.5 residents per square kilometre, the council area mixes a dense city with Gower and the northern valleys, so it is far less crowded than its centre.' }
         ] },
-        { kind: 'p', text: 'We teach Swansea learners at every stage. A Year 4 pupil in Sketty might be animating a first sprite, a Year 11 student in Morriston preparing for WJEC GCSE Computer Science, and an adult in the Uplands learning Python to automate work reports, each in a group of five to ten at the same level.' }
+        { kind: 'p', text: 'We teach Swansea learners at every stage. A Year 4 pupil in Sketty might be animating a first sprite, a Year 11 student in Morriston preparing for WJEC GCSE Computer Science, and an adult in the Uplands learning Python to automate work reports, each in a group of fifteen to twenty at the same level.' }
       ]
     },
     {
@@ -190,7 +190,7 @@ module.exports = {
       { h3: 'Gower to the valleys', p: 'A learner in Mumbles and another in Clydach can sit in the same lesson without either making the trip into town.' },
       { h3: 'Welsh school years', p: 'Years 1 to 13, the Curriculum for Wales and WJEC GCSEs and A levels, named as Swansea schools name them. Lessons are taught in English.' },
       { h3: 'A free lesson worth having', p: 'The first session works through a real task and ends with a suggested level, course and weekly time. Booking asks for no card.' },
-      { h3: 'Level first, not postcode', p: 'Groups of five to ten learners at one stage, from Swansea, elsewhere in the UK and overseas, so every level has a suitable time.' },
+      { h3: 'Level first, not postcode', p: 'Groups of fifteen to twenty learners at one stage, from Swansea, elsewhere in the UK and overseas, so every level has a suitable time.' },
       { h3: 'A twice-weekly routine', p: 'Two regular lessons each week, about eight a month, with holidays and exam periods agreed with the teacher beforehand.' },
       { h3: 'How the clocks line up', p: 'Because Indian time never changes, India sits four and a half hours ahead of Swansea during British Summer Time and five and a half ahead in winter, which fits UK after-school and evening lessons into the teaching day.' }
     ],
@@ -201,7 +201,7 @@ module.exports = {
     h2: 'Swansea lesson fees',
     intro: 'Your first lesson is free, then there is one monthly fee.',
     first: 'A whole lesson at no cost, finishing with a recommended level, course and weekly slot.',
-    group: 'Roughly eight live lessons a month, alongside five to ten learners at the same level.',
+    group: 'Roughly eight live lessons a month, alongside fifteen to twenty learners at the same level.',
     private: 'Roughly eight live lessons a month, with the teacher\'s attention on your learner alone.',
     closer: 'We charge every family outside India the same fee in US dollars, whether they live in Townhill or Killay, and we publish nothing in pounds. Payment starts only after the free lesson has agreed a course and a time; the pricing page sets out pauses, missed lessons and moves between group and one-to-one teaching.'
   },
@@ -226,8 +226,8 @@ module.exports = {
       { q: 'What did Swansea University contribute to computing?', a: 'The University says Professor Olek Zienkiewicz developed the finite element method there in the 1960s, a technique that revolutionised how manufactured products are designed and engineered. We are not connected with the University.' },
       { q: 'At what times do Swansea lessons run?', a: 'On weekday afternoons and evenings or at weekends, at a UK time chosen in the free lesson. India is four and a half hours ahead of Swansea in summer and five and a half hours ahead in winter.' },
       { q: 'Is there a Modern Age Coders centre in Swansea?', a: 'No. We have no Swansea centre and no premises anywhere in the UK; every lesson happens live online. A learner needs a computer with sound and a reliable connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much do Swansea lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
-      { q: 'How are Swansea groups formed?', a: 'By level, pace and goals rather than age or postcode, with five to ten learners at one stage. When no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much do Swansea lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
+      { q: 'How are Swansea groups formed?', a: 'By level, pace and goals rather than age or postcode, with fifteen to twenty learners at one stage. When no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

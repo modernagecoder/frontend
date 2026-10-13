@@ -16,7 +16,7 @@ Scarborough, City of Stirling, Western Australia / Live online
 
 A short survey of Scarborough's 73 bus stop records goes well for ten lines. The script counts each kind of stop sign and remembers the biggest count in a variable called max. Ten lines later it asks Python's built-in max() for the longest stop name, and crashes.
 
-Facts last verified 13 October 2026. Teaching is online; no Scarborough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Scarborough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that build tidy Python habits
 
@@ -185,7 +185,7 @@ Lessons are given over video, so learners log in from home.
 - **Debugging together** When code breaks, teacher and learner read the traceback side by side.
 - **Term planning** Classes follow the WA school calendar, with holidays off.
 - **Free first lesson** An opening class at no charge, with a written suggestion afterwards.
-- **Matched groups** Five to ten learners of similar level, or private lessons.
+- **Matched groups** Fifteen to twenty learners of similar level, or private lessons.
 - **Twice a week** Consistent weekly times, near eight lessons a month.
 - **India time** Our teachers are in India, so a 7:30pm Scarborough lesson starts at 5pm India time.
 
@@ -196,7 +196,7 @@ Lessons are given over video, so learners log in from home.
 Three straightforward prices.
 
 - First class: USD 0. The first lesson costs nothing and finishes with advice in writing.
-- Group tuition: USD 100 a month. Close to eight group lessons a month with five to ten learners.
+- Group tuition: USD 100 a month. Close to eight group lessons a month with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Close to eight one-to-one lessons a month.
 
 Scarborough families pay in US dollars, after the trial and only when course and time are agreed. Holidays, missed lessons and format changes are on the pricing page.
@@ -233,11 +233,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Scarborough learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Do Scarborough groups learn Copilot Studio?
 

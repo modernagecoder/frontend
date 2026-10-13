@@ -70,7 +70,7 @@ module.exports = {
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
-  capsule: 'Full stack means being able to follow a request from a button in a browser to a row in a database and back. It is taught here as one continuous thing rather than two disconnected courses, on real projects, with version control and deployment from early on. Irish demand is real but not uniform: SOLAS lists software developers among its shortages and names full stack among difficult-to-fill roles, while CSO vacancy figures for the sector have fallen over the past year. We teach the skills and are honest about the market. Classes are live, in groups of five to ten or one to one; the first is free, then USD 100 a month in a group or USD 150 a month one to one.',
+  capsule: 'Full stack means being able to follow a request from a button in a browser to a row in a database and back. It is taught here as one continuous thing rather than two disconnected courses, on real projects, with version control and deployment from early on. Irish demand is real but not uniform: SOLAS lists software developers among its shortages and names full stack among difficult-to-fill roles, while CSO vacancy figures for the sector have fallen over the past year. We teach the skills and are honest about the market. Classes are live, in groups of fifteen to twenty or one to one; the first is free, then USD 100 a month in a group or USD 150 a month one to one.',
 
   picks: {
     eyebrow: 'Start here',
@@ -218,7 +218,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'You build something small end to end and get a view of which rung to start on.' },
-      { h3: 'Five to ten per group', p: 'Learners at one level, reviewing each other\'s code as teams do.' },
+      { h3: 'Fifteen to twenty per group', p: 'Learners at one level, reviewing each other\'s code as teams do.' },
       { h3: 'One to one', p: 'For a specific project, a job move or an awkward schedule.' },
       { h3: 'Git from week one', p: 'Every project is versioned from the start, because that is how the work is actually done.' },
       { h3: 'Deployed, not just local', p: 'Projects go online where somebody else can use them, which is where the real bugs appear.' },
@@ -234,7 +234,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A single monthly price in US dollars, the same in every country outside India, covering any course on this page. Nothing to pay upfront, no contract for the year, and you can stop when a project is finished.',
     free: ['Something small built end to end', 'A clear view of the right rung', 'No card required'],
-    group: ['Five to ten learners at one level', 'One teacher for the course', 'Code reviewed every week', 'A certificate on completion'],
+    group: ['Fifteen to twenty learners at one level', 'One teacher for the course', 'Code reviewed every week', 'A certificate on completion'],
     one: ['A teacher to yourself', 'Built around your own project', 'Good for career changers in a hurry']
   },
 

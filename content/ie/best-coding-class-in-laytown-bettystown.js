@@ -176,7 +176,7 @@ module.exports = {
     intro: 'The practical details.',
     cells: [
       { h3: 'Taught live', p: 'The teacher is present for the whole lesson and works from what the learner is building.' },
-      { h3: 'Grouped by level', p: 'Five to ten learners at the same point, from this coast, the rest of Ireland and abroad.' },
+      { h3: 'Grouped by level', p: 'Fifteen to twenty learners at the same point, from this coast, the rest of Ireland and abroad.' },
       { h3: 'Two lessons most weeks', p: 'Roughly eight a month, at an hour settled when the course starts.' },
       { h3: 'Around school', p: 'Holidays, mid-terms and exam weeks are allowed for in the plan.' },
       { h3: 'Needed at home', p: 'A proper computer, since a phone is too small to code on, working audio both ways, and internet steady enough for video.' },
@@ -189,7 +189,7 @@ module.exports = {
     h2: 'Fees for Laytown and Bettystown',
     intro: 'The complete price list.',
     first: 'A first lesson taught in full and assessed, free of charge.',
-    group: 'A month in a group of five to ten at one level, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, about eight live lessons.',
     private: 'A month of private lessons at the same weekly frequency.',
     closer: 'Everyone outside India is charged the same amount each month in US dollars, with no euro figure alongside. The order never changes: free lesson, then a plan, then the first monthly charge, and the pricing page has a rule for holidays, missed lessons and a change of format.'
   },
@@ -214,7 +214,7 @@ module.exports = {
       { q: 'Can adults join?', a: 'Yes, up to sixty-seven, many from no experience at all. The first lesson decides whether an adult learns in a matched group or with a private teacher.' },
       { q: 'Does it matter which of the four names we book under?', a: 'No. Laytown, Bettystown, Mornington and Donacarney all reach the same teaching, and the lessons are online wherever the learner is.' },
       { q: 'Is there a Modern Age Coders classroom in Laytown or Bettystown?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Laytown and Bettystown cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Laytown and Bettystown cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

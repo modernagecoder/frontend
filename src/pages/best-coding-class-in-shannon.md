@@ -16,7 +16,7 @@ Shannon, County Clare / Live online
 
 Between the first three months of 2026 and the next three, the number of passengers handled at Shannon Airport rose from 427,655 to 728,654, a jump of 70.4 percent. The Central Statistics Office, starting from the same counts, puts the rise at 6.6 percent. Both figures are correct. The first sets a winter quarter against a spring one; the second removes the swing that comes round every year before comparing. The airport fills each spring and summer and thins out each autumn, and a learner who can separate that rhythm from real change can read any monthly figure, from shop sales to website visits, without being misled. This page does the separation by hand, then checks the result against the official one.
 
-Facts last verified 19 September 2026. Teaching is online; no Shannon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Shannon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four places to begin in Shannon
 
@@ -183,7 +183,7 @@ Working out a percentage change takes one line of code. Knowing whether the seas
 The practical side.
 
 - **Taught as it happens** No recordings stand in for the teacher, who talks each learner through their own code while the lesson is on.
-- **Matched groups** A group holds five to ten learners at one stage, drawn from Shannon, the rest of Ireland and further away.
+- **Matched groups** A group holds fifteen to twenty learners at one stage, drawn from Shannon, the rest of Ireland and further away.
 - **Two sessions weekly** About eight lessons in a month, at times fixed when the course begins.
 - **Around term dates** Holiday breaks, mid-terms and exam periods go into the course plan at the outset.
 - **What to have ready** A laptop or desktop computer, a microphone and headphones or speakers, and broadband that holds a video call.
@@ -196,7 +196,7 @@ The practical side.
 The whole list.
 
 - First class: USD 0. The first lesson, level check included, at no cost.
-- Group tuition: USD 100 a month. One month in a same-stage group of five to ten, roughly eight live lessons.
+- Group tuition: USD 100 a month. One month in a same-stage group of fifteen to twenty, roughly eight live lessons.
 - Private tuition: USD 150 a month. One month of private lessons at the same rhythm.
 
 Outside India the fee is the same in US dollars wherever a family lives. The free lesson carries no obligation, billing begins with the course itself, and holidays, missed lessons and switching between a group and private teaching are all covered on the pricing page.
@@ -237,7 +237,7 @@ No. Every lesson is live on video and we have no premises in Ireland. A learner 
 
 ### What do coding classes in Shannon cost?
 
-The first lesson is free. A group place is USD 100 a month for about eight live lessons, two a week, with five to ten learners; private lessons on the same pattern are USD 150 a month. Nothing is charged until the arrangement is agreed.
+The first lesson is free. A group place is USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners; private lessons on the same pattern are USD 150 a month. Nothing is charged until the arrangement is agreed.
 
 ### How big are the groups?
 

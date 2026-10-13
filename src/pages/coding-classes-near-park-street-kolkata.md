@@ -12,11 +12,11 @@ PARK STREET · CENTRAL KOLKATA · LIVE ONLINE
 
 Modern Age Coders runs premium, live online coding and mathematics classes for families near Park Street, Kolkata, the heritage corridor of St. Xavier's, Loreto House, La Martiniere and St. James'. Every class is a small live batch taught in real time by full-time engineers and maths graduates, never a pre-recorded video. We cover ICSE Java (BlueJ), Python, AI/ML and school maths, with a free demo before you commit.
 
-Small live batches (max 6-8)Taught by full-time engineersICSE Java · Python · AI/ML · MathsFree demo, no commitment[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)10,000+Students taught online4.9/5Parent ratingMax 8True small batchFreeFirst demo classAT A GLANCE
+Small live batches (max 20)Taught by full-time engineersICSE Java · Python · AI/ML · MathsFree demo, no commitment[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)10,000+Students taught online4.9/5Parent ratingMax 8True small batchFreeFirst demo classAT A GLANCE
 
 ## The essentials, in one glance
 
-Format**100% live online**, real-time, interactive, never pre-recorded videoBatch sizeGroup (max 6-8), Mini Batch (3-4), or 1-on-1AgesGrades 1-12, college students and working adults (ages 6-67)SubjectsCoding (Python, Java, AI/ML, web, DSA) and Mathematics (school + Olympiad)BoardsICSE/ISC Java (BlueJ), CBSE Computer Science (Python), IGCSEFees**₹1,499/month** group · ₹2,999/month mini batch · ₹4,999/month 1-on-1Free demoYes, one free live class before you enrol, no commitmentServingPark Street, Camac Street, Russell Street, Theatre Road, Loudon Street, Wood Street, Chowringhee, Elgin Road, AJC Bose Road and across central KolkataLIVE ONLINE · PARK STREET, KOLKATA
+Format**100% live online**, real-time, interactive, never pre-recorded videoBatch sizeGroup (max 20), Mini Batch (up to 6), or 1-on-1AgesGrades 1-12, college students and working adults (ages 6-67)SubjectsCoding (Python, Java, AI/ML, web, DSA) and Mathematics (school + Olympiad)BoardsICSE/ISC Java (BlueJ), CBSE Computer Science (Python), IGCSEFees**₹1,499/month** group · ₹2,999/month mini batch · ₹4,999/month 1-on-1Free demoYes, one free live class before you enrol, no commitmentServingPark Street, Camac Street, Russell Street, Theatre Road, Loudon Street, Wood Street, Chowringhee, Elgin Road, AJC Bose Road and across central KolkataLIVE ONLINE · PARK STREET, KOLKATA
 
 ## What “premium and live” actually means
 
@@ -28,7 +28,7 @@ Every session is taught live by a real instructor at a scheduled time, on camera
 
 ### Genuinely small batches
 
-We cap group batches at six to eight students, run mini batches of three to four, and offer true 1-on-1. This is the small-batch, tutorial-style attention central-Kolkata parents grew up expecting, close enough that the teacher tracks each student's pace and pushes the quick ones further.
+We cap group batches at twenty students, run mini batches of up to six, and offer true 1-on-1. This is the small-batch, tutorial-style attention central-Kolkata parents grew up expecting, close enough that the teacher tracks each student's pace and pushes the quick ones further.
 
 ### Taught by engineers and maths graduates
 
@@ -169,7 +169,7 @@ ONLINE vs OFFLINE
 
 - Saves the 40-60 minute one-way crawl through Park Street and Theatre Road traffic, roughly 90 minutes reclaimed every class day.
 - No auto-changing at busy crossings or parking scramble near Park Mansions and Chowringhee.
-- Genuinely small live batches (max 6-8) with a real engineer answering in real time.
+- Genuinely small live batches (max 20) with a real engineer answering in real time.
 - Your child learns in a calm, familiar room at home, not a tired centre after a long school day.
 - Easy access to the full catalogue, Python, Java, AI/ML, DSA and maths, without depending on a nearby centre's limited menu.
 - Recordings of your own live class for revision, plus instant screen-sharing for debugging.

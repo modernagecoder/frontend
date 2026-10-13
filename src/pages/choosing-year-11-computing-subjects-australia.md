@@ -170,7 +170,7 @@ Our tutors are based in India. Sydney and Melbourne sit five and a half hours ah
 - **Programs, not slides** Students write and run code in every lesson.
 - **Any state** We prepare students for whichever course their school offers.
 - **No ATAR talk** Choices are about interests; ranks are left to the admissions centres.
-- **Groups of five to ten** Students at one level, each sharing their work.
+- **Groups of fifteen to twenty** Students at one level, each sharing their work.
 - **One-to-one option** Private lessons for a student with a specific aim.
 - **Honest throughout** We promise effort and clarity, never results.
 
@@ -179,7 +179,7 @@ Our tutors are based in India. Sydney and Melbourne sit five and a half hours ah
 Billed monthly in US dollars, at one rate for every family outside India. Free to join, and you only pay for the current month.
 
 - Free first class: USD 0. A real programming lesson. An honest chat about options. No card required.
-- Group batch: USD 100 a month. Five to ten students at one level. The same tutor each week. Code reviewed together. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same tutor each week. Code reviewed together. A certificate at the end.
 - One to one: USD 150 a month. A personal tutor. Shaped around your goals. Flexible timing.
 
 ## What Year 10 families ask us

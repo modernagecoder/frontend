@@ -4,7 +4,7 @@ description: "Live online vibe coding, AI agents and Python lessons for Llandaff
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-llandaff-cardiff
 source: src/pages/vibe-coding-and-ai-agents-classes-in-llandaff-cardiff.html
 ---
-> Llandaff ward in Cardiff counted 8,776 usual residents at the 2021 census, and the separate Llandaff North ward 8,425, on Nomis figures for 2022 ward boundaries. Both names are also recorded as suburban areas of the city. From age six to 67, learners here study vibe coding, AI agents, Python, coding and maths in live video lessons with tutors who teach from India, in a private slot or a class of five to ten at one stage. We teach reasoning about what a program can and cannot know before any tool, so learners can judge what an agent is working from. The opening lesson is free and ends with a suggested course. The Llandaff project asks what an agent standing in the street can see past the buildings, then where a team of agents should stand to see the most. Afterwards a class place costs USD 100 a month and private lessons USD 150 a month.
+> Llandaff ward in Cardiff counted 8,776 usual residents at the 2021 census, and the separate Llandaff North ward 8,425, on Nomis figures for 2022 ward boundaries. Both names are also recorded as suburban areas of the city. From age six to 67, learners here study vibe coding, AI agents, Python, coding and maths in live video lessons with tutors who teach from India, in a private slot or a class of fifteen to twenty at one stage. We teach reasoning about what a program can and cannot know before any tool, so learners can judge what an agent is working from. The opening lesson is free and ends with a suggested course. The Llandaff project asks what an agent standing in the street can see past the buildings, then where a team of agents should stand to see the most. Afterwards a class place costs USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Cardiff](/best-coding-class-in-cardiff) / Llandaff
 
@@ -12,11 +12,11 @@ Llandaff, Cardiff, Wales / Live online
 
 # Vibe coding and AI agents classes in Llandaff, Cardiff
 
-**Where can Llandaff learners find the best vibe coding and AI agents classes?** Llandaff ward in Cardiff counted 8,776 usual residents at the 2021 census, and the separate Llandaff North ward 8,425, on Nomis figures for 2022 ward boundaries. Both names are also recorded as suburban areas of the city. From age six to 67, learners here study vibe coding, AI agents, Python, coding and maths in live video lessons with tutors who teach from India, in a private slot or a class of five to ten at one stage. We teach reasoning about what a program can and cannot know before any tool, so learners can judge what an agent is working from. The opening lesson is free and ends with a suggested course. The Llandaff project asks what an agent standing in the street can see past the buildings, then where a team of agents should stand to see the most. Afterwards a class place costs USD 100 a month and private lessons USD 150 a month.
+**Where can Llandaff learners find the best vibe coding and AI agents classes?** Llandaff ward in Cardiff counted 8,776 usual residents at the 2021 census, and the separate Llandaff North ward 8,425, on Nomis figures for 2022 ward boundaries. Both names are also recorded as suburban areas of the city. From age six to 67, learners here study vibe coding, AI agents, Python, coding and maths in live video lessons with tutors who teach from India, in a private slot or a class of fifteen to twenty at one stage. We teach reasoning about what a program can and cannot know before any tool, so learners can judge what an agent is working from. The opening lesson is free and ends with a suggested course. The Llandaff project asks what an agent standing in the street can see past the buildings, then where a team of agents should stand to see the most. Afterwards a class place costs USD 100 a month and private lessons USD 150 a month.
 
 A robot, a drone or a camera only knows about the part of the world it can see, and buildings get in the way. The patch visible from one spot has a name borrowed from architecture: an isovist. Working it out is a matter of geometry, drawing straight lines from the observer and checking whether any wall crosses them. Once a program can do that for one position, a harder question opens up: given only a few agents, where should they stand so that together they see as much as possible? This project answers both for the streets of Llandaff, using the buildings mapped on OpenStreetMap as the walls.
 
-Facts last verified 30 September 2026. Teaching is online; no Llandaff branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Llandaff branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Llandaff courses in thinking, vibe coding and agents
 
@@ -132,7 +132,7 @@ One computer with a camera and a connection that streams video is the full equip
 - **Learner-built** The student writes and runs every line. The tutor follows on a shared screen and asks what the program can and cannot see.
 - **Trial first** A free session shows what the learner already knows, and any WJEC course goes on the plan.
 - **No charge to start** The first lesson is free and closes with a course we would suggest.
-- **Classes at one level** Groups hold five to ten learners from around Britain, matched by stage.
+- **Classes at one level** Groups hold fifteen to twenty learners from around Britain, matched by stage.
 - **Twice a week** School holidays are left clear.
 - **Unmoving hour** UK clock changes are handled on the tutor's side.
 

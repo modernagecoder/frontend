@@ -4,7 +4,7 @@ description: "Online AI, programming, Python and vibe coding classes for learner
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-grimsby
 source: src/pages/ai-and-programming-classes-in-grimsby.html
 ---
-> North East Lincolnshire had 156,966 residents at the 2021 census. The ONS puts the Grimsby built-up area at 85,925 and Cleethorpes at 29,670, with Humberston and New Waltham, Immingham and Waltham next. Older working-age and retired people make up more of the population than across England, and people in their early twenties less. Children, teenagers and adults up to 67, in Grimsby, Cleethorpes or Immingham, can learn AI, programming, Python, vibe coding and maths through live video lessons with our tutors in India, taught individually or in groups of five to ten at a common level. Reasoning comes first in every course, so AI stays a tool rather than a crutch. Your first lesson costs nothing; then it is USD 100 per month for a group or USD 150 per month for private teaching.
+> North East Lincolnshire had 156,966 residents at the 2021 census. The ONS puts the Grimsby built-up area at 85,925 and Cleethorpes at 29,670, with Humberston and New Waltham, Immingham and Waltham next. Older working-age and retired people make up more of the population than across England, and people in their early twenties less. Children, teenagers and adults up to 67, in Grimsby, Cleethorpes or Immingham, can learn AI, programming, Python, vibe coding and maths through live video lessons with our tutors in India, taught individually or in groups of fifteen to twenty at a common level. Reasoning comes first in every course, so AI stays a tool rather than a crutch. Your first lesson costs nothing; then it is USD 100 per month for a group or USD 150 per month for private teaching.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber) / Grimsby
 
@@ -12,11 +12,11 @@ Grimsby, North East Lincolnshire, England / Live online
 
 # AI and programming classes in Grimsby
 
-**Which are the best AI and programming classes in Grimsby?** North East Lincolnshire had 156,966 residents at the 2021 census. The ONS puts the Grimsby built-up area at 85,925 and Cleethorpes at 29,670, with Humberston and New Waltham, Immingham and Waltham next. Older working-age and retired people make up more of the population than across England, and people in their early twenties less. Children, teenagers and adults up to 67, in Grimsby, Cleethorpes or Immingham, can learn AI, programming, Python, vibe coding and maths through live video lessons with our tutors in India, taught individually or in groups of five to ten at a common level. Reasoning comes first in every course, so AI stays a tool rather than a crutch. Your first lesson costs nothing; then it is USD 100 per month for a group or USD 150 per month for private teaching.
+**Which are the best AI and programming classes in Grimsby?** North East Lincolnshire had 156,966 residents at the 2021 census. The ONS puts the Grimsby built-up area at 85,925 and Cleethorpes at 29,670, with Humberston and New Waltham, Immingham and Waltham next. Older working-age and retired people make up more of the population than across England, and people in their early twenties less. Children, teenagers and adults up to 67, in Grimsby, Cleethorpes or Immingham, can learn AI, programming, Python, vibe coding and maths through live video lessons with our tutors in India, taught individually or in groups of fifteen to twenty at a common level. Reasoning comes first in every course, so AI stays a tool rather than a crutch. Your first lesson costs nothing; then it is USD 100 per month for a group or USD 150 per month for private teaching.
 
 Modern AI systems are hungry for data, and when real data are scarce or private, developers often turn to synthetic data: made-up records generated to look like the real thing. The 2021 census offers a perfect test. For North East Lincolnshire, Nomis publishes how people travel to work and, separately, how far they travel. A Python learner can generate 68,850 synthetic workers, one for every real one, by drawing a travel method from the first table and a distance from the second. The overall shares match the census closely. Then the learner looks at individual records, and finds people walking more than 60 kilometres to work, and others who work from home while commuting across town.
 
-Facts last verified 28 September 2026. Teaching is online; no Grimsby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 28 September 2026. Teaching is online; no Grimsby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Thinking, vibe coding and AI courses for Grimsby
 
@@ -138,7 +138,7 @@ One computer and a solid internet connection are enough for any home in the boro
 - **Hands on, always** The learner does the typing, prompting and testing; the tutor watches through screen share and replies with questions.
 - **Pitched by the trial** The free lesson, rather than the year group alone, decides the first topic for a Year 5 or Year 12 learner.
 - **No cost to begin** The trial is a full lesson and ends with a plain recommendation.
-- **Five to ten per group** UK learners grouped by stage, not age alone.
+- **Fifteen to twenty per group** UK learners grouped by stage, not age alone.
 - **Twice weekly** Holidays are left free.
 - **Stable lesson time** We absorb the UK clock changes on our side.
 

@@ -16,7 +16,7 @@ City of Melville, south of the Swan River, Western Australia / Live online
 
 The City of Melville spreads along the southern shore of the Swan River, crossed by Leach Highway, Canning Highway and the Kwinana Freeway. Main Roads lists 79 traffic count sites in the council. They make a compact, real test set for a question every model builder meets: should the model be allowed any shape it likes?
 
-Facts last verified 12 October 2026. Teaching is online; no Melville branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Melville branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Machine learning and Python
 
@@ -175,7 +175,7 @@ Every class takes place live over video, so learners join from home on either si
 - **Live teacher** Lessons are taught in real time with code checked as it is written.
 - **School terms** Classes match WA terms and pause during holidays.
 - **Free trial** Start with a free lesson and a short written plan.
-- **Group sizes** Groups of five to ten at one level, or private lessons.
+- **Group sizes** Groups of fifteen to twenty at one level, or private lessons.
 - **Schedule** Two lessons a week, about eight a month.
 - **India timing** A 6:30pm Melville lesson begins at 4pm in India.
 
@@ -186,7 +186,7 @@ Every class takes place live over video, so learners join from home on either si
 Fees are the same for all learners.
 
 - First class: USD 0. Lesson one is free, with a plan afterwards.
-- Group tuition: USD 100 a month. Group classes: about eight lessons monthly with five to ten learners.
+- Group tuition: USD 100 a month. Group classes: about eight lessons monthly with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private classes: about eight lessons monthly with one teacher.
 
 Fees are in US dollars and start only after the trial has agreed the course and a weekly time. Holiday and missed-lesson rules are on the pricing page.
@@ -223,11 +223,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Melville classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### What are the groups like?
 
-Five to ten learners matched by level and pace, not by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners matched by level and pace, not by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Can adults study AI with you?
 

@@ -52,7 +52,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Modern Age Coders teaches coding live online to students at universities and hogescholen in the Netherlands. The focus is on the skills an AI assistant cannot supply: data structures and algorithms, debugging and reading code, Git and team workflows, and projects that stand up in an interview, alongside software, data science and AI tracks for students heading into those fields. Students are placed by ability, in groups of five to ten or one to one, and lessons fit around lectures and exams. Your opening lesson costs nothing; from then on a seat in a group runs at USD 100 a month, and private tuition at USD 150.',
+  capsule: 'Modern Age Coders teaches coding live online to students at universities and hogescholen in the Netherlands. The focus is on the skills an AI assistant cannot supply: data structures and algorithms, debugging and reading code, Git and team workflows, and projects that stand up in an interview, alongside software, data science and AI tracks for students heading into those fields. Students are placed by ability, in groups of fifteen to twenty or one to one, and lessons fit around lectures and exams. Your opening lesson costs nothing; from then on a seat in a group runs at USD 100 a month, and private tuition at USD 150.',
 
   picks: {
     eyebrow: 'Start here',
@@ -192,7 +192,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first lesson', p: 'You solve a real problem while the teacher watches your approach. That shows where to start better than your year of study does.' },
-      { h3: 'Groups of five to ten', p: 'Students from several countries at the same level, a useful rehearsal for the international teams many graduates join.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Students from several countries at the same level, a useful rehearsal for the international teams many graduates join.' },
       { h3: 'One to one for thesis work', p: 'For a thesis with a technical part, a specific project, an interview deadline, or a timetable that changes every block.' },
       { h3: 'Pause for exams', p: 'Lessons can pause during exam weeks and resume afterwards without losing your place.' },
       { h3: 'In English', p: 'The language of programming, of most Dutch master\'s programmes in technical fields, and of the tech industry here.' },
@@ -208,7 +208,7 @@ module.exports = {
     h2: 'What it costs a student',
     lede: 'Monthly, in US dollars, at the same rates as every country outside India. Students here pay the international rate like everyone else, with no registration charge and no annual commitment. Copilot Studio is taught privately, so it carries the private rate.',
     free: ['A real lesson, not a sales call', 'Places you on the right rung', 'No card or bank details'],
-    group: ['Five to ten students at one level', 'The same live teacher each week', 'Code reviewed every week', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same live teacher each week', 'Code reviewed every week', 'A certificate at the end'],
     one: ['A teacher for you alone', 'Pace set by your project or deadline', 'The only format for Copilot Studio']
   },
 

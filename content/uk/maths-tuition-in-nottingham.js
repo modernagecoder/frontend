@@ -40,7 +40,7 @@ module.exports = {
   twitterDescription: 'Nottingham maths, taught live online: does a sunny month really run warmer? Forty years of Met Office records say it depends on the month.',
   pageName: 'Maths Tuition in Nottingham',
   webPageDescription: 'Live online maths tuition for Nottingham learners aged 6 to 67: Key Stage 2 and the Year 6 tests, Key Stage 3, GCSE at Foundation or Higher tier, A level and Further Maths, and adult maths including Functional Skills, with a statistics project on Met Office records from Sutton Bonington.',
-  courseDescription: 'Live online maths for Nottingham learners at every stage, in groups of five to ten at one level or one to one, matched to the national curriculum and the learner\'s exam board.',
+  courseDescription: 'Live online maths for Nottingham learners at every stage, in groups of fifteen to twenty at one level or one to one, matched to the national curriculum and the learner\'s exam board.',
   crumbs: [{ name: 'Courses', href: '/courses' }, { name: 'Coding classes in the UK', href: '/coding-classes-in-united-kingdom' }],
   crumbLabel: 'Maths tuition in Nottingham',
   navLinks: [
@@ -62,12 +62,12 @@ module.exports = {
     ['Secondary', 'KS3, then GCSE on AQA, Edexcel or OCR'],
     ['Sixth form', 'A level Maths, Further Maths'],
     ['Adults', 'Functional Skills, GCSE resits, refreshers'],
-    ['Format', 'Live video, 5 to 10 per group, or one to one'],
+    ['Format', 'Live video, 15 to 20 per group, or one to one'],
     ['Teachers', 'Working from India on UK hours'],
     ['Local project', 'Sunshine against temperature, 1959 to 1999']
   ],
   capsuleQ: 'In short',
-  capsule: 'We are an online maths tutor for Nottingham learners from 6 to 67: KS2 maths and the Year 6 SATs papers, KS3, GCSE at Foundation or Higher tier on AQA, Edexcel or OCR including resits, A level Maths and Further Maths, and adult maths such as Functional Skills and refreshers. Groups of five to ten learners share one level, and private lessons are also available. Our local example uses Met Office records from Sutton Bonington: over 481 months from 1959 to 1999, sunshine and maximum temperature correlate at 0.834, but within November alone the correlation is -0.098, because the season, not the sunshine, drives most of the pattern. The opening lesson costs nothing; then it is USD 100 a month for a group place or USD 150 a month for one to one.',
+  capsule: 'We are an online maths tutor for Nottingham learners from 6 to 67: KS2 maths and the Year 6 SATs papers, KS3, GCSE at Foundation or Higher tier on AQA, Edexcel or OCR including resits, A level Maths and Further Maths, and adult maths such as Functional Skills and refreshers. Groups of fifteen to twenty learners share one level, and private lessons are also available. Our local example uses Met Office records from Sutton Bonington: over 481 months from 1959 to 1999, sunshine and maximum temperature correlate at 0.834, but within November alone the correlation is -0.098, because the season, not the sunshine, drives most of the pattern. The opening lesson costs nothing; then it is USD 100 a month for a group place or USD 150 a month for one to one.',
 
   picks: {
     eyebrow: 'Where Nottingham learners tend to start',
@@ -254,7 +254,7 @@ module.exports = {
     cells: [
       { h3: 'A steady teacher', p: 'One teacher follows a group week after week and remembers each learner\'s habits.' },
       { h3: 'A note after class', p: 'A few lines home on what is secure and what needs another look.' },
-      { h3: 'Matched groups', p: 'Five to ten learners, all working at the same level.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners, all working at the same level.' },
       { h3: 'Local data', p: 'Weather records, census tables and maps alongside exam questions.' },
       { h3: 'Private option', p: 'One to one for a single topic, a looming exam or personal preference.' },
       { h3: 'Understanding first', p: 'Learners explain a method before they practise it.' }
@@ -269,7 +269,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Billed each month in US dollars, at one rate for all countries outside India, with no sign-up fee and no contract.',
     free: ['A full lesson pitched at the right level', 'Our straight assessment afterwards', 'No payment details taken'],
-    group: ['Five to ten learners, one level', 'The same teacher each week', 'Feedback on written work', 'Certificate on completion'],
+    group: ['Fifteen to twenty learners, one level', 'The same teacher each week', 'Feedback on written work', 'Certificate on completion'],
     one: ['One teacher, one learner', 'Focused on the precise gap', 'Useful when an exam is near']
   },
 

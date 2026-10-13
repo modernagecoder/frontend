@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Denbighshire, 
 canonical: https://learn.modernagecoders.com/coding-classes-in-denbighshire
 source: src/pages/coding-classes-in-denbighshire.html
 ---
-> Denbighshire had 95,817 usual residents at the 2021 census. Rhyl is its largest built-up area, followed by Prestatyn, Denbigh and Ruthin, then Rhuddlan, St Asaph and Llangollen, with Dyserth, Meliden and Corwen among the smaller places. Every lesson is live on video with our teachers in India, and the first is free, used to place a Year 2 pupil, a Year 11 student or an adult at the right level. People aged 6 to 67 can learn coding, Python and maths, one-to-one or in a class of five to ten. The Denbighshire project comes from a weir on the Dee at Llantysilio. After the free lesson, group places are USD 100 a month and one-to-one lessons USD 150 a month.
+> Denbighshire had 95,817 usual residents at the 2021 census. Rhyl is its largest built-up area, followed by Prestatyn, Denbigh and Ruthin, then Rhuddlan, St Asaph and Llangollen, with Dyserth, Meliden and Corwen among the smaller places. Every lesson is live on video with our teachers in India, and the first is free, used to place a Year 2 pupil, a Year 11 student or an adult at the right level. People aged 6 to 67 can learn coding, Python and maths, one-to-one or in a class of fifteen to twenty. The Denbighshire project comes from a weir on the Dee at Llantysilio. After the free lesson, group places are USD 100 a month and one-to-one lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Denbighshire
 
@@ -12,11 +12,11 @@ Denbighshire / Live online
 
 # Coding classes in Denbighshire
 
-**What are the best coding classes in Denbighshire?** Denbighshire had 95,817 usual residents at the 2021 census. Rhyl is its largest built-up area, followed by Prestatyn, Denbigh and Ruthin, then Rhuddlan, St Asaph and Llangollen, with Dyserth, Meliden and Corwen among the smaller places. Every lesson is live on video with our teachers in India, and the first is free, used to place a Year 2 pupil, a Year 11 student or an adult at the right level. People aged 6 to 67 can learn coding, Python and maths, one-to-one or in a class of five to ten. The Denbighshire project comes from a weir on the Dee at Llantysilio. After the free lesson, group places are USD 100 a month and one-to-one lessons USD 150 a month.
+**What are the best coding classes in Denbighshire?** Denbighshire had 95,817 usual residents at the 2021 census. Rhyl is its largest built-up area, followed by Prestatyn, Denbigh and Ruthin, then Rhuddlan, St Asaph and Llangollen, with Dyserth, Meliden and Corwen among the smaller places. Every lesson is live on video with our teachers in India, and the first is free, used to place a Year 2 pupil, a Year 11 student or an adult at the right level. People aged 6 to 67 can learn coding, Python and maths, one-to-one or in a class of fifteen to twenty. The Denbighshire project comes from a weir on the Dee at Llantysilio. After the free lesson, group places are USD 100 a month and one-to-one lessons USD 150 a month.
 
 At Llantysilio, the River Dee pours over a weir built not straight across the river but in a curve. Cadw lists Horseshoe Falls and records that the near-crescent weir was promoted by William Jessop in 1795 and built under Thomas Telford between 1804 and 1806 to feed water, through sluices, into the Llangollen branch of the Ellesmere Canal. The record gives two numbers that make a lovely puzzle: the curve has a radius of about 54 metres, and the stone crest is 140.2 metres long. From those alone, a program can work out how wide a stretch of river the weir spans, how deep the curve is, and why engineers bother to curve a weir at all. This page's project does exactly that in Python.
 
-Facts last verified 26 September 2026. Teaching is online; no Denbighshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Denbighshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Usual first courses in Denbighshire
 
@@ -136,7 +136,7 @@ Towns and villages across the county all join lessons by video.
 - **The learner types** Pupils write the code; the teacher follows on the shared screen and prompts when stuck.
 - **Welsh school years** A Dyserth Year 4 or a Llangollen Year 10 is placed by year and the Curriculum for Wales, with WJEC exam names. Lessons are in English.
 - **A free trial lesson** One full lesson at no cost, then a candid recommendation.
-- **Five to ten per class** Classmates share a level and join from many places.
+- **Fifteen to twenty per class** Classmates share a level and join from many places.
 - **Term time schedule** Two lessons a week in term; no lessons in the holidays.
 - **UK time held** Your lesson keeps its UK time through the clock changes; teachers on India time shift.
 
@@ -147,7 +147,7 @@ Towns and villages across the county all join lessons by video.
 Rhyl or Ruthin, the fee is the same, as everywhere we teach outside India.
 
 - First class: USD 0. A full lesson, free, then a clear suggestion.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month with a teacher to yourself.
 
 We price in US dollars and keep no sterling list. Invoices start once the trial has fixed a course and a weekly time; the pricing page explains breaks, absences and changing format.

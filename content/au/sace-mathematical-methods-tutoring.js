@@ -218,7 +218,7 @@ module.exports = {
       { h3: 'Reasoning on paper', p: 'Every step written, because the criteria reward communication.' },
       { h3: 'Simulate, then prove', p: 'Short programs check results before the algebra explains them.' },
       { h3: 'Technology with judgement', p: 'Calculator answers interpreted, never just copied.' },
-      { h3: 'Small groups', p: 'Five to ten students at one level, explaining methods aloud.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty students at one level, explaining methods aloud.' },
       { h3: 'One-to-one sessions', p: 'For one topic that needs repair before a task.' },
       { h3: 'No grade forecasts', p: 'We never predict a SACE grade or an ATAR.' }
     ]
@@ -232,7 +232,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Methods tutoring is billed monthly in US dollars, the same rate for every family outside India, with no joining fee and no commitment past the current month.',
     free: ['A full maths lesson with a tutor', 'An honest read on what to fix first', 'No card details'],
-    group: ['Five to ten students at one level', 'The same tutor each week', 'Practice marked and talked through', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same tutor each week', 'Practice marked and talked through', 'A certificate at the end'],
     one: ['A tutor for one student', 'Built around one hard topic', 'Common in the weeks before the exam']
   },
 

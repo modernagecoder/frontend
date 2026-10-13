@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in Aberdeenshire',
   capsuleQ: 'What are the best coding classes in Aberdeenshire?',
-  capsule: 'Aberdeenshire is one council area, and Scotland\'s Census 2022 counted about 263,900 people there, in some 115,800 households, at 41.8 people per square kilometre against 69.8 for Scotland. Its largest towns are Peterhead, Inverurie, Fraserburgh, Westhill and Stonehaven. Teaching happens live by video from India, and the class a learner joins depends on what they can already do rather than their age. We teach anyone from 6 to 67, from Primary 1 to S6 and beyond, in groups of five to ten or one-to-one, in coding, Python, algorithms and maths. The Aberdeenshire project comes from the Braemar Gathering. We charge nothing for the opening lesson; continuing costs USD 100 per month in a small group or USD 150 per month on your own.',
+  capsule: 'Aberdeenshire is one council area, and Scotland\'s Census 2022 counted about 263,900 people there, in some 115,800 households, at 41.8 people per square kilometre against 69.8 for Scotland. Its largest towns are Peterhead, Inverurie, Fraserburgh, Westhill and Stonehaven. Teaching happens live by video from India, and the class a learner joins depends on what they can already do rather than their age. We teach anyone from 6 to 67, from Primary 1 to S6 and beyond, in groups of fifteen to twenty or one-to-one, in coding, Python, algorithms and maths. The Aberdeenshire project comes from the Braemar Gathering. We charge nothing for the opening lesson; continuing costs USD 100 per month in a small group or USD 150 per month on your own.',
   lead: 'The Braemar Gathering says it has been held in its present form since 1832, on the first Saturday of September, and the next is on 4 September 2027. Any competition with many teams faces a scheduling puzzle that computer scientists love: how do you arrange the contests so that every team meets every other team exactly once, nobody has two contests at the same time, and the whole thing takes as few rounds as possible? The standard answer, called the circle method, fits in a dozen lines of Python. This page\'s project builds it, proves it works with a checker, handles an odd number of teams, and then makes the schedule fairer.',
   wa: 'Hello Modern Age Coders, we are in Aberdeenshire and would like to book a free lesson, please.',
 
@@ -161,7 +161,7 @@ module.exports = {
       { h3: 'At home, anywhere', p: 'A farmhouse near Turriff, a house in Westhill, a flat in Peterhead. The pupil types and runs the code, and the teacher sees the same screen and guides.' },
       { h3: 'Scottish school stages', p: 'Primary 1 to 7, S1 to S6, then National 5, Higher and Advanced Higher: lessons use the names Aberdeenshire schools use, and teaching is in English.' },
       { h3: 'A free first lesson', p: 'A real lesson, then honest advice on level and course. No card details are asked for.' },
-      { h3: 'A group that matches', p: 'Classes of five to ten are built around a shared stage, not a shared postcode.' },
+      { h3: 'A group that matches', p: 'Classes of fifteen to twenty are built around a shared stage, not a shared postcode.' },
       { h3: 'Term and holiday rhythm', p: 'Most pupils have two lessons a week in term and pause when the school holidays arrive.' },
       { h3: 'Scottish clock, not ours', p: 'A lesson booked for 5pm in Aberdeenshire stays at 5pm UK time in March and October alike; our teachers, working on India time, move instead.' }
     ],
@@ -172,7 +172,7 @@ module.exports = {
     h2: 'Fees in Aberdeenshire',
     intro: 'Fraserburgh or Banchory, the fee is the same, as it is in every country we teach apart from India.',
     first: 'A complete lesson of genuine work, then a recommended level and course.',
-    group: 'About eight lessons a month with five to ten learners at one level.',
+    group: 'About eight lessons a month with fifteen to twenty learners at one level.',
     private: 'About eight lessons a month, one-to-one.',
     closer: 'We charge in US dollars and publish no pound prices. No bill arrives until the free lesson has settled a course and a weekly slot; the pricing page covers holidays, missed lessons and switching format.'
   },

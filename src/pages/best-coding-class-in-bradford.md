@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Bradford dist
 canonical: https://learn.modernagecoders.com/best-coding-class-in-bradford
 source: src/pages/best-coding-class-in-bradford.html
 ---
-> Bradford district had 546,412 usual residents at the 2021 Census, with children aged 10 to 14 making up 7.6% of them against 6.0% across England. It is the world's first UNESCO City of Film, and Saltaire, within the district, has been a World Heritage Site since 2001. Modern Age Coders teaches Bradford learners aged six to sixty-seven live online, in groups of five to ten sorted by level or one to one, with teachers in India and lesson times set in UK hours. The first lesson is free of charge; after that it is USD 100 a month for a group place or USD 150 a month for private lessons.
+> Bradford district had 546,412 usual residents at the 2021 Census, with children aged 10 to 14 making up 7.6% of them against 6.0% across England. It is the world's first UNESCO City of Film, and Saltaire, within the district, has been a World Heritage Site since 2001. Modern Age Coders teaches Bradford learners aged six to sixty-seven live online, in groups of fifteen to twenty sorted by level or one to one, with teachers in India and lesson times set in UK hours. The first lesson is free of charge; after that it is USD 100 a month for a group place or USD 150 a month for private lessons.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Bradford
 
@@ -12,11 +12,11 @@ Bradford, West Yorkshire, England / Live online
 
 # Coding classes in Bradford
 
-**What are the best coding classes in Bradford?** Bradford district had 546,412 usual residents at the 2021 Census, with children aged 10 to 14 making up 7.6% of them against 6.0% across England. It is the world's first UNESCO City of Film, and Saltaire, within the district, has been a World Heritage Site since 2001. Modern Age Coders teaches Bradford learners aged six to sixty-seven live online, in groups of five to ten sorted by level or one to one, with teachers in India and lesson times set in UK hours. The first lesson is free of charge; after that it is USD 100 a month for a group place or USD 150 a month for private lessons.
+**What are the best coding classes in Bradford?** Bradford district had 546,412 usual residents at the 2021 Census, with children aged 10 to 14 making up 7.6% of them against 6.0% across England. It is the world's first UNESCO City of Film, and Saltaire, within the district, has been a World Heritage Site since 2001. Modern Age Coders teaches Bradford learners aged six to sixty-seven live online, in groups of fifteen to twenty sorted by level or one to one, with teachers in India and lesson times set in UK hours. The first lesson is free of charge; after that it is USD 100 a month for a group place or USD 150 a month for private lessons.
 
 Here is a walk anyone can take through Bradford's weather. The Met Office has kept monthly rainfall for its Bradford station, 134 metres up, since 1908, with the rainfall column complete from 1911. For every month from January 1911 to December 2025, take one step up if it was wetter than usual for that time of year and one step down if it was drier. The walker climbs to 28 steps up by June 1969, then drifts down to 12 below by November 2011. It looks like a story: wet decades, then a drying trend. But shuffle the same 1,380 steps into a random order and walk again, ten thousand times, and the typical shuffled walk strays about 30 steps from zero. A third of them spend at least 82% of their months on one side, just as the real walk did. That is a random walk, and learning not to read stories into one is the lesson Bradford's rain gives our teenage learners.
 
-Facts last verified 21 September 2026. Teaching is online; no Bradford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 21 September 2026. Teaching is online; no Bradford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the City of Film
 
@@ -178,7 +178,7 @@ Bradford district runs from the city centre out to Keighley, Haworth and Ilkley;
 - **Town or moorland, one lesson** A learner in Haworth and another in Manningham can share a lesson without either of them travelling across the district.
 - **Stages Bradford schools use** From Reception through Key Stages 1 to 4, Year 9 options, GCSEs and A levels, we use the same stages as local schools, and teach in English.
 - **A proper first lesson** We teach a real task in the free lesson, then recommend a level, a course and a weekly slot. Booking it asks for no card.
-- **Levels decide the group** Five to ten learners at one stage, drawn from Bradford, the rest of the UK and overseas, so every level can meet at a time that works.
+- **Levels decide the group** Fifteen to twenty learners at one stage, drawn from Bradford, the rest of the UK and overseas, so every level can meet at a time that works.
 - **Two lessons a week** The same two weekly times, about eight lessons a month, with holiday and exam breaks agreed with the teacher beforehand.
 - **India-based teachers** Our teachers work on India Standard Time, which never shifts: four and a half hours ahead of Bradford in summer and five and a half in winter, so after-school and evening lessons sit inside their working hours.
 
@@ -189,7 +189,7 @@ Bradford district runs from the city centre out to Keighley, Haworth and Ilkley;
 Two monthly prices after one free lesson.
 
 - First class: USD 0. A complete lesson at no charge, closing with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. Around eight live lessons a month in a group of five to ten learners at one level.
+- Group tuition: USD 100 a month. Around eight live lessons a month in a group of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Around eight live lessons a month with a teacher who teaches only your learner.
 
 Families outside India all pay one US dollar fee, so a household in Bingley pays the same as one in Queensbury, and we do not quote prices in pounds. Charges begin only after the free lesson has agreed a course and a time; our pricing page explains pauses, missed lessons and changes between group and private teaching.
@@ -230,11 +230,11 @@ No. We have no centre in Bradford and no premises in the UK; every lesson runs l
 
 ### What do Bradford lessons cost?
 
-The first lesson is free. Then a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern cost USD 150 a month. Course, format and time are agreed before anything is charged.
+The first lesson is free. Then a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern cost USD 150 a month. Course, format and time are agreed before anything is charged.
 
 ### How are Bradford groups arranged?
 
-By level, pace and goals, not by age or postcode, with five to ten learners at one stage. If no group suits the learner's times, we offer one-to-one lessons.
+By level, pace and goals, not by age or postcode, with fifteen to twenty learners at one stage. If no group suits the learner's times, we offer one-to-one lessons.
 
 ## Yorkshire neighbours and other cities
 

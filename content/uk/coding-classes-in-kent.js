@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Coding classes in Kent',
   capsuleQ: 'What are the best coding classes in Kent?',
-  capsule: 'Kent had 1,855,844 residents across twelve districts and Medway at the 2021 Census, and its towns are spread along two coasts, the Medway, the Thames estuary and the Weald. Maidstone and Gillingham are the biggest; after them come Ashford, Chatham, Dartford, Rochester and Margate, and dozens more. We serve all of them identically. Classes run live on video with teachers in India, and learners are placed by what they can do, at any age from 6 to 67, in a group of five to ten or one to one, across programming, Python, AI and maths. The Kent project uses Dover\'s official traffic statistics. Lesson one is free, and then a group seat costs USD 100 a month while private tuition costs USD 150.',
+  capsule: 'Kent had 1,855,844 residents across twelve districts and Medway at the 2021 Census, and its towns are spread along two coasts, the Medway, the Thames estuary and the Weald. Maidstone and Gillingham are the biggest; after them come Ashford, Chatham, Dartford, Rochester and Margate, and dozens more. We serve all of them identically. Classes run live on video with teachers in India, and learners are placed by what they can do, at any age from 6 to 67, in a group of fifteen to twenty or one to one, across programming, Python, AI and maths. The Kent project uses Dover\'s official traffic statistics. Lesson one is free, and then a group seat costs USD 100 a month while private tuition costs USD 150.',
   lead: 'Every summer, somebody in Kent asks how long the queue at Dover will be. The Department for Transport publishes exactly how many vehicles pass through the port each quarter, and a tidy piece of mathematics called Little\'s law links the number arriving, the time each one waits and the length of the line. Put the two together and you can answer the question, sort of. This page\'s project does precisely that, carefully, and then shows the part that surprises most people: the official figure gives you an average over every hour of three months, including three in the morning in January, and the queue that matters is never an average one.',
   wa: 'Hello Modern Age Coders, I would like to book a free lesson for a learner in Kent.',
 
@@ -193,7 +193,7 @@ module.exports = {
       { h3: 'Lessons at home', p: 'A bedroom in Broadstairs, a kitchen in Paddock Wood, a desk in Gravesend. Teacher and learner share a screen and talk it through.' },
       { h3: 'Familiar school terms', p: 'Key Stages, GCSE options, A levels and the words Kent schools use, all in English.' },
       { h3: 'Free first lesson', p: 'A full lesson of real work with a teacher and a plain recommendation afterwards. No card is requested.' },
-      { h3: 'Placed with equals', p: 'Five to ten learners at the same stage, drawn from towns and countries far apart, so the level suits everyone.' },
+      { h3: 'Placed with equals', p: 'Fifteen to twenty learners at the same stage, drawn from towns and countries far apart, so the level suits everyone.' },
       { h3: 'Your own breaks', p: 'Usually two lessons a week, paused around your school\'s holidays, which in Kent and Medway can vary by council and by school.' },
       { h3: 'Clear about time zones', p: 'Teachers are in India: in summer 4.5 hours ahead of the UK, in winter 5.5 hours. Your timetable always shows UK time.' }
     ],
@@ -204,7 +204,7 @@ module.exports = {
     h2: 'Prices for Kent families',
     intro: 'Every Kent town pays the same, as does every country other than India.',
     first: 'A full lesson of genuine work, followed by a recommended level and course.',
-    group: 'Around eight lessons a month in a group of five to ten at one level.',
+    group: 'Around eight lessons a month in a group of fifteen to twenty at one level.',
     private: 'Around eight lessons a month with one teacher for one learner.',
     closer: 'Fees are charged in US dollars, as everywhere outside India, and we have no pound price list. You pay nothing until after the free lesson has fixed a course and a weekly time; the pricing page sets out pauses, missed lessons and changes between group and private.'
   },

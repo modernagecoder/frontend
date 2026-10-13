@@ -4,7 +4,7 @@ description: "Live online coding, Python, game making and maths classes across W
 canonical: https://learn.modernagecoders.com/coding-classes-in-warwickshire
 source: src/pages/coding-classes-in-warwickshire.html
 ---
-> Warwickshire is five districts with 596,773 residents at the 2021 Census, and Coventry, though it sits in the middle of the map, is not one of them. The county's largest towns are Nuneaton and Rugby, then Royal Leamington Spa, Warwick, Bedworth, Stratford-upon-Avon and Kenilworth, with market towns and villages between. Every family gets the same kind of class wherever they are. Lessons are taught live over video by teachers in India, with each learner placed by what they can already do rather than their age, from 6 up to 67, either in a group of five to ten or one to one. Coding, Python, game making, data and maths are all taught. The Warwickshire project comes from Warwick Castle's trebuchet. The opening lesson is free, and after that it is USD 100 per month for a group place or USD 150 for private teaching.
+> Warwickshire is five districts with 596,773 residents at the 2021 Census, and Coventry, though it sits in the middle of the map, is not one of them. The county's largest towns are Nuneaton and Rugby, then Royal Leamington Spa, Warwick, Bedworth, Stratford-upon-Avon and Kenilworth, with market towns and villages between. Every family gets the same kind of class wherever they are. Lessons are taught live over video by teachers in India, with each learner placed by what they can already do rather than their age, from 6 up to 67, either in a group of fifteen to twenty or one to one. Coding, Python, game making, data and maths are all taught. The Warwickshire project comes from Warwick Castle's trebuchet. The opening lesson is free, and after that it is USD 100 per month for a group place or USD 150 for private teaching.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Warwickshire
 
@@ -12,11 +12,11 @@ County of Warwickshire / Live online
 
 # Coding classes in Warwickshire
 
-**What are the best coding classes in Warwickshire?** Warwickshire is five districts with 596,773 residents at the 2021 Census, and Coventry, though it sits in the middle of the map, is not one of them. The county's largest towns are Nuneaton and Rugby, then Royal Leamington Spa, Warwick, Bedworth, Stratford-upon-Avon and Kenilworth, with market towns and villages between. Every family gets the same kind of class wherever they are. Lessons are taught live over video by teachers in India, with each learner placed by what they can already do rather than their age, from 6 up to 67, either in a group of five to ten or one to one. Coding, Python, game making, data and maths are all taught. The Warwickshire project comes from Warwick Castle's trebuchet. The opening lesson is free, and after that it is USD 100 per month for a group place or USD 150 for private teaching.
+**What are the best coding classes in Warwickshire?** Warwickshire is five districts with 596,773 residents at the 2021 Census, and Coventry, though it sits in the middle of the map, is not one of them. The county's largest towns are Nuneaton and Rugby, then Royal Leamington Spa, Warwick, Bedworth, Stratford-upon-Avon and Kenilworth, with market towns and villages between. Every family gets the same kind of class wherever they are. Lessons are taught live over video by teachers in India, with each learner placed by what they can already do rather than their age, from 6 up to 67, either in a group of fifteen to twenty or one to one. Coding, Python, game making, data and maths are all taught. The Warwickshire project comes from Warwick Castle's trebuchet. The opening lesson is free, and after that it is USD 100 per month for a group place or USD 150 for private teaching.
 
 Every physics textbook says the same thing: to throw something as far as possible, launch it at 45 degrees. Warwick Castle has a 22-tonne trebuchet, almost 60 feet tall, which it calls Britain's largest working siege machine, and the obvious question a curious teenager asks on seeing it is how far it throws. This page's project goes one step further and asks what angle it should throw at. The answer is not 45 degrees, and the reason is the lesson. The textbook rule assumes a throw from ground level with no air. Neither is true of a trebuchet, and a short simulation shows exactly how much each assumption matters.
 
-Facts last verified 26 September 2026. Teaching is online; no Warwickshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Warwickshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Warwickshire families choose first
 
@@ -154,7 +154,7 @@ The county stretches a long way north to south. Online lessons make that distanc
 - **From your own desk** A bedroom in Southam, a kitchen in Bulkington, a study in Alcester. The teacher shares a screen and the learner codes.
 - **UK school terms, in English** Key Stages, GCSE options and A levels are named as Warwickshire schools name them, and all teaching is in English.
 - **Free first lesson** A complete lesson of real work with a plain recommendation afterwards. Nobody asks for payment details.
-- **Classmates at your level** Groups of five to ten learners at the same stage, gathered from many places, so the pace suits everyone.
+- **Classmates at your level** Groups of fifteen to twenty learners at the same stage, gathered from many places, so the pace suits everyone.
 - **Breaks you agree** Usually two lessons a week, paused for your school's own holidays, which can differ between schools and academies.
 - **Always in UK time** Teachers are in India, 4.5 hours ahead during British Summer Time and 5.5 hours ahead in winter. Each lesson time is confirmed in UK time.
 
@@ -165,7 +165,7 @@ The county stretches a long way north to south. Online lessons make that distanc
 Every Warwickshire town pays the same, and so does every country outside India.
 
 - First class: USD 0. A full lesson of real work, ending in a suggested level and course.
-- Group tuition: USD 100 a month. Around eight lessons each month in a group of five to ten at one level.
+- Group tuition: USD 100 a month. Around eight lessons each month in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. Around eight lessons each month with one teacher for one learner.
 
 Fees are in US dollars, which is what we charge families everywhere except India, and there is no list in pounds. Payment starts only after the free lesson has settled a course and a weekly time; how pausing, missing a lesson and switching between group and private work is explained on the pricing page.

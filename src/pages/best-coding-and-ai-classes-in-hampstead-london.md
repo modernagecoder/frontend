@@ -4,7 +4,7 @@ description: "Online coding, AI, Python and vibe coding lessons for Hampstead, F
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-hampstead-london
 source: src/pages/best-coding-and-ai-classes-in-hampstead-london.html
 ---
-> Hampstead Town ward had 8,016 usual residents at the 2021 census, with Frognal, Belsize, West Hampstead and South Hampstead counted as separate Camden wards around it. The Vale of Health and Gospel Oak are recorded places in the same NW3 postcode district. Tuition in coding, AI, Python, vibe coding and maths reaches NW3 by video call from our tutors in India, for any age between six and 67, as solo sessions or in a class of five to ten pitched at a single level. We teach statistical reasoning before tools, so a learner can say why something is unusual, not just that a program flagged it. The first lesson is free and finishes with the course we would suggest. The Hampstead project measures how unusual each of Camden's 751 Census areas is in two different ways, and shows that the ordinary ruler misses some of the strangest ones. Beyond the trial the monthly fee is USD 100 (class) or USD 150 (solo).
+> Hampstead Town ward had 8,016 usual residents at the 2021 census, with Frognal, Belsize, West Hampstead and South Hampstead counted as separate Camden wards around it. The Vale of Health and Gospel Oak are recorded places in the same NW3 postcode district. Tuition in coding, AI, Python, vibe coding and maths reaches NW3 by video call from our tutors in India, for any age between six and 67, as solo sessions or in a class of fifteen to twenty pitched at a single level. We teach statistical reasoning before tools, so a learner can say why something is unusual, not just that a program flagged it. The first lesson is free and finishes with the course we would suggest. The Hampstead project measures how unusual each of Camden's 751 Census areas is in two different ways, and shows that the ordinary ruler misses some of the strangest ones. Beyond the trial the monthly fee is USD 100 (class) or USD 150 (solo).
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Hampstead
 
@@ -12,11 +12,11 @@ Hampstead, Camden, London / Live online
 
 # Coding and AI classes in Hampstead, London
 
-**Where can Hampstead learners find the best coding and AI classes?** Hampstead Town ward had 8,016 usual residents at the 2021 census, with Frognal, Belsize, West Hampstead and South Hampstead counted as separate Camden wards around it. The Vale of Health and Gospel Oak are recorded places in the same NW3 postcode district. Tuition in coding, AI, Python, vibe coding and maths reaches NW3 by video call from our tutors in India, for any age between six and 67, as solo sessions or in a class of five to ten pitched at a single level. We teach statistical reasoning before tools, so a learner can say why something is unusual, not just that a program flagged it. The first lesson is free and finishes with the course we would suggest. The Hampstead project measures how unusual each of Camden's 751 Census areas is in two different ways, and shows that the ordinary ruler misses some of the strangest ones. Beyond the trial the monthly fee is USD 100 (class) or USD 150 (solo).
+**Where can Hampstead learners find the best coding and AI classes?** Hampstead Town ward had 8,016 usual residents at the 2021 census, with Frognal, Belsize, West Hampstead and South Hampstead counted as separate Camden wards around it. The Vale of Health and Gospel Oak are recorded places in the same NW3 postcode district. Tuition in coding, AI, Python, vibe coding and maths reaches NW3 by video call from our tutors in India, for any age between six and 67, as solo sessions or in a class of fifteen to twenty pitched at a single level. We teach statistical reasoning before tools, so a learner can say why something is unusual, not just that a program flagged it. The first lesson is free and finishes with the course we would suggest. The Hampstead project measures how unusual each of Camden's 751 Census areas is in two different ways, and shows that the ordinary ruler misses some of the strangest ones. Beyond the trial the monthly fee is USD 100 (class) or USD 150 (solo).
 
 Fraud checks, quality control and AI safety filters all ask the same question: is this case unusual? The obvious way to answer is to measure how far each number sits from its average. That works for one number at a time, but real cases have several numbers that move together. Tall people are usually heavier, so a person of average height and average weight is ordinary, while someone very tall and very light is odd even though neither number alone is extreme. A measure called the Mahalanobis distance takes such relationships into account. This project tries it on Census data for Camden, where two household measures are clearly linked, and compares it with the ordinary ruler.
 
-Facts last verified 30 September 2026. Teaching is online; no Hampstead branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Hampstead branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Hampstead courses in statistics, Python and AI
 
@@ -136,7 +136,7 @@ You need a computer with a camera and broadband that carries a video call.
 - **The learner does the work** Every line of code and every prompt is typed by the student, with the tutor following on screen share and asking for the reasoning.
 - **First topic from the trial** The free session shows what is secure and what is not; exam boards are noted where relevant.
 - **Trial without charge** Lesson one is free and ends with a named course.
-- **Classes of similar level** Five to ten learners from across the UK share a class at one stage.
+- **Classes of similar level** Fifteen to twenty learners from across the UK share a class at one stage.
 - **Two lessons a week** Paused for school holidays.
 - **Same hour all year** Tutors adjust for British Summer Time so your slot stays where it is.
 

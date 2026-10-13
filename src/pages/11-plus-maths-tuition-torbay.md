@@ -128,7 +128,7 @@ Torbay Council names the four schools that use the shared test. We list them onl
 | Torquay Girls' Grammar School | Grammar school |
 | The Spires College | A selective stream |
 
-Lessons are live on video, so a child in Paignton, Brixham, Torquay or across the Dart is taught the same way, in groups of five to ten matched by level.
+Lessons are live on video, so a child in Paignton, Brixham, Torquay or across the Dart is taught the same way, in groups of fifteen to twenty matched by level.
 
 For Plymouth's grammar schools, which use a different test, see our [Plymouth 11 plus page](/11-plus-maths-tuition-plymouth).
 
@@ -215,7 +215,7 @@ Our teachers are in India and teach live. Torbay primary pupils are booked into 
 One monthly US dollar price for families outside India. Nothing to join; stop at any time.
 
 - Free first class: USD 0. A taught lesson. A frank view. No card required.
-- Group batch: USD 100 a month. Five to ten pupils, one level. A regular teacher. Work checked together. Certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty pupils, one level. A regular teacher. Work checked together. Certificate at the end.
 - One to one: USD 150 a month. One child, one teacher. Gaps first. Flexible timing.
 
 ## What Torbay families ask us

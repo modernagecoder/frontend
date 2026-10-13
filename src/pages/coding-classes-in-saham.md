@@ -179,7 +179,7 @@ A learner in Sur Al Buloosh and a learner near the souq join the same class from
 
 The placement class carries a real task, a real recommendation and no card. If the honest answer is that a different course fits better, that is what gets said.
 
-### Groups of five to eight
+### Groups of fifteen to twenty
 
 Learners are grouped by level and objective rather than by age, because a fourteen year old and a forty year old often want the same thing and learn it at the same speed.
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Saham learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Saham class times arranged?
 

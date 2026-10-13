@@ -206,7 +206,7 @@ module.exports = {
       { h3: 'Two Term 1 dates handled', p: 'Government school students start Term 1 a day after the official first day. Lessons are planned around the date the learner actually returns.' },
       { h3: 'Victorian words, Victorian years', p: 'Teachers say Prep, Year 9 and VCE, the same terms a Victorian classroom uses. All lessons are taught in English.' },
       { h3: 'A real lesson first', p: 'The free class is a complete lesson with something to finish, followed by a suggested level, course and weekly time. No card is requested.' },
-      { h3: 'Groups by level', p: 'Each group has five to ten learners working at much the same standard, drawn from across Victoria, other states and overseas, so most levels have a workable hour.' },
+      { h3: 'Groups by level', p: 'Each group has fifteen to twenty learners working at much the same standard, drawn from across Victoria, other states and overseas, so most levels have a workable hour.' },
       { h3: 'Two sessions a week', p: 'Roughly eight lessons a month at a fixed time, with breaks for school holidays and exam weeks agreed in advance.' },
       { h3: 'India time on our side', p: 'Our teachers work on India time all year, so a Victorian after-school slot falls in the middle of their working day.' }
     ],
@@ -217,7 +217,7 @@ module.exports = {
     h2: 'What classes cost in Victoria',
     intro: 'One price list for the whole state.',
     first: 'One complete lesson at no charge, finishing with a recommended level, course and weekly time.',
-    group: 'A month of teaching, usually eight lessons, with five to ten learners at a similar level.',
+    group: 'A month of teaching, usually eight lessons, with fifteen to twenty learners at a similar level.',
     private: 'The same monthly pattern of about eight lessons, with one teacher and one learner.',
     closer: 'Families outside India are billed in US dollars at a single rate, so a family in Geelong and one in Wodonga see the same invoice. Nothing is charged until the trial has settled a course and a weekly slot; holidays, missed lessons and switching between group and private teaching are explained on the pricing page.'
   },
@@ -242,7 +242,7 @@ module.exports = {
       { q: 'Do you prepare students for the Victorian selective entry exam?', a: 'We teach the maths and reasoning skills the exam draws on as part of ordinary lessons, and our selective entry maths page explains the format. We give no admissions advice and make no claims about offers.' },
       { q: 'What time are lessons for Victorian learners?', a: 'Weekday afternoons, evenings or weekends, agreed during the trial and always written in Victorian time. India is four and a half hours behind Victoria in winter and five and a half behind during daylight saving.' },
       { q: 'Do you have a centre in Victoria?', a: 'No, and we do not claim one. Every lesson is live online, with no premises anywhere in Australia. A learner needs a laptop or desktop, sound and a steady connection, and the phone number we show is in India.', boiler: true },
-      { q: 'What do coding classes cost in Victoria?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. The course, format and time are agreed before any payment.', boiler: true },
+      { q: 'What do coding classes cost in Victoria?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. The course, format and time are agreed before any payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Between five and ten, matched by level, pace and what they want to build rather than by age or postcode. When no group suits the learner at a workable hour, one-to-one lessons are offered instead.', boiler: true }
     ]
   },

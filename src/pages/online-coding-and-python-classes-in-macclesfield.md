@@ -4,7 +4,7 @@ description: "Python, coding, AI and vibe coding lessons, live online, for learn
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-macclesfield
 source: src/pages/online-coding-and-python-classes-in-macclesfield.html
 ---
-> Macclesfield's built-up area recorded 54,345 residents in the 2021 census, per the ONS, in a Cheshire East council area of 398,772. Tytherington, Hurdsfield and Broken Cross are listed as suburban areas, with Bollington, Prestbury and Gawsworth close by in the postcode data. Learners aged six to 67 take Python, coding, AI, vibe coding and maths with us over live video. The tutors are in India, and lessons are private or shared by five to ten learners of equal level. We teach reasoning first, so that students can check a program or a chatbot answer for themselves. In the Macclesfield project a learner codes Dijkstra's route-finder twice in Python on the town's real street network, once from the start only and once from both ends, and counts how much searching the second version saves. A free first lesson ends with our course advice. Later lessons are USD 100 a month in a group or USD 150 a month one-to-one.
+> Macclesfield's built-up area recorded 54,345 residents in the 2021 census, per the ONS, in a Cheshire East council area of 398,772. Tytherington, Hurdsfield and Broken Cross are listed as suburban areas, with Bollington, Prestbury and Gawsworth close by in the postcode data. Learners aged six to 67 take Python, coding, AI, vibe coding and maths with us over live video. The tutors are in India, and lessons are private or shared by fifteen to twenty learners of equal level. We teach reasoning first, so that students can check a program or a chatbot answer for themselves. In the Macclesfield project a learner codes Dijkstra's route-finder twice in Python on the town's real street network, once from the start only and once from both ends, and counts how much searching the second version saves. A free first lesson ends with our course advice. Later lessons are USD 100 a month in a group or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Macclesfield
 
@@ -12,11 +12,11 @@ Macclesfield, Cheshire East, England / Live online
 
 # Online coding and Python classes in Macclesfield, Cheshire
 
-**Which online coding and Python classes are best for Macclesfield learners?** Macclesfield's built-up area recorded 54,345 residents in the 2021 census, per the ONS, in a Cheshire East council area of 398,772. Tytherington, Hurdsfield and Broken Cross are listed as suburban areas, with Bollington, Prestbury and Gawsworth close by in the postcode data. Learners aged six to 67 take Python, coding, AI, vibe coding and maths with us over live video. The tutors are in India, and lessons are private or shared by five to ten learners of equal level. We teach reasoning first, so that students can check a program or a chatbot answer for themselves. In the Macclesfield project a learner codes Dijkstra's route-finder twice in Python on the town's real street network, once from the start only and once from both ends, and counts how much searching the second version saves. A free first lesson ends with our course advice. Later lessons are USD 100 a month in a group or USD 150 a month one-to-one.
+**Which online coding and Python classes are best for Macclesfield learners?** Macclesfield's built-up area recorded 54,345 residents in the 2021 census, per the ONS, in a Cheshire East council area of 398,772. Tytherington, Hurdsfield and Broken Cross are listed as suburban areas, with Bollington, Prestbury and Gawsworth close by in the postcode data. Learners aged six to 67 take Python, coding, AI, vibe coding and maths with us over live video. The tutors are in India, and lessons are private or shared by fifteen to twenty learners of equal level. We teach reasoning first, so that students can check a program or a chatbot answer for themselves. In the Macclesfield project a learner codes Dijkstra's route-finder twice in Python on the town's real street network, once from the start only and once from both ends, and counts how much searching the second version saves. A free first lesson ends with our course advice. Later lessons are USD 100 a month in a group or USD 150 a month one-to-one.
 
 Dijkstra's algorithm finds the shortest route by spreading outward from the start like a ripple, settling the closest unvisited point each time, until the ripple reaches the destination. A bidirectional version sends out two ripples, one from each end, and stops when they have met in a way that proves no shorter route can exist. Two small ripples cover less ground than one large one, so there should be less work. How much less, and does the answer stay exactly right? Macclesfield's streets, as mapped by OpenStreetMap contributors, give a learner a real network on which to find out.
 
-Facts last verified 30 September 2026. Teaching is online; no Macclesfield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Macclesfield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python, algorithm and AI courses for Macclesfield
 
@@ -143,7 +143,7 @@ A computer with a camera and a connection fit for video is enough.
 - **Student at the controls** Learners write and run their own programs. Tutors watch the shared screen and ask them to justify each choice.
 - **Level set by the trial** We decide the first topic from the free lesson and note the exam board where relevant.
 - **Free to try** The first session is not charged and closes with a course suggestion.
-- **Classes of five to ten** Learners are matched by stage with others across the UK.
+- **Classes of fifteen to twenty** Learners are matched by stage with others across the UK.
 - **Twice a week** We leave out the school holidays you tell us about.
 - **A steady slot** Your lesson time holds through the British Summer Time switch; the tutor adjusts instead.
 

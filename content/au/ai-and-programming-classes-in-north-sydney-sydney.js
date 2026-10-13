@@ -335,7 +335,7 @@ module.exports = {
       { h3: 'A screen and a teacher', p: 'Lessons happen on video with a live teacher who watches the learner type, so mistakes are caught as they happen.' },
       { h3: 'NSW stages and terms', p: 'Teachers know the NSW stages and syllabus names, and the timetable pauses for state school holidays.' },
       { h3: 'Trial before any fee', p: 'The first lesson is a full, free class, after which the teacher recommends a course, level and fixed time.' },
-      { h3: 'Grouped by level', p: 'Groups of five to ten learners at the same stage, or one-to-one lessons where a group does not fit.' },
+      { h3: 'Grouped by level', p: 'Groups of fifteen to twenty learners at the same stage, or one-to-one lessons where a group does not fit.' },
       { h3: 'Two lessons a week', p: 'A regular pair of weekly lessons, about eight a month, with planned breaks agreed ahead of time.' },
       { h3: 'Teachers in India', p: 'A 5pm North Sydney lesson in summer is 11:30am India time; once Sydney returns to standard time it is 12:30pm there.' }
     ],
@@ -348,7 +348,7 @@ module.exports = {
     h2: 'What lessons cost in North Sydney',
     intro: 'The same three prices for every course and every learner.',
     first: 'A full first lesson at no charge, ending with a recommended course and time.',
-    group: 'Two lessons a week for a month, roughly eight, in a group of five to ten at one level.',
+    group: 'Two lessons a week for a month, roughly eight, in a group of fifteen to twenty at one level.',
     private: 'The same twice-weekly pattern with one teacher and one learner.',
     closer: 'Fees outside India are billed in US dollars, so a learner in Waverton pays the same as one in Neutral Bay. Payment comes only after the trial has fixed the course and time, and the pricing page covers breaks, missed lessons and switching formats.'
   },
@@ -394,7 +394,7 @@ module.exports = {
       },
       {
         q: 'How much are coding and AI lessons in North Sydney?',
-        a: 'The first lesson is free. Group lessons are USD 100 a month for two live classes a week, about eight a month, with five to ten learners; one-to-one is USD 150 a month on the same schedule. Nothing is paid until the course and time are agreed.',
+        a: 'The first lesson is free. Group lessons are USD 100 a month for two live classes a week, about eight a month, with fifteen to twenty learners; one-to-one is USD 150 a month on the same schedule. Nothing is paid until the course and time are agreed.',
         boiler: true
       },
       {

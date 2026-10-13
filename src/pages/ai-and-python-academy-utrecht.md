@@ -4,7 +4,7 @@ description: "Is a chatbot intelligent? Utrecht studies AI through programming, 
 canonical: https://learn.modernagecoders.com/ai-and-python-academy-utrecht
 source: src/pages/ai-and-python-academy-utrecht.html
 ---
-> For learners in Utrecht between six and sixty-seven, Modern Age Coders teaches a live online AI and Python track: Python typed by hand, real data, models with a measured error, and agents. Alongside the code, learners practise four questions borrowed from the way Utrecht University frames its own AI degree: how does this system work, what would count as thinking, why do people believe it, and what is it doing with language? The signature project is a small ELIZA, the 1960s conversation program, built in Python and then tested on real people. Classes run in English, in groups of five to ten learners or one to one. The first lesson costs nothing; after it, group classes are USD 100 a month and private tuition USD 150.
+> For learners in Utrecht between six and sixty-seven, Modern Age Coders teaches a live online AI and Python track: Python typed by hand, real data, models with a measured error, and agents. Alongside the code, learners practise four questions borrowed from the way Utrecht University frames its own AI degree: how does this system work, what would count as thinking, why do people believe it, and what is it doing with language? The signature project is a small ELIZA, the 1960s conversation program, built in Python and then tested on real people. Classes run in English, in groups of fifteen to twenty learners or one to one. The first lesson costs nothing; after it, group classes are USD 100 a month and private tuition USD 150.
 
 [Home](/) / [Courses](/courses) / [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands) / Utrecht
 
@@ -14,7 +14,7 @@ Utrecht · Live online · Ages 6 to 67
 
 Utrecht University teaches artificial intelligence in a way it says no other Dutch university does. Alongside programming, its students learn philosophy, psychology and linguistics, because, in the programme's own words, that helps you understand the core of intelligent behaviour. It is a useful idea for anyone meeting today's chatbots. Whether a system is intelligent is not only a question about its code. It is also a question about what thinking is, about why people are so ready to believe a machine understands them, and about what the machine is actually doing with words. Alan Turing asked the first of those in 1950. Joseph Weizenbaum ran into the third in the 1960s, when people confided in a simple program called ELIZA. This page teaches AI and Python from a child's first program upward, and teaches learners to ask all four questions, live online for learners in Utrecht.
 
-At a glance: Learners: Utrecht, from 6 to 67; Track: Python, data, models, agents; Questions: How it works, whether it thinks, why we believe it, what it does with words; Delivery: Live over video, never recorded; Class size: Five to ten, or private; Times: Dutch afternoons, evenings, weekends; Language: English; First step: A free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Learners: Utrecht, from 6 to 67; Track: Python, data, models, agents; Questions: How it works, whether it thinks, why we believe it, what it does with words; Delivery: Live over video, never recorded; Class size: Fifteen to twenty, or private; Times: Dutch afternoons, evenings, weekends; Language: English; First step: A free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for a Utrecht learner curious about thinking machines
 
@@ -149,7 +149,7 @@ India does not use summer time, so the gap to Utrecht is four and a half hours i
 - **Weekend** Saturday and Sunday, any reasonable Utrecht hour. Usually the choice of adults and families with full weeks.
 
 - **The free lesson** Not a sales conversation but a lesson: the learner works on something real and the teacher sees how they think, which settles the starting rung.
-- **Small groups, one level** Five to ten learners from several countries who can already do the same things, so no one in Utrecht waits for others or races to keep up.
+- **Small groups, one level** Fifteen to twenty learners from several countries who can already do the same things, so no one in Utrecht waits for others or races to keep up.
 - **Private tuition too** For students with changing timetables, adults with a specific goal, and the Copilot Studio courses, taught only one to one.
 - **Work visible live** The teacher follows the learner's screen as code is written and questions are answered, so confusion never gets a week to settle.
 - **English, Dutch where it belongs** All teaching is in English. Words like groep, brugklas, havo and vwo stay Dutch, the way Utrecht families say them.
@@ -160,7 +160,7 @@ India does not use summer time, so the gap to Utrecht is four and a half hours i
 Billed each month in US dollars at the rate we use for every country outside India. Utrecht pays nothing extra, there is no registration fee, and nobody signs up for a year. The Copilot Studio courses exist only as private lessons, so they use the private rate.
 
 - Free first class: USD 0. A proper lesson, not a pitch. Decides the starting rung. Nothing to pay, no card.
-- Group batch: USD 100 a month. Five to ten learners who match in level. The same teacher, live each time. Code reviewed every week. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners who match in level. The same teacher, live each time. Code reviewed every week. A certificate at the end.
 - One to one: USD 150 a month. Just the learner and a teacher. Content and speed set by the goal. Required for Copilot Studio.
 
 ## What Utrecht learners and parents ask before starting

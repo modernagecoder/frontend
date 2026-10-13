@@ -147,7 +147,7 @@ Our teachers work from India, which keeps one time all year while the Netherland
 - **Weekend** Saturday or Sunday morning. Popular with families whose weekdays are full of sport and music.
 
 - **A free first lesson** The child makes something real while the teacher watches how they think. By the end, the teacher knows where to start and the child usually wants to come back.
-- **Small groups by level** Five to ten children who can already do the same things, from several countries, so a quick seven-year-old and a careful ten-year-old can each be in the right group.
+- **Small groups by level** Fifteen to twenty children who can already do the same things, from several countries, so a quick seven-year-old and a careful ten-year-old can each be in the right group.
 - **One to one if it suits** For a child who is shy in groups, needs extra attention, or is racing ahead and wants their own pace.
 - **A parent in the loop** We speak with a parent before anything is booked, and younger children often have a parent nearby for the first lessons.
 - **In English** Lessons are in English. Children at Dutch schools usually pick up the programming words quickly, and teachers keep instructions simple and visual.
@@ -158,7 +158,7 @@ Our teachers work from India, which keeps one time all year while the Netherland
 Monthly, in US dollars, at the same rates as every other country outside India. No separate Dutch price, no enrolment fee and no year-long contract.
 
 - Free first class: USD 0. A real lesson, not a sales call. Places the child at the right level. No card or bank details asked.
-- Group batch: USD 100 a month. Five to ten children at one level. The same live teacher each week. Work reviewed every week. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. The same live teacher each week. Work reviewed every week. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one child. Pace set around the child. Extra support where needed.
 
 ## What parents of young children in the Netherlands ask us

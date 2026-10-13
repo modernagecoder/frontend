@@ -297,7 +297,7 @@ module.exports = {
       { h3: 'Run it both ways', p: 'Learners try their code in different settings while the teacher watches the results.' },
       { h3: 'State school calendar', p: 'Lessons follow South Australian terms and pause for holidays.' },
       { h3: 'No-cost opening class', p: 'One full lesson free, with a written suggestion after.' },
-      { h3: 'Five to ten learners', p: 'Grouped by level, or one-to-one teaching.' },
+      { h3: 'Fifteen to twenty learners', p: 'Grouped by level, or one-to-one teaching.' },
       { h3: 'Twice weekly', p: 'Two fixed lessons a week, roughly eight a month.' },
       { h3: 'India time', p: 'Our teachers work from India: a 5:30pm Burnside lesson is 12:30pm India time in summer, 1:30pm in winter.' }
     ],
@@ -310,7 +310,7 @@ module.exports = {
     h2: 'Burnside class fees',
     intro: 'Three prices, the same for all.',
     first: 'Lesson one is free, with written feedback.',
-    group: 'Roughly eight group lessons a month with five to ten learners.',
+    group: 'Roughly eight group lessons a month with fifteen to twenty learners.',
     private: 'Roughly eight private lessons a month.',
     closer: 'Burnside families pay in US dollars, never before the trial, and only once course and time are agreed. Holidays and absences are explained on the pricing page.'
   },
@@ -349,12 +349,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Burnside learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Is Copilot Studio available in Burnside groups?', a: 'No. Copilot Studio is private-lesson only; group learners code agents in Python.' }

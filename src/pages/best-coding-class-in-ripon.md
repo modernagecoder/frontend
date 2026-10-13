@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Ripon learner
 canonical: https://learn.modernagecoders.com/best-coding-class-in-ripon
 source: src/pages/best-coding-class-in-ripon.html
 ---
-> Ripon South and East, the larger of two middle-layer areas named after the city, had 10,336 usual residents at the 2021 census and 2,307.9 people per square kilometre. Ripon Cathedral describes its Anglo-Saxon crypt as the oldest built fabric of any English cathedral. Ripon learners from six to sixty-seven are taught live on video by our teachers in India, in a private lesson or in a class of five to ten at one stage, at times chosen around the English school day and working hours. There is no charge for the first lesson; afterwards a class place costs USD 100 a month and a private teacher USD 150 a month.
+> Ripon South and East, the larger of two middle-layer areas named after the city, had 10,336 usual residents at the 2021 census and 2,307.9 people per square kilometre. Ripon Cathedral describes its Anglo-Saxon crypt as the oldest built fabric of any English cathedral. Ripon learners from six to sixty-seven are taught live on video by our teachers in India, in a private lesson or in a class of fifteen to twenty at one stage, at times chosen around the English school day and working hours. There is no charge for the first lesson; afterwards a class place costs USD 100 a month and a private teacher USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Ripon
 
@@ -12,11 +12,11 @@ Ripon, North Yorkshire / Live online
 
 # Coding classes in Ripon
 
-**What are the best coding classes in Ripon?** Ripon South and East, the larger of two middle-layer areas named after the city, had 10,336 usual residents at the 2021 census and 2,307.9 people per square kilometre. Ripon Cathedral describes its Anglo-Saxon crypt as the oldest built fabric of any English cathedral. Ripon learners from six to sixty-seven are taught live on video by our teachers in India, in a private lesson or in a class of five to ten at one stage, at times chosen around the English school day and working hours. There is no charge for the first lesson; afterwards a class place costs USD 100 a month and a private teacher USD 150 a month.
+**What are the best coding classes in Ripon?** Ripon South and East, the larger of two middle-layer areas named after the city, had 10,336 usual residents at the 2021 census and 2,307.9 people per square kilometre. Ripon Cathedral describes its Anglo-Saxon crypt as the oldest built fabric of any English cathedral. Ripon learners from six to sixty-seven are taught live on video by our teachers in India, in a private lesson or in a class of fifteen to twenty at one stage, at times chosen around the English school day and working hours. There is no charge for the first lesson; afterwards a class place costs USD 100 a month and a private teacher USD 150 a month.
 
 Rivers meet at Ripon: in Ordnance Survey's river network the Laver joins the Skell, and the Skell joins the Ure, within 3 km of the city centre. The Environment Agency measures the Ure at Westwick, 6.1 km downstream, every day since 1959, and the Laver at a weir inside the city since 1977. Our Ripon project asks a sharper question than whether the rivers are rising: are the biggest flows changing in a different way from ordinary ones? Quantile regression answers it by fitting a separate trend line to the 10th, 50th, 90th and 99th percentiles of daily flow. On the Ure since 1982, the top 1% of days has risen by about 5.9% a decade while the middle has hardly moved. On the Laver, the lines point the same way but the record is too short to be sure.
 
-Facts last verified 23 September 2026. Teaching is online; no Ripon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Ripon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the city where the rivers meet
 
@@ -180,7 +180,7 @@ Ripon is compact, and many of its learners live in the villages along the rivers
 A free first lesson, followed by one fee a month.
 
 - First class: USD 0. One full lesson without charge, ending with a suggested level, course and weekly slot.
-- Group tuition: USD 100 a month. Around eight live lessons a month in a class of five to ten learners at the same stage.
+- Group tuition: USD 100 a month. Around eight live lessons a month in a class of fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. Around eight live lessons a month, with the teacher's attention on your learner alone.
 
 Families in North Stainley or Bishop Monkton pay in US dollars, like all families outside India, and our site never lists pound prices. We send no bill before the free lesson is over and a course and weekly slot have been agreed; the pricing page explains how breaks, missed lessons and a switch between class and private teaching are handled.
@@ -221,11 +221,11 @@ No. We have no centre in Ripon or anywhere else in the UK, since every lesson is
 
 ### What do Ripon lessons cost?
 
-The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same schedule is USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same schedule is USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are Ripon learners grouped?
 
-By level, pace and goals rather than by age or where they live, with five to ten learners at the same stage. If no group suits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than by age or where they live, with fifteen to twenty learners at the same stage. If no group suits the learner's week, we offer one-to-one lessons.
 
 ## Yorkshire and beyond
 

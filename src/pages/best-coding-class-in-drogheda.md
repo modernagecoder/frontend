@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI lessons for Drogheda learners ag
 canonical: https://learn.modernagecoders.com/best-coding-class-in-drogheda
 source: src/pages/best-coding-class-in-drogheda.html
 ---
-> Drogheda counts 43,929 usual residents in the census town tables, living in 15,751 households, 12,860 of which report broadband. Our teaching arrives at the address: a live teacher twice in most weeks, with a group of five to ten learners at one level or with a single learner, for ages six through to sixty-seven. The opening lesson carries no charge. After it, a shared place is USD 100 a month and private teaching is USD 150.
+> Drogheda counts 43,929 usual residents in the census town tables, living in 15,751 households, 12,860 of which report broadband. Our teaching arrives at the address: a live teacher twice in most weeks, with a group of fifteen to twenty learners at one level or with a single learner, for ages six through to sixty-seven. The opening lesson carries no charge. After it, a shared place is USD 100 a month and private teaching is USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Louth](/coding-classes-in-county-louth) / Drogheda
 
@@ -12,11 +12,11 @@ Drogheda, Louth and Meath / Live online
 
 # Coding classes in Drogheda
 
-**What is the best coding class in Drogheda?** Drogheda counts 43,929 usual residents in the census town tables, living in 15,751 households, 12,860 of which report broadband. Our teaching arrives at the address: a live teacher twice in most weeks, with a group of five to ten learners at one level or with a single learner, for ages six through to sixty-seven. The opening lesson carries no charge. After it, a shared place is USD 100 a month and private teaching is USD 150.
+**What is the best coding class in Drogheda?** Drogheda counts 43,929 usual residents in the census town tables, living in 15,751 households, 12,860 of which report broadband. Our teaching arrives at the address: a live teacher twice in most weeks, with a group of fifteen to twenty learners at one level or with a single learner, for ages six through to sixty-seven. The opening lesson carries no charge. After it, a shared place is USD 100 a month and private teaching is USD 150.
 
 Three rows of one Drogheda census table count people who are not in work and are looking for it: 438 seeking a first regular job, 725 described as short term unemployed and 1,287 as long term unemployed. Add them and you have 2,450. Now choose a denominator. Against the 35,128 people aged fifteen and over in that same table, 2,450 is 7.0%. Against the 21,741 who are either at work or in those three rows, it is 11.3%. Both divisions are defensible and they differ by 4.3 points. What neither of them is allowed to be called is the unemployment rate for Drogheda, because that name belongs to a figure the Central Statistics Office produces from its own series and not to our arithmetic on one town table. Learning to keep those apart is the project on this page.
 
-Facts last verified 18 September 2026. Teaching is online; no Drogheda branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 18 September 2026. Teaching is online; no Drogheda branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Drogheda learners start with
 
@@ -172,7 +172,7 @@ Calculating is the easy half. Saying exactly what was calculated, and refusing a
 Six short points.
 
 - **Taught as it happens** A teacher on the call throughout, working from the learner's screen rather than a script.
-- **Levels, not year groups** Five to ten learners at the same stage, from Drogheda, elsewhere in Ireland and other countries.
+- **Levels, not year groups** Fifteen to twenty learners at the same stage, from Drogheda, elsewhere in Ireland and other countries.
 - **Two a week** Roughly eight lessons a month, in a slot fixed once and then protected.
 - **Term dates first** Mid-terms, holidays and exam weeks are agreed into the plan before lessons start.
 - **What is needed** A computer with a keyboard, working sound, and a household connection that carries video.
@@ -185,7 +185,7 @@ Six short points.
 Three lines, all of it.
 
 - First class: USD 0. A full opening lesson, taught and assessed, at no cost.
-- Group tuition: USD 100 a month. One month in an ability group of five to ten, about eight live lessons.
+- Group tuition: USD 100 a month. One month in an ability group of fifteen to twenty, about eight live lessons.
 - Private tuition: USD 150 a month. One month of private teaching on the same weekly pattern.
 
 Fees are monthly and priced in US dollars on the single rate for families outside India, so Drogheda sees the same figure as Dundalk or Navan and no euro list beside it. Nothing is charged until the opening lesson has fixed a course and an hour, and the pricing page explains breaks, missed weeks and moves between group and private teaching.
@@ -226,7 +226,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Drogheda cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

@@ -117,7 +117,7 @@ N["park-street-kolkata"] = {
             For these families, "coding for kids" is not a fad &mdash; it is what their friends in Bangalore or Gurgaon are already doing for their children, and they are aware Kolkata is sometimes a year behind on these trends. They look at the YouTube-style coding "platforms" advertising every two minutes on television and they recognise marketing when they see it. What they want is the equivalent of a small-batch British-style tutorial: an actual teacher, four or five other smart children, real conversation, real problems.
         </p>
         <p style="color:#cbd5e1; line-height:1.95; font-size:15.5px; margin:0;">
-            Our 6&ndash;8 student live batches deliver exactly that. The child is one of a handful of kids in the live class, the instructor knows everyone by name and grade, and the teaching is genuinely interactive &mdash; very much in the small-tutorial tradition that La Martiniere and Loreto parents already understand and trust.
+            Our 15&ndash;20 student live batches deliver exactly that. The child is one of a handful of kids in the live class, the instructor knows everyone by name and grade, and the teaching is genuinely interactive &mdash; very much in the small-tutorial tradition that La Martiniere and Loreto parents already understand and trust.
         </p>
     """,
     "projects": [
@@ -198,7 +198,7 @@ N["hazra-kolkata"] = {
             Hazra is the cultural backbone of old South Kolkata. The crossing itself is a chaotic landmark of trams, autos, and three generations of families crossing each other at the chemist shop. The lanes off Mahim Halder Street, Sarat Bose Road, and Asutosh Mukherjee Road house Bengali families that have been here for sixty years &mdash; the kind of household where the dadu reads three newspapers a morning and the granddaughter does her Class 9 ICSE Java homework on the same dining table.
         </p>
         <p style="color:#cbd5e1; line-height:1.95; font-size:15.5px; margin:0 0 20px;">
-            Tuition culture is deep here. Almost every Bhowanipore-Hazra child has had a private tutor since Class 1. The Bengali tradition of <em style="color:#fcd34d;">griho-shikhok</em> &mdash; the home tutor &mdash; is alive and well. So when these families come to us, they are not unfamiliar with serious one-on-one teaching. The question is whether a 6&ndash;8 student live online class can match what their child gets from a Maths tutor sitting at the dining table.
+            Tuition culture is deep here. Almost every Bhowanipore-Hazra child has had a private tutor since Class 1. The Bengali tradition of <em style="color:#fcd34d;">griho-shikhok</em> &mdash; the home tutor &mdash; is alive and well. So when these families come to us, they are not unfamiliar with serious one-on-one teaching. The question is whether a 15&ndash;20 student live online class can match what their child gets from a Maths tutor sitting at the dining table.
         </p>
         <p style="color:#cbd5e1; line-height:1.95; font-size:15.5px; margin:0;">
             We argue it can, for coding specifically, because a Maths-degree tutor was never a software engineer. Our instructors push code to production every week. They speak the languages they teach as native languages. Your child finally gets a teacher who can debug a real error message in real time.
@@ -285,7 +285,7 @@ N["rashbehari-kolkata"] = {
             Parents here have lived through the entire arc of Kolkata's tuition revolution &mdash; from the Tarun Bharati-style maths centres of the '80s, to the Bhrigu-style physics rooms of the '90s, to the corporate "edtech" platforms of today. They are unimpressed by branding. What they trust is teaching quality demonstrated over time.
         </p>
         <p style="color:#cbd5e1; line-height:1.95; font-size:15.5px; margin:0;">
-            That is essentially our pitch. A working software engineer teaches your child for 60 minutes, twice a week, in a 6&ndash;8 student live class. Repeat for 24&ndash;30 weeks. At the end, the child can code in Python or Java. No magic, just consistency.
+            That is essentially our pitch. A working software engineer teaches your child for 60 minutes, twice a week, in a 15&ndash;20 student live class. Repeat for 24&ndash;30 weeks. At the end, the child can code in Python or Java. No magic, just consistency.
         </p>
     """,
     "projects": [
@@ -327,7 +327,7 @@ N["ballygunge-kolkata"] = {
             Ballygunge parents do not buy the loud edu-tech ads. They have seen every coding pitch since 2018, and they have watched neighbours' kids enrol, get a certificate, and forget every line of code three months later. What they want is the academic equivalent of their child's school: small batches, real teachers, real assessment, real projects.
         </p>
         <p style="color:#cbd5e1; line-height:1.95; font-size:15.5px; margin:0;">
-            Our 6&ndash;8 student live batches replicate, very deliberately, the small-tutorial culture that South Point and Modern High parents already understand. The instructor is a working software engineer. The curriculum runs 24&ndash;30 weeks. The project at the end is real enough to put into a college application.
+            Our 15&ndash;20 student live batches replicate, very deliberately, the small-tutorial culture that South Point and Modern High parents already understand. The instructor is a working software engineer. The curriculum runs 24&ndash;30 weeks. The project at the end is real enough to put into a college application.
         </p>
     """,
     "projects": [
@@ -495,7 +495,7 @@ N["kasba-kolkata"] = {
             Children here go to DPS Ruby Park, Don Bosco, Birla High, and increasingly The Heritage School &mdash; the CBSE-heavy belt. The parents are often themselves Python users in their day jobs (data analytics, finance, IT) and they are unambiguously certain about why coding matters. They don't need convincing; they need a teacher who keeps the kid engaged.
         </p>
         <p style="color:#cbd5e1; line-height:1.95; font-size:15.5px; margin:0;">
-            Our small batches do exactly that. With 6&ndash;8 students per class, every child is asked questions, called on, and prevented from drifting. The Kasba parents we've taught say their kids actually look forward to class &mdash; which, for any after-school activity, is the highest compliment.
+            Our small batches do exactly that. With 15&ndash;20 students per class, every child is asked questions, called on, and prevented from drifting. The Kasba parents we've taught say their kids actually look forward to class &mdash; which, for any after-school activity, is the highest compliment.
         </p>
     """,
     "projects": [

@@ -187,7 +187,7 @@ module.exports = {
       { h3: 'Suburb makes no difference', p: 'A learner in Miandetta and another in Quoiba join the same lesson from home.' },
       { h3: 'Tasmanian year levels', p: 'Teaching follows Tasmanian year levels, including Years 11 and 12, in English.' },
       { h3: 'Free opening lesson', p: 'You build something real with a teacher, then hear a suggested level, course and time; no card details needed.' },
-      { h3: 'Five to ten learners', p: 'Groups at one level drawn from Tasmania, the mainland and overseas.' },
+      { h3: 'Fifteen to twenty learners', p: 'Groups at one level drawn from Tasmania, the mainland and overseas.' },
       { h3: 'Two a week', p: 'Around eight lessons a month, with Tasmanian holidays planned in advance.' },
       { h3: 'Clock changes covered', p: 'When summer time starts or ends, the lesson keeps its Devonport time.' }
     ],
@@ -198,7 +198,7 @@ module.exports = {
     h2: 'What AI and programming classes cost in Devonport',
     intro: 'Three lines cover every price.',
     first: 'An opening lesson at no cost, ending with a level, course and time.',
-    group: 'A month in a group of five to ten, normally eight lessons.',
+    group: 'A month in a group of fifteen to twenty, normally eight lessons.',
     private: 'Normally eight private lessons a month with a single teacher.',
     closer: 'Devonport learners pay the same US dollar rate as the rest of Australia, with no island loading. Payment only begins after the trial has agreed a course and slot; the pricing page covers holidays, missed lessons and switching between formats.'
   },
@@ -223,8 +223,8 @@ module.exports = {
       { q: 'What times do Devonport lessons run?', a: 'After school or at weekends, agreed in the trial and confirmed in Tasmanian time. Summer time changes the gap to India, not the lesson.' },
       { q: 'Can younger children join?', a: 'Yes, from age 6, usually starting with Scratch. This page is written for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Devonport?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Devonport coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Devonport coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

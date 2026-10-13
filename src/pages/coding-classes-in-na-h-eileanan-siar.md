@@ -16,7 +16,7 @@ Western Isles, Na h-Eileanan Siar / Live online
 
 The Met Office publishes monthly records from its Stornoway station, at latitude 58.2 degrees north, going back to 1873, with sunshine hours from 1929. Many people would guess that June, when the days are longest, is the sunniest month in the Outer Hebrides. The record says otherwise. But hours of sunshine are only half the story, because a month can only have as much sunshine as it has daylight. This page's project works out, in Python, the most sunshine each month could possibly have at Stornoway, compares it with what was measured, and finds that the fairest answer and the obvious answer are not the same question.
 
-Facts last verified 26 September 2026. Teaching is online; no Na h-Eileanan Siar branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Na h-Eileanan Siar branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Island starting courses
 
@@ -137,7 +137,7 @@ On islands, an evening coding club is rarely an option. A video lesson at home i
 - **Any island, any township** Lewis, Harris, the Uists or Barra: a laptop and a reliable connection are all that is needed.
 - **Island school language** Our teachers talk in P and S stages and name National 5, Higher and Advanced Higher just as island teachers do; lessons are in English.
 - **First lesson free** A proper lesson at no cost, then a plain recommendation.
-- **Classmates at the right level** Each group has five to ten learners working at one stage, joining from all over.
+- **Classmates at the right level** Each group has fifteen to twenty learners working at one stage, joining from all over.
 - **Term time rhythm** Two lessons a week in term; the holidays are breaks.
 - **A steady UK time** Your booked UK time stays put through the clock changes; teachers in India time adjust.
 
@@ -148,7 +148,7 @@ On islands, an evening coding club is rarely an option. A video lesson at home i
 Stornoway or Barra, the fee is the same, matching what we charge in every country outside India.
 
 - First class: USD 0. One complete lesson free, then honest advice.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month, one learner and one teacher.
 
 Fees are in US dollars, and there is no sterling price. Payment starts only after the free lesson, once a course and a weekly time are agreed; the pricing page explains holidays, missed lessons and switching formats.

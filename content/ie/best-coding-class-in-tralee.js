@@ -52,7 +52,7 @@ module.exports = {
 
   h1: 'Coding classes in Tralee',
   capsuleQ: 'What is the best coding class in Tralee?',
-  capsule: 'Tralee holds 25,675 usual residents in the census town tables, living in 10,185 households, 7,622 of which report broadband. The teaching comes to the house over video, twice in most weeks, with a live teacher and either a group of five to ten learners at one stage or nobody else at all, from age six to sixty-seven. The opening lesson costs nothing. A shared place is USD 100 a month afterwards, and private teaching USD 150.',
+  capsule: 'Tralee holds 25,675 usual residents in the census town tables, living in 10,185 households, 7,622 of which report broadband. The teaching comes to the house over video, twice in most weeks, with a live teacher and either a group of fifteen to twenty learners at one stage or nobody else at all, from age six to sixty-seven. The opening lesson costs nothing. A shared place is USD 100 a month afterwards, and private teaching USD 150.',
   lead: 'The census table we use for these pages carries 868 area labels, 867 towns and one all-towns row, and 16 of the town names contain a character that is not in the plain English alphabet. One is in this county: Dingle-Daingean Ui Chuis, which the file spells with a fada on the i. Nothing about that is exotic, and it is enough to break a data pipeline written carelessly. Read the file as though it were Latin-1 and the name comes back as mangled punctuation. Strip it to ASCII and a letter vanishes. Compare two versions that look identical on screen and the computer says they differ, because one stores the accent as part of the letter and the other keeps it separately. Every one of those was run against that exact label while writing this page. Numbers get all the attention in data work, and text is where the day is usually lost.',
   wa: 'Hello Modern Age Coders, I would like to book a free coding lesson for a learner in Tralee.',
 
@@ -176,7 +176,7 @@ module.exports = {
     intro: 'Six lines.',
     cells: [
       { h3: 'A live teacher', p: 'Present for the whole lesson, watching the work and correcting it as it is written.' },
-      { h3: 'Grouped by level', p: 'Five to ten learners at one stage, joining from Tralee, the rest of Ireland and beyond.' },
+      { h3: 'Grouped by level', p: 'Fifteen to twenty learners at one stage, joining from Tralee, the rest of Ireland and beyond.' },
       { h3: 'Two lessons weekly', p: 'About eight a month, in an hour agreed at the start and then kept.' },
       { h3: 'Around the school year', p: 'Mid-terms, holidays and exam weeks are planned in before the first lesson.' },
       { h3: 'Equipment', p: 'A computer with a keyboard, sound that carries, and a connection that holds video.' },
@@ -189,7 +189,7 @@ module.exports = {
     h2: 'Tralee class fees',
     intro: 'Three lines, complete.',
     first: 'A full opening lesson, taught and assessed, at no charge.',
-    group: 'A month in an ability group of five to ten, about eight live lessons.',
+    group: 'A month in an ability group of fifteen to twenty, about eight live lessons.',
     private: 'A month of one to one teaching on the same weekly pattern.',
     closer: 'Fees are monthly and quoted in US dollars, on the single rate for families outside India, so Tralee sees what Killarney or Ennis sees and no euro list sits beside it. No charge arises before the free hour has produced both a course and a time, and holidays, a missed week and a change of format are each covered on the pricing page.'
   },
@@ -214,7 +214,7 @@ module.exports = {
       { q: 'Do you teach adults in Tralee?', a: 'Yes, to sixty-seven, beginners included. The opening lesson decides whether an adult joins a group at the same stage or is taught one to one.' },
       { q: 'Do the courses use Irish at all?', a: 'Teaching is in English. Irish-language names and text are handled properly in the code we write, which is a different thing and is part of what this page is about.' },
       { q: 'Is there a Modern Age Coders classroom in Tralee?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Tralee cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Tralee cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

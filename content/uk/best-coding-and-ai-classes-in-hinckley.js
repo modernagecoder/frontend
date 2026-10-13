@@ -61,7 +61,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Hinckley',
   capsuleQ: 'Which are the best coding and AI classes in Hinckley?',
-  capsule: 'In the 2021 census the Office for National Statistics recorded 50,725 usual residents in the Hinckley built-up area, part of the Leicestershire borough of Hinckley and Bosworth. Burbage and Sketchley are listed in the postcode gazetteer as suburban areas in the LE10 district; Barwell is a village and Earl Shilton a town in LE9. Anyone there between six and 67 can learn coding, AI, Python, vibe coding or maths with us. They are live video lessons with tutors who teach from India, arranged one-to-one or for a small class of five to ten at a shared level. Our approach is that you should be able to reason your way to an answer before a computer, or an AI, confirms it. A free first lesson lets you try that out, and we end it with a course suggestion. For Hinckley, learners count how many separate loops the town\'s street network contains without tracing any of them, then use the very same formula to measure how tangled a piece of code is. Staying on costs USD 100 monthly for a class seat, or USD 150 monthly with your own tutor.',
+  capsule: 'In the 2021 census the Office for National Statistics recorded 50,725 usual residents in the Hinckley built-up area, part of the Leicestershire borough of Hinckley and Bosworth. Burbage and Sketchley are listed in the postcode gazetteer as suburban areas in the LE10 district; Barwell is a village and Earl Shilton a town in LE9. Anyone there between six and 67 can learn coding, AI, Python, vibe coding or maths with us. They are live video lessons with tutors who teach from India, arranged one-to-one or for a class of fifteen to twenty at a shared level. Our approach is that you should be able to reason your way to an answer before a computer, or an AI, confirms it. A free first lesson lets you try that out, and we end it with a course suggestion. For Hinckley, learners count how many separate loops the town\'s street network contains without tracing any of them, then use the very same formula to measure how tangled a piece of code is. Staying on costs USD 100 monthly for a class seat, or USD 150 monthly with your own tutor.',
   lead: 'Here is a puzzle. A street map has thousands of points and thousands of stretches of road between them. How many separate loops does it contain, counting only loops that cannot be made by joining others together? Tracing them all by hand would be a long job. A single subtraction answers it: take the number of links, subtract the number of points, add one for each connected piece. The result is called the cyclomatic number. It counts the independent loops in any network. In 1976 Thomas McCabe applied the same idea to the flowchart of a program, and cyclomatic complexity became one of the standard measures of how hard code is to test. This project starts on the streets of Hinckley and ends inside a Python file.',
   wa: 'Hello Modern Age Coders, I would like to book a free coding or AI lesson for a learner in Hinckley.',
 
@@ -161,7 +161,7 @@ module.exports = {
       { h3: 'The learner writes', p: 'Code goes in through the learner\'s keyboard on a shared screen; the tutor asks and advises.' },
       { h3: 'Begin with a free lesson', p: 'It is a full session, and it tells us which course to recommend.' },
       { h3: 'No card, no commitment', p: 'The trial is booked with contact details alone.' },
-      { h3: 'One level per class', p: 'Five to ten learners, matched by stage, from across the United Kingdom.' },
+      { h3: 'One level per class', p: 'Fifteen to twenty learners, matched by stage, from across the United Kingdom.' },
       { h3: 'Twice a week', p: 'During term, with Leicestershire school holidays off when you tell us the dates.' },
       { h3: 'A fixed UK time', p: 'The seasonal clock change is handled by our tutors, not by you.' }
     ],
@@ -172,7 +172,7 @@ module.exports = {
     h2: 'Hinckley fees',
     intro: 'The same international fees apply to all learners outside India.',
     first: 'One complete lesson free, with our course suggestion to finish.',
-    group: 'A small group of five to ten, about eight lessons every month.',
+    group: 'A group of fifteen to twenty, about eight lessons every month.',
     private: 'Private lessons with one tutor, about eight every month.',
     closer: 'We charge in US dollars and list no price in sterling. Payment starts after the free lesson, when a course and a lesson time have been agreed. For holidays, missed lessons and changes of format, see the pricing page.'
   },

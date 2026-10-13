@@ -242,7 +242,7 @@ module.exports = {
       { h3: 'One clear answer', p: 'Abandoned attempts crossed out, so the better work is the one marked.' },
       { h3: 'Instruction words', p: 'Estimate, show and explain treated as instructions, never as decoration.' },
       { h3: 'Honest placement', p: 'A clear view of whether a pupil is secure on their pathway or ready for the next.' },
-      { h3: 'Small groups', p: 'Five to ten pupils at one rung, on the same pathway.' }
+      { h3: 'Small groups', p: 'Fifteen to twenty pupils at one rung, on the same pathway.' }
     ]
   },
 
@@ -254,7 +254,7 @@ module.exports = {
     h2: 'Fees for CCEA GCSE maths lessons',
     lede: 'One monthly fee in US dollars, at the rate all families outside India pay. The first lesson is free; we bill only once a course and a weekly time are in place.',
     free: ['A lesson on the pupil\'s own CCEA units', 'An honest view of the pathway', 'A phone number is enough to book'],
-    group: ['Five to ten pupils on one pathway', 'The same teacher through Years 11 and 12', 'Unit-specific past papers weekly', 'Lighter weeks around each series'],
+    group: ['Fifteen to twenty pupils on one pathway', 'The same teacher through Years 11 and 12', 'Unit-specific past papers weekly', 'Lighter weeks around each series'],
     one: ['A teacher for one pupil', 'Planned around the pupil\'s units and dates', 'Suits a pupil hoping to move up a pathway']
   },
 

@@ -224,7 +224,7 @@ module.exports = {
     cells: [
       { h3: 'Pairs and threes', p: 'Students solve together, as the Challenge encourages.' },
       { h3: 'Write, then mark', p: 'Every solution is marked against a rubric.' },
-      { h3: 'Groups of five to ten', p: 'Placed by problem-solving level.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Placed by problem-solving level.' },
       { h3: 'One-to-one option', p: 'For students aiming at Enrichment stages.' },
       { h3: 'Short parent notes', p: 'One idea learned and a problem to discuss at home.' },
       { h3: 'School work stays theirs', p: 'We never work on live Challenge problems with students.' }
@@ -239,7 +239,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Families in Australia pay monthly in US dollars, our usual rate for every country outside India. No deposit, and you can stop at any month end. The Trust\'s modules are entered and paid for by schools.',
     free: ['A real lesson with a teacher', 'An honest view of problem-solving level', 'No card details'],
-    group: ['Five to ten students at one level', 'The same teacher every week', 'Solutions marked and discussed', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher every week', 'Solutions marked and discussed', 'A certificate at the end'],
     one: ['A teacher for one student', 'Focused on written solutions', 'A weekly time that suits you']
   },
 

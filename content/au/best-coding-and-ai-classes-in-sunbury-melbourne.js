@@ -304,7 +304,7 @@ module.exports = {
       { h3: 'Shared screen, own code', p: 'Each learner codes on their own computer while the teacher follows the shared screen and asks questions.' },
       { h3: 'Terms and holidays', p: 'Courses run through the Victorian terms and stop for school holidays.' },
       { h3: 'Start with a free lesson', p: 'The trial is a real class; afterwards the teacher suggests a course and a time that suits.' },
-      { h3: 'Small level groups', p: 'Five to ten learners at the same stage work together.' },
+      { h3: 'Small level groups', p: 'Fifteen to twenty learners at the same stage work together.' },
       { h3: 'Steady pace', p: 'Two set lessons each week, about eight a month, with holiday breaks planned ahead.' },
       {
         h3: 'Teachers in India',
@@ -320,7 +320,7 @@ module.exports = {
     h2: 'Sunbury class fees',
     intro: 'A free start, then two monthly options.',
     first: 'Lesson one is free and closes with a straight recommendation.',
-    group: 'A month of group lessons, normally eight, with five to ten learners at one level.',
+    group: 'A month of group lessons, normally eight, with fifteen to twenty learners at one level.',
     private: 'Close to eight one-to-one lessons a month with a single teacher.',
     closer: 'Fees outside India are in US dollars, the same for Sunbury as for any family abroad. Nothing is charged before the trial has decided the course and the time; the pricing page explains holidays, missed classes and changing format.'
   },
@@ -362,12 +362,12 @@ module.exports = {
       },
       {
         q: 'How much are coding classes for Sunbury learners?',
-        a: 'The first lesson is free. After that, group classes are USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, and one-to-one classes are USD 150 a month. Course, format and time are agreed before payment.',
+        a: 'The first lesson is free. After that, group classes are USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, and one-to-one classes are USD 150 a month. Course, format and time are agreed before payment.',
         boiler: true
       },
       {
         q: 'How big is each group?',
-        a: 'Five to ten learners, grouped on level, pace and goals, with one-to-one lessons if no group time works.',
+        a: 'Fifteen to twenty learners, grouped on level, pace and goals, with one-to-one lessons if no group time works.',
         boiler: true
       },
       {

@@ -199,7 +199,7 @@ module.exports = {
       { h3: 'Two cities, one class', p: 'A student in Urangan and one in Maryborough can work on the same agent in the same lesson without a single bus ride.' },
       { h3: 'Fitted to Queensland schooling', p: 'Plans follow Queensland\'s year structure and its four terms, and Year 11 and 12 students may link an agent project to Digital Solutions. Every lesson is taught in English.' },
       { h3: 'The first lesson is real', p: 'You get a genuine class, not a sales pitch, and leave with a recommended level, course and time; no card is requested.' },
-      { h3: 'Groups at your level', p: 'Five to ten learners at a matching stage from the Fraser Coast and elsewhere, so classes run at a good size.' },
+      { h3: 'Groups at your level', p: 'Fifteen to twenty learners at a matching stage from the Fraser Coast and elsewhere, so classes run at a good size.' },
       { h3: 'Two lessons a week', p: 'A fixed pair of weekly slots, about eight lessons a month, with holiday and exam breaks agreed in advance.' },
       { h3: 'A fixed time gap', p: 'Neither Queensland nor India changes its clocks, so the four-and-a-half-hour gap to our teachers is the same all year.' }
     ],
@@ -210,7 +210,7 @@ module.exports = {
     h2: 'Hervey Bay class fees',
     intro: 'Three numbers, clearly stated.',
     first: 'The whole first lesson is free and ends with a level, a course and a lesson time.',
-    group: 'A month of lessons, normally eight, in a group of five to ten learners at your stage.',
+    group: 'A month of lessons, normally eight, in a group of fifteen to twenty learners at your stage.',
     private: 'About eight lessons a month on the same pattern, one teacher with one learner.',
     closer: 'Every country apart from India pays in US dollars, so a family at Point Vernon and one at Torquay pay identical fees and there is no Hervey Bay price list. Nothing is billed until the trial has fixed what and when you learn, and questions about holidays, absences or switching to private lessons are answered on the pricing page.'
   },
@@ -235,8 +235,8 @@ module.exports = {
       { q: 'When are lessons for Hervey Bay learners?', a: 'Usually after school or on a weekend morning, settled at the trial and quoted in Queensland time. Our teachers\' clocks sit four and a half hours behind Hervey Bay in every month.' },
       { q: 'Can younger children learn with you?', a: 'Yes, from six, starting with Scratch and visual projects before typed code; the agent project on this page is meant for older learners.' },
       { q: 'Is there a Modern Age Coders centre in Hervey Bay?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Hervey Bay AI agents classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Hervey Bay AI agents classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

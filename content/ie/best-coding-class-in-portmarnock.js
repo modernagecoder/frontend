@@ -186,7 +186,7 @@ module.exports = {
     intro: 'How it works.',
     cells: [
       { h3: 'Teacher present', p: 'Each lesson is taught live, with the teacher responding to the learner\'s code as they go.' },
-      { h3: 'Level first', p: 'Groups of five to ten are formed by stage, with learners from Fingal, the rest of Ireland and abroad.' },
+      { h3: 'Level first', p: 'Groups of fifteen to twenty are formed by stage, with learners from Fingal, the rest of Ireland and abroad.' },
       { h3: 'Regular slots', p: 'Usually two lessons a week, around eight a month, on fixed days.' },
       { h3: 'Around exams and holidays', p: 'The plan leaves room for mid-terms, holidays and exam weeks.' },
       { h3: 'Needed at home', p: 'A computer with a keyboard, a way to talk and listen, and a stable home connection, which 3,531 Portmarnock households already have.' },
@@ -199,7 +199,7 @@ module.exports = {
     h2: 'Fees for Portmarnock',
     intro: 'Prices, in full.',
     first: 'A full first lesson with the level assessed, free.',
-    group: 'A month in a group of five to ten at one stage, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one stage, about eight live lessons.',
     private: 'A month of one-to-one lessons on the same weekly pattern.',
     closer: 'Families anywhere but India pay one monthly price in US dollars. The free lesson costs nothing and binds nobody; the first payment comes with the start of the course, and holidays, missed lessons or a change of format are all covered in the pricing page\'s rules.'
   },
@@ -224,7 +224,7 @@ module.exports = {
       { q: 'Are adults welcome?', a: 'Certainly; learners up to sixty-seven join, whatever their starting point. Adults leave the first lesson with a clear choice between a small group at their level and one-to-one teaching.' },
       { q: 'Will a Portmarnock learner be grouped with others from the town?', a: 'Groups are formed by level, so classmates may be in Fingal, elsewhere in Ireland or abroad.' },
       { q: 'Is there a Modern Age Coders classroom in Portmarnock?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Portmarnock cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Portmarnock cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

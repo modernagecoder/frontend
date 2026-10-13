@@ -217,7 +217,7 @@ module.exports = {
     cells: [
       { h3: 'Arguments discussed aloud', p: 'Students explain the flaw before the class moves on.' },
       { h3: 'Puzzles with reasons', p: 'Every answer needs a sentence of justification.' },
-      { h3: 'Five to ten per group', p: 'Small enough for everyone to speak.' },
+      { h3: 'Fifteen to twenty per group', p: 'Small enough for everyone to speak.' },
       { h3: 'Private lessons', p: 'For a child who wants focused one-to-one time.' },
       { h3: 'Not test coaching', p: 'We teach thinking skills for life, as the department advises.' },
       { h3: 'No promises', p: 'Selection decisions belong to the department; we claim nothing about them.' }
@@ -232,7 +232,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'We charge NSW families monthly in US dollars, as we do in every country outside India. No deposit, and no minimum number of months.',
     free: ['A real lesson with a teacher', 'Honest advice, even if it is that no classes are needed', 'No card details'],
-    group: ['Five to ten students at one level', 'A regular teacher', 'Discussion and feedback every week', 'Certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'A regular teacher', 'Discussion and feedback every week', 'Certificate at the end'],
     one: ['One-to-one teaching', 'Focus on chosen skills', 'Flexible weekly time']
   },
 

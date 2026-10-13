@@ -199,7 +199,7 @@ module.exports = {
       { h3: 'Coast and hinterland', p: 'A learner in Lake Cathie and one in Wauchope can build the same agent together, live, without travelling.' },
       { h3: 'NSW schooling', p: 'Lessons follow NSW stages and the state\'s four terms, and Year 11 and 12 students can connect agent projects to their computing subjects. Teaching is in English.' },
       { h3: 'A trial that teaches', p: 'The first lesson is a proper class, after which you receive a suggested level, course and time, and we take no card details.' },
-      { h3: 'Groups that match', p: 'Five to ten learners at one level, from the Hastings and beyond, so every group has enough members.' },
+      { h3: 'Groups that match', p: 'Fifteen to twenty learners at one level, from the Hastings and beyond, so every group has enough members.' },
       { h3: 'Twice a week', p: 'Regular slots twice weekly, close to eight lessons a month, with breaks for holidays and exams set in advance.' },
       { h3: 'Teachers in India', p: 'A 6pm Port Macquarie lesson in August starts at 1:30pm in India, and at 12:30pm after NSW daylight saving begins.' }
     ],
@@ -210,7 +210,7 @@ module.exports = {
     h2: 'Port Macquarie class fees',
     intro: 'Three figures, clearly set out.',
     first: 'A full free lesson, ending with a recommended level, course and time.',
-    group: 'A month of lessons, usually eight, with five to ten learners at the same level.',
+    group: 'A month of lessons, usually eight, with fifteen to twenty learners at the same level.',
     private: 'About eight lessons a month on the same pattern, one to one with a teacher.',
     closer: 'Families everywhere except India pay in US dollars, so a household in Port Macquarie and one in Laurieton receive the same invoice and there is no local price. We bill only after the trial has set a course and time; the pricing page explains breaks, absences and changes of format.'
   },
@@ -235,8 +235,8 @@ module.exports = {
       { q: 'What time are lessons for Port Macquarie learners?', a: 'Families usually choose an after-school or weekend slot at the trial, in NSW time. India runs 4.5 hours behind Port Macquarie in winter and 5.5 hours behind during daylight saving.' },
       { q: 'Can younger children join?', a: 'Yes, from six. Younger learners begin with Scratch and visual projects; the agent project here is aimed at teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Port Macquarie?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Port Macquarie AI agents classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Port Macquarie AI agents classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

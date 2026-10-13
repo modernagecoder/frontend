@@ -52,7 +52,7 @@ module.exports = {
 
   h1: 'Coding classes in Hillingdon',
   capsuleQ: 'What are the best coding classes in Hillingdon?',
-  capsule: 'Hillingdon is London\'s far-western borough, from Harefield and Northwood down through Ruislip, Uxbridge and Hayes to West Drayton and Heathrow, and 305,909 people lived there at the 2021 Census. Its council lists sixteen libraries, and Uxbridge station is served by both the Metropolitan and Piccadilly lines. A good class for a Hillingdon learner should teach them to ask what a chart is hiding, and this page\'s project does it with the Met Office weather record kept at Heathrow since 1948. Our teachers work live over video from India, one to one or with five to ten learners at the same level, for ages 6 to 67. The first lesson is free, and after it a group place costs USD 100 a month and private lessons USD 150 a month.',
+  capsule: 'Hillingdon is London\'s far-western borough, from Harefield and Northwood down through Ruislip, Uxbridge and Hayes to West Drayton and Heathrow, and 305,909 people lived there at the 2021 Census. Its council lists sixteen libraries, and Uxbridge station is served by both the Metropolitan and Piccadilly lines. A good class for a Hillingdon learner should teach them to ask what a chart is hiding, and this page\'s project does it with the Met Office weather record kept at Heathrow since 1948. Our teachers work live over video from India, one to one or with fifteen to twenty learners at the same level, for ages 6 to 67. The first lesson is free, and after it a group place costs USD 100 a month and private lessons USD 150 a month.',
   lead: 'Draw a straight line through 78 years of Heathrow temperatures and it tells a calm story: about 0.31 degrees of warming every decade, steady from 1948 to today. Let a program bend the line to follow the data, using a method called LOESS, and a different story appears. From 1949 to 1985 the smoothed curve barely moves, a quarter of a degree in 36 years. From 1985 to 2025 it climbs almost two degrees. Same data, same station, and a completely different answer to the question most people actually ask: when did it happen? Choosing how much to bend the line is its own lesson. Bend too little and you hide the change; bend too much and you chase every hot summer. Our learners let the data choose, by leaving out one year at a time and testing which setting predicts it most closely.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Hillingdon.',
 
@@ -191,7 +191,7 @@ module.exports = {
       { h3: 'Wherever the laptop is', p: 'Most learners join from home; a library table with headphones is a good plan B.' },
       { h3: 'Stages by their English names', p: 'Reception to Year 13, SATs, Year 9 options, GCSEs, A levels and T Levels are named as English schools name them. Teaching is in English.' },
       { h3: 'Try first, pay later', p: 'The first lesson is a real task with a teacher, ending with a suggested level and course. We ask for no card.' },
-      { h3: 'Matched, small groups', p: 'Five to ten learners at one level, from Hillingdon and far beyond, so a group exists at a workable hour.' },
+      { h3: 'Matched, small groups', p: 'Fifteen to twenty learners at one level, from Hillingdon and far beyond, so a group exists at a workable hour.' },
       { h3: 'Two a week, school permitting', p: 'Most groups meet twice weekly, pausing for half terms, holidays and exams by agreement.' },
       { h3: 'Always in UK time', p: 'Teachers are in India, but the time on every invitation and reminder is the time on your own clock.' }
     ],
@@ -202,7 +202,7 @@ module.exports = {
     h2: 'Fees for Hillingdon families',
     intro: 'A free first lesson, then a single monthly fee, the same in every part of the borough.',
     first: 'A full first lesson with a teacher at no charge, ending with a suggested level, course and weekly time.',
-    group: 'Close to eight live lessons each month, in a group of five to ten at one level.',
+    group: 'Close to eight live lessons each month, in a group of fifteen to twenty at one level.',
     private: 'Close to eight live lessons each month, one teacher, one learner.',
     closer: 'Hillingdon families, from Harefield to Hayes, are billed in US dollars like every family outside India, and pound prices appear nowhere on our site. Payment starts only after the free lesson, when a course and weekly time are settled; the pricing page explains how pauses, missed lessons and moves between group and one-to-one work.'
   },
@@ -227,8 +227,8 @@ module.exports = {
       { q: 'When are lessons for Hillingdon learners?', a: 'We settle a regular time after the free lesson, from the groups at the learner\'s level with a free place. The teacher works on India time, but every time we send you is written in UK time, whatever the season.' },
       { q: 'Can my child join from a Hillingdon library?', a: 'Yes, if the library\'s computers and connection allow it, with headphones. Most learners find home quieter.' },
       { q: 'Does Modern Age Coders have a centre in Hillingdon?', a: 'No. There is no centre in Hillingdon or anywhere else in the UK, because all our teaching happens live online. A learner needs a computer with sound and a steady connection, and our phone number is an Indian one.', boiler: true },
-      { q: 'What do coding classes in Hillingdon cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than by age or postcode, in groups of five to ten at one stage. Where no group fits the learner\'s week, one-to-one lessons are available instead.', boiler: true }
+      { q: 'What do coding classes in Hillingdon cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than by age or postcode, in groups of fifteen to twenty at one stage. Where no group fits the learner\'s week, one-to-one lessons are available instead.', boiler: true }
     ]
   },
 

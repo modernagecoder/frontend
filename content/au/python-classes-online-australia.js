@@ -425,7 +425,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Free first class', p: 'A first Python program, whatever your age.' },
-      { h3: 'Age-matched groups', p: 'Five to ten learners of a similar age and stage.' },
+      { h3: 'Age-matched groups', p: 'Fifteen to twenty learners of a similar age and stage.' },
       { h3: 'One to one', p: 'For a goal, an exam or a project.' },
       { h3: 'Real data', p: 'Public Australian data in projects from the teens up.' },
       { h3: 'Tests early', p: 'Edge cases checked before code is called done.' },
@@ -439,7 +439,7 @@ module.exports = {
     h2: 'Fees for Python classes online',
     lede: 'Python learners in Australia are charged monthly in US dollars, with no enrolment fee and freedom to stop at the end of any month.',
     free: ['A first Python program', 'A recommended course and level', 'No card details'],
-    group: ['Five to ten learners, matched by age', 'Shared code reviews', 'A regular teacher', 'Stop at the end of any month'],
+    group: ['Fifteen to twenty learners, matched by age', 'Shared code reviews', 'A regular teacher', 'Stop at the end of any month'],
     one: ['Python around one learner\'s goal', 'Pace and depth to suit', 'Times around school or work']
   },
   faq: {

@@ -16,7 +16,7 @@ Hengelo, Overijssel / Live online
 
 Every measuring instrument collects more than its makers want. A radar sends out a pulse and hears back from everything it touches: aircraft, ships, hills, waves and falling rain. For a set that tracks aircraft, the rain is clutter, and a great deal of engineering goes into suppressing it. For a weather radar, the rain is the whole point, and the aircraft are the nuisance. Neither is wrong. The echo is the same; only the question has changed. Data work runs into this constantly. A cleaning script that removes outliers, silences background sound or drops duplicate rows was written with one question in mind, and it quietly throws away what someone else, asking a different question later, will need. Hengelo, where Hazemeyer's signal-apparatus factory opened in 1922, is a fitting place to learn to ask what the noise is noise for.
 
-Facts last verified 11 September 2026. Teaching is online; no Hengelo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Hengelo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the town of Stork and Signaal
 
@@ -194,7 +194,7 @@ From the Binnenstad to the Buitengebied, a Hengelo learner joins from home and t
 - **Home is the classroom** Someone in Slangenbeek and someone in Noord open the same session at the same minute. There is no trip across town and nobody waiting outside a building afterwards.
 - **Havo stays havo** The Dutch labels for school, from groep and brugklas through vmbo, havo and vwo to the profielkeuze, are used untranslated, while explanations are given in English.
 - **Free, and a real lesson** The first session is taught properly on a genuine task rather than demonstrated. It closes with a recommended level, a course and a proposed weekly slot; no payment details are requested.
-- **Matched classmates** Groups hold five to ten learners at one stage. Hengelo has 11,422 residents under fifteen, and finding five of them at an identical point, free at an identical hour, is unusual, so classmates can come from other countries.
+- **Matched classmates** Groups hold fifteen to twenty learners at one stage. Hengelo has 11,422 residents under fifteen, and finding five of them at an identical point, free at an identical hour, is unusual, so classmates can come from other countries.
 - **Holidays of regio Noord** Sessions run twice a week, roughly eight times a month, at one fixed slot, and stop for the regio Noord school holidays that Overijssel follows.
 - **Teachers on Indian time** The teaching team works in India, three and a half hours later than Dutch summer time and four and a half later in winter, which puts late afternoons, evenings and weekend mornings within easy reach.
 
@@ -205,7 +205,7 @@ From the Binnenstad to the Buitengebied, a Hengelo learner joins from home and t
 What a family pays, in full, before booking anything.
 
 - First class: USD 0. One genuine lesson on a genuine task, finishing with a level and the course that fits.
-- Group tuition: USD 100 a month. A month of classes, normally eight, in a group of five to ten at the same level.
+- Group tuition: USD 100 a month. A month of classes, normally eight, in a group of fifteen to twenty at the same level.
 - Private tuition: USD 150 a month. A month of classes, normally eight, with a teacher to oneself.
 
 There is one dollar price for every country and no euro tariff alongside it, so a family in Wilderinkshoek pays the same as one in the Binnenstad. Nothing is charged before the free lesson has fixed the course and the slot, and payment is then set up over WhatsApp. For pauses, a switch of format or missed sessions, see the pricing page.
@@ -246,7 +246,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Hengelo coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

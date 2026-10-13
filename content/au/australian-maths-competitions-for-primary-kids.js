@@ -222,7 +222,7 @@ module.exports = {
       { h3: 'Strategies taught', p: 'Draw it, list it, shrink it, check it.' },
       { h3: 'Thinking out loud', p: 'Children explain how they solved each problem.' },
       { h3: 'Original problems', p: 'Never copied from competition papers.' },
-      { h3: 'Classes of five to ten', p: 'Children at a similar level, learning from each other.' },
+      { h3: 'Classes of fifteen to twenty', p: 'Children at a similar level, learning from each other.' },
       { h3: 'One-to-one option', p: 'For a child who needs a different pace or more stretch.' },
       { h3: 'No medal promised', p: 'Organisers set and mark; we build the thinking.' }
     ]
@@ -236,7 +236,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Maths classes are charged per month in US dollars, our international rate, with no enrolment fee and no fixed term. Competition entries are arranged with the organisers, usually through schools, and are separate from our fees.',
     free: ['A free first maths class', 'A short check of number sense and strategies', 'No payment details'],
-    group: ['Five to ten children at one level', 'The same teacher each week', 'Problems solved and discussed together', 'A certificate on completion'],
+    group: ['Fifteen to twenty children at one level', 'The same teacher each week', 'Problems solved and discussed together', 'A certificate on completion'],
     one: ['A teacher for one child', 'Work pitched exactly at the child\'s level', 'Times arranged around family life']
   },
 

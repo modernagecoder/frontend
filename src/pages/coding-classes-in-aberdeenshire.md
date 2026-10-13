@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Aberdeenshire,
 canonical: https://learn.modernagecoders.com/coding-classes-in-aberdeenshire
 source: src/pages/coding-classes-in-aberdeenshire.html
 ---
-> Aberdeenshire is one council area, and Scotland's Census 2022 counted about 263,900 people there, in some 115,800 households, at 41.8 people per square kilometre against 69.8 for Scotland. Its largest towns are Peterhead, Inverurie, Fraserburgh, Westhill and Stonehaven. Teaching happens live by video from India, and the class a learner joins depends on what they can already do rather than their age. We teach anyone from 6 to 67, from Primary 1 to S6 and beyond, in groups of five to ten or one-to-one, in coding, Python, algorithms and maths. The Aberdeenshire project comes from the Braemar Gathering. We charge nothing for the opening lesson; continuing costs USD 100 per month in a small group or USD 150 per month on your own.
+> Aberdeenshire is one council area, and Scotland's Census 2022 counted about 263,900 people there, in some 115,800 households, at 41.8 people per square kilometre against 69.8 for Scotland. Its largest towns are Peterhead, Inverurie, Fraserburgh, Westhill and Stonehaven. Teaching happens live by video from India, and the class a learner joins depends on what they can already do rather than their age. We teach anyone from 6 to 67, from Primary 1 to S6 and beyond, in groups of fifteen to twenty or one-to-one, in coding, Python, algorithms and maths. The Aberdeenshire project comes from the Braemar Gathering. We charge nothing for the opening lesson; continuing costs USD 100 per month in a small group or USD 150 per month on your own.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Aberdeenshire
 
@@ -12,11 +12,11 @@ Aberdeenshire / Live online
 
 # Coding classes in Aberdeenshire
 
-**What are the best coding classes in Aberdeenshire?** Aberdeenshire is one council area, and Scotland's Census 2022 counted about 263,900 people there, in some 115,800 households, at 41.8 people per square kilometre against 69.8 for Scotland. Its largest towns are Peterhead, Inverurie, Fraserburgh, Westhill and Stonehaven. Teaching happens live by video from India, and the class a learner joins depends on what they can already do rather than their age. We teach anyone from 6 to 67, from Primary 1 to S6 and beyond, in groups of five to ten or one-to-one, in coding, Python, algorithms and maths. The Aberdeenshire project comes from the Braemar Gathering. We charge nothing for the opening lesson; continuing costs USD 100 per month in a small group or USD 150 per month on your own.
+**What are the best coding classes in Aberdeenshire?** Aberdeenshire is one council area, and Scotland's Census 2022 counted about 263,900 people there, in some 115,800 households, at 41.8 people per square kilometre against 69.8 for Scotland. Its largest towns are Peterhead, Inverurie, Fraserburgh, Westhill and Stonehaven. Teaching happens live by video from India, and the class a learner joins depends on what they can already do rather than their age. We teach anyone from 6 to 67, from Primary 1 to S6 and beyond, in groups of fifteen to twenty or one-to-one, in coding, Python, algorithms and maths. The Aberdeenshire project comes from the Braemar Gathering. We charge nothing for the opening lesson; continuing costs USD 100 per month in a small group or USD 150 per month on your own.
 
 The Braemar Gathering says it has been held in its present form since 1832, on the first Saturday of September, and the next is on 4 September 2027. Any competition with many teams faces a scheduling puzzle that computer scientists love: how do you arrange the contests so that every team meets every other team exactly once, nobody has two contests at the same time, and the whole thing takes as few rounds as possible? The standard answer, called the circle method, fits in a dozen lines of Python. This page's project builds it, proves it works with a checker, handles an odd number of teams, and then makes the schedule fairer.
 
-Facts last verified 26 September 2026. Teaching is online; no Aberdeenshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Aberdeenshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Aberdeenshire learners begin
 
@@ -139,7 +139,7 @@ Aberdeenshire covers a great deal of countryside, and for many homes the nearest
 - **At home, anywhere** A farmhouse near Turriff, a house in Westhill, a flat in Peterhead. The pupil types and runs the code, and the teacher sees the same screen and guides.
 - **Scottish school stages** Primary 1 to 7, S1 to S6, then National 5, Higher and Advanced Higher: lessons use the names Aberdeenshire schools use, and teaching is in English.
 - **A free first lesson** A real lesson, then honest advice on level and course. No card details are asked for.
-- **A group that matches** Classes of five to ten are built around a shared stage, not a shared postcode.
+- **A group that matches** Classes of fifteen to twenty are built around a shared stage, not a shared postcode.
 - **Term and holiday rhythm** Most pupils have two lessons a week in term and pause when the school holidays arrive.
 - **Scottish clock, not ours** A lesson booked for 5pm in Aberdeenshire stays at 5pm UK time in March and October alike; our teachers, working on India time, move instead.
 
@@ -150,7 +150,7 @@ Aberdeenshire covers a great deal of countryside, and for many homes the nearest
 Fraserburgh or Banchory, the fee is the same, as it is in every country we teach apart from India.
 
 - First class: USD 0. A complete lesson of genuine work, then a recommended level and course.
-- Group tuition: USD 100 a month. About eight lessons a month with five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight lessons a month, one-to-one.
 
 We charge in US dollars and publish no pound prices. No bill arrives until the free lesson has settled a course and a weekly slot; the pricing page covers holidays, missed lessons and switching format.

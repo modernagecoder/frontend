@@ -14,7 +14,7 @@ Australia · Ages 6 to 12 and beyond · Where to start
 
 Parents often ask us which comes first: a coding class, because their child loves games and screens, or a maths tutor, because school reports mention numeracy. It is a fair question, and the answer depends on the child. This page sets out the signs that point each way, shows how the Australian Curriculum already asks primary children to write and follow algorithms in maths, and walks through a growing-pattern task that is half maths and half code, which is often where the answer lies.
 
-At a glance: For: Ages 6 to 12, and older; Options: Coding, maths or both; Combined course: Maths through coding; Teacher: The same one each week; Delivery: Live online video; Group size: Five to ten, or one to one; Times: Set for your state; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 6 to 12, and older; Options: Coding, maths or both; Combined course: Maths through coding; Teacher: The same one each week; Delivery: Live online video; Group size: Fifteen to twenty, or one to one; Times: Set for your state; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## A coding course, a maths course, or both at once
 
@@ -223,7 +223,7 @@ Lessons are planned around the learner, whichever subject comes first.
 Coding and maths lessons outside India are billed monthly in US dollars at one rate for every country. You can switch between subjects as needs change, with no joining fee and no term contract.
 
 - Free first class: USD 0. A free first lesson. Advice on which to start with. No card details.
-- Group batch: USD 100 a month. Five to ten learners. One regular teacher. Coding or maths. Monthly.
+- Group batch: USD 100 a month. Fifteen to twenty learners. One regular teacher. Coding or maths. Monthly.
 - One to one: USD 150 a month. A teacher to yourself. Coding, maths or both. Your own pace.
 
 ## Coding or maths first: common questions

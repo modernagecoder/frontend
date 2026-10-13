@@ -16,7 +16,7 @@ Bendigo, Victoria, Australia / Live online
 
 Every AI model is graded against labels, and labels come in layers. A tree is a species, its species belongs to a genus, and a model that guesses the wrong species but the right genus is not wholly wrong. The City of Greater Bendigo publishes both layers for 121,481 street and park trees. We built the simplest possible model, one that predicts the commonest species in each suburb, and scored it three ways. Against species it is right 18.57% of the time. Against the published genus it reaches 31.26%. Merge the two buckets the file uses for eucalypts and it climbs to 48.83%. Same predictions, three grades. Learners find out why.
 
-Facts last verified 7 October 2026. Teaching is online; no Bendigo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Bendigo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Bendigo learners begin with AI
 
@@ -180,7 +180,7 @@ Greater Bendigo stretches across old goldfields and new estates, and a live vide
 - **From Eaglehawk to Kennington** Two learners on opposite sides of the city can sit in the same class without either of them driving anywhere.
 - **Fitted to Victorian schooling** We use Victorian year levels, work around the four terms and help senior students connect projects to their studies. Teaching is in English.
 - **First lesson, real content** Your trial is a proper lesson that finishes with a suggested level, course and time. No card is taken.
-- **Groups of five to ten** Learners at the same level from Bendigo and beyond, so regional students always have classmates at their stage.
+- **Groups of fifteen to twenty** Learners at the same level from Bendigo and beyond, so regional students always have classmates at their stage.
 - **Steady weekly rhythm** About eight lessons a month at a set time, with breaks for holidays and exams agreed with your teacher.
 - **India-based teachers** A 7pm lesson in Bendigo is 1:30pm for our teachers during daylight saving and 2:30pm once Victoria's clocks go back in April.
 
@@ -191,7 +191,7 @@ Greater Bendigo stretches across old goldfields and new estates, and a live vide
 Three prices and nothing hidden.
 
 - First class: USD 0. A full lesson without charge, ending with a recommended level, course and regular slot.
-- Group tuition: USD 100 a month. A month of lessons, normally eight, in a class of five to ten learners at your level.
+- Group tuition: USD 100 a month. A month of lessons, normally eight, in a class of fifteen to twenty learners at your level.
 - Private tuition: USD 150 a month. Roughly eight lessons a month at the same pace, with a teacher working only with you.
 
 We charge in US dollars in every country apart from India, so a learner in Epsom and one in Spring Gully receive identical invoices. You are billed only after the trial agrees a course and a time, and the pricing page explains holidays, missed lessons and changing between group and private.
@@ -232,11 +232,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Bendigo AI classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Bendigo and Victorian learners
 

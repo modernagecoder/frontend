@@ -16,7 +16,7 @@ Utrecht, province of Utrecht / Live online
 
 Two official offices count Utrecht's secondary pupils and get answers 4,870 apart, and both are right, because one counts the schools and the other counts the children. Working out what that gap can and cannot tell you is a twenty-minute program, and it is the most Utrecht thing a child here can learn, in a city whose whole function is people passing through.
 
-Facts last verified 7 September 2026. Teaching is online; no Utrecht branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Utrecht branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city with 57,569 people between fifteen and twenty-five
 
@@ -182,7 +182,7 @@ Utrecht families already spend more of their week in transit than most: through 
 - **No platform, no transfer** The class is at home in Terwijde, Lombok or Tuindorp at a fixed hour, and it is indifferent to whether the 17:38 from Amsterdam is on time.
 - **English first, Dutch words intact** Teaching is in English. Groep, havo, vwo, gymnasium, profielkeuze and MYP stay in Dutch or in IB-speak, exactly as the school uses them, because that is the vocabulary the family lives in.
 - **The opening lesson is the whole product, once, for free** A task pitched at the learner, a level, a named course and a weekly time by the end of the hour. No card details are taken to arrange it.
-- **Five to ten learners, grouped by level** Groups are assembled from what learners can do and want next. Wijk, school and whether the family arrived last month or in 1636 do not enter into it.
+- **Fifteen to twenty learners, grouped by level** Groups are assembled from what learners can do and want next. Wijk, school and whether the family arrived last month or in 1636 do not enter into it.
 - **Two lessons a week, on regio Midden's calendar** Roughly eight a month at one recurring time. The province of Utrecht takes its school holidays with regio Midden, and those weeks are agreed before the slot is.
 - **Four and a half hours, or three and a half** That is the gap between a Utrecht afternoon and the teacher's evening in India, wider in winter because only the Dutch clock moves. After-school, early-evening and weekend slots suit both ends and the family fixes one during the free lesson.
 
@@ -193,7 +193,7 @@ Utrecht families already spend more of their week in transit than most: through 
 The whole tariff, printed before anyone asks for a phone number.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate exists and it is in US dollars; there is no euro list, no Utrecht supplement and no enrolment charge. The free lesson settles the course and the slot, and payment is arranged afterwards over WhatsApp rather than before. Pauses, plan changes and missed lessons are set out on the pricing page.
@@ -234,7 +234,7 @@ No, and none is claimed in Utrecht, on the Science Park or anywhere in the Nethe
 
 ### What do Utrecht coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Utrecht group?
 

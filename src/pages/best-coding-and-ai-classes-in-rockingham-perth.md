@@ -16,7 +16,7 @@ City of Rockingham, south coast of Perth, Western Australia / Live online
 
 The City of Rockingham runs from the Kwinana Freeway in the east to the coast at Safety Bay and Warnbro. Main Roads Western Australia maps every school zone on its local roads, 408 short segments in all. Each one marks where drivers slow to 40 km/h near a school, which makes the table familiar to every parent who does a school run.
 
-Facts last verified 12 October 2026. Teaching is online; no Rockingham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Rockingham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## SQL, algorithms and AI
 
@@ -183,7 +183,7 @@ Lessons are live on video, so families from Safety Bay to Port Kennedy join from
 - **Live lessons** A teacher runs each class and checks work as it happens.
 - **Follows WA terms** Classes pause for the state school holidays.
 - **Free first class** One free lesson, then a written course plan.
-- **Groups of five to ten** Matched by level, or one-to-one if preferred.
+- **Groups of fifteen to twenty** Matched by level, or one-to-one if preferred.
 - **Weekly pattern** Two lessons a week, roughly eight a month.
 - **Indian timing** A 6pm Rockingham lesson is 3:30pm in India.
 
@@ -194,7 +194,7 @@ Lessons are live on video, so families from Safety Bay to Port Kennedy join from
 Every family pays the same fees.
 
 - First class: USD 0. The first class is free, with a plan to follow.
-- Group tuition: USD 100 a month. Group classes: around eight lessons a month, five to ten learners.
+- Group tuition: USD 100 a month. Group classes: around eight lessons a month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. One-to-one: around eight lessons a month with one teacher.
 
 Fees are charged in US dollars, starting only after the free class has set the course and a weekly time. See the pricing page for holiday and missed-lesson details.
@@ -231,11 +231,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Rockingham classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How are groups decided?
 
-By level and pace in groups of five to ten, not by age or suburb. One-to-one lessons suit anyone no group time fits.
+By level and pace in groups of fifteen to twenty, not by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Do you teach adults?
 

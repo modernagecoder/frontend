@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for St Asaph lear
 canonical: https://learn.modernagecoders.com/best-coding-class-in-st-asaph
 source: src/pages/best-coding-class-in-st-asaph.html
 ---
-> St Asaph and Trefnant, the middle-layer area that includes the city, had 5,301 usual residents at the 2021 census, at 165.8 people per square kilometre. Cadw's listing for the cathedral records a monastery founded by St Kentigern about 560. St Asaph learners from six to sixty-seven have live video lessons with our teachers in India, either one to one or in a class of five to ten at one level, timed around Welsh school days and working hours. There is no fee for the opening lesson; after it, a place in a class is USD 100 a month and one-to-one teaching is USD 150 a month.
+> St Asaph and Trefnant, the middle-layer area that includes the city, had 5,301 usual residents at the 2021 census, at 165.8 people per square kilometre. Cadw's listing for the cathedral records a monastery founded by St Kentigern about 560. St Asaph learners from six to sixty-seven have live video lessons with our teachers in India, either one to one or in a class of fifteen to twenty at one level, timed around Welsh school days and working hours. There is no fee for the opening lesson; after it, a place in a class is USD 100 a month and one-to-one teaching is USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / St Asaph
 
@@ -12,11 +12,11 @@ St Asaph, Denbighshire / Live online
 
 # Coding classes in St Asaph
 
-**What are the best coding classes in St Asaph?** St Asaph and Trefnant, the middle-layer area that includes the city, had 5,301 usual residents at the 2021 census, at 165.8 people per square kilometre. Cadw's listing for the cathedral records a monastery founded by St Kentigern about 560. St Asaph learners from six to sixty-seven have live video lessons with our teachers in India, either one to one or in a class of five to ten at one level, timed around Welsh school days and working hours. There is no fee for the opening lesson; after it, a place in a class is USD 100 a month and one-to-one teaching is USD 150 a month.
+**What are the best coding classes in St Asaph?** St Asaph and Trefnant, the middle-layer area that includes the city, had 5,301 usual residents at the 2021 census, at 165.8 people per square kilometre. Cadw's listing for the cathedral records a monastery founded by St Kentigern about 560. St Asaph learners from six to sixty-seven have live video lessons with our teachers in India, either one to one or in a class of fifteen to twenty at one level, timed around Welsh school days and working hours. There is no fee for the opening lesson; after it, a place in a class is USD 100 a month and one-to-one teaching is USD 150 a month.
 
 Cadw describes St Asaph's cathedral as standing at the top of the hill, and the city sits in the Vale of Clwyd with high ground on both sides. Our St Asaph project asks which way those slopes face. Teenagers load Ordnance Survey's 50 metre height grid for a 30 kilometre square, 360,000 heights in all, and run the Sobel operator, a small grid of weights that image software uses to find edges, to work out how steeply and in which direction the ground falls at every point. Within 6 km of the River Clwyd, the eastern side has more than five times as many steep cells as the western side, and they face west, down into the vale.
 
-Facts last verified 23 September 2026. Teaching is online; no St Asaph branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no St Asaph branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the city in the vale
 
@@ -169,7 +169,7 @@ St Asaph is small, and many learners live in the villages across the vale and on
 - **City and vale** A learner in Nant-y-Patrick and another in Waen Goleugoed can share a class without anyone crossing the Clwyd.
 - **Welsh school stages** Our levels follow Welsh school years and the Curriculum for Wales, and we use WJEC GCSE and A level course names; lessons are taught in English.
 - **The first session** The free lesson has the learner build something real, then the teacher recommends a level, a course and a weekly time. No card is ever asked for.
-- **One level to a class** Five to ten learners at the same stage, from St Asaph, the rest of the UK and abroad, so every level has workable times.
+- **One level to a class** Fifteen to twenty learners at the same stage, from St Asaph, the rest of the UK and abroad, so every level has workable times.
 - **Two lessons a week** Two fixed lessons weekly, about eight a month, with school holidays and exam weeks agreed with the teacher beforehand.
 - **Late evenings in India** India keeps one time all year, so a 5 pm lesson in St Asaph begins at half past nine at night for our teachers in summer and half past ten in winter.
 
@@ -180,7 +180,7 @@ St Asaph is small, and many learners live in the villages across the vale and on
 Your first lesson is free, then there is a single monthly fee.
 
 - First class: USD 0. A full lesson at no cost, ending with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a class of five to ten learners at one stage.
+- Group tuition: USD 100 a month. About eight live lessons a month in a class of fifteen to twenty learners at one stage.
 - Private tuition: USD 150 a month. About eight live lessons a month, with the teacher working with your learner alone.
 
 Families in Tremeirchion or Cwm pay in US dollars, as all families outside India do, and pound prices never appear on our site. Billing starts only after the free lesson, once a course and a weekly time have been agreed with us; the pricing page covers pausing, missed lessons and changing between a class and one-to-one lessons.
@@ -221,11 +221,11 @@ No. We have no St Asaph centre and no premises anywhere in the UK, as every less
 
 ### How much do St Asaph lessons cost?
 
-The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one teaching on the same timetable is USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one teaching on the same timetable is USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are learners grouped?
 
-By level, pace and goals rather than age or where they live, with five to ten learners at the same stage. If no group suits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than age or where they live, with fifteen to twenty learners at the same stage. If no group suits the learner's week, we offer one-to-one lessons.
 
 ## Wales and beyond
 

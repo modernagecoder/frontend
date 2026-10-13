@@ -16,7 +16,7 @@ Forest Lake, City of Brisbane, Queensland / Live online
 
 Forest Lake has 78 parks in Brisbane City Council's register and 43 bus stop records inside its boundary. Checking every park against every stop takes 3,354 distance calculations. Python's any() and all() get the same answers with far fewer, because they stop the moment the answer is settled.
 
-Facts last verified 12 October 2026. Teaching is online; no Forest Lake branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Forest Lake branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that write lean, readable Python
 
@@ -175,7 +175,7 @@ Each lesson runs live over video, so nobody needs to leave home.
 - **Hands-on coding** The learner writes the code; the teacher follows every keystroke on the shared screen.
 - **In step with school** Lessons follow Queensland terms and break for holidays.
 - **Free opening lesson** A genuine first class with a clear suggestion at the end.
-- **Groups or one to one** Five to ten learners matched by level, or a private teacher.
+- **Groups or one to one** Fifteen to twenty learners matched by level, or a private teacher.
 - **Two lessons weekly** Regular times, about eight lessons each month.
 - **Time in India** Our teachers are in India: a 4pm Forest Lake lesson is 11:30am India time, every week.
 
@@ -186,7 +186,7 @@ Each lesson runs live over video, so nobody needs to leave home.
 Three prices, set the same for all.
 
 - First class: USD 0. There is no charge for the first lesson, which ends with a written plan.
-- Group tuition: USD 100 a month. Group study: roughly eight lessons a month, with five to ten learners.
+- Group tuition: USD 100 a month. Group study: roughly eight lessons a month, with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private study: roughly eight lessons a month, one learner per teacher.
 
 Forest Lake families pay in US dollars and only once the trial has fixed a course and time. Holiday pauses, missed lessons and format changes are explained on the pricing page.
@@ -223,11 +223,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Forest Lake learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Is Copilot Studio taught in Forest Lake groups?
 

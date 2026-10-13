@@ -4,7 +4,7 @@ description: "Online coding, AI, Python and vibe coding lessons for Shawlands, S
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-shawlands-glasgow
 source: src/pages/best-coding-and-ai-classes-in-shawlands-glasgow.html
 ---
-> Shawlands is a district of Glasgow. We found no official population for exactly that area, so we give none; Glasgow City as a whole had about 620,700 residents in Scotland's 2022 census. Strathbungo, Crossmyloof, Langside, Pollokshields, Battlefield and Mount Florida are among the suburbs recorded in the G41 and G42 postcode districts. Coding, AI, Python, vibe coding and maths are taught on live video by tutors in India to learners aged six to 67, one-to-one or in groups of five to ten at a shared level. Reasoning comes first, so learners can tell a solid number from a lucky one. The first session is free and ends with our course suggestion. The Shawlands project ranks 235 streets by how fully their buildings are described on OpenStreetMap, and shows why a perfect score from three buildings should not outrank 55 out of 56. After the trial, a class place is USD 100 a month and private lessons USD 150 a month.
+> Shawlands is a district of Glasgow. We found no official population for exactly that area, so we give none; Glasgow City as a whole had about 620,700 residents in Scotland's 2022 census. Strathbungo, Crossmyloof, Langside, Pollokshields, Battlefield and Mount Florida are among the suburbs recorded in the G41 and G42 postcode districts. Coding, AI, Python, vibe coding and maths are taught on live video by tutors in India to learners aged six to 67, one-to-one or in groups of fifteen to twenty at a shared level. Reasoning comes first, so learners can tell a solid number from a lucky one. The first session is free and ends with our course suggestion. The Shawlands project ranks 235 streets by how fully their buildings are described on OpenStreetMap, and shows why a perfect score from three buildings should not outrank 55 out of 56. After the trial, a class place is USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Glasgow](/best-coding-class-in-glasgow) / Shawlands
 
@@ -12,11 +12,11 @@ Shawlands, Glasgow, Scotland / Live online
 
 # Coding and AI classes in Shawlands, Glasgow
 
-**Where can Shawlands learners find the best coding and AI classes?** Shawlands is a district of Glasgow. We found no official population for exactly that area, so we give none; Glasgow City as a whole had about 620,700 residents in Scotland's 2022 census. Strathbungo, Crossmyloof, Langside, Pollokshields, Battlefield and Mount Florida are among the suburbs recorded in the G41 and G42 postcode districts. Coding, AI, Python, vibe coding and maths are taught on live video by tutors in India to learners aged six to 67, one-to-one or in groups of five to ten at a shared level. Reasoning comes first, so learners can tell a solid number from a lucky one. The first session is free and ends with our course suggestion. The Shawlands project ranks 235 streets by how fully their buildings are described on OpenStreetMap, and shows why a perfect score from three buildings should not outrank 55 out of 56. After the trial, a class place is USD 100 a month and private lessons USD 150 a month.
+**Where can Shawlands learners find the best coding and AI classes?** Shawlands is a district of Glasgow. We found no official population for exactly that area, so we give none; Glasgow City as a whole had about 620,700 residents in Scotland's 2022 census. Strathbungo, Crossmyloof, Langside, Pollokshields, Battlefield and Mount Florida are among the suburbs recorded in the G41 and G42 postcode districts. Coding, AI, Python, vibe coding and maths are taught on live video by tutors in India to learners aged six to 67, one-to-one or in groups of fifteen to twenty at a shared level. Reasoning comes first, so learners can tell a solid number from a lucky one. The first session is free and ends with our course suggestion. The Shawlands project ranks 235 streets by how fully their buildings are described on OpenStreetMap, and shows why a perfect score from three buildings should not outrank 55 out of 56. After the trial, a class place is USD 100 a month and private lessons USD 150 a month.
 
 Rankings are everywhere: five-star products, top-rated answers, leaderboards of AI models. Most share one flaw. Sort by the raw percentage and a thing with three perfect reviews beats a thing with 55 good reviews out of 56, although we know far more about the second. Statisticians fixed this nearly a century ago. The Wilson score interval, published by Edwin Wilson in 1927, gives a range the true rate probably lies in, and ranking by the bottom of that range rewards evidence as well as score. This project tries it on a real, uneven dataset: for every street around Shawlands, the share of its buildings that OpenStreetMap volunteers have described by type.
 
-Facts last verified 30 September 2026. Teaching is online; no Shawlands branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Shawlands branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Shawlands courses in reasoning, Python and AI
 
@@ -133,7 +133,7 @@ A laptop or desktop with a camera, and broadband good enough for video, is all i
 - **Students write the code** Typing, prompting and running are the learner's job; the tutor follows by screen share and asks how sure they are.
 - **Level found in the trial** The free lesson shows us where to start, and SQA exams are noted.
 - **First session free** The opening lesson costs nothing and ends with a suggested course.
-- **Classes of equals** Five to ten learners at one stage, from anywhere in the UK.
+- **Classes of equals** Fifteen to twenty learners at one stage, from anywhere in the UK.
 - **Twice a week** None in the school holidays.
 - **Slot that stays** UK clock changes are our tutors' concern; your time does not move.
 

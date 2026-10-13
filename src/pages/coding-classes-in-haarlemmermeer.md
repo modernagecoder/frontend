@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Haarlemmermeer for ag
 canonical: https://learn.modernagecoders.com/coding-classes-in-haarlemmermeer
 source: src/pages/coding-classes-in-haarlemmermeer.html
 ---
-> Coding classes in Haarlemmermeer serve 166,978 people (Statistics Netherlands, 1 January 2026) living on the floor of a lake that was pumped dry on 1 July 1852. The municipality is named after the lake; its largest town is Hoofddorp, at 79,650 in 2023; and Schiphol sits inside its boundary at 3.35 metres below the national datum. About 800 million cubic metres of water were pumped out, and dividing that by the area does not give the lake's depth, because rain and seepage kept arriving while the pumps ran. Every village on the polder is taught by Modern Age Coders, live and online and in English, at any age between 6 and 67. There is no charge for the opening lesson; the months after it are USD 100 in a group of five to ten or USD 150 with the teacher alone.
+> Coding classes in Haarlemmermeer serve 166,978 people (Statistics Netherlands, 1 January 2026) living on the floor of a lake that was pumped dry on 1 July 1852. The municipality is named after the lake; its largest town is Hoofddorp, at 79,650 in 2023; and Schiphol sits inside its boundary at 3.35 metres below the national datum. About 800 million cubic metres of water were pumped out, and dividing that by the area does not give the lake's depth, because rain and seepage kept arriving while the pumps ran. Every village on the polder is taught by Modern Age Coders, live and online and in English, at any age between 6 and 67. There is no charge for the opening lesson; the months after it are USD 100 in a group of fifteen to twenty or USD 150 with the teacher alone.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Haarlemmermeer
 
@@ -12,11 +12,11 @@ Haarlemmermeer, Noord-Holland / Live online
 
 # Coding classes in Haarlemmermeer, where 800 million cubic metres will not tell you how deep the lake was
 
-**What are the best coding classes in Haarlemmermeer?** Coding classes in Haarlemmermeer serve 166,978 people (Statistics Netherlands, 1 January 2026) living on the floor of a lake that was pumped dry on 1 July 1852. The municipality is named after the lake; its largest town is Hoofddorp, at 79,650 in 2023; and Schiphol sits inside its boundary at 3.35 metres below the national datum. About 800 million cubic metres of water were pumped out, and dividing that by the area does not give the lake's depth, because rain and seepage kept arriving while the pumps ran. Every village on the polder is taught by Modern Age Coders, live and online and in English, at any age between 6 and 67. There is no charge for the opening lesson; the months after it are USD 100 in a group of five to ten or USD 150 with the teacher alone.
+**What are the best coding classes in Haarlemmermeer?** Coding classes in Haarlemmermeer serve 166,978 people (Statistics Netherlands, 1 January 2026) living on the floor of a lake that was pumped dry on 1 July 1852. The municipality is named after the lake; its largest town is Hoofddorp, at 79,650 in 2023; and Schiphol sits inside its boundary at 3.35 metres below the national datum. About 800 million cubic metres of water were pumped out, and dividing that by the area does not give the lake's depth, because rain and seepage kept arriving while the pumps ran. Every village on the polder is taught by Modern Age Coders, live and online and in English, at any age between 6 and 67. There is no charge for the opening lesson; the months after it are USD 100 in a group of fifteen to twenty or USD 150 with the teacher alone.
 
 Here is a question a child can attack with a calculator: how deep was the Haarlemmermeer? About 800 million cubic metres came out of it, and the municipality has 197.48 square kilometres of land, so the division gives 4.05 metres and the temptation is to stop there. The pumps ran for three years against rainfall and seepage, so a good part of that 800 million was water that arrived after the work began. The division answers a different question from the one asked, and knowing which question your arithmetic actually answered is the whole job.
 
-Facts last verified 7 September 2026. Teaching is online; no Haarlemmermeer branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Haarlemmermeer branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a municipality with 25 villages and an airport
 
@@ -208,7 +208,7 @@ Rijsenhout to Zwanenburg crosses the whole municipality on straight roads with t
 Printed here rather than saved for a phone call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 Outside India there is one price and it is in dollars; no euro list exists, so Buitenkaag and Hoofddorp are quoted identically. Nothing is collected before the free lesson has settled a course and a time, and when it is collected it goes through WhatsApp. The pricing page covers what happens if a family pauses, switches plan or misses a week.
@@ -249,7 +249,7 @@ No, and none is claimed in Hoofddorp, near Schiphol or anywhere in the Netherlan
 
 ### What do Haarlemmermeer coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Haarlemmermeer group?
 

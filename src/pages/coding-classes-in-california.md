@@ -14,7 +14,7 @@ California / Live online
 
 The short answer
 
-California adopted its first K-12 computer science standards on September 6, 2018, and left them voluntary, so whether a child meets the subject at all depends on their district. Modern Age Coders teaches it directly instead: live classes for ages 6 to 67, five to eight per batch or private, USD 100 and USD 150 monthly. The opening class costs nothing.
+California adopted its first K-12 computer science standards on September 6, 2018, and left them voluntary, so whether a child meets the subject at all depends on their district. Modern Age Coders teaches it directly instead: live classes for ages 6 to 67, fifteen to twenty per batch or private, USD 100 and USD 150 monthly. The opening class costs nothing.
 
 The state that contains Silicon Valley does not require its schools to teach computer science. It publishes standards, it encourages districts to use them, and it leaves the decision local. The result is the widest variation in provision of any state we teach in. A child in one district takes AP Computer Science A in Grade 11. A child eight miles away has never written a line of code and does not know that is unusual.
 
@@ -240,7 +240,7 @@ Billed monthly in US dollars. No enrolment fee, no materials charge, no minimum 
 
 Group$100per month, 8 classes
 
-Five to eight learners, one teacher who does not change. Where most California families begin and remain.
+Fifteen to twenty learners, one teacher who does not change. Where most California families begin and remain.
 
 Private$150per month, 8 classes
 
@@ -342,7 +342,7 @@ Six through sixty-seven, and that spread is real rather than aspirational. Where
 
 ### How many students are in a class?
 
-A group is capped at eight and rarely runs below five. Private tuition is one learner with one teacher. In both formats the teacher stays the same from week to week, which reads like an operational detail and is actually the difference between a child who keeps going and one who quietly stops.
+A group is capped at twenty and rarely runs below five. Private tuition is one learner with one teacher. In both formats the teacher stays the same from week to week, which reads like an operational detail and is actually the difference between a child who keeps going and one who quietly stops.
 
 ### How do we start?
 

@@ -16,7 +16,7 @@ City of Bayside, Melbourne, Victoria / Live online
 
 Victoria publishes the location of every school and every metropolitan train station. Ask "which station is closest to each Bayside school?" and the obvious method measures every school against every station. A kd-tree, a way of splitting a map into halves again and again, gets the same answers while measuring a small fraction of the pairs.
 
-Facts last verified 11 October 2026. Teaching is online; no Bayside branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 October 2026. Teaching is online; no Bayside branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses where searching and sorting become real tools
 
@@ -183,7 +183,7 @@ Classes run live on screen, so a learner in Beaumaris joins in exactly the same 
 - **Start writing straight away** The teacher and learner share a screen and work in the same code from the first minute.
 - **Built around Victorian terms** Plans follow the state school terms and stop for the holidays.
 - **A genuine trial lesson** The free first class teaches real material and ends with a suggested course and time.
-- **Groups of five to ten** Learners at the same level, sometimes from several suburbs or states.
+- **Groups of fifteen to twenty** Learners at the same level, sometimes from several suburbs or states.
 - **Two lessons a week** About eight a month at fixed times, with any breaks agreed in advance.
 - **Teachers based in India** A 4:30pm Bayside lesson under daylight saving starts at 11am India time; from April it starts at noon there.
 
@@ -194,7 +194,7 @@ Classes run live on screen, so a learner in Beaumaris joins in exactly the same 
 Three prices, set out in full before anything is paid.
 
 - First class: USD 0. The first lesson costs nothing and finishes with an honest recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, usually eight, with five to ten learners working at one level.
+- Group tuition: USD 100 a month. A month of group lessons, usually eight, with fifteen to twenty learners working at one level.
 - Private tuition: USD 150 a month. About eight one-to-one lessons a month with a single teacher.
 
 Families outside India pay in US dollars at one rate for everyone. Billing begins only after the trial, once the course and time are agreed; the pricing page covers holidays, missed lessons and moving between formats.
@@ -231,7 +231,7 @@ No. Every lesson is live online, we have no premises in Australia, and the phone
 
 ### How much do coding classes cost for Bayside learners?
 
-The first lesson is free. Group lessons then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.
+The first lesson is free. Group lessons then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.
 
 ### How large are the groups?
 

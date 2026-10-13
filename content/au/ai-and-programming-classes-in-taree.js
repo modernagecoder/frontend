@@ -193,7 +193,7 @@ module.exports = {
       { h3: 'Town to town', p: 'A teenager in Wingham and an adult in Forster can work on the same model in the same lesson, with nobody on the road.' },
       { h3: 'Built around NSW school', p: 'Lesson plans track the stage a learner is in and the NSW term calendar, and Year 11 or 12 students can link their AI work to whichever computing or mathematics courses they have chosen.' },
       { h3: 'A first lesson that counts', p: 'The trial is a full class with real code, after which we suggest a level, course and weekly time; no card details are requested.' },
-      { h3: 'Same-stage groups', p: 'Five to ten learners at one level, from the Mid-Coast and beyond, so groups are always large enough.' },
+      { h3: 'Same-stage groups', p: 'Fifteen to twenty learners at one level, from the Mid-Coast and beyond, so groups are always large enough.' },
       { h3: 'Twice a week', p: 'A regular pair of weekly sessions, roughly eight per month, with gaps for exams and school holidays agreed well ahead.' },
       { h3: 'Teachers in India', p: 'A 5:30pm Taree lesson in winter starts at 1pm in India; when daylight saving begins in New South Wales, it starts at 12pm there.' }
     ],
@@ -204,7 +204,7 @@ module.exports = {
     h2: 'Fees for Taree learners',
     intro: 'Three clear figures.',
     first: 'One complete lesson at no charge, with a recommended level, course and time to follow.',
-    group: 'About eight lessons a month alongside five to ten learners at the same level.',
+    group: 'About eight lessons a month alongside fifteen to twenty learners at the same level.',
     private: 'About eight lessons a month with a teacher, one to one.',
     closer: 'Families outside India are billed in US dollars, which means Tuncurry, Wingham and central Taree all see one identical figure. No payment is taken before the trial settles a course and a weekly slot; holidays, missed classes and switching between group and private are covered on the pricing page.'
   },
@@ -229,8 +229,8 @@ module.exports = {
       { q: 'What time are lessons?', a: 'Times are agreed at the trial and quoted in Taree time, usually after school or at the weekend. India is 4.5 hours behind Taree in winter and 5.5 hours behind during NSW daylight saving.' },
       { q: 'Can younger children join?', a: 'Yes, from age six. Younger children begin with Scratch and visual projects; the machine learning project on this page is for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Taree?', a: 'No, and none is claimed. All lessons are live and online and we have no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection; the contact number shown is Indian.', boiler: true },
-      { q: 'What do Taree AI and programming classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Taree AI and programming classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

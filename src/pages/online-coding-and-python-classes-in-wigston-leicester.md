@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and vibe coding lessons for Wigston
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-wigston-leicester
 source: src/pages/online-coding-and-python-classes-in-wigston-leicester.html
 ---
-> Wigston's built-up area had 34,730 residents at the 2021 census, on ONS figures. The town sits in the borough of Oadby and Wigston, a Leicestershire district with its own council, distinct from the City of Leicester. Wigston Magna, Wigston Harcourt and South Wigston are recorded there in the LE18 postcode district, and census wards include Wigston Fields and Wigston Meadowcourt. Coding, Python, AI, vibe coding and maths are taught to ages six to 67 over live video by our India-based tutors, either privately or in a group of five to ten at a matching level. Careful thinking comes before tools, so learners can check what a program or an AI has quietly thrown away. A free first lesson ends with our course advice. The Wigston project takes the borough's 1,156-point boundary from OpenStreetMap and simplifies it in Python, measuring what each shortcut costs. After the trial it is USD 100 a month for a group place or USD 150 a month one-to-one.
+> Wigston's built-up area had 34,730 residents at the 2021 census, on ONS figures. The town sits in the borough of Oadby and Wigston, a Leicestershire district with its own council, distinct from the City of Leicester. Wigston Magna, Wigston Harcourt and South Wigston are recorded there in the LE18 postcode district, and census wards include Wigston Fields and Wigston Meadowcourt. Coding, Python, AI, vibe coding and maths are taught to ages six to 67 over live video by our India-based tutors, either privately or in a group of fifteen to twenty at a matching level. Careful thinking comes before tools, so learners can check what a program or an AI has quietly thrown away. A free first lesson ends with our course advice. The Wigston project takes the borough's 1,156-point boundary from OpenStreetMap and simplifies it in Python, measuring what each shortcut costs. After the trial it is USD 100 a month for a group place or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Leicestershire](/coding-classes-in-leicestershire) / Wigston
 
@@ -12,11 +12,11 @@ Wigston, Oadby and Wigston, Leicestershire / Live online
 
 # Online coding and Python classes in Wigston
 
-**Which are the best online coding and Python classes in Wigston?** Wigston's built-up area had 34,730 residents at the 2021 census, on ONS figures. The town sits in the borough of Oadby and Wigston, a Leicestershire district with its own council, distinct from the City of Leicester. Wigston Magna, Wigston Harcourt and South Wigston are recorded there in the LE18 postcode district, and census wards include Wigston Fields and Wigston Meadowcourt. Coding, Python, AI, vibe coding and maths are taught to ages six to 67 over live video by our India-based tutors, either privately or in a group of five to ten at a matching level. Careful thinking comes before tools, so learners can check what a program or an AI has quietly thrown away. A free first lesson ends with our course advice. The Wigston project takes the borough's 1,156-point boundary from OpenStreetMap and simplifies it in Python, measuring what each shortcut costs. After the trial it is USD 100 a month for a group place or USD 150 a month one-to-one.
+**Which are the best online coding and Python classes in Wigston?** Wigston's built-up area had 34,730 residents at the 2021 census, on ONS figures. The town sits in the borough of Oadby and Wigston, a Leicestershire district with its own council, distinct from the City of Leicester. Wigston Magna, Wigston Harcourt and South Wigston are recorded there in the LE18 postcode district, and census wards include Wigston Fields and Wigston Meadowcourt. Coding, Python, AI, vibe coding and maths are taught to ages six to 67 over live video by our India-based tutors, either privately or in a group of fifteen to twenty at a matching level. Careful thinking comes before tools, so learners can check what a program or an AI has quietly thrown away. A free first lesson ends with our course advice. The Wigston project takes the borough's 1,156-point boundary from OpenStreetMap and simplifies it in Python, measuring what each shortcut costs. After the trial it is USD 100 a month for a group place or USD 150 a month one-to-one.
 
 Zoom out on any web map and the coastlines and boundaries get simpler: fewer points, same recognisable shape. Doing that well is harder than it looks. Keep every tenth point and you may slice off a corner that mattered. A smarter method, published by Visvalingam and Whyatt in 1993, asks of every point how much it contributes: the area of the little triangle it makes with its two neighbours. The point with the smallest triangle goes first, its neighbours are re-measured, and the process repeats. A priority queue keeps it fast. This project runs the method on a real outline, the boundary of Oadby and Wigston as drawn on OpenStreetMap.
 
-Facts last verified 30 September 2026. Teaching is online; no Wigston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Wigston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Wigston courses in thinking, Python and AI
 
@@ -134,7 +134,7 @@ Any computer with a webcam will do, given broadband that can stream.
 - **The learner writes the code** Tutors watch over screen share and ask questions; they do not type for the student.
 - **We start where the trial points** That first free session shows what is already known, and exam boards are recorded.
 - **No fee to begin** Lesson one is free and ends with a recommended course.
-- **Classes of five to ten** Grouped by level, with learners joining from across the UK.
+- **Classes of fifteen to twenty** Grouped by level, with learners joining from across the UK.
 - **Two lessons each week** None in school holidays.
 - **One fixed slot** Our side absorbs the UK clock changes.
 

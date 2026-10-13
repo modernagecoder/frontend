@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Enfield: Edmo
 canonical: https://learn.modernagecoders.com/coding-classes-in-enfield-london
 source: src/pages/coding-classes-in-enfield-london.html
 ---
-> Enfield is the north London borough of Enfield Town, Edmonton, Southgate, Palmers Green, Winchmore Hill, Ponders End and Enfield Lock, with 329,984 people counted at the 2021 Census. Historic England lists a bank on The Town as the site of the world's first operational cash machine. Classes worth a family's time teach a learner to reason about mistakes, not just to write code that works when nothing goes wrong, and this page does that with check digits: one extra digit that lets a machine notice a mistyped number. Lessons are taught live on video by teachers based in India, to anyone aged 6 to 67, privately or in a class of five to ten at one level. The opening lesson is free, then a class place is USD 100 a month and private teaching USD 150 a month.
+> Enfield is the north London borough of Enfield Town, Edmonton, Southgate, Palmers Green, Winchmore Hill, Ponders End and Enfield Lock, with 329,984 people counted at the 2021 Census. Historic England lists a bank on The Town as the site of the world's first operational cash machine. Classes worth a family's time teach a learner to reason about mistakes, not just to write code that works when nothing goes wrong, and this page does that with check digits: one extra digit that lets a machine notice a mistyped number. Lessons are taught live on video by teachers based in India, to anyone aged 6 to 67, privately or in a class of fifteen to twenty at one level. The opening lesson is free, then a class place is USD 100 a month and private teaching USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Enfield
 
@@ -12,11 +12,11 @@ London Borough of Enfield / Live online
 
 # Coding classes in Enfield
 
-**What are the best coding classes in Enfield?** Enfield is the north London borough of Enfield Town, Edmonton, Southgate, Palmers Green, Winchmore Hill, Ponders End and Enfield Lock, with 329,984 people counted at the 2021 Census. Historic England lists a bank on The Town as the site of the world's first operational cash machine. Classes worth a family's time teach a learner to reason about mistakes, not just to write code that works when nothing goes wrong, and this page does that with check digits: one extra digit that lets a machine notice a mistyped number. Lessons are taught live on video by teachers based in India, to anyone aged 6 to 67, privately or in a class of five to ten at one level. The opening lesson is free, then a class place is USD 100 a month and private teaching USD 150 a month.
+**What are the best coding classes in Enfield?** Enfield is the north London borough of Enfield Town, Edmonton, Southgate, Palmers Green, Winchmore Hill, Ponders End and Enfield Lock, with 329,984 people counted at the 2021 Census. Historic England lists a bank on The Town as the site of the world's first operational cash machine. Classes worth a family's time teach a learner to reason about mistakes, not just to write code that works when nothing goes wrong, and this page does that with check digits: one extra digit that lets a machine notice a mistyped number. Lessons are taught live on video by teachers based in India, to anyone aged 6 to 67, privately or in a class of fifteen to twenty at one level. The opening lesson is free, then a class place is USD 100 a month and private teaching USD 150 a month.
 
 On 27 June 1967, according to Historic England, the world's first operational automated teller machine was inaugurated at a bank at 20 The Town, Enfield. The building was listed at Grade II in 2023 partly for that reason. Every machine that handles numbers typed by people meets the same problem: people make mistakes. They hit a wrong key, or swap two digits, or double the wrong one. Our learners code four ways of adding a single check digit to the end of a long number, then attack each one with every mistake they can think of, on 2,000 random 16-digit numbers. All four catch every single wrong key. They differ sharply on swapped digits, and none of them can do much better than 9 in 10 against two random slips.
 
-Facts last verified 25 September 2026. Teaching is online; no Enfield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Enfield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses for Enfield learners
 
@@ -142,7 +142,7 @@ Learners in the east of the borough and in the north can join one class from hom
 
 ### No wrong platform
 
-Every learner joins a group of five to ten at the same level, at a UK evening time agreed in advance.
+Every learner joins a group of fifteen to twenty at the same level, at a UK evening time agreed in advance.
 
 **Enfield and the other boroughs** Enfield is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers all of them and the City, adding a link to each page as it appears, including [Barnet](/coding-classes-in-barnet-london) just to the west.
 
@@ -172,7 +172,7 @@ From anywhere in Enfield, a learner is in class the moment the video call opens.
 - **At the kitchen table** All a learner needs is a laptop or desktop, headphones and an internet connection that holds steady.
 - **England's Key Stages** We map progress onto the Key Stages English schools use, Key Stage 1 through to sixth form, naming GCSE and A level where relevant. Teaching is in English.
 - **Try before paying** The first lesson is genuine teaching with a teacher, and closes with a recommended level and course. We ask for no card details.
-- **Five to ten per group** Learners are grouped by stage with others from around the UK and beyond, so a workable hour can nearly always be found.
+- **Fifteen to twenty per group** Learners are grouped by stage with others from around the UK and beyond, so a workable hour can nearly always be found.
 - **A twice-weekly rhythm** Classes generally meet on two evenings a week, pausing for half terms, holidays and exams by arrangement.
 - **Enfield time** Teachers work from India; each time in our messages is the time it will be in London.
 
@@ -183,7 +183,7 @@ From anywhere in Enfield, a learner is in class the moment the video call opens.
 The first lesson is free; after that one monthly fee applies, whether you live in Edmonton or Enfield Town.
 
 - First class: USD 0. A full lesson with a teacher at no cost, finishing with our suggested level, course and time.
-- Group tuition: USD 100 a month. About eight live lessons each month in a class of five to ten at the same stage.
+- Group tuition: USD 100 a month. About eight live lessons each month in a class of fifteen to twenty at the same stage.
 - Private tuition: USD 150 a month. About eight live lessons each month with a teacher all to themselves.
 
 Enfield families pay in US dollars, the same as every family outside India, and the site carries no prices in pounds. You pay nothing before the free lesson and before settling on a course and a weekly slot. Pausing, missed classes and moving between group and private lessons are all covered on the pricing page.
@@ -224,11 +224,11 @@ No. There is no Enfield centre and no premises anywhere in the UK, because every
 
 ### What do coding classes in Enfield cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## More London boroughs, and the UK
 

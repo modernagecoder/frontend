@@ -234,7 +234,7 @@ module.exports = {
       { h3: 'Programming first', p: 'Typed code, debugged and explained, because it is the one thing both qualifications share.' },
       { h3: 'Data as a habit', p: 'Real datasets questioned rather than accepted, which is the skill the refreshed curriculum names.' },
       { h3: 'AI understood, not used', p: 'How models learn and where they fail, with no accounts needed for younger children.' },
-      { h3: 'Groups by level', p: 'Five to ten learners at one stage, whatever year group they are in.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at one stage, whatever year group they are in.' },
       { h3: 'Page kept current', p: 'When subject content is published, this page changes and so does the advice.' }
     ]
   },
@@ -247,7 +247,7 @@ module.exports = {
     h2: 'What lessons cost',
     lede: 'One monthly charge in US dollars, the rate outside India. The free lesson comes first and nothing is taken until a course and a weekly time are agreed.',
     free: ['A real lesson, and a straight answer about your child\'s cohort', 'An honest view of the starting stage', 'Only a phone number needed'],
-    group: ['Five to ten learners at one stage', 'One named teacher throughout', 'Written feedback on work every week', 'A certificate when a course finishes'],
+    group: ['Fifteen to twenty learners at one stage', 'One named teacher throughout', 'Written feedback on work every week', 'A certificate when a course finishes'],
     one: ['One learner and one teacher', 'Useful for a learner well ahead or behind', 'Scheduled around school']
   },
 

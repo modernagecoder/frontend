@@ -39,7 +39,7 @@ module.exports = {
 
   h1: 'Coding classes in Zoetermeer, where somebody had to decide which baby was the hundred-thousandth',
   capsuleQ: 'What are the best coding classes in Zoetermeer?',
-  capsule: 'Coding classes in Zoetermeer serve 130,836 people (Statistics Netherlands, 1 January 2026) in a town that held 8,404 residents in 1960 and was designated a growth centre in 1962. It welcomed its hundred-thousandth resident on Friday 13 September 1991, at about a quarter past ten in the Lange Land hospital, and that was a decision as much as a measurement: a population is a net figure that can cross a line more than once. Modern Age Coders teaches live online in English across all fifteen wijken for anyone aged 6 to 67, with a free opening lesson and then USD 100 a month in a group of five to ten, or USD 150 with a teacher alone.',
+  capsule: 'Coding classes in Zoetermeer serve 130,836 people (Statistics Netherlands, 1 January 2026) in a town that held 8,404 residents in 1960 and was designated a growth centre in 1962. It welcomed its hundred-thousandth resident on Friday 13 September 1991, at about a quarter past ten in the Lange Land hospital, and that was a decision as much as a measurement: a population is a net figure that can cross a line more than once. Modern Age Coders teaches live online in English across all fifteen wijken for anyone aged 6 to 67, with a free opening lesson and then USD 100 a month in a group of fifteen to twenty, or USD 150 with a teacher alone.',
   lead: 'On a Friday morning in September 1991 this town named its hundred-thousandth resident: a baby, born at about a quarter past ten. It is a lovely piece of civic ceremony and it is not a measurement. A population register is a running net total, pushed up by births and arrivals and down by deaths and departures, and a quantity like that can cross a hundred thousand, fall back below it and cross again the same week. Somebody had to choose which event counted. A child who understands why is well placed to distrust every milestone they are ever shown.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Zoetermeer.',
 
@@ -177,14 +177,14 @@ module.exports = {
       { h3: 'Twice a week, on the middle calendar', p: 'Two lessons weekly at one repeating slot, eight in most months. Zoetermeer takes its holidays with regio Midden along with the rest of Zuid-Holland, and weeks away are written in before the slot is fixed.' },
       { h3: 'Three and a half hours, then four and a half', p: 'Dutch clocks move twice a year and Indian clocks do not, so the gap to the teacher depends on the month. Anything from the end of school to mid-evening works, and both weekend days are free.' }
     ],
-    spec: { title: 'A town whose schools were built for a wave that has passed', p: 'Seven secondary establishments teach 7,392 pupils, about a thousand each, and the districts built in the 1970s now hold the twenty-two percent of residents aged over sixty-five. A group of five to ten at a fixed hour is a different setting from a school of a thousand, and for some learners that is the entire attraction.' }
+    spec: { title: 'A town whose schools were built for a wave that has passed', p: 'Seven secondary establishments teach 7,392 pupils, about a thousand each, and the districts built in the 1970s now hold the twenty-two percent of residents aged over sixty-five. A group of fifteen to twenty at a fixed hour is a different setting from a school of a thousand, and for some learners that is the entire attraction.' }
   },
 
   fees: {
     h2: 'The fee, in dollars, in all fifteen wijken',
     intro: 'Set out here rather than kept for a phone call.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'There is one international rate and it is quoted in dollars, with no euro list, so every address in the town sees the same figure. Nothing is collected until the free lesson has produced a course and a time, and it is then collected over WhatsApp. Pausing, changing plan and missing a week are covered on the pricing page.'
   },
@@ -209,7 +209,7 @@ module.exports = {
       { q: 'Why are there so few students in Zoetermeer?', a: 'Because there is almost nothing to study at here. The municipality counts 502 students at institutions in the town for 2026, while 2,870 residents are registered in applied higher education and 1,330 at university level for 2025. Zoetermeer sends its students to The Hague, Delft and Leiden, which is a good reason for an evening class that does not require another journey.' },
       { q: 'What is in the free lesson?', a: 'The teacher finds the edge of what the learner can already do and sets one task just past it. A child might watch a jar of marbles reach ten twice and have to decide who won. A teenager builds an event model and counts the crossings. An adult brings a metric from work that gets announced when it passes a round number. It ends with a course, a rung, a weekly time and a dollar figure, and nothing has been charged.' },
       { q: 'Is there a Modern Age Coders classroom in Zoetermeer?', a: 'No, and none is claimed in the Stadscentrum, in Oosterheem or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Zoetermeer coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Zoetermeer coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in a Zoetermeer group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or wijk. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

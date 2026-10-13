@@ -59,7 +59,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Stanmore',
   capsuleQ: 'Where can Stanmore learners find the best coding and AI classes?',
-  capsule: 'At Census 2021 the Stanmore ward of Harrow had 13,501 usual residents, with 9,735 in Canons and 14,341 in Harrow Weald, each an ONS figure for one 2022 ward. Belmont, Harrow Weald and Little Stanmore are suburban areas on record in the borough. Coding, AI, Python, vibe coding and maths are taught here on live video by tutors in India, for ages six to 67, either privately or in a small group of five to ten at one level. We want learners to understand a method, not just copy it, and the local project shows why. A program learns to walk Stanmore\'s streets by imitating an expert, matches the expert\'s choice 88.1% of the time, and still finishes only one journey in eight. The first lesson costs nothing and closes with our course advice; after it, a group place is USD 100 a month and private lessons USD 150 a month.',
+  capsule: 'At Census 2021 the Stanmore ward of Harrow had 13,501 usual residents, with 9,735 in Canons and 14,341 in Harrow Weald, each an ONS figure for one 2022 ward. Belmont, Harrow Weald and Little Stanmore are suburban areas on record in the borough. Coding, AI, Python, vibe coding and maths are taught here on live video by tutors in India, for ages six to 67, either privately or in a group of fifteen to twenty at one level. We want learners to understand a method, not just copy it, and the local project shows why. A program learns to walk Stanmore\'s streets by imitating an expert, matches the expert\'s choice 88.1% of the time, and still finishes only one journey in eight. The first lesson costs nothing and closes with our course advice; after it, a group place is USD 100 a month and private lessons USD 150 a month.',
   lead: 'The simplest way to teach a machine a skill is to show it an expert and ask it to copy: see this situation, make this move. It is called imitation learning, or behaviour cloning, and it is how many driving and robot systems start out, and close to how language models learn to continue text. It has a famous weakness. A copy that is nearly perfect at each step can be hopeless over a long task, because one wrong move lands it somewhere the expert never went, where it has no idea what to do. This project measures that on walking routes through Stanmore from OpenStreetMap, and then tests two possible cures.',
   wa: 'Hello Modern Age Coders, could we book a free coding or AI lesson for a learner in Stanmore?',
 
@@ -162,7 +162,7 @@ module.exports = {
       { h3: 'Doing, not watching', p: 'The learner writes every line and runs every test, while the tutor on screen share asks what would happen somewhere the code has not been.' },
       { h3: 'Trial first, plan second', p: 'The free lesson shows what is secure and what is not; exam boards are recorded.' },
       { h3: 'A free opening lesson', p: 'Lesson one is not charged and finishes with a course recommendation.' },
-      { h3: 'One level per class', p: 'Five to ten learners, all at a similar stage, drawn from across the UK.' },
+      { h3: 'One level per class', p: 'Fifteen to twenty learners, all at a similar stage, drawn from across the UK.' },
       { h3: 'Two lessons each week', p: 'With breaks for school holidays.' },
       { h3: 'The same hour all year', p: 'Our tutors shift when British clocks change; your slot does not.' }
     ],

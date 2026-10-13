@@ -4,7 +4,7 @@ description: "AI and programming classes for Llanelli, Felinfoel, Dafen, Llwynhe
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-llanelli
 source: src/pages/ai-and-programming-classes-in-llanelli.html
 ---
-> The ONS recorded 42,155 usual residents in the Llanelli built-up area at the 2021 census, within a Carmarthenshire total of 187,897. Felinfoel, Dafen, Llwynhendy, Bynea, Pemberton, Bigyn, Seaside and Swiss Valley are among the gazetteer suburbs whose nearest postcode lies inside that built-up area. Modern Age Coders teaches programming, AI, Python, vibe coding and maths to Llanelli learners from six to 67 on live video, with India-based tutors working one-to-one or with a group of five to ten at the same level. Every learner starts with a free lesson, and a course is suggested only after it. The Llanelli project trains a small machine learning model to spot dead-end streets from their names and then tests it on the town's Welsh street names, where the clue it learned is not there. From the second lesson on, a group place is USD 100 per month and individual tuition USD 150 per month.
+> The ONS recorded 42,155 usual residents in the Llanelli built-up area at the 2021 census, within a Carmarthenshire total of 187,897. Felinfoel, Dafen, Llwynhendy, Bynea, Pemberton, Bigyn, Seaside and Swiss Valley are among the gazetteer suburbs whose nearest postcode lies inside that built-up area. Modern Age Coders teaches programming, AI, Python, vibe coding and maths to Llanelli learners from six to 67 on live video, with India-based tutors working one-to-one or with a group of fifteen to twenty at the same level. Every learner starts with a free lesson, and a course is suggested only after it. The Llanelli project trains a small machine learning model to spot dead-end streets from their names and then tests it on the town's Welsh street names, where the clue it learned is not there. From the second lesson on, a group place is USD 100 per month and individual tuition USD 150 per month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Llanelli
 
@@ -12,11 +12,11 @@ Llanelli, Carmarthenshire, Wales / Live online
 
 # AI and programming classes in Llanelli
 
-**Which are the best AI and programming classes for Llanelli?** The ONS recorded 42,155 usual residents in the Llanelli built-up area at the 2021 census, within a Carmarthenshire total of 187,897. Felinfoel, Dafen, Llwynhendy, Bynea, Pemberton, Bigyn, Seaside and Swiss Valley are among the gazetteer suburbs whose nearest postcode lies inside that built-up area. Modern Age Coders teaches programming, AI, Python, vibe coding and maths to Llanelli learners from six to 67 on live video, with India-based tutors working one-to-one or with a group of five to ten at the same level. Every learner starts with a free lesson, and a course is suggested only after it. The Llanelli project trains a small machine learning model to spot dead-end streets from their names and then tests it on the town's Welsh street names, where the clue it learned is not there. From the second lesson on, a group place is USD 100 per month and individual tuition USD 150 per month.
+**Which are the best AI and programming classes for Llanelli?** The ONS recorded 42,155 usual residents in the Llanelli built-up area at the 2021 census, within a Carmarthenshire total of 187,897. Felinfoel, Dafen, Llwynhendy, Bynea, Pemberton, Bigyn, Seaside and Swiss Valley are among the gazetteer suburbs whose nearest postcode lies inside that built-up area. Modern Age Coders teaches programming, AI, Python, vibe coding and maths to Llanelli learners from six to 67 on live video, with India-based tutors working one-to-one or with a group of fifteen to twenty at the same level. Every learner starts with a free lesson, and a course is suggested only after it. The Llanelli project trains a small machine learning model to spot dead-end streets from their names and then tests it on the town's Welsh street names, where the clue it learned is not there. From the second lesson on, a group place is USD 100 per month and individual tuition USD 150 per month.
 
 Machine learning models are very good at finding the easiest clue that fits their training data, and very bad at telling you which clue they found. Researchers call it shortcut learning. It is easy to demonstrate in Llanelli, where street names come in two patterns: English names that end with the kind of road, and Welsh names that begin with it. A model that learns from the first pattern meets the second with nothing to go on.
 
-Facts last verified 1 October 2026. Teaching is online; no Llanelli branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 1 October 2026. Teaching is online; no Llanelli branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI and programming courses for Llanelli learners
 
@@ -134,7 +134,7 @@ Lessons are live video sessions. Please join from a computer with a physical key
 - **About eight a month** Two lessons a week in term time, with holiday weeks dropped when you ask.
 - **A fixed UK slot** We handle the clock changes, so the lesson hour does not move.
 
-**Why we teach online** Finding five to ten learners at one exact level is realistic across the whole UK, and video means no one travels.
+**Why we teach online** Finding fifteen to twenty learners at one exact level is realistic across the whole UK, and video means no one travels.
 
 ## Fees for Llanelli learners
 

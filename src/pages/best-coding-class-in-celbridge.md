@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes for Celbridge learners a
 canonical: https://learn.modernagecoders.com/best-coding-class-in-celbridge
 source: src/pages/best-coding-class-in-celbridge.html
 ---
-> Celbridge counts 20,434 usual residents in the census town tables, living in 6,869 households, and 1,983 of its residents aged fifteen and over are students. It is also a town where an unusually large share of residents cycle to school, college or childcare. Families here can use Modern Age Coders without any journey at all: a teacher runs the lesson live on video twice in most weeks, for a group of five to ten at one level or for one learner alone, and learners can be anywhere between six and sixty-seven. We do not charge for the first lesson. After it, a group place costs USD 100 a month and one to one costs USD 150.
+> Celbridge counts 20,434 usual residents in the census town tables, living in 6,869 households, and 1,983 of its residents aged fifteen and over are students. It is also a town where an unusually large share of residents cycle to school, college or childcare. Families here can use Modern Age Coders without any journey at all: a teacher runs the lesson live on video twice in most weeks, for a group of fifteen to twenty at one level or for one learner alone, and learners can be anywhere between six and sixty-seven. We do not charge for the first lesson. After it, a group place costs USD 100 a month and one to one costs USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Kildare](/coding-classes-in-county-kildare) / Celbridge
 
@@ -12,11 +12,11 @@ Celbridge, County Kildare / Live online
 
 # Coding classes in Celbridge
 
-**What is the best coding class in Celbridge?** Celbridge counts 20,434 usual residents in the census town tables, living in 6,869 households, and 1,983 of its residents aged fifteen and over are students. It is also a town where an unusually large share of residents cycle to school, college or childcare. Families here can use Modern Age Coders without any journey at all: a teacher runs the lesson live on video twice in most weeks, for a group of five to ten at one level or for one learner alone, and learners can be anywhere between six and sixty-seven. We do not charge for the first lesson. After it, a group place costs USD 100 a month and one to one costs USD 150.
+**What is the best coding class in Celbridge?** Celbridge counts 20,434 usual residents in the census town tables, living in 6,869 households, and 1,983 of its residents aged fifteen and over are students. It is also a town where an unusually large share of residents cycle to school, college or childcare. Families here can use Modern Age Coders without any journey at all: a teacher runs the lesson live on video twice in most weeks, for a group of fifteen to twenty at one level or for one learner alone, and learners can be anywhere between six and sixty-seven. We do not charge for the first lesson. After it, a group place costs USD 100 a month and one to one costs USD 150.
 
 Something in Celbridge's census figures stops you. Of the 5,748 residents travelling to school, college or childcare, 763 go by bicycle. That is 13.3%, against 3.7% across all towns combined and about 5% or 6% in nearby Leixlip and Maynooth. Before believing a number like that, check it: the table's own bicycle total is 903, and the 140 cyclists going to work plus the 763 going to school make exactly 903, so it is not a typing error. Then comes the harder discipline. Why do so many people in Celbridge cycle to school or college? Safer routes, a school campaign, short distances, a keen cycling club, something else entirely? The census cannot say. It records what people did on one April day. Every reason you might offer is a guess until you find evidence for it.
 
-Facts last verified 18 September 2026. Teaching is online; no Celbridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 18 September 2026. Teaching is online; no Celbridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Starting points in Celbridge
 
@@ -168,7 +168,7 @@ Machines produce explanations effortlessly. Knowing when an explanation has not 
 The practical side, briefly.
 
 - **Live with a teacher** Every lesson is taught in real time, and learners talk, ask and try things throughout.
-- **Groups by level** Five to ten learners at one ability level, drawn from Celbridge, the rest of Ireland and other countries.
+- **Groups by level** Fifteen to twenty learners at one ability level, drawn from Celbridge, the rest of Ireland and other countries.
 - **A regular slot** Two lessons in most weeks, about eight a month, at a time agreed once and then kept.
 - **School year aware** Mid-terms, holidays and exam weeks are planned around from the start.
 - **At home** A laptop or desktop, working sound and a connection that carries video, checked in the free lesson.
@@ -181,7 +181,7 @@ The practical side, briefly.
 The whole price list, in three lines.
 
 - First class: USD 0. The first lesson, taught in full and free, closing with a level and a suggested course.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, around eight lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, around eight lessons.
 - Private tuition: USD 150 a month. A month of one to one lessons on the same weekly schedule.
 
 Monthly fees are charged in US dollars at the single rate used for families outside India, the same in Celbridge as anywhere in Ireland, with no euro list alongside. Nothing is charged until the free lesson settles a course and a time, and the pricing page explains pauses, missed lessons and switching between group and private.
@@ -222,7 +222,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Celbridge cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

@@ -129,7 +129,7 @@ Two schools in Bournemouth and two in Poole share one testing day. The list is h
 | Parkstone Grammar School | Poole |
 | Poole Grammar School | Poole |
 
-Lessons are live on video, so a child in Christchurch, Boscombe, Broadstone or Ferndown is taught the same way, in groups of five to ten matched by level.
+Lessons are live on video, so a child in Christchurch, Boscombe, Broadstone or Ferndown is taught the same way, in groups of fifteen to twenty matched by level.
 
 Our [UK page](/coding-classes-in-united-kingdom) lists every city and county where we write about coding and maths.
 
@@ -206,7 +206,7 @@ We teach live from India, and fix primary lessons in UK time: after school on we
 
 - **A teacher for the year** Who learns how your child thinks.
 - **Straight talk** Brief notes on what is secure and what is not.
-- **Five to ten per class** Matched on level.
+- **Fifteen to twenty per class** Matched on level.
 - **Written by us** No Quest or GL material copied.
 - **One to one** For a stubborn topic.
 - **Maths, nothing else** No English or reasoning coaching; no admissions advice.
@@ -216,7 +216,7 @@ We teach live from India, and fix primary lessons in UK time: after school on we
 The same monthly US dollar price for every family outside India. No joining fee and no fixed term.
 
 - Free first class: USD 0. A taught lesson. An honest verdict. No card needed.
-- Group batch: USD 100 a month. Five to ten children at one level. A regular teacher. Work reviewed together. Certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. A regular teacher. Work reviewed together. Certificate at the end.
 - One to one: USD 150 a month. One child, one teacher. Paper One practice. Flexible timing.
 
 ## What Bournemouth, Christchurch and Poole families ask us

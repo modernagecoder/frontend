@@ -16,7 +16,7 @@ Wicklow town, County Wicklow / Live online
 
 Between 2012 and 2025 the CSO counted 1,163 new homes completed in Wicklow, rising from 1 in the first year to 206 in the last, with plenty of zigzags between. How many will be finished in 2028? Four simple methods give four answers, from 143 to 262. Rather than pick the one that looks sensible, the learner does what forecasters do: hides the last few years, forecasts them with each method using only the earlier data, and scores the results against what actually happened. Then the same test runs on 101 other settlements and on a different set of years. No method wins everywhere, and the one with the lowest total error in one test wins the fewest places in the other.
 
-Facts last verified 19 September 2026. Teaching is online; no Wicklow branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Wicklow branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where learners in Wicklow town begin
 
@@ -174,7 +174,7 @@ Machines make forecasts cheaply. Testing them honestly is the habit that makes t
 In short.
 
 - **Taught as it happens** Every lesson is live, with the teacher working from the code the learner has just written.
-- **One level per group** Five to ten learners at the same stage of a course, from Wicklow, the rest of Ireland and overseas.
+- **One level per group** Fifteen to twenty learners at the same stage of a course, from Wicklow, the rest of Ireland and overseas.
 - **Usually twice weekly** Around eight lessons a month, on days and times agreed when the course starts.
 - **School year in view** Mid-terms, holidays and exam weeks are planned for at the outset.
 - **What to have ready** A laptop or desktop computer, a microphone and something to listen through, and an internet connection able to hold a video lesson.
@@ -187,7 +187,7 @@ In short.
 The price list, complete.
 
 - First class: USD 0. A full first lesson with the level assessed, free of charge.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, around eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, around eight live lessons.
 - Private tuition: USD 150 a month. A month of private lessons on the same weekly pattern.
 
 A single US dollar rate applies to every family outside India, charged monthly. There is no charge for the first lesson and no bill before a course is under way, and the pricing page explains holidays, missed lessons and moving from group to private teaching or back.
@@ -228,7 +228,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Wicklow town cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

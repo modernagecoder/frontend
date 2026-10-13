@@ -16,7 +16,7 @@ Box Hill, City of Whitehorse, Melbourne, Victoria / Live online
 
 Victoria's station-entry file gives every station three different weekday figures. An AI agent asked "how busy is Box Hill on a school-term weekday?" has to choose between columns called Pax_weekday, Pax_norm_weekday and Pax_sch_hol_weekday. Match on the word "weekday" alone and it picks the first one every time, which is right for some questions and wrong for others.
 
-Facts last verified 10 October 2026. Teaching is online; no Box Hill branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Box Hill branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for building agents you can check
 
@@ -183,7 +183,7 @@ Lessons happen online at home, so a learner in an apartment near the station joi
 - **Straight in** Open the link, share a screen and build with the teacher from the first minute.
 - **Term-time plans** Plans follow the Victorian school terms and stop for the state school holidays.
 - **Trial in full** The free class runs like any normal lesson, and afterwards we propose a starting course and a weekly slot.
-- **Five to ten** Each group holds five to ten learners at one level, drawn from many suburbs.
+- **Five to ten** Each group holds fifteen to twenty learners at one level, drawn from many suburbs.
 - **Weekly rhythm** Two set lessons a week, around eight a month, with any pauses agreed beforehand.
 - **India-based teachers** Our teachers work from India, so a Box Hill class at 5pm in summer is 11:30am for them, moving to 12:30pm when Melbourne leaves daylight saving.
 
@@ -194,7 +194,7 @@ Lessons happen online at home, so a learner in an apartment near the station joi
 Three amounts, stated plainly.
 
 - First class: USD 0. The first lesson is free and closes with a straight recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, normally eight, with five to ten learners at a matching level.
+- Group tuition: USD 100 a month. A month of group lessons, normally eight, with fifteen to twenty learners at a matching level.
 - Private tuition: USD 150 a month. About eight lessons a month, one teacher with one learner.
 
 Outside India we bill in US dollars, so every Box Hill family pays the same rate. Billing starts only once the trial has fixed a course and time; holidays, absences and switching format are explained on the pricing page.
@@ -231,7 +231,7 @@ No. All lessons are live online, we have no premises in Australia, and the phone
 
 ### How much are classes for Box Hill learners?
 
-The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before payment.
+The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before payment.
 
 ### How many learners are in each group?
 

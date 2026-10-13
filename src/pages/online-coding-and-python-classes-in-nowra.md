@@ -16,7 +16,7 @@ Nowra and Bomaderry, New South Wales / Live online
 
 NSW publishes a master file of its public schools, 2,210 of them, each with its own school code. Ask Python whether a code is on a list and it checks the list from the front, one item at a time. Ask the same question of a set and it jumps almost straight to the answer. Our Nowra learners time both on samples of 125, 250, 500, 1,000 and 2,000 codes, doubling each time. The list approach slows by about four times at every step; the set slows by about two, because the number of questions doubles too. By 2,000 codes the list takes 53 milliseconds and the set a fifth of one.
 
-Facts last verified 9 October 2026. Teaching is online; no Nowra branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 October 2026. Teaching is online; no Nowra branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four Python routes for Nowra teens and adults
 
@@ -172,7 +172,7 @@ Both sides of the Shoalhaven River are the same distance from an online lesson.
 - **From home, either bank** A learner in Bomaderry and another in North Nowra can share a live lesson without crossing the bridge.
 - **NSW year levels** Teachers use NSW stages and year levels, including the HSC years, and teach in English.
 - **The free trial** You write Python with a teacher, then hear a recommended stage, course and time; no card is requested.
-- **Five to ten per group** Learners at one level from Nowra, the rest of Australia and overseas, so every stage finds a slot.
+- **Fifteen to twenty per group** Learners at one level from Nowra, the rest of Australia and overseas, so every stage finds a slot.
 - **About eight lessons a month** Two sessions in most weeks; school breaks and exam periods are mapped out early with the teacher.
 - **The October change** A 4pm Nowra lesson is 11:30am in India through winter and 10:30am once NSW daylight saving begins.
 
@@ -183,7 +183,7 @@ Both sides of the Shoalhaven River are the same distance from an online lesson.
 Three figures cover it.
 
 - First class: USD 0. A free first lesson that ends with a stage, a course and a time.
-- Group tuition: USD 100 a month. A month of classes, usually eight, with five to ten learners at your level.
+- Group tuition: USD 100 a month. A month of classes, usually eight, with fifteen to twenty learners at your level.
 - Private tuition: USD 150 a month. About eight private lessons a month with one teacher.
 
 Nowra families pay one rate in US dollars, the same in Bomaderry as in Sydney, with no local price list. Nothing is invoiced before the trial fixes a course and a weekly slot; school breaks, missed sessions and format changes are covered on the pricing page.
@@ -224,11 +224,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Nowra coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Nowra and NSW learners
 

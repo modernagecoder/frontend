@@ -191,7 +191,7 @@ module.exports = {
             'For coding and computing in the borough, see our <a class="ag-inline-link" href="/coding-classes-in-bexley-london">Bexley coding page</a>.'
           ],
           right: [
-            'Our classes are grouped by level. A Bexley child is taught with children at the same stage of Year 5 maths from across the UK, five to ten in a group, all online.',
+            'Our classes are grouped by level. A Bexley child is taught with children at the same stage of Year 5 maths from across the UK, fifteen to twenty in a group, all online.',
             'We have no connection with these schools, the council or Quest Assessments, and we do not advise on applications, oversubscription or places.'
           ] },
         { kind: 'source', html: 'Source: London Borough of Bexley, about the test, read 26 September 2026.' }
@@ -259,7 +259,7 @@ module.exports = {
     cells: [
       { h3: 'Same teacher weekly', p: 'Mistakes are remembered and followed up.' },
       { h3: 'Honest updates', p: 'A few frank lines to parents, not glossy reports.' },
-      { h3: 'Five to ten learners', p: 'Grouped by level, so the lesson fits each child.' },
+      { h3: 'Fifteen to twenty learners', p: 'Grouped by level, so the lesson fits each child.' },
       { h3: 'Our own material', p: 'Questions written by us; no Quest or test material reproduced.' },
       { h3: 'One to one available', p: 'For focused help on a particular weakness.' },
       { h3: 'Numerical only', p: 'No verbal or non-verbal coaching, no advice on admissions.' }
@@ -274,7 +274,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A single monthly fee in US dollars, the same for every family outside India. You can stop at any time.',
     free: ['A proper lesson from a teacher', 'Our straight assessment afterwards', 'No payment card required'],
-    group: ['Five to ten children at one level', 'A familiar teacher every week', 'Work reviewed together', 'A course certificate'],
+    group: ['Fifteen to twenty children at one level', 'A familiar teacher every week', 'Work reviewed together', 'A course certificate'],
     one: ['A teacher for your child only', 'Aimed precisely at the gaps', 'Useful in the months after registration']
   },
 

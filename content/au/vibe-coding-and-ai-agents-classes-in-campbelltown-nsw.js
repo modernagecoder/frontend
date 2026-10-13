@@ -194,7 +194,7 @@ module.exports = {
     h2: 'Fees for vibe coding and AI agents classes in Campbelltown',
     intro: 'Three options in total.',
     first: 'A free session finishing with a recommended level, course and time.',
-    group: 'Roughly eight group sessions a month with five to ten learners at your stage.',
+    group: 'Roughly eight group sessions a month with fifteen to twenty learners at your stage.',
     private: 'Roughly eight private sessions a month with one dedicated teacher.',
     closer: 'Campbelltown families pay the same US dollar fee charged across Australia. Nothing is due until the trial agrees a course and time, and the pricing page explains holidays, missed sessions and switching between formats.'
   },
@@ -219,7 +219,7 @@ module.exports = {
       { q: 'When do lessons run for Campbelltown?', a: 'Slots after school, in the evening and at weekends are fixed during the trial and given in Sydney time; Campbelltown runs ahead of India time by 4.5 hours in winter and 5.5 hours while daylight saving lasts.' },
       { q: 'What about children under 12?', a: 'Yes, from age 6 with visual coding tools. The agent project on this page is meant for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders office in Campbelltown?', a: 'No, and we do not claim one. Teaching is live and online only, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a steady connection, and the contact number on this page is an Indian number.', boiler: true },
-      { q: 'What do vibe coding and AI agents classes in Campbelltown cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
+      { q: 'What do vibe coding and AI agents classes in Campbelltown cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
       { q: 'How large are the groups?', a: 'Between five and ten learners, matched on level, pace and goals rather than on age or postcode. When no group fits a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },

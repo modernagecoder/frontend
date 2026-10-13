@@ -75,7 +75,7 @@ Choose a live class with a real teacher, no more than about ten students, a full
 
   Ask for the exact number, not "small batches". Past about ten students, a teacher is presenting rather than teaching, and quiet students disappear.
 
-  **Here**5 to 10 students in a group, 3 to 4 in a small batch, or 1-on-1.
+  **Here**15 to 20 students in a group, 3 to 4 in a small batch, or 1-on-1.
 3. ### A full hour, not a 30-minute slot
 
   A short slot spends most of its time on hello and goodbye. Learning a concept, practising it and then using it in something real takes an hour.
@@ -113,7 +113,7 @@ How classes run
 
 The syllabus, the mentor and the one-hour class are the same in every format. What changes is how much of the hour belongs to one student.
 
-5 to 10 students
+15 to 20 students
 
 ### Group class
 
@@ -123,7 +123,7 @@ Where most students start. Enough classmates to learn from, few enough that ever
 - Classmates of the same age and level
 - A recording if a class is missed
 
-3 to 4 students
+up to 6 students
 
 ### Small batch
 
@@ -263,7 +263,7 @@ Fees are monthly and the same for every coding and maths course. You see the fee
 
 ### Small batch
 
-3 to 4 students
+up to 6 students
 
 ₹2,999/month
 
@@ -307,7 +307,7 @@ For most children, yes. Recorded courses suit self-driven adults, but a child wh
 
 How many students are in each class?
 
-A group class has 5 to 10 students. A small batch has 3 to 4. You can also choose 1-on-1 classes with a mentor to yourself. See [small batches and 1-on-1 classes](/small-batches-and-1-on-1-classes) for how each one works.
+A group class has 15 to 20 students. A small batch has 3 to 4. You can also choose 1-on-1 classes with a mentor to yourself. See [small batches and 1-on-1 classes](/small-batches-and-1-on-1-classes) for how each one works.
 
 How long is each class, and how often do classes run?
 

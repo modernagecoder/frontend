@@ -236,7 +236,7 @@ module.exports = {
     h2: 'Summer fees',
     lede: 'Summer costs what any other month costs: one monthly fee in US dollars, the rate outside India, with no surcharge, no registration fee and no commitment past the month you are in. The first lesson is free.',
     free: ['A first lesson in whichever week your holiday starts', 'A summer project chosen together', 'Only a phone number to book'],
-    group: ['Five to ten children at one level', 'Start any week of the summer', 'Pause for weeks away', 'A finished project by the end'],
+    group: ['Fifteen to twenty children at one level', 'Start any week of the summer', 'Pause for weeks away', 'A finished project by the end'],
     one: ['A teacher for one child', 'Scheduled around your trips', 'Suits a teenager with an ambitious project']
   },
 

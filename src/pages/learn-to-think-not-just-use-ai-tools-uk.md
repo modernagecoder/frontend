@@ -4,7 +4,7 @@ description: "AI breaks five assumptions people hold about software. A review fo
 canonical: https://learn.modernagecoders.com/learn-to-think-not-just-use-ai-tools-uk
 source: src/pages/learn-to-think-not-just-use-ai-tools-uk.html
 ---
-> Prompting is a skill with a short shelf life. Understanding is not. A rapid evidence review published for the Department for Science, Innovation and Technology sets out why: AI systems are adaptive and context aware, and so break the assumptions people hold about digital tools, including the assumption that you can verify how an answer was produced and the assumption that you always know when AI is involved. The most cited definition of AI literacy in that review puts critical evaluation first, and of its seventeen competencies, nine sit under the heading of how AI works. That is the part a class can actually teach, and the part that survives the next model release. We teach it alongside the programming and data work that makes it concrete, to learners from about ten to sixty-seven, in groups of five to ten or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+> Prompting is a skill with a short shelf life. Understanding is not. A rapid evidence review published for the Department for Science, Innovation and Technology sets out why: AI systems are adaptive and context aware, and so break the assumptions people hold about digital tools, including the assumption that you can verify how an answer was produced and the assumption that you always know when AI is involved. The most cited definition of AI literacy in that review puts critical evaluation first, and of its seventeen competencies, nine sit under the heading of how AI works. That is the part a class can actually teach, and the part that survives the next model release. We teach it alongside the programming and data work that makes it concrete, to learners from about ten to sixty-seven, in groups of fifteen to twenty or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Learn to think, UK
 
@@ -183,7 +183,7 @@ India runs one clock all year, so the UK sits five and a half hours behind from 
 - **Build the small version** Nothing explains training like training something. Every learner ends up with a model they made and then broke.
 - **Evaluate out loud** A learner says why an answer is right or wrong and what would change their mind. That is the competency the frameworks put first.
 - **A record of tool use** What was suggested, what was kept and why. A minute a week, and it becomes automatic long before it matters.
-- **Groups by level** Five to ten learners at one stage, which is where disagreeing about an answer becomes possible.
+- **Groups by level** Fifteen to twenty learners at one stage, which is where disagreeing about an answer becomes possible.
 - **No product tours** We do not teach a named interface as a syllabus. Interfaces change faster than a term.
 
 ## What it costs
@@ -191,7 +191,7 @@ India runs one clock all year, so the UK sits five and a half hours behind from 
 One monthly fee, quoted in US dollars for everyone outside India. The free lesson comes first, and nothing is charged until a course and a slot are settled.
 
 - Free first class: USD 0. A proper lesson, not a sales call. A frank view of the right stage. Nothing needed but a phone number.
-- Group batch: USD 100 a month. Five to ten learners at one stage. One teacher, kept across the course. Weekly written feedback on real work. A certificate at the end of a syllabus.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one stage. One teacher, kept across the course. Weekly written feedback on real work. A certificate at the end of a syllabus.
 - One to one: USD 150 a month. Just the learner and the teacher. Shaped around a specific target. Suits learners far from the middle of a group.
 
 ## What people ask about this

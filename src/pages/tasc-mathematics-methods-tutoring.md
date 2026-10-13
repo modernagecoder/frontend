@@ -188,7 +188,7 @@ Every lesson is live, with the tutor in India. From 4 October 2026 until 4 April
 - **Working on every line** Answers written the way the marking rules reward.
 - **Calculator-free first** Fluency built before technology is used.
 - **Check by composition** Inverses, derivatives and integrals confirmed, not assumed.
-- **Group marking** In classes of five to ten, students swap solutions and mark the working against the TASC rules.
+- **Group marking** In classes of fifteen to twenty, students swap solutions and mark the working against the TASC rules.
 - **Private sessions** Booked for a single weak area, usually circular functions or integration.
 - **No forecasts** Nobody here will guess at your award or your ATAR.
 
@@ -197,7 +197,7 @@ Every lesson is live, with the tutor in India. From 4 October 2026 until 4 April
 Families outside India pay one monthly price in US dollars. No enrolment charge applies, and stopping simply means not renewing for the next month.
 
 - Free first class: USD 0. A full maths lesson with a tutor. A clear first area to work on. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. The same tutor all term. Working checked line by line. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same tutor all term. Working checked line by line. A certificate at the end.
 - One to one: USD 150 a month. A tutor for one student. Focused on one area of study. Often booked before November.
 
 ## TASC Methods questions we hear

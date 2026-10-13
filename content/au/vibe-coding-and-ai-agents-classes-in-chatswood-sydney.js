@@ -316,7 +316,7 @@ module.exports = {
       { h3: 'No commute', p: 'The learner joins from home, so the whole hour goes to coding rather than travel.' },
       { h3: 'NSW stages', p: 'Plans follow the NSW syllabus stages and pause for state school holidays.' },
       { h3: 'A real trial', p: 'The free first lesson is a proper class, followed by a recommendation and nothing to pay.' },
-      { h3: 'Level-matched groups', p: 'Five to ten learners at the same level, or one to one when that suits better.' },
+      { h3: 'Level-matched groups', p: 'Fifteen to twenty learners at the same level, or one to one when that suits better.' },
       { h3: 'Regular rhythm', p: 'Two fixed lessons a week, about eight a month, with breaks planned in advance.' },
       { h3: 'Teachers in India', p: 'A 6:30pm Chatswood lesson in summer starts at 1pm India time, and at 2pm once Sydney ends daylight saving.' }
     ],
@@ -329,7 +329,7 @@ module.exports = {
     h2: 'Chatswood class fees',
     intro: 'The price list has three lines.',
     first: 'The first lesson is free and ends with a clear suggestion.',
-    group: 'A month of small-group lessons, normally eight, with five to ten learners.',
+    group: 'A month of small-group lessons, normally eight, with fifteen to twenty learners.',
     private: 'Around eight one-to-one lessons a month.',
     closer: 'Outside India we invoice in US dollars, with one rate for every suburb. Nothing is charged until course and timing are fixed after the trial, and the pricing page explains holidays and absences.'
   },
@@ -372,7 +372,7 @@ module.exports = {
       },
       {
         q: 'What do AI agents classes cost in Chatswood?',
-        a: 'The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one.',
+        a: 'The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one.',
         boiler: true
       },
       {

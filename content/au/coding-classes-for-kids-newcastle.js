@@ -185,7 +185,7 @@ module.exports = {
       { h3: 'Simple to set up', p: 'Any laptop or desktop with sound will do, and a parent beside a young child for the first lesson.' },
       { h3: 'NSW words', p: 'Teachers use NSW year names from Kindergarten onwards, so lessons sound like school.' },
       { h3: 'Free trial lesson', p: 'A genuine first lesson where your child builds something, then a suggested course and time. No card is ever requested.' },
-      { h3: 'Children at the same stage', p: 'Groups of five to ten at a similar level, or private lessons instead.' },
+      { h3: 'Children at the same stage', p: 'Groups of fifteen to twenty at a similar level, or private lessons instead.' },
       { h3: 'Two sessions most weeks', p: 'Around eight lessons a month in a regular slot that sits around sport and homework.' },
       { h3: 'Teachers on India time', p: 'Newcastle is four and a half hours ahead of India time in winter and five and a half hours ahead during daylight saving, so after-school lessons fall within our teachers\' daytime hours.' }
     ],
@@ -196,7 +196,7 @@ module.exports = {
     h2: 'What coding classes cost for Newcastle kids',
     intro: 'Three prices and that is all.',
     first: 'One complete free lesson, ending with a level, a course and a time.',
-    group: 'Around eight lessons a month with five to ten children at the same level.',
+    group: 'Around eight lessons a month with fifteen to twenty children at the same level.',
     private: 'Around eight lessons a month with your child learning one to one.',
     closer: 'Outside India, all families pay in US dollars at one rate, from the beaches to the Hunter. We invoice only once you have tried a lesson and chosen a course and slot; holidays, absences and moving between group and private are explained on the pricing page.'
   },
@@ -221,8 +221,8 @@ module.exports = {
       { q: 'When are lessons for Newcastle children?', a: 'After school on weekdays or at weekends, agreed during the free lesson and stated in Newcastle time.' },
       { q: 'How do you keep children safe online?', a: 'Lessons are live with a teacher watching throughout, groups are small, children are never asked to join adult AI services, and parents may sit in on any lesson.' },
       { q: 'Is there a Modern Age Coders centre in Newcastle?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do coding classes for Newcastle kids cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do coding classes for Newcastle kids cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

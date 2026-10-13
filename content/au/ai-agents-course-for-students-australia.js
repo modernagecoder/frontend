@@ -393,7 +393,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Free first class', p: 'A tiny agent on a stub model, built together.' },
-      { h3: 'Small groups', p: 'Five to ten students comparing agent logs.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty students comparing agent logs.' },
       { h3: 'One to one', p: 'For a specific idea or a faster pace.' },
       { h3: 'No account to start', p: 'Stub models first, for every age.' },
       { h3: 'Age rules kept', p: 'No provider used below its minimum age.' },
@@ -407,7 +407,7 @@ module.exports = {
     h2: 'Fees for the AI agents course',
     lede: 'Students in Australia are billed monthly in US dollars, with no fee to enrol and no lock-in: classes end whenever a month ends, if you choose.',
     free: ['A tiny agent built together', 'Advice on the right level', 'No card details'],
-    group: ['Five to ten students per group', 'Shared agent logs and reviews', 'A regular teacher', 'No lock-in'],
+    group: ['Fifteen to twenty students per group', 'Shared agent logs and reviews', 'A regular teacher', 'No lock-in'],
     one: ['Built around one student\'s idea', 'Flexible depth', 'Times around study']
   },
   faq: {

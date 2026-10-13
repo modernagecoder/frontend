@@ -65,7 +65,7 @@ module.exports = {
 
   h1: 'Coding classes in Colchester',
   capsuleQ: 'What are the best coding classes in Colchester?',
-  capsule: 'Colchester had 192,715 usual residents at the 2021 census, and 7.2% of them were aged 20 to 24, against 6.0% in England. Colchester Museums describe the town as the first Roman capital of Britain, and the castle\'s vaults as the foundations of the Temple of Claudius. Learners across Colchester, aged six to sixty-seven, can study with our teachers in India in live video lessons, one to one or in a group of five to ten at the same stage, at hours arranged around the UK day. The first lesson is free; afterwards a group place is USD 100 a month and private teaching is USD 150.',
+  capsule: 'Colchester had 192,715 usual residents at the 2021 census, and 7.2% of them were aged 20 to 24, against 6.0% in England. Colchester Museums describe the town as the first Roman capital of Britain, and the castle\'s vaults as the foundations of the Temple of Claudius. Learners across Colchester, aged six to sixty-seven, can study with our teachers in India in live video lessons, one to one or in a group of fifteen to twenty at the same stage, at hours arranged around the UK day. The first lesson is free; afterwards a group place is USD 100 a month and private teaching is USD 150.',
   lead: 'Once it stops raining in Colchester, how long will it stay dry? Fourteen years of daily rainfall from the gauge at West Bergholt hold 696 dry spells, and the answer is not what a simple model predicts. If every dry day had the same chance of rain the next day, a spell lasting beyond two weeks would be rare, about 2.7 in a hundred. The real figure, measured with the Kaplan-Meier method from survival analysis, is 5.7 in a hundred, because the chance of rain falls the longer a spell goes on: 33.2% after one dry day, but only 10.6% once a spell has passed three weeks. The longest ran 58 days, from 30 May to 26 July 2018.',
   wa: 'Hello Modern Age Coders, could we book a free coding lesson for a learner in Colchester?',
 
@@ -192,7 +192,7 @@ module.exports = {
       { h3: 'Town and villages together', p: 'A learner in Rowhedge and another in Great Horkesley can take the same class, with no journey into the town centre.' },
       { h3: 'The stages schools use', p: 'Lessons follow the English school stages found in Colchester, from Reception and Key Stages 1 to 4 through GCSE and A level, taught in English.' },
       { h3: 'A useful free lesson', p: 'The first session is a real lesson on a real task, and it ends with a recommended level, course and weekly slot. We do not take card details.' },
-      { h3: 'Grouped by stage', p: 'Five to ten learners at one level, from Colchester, elsewhere in the UK and overseas, so each stage has sensible times on offer.' },
+      { h3: 'Grouped by stage', p: 'Fifteen to twenty learners at one level, from Colchester, elsewhere in the UK and overseas, so each stage has sensible times on offer.' },
       { h3: 'Two lessons weekly', p: 'Two fixed lessons each week, about eight a month, with half terms and exam periods agreed with the teacher in advance.' },
       { h3: 'Afternoon here, night there', p: 'A 4.30 pm lesson in Colchester begins at 9 pm in India during British Summer Time and 10 pm in winter, as India keeps a single time all year; our teachers work late for UK families.' }
     ],
@@ -203,7 +203,7 @@ module.exports = {
     h2: 'Colchester lesson fees',
     intro: 'One free lesson, then one fee a month.',
     first: 'A complete lesson free of charge, ending with a suggested level, course and weekly time.',
-    group: 'Roughly eight live lessons a month in a group of five to ten learners at the same stage.',
+    group: 'Roughly eight live lessons a month in a group of fifteen to twenty learners at the same stage.',
     private: 'Roughly eight live lessons a month, with the teacher focused only on your learner.',
     closer: 'A family in Mile End or Old Heath pays in US dollars, as every family outside India does, and no pound prices appear anywhere on our site. The free lesson happens first, and billing only starts once the course and weekly time are agreed; pausing, missed lessons and switching between group and private teaching are covered on the pricing page.'
   },
@@ -228,7 +228,7 @@ module.exports = {
       { q: 'Why is Colchester called the first Roman capital of Britain?', a: 'That is how Colchester Museums describe it; their castle tours visit the Roman Vaults, which they call the foundations of the Temple of Claudius. We are not connected with the museums.' },
       { q: 'When can Colchester learners have lessons?', a: 'Families choose after school, a weekday evening or a weekend, and the exact UK time is agreed in the free lesson. India is ahead of Colchester by four and a half hours in summer and five and a half in winter.' },
       { q: 'Do you have a centre in Colchester?', a: 'No. There is no Colchester centre and we have no premises in the UK, because all lessons are live online. A learner needs a computer with sound and a steady connection, and our phone number is an Indian one.', boiler: true },
-      { q: 'What will lessons cost a Colchester family?', a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one lessons on the same schedule are USD 150 a month. The course, format and time are agreed before any charge.', boiler: true },
+      { q: 'What will lessons cost a Colchester family?', a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one lessons on the same schedule are USD 150 a month. The course, format and time are agreed before any charge.', boiler: true },
       { q: 'How do you put groups together?', a: 'By level, pace and goals rather than age or where learners live, with five to ten at one stage in each group. When no group suits the learner\'s week, we offer one-to-one teaching.', boiler: true }
     ]
   },

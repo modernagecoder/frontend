@@ -16,7 +16,7 @@ Strathfield Municipal Council area, Sydney, New South Wales / Live online
 
 Strathfield Station recorded 653,253 entries in August 2026, eighth among all the stations Transport for NSW published that month. Turn that into a percentile and you have to choose: the share of stations below it, the share at or below it, or something in between. You also have to decide what to do with the 16 stations published only as "Less than 50". Those choices move Strathfield between 97.77 and 98.13, and they move a mid-table station like Homebush by more than a whole point. Our Strathfield learners write the Python that makes each choice visible.
 
-Facts last verified 10 October 2026. Teaching is online; no Strathfield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Strathfield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python courses that end in real analysis
 
@@ -178,7 +178,7 @@ Strathfield learners join from home, so no time goes on travel and the teacher c
 - **Screen sharing** The teacher watches the code being typed and corrects misunderstandings the moment they appear.
 - **School stages** Content is pitched to the NSW stages and stops for the state holidays.
 - **A trial with substance** The free lesson teaches something real, then ends with a suggested course, level and time and no request for payment.
-- **Group or private** Groups hold five to ten learners of similar level; one-to-one is available when a group time does not suit.
+- **Group or private** Groups hold fifteen to twenty learners of similar level; one-to-one is available when a group time does not suit.
 - **Regular rhythm** Twice weekly at a fixed time, which comes to about eight lessons in a month.
 - **Teachers in India** A 5pm Strathfield lesson during daylight saving starts at 11:30am India time; in the Sydney winter months it starts at 12:30pm there.
 
@@ -189,7 +189,7 @@ Strathfield learners join from home, so no time goes on travel and the teacher c
 One free lesson, then a choice of two monthly formats.
 
 - First class: USD 0. A first lesson at no cost, with advice on where to start.
-- Group tuition: USD 100 a month. Monthly group place: about eight lessons, five to ten learners matched by level.
+- Group tuition: USD 100 a month. Monthly group place: about eight lessons, fifteen to twenty learners matched by level.
 - Private tuition: USD 150 a month. Monthly one-to-one: about eight lessons with a single teacher.
 
 Fees outside India are charged in US dollars, so the amount is the same for every Strathfield household. The first payment follows the trial, once course and time are chosen, and the pricing page covers holidays, missed lessons and switching format.
@@ -230,11 +230,11 @@ No. Lessons are online and live, and we have no premises in Australia. A compute
 
 ### How much are Python classes for Strathfield learners?
 
-The first lesson is free. Afterwards a group place costs USD 100 a month for two live lessons a week, about eight lessons, with five to ten learners, and one-to-one costs USD 150 a month on the same schedule. Course, format and time are agreed before anything is paid.
+The first lesson is free. Afterwards a group place costs USD 100 a month for two live lessons a week, about eight lessons, with fifteen to twenty learners, and one-to-one costs USD 150 a month on the same schedule. Course, format and time are agreed before anything is paid.
 
 ### What decides which group a learner joins?
 
-Level, pace and goals decide it, not age or postcode, and groups hold five to ten learners. One-to-one lessons are an option if no group time works.
+Level, pace and goals decide it, not age or postcode, and groups hold fifteen to twenty learners. One-to-one lessons are an option if no group time works.
 
 ## More for Strathfield learners
 

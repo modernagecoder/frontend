@@ -64,7 +64,7 @@ module.exports = {
 
   h1: 'Coding classes in Chester',
   capsuleQ: 'What are the best coding classes in Chester?',
-  capsule: 'Cheshire West and Chester, the council area that includes the city, had 357,150 usual residents at the 2021 census, at 388.2 per square kilometre against 433.5 for England. Historic England schedules the walls, towers, gates and posterns of the City of Chester as an ancient monument, alongside the southern part of its Roman amphitheatre. Chester learners aged six to sixty-seven study with our teachers in India in live video lessons, in a group of five to ten at one level or one to one, at hours fitted around the UK day. Lesson one is free; after that it is USD 100 a month for a group place or USD 150 for private teaching.',
+  capsule: 'Cheshire West and Chester, the council area that includes the city, had 357,150 usual residents at the 2021 census, at 388.2 per square kilometre against 433.5 for England. Historic England schedules the walls, towers, gates and posterns of the City of Chester as an ancient monument, alongside the southern part of its Roman amphitheatre. Chester learners aged six to sixty-seven study with our teachers in India in live video lessons, in a group of fifteen to twenty at one level or one to one, at hours fitted around the UK day. Lesson one is free; after that it is USD 100 a month for a group place or USD 150 for private teaching.',
   lead: 'After heavy rain, the River Gowy near Chester rises and then drains away, day by day, along a curve that looks like exponential decay. How fast? Our teenagers make a computer learn the answer with gradient descent, the same step-by-step method that trains AI models: guess, measure the error, nudge the guess downhill, repeat. On one 22-day fall in January 2023, a sensible step size settles in 642 steps on a decay time of 10.39 days. A step size of 0.5 instead of 0.01 announces success after 51 steps, with an answer of 0.04 days that is nonsense. And a shortcut that fits the logarithm instead says 15.98 days. Same river, three answers, and every one of them teaches something.',
   wa: 'Hello Modern Age Coders, I would like to book a free coding lesson for a learner in Chester.',
 
@@ -189,7 +189,7 @@ module.exports = {
       { h3: 'City and towns', p: 'A learner in Lache and another in Neston can share one class, with no drive into the city centre.' },
       { h3: 'Levels Cheshire schools use', p: 'Our levels follow the English curriculum from Reception through each Key Stage to GCSE and A level, and every lesson is taught in English.' },
       { h3: 'Straight into real work', p: 'Even the free session covers a real task, and it ends with our suggested level, course and weekly slot. No card is requested.' },
-      { h3: 'Grouped by stage', p: 'Five to ten learners at the same level, from Chester, around the UK and overseas, so each stage has sensible times.' },
+      { h3: 'Grouped by stage', p: 'Fifteen to twenty learners at the same level, from Chester, around the UK and overseas, so each stage has sensible times.' },
       { h3: 'A steady rhythm', p: 'Two regular lessons each week, around eight a month, with holidays and exam weeks planned with the teacher well ahead.' },
       { h3: 'Across the time zones', p: 'It is 9 pm for our teachers in India when a 4.30 pm lesson starts in Chester in summer, and 10 pm in winter, because India does not change its clocks; they shape their evenings around UK families.' }
     ],
@@ -200,7 +200,7 @@ module.exports = {
     h2: 'Chester lesson fees',
     intro: 'A free first lesson, then one monthly fee.',
     first: 'A full lesson free of charge, closing with advice on level, course and a weekly slot.',
-    group: 'Roughly eight live lessons a month in a group of five to ten learners at one stage.',
+    group: 'Roughly eight live lessons a month in a group of fifteen to twenty learners at one stage.',
     private: 'Roughly eight live lessons a month, with the teacher focused only on your learner.',
     closer: 'Families in Upton or Vicars Cross are billed in US dollars, as every family outside India is, and no pound price appears on any of our pages. There is nothing to pay until after the free lesson, once a course and weekly time are chosen; the pricing page explains pauses, missed lessons and moves between group and one-to-one teaching.'
   },
@@ -225,8 +225,8 @@ module.exports = {
       { q: 'What are Chester\'s scheduled monuments?', a: 'Historic England schedules the walls, towers, gates and posterns of the City of Chester, the southern part of the Roman amphitheatre, part of Chester Castle, the Dee Bridge and a Roman quarry with a rock-cut figure of Minerva on Edgar\'s Field, among others. We are not connected with Historic England.' },
       { q: 'What times do Chester lessons run?', a: 'Most Chester families choose a slot after school, on a weekday evening or at the weekend, and we agree the time in the free lesson. India is four and a half hours ahead of Chester in summer and five and a half in winter.' },
       { q: 'Is there a Chester centre we can visit?', a: 'No. There is no Chester centre and we have no premises anywhere in the UK, because every lesson is live online. Learners need a computer with sound and a reliable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do lessons cost in Chester?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one lessons on the same timetable cost USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How do you group learners?', a: 'By level, pace and goals rather than age or address, with five to ten learners at one stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'What do lessons cost in Chester?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one lessons on the same timetable cost USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How do you group learners?', a: 'By level, pace and goals rather than age or address, with fifteen to twenty learners at one stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

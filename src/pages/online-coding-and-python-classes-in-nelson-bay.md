@@ -16,7 +16,7 @@ Nelson Bay, New South Wales, Australia / Live online
 
 Ask Python which of the 21 public schools in the Port Stephens council area lies furthest south, and it may tell you Karuah Public School. Karuah is in fact the furthest north. Nothing crashed and no error appeared; the latitudes were read as text, and because they are negative numbers, comparing them as text reverses every single one of the 210 pairs. Our Nelson Bay project loads the state's school file, catches that bug and two quieter ones, and shows how a Python dataclass makes them impossible to miss.
 
-Facts last verified 9 October 2026. Teaching is online; no Nelson Bay branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 October 2026. Teaching is online; no Nelson Bay branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python courses for careful coders
 
@@ -186,7 +186,7 @@ The 21 schools in our project range from the peninsula towns to inland places su
 - **Peninsula and inland** A teenager in Salamander Bay and an adult near Seaham can join one class without anyone crossing the council area.
 - **Fits the NSW year** Plans follow the NSW stages and pause for the four school terms. Older students can connect Python projects to the computing subjects they study.
 - **The first lesson** The trial is a full Python lesson with real code. At the end you get a suggested level, course and lesson time, and no card details are asked for.
-- **One level per group** Each group has five to ten learners at the same stage, drawn from Port Stephens and other places, so nobody waits for a class to fill.
+- **One level per group** Each group has fifteen to twenty learners at the same stage, drawn from Port Stephens and other places, so nobody waits for a class to fill.
 - **A steady rhythm** Two lessons a week at the same time, close to eight a month, with holiday and exam breaks agreed ahead.
 - **Taught from India** A 5pm Nelson Bay lesson in August starts at 12:30pm in India; when NSW moves to daylight saving, it starts at 11:30am there.
 
@@ -197,7 +197,7 @@ The 21 schools in our project range from the peninsula towns to inland places su
 The whole price, in three lines.
 
 - First class: USD 0. One complete Python lesson at no cost, with a recommended level, course and time afterwards.
-- Group tuition: USD 100 a month. About eight lessons a month with five to ten learners at the same level.
+- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. About eight lessons a month, one learner with one teacher.
 
 Invoices outside India are issued in US dollars, so a household in Shoal Bay pays exactly what one in Medowie pays and no Port Stephens price list exists. Billing starts only after the trial has fixed a course and a time; holidays, missed lessons and changing format are covered on the pricing page.
@@ -238,11 +238,11 @@ No, and none is claimed. All lessons are live and online and we have no premises
 
 ### What do Nelson Bay Python classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.
 
 ### How big are the groups?
 
-Five to ten learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.
+Fifteen to twenty learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.
 
 ## More for Nelson Bay and Hunter learners
 

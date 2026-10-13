@@ -16,7 +16,7 @@ Shire of Yarra Ranges, Melbourne, Victoria / Live online
 
 Python programs often save their data as JSON so another program, or tomorrow's run, can read it. JSON looks like a Python dictionary, but it is not one. We saved seven years of entries for the Shire's five railway stations and read them straight back. Every single lookup by year failed.
 
-Facts last verified 11 October 2026. Teaching is online; no Yarra Ranges branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 October 2026. Teaching is online; no Yarra Ranges branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that take data in and out safely
 
@@ -184,7 +184,7 @@ Lessons happen on screen, so a learner in Warburton joins the same way as one in
 - **Coding together live** Teacher and learner edit the same file and run it together.
 - **Victorian terms** Plans follow state school terms and stop for the holidays.
 - **A full first lesson** The free trial teaches real content and ends with a recommendation.
-- **Groups of five to ten** Learners matched by level and pace, sometimes from other states.
+- **Groups of fifteen to twenty** Learners matched by level and pace, sometimes from other states.
 - **Two lessons each week** Fixed times, around eight lessons a month, with breaks planned.
 - **Teachers in India** A 5pm Yarra Ranges lesson in daylight saving starts at 11:30am India time, and at 12:30pm there after April.
 
@@ -195,7 +195,7 @@ Lessons happen on screen, so a learner in Warburton joins the same way as one in
 Three simple prices.
 
 - First class: USD 0. The first lesson is free and closes with an honest recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, usually eight, with five to ten learners at a matched level.
+- Group tuition: USD 100 a month. A month of group lessons, usually eight, with fifteen to twenty learners at a matched level.
 - Private tuition: USD 150 a month. About eight lessons a month with one teacher.
 
 Payments from outside India are made in US dollars. Nothing is billed before the trial lesson, and only after a course and a weekly slot are chosen; for school holidays, missed lessons or a change of format, see the pricing page.
@@ -232,11 +232,11 @@ No. Every lesson is live online, we have no premises in Australia, and the phone
 
 ### How much do classes cost in the Yarra Ranges?
 
-The first lesson is free. Group lessons then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.
+The first lesson is free. Group lessons then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.
 
 ### How big are the groups?
 
-Five to ten learners, matched by level, pace and goal. When no group suits the learner's schedule, one-to-one lessons are offered.
+Fifteen to twenty learners, matched by level, pace and goal. When no group suits the learner's schedule, one-to-one lessons are offered.
 
 ### What internet connection is needed?
 

@@ -190,7 +190,7 @@ module.exports = {
       { h3: 'From home', p: 'A laptop or desktop, a headset and a steady connection are enough; nobody travels for a lesson.' },
       { h3: 'South Australian years', p: 'Teachers plan with South Australian year levels in mind, and every lesson is in English.' },
       { h3: 'A real first lesson', p: 'The free trial is a proper class that ends with a suggested course and a regular weekly time.' },
-      { h3: 'Small matched groups', p: 'Groups hold five to ten learners at the same level, drawn from Whyalla and further afield.' },
+      { h3: 'Small matched groups', p: 'Groups hold fifteen to twenty learners at the same level, drawn from Whyalla and further afield.' },
       { h3: 'Twice a week', p: 'Group learners meet on two fixed days, which comes to about eight lessons in a month.' },
       { h3: 'Teachers in India', p: 'Lessons are booked in Whyalla time; our teachers work in India, four or five hours behind depending on the season.' }
     ],
@@ -201,7 +201,7 @@ module.exports = {
     h2: 'Whyalla class fees',
     intro: 'One short price list applies everywhere in Australia.',
     first: 'The first lesson is free and finishes with a level, a course and a weekly time suggested for you.',
-    group: 'One month of group lessons, around eight, with five to ten learners at a matching level.',
+    group: 'One month of group lessons, around eight, with fifteen to twenty learners at a matching level.',
     private: 'Around eight one-to-one lessons a month with a dedicated teacher.',
     closer: 'Outside India we charge in US dollars, and Whyalla pays exactly what every other Australian town pays. Billing starts only after the trial has settled the course and the time, and the pricing page covers holidays, missed lessons and switching between group and private.'
   },
@@ -226,8 +226,8 @@ module.exports = {
       { q: 'When are lessons for Whyalla learners?', a: 'After-school weekday slots and Saturday mornings are common, and every time is quoted in Whyalla time.' },
       { q: 'Can children under 13 join?', a: 'Yes. Learners from age six start with Scratch and games; the population project suits teenagers and adults.' },
       { q: 'Is there a Modern Age Coders office in Whyalla?', a: 'No. We have no premises in Australia and do not claim any. Classes are live online, learners need a computer and a reliable connection, and our listed phone number is an Indian one.', boiler: true },
-      { q: 'What do Whyalla Python classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for one-to-one. Everything is agreed before any payment.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched by level and goals rather than by age or postcode. If no group time suits, we offer one-to-one lessons instead.', boiler: true }
+      { q: 'What do Whyalla Python classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for one-to-one. Everything is agreed before any payment.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched by level and goals rather than by age or postcode. If no group time suits, we offer one-to-one lessons instead.', boiler: true }
     ]
   },
 

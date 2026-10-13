@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Peterborough 
 canonical: https://learn.modernagecoders.com/best-coding-class-in-peterborough
 source: src/pages/best-coding-class-in-peterborough.html
 ---
-> The 2021 census counted 215,671 usual residents in Peterborough, and children aged five to nine made up 7.3% of them, against 5.9% in England. Peterborough Cathedral says it has been a place of worship for over 1,350 years, and that Katharine of Aragon was buried there in 1536. Peterborough learners, from six-year-olds to adults of sixty-seven, work with our India-based teachers live on screen, either individually or in a class of five to ten at the same level, at times that suit UK families. The first lesson costs nothing, and after it a group place is USD 100 a month and a private one USD 150.
+> The 2021 census counted 215,671 usual residents in Peterborough, and children aged five to nine made up 7.3% of them, against 5.9% in England. Peterborough Cathedral says it has been a place of worship for over 1,350 years, and that Katharine of Aragon was buried there in 1536. Peterborough learners, from six-year-olds to adults of sixty-seven, work with our India-based teachers live on screen, either individually or in a class of fifteen to twenty at the same level, at times that suit UK families. The first lesson costs nothing, and after it a group place is USD 100 a month and a private one USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Peterborough
 
@@ -12,11 +12,11 @@ Peterborough, Cambridgeshire / Live online
 
 # Coding classes in Peterborough
 
-**What are the best coding classes in Peterborough?** The 2021 census counted 215,671 usual residents in Peterborough, and children aged five to nine made up 7.3% of them, against 5.9% in England. Peterborough Cathedral says it has been a place of worship for over 1,350 years, and that Katharine of Aragon was buried there in 1536. Peterborough learners, from six-year-olds to adults of sixty-seven, work with our India-based teachers live on screen, either individually or in a class of five to ten at the same level, at times that suit UK families. The first lesson costs nothing, and after it a group place is USD 100 a month and a private one USD 150.
+**What are the best coding classes in Peterborough?** The 2021 census counted 215,671 usual residents in Peterborough, and children aged five to nine made up 7.3% of them, against 5.9% in England. Peterborough Cathedral says it has been a place of worship for over 1,350 years, and that Katharine of Aragon was buried there in 1536. Peterborough learners, from six-year-olds to adults of sixty-seven, work with our India-based teachers live on screen, either individually or in a class of fifteen to twenty at the same level, at times that suit UK families. The first lesson costs nothing, and after it a group place is USD 100 a month and a private one USD 150.
 
 Peterborough's population, by the Office for National Statistics' mid-year estimates, grew from 154,181 in 1991 to 224,757 in 2025. Growth like this cannot go on for ever, and the classic model for it is the logistic curve: slow, then fast, then levelling off at a ceiling called the carrying capacity. So where is Peterborough's ceiling? Fix it at 400,000, fit the rest, and the curve matches the 35 years of estimates to within about 6,000 people on average. Fix it at two million and the fit is slightly better still. The data simply cannot tell. Our teenagers fit the curve, find that the most interesting number is the one the data cannot pin down, and learn to say so instead of reporting a false ceiling.
 
-Facts last verified 23 September 2026. Teaching is online; no Peterborough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Peterborough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the city on the Nene
 
@@ -176,7 +176,7 @@ Peterborough's townships spread in every direction from the centre, and crossing
 - **Township to township** A learner in Paston and another in Hampton Vale can share one lesson without a car journey across the city.
 - **English school stages** Lessons follow the stages Peterborough schools use, from Reception through Key Stages 1 to 4 to GCSEs and A levels, and are taught in English.
 - **Free and worthwhile** The first session involves real work with a teacher and ends with a recommended level, course and weekly slot. We never ask for card details.
-- **Five to ten per class** Classmates working at the same stage, from Peterborough, the rest of the UK and abroad, so each level has a time that suits.
+- **Fifteen to twenty per class** Classmates working at the same stage, from Peterborough, the rest of the UK and abroad, so each level has a time that suits.
 - **A two-lesson week** Two regular lessons each week, about eight a month, with holidays and exam periods arranged with the teacher well ahead.
 - **Evenings across two time zones** Our teachers in India are four and a half hours ahead of Peterborough in British Summer Time and five and a half in winter, and they teach into their evening so learners here can join after school or work.
 
@@ -187,7 +187,7 @@ Peterborough's townships spread in every direction from the centre, and crossing
 The first lesson is free; after that there is one monthly fee.
 
 - First class: USD 0. A full lesson free of charge, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month with five to ten learners at your learner's level.
+- Group tuition: USD 100 a month. About eight live lessons a month with fifteen to twenty learners at your learner's level.
 - Private tuition: USD 150 a month. About eight live lessons a month with a teacher who works with your learner alone.
 
 Bretton and Stanground pay the same fee as any family elsewhere outside India, set in US dollars, and nothing on our site is priced in pounds. Billing only starts once the free lesson has fixed a course and a weekly time; the pricing page covers pausing, missed lessons and moving between group and one-to-one lessons.
@@ -228,11 +228,11 @@ No. We have no Peterborough centre and no premises anywhere in the UK, as every 
 
 ### How much do Peterborough lessons cost?
 
-The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
+The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
 
 ### How are Peterborough groups formed?
 
-By level, pace and goals rather than age or address, with five to ten learners at one stage. If no group fits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than age or address, with fifteen to twenty learners at one stage. If no group fits the learner's week, we offer one-to-one lessons.
 
 ## Eastern England and beyond
 

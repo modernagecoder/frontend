@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and app classes in Lelystad for age
 canonical: https://learn.modernagecoders.com/coding-classes-in-lelystad
 source: src/pages/coding-classes-in-lelystad.html
 ---
-> Coding classes in Lelystad serve 85,781 people (statistics office, 1 January 2026) in the capital of Flevoland, named after Cornelis Lely, the mind behind the Zuiderzee Works. The polder fell dry in June 1957 and the first residents arrived on 28 September 1967. Until 1976, the encyclopaedia records, the only connection between Noord-Holland and Flevoland was the Oostvaardersdijk; then the Houtribdijk opened, and in 1988 the Flevolijn brought the railway. One route is what engineers call a single point of failure, and software is full of them: one server, one password, one supplier, one person who knows how the system works. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Lelystad serve 85,781 people (statistics office, 1 January 2026) in the capital of Flevoland, named after Cornelis Lely, the mind behind the Zuiderzee Works. The polder fell dry in June 1957 and the first residents arrived on 28 September 1967. Until 1976, the encyclopaedia records, the only connection between Noord-Holland and Flevoland was the Oostvaardersdijk; then the Houtribdijk opened, and in 1988 the Flevolijn brought the railway. One route is what engineers call a single point of failure, and software is full of them: one server, one password, one supplier, one person who knows how the system works. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Lelystad
 
@@ -12,11 +12,11 @@ Lelystad, Flevoland / Live online
 
 # Coding classes in Lelystad, a capital that once had a single road to Noord-Holland
 
-**What are the best coding classes in Lelystad?** Coding classes in Lelystad serve 85,781 people (statistics office, 1 January 2026) in the capital of Flevoland, named after Cornelis Lely, the mind behind the Zuiderzee Works. The polder fell dry in June 1957 and the first residents arrived on 28 September 1967. Until 1976, the encyclopaedia records, the only connection between Noord-Holland and Flevoland was the Oostvaardersdijk; then the Houtribdijk opened, and in 1988 the Flevolijn brought the railway. One route is what engineers call a single point of failure, and software is full of them: one server, one password, one supplier, one person who knows how the system works. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Lelystad?** Coding classes in Lelystad serve 85,781 people (statistics office, 1 January 2026) in the capital of Flevoland, named after Cornelis Lely, the mind behind the Zuiderzee Works. The polder fell dry in June 1957 and the first residents arrived on 28 September 1967. Until 1976, the encyclopaedia records, the only connection between Noord-Holland and Flevoland was the Oostvaardersdijk; then the Houtribdijk opened, and in 1988 the Flevolijn brought the railway. One route is what engineers call a single point of failure, and software is full of them: one server, one password, one supplier, one person who knows how the system works. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 For nine years after the first residents arrived, every journey between Lelystad and Noord-Holland had one way to go. The encyclopaedia puts it plainly: until the Houtribdijk opened in 1976, the only connection between Noord-Holland and Flevoland was the Oostvaardersdijk. Nothing on this page suggests that the dike ever failed. The point is what the arrangement meant: anything that closed that one route would have closed the connection completely. A second dike changed that, and the railway in 1988 added a connection of a different kind. Engineers call the first situation a single point of failure, and they spend a great deal of effort removing them. Software developers need the same habit, because modern systems hide single points of failure everywhere, often in places nobody thought to draw.
 
-Facts last verified 11 September 2026. Teaching is online; no Lelystad branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Lelystad branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the capital of the new land
 
@@ -193,7 +193,7 @@ Lelystad was laid out with plenty of space between its wijken, and a lesson that
 - **Nobody crosses town** A learner in the Warande logs in at the same moment as one in the Kustwijk, each from home. The evening is not spent driving from one wijk to another and back again.
 - **Dutch school words stay put** Groep, brugklas, vmbo, havo, vwo and the profielkeuze are said in Dutch during lessons, just as a Lelystad school writes them, and the teaching goes on in English around them.
 - **A first lesson that counts** The free hour is a real lesson on a real task. The teacher watches how the learner works and ends with a level, a course and a regular weekly time, without asking for any payment details.
-- **Classmates at the same stage** Five to ten learners who have reached the same point. Lelystad has 14,280 residents under fifteen, but five who match on subject, level and hour are rare in any town, so groups may bring in learners from other countries.
+- **Classmates at the same stage** Fifteen to twenty learners who have reached the same point. Lelystad has 14,280 residents under fifteen, but five who match on subject, level and hour are rare in any town, so groups may bring in learners from other countries.
 - **Regio Noord holidays** Two lessons each week, around eight a month, always at the same hour, pausing for the regio Noord holidays that Flevoland schools follow.
 - **A time difference that helps** India is three and a half hours ahead in summer and four and a half in winter. After school, the early evening and weekend mornings all remain available across the year.
 
@@ -204,7 +204,7 @@ Lelystad was laid out with plenty of space between its wijken, and a lesson that
 All three prices are below, and there is nothing else.
 
 - First class: USD 0. A full, real lesson on a real task, closing with a level and a named course.
-- Group tuition: USD 100 a month. Monthly, normally eight lessons, five to ten learners grouped by level.
+- Group tuition: USD 100 a month. Monthly, normally eight lessons, fifteen to twenty learners grouped by level.
 - Private tuition: USD 150 a month. Monthly, normally eight lessons, a single learner with a single teacher.
 
 The fee is one dollar price for every country, with no euro list set against it, so a family in the Boswijk and a family in the Atolwijk pay exactly the same. No payment is taken until the free lesson has settled a course and an hour, and then it is arranged over WhatsApp. Breaks, changes of format and missed lessons are all explained on the pricing page.
@@ -245,7 +245,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Lelystad coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

@@ -16,7 +16,7 @@ Province of Zuid-Holland / Live online
 
 Ask anyone in Delft, Gouda or Dordrecht where they live and sooner or later they will say the Randstad. Ask how many people live in the Randstad and the honest answer is that its borders have never been officially specified, so the figure runs from 2.6 million to 8.6 million depending on who is counting. A child who can build the small program that shows why is ready for most of the maps they will ever be handed.
 
-Facts last verified 7 September 2026. Teaching is online; no Zuid-Holland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Zuid-Holland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a province of universities, greenhouses and islands
 
@@ -209,7 +209,7 @@ Nowhere in Zuid-Holland is far from a city, and everywhere in Zuid-Holland is a 
 The full tariff, printed before anyone asks for a number.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 The international tariff is a single dollar figure with no euro version, and Wassenaar pays what Sliedrecht pays. The free lesson comes first and fixes the course and the hour; payment follows on WhatsApp. Pauses, plan changes and missed lessons: see the pricing page.
@@ -250,7 +250,7 @@ No, and none is claimed in The Hague, in Rotterdam or anywhere in the Netherland
 
 ### What do Zuid-Holland coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Zuid-Holland group?
 

@@ -16,7 +16,7 @@ Baulkham Hills, The Hills Shire / Live online
 
 Seven state schools give Baulkham Hills as their suburb, and a short Python tool should be able to list them, or just the high schools, or only those opened since a given year. Written the obvious way it lists one school, then three instead of four, then none at all, and it never prints an error. Each fault sits in how the program reads its command line, and fixing them is a compact lesson in the argparse module that most real tools are built on.
 
-Facts last verified 10 October 2026. Teaching is online; no Baulkham Hills branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Baulkham Hills branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that end in tools people can run
 
@@ -187,7 +187,7 @@ Classes happen over live video, which suits busy Baulkham Hills households with 
 - **Live, not recorded** The teacher talks through each line with the learner while it is being written.
 - **NSW terms** Stages, years and the school calendar match what local schools use.
 - **Trial before paying** The first class is free and ends with a clear plan for level and timing.
-- **Five to ten per group** Classmates are matched by ability; one-to-one is offered too.
+- **Fifteen to twenty per group** Classmates are matched by ability; one-to-one is offered too.
 - **Twice a week** A regular pair of weekly slots, roughly eight sessions a month.
 - **Teachers in India** A 6pm Baulkham Hills lesson is 12:30pm India time in Sydney summer time and 1:30pm otherwise.
 
@@ -198,7 +198,7 @@ Classes happen over live video, which suits busy Baulkham Hills households with 
 Every course costs the same, whatever the subject or age.
 
 - First class: USD 0. Lesson one is free, and the teacher recommends a course and time at the end of it.
-- Group tuition: USD 100 a month. Two classes each week, about eight a month, with five to ten classmates at the same level.
+- Group tuition: USD 100 a month. Two classes each week, about eight a month, with fifteen to twenty classmates at the same level.
 - Private tuition: USD 150 a month. Individual lessons on the same twice-weekly rhythm, about eight a month.
 
 Baulkham Hills families pay in US dollars, and only after the trial has settled a course and a time. The pricing page sets out holidays, missed classes and changes of format.
@@ -239,11 +239,11 @@ No. We teach only online and have no premises anywhere in Australia, including B
 
 ### How much do Baulkham Hills lessons cost?
 
-The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.
+The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.
 
 ### How big are the groups?
 
-Five to ten learners, grouped by level and goals rather than age. If no group fits the learner's schedule, one-to-one lessons are offered instead.
+Fifteen to twenty learners, grouped by level and goals rather than age. If no group fits the learner's schedule, one-to-one lessons are offered instead.
 
 ## More for Baulkham Hills learners
 

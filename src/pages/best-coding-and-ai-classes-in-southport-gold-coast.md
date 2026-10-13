@@ -16,7 +16,7 @@ Southport, City of Gold Coast, Queensland / Live online
 
 Southport is the Gold Coast's main business centre, on the Broadwater just north of Main Beach. More than half its homes are apartments, and 19 Translink routes stop inside the suburb, from the G:link tram to the local 7xx buses. That makes Southport a natural starting point for the question every journey planner answers: how many changes will this trip need?
 
-Facts last verified 13 October 2026. Teaching is online; no Southport branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Southport branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Algorithms, Python and AI
 
@@ -176,7 +176,7 @@ There is no classroom to reach: lessons are video calls with a teacher, joined f
 - **Teacher on screen** Every session is run in real time, with the teacher reading each learner's code.
 - **School calendar** We keep to Queensland term dates and stop during the breaks.
 - **Start free** An opening session at no cost, after which we suggest a course in writing.
-- **Class size** Level-matched groups of five to ten, or a teacher of your own.
+- **Class size** Level-matched groups of fifteen to twenty, or a teacher of your own.
 - **Rhythm** Two sessions every week through each term.
 - **India time** A 4:30pm Southport lesson is noon in India, all year round.
 
@@ -187,7 +187,7 @@ There is no classroom to reach: lessons are video calls with a teacher, joined f
 The same fees for every learner.
 
 - First class: USD 0. Session one costs nothing and ends with a course suggestion.
-- Group tuition: USD 100 a month. Groups: two sessions weekly, roughly eight a month, five to ten classmates.
+- Group tuition: USD 100 a month. Groups: two sessions weekly, roughly eight a month, fifteen to twenty classmates.
 - Private tuition: USD 150 a month. One-to-one: the same rhythm with a teacher who works only with you.
 
 We charge in US dollars, and only once the free session has fixed what to learn and when. School holidays and missed sessions are explained on our pricing page.
@@ -224,11 +224,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Southport classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How are groups formed?
 
-By level and pace, five to ten learners each, not by age or suburb. One-to-one lessons suit anyone no group time fits.
+By level and pace, fifteen to twenty learners each, not by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Do you teach adults in Southport?
 

@@ -16,7 +16,7 @@ Clonmel, Tipperary and Waterford / Live online
 
 A CSO table published in 2026 measures how far people live from nine kinds of service, town by town. For Clonmel, the average person lives 2.3 km from an emergency department, 23.7 km from an injury unit, and 2.3 km from whichever of the two is nearer. That last figure looks as though it could be worked out from the first two: just take the smaller. For Clonmel it can. For Limerick city and suburbs it cannot: 4.8 km to an emergency department, 3.1 km to an injury unit, and 2.5 km to the nearer of the two, which is less than either. The reason is the whole lesson on this page: the nearest facility is chosen person by person, before anybody averages anything, and some people are closer to one kind and some to the other.
 
-Facts last verified 19 September 2026. Teaching is online; no Clonmel branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Clonmel branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Starting courses for Clonmel learners
 
@@ -166,7 +166,7 @@ Arithmetic on summaries is instant. Knowing when summaries can be combined at al
 The practical side, in six lines.
 
 - **Live lessons** A teacher on the call for the full hour, responding to what the learner does.
-- **Level-matched groups** Five to ten learners at the same stage, joining from Clonmel, around Ireland and abroad.
+- **Level-matched groups** Fifteen to twenty learners at the same stage, joining from Clonmel, around Ireland and abroad.
 - **Two a week, most weeks** About eight lessons a month, at an hour agreed when the course begins.
 - **School year** Holidays and exam weeks are planned into the timetable before it starts.
 - **What to bring** A computer that can run a video call for an hour, sound you can hear, and a microphone that works.
@@ -179,7 +179,7 @@ The practical side, in six lines.
 What it costs.
 
 - First class: USD 0. The first lesson, taught in full and assessed, at no charge.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, about eight live lessons.
 - Private tuition: USD 150 a month. A month of private lessons on the same weekly pattern.
 
 One monthly price, in US dollars, for every household outside India, with no euro version shown beside it. Billing begins with the first paid month, once the free lesson has fixed what will be taught and when, and the pricing page covers the exceptions: holidays, absences and a change from group to private teaching or back.
@@ -220,7 +220,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Clonmel cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

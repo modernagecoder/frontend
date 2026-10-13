@@ -16,7 +16,7 @@ Rhyl, Denbighshire, Wales / Live online
 
 An agent that only answers questions can be wrong without harm. An agent that does things, books, orders and pays, can leave a mess. Give one a four-step task and let the third step fail, and the first two bookings are still sitting there unless something cancels them. Database researchers met this problem decades ago and gave the fix a name in 1987: the saga, a chain of steps where every step comes with its own undo. In Rhyl we simulate a hundred thousand day outs to see what each kind of care is worth.
 
-Facts last verified 1 October 2026. Teaching is online; no Rhyl branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 1 October 2026. Teaching is online; no Rhyl branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Vibe coding and AI agents courses for Rhyl learners
 
@@ -134,11 +134,11 @@ Every lesson is live on video. Learners need a computer with a keyboard, because
 - **Learner writes it** The learner types, runs and explains every program while the tutor questions.
 - **Placement by trial** We see the learner's level in the first lesson before recommending a course.
 - **Free start** Session one costs nothing and no card is taken.
-- **Small level groups** Five to ten classmates at one stage, joining from across the UK.
+- **Small level groups** Fifteen to twenty classmates at one stage, joining from across the UK.
 - **Two a week in term** About eight lessons a month, with Denbighshire holidays left clear on request.
 - **Same UK time** The lesson time holds steady through the clock changes.
 
-**Why lessons are online** Five to ten learners at exactly one level are much easier to group from the whole UK than from one seaside town, and video saves everyone the journey.
+**Why lessons are online** Fifteen to twenty learners at exactly one level are much easier to group from the whole UK than from one seaside town, and video saves everyone the journey.
 
 ## Fees for Rhyl families
 

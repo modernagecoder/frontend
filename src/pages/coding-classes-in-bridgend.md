@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Bridgend count
 canonical: https://learn.modernagecoders.com/coding-classes-in-bridgend
 source: src/pages/coding-classes-in-bridgend.html
 ---
-> The 2021 census counted 145,488 usual residents in Bridgend county borough. Bridgend town is the main built-up area, with Maesteg, Porthcawl, Pyle and Sarn next and Pencoed and Ogmore Vale among the smaller places. Every class is taught live on video by our teachers in India, and a first lesson costs nothing and finds the right level, whether the learner is in Year 3, Year 12 or long out of school. Coding, Python and maths are open to anyone between 6 and 67, in small classes of five to ten or one-to-one. The Bridgend project comes from an ironworks tower at Tondu. Keeping going costs USD 100 a month in a class or USD 150 a month with a private teacher.
+> The 2021 census counted 145,488 usual residents in Bridgend county borough. Bridgend town is the main built-up area, with Maesteg, Porthcawl, Pyle and Sarn next and Pencoed and Ogmore Vale among the smaller places. Every class is taught live on video by our teachers in India, and a first lesson costs nothing and finds the right level, whether the learner is in Year 3, Year 12 or long out of school. Coding, Python and maths are open to anyone between 6 and 67, in classes of fifteen to twenty or one-to-one. The Bridgend project comes from an ironworks tower at Tondu. Keeping going costs USD 100 a month in a class or USD 150 a month with a private teacher.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Bridgend
 
@@ -12,11 +12,11 @@ Bridgend county borough / Live online
 
 # Coding classes in Bridgend
 
-**What are the best coding classes in Bridgend?** The 2021 census counted 145,488 usual residents in Bridgend county borough. Bridgend town is the main built-up area, with Maesteg, Porthcawl, Pyle and Sarn next and Pencoed and Ogmore Vale among the smaller places. Every class is taught live on video by our teachers in India, and a first lesson costs nothing and finds the right level, whether the learner is in Year 3, Year 12 or long out of school. Coding, Python and maths are open to anyone between 6 and 67, in small classes of five to ten or one-to-one. The Bridgend project comes from an ironworks tower at Tondu. Keeping going costs USD 100 a month in a class or USD 150 a month with a private teacher.
+**What are the best coding classes in Bridgend?** The 2021 census counted 145,488 usual residents in Bridgend county borough. Bridgend town is the main built-up area, with Maesteg, Porthcawl, Pyle and Sarn next and Pencoed and Ogmore Vale among the smaller places. Every class is taught live on video by our teachers in India, and a first lesson costs nothing and finds the right level, whether the learner is in Year 3, Year 12 or long out of school. Coding, Python and maths are open to anyone between 6 and 67, in classes of fifteen to twenty or one-to-one. The Bridgend project comes from an ironworks tower at Tondu. Keeping going costs USD 100 a month in a class or USD 150 a month with a private teacher.
 
 At Tondu, Cadw lists a tall three-sided tower of yellow brick at Grade II*. It lifted materials to the charging platforms of an ironworks developed from 1837, and Cadw's record suggests it was possibly worked by water balance: two tram cars on a rope, with tanks of water beneath them, so that filling the top car makes it heavier and it sinks, hauling the other up, before the water is let out. No engine, just gravity and water. The record is careful to say possibly, and that steam was also used at such sites. Either way, the idea poses a neat question: how much water does it take, and what happens if you add too much? This page's project answers it in Python.
 
-Facts last verified 26 September 2026. Teaching is online; no Bridgend branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Bridgend branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four ways in, across Bridgend county borough
 
@@ -136,7 +136,7 @@ Towns and villages across the county borough all join by video.
 - **Code is typed, not watched** Pupils write the programs themselves; the teacher follows along on the shared screen and prompts when stuck.
 - **Placed by Welsh year group** A Pyle Year 5 or a Pencoed Year 11 is matched to their year and the Curriculum for Wales, with WJEC exam names where relevant. We teach in English.
 - **Trial lesson, on us** One whole lesson without charge, followed by frank advice.
-- **Five to ten per class** Classmates share a level and come from several countries.
+- **Fifteen to twenty per class** Classmates share a level and come from several countries.
 - **Twice a week in term** Regular lessons during term, a break for school holidays.
 - **Clock changes handled** The UK hour of your lesson stays fixed through the clock changes; teachers on India time shift instead.
 
@@ -147,7 +147,7 @@ Towns and villages across the county borough all join by video.
 Maesteg or Porthcawl, the fee is identical, the same rate we use everywhere outside India.
 
 - First class: USD 0. A complete trial lesson, free, then our suggestion.
-- Group tuition: USD 100 a month. About eight lessons a month with five to ten classmates.
+- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty classmates.
 - Private tuition: USD 150 a month. About eight lessons a month with your own teacher.
 
 We charge in US dollars and have no sterling price list. No payment is taken until a course and weekly slot are agreed after the trial; holidays, absences and moving between formats are covered on our pricing page.

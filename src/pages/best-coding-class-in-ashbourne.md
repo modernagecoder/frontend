@@ -16,7 +16,7 @@ Ashbourne, County Meath / Live online
 
 Ashbourne's school run has a most common answer, and it is walking: 1,833 of the 4,662 residents travelling to school, college or childcare go on foot. Say that out loud and somebody will hear "most children in Ashbourne walk", which the figure does not support. It is 39.3% of the group, so six in ten do something else. Group the two car rows together and you get 1,777, just 56 behind the walkers. Group walking with cycling instead and you get 2,214, which is more than half of everyone who stated a mode. Three groupings, three different answers, all from one column of published counts. Deciding what to group before looking at who wins is the whole discipline, and it is what this page teaches with the town's own figures.
 
-Facts last verified 18 September 2026. Teaching is online; no Ashbourne branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 18 September 2026. Teaching is online; no Ashbourne branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses for Ashbourne learners
 
@@ -168,7 +168,7 @@ Getting a number out of a machine is now trivial. Choosing the categories it cou
 Six lines of logistics.
 
 - **Teaching in real time** A teacher is on the call throughout, reacting to the learner's own work rather than playing a recording.
-- **Groups of five to ten** Formed by level rather than by age or address, with learners joining from Ireland and further afield.
+- **Groups of fifteen to twenty** Formed by level rather than by age or address, with learners joining from Ireland and further afield.
 - **Two lessons most weeks** About eight a month, at an hour the household chooses at the start and then keeps.
 - **Terms and exams** Mid-terms, holidays and exam weeks are planned in when the slot is agreed.
 - **What to have ready** A desktop or laptop, working sound both ways, and a connection that holds video. Checked in the free lesson.
@@ -181,7 +181,7 @@ Six lines of logistics.
 Three lines, and that is the whole of it.
 
 - First class: USD 0. The first lesson in full, taught and assessed, with nothing to pay and nothing owed afterwards.
-- Group tuition: USD 100 a month. A month in an ability group of five to ten, around eight live lessons.
+- Group tuition: USD 100 a month. A month in an ability group of fifteen to twenty, around eight live lessons.
 - Private tuition: USD 150 a month. A month of one to one teaching on the same weekly rhythm.
 
 We charge monthly in US dollars at the one rate that applies to every family outside India, so Ashbourne sees the same figure as Bray or Naas and there is no second list in euro. The first payment falls due only after the free lesson has settled a course and an hour, and breaks, missed weeks and changes between group and private teaching are all described on the pricing page.
@@ -222,7 +222,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Ashbourne cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

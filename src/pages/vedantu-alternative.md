@@ -1,16 +1,16 @@
 ---
 title: "Vedantu Alternative for 2026: Live Coding and Maths Classes"
-description: "Looking for a Vedantu alternative for coding or maths? Live coding, AI and maths in batches of 5 to 10 for ages 6 to 67, flat monthly fee, free demo first."
+description: "Looking for a Vedantu alternative for coding or maths? Live coding, AI and maths in batches of 15 to 20 for ages 6 to 67, flat monthly fee, free demo first."
 canonical: https://learn.modernagecoders.com/vedantu-alternative
 source: src/pages/vedantu-alternative.html
 ---
-> Looking for a Vedantu alternative for coding or maths? Live coding, AI and maths in batches of 5 to 10 for ages 6 to 67, flat monthly fee, free demo first.
+> Looking for a Vedantu alternative for coding or maths? Live coding, AI and maths in batches of 15 to 20 for ages 6 to 67, flat monthly fee, free demo first.
 
 Honest alternative · facts checked September 2026
 
 # Vedantu Alternative for 2026: Live Coding and Maths in Small Batches
 
-Looking for a Vedantu alternative? If the reason is coding, the honest answer is that Vedantu does not sell a coding course: its "Coding for Kids" section is a library of free articles. If the reason is maths, the difference is batch size and purpose. Modern Age Coders teaches live coding, AI and maths in batches of 5 to 10 with one mentor, for ages 6 to 67, with a flat monthly fee shown on this page in your own currency and a free demo before you decide.
+Looking for a Vedantu alternative? If the reason is coding, the honest answer is that Vedantu does not sell a coding course: its "Coding for Kids" section is a library of free articles. If the reason is maths, the difference is batch size and purpose. Modern Age Coders teaches live coding, AI and maths in batches of 15 to 20 with one mentor, for ages 6 to 67, with a flat monthly fee shown on this page in your own currency and a free demo before you decide.
 
 Rated 4.9 across 547 Google reviews Group batch ₹1,499 a month
 
@@ -33,7 +33,7 @@ Quotes from vedantu.com and vedantu.com/coding-for-kids, read 23 September 2026;
 
 ## Why Modern Age Coders
 
-Modern Age Coders is a small live school, not a platform: coding, AI and maths, taught by mentors in batches of 5 to 10 where every student is asked questions by name. Coding runs from Scratch at 6 to Python, Java, web development and AI agents; maths runs from Grade 1 to college, with CBSE, ICSE and international boards; and Maths Through Coding teaches both at once. Two one-hour live classes a week, a flat monthly fee, no enrolment fee, and the freedom to stop at the end of any month.
+Modern Age Coders is a small live school, not a platform: coding, AI and maths, taught by mentors in batches of 15 to 20 where every student is asked questions by name. Coding runs from Scratch at 6 to Python, Java, web development and AI agents; maths runs from Grade 1 to college, with CBSE, ICSE and international boards; and Maths Through Coding teaches both at once. Two one-hour live classes a week, a flat monthly fee, no enrolment fee, and the freedom to stop at the end of any month.
 
 Side by side
 
@@ -47,7 +47,7 @@ Swipe to see the whole table
 | --- | --- | --- |
 | Subjects | K1 to K12 tuition across boards, JEE, NEET, CUET, NDA; coding as free articles | Coding, AI and machine learning, and maths, as live courses |
 | Ages | K1 to K12 and entrance-exam candidates | Ages 6 to 67: kids, teens, college students, adults |
-| Format | Live online classes and offline centres | Live online, batch of 5 to 10, mini batch of 3 to 4, or one to one |
+| Format | Live online classes and offline centres | Live online, batch of 15 to 20, mini batch of up to 6, or one to one |
 | Coding course | None found; a "Free Resources, Guides and Tutorial" section | Scratch, Python, Java, web, AI, AI agents, from 6 to adults |
 | Fees | Vary by course and plan on its site | Flat monthly fee per format, shown on this page; no enrolment fee; stop any month |
 | Before you pay | A trial or demo | A free demo, or a Priority Live Demo: a full 45-60 minute class, fee adjusted against your first month if you enrol |
@@ -61,7 +61,7 @@ Honest answers
 
 Is Modern Age Coders a good Vedantu alternative for coding?
 
-Yes, because Vedantu does not offer a live coding course at all: its coding section is a set of free articles. Modern Age Coders teaches coding live, from Scratch for six-year-olds to Python, Java, web development and AI agents for teens and adults, in batches of 5 to 10 with a mentor and a project built in class.
+Yes, because Vedantu does not offer a live coding course at all: its coding section is a set of free articles. Modern Age Coders teaches coding live, from Scratch for six-year-olds to Python, Java, web development and AI agents for teens and adults, in batches of 15 to 20 with a mentor and a project built in class.
 
 Is Modern Age Coders a good Vedantu alternative for maths?
 
@@ -69,7 +69,7 @@ For a child in Class 1 to 10 who needs to understand maths rather than race thro
 
 How is Modern Age Coders different from Vedantu?
 
-Vedantu is a large K1 to K12 and entrance-exam platform with offline centres, where coding exists only as articles. Modern Age Coders is a small live school for coding, AI and maths, ages 6 to 67, with batches of 5 to 10, a flat monthly fee shown on the page, and no lock-in. Both are live; the scope, the batch size and the purpose differ.
+Vedantu is a large K1 to K12 and entrance-exam platform with offline centres, where coding exists only as articles. Modern Age Coders is a small live school for coding, AI and maths, ages 6 to 67, with batches of 15 to 20, a flat monthly fee shown on the page, and no lock-in. Both are live; the scope, the batch size and the purpose differ.
 
 Does Modern Age Coders cover CBSE and ICSE?
 

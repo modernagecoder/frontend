@@ -12,7 +12,7 @@ Live online · serving Chandigarh
 
 Real programming for kids, teens and college students in Chandigarh, from **Sector 17 to Sector 35, Sector 22 to Sector 43-44**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Chandigarh)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**ChandigarhEnrollingAreasSector 17, Sector 35, Sector 22, Sector 43-44, IT Park & all of ChandigarhBoardsCBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across ChandigarhFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Chandigarh)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**ChandigarhEnrollingAreasSector 17, Sector 35, Sector 22, Sector 43-44, IT Park & all of ChandigarhBoardsCBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across ChandigarhFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -157,7 +157,7 @@ Master algebra, geometry, trigonometry, pre-calculus, and calculus for grades 9-
 Master advanced problem-solving techniques and prepare for IMO, PRMO, RMO, and other mathematical competitions. For the Tricity's brightest young mathematicians.
 
 - 2 Live Classes/Week
-- Small Batch (5-8 Students)
+- Batch (15-20 Students)
 - Recorded Sessions
 - Completion Certificate
 
@@ -175,7 +175,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -197,7 +197,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -206,7 +206,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -215,7 +215,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -290,7 +290,7 @@ Takes under a minute.
 
 ## Coding classes in Chandigarh: FAQs
 
-What is the best coding class in Chandigarh for kids?Modern Age Coders offers the best coding classes in Chandigarh for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Tricity areas including Sector 17, Sector 35, Mohali, Panchkula, and Zirakpur.Do you offer online coding classes in Chandigarh?Yes, we offer live online coding classes for students across Chandigarh including Sector 17, Sector 35, Mohali, Panchkula, Zirakpur, IT Park, and all other Tricity areas. Our online classes are interactive with small batch sizes of 5-8 students.Do you cover the entire Tricity area (Chandigarh, Mohali, Panchkula)?Absolutely! Our live online classes are accessible from anywhere in the Tricity region: Chandigarh, Mohali, Panchkula, Zirakpur, and Kharar. No commuting needed, just a laptop and internet connection.How much do coding classes cost in Chandigarh?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (3-4 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Do your courses support PSEB and CBSE board students?Yes! Our curriculum is aligned with CBSE, ICSE, and PSEB board requirements. Our coding and maths courses complement school syllabus and help with competitive exams like JEE, NEET, and Olympiads.Do you provide certificates after completing coding courses?Yes, every student receives a completion certificate after finishing their coding course. These certificates are valuable for school portfolios, college applications, and demonstrating coding skills.Do you help with JEE Maths preparation alongside coding?Yes! Our mathematics courses cover JEE-level topics including calculus, algebra, and trigonometry. Many Chandigarh students combine our coding and maths courses for a comprehensive STEM preparation.How are your coding classes different from other institutes in Chandigarh?We focus on project-based learning where students build real games, websites, and apps. Our small batch sizes (5-8 students), recorded sessions, expert instructors, and affordable pricing set us apart from other coding institutes in Chandigarh.Which school board do Chandigarh students follow?Chandigarh is a Union Territory with no school board of its own, so its government schools are affiliated to CBSE and run under the Chandigarh Department of Education, and private ICSE and other-board schools operate here too. Our classes fit around whichever your child attends. We teach the programming itself, so the school computer paper stops being a subject to memorise.Can Panjab University or PEC students join your programming courses?Yes. For engineering admission in Chandigarh, the Joint Admission Committee fills seats at the government institutes on JEE Main scores and Class 12 marks, while PEC admits through JoSAA and CSAB on JEE Main rank. Whichever route a student came in by, the college track is about built work: real Python, Java, full-stack or AI/ML, carried to something that runs and can be shown.
+What is the best coding class in Chandigarh for kids?Modern Age Coders offers the best coding classes in Chandigarh for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Tricity areas including Sector 17, Sector 35, Mohali, Panchkula, and Zirakpur.Do you offer online coding classes in Chandigarh?Yes, we offer live online coding classes for students across Chandigarh including Sector 17, Sector 35, Mohali, Panchkula, Zirakpur, IT Park, and all other Tricity areas. Our online classes are interactive with batch sizes of 15-20 students.Do you cover the entire Tricity area (Chandigarh, Mohali, Panchkula)?Absolutely! Our live online classes are accessible from anywhere in the Tricity region: Chandigarh, Mohali, Panchkula, Zirakpur, and Kharar. No commuting needed, just a laptop and internet connection.How much do coding classes cost in Chandigarh?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (up to 6 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Do your courses support PSEB and CBSE board students?Yes! Our curriculum is aligned with CBSE, ICSE, and PSEB board requirements. Our coding and maths courses complement school syllabus and help with competitive exams like JEE, NEET, and Olympiads.Do you provide certificates after completing coding courses?Yes, every student receives a completion certificate after finishing their coding course. These certificates are valuable for school portfolios, college applications, and demonstrating coding skills.Do you help with JEE Maths preparation alongside coding?Yes! Our mathematics courses cover JEE-level topics including calculus, algebra, and trigonometry. Many Chandigarh students combine our coding and maths courses for a comprehensive STEM preparation.How are your coding classes different from other institutes in Chandigarh?We focus on project-based learning where students build real games, websites, and apps. Our batch sizes (15-20 students), recorded sessions, expert instructors, and affordable pricing set us apart from other coding institutes in Chandigarh.Which school board do Chandigarh students follow?Chandigarh is a Union Territory with no school board of its own, so its government schools are affiliated to CBSE and run under the Chandigarh Department of Education, and private ICSE and other-board schools operate here too. Our classes fit around whichever your child attends. We teach the programming itself, so the school computer paper stops being a subject to memorise.Can Panjab University or PEC students join your programming courses?Yes. For engineering admission in Chandigarh, the Joint Admission Committee fills seats at the government institutes on JEE Main scores and Class 12 marks, while PEC admits through JoSAA and CSAB on JEE Main rank. Whichever route a student came in by, the college track is about built work: real Python, Java, full-stack or AI/ML, carried to something that runs and can be shown.
 
 ## Ready to start your child's coding journey in Chandigarh?
 

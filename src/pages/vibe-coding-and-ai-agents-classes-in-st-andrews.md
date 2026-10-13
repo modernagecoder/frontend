@@ -16,7 +16,7 @@ St Andrews, Fife, Scotland / Live online
 
 An AI agent that has to find something, a file in a folder tree, an answer in a set of web pages, a place in a town, often cannot see the whole picture at once. It must explore, one step at a time, and the order it explores in matters. Breadth-first search looks at everything one step away, then two steps, then three. Depth-first search follows one path as far as it goes before backing up. Neither uses any sense of direction, which is why they are called uninformed. This project lets both loose on the walking network of St Andrews from OpenStreetMap, with Dijkstra's algorithm as the yardstick, and sends them to 60 random destinations.
 
-Facts last verified 29 September 2026. Teaching is online; no St Andrews branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no St Andrews branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## St Andrews courses in reasoning, vibe coding and agents
 
@@ -128,7 +128,7 @@ Laptop or desktop, a camera, and a connection strong enough for video: that is a
 - **Code by the learner** Students write and run everything; the tutor watches through screen share and asks them to predict each search.
 - **Trial finds the level** The free session shows where to begin; SQA exams are noted if one is ahead.
 - **Free first session** Lesson one is free of charge and ends with a course suggestion.
-- **Groups by stage** Five to ten learners from around Britain at one level per class.
+- **Groups by stage** Fifteen to twenty learners from around Britain at one level per class.
 - **Two a week in term** Holidays off.
 - **Stable timetable** UK clock changes are absorbed by our tutors, not by your slot.
 

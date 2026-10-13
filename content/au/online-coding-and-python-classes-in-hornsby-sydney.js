@@ -346,7 +346,7 @@ module.exports = {
         p: 'Lessons follow the NSW stages and year levels, take breaks with the state school holidays, and can support senior computing subjects.'
       },
       { h3: 'A real first class', p: 'The free trial is a proper lesson; afterwards the teacher suggests a course, level and time, and nothing is billed.' },
-      { h3: 'Small, matched groups', p: 'Groups hold five to ten learners at one level, mixing Hornsby learners with others from different places.' },
+      { h3: 'Small, matched groups', p: 'Groups hold fifteen to twenty learners at one level, mixing Hornsby learners with others from different places.' },
       { h3: 'Twice weekly', p: 'Two fixed lessons each week, about eight a month, with holiday pauses arranged ahead of time.' },
       { h3: 'Teachers in India', p: 'A 5pm Hornsby lesson in summer starts at 11:30am India time, and at 12:30pm there once Sydney leaves daylight saving.' }
     ],
@@ -359,7 +359,7 @@ module.exports = {
     h2: 'Fees for Hornsby learners',
     intro: 'Three numbers cover everything.',
     first: 'The first lesson is free and ends with a recommendation.',
-    group: 'About eight group lessons a month with five to ten learners at one level.',
+    group: 'About eight group lessons a month with fifteen to twenty learners at one level.',
     private: 'About eight private lessons a month with one teacher.',
     closer: 'Outside India we invoice in US dollars, which means one price for the whole shire and no Hornsby-specific rates. Nothing is charged until a course and time are confirmed after the trial; the pricing page covers holidays, absences and format changes.'
   },
@@ -408,12 +408,12 @@ module.exports = {
       },
       {
         q: 'How much are Python classes for Hornsby learners?',
-        a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.',
+        a: 'The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.',
         boiler: true
       },
       {
         q: 'What size are the groups?',
-        a: 'Five to ten learners grouped by level and goals, not by age or suburb. One-to-one lessons are available when no group suits the required time.',
+        a: 'Fifteen to twenty learners grouped by level and goals, not by age or suburb. One-to-one lessons are available when no group suits the required time.',
         boiler: true
       }
     ]

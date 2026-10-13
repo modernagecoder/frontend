@@ -16,7 +16,7 @@ Armadale, City of Armadale, Western Australia / Live online
 
 We asked for something simple: count the public transport stop records inside Armadale, grouped by type. The scripted agent opened with a pip install command for a package named after the stops data. That package does not exist, and neither do four other names it went on to suggest. The job needed none of them.
 
-Facts last verified 13 October 2026. Teaching is online; no Armadale branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Armadale branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for working safely with coding agents
 
@@ -183,7 +183,7 @@ Classes are taught over video, so the learner stays at home.
 - **Every command visible** Prompts, installs and outputs all appear on the shared screen for the teacher to question.
 - **Built around terms** Lessons pause in WA school holidays and resume each term.
 - **Free trial** A real first lesson, then an honest view of the right course.
-- **Five to ten in a group** Grouped by level and goal, or taught privately.
+- **Fifteen to twenty in a group** Grouped by level and goal, or taught privately.
 - **Twice a week** Regular times, close to eight lessons each month.
 - **India time** With our teachers in India, a 6pm Armadale class starts at 3:30pm India time.
 
@@ -194,7 +194,7 @@ Classes are taught over video, so the learner stays at home.
 Three prices, applied to everyone.
 
 - First class: USD 0. Lesson one costs nothing and ends with a suggested next step.
-- Group tuition: USD 100 a month. Group month: about eight live lessons with five to ten learners at one level.
+- Group tuition: USD 100 a month. Group month: about eight live lessons with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Private month: about eight live lessons with one teacher.
 
 Armadale families pay in US dollars and only after the trial, once course and time suit them. The pricing page sets out holidays, absences and changes of format.
@@ -231,11 +231,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Armadale learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Will Armadale groups learn Copilot Studio?
 

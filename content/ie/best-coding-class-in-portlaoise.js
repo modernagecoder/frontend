@@ -187,7 +187,7 @@ module.exports = {
     h2: 'Portlaoise class fees',
     intro: 'What it costs, in three lines.',
     first: 'The first lesson, taught in full and assessed, for nothing.',
-    group: 'A month in a matched group of five to ten, about eight live lessons.',
+    group: 'A month in a matched group of fifteen to twenty, about eight live lessons.',
     private: 'A month of one to one lessons at the same weekly frequency.',
     closer: 'Portlaoise pays what every family outside India pays: one monthly rate in US dollars, with no euro version shown alongside. Money is only asked for once a course and a weekly time actually exist, and the pricing page covers holidays, a lesson that has to be missed, and switching between a group and private teaching.'
   },
@@ -212,7 +212,7 @@ module.exports = {
       { q: 'Can adults learn with you in Portlaoise?', a: 'Yes. Our learners go up to sixty-seven, many adults start with no experience at all, and the first lesson settles whether an adult learns in a matched group or one to one.' },
       { q: 'Is maths needed before starting?', a: 'No. Anything a project needs, such as the powers of ten behind this page, is taught when it comes up.' },
       { q: 'Is there a Modern Age Coders classroom in Portlaoise?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Portlaoise cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Portlaoise cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

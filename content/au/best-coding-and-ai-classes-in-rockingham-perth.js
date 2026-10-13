@@ -301,7 +301,7 @@ module.exports = {
       { h3: 'Live lessons', p: 'A teacher runs each class and checks work as it happens.' },
       { h3: 'Follows WA terms', p: 'Classes pause for the state school holidays.' },
       { h3: 'Free first class', p: 'One free lesson, then a written course plan.' },
-      { h3: 'Groups of five to ten', p: 'Matched by level, or one-to-one if preferred.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Matched by level, or one-to-one if preferred.' },
       { h3: 'Weekly pattern', p: 'Two lessons a week, roughly eight a month.' },
       { h3: 'Indian timing', p: 'A 6pm Rockingham lesson is 3:30pm in India.' }
     ],
@@ -314,7 +314,7 @@ module.exports = {
     h2: 'Fees for Rockingham',
     intro: 'Every family pays the same fees.',
     first: 'The first class is free, with a plan to follow.',
-    group: 'Group classes: around eight lessons a month, five to ten learners.',
+    group: 'Group classes: around eight lessons a month, fifteen to twenty learners.',
     private: 'One-to-one: around eight lessons a month with one teacher.',
     closer: 'Fees are charged in US dollars, starting only after the free class has set the course and a weekly time. See the pricing page for holiday and missed-lesson details.'
   },
@@ -353,12 +353,12 @@ module.exports = {
       },
       {
         q: 'What do Rockingham classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How are groups decided?',
-        a: 'By level and pace in groups of five to ten, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'By level and pace in groups of fifteen to twenty, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Do you teach adults?', a: 'Yes. Adults learn in adult groups or one to one, often with databases from their work.' }

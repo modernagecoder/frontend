@@ -16,7 +16,7 @@ Surfers Paradise, City of Gold Coast, Queensland / Live online
 
 Surfers Paradise is the Gold Coast's high-rise beachfront suburb. Four in five homes are apartments, 8.4% of workers walked to work in 2021, and the streets carry hundreds of parking signs. The City of Gold Coast publishes every sign with its exact wording, which is a perfect messy dataset for Python learners.
 
-Facts last verified 13 October 2026. Teaching is online; no Surfers Paradise branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Surfers Paradise branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python, from first strings to real data
 
@@ -175,7 +175,7 @@ Classes happen over video, so learners stay in their apartment or house rather t
 - **Taught live** A teacher runs every session in real time and reads code as it is typed.
 - **School terms** We follow Queensland term dates and pause for holidays.
 - **First session free** Try a lesson at no cost and get a written plan.
-- **Groups** Five to ten learners per level, or private sessions.
+- **Groups** Fifteen to twenty learners per level, or private sessions.
 - **Twice weekly** About eight sessions every month.
 - **India hours** A 6pm Surfers Paradise session starts at 1:30pm in India.
 
@@ -186,7 +186,7 @@ Classes happen over video, so learners stay in their apartment or house rather t
 Every learner pays the same fees.
 
 - First class: USD 0. The first session is free, with a plan to follow.
-- Group tuition: USD 100 a month. Group: about eight sessions a month, five to ten learners.
+- Group tuition: USD 100 a month. Group: about eight sessions a month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private: about eight sessions a month, one teacher.
 
 Fees are set in US dollars and begin once the trial has agreed a course and weekly slot. Holiday and absence rules appear on the pricing page.
@@ -223,11 +223,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Surfers Paradise classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who are the classmates?
 
-Five to ten learners at the same level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at the same level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Do adults learn Python with you?
 

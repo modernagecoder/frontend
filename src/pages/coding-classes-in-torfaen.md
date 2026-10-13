@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Torfaen, for l
 canonical: https://learn.modernagecoders.com/coding-classes-in-torfaen
 source: src/pages/coding-classes-in-torfaen.html
 ---
-> The 2021 census found 92,276 people in Torfaen. About half live in Cwmbrân, a built-up area of 47,090, and Pontypool holds another 29,070, with Abersychan, Blaenavon and Ponthir making up the rest of the larger places. Our teachers, based in India, run each lesson live by video. Anyone from 6 to 67 can learn coding, Python or maths, either with a private tutor or in a class of five to ten who share a level. The first lesson is free and settles the right course. The Torfaen project starts inside a grotto lined with shells. Continuing costs USD 100 a month for a group, or USD 150 a month for one-to-one.
+> The 2021 census found 92,276 people in Torfaen. About half live in Cwmbrân, a built-up area of 47,090, and Pontypool holds another 29,070, with Abersychan, Blaenavon and Ponthir making up the rest of the larger places. Our teachers, based in India, run each lesson live by video. Anyone from 6 to 67 can learn coding, Python or maths, either with a private tutor or in a class of fifteen to twenty who share a level. The first lesson is free and settles the right course. The Torfaen project starts inside a grotto lined with shells. Continuing costs USD 100 a month for a group, or USD 150 a month for one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Torfaen
 
@@ -12,11 +12,11 @@ Torfaen / Live online
 
 # Coding classes in Torfaen
 
-**What are the best coding classes in Torfaen?** The 2021 census found 92,276 people in Torfaen. About half live in Cwmbrân, a built-up area of 47,090, and Pontypool holds another 29,070, with Abersychan, Blaenavon and Ponthir making up the rest of the larger places. Our teachers, based in India, run each lesson live by video. Anyone from 6 to 67 can learn coding, Python or maths, either with a private tutor or in a class of five to ten who share a level. The first lesson is free and settles the right course. The Torfaen project starts inside a grotto lined with shells. Continuing costs USD 100 a month for a group, or USD 150 a month for one-to-one.
+**What are the best coding classes in Torfaen?** The 2021 census found 92,276 people in Torfaen. About half live in Cwmbrân, a built-up area of 47,090, and Pontypool holds another 29,070, with Abersychan, Blaenavon and Ponthir making up the rest of the larger places. Our teachers, based in India, run each lesson live by video. Anyone from 6 to 67 can learn coding, Python or maths, either with a private tutor or in a class of fifteen to twenty who share a level. The first lesson is free and settles the right course. The Torfaen project starts inside a grotto lined with shells. Continuing costs USD 100 a month for a group, or USD 150 a month for one-to-one.
 
 In the 1830s, Cadw's record suggests, Capel Hanbury Leigh of Pontypool Park put up a small round building to give work to 85 estate workers who had none. Its outside is plain rubble stone. Inside, every wall and the vaulted ceiling are covered in shells, quartz, mica and crystals, and each roof section ends in a pink conch. The decoration is said to have been designed, and partly made, by his first wife, Molly Mackworth. Look at a conch or a snail and the spiral seems to grow as it turns, each whorl a fixed step wider than the last. Look at a coiled rope and the gap between turns stays the same. Those are two different kinds of spiral, and this page's project teaches Python to tell them apart.
 
-Facts last verified 26 September 2026. Teaching is online; no Torfaen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Torfaen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Torfaen learners start with
 
@@ -135,7 +135,7 @@ Anywhere in the county borough with internet can join.
 - **Own code, own keyboard** The learner writes the program; the teacher sees the shared screen and helps by asking the next question.
 - **Welsh years used** An Abersychan Year 4 or a Pontypool Year 13 is placed by Welsh school year and progression step, and exams keep their WJEC names. Classes are taught in English.
 - **No-cost start** Your first lesson is free and ends with plain advice.
-- **Grouped by level** Five to ten students at one stage, from all over the UK.
+- **Grouped by level** Fifteen to twenty students at one stage, from all over the UK.
 - **Term-time** Two sessions a week during term, none in the holidays.
 - **Steady through clock changes** Your lesson keeps its British time in March and October; our teachers do the adjusting.
 

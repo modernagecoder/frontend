@@ -203,7 +203,7 @@ module.exports = {
     h2: 'What classes cost in Wollongong',
     intro: 'Three figures in total.',
     first: 'One free lesson, ending with a level, a recommended course and a weekly time.',
-    group: 'A month of tuition, usually eight lessons, with five to ten learners at your level.',
+    group: 'A month of tuition, usually eight lessons, with fifteen to twenty learners at your level.',
     private: 'About eight one-to-one lessons a month with the same teacher.',
     closer: 'Illawarra families are charged in US dollars, the same figure from Thirroul to Kiama. Billing begins only after the trial fixes a course and time; the pricing page covers holiday breaks, missed lessons and moving between group and private classes.'
   },
@@ -228,8 +228,8 @@ module.exports = {
       { q: 'When are lessons for Wollongong learners?', a: 'Most run between the end of the school day and dinner, or on Saturdays, fixed at the trial and written in Illawarra time. Our teachers sit four and a half hours behind in winter, five and a half in summer.' },
       { q: 'Do you teach primary-age children in Wollongong?', a: 'We do, from age 6, usually starting in Scratch with picture-based programs; this page is aimed at older learners.' },
       { q: 'Is there a Modern Age Coders centre in Wollongong?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Wollongong coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Wollongong coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

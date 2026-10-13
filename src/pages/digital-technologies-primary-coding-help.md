@@ -178,7 +178,7 @@ Our teachers are in India, behind every Australian state. A 4 pm lesson in Perth
 
 - **Say it before coding it** Children describe the steps before building them.
 - **Testing as a game** Children try to break each other's programs, then fix their own.
-- **Small groups** Five to ten children at a similar stage.
+- **Small groups** Fifteen to twenty children at a similar stage.
 - **One-to-one option** For children who need a slower or faster pace.
 - **A note home** One line on what was learned and one thing to ask about.
 - **Homework stays theirs** We teach the idea; school tasks remain the child's own.
@@ -188,7 +188,7 @@ Our teachers are in India, behind every Australian state. A 4 pm lesson in Perth
 Families in Australia are charged monthly in US dollars, our usual rate everywhere outside India. There is nothing to pay in advance and you can stop at any month end.
 
 - Free first class: USD 0. A real lesson with a teacher. An honest view of your child's stage. No card details asked for.
-- Group batch: USD 100 a month. Five to ten children at one stage. The same teacher each week. Projects reviewed with feedback. A certificate when the course ends.
+- Group batch: USD 100 a month. Fifteen to twenty children at one stage. The same teacher each week. Projects reviewed with feedback. A certificate when the course ends.
 - One to one: USD 150 a month. A teacher for your child only. Paced to suit them. A weekly time you choose.
 
 ## What parents of primary children ask

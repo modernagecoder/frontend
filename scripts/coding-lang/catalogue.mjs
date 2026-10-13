@@ -1188,7 +1188,7 @@ export const FAQ = [
   },
   {
     q: 'Are Modern Age Coders classes live or recorded, and how big are the batches?',
-    a: 'Every class is live and online with a mentor, never a pre-recorded video. You can choose 1-on-1 classes, a mini batch of three to four learners, or a group of five to ten. Every course is project-based and awards a certificate on passing the final exam. Book a free demo class to see the format before enrolling.',
+    a: 'Every class is live and online with a mentor, never a pre-recorded video. You can choose 1-on-1 classes, a mini batch of up to six learners, or a group of fifteen to twenty. Every course is project-based and awards a certificate on passing the final exam. Book a free demo class to see the format before enrolling.',
   },
   {
     q: 'Do you teach every technology listed on this page?',

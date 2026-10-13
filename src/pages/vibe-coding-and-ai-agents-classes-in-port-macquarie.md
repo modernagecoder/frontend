@@ -16,7 +16,7 @@ Port Macquarie, New South Wales, Australia / Live online
 
 Give an AI agent a question, which public school in the Port Macquarie-Hastings council area had its first teacher earliest, and a tool that lists the 21 schools five at a time in alphabetical order. Each tool call costs time and money, so the agent has a budget. With one call it confidently answers Beechwood Public School, 1869. With two it answers Huntingdon Public School, 1868. Only with a third call does it reach Port Macquarie Public School, 1852. Our Port Macquarie project builds that agent in Python and shows the fix that needs a single call: ask the tool to sort.
 
-Facts last verified 7 October 2026. Teaching is online; no Port Macquarie branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Port Macquarie branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for building careful AI agents
 
@@ -186,7 +186,7 @@ The council area runs from the coast to the hinterland, and an online class brin
 - **Coast and hinterland** A learner in Lake Cathie and one in Wauchope can build the same agent together, live, without travelling.
 - **NSW schooling** Lessons follow NSW stages and the state's four terms, and Year 11 and 12 students can connect agent projects to their computing subjects. Teaching is in English.
 - **A trial that teaches** The first lesson is a proper class, after which you receive a suggested level, course and time, and we take no card details.
-- **Groups that match** Five to ten learners at one level, from the Hastings and beyond, so every group has enough members.
+- **Groups that match** Fifteen to twenty learners at one level, from the Hastings and beyond, so every group has enough members.
 - **Twice a week** Regular slots twice weekly, close to eight lessons a month, with breaks for holidays and exams set in advance.
 - **Teachers in India** A 6pm Port Macquarie lesson in August starts at 1:30pm in India, and at 12:30pm after NSW daylight saving begins.
 
@@ -197,7 +197,7 @@ The council area runs from the coast to the hinterland, and an online class brin
 Three figures, clearly set out.
 
 - First class: USD 0. A full free lesson, ending with a recommended level, course and time.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, with five to ten learners at the same level.
+- Group tuition: USD 100 a month. A month of lessons, usually eight, with fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. About eight lessons a month on the same pattern, one to one with a teacher.
 
 Families everywhere except India pay in US dollars, so a household in Port Macquarie and one in Laurieton receive the same invoice and there is no local price. We bill only after the trial has set a course and time; the pricing page explains breaks, absences and changes of format.
@@ -238,11 +238,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Port Macquarie AI agents classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Port Macquarie and New South Wales learners
 

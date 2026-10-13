@@ -216,7 +216,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Two principles on our <a href='/how-we-teach'>how we teach</a> page fit this topic closely. Learning by building: a small model like the toy detector above teaches more about how AI guesses than any definition. And mistakes are data, not failures, which is exactly the right way to think about a detector's errors. Our <a href='/ai-literacy-for-students'>AI literacy classes for students</a> focus on knowing when the machine is wrong, one to one or in small groups of 5 to 10."
+        "text": "Two principles on our <a href='/how-we-teach'>how we teach</a> page fit this topic closely. Learning by building: a small model like the toy detector above teaches more about how AI guesses than any definition. And mistakes are data, not failures, which is exactly the right way to think about a detector's errors. Our <a href='/ai-literacy-for-students'>AI literacy classes for students</a> focus on knowing when the machine is wrong, one to one or in groups of 15 to 20."
       },
       {
         "type": "embed",

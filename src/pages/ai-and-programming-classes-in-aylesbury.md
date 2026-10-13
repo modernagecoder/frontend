@@ -16,7 +16,7 @@ Aylesbury, Buckinghamshire, England / Live online
 
 Delivery apps, ride-hailing, planning maps and AI agents can all need to answer the same question, over and over: is this point inside that boundary? It is called the point-in-polygon problem, and it has a famous solution called ray casting that fits in ten lines of Python. This project takes the official boundary of Aylesbury Town Council from OpenStreetMap, 1,584 corner points long, tests 1,394 real shops, cafés, car parks and other places against it, and runs into the traps along the way: a shortcut that is wrong one time in seven, a bug that hides at the corners, and the discovery that "Aylesbury" depends on which boundary you pick.
 
-Facts last verified 29 September 2026. Teaching is online; no Aylesbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Aylesbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Thinking, vibe coding and AI courses in Aylesbury
 
@@ -137,7 +137,7 @@ Laptop or desktop plus broadband that can carry video, and you are ready.
 - **Hands-on learners** Students type, prompt and run everything themselves; the tutor watches their screen and asks what should happen next.
 - **Trial-based placement** The free lesson shows the real starting point, whatever the school year, and exam boards are noted.
 - **Free first session** No fee for lesson one, which ends with our recommendation.
-- **Level-based groups** Each class has five to ten learners from around Britain at a shared level.
+- **Level-based groups** Each class has fifteen to twenty learners from around Britain at a shared level.
 - **Twice a week** Lessons break for school holidays.
 - **Unchanging times** Tutors adjust for British Summer Time, so your lesson hour holds.
 

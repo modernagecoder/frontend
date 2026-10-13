@@ -65,7 +65,7 @@ module.exports = {
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
-  capsule: 'Python suits Irish learners of any age: readable enough for a nine year old, powerful enough for professional data work, and the language Ireland\'s public statistics are served up for. We teach it live online in groups of five to ten placed by level, or one to one, from first programs through functions and files to reading data straight from the Central Statistics Office and training a first model. Learners practise on real Irish datasets, which is where the important lessons live, and the traps in them are taught deliberately. The first class is free; a place afterwards is USD 100 a month in a group or USD 150 a month one to one.',
+  capsule: 'Python suits Irish learners of any age: readable enough for a nine year old, powerful enough for professional data work, and the language Ireland\'s public statistics are served up for. We teach it live online in groups of fifteen to twenty placed by level, or one to one, from first programs through functions and files to reading data straight from the Central Statistics Office and training a first model. Learners practise on real Irish datasets, which is where the important lessons live, and the traps in them are taught deliberately. The first class is free; a place afterwards is USD 100 a month in a group or USD 150 a month one to one.',
 
   picks: {
     eyebrow: 'Start here',
@@ -210,7 +210,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'The learner writes actual Python with a teacher, who then recommends a rung and a course.' },
-      { h3: 'Five to ten per group', p: 'Learners at the same rung, so nobody is lost and nobody is bored.' },
+      { h3: 'Fifteen to twenty per group', p: 'Learners at the same rung, so nobody is lost and nobody is bored.' },
       { h3: 'One to one', p: 'For a focused goal, an unusual schedule, or a learner who prefers privacy.' },
       { h3: 'Real datasets early', p: 'Irish public data appears as soon as a learner can read a file, because it teaches more than invented examples.' },
       { h3: 'Checks in the code', p: 'Students learn to make a program verify its own totals rather than trusting them.' },
@@ -226,7 +226,7 @@ module.exports = {
     h2: 'Python class fees',
     lede: 'One monthly price in US dollars, the same in every country apart from India, whatever the age of the learner or the course. No registration fee and nothing to commit to beyond the month.',
     free: ['Real Python written with a teacher', 'An honest view of the right rung', 'No card needed'],
-    group: ['Five to ten learners at one rung', 'The same teacher each week', 'Code read and corrected weekly', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one rung', 'The same teacher each week', 'Code read and corrected weekly', 'A certificate at the end'],
     one: ['A teacher for one learner', 'Built around a goal or deadline', 'Good for certification work']
   },
 

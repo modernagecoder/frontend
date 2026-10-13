@@ -42,7 +42,7 @@
       "Modern Python throughout: the latest Python 3, VS Code, pytest, pandas and real AI APIs, the same tools working developers use",
       "Every submitted project comes back with written feedback, and recurring gaps are reopened in class instead of left behind",
       "A deployed capstone: the course ends with an app on the public internet, not screenshots on a laptop",
-      "Small live batches capped at 10 students, with mini-batch and 1-on-1 options for closer attention",
+      "Small live batches capped at 20 students, with mini-batch and 1-on-1 options for closer attention",
       "Real assessment: weekly homework, mixed-review assignments every month, and a final exam that decides the certificate, with focused revision and a free retest for students who fall short"
     ],
     "learning_path": {
@@ -910,7 +910,7 @@
   ],
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
-    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "small_batches": "Small batches only: group classes are capped at 20 students, with mini-batch (up to 6 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with classwork in every session and homework after every class.",
     "real_assessment": "Mixed-review assignments after every month and a final exam that decides the certificate: real knowledge, real work, real projects.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
@@ -952,7 +952,7 @@
     },
     {
       "question": "How much does the Python course cost?",
-      "answer": "₹1,499 per month for group classes, with 2 live classes weekly and at most 10 teens per batch. Mini batches of 3-4 students are ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
+      "answer": "₹1,499 per month for group classes, with 2 live classes weekly and at most 10 teens per batch. Mini batches of up to 6 students are ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
     },
     {
       "question": "Is a trial class available?",
@@ -960,7 +960,7 @@
     },
     {
       "question": "How are the classes taught?",
-      "answer": "Through live 1-hour online sessions with a real teacher, never pre-recorded videos. Classes are interactive and small; students write and run code during class, not just watch someone else do it. Group batches are capped at 10, with mini-batch and 1-on-1 options for closer attention."
+      "answer": "Through live 1-hour online sessions with a real teacher, never pre-recorded videos. Classes are interactive and small; students write and run code during class, not just watch someone else do it. Group batches are capped at 20, with mini-batch and 1-on-1 options for closer attention."
     },
     {
       "question": "Does the course include a certificate?",

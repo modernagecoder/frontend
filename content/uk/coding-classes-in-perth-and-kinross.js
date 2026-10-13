@@ -172,7 +172,7 @@ module.exports = {
     h2: 'Fees in Perth and Kinross',
     intro: 'Crieff or Kinross, the fee is identical, the same one we charge everywhere outside India.',
     first: 'A complete free lesson, then honest advice.',
-    group: 'About eight lessons a month in a group of five to ten.',
+    group: 'About eight lessons a month in a group of fifteen to twenty.',
     private: 'About eight lessons a month with a teacher to yourself.',
     closer: 'We charge in US dollars and keep no sterling price list. The trial lesson comes first; an invoice only follows once you have chosen a course and a regular weekday. Our pricing page spells out what happens over holidays, after a missed class or on a switch of format.'
   },

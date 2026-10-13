@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes for County Galway, from 
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-galway
 source: src/pages/coding-classes-in-county-galway.html
 ---
-> County Galway, meaning the council area outside the city, holds 193,323 people. Tuam is its largest town at 9,647, followed by Ballinasloe at 6,597, Loughrea at 6,322 and Athenry at 4,603, and the rest of the population sits in villages and townlands from Ballinasloe west to the Conamara coast. Almost 86,000 people work in the county and 46% of adults hold a third level qualification, just above the national 45%. We teach ages 6 to 67 live online at a fixed weekly hour, in ability groups of five to ten or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.
+> County Galway, meaning the council area outside the city, holds 193,323 people. Tuam is its largest town at 9,647, followed by Ballinasloe at 6,597, Loughrea at 6,322 and Athenry at 4,603, and the rest of the population sits in villages and townlands from Ballinasloe west to the Conamara coast. Almost 86,000 people work in the county and 46% of adults hold a third level qualification, just above the national 45%. We teach ages 6 to 67 live online at a fixed weekly hour, in ability groups of fifteen to twenty or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [Galway](/best-coding-class-in-galway) / County Galway
 
@@ -12,11 +12,11 @@ County Galway, Connacht / Live online
 
 # Coding classes in County Galway
 
-**What are the best coding classes in County Galway?** County Galway, meaning the council area outside the city, holds 193,323 people. Tuam is its largest town at 9,647, followed by Ballinasloe at 6,597, Loughrea at 6,322 and Athenry at 4,603, and the rest of the population sits in villages and townlands from Ballinasloe west to the Conamara coast. Almost 86,000 people work in the county and 46% of adults hold a third level qualification, just above the national 45%. We teach ages 6 to 67 live online at a fixed weekly hour, in ability groups of five to ten or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.
+**What are the best coding classes in County Galway?** County Galway, meaning the council area outside the city, holds 193,323 people. Tuam is its largest town at 9,647, followed by Ballinasloe at 6,597, Loughrea at 6,322 and Athenry at 4,603, and the rest of the population sits in villages and townlands from Ballinasloe west to the Conamara coast. Almost 86,000 people work in the county and 46% of adults hold a third level qualification, just above the national 45%. We teach ages 6 to 67 live online at a fixed weekly hour, in ability groups of fifteen to twenty or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.
 
 Ask the internet how many people live in Galway and you will be told 277,737. That number is real, and it is the wrong answer for this page, because it counts the city and the county together. The county on its own is 193,323, and we can show that rather than assert it: the statistics office publishes seven local electoral areas tagged Galway County, and Tuam, Athenry-Oranmore, Ballinasloe, Gort-Kinvara, Loughrea, Conamara South and Conamara North add up to 193,323 exactly, from a different table than the one the total came from. When two independent routes land on the same figure, you have something worth publishing. That habit, adding up the parts and checking them against the whole, is the single most useful thing a young programmer can learn to do with data, and it is what this page is built around.
 
-Facts last verified 16 September 2026. Teaching is online; no County Galway branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no County Galway branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four starting points, chosen by age and appetite
 
@@ -196,7 +196,7 @@ County Galway is wide, and the drive between its ends is long enough to rule out
 - **No travel at all** The lesson happens where the learner is, which in this county can be 90 minutes from the nearest town of any size.
 - **Irish school stages** We plan around Junior Cycle, Transition Year, fifth year and sixth year, using the names the school uses.
 - **The free lesson** A real class with real work, ending with a level, a recommended course and a proposed weekly hour. No card details.
-- **Small ability groups** Five to ten learners at the same level, gathered from County Galway and other countries so the right group exists at a sensible hour.
+- **Small ability groups** Fifteen to twenty learners at the same level, gathered from County Galway and other countries so the right group exists at a sensible hour.
 - **A fixed weekly slot** Usually two lessons a week, about eight a month, agreed once and kept, with exam weeks planned around.
 - **Ahead of Irish time** Our teachers are in India, four and a half hours ahead of Ireland in summer and five and a half in winter, which is why afternoons and evenings work well.
 
@@ -207,7 +207,7 @@ County Galway is wide, and the drive between its ends is long enough to rule out
 The whole price list is three lines long.
 
 - First class: USD 0. The first lesson costs nothing and ends with a level and a recommendation.
-- Group tuition: USD 100 a month. A month of group classes, normally eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group classes, normally eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. A month of one to one classes on the same weekly schedule.
 
 We bill monthly in US dollars, at the single rate we charge everywhere outside India, so a family in Clifden pays the same as a family in Athenry and there is no separate euro list. Nothing is charged before the free lesson has agreed a course and an hour. Pauses, missed lessons and switching between group and private are all set out on the pricing page.
@@ -248,7 +248,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do County Galway coding classes cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

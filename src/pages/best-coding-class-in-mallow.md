@@ -16,7 +16,7 @@ Mallow, County Cork / Live online
 
 Write a program that searches the census for what makes a town stand out, point it at Mallow, and it comes back with a real finding: 34.0 percent of Mallow people who answered leave home between 08:01 and 08:30 in the morning, the fourth highest share among the 94 towns of 5,000 or more. Now point it at every town. Ninety of the 94 get a headline of their own. Shuffle the numbers so that every difference between towns is pure luck, and 93 or 94 of them get one in every run. This page builds that program and uses it to show why a single standout statistic, found by searching, says very little, and what kind of pattern does say something.
 
-Facts last verified 19 September 2026. Teaching is online; no Mallow branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Mallow branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Mallow learners usually start
 
@@ -159,7 +159,7 @@ Machines are very good at searching. Knowing what a search can and cannot prove 
 The practical arrangements.
 
 - **Live teacher** A teacher runs each lesson as it happens and answers the learner's code, not a script.
-- **Grouped by stage** Five to ten learners at the same level, from North Cork, the rest of Ireland and overseas.
+- **Grouped by stage** Fifteen to twenty learners at the same level, from North Cork, the rest of Ireland and overseas.
 - **Most weeks, twice** Around eight lessons a month, on days and at hours fixed at the start.
 - **School terms in mind** Holidays, mid-terms and exam weeks are part of the plan from day one.
 - **Hardware** A laptop or desktop with a real keyboard, a headset or working speakers and microphone, and a line that holds a video call for the length of a lesson.
@@ -172,7 +172,7 @@ The practical arrangements.
 The whole list.
 
 - First class: USD 0. A full first lesson including a level assessment, at no charge.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one stage, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one stage, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one teaching at the same weekly pace.
 
 The price is per month, in US dollars, and does not change with the family's country as long as it is not India. The free lesson carries no commitment, the first invoice comes with the first month of the course itself, and holidays, missed lessons and a switch between group and private teaching are all dealt with on the pricing page.
@@ -213,7 +213,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Mallow cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

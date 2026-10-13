@@ -181,7 +181,7 @@ Our teachers work from India on a clock that never changes, leaving the UK five 
 - **Writing by hand** Regular handwritten code, since an editor hides exactly the weaknesses a written paper exposes.
 - **Trace tables as a reflex** Built quickly and correctly, because Test questions in Section B ask for them directly.
 - **No calculator, ever** Binary and storage arithmetic practised by hand from the first term, as both papers require.
-- **Groups by level** Five to ten students at one stage, comparing two answers to the same question.
+- **Groups by level** Fifteen to twenty students at one stage, comparing two answers to the same question.
 
 ## What GCSE tuition costs
 

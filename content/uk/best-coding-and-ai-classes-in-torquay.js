@@ -162,7 +162,7 @@ module.exports = {
       { h3: 'Learner does the work', p: 'The student writes and runs everything on a shared screen while the tutor asks what each line is for.' },
       { h3: 'Start point from the trial', p: 'The free lesson tells us the level, and we take down the exam board where it applies.' },
       { h3: 'First class free', p: 'There is no charge and no card request, and you leave with a course suggestion.' },
-      { h3: 'Groups of a kind', p: 'Five to ten learners at one stage, joined from towns all over the UK.' },
+      { h3: 'Groups of a kind', p: 'Fifteen to twenty learners at one stage, joined from towns all over the UK.' },
       { h3: 'Two lessons weekly', p: 'School holidays are skipped when you send the dates.' },
       { h3: 'No drifting slot', p: 'British Summer Time is absorbed at the tutor\'s end, so the lesson hour is constant.' }
     ],

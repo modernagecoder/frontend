@@ -185,7 +185,7 @@ Teaching is live on video from India, which sits five and a half hours ahead of 
 
 - **Written solutions marked** Someone reads the argument as a stranger would and says where it stops convincing.
 - **Problems written by us** In the olympiad idiom. UKMT's past papers stay on UKMT's site.
-- **Five to ten pupils** Enough for two different methods to meet, small enough for every write-up to be read.
+- **Fifteen to twenty pupils** Enough for two different methods to meet, small enough for every write-up to be read.
 - **Year groups respected** Cayley, Hamilton and Maclaurin candidates are taught at the level their paper is set.
 - **One to one when useful** For a pupil far ahead of their year or preparing for a specific paper.
 - **No score promised** We cannot qualify anyone and do not claim to. Nobody honest promises a medal.
@@ -195,7 +195,7 @@ Teaching is live on video from India, which sits five and a half hours ahead of 
 One monthly rate in US dollars for every country outside India. No joining fee and no term to sign.
 
 - Free first class: USD 0. A real lesson on one problem. An honest read on the level. No card details.
-- Group batch: USD 100 a month. Five to ten pupils at one level. The same teacher weekly. Solutions read line by line. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty pupils at one level. The same teacher weekly. Solutions read line by line. A certificate at the end.
 - One to one: USD 150 a month. One pupil with one teacher. Aimed at a particular paper. For pupils well ahead of their year.
 
 ## What pupils and parents ask

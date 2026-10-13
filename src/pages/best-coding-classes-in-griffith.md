@@ -16,7 +16,7 @@ Griffith, New South Wales, Australia / Live online
 
 Ask a computer to sort the house numbers 2, 10 and 12A and, if the numbers are stored as text, it answers 10, 12A, 2. It compares text one character at a time, and the character 1 comes before 2. People expect 2, 10, 12A. We took the house numbers on every Griffith street from the state's address points and sorted them three ways. The computer's default order and the human one disagree on 261 of the city's 349 streets. A second, smaller disagreement appears once units are involved: should unit 1 at number 12 sit before house 2, or after house 12? Writing a sort that matches how people actually walk down a street is a short Python exercise that teaches more about data than most textbook examples.
 
-Facts last verified 10 October 2026. Teaching is online; no Griffith branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Griffith branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses where data has to make sense to people
 
@@ -182,7 +182,7 @@ All lessons are live video classes, so learners in Griffith and nearby towns joi
 - **At home** A computer with a microphone and a reliable internet connection is all that is needed.
 - **NSW school years** Teachers plan with New South Wales year levels and terms in mind, teaching in English.
 - **Trial first** The free trial is a real class that finishes with a recommended course and weekly time.
-- **Matched groups** Five to ten learners at the same level share a group, from across Australia.
+- **Matched groups** Fifteen to twenty learners at the same level share a group, from across Australia.
 - **Two lessons weekly** Groups meet twice a week on set days, roughly eight lessons a month.
 - **Our teachers** Teachers work from India, and every lesson time is written in Griffith time.
 
@@ -193,7 +193,7 @@ All lessons are live video classes, so learners in Griffith and nearby towns joi
 Pricing is brief and the same throughout Australia.
 
 - First class: USD 0. The first lesson is free and ends with a recommended level, course and time.
-- Group tuition: USD 100 a month. A month of group lessons, roughly eight, with five to ten learners of similar level.
+- Group tuition: USD 100 a month. A month of group lessons, roughly eight, with fifteen to twenty learners of similar level.
 - Private tuition: USD 150 a month. Roughly eight private lessons each month with one teacher.
 
 Fees outside India are in US dollars, and Griffith learners pay the same as learners anywhere in Australia. Payment begins only after the trial has fixed the course and time, and the pricing page explains holidays, absences and moving between group and private.
@@ -234,7 +234,7 @@ No. We run no premises in Australia and claim none. All classes are live online;
 
 ### What do Griffith coding classes cost?
 
-The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one-to-one. Everything is agreed before any payment.
+The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one-to-one. Everything is agreed before any payment.
 
 ### How many learners are in each group?
 

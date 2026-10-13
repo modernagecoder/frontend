@@ -4,7 +4,7 @@ description: "Live online vibe coding, AI agents and Python lessons for Airdrie,
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-airdrie
 source: src/pages/vibe-coding-and-ai-agents-classes-in-airdrie.html
 ---
-> Airdrie ranks third among North Lanarkshire's localities, after Cumbernauld and Coatbridge, with 36,390 residents in the National Records of Scotland mid-2020 estimate. Petersburn, Clarkston, Rawyards, Holehills, Whinhall and Cairnhill are recorded suburbs in the ML6 district, alongside villages such as Chapelhall and Glenmavis. Learners from six to 67 join tutors in India on camera for vibe coding, AI agents, Python, coding and maths, alone or in a level-matched class of five to ten. Fair reasoning comes first, so learners can see how a decision was actually reached. Lesson one is on us, and closes with the course we think suits. In the Airdrie project five simple agents each rank eight real bus stops, and the learner discovers that the voting rule used to combine them can matter as much as the agents do. After the trial, group lessons are USD 100 a month and private lessons USD 150 a month.
+> Airdrie ranks third among North Lanarkshire's localities, after Cumbernauld and Coatbridge, with 36,390 residents in the National Records of Scotland mid-2020 estimate. Petersburn, Clarkston, Rawyards, Holehills, Whinhall and Cairnhill are recorded suburbs in the ML6 district, alongside villages such as Chapelhall and Glenmavis. Learners from six to 67 join tutors in India on camera for vibe coding, AI agents, Python, coding and maths, alone or in a level-matched class of fifteen to twenty. Fair reasoning comes first, so learners can see how a decision was actually reached. Lesson one is on us, and closes with the course we think suits. In the Airdrie project five simple agents each rank eight real bus stops, and the learner discovers that the voting rule used to combine them can matter as much as the agents do. After the trial, group lessons are USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Airdrie
 
@@ -12,11 +12,11 @@ Airdrie, North Lanarkshire, Scotland / Live online
 
 # Vibe coding and AI agents classes in Airdrie
 
-**Where can Airdrie learners find the best vibe coding and AI agents classes?** Airdrie ranks third among North Lanarkshire's localities, after Cumbernauld and Coatbridge, with 36,390 residents in the National Records of Scotland mid-2020 estimate. Petersburn, Clarkston, Rawyards, Holehills, Whinhall and Cairnhill are recorded suburbs in the ML6 district, alongside villages such as Chapelhall and Glenmavis. Learners from six to 67 join tutors in India on camera for vibe coding, AI agents, Python, coding and maths, alone or in a level-matched class of five to ten. Fair reasoning comes first, so learners can see how a decision was actually reached. Lesson one is on us, and closes with the course we think suits. In the Airdrie project five simple agents each rank eight real bus stops, and the learner discovers that the voting rule used to combine them can matter as much as the agents do. After the trial, group lessons are USD 100 a month and private lessons USD 150 a month.
+**Where can Airdrie learners find the best vibe coding and AI agents classes?** Airdrie ranks third among North Lanarkshire's localities, after Cumbernauld and Coatbridge, with 36,390 residents in the National Records of Scotland mid-2020 estimate. Petersburn, Clarkston, Rawyards, Holehills, Whinhall and Cairnhill are recorded suburbs in the ML6 district, alongside villages such as Chapelhall and Glenmavis. Learners from six to 67 join tutors in India on camera for vibe coding, AI agents, Python, coding and maths, alone or in a level-matched class of fifteen to twenty. Fair reasoning comes first, so learners can see how a decision was actually reached. Lesson one is on us, and closes with the course we think suits. In the Airdrie project five simple agents each rank eight real bus stops, and the learner discovers that the voting rule used to combine them can matter as much as the agents do. After the trial, group lessons are USD 100 a month and private lessons USD 150 a month.
 
 Teams of AI agents, and panels of AI judges, often have to reach one decision from several opinions. The usual shortcut is a vote, but which vote? Counting first choices, adding up points for every position, checking who wins each head-to-head contest, and eliminating the least popular option round by round are all reasonable rules, studied by mathematicians for centuries, and they do not always agree. This project gives five agents one question about real Airdrie data: of eight bus stops mapped without a shelter on OpenStreetMap, which most needs one? Each agent follows a different rule of thumb, and the learner combines their rankings four ways.
 
-Facts last verified 29 September 2026. Teaching is online; no Airdrie branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Airdrie branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Airdrie courses in thinking, vibe coding and agents
 
@@ -139,7 +139,7 @@ Bring any computer with a webcam and a connection that manages a video call.
 - **Learners write it** All code and prompts come from the learner. From the screen share, our tutor keeps asking what a different rule would change.
 - **Level from the trial** The free session shows where to start; any SQA course is noted.
 - **First lesson free** We charge nothing for the opening lesson and suggest a course at the end.
-- **Level, not location** Groups of five to ten are formed by stage, with classmates drawn from all over Britain.
+- **Level, not location** Groups of fifteen to twenty are formed by stage, with classmates drawn from all over Britain.
 - **Two a week** None during school holidays.
 - **Fixed slot** Tutors adjust for UK clock changes; your time stays the same.
 

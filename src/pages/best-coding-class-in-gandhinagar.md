@@ -12,7 +12,7 @@ Live online · serving Gandhinagar
 
 Real programming for kids, teens and college students in Gandhinagar, from **Sectors 1–11 (Capital core) to Sectors 16–23 (Sector 21 markets), Sectors 24–30 to Infocity / DA-IICT**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Gandhinagar)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**GandhinagarEnrollingAreasSectors 1–11 (Capital core), Sectors 16–23 (Sector 21 markets), Sectors 24–30, Infocity / DA-IICT, Kudasan & all of GandhinagarBoardsGujarat GSEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across GandhinagarFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Gandhinagar)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**GandhinagarEnrollingAreasSectors 1–11 (Capital core), Sectors 16–23 (Sector 21 markets), Sectors 24–30, Infocity / DA-IICT, Kudasan & all of GandhinagarBoardsGujarat GSEB · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across GandhinagarFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for Gandhinagar's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Gandhinagar: FAQs
 
-Which is the best coding class in Gandhinagar for kids?Modern Age Coders runs Gandhinagar's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and move on to Python, in small batches of 5-8, taught by industry instructors. We serve every part of the capital, the numbered sectors 1 to 30, Infocity, Kudasan, Sargasan, Raysan and Adalaj, plus the families working in GIFT City.Are the classes online or offline, and do you cover Infocity and GIFT City?All classes are live and online, so we reach every corner of Gandhinagar equally, the sector grid from 1 to 30, the Infocity IT belt, Kudasan, Sargasan, Raysan, Adalaj, Pethapur and Koba, plus the GIFT City IFSC zone. Your child joins the same expert teacher from home, no auto-rickshaw ride down the sector roads or the GIFT City link road. Sessions run fully interactive with live coding, screen-sharing and recordings.How much do coding classes cost in Gandhinagar?Group classes (5-8 students) start at Rs.1499/month for 2 live classes per week. Mini Batch (3-4 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden charges.Will coding help with JEE, GUJCET and the board exams?Yes. Gandhinagar's government-and-academic families sit a lot of competitive exams. Coding strengthens the exact logical reasoning, decomposition and problem-solving that JEE, GUJCET and Olympiads reward, and it directly supports CBSE/GSEB Computer Science, Informatics Practices and the new NEP-2020 AI modules. Our Python and Java tracks line up with what is taught at DPS Gandhinagar, Kendriya Vidyalaya, Mount Carmel and Podar.What is the best age to start coding?Age 8 is ideal to begin with visual, block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always matches the child.What programming languages and courses do you teach in Gandhinagar?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also teach school and Olympiad mathematics alongside coding.Do you prepare Gandhinagar college students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is designed for students from DA-IICT, IIT Gandhinagar, PDEU, NID, NIFT and GNLU who are targeting the fintech, data and engineering roles that GIFT City and the wider Gujarat tech sector are hiring for.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Do you teach coding to GSEB students in Gandhinagar?Yes, and the Gujarat board, GSEB, is headquartered right here in Gandhinagar. CBSE, IB and Cambridge schools run in the city too. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test rather than something your child can build with.Can IIT Gandhinagar or DA-IICT students join your programming courses?Yes. IIT Gandhinagar has run since 2008 and DA-IICT since 2001, so the theory is in the best of hands. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview.
+Which is the best coding class in Gandhinagar for kids?Modern Age Coders runs Gandhinagar's top-rated live online coding classes for kids aged 6-12. Children begin with Scratch (games, animation, logic) and move on to Python, in batches of 15-20, taught by industry instructors. We serve every part of the capital, the numbered sectors 1 to 30, Infocity, Kudasan, Sargasan, Raysan and Adalaj, plus the families working in GIFT City.Are the classes online or offline, and do you cover Infocity and GIFT City?All classes are live and online, so we reach every corner of Gandhinagar equally, the sector grid from 1 to 30, the Infocity IT belt, Kudasan, Sargasan, Raysan, Adalaj, Pethapur and Koba, plus the GIFT City IFSC zone. Your child joins the same expert teacher from home, no auto-rickshaw ride down the sector roads or the GIFT City link road. Sessions run fully interactive with live coding, screen-sharing and recordings.How much do coding classes cost in Gandhinagar?Group classes (15-20 students) start at Rs.1499/month for 2 live classes per week. Mini Batch (up to 6 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden charges.Will coding help with JEE, GUJCET and the board exams?Yes. Gandhinagar's government-and-academic families sit a lot of competitive exams. Coding strengthens the exact logical reasoning, decomposition and problem-solving that JEE, GUJCET and Olympiads reward, and it directly supports CBSE/GSEB Computer Science, Informatics Practices and the new NEP-2020 AI modules. Our Python and Java tracks line up with what is taught at DPS Gandhinagar, Kendriya Vidyalaya, Mount Carmel and Podar.What is the best age to start coding?Age 8 is ideal to begin with visual, block-based coding (Scratch). For text-based languages like Python and Java, 12-13 onwards works best. We run separate tracks for kids (6-12), teens (13-18) and college/working learners (18+), so the starting point always matches the child.What programming languages and courses do you teach in Gandhinagar?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also teach school and Olympiad mathematics alongside coding.Do you prepare Gandhinagar college students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, a MERN full-stack build and an AI/Data-Science portfolio. It is designed for students from DA-IICT, IIT Gandhinagar, PDEU, NID, NIFT and GNLU who are targeting the fintech, data and engineering roles that GIFT City and the wider Gujarat tech sector are hiring for.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Do you teach coding to GSEB students in Gandhinagar?Yes, and the Gujarat board, GSEB, is headquartered right here in Gandhinagar. CBSE, IB and Cambridge schools run in the city too. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test rather than something your child can build with.Can IIT Gandhinagar or DA-IICT students join your programming courses?Yes. IIT Gandhinagar has run since 2008 and DA-IICT since 2001, so the theory is in the best of hands. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview.
 
 ## Ready to start your child's coding journey in Gandhinagar?
 

@@ -16,7 +16,7 @@ City of Moonee Valley, Melbourne, Victoria / Live online
 
 A straight line fitted to two years of station entries looks like a clean result: R squared of 0.9924. But a single point can hold a regression line almost by itself. We measured how much one Melbourne station decides the answer, and how little Essendon, Moonee Ponds and Newmarket do.
 
-Facts last verified 11 October 2026. Teaching is online; no Moonee Valley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 October 2026. Teaching is online; no Moonee Valley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that check a model before trusting it
 
@@ -186,7 +186,7 @@ Lessons happen on screen, so every Moonee Valley suburb is equally close.
 - **Shared code and notebooks** The teacher sees the learner's code and plots as they are written.
 - **Victorian calendar** Lesson plans follow state school terms and break for holidays.
 - **A genuine first class** The free trial is a full lesson that ends with a level and a course suggestion.
-- **Small, matched groups** Groups of five to ten are formed by level and pace, sometimes across states.
+- **Small, matched groups** Groups of fifteen to twenty are formed by level and pace, sometimes across states.
 - **Twice a week** Two fixed lessons each week, about eight a month, with planned breaks.
 - **Teachers in India** A 4pm Moonee Valley class in daylight saving starts at 10:30am India time, and at 11:30am there after April.
 
@@ -197,7 +197,7 @@ Lessons happen on screen, so every Moonee Valley suburb is equally close.
 Three straightforward prices.
 
 - First class: USD 0. The first lesson is free and ends with a clear recommendation.
-- Group tuition: USD 100 a month. One month of group lessons, usually eight, with five to ten learners at a similar level.
+- Group tuition: USD 100 a month. One month of group lessons, usually eight, with fifteen to twenty learners at a similar level.
 - Private tuition: USD 150 a month. About eight lessons a month with a dedicated teacher.
 
 International learners are invoiced in US dollars. Billing waits until the trial has happened and you have chosen a course and time; the pricing page explains breaks, absences and format swaps.
@@ -234,7 +234,7 @@ No. All classes are live online, there is no office in Australia, and the number
 
 ### What do classes cost for Moonee Valley learners?
 
-The first lesson is free. Group classes are USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes are USD 150 a month. Course, format and time are agreed before anything is paid.
+The first lesson is free. Group classes are USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes are USD 150 a month. Course, format and time are agreed before anything is paid.
 
 ### How many learners are in each group?
 

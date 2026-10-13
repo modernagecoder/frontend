@@ -16,7 +16,7 @@ Metropolitan county of the West Midlands / Live online
 
 Every gold ring hallmarked in Birmingham carries a small anchor, the mark of the Birmingham Assay Office, which traces its foundation to 1773. Next to the anchor is a number such as 750, which means at least 750 parts in every thousand are pure gold. That word "at least" hides a lovely problem. A jeweller with a drawer of scrap, some 22 carat, some 14 carat, some 9 carat, wants to make a new 18 carat piece while using as little fresh fine gold as possible. Too little gold and the piece fails its assay; too much and precious metal is wasted. This page's project solves that with a linear program, checks the answer by brute force, and discovers when no answer exists at all.
 
-Facts last verified 26 September 2026. Teaching is online; no West Midlands branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no West Midlands branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## West Midlands learners often start with these
 
@@ -163,7 +163,7 @@ The county is dense but its journeys are slow at school pick-up time. Online les
 - **At your own desk** A bedroom in Pelsall, a kitchen in Cradley Heath, a spare room in Knowle. Teacher and learner share one screen, and the learner does the typing.
 - **School language, in English** Year groups, GCSE options and A levels are called what West Midlands schools call them, and teaching is always in English.
 - **First lesson on us** A real lesson of real work and a clear view of the right course afterwards. We never ask for card details.
-- **Peers at your level** Five to ten learners who are at the same stage, from many towns and countries, so the lesson is pitched right.
+- **Peers at your level** Fifteen to twenty learners who are at the same stage, from many towns and countries, so the lesson is pitched right.
 - **Your school's holidays** Usually two lessons a week, with breaks matched to your own school, since the seven boroughs and academies differ.
 - **Booked in UK time** Our teachers keep India time, four and a half hours ahead in UK summer and five and a half in UK winter; you always see UK time.
 
@@ -174,7 +174,7 @@ The county is dense but its journeys are slow at school pick-up time. Online les
 One set of prices for all seven boroughs, and for every country apart from India.
 
 - First class: USD 0. A full lesson of genuine work, ending with a suggested level and course.
-- Group tuition: USD 100 a month. Around eight lessons each month in a group of five to ten at one level.
+- Group tuition: USD 100 a month. Around eight lessons each month in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. Around eight lessons each month, one teacher with one learner.
 
 Outside India every family is billed in US dollars, so no pound figures appear anywhere. The first invoice follows the free lesson, once a course and a regular weekly slot are agreed, and the pricing page sets out what happens if you pause, miss a lesson or change between a group and one-to-one.

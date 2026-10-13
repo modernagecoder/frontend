@@ -16,7 +16,7 @@ Book a Free Live DemoHow It Works**Live**Real mentor**5–8**Per batch**Recorded
 
 ## Quick answer
 
-**Modern Age Coders runs live online Java classes for all levels, taught by a real mentor, not pre-recorded videos.** Classes are small (5–8 students), so your code is reviewed live and your questions answered instantly. You learn from anywhere in India or abroad, with flexible timings, BlueJ and IDE support, and every session recorded for revision. Suitable for teens, ICSE/ISC and CBSE students, college students and adults. Group plans start at ₹1,499/month with a free demo first.
+**Modern Age Coders runs live online Java classes for all levels, taught by a real mentor, not pre-recorded videos.** Classes are small (15–20 students), so your code is reviewed live and your questions answered instantly. You learn from anywhere in India or abroad, with flexible timings, BlueJ and IDE support, and every session recorded for revision. Suitable for teens, ICSE/ISC and CBSE students, college students and adults. Group plans start at ₹1,499/month with a free demo first.
 
 Start Today
 
@@ -62,9 +62,9 @@ Why Online Works
 
 ## Everything a Classroom Offers: and More
 
-### Live, small batches
+### Live, batches
 
-5–8 students with a real mentor, the same attention as a good classroom, without the crowd.
+15–20 students with a real mentor, the same attention as a good classroom, without the crowd.
 
 ### Real-time code review
 
@@ -98,7 +98,7 @@ Online vs Offline
 
 ## Why Live Online Is the Smart Way to Learn Java
 
-A few years ago, "online class" meant watching a recorded video alone and hoping you understood it. That's not what we do. Our online Java classes are **genuinely live and genuinely small**, a real mentor, 5–8 students, your code on screen, instant feedback. For a language like Java where one missing semicolon or a misunderstood concept can stall you, that live correction is everything.
+A few years ago, "online class" meant watching a recorded video alone and hoping you understood it. That's not what we do. Our online Java classes are **genuinely live and genuinely small**, a real mentor, 15–20 students, your code on screen, instant feedback. For a language like Java where one missing semicolon or a misunderstood concept can stall you, that live correction is everything.
 
 ### The advantages add up
 
@@ -118,7 +118,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo.
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 students per batch
+- 15–20 students per batch
 - Live interactive sessions
 - Recorded class access
 - Completion certificate
@@ -129,7 +129,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 students per batch
+- Up to 6 students per batch
 - More personal mentoring
 - Recorded class access
 - Project guidance & certificate
@@ -177,7 +177,7 @@ Good To Know
 
 Are online Java classes as effective as offline classes?+
 
-Yes, often more so. Our online Java classes are live and small (5–8 students), so the mentor reviews your code in real time and you ask questions just like in a classroom. You also save commute time, learn from anywhere, and get every session recorded for revision, which most offline classes can't offer.
+Yes, often more so. Our online Java classes are live and small (15–20 students), so the mentor reviews your code in real time and you ask questions just like in a classroom. You also save commute time, learn from anywhere, and get every session recorded for revision, which most offline classes can't offer.
 
 Are the classes live or pre-recorded videos?+
 
@@ -193,7 +193,7 @@ Yes. Because classes are fully online, students join from any city in India and 
 
 How much do online Java classes cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. A free demo class is available before you enrol.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. A free demo class is available before you enrol.
 
 Who are the online Java classes for?+
 

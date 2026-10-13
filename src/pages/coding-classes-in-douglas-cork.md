@@ -16,7 +16,7 @@ Douglas, Cork / Live online
 
 The Office of Public Works records the water level at its Currach Club station every five minutes, about three kilometres from Douglas village, and the record shows the tide coming in and going out almost twice a day. Now imagine reading that same gauge only once a day, at nine in the morning. The 35 daily readings to 19 September 2026 would climb from 0.60 metres to 3.86 metres and back over about 15 days, a slow wave that looks like a feature of the water. It is mostly an artefact of reading too rarely: high water comes about 48 minutes later each day, so a fixed daily reading slides through the tide. This page teaches a learner to find the true rhythm in fast data and to see how slow sampling invents a false one.
 
-Facts last verified 20 September 2026. Teaching is online; no Douglas branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Douglas branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses for Douglas learners
 
@@ -147,7 +147,7 @@ Finding a cycle in data is easy. Knowing whether the data were collected fast en
 The essentials, briefly.
 
 - **Live instruction** A teacher is present for every minute, watching and guiding each learner's code as it is written.
-- **Level-matched** Groups of five to ten at one level, from Douglas, other Irish towns and further afield.
+- **Level-matched** Groups of fifteen to twenty at one level, from Douglas, other Irish towns and further afield.
 - **Two set days** Roughly eight a month, fixed to two weekly times chosen together at the start.
 - **Holiday-aware** The course plan includes school holidays, mid-terms and exam weeks from the outset.
 - **Kit at home** A computer with a keyboard, a microphone and speakers or headphones, and broadband good enough for video.
@@ -160,7 +160,7 @@ The essentials, briefly.
 Clear and complete.
 
 - First class: USD 0. A first lesson and level check, without charge.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons at the same weekly pace.
 
 Families outside India pay one monthly fee in US dollars, the same everywhere. The free lesson brings no obligation, billing starts with the course itself, and the pricing page explains holidays, missed lessons and a change between group and private teaching.
@@ -197,11 +197,11 @@ Maybe, but not by design. Groups follow level alone, which means classmates migh
 
 ### What do coding classes in Douglas cost?
 
-The first lesson is free. A group place is then USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.
+The first lesson is free. A group place is then USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.
 
 ### How many are in a group?
 
-Five to ten learners, grouped by level, pace and goals rather than age or address. When no group fits a workable time, lessons are one to one.
+Fifteen to twenty learners, grouped by level, pace and goals rather than age or address. When no group fits a workable time, lessons are one to one.
 
 ## Around Douglas and Cork harbour
 

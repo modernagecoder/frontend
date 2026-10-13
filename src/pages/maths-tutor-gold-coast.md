@@ -4,7 +4,7 @@ description: "Online maths tutor for Gold Coast learners, Prep to Year 12 and ad
 canonical: https://learn.modernagecoders.com/maths-tutor-gold-coast
 source: src/pages/maths-tutor-gold-coast.html
 ---
-> Gold Coast families can book live online maths lessons with Modern Age Coders for anyone aged 6 to 67. We teach everything from early number to senior calculus: the primary years, the secondary years, Queensland Year 12 subjects including Mathematical Methods and Specialist Mathematics, and maths for grown-ups. Times are set in Queensland time, which has no daylight saving, and learners choose private lessons or a group of five to ten at their level. Trying a first lesson costs nothing.
+> Gold Coast families can book live online maths lessons with Modern Age Coders for anyone aged 6 to 67. We teach everything from early number to senior calculus: the primary years, the secondary years, Queensland Year 12 subjects including Mathematical Methods and Specialist Mathematics, and maths for grown-ups. Times are set in Queensland time, which has no daylight saving, and learners choose private lessons or a group of fifteen to twenty at their level. Trying a first lesson costs nothing.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Maths tutor on the Gold Coast
 
@@ -166,9 +166,9 @@ The Gold Coast keeps Queensland time all year, four and a half hours ahead of In
 
 One learner, one teacher, a fixed time each week.
 
-### Small classes
+### Classes
 
-Five to ten learners at one level, working through the same topic together.
+Fifteen to twenty learners at one level, working through the same topic together.
 
 ### Visible thinking
 
@@ -239,7 +239,7 @@ Queensland time is steady all year, so once a lesson time is set it stays put.
 
 - **Consistent teacher** Same person each week.
 - **Parent notes** Brief and honest.
-- **Classes by level** Five to ten learners.
+- **Classes by level** Fifteen to twenty learners.
 - **Local problems** Shadows, beaches and timetables.
 - **Private option** For tests and gaps.
 - **Meaning first** Why, then how.
@@ -249,7 +249,7 @@ Queensland time is steady all year, so once a lesson time is set it stays put.
 Gold Coast families pay a monthly fee in US dollars, with nothing to pay at sign-up and no fixed term.
 
 - Free first class: USD 0. A first lesson at the right level. Advice afterwards. No card details.
-- Group batch: USD 100 a month. Five to ten learners per class. Same teacher weekly. Marked practice. Stop any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners per class. Same teacher weekly. Marked practice. Stop any month.
 - One to one: USD 150 a month. Private lessons. Built around one learner. Helpful before exams.
 
 ## Questions Gold Coast families ask about maths tutoring

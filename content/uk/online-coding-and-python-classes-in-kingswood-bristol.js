@@ -156,7 +156,7 @@ module.exports = {
       { h3: 'Learner does the work', p: 'Students type, prompt and run every step while the tutor follows the shared screen and asks what each number means.' },
       { h3: 'Where to begin', p: 'The trial tells us the right first topic; any exam board is written down.' },
       { h3: 'Trial on us', p: 'The first session is unpaid and closes with the course we would pick for you.' },
-      { h3: 'Level, not postcode', p: 'Groups of five to ten are formed by what learners can already do, drawing on the whole country.' },
+      { h3: 'Level, not postcode', p: 'Groups of fifteen to twenty are formed by what learners can already do, drawing on the whole country.' },
       { h3: 'Two a week', p: 'Paused in the school holidays.' },
       { h3: 'Fixed time', p: 'Our tutors follow the UK clock changes so your slot stays put.' }
     ],

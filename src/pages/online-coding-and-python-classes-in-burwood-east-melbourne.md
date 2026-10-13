@@ -16,7 +16,7 @@ Burwood East, City of Whitehorse, Melbourne, Victoria / Live online
 
 Stand at the Tiller Street stop on Burwood Highway and the 732 to Box Hill comes, on a typical weekday, every twenty minutes or so. But "typical" hides a choice. Python's statistics module offers three different medians and two ways of cutting data into quarters, and on this one bus stop they give different answers.
 
-Facts last verified 11 October 2026. Teaching is online; no Burwood East branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 October 2026. Teaching is online; no Burwood East branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses where Python meets real numbers
 
@@ -198,7 +198,7 @@ Lessons are live video calls, so there is no bus to catch to class.
 One free lesson and two monthly prices.
 
 - First class: USD 0. The opening lesson costs nothing and finishes with a recommendation.
-- Group tuition: USD 100 a month. A month in a level-matched group of five to ten, usually eight lessons.
+- Group tuition: USD 100 a month. A month in a level-matched group of fifteen to twenty, usually eight lessons.
 - Private tuition: USD 150 a month. Around eight private lessons a month with one teacher.
 
 Outside India, fees are in US dollars, the same for Burwood East as for every other overseas family. Nothing is charged until after the trial, once course and time are settled; holidays, missed lessons and format changes are explained on the pricing page.
@@ -235,7 +235,7 @@ Only online. There are no Modern Age Coders premises in Australia, and our liste
 
 ### What do Python classes cost for Burwood East learners?
 
-The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. The course, format and time are agreed before payment.
+The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. The course, format and time are agreed before payment.
 
 ### How many learners are in each group?
 

@@ -4,7 +4,7 @@ description: "What JCQ says about AI in UK assessments, why declared work earns 
 canonical: https://learn.modernagecoders.com/understand-the-code-dont-copy-paste-uk
 source: src/pages/understand-the-code-dont-copy-paste-uk.html
 ---
-> The guidance the UK awarding bodies publish on AI in assessments is stricter than most students think, and the strictness is not where they expect. It is not simply that undeclared AI is malpractice, though it is. It is that declared AI content cannot earn marks, because a reproduced element does not demonstrate that the student independently met the marking criteria. So the highest outcome available for pasted work is zero, and the lowest includes disqualification and debarment from taking qualifications for a number of years. The way out is not avoidance; it is competence. A student who can read a piece of code, predict what it does and rebuild it from memory has nothing to paste, because they can write it. That is what we teach, in groups of five to ten at one level or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+> The guidance the UK awarding bodies publish on AI in assessments is stricter than most students think, and the strictness is not where they expect. It is not simply that undeclared AI is malpractice, though it is. It is that declared AI content cannot earn marks, because a reproduced element does not demonstrate that the student independently met the marking criteria. So the highest outcome available for pasted work is zero, and the lowest includes disqualification and debarment from taking qualifications for a number of years. The way out is not avoidance; it is competence. A student who can read a piece of code, predict what it does and rebuild it from memory has nothing to paste, because they can write it. That is what we teach, in groups of fifteen to twenty at one level or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Understand the code, UK
 
@@ -184,7 +184,7 @@ India keeps one clock all year, which puts the UK five and a half hours behind b
 - **Rebuild from memory** Close the file, write it again working. The second version is where the understanding actually forms.
 - **An AI record** What the tool suggested, what was kept and why, on ordinary projects, so the coursework version is already a habit.
 - **A hard line on coursework** We do not work on a candidate's NEA, coursework or controlled assessment at any board, in any nation.
-- **Small groups** Five to ten learners at one level, reading each other's code, which is where most of the real arguing happens.
+- **Small groups** Fifteen to twenty learners at one level, reading each other's code, which is where most of the real arguing happens.
 
 ## What it costs
 

@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding classes in South Ayrshire',
   capsuleQ: 'What are the best coding classes in South Ayrshire?',
-  capsule: 'Scotland\'s 2022 census counted about 111,600 people in South Ayrshire, in roughly 52,500 households, at 91.3 people per square kilometre. Ayr is much the largest place, with Troon and Prestwick close behind each other, then Girvan and Maybole, and villages such as Coylton, Tarbolton and Symington. We teach every class in real time over video from India; a first lesson, free, works out where each learner belongs, anywhere from P1 to S6 or adult study. Coding, Python and maths are available to ages 6 to 67, taught one-to-one or in a small group of five to ten. The South Ayrshire project begins at Prestwick\'s old salt works. Families who carry on pay USD 100 a month for a group or USD 150 a month for one-to-one.',
+  capsule: 'Scotland\'s 2022 census counted about 111,600 people in South Ayrshire, in roughly 52,500 households, at 91.3 people per square kilometre. Ayr is much the largest place, with Troon and Prestwick close behind each other, then Girvan and Maybole, and villages such as Coylton, Tarbolton and Symington. We teach every class in real time over video from India; a first lesson, free, works out where each learner belongs, anywhere from P1 to S6 or adult study. Coding, Python and maths are available to ages 6 to 67, taught one-to-one or in a group of fifteen to twenty. The South Ayrshire project begins at Prestwick\'s old salt works. Families who carry on pay USD 100 a month for a group or USD 150 a month for one-to-one.',
   lead: 'Beside a golf course in Prestwick stand two plain stone buildings that Historic Environment Scotland lists at Category A. They were built around 1760 as the Maryburgh Salt Works, with salt pans below and housing above, and the listing says they appear to be the most complete remains of salt boiling to survive in Scotland. The idea was simple: heat seawater in a big iron pan until the water has gone and salt is left. The cost was fuel, lots of it. How much, and which of the many unknowns really decides the answer? This page\'s project builds a mass and energy budget in Python, then pushes every assumption up and down to see which one moves the result most.',
   wa: 'Hello Modern Age Coders, we are in South Ayrshire and would like to book a free lesson, please.',
 
@@ -161,7 +161,7 @@ module.exports = {
       { h3: 'Hands-on from minute one', p: 'The learner writes the code; the teacher watches the shared screen and guides the next step.' },
       { h3: 'Stages as schools name them', p: 'A Prestwick S2 or an Ayr P5 will hear the Curriculum for Excellence names they know, through to Advanced Higher. Lessons are in English.' },
       { h3: 'Try it free', p: 'One whole lesson without charge, then an honest word on what fits.' },
-      { h3: 'Five to ten per class', p: 'Classmates are grouped by stage and come from several countries.' },
+      { h3: 'Fifteen to twenty per class', p: 'Classmates are grouped by stage and come from several countries.' },
       { h3: 'Term time, twice weekly', p: 'Lessons run twice a week in term and stop for the holidays.' },
       { h3: 'Clock changes covered', p: 'Your lesson holds its UK time when the clocks move; the teachers in India time adjust.' }
     ],
@@ -172,7 +172,7 @@ module.exports = {
     h2: 'Fees in South Ayrshire',
     intro: 'Ayr or Maybole, the fee is identical, and the same everywhere we teach apart from India.',
     first: 'A complete trial lesson, free, then a clear suggestion.',
-    group: 'About eight lessons a month with five to ten classmates.',
+    group: 'About eight lessons a month with fifteen to twenty classmates.',
     private: 'About eight lessons a month, just you and the teacher.',
     closer: 'Fees are set in US dollars, and there is no sterling list. Payment starts only after the trial has fixed a course and a weekly time; the pricing page explains holidays, missed lessons and switching between group and one-to-one.'
   },

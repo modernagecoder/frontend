@@ -1,26 +1,26 @@
 ---
 title: "Coding Classes for Adults: Live, Small Batches, Ages 18 to 67"
-description: "Live online coding and maths classes for adults, from complete beginner to career changer. Batches of 5 to 10 or 1-on-1, evening and weekend classes worldwide."
+description: "Live online coding and maths classes for adults, from complete beginner to career changer. Batches of 15 to 20 or 1-on-1, evening and weekend classes worldwide."
 canonical: https://learn.modernagecoders.com/coding-classes-for-adults
 source: src/pages/coding-classes-for-adults.html
 ---
-> Live online coding and maths classes for adults, from complete beginner to career changer. Batches of 5 to 10 or 1-on-1, evening and weekend classes worldwide.
+> Live online coding and maths classes for adults, from complete beginner to career changer. Batches of 15 to 20 or 1-on-1, evening and weekend classes worldwide.
 
 Adult learners · ages 18 to 67 · updated September 2026
 
 # Coding classes for adults, live and taught in small batches
 
-Most of what ranks for "coding classes for adults" is a list of video courses. This is a class: a live hour with a mentor who writes software for a living, in a batch of 5 to 10 adults or 1-on-1, in the evening or at the weekend, that ends with something you built. It is for the career changer, the professional who needs Python for the job they already have, the parent who wants to keep up with their child, and the retired engineer who always meant to learn. Ages 18 to 67, in India and 25+ countries.
+Most of what ranks for "coding classes for adults" is a list of video courses. This is a class: a live hour with a mentor who writes software for a living, in a batch of 15 to 20 adults or 1-on-1, in the evening or at the weekend, that ends with something you built. It is for the career changer, the professional who needs Python for the job they already have, the parent who wants to keep up with their child, and the retired engineer who always meant to learn. Ages 18 to 67, in India and 25+ countries.
 
 [Book a free class](/book-demo)See the adult pathsWhat a live adult coding class actually looks like
 
-A live adult class at Modern Age Coders is one hour on a video call with a mentor and a batch of 5 to 10 adults at the same level, or 1-on-1. You write code from the first session in Python, JavaScript or Java, the mentor sees your screen and unblocks you on the spot, and a short task follows each class. Batches run in the evening and at the weekend, twice a week, with the same mentor all course. The first class is a free demo.
+A live adult class at Modern Age Coders is one hour on a video call with a mentor and a batch of 15 to 20 adults at the same level, or 1-on-1. You write code from the first session in Python, JavaScript or Java, the mentor sees your screen and unblocks you on the spot, and a short task follows each class. Batches run in the evening and at the weekend, twice a week, with the same mentor all course. The first class is a free demo.
 
 Courses
 
 ## The courses adults start with
 
-Six live courses for complete beginners from 18 up. Each is taught in a batch of 5 to 10 or 1-on-1, one hour per class, and ends with a project you can show.
+Six live courses for complete beginners from 18 up. Each is taught in a batch of 15 to 20 or 1-on-1, one hour per class, and ends with a project you can show.
 
 [![Python masterclass for adults course thumbnail](/images/python-college.webp)First language / most adults**Python Masterclass: Zero to Advanced**The default first language for an adult: readable, in demand, and useful at work within weeks. Fundamentals to objects, files and a real project.See the course](/courses/python-programming-masterclass-zero-to-advanced-college)[![HTML and CSS for beginners course thumbnail](/images/html-css-beginners.webp)First language / visual learners**HTML and CSS: Build Real Websites**For the adult who wants to see something on screen in the first hour. Responsive pages you can put online, then JavaScript when you are ready.See the course](/courses/html-css-course-for-beginners-build-real-websites)[![Full stack web development course thumbnail](/images/mern-stack-college.webp)Career change / the long road**Full Stack Web Development**React, Node.js and the basics of deployment: the course a career changer takes after Python or JavaScript, ending with a portfolio that works on a live link.See the course](/courses/full-stack-web-development-masterclass-college)[![Java course for adults thumbnail](/images/java-college.webp)Enterprise / large systems**Java: Core to Spring Boot**For the adult heading into, or already inside, a company that runs on Java. Core language, objects, then Spring Boot.See the course](/courses/complete-java-programming-masterclass-college)[![Data and AI analytics for non-programmers course thumbnail](/images/data-ai-analytics-non-programmers.webp)No code required / at work**Data and AI Analytics for Non-Programmers**Excel, Sheets and Power BI with AI tools, for the professional who needs answers from data without becoming a programmer.See the course](/courses/data-and-ai-analytics-for-non-programmers-course)[![Python automation and applied AI course thumbnail](/images/python-automation-ai-college.webp)Professionals / automate the job**Python Automation and Applied AI**Scripting, scraping and small AI tools that remove the repetitive part of a job. The course working professionals most often ask for.See the course](/courses/python-ai-automation-masterclass-college)Who these classes are for
 
@@ -110,7 +110,7 @@ Adults abandon recorded courses for the same reason children do, only later at n
 
 Swipe sideways to see every column
 
-|   | Self-paced video course | Live batch of 5 to 10 ours | Live 1-on-1 |
+|   | Self-paced video course | Live batch of 15 to 20 ours | Live 1-on-1 |
 | --- | --- | --- | --- |
 | Pace | Yours, which usually means stopping | The batch's, adjusted by the mentor per person | Entirely yours |
 | When you get stuck | A forum, or the next evening | The mentor, on your screen, in the same minute | Immediately |

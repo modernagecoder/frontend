@@ -133,7 +133,7 @@ Southend's seven CSSE schools use the same test as the three here; our [Southend
 
 For coding in the county towns, see our pages for [Colchester](/best-coding-class-in-colchester) and [Chelmsford](/best-coding-class-in-chelmsford).
 
-Lessons are live on video, in groups of five to ten matched by level, so a child in Witham, Braintree or Maldon is taught exactly as a child in Colchester or Chelmsford.
+Lessons are live on video, in groups of fifteen to twenty matched by level, so a child in Witham, Braintree or Maldon is taught exactly as a child in Colchester or Chelmsford.
 
 We have no connection with the CSSE, FSCE, Essex County Council or any of these schools.
 
@@ -206,7 +206,7 @@ We teach live from India. Primary lessons sit in the early evening or on weekend
 
 - **One teacher all year** Who knows your child's habits by the second week.
 - **Honest reporting** A few frank lines after lessons.
-- **Five to ten children** Grouped by level.
+- **Fifteen to twenty children** Grouped by level.
 - **Original material** No CSSE or FSCE content copied.
 - **Private lessons** When one child needs focused help.
 - **Maths only** No English or creativity coaching; no admissions advice.
@@ -216,7 +216,7 @@ We teach live from India. Primary lessons sit in the early evening or on weekend
 One US dollar rate per month for every family outside India. Nothing to join, cancel whenever you like.
 
 - Free first class: USD 0. A taught lesson. An honest verdict. No card needed.
-- Group batch: USD 100 a month. Five to ten children at one level. A regular teacher. Work reviewed with the child. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. A regular teacher. Work reviewed with the child. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one child. Aimed at weak spots. Flexible timing.
 
 ## What Essex families ask us

@@ -60,7 +60,7 @@ module.exports = {
 
   h1: 'Coding classes in Glasgow',
   capsuleQ: 'What are the best coding classes in Glasgow?',
-  capsule: 'About 620,700 people lived in Glasgow City at Scotland\'s 2022 census, up from 593,245 in 2011, with 71.5% aged 15 to 64 compared with 64.6% nationally. The University of Glasgow, established in 1451, is the fourth oldest university in the UK, and in 1881 William Thomson, later Lord Kelvin, lit one of the world\'s first fully electric houses on its campus. Glaswegians from six to sixty-seven learn with Modern Age Coders live online, privately or in small groups of five to ten matched by level, taught by teachers in India on a UK timetable. There is no fee for the first lesson; after it, groups are USD 100 a month and private lessons USD 150 a month.',
+  capsule: 'About 620,700 people lived in Glasgow City at Scotland\'s 2022 census, up from 593,245 in 2011, with 71.5% aged 15 to 64 compared with 64.6% nationally. The University of Glasgow, established in 1451, is the fourth oldest university in the UK, and in 1881 William Thomson, later Lord Kelvin, lit one of the world\'s first fully electric houses on its campus. Glaswegians from six to sixty-seven learn with Modern Age Coders live online, privately or in groups of fifteen to twenty matched by level, taught by teachers in India on a UK timetable. There is no fee for the first lesson; after it, groups are USD 100 a month and private lessons USD 150 a month.',
   lead: 'How long is Glasgow\'s boundary? It sounds like a question with one answer, but measure the official ONS outline with a 3.2-kilometre ruler, walking it stride by stride, and you get 62.49 kilometres. Shrink the ruler to 400 metres and it grows to 88.96. At 25 metres it reaches 106.38, and it would keep growing with a finer map. Every bend in a burn or a road hides smaller bends, so a shorter ruler always finds more length. This is the coastline paradox, and it is the doorway to fractal geometry: plot length against ruler size on logarithmic scales and the points fall close to a straight line, whose slope gives the boundary a fractal dimension of about 1.1, a little more than a smooth line\'s 1. Measuring it two independent ways, and understanding why the number of kilometres is the wrong question, is the lesson Glasgow\'s map teaches our teenage learners.',
   wa: 'Hello Modern Age Coders, I would like to arrange a free coding lesson for a learner in Glasgow.',
 
@@ -192,7 +192,7 @@ module.exports = {
       { h3: 'North or south of the Clyde', p: 'A learner in Maryhill and another in Pollokshields can share one lesson without either crossing the river.' },
       { h3: 'Primary, secondary and national levels', p: 'Primary 1 to 7, the secondary years S1 to S6, then National 5, Higher and Advanced Higher: lessons follow the names Glasgow schools use, taught in English.' },
       { h3: 'A free lesson with a plan', p: 'The first lesson teaches something real and closes with a recommended level, course and regular time. No card is requested.' },
-      { h3: 'Placed by level', p: 'Five to ten learners at one stage, from Glasgow, the rest of the UK and abroad, which keeps a sensible slot open for every level.' },
+      { h3: 'Placed by level', p: 'Fifteen to twenty learners at one stage, from Glasgow, the rest of the UK and abroad, which keeps a sensible slot open for every level.' },
       { h3: 'Two lessons every week', p: 'Two fixed lessons a week, about eight a month, with breaks for holidays and exams arranged with the teacher ahead of time.' },
       { h3: 'Teachers on India time', p: 'India Standard Time stays the same all year. Glasgow is four and a half hours behind it during British Summer Time and five and a half behind in winter, which puts after-school and evening slots comfortably inside the teaching day.' }
     ],
@@ -203,7 +203,7 @@ module.exports = {
     h2: 'Glasgow lesson fees',
     intro: 'A free first lesson, then one of two monthly prices.',
     first: 'A complete lesson with nothing to pay, ending with a level, a suggested course and a weekly slot.',
-    group: 'About eight live lessons each month in a group of five to ten learners at one level.',
+    group: 'About eight live lessons each month in a group of fifteen to twenty learners at one level.',
     private: 'About eight live lessons each month with the teacher focused on one learner.',
     closer: 'Everyone outside India pays one US dollar fee, so Hyndland and Parkhead pay exactly the same, and we list no prices in pounds. We only bill once the free lesson has settled a course and a weekly slot, and our pricing page explains how pausing, missed lessons and a move between group and private teaching work.'
   },
@@ -228,8 +228,8 @@ module.exports = {
       { q: 'Can Glasgow learners get help with National 5 or Higher?', a: 'Yes. Lessons follow the Scottish stages, and learners working towards National 5 or Higher Computing Science get teaching matched to those courses; our National 5 and Higher pages set out what each one asks for.' },
       { q: 'When are Glasgow lessons held?', a: 'Lessons run on weekday afternoons and evenings or at weekends, at a UK time fixed during the free lesson; India is 4.5 hours ahead of Glasgow in summer and 5.5 hours in winter.' },
       { q: 'Is there a Modern Age Coders centre in Glasgow?', a: 'No. There is no Glasgow centre and no premises anywhere in the UK; all teaching is live online. Learners need a computer with sound and a steady connection, and our phone number is an Indian one.', boiler: true },
-      { q: 'How much do Glasgow lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
-      { q: 'How are Glasgow groups formed?', a: 'By level, pace and aims rather than age or postcode, with five to ten learners at one stage. If no group meets at a good time, we propose one-to-one lessons.', boiler: true }
+      { q: 'How much do Glasgow lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
+      { q: 'How are Glasgow groups formed?', a: 'By level, pace and aims rather than age or postcode, with fifteen to twenty learners at one stage. If no group meets at a good time, we propose one-to-one lessons.', boiler: true }
     ]
   },
 

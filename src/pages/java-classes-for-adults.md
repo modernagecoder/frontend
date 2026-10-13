@@ -16,7 +16,7 @@ Book a Free Demo ClassSee the Roadmap**4.9/5**Learner rating**5–8**Per batch**
 
 ## Quick answer
 
-**Modern Age Coders offers live online Java classes for adults, working professionals and career switchers (18+).** The course runs from Core Java and Object-Oriented Programming through Collections, Data Structures & Algorithms and an introduction to backend development, with interview and placement preparation. Classes are live and mentor-led in small batches of 5–8, with flexible evening and weekend timings, and group plans start at ₹1,499/month. No prior coding experience needed; book a free demo first.
+**Modern Age Coders offers live online Java classes for adults, working professionals and career switchers (18+).** The course runs from Core Java and Object-Oriented Programming through Collections, Data Structures & Algorithms and an introduction to backend development, with interview and placement preparation. Classes are live and mentor-led in batches of 15–20, with flexible evening and weekend timings, and group plans start at ₹1,499/month. No prior coding experience needed; book a free demo first.
 
 Start Today
 
@@ -108,7 +108,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo.
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 learners per batch
+- 15–20 learners per batch
 - Live interactive sessions
 - Recorded class access
 - Completion certificate
@@ -119,7 +119,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 learners per batch
+- Up to 6 learners per batch
 - More personal mentoring
 - Recorded class access
 - Project & interview guidance
@@ -183,7 +183,7 @@ Core Java (syntax, control flow, methods, arrays, strings), Object-Oriented Prog
 
 How much do Java classes for adults cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 learners is ₹2,999 per month, and personalised 1-on-1 mentoring is ₹4,999 per month. A free demo class is available before you enrol.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 learners is ₹2,999 per month, and personalised 1-on-1 mentoring is ₹4,999 per month. A free demo class is available before you enrol.
 
 Is the class live or self-paced video?+
 

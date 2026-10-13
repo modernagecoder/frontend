@@ -50,7 +50,7 @@ module.exports = {
 
   h1: 'Coding classes in Lewisham',
   capsuleQ: 'What are the best coding classes in Lewisham?',
-  capsule: 'Lewisham is the south east London borough of Catford, Deptford, Forest Hill, Sydenham, Brockley, Lee, New Cross and Ladywell, with 300,553 residents at the 2021 Census, the Horniman Museum and the River Ravensbourne running north through Catford. The coding classes worth having show a learner how machines learn patterns from data, and this page does it with a river: an hour-by-hour record of rain and flow, and a set of 48 weights learned from it that describe how the Ravensbourne answers a shower. That idea, a kernel slid along data, is the heart of the AI models that recognise images. Our teachers are in India and teach in real time over video; learners aged six to sixty-seven choose private lessons or a small, level-matched class of five to ten. The first lesson is free, and after that group lessons cost USD 100 a month and private lessons USD 150 a month.',
+  capsule: 'Lewisham is the south east London borough of Catford, Deptford, Forest Hill, Sydenham, Brockley, Lee, New Cross and Ladywell, with 300,553 residents at the 2021 Census, the Horniman Museum and the River Ravensbourne running north through Catford. The coding classes worth having show a learner how machines learn patterns from data, and this page does it with a river: an hour-by-hour record of rain and flow, and a set of 48 weights learned from it that describe how the Ravensbourne answers a shower. That idea, a kernel slid along data, is the heart of the AI models that recognise images. Our teachers are in India and teach in real time over video; learners aged six to sixty-seven choose private lessons or a small, level-matched class of fifteen to twenty. The first lesson is free, and after that group lessons cost USD 100 a month and private lessons USD 150 a month.',
   lead: 'The Environment Agency has measured the River Ravensbourne at Catford since 1977, and it publishes a reading every fifteen minutes. A few kilometres north, its Deptford gauge records rainfall on the same clock. Put the two side by side and you can see the river rise a couple of hours after a downpour, then fall back over the next half day. Our learners ask a computer to learn that response. They give it 48 unknown weights, one for each hour since the rain fell, and let it find the values that explain the flow most closely, with one rule: no weight may be negative, because rain cannot lower a river. The result is a curve called a unit hydrograph, and it is exactly what a convolutional neural network learns when it learns to spot an edge in a photograph.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Lewisham.',
 
@@ -180,7 +180,7 @@ module.exports = {
       { h3: 'Learn at home', p: 'Learners join from home with a laptop or desktop, headphones and a reliable broadband connection.' },
       { h3: 'English school stages', p: 'We map progress onto English Key Stages, from Key Stage 1 to sixth form, and mention GCSE and A level where they apply. Teaching is in English.' },
       { h3: 'First lesson free', p: 'Lesson one teaches something real and ends with the teacher\'s view on level and course; no card is requested.' },
-      { h3: 'Five to ten per class', p: 'A class draws together learners at one stage from all over the country and beyond, and that breadth keeps a good evening slot within reach.' },
+      { h3: 'Fifteen to twenty per class', p: 'A class draws together learners at one stage from all over the country and beyond, and that breadth keeps a good evening slot within reach.' },
       { h3: 'Two evenings weekly', p: 'A pair of evening sessions each week is the norm, with gaps for half terms, holidays and exam fortnights arranged in advance.' },
       { h3: 'UK time', p: 'Reminders arrive with the Lewisham time already worked out, even though your teacher is several time zones east.' }
     ],
@@ -191,7 +191,7 @@ module.exports = {
     h2: 'Fees for Lewisham families',
     intro: 'From Deptford to Downham the arrangement is identical: lesson one free, then a flat monthly fee.',
     first: 'A full first lesson with a teacher, free, ending with a recommended level, course and time.',
-    group: 'About eight live lessons a month in a class of five to ten at one stage.',
+    group: 'About eight live lessons a month in a class of fifteen to twenty at one stage.',
     private: 'About eight live lessons a month, one to one.',
     closer: 'Every family outside India is billed in US dollars; that is why you will not find a pound sign anywhere on this site. Payment only begins after the free lesson, when a course and a regular evening have been fixed. For pauses, missed sessions or a switch to one-to-one, see the pricing page.'
   },
@@ -216,8 +216,8 @@ module.exports = {
       { q: 'When would a Lewisham learner have lessons?', a: 'Once lesson one has shown the level, we name a class with a free seat and its regular evening, quoted in London time; the teacher works from India.' },
       { q: 'What does a learner need?', a: 'Just an ordinary home computer that plays sound, on broadband that stays connected. The river project needs Python and free downloads from the Environment Agency.' },
       { q: 'Is there a Modern Age Coders centre in Lewisham?', a: 'No. There is no Lewisham centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Lewisham cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Lewisham cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

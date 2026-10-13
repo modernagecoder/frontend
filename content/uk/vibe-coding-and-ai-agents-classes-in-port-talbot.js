@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Vibe coding and AI agents classes in Port Talbot',
   capsuleQ: 'Where are the best vibe coding and AI agents classes for Port Talbot?',
-  capsule: 'Port Talbot\'s built-up area numbered 31,555 usual residents in Census 2021; the wider county borough of Neath Port Talbot numbered 142,289. Aberavon, Sandfields, Taibach, Margam and Velindre all sit within that built-up area. Learners from Port Talbot, from six-year-olds to people of 67, study vibe coding, AI agents, Python, coding and maths with us over live video, taught by tutors in India either privately or in a level-matched class of five to ten. The first lesson is a free trial that ends with a course recommendation. The Port Talbot project tackles a puzzle every team of AI agents runs into: when three agents each write their own log and their clocks disagree, how do you work out what happened first? Fees after the trial are USD 100 a month for a group place and USD 150 a month for private lessons.',
+  capsule: 'Port Talbot\'s built-up area numbered 31,555 usual residents in Census 2021; the wider county borough of Neath Port Talbot numbered 142,289. Aberavon, Sandfields, Taibach, Margam and Velindre all sit within that built-up area. Learners from Port Talbot, from six-year-olds to people of 67, study vibe coding, AI agents, Python, coding and maths with us over live video, taught by tutors in India either privately or in a level-matched class of fifteen to twenty. The first lesson is a free trial that ends with a course recommendation. The Port Talbot project tackles a puzzle every team of AI agents runs into: when three agents each write their own log and their clocks disagree, how do you work out what happened first? Fees after the trial are USD 100 a month for a group place and USD 150 a month for private lessons.',
   lead: 'Put three AI agents on one job, perhaps one gathering facts, one drafting and one checking, and give each its own log. Something goes wrong, and you merge the logs to see the order of events. If you sort by the times the agents wrote down, you will sometimes see a reply recorded before the question that caused it. Nobody lied; their clocks simply disagree by a fraction of a second. In 1978 Leslie Lamport showed how to order events without trusting clocks at all, and the idea is about forty lines of Python.',
   wa: 'Hello Modern Age Coders, we would like to book a free vibe coding or AI agents trial lesson. We are in Port Talbot.',
 
@@ -158,11 +158,11 @@ module.exports = {
       { h3: 'Learner does the typing', p: 'Every program is written and run by the learner, with the tutor asking why.' },
       { h3: 'Trial shows the level', p: 'We see where a learner is before recommending a course.' },
       { h3: 'Trial costs nothing', p: 'The first session is free and needs no card.' },
-      { h3: 'Classes of five to ten', p: 'Learners at the same stage, joining from across the UK.' },
+      { h3: 'Classes of fifteen to twenty', p: 'Learners at the same stage, joining from across the UK.' },
       { h3: 'Around eight a month', p: 'Two lessons a week in term, with Neath Port Talbot holidays skipped on request.' },
       { h3: 'Stable UK hour', p: 'The lesson time stays fixed when the clocks change.' }
     ],
-    spec: { title: 'Why lessons are online', p: 'A class of five to ten learners at one precise level forms far more easily across the UK than in one town, and video spares everyone a journey.' }
+    spec: { title: 'Why lessons are online', p: 'A class of fifteen to twenty learners at one precise level forms far more easily across the UK than in one town, and video spares everyone a journey.' }
   },
 
   fees: {

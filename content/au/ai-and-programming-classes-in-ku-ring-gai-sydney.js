@@ -342,7 +342,7 @@ module.exports = {
         h3: 'A proper trial',
         p: 'The free opening lesson teaches real content; the teacher then suggests a level, course and time, and nothing is charged that day.'
       },
-      { h3: 'Groups of five to ten', p: 'Learners are matched on skill and pace rather than age or postcode, alongside classmates from elsewhere.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners are matched on skill and pace rather than age or postcode, alongside classmates from elsewhere.' },
       { h3: 'Two lessons weekly', p: 'A fixed weekly rhythm of two lessons, roughly eight a month, with holiday breaks planned in advance.' },
       { h3: 'Teachers in India', p: 'A 6:30pm Ku-ring-gai lesson in summer starts at 1pm India time; during the Sydney winter it starts at 2pm there.' }
     ],
@@ -355,7 +355,7 @@ module.exports = {
     h2: 'Ku-ring-gai class fees',
     intro: 'Simple pricing in three parts.',
     first: 'A free first lesson that ends with a recommended course.',
-    group: 'A month of small-group lessons, usually eight, with five to ten learners.',
+    group: 'A month of small-group lessons, usually eight, with fifteen to twenty learners.',
     private: 'Around eight private lessons a month with one teacher.',
     closer: 'Invoices outside India are in US dollars, so every Ku-ring-gai family pays the same rate and no local price list exists. Payment starts only after the trial has fixed a course and time, and the pricing page sets out holidays, missed lessons and format changes.'
   },
@@ -404,12 +404,12 @@ module.exports = {
       },
       {
         q: 'How much are AI classes for Ku-ring-gai learners?',
-        a: 'The first lesson is free. Then a group place costs USD 100 a month for two live lessons a week, about eight in total, with five to ten learners, or USD 150 a month for the same schedule one to one. Course, format and time are agreed before paying.',
+        a: 'The first lesson is free. Then a group place costs USD 100 a month for two live lessons a week, about eight in total, with fifteen to twenty learners, or USD 150 a month for the same schedule one to one. Course, format and time are agreed before paying.',
         boiler: true
       },
       {
         q: 'How big are classes?',
-        a: 'Five to ten learners at the same level, grouped by ability and goals rather than age or suburb. One-to-one teaching is offered when no group fits the needed time.',
+        a: 'Fifteen to twenty learners at the same level, grouped by ability and goals rather than age or suburb. One-to-one teaching is offered when no group fits the needed time.',
         boiler: true
       }
     ]

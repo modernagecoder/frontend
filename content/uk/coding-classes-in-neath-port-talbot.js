@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding classes in Neath Port Talbot',
   capsuleQ: 'What are the best coding classes in Neath Port Talbot?',
-  capsule: 'Neath Port Talbot counted 142,289 residents in the 2021 census. Neath, at 40,730, and Port Talbot, at 31,555, are its two big towns, with Baglan above 10,000 and a string of valley places such as Pontardawe, Cwmavon, Glyn-neath and Resolven. Our teachers work from India and meet every learner on a live video call. Children from 6, teenagers and adults up to 67 study coding, Python or maths, either in a level-matched class of five to ten or alone with a tutor. It begins with one free lesson that fixes the right starting course. The local project climbs down a colliery shaft at Crynant. Carrying on costs USD 100 per month in a class, or USD 150 per month for private tuition.',
+  capsule: 'Neath Port Talbot counted 142,289 residents in the 2021 census. Neath, at 40,730, and Port Talbot, at 31,555, are its two big towns, with Baglan above 10,000 and a string of valley places such as Pontardawe, Cwmavon, Glyn-neath and Resolven. Our teachers work from India and meet every learner on a live video call. Children from 6, teenagers and adults up to 67 study coding, Python or maths, either in a level-matched class of fifteen to twenty or alone with a tutor. It begins with one free lesson that fixes the right starting course. The local project climbs down a colliery shaft at Crynant. Carrying on costs USD 100 per month in a class, or USD 150 per month for private tuition.',
   lead: 'Cefn Coed Colliery was sunk in 1926 and 1927 with two shafts, both deeper than 732 metres, and Cadw records that it was then the deepest anthracite mine in the world. Its two steel lattice headframes, about 18 metres high, still stand at Crynant and are listed at Grade II*. The record explains something clever about the No. 1 frame: it sat over the upcast shaft, and its tower was boxed in with steel plates so that fresh air would be drawn down the other shaft instead. Hundreds of men needed that air. Warm air rises, so a deep shaft full of warmer air acts like a chimney and pulls cooler air through the workings on its own. How strong is that pull, and why did the colliery still need a fan house? The gas law answers both, in a few lines of Python.',
   wa: 'Hello Modern Age Coders, we are in Neath Port Talbot and would like to book a free lesson, please.',
 
@@ -161,7 +161,7 @@ module.exports = {
       { h3: 'Hands on the keyboard', p: 'The learner does the typing; the teacher reads along on the shared screen and gives hints rather than answers.' },
       { h3: 'Placed the Welsh way', p: 'A Pontardawe Year 6 or a Neath Year 13 is placed by Welsh school year and progression step, and exams go by their WJEC names. We teach in English.' },
       { h3: 'Trial before fees', p: 'The opening lesson is free and ends with an honest course suggestion.' },
-      { h3: 'Classes by level', p: 'Groups of five to ten who share a level, drawn from across the UK.' },
+      { h3: 'Classes by level', p: 'Groups of fifteen to twenty who share a level, drawn from across the UK.' },
       { h3: 'During term', p: 'Usually two lessons weekly; school holidays stay free.' },
       { h3: 'Clock changes handled', p: 'We move with British Summer Time so your lesson hour on the kitchen clock never shifts.' }
     ],
@@ -172,7 +172,7 @@ module.exports = {
     h2: 'What Neath Port Talbot families pay',
     intro: 'Port Talbot and Pontardawe pay the same fee, as do families in every country we teach outside India.',
     first: 'One full trial lesson, free, then our advice.',
-    group: 'Roughly eight classes each month with five to ten learners.',
+    group: 'Roughly eight classes each month with fifteen to twenty learners.',
     private: 'Roughly eight classes each month with a tutor of your own.',
     closer: 'Fees are in US dollars and nothing else; we give no sterling price. You are charged only once the trial has agreed a course and a regular slot, and our pricing page explains holidays, missed classes and moving between group and private.'
   },

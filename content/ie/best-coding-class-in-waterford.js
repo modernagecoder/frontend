@@ -60,7 +60,7 @@ module.exports = {
 
   h1: 'Coding classes in Waterford',
   capsuleQ: 'What are the best coding classes in Waterford?',
-  capsule: 'Waterford is a built-up city of 60,079 people sitting inside a council area of 127,363, and the city itself crosses a county line: 54,313 of its residents are in Waterford and 5,766 in Kilkenny. It is denser than Cork city and younger too, with 18.9% of people aged under 15. Only 25% of workers here did any work from home against 32% nationally, so evening classes matter more than afternoon ones, and that is exactly what a live online school can offer. We teach ages 6 to 67 at a fixed weekly hour, in groups of five to ten matched by ability or one to one, with teachers working from India. The first lesson costs nothing. After it, a group place is USD 100 a month and private tuition USD 150.',
+  capsule: 'Waterford is a built-up city of 60,079 people sitting inside a council area of 127,363, and the city itself crosses a county line: 54,313 of its residents are in Waterford and 5,766 in Kilkenny. It is denser than Cork city and younger too, with 18.9% of people aged under 15. Only 25% of workers here did any work from home against 32% nationally, so evening classes matter more than afternoon ones, and that is exactly what a live online school can offer. We teach ages 6 to 67 at a fixed weekly hour, in groups of fifteen to twenty matched by ability or one to one, with teachers working from India. The first lesson costs nothing. After it, a group place is USD 100 a month and private tuition USD 150.',
   lead: 'Primary schools around Waterford spent years collecting the Irish names of local fields, roads, coves and townlands from the people who still use them, and the council put the results online as a map. It is a lovely thing, and for a young programmer it raises the first question that any real dataset raises, long before any code is written: am I allowed to use this? Because no licence is declared on it at all. Not an open one, not a restrictive one, none. There is a second question close behind, because one of the two published versions of the survey carries an editor\'s personal email address in every row, which means republishing it raw would hand out somebody\'s contact details. And then, only then, come the technical problems: two versions of the same survey with 407 rows and 503, and invisible characters that make a townland recorded once look like two different places. That order, permission, then privacy, then code, is the order we teach it in.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Waterford.',
 
@@ -198,7 +198,7 @@ module.exports = {
       { h3: 'No travel, no car park', p: 'A learner in Ferrybank and one in Dungarvan attend the same class, which matters in a county where only 73 people commute by train.' },
       { h3: 'School stages named properly', p: 'Teachers use First Year, Junior Cycle, Transition Year and sixth year as Irish schools do, so nothing needs translating for parents.' },
       { h3: 'A real trial lesson', p: 'Genuine teaching on a genuine task, ending in a recommendation on level, course and weekly hour, with no card details requested.' },
-      { h3: 'Matched by ability', p: 'Groups of five to ten learners working at one pace, drawn from Waterford and other countries, which is how a sensible hour exists at every level.' },
+      { h3: 'Matched by ability', p: 'Groups of fifteen to twenty learners working at one pace, drawn from Waterford and other countries, which is how a sensible hour exists at every level.' },
       { h3: 'A steady weekly rhythm', p: 'Usually two lessons a week, around eight a month, at a fixed hour, pausing for mid-terms, exams and holidays by agreement.' },
       { h3: 'Teachers on a fixed clock', p: 'India does not change its clocks, so our teachers sit four and a half hours ahead of Ireland in summer and five and a half in winter; Waterford evenings land squarely in their working day.' }
     ],
@@ -209,7 +209,7 @@ module.exports = {
     h2: 'What classes cost in Waterford',
     intro: 'Three figures, given once, with nothing arriving later.',
     first: 'A complete lesson at no cost, ending in an honest placement and a recommended course.',
-    group: 'A month of teaching, normally eight lessons, alongside five to ten learners of similar ability.',
+    group: 'A month of teaching, normally eight lessons, alongside fifteen to twenty learners of similar ability.',
     private: 'The same month of roughly eight lessons, with the teacher working with a single learner.',
     closer: 'Billing is in US dollars on the one rate used outside India, so there is no euro list and Tramore pays what Ferrybank pays. Nothing is charged until a course and a weekly hour have been agreed in the free lesson, and the pricing page covers pauses, missed lessons and changing format.'
   },
@@ -234,7 +234,7 @@ module.exports = {
       { q: 'Why do Waterford addresses start with X91?', a: 'X91 is the routing key for the Waterford post town, and it appears in the published addresses of City Hall on The Mall, Plunkett Station, Bausch and Lomb on the Cork Road and Sanofi on the Old Kilmeaden Road.' },
       { q: 'What hours suit Waterford learners?', a: 'Evenings mostly, with weekend mornings also popular. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter, and the hour is fixed in the free lesson.' },
       { q: 'Is there a Modern Age Coders classroom in Waterford?', a: 'No, and none is claimed. All teaching happens live online, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the phone number on this page is an Indian one.', boiler: true },
-      { q: 'What do Waterford coding classes cost?', a: 'The first lesson is free. After it, a group place costs USD 100 a month, which covers two live lessons a week and roughly eight a month with five to ten learners, while private tuition is USD 150 a month on the same rhythm. Course, format and hour are agreed before any payment.', boiler: true },
+      { q: 'What do Waterford coding classes cost?', a: 'The first lesson is free. After it, a group place costs USD 100 a month, which covers two live lessons a week and roughly eight a month with fifteen to twenty learners, while private tuition is USD 150 a month on the same rhythm. Course, format and hour are agreed before any payment.', boiler: true },
       { q: 'How many learners in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where no suitable group runs at a workable hour, we offer one-to-one lessons instead.', boiler: true }
     ]
   },

@@ -82,7 +82,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Wales',
   capsuleQ: 'What are the best coding classes in Wales?',
-  capsule: 'Wales has just rebuilt its computing qualification and almost nobody has explained what changed. The Made-for-Wales GCSE Computer Science, first taught from September 2025, is "a unitised qualification" in two halves: Unit 1, a "digital only examination, marked by WJEC" worth 50 per cent and first available in 2026, and Unit 2, an "on-screen examination" also worth 50 per cent, first available in 2027, in which "the language used in the examination will be Python". There is "no optionality and no tiering". Unit 2 runs from a pre-release brief issued a full academic year in advance, and no work done on that brief may be taken into the room. A class that helps a Welsh learner has to teach what survives that door: Python they can write unaided. We teach live online from India, ages 6 to 67, in groups of five to ten or one to one. The first lesson is free; a group place is then USD 100 a month and one-to-one teaching USD 150.',
+  capsule: 'Wales has just rebuilt its computing qualification and almost nobody has explained what changed. The Made-for-Wales GCSE Computer Science, first taught from September 2025, is "a unitised qualification" in two halves: Unit 1, a "digital only examination, marked by WJEC" worth 50 per cent and first available in 2026, and Unit 2, an "on-screen examination" also worth 50 per cent, first available in 2027, in which "the language used in the examination will be Python". There is "no optionality and no tiering". Unit 2 runs from a pre-release brief issued a full academic year in advance, and no work done on that brief may be taken into the room. A class that helps a Welsh learner has to teach what survives that door: Python they can write unaided. We teach live online from India, ages 6 to 67, in groups of fifteen to twenty or one to one. The first lesson is free; a group place is then USD 100 a month and one-to-one teaching USD 150.',
   lead: 'Every other nation in Britain marks a computing project a student brings with them. Wales does the opposite, and the design is worth reading twice. Candidates for Unit 2 receive a pre-release brief in the academic year before the exam, a scenario with requirements and tasks to work through "both individually and in groups". They may spend a year on it. Then WJEC says two things in the same paragraph: work done on the brief "will not be formally assessed and nor will it contribute to the final grade", and "learners may not take any work already done on the pre-release brief into the assessment". A year of preparation, and not one page of it crosses the threshold. That single rule decides what a useful class in Wales looks like.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Wales.',
 
@@ -218,7 +218,7 @@ module.exports = {
       { h3: 'Wherever the learner is', p: 'Valleys, coast or city. The lesson travels to the child instead of a parent driving across a county.' },
       { h3: 'Welsh vocabulary used', p: 'Progression steps, Areas of Learning and Experience and the Made-for-Wales GCSE, called what Wales calls them.' },
       { h3: 'A free lesson first', p: 'A real piece of teaching that ends with an honest view of level and course. No card needed.' },
-      { h3: 'Small groups by level', p: 'Five to ten learners at the same stage, drawn from Wales and beyond so a group exists at a sensible hour.' },
+      { h3: 'Small groups by level', p: 'Fifteen to twenty learners at the same stage, drawn from Wales and beyond so a group exists at a sensible hour.' },
       { h3: 'Taught in English', p: 'We do not teach through Welsh. A bilingual learner is very welcome; a Welsh-medium lesson is not something we can offer.' },
       { h3: 'Times in UK time', p: 'Teachers work from India, five and a half hours ahead in winter and four and a half in summer, and every lesson is agreed in UK time.' }
     ],
@@ -229,7 +229,7 @@ module.exports = {
     h2: 'What classes cost in Wales',
     intro: 'The same three prices everywhere, from Cardiff to Anglesey.',
     first: 'A full lesson on real work, ending with a suggested level and course.',
-    group: 'About eight lessons a month with five to ten learners at one level.',
+    group: 'About eight lessons a month with fifteen to twenty learners at one level.',
     private: 'About eight lessons a month with a teacher for one learner.',
     closer: 'Fees are set in US dollars, the rate for every family outside India, and there is no pound price list. Nothing is charged until the free lesson has settled a course and a regular slot; the pricing page covers pauses, missed lessons and moving between group and private teaching.'
   },

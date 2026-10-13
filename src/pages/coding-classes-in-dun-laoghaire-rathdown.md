@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes for Dún Laoghaire-Rathd
 canonical: https://learn.modernagecoders.com/coding-classes-in-dun-laoghaire-rathdown
 source: src/pages/coding-classes-in-dun-laoghaire-rathdown.html
 ---
-> Dún Laoghaire-Rathdown had 233,860 people at the 2022 census, and the statistics office found it had the highest rate in the country of people working from home at least part of the time. It is home to 4,958 Indian citizens, 42,303 children and the Sandyford Business District, whose own figures are 1,000 companies and 26,000 employees. For a family here the best coding class is one that fits a household already used to working and learning from home: live, at a fixed hour, with a teacher who reads the learner's code. Modern Age Coders teaches online from India to learners aged 6 to 67, in groups of five to ten placed by ability or one to one. There is no charge for the first lesson; from then on it is USD 100 a month in a group or USD 150 a month with a private teacher.
+> Dún Laoghaire-Rathdown had 233,860 people at the 2022 census, and the statistics office found it had the highest rate in the country of people working from home at least part of the time. It is home to 4,958 Indian citizens, 42,303 children and the Sandyford Business District, whose own figures are 1,000 companies and 26,000 employees. For a family here the best coding class is one that fits a household already used to working and learning from home: live, at a fixed hour, with a teacher who reads the learner's code. Modern Age Coders teaches online from India to learners aged 6 to 67, in groups of fifteen to twenty placed by ability or one to one. There is no charge for the first lesson; from then on it is USD 100 a month in a group or USD 150 a month with a private teacher.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [Dublin](/best-coding-class-in-dublin) / Dún Laoghaire-Rathdown
 
@@ -12,11 +12,11 @@ Dún Laoghaire-Rathdown, County Dublin / Live online
 
 # Coding classes in Dún Laoghaire-Rathdown
 
-**What are the best coding classes in Dún Laoghaire-Rathdown?** Dún Laoghaire-Rathdown had 233,860 people at the 2022 census, and the statistics office found it had the highest rate in the country of people working from home at least part of the time. It is home to 4,958 Indian citizens, 42,303 children and the Sandyford Business District, whose own figures are 1,000 companies and 26,000 employees. For a family here the best coding class is one that fits a household already used to working and learning from home: live, at a fixed hour, with a teacher who reads the learner's code. Modern Age Coders teaches online from India to learners aged 6 to 67, in groups of five to ten placed by ability or one to one. There is no charge for the first lesson; from then on it is USD 100 a month in a group or USD 150 a month with a private teacher.
+**What are the best coding classes in Dún Laoghaire-Rathdown?** Dún Laoghaire-Rathdown had 233,860 people at the 2022 census, and the statistics office found it had the highest rate in the country of people working from home at least part of the time. It is home to 4,958 Indian citizens, 42,303 children and the Sandyford Business District, whose own figures are 1,000 companies and 26,000 employees. For a family here the best coding class is one that fits a household already used to working and learning from home: live, at a fixed hour, with a teacher who reads the learner's code. Modern Age Coders teaches online from India to learners aged 6 to 67, in groups of fifteen to twenty placed by ability or one to one. There is no charge for the first lesson; from then on it is USD 100 a month in a group or USD 150 a month with a private teacher.
 
 Every summer the council tests the water at the county's bathing places, from Seapoint and Sandycove to the Forty Foot and Killiney Bay, and publishes the results. Download the files for 2022 to 2024 and something odd appears in the columns that should hold numbers. Many E. coli results read "&lt;10": the laboratory found less than it can measure, so it wrote the limit instead of a number. A few read "&gt;2000", or in 2024 "&gt;24196": more than it can count. To a person those entries are perfectly clear. To a spreadsheet or a line of Python asked to average the column, they are not numbers at all, and they vanish. In 2022, 102 of the 337 E. coli results were written "&lt;10". Drop them and the average is taken over the dirtier samples only; drop the "greater than" results too and the worst days disappear with them. The water did not change. The arithmetic did. That quiet loss is what this page teaches, because it happens in every dataset with measurements that have limits.
 
-Facts last verified 16 September 2026. Teaching is online; no Dún Laoghaire-Rathdown branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no Dún Laoghaire-Rathdown branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the coast between Booterstown and Shankill
 
@@ -194,7 +194,7 @@ The DART runs along the county's coast through Blackrock, Monkstown, Dún Laogha
 - **From home, like the work** In a county where more people work from home part of the week than anywhere else in Ireland, a lesson at the same desk at a fixed hour fits the pattern families already keep.
 - **Irish school terms kept** First Year, Junior Cycle, Transition Year and the Leaving Cert are used as Irish families use them, while every lesson is taught in English.
 - **No charge to start** The first lesson is a real one on a real task. The teacher then proposes a level, a course and a weekly hour, with no card details requested.
-- **Groups beyond the county** Five to ten learners at one level, from Ireland and other countries, so that each stage has a group at a workable time.
+- **Groups beyond the county** Fifteen to twenty learners at one level, from Ireland and other countries, so that each stage has a group at a workable time.
 - **Around the school year** Two lessons a week, about eight a month, with pauses for mid-term breaks, school holidays and exam weeks agreed with the family.
 - **Teaching from India** Irish time is five and a half hours behind India time in winter and four and a half in summer, so after-school hours, evenings and weekend mornings in the county all suit the teachers.
 
@@ -205,7 +205,7 @@ The DART runs along the county's coast through Blackrock, Monkstown, Dún Laogha
 The whole price list, in three lines.
 
 - First class: USD 0. A first lesson on a real task, finishing with a level and a course to follow.
-- Group tuition: USD 100 a month. Monthly, around eight lessons, in a group of five to ten at one level.
+- Group tuition: USD 100 a month. Monthly, around eight lessons, in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. Monthly, around eight lessons, with a teacher for a single learner.
 
 The fee is in US dollars, the one rate used for every country outside India, so a family in Dalkey pays the same as one in Dundrum, with no euro price list to compare. Nothing is charged until the free lesson has agreed a course and a regular hour. Pauses, a change of format and missed lessons are all set out on the pricing page.
@@ -246,11 +246,11 @@ No. Every lesson is live and online, and no premises in Dún Laoghaire-Rathdown 
 
 ### What does it cost?
 
-The first lesson is free. A group place is then USD 100 a month for two live lessons a week, about eight across the month, with five to ten learners, and one-to-one lessons are USD 150 a month at the same pace. Course, format and hour are confirmed before any payment.
+The first lesson is free. A group place is then USD 100 a month for two live lessons a week, about eight across the month, with fifteen to twenty learners, and one-to-one lessons are USD 150 a month at the same pace. Course, format and hour are confirmed before any payment.
 
 ### How big are the groups?
 
-Five to ten learners, placed by level and goal rather than by age or school. When no group suits, one-to-one lessons are available, or the family can wait for the next group at that level.
+Fifteen to twenty learners, placed by level and goal rather than by age or school. When no group suits, one-to-one lessons are available, or the family can wait for the next group at that level.
 
 ## North to the city, and back to the national page
 

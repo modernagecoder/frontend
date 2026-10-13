@@ -180,7 +180,7 @@ Our teachers work from India on a fixed clock, so the UK is five and a half hour
 - **Programming first** Typed code, debugged and explained, because it is the one thing both qualifications share.
 - **Data as a habit** Real datasets questioned rather than accepted, which is the skill the refreshed curriculum names.
 - **AI understood, not used** How models learn and where they fail, with no accounts needed for younger children.
-- **Groups by level** Five to ten learners at one stage, whatever year group they are in.
+- **Groups by level** Fifteen to twenty learners at one stage, whatever year group they are in.
 - **Page kept current** When subject content is published, this page changes and so does the advice.
 
 ## What lessons cost
@@ -188,7 +188,7 @@ Our teachers work from India on a fixed clock, so the UK is five and a half hour
 One monthly charge in US dollars, the rate outside India. The free lesson comes first and nothing is taken until a course and a weekly time are agreed.
 
 - Free first class: USD 0. A real lesson, and a straight answer about your child's cohort. An honest view of the starting stage. Only a phone number needed.
-- Group batch: USD 100 a month. Five to ten learners at one stage. One named teacher throughout. Written feedback on work every week. A certificate when a course finishes.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one stage. One named teacher throughout. Written feedback on work every week. A certificate when a course finishes.
 - One to one: USD 150 a month. One learner and one teacher. Useful for a learner well ahead or behind. Scheduled around school.
 
 ## What families are asking

@@ -55,7 +55,7 @@ module.exports = {
     ['Begin with', 'A free lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Modern Age Coders teaches a live online AI and Python track to learners in Rotterdam aged six to sixty-seven. It starts with Python typed by hand, moves through data to forecasting and prediction models, and ends with agents, and it treats every forecast the same way: write it down before the event, then measure how wrong it was, separately for each lead time. The example throughout is local: the Port of Rotterdam Authority\'s AI tool that forecasts a day of ship movements, and the port\'s own frank account of its limits. Classes are taught in English to groups of five to ten at one level, or privately. The opening lesson is free; after it, group classes cost USD 100 a month and private tuition USD 150.',
+  capsule: 'Modern Age Coders teaches a live online AI and Python track to learners in Rotterdam aged six to sixty-seven. It starts with Python typed by hand, moves through data to forecasting and prediction models, and ends with agents, and it treats every forecast the same way: write it down before the event, then measure how wrong it was, separately for each lead time. The example throughout is local: the Port of Rotterdam Authority\'s AI tool that forecasts a day of ship movements, and the port\'s own frank account of its limits. Classes are taught in English to groups of fifteen to twenty at one level, or privately. The opening lesson is free; after it, group classes cost USD 100 a month and private tuition USD 150.',
 
   picks: {
     eyebrow: 'Start here',
@@ -209,7 +209,7 @@ module.exports = {
     h2: 'What the classes cost',
     lede: 'Charged monthly in US dollars at the rate used for every country outside India. There is no Rotterdam supplement, no joining fee and no year-long contract. Copilot Studio courses run only as private lessons and are priced accordingly.',
     free: ['A proper lesson on a real task', 'Settles the starting rung', 'No payment details asked'],
-    group: ['Five to ten learners at the same level', 'One live teacher every week', 'Work reviewed weekly', 'A certificate on completion'],
+    group: ['Fifteen to twenty learners at the same level', 'One live teacher every week', 'Work reviewed weekly', 'A certificate on completion'],
     one: ['One learner with one teacher', 'Goal-led pace and content', 'The format for Copilot Studio']
   },
 

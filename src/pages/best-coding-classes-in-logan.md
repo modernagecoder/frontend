@@ -16,7 +16,7 @@ Logan, south east Queensland / Live online
 
 Go from the low ground of Slacks Creek up into Daisy Hill and the land rises more than a hundred metres. Is that rugged? Geographers have a formula for it, the terrain ruggedness index, which compares each patch of ground with the eight patches around it. Run it on NASA's 30 metre elevation grid for a block of Logan and the average answer is about 5 metres, and the published scale for the index calls every single one of 29,651 cells level. Thin the grid out so its points sit about 800 metres apart and the average climbs to almost 39 metres. Same hills, same formula, very different numbers. Our Logan learners find out why a measurement can depend on the ruler as much as on the land.
 
-Facts last verified 10 October 2026. Teaching is online; no Logan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Logan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Good first courses for Logan learners
 
@@ -169,7 +169,7 @@ A class online reaches every corner of a large city equally.
 - **Queensland time throughout** Lesson times are set in Logan time and never move for daylight saving.
 - **Queensland curriculum years** Teachers plan around Queensland year levels, QCE seniors included, and teach in English.
 - **Code in the first hour** The free lesson is real programming with a teacher. You then receive a recommended course and time, and payment details are never requested.
-- **Five to ten per class** Learners grouped by level, drawn from several places so each stage has a workable hour.
+- **Fifteen to twenty per class** Learners grouped by level, drawn from several places so each stage has a workable hour.
 - **Two lessons weekly** Roughly eight a month, with holiday and exam breaks planned with the teacher.
 - **Families with several learners** Siblings at different levels join separate groups at times that suit the household.
 
@@ -180,7 +180,7 @@ A class online reaches every corner of a large city equally.
 All of it in three lines.
 
 - First class: USD 0. A free lesson, then a recommended level, course and time.
-- Group tuition: USD 100 a month. Near enough eight group lessons a month, five to ten learners per class.
+- Group tuition: USD 100 a month. Near enough eight group lessons a month, fifteen to twenty learners per class.
 - Private tuition: USD 150 a month. Near enough eight one-to-one lessons a month with one teacher.
 
 Logan pays the national US dollar rate, the same as every other Australian city. There is no charge until the trial agrees a course and time; the pricing page explains holidays, missed lessons and changes of format.
@@ -221,7 +221,7 @@ No, and we do not claim one. Teaching is live and online only, with no premises 
 
 ### What do Logan coding classes cost?
 
-The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
+The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
 
 ### How large are the groups?
 

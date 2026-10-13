@@ -16,7 +16,7 @@ Coatbridge, North Lanarkshire, Scotland / Live online
 
 Some places are laid out on a grid, with streets running in two directions at right angles; others grew along old routes and hills, so their streets point every way. You can see the difference on a map, but a program can put a number on it. Take every road segment, work out its compass bearing, add up the length pointing in each direction, and ask how spread out those directions are. An even spread means no dominant grid; a few sharp peaks mean a strong one. This project measures Coatbridge's streets from OpenStreetMap and, for contrast, a rectangle of Glasgow city centre.
 
-Facts last verified 29 September 2026. Teaching is online; no Coatbridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Coatbridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Coatbridge courses in thinking, Python and AI
 

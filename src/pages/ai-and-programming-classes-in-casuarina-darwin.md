@@ -16,7 +16,7 @@ Casuarina, City of Darwin, Northern Territory / Live online
 
 Casuarina is the bus hub of Darwin's northern suburbs, a small suburb of about 0.4 square kilometres where 15 bus routes meet. Few people live there, but buses on routes 1 to 5, 10, 12 and the Orbital services start, end or pass through it every weekday. Its timetable is a good place to see what unsupervised learning can find.
 
-Facts last verified 13 October 2026. Teaching is online; no Casuarina branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Casuarina branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Machine learning, data and Python
 
@@ -175,7 +175,7 @@ Classes run over video, so learners across Darwin's northern suburbs join from h
 - **Live teacher** Each class is taught in real time, with code reviewed as learners type.
 - **School holidays** Classes pause during Territory school holidays.
 - **No-cost start** Your first class is free, and a short course plan follows.
-- **Groups** Five to ten learners at a level, or one-to-one.
+- **Groups** Fifteen to twenty learners at a level, or one-to-one.
 - **Pace** Twice-weekly classes across each school term.
 - **India time** A 5:30pm Casuarina class starts at 1:30pm in India, every day of the year.
 
@@ -223,11 +223,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Casuarina classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who would my child learn alongside?
 
-Five to ten learners of similar level and pace, whatever their age or where they live. One-to-one lessons are there if no group time works.
+Fifteen to twenty learners of similar level and pace, whatever their age or where they live. One-to-one lessons are there if no group time works.
 
 ### Do you teach adults?
 

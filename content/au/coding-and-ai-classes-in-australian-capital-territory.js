@@ -197,7 +197,7 @@ module.exports = {
       { h3: 'Same clocks as Sydney', p: 'The ACT follows New South Wales on daylight saving, so lesson times are written in ACT time and shift with it automatically.' },
       { h3: 'Data-literate families', p: 'With so many ACT adults holding degrees, parents often want to see the evidence behind a project. Our pages and lessons show it.' },
       { h3: 'A real first lesson', p: 'The free lesson is complete, with finished work and a recommendation for level, course and time afterwards. No card is requested.' },
-      { h3: 'Groups by level', p: 'Five to ten learners at a similar standard, from the ACT, other states and abroad, so most levels have a good time slot.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at a similar standard, from the ACT, other states and abroad, so most levels have a good time slot.' },
       { h3: 'Twice a week', p: 'Around eight lessons a month at a regular hour, with holidays and exam periods paused by agreement.' },
       { h3: 'India time on our side', p: 'Our teachers work on India time, so ACT after-school lessons fall during their working day.' }
     ],
@@ -208,7 +208,7 @@ module.exports = {
     h2: 'What lessons cost in the ACT',
     intro: 'One price list for the whole territory.',
     first: 'A complete first lesson, free, finishing with a suggested level, course and weekly time.',
-    group: 'A month of lessons, usually eight, in a group of five to ten learners at the same level.',
+    group: 'A month of lessons, usually eight, in a group of fifteen to twenty learners at the same level.',
     private: 'The same pattern of roughly eight lessons a month, one teacher and one learner.',
     closer: 'Families outside India are billed in US dollars at a single rate, so a household in Gungahlin pays exactly what one in Tuggeranong does. Billing waits until course and lesson time are decided at the trial, and our pricing page sets out what happens with holiday breaks, missed classes and format changes.'
   },
@@ -233,7 +233,7 @@ module.exports = {
       { q: 'What time are lessons for ACT learners?', a: 'Afternoons, evenings or weekends, agreed in the trial and written in ACT time. India runs four and a half hours behind the ACT in winter and five and a half behind during daylight saving.' },
       { q: 'Do adults join from the ACT?', a: 'Yes. Adults up to 67 learn with us, from complete beginners to professionals who want Python and data skills for their work.' },
       { q: 'Is there a Modern Age Coders office in the ACT?', a: 'No, and none is claimed. All teaching is live online with no premises in Australia; a learner needs a laptop or desktop, sound and a steady connection, and the number we show is in India.', boiler: true },
-      { q: 'How much are coding lessons in the ACT?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
+      { q: 'How much are coding lessons in the ACT?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
       { q: 'How many learners are in each group?', a: 'Five to ten, grouped by level, pace and what they want to achieve rather than by age or suburb. If no group suits a learner\'s hours, one-to-one lessons are offered instead.', boiler: true }
     ]
   },

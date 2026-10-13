@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes for Rugby, Cawston, Long
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-rugby
 source: src/pages/online-coding-and-python-classes-in-rugby.html
 ---
-> The 2021 census found 114,364 residents in Rugby borough, 78,120 of them in the Rugby built-up area. Families with young children are well represented, with adults in their thirties and early forties above the England share. Anyone from 6 to 67 can learn coding, Python, AI or maths with us over live video; our India-based tutors teach privately or in level-matched classes of five to ten. A free first lesson tells us where to begin. The Rugby project turns a well-known Victorian novel set in the town into data. Continuing costs USD 100 per month for group lessons or USD 150 per month for private ones.
+> The 2021 census found 114,364 residents in Rugby borough, 78,120 of them in the Rugby built-up area. Families with young children are well represented, with adults in their thirties and early forties above the England share. Anyone from 6 to 67 can learn coding, Python, AI or maths with us over live video; our India-based tutors teach privately or in level-matched classes of fifteen to twenty. A free first lesson tells us where to begin. The Rugby project turns a well-known Victorian novel set in the town into data. Continuing costs USD 100 per month for group lessons or USD 150 per month for private ones.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands](/coding-and-ai-classes-in-west-midlands-region) / Rugby
 
@@ -12,11 +12,11 @@ Rugby, Warwickshire, England / Live online
 
 # Online coding and Python classes in Rugby
 
-**What are the best online coding and Python classes for Rugby?** The 2021 census found 114,364 residents in Rugby borough, 78,120 of them in the Rugby built-up area. Families with young children are well represented, with adults in their thirties and early forties above the England share. Anyone from 6 to 67 can learn coding, Python, AI or maths with us over live video; our India-based tutors teach privately or in level-matched classes of five to ten. A free first lesson tells us where to begin. The Rugby project turns a well-known Victorian novel set in the town into data. Continuing costs USD 100 per month for group lessons or USD 150 per month for private ones.
+**What are the best online coding and Python classes for Rugby?** The 2021 census found 114,364 residents in Rugby borough, 78,120 of them in the Rugby built-up area. Families with young children are well represented, with adults in their thirties and early forties above the England share. Anyone from 6 to 67 can learn coding, Python, AI or maths with us over live video; our India-based tutors teach privately or in level-matched classes of fifteen to twenty. A free first lesson tells us where to begin. The Rugby project turns a well-known Victorian novel set in the town into data. Continuing costs USD 100 per month for group lessons or USD 150 per month for private ones.
 
 Thomas Hughes's novel Tom Brown's School Days follows a boy who travels to Rugby by the Tally-ho coach and has his luggage carried up to the School-house. It is also a large block of text: 1,424 paragraphs in the Project Gutenberg edition. How much of it is people talking? The question sounds like counting quotation marks, and that is exactly where most first programs go wrong. The book opens 1,522 quotations but closes only 1,513. Nine speeches seem never to end. A Rugby learner who works out why will build a finite state machine, one of the most useful ideas in computing, and get an answer less than half of the naive one.
 
-Facts last verified 27 September 2026. Teaching is online; no Rugby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Rugby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Rugby learners begin
 
@@ -137,7 +137,7 @@ The whole borough is covered, since everything happens online.
 - **Learners write the code** Each line is the student's own; the tutor watches the shared screen and prompts with questions.
 - **Placed by year** A Year 3 and a Year 12 each begin where their school year and trial suggest, with their exam board in mind.
 - **Opening lesson free** The trial is free, and ends with honest advice about the next step.
-- **Stage-matched classes** Groups of five to ten learners at the same point, from across the UK.
+- **Stage-matched classes** Groups of fifteen to twenty learners at the same point, from across the UK.
 - **Twice weekly** Two lessons a week through term time, paused in the holidays.
 - **Fixed hour** When clocks change in the UK, our teachers adjust and your lesson time holds.
 

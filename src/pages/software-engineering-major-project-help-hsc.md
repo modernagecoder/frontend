@@ -173,7 +173,7 @@ Our tutors teach from India, which runs four and a half hours behind Sydney in w
 - **Our examples only** Every exercise uses invented briefs and our own code.
 - **Process made visible** Students keep a Gantt chart and commit history on every practice build.
 - **Testing as a habit** Each practice requirement gets a test before it gets code.
-- **Classes of five to ten** Students at one level, each presenting their practice work.
+- **Classes of fifteen to twenty** Students at one level, each presenting their practice work.
 - **One-to-one coaching** Private lessons on a single skill, never on assessed work.
 - **Clear boundaries** We do not write, edit, debug or review projects, and we promise no marks.
 
@@ -182,7 +182,7 @@ Our tutors teach from India, which runs four and a half hours behind Sydney in w
 A monthly fee in US dollars, set at one level for every family outside India. Joining is free and only the current month is ever charged.
 
 - Free first class: USD 0. A real lesson on a project skill. Honest advice on what to learn next. No card details.
-- Group batch: USD 100 a month. Five to ten students per class. One tutor through the term. Practice projects reviewed. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students per class. One tutor through the term. Practice projects reviewed. A certificate at the end.
 - One to one: USD 150 a month. Private skill coaching. Focused on one weak area. Strictly no assessed work.
 
 ## What Software Engineering students ask

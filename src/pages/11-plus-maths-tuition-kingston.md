@@ -201,7 +201,7 @@ Teaching comes live from India. We keep primary lessons to early evening and wee
 
 - **A constant teacher** The same person every week tracks each child's habits.
 - **Plain reporting** A few honest lines after lessons, including what went badly.
-- **Groups of five to ten** Same level, so every explanation is pitched right.
+- **Groups of fifteen to twenty** Same level, so every explanation is pitched right.
 - **Our questions only** Nothing copied from either school's illustrative material.
 - **One to one on request** For accuracy problems that need close attention.
 - **Maths, not English** No English coaching and no advice on admissions.
@@ -211,7 +211,7 @@ Teaching comes live from India. We keep primary lessons to early evening and wee
 Monthly, in US dollars, the same for all families outside India. No sign-up fee and no fixed term.
 
 - Free first class: USD 0. A taught lesson, not a sales call. Our frank view afterwards. No card details.
-- Group batch: USD 100 a month. Five to ten children, matched by level. A regular teacher. Answers checked in class. Certificate on completion.
+- Group batch: USD 100 a month. Fifteen to twenty children, matched by level. A regular teacher. Answers checked in class. Certificate on completion.
 - One to one: USD 150 a month. One child, one teacher. Close work on accuracy. Helpful between Stage One and Stage Two.
 
 ## What Kingston families ask us

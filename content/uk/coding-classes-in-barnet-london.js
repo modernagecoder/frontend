@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in Barnet',
   capsuleQ: 'What are the best coding classes in Barnet?',
-  capsule: 'Barnet is the north London borough of Finchley, Hendon, Edgware, Golders Green, Mill Hill and High Barnet, home to 389,344 people at the 2021 Census, with Hampstead Garden Suburb inside it and the M1 and A1 running through. A class worth joining here should teach a learner to build a simple model and test it against the real world, and this page\'s project does that with traffic: a few lines of code that grow jams out of nothing, compared with sensors on the M1 in Barnet. Learners aged 6 to 67 meet their teacher, who is based in India, on a live video call, either alone or in a small class of five to ten at one level. Trying it costs nothing; carrying on costs USD 100 each month in a class, or USD 150 each month one to one.',
+  capsule: 'Barnet is the north London borough of Finchley, Hendon, Edgware, Golders Green, Mill Hill and High Barnet, home to 389,344 people at the 2021 Census, with Hampstead Garden Suburb inside it and the M1 and A1 running through. A class worth joining here should teach a learner to build a simple model and test it against the real world, and this page\'s project does that with traffic: a few lines of code that grow jams out of nothing, compared with sensors on the M1 in Barnet. Learners aged 6 to 67 meet their teacher, who is based in India, on a live video call, either alone or in a class of fifteen to twenty at one level. Trying it costs nothing; carrying on costs USD 100 each month in a class, or USD 150 each month one to one.',
   lead: 'Everyone who drives the M1 into London has sat in a queue that seemed to have no cause: no crash, no roadworks, and then suddenly the road is clear again. Our learners build the simplest explanation there is. Picture a ring road divided into car-length boxes. Each second, every car speeds up if it can, slows to keep a safe gap, and now and then brakes a little for no reason at all. Four rules, a few lines of code. With perfect drivers the road carries up to 2,880 cars an hour and nobody stops until it is nearly full. Add that occasional pointless tap on the brake and the road jams at barely half that density, with cars standing still and no obstacle anywhere. Then learners open National Highways\' sensor data for the M1 in Barnet and find the same rise and fall in real traffic.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Barnet.',
 
@@ -153,7 +153,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'High Barnet', p: 'TfL\'s open data lists the Northern line at High Barnet, in the north of the borough.' },
           { h3: 'North to south', p: 'A learner in Mill Hill and one in Golders Green can share a group from their own homes, whatever the M1 is doing.' },
-          { h3: 'No queue to join', p: 'The traffic model shows how a road fills up. An online class never does: learners are placed in groups of five to ten by level.' }
+          { h3: 'No queue to join', p: 'The traffic model shows how a road fills up. An online class never does: learners are placed in groups of fifteen to twenty by level.' }
         ] },
         { kind: 'spec', title: 'Barnet and the rest of London', p: 'Barnet is one of London\'s 32 boroughs. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> lists every borough and the City, and links each as its page is published, including <a class="cg-inline-link" href="/coding-classes-in-brent-london">Brent</a> and <a class="cg-inline-link" href="/coding-classes-in-harrow-london">Harrow</a> to the west.' }
       ]
@@ -201,7 +201,7 @@ module.exports = {
     h2: 'Fees for Barnet families',
     intro: 'The first lesson is free, then there is one monthly fee, the same across the borough.',
     first: 'A full first lesson with a teacher at no charge, ending with a suggested level, course and time.',
-    group: 'Around eight live lessons a month, in a group of five to ten at the same stage.',
+    group: 'Around eight live lessons a month, in a group of fifteen to twenty at the same stage.',
     private: 'Around eight live lessons a month, one teacher and one learner.',
     closer: 'Families in Finchley, Hendon or anywhere in Barnet pay in US dollars, as do all families outside India; the site carries no pound prices. No money changes hands before the free lesson has happened and you have picked a course and a weekly time. How pauses, missed classes and a switch from group to private lessons work is written up on the pricing page.'
   },
@@ -226,8 +226,8 @@ module.exports = {
       { q: 'When are lessons for Barnet learners?', a: 'Once the free lesson is over we offer a weekly time from the classes at the learner\'s level that still have room. The teaching happens from India, yet every time in our messages is Barnet time.' },
       { q: 'What does a learner need?', a: 'A laptop or desktop, headphones or speakers, and a steady internet connection. For the traffic project, Python and one download of public data are enough.' },
       { q: 'Is there a Modern Age Coders centre in Barnet?', a: 'No. There is no Barnet centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Barnet cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Barnet cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

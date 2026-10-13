@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Prins Alexander for a
 canonical: https://learn.modernagecoders.com/coding-classes-in-prins-alexander
 source: src/pages/coding-classes-in-prins-alexander.html
 ---
-> Coding classes in Prins Alexander reach 97,794 residents (1 January 2026), the largest of the fourteen gebieden, on 1,738 hectares of land at 5,635 people to the square kilometre. 25,205 residents are between forty-five and sixty-five and 22,845 are sixty-five or over: 48,050 people, forty-nine percent of the district. Whether that is because older people move to suburbs or because the people who bought these houses when they were new have simply got older, this snapshot cannot say, and the two answers point in opposite directions. Modern Age Coders teaches live online in English from Ommoord to Nesselande, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Prins Alexander reach 97,794 residents (1 January 2026), the largest of the fourteen gebieden, on 1,738 hectares of land at 5,635 people to the square kilometre. 25,205 residents are between forty-five and sixty-five and 22,845 are sixty-five or over: 48,050 people, forty-nine percent of the district. Whether that is because older people move to suburbs or because the people who bought these houses when they were new have simply got older, this snapshot cannot say, and the two answers point in opposite directions. Modern Age Coders teaches live online in English from Ommoord to Nesselande, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Rotterdam](/coding-classes-in-rotterdam) / Prins Alexander
 
@@ -12,11 +12,11 @@ Prins Alexander, Rotterdam / Live online
 
 # Coding classes in Prins Alexander, where half the district is over forty-five and nobody can tell you why from this data
 
-**What are the best coding classes in Prins Alexander?** Coding classes in Prins Alexander reach 97,794 residents (1 January 2026), the largest of the fourteen gebieden, on 1,738 hectares of land at 5,635 people to the square kilometre. 25,205 residents are between forty-five and sixty-five and 22,845 are sixty-five or over: 48,050 people, forty-nine percent of the district. Whether that is because older people move to suburbs or because the people who bought these houses when they were new have simply got older, this snapshot cannot say, and the two answers point in opposite directions. Modern Age Coders teaches live online in English from Ommoord to Nesselande, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Prins Alexander?** Coding classes in Prins Alexander reach 97,794 residents (1 January 2026), the largest of the fourteen gebieden, on 1,738 hectares of land at 5,635 people to the square kilometre. 25,205 residents are between forty-five and sixty-five and 22,845 are sixty-five or over: 48,050 people, forty-nine percent of the district. Whether that is because older people move to suburbs or because the people who bought these houses when they were new have simply got older, this snapshot cannot say, and the two answers point in opposite directions. Modern Age Coders teaches live online in English from Ommoord to Nesselande, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Half of Prins Alexander is over forty-five. There are two ordinary explanations and they are not compatible. Either this is the kind of place people move to as they age, in which case the profile will look much the same in twenty years as each generation arrives. Or the district filled up once, when it was built, and everybody who arrived then has been getting older in the same houses, in which case the profile is about to change sharply. One year of data is consistent with both, and choosing between them is not a matter of looking harder at it.
 
-Facts last verified 9 September 2026. Teaching is online; no Prins Alexander branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 September 2026. Teaching is online; no Prins Alexander branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the largest district in the city
 
@@ -184,14 +184,14 @@ Prins Alexander covers seventeen square kilometres of land on the north-eastern 
 - **The schedule already knows about the holidays** Two lessons a week, near enough eight a month. Zuid-Holland sits in regio Midden, whose dates are set long in advance, so the breaks are written in when the plan is made rather than negotiated when they arrive.
 - **Two clocks, one of which moves** The Dutch one, twice a year. That is the entire reason the teacher is sometimes three and a half hours ahead and sometimes four and a half, and it changes nothing about which hours of the week actually work.
 
-**The most children of any Rotterdam district measured, and the most people over sixty-five** 14,585 residents are under fifteen and 22,845 are sixty-five or over, both the largest counts of the eight Rotterdam districts in this series, because this is the largest district. 28 primary establishments teach 8,108 pupils here. What none of that guarantees is a group of five to ten learners at one particular level in one particular subject within reach of any particular family, which is a matter of how thinly a specific stage is spread rather than of how many children there are. Groups here are assembled on ability from across the world, at every age from 6 to 67.
+**The most children of any Rotterdam district measured, and the most people over sixty-five** 14,585 residents are under fifteen and 22,845 are sixty-five or over, both the largest counts of the eight Rotterdam districts in this series, because this is the largest district. 28 primary establishments teach 8,108 pupils here. What none of that guarantees is a group of fifteen to twenty learners at one particular level in one particular subject within reach of any particular family, which is a matter of how thinly a specific stage is spread rather than of how many children there are. Groups here are assembled on ability from across the world, at every age from 6 to 67.
 
 ## The fee, in dollars, in all eight buurten
 
 On the page rather than saved for a phone call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate, quoted in dollars, with no euro edition, so an address in Nesselande is charged what one in Het Lage Land is. Nothing is paid until the free lesson has settled a course and an hour, and payment is arranged over WhatsApp afterwards. Pausing, switching plan and missing a week are all on the pricing page.
@@ -232,7 +232,7 @@ No, and none is claimed here, elsewhere in Rotterdam or anywhere in the Netherla
 
 ### What do Prins Alexander coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

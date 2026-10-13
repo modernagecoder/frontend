@@ -201,7 +201,7 @@ Teaching is live on video from India, five and a half hours ahead of the UK in w
 
 - **One problem, properly** A lesson often contains a single question, taken from first reading to a written argument.
 - **Technique named** Invariants, extremal arguments, pigeonhole and bounding are taught as a repertoire, not as tricks.
-- **Five to ten students** Small enough that every write-up is read, large enough for two approaches to collide.
+- **Fifteen to twenty students** Small enough that every write-up is read, large enough for two approaches to collide.
 - **Our own problems** Written by us in the olympiad idiom. BMOS publishes its own past papers and solutions.
 - **One to one when it fits** For a candidate far beyond their year group or preparing for BMO2.
 - **Nothing promised** No threshold, no squad place and no medal is promised by us, and nobody honest promises one.
@@ -211,7 +211,7 @@ Teaching is live on video from India, five and a half hours ahead of the UK in w
 A monthly rate in US dollars, the same in every country outside India. No joining fee and no fixed term.
 
 - Free first class: USD 0. One real problem with a teacher. An honest view of the level. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher each week. Written arguments marked by hand. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher each week. Written arguments marked by hand. A certificate at the end.
 - One to one: USD 150 a month. One student with one teacher. Built around a specific weakness. For candidates working towards BMO2.
 
 ## What students and parents ask

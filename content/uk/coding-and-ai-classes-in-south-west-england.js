@@ -65,7 +65,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in South West England',
   capsuleQ: 'What are the best coding and AI classes in South West England?',
-  capsule: 'South West England had 5,701,186 usual residents at the 2021 census, spread over 30 local authorities. Bristol is by far its biggest built-up area at 425,215, then Plymouth, Bournemouth, Swindon and Poole, with Exeter, Gloucester, Cheltenham, Bath, Taunton and Torquay among the other large towns. Every lesson we run is live, on video, with teachers in India. Children, teenagers and adults from 6 to 67 learn coding, AI, Python and maths, alone with a tutor or in a small class of five to ten at matching level. Nothing is charged for the first lesson, which picks the course. Below you will find our South West pages and a weather project. Afterwards it costs USD 100 a month for a class or USD 150 a month for private tuition.',
+  capsule: 'South West England had 5,701,186 usual residents at the 2021 census, spread over 30 local authorities. Bristol is by far its biggest built-up area at 425,215, then Plymouth, Bournemouth, Swindon and Poole, with Exeter, Gloucester, Cheltenham, Bath, Taunton and Torquay among the other large towns. Every lesson we run is live, on video, with teachers in India. Children, teenagers and adults from 6 to 67 learn coding, AI, Python and maths, alone with a tutor or in a class of fifteen to twenty at matching level. Nothing is charged for the first lesson, which picks the course. Below you will find our South West pages and a weather project. Afterwards it costs USD 100 a month for a class or USD 150 a month for private tuition.',
   lead: 'Stand outside in Cornwall on a summer afternoon and again before dawn, and the temperature has not moved as much as you might expect. Meteorologists call the gap between the day\'s highest and lowest temperature the diurnal range, and it tells you a lot about a place. The Met Office publishes long monthly records for Camborne, in Cornwall, and for Yeovilton, in Somerset, and averaged over 1991 to 2020 our sums put Camborne\'s typical daily swing at about 5 degrees and Yeovilton\'s at more than 8. Why so different, when the two yearly averages sit within half a degree of each other? And why is the swing biggest in May, not midsummer? This page\'s project works it out from the raw files in Python.',
   wa: 'Hello Modern Age Coders, we are in South West England and would like to book a free lesson, please.',
 
@@ -171,7 +171,7 @@ module.exports = {
       { h3: 'Code by the learner', p: 'Students do all the typing themselves; the tutor follows their screen and asks the question that moves them on.' },
       { h3: 'School years in England', p: 'A Year 6 in Poole or a Year 11 in Bath is placed by year group and key stage, and we use each board\'s own exam names.' },
       { h3: 'A free first session', p: 'Your first full lesson carries no charge and ends with a clear suggestion.' },
-      { h3: 'Classes at one level', p: 'Every class has five to ten learners at the same stage, gathered nationwide.' },
+      { h3: 'Classes at one level', p: 'Every class has fifteen to twenty learners at the same stage, gathered nationwide.' },
       { h3: 'Weeks in term', p: 'Lessons run twice weekly through term and stop for the holidays.' },
       { h3: 'British time, all year', p: 'Clock changes in March and October leave your lesson time unchanged; our teachers move theirs.' }
     ],
@@ -182,7 +182,7 @@ module.exports = {
     h2: 'South West fees',
     intro: 'Bristol and Truro pay one and the same fee, matching every country we teach outside India.',
     first: 'A full lesson for free, then our honest view.',
-    group: 'Near eight lessons a month in a class of five to ten.',
+    group: 'Near eight lessons a month in a class of fifteen to twenty.',
     private: 'Near eight lessons a month with a dedicated tutor.',
     closer: 'Billing is in US dollars, never pounds, and begins only after the trial has fixed a course and a weekly time. Holidays, missed lessons and switching between group and private are all set out on the pricing page.'
   },

@@ -61,7 +61,7 @@ module.exports = {
 
   h1: 'Coding classes in Stirling',
   capsuleQ: 'What are the best coding classes in Stirling?',
-  capsule: 'Stirling council area had about 92,600 usual residents at Scotland\'s 2022 census, rounded to the nearest hundred by National Records of Scotland, and 42.4 people per square kilometre. The MacTutor history of mathematics records that the mathematician James Stirling was born in 1692 at Garden, about 20 kilometres west of the town. Stirling learners aged six to sixty-seven have live video lessons with our teachers in India, one to one or in a small class of five to ten at one level, arranged around the Scottish school day and working hours. The first lesson costs nothing; after that it is USD 100 a month for a class place or USD 150 a month for one-to-one teaching.',
+  capsule: 'Stirling council area had about 92,600 usual residents at Scotland\'s 2022 census, rounded to the nearest hundred by National Records of Scotland, and 42.4 people per square kilometre. The MacTutor history of mathematics records that the mathematician James Stirling was born in 1692 at Garden, about 20 kilometres west of the town. Stirling learners aged six to sixty-seven have live video lessons with our teachers in India, one to one or in a class of fifteen to twenty at one level, arranged around the Scottish school day and working hours. The first lesson costs nothing; after that it is USD 100 a month for a class place or USD 150 a month for one-to-one teaching.',
   lead: 'A factorial multiplies every whole number up to n: 5! is 120, and 20! is already 2,432,902,008,176,640,000. The formula named after James Stirling, born near the town in 1692, estimates n! without multiplying at all. Our Stirling project asks how good that estimate is. Teenagers compute factorials exactly in Python, including 92,600!, one for every resident of Stirling council area in the 2022 census, a number with 419,696 digits, and compare each with Stirling\'s formula. At n = 10 the formula is 0.83% too low. At n = 92,600 it is out by less than one part in a million, and it predicts the digit count exactly.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Stirling.',
 
@@ -183,7 +183,7 @@ module.exports = {
       { h3: 'Both sides of the Forth', p: 'A learner in Cornton and another in Cambusbarron can take the same class without either of them making the trip into town.' },
       { h3: 'Scottish school stages', p: 'Classes follow the stages Scottish families know, from the P years through S1 to S6, with National 5, Higher and Advanced Higher courses named as schools name them; teaching is in English.' },
       { h3: 'First lesson, real work', p: 'The free session is spent coding, not listening to a pitch, and ends with the teacher suggesting a level, a course and a weekly time. No card details are taken.' },
-      { h3: 'Classes by stage', p: 'Five to ten learners at a single level, from Stirling, elsewhere in the UK and overseas, which keeps sensible times open for every stage.' },
+      { h3: 'Classes by stage', p: 'Fifteen to twenty learners at a single level, from Stirling, elsewhere in the UK and overseas, which keeps sensible times open for every stage.' },
       { h3: 'Two a week', p: 'Two fixed lessons weekly, around eight a month, with holidays and exam study planned together with the teacher.' },
       { h3: 'Teachers in India', p: 'India keeps one clock all year, so a Stirling lesson at five in the afternoon starts at 21:30 for our teachers during British Summer Time and 22:30 once the clocks go back.' }
     ],
@@ -194,7 +194,7 @@ module.exports = {
     h2: 'Stirling lesson fees',
     intro: 'The opening lesson is free, and a single monthly fee follows.',
     first: 'A whole lesson at no charge, finishing with a recommended level, course and weekly time.',
-    group: 'About eight live lessons a month, in a class of five to ten learners at one level.',
+    group: 'About eight live lessons a month, in a class of fifteen to twenty learners at one level.',
     private: 'About eight live lessons a month, with a teacher giving your learner their full attention.',
     closer: 'Families in Borestone or Causewayhead pay in US dollars, as every family outside India does, and our site never shows pound prices. Payment starts only after the free lesson, once you have settled a course and a weekly time with us; pauses, missed lessons and changes between group and private teaching are explained on the pricing page.'
   },
@@ -219,8 +219,8 @@ module.exports = {
       { q: 'Where was James VI crowned?', a: 'Historic Environment Scotland\'s listing for the Church of the Holy Rude in Stirling records that James VI was crowned there on 29 July 1567. The church is listed at Category A.' },
       { q: 'When do Stirling lessons happen?', a: 'Most Stirling families choose a time after school, on a weekday evening or at the weekend, agreed in the free lesson. For our teachers in India that is late evening: they are four and a half hours ahead of Scotland in summer and five and a half in winter.' },
       { q: 'Is there a centre in Stirling?', a: 'No. We have no Stirling centre and no premises anywhere in the UK, because every lesson is live online. Learners need a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do Stirling lessons cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than by age or address, with five to ten learners at the same stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'What do Stirling lessons cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than by age or address, with fifteen to twenty learners at the same stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

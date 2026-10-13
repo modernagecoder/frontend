@@ -16,7 +16,7 @@ City of Mitcham, Adelaide, South Australia / Live online
 
 Some stop records in the City of Mitcham see buses on Saturdays; a few do not. A simple model, given only how many buses call on a Wednesday, learns a dividing line. Below it, the model says no Saturday service; above it, yes. That line is the decision boundary, and here it sits at about eight and a half visits.
 
-Facts last verified 14 October 2026. Teaching is online; no Mitcham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 14 October 2026. Teaching is online; no Mitcham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that open up how models decide
 
@@ -187,7 +187,7 @@ Every class is taught over video; there is nowhere to travel.
 - **Plots on screen** Models and their boundaries are drawn and discussed together.
 - **School-term plans** Lessons pause in South Australian school holidays.
 - **Free trial** A full first lesson free, with a recommendation in writing.
-- **Groups by level** Five to ten learners at one stage, or one to one.
+- **Groups by level** Fifteen to twenty learners at one stage, or one to one.
 - **Two lessons a week** Steady weekly times, about eight a month.
 - **Teaching from India** Our tutors work in India; a Mitcham class at 7:30pm runs at 2:30pm there over summer and 3:30pm once April arrives.
 
@@ -198,7 +198,7 @@ Every class is taught over video; there is nowhere to travel.
 Three prices for all learners.
 
 - First class: USD 0. The opening lesson is free and finishes with a written plan.
-- Group tuition: USD 100 a month. Close to eight group lessons a month with five to ten learners.
+- Group tuition: USD 100 a month. Close to eight group lessons a month with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Close to eight private lessons a month.
 
 Mitcham families pay in US dollars, only after the trial has fixed a course and a time. Holiday and absence rules are on the pricing page.
@@ -235,11 +235,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Mitcham learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Is Copilot Studio on the Mitcham group timetable?
 

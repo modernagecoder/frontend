@@ -70,7 +70,7 @@ We are a live school teaching coding and maths together, in small batches, with 
 
 ### Our published pricing
 
-Group: **Rs 1,499 a month**, 8 live one-hour classesMini batch (3 to 4 students): **Rs 2,999 a month**True 1-on-1: **Rs 4,999 a month** for 4 private classes, about Rs 1,250 per dedicated hourRegistration fees: **Rs 0** · Packs: **none**
+Group: **Rs 1,499 a month**, 8 live one-hour classesMini batch (up to 6 students): **Rs 2,999 a month**True 1-on-1: **Rs 4,999 a month** for 4 private classes, about Rs 1,250 per dedicated hourRegistration fees: **Rs 0** · Packs: **none**
 
 Rated 4.9 across 547 Google reviews. Our dedicated 1-on-1 hour costs less than most big-brand group rates; judge the depth in a free demo class.
 
@@ -96,7 +96,7 @@ Very few, and it is our core design. The maths behind the code is what separates
 
 What does Modern Age Coders cost exactly?
 
-Group classes are Rs 1,499 a month, mini batches of 3 to 4 students are Rs 2,999, and true 1-on-1 is Rs 4,999. Group and mini batch run 8 live one-hour classes a month, 1-on-1 runs 4 private classes a month, all with recordings for revision and no registration fees or packs. Every student starts with a free live demo class.
+Group classes are Rs 1,499 a month, mini batches of up to 6 students are Rs 2,999, and true 1-on-1 is Rs 4,999. Group and mini batch run 8 live one-hour classes a month, 1-on-1 runs 4 private classes a month, all with recordings for revision and no registration fees or packs. Every student starts with a free live demo class.
 
 [vs Codingal](/modern-age-coders-vs-codingal)[vs WhiteHat Jr, Cuemath & Codingal](/modern-age-coders-vs-whitehat-jr-cuemath-codingal)[Coding fee calculator](/coding-fee-calculator)[Full pricing](/pricing)
 

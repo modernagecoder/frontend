@@ -10,7 +10,7 @@ India's #1 Rated AI & ML Course for Teens
 
 # AI & Machine Learning Course for Kids & Teens
 
-Live online AI & Machine Learning classes for ages 13-18. Small groups of 5 to 10, or one-to-one. Expert instructors. Real neural networks, real projects, real results, not textbook theory.
+Live online AI & Machine Learning classes for ages 13-18. Groups of 15 to 20, or one-to-one. Expert instructors. Real neural networks, real projects, real results, not textbook theory.
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I want to know more about the AI ML course for teens)Ages 13-185 to 10 Students Per GroupRated 4.9/5 by ParentsLive Online ClassesFree Demo ClassReal AI Projects Built
 
@@ -303,7 +303,7 @@ Compare before you decide. We're confident in how we stack up.
 | Feature | Modern Age Coders | YouTube / Udemy | Offline Coaching |
 | --- | --- | --- | --- |
 | Live classes with expert instructor | ✓ Always live | ✗ Pre-recorded | ✓ (30+ students) |
-| Batch size | 5 to 10 students, or one-to-one | , | 20-40 students |
+| Batch size | 15 to 20 students, or one-to-one | , | 20-40 students |
 | Real deployed AI projects | ✓ 6 projects | ✗ No guidance | ✗ Rarely |
 | Recorded sessions to re-watch | ✓ Every class | ✓ Pre-made | ✗ Usually not |
 | WhatsApp doubt support | ✓ Same-day replies | ✗ | ✗ |
@@ -323,7 +323,7 @@ Group Class
 
 per month · 2 live classes per week
 
-- Batch of up to 10 students
+- Batch of up to 20 students
 - Live classes (60-90 min each)
 - All 8 curriculum modules
 - Recorded session access
@@ -333,13 +333,13 @@ per month · 2 live classes per week
 
 Book Free Demo →Most Popular
 
-Mini Batch · 3-4 Teens
+Mini Batch · up to 6 Teens
 
 ₹2,499
 
 per month · 2 live classes per week
 
-- **Micro batch of just 3-4 teens**
+- **Micro batch of up to 6 teens**
 - Near 1-on-1 teacher attention
 - Live doubt-clearing every class
 - All 8 AI/ML curriculum modules

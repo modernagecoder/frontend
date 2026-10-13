@@ -16,7 +16,7 @@ Mosman Council area, Sydney, New South Wales / Live online
 
 The Census does not publish ages one by one in QuickStats. It groups them: "5-9 years", "10-14 years" and so on. Those labels include both ends, but Python ranges leave the top end out. Turning one into the other is a single line of code, and getting that line wrong quietly changes which questions a program thinks it can answer.
 
-Facts last verified 10 October 2026. Teaching is online; no Mosman branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Mosman branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that make ranges second nature
 
@@ -185,7 +185,7 @@ Whether a learner is near Beauty Point or close to Balmoral, the live lesson arr
 - **From your desk** There is no drive to a centre; the learner signs in and starts coding straight away.
 - **NSW stages** Lesson plans follow the state syllabus stages and stop during NSW school holidays.
 - **A free real lesson** The first class is taught in full and ends with a suggested course, level and time.
-- **Five to ten per group** Groups are formed by level and pace, combining Mosman learners with others.
+- **Fifteen to twenty per group** Groups are formed by level and pace, combining Mosman learners with others.
 - **Two lessons a week** Two fixed lessons weekly, around eight a month, with any breaks agreed in advance.
 - **Teachers in India** A 5pm Mosman lesson during daylight saving starts at 11:30am India time; after the clocks go back it starts at 12:30pm there.
 
@@ -196,7 +196,7 @@ Whether a learner is near Beauty Point or close to Balmoral, the live lesson arr
 Three amounts cover everything.
 
 - First class: USD 0. The first class costs nothing and closes with an honest recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, typically eight, with five to ten learners at a similar level.
+- Group tuition: USD 100 a month. A month of group lessons, typically eight, with fifteen to twenty learners at a similar level.
 - Private tuition: USD 150 a month. Around eight lessons a month, one teacher with one learner.
 
 Outside India, invoices are in US dollars, so the rate is the same for every Mosman family. Billing begins only after the trial, once a course and time are fixed; holidays, absences and format changes are covered on the pricing page.
@@ -233,7 +233,7 @@ No. All lessons are live online, we have no premises in Australia, and the phone
 
 ### How much are coding classes for Mosman learners?
 
-The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before payment.
+The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before payment.
 
 ### How many people are in a group?
 

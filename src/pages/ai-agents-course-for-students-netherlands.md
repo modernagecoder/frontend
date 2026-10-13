@@ -4,7 +4,7 @@ description: "Build AI agents as a student in the Netherlands, within your unive
 canonical: https://learn.modernagecoders.com/ai-agents-course-for-students-netherlands
 source: src/pages/ai-agents-course-for-students-netherlands.html
 ---
-> Modern Age Coders teaches students in the Netherlands to build AI agents, programs that take a goal, plan their steps and use tools, as a subject of study rather than a shortcut through coursework. Students learn how language models work, how agents call tools and retrieve documents, how to evaluate what an agent does and how to log and disclose it, in line with the kind of rules Dutch universities now publish. Lessons are live, in English, in groups of five to ten or one to one. The first lesson is free; after that a group place is USD 100 a month and one-to-one tuition USD 150, and the Copilot Studio course for students is one to one only.
+> Modern Age Coders teaches students in the Netherlands to build AI agents, programs that take a goal, plan their steps and use tools, as a subject of study rather than a shortcut through coursework. Students learn how language models work, how agents call tools and retrieve documents, how to evaluate what an agent does and how to log and disclose it, in line with the kind of rules Dutch universities now publish. Lessons are live, in English, in groups of fifteen to twenty or one to one. The first lesson is free; after that a group place is USD 100 a month and one-to-one tuition USD 150, and the Copilot Studio course for students is one to one only.
 
 [Home](/) / [Courses](/courses) / [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands) / Agents for students
 
@@ -147,7 +147,7 @@ The teachers are in India, which does not change its clocks, so they are three a
 - **Daytime gaps** Where a timetable leaves space and a teacher is free, often one to one.
 
 - **A free first lesson** You build a very small agent with a teacher, who sees your level and proposes a route.
-- **Groups of five to ten** Students at the same level, useful for comparing how different agents fail on the same task.
+- **Groups of fifteen to twenty** Students at the same level, useful for comparing how different agents fail on the same task.
 - **One to one for theses** For a thesis or project with an agent component, and for the Copilot Studio course.
 - **Logs from the start** Every agent writes a log from its first run, so evaluation and disclosure are never an afterthought.
 - **In English** The language of the models, the tools and most technical master's programmes here.
@@ -158,7 +158,7 @@ The teachers are in India, which does not change its clocks, so they are three a
 Monthly, in US dollars, at the same rates as every country outside India. No enrolment fee and no annual contract. The Copilot Studio course is private tuition only and uses the one-to-one rate.
 
 - Free first class: USD 0. A real lesson building a small agent. A route proposed before any payment. No card needed.
-- Group batch: USD 100 a month. Five to ten students at one level. The same live teacher each week. Agents reviewed weekly. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same live teacher each week. Agents reviewed weekly. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one student. Built around a thesis or project. The only format for Copilot Studio.
 
 ## What students in the Netherlands ask about agent courses

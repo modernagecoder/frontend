@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Segbroek, The Hague, 
 canonical: https://learn.modernagecoders.com/coding-classes-in-segbroek
 source: src/pages/coding-classes-in-segbroek.html
 ---
-> Coding classes in Segbroek reach the pre-war middle of The Hague, five wijken, all five read for this page. The Vogelwijk holds 5,444 residents and 2,170 dwellings. Inside it, seven primary establishments teach 2,930 pupils and one secondary establishment teaches 486. That is 3,416 pupils in a wijk whose entire population under twenty-five is 1,730. No argument about school catchments is needed to see that those two counts are of different people: one of them is larger than the largest it could possibly be. Modern Age Coders teaches live online in English from the Heesterbuurt to Eykenduinen, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Segbroek reach the pre-war middle of The Hague, five wijken, all five read for this page. The Vogelwijk holds 5,444 residents and 2,170 dwellings. Inside it, seven primary establishments teach 2,930 pupils and one secondary establishment teaches 486. That is 3,416 pupils in a wijk whose entire population under twenty-five is 1,730. No argument about school catchments is needed to see that those two counts are of different people: one of them is larger than the largest it could possibly be. Modern Age Coders teaches live online in English from the Heesterbuurt to Eykenduinen, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [The Hague](/coding-classes-in-the-hague) / Segbroek
 
@@ -12,11 +12,11 @@ Segbroek, Den Haag / Live online
 
 # Coding classes in Segbroek, where one wijk of 5,444 people teaches 3,416 pupils
 
-**What are the best coding classes in Segbroek?** Coding classes in Segbroek reach the pre-war middle of The Hague, five wijken, all five read for this page. The Vogelwijk holds 5,444 residents and 2,170 dwellings. Inside it, seven primary establishments teach 2,930 pupils and one secondary establishment teaches 486. That is 3,416 pupils in a wijk whose entire population under twenty-five is 1,730. No argument about school catchments is needed to see that those two counts are of different people: one of them is larger than the largest it could possibly be. Modern Age Coders teaches live online in English from the Heesterbuurt to Eykenduinen, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Segbroek?** Coding classes in Segbroek reach the pre-war middle of The Hague, five wijken, all five read for this page. The Vogelwijk holds 5,444 residents and 2,170 dwellings. Inside it, seven primary establishments teach 2,930 pupils and one secondary establishment teaches 486. That is 3,416 pupils in a wijk whose entire population under twenty-five is 1,730. No argument about school catchments is needed to see that those two counts are of different people: one of them is larger than the largest it could possibly be. Modern Age Coders teaches live online in English from the Heesterbuurt to Eykenduinen, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 There is a check almost nobody runs and it costs about four seconds. Take a number and ask what it cannot exceed. The Vogelwijk teaches 3,416 pupils. It contains 1,020 residents under fifteen and 710 aged fifteen to twenty-five, and even counting every one of those as a possible pupil, which is far too generous since primary school runs from four to twelve, the ceiling is 1,730. The published figure is roughly double its own maximum. Nothing is wrong with either number. What is wrong is reading them as though they described the same children, and the ceiling shows that in one step, without needing to know anything at all about how schools admit.
 
-Facts last verified 10 September 2026. Teaching is online; no Segbroek branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 September 2026. Teaching is online; no Segbroek branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the pre-war middle
 
@@ -184,7 +184,7 @@ Segbroek is the belt of pre-war streets between the centre and the dunes, and th
 - **The densest wijk in the series, and still no room** Eighteen thousand people on a square kilometre does not put a teacher, a room and an hour within reach of one particular household. Density arranges buildings; it does not arrange a class. Teaching at the kitchen table sidesteps the question entirely.
 - **The words that stay in Dutch** Groep, havo, vwo, profielkeuze. Everything around them is English. A child reading those on a school report should hear the same words in the lesson rather than a translation they have to convert back.
 - **The free hour is a lesson, not a pitch** A real task, a teacher watching how it is approached, and three things fixed at the end: level, course, weekly time. No payment is taken, no card is requested, and nothing follows that pretends to be a lesson and is not.
-- **Stage decides the group** Five to ten learners at one level, gathered from wherever they happen to be. No wijk, however crowded, reliably holds five people at one narrow stage in a given month. Drawing worldwide is what makes the class exist now.
+- **Stage decides the group** Fifteen to twenty learners at one level, gathered from wherever they happen to be. No wijk, however crowded, reliably holds five people at one narrow stage in a given month. Drawing worldwide is what makes the class exist now.
 - **Two a week, holidays written in first** Around eight lessons a month at one hour that does not move. Zuid-Holland takes regio Midden holiday dates, published years ahead, so the weeks off go into the schedule before anything else does.
 - **Three and a half hours, then four and a half** India has kept one clock for decades, so both switches each year happen on the Dutch side. Neither setting takes away an hour a family here would have chosen to use.
 
@@ -195,7 +195,7 @@ Segbroek is the belt of pre-war streets between the centre and the dunes, and th
 Written out below, because a price you have to ask for is a price with a problem.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 Dollars, one rate everywhere, and no separate euro price list, so the Heesterbuurt and the Vogelwijk see the same figure. Money changes hands only once a course and an hour exist, and the arrangement is made on WhatsApp at that point. What happens if you pause, move plan or miss a week is written out on the pricing page rather than negotiated.
@@ -236,7 +236,7 @@ No, and none is claimed here, elsewhere in The Hague or anywhere in the Netherla
 
 ### What do Segbroek coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

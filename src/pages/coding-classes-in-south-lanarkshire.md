@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across South Lanarksh
 canonical: https://learn.modernagecoders.com/coding-classes-in-south-lanarkshire
 source: src/pages/coding-classes-in-south-lanarkshire.html
 ---
-> South Lanarkshire is one of Scotland's bigger council areas, with about 327,200 residents in roughly 147,800 households at the 2022 census and 184.7 people per square kilometre. East Kilbride is its largest town, then Hamilton, with Rutherglen and Cambuslang each around 30,000 and Blantyre, Larkhall, Carluke and Lanark further down. Classes run live over video from India, and a free first lesson settles each learner's stage, P1 through S6 or adult. Anyone aged 6 to 67 can take coding, Python and maths, in a group of five to ten or with a private teacher. The South Lanarkshire project starts in the schoolrooms of New Lanark. Staying on costs USD 100 a month for a group place or USD 150 a month for one-to-one.
+> South Lanarkshire is one of Scotland's bigger council areas, with about 327,200 residents in roughly 147,800 households at the 2022 census and 184.7 people per square kilometre. East Kilbride is its largest town, then Hamilton, with Rutherglen and Cambuslang each around 30,000 and Blantyre, Larkhall, Carluke and Lanark further down. Classes run live over video from India, and a free first lesson settles each learner's stage, P1 through S6 or adult. Anyone aged 6 to 67 can take coding, Python and maths, in a group of fifteen to twenty or with a private teacher. The South Lanarkshire project starts in the schoolrooms of New Lanark. Staying on costs USD 100 a month for a group place or USD 150 a month for one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / South Lanarkshire
 
@@ -12,11 +12,11 @@ South Lanarkshire / Live online
 
 # Coding classes in South Lanarkshire
 
-**What are the best coding classes in South Lanarkshire?** South Lanarkshire is one of Scotland's bigger council areas, with about 327,200 residents in roughly 147,800 households at the 2022 census and 184.7 people per square kilometre. East Kilbride is its largest town, then Hamilton, with Rutherglen and Cambuslang each around 30,000 and Blantyre, Larkhall, Carluke and Lanark further down. Classes run live over video from India, and a free first lesson settles each learner's stage, P1 through S6 or adult. Anyone aged 6 to 67 can take coding, Python and maths, in a group of five to ten or with a private teacher. The South Lanarkshire project starts in the schoolrooms of New Lanark. Staying on costs USD 100 a month for a group place or USD 150 a month for one-to-one.
+**What are the best coding classes in South Lanarkshire?** South Lanarkshire is one of Scotland's bigger council areas, with about 327,200 residents in roughly 147,800 households at the 2022 census and 184.7 people per square kilometre. East Kilbride is its largest town, then Hamilton, with Rutherglen and Cambuslang each around 30,000 and Blantyre, Larkhall, Carluke and Lanark further down. Classes run live over video from India, and a free first lesson settles each learner's stage, P1 through S6 or adult. Anyone aged 6 to 67 can take coding, Python and maths, in a group of fifteen to twenty or with a private teacher. The South Lanarkshire project starts in the schoolrooms of New Lanark. Staying on costs USD 100 a month for a group place or USD 150 a month for one-to-one.
 
 At New Lanark, the cotton-spinning village begun by David Dale and developed by Robert Owen, Historic Environment Scotland lists the building of 1816 once called the New Institution for the Formation of Character at Category A. The listing says it served Owen's system of education for all ages, and was built on lines Owen set out for a school based on the ideas of Joseph Lancaster, an educational innovator known for having older pupils help to teach younger ones. That raises a question computer networks face every day: what is the quickest way to pass one message to hundreds of people, and how much of it survives being passed on? This page's project answers it in Python for an invented school of 500.
 
-Facts last verified 26 September 2026. Teaching is online; no South Lanarkshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no South Lanarkshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Starting courses across South Lanarkshire
 
@@ -138,7 +138,7 @@ Large towns and rural villages across the council area join the same way.
 - **The learner drives** Pupils type and run their own code while the teacher follows on the shared screen.
 - **Familiar stage names** A Larkhall P6 or a Bothwell S3 hears the Curriculum for Excellence terms they use at school, up to Advanced Higher. Lessons are in English.
 - **Trial lesson, no charge** One complete lesson free, then candid advice about what fits.
-- **Stage-based classes** Five to ten learners working at one stage, joining from many places.
+- **Stage-based classes** Fifteen to twenty learners working at one stage, joining from many places.
 - **Twice weekly in term** Regular lessons in term time, and none during the holidays.
 - **UK time kept steady** When the clocks change, the lesson stays at its UK hour and the teachers in India time adapt.
 
@@ -149,7 +149,7 @@ Large towns and rural villages across the council area join the same way.
 Hamilton or Lanark, the fee is the same, and it is our fee for every country apart from India.
 
 - First class: USD 0. One complete trial lesson, free, then a recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month with five to ten classmates at one stage.
+- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty classmates at one stage.
 - Private tuition: USD 150 a month. About eight lessons a month with a teacher of your own.
 
 We charge in US dollars and keep no sterling price list. Invoices start only once a course and a weekly time are agreed after the trial; our pricing page covers holidays, missed lessons and changing format.

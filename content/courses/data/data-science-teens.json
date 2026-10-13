@@ -512,7 +512,7 @@
   ],
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
-    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "small_batches": "Small batches only: group classes are capped at 20 students, with mini-batch (up to 6 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
     "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
@@ -550,11 +550,11 @@
     },
     {
       "question": "How are the classes taught?",
-      "answer": "Live one-hour online classes, twice a week, in small groups capped at 10 students. Students work in their own notebooks during class rather than watching, and homework notebooks come back with written feedback. Mini-batch (3 to 4 students) and personal 1-on-1 options are available for students who want closer attention."
+      "answer": "Live one-hour online classes, twice a week, in groups capped at 20 students. Students work in their own notebooks during class rather than watching, and homework notebooks come back with written feedback. Mini-batch (up to 6 students) and personal 1-on-1 options are available for students who want closer attention."
     },
     {
       "question": "What does the course cost?",
-      "answer": "₹1,499 per month for group classes with 2 live classes weekly. Mini batches of 3 to 4 students are ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly. Mini batches of up to 6 students are ₹2,999 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay a price set for their own country, shown on this page in their local currency."
     },
     {
       "question": "Where does a teen go after this course?",

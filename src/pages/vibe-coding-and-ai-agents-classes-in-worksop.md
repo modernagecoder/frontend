@@ -4,7 +4,7 @@ description: "Live online vibe coding, AI agents, Python and coding classes for 
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-worksop
 source: src/pages/vibe-coding-and-ai-agents-classes-in-worksop.html
 ---
-> Worksop, as a built-up area, had 43,440 residents in 2021 by the ONS count, and its district, Bassetlaw, had 117,804. Manton, Kilton and Gateford are suburban areas of the town in postcode data, and Rhodesia and Shireoaks are villages close by. Whether a Worksop learner is six or 67, we can teach vibe coding, AI agents, Python, programming or maths, over live video from India, either privately or among five to ten classmates who share a level. When our learners build with agents, they plan who does what before anything runs, because a team of agents is only as quick as its slowest member. The Worksop project hands 240 route-finding jobs from the town's road map to four agents and compares ways of sharing them out, including one called work stealing. The first lesson is free and closes with a course suggestion; later on, a class place is USD 100 a month and a private tutor USD 150 a month.
+> Worksop, as a built-up area, had 43,440 residents in 2021 by the ONS count, and its district, Bassetlaw, had 117,804. Manton, Kilton and Gateford are suburban areas of the town in postcode data, and Rhodesia and Shireoaks are villages close by. Whether a Worksop learner is six or 67, we can teach vibe coding, AI agents, Python, programming or maths, over live video from India, either privately or among fifteen to twenty classmates who share a level. When our learners build with agents, they plan who does what before anything runs, because a team of agents is only as quick as its slowest member. The Worksop project hands 240 route-finding jobs from the town's road map to four agents and compares ways of sharing them out, including one called work stealing. The first lesson is free and closes with a course suggestion; later on, a class place is USD 100 a month and a private tutor USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East Midlands](/coding-and-ai-classes-in-east-midlands) / Worksop
 
@@ -12,11 +12,11 @@ Worksop, Bassetlaw, Nottinghamshire / Live online
 
 # Vibe coding and AI agents classes in Worksop
 
-**Where are the best vibe coding and AI agents classes for Worksop learners?** Worksop, as a built-up area, had 43,440 residents in 2021 by the ONS count, and its district, Bassetlaw, had 117,804. Manton, Kilton and Gateford are suburban areas of the town in postcode data, and Rhodesia and Shireoaks are villages close by. Whether a Worksop learner is six or 67, we can teach vibe coding, AI agents, Python, programming or maths, over live video from India, either privately or among five to ten classmates who share a level. When our learners build with agents, they plan who does what before anything runs, because a team of agents is only as quick as its slowest member. The Worksop project hands 240 route-finding jobs from the town's road map to four agents and compares ways of sharing them out, including one called work stealing. The first lesson is free and closes with a course suggestion; later on, a class place is USD 100 a month and a private tutor USD 150 a month.
+**Where are the best vibe coding and AI agents classes for Worksop learners?** Worksop, as a built-up area, had 43,440 residents in 2021 by the ONS count, and its district, Bassetlaw, had 117,804. Manton, Kilton and Gateford are suburban areas of the town in postcode data, and Rhodesia and Shireoaks are villages close by. Whether a Worksop learner is six or 67, we can teach vibe coding, AI agents, Python, programming or maths, over live video from India, either privately or among fifteen to twenty classmates who share a level. When our learners build with agents, they plan who does what before anything runs, because a team of agents is only as quick as its slowest member. The Worksop project hands 240 route-finding jobs from the town's road map to four agents and compares ways of sharing them out, including one called work stealing. The first lesson is free and closes with a course suggestion; later on, a class place is USD 100 a month and a private tutor USD 150 a month.
 
 Give one job to four AI agents and the obvious plan is to cut it into four equal parts. It rarely works. Jobs that look the same size turn out not to be, and three agents end up waiting for the fourth. Worksop's road map shows why. Finding every road within 1.5 km of a junction is quick near the edge of the mapped area and slow nearer the middle, where far more road falls within reach. Split 240 such jobs by position and one agent inherits the costly middle. Computer scientists solved this for processors with a trick called work stealing: an agent that runs out of jobs quietly takes one from a busy neighbour. It is now a standard way of sharing work in parallel programs, and it applies just as well to teams of AI agents.
 
-Facts last verified 30 September 2026. Teaching is online; no Worksop branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Worksop branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four Worksop routes into vibe coding and agents
 
@@ -133,7 +133,7 @@ Any computer with a camera and a home broadband line is enough.
 - **Build, then explain** The learner writes the code on a shared screen and talks the tutor through it before pressing run.
 - **Level from the trial** The free session tells us where to start, and we record any exam board.
 - **Try it free** No charge and no card for lesson one, which ends with a course suggestion.
-- **A class at your stage** Five to ten learners in a group, all at one level, from around the UK.
+- **A class at your stage** Fifteen to twenty learners in a group, all at one level, from around the UK.
 - **Two lessons each week** Tell us your holidays and we leave them clear.
 - **Clocks change, lessons do not** Our tutors follow British Summer Time so your slot stays the same.
 

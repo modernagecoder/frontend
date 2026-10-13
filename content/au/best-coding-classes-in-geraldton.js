@@ -185,7 +185,7 @@ module.exports = {
       { h3: 'No travel at all', p: 'A learner at home in any Geraldton suburb joins the same live lesson as one in Perth or overseas.' },
       { h3: 'WA year levels', p: 'Teachers use Western Australian year levels, from primary through Years 11 and 12, and teach in English.' },
       { h3: 'A free first lesson', p: 'You write real code with a teacher, then hear which stage, course and weekly time would suit; no card is requested.' },
-      { h3: 'Groups of five to ten', p: 'Classmates at the same stage from across Australia and abroad, so every level has a workable time.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Classmates at the same stage from across Australia and abroad, so every level has a workable time.' },
       { h3: 'Two lessons a week', p: 'Usually about eight lessons a month, with holidays and exam weeks planned with the teacher.' },
       { h3: 'A steady clock', p: 'Because WA does not use daylight saving, a Geraldton lesson stays at the same India time all year.' }
     ],
@@ -196,7 +196,7 @@ module.exports = {
     h2: 'What coding classes cost in Geraldton',
     intro: 'The whole price list in three lines.',
     first: 'A free opening lesson that ends with a recommended stage, course and time.',
-    group: 'A month of lessons, usually eight, with five to ten learners at your level.',
+    group: 'A month of lessons, usually eight, with fifteen to twenty learners at your level.',
     private: 'About eight one-to-one lessons a month with a single teacher.',
     closer: 'Geraldton families pay one rate in US dollars, the same as everywhere else in Australia, with no regional loading. Nothing is charged until the trial has settled a course and a time; the pricing page covers holidays, missed lessons and switching format.'
   },
@@ -221,8 +221,8 @@ module.exports = {
       { q: 'When do Geraldton lessons run?', a: 'After school, in the evening or at the weekend, agreed in the trial and written in WA time. India time is two and a half hours behind Geraldton all year.' },
       { q: 'Can younger children learn with you?', a: 'Yes, from age 6, usually starting with Scratch and visual projects. This page is written for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Geraldton?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Geraldton coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Geraldton coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

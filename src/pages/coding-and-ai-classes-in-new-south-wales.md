@@ -16,7 +16,7 @@ New South Wales, Australia / Live online
 
 Every NSW school publishes its terms as dates. Every planner, spreadsheet and app turns those dates into week numbers. And here is the trap our project is built on: depending on how you count, the same term starts and ends in different weeks. Term 1 for Eastern division schools in 2027 runs from Thursday 28 January to Friday 9 April. By the international ISO standard that is week 4 to week 14. By the obvious home-made method, day of the year divided by seven, it ends in week 15. Worse, the first three days of 2027 are not in 2027 at all by ISO reckoning: Friday 1 January belongs to week 53 of 2026. NSW learners write the code, find every disagreement and learn why international software insists on one definition.
 
-Facts last verified 7 October 2026. Teaching is online; no New South Wales branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no New South Wales branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four routes for a New South Wales learner
 
@@ -208,7 +208,7 @@ Broken Hill and Byron Bay are a long drive apart, and the state even starts Term
 The same three numbers everywhere in the state.
 
 - First class: USD 0. A full lesson at no cost, ending with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. A month of teaching, usually eight lessons, with five to ten learners at the same level.
+- Group tuition: USD 100 a month. A month of teaching, usually eight lessons, with fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. The same monthly rhythm of around eight lessons, one teacher and one learner.
 
 Every family outside India is billed in US dollars at one rate, which means Albury and Bondi see an identical invoice and no regional price list exists. Billing begins only after the trial lesson has fixed a course and a weekly slot; holidays off, a missed class or a move between group and private teaching are explained on the pricing page.
@@ -249,11 +249,11 @@ No, and none is claimed. Every lesson is live and online, with no premises anywh
 
 ### What do coding classes cost in NSW?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for NSW and Australian learners
 

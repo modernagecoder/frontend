@@ -20,12 +20,12 @@ Rated 4.9 across 547 Google reviews
 
 ### Group Classes
 
-Up to 10 students · learn with peers
+Up to 20 students · learn with peers
 
 ₹1499/month
 
 - 2 classes per week (1 hour each)
-- Batch of up to 10 students
+- Batch of up to 20 students
 - Collaborative project work
 - Recorded sessions access
 - Doubt clearing support
@@ -35,11 +35,11 @@ Up to 10 students · learn with peers
 
 ### Mini Batch
 
-3-4 students · near 1-on-1 attention
+up to 6 students · near 1-on-1 attention
 
 ₹2999/month
 
-- **Micro batch of just 3-4 students**
+- **Micro batch of up to 6 students**
 - 2 classes per week (1 hour each)
 - Near 1-on-1 teacher attention
 - Live doubt-clearing every class
@@ -73,12 +73,12 @@ Group ₹1,499 ≈ **₹187 per live class**Mini Batch ₹2,999 ≈ **₹375 per
 
 ### Group Classes
 
-Up to 10 students · 1-hour live classes · 2 a week (8 a month)
+Up to 20 students · 1-hour live classes · 2 a week (8 a month)
 
 ₹1499/month
 
 - 2 classes per week
-- Batch of up to 10 students
+- Batch of up to 20 students
 - Concept clarity focus
 - Practice worksheets
 - Doubt clearing sessions
@@ -88,11 +88,11 @@ Up to 10 students · 1-hour live classes · 2 a week (8 a month)
 
 ### Mini Batch
 
-3-4 students · near 1-on-1 attention
+up to 6 students · near 1-on-1 attention
 
 ₹2999/month
 
-- **Micro batch of just 3-4 students**
+- **Micro batch of up to 6 students**
 - 2 classes per week
 - Near 1-on-1 teacher attention
 - Targeted topic mastery
@@ -164,7 +164,7 @@ See how we stand out from traditional coding institutes and online platforms
 | Features | Modern Age Coders | Others |
 | --- | --- | --- |
 | 100% Live Interactive Classes |   |   |
-| Small Batch Size (Max 6-8 Students) |   |   |
+| Batch Size (Max 20 Students) |   |   |
 | Big Batch (10-15 Top Performers) |   |   |
 | Personalized Learning Path |   | ~ |
 | Real-World Project Experience |   | ~ |

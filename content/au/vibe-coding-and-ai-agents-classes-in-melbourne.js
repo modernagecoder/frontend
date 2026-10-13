@@ -182,7 +182,7 @@ module.exports = {
       { h3: 'No trip across town', p: 'A teenager in the inner north and an adult in the outer east can share one lesson from their own desks.' },
       { h3: 'Victorian vocabulary', p: 'Teachers say Foundation, Year 9 or Unit 3 the way a Victorian school does, and plan around the four Victorian terms. Teaching is in English.' },
       { h3: 'Try it properly', p: 'The trial is a full working lesson. The teacher then proposes a level, a course and a regular hour, and no payment details are requested.' },
-      { h3: 'Classmates at your standard', p: 'A group is five to ten people at a similar point, gathered from Victoria, other states and other countries, so a reasonable hour exists for nearly every level.' },
+      { h3: 'Classmates at your standard', p: 'A group is fifteen to twenty people at a similar point, gathered from Victoria, other states and other countries, so a reasonable hour exists for nearly every level.' },
       { h3: 'A steady rhythm', p: 'Normally two sessions a week, roughly eight a month, with breaks for Victorian holidays and the VCE exam period arranged ahead of time.' },
       { h3: 'Teachers on India time', p: 'Melbourne moves its clocks on the same Sundays as Sydney, 4 October 2026 and 4 April 2027, so our teachers are five and a half hours behind Melbourne in summer and four and a half in winter.' }
     ],
@@ -193,7 +193,7 @@ module.exports = {
     h2: 'What classes cost in Melbourne',
     intro: 'Three figures, and nothing hidden behind them.',
     first: 'A full lesson at no cost, ending with a recommended level, course and weekly time.',
-    group: 'A month of teaching, usually eight lessons, with five to ten learners at the same level.',
+    group: 'A month of teaching, usually eight lessons, with fifteen to twenty learners at the same level.',
     private: 'The same monthly rhythm of around eight lessons, one teacher and one learner.',
     closer: 'One price in US dollars applies to every learner outside India, so Brunswick and Frankston receive the same invoice and there is no Melbourne price sheet. You pay only once the trial has settled what to study and when; breaks, missed sessions and moves between group and private teaching are set out on the pricing page.'
   },
@@ -218,8 +218,8 @@ module.exports = {
       { q: 'Do you help with VCE Algorithmics?', a: 'We teach the algorithm design, data structures and analysis that VCE Algorithmics (HESS) draws on. School-assessed Tasks are the student\'s own work under VCAA rules, and we never work on any assessed task.' },
       { q: 'What time are lessons for Melbourne learners?', a: 'Weekday afternoons and evenings or weekend slots, settled at the trial and always quoted in Melbourne time. India sits four and a half hours behind Melbourne from April to October and five and a half behind over summer.' },
       { q: 'Is there a Modern Age Coders centre in Melbourne?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do classes cost in Melbourne?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do classes cost in Melbourne?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Weesp and Driemond fo
 canonical: https://learn.modernagecoders.com/coding-classes-in-weesp
 source: src/pages/coding-classes-in-weesp.html
 ---
-> Coding classes in Weesp reach a town that received city rights on 20 May 1355 and stopped being an independent municipality on 24 March 2022. It is now inside the municipality of Amsterdam, and it is not a stadsdeel; it forms a governing area with Driemond, with a status aparte and eleven directly elected members. It sits enclosed between a canal, a motorway and the Vecht, and 55 percent of the homes in its centre are owner-occupied, which is unlike anything in the city proper. Modern Age Coders teaches live online in English in Weesp and Driemond, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Weesp reach a town that received city rights on 20 May 1355 and stopped being an independent municipality on 24 March 2022. It is now inside the municipality of Amsterdam, and it is not a stadsdeel; it forms a governing area with Driemond, with a status aparte and eleven directly elected members. It sits enclosed between a canal, a motorway and the Vecht, and 55 percent of the homes in its centre are owner-occupied, which is unlike anything in the city proper. Modern Age Coders teaches live online in English in Weesp and Driemond, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Amsterdam](/coding-classes-in-amsterdam) / Weesp
 
@@ -12,11 +12,11 @@ Weesp, Amsterdam / Live online
 
 # Coding classes in Weesp, which is part of Amsterdam by one test and not by five others
 
-**What are the best coding classes in Weesp?** Coding classes in Weesp reach a town that received city rights on 20 May 1355 and stopped being an independent municipality on 24 March 2022. It is now inside the municipality of Amsterdam, and it is not a stadsdeel; it forms a governing area with Driemond, with a status aparte and eleven directly elected members. It sits enclosed between a canal, a motorway and the Vecht, and 55 percent of the homes in its centre are owner-occupied, which is unlike anything in the city proper. Modern Age Coders teaches live online in English in Weesp and Driemond, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Weesp?** Coding classes in Weesp reach a town that received city rights on 20 May 1355 and stopped being an independent municipality on 24 March 2022. It is now inside the municipality of Amsterdam, and it is not a stadsdeel; it forms a governing area with Driemond, with a status aparte and eleven directly elected members. It sits enclosed between a canal, a motorway and the Vecht, and 55 percent of the homes in its centre are owner-occupied, which is unlike anything in the city proper. Modern Age Coders teaches live online in English in Weesp and Driemond, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Is Weesp part of Amsterdam? Legally, since 24 March 2022, yes. It is also not a stadsdeel, it is not physically joined to the city, it has held a charter of its own since 1355, it is grouped for governance with a village rather than with any Amsterdam district, and it appears in none of Amsterdam's population figures before 2022. Six reasonable tests of belonging, one yes and five noes. Every one of those tests is the sort of thing that quietly becomes a filter in somebody's query, and they do not agree.
 
-Facts last verified 9 September 2026. Teaching is online; no Weesp branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 September 2026. Teaching is online; no Weesp branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a small town with a big city attached to it on paper
 
@@ -185,18 +185,18 @@ Weesp has a station and a motorway and roughly nothing else connecting it to the
 - **The journey is the part that gets cancelled** A class in the centre of Amsterdam is a train each way on a winter evening, and it is the leg that fails first when a week gets busy. This one happens at the kitchen table, at an hour that repeats.
 - **Lessons in English, school words in Dutch** The teaching is English throughout. Groep, havo, vwo and profielkeuze are left alone, because those four are printed on the paperwork a child carries home and swapping them for English adds a step nobody needs.
 - **Nothing is charged for the first one** The teacher sets a real task, watches how it goes, and from that names a level and a course. A weekly hour is agreed at the end. No card details are taken and none are asked for.
-- **Five to ten learners, chosen by level** Groups are built from what people can do. In a town of this size that is the only way a specific level fills at all, and it is why the group is drawn from far beyond Weesp.
+- **Fifteen to twenty learners, chosen by level** Groups are built from what people can do. In a town of this size that is the only way a specific level fills at all, and it is why the group is drawn from far beyond Weesp.
 - **The regio Noord holiday block** Two lessons a week, usually eight in a month. Noord-Holland sits in regio Noord for school holidays, so the weeks that will disappear are known well in advance and are built into the plan.
 - **Teaching from India, on a shifting offset** The teacher is ahead by three and a half hours for part of the year and four and a half for the rest, because the Dutch clock changes and the Indian one has not. The workable hours are the same either way.
 
-**A quarter of the town centre is sixty-five or over** 1,465 of the 5,810 residents of Weesp Binnenstad and Zuid are sixty-five or older, 25 percent, against 815 under fifteen. Driemond has 310 in each of those bands out of 1,678. A place with this shape has enough children to fill a school and nowhere near enough to fill a group of five to ten at one specific level in one specific subject, which is arithmetic and no reflection on anybody local. It also has a large number of adults with time, and the classes here run to sixty-seven.
+**A quarter of the town centre is sixty-five or over** 1,465 of the 5,810 residents of Weesp Binnenstad and Zuid are sixty-five or older, 25 percent, against 815 under fifteen. Driemond has 310 in each of those bands out of 1,678. A place with this shape has enough children to fill a school and nowhere near enough to fill a group of fifteen to twenty at one specific level in one specific subject, which is arithmetic and no reflection on anybody local. It also has a large number of adults with time, and the classes here run to sixty-seven.
 
 ## The fee, in dollars, in Weesp and in Driemond
 
 Set out here instead of held back for a phone call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate exists, quoted in dollars, and there is no euro edition, so an address in Dorp Driemond sees exactly what one on the Herensingel sees. Nothing is paid before the free lesson has fixed a course and an hour, and payment is arranged over WhatsApp afterwards. Pausing, changing plan and missing a week are described on the pricing page.
@@ -237,7 +237,7 @@ No, and none is claimed in Weesp, in Driemond, elsewhere in Amsterdam or anywher
 
 ### What do Weesp coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

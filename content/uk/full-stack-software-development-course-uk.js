@@ -239,7 +239,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'We check your level and choose a route through the stack with you.' },
-      { h3: 'Small groups', p: 'Five to ten learners of similar age and level.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners of similar age and level.' },
       { h3: 'One to one', p: 'For a career switch deadline or a faster pace.' },
       { h3: 'Accessibility checked', p: 'Every project is tried with a keyboard and checked for contrast before it counts as done.' },
       { h3: 'Your repository', p: 'Projects live in your own GitHub account, with secrets kept out.' },
@@ -255,7 +255,7 @@ module.exports = {
     h2: 'Fees for full stack development',
     lede: 'Priced per month in US dollars at a single rate for all learners outside India. Nothing is charged to join, and each month stands alone. Hosting for deployed projects can usually run on free tiers.',
     free: ['A look at what you can already build', 'A route through the stack', 'Nothing to pay on the day'],
-    group: ['Five to ten learners at one level', 'The same teacher each week', 'Accessibility checks on every project', 'Stop at the end of any month'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher each week', 'Accessibility checks on every project', 'Stop at the end of any month'],
     one: ['A teacher for you alone', 'Built around your own project', 'Paced to your goal']
   },
 

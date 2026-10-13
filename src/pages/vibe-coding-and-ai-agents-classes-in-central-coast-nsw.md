@@ -16,7 +16,7 @@ Central Coast, New South Wales, Australia / Live online
 
 Picture an AI agent built to answer parents' questions about Central Coast public schools. The open NSW schools file has everything it needs: 77 schools, from Woy Woy to The Entrance, with names, suburbs, levels and map positions. The lazy approach is to paste the whole table into the agent's prompt. That table runs to 43,215 characters, roughly 10,800 tokens by the usual estimate, and most of it is columns the question never needs. Keep six columns and the same 77 schools take about 1,500 tokens. Send only the five schools nearest the family and it drops to about 130. Our Central Coast learners measure all three, then build an agent that chooses its own context sensibly.
 
-Facts last verified 7 October 2026. Teaching is online; no Central Coast branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Central Coast branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four ways in to building with AI
 
@@ -177,7 +177,7 @@ The Central Coast spreads along beaches, lakes and valleys, and a live online le
 - **Every suburb included** A learner in Gosford and another near Tuggerah Lake join the same class at the same moment, each from home.
 - **Year levels as NSW uses them** Teachers talk about Year 7 to Year 12 and the NSW stages as local schools do; all lessons are in English.
 - **A trial with a real build** The first lesson is an actual vibe coding or agent task with a teacher, finishing with a suggested level, course and time. No payment details are taken.
-- **Five to ten in a group** Learners at the same stage from the coast, the rest of Australia and overseas, so every level has a workable slot.
+- **Fifteen to twenty in a group** Learners at the same stage from the coast, the rest of Australia and overseas, so every level has a workable slot.
 - **A regular rhythm** Usually two lessons a week, around eight a month, with school holidays and exam periods planned with the teacher.
 - **One hour shifts twice a year** A 5pm lesson on the coast lands at 12:30pm in India in winter and at 11:30am once daylight saving starts in October.
 
@@ -188,7 +188,7 @@ The Central Coast spreads along beaches, lakes and valleys, and a live online le
 Three figures and that is all.
 
 - First class: USD 0. A full first lesson free of charge, ending with a level, a course and a time.
-- Group tuition: USD 100 a month. A month of lessons, normally eight, with five to ten learners at your stage.
+- Group tuition: USD 100 a month. A month of lessons, normally eight, with fifteen to twenty learners at your stage.
 - Private tuition: USD 150 a month. Roughly eight lessons a month, one teacher and one learner.
 
 Outside India every family is billed in US dollars at one rate, from the peninsula to the northern lakes, with no separate coastal price. Payments begin only after the trial confirms a course and slot; breaks, missed lessons and switching format are on the pricing page.
@@ -229,11 +229,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Central Coast coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Central Coast and New South Wales learners
 

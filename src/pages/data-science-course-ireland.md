@@ -4,7 +4,7 @@ description: "A data science course for learners in Ireland, taught on Ireland's
 canonical: https://learn.modernagecoders.com/data-science-course-ireland
 source: src/pages/data-science-course-ireland.html
 ---
-> A data science course should spend its time where the work is: finding data, checking whether you may use it, understanding what each column means, cleaning it, and only then analysing. We teach that on Ireland's open data portal, which lists over twenty-two thousand datasets, most of them under a Creative Commons Attribution licence. Students learn Python and pandas, SQL, charts that do not mislead, and the statistics needed to say how sure they are. Classes are live, in groups of five to ten at one level or one to one. The first class is free, then USD 100 a month in a group or USD 150 a month with a teacher to yourself.
+> A data science course should spend its time where the work is: finding data, checking whether you may use it, understanding what each column means, cleaning it, and only then analysing. We teach that on Ireland's open data portal, which lists over twenty-two thousand datasets, most of them under a Creative Commons Attribution licence. Students learn Python and pandas, SQL, charts that do not mislead, and the statistics needed to say how sure they are. Classes are live, in groups of fifteen to twenty at one level or one to one. The first class is free, then USD 100 a month in a group or USD 150 a month with a teacher to yourself.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / Data science, Ireland
 
@@ -166,7 +166,7 @@ Lessons are live, with teachers working from India at a weekly hour set in Irish
 - **After school** Secondary students on the teen courses.
 
 - **A free first class** You open a genuine dataset with a teacher and see what the first ten minutes of real work look like.
-- **Five to ten per group** Learners at one level, comparing how each of them cleaned the same file.
+- **Fifteen to twenty per group** Learners at one level, comparing how each of them cleaned the same file.
 - **One to one** For work projects, theses, or data you cannot share with a group.
 - **Public data throughout** Everything is done on datasets anyone can download, so every result can be checked.
 - **Licences taken seriously** Students learn to record source, licence and download date as a matter of habit.
@@ -177,7 +177,7 @@ Lessons are live, with teachers working from India at a weekly hour set in Irish
 One price a month in US dollars, the same in every country outside India, covering any course on this page. No enrolment charge, and no commitment past the month you are in.
 
 - Free first class: USD 0. A real dataset opened with a teacher. An honest view of where to start. No card required.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher throughout. Work reviewed each week. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher throughout. Work reviewed each week. A certificate at the end.
 - One to one: USD 150 a month. A teacher to yourself. Your own data and questions. Right for work projects.
 
 ## What learners in Ireland ask about data science

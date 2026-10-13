@@ -12,7 +12,7 @@ Live online · serving Hisar
 
 Real programming for kids, teens and college students in Hisar, from **Model Town to HUDA Sector 13–14, HUDA Sector 15–16 to Urban Estate**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Hisar)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**HisarEnrollingAreasModel Town, HUDA Sector 13–14, HUDA Sector 15–16, Urban Estate, Mill Gate & all of HisarBoardsHBSE · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across HisarFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Hisar)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**HisarEnrollingAreasModel Town, HUDA Sector 13–14, HUDA Sector 15–16, Urban Estate, Mill Gate & all of HisarBoardsHBSE · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across HisarFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for Hisar's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Hisar: FAQs
 
-Which is the best coding class in Hisar for kids?Modern Age Coders runs Hisar's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python, in small batches of 5-8 taught by industry instructors. Because we are online, a child in Model Town, the HUDA Sectors, Urban Estate, near the HAU Campus or off Delhi Road gets exactly the same teacher, and so do families in Hansi, Agroha, Barwala or Adampur.Are the classes online, and can I join from outside Hisar city?Yes to both. Every class is live and online, so we cover all of Hisar equally: Model Town, HUDA Sectors 13-16, Urban Estate, Mill Gate, Red Square Market, Camp, Azad Nagar, Shiv Colony, Patel Nagar, the HAU Campus area, Rajgarh Road and Delhi Road, plus nearby Hansi, Agroha, Barwala, Adampur and Narnaund. Sessions are fully interactive with live coding, screen-sharing and a saved recording.How much do coding classes cost in Hisar?Group classes (5-8 students) are Rs.1499/month for 2 live classes a week. The Mini Batch (3-4 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student begins with a free demo class, and there are no hidden charges.My child studies in a Haryana Board (HBSE/BSEH) school. Does coding still fit?Absolutely. We teach children from CBSE, ICSE and Haryana Board (HBSE/BSEH) schools across Hisar, and our tracks adapt to each, from school Computer Science and Java (BlueJ) to the NEP-2020 AI modules. Coding sharpens the same structured logic that maths and science reward, so it strengthens school study rather than competing with it.Hisar is the Steel City and a university hub, does coding suit engineering, HAU and GJU-aspirant families?Yes. Hisar is home to Jindal stainless-steel manufacturing, CCS HAU (one of Asia's largest agricultural universities), GJU science-and-technology university and LUVAS, and Haryana's first airport. The analytical discipline that runs industry, research and entrance exams is the same that builds a strong coder. For college students our track teaches DSA, full-stack MERN, AI/Data Science and AI coding agents, career skills that complement an academic or research path.Can a Hisar student build a tech career without moving to Gurgaon or Delhi?Yes. Software is built from anywhere now. Hisar already makes steel, advances agricultural science and is building a runway to its future with its own airport, a student here can learn, freelance and land remote roles from home with no need to relocate. Our college and AI-agent tracks teach exactly the product, freelancing and remote-work skills that make a global coding career possible from Hisar.What programming languages and courses do you teach in Hisar?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node), Vibe Coding and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack, AI/Data Science and AI coding agents (Codex & Claude Code). We also teach school and Olympiad mathematics alongside coding.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and if the first paid week is not the right fit we return the fee in full.Do you teach coding to BSEH students in Hisar?Yes. Hisar schools run the Haryana board, BSEH, along with CBSE and ICSE, and our classes fit around any of them. The board is at Bhiwani, not Hisar. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Guru Jambheshwar University students join your programming courses?Yes. Guru Jambheshwar University of Science and Technology has taught here since 1995, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview.
+Which is the best coding class in Hisar for kids?Modern Age Coders runs Hisar's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python, in batches of 15-20 taught by industry instructors. Because we are online, a child in Model Town, the HUDA Sectors, Urban Estate, near the HAU Campus or off Delhi Road gets exactly the same teacher, and so do families in Hansi, Agroha, Barwala or Adampur.Are the classes online, and can I join from outside Hisar city?Yes to both. Every class is live and online, so we cover all of Hisar equally: Model Town, HUDA Sectors 13-16, Urban Estate, Mill Gate, Red Square Market, Camp, Azad Nagar, Shiv Colony, Patel Nagar, the HAU Campus area, Rajgarh Road and Delhi Road, plus nearby Hansi, Agroha, Barwala, Adampur and Narnaund. Sessions are fully interactive with live coding, screen-sharing and a saved recording.How much do coding classes cost in Hisar?Group classes (15-20 students) are Rs.1499/month for 2 live classes a week. The Mini Batch (up to 6 students) is Rs.2,999/month, and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student begins with a free demo class, and there are no hidden charges.My child studies in a Haryana Board (HBSE/BSEH) school. Does coding still fit?Absolutely. We teach children from CBSE, ICSE and Haryana Board (HBSE/BSEH) schools across Hisar, and our tracks adapt to each, from school Computer Science and Java (BlueJ) to the NEP-2020 AI modules. Coding sharpens the same structured logic that maths and science reward, so it strengthens school study rather than competing with it.Hisar is the Steel City and a university hub, does coding suit engineering, HAU and GJU-aspirant families?Yes. Hisar is home to Jindal stainless-steel manufacturing, CCS HAU (one of Asia's largest agricultural universities), GJU science-and-technology university and LUVAS, and Haryana's first airport. The analytical discipline that runs industry, research and entrance exams is the same that builds a strong coder. For college students our track teaches DSA, full-stack MERN, AI/Data Science and AI coding agents, career skills that complement an academic or research path.Can a Hisar student build a tech career without moving to Gurgaon or Delhi?Yes. Software is built from anywhere now. Hisar already makes steel, advances agricultural science and is building a runway to its future with its own airport, a student here can learn, freelance and land remote roles from home with no need to relocate. Our college and AI-agent tracks teach exactly the product, freelancing and remote-work skills that make a global coding career possible from Hisar.What programming languages and courses do you teach in Hisar?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node), Vibe Coding and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack, AI/Data Science and AI coding agents (Codex & Claude Code). We also teach school and Olympiad mathematics alongside coding.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and if the first paid week is not the right fit we return the fee in full.Do you teach coding to BSEH students in Hisar?Yes. Hisar schools run the Haryana board, BSEH, along with CBSE and ICSE, and our classes fit around any of them. The board is at Bhiwani, not Hisar. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Guru Jambheshwar University students join your programming courses?Yes. Guru Jambheshwar University of Science and Technology has taught here since 1995, so the theory is close at hand. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview.
 
 ## Ready to start your child's coding journey in Hisar?
 

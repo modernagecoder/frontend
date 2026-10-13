@@ -4,7 +4,7 @@ description: "Online coding and Python classes for Neath, Skewen, Cimla, Llantwi
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-neath
 source: src/pages/online-coding-and-python-classes-in-neath.html
 ---
-> At the 2021 census the ONS built-up area of Neath (Castell-nedd) held 40,730 usual residents; Neath Port Talbot county borough as a whole held 142,289. Its suburbs in the gazetteer include Cimla, Llantwit, Skewen, Penrhiwtyn, Neath Abbey and Bryn-coch. Anyone in Neath from six to 67 can learn coding, Python, AI, vibe coding or maths with us; a tutor in India teaches each lesson live on camera, either privately or to a class of five to ten who share a level. The Neath project starts from something everyone assumes is solved: putting words in alphabetical order. Welsh has its own alphabet, with letters such as ll and dd, and Python's sort does not know it. Learners write a sort key that does. Try one lesson at no cost; staying on is USD 100 a month in a class or USD 150 a month for private sessions.
+> At the 2021 census the ONS built-up area of Neath (Castell-nedd) held 40,730 usual residents; Neath Port Talbot county borough as a whole held 142,289. Its suburbs in the gazetteer include Cimla, Llantwit, Skewen, Penrhiwtyn, Neath Abbey and Bryn-coch. Anyone in Neath from six to 67 can learn coding, Python, AI, vibe coding or maths with us; a tutor in India teaches each lesson live on camera, either privately or to a class of fifteen to twenty who share a level. The Neath project starts from something everyone assumes is solved: putting words in alphabetical order. Welsh has its own alphabet, with letters such as ll and dd, and Python's sort does not know it. Learners write a sort key that does. Try one lesson at no cost; staying on is USD 100 a month in a class or USD 150 a month for private sessions.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Neath
 
@@ -12,11 +12,11 @@ Neath, Neath Port Talbot, Wales / Live online
 
 # Online coding and Python classes in Neath
 
-**Which online coding and Python classes are best for learners in Neath?** At the 2021 census the ONS built-up area of Neath (Castell-nedd) held 40,730 usual residents; Neath Port Talbot county borough as a whole held 142,289. Its suburbs in the gazetteer include Cimla, Llantwit, Skewen, Penrhiwtyn, Neath Abbey and Bryn-coch. Anyone in Neath from six to 67 can learn coding, Python, AI, vibe coding or maths with us; a tutor in India teaches each lesson live on camera, either privately or to a class of five to ten who share a level. The Neath project starts from something everyone assumes is solved: putting words in alphabetical order. Welsh has its own alphabet, with letters such as ll and dd, and Python's sort does not know it. Learners write a sort key that does. Try one lesson at no cost; staying on is USD 100 a month in a class or USD 150 a month for private sessions.
+**Which online coding and Python classes are best for learners in Neath?** At the 2021 census the ONS built-up area of Neath (Castell-nedd) held 40,730 usual residents; Neath Port Talbot county borough as a whole held 142,289. Its suburbs in the gazetteer include Cimla, Llantwit, Skewen, Penrhiwtyn, Neath Abbey and Bryn-coch. Anyone in Neath from six to 67 can learn coding, Python, AI, vibe coding or maths with us; a tutor in India teaches each lesson live on camera, either privately or to a class of fifteen to twenty who share a level. The Neath project starts from something everyone assumes is solved: putting words in alphabetical order. Welsh has its own alphabet, with letters such as ll and dd, and Python's sort does not know it. Learners write a sort key that does. Try one lesson at no cost; staying on is USD 100 a month in a class or USD 150 a month for private sessions.
 
 Ask Python to sort a list of names and it compares them character by character, using the number each character has inside the computer. For English that mostly works. For Welsh it does not, because ll, dd, ff, ch, rh, th, ph and ng are single letters of the Welsh alphabet with their own places in it. Street signs in Neath are bilingual, and OpenStreetMap records the Welsh form of many street names. Learners take 240 of them and find out how far the computer's idea of order is from a Welsh reader's.
 
-Facts last verified 30 September 2026. Teaching is online; no Neath branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Neath branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Coding and Python courses for Neath
 
@@ -133,7 +133,7 @@ Learners take part from home with a laptop or desktop and a camera. A connection
 - **Learners write the code** Tutors explain and ask; the keyboard stays with the learner the whole time.
 - **Recommendation after the trial** We watch the learner work in the free lesson and only then suggest a course.
 - **The first session is free** It is a proper lesson, free of charge, and we do not ask for payment details.
-- **Classes of five to ten** Group members share a level, not a postcode, and come from all over the UK.
+- **Classes of fifteen to twenty** Group members share a level, not a postcode, and come from all over the UK.
 - **Two lessons weekly** Let us know the Neath Port Talbot term dates and holiday weeks are left free.
 - **UK time, all year** When the clocks change, our tutor moves; your lesson time does not.
 

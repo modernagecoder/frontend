@@ -226,7 +226,7 @@ module.exports = {
     cells: [
       { h3: 'Checklist before submit', p: 'Every task starts by listing the awkward inputs, before a line of code is written.' },
       { h3: 'One keyboard practice', p: 'We run pair tasks the way round one does, with one pupil typing and one reading.' },
-      { h3: 'Five to ten learners', p: 'Enough for two solutions to be compared, small enough for every program to be looked at.' },
+      { h3: 'Fifteen to twenty learners', p: 'Enough for two solutions to be compared, small enough for every program to be looked at.' },
       { h3: 'Our own tasks', p: 'Written by us in the same style. The organiser publishes its own past papers.' },
       { h3: 'One to one when useful', p: 'For a pupil working well above their year, or one with a specific gap.' },
       { h3: 'Nothing promised', p: 'We cannot register a team and promise no score, certificate or prize.' }
@@ -241,7 +241,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A single monthly rate in US dollars for families outside India, with no registration fee and no minimum term.',
     free: ['A full lesson on a real task', 'A straight read on the right level', 'No card details taken'],
-    group: ['Five to ten learners at one level', 'The same teacher weekly', 'Code read line by line', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher weekly', 'Code read line by line', 'A certificate at the end'],
     one: ['A teacher working with one learner', 'Shaped around the specific weakness', 'Useful in the weeks before a round']
   },
 

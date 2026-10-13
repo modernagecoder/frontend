@@ -224,7 +224,7 @@ module.exports = {
     cells: [
       { h3: 'A cold reader every week', p: 'Someone who has not seen the problem reads the solution and says where they stopped following it.' },
       { h3: 'A named toolbox', p: 'Each technique is taught with a name so a pupil can reach for it deliberately rather than hope.' },
-      { h3: 'Groups of five to ten', p: 'Big enough that somebody solves it differently, small enough that nobody goes unheard.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Big enough that somebody solves it differently, small enough that nobody goes unheard.' },
       { h3: 'Being stuck is the work', p: 'Twenty minutes without progress is normal here and we say so, because pupils assume it is failure.' },
       { h3: 'Problems we wrote', p: 'Ours, in the same idiom. The organisers give their past papers away and that is where the real ones belong.' },
       { h3: 'No outcome sold', p: 'Qualification is not ours to give and we do not pretend otherwise.' }
@@ -239,7 +239,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'The same price each month in US dollars outside India, nothing charged to start, and no commitment past the month you are in.',
     free: ['A single hard problem, taught properly', 'A plain answer about which rung fits', 'Nothing asked for but a number'],
-    group: ['Five to ten pupils at one level', 'The same teacher weekly', 'Written arguments marked by hand', 'A certificate at the end'],
+    group: ['Fifteen to twenty pupils at one level', 'The same teacher weekly', 'Written arguments marked by hand', 'A certificate at the end'],
     one: ['A teacher working with one pupil', 'Aimed at the round they are sitting', 'For pupils well beyond their year group']
   },
 

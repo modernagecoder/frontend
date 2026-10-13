@@ -4,7 +4,7 @@ description: "Python, coding, AI and vibe coding taught live online to learners 
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-beeston
 source: src/pages/online-coding-and-python-classes-in-beeston.html
 ---
-> At the 2021 census the Beeston built-up area had 52,355 residents and Broxtowe borough 110,940, by ONS count. Chilwell, Bramcote, Attenborough and Toton are recorded as suburban areas of the borough, and Stapleford as a town. Our tutors teach Python, coding, AI, vibe coding and maths from India by live video, to ages six to 67, in private lessons or classes of five to ten at one level. The teaching puts reasoning first, which is what allows a learner to check a program, or a chatbot, instead of trusting it. For the Beeston project a learner joins two real tables by postcode in Python, first the slow obvious way and then with a sort-merge join, and counts every comparison. Your first lesson is free and ends with a course recommendation, after which a group place is USD 100 a month and one-to-one lessons are USD 150 a month.
+> At the 2021 census the Beeston built-up area had 52,355 residents and Broxtowe borough 110,940, by ONS count. Chilwell, Bramcote, Attenborough and Toton are recorded as suburban areas of the borough, and Stapleford as a town. Our tutors teach Python, coding, AI, vibe coding and maths from India by live video, to ages six to 67, in private lessons or classes of fifteen to twenty at one level. The teaching puts reasoning first, which is what allows a learner to check a program, or a chatbot, instead of trusting it. For the Beeston project a learner joins two real tables by postcode in Python, first the slow obvious way and then with a sort-merge join, and counts every comparison. Your first lesson is free and ends with a course recommendation, after which a group place is USD 100 a month and one-to-one lessons are USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East Midlands](/coding-and-ai-classes-in-east-midlands) / Beeston
 
@@ -12,11 +12,11 @@ Beeston, Broxtowe, Nottinghamshire / Live online
 
 # Online coding and Python classes in Beeston, Nottinghamshire
 
-**Where are the best online coding and Python classes for Beeston?** At the 2021 census the Beeston built-up area had 52,355 residents and Broxtowe borough 110,940, by ONS count. Chilwell, Bramcote, Attenborough and Toton are recorded as suburban areas of the borough, and Stapleford as a town. Our tutors teach Python, coding, AI, vibe coding and maths from India by live video, to ages six to 67, in private lessons or classes of five to ten at one level. The teaching puts reasoning first, which is what allows a learner to check a program, or a chatbot, instead of trusting it. For the Beeston project a learner joins two real tables by postcode in Python, first the slow obvious way and then with a sort-merge join, and counts every comparison. Your first lesson is free and ends with a course recommendation, after which a group place is USD 100 a month and one-to-one lessons are USD 150 a month.
+**Where are the best online coding and Python classes for Beeston?** At the 2021 census the Beeston built-up area had 52,355 residents and Broxtowe borough 110,940, by ONS count. Chilwell, Bramcote, Attenborough and Toton are recorded as suburban areas of the borough, and Stapleford as a town. Our tutors teach Python, coding, AI, vibe coding and maths from India by live video, to ages six to 67, in private lessons or classes of fifteen to twenty at one level. The teaching puts reasoning first, which is what allows a learner to check a program, or a chatbot, instead of trusting it. For the Beeston project a learner joins two real tables by postcode in Python, first the slow obvious way and then with a sort-merge join, and counts every comparison. Your first lesson is free and ends with a course recommendation, after which a group place is USD 100 a month and one-to-one lessons are USD 150 a month.
 
 Almost every useful piece of data work involves a join: two tables that share a key, such as a postcode, matched row to row. The obvious method takes each row of the first table and scans the whole second table for a partner. It is easy to write and painfully slow as tables grow. Databases usually do something smarter. One classic method sorts both tables by the key and then walks down them together with two pointers, never looking back. Beeston's NG9 postcode district offers two open tables to try this on, and the real data adds a twist that no textbook example has: some rows refuse to join at all.
 
-Facts last verified 30 September 2026. Teaching is online; no Beeston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Beeston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python, data and AI courses for Beeston learners
 
@@ -136,7 +136,7 @@ Any computer that can run a video call over home broadband is suitable.
 - **The learner codes** Students do the typing and the testing; the tutor sees the shared screen and asks for the reasoning behind it.
 - **Trial finds the level** We choose the first topic from what the free lesson shows and record the exam board if there is one.
 - **No cost to begin** Lesson one is free, with no card, and ends with our suggested course.
-- **Same-stage groups** Five to ten learners at a common level, from anywhere in the UK.
+- **Same-stage groups** Fifteen to twenty learners at a common level, from anywhere in the UK.
 - **Two lessons each week** Holiday weeks are left out once you give us the dates.
 - **Fixed lesson hour** Clock changes for British Summer Time are handled by the tutor, not by moving your slot.
 

@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-uk.html
 
 The short answer
 
-Modern Age Coders teaches live online AI and machine learning to learners anywhere in the United Kingdom, from age 6 to age 67, in groups of five to eight or else privately. The route starts at Python and the statistics that sit under machine learning, and finishes with a trained model whose error the pupil can state and defend. Group teaching is USD 100 a month, and one to one is USD 150 a month, billed in US dollars. The first lesson costs nothing and needs no card.
+Modern Age Coders teaches live online AI and machine learning to learners anywhere in the United Kingdom, from age 6 to age 67, in groups of fifteen to twenty or else privately. The route starts at Python and the statistics that sit under machine learning, and finishes with a trained model whose error the pupil can state and defend. Group teaching is USD 100 a month, and one to one is USD 150 a month, billed in US dollars. The first lesson costs nothing and needs no card.
 
 The catalogue
 
@@ -353,7 +353,7 @@ The weekend workshop, ninety minutes rather than sixty, and the easiest slot to 
 
 ### What a session is
 
-A live hour, or ninety minutes at the weekend, with one teacher who remembers what this particular pupil could not get working last Wednesday. Screens go both ways, so the teacher sees the code being typed and interrupts at the moment the misunderstanding appears rather than discovering it in a submission three days later. A batch is five to eight pupils, with private teaching available if a family prefers it.
+A live hour, or ninety minutes at the weekend, with one teacher who remembers what this particular pupil could not get working last Wednesday. Screens go both ways, so the teacher sees the code being typed and interrupts at the moment the misunderstanding appears rather than discovering it in a submission three days later. A batch is fifteen to twenty pupils, with private teaching available if a family prefers it.
 
 What goes home between lessons is a thing to make, not a sheet to complete, and it comes back half broken, which is the useful state. Questions during the week reach the same teacher directly rather than an inbox somebody else is monitoring.
 
@@ -435,7 +435,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight pupils, and one teacher who stays with them
+- Fifteen to twenty pupils, and one teacher who stays with them
 - Taught live on camera, with nothing pre-recorded
 - A build task each week, and the teacher reads the code that comes back
 - Certificate on completion
@@ -540,7 +540,7 @@ The Sutton Trust survey published in February 2026 found that 45 per cent of sec
 
 ### What does this cost?
 
-A group batch of five to eight pupils is USD 100 a month, and one to one teaching is USD 150 a month. Pricing is flat and billed in US dollars everywhere outside India, so the dollar figure is the published price rather than a conversion that drifts. The first lesson is free and needs no card.
+A group batch of fifteen to twenty pupils is USD 100 a month, and one to one teaching is USD 150 a month. Pricing is flat and billed in US dollars everywhere outside India, so the dollar figure is the published price rather than a conversion that drifts. The first lesson is free and needs no card.
 
 ### Can a beginner really build a working machine learning model?
 

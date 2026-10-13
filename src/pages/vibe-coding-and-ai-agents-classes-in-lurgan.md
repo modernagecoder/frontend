@@ -4,7 +4,7 @@ description: "Live online vibe coding, AI agents and Python lessons for Lurgan, 
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-lurgan
 source: src/pages/vibe-coding-and-ai-agents-classes-in-lurgan.html
 ---
-> The Lurgan District Electoral Area had 38,198 usual residents in NISRA's Census 2021 tables; the town itself is counted inside the Craigavon Urban Area settlement, which NISRA does not divide. Mourneview, Taghneven, Toberhewny, Drumnamoe, Knocknashane and Ballyblagh are among the neighbourhood names OpenStreetMap places around the centre. Learners from P1 up to adults of 67 can take vibe coding, AI agents, Python, coding and maths with a tutor in India on live video, privately or in a group of five to ten who share a stage. We put reasoning ahead of tools, so a learner knows why an agent chose what it did. There is no charge for the first lesson, which ends with a suggested course. The Lurgan project lays a 1.2 km grid over the town centre and teaches a small robot agent to plan for the fact that its moves sometimes go wrong. Group lessons afterwards cost USD 100 a month, private lessons USD 150 a month.
+> The Lurgan District Electoral Area had 38,198 usual residents in NISRA's Census 2021 tables; the town itself is counted inside the Craigavon Urban Area settlement, which NISRA does not divide. Mourneview, Taghneven, Toberhewny, Drumnamoe, Knocknashane and Ballyblagh are among the neighbourhood names OpenStreetMap places around the centre. Learners from P1 up to adults of 67 can take vibe coding, AI agents, Python, coding and maths with a tutor in India on live video, privately or in a group of fifteen to twenty who share a stage. We put reasoning ahead of tools, so a learner knows why an agent chose what it did. There is no charge for the first lesson, which ends with a suggested course. The Lurgan project lays a 1.2 km grid over the town centre and teaches a small robot agent to plan for the fact that its moves sometimes go wrong. Group lessons afterwards cost USD 100 a month, private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Northern Ireland](/coding-and-ai-classes-in-northern-ireland) / Lurgan
 
@@ -12,11 +12,11 @@ Lurgan, County Armagh, Northern Ireland / Live online
 
 # Vibe coding and AI agents classes in Lurgan
 
-**Where can Lurgan learners find the best vibe coding and AI agents classes?** The Lurgan District Electoral Area had 38,198 usual residents in NISRA's Census 2021 tables; the town itself is counted inside the Craigavon Urban Area settlement, which NISRA does not divide. Mourneview, Taghneven, Toberhewny, Drumnamoe, Knocknashane and Ballyblagh are among the neighbourhood names OpenStreetMap places around the centre. Learners from P1 up to adults of 67 can take vibe coding, AI agents, Python, coding and maths with a tutor in India on live video, privately or in a group of five to ten who share a stage. We put reasoning ahead of tools, so a learner knows why an agent chose what it did. There is no charge for the first lesson, which ends with a suggested course. The Lurgan project lays a 1.2 km grid over the town centre and teaches a small robot agent to plan for the fact that its moves sometimes go wrong. Group lessons afterwards cost USD 100 a month, private lessons USD 150 a month.
+**Where can Lurgan learners find the best vibe coding and AI agents classes?** The Lurgan District Electoral Area had 38,198 usual residents in NISRA's Census 2021 tables; the town itself is counted inside the Craigavon Urban Area settlement, which NISRA does not divide. Mourneview, Taghneven, Toberhewny, Drumnamoe, Knocknashane and Ballyblagh are among the neighbourhood names OpenStreetMap places around the centre. Learners from P1 up to adults of 67 can take vibe coding, AI agents, Python, coding and maths with a tutor in India on live video, privately or in a group of fifteen to twenty who share a stage. We put reasoning ahead of tools, so a learner knows why an agent chose what it did. There is no charge for the first lesson, which ends with a suggested course. The Lurgan project lays a 1.2 km grid over the town centre and teaches a small robot agent to plan for the fact that its moves sometimes go wrong. Group lessons afterwards cost USD 100 a month, private lessons USD 150 a month.
 
 Most route planners assume that every step goes exactly as intended. Real agents, from delivery robots to software agents calling unreliable tools, cannot assume that. The standard way to plan when actions are uncertain is a Markov decision process: list the states, the actions, the chance of each outcome and the cost of each, then work out the cheapest action in every state, not just along one route. The method that does the working out, value iteration, repeats one simple update until the numbers stop changing. This project builds a small robot world on a 20 m grid over central Lurgan from OpenStreetMap, where buildings block the way and main roads are expensive to stray onto, and compares a naive planner with a proper policy.
 
-Facts last verified 29 September 2026. Teaching is online; no Lurgan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Lurgan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Lurgan learners begin
 
@@ -130,7 +130,7 @@ Bring a laptop or desktop with a camera and an internet line good enough for a c
 - **Learner does the typing** Code, prompts and runs come from the student, while the tutor watches the shared screen and asks what could go wrong.
 - **Start set by the trial** The free session shows the right first topic; CCEA courses are noted.
 - **Trial without charge** Lesson one costs nothing and closes with our course pick.
-- **Stage-based groups** Five to ten learners from across the UK, all at one level.
+- **Stage-based groups** Fifteen to twenty learners from across the UK, all at one level.
 - **Twice weekly** No lessons during school holidays.
 - **Fixed hour** UK clock changes are our tutors' job, not your timetable's.
 

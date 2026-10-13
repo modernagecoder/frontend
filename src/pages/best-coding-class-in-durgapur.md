@@ -12,7 +12,7 @@ Live online · serving Durgapur
 
 Real programming for kids, teens and college students in Durgapur, from **City Centre to Bidhannagar, Benachity to Steel Township**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Durgapur)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**DurgapurEnrollingAreasCity Centre, Bidhannagar, Benachity, Steel Township, A-Zone & all of DurgapurBoardsWBBSE / WBCHSE · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across DurgapurFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Durgapur)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**DurgapurEnrollingAreasCity Centre, Bidhannagar, Benachity, Steel Township, A-Zone & all of DurgapurBoardsWBBSE / WBCHSE · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across DurgapurFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -140,7 +140,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for Durgapur's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -158,7 +158,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -180,7 +180,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -189,7 +189,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -198,7 +198,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -273,7 +273,7 @@ Takes under a minute.
 
 ## Coding classes in Durgapur: FAQs
 
-Which is the best coding class in Durgapur for kids?Modern Age Coders runs Durgapur's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python. Batches are small (5-8 students), project-based, and taught by industry instructors. We serve every neighbourhood: City Centre, Bidhannagar, Benachity, Steel Township, A-Zone, B-Zone, Muchipara, Sepco Township and out to Andal and Panagarh.Are the classes online or offline, and do you cover Steel Township and Benachity?Yes. All classes are live and online, so a student in City Centre, Bidhannagar, the Benachity market belt, Steel Township, A-Zone, B-Zone, Muchipara, Sepco Township, Bhiringi or out towards Andal joins the same expert teacher from home, no auto ride down City Centre Road. Sessions are fully interactive with live coding, screen sharing and recordings.How much do coding classes cost in Durgapur?Group classes (5-8 students) start at Rs.1499/month for 2 live classes per week. Mini-Batch (3-4 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Will coding help my child with WBJEE, JEE and the board exams in Durgapur?Yes. Durgapur is one of Bengal's densest engineering-aspirant towns. Coding strengthens the exact logical reasoning, decomposition and problem-solving that WBJEE, JEE and Olympiads reward, and it directly supports CBSE/ICSE/WBCHSE Computer Science, Informatics Practices and the new NEP-2020 AI modules. Our Python and Java tracks line up with what is taught at DAV Model, Hem Sheela Model, St Xavier's, Bidhan Chandra Institution and Carmel.What age is best to start coding in Durgapur?Age 8 is ideal to begin with visual block-based coding (Scratch). For text-based languages like Python and Java, age 12-13 onwards works best. We design separate tracks for kids (6-12), teens (13-18) and college/working learners (18+).What programming languages and courses do you teach in Durgapur?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also teach school and Olympiad mathematics alongside coding.Do you prepare Durgapur engineering students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, MERN full-stack projects and AI/Data-Science portfolios. It is built for engineering students from NIT Durgapur, IIIT, BCET, DSMS and the wider CSIR-CMERI academic belt who want a coding portfolio strong enough to win campus and remote roles without leaving home.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Do you teach coding to West Bengal board students in Durgapur?Yes. Durgapur schools run the West Bengal boards, WBBSE for the Class 10 Madhyamik and WBCHSE for Plus Two, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can NIT Durgapur students join your programming courses?Yes. NIT Durgapur dates to 1960 and is one of the country's older technical institutes, so the theory is in good hands. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview.
+Which is the best coding class in Durgapur for kids?Modern Age Coders runs Durgapur's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python. Batches are small (15-20 students), project-based, and taught by industry instructors. We serve every neighbourhood: City Centre, Bidhannagar, Benachity, Steel Township, A-Zone, B-Zone, Muchipara, Sepco Township and out to Andal and Panagarh.Are the classes online or offline, and do you cover Steel Township and Benachity?Yes. All classes are live and online, so a student in City Centre, Bidhannagar, the Benachity market belt, Steel Township, A-Zone, B-Zone, Muchipara, Sepco Township, Bhiringi or out towards Andal joins the same expert teacher from home, no auto ride down City Centre Road. Sessions are fully interactive with live coding, screen sharing and recordings.How much do coding classes cost in Durgapur?Group classes (15-20 students) start at Rs.1499/month for 2 live classes per week. Mini-Batch (up to 6 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Will coding help my child with WBJEE, JEE and the board exams in Durgapur?Yes. Durgapur is one of Bengal's densest engineering-aspirant towns. Coding strengthens the exact logical reasoning, decomposition and problem-solving that WBJEE, JEE and Olympiads reward, and it directly supports CBSE/ICSE/WBCHSE Computer Science, Informatics Practices and the new NEP-2020 AI modules. Our Python and Java tracks line up with what is taught at DAV Model, Hem Sheela Model, St Xavier's, Bidhan Chandra Institution and Carmel.What age is best to start coding in Durgapur?Age 8 is ideal to begin with visual block-based coding (Scratch). For text-based languages like Python and Java, age 12-13 onwards works best. We design separate tracks for kids (6-12), teens (13-18) and college/working learners (18+).What programming languages and courses do you teach in Durgapur?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also teach school and Olympiad mathematics alongside coding.Do you prepare Durgapur engineering students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, MERN full-stack projects and AI/Data-Science portfolios. It is built for engineering students from NIT Durgapur, IIIT, BCET, DSMS and the wider CSIR-CMERI academic belt who want a coding portfolio strong enough to win campus and remote roles without leaving home.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Do you teach coding to West Bengal board students in Durgapur?Yes. Durgapur schools run the West Bengal boards, WBBSE for the Class 10 Madhyamik and WBCHSE for Plus Two, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can NIT Durgapur students join your programming courses?Yes. NIT Durgapur dates to 1960 and is one of the country's older technical institutes, so the theory is in good hands. The college track adds built work: real Python, Java, full-stack or AI/ML projects, carried to something that runs and can be opened in an interview.
 
 ## Ready to start your child's coding journey in Durgapur?
 

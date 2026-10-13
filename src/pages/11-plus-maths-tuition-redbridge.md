@@ -204,7 +204,7 @@ Lessons are taught live from India. For primary children we use early evening an
 
 - **A regular teacher** One person, week after week, who knows the child's habits.
 - **Honest updates** Short notes that say what is going well and what is not.
-- **Five to ten children** Grouped by level for the right pace.
+- **Fifteen to twenty children** Grouped by level for the right pace.
 - **Questions we write** No GL or council material is reproduced.
 - **One to one available** For a stubborn topic or a child who prefers it.
 - **Maths only** No reasoning coaching and no admissions advice.
@@ -214,7 +214,7 @@ Lessons are taught live from India. For primary children we use early evening an
 One monthly price in US dollars, the same for families everywhere outside India. No joining fee; leave whenever you wish.
 
 - Free first class: USD 0. A proper lesson from a teacher. An honest assessment afterwards. No card details.
-- Group batch: USD 100 a month. Five to ten children, one level. The same teacher each week. Work checked together. Certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children, one level. The same teacher each week. Work checked together. Certificate at the end.
 - One to one: USD 150 a month. A teacher for your child alone. Aimed at the weakest topics. Useful in the summer before the test.
 
 ## What Redbridge families ask us

@@ -4,7 +4,7 @@ description: "Live online AI and programming classes for Pontypool, Griffithstow
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-pontypool
 source: src/pages/ai-and-programming-classes-in-pontypool.html
 ---
-> Census 2021 found 29,070 usual residents in the Pontypool built-up area and 92,276 across the county borough of Torfaen. Griffithstown, Sebastopol, New Inn, Pontnewynydd, Trevethin, Penygarn, Wainfelin and Tranch all sit within the built-up area. From the age of six up to 67, Pontypool learners study AI, programming, Python, vibe coding and maths with Modern Age Coders, live online, with India-based tutors teaching privately or to level-matched classes of five to ten. Every learner begins with a free trial lesson and a course recommendation. The Pontypool project trains a small neural network to tell which ward a postcode belongs to, teaches it the northern wards first and the southern wards second, and measures how much of the first lesson survives. Following the free trial, a class place is USD 100 monthly and individual tuition USD 150 monthly.
+> Census 2021 found 29,070 usual residents in the Pontypool built-up area and 92,276 across the county borough of Torfaen. Griffithstown, Sebastopol, New Inn, Pontnewynydd, Trevethin, Penygarn, Wainfelin and Tranch all sit within the built-up area. From the age of six up to 67, Pontypool learners study AI, programming, Python, vibe coding and maths with Modern Age Coders, live online, with India-based tutors teaching privately or to level-matched classes of fifteen to twenty. Every learner begins with a free trial lesson and a course recommendation. The Pontypool project trains a small neural network to tell which ward a postcode belongs to, teaches it the northern wards first and the southern wards second, and measures how much of the first lesson survives. Following the free trial, a class place is USD 100 monthly and individual tuition USD 150 monthly.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Pontypool
 
@@ -12,11 +12,11 @@ Pontypool, Torfaen, Wales / Live online
 
 # AI and programming classes in Pontypool
 
-**Which are the best AI and programming classes for Pontypool?** Census 2021 found 29,070 usual residents in the Pontypool built-up area and 92,276 across the county borough of Torfaen. Griffithstown, Sebastopol, New Inn, Pontnewynydd, Trevethin, Penygarn, Wainfelin and Tranch all sit within the built-up area. From the age of six up to 67, Pontypool learners study AI, programming, Python, vibe coding and maths with Modern Age Coders, live online, with India-based tutors teaching privately or to level-matched classes of five to ten. Every learner begins with a free trial lesson and a course recommendation. The Pontypool project trains a small neural network to tell which ward a postcode belongs to, teaches it the northern wards first and the southern wards second, and measures how much of the first lesson survives. Following the free trial, a class place is USD 100 monthly and individual tuition USD 150 monthly.
+**Which are the best AI and programming classes for Pontypool?** Census 2021 found 29,070 usual residents in the Pontypool built-up area and 92,276 across the county borough of Torfaen. Griffithstown, Sebastopol, New Inn, Pontnewynydd, Trevethin, Penygarn, Wainfelin and Tranch all sit within the built-up area. From the age of six up to 67, Pontypool learners study AI, programming, Python, vibe coding and maths with Modern Age Coders, live online, with India-based tutors teaching privately or to level-matched classes of fifteen to twenty. Every learner begins with a free trial lesson and a course recommendation. The Pontypool project trains a small neural network to tell which ward a postcode belongs to, teaches it the northern wards first and the southern wards second, and measures how much of the first lesson survives. Following the free trial, a class place is USD 100 monthly and individual tuition USD 150 monthly.
 
 People learn new things without forgetting old ones, mostly. Neural networks are not so lucky. Train one on a task, then train it on a different task, and it can lose the first almost entirely. McCloskey and Cohen described the effect in 1989 as catastrophic interference; today it is usually called catastrophic forgetting. It matters every time an AI model is updated with new data. In Pontypool we make it happen on purpose, with 721 local postcodes and five wards, and then fix it with one simple idea.
 
-Facts last verified 1 October 2026. Teaching is online; no Pontypool branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 1 October 2026. Teaching is online; no Pontypool branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI and programming courses for Pontypool learners
 
@@ -134,11 +134,11 @@ Lessons happen live on video. A computer with a keyboard is needed; a tablet alo
 - **Learner in charge of the keys** The learner writes and runs every line, explaining it to the tutor.
 - **Level comes first** The trial lesson shows where to start before we recommend anything.
 - **No charge to begin** The first lesson is free and needs no card.
-- **Groups by level** Five to ten learners at the same stage, from across the UK.
+- **Groups by level** Fifteen to twenty learners at the same stage, from across the UK.
 - **Two a week** About eight lessons a month in term, with Torfaen holidays left free on request.
 - **Fixed UK time** The lesson stays at its UK hour when the clocks change.
 
-**Why online lessons** Five to ten learners at one exact level are far easier to bring together across the UK than in a single town, and on video nobody travels.
+**Why online lessons** Fifteen to twenty learners at one exact level are far easier to bring together across the UK than in a single town, and on video nobody travels.
 
 ## Fees for Pontypool families
 

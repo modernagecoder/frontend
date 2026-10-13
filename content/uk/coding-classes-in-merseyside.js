@@ -64,7 +64,7 @@ module.exports = {
 
   h1: 'Coding classes in Merseyside',
   capsuleQ: 'What are the best coding classes in Merseyside?',
-  capsule: 'Merseyside is five boroughs: Liverpool, Wirral, Sefton, St Helens and Knowsley. The 2021 Census found 1,423,287 people across them, a total we added up ourselves from the five published counts. Liverpool\'s built-up area passes half a million, and Birkenhead, St Helens, Southport and Wallasey follow. Lessons are live over video, taught from India, and learners are grouped by the level they have reached rather than their age. We take students from 6 to 67 in groups of five to ten or one-to-one, for coding, Python, computer science and maths. The Merseyside project goes back to the locomotive trials at Rainhill in 1829. Trying a lesson is free, and continuing costs USD 100 a month in a group or USD 150 a month one-to-one.',
+  capsule: 'Merseyside is five boroughs: Liverpool, Wirral, Sefton, St Helens and Knowsley. The 2021 Census found 1,423,287 people across them, a total we added up ourselves from the five published counts. Liverpool\'s built-up area passes half a million, and Birkenhead, St Helens, Southport and Wallasey follow. Lessons are live over video, taught from India, and learners are grouped by the level they have reached rather than their age. We take students from 6 to 67 in groups of fifteen to twenty or one-to-one, for coding, Python, computer science and maths. The Merseyside project goes back to the locomotive trials at Rainhill in 1829. Trying a lesson is free, and continuing costs USD 100 a month in a group or USD 150 a month one-to-one.',
   lead: 'In October 1829, on a level stretch of line at Rainhill, now in the borough of St Helens, four locomotives competed to prove that steam could work the new Liverpool and Manchester Railway. The directors had published eight conditions in advance, and Samuel Smiles printed them in his life of the Stephensons. A written set of conditions that a machine must meet is exactly what programmers call a specification, and the way to check one is to turn it into tests. This page\'s project does that in Python, runs the tests on the four engines using the figures Smiles reports, and finds that the hardest part is not writing the code but deciding what the words meant.',
   wa: 'Hello Modern Age Coders, could we book a free lesson for a learner in Merseyside, please?',
 
@@ -169,7 +169,7 @@ module.exports = {
       { h3: 'Lessons at home', p: 'A bedroom in Bootle, a table in Heswall, a spare room in Haydock. The teacher shares a screen and the learner does the typing.' },
       { h3: 'The same school words', p: 'Year groups, key stages, GCSEs and A levels are named the way Merseyside schools name them, and everything is taught in English.' },
       { h3: 'A free first lesson', p: 'A real lesson with real work, then a straight recommendation. We do not ask for card details.' },
-      { h3: 'Classmates at your level', p: 'Five to ten learners at the same stage, from across Merseyside, the UK and other countries.' },
+      { h3: 'Classmates at your level', p: 'Fifteen to twenty learners at the same stage, from across Merseyside, the UK and other countries.' },
       { h3: 'Holidays that match yours', p: 'Two lessons a week is usual, and we pause for the holidays your own school sets.' },
       { h3: 'Your clock, not ours', p: 'We give every slot in UK time and keep it steady through the clock changes; the teacher works in India time, several hours ahead, and adjusts.' }
     ],
@@ -180,7 +180,7 @@ module.exports = {
     h2: 'Fees on Merseyside',
     intro: 'Kirkby or West Kirby, the price is identical, and it is the price families pay everywhere we teach outside India.',
     first: 'A full lesson of genuine work, finishing with advice on level and course.',
-    group: 'Around eight lessons a month, in a group of five to ten at the same level.',
+    group: 'Around eight lessons a month, in a group of fifteen to twenty at the same level.',
     private: 'Around eight lessons a month, one teacher with one learner.',
     closer: 'Everything is charged in US dollars; there are no sterling prices. Nothing is billed until the free lesson has agreed a course and a weekly time, and the pricing page explains pauses, missed lessons and moving between group and one-to-one.'
   },

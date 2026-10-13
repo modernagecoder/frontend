@@ -307,7 +307,7 @@ module.exports = {
       { h3: 'Tools on screen', p: 'Every tool, description and agent answer is reviewed together.' },
       { h3: 'Holidays respected', p: 'We pause when South Australian schools break and restart with each new term.' },
       { h3: 'Trial lesson free', p: 'One full class without charge, then honest advice.' },
-      { h3: 'Five to ten learners', p: 'Grouped by level, or taught one to one.' },
+      { h3: 'Fifteen to twenty learners', p: 'Grouped by level, or taught one to one.' },
       { h3: 'Twice weekly', p: 'Two fixed lessons a week, roughly eight a month.' },
       { h3: 'India time', p: 'With teachers in India, a 6pm Tea Tree Gully class is 1pm India time in summer and 2pm from April.' }
     ],
@@ -320,7 +320,7 @@ module.exports = {
     h2: 'Tea Tree Gully class fees',
     intro: 'Three clear prices.',
     first: 'The first lesson is free and ends with a written recommendation.',
-    group: 'Group month: around eight lessons with five to ten learners.',
+    group: 'Group month: around eight lessons with fifteen to twenty learners.',
     private: 'Private month: around eight lessons with one teacher.',
     closer: 'Fees are charged in US dollars once the trial has fixed a course and a weekly time. Holiday pauses and missed lessons are covered on the pricing page.'
   },
@@ -362,12 +362,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Tea Tree Gully learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Can a group class here cover Copilot Studio?', a: 'No. We teach Copilot Studio only in private lessons; groups write agents in Python.' }

@@ -181,7 +181,7 @@ module.exports = {
       { h3: 'No trip into town', p: 'A pupil in Lepelstraat and a pupil near the Markiezenhof start together, each at home, with no drive through the evening dark.' },
       { h3: 'Dutch terms untouched', p: 'Brugklas, groep, vmbo, havo, vwo and profielkeuze stay in Dutch as a Brabant school writes them, and the teaching is in English.' },
       { h3: 'A lesson, free', p: 'The first session is a full lesson on a real task. The teacher then suggests a level, a course and a regular time, without taking any payment details.' },
-      { h3: 'Groups by stage', p: 'Five to ten learners at one point in one subject. Bergen op Zoom has 10,321 residents under fifteen, and five who match on subject, level and hour are rare in one municipality, so classmates may join from other countries.' },
+      { h3: 'Groups by stage', p: 'Fifteen to twenty learners at one point in one subject. Bergen op Zoom has 10,321 residents under fifteen, and five who match on subject, level and hour are rare in one municipality, so classmates may join from other countries.' },
       { h3: 'Regio Zuid holidays', p: 'Two lessons a week, about eight a month, at a fixed hour, breaking for the regio Zuid holidays of Noord-Brabant.' },
       { h3: 'Teachers in India', p: 'The teachers are three and a half hours ahead in Dutch summer and four and a half in winter, so late afternoons, evenings and weekend mornings all suit.' }
     ],
@@ -192,7 +192,7 @@ module.exports = {
     h2: 'Fees in Bergen op Zoom',
     intro: 'Three prices, shown in full.',
     first: 'A real lesson on a real task, finishing with a level and a course.',
-    group: 'Each month, normally eight lessons, five to ten learners at one level.',
+    group: 'Each month, normally eight lessons, fifteen to twenty learners at one level.',
     private: 'Each month, normally eight lessons, one teacher for one learner.',
     closer: 'The dollar fee is the same for every country and there is no euro list, so a household in Halsteren pays exactly what one in the old town pays. Nothing is charged until the free lesson has settled the course and the hour, and then payment is arranged over WhatsApp. The pricing page explains pauses, a change of format and missed lessons.'
   },
@@ -217,7 +217,7 @@ module.exports = {
       { q: 'How many schools are there in Bergen op Zoom?', a: 'The statistics count 29 primary establishments teaching 6,003 pupils and 9 secondary establishments teaching 5,841, with 2,143 MBO students at institutions in the municipality. This page rates no school.' },
       { q: 'What language are lessons in, and at what times?', a: 'English, with Dutch school words such as brugklas, havo and vwo kept as they are. The teachers work from India, three and a half hours ahead of Bergen op Zoom in summer and four and a half in winter, so late-afternoon, evening and weekend times are straightforward. The time is set in the free lesson, and regio Zuid holidays are observed.' },
       { q: 'Is there a Modern Age Coders classroom in Bergen op Zoom?', a: 'No, and none is claimed here or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Bergen op Zoom coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Bergen op Zoom coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

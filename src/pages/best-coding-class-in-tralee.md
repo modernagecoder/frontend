@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI lessons for Tralee learners aged
 canonical: https://learn.modernagecoders.com/best-coding-class-in-tralee
 source: src/pages/best-coding-class-in-tralee.html
 ---
-> Tralee holds 25,675 usual residents in the census town tables, living in 10,185 households, 7,622 of which report broadband. The teaching comes to the house over video, twice in most weeks, with a live teacher and either a group of five to ten learners at one stage or nobody else at all, from age six to sixty-seven. The opening lesson costs nothing. A shared place is USD 100 a month afterwards, and private teaching USD 150.
+> Tralee holds 25,675 usual residents in the census town tables, living in 10,185 households, 7,622 of which report broadband. The teaching comes to the house over video, twice in most weeks, with a live teacher and either a group of fifteen to twenty learners at one stage or nobody else at all, from age six to sixty-seven. The opening lesson costs nothing. A shared place is USD 100 a month afterwards, and private teaching USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Kerry](/coding-classes-in-county-kerry) / Tralee
 
@@ -12,11 +12,11 @@ Tralee, County Kerry / Live online
 
 # Coding classes in Tralee
 
-**What is the best coding class in Tralee?** Tralee holds 25,675 usual residents in the census town tables, living in 10,185 households, 7,622 of which report broadband. The teaching comes to the house over video, twice in most weeks, with a live teacher and either a group of five to ten learners at one stage or nobody else at all, from age six to sixty-seven. The opening lesson costs nothing. A shared place is USD 100 a month afterwards, and private teaching USD 150.
+**What is the best coding class in Tralee?** Tralee holds 25,675 usual residents in the census town tables, living in 10,185 households, 7,622 of which report broadband. The teaching comes to the house over video, twice in most weeks, with a live teacher and either a group of fifteen to twenty learners at one stage or nobody else at all, from age six to sixty-seven. The opening lesson costs nothing. A shared place is USD 100 a month afterwards, and private teaching USD 150.
 
 The census table we use for these pages carries 868 area labels, 867 towns and one all-towns row, and 16 of the town names contain a character that is not in the plain English alphabet. One is in this county: Dingle-Daingean Ui Chuis, which the file spells with a fada on the i. Nothing about that is exotic, and it is enough to break a data pipeline written carelessly. Read the file as though it were Latin-1 and the name comes back as mangled punctuation. Strip it to ASCII and a letter vanishes. Compare two versions that look identical on screen and the computer says they differ, because one stores the accent as part of the letter and the other keeps it separately. Every one of those was run against that exact label while writing this page. Numbers get all the attention in data work, and text is where the day is usually lost.
 
-Facts last verified 18 September 2026. Teaching is online; no Tralee branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 18 September 2026. Teaching is online; no Tralee branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Tralee learners begin
 
@@ -168,7 +168,7 @@ Producing code is now cheap. Knowing the three lines it is missing is the part a
 Six lines.
 
 - **A live teacher** Present for the whole lesson, watching the work and correcting it as it is written.
-- **Grouped by level** Five to ten learners at one stage, joining from Tralee, the rest of Ireland and beyond.
+- **Grouped by level** Fifteen to twenty learners at one stage, joining from Tralee, the rest of Ireland and beyond.
 - **Two lessons weekly** About eight a month, in an hour agreed at the start and then kept.
 - **Around the school year** Mid-terms, holidays and exam weeks are planned in before the first lesson.
 - **Equipment** A computer with a keyboard, sound that carries, and a connection that holds video.
@@ -181,7 +181,7 @@ Six lines.
 Three lines, complete.
 
 - First class: USD 0. A full opening lesson, taught and assessed, at no charge.
-- Group tuition: USD 100 a month. A month in an ability group of five to ten, about eight live lessons.
+- Group tuition: USD 100 a month. A month in an ability group of fifteen to twenty, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one to one teaching on the same weekly pattern.
 
 Fees are monthly and quoted in US dollars, on the single rate for families outside India, so Tralee sees what Killarney or Ennis sees and no euro list sits beside it. No charge arises before the free hour has produced both a course and a time, and holidays, a missed week and a change of format are each covered on the pricing page.
@@ -222,7 +222,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Tralee cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

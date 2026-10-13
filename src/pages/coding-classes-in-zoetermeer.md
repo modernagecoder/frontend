@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Zoetermeer for ages 6
 canonical: https://learn.modernagecoders.com/coding-classes-in-zoetermeer
 source: src/pages/coding-classes-in-zoetermeer.html
 ---
-> Coding classes in Zoetermeer serve 130,836 people (Statistics Netherlands, 1 January 2026) in a town that held 8,404 residents in 1960 and was designated a growth centre in 1962. It welcomed its hundred-thousandth resident on Friday 13 September 1991, at about a quarter past ten in the Lange Land hospital, and that was a decision as much as a measurement: a population is a net figure that can cross a line more than once. Modern Age Coders teaches live online in English across all fifteen wijken for anyone aged 6 to 67, with a free opening lesson and then USD 100 a month in a group of five to ten, or USD 150 with a teacher alone.
+> Coding classes in Zoetermeer serve 130,836 people (Statistics Netherlands, 1 January 2026) in a town that held 8,404 residents in 1960 and was designated a growth centre in 1962. It welcomed its hundred-thousandth resident on Friday 13 September 1991, at about a quarter past ten in the Lange Land hospital, and that was a decision as much as a measurement: a population is a net figure that can cross a line more than once. Modern Age Coders teaches live online in English across all fifteen wijken for anyone aged 6 to 67, with a free opening lesson and then USD 100 a month in a group of fifteen to twenty, or USD 150 with a teacher alone.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Zoetermeer
 
@@ -12,11 +12,11 @@ Zoetermeer, Zuid-Holland / Live online
 
 # Coding classes in Zoetermeer, where somebody had to decide which baby was the hundred-thousandth
 
-**What are the best coding classes in Zoetermeer?** Coding classes in Zoetermeer serve 130,836 people (Statistics Netherlands, 1 January 2026) in a town that held 8,404 residents in 1960 and was designated a growth centre in 1962. It welcomed its hundred-thousandth resident on Friday 13 September 1991, at about a quarter past ten in the Lange Land hospital, and that was a decision as much as a measurement: a population is a net figure that can cross a line more than once. Modern Age Coders teaches live online in English across all fifteen wijken for anyone aged 6 to 67, with a free opening lesson and then USD 100 a month in a group of five to ten, or USD 150 with a teacher alone.
+**What are the best coding classes in Zoetermeer?** Coding classes in Zoetermeer serve 130,836 people (Statistics Netherlands, 1 January 2026) in a town that held 8,404 residents in 1960 and was designated a growth centre in 1962. It welcomed its hundred-thousandth resident on Friday 13 September 1991, at about a quarter past ten in the Lange Land hospital, and that was a decision as much as a measurement: a population is a net figure that can cross a line more than once. Modern Age Coders teaches live online in English across all fifteen wijken for anyone aged 6 to 67, with a free opening lesson and then USD 100 a month in a group of fifteen to twenty, or USD 150 with a teacher alone.
 
 On a Friday morning in September 1991 this town named its hundred-thousandth resident: a baby, born at about a quarter past ten. It is a lovely piece of civic ceremony and it is not a measurement. A population register is a running net total, pushed up by births and arrivals and down by deaths and departures, and a quantity like that can cross a hundred thousand, fall back below it and cross again the same week. Somebody had to choose which event counted. A child who understands why is well placed to distrust every milestone they are ever shown.
 
-Facts last verified 7 September 2026. Teaching is online; no Zoetermeer branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no Zoetermeer branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a town that was built on purpose
 
@@ -202,14 +202,14 @@ Nothing in Zoetermeer is far from anything else, and RandstadRail connects most 
 - **Twice a week, on the middle calendar** Two lessons weekly at one repeating slot, eight in most months. Zoetermeer takes its holidays with regio Midden along with the rest of Zuid-Holland, and weeks away are written in before the slot is fixed.
 - **Three and a half hours, then four and a half** Dutch clocks move twice a year and Indian clocks do not, so the gap to the teacher depends on the month. Anything from the end of school to mid-evening works, and both weekend days are free.
 
-**A town whose schools were built for a wave that has passed** Seven secondary establishments teach 7,392 pupils, about a thousand each, and the districts built in the 1970s now hold the twenty-two percent of residents aged over sixty-five. A group of five to ten at a fixed hour is a different setting from a school of a thousand, and for some learners that is the entire attraction.
+**A town whose schools were built for a wave that has passed** Seven secondary establishments teach 7,392 pupils, about a thousand each, and the districts built in the 1970s now hold the twenty-two percent of residents aged over sixty-five. A group of fifteen to twenty at a fixed hour is a different setting from a school of a thousand, and for some learners that is the entire attraction.
 
 ## The fee, in dollars, in all fifteen wijken
 
 Set out here rather than kept for a phone call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 There is one international rate and it is quoted in dollars, with no euro list, so every address in the town sees the same figure. Nothing is collected until the free lesson has produced a course and a time, and it is then collected over WhatsApp. Pausing, changing plan and missing a week are covered on the pricing page.
@@ -250,7 +250,7 @@ No, and none is claimed in the Stadscentrum, in Oosterheem or anywhere in the Ne
 
 ### What do Zoetermeer coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Zoetermeer group?
 

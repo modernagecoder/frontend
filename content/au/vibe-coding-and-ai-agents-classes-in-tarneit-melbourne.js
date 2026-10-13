@@ -304,7 +304,7 @@ module.exports = {
       { h3: 'Live on screen', p: 'Teacher and learner share screens and work on the same code.' },
       { h3: 'Victorian terms', p: 'Lessons follow Victorian school terms and pause for the holidays.' },
       { h3: 'Trial first', p: 'One full free lesson, then advice on course and a regular time.' },
-      { h3: 'Matched groups', p: 'Groups of five to ten at one level, with learners from many places.' },
+      { h3: 'Matched groups', p: 'Groups of fifteen to twenty at one level, with learners from many places.' },
       { h3: 'Twice weekly', p: 'Two fixed lessons a week, about eight a month.' },
       { h3: 'India-based teachers', p: 'A 5pm lesson in Tarneit is 11:30am India time during Melbourne daylight saving and 12:30pm after it ends.' }
     ],
@@ -317,7 +317,7 @@ module.exports = {
     h2: 'Tarneit class fees',
     intro: 'Three prices cover everything.',
     first: 'A free first lesson that ends with a clear recommendation.',
-    group: 'One month of group classes, around eight, with five to ten learners matched on level.',
+    group: 'One month of group classes, around eight, with fifteen to twenty learners matched on level.',
     private: 'One month of private classes, around eight, with a dedicated teacher.',
     closer: 'Tarneit families, like all families outside India, pay in US dollars at one rate. Nothing is paid until the trial settles course and time; holidays and missed lessons are explained on the pricing page.'
   },
@@ -362,12 +362,12 @@ module.exports = {
       },
       {
         q: 'What do classes cost for Tarneit learners?',
-        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. Course, format and time are fixed before payment.',
+        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. Course, format and time are fixed before payment.',
         boiler: true
       },
       {
         q: 'How big is a group?',
-        a: 'Five to ten learners, grouped by level, pace and aims rather than age or suburb, with one-to-one lessons when no group time works.',
+        a: 'Fifteen to twenty learners, grouped by level, pace and aims rather than age or suburb, with one-to-one lessons when no group time works.',
         boiler: true
       },
       { q: 'Can adults learn to build agents?', a: 'Yes. Adults join adult groups or private lessons, often building agents for tasks from their own work.' }

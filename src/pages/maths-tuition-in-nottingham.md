@@ -4,7 +4,7 @@ description: "Online maths tuition in Nottingham for ages 6 to 67: Year 6 SATs, 
 canonical: https://learn.modernagecoders.com/maths-tuition-in-nottingham
 source: src/pages/maths-tuition-in-nottingham.html
 ---
-> We are an online maths tutor for Nottingham learners from 6 to 67: KS2 maths and the Year 6 SATs papers, KS3, GCSE at Foundation or Higher tier on AQA, Edexcel or OCR including resits, A level Maths and Further Maths, and adult maths such as Functional Skills and refreshers. Groups of five to ten learners share one level, and private lessons are also available. Our local example uses Met Office records from Sutton Bonington: over 481 months from 1959 to 1999, sunshine and maximum temperature correlate at 0.834, but within November alone the correlation is -0.098, because the season, not the sunshine, drives most of the pattern. The opening lesson costs nothing; then it is USD 100 a month for a group place or USD 150 a month for one to one.
+> We are an online maths tutor for Nottingham learners from 6 to 67: KS2 maths and the Year 6 SATs papers, KS3, GCSE at Foundation or Higher tier on AQA, Edexcel or OCR including resits, A level Maths and Further Maths, and adult maths such as Functional Skills and refreshers. Groups of fifteen to twenty learners share one level, and private lessons are also available. Our local example uses Met Office records from Sutton Bonington: over 481 months from 1959 to 1999, sunshine and maximum temperature correlate at 0.834, but within November alone the correlation is -0.098, because the season, not the sunshine, drives most of the pattern. The opening lesson costs nothing; then it is USD 100 a month for a group place or USD 150 a month for one to one.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Nottingham
 
@@ -14,7 +14,7 @@ Nottingham · Maths for every learner from 6 to 67 · Live online, small groups 
 
 Does a sunny month run warmer? It sounds too obvious to test, so we tested it on forty-one years of Met Office records from Sutton Bonington, in Rushcliffe. Across 481 months the answer looks like a firm yes: the correlation between sunshine hours and average maximum temperature is 0.834. Then split the months up. In July the link stays strong. In November it vanishes, and the correlation even turns slightly negative. The strong overall pattern was mostly the seasons talking. Knowing when a correlation means something is a GCSE skill and an A level one, and it is the thread running through this page about how we teach maths to Nottingham learners of every age.
 
-At a glance: Who: Nottingham learners aged 6 to 67; Primary: KS2 maths and the Year 6 tests; Secondary: KS3, then GCSE on AQA, Edexcel or OCR; Sixth form: A level Maths, Further Maths; Adults: Functional Skills, GCSE resits, refreshers; Format: Live video, 5 to 10 per group, or one to one; Teachers: Working from India on UK hours; Local project: Sunshine against temperature, 1959 to 1999. Rated 4.9 across 547 Google reviews.
+At a glance: Who: Nottingham learners aged 6 to 67; Primary: KS2 maths and the Year 6 tests; Secondary: KS3, then GCSE on AQA, Edexcel or OCR; Sixth form: A level Maths, Further Maths; Adults: Functional Skills, GCSE resits, refreshers; Format: Live video, 15 to 20 per group, or one to one; Teachers: Working from India on UK hours; Local project: Sunshine against temperature, 1959 to 1999. Rated 4.9 across 547 Google reviews.
 
 ## Three usual first courses
 
@@ -215,7 +215,7 @@ Our teachers are in India, where the clocks never change. From late October to l
 
 - **A steady teacher** One teacher follows a group week after week and remembers each learner's habits.
 - **A note after class** A few lines home on what is secure and what needs another look.
-- **Matched groups** Five to ten learners, all working at the same level.
+- **Matched groups** Fifteen to twenty learners, all working at the same level.
 - **Local data** Weather records, census tables and maps alongside exam questions.
 - **Private option** One to one for a single topic, a looming exam or personal preference.
 - **Understanding first** Learners explain a method before they practise it.
@@ -225,7 +225,7 @@ Our teachers are in India, where the clocks never change. From late October to l
 Billed each month in US dollars, at one rate for all countries outside India, with no sign-up fee and no contract.
 
 - Free first class: USD 0. A full lesson pitched at the right level. Our straight assessment afterwards. No payment details taken.
-- Group batch: USD 100 a month. Five to ten learners, one level. The same teacher each week. Feedback on written work. Certificate on completion.
+- Group batch: USD 100 a month. Fifteen to twenty learners, one level. The same teacher each week. Feedback on written work. Certificate on completion.
 - One to one: USD 150 a month. One teacher, one learner. Focused on the precise gap. Useful when an exam is near.
 
 ## What Nottingham parents and adult learners ask

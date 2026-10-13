@@ -16,7 +16,7 @@ Waverley Council area, Sydney, New South Wales / Live online
 
 Python lets you count from the end of a list: e[-1] is the last item, e[-2] the one before. That makes "this month against the same month last year" look easy. With Bondi Junction station's monthly figures, choosing e[-12] instead of e[-13] turns a rise into a fall, and the code runs without complaint.
 
-Facts last verified 10 October 2026. Teaching is online; no Waverley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Waverley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses where lists and indexes become second nature
 
@@ -190,7 +190,7 @@ Every lesson runs live online, so where in the council area a learner lives make
 - **At your own desk** Skip the drive: open the laptop, join the call and the code editor is already shared.
 - **NSW stages** Lessons follow the NSW syllabus stages and stop in the state school holidays.
 - **A free first lesson** Nothing is held back in the trial; afterwards we propose where to begin and which weekly slot fits.
-- **Five to ten per class** Groups are built on level and pace, with Waverley learners joining others.
+- **Fifteen to twenty per class** Groups are built on level and pace, with Waverley learners joining others.
 - **Two lessons each week** Two fixed lessons weekly, about eight a month, with breaks agreed early.
 - **Teachers in India** A 3:30pm Waverley lesson in daylight saving time starts at 10am in India, and at 11am there once Sydney's clocks go back.
 
@@ -201,7 +201,7 @@ Every lesson runs live online, so where in the council area a learner lives make
 Three amounts, nothing more.
 
 - First class: USD 0. The first class is free and ends with a straight recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, typically eight, with five to ten learners at a matching level.
+- Group tuition: USD 100 a month. A month of group lessons, typically eight, with fifteen to twenty learners at a matching level.
 - Private tuition: USD 150 a month. About eight one-to-one lessons each month.
 
 Outside India we invoice in US dollars, the same for every Waverley family. You are billed from the first paid month after the trial, never before; rules for school holidays, missed lessons and moving between group and private sit with the prices.
@@ -238,7 +238,7 @@ No. All lessons are live online, we have no premises in Australia, and the phone
 
 ### How much are coding classes for Waverley learners?
 
-The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before payment.
+The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before payment.
 
 ### What size are the groups?
 

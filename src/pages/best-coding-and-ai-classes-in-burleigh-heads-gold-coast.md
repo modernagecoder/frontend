@@ -16,7 +16,7 @@ Burleigh Heads, City of Gold Coast, Queensland / Live online
 
 Burleigh Heads sits at the southern end of the G:link tram line. Nearly half its homes are apartments, and the council maps every parking sign and piece of play equipment around it. Questions like "what is near this stop?" are exactly what spatial indexes were invented for.
 
-Facts last verified 13 October 2026. Teaching is online; no Burleigh Heads branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Burleigh Heads branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Algorithms, maps and AI
 
@@ -175,7 +175,7 @@ Lessons run over video, so learners stay home anywhere in the suburb.
 - **Live and guided** A teacher leads each class in real time and checks the code.
 - **Term-time** Classes follow Queensland school terms and stop in holidays.
 - **Trial first** One free class, then a short course recommendation.
-- **Groups** Five to ten learners at a level, or one-to-one.
+- **Groups** Fifteen to twenty learners at a level, or one-to-one.
 - **Regular** Two classes each week, roughly eight a month.
 - **Indian time** A 5:30pm Burleigh Heads class starts at 1pm in India.
 
@@ -186,7 +186,7 @@ Lessons run over video, so learners stay home anywhere in the suburb.
 One fee table for all learners.
 
 - First class: USD 0. Class one is free and comes with a plan.
-- Group tuition: USD 100 a month. Groups: about eight classes a month, five to ten learners.
+- Group tuition: USD 100 a month. Groups: about eight classes a month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private: about eight classes a month with a single teacher.
 
 Fees are in US dollars, starting once the trial has set a course and a weekly time. The pricing page explains holiday and missed-class rules.
@@ -223,11 +223,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Burleigh Heads classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How are classes grouped?
 
-By level and pace, five to ten learners, not by age or suburb. One-to-one lessons suit anyone no group time fits.
+By level and pace, fifteen to twenty learners, not by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Do you teach adults?
 

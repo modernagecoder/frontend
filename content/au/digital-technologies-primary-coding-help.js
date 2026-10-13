@@ -211,7 +211,7 @@ module.exports = {
     cells: [
       { h3: 'Say it before coding it', p: 'Children describe the steps before building them.' },
       { h3: 'Testing as a game', p: 'Children try to break each other\'s programs, then fix their own.' },
-      { h3: 'Small groups', p: 'Five to ten children at a similar stage.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty children at a similar stage.' },
       { h3: 'One-to-one option', p: 'For children who need a slower or faster pace.' },
       { h3: 'A note home', p: 'One line on what was learned and one thing to ask about.' },
       { h3: 'Homework stays theirs', p: 'We teach the idea; school tasks remain the child\'s own.' }
@@ -226,7 +226,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Families in Australia are charged monthly in US dollars, our usual rate everywhere outside India. There is nothing to pay in advance and you can stop at any month end.',
     free: ['A real lesson with a teacher', 'An honest view of your child\'s stage', 'No card details asked for'],
-    group: ['Five to ten children at one stage', 'The same teacher each week', 'Projects reviewed with feedback', 'A certificate when the course ends'],
+    group: ['Fifteen to twenty children at one stage', 'The same teacher each week', 'Projects reviewed with feedback', 'A certificate when the course ends'],
     one: ['A teacher for your child only', 'Paced to suit them', 'A weekly time you choose']
   },
 

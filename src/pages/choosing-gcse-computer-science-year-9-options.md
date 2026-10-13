@@ -185,7 +185,7 @@ Teachers work from India on a clock that never shifts, so the UK is five and a h
 One charge a month in US dollars, the rate outside India. The free lesson comes first, and billing only starts once a course and a weekly time are agreed.
 
 - Free first class: USD 0. A proper lesson, and something built in it. A frank view of readiness, including waiting. Nothing needed but a number.
-- Group batch: USD 100 a month. Five to ten students at the same stage. One named teacher throughout. Work saved where a parent can see it. A certificate at the end of a course.
+- Group batch: USD 100 a month. Fifteen to twenty students at the same stage. One named teacher throughout. Work saved where a parent can see it. A certificate at the end of a course.
 - One to one: USD 150 a month. Only the student and the teacher. Useful for a student well ahead or very hesitant. Arranged around clubs and school commitments.
 
 ## What parents ask before the form goes in

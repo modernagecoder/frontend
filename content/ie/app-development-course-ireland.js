@@ -70,7 +70,7 @@ module.exports = {
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
-  capsule: 'App development is taught here as the whole job: decide what the app is for, design screens that make sense, write the code, test it on real devices, publish it, then keep it working. Children start with block-based apps, teenagers and adults build cross-platform apps with real data behind them. Ireland gives us unusually good material, because the code of a nationally used app is public and readable. Classes are live, in groups of five to ten at one level or one to one. The first is free, then USD 100 a month in a group or USD 150 a month one to one.',
+  capsule: 'App development is taught here as the whole job: decide what the app is for, design screens that make sense, write the code, test it on real devices, publish it, then keep it working. Children start with block-based apps, teenagers and adults build cross-platform apps with real data behind them. Ireland gives us unusually good material, because the code of a nationally used app is public and readable. Classes are live, in groups of fifteen to twenty at one level or one to one. The first is free, then USD 100 a month in a group or USD 150 a month one to one.',
 
   picks: {
     eyebrow: 'Start here',
@@ -222,7 +222,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'You sketch an app idea with a teacher and build the first screen, then hear what building the rest involves.' },
-      { h3: 'Groups of five to ten', p: 'Learners at one level who test each other\'s apps, which is how real bugs get found.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners at one level who test each other\'s apps, which is how real bugs get found.' },
       { h3: 'One to one', p: 'For a specific product, a deadline or a platform choice that differs from the group.' },
       { h3: 'On a real phone', p: 'Apps run on the learner\'s own device early, because simulators hide the problems that matter.' },
       { h3: 'Three states per screen', p: 'Loading, empty and broken are designed alongside the happy path, every time.' },
@@ -238,7 +238,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'One monthly price in US dollars, the same in every country outside India, for any course here and any age. No enrolment fee, no annual commitment, and no charge for the first class.',
     free: ['An app idea sketched and a first screen built', 'An honest view of the right course', 'No card required'],
-    group: ['Five to ten learners at one level', 'The same teacher throughout', 'Apps tested by the group weekly', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same teacher throughout', 'Apps tested by the group weekly', 'A certificate at the end'],
     one: ['A teacher to yourself', 'Your own product or platform', 'Good for a deadline']
   },
 

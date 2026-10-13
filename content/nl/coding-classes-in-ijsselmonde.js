@@ -43,7 +43,7 @@ module.exports = {
 
   h1: 'Coding classes in IJsselmonde, which has as many pensioners as children only because one age band never ends',
   capsuleQ: 'What are the best coding classes in IJsselmonde?',
-  capsule: 'Coding classes in IJsselmonde reach 63,475 residents (1 January 2026) on 1,179 hectares of land at 5,376 people to the square kilometre, in 29,930 households averaging 2.1 people. The district publishes 11,115 residents under fifteen and 11,185 aged sixty-five and over, seventy apart, which reads as a place with as many pensioners as children. The first of those bands covers fifteen years and the second covers as many as anybody lives, so the two counts were never comparable. Modern Age Coders teaches live online in English across Beverwaard, Lombardijen and Groot IJsselmonde, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.',
+  capsule: 'Coding classes in IJsselmonde reach 63,475 residents (1 January 2026) on 1,179 hectares of land at 5,376 people to the square kilometre, in 29,930 households averaging 2.1 people. The district publishes 11,115 residents under fifteen and 11,185 aged sixty-five and over, seventy apart, which reads as a place with as many pensioners as children. The first of those bands covers fifteen years and the second covers as many as anybody lives, so the two counts were never comparable. Modern Age Coders teaches live online in English across Beverwaard, Lombardijen and Groot IJsselmonde, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.',
   lead: 'IJsselmonde has 11,115 residents under fifteen and 11,185 aged sixty-five or over. Both are eighteen percent, seventy people apart, and it is a striking sentence: as many pensioners as children. It is also an artefact. The first band is fifteen years wide. The second has no upper end at all. Per year of age the children come to about 741 and the pensioners cannot be worked out, because nobody has said where the band stops. The symmetry belongs to the table, not to the district.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in IJsselmonde.',
 
@@ -176,7 +176,7 @@ module.exports = {
       { h3: 'A weekly hour that arrives instead of being travelled to', p: 'The class happens in Beverwaard, Lombardijen or Oud IJsselmonde at the same time each week, which removes the crossing and the evening journey in one move.' },
       { h3: 'What is taught in English and what is not', p: 'Everything except four words. Groep, havo, vwo and profielkeuze are said in Dutch exactly as the school writes them, because those are the terms a child already recognises.' },
       { h3: 'A first lesson with nothing attached to it', p: 'The teacher gives the learner something real to do and watches how it goes. That fixes a level, the level fixes a course, and a weekly hour is agreed. No payment details are taken at any point.' },
-      { h3: 'The group is a level, not a place', p: 'Five to ten learners, all working at the same stage, from wherever in the world that stage happens to be populated this month. Two children in the same street at different stages are in different groups.' },
+      { h3: 'The group is a level, not a place', p: 'Fifteen to twenty learners, all working at the same stage, from wherever in the world that stage happens to be populated this month. Two children in the same street at different stages are in different groups.' },
       { h3: 'Two lessons a week, and the breaks are known', p: 'Around eight lessons a month. Zuid-Holland follows the regio Midden holiday calendar, published far ahead, so the weeks off are in the plan from the first day rather than sprung later.' },
       { h3: 'India does not change its clocks', p: 'The Netherlands does, twice a year, so the teacher is three and a half hours ahead for part of the year and four and a half for the rest. The hours that work are unaffected either way.' }
     ],
@@ -187,7 +187,7 @@ module.exports = {
     h2: 'The fee, in dollars, in all four buurten',
     intro: 'Printed here instead of held for a call.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'A single international rate, in dollars, with no euro edition, so an address in Beverwaard is charged what one in Lombardijen is. Nothing is paid until the free lesson has settled a course and an hour, and payment follows over WhatsApp. Pausing, switching plan and missing a week are all on the pricing page.'
   },
@@ -212,7 +212,7 @@ module.exports = {
       { q: 'Is the class taught in Dutch?', a: 'The lesson is in English. Four Dutch school words are kept unchanged, groep, havo, vwo and profielkeuze, on the grounds that a child already knows them and an English version would need converting back before it was useful. No course exists in a Dutch edition.' },
       { q: 'What hours work for a family in IJsselmonde?', a: 'The gap to the teacher is three and a half hours under Dutch summer time and four and a half outside it, all of the movement coming from the Dutch clock. Either way the afternoons after school, the early evenings and both weekend days are open. One repeating hour is agreed in the free lesson and then left alone.' },
       { q: 'Is there a Modern Age Coders classroom in IJsselmonde?', a: 'No, and none is claimed here, elsewhere in Rotterdam or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do IJsselmonde coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do IJsselmonde coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

@@ -177,7 +177,7 @@ module.exports = {
     intro: 'Six lines of logistics.',
     cells: [
       { h3: 'Teaching in real time', p: 'A teacher is on the call throughout, reacting to the learner\'s own work rather than playing a recording.' },
-      { h3: 'Groups of five to ten', p: 'Formed by level rather than by age or address, with learners joining from Ireland and further afield.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Formed by level rather than by age or address, with learners joining from Ireland and further afield.' },
       { h3: 'Two lessons most weeks', p: 'About eight a month, at an hour the household chooses at the start and then keeps.' },
       { h3: 'Terms and exams', p: 'Mid-terms, holidays and exam weeks are planned in when the slot is agreed.' },
       { h3: 'What to have ready', p: 'A desktop or laptop, working sound both ways, and a connection that holds video. Checked in the free lesson.' },
@@ -190,7 +190,7 @@ module.exports = {
     h2: 'Ashbourne class fees',
     intro: 'Three lines, and that is the whole of it.',
     first: 'The first lesson in full, taught and assessed, with nothing to pay and nothing owed afterwards.',
-    group: 'A month in an ability group of five to ten, around eight live lessons.',
+    group: 'A month in an ability group of fifteen to twenty, around eight live lessons.',
     private: 'A month of one to one teaching on the same weekly rhythm.',
     closer: 'We charge monthly in US dollars at the one rate that applies to every family outside India, so Ashbourne sees the same figure as Bray or Naas and there is no second list in euro. The first payment falls due only after the free lesson has settled a course and an hour, and breaks, missed weeks and changes between group and private teaching are all described on the pricing page.'
   },
@@ -215,7 +215,7 @@ module.exports = {
       { q: 'Can an adult in Ashbourne start from scratch?', a: 'Yes. Learners here run to sixty-seven, and the free lesson places a complete beginner either in a group at the same level or with a teacher one to one.' },
       { q: 'How quickly can a learner start?', a: 'Usually within a week or two of the free lesson, depending on which group at the right level has a place at a workable hour.' },
       { q: 'Is there a Modern Age Coders classroom in Ashbourne?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Ashbourne cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Ashbourne cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

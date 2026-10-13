@@ -16,7 +16,7 @@ Middelburg, Zeeland / Live online
 
 The States General did not reward Lipperhey with a monopoly. They ordered three binocular instruments from him instead and paid him 900 karolusguldens, the encyclopaedia records, because a patent is worthless when the thing it protects is already known to others. Security has the same problem. A lock, a cipher or a program whose safety depends on nobody learning how it works is only safe until the first person looks closely, and people always look. Auguste Kerckhoffs, born in Nuth in Limburg in 1835, put the lesson into a list of six principles for military ciphers in 1883, and the second is still taught to every student of security: the design should not require secrecy. What must stay secret is small, separate and easy to change, a key or a password, and the method can then be published, examined and improved by anyone. The same rule now governs passwords, websites, banking apps and AI assistants, and it is one of the most useful things a young programmer can learn.
 
-Facts last verified 11 September 2026. Teaching is online; no Middelburg branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Middelburg branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the capital of Zeeland
 
@@ -195,7 +195,7 @@ Every lesson is taught live over video, so a learner joins from home anywhere in
 - **A desk at home** The class meets on screen at the agreed hour. Nobody cycles anywhere, and a wet Zeeland evening makes no difference to it.
 - **Dutch school words kept** Groep 8, brugklas, vmbo, havo, vwo and the profiel are named in Dutch, because that is how Middelburg families talk about school; the lesson itself is in English.
 - **A first lesson with no bill** The learner works on a real task, the teacher recommends a level, a course and a time, and no payment details are asked for.
-- **Groups beyond Walcheren** Five to ten learners at one stage. Middelburg has 7,637 residents under fifteen, not enough to fill every level at every hour, so groups draw on learners from other towns and countries.
+- **Groups beyond Walcheren** Fifteen to twenty learners at one stage. Middelburg has 7,637 residents under fifteen, not enough to fill every level at every hour, so groups draw on learners from other towns and countries.
 - **On the regio Zuid calendar** Two lessons a week, about eight a month, at a set hour, with breaks for the regio Zuid school holidays that Zeeland follows.
 - **Teachers in India** India is three and a half hours ahead of Middelburg in summer and four and a half in winter, which leaves late afternoons, evenings and weekend mornings free for lessons.
 
@@ -206,7 +206,7 @@ Every lesson is taught live over video, so a learner joins from home anywhere in
 The full price list, nothing held back.
 
 - First class: USD 0. A real lesson on a real task, ending with a level and a course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner and one teacher.
 
 There is one price in US dollars for every country and no separate euro rate, so a family in the centre of Middelburg pays exactly what a family in a village of the municipality pays. Nothing is charged until the free lesson has settled a course and an hour, and payment is then arranged on WhatsApp. Pauses, switching format and missed lessons are covered on the pricing page.
@@ -247,7 +247,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Middelburg coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

@@ -14,7 +14,7 @@ Australia · Ages 6 to 67 · A teacher of your own
 
 Most of our learners do well in a small group, and we say so to families who ask. But some learners need a teacher to themselves: the child who finishes every task in five minutes, the teenager who freezes when others are watching, the adult who wants to work on their own project at their own speed. This page explains when one-to-one lessons are worth it, puts Australian school staffing figures in honest context, and uses a short simulation of mastery learning to show why two learners in the same class can need very different amounts of practice.
 
-At a glance: For: Ages 6 to 67; Format: One teacher, one learner; Paced by: Mastery, not a timetable; Subjects: Coding, AI and maths; Times: Set for your state; Delivery: Live online video; Alternative: Small groups of five to ten; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 6 to 67; Format: One teacher, one learner; Paced by: Mastery, not a timetable; Subjects: Coding, AI and maths; Times: Set for your state; Delivery: Live online video; Alternative: Groups of fifteen to twenty; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses often taken one to one
 
@@ -224,7 +224,7 @@ With one learner, the plan can change the moment it needs to.
 Private and group lessons outside India are charged monthly in US dollars, with one rate for all countries. There is no joining fee and no term contract, so you may stop after any month or switch formats.
 
 - Free first class: USD 0. A free first lesson. Advice on private or group. No card details.
-- Group batch: USD 100 a month. Five to ten learners. One regular teacher. Similar level. Monthly.
+- Group batch: USD 100 a month. Fifteen to twenty learners. One regular teacher. Similar level. Monthly.
 - One to one: USD 150 a month. A teacher to yourself. Mastery pacing. Your own project welcome.
 
 ## Common questions about one-on-one coding tutors

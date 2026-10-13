@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for St Davids lea
 canonical: https://learn.modernagecoders.com/best-coding-class-in-st-davids
 source: src/pages/best-coding-class-in-st-davids.html
 ---
-> St Davids and Letterston, the middle-layer area that contains the city, had 7,238 usual residents at the 2021 census and only 34.9 people per square kilometre. Cadw's listing dates most of St Davids Cathedral to between 1180 and 1220. Anyone from six to sixty-seven in and around St Davids can join: a teacher in India runs each lesson over a video call, one to one or with five to ten learners at a single level, fitted around the Welsh school day and working hours. The first lesson is free; after it, a class place is USD 100 a month and a teacher to themselves USD 150 a month.
+> St Davids and Letterston, the middle-layer area that contains the city, had 7,238 usual residents at the 2021 census and only 34.9 people per square kilometre. Cadw's listing dates most of St Davids Cathedral to between 1180 and 1220. Anyone from six to sixty-seven in and around St Davids can join: a teacher in India runs each lesson over a video call, one to one or with fifteen to twenty learners at a single level, fitted around the Welsh school day and working hours. The first lesson is free; after it, a class place is USD 100 a month and a teacher to themselves USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / St Davids
 
@@ -12,11 +12,11 @@ St Davids, Pembrokeshire / Live online
 
 # Coding classes in St Davids
 
-**What are the best coding classes in St Davids?** St Davids and Letterston, the middle-layer area that contains the city, had 7,238 usual residents at the 2021 census and only 34.9 people per square kilometre. Cadw's listing dates most of St Davids Cathedral to between 1180 and 1220. Anyone from six to sixty-seven in and around St Davids can join: a teacher in India runs each lesson over a video call, one to one or with five to ten learners at a single level, fitted around the Welsh school day and working hours. The first lesson is free; after it, a class place is USD 100 a month and a teacher to themselves USD 150 a month.
+**What are the best coding classes in St Davids?** St Davids and Letterston, the middle-layer area that contains the city, had 7,238 usual residents at the 2021 census and only 34.9 people per square kilometre. Cadw's listing dates most of St Davids Cathedral to between 1180 and 1220. Anyone from six to sixty-seven in and around St Davids can join: a teacher in India runs each lesson over a video call, one to one or with fifteen to twenty learners at a single level, fitted around the Welsh school day and working hours. The first lesson is free; after it, a class place is USD 100 a month and a teacher to themselves USD 150 a month.
 
 Ordnance Survey's gazetteer calls the city Tyddewi and St Davids, and gives its position on the National Grid. A phone's GPS gives a latitude and longitude. Put the grid position through the wrong conversion and St Davids Cathedral lands 83.2 metres away, 44.3 metres north and 70.5 metres west of where GPS would place it. Our St Davids project builds the right conversion from Ordnance Survey's own guide: grid to latitude and longitude on the Airy ellipsoid, then a seven-number Helmert transformation to the system GPS uses. Tested against 9,536 Environment Agency gauging stations, it agrees with their published coordinates to within 2.21 metres everywhere.
 
-Facts last verified 23 September 2026. Teaching is online; no St Davids branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no St Davids branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for Pembrokeshire's cathedral city
 
@@ -167,7 +167,7 @@ St Davids sits among farms and hamlets on a thinly settled peninsula. Online, a 
 - **City and peninsula** A learner in Rhodiad-y-Brenin and another in Upper Solva can share one class without anyone making the drive.
 - **Welsh schooling** Families will recognise our stages: they are matched to Welsh school years and the Curriculum for Wales, with WJEC GCSE and A level course names, though every lesson is taught in English.
 - **How the free lesson works** The learner builds something real in the first session, and the teacher then suggests a level, a course and a weekly time. We do not ask for a card.
-- **A class at every stage** Five to ten learners at one level, drawn from St Davids, the rest of the UK and abroad, so each stage has good times to choose from.
+- **A class at every stage** Fifteen to twenty learners at one level, drawn from St Davids, the rest of the UK and abroad, so each stage has good times to choose from.
 - **Two lessons weekly** Two fixed lessons each week, about eight a month, with holidays and exam weeks planned with the teacher well ahead.
 - **Teachers on Indian time** A class that starts at five in the afternoon in Pembrokeshire is a late-evening lesson in India, at 21:30 there during British Summer Time and 22:30 in the winter months.
 
@@ -178,7 +178,7 @@ St Davids sits among farms and hamlets on a thinly settled peninsula. Online, a 
 The first lesson is free, and then one fee is paid each month.
 
 - First class: USD 0. A complete lesson without charge, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month, in a class of five to ten learners at one stage.
+- Group tuition: USD 100 a month. About eight live lessons a month, in a class of fifteen to twenty learners at one stage.
 - Private tuition: USD 150 a month. About eight live lessons a month, with a teacher for your learner alone.
 
 Families in Whitchurch or Treleddyd-fawr pay in US dollars, like every family outside India, and our site shows no pound prices anywhere. Payment starts only after the free lesson, once you have settled on a course and a weekly time with us; the pricing page explains pauses, missed lessons and moving between a class and one-to-one teaching.
@@ -219,11 +219,11 @@ No. We have no centre in St Davids or anywhere else in the UK, because all lesso
 
 ### What do St Davids lessons cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are learners grouped?
 
-By level, pace and goals rather than age or location, with five to ten learners at the same stage. Where no group fits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than age or location, with fifteen to twenty learners at the same stage. Where no group fits the learner's week, we offer one-to-one lessons.
 
 ## Wales and beyond
 

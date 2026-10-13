@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI lessons for Carlow learners aged
 canonical: https://learn.modernagecoders.com/best-coding-class-in-carlow
 source: src/pages/best-coding-class-in-carlow.html
 ---
-> Carlow town holds 27,013 usual residents in the census town tables, in 10,053 households, 8,015 of which report broadband. Our lessons come to those addresses over video: a teacher present in real time, twice in most weeks, with five to ten learners at one level or with a single learner, for ages six to sixty-seven. The opening lesson is free of charge, after which a shared place is USD 100 a month and private teaching is USD 150.
+> Carlow town holds 27,013 usual residents in the census town tables, in 10,053 households, 8,015 of which report broadband. Our lessons come to those addresses over video: a teacher present in real time, twice in most weeks, with fifteen to twenty learners at one level or with a single learner, for ages six to sixty-seven. The opening lesson is free of charge, after which a shared place is USD 100 a month and private teaching is USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Carlow](/coding-classes-in-county-carlow) / Carlow
 
@@ -12,11 +12,11 @@ Carlow town, Carlow and Laois / Live online
 
 # Coding classes in Carlow
 
-**What is the best coding class in Carlow?** Carlow town holds 27,013 usual residents in the census town tables, in 10,053 households, 8,015 of which report broadband. Our lessons come to those addresses over video: a teacher present in real time, twice in most weeks, with five to ten learners at one level or with a single learner, for ages six to sixty-seven. The opening lesson is free of charge, after which a shared place is USD 100 a month and private teaching is USD 150.
+**What is the best coding class in Carlow?** Carlow town holds 27,013 usual residents in the census town tables, in 10,053 households, 8,015 of which report broadband. Our lessons come to those addresses over video: a teacher present in real time, twice in most weeks, with fifteen to twenty learners at one level or with a single learner, for ages six to sixty-seven. The opening lesson is free of charge, after which a shared place is USD 100 a month and private teaching is USD 150.
 
 Here is a sentence about this town: around eighty per cent of Carlow has broadband. Nobody can check it. Which Carlow, the built-up area or the county? Which year? Households or people? Which source? Here is the same claim written so that anybody can: in CSO table SAP2022T15T2TOWN22, under the label Carlow, Counties Carlow and Laois, read on 18 September 2026, the broadband row holds 8,015 and the total row 10,053, and 8,015 divided by 10,053 is 79.7% of households. The second version takes four times as long to write and can be re-derived by a stranger in five minutes. Every figure on this page is written the second way, and the project below is about making that a habit rather than a chore.
 
-Facts last verified 18 September 2026. Teaching is online; no Carlow branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 18 September 2026. Teaching is online; no Carlow branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Carlow learners begin
 
@@ -166,7 +166,7 @@ The scarce skill is not producing numbers. It is producing numbers that somebody
 Six lines.
 
 - **Live teaching** A teacher on the call for the whole lesson, responding to what the learner is building.
-- **Grouped by stage** Five to ten learners at one level, joining from Carlow, elsewhere in Ireland and abroad.
+- **Grouped by stage** Fifteen to twenty learners at one level, joining from Carlow, elsewhere in Ireland and abroad.
 - **Twice most weeks** About eight lessons a month, at an hour agreed at the start and kept.
 - **Term aware** Mid-terms, holidays and exam weeks are planned in rather than worked around later.
 - **What is needed** A computer with a keyboard, sound that works, and a connection that carries video.
@@ -179,7 +179,7 @@ Six lines.
 Three lines, and nothing hidden behind them.
 
 - First class: USD 0. A full opening lesson, taught and assessed, at no charge.
-- Group tuition: USD 100 a month. A month in an ability group of five to ten learners, about eight live lessons.
+- Group tuition: USD 100 a month. A month in an ability group of fifteen to twenty learners, about eight live lessons.
 - Private tuition: USD 150 a month. A month of private teaching on the same weekly pattern.
 
 Billing is monthly and in US dollars on the single rate for families outside India, so a Carlow household sees exactly what a household in Kilkenny or Waterford sees, with no euro list anywhere. The first charge comes after the opening lesson has settled a course and an hour, and the pricing page covers breaks, missed weeks and switching between group and private teaching.
@@ -220,7 +220,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Carlow cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

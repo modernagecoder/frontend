@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across the Shetland I
 canonical: https://learn.modernagecoders.com/coding-classes-in-shetland
 source: src/pages/coding-classes-in-shetland.html
 ---
-> The Shetland Islands council area had about 22,900 residents in roughly 10,600 households at the 2022 census, at 15.6 people per square kilometre. Lerwick is the main town, Scalloway and Brae are the only other settlements NRS lists as localities, and many islanders live in smaller places on the Mainland of Shetland and on isles such as Whalsay, Bressay, Yell and Unst. Our lessons are taught live on video from India, so an island postcode changes nothing, and a free first lesson finds each learner's stage, from P1 to S6 or adult. Anyone aged 6 to 67 can learn coding, Python and maths in a group of five to ten or one-to-one. The Shetland project starts with Lerwick's latitude. Continuing costs USD 100 a month in a group, or USD 150 a month with a teacher of your own.
+> The Shetland Islands council area had about 22,900 residents in roughly 10,600 households at the 2022 census, at 15.6 people per square kilometre. Lerwick is the main town, Scalloway and Brae are the only other settlements NRS lists as localities, and many islanders live in smaller places on the Mainland of Shetland and on isles such as Whalsay, Bressay, Yell and Unst. Our lessons are taught live on video from India, so an island postcode changes nothing, and a free first lesson finds each learner's stage, from P1 to S6 or adult. Anyone aged 6 to 67 can learn coding, Python and maths in a group of fifteen to twenty or one-to-one. The Shetland project starts with Lerwick's latitude. Continuing costs USD 100 a month in a group, or USD 150 a month with a teacher of your own.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Shetland Islands
 
@@ -12,11 +12,11 @@ Shetland Islands / Live online
 
 # Coding classes in the Shetland Islands
 
-**What are the best coding classes in Shetland?** The Shetland Islands council area had about 22,900 residents in roughly 10,600 households at the 2022 census, at 15.6 people per square kilometre. Lerwick is the main town, Scalloway and Brae are the only other settlements NRS lists as localities, and many islanders live in smaller places on the Mainland of Shetland and on isles such as Whalsay, Bressay, Yell and Unst. Our lessons are taught live on video from India, so an island postcode changes nothing, and a free first lesson finds each learner's stage, from P1 to S6 or adult. Anyone aged 6 to 67 can learn coding, Python and maths in a group of five to ten or one-to-one. The Shetland project starts with Lerwick's latitude. Continuing costs USD 100 a month in a group, or USD 150 a month with a teacher of your own.
+**What are the best coding classes in Shetland?** The Shetland Islands council area had about 22,900 residents in roughly 10,600 households at the 2022 census, at 15.6 people per square kilometre. Lerwick is the main town, Scalloway and Brae are the only other settlements NRS lists as localities, and many islanders live in smaller places on the Mainland of Shetland and on isles such as Whalsay, Bressay, Yell and Unst. Our lessons are taught live on video from India, so an island postcode changes nothing, and a free first lesson finds each learner's stage, from P1 to S6 or adult. Anyone aged 6 to 67 can learn coding, Python and maths in a group of fifteen to twenty or one-to-one. The Shetland project starts with Lerwick's latitude. Continuing costs USD 100 a month in a group, or USD 150 a month with a teacher of your own.
 
 The Met Office weather station at Lerwick has kept monthly records since 1930, and its data file gives the station's position in a single line: latitude 60.139, longitude -1.183. Sailors, pilots and many map apps would write the same place as 60 degrees, 8 minutes and 20.4 seconds north, counting in sixties the way people have done for thousands of years. Converting between the two looks like simple arithmetic, yet a first attempt at the code usually contains a bug that prints impossible times such as 59 degrees, 59 minutes and 60 seconds. This page's project writes the converter in Python, finds that bug, and discovers why a degree of longitude in Shetland is only half as long as one at the equator.
 
-Facts last verified 26 September 2026. Teaching is online; no Shetland Islands branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Shetland Islands branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Shetland learners begin
 
@@ -133,7 +133,7 @@ Whether on the Mainland or a smaller isle, learners join from home.
 - **Any isle with internet** Whalsay, Yell, Bressay or Lerwick itself: a laptop and a connection that carries video are enough.
 - **Scottish stages in class** Teachers use P and S stages and the National 5, Higher and Advanced Higher names Shetland pupils know. Lessons are in English.
 - **A free trial first** One full lesson costs nothing, and afterwards we say plainly what would suit.
-- **Classmates at your level** Groups of five to ten learners who share a stage, joining from all over.
+- **Classmates at your level** Groups of fifteen to twenty learners who share a stage, joining from all over.
 - **Lessons in term** Twice a week in term, with the school holidays off.
 - **UK time, held steady** When the clocks change, your lesson stays at its UK hour; our teachers on India time move instead.
 
@@ -144,7 +144,7 @@ Whether on the Mainland or a smaller isle, learners join from home.
 Lerwick or Unst, the fee is the same, the rate we charge in every country outside India.
 
 - First class: USD 0. A full free lesson, then an honest recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month, one learner and one teacher.
 
 Fees are in US dollars only, with no sterling list. Once the free trial has settled a course and a weekly time, billing begins; our pricing page explains holidays, absences and moving between group and private lessons.

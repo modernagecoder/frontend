@@ -410,7 +410,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Free first class', p: 'A short concept check against the unit\'s public outline.' },
-      { h3: 'Small groups', p: 'Five to ten students, often from different universities.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty students, often from different universities.' },
       { h3: 'One to one', p: 'For one unit, one language or a repeat attempt.' },
       { h3: 'A week ahead', p: 'Concepts taught before the lecture covers them.' },
       { h3: 'Our own problems', p: 'Practice written by us, never taken from the unit.' },
@@ -424,7 +424,7 @@ module.exports = {
     h2: 'Fees for university coding support',
     lede: 'University students in Australia pay one monthly fee in US dollars. There is no joining charge, and lessons can end with any month.',
     free: ['A concept check against your unit', 'An honest plan for the semester', 'No card required'],
-    group: ['Five to ten students per group', 'Practice problems written by us', 'One teacher all semester', 'Leave at any month\'s end'],
+    group: ['Fifteen to twenty students per group', 'Practice problems written by us', 'One teacher all semester', 'Leave at any month\'s end'],
     one: ['Built around one unit and language', 'Pace matched to the semester', 'Evening and weekend times']
   },
   faq: {

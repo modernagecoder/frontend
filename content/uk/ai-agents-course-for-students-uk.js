@@ -239,7 +239,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'Talk through what you want to build and leave with a first version of the plan.' },
-      { h3: 'Small groups', p: 'Five to ten students at the same level, reviewing each other\'s agents and test sets.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty students at the same level, reviewing each other\'s agents and test sets.' },
       { h3: 'One to one', p: 'For a faster pace, and the only format for the Copilot Studio course.' },
       { h3: 'Your repository', p: 'Everything lives in your own GitHub account, so the evidence stays with you.' },
       { h3: 'Explained out loud', p: 'You talk through your agent\'s design choices in lessons, the way you would to an interviewer.' },
@@ -255,7 +255,7 @@ module.exports = {
     h2: 'Fees for students',
     lede: 'A single monthly fee in US dollars, the same in every country outside India. There is no enrolment charge and no term contract, so a month can be the last one whenever exams or a placement get in the way. The Copilot Studio course is one to one only and uses the one-to-one fee.',
     free: ['Your project idea examined with a teacher', 'An honest route from where you are', 'No payment details needed'],
-    group: ['Five to ten students at one level', 'The same teacher every week', 'Peer review of agents and tests', 'Pause at the end of any month'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher every week', 'Peer review of agents and tests', 'Pause at the end of any month'],
     one: ['A teacher for you alone', 'A pace set by your timetable', 'The format for Copilot Studio']
   },
 
@@ -269,7 +269,7 @@ module.exports = {
       { q: 'Can I use my agent in a university module?', a: 'Only if your module\'s rules allow it, and you should acknowledge it as your university requires. Ask your module leader; rules often differ between modules.' },
       { q: 'Do I need to study computer science?', a: 'No. Agents are useful in economics, engineering, the sciences and the humanities alike. Some Python helps for the engineering route, and the Python course can come first.' },
       { q: 'What will I actually have at the end?', a: 'A public repository with a commit history, a README with the agent\'s purpose and known failures, a test set with a pass rate, and practice explaining it all out loud.' },
-      { q: 'Is the Copilot Studio course available in a group?', a: 'No, it is taught one to one only. The other courses on this page run in groups of five to ten or one to one.' },
+      { q: 'Is the Copilot Studio course available in a group?', a: 'No, it is taught one to one only. The other courses on this page run in groups of fifteen to twenty or one to one.' },
       { q: 'Do I need to pay for AI tools?', a: 'Not for most of the course. The Codex and Claude Code course needs your own paid Claude and ChatGPT subscriptions, bought directly from those companies.' },
       { q: 'What does it cost?', a: 'The first class is free. After that a group place is USD 100 a month and one-to-one lessons USD 150 a month, with no enrolment fee and no term contract.' },
       { q: 'When are lessons?', a: 'Weekday evenings or weekends in UK time, fixed in the free class. Our teachers are four and a half hours ahead of the UK in summer and five and a half in winter.' }

@@ -1,10 +1,10 @@
 ---
 title: "Coding Classes in Qatar | Live Online Python & AI Courses"
-description: "Live online coding classes in Qatar for kids, teens and professionals. Python, AI and web development in small batches of 5 to 8, evenings in AST. Free demo."
+description: "Live online coding classes in Qatar for kids, teens and professionals. Python, AI and web development in batches of 15 to 20, evenings in AST. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-in-qatar
 source: src/pages/coding-classes-in-qatar.html
 ---
-> Live online coding classes in Qatar for kids, teens and professionals. Python, AI and web development in small batches of 5 to 8, evenings in AST. Free demo.
+> Live online coding classes in Qatar for kids, teens and professionals. Python, AI and web development in batches of 15 to 20, evenings in AST. Free demo.
 
 The catalogue
 
@@ -52,7 +52,7 @@ The format is simple on purpose. Six facts cover all of it.
 
 Every class is a live video call with a teacher who knows the student by name. Students speak, share screens, and get unstuck in the moment, not by email two days later.
 
-### Batches of five to eight
+### Batches of fifteen to twenty
 
 The batch is small enough that silence gets noticed. A struggling student gets help in the same class, and a quick one gets harder problems. One-on-one is available if you prefer it.
 
@@ -127,7 +127,7 @@ Plainly put
 
 The person on the call is a trained instructor whose whole job is teaching. We keep students with the same teacher wherever possible, because continuity is where teaching compounds.
 
-### Five to eight per batch
+### Fifteen to twenty per batch
 
 Small batches are not a premium add-on. They are the entire model, because attention is what you are actually paying for.
 
@@ -229,7 +229,7 @@ Group classes
 
 $100 per month
 
-- Live classes in batches of 5 to 8
+- Live classes in batches of 15 to 20
 - Evening and weekend AST slots
 - Real projects and a completion certificate
 - Free demo class before you enrol

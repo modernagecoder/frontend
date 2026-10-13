@@ -16,7 +16,7 @@ Sydney, New South Wales, Australia / Live online
 
 Every Sydney child knows the harbour has ferries going everywhere. Put the wharves on a Scratch stage and it turns into a lovely coding puzzle. OpenStreetMap lists 71 wharf entries in the rectangle we drew over the harbour, from Kissing Point in the west to Manly in the east. Each one has a latitude and longitude, but Scratch only understands x from -240 to 240 and y from -180 to 180. Our young Sydney coders work out how to convert one into the other, and find that the obvious way squashes the harbour out of shape.
 
-Facts last verified 7 October 2026. Teaching is online; no Sydney branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Sydney branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Popular first courses for Sydney children
 
@@ -177,7 +177,7 @@ Greater Sydney is huge, and afternoon traffic makes travelling to a class a big 
 - **At your desk** Any laptop or desktop with working sound. A parent beside the youngest children for the first lesson helps them relax.
 - **Familiar school language** We talk about Kindergarten, Stage 2 or Year 7 exactly as a Sydney classroom does, so the lesson feels connected to school.
 - **Free first session** A full lesson with something finished at the end, then our suggestion for course and time. Card details are never asked for.
-- **Groups of five to ten** Children working at a similar level, or private lessons if they suit your child better.
+- **Groups of fifteen to twenty** Children working at a similar level, or private lessons if they suit your child better.
 - **Steady weekly rhythm** About eight lessons a month, often two a week at a fixed time.
 - **Teachers on India time** Our teachers work on India time, which trails Sydney by 4.5 hours in the cooler months and by 5.5 hours while daylight saving runs. A Sydney after-school class therefore falls in their late morning.
 
@@ -188,7 +188,7 @@ Greater Sydney is huge, and afternoon traffic makes travelling to a class a big 
 Three prices, plainly put.
 
 - First class: USD 0. A free first lesson, finishing with a suggested level, course and time.
-- Group tuition: USD 100 a month. About eight lessons a month with five to ten children at a matching level.
+- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty children at a matching level.
 - Private tuition: USD 150 a month. About eight lessons a month for your child alone with a teacher.
 
 Outside India, every family pays in US dollars at the same single rate, from the inner west to the Hills. Nothing is charged until after the trial lesson and your choice of course and slot; the pricing page explains holidays, absences and changing between group and private lessons.
@@ -229,11 +229,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do coding classes for Sydney kids cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Sydney families
 

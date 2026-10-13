@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across the Vale of Gl
 canonical: https://learn.modernagecoders.com/coding-classes-in-vale-of-glamorgan
 source: src/pages/coding-classes-in-vale-of-glamorgan.html
 ---
-> At the 2021 census the Vale of Glamorgan had 131,939 residents. Barry, with a built-up area of 56,605, is by far the largest town; Dinas Powis, Rhoose, Llantwit Major and Cowbridge follow, along with Eglwys-Brewis, Boverton and St Athan. Every lesson we give is live, on video, from our teachers in India. Learners aged 6 to 67 study coding, Python and maths, as a private pupil or in a group of five to ten placed by level. It starts with a free lesson that picks the right course. The Vale project counts pigeons in a medieval dovecote. Afterwards the fee is USD 100 a month in a group or USD 150 a month one-to-one.
+> At the 2021 census the Vale of Glamorgan had 131,939 residents. Barry, with a built-up area of 56,605, is by far the largest town; Dinas Powis, Rhoose, Llantwit Major and Cowbridge follow, along with Eglwys-Brewis, Boverton and St Athan. Every lesson we give is live, on video, from our teachers in India. Learners aged 6 to 67 study coding, Python and maths, as a private pupil or in a group of fifteen to twenty placed by level. It starts with a free lesson that picks the right course. The Vale project counts pigeons in a medieval dovecote. Afterwards the fee is USD 100 a month in a group or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Vale of Glamorgan
 
@@ -12,11 +12,11 @@ Vale of Glamorgan / Live online
 
 # Coding classes in the Vale of Glamorgan
 
-**What are the best coding classes in the Vale of Glamorgan?** At the 2021 census the Vale of Glamorgan had 131,939 residents. Barry, with a built-up area of 56,605, is by far the largest town; Dinas Powis, Rhoose, Llantwit Major and Cowbridge follow, along with Eglwys-Brewis, Boverton and St Athan. Every lesson we give is live, on video, from our teachers in India. Learners aged 6 to 67 study coding, Python and maths, as a private pupil or in a group of five to ten placed by level. It starts with a free lesson that picks the right course. The Vale project counts pigeons in a medieval dovecote. Afterwards the fee is USD 100 a month in a group or USD 150 a month one-to-one.
+**What are the best coding classes in the Vale of Glamorgan?** At the 2021 census the Vale of Glamorgan had 131,939 residents. Barry, with a built-up area of 56,605, is by far the largest town; Dinas Powis, Rhoose, Llantwit Major and Cowbridge follow, along with Eglwys-Brewis, Boverton and St Athan. Every lesson we give is live, on video, from our teachers in India. Learners aged 6 to 67 study coding, Python and maths, as a private pupil or in a group of fifteen to twenty placed by level. It starts with a free lesson that picks the right course. The Vale project counts pigeons in a medieval dovecote. Afterwards the fee is USD 100 a month in a group or USD 150 a month one-to-one.
 
 Beside Cadoxton Court in Barry stands a round stone dovecote, probably from the 13th century, which Cadw lists at Grade I as the largest and most intact medieval dovecote in Glamorgan. Inside, the walls were lined with nesting holes about 15 centimetres square and 45 deep. The record gives two numbers: originally 700 nesting holes, and capacity for 1,400 pigeons. Those two numbers hold three good problems. What is certain to happen if too many birds move in? What is likely to happen if birds choose holes at random? And could 700 holes really fit on those walls? Each question needs a different kind of maths, and this page's project answers all three in Python.
 
-Facts last verified 26 September 2026. Teaching is online; no Vale of Glamorgan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Vale of Glamorgan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses across the Vale
 
@@ -135,7 +135,7 @@ Town or village, a home connection is enough.
 - **Learners do the typing** Students build each program themselves; the tutor keeps an eye on their screen and offers a question when they get stuck.
 - **Welsh school years** A Boverton Year 5 or a Dinas Powis Year 11 is placed by Welsh year and progression step, and exams go by WJEC names. Teaching is in English.
 - **Free start** The trial lesson is complete and free, and ends with a clear suggestion.
-- **Classes by stage** Five to ten learners at one level, from across the UK.
+- **Classes by stage** Fifteen to twenty learners at one level, from across the UK.
 - **Term timetable** Twice weekly during term; holidays kept clear.
 - **Clock changes covered** When Britain changes its clocks, your lesson keeps its usual hour and our teachers in India move instead.
 
@@ -146,7 +146,7 @@ Town or village, a home connection is enough.
 Barry or Cowbridge, the fee is identical, and it matches every other country we teach outside India.
 
 - First class: USD 0. A full trial lesson, free, and clear advice after it.
-- Group tuition: USD 100 a month. Roughly eight lessons a month in a class of five to ten.
+- Group tuition: USD 100 a month. Roughly eight lessons a month in a class of fifteen to twenty.
 - Private tuition: USD 150 a month. Roughly eight lessons a month with a personal tutor.
 
 We price in US dollars alone and never in sterling. Nothing is charged until the trial settles a course and a weekly slot, and the pricing page covers holidays, missed lessons and moving between formats.

@@ -16,7 +16,7 @@ Mount Gambier, South Australia / Live online
 
 Ask an AI agent to find the flat ground on NASA's elevation grid around Mount Gambier and it will write a labelling program in seconds: give every cell a label, join neighbours with exactly the same height, count the patches. On our 12,221-cell grid the program reports 7,993 flat patches. Ask again in a fresh session and it may report 6,309. The data did not change. The agent quietly decided whether diagonal cells count as neighbours, and that one choice also moves the third largest flat from 21 cells to 58. The two biggest flats do not move at all, and one of them sits at minus one metre, which deserves a question of its own.
 
-Facts last verified 9 October 2026. Teaching is online; no Mount Gambier branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 October 2026. Teaching is online; no Mount Gambier branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Working with AI agents, at every level
 
@@ -168,7 +168,7 @@ Every learner in the city joins from home, so distance across town or across the
 - **From any street** Learners anywhere in Mount Gambier sit in the same online class with no travel.
 - **South Australian levels** Lessons fit South Australian year levels, including SACE study in Years 11 and 12, in English.
 - **Opening lesson free** Build something with an AI and a teacher, then get a suggested level, course and slot; no card is requested.
-- **Five to ten learners** A group shares one level and draws from South Australia, the rest of Australia and abroad.
+- **Fifteen to twenty learners** A group shares one level and draws from South Australia, the rest of Australia and abroad.
 - **Two lessons weekly** Roughly eight lessons a month, with school holidays planned around.
 - **Daylight saving handled** When South Australian clocks change, the lesson stays at its Mount Gambier time.
 
@@ -179,7 +179,7 @@ Every learner in the city joins from home, so distance across town or across the
 The complete list of prices.
 
 - First class: USD 0. A free first lesson that ends with a level, a course and a time.
-- Group tuition: USD 100 a month. A month in a group of five to ten learners, usually eight lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty learners, usually eight lessons.
 - Private tuition: USD 150 a month. About eight lessons a month alone with one teacher.
 
 Mount Gambier learners pay the same US dollar rate as everyone in Australia, with no regional loading. Payment starts once the trial has fixed a course and time; the pricing page explains breaks, missed lessons and changing formats.
@@ -220,11 +220,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Mount Gambier coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Mount Gambier and South Australian learners
 

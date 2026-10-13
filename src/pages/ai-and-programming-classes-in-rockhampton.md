@@ -16,7 +16,7 @@ Rockhampton, Queensland, Australia / Live online
 
 Planning is one of the oldest jobs in artificial intelligence, and scheduling vehicles is planning at its plainest. Translink publishes Rockhampton's bus timetable as open data: 182 trips on an ordinary weekday, the first leaving at 6:41 in the morning. How few buses could possibly run all of them? Treat each trip as a stretch of time on a line and the answer comes from a short, elegant algorithm. At 8:31am, 13 trips overlap. No schedule can use fewer than 13 buses, and a simple greedy assignment proves 13 is enough, as long as a bus can start its next trip the instant it finishes one. Add realistic turnaround time and the number climbs. Learners find out by how much.
 
-Facts last verified 7 October 2026. Teaching is online; no Rockhampton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Rockhampton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## How Rockhampton learners start with AI and algorithms
 
@@ -190,7 +190,7 @@ Rockhampton sits on both banks of the Fitzroy, and a video lesson reaches either
 Here are the three prices.
 
 - First class: USD 0. A full lesson at no charge, finishing with a recommended level, a course and a regular time.
-- Group tuition: USD 100 a month. Roughly eight lessons a month in a group of five to ten learners at your stage.
+- Group tuition: USD 100 a month. Roughly eight lessons a month in a group of fifteen to twenty learners at your stage.
 - Private tuition: USD 150 a month. Around eight lessons a month with a teacher working one to one.
 
 Fees are charged in US dollars in every country but India, so a family in Gracemere pays the same as one in The Range, with no Queensland pricing. Billing starts only after the trial agrees a course and a time, and the pricing page explains holidays, absences and changes between group and private lessons.
@@ -231,11 +231,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Rockhampton classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## Further Rockhampton and Queensland reading
 

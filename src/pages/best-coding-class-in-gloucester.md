@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Gloucester le
 canonical: https://learn.modernagecoders.com/best-coding-class-in-gloucester
 source: src/pages/best-coding-class-in-gloucester.html
 ---
-> The 2021 census counted 132,416 usual residents in Gloucester, and children aged five to nine made up 6.3% of them, against 5.9% in England. Gloucester Cathedral says its site has seen continuous Christian worship since 678 to 679 AD, and that its Great Cloister holds the earliest known fan vaulting in the world. Anyone in Gloucester aged between six and sixty-seven can have a live video lesson with one of our India-based teachers, either alone or with five to ten classmates at the same stage, timed for UK after-school and evening hours. The first lesson is free, and after that a group place is USD 100 a month and private teaching USD 150.
+> The 2021 census counted 132,416 usual residents in Gloucester, and children aged five to nine made up 6.3% of them, against 5.9% in England. Gloucester Cathedral says its site has seen continuous Christian worship since 678 to 679 AD, and that its Great Cloister holds the earliest known fan vaulting in the world. Anyone in Gloucester aged between six and sixty-seven can have a live video lesson with one of our India-based teachers, either alone or with fifteen to twenty classmates at the same stage, timed for UK after-school and evening hours. The first lesson is free, and after that a group place is USD 100 a month and private teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Gloucester
 
@@ -12,11 +12,11 @@ Gloucester, Gloucestershire / Live online
 
 # Coding classes in Gloucester
 
-**What are the best coding classes in Gloucester?** The 2021 census counted 132,416 usual residents in Gloucester, and children aged five to nine made up 6.3% of them, against 5.9% in England. Gloucester Cathedral says its site has seen continuous Christian worship since 678 to 679 AD, and that its Great Cloister holds the earliest known fan vaulting in the world. Anyone in Gloucester aged between six and sixty-seven can have a live video lesson with one of our India-based teachers, either alone or with five to ten classmates at the same stage, timed for UK after-school and evening hours. The first lesson is free, and after that a group place is USD 100 a month and private teaching USD 150.
+**What are the best coding classes in Gloucester?** The 2021 census counted 132,416 usual residents in Gloucester, and children aged five to nine made up 6.3% of them, against 5.9% in England. Gloucester Cathedral says its site has seen continuous Christian worship since 678 to 679 AD, and that its Great Cloister holds the earliest known fan vaulting in the world. Anyone in Gloucester aged between six and sixty-seven can have a live video lesson with one of our India-based teachers, either alone or with fifteen to twenty classmates at the same stage, timed for UK after-school and evening hours. The first lesson is free, and after that a group place is USD 100 a month and private teaching USD 150.
 
 Environment Agency gauges measure the River Severn every few minutes at Sharpness, Epney, Minsterworth and Gloucester. At Sharpness the tide rises and falls by several metres twice a day. Does each tide reach Gloucester, and when? Line the two records up with one fixed delay and even the closest choice, 150 minutes, still leaves them badly out of step. Dynamic time warping lets the delay stretch and shrink, and the match improves sharply. Look closer, though, and in four weeks only 16 of 54 tides lifted Gloucester by 30 centimetres or more; the rest barely register. The flexible method was also bending itself to match river wiggles that were not the tide at all. Our teenagers learn both lessons.
 
-Facts last verified 23 September 2026. Teaching is online; no Gloucester branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Gloucester branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the city on the Severn
 
@@ -175,7 +175,7 @@ From Longlevens to Quedgeley, a school-run crossing of Gloucester takes time. A 
 - **North to south of the city** A learner in Longlevens and another in Abbeymead can join the same lesson without anyone driving across town.
 - **Stages from Reception on** We use the stages Gloucester schools use, Reception and Key Stages 1 to 4 through to GCSE and A level, and we teach in English.
 - **A free lesson worth the time** The first session is real teaching and ends with a suggested level, course and weekly time. Nobody asks for card details.
-- **Groups of five to ten** Everyone in a group is at the same stage, drawn from Gloucester, the rest of the UK and abroad, so each level has a workable hour.
+- **Groups of fifteen to twenty** Everyone in a group is at the same stage, drawn from Gloucester, the rest of the UK and abroad, so each level has a workable hour.
 - **A twice-weekly habit** Two fixed lessons each week, about eight a month, with school holidays and exams planned with the teacher in advance.
 - **Teachers on Indian time** A 4 pm class in Gloucester begins at 8.30 pm in India in British Summer Time and 9.30 pm in winter, because India never changes its clocks; our teachers work those evenings for UK learners.
 
@@ -186,7 +186,7 @@ From Longlevens to Quedgeley, a school-run crossing of Gloucester takes time. A 
 One free lesson, then a single monthly fee.
 
 - First class: USD 0. A full lesson at no charge, finishing with a recommended level, course and weekly slot.
-- Group tuition: USD 100 a month. About eight live lessons a month in a group of five to ten learners at one stage.
+- Group tuition: USD 100 a month. About eight live lessons a month in a group of fifteen to twenty learners at one stage.
 - Private tuition: USD 150 a month. About eight live lessons a month, just the teacher and your learner.
 
 Matson and Hempsted pay the same as any other family outside India, one fee in US dollars, and you will find no pound prices on our site. You are billed only after the free lesson, once a course and a time are agreed; pausing, missed lessons and switching between group and one-to-one lessons are explained on the pricing page.
@@ -227,11 +227,11 @@ No. There is no Gloucester centre and no premises anywhere in the UK; every less
 
 ### How much do Gloucester lessons cost?
 
-The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
+The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
 
 ### How are Gloucester groups formed?
 
-By level, pace and goals rather than age or address, with five to ten learners at one stage. If no group suits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than age or address, with fifteen to twenty learners at one stage. If no group suits the learner's week, we offer one-to-one lessons.
 
 ## The Severn and beyond
 

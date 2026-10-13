@@ -288,7 +288,7 @@ module.exports = {
       { h3: 'Real teacher', p: 'Each session is taught live, with questions answered on the spot.' },
       { h3: 'Term pattern', p: 'Sessions follow Queensland school terms and pause for breaks.' },
       { h3: 'Free start', p: 'Try one session free, then receive a short plan.' },
-      { h3: 'Group size', p: 'Groups of five to ten at a matching level, or private.' },
+      { h3: 'Group size', p: 'Groups of fifteen to twenty at a matching level, or private.' },
       { h3: 'Weekly', p: 'Two sessions each week, around eight monthly.' },
       { h3: 'Indian time', p: 'A 5pm Robina session is 12:30pm in India on any date.' }
     ],
@@ -301,7 +301,7 @@ module.exports = {
     h2: 'Robina fees',
     intro: 'Every learner pays the same published fees.',
     first: 'The opening session is free, with a course suggestion afterwards.',
-    group: 'Group: around eight sessions a month, five to ten learners.',
+    group: 'Group: around eight sessions a month, fifteen to twenty learners.',
     private: 'Private: around eight sessions a month with a personal teacher.',
     closer: 'Billing is in US dollars and begins once the trial has settled a course and a regular slot. Holiday and absence rules are on the pricing page.'
   },
@@ -337,12 +337,12 @@ module.exports = {
       },
       {
         q: 'What do Robina classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who are the other learners?',
-        a: 'Five to ten learners at a similar level and pace, not grouped by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not grouped by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Can adults build agents here?', a: 'Yes. Adults have their own groups or private sessions and often bring a tool from work to make reliable.' }

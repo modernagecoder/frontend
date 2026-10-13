@@ -222,7 +222,7 @@ module.exports = {
       { h3: 'Contracts written', p: 'Students state what each function promises before writing it.' },
       { h3: 'Tests by the student', p: 'Students write their own checks, including the awkward cases.' },
       { h3: 'Explain it back', p: 'A program is finished when the student can explain every line.' },
-      { h3: 'Small groups', p: 'Five to ten students, or one to one.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty students, or one to one.' },
       { h3: 'Never your assessment', p: 'We teach technique; assessed work stays the student\'s own.' }
     ]
   },
@@ -235,7 +235,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Families outside India are billed monthly in US dollars at a rate that does not change between countries. No sign-up fee applies and nothing locks you in for a term; any month can be the last.',
     free: ['A full trial lesson, free', 'An honest read of current level', 'No card required'],
-    group: ['Five to ten students', 'One steady teacher', 'Matched by level', 'Month by month'],
+    group: ['Fifteen to twenty students', 'One steady teacher', 'Matched by level', 'Month by month'],
     one: ['One teacher, one student', 'Around school and exams', 'Your pace']
   },
 

@@ -266,7 +266,7 @@ module.exports = {
       { h3: 'Tested as built', p: 'Testing recorded throughout every practice product, because Task 5 grades the testing as well as the result.' },
       { h3: 'Spreadsheets early', p: 'Data cleaning and analysis first, since Task 1 opens the unit and sets up everything after it.' },
       { h3: 'Stop before control', p: 'Practice ends before the school\'s supervised hours start, and lessons turn to Unit 1.' },
-      { h3: 'Small groups', p: 'Five to ten students at one rung, reviewing each other\'s practice products.' }
+      { h3: 'Small groups', p: 'Fifteen to twenty students at one rung, reviewing each other\'s practice products.' }
     ]
   },
 
@@ -278,7 +278,7 @@ module.exports = {
     h2: 'Fees for Digital Technology lessons',
     lede: 'Fees are charged monthly in US dollars, at one rate for all families outside India. There is no charge for the first lesson, and none at all until a course and a weekly time are agreed.',
     free: ['A real lesson on Digital Technology skills', 'An honest view of which rung fits', 'A phone number is enough'],
-    group: ['Five to ten students on one rung', 'One teacher through Years 10 and 11', 'Practice products reviewed each week', 'Unit 1 theory once controlled work starts'],
+    group: ['Fifteen to twenty students on one rung', 'One teacher through Years 10 and 11', 'Practice products reviewed each week', 'Unit 1 theory once controlled work starts'],
     one: ['A teacher for one student', 'Planned back from the school\'s dates', 'Suits a student deciding between game and animation']
   },
 

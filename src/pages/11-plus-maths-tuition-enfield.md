@@ -196,7 +196,7 @@ Teaching is live from India. Primary lessons run in the early evening or at week
 
 - **The same teacher** So each child's habits and errors are known.
 - **Honest notes home** Brief and specific, including what is not working yet.
-- **Classes of five to ten** Matched by level, so nobody is lost or bored.
+- **Classes of fifteen to twenty** Matched by level, so nobody is lost or bored.
 - **Original questions** We copy nothing from Quest, GL or the school.
 - **One to one if useful** For fractions or any stubborn gap.
 - **Maths is our part** No English coaching; no advice on admissions.
@@ -206,7 +206,7 @@ Teaching is live from India. Primary lessons run in the early evening or at week
 Charged each month in US dollars, the same for all families outside India. No enrolment fee and no fixed term.
 
 - Free first class: USD 0. A real lesson with a teacher. A straight account afterwards. No card details.
-- Group batch: USD 100 a month. Five to ten children, one level. A regular teacher. Work marked with the child. A certificate on completion.
+- Group batch: USD 100 a month. Fifteen to twenty children, one level. A regular teacher. Work marked with the child. A certificate on completion.
 - One to one: USD 150 a month. Individual lessons. Built around the gaps. Useful in the summer before the test.
 
 ## What Enfield families ask us

@@ -12,7 +12,7 @@ Live online · serving Madurai
 
 Real programming for kids, teens and college students in Madurai, from **Anna Nagar to KK Nagar, Goripalayam to Tallakulam**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Madurai)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**MaduraiEnrollingAreasAnna Nagar, KK Nagar, Goripalayam, Tallakulam, Villapuram & all of MaduraiBoardsTamil Nadu State Board · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across MaduraiFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Madurai)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**MaduraiEnrollingAreasAnna Nagar, KK Nagar, Goripalayam, Tallakulam, Villapuram & all of MaduraiBoardsTamil Nadu State Board · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across MaduraiFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -140,7 +140,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -162,7 +162,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -171,7 +171,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -180,7 +180,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -255,7 +255,7 @@ Takes under a minute.
 
 ## Coding classes in Madurai: FAQs
 
-What is the best coding class in Madurai for kids?Modern Age Coders offers the best coding classes in Madurai for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Madurai areas including Anna Nagar, KK Nagar, Goripalayam, and Ellis Nagar, and Manjalpur.Do you offer online coding classes in Madurai?Yes, we offer live online coding classes for students across Madurai including Anna Nagar, KK Nagar, Goripalayam, and Ellis Nagar, Thirunagar, Palanganatham, and all other areas. Our online classes are interactive with small batch sizes of 5-8 students.Do you offer coding classes for Tamil Nadu Board (Samacheer Kalvi) students in Madurai?Yes, our curriculum supports both Tamil Nadu Board (Tamil Nadu Board) and CBSE students in Madurai. We align our coding and maths courses with Tamil Nadu Board requirements to complement school education.How much do coding classes cost in Madurai?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (3-4 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Can Thiagarajar College of Engineering students join your programming courses?Absolutely! We offer college-level courses in Data Structures & Algorithms, Full Stack Web Development, and AI/Data Science perfect for Thiagarajar College of Engineering and Madurai Kamaraj University students preparing for placements.Is the medium of instruction English for Madurai students?Our instructors are comfortable teaching in Hindi and English. Yes! All classes are in English with Hindi support. Madurai students feel comfortable in our friendly, bilingual learning environment.What areas in Madurai do you serve?We serve all areas of Madurai through our online classes including Anna Nagar, KK Nagar, Goripalayam, and Ellis Nagar, Villapuram, Thirunagar, Palanganatham, Simmakkal, Meenakshi Amman, Ellis Nagar, Mattuthavani, Bypass Road, and more.How are your coding classes different from other institutes in Madurai?We focus on project-based learning where students build real games, websites, and apps. Our small batch sizes (5-8 students), recorded sessions, expert instructors, and affordable pricing set us apart. We also support Tamil Nadu Board, CBSE, and TNEA preparation.Do you teach coding to Tamil Nadu board students in Madurai?Yes. Madurai schools run the Tamil Nadu state board, which keeps a regional examinations office in the city, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Thiagarajar College of Engineering or Madurai Kamaraj University students join your programming courses?Yes. TCE has taught engineering here since 1957 and Madurai Kamaraj University since 1965, so the fundamentals are well covered. The college track adds the built work a transcript never shows: real Python, Java, full-stack or AI/ML, carried to something that runs and can be opened in an interview.
+What is the best coding class in Madurai for kids?Modern Age Coders offers the best coding classes in Madurai for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Madurai areas including Anna Nagar, KK Nagar, Goripalayam, and Ellis Nagar, and Manjalpur.Do you offer online coding classes in Madurai?Yes, we offer live online coding classes for students across Madurai including Anna Nagar, KK Nagar, Goripalayam, and Ellis Nagar, Thirunagar, Palanganatham, and all other areas. Our online classes are interactive with batch sizes of 15-20 students.Do you offer coding classes for Tamil Nadu Board (Samacheer Kalvi) students in Madurai?Yes, our curriculum supports both Tamil Nadu Board (Tamil Nadu Board) and CBSE students in Madurai. We align our coding and maths courses with Tamil Nadu Board requirements to complement school education.How much do coding classes cost in Madurai?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (up to 6 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Can Thiagarajar College of Engineering students join your programming courses?Absolutely! We offer college-level courses in Data Structures & Algorithms, Full Stack Web Development, and AI/Data Science perfect for Thiagarajar College of Engineering and Madurai Kamaraj University students preparing for placements.Is the medium of instruction English for Madurai students?Our instructors are comfortable teaching in Hindi and English. Yes! All classes are in English with Hindi support. Madurai students feel comfortable in our friendly, bilingual learning environment.What areas in Madurai do you serve?We serve all areas of Madurai through our online classes including Anna Nagar, KK Nagar, Goripalayam, and Ellis Nagar, Villapuram, Thirunagar, Palanganatham, Simmakkal, Meenakshi Amman, Ellis Nagar, Mattuthavani, Bypass Road, and more.How are your coding classes different from other institutes in Madurai?We focus on project-based learning where students build real games, websites, and apps. Our batch sizes (15-20 students), recorded sessions, expert instructors, and affordable pricing set us apart. We also support Tamil Nadu Board, CBSE, and TNEA preparation.Do you teach coding to Tamil Nadu board students in Madurai?Yes. Madurai schools run the Tamil Nadu state board, which keeps a regional examinations office in the city, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Thiagarajar College of Engineering or Madurai Kamaraj University students join your programming courses?Yes. TCE has taught engineering here since 1957 and Madurai Kamaraj University since 1965, so the fundamentals are well covered. The college track adds the built work a transcript never shows: real Python, Java, full-stack or AI/ML, carried to something that runs and can be opened in an interview.
 
 ## Ready to start your child's coding journey in Madurai?
 

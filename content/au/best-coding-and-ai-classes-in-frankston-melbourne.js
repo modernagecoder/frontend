@@ -303,7 +303,7 @@ module.exports = {
     h2: 'Frankston class fees',
     intro: 'Three figures, no surprises.',
     first: 'Lesson one is free and ends with a plain recommendation.',
-    group: 'A month of group lessons, usually eight, with five to ten learners at the same level.',
+    group: 'A month of group lessons, usually eight, with fifteen to twenty learners at the same level.',
     private: 'Approximately eight private lessons a month with one teacher.',
     closer: 'Outside India we bill in US dollars, so Frankston families pay what every other family abroad pays. We charge nothing before the trial settles which course and which slot; the pricing page explains holidays, missed lessons and moving between formats.'
   },
@@ -348,7 +348,7 @@ module.exports = {
       },
       {
         q: 'How much do coding classes cost for Frankston learners?',
-        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before you pay.',
+        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before you pay.',
         boiler: true
       },
       {

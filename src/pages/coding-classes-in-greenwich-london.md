@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Greenwich: Wo
 canonical: https://learn.modernagecoders.com/coding-classes-in-greenwich-london
 source: src/pages/coding-classes-in-greenwich-london.html
 ---
-> Greenwich is the south east London borough of Greenwich, Woolwich, Eltham, Charlton, Plumstead, Abbey Wood, Kidbrooke and the Greenwich Peninsula, with 289,068 residents at the 2021 Census and the Royal Observatory, where the Prime Meridian runs through the Transit House. A coding class worth the time teaches a learner how tiny, repeated effects add up to something large, and this page does it with time itself: daily measurements of how long the Earth takes to turn, summed over half a century until they rebuild every leap second ever added to the world's clocks. We teach live by video from India, for anyone from 6 to 67, individually or in groups of five to ten at one level. Nothing is charged for the first lesson. From then on it is USD 100 a month in a group or USD 150 a month one to one.
+> Greenwich is the south east London borough of Greenwich, Woolwich, Eltham, Charlton, Plumstead, Abbey Wood, Kidbrooke and the Greenwich Peninsula, with 289,068 residents at the 2021 Census and the Royal Observatory, where the Prime Meridian runs through the Transit House. A coding class worth the time teaches a learner how tiny, repeated effects add up to something large, and this page does it with time itself: daily measurements of how long the Earth takes to turn, summed over half a century until they rebuild every leap second ever added to the world's clocks. We teach live by video from India, for anyone from 6 to 67, individually or in groups of fifteen to twenty at one level. Nothing is charged for the first lesson. From then on it is USD 100 a month in a group or USD 150 a month one to one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Greenwich
 
@@ -12,11 +12,11 @@ Royal Borough of Greenwich / Live online
 
 # Coding classes in Greenwich
 
-**What are the best coding classes in Greenwich?** Greenwich is the south east London borough of Greenwich, Woolwich, Eltham, Charlton, Plumstead, Abbey Wood, Kidbrooke and the Greenwich Peninsula, with 289,068 residents at the 2021 Census and the Royal Observatory, where the Prime Meridian runs through the Transit House. A coding class worth the time teaches a learner how tiny, repeated effects add up to something large, and this page does it with time itself: daily measurements of how long the Earth takes to turn, summed over half a century until they rebuild every leap second ever added to the world's clocks. We teach live by video from India, for anyone from 6 to 67, individually or in groups of five to ten at one level. Nothing is charged for the first lesson. From then on it is USD 100 a month in a group or USD 150 a month one to one.
+**What are the best coding classes in Greenwich?** Greenwich is the south east London borough of Greenwich, Woolwich, Eltham, Charlton, Plumstead, Abbey Wood, Kidbrooke and the Greenwich Peninsula, with 289,068 residents at the 2021 Census and the Royal Observatory, where the Prime Meridian runs through the Transit House. A coding class worth the time teaches a learner how tiny, repeated effects add up to something large, and this page does it with time itself: daily measurements of how long the Earth takes to turn, summed over half a century until they rebuild every leap second ever added to the world's clocks. We teach live by video from India, for anyone from 6 to 67, individually or in groups of fifteen to twenty at one level. Nothing is charged for the first lesson. From then on it is USD 100 a month in a group or USD 150 a month one to one.
 
 Historic England's list entry for the Transit House at the Royal Observatory says that the Prime Meridian runs through its eastern part. Greenwich gave the world a way of measuring time and place; our learners use modern data to check how steady the Earth's own clock really is. The International Earth Rotation and Reference Systems Service publishes, for every day since 1962, how much longer or shorter than 86,400 seconds the Earth took to spin. The differences are thousandths of a second. In 1972 each day ran about 3 milliseconds long. That sounds like nothing, but add it up over a year and it comes to more than a second, which is why leap seconds exist. Learners add up every day from 1972 to 2026 and rebuild all 27 leap seconds to within four thousandths of a second.
 
-Facts last verified 25 September 2026. Teaching is online; no Greenwich branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Greenwich branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses from Greenwich
 
@@ -143,7 +143,7 @@ A learner in Eltham and one on the Greenwich Peninsula can join the same lesson 
 
 ### On time
 
-Our timetable keeps steadier time than the Earth: two evenings a week, the same group of five to ten learners at one stage.
+Our timetable keeps steadier time than the Earth: two evenings a week, the same group of fifteen to twenty learners at one stage.
 
 **Greenwich among the boroughs** Greenwich is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers all of them and the City, adding a link to each page as it is published, including [Bexley](/coding-classes-in-bexley-london) to the east.
 
@@ -173,7 +173,7 @@ Anywhere in the Royal Borough, a lesson begins when the video call does.
 - **Home desk** Learners need a laptop or desktop, headphones and an internet connection good enough for video calls.
 - **English school stages** We talk about progress using the Key Stages English schools use, Key Stage 1 up to sixth form, with GCSE and A level mentioned where relevant. Lessons are in English.
 - **Start for free** A proper first lesson with a teacher, free, ending with a recommended level and course. No payment details are requested.
-- **Same-level classes** Five to ten learners at the same stage form each class, drawn from across the UK and abroad, so there is usually a suitable hour.
+- **Same-level classes** Fifteen to twenty learners at the same stage form each class, drawn from across the UK and abroad, so there is usually a suitable hour.
 - **Two evenings weekly** Classes generally meet twice a week in the evening, pausing for half terms, holidays and exams as agreed.
 - **Greenwich Mean Time, naturally** Teachers work from India, but every time we send is given as it reads on a UK clock.
 
@@ -184,7 +184,7 @@ Anywhere in the Royal Borough, a lesson begins when the video call does.
 The first lesson is free; after that one monthly fee applies across the Royal Borough.
 
 - First class: USD 0. A full lesson with a teacher, free, finishing with a recommended level, course and time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a group of five to ten at one stage.
+- Group tuition: USD 100 a month. About eight live lessons a month in a group of fifteen to twenty at one stage.
 - Private tuition: USD 150 a month. About eight live lessons a month, one to one.
 
 Greenwich families pay in US dollars, as all families outside India do, and the site shows no prices in pounds. Nothing is charged until the free lesson is complete and you have chosen a course and regular time. Pausing, missed lessons and switching between group and private lessons are explained on the pricing page.
@@ -225,11 +225,11 @@ No. There is no Greenwich centre and no premises anywhere in the UK, because eve
 
 ### What do coding classes in Greenwich cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## From the meridian outwards
 

@@ -187,7 +187,7 @@ module.exports = {
       { h3: 'Equipment', p: 'A computer, a microphone and a connection steady enough for video.' },
       { h3: 'Victorian year levels', p: 'Teachers plan around Victorian year levels and term dates, teaching in English.' },
       { h3: 'Trial lesson', p: 'The first lesson is free, fully taught, and ends with a recommended course and time.' },
-      { h3: 'Group size', p: 'Five to ten learners at the same level form each group, from many Australian towns.' },
+      { h3: 'Group size', p: 'Fifteen to twenty learners at the same level form each group, from many Australian towns.' },
       { h3: 'Schedule', p: 'Groups meet on two fixed days a week, about eight lessons each month.' },
       { h3: 'Teachers', p: 'Our teachers work from India and set each lesson in Wangaratta time.' }
     ],
@@ -198,7 +198,7 @@ module.exports = {
     h2: 'Wangaratta class fees',
     intro: 'Fees are short and identical across Australia.',
     first: 'The first lesson is free and closes with a suggested level, course and weekly time.',
-    group: 'A month of group lessons, about eight, with five to ten learners of the same level.',
+    group: 'A month of group lessons, about eight, with fifteen to twenty learners of the same level.',
     private: 'About eight one-to-one lessons per month with a single teacher.',
     closer: 'We charge in US dollars outside India, and Wangaratta pays the same as everywhere else in Australia. Billing starts only after the trial has settled the course and time, and the pricing page covers holidays, missed lessons and changes between group and private.'
   },
@@ -223,7 +223,7 @@ module.exports = {
       { q: 'When do Wangaratta learners have lessons?', a: 'Weekday after-school times, evenings for adults and Saturday mornings are popular, always set in Wangaratta time.' },
       { q: 'Can younger children learn to code?', a: 'Yes. Children from six start with Scratch and block coding; the stop classifier suits teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Wangaratta?', a: 'No. We hold no premises in Australia and claim none. Every class is live online; learners need a computer and a reliable connection, and our listed phone number is in India.', boiler: true },
-      { q: 'What do Wangaratta classes cost?', a: 'Your first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one-to-one. Nothing is charged until the plan is agreed.', boiler: true },
+      { q: 'What do Wangaratta classes cost?', a: 'Your first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one-to-one. Nothing is charged until the plan is agreed.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by level and goals rather than age or town. Where no group time works, one-to-one lessons are offered.', boiler: true }
     ]
   },

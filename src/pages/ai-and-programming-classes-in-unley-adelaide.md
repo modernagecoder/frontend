@@ -16,7 +16,7 @@ Unley, City of Unley, South Australia / Live online
 
 Picking out the busy stops in Unley looks like a one-line job in Python. The obvious one-liner, though, asks for each stop's visit count twice: once to test it and again to keep it. Python 3.8 added an operator, nicknamed the walrus, that removes the repeat.
 
-Facts last verified 13 October 2026. Teaching is online; no Unley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Unley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that write efficient code for AI work
 
@@ -173,7 +173,7 @@ Lessons are live online, so learners join from home.
 - **Code read aloud** Each line is explained by the learner while the teacher watches.
 - **Follows SA terms** Plans fit the state school year, with breaks in the holidays.
 - **Try first** A full lesson at no cost, then a recommendation in writing.
-- **Level groups** Five to ten learners at the same stage, or private lessons.
+- **Level groups** Fifteen to twenty learners at the same stage, or private lessons.
 - **Weekly pair** Two set lessons each week, about eight a month.
 - **India time** Our teachers are in India, so a 7pm Unley class starts at 2pm India time in summer and 3pm from April.
 
@@ -184,7 +184,7 @@ Lessons are live online, so learners join from home.
 Three prices for every learner.
 
 - First class: USD 0. The opening lesson is free and finishes with advice in writing.
-- Group tuition: USD 100 a month. About eight group lessons a month, five to ten in a class.
+- Group tuition: USD 100 a month. About eight group lessons a month, fifteen to twenty in a class.
 - Private tuition: USD 150 a month. About eight private lessons a month with one teacher.
 
 Unley families pay in US dollars once the trial has settled a course and time. The pricing page explains holidays and missed lessons.
@@ -221,11 +221,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Unley learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Can Unley groups study Copilot Studio?
 

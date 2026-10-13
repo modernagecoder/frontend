@@ -288,7 +288,7 @@ module.exports = {
       { h3: 'Prompts reviewed', p: 'Every request to an AI tool is read and sharpened with the teacher.' },
       { h3: 'SA school terms', p: 'Lessons follow the state school year, with holidays off.' },
       { h3: 'Free first class', p: 'One complete lesson free and a clear recommendation.' },
-      { h3: 'Matched groups', p: 'Five to ten learners at one level, or private lessons.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners at one level, or private lessons.' },
       { h3: 'Two lessons weekly', p: 'Fixed weekly times, close to eight lessons a month.' },
       { h3: 'India time', p: 'Teachers are based in India; a 6:30pm Golden Grove class is 1:30pm India time in summer and 2:30pm from April.' }
     ],
@@ -301,7 +301,7 @@ module.exports = {
     h2: 'Golden Grove class fees',
     intro: 'Three simple prices.',
     first: 'The first lesson is free and comes with a written next step.',
-    group: 'About eight group lessons monthly, five to ten learners.',
+    group: 'About eight group lessons monthly, fifteen to twenty learners.',
     private: 'About eight private lessons monthly with one teacher.',
     closer: 'Billing is in US dollars and starts only after the trial has fixed a course and weekly slot. See the pricing page for holidays and missed lessons.'
   },
@@ -343,12 +343,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Golden Grove learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Do Golden Grove groups cover Copilot Studio?', a: 'No. Copilot Studio is for one-to-one lessons only; groups build agents with Python.' }

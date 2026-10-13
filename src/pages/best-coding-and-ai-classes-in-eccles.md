@@ -16,7 +16,7 @@ Eccles, Salford, Greater Manchester / Live online
 
 In a group of friends, two of your friends are often friends with each other; that closes a triangle. Network scientists measure how common triangles are with a number called the clustering coefficient, and it has become a standard measure for networks of every kind, from friendships to power grids. A street network is a different creature. Eccles learners turn their town's roads into a graph of 1,543 junctions and road ends and discover that triangles are rare, but not nearly as rare as chance would make them, and that the ones that exist have a surprising source.
 
-Facts last verified 30 September 2026. Teaching is online; no Eccles branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Eccles branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Coding and AI courses for Eccles
 
@@ -133,7 +133,7 @@ Learners sit at home at a laptop or desktop with a webcam. The connection needs 
 - **Learner at the keyboard** The tutor asks and prompts; the learner types, runs and repairs the code.
 - **Course chosen after the trial** We only suggest a course once the free lesson has shown the learner's level.
 - **Trial at no charge** A complete lesson for free; we do not take card details to book it.
-- **Groups by level** Five to ten learners at the same stage, gathered from across the UK.
+- **Groups by level** Fifteen to twenty learners at the same stage, gathered from across the UK.
 - **Two per week in term** Tell us your Salford school holidays and we will pause for them.
 - **One UK time** When the clocks go forward or back, the tutor adapts and your slot stays.
 

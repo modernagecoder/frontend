@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI lessons for Dundalk learners age
 canonical: https://learn.modernagecoders.com/best-coding-class-in-dundalk
 source: src/pages/best-coding-class-in-dundalk.html
 ---
-> Dundalk holds 42,735 usual residents in the census town tables, spread across 15,923 households. Lessons are taught into the house: a teacher live on video, twice in most weeks, with either an ability group of five to ten learners or one learner on their own, anywhere between the ages of six and sixty-seven. The opening lesson is not charged for. A shared place then runs at USD 100 a month, and private teaching at USD 150.
+> Dundalk holds 42,735 usual residents in the census town tables, spread across 15,923 households. Lessons are taught into the house: a teacher live on video, twice in most weeks, with either an ability group of fifteen to twenty learners or one learner on their own, anywhere between the ages of six and sixty-seven. The opening lesson is not charged for. A shared place then runs at USD 100 a month, and private teaching at USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Louth](/coding-classes-in-county-louth) / Dundalk
 
@@ -12,11 +12,11 @@ Dundalk, County Louth / Live online
 
 # Coding classes in Dundalk
 
-**What is the best coding class in Dundalk?** Dundalk holds 42,735 usual residents in the census town tables, spread across 15,923 households. Lessons are taught into the house: a teacher live on video, twice in most weeks, with either an ability group of five to ten learners or one learner on their own, anywhere between the ages of six and sixty-seven. The opening lesson is not charged for. A shared place then runs at USD 100 a month, and private teaching at USD 150.
+**What is the best coding class in Dundalk?** Dundalk holds 42,735 usual residents in the census town tables, spread across 15,923 households. Lessons are taught into the house: a teacher live on video, twice in most weeks, with either an ability group of fifteen to twenty learners or one learner on their own, anywhere between the ages of six and sixty-seven. The opening lesson is not charged for. A shared place then runs at USD 100 a month, and private teaching at USD 150.
 
 Our own lessons need a connection that carries live video, so the census figure looks like exactly the right one to quote: 12,686 of Dundalk's 15,923 households report broadband. It answers a different question than it appears to. The census asked each household which kind of internet access it has and offered four answers, and the count that comes back is a count of reported categories. It contains no speed, no reliability, no measure of what happens at seven in the evening when several people are online at once, and no information about the rooms a signal reaches. A household with a slow line and a household with a fast one are the same row. We use the figure for what it is, and we test the actual connection in the free lesson, because a category is not a measurement.
 
-Facts last verified 18 September 2026. Teaching is online; no Dundalk branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 18 September 2026. Teaching is online; no Dundalk branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Starting courses for Dundalk learners
 
@@ -168,7 +168,7 @@ The interesting skill in 2026 is not getting a number out of a tool. It is knowi
 Six practical points.
 
 - **A live teacher** Present for the whole lesson, working from what appears on the learner's screen.
-- **Ability grouping** Five to ten learners at one level, joining from Dundalk, the rest of Ireland and other countries.
+- **Ability grouping** Fifteen to twenty learners at one level, joining from Dundalk, the rest of Ireland and other countries.
 - **Two lessons a week** About eight in a month, at an hour agreed once and then kept.
 - **Term dates** Mid-terms, holidays and exam weeks are planned into the schedule before it starts.
 - **Tested, not assumed** Machine, sound and connection are all tried in the free lesson rather than taken on trust.
@@ -181,7 +181,7 @@ Six practical points.
 Three lines, complete.
 
 - First class: USD 0. A full opening lesson, taught and assessed, with no charge and no obligation.
-- Group tuition: USD 100 a month. One month in an ability group of five to ten, about eight live lessons.
+- Group tuition: USD 100 a month. One month in an ability group of fifteen to twenty, about eight live lessons.
 - Private tuition: USD 150 a month. One month of private teaching on the same weekly pattern.
 
 Charges are monthly and in US dollars, at the single rate for families outside India, so Dundalk sees the same figure as Drogheda and no euro list appears beside it. Nothing is billed until the opening lesson has settled a course, an hour and a working connection, and the pricing page covers breaks, missed weeks and moves between group and private teaching.
@@ -222,7 +222,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Dundalk cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

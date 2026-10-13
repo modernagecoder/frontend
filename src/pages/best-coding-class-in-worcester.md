@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Worcester lea
 canonical: https://learn.modernagecoders.com/best-coding-class-in-worcester
 source: src/pages/best-coding-class-in-worcester.html
 ---
-> Worcester had 103,872 usual residents at the 2021 census, packed at 3,121.4 people per square kilometre against 433.5 for England. Worcester Cathedral says its present building was begun by Saint Wulfstan in 1084, and that King John asked in his will to be buried there. Worcester learners aged six to sixty-seven can take live video lessons with our teachers in India, on their own or in a class of five to ten at a matching stage, at times planned around UK school and work. The first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150.
+> Worcester had 103,872 usual residents at the 2021 census, packed at 3,121.4 people per square kilometre against 433.5 for England. Worcester Cathedral says its present building was begun by Saint Wulfstan in 1084, and that King John asked in his will to be buried there. Worcester learners aged six to sixty-seven can take live video lessons with our teachers in India, on their own or in a class of fifteen to twenty at a matching stage, at times planned around UK school and work. The first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Worcester
 
@@ -12,11 +12,11 @@ Worcester, Worcestershire / Live online
 
 # Coding classes in Worcester
 
-**What are the best coding classes in Worcester?** Worcester had 103,872 usual residents at the 2021 census, packed at 3,121.4 people per square kilometre against 433.5 for England. Worcester Cathedral says its present building was begun by Saint Wulfstan in 1084, and that King John asked in his will to be buried there. Worcester learners aged six to sixty-seven can take live video lessons with our teachers in India, on their own or in a class of five to ten at a matching stage, at times planned around UK school and work. The first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150.
+**What are the best coding classes in Worcester?** Worcester had 103,872 usual residents at the 2021 census, packed at 3,121.4 people per square kilometre against 433.5 for England. Worcester Cathedral says its present building was begun by Saint Wulfstan in 1084, and that King John asked in his will to be buried there. Worcester learners aged six to sixty-seven can take live video lessons with our teachers in India, on their own or in a class of fifteen to twenty at a matching stage, at times planned around UK school and work. The first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150.
 
 A sat-nav finding a route across Worcester could check every junction in the city, ring by ring, until it reaches the destination. That is Dijkstra's algorithm, and it is guaranteed to find the shortest route. A* finds exactly the same route but adds a sense of direction: it favours junctions that are closer, as the crow flies, to where it is going. On Ordnance Survey's map of 6,953 road links around the city, our teenagers ran 120 journeys, one for every pair of 16 places. The routes matched every time. But for a typical trip on one side of the Severn, Dijkstra examined 1,415 junctions and A* just 235.
 
-Facts last verified 23 September 2026. Teaching is online; no Worcester branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Worcester branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the Severn city
 
@@ -171,7 +171,7 @@ Worcester straddles the Severn, with only a handful of road crossings. Online, b
 - **Both banks, one class** A learner in Lower Wick and another in Blackpole can share a lesson without either of them crossing the river.
 - **Levels Worcestershire pupils know** We follow the English curriculum from Reception through each Key Stage to GCSE and A level, with every lesson taught in English.
 - **A real first lesson** The free session works on a genuine task and ends with our advice on level, course and a weekly slot. No card is needed.
-- **Groups by level** Five to ten learners at the same stage, from Worcester, across the UK and abroad, so every level has workable times.
+- **Groups by level** Fifteen to twenty learners at the same stage, from Worcester, across the UK and abroad, so every level has workable times.
 - **A steady timetable** Two fixed lessons each week, around eight a month, with half terms and exams planned with the teacher in advance.
 - **Teachers in another time zone** A 5.30 pm lesson in Worcester is 10 pm for our teachers in summer and 11 pm in winter, as India does not change its clocks; they plan their evenings around UK learners.
 
@@ -182,7 +182,7 @@ Worcester straddles the Severn, with only a handful of road crossings. Online, b
 A free first lesson, then one monthly fee.
 
 - First class: USD 0. A whole lesson free of charge, ending with advice on level, course and a weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a group of five to ten learners at one stage.
+- Group tuition: USD 100 a month. About eight live lessons a month in a group of fifteen to twenty learners at one stage.
 - Private tuition: USD 150 a month. About eight live lessons a month, with the teacher working with your learner alone.
 
 Families in Diglis or Northwick pay in US dollars, as every family outside India does, and there are no pound prices on any of our pages. Nothing is charged until after the free lesson, once a course and weekly slot are agreed; the pricing page explains pauses, missed lessons and changes between group and one-to-one teaching.
@@ -223,11 +223,11 @@ No. We have no Worcester centre and no premises anywhere in the UK, because all 
 
 ### How much are lessons for a Worcester learner?
 
-The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one lessons on the same timetable are USD 150 a month. Course, format and time are agreed before any charge.
+The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one lessons on the same timetable are USD 150 a month. Course, format and time are agreed before any charge.
 
 ### How is each group formed?
 
-By level, pace and goals rather than age or address, with five to ten learners at one stage. If no group suits the learner's week, we offer one-to-one lessons instead.
+By level, pace and goals rather than age or address, with fifteen to twenty learners at one stage. If no group suits the learner's week, we offer one-to-one lessons instead.
 
 ## The Severn and beyond
 

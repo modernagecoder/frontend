@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Causeway Coast
 canonical: https://learn.modernagecoders.com/coding-classes-in-causeway-coast-and-glens
 source: src/pages/coding-classes-in-causeway-coast-and-glens.html
 ---
-> NISRA counted 141,746 usual residents in Causeway Coast and Glens at the 2021 census. Coleraine is the largest settlement, followed by Limavady and Ballymoney, with Portstewart, Portrush, Ballycastle, Dungiven, Ballykelly and Kilrea among the rest. We teach every class live by video, from India. Coding, Python and maths are open to anyone between 6 and 67, taught solo or in a same-level class of five to ten. One free lesson finds the right starting point. The district project begins on the runways at Ballykelly. After the free lesson, a group place costs USD 100 a month and one-to-one tuition USD 150 a month.
+> NISRA counted 141,746 usual residents in Causeway Coast and Glens at the 2021 census. Coleraine is the largest settlement, followed by Limavady and Ballymoney, with Portstewart, Portrush, Ballycastle, Dungiven, Ballykelly and Kilrea among the rest. We teach every class live by video, from India. Coding, Python and maths are open to anyone between 6 and 67, taught solo or in a same-level class of fifteen to twenty. One free lesson finds the right starting point. The district project begins on the runways at Ballykelly. After the free lesson, a group place costs USD 100 a month and one-to-one tuition USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Northern Ireland](/coding-and-ai-classes-in-northern-ireland) / Causeway Coast and Glens
 
@@ -12,11 +12,11 @@ Causeway Coast and Glens / Live online
 
 # Coding classes in Causeway Coast and Glens
 
-**What are the best coding classes in Causeway Coast and Glens?** NISRA counted 141,746 usual residents in Causeway Coast and Glens at the 2021 census. Coleraine is the largest settlement, followed by Limavady and Ballymoney, with Portstewart, Portrush, Ballycastle, Dungiven, Ballykelly and Kilrea among the rest. We teach every class live by video, from India. Coding, Python and maths are open to anyone between 6 and 67, taught solo or in a same-level class of five to ten. One free lesson finds the right starting point. The district project begins on the runways at Ballykelly. After the free lesson, a group place costs USD 100 a month and one-to-one tuition USD 150 a month.
+**What are the best coding classes in Causeway Coast and Glens?** NISRA counted 141,746 usual residents in Causeway Coast and Glens at the 2021 census. Coleraine is the largest settlement, followed by Limavady and Ballymoney, with Portstewart, Portrush, Ballycastle, Dungiven, Ballykelly and Kilrea among the rest. We teach every class live by video, from India. Coding, Python and maths are open to anyone between 6 and 67, taught solo or in a same-level class of fifteen to twenty. One free lesson finds the right starting point. The district project begins on the runways at Ballykelly. After the free lesson, a group place costs USD 100 a month and one-to-one tuition USD 150 a month.
 
 Ballykelly airfield opened in June 1941, and through the war Coastal Command flew anti-submarine patrols from it. The Historic Environment Division's defence record describes its layout: three concrete runways, the main one lined up with the prevailing wind and the other two set at sixty degrees to it. Why go to the trouble of three? Aircraft like to take off and land into the wind, and a wind blowing across a runway pushes them sideways. The wind cannot be told which way to blow, so an airfield gives pilots a choice of directions. How much sideways wind does each layout leave in the worst case, and how often is it too much? This page's project splits the wind into two parts with trigonometry and answers both in Python.
 
-Facts last verified 26 September 2026. Teaching is online; no Causeway Coast and Glens branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Causeway Coast and Glens branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Starting courses along the coast and glens
 
@@ -134,7 +134,7 @@ Coast, glen or town, a laptop and a connection will do.
 - **Writing their own code** Learners type every program; the tutor follows on the shared screen and prompts with questions instead of answers.
 - **Northern Ireland stages** A Kilrea P5 or a Portstewart Year 12 joins at the level that suits their key stage, and we refer to exams by their CCEA titles. All teaching is in English.
 - **Free first lesson** A complete lesson at no charge, finishing with clear advice.
-- **Classes by level** Five to ten learners at one stage, from across the UK.
+- **Classes by level** Fifteen to twenty learners at one stage, from across the UK.
 - **Term time** Two lessons each week in term, holidays kept free.
 - **Same hour all year** Clock changes do not move your lesson; teachers in India adjust around the local time.
 
@@ -145,7 +145,7 @@ Coast, glen or town, a laptop and a connection will do.
 Coleraine and Ballycastle pay the same, and so does every country we teach outside India.
 
 - First class: USD 0. One full free lesson, then an honest recommendation.
-- Group tuition: USD 100 a month. Around eight lessons a month with five to ten classmates.
+- Group tuition: USD 100 a month. Around eight lessons a month with fifteen to twenty classmates.
 - Private tuition: USD 150 a month. Around eight lessons a month with your own tutor.
 
 We charge in US dollars only; there is no sterling price. The first bill follows the trial, once a course and a weekly time are agreed, and the pricing page covers holidays, missed lessons and switching between group and private.

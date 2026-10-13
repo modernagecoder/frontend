@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Flintshire, fr
 canonical: https://learn.modernagecoders.com/coding-classes-in-flintshire
 source: src/pages/coding-classes-in-flintshire.html
 ---
-> Flintshire had 154,962 usual residents at the 2021 census. Its biggest built-up areas are Connah's Quay, Hawarden, Buckley and Flint, followed by Mold, Holywell, Broughton and Shotton, with Bagillt, Mynydd Isa and Penyffordd among the smaller places. We teach entirely live on video, with teachers in India, and a first lesson at no cost places each learner, from a Year 2 pupil to a Year 13 student or an adult. Coding, Python and maths are taught to anyone between six and 67, privately or in a small class of five to ten. The Flintshire project starts at a library in Hawarden. Those who stay on pay USD 100 per month for a shared class, or USD 150 per month for private tuition.
+> Flintshire had 154,962 usual residents at the 2021 census. Its biggest built-up areas are Connah's Quay, Hawarden, Buckley and Flint, followed by Mold, Holywell, Broughton and Shotton, with Bagillt, Mynydd Isa and Penyffordd among the smaller places. We teach entirely live on video, with teachers in India, and a first lesson at no cost places each learner, from a Year 2 pupil to a Year 13 student or an adult. Coding, Python and maths are taught to anyone between six and 67, privately or in a class of fifteen to twenty. The Flintshire project starts at a library in Hawarden. Those who stay on pay USD 100 per month for a shared class, or USD 150 per month for private tuition.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Flintshire
 
@@ -12,11 +12,11 @@ Flintshire / Live online
 
 # Coding classes in Flintshire
 
-**What are the best coding classes in Flintshire?** Flintshire had 154,962 usual residents at the 2021 census. Its biggest built-up areas are Connah's Quay, Hawarden, Buckley and Flint, followed by Mold, Holywell, Broughton and Shotton, with Bagillt, Mynydd Isa and Penyffordd among the smaller places. We teach entirely live on video, with teachers in India, and a first lesson at no cost places each learner, from a Year 2 pupil to a Year 13 student or an adult. Coding, Python and maths are taught to anyone between six and 67, privately or in a small class of five to ten. The Flintshire project starts at a library in Hawarden. Those who stay on pay USD 100 per month for a shared class, or USD 150 per month for private tuition.
+**What are the best coding classes in Flintshire?** Flintshire had 154,962 usual residents at the 2021 census. Its biggest built-up areas are Connah's Quay, Hawarden, Buckley and Flint, followed by Mold, Holywell, Broughton and Shotton, with Bagillt, Mynydd Isa and Penyffordd among the smaller places. We teach entirely live on video, with teachers in India, and a first lesson at no cost places each learner, from a Year 2 pupil to a Year 13 student or an adult. Coding, Python and maths are taught to anyone between six and 67, privately or in a class of fifteen to twenty. The Flintshire project starts at a library in Hawarden. Those who stay on pay USD 100 per month for a shared class, or USD 150 per month for private tuition.
 
 In Hawarden, Cadw lists St Deiniol's Library at Grade I. Its record says W. E. Gladstone founded it in 1890 and gave some 25,000 of his own books, and that the red sandstone library wing was built between 1899 and 1902. Libraries today track their books with barcodes, and every modern book carries one on its back cover: the thirteen-digit EAN-13, which for books starts 978. Look closely and there is a small mystery. The barcode has bars for only twelve of the thirteen digits. The first digit is never drawn, yet every scanner reads it. Where does it hide? This page's project builds a barcode in Python, decodes it again, and finds out.
 
-Facts last verified 26 September 2026. Teaching is online; no Flintshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Flintshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Common first courses in Flintshire
 
@@ -139,7 +139,7 @@ Every town and village in the county joins by video.
 - **Hands on, from the start** Pupils build every program themselves, and the teacher, watching the shared screen, steps in only when a nudge will help.
 - **Fitted to Welsh schooling** We match Shotton Year 5s and Buckley sixth-formers alike to their school year and Curriculum for Wales stage, and follow WJEC for exams. Lessons are in English.
 - **A free first lesson** One complete lesson without charge, then honest advice.
-- **Groups at one level** Five to ten learners at the same level, joining from many places.
+- **Groups at one level** Fifteen to twenty learners at the same level, joining from many places.
 - **Term-time lessons** Two lessons weekly in term, with holidays off.
 - **Same hour, all year** British summer time or not, the lesson stays put at its UK hour; teachers working on India time adjust.
 
@@ -150,7 +150,7 @@ Every town and village in the county joins by video.
 Mold or Connah's Quay, the fee is identical, the same as in every country we teach outside India.
 
 - First class: USD 0. A complete lesson, free, followed by a recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month, one-to-one.
 
 Fees are in US dollars; there is no sterling list. We start billing only after the free lesson has fixed a course and weekly time; the pricing page explains holidays, missed lessons and switching formats.

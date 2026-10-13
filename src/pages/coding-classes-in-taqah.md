@@ -179,7 +179,7 @@ Being an hour from somewhere with everything is not the same as having it. Teach
 
 A full class, a genuine task, and a clear recommendation when it ends. No card is required to arrange it and nothing is committed to before a teacher has been seen working.
 
-### Groups of five to eight, set by level
+### Groups of fifteen to twenty, set by level
 
 What decides a group is what a learner can do and what they want next. It is not the town they live in, which is the one thing a room somewhere cannot promise.
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Taqah learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Taqah class times arranged?
 

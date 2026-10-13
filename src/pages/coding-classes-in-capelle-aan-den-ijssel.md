@@ -16,7 +16,7 @@ Capelle aan den IJssel, Zuid-Holland / Live online
 
 Most of the time the barrier in the Hollandse IJssel does nothing at all, and that is the point. Ships pass, the river flows, the Algerabrug carries its traffic. When the water rises very high, the gates come down and close the river completely, so that the flood outside cannot reach the land behind. When the danger passes they rise again. Software faces the same situation whenever it depends on something it does not control. A payment provider slows to a crawl, a database stops answering, an AI service times out. A program that keeps sending requests to a failing service ties itself up waiting, piles up retries, and can bring down everything around it. A circuit breaker watches for failures, and when they pass a threshold it closes the way, answering at once with a sensible fallback instead of waiting. After a pause it lets a single test request through; if that succeeds, normal traffic resumes. Capelle, beside a barrier that closes only a handful of times a year, is a good place to learn why the rarely used protection must be built as carefully as the everyday path.
 
-Facts last verified 11 September 2026. Teaching is online; no Capelle aan den IJssel branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Capelle aan den IJssel branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the town beside the first Delta Work
 
@@ -193,7 +193,7 @@ Capelle packs almost seventy thousand people into fourteen square kilometres of 
 - **The laptop is the classroom** Whether home is in Schenkel or 's-Gravenland, the class begins on screen at the agreed minute. Nobody takes the metro in for it, and nobody waits to be picked up after.
 - **Dutch school words, English lesson** The terms a Capelle school uses, from groep and brugklas to vmbo, havo, vwo and the profielkeuze, stay in Dutch; the explaining is done in English.
 - **What the free hour includes** A complete lesson on a genuine problem, watched by the teacher, followed by a suggested level, a course and a regular time. There is no card to enter and nothing to sign.
-- **How groups are formed** Each group is five to ten learners at one stage of one subject. Capelle has 10,749 residents under fifteen, and five of them matching on subject, level and hour is rare, so groups also draw on learners in other countries.
+- **How groups are formed** Each group is fifteen to twenty learners at one stage of one subject. Capelle has 10,749 residents under fifteen, and five of them matching on subject, level and hour is rare, so groups also draw on learners in other countries.
 - **The regio Midden calendar** Lessons run twice a week, about eight times a month, at one fixed hour, and stop for the regio Midden school holidays that Zuid-Holland follows.
 - **Why evenings work** The teaching team is based in India, three and a half hours ahead in the Dutch summer and four and a half in winter, which leaves late afternoons, evenings and weekend mornings open all year.
 
@@ -204,7 +204,7 @@ Capelle packs almost seventy thousand people into fourteen square kilometres of 
 Everything a family pays is listed below.
 
 - First class: USD 0. A genuine lesson on a genuine task, closing with a level and the course to match.
-- Group tuition: USD 100 a month. Monthly, usually eight lessons, in a group of five to ten learners at one level.
+- Group tuition: USD 100 a month. Monthly, usually eight lessons, in a group of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Monthly, usually eight lessons, with a teacher for one learner only.
 
 Every country pays one dollar price, and no euro list sits beside it, so a household in Fascinatio pays what a household in Schollevaar pays. Payment starts only after the free lesson has fixed the course and the hour, and it is arranged on WhatsApp. For breaks, a change of format or missed lessons, the pricing page has the details.
@@ -245,7 +245,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Capelle aan den IJssel coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

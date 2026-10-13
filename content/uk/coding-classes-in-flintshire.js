@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'Coding classes in Flintshire',
   capsuleQ: 'What are the best coding classes in Flintshire?',
-  capsule: 'Flintshire had 154,962 usual residents at the 2021 census. Its biggest built-up areas are Connah\'s Quay, Hawarden, Buckley and Flint, followed by Mold, Holywell, Broughton and Shotton, with Bagillt, Mynydd Isa and Penyffordd among the smaller places. We teach entirely live on video, with teachers in India, and a first lesson at no cost places each learner, from a Year 2 pupil to a Year 13 student or an adult. Coding, Python and maths are taught to anyone between six and 67, privately or in a small class of five to ten. The Flintshire project starts at a library in Hawarden. Those who stay on pay USD 100 per month for a shared class, or USD 150 per month for private tuition.',
+  capsule: 'Flintshire had 154,962 usual residents at the 2021 census. Its biggest built-up areas are Connah\'s Quay, Hawarden, Buckley and Flint, followed by Mold, Holywell, Broughton and Shotton, with Bagillt, Mynydd Isa and Penyffordd among the smaller places. We teach entirely live on video, with teachers in India, and a first lesson at no cost places each learner, from a Year 2 pupil to a Year 13 student or an adult. Coding, Python and maths are taught to anyone between six and 67, privately or in a class of fifteen to twenty. The Flintshire project starts at a library in Hawarden. Those who stay on pay USD 100 per month for a shared class, or USD 150 per month for private tuition.',
   lead: 'In Hawarden, Cadw lists St Deiniol\'s Library at Grade I. Its record says W. E. Gladstone founded it in 1890 and gave some 25,000 of his own books, and that the red sandstone library wing was built between 1899 and 1902. Libraries today track their books with barcodes, and every modern book carries one on its back cover: the thirteen-digit EAN-13, which for books starts 978. Look closely and there is a small mystery. The barcode has bars for only twelve of the thirteen digits. The first digit is never drawn, yet every scanner reads it. Where does it hide? This page\'s project builds a barcode in Python, decodes it again, and finds out.',
   wa: 'Hello Modern Age Coders, we are in Flintshire and would like to book a free lesson, please.',
 
@@ -164,7 +164,7 @@ module.exports = {
       { h3: 'Hands on, from the start', p: 'Pupils build every program themselves, and the teacher, watching the shared screen, steps in only when a nudge will help.' },
       { h3: 'Fitted to Welsh schooling', p: 'We match Shotton Year 5s and Buckley sixth-formers alike to their school year and Curriculum for Wales stage, and follow WJEC for exams. Lessons are in English.' },
       { h3: 'A free first lesson', p: 'One complete lesson without charge, then honest advice.' },
-      { h3: 'Groups at one level', p: 'Five to ten learners at the same level, joining from many places.' },
+      { h3: 'Groups at one level', p: 'Fifteen to twenty learners at the same level, joining from many places.' },
       { h3: 'Term-time lessons', p: 'Two lessons weekly in term, with holidays off.' },
       { h3: 'Same hour, all year', p: 'British summer time or not, the lesson stays put at its UK hour; teachers working on India time adjust.' }
     ],
@@ -175,7 +175,7 @@ module.exports = {
     h2: 'Fees in Flintshire',
     intro: 'Mold or Connah\'s Quay, the fee is identical, the same as in every country we teach outside India.',
     first: 'A complete lesson, free, followed by a recommendation.',
-    group: 'About eight lessons a month in a group of five to ten.',
+    group: 'About eight lessons a month in a group of fifteen to twenty.',
     private: 'About eight lessons a month, one-to-one.',
     closer: 'Fees are in US dollars; there is no sterling list. We start billing only after the free lesson has fixed a course and weekly time; the pricing page explains holidays, missed lessons and switching formats.'
   },

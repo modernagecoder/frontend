@@ -52,7 +52,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Modern Age Coders teaches full stack software development live online to learners in the Netherlands: the front end in HTML, CSS, JavaScript and React; a back end in Node.js, Python or Java; SQL databases; and the working practices of version control, testing and deployment. Teenagers start with websites and move up; students and adults can take the full route towards a first developer role. Each learner joins at the rung their skills justify, in a class of five to ten or alone with a teacher, always live and in English. A trial lesson is free, and a month of group study then costs USD 100, or USD 150 with a private teacher.',
+  capsule: 'Modern Age Coders teaches full stack software development live online to learners in the Netherlands: the front end in HTML, CSS, JavaScript and React; a back end in Node.js, Python or Java; SQL databases; and the working practices of version control, testing and deployment. Teenagers start with websites and move up; students and adults can take the full route towards a first developer role. Each learner joins at the rung their skills justify, in a class of fifteen to twenty or alone with a teacher, always live and in English. A trial lesson is free, and a month of group study then costs USD 100, or USD 150 with a private teacher.',
 
   picks: {
     eyebrow: 'Start here',
@@ -199,7 +199,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first lesson', p: 'You build something small but real with a teacher, who sees your level and proposes a route through the stack.' },
-      { h3: 'Groups of five to ten', p: 'Classmates at the same stage, joining from several countries, each building an application of their own.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Classmates at the same stage, joining from several countries, each building an application of their own.' },
       { h3: 'One to one for career changers', p: 'For adults with a timetable to hit, a specific project, or a portfolio to finish before applying.' },
       { h3: 'Code reviewed like at work', p: 'Teachers review learners\' code as a senior developer would, so habits form early.' },
       { h3: 'In English', p: 'The language of the tools, the documentation and most Dutch development teams.' },
@@ -215,7 +215,7 @@ module.exports = {
     h2: 'Fees for the full stack courses',
     lede: 'Billed monthly in US dollars at one rate for every country outside India. The career route costs the same as any other course, with no joining fee and no contract for the year.',
     free: ['A real building lesson', 'A route through the stack', 'No card needed'],
-    group: ['Five to ten learners at one level', 'The same live teacher each week', 'Code reviewed every week', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same live teacher each week', 'Code reviewed every week', 'A certificate at the end'],
     one: ['A teacher for one learner', 'Paced to a career goal', 'Good for finishing a portfolio']
   },
 

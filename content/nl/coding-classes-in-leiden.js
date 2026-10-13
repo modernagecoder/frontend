@@ -39,7 +39,7 @@ module.exports = {
 
   h1: 'Coding classes in Leiden, where a pound in 1807 was not the pound you would convert it with',
   capsuleQ: 'What are the best coding classes in Leiden?',
-  capsule: 'Coding classes in Leiden serve 130,328 people (Statistics Netherlands, 1 January 2026) packed onto 21.85 square kilometres of land, which its own entry calls by far the smallest area of any Dutch city above a hundred thousand. In 1807 a boat carrying 37,000 Hollandse ponden of gunpowder exploded here, and the same source gives that charge as 17,760 kilograms, which works out at 0.48 kilograms to the pond rather than the 0.4536 of a modern pound. Throughout the city, Modern Age Coders teaches on a live connection and in English, taking learners at any age between 6 and 67. The first hour is given free. Afterwards it is USD 100 a month in a group of five to ten, and USD 150 with a teacher to yourself.',
+  capsule: 'Coding classes in Leiden serve 130,328 people (Statistics Netherlands, 1 January 2026) packed onto 21.85 square kilometres of land, which its own entry calls by far the smallest area of any Dutch city above a hundred thousand. In 1807 a boat carrying 37,000 Hollandse ponden of gunpowder exploded here, and the same source gives that charge as 17,760 kilograms, which works out at 0.48 kilograms to the pond rather than the 0.4536 of a modern pound. Throughout the city, Modern Age Coders teaches on a live connection and in English, taking learners at any age between 6 and 67. The first hour is given free. Afterwards it is USD 100 a month in a group of fifteen to twenty, and USD 150 with a teacher to yourself.',
   lead: 'A record from 1807 says the boat carried 37,000 pounds of gunpowder. Convert that with the pound on your phone and you get 16,783 kilograms. The source itself says 17,760, because the Hollandse pond of the day was 0.48 kilograms rather than 0.4536. Almost a tonne of explosive goes missing in a conversion that looks completely routine, and nothing in the word pound warns you. A child who has met one unit that changed size behind its own name will check the others before trusting a number that crossed a century.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Leiden.',
 
@@ -176,14 +176,14 @@ module.exports = {
       { h3: 'Twice weekly, on the middle calendar', p: 'Two lessons a week at one repeating slot, eight in most months. Leiden takes its school holidays with regio Midden along with the rest of Zuid-Holland, and weeks away go into the plan first.' },
       { h3: 'Two clocks, one of which moves', p: 'Because only the Netherlands adjusts for summer time, the teacher sits three and a half hours in front for part of the year and four and a half for the rest. Late afternoons and early evenings overlap comfortably, and Saturday and Sunday are open throughout.' }
     ],
-    spec: { title: 'A city of students where the children are outnumbered', p: 'Only 14,836 residents are under fifteen, 11 percent, while 23,428 are between fifteen and twenty-five. A child growing up here is in a minority, and the group of five to ten that this class forms is drawn from the whole country rather than from one street, which for some families is exactly the point.' }
+    spec: { title: 'A city of students where the children are outnumbered', p: 'Only 14,836 residents are under fifteen, 11 percent, while 23,428 are between fifteen and twenty-five. A child growing up here is in a minority, and the group of fifteen to twenty that this class forms is drawn from the whole country rather than from one street, which for some families is exactly the point.' }
   },
 
   fees: {
     h2: 'The fee, in dollars, in all ten wijken',
     intro: 'Published here rather than saved for a phone call.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'One international rate applies, quoted in dollars and never in euros, so every address in the city sees the same figure. Payment follows the free lesson rather than preceding it and goes over WhatsApp once a course and a time are agreed. Pausing, changing plan and missing a week are described on the pricing page.'
   },
@@ -208,7 +208,7 @@ module.exports = {
       { q: 'How many students are there in Leiden?', a: 'Two counts answer two questions and this page adds neither to the other. The municipality reports 40,949 students at institutions here for 2025, while 3,730 residents are registered in applied higher education and 13,240 at university level. The university separately reported more than 34,000 enrolled as of 2021. Studying somewhere and living somewhere are different facts.' },
       { q: 'Is Leiden really that crowded?', a: 'It is the densest municipality in this series, at a published 5,979 residents to the square kilometre against a national average of 536, and its own entry says that of all Dutch cities above a hundred thousand people it has by far the smallest area. It also holds more than 1,250 national monuments, which is part of why it cannot spread.' },
       { q: 'Is there a Modern Age Coders classroom in Leiden?', a: 'No, and none is claimed near the Burcht, at the Bio Science Park or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Leiden coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Leiden coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in a Leiden group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or wijk. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

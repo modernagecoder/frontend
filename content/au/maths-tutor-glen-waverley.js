@@ -52,7 +52,7 @@ module.exports = {
   "twitterDescription": "Glen Waverley maths tutoring, live online: Foundation to VCE Specialist and adults, in Melbourne time.",
   "pageName": "Maths Tutor in Glen Waverley",
   "webPageDescription": "Live online maths tutoring for Glen Waverley learners from Foundation to Year 12 and adults, following the Victorian Curriculum and the VCE mathematics studies, with a simultaneous-equations project on Census counts.",
-  "courseDescription": "Live online maths lessons for Glen Waverley learners, privately or in classes of five to ten matched by level, from early number to VCE Specialist Mathematics and adult maths.",
+  "courseDescription": "Live online maths lessons for Glen Waverley learners, privately or in classes of fifteen to twenty matched by level, from early number to VCE Specialist Mathematics and adult maths.",
   "crumbs": [
     {
       "name": "Courses",
@@ -130,7 +130,7 @@ module.exports = {
     ]
   ],
   "capsuleQ": "Maths tutor in Glen Waverley, in brief",
-  "capsule": "Modern Age Coders is an online maths tutor for Glen Waverley learners aged 6 to 67: Victorian Curriculum maths from Foundation to Year 10, the VCE studies Foundation Mathematics, General Mathematics, Mathematical Methods and Specialist Mathematics, and adult maths. Lessons run on live video in Melbourne time, privately or in level-matched classes of five to ten. Our local example solves a pair of simultaneous equations whose answers are Glen Waverley's Census counts of primary and secondary students. The first lesson is free.",
+  "capsule": "Modern Age Coders is an online maths tutor for Glen Waverley learners aged 6 to 67: Victorian Curriculum maths from Foundation to Year 10, the VCE studies Foundation Mathematics, General Mathematics, Mathematical Methods and Specialist Mathematics, and adult maths. Lessons run on live video in Melbourne time, privately or in level-matched classes of fifteen to twenty. Our local example solves a pair of simultaneous equations whose answers are Glen Waverley's Census counts of primary and secondary students. The first lesson is free.",
   "picks": {
     "eyebrow": "Where Glen Waverley families start",
     "h2": "Three courses for three stages",
@@ -447,7 +447,7 @@ module.exports = {
           ],
           "rightH3": "Private or in a class",
           "right": [
-            "A private lesson targets one gap or deadline. A class of five to ten keeps steady pace with classmates at the same level.",
+            "A private lesson targets one gap or deadline. A class of fifteen to twenty keeps steady pace with classmates at the same level.",
             "Every lesson uses a shared board so the teacher sees each step."
           ]
         },
@@ -677,7 +677,7 @@ module.exports = {
       "No card details"
     ],
     "group": [
-      "A class of five to ten at one level",
+      "A class of fifteen to twenty at one level",
       "The same teacher all term",
       "Practice marked",
       "Stop after any month"

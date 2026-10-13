@@ -231,7 +231,7 @@ module.exports = {
       { h3: 'Real tasks', p: 'Every skill is practised on something a child actually wants to make.' },
       { h3: 'Our own practice', p: 'Questions written by us, never copied from ICAS papers.' },
       { h3: 'Predict, then run', p: 'Students say what will happen before they click.' },
-      { h3: 'Groups of five to ten', p: 'Children at a similar level comparing answers and methods.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Children at a similar level comparing answers and methods.' },
       { h3: 'One-to-one option', p: 'For a child who needs a particular area rebuilt.' },
       { h3: 'No result promised', p: 'We teach the skills; ICAS sets and marks the assessment.' }
     ]
@@ -245,7 +245,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Lessons are billed monthly in US dollars at our international rate. There is no joining fee and no long contract. The ICAS entry fee, if a family pays one, goes to ICAS and has nothing to do with us.',
     free: ['A real first lesson with a teacher', 'A short look at which areas need work', 'No card details asked'],
-    group: ['Five to ten children at one level', 'One teacher across the term', 'Spreadsheet and coding tasks reviewed together', 'A certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'One teacher across the term', 'Spreadsheet and coding tasks reviewed together', 'A certificate at the end'],
     one: ['A teacher working with one child', 'A plan built around the weaker areas', 'Weekly times chosen with you']
   },
 

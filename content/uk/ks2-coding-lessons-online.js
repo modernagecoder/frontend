@@ -70,7 +70,7 @@ module.exports = {
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'The statutory computing curriculum for key stage 2 is more ambitious than most families realise. By the end of Year 6 pupils are supposed to use sequence, selection and repetition, work with variables and with input and output, design, write and debug programs that accomplish specific goals, solve problems by decomposing them, and use logical reasoning to explain how simple algorithms work and to find errors in them. Whether a particular school covers all of that varies enormously, and a parent can check simply by asking a child to explain a program they wrote. We teach exactly this content live online, in groups of five to ten at one level or one to one, for children roughly seven to eleven. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.',
+  capsule: 'The statutory computing curriculum for key stage 2 is more ambitious than most families realise. By the end of Year 6 pupils are supposed to use sequence, selection and repetition, work with variables and with input and output, design, write and debug programs that accomplish specific goals, solve problems by decomposing them, and use logical reasoning to explain how simple algorithms work and to find errors in them. Whether a particular school covers all of that varies enormously, and a parent can check simply by asking a child to explain a program they wrote. We teach exactly this content live online, in groups of fifteen to twenty at one level or one to one, for children roughly seven to eleven. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.',
 
   picks: {
     eyebrow: 'Start here',
@@ -222,7 +222,7 @@ module.exports = {
       { h3: 'Predictions before running', p: 'The child says what will happen first. Being wrong out loud is the mechanism, not the embarrassment.' },
       { h3: 'Fixing, not restarting', p: 'When it breaks we find out why, which is the part the curriculum names and the part that is usually skipped.' },
       { h3: 'Someone within earshot', p: 'A parent or carer at home and contactable. No need to watch the lesson, only to be findable.' },
-      { h3: 'Groups by level', p: 'Five to ten children at the same step, so nobody is the youngest in a room of teenagers.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty children at the same step, so nobody is the youngest in a room of teenagers.' },
       { h3: 'Work you can open', p: 'Finished projects are saved where a family can see them, which is usually how a parent finds out it is going well.' }
     ]
   },
@@ -235,7 +235,7 @@ module.exports = {
     h2: 'What primary lessons cost',
     lede: 'One monthly charge in US dollars, the rate outside India. The free lesson comes first and nothing is taken until a course and a weekly time are agreed.',
     free: ['A real lesson, with something built in it', 'An honest view of the step the child is on', 'Only a phone number needed'],
-    group: ['Five to ten children at the same step', 'One named teacher throughout', 'Work saved where a parent can open it', 'A certificate when a course finishes'],
+    group: ['Fifteen to twenty children at the same step', 'One named teacher throughout', 'Work saved where a parent can open it', 'A certificate when a course finishes'],
     one: ['One child and one teacher', 'Good for a very shy or very advanced child', 'Fitted around clubs and the school run']
   },
 

@@ -16,7 +16,7 @@ Kildare town, County Kildare / Live online
 
 Machine learning includes methods that find groups nobody has labelled, and the most widely taught is k-means. Give it the travel-to-work pattern of the 94 towns of 5,000 or more, ask for four groups, and it returns four tidy clusters, one of them containing Kildare. Run it again from a different random start and the groups change. Run it 200 times and it produces 68 different groupings. Ask for eight groups and every one of the 200 runs disagrees with every other. The method is working as designed; what it shows is that a single set of clusters is one answer among many. This page runs the experiment and shows how to report clusters so that the instability is visible rather than hidden.
 
-Facts last verified 19 September 2026. Teaching is online; no Kildare branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Kildare branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Kildare town learners begin
 
@@ -172,7 +172,7 @@ In outline.
 All of the charges.
 
 - First class: USD 0. A full first lesson with the level assessed, free.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one stage, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one stage, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons on the same weekly pattern.
 
 Every family outside India pays the same US dollar fee each month. The first lesson is free, billing starts once the course does, and the pricing page lists what happens with holidays, missed lessons and a change between group and private lessons.
@@ -213,7 +213,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Kildare town cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

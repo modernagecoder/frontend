@@ -4,7 +4,7 @@ description: "Online maths tutor for Sydney, Kindergarten to Year 12 and adults:
 canonical: https://learn.modernagecoders.com/maths-tutor-sydney
 source: src/pages/maths-tutor-sydney.html
 ---
-> Modern Age Coders is an online maths tutor for Sydney learners aged 6 to 67, teaching the NSW mathematics syllabus from Kindergarten to Year 10 and the HSC courses: Mathematics Standard, Advanced, Extension 1 and Extension 2. Lessons are live over video in Sydney time, one to one or in level-matched groups of five to ten, and the first lesson is free.
+> Modern Age Coders is an online maths tutor for Sydney learners aged 6 to 67, teaching the NSW mathematics syllabus from Kindergarten to Year 10 and the HSC courses: Mathematics Standard, Advanced, Extension 1 and Extension 2. Lessons are live over video in Sydney time, one to one or in level-matched groups of fifteen to twenty, and the first lesson is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Maths tutor in Sydney
 
@@ -164,9 +164,9 @@ Sydney keeps Australian Eastern Standard Time in winter and moves to daylight sa
 
 A private lesson at a fixed weekly time, built around one learner's gaps or goals. Useful before an HSC exam block or after a difficult topic test.
 
-### Small groups
+### Groups
 
-Five to ten learners at the same level, with the same teacher each week. Students hear other people's questions, which often answer their own.
+Fifteen to twenty learners at the same level, with the same teacher each week. Students hear other people's questions, which often answer their own.
 
 ### Shared whiteboard
 
@@ -233,7 +233,7 @@ Every lesson is booked in Sydney time, and the daylight saving changes in Octobe
 
 - **The same teacher** One teacher follows the learner and remembers what went wrong last time.
 - **Notes for parents** A short, honest update after lessons.
-- **Groups by level** Five to ten learners at one stage.
+- **Groups by level** Fifteen to twenty learners at one stage.
 - **Real numbers** Census tables and maps alongside textbook work.
 - **Private option** One teacher, one learner, for a gap or deadline.
 - **Reasons first** Learners explain a method before practising it.
@@ -243,7 +243,7 @@ Every lesson is booked in Sydney time, and the daylight saving changes in Octobe
 Sydney families pay one flat monthly fee in US dollars. Nothing is charged to sign up, and there is no fixed term.
 
 - Free first class: USD 0. A full lesson at the learner's level. An honest summary afterwards. No payment card.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher each week. Work marked and discussed. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. Work marked and discussed. Stop after any month.
 - One to one: USD 150 a month. Private teaching. Built around one gap or goal. Useful before exam blocks.
 
 ## Questions Sydney families ask about a maths tutor

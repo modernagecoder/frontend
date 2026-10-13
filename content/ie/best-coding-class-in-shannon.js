@@ -187,7 +187,7 @@ module.exports = {
     intro: 'The practical side.',
     cells: [
       { h3: 'Taught as it happens', p: 'No recordings stand in for the teacher, who talks each learner through their own code while the lesson is on.' },
-      { h3: 'Matched groups', p: 'A group holds five to ten learners at one stage, drawn from Shannon, the rest of Ireland and further away.' },
+      { h3: 'Matched groups', p: 'A group holds fifteen to twenty learners at one stage, drawn from Shannon, the rest of Ireland and further away.' },
       { h3: 'Two sessions weekly', p: 'About eight lessons in a month, at times fixed when the course begins.' },
       { h3: 'Around term dates', p: 'Holiday breaks, mid-terms and exam periods go into the course plan at the outset.' },
       { h3: 'What to have ready', p: 'A laptop or desktop computer, a microphone and headphones or speakers, and broadband that holds a video call.' },
@@ -200,7 +200,7 @@ module.exports = {
     h2: 'What Shannon families pay',
     intro: 'The whole list.',
     first: 'The first lesson, level check included, at no cost.',
-    group: 'One month in a same-stage group of five to ten, roughly eight live lessons.',
+    group: 'One month in a same-stage group of fifteen to twenty, roughly eight live lessons.',
     private: 'One month of private lessons at the same rhythm.',
     closer: 'Outside India the fee is the same in US dollars wherever a family lives. The free lesson carries no obligation, billing begins with the course itself, and holidays, missed lessons and switching between a group and private teaching are all covered on the pricing page.'
   },
@@ -225,7 +225,7 @@ module.exports = {
       { q: 'Can adults join?', a: 'Yes. Anyone up to sixty-seven can start, whatever their experience, and after the first lesson an adult picks between a small same-stage group and private lessons.' },
       { q: 'Will classmates be from Shannon?', a: 'Not necessarily. Groups form around level, so classmates could live in Shannon, elsewhere in Ireland or in another country.' },
       { q: 'Is there a Modern Age Coders centre in Shannon?', a: 'No. Every lesson is live on video and we have no premises in Ireland. A learner needs a laptop or desktop, a working microphone and sound, and a steady connection. The phone number on this page is our number in India.', boiler: true },
-      { q: 'What do coding classes in Shannon cost?', a: 'The first lesson is free. A group place is USD 100 a month for about eight live lessons, two a week, with five to ten learners; private lessons on the same pattern are USD 150 a month. Nothing is charged until the arrangement is agreed.', boiler: true },
+      { q: 'What do coding classes in Shannon cost?', a: 'The first lesson is free. A group place is USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners; private lessons on the same pattern are USD 150 a month. Nothing is charged until the arrangement is agreed.', boiler: true },
       { q: 'How big are the groups?', a: 'Between five and ten learners, placed by level, pace and aim rather than by age or town. If no group at the right level meets at a workable time, the learner is taught one to one.', boiler: true }
     ]
   },

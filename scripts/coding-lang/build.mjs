@@ -257,7 +257,7 @@ md.push('---');
 md.push('');
 md.push('# Programming languages, frameworks and tools to learn in 2026');
 md.push('');
-md.push(`> ${TOTAL} technologies in ${CATEGORIES.length} groups, updated ${UPDATED.label}. For each one: what it is for, who it suits, the current version, and the live Modern Age Coders course that teaches it. Modern Age Coders teaches coding and maths live online to learners aged 6 to 67, 1-on-1, in mini batches of 3 to 4, or in groups of 5 to 10.`);
+md.push(`> ${TOTAL} technologies in ${CATEGORIES.length} groups, updated ${UPDATED.label}. For each one: what it is for, who it suits, the current version, and the live Modern Age Coders course that teaches it. Modern Age Coders teaches coding and maths live online to learners aged 6 to 67, 1-on-1, in mini batches of up to 6, or in groups of 15 to 20.`);
 md.push('');
 md.push('## Start with a course');
 md.push('');
@@ -314,7 +314,7 @@ PATHS.forEach((p, i) => {
 });
 md.push('## How we teach every language on this page');
 md.push('');
-md.push('- Live classes with a mentor, never recordings. Choose 1-on-1, a mini batch of 3 to 4, or a group of 5 to 10.');
+md.push('- Live classes with a mentor, never recordings. Choose 1-on-1, a mini batch of up to 6, or a group of 15 to 20.');
 md.push('- Project-based from the first week: every language above is learned by building something that runs.');
 md.push('- A certificate from Modern Age Coders on passing the final exam.');
 md.push('- Book a free demo class: https://learn.modernagecoders.com/book-demo');

@@ -4,7 +4,7 @@ description: "The Netherlands is building a 200 million euro AI factory; under a
 canonical: https://learn.modernagecoders.com/ai-and-python-academy-netherlands
 source: src/pages/ai-and-python-academy-netherlands.html
 ---
-> Modern Age Coders teaches a live online Python and AI track to learners in the Netherlands aged six to sixty-seven, in English, in batches of five to ten or one to one. It is neither a blocks-and-robots club nor a prompting course. A student on it writes Python by hand, cleans data that came from somewhere real, trains a model and states its error in a unit that means something, builds an agent whose mistakes are visible, and publishes the result on GitHub. The first lesson costs nothing; after it, USD 100 a month buys a group place and USD 150 private tuition.
+> Modern Age Coders teaches a live online Python and AI track to learners in the Netherlands aged six to sixty-seven, in English, in batches of fifteen to twenty or one to one. It is neither a blocks-and-robots club nor a prompting course. A student on it writes Python by hand, cleans data that came from somewhere real, trains a model and states its error in a unit that means something, builds an agent whose mistakes are visible, and publishes the result on GitHub. The first lesson costs nothing; after it, USD 100 a month buys a group place and USD 150 private tuition.
 
 [Home](/) / [Courses](/courses) / AI and Python Academy, Netherlands
 
@@ -14,7 +14,7 @@ Netherlands · Live online · Ages 6 to 67
 
 On 10 October 2025 SURF announced that the Netherlands would get its own AI factory in Groningen: 70 million euros from Europe, 70 million from the ministries, 60 million from the north's Nij Begun fund, an expertise centre opening in 2026 and a supercomputer at full capacity in 2027. In the same year the curriculum institute SLO published that informatica is offered at 238 of 774 havo schools and 236 of 761 vwo schools, and taken by 8.9 percent of havo and 12.6 percent of vwo exam candidates. The machine is being built; the ladder up to it is optional. This page is the ladder: hand-written Python, then data, then models with a measured error, then agents, then a public repository.
 
-At a glance: Track: Python, data, ML, agents, GitHub; Format: Live video, never pre-recorded; Batch: 5 to 10 students, or one to one; Timing: Dutch afternoons and evenings, agreed on the call; Language: English; Ages: 6 to 67; Fees: From USD 100 a month; First class: Free, no card needed. Rated 4.9 across 547 Google reviews.
+At a glance: Track: Python, data, ML, agents, GitHub; Format: Live video, never pre-recorded; Batch: 15 to 20 students, or one to one; Timing: Dutch afternoons and evenings, agreed on the call; Language: English; Ages: 6 to 67; Fees: From USD 100 a month; First class: Free, no card needed. Rated 4.9 across 547 Google reviews.
 
 ## Three courses that carry most Dutch learners onto the ladder
 
@@ -102,7 +102,7 @@ The country has three concentrations of families for whom this track is the obvi
 
 [Amsterdam](/coding-classes-in-amsterdam), [Rotterdam](/coding-classes-in-rotterdam), [Utrecht](/coding-classes-in-utrecht) and [Almere](/coding-classes-in-almere) have their own pages too, the academy page for [Amsterdam](/ai-and-python-academy-amsterdam) is written, as is the one for [Eindhoven](/ai-and-python-academy-eindhoven) and [The Hague](/ai-and-python-academy-the-hague), and [Utrecht](/ai-and-python-academy-utrecht) has one too, as does [Rotterdam](/ai-and-python-academy-rotterdam); the one for [Groningen](/ai-and-python-academy-groningen), the factory's own city, is written already.
 
-Why online, put narrowly. Not because a screen beats a room, but because a group of five to ten learners at one level, in one specialised subject, free at one hour, is almost impossible to gather from a single Dutch town and straightforward to gather from twenty-five countries. When a tenth of pupils take the subject, the pool of classmates is the thing being sold.
+Why online, put narrowly. Not because a screen beats a room, but because a group of fifteen to twenty learners at one level, in one specialised subject, free at one hour, is almost impossible to gather from a single Dutch town and straightforward to gather from twenty-five countries. When a tenth of pupils take the subject, the pool of classmates is the thing being sold.
 
 A family that wants general programming rather than this track should start at [coding classes in the Netherlands](/coding-classes-in-netherlands). One that wants machine learning worked on Dutch data should read [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands). For one age group at a time, the door pages are [coding classes for kids in the Netherlands](/coding-classes-for-kids-netherlands), [coding classes for teens in the Netherlands](/coding-classes-for-teens-netherlands), [coding and AI classes for adults in the Netherlands](/coding-and-ai-classes-for-adults-netherlands), [coding for college students in the Netherlands](/coding-for-college-students-netherlands) and [the AI agents course for professionals in the Netherlands](/ai-agents-course-for-professionals-netherlands). Topic pages cover [building real AI projects in the Netherlands](/build-real-ai-projects-netherlands), [machine learning for school students in the Netherlands](/machine-learning-for-school-students-netherlands), [the AI and Python academy for girls in the Netherlands](/ai-and-python-academy-for-girls-netherlands), [the AI agents course for students in the Netherlands](/ai-agents-course-for-students-netherlands), [coding alongside informatica in havo and vwo](/coding-alongside-informatica-havo-vwo-netherlands) and [vibe coding versus building AI](/vibe-coding-vs-building-ai-netherlands). Track pages include [Python classes in the Netherlands](/python-classes-netherlands), [Java classes in the Netherlands](/java-classes-netherlands), [the full stack software development course](/full-stack-software-development-course-netherlands), [the data science course](/data-science-course-netherlands), [the app development course](/app-development-course-netherlands) and [one-to-one coding classes in the Netherlands](/one-to-one-coding-classes-netherlands). The argument that holds this whole family of pages together is set out at [Learn to Build AI](/learn-to-build-ai).
 
@@ -182,7 +182,7 @@ The Netherlands changes its clock twice a year and India, where the teaching ope
 Billed monthly in US dollars at the same two rates we charge everywhere outside India. There is no Dutch tariff, nothing added for the Netherlands and nothing to join. The agent courses are priced the same way; the Copilot Studio courses are private tuition by design and so carry the one-to-one figure.
 
 - Free first class: USD 0. A lesson, not a pitch. Fixes the starting rung. Watch it, then decide.
-- Group batch: USD 100 a month. Five to ten learners, one teacher throughout. Live, never a recording. Build work reviewed every week. Certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners, one teacher throughout. Live, never a recording. Build work reviewed every week. Certificate at the end.
 - One to one: USD 150 a month. A teacher to yourself, at your pace. The only format for the Copilot Studio courses. Syllabus bent to the goal.
 
 ## Before the first class: what Dutch parents and students ask us
@@ -221,7 +221,7 @@ A URL and a GitHub repository. Whatever the student finished is live somewhere a
 
 ### What does it cost a family in the Netherlands?
 
-USD 100 a month for a place in a group of five to ten, USD 150 a month for a teacher to yourself, both charged in US dollars at the rate every family outside India pays. No euro price list, no joining fee, no contract for the year, and nothing at all for the first lesson.
+USD 100 a month for a place in a group of fifteen to twenty, USD 150 a month for a teacher to yourself, both charged in US dollars at the rate every family outside India pays. No euro price list, no joining fee, no contract for the year, and nothing at all for the first lesson.
 
 ### What happens after we send the form?
 

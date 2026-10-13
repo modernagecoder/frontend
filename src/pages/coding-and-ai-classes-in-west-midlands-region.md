@@ -4,7 +4,7 @@ description: "Live online coding, AI, Python and maths classes across the West M
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-west-midlands-region
 source: src/pages/coding-and-ai-classes-in-west-midlands-region.html
 ---
-> The West Midlands region counted 5,950,757 residents at the 2021 census, in 30 local authorities. Birmingham, at 1,121,375, is the largest built-up area in England outside London, and Coventry, Stoke-on-Trent and Wolverhampton follow, with Telford, Solihull, Worcester, West Bromwich, Tamworth and Shrewsbury among the big towns. We teach every lesson live by video from India. Learners from 6 to 67 take coding, AI, Python and maths, individually or in a same-level group of five to ten. The first lesson is on us and settles the starting point. This page links our pages across the region and runs a project on a Shropshire weather record. Continuing is USD 100 a month in a group or USD 150 a month one-to-one.
+> The West Midlands region counted 5,950,757 residents at the 2021 census, in 30 local authorities. Birmingham, at 1,121,375, is the largest built-up area in England outside London, and Coventry, Stoke-on-Trent and Wolverhampton follow, with Telford, Solihull, Worcester, West Bromwich, Tamworth and Shrewsbury among the big towns. We teach every lesson live by video from India. Learners from 6 to 67 take coding, AI, Python and maths, individually or in a same-level group of fifteen to twenty. The first lesson is on us and settles the starting point. This page links our pages across the region and runs a project on a Shropshire weather record. Continuing is USD 100 a month in a group or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [England](/coding-and-ai-classes-in-england) / West Midlands region
 
@@ -12,11 +12,11 @@ West Midlands region / Live online
 
 # Coding and AI classes in the West Midlands region
 
-**What are the best coding and AI classes in the West Midlands region?** The West Midlands region counted 5,950,757 residents at the 2021 census, in 30 local authorities. Birmingham, at 1,121,375, is the largest built-up area in England outside London, and Coventry, Stoke-on-Trent and Wolverhampton follow, with Telford, Solihull, Worcester, West Bromwich, Tamworth and Shrewsbury among the big towns. We teach every lesson live by video from India. Learners from 6 to 67 take coding, AI, Python and maths, individually or in a same-level group of five to ten. The first lesson is on us and settles the starting point. This page links our pages across the region and runs a project on a Shropshire weather record. Continuing is USD 100 a month in a group or USD 150 a month one-to-one.
+**What are the best coding and AI classes in the West Midlands region?** The West Midlands region counted 5,950,757 residents at the 2021 census, in 30 local authorities. Birmingham, at 1,121,375, is the largest built-up area in England outside London, and Coventry, Stoke-on-Trent and Wolverhampton follow, with Telford, Solihull, Worcester, West Bromwich, Tamworth and Shrewsbury among the big towns. We teach every lesson live by video from India. Learners from 6 to 67 take coding, AI, Python and maths, individually or in a same-level group of fifteen to twenty. The first lesson is on us and settles the starting point. This page links our pages across the region and runs a project on a Shropshire weather record. Continuing is USD 100 a month in a group or USD 150 a month one-to-one.
 
 At Shawbury in Shropshire the Met Office has kept monthly temperature records since 1946. Gardeners and farmers care about one number above most others: how many days of the year are warm enough for grass and crops to grow. A common rule of thumb puts the line at an average of about 5.5 or 6 degrees. Temperatures are published month by month, though, so the exact days when the average climbs past the line in spring and falls back below it in autumn have to be estimated. Has that growing season changed between the thirty years from 1961 to 1990 and the thirty from 1991 to 2020? This page's project estimates both in Python, and shows why a lazy method would get it badly wrong.
 
-Facts last verified 26 September 2026. Teaching is online; no West Midlands region branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no West Midlands region branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses for West Midlands learners
 
@@ -137,7 +137,7 @@ City, town or village, a connection at home is enough.
 - **Learner-typed code** The student writes the program; the tutor follows the shared screen and steps in with a question when progress stalls.
 - **By year group** A Year 3 in West Bromwich or a Year 12 in Newcastle-under-Lyme is placed by year and key stage, with exam names from their board.
 - **Free starting lesson** A full first lesson at no cost, then a clear next step.
-- **Matched classes** Five to ten learners on one level in each class, from anywhere in the UK.
+- **Matched classes** Fifteen to twenty learners on one level in each class, from anywhere in the UK.
 - **Term weeks** Twice a week during term, with holidays off.
 - **UK time held** Your lesson stays at its UK time through the clock changes; our teachers adapt.
 
@@ -148,7 +148,7 @@ City, town or village, a connection at home is enough.
 Coventry and Shrewsbury pay the same, as does every country we teach outside India.
 
 - First class: USD 0. A full free lesson with honest advice.
-- Group tuition: USD 100 a month. About eight lessons monthly in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons monthly in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons monthly with your own tutor.
 
 Our fees are in US dollars; we never price in sterling. Nothing is billed before the trial has agreed a course and weekly time, and the pricing page covers holidays, missed sessions and changing between group and private.

@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Salisbury lea
 canonical: https://learn.modernagecoders.com/best-coding-class-in-salisbury
 source: src/pages/best-coding-class-in-salisbury.html
 ---
-> Wiltshire, the council area that includes Salisbury, had 510,333 usual residents at the 2021 census, at 156.8 people per square kilometre against 433.5 for England. Salisbury Cathedral says its Magna Carta is one of only four surviving original documents from 1215, delivered to the first cathedral at Old Sarum. We teach Salisbury learners aged six to sixty-seven from India in live video lessons, one to one or in a group of five to ten at the same level, at times that fit the UK day. The first lesson is free; after that a group place costs USD 100 a month and one-to-one teaching USD 150.
+> Wiltshire, the council area that includes Salisbury, had 510,333 usual residents at the 2021 census, at 156.8 people per square kilometre against 433.5 for England. Salisbury Cathedral says its Magna Carta is one of only four surviving original documents from 1215, delivered to the first cathedral at Old Sarum. We teach Salisbury learners aged six to sixty-seven from India in live video lessons, one to one or in a group of fifteen to twenty at the same level, at times that fit the UK day. The first lesson is free; after that a group place costs USD 100 a month and one-to-one teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Salisbury
 
@@ -12,11 +12,11 @@ Salisbury, Wiltshire / Live online
 
 # Coding classes in Salisbury
 
-**What are the best coding classes in Salisbury?** Wiltshire, the council area that includes Salisbury, had 510,333 usual residents at the 2021 census, at 156.8 people per square kilometre against 433.5 for England. Salisbury Cathedral says its Magna Carta is one of only four surviving original documents from 1215, delivered to the first cathedral at Old Sarum. We teach Salisbury learners aged six to sixty-seven from India in live video lessons, one to one or in a group of five to ten at the same level, at times that fit the UK day. The first lesson is free; after that a group place costs USD 100 a month and one-to-one teaching USD 150.
+**What are the best coding classes in Salisbury?** Wiltshire, the council area that includes Salisbury, had 510,333 usual residents at the 2021 census, at 156.8 people per square kilometre against 433.5 for England. Salisbury Cathedral says its Magna Carta is one of only four surviving original documents from 1215, delivered to the first cathedral at Old Sarum. We teach Salisbury learners aged six to sixty-seven from India in live video lessons, one to one or in a group of fifteen to twenty at the same level, at times that fit the UK day. The first lesson is free; after that a group place costs USD 100 a month and one-to-one teaching USD 150.
 
 Magna Carta runs to 4,871 words in the Avalon Project's English translation. How does a computer find one sentence in it quickly? Our teenagers build Rabin-Karp search, which gives every stretch of text a number, a hash, and slides that number along one letter at a time instead of recalculating it. To find Clause 40, "to no one will we sell", the rolling hash does about 54,000 small steps where recalculating every window would take over two million. Then comes the twist. Salisbury Cathedral quotes the same clause as "to no one deny or delay", a different translation, and exact search finds nothing at all. Measuring overlapping three-word pieces shows the two versions share 9 of 12.
 
-Facts last verified 23 September 2026. Teaching is online; no Salisbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Salisbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the cathedral city
 
@@ -174,7 +174,7 @@ Salisbury sits at the centre of a wide rural area. Online, a learner in a Wiltsh
 - **City and villages together** A learner in Churchfields and another in Wilton can take the same class with no drive into the city centre.
 - **English school stages** Lessons follow the stages Wiltshire schools use, from Reception and Key Stages 1 to 4 to GCSE and A level, taught in English.
 - **A real first lesson** The free session is a proper lesson on a real task, ending with a suggested level, course and weekly slot. No card is asked for.
-- **Classes by stage** Five to ten learners at one level, from Salisbury, the rest of the UK and abroad, so every stage has workable times.
+- **Classes by stage** Fifteen to twenty learners at one level, from Salisbury, the rest of the UK and abroad, so every stage has workable times.
 - **Twice a week** Two regular lessons each week, about eight a month, with holidays and exam weeks agreed with the teacher in advance.
 - **After school here, evening there** A 4 pm lesson in Salisbury begins at 8.30 pm in India in British Summer Time and 9.30 pm in winter, as India keeps a single time all year; our teachers work evenings for UK learners.
 
@@ -185,7 +185,7 @@ Salisbury sits at the centre of a wide rural area. Online, a learner in a Wiltsh
 A free lesson to begin, then one fee each month.
 
 - First class: USD 0. A complete lesson free of charge, ending with advice on level, course and a weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a group of five to ten learners at one stage.
+- Group tuition: USD 100 a month. About eight live lessons a month in a group of fifteen to twenty learners at one stage.
 - Private tuition: USD 150 a month. About eight live lessons a month, with your learner having the teacher to themselves.
 
 A family in Milford or Churchfields pays in US dollars, like every family outside India, and there are no pound prices anywhere on our site. The free lesson always comes first, and charges start only when the course and weekly time are agreed; the pricing page covers pausing, missed lessons and moving between group and private teaching.
@@ -226,11 +226,11 @@ No. There is no Salisbury centre and we have no UK premises, because every lesso
 
 ### How much are lessons for a Salisbury learner?
 
-The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one teaching on the same pattern is USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one teaching on the same pattern is USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are learners matched into groups?
 
-By level, pace and goals rather than age or location, with five to ten learners at the same stage. If no group fits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than age or location, with fifteen to twenty learners at the same stage. If no group fits the learner's week, we offer one-to-one lessons.
 
 ## The South West and beyond
 

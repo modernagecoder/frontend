@@ -140,7 +140,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'Whitechapel', p: 'TfL\'s open data lists the District, Hammersmith & City, Elizabeth and Windrush lines at Whitechapel.' },
           { h3: 'Isle of Dogs to Bow', p: 'A learner at the southern tip of the Isle of Dogs and one in Bow can be in the same class from home.' },
-          { h3: 'One step at a time', p: 'Like the discs, learners move up one stage at a time, in groups of five to ten at the same level.' }
+          { h3: 'One step at a time', p: 'Like the discs, learners move up one stage at a time, in groups of fifteen to twenty at the same level.' }
         ] },
         { kind: 'spec', title: 'Tower Hamlets in London', p: 'Tower Hamlets is one of London\'s 32 boroughs. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> covers them all and the City, linking each page when it is published, including <a class="cg-inline-link" href="/coding-classes-in-hackney-london">Hackney</a> to the north and <a class="cg-inline-link" href="/coding-classes-in-newham-london">Newham</a> across the River Lea.' }
       ]
@@ -177,7 +177,7 @@ module.exports = {
       { h3: 'From any room', p: 'A laptop or desktop with headphones and a steady internet connection is all the equipment needed.' },
       { h3: 'Stages used in England', p: 'Progress is described in English Key Stages, from the first years of school to sixth form, with GCSE and A level named where they apply. We teach in English.' },
       { h3: 'A real first lesson', p: 'The free lesson is actual teaching and ends with a recommended level and course. No payment details are requested.' },
-      { h3: 'Classes of five to ten', p: 'Each class brings together learners at one stage from across the UK and further away, which keeps a convenient evening time available.' },
+      { h3: 'Classes of fifteen to twenty', p: 'Each class brings together learners at one stage from across the UK and further away, which keeps a convenient evening time available.' },
       { h3: 'Two evenings a week', p: 'The usual rhythm is two evening lessons a week, with breaks for holidays and exams agreed in advance.' },
       { h3: 'UK clock times', p: 'Our teachers work from India; the times you receive are already in UK time.' }
     ],
@@ -188,7 +188,7 @@ module.exports = {
     h2: 'Fees for Tower Hamlets families',
     intro: 'A free first lesson, then one monthly fee, the same in Stepney as on the Isle of Dogs.',
     first: 'A full first lesson with a teacher, free, ending with a recommended level, course and weekly time.',
-    group: 'Close to eight live lessons each month, in a class of five to ten at one stage.',
+    group: 'Close to eight live lessons each month, in a class of fifteen to twenty at one stage.',
     private: 'Close to eight live lessons each month, one to one.',
     closer: 'Tower Hamlets families pay in US dollars, as do all families outside India, and there are no sterling prices on the site. Payment starts only after the free lesson, once you have chosen a course and a regular time. The pricing page describes pausing, missed lessons and moving between group and private teaching.'
   },
@@ -213,8 +213,8 @@ module.exports = {
       { q: 'When would lessons be?', a: 'The free session tells the teacher where the learner stands; we then propose a class at that stage with a seat, meeting on a fixed evening that we always express in UK time.' },
       { q: 'What does a learner need?', a: 'A computer with sound and a reliable connection. The recursion project needs only Python.' },
       { q: 'Is there a Modern Age Coders centre in Tower Hamlets?', a: 'No. There is no Tower Hamlets centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Tower Hamlets cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Tower Hamlets cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

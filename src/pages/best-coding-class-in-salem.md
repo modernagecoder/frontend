@@ -12,7 +12,7 @@ Live online · serving Salem
 
 Real programming for kids, teens and college students in Salem, from **Fairlands to Hasthampatti, Five Roads to Alagapuram**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Salem)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**SalemEnrollingAreasFairlands, Hasthampatti, Five Roads, Alagapuram, Ammapet & all of SalemBoardsTamil Nadu State Board · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across SalemFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Salem)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**SalemEnrollingAreasFairlands, Hasthampatti, Five Roads, Alagapuram, Ammapet & all of SalemBoardsTamil Nadu State Board · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across SalemFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -177,7 +177,7 @@ Algebra, geometry, trigonometry, pre-calculus and calculus for grades 9–12, bo
 Advanced problem-solving for IMO, PRMO, RMO and NTSE, for Salem's sharpest young mathematicians who want to push well beyond the school syllabus.
 
 - 2 live classes per week
-- Small batch (5–8 students)
+- Batch (15–20 students)
 - Recorded sessions
 - Doubt-clearing support
 
@@ -195,7 +195,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -217,7 +217,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -226,7 +226,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -235,7 +235,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -310,7 +310,7 @@ Takes under a minute.
 
 ## Coding classes in Salem: FAQs
 
-Which is the best coding class in Salem for kids?Modern Age Coders runs Salem's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python. Batches are small (5-8 students), project-based, and taught by industry instructors. We serve every locality: Fairlands, Hasthampatti, Five Roads, Alagapuram, Ammapet, Suramangalam, Shevapet, Gugai and Kondalampatti.Are the classes online or offline, and which Salem areas do you cover?All classes are live and online, so we cover every part of Salem equally: Fairlands, Hasthampatti, Five Roads, Alagapuram, Ammapet, Suramangalam, Shevapet, Gugai, Kondalampatti, the Junction and bus-stand belt, plus the SAIL township and the colleges along Omalur Road. Your child joins the same expert teacher from home, no scooter ride across the Junction traffic. Sessions are fully interactive with live coding, screen-sharing and recordings.How much do coding classes cost in Salem?Group classes (5-8 students) start at Rs.1499/month for 2 live classes per week. Mini-Batch (3-4 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Will coding help my child with TNEA, JEE and the board exams in Salem?Yes. Salem is an engineering-college town where families chase TNEA, JEE and NEET seats. Coding strengthens the exact logical reasoning, decomposition and problem-solving that those exams reward, and it directly supports CBSE and Tamil Nadu State board Computer Science plus the new NEP-2020 AI modules. Our Python and Java tracks line up with what's taught at Vidhya Mandir, Holy Angels, St Paul's and Cluny.What's the best age to start coding in Salem?Age 8 is ideal to begin with visual block-based coding (Scratch). For text-based languages like Python and Java, age 12-13 onwards works best. We design separate tracks for kids (6-12), teens (13-18) and college/working learners (18+).What programming languages and courses do you teach in Salem?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also teach school and Olympiad mathematics alongside coding.Do you prepare Salem college students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, MERN full-stack projects and AI/Data-Science portfolios. It is built for students from Government College of Engineering Salem, Sona College of Technology, Vinayaka Mission's (VMKV) and Periyar University who are aiming for product companies, service-firm campus drives and the Chennai/Coimbatore IT corridor.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Do you teach coding to Tamil Nadu board students in Salem?Yes. Salem schools run the Tamil Nadu state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Government College of Engineering Salem or Periyar University students join your programming courses?Yes. GCE Salem has taught since 1966 and Periyar University since 1997, so the fundamentals are well covered. The college track adds the built work a transcript never shows: real Python, Java, full-stack or AI/ML, carried to something that runs and can be opened in an interview.
+Which is the best coding class in Salem for kids?Modern Age Coders runs Salem's top-rated live online coding classes for kids aged 6-12. Children start with Scratch (games, animation, logic) and progress to Python. Batches are small (15-20 students), project-based, and taught by industry instructors. We serve every locality: Fairlands, Hasthampatti, Five Roads, Alagapuram, Ammapet, Suramangalam, Shevapet, Gugai and Kondalampatti.Are the classes online or offline, and which Salem areas do you cover?All classes are live and online, so we cover every part of Salem equally: Fairlands, Hasthampatti, Five Roads, Alagapuram, Ammapet, Suramangalam, Shevapet, Gugai, Kondalampatti, the Junction and bus-stand belt, plus the SAIL township and the colleges along Omalur Road. Your child joins the same expert teacher from home, no scooter ride across the Junction traffic. Sessions are fully interactive with live coding, screen-sharing and recordings.How much do coding classes cost in Salem?Group classes (15-20 students) start at Rs.1499/month for 2 live classes per week. Mini-Batch (up to 6 students) is Rs.2,999/month and personalised 1-on-1 mentoring is Rs.4,999/month. Every new student gets a free demo class first, and there are no hidden fees.Will coding help my child with TNEA, JEE and the board exams in Salem?Yes. Salem is an engineering-college town where families chase TNEA, JEE and NEET seats. Coding strengthens the exact logical reasoning, decomposition and problem-solving that those exams reward, and it directly supports CBSE and Tamil Nadu State board Computer Science plus the new NEP-2020 AI modules. Our Python and Java tracks line up with what's taught at Vidhya Mandir, Holy Angels, St Paul's and Cluny.What's the best age to start coding in Salem?Age 8 is ideal to begin with visual block-based coding (Scratch). For text-based languages like Python and Java, age 12-13 onwards works best. We design separate tracks for kids (6-12), teens (13-18) and college/working learners (18+).What programming languages and courses do you teach in Salem?Kids (6-12): Scratch, web design (HTML/CSS) and intro Python. Teens (13-18): Python, Java, Full-Stack Web Development (React/Node) and AI/ML. College (18+): Data Structures & Algorithms, MERN full-stack and AI/Data Science. We also teach school and Olympiad mathematics alongside coding.Do you prepare Salem college students for placements?Yes. Our college track is placement-focused: 200+ DSA problems, mock interviews, MERN full-stack projects and AI/Data-Science portfolios. It is built for students from Government College of Engineering Salem, Sona College of Technology, Vinayaka Mission's (VMKV) and Periyar University who are aiming for product companies, service-firm campus drives and the Chennai/Coimbatore IT corridor.Do you provide certificates and is there a free demo?Every student receives a completion certificate that strengthens school portfolios and college applications. Yes. We offer a free demo class before you enrol, and a full refund within the first paid week if it is not the right fit.Do you teach coding to Tamil Nadu board students in Salem?Yes. Salem schools run the Tamil Nadu state board, along with CBSE and ICSE, and our classes fit around any of them. We teach the programming itself, Python or Java, so the school computer paper stops being a memory test.Can Government College of Engineering Salem or Periyar University students join your programming courses?Yes. GCE Salem has taught since 1966 and Periyar University since 1997, so the fundamentals are well covered. The college track adds the built work a transcript never shows: real Python, Java, full-stack or AI/ML, carried to something that runs and can be opened in an interview.
 
 ## Ready to start your child's coding journey in Salem?
 

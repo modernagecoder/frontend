@@ -70,7 +70,7 @@ module.exports = {
 
   h1: 'Coding classes in Chichester',
   capsuleQ: 'What are the best coding classes in Chichester?',
-  capsule: 'Chichester district had 124,068 usual residents at the 2021 census, and in the College Lane and Oaklands area 24.2% of residents aged five and over were students. The Victoria County History describes the city walls as Roman in origin. Anyone from six to sixty-seven in Chichester can learn with us: a teacher based in India leads each class over a video call, either privately or with five to ten learners at one level, scheduled around English school days and working hours. Lesson one is free of charge; after that, USD 100 a month buys a group place and USD 150 a month buys one-to-one teaching.',
+  capsule: 'Chichester district had 124,068 usual residents at the 2021 census, and in the College Lane and Oaklands area 24.2% of residents aged five and over were students. The Victoria County History describes the city walls as Roman in origin. Anyone from six to sixty-seven in Chichester can learn with us: a teacher based in India leads each class over a video call, either privately or with fifteen to twenty learners at one level, scheduled around English school days and working hours. Lesson one is free of charge; after that, USD 100 a month buys a group place and USD 150 a month buys one-to-one teaching.',
   lead: 'The River Lavant runs past Chichester\'s walls, but not always: at the Environment Agency\'s Graylingwell gauge, just north of the city, the daily record shows no flow at all through the whole of three water years, although 1,003 of those 1,096 days are flagged as estimated. Our Chichester project asks whether the river now flows on more days than it did in the 1980s. Teenagers count the days with flow in each year from October to September, 44 years from 1982 to 2025, then apply the Mann-Kendall test, which asks whether later years tend to be higher than earlier ones. Counting any flow at all, the answer looks like yes. Counting only flow above 10 litres a second, the trend disappears.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Chichester.',
 
@@ -192,7 +192,7 @@ module.exports = {
       { h3: 'Inside and outside the walls', p: 'A learner in Portfield and another in Donnington can share one class without either of them crossing the city.' },
       { h3: 'Levels that match school', p: 'Families will recognise our stages, which run alongside the English curriculum from primary school to GCSE and A level; all teaching is in English.' },
       { h3: 'The free lesson in practice', p: 'In the opening session the learner builds something real, and the teacher then suggests a starting level, a course and a regular weekly time. There is no card to hand over.' },
-      { h3: 'Classes set by level', p: 'Groups of five to ten learners at the same stage, from Chichester, other parts of the UK and abroad, so every level has sensible times.' },
+      { h3: 'Classes set by level', p: 'Groups of fifteen to twenty learners at the same stage, from Chichester, other parts of the UK and abroad, so every level has sensible times.' },
       { h3: 'A weekly routine', p: 'Two fixed lessons a week, roughly eight a month, with half terms and exam weeks arranged with the teacher in advance.' },
       { h3: 'Teaching across time zones', p: 'At 5 pm in Chichester it is 9.30 pm for our teachers in India in summer and 10.30 pm in winter, since India does not put its clocks forward; they fit their evenings around families here.' }
     ],
@@ -203,7 +203,7 @@ module.exports = {
     h2: 'Chichester lesson fees',
     intro: 'The first lesson is free, and after that there is one monthly fee.',
     first: 'A whole lesson free of charge, finishing with our advice on level, course and a weekly slot.',
-    group: 'Roughly eight live lessons a month, in a group of five to ten learners at the same stage.',
+    group: 'Roughly eight live lessons a month, in a group of fifteen to twenty learners at the same stage.',
     private: 'Roughly eight live lessons a month, with a teacher who works with your learner alone.',
     closer: 'Families in Westhampnett or Apuldram are billed in US dollars, as is every family outside India, and our site shows no pound prices. Charges begin only after the free lesson, once you have agreed a course and a weekly slot with us; the pricing page sets out how pauses, missed lessons and moves between group and one-to-one teaching work.'
   },
@@ -228,8 +228,8 @@ module.exports = {
       { q: 'Are Chichester\'s city walls Roman?', a: 'The Victoria County History calls the walls and gates Roman in origin and sees no reason to think the line of the wall has changed since Roman times, though the visible stonework has been refaced many times. Historic England lists the City Walls at Grade I.' },
       { q: 'When do Chichester lessons happen?', a: 'Most Chichester learners take lessons straight after school, later on a weekday or on a Saturday or Sunday morning; the slot is fixed at the end of the free lesson. Our teachers work from India, where clocks read four and a half hours later than West Sussex while British Summer Time lasts and five and a half hours later the rest of the year.' },
       { q: 'Is there a centre in Chichester?', a: 'No. We have no Chichester centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a steady internet connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do Chichester lessons cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How do you group learners?', a: 'By level, pace and goals rather than by age or where they live, with five to ten learners at the same stage. When no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'What do Chichester lessons cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How do you group learners?', a: 'By level, pace and goals rather than by age or where they live, with fifteen to twenty learners at the same stage. When no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

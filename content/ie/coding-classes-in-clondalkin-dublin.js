@@ -163,7 +163,7 @@ module.exports = {
     intro: 'The practical arrangements.',
     cells: [
       { h3: 'A live teacher', p: 'Each lesson is led live, with the teacher watching and helping as every learner writes code.' },
-      { h3: 'Same-stage learners', p: 'Groups of five to ten at one stage, from Dublin 22, elsewhere in Ireland and abroad.' },
+      { h3: 'Same-stage learners', p: 'Groups of fifteen to twenty at one stage, from Dublin 22, elsewhere in Ireland and abroad.' },
       { h3: 'Two regular slots', p: 'About eight lessons a month, on the same two weekly slots agreed at the outset.' },
       { h3: 'Term planning', p: 'School holidays, mid-term breaks and exam weeks are accounted for in advance.' },
       { h3: 'Setup at home', p: 'Whatever laptop or desktop is at home will usually do, with a mic and something to hear through, on broadband that copes with video.' },
@@ -176,7 +176,7 @@ module.exports = {
     h2: 'Clondalkin lesson fees',
     intro: 'Here is everything.',
     first: 'A free first lesson that includes a level check.',
-    group: 'A month in a group of five to ten at one stage, around eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one stage, around eight live lessons.',
     private: 'A month of private lessons at the same pace.',
     closer: 'One monthly fee in US dollars applies to every family outside India. The free lesson involves no commitment, the first payment is due when the course begins, and the pricing page explains holidays, missed lessons and moving between group and private lessons.'
   },
@@ -200,7 +200,7 @@ module.exports = {
       { q: 'When are lessons?', a: 'On weekdays from after school into the evening, and at weekends during the day. Times are fixed in Irish time. The teachers are in India, whose clocks run five and a half hours ahead of Clondalkin in the winter months and four and a half in the summer ones, so we only propose hours that are sensible at both ends.' },
       { q: 'Can adults learn too?', a: 'Yes, up to the age of sixty-seven and from any level. An adult chooses a small group at the same level or private lessons after the first lesson.' },
       { q: 'Will my child be with other Clondalkin children?', a: 'Only if their level matches. Groups are formed by level, so classmates may be local or far away.' },
-      { q: 'What do coding classes in Clondalkin cost?', a: 'The first lesson is free. A group place is then USD 100 a month for around eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.', boiler: true },
+      { q: 'What do coding classes in Clondalkin cost?', a: 'The first lesson is free. A group place is then USD 100 a month for around eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.', boiler: true },
       { q: 'How big are groups?', a: 'Between five and ten learners, grouped by level, pace and goals rather than age or address. If no group fits a workable hour, lessons are one to one.', boiler: true }
     ]
   },

@@ -342,7 +342,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Two principles on our <a href='/how-we-teach'>how we teach</a> page matter most here: learning by building, and staying with one concept until it is fully understood. In code, that means tracing line by line until a student can predict every step, which is exactly how the eight concepts above are best learned. Our <a href='/courses/react-for-teens-complete-masterclass'>React course for teens</a> builds JavaScript through the DOM and modern ES6+ before the first React component, and our <a href='/courses/react-js-complete-masterclass-college'>React masterclass for college students and adults</a> starts from solid JavaScript foundations. Classes run one to one or in small groups of 5 to 10."
+        "text": "Two principles on our <a href='/how-we-teach'>how we teach</a> page matter most here: learning by building, and staying with one concept until it is fully understood. In code, that means tracing line by line until a student can predict every step, which is exactly how the eight concepts above are best learned. Our <a href='/courses/react-for-teens-complete-masterclass'>React course for teens</a> builds JavaScript through the DOM and modern ES6+ before the first React component, and our <a href='/courses/react-js-complete-masterclass-college'>React masterclass for college students and adults</a> starts from solid JavaScript foundations. Classes run one to one or in groups of 15 to 20."
       },
       {
         "type": "embed",

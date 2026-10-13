@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-kuwait-city.html
 
 In short
 
-Modern Age Coders runs live online AI and machine learning classes for students in Kuwait City, ages 6 to 67, in small batches of five to eight or one to one. Students write Python, meet the mathematics sitting under every model, and leave having trained something and measured its error themselves. Classes are timetabled to Kuwait's Sunday to Thursday week. Fees are a flat USD 100 a month for a group batch, billed in US dollars, and the first class is free.
+Modern Age Coders runs live online AI and machine learning classes for students in Kuwait City, ages 6 to 67, in batches of fifteen to twenty or one to one. Students write Python, meet the mathematics sitting under every model, and leave having trained something and measured its error themselves. Classes are timetabled to Kuwait's Sunday to Thursday week. Fees are a flat USD 100 a month for a group batch, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -305,7 +305,7 @@ Kuwait time, 12:30 to 14:00 IST. The strongest of the three and the anchor of ou
 
 ### What a session is
 
-Ninety minutes on live video with a teacher who can say, without checking notes, what your child struggled with last week. Screens are shared both ways, so the teacher watches the code being written and stops the student at the moment the mistake happens rather than marking it three days later. Batches are five to eight students, or one to one.
+Ninety minutes on live video with a teacher who can say, without checking notes, what your child struggled with last week. Screens are shared both ways, so the teacher watches the code being written and stops the student at the moment the mistake happens rather than marking it three days later. Batches are fifteen to twenty students, or one to one.
 
 Homework here is a build rather than an exercise sheet. Make something, break it, return with questions. Questions during the week go to the same teacher rather than to a support queue, and nothing on this page is pre-recorded.
 
@@ -387,7 +387,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, same teacher every week
+- Fifteen to twenty students, same teacher every week
 - Live video, never a recording
 - Weekly build tasks and teacher review
 - Certificate on completion

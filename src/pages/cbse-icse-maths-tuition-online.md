@@ -1,10 +1,10 @@
 ---
 title: "CBSE and ICSE Maths Tuition Online, Class 6 to 12: Live Batches"
-description: "Live online CBSE and ICSE maths tuition for Class 6 to 12: batches of 5 to 10 by class and board, Class 10 paced with mocks, one teacher all year, flat fee."
+description: "Live online CBSE and ICSE maths tuition for Class 6 to 12: batches of 15 to 20 by class and board, Class 10 paced with mocks, one teacher all year, flat fee."
 canonical: https://learn.modernagecoders.com/cbse-icse-maths-tuition-online
 source: src/pages/cbse-icse-maths-tuition-online.html
 ---
-> Live online CBSE and ICSE maths tuition for Class 6 to 12: batches of 5 to 10 by class and board, Class 10 paced with mocks, one teacher all year, flat fee.
+> Live online CBSE and ICSE maths tuition for Class 6 to 12: batches of 15 to 20 by class and board, Class 10 paced with mocks, one teacher all year, flat fee.
 
 Start here
 
@@ -16,7 +16,7 @@ One course per stage of school, each already running as a live batch: the Class 
 
 Ans. The short version
 
-Modern Age Coders teaches CBSE, ICSE and ISC mathematics live online for Class 6 to 12, in batches of five to ten students grouped by class and board, with one teacher for the whole year and two one-hour live classes a week. Classes 6 to 8 build the foundation the later years depend on; Classes 9 and 10 are taught for the board, with the Class 10 year paced across all fourteen chapters of the 2026-27 CBSE syllabus in both Standard and Basic, with sample-paper mocks; Classes 11 and 12 are taught as the new subject they are, with JEE foundation work for students who want it. ICSE and ISC students follow their own syllabus. Each session ends with a short set the student does alone and the teacher marks before the next class. The first class is a free demo, and the group batch fee is shown on this page in your own currency, with no admission fee and the option to stop at any month end.
+Modern Age Coders teaches CBSE, ICSE and ISC mathematics live online for Class 6 to 12, in batches of fifteen to twenty students grouped by class and board, with one teacher for the whole year and two one-hour live classes a week. Classes 6 to 8 build the foundation the later years depend on; Classes 9 and 10 are taught for the board, with the Class 10 year paced across all fourteen chapters of the 2026-27 CBSE syllabus in both Standard and Basic, with sample-paper mocks; Classes 11 and 12 are taught as the new subject they are, with JEE foundation work for students who want it. ICSE and ISC students follow their own syllabus. Each session ends with a short set the student does alone and the teacher marks before the next class. The first class is a free demo, and the group batch fee is shown on this page in your own currency, with no admission fee and the option to stop at any month end.
 
 Q1. What does each class need, and what do we do about it?
 
@@ -116,7 +116,7 @@ Q4. How does the batch work through the year?
 
 ## Five steps, from the first week to the board paper
 
-Two live classes a week, in a batch of five to ten from the same class and board, with the same teacher all year. One class teaches; the other practises, marks and rehearses.
+Two live classes a week, in a batch of fifteen to twenty from the same class and board, with the same teacher all year. One class teaches; the other practises, marks and rehearses.
 
 1. #### A placement check in the first week, by class and board
 
@@ -164,7 +164,7 @@ Group batch · by class and board
 
 per month
 
-- Five to ten students, in the same class and board, one teacher all year
+- Fifteen to twenty students, in the same class and board, one teacher all year
 - Two live classes a week, teaching and marked practice
 - Placement check, a marked set after every class, board-year mocks
 - Certificate on completion
@@ -177,7 +177,7 @@ Mini batch
 
 per month
 
-- Three to four students
+- Up to six students
 - Timings agreed around the family
 - More marked work per student
 
@@ -275,7 +275,7 @@ Any class from 6 to 12. Most families start in Class 6 to 8, where the foundatio
 
 ### How many students are in a batch?
 
-Five to ten, from the same class and board, with one teacher for the whole year. That size is small enough that every student is asked questions by name and the teacher knows which chapter each child is stuck on, and large enough that a student hears other people's questions, which are often better than the textbook's. A mini batch of three to four and one-to-one tuition are also available.
+Five to ten, from the same class and board, with one teacher for the whole year. That size is small enough that every student is asked questions by name and the teacher knows which chapter each child is stuck on, and large enough that a student hears other people's questions, which are often better than the textbook's. A mini batch of up to six and one-to-one tuition are also available.
 
 ### Is it the 2026-27 syllabus?
 

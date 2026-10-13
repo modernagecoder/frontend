@@ -16,7 +16,7 @@ Rouse Hill, north-west Sydney / Live online
 
 Write a tiny Python function that turns a station count such as "118601" into a number, test it on every monthly row Rouse Hill Station has, and every test passes. A coverage tool even reports that each line of the function ran. Then feed it the whole statewide usage file and it crashes 745 times. The function was never wrong for Rouse Hill. It was untested for a value Rouse Hill never produces, and only branch coverage says so.
 
-Facts last verified 10 October 2026. Teaching is online; no Rouse Hill branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Rouse Hill branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that teach code you can trust
 
@@ -198,7 +198,7 @@ There is no travel: every Rouse Hill learner joins the class by video from home.
 - **A teacher watching the screen** Mistakes are spotted and explained as they happen, not marked a week later.
 - **NSW school language** Teachers use NSW stage and syllabus terms and plan around state school holidays.
 - **Free first lesson** A complete class at no cost, ending with a suggested course, level and time.
-- **Groups by level** Five to ten learners of similar ability, or one-to-one teaching where that suits better.
+- **Groups by level** Fifteen to twenty learners of similar ability, or one-to-one teaching where that suits better.
 - **A steady rhythm** Two lessons a week at fixed times, about eight a month.
 - **Teachers in India** A 5pm Rouse Hill lesson is 11:30am India time during Sydney summer time and 12:30pm after it ends.
 
@@ -209,7 +209,7 @@ There is no travel: every Rouse Hill learner joins the class by video from home.
 One simple price list, the same for every course.
 
 - First class: USD 0. The first full lesson is free, with a course and timetable suggested afterwards.
-- Group tuition: USD 100 a month. About eight lessons a month, two a week, with five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight lessons a month, two a week, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. One-to-one lessons on the same weekly rhythm, roughly eight a month.
 
 Families outside India are invoiced in US dollars. Nothing is charged until the trial has settled a course and a time, and the pricing page covers holidays, missed lessons and switching formats.
@@ -250,7 +250,7 @@ No. We teach only online and have no premises in Australia, Rouse Hill included.
 
 ### How much do classes cost for Rouse Hill learners?
 
-The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one is USD 150 a month on the same rhythm. Payment starts only after a course and time are agreed.
+The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one is USD 150 a month on the same rhythm. Payment starts only after a course and time are agreed.
 
 ### How many learners are in a group?
 

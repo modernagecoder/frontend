@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI lessons for Carrigaline learners
 canonical: https://learn.modernagecoders.com/best-coding-class-in-carrigaline
 source: src/pages/best-coding-class-in-carrigaline.html
 ---
-> The census records 18,101 usual residents in Carrigaline and 6,047 households, 5,497 of them with broadband. Teaching happens in the house: a teacher live on video, twice in most weeks, with either five to ten learners at a single level or one learner on their own, across an age range from six to sixty-seven. No charge is made for the opening lesson. A group place is then USD 100 for the month, and private teaching USD 150.
+> The census records 18,101 usual residents in Carrigaline and 6,047 households, 5,497 of them with broadband. Teaching happens in the house: a teacher live on video, twice in most weeks, with either fifteen to twenty learners at a single level or one learner on their own, across an age range from six to sixty-seven. No charge is made for the opening lesson. A group place is then USD 100 for the month, and private teaching USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Cork](/coding-classes-in-county-cork) / Carrigaline
 
@@ -12,11 +12,11 @@ Carrigaline, County Cork / Live online
 
 # Coding classes in Carrigaline
 
-**What is the best coding class in Carrigaline?** The census records 18,101 usual residents in Carrigaline and 6,047 households, 5,497 of them with broadband. Teaching happens in the house: a teacher live on video, twice in most weeks, with either five to ten learners at a single level or one learner on their own, across an age range from six to sixty-seven. No charge is made for the opening lesson. A group place is then USD 100 for the month, and private teaching USD 150.
+**What is the best coding class in Carrigaline?** The census records 18,101 usual residents in Carrigaline and 6,047 households, 5,497 of them with broadband. Teaching happens in the house: a teacher live on video, twice in most weeks, with either fifteen to twenty learners at a single level or one learner on their own, across an age range from six to sixty-seven. No charge is made for the opening lesson. A group place is then USD 100 for the month, and private teaching USD 150.
 
 Here are two sentences about Carrigaline, built from one census figure. Nine in ten of the town's car passengers are travelling to school, college or childcare. Six in ten of its school, college and childcare journeys are made as a car passenger. Both come from the same 3,232, and they say different things: the first divides by all 3,555 car passengers, the second by all 5,583 education and childcare journeys. Swap them and you have claimed something the table never said. Getting the direction of a percentage right is a small habit that prevents a large class of wrong conclusions, and this page builds it out of the town's own travel table.
 
-Facts last verified 18 September 2026. Teaching is online; no Carrigaline branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 18 September 2026. Teaching is online; no Carrigaline branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Good places to start in Carrigaline
 
@@ -168,7 +168,7 @@ Tools will keep producing percentages on demand. Knowing which one was asked for
 Six practical points.
 
 - **Live, every time** The teacher is on the call for the whole hour and works from what the learner is doing on screen.
-- **Grouped by stage** Five to ten learners at one level, drawn from wherever in Ireland and abroad they happen to live.
+- **Grouped by stage** Fifteen to twenty learners at one level, drawn from wherever in Ireland and abroad they happen to live.
 - **A weekly rhythm** Two lessons in most weeks, roughly eight in a month, at a slot agreed once at the start.
 - **Exam and term dates** Breaks, mid-terms and exam weeks are built into the schedule before the first lesson.
 - **What is needed** A computer with a keyboard, sound that works in both directions, and a connection that carries video.
@@ -181,7 +181,7 @@ Six practical points.
 Three lines, fully listed.
 
 - First class: USD 0. A complete opening lesson, taught and assessed, at no charge.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one to one lessons on the same weekly rhythm.
 
 All fees are monthly, in US dollars, on the single rate for families outside India, which means a Carrigaline household sees the same figure as one in Cork city and there is no euro price list in sight. Billing starts once the opening lesson has settled a course and an hour, and the pricing page sets out breaks, missed lessons and changes between group and private teaching.
@@ -222,7 +222,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Carrigaline cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

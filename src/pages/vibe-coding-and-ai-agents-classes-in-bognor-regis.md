@@ -4,7 +4,7 @@ description: "Live online vibe coding, AI agents and Python lessons for Bognor R
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-bognor-regis
 source: src/pages/vibe-coding-and-ai-agents-classes-in-bognor-regis.html
 ---
-> Arun district had 164,889 usual residents at the 2021 census, and the ONS counts 68,435 people in the Bognor Regis built-up area. Felpham, Aldwick, Middleton-on-Sea, North Bersted and Nyetimber are among the suburbs recorded around the town, and Pagham is a village in the same district. Learners anywhere in Arun, aged 6 to 67, can study vibe coding, AI agents, Python, coding and maths live on video with a tutor in India, on their own or in a class of five to ten who are at one level. Every course begins with how to think, so an agent's conclusions get questioned rather than copied. The trial lesson is free and ends with a course we recommend. The Bognor Regis experiment gives an automated tester two identical groups of Census areas and lets it keep checking until something looks significant. Monthly fees after that are USD 100 in a group or USD 150 for private lessons.
+> Arun district had 164,889 usual residents at the 2021 census, and the ONS counts 68,435 people in the Bognor Regis built-up area. Felpham, Aldwick, Middleton-on-Sea, North Bersted and Nyetimber are among the suburbs recorded around the town, and Pagham is a village in the same district. Learners anywhere in Arun, aged 6 to 67, can study vibe coding, AI agents, Python, coding and maths live on video with a tutor in India, on their own or in a class of fifteen to twenty who are at one level. Every course begins with how to think, so an agent's conclusions get questioned rather than copied. The trial lesson is free and ends with a course we recommend. The Bognor Regis experiment gives an automated tester two identical groups of Census areas and lets it keep checking until something looks significant. Monthly fees after that are USD 100 in a group or USD 150 for private lessons.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Bognor Regis
 
@@ -12,11 +12,11 @@ Bognor Regis, Arun, West Sussex, England / Live online
 
 # Vibe coding and AI agents classes in Bognor Regis
 
-**Where can Bognor Regis learners find the best vibe coding and AI agents classes?** Arun district had 164,889 usual residents at the 2021 census, and the ONS counts 68,435 people in the Bognor Regis built-up area. Felpham, Aldwick, Middleton-on-Sea, North Bersted and Nyetimber are among the suburbs recorded around the town, and Pagham is a village in the same district. Learners anywhere in Arun, aged 6 to 67, can study vibe coding, AI agents, Python, coding and maths live on video with a tutor in India, on their own or in a class of five to ten who are at one level. Every course begins with how to think, so an agent's conclusions get questioned rather than copied. The trial lesson is free and ends with a course we recommend. The Bognor Regis experiment gives an automated tester two identical groups of Census areas and lets it keep checking until something looks significant. Monthly fees after that are USD 100 in a group or USD 150 for private lessons.
+**Where can Bognor Regis learners find the best vibe coding and AI agents classes?** Arun district had 164,889 usual residents at the 2021 census, and the ONS counts 68,435 people in the Bognor Regis built-up area. Felpham, Aldwick, Middleton-on-Sea, North Bersted and Nyetimber are among the suburbs recorded around the town, and Pagham is a village in the same district. Learners anywhere in Arun, aged 6 to 67, can study vibe coding, AI agents, Python, coding and maths live on video with a tutor in India, on their own or in a class of fifteen to twenty who are at one level. Every course begins with how to think, so an agent's conclusions get questioned rather than copied. The trial lesson is free and ends with a course we recommend. The Bognor Regis experiment gives an automated tester two identical groups of Census areas and lets it keep checking until something looks significant. Monthly fees after that are USD 100 in a group or USD 150 for private lessons.
 
 AI agents are increasingly asked to run experiments on their own: try two versions of a web page, a prompt or a feature, watch the numbers, and report which one wins. An eager agent will check the results again and again and stop the moment the difference looks significant. That habit, called peeking or optional stopping, quietly breaks the statistics. This project shows how badly, using a test where the right answer is known. Arun's 548 Census output areas are shuffled into two random halves, so any difference between them is pure chance, and a simulated agent compares them as the areas arrive.
 
-Facts last verified 29 September 2026. Teaching is online; no Bognor Regis branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Bognor Regis branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Bognor Regis courses in thinking, vibe coding and agents
 
@@ -134,7 +134,7 @@ Any computer with a camera and a connection that copes with video will do.
 - **Learners type everything** Code, prompts and runs are the student's own work, while the tutor watches the screen share and asks for the reasoning.
 - **Planned from the trial** The free lesson shows what is already known and fixes the first topic; any exam board is noted.
 - **First lesson on us** The trial costs nothing and finishes with our course advice.
-- **One level per group** Five to ten learners from across the UK, all at the same stage.
+- **One level per group** Fifteen to twenty learners from across the UK, all at the same stage.
 - **Two per week** Paused during school holidays.
 - **Fixed local time** Our tutors follow British clock changes so the lesson stays at your usual hour.
 

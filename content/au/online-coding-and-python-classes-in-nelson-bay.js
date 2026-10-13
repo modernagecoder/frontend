@@ -198,7 +198,7 @@ module.exports = {
       { h3: 'Peninsula and inland', p: 'A teenager in Salamander Bay and an adult near Seaham can join one class without anyone crossing the council area.' },
       { h3: 'Fits the NSW year', p: 'Plans follow the NSW stages and pause for the four school terms. Older students can connect Python projects to the computing subjects they study.' },
       { h3: 'The first lesson', p: 'The trial is a full Python lesson with real code. At the end you get a suggested level, course and lesson time, and no card details are asked for.' },
-      { h3: 'One level per group', p: 'Each group has five to ten learners at the same stage, drawn from Port Stephens and other places, so nobody waits for a class to fill.' },
+      { h3: 'One level per group', p: 'Each group has fifteen to twenty learners at the same stage, drawn from Port Stephens and other places, so nobody waits for a class to fill.' },
       { h3: 'A steady rhythm', p: 'Two lessons a week at the same time, close to eight a month, with holiday and exam breaks agreed ahead.' },
       { h3: 'Taught from India', p: 'A 5pm Nelson Bay lesson in August starts at 12:30pm in India; when NSW moves to daylight saving, it starts at 11:30am there.' }
     ],
@@ -209,7 +209,7 @@ module.exports = {
     h2: 'Fees for Nelson Bay learners',
     intro: 'The whole price, in three lines.',
     first: 'One complete Python lesson at no cost, with a recommended level, course and time afterwards.',
-    group: 'About eight lessons a month with five to ten learners at the same level.',
+    group: 'About eight lessons a month with fifteen to twenty learners at the same level.',
     private: 'About eight lessons a month, one learner with one teacher.',
     closer: 'Invoices outside India are issued in US dollars, so a household in Shoal Bay pays exactly what one in Medowie pays and no Port Stephens price list exists. Billing starts only after the trial has fixed a course and a time; holidays, missed lessons and changing format are covered on the pricing page.'
   },
@@ -234,8 +234,8 @@ module.exports = {
       { q: 'When do lessons take place?', a: 'Times are chosen at the trial and written in Nelson Bay time, often after school or on Saturday mornings. Our teachers in India are 4.5 hours behind Nelson Bay in winter and 5.5 hours behind during NSW daylight saving.' },
       { q: 'Do you teach younger children?', a: 'Yes, from age six, starting with Scratch and visual programs before moving to typed Python. The loader project on this page suits teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Nelson Bay?', a: 'No, and none is claimed. All lessons are live and online and we have no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a steady connection; the contact number shown is Indian.', boiler: true },
-      { q: 'What do Nelson Bay Python classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Nelson Bay Python classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

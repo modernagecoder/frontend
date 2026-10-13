@@ -298,7 +298,7 @@ module.exports = {
       { h3: 'Screen sharing', p: 'The learner joins by link, shares a screen and the teacher follows every line as it is typed.' },
       { h3: 'In term time', p: 'Courses keep to the Victorian school terms and stop for the state holidays.' },
       { h3: 'First lesson', p: 'The free class is a full lesson; then we propose a course and a time each week.' },
-      { h3: 'Groups of five to ten', p: 'Learners are grouped by level from many places, not by suburb.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners are grouped by level from many places, not by suburb.' },
       { h3: 'Regular rhythm', p: 'Two set lessons a week, around eight a month, with breaks agreed in advance.' },
       {
         h3: 'Teachers in India',
@@ -314,7 +314,7 @@ module.exports = {
     h2: 'Balwyn lesson fees',
     intro: 'Three prices, clearly set out.',
     first: 'The first lesson is free and ends with a straightforward recommendation.',
-    group: 'A month of group lessons, typically eight, with five to ten learners at one level.',
+    group: 'A month of group lessons, typically eight, with fifteen to twenty learners at one level.',
     private: 'Roughly eight one-to-one lessons a month.',
     closer: 'Outside India all fees are in US dollars, so a Balwyn family pays what any other family abroad pays. Nothing is billed until the trial has fixed a course and a time; holidays, missed lessons and switching between group and private are explained on the pricing page.'
   },
@@ -356,12 +356,12 @@ module.exports = {
       },
       {
         q: 'How much do Python classes cost for Balwyn learners?',
-        a: 'The first lesson is free. After it, group classes cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. Course, format and time are settled before payment.',
+        a: 'The first lesson is free. After it, group classes cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. Course, format and time are settled before payment.',
         boiler: true
       },
       {
         q: 'How large is each group?',
-        a: 'Five to ten learners, put together on level, pace and goals, with private lessons when no group time suits.',
+        a: 'Fifteen to twenty learners, put together on level, pace and goals, with private lessons when no group time suits.',
         boiler: true
       },
       {

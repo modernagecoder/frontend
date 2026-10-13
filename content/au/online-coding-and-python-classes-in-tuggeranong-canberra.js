@@ -281,7 +281,7 @@ module.exports = {
       { h3: 'Live lessons', p: 'A teacher leads every class and checks code as it is typed.' },
       { h3: 'School terms', p: 'Classes follow ACT terms and pause during holidays.' },
       { h3: 'Free trial', p: 'One free lesson, then a written course plan.' },
-      { h3: 'Small groups', p: 'Five to ten learners at one level, or one to one.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners at one level, or one to one.' },
       { h3: 'Rhythm', p: 'Two lessons a week, roughly eight a month.' },
       { h3: 'India timing', p: 'In winter a 5pm Tuggeranong lesson is 12:30pm in India; in summer it is 11:30am.' }
     ],
@@ -294,7 +294,7 @@ module.exports = {
     h2: 'Tuggeranong class fees',
     intro: 'Fees are the same for all learners.',
     first: 'No charge for the first lesson, which includes a plan.',
-    group: 'Groups: about eight lessons a month, five to ten learners.',
+    group: 'Groups: about eight lessons a month, fifteen to twenty learners.',
     private: 'One-to-one: about eight lessons a month with a single teacher.',
     closer: 'Fees are billed in US dollars and only start when the trial has fixed the course and a weekly time. Holidays and missed lessons are covered on the pricing page.'
   },
@@ -330,12 +330,12 @@ module.exports = {
       },
       {
         q: 'What do Tuggeranong classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How do you group learners?',
-        a: 'By level and pace in groups of five to ten, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'By level and pace in groups of fifteen to twenty, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Can adults take Python lessons?', a: 'Yes. Adults learn in adult groups or privately, often to clean and report on data at work.' }

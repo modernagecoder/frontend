@@ -16,7 +16,7 @@ Mansfield, Nottinghamshire, England / Live online
 
 Type "mansfeild" into a search box and it will quietly offer "Mansfield". That small "Did you mean" is one of the oldest tricks in computing, and it hides a real decision. When a typo sits one letter away from two different places, which should the program suggest? Many systems pick the more popular one, because more people search for it. This project builds a spelling corrector in Python for every one of the 6,406 built-up areas the ONS lists in England, tests it on 3,000 typos, and finds out exactly who gains and who loses when a program bets on popularity.
 
-Facts last verified 29 September 2026. Teaching is online; no Mansfield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Mansfield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Mansfield picks for Python, thinking and AI
 

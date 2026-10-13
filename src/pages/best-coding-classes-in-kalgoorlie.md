@@ -16,7 +16,7 @@ Kalgoorlie-Boulder, Western Australia / Live online
 
 NASA's radar elevation survey of February 2000 shows a deep hollow on the edge of Kalgoorlie-Boulder, its lowest sample at 145 metres while the median across our grid is 365. Take every grid point below 300 metres that links to that lowest point and ask for the area. Counting grid squares gives 735 cells. Drawing a polygon through the outer points and applying Pick's theorem, area equals interior points plus half the boundary points minus one, gives 681. Both are honest arithmetic, and they disagree by exactly 54. Working out why, and then finding the one height where Pick's theorem stops working altogether, is a real lesson in geometry and in code.
 
-Facts last verified 9 October 2026. Teaching is online; no Kalgoorlie-Boulder branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 October 2026. Teaching is online; no Kalgoorlie-Boulder branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses a Kalgoorlie learner could begin with
 
@@ -171,7 +171,7 @@ The twin towns are a short drive apart, and an online lesson makes the distance 
 - **From either town** A learner in Kalgoorlie and one in Boulder log in to the same live class from home.
 - **WA year levels** Teaching follows Western Australian year levels through to Years 11 and 12, in English.
 - **Trial lesson first** You code something real with a teacher, then hear a suggested level, course and time; no card is needed.
-- **Five to ten per group** Learners at one level from across Australia and beyond, so there is always a workable slot.
+- **Fifteen to twenty per group** Learners at one level from across Australia and beyond, so there is always a workable slot.
 - **About eight a month** Usually two lessons a week, with WA holidays and exam periods planned in advance.
 - **Shift-friendly times** Weekend and after-school slots suit families working rosters, agreed in the trial.
 
@@ -182,7 +182,7 @@ The twin towns are a short drive apart, and an online lesson makes the distance 
 Three prices cover everything.
 
 - First class: USD 0. A trial lesson at no charge that ends with a level, course and time.
-- Group tuition: USD 100 a month. A month in a group of five to ten learners, usually eight lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty learners, usually eight lessons.
 - Private tuition: USD 150 a month. Around eight private lessons a month with the same teacher.
 
 Goldfields families pay the same US dollar rate as the rest of Australia, with no remote surcharge. Billing starts only after the trial has agreed a course and slot; the pricing page explains holidays, missed lessons and changing between group and private.
@@ -223,11 +223,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Kalgoorlie-Boulder coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Goldfields and WA learners
 

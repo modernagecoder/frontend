@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Somerset, from
 canonical: https://learn.modernagecoders.com/coding-classes-in-somerset
 source: src/pages/coding-classes-in-somerset.html
 ---
-> Somerset as a county is three councils: Somerset Council, which the 2021 Census still counted as four districts, plus Bath and North East Somerset and North Somerset. Their six published counts add up, by our sum, to 981,683 people. Bath and Weston-super-Mare are the largest towns, followed by Taunton, Yeovil and Bridgwater. We teach live over video from India, and learners are placed in classes by ability instead of by age. Anyone from 6 to 67 can learn coding, Python, statistics or maths with us, in a small group of five to ten or one-to-one. The Somerset project tests the idea of ley lines with real monument data. Your first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150 a month.
+> Somerset as a county is three councils: Somerset Council, which the 2021 Census still counted as four districts, plus Bath and North East Somerset and North Somerset. Their six published counts add up, by our sum, to 981,683 people. Bath and Weston-super-Mare are the largest towns, followed by Taunton, Yeovil and Bridgwater. We teach live over video from India, and learners are placed in classes by ability instead of by age. Anyone from 6 to 67 can learn coding, Python, statistics or maths with us, in a group of fifteen to twenty or one-to-one. The Somerset project tests the idea of ley lines with real monument data. Your first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Somerset
 
@@ -12,11 +12,11 @@ Somerset / Live online
 
 # Coding classes in Somerset
 
-**What are the best coding classes in Somerset?** Somerset as a county is three councils: Somerset Council, which the 2021 Census still counted as four districts, plus Bath and North East Somerset and North Somerset. Their six published counts add up, by our sum, to 981,683 people. Bath and Weston-super-Mare are the largest towns, followed by Taunton, Yeovil and Bridgwater. We teach live over video from India, and learners are placed in classes by ability instead of by age. Anyone from 6 to 67 can learn coding, Python, statistics or maths with us, in a small group of five to ten or one-to-one. The Somerset project tests the idea of ley lines with real monument data. Your first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150 a month.
+**What are the best coding classes in Somerset?** Somerset as a county is three councils: Somerset Council, which the 2021 Census still counted as four districts, plus Bath and North East Somerset and North Somerset. Their six published counts add up, by our sum, to 981,683 people. Bath and Weston-super-Mare are the largest towns, followed by Taunton, Yeovil and Bridgwater. We teach live over video from India, and learners are placed in classes by ability instead of by age. Anyone from 6 to 67 can learn coding, Python, statistics or maths with us, in a group of fifteen to twenty or one-to-one. The Somerset project tests the idea of ley lines with real monument data. Your first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150 a month.
 
 Glastonbury Tor, with the ruined St Michael's Church on top, is a scheduled monument, and around it lie hundreds more: barrows, hillforts, caves and the Glastonbury lake village. People have long noticed that some ancient places seem to fall on straight lines, sometimes called ley lines. But on any map with enough dots, some will line up by pure chance. This page's project asks the question properly. It takes the 233 scheduled monuments in the Mendip district, counts every set of three that sits on a near-straight line, and compares the total with the same count for random dots scattered over the same ground. The answer is more interesting than yes or no.
 
-Facts last verified 26 September 2026. Teaching is online; no Somerset branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Somerset branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Somerset learners start
 
@@ -139,7 +139,7 @@ Somerset is long and rural, and a weekly class in one of its towns is out of eas
 - **Learning at home** A farmhouse on the Levels, a terrace in Bridgwater, a flat in Weston. The screen is shared and the learner writes the code.
 - **Words from school** Year groups, key stages, GCSEs and A levels mean the same here as in Somerset schools, and all teaching is in English.
 - **A first lesson on us** A real lesson, then a straight recommendation of level and course. We never ask for card details at this stage.
-- **The right group** Five to ten learners at the same stage, drawn from Somerset, the UK and further afield.
+- **The right group** Fifteen to twenty learners at the same stage, drawn from Somerset, the UK and further afield.
 - **Pauses for holidays** Two lessons a week suits most learners, with breaks for your school's holidays.
 - **Times kept in UK time** We book you in UK time, unchanged by the clock changes; your teacher works on India time, several hours ahead, and handles the difference.
 
@@ -150,7 +150,7 @@ Somerset is long and rural, and a weekly class in one of its towns is out of eas
 Chard or Clevedon, you pay the same, and so do families in every country we teach except India.
 
 - First class: USD 0. A whole lesson of real work, ending with advice on level and course.
-- Group tuition: USD 100 a month. Roughly eight lessons a month in a group of five to ten at one level.
+- Group tuition: USD 100 a month. Roughly eight lessons a month in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. Roughly eight lessons a month, one teacher and one learner.
 
 Everything is priced in US dollars, with no sterling prices. Nothing is billed until the free lesson has set a course and a weekly time; the pricing page covers pauses, missed lessons and moving between group and private.

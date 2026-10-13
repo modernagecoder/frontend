@@ -4,7 +4,7 @@ description: "Live online coding and AI classes for West Molesey, East Molesey, 
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-west-molesey
 source: src/pages/best-coding-and-ai-classes-in-west-molesey.html
 ---
-> The 2021 census counted 47,150 usual residents in the ONS built-up area named West Molesey, and 138,754 in the borough of Elmbridge. By the postcode gazetteer that built-up area also takes in East Molesey, Thames Ditton, Weston Green, Long Ditton, Hinchley Wood and Claygate. Learners aged six to 67 there study coding, AI, Python, vibe coding and maths with Modern Age Coders over live video; tutors based in India teach them privately or in level-matched groups of five to ten. Our lessons ask learners to test ideas, not just type them. We recommend a course only after a free first lesson. The West Molesey project starts from a rule for escaping a maze that Harris gives in Three Men in a Boat, told as the boat passes through Moulsey Lock, and tests it on 1,000 computer-made mazes against breadth-first search. Past the trial, a group place costs USD 100 monthly and private tuition USD 150 monthly.
+> The 2021 census counted 47,150 usual residents in the ONS built-up area named West Molesey, and 138,754 in the borough of Elmbridge. By the postcode gazetteer that built-up area also takes in East Molesey, Thames Ditton, Weston Green, Long Ditton, Hinchley Wood and Claygate. Learners aged six to 67 there study coding, AI, Python, vibe coding and maths with Modern Age Coders over live video; tutors based in India teach them privately or in level-matched groups of fifteen to twenty. Our lessons ask learners to test ideas, not just type them. We recommend a course only after a free first lesson. The West Molesey project starts from a rule for escaping a maze that Harris gives in Three Men in a Boat, told as the boat passes through Moulsey Lock, and tests it on 1,000 computer-made mazes against breadth-first search. Past the trial, a group place costs USD 100 monthly and private tuition USD 150 monthly.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / West Molesey
 
@@ -12,11 +12,11 @@ West Molesey, Elmbridge, Surrey / Live online
 
 # Coding and AI classes in West Molesey
 
-**Which coding and AI classes are best for West Molesey?** The 2021 census counted 47,150 usual residents in the ONS built-up area named West Molesey, and 138,754 in the borough of Elmbridge. By the postcode gazetteer that built-up area also takes in East Molesey, Thames Ditton, Weston Green, Long Ditton, Hinchley Wood and Claygate. Learners aged six to 67 there study coding, AI, Python, vibe coding and maths with Modern Age Coders over live video; tutors based in India teach them privately or in level-matched groups of five to ten. Our lessons ask learners to test ideas, not just type them. We recommend a course only after a free first lesson. The West Molesey project starts from a rule for escaping a maze that Harris gives in Three Men in a Boat, told as the boat passes through Moulsey Lock, and tests it on 1,000 computer-made mazes against breadth-first search. Past the trial, a group place costs USD 100 monthly and private tuition USD 150 monthly.
+**Which coding and AI classes are best for West Molesey?** The 2021 census counted 47,150 usual residents in the ONS built-up area named West Molesey, and 138,754 in the borough of Elmbridge. By the postcode gazetteer that built-up area also takes in East Molesey, Thames Ditton, Weston Green, Long Ditton, Hinchley Wood and Claygate. Learners aged six to 67 there study coding, AI, Python, vibe coding and maths with Modern Age Coders over live video; tutors based in India teach them privately or in level-matched groups of fifteen to twenty. Our lessons ask learners to test ideas, not just type them. We recommend a course only after a free first lesson. The West Molesey project starts from a rule for escaping a maze that Harris gives in Three Men in a Boat, told as the boat passes through Moulsey Lock, and tests it on 1,000 computer-made mazes against breadth-first search. Past the trial, a group place costs USD 100 monthly and private tuition USD 150 monthly.
 
 In Three Men in a Boat, Harris leads a country cousin into the Hampton Court maze, confident that it is simple. Jerome gives his method in one line: "You keep on taking the first turning to the right." Soon a whole crowd is following him round and round, and a keeper has to let them out. Jerome's narrator hears the story as their boat passes through Moulsey Lock. Harris's rule has a name in computing, the wall follower, and it is not foolish. In some mazes it can never fail. In others it can walk in circles for ever. Finding out which is which takes about forty lines of Python.
 
-Facts last verified 30 September 2026. Teaching is online; no West Molesey branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no West Molesey branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Coding and AI courses for West Molesey learners
 
@@ -132,7 +132,7 @@ Every class is a live video session. A laptop or desktop with a keyboard is requ
 - **Learner in control** The learner types, runs and fixes the code while the tutor asks why.
 - **Placed by the trial** We watch what the learner can do in the first lesson before recommending anything.
 - **Trial without payment** No fee and no card details are taken for the first lesson.
-- **Five to ten learners** Each group shares one level, with classmates from across the UK.
+- **Fifteen to twenty learners** Each group shares one level, with classmates from across the UK.
 - **About eight a month** Typically two a week in term, with Surrey holidays left free if you ask.
 - **Stable UK time** Clock changes are handled by the tutor; your lesson time stays the same.
 

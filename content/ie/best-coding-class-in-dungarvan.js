@@ -180,7 +180,7 @@ module.exports = {
     intro: 'The arrangements.',
     cells: [
       { h3: 'Teacher present throughout', p: 'The teacher stays on the call for the whole lesson, looking at each learner\'s screen and code as they work.' },
-      { h3: 'One level per group', p: 'Five to ten learners who are at the same point, whether they join from Dungarvan, another Irish town or abroad.' },
+      { h3: 'One level per group', p: 'Fifteen to twenty learners who are at the same point, whether they join from Dungarvan, another Irish town or abroad.' },
       { h3: 'Two fixed days', p: 'Roughly eight lessons a month on two days agreed at enrolment, weekdays or weekends.' },
       { h3: 'Built around the school year', p: 'Term breaks, holidays and exam periods are part of the plan rather than interruptions to it.' },
       { h3: 'Kit needed', p: 'A computer with a keyboard, sound in and out, and an internet connection strong enough for video.' },
@@ -193,7 +193,7 @@ module.exports = {
     h2: 'The cost of lessons in Dungarvan',
     intro: 'Everything, in three lines.',
     first: 'An opening lesson with a level check, free.',
-    group: 'A month in a group of five to ten at the same stage: about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at the same stage: about eight live lessons.',
     private: 'A month of one-to-one teaching on the same schedule.',
     closer: 'Any family living outside India pays one flat fee in US dollars. The opening lesson commits nobody to anything, payment starts only when the course does, and the pricing page explains what happens over holidays, after a missed lesson, or on a move from group to private lessons.'
   },

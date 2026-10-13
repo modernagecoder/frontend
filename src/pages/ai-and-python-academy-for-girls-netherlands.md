@@ -4,7 +4,7 @@ description: "AI and Python for girls in the Netherlands, ages 6 to 18: the same
 canonical: https://learn.modernagecoders.com/ai-and-python-academy-for-girls-netherlands
 source: src/pages/ai-and-python-academy-for-girls-netherlands.html
 ---
-> Modern Age Coders teaches AI and Python live online to learners in the Netherlands, and this page describes that teaching for girls aged six to eighteen and their families. The classes are the same as for everyone: mixed groups of five to ten learners at one level, or one-to-one lessons, with a live teacher, in English. We make no claim that girls learn differently. What helps, we find, is starting early, finishing real projects and keeping a public portfolio, so that a girl's ability is visible to herself and to others. The first lesson is free; after it a group place is USD 100 a month and private lessons USD 150.
+> Modern Age Coders teaches AI and Python live online to learners in the Netherlands, and this page describes that teaching for girls aged six to eighteen and their families. The classes are the same as for everyone: mixed groups of fifteen to twenty learners at one level, or one-to-one lessons, with a live teacher, in English. We make no claim that girls learn differently. What helps, we find, is starting early, finishing real projects and keeping a public portfolio, so that a girl's ability is visible to herself and to others. The first lesson is free; after it a group place is USD 100 a month and private lessons USD 150.
 
 [Home](/) / [Courses](/courses) / [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands) / For girls
 
@@ -14,7 +14,7 @@ Netherlands · Girls, ages 6 to 18 · Live online
 
 In 2023 women made up 17.0 percent of the people working in ICT jobs in the Netherlands, according to the national statistics office's emancipation monitor. A decade earlier it was 13.3 percent. The numbers in education are moving faster: the share of women among university informatica students rose from 22 to 29 percent in eight years, and in hbo informatica it roughly doubled. Yet the same monitor shows the gap reopening after graduation, when far fewer women with an ICT degree go on to work in ICT than men with the same degree. This page is for families with a daughter who is curious about computers, AI or building things. It does not claim that girls learn differently, because there is no good evidence that they do, and our groups are mixed. What it does offer is an honest look at the figures, and classes that start early, build confidence through finished projects and leave a portfolio that speaks for itself.
 
-At a glance: For: Girls aged 6 to 18; Classes: Mixed groups of five to ten, or one to one; Subjects: Python, AI, data, apps; Approach: Early start, finished projects, portfolio; Format: Live video with a teacher; Times: After school and weekends; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: Girls aged 6 to 18; Classes: Mixed groups of fifteen to twenty, or one to one; Subjects: Python, AI, data, apps; Approach: Early start, finished projects, portfolio; Format: Live video with a teacher; Times: After school and weekends; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses many girls start with
 
@@ -140,7 +140,7 @@ Teachers are based in India, which keeps one time all year, so they are three an
 - **Weekend** Saturday or Sunday, for longer project sessions.
 
 - **A free first lesson** Your daughter builds something real while the teacher watches how she thinks, and the right starting rung becomes clear.
-- **Mixed groups of five to ten** Learners from several countries at the same level. Groups are formed by ability, never by gender.
+- **Mixed groups of fifteen to twenty** Learners from several countries at the same level. Groups are formed by ability, never by gender.
 - **One to one if preferred** For a learner who prefers a teacher to herself, has a project deadline, or is far ahead of her age.
 - **Parents informed** We talk with a parent before anything is booked and keep the family up to date, as Dutch consent rules expect for under-sixteens.
 - **In English** Lessons are in English; Dutch school terms are used as families use them.
@@ -151,7 +151,7 @@ Teachers are based in India, which keeps one time all year, so they are three an
 Monthly, in US dollars, the same for every learner and every country outside India. No enrolment fee and no annual contract.
 
 - Free first class: USD 0. A real lesson on a real task. Places the learner at the right rung. No card details needed.
-- Group batch: USD 100 a month. Five to ten learners at one level. Mixed groups, the same live teacher. Work reviewed every week. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. Mixed groups, the same live teacher. Work reviewed every week. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one learner. Pace set around her goals. Good for projects and deadlines.
 
 ## What families with daughters ask us

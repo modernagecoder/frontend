@@ -174,7 +174,7 @@ A short task establishes the current level before any tuition payment.
 
 ### Group teaching
 
-Five to eight compatible learners discuss code and compare reasoning.
+Fifteen to twenty compatible learners discuss code and compare reasoning.
 
 ### Private teaching
 
@@ -208,7 +208,7 @@ One live ability task and a recommended starting route.
 
 Group per month**USD 100**
 
-Normally eight classes with five to eight compatible learners.
+Normally eight classes with fifteen to twenty compatible learners.
 
 Private per month**USD 150**
 
@@ -320,7 +320,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What are the group and private class sizes?
 
-A group normally has five to eight compatible learners. Compatibility includes present skill, learning pace and objective, not age alone. Private tuition is one student with one teacher. If a suitable group is not available, the learner can discuss private tuition or wait for an appropriate cohort.
+A group normally has fifteen to twenty compatible learners. Compatibility includes present skill, learning pace and objective, not age alone. Private tuition is one student with one teacher. If a suitable group is not available, the learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How is an Oman class time confirmed?
 

@@ -222,7 +222,7 @@ module.exports = {
     cells: [
       { h3: 'Models actually trained', p: 'Every idea arrives as something the student runs, not as a slide about it.' },
       { h3: 'Arithmetic first', p: 'We count the operations before we admire the results, because that is what an exam answer needs.' },
-      { h3: 'Five to ten students', p: 'Enough for two designs to be compared, small enough for every notebook to be looked at.' },
+      { h3: 'Fifteen to twenty students', p: 'Enough for two designs to be compared, small enough for every notebook to be looked at.' },
       { h3: 'Our own datasets', p: 'Written or chosen by us. No olympiad task is reproduced in a lesson.' },
       { h3: 'One to one when useful', p: 'For a student well ahead of their year or preparing for an interview stage.' },
       { h3: 'Nothing promised', p: 'We cannot influence selection and promise no score, invitation or place.' }
@@ -237,7 +237,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A monthly fee in US dollars, identical in every country but India, with no registration charge and no tie-in.',
     free: ['A proper lesson with a subject teacher', 'A frank view of what is missing', 'No payment details requested'],
-    group: ['Five to ten students at one level', 'The same teacher weekly', 'Notebooks read and discussed', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher weekly', 'Notebooks read and discussed', 'A certificate at the end'],
     one: ['A teacher working with one student', 'Shaped around the gap in the syllabus', 'Useful before an interview stage']
   },
 

@@ -211,7 +211,7 @@ module.exports = {
       { h3: 'Programs, not slides', p: 'Students write and run code in every lesson.' },
       { h3: 'Any state', p: 'We prepare students for whichever course their school offers.' },
       { h3: 'No ATAR talk', p: 'Choices are about interests; ranks are left to the admissions centres.' },
-      { h3: 'Groups of five to ten', p: 'Students at one level, each sharing their work.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Students at one level, each sharing their work.' },
       { h3: 'One-to-one option', p: 'Private lessons for a student with a specific aim.' },
       { h3: 'Honest throughout', p: 'We promise effort and clarity, never results.' }
     ]
@@ -225,7 +225,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Billed monthly in US dollars, at one rate for every family outside India. Free to join, and you only pay for the current month.',
     free: ['A real programming lesson', 'An honest chat about options', 'No card required'],
-    group: ['Five to ten students at one level', 'The same tutor each week', 'Code reviewed together', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same tutor each week', 'Code reviewed together', 'A certificate at the end'],
     one: ['A personal tutor', 'Shaped around your goals', 'Flexible timing']
   },
 

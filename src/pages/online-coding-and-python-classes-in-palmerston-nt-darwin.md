@@ -16,7 +16,7 @@ City of Palmerston, Greater Darwin, Northern Territory / Live online
 
 Palmerston is the satellite city south-east of Darwin, with its own council, a bus interchange and a young population. Its suburbs are served by local routes 70 to 78, 87 and 88 and by the longer routes 8 and 9 towards Darwin. The Northern Territory Government publishes the whole bus timetable, ready for a careful Python learner.
 
-Facts last verified 13 October 2026. Teaching is online; no Palmerston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Palmerston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python courses for the Top End
 
@@ -175,7 +175,7 @@ Every session is a live video class, joined from home in Palmerston, Rosebery or
 - **Real-time teaching** Your teacher is on the call the whole time, reading code line by line.
 - **Territory terms** Lessons pause in Northern Territory school holidays.
 - **Try before paying** The first session is on us, and you receive a short written plan.
-- **Class size** Up to ten learners of similar level, or a private teacher.
+- **Class size** Up to twenty learners of similar level, or a private teacher.
 - **Two a week** Around eight lessons a month.
 - **India time** A 4pm Palmerston lesson is noon in India, all year.
 
@@ -186,7 +186,7 @@ Every session is a live video class, joined from home in Palmerston, Rosebery or
 Every learner pays the same fees.
 
 - First class: USD 0. The first lesson is free and includes a plan.
-- Group tuition: USD 100 a month. Group lessons: two a week through term, with five to ten classmates.
+- Group tuition: USD 100 a month. Group lessons: two a week through term, with fifteen to twenty classmates.
 - Private tuition: USD 150 a month. Individual lessons: the same two a week, with the teacher all to yourself.
 
 Fees are set in US dollars and begin only when the trial has chosen a course and weekly time. Holiday and missed-lesson rules are on the pricing page.
@@ -223,11 +223,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Palmerston classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How are groups formed?
 
-By level and pace, five to ten learners each, not by age or suburb. One-to-one lessons suit anyone no group time fits.
+By level and pace, fifteen to twenty learners each, not by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Can adults learn with you?
 

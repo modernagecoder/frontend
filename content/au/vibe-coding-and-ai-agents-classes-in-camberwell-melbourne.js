@@ -324,7 +324,7 @@ module.exports = {
       { h3: 'Join and build', p: 'Click the lesson link, share the screen and write code alongside the teacher.' },
       { h3: 'Victorian calendar', p: 'Courses run in the Victorian school terms and break for the state holidays.' },
       { h3: 'A real trial', p: 'The free class is an ordinary lesson; afterwards we recommend a course and a weekly time.' },
-      { h3: 'Group size', p: 'Five to ten learners per group, matched by level rather than suburb.' },
+      { h3: 'Group size', p: 'Fifteen to twenty learners per group, matched by level rather than suburb.' },
       { h3: 'Two a week', p: 'Two scheduled lessons each week, about eight a month, with any breaks arranged ahead.' },
       {
         h3: 'Teachers in India',
@@ -340,7 +340,7 @@ module.exports = {
     h2: 'Camberwell class fees',
     intro: 'Three amounts, stated up front.',
     first: 'The first lesson costs nothing and finishes with a frank recommendation.',
-    group: 'A month of group lessons, normally eight, in a group of five to ten at one level.',
+    group: 'A month of group lessons, normally eight, in a group of fifteen to twenty at one level.',
     private: 'Roughly eight lessons a month with one teacher and one learner.',
     closer: 'Outside India we charge in US dollars, so Camberwell families pay the same as everyone else abroad. Billing begins only after the trial has fixed the course and time; holidays, absences and format changes are covered on the pricing page.'
   },
@@ -385,7 +385,7 @@ module.exports = {
       },
       {
         q: 'What do classes cost for Camberwell learners?',
-        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before payment.',
+        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before payment.',
         boiler: true
       },
       {

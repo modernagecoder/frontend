@@ -1,10 +1,10 @@
 ---
 title: "Math Kangaroo USA Preparation: Live Online, Grades 1 to 12"
-description: "Live online Math Kangaroo USA prep, grades 1 to 12: the 75-minute paper, 3-4-5 scoring, no negative marking, March 2027, parent entry, batches of 5 to 10."
+description: "Live online Math Kangaroo USA prep, grades 1 to 12: the 75-minute paper, 3-4-5 scoring, no negative marking, March 2027, parent entry, batches of 15 to 20."
 canonical: https://learn.modernagecoders.com/math-kangaroo-usa-preparation
 source: src/pages/math-kangaroo-usa-preparation.html
 ---
-> Live online Math Kangaroo USA prep, grades 1 to 12: the 75-minute paper, 3-4-5 scoring, no negative marking, March 2027, parent entry, batches of 5 to 10.
+> Live online Math Kangaroo USA prep, grades 1 to 12: the 75-minute paper, 3-4-5 scoring, no negative marking, March 2027, parent entry, batches of 15 to 20.
 
 Start here
 
@@ -16,7 +16,7 @@ The paper is set on the grade's own mathematics and asks it sideways, so the bas
 
 Ans. The short version
 
-Math Kangaroo USA is the American edition of the international Kangaroo competition, open to students from kindergarten to grade 12, sat at the grade the student is actually in. It is a 75-minute multiple-choice test: 24 questions for grades 1 to 4 and 30 for grades 5 to 12, a third of them worth 3 points, a third 4 and a third 5, with no points taken away for a wrong answer and no calculators, for a best score of 96 in grades 1 to 4 and 120 in grades 5 to 12. The 2027 competition is in March, on the organiser's stated "3rd Thursday in March," with registration from 15 September to 31 December 2026 at $20 per student and late registration to 1 February 2027 at $35. A family can register a child at a public center or through the virtual self-proctored option without the school, which makes it one of the few US contests open to every family. Modern Age Coders prepares students for it live online in batches of five to ten grouped by grade: one class a week on the grade's mathematics and the question families Kangaroo reuses, one on timed practice from past papers with the strategy the scoring rewards. The first class is a free demo, and the group batch fee is shown on this page in your own currency.
+Math Kangaroo USA is the American edition of the international Kangaroo competition, open to students from kindergarten to grade 12, sat at the grade the student is actually in. It is a 75-minute multiple-choice test: 24 questions for grades 1 to 4 and 30 for grades 5 to 12, a third of them worth 3 points, a third 4 and a third 5, with no points taken away for a wrong answer and no calculators, for a best score of 96 in grades 1 to 4 and 120 in grades 5 to 12. The 2027 competition is in March, on the organiser's stated "3rd Thursday in March," with registration from 15 September to 31 December 2026 at $20 per student and late registration to 1 February 2027 at $35. A family can register a child at a public center or through the virtual self-proctored option without the school, which makes it one of the few US contests open to every family. Modern Age Coders prepares students for it live online in batches of fifteen to twenty grouped by grade: one class a week on the grade's mathematics and the question families Kangaroo reuses, one on timed practice from past papers with the strategy the scoring rewards. The first class is a free demo, and the group batch fee is shown on this page in your own currency.
 
 Q1. What exactly is the test?
 
@@ -169,7 +169,7 @@ Group batch · by grade band
 
 per month
 
-- Five to ten students, in the same grade band
+- Fifteen to twenty students, in the same grade band
 - Two live classes a week, mathematics and timed past papers
 - Placement paper, weekly marked sets, two full rehearsals
 - Certificate on completion
@@ -182,7 +182,7 @@ Mini batch
 
 per month
 
-- Three to four students
+- Up to six students
 - Timings agreed around the family
 - More time per student on the 5-point band
 

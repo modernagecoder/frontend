@@ -53,7 +53,7 @@ module.exports = {
 
   h1: 'Coding classes in County Westmeath',
   capsuleQ: 'What are the best coding classes in County Westmeath?',
-  capsule: 'Westmeath holds 96,221 people, up 8% since 2016, spread between two towns of almost identical size and a great deal of lake and farmland. Home working is low here at 26% against a national 32%, so most families need an evening class rather than an afternoon one, and few of them live near a centre that runs one. That is precisely the gap a live online class fills: the same teacher, the same hour every week, whether a learner is in Mullingar, Moate or out towards Lough Ree. We teach ages 6 to 67, in ability groups of five to ten or one to one. The first lesson costs nothing; then a group place is USD 100 a month and a private one USD 150.',
+  capsule: 'Westmeath holds 96,221 people, up 8% since 2016, spread between two towns of almost identical size and a great deal of lake and farmland. Home working is low here at 26% against a national 32%, so most families need an evening class rather than an afternoon one, and few of them live near a centre that runs one. That is precisely the gap a live online class fills: the same teacher, the same hour every week, whether a learner is in Mullingar, Moate or out towards Lough Ree. We teach ages 6 to 67, in ability groups of fifteen to twenty or one to one. The first lesson costs nothing; then a group place is USD 100 a month and a private one USD 150.',
   lead: 'Westmeath County Council publishes a list of its 49 recycling bring banks, and it is a tidy file: no duplicate rows, sensible coordinates, a column for each material. Four of the five material columns say YES on every single site. The fifth, for textiles, is more interesting. Forty-two sites say YES. Six say NO, meaning the council has confirmed that site does not take textiles. And one site, at Horseleap, says nothing at all: the cell is empty. Those last two are not the same thing, and no ordinary piece of code will tell them apart unless somebody thought about it first. Ask for the sites that take textiles and you get 42. Ask for the sites that do not and you get six, or seven, depending entirely on how your code treats an empty cell. One bring bank in the county falls into the gap between confirmed absent and never recorded, and finding it is the best half hour a young data learner here can spend.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in County Westmeath.',
 
@@ -191,7 +191,7 @@ module.exports = {
       { h3: 'Both ends at once', p: 'A learner in Athlone and one in Kinnegad sit in the same group, which no room in either town could manage on a weekday evening.' },
       { h3: 'Irish school stages', p: 'Junior Cycle, Transition Year, fifth and sixth year, named the way the family and the school name them.' },
       { h3: 'A free lesson that counts', p: 'Real teaching on a real task, closing with a level, a course and an hour, and no request for card details.' },
-      { h3: 'Sorted by ability', p: 'Five to ten learners at one level, drawn from Westmeath and several other countries so each level meets at a workable hour.' },
+      { h3: 'Sorted by ability', p: 'Fifteen to twenty learners at one level, drawn from Westmeath and several other countries so each level meets at a workable hour.' },
       { h3: 'Weekly and fixed', p: 'Two lessons in most weeks, around eight a month, at the same hour, with pauses for mid-terms and exams agreed in advance.' },
       { h3: 'The clocks', p: 'India holds one time all year while Ireland changes twice, so our teachers are four and a half hours ahead in summer and five and a half in winter.' }
     ],
@@ -202,7 +202,7 @@ module.exports = {
     h2: 'What classes cost in County Westmeath',
     intro: 'Three figures, and that is the whole of it.',
     first: 'One full lesson free, ending with a level named and a course recommended.',
-    group: 'A month of classes, normally eight, with five to ten learners of similar ability.',
+    group: 'A month of classes, normally eight, with fifteen to twenty learners of similar ability.',
     private: 'The same month of classes, with the teacher working with a single learner.',
     closer: 'Billing is monthly in US dollars at the one rate charged outside India, so Moate pays what Mullingar pays and there is no euro list. Nothing is charged until the free lesson has settled a course and a weekly hour, and the pricing page covers pauses, missed lessons and changing format.'
   },
@@ -227,7 +227,7 @@ module.exports = {
       { q: 'Is there third level in the county?', a: 'The Technological University of the Shannon has its Athlone campus at University Road, N37 HD68. We are not connected with the university.' },
       { q: 'What hours do classes run?', a: 'Late afternoons, evenings and weekend mornings, with evening slots most popular here. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter.' },
       { q: 'Is there a Modern Age Coders classroom in Westmeath?', a: 'No, and we never suggest one. Teaching is live over video only, with no premises anywhere in Ireland. A learner needs a laptop or desktop, sound that works and a steady connection, and the number shown belongs to India.', boiler: true },
-      { q: 'What do County Westmeath coding classes cost?', a: 'The first lesson is free. Continuing costs USD 100 a month for a shared place, which brings two live lessons a week and about eight a month with five to ten learners, or USD 150 a month one to one on the same schedule. Everything is agreed before payment.', boiler: true },
+      { q: 'What do County Westmeath coding classes cost?', a: 'The first lesson is free. Continuing costs USD 100 a month for a shared place, which brings two live lessons a week and about eight a month with fifteen to twenty learners, or USD 150 a month one to one on the same schedule. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped on ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

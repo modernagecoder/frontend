@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Conwy county b
 canonical: https://learn.modernagecoders.com/coding-classes-in-conwy
 source: src/pages/coding-classes-in-conwy.html
 ---
-> Conwy county borough had 114,741 usual residents at the 2021 census. Colwyn Bay is its largest built-up area, then Conwy and Llandudno, with Kinmel Bay, Abergele, Penrhyn Bay and Llanfairfechan among the rest, and towns such as Llanrwst and Betws-y-Coed. Lessons run live over video with our teachers in India, and a free first session finds each learner's level, from a Year 1 pupil to a Year 13 student or an adult. Coding, Python and maths are open to anyone between 6 and 67, in classes of five to ten or one-to-one. The Conwy project starts at Robert Stephenson's tubular railway bridge. Families who continue pay USD 100 monthly for group lessons or USD 150 monthly for a personal tutor.
+> Conwy county borough had 114,741 usual residents at the 2021 census. Colwyn Bay is its largest built-up area, then Conwy and Llandudno, with Kinmel Bay, Abergele, Penrhyn Bay and Llanfairfechan among the rest, and towns such as Llanrwst and Betws-y-Coed. Lessons run live over video with our teachers in India, and a free first session finds each learner's level, from a Year 1 pupil to a Year 13 student or an adult. Coding, Python and maths are open to anyone between 6 and 67, in classes of fifteen to twenty or one-to-one. The Conwy project starts at Robert Stephenson's tubular railway bridge. Families who continue pay USD 100 monthly for group lessons or USD 150 monthly for a personal tutor.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Conwy county borough
 
@@ -12,11 +12,11 @@ Conwy county borough / Live online
 
 # Coding classes in Conwy county borough
 
-**What are the best coding classes in Conwy?** Conwy county borough had 114,741 usual residents at the 2021 census. Colwyn Bay is its largest built-up area, then Conwy and Llandudno, with Kinmel Bay, Abergele, Penrhyn Bay and Llanfairfechan among the rest, and towns such as Llanrwst and Betws-y-Coed. Lessons run live over video with our teachers in India, and a free first session finds each learner's level, from a Year 1 pupil to a Year 13 student or an adult. Coding, Python and maths are open to anyone between 6 and 67, in classes of five to ten or one-to-one. The Conwy project starts at Robert Stephenson's tubular railway bridge. Families who continue pay USD 100 monthly for group lessons or USD 150 monthly for a personal tutor.
+**What are the best coding classes in Conwy?** Conwy county borough had 114,741 usual residents at the 2021 census. Colwyn Bay is its largest built-up area, then Conwy and Llandudno, with Kinmel Bay, Abergele, Penrhyn Bay and Llanfairfechan among the rest, and towns such as Llanrwst and Betws-y-Coed. Lessons run live over video with our teachers in India, and a free first session finds each learner's level, from a Year 1 pupil to a Year 13 student or an adult. Coding, Python and maths are open to anyone between 6 and 67, in classes of fifteen to twenty or one-to-one. The Conwy project starts at Robert Stephenson's tubular railway bridge. Families who continue pay USD 100 monthly for group lessons or USD 150 monthly for a personal tutor.
 
 In Conwy, Cadw lists the Tubular Railway Bridge at Grade I. Built from 1846 to 1849 by Robert Stephenson with William Fairbairn and E. Hodgkinson, it carries the railway inside wrought-iron tubes, and the record says it pioneered box-girder construction, like the Britannia Bridge across the Menai Strait. It was first meant to be a suspension bridge, and in 1899 intermediate piers were added. Two questions follow for anyone who likes numbers. Why would engineers wrap a railway in a hollow box rather than lay it on solid bars? And why would one extra support in the middle matter so much? This page's project answers both in Python with invented sizes.
 
-Facts last verified 26 September 2026. Teaching is online; no Conwy county borough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Conwy county borough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses across Conwy county borough
 
@@ -134,7 +134,7 @@ Every town and village in the county borough joins by video.
 - **Writing, not watching** The learner builds each program; the teacher reads along on the shared screen and asks the question that moves things on.
 - **Welsh years, WJEC courses** A Penmaenmawr Year 6 or a Colwyn Bay Year 11 is placed by year and the Curriculum for Wales, with WJEC names for exams. We teach in English.
 - **A free first session** One whole lesson for nothing, then honest advice.
-- **Level first, then the group** Each class gathers five to ten learners with matching skills, whatever town or country they log in from.
+- **Level first, then the group** Each class gathers fifteen to twenty learners with matching skills, whatever town or country they log in from.
 - **Term-time lessons** Twice a week in term, with the holidays free.
 - **Clock changes, sorted** Whatever the British clocks do in March and October, your lesson stays at its UK hour.
 
@@ -145,7 +145,7 @@ Every town and village in the county borough joins by video.
 Colwyn Bay or Betws-y-Coed, the fee is identical, the same as everywhere we teach outside India.
 
 - First class: USD 0. A complete free lesson, then our recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month, one-to-one.
 
 Fees are charged in US dollars; there is no sterling list. Nothing is charged until the trial has fixed a course and weekly slot; for holidays, absences and moving between formats, see the pricing page.

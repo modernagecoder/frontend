@@ -179,7 +179,7 @@ Where the historic settlements are spread through the wadis, so are the families
 
 A real lesson with a real task, ending in a specific recommendation. We ask for no card to book it and no commitment before anybody has watched us teach.
 
-### Groups of five to eight, built on level
+### Groups of fifteen to twenty, built on level
 
 Cohorts form around present ability and intended destination. Which village a learner is in plays no part, and that is the thing a fixed classroom can never offer.
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for learners here?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are class times arranged for learners here?
 

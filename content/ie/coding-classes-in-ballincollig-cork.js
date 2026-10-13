@@ -158,7 +158,7 @@ module.exports = {
     intro: 'In practice.',
     cells: [
       { h3: 'Teacher in real time', p: 'A teacher leads each lesson live and reads every learner\'s code as they write it.' },
-      { h3: 'Groups of equals', p: 'Five to ten learners who are at the same point, from Ballincollig, the rest of Ireland or abroad.' },
+      { h3: 'Groups of equals', p: 'Fifteen to twenty learners who are at the same point, from Ballincollig, the rest of Ireland or abroad.' },
       { h3: 'Two days a week', p: 'Around eight lessons a month at the same times each week, agreed at the start.' },
       { h3: 'Around school', p: 'Mid-terms, holidays and exam periods are planned for in advance.' },
       { h3: 'At the desk', p: 'A laptop or desktop, a microphone and headphones or speakers, and broadband that can carry video.' },
@@ -171,7 +171,7 @@ module.exports = {
     h2: 'Ballincollig fees',
     intro: 'The full picture.',
     first: 'A free first lesson, including a check of the learner\'s level.',
-    group: 'A month in a same-stage group of five to ten, about eight live lessons.',
+    group: 'A month in a same-stage group of fifteen to twenty, about eight live lessons.',
     private: 'A month of one-to-one lessons on the same timetable.',
     closer: 'Families outside India all pay the same monthly amount in US dollars. The free lesson commits nobody, payment begins when the course does, and the pricing page sets out how holidays, missed lessons and a move between group and private teaching are handled.'
   },
@@ -195,7 +195,7 @@ module.exports = {
       { q: 'When are lessons?', a: 'On weekdays from the end of school into the evening, and in the daytime at weekends. Times are fixed in Irish time; our teachers are in India, which is ahead by four and a half hours in the Irish summer and five and a half in winter, and we only offer hours that work for both.' },
       { q: 'Do you teach adults?', a: 'Yes, up to sixty-seven and from any starting point. After the first lesson an adult chooses a small same-level group or private lessons.' },
       { q: 'Will my child learn with other Ballincollig children?', a: 'Only by chance. Groups are made by level, so classmates may be in Cork, elsewhere in Ireland or abroad.' },
-      { q: 'What do coding classes in Ballincollig cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with five to ten learners; one-to-one lessons on the same timetable are USD 150 a month. Terms are agreed before any payment.', boiler: true },
+      { q: 'What do coding classes in Ballincollig cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners; one-to-one lessons on the same timetable are USD 150 a month. Terms are agreed before any payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, sorted by level, pace and goals rather than by age or address. If no group fits at a workable time, lessons are one to one.', boiler: true }
     ]
   },

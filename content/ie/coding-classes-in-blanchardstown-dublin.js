@@ -165,7 +165,7 @@ module.exports = {
     intro: 'The details.',
     cells: [
       { h3: 'A teacher, live', p: 'Each lesson is taught in real time by a teacher who follows every learner\'s work on screen.' },
-      { h3: 'Same-stage classmates', p: 'Groups of five to ten learners at one level, who may be in Dublin 15, elsewhere in Ireland or overseas.' },
+      { h3: 'Same-stage classmates', p: 'Groups of fifteen to twenty learners at one level, who may be in Dublin 15, elsewhere in Ireland or overseas.' },
       { h3: 'Twice in a week', p: 'Around eight lessons a month, on two regular days fixed at the start.' },
       { h3: 'Term-time aware', p: 'Mid-terms, holidays and exam weeks are allowed for in the plan from day one.' },
       { h3: 'At home', p: 'A laptop or desktop with a keyboard, a headset or speakers and microphone, and a connection that carries video.' },
@@ -178,7 +178,7 @@ module.exports = {
     h2: 'Fees for Blanchardstown families',
     intro: 'In full.',
     first: 'A free first lesson, with the learner\'s level checked.',
-    group: 'A monthly group place, five to ten learners at one stage, around eight live lessons.',
+    group: 'A monthly group place, fifteen to twenty learners at one stage, around eight live lessons.',
     private: 'Monthly one-to-one lessons on the same pattern.',
     closer: 'Families living outside India pay the same US dollar fee each month, wherever they are. The first lesson places no obligation on anyone, charges begin when the course begins, and the pricing page covers holidays, missed lessons and changes between group and private teaching.'
   },
@@ -202,8 +202,8 @@ module.exports = {
       { q: 'When are lessons held?', a: 'Weekday afternoons once school finishes, weekday evenings and weekend daytimes. Times are fixed in Irish time; our teachers are in India, which is four and a half hours ahead in Irish summer time and five and a half in winter, and we only offer slots that work for both.' },
       { q: 'Can adults in Dublin 15 join?', a: 'Yes, at any level up to the age of sixty-seven. After the first lesson an adult can choose a small same-level group or private lessons.' },
       { q: 'Will my child be grouped with other Blanchardstown children?', a: 'Only by coincidence. Learners are grouped by level, so classmates may come from Dublin 15, from other parts of Ireland or from abroad.' },
-      { q: 'What do coding classes in Blanchardstown cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Nothing is paid before the plan is agreed.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, grouped by level, pace and aim rather than by age or area. If no group fits at a workable time, lessons are one to one.', boiler: true }
+      { q: 'What do coding classes in Blanchardstown cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Nothing is paid before the plan is agreed.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, grouped by level, pace and aim rather than by age or area. If no group fits at a workable time, lessons are one to one.', boiler: true }
     ]
   },
 

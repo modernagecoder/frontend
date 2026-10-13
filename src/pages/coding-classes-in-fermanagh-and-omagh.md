@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Fermanagh and 
 canonical: https://learn.modernagecoders.com/coding-classes-in-fermanagh-and-omagh
 source: src/pages/coding-classes-in-fermanagh-and-omagh.html
 ---
-> The 2021 census found 116,812 usual residents in Fermanagh and Omagh, according to NISRA. Omagh and Enniskillen are the two main towns, and smaller places include Lisnaskea, Irvinestown, Ballinamallard, Fintona and Newtownbutler. We run every lesson live on video, with teachers working from India. Anyone aged 6 to 67 can study coding, Python and maths, alone with a tutor or in a group of five to ten matched by level. A first lesson at no cost settles where to begin. The district project starts at a small bridge over a closed canal. Carrying on costs USD 100 a month for group classes or USD 150 a month for private tuition.
+> The 2021 census found 116,812 usual residents in Fermanagh and Omagh, according to NISRA. Omagh and Enniskillen are the two main towns, and smaller places include Lisnaskea, Irvinestown, Ballinamallard, Fintona and Newtownbutler. We run every lesson live on video, with teachers working from India. Anyone aged 6 to 67 can study coding, Python and maths, alone with a tutor or in a group of fifteen to twenty matched by level. A first lesson at no cost settles where to begin. The district project starts at a small bridge over a closed canal. Carrying on costs USD 100 a month for group classes or USD 150 a month for private tuition.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Northern Ireland](/coding-and-ai-classes-in-northern-ireland) / Fermanagh and Omagh
 
@@ -12,11 +12,11 @@ Fermanagh and Omagh / Live online
 
 # Coding classes in Fermanagh and Omagh
 
-**What are the best coding classes in Fermanagh and Omagh?** The 2021 census found 116,812 usual residents in Fermanagh and Omagh, according to NISRA. Omagh and Enniskillen are the two main towns, and smaller places include Lisnaskea, Irvinestown, Ballinamallard, Fintona and Newtownbutler. We run every lesson live on video, with teachers working from India. Anyone aged 6 to 67 can study coding, Python and maths, alone with a tutor or in a group of five to ten matched by level. A first lesson at no cost settles where to begin. The district project starts at a small bridge over a closed canal. Carrying on costs USD 100 a month for group classes or USD 150 a month for private tuition.
+**What are the best coding classes in Fermanagh and Omagh?** The 2021 census found 116,812 usual residents in Fermanagh and Omagh, according to NISRA. Omagh and Enniskillen are the two main towns, and smaller places include Lisnaskea, Irvinestown, Ballinamallard, Fintona and Newtownbutler. We run every lesson live on video, with teachers working from India. Anyone aged 6 to 67 can study coding, Python and maths, alone with a tutor or in a group of fifteen to twenty matched by level. A first lesson at no cost settles where to begin. The district project starts at a small bridge over a closed canal. Carrying on costs USD 100 a month for group classes or USD 150 a month for private tuition.
 
 Near Newtownbutler a single stone arch carries a humpbacked road over the old Ulster Canal, with a towpath running through beneath it. Nobody carved a date on it. The Historic Environment Division's record dates it the way a detective would. The canal was built between 1825 and 1842, with William Cubitt as consulting engineer. The bridge is missing from the Ordnance Survey map of 1834, so it must be later than that. Each clue rules some years in and others out, and together they squeeze the answer into a narrow window. That is a job a computer can do perfectly, and a job where a single bad clue can quietly wreck the answer. This page's project turns clues into date ranges in Python and finds out what they really prove.
 
-Facts last verified 26 September 2026. Teaching is online; no Fermanagh and Omagh branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Fermanagh and Omagh branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First steps for Fermanagh and Omagh learners
 
@@ -135,7 +135,7 @@ Lakeside, hillside or town, all anyone needs is a connection.
 - **Learner at the controls** Each student types their own code, and the tutor reads along on the shared screen, asking questions that point the way.
 - **Northern Ireland placement** A Fintona P7 or an Enniskillen Year 11 is placed by key stage and school year, and CCEA names are used for exams. We teach in English.
 - **First lesson free** A full lesson without charge, ending with our straight advice.
-- **Classes by level** Groups of five to ten at one stage, drawn from across the UK.
+- **Classes by level** Groups of fifteen to twenty at one stage, drawn from across the UK.
 - **During term** Two lessons a week in term, with the holidays left free.
 - **Clock changes handled** Your lesson hour on the local clock stays put when the clocks change; our teachers move instead.
 
@@ -146,7 +146,7 @@ Lakeside, hillside or town, all anyone needs is a connection.
 Enniskillen and Omagh pay the same, and so does every country we teach outside India.
 
 - First class: USD 0. A full lesson free, with advice on where to go next.
-- Group tuition: USD 100 a month. Approximately eight lessons a month in a group of five to ten.
+- Group tuition: USD 100 a month. Approximately eight lessons a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. Approximately eight lessons a month with a personal tutor.
 
 All fees are in US dollars; we publish no sterling price. Billing starts only once the trial has fixed a course and a weekly slot, and the pricing page explains holidays, missed lessons and changing formats.

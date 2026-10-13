@@ -180,7 +180,7 @@ module.exports = {
     intro: 'Practical points.',
     cells: [
       { h3: 'Live every time', p: 'A teacher is present for the full lesson and works from whatever the learner is building.' },
-      { h3: 'Groups of a level', p: 'Five to ten learners at the same stage of a course, from Cork, the rest of Ireland and further afield.' },
+      { h3: 'Groups of a level', p: 'Fifteen to twenty learners at the same stage of a course, from Cork, the rest of Ireland and further afield.' },
       { h3: 'About twice weekly', p: 'Roughly eight lessons a month, on days and times agreed at the start.' },
       { h3: 'School calendar', p: 'Breaks, mid-terms and exam weeks are built into the plan from the beginning.' },
       { h3: 'At home', p: 'A computer the learner can type on, a microphone and speakers or a headset that work, and a broadband line. A phone is not enough for writing code.' },
@@ -193,7 +193,7 @@ module.exports = {
     h2: 'Fees for Cobh',
     intro: 'Every price we charge.',
     first: 'A complete first lesson, with the level assessed, at no cost.',
-    group: 'A month in a group of five to ten at one level, around eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, around eight live lessons.',
     private: 'A month of private lessons on the same weekly pattern.',
     closer: 'Monthly fees are billed in US dollars and are identical for every family outside India. The free lesson is never billed, and the first month is charged only once a group place or a private slot has actually been arranged; the pricing page covers holidays, missed lessons and switching format.'
   },
@@ -218,7 +218,7 @@ module.exports = {
       { q: 'Is coding worth starting as an adult?', a: 'Yes, and people join up to sixty-seven, many with no programming behind them. The first lesson settles whether an adult learns in a group at the right level or one to one.' },
       { q: 'Will a Cobh learner be in a group with other Cobh learners?', a: 'Not necessarily. Groups are built by level, so a learner here may share lessons with others in Cork, elsewhere in Ireland or abroad, all at the same point in the course.' },
       { q: 'Is there a Modern Age Coders classroom in Cobh?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Cobh cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Cobh cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

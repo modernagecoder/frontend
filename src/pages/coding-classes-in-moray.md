@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Moray, from El
 canonical: https://learn.modernagecoders.com/coding-classes-in-moray
 source: src/pages/coding-classes-in-moray.html
 ---
-> Moray had about 93,400 residents in roughly 43,100 households at the 2022 census, spread thinly at 41.7 people per square kilometre. Elgin is the main town, with Forres, Buckie and Lossiemouth next and smaller places such as Keith, Fochabers and Dufftown. Our teachers in India give every lesson live over video, and a free first session places each learner, from P1 to S6 or beyond school. Anyone from 6 to 67 can study coding, Python or maths here, either one-to-one or in a group of five to ten. The Moray project begins with a lighthouse inscription near Lossiemouth. Following the free lesson, groups cost USD 100 a month and one-to-one lessons USD 150 a month.
+> Moray had about 93,400 residents in roughly 43,100 households at the 2022 census, spread thinly at 41.7 people per square kilometre. Elgin is the main town, with Forres, Buckie and Lossiemouth next and smaller places such as Keith, Fochabers and Dufftown. Our teachers in India give every lesson live over video, and a free first session places each learner, from P1 to S6 or beyond school. Anyone from 6 to 67 can study coding, Python or maths here, either one-to-one or in a group of fifteen to twenty. The Moray project begins with a lighthouse inscription near Lossiemouth. Following the free lesson, groups cost USD 100 a month and one-to-one lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Moray
 
@@ -12,11 +12,11 @@ Moray / Live online
 
 # Coding classes in Moray
 
-**What are the best coding classes in Moray?** Moray had about 93,400 residents in roughly 43,100 households at the 2022 census, spread thinly at 41.7 people per square kilometre. Elgin is the main town, with Forres, Buckie and Lossiemouth next and smaller places such as Keith, Fochabers and Dufftown. Our teachers in India give every lesson live over video, and a free first session places each learner, from P1 to S6 or beyond school. Anyone from 6 to 67 can study coding, Python or maths here, either one-to-one or in a group of five to ten. The Moray project begins with a lighthouse inscription near Lossiemouth. Following the free lesson, groups cost USD 100 a month and one-to-one lessons USD 150 a month.
+**What are the best coding classes in Moray?** Moray had about 93,400 residents in roughly 43,100 households at the 2022 census, spread thinly at 41.7 people per square kilometre. Elgin is the main town, with Forres, Buckie and Lossiemouth next and smaller places such as Keith, Fochabers and Dufftown. Our teachers in India give every lesson live over video, and a free first session places each learner, from P1 to S6 or beyond school. Anyone from 6 to 67 can study coding, Python or maths here, either one-to-one or in a group of fifteen to twenty. The Moray project begins with a lighthouse inscription near Lossiemouth. Following the free lesson, groups cost USD 100 a month and one-to-one lessons USD 150 a month.
 
 Near Lossiemouth, Historic Environment Scotland lists the Covesea Skerries Lighthouse at Category A: a tall circular tower by the engineer Alan Stevenson, dated 1844, with Egyptian-style keepers' cottages. The listing transcribes the inscription over the entrance, which ends with a date in Roman numerals, and the characters it gives are MDLCC XL1V. That is not a standard Roman numeral, and it contains a digit 1 where a letter I would be expected. We have not seen the stone, so we cannot say what is carved there. But the transcription makes a perfect test for a program. Feed it to a careless parser and it cheerfully prints a date almost 150 years out. This page's project builds a Roman numeral reader in Python that knows when to refuse.
 
-Facts last verified 26 September 2026. Teaching is online; no Moray branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Moray branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Common first courses in Moray
 
@@ -138,7 +138,7 @@ With towns spread across the county, online classes save the evening journey.
 - **Typing, not watching** Learners write every line themselves while the teacher follows the shared screen.
 - **Scottish stages** We work in P6, S3, National 5, Higher and Advanced Higher, as Moray schools do, in English.
 - **A free first session** A real lesson with no charge, followed by a straight recommendation.
-- **Stage-matched groups** Five to ten learners at one stage, often from several countries.
+- **Stage-matched groups** Fifteen to twenty learners at one stage, often from several countries.
 - **Breaks for holidays** Twice a week in term; nothing during school holidays.
 - **Fixed in UK time** Your slot keeps its UK time when the clocks change; teachers in India time adapt instead.
 
@@ -149,7 +149,7 @@ With towns spread across the county, online classes save the evening journey.
 Buckie or Burghead, the fee is identical, and the same everywhere we teach outside India.
 
 - First class: USD 0. A complete free lesson, then a clear suggestion.
-- Group tuition: USD 100 a month. About eight lessons a month with five to ten learners at one stage.
+- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty learners at one stage.
 - Private tuition: USD 150 a month. About eight lessons a month with a teacher of your own.
 
 Our prices are in US dollars, and we have no sterling price list. Charges begin only once the free lesson has fixed a course and a weekly time; the pricing page details holidays, missed lessons and moving between formats.

@@ -16,7 +16,7 @@ Schofields, north-west Sydney / Live online
 
 Ask an AI agent how Schofields station compares with the rest of Sydney's network and it will write a database join, run it, and hand back a confident table. Every station gets an average. What the table never mentions is that some of those averages rest on 23 months of data and some on four. The rows that are missing simply do not appear, so nothing looks wrong. One extra query, an anti-join, lists every station-month the agent never saw: 200 of them.
 
-Facts last verified 10 October 2026. Teaching is online; no Schofields branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Schofields branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for building and checking agents
 
@@ -188,7 +188,7 @@ Every lesson happens live on video, so a Schofields learner never travels to cla
 - **Teaching in real time** The teacher watches the learner's screen and explains each fix as it happens.
 - **NSW stages and terms** Lessons use NSW syllabus language and pause for state school holidays.
 - **A free start** The opening class costs nothing and ends with a recommended course, level and time.
-- **Level-matched groups** Five to ten learners working at the same level, or one-to-one if preferred.
+- **Level-matched groups** Fifteen to twenty learners working at the same level, or one-to-one if preferred.
 - **Two lessons a week** Fixed weekly times, around eight lessons a month.
 - **Teachers in India** A 4:30pm Schofields lesson is 11am India time while Sydney is on summer time and noon once it ends.
 
@@ -199,7 +199,7 @@ Every lesson happens live on video, so a Schofields learner never travels to cla
 A single, simple fee table for every course.
 
 - First class: USD 0. A whole first lesson free, followed by a suggested course and timetable.
-- Group tuition: USD 100 a month. Around eight lessons a month, two each week, in a group of five to ten learners at one level.
+- Group tuition: USD 100 a month. Around eight lessons a month, two each week, in a group of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. One-to-one lessons at the same pace, about eight each month.
 
 Outside India we bill in US dollars. Billing begins only after the trial confirms a course and a time; the pricing page explains holidays, missed lessons and changing format.
@@ -240,11 +240,11 @@ No. All teaching is online, and we have no premises anywhere in Australia, Schof
 
 ### What do lessons cost for Schofields learners?
 
-The first lesson is free. A group place costs USD 100 a month for two live lessons a week, roughly eight a month, with five to ten learners; one-to-one is USD 150 a month on the same plan. No payment is taken until a course and time are agreed.
+The first lesson is free. A group place costs USD 100 a month for two live lessons a week, roughly eight a month, with fifteen to twenty learners; one-to-one is USD 150 a month on the same plan. No payment is taken until a course and time are agreed.
 
 ### How large are the groups?
 
-Five to ten learners, matched on level and goals rather than age. Where no group fits the learner's week, one-to-one teaching is offered.
+Fifteen to twenty learners, matched on level and goals rather than age. Where no group fits the learner's week, one-to-one teaching is offered.
 
 ## More for Schofields learners
 

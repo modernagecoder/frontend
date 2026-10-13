@@ -16,7 +16,7 @@ Woden Valley district, south-west Canberra, ACT / Live online
 
 Woden Valley is a compact district of 12 suburbs, from Curtin and Hughes to Mawson and Torrens, with Woden Town Park in Phillip at its middle. ACT Government open data lists registered vehicles by make, model and suburb, which gives a Woden learner a real table of preferences to model.
 
-Facts last verified 13 October 2026. Teaching is online; no Woden branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Woden branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI, data and Python
 
@@ -175,7 +175,7 @@ Classes run over video, so learners join from any Woden suburb.
 - **Taught live** A teacher runs each lesson and checks work as it happens.
 - **ACT terms** Lessons follow the school terms and rest in holidays.
 - **Free first lesson** A trial lesson, then a short written plan.
-- **Groups** Five to ten learners per level, or one-to-one.
+- **Groups** Fifteen to twenty learners per level, or one-to-one.
 - **Schedule** Two lessons a week, about eight a month.
 - **India hours** A 6:30pm Woden lesson is 1pm in India while daylight saving runs.
 
@@ -186,7 +186,7 @@ Classes run over video, so learners join from any Woden suburb.
 All learners pay the same fees.
 
 - First class: USD 0. Lesson one is free, followed by a plan.
-- Group tuition: USD 100 a month. Group lessons: about eight a month, five to ten learners.
+- Group tuition: USD 100 a month. Group lessons: about eight a month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private lessons: about eight a month with one teacher.
 
 Fees are in US dollars and start only once the trial has set a course and weekly time. The pricing page explains holidays and missed lessons.
@@ -223,11 +223,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Woden classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How are groups decided?
 
-By level and pace, five to ten learners, not by age or suburb. One-to-one lessons suit anyone no group time fits.
+By level and pace, fifteen to twenty learners, not by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Can adults study AI here?
 

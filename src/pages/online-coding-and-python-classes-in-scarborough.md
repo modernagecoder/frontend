@@ -4,7 +4,7 @@ description: "Online coding, Python, AI and vibe coding classes taught live for 
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-scarborough
 source: src/pages/online-coding-and-python-classes-in-scarborough.html
 ---
-> The ONS recorded 59,505 residents in the Scarborough built-up area at the 2021 census, in North Yorkshire. Falsgrave, Northstead, Barrowcliff, Newby, Weaponness and Eastfield are all recorded as suburban areas in the YO11 and YO12 postcode districts. Coding, Python, AI, vibe coding and maths are taught here by live video, to learners from six to 67, by tutors who are based in India. Lessons are one-to-one or in a class of five to ten at a single level, and they start from how to reason about a problem before any tool is opened. There is no charge for the first lesson, and it finishes with our advice on a course. Monthly fees afterwards are USD 100 in a group and USD 150 for private tuition. The Scarborough project asks a question every map app has to answer: how do you sort places, which have two coordinates, into a single list that keeps neighbours together?
+> The ONS recorded 59,505 residents in the Scarborough built-up area at the 2021 census, in North Yorkshire. Falsgrave, Northstead, Barrowcliff, Newby, Weaponness and Eastfield are all recorded as suburban areas in the YO11 and YO12 postcode districts. Coding, Python, AI, vibe coding and maths are taught here by live video, to learners from six to 67, by tutors who are based in India. Lessons are one-to-one or in a class of fifteen to twenty at a single level, and they start from how to reason about a problem before any tool is opened. There is no charge for the first lesson, and it finishes with our advice on a course. Monthly fees afterwards are USD 100 in a group and USD 150 for private tuition. The Scarborough project asks a question every map app has to answer: how do you sort places, which have two coordinates, into a single list that keeps neighbours together?
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber) / Scarborough
 
@@ -12,11 +12,11 @@ Scarborough, North Yorkshire, England / Live online
 
 # Online coding and Python classes in Scarborough
 
-**What are the best online coding and Python classes for Scarborough?** The ONS recorded 59,505 residents in the Scarborough built-up area at the 2021 census, in North Yorkshire. Falsgrave, Northstead, Barrowcliff, Newby, Weaponness and Eastfield are all recorded as suburban areas in the YO11 and YO12 postcode districts. Coding, Python, AI, vibe coding and maths are taught here by live video, to learners from six to 67, by tutors who are based in India. Lessons are one-to-one or in a class of five to ten at a single level, and they start from how to reason about a problem before any tool is opened. There is no charge for the first lesson, and it finishes with our advice on a course. Monthly fees afterwards are USD 100 in a group and USD 150 for private tuition. The Scarborough project asks a question every map app has to answer: how do you sort places, which have two coordinates, into a single list that keeps neighbours together?
+**What are the best online coding and Python classes for Scarborough?** The ONS recorded 59,505 residents in the Scarborough built-up area at the 2021 census, in North Yorkshire. Falsgrave, Northstead, Barrowcliff, Newby, Weaponness and Eastfield are all recorded as suburban areas in the YO11 and YO12 postcode districts. Coding, Python, AI, vibe coding and maths are taught here by live video, to learners from six to 67, by tutors who are based in India. Lessons are one-to-one or in a class of fifteen to twenty at a single level, and they start from how to reason about a problem before any tool is opened. There is no charge for the first lesson, and it finishes with our advice on a course. Monthly fees afterwards are USD 100 in a group and USD 150 for private tuition. The Scarborough project asks a question every map app has to answer: how do you sort places, which have two coordinates, into a single list that keeps neighbours together?
 
 A list has one dimension and a map has two. Sort 1,685 postcodes by how far east they are and two that share a street can end up hundreds of rows apart, because every postcode between them on the east to west scale, however far north or south, gets slotted in between. Databases meet this problem constantly, because so much work with location data starts by finding what is close by. One old and elegant answer is to weave the two coordinates together, bit by bit, into a single number. It is called a Z-order curve, it takes about six lines of Python, and the same trick sits underneath the geohash codes that many apps use.
 
-Facts last verified 30 September 2026. Teaching is online; no Scarborough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Scarborough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python, thinking and AI courses for Scarborough
 
@@ -132,7 +132,7 @@ A laptop or desktop and a steady connection for video are all that is required.
 - **The learner types** Screen sharing lets the tutor see every keystroke. The learner writes the code and explains it back.
 - **A level check first** In the free lesson we find out what is known already and note any exam board.
 - **First one free** It is a complete lesson, there is no fee, and it ends with a course recommendation.
-- **Small, level classes** Groups are five to ten learners from across the UK at the same stage.
+- **Small, level classes** Groups are fifteen to twenty learners from across the UK at the same stage.
 - **Two lessons each week** With a pause for every school holiday.
 - **Steady timetable** The hour you choose is kept through both clock changes.
 

@@ -256,7 +256,7 @@ module.exports = {
       { h3: 'Classes on paper', p: 'Short object-oriented exercises handwritten, because AS 1 is a written paper.' },
       { h3: 'Past case studies', p: 'A2 1 theory practised against CCEA case studies from earlier years, never the live one.' },
       { h3: 'Robust by habit', p: 'Validation through exception handling in classes, in every practice application.' },
-      { h3: 'Five to ten per group', p: 'Students at one rung, reviewing each other\'s queries and code.' }
+      { h3: 'Fifteen to twenty per group', p: 'Students at one rung, reviewing each other\'s queries and code.' }
     ]
   },
 
@@ -268,7 +268,7 @@ module.exports = {
     h2: 'Fees for A level lessons',
     lede: 'Charged monthly in US dollars, at the rate all our families outside India pay. There is no cost for a first lesson, and no bill until a course and a regular weekly slot are agreed.',
     free: ['A real lesson on A level material', 'An honest placement on the rungs', 'A phone number is all it takes'],
-    group: ['Five to ten students on one rung', 'The same teacher through Years 13 and 14', 'Hand-written SQL checked every week', 'Lighter near portfolio deadlines'],
+    group: ['Fifteen to twenty students on one rung', 'The same teacher through Years 13 and 14', 'Hand-written SQL checked every week', 'Lighter near portfolio deadlines'],
     one: ['A teacher for one student', 'Planned back from exam and deadline dates', 'Suits a student catching up on SQL']
   },
 

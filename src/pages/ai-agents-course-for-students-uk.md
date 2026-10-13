@@ -211,7 +211,7 @@ Our teachers are based in India, where the clocks never change, so the UK is fou
 - **Sunday** For students with Saturday jobs.
 
 - **A free first class** Talk through what you want to build and leave with a first version of the plan.
-- **Small groups** Five to ten students at the same level, reviewing each other's agents and test sets.
+- **Small groups** Fifteen to twenty students at the same level, reviewing each other's agents and test sets.
 - **One to one** For a faster pace, and the only format for the Copilot Studio course.
 - **Your repository** Everything lives in your own GitHub account, so the evidence stays with you.
 - **Explained out loud** You talk through your agent's design choices in lessons, the way you would to an interviewer.
@@ -222,7 +222,7 @@ Our teachers are based in India, where the clocks never change, so the UK is fou
 A single monthly fee in US dollars, the same in every country outside India. There is no enrolment charge and no term contract, so a month can be the last one whenever exams or a placement get in the way. The Copilot Studio course is one to one only and uses the one-to-one fee.
 
 - Free first class: USD 0. Your project idea examined with a teacher. An honest route from where you are. No payment details needed.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher every week. Peer review of agents and tests. Pause at the end of any month.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher every week. Peer review of agents and tests. Pause at the end of any month.
 - One to one: USD 150 a month. A teacher for you alone. A pace set by your timetable. The format for Copilot Studio.
 
 ## What UK students ask about building agents
@@ -253,7 +253,7 @@ A public repository with a commit history, a README with the agent's purpose and
 
 ### Is the Copilot Studio course available in a group?
 
-No, it is taught one to one only. The other courses on this page run in groups of five to ten or one to one.
+No, it is taught one to one only. The other courses on this page run in groups of fifteen to twenty or one to one.
 
 ### Do I need to pay for AI tools?
 

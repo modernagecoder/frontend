@@ -181,7 +181,7 @@ The live placement lesson is free.
 
 ### Group size
 
-Five to eight compatible learners work together.
+Fifteen to twenty compatible learners work together.
 
 ### Private format
 
@@ -311,7 +311,7 @@ Yes. Modern Age Coders teaches ages 6 to 67. Al Khuwair is also home to the Coll
 
 ### How much do coding classes in Al Khuwair cost?
 
-The group plan costs USD 100 per month for eight live lessons with five to eight learners. The private plan costs USD 150 for eight lessons with one student and one teacher. Both usually meet twice weekly. The first class is free, with no enrolment charge, required materials purchase or minimum term added by Modern Age Coders.
+The group plan costs USD 100 per month for eight live lessons with fifteen to twenty learners. The private plan costs USD 150 for eight lessons with one student and one teacher. Both usually meet twice weekly. The first class is free, with no enrolment charge, required materials purchase or minimum term added by Modern Age Coders.
 
 ### Does the visitor-count project collect personal data?
 

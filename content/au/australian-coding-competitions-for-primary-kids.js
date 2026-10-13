@@ -223,7 +223,7 @@ module.exports = {
     cells: [
       { h3: 'Play first', p: 'Young children learn best through puzzles and making things.' },
       { h3: 'Our own puzzles', p: 'Competition-style practice written by us, never copied.' },
-      { h3: 'Small classes', p: 'Five to ten children at a similar level.' },
+      { h3: 'Small classes', p: 'Fifteen to twenty children at a similar level.' },
       { h3: 'One-to-one option', p: 'For a child who needs a different pace.' },
       { h3: 'Team-friendly', p: 'We teach the coding; teams keep their own projects.' },
       { h3: 'No result promised', p: 'Organisers set and mark every competition.' }
@@ -238,7 +238,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Classes are billed per month in US dollars, our rate for families outside India. There is no sign-up charge and no fixed term. Competition entries, where they cost anything, are paid to the organisers, usually through schools.',
     free: ['A first class at no charge', 'A short puzzle and coding check', 'No card details'],
-    group: ['Five to ten children at one level', 'The same teacher each week', 'Puzzles and projects shared', 'A certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'The same teacher each week', 'Puzzles and projects shared', 'A certificate at the end'],
     one: ['A teacher for one child', 'A plan matched to the child\'s pace', 'Times that suit the family']
   },
 

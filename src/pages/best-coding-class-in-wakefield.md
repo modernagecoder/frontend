@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Wakefield lea
 canonical: https://learn.modernagecoders.com/best-coding-class-in-wakefield
 source: src/pages/best-coding-class-in-wakefield.html
 ---
-> Census 2021 counted 353,368 usual residents in the Wakefield district, and 7.5% of them were aged 50 to 54, against 6.9% in England. The Hepworth Wakefield opened in 2011 to house the city's art collection and to give Barbara Hepworth a legacy in the town where she was born. Wakefield learners aged six to sixty-seven study with our India-based teachers over live video, on their own or in a group of five to ten with a matching level, with lessons fitted around the UK day. There is no charge for the first lesson, and after that a group place is USD 100 a month and private teaching USD 150.
+> Census 2021 counted 353,368 usual residents in the Wakefield district, and 7.5% of them were aged 50 to 54, against 6.9% in England. The Hepworth Wakefield opened in 2011 to house the city's art collection and to give Barbara Hepworth a legacy in the town where she was born. Wakefield learners aged six to sixty-seven study with our India-based teachers over live video, on their own or in a group of fifteen to twenty with a matching level, with lessons fitted around the UK day. There is no charge for the first lesson, and after that a group place is USD 100 a month and private teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Wakefield
 
@@ -12,11 +12,11 @@ Wakefield, West Yorkshire / Live online
 
 # Coding classes in Wakefield
 
-**What are the best coding classes in Wakefield?** Census 2021 counted 353,368 usual residents in the Wakefield district, and 7.5% of them were aged 50 to 54, against 6.9% in England. The Hepworth Wakefield opened in 2011 to house the city's art collection and to give Barbara Hepworth a legacy in the town where she was born. Wakefield learners aged six to sixty-seven study with our India-based teachers over live video, on their own or in a group of five to ten with a matching level, with lessons fitted around the UK day. There is no charge for the first lesson, and after that a group place is USD 100 a month and private teaching USD 150.
+**What are the best coding classes in Wakefield?** Census 2021 counted 353,368 usual residents in the Wakefield district, and 7.5% of them were aged 50 to 54, against 6.9% in England. The Hepworth Wakefield opened in 2011 to house the city's art collection and to give Barbara Hepworth a legacy in the town where she was born. Wakefield learners aged six to sixty-seven study with our India-based teachers over live video, on their own or in a group of fifteen to twenty with a matching level, with lessons fitted around the UK day. There is no charge for the first lesson, and after that a group place is USD 100 a month and private teaching USD 150.
 
 The Environment Agency measures the River Calder at Methley, downstream of Wakefield, every fifteen minutes. Add up those readings with the trapezium rule and the river carried about 640 million cubic metres of water in 2024. Sample it once an hour instead and the answer barely moves; once every six hours, still barely. Look only once a day and the year's total falls by 1.57%, which sounds harmless. But in the five days around the November flood peak of 202.4 cubic metres a second, the once-a-day total is 28.6% short, and the highest flow it ever sees is 121.1. Our teenagers integrate the flow, then learn why the sampling interval must match the fastest thing they care about.
 
-Facts last verified 23 September 2026. Teaching is online; no Wakefield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Wakefield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the city on the Calder
 
@@ -174,7 +174,7 @@ The Wakefield district stretches from Ossett to South Elmsall, and an evening tr
 - **City, towns and villages** A learner in Horbury and another in Knottingley can share one lesson without either leaving home.
 - **Stages as schools use them** Reception, Key Stages 1 to 4, GCSE options and A levels, named the way Wakefield schools name them, with teaching in English.
 - **A first lesson with real work** The free session covers a proper task and ends with a recommended level, course and weekly time. We take no card details.
-- **Five to ten learners per group** Everyone in a group works at the same stage, drawn from Wakefield, the rest of the UK and overseas, so each level has a suitable hour.
+- **Fifteen to twenty learners per group** Everyone in a group works at the same stage, drawn from Wakefield, the rest of the UK and overseas, so each level has a suitable hour.
 - **Twice a week** Two regular lessons weekly, around eight a month, with holidays and exam weeks agreed with the teacher in good time.
 - **Teaching after dark in India** A 5.30 pm lesson in Wakefield begins at 10 pm in India in the British summer and 11 pm in winter, as Indian clocks never change; our teachers keep those hours for UK learners.
 
@@ -185,7 +185,7 @@ The Wakefield district stretches from Ossett to South Elmsall, and an evening tr
 A free lesson first, then one fee a month.
 
 - First class: USD 0. A full lesson at no cost, ending with a level, course and weekly time we suggest.
-- Group tuition: USD 100 a month. Around eight live lessons a month, in a class of five to ten learners at the same stage.
+- Group tuition: USD 100 a month. Around eight live lessons a month, in a class of fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. Around eight live lessons a month, with a teacher for your learner alone.
 
 Normanton and Hemsworth pay what every family outside India pays: one fee in US dollars, and not a single price in pounds on our site. Payment begins only after the free lesson has settled a course and a weekly slot, and our pricing page explains pausing, missed lessons and changes between group and private teaching.
@@ -226,11 +226,11 @@ No. We have no Wakefield centre and no premises anywhere in the UK, because all 
 
 ### How much do Wakefield lessons cost?
 
-The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
+The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
 
 ### How are Wakefield groups formed?
 
-By level, pace and goals rather than age or postcode, with five to ten learners at one stage. If no group fits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than age or postcode, with fifteen to twenty learners at one stage. If no group fits the learner's week, we offer one-to-one lessons.
 
 ## Yorkshire and beyond
 

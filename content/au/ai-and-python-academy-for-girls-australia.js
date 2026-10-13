@@ -627,7 +627,7 @@ module.exports = {
       },
       {
         "h3": "Small groups",
-        "p": "Five to ten students at the same level."
+        "p": "Fifteen to twenty students at the same level."
       },
       {
         "h3": "One to one",
@@ -659,7 +659,7 @@ module.exports = {
       "No card needed"
     ],
     "group": [
-      "Five to ten students at one level",
+      "Fifteen to twenty students at one level",
       "Show and tell of projects",
       "A regular teacher",
       "Stop after any month"

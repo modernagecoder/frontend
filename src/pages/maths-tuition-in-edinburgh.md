@@ -4,7 +4,7 @@ description: "Online maths tuition in Edinburgh for ages 6 to 67: primary maths,
 canonical: https://learn.modernagecoders.com/maths-tuition-in-edinburgh
 source: src/pages/maths-tuition-in-edinburgh.html
 ---
-> Edinburgh learners aged 6 to 67 study maths with us live online, at whatever stage they are: early and upper primary, the S1 to S3 years, the three SQA senior courses (National 5, Higher, Advanced Higher), or adult study. Learners share a class of five to ten at the same level, unless they prefer a private teacher. Our Edinburgh example is a height profile up Arthur's Seat from the Palace of Holyroodhouse: the average gradient along the straight line is 0.149, but the steepest twenty-metre step is 0.574, and the chord gradient to the summit changes as the chord shrinks, which is how Higher Mathematics introduces rate of change. The trial is free of charge. Continuing lessons cost USD 100 monthly in a group or USD 150 monthly on a one to one basis.
+> Edinburgh learners aged 6 to 67 study maths with us live online, at whatever stage they are: early and upper primary, the S1 to S3 years, the three SQA senior courses (National 5, Higher, Advanced Higher), or adult study. Learners share a class of fifteen to twenty at the same level, unless they prefer a private teacher. Our Edinburgh example is a height profile up Arthur's Seat from the Palace of Holyroodhouse: the average gradient along the straight line is 0.149, but the steepest twenty-metre step is 0.574, and the chord gradient to the summit changes as the chord shrinks, which is how Higher Mathematics introduces rate of change. The trial is free of charge. Continuing lessons cost USD 100 monthly in a group or USD 150 monthly on a one to one basis.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Edinburgh
 
@@ -14,7 +14,7 @@ Edinburgh · Maths for ages 6 to 67 · Live lessons online, small groups or indi
 
 How steep is Arthur's Seat? Draw a straight line on the map from the Palace of Holyroodhouse to the summit and it runs 1,143.8 metres. Along it, a public elevation model gains 170.5 metres, an average gradient of 0.149, or about 8.5 degrees. That sounds gentle, and anyone who has climbed it knows it is not. Near the top, one twenty-metre stretch climbs at 0.574, almost 30 degrees. The difference between an average gradient and a local one is the idea behind differentiation, which Scottish learners meet properly at Higher. This page explains how we teach maths to Edinburgh learners of every age and uses that one hill to connect the stages.
 
-At a glance: Who: Edinburgh learners from 6 to 67; Primary: P1 to P7 number, measure and shape; BGE: S1 to S3, including straight-line gradient; Senior phase: National 5, Higher, Advanced Higher; Adults: Refreshers and a route back to SQA courses; Format: Live video, 5 to 10 per group or one to one; Teachers: In India, timetabled in UK time; Local project: A height profile up Arthur's Seat. Rated 4.9 across 547 Google reviews.
+At a glance: Who: Edinburgh learners from 6 to 67; Primary: P1 to P7 number, measure and shape; BGE: S1 to S3, including straight-line gradient; Senior phase: National 5, Higher, Advanced Higher; Adults: Refreshers and a route back to SQA courses; Format: Live video, 15 to 20 per group or one to one; Teachers: In India, timetabled in UK time; Local project: A height profile up Arthur's Seat. Rated 4.9 across 547 Google reviews.
 
 ## Three usual first courses
 
@@ -230,7 +230,7 @@ Our teachers are in India, which does not change its clocks. Edinburgh therefore
 
 - **A familiar teacher** The same person teaches the group from week to week.
 - **Quick reports** A short message home on progress after lessons.
-- **Level-matched groups** Five to ten learners working at the same level.
+- **Level-matched groups** Fifteen to twenty learners working at the same level.
 - **Genuine data** Height profiles, maps and records sit beside exam questions.
 - **Private lessons** For a single tough topic or the final weeks before exams.
 - **Understanding first** Every method is explained before it is practised.
@@ -240,7 +240,7 @@ Our teachers are in India, which does not change its clocks. Edinburgh therefore
 Billed monthly in US dollars at a single rate for all countries outside India. No joining fee and no lengthy commitment.
 
 - Free first class: USD 0. A real lesson pitched correctly. A frank account afterwards. No card details.
-- Group batch: USD 100 a month. Five to ten learners, one level. The same teacher throughout. Written work marked and explained. Certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners, one level. The same teacher throughout. Written work marked and explained. Certificate at the end.
 - One to one: USD 150 a month. Personal teaching. Focused on the exact difficulty. Helpful just before exams.
 
 ## What Edinburgh families and adult learners want to know

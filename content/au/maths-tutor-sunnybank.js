@@ -54,7 +54,7 @@ module.exports = {
   "twitterDescription": "Sunnybank maths tutoring, live online: Prep to Year 12 and adults, in Brisbane time all year.",
   "pageName": "Maths Tutor in Sunnybank",
   "webPageDescription": "Live online maths tutoring for Sunnybank learners from Prep to Year 12 and adults, following the Australian Curriculum and Queensland senior mathematics, with a probability project on Census counts.",
-  "courseDescription": "Live online maths lessons for Sunnybank learners, private or in groups of five to ten at the same level, from early number to senior Mathematical Methods and adult maths.",
+  "courseDescription": "Live online maths lessons for Sunnybank learners, private or in groups of fifteen to twenty at the same level, from early number to senior Mathematical Methods and adult maths.",
   "crumbs": [
     {
       "name": "Courses",
@@ -132,7 +132,7 @@ module.exports = {
     ]
   ],
   "capsuleQ": "Maths tutor in Sunnybank, in brief",
-  "capsule": "Modern Age Coders is an online maths tutor for Sunnybank learners aged 6 to 67, teaching Australian Curriculum maths from Prep to Year 10, Queensland senior mathematics including Mathematical Methods, and adult maths. Lessons are live video in Brisbane time, one to one or in groups of five to ten at the same level. Our Sunnybank example compares probabilities with and without replacement using Census counts: 0.37146 against 0.37124. Your first lesson is free.",
+  "capsule": "Modern Age Coders is an online maths tutor for Sunnybank learners aged 6 to 67, teaching Australian Curriculum maths from Prep to Year 10, Queensland senior mathematics including Mathematical Methods, and adult maths. Lessons are live video in Brisbane time, one to one or in groups of fifteen to twenty at the same level. Our Sunnybank example compares probabilities with and without replacement using Census counts: 0.37146 against 0.37124. Your first lesson is free.",
   "picks": {
     "eyebrow": "Popular with Sunnybank families",
     "h2": "Primary, secondary and senior maths",
@@ -424,7 +424,7 @@ module.exports = {
           ],
           "rightH3": "One to one or in a group",
           "right": [
-            "Private lessons suit a specific gap or an exam. Groups of five to ten at one level suit steady progress, and the shared board shows the teacher every step.",
+            "Private lessons suit a specific gap or an exam. Groups of fifteen to twenty at one level suit steady progress, and the shared board shows the teacher every step.",
             "Holiday revision is available on request."
           ]
         },
@@ -654,7 +654,7 @@ module.exports = {
       "No card required"
     ],
     "group": [
-      "Five to ten learners at one level",
+      "Fifteen to twenty learners at one level",
       "The same teacher all term",
       "Practice checked",
       "Stop after any month"

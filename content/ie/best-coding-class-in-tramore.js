@@ -189,7 +189,7 @@ module.exports = {
     h2: 'Fees for Tramore',
     intro: 'All of the prices.',
     first: 'A full first lesson with a level assessment, at no cost.',
-    group: 'A month in a group of five to ten at one stage, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one stage, about eight live lessons.',
     private: 'A month of one-to-one teaching on the same weekly pattern.',
     closer: 'Outside India every family pays the same monthly price, in US dollars. The first lesson costs nothing and commits you to nothing, payments start with the course itself, and holidays, missed lessons and a move between group and private lessons are covered on the pricing page.'
   },
@@ -214,7 +214,7 @@ module.exports = {
       { q: 'Can adults learn too?', a: 'They can, at any age to sixty-seven, with or without experience. One free lesson is usually enough for an adult to see whether a same-level group or a private teacher suits them better.' },
       { q: 'Will a Tramore learner be with other local learners?', a: 'Groups are formed by level, so a learner here may share lessons with others in Waterford, elsewhere in Ireland or abroad.' },
       { q: 'Is there a Modern Age Coders classroom in Tramore?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Tramore cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Tramore cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

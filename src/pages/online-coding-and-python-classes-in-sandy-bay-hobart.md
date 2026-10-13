@@ -16,7 +16,7 @@ Sandy Bay, City of Hobart, Tasmania / Live online
 
 Ask Tasmania's LIST map service for the roads in Sandy Bay and it sends back 1,404 road segments, each a little bundle of dictionaries inside lists inside dictionaries. Loaded naively into pandas, that becomes two columns of tangled data. One function call unpacks it into a table.
 
-Facts last verified 14 October 2026. Teaching is online; no Sandy Bay branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 14 October 2026. Teaching is online; no Sandy Bay branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that make real data usable
 
@@ -185,7 +185,7 @@ All classes run live on video, so learners join from home or a college room.
 - **Data on screen** Learner and teacher inspect real JSON together before flattening it.
 - **Tasmanian terms** Lessons follow the state school year, breaking for holidays.
 - **Free first class** One full lesson at no cost, then a clear recommendation.
-- **Five to ten per group** Level-matched groups, or private teaching.
+- **Fifteen to twenty per group** Level-matched groups, or private teaching.
 - **Twice weekly** Two regular lessons a week, near eight a month.
 - **India time** Teachers are in India: a 5pm Sandy Bay lesson is 11:30am India time in summer and 12:30pm from April.
 
@@ -196,7 +196,7 @@ All classes run live on video, so learners join from home or a college room.
 Three straightforward prices.
 
 - First class: USD 0. The first lesson is free and ends with a written plan.
-- Group tuition: USD 100 a month. About eight group lessons a month with five to ten learners.
+- Group tuition: USD 100 a month. About eight group lessons a month with fifteen to twenty learners.
 - Private tuition: USD 150 a month. About eight private lessons a month.
 
 Sandy Bay learners pay in US dollars after the trial, once course and time are settled. The pricing page explains holidays and absences.
@@ -233,11 +233,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Sandy Bay learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Is Copilot Studio taught in Sandy Bay groups?
 

@@ -16,7 +16,7 @@ Chatswood, Willoughby, Sydney / Live online
 
 Here is a test that every AI agent builder should run. We asked three simple agents the same question: which month had the most entries at Chatswood Station? All three said August 2026, with 949,108 entries, and all three were right. One read every month. One read only the last three. One read every month but compared the numbers as text. Grading only the final answer gives all three full marks. Grading the path each agent took exposes two of them, and running them across every station proves why that matters.
 
-Facts last verified 10 October 2026. Teaching is online; no Chatswood branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Chatswood branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for building agents you can trust
 
@@ -183,7 +183,7 @@ Most Chatswood homes are apartments, and a live online lesson needs nothing more
 - **No commute** The learner joins from home, so the whole hour goes to coding rather than travel.
 - **NSW stages** Plans follow the NSW syllabus stages and pause for state school holidays.
 - **A real trial** The free first lesson is a proper class, followed by a recommendation and nothing to pay.
-- **Level-matched groups** Five to ten learners at the same level, or one to one when that suits better.
+- **Level-matched groups** Fifteen to twenty learners at the same level, or one to one when that suits better.
 - **Regular rhythm** Two fixed lessons a week, about eight a month, with breaks planned in advance.
 - **Teachers in India** A 6:30pm Chatswood lesson in summer starts at 1pm India time, and at 2pm once Sydney ends daylight saving.
 
@@ -194,7 +194,7 @@ Most Chatswood homes are apartments, and a live online lesson needs nothing more
 The price list has three lines.
 
 - First class: USD 0. The first lesson is free and ends with a clear suggestion.
-- Group tuition: USD 100 a month. A month of small-group lessons, normally eight, with five to ten learners.
+- Group tuition: USD 100 a month. A month of small-group lessons, normally eight, with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Around eight one-to-one lessons a month.
 
 Outside India we invoice in US dollars, with one rate for every suburb. Nothing is charged until course and timing are fixed after the trial, and the pricing page explains holidays and absences.
@@ -235,7 +235,7 @@ No. All lessons are live online and we have no premises in Australia. The phone 
 
 ### What do AI agents classes cost in Chatswood?
 
-The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one.
+The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one.
 
 ### How many learners are in each group?
 

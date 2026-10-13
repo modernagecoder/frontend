@@ -4,7 +4,7 @@ description: "Does coding teach general problem-solving? Ofsted's research revie
 canonical: https://learn.modernagecoders.com/problem-solving-skills-through-coding-uk
 source: src/pages/problem-solving-skills-through-coding-uk.html
 ---
-> Coding is worth learning on its own terms, and it does not need a transfer claim propping it up. Ofsted's research review on computing cites the argument that we should avoid exaggerated claims about problem-solving skills transferring to other domains, and says the subject is a worthwhile pursuit in itself. What the same review does say is that problem-solving skill "derives primarily from the accumulation of a large store of domain-specific knowledge stored in long-term memory". In other words, a learner gets better at solving computing problems by knowing more computing, sequenced properly, not by being trained in a generic skill. That is how we teach: worked examples that fade, labelled steps, and a prediction before every program runs. Groups of five to ten at one level, or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+> Coding is worth learning on its own terms, and it does not need a transfer claim propping it up. Ofsted's research review on computing cites the argument that we should avoid exaggerated claims about problem-solving skills transferring to other domains, and says the subject is a worthwhile pursuit in itself. What the same review does say is that problem-solving skill "derives primarily from the accumulation of a large store of domain-specific knowledge stored in long-term memory". In other words, a learner gets better at solving computing problems by knowing more computing, sequenced properly, not by being trained in a generic skill. That is how we teach: worked examples that fade, labelled steps, and a prediction before every program runs. Groups of fifteen to twenty at one level, or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Problem solving through coding
 
@@ -190,7 +190,7 @@ Teachers work from India, where the clock never shifts, leaving the UK five and 
 A single monthly figure, priced in US dollars outside India. The free lesson comes first and nothing is charged until a course and a slot are agreed.
 
 - Free first class: USD 0. A proper lesson, not a sales call. A straight answer about the right stage. Only a phone number needed.
-- Group batch: USD 100 a month. Five to ten learners at one stage. One teacher for the whole course. Written feedback on the learner's code each week. A certificate at the end of a syllabus.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one stage. One teacher for the whole course. Written feedback on the learner's code each week. A certificate at the end of a syllabus.
 - One to one: USD 150 a month. A teacher working with one learner. Useful when a learner is far from the middle of a group. Arranged around exam dates if there are any.
 
 ## What parents ask about this

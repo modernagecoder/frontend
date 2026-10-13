@@ -16,7 +16,7 @@ Goulburn, New South Wales, Australia / Live online
 
 Give an AI agent the state's school list and ask how many government schools are in the town of Goulburn. One design writes its whole plan first: load the rows, keep those whose town reads "Goulburn", count. It follows the plan faithfully and reports 0. Another design looks at every result before choosing the next step. Seeing zero, it lists the town labels, spots a hidden space after the word, then a row in capitals, and reaches 9, or 10 if Goulburn North counts. Our Goulburn project builds both agents and asks when planning ahead helps and when it blinds.
 
-Facts last verified 9 October 2026. Teaching is online; no Goulburn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 9 October 2026. Teaching is online; no Goulburn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for agents that look before they answer
 
@@ -185,7 +185,7 @@ The schools in our project include Tallong, Windellama, Marulan and Tarago as we
 - **No drive needed** A learner in Marulan and another in central Goulburn can debug the same agent together without anyone leaving home.
 - **Fits the NSW year** Plans move with the learner's school stage and the four NSW terms, and senior students can connect agent projects to the computing or maths they are taking.
 - **Trial with substance** The free lesson is a real class with working code; afterwards we propose a level, a course and a weekly slot, with no card details asked.
-- **Matched groups** Groups hold five to ten learners at the same stage, drawn from across Australia and further afield, so a suitable class always exists.
+- **Matched groups** Groups hold fifteen to twenty learners at the same stage, drawn from across Australia and further afield, so a suitable class always exists.
 - **A steady rhythm** Classes run on the same two weekdays at the same hour, close to eight sessions a month, with exam and holiday pauses set in advance.
 - **Teachers in India** A 6pm Goulburn class in winter begins at 1:30pm in India; once NSW daylight saving starts it begins at 12:30pm there.
 
@@ -196,7 +196,7 @@ The schools in our project include Tallong, Windellama, Marulan and Tarago as we
 Three prices, nothing hidden.
 
 - First class: USD 0. A full lesson with no charge, ending with a suggested level, course and time.
-- Group tuition: USD 100 a month. Roughly eight lessons a month with five to ten learners at the same stage.
+- Group tuition: USD 100 a month. Roughly eight lessons a month with fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. Roughly eight lessons a month, just the learner and a teacher.
 
 Billing outside India is always in US dollars, so a family in Tarago pays the same figure as one in central Goulburn and there is no separate local tariff. Payment waits until the trial has agreed a course and a regular time, and the pricing page sets out pauses, missed lessons and moves between group and private.
@@ -237,11 +237,11 @@ No, and none is claimed. All lessons are live and online and we have no premises
 
 ### What do Goulburn vibe coding and AI agents classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.
 
 ### How big are the groups?
 
-Five to ten learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.
+Fifteen to twenty learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.
 
 ## More for Goulburn Mulwaree learners
 

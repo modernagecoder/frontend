@@ -179,7 +179,7 @@ Places strung along the way into the sands have no location that suits everybody
 
 The placement class does real work and ends in a real recommendation. No card details are taken to book it, and nobody is asked to decide anything until they have sat through a full lesson and seen how it runs.
 
-### Groups of five to eight, built on level
+### Groups of fifteen to twenty, built on level
 
 Cohorts are assembled from current ability and from what the learner is aiming at. Where somebody lives plays no part in it, which is the one promise a room in a town is never able to make.
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Bidiyah learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Bidiyah class times arranged?
 

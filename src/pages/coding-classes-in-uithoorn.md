@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Uithoorn and De Kwake
 canonical: https://learn.modernagecoders.com/coding-classes-in-uithoorn
 source: src/pages/coding-classes-in-uithoorn.html
 ---
-> Coding classes in Uithoorn serve 32,204 people (Statistics Netherlands, 1 January 2026) on 19.42 square kilometres of the Amstel valley at 1,772 residents to the square kilometre, in 14,077 households of which 4,805 hold one person. Where the municipal entry should show a graph of the population over time it shows a sentence explaining that the graph software cannot be displayed, and a reader who stops there concludes the history is missing. It is not: the same history says 24,581 residents in 1995 against 32,204 today. Modern Age Coders teaches live online in English in Uithoorn and De Kwakel, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Uithoorn serve 32,204 people (Statistics Netherlands, 1 January 2026) on 19.42 square kilometres of the Amstel valley at 1,772 residents to the square kilometre, in 14,077 households of which 4,805 hold one person. Where the municipal entry should show a graph of the population over time it shows a sentence explaining that the graph software cannot be displayed, and a reader who stops there concludes the history is missing. It is not: the same history says 24,581 residents in 1995 against 32,204 today. Modern Age Coders teaches live online in English in Uithoorn and De Kwakel, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Uithoorn
 
@@ -12,11 +12,11 @@ Uithoorn, Noord-Holland / Live online
 
 # Coding classes in Uithoorn, where the population graph will not draw and that is a fact about the software, not about the town
 
-**What are the best coding classes in Uithoorn?** Coding classes in Uithoorn serve 32,204 people (Statistics Netherlands, 1 January 2026) on 19.42 square kilometres of the Amstel valley at 1,772 residents to the square kilometre, in 14,077 households of which 4,805 hold one person. Where the municipal entry should show a graph of the population over time it shows a sentence explaining that the graph software cannot be displayed, and a reader who stops there concludes the history is missing. It is not: the same history says 24,581 residents in 1995 against 32,204 today. Modern Age Coders teaches live online in English in Uithoorn and De Kwakel, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Uithoorn?** Coding classes in Uithoorn serve 32,204 people (Statistics Netherlands, 1 January 2026) on 19.42 square kilometres of the Amstel valley at 1,772 residents to the square kilometre, in 14,077 households of which 4,805 hold one person. Where the municipal entry should show a graph of the population over time it shows a sentence explaining that the graph software cannot be displayed, and a reader who stops there concludes the history is missing. It is not: the same history says 24,581 residents in 1995 against 32,204 today. Modern Age Coders teaches live online in English in Uithoorn and De Kwakel, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Open the municipal entry for Uithoorn, scroll to where the population history should be, and you find no graph. In its place sits a sentence saying that because of a security problem with the graph software it is not currently possible to display this chart. Nothing about Uithoorn is missing. The town has a population history, the numbers are recorded, and one of them says 24,581 people lived here in 1995. What failed was the drawing. From where a reader sits, though, a broken picture and a fact that was never collected look exactly the same, and that is one of the most expensive confusions in working with data.
 
-Facts last verified 8 September 2026. Teaching is online; no Uithoorn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 8 September 2026. Teaching is online; no Uithoorn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a small town with an unusually wide world in it
 
@@ -197,7 +197,7 @@ Nothing in Uithoorn is far from anything. What is far is a group at the right le
 - **The class arrives at the table** One repeating hour a week at home, whether that home is in De Kwakel or three streets from the Amstel, with no journey attached to it at either end.
 - **English throughout, Dutch school words kept** All teaching is in English, which suits a town with this many international families. Groep, havo, vwo and profielkeuze stay Dutch, because a child recognises those from their own timetable.
 - **What the free hour delivers** A level the learner has demonstrated, a named course that follows from it, and a weekly time. Nobody is asked for payment details during it.
-- **Grouped by stage, from anywhere** Groups are five to ten learners at the same level, drawn from across the world rather than from one town of 32,204, which is the only way a specific level fills up at all.
+- **Grouped by stage, from anywhere** Groups are fifteen to twenty learners at the same level, drawn from across the world rather than from one town of 32,204, which is the only way a specific level fills up at all.
 - **Twice weekly, regio Noord holidays** Two lessons a week in a fixed slot, normally eight in a month. Noord-Holland takes its school holidays with regio Noord, and weeks away are written into the plan before it begins.
 - **The teacher is in India** Three and a half hours ahead in Dutch summer time and four and a half in winter, since only the Dutch clock moves. For families here with their own connection to India, that offset is already familiar.
 
@@ -208,7 +208,7 @@ Nothing in Uithoorn is far from anything. What is far is a group at the right le
 Put in writing here rather than held back for a call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One international rate exists and it is quoted in dollars, with no euro edition, so De Kwakel and Uithoorn see the identical figure. Nothing is charged until the free lesson has fixed a course and an hour, and payment is then arranged over WhatsApp. Pausing, changing plan and missing a week are all described on the pricing page.
@@ -237,7 +237,7 @@ The teacher is three and a half hours ahead during Dutch summer time and four an
 
 ### The town has good schools. Why would we look outside them?
 
-Nine primary and three secondary establishments serve 32,204 people perfectly well for a general education. What a town this size cannot assemble is a group of five to ten learners at one specific level in one specific subject, which is a matter of arithmetic rather than of quality. Groups here are formed across the world by ability, which is the only way that particular problem gets solved.
+Nine primary and three secondary establishments serve 32,204 people perfectly well for a general education. What a town this size cannot assemble is a group of fifteen to twenty learners at one specific level in one specific subject, which is a matter of arithmetic rather than of quality. Groups here are formed across the world by ability, which is the only way that particular problem gets solved.
 
 ### What happens in the free lesson?
 
@@ -249,7 +249,7 @@ No, and none is claimed in Uithoorn, in De Kwakel or anywhere else in the Nether
 
 ### What do Uithoorn coding classes cost?
 
-The first lesson is free. After that, group tuition is USD 100 a month for two live lessons a week, normally eight in a month, in a group of five to ten. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all settled before anything is paid.
+The first lesson is free. After that, group tuition is USD 100 a month for two live lessons a week, normally eight in a month, in a group of fifteen to twenty. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all settled before anything is paid.
 
 ### How many learners are in a group?
 

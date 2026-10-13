@@ -16,7 +16,7 @@ Book a Free DemoSee the Roadmap**CNN**How AI sees**5–8**Students per batch**Op
 
 ## Quick answer
 
-**Modern Age Coders' Computer Vision Course teaches you to build AI that sees, in Python.** You'll learn how images become data, use OpenCV, build convolutional neural networks (CNNs) for image classification, and explore object detection with pretrained models, all hands-on with real images. Classes are live in small batches of 5–8 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.
+**Modern Age Coders' Computer Vision Course teaches you to build AI that sees, in Python.** You'll learn how images become data, use OpenCV, build convolutional neural networks (CNNs) for image classification, and explore object detection with pretrained models, all hands-on with real images. Classes are live in batches of 15–20 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.
 
 Start Today
 
@@ -108,7 +108,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo.
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 learners per batch
+- 15–20 learners per batch
 - Live vision building
 - Recorded class access
 - Completion certificate
@@ -119,7 +119,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 learners per batch
+- Up to 6 learners per batch
 - More personal mentoring
 - Recorded class access
 - Project guidance & certificate
@@ -183,11 +183,11 @@ Yes. Every topic is hands-on in Python/Colab and you build real, mentor-reviewed
 
 How much does the course cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
 
 Are the classes live and mentor-led?+
 
-Yes. Classes are live in small batches of 5–8 with a mentor who reviews your work, and every session is recorded so you can revise anytime. It's real-time teaching, not pre-recorded videos.
+Yes. Classes are live in batches of 15–20 with a mentor who reviews your work, and every session is recorded so you can revise anytime. It's real-time teaching, not pre-recorded videos.
 
 ---
 

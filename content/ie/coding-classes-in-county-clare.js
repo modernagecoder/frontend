@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'Coding classes in County Clare',
   capsuleQ: 'What are the best coding classes in County Clare?',
-  capsule: 'County Clare holds 127,938 people, 9,121 more than in 2016, including 24,998 children aged 15 and under. Ennis is much the largest town at 27,923, Shannon follows at 10,256, and the rest of the county runs from Kilrush and Ennistymon on the coast to Killaloe on the lake. Clare also has the second highest share of Irish speakers of any county. We teach ages 6 to 67 live online at a fixed weekly hour, in ability groups of five to ten or one to one, beginning with a free lesson and then USD 100 a month in a group or USD 150 privately.',
+  capsule: 'County Clare holds 127,938 people, 9,121 more than in 2016, including 24,998 children aged 15 and under. Ennis is much the largest town at 27,923, Shannon follows at 10,256, and the rest of the county runs from Kilrush and Ennistymon on the coast to Killaloe on the lake. Clare also has the second highest share of Irish speakers of any county. We teach ages 6 to 67 live online at a fixed weekly hour, in ability groups of fifteen to twenty or one to one, beginning with a free lesson and then USD 100 a month in a group or USD 150 privately.',
   lead: 'Clare County Council\'s page on the national data portal says seven datasets. Count them properly and there are five. Two entries are the same datasets published twice, the copies distinguishable only by a stray digit at the end of a web address. That would be a small thing on its own, except that two of the remaining entries are not Clare data at all: one describes itself as owned and provided by Limerick County Council, and its own text misspells the name of that council. So a catalogue of seven is really five topics, three of which belong to this county. None of this is concealed. It is written on the page, in plain sight, waiting for somebody to read it rather than count it. That habit, reading what a label actually says instead of trusting what it claims, is what we build here.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in County Clare.',
 
@@ -184,7 +184,7 @@ module.exports = {
       { h3: 'Live, never recorded lessons', p: 'A teacher is present for the full hour and the learner talks back. Recordings are revision, not the class.' },
       { h3: 'One hour, one fixed slot', p: 'Usually twice a week, about eight lessons a month, on days agreed once and then kept.' },
       { h3: 'Nothing to install first', p: 'A laptop or desktop, working sound, a steady connection. We set up the tools during the first lessons.' },
-      { h3: 'Placed by ability, not age', p: 'Groups of five to ten at one level, drawn from Clare and several other countries so the right class exists at a sensible hour.' },
+      { h3: 'Placed by ability, not age', p: 'Groups of fifteen to twenty at one level, drawn from Clare and several other countries so the right class exists at a sensible hour.' },
       { h3: 'Written to Irish school terms', p: 'Junior Cycle, Transition Year, fifth and sixth year, with exam weeks and mid-terms planned around.' },
       { h3: 'Teachers ahead of Irish time', p: 'They work from India, four and a half hours ahead in summer and five and a half in winter, which suits afternoons and evenings here.' }
     ],
@@ -195,7 +195,7 @@ module.exports = {
     h2: 'Fees for Clare families',
     intro: 'What it costs, in three lines, with the conditions stated rather than buried.',
     first: 'A full first lesson, free, ending with a level and a recommendation.',
-    group: 'Group classes for a month, normally eight lessons, five to ten learners at one level.',
+    group: 'Group classes for a month, normally eight lessons, fifteen to twenty learners at one level.',
     private: 'One to one classes for a month on the same weekly pattern.',
     closer: 'Everything is billed monthly in US dollars at the single rate we charge outside India, which means Kilkee and Ennis pay the same and no euro list exists to compare against. We charge nothing until the free lesson has settled a course and a weekly hour. Pauses, missed lessons and moving between group and one to one are all described on the pricing page rather than left to be discovered later.'
   },
@@ -220,7 +220,7 @@ module.exports = {
       { q: 'Do you teach children in west Clare?', a: 'Yes, and the format suits there particularly. Kilrush, Kilkee, Doolin and Ennistymon are all a long evening drive from the nearest option in a room, and a live online class removes the journey rather than adding one.' },
       { q: 'What hours do classes run?', a: 'Afternoons, evenings and weekend mornings. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter, and the weekly hour is agreed during the free lesson.' },
       { q: 'Is there a Modern Age Coders classroom in County Clare?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do County Clare coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do County Clare coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

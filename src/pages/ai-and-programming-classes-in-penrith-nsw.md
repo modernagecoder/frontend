@@ -16,7 +16,7 @@ Penrith, western Sydney, New South Wales / Live online
 
 The Census does not publish anyone's age, only how many Penrith residents fall in each five-year band, from 15,640 children under five to 2,713 people aged 85 and over. Yet AI developers often need individual records to test a system. A technique called inverse transform sampling turns that table into as many synthetic residents as you like, each with an age, so that the made-up crowd matches the real bands. Generate 100 and their median age might be anywhere from 28 to 41. Generate 200,000 and it settles between 35.24 and 35.56, beside the published median of 35. Our Penrith learners find out how synthetic data is made, and how much of it you need before it tells the truth.
 
-Facts last verified 10 October 2026. Teaching is online; no Penrith branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Penrith branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that lead to the Penrith project
 
@@ -169,7 +169,7 @@ An online lesson saves the trip into the city.
 - **Set in Sydney time** Slots are agreed in Penrith time and hold steady through daylight saving.
 - **NSW stages and the HSC** Teachers plan around NSW stages, including HSC students, and teach in English.
 - **A real lesson to start** The free session is spent writing code beside a teacher. Afterwards we propose a course and a weekly slot, and at no point do we collect card or bank details.
-- **Five to ten learners** Each group shares one level, drawn from different places so every stage has a sensible hour.
+- **Fifteen to twenty learners** Each group shares one level, drawn from different places so every stage has a sensible hour.
 - **Twice a week** About eight lessons a month, with holidays and exams planned in advance.
 - **For working adults** Evening groups suit people who commute or work days, and private lessons fit around irregular hours.
 
@@ -180,7 +180,7 @@ An online lesson saves the trip into the city.
 The whole list.
 
 - First class: USD 0. A free lesson that ends with a suggested level, course and time.
-- Group tuition: USD 100 a month. Approximately eight group lessons a month, five to ten learners at one level.
+- Group tuition: USD 100 a month. Approximately eight group lessons a month, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Approximately eight one-to-one lessons a month with a single teacher.
 
 Penrith pays the US dollar rate charged everywhere in Australia, with no local adjustment. Payment begins only once the trial has settled a course and time, and holidays, missed lessons and format changes are all explained on the pricing page.
@@ -221,7 +221,7 @@ No, and we do not claim one. Teaching is live and online only, with no premises 
 
 ### What do AI and programming classes in Penrith cost?
 
-The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
+The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.
 
 ### How large are the groups?
 

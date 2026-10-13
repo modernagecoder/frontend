@@ -4,7 +4,7 @@ description: "Online coding, AI and Python classes for Loughborough, Shepshed, S
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-loughborough
 source: src/pages/best-coding-and-ai-classes-in-loughborough.html
 ---
-> Charnwood borough, home to Loughborough, had 183,968 residents in the 2021 census, and the Loughborough built-up area 64,860. Students shape it: 20 to 24 year olds are 8.7 per cent of the borough against 6.0 per cent in England, and 15 to 19 year olds 7.5 against 5.7. For every age from 6 to 67 we teach coding, AI, Python and maths in live lessons over video, with our teachers in India working one-to-one or with five to ten learners at a common level. Your first lesson costs nothing and decides the course. The Loughborough project asks a question about the River Soar that has several honest answers. After the trial, group places cost USD 100 a month and private lessons USD 150 a month.
+> Charnwood borough, home to Loughborough, had 183,968 residents in the 2021 census, and the Loughborough built-up area 64,860. Students shape it: 20 to 24 year olds are 8.7 per cent of the borough against 6.0 per cent in England, and 15 to 19 year olds 7.5 against 5.7. For every age from 6 to 67 we teach coding, AI, Python and maths in live lessons over video, with our teachers in India working one-to-one or with fifteen to twenty learners at a common level. Your first lesson costs nothing and decides the course. The Loughborough project asks a question about the River Soar that has several honest answers. After the trial, group places cost USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East Midlands](/coding-and-ai-classes-in-east-midlands) / Loughborough
 
@@ -12,11 +12,11 @@ Loughborough, Leicestershire, England / Live online
 
 # Coding and AI classes in Loughborough
 
-**Where should Loughborough learners look for the best coding and AI classes?** Charnwood borough, home to Loughborough, had 183,968 residents in the 2021 census, and the Loughborough built-up area 64,860. Students shape it: 20 to 24 year olds are 8.7 per cent of the borough against 6.0 per cent in England, and 15 to 19 year olds 7.5 against 5.7. For every age from 6 to 67 we teach coding, AI, Python and maths in live lessons over video, with our teachers in India working one-to-one or with five to ten learners at a common level. Your first lesson costs nothing and decides the course. The Loughborough project asks a question about the River Soar that has several honest answers. After the trial, group places cost USD 100 a month and private lessons USD 150 a month.
+**Where should Loughborough learners look for the best coding and AI classes?** Charnwood borough, home to Loughborough, had 183,968 residents in the 2021 census, and the Loughborough built-up area 64,860. Students shape it: 20 to 24 year olds are 8.7 per cent of the borough against 6.0 per cent in England, and 15 to 19 year olds 7.5 against 5.7. For every age from 6 to 67 we teach coding, AI, Python and maths in live lessons over video, with our teachers in India working one-to-one or with fifteen to twenty learners at a common level. Your first lesson costs nothing and decides the course. The Loughborough project asks a question about the River Soar that has several honest answers. After the trial, group places cost USD 100 a month and private lessons USD 150 a month.
 
 The Environment Agency has measured the River Soar at Pillings Lock, in Charnwood, every day since 1986, using an ultrasonic gauge set in the Soar Navigation. The National River Flow Archive says the river runs above 21.8 cubic metres per second on only one day in ten. So how many high-flow episodes did the Soar have between 1991 and 2025? It sounds like a question with one answer. It is not. Count every crossing of the line and you get 334; merge crossings that are less than a month apart and you get 88. Both are honest. A Loughborough learner can write the Python that shows why, and meet an idea programmers call debouncing on the way.
 
-Facts last verified 27 September 2026. Teaching is online; no Loughborough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Loughborough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Loughborough's popular first courses
 
@@ -138,7 +138,7 @@ Any home in Charnwood joins by video.
 - **Code by the learner** Learners write every line; the tutor watches the screen share and guides with questions.
 - **Matched to school year** From Year 2 to Year 13, each learner starts at the point their year and trial suggest, using their exam board.
 - **Trial lesson free** A full first lesson without charge, and a frank recommendation.
-- **Classes at one level** Groups of five to ten learners at the same stage, from across the UK.
+- **Classes at one level** Groups of fifteen to twenty learners at the same stage, from across the UK.
 - **Two a week** Two lessons weekly in term, and none in the holidays.
 - **Unmoved by clock changes** Our teachers shift when UK clocks go forward or back, so your slot does not.
 

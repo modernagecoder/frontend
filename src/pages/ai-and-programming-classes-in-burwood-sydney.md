@@ -16,7 +16,7 @@ Burwood Council area, Sydney, New South Wales / Live online
 
 An autoencoder is a neural network asked to copy its input through a narrow middle layer. If it can rebuild the input from only a few numbers, those numbers have captured what matters. We gave one the monthly entry pattern of every NSW train station with a full record, 270 of them over 23 months, and a middle layer of just two numbers. Trained by gradient descent from random weights, its error fell from 0.011495 to 0.006155, exactly the figure principal component analysis gives directly. Burwood's pattern came back with an error of 0.0300, closer than most, because its year looks a lot like the network's average year.
 
-Facts last verified 10 October 2026. Teaching is online; no Burwood branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Burwood branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses where models are built, not just called
 
@@ -185,7 +185,7 @@ Schools in the council area have addresses in Burwood, Croydon, Croydon Park and
 - **Code together** Learner and teacher work in the same notebook, so every line of a model is written and explained live.
 - **Fits the NSW year** Topics match the NSW stages, and lessons break when the state school holidays begin.
 - **A free lesson first** The trial is a full lesson, finishing with a recommended course, level and time and no charge.
-- **Small groups** Five to ten learners at one level per group, or one to one if preferred.
+- **Small groups** Fifteen to twenty learners at one level per group, or one to one if preferred.
 - **Steady schedule** Two set lessons each week, around eight per month.
 - **Teachers in India** A 7pm Burwood lesson in daylight saving time begins at 1:30pm India time; in winter, at 2:30pm there.
 
@@ -196,7 +196,7 @@ Schools in the council area have addresses in Burwood, Croydon, Croydon Park and
 A free start and two monthly options.
 
 - First class: USD 0. The opening lesson is free and ends with a plan.
-- Group tuition: USD 100 a month. Group format: around eight lessons a month among five to ten learners.
+- Group tuition: USD 100 a month. Group format: around eight lessons a month among fifteen to twenty learners.
 - Private tuition: USD 150 a month. One-to-one format: around eight lessons a month with your own teacher.
 
 Learners outside India pay in US dollars, so Burwood fees match everywhere else and there is no area-specific list. You pay only after the trial, once the course and time are decided; holidays, missed lessons and changes of format are set out on the pricing page.
@@ -237,11 +237,11 @@ No. All lessons happen live online, and we run no premises in Australia. A compu
 
 ### What do AI classes cost for Burwood learners?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, roughly eight lessons, with five to ten learners, or USD 150 a month one to one on the same timetable. Course, format and time are fixed before any payment.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, roughly eight lessons, with fifteen to twenty learners, or USD 150 a month one to one on the same timetable. Course, format and time are fixed before any payment.
 
 ### How are learners grouped?
 
-By level, pace and goals, in groups of five to ten, regardless of age or location. One-to-one lessons are available when no group time works.
+By level, pace and goals, in groups of fifteen to twenty, regardless of age or location. One-to-one lessons are available when no group time works.
 
 ## More for Burwood learners
 

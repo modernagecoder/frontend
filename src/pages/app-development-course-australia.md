@@ -218,7 +218,7 @@ The team teaches from India during hours that line up with Australian after-scho
 - **Weekend** Longer build and testing sessions.
 
 - **Free first class** One screen designed and built together, then advice on the right route.
-- **Small groups** Five to ten learners testing each other's apps.
+- **Small groups** Fifteen to twenty learners testing each other's apps.
 - **One to one** For a specific app idea, a unit or a deadline.
 - **Phones in the loop** Students test on real devices whenever they can.
 - **Accessibility checked** Every app gets a target and label audit.
@@ -229,7 +229,7 @@ The team teaches from India during hours that line up with Australian after-scho
 Learners in Australia are charged a flat monthly amount in US dollars. Nothing is due when enrolling, and lessons can stop at any month's end.
 
 - Free first class: USD 0. One screen designed and built together. A route recommendation for this learner. No payment details needed.
-- Group batch: USD 100 a month. Five to ten learners per group. Peer testing on real phones. The same teacher each week. Cancel at any month's end.
+- Group batch: USD 100 a month. Fifteen to twenty learners per group. Peer testing on real phones. The same teacher each week. Cancel at any month's end.
 - One to one: USD 150 a month. Built around one learner's app idea. Pace set by the learner. Lesson times that suit the household.
 
 ## Questions about app development courses in Australia

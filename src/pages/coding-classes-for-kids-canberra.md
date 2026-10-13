@@ -16,7 +16,7 @@ Canberra, Australian Capital Territory, Australia / Live online
 
 Canberra is a city of town centres, and a child can see that in one picture. Count the playgrounds OpenStreetMap shows within two kilometres of each centre, then draw them as a pictogram, one icon for every ten playgrounds. Belconnen gets four and a bit icons, the city centre barely half of one. The drawing looks simple until a child has to decide what to do with that half icon, or what happens if one icon means five instead of ten. Choosing the key is the real lesson, and our young Canberra coders make the computer draw both versions.
 
-Facts last verified 7 October 2026. Teaching is online; no Canberra branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Canberra branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses that suit a Canberra child
 
@@ -187,7 +187,7 @@ Canberra spreads across its town centres, and an online lesson saves the drive b
 Three prices, nothing more.
 
 - First class: USD 0. A first lesson without charge that ends with a level, a course and a time.
-- Group tuition: USD 100 a month. About eight lessons a month alongside five to ten children at the same level.
+- Group tuition: USD 100 a month. About eight lessons a month alongside fifteen to twenty children at the same level.
 - Private tuition: USD 150 a month. About eight lessons a month with one teacher and your child.
 
 Every family beyond India is billed in US dollars at one flat rate, whichever town centre is closest to home. You are only billed after the trial, once the course and slot feel right, and the pricing page sets out holidays, missed lessons and format changes.
@@ -228,11 +228,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do coding classes for Canberra kids cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Canberra families
 

@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Coding classes in Lincolnshire',
   capsuleQ: 'What are the best coding classes in Lincolnshire?',
-  capsule: 'Lincolnshire, as a county, is nine councils: the seven districts run with Lincolnshire County Council plus North Lincolnshire and North East Lincolnshire. Their 2021 Census counts add up, by our own sum, to 1,095,014 people. The largest towns are Lincoln, Grimsby and Scunthorpe, then Boston and Grantham. We teach every lesson live over video from India and group learners by what they can do, so a quick eleven-year-old and a careful adult beginner each land in the right class. Ages run from 6 to 67, in groups of five to ten or one-to-one, across coding, Python, computer science and maths. The Lincolnshire project begins with George Boole, born in Lincoln. A first lesson is free of charge; staying on costs USD 100 a month for a group or USD 150 a month for private lessons.',
+  capsule: 'Lincolnshire, as a county, is nine councils: the seven districts run with Lincolnshire County Council plus North Lincolnshire and North East Lincolnshire. Their 2021 Census counts add up, by our own sum, to 1,095,014 people. The largest towns are Lincoln, Grimsby and Scunthorpe, then Boston and Grantham. We teach every lesson live over video from India and group learners by what they can do, so a quick eleven-year-old and a careful adult beginner each land in the right class. Ages run from 6 to 67, in groups of fifteen to twenty or one-to-one, across coding, Python, computer science and maths. The Lincolnshire project begins with George Boole, born in Lincoln. A first lesson is free of charge; staying on costs USD 100 a month for a group or USD 150 a month for private lessons.',
   lead: 'Every "if" in every program runs on an idea written down by a man from Lincoln. George Boole, born in the city in 1815, where his father kept a cobbler\'s shop on Silver Street, showed in his 1854 book that "and", "or" and "not" obey the rules of an algebra whose only numbers are 0 and 1. This page\'s project uses his algebra for a very practical job: taking two wordings of the same rule, turning each into arithmetic, and letting Python check every possible case to find out whether they really mean the same thing. They do not, and the program finds exactly where.',
   wa: 'Hello Modern Age Coders, we live in Lincolnshire and would like to try a free lesson, please.',
 
@@ -164,7 +164,7 @@ module.exports = {
       { h3: 'Wherever you live', p: 'A farmhouse near Holbeach, a terrace in Scunthorpe, a flat in Skegness. The teacher shares a screen; the learner types and runs the code.' },
       { h3: 'School terms in English', p: 'Year groups, key stages, GCSEs and A levels are named the way Lincolnshire schools name them, and we teach in English.' },
       { h3: 'Start with a free lesson', p: 'A proper lesson, then a clear suggestion of level and course. Card details are not requested.' },
-      { h3: 'Classes by stage', p: 'Five to ten learners at the same point, gathered from Lincolnshire, the rest of the UK and elsewhere.' },
+      { h3: 'Classes by stage', p: 'Fifteen to twenty learners at the same point, gathered from Lincolnshire, the rest of the UK and elsewhere.' },
       { h3: 'Breaks you choose', p: 'Two lessons a week suits most learners, and we stop for the holidays your school sets.' },
       { h3: 'Always UK time for you', p: 'You get a slot in UK time that does not move when the clocks change; our teachers keep India time, several hours ahead, and handle the shift.' }
     ],
@@ -175,7 +175,7 @@ module.exports = {
     h2: 'Fees in Lincolnshire',
     intro: 'Gainsborough or Deeping St James, the price is the same, and it matches every country we teach except India.',
     first: 'A complete lesson with genuine work, then our advice on level and course.',
-    group: 'About eight lessons a month with five to ten learners at one level.',
+    group: 'About eight lessons a month with fifteen to twenty learners at one level.',
     private: 'About eight lessons a month, taught one-to-one.',
     closer: 'Fees are set in US dollars only, not pounds. We bill nothing until the free lesson has fixed a course and a weekly time, and the pricing page sets out how pauses, missed lessons and switching between group and private work.'
   },

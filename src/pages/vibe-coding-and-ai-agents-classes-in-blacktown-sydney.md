@@ -16,7 +16,7 @@ Blacktown, Sydney, New South Wales / Live online
 
 Ask an AI agent how many Blacktown public schools either opened before 1950, or run a preschool, or sit within five kilometres of Blacktown South Public School. A careless agent calls its counting tool three times, gets 12, 13 and 29, adds them, and announces 54. The real figure is 45. Nine schools were counted twice or three times because they meet more than one condition. A slightly cleverer agent subtracts the overlaps and lands on 43, which is still wrong, because two schools meet all three conditions and were removed once too often. Our Blacktown project uses the state's own schools file to make that mistake visible, then fixes it with a rule called inclusion-exclusion.
 
-Facts last verified 10 October 2026. Teaching is online; no Blacktown branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Blacktown branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for building agents that count correctly
 
@@ -188,7 +188,7 @@ The 87 schools in our project cover a council area home to almost four hundred t
 - **Home, not a car park** Lessons happen at a desk at home, so evenings are not spent driving to a centre and waiting outside.
 - **Matched to NSW stages** Plans line up with the NSW stages and pause for state school holidays, and senior students can link projects to their computing subjects.
 - **An honest trial** The free first lesson teaches something real. Afterwards the teacher recommends a course, a level and a time; nothing is charged at that point.
-- **Classes of five to ten** Learners are grouped by skill, not by age or suburb, with classmates from Blacktown and from other places.
+- **Classes of fifteen to twenty** Learners are grouped by skill, not by age or suburb, with classmates from Blacktown and from other places.
 - **A steady rhythm** Two lessons a week at the same hour make roughly eight a month, with breaks for holidays and exam weeks agreed ahead.
 - **Teachers in India** A 7pm Blacktown lesson during daylight saving begins at 1:30pm India time; in the Sydney winter it begins at 2:30pm there.
 
@@ -199,7 +199,7 @@ The 87 schools in our project cover a council area home to almost four hundred t
 The whole price list fits in three lines.
 
 - First class: USD 0. A complete first lesson at no cost, with a suggested course and time at the end.
-- Group tuition: USD 100 a month. A month of group lessons, typically eight, with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group lessons, typically eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. The same eight-or-so lessons a month, taught one to one.
 
 All invoices outside India are in US dollars, so every Blacktown family pays the same and there is no separate local tariff. Billing begins once the trial has settled a course and slot, and the pricing page explains holidays, missed lessons and switching formats.
@@ -240,7 +240,7 @@ No. All lessons are live online, and we have no premises in Australia. You need 
 
 ### How much do Blacktown AI agents classes cost?
 
-The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, shared with five to ten learners, or USD 150 a month one to one on the same schedule. Course, format and time are agreed before payment.
+The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, shared with fifteen to twenty learners, or USD 150 a month one to one on the same schedule. Course, format and time are agreed before payment.
 
 ### How many learners are in a group?
 

@@ -197,7 +197,7 @@ We teach live from India, and for primary children we keep to early evenings and
 
 - **One teacher throughout** The same person weekly, who learns how your child thinks.
 - **Candid notes home** Brief reports that include what is not working yet.
-- **Groups of five to ten** Matched by level for the right pace.
+- **Groups of fifteen to twenty** Matched by level for the right pace.
 - **Our own questions** Nothing from GL or FSCE is reproduced.
 - **One to one if helpful** For a child racing a July deadline.
 - **Maths only** No English, reasoning or creativity coaching; no admissions advice.
@@ -207,7 +207,7 @@ We teach live from India, and for primary children we keep to early evenings and
 Families outside India all pay the same US dollar rate, month by month. There is nothing to join and nothing to sign.
 
 - Free first class: USD 0. A proper lesson with a teacher. An honest view afterwards. No card required.
-- Group batch: USD 100 a month. Five to ten children at one level. A regular teacher. Marked work, explained. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. A regular teacher. Marked work, explained. A certificate at the end.
 - One to one: USD 150 a month. One child, one teacher. Paced to a July or September test. Focused on weaker topics.
 
 ## What Reading families ask us

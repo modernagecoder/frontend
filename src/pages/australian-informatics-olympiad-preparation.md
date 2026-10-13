@@ -189,7 +189,7 @@ Our teachers are in India, behind every Australian time zone. A 5 pm lesson in H
 
 - **Brute force first** Every problem starts with a slow, correct solution.
 - **Stress tests always** Fast solutions are compared on random inputs before submission.
-- **Groups of five to ten** Placed by programming level.
+- **Groups of fifteen to twenty** Placed by programming level.
 - **One-to-one coaching** For students aiming at the invitational stages.
 - **Progress notes** What was learned and the next technique to practise.
 - **No medal promises** We teach the skills; the contest result is the student's.
@@ -199,7 +199,7 @@ Our teachers are in India, behind every Australian time zone. A 5 pm lesson in H
 Families in Australia pay monthly in US dollars, our standard rate outside India, with no deposit and no lock-in. AIO entry itself is arranged and paid through schools.
 
 - Free first class: USD 0. A real lesson with a teacher. An honest read of programming level. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher every week. Solutions reviewed line by line. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher every week. Solutions reviewed line by line. A certificate at the end.
 - One to one: USD 150 a month. A coach for one student. Built around a target contest. A weekly time that suits you.
 
 ## What Australian students and parents ask

@@ -16,7 +16,7 @@ Maroondah City Council, Melbourne, Victoria / Live online
 
 The metropolitan train timetable that Victoria publishes contains a stop_times file of 688,380 rows, 56.6 MB on disk. We wanted only the rows for stations whose timetable points fall inside the ABS outline of Maroondah City Council: Ringwood, Ringwood East, Croydon, Heathmont and Heatherdale. A learner's first instinct is to read everything into a list. Python offers a lazier way, and measuring the difference is the lesson.
 
-Facts last verified 10 October 2026. Teaching is online; no Maroondah branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Maroondah branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python courses for every stage
 
@@ -186,7 +186,7 @@ Lessons run on a video call for learners in Ringwood, Croydon or anywhere in Mar
 - **Working together** The learner shares their screen and the teacher guides changes in their own code.
 - **Victorian terms** The class calendar follows state school terms, with holiday breaks.
 - **Free first session** One whole lesson with no charge, ending with our course advice.
-- **Small groups** Five to ten learners per group, matched on level rather than location.
+- **Small groups** Fifteen to twenty learners per group, matched on level rather than location.
 - **Twice weekly** Two regular lessons each week, near eight per month.
 - **Across time zones** A 3:30pm Maroondah lesson is 10am India time while Melbourne is on daylight saving, and 11am after it ends.
 
@@ -197,7 +197,7 @@ Lessons run on a video call for learners in Ringwood, Croydon or anywhere in Mar
 Straightforward fees, the same for everyone.
 
 - First class: USD 0. Your first lesson is free and comes with honest advice.
-- Group tuition: USD 100 a month. In a group: a month of lessons, normally eight, with five to ten learners.
+- Group tuition: USD 100 a month. In a group: a month of lessons, normally eight, with fifteen to twenty learners.
 - Private tuition: USD 150 a month. On their own: a month of lessons, normally eight, with a dedicated teacher.
 
 Maroondah families pay in US dollars. Nothing is charged until the trial confirms a course and weekly time; the pricing page explains holidays and missed lessons.
@@ -234,11 +234,11 @@ No. Teaching is live online only; we have no office in Australia, and our listed
 
 ### What are the fees for Maroondah classes?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How do you choose a group?
 
-We match five to ten learners on level and pace, not age or suburb, and offer one-to-one lessons if no group time suits.
+We match fifteen to twenty learners on level and pace, not age or suburb, and offer one-to-one lessons if no group time suits.
 
 ### Which council is Heatherdale station in?
 

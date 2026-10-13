@@ -53,7 +53,7 @@ module.exports = {
 
   h1: 'Coding classes in Letterkenny',
   capsuleQ: 'What is the best coding class in Letterkenny?',
-  capsule: 'Letterkenny has 22,252 usual residents in the census town tables, the 21st largest of 867 towns, and 8,431 households, 6,875 of them on broadband. Every lesson with us is live on video, twice in most weeks, with a teacher who works through the course with a group of five to ten at the same level or with one learner alone. Anyone from six to sixty-seven can join. The opening lesson is free, and after it a place costs USD 100 a month in a group or USD 150 one to one.',
+  capsule: 'Letterkenny has 22,252 usual residents in the census town tables, the 21st largest of 867 towns, and 8,431 households, 6,875 of them on broadband. Every lesson with us is live on video, twice in most weeks, with a teacher who works through the course with a group of fifteen to twenty at the same level or with one learner alone. Anyone from six to sixty-seven can join. The opening lesson is free, and after it a place costs USD 100 a month in a group or USD 150 one to one.',
   lead: 'A census table looks like a grid, and it does not arrive as one. The CSO sends the internet access table as a single line of 4,340 numbers: five answer categories multiplied by 868 area labels, one after another, with a short description of which dimension varies fastest. Letterkenny\'s broadband count, 6,875, is number 688 in that line. A program that reads the description correctly finds it. A program that assumes the dimensions run the other way round reads number 3,440 instead and gets 2, which is the Other row for Ballybrittas in County Laois. A program that is off by one gets 99, the broadband count for Drumkeen down the road. None of those mistakes raises an error. Every one of them was run against the real file while writing this page.',
   wa: 'Hello Modern Age Coders, I would like to arrange a free coding lesson for a learner in Letterkenny.',
 
@@ -176,7 +176,7 @@ module.exports = {
     intro: 'What a Letterkenny household needs to know.',
     cells: [
       { h3: 'Live every time', p: 'A teacher on the call for the whole lesson, working from what is on the learner\'s screen.' },
-      { h3: 'Groups at one level', p: 'Five to ten learners at the same stage, joining from Letterkenny, the rest of Ireland and abroad.' },
+      { h3: 'Groups at one level', p: 'Fifteen to twenty learners at the same stage, joining from Letterkenny, the rest of Ireland and abroad.' },
       { h3: 'Most weeks, twice', p: 'Roughly eight lessons a month at the hour chosen when the course begins.' },
       { h3: 'The school calendar', p: 'Holidays, mid-terms and exam weeks are allowed for when the timetable is set.' },
       { h3: 'Equipment', p: 'A desktop or laptop, a microphone with speakers or a headset, and broadband able to carry an hour of video.' },
@@ -189,7 +189,7 @@ module.exports = {
     h2: 'Letterkenny class fees',
     intro: 'The whole price list.',
     first: 'An opening lesson, taught in full and assessed, at no charge.',
-    group: 'A month in a group of five to ten at one level, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, about eight live lessons.',
     private: 'A month of private lessons at the same weekly frequency.',
     closer: 'The monthly price is set in US dollars and is the same for every household outside India, so there is no euro figure to compare it with. Payment follows the decision, never the other way round: course and hour first, invoice second, and the pricing page explains the awkward weeks, from school holidays to a missed lesson or a change of format.'
   },
@@ -214,7 +214,7 @@ module.exports = {
       { q: 'Can adults in Letterkenny sign up?', a: 'Yes, up to sixty-seven. Plenty of adults begin with no coding at all, and the opening lesson settles whether they learn in a matched group or with a teacher alone.' },
       { q: 'What does counting from zero mean?', a: 'Most programming languages number the first item in a list as zero, so the 689th town in the file sits at position 688. It is the most common source of off-by-one mistakes, and the project makes a learner meet it deliberately.' },
       { q: 'Is there a Modern Age Coders classroom in Letterkenny?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Letterkenny cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Letterkenny cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

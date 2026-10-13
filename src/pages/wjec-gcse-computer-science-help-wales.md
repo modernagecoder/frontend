@@ -217,14 +217,14 @@ Teachers work from India, where the clock never changes, so Wales is four and a 
 - **Pseudo-code as design** Designs written in pseudo-code first, checked for any slip into Python, then implemented.
 - **Test data explained** Typical, extreme and erroneous data chosen for a routine, with the outcome explained in full sentences.
 - **IDLE and no internet** Timed practice in plain IDLE with nothing else open, because that is the room.
-- **Groups of five to ten** Students at the same rung, reading and commenting each other's programs.
+- **Groups of fifteen to twenty** Students at the same rung, reading and commenting each other's programs.
 
 ## Fees for WJEC lessons
 
 One monthly fee in US dollars, the rate for every family outside India. The first lesson costs nothing, and we bill only once a course and a regular time are fixed.
 
 - Free first class: USD 0. A proper lesson on WJEC material. A straight answer on which rung fits. Only a phone number needed.
-- Group batch: USD 100 a month. Five to ten students on one rung. The same teacher across Years 10 and 11. A fresh unfamiliar program most weeks. Lighter lessons near each exam.
+- Group batch: USD 100 a month. Fifteen to twenty students on one rung. The same teacher across Years 10 and 11. A fresh unfamiliar program most weeks. Lighter lessons near each exam.
 - One to one: USD 150 a month. A teacher for one student. A plan built back from the exam dates. Suits a January resitter or a late starter.
 
 ## What families in Wales ask

@@ -215,7 +215,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, same teacher every week
+- Fifteen to twenty students, same teacher every week
 - Live video, never a recording
 - Build work between sessions, reviewed by the teacher
 - Certificate on completion
@@ -334,7 +334,7 @@ You can learn the happy path from videos, because the happy path is what videos 
 
 ### What does it cost once the free class is done?
 
-USD 100 a month for a live group batch of five to eight learners, or USD 150 a month for one to one, the same in every country we serve outside India, with no signup fee and the freedom to stop at any month end. Most beginners start in a group and some move to one to one when a specific goal appears.
+USD 100 a month for a live group batch of fifteen to twenty learners, or USD 150 a month for one to one, the same in every country we serve outside India, with no signup fee and the freedom to stop at any month end. Most beginners start in a group and some move to one to one when a specific goal appears.
 
 ### What is the first step from this page?
 

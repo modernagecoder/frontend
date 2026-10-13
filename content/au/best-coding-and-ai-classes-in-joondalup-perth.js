@@ -310,7 +310,7 @@ module.exports = {
       { h3: 'A real teacher', p: 'Each session is taught in real time, with questions answered and code reviewed as it is written.' },
       { h3: 'WA school year', p: 'Classes follow the Western Australian terms and pause for school holidays.' },
       { h3: 'Placement first', p: 'The first lesson is free and ends with a written course suggestion.' },
-      { h3: 'Small groups', p: 'Five to ten learners at a similar level, or one-to-one lessons.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners at a similar level, or one-to-one lessons.' },
       { h3: 'Steady pace', p: 'Two lessons a week, roughly eight in a month.' },
       { h3: 'Time in India', p: 'A 5pm Joondalup lesson is 2:30pm in India on every day of the year.' }
     ],
@@ -323,7 +323,7 @@ module.exports = {
     h2: 'Fees for Joondalup learners',
     intro: 'The same fees apply to every learner in every suburb.',
     first: 'The first lesson costs nothing and comes with a course plan.',
-    group: 'Group classes: about eight lessons a month with five to ten learners.',
+    group: 'Group classes: about eight lessons a month with fifteen to twenty learners.',
     private: 'Private classes: about eight lessons a month with one teacher.',
     closer: 'Fees are charged in US dollars and begin only after the free lesson has settled the course and a weekly time. The pricing page explains holidays and missed lessons.'
   },
@@ -365,12 +365,12 @@ module.exports = {
       },
       {
         q: 'What do Joondalup classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How are groups formed?',
-        a: 'By level and pace, with five to ten learners, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'By level and pace, with fifteen to twenty learners, not by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Can adults join?', a: 'Yes. Adults learn in adult groups or one to one, often with data or databases from their own work.' }

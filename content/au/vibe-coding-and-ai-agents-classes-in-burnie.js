@@ -197,7 +197,7 @@ module.exports = {
       { h3: 'Burnie and Somerset', p: 'A student in Shorewell Park and an adult in Somerset can work on the same agent at the same time, with no travel at all.' },
       { h3: 'Tasmanian school years', p: 'Lessons follow Tasmanian year levels and the four-term calendar, and older students can connect agent projects to the subjects they study.' },
       { h3: 'A trial with real code', p: 'The first lesson is a genuine class. Afterwards you get a recommended level, course and lesson time, and no card details are taken.' },
-      { h3: 'Same-level groups', p: 'Five to ten learners at one stage, from Burnie, Somerset and elsewhere, so every group runs at full strength.' },
+      { h3: 'Same-level groups', p: 'Fifteen to twenty learners at one stage, from Burnie, Somerset and elsewhere, so every group runs at full strength.' },
       { h3: 'Two lessons a week', p: 'Two fixed slots each week, about eight lessons a month, with breaks arranged around holidays and exams.' },
       { h3: 'Teachers in India', p: 'A 5pm Burnie lesson in winter starts at 12:30pm in India; once Tasmania moves to daylight saving, it starts at 11:30am there.' }
     ],
@@ -208,7 +208,7 @@ module.exports = {
     h2: 'Burnie class fees',
     intro: 'Everything you pay, in three parts.',
     first: 'A free, complete first lesson, ending with a recommended level, course and time.',
-    group: 'Roughly eight lessons a month in a group of five to ten at one level.',
+    group: 'Roughly eight lessons a month in a group of fifteen to twenty at one level.',
     private: 'Roughly eight lessons a month with a teacher, one to one.',
     closer: 'Everyone outside India pays in US dollars, so a household in Cooee and one in Romaine see the same invoice and there is no Burnie price. Charging begins only after the trial has agreed a course and time, and the pricing page covers holidays, missed lessons and switching between group and one to one.'
   },
@@ -233,8 +233,8 @@ module.exports = {
       { q: 'What time are lessons?', a: 'Slots are chosen at the trial and written in Burnie time, often after school or on a weekend. India is four and a half hours behind Burnie in winter and five and a half hours behind during Tasmanian daylight saving.' },
       { q: 'Can younger children join?', a: 'Yes, from age six. Younger children learn with Scratch and visual programs first; the agent project on this page is meant for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Burnie?', a: 'No, and none is claimed. All lessons are live and online and we have no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection; the contact number shown is Indian.', boiler: true },
-      { q: 'What do Burnie vibe coding and AI agents classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Burnie vibe coding and AI agents classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are settled before any payment.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

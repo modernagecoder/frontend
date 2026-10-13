@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Wiltshire, fro
 canonical: https://learn.modernagecoders.com/coding-classes-in-wiltshire
 source: src/pages/coding-classes-in-wiltshire.html
 ---
-> Wiltshire as a county is two unitary councils, Wiltshire and Swindon, with 743,740 residents at the 2021 Census by our addition of the two totals. Swindon is by far the largest town, followed by Salisbury, Trowbridge and Chippenham, then a ring of market towns. Our lessons are live over video, taught from India, and each learner is placed by ability, whatever their age. Coding, Python and maths are taught to learners aged 6 to 67, either on their own with a teacher or in groups of five to ten. The Wiltshire project starts at Box Tunnel, near Corsham. Try a lesson at no cost; staying on is USD 100 each month in a group or USD 150 each month privately.
+> Wiltshire as a county is two unitary councils, Wiltshire and Swindon, with 743,740 residents at the 2021 Census by our addition of the two totals. Swindon is by far the largest town, followed by Salisbury, Trowbridge and Chippenham, then a ring of market towns. Our lessons are live over video, taught from India, and each learner is placed by ability, whatever their age. Coding, Python and maths are taught to learners aged 6 to 67, either on their own with a teacher or in groups of fifteen to twenty. The Wiltshire project starts at Box Tunnel, near Corsham. Try a lesson at no cost; staying on is USD 100 each month in a group or USD 150 each month privately.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Wiltshire
 
@@ -12,11 +12,11 @@ Wiltshire / Live online
 
 # Coding classes in Wiltshire
 
-**What are the best coding classes in Wiltshire?** Wiltshire as a county is two unitary councils, Wiltshire and Swindon, with 743,740 residents at the 2021 Census by our addition of the two totals. Swindon is by far the largest town, followed by Salisbury, Trowbridge and Chippenham, then a ring of market towns. Our lessons are live over video, taught from India, and each learner is placed by ability, whatever their age. Coding, Python and maths are taught to learners aged 6 to 67, either on their own with a teacher or in groups of five to ten. The Wiltshire project starts at Box Tunnel, near Corsham. Try a lesson at no cost; staying on is USD 100 each month in a group or USD 150 each month privately.
+**What are the best coding classes in Wiltshire?** Wiltshire as a county is two unitary councils, Wiltshire and Swindon, with 743,740 residents at the 2021 Census by our addition of the two totals. Swindon is by far the largest town, followed by Salisbury, Trowbridge and Chippenham, then a ring of market towns. Our lessons are live over video, taught from India, and each learner is placed by ability, whatever their age. Coding, Python and maths are taught to learners aged 6 to 67, either on their own with a teacher or in groups of fifteen to twenty. The Wiltshire project starts at Box Tunnel, near Corsham. Try a lesson at no cost; staying on is USD 100 each month in a group or USD 150 each month privately.
 
 Historic England describes Box Tunnel, built between 1836 and 1841 to a design by Isambard Kingdom Brunel, as 1.8 miles long, arrow-straight, and on an incline of 1 in 100 down towards Bath, so it climbs as you head east. Its list entries also give map coordinates for both portals. Those few numbers are enough to ask a lovely question: is there any morning when the rising sun lines up with the tunnel and shines straight down it? This page's project works it out in Python. It checks the tunnel's length with Pythagoras, turns the coordinates into a compass bearing, corrects for the difference between map north and true north, and then searches a year of sunrises for the moment the angles agree.
 
-Facts last verified 26 September 2026. Teaching is online; no Wiltshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Wiltshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Wiltshire learners begin
 
@@ -141,7 +141,7 @@ Wiltshire is broad and rural, and many families are a long drive from the neares
 - **Learning at home** A cottage near Marlborough, a house in Trowbridge, a flat in Swindon. The teacher watches the shared screen while the learner writes the code.
 - **School words, unchanged** Year groups, key stages, GCSEs and A levels are named the way Wiltshire schools name them, and teaching is in English.
 - **Free to start** A real first lesson, then honest advice on level and course. No card details are needed.
-- **Classmates at your stage** Groups of five to ten learners at one level, from Wiltshire and well beyond.
+- **Classmates at your stage** Groups of fifteen to twenty learners at one level, from Wiltshire and well beyond.
 - **Holidays kept** Two lessons a week suits most learners, with pauses for your school's own holidays.
 - **Fixed in UK time** Your slot stays at the same UK time all year; the teacher, keeping India time several hours ahead, adjusts when the clocks change.
 
@@ -152,7 +152,7 @@ Wiltshire is broad and rural, and many families are a long drive from the neares
 Calne or Corsham, the fee is the same, as it is in every country we teach apart from India.
 
 - First class: USD 0. A full lesson of real work, then advice on level and course.
-- Group tuition: USD 100 a month. About eight lessons a month with five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight lessons a month, one-to-one.
 
 Fees are in US dollars, not pounds. Billing begins after the free lesson, once a course and a regular slot are fixed. Pausing, a missed lesson, or moving from group to private are all explained on the pricing page.

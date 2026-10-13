@@ -44,7 +44,7 @@ module.exports = {
 
   h1: 'Coding classes in Amsterdam-Oost, where two neighbourhoods with the same number of homes hold 4,160 more people in one than the other',
   capsuleQ: 'What are the best coding classes in Amsterdam-Oost?',
-  capsule: 'Coding classes in Amsterdam-Oost reach a district assembled in 2010 out of two older ones, holding a quarter built after 1900, a dock converted from the 1990s and an island under construction since 2002. IJburg-West has 6,830 homes and 16,099 residents. Indische Buurt-West has 6,712 homes and 11,939 residents. The housing stock differs by 118 units and the population by 4,160 people, and every explanation for that lives in who chose to move where. Modern Age Coders teaches live online in English from the Ambonpleinbuurt to the Rieteilanden, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.',
+  capsule: 'Coding classes in Amsterdam-Oost reach a district assembled in 2010 out of two older ones, holding a quarter built after 1900, a dock converted from the 1990s and an island under construction since 2002. IJburg-West has 6,830 homes and 16,099 residents. Indische Buurt-West has 6,712 homes and 11,939 residents. The housing stock differs by 118 units and the population by 4,160 people, and every explanation for that lives in who chose to move where. Modern Age Coders teaches live online in English from the Ambonpleinbuurt to the Rieteilanden, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.',
   lead: 'Two neighbourhoods in the same district. One has 6,830 homes, the other 6,712, a difference of under two percent. One holds 16,099 people and the other 11,939, a difference of thirty-five percent. Nothing about the ground explains that. What differs is the size of the homes and, far more importantly, who wanted them: families took the new island and single people took the older quarter. Any comparison between these two places is, before it is anything else, a comparison between two sets of people who selected themselves.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Amsterdam-Oost.',
 
@@ -189,7 +189,7 @@ module.exports = {
     h2: 'The fee, in dollars, the same on old ground and new',
     intro: 'Written down here instead of held back for a call.',
     first: 'A full lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'There is one international rate, quoted in dollars, and no euro edition, so an address on the Rieteilanden sees exactly what an address in the Ambonpleinbuurt sees. Nothing is charged until the free lesson has settled a course and an hour, and payment is arranged over WhatsApp afterwards. Pausing, changing plan and missing a week are described on the pricing page.'
   },
@@ -214,7 +214,7 @@ module.exports = {
       { q: 'Is the class taught in Dutch?', a: 'No. Every lesson is in English from beginning to end. Dutch school vocabulary is deliberately kept as a Dutch school writes it, so groep, havo, vwo and profielkeuze are used rather than translated. No Dutch-language version of any course exists.' },
       { q: 'What hours work for a family in Oost?', a: 'The teacher is three and a half hours ahead during Dutch summer time and four and a half in winter, because only the Dutch clock moves. The practical window runs from the end of the school day to mid-evening, with Saturday and Sunday fully open, and one repeating weekly slot is agreed at the free lesson.' },
       { q: 'Is there a Modern Age Coders classroom in Amsterdam-Oost?', a: 'No, and none is claimed on IJburg, elsewhere in Amsterdam or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Amsterdam-Oost coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight in a month, in a group of five to ten. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Amsterdam-Oost coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight in a month, in a group of fifteen to twenty. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or neighbourhood. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

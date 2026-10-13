@@ -246,7 +246,7 @@ module.exports = {
       { h3: 'By hand for Unit 2', p: 'Non-calculator number and algebra practised every week.' },
       { h3: 'Whole course for Unit 3', p: 'Statistics, geometry and measures covered in full, not left to the end.' },
       { h3: 'Tier by unit', p: 'Each unit taught at the tier the school has chosen for it.' },
-      { h3: 'Small groups', p: 'Five to ten pupils at one rung, comparing methods.' }
+      { h3: 'Small groups', p: 'Fifteen to twenty pupils at one rung, comparing methods.' }
     ]
   },
 
@@ -258,7 +258,7 @@ module.exports = {
     h2: 'Fees for GCSE maths lessons',
     lede: 'Charged monthly in US dollars, at the single rate every family outside India pays. A first lesson costs nothing, and billing only starts once you have picked a course and a weekly slot.',
     free: ['A lesson on real WJEC-style questions', 'A view on the right tier for each unit', 'A phone number is enough'],
-    group: ['Five to ten pupils on one rung', 'The same teacher across the course', 'Finance and non-calculator work weekly', 'Fewer lessons near each series'],
+    group: ['Fifteen to twenty pupils on one rung', 'The same teacher across the course', 'Finance and non-calculator work weekly', 'Fewer lessons near each series'],
     one: ['A teacher for one pupil', 'Planned around mixed tiers and dates', 'Suits a pupil resitting a unit']
   },
 

@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding classes in County Cork',
   capsuleQ: 'What are the best coding classes in County Cork?',
-  capsule: 'County Cork, the area outside the city, holds 360,152 people and the largest land area of any Irish county. Its towns are scattered: Carrigaline at 18,239, Cobh at 14,148, Midleton at 13,906, Mallow at 13,456, then Youghal, Bandon, Fermoy, Kinsale and Clonakilty. Unemployment here is 6%, which the statistics office recorded as the joint lowest in the country. What the county does not have is a class within easy reach of every town, which is where a live online school earns its place. We teach ages 6 to 67 at a fixed weekly hour in ability groups of five to ten, or one to one, with a free first lesson and then USD 100 a month in a group or USD 150 privately.',
+  capsule: 'County Cork, the area outside the city, holds 360,152 people and the largest land area of any Irish county. Its towns are scattered: Carrigaline at 18,239, Cobh at 14,148, Midleton at 13,906, Mallow at 13,456, then Youghal, Bandon, Fermoy, Kinsale and Clonakilty. Unemployment here is 6%, which the statistics office recorded as the joint lowest in the country. What the county does not have is a class within easy reach of every town, which is where a live online school earns its place. We teach ages 6 to 67 at a fixed weekly hour in ability groups of fifteen to twenty, or one to one, with a free first lesson and then USD 100 a month in a group or USD 150 privately.',
   lead: 'On 31 May 2019 a large piece of County Cork stopped being County Cork. Ballincollig, Blarney, Tower, Glanmire, Douglas, Rochestown and Togher transferred to Cork City Council under legislation passed that January, and the county lost both territory and tens of thousands of residents overnight. This matters for anyone working with Cork figures, because the Central Statistics Office states plainly that the change means "a direct comparison with Census 2016 data is not possible" for Cork. So the growth percentages you see quoted casually for other counties simply cannot be produced honestly here. A learner who understands why will treat every time series with more respect afterwards: boundaries move, definitions change, and a number that looks comparable often is not. That is the thread of this page, and it runs through everything from school lists to council datasets.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in County Cork.',
 
@@ -194,7 +194,7 @@ module.exports = {
       { h3: 'The same class everywhere', p: 'Skibbereen and Midleton are two hours apart and zero minutes apart once the lesson starts.' },
       { h3: 'School stages by name', p: 'Junior Cycle, Transition Year, fifth and sixth year, as they are called in Cork schools.' },
       { h3: 'A free lesson that teaches', p: 'Real work with a real teacher, ending in a level, a course and an hour, and no request for card details.' },
-      { h3: 'Ability groups', p: 'Five to ten learners at one level, drawn from County Cork and several other countries so the right class exists at a workable hour.' },
+      { h3: 'Ability groups', p: 'Fifteen to twenty learners at one level, drawn from County Cork and several other countries so the right class exists at a workable hour.' },
       { h3: 'Weekly and predictable', p: 'Two lessons in most weeks, about eight a month, with mid-terms and exams planned around in advance.' },
       { h3: 'The time difference', p: 'Our teachers work from India, four and a half hours ahead of Ireland in summer and five and a half in winter.' }
     ],
@@ -205,7 +205,7 @@ module.exports = {
     h2: 'What classes cost in County Cork',
     intro: 'Three figures and no small print.',
     first: 'A complete lesson at no charge, closing with a level named and a course recommended.',
-    group: 'A month of classes, normally eight, with five to ten learners of similar ability.',
+    group: 'A month of classes, normally eight, with fifteen to twenty learners of similar ability.',
     private: 'The same month of classes, with the teacher working with one learner.',
     closer: 'Billing is monthly in US dollars at the single rate charged outside India, so Bantry pays what Carrigaline pays and there is no euro list. Nothing is charged until the free lesson has settled a course and a weekly hour, and pauses, missed lessons and format changes are set out on the pricing page.'
   },
@@ -230,7 +230,7 @@ module.exports = {
       { q: 'What are the biggest towns?', a: 'Carrigaline at 18,239, then Cobh at 14,148, Midleton at 13,906 and Mallow at 13,456, with Youghal, Bandon, Fermoy, Kinsale and Clonakilty behind them.' },
       { q: 'What hours do classes run?', a: 'Afternoons, evenings and weekend mornings. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter, and the weekly hour is agreed in the free lesson.' },
       { q: 'Is there a Modern Age Coders classroom in County Cork?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, sound that works and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do County Cork coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do County Cork coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

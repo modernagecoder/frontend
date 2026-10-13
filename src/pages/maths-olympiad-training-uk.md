@@ -187,7 +187,7 @@ Teaching is live on video from India, five and a half hours ahead of the UK in w
 
 - **A cold reader every week** Someone who has not seen the problem reads the solution and says where they stopped following it.
 - **A named toolbox** Each technique is taught with a name so a pupil can reach for it deliberately rather than hope.
-- **Groups of five to ten** Big enough that somebody solves it differently, small enough that nobody goes unheard.
+- **Groups of fifteen to twenty** Big enough that somebody solves it differently, small enough that nobody goes unheard.
 - **Being stuck is the work** Twenty minutes without progress is normal here and we say so, because pupils assume it is failure.
 - **Problems we wrote** Ours, in the same idiom. The organisers give their past papers away and that is where the real ones belong.
 - **No outcome sold** Qualification is not ours to give and we do not pretend otherwise.
@@ -197,7 +197,7 @@ Teaching is live on video from India, five and a half hours ahead of the UK in w
 The same price each month in US dollars outside India, nothing charged to start, and no commitment past the month you are in.
 
 - Free first class: USD 0. A single hard problem, taught properly. A plain answer about which rung fits. Nothing asked for but a number.
-- Group batch: USD 100 a month. Five to ten pupils at one level. The same teacher weekly. Written arguments marked by hand. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty pupils at one level. The same teacher weekly. Written arguments marked by hand. A certificate at the end.
 - One to one: USD 150 a month. A teacher working with one pupil. Aimed at the round they are sitting. For pupils well beyond their year group.
 
 ## What parents and teachers ask

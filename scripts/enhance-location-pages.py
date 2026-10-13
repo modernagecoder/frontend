@@ -643,7 +643,7 @@ LOCATIONS: dict[str, dict[str, object]] = {
 META_DESC_TEMPLATE = (
     'Live online coding classes near {name}, {city} for kids, teens & college students. '
     'Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for '
-    '{schools_general_short} students. Small live batches (max 6-8). '
+    '{schools_general_short} students. Small live batches (max 20). '
     'From ₹1,499/mo. Free demo today.'
 )
 
@@ -668,7 +668,7 @@ LIVE_ONLINE_SECTION = """    <!-- ============================================
                 </div>
                 <div class="glass" style="padding: 28px 26px;">
                     <div style="font-size: 1.8rem; margin-bottom: 12px;">&#128104;&#8205;&#128105;&#8205;&#128103;&#8205;&#128102;</div>
-                    <h3 style="font-family:'Syne',sans-serif; font-weight:700; font-size:1.05rem; color:#fff; margin:0 0 10px;">Max 6&ndash;8 Students per Live Batch</h3>
+                    <h3 style="font-family:'Syne',sans-serif; font-weight:700; font-size:1.05rem; color:#fff; margin:0 0 10px;">Max 20 Students per Live Batch</h3>
                     <p style="color:#9aa6b8; font-size:14.5px; line-height:1.8; margin:0;">Smaller than any {name}-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored &mdash; not lost in a crowd of 30+.</p>
                 </div>
                 <div class="glass" style="padding: 28px 26px;">
@@ -877,7 +877,7 @@ FOUR_NEW_SECTIONS_TEMPLATE = """    <!-- =======================================
                 <div class="glass" style="padding: 28px; border-color: rgba(168,85,247,0.25);">
                     <h3 style="font-family:'Syne',sans-serif; font-weight:700; font-size:1.05rem; color:#c4b5fd; margin:0 0 14px;">&#10003; Where Live Online Wins</h3>
                     <ul style="list-style: none; padding: 0; margin: 0; color:#cbd5e1; font-size:14.5px; line-height:1.9;">
-                        <li style="padding: 6px 0 6px 22px; position: relative;"><span style="position:absolute; left:0; color:#a855f7;">&#9656;</span> Smaller batch (6&ndash;8) than the average {name} centre (20&ndash;40)</li>
+                        <li style="padding: 6px 0 6px 22px; position: relative;"><span style="position:absolute; left:0; color:#a855f7;">&#9656;</span> Smaller batch (15&ndash;20) than the average {name} centre (20&ndash;40)</li>
                         <li style="padding: 6px 0 6px 22px; position: relative;"><span style="position:absolute; left:0; color:#a855f7;">&#9656;</span> Instructors are full-time coders, not part-time tutors</li>
                         <li style="padding: 6px 0 6px 22px; position: relative;"><span style="position:absolute; left:0; color:#a855f7;">&#9656;</span> Recorded sessions for revision &mdash; impossible offline</li>
                         <li style="padding: 6px 0 6px 22px; position: relative;"><span style="position:absolute; left:0; color:#a855f7;">&#9656;</span> Zero commute through {traffic_short} traffic</li>
@@ -954,7 +954,7 @@ NEW_FAQS_HTML = """
                         Will my child interact with other students in your live online classes near {name}?
                         <span class="faq-icon">+</span>
                     </div>
-                    <div class="faq-a">Yes &mdash; that's the whole point of a 6&ndash;8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience.</div>
+                    <div class="faq-a">Yes &mdash; that's the whole point of a 15&ndash;20 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience.</div>
                 </div>
 
                 <div class="faq-item">
@@ -983,11 +983,11 @@ NEW_FAQS_HTML = """
 
 
 NEW_FAQS_SCHEMA = """,
-            {{ "@type": "Question", "name": "How are your live online classes different from coaching centres near {near_landmark_1} or {near_landmark_2}, {name}?", "acceptedAnswer": {{ "@type": "Answer", "text": "Three differences: batch size (6-8 vs 20-40 at most {name} tuition centres), instructor profile (full-time software engineers and maths graduates, not part-time tutors), and format (project-based live coding every class, not whiteboard notes). Plus zero commute through {traffic_ref}." }} }},
+            {{ "@type": "Question", "name": "How are your live online classes different from coaching centres near {near_landmark_1} or {near_landmark_2}, {name}?", "acceptedAnswer": {{ "@type": "Answer", "text": "Three differences: batch size (15-20 vs 20-40 at most {name} tuition centres), instructor profile (full-time software engineers and maths graduates, not part-time tutors), and format (project-based live coding every class, not whiteboard notes). Plus zero commute through {traffic_ref}." }} }},
             {{ "@type": "Question", "name": "What if my child misses a class because of school exams or a Pujo holiday near {name}?", "acceptedAnswer": {{ "@type": "Answer", "text": "You receive the full class recording, instructor's notes, code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas, or board exam weeks, batches can be paused on request with no charge for paused weeks." }} }},
             {{ "@type": "Question", "name": "What laptop and internet speed does my child need at home in {name}?", "acceptedAnswer": {{ "@type": "Answer", "text": "A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu is sufficient. Chromebooks work for Scratch and web design. Internet speed of 5 Mbps or higher is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in {name} are far above this." }} }},
             {{ "@type": "Question", "name": "Do you give homework and projects after each live coding class?", "acceptedAnswer": {{ "@type": "Answer", "text": "Yes. Every class includes hands-on coding inside the session plus a short take-home task: 15-30 minutes for kids, 30-60 minutes for teens. Each module ends with a portfolio project useful for college applications and engineering programme interviews." }} }},
-            {{ "@type": "Question", "name": "Will my child interact with other students in your live online classes near {name}?", "acceptedAnswer": {{ "@type": "Answer", "text": "Yes. In a 6-8 student live batch, students share screens, debug each other's code, present mini-projects to the group, and build social coding habits that pay off later in college and at work. Very different from a lonely YouTube tutorial." }} }},
+            {{ "@type": "Question", "name": "Will my child interact with other students in your live online classes near {name}?", "acceptedAnswer": {{ "@type": "Answer", "text": "Yes. In a 15-20 student live batch, students share screens, debug each other's code, present mini-projects to the group, and build social coding habits that pay off later in college and at work. Very different from a lonely YouTube tutorial." }} }},
             {{ "@type": "Question", "name": "My child is from a Bengali-medium school near {name}. Will language be a problem in coding classes?", "acceptedAnswer": {{ "@type": "Answer", "text": "No. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming syntax is in English, but instructors explain concepts in simple English and switch to Bangla or Hindi when helpful. Most students adapt to the technical vocabulary within 3-4 weeks." }} }},
             {{ "@type": "Question", "name": "Can a parent sit in the room while the child takes the live coding class?", "acceptedAnswer": {{ "@type": "Answer", "text": "Yes, and we encourage it for the first 2-3 classes, especially for children under 12. Parents see what is taught, how the instructor handles the child, and what is expected as homework. Most parents step away after that as the child grows comfortable." }} }},
             {{ "@type": "Question", "name": "Will my child get a coding certificate after completing the course near {name}?", "acceptedAnswer": {{ "@type": "Answer", "text": "Yes. Every course ends with a Modern Age Coders completion certificate plus the project portfolio built during the course. For ICSE and CBSE board students at {schools_general_short} and other {name}-area schools, project files are compiled in the format the school accepts for board project submission." }} }}"""

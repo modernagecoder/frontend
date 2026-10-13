@@ -16,7 +16,7 @@ Camden, south-west Sydney / Live online
 
 Type "schools in Camden" into a search box built on the state's school list and a simple keyword match brings back 28 schools. Most are in Camden council but not in Camden itself, one is in Newtown and one is near Port Macquarie. Only four give Camden as their address suburb. This is the problem every AI search tool faces before it answers: finding plenty of candidates is easy, putting the right ones first is the real work, and that second step is called reranking.
 
-Facts last verified 10 October 2026. Teaching is online; no Camden branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Camden branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that teach search, ranking and models
 
@@ -204,7 +204,7 @@ Everything happens on live video, so there is no travel into or out of Camden.
 One price list covers every subject, from Scratch to machine learning.
 
 - First class: USD 0. The first lesson is free and ends with a recommended course and timetable.
-- Group tuition: USD 100 a month. Two lessons a week, around eight a month, in a group of five to ten learners at one level.
+- Group tuition: USD 100 a month. Two lessons a week, around eight a month, in a group of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. One-to-one teaching on the same schedule, roughly eight lessons a month.
 
 Fees for Camden are charged in US dollars, and no money changes hands until after the trial, when you have chosen the course and the slot. Rules on holidays, missed classes and switching between group and one-to-one sit on the pricing page.
@@ -245,11 +245,11 @@ No. We teach only online and have no premises anywhere in Australia, including C
 
 ### How much do Camden lessons cost?
 
-The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.
+The first lesson is free. A group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one is USD 150 a month on the same plan. Nothing is charged before a course and time are agreed.
 
 ### How big are the groups?
 
-Five to ten learners, grouped by level and goals rather than age. If no group fits the learner's schedule, one-to-one lessons are offered instead.
+Fifteen to twenty learners, grouped by level and goals rather than age. If no group fits the learner's schedule, one-to-one lessons are offered instead.
 
 ## More for Camden learners
 

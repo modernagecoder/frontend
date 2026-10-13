@@ -85,7 +85,7 @@ A SMALL RESIDENT POPULATION
 
 Institutions here draw from the whole country, but only 3,856 people were recorded as living in Jerudong itself.
 
-The group is not local. Five to eight learners are assembled on demonstrated ability from twenty-five countries, so the resident count never limits anything.
+The group is not local. Fifteen to twenty learners are assembled on demonstrated ability from twenty-five countries, so the resident count never limits anything.
 
 21 KM TO THE CAPITAL
 
@@ -195,7 +195,7 @@ Live from start to finish, with code read and corrected in the session itself. N
 
 Free, and it decides the level. One problem, watched rather than marked, then a recommendation you are welcome to challenge.
 
-### Five to eight per group
+### Fifteen to twenty per group
 
 Grouped on what a learner can do, drawn from twenty-five countries. A resident population of 3,856 never limits anything.
 
@@ -313,7 +313,7 @@ Yes, because the group has nothing to do with Jerudong. Between five and eight l
 
 ### How much do coding classes in Jerudong cost?
 
-The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of five to eight compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
+The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of fifteen to twenty compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
 
 ### What time would the lesson be?
 

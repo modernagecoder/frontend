@@ -13,7 +13,7 @@
  *   - price cards: anchored to the pricing config so one currency shows per visitor
  *   - FAQ (visible AND FAQPage schema, same text): new near-me question first,
  *     cost answer without figures, honest placement answer where GSC shows the
- *     query, kids start age 6 (brand facts), group batch 5-10 (brand facts)
+ *     query, kids start age 6 (brand facts), group batch 15-20 (brand facts)
  *
  * Idempotent: a page that already carries the retarget is skipped.
  *   node scripts/seo/retarget-metro-pages.js            (writes)
@@ -80,7 +80,7 @@ CITIES.forEach((c) => {
   html = mustReplace(html, '<title>Best Coding Classes in ' + N + ' | Modern Age Coders</title>',
     '<title>Coding Classes in ' + N + ' Near Me: Live Online for Kids, Teens and Adults | Modern Age Coders</title>', 'title', file);
   html = mustReplace(html, /name="description"\s*content="[^"]*"/,
-    'name="description" content="Coding classes near you in ' + N + ', live online for kids from 6, teens and adults. Scratch, Python, Java and AI in batches of 5 to 10, fees stated up front, free demo or a full Priority Live Demo. Rated 4.9 from 547 reviews."', 'meta description', file);
+    'name="description" content="Coding classes near you in ' + N + ', live online for kids from 6, teens and adults. Scratch, Python, Java and AI in batches of 15 to 20, fees stated up front, free demo or a full Priority Live Demo. Rated 4.9 from 547 reviews."', 'meta description', file);
   html = mustReplace(html, /property="og:title" content="[^"]*"/, 'property="og:title" content="Coding Classes in ' + N + ' Near Me | Live Online, Kids to Adults | Modern Age Coders"', 'og:title', file);
   html = mustReplace(html, /name="twitter:title" content="[^"]*"/, 'name="twitter:title" content="Coding Classes in ' + N + ' Near Me | Live Online, Kids to Adults"', 'twitter:title', file);
 
@@ -88,7 +88,7 @@ CITIES.forEach((c) => {
   html = mustReplace(html, '<h1>Coding classes in ' + N + ', <span class="ink-soft">built to actually stick.</span></h1>',
     '<h1 ' + MARK + '>Coding classes in ' + N + ', <span class="ink-soft">live online for kids, teens and adults.</span></h1>', 'h1', file);
   html = mustReplace(html, /<p class="city-lede">[\s\S]*?<\/p>/,
-    '<p class="city-lede">Searching for coding classes near me in ' + N + '? Every class is live online, from <strong>' + fromTo + '</strong> to every street in between: a batch of 5 to 10, a mentor who knows your child\'s name, and projects they can open and show you. Kids from 6, teens, college students and adults.</p>', 'lede', file);
+    '<p class="city-lede">Searching for coding classes near me in ' + N + '? Every class is live online, from <strong>' + fromTo + '</strong> to every street in between: a batch of 15 to 20, a mentor who knows your child\'s name, and projects they can open and show you. Kids from 6, teens, college students and adults.</p>', 'lede', file);
   html = mustReplace(html, /(<div class="register-row"><span class="rk">Format<\/span><span class="rv">[^<]*<\/span><\/div>)/,
     '$1\n<div class="register-row"><span class="rk">Fees</span><span class="rv">Group from <b><span data-price="coding.india.group">&#8377;1,499</span></b> a month &middot; free demo first</span></div>', 'register fees row', file);
 
@@ -103,7 +103,7 @@ CITIES.forEach((c) => {
   });
 
   // 5. batch size from brand facts (group 5-10)
-  html = html.replace(/5&ndash;8/g, '5&ndash;10').replace(/5-8 (students|Students)/g, '5-10 $1').replace(/5 to 8 students/g, '5 to 10 students');
+  html = html.replace(/5&ndash;8/g, '5&ndash;10').replace(/5-8 (students|Students)/g, '5-10 $1').replace(/5 to 8 students/g, '15 to 20 students');
 
   // 6. FAQ text fixes, visible and schema at once
   AGE_OLD.forEach((t) => { html = html.split(t).join(AGE_NEW); });
@@ -114,9 +114,9 @@ CITIES.forEach((c) => {
 
   // 7. new and rewritten FAQ entries
   const nearQ = 'Are these coding classes near me in ' + N + ', or online?';
-  const nearA = 'Live online, which is what puts them near you anywhere in ' + N + ': ' + areas + ' and every area in between. Your child joins a live mentor from home in a batch of 5 to 10, with no commute and no fixed centre timetable. If you were looking for offline coding classes near you, this is the same small-batch, teacher-led class without the travel, and you can see it for yourself in a free demo or a full Priority Live Demo.';
+  const nearA = 'Live online, which is what puts them near you anywhere in ' + N + ': ' + areas + ' and every area in between. Your child joins a live mentor from home in a batch of 15 to 20, with no commute and no fixed centre timetable. If you were looking for offline coding classes near you, this is the same small-batch, teacher-led class without the travel, and you can see it for yourself in a free demo or a full Priority Live Demo.';
   const costQ = 'How much do coding classes cost in ' + N + '?';
-  const costA = 'Three formats: a group of 5 to 10 students, a mini batch of 3 to 4, or one-to-one, each billed monthly, with two live classes a week in the group formats. The current fees for your region are shown in the pricing section of this page and on our pricing page. Every plan starts with a free demo, or a Priority Live Demo if you want a full class today or tomorrow.';
+  const costA = 'Three formats: a group of 15 to 20 students, a mini batch of up to 6, or one-to-one, each billed monthly, with two live classes a week in the group formats. The current fees for your region are shown in the pricing section of this page and on our pricing page. Every plan starts with a free demo, or a Priority Live Demo if you want a full class today or tomorrow.';
   const placeQ = 'Do your coding classes in ' + N + ' come with placement?';
   const placeA = 'No. We do not sell placement guarantees or job referrals, and we would be wary of any institute in ' + N + ' that does. What the college track gives you is the thing interviews actually test: working projects you built yourself, data structures and algorithms you can solve live, a completion certificate, and a mentor who has sat on the other side of the table.';
 
@@ -141,7 +141,7 @@ CITIES.forEach((c) => {
   if (vis.length !== sch.length || missing.length) {
     console.warn('  ' + c.slug + ': visible FAQ ' + vis.length + ', schema ' + sch.length + (missing.length ? '; visible text differs from schema: ' + missing.map((x) => x[0]).join(' | ') : ''));
   }
-  if (/5&ndash;8|5-8 students|Rs\.1499|Rs\.2,999|₹1,499\/month/.test(html)) throw new Error(file + ': old batch size or literal price still present');
+  if (/5&ndash;8|15-20 students|Rs\.1499|Rs\.2,999|₹1,499\/month/.test(html)) throw new Error(file + ': old batch size or literal price still present');
 
   if (!DRY) fs.writeFileSync(file, html);
   changed++;

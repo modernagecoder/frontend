@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in East Sussex',
   capsuleQ: 'What are the best coding classes in East Sussex?',
-  capsule: 'East Sussex, counted as a ceremonial county, is Brighton and Hove plus five districts, 822,949 people at the 2021 Census. Brighton and Hove is by far the largest place; then come Eastbourne and Hastings, Bexhill-on-Sea, Seaford, Hailsham and Crowborough, and a string of Weald villages. Wherever a learner lives, we teach the same way: live over video with a teacher based in India, grouped by ability and not by age, for anyone from 6 to 67, either with five to ten classmates or with a teacher to themselves. Programming, Python and maths are all taught. The East Sussex project comes from the observatory at Herstmonceux. Start with a free lesson; after that, group learning is USD 100 a month and private learning USD 150 a month.',
+  capsule: 'East Sussex, counted as a ceremonial county, is Brighton and Hove plus five districts, 822,949 people at the 2021 Census. Brighton and Hove is by far the largest place; then come Eastbourne and Hastings, Bexhill-on-Sea, Seaford, Hailsham and Crowborough, and a string of Weald villages. Wherever a learner lives, we teach the same way: live over video with a teacher based in India, grouped by ability and not by age, for anyone from 6 to 67, either with fifteen to twenty classmates or with a teacher to themselves. Programming, Python and maths are all taught. The East Sussex project comes from the observatory at Herstmonceux. Start with a free lesson; after that, group learning is USD 100 a month and private learning USD 150 a month.',
   lead: 'In April 1946 the Royal Observatory, founded at Greenwich in 1675, chose Herstmonceux in East Sussex for its new home, after considering more than seventy sites; its six green domes still stand there. An observatory exists to keep careful track of the sky, and one of the first things it reveals is that the sun is a poor timekeeper. The moment the sun is highest over Herstmonceux drifts back and forth through the year by over half an hour on the clock. This page\'s project calculates that drift for every day of 2027 using the formulas NOAA publishes, and discovers why a sundial can be more than sixteen minutes fast in November and fourteen minutes slow in February.',
   wa: 'Hello Modern Age Coders, please could I book a free lesson for a learner in East Sussex?',
 
@@ -183,7 +183,7 @@ module.exports = {
     h2: 'Fees in East Sussex',
     intro: 'The same fees in every East Sussex town and every country apart from India.',
     first: 'A full lesson of genuine work, with a recommended level and course at the end.',
-    group: 'About eight lessons a month, in a group of five to ten at the same level.',
+    group: 'About eight lessons a month, in a group of fifteen to twenty at the same level.',
     private: 'About eight lessons a month, one teacher and one learner.',
     closer: 'All families outside India are charged in US dollars and we have no pound prices. You pay only after the free lesson has agreed a course and a weekly time; how pausing, missed lessons and changes between group and private work is set out on the pricing page.'
   },

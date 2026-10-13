@@ -4,7 +4,7 @@ description: "Groningen's AI bachelor admits every vwo profile, then sets calcul
 canonical: https://learn.modernagecoders.com/ai-and-python-academy-groningen
 source: src/pages/ai-and-python-academy-groningen.html
 ---
-> For learners in Groningen, Modern Age Coders runs a live online track from typed Python through the mathematics of machine learning, written as code, to trained models and AI agents, in English, in groups of five to ten or one to one, for ages six to sixty-seven. It is shaped around a concrete target: the first year of the University of Groningen's English-taught AI bachelor, which admits every vwo profile and then asks for calculus, programming, statistics and logic, with 45 EC to earn in twelve months. The same ladder serves a groep 7 child starting out and an adult retraining. The first lesson is free; after it, a group place is USD 100 a month and one-to-one tuition USD 150.
+> For learners in Groningen, Modern Age Coders runs a live online track from typed Python through the mathematics of machine learning, written as code, to trained models and AI agents, in English, in groups of fifteen to twenty or one to one, for ages six to sixty-seven. It is shaped around a concrete target: the first year of the University of Groningen's English-taught AI bachelor, which admits every vwo profile and then asks for calculus, programming, statistics and logic, with 45 EC to earn in twelve months. The same ladder serves a groep 7 child starting out and an adult retraining. The first lesson is free; after it, a group place is USD 100 a month and one-to-one tuition USD 150.
 
 [Home](/) / [Courses](/courses) / [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands) / Groningen
 
@@ -14,7 +14,7 @@ Groningen · Live online · Ages 6 to 67
 
 The University of Groningen teaches a three-year bachelor in artificial intelligence, entirely in English, and its door is unusually wide: every vwo profile is admissible, and a pupil in Cultuur en Maatschappij needs only wiskunde A or wiskunde B. What waits inside is not wide at all. Among the first-year courses are Calculus for Artificial Intelligence, Imperative Programming, Statistics and Introduction to Logic, and the binding study advice asks for at least 45 EC in the first twelve months. A student who arrives already writing code by hand and already comfortable with the mathematics in code form has room to breathe. One who arrives with neither meets both at once, in a second language, against a deadline. This page is the preparation, for the vwo pupil who wants that degree, the student already in it, and everyone else in Groningen who wants the same skills without the lecture hall.
 
-At a glance: For: Groningen learners aged 6 to 67; Aim: A first year of university AI that feels familiar; Track: Python, maths in code, models, agents; Delivery: Live video with a teacher, never recorded; Groups: 5 to 10 learners, or one to one; Hours: Dutch afternoons, evenings and weekends; Taught in: English, as the degree is; First lesson: Free, with nothing to pay. Rated 4.9 across 547 Google reviews.
+At a glance: For: Groningen learners aged 6 to 67; Aim: A first year of university AI that feels familiar; Track: Python, maths in code, models, agents; Delivery: Live video with a teacher, never recorded; Groups: 15 to 20 learners, or one to one; Hours: Dutch afternoons, evenings and weekends; Taught in: English, as the degree is; First lesson: Free, with nothing to pay. Rated 4.9 across 547 Google reviews.
 
 ## Three courses that line up with a Groningen first year
 
@@ -150,7 +150,7 @@ Groningen keeps Central European time and switches to summer time and back each 
 - **Weekends** Saturday or Sunday, morning or afternoon, Groningen time. The easiest slot for working adults and busy families.
 
 - **A first lesson that teaches** The learner works on a real problem while the teacher watches how they think. That settles the starting rung far better than a questionnaire.
-- **Five to ten per group** Groups are formed by ability from learners in many countries, so a quick student in Groningen is stretched and a new one is not left behind.
+- **Fifteen to twenty per group** Groups are formed by ability from learners in many countries, so a quick student in Groningen is stretched and a new one is not left behind.
 - **One to one when it fits better** For a first-year student with a shifting timetable, an adult with a narrow goal, or anyone who wants the pace set around them.
 - **Long enough to build something** Lessons are live, with both screens shared, so a misunderstanding is caught while it forms rather than a week later.
 - **English throughout** The same language as the Groningen degree, the documentation and the error messages. Dutch school terms such as vwo and profielkeuze are used as they are.
@@ -161,7 +161,7 @@ Groningen keeps Central European time and switches to summer time and back each 
 Charged monthly in US dollars, at the same two rates as everywhere outside India. There is no Groningen or Dutch surcharge, no joining fee and no annual contract. Copilot Studio courses are one to one by design and so use the one-to-one rate.
 
 - Free first class: USD 0. A real lesson on a real problem. Finds the starting rung. No card and no commitment.
-- Group batch: USD 100 a month. A group of five to ten at one level. Taught live by the same teacher. Work reviewed every week. Certificate on completion.
+- Group batch: USD 100 a month. A group of fifteen to twenty at one level. Taught live by the same teacher. Work reviewed every week. Certificate on completion.
 - One to one: USD 150 a month. One learner, one teacher. Pace and syllabus set around the goal. Required for Copilot Studio courses.
 
 ## What Groningen families and students ask before starting
@@ -200,7 +200,7 @@ No. The ladder starts at groep 6 and serves adults too. The Groningen AI bachelo
 
 ### What does it cost?
 
-USD 100 a month for a place in a group of five to ten learners, or USD 150 a month for one-to-one tuition, both billed in US dollars. There is no joining fee and no yearly contract, and the first lesson is free.
+USD 100 a month for a place in a group of fifteen to twenty learners, or USD 150 a month for one-to-one tuition, both billed in US dollars. There is no joining fee and no yearly contract, and the first lesson is free.
 
 ### What happens after I fill in the form?
 

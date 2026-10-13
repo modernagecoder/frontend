@@ -188,7 +188,7 @@ Tutors join from India. In the cooler months Victoria is 4.5 hours in front of I
 - **Proof in full sentences** Every argument written so a stranger could check it.
 - **Pictures before algebra** Complex numbers and vectors drawn first, then calculated.
 - **Technology to check** Code and calculators used to test ideas, never to replace them.
-- **Groups of five to ten** Students at one level, each presenting a solution in turn.
+- **Groups of fifteen to twenty** Students at one level, each presenting a solution in turn.
 - **One-to-one sessions** For one area of study that needs rebuilding.
 - **Outcomes stay yours** Nobody here predicts a study score or ATAR; what you earn is your own work.
 
@@ -197,7 +197,7 @@ Tutors join from India. In the cooler months Victoria is 4.5 hours in front of I
 Specialist lessons cost one flat monthly amount in US dollars for every family outside India; you can join without a fee and leave at the end of any month.
 
 - Free first class: USD 0. A full lesson with a tutor. A clear view of what to strengthen. No card needed.
-- Group batch: USD 100 a month. Five to ten students at one level. One tutor all term. Proofs and solutions discussed. A certificate when you finish.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. One tutor all term. Proofs and solutions discussed. A certificate when you finish.
 - One to one: USD 150 a month. One tutor, one student. Centred on one area of study. Often booked for the last weeks before the exams.
 
 ## Specialist questions from Victorian families

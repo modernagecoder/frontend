@@ -759,7 +759,7 @@
   ],
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
-    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "small_batches": "Small batches only: group classes are capped at 20 students, with mini-batch (up to 6 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
     "certificate": "A course-completion certificate backed by a marked mock file that shows the real grade trajectory.",
@@ -801,7 +801,7 @@
     },
     {
       "question": "How are the classes run?",
-      "answer": "Live online classes with a real teacher, either in a small group of 5 to 10 students at a similar level or one to one. Homework is marked with method-mark comments, and there is WhatsApp support between classes. Current fees for your region are shown in the pricing section of this page."
+      "answer": "Live online classes with a real teacher, either in a group of 15 to 20 students at a similar level or one to one. Homework is marked with method-mark comments, and there is WhatsApp support between classes. Current fees for your region are shown in the pricing section of this page."
     },
     {
       "question": "Can I try a lesson before enrolling?",

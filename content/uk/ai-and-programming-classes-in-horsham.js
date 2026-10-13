@@ -59,7 +59,7 @@ module.exports = {
 
   h1: 'AI and programming classes in Horsham',
   capsuleQ: 'Where can Horsham learners find the best AI and programming classes?',
-  capsule: 'Horsham is a town in West Sussex whose built-up area held 50,215 usual residents at the 2021 census, according to the Office for National Statistics; the wider Horsham district had 146,778. The gazetteer lists Roffey as a suburban area of the district and Broadbridge Heath, Warnham and Mannings Heath as villages. Learners aged six to 67 in these places can join our AI, programming, Python, vibe coding and maths lessons, which run as live video calls led by tutors in India. You can have private lessons or sit in a class of five to ten people working at your level. We teach ideas so that a learner could carry them out with pencil and paper, and the computer comes second. Start with a free lesson; we finish it by telling you which course we would choose. In the Horsham project, learners fit curves to the district\'s age profile and use a count of bits to decide how complicated the curve deserves to be. Lessons after the trial cost USD 100 a month in a group and USD 150 a month one-to-one.',
+  capsule: 'Horsham is a town in West Sussex whose built-up area held 50,215 usual residents at the 2021 census, according to the Office for National Statistics; the wider Horsham district had 146,778. The gazetteer lists Roffey as a suburban area of the district and Broadbridge Heath, Warnham and Mannings Heath as villages. Learners aged six to 67 in these places can join our AI, programming, Python, vibe coding and maths lessons, which run as live video calls led by tutors in India. You can have private lessons or sit in a class of fifteen to twenty people working at your level. We teach ideas so that a learner could carry them out with pencil and paper, and the computer comes second. Start with a free lesson; we finish it by telling you which course we would choose. In the Horsham project, learners fit curves to the district\'s age profile and use a count of bits to decide how complicated the curve deserves to be. Lessons after the trial cost USD 100 a month in a group and USD 150 a month one-to-one.',
   lead: 'Give a model more knobs and it will fit your data more closely. That is always true and it is a trap, because past some point the extra knobs are fitting accidents. The old advice is Occam\'s razor: prefer the simpler explanation. But how much simpler, and who decides? Minimum description length turns the advice into arithmetic. Imagine sending your data to a friend down a slow line. You may send a model plus a list of corrections. A bigger model costs more bits to send and leaves smaller corrections. Add the two costs, and the model with the shortest total message wins. Horsham learners run that contest on census data.',
   wa: 'Hello Modern Age Coders, I would like to book a free AI or programming lesson for a learner in Horsham.',
 
@@ -163,7 +163,7 @@ module.exports = {
       { h3: 'The learner does the work', p: 'They type and share their screen. The tutor asks, hints and checks understanding.' },
       { h3: 'A full lesson to try', p: 'We teach a complete free session and use it to find the right course.' },
       { h3: 'Card-free booking', p: 'The trial is arranged without any payment details.' },
-      { h3: 'Classes built by level', p: 'Five to ten learners at the same point, brought together from around the UK.' },
+      { h3: 'Classes built by level', p: 'Fifteen to twenty learners at the same point, brought together from around the UK.' },
       { h3: 'Two sessions weekly', p: 'During term, stopping for West Sussex school holidays on the dates you give us.' },
       { h3: 'Steady UK timetable', p: 'The clock change is absorbed at our end; your lesson time is unchanged.' }
     ],
@@ -174,7 +174,7 @@ module.exports = {
     h2: 'Horsham fees',
     intro: 'Every learner outside India is on the same international fee.',
     first: 'A whole first lesson, free, with a recommended course at the end.',
-    group: 'A class of five to ten, around eight lessons a month.',
+    group: 'A class of fifteen to twenty, around eight lessons a month.',
     private: 'Private one-to-one tuition, around eight lessons a month.',
     closer: 'All prices are in US dollars; we do not quote pounds. You are billed only after the trial, when the course and lesson time have been agreed. Holidays, missed sessions and changes of format are dealt with on the pricing page.'
   },

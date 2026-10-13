@@ -278,7 +278,7 @@ module.exports = {
       { h3: 'Debug together', p: 'When output looks wrong, learner and teacher print values side by side.' },
       { h3: 'School-year planning', p: 'Lessons follow SA terms and break for holidays.' },
       { h3: 'Free trial', p: 'A complete opening lesson and a frank suggestion.' },
-      { h3: 'Groups by level', p: 'Five to ten learners together, or one to one.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners together, or one to one.' },
       { h3: 'Two lessons a week', p: 'Fixed times, about eight lessons each month.' },
       { h3: 'India time', p: 'Teachers work from India: a 4:30pm Norwood lesson starts at 11:30am India time until April, then 12:30pm.' }
     ],
@@ -291,7 +291,7 @@ module.exports = {
     h2: 'Norwood class fees',
     intro: 'Three straightforward prices.',
     first: 'The first lesson costs nothing and ends with written advice.',
-    group: 'About eight group lessons each month, five to ten learners.',
+    group: 'About eight group lessons each month, fifteen to twenty learners.',
     private: 'About eight private lessons each month.',
     closer: 'Norwood families pay in US dollars, after the trial and once course and time are settled. Holiday and absence rules are on the pricing page.'
   },
@@ -330,12 +330,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Norwood learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Is Copilot Studio part of the Norwood group course?', a: 'No. Copilot Studio is taught privately only; groups build agents in Python.' }

@@ -16,7 +16,7 @@ Newcastle, New South Wales, Australia / Live online
 
 Ask a Year 4 child what 3 plus 6 is and you will get 9 before you finish the question. Ask a computer, and sometimes the answer is 36. That is not a broken computer. It is what happens when numbers are stored as text, and Newcastle's park benches give us a perfect example. OpenStreetMap records 191 benches across central and coastal Newcastle in the rectangle we chose, and two of them note how many people they seat: 3 and 6. Add them the wrong way and the total is 36. Our young Newcastle coders find out why, and learn the one small fix that makes it 9.
 
-Facts last verified 7 October 2026. Teaching is online; no Newcastle branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Newcastle branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where a Newcastle child might begin
 
@@ -177,7 +177,7 @@ The Newcastle area spreads from the coast to the Hunter, and a live online lesso
 - **Simple to set up** Any laptop or desktop with sound will do, and a parent beside a young child for the first lesson.
 - **NSW words** Teachers use NSW year names from Kindergarten onwards, so lessons sound like school.
 - **Free trial lesson** A genuine first lesson where your child builds something, then a suggested course and time. No card is ever requested.
-- **Children at the same stage** Groups of five to ten at a similar level, or private lessons instead.
+- **Children at the same stage** Groups of fifteen to twenty at a similar level, or private lessons instead.
 - **Two sessions most weeks** Around eight lessons a month in a regular slot that sits around sport and homework.
 - **Teachers on India time** Newcastle is four and a half hours ahead of India time in winter and five and a half hours ahead during daylight saving, so after-school lessons fall within our teachers' daytime hours.
 
@@ -188,7 +188,7 @@ The Newcastle area spreads from the coast to the Hunter, and a live online lesso
 Three prices and that is all.
 
 - First class: USD 0. One complete free lesson, ending with a level, a course and a time.
-- Group tuition: USD 100 a month. Around eight lessons a month with five to ten children at the same level.
+- Group tuition: USD 100 a month. Around eight lessons a month with fifteen to twenty children at the same level.
 - Private tuition: USD 150 a month. Around eight lessons a month with your child learning one to one.
 
 Outside India, all families pay in US dollars at one rate, from the beaches to the Hunter. We invoice only once you have tried a lesson and chosen a course and slot; holidays, absences and moving between group and private are explained on the pricing page.
@@ -229,11 +229,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do coding classes for Newcastle kids cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Newcastle families
 

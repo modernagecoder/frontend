@@ -43,7 +43,7 @@ module.exports = {
 
   h1: 'Coding classes in Charlois, where the same fact is 51 percent or 26 percent depending on what you divide by',
   capsuleQ: 'What are the best coding classes in Charlois?',
-  capsule: 'Coding classes in Charlois reach 70,932 residents (1 January 2026) on 1,119 hectares of land at 6,302 people to the square kilometre, in 35,855 households of which 18,440 hold one person. That is 51 percent of the households. It is also 26 percent of the residents, because those 18,440 households hold 18,440 people out of 70,932. One fact, two bases, and a figure that halves depending on which one nobody stated. Modern Age Coders teaches live online in English from Heijplaat to Pendrecht, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.',
+  capsule: 'Coding classes in Charlois reach 70,932 residents (1 January 2026) on 1,119 hectares of land at 6,302 people to the square kilometre, in 35,855 households of which 18,440 hold one person. That is 51 percent of the households. It is also 26 percent of the residents, because those 18,440 households hold 18,440 people out of 70,932. One fact, two bases, and a figure that halves depending on which one nobody stated. Modern Age Coders teaches live online in English from Heijplaat to Pendrecht, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.',
   lead: 'Charlois has 18,440 single-person households out of 35,855, which is 51 percent. Those households contain 18,440 people out of 70,932 residents, which is 26 percent. Both sentences describe the identical set of people and the identical set of homes. The number halves because the first divides by households and the second by residents, and there are about two residents per household. Nothing in the phrase fifty-one percent tells you which of the two it was.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Charlois.',
 
@@ -186,7 +186,7 @@ module.exports = {
     h2: 'The fee, in dollars, in all ten buurten',
     intro: 'Set out here rather than kept for a call.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'One international rate, quoted in dollars, with no euro edition, so an address on Heijplaat is charged exactly what one in Oud Charlois is. Nothing is paid until the free lesson has settled a course and an hour, and payment goes over WhatsApp afterwards. Pausing, switching plan and missing a week are all on the pricing page.'
   },
@@ -211,7 +211,7 @@ module.exports = {
       { q: 'Is the class taught in Dutch?', a: 'English, start to finish. The one place Dutch remains is school vocabulary, kept because groep, havo, vwo and profielkeuze are the terms a child reads on their own reports and an English equivalent would have to be converted back before it meant anything. Nothing is offered in a Dutch edition.' },
       { q: 'What hours suit a family in Charlois?', a: 'It depends on the season, and only because the Netherlands changes its clocks while India does not: the gap is three and a half hours under Dutch summer time and four and a half outside it. Neither setting closes the useful window, which runs from the end of the school day through the early evening, with Saturday and Sunday entirely open. The hour is agreed in the free lesson and does not move afterwards.' },
       { q: 'Is there a Modern Age Coders classroom in Charlois?', a: 'No, and none is claimed in Charlois, elsewhere in Rotterdam or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Charlois coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Charlois coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

@@ -39,7 +39,7 @@ module.exports = {
 
   h1: 'Coding classes in Amersfoort, where the origin of the map moved and the tower stayed still',
   capsuleQ: 'What are the best coding classes in Amersfoort?',
-  capsule: 'Coding classes in Amersfoort serve 163,764 people (Statistics Netherlands, 1 January 2026), the second city of the province of Utrecht and the sixteenth municipality of the country. Every surveyed point in the Netherlands is measured from the Onze-Lieve-Vrouwetoren here. It used to be zero by zero; around 1970 the origin was shifted outside the country for practical reasons, and the tower now carries the coordinates 155,000 by 463,000 exactly, without having moved a centimetre. Modern Age Coders teaches live online in English across the municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of five to ten or USD 150 one-to-one.',
+  capsule: 'Coding classes in Amersfoort serve 163,764 people (Statistics Netherlands, 1 January 2026), the second city of the province of Utrecht and the sixteenth municipality of the country. Every surveyed point in the Netherlands is measured from the Onze-Lieve-Vrouwetoren here. It used to be zero by zero; around 1970 the origin was shifted outside the country for practical reasons, and the tower now carries the coordinates 155,000 by 463,000 exactly, without having moved a centimetre. Modern Age Coders teaches live online in English across the municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of fifteen to twenty or USD 150 one-to-one.',
   lead: 'A tower in the middle of this city is the reference point for the national coordinate grid. For most of the grid\'s life the tower was the origin, so its coordinates were zero and zero. Then the origin was moved out beyond the border so that nowhere in the Netherlands would need a negative number, and overnight the same stones acquired the coordinates 155,000 by 463,000. Nothing was rebuilt. If a program holds one point in the old numbering and another in the new, it will calmly report that two neighbours are 489 kilometres apart.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Amersfoort.',
 
@@ -183,7 +183,7 @@ module.exports = {
     h2: 'The fee, in dollars, in every wijk and both villages',
     intro: 'Published here rather than kept for a phone call.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'A single international rate applies, quoted in dollars and never in euros, so Hooglanderveen is charged exactly what the old centre is. Money changes hands only after the free lesson has produced a course and a timetable, and it changes hands over WhatsApp. Pausing, changing plan and missing a week are described on the pricing page.'
   },
@@ -208,7 +208,7 @@ module.exports = {
       { q: 'We are in Vathorst or Hooglanderveen, out on the northern edge. Does that matter?', a: 'Only in that the journey never has to happen. A learner in Hooglanderveen joins the same group at the same hour and the same fee as one in the old centre, and the ride across the city on a February evening is not part of it.' },
       { q: 'What is in the free lesson?', a: 'The teacher finds the edge of what the learner already manages and sets one piece of work just past it. For a child that might be squared paper and a zero that moves. For a teenager, a point type that refuses to be combined across grids. For an adult, a file with two reference systems in it. It ends with a course, a rung, a weekly time and a price in dollars, and nothing has been charged.' },
       { q: 'Is there a Modern Age Coders classroom in Amersfoort?', a: 'No, and none is claimed near Lange Jan, in Vathorst or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Amersfoort coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Amersfoort coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in an Amersfoort group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or district. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

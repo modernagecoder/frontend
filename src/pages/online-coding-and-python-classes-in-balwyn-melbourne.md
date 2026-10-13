@@ -16,7 +16,7 @@ Balwyn, City of Boroondara, Melbourne, Victoria / Live online
 
 Filter Victoria's school list for schools in Balwyn and Python hands back two. Look at a map and there are four. Nothing crashed and nothing printed an error; the program just quietly lost half the answer. One line of logging, written before anyone knew there was a problem, is what shows where it went.
 
-Facts last verified 10 October 2026. Teaching is online; no Balwyn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Balwyn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that build careful Python habits
 
@@ -180,7 +180,7 @@ Lessons happen live on screen, so there is no drive and no parking.
 - **Screen sharing** The learner joins by link, shares a screen and the teacher follows every line as it is typed.
 - **In term time** Courses keep to the Victorian school terms and stop for the state holidays.
 - **First lesson** The free class is a full lesson; then we propose a course and a time each week.
-- **Groups of five to ten** Learners are grouped by level from many places, not by suburb.
+- **Groups of fifteen to twenty** Learners are grouped by level from many places, not by suburb.
 - **Regular rhythm** Two set lessons a week, around eight a month, with breaks agreed in advance.
 - **Teachers in India** Our teachers are in India; a 4pm Balwyn lesson in summer is 10:30am India time, becoming 11:30am once Melbourne leaves daylight saving.
 
@@ -191,7 +191,7 @@ Lessons happen live on screen, so there is no drive and no parking.
 Three prices, clearly set out.
 
 - First class: USD 0. The first lesson is free and ends with a straightforward recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, typically eight, with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group lessons, typically eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Roughly eight one-to-one lessons a month.
 
 Outside India all fees are in US dollars, so a Balwyn family pays what any other family abroad pays. Nothing is billed until the trial has fixed a course and a time; holidays, missed lessons and switching between group and private are explained on the pricing page.
@@ -228,11 +228,11 @@ No. Teaching is live online only, there is no Australian office, and the phone n
 
 ### How much do Python classes cost for Balwyn learners?
 
-The first lesson is free. After it, group classes cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. Course, format and time are settled before payment.
+The first lesson is free. After it, group classes cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. Course, format and time are settled before payment.
 
 ### How large is each group?
 
-Five to ten learners, put together on level, pace and goals, with private lessons when no group time suits.
+Fifteen to twenty learners, put together on level, pace and goals, with private lessons when no group time suits.
 
 ### Can adults learn Python with you?
 

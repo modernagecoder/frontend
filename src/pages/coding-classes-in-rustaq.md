@@ -179,7 +179,7 @@ A hundred and fifty kilometres each way is not a weekly commitment anybody keeps
 
 A real task, a real recommendation, no card. If the honest answer is that the learner should start somewhere else, that is what the teacher will say.
 
-### Groups of five to eight
+### Groups of fifteen to twenty
 
 Matched on level and goal rather than age, so a group can hold a strong fourteen year old and a determined adult beginner working at the same pace.
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Rustaq learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are Rustaq class times arranged?
 

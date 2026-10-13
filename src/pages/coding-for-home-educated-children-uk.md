@@ -108,7 +108,7 @@ The Department's guidance notes that tutors and other settings "may well not be 
 |---|---|
 | Who are the teachers, and where? | Our teachers are based in India and teach live online |
 | Are they DBS-checked? | No. UK DBS checks cannot cover records held overseas; our tutor page explains what we do instead |
-| Are lessons one to one or in groups? | Both: small groups of five to ten, or one to one |
+| Are lessons one to one or in groups? | Both: groups of fifteen to twenty, or one to one |
 | Will you work on assessed coursework? | Never. We teach skills; assessed work must be the candidate's own |
 | What does it cost, and how is it paid? | A monthly fee in US dollars, with the first lesson free |
 
@@ -178,14 +178,14 @@ Because our teachers work from India, which keeps one clock all year, the UK is 
 - **Real programming** Code written and debugged every lesson, so written papers feel familiar.
 - **Honest placement** A clear view of the level a learner is at, before anything is paid.
 - **Mixed ages by level** Groups formed by what learners can do, not by age alone.
-- **Small groups** Five to ten learners, or one to one.
+- **Small groups** Fifteen to twenty learners, or one to one.
 
 ## Fees for home-education coding lessons
 
 Payment is monthly, in US dollars, at one rate for families outside India. The first lesson is on us, and we charge nothing until a course and a regular weekly time are agreed. Exam entry and centre fees are separate and paid by families to the centre.
 
 - Free first class: USD 0. A lesson matched to your child's level. Advice on the private-candidate route. A phone number is enough.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher each week. Times agreed in UK hours. Projects kept as a portfolio.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. Times agreed in UK hours. Projects kept as a portfolio.
 - One to one: USD 150 a month. A teacher for one learner. Paced to your home timetable. Suits a teenager preparing for GCSE.
 
 ## What home educators ask

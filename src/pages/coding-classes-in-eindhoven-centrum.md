@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Eindhoven Centrum for
 canonical: https://learn.modernagecoders.com/coding-classes-in-eindhoven-centrum
 source: src/pages/coding-classes-in-eindhoven-centrum.html
 ---
-> Coding classes in Eindhoven Centrum reach a stadsdeel that is a single statistics office wijk of 11,560 residents in five buurten, all five read for this page. On the TU-terrein, 1,220 of 2,170 residents are aged fifteen to twenty-five, 56 percent, the youngest buurt anywhere in this series. Yet those 1,220 are only 36.5 percent of the 3,340 young residents of Centrum, and the Binnenstad, where the young are 29 percent, holds 1,205 of them. The campus is young; the young are mostly not on the campus. Modern Age Coders teaches live online in English from Bergen to the Witte Dame, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Eindhoven Centrum reach a stadsdeel that is a single statistics office wijk of 11,560 residents in five buurten, all five read for this page. On the TU-terrein, 1,220 of 2,170 residents are aged fifteen to twenty-five, 56 percent, the youngest buurt anywhere in this series. Yet those 1,220 are only 36.5 percent of the 3,340 young residents of Centrum, and the Binnenstad, where the young are 29 percent, holds 1,205 of them. The campus is young; the young are mostly not on the campus. Modern Age Coders teaches live online in English from Bergen to the Witte Dame, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Eindhoven](/coding-classes-in-eindhoven) / Eindhoven Centrum
 
@@ -12,11 +12,11 @@ Centrum, Eindhoven / Live online
 
 # Coding classes in Eindhoven Centrum, where the campus is the youngest place and still not where the young people are
 
-**What are the best coding classes in Eindhoven Centrum?** Coding classes in Eindhoven Centrum reach a stadsdeel that is a single statistics office wijk of 11,560 residents in five buurten, all five read for this page. On the TU-terrein, 1,220 of 2,170 residents are aged fifteen to twenty-five, 56 percent, the youngest buurt anywhere in this series. Yet those 1,220 are only 36.5 percent of the 3,340 young residents of Centrum, and the Binnenstad, where the young are 29 percent, holds 1,205 of them. The campus is young; the young are mostly not on the campus. Modern Age Coders teaches live online in English from Bergen to the Witte Dame, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Eindhoven Centrum?** Coding classes in Eindhoven Centrum reach a stadsdeel that is a single statistics office wijk of 11,560 residents in five buurten, all five read for this page. On the TU-terrein, 1,220 of 2,170 residents are aged fifteen to twenty-five, 56 percent, the youngest buurt anywhere in this series. Yet those 1,220 are only 36.5 percent of the 3,340 young residents of Centrum, and the Binnenstad, where the young are 29 percent, holds 1,205 of them. The campus is young; the young are mostly not on the campus. Modern Age Coders teaches live online in English from Bergen to the Witte Dame, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Most people on the campus are young. Most young people are on the campus. Those two sentences sound like the same sentence said twice, and the first is true of Eindhoven Centrum while the second is false. They share a number, the 1,220 residents of the TU-terrein aged fifteen to twenty-five, and they divide it by different things: once by everybody living on the campus, and once by everybody that age living in Centrum. Swapping them is one of the most common errors in all of quantitative reasoning, and it has a famous name in machine learning, where the two quantities are called precision and recall and confusing them has shipped a great many bad models.
 
-Facts last verified 10 September 2026. Teaching is online; no Eindhoven Centrum branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 September 2026. Teaching is online; no Eindhoven Centrum branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the middle of Eindhoven
 
@@ -195,7 +195,7 @@ Centrum is the station, the shopping streets, the old Philips buildings and the 
 Written out in full here, rather than kept back for a sales call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 One rate in dollars for every country and no euro edition, so a student room on the TU-terrein and a flat in Bergen see an identical figure. Nothing is charged until the free lesson has settled a course and an hour, and payment is then arranged over WhatsApp. Pausing, changing plan and missing a week are each covered on the pricing page.
@@ -236,7 +236,7 @@ No, and none is claimed here, elsewhere in Eindhoven or anywhere in the Netherla
 
 ### What do Eindhoven Centrum coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

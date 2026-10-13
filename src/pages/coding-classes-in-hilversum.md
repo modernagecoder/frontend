@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and app lessons in Hilversum for ag
 canonical: https://learn.modernagecoders.com/coding-classes-in-hilversum
 source: src/pages/coding-classes-in-hilversum.html
 ---
-> Coding classes in Hilversum serve 94,595 people (statistics office, 1 January 2026) in the largest place in het Gooi, a town the encyclopaedia calls the mediastad. Its town hall, built between 1928 and 1931, is faced with a yellow brick of a deviating size that Dudok designed for it, the Hilversummertje, and at the Mediapark the institute Beeld en Geluid keeps more than a million hours of audiovisual material. Both make the same point about computing: anything recorded lasts only as long as something can still read it. Modern Age Coders teaches live online in English across all nine wijken, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Hilversum serve 94,595 people (statistics office, 1 January 2026) in the largest place in het Gooi, a town the encyclopaedia calls the mediastad. Its town hall, built between 1928 and 1931, is faced with a yellow brick of a deviating size that Dudok designed for it, the Hilversummertje, and at the Mediapark the institute Beeld en Geluid keeps more than a million hours of audiovisual material. Both make the same point about computing: anything recorded lasts only as long as something can still read it. Modern Age Coders teaches live online in English across all nine wijken, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Hilversum
 
@@ -12,11 +12,11 @@ Hilversum, Noord-Holland / Live online
 
 # Coding classes in Hilversum, where the town hall has a brick of its own size
 
-**What are the best coding classes in Hilversum?** Coding classes in Hilversum serve 94,595 people (statistics office, 1 January 2026) in the largest place in het Gooi, a town the encyclopaedia calls the mediastad. Its town hall, built between 1928 and 1931, is faced with a yellow brick of a deviating size that Dudok designed for it, the Hilversummertje, and at the Mediapark the institute Beeld en Geluid keeps more than a million hours of audiovisual material. Both make the same point about computing: anything recorded lasts only as long as something can still read it. Modern Age Coders teaches live online in English across all nine wijken, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Hilversum?** Coding classes in Hilversum serve 94,595 people (statistics office, 1 January 2026) in the largest place in het Gooi, a town the encyclopaedia calls the mediastad. Its town hall, built between 1928 and 1931, is faced with a yellow brick of a deviating size that Dudok designed for it, the Hilversummertje, and at the Mediapark the institute Beeld en Geluid keeps more than a million hours of audiovisual material. Both make the same point about computing: anything recorded lasts only as long as something can still read it. Modern Age Coders teaches live online in English across all nine wijken, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 A brick of a standard size can be replaced from any builder's yard. A brick designed for one building has to be made again, to the same measure, whenever the wall needs repair, and in Hilversum the town hall is faced with exactly such a brick. Files behave the same way. A recording on a tape needs a machine that still plays that tape, a document in a private format needs the program that wrote it, and a saved model often needs the exact library version that produced it. Hilversum, which has been making and keeping broadcasts since the experimental radio of the years after 1918, is a good place to learn the habit of saving work in a form that someone, in some other decade, will still be able to open.
 
-Facts last verified 11 September 2026. Teaching is online; no Hilversum branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Hilversum branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the mediastad
 
@@ -183,7 +183,7 @@ Hilversum runs from the Hilversumse Meent in the north to the Landelijk Gebied o
 - **At home, at the set hour** The class opens on a laptop in the living room, so a learner in Zuidoost or the Meent is exactly as close to the teacher as one in the Centrum. No lift to arrange, and no waiting outside afterwards.
 - **School words in Dutch** Groep, brugklas, havo, vwo and profielkeuze stay in Dutch during lessons, as a Hilversum school writes them. The teacher knows the system and fits the lessons around it.
 - **A first lesson that teaches** The free hour is a real lesson on a real task, during which the teacher sees how the learner works. It closes with a level, a named course and a suggested regular time, and nothing is asked for in return.
-- **Groups from many countries** Five to ten learners at the same stage of the same subject. Hilversum has 15,389 residents under fifteen, but five at one exact stage free at one exact hour are seldom found in any single town, so groups draw on a worldwide pool.
+- **Groups from many countries** Fifteen to twenty learners at the same stage of the same subject. Hilversum has 15,389 residents under fifteen, but five at one exact stage free at one exact hour are seldom found in any single town, so groups draw on a worldwide pool.
 - **Regio Noord holidays** Two lessons a week, around eight a month, at a fixed hour. Noord-Holland schools follow regio Noord holidays, and the teaching calendar follows them too.
 - **The clock difference** India is three and a half hours ahead in summer and four and a half in winter. That leaves after-school hours, early evenings and weekend mornings open through the whole year.
 
@@ -194,7 +194,7 @@ Hilversum runs from the Hilversumse Meent in the north to the Landelijk Gebied o
 Three prices, stated in full before anyone books.
 
 - First class: USD 0. A full lesson on a real task, finishing with a level and a course name.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 The dollar fee is the same in Hilversum as in every other country, with no euro list beside it, so a family in Noordoost and a family in Zuid pay exactly the same. Nothing is charged until the free lesson has fixed a course and a time, and payment is then arranged over WhatsApp. Pauses, format changes and missed lessons are covered on the pricing page.
@@ -235,7 +235,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Hilversum coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

@@ -4,7 +4,7 @@ description: "Online maths tuition in Cardiff for ages 6 to 67: WJEC GCSE Mathem
 canonical: https://learn.modernagecoders.com/maths-tuition-in-cardiff
 source: src/pages/maths-tuition-in-cardiff.html
 ---
-> We are a maths tutor for Cardiff learners aged 6 to 67, teaching live online: primary maths under the Curriculum for Wales, secondary maths up to the WJEC GCSE Mathematics and Numeracy double award at Foundation or Higher tier, AS and A level Maths with Further Maths, and adult refreshers. Groups hold five to ten learners at one level, and one to one lessons are available. Our Cardiff example comes from Census 2021: the 35 to 49 age band has the most people, 67,407, yet the 20 to 24 band is the densest, at 7,577 people per year of age, because it is only five years wide. A first lesson is free; afterwards a group seat is USD 100 a month and private lessons USD 150 a month.
+> We are a maths tutor for Cardiff learners aged 6 to 67, teaching live online: primary maths under the Curriculum for Wales, secondary maths up to the WJEC GCSE Mathematics and Numeracy double award at Foundation or Higher tier, AS and A level Maths with Further Maths, and adult refreshers. Groups hold fifteen to twenty learners at one level, and one to one lessons are available. Our Cardiff example comes from Census 2021: the 35 to 49 age band has the most people, 67,407, yet the 20 to 24 band is the densest, at 7,577 people per year of age, because it is only five years wide. A first lesson is free; afterwards a group seat is USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Cardiff
 
@@ -14,7 +14,7 @@ Cardiff · Maths for ages 6 to 67 · Live online lessons, in small groups or one
 
 Ask which age group is the biggest in Cardiff and the census table seems to answer at once: the 35 to 49 band, with 67,407 people. Draw the bars properly and a different band towers over the rest. The 20 to 24 band holds 37,885 people, but it covers only five years of age, so it packs in 7,577 people for each year, against 4,494 for each year of the 35 to 49 band. That gap between a count and a density is exactly what WJEC asks of a GCSE student who meets a histogram with unequal class widths. This page sets out how we teach maths to Cardiff learners, from early number to A level and adult study, and uses the city's own census as the worked example.
 
-At a glance: Who: Cardiff learners from 6 to 67; Primary: Number sense, tables, early reasoning; Secondary: WJEC GCSE Mathematics and Numeracy; Sixth form: AS and A level, Further Maths; Adults: Refreshers and maths for work; Format: Live video, groups of 5 to 10 or private; Teachers: In India, timetabled on UK time; Local project: Census age bands as a histogram. Rated 4.9 across 547 Google reviews.
+At a glance: Who: Cardiff learners from 6 to 67; Primary: Number sense, tables, early reasoning; Secondary: WJEC GCSE Mathematics and Numeracy; Sixth form: AS and A level, Further Maths; Adults: Refreshers and maths for work; Format: Live video, groups of 15 to 20 or private; Teachers: In India, timetabled on UK time; Local project: Census age bands as a histogram. Rated 4.9 across 547 Google reviews.
 
 ## Three common starting points
 
@@ -231,7 +231,7 @@ Our teachers work from India, which keeps the same clock all year. In winter Ind
 
 - **One regular teacher** The person who noticed a mistake last week checks for it again this week.
 - **Notes after lessons** A short message home on what went well and what still needs work.
-- **Groups of five to ten** All at one level, so an explanation fits everyone in the room.
+- **Groups of fifteen to twenty** All at one level, so an explanation fits everyone in the room.
 - **Real data** Census tables, weather records and maps sit next to textbook exercises.
 - **Private lessons** For one stubborn topic, an exam close by, or a learner who prefers it.
 - **Reasons first** We ask why a method works before we drill it.
@@ -241,7 +241,7 @@ Our teachers work from India, which keeps the same clock all year. In winter Ind
 Charged monthly in US dollars at a single rate for every country outside India. There is no joining fee and nothing to sign in advance.
 
 - Free first class: USD 0. A proper lesson at the right level. An honest view of where things stand. No card details needed.
-- Group batch: USD 100 a month. Five to ten learners at one level. The same teacher each week. Work marked and discussed. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. Work marked and discussed. A certificate at the end.
 - One to one: USD 150 a month. A teacher for a single learner. Aimed at the exact weak spot. Handy in the run-up to exams.
 
 ## Questions Cardiff families and adult learners ask us

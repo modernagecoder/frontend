@@ -16,7 +16,7 @@ City of Ryde, Sydney, New South Wales / Live online
 
 Many AI agents answer questions by first fetching a piece of text and then reading only that piece. Which piece they can fetch depends on how the document was cut up beforehand, a step called chunking. We wrote one plain sentence for each of the 19 government schools in the City of Ryde, from the state's open schools file, and asked an agent when each school first had a teacher. Cut the text into 60-character chunks and the agent never sees a complete answer: 0 out of 19. Cut it at sentence boundaries and it gets 16 right. The three it still misses are instructive, because each one is a school whose name is also the name of a suburb.
 
-Facts last verified 10 October 2026. Teaching is online; no Ryde branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Ryde branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for agents that read before they answer
 
@@ -187,7 +187,7 @@ The schools in our project have addresses from Gladesville to Marsfield, and a l
 - **From home** No travel between suburbs; the learner logs in from home and the whole hour is spent coding.
 - **NSW stages** Plans track the NSW syllabus stages, break for the state holidays, and give senior students projects that suit their computing subjects.
 - **Trial, not a pitch** The free first lesson is a real class. At the end the teacher suggests a course, level and time, with nothing paid.
-- **Five to ten learners** Groups are built around level and pace, mixing Ryde learners with classmates from elsewhere.
+- **Fifteen to twenty learners** Groups are built around level and pace, mixing Ryde learners with classmates from elsewhere.
 - **Twice a week** A fixed hour on two days each week, roughly eight lessons monthly, with breaks agreed ahead.
 - **Teachers in India** An 8pm Ryde lesson in summer starts at 2:30pm India time; after Sydney leaves daylight saving it starts at 3:30pm there.
 
@@ -198,7 +198,7 @@ The schools in our project have addresses from Gladesville to Marsfield, and a l
 Three amounts make up the whole price list.
 
 - First class: USD 0. The first lesson costs nothing and ends with a clear recommendation.
-- Group tuition: USD 100 a month. A month of small-group lessons, normally eight, with five to ten learners.
+- Group tuition: USD 100 a month. A month of small-group lessons, normally eight, with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Roughly eight lessons a month, one teacher and one learner.
 
 Outside India every invoice is in US dollars, which means one rate for all of Ryde rather than a suburb tariff. Nothing is charged until course and time are fixed after the trial; holidays, absences and format changes are covered on the pricing page.
@@ -239,7 +239,7 @@ No. Every lesson is live online and we have no premises in Australia. A computer
 
 ### How much are AI agents classes for Ryde learners?
 
-The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before payment.
+The first lesson is free. After that, group lessons cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before payment.
 
 ### How many people are in a group?
 

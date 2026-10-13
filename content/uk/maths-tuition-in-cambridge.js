@@ -37,7 +37,7 @@ module.exports = {
   twitterDescription: 'Maths tuition in Cambridge, live online: is cycling 14.7 points higher, 699% higher or 8 times higher? All three are true.',
   pageName: 'Maths Tuition in Cambridge',
   webPageDescription: 'Live online maths tuition for Cambridge learners aged 6 to 67, from KS2 and the SATs through KS3, GCSE and A level with Further Maths topics to adult maths, with a percentages project on Census 2021 travel to work.',
-  courseDescription: 'Live online maths teaching for Cambridge learners at every stage, in level-matched groups of five to ten or one to one, following the national curriculum and the GCSE and A level specifications.',
+  courseDescription: 'Live online maths teaching for Cambridge learners at every stage, in level-matched groups of fifteen to twenty or one to one, following the national curriculum and the GCSE and A level specifications.',
   crumbs: [{ name: 'Courses', href: '/courses' }, { name: 'Coding classes in the UK', href: '/coding-classes-in-united-kingdom' }],
   crumbLabel: 'Maths tuition in Cambridge',
   navLinks: [
@@ -60,7 +60,7 @@ module.exports = {
     ['GCSE', 'Foundation and Higher, AQA, Edexcel, OCR'],
     ['Sixth form', 'A level and Further Maths topics'],
     ['Adults', 'GCSE resits and statistics for work'],
-    ['Teaching', 'Live online, solo or 5 to 10 per class'],
+    ['Teaching', 'Live online, solo or 15 to 20 per class'],
     ['Project', 'Census cycling percentages']
   ],
   capsuleQ: 'Maths tuition in Cambridge, briefly',
@@ -265,7 +265,7 @@ module.exports = {
     cells: [
       { h3: 'One teacher throughout', p: 'The same teacher each week, who remembers what went wrong last time.' },
       { h3: 'Notes home', p: 'A short update after lessons on progress and next steps.' },
-      { h3: 'Classes of five to ten', p: 'Learners at the same level, so the pace fits.' },
+      { h3: 'Classes of fifteen to twenty', p: 'Learners at the same level, so the pace fits.' },
       { h3: 'Census and real data', p: 'Real tables alongside exam papers.' },
       { h3: 'Solo lessons', p: 'For an exam soon or one stubborn topic.' },
       { h3: 'Why, then how', p: 'Every method is explained before it is practised.' }
@@ -280,7 +280,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Monthly, in US dollars, at one price for everywhere outside India. No registration fee and no minimum term.',
     free: ['A full lesson at the right level', 'An honest view of the starting point', 'No card needed'],
-    group: ['Five to ten learners, one level', 'A consistent teacher', 'Marked work with feedback', 'A certificate on completion'],
+    group: ['Fifteen to twenty learners, one level', 'A consistent teacher', 'Marked work with feedback', 'A certificate on completion'],
     one: ['A teacher for one learner', 'Planned around their needs', 'Useful before exams']
   },
 
@@ -289,7 +289,7 @@ module.exports = {
     h2: 'Cambridge families ask us about maths tuition',
     items: [
       { q: 'What is the difference between a percentage point and a per cent?', a: 'A percentage point is the gap between two percentages, found by subtracting. A per cent change compares that gap with the starting value. Going from 2.10% to 16.77% is 14.67 percentage points, or a rise of about 699 per cent.' },
-      { q: 'How much does a maths tutor in Cambridge cost with you?', a: 'The first lesson is free. After that a place in a class of five to ten is USD 100 a month and one to one lessons are USD 150 a month, with no joining fee.' },
+      { q: 'How much does a maths tutor in Cambridge cost with you?', a: 'The first lesson is free. After that a place in a class of fifteen to twenty is USD 100 a month and one to one lessons are USD 150 a month, with no joining fee.' },
       { q: 'Do you teach Further Maths in Cambridge?', a: 'Yes, as an extension of our A level course. Students who are secure in the core can work on Further Maths topics with the same teacher. Tell us the board when booking.' },
       { q: 'Which GCSE boards do you cover?', a: 'AQA, Edexcel and OCR at both tiers, plus IGCSE. We teach to the specification the school uses.' },
       { q: 'Can adults resit GCSE maths with you?', a: 'Certainly. Plenty of Cambridge adults retake GCSE maths with us, often for a training course or job. The work starts wherever your confidence runs out, and the exam itself is entered through a local college or exam centre.' },

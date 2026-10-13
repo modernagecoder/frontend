@@ -16,7 +16,7 @@ Stillorgan, County Dublin / Live online
 
 The county council publishes the boundary of the Stillorgan Local Area Plan as a list of 735 corners, and it states the area inside as 161,513 square metres. Give those corners to a standard area formula without thinking and it returns 269,680, two thirds too much. Nothing is wrong with the formula or with the file. The corners are written in degrees, and at Stillorgan a degree east covers much less ground than a degree north. This page teaches a learner to spot that, fix it in three steps of increasing care, and land within half a square metre of the council's figure.
 
-Facts last verified 20 September 2026. Teaching is online; no Stillorgan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Stillorgan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four first courses for Stillorgan
 
@@ -148,7 +148,7 @@ Correct code on the wrong units gives a wrong answer. A learner who checks the u
 The essentials.
 
 - **In real time** No recorded video stands in for the teacher: every lesson happens live, with help on each learner's own code.
-- **Matched by stage** Five to ten learners at the same stage, whether they join from Stillorgan, another county or another country.
+- **Matched by stage** Fifteen to twenty learners at the same stage, whether they join from Stillorgan, another county or another country.
 - **Fixed days** Two set days a week, which comes to about eight lessons in a month.
 - **Term-aware** The plan leaves room for school holidays, mid-terms and exams.
 - **Equipment** A laptop or desktop computer, a microphone, something to listen through, and broadband that copes with a video call.
@@ -161,7 +161,7 @@ The essentials.
 Briefly.
 
 - First class: USD 0. The first lesson, level check included, costs nothing.
-- Group tuition: USD 100 a month. One month in a same-level group of five to ten: roughly eight live lessons.
+- Group tuition: USD 100 a month. One month in a same-level group of fifteen to twenty: roughly eight live lessons.
 - Private tuition: USD 150 a month. One month of one-to-one teaching on the same pattern.
 
 Outside India every family pays the same fee in US dollars, a month at a time. The opening lesson carries no obligation and billing starts only when the course does; the pricing page explains holidays, missed lessons and moving between group and private lessons.
@@ -198,11 +198,11 @@ Only by chance. Groups are formed by level, so classmates may live anywhere in I
 
 ### What do coding classes in Stillorgan cost?
 
-The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, in a group of five to ten learners, and one-to-one teaching on the same schedule is USD 150 a month. Terms are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, in a group of fifteen to twenty learners, and one-to-one teaching on the same schedule is USD 150 a month. Terms are agreed before anything is paid.
 
 ### How large are the groups?
 
-Five to ten learners, matched by level, pace and goals rather than by age or postcode. If no group fits a workable time, the lessons are one to one.
+Fifteen to twenty learners, matched by level, pace and goals rather than by age or postcode. If no group fits a workable time, the lessons are one to one.
 
 ## Around Stillorgan
 

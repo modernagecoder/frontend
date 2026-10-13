@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes across Cumbria, f
 canonical: https://learn.modernagecoders.com/coding-classes-in-cumbria
 source: src/pages/coding-classes-in-cumbria.html
 ---
-> Cumbria had 499,849 residents at the 2021 Census, counted then in six districts and now served by two councils, Cumberland and Westmorland and Furness. Carlisle is by far the largest town, then Barrow-in-Furness, Kendal, Whitehaven and Workington, and after them small towns scattered across fells, coast and valleys. Distance is the county's defining fact, and online teaching is how we answer it: a teacher in India, live on video, working with learners placed by ability rather than age, anyone from 6 up to 67, in small groups of five to ten or on their own. We teach programming, Python, AI, machine learning and maths. The Cumbria project is about the Lake poets and a machine that learns. The first lesson costs nothing; then a group place is USD 100 a month and private teaching USD 150.
+> Cumbria had 499,849 residents at the 2021 Census, counted then in six districts and now served by two councils, Cumberland and Westmorland and Furness. Carlisle is by far the largest town, then Barrow-in-Furness, Kendal, Whitehaven and Workington, and after them small towns scattered across fells, coast and valleys. Distance is the county's defining fact, and online teaching is how we answer it: a teacher in India, live on video, working with learners placed by ability rather than age, anyone from 6 up to 67, in groups of fifteen to twenty or on their own. We teach programming, Python, AI, machine learning and maths. The Cumbria project is about the Lake poets and a machine that learns. The first lesson costs nothing; then a group place is USD 100 a month and private teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Cumbria
 
@@ -12,11 +12,11 @@ County of Cumbria / Live online
 
 # Coding classes in Cumbria
 
-**What are the best coding classes in Cumbria?** Cumbria had 499,849 residents at the 2021 Census, counted then in six districts and now served by two councils, Cumberland and Westmorland and Furness. Carlisle is by far the largest town, then Barrow-in-Furness, Kendal, Whitehaven and Workington, and after them small towns scattered across fells, coast and valleys. Distance is the county's defining fact, and online teaching is how we answer it: a teacher in India, live on video, working with learners placed by ability rather than age, anyone from 6 up to 67, in small groups of five to ten or on their own. We teach programming, Python, AI, machine learning and maths. The Cumbria project is about the Lake poets and a machine that learns. The first lesson costs nothing; then a group place is USD 100 a month and private teaching USD 150.
+**What are the best coding classes in Cumbria?** Cumbria had 499,849 residents at the 2021 Census, counted then in six districts and now served by two councils, Cumberland and Westmorland and Furness. Carlisle is by far the largest town, then Barrow-in-Furness, Kendal, Whitehaven and Workington, and after them small towns scattered across fells, coast and valleys. Distance is the county's defining fact, and online teaching is how we answer it: a teacher in India, live on video, working with learners placed by ability rather than age, anyone from 6 up to 67, in groups of fifteen to twenty or on their own. We teach programming, Python, AI, machine learning and maths. The Cumbria project is about the Lake poets and a machine that learns. The first lesson costs nothing; then a group place is USD 100 a month and private teaching USD 150.
 
 Wordsworth grew up and wrote in the Lakes, and Coleridge wrote part of Christabel "in the year 1800, at Keswick, Cumberland", as his own preface puts it. Their styles are different enough that a simple machine learning model can tell their poetry apart with startling accuracy. This page's project builds that model from scratch, a naive Bayes classifier, and trains it on free editions of each poet. It scores nearly 97 per cent. Then comes the twist every learner should see once: when you ask the model which words convinced it, many of them turn out not to be poetry at all, but the editors' footnotes. The project is about building a classifier, and even more about asking what it has really learned.
 
-Facts last verified 26 September 2026. Teaching is online; no Cumbria branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Cumbria branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Cumbrian learners usually begin
 
@@ -149,7 +149,7 @@ Cumbria's distances are long and its roads slow in winter. Online lessons ignore
 - **Taught where you live** A farmhouse table near Wigton, a bedroom in Egremont, a desk in Ulverston. Teacher and learner share one screen.
 - **School words, in English** Year 9 options, GCSEs and A levels are named the way Cumbrian schools name them, and teaching is in English.
 - **The first lesson is free** A proper lesson with real work and a clear recommendation afterwards. There is nothing to pay and no card to give.
-- **A class at your stage** Five to ten learners who have reached the same point, from towns and countries far apart, meeting at a sensible hour.
+- **A class at your stage** Fifteen to twenty learners who have reached the same point, from towns and countries far apart, meeting at a sensible hour.
 - **Your school's holidays** Two lessons a week is typical, paused whenever your own school breaks up.
 - **Always in UK time** Teachers are in India, four and a half hours ahead of UK summer time and five and a half ahead in winter; you only ever see UK time.
 
@@ -160,7 +160,7 @@ Cumbria's distances are long and its roads slow in winter. Online lessons ignore
 One price for every Cumbrian town, and for every country outside India.
 
 - First class: USD 0. A full lesson of real work, finishing with a recommended level and course.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten at the same level.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty at the same level.
 - Private tuition: USD 150 a month. About eight lessons a month with a teacher and one learner.
 
 We charge in US dollars for all families outside India and have no pound price list. The first payment is taken only after the free lesson has settled a course and weekly slot; pauses, missed lessons and changes between group and private teaching are covered on the pricing page.

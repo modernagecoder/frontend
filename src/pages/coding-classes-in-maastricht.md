@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Maastricht for ages 6
 canonical: https://learn.modernagecoders.com/coding-classes-in-maastricht
 source: src/pages/coding-classes-in-maastricht.html
 ---
-> Coding classes in Maastricht serve 126,026 people (Statistics Netherlands, 1 January 2026), of whom only 10.1 percent are under fifteen and 20.9 percent are between fifteen and twenty-five, the shape of a place where a university sits inside a small old town. Its history entry states plainly that Maastricht never held city rights in the sense of a charter, which is awkward, because every other city page in this series quotes a year for exactly that. A field that is filled in everywhere else is not the definition of anything. Modern Age Coders teaches live online in English here and in Borgharen and Itteren, ages 6 to 67, free first lesson, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+> Coding classes in Maastricht serve 126,026 people (Statistics Netherlands, 1 January 2026), of whom only 10.1 percent are under fifteen and 20.9 percent are between fifteen and twenty-five, the shape of a place where a university sits inside a small old town. Its history entry states plainly that Maastricht never held city rights in the sense of a charter, which is awkward, because every other city page in this series quotes a year for exactly that. A field that is filled in everywhere else is not the definition of anything. Modern Age Coders teaches live online in English here and in Borgharen and Itteren, ages 6 to 67, free first lesson, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / Maastricht
 
@@ -12,11 +12,11 @@ Maastricht, Limburg / Live online
 
 # Coding classes in Maastricht, a city that never received city rights
 
-**What are the best coding classes in Maastricht?** Coding classes in Maastricht serve 126,026 people (Statistics Netherlands, 1 January 2026), of whom only 10.1 percent are under fifteen and 20.9 percent are between fifteen and twenty-five, the shape of a place where a university sits inside a small old town. Its history entry states plainly that Maastricht never held city rights in the sense of a charter, which is awkward, because every other city page in this series quotes a year for exactly that. A field that is filled in everywhere else is not the definition of anything. Modern Age Coders teaches live online in English here and in Borgharen and Itteren, ages 6 to 67, free first lesson, then USD 100 monthly in a group of five to ten or USD 150 one to one.
+**What are the best coding classes in Maastricht?** Coding classes in Maastricht serve 126,026 people (Statistics Netherlands, 1 January 2026), of whom only 10.1 percent are under fifteen and 20.9 percent are between fifteen and twenty-five, the shape of a place where a university sits inside a small old town. Its history entry states plainly that Maastricht never held city rights in the sense of a charter, which is awkward, because every other city page in this series quotes a year for exactly that. A field that is filled in everywhere else is not the definition of anything. Modern Age Coders teaches live online in English here and in Borgharen and Itteren, ages 6 to 67, free first lesson, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
 
 Nearly every Dutch city can name the year it was granted its rights, and this cluster has quoted a dozen of them. Maastricht cannot, because it never received a charter at all: what 1229 records is a duke's permission to build a stone wall. Nobody doubts that Maastricht is a city, so the field that every other record has filled in turns out not to be what makes a city a city. Build a classifier on it and the oldest continuously inhabited place in the country comes back false.
 
-Facts last verified 8 September 2026. Teaching is online; no Maastricht branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 8 September 2026. Teaching is online; no Maastricht branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a small city with a large international university
 
@@ -208,7 +208,7 @@ Maastricht is compact and Belgium is minutes away, but Itteren and Borgharen are
 On the page rather than kept for a phone call.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate applies, quoted in dollars and never in euros, so Itteren is charged exactly what the Vrijthof is. Payment follows the free lesson rather than preceding it and goes over WhatsApp once a course and a time are agreed. Pausing, changing plan and missing a week are set out on the pricing page.
@@ -249,7 +249,7 @@ No, and none is claimed near the Vrijthof, in Wyck or anywhere in the Netherland
 
 ### What do Maastricht coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Maastricht group?
 

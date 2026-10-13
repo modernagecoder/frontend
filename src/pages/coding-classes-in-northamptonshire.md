@@ -16,7 +16,7 @@ Northamptonshire / Live online
 
 The Express Lift Tower rises 127 metres over Northampton. Its official listing says it was built between 1980 and 1982 for testing lifts at speeds of up to 7 metres per second, and calls it a significant local landmark. Every lift it tested faced the same everyday puzzle: with people waiting on several floors, which call should it answer next? Answer the nearest and the lift saves travel, but someone at the far end can wait a very long time. This page's project simulates one lift in Python with three different rules and measures both the average wait and the worst one. The rule that wins on one measure loses badly on the other.
 
-Facts last verified 26 September 2026. Teaching is online; no Northamptonshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Northamptonshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Northamptonshire learners get going
 
@@ -137,7 +137,7 @@ Evening traffic around Northampton and between the towns eats time. Lessons onli
 - **Learn where you live** A bedroom in Wellingborough, a kitchen table in Towcester, a study in Desborough. Learner and teacher look at the same shared screen, and the learner types.
 - **School language we share** Year groups, key stages, GCSEs and A levels mean the same to us as to Northamptonshire schools, and teaching is in English.
 - **Try it free** A real lesson with real work, then a frank suggestion of level and course. No card details are needed.
-- **Groups by level** Classmates are matched on stage, not postcode, so a group of five to ten might mix learners from Kettering, Kent and much further afield.
+- **Groups by level** Classmates are matched on stage, not postcode, so a group of fifteen to twenty might mix learners from Kettering, Kent and much further afield.
 - **Your holidays respected** Two lessons a week is normal, with breaks for the holidays your own school keeps.
 - **Set in UK time** We fix your slot in UK time and leave it alone when the clocks change; our teachers run on India time, several hours ahead, and absorb the shift.
 
@@ -148,7 +148,7 @@ Evening traffic around Northampton and between the towns eats time. Lessons onli
 Northampton or Thrapston, you pay the same, and it is what families pay in every country we teach except India.
 
 - First class: USD 0. One whole lesson of genuine work, then advice on level and course.
-- Group tuition: USD 100 a month. Roughly eight lessons a month, in a group of five to ten at one level.
+- Group tuition: USD 100 a month. Roughly eight lessons a month, in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. Roughly eight lessons a month, taught one-to-one.
 
 All prices are in US dollars and none in pounds. You are never charged before the free lesson has pinned down a course and a regular weekly slot. How pauses, missed lessons and a move between group and private classes work is set out on our pricing page.

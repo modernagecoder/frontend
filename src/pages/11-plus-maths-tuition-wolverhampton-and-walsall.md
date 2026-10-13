@@ -207,7 +207,7 @@ Teaching is live from India. Primary pupils in Wolverhampton and Walsall have ea
 
 - **One teacher all year** Who notices the same slip twice.
 - **Frank updates** A few honest lines after lessons.
-- **Five to ten per class** Matched by level.
+- **Fifteen to twenty per class** Matched by level.
 - **Our own questions** No GL material reproduced.
 - **One to one** For a stubborn topic.
 - **Our subject** Maths lessons, nothing wider: English, reasoning and admissions belong elsewhere.
@@ -217,7 +217,7 @@ Teaching is live from India. Primary pupils in Wolverhampton and Walsall have ea
 Every family outside India pays one monthly US dollar price. No joining fee; stop whenever you like.
 
 - Free first class: USD 0. A proper lesson. An honest verdict. No card needed.
-- Group batch: USD 100 a month. Five to ten children at one level. A regular teacher. Work reviewed together. Certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. A regular teacher. Work reviewed together. Certificate at the end.
 - One to one: USD 150 a month. A teacher for one child. Aimed at gaps. Flexible timing.
 
 ## What local families ask us

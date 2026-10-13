@@ -184,7 +184,7 @@ Your tutor is in India. Victorian time runs 4.5 hours ahead of India in winter a
 - **Context first** Every topic starts from a real situation, then the maths.
 - **Explain every answer** A sentence about what the number means, every time.
 - **Spreadsheets and code** Technology used to check and explore, as Outcome 3 asks.
-- **Groups kept small** Five to ten students at one level, encouraged to ask anything.
+- **Groups kept small** Fifteen to twenty students at one level, encouraged to ask anything.
 - **One-to-one sessions** For students who want a quieter pace.
 - **No outcome guarantees** We do not predict study scores or ATARs; progress is earned by the student.
 
@@ -193,7 +193,7 @@ Your tutor is in India. Victorian time runs 4.5 hours ahead of India in winter a
 Foundation lessons are charged monthly in US dollars, at the same rate for any family outside India, with nothing to pay to begin and no lock-in.
 
 - Free first class: USD 0. A full lesson with a tutor. A kind, honest view of the gaps. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. The same tutor each week. Practice talked through together. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same tutor each week. Practice talked through together. A certificate at the end.
 - One to one: USD 150 a month. One tutor, one student. At the student's own pace. Often chosen to rebuild confidence.
 
 ## Foundation questions we often hear

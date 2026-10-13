@@ -181,7 +181,7 @@ module.exports = {
       { h3: 'Taught on your clock', p: 'Lesson times are fixed in Broken Hill time, which is half an hour behind most of New South Wales.' },
       { h3: 'Pitched to NSW stages', p: 'Teachers work with the NSW stage and Year system, HSC students included, and teach in English.' },
       { h3: 'Code before commitment', p: 'The first lesson is real programming with a teacher. Afterwards you receive a suggested course and time, and no payment details are taken.' },
-      { h3: 'Five to ten per group', p: 'Learners at one level, drawn from across Australia and abroad, so each stage has a workable slot.' },
+      { h3: 'Fifteen to twenty per group', p: 'Learners at one level, drawn from across Australia and abroad, so each stage has a workable slot.' },
       { h3: 'Two lessons a week', p: 'Around eight a month. Holidays and exam weeks are planned with the teacher ahead of time.' },
       { h3: 'Daylight saving handled', p: 'When South Australian clocks change, Broken Hill lessons stay at the same local hour.' }
     ],
@@ -192,7 +192,7 @@ module.exports = {
     h2: 'Fees for online Python in Broken Hill',
     intro: 'Three lines cover it.',
     first: 'One free lesson, ending in a recommended level, course and time.',
-    group: 'A month of group lessons, normally eight, with five to ten learners at the same stage.',
+    group: 'A month of group lessons, normally eight, with fifteen to twenty learners at the same stage.',
     private: 'About eight private lessons a month with one teacher.',
     closer: 'Living far from a capital costs nothing extra: Broken Hill families pay the same US dollar rate as everyone else. Payment starts only after the trial settles a course and time, and the pricing page explains breaks, missed lessons and switching format.'
   },
@@ -217,7 +217,7 @@ module.exports = {
       { q: 'When are lessons held for Broken Hill learners?', a: 'After school, in the evening or at weekends, agreed in the trial and written in Broken Hill time. India time is four hours behind Broken Hill in winter and five in summer.' },
       { q: 'Is there anything for younger children?', a: 'Yes, from age 6 there are visual coding courses, though the binary file project on this page is meant for teenagers and adults.' },
       { q: 'Is there a Modern Age Coders office in Broken Hill?', a: 'No, and we do not claim one. Teaching is live and online only, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a steady connection, and the contact number on this page is an Indian number.', boiler: true },
-      { q: 'What do online Python classes in Broken Hill cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
+      { q: 'What do online Python classes in Broken Hill cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
       { q: 'How large are the groups?', a: 'Between five and ten learners, matched on level, pace and goals rather than on age or postcode. When no group fits a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },

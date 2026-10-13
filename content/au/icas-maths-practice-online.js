@@ -223,7 +223,7 @@ module.exports = {
     cells: [
       { h3: 'Reasoning first', p: 'Students explain why an answer must be right.' },
       { h3: 'Estimation habit', p: 'Answers are checked against a rough size.' },
-      { h3: 'Groups of five to ten', p: 'Grouped by paper level.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Grouped by paper level.' },
       { h3: 'One-to-one option', p: 'For a specific gap or a stretch goal.' },
       { h3: 'Short parent notes', p: 'What was covered and one thing to practise.' },
       { h3: 'No result promises', p: 'We teach maths; the result is the student\'s.' }
@@ -238,7 +238,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Australian families pay monthly in US dollars, the rate we use in every country outside India. No deposit, and you can stop at any month end. ICAS entry is separate and arranged through schools or ICAS Assessments.',
     free: ['A real lesson with a teacher', 'An honest view of your child\'s level', 'No card details'],
-    group: ['Five to ten students at one level', 'The same teacher every week', 'Work marked and explained', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one level', 'The same teacher every week', 'Work marked and explained', 'A certificate at the end'],
     one: ['A teacher for one student', 'Focused on chosen learning areas', 'A weekly time that suits you']
   },
 

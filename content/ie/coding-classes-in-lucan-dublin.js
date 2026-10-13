@@ -163,7 +163,7 @@ module.exports = {
     intro: 'The arrangement, briefly.',
     cells: [
       { h3: 'Taught live', p: 'The teacher is there for the whole lesson, working through each learner\'s code as it develops.' },
-      { h3: 'Classes by level', p: 'Five to ten learners at a shared stage, some in Lucan, some elsewhere in Ireland and some further afield.' },
+      { h3: 'Classes by level', p: 'Fifteen to twenty learners at a shared stage, some in Lucan, some elsewhere in Ireland and some further afield.' },
       { h3: 'Regular days', p: 'Roughly eight lessons a month, on the same two days each week once agreed.' },
       { h3: 'School calendar', p: 'Holidays, mid-terms and exam weeks are accounted for from the start of the course.' },
       { h3: 'What is needed', p: 'A computer with a keyboard, a microphone and headphones or speakers, and broadband that handles video.' },
@@ -176,7 +176,7 @@ module.exports = {
     h2: 'The fees for Lucan learners',
     intro: 'Short and complete.',
     first: 'The first lesson, with its level check, free.',
-    group: 'A month in a group of five to ten at one level, around eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, around eight live lessons.',
     private: 'A month of one-to-one lessons on the same timetable.',
     closer: 'Every family outside India pays a single monthly fee in US dollars. Taking the free lesson commits nobody, charging begins with the course itself, and the pricing page covers holidays, missed lessons and moving between group and one-to-one teaching.'
   },
@@ -200,8 +200,8 @@ module.exports = {
       { q: 'What times are lessons?', a: 'From the end of the school day into the evening on weekdays, and during the day at weekends. All times are in Irish time; our teachers work from India, ahead of Ireland by four and a half hours in summer and five and a half in winter, and only times that suit both are offered.' },
       { q: 'Can adults learn with you?', a: 'Yes, from complete beginners upwards and up to sixty-seven. After the first lesson an adult chooses between a small same-level group and one-to-one lessons.' },
       { q: 'Will my child\'s classmates be local?', a: 'Sometimes, but not by design. Groups are made by level, so classmates may be in Lucan, in another part of Ireland or abroad.' },
-      { q: 'What do coding classes in Lucan cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same timetable cost USD 150 a month. Everything is agreed before any payment.', boiler: true },
-      { q: 'How large are the groups?', a: 'Five to ten learners, matched on level, pace and goals rather than on age or address. If nothing fits at a workable time, lessons are one to one.', boiler: true }
+      { q: 'What do coding classes in Lucan cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same timetable cost USD 150 a month. Everything is agreed before any payment.', boiler: true },
+      { q: 'How large are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and goals rather than on age or address. If nothing fits at a workable time, lessons are one to one.', boiler: true }
     ]
   },
 

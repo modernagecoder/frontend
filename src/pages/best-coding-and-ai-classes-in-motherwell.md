@@ -4,7 +4,7 @@ description: "Online coding, AI, Python and vibe coding lessons for Motherwell, 
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-motherwell
 source: src/pages/best-coding-and-ai-classes-in-motherwell.html
 ---
-> Behind Cumbernauld, Coatbridge and Airdrie, Motherwell is North Lanarkshire's fourth locality, estimated at 32,840 residents for mid-2020 by National Records of Scotland. Forgewood, Muirhouse, Flemington, Carfin and New Stevenston are among its recorded suburbs in the ML1 district, with Newarthill and Cleland listed as villages. Coding, AI, Python, vibe coding and maths lessons are delivered on camera by India-based tutors to anyone six to 67, as one-to-one sessions or in a level-matched group of five to ten. Logical thinking is taught before tools, so learners can find the flaw in a map, a program or an AI answer. We run the first session without charge and finish it with a course suggestion. The Motherwell project turns 96.9 km of mapped streets into a directed graph and asks whether any one-way rule lets a driver in but never out. Past the trial, group lessons are USD 100 monthly and individual lessons USD 150 monthly.
+> Behind Cumbernauld, Coatbridge and Airdrie, Motherwell is North Lanarkshire's fourth locality, estimated at 32,840 residents for mid-2020 by National Records of Scotland. Forgewood, Muirhouse, Flemington, Carfin and New Stevenston are among its recorded suburbs in the ML1 district, with Newarthill and Cleland listed as villages. Coding, AI, Python, vibe coding and maths lessons are delivered on camera by India-based tutors to anyone six to 67, as one-to-one sessions or in a level-matched group of fifteen to twenty. Logical thinking is taught before tools, so learners can find the flaw in a map, a program or an AI answer. We run the first session without charge and finish it with a course suggestion. The Motherwell project turns 96.9 km of mapped streets into a directed graph and asks whether any one-way rule lets a driver in but never out. Past the trial, group lessons are USD 100 monthly and individual lessons USD 150 monthly.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Motherwell
 
@@ -12,11 +12,11 @@ Motherwell, North Lanarkshire, Scotland / Live online
 
 # Coding and AI classes in Motherwell
 
-**Where can Motherwell learners find the best coding and AI classes?** Behind Cumbernauld, Coatbridge and Airdrie, Motherwell is North Lanarkshire's fourth locality, estimated at 32,840 residents for mid-2020 by National Records of Scotland. Forgewood, Muirhouse, Flemington, Carfin and New Stevenston are among its recorded suburbs in the ML1 district, with Newarthill and Cleland listed as villages. Coding, AI, Python, vibe coding and maths lessons are delivered on camera by India-based tutors to anyone six to 67, as one-to-one sessions or in a level-matched group of five to ten. Logical thinking is taught before tools, so learners can find the flaw in a map, a program or an AI answer. We run the first session without charge and finish it with a course suggestion. The Motherwell project turns 96.9 km of mapped streets into a directed graph and asks whether any one-way rule lets a driver in but never out. Past the trial, group lessons are USD 100 monthly and individual lessons USD 150 monthly.
+**Where can Motherwell learners find the best coding and AI classes?** Behind Cumbernauld, Coatbridge and Airdrie, Motherwell is North Lanarkshire's fourth locality, estimated at 32,840 residents for mid-2020 by National Records of Scotland. Forgewood, Muirhouse, Flemington, Carfin and New Stevenston are among its recorded suburbs in the ML1 district, with Newarthill and Cleland listed as villages. Coding, AI, Python, vibe coding and maths lessons are delivered on camera by India-based tutors to anyone six to 67, as one-to-one sessions or in a level-matched group of fifteen to twenty. Logical thinking is taught before tools, so learners can find the flaw in a map, a program or an AI answer. We run the first session without charge and finish it with a course suggestion. The Motherwell project turns 96.9 km of mapped streets into a directed graph and asks whether any one-way rule lets a driver in but never out. Past the trial, group lessons are USD 100 monthly and individual lessons USD 150 monthly.
 
 A road map is a graph: junctions joined by streets. With two-way streets you can always retrace your steps, but one-way streets turn it into a directed graph, where getting from A to B says nothing about getting back. The right question then is which parts of town are strongly connected: places you can drive from any one to any other and back again, legally. A single wrongly tagged one-way street can create a pocket you can enter but never leave. This project runs that check on Motherwell's streets as mapped on OpenStreetMap, and discovers that most of the apparent problems were caused by the analysis itself.
 
-Facts last verified 29 September 2026. Teaching is online; no Motherwell branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Motherwell branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Motherwell courses in logic, Python and AI
 
@@ -131,7 +131,7 @@ Kit list: a computer, a webcam and an internet connection that handles video.
 - **Learner in charge** The student types and runs everything; the tutor watches via screen share and asks them to predict each output.
 - **Trial sets the level** The free first lesson shows what to teach first, with SQA exams noted if relevant.
 - **Opening lesson free** No fee for lesson one, which finishes with a course suggestion.
-- **Classes by ability** Five to ten learners from across Britain, grouped by stage.
+- **Classes by ability** Fifteen to twenty learners from across Britain, grouped by stage.
 - **Twice weekly** We break for school holidays.
 - **Unchanging hour** When UK clocks change, our tutors move so you do not have to.
 

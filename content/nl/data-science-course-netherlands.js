@@ -56,7 +56,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Modern Age Coders teaches data science live online to learners in the Netherlands: Python and statistics first, then SQL, data cleaning and visualisation, then machine learning. Every project starts with the same questions a statistics office asks of a new source: who is in this data, what does it really measure and how good is it? Teenagers, students and adults are placed by ability, in groups of five to ten or one to one, and non-programmers can start with analytics tools before Python. The trial lesson costs nothing; afterwards a group seat is USD 100 and private teaching USD 150 per month.',
+  capsule: 'Modern Age Coders teaches data science live online to learners in the Netherlands: Python and statistics first, then SQL, data cleaning and visualisation, then machine learning. Every project starts with the same questions a statistics office asks of a new source: who is in this data, what does it really measure and how good is it? Teenagers, students and adults are placed by ability, in groups of fifteen to twenty or one to one, and non-programmers can start with analytics tools before Python. The trial lesson costs nothing; afterwards a group seat is USD 100 and private teaching USD 150 per month.',
 
   picks: {
     eyebrow: 'Start here',
@@ -201,7 +201,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first lesson', p: 'You explore a real dataset with a teacher, who sees your level and proposes a route.' },
-      { h3: 'Groups of five to ten', p: 'Learners at the same level from several countries, often analysing the same data differently.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners at the same level from several countries, often analysing the same data differently.' },
       { h3: 'One to one for theses', p: 'For a thesis analysis, a work project or a learner who prefers a teacher to themselves.' },
       { h3: 'Data questioned aloud', p: 'Teachers ask who is in the data and what it measures before any chart is drawn.' },
       { h3: 'In English', p: 'The language of the tools and libraries; Dutch datasets are used as they come.' },
@@ -217,7 +217,7 @@ module.exports = {
     h2: 'Data science fees',
     lede: 'One monthly price in US dollars for every country outside India, whether the learner analyses data in spreadsheets or in Python. Joining is free of charge and there is no annual commitment.',
     free: ['A real lesson on real data', 'A route proposed', 'No card needed'],
-    group: ['Five to ten learners at one level', 'The same live teacher each week', 'Analyses reviewed weekly', 'A certificate at the end'],
+    group: ['Fifteen to twenty learners at one level', 'The same live teacher each week', 'Analyses reviewed weekly', 'A certificate at the end'],
     one: ['A teacher for one learner', 'Built around a thesis or job', 'Pace set by your goal']
   },
 

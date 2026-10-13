@@ -16,7 +16,7 @@ Bishopstown, Cork / Live online
 
 Cork City Council publishes its ten library branches as open data, with a column for each weekday's opening hours. How many hours a week is Bishopstown Library open? The file holds the answer as text, and across the branches the same kind of fact is written in 11 different formats, from "10.00 a.m. - 5.30 p.m" to "9:30am-5:30pm" to "10am - 6pm". Bishopstown's own entries add footnotes inside the times. Parse them carefully and the regular week comes to 45 hours; read the library's web page and members of its self-service scheme can use the building 98 hours a week. This page teaches a learner to turn text into numbers without losing the parts that do not fit.
 
-Facts last verified 20 September 2026. Teaching is online; no Bishopstown branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 20 September 2026. Teaching is online; no Bishopstown branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four first courses for Bishopstown
 
@@ -148,7 +148,7 @@ Text that looks like data usually hides a few exceptions. Code that keeps them i
 Quickly.
 
 - **Taught in real time** Every lesson is live, with the teacher checking each learner's code and helping as they go.
-- **Level first** Groups of five to ten learners at the same level, from Bishopstown, around Ireland or abroad.
+- **Level first** Groups of fifteen to twenty learners at the same level, from Bishopstown, around Ireland or abroad.
 - **Regular slots** Two fixed days each week, around eight lessons a month.
 - **Term planning** Holidays, mid-terms and exam periods are built into the course plan.
 - **At home** A laptop or desktop, a microphone, headphones or speakers, and a connection strong enough for video.
@@ -161,7 +161,7 @@ Quickly.
 Straight to it.
 
 - First class: USD 0. A free opening lesson with a level check.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, around eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, around eight live lessons.
 - Private tuition: USD 150 a month. A month of one-to-one lessons at the same frequency.
 
 Families outside India all pay the same fee in US dollars, a month at a time. Booking the free lesson is not an agreement to continue; payment begins with the course itself, and our pricing page answers the usual questions on holiday weeks, missed sessions and moving from a group to private lessons or back.
@@ -198,7 +198,7 @@ Sometimes, though we build groups around ability rather than area, so the other 
 
 ### What do coding classes in Bishopstown cost?
 
-The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.
+The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.
 
 ### How many learners are in a group?
 

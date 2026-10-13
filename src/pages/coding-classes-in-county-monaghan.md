@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across County Monaghan, 
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-monaghan
 source: src/pages/coding-classes-in-county-monaghan.html
 ---
-> County Monaghan counted 65,288 residents in 2022, and in three towns: Monaghan with 7,894, Carrickmacross with 5,745 and Castleblayney with 3,926, the last home to the one Monaghan school that started Leaving Certificate Computer Science in the first wave. Employment rose 12% in six years and manufacturing is the largest employer. Lessons with us happen live on video, twice a week at an agreed hour, in a group of five to ten at the same level or on a one to one basis, for any age from six to sixty-seven. There is no charge for the first; groups then cost USD 100 a month and private lessons USD 150.
+> County Monaghan counted 65,288 residents in 2022, and in three towns: Monaghan with 7,894, Carrickmacross with 5,745 and Castleblayney with 3,926, the last home to the one Monaghan school that started Leaving Certificate Computer Science in the first wave. Employment rose 12% in six years and manufacturing is the largest employer. Lessons with us happen live on video, twice a week at an agreed hour, in a group of fifteen to twenty at the same level or on a one to one basis, for any age from six to sixty-seven. There is no charge for the first; groups then cost USD 100 a month and private lessons USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Louth](/coding-classes-in-county-louth) / County Monaghan
 
@@ -12,11 +12,11 @@ County Monaghan, Ulster / Live online
 
 # Coding classes in County Monaghan
 
-**What are the best coding classes in County Monaghan?** County Monaghan counted 65,288 residents in 2022, and in three towns: Monaghan with 7,894, Carrickmacross with 5,745 and Castleblayney with 3,926, the last home to the one Monaghan school that started Leaving Certificate Computer Science in the first wave. Employment rose 12% in six years and manufacturing is the largest employer. Lessons with us happen live on video, twice a week at an agreed hour, in a group of five to ten at the same level or on a one to one basis, for any age from six to sixty-seven. There is no charge for the first; groups then cost USD 100 a month and private lessons USD 150.
+**What are the best coding classes in County Monaghan?** County Monaghan counted 65,288 residents in 2022, and in three towns: Monaghan with 7,894, Carrickmacross with 5,745 and Castleblayney with 3,926, the last home to the one Monaghan school that started Leaving Certificate Computer Science in the first wave. Employment rose 12% in six years and manufacturing is the largest employer. Lessons with us happen live on video, twice a week at an agreed hour, in a group of fifteen to twenty at the same level or on a one to one basis, for any age from six to sixty-seven. There is no charge for the first; groups then cost USD 100 a month and private lessons USD 150.
 
 Monaghan County Council publishes a small, tidy file listing the county's 24 bottle and can banks. Its written description says, in a plain sentence, that the data uses WGS84, which is ordinary latitude and longitude. Look at the X column and the numbers run from about minus 807,000 to minus 732,000. No longitude on earth is minus 807,000. So either the numbers are broken or the sentence describing them is wrong, and this is a question with a definite answer, not a matter of opinion. The file also contains its own latitude and longitude columns. Convert X and Y as if they were Web Mercator, the system web maps use, and you reproduce those columns to six decimal places, in every one of the 24 rows. The data was right all along. The description was not.
 
-Facts last verified 16 September 2026. Teaching is online; no County Monaghan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no County Monaghan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses to start from
 
@@ -168,7 +168,7 @@ It is a very clear example of why learning to code still matters in 2026: the to
 What a week actually involves.
 
 - **Taught as it happens** Each lesson is live, with a teacher asking and answering questions throughout, not a recording to sit through alone.
-- **Among learners at the same level** Groups of five to ten are formed by ability, drawing on Monaghan and other countries so the fit is real.
+- **Among learners at the same level** Groups of fifteen to twenty are formed by ability, drawing on Monaghan and other countries so the fit is real.
 - **A fixed place in the week** Usually two lessons a week, about eight a month, at a time agreed at the start and then held.
 - **Irish school calendar respected** From Junior Cycle to Leaving Certificate, with mid-terms, holidays and exam weeks planned for.
 - **What sits on the desk** A laptop or desktop, audio that works and a connection that carries video. The first lesson checks all of it.
@@ -181,7 +181,7 @@ What a week actually involves.
 The whole price list.
 
 - First class: USD 0. An opening lesson, taught in full, free of charge.
-- Group tuition: USD 100 a month. A month in a group of five to ten learners at one level, around eight lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty learners at one level, around eight lessons.
 - Private tuition: USD 150 a month. A month of one to one lessons at the same weekly pace.
 
 Fees are charged monthly in US dollars, at the one rate we use for all families outside India, so Clones and Carrickmacross pay identical amounts and no second currency appears anywhere. Nothing is charged before that first lesson has settled a course and a weekly time, and pauses, missed lessons and a switch between group and private are covered on the pricing page.
@@ -222,7 +222,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do County Monaghan coding classes cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

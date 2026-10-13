@@ -4,7 +4,7 @@ description: "Vibe coding, AI agents, Python and coding lessons on live video fo
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-bridgwater
 source: src/pages/vibe-coding-and-ai-agents-classes-in-bridgwater.html
 ---
-> Bridgwater's built-up area had 47,860 residents when the ONS counted in 2021, and Sedgemoor, the census district it belonged to, had 125,343. Postcode data records Hamp, Sydenham and Eastover as suburban areas of the town, and Wembdon and Chilton Trinity as villages in Somerset. Learners in Bridgwater aged six to 67 study vibe coding, AI agents, Python, coding and maths with us. Every lesson is live on video with a tutor in India, taken alone or with five to ten classmates at the same level. We train learners to ask what an agent actually knows and how it came to believe it. In the Bridgwater project an agent drives the streets of central Bridgwater with a faulty range sensor and has to draw the buildings anyway. The opening lesson costs nothing and finishes with a recommended course. After that, a group place is billed at USD 100 monthly and one-to-one tuition at USD 150 monthly.
+> Bridgwater's built-up area had 47,860 residents when the ONS counted in 2021, and Sedgemoor, the census district it belonged to, had 125,343. Postcode data records Hamp, Sydenham and Eastover as suburban areas of the town, and Wembdon and Chilton Trinity as villages in Somerset. Learners in Bridgwater aged six to 67 study vibe coding, AI agents, Python, coding and maths with us. Every lesson is live on video with a tutor in India, taken alone or with fifteen to twenty classmates at the same level. We train learners to ask what an agent actually knows and how it came to believe it. In the Bridgwater project an agent drives the streets of central Bridgwater with a faulty range sensor and has to draw the buildings anyway. The opening lesson costs nothing and finishes with a recommended course. After that, a group place is billed at USD 100 monthly and one-to-one tuition at USD 150 monthly.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South West England](/coding-and-ai-classes-in-south-west-england) / Bridgwater
 
@@ -12,11 +12,11 @@ Bridgwater, Somerset, England / Live online
 
 # Vibe coding and AI agents classes in Bridgwater, Somerset
 
-**Which vibe coding and AI agents classes are best for Bridgwater?** Bridgwater's built-up area had 47,860 residents when the ONS counted in 2021, and Sedgemoor, the census district it belonged to, had 125,343. Postcode data records Hamp, Sydenham and Eastover as suburban areas of the town, and Wembdon and Chilton Trinity as villages in Somerset. Learners in Bridgwater aged six to 67 study vibe coding, AI agents, Python, coding and maths with us. Every lesson is live on video with a tutor in India, taken alone or with five to ten classmates at the same level. We train learners to ask what an agent actually knows and how it came to believe it. In the Bridgwater project an agent drives the streets of central Bridgwater with a faulty range sensor and has to draw the buildings anyway. The opening lesson costs nothing and finishes with a recommended course. After that, a group place is billed at USD 100 monthly and one-to-one tuition at USD 150 monthly.
+**Which vibe coding and AI agents classes are best for Bridgwater?** Bridgwater's built-up area had 47,860 residents when the ONS counted in 2021, and Sedgemoor, the census district it belonged to, had 125,343. Postcode data records Hamp, Sydenham and Eastover as suburban areas of the town, and Wembdon and Chilton Trinity as villages in Somerset. Learners in Bridgwater aged six to 67 study vibe coding, AI agents, Python, coding and maths with us. Every lesson is live on video with a tutor in India, taken alone or with fifteen to twenty classmates at the same level. We train learners to ask what an agent actually knows and how it came to believe it. In the Bridgwater project an agent drives the streets of central Bridgwater with a faulty range sensor and has to draw the buildings anyway. The opening lesson costs nothing and finishes with a recommended course. After that, a group place is billed at USD 100 monthly and one-to-one tuition at USD 150 monthly.
 
 A robot vacuum cleaner learns the shape of a room by bouncing signals off the walls. Some bounces lie. A beam catches a chair leg, or slips through a doorway, or returns a distance that is simply off. If the robot believed each reading as it arrived, its map would flicker with walls that are not there and lose walls that are. What it does instead is keep a score for every small square of floor and let many readings vote. The same idea, called an occupancy grid, guides self-driving cars and warehouse robots, and it is a clean model of how any AI agent should treat information it cannot fully trust. We tried it on a box one kilometre square in central Bridgwater.
 
-Facts last verified 30 September 2026. Teaching is online; no Bridgwater branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Bridgwater branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Bridgwater routes into vibe coding, thinking and AI agents
 
@@ -131,7 +131,7 @@ Learners join from home with a computer, a camera and a steady connection.
 - **Built by the learner** Each student codes on their own shared screen. Tutors prompt, question and wait for an explanation.
 - **Seen before placed** The free lesson lets us watch a learner think, and the course suggestion comes from that.
 - **Opening lesson free** There is nothing to pay and no card to give for lesson one.
-- **Small matched classes** Five to ten learners at a single stage, joining from anywhere in the UK.
+- **Small matched classes** Fifteen to twenty learners at a single stage, joining from anywhere in the UK.
 - **Two lessons a week** Somerset term breaks are kept free once we know the dates.
 - **One UK time, all year** The tutor handles both clock changes.
 

@@ -60,7 +60,7 @@ module.exports = {
 
   h1: 'AI and programming classes in Maidenhead',
   capsuleQ: 'What are the best AI and programming classes in Maidenhead?',
-  capsule: 'Maidenhead is the largest built-up area in the Royal Borough of Windsor and Maidenhead, at 67,375 people in the 2021 census, ahead of Windsor at 31,560. The borough has more secondary-age children than England as a whole (10 to 14 year olds at 6.8 per cent against 6.0) and more parents in their forties. Our India-based teachers cover AI, programming, Python and maths in live video lessons for learners from 6 up to 67, either solo or in level-matched classes of five to ten. A free first lesson settles the starting point. The Maidenhead project stands under Brunel\'s railway bridge. If the learner carries on, a place in a class is USD 100 monthly, while a personal tutor is USD 150 monthly.',
+  capsule: 'Maidenhead is the largest built-up area in the Royal Borough of Windsor and Maidenhead, at 67,375 people in the 2021 census, ahead of Windsor at 31,560. The borough has more secondary-age children than England as a whole (10 to 14 year olds at 6.8 per cent against 6.0) and more parents in their forties. Our India-based teachers cover AI, programming, Python and maths in live video lessons for learners from 6 up to 67, either solo or in level-matched classes of fifteen to twenty. A free first lesson settles the starting point. The Maidenhead project stands under Brunel\'s railway bridge. If the learner carries on, a place in a class is USD 100 monthly, while a personal tutor is USD 150 monthly.',
   lead: 'Network Rail\'s history of the Maidenhead Bridge explains a hard brief. The Thames Navigation Commissioners would allow only one pier in the river, so Brunel had to cross with two very wide, very flat brick arches: each spans 128 feet, about 39 metres, but rises only 24 feet, about 7.3 metres. Network Rail says they were the flattest yet widest brick arches in the world when the bridge opened on 1 July 1839, and the railway\'s directors distrusted the design so much that they wanted the timber supports left in. Flat arches really are harder work, because they push outwards on their banks much more strongly than tall ones. How much more? This page\'s project calculates it in Python.',
   wa: 'Hello Modern Age Coders, I would like a free AI or programming class for a learner in Maidenhead.',
 
@@ -165,7 +165,7 @@ module.exports = {
       { h3: 'Code written by the learner', p: 'Nobody types for the student; the teacher reads their screen and steers with questions.' },
       { h3: 'By year and level', p: 'A Year 5 or a Year 12 starts where their year group and the trial lesson point, with exam board names used.' },
       { h3: 'A free trial', p: 'The first lesson costs nothing and ends with a clear recommendation.' },
-      { h3: 'Matched groups', p: 'Classes of five to ten learners at one stage, gathered from across the UK.' },
+      { h3: 'Matched groups', p: 'Classes of fifteen to twenty learners at one stage, gathered from across the UK.' },
       { h3: 'In term time', p: 'Two lessons a week during term; holidays kept free.' },
       { h3: 'Local time kept', p: 'Clock changes do not move your lesson; our teachers adjust.' }
     ],
@@ -176,7 +176,7 @@ module.exports = {
     h2: 'Fees in Maidenhead',
     intro: 'One flat fee for Maidenhead families, the same one we use in every country outside India.',
     first: 'A full lesson free, followed by honest advice.',
-    group: 'Roughly eight live lessons a month with five to ten classmates.',
+    group: 'Roughly eight live lessons a month with fifteen to twenty classmates.',
     private: 'Roughly eight live lessons a month with your own tutor.',
     closer: 'All prices are in US dollars, never sterling. No payment is taken before the free lesson has agreed a course and a time each week. The pricing page sets out what happens with holidays, absences and a switch between group and private.'
   },

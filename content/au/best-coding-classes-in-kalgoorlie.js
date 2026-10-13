@@ -189,7 +189,7 @@ module.exports = {
       { h3: 'From either town', p: 'A learner in Kalgoorlie and one in Boulder log in to the same live class from home.' },
       { h3: 'WA year levels', p: 'Teaching follows Western Australian year levels through to Years 11 and 12, in English.' },
       { h3: 'Trial lesson first', p: 'You code something real with a teacher, then hear a suggested level, course and time; no card is needed.' },
-      { h3: 'Five to ten per group', p: 'Learners at one level from across Australia and beyond, so there is always a workable slot.' },
+      { h3: 'Fifteen to twenty per group', p: 'Learners at one level from across Australia and beyond, so there is always a workable slot.' },
       { h3: 'About eight a month', p: 'Usually two lessons a week, with WA holidays and exam periods planned in advance.' },
       { h3: 'Shift-friendly times', p: 'Weekend and after-school slots suit families working rosters, agreed in the trial.' }
     ],
@@ -200,7 +200,7 @@ module.exports = {
     h2: 'What coding classes cost in Kalgoorlie-Boulder',
     intro: 'Three prices cover everything.',
     first: 'A trial lesson at no charge that ends with a level, course and time.',
-    group: 'A month in a group of five to ten learners, usually eight lessons.',
+    group: 'A month in a group of fifteen to twenty learners, usually eight lessons.',
     private: 'Around eight private lessons a month with the same teacher.',
     closer: 'Goldfields families pay the same US dollar rate as the rest of Australia, with no remote surcharge. Billing starts only after the trial has agreed a course and slot; the pricing page explains holidays, missed lessons and changing between group and private.'
   },
@@ -225,8 +225,8 @@ module.exports = {
       { q: 'Which times suit Kalgoorlie learners?', a: 'After school or at weekends, settled in the trial and written in WA time. India time is two and a half hours behind Kalgoorlie-Boulder all year round.' },
       { q: 'Do you teach children under 13?', a: 'Yes, from age 6, often starting with Scratch and simple games. This page focuses on teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Kalgoorlie-Boulder?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Kalgoorlie-Boulder coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Kalgoorlie-Boulder coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

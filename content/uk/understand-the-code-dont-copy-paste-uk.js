@@ -84,7 +84,7 @@ module.exports = {
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'The guidance the UK awarding bodies publish on AI in assessments is stricter than most students think, and the strictness is not where they expect. It is not simply that undeclared AI is malpractice, though it is. It is that declared AI content cannot earn marks, because a reproduced element does not demonstrate that the student independently met the marking criteria. So the highest outcome available for pasted work is zero, and the lowest includes disqualification and debarment from taking qualifications for a number of years. The way out is not avoidance; it is competence. A student who can read a piece of code, predict what it does and rebuild it from memory has nothing to paste, because they can write it. That is what we teach, in groups of five to ten at one level or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.',
+  capsule: 'The guidance the UK awarding bodies publish on AI in assessments is stricter than most students think, and the strictness is not where they expect. It is not simply that undeclared AI is malpractice, though it is. It is that declared AI content cannot earn marks, because a reproduced element does not demonstrate that the student independently met the marking criteria. So the highest outcome available for pasted work is zero, and the lowest includes disqualification and debarment from taking qualifications for a number of years. The way out is not avoidance; it is competence. A student who can read a piece of code, predict what it does and rebuild it from memory has nothing to paste, because they can write it. That is what we teach, in groups of fifteen to twenty at one level or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.',
 
   picks: {
     eyebrow: 'Start here',
@@ -235,7 +235,7 @@ module.exports = {
       { h3: 'Rebuild from memory', p: 'Close the file, write it again working. The second version is where the understanding actually forms.' },
       { h3: 'An AI record', p: 'What the tool suggested, what was kept and why, on ordinary projects, so the coursework version is already a habit.' },
       { h3: 'A hard line on coursework', p: 'We do not work on a candidate\'s NEA, coursework or controlled assessment at any board, in any nation.' },
-      { h3: 'Small groups', p: 'Five to ten learners at one level, reading each other\'s code, which is where most of the real arguing happens.' }
+      { h3: 'Small groups', p: 'Fifteen to twenty learners at one level, reading each other\'s code, which is where most of the real arguing happens.' }
     ]
   },
 
@@ -247,7 +247,7 @@ module.exports = {
     h2: 'What it costs',
     lede: 'A flat monthly fee, set in US dollars everywhere except India. The free lesson happens first and payment only starts once a course and a weekly slot are settled.',
     free: ['Real teaching on a real problem', 'A frank answer about the right starting point', 'Nothing asked for beyond a phone number'],
-    group: ['A room of five to ten at the same stage', 'One teacher, kept for the whole course', 'Every week, somebody reads what you wrote', 'A certificate at the end of the syllabus'],
+    group: ['A room of fifteen to twenty at the same stage', 'One teacher, kept for the whole course', 'Every week, somebody reads what you wrote', 'A certificate at the end of the syllabus'],
     one: ['Nobody in the room but the two of you', 'Shaped around a deadline if there is one', 'Suits learners well ahead of, or well behind, their year']
   },
 

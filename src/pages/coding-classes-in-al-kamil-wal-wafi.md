@@ -181,7 +181,7 @@ It is a real class with a real task in it, and it ends with a specific recommend
 
 ### Small groups, matched on ability
 
-Five to eight learners, put together on what they can already do and what they are working toward. Geography is not one of the inputs, which is exactly what a local class cannot say.
+Fifteen to twenty learners, put together on what they can already do and what they are working toward. Geography is not one of the inputs, which is exactly what a local class cannot say.
 
 ### Private tuition where a group would not fit
 
@@ -211,7 +211,7 @@ Ability task, goal review and starting recommendation.
 
 Group tuition**USD 100**
 
-Per month, normally eight lessons, five to eight learners.
+Per month, normally eight lessons, fifteen to twenty learners.
 
 Private tuition**USD 150**
 
@@ -321,7 +321,7 @@ The first class is free. Standard group tuition is USD 100 per month for two liv
 
 ### What is the class size for Al Kamil Wal Wafi learners?
 
-A group normally contains five to eight compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
+A group normally contains fifteen to twenty compatible learners. Compatibility includes current level, learning pace and objective, not age alone. Private tuition is one learner with one teacher. If no suitable group is ready, a learner can discuss private tuition or wait for an appropriate cohort.
 
 ### How are class times arranged for learners here?
 

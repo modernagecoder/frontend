@@ -284,7 +284,7 @@ module.exports = {
       { h3: 'Taught live', p: 'A teacher runs every session in real time and reads code as it is typed.' },
       { h3: 'School terms', p: 'We follow Queensland term dates and pause for holidays.' },
       { h3: 'First session free', p: 'Try a lesson at no cost and get a written plan.' },
-      { h3: 'Groups', p: 'Five to ten learners per level, or private sessions.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners per level, or private sessions.' },
       { h3: 'Twice weekly', p: 'About eight sessions every month.' },
       { h3: 'India hours', p: 'A 6pm Surfers Paradise session starts at 1:30pm in India.' }
     ],
@@ -297,7 +297,7 @@ module.exports = {
     h2: 'Surfers Paradise fees',
     intro: 'Every learner pays the same fees.',
     first: 'The first session is free, with a plan to follow.',
-    group: 'Group: about eight sessions a month, five to ten learners.',
+    group: 'Group: about eight sessions a month, fifteen to twenty learners.',
     private: 'Private: about eight sessions a month, one teacher.',
     closer: 'Fees are set in US dollars and begin once the trial has agreed a course and weekly slot. Holiday and absence rules appear on the pricing page.'
   },
@@ -327,12 +327,12 @@ module.exports = {
       },
       {
         q: 'What do Surfers Paradise classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who are the classmates?',
-        a: 'Five to ten learners at the same level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at the same level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Do adults learn Python with you?', a: 'Yes. Adults have their own groups or private sessions, often to tidy data from their work.' }

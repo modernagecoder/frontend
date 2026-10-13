@@ -16,7 +16,7 @@ Sunnybank, City of Brisbane, Queensland / Live online
 
 Sunnybank sits on Mains Road with two railway stations, Altandi and Banoon, inside the suburb outline. On Wednesday 21 October 2026 the Translink timetable gives 3,352 scheduled stop visits at its 66 stop records. That single column of hourly counts is enough to teach a classic piece of computer science.
 
-Facts last verified 12 October 2026. Teaching is online; no Sunnybank branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Sunnybank branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that build careful coders
 
@@ -176,7 +176,7 @@ Every lesson is a live video class, joined from home anywhere in Sunnybank.
 - **Hands on keyboard** The learner writes the code; the teacher watches the shared screen and guides.
 - **Term rhythm** Classes follow Queensland school terms and pause for the holidays.
 - **Free first class** One full lesson costs nothing and ends with a suggested course.
-- **Small groups** Five to ten learners at a matched level, or one to one.
+- **Small groups** Fifteen to twenty learners at a matched level, or one to one.
 - **Twice a week** Two live lessons each week, about eight in a month.
 - **Clocks that stay put** Brisbane keeps the same time all year, so a 5pm Sunnybank lesson is always 12:30pm in India, where our teachers are.
 
@@ -187,7 +187,7 @@ Every lesson is a live video class, joined from home anywhere in Sunnybank.
 One price list for every family.
 
 - First class: USD 0. Your first lesson is free and comes with a written next step.
-- Group tuition: USD 100 a month. Group classes: about eight lessons a month with five to ten learners.
+- Group tuition: USD 100 a month. Group classes: about eight lessons a month with fifteen to twenty learners.
 - Private tuition: USD 150 a month. One to one: about eight lessons a month with a dedicated teacher.
 
 Sunnybank families pay in US dollars. Nothing is charged until the trial has fixed a course and a time; holiday and missed-lesson rules are on the pricing page.
@@ -224,11 +224,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Sunnybank classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Which train stations are in Sunnybank?
 

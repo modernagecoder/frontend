@@ -16,7 +16,7 @@ City of Tea Tree Gully, Adelaide, South Australia / Live online
 
 Asked how many bus stops serve Tea Tree Gully, our scripted agent answered: none. Not one stop name in South Australia's timetable contains the words "Tea Tree Gully". The agent had searched names because both of its tools were described the same way, as "find stops for a place".
 
-Facts last verified 14 October 2026. Teaching is online; no Tea Tree Gully branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 14 October 2026. Teaching is online; no Tea Tree Gully branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for building agents that choose well
 
@@ -182,7 +182,7 @@ Lessons run live over video, so learners join from home.
 - **Tools on screen** Every tool, description and agent answer is reviewed together.
 - **Holidays respected** We pause when South Australian schools break and restart with each new term.
 - **Trial lesson free** One full class without charge, then honest advice.
-- **Five to ten learners** Grouped by level, or taught one to one.
+- **Fifteen to twenty learners** Grouped by level, or taught one to one.
 - **Twice weekly** Two fixed lessons a week, roughly eight a month.
 - **India time** With teachers in India, a 6pm Tea Tree Gully class is 1pm India time in summer and 2pm from April.
 
@@ -193,7 +193,7 @@ Lessons run live over video, so learners join from home.
 Three clear prices.
 
 - First class: USD 0. The first lesson is free and ends with a written recommendation.
-- Group tuition: USD 100 a month. Group month: around eight lessons with five to ten learners.
+- Group tuition: USD 100 a month. Group month: around eight lessons with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private month: around eight lessons with one teacher.
 
 Fees are charged in US dollars once the trial has fixed a course and a weekly time. Holiday pauses and missed lessons are covered on the pricing page.
@@ -230,11 +230,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Tea Tree Gully learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Can a group class here cover Copilot Studio?
 

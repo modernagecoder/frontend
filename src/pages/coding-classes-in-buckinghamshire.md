@@ -4,7 +4,7 @@ description: "Live online coding, Python, cyber security and maths classes for B
 canonical: https://learn.modernagecoders.com/coding-classes-in-buckinghamshire
 source: src/pages/coding-classes-in-buckinghamshire.html
 ---
-> Buckinghamshire as a county is two councils: Buckinghamshire Council, which held 553,078 people at the 2021 Census, and Milton Keynes City Council with 287,060, for 840,138 together. Its largest places are Milton Keynes, Aylesbury and High Wycombe, and after them comes a long run of Chiltern and Thames-side towns from Chesham to Marlow. We teach all of it the same way: live online, from India, with learners placed by what they can already do rather than by age, anyone from 6 to 67, in small groups of five to ten or one to one. Programming, Python, cyber security, AI and maths are all on offer. The county's project is a cipher, because Bletchley is here. You pay nothing for the first lesson. Groups then cost USD 100 a month, and a private teacher USD 150.
+> Buckinghamshire as a county is two councils: Buckinghamshire Council, which held 553,078 people at the 2021 Census, and Milton Keynes City Council with 287,060, for 840,138 together. Its largest places are Milton Keynes, Aylesbury and High Wycombe, and after them comes a long run of Chiltern and Thames-side towns from Chesham to Marlow. We teach all of it the same way: live online, from India, with learners placed by what they can already do rather than by age, anyone from 6 to 67, in groups of fifteen to twenty or one to one. Programming, Python, cyber security, AI and maths are all on offer. The county's project is a cipher, because Bletchley is here. You pay nothing for the first lesson. Groups then cost USD 100 a month, and a private teacher USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Buckinghamshire
 
@@ -12,11 +12,11 @@ Ceremonial county of Buckinghamshire / Live online
 
 # Coding classes in Buckinghamshire
 
-**What are the best coding classes in Buckinghamshire?** Buckinghamshire as a county is two councils: Buckinghamshire Council, which held 553,078 people at the 2021 Census, and Milton Keynes City Council with 287,060, for 840,138 together. Its largest places are Milton Keynes, Aylesbury and High Wycombe, and after them comes a long run of Chiltern and Thames-side towns from Chesham to Marlow. We teach all of it the same way: live online, from India, with learners placed by what they can already do rather than by age, anyone from 6 to 67, in small groups of five to ten or one to one. Programming, Python, cyber security, AI and maths are all on offer. The county's project is a cipher, because Bletchley is here. You pay nothing for the first lesson. Groups then cost USD 100 a month, and a private teacher USD 150.
+**What are the best coding classes in Buckinghamshire?** Buckinghamshire as a county is two councils: Buckinghamshire Council, which held 553,078 people at the 2021 Census, and Milton Keynes City Council with 287,060, for 840,138 together. Its largest places are Milton Keynes, Aylesbury and High Wycombe, and after them comes a long run of Chiltern and Thames-side towns from Chesham to Marlow. We teach all of it the same way: live online, from India, with learners placed by what they can already do rather than by age, anyone from 6 to 67, in groups of fifteen to twenty or one to one. Programming, Python, cyber security, AI and maths are all on offer. The county's project is a cipher, because Bletchley is here. You pay nothing for the first lesson. Groups then cost USD 100 a month, and a private teacher USD 150.
 
 Take a message, turn each letter into five bits of teleprinter code, and combine it with a key of random five-bit symbols. What comes out looks like noise and, used once, is as close to unbreakable as anything in cryptography. Use the same key for a second message and something strange happens: combine the two scrambled messages with each other and the key disappears completely, leaving the two original messages tangled together and waiting to be pulled apart. Buckinghamshire has a particular claim on this subject. Bletchley Park, in what is now Milton Keynes, spent the war reading German teleprinter traffic, and a rebuild of the machine that helped do it, Colossus, is on show there today. This page's project is a small, honest cousin of that problem, built from scratch, that a learner can break with an afternoon and a laptop.
 
-Facts last verified 26 September 2026. Teaching is online; no Buckinghamshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Buckinghamshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where a Buckinghamshire learner usually starts
 
@@ -167,7 +167,7 @@ From the Ouse valley in the north to the Colne valley in the south, the lesson t
 - **At home, on a laptop** A desk in Newport Pagnell, a kitchen in Chesham, a spare room in Haddenham. The teacher shares a screen and the learner types.
 - **English school vocabulary** Key Stage 2 and 3, GCSE options, A level and university applications are named as families here name them, and teaching is in English.
 - **A real first lesson, free** A proper session of work with a teacher, finishing with a plain view of level and course. No card details are asked for.
-- **Grouped by level** Five to ten learners at one stage, gathered from across the UK and wider, so a group at the right level exists at a sensible hour.
+- **Grouped by level** Fifteen to twenty learners at one stage, gathered from across the UK and wider, so a group at the right level exists at a sensible hour.
 - **Around the county calendar** Usually two lessons a week. Half terms and holidays are agreed family by family, since academies and Milton Keynes schools may keep different dates.
 - **Times shown in UK time** Teachers work from India, four and a half hours ahead of UK summer time and five and a half ahead in winter. Every slot is agreed and confirmed in UK time.
 
@@ -178,7 +178,7 @@ From the Ouse valley in the north to the Colne valley in the south, the lesson t
 A single price list for every Buckinghamshire town, and for every country apart from India.
 
 - First class: USD 0. A full lesson doing real work, finishing with a suggested level and course.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten at one level.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty at one level.
 - Private tuition: USD 150 a month. About eight lessons a month with a teacher who works with one learner only.
 
 We set prices in US dollars, the rate we use everywhere outside India, and keep no separate pound list. Nothing is charged before the free lesson has fixed a course and a weekly slot; how pauses, missed lessons and switching between group and private teaching work is set out on the pricing page.

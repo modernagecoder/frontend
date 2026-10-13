@@ -16,7 +16,7 @@ Wexford town, County Wexford / Live online
 
 The CSO counts the new homes completed in Wexford town every year, and fourteen years of that count now sit in one table: 8 in 2012, rising to 291 in 2022, and 173 in 2025. Write a headline from it. Measure from 2012 and completions have grown more than twentyfold. Measure from 2019 and they are up a quarter. Measure from 2022 and they have fallen by two fifths. All three sentences are arithmetic on the same published numbers, and each would survive a fact check on its own. The trick is entirely in the first year chosen, which is why a figure about change that does not show its starting point, or better the whole series, has not told you enough to believe it.
 
-Facts last verified 19 September 2026. Teaching is online; no Wexford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Wexford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Wexford learners get started
 
@@ -177,7 +177,7 @@ Any number of true headlines can be produced from one series. Learning to see al
 The details a Wexford family needs.
 
 - **Taught live** The teacher is on the call throughout, working from what the learner is doing on screen.
-- **Grouped by level** Five to ten learners at the same stage, whether in Wexford, elsewhere in Ireland or abroad.
+- **Grouped by level** Fifteen to twenty learners at the same stage, whether in Wexford, elsewhere in Ireland or abroad.
 - **A weekly pattern** Two lessons in most weeks, around eight a month, at an hour fixed at the start.
 - **Term time** Holidays, mid-terms and exam weeks are worked into the plan in advance.
 - **Equipment** A laptop or desktop with a keyboard, sound in and out, and a connection that stays up for a full video lesson.
@@ -190,7 +190,7 @@ The details a Wexford family needs.
 All there is to the price.
 
 - First class: USD 0. A first lesson taught in full and assessed, with no charge.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, about eight live lessons.
 - Private tuition: USD 150 a month. A month of private lessons at the same weekly frequency.
 
 Every family outside India pays the same monthly rate in US dollars, so a Wexford household sees the figure a Galway or Kilkenny household sees, and there is no euro price to compare it with. The free lesson comes first, the invoice only after a course and a time are agreed, and the pricing page sets out the rules for holidays, absences and moving between formats.
@@ -231,7 +231,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Wexford cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

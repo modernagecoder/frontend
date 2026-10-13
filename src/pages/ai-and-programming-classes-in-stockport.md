@@ -4,7 +4,7 @@ description: "Online AI, programming, Python and coding classes for Stockport, C
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-stockport
 source: src/pages/ai-and-programming-classes-in-stockport.html
 ---
-> Stockport borough counted 294,776 people in the 2021 census; the ONS gives 117,935 for the Stockport built-up area, with Cheadle Hulme at 24,785 and Reddish at 22,200. People in their twenties are a much smaller share than in England, while those over 65 are a larger one. Our tutors in India teach AI, programming, Python and maths live over video to learners from 6 up to 67, one-to-one or in classes of five to ten sharing a level. A no-cost first lesson settles the course. The Stockport project reads 28 years of passenger numbers for the town's main station. After the trial, class places are USD 100 monthly and private tuition USD 150 monthly.
+> Stockport borough counted 294,776 people in the 2021 census; the ONS gives 117,935 for the Stockport built-up area, with Cheadle Hulme at 24,785 and Reddish at 22,200. People in their twenties are a much smaller share than in England, while those over 65 are a larger one. Our tutors in India teach AI, programming, Python and maths live over video to learners from 6 up to 67, one-to-one or in classes of fifteen to twenty sharing a level. A no-cost first lesson settles the course. The Stockport project reads 28 years of passenger numbers for the town's main station. After the trial, class places are USD 100 monthly and private tuition USD 150 monthly.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Stockport
 
@@ -12,11 +12,11 @@ Stockport, Greater Manchester, England / Live online
 
 # AI and programming classes in Stockport
 
-**Where are the best AI and programming classes for Stockport?** Stockport borough counted 294,776 people in the 2021 census; the ONS gives 117,935 for the Stockport built-up area, with Cheadle Hulme at 24,785 and Reddish at 22,200. People in their twenties are a much smaller share than in England, while those over 65 are a larger one. Our tutors in India teach AI, programming, Python and maths live over video to learners from 6 up to 67, one-to-one or in classes of five to ten sharing a level. A no-cost first lesson settles the course. The Stockport project reads 28 years of passenger numbers for the town's main station. After the trial, class places are USD 100 monthly and private tuition USD 150 monthly.
+**Where are the best AI and programming classes for Stockport?** Stockport borough counted 294,776 people in the 2021 census; the ONS gives 117,935 for the Stockport built-up area, with Cheadle Hulme at 24,785 and Reddish at 22,200. People in their twenties are a much smaller share than in England, while those over 65 are a larger one. Our tutors in India teach AI, programming, Python and maths live over video to learners from 6 up to 67, one-to-one or in classes of fifteen to twenty sharing a level. A no-cost first lesson settles the course. The Stockport project reads 28 years of passenger numbers for the town's main station. After the trial, class places are USD 100 monthly and private tuition USD 150 monthly.
 
 Every year the Office of Rail and Road estimates how many journeys start or end at each station in Great Britain. For Stockport station it has published a figure for every year from April 1997 to March 2025, bar one: 2003-04 is marked with an x. Put the numbers on a chart and the story looks obvious, a long rise, a collapse, a recovery. But ask a program to mark every point where the line turns and it finds nine of them, several caused by tiny wobbles and one created entirely by the missing year. A Stockport learner can write a smarter rule in Python, one that only accepts a turn when the line really reverses, and watch nine turning points shrink to the three that matter.
 
-Facts last verified 27 September 2026. Teaching is online; no Stockport branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Stockport branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses for Stockport learners
 

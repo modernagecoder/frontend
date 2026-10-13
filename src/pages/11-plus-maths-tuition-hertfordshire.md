@@ -131,7 +131,7 @@ The council and the consortium name the schools. We list them only to make the s
 
 Croxley Danes School belongs to the consortium but tests for music only, so it does not use the academic test. The council lists other Hertfordshire schools that test for aptitude or ability, and families should check each school's own arrangements.
 
-Whether home is Bushey, Abbots Langley, Chorleywood or Hatfield, the lesson arrives the same way: on a screen, live, in a class of up to ten children working at the same stage.
+Whether home is Bushey, Abbots Langley, Chorleywood or Hatfield, the lesson arrives the same way: on a screen, live, in a class of up to twenty children working at the same stage.
 
 For families just over the London border, see our pages for [Barnet](/11-plus-maths-tuition-barnet) and [Enfield](/11-plus-maths-tuition-enfield).
 
@@ -206,7 +206,7 @@ We teach live from India and book Hertfordshire primary pupils into early-evenin
 
 - **One teacher all year** Who knows your child's habits.
 - **Honest notes** A few frank lines after lessons.
-- **Classes of five to ten** Grouped by level.
+- **Classes of fifteen to twenty** Grouped by level.
 - **Our own questions** No GL or school material copied.
 - **One to one** For specific gaps.
 - **Maths only** No verbal reasoning or English coaching; no admissions advice.
@@ -216,7 +216,7 @@ We teach live from India and book Hertfordshire primary pupils into early-evenin
 Families outside India pay one monthly US dollar price. No joining fee; stop any month.
 
 - Free first class: USD 0. A taught lesson. A frank view. No card needed.
-- Group batch: USD 100 a month. Five to ten children, one level. A regular teacher. Work reviewed together. Certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children, one level. A regular teacher. Work reviewed together. Certificate at the end.
 - One to one: USD 150 a month. A teacher for one child. Aimed at gaps. Flexible timing.
 
 ## What Hertfordshire families ask us

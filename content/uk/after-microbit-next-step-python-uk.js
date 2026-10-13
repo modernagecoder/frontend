@@ -225,7 +225,7 @@ module.exports = {
       { h3: 'Errors as clues', p: 'Error messages read together until they stop being scary.' },
       { h3: 'Code reviewed', p: 'A teacher reads every child\'s program and gives specific next steps.' },
       { h3: 'Their own ideas', p: 'Children choose projects; the teacher picks the skills each one needs.' },
-      { h3: 'Small groups', p: 'Five to ten children at one level.' }
+      { h3: 'Small groups', p: 'Fifteen to twenty children at one level.' }
     ]
   },
 
@@ -237,7 +237,7 @@ module.exports = {
     h2: 'Fees for Python lessons',
     lede: 'Lessons are paid monthly in US dollars, one rate wherever you live outside India. Nothing is due for the first lesson, and no invoice follows until you pick a course and a regular weekly time. Hardware is never part of the fee; we do not sell boards.',
     free: ['A lesson starting from your child\'s micro:bit projects', 'A clear view of whether they are ready for Python', 'Only a phone number to book'],
-    group: ['Five to ten children at one level', 'The same teacher each week', 'Code read and reviewed every lesson', 'Projects the children choose'],
+    group: ['Fifteen to twenty children at one level', 'The same teacher each week', 'Code read and reviewed every lesson', 'Projects the children choose'],
     one: ['A teacher for one child', 'Paced to a fast-moving maker', 'Suits a child with a big idea']
   },
 

@@ -58,7 +58,7 @@ module.exports = {
 
   h1: 'Coding classes in Worcestershire',
   capsuleQ: 'What are the best coding classes in Worcestershire?',
-  capsule: 'Worcestershire is governed by a county council over six district councils, and our total of their six 2021 Census counts is 603,676 people. Worcester is the largest town, then Redditch, Kidderminster, Bromsgrove and Great Malvern. We teach every class live over video from India, and each learner joins the group that fits their level rather than their age. Coding, Python, computer science and maths are open to learners from 6 to 67, taught privately or in groups of five to ten. The Worcestershire project comes from the Museum of Royal Worcester and the marks on the bottom of its porcelain. Lesson one is free; from lesson two it is USD 100 monthly for a group or USD 150 monthly for one-to-one.',
+  capsule: 'Worcestershire is governed by a county council over six district councils, and our total of their six 2021 Census counts is 603,676 people. Worcester is the largest town, then Redditch, Kidderminster, Bromsgrove and Great Malvern. We teach every class live over video from India, and each learner joins the group that fits their level rather than their age. Coding, Python, computer science and maths are open to learners from 6 to 67, taught privately or in groups of fifteen to twenty. The Worcestershire project comes from the Museum of Royal Worcester and the marks on the bottom of its porcelain. Lesson one is free; from lesson two it is USD 100 monthly for a group or USD 150 monthly for one-to-one.',
   lead: 'Turn over a piece of Royal Worcester porcelain and the factory mark often tells you when it was made, in a code that changed many times. The Museum of Royal Worcester explains it: letters for the years from 1867, then one dot for 1892, two for 1893, and so on until 24 dots crowd round the mark in 1915, then a star, new shapes, more dots, letters again, and finally short numbers. It is a real, working system for writing numbers, invented piece by piece by people solving a practical problem. This page\'s project turns it into a Python decoder and uses it to explore the ideas every programmer meets when choosing how to represent information.',
   wa: 'Hello Modern Age Coders, we are in Worcestershire and would like to book a free lesson, please.',
 
@@ -170,7 +170,7 @@ module.exports = {
       { h3: 'At home, anywhere', p: 'A house in Droitwich, a flat in Redditch, a farmhouse near Pershore. The learner codes while the teacher follows the shared screen.' },
       { h3: 'The school words', p: 'Whether it is a Key Stage 3 project or a GCSE practice paper, teachers use the terms Worcestershire pupils hear at school, in English.' },
       { h3: 'Start free', p: 'The first lesson is real teaching, not a sales call, and ends with a plain suggestion of level and course. You give no card details.' },
-      { h3: 'A group at your level', p: 'Five to ten learners at the same stage, wherever in the world they join from.' },
+      { h3: 'A group at your level', p: 'Fifteen to twenty learners at the same stage, wherever in the world they join from.' },
       { h3: 'Breaks for holidays', p: 'Two lessons a week is usual, with pauses for your school\'s own holidays.' },
       { h3: 'UK time, fixed', p: 'We give your slot in UK time and keep it steady through the clock changes; the teacher, several hours ahead on India time, adapts.' }
     ],
@@ -181,7 +181,7 @@ module.exports = {
     h2: 'Fees in Worcestershire',
     intro: 'Stourport or Malvern, the fee is identical, and it is the fee in every country we teach except India.',
     first: 'A complete lesson with real work, then a suggested level and course.',
-    group: 'Around eight lessons a month with five to ten learners at one level.',
+    group: 'Around eight lessons a month with fifteen to twenty learners at one level.',
     private: 'Around eight lessons a month, one-to-one.',
     closer: 'All fees are in US dollars, with no pound prices. There is no charge until the free lesson has agreed a course and a weekly time; the pricing page explains pauses, missed lessons and changing between group and private.'
   },

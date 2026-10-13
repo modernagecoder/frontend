@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Sunderland le
 canonical: https://learn.modernagecoders.com/best-coding-class-in-sunderland
 source: src/pages/best-coding-class-in-sunderland.html
 ---
-> Census 2021 counted 274,172 usual residents in Sunderland, and 5.9% of them were aged 65 to 69, against 4.9% for England. Sunderland Minster says its church was first built around 900 AD and served most of the area south of the Wear, which is why that side became Bishopwearmouth. Sunderland learners of any age from six to sixty-seven can join us live online, in a group of five to ten at their level or on their own with a teacher, with our teachers in India and lessons at UK times. The introductory lesson is free, and the monthly fee after it is USD 100 for a group place or USD 150 for private teaching.
+> Census 2021 counted 274,172 usual residents in Sunderland, and 5.9% of them were aged 65 to 69, against 4.9% for England. Sunderland Minster says its church was first built around 900 AD and served most of the area south of the Wear, which is why that side became Bishopwearmouth. Sunderland learners of any age from six to sixty-seven can join us live online, in a group of fifteen to twenty at their level or on their own with a teacher, with our teachers in India and lessons at UK times. The introductory lesson is free, and the monthly fee after it is USD 100 for a group place or USD 150 for private teaching.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Sunderland
 
@@ -12,11 +12,11 @@ Sunderland, Tyne and Wear / Live online
 
 # Coding classes in Sunderland
 
-**What are the best coding classes in Sunderland?** Census 2021 counted 274,172 usual residents in Sunderland, and 5.9% of them were aged 65 to 69, against 4.9% for England. Sunderland Minster says its church was first built around 900 AD and served most of the area south of the Wear, which is why that side became Bishopwearmouth. Sunderland learners of any age from six to sixty-seven can join us live online, in a group of five to ten at their level or on their own with a teacher, with our teachers in India and lessons at UK times. The introductory lesson is free, and the monthly fee after it is USD 100 for a group place or USD 150 for private teaching.
+**What are the best coding classes in Sunderland?** Census 2021 counted 274,172 usual residents in Sunderland, and 5.9% of them were aged 65 to 69, against 4.9% for England. Sunderland Minster says its church was first built around 900 AD and served most of the area south of the Wear, which is why that side became Bishopwearmouth. Sunderland learners of any age from six to sixty-seven can join us live online, in a group of fifteen to twenty at their level or on their own with a teacher, with our teachers in India and lessons at UK times. The introductory lesson is free, and the monthly fee after it is USD 100 for a group place or USD 150 for private teaching.
 
 Ordnance Survey lists 4,709 named places in Sunderland, from Roker to Washington. A map app asked what lies within 500 metres of a point has a simple way to answer: measure the distance to all 4,709 and keep the close ones. On average about 48 qualify, so almost every measurement is wasted. A quadtree splits the city into four boxes, splits any crowded box into four again, and so on, so a search can skip every box too far away to matter. With boxes of up to sixteen places, the same question needs about 90 distance checks instead of 4,709. Set the box size to one and the tree goes haywire, because three places share a single point. Our teenagers build the tree and find out why.
 
-Facts last verified 22 September 2026. Teaching is online; no Sunderland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 22 September 2026. Teaching is online; no Sunderland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the city on the Wear
 
@@ -65,7 +65,7 @@ Of 260,323 residents aged five and over, 48,863 were schoolchildren or full-time
 
 Only 3,786 residents lived in communal establishments such as halls and care homes, and 270,386 in ordinary households.
 
-That older profile matters to us because we teach adults too. A Year 6 child in Millfield might be building a first maze game, a Year 10 student in Washington choosing GCSE Computer Science, and a retired engineer in Roker learning Python for pleasure, each in a group of five to ten learners working at the same level.
+That older profile matters to us because we teach adults too. A Year 6 child in Millfield might be building a first maze game, a Year 10 student in Washington choosing GCSE Computer Science, and a retired engineer in Roker learning Python for pleasure, each in a group of fifteen to twenty learners working at the same level.
 
 ## A church from around 900 AD and a city divided by its river
 
@@ -175,7 +175,7 @@ From Washington in the west to the coast at Seaburn, Sunderland is spread out. A
 - **North and south of the Wear** A learner in Fulwell and another in Silksworth can share the same lesson without crossing a bridge.
 - **English stages, named properly** Reception, Key Stages 1 to 4, GCSE options and A levels, called what Sunderland schools call them, with all lessons in English.
 - **The first lesson counts** The free session teaches something real and closes with a recommended level, course and weekly time. There is no card to enter.
-- **Matched classmates** Five to ten learners at one stage, from Sunderland, elsewhere in Britain and overseas, which gives every level a usable time.
+- **Matched classmates** Fifteen to twenty learners at one stage, from Sunderland, elsewhere in Britain and overseas, which gives every level a usable time.
 - **Two lessons a week** A steady pair of weekly lessons, about eight a month, with holidays and exam weeks set with the teacher ahead of time.
 - **Teachers on a late shift** Our teachers are four and a half hours ahead of Sunderland in summer and five and a half in winter, because India keeps one time all year. They teach into their evening so that Wearside learners can join after school.
 
@@ -186,7 +186,7 @@ From Washington in the west to the coast at Seaburn, Sunderland is spread out. A
 A free lesson first, then a single fee each month.
 
 - First class: USD 0. A full lesson with no charge, ending with a level, a course and a weekly time we recommend.
-- Group tuition: USD 100 a month. About eight live lessons per month with five to ten learners at one stage.
+- Group tuition: USD 100 a month. About eight live lessons per month with fifteen to twenty learners at one stage.
 - Private tuition: USD 150 a month. About eight live lessons per month, taught to your learner individually.
 
 Outside India, one US dollar fee applies to every family, from Pennywell to Seaburn, and we list no prices in pounds. We take no payment until the free lesson has settled a course and a slot; pausing, missed lessons and switching between group and private teaching are covered on the pricing page.
@@ -227,11 +227,11 @@ No. There is no Sunderland centre and we have no premises anywhere in the UK; al
 
 ### How much do Sunderland lessons cost?
 
-The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
+The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.
 
 ### How are Sunderland groups formed?
 
-By level, pace and goals rather than age or address, with five to ten learners at one stage. If no group suits the learner's schedule, we offer one-to-one lessons.
+By level, pace and goals rather than age or address, with fifteen to twenty learners at one stage. If no group suits the learner's schedule, we offer one-to-one lessons.
 
 ## The North East and beyond
 

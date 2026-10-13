@@ -322,7 +322,7 @@ module.exports = {
       { h3: 'Real-time teaching', p: 'A teacher on video follows the learner\'s screen and corrects mistakes the moment they appear.' },
       { h3: 'Built around NSW', p: 'Lessons use NSW stage and syllabus language, and stop for state school holidays.' },
       { h3: 'Free trial', p: 'The opening lesson is a full class at no charge, ending with a suggested course, level and time.' },
-      { h3: 'Same-level groups', p: 'Groups of five to ten learners of similar ability, or individual lessons where preferred.' },
+      { h3: 'Same-level groups', p: 'Groups of fifteen to twenty learners of similar ability, or individual lessons where preferred.' },
       { h3: 'Regular schedule', p: 'Two lessons a week at fixed times, roughly eight a month, with breaks planned ahead.' },
       { h3: 'Teachers in India', p: 'A 4:15pm Castle Hill lesson in summer is 10:45am India time, and 11:45am once Sydney leaves daylight saving.' }
     ],
@@ -335,7 +335,7 @@ module.exports = {
     h2: 'Castle Hill lesson fees',
     intro: 'Straightforward prices, identical for every course.',
     first: 'One whole lesson free, with a course and timetable suggested at the end.',
-    group: 'Two weekly lessons for a month, about eight, with five to ten learners at one level.',
+    group: 'Two weekly lessons for a month, about eight, with fifteen to twenty learners at one level.',
     private: 'One-to-one teaching at the same rhythm, around eight lessons a month.',
     closer: 'Outside India we invoice in US dollars, so Castle Hill households on either side of the council line pay the same. Payment starts only after the trial agrees a course and time; the pricing page sets out breaks, missed lessons and format changes.'
   },
@@ -381,12 +381,12 @@ module.exports = {
       },
       {
         q: 'What do online coding classes cost for Castle Hill learners?',
-        a: 'The first lesson is free. Group classes are USD 100 a month for two live lessons a week, about eight each month, with five to ten learners; one-to-one costs USD 150 a month on the same plan. No payment is taken until the course and time are agreed.',
+        a: 'The first lesson is free. Group classes are USD 100 a month for two live lessons a week, about eight each month, with fifteen to twenty learners; one-to-one costs USD 150 a month on the same plan. No payment is taken until the course and time are agreed.',
         boiler: true
       },
       {
         q: 'How large are the groups?',
-        a: 'Five to ten learners, grouped by level and goals rather than age. If no group fits the learner\'s availability, one-to-one lessons are offered.',
+        a: 'Fifteen to twenty learners, grouped by level and goals rather than age. If no group fits the learner\'s availability, one-to-one lessons are offered.',
         boiler: true
       }
     ]

@@ -211,7 +211,7 @@ Our teachers are based in India. Australian after-school hours fall in the India
 - **Sunday** For families with busy weekdays.
 
 - **Free first class** Your child writes a first building program with a teacher. No card needed.
-- **Small groups** Five to ten children sharing builds and ideas.
+- **Small groups** Fifteen to twenty children sharing builds and ideas.
 - **One to one** For a child who wants to race ahead or go deeper.
 - **Their own code** Children write every program; teachers ask questions instead of giving answers.
 - **Own world only** No public servers and no chatting with strangers during lessons.
@@ -222,7 +222,7 @@ Our teachers are based in India. Australian after-school hours fall in the India
 Families outside India pay one monthly fee in US dollars. No enrolment fee and no term contract; you can stop after any month, holidays included.
 
 - Free first class: USD 0. A first building program written together. Advice on the right starting point. No card or bank details.
-- Group batch: USD 100 a month. Five to ten children per class. Builds shared and tested together. A regular teacher. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty children per class. Builds shared and tested together. A regular teacher. Stop after any month.
 - One to one: USD 150 a month. Lessons around your child's own builds. Their pace, their projects. Times around school and sport.
 
 ## What Australian parents ask about Minecraft coding

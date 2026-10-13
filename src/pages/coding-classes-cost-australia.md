@@ -37,7 +37,7 @@ Paid providers set their own prices, and many show them only inside a booking sy
 | After-school class at a venue | Usually a fee for the whole term, paid at the start | The number of sessions in the term, travel time, and refunds if your child stops |
 | Holiday coding camp | Usually priced per day or per program, often with sibling or early-booking discounts | Hours per day, the ratio of children to instructors, and what a child takes home |
 | Private tutor | Usually an hourly rate, set by the tutor | What they have actually built and taught, and the cancellation rule |
-| Modern Age Coders, live online | $100 a month in US dollars in a group of 5 to 10, or $150 a month one to one, for eight one-hour lessons | Our own price; no enrolment fee and no term contract |
+| Modern Age Coders, live online | $100 a month in US dollars in a group of 15 to 20, or $150 a month one to one, for eight one-hour lessons | Our own price; no enrolment fee and no term contract |
 
 We read Code Club Australia's own site on 6 October 2026; it says Code Club Australia "is part of the Telstra Foundation". We tried to read published prices from several paid Australian providers; their pages either loaded prices through a booking system or refused automated reading, so we have not quoted them.
 
@@ -126,7 +126,7 @@ Choosing
 - they are at a similar starting point to a beginner group
 - you want the lowest monthly cost for steady weekly lessons
 
-Groups hold 5 to 10 children of a similar age and level.
+Groups hold 15 to 20 children of a similar age and level.
 
 ### Choose one to one if
 
@@ -158,7 +158,7 @@ $150 / month
 $100 / month
 
 - 8 live group lessons a month (2 a week, 1 hour each)
-- 5 to 10 children of a similar age and level
+- 15 to 20 children of a similar age and level
 - The same teaching approach at a lower price
 - No enrolment fee, stop at the end of any month
 
@@ -206,7 +206,7 @@ Scratch and Python are both free to use, and a free club or a free first lesson 
 
 Is a group class worth it for coding?
 
-Usually, for children who are happy to work alongside others and are roughly at the same level as the group. Our groups hold 5 to 10 children. A very quick learner, a shy child or a teenager with one large project often gets more from one-to-one lessons.
+Usually, for children who are happy to work alongside others and are roughly at the same level as the group. Our groups hold 15 to 20 children. A very quick learner, a shy child or a teenager with one large project often gets more from one-to-one lessons.
 
 Are there extra costs on top of the class fee?
 

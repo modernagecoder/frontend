@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'AI and programming classes in Tipton',
   capsuleQ: 'Which are the best AI and programming classes for Tipton?',
-  capsule: 'In the 2021 census the ONS counted 47,200 usual residents in the Tipton built-up area and 341,832 in the borough of Sandwell around it. Ocker Hill, Princes End, Tipton Green, Dudley Port, Horseley Heath, Toll End and Burnt Tree are gazetteer suburbs that sit inside the Tipton built-up area. Modern Age Coders teaches programming, AI, Python, vibe coding and maths live online to learners there from six to 67. The tutors work from India, one-to-one or with groups of five to ten learners at one level. Lessons are built on algorithms the learner runs on real data. A free first lesson comes before any course suggestion. The Tipton project asks a route planner for the second, third and ninth shortest walks between Tipton and Dudley Port stations, and finds out how different those alternatives really are. Group classes then cost USD 100 a month and private ones USD 150 a month.',
+  capsule: 'In the 2021 census the ONS counted 47,200 usual residents in the Tipton built-up area and 341,832 in the borough of Sandwell around it. Ocker Hill, Princes End, Tipton Green, Dudley Port, Horseley Heath, Toll End and Burnt Tree are gazetteer suburbs that sit inside the Tipton built-up area. Modern Age Coders teaches programming, AI, Python, vibe coding and maths live online to learners there from six to 67. The tutors work from India, one-to-one or with groups of fifteen to twenty learners at one level. Lessons are built on algorithms the learner runs on real data. A free first lesson comes before any course suggestion. The Tipton project asks a route planner for the second, third and ninth shortest walks between Tipton and Dudley Port stations, and finds out how different those alternatives really are. Group classes then cost USD 100 a month and private ones USD 150 a month.',
   lead: 'Ask a map app for alternatives and it shows two or three routes that look clearly different. Ask a textbook algorithm for the second shortest route and you often get the first one again with a tiny detour, five metres longer, round the other side of a bollard. The algorithm is not wrong. Second shortest and genuinely different are separate questions, and a good program has to know which one it is answering. Tipton, with its network of streets, footpaths and canal towpaths, turns that distinction into something a learner can count.',
   wa: 'Hello Modern Age Coders, could we arrange a free AI or programming trial lesson? We are in Tipton.',
 
@@ -158,7 +158,7 @@ module.exports = {
       { h3: 'Learner at the keyboard', p: 'The learner writes and runs the code; the tutor questions each decision.' },
       { h3: 'Level first', p: 'The free lesson shows us what the learner knows before any course is named.' },
       { h3: 'Nothing to pay upfront', p: 'The first lesson needs no payment and no card.' },
-      { h3: 'Five to ten per group', p: 'Groups are formed by stage, with classmates joining from around the UK.' },
+      { h3: 'Fifteen to twenty per group', p: 'Groups are formed by stage, with classmates joining from around the UK.' },
       { h3: 'Roughly eight a month', p: 'Two lessons a week during term, with Sandwell holidays skipped on request.' },
       { h3: 'Same slot all year', p: 'Tutors absorb the clock changes so your UK lesson time does not move.' }
     ],

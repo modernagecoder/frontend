@@ -66,7 +66,7 @@ module.exports = {
 
   h1: 'Coding classes in Truro',
   capsuleQ: 'What are the best coding classes in Truro?',
-  capsule: 'Cornwall had 570,305 usual residents at the 2021 census, and Truro West, the largest of three middle-layer areas named after the city, had 10,739. Truro Cathedral records that its foundation stones were laid on 20 May 1880. Truro learners between six and sixty-seven study with us live over video, taught by teachers in India either alone or in a class of five to ten at one level, with lesson times built around English school hours and the working day. The opening lesson is on us; from then on, a group place is USD 100 a month, or USD 150 a month for one-to-one teaching.',
+  capsule: 'Cornwall had 570,305 usual residents at the 2021 census, and Truro West, the largest of three middle-layer areas named after the city, had 10,739. Truro Cathedral records that its foundation stones were laid on 20 May 1880. Truro learners between six and sixty-seven study with us live over video, taught by teachers in India either alone or in a class of fifteen to twenty at one level, with lesson times built around English school hours and the working day. The opening lesson is on us; from then on, a group place is USD 100 a month, or USD 150 a month for one-to-one teaching.',
   lead: 'Look at a map around Truro and the names begin with the same few letters: Treliske, Tresillian, Trelissick, Penelewey. Our Truro project asks where those names stop. Teenagers take every settlement Ordnance Survey names in Cornwall, Devon and Torbay, 2,385 in all, and pull out those beginning Tre-, Pol- and Pen-. Of the 183 Tre- names, 182 are in Cornwall. Then they use the Kolmogorov-Smirnov test to compare where the Tre- names sit from west to east with where every other name sits, and find the gap is far too large to be chance. The surprise comes when they run the same test inside Cornwall alone.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Truro.',
 
@@ -189,7 +189,7 @@ module.exports = {
       { h3: 'City and villages', p: 'A learner in Idless and another in Playing Place can be in the same class without anyone driving into the city.' },
       { h3: 'School years in England', p: 'Our levels are set out to match English school years, from primary to GCSE and A level, and every lesson is delivered in English.' },
       { h3: 'What happens first', p: 'The free session has the learner make something real, and closes with the teacher\'s suggestion of level, course and a weekly time. Card details are never requested.' },
-      { h3: 'One level per class', p: 'Classes of five to ten learners at the same stage, from Truro, elsewhere in the UK and overseas, so there are workable times at every level.' },
+      { h3: 'One level per class', p: 'Classes of fifteen to twenty learners at the same stage, from Truro, elsewhere in the UK and overseas, so there are workable times at every level.' },
       { h3: 'Twice a week', p: 'Two set lessons weekly, around eight a month, with holidays and exam weeks planned together with the teacher.' },
       { h3: 'Evenings in India', p: 'Our teachers live on Indian time, which never changes for summer, so an early-evening class in Cornwall falls late in their evening: half past nine there for a 5 pm start here in summer, half past ten once the clocks go back.' }
     ],
@@ -200,7 +200,7 @@ module.exports = {
     h2: 'Truro lesson fees',
     intro: 'Nothing to pay for the first lesson, then one fee a month.',
     first: 'A full lesson with no charge, ending with a suggested level, course and weekly time.',
-    group: 'Around eight live lessons each month, in a class of five to ten learners at one stage.',
+    group: 'Around eight live lessons each month, in a class of fifteen to twenty learners at one stage.',
     private: 'Around eight live lessons each month, with a teacher devoted to your learner alone.',
     closer: 'Families in Tresillian or Shortlanesend pay in US dollars, as every family outside India does, and no pound prices appear anywhere on our site. The first bill comes only after the free lesson and only once a course and a regular slot are settled; the pricing page answers questions on breaks, lessons a learner cannot attend and moving between group and private teaching.'
   },
@@ -225,8 +225,8 @@ module.exports = {
       { q: 'When was Truro Cathedral built?', a: 'The cathedral records that its foundation stones were laid on 20 May 1880, that the central tower was finished by 1905 and that the building was completed with the opening of the western towers in 1910. We are not connected with the cathedral.' },
       { q: 'When are Truro lessons?', a: 'Truro families usually choose a slot after school, on a weekday evening or on a weekend morning, and we agree it in the free lesson. Since our teachers are in India, a Cornish evening is their late night, a gap of four and a half hours while British Summer Time runs and five and a half hours outside it.' },
       { q: 'Is there a Truro centre?', a: 'No. There is no centre in Truro or anywhere in the UK, because every lesson is live online. Learners need a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'How much are Truro lessons?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same timetable cost USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than age or location, with five to ten learners at the same stage. If no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'How much are Truro lessons?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same timetable cost USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than age or location, with fifteen to twenty learners at the same stage. If no group suits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

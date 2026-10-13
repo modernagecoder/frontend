@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes in Den Bosch for ages 6 
 canonical: https://learn.modernagecoders.com/coding-classes-in-den-bosch
 source: src/pages/coding-classes-in-den-bosch.html
 ---
-> Coding classes in Den Bosch serve 162,295 people (Statistics Netherlands, 1 January 2026), the capital of Noord-Brabant and its fourth city, in a municipality that also holds Rosmalen, Nuland and Vinkel. The city's most famous son, Jheronimus Bosch, appears in one encyclopaedia with a death date of 9 August 1516 and a burial date of 8 August 1516, which is impossible, and no check on either field alone would ever notice. Modern Age Coders teaches live online in English across the municipality for anyone aged 6 to 67, giving the first lesson free and then charging USD 100 a month for a group of five to ten or USD 150 for one-to-one.
+> Coding classes in Den Bosch serve 162,295 people (Statistics Netherlands, 1 January 2026), the capital of Noord-Brabant and its fourth city, in a municipality that also holds Rosmalen, Nuland and Vinkel. The city's most famous son, Jheronimus Bosch, appears in one encyclopaedia with a death date of 9 August 1516 and a burial date of 8 August 1516, which is impossible, and no check on either field alone would ever notice. Modern Age Coders teaches live online in English across the municipality for anyone aged 6 to 67, giving the first lesson free and then charging USD 100 a month for a group of fifteen to twenty or USD 150 for one-to-one.
 
 [Home](/) / [Netherlands](/coding-classes-in-netherlands) / ’s-Hertogenbosch
 
@@ -12,11 +12,11 @@ source: src/pages/coding-classes-in-den-bosch.html
 
 # Coding classes in Den Bosch, where the record has a painter buried the day before he died
 
-**What are the best coding classes in Den Bosch?** Coding classes in Den Bosch serve 162,295 people (Statistics Netherlands, 1 January 2026), the capital of Noord-Brabant and its fourth city, in a municipality that also holds Rosmalen, Nuland and Vinkel. The city's most famous son, Jheronimus Bosch, appears in one encyclopaedia with a death date of 9 August 1516 and a burial date of 8 August 1516, which is impossible, and no check on either field alone would ever notice. Modern Age Coders teaches live online in English across the municipality for anyone aged 6 to 67, giving the first lesson free and then charging USD 100 a month for a group of five to ten or USD 150 for one-to-one.
+**What are the best coding classes in Den Bosch?** Coding classes in Den Bosch serve 162,295 people (Statistics Netherlands, 1 January 2026), the capital of Noord-Brabant and its fourth city, in a municipality that also holds Rosmalen, Nuland and Vinkel. The city's most famous son, Jheronimus Bosch, appears in one encyclopaedia with a death date of 9 August 1516 and a burial date of 8 August 1516, which is impossible, and no check on either field alone would ever notice. Modern Age Coders teaches live online in English across the municipality for anyone aged 6 to 67, giving the first lesson free and then charging USD 100 a month for a group of fifteen to twenty or USD 150 for one-to-one.
 
 Two dates sit in one record about a painter from this city. He died on 9 August 1516. He was buried on 8 August 1516. Both are real dates, both are correctly formatted, and every validator that checks fields one at a time will pass them. The fault lies in the relationship, and the reason is worth more than the error: the day of his death was never written down, only the day of his funeral, so somebody put the funeral into the field marked died. A child who has seen that once will check the relationships between columns for the rest of their working life.
 
-Facts last verified 7 September 2026. Teaching is online; no ’s-Hertogenbosch branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 September 2026. Teaching is online; no ’s-Hertogenbosch branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the capital of the province with the most town halls
 
@@ -202,14 +202,14 @@ Rosmalen is a town in its own right, Nuland and Vinkel are out towards Oss, and 
 - **Twice weekly, on the southern calendar** Two lessons a week at a fixed time, eight in most months. School holidays here follow regio Zuid with the rest of Brabant, Limburg and Zeeland, and weeks away are written in before a slot is agreed.
 - **A gap that grows in winter** Only the Dutch clock moves, so the teacher is three and a half hours ahead across the summer months and four and a half across the winter ones. The window runs from the end of school into mid-evening, and both weekend days are open.
 
-**Nine secondary schools, about a thousand pupils each** A teenager in this municipality is likely to be one of roughly a thousand in their building, which is the largest average of any city in this series. A group of five to ten at a fixed hour is a different proposition from a class of thirty, and for some learners that difference is the whole point.
+**Nine secondary schools, about a thousand pupils each** A teenager in this municipality is likely to be one of roughly a thousand in their building, which is the largest average of any city in this series. A group of fifteen to twenty at a fixed hour is a different proposition from a class of thirty, and for some learners that difference is the whole point.
 
 ## The fee, in dollars, for all four woonplaatsen
 
 Printed here so that nobody has to ask for it.
 
 - First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners placed by ability.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate applies and it is quoted in dollars, never in euros, so a family in Vinkel is charged exactly what one in the centre is charged. Money is collected only after the free lesson has produced a course and a time, and it goes over WhatsApp. Pausing, changing plan and missing a week are set out on the pricing page.
@@ -250,7 +250,7 @@ No, and none is claimed near the cathedral, in Rosmalen or anywhere in the Nethe
 
 ### What do Den Bosch coding classes cost?
 
-The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
+The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.
 
 ### How many learners are in a Den Bosch group?
 

@@ -57,7 +57,7 @@ module.exports = {
 
   h1: 'Coding classes in Anglesey',
   capsuleQ: 'What are the best coding classes in Anglesey?',
-  capsule: 'The Isle of Anglesey, Ynys Môn, had 68,878 usual residents at the 2021 census. Holyhead is by far its largest built-up area, followed by Llangefni, Amlwch, Menai Bridge and Llanfair Pwllgwyngyll, with Benllech, Valley and Beaumaris among the smaller places. All our teaching is live on video from India, and a free first lesson places each learner, whether in Year 2, Year 11 preparing for WJEC GCSEs, or long after school. People aged 6 to 67 learn coding, Python and maths with a teacher of their own or in a group of five to ten. The Anglesey project starts at Beaumaris Castle. After the free lesson, it is USD 100 a month for a group or USD 150 a month one-to-one.',
+  capsule: 'The Isle of Anglesey, Ynys Môn, had 68,878 usual residents at the 2021 census. Holyhead is by far its largest built-up area, followed by Llangefni, Amlwch, Menai Bridge and Llanfair Pwllgwyngyll, with Benllech, Valley and Beaumaris among the smaller places. All our teaching is live on video from India, and a free first lesson places each learner, whether in Year 2, Year 11 preparing for WJEC GCSEs, or long after school. People aged 6 to 67 learn coding, Python and maths with a teacher of their own or in a group of fifteen to twenty. The Anglesey project starts at Beaumaris Castle. After the free lesson, it is USD 100 a month for a group or USD 150 a month one-to-one.',
   lead: 'Cadw\'s record for Beaumaris Castle, listed at Grade I, says it was begun in 1295 as the last of the castles Edward I built in North Wales, and that it was designed on the concentric principle: moat, outer wall, outer ward and inner wall, one inside another. The inner ward is square; the outer wall is nearly square, with shallow facets that make an octagon. It looks like a textbook of symmetry, yet the record also notes the main entrance on the south side and a northern gate placed in the eastern facet, and says the castle was never finished. How symmetrical is it, exactly, and how could a program decide? This page\'s project answers with the maths of symmetry groups, in Python.',
   wa: 'Hello Modern Age Coders, we are on Anglesey and would like to book a free lesson, please.',
 
@@ -159,7 +159,7 @@ module.exports = {
       { h3: 'Your own screen', p: 'The learner types and runs the code while the teacher follows the shared screen.' },
       { h3: 'Set to the Welsh system', p: 'We place learners by Welsh school year and the Curriculum for Wales, and use WJEC names for GCSE and A level. Teaching is in English.' },
       { h3: 'Free first lesson', p: 'A complete lesson at no cost, then honest advice.' },
-      { h3: 'Groups by level', p: 'Five to ten learners working at one level, joining from many places.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners working at one level, joining from many places.' },
       { h3: 'Term time rhythm', p: 'Two lessons a week in term, with the school holidays off.' },
       { h3: 'A fixed UK time', p: 'Your lesson stays at the same UK time through the clock changes; our teachers in India time adjust.' }
     ],
@@ -170,7 +170,7 @@ module.exports = {
     h2: 'Fees on Anglesey',
     intro: 'Holyhead or Menai Bridge, the fee is the same, matching every country we teach outside India.',
     first: 'A full free lesson, then a clear recommendation.',
-    group: 'About eight lessons a month in a group of five to ten.',
+    group: 'About eight lessons a month in a group of fifteen to twenty.',
     private: 'About eight lessons a month with a teacher of your own.',
     closer: 'Fees are in US dollars and we publish no sterling prices. Billing starts only after the free lesson has fixed a course and weekly time; the pricing page covers holidays, missed lessons and changing formats.'
   },

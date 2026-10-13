@@ -311,7 +311,7 @@ module.exports = {
       { h3: 'Prompts on screen', p: 'Every question to an AI tool and every answer is read together and challenged.' },
       { h3: 'Aligned with school', p: 'Classes follow the WA school year and stop in the holidays.' },
       { h3: 'Free opening class', p: 'A full first lesson, then honest advice on the next step.' },
-      { h3: 'Five to ten per class', p: 'Learners grouped by level, or taught on their own.' },
+      { h3: 'Fifteen to twenty per class', p: 'Learners grouped by level, or taught on their own.' },
       { h3: 'Two each week', p: 'Regular slots that add up to about eight lessons monthly.' },
       { h3: 'India time', p: 'Teachers are based in India; a 3:30pm Applecross lesson is 1pm India time.' }
     ],
@@ -324,7 +324,7 @@ module.exports = {
     h2: 'Applecross lesson fees',
     intro: 'Three clear prices.',
     first: 'The first lesson is free and ends with a recommendation in writing.',
-    group: 'About eight live group lessons each month with five to ten learners.',
+    group: 'About eight live group lessons each month with fifteen to twenty learners.',
     private: 'About eight live private lessons each month with one teacher.',
     closer: 'Applecross learners pay in US dollars once the trial has fixed a course and time, never before. The pricing page explains holidays, absences and switching formats.'
   },
@@ -366,12 +366,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Applecross learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Is Copilot Studio part of Applecross group classes?', a: 'No. Copilot Studio lessons are one to one only; groups develop agents in Python.' }

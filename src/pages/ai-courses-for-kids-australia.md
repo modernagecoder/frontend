@@ -210,7 +210,7 @@ Lessons are live and online, with teachers based in India. Australian afternoons
 - **Sunday** Handy when the week is packed.
 
 - **Trial lesson free** Your child sorts, trains and tests something small with a teacher. No card is asked for.
-- **Five to ten children** Small groups that compare results and argue about mistakes.
+- **Fifteen to twenty children** Small groups that compare results and argue about mistakes.
 - **Private option** Lessons tailored to one child's pace and curiosity.
 - **No adult chatbots** Children's courses do not need any adult AI account.
 - **Mistakes on purpose** Children break models deliberately to see why they fail.
@@ -221,7 +221,7 @@ Lessons are live and online, with teachers based in India. Australian afternoons
 For families outside India, one monthly fee in US dollars covers lessons. Nothing to pay up front to enrol, and no minimum number of months.
 
 - Free first class: USD 0. A small sort, train and test activity. Honest advice on the right starting point. No card or bank details.
-- Group batch: USD 100 a month. Five to ten children per class. Results compared and discussed. A teacher who knows your child. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty children per class. Results compared and discussed. A teacher who knows your child. Stop after any month.
 - One to one: USD 150 a month. Lessons built around your child's questions. Pace that suits them. Times around school and activities.
 
 ## What Australian parents ask about AI courses for kids

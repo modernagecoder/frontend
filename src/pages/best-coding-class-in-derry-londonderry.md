@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Derry~Londond
 canonical: https://learn.modernagecoders.com/best-coding-class-in-derry-londonderry
 source: src/pages/best-coding-class-in-derry-londonderry.html
 ---
-> The settlement NISRA calls Derry City had 85,279 usual residents at the 2021 census, in the council area of Derry City and Strabane. The Historic Environment Division lists the Guildhall on Shipquay Place at Grade A, and the town walls are a scheduled monument. Anyone here from six to sixty-seven can join our lessons, which a teacher in India leads live on a video call, one to one or with a group of five to ten working at one level, fitted around school and work in Northern Ireland. You pay nothing for the first session; staying on costs USD 100 a month in a group or USD 150 a month for private teaching.
+> The settlement NISRA calls Derry City had 85,279 usual residents at the 2021 census, in the council area of Derry City and Strabane. The Historic Environment Division lists the Guildhall on Shipquay Place at Grade A, and the town walls are a scheduled monument. Anyone here from six to sixty-seven can join our lessons, which a teacher in India leads live on a video call, one to one or with a group of fifteen to twenty working at one level, fitted around school and work in Northern Ireland. You pay nothing for the first session; staying on costs USD 100 a month in a group or USD 150 a month for private teaching.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Derry~Londonderry
 
@@ -12,11 +12,11 @@ Derry~Londonderry, Northern Ireland / Live online
 
 # Coding classes in Derry~Londonderry
 
-**What are the best coding classes in Derry~Londonderry?** The settlement NISRA calls Derry City had 85,279 usual residents at the 2021 census, in the council area of Derry City and Strabane. The Historic Environment Division lists the Guildhall on Shipquay Place at Grade A, and the town walls are a scheduled monument. Anyone here from six to sixty-seven can join our lessons, which a teacher in India leads live on a video call, one to one or with a group of five to ten working at one level, fitted around school and work in Northern Ireland. You pay nothing for the first session; staying on costs USD 100 a month in a group or USD 150 a month for private teaching.
+**What are the best coding classes in Derry~Londonderry?** The settlement NISRA calls Derry City had 85,279 usual residents at the 2021 census, in the council area of Derry City and Strabane. The Historic Environment Division lists the Guildhall on Shipquay Place at Grade A, and the town walls are a scheduled monument. Anyone here from six to sixty-seven can join our lessons, which a teacher in India leads live on a video call, one to one or with a group of fifteen to twenty working at one level, fitted around school and work in Northern Ireland. You pay nothing for the first session; staying on costs USD 100 a month in a group or USD 150 a month for private teaching.
 
 Trains leave Derry~Londonderry for Coleraine about once an hour, and trains from Coleraine come the other way. Somewhere, each pair must pass. Our project finds where, using a time-distance chart: time along one axis, distance along the other, every train a sloping line. Where an eastbound line crosses a westbound one, two trains meet. A first, simple model, with one time per station, says the meetings happen out on the line between Bellarena and Castlerock. Add the minutes each train waits at a station, from the same timetable, and all 15 of Wednesday's meetings move to one place: the platform at Bellarena.
 
-Facts last verified 23 September 2026. Teaching is online; no Derry~Londonderry branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Derry~Londonderry branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the walled city
 
@@ -172,7 +172,7 @@ Learners in Derry~Londonderry live across the city and the wider council area of
 - **Across the city** A learner in Waterside and another near Long Tower can share one class without either travelling across town.
 - **Matched to local schooling** Whether a child is in primary school, facing the transfer test or taking CCEA GCSEs and A levels up to Year 14, we place them at the right stage; all teaching is in English.
 - **The opening lesson** The free session is spent writing real code, and closes with the teacher's suggested level, course and weekly time. We never ask for a card.
-- **Grouped by stage** A class brings together five to ten learners of the same level from here, from elsewhere in the UK and from other countries, which keeps a spread of sensible times open.
+- **Grouped by stage** A class brings together fifteen to twenty learners of the same level from here, from elsewhere in the UK and from other countries, which keeps a spread of sensible times open.
 - **Twice weekly** Lessons run on two set days every week, making roughly eight a month; the teacher works around school holidays and exam revision with each family.
 - **Evenings in India** India has one time zone all year, so a class at 5 pm here begins at 21:30 for our teachers during British Summer Time and 22:30 in winter.
 
@@ -183,7 +183,7 @@ Learners in Derry~Londonderry live across the city and the wider council area of
 A free first lesson, then a single monthly fee.
 
 - First class: USD 0. A full lesson with no charge, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month, in a class of five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight live lessons a month, in a class of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight live lessons a month, with a teacher for your learner only.
 
 Every family outside India, including those in Ballyarnett and The Moor, is billed in US dollars; we do not list prices in pounds. The first charge comes only after the free lesson and once you have chosen a course and a weekly time, and the pricing page explains how breaks, missed sessions and a switch between group and one-to-one classes work.
@@ -224,11 +224,11 @@ No. We have no centre here and no premises anywhere in the UK, because every les
 
 ### How much do lessons cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are learners grouped?
 
-By level, pace and goals rather than by age or where they live, with five to ten learners at the same stage. When no group fits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than by age or where they live, with fifteen to twenty learners at the same stage. When no group fits the learner's week, we offer one-to-one lessons.
 
 ## Northern Ireland and beyond
 

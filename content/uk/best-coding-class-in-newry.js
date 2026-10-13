@@ -60,7 +60,7 @@ module.exports = {
 
   h1: 'Coding classes in Newry',
   capsuleQ: 'What are the best coding classes in Newry?',
-  capsule: 'The Newry settlement had 28,530 usual residents at the 2021 census, NISRA records, in the council area of Newry, Mourne and Down. The Historic Environment Division lists the Cathedral of St Patrick and St Colman on Hill Street at Grade A. Newry learners from six to sixty-seven study with teachers in India on live video, either one to one or with a class of five to ten at the same level, at times that suit school and work in Northern Ireland. The opening lesson carries no charge; afterwards it is USD 100 a month for a class place and USD 150 a month for private lessons.',
+  capsule: 'The Newry settlement had 28,530 usual residents at the 2021 census, NISRA records, in the council area of Newry, Mourne and Down. The Historic Environment Division lists the Cathedral of St Patrick and St Colman on Hill Street at Grade A. Newry learners from six to sixty-seven study with teachers in India on live video, either one to one or with a class of fifteen to twenty at the same level, at times that suit school and work in Northern Ireland. The opening lesson carries no charge; afterwards it is USD 100 a month for a class place and USD 150 a month for private lessons.',
   lead: 'Northern Ireland keeps a register of its industrial past: 14,778 mills, bridges, dams, locks and other sites with a location, in the Historic Environment Division\'s Industrial Heritage Record. Our Newry project asks what is unusual about the 281 within 5 kilometres of the city\'s railway station. Canal features stand out, as you might guess: 33 locks, lock houses, quays and canal bridges, where an average stretch of the country would have fewer than 5. The surprise is tanneries: 11 near Newry against 27 in the whole of the rest of Northern Ireland. Teenagers test both with Fisher\'s exact test, and learn why the usual shortcut gives absurd answers here.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Newry.',
 
@@ -188,7 +188,7 @@ module.exports = {
       { h3: 'City and villages', p: 'A learner in Camlough and another in Goraghwood can join the same class without a long drive in the dark.' },
       { h3: 'Northern Ireland stages', p: 'Learners are placed from primary through the transfer test years and CCEA GCSEs to A level in Year 14, with every lesson given in English.' },
       { h3: 'What the free lesson is', p: 'A real coding session with a teacher, after which you get a recommended level, course and weekly time. We take no card details.' },
-      { h3: 'Classes of one level', p: 'Five to ten learners at a single stage, from Newry, the rest of the UK and abroad, keeping good times available for everyone.' },
+      { h3: 'Classes of one level', p: 'Fifteen to twenty learners at a single stage, from Newry, the rest of the UK and abroad, keeping good times available for everyone.' },
       { h3: 'Two a week', p: 'Two lessons on fixed days each week, around eight a month, with holidays and exams arranged with the teacher.' },
       { h3: 'The time difference', p: 'Our teachers keep Indian time all year, so a class starting at five in the afternoon in Newry is at half past nine in the evening for them in summer and half past ten in winter.' }
     ],
@@ -199,7 +199,7 @@ module.exports = {
     h2: 'Newry lesson fees',
     intro: 'Your first lesson is free; after that there is one monthly fee.',
     first: 'A full lesson without charge, ending with a suggested level, course and weekly time.',
-    group: 'Roughly eight live lessons a month, in a class of five to ten learners at the same stage.',
+    group: 'Roughly eight live lessons a month, in a class of fifteen to twenty learners at the same stage.',
     private: 'Roughly eight live lessons a month, with the teacher\'s full attention on your learner.',
     closer: 'Families in Derrymore or Craigmore are billed in US dollars, as are all families outside India, and the site never displays pound prices. You pay nothing until the free lesson is done and a course and weekly slot are fixed; the pricing page sets out how pauses, missed lessons and changes between group and private teaching are handled.'
   },
@@ -224,8 +224,8 @@ module.exports = {
       { q: 'Which Newry buildings are listed at Grade A?', a: 'The Historic Environment Division lists the Cathedral of St Patrick and St Colman on Hill Street and the Parish Church of St Mary on John Mitchel Place at Grade A, and Craigmore Viaduct near Bessbrook too.' },
       { q: 'When are Newry lessons?', a: 'Most Newry families choose a time after school, on a weekday evening or at the weekend, confirmed in the free lesson. Our teachers are in India, four and a half hours ahead of Northern Ireland in summer and five and a half hours ahead in winter.' },
       { q: 'Is there a centre in Newry?', a: 'No. We have no Newry centre and no premises anywhere in the UK, because every lesson is live online. Learners need a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do Newry lessons cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than age or where they live, with five to ten learners at the same stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
+      { q: 'What do Newry lessons cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are learners grouped?', a: 'By level, pace and goals rather than age or where they live, with fifteen to twenty learners at the same stage. If no group fits the learner\'s week, we offer one-to-one lessons.', boiler: true }
     ]
   },
 

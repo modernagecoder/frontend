@@ -40,7 +40,7 @@ module.exports = {
   twitterDescription: 'Edinburgh maths, taught live online: how steep is Arthur\'s Seat? A height profile turns Higher calculus into a walk.',
   pageName: 'Maths Tuition in Edinburgh',
   webPageDescription: 'Live online maths tuition for Edinburgh learners aged 6 to 67 under the Curriculum for Excellence, from primary maths to SQA National 5, Higher and Advanced Higher Mathematics, and adult study, with a gradient and rate of change project on a height profile up Arthur\'s Seat.',
-  courseDescription: 'Live online maths lessons for Edinburgh learners from P1 to S6 and for adults, in groups of five to ten matched by level or one to one, with senior-phase work steered to the SQA course specifications.',
+  courseDescription: 'Live online maths lessons for Edinburgh learners from P1 to S6 and for adults, in groups of fifteen to twenty matched by level or one to one, with senior-phase work steered to the SQA course specifications.',
   crumbs: [{ name: 'Courses', href: '/courses' }, { name: 'Coding classes in the UK', href: '/coding-classes-in-united-kingdom' }],
   crumbLabel: 'Maths tuition in Edinburgh',
   navLinks: [
@@ -62,12 +62,12 @@ module.exports = {
     ['BGE', 'S1 to S3, including straight-line gradient'],
     ['Senior phase', 'National 5, Higher, Advanced Higher'],
     ['Adults', 'Refreshers and a route back to SQA courses'],
-    ['Format', 'Live video, 5 to 10 per group or one to one'],
+    ['Format', 'Live video, 15 to 20 per group or one to one'],
     ['Teachers', 'In India, timetabled in UK time'],
     ['Local project', 'A height profile up Arthur\'s Seat']
   ],
   capsuleQ: 'In short',
-  capsule: 'Edinburgh learners aged 6 to 67 study maths with us live online, at whatever stage they are: early and upper primary, the S1 to S3 years, the three SQA senior courses (National 5, Higher, Advanced Higher), or adult study. Learners share a class of five to ten at the same level, unless they prefer a private teacher. Our Edinburgh example is a height profile up Arthur\'s Seat from the Palace of Holyroodhouse: the average gradient along the straight line is 0.149, but the steepest twenty-metre step is 0.574, and the chord gradient to the summit changes as the chord shrinks, which is how Higher Mathematics introduces rate of change. The trial is free of charge. Continuing lessons cost USD 100 monthly in a group or USD 150 monthly on a one to one basis.',
+  capsule: 'Edinburgh learners aged 6 to 67 study maths with us live online, at whatever stage they are: early and upper primary, the S1 to S3 years, the three SQA senior courses (National 5, Higher, Advanced Higher), or adult study. Learners share a class of fifteen to twenty at the same level, unless they prefer a private teacher. Our Edinburgh example is a height profile up Arthur\'s Seat from the Palace of Holyroodhouse: the average gradient along the straight line is 0.149, but the steepest twenty-metre step is 0.574, and the chord gradient to the summit changes as the chord shrinks, which is how Higher Mathematics introduces rate of change. The trial is free of charge. Continuing lessons cost USD 100 monthly in a group or USD 150 monthly on a one to one basis.',
 
   picks: {
     eyebrow: 'Where most Edinburgh learners join',
@@ -266,7 +266,7 @@ module.exports = {
     cells: [
       { h3: 'A familiar teacher', p: 'The same person teaches the group from week to week.' },
       { h3: 'Quick reports', p: 'A short message home on progress after lessons.' },
-      { h3: 'Level-matched groups', p: 'Five to ten learners working at the same level.' },
+      { h3: 'Level-matched groups', p: 'Fifteen to twenty learners working at the same level.' },
       { h3: 'Genuine data', p: 'Height profiles, maps and records sit beside exam questions.' },
       { h3: 'Private lessons', p: 'For a single tough topic or the final weeks before exams.' },
       { h3: 'Understanding first', p: 'Every method is explained before it is practised.' }
@@ -281,7 +281,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Billed monthly in US dollars at a single rate for all countries outside India. No joining fee and no lengthy commitment.',
     free: ['A real lesson pitched correctly', 'A frank account afterwards', 'No card details'],
-    group: ['Five to ten learners, one level', 'The same teacher throughout', 'Written work marked and explained', 'Certificate at the end'],
+    group: ['Fifteen to twenty learners, one level', 'The same teacher throughout', 'Written work marked and explained', 'Certificate at the end'],
     one: ['Personal teaching', 'Focused on the exact difficulty', 'Helpful just before exams']
   },
 

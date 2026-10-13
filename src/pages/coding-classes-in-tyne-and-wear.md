@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Tyne and Wear,
 canonical: https://learn.modernagecoders.com/coding-classes-in-tyne-and-wear
 source: src/pages/coding-classes-in-tyne-and-wear.html
 ---
-> Tyne and Wear is five boroughs: Newcastle upon Tyne, Sunderland, North Tyneside, Gateshead and South Tyneside. At the 2021 Census they held 1,127,191 people between them, by our sum of the five published counts. The Newcastle built-up area is the largest, followed by Sunderland, Gateshead and South Shields. Teachers in India run every class live over video, and each learner joins the group that matches their skills, whatever their age. We teach everyone from 6 to 67, in groups of five to ten or one-to-one, in coding, Python, probability and maths. The Tyne and Wear project uses the official list of Metro stations. Lesson one is on us; stay, and a group costs USD 100 a month while one-to-one costs USD 150.
+> Tyne and Wear is five boroughs: Newcastle upon Tyne, Sunderland, North Tyneside, Gateshead and South Tyneside. At the 2021 Census they held 1,127,191 people between them, by our sum of the five published counts. The Newcastle built-up area is the largest, followed by Sunderland, Gateshead and South Shields. Teachers in India run every class live over video, and each learner joins the group that matches their skills, whatever their age. We teach everyone from 6 to 67, in groups of fifteen to twenty or one-to-one, in coding, Python, probability and maths. The Tyne and Wear project uses the official list of Metro stations. Lesson one is on us; stay, and a group costs USD 100 a month while one-to-one costs USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Tyne and Wear
 
@@ -12,11 +12,11 @@ Tyne and Wear / Live online
 
 # Coding classes in Tyne and Wear
 
-**What are the best coding classes in Tyne and Wear?** Tyne and Wear is five boroughs: Newcastle upon Tyne, Sunderland, North Tyneside, Gateshead and South Tyneside. At the 2021 Census they held 1,127,191 people between them, by our sum of the five published counts. The Newcastle built-up area is the largest, followed by Sunderland, Gateshead and South Shields. Teachers in India run every class live over video, and each learner joins the group that matches their skills, whatever their age. We teach everyone from 6 to 67, in groups of five to ten or one-to-one, in coding, Python, probability and maths. The Tyne and Wear project uses the official list of Metro stations. Lesson one is on us; stay, and a group costs USD 100 a month while one-to-one costs USD 150.
+**What are the best coding classes in Tyne and Wear?** Tyne and Wear is five boroughs: Newcastle upon Tyne, Sunderland, North Tyneside, Gateshead and South Tyneside. At the 2021 Census they held 1,127,191 people between them, by our sum of the five published counts. The Newcastle built-up area is the largest, followed by Sunderland, Gateshead and South Shields. Teachers in India run every class live over video, and each learner joins the group that matches their skills, whatever their age. We teach everyone from 6 to 67, in groups of fifteen to twenty or one-to-one, in coding, Python, probability and maths. The Tyne and Wear project uses the official list of Metro stations. Lesson one is on us; stay, and a group costs USD 100 a month while one-to-one costs USD 150.
 
 Suppose you set out to visit every Tyne and Wear Metro station, but each trip takes you to a station chosen at random. The first few trips almost always bring somewhere new, yet the last few stations can take an age to turn up. Mathematicians call this the coupon collector problem, after collecting every card in a set. This page's project starts with the government's official register of public transport stops, discovers that the obvious way to pick out Metro stations quietly lets in eight tram stops from Edinburgh, cleans the list down to 60 stations, and then works out exactly how many random trips a full set should take.
 
-Facts last verified 26 September 2026. Teaching is online; no Tyne and Wear branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Tyne and Wear branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Tyne and Wear learners start
 
@@ -139,7 +139,7 @@ Getting across Tyne and Wear for a weekly evening class takes time. Online lesso
 - **At home, anywhere** A terrace in Hebburn, a semi in Longbenton, a flat in Sunderland. The learner types and the teacher follows on the shared screen.
 - **The school words** A Year 9 option choice or an A level coursework deadline means the same to our teachers as to a Tyneside classroom, and every lesson is in English.
 - **Try a lesson free** A proper lesson, then clear advice on level and course. No card details are requested.
-- **A group at your level** Five to ten learners at the same stage, whether they log in from Tyneside or much further away.
+- **A group at your level** Fifteen to twenty learners at the same stage, whether they log in from Tyneside or much further away.
 - **Pauses for holidays** Two lessons a week is usual, and we stop for your school's own holidays.
 - **Booked in UK time** Your slot stays at the same UK time all year; the teacher, whose clock runs on India time several hours ahead, adjusts at the changes.
 
@@ -150,7 +150,7 @@ Getting across Tyne and Wear for a weekly evening class takes time. Online lesso
 Jarrow or Jesmond, the fee is the same, and it is the fee in every country we teach except India.
 
 - First class: USD 0. A full lesson of real work, then advice on level and course.
-- Group tuition: USD 100 a month. Around eight lessons a month with five to ten learners at one level.
+- Group tuition: USD 100 a month. Around eight lessons a month with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Around eight lessons a month, one-to-one.
 
 We charge in US dollars and list no pound prices. The first invoice waits until the free lesson has produced a chosen course and a regular weekly time. Our pricing page sets out what happens with holidays, a missed class, or a move from group to private.
@@ -191,7 +191,7 @@ Yes. Our teen data science and adult data analysis courses both work with real, 
 
 ### How much do lessons cost?
 
-The first lesson is free. Continuing is USD 100 per month in a group of five to ten, or USD 150 per month on your own with a teacher; nobody pays to register and there is no minimum spell.
+The first lesson is free. Continuing is USD 100 per month in a group of fifteen to twenty, or USD 150 per month on your own with a teacher; nobody pays to register and there is no minimum spell.
 
 ### Do you break for Tyne and Wear school holidays?
 

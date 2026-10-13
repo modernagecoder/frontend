@@ -16,7 +16,7 @@ Perth and Kinross / Live online
 
 At Stanley, Historic Environment Scotland lists the Mid Mill of Stanley Mills at Category A and records that it probably holds the oldest cotton spinning machinery in Scotland. Carved on the second-floor string course is a floodmark dated 7 October 1847. The listing does not say what day of the week that was, and neither does the stone. A computer can tell you in a fraction of a second, but how? There is a neat formula, published by Christian Zeller in the 1880s, that turns any date into its weekday with a little whole-number arithmetic. This page's project codes it in Python, checks it against every day for three centuries, and hunts down the two bugs that break almost everyone's first attempt.
 
-Facts last verified 26 September 2026. Teaching is online; no Perth and Kinross branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Perth and Kinross branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four ways into coding in Perth and Kinross
 
@@ -148,7 +148,7 @@ In a council area this spread out, online lessons remove long evening drives.
 Crieff or Kinross, the fee is identical, the same one we charge everywhere outside India.
 
 - First class: USD 0. A complete free lesson, then honest advice.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month with a teacher to yourself.
 
 We charge in US dollars and keep no sterling price list. The trial lesson comes first; an invoice only follows once you have chosen a course and a regular weekday. Our pricing page spells out what happens over holidays, after a missed class or on a switch of format.

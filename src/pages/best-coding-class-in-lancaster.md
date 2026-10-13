@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Lancaster lea
 canonical: https://learn.modernagecoders.com/best-coding-class-in-lancaster
 source: src/pages/best-coding-class-in-lancaster.html
 ---
-> The Lancaster district had 142,934 usual residents at the 2021 census, and 8.9% of them were aged 20 to 24, against 6.0% across England. Lancaster Castle says its beginnings date back to Roman times, on the hill above the town and the River Lune, and that it was a working prison until 2011. Lancaster learners from six to sixty-seven can join our teachers in India in live video lessons, alone or in a class of five to ten at the same level, at times planned around the UK day. Lesson one costs nothing, and from then on families pay USD 100 a month for a group place or USD 150 for a teacher of their own.
+> The Lancaster district had 142,934 usual residents at the 2021 census, and 8.9% of them were aged 20 to 24, against 6.0% across England. Lancaster Castle says its beginnings date back to Roman times, on the hill above the town and the River Lune, and that it was a working prison until 2011. Lancaster learners from six to sixty-seven can join our teachers in India in live video lessons, alone or in a class of fifteen to twenty at the same level, at times planned around the UK day. Lesson one costs nothing, and from then on families pay USD 100 a month for a group place or USD 150 for a teacher of their own.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Lancaster
 
@@ -12,11 +12,11 @@ Lancaster, Lancashire / Live online
 
 # Coding classes in Lancaster
 
-**What are the best coding classes in Lancaster?** The Lancaster district had 142,934 usual residents at the 2021 census, and 8.9% of them were aged 20 to 24, against 6.0% across England. Lancaster Castle says its beginnings date back to Roman times, on the hill above the town and the River Lune, and that it was a working prison until 2011. Lancaster learners from six to sixty-seven can join our teachers in India in live video lessons, alone or in a class of five to ten at the same level, at times planned around the UK day. Lesson one costs nothing, and from then on families pay USD 100 a month for a group place or USD 150 for a teacher of their own.
+**What are the best coding classes in Lancaster?** The Lancaster district had 142,934 usual residents at the 2021 census, and 8.9% of them were aged 20 to 24, against 6.0% across England. Lancaster Castle says its beginnings date back to Roman times, on the hill above the town and the River Lune, and that it was a working prison until 2011. Lancaster learners from six to sixty-seven can join our teachers in India in live video lessons, alone or in a class of fifteen to twenty at the same level, at times planned around the UK day. Lesson one costs nothing, and from then on families pay USD 100 a month for a group place or USD 150 for a teacher of their own.
 
 The River Lune at Caton, just upstream of Lancaster, has its flow measured every day. Our teenagers take the highest flow of each year from 1980 to 2023 and compare the two halves. The recent 21 years average 851.6 cubic metres per second at their peak, the earlier 21 years 783.2. Is the river flooding more? A permutation test answers without any formula: shuffle the 42 yearly peaks into random halves 100,000 times and see how often chance alone produces a gap that large. It does so about one time in five. Remove the single biggest flood, 1,740 cubic metres per second in December 2015, and the gap almost vanishes.
 
-Facts last verified 23 September 2026. Teaching is online; no Lancaster branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Lancaster branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the Lune city
 
@@ -173,7 +173,7 @@ The district reaches from the city to the Morecambe coast and the villages of th
 - **City, coast and valley** A learner in Heysham and another in Caton can share a class without anyone crossing the Lune.
 - **Levels schools will recognise** A Lancashire pupil will find our levels familiar, since they track the English curriculum from Reception, through each Key Stage, to GCSE and A level, and all teaching is in English.
 - **Learning from the first minute** Even the free session is spent on a real task, and afterwards we suggest a level, a course and a regular slot; nobody asks for card details.
-- **Classes by level** Five to ten learners at one stage, from Lancaster, around the UK and abroad, which keeps sensible times open at every level.
+- **Classes by level** Fifteen to twenty learners at one stage, from Lancaster, around the UK and abroad, which keeps sensible times open at every level.
 - **Two lessons a week** Two fixed lessons weekly, about eight a month, with half terms and exams arranged with the teacher in advance.
 - **Teaching across the time gap** When it is 5 pm in Lancaster it is 9.30 pm for our teachers in summer and 10.30 pm in winter, because the clocks in India never change; they plan their working day around UK learners.
 
@@ -184,7 +184,7 @@ The district reaches from the city to the Morecambe coast and the villages of th
 The first lesson is free, then there is one fee a month.
 
 - First class: USD 0. A full lesson with no charge, finishing with advice on level, course and a weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month, with five to ten learners at the same stage.
+- Group tuition: USD 100 a month. About eight live lessons a month, with fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. About eight live lessons a month, with the teacher working with your learner alone.
 
 Hest Bank and Torrisholme families pay in US dollars, just like every family outside India, and our site carries no pound prices anywhere. No invoice arrives until after the free lesson, once a course and a weekly time have been chosen, and our pricing page covers what happens with pauses, missed lessons or a change between group and one-to-one teaching.
@@ -225,11 +225,11 @@ No. We have no Lancaster centre and no premises in the UK, since all lessons are
 
 ### How much do lessons cost for a Lancaster learner?
 
-The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners; one-to-one teaching on the same pattern costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners; one-to-one teaching on the same pattern costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How is a learner placed in a group?
 
-By level, pace and goals rather than age or where they live, with five to ten learners at the same stage. If no group fits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than age or where they live, with fifteen to twenty learners at the same stage. If no group fits the learner's week, we offer one-to-one lessons.
 
 ## The North West and beyond
 

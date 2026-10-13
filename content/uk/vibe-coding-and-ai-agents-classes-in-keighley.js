@@ -163,7 +163,7 @@ module.exports = {
       { h3: 'Active from minute one', p: 'The learner\'s screen is the one on show. They build, and the tutor questions each step.' },
       { h3: 'A trial that places', p: 'We watch how a learner tackles a problem before suggesting any course.' },
       { h3: 'First lesson free', p: 'It lasts as long as a normal lesson and asks for no card.' },
-      { h3: 'Five to ten in a class', p: 'Groups are formed by stage, with classmates from across the UK.' },
+      { h3: 'Fifteen to twenty in a class', p: 'Groups are formed by stage, with classmates from across the UK.' },
       { h3: 'Two lessons each week', p: 'Bradford district school holidays are skipped once we have the dates.' },
       { h3: 'Your time stays fixed', p: 'Tutors absorb the spring and autumn clock changes.' }
     ],

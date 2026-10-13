@@ -138,7 +138,7 @@ module.exports = {
         { kind: 'two', mt: true,
           leftH3: 'How our lessons run',
           left: [
-            'Small groups of five to ten at the same level, or one to one if you prefer to learn privately.',
+            'Groups of fifteen to twenty at the same level, or one to one if you prefer to learn privately.',
             'Live and online, with questions welcome at any point in a lesson.'
           ],
           rightH3: 'What we will not promise',
@@ -223,7 +223,7 @@ module.exports = {
       { h3: 'Code actually read', p: 'A teacher looks at your program and explains exactly what to change.' },
       { h3: 'Questions welcome', p: 'No question is too basic; asking is how everyone learns.' },
       { h3: 'Private if you prefer', p: 'One-to-one lessons for learners who would rather not join a group.' },
-      { h3: 'Small groups', p: 'Five to ten learners at the same level.' }
+      { h3: 'Small groups', p: 'Fifteen to twenty learners at the same level.' }
     ]
   },
 

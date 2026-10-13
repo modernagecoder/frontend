@@ -235,7 +235,7 @@ module.exports = {
     cells: [
       { h3: 'The same teacher weekly', p: 'A child\'s mistakes only get fixed by someone who has seen them before.' },
       { h3: 'Our own problems', p: 'Practice is written by us in the spirit of the challenge. No PMC paper is copied.' },
-      { h3: 'Five to ten children', p: 'Enough for a child to hear a better method than their own, few enough that nobody hides at the back.' },
+      { h3: 'Fifteen to twenty children', p: 'Enough for a child to hear a better method than their own, few enough that nobody hides at the back.' },
       { h3: 'Parents told the truth', p: 'A short, plain note on what went well and what did not, rather than a score to put on the fridge.' },
       { h3: 'One to one when useful', p: 'For a child who freezes in a group, or has one specific gap to close.' },
       { h3: 'Nothing promised', p: 'No certificate, no Bonus Round place and no score is promised by us or anyone honest.' }
@@ -250,7 +250,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'A monthly rate in US dollars, the same for every country outside India. Nothing to join and nothing to cancel.',
     free: ['A real lesson, taught not sold', 'A straight answer about where the maths is', 'No card details'],
-    group: ['Five to ten children at one level', 'The same teacher every week', 'Work marked and talked through', 'A certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'The same teacher every week', 'Work marked and talked through', 'A certificate at the end'],
     one: ['One child with one teacher', 'Built around a specific gap', 'Useful when a group hour will not fit']
   },
 

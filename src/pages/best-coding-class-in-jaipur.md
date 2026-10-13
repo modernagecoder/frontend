@@ -12,7 +12,7 @@ Live online · serving Jaipur
 
 Real programming for kids, teens and college students in Jaipur, from **Malviya Nagar to Vaishali Nagar, Mansarovar to C-Scheme**. Small live batches, a mentor who knows your child's name, and projects they can open and show you.
 
-Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Jaipur)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**JaipurEnrollingAreasMalviya Nagar, Vaishali Nagar, Mansarovar, C-Scheme, Jagatpura & all of JaipurBoardsRBSE · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 5–8 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across JaipurFREE DEMO OPEN
+Book a free demo class[Ask on WhatsApp](https://wa.me/919123366161?text=Hi,%20I'm%20interested%20in%20coding%20classes%20in%20Jaipur)★★★★★ **4.9/5****10,000+** students across India**5–8** students per batchFirst class is **free**JaipurEnrollingAreasMalviya Nagar, Vaishali Nagar, Mansarovar, C-Scheme, Jagatpura & all of JaipurBoardsRBSE · CBSE · ICSE · IGCSEAges**6–12** kids · **13–18** teens · college & adultsFormatLive online · 1-hour classes · 15–20 per batchTimingAfter-school & weekend slots · ISTProofRecorded sessions · completion certificate · real projectslive online across JaipurFREE DEMO OPEN
 
 > “We teach coding in real depth, so students leave able to think and build for themselves, not just copy code. Those are the real skills, and it is why this is the one coding class every learner should take.”
 
@@ -157,7 +157,7 @@ Master algebra, geometry, trigonometry, pre-calculus, and calculus for grades 9-
 Master advanced problem-solving techniques and prepare for IMO, PRMO, RMO, and other mathematical competitions. For Jaipur's brightest young mathematicians.
 
 - 2 Live Classes/Week
-- Small Batch (5-8 Students)
+- Batch (15-20 Students)
 - Recorded Sessions
 - Completion Certificate
 
@@ -175,7 +175,7 @@ Every class is taught live by an instructor with industry experience, questions 
 
 Small
 
-### 5–8 per batch
+### 15–20 per batch
 
 Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
 
@@ -197,7 +197,7 @@ Missed a class? Watch the recording. Every learner earns a completion certificat
 
 Group₹1,499/month
 
-2 live classes a week · 5–8 students
+2 live classes a week · 15–20 students
 
 - Live, interactive classes
 - Recorded session access
@@ -206,7 +206,7 @@ Group₹1,499/month
 
 Start freeMini Batch₹2,999/month
 
-2 live classes a week · just 3–4 students
+2 live classes a week · up to 6 students
 
 - Everything in Group
 - Smaller batch, more attention
@@ -215,7 +215,7 @@ Start freeMini Batch₹2,999/month
 
 Book a free demoPersonal 1-on-1₹4,999/month
 
-1 private session a week · fully bespoke
+4 private classes · fully flexible timing
 
 - Customised curriculum
 - Flexible scheduling
@@ -290,7 +290,7 @@ Takes under a minute.
 
 ## Coding classes in Jaipur: FAQs
 
-What is the best coding class in Jaipur for kids?Modern Age Coders offers the best coding classes in Jaipur for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Jaipur areas including Malviya Nagar, Vaishali Nagar, Mansarovar, C-Scheme, and Jagatpura.Do you offer online coding classes in Jaipur?Yes, we offer live online coding classes for students across Jaipur including Malviya Nagar, Vaishali Nagar, Mansarovar, C-Scheme, Jagatpura, Raja Park, and all other areas. Our online classes are interactive with small batch sizes of 5-8 students.Do you offer coding classes for Rajasthan Board (RBSE) students in Jaipur?Yes, our curriculum supports both RBSE (Rajasthan Board) and CBSE students in Jaipur. We align our coding and maths courses with board requirements to complement school education.How much do coding classes cost in Jaipur?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (3-4 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Are sessions available in Hindi for Jaipur students?Yes, our instructors are comfortable teaching in Hindi alongside English. Jaipur students can learn coding in the language they're most comfortable with.Do you provide certificates after completing coding courses?Yes, every student receives a completion certificate after finishing their coding course. These certificates are valuable for school portfolios, college applications, and demonstrating coding skills.What areas in Jaipur do you serve?We serve all areas of Jaipur through our online classes including Malviya Nagar, Vaishali Nagar, Mansarovar, C-Scheme, Bani Park, Jagatpura, Pratap Nagar, Tonk Road, Raja Park, Nirman Nagar, Vidhyadhar Nagar, and more.How are your coding classes different from other institutes in Jaipur?We focus on project-based learning where students build real games, websites, and apps. Our small batch sizes (5-8 students), recorded sessions, expert instructors, and affordable pricing set us apart from other coding institutes in Jaipur. We also support both RBSE and CBSE curriculum.Do you offer coding classes for RBSE students in Jaipur?Yes. Jaipur schools run RBSE, CBSE, ICSE and IB, and our classes work alongside any of them. One thing worth knowing: RBSE was founded in Jaipur in 1957 but has been headquartered in Ajmer since 1961, so the board setting your child's papers is not actually a Jaipur body.Can MNIT Jaipur or LNMIIT students join your programming courses?Yes. Students from MNIT Jaipur, LNMIIT, the University of Rajasthan and Manipal Jaipur take the college track. It is project work rather than lectures: Python, Java, full-stack or AI/ML, built to the point where you can hand someone a URL.
+What is the best coding class in Jaipur for kids?Modern Age Coders offers the best coding classes in Jaipur for kids aged 6-12. Our courses include Scratch programming, game development, and creative coding with expert instructors. We serve all Jaipur areas including Malviya Nagar, Vaishali Nagar, Mansarovar, C-Scheme, and Jagatpura.Do you offer online coding classes in Jaipur?Yes, we offer live online coding classes for students across Jaipur including Malviya Nagar, Vaishali Nagar, Mansarovar, C-Scheme, Jagatpura, Raja Park, and all other areas. Our online classes are interactive with batch sizes of 15-20 students.Do you offer coding classes for Rajasthan Board (RBSE) students in Jaipur?Yes, our curriculum supports both RBSE (Rajasthan Board) and CBSE students in Jaipur. We align our coding and maths courses with board requirements to complement school education.How much do coding classes cost in Jaipur?Our group coding classes start at Rs.1499/month with 2 classes per week. Mini Batch (up to 6 students) is Rs.2,999/month. Personalized 1-on-1 classes are Rs.4,999/month. We offer a free demo class before enrollment.Are sessions available in Hindi for Jaipur students?Yes, our instructors are comfortable teaching in Hindi alongside English. Jaipur students can learn coding in the language they're most comfortable with.Do you provide certificates after completing coding courses?Yes, every student receives a completion certificate after finishing their coding course. These certificates are valuable for school portfolios, college applications, and demonstrating coding skills.What areas in Jaipur do you serve?We serve all areas of Jaipur through our online classes including Malviya Nagar, Vaishali Nagar, Mansarovar, C-Scheme, Bani Park, Jagatpura, Pratap Nagar, Tonk Road, Raja Park, Nirman Nagar, Vidhyadhar Nagar, and more.How are your coding classes different from other institutes in Jaipur?We focus on project-based learning where students build real games, websites, and apps. Our batch sizes (15-20 students), recorded sessions, expert instructors, and affordable pricing set us apart from other coding institutes in Jaipur. We also support both RBSE and CBSE curriculum.Do you offer coding classes for RBSE students in Jaipur?Yes. Jaipur schools run RBSE, CBSE, ICSE and IB, and our classes work alongside any of them. One thing worth knowing: RBSE was founded in Jaipur in 1957 but has been headquartered in Ajmer since 1961, so the board setting your child's papers is not actually a Jaipur body.Can MNIT Jaipur or LNMIIT students join your programming courses?Yes. Students from MNIT Jaipur, LNMIIT, the University of Rajasthan and Manipal Jaipur take the college track. It is project work rather than lectures: Python, Java, full-stack or AI/ML, built to the point where you can hand someone a URL.
 
 ## Ready to start your child's coding journey in Jaipur?
 

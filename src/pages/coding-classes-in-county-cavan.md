@@ -16,7 +16,7 @@ County Cavan, Ulster / Live online
 
 Here is a mistake that produces no error message and hands county after county the wrong population. The statistics office publishes its county table with Cavan third, after Cork City Council and Clare, and before Cork County Council, Carlow and Dublin City. That is neither alphabetical nor anything else obvious. It is simply the order the rows were stored in. Sort a list of county names alphabetically, line it up against those values by position, and Carlow gets Cork City's figure, Cavan gets Clare's, and so on down the list. Every number is real, every name is real, and the pairings are wrong. The same table also says it was updated in June 2023, for a count taken on a night in April 2022. Neither trap is exotic. Both are everywhere.
 
-Facts last verified 16 September 2026. Teaching is online; no County Cavan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 16 September 2026. Teaching is online; no County Cavan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Starting points for a Cavan learner
 
@@ -169,7 +169,7 @@ That is why the case for learning to program properly has, if anything, grown: s
 The practical shape of the teaching.
 
 - **Live with a real teacher** Every lesson is taught as it happens, with questions both ways, rather than watched as a video.
-- **Grouped by level** Five to ten learners at one ability level, gathered from Cavan and other countries, so nobody is waiting for the room to catch up.
+- **Grouped by level** Fifteen to twenty learners at one ability level, gathered from Cavan and other countries, so nobody is waiting for the room to catch up.
 - **Weekly and fixed** Two lessons most weeks, about eight a month, at a slot agreed once and kept.
 - **Matched to Irish schooling** Junior Cycle through Leaving Certificate, with exam seasons and holidays planned around rather than ignored.
 - **At the kitchen table** A computer, sound that works and a connection able to carry video. The first lesson doubles as a test of all three.
@@ -182,7 +182,7 @@ The practical shape of the teaching.
 Three figures, with nothing further to find.
 
 - First class: USD 0. A first lesson in full at no charge, which ends with a level and a recommendation.
-- Group tuition: USD 100 a month. Group lessons for a month, around eight of them, with five to ten learners at one level.
+- Group tuition: USD 100 a month. Group lessons for a month, around eight of them, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. One to one lessons for a month on the same schedule.
 
 Monthly billing is in US dollars at the single rate we set for families outside India, so Cootehill and Cavan town pay the same and there is no euro price to compare it with. No payment is taken before a course and a time are agreed in that first lesson, and the pricing page spells out pauses, missed lessons and changing between group and private.
@@ -223,7 +223,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do County Cavan coding classes cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

@@ -24,12 +24,12 @@
     "group": {
       "amount": 1499,
       "display": "₹1,499/month",
-      "description": "Weekly two classes with up to 10 students"
+      "description": "Weekly two classes with up to 20 students"
     },
     "miniBatch": {
       "amount": 2999,
       "display": "₹2,999/month",
-      "description": "Weekly two classes in a micro batch of 3-4 students",
+      "description": "Weekly two classes in a mini batch of up to 6 students",
       "indiaOnly": true
     },
     "personal": {

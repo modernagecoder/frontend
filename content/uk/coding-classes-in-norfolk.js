@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in Norfolk',
   capsuleQ: 'What are the best coding classes in Norfolk?',
-  capsule: 'Norfolk has one county council and seven district councils, and at the 2021 Census the seven districts held 916,120 people, a figure we reached by adding their published counts. Norwich is by far the largest place, with King\'s Lynn, Great Yarmouth and Thetford next. Our lessons are live over video, taught from India, and each learner joins a class chosen by level, not by age. Pupils can be as young as 6 or as old as 67, and they learn coding, Python, algorithms or maths in a small group of five to ten or on their own with a teacher. The Norfolk project comes from the wind farms off its coast. The opening lesson costs nothing. Carrying on means USD 100 monthly in a group, or USD 150 monthly for one-to-one teaching.',
+  capsule: 'Norfolk has one county council and seven district councils, and at the 2021 Census the seven districts held 916,120 people, a figure we reached by adding their published counts. Norwich is by far the largest place, with King\'s Lynn, Great Yarmouth and Thetford next. Our lessons are live over video, taught from India, and each learner joins a class chosen by level, not by age. Pupils can be as young as 6 or as old as 67, and they learn coding, Python, algorithms or maths in a group of fifteen to twenty or on their own with a teacher. The Norfolk project comes from the wind farms off its coast. The opening lesson costs nothing. Carrying on means USD 100 monthly in a group, or USD 150 monthly for one-to-one teaching.',
   lead: 'RWE says Scroby Sands, 2.5 kilometres off Great Yarmouth, was commissioned in March 2004 as one of the UK\'s first commercial offshore wind farms. Further out now stand Sheringham Shoal and Dudgeon, with turbines several times larger. Every turbine faces the same hard limit: it cannot catch all of the wind\'s power, because air that stopped dead would pile up behind the blades. A short textbook formula gives the share it can catch, and the ideal share sits at the top of a curve. This page\'s project finds that top in Python without any calculus, using a search that needs only thirty tries where a simple list of guesses needs half a million, and then shows the one kind of curve that fools it.',
   wa: 'Hello Modern Age Coders, we are in Norfolk and would like to book a free lesson, please.',
 
@@ -157,7 +157,7 @@ module.exports = {
       { h3: 'Learning from home', p: 'A farmhouse near Swaffham, a terrace in Gorleston, a bungalow in Watton. The teacher shares a screen and the learner writes the code.' },
       { h3: 'Familiar school terms', p: 'Teachers talk about Year 9, Key Stage 4, GCSE options and A level choices in the way Norfolk pupils hear them at school, in English throughout.' },
       { h3: 'A first lesson free', p: 'A genuine lesson, followed by honest advice on level and course. We never ask for card details up front.' },
-      { h3: 'A group at your pace', p: 'Five to ten learners at the same stage, drawn from Norfolk, the rest of the UK and abroad.' },
+      { h3: 'A group at your pace', p: 'Fifteen to twenty learners at the same stage, drawn from Norfolk, the rest of the UK and abroad.' },
       { h3: 'Holidays on your terms', p: 'Most learners have two lessons a week, and we pause for your school\'s own holidays.' },
       { h3: 'Times given in UK time', p: 'Each slot is set in UK time and stays put when the clocks change; the teacher, on India time several hours ahead, takes care of the difference.' }
     ],
@@ -168,7 +168,7 @@ module.exports = {
     h2: 'Fees in Norfolk',
     intro: 'Thetford or Sheringham, the price is the same, and so it is in every country we teach other than India.',
     first: 'A complete lesson with real work, then a recommendation of level and course.',
-    group: 'About eight lessons each month, in a group of five to ten at one level.',
+    group: 'About eight lessons each month, in a group of fifteen to twenty at one level.',
     private: 'About eight lessons each month, one-to-one.',
     closer: 'We charge in US dollars and publish no prices in pounds. Billing begins only after the free lesson has agreed a course and a weekly time; the pricing page covers pauses, missed lessons and changes between group and private teaching.'
   },

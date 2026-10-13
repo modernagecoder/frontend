@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Sheffield lea
 canonical: https://learn.modernagecoders.com/best-coding-class-in-sheffield
 source: src/pages/best-coding-class-in-sheffield.html
 ---
-> Sheffield counted 556,521 usual residents at the 2021 Census, with 9.1% aged 20 to 24 against 6.0% across England. The University of Sheffield, chartered in 1905, counts six members of its staff who have won a Nobel Prize, and Sheffield Hallam University describes a community of about 31,000 students. Modern Age Coders teaches Sheffield learners aged six to sixty-seven in live online lessons, in groups of five to ten at one level or one to one, with teachers in India and times fixed in UK hours. The first lesson is on us; after it, a group place is USD 100 a month and one-to-one teaching USD 150 a month.
+> Sheffield counted 556,521 usual residents at the 2021 Census, with 9.1% aged 20 to 24 against 6.0% across England. The University of Sheffield, chartered in 1905, counts six members of its staff who have won a Nobel Prize, and Sheffield Hallam University describes a community of about 31,000 students. Modern Age Coders teaches Sheffield learners aged six to sixty-seven in live online lessons, in groups of fifteen to twenty at one level or one to one, with teachers in India and times fixed in UK hours. The first lesson is on us; after it, a group place is USD 100 a month and one-to-one teaching USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Sheffield
 
@@ -12,11 +12,11 @@ Sheffield, South Yorkshire, England / Live online
 
 # Coding classes in Sheffield
 
-**What are the best coding classes in Sheffield?** Sheffield counted 556,521 usual residents at the 2021 Census, with 9.1% aged 20 to 24 against 6.0% across England. The University of Sheffield, chartered in 1905, counts six members of its staff who have won a Nobel Prize, and Sheffield Hallam University describes a community of about 31,000 students. Modern Age Coders teaches Sheffield learners aged six to sixty-seven in live online lessons, in groups of five to ten at one level or one to one, with teachers in India and times fixed in UK hours. The first lesson is on us; after it, a group place is USD 100 a month and one-to-one teaching USD 150 a month.
+**What are the best coding classes in Sheffield?** Sheffield counted 556,521 usual residents at the 2021 Census, with 9.1% aged 20 to 24 against 6.0% across England. The University of Sheffield, chartered in 1905, counts six members of its staff who have won a Nobel Prize, and Sheffield Hallam University describes a community of about 31,000 students. Modern Age Coders teaches Sheffield learners aged six to sixty-seven in live online lessons, in groups of fifteen to twenty at one level or one to one, with teachers in India and times fixed in UK hours. The first lesson is on us; after it, a group place is USD 100 a month and one-to-one teaching USD 150 a month.
 
 Draw one straight line through 140 years of Sheffield temperatures and it rises by about 0.11 degrees Celsius a decade. Draw it from 1970 instead and it rises 0.30 degrees a decade. Start in 2010 and it climbs 0.85. All three are honest least-squares fits to the same Met Office record for the city's station, 131 metres up, with annual means from 1883 to 2025 and three incomplete years left out. The method is one of the most widely used tools in data science: choose the line that makes the squared gaps between line and points as small as possible. The lesson lies in the choices around it. Pick a start year between 1990 and 2011 and the slope can be anything from 0.26 to 0.85 degrees a decade. That freedom is where honest analysis and cherry-picking part company, and telling them apart is the lesson Sheffield's weather teaches our teenage learners.
 
-Facts last verified 21 September 2026. Teaching is online; no Sheffield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 21 September 2026. Teaching is online; no Sheffield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for a city of careful measurement
 
@@ -65,7 +65,7 @@ Children aged 5 to 9 were 5.8% of residents, almost exactly England's 5.9%, so t
 
 In 2021, 24.9% of residents aged five and over were schoolchildren or full-time students, compared with 20.4% in England.
 
-That mix means Sheffield learners come at every stage: a seven-year-old in Walkley making a first animation, a Year 11 student in Gleadless preparing for GCSE Computer Science, a university student in Broomhill who wants Python for a dissertation, and an adult in Stocksbridge changing career. Each joins a group of five to ten at their own level.
+That mix means Sheffield learners come at every stage: a seven-year-old in Walkley making a first animation, a Year 11 student in Gleadless preparing for GCSE Computer Science, a university student in Broomhill who wants Python for a dissertation, and an adult in Stocksbridge changing career. Each joins a group of fifteen to twenty at their own level.
 
 ## Nobel laureates, an early football club and a long weather record
 
@@ -175,7 +175,7 @@ Sheffield's hills turn short journeys into long ones; a live online lesson skips
 - **No climb, no commute** A learner in Crookes and another in Handsworth can share a lesson without either facing a single hill or bus.
 - **English school stages** Reception, Key Stages 1 to 4, Year 9 options, GCSEs and A levels, named the way Sheffield schools name them, with every lesson in English.
 - **A free lesson with a plan** The first lesson teaches a real task and ends with a suggested level, course and weekly slot. Booking asks for no card.
-- **Placed by level** Five to ten learners at one stage, from Sheffield, the rest of the UK and abroad, so every level can find a time that suits.
+- **Placed by level** Fifteen to twenty learners at one stage, from Sheffield, the rest of the UK and abroad, so every level can find a time that suits.
 - **Fixed twice-weekly slots** Two lessons a week at the same times, about eight a month, with holiday and exam breaks agreed with the teacher in advance.
 - **Teachers on Indian time** Our teachers work in India Standard Time, which never changes: four and a half hours ahead of Sheffield in summer and five and a half in winter, so after-school and evening lessons fit their day.
 
@@ -186,7 +186,7 @@ Sheffield's hills turn short journeys into long ones; a live online lesson skips
 A free start and two simple monthly options.
 
 - First class: USD 0. A full lesson for nothing, ending with a level, a recommended course and a proposed weekly time.
-- Group tuition: USD 100 a month. Roughly eight live lessons a month in a group of five to ten learners at one level.
+- Group tuition: USD 100 a month. Roughly eight live lessons a month in a group of fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Roughly eight live lessons a month in which the teacher works with your learner alone.
 
 Every family outside India pays one US dollar fee, so a household in Dore pays exactly what a household in Totley pays, and we publish no prices in pounds. Nothing is billed until the free lesson has agreed a course and a time; the pricing page covers pausing, missed lessons and moving between group and one-to-one teaching.
@@ -227,11 +227,11 @@ No. There is no Sheffield centre and no UK premises; every lesson is live online
 
 ### How much do Sheffield lessons cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Course, format and time are agreed before any payment.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Course, format and time are agreed before any payment.
 
 ### How do you group Sheffield learners?
 
-By ability, pace and goals, not age or postcode, with five to ten learners at one level. Where no group meets at a suitable time, we propose one-to-one lessons.
+By ability, pace and goals, not age or postcode, with fifteen to twenty learners at one level. Where no group meets at a suitable time, we propose one-to-one lessons.
 
 ## Yorkshire and the Midlands
 

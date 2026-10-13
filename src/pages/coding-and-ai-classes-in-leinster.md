@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across Leinster, from Du
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-leinster
 source: src/pages/coding-and-ai-classes-in-leinster.html
 ---
-> Leinster is the most populous of Ireland's four provinces: 2,835,980 of the State's residents lived in its twelve counties at the 2022 census, in 1,004,936 households. It holds Dublin and its three neighbouring councils, the commuter counties around them and the midlands to the west. We have a separate page for every Leinster county, linked below. Every class we run is live and weekly, placed by ability in groups of five to ten or taught one to one, for learners from six to sixty-seven; the opening lesson is free and afterwards a group place is USD 100 a month and a private one USD 150.
+> Leinster is the most populous of Ireland's four provinces: 2,835,980 of the State's residents lived in its twelve counties at the 2022 census, in 1,004,936 households. It holds Dublin and its three neighbouring councils, the commuter counties around them and the midlands to the west. We have a separate page for every Leinster county, linked below. Every class we run is live and weekly, placed by ability in groups of fifteen to twenty or taught one to one, for learners from six to sixty-seven; the opening lesson is free and afterwards a group place is USD 100 a month and a private one USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / Leinster
 
@@ -12,11 +12,11 @@ Leinster, the eastern province / Live online
 
 # Coding and AI classes in Leinster
 
-**What are the best coding and AI classes in Leinster?** Leinster is the most populous of Ireland's four provinces: 2,835,980 of the State's residents lived in its twelve counties at the 2022 census, in 1,004,936 households. It holds Dublin and its three neighbouring councils, the commuter counties around them and the midlands to the west. We have a separate page for every Leinster county, linked below. Every class we run is live and weekly, placed by ability in groups of five to ten or taught one to one, for learners from six to sixty-seven; the opening lesson is free and afterwards a group place is USD 100 a month and a private one USD 150.
+**What are the best coding and AI classes in Leinster?** Leinster is the most populous of Ireland's four provinces: 2,835,980 of the State's residents lived in its twelve counties at the 2022 census, in 1,004,936 households. It holds Dublin and its three neighbouring councils, the commuter counties around them and the midlands to the west. We have a separate page for every Leinster county, linked below. Every class we run is live and weekly, placed by ability in groups of fifteen to twenty or taught one to one, for learners from six to sixty-seven; the opening lesson is free and afterwards a group place is USD 100 a month and a private one USD 150.
 
 Here is a sum that looks right and is not. The census counts how many working people in each province work from home at least some of the time. Connacht comes to 27.6%, Leinster 35.5%, Munster 28.9% and Ulster, meaning the three Ulster counties in this State, 21.9%. Add the four and divide by four and you get 28.5%. The national figure is 32.1%. Nothing is wrong with the census. The plain average treats each province as equal, and they are not: Leinster alone holds 57.0% of all the working people in the country, so the national figure is mostly Leinster's. Averaging averages without their weights is one of the commonest errors in anything built from grouped numbers, school results and sales regions included.
 
-Facts last verified 17 September 2026. Teaching is online; no Leinster branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 17 September 2026. Teaching is online; no Leinster branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four starting points for the province
 
@@ -140,7 +140,7 @@ Tools will do the arithmetic you ask for. Knowing which arithmetic the question 
 From Dundalk to Enniscorthy to Mullingar, the arrangement is identical.
 
 - **Live every time** A teacher runs the whole lesson in real time and expects the learner to talk, try and get things wrong aloud.
-- **Grouped by level** Five to ten learners at one ability level, drawn from across Leinster and further afield so the match is a real one.
+- **Grouped by level** Fifteen to twenty learners at one ability level, drawn from across Leinster and further afield so the match is a real one.
 - **Two lessons most weeks** About eight a month, at a day and time fixed at the start and then kept.
 - **The Irish school year** Junior Cycle, Transition Year and the Leaving Certificate years, with mid-terms and exams planned around.
 - **At home** A laptop or desktop, working sound and a connection that carries video; the free lesson confirms all three.
@@ -153,7 +153,7 @@ From Dundalk to Enniscorthy to Mullingar, the arrangement is identical.
 The same three figures in every county of the province.
 
 - First class: USD 0. A full first lesson, free, finishing with a level and a recommended course.
-- Group tuition: USD 100 a month. A month of group lessons, about eight, with five to ten learners at one level.
+- Group tuition: USD 100 a month. A month of group lessons, about eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. A month of one to one lessons at the same weekly pace.
 
 Billing is monthly in US dollars at the single rate we charge outside India, so Wicklow and Longford pay the same and there is no separate euro list. Nothing is charged until a course and a weekly time are agreed in the free lesson, and the pricing page covers pauses, missed lessons and moving between group and private.
@@ -194,7 +194,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do Leinster coding classes cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

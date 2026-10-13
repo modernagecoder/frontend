@@ -59,7 +59,7 @@ module.exports = {
 
   h1: 'Vibe coding and AI agents classes in Haywards Heath',
   capsuleQ: 'Where are the best vibe coding and AI agents classes for Haywards Heath?',
-  capsule: 'The Haywards Heath built-up area held 40,185 usual residents in the ONS 2021 census, inside a Mid Sussex district of 152,566. Its postcodes fall in the Lucastes and Bolnore, Bentswood and Heath, Ashenground, Franklands and Haywards Heath North wards, with Lindfield alongside. Modern Age Coders teaches vibe coding, AI agents, Python, coding and maths to Haywards Heath learners from age six to 67. Lessons are live video classes with tutors in India, either one-to-one or in groups of five to ten at a matched level. Every learner starts with a free trial and leaves it with a course suggestion. The local project takes a year of quarter-hour readings from the Environment Agency rain gauge named Haywards Heath and asks a design question every agent builder meets: should the agent keep checking, or wait to be told? After the trial, a group place is USD 100 a month and private tuition USD 150 a month.',
+  capsule: 'The Haywards Heath built-up area held 40,185 usual residents in the ONS 2021 census, inside a Mid Sussex district of 152,566. Its postcodes fall in the Lucastes and Bolnore, Bentswood and Heath, Ashenground, Franklands and Haywards Heath North wards, with Lindfield alongside. Modern Age Coders teaches vibe coding, AI agents, Python, coding and maths to Haywards Heath learners from age six to 67. Lessons are live video classes with tutors in India, either one-to-one or in groups of fifteen to twenty at a matched level. Every learner starts with a free trial and leaves it with a course suggestion. The local project takes a year of quarter-hour readings from the Environment Agency rain gauge named Haywards Heath and asks a design question every agent builder meets: should the agent keep checking, or wait to be told? After the trial, a group place is USD 100 a month and private tuition USD 150 a month.',
   lead: 'An AI agent that has to react to the world has two choices. It can keep asking whether anything has changed, which programmers call polling, or it can sit quietly and wait for a message saying that something did. Most beginners write the first kind, because a loop with a sleep in it is easy. It also quietly burns requests, answers late and, if it only looks at the newest value, can miss short events altogether. We measured all three effects on real rainfall from a gauge beside Haywards Heath.',
   wa: 'Hello Modern Age Coders, we would like to book a free vibe coding or AI agents trial lesson. We are in Haywards Heath.',
 
@@ -161,11 +161,11 @@ module.exports = {
       { h3: 'Learner at the controls', p: 'Every line is typed and run by the learner, with the tutor questioning as it goes.' },
       { h3: 'Level found by trial', p: 'We watch the first lesson before suggesting any course.' },
       { h3: 'Try before paying', p: 'The first lesson is free and asks for no card.' },
-      { h3: 'Small matched groups', p: 'Five to ten classmates at the same stage, joining from around the UK.' },
+      { h3: 'Small matched groups', p: 'Fifteen to twenty classmates at the same stage, joining from around the UK.' },
       { h3: 'Two a week in term', p: 'About eight lessons a month, with West Sussex holidays kept free on request.' },
       { h3: 'Fixed UK hour', p: 'Your lesson keeps its UK time through both clock changes.' }
     ],
-    spec: { title: 'Why online', p: 'A group of five to ten learners at exactly one level is much easier to form from the whole country than from one town, and video means nobody travels.' }
+    spec: { title: 'Why online', p: 'A group of fifteen to twenty learners at exactly one level is much easier to form from the whole country than from one town, and video means nobody travels.' }
   },
 
   fees: {

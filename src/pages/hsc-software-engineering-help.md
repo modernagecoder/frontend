@@ -201,7 +201,7 @@ Our teachers sit in India, and New South Wales is ahead of them: by four and a h
 - **Technique, not answers** We teach with our own examples and never with code or documents that will be assessed.
 - **Tracing taught explicitly** Desk checks, partitions and boundary values, practised until they are automatic.
 - **Exam-style practice** Short-answer responses that name a method, apply it to a stimulus and state the result.
-- **Senior groups of five to ten** Year 11 and 12 students at a matching level, each one answering out loud every week.
+- **Senior groups of fifteen to twenty** Year 11 and 12 students at a matching level, each one answering out loud every week.
 - **Solo sessions** For one focus area that needs repair before trial exams.
 - **No promises** No band or mark is promised. The work and the result belong to the student.
 
@@ -210,7 +210,7 @@ Our teachers sit in India, and New South Wales is ahead of them: by four and a h
 One monthly charge in US dollars, identical for every family outside India. Nothing is paid to join and nothing ties you in past the current month.
 
 - Free first class: USD 0. A real lesson with a teacher. An honest view of the gaps. No card details.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher each week. Practice marked and discussed. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher each week. Practice marked and discussed. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one student. Aimed at specific gaps. Useful before trials and the HSC.
 
 ## What NSW students and parents ask

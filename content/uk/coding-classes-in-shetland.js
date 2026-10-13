@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'Coding classes in the Shetland Islands',
   capsuleQ: 'What are the best coding classes in Shetland?',
-  capsule: 'The Shetland Islands council area had about 22,900 residents in roughly 10,600 households at the 2022 census, at 15.6 people per square kilometre. Lerwick is the main town, Scalloway and Brae are the only other settlements NRS lists as localities, and many islanders live in smaller places on the Mainland of Shetland and on isles such as Whalsay, Bressay, Yell and Unst. Our lessons are taught live on video from India, so an island postcode changes nothing, and a free first lesson finds each learner\'s stage, from P1 to S6 or adult. Anyone aged 6 to 67 can learn coding, Python and maths in a group of five to ten or one-to-one. The Shetland project starts with Lerwick\'s latitude. Continuing costs USD 100 a month in a group, or USD 150 a month with a teacher of your own.',
+  capsule: 'The Shetland Islands council area had about 22,900 residents in roughly 10,600 households at the 2022 census, at 15.6 people per square kilometre. Lerwick is the main town, Scalloway and Brae are the only other settlements NRS lists as localities, and many islanders live in smaller places on the Mainland of Shetland and on isles such as Whalsay, Bressay, Yell and Unst. Our lessons are taught live on video from India, so an island postcode changes nothing, and a free first lesson finds each learner\'s stage, from P1 to S6 or adult. Anyone aged 6 to 67 can learn coding, Python and maths in a group of fifteen to twenty or one-to-one. The Shetland project starts with Lerwick\'s latitude. Continuing costs USD 100 a month in a group, or USD 150 a month with a teacher of your own.',
   lead: 'The Met Office weather station at Lerwick has kept monthly records since 1930, and its data file gives the station\'s position in a single line: latitude 60.139, longitude -1.183. Sailors, pilots and many map apps would write the same place as 60 degrees, 8 minutes and 20.4 seconds north, counting in sixties the way people have done for thousands of years. Converting between the two looks like simple arithmetic, yet a first attempt at the code usually contains a bug that prints impossible times such as 59 degrees, 59 minutes and 60 seconds. This page\'s project writes the converter in Python, finds that bug, and discovers why a degree of longitude in Shetland is only half as long as one at the equator.',
   wa: 'Hello Modern Age Coders, we are in Shetland and would like to book a free lesson, please.',
 
@@ -155,7 +155,7 @@ module.exports = {
       { h3: 'Any isle with internet', p: 'Whalsay, Yell, Bressay or Lerwick itself: a laptop and a connection that carries video are enough.' },
       { h3: 'Scottish stages in class', p: 'Teachers use P and S stages and the National 5, Higher and Advanced Higher names Shetland pupils know. Lessons are in English.' },
       { h3: 'A free trial first', p: 'One full lesson costs nothing, and afterwards we say plainly what would suit.' },
-      { h3: 'Classmates at your level', p: 'Groups of five to ten learners who share a stage, joining from all over.' },
+      { h3: 'Classmates at your level', p: 'Groups of fifteen to twenty learners who share a stage, joining from all over.' },
       { h3: 'Lessons in term', p: 'Twice a week in term, with the school holidays off.' },
       { h3: 'UK time, held steady', p: 'When the clocks change, your lesson stays at its UK hour; our teachers on India time move instead.' }
     ],
@@ -166,7 +166,7 @@ module.exports = {
     h2: 'Fees in Shetland',
     intro: 'Lerwick or Unst, the fee is the same, the rate we charge in every country outside India.',
     first: 'A full free lesson, then an honest recommendation.',
-    group: 'About eight lessons a month in a group of five to ten.',
+    group: 'About eight lessons a month in a group of fifteen to twenty.',
     private: 'About eight lessons a month, one learner and one teacher.',
     closer: 'Fees are in US dollars only, with no sterling list. Once the free trial has settled a course and a weekly time, billing begins; our pricing page explains holidays, absences and moving between group and private lessons.'
   },

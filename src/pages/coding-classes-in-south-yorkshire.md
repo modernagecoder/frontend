@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across South Yorkshir
 canonical: https://learn.modernagecoders.com/coding-classes-in-south-yorkshire
 source: src/pages/coding-classes-in-south-yorkshire.html
 ---
-> South Yorkshire is four boroughs, Sheffield, Doncaster, Rotherham and Barnsley, and the 2021 Census counted 1,375,006 people across them, by our addition of the four totals. The Sheffield built-up area alone passes half a million, with Doncaster, Rotherham and Barnsley next. We teach every class live over video from India, and each learner is placed by the level they have reached, whatever their age. Coding, Python, probability and maths are open to anyone aged 6 to 67, either in a class of five to ten or one-to-one. The South Yorkshire project is set at the Crucible in Sheffield. Lesson one is free of charge. Carry on and it is USD 100 per month in a group, or USD 150 per month for one-to-one.
+> South Yorkshire is four boroughs, Sheffield, Doncaster, Rotherham and Barnsley, and the 2021 Census counted 1,375,006 people across them, by our addition of the four totals. The Sheffield built-up area alone passes half a million, with Doncaster, Rotherham and Barnsley next. We teach every class live over video from India, and each learner is placed by the level they have reached, whatever their age. Coding, Python, probability and maths are open to anyone aged 6 to 67, either in a class of fifteen to twenty or one-to-one. The South Yorkshire project is set at the Crucible in Sheffield. Lesson one is free of charge. Carry on and it is USD 100 per month in a group, or USD 150 per month for one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / South Yorkshire
 
@@ -12,11 +12,11 @@ South Yorkshire / Live online
 
 # Coding classes in South Yorkshire
 
-**What are the best coding classes in South Yorkshire?** South Yorkshire is four boroughs, Sheffield, Doncaster, Rotherham and Barnsley, and the 2021 Census counted 1,375,006 people across them, by our addition of the four totals. The Sheffield built-up area alone passes half a million, with Doncaster, Rotherham and Barnsley next. We teach every class live over video from India, and each learner is placed by the level they have reached, whatever their age. Coding, Python, probability and maths are open to anyone aged 6 to 67, either in a class of five to ten or one-to-one. The South Yorkshire project is set at the Crucible in Sheffield. Lesson one is free of charge. Carry on and it is USD 100 per month in a group, or USD 150 per month for one-to-one.
+**What are the best coding classes in South Yorkshire?** South Yorkshire is four boroughs, Sheffield, Doncaster, Rotherham and Barnsley, and the 2021 Census counted 1,375,006 people across them, by our addition of the four totals. The Sheffield built-up area alone passes half a million, with Doncaster, Rotherham and Barnsley next. We teach every class live over video from India, and each learner is placed by the level they have reached, whatever their age. Coding, Python, probability and maths are open to anyone aged 6 to 67, either in a class of fifteen to twenty or one-to-one. The South Yorkshire project is set at the Crucible in Sheffield. Lesson one is free of charge. Carry on and it is USD 100 per month in a group, or USD 150 per month for one-to-one.
 
 World Snooker Tour calls the Crucible in Sheffield the home of the World Championship, and describes a 147, all fifteen reds with blacks and then every colour, as snooker's perfect break. It also notes that in 46 years at the Crucible, with many thousands of frames, there had been only 14 maximum breaks. That fact is a gift for a young programmer, because a simple model of a snooker break gives a very different answer. This page's project builds that model in Python, works out the expected value of a break and the chance of a 147, and then uses the gap between the model and the Crucible's real record to find what the model gets wrong.
 
-Facts last verified 26 September 2026. Teaching is online; no South Yorkshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no South Yorkshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where South Yorkshire learners begin
 
@@ -137,7 +137,7 @@ Crossing South Yorkshire for a weekly class in the evening rush takes time many 
 - **Lessons at your table** A semi in Wickersley, a terrace in Wombwell, a flat in Doncaster. The teacher and learner share a screen, and the learner writes the code.
 - **School words we use** Whether it is a Year 7 homework project or an A level statistics topic, the teacher uses the terms South Yorkshire pupils hear in class, in English.
 - **First lesson free** A proper lesson, then honest advice on level and course. No card details are asked for.
-- **Your level, your group** Everyone in a group of five to ten is working at the same point, wherever in the world they log in from.
+- **Your level, your group** Everyone in a group of fifteen to twenty is working at the same point, wherever in the world they log in from.
 - **Breaks to match school** Two lessons a week is typical, with pauses for your school's holidays.
 - **Held in UK time** Slots are fixed in UK time and ignore the clock changes on your side; the teacher, running on India time several hours ahead, adjusts.
 
@@ -148,7 +148,7 @@ Crossing South Yorkshire for a weekly class in the evening rush takes time many 
 Maltby or Mexborough, the fee is the same, as it is in every country we teach apart from India.
 
 - First class: USD 0. A full lesson of genuine work, finishing with advice on level and course.
-- Group tuition: USD 100 a month. About eight lessons a month with five to ten learners at one level.
+- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight lessons a month with a teacher of your own.
 
 All prices are set in US dollars, with none in pounds. You are only billed once the free lesson has led to an agreed course and a fixed weekly slot. How pauses, missed classes and swaps between group and private teaching work is spelled out on the pricing page.

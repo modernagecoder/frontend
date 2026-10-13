@@ -227,7 +227,7 @@ module.exports = {
       { h3: 'A plan', p: 'A Gantt chart of the days available.' },
       { h3: 'Check-ins', p: 'A teacher reviews progress against the plan.' },
       { h3: 'Your state\'s dates', p: 'Planned around your own holiday window.' },
-      { h3: 'Small groups', p: 'Five to ten learners, or one to one.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners, or one to one.' },
       { h3: 'Pause if you prefer', p: 'Taking the holidays off is fine too.' }
     ]
   },
@@ -240,7 +240,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'We bill monthly in US dollars outside India, one rate for every country. Nothing is charged to join and no term commitment applies, which makes it easy to keep going through a holiday or pause for one.',
     free: ['A free first lesson', 'Help choosing a holiday project', 'No card asked'],
-    group: ['Five to ten learners', 'One regular teacher', 'Similar age and level', 'Monthly, pause any time'],
+    group: ['Fifteen to twenty learners', 'One regular teacher', 'Similar age and level', 'Monthly, pause any time'],
     one: ['A teacher to yourself', 'Holiday times that suit you', 'Your own project pace']
   },
 

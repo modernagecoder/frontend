@@ -16,7 +16,7 @@ The Gap, City of Brisbane, Queensland / Live online
 
 Brisbane City Council publishes a table of which suburbs touch which. The Gap appears in it with eight neighbours, from Ashgrove to Upper Kedron. Treat the table as a graph and a two-line counting rule tells you, before any map is drawn, whether the file is internally consistent.
 
-Facts last verified 12 October 2026. Teaching is online; no The Gap branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no The Gap branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that turn counting into code
 
@@ -191,7 +191,7 @@ Each class is live on video, so a learner joins from home anywhere between Payne
 - **Code on a shared screen** The learner types; the teacher reads along and asks why each line is there.
 - **Queensland terms** Plans follow the state school calendar, with breaks in the holidays.
 - **A first lesson free** A full trial class with real content, ending in a clear recommendation.
-- **Groups of five to ten** Learners matched by level and pace, or taught one to one.
+- **Groups of fifteen to twenty** Learners matched by level and pace, or taught one to one.
 - **Two classes weekly** Set times each week, about eight lessons in a month.
 - **Teachers in India** A 4:30pm lesson in The Gap starts at 12 noon India time, and that gap never moves.
 
@@ -202,7 +202,7 @@ Each class is live on video, so a learner joins from home anywhere between Payne
 The same three prices for every family.
 
 - First class: USD 0. The first lesson is free and comes with a written suggestion for what to do next.
-- Group tuition: USD 100 a month. A month of group classes, usually eight, with five to ten learners at a matched level.
+- Group tuition: USD 100 a month. A month of group classes, usually eight, with fifteen to twenty learners at a matched level.
 - Private tuition: USD 150 a month. About eight lessons a month with one teacher for one learner.
 
 Families in The Gap pay in US dollars, and only after the trial, once a course and a weekly time are settled. Rules for holidays, missed lessons and switching formats sit on the pricing page.
@@ -239,11 +239,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for The Gap learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Is Copilot Studio taught in groups?
 

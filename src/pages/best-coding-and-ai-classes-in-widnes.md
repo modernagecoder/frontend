@@ -4,7 +4,7 @@ description: "Live online coding, AI, Python and vibe coding classes for Widnes,
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-widnes
 source: src/pages/best-coding-and-ai-classes-in-widnes.html
 ---
-> Widnes is one of the two large towns in the borough of Halton, and the ONS counted 59,935 residents in its built-up area at the 2021 census. Ditton, Hough Green, Farnworth, Appleton, Upton Rocks and Halton View are recorded suburbs inside it. Anyone aged six to 67 can learn coding, AI, Python, vibe coding and maths here through live video lessons with a tutor in India, taught privately or in a class of five to ten learners at one level. We teach the reasoning first, so that a learner can test a claim instead of repeating it. Lesson one costs nothing and closes with a course suggestion; after it, a group place is USD 100 a month and private tuition USD 150 a month. The Widnes project takes a famous rule of thumb, that a fifth of the causes give four fifths of the results, and checks it against five Census counts for the town's 193 small areas.
+> Widnes is one of the two large towns in the borough of Halton, and the ONS counted 59,935 residents in its built-up area at the 2021 census. Ditton, Hough Green, Farnworth, Appleton, Upton Rocks and Halton View are recorded suburbs inside it. Anyone aged six to 67 can learn coding, AI, Python, vibe coding and maths here through live video lessons with a tutor in India, taught privately or in a class of fifteen to twenty learners at one level. We teach the reasoning first, so that a learner can test a claim instead of repeating it. Lesson one costs nothing and closes with a course suggestion; after it, a group place is USD 100 a month and private tuition USD 150 a month. The Widnes project takes a famous rule of thumb, that a fifth of the causes give four fifths of the results, and checks it against five Census counts for the town's 193 small areas.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Widnes
 
@@ -12,11 +12,11 @@ Widnes, Halton, England / Live online
 
 # Coding and AI classes in Widnes
 
-**Where can Widnes learners find the best coding and AI classes?** Widnes is one of the two large towns in the borough of Halton, and the ONS counted 59,935 residents in its built-up area at the 2021 census. Ditton, Hough Green, Farnworth, Appleton, Upton Rocks and Halton View are recorded suburbs inside it. Anyone aged six to 67 can learn coding, AI, Python, vibe coding and maths here through live video lessons with a tutor in India, taught privately or in a class of five to ten learners at one level. We teach the reasoning first, so that a learner can test a claim instead of repeating it. Lesson one costs nothing and closes with a course suggestion; after it, a group place is USD 100 a month and private tuition USD 150 a month. The Widnes project takes a famous rule of thumb, that a fifth of the causes give four fifths of the results, and checks it against five Census counts for the town's 193 small areas.
+**Where can Widnes learners find the best coding and AI classes?** Widnes is one of the two large towns in the borough of Halton, and the ONS counted 59,935 residents in its built-up area at the 2021 census. Ditton, Hough Green, Farnworth, Appleton, Upton Rocks and Halton View are recorded suburbs inside it. Anyone aged six to 67 can learn coding, AI, Python, vibe coding and maths here through live video lessons with a tutor in India, taught privately or in a class of fifteen to twenty learners at one level. We teach the reasoning first, so that a learner can test a claim instead of repeating it. Lesson one costs nothing and closes with a course suggestion; after it, a group place is USD 100 a month and private tuition USD 150 a month. The Widnes project takes a famous rule of thumb, that a fifth of the causes give four fifths of the results, and checks it against five Census counts for the town's 193 small areas.
 
 People quote the 80/20 rule as if it were a law of nature: 20% of customers bring 80% of sales, 20% of bugs cause 80% of crashes. Its proper name is the Pareto principle, and it is a pattern seen in some data, not a promise about all data. Whether it holds depends on what you count and on the units you count it in. A learner who can write a dozen lines of Python can test it in an afternoon, and Widnes gives a neat example where one count obeys the rule quite closely and another, from the very same streets, comes nowhere close.
 
-Facts last verified 30 September 2026. Teaching is online; no Widnes branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Widnes branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Thinking, vibe coding and Python courses for Widnes
 
@@ -131,7 +131,7 @@ All a learner needs is a laptop or desktop and broadband that copes with a video
 - **Hands on the keyboard** The learner shares a screen and does the typing. The tutor asks for a prediction before each run and a reason after it.
 - **Starting point found first** Lesson one shows us what is already secure, and we note the exam board if there is one.
 - **No charge to try** The opening lesson is a full one and it is free. We suggest a course when it ends.
-- **Classes of one level** Group classes hold five to ten learners from around the UK who are at the same stage.
+- **Classes of one level** Group classes hold fifteen to twenty learners from around the UK who are at the same stage.
 - **Twice weekly** Two lessons a week, with breaks for the school holidays you tell us about.
 - **Fixed UK time** When the clocks go forward or back, your lesson time in Widnes stays where it was.
 

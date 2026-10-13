@@ -4,7 +4,7 @@ description: "Online AI, programming, Python and coding classes for Telford, New
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-telford
 source: src/pages/ai-and-programming-classes-in-telford.html
 ---
-> The 2021 census recorded 185,542 people in Telford and Wrekin, with the ONS placing 156,910 in the Telford built-up area and 14,190 in Newport. Children are well represented, with every band from birth to 14 above the England share, while the over-80s are fewer. Learners from 6 up to 67 study AI, programming, Python and maths with our tutors in India, live over video, alone or in same-stage classes of five to ten. The first lesson is free and picks the course. The Telford project turns a Victorian writer's claims about the Iron Bridge into tests a computer can run. Those who continue pay USD 100 monthly for a class or USD 150 monthly for one-to-one.
+> The 2021 census recorded 185,542 people in Telford and Wrekin, with the ONS placing 156,910 in the Telford built-up area and 14,190 in Newport. Children are well represented, with every band from birth to 14 above the England share, while the over-80s are fewer. Learners from 6 up to 67 study AI, programming, Python and maths with our tutors in India, live over video, alone or in same-stage classes of fifteen to twenty. The first lesson is free and picks the course. The Telford project turns a Victorian writer's claims about the Iron Bridge into tests a computer can run. Those who continue pay USD 100 monthly for a class or USD 150 monthly for one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands](/coding-and-ai-classes-in-west-midlands-region) / Telford
 
@@ -12,11 +12,11 @@ Telford, Shropshire, England / Live online
 
 # AI and programming classes in Telford
 
-**What are the best AI and programming classes in Telford?** The 2021 census recorded 185,542 people in Telford and Wrekin, with the ONS placing 156,910 in the Telford built-up area and 14,190 in Newport. Children are well represented, with every band from birth to 14 above the England share, while the over-80s are fewer. Learners from 6 up to 67 study AI, programming, Python and maths with our tutors in India, live over video, alone or in same-stage classes of five to ten. The first lesson is free and picks the course. The Telford project turns a Victorian writer's claims about the Iron Bridge into tests a computer can run. Those who continue pay USD 100 monthly for a class or USD 150 monthly for one-to-one.
+**What are the best AI and programming classes in Telford?** The 2021 census recorded 185,542 people in Telford and Wrekin, with the ONS placing 156,910 in the Telford built-up area and 14,190 in Newport. Children are well represented, with every band from birth to 14 above the England share, while the over-80s are fewer. Learners from 6 up to 67 study AI, programming, Python and maths with our tutors in India, live over video, alone or in same-stage classes of fifteen to twenty. The first lesson is free and picks the course. The Telford project turns a Victorian writer's claims about the Iron Bridge into tests a computer can run. Those who continue pay USD 100 monthly for a class or USD 150 monthly for one-to-one.
 
 Ironbridge, Coalbrookdale and Madeley all lie within Telford and Wrekin, and it was at Coalbrookdale, Samuel Smiles writes, that the castings for the first iron bridge were made. Smiles tells the story twice, in two different books, and adds a comparison with Thomas Telford's later bridge over the Severn at Buildwas, in Shropshire: 30 feet wider, yet with less than half the iron, 173 tons against 378. Claims like these usually get read and believed. A programmer can do something better: write each one as a small test, run them all, and see which pass. On this page two claims pass cleanly and two fail, and the failures turn out to be the most interesting part, because they show that the books were using words in different ways.
 
-Facts last verified 27 September 2026. Teaching is online; no Telford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Telford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## First courses for Telford learners
 
@@ -137,7 +137,7 @@ Any home in the borough joins the same lesson.
 - **The student builds it** Learners type every line; the tutor watches the shared screen and asks questions instead of taking over.
 - **Placed with care** From Year 5 to Year 12, the trial and the school year together decide the first topic, with the exam board kept in view.
 - **Try it free** You pay nothing for a full first lesson, and you leave it with a named course and the reason for it.
-- **Peers who match** A group means five to ten learners from around the UK, all working at the same stage.
+- **Peers who match** A group means fifteen to twenty learners from around the UK, all working at the same stage.
 - **Twice a week** Two lessons weekly in term; holidays kept free.
 - **Fixed local time** UK clock changes are handled by our tutors, not your timetable.
 

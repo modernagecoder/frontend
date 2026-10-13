@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI lessons for Letterkenny learners
 canonical: https://learn.modernagecoders.com/best-coding-class-in-letterkenny
 source: src/pages/best-coding-class-in-letterkenny.html
 ---
-> Letterkenny has 22,252 usual residents in the census town tables, the 21st largest of 867 towns, and 8,431 households, 6,875 of them on broadband. Every lesson with us is live on video, twice in most weeks, with a teacher who works through the course with a group of five to ten at the same level or with one learner alone. Anyone from six to sixty-seven can join. The opening lesson is free, and after it a place costs USD 100 a month in a group or USD 150 one to one.
+> Letterkenny has 22,252 usual residents in the census town tables, the 21st largest of 867 towns, and 8,431 households, 6,875 of them on broadband. Every lesson with us is live on video, twice in most weeks, with a teacher who works through the course with a group of fifteen to twenty at the same level or with one learner alone. Anyone from six to sixty-seven can join. The opening lesson is free, and after it a place costs USD 100 a month in a group or USD 150 one to one.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Donegal](/coding-classes-in-county-donegal) / Letterkenny
 
@@ -12,11 +12,11 @@ Letterkenny, County Donegal / Live online
 
 # Coding classes in Letterkenny
 
-**What is the best coding class in Letterkenny?** Letterkenny has 22,252 usual residents in the census town tables, the 21st largest of 867 towns, and 8,431 households, 6,875 of them on broadband. Every lesson with us is live on video, twice in most weeks, with a teacher who works through the course with a group of five to ten at the same level or with one learner alone. Anyone from six to sixty-seven can join. The opening lesson is free, and after it a place costs USD 100 a month in a group or USD 150 one to one.
+**What is the best coding class in Letterkenny?** Letterkenny has 22,252 usual residents in the census town tables, the 21st largest of 867 towns, and 8,431 households, 6,875 of them on broadband. Every lesson with us is live on video, twice in most weeks, with a teacher who works through the course with a group of fifteen to twenty at the same level or with one learner alone. Anyone from six to sixty-seven can join. The opening lesson is free, and after it a place costs USD 100 a month in a group or USD 150 one to one.
 
 A census table looks like a grid, and it does not arrive as one. The CSO sends the internet access table as a single line of 4,340 numbers: five answer categories multiplied by 868 area labels, one after another, with a short description of which dimension varies fastest. Letterkenny's broadband count, 6,875, is number 688 in that line. A program that reads the description correctly finds it. A program that assumes the dimensions run the other way round reads number 3,440 instead and gets 2, which is the Other row for Ballybrittas in County Laois. A program that is off by one gets 99, the broadband count for Drumkeen down the road. None of those mistakes raises an error. Every one of them was run against the real file while writing this page.
 
-Facts last verified 19 September 2026. Teaching is online; no Letterkenny branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 19 September 2026. Teaching is online; no Letterkenny branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses Letterkenny learners begin with
 
@@ -167,7 +167,7 @@ Generating a parser takes seconds. Knowing how it could be quietly wrong is the 
 What a Letterkenny household needs to know.
 
 - **Live every time** A teacher on the call for the whole lesson, working from what is on the learner's screen.
-- **Groups at one level** Five to ten learners at the same stage, joining from Letterkenny, the rest of Ireland and abroad.
+- **Groups at one level** Fifteen to twenty learners at the same stage, joining from Letterkenny, the rest of Ireland and abroad.
 - **Most weeks, twice** Roughly eight lessons a month at the hour chosen when the course begins.
 - **The school calendar** Holidays, mid-terms and exam weeks are allowed for when the timetable is set.
 - **Equipment** A desktop or laptop, a microphone with speakers or a headset, and broadband able to carry an hour of video.
@@ -180,7 +180,7 @@ What a Letterkenny household needs to know.
 The whole price list.
 
 - First class: USD 0. An opening lesson, taught in full and assessed, at no charge.
-- Group tuition: USD 100 a month. A month in a group of five to ten at one level, about eight live lessons.
+- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, about eight live lessons.
 - Private tuition: USD 150 a month. A month of private lessons at the same weekly frequency.
 
 The monthly price is set in US dollars and is the same for every household outside India, so there is no euro figure to compare it with. Payment follows the decision, never the other way round: course and hour first, invoice second, and the pricing page explains the awkward weeks, from school holidays to a missed lesson or a change of format.
@@ -221,7 +221,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Letterkenny cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

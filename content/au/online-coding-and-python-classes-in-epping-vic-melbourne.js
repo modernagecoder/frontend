@@ -288,7 +288,7 @@ module.exports = {
       { h3: 'Real code, real time', p: 'Learners code on their own computers and share the screen, and the teacher responds to what they write.' },
       { h3: 'In step with school', p: 'Courses follow the Victorian terms and stop for each holiday.' },
       { h3: 'A full first lesson', p: 'The free trial is a complete class; then the teacher recommends a course and a weekly slot.' },
-      { h3: 'Groups by level', p: 'Groups contain five to ten learners at a similar stage.' },
+      { h3: 'Groups by level', p: 'Groups contain fifteen to twenty learners at a similar stage.' },
       { h3: 'A weekly habit', p: 'Two lessons each week on fixed days, about eight a month, with holidays set out early.' },
       { h3: 'Teachers in India', p: 'Teachers work in India, so a 3:30pm Epping class in daylight saving is 10am India time, and 11am in Melbourne winter.' }
     ],
@@ -301,7 +301,7 @@ module.exports = {
     h2: 'Epping class fees',
     intro: 'Three numbers explain the cost.',
     first: 'One free lesson that ends with an honest next step.',
-    group: 'Four weeks of group lessons, normally eight, in a group of five to ten.',
+    group: 'Four weeks of group lessons, normally eight, in a group of fifteen to twenty.',
     private: 'Roughly eight one-to-one lessons in a month.',
     closer: 'Outside India we bill in US dollars, so Epping families pay the same as families anywhere else abroad. Nothing is due until the trial has agreed the course and time; the pricing page covers holidays, missed lessons and changing between group and private.'
   },
@@ -343,7 +343,7 @@ module.exports = {
       },
       {
         q: 'How much do coding classes cost for Epping learners?',
-        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, roughly eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. The course, format and time are agreed before you pay.',
+        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, roughly eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. The course, format and time are agreed before you pay.',
         boiler: true
       },
       {

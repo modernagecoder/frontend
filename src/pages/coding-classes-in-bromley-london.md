@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Bromley: Beck
 canonical: https://learn.modernagecoders.com/coding-classes-in-bromley-london
 source: src/pages/coding-classes-in-bromley-london.html
 ---
-> Bromley is the south east London borough of Beckenham, Orpington, Chislehurst, Penge, West Wickham, Hayes, Petts Wood and Biggin Hill, with 329,992 residents at the 2021 Census and Down House, Charles Darwin's home, at Downe. A course worth its fee teaches a learner to decide how a question should be tested before seeing the answer, and this page does that with Darwin's own data: fifteen pairs of maize plants from his 1876 book, tested by a program that tries every possible outcome. Our teachers, based in India, teach live on video to anyone from 6 to 67, individually or in a small group of five to ten at the same stage. A first lesson is free of charge; continuing costs USD 100 a month in a group or USD 150 a month one to one.
+> Bromley is the south east London borough of Beckenham, Orpington, Chislehurst, Penge, West Wickham, Hayes, Petts Wood and Biggin Hill, with 329,992 residents at the 2021 Census and Down House, Charles Darwin's home, at Downe. A course worth its fee teaches a learner to decide how a question should be tested before seeing the answer, and this page does that with Darwin's own data: fifteen pairs of maize plants from his 1876 book, tested by a program that tries every possible outcome. Our teachers, based in India, teach live on video to anyone from 6 to 67, individually or in a group of fifteen to twenty at the same stage. A first lesson is free of charge; continuing costs USD 100 a month in a group or USD 150 a month one to one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Bromley
 
@@ -12,11 +12,11 @@ London Borough of Bromley / Live online
 
 # Coding classes in Bromley
 
-**What are the best coding classes in Bromley?** Bromley is the south east London borough of Beckenham, Orpington, Chislehurst, Penge, West Wickham, Hayes, Petts Wood and Biggin Hill, with 329,992 residents at the 2021 Census and Down House, Charles Darwin's home, at Downe. A course worth its fee teaches a learner to decide how a question should be tested before seeing the answer, and this page does that with Darwin's own data: fifteen pairs of maize plants from his 1876 book, tested by a program that tries every possible outcome. Our teachers, based in India, teach live on video to anyone from 6 to 67, individually or in a small group of five to ten at the same stage. A first lesson is free of charge; continuing costs USD 100 a month in a group or USD 150 a month one to one.
+**What are the best coding classes in Bromley?** Bromley is the south east London borough of Beckenham, Orpington, Chislehurst, Penge, West Wickham, Hayes, Petts Wood and Biggin Hill, with 329,992 residents at the 2021 Census and Down House, Charles Darwin's home, at Downe. A course worth its fee teaches a learner to decide how a question should be tested before seeing the answer, and this page does that with Darwin's own data: fifteen pairs of maize plants from his 1876 book, tested by a program that tries every possible outcome. Our teachers, based in India, teach live on video to anyone from 6 to 67, individually or in a group of fifteen to twenty at the same stage. A first lesson is free of charge; continuing costs USD 100 a month in a group or USD 150 a month one to one.
 
 Charles Darwin lived at Down House, in what is now the London Borough of Bromley, from 1842 until 1882, according to Historic England. In 1876 he published a book on whether plants grown from crossed parents do better than plants from self-fertilised ones, and he printed his measurements in full. One small table, fifteen pairs of maize plants grown on opposite sides of the same pots, became a favourite of statisticians. Our learners type it in and ask Darwin's question with a computer: if crossing made no difference, how often would chance alone produce a gap this large? With fifteen pairs there are exactly 32,768 ways the signs could have fallen, and a short program checks every one. The answer depends, uncomfortably, on which test you pick, and that is the real lesson.
 
-Facts last verified 25 September 2026. Teaching is online; no Bromley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Bromley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four ways into coding from Bromley
 
@@ -172,7 +172,7 @@ However far a learner is from central Bromley, the lesson is only a click away.
 - **Home is the classroom** Learners take part from home with a laptop or desktop, headphones and a steady internet connection.
 - **Stages used in England** We describe progress in the Key Stages of English schools, from Key Stage 1 to sixth form, with GCSE and A level where they are relevant. Lessons are in English throughout.
 - **A free lesson first** Real teaching from a real teacher, never a sales pitch. By the end we can recommend a starting level and a course, and nobody asks for a card.
-- **Matched classmates** Each group gathers five to ten learners who have reached one stage, drawn from all over the UK and abroad, which keeps a sensible hour within reach.
+- **Matched classmates** Each group gathers fifteen to twenty learners who have reached one stage, drawn from all over the UK and abroad, which keeps a sensible hour within reach.
 - **Twice a week** Most groups meet on two evenings a week, taking breaks for half terms, holidays and exams by agreement.
 - **Local times** Our teachers work from India, but every time we send you is written in UK time.
 
@@ -183,7 +183,7 @@ However far a learner is from central Bromley, the lesson is only a click away.
 A free first lesson, then a single monthly fee that does not change from Penge to Biggin Hill.
 
 - First class: USD 0. A full first lesson with a teacher at no charge, ending with our recommendation of level, course and time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a class of five to ten at the same stage.
+- Group tuition: USD 100 a month. About eight live lessons a month in a class of fifteen to twenty at the same stage.
 - Private tuition: USD 150 a month. About eight live lessons a month, just the learner and the teacher.
 
 Families in Bromley pay in US dollars, as all families outside India do, and no pound prices appear on the site. Nothing is due until the free lesson has taken place and a course and weekly time are settled. The pricing page sets out how pauses, missed lessons and a move between class and one-to-one teaching work.
@@ -224,11 +224,11 @@ No. There is no Bromley centre and no premises anywhere in the UK, because every
 
 ### What do coding classes in Bromley cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## Across London and the wider UK
 

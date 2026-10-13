@@ -186,7 +186,7 @@ Teaching is live, from India, at a weekly hour set in Irish time. India keeps on
 - **Weekend** Longer builds, for people in delivery roles.
 
 - **A free first class** You describe a real workflow and leave knowing whether an agent belongs in it.
-- **Groups of five to ten** Professionals at one level, from Ireland and elsewhere, comparing designs.
+- **Groups of fifteen to twenty** Professionals at one level, from Ireland and elsewhere, comparing designs.
 - **One to one** For confidential systems and for the Copilot Studio course, which is private only.
 - **Your own accounts** Coding agent work uses your own paid tool accounts, so everything built stays yours.
 - **Test sets, always** No agent is called finished in class without cases whose answers are known.

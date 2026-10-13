@@ -16,7 +16,7 @@ Orange, New South Wales, Australia / Live online
 
 Ask an AI coding assistant to fill in the heights between contour lines and it will very often reach for a cubic spline, because a smooth curve looks more professional than straight lines. We tested that instinct on the road out of Orange. NSW Spatial Services publishes contour lines for the whole state, so we drew a line from the centre of town to the summit of Gaanha Bula / Mount Canobolas, recorded every contour it crosses, then hid one point at a time and asked each method to guess it. The smooth curve did not win. In one stretch it invented a hill 52 metres tall that the contours prove cannot exist.
 
-Facts last verified 8 October 2026. Teaching is online; no Orange branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 8 October 2026. Teaching is online; no Orange branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Orange learners start with AI coding
 
@@ -182,7 +182,7 @@ Everything happens on a video call, from anywhere in the Central West.
 - **At your desk** Learners join from home on a laptop or desktop, with no trip into town after school.
 - **NSW year levels** Teachers know NSW stages and year levels and plan around the four NSW terms. Lessons are in English.
 - **A useful trial** The free first lesson teaches something real and ends with a recommended course and weekly slot.
-- **Small groups** Five to ten learners at one level, gathered from Orange and other places so the group stays the right size.
+- **Small groups** Fifteen to twenty learners at one level, gathered from Orange and other places so the group stays the right size.
 - **Steady rhythm** Two live lessons a week, roughly eight a month, at a time agreed once the trial is done.
 - **Teachers in India** Orange is four and a half hours ahead of India time in winter and five and a half hours ahead during daylight saving.
 
@@ -193,7 +193,7 @@ Everything happens on a video call, from anywhere in the Central West.
 Pricing is the same everywhere in Australia, and short.
 
 - First class: USD 0. A free first lesson, followed by a suggested level, course and lesson time.
-- Group tuition: USD 100 a month. One month of group lessons, usually eight, with five to ten learners at the same stage.
+- Group tuition: USD 100 a month. One month of group lessons, usually eight, with fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. A month of one-to-one lessons, about eight, with a teacher of your own.
 
 Fees outside India are charged in US dollars. You pay nothing until after the trial, once a course and weekly time are agreed; holidays, missed lessons and moving between group and private are all explained on the pricing page.
@@ -234,11 +234,11 @@ No. We do not have premises in Australia and do not claim any. Classes are live 
 
 ### How much do Orange classes cost?
 
-The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, or USD 150 a month for one-to-one lessons. Everything is agreed before you pay.
+The first lesson is free. Then a group place is USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, or USD 150 a month for one-to-one lessons. Everything is agreed before you pay.
 
 ### How large are the groups?
 
-Each group has five to ten learners, matched by level and goals rather than age or location. If no group time suits, one-to-one lessons are offered.
+Each group has fifteen to twenty learners, matched by level and goals rather than age or location. If no group time suits, one-to-one lessons are offered.
 
 ## Further reading for the Central West
 

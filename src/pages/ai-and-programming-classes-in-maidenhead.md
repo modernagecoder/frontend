@@ -4,7 +4,7 @@ description: "Online AI, programming, Python and coding classes for Maidenhead, 
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-maidenhead
 source: src/pages/ai-and-programming-classes-in-maidenhead.html
 ---
-> Maidenhead is the largest built-up area in the Royal Borough of Windsor and Maidenhead, at 67,375 people in the 2021 census, ahead of Windsor at 31,560. The borough has more secondary-age children than England as a whole (10 to 14 year olds at 6.8 per cent against 6.0) and more parents in their forties. Our India-based teachers cover AI, programming, Python and maths in live video lessons for learners from 6 up to 67, either solo or in level-matched classes of five to ten. A free first lesson settles the starting point. The Maidenhead project stands under Brunel's railway bridge. If the learner carries on, a place in a class is USD 100 monthly, while a personal tutor is USD 150 monthly.
+> Maidenhead is the largest built-up area in the Royal Borough of Windsor and Maidenhead, at 67,375 people in the 2021 census, ahead of Windsor at 31,560. The borough has more secondary-age children than England as a whole (10 to 14 year olds at 6.8 per cent against 6.0) and more parents in their forties. Our India-based teachers cover AI, programming, Python and maths in live video lessons for learners from 6 up to 67, either solo or in level-matched classes of fifteen to twenty. A free first lesson settles the starting point. The Maidenhead project stands under Brunel's railway bridge. If the learner carries on, a place in a class is USD 100 monthly, while a personal tutor is USD 150 monthly.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Maidenhead
 
@@ -12,11 +12,11 @@ Maidenhead, Berkshire, England / Live online
 
 # AI and programming classes in Maidenhead
 
-**What are the best AI and programming classes in Maidenhead?** Maidenhead is the largest built-up area in the Royal Borough of Windsor and Maidenhead, at 67,375 people in the 2021 census, ahead of Windsor at 31,560. The borough has more secondary-age children than England as a whole (10 to 14 year olds at 6.8 per cent against 6.0) and more parents in their forties. Our India-based teachers cover AI, programming, Python and maths in live video lessons for learners from 6 up to 67, either solo or in level-matched classes of five to ten. A free first lesson settles the starting point. The Maidenhead project stands under Brunel's railway bridge. If the learner carries on, a place in a class is USD 100 monthly, while a personal tutor is USD 150 monthly.
+**What are the best AI and programming classes in Maidenhead?** Maidenhead is the largest built-up area in the Royal Borough of Windsor and Maidenhead, at 67,375 people in the 2021 census, ahead of Windsor at 31,560. The borough has more secondary-age children than England as a whole (10 to 14 year olds at 6.8 per cent against 6.0) and more parents in their forties. Our India-based teachers cover AI, programming, Python and maths in live video lessons for learners from 6 up to 67, either solo or in level-matched classes of fifteen to twenty. A free first lesson settles the starting point. The Maidenhead project stands under Brunel's railway bridge. If the learner carries on, a place in a class is USD 100 monthly, while a personal tutor is USD 150 monthly.
 
 Network Rail's history of the Maidenhead Bridge explains a hard brief. The Thames Navigation Commissioners would allow only one pier in the river, so Brunel had to cross with two very wide, very flat brick arches: each spans 128 feet, about 39 metres, but rises only 24 feet, about 7.3 metres. Network Rail says they were the flattest yet widest brick arches in the world when the bridge opened on 1 July 1839, and the railway's directors distrusted the design so much that they wanted the timber supports left in. Flat arches really are harder work, because they push outwards on their banks much more strongly than tall ones. How much more? This page's project calculates it in Python.
 
-Facts last verified 27 September 2026. Teaching is online; no Maidenhead branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 27 September 2026. Teaching is online; no Maidenhead branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Starting courses Maidenhead families choose
 
@@ -137,7 +137,7 @@ Every town and village in the borough joins by video.
 - **Code written by the learner** Nobody types for the student; the teacher reads their screen and steers with questions.
 - **By year and level** A Year 5 or a Year 12 starts where their year group and the trial lesson point, with exam board names used.
 - **A free trial** The first lesson costs nothing and ends with a clear recommendation.
-- **Matched groups** Classes of five to ten learners at one stage, gathered from across the UK.
+- **Matched groups** Classes of fifteen to twenty learners at one stage, gathered from across the UK.
 - **In term time** Two lessons a week during term; holidays kept free.
 - **Local time kept** Clock changes do not move your lesson; our teachers adjust.
 
@@ -148,7 +148,7 @@ Every town and village in the borough joins by video.
 One flat fee for Maidenhead families, the same one we use in every country outside India.
 
 - First class: USD 0. A full lesson free, followed by honest advice.
-- Group tuition: USD 100 a month. Roughly eight live lessons a month with five to ten classmates.
+- Group tuition: USD 100 a month. Roughly eight live lessons a month with fifteen to twenty classmates.
 - Private tuition: USD 150 a month. Roughly eight live lessons a month with your own tutor.
 
 All prices are in US dollars, never sterling. No payment is taken before the free lesson has agreed a course and a time each week. The pricing page sets out what happens with holidays, absences and a switch between group and private.

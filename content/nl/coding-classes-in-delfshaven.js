@@ -44,7 +44,7 @@ module.exports = {
 
   h1: 'Coding classes in Delfshaven, which has two thirds more secondary schools than the next district and a fifth fewer pupils in them',
   capsuleQ: 'What are the best coding classes in Delfshaven?',
-  capsule: 'Coding classes in Delfshaven reach 76,590 residents (1 January 2026) on 515 hectares of land at 14,944 people to the square kilometre, in 40,120 households of which 20,975 hold one person. Fifteen secondary establishments here teach 4,765 pupils. Nine in Prins Alexander teach 5,860. Two thirds more schools, a fifth fewer pupils, and the number everybody quotes is the one that gets it backwards. Modern Age Coders teaches live online in English from Spangen to Schiemond, ages 6 to 67, first lesson free, then USD 100 monthly in a group of five to ten or USD 150 one to one.',
+  capsule: 'Coding classes in Delfshaven reach 76,590 residents (1 January 2026) on 515 hectares of land at 14,944 people to the square kilometre, in 40,120 households of which 20,975 hold one person. Fifteen secondary establishments here teach 4,765 pupils. Nine in Prins Alexander teach 5,860. Two thirds more schools, a fifth fewer pupils, and the number everybody quotes is the one that gets it backwards. Modern Age Coders teaches live online in English from Spangen to Schiemond, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.',
   lead: 'Delfshaven has fifteen secondary establishments and Prins Alexander has nine. Delfshaven teaches 4,765 secondary pupils and Prins Alexander teaches 5,860. Two thirds more schools in one district, a fifth fewer pupils in them, and both figures come from the same office in the same year. Count the schools and you will conclude one thing. Count the pupils and you will conclude the opposite. Only one of those counts is measuring the amount of anything, and it is not the one that is easier to get.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Delfshaven.',
 
@@ -196,7 +196,7 @@ module.exports = {
     h2: 'The fee, in dollars, in all nine buurten',
     intro: 'Written here rather than saved for a call.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'A single international rate applies, quoted in dollars, with no euro edition, so an address in Schiemond is charged exactly what one in Spangen is. Nothing is paid until the free lesson has settled a course and an hour, and payment is arranged over WhatsApp afterwards. Pausing, switching plan and missing a week are all described on the pricing page.'
   },
@@ -221,7 +221,7 @@ module.exports = {
       { q: 'Is the class taught in Dutch?', a: 'English, throughout. The only Dutch that survives is school vocabulary, kept because a child meets groep, havo, vwo and profielkeuze on their own paperwork and would not recognise an English substitute for any of them. There is no Dutch-language edition of any course.' },
       { q: 'What hours work for a family in Delfshaven?', a: 'Between three and a half and four and a half hours, depending on the month, and the variation comes from the Dutch side rather than the Indian one. That leaves plenty open: anything from the end of the school day to mid-evening, and any hour of Saturday or Sunday. The slot is chosen once, in the free lesson, and then it stays.' },
       { q: 'Is there a Modern Age Coders classroom in Delfshaven?', a: 'No, and none is claimed in Delfshaven, elsewhere in Rotterdam or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Delfshaven coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Delfshaven coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

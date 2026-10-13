@@ -14,7 +14,7 @@ Australia · Ages 6 to 67 · Weekly or intensive
 
 School holidays bring a wave of coding camps: a week of games, robots and animation, often finishing with a showcase for parents. Weekly classes are quieter, an hour or two a week through the term. Families ask us which is better, and the honest answer is that they do different jobs. This page compares the two formats, uses a simple forgetting-curve model to show why spreading practice out tends to make skills stick, and suggests ways to combine a camp with weekly lessons.
 
-At a glance: For: Ages 6 to 67; Our format: Weekly live lessons; Rhythm: Twice a week, all term; Holidays: Project weeks optional; Teacher: The same one each week; Delivery: Live online video; Group size: Five to ten, or one to one; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 6 to 67; Our format: Weekly live lessons; Rhythm: Twice a week, all term; Holidays: Project weeks optional; Teacher: The same one each week; Delivery: Live online video; Group size: Fifteen to twenty, or one to one; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses taught week by week
 
@@ -211,7 +211,7 @@ Each lesson starts with what the learner remembers from the last.
 Weekly lessons outside India are billed monthly in US dollars, one rate in every country. No joining fee, no term contract, and you can pause over a long holiday or stop after any month.
 
 - Free first class: USD 0. A free first lesson. A suggested weekly plan. No card details.
-- Group batch: USD 100 a month. Five to ten learners. One regular teacher. Twice a week. Monthly.
+- Group batch: USD 100 a month. Fifteen to twenty learners. One regular teacher. Twice a week. Monthly.
 - One to one: USD 150 a month. A teacher to yourself. Your own pace. Holiday intensives possible.
 
 ## Coding classes or coding camps: common questions

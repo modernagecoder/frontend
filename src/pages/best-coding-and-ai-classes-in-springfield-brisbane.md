@@ -16,7 +16,7 @@ Springfield, City of Ipswich, Queensland / Live online
 
 Springfield sits in the City of Ipswich on the Springfield railway line, and it is a young suburb of family houses. Its stops carry 2,938 rows across the whole Translink timetable feed, enough for a learner to watch a list grow and to count what each growth rule costs.
 
-Facts last verified 12 October 2026. Teaching is online; no Springfield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Springfield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for Springfield learners
 
@@ -175,7 +175,7 @@ Each lesson is live online, so nobody spends the evening on the road.
 - **Real-time teaching** The teacher sees and discusses the learner's screen throughout.
 - **Terms and breaks** Lessons run through Queensland terms and rest in the school holidays.
 - **Trial at no cost** One free lesson and a written recommendation afterwards.
-- **Small classes** Five to ten learners of one level, or one to one.
+- **Small classes** Fifteen to twenty learners of one level, or one to one.
 - **Weekly pattern** Two lessons each week, around eight a month.
 - **Across time zones** A 4pm Springfield class is 11:30am for our teachers in India.
 
@@ -186,7 +186,7 @@ Each lesson is live online, so nobody spends the evening on the road.
 Every learner pays the same rates.
 
 - First class: USD 0. Your first lesson is free and ends with a learning plan.
-- Group tuition: USD 100 a month. Group lessons: roughly eight a month, five to ten learners.
+- Group tuition: USD 100 a month. Group lessons: roughly eight a month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private lessons: roughly eight a month with one teacher.
 
 Fees for Springfield learners are in US dollars and start only after the trial has fixed a course and timetable. See the pricing page for holidays and missed lessons.
@@ -223,11 +223,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Springfield classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Does a train serve Springfield?
 

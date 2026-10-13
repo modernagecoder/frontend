@@ -16,7 +16,7 @@ Schiedam, Zuid-Holland / Live online
 
 A still does not make anything new. It heats what it is given, collects what rises, and leaves the rest in the pot, so the spirit that comes out is shaped both by the mash that went in and by what the process could carry over. Schiedam built its eighteenth-century fortune on that simple fact, with tens of distilleries shipping jenever across the world. Artificial intelligence has borrowed the word. In knowledge distillation, a large and expensive model, the teacher, answers a great many questions, and a smaller, cheaper model, the student, is trained to give the same answers. The student can be remarkably good. It is also exactly as good as the questions it was trained on, it copies the teacher's errors as faithfully as its insights, and anything the teacher knew but was never asked stays behind in the still.
 
-Facts last verified 11 September 2026. Teaching is online; no Schiedam branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Schiedam branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the town of the tallest mills
 
@@ -184,7 +184,7 @@ Schiedam fits more than eighty thousand people onto under eighteen square kilome
 - **From the living room** A pupil in Spaland and a pupil in Bijdorp log on at the same minute from their own homes. No cycle through the evening traffic and no waiting at a door afterwards.
 - **School vocabulary left in Dutch** Brugklas, vmbo, havo, vwo, groep and the profielkeuze are never translated during a lesson; the explanations around them are in English.
 - **A free lesson that teaches** The opening session is a lesson, not a sales demonstration. The teacher sets a real task, watches how it is handled, and afterwards proposes a level, a course and a regular time, with no payment details taken.
-- **Groups of equals** Five to ten learners who stand at the same point in the same subject. Schiedam has 12,890 residents under fifteen, but five of them matched on subject, stage and hour is rare, so a group may include learners from abroad.
+- **Groups of equals** Fifteen to twenty learners who stand at the same point in the same subject. Schiedam has 12,890 residents under fifteen, but five of them matched on subject, stage and hour is rare, so a group may include learners from abroad.
 - **Regio Midden calendar** Classes meet twice a week, about eight times a month, in one fixed slot, and break for the regio Midden holidays that Zuid-Holland schools keep.
 - **Evenings on Indian time** Because the teachers work from India, three and a half hours ahead in the Dutch summer and four and a half in winter, late afternoons, evenings and weekend mornings are all practical here.
 
@@ -195,7 +195,7 @@ Schiedam fits more than eighty thousand people onto under eighteen square kilome
 Three figures, shown in full here rather than on request.
 
 - First class: USD 0. One real lesson with a real task, closing with a level and a recommended course.
-- Group tuition: USD 100 a month. Monthly, usually eight classes, with five to ten learners at one level.
+- Group tuition: USD 100 a month. Monthly, usually eight classes, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Monthly, usually eight classes, one learner and a dedicated teacher.
 
 The dollar price is the same everywhere and no euro list exists beside it, so a household in Kethel pays what one in Schiedam-Zuid pays. No payment is taken until the free lesson has settled the course and the slot, after which WhatsApp is used to arrange it. The pricing page covers pauses, a change of format and missed classes.
@@ -236,7 +236,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Schiedam coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

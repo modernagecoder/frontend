@@ -16,7 +16,7 @@ City of Willoughby, Sydney, New South Wales / Live online
 
 Chatswood station logged 805,797 Opal entries in October 2024 and 949,108 in August 2026. Add up the 22 month-to-month percentage changes in between and you get 21.75%. The real growth is 17.79%. Nothing is wrong with the data; percentages simply do not add. Switch to log differences and the 22 changes sum to 0.16369, which turns back into exactly 17.79%. At St Leonards the same mistake even flips the sign.
 
-Facts last verified 10 October 2026. Teaching is online; no Willoughby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Willoughby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for numerate learners of every age
 
@@ -182,7 +182,7 @@ Classes come to the learner on a laptop, wherever they are in the council area, 
 - **Taught live** A real teacher on video reads the learner's code as it is typed and explains each correction.
 - **In step with NSW** Lessons use NSW stage and syllabus language, and the timetable breaks for state school holidays.
 - **Start with a free lesson** The first full lesson costs nothing; the teacher then suggests a course, level and regular time.
-- **Matched groups** Five to ten learners working at one level, or one-to-one teaching if that suits better.
+- **Matched groups** Fifteen to twenty learners working at one level, or one-to-one teaching if that suits better.
 - **A steady rhythm** Two lessons a week at a set time, about eight a month, with holidays planned ahead.
 - **Teachers in India** A 4pm Willoughby lesson during daylight saving starts at 10:30am India time, and at 11:30am once Sydney returns to standard time.
 
@@ -193,7 +193,7 @@ Classes come to the learner on a laptop, wherever they are in the council area, 
 Clear prices that do not change by course.
 
 - First class: USD 0. A complete first lesson free, followed by a suggested course, level and time.
-- Group tuition: USD 100 a month. Group learning for a month, normally eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. Group learning for a month, normally eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. One teacher and one learner, around eight lessons a month.
 
 Invoices for families outside India are in US dollars, so Artarmon and Northbridge households pay the same. Payment follows the trial only once a course and time are agreed, and the pricing page explains breaks, missed lessons and changes of format.
@@ -234,7 +234,7 @@ No. Every lesson is live online and we have no premises anywhere in Australia. A
 
 ### How much do coding classes in Willoughby cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight in total, with five to ten learners; one-to-one is USD 150 a month at the same frequency. Fees start only after the course and time are agreed.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight in total, with fifteen to twenty learners; one-to-one is USD 150 a month at the same frequency. Fees start only after the course and time are agreed.
 
 ### How many learners are in a group?
 

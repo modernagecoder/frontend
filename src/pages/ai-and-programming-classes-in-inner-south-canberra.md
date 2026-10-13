@@ -16,7 +16,7 @@ Inner South (South Canberra district), ACT / Live online
 
 The Inner South runs from Yarralumla and Deakin across to Kingston, Griffith and Narrabundah. Nearly half its homes are flats or apartments. Around Griffith and Forrest, the ACT Government has fitted hundreds of smart parking sensors, and their battery readings are public.
 
-Facts last verified 13 October 2026. Teaching is online; no Inner South Canberra branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 13 October 2026. Teaching is online; no Inner South Canberra branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI, statistics and Python
 
@@ -182,7 +182,7 @@ Every lesson is live over video, so learners join from home whether in Kingston 
 - **Real teacher** Lessons are taught live, with work checked as it happens.
 - **Term-time** Classes follow ACT terms and pause in school holidays.
 - **Free trial** One free lesson, then a written plan.
-- **Groups** Level groups of five to ten, or private lessons.
+- **Groups** Level groups of fifteen to twenty, or private lessons.
 - **Two weekly** Around eight lessons each month.
 - **India time** In July a 5:30pm Inner South lesson starts at 1pm in India.
 
@@ -193,7 +193,7 @@ Every lesson is live over video, so learners join from home whether in Kingston 
 Every learner pays the same fees.
 
 - First class: USD 0. The trial lesson is free and includes a plan.
-- Group tuition: USD 100 a month. Groups: about eight lessons a month, five to ten learners.
+- Group tuition: USD 100 a month. Groups: about eight lessons a month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. One-to-one: about eight lessons a month with a dedicated teacher.
 
 We bill in US dollars, starting only when the trial has fixed the course and a weekly slot. Holiday and missed-lesson details live on the pricing page.
@@ -230,11 +230,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Inner South classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### How are groups formed?
 
-By level and pace, five to ten per group, not by age or suburb. One-to-one lessons suit anyone no group time fits.
+By level and pace, fifteen to twenty per group, not by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Can adults study AI here?
 

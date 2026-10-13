@@ -63,7 +63,7 @@ See how we stand out from traditional coding institutes and online platforms
 | Features | Modern Age Coders | Others |
 | --- | --- | --- |
 | 100% Live Interactive Classes |   |   |
-| Small Batch Size (Max 6-8 Students) |   |   |
+| Batch Size (Max 20 Students) |   |   |
 | Big Batch (10-15 Top Performers) |   |   |
 | Personalized Learning Path |   | ~ |
 | Real-World Project Experience |   | ~ |

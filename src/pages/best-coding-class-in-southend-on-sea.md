@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Southend-on-S
 canonical: https://learn.modernagecoders.com/best-coding-class-in-southend-on-sea
 source: src/pages/best-coding-class-in-southend-on-sea.html
 ---
-> At the 2021 census, 180,686 people lived in Southend-on-Sea, at 4,335.6 residents per square kilometre against 433.5 for England as a whole. The council's pier website says Southend Pier stretches 1.33 miles into the Thames Estuary, the longest pleasure pier in the world. Learners in Southend-on-Sea aged six to sixty-seven join our teachers in India on live video, either one to one or in a group of five to ten at a matching level, at times that suit British school and working days. The first lesson is free; after it, a group place costs USD 100 a month and private lessons USD 150.
+> At the 2021 census, 180,686 people lived in Southend-on-Sea, at 4,335.6 residents per square kilometre against 433.5 for England as a whole. The council's pier website says Southend Pier stretches 1.33 miles into the Thames Estuary, the longest pleasure pier in the world. Learners in Southend-on-Sea aged six to sixty-seven join our teachers in India on live video, either one to one or in a group of fifteen to twenty at a matching level, at times that suit British school and working days. The first lesson is free; after it, a group place costs USD 100 a month and private lessons USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Southend-on-Sea
 
@@ -12,11 +12,11 @@ Southend-on-Sea, Essex / Live online
 
 # Coding classes in Southend-on-Sea
 
-**What are the best coding classes in Southend-on-Sea?** At the 2021 census, 180,686 people lived in Southend-on-Sea, at 4,335.6 residents per square kilometre against 433.5 for England as a whole. The council's pier website says Southend Pier stretches 1.33 miles into the Thames Estuary, the longest pleasure pier in the world. Learners in Southend-on-Sea aged six to sixty-seven join our teachers in India on live video, either one to one or in a group of five to ten at a matching level, at times that suit British school and working days. The first lesson is free; after it, a group place costs USD 100 a month and private lessons USD 150.
+**What are the best coding classes in Southend-on-Sea?** At the 2021 census, 180,686 people lived in Southend-on-Sea, at 4,335.6 residents per square kilometre against 433.5 for England as a whole. The council's pier website says Southend Pier stretches 1.33 miles into the Thames Estuary, the longest pleasure pier in the world. Learners in Southend-on-Sea aged six to sixty-seven join our teachers in India on live video, either one to one or in a group of fifteen to twenty at a matching level, at times that suit British school and working days. The first lesson is free; after it, a group place costs USD 100 a month and private lessons USD 150.
 
 Southend's tide gauge reports the water level every fifteen minutes, but high water does not wait for the next reading. Over four weeks of 2026 our teenagers found 56 high tides and asked when each one really peaked. Taking the highest reading is the obvious answer, and a poor one: thin the data to hourly readings and it misses the time found from the full record by a median of 15.2 minutes. Fit a parabola through the top three readings and use its vertex instead, and the median miss falls to 1.0 minute. Then they compare two ways of finding where a curve levels off: Newton's method gets there in two steps, bisection in thirteen.
 
-Facts last verified 23 September 2026. Teaching is online; no Southend-on-Sea branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 23 September 2026. Teaching is online; no Southend-on-Sea branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the pier city
 
@@ -173,7 +173,7 @@ The city runs along the estuary from Leigh-on-Sea in the west to Shoeburyness in
 - **One class along the shore** A learner in Eastwood and another in Thorpe Bay can join the same lesson without a trip along the seafront.
 - **English school stages** Teaching follows the stages used in Southend-on-Sea schools, from Reception and Key Stages 1 to 4 through GCSE and A level, all in English.
 - **A lesson, start to finish** The free session teaches a real task and ends with our suggested level, course and weekly time. We never ask for card details.
-- **Levels, not postcodes** Five to ten learners at the same stage, from Southend-on-Sea, across the UK and abroad, so there are workable times at every level.
+- **Levels, not postcodes** Fifteen to twenty learners at the same stage, from Southend-on-Sea, across the UK and abroad, so there are workable times at every level.
 - **Two lessons each week** Two set lessons weekly, about eight a month, with holidays and exam weeks planned with the teacher in good time.
 - **Late evenings in India** A 4 pm lesson in Southend-on-Sea starts at 8.30 pm in India during British Summer Time and 9.30 pm in winter, because India stays on one time all year; our teachers arrange their evenings for UK learners.
 
@@ -184,7 +184,7 @@ The city runs along the estuary from Leigh-on-Sea in the west to Shoeburyness in
 A free lesson first, then one fee each month.
 
 - First class: USD 0. A full lesson free of charge, ending with advice on level, course and a weekly slot.
-- Group tuition: USD 100 a month. About eight live lessons a month in a class of five to ten learners at the same stage.
+- Group tuition: USD 100 a month. About eight live lessons a month in a class of fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. About eight live lessons a month, with the teacher concentrating on your learner alone.
 
 Prittlewell families are charged in US dollars just like every family outside India, and our site shows no pound prices at all. The free lesson always comes before any bill, and charging begins only when a course and weekly time are settled; the pricing page explains pausing, missed lessons and moving between group and private teaching.
@@ -225,11 +225,11 @@ No. There is no Southend-on-Sea centre and we have no premises anywhere in the U
 
 ### What do lessons cost for a Southend-on-Sea learner?
 
-The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners; one-to-one lessons on the same timetable cost USD 150 a month. We agree the course, format and time before charging anything.
+The first lesson is free. After that, a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners; one-to-one lessons on the same timetable cost USD 150 a month. We agree the course, format and time before charging anything.
 
 ### How is a learner's group chosen?
 
-By level, pace and goals rather than age or address, with five to ten learners working at one stage. Where no group fits the learner's week, we offer one-to-one lessons.
+By level, pace and goals rather than age or address, with fifteen to twenty learners working at one stage. Where no group fits the learner's week, we offer one-to-one lessons.
 
 ## Essex, the coast and beyond
 

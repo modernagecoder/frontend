@@ -28,7 +28,7 @@ No card. No obligation. We call, we do not spam.
 
 ## What New Jersey families actually book
 
-The state minimum has no computer science credit line, so these are the courses that fill the gap. Each one is live, in a group of five to eight or one to one, with the same teacher every week.
+The state minimum has no computer science credit line, so these are the courses that fill the gap. Each one is live, in a group of fifteen to twenty or one to one, with the same teacher every week.
 
 [![AP Computer Science A course thumbnail](/images/ap-computer-science-a.webp)  Ages 14 to 18 AP Computer Science A Java, the exam unit structure, and the free response questions that decide the grade. See the syllabus](/courses/ap-computer-science-a-java-exam-prep-course)[![Python, complete course thumbnail](/images/python-teens.webp)  Ages 11 to 18 Python, complete The language taught to real depth rather than to a demo. Our most requested course. See the syllabus](/courses/python-complete-masterclass-teens)[![Scratch, in depth course thumbnail](/images/scratch-kids.webp)  Ages 6 to 10 Scratch, in depth Blocks taken seriously, so the move to written code later is a step and not a cliff. See the syllabus](/courses/scratch-programming-complete-course)[![High school mathematics course thumbnail](/images/high-school-maths.webp)  Ages 14 to 18 High school mathematics The algebra and functions every computer science pathway quietly assumes you have. See the syllabus](/courses/complete-high-school-mathematics-mastery)
 
@@ -229,7 +229,7 @@ A teacher is on the call for the whole hour. Your child writes code while somebo
 
 ### The same teacher every week
 
-Group classes hold five to eight students and keep the same teacher. Continuity is most of what makes a nervous learner keep showing up, and rotating staff quietly destroys it.
+Group classes hold fifteen to twenty students and keep the same teacher. Continuity is most of what makes a nervous learner keep showing up, and rotating staff quietly destroys it.
 
 ### Two classes a week
 
@@ -255,7 +255,7 @@ Monthly, in US dollars, with no joining fee and no annual contract. You can stop
 
 Small group$100per month, 8 classes
 
-Five to eight students, same teacher every week. The default for most learners, and the one most families stay on.
+Fifteen to twenty students, same teacher every week. The default for most learners, and the one most families stay on.
 
 One to one$150per month, 8 classes
 
@@ -349,7 +349,7 @@ Ages 6 to 67. That is not a slogan, it is the real spread of people in our class
 
 ### How many students are in a class?
 
-Small group classes hold five to eight students with the same teacher every week. One-to-one is exactly that, one student and one teacher. We do not run lecture halls, and we do not rotate teachers between weeks, because continuity is most of what makes a young learner keep going.
+Small group classes hold fifteen to twenty students with the same teacher every week. One-to-one is exactly that, one student and one teacher. We do not run lecture halls, and we do not rotate teachers between weeks, because continuity is most of what makes a young learner keep going.
 
 ### Is the class live, or is it a video my child watches alone?
 

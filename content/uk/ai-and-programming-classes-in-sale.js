@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'AI and programming classes in Sale',
   capsuleQ: 'Which are the best AI and programming classes in Sale?',
-  capsule: 'Sale\'s built-up area counted 62,550 residents at the 2021 census, one of several Trafford towns listed by the ONS alongside Altrincham, Urmston and Stretford, in a borough of 235,052. Brooklands, Ashton upon Mersey and Timperley appear among the recorded suburbs. Whatever their age between 6 and 67, learners here can work with our India-based tutors over video on AI, programming, Python, vibe coding and maths, in one-to-one sessions or in small classes of five to ten grouped by level. Reasoning is taught before any tool, which keeps the learner in charge of what an AI suggests. Lesson one is free and wraps up with a course we think fits. In Sale the project digs into the maths behind every "you might also like" box, using the town\'s own shops. Staying on costs USD 100 a month for group tuition or USD 150 a month for private tuition.',
+  capsule: 'Sale\'s built-up area counted 62,550 residents at the 2021 census, one of several Trafford towns listed by the ONS alongside Altrincham, Urmston and Stretford, in a borough of 235,052. Brooklands, Ashton upon Mersey and Timperley appear among the recorded suburbs. Whatever their age between 6 and 67, learners here can work with our India-based tutors over video on AI, programming, Python, vibe coding and maths, in one-to-one sessions or in classes of fifteen to twenty grouped by level. Reasoning is taught before any tool, which keeps the learner in charge of what an AI suggests. Lesson one is free and wraps up with a course we think fits. In Sale the project digs into the maths behind every "you might also like" box, using the town\'s own shops. Staying on costs USD 100 a month for group tuition or USD 150 a month for private tuition.',
   lead: 'Online shops, streaming services and AI assistants all make suggestions of the form "people who chose this also chose that". Behind many of them sits an old data-mining idea called association rules, most familiar from analysing what shoppers buy together, which is called market basket analysis. This project applies it to a real town: 308 shops, cafés and other places in and around Sale town centre, taken from OpenStreetMap. Which kinds of shop turn up in the same small patch of town? The learner finds patterns that look striking, then puts them through the test most people skip: would patterns that strong appear if the shops had been scattered at random?',
   wa: 'Hello Modern Age Coders, may we book a free AI or programming lesson for a learner in Sale?',
 
@@ -160,7 +160,7 @@ module.exports = {
       { h3: 'Learner-driven sessions', p: 'All typing, prompting and running is done by the learner, with the tutor watching through screen share and questioning each step.' },
       { h3: 'Levelled by the trial', p: 'The free session reveals where to start, regardless of year group, and we note any exam board.' },
       { h3: 'Opening lesson free', p: 'Nothing to pay for session one, which finishes with our suggestion.' },
-      { h3: 'Stage-matched classes', p: 'Groups hold five to ten learners from around Britain at one level.' },
+      { h3: 'Stage-matched classes', p: 'Groups hold fifteen to twenty learners from around Britain at one level.' },
       { h3: 'Twice weekly', p: 'No lessons over school holidays.' },
       { h3: 'Time kept steady', p: 'Our tutors move with the UK clocks, so your slot does not shift.' }
     ],

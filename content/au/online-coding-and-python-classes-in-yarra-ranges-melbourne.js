@@ -296,7 +296,7 @@ module.exports = {
       { h3: 'Coding together live', p: 'Teacher and learner edit the same file and run it together.' },
       { h3: 'Victorian terms', p: 'Plans follow state school terms and stop for the holidays.' },
       { h3: 'A full first lesson', p: 'The free trial teaches real content and ends with a recommendation.' },
-      { h3: 'Groups of five to ten', p: 'Learners matched by level and pace, sometimes from other states.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Learners matched by level and pace, sometimes from other states.' },
       { h3: 'Two lessons each week', p: 'Fixed times, around eight lessons a month, with breaks planned.' },
       { h3: 'Teachers in India', p: 'A 5pm Yarra Ranges lesson in daylight saving starts at 11:30am India time, and at 12:30pm there after April.' }
     ],
@@ -309,7 +309,7 @@ module.exports = {
     h2: 'Yarra Ranges class fees',
     intro: 'Three simple prices.',
     first: 'The first lesson is free and closes with an honest recommendation.',
-    group: 'A month of group lessons, usually eight, with five to ten learners at a matched level.',
+    group: 'A month of group lessons, usually eight, with fifteen to twenty learners at a matched level.',
     private: 'About eight lessons a month with one teacher.',
     closer: 'Payments from outside India are made in US dollars. Nothing is billed before the trial lesson, and only after a course and a weekly slot are chosen; for school holidays, missed lessons or a change of format, see the pricing page.'
   },
@@ -354,12 +354,12 @@ module.exports = {
       },
       {
         q: 'How much do classes cost in the Yarra Ranges?',
-        a: 'The first lesson is free. Group lessons then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.',
+        a: 'The first lesson is free. Group lessons then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one to one. Course, format and time are agreed before any payment.',
         boiler: true
       },
       {
         q: 'How big are the groups?',
-        a: 'Five to ten learners, matched by level, pace and goal. When no group suits the learner\'s schedule, one-to-one lessons are offered.',
+        a: 'Fifteen to twenty learners, matched by level, pace and goal. When no group suits the learner\'s schedule, one-to-one lessons are offered.',
         boiler: true
       },
       {

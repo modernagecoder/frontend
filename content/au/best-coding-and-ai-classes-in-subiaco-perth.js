@@ -291,7 +291,7 @@ module.exports = {
       { h3: 'Hands on the keys', p: 'Subiaco learners write every line themselves while the teacher watches and questions.' },
       { h3: 'WA school terms', p: 'Plans follow the Western Australian school year and break for its holidays.' },
       { h3: 'Try before paying', p: 'One complete lesson at no cost, then a plain suggestion of what fits.' },
-      { h3: 'Groups of five to ten', p: 'Matched by level and pace, or one to one.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Matched by level and pace, or one to one.' },
       { h3: 'Two classes a week', p: 'Fixed weekly times, about eight lessons a month.' },
       { h3: 'Teachers in India', p: 'A 5pm Subiaco lesson starts at 2:30pm India time, all year.' }
     ],
@@ -304,7 +304,7 @@ module.exports = {
     h2: 'Subiaco class fees',
     intro: 'Three prices for every family.',
     first: 'The first lesson is free and ends with a clear suggestion.',
-    group: 'A month of group classes, about eight lessons, with five to ten learners at one level.',
+    group: 'A month of group classes, about eight lessons, with fifteen to twenty learners at one level.',
     private: 'About eight lessons a month with one teacher for one learner.',
     closer: 'Subiaco families pay in US dollars, only after the trial and once a course and time are agreed. The pricing page covers school holidays, missed lessons and switching between group and private.'
   },
@@ -349,12 +349,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Subiaco learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       {

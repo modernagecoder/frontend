@@ -182,7 +182,7 @@ module.exports = {
       { h3: 'Right at home', p: 'A learner in De Kwaak and a learner in Oegstgeest Noord join the same lesson at the same moment from their own homes, with no trip into Leiden.' },
       { h3: 'School words in Dutch', p: 'Groep, brugklas, vmbo, havo, vwo and the profielkeuze stay in Dutch, as Oegstgeest families use them, and the teaching is in English.' },
       { h3: 'A free lesson with a real task', p: 'The first hour is a real lesson. Afterwards the teacher suggests a level, a course and a weekly time; no payment details are asked for.' },
-      { h3: 'Groups beyond the village', p: 'Five to ten learners at one stage. Oegstgeest has 4,559 residents under fifteen, far too few to fill every level and hour locally, so groups include learners from other places.' },
+      { h3: 'Groups beyond the village', p: 'Fifteen to twenty learners at one stage. Oegstgeest has 4,559 residents under fifteen, far too few to fill every level and hour locally, so groups include learners from other places.' },
       { h3: 'Regio Midden holidays', p: 'Twice a week, about eight lessons a month, at one fixed hour, with breaks for the regio Midden holidays of Zuid-Holland.' },
       { h3: 'Evening-friendly hours', p: 'The teachers are in India, three and a half hours ahead of Oegstgeest in summer and four and a half in winter, so late afternoons, evenings and weekend mornings all work.' }
     ],
@@ -193,7 +193,7 @@ module.exports = {
     h2: 'Oegstgeest fees',
     intro: 'Three prices, with nothing added later.',
     first: 'A real lesson on a real task, finishing with a level and a course.',
-    group: 'Per month, normally eight lessons, five to ten learners at one level.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners at one level.',
     private: 'Per month, normally eight lessons, one learner with a teacher.',
     closer: 'The fee is set in dollars and is the same everywhere, with no euro list, so a family in Oudenhof pays what a family in Oegstgeest West pays. Nothing is charged until the free lesson has fixed a course and a time, and payment is then arranged over WhatsApp. The pricing page explains pauses, a change of format and missed lessons.'
   },
@@ -218,7 +218,7 @@ module.exports = {
       { q: 'How many schools are there in Oegstgeest?', a: 'The statistics count 12 primary establishments teaching 3,361 pupils and 4 secondary establishments teaching 2,678. This page rates no school.' },
       { q: 'What language are lessons in, and at what time?', a: 'The lessons are in English, with Dutch school words such as brugklas, havo and vwo left as they are. With the teachers in India, three and a half hours ahead of Oegstgeest in summer and four and a half in winter, late-afternoon, evening and weekend times are easy to find. The time is agreed in the free lesson, and regio Midden holidays are kept.' },
       { q: 'Is there a Modern Age Coders classroom in Oegstgeest?', a: 'No, and none is claimed here or anywhere in the Netherlands. All teaching is live and online and needs a laptop or desktop, working audio, a current browser and a connection that holds. The telephone number shown on this page is an Indian one and is described as such.', boiler: true },
-      { q: 'What do Oegstgeest coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
+      { q: 'What do Oegstgeest coding classes cost?', a: 'The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.', boiler: true }
     ]
   },

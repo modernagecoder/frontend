@@ -51,7 +51,7 @@ module.exports = {
 
   h1: 'Coding classes in Kingston upon Thames',
   capsuleQ: 'What are the best coding classes in Kingston upon Thames?',
-  capsule: 'Kingston upon Thames is the south west London borough of Kingston, Surbiton, New Malden, Tolworth, Chessington and Norbiton, with 168,063 residents at the 2021 Census and a river gauge that has measured the Thames since 1883. A class that deserves the name teaches a learner to be suspicious of their own results, and this page does that with the river: 142 years of daily flows, and a trend that falls, vanishes or even rises depending on the year you start counting. We teach live over video from India, for anyone between 6 and 67, one to one or in a small group of five to ten matched by level. Your first lesson is free. After it, a group place costs USD 100 a month and one-to-one lessons USD 150 a month.',
+  capsule: 'Kingston upon Thames is the south west London borough of Kingston, Surbiton, New Malden, Tolworth, Chessington and Norbiton, with 168,063 residents at the 2021 Census and a river gauge that has measured the Thames since 1883. A class that deserves the name teaches a learner to be suspicious of their own results, and this page does that with the river: 142 years of daily flows, and a trend that falls, vanishes or even rises depending on the year you start counting. We teach live over video from India, for anyone between 6 and 67, one to one or in a group of fifteen to twenty matched by level. Your first lesson is free. After it, a group place costs USD 100 a month and one-to-one lessons USD 150 a month.',
   lead: 'Since 1883 someone has been measuring how much water the Thames carries past Kingston. The UK Centre for Ecology and Hydrology\'s National River Flow Archive publishes the whole record, one number a day, more than 52,000 of them, and says the World Meteorological Organization recognised the station in 2023 for its century of observations. Our learners turn those days into one number per year and ask the obvious question: is the Thames changing? For the average flow, no. For the driest week of each year, yes, falling steadily over 142 years. Then they slide the starting year along, one year at a time, and watch the answer change. Start in 1951 and the fall is strong. Start in 1990 and it becomes a significant rise.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Kingston upon Thames.',
 
@@ -145,7 +145,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'Kingston station', p: 'TfL\'s open data lists South Western Railway services at Kingston.' },
           { h3: 'Chessington to Norbiton', p: 'Learners from the south of the borough and from its riverside centre can join one class from their own rooms.' },
-          { h3: 'A steady flow', p: 'Unlike the Thames, our groups keep a constant size: five to ten learners at one stage, meeting at an agreed UK time.' }
+          { h3: 'A steady flow', p: 'Unlike the Thames, our groups keep a constant size: fifteen to twenty learners at one stage, meeting at an agreed UK time.' }
         ] },
         { kind: 'spec', title: 'Kingston among the boroughs', p: 'Kingston upon Thames is one of London\'s 32 boroughs, and one of its smaller ones by population. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> lists all 32 and the City, linking each page as it goes live, including <a class="cg-inline-link" href="/coding-classes-in-sutton-london">Sutton</a> to the east.' }
       ]
@@ -182,7 +182,7 @@ module.exports = {
       { h3: 'No travel needed', p: 'Bring a computer, a headset and a connection that holds up for an hour; that is the whole kit list.' },
       { h3: 'English Key Stages', p: 'Progress is described in the Key Stages English schools use, from Key Stage 1 to sixth form, mentioning GCSE and A level where relevant. All teaching is in English.' },
       { h3: 'Start free', p: 'Lesson one is taught for real, and the teacher uses it to judge where the learner should begin. We take no payment details for it.' },
-      { h3: 'Classes by stage', p: 'Five to ten learners share a stage in each class, drawn from all over the UK and elsewhere, so a suitable hour is rarely a problem.' },
+      { h3: 'Classes by stage', p: 'Fifteen to twenty learners share a stage in each class, drawn from all over the UK and elsewhere, so a suitable hour is rarely a problem.' },
       { h3: 'Two evenings weekly', p: 'Most classes meet twice a week in the evening and pause for half terms, holidays and exam periods by agreement.' },
       { h3: 'Clock on the Thames', p: 'The teacher may be in India; the lesson time on your invitation is simply Kingston\'s own.' }
     ],
@@ -193,7 +193,7 @@ module.exports = {
     h2: 'Fees for Kingston families',
     intro: 'The first lesson is free, then one monthly fee, the same in Surbiton as in Chessington.',
     first: 'A full lesson with a teacher, free, ending with our recommendation of level, course and time.',
-    group: 'Roughly eight live lessons a month in a group of five to ten at one stage.',
+    group: 'Roughly eight live lessons a month in a group of fifteen to twenty at one stage.',
     private: 'Roughly eight live lessons a month, taught one to one.',
     closer: 'Kingston families pay in US dollars, as does every family outside India, and there are no sterling prices anywhere on the site. Payment starts only after the free lesson, and only once you have picked a course and a regular slot. The pricing page explains pausing, missed lessons and swapping between group and private teaching.'
   },
@@ -218,8 +218,8 @@ module.exports = {
       { q: 'When are Kingston lessons held?', a: 'Once we have met the learner in the free lesson, we suggest a class at their level with a seat free and a fixed weekly slot. Teachers work from India; slot times are quoted in UK time.' },
       { q: 'What does a learner need for lessons?', a: 'Any ordinary computer with sound and a connection that does not drop. The river project needs Python and one free download from the National River Flow Archive.' },
       { q: 'Is there a Modern Age Coders centre in Kingston upon Thames?', a: 'No. There is no Kingston upon Thames centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Kingston upon Thames cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Kingston upon Thames cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

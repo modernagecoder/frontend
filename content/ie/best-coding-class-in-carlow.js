@@ -51,7 +51,7 @@ module.exports = {
 
   h1: 'Coding classes in Carlow',
   capsuleQ: 'What is the best coding class in Carlow?',
-  capsule: 'Carlow town holds 27,013 usual residents in the census town tables, in 10,053 households, 8,015 of which report broadband. Our lessons come to those addresses over video: a teacher present in real time, twice in most weeks, with five to ten learners at one level or with a single learner, for ages six to sixty-seven. The opening lesson is free of charge, after which a shared place is USD 100 a month and private teaching is USD 150.',
+  capsule: 'Carlow town holds 27,013 usual residents in the census town tables, in 10,053 households, 8,015 of which report broadband. Our lessons come to those addresses over video: a teacher present in real time, twice in most weeks, with fifteen to twenty learners at one level or with a single learner, for ages six to sixty-seven. The opening lesson is free of charge, after which a shared place is USD 100 a month and private teaching is USD 150.',
   lead: 'Here is a sentence about this town: around eighty per cent of Carlow has broadband. Nobody can check it. Which Carlow, the built-up area or the county? Which year? Households or people? Which source? Here is the same claim written so that anybody can: in CSO table SAP2022T15T2TOWN22, under the label Carlow, Counties Carlow and Laois, read on 18 September 2026, the broadband row holds 8,015 and the total row 10,053, and 8,015 divided by 10,053 is 79.7% of households. The second version takes four times as long to write and can be re-derived by a stranger in five minutes. Every figure on this page is written the second way, and the project below is about making that a habit rather than a chore.',
   wa: 'Hello Modern Age Coders, I want to book a free coding lesson for a learner in Carlow.',
 
@@ -173,7 +173,7 @@ module.exports = {
     intro: 'Six lines.',
     cells: [
       { h3: 'Live teaching', p: 'A teacher on the call for the whole lesson, responding to what the learner is building.' },
-      { h3: 'Grouped by stage', p: 'Five to ten learners at one level, joining from Carlow, elsewhere in Ireland and abroad.' },
+      { h3: 'Grouped by stage', p: 'Fifteen to twenty learners at one level, joining from Carlow, elsewhere in Ireland and abroad.' },
       { h3: 'Twice most weeks', p: 'About eight lessons a month, at an hour agreed at the start and kept.' },
       { h3: 'Term aware', p: 'Mid-terms, holidays and exam weeks are planned in rather than worked around later.' },
       { h3: 'What is needed', p: 'A computer with a keyboard, sound that works, and a connection that carries video.' },
@@ -186,7 +186,7 @@ module.exports = {
     h2: 'Carlow class fees',
     intro: 'Three lines, and nothing hidden behind them.',
     first: 'A full opening lesson, taught and assessed, at no charge.',
-    group: 'A month in an ability group of five to ten learners, about eight live lessons.',
+    group: 'A month in an ability group of fifteen to twenty learners, about eight live lessons.',
     private: 'A month of private teaching on the same weekly pattern.',
     closer: 'Billing is monthly and in US dollars on the single rate for families outside India, so a Carlow household sees exactly what a household in Kilkenny or Waterford sees, with no euro list anywhere. The first charge comes after the opening lesson has settled a course and an hour, and the pricing page covers breaks, missed weeks and switching between group and private teaching.'
   },
@@ -211,7 +211,7 @@ module.exports = {
       { q: 'Do you teach adults in Carlow?', a: 'Yes, to the age of sixty-seven and from no experience at all. The opening lesson places an adult with a group at the same stage or with a teacher one to one.' },
       { q: 'Will we get anything in writing?', a: 'Yes. After the opening lesson we set out the course, the level, the weekly hour and the fee in writing before anything is charged.' },
       { q: 'Is there a Modern Age Coders classroom in Carlow?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do coding classes in Carlow cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do coding classes in Carlow cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

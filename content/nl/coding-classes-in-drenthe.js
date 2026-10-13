@@ -37,7 +37,7 @@ module.exports = {
 
   h1: 'Coding classes in Drenthe, where five thousand years old is a range three centuries wide',
   capsuleQ: 'What are the best coding classes in Drenthe?',
-  capsule: 'Coding classes in Drenthe serve 508,109 people in twelve municipalities (Statistics Netherlands, 1 January 2026), on the emptiest land in the country at 192 to the square kilometre, with a quarter of the population over sixty-five. Fifty-two of the 54 hunebedden still visible in the Netherlands stand here, built between 3350 and 3050 BC, which makes them somewhere between 5,075 and 5,375 years old and not the single number every sign gives them. Modern Age Coders runs one live online class in English across all twelve, for learners from 6 to 67. The first lesson costs nothing; after it, a group of five to ten is USD 100 a month and one-to-one is USD 150.',
+  capsule: 'Coding classes in Drenthe serve 508,109 people in twelve municipalities (Statistics Netherlands, 1 January 2026), on the emptiest land in the country at 192 to the square kilometre, with a quarter of the population over sixty-five. Fifty-two of the 54 hunebedden still visible in the Netherlands stand here, built between 3350 and 3050 BC, which makes them somewhere between 5,075 and 5,375 years old and not the single number every sign gives them. Modern Age Coders runs one live online class in English across all twelve, for learners from 6 to 67. The first lesson costs nothing; after it, a group of fifteen to twenty is USD 100 a month and one-to-one is USD 150.',
   lead: 'A sign at Borger says the stones are five thousand years old. The archaeology says they were raised between 3350 and 3050 BC, and a child who does the subtraction gets 5,376 for the older date, which is wrong by one, because the calendar goes from 1 BC to AD 1 with nothing in between. The child who writes the program that gets 5,375 and keeps the other end of the range at 5,075 has learned two things every date column in the world needs: that a range stays a range, and that there is no year zero.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Drenthe.',
 
@@ -182,7 +182,7 @@ module.exports = {
     h2: 'Twelve municipalities, one figure in dollars, and the first hour free',
     intro: 'Set out here before anything about you is asked.',
     first: 'A complete lesson with a real task, a level and a named next course.',
-    group: 'Per month, normally eight lessons, five to ten learners placed by ability.',
+    group: 'Per month, normally eight lessons, fifteen to twenty learners placed by ability.',
     private: 'Per month, normally eight lessons, one learner with one teacher.',
     closer: 'There is one price outside India and it is in dollars; there is no euro price, and Westerveld is charged exactly what Emmen is. Nothing is paid until the free lesson has fixed the course and the hour, and then it is paid over WhatsApp. Pausing, switching plan and missing a lesson are all explained on the pricing page.'
   },
@@ -207,7 +207,7 @@ module.exports = {
       { q: 'What time are classes for a family in Drenthe?', a: 'Dutch summer time puts a Drenthe afternoon three and a half hours behind the teacher; Dutch winter time makes it four and a half. Hours after school, before dinner and on Saturday or Sunday overlap with the teacher\'s evening, and the recurring one is agreed in the first lesson.' },
       { q: 'What happens in the free lesson?', a: 'The teacher finds the edge of what the learner can do and puts one task exactly there. A child walks a number line from 1 BC to AD 1. A teenager writes the date function and hits the library\'s floor. An adult brings a "years since" column from work. The hour ends with a course, a starting point, a weekly time and the fee in dollars, and no money has changed hands.' },
       { q: 'Is there a Modern Age Coders classroom anywhere in Drenthe?', a: 'No, and none is claimed in Assen, in Emmen or anywhere in the Netherlands. Lessons are live online and need a laptop or desktop, working audio, a current browser and a stable connection. The telephone number on this page is Indian and is described as such.', boiler: true },
-      { q: 'What do Drenthe coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of five to ten. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
+      { q: 'What do Drenthe coding classes cost?', a: 'The first lesson is free. Group tuition is USD 100 a month for two live lessons a week, normally eight in the month, in a group of fifteen to twenty. Private tuition is USD 150 a month, one learner with one teacher at the same frequency. Course, format, recurring time and availability are confirmed before payment.', boiler: true },
       { q: 'How many learners are in a Drenthe group?', a: 'Between five and ten, matched on level, pace and goal rather than on age, school or municipality. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.', boiler: true }
     ]
   },

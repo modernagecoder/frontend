@@ -4,7 +4,7 @@ description: "Live online AI, programming, Python and vibe coding lessons for Bu
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-burton-upon-trent
 source: src/pages/ai-and-programming-classes-in-burton-upon-trent.html
 ---
-> East Staffordshire had 124,020 usual residents at the 2021 census, and the ONS puts 76,255 people in the Burton upon Trent built-up area and 14,020 in Uttoxeter. Horninglow, Stapenhill, Winshill, Branston and Shobnall are among the suburbs recorded in Burton. Learners from six up to 67 anywhere in the district study AI, programming, Python, vibe coding and maths with India-based tutors on live video, alone or with five to ten classmates at their stage. Reasoning is taught before tools, so learners can tell when a model or chatbot has gone wrong. Our first lesson costs nothing and ends with a course recommendation. The Burton project trains a support vector machine on 384 Census output areas to separate towns from villages, and finds it has learned something slightly different from what it was asked. Beyond that, group tuition is USD 100 monthly and one-to-one tuition USD 150 monthly.
+> East Staffordshire had 124,020 usual residents at the 2021 census, and the ONS puts 76,255 people in the Burton upon Trent built-up area and 14,020 in Uttoxeter. Horninglow, Stapenhill, Winshill, Branston and Shobnall are among the suburbs recorded in Burton. Learners from six up to 67 anywhere in the district study AI, programming, Python, vibe coding and maths with India-based tutors on live video, alone or with fifteen to twenty classmates at their stage. Reasoning is taught before tools, so learners can tell when a model or chatbot has gone wrong. Our first lesson costs nothing and ends with a course recommendation. The Burton project trains a support vector machine on 384 Census output areas to separate towns from villages, and finds it has learned something slightly different from what it was asked. Beyond that, group tuition is USD 100 monthly and one-to-one tuition USD 150 monthly.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Burton upon Trent
 
@@ -12,11 +12,11 @@ Burton upon Trent, East Staffordshire, England / Live online
 
 # AI and programming classes in Burton upon Trent
 
-**Which are the best AI and programming classes in Burton upon Trent?** East Staffordshire had 124,020 usual residents at the 2021 census, and the ONS puts 76,255 people in the Burton upon Trent built-up area and 14,020 in Uttoxeter. Horninglow, Stapenhill, Winshill, Branston and Shobnall are among the suburbs recorded in Burton. Learners from six up to 67 anywhere in the district study AI, programming, Python, vibe coding and maths with India-based tutors on live video, alone or with five to ten classmates at their stage. Reasoning is taught before tools, so learners can tell when a model or chatbot has gone wrong. Our first lesson costs nothing and ends with a course recommendation. The Burton project trains a support vector machine on 384 Census output areas to separate towns from villages, and finds it has learned something slightly different from what it was asked. Beyond that, group tuition is USD 100 monthly and one-to-one tuition USD 150 monthly.
+**Which are the best AI and programming classes in Burton upon Trent?** East Staffordshire had 124,020 usual residents at the 2021 census, and the ONS puts 76,255 people in the Burton upon Trent built-up area and 14,020 in Uttoxeter. Horninglow, Stapenhill, Winshill, Branston and Shobnall are among the suburbs recorded in Burton. Learners from six up to 67 anywhere in the district study AI, programming, Python, vibe coding and maths with India-based tutors on live video, alone or with fifteen to twenty classmates at their stage. Reasoning is taught before tools, so learners can tell when a model or chatbot has gone wrong. Our first lesson costs nothing and ends with a course recommendation. The Burton project trains a support vector machine on 384 Census output areas to separate towns from villages, and finds it has learned something slightly different from what it was asked. Beyond that, group tuition is USD 100 monthly and one-to-one tuition USD 150 monthly.
 
 A support vector machine is one of the classic machine learning methods for sorting things into two groups. Given examples with labels, it draws the boundary that sits as far as possible from both sides, and the handful of examples closest to that boundary, the support vectors, are the only ones that decide where it goes. Here the examples are the 384 small Census areas that make up East Staffordshire, the label says whether each one belongs to a town (Burton or Uttoxeter) or not, and the model sees two numbers per area: how many people live per square kilometre and what share of households have no car. The accuracy looks respectable. What the model actually learned is the more interesting part.
 
-Facts last verified 29 September 2026. Teaching is online; no Burton upon Trent branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 29 September 2026. Teaching is online; no Burton upon Trent branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Burton upon Trent courses in reasoning, Python and AI
 
@@ -149,7 +149,7 @@ A laptop or desktop and an internet connection that handles video are all you ne
 - **Students do the typing** Every line, prompt and run is the learner's own, with the tutor watching over screen share and asking how they know.
 - **Starting point from the trial** The free session shows current skills, which sets the first topic; exam boards go on record.
 - **Free first lesson** We charge nothing for the opening lesson and finish it with a course suggestion.
-- **Groups by level** Classes bring together five to ten learners across the UK at one stage.
+- **Groups by level** Classes bring together fifteen to twenty learners across the UK at one stage.
 - **Twice weekly** No lessons in school holidays.
 - **Steady timetable** Tutors shift with the UK clock changes so your time slot stays put.
 

@@ -1,10 +1,10 @@
 ---
 title: "SOF IMO Preparation Classes Online, Classes 1 to 12 | Live"
-description: "Live online SOF IMO preparation for Classes 1 to 12: four sections, the three 2026 dates (23 Oct, 26 Nov, 10 Dec), Level 2 qualification, batches of 5 to 10."
+description: "Live online SOF IMO preparation for Classes 1 to 12: four sections, the three 2026 dates (23 Oct, 26 Nov, 10 Dec), Level 2 qualification, batches of 15 to 20."
 canonical: https://learn.modernagecoders.com/sof-imo-preparation
 source: src/pages/sof-imo-preparation.html
 ---
-> Live online SOF IMO preparation for Classes 1 to 12: four sections, the three 2026 dates (23 Oct, 26 Nov, 10 Dec), Level 2 qualification, batches of 5 to 10.
+> Live online SOF IMO preparation for Classes 1 to 12: four sections, the three 2026 dates (23 Oct, 26 Nov, 10 Dec), Level 2 qualification, batches of 15 to 20.
 
 Start here
 
@@ -16,7 +16,7 @@ SOF sets its paper on the school syllabus, so the preparation is built on our li
 
 Ans. The short version
 
-SOF IMO is the International Mathematics Olympiad run by the Science Olympiad Foundation, a school-based, multiple-choice assessment for Classes 1 to 12, and it is not the International Mathematical Olympiad that national teams compete in. Level 1 is a 60-minute paper of 35 questions (Classes 1 to 4) or 50 questions (Classes 5 to 12) in four sections, set on the CBSE, ICSE and State Board syllabi and sat at school on one of three dates the school chooses: 23 October, 26 November or 10 December 2026. Registration is through the school only. Modern Age Coders prepares students for it live online, in batches of five to ten grouped by class band, two classes a week: one on the sections and the reasoning behind them, one on timed practice in the exact shape of the paper. The first class is a free demo, and the group batch fee is shown on this page in your own currency.
+SOF IMO is the International Mathematics Olympiad run by the Science Olympiad Foundation, a school-based, multiple-choice assessment for Classes 1 to 12, and it is not the International Mathematical Olympiad that national teams compete in. Level 1 is a 60-minute paper of 35 questions (Classes 1 to 4) or 50 questions (Classes 5 to 12) in four sections, set on the CBSE, ICSE and State Board syllabi and sat at school on one of three dates the school chooses: 23 October, 26 November or 10 December 2026. Registration is through the school only. Modern Age Coders prepares students for it live online, in batches of fifteen to twenty grouped by class band, two classes a week: one on the sections and the reasoning behind them, one on timed practice in the exact shape of the paper. The first class is a free demo, and the group batch fee is shown on this page in your own currency.
 
 Q1. What exactly is the paper?
 
@@ -171,7 +171,7 @@ Group batch · by class band
 
 per month
 
-- Five to ten students in the same class band
+- Fifteen to twenty students in the same class band
 - Two live classes a week, sections and timed practice
 - Placement check, weekly marked sets, reviewed mocks
 - Certificate on completion
@@ -184,7 +184,7 @@ Mini batch
 
 per month
 
-- Three to four students
+- Up to six students
 - Timings agreed around the family
 - More time per student on the Achievers Section
 

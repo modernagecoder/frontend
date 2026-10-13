@@ -16,7 +16,7 @@ Melton, Victoria, Australia / Live online
 
 Train a computer on 1,575 Victorian government school names and ask it to write new ones. With a short memory of two letters it produces gibberish such as "Cre Colle Sechoolege". With six letters of memory the names become fluent, and 698 of 1,000 turn out to be real schools copied word for word. Somewhere in between, at four letters, it writes believable inventions like "Irympleston Primary School". Our Melton project builds this small language model in Python and measures that trade-off, the same tension between creativity and copying that the largest AI systems face.
 
-Facts last verified 7 October 2026. Teaching is online; no Melton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Melton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## AI and programming courses for Melton learners
 
@@ -199,7 +199,7 @@ The City of Melton spreads across new suburbs on Melbourne's western fringe, and
 Three figures and nothing else.
 
 - First class: USD 0. One complete lesson free, ending with a level, a course suggestion and a proposed time.
-- Group tuition: USD 100 a month. A month of classes, usually eight, with five to ten learners at your stage.
+- Group tuition: USD 100 a month. A month of classes, usually eight, with fifteen to twenty learners at your stage.
 - Private tuition: USD 150 a month. Roughly eight lessons a month in the same pattern, taught one to one.
 
 Every country outside India is invoiced in US dollars, so a family in Aintree pays exactly what one in Diggers Rest pays and no local price list exists. Billing starts only once the trial has fixed a course and a time, and the pricing page explains holidays, absences and format changes.
@@ -240,11 +240,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Melton AI classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Melton and Victorian learners
 

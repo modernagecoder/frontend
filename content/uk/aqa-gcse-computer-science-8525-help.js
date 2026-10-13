@@ -80,7 +80,7 @@ module.exports = {
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'AQA 8525 is a linear GCSE: two written papers, both sat at the end of the course, each 90 marks and each worth half. Paper 1 runs two hours and covers computational thinking and programming; paper 2 runs an hour and three quarters and covers everything else, including SQL. Three things trip students up. Questions present algorithms in AQA pseudo-code, not in the language the class was taught. Program code must be written in C#, Python 3 or VB.NET. And each question states the form the answer must take, whether pseudo-code, program code or a flowchart, so answering in the wrong notation costs the marks outright. We teach the content and the exam habits together, in groups of five to ten or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.',
+  capsule: 'AQA 8525 is a linear GCSE: two written papers, both sat at the end of the course, each 90 marks and each worth half. Paper 1 runs two hours and covers computational thinking and programming; paper 2 runs an hour and three quarters and covers everything else, including SQL. Three things trip students up. Questions present algorithms in AQA pseudo-code, not in the language the class was taught. Program code must be written in C#, Python 3 or VB.NET. And each question states the form the answer must take, whether pseudo-code, program code or a flowchart, so answering in the wrong notation costs the marks outright. We teach the content and the exam habits together, in groups of fifteen to twenty or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.',
 
   picks: {
     eyebrow: 'Start here',
@@ -235,7 +235,7 @@ module.exports = {
       { h3: 'Read the instruction', p: 'Every practice question begins by naming the form the answer must take. It becomes automatic in weeks.' },
       { h3: 'Test tables early', p: 'Normal, boundary and erroneous, built before the code rather than after the marks are lost.' },
       { h3: 'Argue for correctness', p: 'A student says why the program is right before running it, which is what the longer questions reward.' },
-      { h3: 'Groups by level', p: 'Five to ten students at one stage, which is where comparing two answers becomes possible.' }
+      { h3: 'Groups by level', p: 'Fifteen to twenty students at one stage, which is where comparing two answers becomes possible.' }
     ]
   },
 
@@ -247,7 +247,7 @@ module.exports = {
     h2: 'What GCSE tuition costs',
     lede: 'A single monthly figure in US dollars, the rate outside India. The free lesson comes first and nothing is charged until a course and a slot are settled.',
     free: ['A real lesson on real exam material', 'A straight view of where the gaps are', 'Only a phone number needed'],
-    group: ['Five to ten students at one stage', 'The same teacher across the course', 'Written work marked every week', 'Eased off in the weeks before papers'],
+    group: ['Fifteen to twenty students at one stage', 'The same teacher across the course', 'Written work marked every week', 'Eased off in the weeks before papers'],
     one: ['One student and one teacher', 'Planned backwards from the exam dates', 'Useful when a grade target is specific']
   },
 

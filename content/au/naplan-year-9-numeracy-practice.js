@@ -216,7 +216,7 @@ module.exports = {
     cells: [
       { h3: 'Check before moving on', p: 'Every solution is substituted back before the next question.' },
       { h3: 'Algebra and graphs together', p: 'Students see each equation as a line as well as a calculation.' },
-      { h3: 'Groups of five to ten', p: 'Matched by current skill, not just year level.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Matched by current skill, not just year level.' },
       { h3: 'Private tutoring', p: 'For targeted work on particular algebra gaps.' },
       { h3: 'Progress notes', p: 'Brief updates for parents after each unit.' },
       { h3: 'No level guaranteed', p: 'We teach the mathematics; the result belongs to the student.' }
@@ -231,7 +231,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Families in Australia are billed each month in US dollars, our standard rate for every country except India. There is nothing to pay up front, and you can stop after any month.',
     free: ['A real lesson with a teacher', 'A frank view of current skills', 'No card details'],
-    group: ['Five to ten students at one level', 'One regular teacher', 'Feedback on all work', 'Certificate on completion'],
+    group: ['Fifteen to twenty students at one level', 'One regular teacher', 'Feedback on all work', 'Certificate on completion'],
     one: ['A teacher for one student', 'Focus on specific algebra gaps', 'Times to suit you']
   },
 

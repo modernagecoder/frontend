@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across North Ayrshire
 canonical: https://learn.modernagecoders.com/coding-classes-in-north-ayrshire
 source: src/pages/coding-classes-in-north-ayrshire.html
 ---
-> North Ayrshire had about 133,400 residents in roughly 64,200 households at the 2022 census, at 150.7 people per square kilometre. Irvine is its largest town, followed by Kilwinning, Saltcoats, Largs and Ardrossan, and the council area also takes in the Isle of Arran. Live video lessons from our teachers in India start with a free session that shows which stage suits the learner, anything from P1 to S6 or an adult return to study. Coding, Python and maths are taught to ages 6 to 67, in groups of five to ten or one-to-one. The North Ayrshire project starts beneath a painted ceiling in Largs. Staying on costs USD 100 monthly for a group seat, or USD 150 monthly for private teaching.
+> North Ayrshire had about 133,400 residents in roughly 64,200 households at the 2022 census, at 150.7 people per square kilometre. Irvine is its largest town, followed by Kilwinning, Saltcoats, Largs and Ardrossan, and the council area also takes in the Isle of Arran. Live video lessons from our teachers in India start with a free session that shows which stage suits the learner, anything from P1 to S6 or an adult return to study. Coding, Python and maths are taught to ages 6 to 67, in groups of fifteen to twenty or one-to-one. The North Ayrshire project starts beneath a painted ceiling in Largs. Staying on costs USD 100 monthly for a group seat, or USD 150 monthly for private teaching.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / North Ayrshire
 
@@ -12,11 +12,11 @@ North Ayrshire / Live online
 
 # Coding classes in North Ayrshire
 
-**What are the best coding classes in North Ayrshire?** North Ayrshire had about 133,400 residents in roughly 64,200 households at the 2022 census, at 150.7 people per square kilometre. Irvine is its largest town, followed by Kilwinning, Saltcoats, Largs and Ardrossan, and the council area also takes in the Isle of Arran. Live video lessons from our teachers in India start with a free session that shows which stage suits the learner, anything from P1 to S6 or an adult return to study. Coding, Python and maths are taught to ages 6 to 67, in groups of five to ten or one-to-one. The North Ayrshire project starts beneath a painted ceiling in Largs. Staying on costs USD 100 monthly for a group seat, or USD 150 monthly for private teaching.
+**What are the best coding classes in North Ayrshire?** North Ayrshire had about 133,400 residents in roughly 64,200 households at the 2022 census, at 150.7 people per square kilometre. Irvine is its largest town, followed by Kilwinning, Saltcoats, Largs and Ardrossan, and the council area also takes in the Isle of Arran. Live video lessons from our teachers in India start with a free session that shows which stage suits the learner, anything from P1 to S6 or an adult return to study. Coding, Python and maths are taught to ages 6 to 67, in groups of fifteen to twenty or one-to-one. The North Ayrshire project starts beneath a painted ceiling in Largs. Staying on costs USD 100 monthly for a group seat, or USD 150 monthly for private teaching.
 
 In Largs, Historic Environment Scotland lists the Skelmorlie Aisle at Category A. Inside is a painted timber ceiling signed by J S Stalker and dated 1638, with biblical scenes, the four seasons and, among its panels, the signs of the zodiac, the old names for twelve stretches of the Sun's yearly path across the stars. Here is the puzzle: the stars have not stayed where they were in 1638. The Earth's axis wobbles slowly, like a spinning top, and the whole grid astronomers use to locate stars drifts with it. How far, and how would a computer calculate it? This page's project rotates real star positions back to the year of the painting using matrices in Python.
 
-Facts last verified 26 September 2026. Teaching is online; no North Ayrshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no North Ayrshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Popular first courses in North Ayrshire
 
@@ -138,7 +138,7 @@ Mainland towns and island villages join in exactly the same way.
 - **Code on screen, teacher beside you** The learner types and runs every program; the teacher watches the shared screen and steps in.
 - **Scottish stages** P6, S3, National 5, Higher and Advanced Higher are our vocabulary too, and lessons are in English.
 - **First lesson is free** A complete lesson, no payment, then honest advice on the next step.
-- **Groups matched by stage** Five to ten learners at one stage per group, from many different places.
+- **Groups matched by stage** Fifteen to twenty learners at one stage per group, from many different places.
 - **Term-time lessons** Two lessons a week in term; breaks in the school holidays.
 - **Your UK time, kept** We hold your slot at the same UK time when clocks change; our teachers in India time adjust.
 
@@ -149,7 +149,7 @@ Mainland towns and island villages join in exactly the same way.
 Saltcoats or Brodick, the fee is the same, as it is in every country we teach outside India.
 
 - First class: USD 0. A full lesson with no charge, then a clear recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month, one learner and one teacher.
 
 Fees are in US dollars; we have no sterling price list. You pay nothing until a course and regular slot have been settled after the trial lesson. Holidays, absences and moves between group and private lessons are explained on the pricing page.

@@ -68,7 +68,7 @@ module.exports = {
   },
   h1: 'Online coding and Python classes in the City of Whitehorse',
   capsuleQ: 'How can City of Whitehorse learners study coding and Python online?',
-  capsule: 'Through live lessons on screen, in groups of five to ten or one to one, writing Python that works on real public files. The City of Whitehorse had 169,346 residents at the 2021 Census, and 24.1% of its homes were townhouses, terraces or semi-detached houses, against 13.9% across Victoria.',
+  capsule: 'Through live lessons on screen, in groups of fifteen to twenty or one to one, writing Python that works on real public files. The City of Whitehorse had 169,346 residents at the 2021 Census, and 24.1% of its homes were townhouses, terraces or semi-detached houses, against 13.9% across Victoria.',
   lead: 'Victoria publishes one file of station entries for each financial year. A script that reads all of them has to find them first, and that is where small mistakes hide. Ask for files containing "2024" and you get two years, not one. Ask for files ending "_2024" and you get the year that finished in 2024, which may not be the one you meant.',
   wa: 'Hello Modern Age Coders, I would like a free coding or Python class for a learner in the City of Whitehorse.',
   picks: {
@@ -301,7 +301,7 @@ module.exports = {
       { h3: 'Shared code', p: 'Learners open a link, share a screen and the teacher works through the code with them live.' },
       { h3: 'State terms', p: 'Courses follow Victoria\'s four school terms and pause in the holidays between.' },
       { h3: 'A first class', p: 'The free trial is a real lesson; afterwards we recommend a course and a fixed weekly time.' },
-      { h3: 'Group size', p: 'Five to ten learners in each group, sorted by level rather than location.' },
+      { h3: 'Group size', p: 'Fifteen to twenty learners in each group, sorted by level rather than location.' },
       { h3: 'Twice a week', p: 'Two lessons a week, about eight a month, with breaks agreed beforehand.' },
       {
         h3: 'Teachers in India',
@@ -317,7 +317,7 @@ module.exports = {
     h2: 'City of Whitehorse class fees',
     intro: 'Three prices, in plain terms.',
     first: 'The first lesson is free and ends with an honest view of where to go next.',
-    group: 'A month of group lessons, usually eight, in a group of five to ten at one level.',
+    group: 'A month of group lessons, usually eight, in a group of fifteen to twenty at one level.',
     private: 'About eight one-to-one lessons each month.',
     closer: 'Outside India we bill in US dollars, so a Whitehorse family pays the same as families anywhere else abroad. Payment starts only once the trial has agreed a course and time; holidays, missed lessons and format switches are explained on the pricing page.'
   },
@@ -362,12 +362,12 @@ module.exports = {
       },
       {
         q: 'How much do Python classes cost for City of Whitehorse learners?',
-        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for one-to-one lessons. Course, format and time are agreed before you pay.',
+        a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for one-to-one lessons. Course, format and time are agreed before you pay.',
         boiler: true
       },
       {
         q: 'How are groups made up?',
-        a: 'Five to ten learners at a matching level, pace and goal; private lessons fill the gap when no group time works.',
+        a: 'Fifteen to twenty learners at a matching level, pace and goal; private lessons fill the gap when no group time works.',
         boiler: true
       },
       {

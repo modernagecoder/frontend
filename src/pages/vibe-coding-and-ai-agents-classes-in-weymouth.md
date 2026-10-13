@@ -16,7 +16,7 @@ Weymouth, Dorset, South West England / Live online
 
 Ask an AI agent to plan something and you face a choice nobody mentions: how long to let it think. Some programs give nothing useful until they finish. Others are built so that a usable answer exists at every moment and simply gets better the longer they run. Computer scientists call the second kind an anytime algorithm. It suits agents well, because an agent usually works under a budget of time, money or patience. The catch is that improvement is never steady. It is fast at first, then slow, then it stops. This project draws that curve for a route around Weymouth and asks where a sensible agent should call a halt.
 
-Facts last verified 30 September 2026. Teaching is online; no Weymouth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Weymouth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Pick a Weymouth starting point by age
 
@@ -135,7 +135,7 @@ Everything happens on a video call, so the only equipment is a computer, a camer
 - **They build, we guide** The keyboard belongs to the learner. A tutor watches the shared screen, asks why, and steps in only when needed.
 - **A trial sets the level** One free session shows us what the learner already knows and which course should come next.
 - **Free to begin** There is no fee and no card for that session.
-- **Groups of five to ten** Learners from across the UK, grouped by what they can do and not by where they live.
+- **Groups of fifteen to twenty** Learners from across the UK, grouped by what they can do and not by where they live.
 - **Twice a week** In school terms only; tell us the Dorset holiday dates and we skip them.
 - **Fixed UK hour** Your lesson stays at the same local time through both clock changes.
 

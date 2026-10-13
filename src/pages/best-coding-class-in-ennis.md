@@ -16,7 +16,7 @@ Ennis, County Clare / Live online
 
 Rank every town with at least 4,000 working residents by the share of them who cycle to work, and Ennis comes 36th of 59, at 1.3390%. Immediately above it sits Kildare town at 1.3394%. The gap between them is four ten-thousandths of a percentage point, which in Ennis is less than one person: add a single cyclist to the town's 164 and the order reverses. Ten more would pass Celbridge, seventeen would pass Gorey, and five fewer would drop Ennis below Castlebar. Then change nothing except who is allowed onto the list. Include towns with 2,000 working residents and Ennis is 49th of 102; at 1,000 it is 59th of 152; at 500 it is 83rd of 263. Same town, same measure, same day, four different ranks.
 
-Facts last verified 18 September 2026. Teaching is online; no Ennis branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 18 September 2026. Teaching is online; no Ennis branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Where Ennis learners start
 
@@ -171,7 +171,7 @@ Ordering things is the easiest thing a computer does. Knowing when an order mean
 Six points.
 
 - **Live, not recorded** A teacher present throughout, responding to the work as the learner does it.
-- **Placed by level** Groups of five to ten at one stage, joining from Ennis, elsewhere in Ireland and abroad.
+- **Placed by level** Groups of fifteen to twenty at one stage, joining from Ennis, elsewhere in Ireland and abroad.
 - **Two lessons weekly** About eight a month, in a slot chosen once and then kept for the term.
 - **School calendar** Mid-terms, holidays and exam weeks are planned in before the first lesson.
 - **Equipment** A computer with a keyboard, working sound, and a connection able to carry video.
@@ -184,7 +184,7 @@ Six points.
 Three lines, complete.
 
 - First class: USD 0. A full opening lesson, taught and assessed, at no charge.
-- Group tuition: USD 100 a month. A month in an ability group of five to ten, about eight live lessons.
+- Group tuition: USD 100 a month. A month in an ability group of fifteen to twenty, about eight live lessons.
 - Private tuition: USD 150 a month. A month of private teaching on the same weekly pattern.
 
 Everything is billed monthly in US dollars at the one rate for families outside India, so Ennis sees the same figure as Galway or Navan and no euro list beside it. We invoice once, and only once, a course and a weekly time have both been chosen in the opening lesson; what happens around holidays, a week missed and a switch of format is written out on the pricing page rather than agreed case by case.
@@ -225,7 +225,7 @@ No, and we never imply one. Teaching is live over video only, with no premises i
 
 ### What do coding classes in Ennis cost?
 
-The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
+The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.
 
 ### How many learners are in a group?
 

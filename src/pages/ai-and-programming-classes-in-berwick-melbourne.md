@@ -16,7 +16,7 @@ Berwick, City of Casey, Melbourne, Victoria / Live online
 
 Berwick station had 1,008,200 entries in FY24-25, up from 864,800 in FY18-19. That rise put it eighth of 219 Melbourne stations ranked by growth. Could a model have picked the top ten in advance? More importantly, how would you know whether it did well? That second question is where most machine learning projects go wrong.
 
-Facts last verified 10 October 2026. Teaching is online; no Berwick branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 10 October 2026. Teaching is online; no Berwick branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses where models get measured
 
@@ -175,7 +175,7 @@ Everything happens on screen, which suits a suburb where most trips mean the car
 - **Log in and build** At lesson time the learner opens the link, shares a screen and codes with the teacher watching.
 - **Term calendar** Courses follow Victoria's school terms and pause in the state holidays.
 - **Trial class** The free class is a normal lesson; afterwards we recommend a course and a weekly slot.
-- **Matched groups** Five to ten learners per group, matched on level and pace.
+- **Matched groups** Fifteen to twenty learners per group, matched on level and pace.
 - **Steady pace** Two fixed lessons a week, about eight each month, with breaks agreed early.
 - **Teachers in India** Our teachers are in India: a 5:30pm Berwick lesson in summer is noon India time, then 1pm after Melbourne's clocks go back.
 
@@ -186,7 +186,7 @@ Everything happens on screen, which suits a suburb where most trips mean the car
 Three prices, set out plainly.
 
 - First class: USD 0. The first lesson is free and finishes with a clear recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, usually eight, with five to ten learners at the same level.
+- Group tuition: USD 100 a month. A month of group lessons, usually eight, with fifteen to twenty learners at the same level.
 - Private tuition: USD 150 a month. About eight lessons a month, one teacher with one learner.
 
 Families outside India are billed in US dollars, so Berwick pays the same as other families abroad. Billing starts only after the trial has settled course and time; holidays, absences and changing format are covered on the pricing page.
@@ -223,11 +223,11 @@ No. All teaching is live online, we have no premises in Australia, and the phone
 
 ### What do AI classes cost for Berwick learners?
 
-The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, or USD 150 a month for one-to-one lessons. Course, format and time are agreed before paying.
+The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for one-to-one lessons. Course, format and time are agreed before paying.
 
 ### How many are in a group?
 
-Five to ten learners, grouped by level, pace and goals. Private lessons are offered when no group time works.
+Fifteen to twenty learners, grouped by level, pace and goals. Private lessons are offered when no group time works.
 
 ### Can adults join AI classes?
 

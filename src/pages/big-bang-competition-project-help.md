@@ -192,7 +192,7 @@ Lessons are live on video from India, five and a half hours ahead of the UK in w
 
 - **Evidence built in** Every project we teach records how it was tested, because that is the section entries lose marks on.
 - **Scope kept honest** We help a student cut a project to something finishable, which is most of what a deadline needs.
-- **Five to ten learners** Enough for ideas to cross the room, few enough that every project gets looked at.
+- **Fifteen to twenty learners** Enough for ideas to cross the room, few enough that every project gets looked at.
 - **The student owns it** We teach and review. The project is theirs and the entry is theirs to submit.
 - **One to one when useful** For an ambitious build or a student preparing a video.
 - **No role in the entry** We do not submit entries and have no relationship with EngineeringUK.
@@ -202,7 +202,7 @@ Lessons are live on video from India, five and a half hours ahead of the UK in w
 Charged monthly in US dollars, one rate everywhere but India, with nothing to pay up front and no term to sign.
 
 - Free first class: USD 0. One real lesson on the build. An honest answer about the deadline. No payment details asked for.
-- Group batch: USD 100 a month. Five to ten students at one level. The same teacher weekly. Projects reviewed as they grow. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher weekly. Projects reviewed as they grow. A certificate at the end.
 - One to one: USD 150 a month. A teacher working with one student. Shaped around the build. Useful in the weeks before entry closes.
 
 ## What students and parents ask

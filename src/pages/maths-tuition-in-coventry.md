@@ -14,7 +14,7 @@ Coventry · Maths for learners aged 6 to 67 · Live lessons online
 
 Trace the Coventry ring road on a map and it looks roughly round. Roughly is not a number, so we measured it. One carriageway, followed all the way round in OpenStreetMap, is 3,677.6 metres long and encloses 97.49 hectares. A perfect circle with the same perimeter would hold about 10% more; a square with the same perimeter would hold about 13% less. On the scale mathematicians use to score roundness, the ring road reaches 0.906 out of 1. Perimeter, area, π and ratio all sit inside GCSE, so one road carries a whole course; below we use it to explain how we teach Coventry learners, starting with eight-year-olds learning tables and ending with sixth formers and adults.
 
-At a glance: Learners: Ages 6 to 67 across Coventry; Primary: Times tables, KS2 maths, Year 6 SATs; Secondary: KS3 maths, GCSE foundation or higher; Boards: AQA, Edexcel, OCR; IGCSE too; Sixth form: A level Maths, Further Maths; Adults: Functional Skills maths, GCSE resits; How: Live video, groups of 5 to 10 or private; Coventry project: The ring road, perimeter against area. Rated 4.9 across 547 Google reviews.
+At a glance: Learners: Ages 6 to 67 across Coventry; Primary: Times tables, KS2 maths, Year 6 SATs; Secondary: KS3 maths, GCSE foundation or higher; Boards: AQA, Edexcel, OCR; IGCSE too; Sixth form: A level Maths, Further Maths; Adults: Functional Skills maths, GCSE resits; How: Live video, groups of 15 to 20 or private; Coventry project: The ring road, perimeter against area. Rated 4.9 across 547 Google reviews.
 
 ## Three maths courses most Coventry families choose
 
@@ -227,7 +227,7 @@ Our teachers work on Indian Standard Time, which never changes. Coventry runs fo
 
 - **Continuity** The same teacher each week, who knows the learner's habits.
 - **Family updates** Short notes after lessons about progress and next steps.
-- **Groups of five to ten** Everyone at one level, so no one waits and no one is lost.
+- **Groups of fifteen to twenty** Everyone at one level, so no one waits and no one is lost.
 - **Maps and measurements** Ring roads, plans and real data alongside exam questions.
 - **Private lessons available** One to one for a specific gap or a close deadline.
 - **Understanding over speed** Learners explain a method before practising it.
@@ -237,14 +237,14 @@ Our teachers work on Indian Standard Time, which never changes. Coventry runs fo
 Charged each month in US dollars, at the same rate for all countries outside India. No enrolment fee, no contract.
 
 - Free first class: USD 0. A genuine lesson at the right level. Straight feedback afterwards. No card details asked for.
-- Group batch: USD 100 a month. Five to ten learners of one level. A consistent teacher. Homework checked and explained. Certificate when the course ends.
+- Group batch: USD 100 a month. Fifteen to twenty learners of one level. A consistent teacher. Homework checked and explained. Certificate when the course ends.
 - One to one: USD 150 a month. Private lessons with one teacher. Planned around specific gaps. Good for the run-up to exams.
 
 ## What Coventry parents and learners ask us
 
 ### What does a maths tutor in Coventry cost?
 
-Nothing for the first lesson. Then USD 100 a month for a group of five to ten learners, or USD 150 a month for one-to-one lessons. There is no enrolment fee and you can stop at any time.
+Nothing for the first lesson. Then USD 100 a month for a group of fifteen to twenty learners, or USD 150 a month for one-to-one lessons. There is no enrolment fee and you can stop at any time.
 
 ### What is the difference between perimeter and area?
 

@@ -54,7 +54,7 @@ module.exports = {
 
   h1: 'AI and programming classes in Bootle, Merseyside',
   capsuleQ: 'Which are the best AI and programming classes in Bootle?',
-  capsule: 'The Bootle built-up area had 53,720 residents at the 2021 census, inside a Sefton borough of 279,233, on ONS figures. Seaforth, Netherton, Orrell and Ford are listed as suburban areas of the borough, with Crosby and Formby as separate towns. Our tutors, based in India, teach AI, programming, Python, vibe coding and maths on live video to anyone aged six to 67, either alone or in a class of five to ten who work at one level. Lessons begin with how to reason, so that a learner can test what a model or a chatbot claims. The Bootle project trains two models on Census areas of Sefton, a few at first and then hundreds, and draws the learning curve for each to see when more data stops paying. The opening lesson costs nothing and closes with a course recommendation; afterwards a group place is USD 100 a month and private lessons USD 150 a month.',
+  capsule: 'The Bootle built-up area had 53,720 residents at the 2021 census, inside a Sefton borough of 279,233, on ONS figures. Seaforth, Netherton, Orrell and Ford are listed as suburban areas of the borough, with Crosby and Formby as separate towns. Our tutors, based in India, teach AI, programming, Python, vibe coding and maths on live video to anyone aged six to 67, either alone or in a class of fifteen to twenty who work at one level. Lessons begin with how to reason, so that a learner can test what a model or a chatbot claims. The Bootle project trains two models on Census areas of Sefton, a few at first and then hundreds, and draws the learning curve for each to see when more data stops paying. The opening lesson costs nothing and closes with a course recommendation; afterwards a group place is USD 100 a month and private lessons USD 150 a month.',
   lead: 'Everyone who builds a model eventually asks whether to collect more data. A learning curve answers with evidence: train on ten examples, then twenty, then fifty, and at every step measure the error on examples the model has never seen. If the curve is still falling, more data will help. If it has gone flat, the model has learned what it can and the effort belongs elsewhere. Sefton has 942 census output areas, enough for a learner in Bootle to draw this curve in Python for two very different models and watch them behave differently.',
   wa: 'Hello Modern Age Coders, I would like to book a free AI or programming lesson for a learner in Bootle.',
 
@@ -161,7 +161,7 @@ module.exports = {
       { h3: 'Hands on the keys', p: 'The learner types, runs and debugs. The tutor follows on a shared screen and asks why each step works.' },
       { h3: 'Placed by the trial', p: 'The free session shows what the learner already knows, and we note any exam board then.' },
       { h3: 'A free start', p: 'No fee and no card for lesson one, which finishes with a course we would suggest.' },
-      { h3: 'Classes by level', p: 'Five to ten learners from across the UK, grouped by what they can do, not by postcode.' },
+      { h3: 'Classes by level', p: 'Fifteen to twenty learners from across the UK, grouped by what they can do, not by postcode.' },
       { h3: 'Twice weekly', p: 'Two lessons most weeks, with breaks in the school holidays you tell us about.' },
       { h3: 'Clock changes handled', p: 'When British Summer Time begins or ends, the tutor shifts and your hour stays put.' }
     ],

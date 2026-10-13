@@ -306,7 +306,7 @@ module.exports = {
       { h3: 'Shared screens', p: 'Teacher and learner look at the same code and run it together.' },
       { h3: 'Term rhythm', p: 'The timetable follows Victorian school terms and stops for the holidays.' },
       { h3: 'Trial at no cost', p: 'The first full lesson is free, and we recommend a course afterwards.' },
-      { h3: 'Groups by level', p: 'Five to ten learners at the same stage, gathered from many places.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at the same stage, gathered from many places.' },
       { h3: 'Two per week', p: 'Two fixed lessons a week, close to eight in a month.' },
       { h3: 'Teaching hours', p: 'A 4pm Brimbank lesson is 10:30am India time during Melbourne daylight saving and 11:30am after it.' }
     ],
@@ -319,7 +319,7 @@ module.exports = {
     h2: 'Brimbank class fees',
     intro: 'The same clear fees for each family.',
     first: 'There is no charge for the first lesson, which ends with our advice.',
-    group: 'Group learning: one month, around eight lessons, five to ten in a group.',
+    group: 'Group learning: one month, around eight lessons, fifteen to twenty in a group.',
     private: 'Private learning: one month, around eight lessons, one learner and one teacher.',
     closer: 'Brimbank families pay in US dollars. You only pay once the trial has fixed the course and a regular time; holidays and missed lessons are explained on the pricing page.'
   },
@@ -358,12 +358,12 @@ module.exports = {
       },
       {
         q: 'How much do Brimbank classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'How big is each group?',
-        a: 'Five to ten learners at a similar level and pace, mixed across suburbs and ages; one-to-one lessons are available if no group fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, mixed across suburbs and ages; one-to-one lessons are available if no group fits.',
         boiler: true
       },
       { q: 'Can adults in Brimbank learn too?', a: 'Yes. Adults learn in adult groups or one to one, from first steps in Python to AI.' }

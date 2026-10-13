@@ -163,7 +163,7 @@ module.exports = {
       { h3: 'Hands on the keyboard', p: 'Learners type their own programs while the teacher watches the shared screen and helps with questions.' },
       { h3: 'School years in England', p: 'A Year 4 or a Year 12 in Slough is placed by year group and key stage, with each exam board\'s own names.' },
       { h3: 'Free trial', p: 'One full lesson at no cost, then a clear recommendation.' },
-      { h3: 'Grouped by stage', p: 'A class holds five to ten learners who are at the same point, living anywhere in Britain.' },
+      { h3: 'Grouped by stage', p: 'A class holds fifteen to twenty learners who are at the same point, living anywhere in Britain.' },
       { h3: 'Through the school year', p: 'Lessons run twice weekly while schools are open and stop for the holidays.' },
       { h3: 'UK clock kept', p: 'Your lesson keeps its UK time when the clocks change; our teachers adjust.' }
     ],
@@ -174,7 +174,7 @@ module.exports = {
     h2: 'Fees in Slough',
     intro: 'Slough pays the same fee as everywhere else we teach outside India.',
     first: 'A full free lesson with a clear next step.',
-    group: 'About eight lessons a month in a class of five to ten.',
+    group: 'About eight lessons a month in a class of fifteen to twenty.',
     private: 'About eight lessons a month with your own tutor.',
     closer: 'Fees are in US dollars only; we do not quote sterling. We ask for nothing until the trial has matched a course and a regular weekly slot; breaks, absences and moving between group and one-to-one are all explained on the pricing page.'
   },

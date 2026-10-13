@@ -67,7 +67,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>The short answer (updated September 2026):</strong> the free vibe coding tools with no hard limit are the open-source ones, Cline and Aider, because they are free software and you pay only for the model you plug in, which can itself be a free tier. Every hosted platform on this list (Bolt.new, Lovable, v0, Replit, Cursor) has a free tier capped by messages, credits or hours, and those caps change month to month, so the figures on any list, including this one, go stale; check the platform's pricing page on the day. For a complete beginner the easiest free start is a chat assistant, ChatGPT or Claude, which builds a small app in the browser with no setup. If you would rather learn this with a teacher on screen than alone with a chat box, we teach it live: <a href=\"/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev\">Vibe Coding for Kids</a> (ages 8 to 12, Scratch, AI and game projects) and <a href=\"/courses/vibe-coding-for-teens-python-web-ai-projects-course\">Vibe Coding for Teens</a> (ages 13 to 17, Python, web and AI projects), in a batch of 5 to 10 or 1-on-1, one hour per class, with a free demo first. Parents deciding whether this is a good idea at all should read the <a href=\"/parents-guide-to-vibe-coding\">parents' guide to vibe coding</a>."
+        "text": "<strong>The short answer (updated September 2026):</strong> the free vibe coding tools with no hard limit are the open-source ones, Cline and Aider, because they are free software and you pay only for the model you plug in, which can itself be a free tier. Every hosted platform on this list (Bolt.new, Lovable, v0, Replit, Cursor) has a free tier capped by messages, credits or hours, and those caps change month to month, so the figures on any list, including this one, go stale; check the platform's pricing page on the day. For a complete beginner the easiest free start is a chat assistant, ChatGPT or Claude, which builds a small app in the browser with no setup. If you would rather learn this with a teacher on screen than alone with a chat box, we teach it live: <a href=\"/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev\">Vibe Coding for Kids</a> (ages 8 to 12, Scratch, AI and game projects) and <a href=\"/courses/vibe-coding-for-teens-python-web-ai-projects-course\">Vibe Coding for Teens</a> (ages 13 to 17, Python, web and AI projects), in a batch of 15 to 20 or 1-on-1, one hour per class, with a free demo first. Parents deciding whether this is a good idea at all should read the <a href=\"/parents-guide-to-vibe-coding\">parents' guide to vibe coding</a>."
       },
       {
         "type": "heading",
@@ -315,7 +315,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The practical rule: prototype on a chat assistant, move to a hosted platform when you want a live link, and switch to an open-source tool with your own model when the caps start costing you time. If you would rather learn this with a teacher on screen than alone with a chat box, we teach it live: <a href=\"/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev\">Vibe Coding for Kids</a> (ages 8 to 12, Scratch, AI and game projects) and <a href=\"/courses/vibe-coding-for-teens-python-web-ai-projects-course\">Vibe Coding for Teens</a> (ages 13 to 17, Python, web and AI projects), in a batch of 5 to 10 or 1-on-1, one hour per class, with a free demo first. Parents deciding whether this is a good idea at all should read the <a href=\"/parents-guide-to-vibe-coding\">parents' guide to vibe coding</a>."
+        "text": "The practical rule: prototype on a chat assistant, move to a hosted platform when you want a live link, and switch to an open-source tool with your own model when the caps start costing you time. If you would rather learn this with a teacher on screen than alone with a chat box, we teach it live: <a href=\"/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev\">Vibe Coding for Kids</a> (ages 8 to 12, Scratch, AI and game projects) and <a href=\"/courses/vibe-coding-for-teens-python-web-ai-projects-course\">Vibe Coding for Teens</a> (ages 13 to 17, Python, web and AI projects), in a batch of 15 to 20 or 1-on-1, one hour per class, with a free demo first. Parents deciding whether this is a good idea at all should read the <a href=\"/parents-guide-to-vibe-coding\">parents' guide to vibe coding</a>."
       },
       {
         "type": "heading",
@@ -370,7 +370,7 @@
           },
           {
             "title": "Can kids learn vibe coding?",
-            "content": "Yes, from about 8, as long as an adult or a teacher is in the loop, because the tools are built for adults and a child needs help judging what the AI produced. Our Vibe Coding for Kids course (ages 8 to 12) pairs Scratch and game projects with age-appropriate AI tools, live, in a batch of 5 to 10 or 1-on-1."
+            "content": "Yes, from about 8, as long as an adult or a teacher is in the loop, because the tools are built for adults and a child needs help judging what the AI produced. Our Vibe Coding for Kids course (ages 8 to 12) pairs Scratch and game projects with age-appropriate AI tools, live, in a batch of 15 to 20 or 1-on-1."
           }
         ]
       },

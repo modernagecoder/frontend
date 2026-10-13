@@ -181,7 +181,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, same teacher every week
+- Fifteen to twenty students, same teacher every week
 - Live video, never a recording
 - Build work between sessions, reviewed by the teacher
 - Certificate on completion
@@ -300,7 +300,7 @@ Normal, and worth changing. The pile usually means projects are being chosen fou
 
 ### What do project-based classes cost here?
 
-Group batches of five to eight are USD 100 a month and one to one is USD 150 a month, the same in every country we teach outside India, with no enrolment charge and no minimum stay. Every track is project-based; it is not a premium format we charge extra for, it is just how we think teaching works.
+Group batches of fifteen to twenty are USD 100 a month and one to one is USD 150 a month, the same in every country we teach outside India, with no enrolment charge and no minimum stay. Every track is project-based; it is not a premium format we charge extra for, it is just how we think teaching works.
 
 ### How does a student start with a project already in mind?
 

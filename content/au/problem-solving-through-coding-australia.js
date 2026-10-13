@@ -233,7 +233,7 @@ module.exports = {
       { h3: 'Small parts', p: 'Every solution is built and tested in pieces.' },
       { h3: 'Mistakes welcome', p: 'A wrong guess is the start of the next idea.' },
       { h3: 'Explain it', p: 'Students describe their solution and its limits.' },
-      { h3: 'Small groups', p: 'Five to ten learners, or one to one.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners, or one to one.' },
       { h3: 'Same teacher', p: 'One teacher who knows how each student thinks.' }
     ]
   },
@@ -246,7 +246,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Outside India the fee is monthly, in US dollars, and the same wherever you live. There is no enrolment charge and no requirement to stay for a term, so you can end after any month.',
     free: ['A first lesson that is free', 'An honest view of where to begin', 'No card needed'],
-    group: ['Five to ten learners', 'A consistent teacher', 'Similar age and level', 'Monthly, cancel any time'],
+    group: ['Fifteen to twenty learners', 'A consistent teacher', 'Similar age and level', 'Monthly, cancel any time'],
     one: ['One teacher, one learner', 'A time that suits you', 'Pace set by the learner']
   },
 
@@ -262,7 +262,7 @@ module.exports = {
       { q: 'What age is this suitable for?', a: 'Children from about 8 can follow the rule and explore small numbers in Scratch. Writing the full exploration in Python suits students from about 10.' },
       { q: 'Does my child need to be good at maths?', a: 'No. Halving, tripling and counting are enough to start. Problem solving through coding often builds maths confidence rather than requiring it.' },
       { q: 'Does this follow the Australian Curriculum?', a: 'It reinforces the computational thinking described in the Digital Technologies curriculum, from sequences and decisions in the early years to decomposition in Years 7 and 8.' },
-      { q: 'Are lessons live?', a: 'Yes. Every lesson is live online with a teacher, in small groups of five to ten or one to one, at times set for your state.' },
+      { q: 'Are lessons live?', a: 'Yes. Every lesson is live online with a teacher, in groups of fifteen to twenty or one to one, at times set for your state.' },
       { q: 'How much does it cost?', a: 'The first lesson is free. After that, fees are monthly with no joining fee and no term lock-in; see the fees section on this page.' }
     ]
   },

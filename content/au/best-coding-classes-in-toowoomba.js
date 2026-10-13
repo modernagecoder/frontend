@@ -192,7 +192,7 @@ module.exports = {
       { h3: 'Anywhere on the Downs', p: 'A learner in the city centre and one out at Westbrook can share the same lesson, each from their own desk.' },
       { h3: 'Queensland school language', p: 'We talk in Queensland year levels, time the work to its four terms and help senior students connect projects with the computing subjects they take. Teaching is in English.' },
       { h3: 'A genuine first lesson', p: 'Your free session is an ordinary lesson, not a sales call, and it ends with a recommended level, course and slot. Booking it needs no card.' },
-      { h3: 'Groups at one stage', p: 'Five to ten learners working at the same level, from Toowoomba and elsewhere, so regional cities still get complete groups.' },
+      { h3: 'Groups at one stage', p: 'Fifteen to twenty learners working at the same level, from Toowoomba and elsewhere, so regional cities still get complete groups.' },
       { h3: 'Two lessons a week', p: 'Around eight lessons each month in a fixed slot, with holidays and exam weeks arranged with the teacher in advance.' },
       { h3: 'Teachers four and a half hours behind', p: 'Queensland never changes its clocks, so a 6pm lesson in Toowoomba is always 1:30pm where our teachers work in India, in January and in July alike.' }
     ],
@@ -203,7 +203,7 @@ module.exports = {
     h2: 'What classes cost in Toowoomba',
     intro: 'The whole price list, in three lines.',
     first: 'A complete lesson free of charge, after which you receive a level, a suggested course and a regular time.',
-    group: 'A month of lessons, usually eight, shared with five to ten learners at your level.',
+    group: 'A month of lessons, usually eight, shared with fifteen to twenty learners at your level.',
     private: 'About eight lessons a month on the same rhythm, with one teacher working only with you.',
     closer: 'Fees are set in US dollars everywhere except India, so a family in Rangeville pays exactly what a family in Darling Heights pays and there is no separate Queensland price. Nothing is charged until the trial has fixed a course and a weekly slot; the pricing page explains holidays, absences and switching between group and private lessons.'
   },
@@ -228,8 +228,8 @@ module.exports = {
       { q: 'What time are lessons for Toowoomba learners?', a: 'Most Toowoomba learners choose a slot after school or on a Saturday morning; the time is set during the trial and quoted in Queensland time. Our teachers are four and a half hours behind all year, because neither Queensland nor India uses daylight saving.' },
       { q: 'Can younger children join too?', a: 'Yes. We teach from age six, beginning with Scratch blocks and drawing-based games before any typed Python. The projects here just happen to suit older learners.' },
       { q: 'Is there a Modern Age Coders centre in Toowoomba?', a: 'No, and none is claimed. Every lesson is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Toowoomba coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and goals rather than on age or postcode. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Toowoomba coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and goals rather than on age or postcode. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

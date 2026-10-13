@@ -191,7 +191,7 @@ module.exports = {
       { h3: 'Lessons at home', p: 'A learner in Palmerston and another near the Esplanade can be in the same lesson without either one getting in a car.' },
       { h3: 'Territory year levels', p: 'Teachers use the year levels Darwin schools use and plan around the Northern Territory school terms. Everything is taught in English.' },
       { h3: 'Try before you commit', p: 'The first session is a real lesson with a real teacher; you leave with a suggested course and time and with nothing paid.' },
-      { h3: 'Learners at your level', p: 'Groups of five to ten learners at the same stage, from Darwin and other cities, so there is a group even in a small capital.' },
+      { h3: 'Learners at your level', p: 'Groups of fifteen to twenty learners at the same stage, from Darwin and other cities, so there is a group even in a small capital.' },
       { h3: 'Twice a week', p: 'Usually two lessons a week, about eight a month, at a set time, with breaks for school holidays and exams arranged in advance.' },
       { h3: 'The same four hours, every day', p: 'Darwin runs four hours ahead of our teachers all year round, so 4:30pm in Darwin is always 12:30pm for them.' }
     ],
@@ -202,7 +202,7 @@ module.exports = {
     h2: 'What classes cost in Darwin',
     intro: 'Three prices, laid out simply.',
     first: 'The opening lesson in full, free, followed by a suggested level, course and time.',
-    group: 'Monthly teaching of around eight lessons in a group of five to ten at your stage.',
+    group: 'Monthly teaching of around eight lessons in a group of fifteen to twenty at your stage.',
     private: 'The same monthly rhythm of roughly eight lessons, taught one to one.',
     closer: 'Outside India, the fee is a single US dollar amount everywhere, so a learner in Stuart Park and one in Palmerston pay the same and there is no local price sheet. Nothing is charged until the trial has fixed a course and a time; the pricing page covers holiday pauses, missed sessions and changing between group and private lessons.'
   },
@@ -227,8 +227,8 @@ module.exports = {
       { q: 'What time are lessons for Darwin learners?', a: 'Weekday afternoons, evenings or weekends, settled in the trial and stated in Darwin time. Darwin is always four hours ahead of India time, with no clock changes at either end.' },
       { q: 'Do you teach younger children in Darwin?', a: 'Yes, from age six, starting with Scratch and visual projects. The projects described here are aimed at teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Darwin?', a: 'No, and none is claimed. All teaching is live and online, with no premises anywhere in Australia. A learner needs a laptop or desktop, working sound and a reliable connection, and the contact number shown is an Indian one.', boiler: true },
-      { q: 'What do Darwin coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
-      { q: 'How big are the groups?', a: 'Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'What do Darwin coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.', boiler: true },
+      { q: 'How big are the groups?', a: 'Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

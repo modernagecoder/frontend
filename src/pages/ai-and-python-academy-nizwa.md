@@ -10,7 +10,7 @@ Courses
 
 ## The courses students in Nizwa start on
 
-Live online, in batches of five to eight or one to one, from the first rung upward.
+Live online, in batches of fifteen to twenty or one to one, from the first rung upward.
 
 [![Python for Teens course thumbnail](/images/python-teens.webp)  LADDER / 01 Python for Teens The spine. A blank file stops being frightening somewhere in the first term. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)  LADDER / 02 Data Science for Teens Real data, handled honestly, which is where every later claim about a model comes from. Open the syllabus →](/courses/data-science-course-for-teens-python-data)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  LADDER / 03 Python and AI for Kids For younger siblings. Typed syntax early, and an honest account of what these systems are. Open the syllabus →](/courses/python-ai-kids-masterclass)
 
@@ -18,7 +18,7 @@ The rest of the ladder runs [Python and AI for Kids](/courses/python-ai-kids-mas
 
 In short
 
-Modern Age Coders teaches a live online Python and AI track to learners in Nizwa and across Ad Dakhiliyah, aged six to sixty-seven, in batches of five to eight or one to one. It begins with thinking precisely about problems and ends with models and agents published on GitHub. Group teaching is USD 100 a month and private teaching USD 150, the first class is free, and there is no centre anywhere in Oman to travel to.
+Modern Age Coders teaches a live online Python and AI track to learners in Nizwa and across Ad Dakhiliyah, aged six to sixty-seven, in batches of fifteen to twenty or one to one. It begins with thinking precisely about problems and ends with models and agents published on GitHub. Group teaching is USD 100 a month and private teaching USD 150, the first class is free, and there is no centre anywhere in Oman to travel to.
 
 The oldest working algorithm in the country
 
@@ -100,7 +100,7 @@ Nizwa time. University students and working adults on weeknights.
 
 Free, and its only job is to work out where the learner actually is. One problem, watched rather than marked.
 
-### Batches of five to eight
+### Batches of fifteen to twenty
 
 Assembled on demonstrated ability from twenty-five countries, so the interior is not a smaller pool than anywhere else.
 
@@ -226,7 +226,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Weekly build work reviewed by the teacher
 - Certificate on completion
@@ -263,7 +263,7 @@ USD 100
 
 a month, billed in US dollars
 
-- Five to eight students, one teacher throughout
+- Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
 - Weekly build work reviewed by the teacher
 - Certificate on completion
@@ -354,7 +354,7 @@ No, and none anywhere in Oman. Every lesson is a live video call taught from Ind
 
 ### How much does it cost?
 
-A group batch of five to eight students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same flat figures everywhere outside India. There is no enrolment fee, no annual contract, and the first class is free without a card.
+A group batch of fifteen to twenty students is USD 100 a month and one to one teaching is USD 150 a month, billed in US dollars, the same flat figures everywhere outside India. There is no enrolment fee, no annual contract, and the first class is free without a card.
 
 ### My child is nine. Is any of this suitable?
 

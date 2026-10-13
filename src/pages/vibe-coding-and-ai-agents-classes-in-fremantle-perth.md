@@ -16,7 +16,7 @@ City of Fremantle, southern Perth, Western Australia / Live online
 
 The City of Fremantle is small, at about 19 square kilometres, and busy. Main Roads lists 46 vehicle count sites on 27 roads here, plus 7 permanent bicycle counters on paths by the beaches, the river and the railway. Those two lists are a ready-made test of how an AI agent copes when its tools disagree about names.
 
-Facts last verified 12 October 2026. Teaching is online; no Fremantle branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Fremantle branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Agents, vibe coding and Python
 
@@ -184,7 +184,7 @@ Lessons happen live over video, so there is no travel across the river or the ci
 - **Teacher-led** Every lesson is run live, with code checked as learners write it.
 - **Term-time rhythm** Classes match the WA school terms and break for the holidays.
 - **Free first session** One trial lesson, then a short written plan.
-- **Group or solo** Groups of five to ten at one level, or private lessons.
+- **Group or solo** Groups of fifteen to twenty at one level, or private lessons.
 - **Twice weekly** Two lessons each week, about eight a month.
 - **Clock check** A 4pm Fremantle lesson begins at 1:30pm in India, all year.
 
@@ -195,7 +195,7 @@ Lessons happen live over video, so there is no travel across the river or the ci
 One fee table for every learner.
 
 - First class: USD 0. The trial lesson is free and includes a plan.
-- Group tuition: USD 100 a month. Group lessons: around eight a month, with five to ten learners.
+- Group tuition: USD 100 a month. Group lessons: around eight a month, with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private lessons: around eight a month with a dedicated teacher.
 
 Fremantle fees are in US dollars and start only after the trial has fixed a course and a weekly slot. Holiday and missed-lesson rules are on the pricing page.
@@ -232,11 +232,11 @@ No. All lessons are live online, we have no Australian office, and our listed ph
 
 ### What do Fremantle classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who will my child learn with?
 
-Five to ten learners matched by level and pace, not by age or suburb. One-to-one lessons are there when no group time fits.
+Fifteen to twenty learners matched by level and pace, not by age or suburb. One-to-one lessons are there when no group time fits.
 
 ### Can adults learn about agents?
 

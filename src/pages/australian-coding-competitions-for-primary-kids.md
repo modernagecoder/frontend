@@ -192,7 +192,7 @@ Lessons are taught live by teachers in India. Australia is ahead of India on the
 
 - **Play first** Young children learn best through puzzles and making things.
 - **Our own puzzles** Competition-style practice written by us, never copied.
-- **Small classes** Five to ten children at a similar level.
+- **Small classes** Fifteen to twenty children at a similar level.
 - **One-to-one option** For a child who needs a different pace.
 - **Team-friendly** We teach the coding; teams keep their own projects.
 - **No result promised** Organisers set and mark every competition.
@@ -202,7 +202,7 @@ Lessons are taught live by teachers in India. Australia is ahead of India on the
 Classes are billed per month in US dollars, our rate for families outside India. There is no sign-up charge and no fixed term. Competition entries, where they cost anything, are paid to the organisers, usually through schools.
 
 - Free first class: USD 0. A first class at no charge. A short puzzle and coding check. No card details.
-- Group batch: USD 100 a month. Five to ten children at one level. The same teacher each week. Puzzles and projects shared. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. The same teacher each week. Puzzles and projects shared. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one child. A plan matched to the child's pace. Times that suit the family.
 
 ## What parents and teachers ask

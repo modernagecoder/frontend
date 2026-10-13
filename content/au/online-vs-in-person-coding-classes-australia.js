@@ -252,7 +252,7 @@ module.exports = {
     cells: [
       { h3: 'Screen sharing', p: 'The teacher reads the learner\'s actual code.' },
       { h3: 'Same teacher', p: 'One teacher, week after week.' },
-      { h3: 'Small groups', p: 'Five to ten learners, or one to one.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners, or one to one.' },
       { h3: 'No travel', p: 'Lessons start at home, on time.' },
       { h3: 'Family welcome', p: 'Parents can sit in on any lesson.' },
       { h3: 'Own computer', p: 'Projects carry on between lessons.' }
@@ -267,7 +267,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Online lessons outside India are charged monthly in US dollars, the same rate in every country. There is no joining fee, no term contract and no travel cost, and you can stop after any month.',
     free: ['A free first lesson online', 'A check of sound and screen sharing', 'No card details'],
-    group: ['Five to ten learners', 'One regular teacher', 'Screen sharing every lesson', 'Monthly'],
+    group: ['Fifteen to twenty learners', 'One regular teacher', 'Screen sharing every lesson', 'Monthly'],
     one: ['A teacher to yourself', 'Your own pace', 'Your own projects']
   },
 
@@ -283,7 +283,7 @@ module.exports = {
       { q: 'Where should my child sit for online lessons?', a: 'In a shared family space rather than a bedroom, so a parent can see and hear the lesson, in line with the Australian Tutoring Association\'s guidance on home tutoring.' },
       { q: 'Can my child use a tablet?', a: 'A laptop or desktop with a keyboard works much better for coding. Tablets make typing slow and screen sharing awkward.' },
       { q: 'How much time does online save?', a: 'For a weekly class 20 minutes away, about 26.7 hours a year of driving, based on the 40 Mondays inside Victoria\'s 2027 term dates.' },
-      { q: 'Do online learners still make friends?', a: 'Yes. Groups of five to ten talk, share screens and present projects to each other, and many keep the same classmates for months.' },
+      { q: 'Do online learners still make friends?', a: 'Yes. Groups of fifteen to twenty talk, share screens and present projects to each other, and many keep the same classmates for months.' },
       { q: 'How much do online lessons cost?', a: 'The first lesson is free. After that, lessons are paid monthly with no joining fee and no term lock-in, as shown in the fees section.' }
     ]
   },

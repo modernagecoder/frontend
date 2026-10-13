@@ -49,7 +49,7 @@ module.exports = {
 
   h1: 'Coding classes in Havering',
   capsuleQ: 'What are the best coding classes in Havering?',
-  capsule: 'Havering is the east London borough of Romford, Hornchurch, Upminster, Rainham, Harold Wood, Elm Park and Gidea Park, with 262,052 residents at the 2021 Census and a timber smock mill still standing at Upminster. Good coding classes show a learner that an average can hide what matters most, and this page does exactly that with the wind: ten years of hourly wind speeds near the windmill, a Weibull curve fitted to them, and the discovery that the windiest tenth of hours carries over forty per cent of the energy. We teach over live video, with teachers based in India, for people aged 6 to 67, privately or in a class of five to ten who share a level. The first lesson is free; after it, class places are USD 100 a month and private lessons USD 150 a month.',
+  capsule: 'Havering is the east London borough of Romford, Hornchurch, Upminster, Rainham, Harold Wood, Elm Park and Gidea Park, with 262,052 residents at the 2021 Census and a timber smock mill still standing at Upminster. Good coding classes show a learner that an average can hide what matters most, and this page does exactly that with the wind: ten years of hourly wind speeds near the windmill, a Weibull curve fitted to them, and the discovery that the windiest tenth of hours carries over forty per cent of the energy. We teach over live video, with teachers based in India, for people aged 6 to 67, privately or in a class of fifteen to twenty who share a level. The first lesson is free; after it, class places are USD 100 a month and private lessons USD 150 a month.',
   lead: 'Upminster Windmill, listed at Grade II*, is described by Historic England as a tall octagonal smock mill, timber-framed on a brick base. A mill like that depends entirely on the wind, and the wind is far more uneven than it feels. Our learners take ten years of hourly wind speeds, 87,672 of them, from the ERA5 reanalysis for the grid square around Upminster. The average at 100 metres is 6.8 metres per second. Work out the power from that average and you get about 190 watts for every square metre facing the wind. Work it out hour by hour and average the power instead, and you get about 320. The difference comes from one fact of physics, that wind power grows with the cube of speed, and a skewed curve named after Waloddi Weibull describes it.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Havering.',
 
@@ -139,7 +139,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'Upminster', p: 'TfL\'s open data lists the District line, c2c and the Liberty line at Upminster.' },
           { h3: 'Harold Hill to Rainham', p: 'Learners at the northern and southern ends of the borough can be in the same lesson without either leaving home.' },
-          { h3: 'Steady, not gusty', p: 'Our timetable, unlike the wind, is regular: two evenings a week, same group of five to ten learners at one stage.' }
+          { h3: 'Steady, not gusty', p: 'Our timetable, unlike the wind, is regular: two evenings a week, same group of fifteen to twenty learners at one stage.' }
         ] },
         { kind: 'spec', title: 'Havering and the London boroughs', p: 'Havering is one of London\'s 32 boroughs. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> links all of them and the City as their pages are published, including <a class="cg-inline-link" href="/coding-classes-in-redbridge-london">Redbridge</a> to the west.' }
       ]
@@ -176,7 +176,7 @@ module.exports = {
       { h3: 'No journey', p: 'Classes happen at home; a computer, a headset and a broadband line that can carry video are the only requirements.' },
       { h3: 'School stages in England', p: 'We track progress by English Key Stages, 1 through 4 and then sixth form, bringing in GCSE and A level where the learner is heading that way. Everything is taught in English.' },
       { h3: 'Nothing to pay first', p: 'The first lesson is free and genuinely teaches something; at the end the teacher suggests a level and a course. Card details are never requested for it.' },
-      { h3: 'Level, not location', p: 'We build each class of five to ten from learners at the same stage anywhere in the UK and beyond, which is what makes a sensible hour possible.' },
+      { h3: 'Level, not location', p: 'We build each class of fifteen to twenty from learners at the same stage anywhere in the UK and beyond, which is what makes a sensible hour possible.' },
       { h3: 'Two evenings a week', p: 'The usual pattern is two lessons a week in the evening, paused for school holidays and exam periods when agreed.' },
       { h3: 'London hours', p: 'Teachers are in India, yet the times on every invitation are the times on a Havering clock.' }
     ],
@@ -187,7 +187,7 @@ module.exports = {
     h2: 'Fees for Havering families',
     intro: 'One free lesson, then one monthly fee, whether you live in Rainham or Harold Wood.',
     first: 'A full first lesson with a teacher, free, ending in a recommended level, course and weekly time.',
-    group: 'Close to eight live lessons each month in a class of five to ten at one stage.',
+    group: 'Close to eight live lessons each month in a class of fifteen to twenty at one stage.',
     private: 'Close to eight live lessons each month, just learner and teacher.',
     closer: 'Havering families are charged in US dollars, like everyone outside India, and the site shows no sterling prices. No payment is taken before the free lesson, or before you settle on a course and a regular time. Pausing, missed lessons and moving between class and one-to-one are covered on the pricing page.'
   },
@@ -212,8 +212,8 @@ module.exports = {
       { q: 'When would Havering lessons happen?', a: 'The free lesson settles the level; then we offer a class at that level with room, at a fixed weekly time. That time is quoted in UK time even though the teacher is in India.' },
       { q: 'What is needed at home?', a: 'A computer with sound and a connection that copes with video calls. The wind project runs in Python on one free download of data.' },
       { q: 'Is there a Modern Age Coders centre in Havering?', a: 'No. There is no Havering centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Havering cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Havering cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

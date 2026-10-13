@@ -16,7 +16,7 @@ DELIBERATELY NARROW — every match was read in context first, and a naive numbe
 have wrecked real content:
   - "20-50 students per batch" is the ✗ column of the COMPETITOR comparison table.
   - "134 countries" is Don Bosco's religious order; "90+ countries" is the IOI olympiad.
-  - "3-4 students per batch" is the real Mini Batch pricing tier.
+  - "up to 6 students per batch" is the real Mini Batch pricing tier.
   - "since 1957/1959/1980/1989/1958/2000/2004/2017/2018" are Don Bosco, Birla, Apple
     Ireland, the IOI, Kumon, Dubai Internet City, CMU Qatar, the UAE AI ministry and the
     Irish Leaving Cert spec — none of them us.

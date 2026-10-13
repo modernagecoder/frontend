@@ -16,7 +16,7 @@ Redland City, Brisbane, Queensland / Live online
 
 Redland City stretches from Thorneside and Capalaba out to the Southern Moreton Bay Islands. On Wednesday 21 October 2026 the Translink timetable has 16,809 stop visits inside the council area on 31 routes: 16,167 by bus, 540 by train and 102 by ferry. Every one of those stops carries an ID, and that is where the lesson starts.
 
-Facts last verified 12 October 2026. Teaching is online; no Redlands branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 12 October 2026. Teaching is online; no Redlands branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Python and coding courses
 
@@ -176,7 +176,7 @@ Lessons are live video sessions, so learners on the mainland or the islands join
 - **Teacher present** Every lesson is taught live, with the learner's screen shared.
 - **School holidays** Classes follow Queensland terms and stop over the holidays.
 - **Free trial** One full lesson without charge, then a written course suggestion.
-- **Group or private** Groups of five to ten at one level, or one to one.
+- **Group or private** Groups of fifteen to twenty at one level, or one to one.
 - **Two per week** About eight lessons each month.
 - **India hours** A 6:30pm Redlands lesson is 2pm in India.
 
@@ -187,7 +187,7 @@ Lessons are live video sessions, so learners on the mainland or the islands join
 Fees are identical for every learner.
 
 - First class: USD 0. The first lesson is free and ends with a recommended plan.
-- Group tuition: USD 100 a month. Group study: about eight lessons a month, five to ten learners.
+- Group tuition: USD 100 a month. Group study: about eight lessons a month, fifteen to twenty learners.
 - Private tuition: USD 150 a month. Private study: about eight lessons a month, one to one.
 
 Redlands fees are billed in US dollars, after the trial has fixed a course and a weekly time. The pricing page explains holidays and missed lessons.
@@ -224,11 +224,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do Redlands classes cost?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Which train stations are in Redland City?
 

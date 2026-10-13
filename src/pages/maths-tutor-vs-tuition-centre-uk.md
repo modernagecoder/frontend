@@ -34,7 +34,7 @@ Published prices, read in October 2026 and converted to US dollars so this page 
 | Explore Learning, GCSE maths one-to-one | from about $225 a month for one session a week, or about $357 for two | Explore Learning, same page |
 | Private maths tutor, online, national average | about $47 an hour | Tutorful, "How Much Does a Maths Tutor Cost in the UK in 2026?" (updated 24 September 2026) |
 | Private maths tutor, face to face, national average | about $55 an hour | Tutorful, same guide |
-| Modern Age Coders, live online classes | $100 a month in a group of 5 to 10, or $150 a month one-to-one, eight one-hour lessons | Our own price, no enrolment fee |
+| Modern Age Coders, live online classes | $100 a month in a group of 15 to 20, or $150 a month one-to-one, eight one-hour lessons | Our own price, no enrolment fee |
 
 Conversion: UK figures were converted at 1.3221 US dollars per pound, the Bank of England spot rate for 5 October 2026 (series XUDLUSS), and rounded to the nearest dollar. Kumon's pages say families pay "a monthly fee for each subject studied"; Explore Learning's figures are its "from" prices.
 
@@ -56,7 +56,7 @@ One adult teaches one child, usually by the hour. Quality varies more than anywh
 
 ### A live online class
 
-What we run: a tutor teaching live on a shared whiteboard, in a matched group of 5 to 10 or one-to-one, to the child's level and exam board, with the same tutor each week.
+What we run: a tutor teaching live on a shared whiteboard, in a matched group of 15 to 20 or one-to-one, to the child's level and exam board, with the same tutor each week.
 
 ### Homework load
 
@@ -124,7 +124,7 @@ $150 / month
 $100 / month
 
 - 8 live group lessons a month (2 a week, 1 hour each)
-- 5 to 10 children matched by level
+- 15 to 20 children matched by level
 - Live teaching, not worksheets alone
 - No enrolment fee, stop at any month end
 

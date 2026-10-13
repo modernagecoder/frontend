@@ -4,7 +4,7 @@ description: "Live online coding, Python, vibe coding and AI classes for Wigan, 
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-wigan
 source: src/pages/online-coding-and-python-classes-in-wigan.html
 ---
-> Wigan borough counted 329,330 usual residents in 2021, and the ONS gives 81,580 for the Wigan built-up area and 45,495 for Leigh, with Golborne, Hindley, Tyldesley and Standish among the other towns. The borough has more people in their fifties and seventies than England's average, and fewer in their early twenties. Leigh, Golborne, Hindley and the rest are all in reach: learners from primary age to 67 take coding, Python, vibe coding, AI and maths with us through live video, taught by tutors in India individually or in small classes of five to ten who move at the same pace. Everything starts from sound reasoning, so AI tools extend a learner's skills rather than stand in for them. The opening lesson is free, and monthly fees after it are USD 100 in a group or USD 150 one-to-one.
+> Wigan borough counted 329,330 usual residents in 2021, and the ONS gives 81,580 for the Wigan built-up area and 45,495 for Leigh, with Golborne, Hindley, Tyldesley and Standish among the other towns. The borough has more people in their fifties and seventies than England's average, and fewer in their early twenties. Leigh, Golborne, Hindley and the rest are all in reach: learners from primary age to 67 take coding, Python, vibe coding, AI and maths with us through live video, taught by tutors in India individually or in classes of fifteen to twenty who move at the same pace. Everything starts from sound reasoning, so AI tools extend a learner's skills rather than stand in for them. The opening lesson is free, and monthly fees after it are USD 100 in a group or USD 150 one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Wigan
 
@@ -12,11 +12,11 @@ Wigan, Greater Manchester, England / Live online
 
 # Online coding and Python classes in Wigan
 
-**Which are the best online coding and Python classes in Wigan?** Wigan borough counted 329,330 usual residents in 2021, and the ONS gives 81,580 for the Wigan built-up area and 45,495 for Leigh, with Golborne, Hindley, Tyldesley and Standish among the other towns. The borough has more people in their fifties and seventies than England's average, and fewer in their early twenties. Leigh, Golborne, Hindley and the rest are all in reach: learners from primary age to 67 take coding, Python, vibe coding, AI and maths with us through live video, taught by tutors in India individually or in small classes of five to ten who move at the same pace. Everything starts from sound reasoning, so AI tools extend a learner's skills rather than stand in for them. The opening lesson is free, and monthly fees after it are USD 100 in a group or USD 150 one-to-one.
+**Which are the best online coding and Python classes in Wigan?** Wigan borough counted 329,330 usual residents in 2021, and the ONS gives 81,580 for the Wigan built-up area and 45,495 for Leigh, with Golborne, Hindley, Tyldesley and Standish among the other towns. The borough has more people in their fifties and seventies than England's average, and fewer in their early twenties. Leigh, Golborne, Hindley and the rest are all in reach: learners from primary age to 67 take coding, Python, vibe coding, AI and maths with us through live video, taught by tutors in India individually or in classes of fifteen to twenty who move at the same pace. Everything starts from sound reasoning, so AI tools extend a learner's skills rather than stand in for them. The opening lesson is free, and monthly fees after it are USD 100 in a group or USD 150 one-to-one.
 
 Machine learning models only understand numbers, so every category has to be turned into numbers first. It sounds trivial, and it hides one of the commonest mistakes in AI. The 2021 census sorts Wigan's 154,614 working residents into nine occupation groups, numbered 1 for managers to 9 for elementary occupations. Take those numbers at face value and Wigan's "average occupation" is 4.753, England's 4.387, and it looks like a finding. Number the same groups alphabetically instead and Wigan's average drops below England's. Our Wigan project uses this to teach how AI systems should really see categories, through a technique called one-hot encoding.
 
-Facts last verified 28 September 2026. Teaching is online; no Wigan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 28 September 2026. Teaching is online; no Wigan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## How-to-think, vibe coding and Python courses
 
@@ -139,7 +139,7 @@ Across the borough, a computer and a steady connection are the only kit needed.
 - **Learners drive the code** Every line, prompt and test comes from the student; the tutor watches the shared screen and asks.
 - **The right first topic** The trial shows where a Year 4 or Year 13 should begin, with exam boards noted.
 - **Trial on us** A full lesson, free, with a clear recommendation afterwards.
-- **Five to ten per class** UK learners grouped by level.
+- **Fifteen to twenty per class** UK learners grouped by level.
 - **Two a week** Holidays are left clear.
 - **Same slot all year** The UK clock changes are handled by our tutors.
 

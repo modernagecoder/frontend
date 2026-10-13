@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across Anglesey (Ynys
 canonical: https://learn.modernagecoders.com/coding-classes-in-anglesey
 source: src/pages/coding-classes-in-anglesey.html
 ---
-> The Isle of Anglesey, Ynys Môn, had 68,878 usual residents at the 2021 census. Holyhead is by far its largest built-up area, followed by Llangefni, Amlwch, Menai Bridge and Llanfair Pwllgwyngyll, with Benllech, Valley and Beaumaris among the smaller places. All our teaching is live on video from India, and a free first lesson places each learner, whether in Year 2, Year 11 preparing for WJEC GCSEs, or long after school. People aged 6 to 67 learn coding, Python and maths with a teacher of their own or in a group of five to ten. The Anglesey project starts at Beaumaris Castle. After the free lesson, it is USD 100 a month for a group or USD 150 a month one-to-one.
+> The Isle of Anglesey, Ynys Môn, had 68,878 usual residents at the 2021 census. Holyhead is by far its largest built-up area, followed by Llangefni, Amlwch, Menai Bridge and Llanfair Pwllgwyngyll, with Benllech, Valley and Beaumaris among the smaller places. All our teaching is live on video from India, and a free first lesson places each learner, whether in Year 2, Year 11 preparing for WJEC GCSEs, or long after school. People aged 6 to 67 learn coding, Python and maths with a teacher of their own or in a group of fifteen to twenty. The Anglesey project starts at Beaumaris Castle. After the free lesson, it is USD 100 a month for a group or USD 150 a month one-to-one.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Isle of Anglesey
 
@@ -12,11 +12,11 @@ Anglesey, Ynys Môn / Live online
 
 # Coding classes in Anglesey
 
-**What are the best coding classes in Anglesey?** The Isle of Anglesey, Ynys Môn, had 68,878 usual residents at the 2021 census. Holyhead is by far its largest built-up area, followed by Llangefni, Amlwch, Menai Bridge and Llanfair Pwllgwyngyll, with Benllech, Valley and Beaumaris among the smaller places. All our teaching is live on video from India, and a free first lesson places each learner, whether in Year 2, Year 11 preparing for WJEC GCSEs, or long after school. People aged 6 to 67 learn coding, Python and maths with a teacher of their own or in a group of five to ten. The Anglesey project starts at Beaumaris Castle. After the free lesson, it is USD 100 a month for a group or USD 150 a month one-to-one.
+**What are the best coding classes in Anglesey?** The Isle of Anglesey, Ynys Môn, had 68,878 usual residents at the 2021 census. Holyhead is by far its largest built-up area, followed by Llangefni, Amlwch, Menai Bridge and Llanfair Pwllgwyngyll, with Benllech, Valley and Beaumaris among the smaller places. All our teaching is live on video from India, and a free first lesson places each learner, whether in Year 2, Year 11 preparing for WJEC GCSEs, or long after school. People aged 6 to 67 learn coding, Python and maths with a teacher of their own or in a group of fifteen to twenty. The Anglesey project starts at Beaumaris Castle. After the free lesson, it is USD 100 a month for a group or USD 150 a month one-to-one.
 
 Cadw's record for Beaumaris Castle, listed at Grade I, says it was begun in 1295 as the last of the castles Edward I built in North Wales, and that it was designed on the concentric principle: moat, outer wall, outer ward and inner wall, one inside another. The inner ward is square; the outer wall is nearly square, with shallow facets that make an octagon. It looks like a textbook of symmetry, yet the record also notes the main entrance on the south side and a northern gate placed in the eastern facet, and says the castle was never finished. How symmetrical is it, exactly, and how could a program decide? This page's project answers with the maths of symmetry groups, in Python.
 
-Facts last verified 26 September 2026. Teaching is online; no Isle of Anglesey branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 26 September 2026. Teaching is online; no Isle of Anglesey branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## How Anglesey learners usually begin
 
@@ -134,7 +134,7 @@ Towns and villages across the island join by video in the same way.
 - **Your own screen** The learner types and runs the code while the teacher follows the shared screen.
 - **Set to the Welsh system** We place learners by Welsh school year and the Curriculum for Wales, and use WJEC names for GCSE and A level. Teaching is in English.
 - **Free first lesson** A complete lesson at no cost, then honest advice.
-- **Groups by level** Five to ten learners working at one level, joining from many places.
+- **Groups by level** Fifteen to twenty learners working at one level, joining from many places.
 - **Term time rhythm** Two lessons a week in term, with the school holidays off.
 - **A fixed UK time** Your lesson stays at the same UK time through the clock changes; our teachers in India time adjust.
 
@@ -145,7 +145,7 @@ Towns and villages across the island join by video in the same way.
 Holyhead or Menai Bridge, the fee is the same, matching every country we teach outside India.
 
 - First class: USD 0. A full free lesson, then a clear recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of five to ten.
+- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight lessons a month with a teacher of your own.
 
 Fees are in US dollars and we publish no sterling prices. Billing starts only after the free lesson has fixed a course and weekly time; the pricing page covers holidays, missed lessons and changing formats.

@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Woking',
   capsuleQ: 'Where can Woking learners find the best coding and AI classes?',
-  capsule: 'Woking borough counted 103,944 residents in the 2021 census, and the Woking built-up area 75,660. It leans towards families: children aged 5 to 14 and adults aged 35 to 49 each form a larger share than across England. Our teachers work from India and run live online lessons in coding, AI, Python and maths for anyone aged 6 to 67, either alone with a tutor or in a class of five to ten at one stage. A free first lesson settles the right course. The Woking project fact-checks a famous novel set on Horsell Common. If the learner continues, a group place is USD 100 per month and private tuition USD 150 per month.',
+  capsule: 'Woking borough counted 103,944 residents in the 2021 census, and the Woking built-up area 75,660. It leans towards families: children aged 5 to 14 and adults aged 35 to 49 each form a larger share than across England. Our teachers work from India and run live online lessons in coding, AI, Python and maths for anyone aged 6 to 67, either alone with a tutor or in a class of fifteen to twenty at one stage. A free first lesson settles the right course. The Woking project fact-checks a famous novel set on Horsell Common. If the learner continues, a group place is USD 100 per month and private tuition USD 150 per month.',
   lead: 'The War of the Worlds by H. G. Wells begins with Martians landing on Horsell Common, "between Horsell, Ottershaw, and Woking", and its narrator walks home to Maybury. Before any of that, Wells gives the reader some numbers. Mars, he writes, orbits at a mean distance of 140,000,000 miles, gets "barely half" the sunlight Earth does, and is "scarcely one seventh of the volume of the earth". A novelist in the 1890s had no calculator and no space probes. Were his figures right? A Woking learner can check them with a few lines of Python and data from NASA\'s Jet Propulsion Laboratory, and along the way meet the two scaling laws that trip up almost everyone.',
   wa: 'Hello Modern Age Coders, I would like to book a free coding or AI lesson for a Woking learner.',
 
@@ -160,7 +160,7 @@ module.exports = {
       { h3: 'Hands on the keyboard', p: 'The learner types every line; the tutor watches the shared screen and nudges with questions.' },
       { h3: 'Right stage, right year', p: 'A Year 4 and a Year 12 start where their school year and trial suggest, with the exam board named.' },
       { h3: 'Free opening lesson', p: 'Nothing to pay for the trial, and a straight answer about what fits.' },
-      { h3: 'Level-matched groups', p: 'Classes of five to ten people at the same point, drawn from across the UK.' },
+      { h3: 'Level-matched groups', p: 'Classes of fifteen to twenty people at the same point, drawn from across the UK.' },
       { h3: 'Twice a week', p: 'Two sessions weekly during term time, none in the holidays.' },
       { h3: 'Your clock, fixed', p: 'When the UK clocks change, our teachers move and your slot stays put.' }
     ],

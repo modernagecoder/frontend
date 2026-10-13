@@ -16,7 +16,7 @@ Roermond, Limburg / Live online
 
 Programmers search text with patterns, and the most common way to write them is the regular expression, a compact notation that every serious programming language understands. A pattern can say: find Herten, but only as a whole word, only with a capital H, only after in, naar or uit. Each extra rule removes some wrong matches and, very often, some right ones too. Engineers measure the result in two ways. Precision asks how much of what the search found was right. Recall asks how much of what it should have found it actually found. A loose pattern has high recall and poor precision; a strict one the reverse; and no pattern can read the sentence and know whether the writer meant a village or a herd of deer. That limit matters far beyond Roermond. It decides whether a spam filter blocks real mail, whether a school system flags the right pupils and whether a search through thousands of documents misses the one that counts, and AI assistants now write such patterns in seconds, confidently, often with exactly these gaps.
 
-Facts last verified 11 September 2026. Teaching is online; no Roermond branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 September 2026. Teaching is online; no Roermond branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for the town on the Roer and the Maas
 
@@ -192,7 +192,7 @@ From Swalmen in the north to Herten in the south, the municipality stretches alo
 - **From the kitchen table** A learner in Boukoul and a learner in the centre of Roermond join the same class from home, and nobody crosses a bridge to get there.
 - **Dutch school terms kept** Groep 8, brugklas, vmbo, havo, vwo and the profiel stay in Dutch, as Roermond families say them, while all teaching is in English.
 - **The first lesson costs nothing** It is a proper lesson on a proper task. Afterwards the teacher suggests a level, a course and a regular hour, and asks for no card or bank details.
-- **Groups across borders** Five to ten learners at one level. Roermond has 8,509 residents under fifteen, too few to fill every stage at every hour, so groups include learners from elsewhere in the Netherlands and abroad.
+- **Groups across borders** Fifteen to twenty learners at one level. Roermond has 8,509 residents under fifteen, too few to fill every stage at every hour, so groups include learners from elsewhere in the Netherlands and abroad.
 - **Regio Zuid holidays** Two lessons a week, around eight a month, at a fixed time, with breaks for the regio Zuid school holidays that Limburg follows.
 - **Teaching from India** The teachers are three and a half hours ahead of Roermond in summer and four and a half in winter, so late afternoons, evenings and weekend mornings all suit.
 
@@ -203,7 +203,7 @@ From Swalmen in the north to Herten in the south, the municipality stretches alo
 Every price, in one place.
 
 - First class: USD 0. A real lesson on a real task, ending with a level and a course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, five to ten learners at one level.
+- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Per month, normally eight lessons, one learner and one teacher.
 
 The fee is set in US dollars and is the same in every country, with no separate euro price, so a family in Swalmen pays what a family in Maasniel pays. Nothing is due until the free lesson has fixed a course and an hour, and payment is then arranged on WhatsApp. Pausing, changing format and missed lessons are all explained on the pricing page.
@@ -244,7 +244,7 @@ No, and none is claimed here or anywhere in the Netherlands. All teaching is liv
 
 ### What do Roermond coding classes cost?
 
-The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of five to ten learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
+The first lesson is free. After it, group tuition is USD 100 a month for two live lessons a week, normally eight across the month, in a group of fifteen to twenty learners. One-to-one tuition is USD 150 a month at the same frequency with a single teacher. Course, format, recurring hour and availability are all confirmed before anything is paid.
 
 ### How many learners are in a group?
 

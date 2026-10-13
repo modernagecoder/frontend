@@ -207,7 +207,7 @@ We teach from India, during hours that overlap Australian afternoons and evening
 - **Weekend** Longer build and evaluation sessions.
 
 - **Free first class** A tiny agent on a stub model, built together.
-- **Small groups** Five to ten students comparing agent logs.
+- **Small groups** Fifteen to twenty students comparing agent logs.
 - **One to one** For a specific idea or a faster pace.
 - **No account to start** Stub models first, for every age.
 - **Age rules kept** No provider used below its minimum age.
@@ -218,7 +218,7 @@ We teach from India, during hours that overlap Australian afternoons and evening
 Students in Australia are billed monthly in US dollars, with no fee to enrol and no lock-in: classes end whenever a month ends, if you choose.
 
 - Free first class: USD 0. A tiny agent built together. Advice on the right level. No card details.
-- Group batch: USD 100 a month. Five to ten students per group. Shared agent logs and reviews. A regular teacher. No lock-in.
+- Group batch: USD 100 a month. Fifteen to twenty students per group. Shared agent logs and reviews. A regular teacher. No lock-in.
 - One to one: USD 150 a month. Built around one student's idea. Flexible depth. Times around study.
 
 ## Questions about AI agents courses for students in Australia

@@ -226,7 +226,7 @@ module.exports = {
     cells: [
       { h3: 'Draw the story', p: 'Every task is sketched before it is solved.' },
       { h3: 'Name the idea', p: 'Students say which computing concept the puzzle hides.' },
-      { h3: 'Groups of five to ten', p: 'Matched by stage rather than only by year.' },
+      { h3: 'Groups of fifteen to twenty', p: 'Matched by stage rather than only by year.' },
       { h3: 'One-to-one option', p: 'For students aiming at the harder divisions.' },
       { h3: 'Notes for parents', p: 'One idea learned and one puzzle to try at home.' },
       { h3: 'No award promises', p: 'We teach thinking; the result is the student\'s.' }
@@ -241,7 +241,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'Australian families pay monthly in US dollars, the same rate we use in every country outside India, with no deposit and the freedom to stop at any month end. Bebras entry is arranged and paid through schools, separately.',
     free: ['A real lesson with a teacher', 'A view of your child\'s problem-solving level', 'No card needed'],
-    group: ['Five to ten students at one stage', 'The same teacher every week', 'Puzzles discussed in depth', 'A certificate at the end'],
+    group: ['Fifteen to twenty students at one stage', 'The same teacher every week', 'Puzzles discussed in depth', 'A certificate at the end'],
     one: ['A teacher for one student', 'Aimed at a chosen division', 'A weekly time that suits you']
   },
 

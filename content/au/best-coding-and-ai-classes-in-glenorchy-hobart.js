@@ -302,7 +302,7 @@ module.exports = {
     h2: 'Glenorchy class fees',
     intro: 'Three simple prices.',
     first: 'The opening lesson is free and finishes with written advice.',
-    group: 'Roughly eight group lessons a month, five to ten learners.',
+    group: 'Roughly eight group lessons a month, fifteen to twenty learners.',
     private: 'Roughly eight private lessons a month with one tutor.',
     closer: 'Billing is in US dollars and begins after the trial, when a course and weekly slot are agreed. Holidays and missed classes are covered on the pricing page.'
   },
@@ -341,12 +341,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Glenorchy learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       {

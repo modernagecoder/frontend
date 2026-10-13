@@ -158,7 +158,7 @@ module.exports = {
     intro: 'The essentials, briefly.',
     cells: [
       { h3: 'Live instruction', p: 'A teacher is present for every minute, watching and guiding each learner\'s code as it is written.' },
-      { h3: 'Level-matched', p: 'Groups of five to ten at one level, from Douglas, other Irish towns and further afield.' },
+      { h3: 'Level-matched', p: 'Groups of fifteen to twenty at one level, from Douglas, other Irish towns and further afield.' },
       { h3: 'Two set days', p: 'Roughly eight a month, fixed to two weekly times chosen together at the start.' },
       { h3: 'Holiday-aware', p: 'The course plan includes school holidays, mid-terms and exam weeks from the outset.' },
       { h3: 'Kit at home', p: 'A computer with a keyboard, a microphone and speakers or headphones, and broadband good enough for video.' },
@@ -171,7 +171,7 @@ module.exports = {
     h2: 'Lesson fees in Douglas',
     intro: 'Clear and complete.',
     first: 'A first lesson and level check, without charge.',
-    group: 'A month in a group of five to ten at one level, about eight live lessons.',
+    group: 'A month in a group of fifteen to twenty at one level, about eight live lessons.',
     private: 'A month of one-to-one lessons at the same weekly pace.',
     closer: 'Families outside India pay one monthly fee in US dollars, the same everywhere. The free lesson brings no obligation, billing starts with the course itself, and the pricing page explains holidays, missed lessons and a change between group and private teaching.'
   },
@@ -195,8 +195,8 @@ module.exports = {
       { q: 'When are lessons?', a: 'On weekdays, from when school finishes into the evening; at weekends, during the day. Lessons are timetabled in Irish time, and because our teachers work from India, five and a half hours ahead in winter and four and a half in summer, only slots that suit both are offered.' },
       { q: 'Can adults sign up?', a: 'Yes, at any level, up to sixty-seven. Once the first lesson is done, an adult can pick a small group at their level or teaching on their own.' },
       { q: 'Will my child be with other Douglas children?', a: 'Maybe, but not by design. Groups follow level alone, which means classmates might live anywhere from Cork to another continent.' },
-      { q: 'What do coding classes in Douglas cost?', a: 'The first lesson is free. A group place is then USD 100 a month for about eight live lessons, two a week, with five to ten learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.', boiler: true },
-      { q: 'How many are in a group?', a: 'Five to ten learners, grouped by level, pace and goals rather than age or address. When no group fits a workable time, lessons are one to one.', boiler: true }
+      { q: 'What do coding classes in Douglas cost?', a: 'The first lesson is free. A group place is then USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.', boiler: true },
+      { q: 'How many are in a group?', a: 'Fifteen to twenty learners, grouped by level, pace and goals rather than age or address. When no group fits a workable time, lessons are one to one.', boiler: true }
     ]
   },
 

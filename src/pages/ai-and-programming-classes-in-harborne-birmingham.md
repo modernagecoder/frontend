@@ -4,7 +4,7 @@ description: "Live online AI, programming, Python and vibe coding lessons for Ha
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-harborne-birmingham
 source: src/pages/ai-and-programming-classes-in-harborne-birmingham.html
 ---
-> The 2021 census recorded 23,002 usual residents in Birmingham's Harborne ward. Postcodes.io records Harborne in the B17 postcode district, with Edgbaston in B15 and Weoley Castle in B29. From age six right up to 67, AI, programming, Python, vibe coding and maths are taught here on video calls by tutors working in India, to a single learner or to a class of five to ten at matching level. We teach the reasoning behind a method before the tool that runs it, so learners can tell what a model has actually found. The opening lesson is free and ends with a recommended course. The Harborne project hands a mixture model the floor areas of 4,422 mapped buildings and asks it to discover the groups hidden inside them, with a result nobody predicted. Tuition after that runs to USD 100 each month in a class, or USD 150 each month for a tutor of your own.
+> The 2021 census recorded 23,002 usual residents in Birmingham's Harborne ward. Postcodes.io records Harborne in the B17 postcode district, with Edgbaston in B15 and Weoley Castle in B29. From age six right up to 67, AI, programming, Python, vibe coding and maths are taught here on video calls by tutors working in India, to a single learner or to a class of fifteen to twenty at matching level. We teach the reasoning behind a method before the tool that runs it, so learners can tell what a model has actually found. The opening lesson is free and ends with a recommended course. The Harborne project hands a mixture model the floor areas of 4,422 mapped buildings and asks it to discover the groups hidden inside them, with a result nobody predicted. Tuition after that runs to USD 100 each month in a class, or USD 150 each month for a tutor of your own.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Harborne
 
@@ -12,11 +12,11 @@ Harborne, Birmingham, England / Live online
 
 # AI and programming classes in Harborne, Birmingham
 
-**Which are the best AI and programming classes in Harborne?** The 2021 census recorded 23,002 usual residents in Birmingham's Harborne ward. Postcodes.io records Harborne in the B17 postcode district, with Edgbaston in B15 and Weoley Castle in B29. From age six right up to 67, AI, programming, Python, vibe coding and maths are taught here on video calls by tutors working in India, to a single learner or to a class of five to ten at matching level. We teach the reasoning behind a method before the tool that runs it, so learners can tell what a model has actually found. The opening lesson is free and ends with a recommended course. The Harborne project hands a mixture model the floor areas of 4,422 mapped buildings and asks it to discover the groups hidden inside them, with a result nobody predicted. Tuition after that runs to USD 100 each month in a class, or USD 150 each month for a tutor of your own.
+**Which are the best AI and programming classes in Harborne?** The 2021 census recorded 23,002 usual residents in Birmingham's Harborne ward. Postcodes.io records Harborne in the B17 postcode district, with Edgbaston in B15 and Weoley Castle in B29. From age six right up to 67, AI, programming, Python, vibe coding and maths are taught here on video calls by tutors working in India, to a single learner or to a class of fifteen to twenty at matching level. We teach the reasoning behind a method before the tool that runs it, so learners can tell what a model has actually found. The opening lesson is free and ends with a recommended course. The Harborne project hands a mixture model the floor areas of 4,422 mapped buildings and asks it to discover the groups hidden inside them, with a result nobody predicted. Tuition after that runs to USD 100 each month in a class, or USD 150 each month for a tutor of your own.
 
 Measure the floor area of every building in a neighbourhood and you get one long, lumpy list. You might guess it is really several lists mixed together: houses, garages, shops, big blocks. A Gaussian mixture model turns that guess into a calculation. It assumes the data is a blend of a few bell curves and works out where each curve sits, how wide it is and how much of the data belongs to it. The fitting method, called expectation-maximisation, alternates between two steps: guess which curve each building belongs to, then move the curves to fit their buildings better. This project runs it on Harborne's buildings as drawn on OpenStreetMap.
 
-Facts last verified 30 September 2026. Teaching is online; no Harborne branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Harborne branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Harborne courses in reasoning, Python and AI
 
@@ -132,7 +132,7 @@ A computer with a camera and a connection fit for video calls covers everything.
 - **Hands stay on the keyboard** Pupils produce every line themselves. Our tutor sees it live and keeps asking what the numbers mean.
 - **Pitched from lesson one** The free trial reveals the level, and exam boards are noted if one applies.
 - **Free to try** The first lesson carries no fee and finishes with a course suggestion.
-- **Level-matched classes** Groups of five to ten from across the UK, all at one stage.
+- **Level-matched classes** Groups of fifteen to twenty from across the UK, all at one stage.
 - **Two sessions weekly** None during school holidays.
 - **Fixed time** We absorb the UK clock changes so your slot holds.
 

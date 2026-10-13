@@ -83,7 +83,7 @@ module.exports = {
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'There is a line running through everything people call AI work, and it falls between using a system and building one. The UK government\'s introduction to AI assurance names six techniques for checking an AI system: risk assessment, algorithmic impact assessment, bias audit, compliance audit, conformity assessment and formal verification. All six assume a system with inputs you selected and outputs you can measure against a benchmark, which is exactly what a person who only prompts does not have. Learning to train models puts a learner on the side of the line where work can be inspected, measured and defended. We teach it with real data and small models, to learners from about twelve upwards and to adults, in groups of five to ten at one level or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.',
+  capsule: 'There is a line running through everything people call AI work, and it falls between using a system and building one. The UK government\'s introduction to AI assurance names six techniques for checking an AI system: risk assessment, algorithmic impact assessment, bias audit, compliance audit, conformity assessment and formal verification. All six assume a system with inputs you selected and outputs you can measure against a benchmark, which is exactly what a person who only prompts does not have. Learning to train models puts a learner on the side of the line where work can be inspected, measured and defended. We teach it with real data and small models, to learners from about twelve upwards and to adults, in groups of fifteen to twenty at one level or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.',
 
   picks: {
     eyebrow: 'Start here',
@@ -234,7 +234,7 @@ module.exports = {
       { h3: 'A held-out set every time', p: 'Judged only on examples it has never seen. Without this, a memorised model is indistinguishable from a good one.' },
       { h3: 'Deliberate failure', p: 'Every project ends with the learner hunting for the input that defeats their own model.' },
       { h3: 'Written limits', p: 'Each finished model comes with a short note on what it cannot do, which is the habit the assurance guidance is built on.' },
-      { h3: 'Groups by level', p: 'Five to ten learners at one stage, comparing results and arguing about whose benchmark was fairer.' }
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at one stage, comparing results and arguing about whose benchmark was fairer.' }
     ]
   },
 
@@ -246,7 +246,7 @@ module.exports = {
     h2: 'What it costs',
     lede: 'One charge a month, set in US dollars for every country but India. Try the free lesson first; billing begins only when a course and a weekly time are fixed.',
     free: ['A genuine lesson, not a sales call', 'A straight view of the right rung', 'Only a phone number needed'],
-    group: ['Five to ten learners at one rung', 'The same teacher for the course', 'Weekly written feedback on real work', 'A certificate at the end of a syllabus'],
+    group: ['Fifteen to twenty learners at one rung', 'The same teacher for the course', 'Weekly written feedback on real work', 'A certificate at the end of a syllabus'],
     one: ['One learner and one teacher', 'Built around a specific target or dataset', 'Suits adults bringing work from their own job']
   },
 

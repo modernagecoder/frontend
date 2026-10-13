@@ -16,7 +16,7 @@ Charlestown, City of Lake Macquarie, New South Wales / Live online
 
 The state road file for Charlestown leaves the lane count blank on 49 segments. The usual move is to fill the blanks with the most common value and carry on. In this file that throws away the most useful clue in it: every one of Charlestown's 34 roundabout segments is among the blanks.
 
-Facts last verified 14 October 2026. Teaching is online; no Charlestown branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 14 October 2026. Teaching is online; no Charlestown branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses that take data seriously
 
@@ -183,7 +183,7 @@ Live video lessons, so nobody has to leave home.
 - **Count first** Learners tally blanks and odd values before any model is trained.
 - **Term time** Classes follow the NSW school calendar with breaks in the holidays.
 - **No-cost trial** A complete first lesson free, then a written suggestion for what comes next.
-- **Matched by level** Groups of five to ten learners at a similar stage, or private teaching.
+- **Matched by level** Groups of fifteen to twenty learners at a similar stage, or private teaching.
 - **Fixed weekly slots** Two lessons a week, so about eight a month.
 - **Teaching from India** A 5pm Charlestown class is 11:30am India time during daylight saving and 12:30pm in winter.
 
@@ -194,7 +194,7 @@ Live video lessons, so nobody has to leave home.
 A single price list for all learners.
 
 - First class: USD 0. No charge for the first lesson, and written advice afterwards.
-- Group tuition: USD 100 a month. About eight group lessons monthly, with five to ten in each group.
+- Group tuition: USD 100 a month. About eight group lessons monthly, with fifteen to twenty in each group.
 - Private tuition: USD 150 a month. About eight one-to-one lessons monthly.
 
 Charlestown families pay in US dollars once the trial has settled the course and times. The pricing page sets out how holidays and missed lessons work.
@@ -231,11 +231,11 @@ No. Lessons are live online only, we have no Australian office, and our listed p
 
 ### What do lessons cost for Charlestown learners?
 
-The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
 
 ### Who is in each group?
 
-Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
 
 ### Can Charlestown groups study Copilot Studio?
 

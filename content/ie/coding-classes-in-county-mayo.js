@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in County Mayo',
   capsuleQ: 'What are the best coding classes in County Mayo?',
-  capsule: 'Mayo is home to 137,970 people, 26,362 of them aged 15 or under, across three towns of size and a long Atlantic coast: Castlebar at 13,054, Ballina at 10,556 and Westport at 6,872. It has a Gaeltacht, an average age of 41.6 years and one of the oldest towns in the country. Our teaching is live and weekly, in ability groups of five to ten or one to one, open from age six to sixty-seven. Nothing is charged for the first lesson. A group place afterwards is USD 100 a month, one to one is USD 150.',
+  capsule: 'Mayo is home to 137,970 people, 26,362 of them aged 15 or under, across three towns of size and a long Atlantic coast: Castlebar at 13,054, Ballina at 10,556 and Westport at 6,872. It has a Gaeltacht, an average age of 41.6 years and one of the oldest towns in the country. Our teaching is live and weekly, in ability groups of fifteen to twenty or one to one, open from age six to sixty-seven. Nothing is charged for the first lesson. A group place afterwards is USD 100 a month, one to one is USD 150.',
   lead: 'Here are two sentences about the Mayo Gaeltacht, both taken from the same official page. The population living there grew by 129 people. The number of people there who can speak Irish fell by three per cent. A reader who expects one of them to be wrong will waste a long time looking. They are both right, and they are not even in tension once you see what each is counting. This is the single most reliable way to be misled by a true statistic, and Mayo gives us four clean examples of it in one census. Once a learner can take any headline apart into its top half and its bottom half, a whole category of confident nonsense simply stops working on them.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in County Mayo.',
 
@@ -178,7 +178,7 @@ module.exports = {
     cells: [
       { h3: 'A live teacher, weekly', p: 'One hour with a person who asks questions and waits for the answer, not a video to watch alone.' },
       { h3: 'No journey at either end', p: 'Belmullet to Castlebar is over an hour each way. The class that requires none of that is the one still running at Easter.' },
-      { h3: 'Ability groups of five to ten', p: 'Learners placed at one level, drawn from Mayo and several countries, so the group is a genuine match rather than whoever turned up.' },
+      { h3: 'Ability groups of fifteen to twenty', p: 'Learners placed at one level, drawn from Mayo and several countries, so the group is a genuine match rather than whoever turned up.' },
       { h3: 'What a household needs', p: 'A laptop or desktop, working sound and a connection good enough for video, which the free lesson tests directly.' },
       { h3: 'Irish school year', p: 'Junior Cycle, Transition Year and senior cycle, with mid-terms and exam weeks built into the plan.' },
       { h3: 'When we teach', p: 'Afternoons, evenings and weekend mornings. Our teaching team sits several hours ahead of Irish time, which is what keeps those hours staffed.' }
@@ -190,7 +190,7 @@ module.exports = {
     h2: 'Fees in Mayo',
     intro: 'Three figures, with the conditions written down rather than implied.',
     first: 'A complete first lesson at no charge, which also proves the connection.',
-    group: 'A month of group classes, around eight lessons, five to ten learners at one level.',
+    group: 'A month of group classes, around eight lessons, fifteen to twenty learners at one level.',
     private: 'A month of one to one teaching on the same weekly pattern.',
     closer: 'We charge monthly in US dollars, the one rate used outside India, so Belmullet pays what Castlebar pays and there is no second price list. Nothing is taken until a course and a weekly hour are agreed. The pricing page covers pauses, missed lessons and moving between group and one to one.'
   },
@@ -215,7 +215,7 @@ module.exports = {
       { q: 'Is broadband good enough in Mayo?', a: 'The census gives a county answer: in April 2022, 38,640 of Mayo\'s 51,996 households had broadband and 6,965 had no internet. Your own line is what matters, and the free lesson tests it directly.' },
       { q: 'When do classes run?', a: 'Afternoons, evenings and weekend mornings, at an hour fixed during the free lesson. Our teaching team works several hours ahead of Irish time.' },
       { q: 'Is there a Modern Age Coders classroom in County Mayo?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do County Mayo coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do County Mayo coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

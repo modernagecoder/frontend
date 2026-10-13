@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Islington: Cl
 canonical: https://learn.modernagecoders.com/coding-classes-in-islington-london
 source: src/pages/coding-classes-in-islington-london.html
 ---
-> Islington is the north London borough of Clerkenwell, Angel, Highbury, Holloway, Archway, Canonbury, Barnsbury and Finsbury Park, with 216,589 residents at the 2021 Census and twelve Grade I entries, among them the Charterhouse, Wesley's Chapel and Union Chapel with its unaltered Henry Willis organ. The coding classes worth your time connect maths to things learners can hear and touch, and this page does that with music: logarithms turn frequencies into cents, and a short program shows exactly how far the piano's equal tuning bends the notes nature provides. Lessons are live on video, taught from India, for learners aged 6 to 67, one to one or in groups of five to ten at one level. We do not charge for the first lesson. After it, a group place is USD 100 a month and one-to-one teaching USD 150 a month.
+> Islington is the north London borough of Clerkenwell, Angel, Highbury, Holloway, Archway, Canonbury, Barnsbury and Finsbury Park, with 216,589 residents at the 2021 Census and twelve Grade I entries, among them the Charterhouse, Wesley's Chapel and Union Chapel with its unaltered Henry Willis organ. The coding classes worth your time connect maths to things learners can hear and touch, and this page does that with music: logarithms turn frequencies into cents, and a short program shows exactly how far the piano's equal tuning bends the notes nature provides. Lessons are live on video, taught from India, for learners aged 6 to 67, one to one or in groups of fifteen to twenty at one level. We do not charge for the first lesson. After it, a group place is USD 100 a month and one-to-one teaching USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Islington
 
@@ -12,11 +12,11 @@ London Borough of Islington / Live online
 
 # Coding classes in Islington
 
-**What are the best coding classes in Islington?** Islington is the north London borough of Clerkenwell, Angel, Highbury, Holloway, Archway, Canonbury, Barnsbury and Finsbury Park, with 216,589 residents at the 2021 Census and twelve Grade I entries, among them the Charterhouse, Wesley's Chapel and Union Chapel with its unaltered Henry Willis organ. The coding classes worth your time connect maths to things learners can hear and touch, and this page does that with music: logarithms turn frequencies into cents, and a short program shows exactly how far the piano's equal tuning bends the notes nature provides. Lessons are live on video, taught from India, for learners aged 6 to 67, one to one or in groups of five to ten at one level. We do not charge for the first lesson. After it, a group place is USD 100 a month and one-to-one teaching USD 150 a month.
+**What are the best coding classes in Islington?** Islington is the north London borough of Clerkenwell, Angel, Highbury, Holloway, Archway, Canonbury, Barnsbury and Finsbury Park, with 216,589 residents at the 2021 Census and twelve Grade I entries, among them the Charterhouse, Wesley's Chapel and Union Chapel with its unaltered Henry Willis organ. The coding classes worth your time connect maths to things learners can hear and touch, and this page does that with music: logarithms turn frequencies into cents, and a short program shows exactly how far the piano's equal tuning bends the notes nature provides. Lessons are live on video, taught from India, for learners aged 6 to 67, one to one or in groups of fifteen to twenty at one level. We do not charge for the first lesson. After it, a group place is USD 100 a month and one-to-one teaching USD 150 a month.
 
 Historic England lists Union Chapel on Upper Street at Grade I and singles out its organ: an unaltered Henry Willis instrument, still with its original hydraulic bellows pumps. An organ is a giant physics experiment. Organ builders name each rank of pipes by the length of its longest pipe, so an 8 foot rank sounds the written note, 4 foot an octave higher, and a 2 2/3 foot rank a note that nature, not a keyboard, decided. Our learners use logarithms to measure musical distance in cents, where an equal-tempered semitone is exactly 100. Then they compare nature's harmonics with the piano's equal steps. The fifth is almost perfect, off by 2 cents. The major third is off by nearly 14. The seventh harmonic misses by 31, which is why keyboards leave it out altogether.
 
-Facts last verified 25 September 2026. Teaching is online; no Islington branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 25 September 2026. Teaching is online; no Islington branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four first courses in Islington
 
@@ -145,7 +145,7 @@ A learner at the northern tip of the borough and one in Clerkenwell can share a 
 
 ### In tune together
 
-Groups of five to ten at one stage keep a class in step, so nobody is rushed and nobody is waiting.
+Groups of fifteen to twenty at one stage keep a class in step, so nobody is rushed and nobody is waiting.
 
 **Islington in London** Islington is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers all of them and the City, linking each page as it is published, including [Hackney](/coding-classes-in-hackney-london) to the east and [Haringey](/coding-classes-in-haringey-london) to the north.
 
@@ -175,7 +175,7 @@ In every corner of Islington, class starts the moment the video call opens.
 - **Your own desk** A laptop or desktop, headphones and a broadband connection that can handle an hour of video are all you need.
 - **English stages** We describe progress with the Key Stages used in English schools, from Key Stage 1 to sixth form, naming GCSE and A level where relevant. Teaching is in English.
 - **Free first lesson** A real lesson rather than a sales call, ending with a recommended level and course. We ask for no card details.
-- **Matched classes** Each class holds five to ten learners at one stage, drawn nationally and internationally, which is what lets us offer a sensible evening slot.
+- **Matched classes** Each class holds fifteen to twenty learners at one stage, drawn nationally and internationally, which is what lets us offer a sensible evening slot.
 - **Two evenings a week** The usual rhythm is a pair of evening lessons each week, with breaks for school holidays and exam season arranged with families.
 - **UK times** Teachers are in India; the times we send are always UK times.
 
@@ -186,7 +186,7 @@ In every corner of Islington, class starts the moment the video call opens.
 A free first lesson, then one monthly fee that is the same across the borough.
 
 - First class: USD 0. A complete first lesson with a teacher, free, ending with a recommended level, course and time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a class of five to ten at one stage.
+- Group tuition: USD 100 a month. About eight live lessons a month in a class of fifteen to twenty at one stage.
 - Private tuition: USD 150 a month. About eight live lessons a month, one to one.
 
 Islington families pay in US dollars, like all families outside India, and the site lists no pound prices. We charge nothing before the free lesson or before you choose a course and regular time. Pauses, missed lessons and moves between a class and one-to-one are all set out on the pricing page.
@@ -227,11 +227,11 @@ No. There is no Islington centre and no premises anywhere in the UK, because eve
 
 ### What do coding classes in Islington cost?
 
-The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
+The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.
 
 ### How are the groups made up?
 
-By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
+By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
 ## Around London and the UK
 

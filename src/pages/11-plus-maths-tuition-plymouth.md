@@ -126,7 +126,7 @@ Plymouth City Council names the three grammar schools. We list them only to show
 | Devonport High School for Girls | Quest English and maths papers |
 | Plymouth High School for Girls | Quest English and maths papers |
 
-Lessons are live on video, so a child in Plympton, Plymstock, Saltash or Ivybridge is taught the same way, in groups of five to ten matched by level.
+Lessons are live on video, so a child in Plympton, Plymstock, Saltash or Ivybridge is taught the same way, in groups of fifteen to twenty matched by level.
 
 For coding in the city, see our [Plymouth coding page](/best-coding-class-in-plymouth).
 
@@ -205,7 +205,7 @@ Our teachers work from India and teach live. Plymouth primary pupils get after-s
 
 - **A teacher who knows your child** The same person every week, tracking progress.
 - **Plain-spoken updates** What is secure and what is not, in a few lines.
-- **Classes of five to ten** Matched on level, not postcode.
+- **Classes of fifteen to twenty** Matched on level, not postcode.
 - **Questions we write** No Quest material copied.
 - **Individual lessons** For a gap that needs close work.
 - **Our remit: maths** No English or writing coaching; no admissions advice.
@@ -215,7 +215,7 @@ Our teachers work from India and teach live. Plymouth primary pupils get after-s
 Every family outside India pays one monthly price in US dollars. No sign-up cost; stop whenever you want.
 
 - Free first class: USD 0. A proper lesson. An honest verdict. No card needed.
-- Group batch: USD 100 a month. Five to ten children at one level. A regular teacher. Work reviewed in class. A certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. A regular teacher. Work reviewed in class. A certificate at the end.
 - One to one: USD 150 a month. A teacher for one child. Focused on speed and accuracy. Flexible timing.
 
 ## What Plymouth families ask us
@@ -258,7 +258,7 @@ Devonport High School for Boys, Devonport High School for Girls and Plymouth Hig
 
 ### What do lessons cost?
 
-We do not charge for the trial. Continuing costs USD 100 per month in a group of five to ten, or USD 150 per month taught individually.
+We do not charge for the trial. Continuing costs USD 100 per month in a group of fifteen to twenty, or USD 150 per month taught individually.
 
 ## More for Devon and Cornwall families
 

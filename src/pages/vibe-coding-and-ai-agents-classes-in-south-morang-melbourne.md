@@ -16,7 +16,7 @@ South Morang, City of Whittlesea, Melbourne, Victoria / Live online
 
 Type "Sth Moran" into a journey app and you expect South Morang. Type "Morang" and there is a real question: South Morang, or somewhere else on the line? An AI agent that calls a timetable tool has to turn loose human text into one exact station ID first. Getting that step right, including knowing when to ask rather than guess, decides whether everything after it is right.
 
-Facts last verified 11 October 2026. Teaching is online; no South Morang branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 11 October 2026. Teaching is online; no South Morang branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Courses for agents that check before they act
 
@@ -176,7 +176,7 @@ Each class is a live video lesson, joined from home.
 - **Code on screen** The learner writes the code and shares the screen; the teacher reads along and asks why each line is there.
 - **Victorian calendar** Courses run with the state school terms and break for holidays.
 - **Free trial lesson** The first lesson is free and complete, and ends with a suggested course and weekly time.
-- **Matched groups** Five to ten learners at a similar level make up each group.
+- **Matched groups** Fifteen to twenty learners at a similar level make up each group.
 - **Two sessions weekly** Two lessons a week on fixed days, about eight a month, with holidays planned in.
 - **Teachers in India** Our teachers are in India: a 5:15pm South Morang lesson in daylight saving is 11:45am India time, and 12:45pm during the Melbourne winter.
 
@@ -187,7 +187,7 @@ Each class is a live video lesson, joined from home.
 Free to try, then a monthly fee.
 
 - First class: USD 0. A free first lesson that finishes with a clear recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, usually eight, with five to ten learners at the same stage.
+- Group tuition: USD 100 a month. A month of group lessons, usually eight, with fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. Around eight one-to-one lessons each month with one teacher.
 
 We charge families outside India in US dollars, so South Morang pays the same rate as other families abroad. Payment waits until the trial has settled course and time; the pricing page covers holidays, missed lessons and format changes.
@@ -224,7 +224,7 @@ No. All lessons are live online; there are no Modern Age Coders premises in Aust
 
 ### What do classes cost for South Morang learners?
 
-The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one classes cost USD 150 a month. You confirm course, format and time before paying.
+The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. You confirm course, format and time before paying.
 
 ### How many learners are in a class?
 

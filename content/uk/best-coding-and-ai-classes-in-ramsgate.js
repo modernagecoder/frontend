@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Ramsgate',
   capsuleQ: 'What are the best coding and AI classes for Ramsgate?',
-  capsule: 'According to the ONS, 42,030 people lived in the Ramsgate built-up area at the 2021 census, and 140,587 in the Thanet district. Newington, Pegwell, Nethercourt, Northwood, Haine and Chilton are the gazetteer suburbs we could place inside the built-up area by their nearest postcode. Modern Age Coders teaches coding, AI, Python, vibe coding and maths in Ramsgate through live online lessons for ages six to 67; the tutors are in India and teach privately or in groups of five to ten learners at one level. Learners begin with a free lesson, and we recommend a course only afterwards. In the Ramsgate project a small neural network learns the height of the land from its position, and the learner discovers that the numbers it starts from decide whether it learns anything at all. After the trial, lessons cost USD 100 a month in a group or USD 150 a month privately.',
+  capsule: 'According to the ONS, 42,030 people lived in the Ramsgate built-up area at the 2021 census, and 140,587 in the Thanet district. Newington, Pegwell, Nethercourt, Northwood, Haine and Chilton are the gazetteer suburbs we could place inside the built-up area by their nearest postcode. Modern Age Coders teaches coding, AI, Python, vibe coding and maths in Ramsgate through live online lessons for ages six to 67; the tutors are in India and teach privately or in groups of fifteen to twenty learners at one level. Learners begin with a free lesson, and we recommend a course only afterwards. In the Ramsgate project a small neural network learns the height of the land from its position, and the learner discovers that the numbers it starts from decide whether it learns anything at all. After the trial, lessons cost USD 100 a month in a group or USD 150 a month privately.',
   lead: 'Before a neural network sees any data, someone has to fill it with numbers. It sounds like a formality. It is not: start every weight at zero and the network cannot learn; start them all the same and its neurons stay identical forever; start them too large and it learns worse than a guess. A map of the heights under Ramsgate gives a network something real to learn, and five ways of starting it give five very different results.',
   wa: 'Hi Modern Age Coders, we are in Ramsgate and would like to try a free coding or AI lesson.',
 
@@ -158,7 +158,7 @@ module.exports = {
       { h3: 'Hands on keyboard', p: 'Learners write and run their own code, with the tutor prompting rather than typing.' },
       { h3: 'Right level first', p: 'We decide where to start from what the free lesson shows.' },
       { h3: 'Nothing to pay upfront', p: 'The trial is free, and no card is requested.' },
-      { h3: 'Small groups', p: 'Five to ten learners at a matching level, from across the UK.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty learners at a matching level, from across the UK.' },
       { h3: 'Weekly routine', p: 'Two lessons a week during term, about eight a month, holidays skipped on request.' },
       { h3: 'Time that stays put', p: 'Our tutors absorb the UK clock changes, not your timetable.' }
     ],

@@ -91,7 +91,7 @@ module.exports = {
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Coding is worth learning on its own terms, and it does not need a transfer claim propping it up. Ofsted\'s research review on computing cites the argument that we should avoid exaggerated claims about problem-solving skills transferring to other domains, and says the subject is a worthwhile pursuit in itself. What the same review does say is that problem-solving skill "derives primarily from the accumulation of a large store of domain-specific knowledge stored in long-term memory". In other words, a learner gets better at solving computing problems by knowing more computing, sequenced properly, not by being trained in a generic skill. That is how we teach: worked examples that fade, labelled steps, and a prediction before every program runs. Groups of five to ten at one level, or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.',
+  capsule: 'Coding is worth learning on its own terms, and it does not need a transfer claim propping it up. Ofsted\'s research review on computing cites the argument that we should avoid exaggerated claims about problem-solving skills transferring to other domains, and says the subject is a worthwhile pursuit in itself. What the same review does say is that problem-solving skill "derives primarily from the accumulation of a large store of domain-specific knowledge stored in long-term memory". In other words, a learner gets better at solving computing problems by knowing more computing, sequenced properly, not by being trained in a generic skill. That is how we teach: worked examples that fade, labelled steps, and a prediction before every program runs. Groups of fifteen to twenty at one level, or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.',
 
   picks: {
     eyebrow: 'Start here',
@@ -258,7 +258,7 @@ module.exports = {
     h2: 'What it costs',
     lede: 'A single monthly figure, priced in US dollars outside India. The free lesson comes first and nothing is charged until a course and a slot are agreed.',
     free: ['A proper lesson, not a sales call', 'A straight answer about the right stage', 'Only a phone number needed'],
-    group: ['Five to ten learners at one stage', 'One teacher for the whole course', 'Written feedback on the learner\'s code each week', 'A certificate at the end of a syllabus'],
+    group: ['Fifteen to twenty learners at one stage', 'One teacher for the whole course', 'Written feedback on the learner\'s code each week', 'A certificate at the end of a syllabus'],
     one: ['A teacher working with one learner', 'Useful when a learner is far from the middle of a group', 'Arranged around exam dates if there are any']
   },
 

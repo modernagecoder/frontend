@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding classes in County Donegal',
   capsuleQ: 'What are the best coding classes in County Donegal?',
-  capsule: 'Donegal is a county of 167,084 people with 34,092 children aged 15 and under, a Gaeltacht of 24,220 people, and in Letterkenny a town with an average age of just 36.5 years. It has two schools on the original national computer science list. We teach live, one fixed hour a week, in ability groups of five to ten or one to one, to anyone aged six to sixty-seven. The first lesson costs nothing. After that it is USD 100 a month for a group place and USD 150 one to one.',
+  capsule: 'Donegal is a county of 167,084 people with 34,092 children aged 15 and under, a Gaeltacht of 24,220 people, and in Letterkenny a town with an average age of just 36.5 years. It has two schools on the original national computer science list. We teach live, one fixed hour a week, in ability groups of fifteen to twenty or one to one, to anyone aged six to sixty-seven. The first lesson costs nothing. After that it is USD 100 a month for a group place and USD 150 one to one.',
   lead: 'Donegal County Council publishes exactly one dataset, and it is the only council file in this whole run of pages that actually downloaded. It is 397 bytes. Five rows, nine columns, and not a single empty cell anywhere in it. By every quick measure it is a clean file. It is also wrong in four separate ways for anyone who uses it without looking, starting with the fact that one of its five rows is called Donegal, which is not the county but a district inside it. Ask that file for Donegal and it will hand you a fifth of Donegal, with no error and no warning. Small, tidy and complete are not the same thing as safe, and that is the most useful sentence on this page.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in County Donegal.',
 
@@ -187,7 +187,7 @@ module.exports = {
     cells: [
       { h3: 'Live, with a teacher present', p: 'One hour a week with a person who asks questions and waits for answers, not a recorded course to work through alone.' },
       { h3: 'No travel in either direction', p: 'Dungloe to Letterkenny is over an hour each way on winter roads. The class that needs no car is the one that is still running in March.' },
-      { h3: 'Ability groups of five to ten', p: 'Learners at one level, gathered from Donegal and several other countries, so a genuine peer group exists at a workable hour.' },
+      { h3: 'Ability groups of fifteen to twenty', p: 'Learners at one level, gathered from Donegal and several other countries, so a genuine peer group exists at a workable hour.' },
       { h3: 'What a household needs', p: 'A laptop or desktop, sound that works and a line steady enough for video. The free lesson is the test.' },
       { h3: 'Irish school stages', p: 'Junior Cycle, Transition Year and senior cycle, with mid-terms and exam weeks planned around.' },
       { h3: 'Our hours', p: 'Afternoons, evenings and weekend mornings, taught by a team working several hours ahead of Irish time.' }
@@ -199,7 +199,7 @@ module.exports = {
     h2: 'Donegal class fees',
     intro: 'Three figures with the terms stated, not implied.',
     first: 'A full opening lesson at no charge, which also settles whether the connection is good enough.',
-    group: 'A month of group classes, around eight lessons, five to ten learners at one level.',
+    group: 'A month of group classes, around eight lessons, fifteen to twenty learners at one level.',
     private: 'A month of one to one teaching on the same weekly pattern.',
     closer: 'Billing is monthly in US dollars at the single rate we use outside India, so Carndonagh pays what Letterkenny pays and there is no euro list to set against it. Nothing is charged until a course and an hour are agreed, and pauses, missed lessons and moving between group and one to one are all written out on the pricing page.'
   },
@@ -224,7 +224,7 @@ module.exports = {
       { q: 'Do you cover Northern Ireland?', a: 'No. Every figure on this page and across this cluster comes from Republic of Ireland sources, and we make no claim about Northern Ireland. We also found no published cross-border commuting figure for Donegal, so we quote none.' },
       { q: 'When do classes run?', a: 'Afternoons, evenings and weekend mornings, at an hour agreed in the free lesson. Our teaching team is several hours ahead of Irish time, which keeps those hours easy to staff.' },
       { q: 'Is there a Modern Age Coders classroom in County Donegal?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
-      { q: 'What do County Donegal coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
+      { q: 'What do County Donegal coding classes cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
       { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },

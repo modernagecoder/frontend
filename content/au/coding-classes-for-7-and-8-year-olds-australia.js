@@ -245,7 +245,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'Your child makes a small animation with a teacher, and you see how they respond.' },
-      { h3: 'Small groups', p: 'Five to ten children of similar age who enjoy showing each other their projects.' },
+      { h3: 'Small groups', p: 'Fifteen to twenty children of similar age who enjoy showing each other their projects.' },
       { h3: 'One to one', p: 'For a child who wants to race ahead or needs a quieter start.' },
       { h3: 'Hands on the mouse', p: 'The child builds every project. Teachers ask questions instead of taking over.' },
       { h3: 'Families can join', p: 'Lessons are live, and a parent is always welcome to watch.' },
@@ -261,7 +261,7 @@ module.exports = {
     h2: 'Fees for ages 7 and 8',
     lede: 'Australian families pay in US dollars, one fixed amount a month. Joining is free and there is no contract for a term or a year.',
     free: ['A small animation made together', 'A suggested first course', 'No card or bank details'],
-    group: ['Five to ten children per group', 'The same teacher each week', 'Friends to share projects with', 'Stop after any month'],
+    group: ['Fifteen to twenty children per group', 'The same teacher each week', 'Friends to share projects with', 'Stop after any month'],
     one: ['A teacher entirely for your child', 'Pace set around them', 'Room for a big project of their own']
   },
 

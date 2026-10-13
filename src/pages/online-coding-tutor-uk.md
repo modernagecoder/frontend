@@ -92,7 +92,7 @@ Lessons happen on a link. A parent can join any lesson at any time without askin
 | Are your teachers DBS checked? | No, and they could not usefully be. They work from India and a UK check cannot see overseas records. We say so rather than use a phrase that sounds like a yes. |
 | Can I sit in on a lesson? | Yes, any lesson, without telling us first. The link is the same one your child uses. |
 | Will the same person teach every week? | Yes. The teacher is named before the first lesson and changes only if you ask or if they leave. |
-| Is one-to-one the default? | No. Small groups of five to ten at one level are the default, and one-to-one is offered where a group would be the wrong room. |
+| Is one-to-one the default? | No. Groups of fifteen to twenty at one level are the default, and one-to-one is offered where a group would be the wrong room. |
 | Can I see what my child has done? | Yes. Finished work is saved where you can open it, and the weekly feedback goes to you as well as to the learner. |
 | What if it is not working? | Stop. There is no minimum term, nothing is taken in advance, and we would rather you left after a month than stayed unhappily for a year. |
 
@@ -158,7 +158,7 @@ Teachers work from India, where clocks do not change, so the UK sits five and a 
 - **Weekend morning** Longer and calmer, and better for finishing a build.
 
 - **Join any lesson** Parents can sit in on any lesson without arranging it. Same link, no notice needed, and never treated as a problem.
-- **Groups by default** Five to ten learners at one level. One-to-one exists where it genuinely suits the learner, not as the standard product.
+- **Groups by default** Fifteen to twenty learners at one level. One-to-one exists where it genuinely suits the learner, not as the standard product.
 - **The same teacher** Named before the first lesson and kept, because most of the value is in somebody knowing the learner.
 - **Work you can open** Finished projects are saved where the family can see them, which is how a parent knows what happened.
 - **Weekly feedback** On the learner's actual code, with reasons, sent to the parent as well as the learner.
@@ -169,7 +169,7 @@ Teachers work from India, where clocks do not change, so the UK sits five and a 
 A monthly figure rather than an hourly one, quoted in US dollars for every country outside India. Nothing is taken before the free lesson.
 
 - Free first class: USD 0. A full lesson with a teacher. An honest view of the right starting point. No card details requested.
-- Group batch: USD 100 a month. Five to ten learners at one level. A named teacher who stays. Weekly feedback on the learner's own code. Stop any month, with one message.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. A named teacher who stays. Weekly feedback on the learner's own code. Stop any month, with one message.
 - One to one: USD 150 a month. One teacher and one learner. Built around an exam date or a specific target. Right for a deadline or a learner well ahead.
 
 ## What UK families ask before booking a tutor
@@ -196,7 +196,7 @@ Yes, any lesson, on the same link, without telling us beforehand. We treat that 
 
 ### Is it one-to-one?
 
-Only if you want it to be. The default is a small group of five to ten learners at the same level, which most children find better than a one-to-one hour.
+Only if you want it to be. The default is a group of fifteen to twenty learners at the same level, which most children find better than a one-to-one hour.
 
 ### Do you charge by the hour?
 

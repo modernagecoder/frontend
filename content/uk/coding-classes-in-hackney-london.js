@@ -50,7 +50,7 @@ module.exports = {
 
   h1: 'Coding classes in Hackney',
   capsuleQ: 'What are the best coding classes in Hackney?',
-  capsule: 'Hackney is the east London borough of Shoreditch, Dalston, Stoke Newington, Clapton, Homerton, Hackney Wick and Stamford Hill, home to 259,146 people at the 2021 Census and to more than 33,000 trees on the public list of trees looked after by councils and other public bodies. A class worth its fee teaches a learner to estimate what they cannot yet see from what they can, and this page does that with Hackney\'s trees: how many species appear as you look at more and more trees, and a famous formula that guesses how many are still unrecorded. Teachers in India teach live over video, for learners aged 6 to 67, either one to one or in small classes of five to ten sharing a level. The first lesson is free. Group places then cost USD 100 a month; private lessons USD 150 a month.',
+  capsule: 'Hackney is the east London borough of Shoreditch, Dalston, Stoke Newington, Clapton, Homerton, Hackney Wick and Stamford Hill, home to 259,146 people at the 2021 Census and to more than 33,000 trees on the public list of trees looked after by councils and other public bodies. A class worth its fee teaches a learner to estimate what they cannot yet see from what they can, and this page does that with Hackney\'s trees: how many species appear as you look at more and more trees, and a famous formula that guesses how many are still unrecorded. Teachers in India teach live over video, for learners aged 6 to 67, either one to one or in classes of fifteen to twenty sharing a level. The first lesson is free. Group places then cost USD 100 a month; private lessons USD 150 a month.',
   lead: 'The Greater London Authority publishes a list of trees maintained by London\'s councils and other public bodies, with the species of each where it is known. Hackney has 33,085 entries. Walk down a Hackney street and you will soon have seen London planes, silver birches and sycamores; keep walking and new species appear more and more rarely. Ecologists call the graph of that slowing discovery a species accumulation curve, and our learners draw it by sampling the list at random. Then they meet Chao1, a short formula that uses only the species seen once or twice to estimate how many were never seen at all. On the full list it suggests about 255 species where 229 are named. On small samples, learners find it guesses far too low.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Hackney.',
 
@@ -141,7 +141,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'Hackney Central', p: 'TfL\'s open data lists the Mildmay line at Hackney Central.' },
           { h3: 'Stamford Hill to Shoreditch', p: 'A learner at the northern tip of the borough and one near Shoreditch can share a class without a single journey.' },
-          { h3: 'No one left unrecorded', p: 'In groups of five to ten at one stage, the teacher knows every learner by name and by progress.' }
+          { h3: 'No one left unrecorded', p: 'In groups of fifteen to twenty at one stage, the teacher knows every learner by name and by progress.' }
         ] },
         { kind: 'spec', title: 'Hackney among London\'s boroughs', p: 'Hackney is one of London\'s 32 boroughs. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> covers every borough and the City, linking each page as it goes live, including <a class="cg-inline-link" href="/coding-classes-in-newham-london">Newham</a> to the east and <a class="cg-inline-link" href="/coding-classes-in-camden-london">Camden</a> to the west.' }
       ]
@@ -189,7 +189,7 @@ module.exports = {
     h2: 'Fees for Hackney families',
     intro: 'Nothing for lesson one; afterwards a single monthly fee that does not vary between Shoreditch and Stamford Hill.',
     first: 'A full first lesson with a teacher, free, ending with a recommended level, course and time.',
-    group: 'About eight live lessons a month in a class of five to ten at one stage.',
+    group: 'About eight live lessons a month in a class of fifteen to twenty at one stage.',
     private: 'About eight live lessons a month, one to one with a teacher.',
     closer: 'Fees for Hackney, like everywhere outside India, are set in US dollars, which is why no pound figures appear anywhere on the site. Money only changes hands once the free lesson is over and a course and a regular slot have been agreed. The pricing page explains pauses, missed lessons and switching between group and private lessons.'
   },
@@ -214,8 +214,8 @@ module.exports = {
       { q: 'When do Hackney learners have lessons?', a: 'Once the free lesson has placed the learner, we name a class at that level with a seat available and its fixed weekly evening, written in UK time; the teacher is in India.' },
       { q: 'What equipment is needed?', a: 'A computer with sound and a reliable connection. The tree project needs Python and one free download from the London Datastore.' },
       { q: 'Is there a Modern Age Coders centre in Hackney?', a: 'No. There is no Hackney centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
-      { q: 'What do coding classes in Hackney cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
-      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
+      { q: 'What do coding classes in Hackney cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
+      { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

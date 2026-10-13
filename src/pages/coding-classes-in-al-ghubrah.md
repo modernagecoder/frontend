@@ -178,7 +178,7 @@ The first live lesson tests fit before payment.
 
 ### Group
 
-Five to eight learners share a compatible level.
+Fifteen to twenty learners share a compatible level.
 
 ### Private
 
@@ -308,7 +308,7 @@ Yes. The taught age range is 6 to 67. Adults can begin with web development, Pyt
 
 ### What do online coding classes in Al Ghubrah cost?
 
-A group of five to eight learners costs USD 100 per month for eight live lessons. Private teaching with one learner and one teacher costs USD 150 for eight lessons. Both formats normally meet twice each week. The first live class is free, and Modern Age Coders adds no enrolment fee, compulsory materials purchase or minimum term.
+A group of fifteen to twenty learners costs USD 100 per month for eight live lessons. Private teaching with one learner and one teacher costs USD 150 for eight lessons. Both formats normally meet twice each week. The first live class is free, and Modern Age Coders adds no enrolment fee, compulsory materials purchase or minimum term.
 
 ### Does the data project use Indian School Al Ghubra results?
 

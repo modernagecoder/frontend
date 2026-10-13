@@ -222,7 +222,7 @@ module.exports = {
     cells: [
       { h3: 'Predict before running', p: 'Children say what a program will do before they run it, which is how a short program gets understood rather than copied.' },
       { h3: 'Sensors explained', p: 'We teach what a sensor reading actually is, so the line that sets a background colour is not magic.' },
-      { h3: 'Five to ten children', p: 'Enough for ideas to cross the room, few enough that every screen gets looked at.' },
+      { h3: 'Fifteen to twenty children', p: 'Enough for ideas to cross the room, few enough that every screen gets looked at.' },
       { h3: 'Our own examples', p: 'Written by us. The organiser publishes its own guides and we do not copy them.' },
       { h3: 'One to one when useful', p: 'For a child far ahead of their year, or one working on Mission Space Lab.' },
       { h3: 'We do not submit', p: 'A mentor submits an Astro Pi entry. We teach the Python and have no role in the challenge.' }
@@ -237,7 +237,7 @@ module.exports = {
     h2: 'Fees',
     lede: 'US dollars, charged monthly, at one rate for every country except India. No sign-up fee and no term to commit to.',
     free: ['A whole lesson, taught not pitched', 'An honest answer about the right level', 'Nothing asked for but a phone number'],
-    group: ['Five to ten children at one level', 'The same teacher every week', 'Code looked at line by line', 'A certificate at the end'],
+    group: ['Fifteen to twenty children at one level', 'The same teacher every week', 'Code looked at line by line', 'A certificate at the end'],
     one: ['A teacher working with one child', 'Shaped around what they are making', 'Useful when a group hour will not fit']
   },
 

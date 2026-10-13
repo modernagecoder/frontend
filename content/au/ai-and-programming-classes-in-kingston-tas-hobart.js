@@ -293,7 +293,7 @@ module.exports = {
     h2: 'Kingston class fees',
     intro: 'Three prices for everyone.',
     first: 'Lesson one is free, with written advice.',
-    group: 'Group lessons: about eight a month, five to ten learners.',
+    group: 'Group lessons: about eight a month, fifteen to twenty learners.',
     private: 'Private lessons: about eight a month with one teacher.',
     closer: 'Kingston families pay in US dollars after the trial, once course and timing are agreed. Holidays and absences are explained on the pricing page.'
   },
@@ -338,12 +338,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Kingston learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Does group study in Kingston include Copilot Studio?', a: 'No. Copilot Studio sessions are private; group learners write their agents in Python.' }

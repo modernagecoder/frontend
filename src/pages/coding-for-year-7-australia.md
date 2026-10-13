@@ -226,7 +226,7 @@ Our teachers are based in India. Every Australian state is ahead of India time, 
 - **Saturday or Sunday** A longer session for project work.
 
 - **A free first class** The teacher checks what your child can already read and write in code.
-- **Small groups** Five to ten students of a similar level, usually all in Years 6 to 8.
+- **Small groups** Fifteen to twenty students of a similar level, usually all in Years 6 to 8.
 - **One to one** Helpful for a student who is anxious about text coding or far ahead of their class.
 - **Their own code** The student types every line. Teachers explain, ask and point at errors.
 - **Parents can watch** Every lesson is live, so you can see exactly how your child is taught.
@@ -237,7 +237,7 @@ Our teachers are based in India. Every Australian state is ahead of India time, 
 Australian families pay one monthly price in US dollars. Nothing is charged to join, and there is no term-long contract.
 
 - Free first class: USD 0. A short Python task with a teacher. A recommended starting course. No card or bank details.
-- Group batch: USD 100 a month. Five to ten students per class. The same teacher each week. Classmates of a similar level. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty students per class. The same teacher each week. Classmates of a similar level. Stop after any month.
 - One to one: USD 150 a month. Lessons shaped around your child. A pace that suits them. Time for one ambitious project.
 
 ## What parents ask about coding in Year 7

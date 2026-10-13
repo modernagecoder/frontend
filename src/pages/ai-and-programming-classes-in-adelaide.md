@@ -16,7 +16,7 @@ Adelaide, South Australia / Live online
 
 Some of the most useful ideas in artificial intelligence are borrowed from nature. Particle swarm optimisation copies a flock of birds: dozens of simple agents wander a problem, remember the good spots they have seen and drift towards the good spots their neighbours report. Our Adelaide project gives the swarm a real puzzle. Using Adelaide Metro's own open data, 7,680 stops served by its trains, trams and buses, where would you put three study hubs so that as many stops as possible lie within 800 metres? The swarm does well. Then learners try a plain greedy rule, and the result is the most important lesson of the course: always compare a clever method with a simple one before trusting it.
 
-Facts last verified 7 October 2026. Teaching is online; no Adelaide branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 7 October 2026. Teaching is online; no Adelaide branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four ways into AI and programming in Adelaide
 
@@ -170,7 +170,7 @@ Greater Adelaide reaches from the coast up into the Hills, and an online class r
 - **From home, anywhere in the city** A learner in Salisbury and one in Mount Barker can share a lesson, each from their own room, with no travel at all.
 - **South Australian year levels** Teachers use the year levels Adelaide schools use and plan around the SA school terms; senior students can link projects to SACE studies. Lessons are in English.
 - **Start with a free lesson** A proper task with a proper teacher, then a recommended level, course and time. We never ask for card details at this stage.
-- **Groups matched by level** Five to ten learners at the same stage, from Adelaide and elsewhere, so most evening times have a group.
+- **Groups matched by level** Fifteen to twenty learners at the same stage, from Adelaide and elsewhere, so most evening times have a group.
 - **Two lessons each week** About eight lessons a month at a fixed time, with holiday and exam breaks planned with the teacher.
 - **Four or five hours to India time** Adelaide is 4 hours ahead of India time in winter and 5 hours ahead during daylight saving, from 4 October 2026 to 4 April 2027.
 
@@ -181,7 +181,7 @@ Greater Adelaide reaches from the coast up into the Hills, and an online class r
 Three figures with no extras.
 
 - First class: USD 0. An entire lesson free of charge, ending with a suggested level, course and lesson time.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, in a group of five to ten learners at the same stage.
+- Group tuition: USD 100 a month. A month of lessons, usually eight, in a group of fifteen to twenty learners at the same stage.
 - Private tuition: USD 150 a month. The same rhythm of about eight lessons a month, with one teacher for one learner.
 
 Families outside India pay in US dollars at one rate, so Port Adelaide and Unley pay the same and there is no Adelaide price list. Billing begins only after the trial, once course and time are settled; the pricing page explains holidays, missed lessons and switching between group and private.
@@ -222,11 +222,11 @@ No, and none is claimed. All teaching is live and online, with no premises anywh
 
 ### What do Adelaide coding classes cost?
 
-The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with five to ten learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
+The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before anything is paid.
 
 ### How big are the groups?
 
-Five to ten learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
+Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
 ## More for Adelaide and Australian learners
 

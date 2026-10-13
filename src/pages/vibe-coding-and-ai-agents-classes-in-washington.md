@@ -4,7 +4,7 @@ description: "Live online vibe coding, AI agents, Python and coding classes for 
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-washington
 source: src/pages/vibe-coding-and-ai-agents-classes-in-washington.html
 ---
-> Washington in Tyne and Wear is an ONS built-up area with 51,320 usual residents at the 2021 census, part of the city of Sunderland, which had 274,172. The gazetteer lists Concord, Oxclose, Biddick, Fatfield, Barmston, Usworth, Sulgrave and Rickleton among its suburban areas. Modern Age Coders runs lessons there in vibe coding, AI agents, Python, general coding and maths for anyone from six to 67. Lessons are live video sessions with tutors in India, either individual or in classes of five to ten pitched at one level. We teach learners to give an agent a stopping rule and to measure what that rule costs. The Washington project has an agent hunt for a meeting point among 179 census area centres, and compares checking every one with stopping at the first that is good enough. The first lesson is free; from there a group class costs USD 100 monthly and individual tuition USD 150 monthly.
+> Washington in Tyne and Wear is an ONS built-up area with 51,320 usual residents at the 2021 census, part of the city of Sunderland, which had 274,172. The gazetteer lists Concord, Oxclose, Biddick, Fatfield, Barmston, Usworth, Sulgrave and Rickleton among its suburban areas. Modern Age Coders runs lessons there in vibe coding, AI agents, Python, general coding and maths for anyone from six to 67. Lessons are live video sessions with tutors in India, either individual or in classes of fifteen to twenty pitched at one level. We teach learners to give an agent a stopping rule and to measure what that rule costs. The Washington project has an agent hunt for a meeting point among 179 census area centres, and compares checking every one with stopping at the first that is good enough. The first lesson is free; from there a group class costs USD 100 monthly and individual tuition USD 150 monthly.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North East England](/coding-and-ai-classes-in-north-east-england) / Washington
 
@@ -12,11 +12,11 @@ Washington, Sunderland, Tyne and Wear / Live online
 
 # Vibe coding and AI agents classes in Washington, Tyne and Wear
 
-**What are the best vibe coding and AI agents classes in Washington, Tyne and Wear?** Washington in Tyne and Wear is an ONS built-up area with 51,320 usual residents at the 2021 census, part of the city of Sunderland, which had 274,172. The gazetteer lists Concord, Oxclose, Biddick, Fatfield, Barmston, Usworth, Sulgrave and Rickleton among its suburban areas. Modern Age Coders runs lessons there in vibe coding, AI agents, Python, general coding and maths for anyone from six to 67. Lessons are live video sessions with tutors in India, either individual or in classes of five to ten pitched at one level. We teach learners to give an agent a stopping rule and to measure what that rule costs. The Washington project has an agent hunt for a meeting point among 179 census area centres, and compares checking every one with stopping at the first that is good enough. The first lesson is free; from there a group class costs USD 100 monthly and individual tuition USD 150 monthly.
+**What are the best vibe coding and AI agents classes in Washington, Tyne and Wear?** Washington in Tyne and Wear is an ONS built-up area with 51,320 usual residents at the 2021 census, part of the city of Sunderland, which had 274,172. The gazetteer lists Concord, Oxclose, Biddick, Fatfield, Barmston, Usworth, Sulgrave and Rickleton among its suburban areas. Modern Age Coders runs lessons there in vibe coding, AI agents, Python, general coding and maths for anyone from six to 67. Lessons are live video sessions with tutors in India, either individual or in classes of fifteen to twenty pitched at one level. We teach learners to give an agent a stopping rule and to measure what that rule costs. The Washington project has an agent hunt for a meeting point among 179 census area centres, and compares checking every one with stopping at the first that is good enough. The first lesson is free; from there a group class costs USD 100 monthly and individual tuition USD 150 monthly.
 
 Herbert Simon, who later won a Nobel prize in economics, argued in the 1950s that real decision makers do not hunt for the perfect option. They set a bar, look until something clears it, and stop. He invented a word for it, satisficing, from satisfy and suffice. An AI agent faces the same choice on every task, because each extra look costs time, tokens or money. Set the bar too low and the answer is poor. Set it too high and the agent never stops. This project puts numbers on both mistakes using a real town.
 
-Facts last verified 30 September 2026. Teaching is online; no Washington branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 30 September 2026. Teaching is online; no Washington branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Vibe coding and agent courses for Washington learners
 
@@ -135,7 +135,7 @@ Learners need a computer, a webcam and a connection that holds a video call. No 
 - **Active from minute one** The learner writes and runs code while sharing their screen; the tutor guides with questions.
 - **We assess in the trial** A course is suggested only after the free lesson has shown what the learner can do.
 - **Nothing to pay upfront** The first lesson is free and we do not ask for a card.
-- **Five to ten in a group** Groups share a level, and their members live all over the UK.
+- **Fifteen to twenty in a group** Groups share a level, and their members live all over the UK.
 - **Two sessions a week** In term time; Sunderland school holidays are left out on request.
 - **Lesson time never drifts** Clock changes in the UK are handled at the tutor's end.
 

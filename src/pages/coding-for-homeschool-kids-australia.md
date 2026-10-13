@@ -197,7 +197,7 @@ Because India time is behind every Australian state, our teachers can offer Aust
 - **After school or weekend** For families who mix home and part-time school.
 
 - **A free first class** Your child tries a short project, and we discuss how coding could fit your program.
-- **Small groups** Five to ten learners at a similar level, sometimes including other home-schooled children.
+- **Small groups** Fifteen to twenty learners at a similar level, sometimes including other home-schooled children.
 - **One to one** Shaped entirely around your child and your program.
 - **Exit tickets** A short written record after every lesson, in your child's words.
 - **Parents welcome** Sit in on any lesson; many parents learn too.
@@ -208,7 +208,7 @@ Because India time is behind every Australian state, our teachers can offer Aust
 Home-schooling families in Australia pay a monthly fee in US dollars. There is no joining fee and no commitment beyond the current month.
 
 - Free first class: USD 0. A short project with a teacher. A conversation about your program. No card or bank details.
-- Group batch: USD 100 a month. Five to ten learners per class. A consistent teacher. Daytime groups where available. Stop after any month.
+- Group batch: USD 100 a month. Fifteen to twenty learners per class. A consistent teacher. Daytime groups where available. Stop after any month.
 - One to one: USD 150 a month. Lessons built around your program. Daytime scheduling. Exit tickets after every lesson.
 
 ## What home-schooling families ask about coding

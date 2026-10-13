@@ -306,7 +306,7 @@ module.exports = {
       { h3: 'Every command visible', p: 'Prompts, installs and outputs all appear on the shared screen for the teacher to question.' },
       { h3: 'Built around terms', p: 'Lessons pause in WA school holidays and resume each term.' },
       { h3: 'Free trial', p: 'A real first lesson, then an honest view of the right course.' },
-      { h3: 'Five to ten in a group', p: 'Grouped by level and goal, or taught privately.' },
+      { h3: 'Fifteen to twenty in a group', p: 'Grouped by level and goal, or taught privately.' },
       { h3: 'Twice a week', p: 'Regular times, close to eight lessons each month.' },
       { h3: 'India time', p: 'With our teachers in India, a 6pm Armadale class starts at 3:30pm India time.' }
     ],
@@ -319,7 +319,7 @@ module.exports = {
     h2: 'Armadale lesson fees',
     intro: 'Three prices, applied to everyone.',
     first: 'Lesson one costs nothing and ends with a suggested next step.',
-    group: 'Group month: about eight live lessons with five to ten learners at one level.',
+    group: 'Group month: about eight live lessons with fifteen to twenty learners at one level.',
     private: 'Private month: about eight live lessons with one teacher.',
     closer: 'Armadale families pay in US dollars and only after the trial, once course and time suit them. The pricing page sets out holidays, absences and changes of format.'
   },
@@ -364,12 +364,12 @@ module.exports = {
       },
       {
         q: 'What do lessons cost for Armadale learners?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who is in each group?',
-        a: 'Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
+        a: 'Fifteen to twenty learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.',
         boiler: true
       },
       { q: 'Will Armadale groups learn Copilot Studio?', a: 'No. Copilot Studio is reserved for private lessons; groups build agents in Python code.' }

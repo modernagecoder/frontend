@@ -278,7 +278,7 @@ module.exports = {
       { h3: 'Live teacher', p: 'Each class is taught in real time, with code reviewed as learners type.' },
       { h3: 'School holidays', p: 'Classes pause during Territory school holidays.' },
       { h3: 'No-cost start', p: 'Your first class is free, and a short course plan follows.' },
-      { h3: 'Groups', p: 'Five to ten learners at a level, or one-to-one.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners at a level, or one-to-one.' },
       { h3: 'Pace', p: 'Twice-weekly classes across each school term.' },
       { h3: 'India time', p: 'A 5:30pm Casuarina class starts at 1:30pm in India, every day of the year.' }
     ],
@@ -327,12 +327,12 @@ module.exports = {
       },
       {
         q: 'What do Casuarina classes cost?',
-        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
+        a: 'The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of fifteen to twenty, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.',
         boiler: true
       },
       {
         q: 'Who would my child learn alongside?',
-        a: 'Five to ten learners of similar level and pace, whatever their age or where they live. One-to-one lessons are there if no group time works.',
+        a: 'Fifteen to twenty learners of similar level and pace, whatever their age or where they live. One-to-one lessons are there if no group time works.',
         boiler: true
       },
       { q: 'Do you teach adults?', a: 'We do. Grown-up learners have their own groups or private classes, and many analyse data from their workplace.' }

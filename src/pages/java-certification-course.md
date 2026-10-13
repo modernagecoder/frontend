@@ -118,7 +118,7 @@ Transparent monthly plans, no hidden charges. Certificate included on completion
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 learners per batch
+- 15–20 learners per batch
 - Live interactive classes
 - Recorded class access
 - Certificate + portfolio
@@ -129,7 +129,7 @@ Start Free DemoMost Popular
 
 ₹2,999per month · 2 classes/week
 
-- Only 3–4 learners per batch
+- Up to 6 learners per batch
 - More personal mentoring
 - Recorded class access
 - Certificate + portfolio
@@ -193,7 +193,7 @@ You earn the certificate by completing the course, attending the live classes, f
 
 How much does the Java certification course cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 learners is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. The certificate is included on completion, and a free demo class is available first.
+Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 learners is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. The certificate is included on completion, and a free demo class is available first.
 
 Is this course suitable for beginners?+
 

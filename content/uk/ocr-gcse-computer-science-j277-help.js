@@ -234,7 +234,7 @@ module.exports = {
       { h3: 'Writing by hand', p: 'Regular handwritten code, since an editor hides exactly the weaknesses a written paper exposes.' },
       { h3: 'Trace tables as a reflex', p: 'Built quickly and correctly, because Test questions in Section B ask for them directly.' },
       { h3: 'No calculator, ever', p: 'Binary and storage arithmetic practised by hand from the first term, as both papers require.' },
-      { h3: 'Groups by level', p: 'Five to ten students at one stage, comparing two answers to the same question.' }
+      { h3: 'Groups by level', p: 'Fifteen to twenty students at one stage, comparing two answers to the same question.' }
     ]
   },
 
@@ -246,7 +246,7 @@ module.exports = {
     h2: 'What GCSE tuition costs',
     lede: 'A flat charge each month, priced in US dollars for every country but India. Try the free lesson first; billing starts only once a course and a weekly time are fixed.',
     free: ['A full lesson using actual J277 questions', 'A blunt assessment of what is missing', 'Nothing asked for but a number to call'],
-    group: ['A room of five to ten at the same point', 'The same named teacher from start to finish', 'Handwritten answers read and returned each week', 'Fewer lessons in the run-up to the papers themselves'],
+    group: ['A room of fifteen to twenty at the same point', 'The same named teacher from start to finish', 'Handwritten answers read and returned each week', 'Fewer lessons in the run-up to the papers themselves'],
     one: ['One student, one teacher', 'Planned backwards from the exam dates', 'Useful where a grade target is specific']
   },
 

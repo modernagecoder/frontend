@@ -4,7 +4,7 @@ description: "Online maths tutor for Oxford learners aged 6 to 67: KS2 and SATs,
 canonical: https://learn.modernagecoders.com/maths-tuition-in-oxford
 source: src/pages/maths-tuition-in-oxford.html
 ---
-> Oxford learners aged 6 to 67 can study maths with Modern Age Coders in live online lessons. Primary children work towards the Year 6 SATs with secure tables; Years 7 to 9 cover KS3; GCSE students are taught at their tier (Foundation or Higher) and board (AQA, Edexcel or OCR), or for IGCSE; sixth formers take A level Maths and can add Further Maths topics; adults resit GCSE or refresh their statistics. A learner can be taught alone or in a class of five to ten at a matching level. Our Oxford project counts record-breaking years in the Met Office series from 1853: of 173 complete years, 7 were the wettest so far, against about 5.73 expected if every year were equally likely to set a record. The first lesson is free; continuing costs USD 100 a month in a class or USD 150 a month one to one.
+> Oxford learners aged 6 to 67 can study maths with Modern Age Coders in live online lessons. Primary children work towards the Year 6 SATs with secure tables; Years 7 to 9 cover KS3; GCSE students are taught at their tier (Foundation or Higher) and board (AQA, Edexcel or OCR), or for IGCSE; sixth formers take A level Maths and can add Further Maths topics; adults resit GCSE or refresh their statistics. A learner can be taught alone or in a class of fifteen to twenty at a matching level. Our Oxford project counts record-breaking years in the Met Office series from 1853: of 173 complete years, 7 were the wettest so far, against about 5.73 expected if every year were equally likely to set a record. The first lesson is free; continuing costs USD 100 a month in a class or USD 150 a month one to one.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Oxford
 
@@ -14,7 +14,7 @@ Oxford · Maths for every age from 6 to 67 · Live online teaching
 
 The Met Office publishes monthly weather figures for Oxford going back to 1853. Add up each year's rainfall and you have 173 complete years. Now a question a GCSE student can answer and a professional statistician still enjoys: how many of those years should have been the wettest so far? If every year is equally likely to be the wettest, the chance that year n breaks the record is 1 in n. Add those chances up and the answer is about 5.73. Oxford had 7. This page shows how we teach maths to Oxford learners, from times tables to A level, and uses those records as our running example.
 
-At a glance: Ages: 6 to 67, across Oxford; Primary: KS2, times tables, Year 6 SATs; KS3: Years 7 to 9, probability starts; GCSE: Foundation or Higher, AQA, Edexcel, OCR; A level: Maths, with Further Maths topics; Adults: Resits, statistics, refreshers; Lessons: Live online, private or 5 to 10 per class; Project: Record years in 173 years of data. Rated 4.9 across 547 Google reviews.
+At a glance: Ages: 6 to 67, across Oxford; Primary: KS2, times tables, Year 6 SATs; KS3: Years 7 to 9, probability starts; GCSE: Foundation or Higher, AQA, Edexcel, OCR; A level: Maths, with Further Maths topics; Adults: Resits, statistics, refreshers; Lessons: Live online, private or 15 to 20 per class; Project: Record years in 173 years of data. Rated 4.9 across 547 Google reviews.
 
 ## GCSE maths, A level maths and KS3
 
@@ -238,7 +238,7 @@ The clocks in India never change, so our team is 5.5 hours ahead of Oxford from 
 
 - **A familiar face** One teacher follows the learner through the course.
 - **Short reports** A few lines after lessons on progress and next steps.
-- **Level-matched classes** Five to ten learners at a similar point, never a mixed bag.
+- **Level-matched classes** Fifteen to twenty learners at a similar point, never a mixed bag.
 - **Long data sets** Weather records and census tables used alongside past papers.
 - **One to one option** For an approaching exam or a specific weakness.
 - **Reasons first** We explain why a method works before drilling it.
@@ -248,7 +248,7 @@ The clocks in India never change, so our team is 5.5 hours ahead of Oxford from 
 Monthly fees in US dollars, the same everywhere outside India, with no registration charge and no contract.
 
 - Free first class: USD 0. A complete lesson at the right level. A candid view afterwards. No card details.
-- Group batch: USD 100 a month. Five to ten learners at one level. A steady teacher. Homework marked and talked through. Certificate at the end.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. A steady teacher. Homework marked and talked through. Certificate at the end.
 - One to one: USD 150 a month. Private teaching. Shaped around one learner. Helpful close to an exam.
 
 ## Questions about maths tuition in Oxford
@@ -259,7 +259,7 @@ A harmonic number is the sum 1 + 1/2 + 1/3 and so on up to 1/n. It grows slowly,
 
 ### How much does a maths tutor in Oxford cost with you?
 
-The first lesson is free. Ongoing lessons cost USD 100 a month in a class of five to ten, or USD 150 a month one to one. There is no joining fee.
+The first lesson is free. Ongoing lessons cost USD 100 a month in a class of fifteen to twenty, or USD 150 a month one to one. There is no joining fee.
 
 ### Which GCSE boards do your tutors teach?
 
