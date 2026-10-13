@@ -397,7 +397,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 369 | c-plus-plus-classes-online-australia (cppa, #5C3620) | ag- national door | 3,091 | 0.9% vs game-development-for-kids-australia | one ampersand saves 2.7 seconds | pass by value vs const reference | b8beacba |
 | 379 | maths-tutor-hobart (mthb, #365284) | ag- maths by city | 3,333 | 1.1% vs maths-tutor-sunnybank | how steep is the road up kunanyi | gradient as rise over run, percent and angle | 07270312 |
 | 381 | maths-tutor-parramatta (mtpr, #296D66) | ag- maths by city | 3,053 | 1.5% vs maths-tutor-glen-waverley | how big is 85 hectares | area units, square metres to hectares | 2081867e |
-| 382 | maths-tutor-glen-waverley (mtgw, #853855) | ag- maths by city | 3,083 | 2.2% vs maths-tutor-box-hill | two numbers from a sum and a difference | simultaneous equations from a sum and a difference | (this commit) |
+| 382 | maths-tutor-glen-waverley (mtgw, #853855) | ag- maths by city | 3,083 | 2.2% vs maths-tutor-box-hill | two numbers from a sum and a difference | simultaneous equations from a sum and a difference | 4e73f698 |
+| 383 | maths-tutor-box-hill (mtbh, #265839) | ag- maths by city | 3,042 | 2.2% vs maths-tutor-glen-waverley | why areas scale by k squared on maps | area scale factor on scale drawings | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
