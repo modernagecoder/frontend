@@ -24,7 +24,7 @@ Up to Year 10, Australia teaches one national curriculum, and the trouble hides 
 
 Then comes the fork almost no one explains properly. At Year 11, students choose their maths: Standard or Advanced and Extensions in NSW; General, Methods or Specialist in Victoria and Queensland; parallel menus elsewhere. The choice looks like a difficulty setting. It is actually a **doors decision**: engineering, computer science, actuarial studies and most quantitative degrees expect Methods-level maths (often with Specialist), and discovering that in Year 12 is discovering it late.
 
-The standard Australian answers each solve part of it. Private tutors at A$50 to A$100 an hour are excellent when you find a good one, and expensive twice a week. Tutoring companies sell sessions that are often 50 minutes with rotating tutors. Worksheet franchises drill process without teaching.
+The standard Australian answers each solve part of it. Private tutors are excellent when you find a good one, and an hourly rate adds up fast at twice a week. Tutoring companies sell sessions that are often 50 minutes with rotating tutors. Worksheet franchises drill process without teaching.
 
 What we bring is the missing combination: **a dedicated mentor, a full interactive hour, twice a week, teaching for understanding**, the same depth-first method behind the world's strongest maths systems, mapped to your child's state and year level. Concrete before abstract, your child explaining aloud rather than watching, gaps repaired at the root instead of papered over. And because our cost base is global, the whole month of eight classes costs about what two hours with a local tutor would. Quality first; the price just makes trying it risk-free.
 
@@ -215,7 +215,7 @@ Every mentor teaches from a structured curriculum, adapted live to your child. I
 
 ## Deep teaching. One honest price.
 
-You are paying for a real teacher, live, for a full hour, twice a week, the format Australian private tutors bill A$50 to A$100 an hour for. Our cost base is global, so the price is not.
+You are paying for a real teacher, live, for a full hour, twice a week, the format Australian private tutors bill by the hour. Our cost base is global, so the price is not.
 
 ### 1:1 Private Mentorship
 
@@ -265,15 +265,15 @@ An honest comparison
 
 ## Your real options in Australia.
 
-| Option | Typical cost | What it really is | Best for |
+| Option | How it bills | What it really is | Best for |
 | --- | --- | --- | --- |
 | Modern Age Coders | $100-$150 / month | Live one-hour 1-on-1 classes, curriculum and state-syllabus exact, understanding-first | Sustained repair and stretch, from NAPLAN years to Methods |
-| Private tutors | A$50-$100+ / hour | Quality varies widely; twice weekly runs A$400-$800+ a month | Families who have found, and can keep, a proven local gem |
-| Online tutoring companies | A$60-$90 / session | Often 50-minute sessions, sometimes rotating tutors, learning plans of varying depth | Structured homework support at a session cadence |
-| Worksheet franchises | A$120-$180 / subject / month | Daily drill packets and brief check-ins, process without teaching | Building a practice habit and calculation speed |
-| Maths apps | A$10-$30 / month | Gamified practice, no teacher, no accountability | Extra reps between real lessons |
+| Private tutors | Billed per hour | Quality varies widely; twice weekly adds up quickly | Families who have found, and can keep, a proven local gem |
+| Online tutoring companies | Billed per session | Often 50-minute sessions, sometimes rotating tutors, learning plans of varying depth | Structured homework support at a session cadence |
+| Worksheet franchises | Billed per subject, monthly | Daily drill packets and brief check-ins, process without teaching | Building a practice habit and calculation speed |
+| Maths apps | Monthly subscription | Gamified practice, no teacher, no accountability | Extra reps between real lessons |
 
-Competitor figures are typical published Australian prices as of July 2026. See our full comparisons: [what maths tutoring costs](/online-math-tutor-cost) · [best online math tutoring 2026](/best-online-math-tutoring-2026).
+Other options are described by how they bill, not by price; our own fee is shown in your currency. See our full comparisons: [what maths tutoring costs](/online-math-tutor-cost) · [best online math tutoring 2026](/best-online-math-tutoring-2026).
 
 Parent questions
 
@@ -309,7 +309,7 @@ Usually, yes. Senior maths rewards ideas plus exam craft, and a focused arc, ide
 
 What does it cost, honestly?
 
-The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time. A local tutor twice a week typically runs A$400 to A$800 a month for the same contact time.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
 Why is an international mentor better than a local tutor?
 
