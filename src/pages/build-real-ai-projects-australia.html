@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Build Real AI Projects in Australia | Data, Baselines, Tests</title>
+  <meta name="description" content="Build real AI projects in Australia, ages 9 to 67: licensed ABS data, a baseline to beat, honest testing and a written report. Live online lessons, first class free.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/build-real-ai-projects-australia">
+  <link rel="alternate" type="text/markdown" href="/src/pages/build-real-ai-projects-australia.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#4A6D11">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/build-real-ai-projects-australia">
+  <meta property="og:title" content="Build Real AI Projects in Australia | Data, Baselines, Tests">
+  <meta property="og:description" content="Our model beat every simple forecast one month ahead and lost to &quot;this month again&quot; in three states a year ahead. A real AI project on ABS data, worked in full.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Build Real AI Projects in Australia">
+  <meta name="twitter:description" content="Real AI projects for Australians aged 9 to 67: licensed data, baselines, honest tests, clear write-ups. First class free.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-rapa .ag-hero h1 { letter-spacing: -0.013em; }
+.ag-root.ag-rapa .ag-capsule { border-left-width: 7px; border-radius: 3px; }
+.ag-root.ag-rapa .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-rapa .ag-table caption { text-align: left; font-weight: 615; }
+.ag-root.ag-rapa .ag-band-head h3 { letter-spacing: -0.013em; }
+.ag-root.ag-rapa .ag-slots { gap: 1.15rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/build-real-ai-projects-australia#page","url":"https://learn.modernagecoders.com/build-real-ai-projects-australia","name":"Build Real AI Projects in Australia","description":"A guide to building real AI projects in Australia: what makes a project real, how ABS data is licensed, and a forecasting project on ABS building approvals tested against simple baselines.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":4,"name":"Build real AI projects","item":"https://learn.modernagecoders.com/build-real-ai-projects-australia"}]},{"@type":"Course","name":"Build Real AI Projects in Australia","description":"Live online AI project lessons for Australians aged 9 to 67: finding licensed data, setting baselines, building and testing models, and writing up results honestly.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/build-real-ai-projects-australia"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/build-real-ai-projects-australia"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/build-real-ai-projects-australia"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is a real AI project?","acceptedAnswer":{"@type":"Answer","text":"It is a project that uses data you are permitted to use, compares the model with a simple baseline, tests it on data the model has not seen, and reports honestly where it fails."}},{"@type":"Question","name":"Can I use ABS data in my project?","acceptedAnswer":{"@type":"Answer","text":"The ABS says material on its website is provided under a Creative Commons Attribution 4.0 International licence, with exceptions such as the Coat of Arms, the ABS logo and trade-marked material. Credit the ABS, and check the specific product."}},{"@type":"Question","name":"What is a baseline?","acceptedAnswer":{"@type":"Answer","text":"It is the simplest sensible method, such as repeating last month's value. A model is only worth using where it beats the baseline on unseen data."}},{"@type":"Question","name":"Did your model beat the baselines?","acceptedAnswer":{"@type":"Answer","text":"One month ahead it was most accurate in 6 of 8 states and territories and for Australia. Twelve months ahead a simple baseline won in 4 of 8."}},{"@type":"Question","name":"What age can a child start real AI projects?","acceptedAnswer":{"@type":"Answer","text":"Around 9, with small Python projects and the same four tests in simple form."}},{"@type":"Question","name":"Do I need an AI account?","acceptedAnswer":{"@type":"Answer","text":"No. Projects are built in Python with free tools. Any online AI service used must allow the learner's age."}},{"@type":"Question","name":"Can a project help with school or university?","acceptedAnswer":{"@type":"Answer","text":"Skills transfer, but assessed work must be the learner's own under the institution's rules. We never write assessed work."}},{"@type":"Question","name":"What do lessons cost?","acceptedAnswer":{"@type":"Answer","text":"The first class is free and needs no card. Monthly fees appear in the fees section above."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/build-real-ai-projects-australia","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-rapa">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#real">What makes it real</a></li>
+      <li><a href="#licence">Data you may use</a></li>
+      <li><a href="#forecast">A worked project</a></li>
+      <li><a href="#ages">Projects by age</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / Build real AI projects
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; Ages 9 to 67 &middot; Real data, real baselines</p>
+        <h1>Build real AI projects</h1>
+        <p class="ag-lede">Most "AI projects" online are tutorials in disguise: a famous dataset, a model copied from a notebook, an accuracy figure nobody questions. A real project is different. It uses data you are allowed to use, it has a simple baseline the model must beat, it is tested on data it never saw, and it ends with an honest account of where it fails. Our live online lessons help Australians from 9 to 67 build projects like that, at a level that fits their age. This page sets out the four tests a real project passes, explains how Australian Bureau of Statistics data is licensed, and works through a full forecasting project on national building approvals in which the simple baselines sometimes win.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#forecast" class="ag-btn ag-btn--ghost">See the worked project</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Australia%20and%20would%20like%20to%20build%20real%20AI%20projects.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'rapa'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; every project measured against a simple baseline</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Ages 9 to 67</dd>
+          <dt>Data</dt><dd>Licensed public sources</dd>
+          <dt>Rule one</dt><dd>Beat a simple baseline</dd>
+          <dt>Testing</dt><dd>On unseen, later data</dd>
+          <dt>Output</dt><dd>A written project report</dd>
+          <dt>Format</dt><dd>Live online lessons</dd>
+          <dt>Group</dt><dd>Five to ten, or one to one</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>A real AI project uses data you are permitted to use, compares the model with a simple baseline, tests it on data it has not seen, and reports honestly where it fails. Australian Bureau of Statistics material is published under a Creative Commons Attribution 4.0 licence, with a few exceptions, which makes it a strong source. Modern Age Coders guides Australians aged 9 to 67 through projects like this live online, and the first class is free.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three project courses, by age</h2>
+      <p class="ag-lede">Children start with small Python projects, teenagers build and test real models, and adults go into deep learning and generative AI. Open a card for the syllabus.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">RAPA / 01</p>
+          <h3>Python and AI for Kids</h3>
+          <p>Ages 9 to 12: games, turtle art and first smart programs, with no adult AI accounts.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-teens.webp" alt="AI and Machine Learning for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">RAPA / 02</p>
+          <h3>AI and Machine Learning for Teens</h3>
+          <p>Ages 13 to 18: Python to real models, tested properly on held-back data.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-complete-college">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-college.webp" alt="AI and ML Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">RAPA / 03</p>
+          <h3>AI and ML Masterclass for Adults</h3>
+          <p>Ages 18 and over: machine learning, deep learning and generative AI, project by project.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="real">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What makes it real</p><h2>Four tests every real AI project passes</h2><p class="ag-lede">We use the same four tests for a 10 year old's first classifier and an adult's forecasting model. Only the depth changes.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The four tests</caption><thead><tr><th scope="col">Test</th><th scope="col">The question</th><th scope="col">A project fails when</th></tr></thead><tbody><tr><td>1. Permission</td><td>Are we allowed to use this data, and how must we credit it?</td><td>The licence was never checked</td></tr><tr><td>2. Baseline</td><td>What does the simplest sensible method score?</td><td>The model is never compared with anything</td></tr><tr><td>3. Unseen data</td><td>Was the test data kept away from training, in time order where time matters?</td><td>The model was tested on what it learned from</td></tr><tr><td>4. Honest write-up</td><td>Where does it fail, and for whom?</td><td>Only the most flattering number is reported</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The curriculum points the same way</h3><p>A Years 9 and 10 Digital Technologies elaboration describes "accessing and storing data from the Australian Bureau of Statistics in a format that is useful for analysis". Another asks students to consider "the complexities associated with training predictive models to capture events that occur with low probability".</p>
+<p>Both are exactly the habits a real project needs: real public data, and humility about what a model can predict.</p></div><div><h3>Why the baseline matters most</h3><p>A model that scores 85% sounds impressive until a one-line rule scores 87%. Without a baseline, nobody can tell whether the AI added anything.</p>
+<p>In our lessons, the baseline is written and scored first, before any model is trained.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="licence">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Data you may use</p><h2>Australian Bureau of Statistics data and its licence</h2><p class="ag-lede">Permission is the first test, and the ABS makes it easier than most sources.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>What the ABS licence says</h3><p>The ABS states: "All material presented on this website is provided under a Creative Commons Attribution 4.0 International licence", with exceptions including the Commonwealth Coat of Arms, the ABS logo and material protected by a trade mark.</p>
+<p>Attribution 4.0 allows reuse, including in projects shared publicly, provided the source is credited. Every project we build on ABS data carries that credit.</p></div><div><h3>Read the product, not just the website</h3><p>The ABS also notes that customised reports carry their own licensing and that "Where no indication of licensing is provided within the product, full copyright terms will apply."</p>
+<p>Students learn to check the licence of the specific table they download, and to keep a note of it beside the data.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Choosing data for a project</caption><thead><tr><th scope="col">Source type</th><th scope="col">Usually</th><th scope="col">Check before using</th></tr></thead><tbody><tr><td>ABS tables and Data API</td><td>Creative Commons Attribution 4.0</td><td>Exceptions and product-specific terms</td></tr><tr><td>Other government open data portals</td><td>Often an open licence</td><td>The licence on each dataset page</td></tr><tr><td>Websites and social media</td><td>Not licensed for reuse</td><td>Terms of use; personal information</td></tr><tr><td>Data you collect yourself</td><td>Yours, with consent rules</td><td>Privacy and consent of the people involved</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source, read 13 October 2026: Australian Bureau of Statistics, <a class="ag-inline-link" href="https://www.abs.gov.au/website-privacy-copyright-and-disclaimer" rel="noopener" target="_blank">website privacy, copyright and disclaimer</a>. This is general information about a licence, not legal advice.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="forecast">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A worked project</p><h2>How far ahead can a model forecast building approvals?</h2><p class="ag-lede">A complete real project on ABS data: the number of new dwelling units approved each month, forecast 1, 3, 6 and 12 months ahead, and tested against three simple baselines.</p></div>
+    <p>From the ABS Data API we downloaded the monthly count of dwelling units approved (all residential building, original series) for Australia and each state and territory, 2010-01 to 2026-08. Our model is a ridge regression that looks at the last 12 months and the calendar month being forecast, retrained at every step. We tested it the way a real forecaster works: standing at each month from 2018-12 onwards, using only data available then, forecasting ahead, and comparing with what the ABS later published. The score is the average percentage error.</p>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Australia: average error by forecast horizon, 92 to 81 test points (our calculation on ABS data)</caption><thead><tr><th scope="col">Forecast horizon</th><th scope="col">This month again</th><th scope="col">Same month last year</th><th scope="col">Average of last 12 months</th><th scope="col">Our model</th></tr></thead><tbody><tr><td>1 month</td><td class="ag-num">13.4%</td><td class="ag-num">15.7%</td><td class="ag-num">12.5%</td><td class="ag-num">8.9%</td></tr><tr><td>3 months</td><td class="ag-num">14.0%</td><td class="ag-num">15.4%</td><td class="ag-num">13.4%</td><td class="ag-num">9.7%</td></tr><tr><td>6 months</td><td class="ag-num">16.3%</td><td class="ag-num">15.1%</td><td class="ag-num">15.2%</td><td class="ag-num">12.1%</td></tr><tr><td>12 months</td><td class="ag-num">14.6%</td><td class="ag-num">14.6%</td><td class="ag-num">18.4%</td><td class="ag-num">12.8%</td></tr></tbody></table></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>States and territories: one month and twelve months ahead (our calculation)</caption><thead><tr><th scope="col">State or territory</th><th scope="col">Model error, 1 month</th><th scope="col">Most accurate, 1 month</th><th scope="col">Model error, 12 months</th><th scope="col">Most accurate, 12 months</th></tr></thead><tbody><tr><td>NSW</td><td class="ag-num">17.6%</td><td>Our model</td><td class="ag-num">21.9%</td><td>Our model</td></tr><tr><td>Victoria</td><td class="ag-num">13.3%</td><td>Our model</td><td class="ag-num">15.6%</td><td>Our model</td></tr><tr><td>Queensland</td><td class="ag-num">13.4%</td><td>Our model</td><td class="ag-num">18.5%</td><td>Our model</td></tr><tr><td>South Australia</td><td class="ag-num">11.3%</td><td>Our model</td><td class="ag-num">16.4%</td><td>Our model</td></tr><tr><td>Western Australia</td><td class="ag-num">13.7%</td><td>Our model</td><td class="ag-num">34.9%</td><td>This month again (same as last year's month at 12)</td></tr><tr><td>Tasmania</td><td class="ag-num">18.6%</td><td>Our model</td><td class="ag-num">24.8%</td><td>This month again (same as last year's month at 12)</td></tr><tr><td>Northern Territory</td><td class="ag-num">59.9%</td><td>Average of last 12 months</td><td class="ag-num">55.2%</td><td>This month again (same as last year's month at 12)</td></tr><tr><td>ACT</td><td class="ag-num">112.7%</td><td>Average of last 12 months</td><td class="ag-num">118.1%</td><td>Average of last 12 months</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Error grows with distance</h3><p>For Australia as a whole, the model's average error rose from 8.9% one month ahead to 12.8% twelve months ahead. Its lead over the plain "this month again" forecast shrank from 4.5 points to 1.8.</p></div><div><h3>Where the baselines win</h3><p>Twelve months ahead, a simple baseline beat the model in 4 of the 8 states and territories. In the smallest markets the model sometimes did worse than repeating the latest month, because there was too little regular pattern to learn.</p></div><div><h3>Some series barely forecast at all</h3><p>In the ACT, approvals swing so much from month to month that every method's average error was above 95%. Saying so plainly is part of the project, and it echoes the curriculum's caution about rare, lumpy events.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What a learner writes up</h3><p>The model is useful one to three months ahead for the national total and the larger states, and close to useless a year ahead in smaller ones. A one-line baseline is the right tool where it wins, and the report names those places.</p>
+<p>At twelve months, "same month last year" and "this month again" are the same forecast, which is why those two columns match; noticing that is part of reading results carefully.</p></div><div><h3>What we deliberately left out</h3><p>The ABS also publishes the dollar value of approved building work. We used counts of dwellings only; projects at every age in our classes avoid money figures.</p>
+<p>Seasonally adjusted series exist too. We used the original series so that the model had to learn the seasons itself.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Data: Australian Bureau of Statistics, Building Approvals (Data API dataflow BA_GCCSA), number of dwelling units, total residential, original, monthly, licensed under <a class="ag-inline-link" href="https://creativecommons.org/licenses/by/4.0/" rel="noopener" target="_blank">CC BY 4.0</a>. Downloaded 13 October 2026; all forecasts and errors are our calculation.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="ages">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Projects by age</p><h2>Real projects at every age</h2><p class="ag-lede">The four tests apply at 9 and at 67. The data, tools and maths change.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Typical real projects</caption><thead><tr><th scope="col">Age</th><th scope="col">Project</th><th scope="col">Baseline it must beat</th></tr></thead><tbody><tr><td>9 to 12</td><td>A program that learns to sort short words into groups from labelled examples</td><td>Always guessing the biggest group</td></tr><tr><td>13 to 15</td><td>Predicting tomorrow's school-day temperature from past readings</td><td>Today's temperature again</td></tr><tr><td>16 to 18</td><td>Classifying public text, such as dataset titles, by topic</td><td>A keyword rule</td></tr><tr><td>Adults</td><td>Forecasting a public series, as above, with a full write-up</td><td>Last value and same month last year</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Age rules for AI tools</h3><p>Real projects at school age are built in Python with no adult-only AI service. Where a project uses any online service, its own minimum age applies; our <a class="ag-inline-link" href="/ai-tools-age-guide">AI tool age guide</a> lists published rules.</p>
+<p>Younger learners can start with the <a class="ag-inline-link" href="/python-ai-course-for-kids-australia">Python AI course for kids</a>.</p></div><div><h3>Where these projects lead</h3><p>Teens can take a project into a school task where the rules allow it, as their own work. Adults often turn one into a portfolio piece or a tool at work.</p>
+<p>Learners wanting a broader class route can read about <a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-australia">AI and machine learning classes in Australia</a>.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="report">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The write-up</p><h2>The one-page report every project ends with</h2><p class="ag-lede">Writing it is where most of the learning happens.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Report headings</caption><thead><tr><th scope="col">Heading</th><th scope="col">What goes there</th></tr></thead><tbody><tr><td>Data</td><td>Source, licence, date downloaded, anything excluded and why</td></tr><tr><td>Baseline</td><td>The simple method and its score</td></tr><tr><td>Model</td><td>What it is, in plain words, and its score on unseen data</td></tr><tr><td>Where it fails</td><td>The cases, groups or horizons where it does worse</td></tr><tr><td>Use or not</td><td>An honest recommendation, including "use the baseline"</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progress</p>
+      <h2>Four levels of project skill</h2>
+      <p class="ag-lede">Learners usually complete a full project, report included, within one or two terms.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From tutorial follower to project owner</caption><thead><tr><th scope="col">Level</th><th scope="col">What you can do</th></tr></thead><tbody><tr><td>1. Follower</td><td class="ag-num">Run a model on prepared data and read its score</td></tr><tr><td>2. Tester</td><td class="ag-num">Write a baseline and test on held-back data</td></tr><tr><td>3. Builder</td><td class="ag-num">Choose licensed data, build, test and report a project end to end</td></tr><tr><td>4. Critic</td><td class="ag-num">Find where your own model fails and say so first</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Does a child really need baselines?</h3><p>Yes, in simple form. "Would guessing the biggest group do as well?" is a question a 10 year old can ask and answer.</p>
+<p>Children who learn it early question AI claims for life.</p></div><div><h3>Do adults need maths?</h3><p>School maths is enough to start. The ideas behind regression and error are taught as they are needed.</p>
+<p>Deeper maths is optional and offered when a project calls for it.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Courses for project builders</h2>
+      <p class="ag-lede">Three age bands. Each course includes at least one full project with a report.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Children</h3>
+        <span class="ag-band-sub">Ages 9 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">RAPA / KID / 01</p>
+          <h4>Python and AI for Kids</h4>
+          <p>First smart programs.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RAPA / KID / 02</p>
+          <h4>AI Literacy for Kids</h4>
+          <p>Understanding AI, ages 8 to 14.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RAPA / KID / 03</p>
+          <h4>Maths Through Coding</h4>
+          <p>Python and maths, 10 to 15.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Teenagers</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">RAPA / TEN / 01</p>
+          <h4>AI and ML for Teens</h4>
+          <p>Real models, tested.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RAPA / TEN / 02</p>
+          <h4>Data Science for Teens</h4>
+          <p>Data and first models.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RAPA / TEN / 03</p>
+          <h4>Orange Data Mining for Teens</h4>
+          <p>Visual machine learning.</p>
+          <a class="ag-course-link" href="/courses/orange-data-mining-visual-machine-learning-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Adults</h3>
+        <span class="ag-band-sub">Ages 18 and over</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">RAPA / ADL / 01</p>
+          <h4>AI and ML Masterclass</h4>
+          <p>Deep learning and GenAI.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-complete-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RAPA / ADL / 02</p>
+          <h4>Data Science Course</h4>
+          <p>Python, ML and more.</p>
+          <a class="ag-course-link" href="/courses/data-science-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RAPA / ADL / 03</p>
+          <h4>Maths for Data Science</h4>
+          <p>Statistics and linear algebra.</p>
+          <a class="ag-course-link" href="/courses/data-analytics-mathematics-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Project lessons in Australian hours</h2>
+      <p class="ag-lede">Lessons come from our team in India, at times that fall in Australian after-school hours, evenings and weekends. Everything is booked in your state's time, daylight saving included.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">Children and teenagers.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Evening</p><p class="ag-slot-l">Adults, by arrangement.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">Longer data and modelling sessions.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Free first class</h3><p>A baseline scored on real data, in one lesson.</p></div>
+      <div><h3>Small groups</h3><p>Five to ten learners reviewing each other's reports.</p></div>
+      <div><h3>One to one</h3><p>For one project, at your depth.</p></div>
+      <div><h3>Licensed data</h3><p>Every dataset's licence noted.</p></div>
+      <div><h3>Baselines first</h3><p>No model without something to beat.</p></div>
+      <div><h3>Age rules kept</h3><p>No service below its minimum age.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects published by our learners</h2>
+      <p class="ag-lede">Work from our students that is still online for anyone to explore. The <a class="ag-inline-link" href="/student-labs">student labs</a> show more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for AI project lessons</h2>
+      <p class="ag-lede">Learners in Australia pay a monthly fee in US dollars. Joining costs nothing, and lessons may stop at the close of any month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A baseline on real data</li><li>A project idea matched to age</li><li>No payment details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten learners per group</li><li>Report reviews between learners</li><li>A regular teacher</li><li>Stop at any month's close</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>One learner's own project</li><li>Depth set by the learner</li><li>Times around school or work</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Verbatim Google reviews of our teaching, unedited.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learners and parents ask</p>
+      <h2>Questions about building real AI projects in Australia</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is a real AI project?</h3>
+        <p>It is a project that uses data you are permitted to use, compares the model with a simple baseline, tests it on data the model has not seen, and reports honestly where it fails.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I use ABS data in my project?</h3>
+        <p>The ABS says material on its website is provided under a Creative Commons Attribution 4.0 International licence, with exceptions such as the Coat of Arms, the ABS logo and trade-marked material. Credit the ABS, and check the specific product.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is a baseline?</h3>
+        <p>It is the simplest sensible method, such as repeating last month's value. A model is only worth using where it beats the baseline on unseen data.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Did your model beat the baselines?</h3>
+        <p>One month ahead it was most accurate in 6 of 8 states and territories and for Australia. Twelve months ahead a simple baseline won in 4 of 8.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age can a child start real AI projects?</h3>
+        <p>Around 9, with small Python projects and the same four tests in simple form.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need an AI account?</h3>
+        <p>No. Projects are built in Python with free tools. Any online AI service used must allow the learner's age.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a project help with school or university?</h3>
+        <p>Skills transfer, but assessed work must be the learner's own under the institution's rules. We never write assessed work.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What do lessons cost?</h3>
+        <p>The first class is free and needs no card. Monthly fees appear in the fees section above.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Also on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Neighbouring AI pages.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>Where all our Australian pages meet.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-australia">AI and machine learning classes</a></h3><p>The broader class route.</p></div>
+      <div><h3><a class="ag-inline-link" href="/learn-to-train-ai-not-just-prompt-it-australia">Learn to train AI</a></h3><p>Labels, training and testing.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-ai-course-for-kids-australia">Python AI course for kids</a></h3><p>For learners aged 9 to 13.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-classes-for-teens-australia">AI classes for teens</a></h3><p>Use, check and build.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-tools-age-guide">AI tool age guide</a></h3><p>Published minimum ages.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Tell us a phone number and a convenient time. In the free lesson we score a simple baseline on real Australian data together, then suggest a first project.</p>
+        <p class="ag-mt-40">You can also read about <a class="ag-inline-link" href="/how-we-teach">our teaching</a> or browse <a class="ag-inline-link" href="/courses">our full range</a> first.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Australia%20and%20would%20like%20to%20build%20real%20AI%20projects.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'rapa',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">The +91 number reaches our team in India; Modern Age Coders has no Australian premises. WhatsApp from an Australian mobile usually gets the fastest reply.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_rapa(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card, no obligation.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>AI projects</h4><ul><li><a href="/ai-and-machine-learning-classes-in-australia">AI and machine learning</a></li><li><a href="/learn-to-train-ai-not-just-prompt-it-australia">Learn to train AI</a></li><li><a href="/python-ai-course-for-kids-australia">Python AI for kids</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div><h4>Australia</h4><ul><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/ai-classes-for-teens-australia">AI classes for teens</a></li><li><a href="/ai-tools-age-guide">AI tool age guide</a></li><li><a href="/australian-student-hackathons">Student hackathons</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Beat the baseline, or say so</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_rapa = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'build-real-ai-projects-australia-inline', meta: { name: name, age: age, page: 'build-real-ai-projects-australia' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

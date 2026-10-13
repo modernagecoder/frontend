@@ -618,6 +618,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding for university students](/coding-for-university-students-australia)
 - [AI agents course for students](/ai-agents-course-for-students-australia)
 - [AI agents course for professionals](/ai-agents-course-for-professionals-australia)
+- [Build real AI projects](/build-real-ai-projects-australia)
 <!-- AU-LINKS -->
 
 
